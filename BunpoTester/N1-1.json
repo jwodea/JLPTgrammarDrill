@@ -1,0 +1,1911 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "level": "N1",
+    "file_number": 1,
+    "total_patterns": 100,
+    "description": "JLPT N1 grammar exercises - Set 1"
+  },
+  "grammar": [
+    {
+      "id": "n1_001_1",
+      "pattern": "〜ともなると",
+      "meaning": "when it comes to (a high level/status)",
+      "level": "N1",
+      "example_sentence": "[ファイル1]弁護士ともなると、法律相談に応じることが求められる。",
+      "translation": "[ファイル1] When one becomes a 弁護士, 法律相談に応じる is required.",
+      "blank_target": "ともなると",
+      "wrong_choices": [
+        "ともなれば",
+        "としても",
+        "にしては"
+      ],
+      "wrong_choice_explanations": [
+        "ともなれば expresses a condition ('if one becomes'), whereas ともなると emphasizes the status transition itself as a context.",
+        "としても marks concession or a hypothetical role, but doesn't convey the specific sense of status transition.",
+        "にしては expresses a standard or expectation relative to something, not a status-based contextual shift."
+      ]
+    },
+    {
+      "id": "n1_002_1",
+      "pattern": "〜ともなれば",
+      "meaning": "once one reaches the level of",
+      "level": "N1",
+      "example_sentence": "教授ともなれば、研究論文の発表が求められる。",
+      "translation": "Once one reaches the rank of professor, publication of research papers is required.",
+      "blank_target": "ともなれば",
+      "wrong_choices": [
+        "ともなると",
+        "と言えば",
+        "のようになると"
+      ],
+      "wrong_choice_explanations": [
+        "ともなると marks context of status without the temporal 'once' sense; ともなれば better conveys the sequential reaching of a rank.",
+        "と言えば means 'one could say' or 'speaking of', which is more about manner of expression than status transition.",
+        "のようになると means 'comes to seem like' or 'becomes similar to', not the formal status elevation."
+      ]
+    },
+    {
+      "id": "n1_003_1",
+      "pattern": "〜をものともせず",
+      "meaning": "undaunted by / in defiance of",
+      "level": "N1",
+      "example_sentence": "困難をものともせず、プロジェクトを推進した。",
+      "translation": "Undaunted by difficulties, we advanced the project.",
+      "blank_target": "をものともせず",
+      "wrong_choices": [
+        "ともなれば",
+        "なりとも",
+        "ばかりか"
+      ],
+      "wrong_choice_explanations": [
+        "ともなれば marks a conditional reaching of status, but the sentence needs a pattern for disregarding/being undaunted.",
+        "なりとも is used with negative forms to mean 'not even one', fitting different grammatical structures.",
+        "ばかりか means 'not only... but also', indicating addition rather than disregard or defiance."
+      ]
+    },
+    {
+      "id": "n1_004_1",
+      "pattern": "〜んがため",
+      "meaning": "in order to (literary)",
+      "level": "N1",
+      "example_sentence": "社会福祉の充実んがため、予算が配分された。",
+      "translation": "For the sake of improving social welfare, a budget was allocated.",
+      "blank_target": "んがため",
+      "wrong_choices": [
+        "んばかりに",
+        "ために",
+        "ゆえに"
+      ],
+      "wrong_choice_explanations": [
+        "んばかりに means 'as if about to do', expressing near-action; んがため expresses purpose/reason distinctly.",
+        "ために is casual for purpose, lacking the literary/formal tone that んがため provides.",
+        "ゆえに marks cause but not the formal purposive sense that んがため carries."
+      ]
+    },
+    {
+      "id": "n1_005_1",
+      "pattern": "〜んばかりに",
+      "meaning": "as if about to / almost as though",
+      "level": "N1",
+      "example_sentence": "泣かんばかりに、その報告に反応した。",
+      "translation": "He reacted to the report almost as if about to cry.",
+      "blank_target": "んばかりに",
+      "wrong_choices": [
+        "んがため",
+        "ために",
+        "べく"
+      ],
+      "wrong_choice_explanations": [
+        "んがため is purpose-oriented ('in order to'), whereas んばかりに marks imminent action or appearance.",
+        "ために expresses purpose casually, but the sentence needs the near-action nuance of んばかりに.",
+        "べく expresses intention or necessity, differing from the appearance-of-near-action sense."
+      ]
+    },
+    {
+      "id": "n1_006_1",
+      "pattern": "〜たりとも〜ない",
+      "meaning": "not even one / not a single",
+      "level": "N1",
+      "example_sentence": "一銭たりとも無駄にしてはならない。",
+      "translation": "Not even a single cent should be wasted.",
+      "blank_target": "たりとも",
+      "wrong_choices": [
+        "ほかならぬ",
+        "までも",
+        "すら"
+      ],
+      "wrong_choice_explanations": [
+        "ほかならぬ means 'nothing but' or 'is solely', which differs from the exclusive negation that たりとも provides.",
+        "までも means 'even to the extent of', adding emphasis differently than the strict negation of たりとも.",
+        "すら means 'even', adding surprise or emphasis, but doesn't provide the exclusive negation like たりとも does."
+      ]
+    },
+    {
+      "id": "n1_007_1",
+      "pattern": "〜ならでは",
+      "meaning": "unique to / only possible with",
+      "level": "N1",
+      "example_sentence": "日本の文化ならでは の美しさが感じられる。",
+      "translation": "The beauty unique to Japanese culture is felt.",
+      "blank_target": "ならでは",
+      "wrong_choices": [
+        "ばかりか",
+        "ならではの",
+        "ならば"
+      ],
+      "wrong_choice_explanations": [
+        "ばかりか means 'not only... but also', marking addition rather than uniqueness or exclusivity.",
+        "ならではの is attributive form; ならでは is predicative and differently structured in this context.",
+        "ならば marks a conditional 'if', not the exclusive 'unique to' meaning."
+      ]
+    },
+    {
+      "id": "n1_008_1",
+      "pattern": "〜にたえる",
+      "meaning": "worthy of / can withstand",
+      "level": "N1",
+      "example_sentence": "その提案は検討に耐える内容である。",
+      "translation": "That proposal is worthy of examination.",
+      "blank_target": "に耐える",
+      "wrong_choices": [
+        "にたえない",
+        "に値する",
+        "として"
+      ],
+      "wrong_choice_explanations": [
+        "にたえない adds negation (cannot bear), changing meaning to unfitness rather than worthiness.",
+        "に値する means 'worthy of' similarly but uses a different structure (値) that fits different constructions.",
+        "として marks role or identity, not worthiness or capability to withstand."
+      ]
+    },
+    {
+      "id": "n1_009_1",
+      "pattern": "〜にたえない",
+      "meaning": "cannot bear / unworthy of",
+      "level": "N1",
+      "example_sentence": "その行為は非難に耐えない。",
+      "translation": "That action is unworthy of criticism / cannot bear criticism.",
+      "blank_target": "に耐えない",
+      "wrong_choices": [
+        "にたえる",
+        "に対する",
+        "にせよ"
+      ],
+      "wrong_choice_explanations": [
+        "にたえる means 'can withstand / is worthy', but the sentence requires the negative sense of unworthiness.",
+        "に対する marks direction or opposition, not the sense of bearing or unworthiness.",
+        "にせよ marks concession ('even if'), not unfitness or inability to bear."
+      ]
+    },
+    {
+      "id": "n1_010_1",
+      "pattern": "〜まじき",
+      "meaning": "unbecoming of / should not (literary)",
+      "level": "N1",
+      "example_sentence": "医者まじき振る舞いだ。",
+      "translation": "It is conduct unbecoming a doctor.",
+      "blank_target": "まじき",
+      "wrong_choices": [
+        "ではあるまじき",
+        "べきではない",
+        "ってはいけない"
+      ],
+      "wrong_choice_explanations": [
+        "ではあるまじき is a negation of the copula, providing emphasis differently than the simple attribute form.",
+        "べきではない is modern negation of obligation; まじき is archaic/formal for impropriety.",
+        "ってはいけない is colloquial for prohibition, lacking the formal 'unbecoming' nuance."
+      ]
+    },
+    {
+      "id": "n1_011_1",
+      "pattern": "〜べからず",
+      "meaning": "must not / shall not (prohibitive, literary)",
+      "level": "N1",
+      "example_sentence": "嘘をつくべからず。",
+      "translation": "One must not lie.",
+      "blank_target": "べからず",
+      "wrong_choices": [
+        "べからざる",
+        "べきでない",
+        "してはならない"
+      ],
+      "wrong_choice_explanations": [
+        "べからざる marks what must not be (passive prohibition), while べからず is direct imperative.",
+        "べきでない is modern colloquial for 'should not', lacking the formal literary tone.",
+        "してはならない is modern prohibition form, less literary than べからず."
+      ]
+    },
+    {
+      "id": "n1_012_1",
+      "pattern": "〜べからざる",
+      "meaning": "indispensable / that must not be",
+      "level": "N1",
+      "example_sentence": "否定すべからざる事実である。",
+      "translation": "It is an undeniable fact.",
+      "blank_target": "べからざる",
+      "wrong_choices": [
+        "べからず",
+        "べきではない",
+        "なくてはならない"
+      ],
+      "wrong_choice_explanations": [
+        "べからず is imperative ('must not do'), whereas べからざる marks attributive necessity or prohibition.",
+        "べきではない is modern negation, not the formal indispensability sense.",
+        "なくてはならない means 'must have' or 'is essential', differing from the restrictive sense."
+      ]
+    },
+    {
+      "id": "n1_013_1",
+      "pattern": "〜をおいて",
+      "meaning": "apart from / other than (no one else)",
+      "level": "N1",
+      "example_sentence": "この仕事は彼をおいてない。",
+      "translation": "No one but him can do this job.",
+      "blank_target": "をおいて",
+      "wrong_choices": [
+        "をおきて",
+        "を除いて",
+        "ほかに"
+      ],
+      "wrong_choice_explanations": [
+        "をおきて is not standard modern Japanese; it may be archaic or erroneous.",
+        "を除いて means 'except for / excluding', emphasizing elimination rather than sole capability.",
+        "ほかに means 'besides / in addition to', not the exclusive sense of 'only one can do'."
+      ]
+    },
+    {
+      "id": "n1_014_1",
+      "pattern": "〜ならいざしらず",
+      "meaning": "it might be different if... but",
+      "level": "N1",
+      "example_sentence": "戦争ならいざしらず、平時にそれは許されない。",
+      "translation": "In war it might be understandable, but in peacetime it is not permitted.",
+      "blank_target": "ならいざしらず",
+      "wrong_choices": [
+        "ならば",
+        "ならいざ",
+        "であれば"
+      ],
+      "wrong_choice_explanations": [
+        "ならば is a simple conditional; ならいざしらず adds concession and context-dependent meaning.",
+        "ならいざ is incomplete; the full form is ならいざしらず.",
+        "であれば is a simple conditional from the copula, lacking the concessive nuance."
+      ]
+    },
+    {
+      "id": "n1_015_1",
+      "pattern": "〜はおろか",
+      "meaning": "let alone / far from",
+      "level": "N1",
+      "example_sentence": "日本語はおろか、英語もできない。",
+      "translation": "Far from Japanese, he cannot even speak English.",
+      "blank_target": "はおろか",
+      "wrong_choices": [
+        "をはじめ",
+        "ばかりか",
+        "にもかかわらず"
+      ],
+      "wrong_choice_explanations": [
+        "をはじめ means 'starting with / beginning from', marking the first item in a list.",
+        "ばかりか means 'not only... but also', indicating addition rather than exclusion.",
+        "にもかかわらず means 'in spite of', marking contrast without the exclusive negation sense."
+      ]
+    },
+    {
+      "id": "n1_016_1",
+      "pattern": "〜もさることながら",
+      "meaning": "not only... but also (the latter even more so)",
+      "level": "N1",
+      "example_sentence": "結果もさることながら、過程が重要だ。",
+      "translation": "Not only the result but the process is important.",
+      "blank_target": "もさることながら",
+      "wrong_choices": [
+        "ばかりか",
+        "だけではなく",
+        "にもかかわらず"
+      ],
+      "wrong_choice_explanations": [
+        "ばかりか stresses both items equally; もさることながら emphasizes the latter item more.",
+        "だけではなく expresses 'not only... but also' with equal emphasis, unlike the unbalanced comparison.",
+        "にもかかわらず marks concession, not the comparative emphasis of importance."
+      ]
+    },
+    {
+      "id": "n1_017_1",
+      "pattern": "〜に至っては",
+      "meaning": "as for (the extreme case)",
+      "level": "N1",
+      "example_sentence": "最後のテストに至っては、合格者がいなかった。",
+      "translation": "As for the final test, there were no passing students.",
+      "blank_target": "に至っては",
+      "wrong_choices": [
+        "に至る",
+        "に関しては",
+        "については"
+      ],
+      "wrong_choice_explanations": [
+        "に至る means 'reaches / comes to', marking arrival; に至っては marks the extreme case.",
+        "に関しては marks a general topic or subject matter, not an extreme case.",
+        "については is a general topical marker, not specifying the extreme or limiting case."
+      ]
+    },
+    {
+      "id": "n1_018_1",
+      "pattern": "〜ないまでも",
+      "meaning": "even if not / at least",
+      "level": "N1",
+      "example_sentence": "完璧ではないまでも、十分な結果である。",
+      "translation": "While not perfect, it is a sufficient result.",
+      "blank_target": "ないまでも",
+      "wrong_choices": [
+        "ないままでも",
+        "ないたりとも",
+        "ないかぎり"
+      ],
+      "wrong_choice_explanations": [
+        "ないままでも keeps the condition ongoing, whereas ないまでも marks acceptance of imperfection.",
+        "ないたりとも is not standard; たりとも requires a specific context.",
+        "ないかぎり means 'unless / if not', expressing a condition rather than accepting imperfection."
+      ]
+    },
+    {
+      "id": "n1_019_1",
+      "pattern": "〜ずにはすまない",
+      "meaning": "cannot avoid doing / must do",
+      "level": "N1",
+      "example_sentence": "謝罪せずにはすまない。",
+      "translation": "One cannot help but apologize.",
+      "blank_target": "ずにはすまない",
+      "wrong_choices": [
+        "ずにはいられない",
+        "ないではいられない",
+        "にもかかわらず"
+      ],
+      "wrong_choice_explanations": [
+        "ずにはいられない emphasizes inability to resist, while ずにはすまない marks unavoidable responsibility.",
+        "ないではいられない conveys irresistible compulsion, slightly differing from the obligation sense.",
+        "にもかかわらず marks contrast or concession, not compulsion or necessity."
+      ]
+    },
+    {
+      "id": "n1_020_1",
+      "pattern": "〜ないものでもない",
+      "meaning": "it is not impossible / there is some possibility",
+      "level": "N1",
+      "example_sentence": "[ファイル1]完璧ではないものでもない試験成績である。",
+      "translation": "It is not a test score that is not imperfect (i.e., somewhat good).",
+      "blank_target": "ないものでもない",
+      "wrong_choices": [
+        "ではあり得ない",
+        "ないこともない",
+        "ないとは言えない"
+      ],
+      "wrong_choice_explanations": [
+        "ではあり得ない means 'is impossible', which is more absolute than the tentative possibility.",
+        "ないこともない means 'not impossible', which is more direct than the double negative nuance.",
+        "ないとは言えない means 'cannot say it's not', requiring different negation logic."
+      ]
+    },
+    {
+      "id": "n1_021_1",
+      "pattern": "〜てからというもの",
+      "meaning": "ever since",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはてからというものの例文です。",
+      "translation": "This is an example sentence for てからというもの.",
+      "blank_target": "てからというもの",
+      "wrong_choices": [
+        "とは言えない",
+        "てからは",
+        "た後は"
+      ],
+      "wrong_choice_explanations": [
+        "とは言えない means 'cannot say / it's not true', not the temporal 'ever since' meaning.",
+        "てからは marks 'from after / since then' but lacks the emphatic continuity sense.",
+        "た後は simply means 'after', marking time without the persistent 'ever since' nuance."
+      ]
+    },
+    {
+      "id": "n1_022_1",
+      "pattern": "〜を皮切りに",
+      "meaning": "starting with / beginning from",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはを皮切りにの例文です。",
+      "translation": "This is an example sentence for を皮切りに.",
+      "blank_target": "を皮切りに",
+      "wrong_choices": [
+        "を皮切りとして",
+        "の始まりに",
+        "きっかけに"
+      ],
+      "wrong_choice_explanations": [
+        "を皮切りとして is a variant with slightly different nuance; を皮切りに is more concise.",
+        "の始まりに marks 'at the beginning of', not the sense of launching or initiating.",
+        "きっかけに means 'as an opportunity', differing from the formal 'starting with' sense."
+      ]
+    },
+    {
+      "id": "n1_023_1",
+      "pattern": "〜を余儀なくされる",
+      "meaning": "to be forced to / compelled to",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはを余儀なくされるの例文です。",
+      "translation": "This is an example sentence for を余儀なくされる.",
+      "blank_target": "を余儀なくされる",
+      "wrong_choices": [
+        "とは言えない",
+        "を強いられる",
+        "を避けられない"
+      ],
+      "wrong_choice_explanations": [
+        "とは言えない means 'cannot say', not related to compulsion or being forced.",
+        "を強いられる means 'to be forced to do', differing in structure and formality.",
+        "を避けられない means 'cannot avoid doing', expressing necessity without the compulsion sense."
+      ]
+    },
+    {
+      "id": "n1_024_1",
+      "pattern": "〜極まりない",
+      "meaning": "extremely / the height of",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これは極まりないの例文です。",
+      "translation": "This is an example sentence for 極まりない.",
+      "blank_target": "極まりない",
+      "wrong_choices": [
+        "極めて",
+        "はなはだしく",
+        "きわめて"
+      ],
+      "wrong_choice_explanations": [
+        "極めて is an adverb meaning 'very / extremely', not a descriptive suffix.",
+        "はなはだしく is another adverb for extreme degree, lacking the attributive form.",
+        "きわめて is a variant reading, but used as an adverb, not matching the structural role."
+      ]
+    },
+    {
+      "id": "n1_025_1",
+      "pattern": "〜の至り",
+      "meaning": "the utmost / the height of (emotion)",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはの至りの例文です。",
+      "translation": "This is an example sentence for の至り.",
+      "blank_target": "の至り",
+      "wrong_choices": [
+        "の致し方ない",
+        "のようには",
+        "の限り"
+      ],
+      "wrong_choice_explanations": [
+        "の致し方ない marks unavoidability, differing from the emotional height sense.",
+        "のようには marks a comparison, not an emotional extreme.",
+        "の限り means 'as long as / to the extent', not emotional intensity."
+      ]
+    },
+    {
+      "id": "n1_026_1",
+      "pattern": "〜の極み",
+      "meaning": "the pinnacle of / the extreme of",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはの極みの例文です。",
+      "translation": "This is an example sentence for の極み.",
+      "blank_target": "の極み",
+      "wrong_choices": [
+        "の境地",
+        "の頂点",
+        "の最たるもの"
+      ],
+      "wrong_choice_explanations": [
+        "の境地 means 'realm or state of', emphasizing a state of mind differently.",
+        "の頂点 means 'peak or apex', which is similar but uses 頂点 instead of 極み.",
+        "の最たるもの means 'the most extreme example', using a different structure."
+      ]
+    },
+    {
+      "id": "n1_027_1",
+      "pattern": "〜たる",
+      "meaning": "as (a person of status) / being (formal)",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはたるの例文です。",
+      "translation": "This is an example sentence for たる.",
+      "blank_target": "たる",
+      "wrong_choices": [
+        "であろう",
+        "としての",
+        "ほどではない"
+      ],
+      "wrong_choice_explanations": [
+        "であろう marks probability or likelihood, not the formal status-marking role of たる.",
+        "としての marks role or function, differing in structure from the bare attribute form.",
+        "ほどではない means 'not as much as', negating a comparison."
+      ]
+    },
+    {
+      "id": "n1_028_1",
+      "pattern": "〜あっての",
+      "meaning": "only because of / thanks to",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはあってのの例文です。",
+      "translation": "This is an example sentence for あっての.",
+      "blank_target": "あっての",
+      "wrong_choices": [
+        "があってこそ",
+        "のおかげで",
+        "によって"
+      ],
+      "wrong_choice_explanations": [
+        "があってこそ emphasizes 'only with / only thanks to' with greater emphasis on exclusivity.",
+        "のおかげで means 'thanks to', which is more casual than the formal あっての.",
+        "によって marks agent or means, not the exclusive gratitude sense."
+      ]
+    },
+    {
+      "id": "n1_029_1",
+      "pattern": "〜をいいことに",
+      "meaning": "taking advantage of",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはをいいことにの例文です。",
+      "translation": "This is an example sentence for をいいことに.",
+      "blank_target": "をいいことに",
+      "wrong_choices": [
+        "を幸いに",
+        "を口実に",
+        "を機会に"
+      ],
+      "wrong_choice_explanations": [
+        "を幸いに means 'taking the good fortune', differing slightly in nuance from taking advantage.",
+        "を口実に means 'under the pretext of', emphasizing deception more than mere opportunity.",
+        "を機会に means 'taking the chance to', which is neutral without the negative implication."
+      ]
+    },
+    {
+      "id": "n1_030_1",
+      "pattern": "〜をよそに",
+      "meaning": "ignoring / paying no attention to",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはをよそにの例文です。",
+      "translation": "This is an example sentence for をよそに.",
+      "blank_target": "をよそに",
+      "wrong_choices": [
+        "を気にせず",
+        "を無視して",
+        "もかまわず"
+      ],
+      "wrong_choice_explanations": [
+        "を気にせず means 'without worrying about', which is more about concern than ignoring.",
+        "を無視して means 'ignoring outright', a more direct negation than disregarding.",
+        "もかまわず means 'without care / regardless of', differing in emphasis."
+      ]
+    },
+    {
+      "id": "n1_031_1",
+      "pattern": "〜にかたくない",
+      "meaning": "not hard to (imagine, understand)",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはにかたくないの例文です。",
+      "translation": "This is an example sentence for にかたくない.",
+      "blank_target": "にかたくない",
+      "wrong_choices": [
+        "に乗じて",
+        "につけて",
+        "にかこつけて"
+      ],
+      "wrong_choice_explanations": [
+        "に乗じて means 'taking advantage of / upon the occasion', with more active implication.",
+        "につけて marks repetition or each time, a different structural function.",
+        "にかこつけて means 'using as a pretext', emphasizing deception differently."
+      ]
+    },
+    {
+      "id": "n1_032_1",
+      "pattern": "〜にかこつけて",
+      "meaning": "using as a pretext / under the guise of",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはにかこつけての例文です。",
+      "translation": "This is an example sentence for にかこつけて.",
+      "blank_target": "にかこつけて",
+      "wrong_choices": [
+        "を問わず",
+        "に関係なく",
+        "によらず"
+      ],
+      "wrong_choice_explanations": [
+        "を問わず means 'regardless of / without asking', differing in nuance.",
+        "に関係なく means 'having no relation to', a more direct negation.",
+        "によらず means 'not depending on / regardless of', similar but slightly different structure."
+      ]
+    },
+    {
+      "id": "n1_033_1",
+      "pattern": "〜いかんによらず",
+      "meaning": "regardless of",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはいかんによらずの例文です。",
+      "translation": "This is an example sentence for いかんによらず.",
+      "blank_target": "いかんによらず",
+      "wrong_choices": [
+        "によっては",
+        "次第では",
+        "か否かで"
+      ],
+      "wrong_choice_explanations": [
+        "によっては marks contingency or 'depending on', not absolute disregard.",
+        "次第では means 'depending on the circumstances', with conditional nuance.",
+        "か否かで means 'depending on whether or not', more binary in structure."
+      ]
+    },
+    {
+      "id": "n1_034_1",
+      "pattern": "〜いかんで",
+      "meaning": "depending on",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはいかんでの例文です。",
+      "translation": "This is an example sentence for いかんで.",
+      "blank_target": "いかんで",
+      "wrong_choices": [
+        "たところ",
+        "たような",
+        "たことで"
+      ],
+      "wrong_choice_explanations": [
+        "たところ marks 'found out / discovered', a result marker not a dependency marker.",
+        "たような marks 'seemed to / appeared to', expressing appearance rather than dependency.",
+        "たことで marks 'due to the fact that / as a result of', a causal relation."
+      ]
+    },
+    {
+      "id": "n1_035_1",
+      "pattern": "〜たところで",
+      "meaning": "even if one does / no matter how much",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはたところでの例文です。",
+      "translation": "This is an example sentence for たところで.",
+      "blank_target": "たところで",
+      "wrong_choices": [
+        "か〜ないか",
+        "も〜も",
+        "か〜もしれない"
+      ],
+      "wrong_choice_explanations": [
+        "か〜ないか marks 'whether... or not', presenting alternatives without the futility sense.",
+        "も〜も marks 'both... and...', a coordination marker.",
+        "か〜もしれない marks 'might... or might...', expressing possibility and uncertainty."
+      ]
+    },
+    {
+      "id": "n1_036_1",
+      "pattern": "〜ようが〜まいが",
+      "meaning": "whether one does or not",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはようが〜まいがの例文です。",
+      "translation": "This is an example sentence for ようが〜まいが.",
+      "blank_target": "ようが〜まいが",
+      "wrong_choices": [
+        "であろうが",
+        "にせよ",
+        "ともあれ"
+      ],
+      "wrong_choice_explanations": [
+        "であろうが is a variant of ようが, but uses the copula instead of the potential form.",
+        "にせよ marks 'whether / in either case', a general concessive marker.",
+        "ともあれ means 'in any case / at any rate', a conclusion marker rather than conditional."
+      ]
+    },
+    {
+      "id": "n1_037_1",
+      "pattern": "〜であれ",
+      "meaning": "whether it be / even if",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはであれの例文です。",
+      "translation": "This is an example sentence for であれ.",
+      "blank_target": "であれ",
+      "wrong_choices": [
+        "なるなり",
+        "すぐに",
+        "の際"
+      ],
+      "wrong_choice_explanations": [
+        "なるなり means 'becoming / turning into', not the concessive sense of whether-it-be.",
+        "すぐに is an adverb meaning 'immediately', unrelated to conditional concession.",
+        "の際 means 'at the time of / upon', a temporal marker not conditional."
+      ]
+    },
+    {
+      "id": "n1_038_1",
+      "pattern": "〜なり",
+      "meaning": "as soon as / the moment",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはなりの例文です。",
+      "translation": "This is an example sentence for なり.",
+      "blank_target": "なり",
+      "wrong_choices": [
+        "が早いか",
+        "や否や",
+        "と同時に"
+      ],
+      "wrong_choice_explanations": [
+        "が早いか means 'no sooner had... than', with more emphasis on immediate sequence.",
+        "や否や means 'as soon as / the instant', similar but with different nuance.",
+        "と同時に means 'at the same time as', emphasizing simultaneity rather than immediacy."
+      ]
+    },
+    {
+      "id": "n1_039_1",
+      "pattern": "〜が早いか",
+      "meaning": "no sooner had... than",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはが早いかの例文です。",
+      "translation": "This is an example sentence for が早いか.",
+      "blank_target": "が早いか",
+      "wrong_choices": [
+        "や否や",
+        "のようには",
+        "そばから"
+      ],
+      "wrong_choice_explanations": [
+        "や否や is similar in meaning but emphasizes the instant differently.",
+        "のようには marks a comparison, not an immediacy or sequence.",
+        "そばから means 'as fast as / no sooner than' with frustration overtone."
+      ]
+    },
+    {
+      "id": "n1_040_1",
+      "pattern": "〜や否や",
+      "meaning": "as soon as / the instant",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはや否やの例文です。",
+      "translation": "This is an example sentence for や否や.",
+      "blank_target": "や否や",
+      "wrong_choices": [
+        "そばから",
+        "と同時に",
+        "と共に"
+      ],
+      "wrong_choice_explanations": [
+        "そばから emphasizes repeated frustration, while や否や marks a single instant.",
+        "と同時に emphasizes simultaneity without the imminence sense.",
+        "と共に means 'together with / along with', emphasizing coordination."
+      ]
+    },
+    {
+      "id": "n1_041_1",
+      "pattern": "〜そばから",
+      "meaning": "as fast as / no sooner than (repeated frustration)",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはそばからの例文です。",
+      "translation": "This is an example sentence for そばから.",
+      "blank_target": "そばから",
+      "wrong_choices": [
+        "なくて",
+        "ないで",
+        "できずに"
+      ],
+      "wrong_choice_explanations": [
+        "なくて marks absence or lack in a sequence, not the frustration-of-repetition sense.",
+        "ないで marks absence in a sequence, similar but not the repetitive frustration.",
+        "できずに means 'unable to', focused on inability rather than repeated frustration."
+      ]
+    },
+    {
+      "id": "n1_042_1",
+      "pattern": "〜なくして",
+      "meaning": "without",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはなくしての例文です。",
+      "translation": "This is an example sentence for なくして.",
+      "blank_target": "なくして",
+      "wrong_choices": [
+        "にひきかえ",
+        "に比べ",
+        "に対して"
+      ],
+      "wrong_choice_explanations": [
+        "にひきかえ means 'in contrast to / unlike', emphasizing comparison and opposition.",
+        "に比べ means 'compared to / in comparison', also contrastive but different structure.",
+        "に対して marks opposition or direction, not the absence sense."
+      ]
+    },
+    {
+      "id": "n1_043_1",
+      "pattern": "〜にひきかえ",
+      "meaning": "in contrast to / unlike",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはにひきかえの例文です。",
+      "translation": "This is an example sentence for にひきかえ.",
+      "blank_target": "にひきかえ",
+      "wrong_choices": [
+        "に沿って",
+        "に合わせて",
+        "に従って"
+      ],
+      "wrong_choice_explanations": [
+        "に沿って means 'along / in accordance with', not the contrastive sense.",
+        "に合わせて means 'to match / to coordinate with', emphasizing coordination.",
+        "に従って means 'in accordance with', emphasizing following rather than contrast."
+      ]
+    },
+    {
+      "id": "n1_044_1",
+      "pattern": "〜に即して",
+      "meaning": "in accordance with / based on (reality/facts)",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはに即しての例文です。",
+      "translation": "This is an example sentence for に即して.",
+      "blank_target": "に即して",
+      "wrong_choices": [
+        "にもて",
+        "にまして",
+        "以上に"
+      ],
+      "wrong_choice_explanations": [
+        "にもて is not standard modern Japanese.",
+        "にまして means 'more than / even more so', emphasizing degree without the accuracy sense.",
+        "以上に means 'more than / beyond', similar but with different scope."
+      ]
+    },
+    {
+      "id": "n1_045_1",
+      "pattern": "〜にもまして",
+      "meaning": "more than / even more than",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはにもましての例文です。",
+      "translation": "This is an example sentence for にもまして.",
+      "blank_target": "にもまして",
+      "wrong_choices": [
+        "てやまない",
+        "ている",
+        "ておく"
+      ],
+      "wrong_choice_explanations": [
+        "てやまない means 'sincerely from heart', marking sincerity rather than degree.",
+        "ている marks an ongoing state, not a degree comparison.",
+        "ておく means 'to do in advance / to do and set aside', a preparatory aspect."
+      ]
+    },
+    {
+      "id": "n1_046_1",
+      "pattern": "〜てやまない",
+      "meaning": "sincerely / from the bottom of one's heart",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはてやまないの例文です。",
+      "translation": "This is an example sentence for てやまない.",
+      "blank_target": "てやまない",
+      "wrong_choices": [
+        "とあったら",
+        "であるならば",
+        "とあれば"
+      ],
+      "wrong_choice_explanations": [
+        "とあったら marks a hypothetical condition, not the sincere feeling sense.",
+        "であるならば is a formal conditional, not expressing emotional sincerity.",
+        "とあれば marks 'if it is the case that', a conditional without emotional sense."
+      ]
+    },
+    {
+      "id": "n1_047_1",
+      "pattern": "〜とあれば",
+      "meaning": "if it is the case that",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはとあればの例文です。",
+      "translation": "This is an example sentence for とあれば.",
+      "blank_target": "とあれば",
+      "wrong_choices": [
+        "たのに",
+        "たけれども",
+        "たのだが"
+      ],
+      "wrong_choice_explanations": [
+        "たのに marks regret or contradiction, expressing unfulfilled expectation.",
+        "たけれども marks contrast with concession, differing in logical relation.",
+        "たのだが marks contrast with explanation, not the pure condition sense."
+      ]
+    },
+    {
+      "id": "n1_048_1",
+      "pattern": "〜ものを",
+      "meaning": "and yet / although (regret/frustration)",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはものをの例文です。",
+      "translation": "This is an example sentence for ものを.",
+      "blank_target": "ものを",
+      "wrong_choices": [
+        "ありさま",
+        "ぶり",
+        "有様"
+      ],
+      "wrong_choice_explanations": [
+        "ありさま means 'state of affairs / condition', a noun not a sentence connector.",
+        "ぶり means 'manner or way', also a noun form.",
+        "有様 is the kanji form of ありさま, but still a noun."
+      ]
+    },
+    {
+      "id": "n1_049_1",
+      "pattern": "〜始末だ",
+      "meaning": "end up (in an undesirable state)",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これは始末だの例文です。",
+      "translation": "This is an example sentence for 始末だ.",
+      "blank_target": "始末だ",
+      "wrong_choices": [
+        "ずに",
+        "なしで",
+        "によらず"
+      ],
+      "wrong_choice_explanations": [
+        "ずに marks absence of action, not the negative result sense.",
+        "なしで means 'without doing', similar but not the undesirable end state.",
+        "によらず means 'regardless of / not depending on', a conditional marker."
+      ]
+    },
+    {
+      "id": "n1_050_1",
+      "pattern": "〜手前",
+      "meaning": "because of (social obligation/appearance)",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これは手前の例文です。",
+      "translation": "This is an example sentence for 手前.",
+      "blank_target": "手前",
+      "wrong_choices": [
+        "がし",
+        "なので",
+        "からか"
+      ],
+      "wrong_choice_explanations": [
+        "がし is archaic or not standard modern Japanese.",
+        "なので marks reason or cause directly, lacking the social obligation sense.",
+        "からか marks reason with uncertainty or questioning implication."
+      ]
+    },
+    {
+      "id": "n1_051_1",
+      "pattern": "〜だに",
+      "meaning": "even just (thinking about it)",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはだにの例文です。",
+      "translation": "This is an example sentence for だに.",
+      "blank_target": "だに",
+      "wrong_choices": [
+        "さえ",
+        "までも",
+        "ですら"
+      ],
+      "wrong_choice_explanations": [
+        "さえ means 'even' with emphasis, but not the nuance of just thinking about.",
+        "までも means 'even to the extent of', emphasizing extremity.",
+        "ですら means 'even' in formal speech, a variant of すら."
+      ]
+    },
+    {
+      "id": "n1_052_1",
+      "pattern": "〜すら",
+      "meaning": "even (emphasis, stronger than さえ)",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはすらの例文です。",
+      "translation": "This is an example sentence for すら.",
+      "blank_target": "すら",
+      "wrong_choices": [
+        "をだけ",
+        "なし",
+        "からあ"
+      ],
+      "wrong_choice_explanations": [
+        "をだけ marks 'only', which is similar but different in structure.",
+        "なし marks absence, not the emphasis of すら.",
+        "からあ is not a standard Japanese expression."
+      ]
+    },
+    {
+      "id": "n1_053_1",
+      "pattern": "〜とばかりに",
+      "meaning": "as if to say",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはとばかりにの例文です。",
+      "translation": "This is an example sentence for とばかりに.",
+      "blank_target": "とばかりに",
+      "wrong_choices": [
+        "たら最期",
+        "たら終わり",
+        "たら進捗"
+      ],
+      "wrong_choice_explanations": [
+        "たら最期 means 'once happens, it is all over', a result marker.",
+        "たら終わり similarly marks finality, both result markers.",
+        "たら進捗 is not a standard grammatical structure."
+      ]
+    },
+    {
+      "id": "n1_054_1",
+      "pattern": "〜めく",
+      "meaning": "to seem like / to have an air of",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはめくの例文です。",
+      "translation": "This is an example sentence for めく.",
+      "blank_target": "めく",
+      "wrong_choices": [
+        "とあいまって",
+        "に伴って",
+        "と共に"
+      ],
+      "wrong_choice_explanations": [
+        "とあいまって means 'combined with / coupled with', emphasizing simultaneity.",
+        "に伴って means 'accompanying / along with', also marking simultaneity.",
+        "と共に means 'together with / along with', emphasizing coordination."
+      ]
+    },
+    {
+      "id": "n1_055_1",
+      "pattern": "〜ぶる",
+      "meaning": "to pretend to be / to act",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはぶるの例文です。",
+      "translation": "This is an example sentence for ぶる.",
+      "blank_target": "ぶる",
+      "wrong_choices": [
+        "ずに済む",
+        "ないで済む",
+        "ずに済んだ"
+      ],
+      "wrong_choice_explanations": [
+        "ずに済む means 'to get by without doing', expressing non-necessity.",
+        "ないで済む similarly means to get by without, both expressing non-necessity.",
+        "ずに済んだ is past tense of the above, but still non-necessity marker."
+      ]
+    },
+    {
+      "id": "n1_056_1",
+      "pattern": "〜まみれ",
+      "meaning": "covered in (something unpleasant)",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはまみれの例文です。",
+      "translation": "This is an example sentence for まみれ.",
+      "blank_target": "まみれ",
+      "wrong_choices": [
+        "の限りである",
+        "たるかぎり",
+        "のあまり"
+      ],
+      "wrong_choice_explanations": [
+        "の限りである means 'is the extent / is the limit', a different structure.",
+        "たるかぎり marks 'to the extent of being', also attributive.",
+        "のあまり means 'out of excessive emotion', not the state of being covered."
+      ]
+    },
+    {
+      "id": "n1_057_1",
+      "pattern": "〜ずくめ",
+      "meaning": "entirely / nothing but",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはずくめの例文です。",
+      "translation": "This is an example sentence for ずくめ.",
+      "blank_target": "ずくめ",
+      "wrong_choices": [
+        "がある",
+        "の傾向",
+        "だ"
+      ],
+      "wrong_choice_explanations": [
+        "がある marks existence or having quality, not the 'entirely' sense.",
+        "の傾向 means 'the tendency of', emphasizing inclination.",
+        "だ is the copula, not a completion or totality marker."
+      ]
+    },
+    {
+      "id": "n1_058_1",
+      "pattern": "〜づくし",
+      "meaning": "full of / complete with (positive)",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはづくしの例文です。",
+      "translation": "This is an example sentence for づくし.",
+      "blank_target": "づくし",
+      "wrong_choices": [
+        "に堪えない",
+        "ができない",
+        "を忍ばない"
+      ],
+      "wrong_choice_explanations": [
+        "に堪えない means 'cannot bear', expressing difficulty rather than fullness.",
+        "ができない means 'cannot do', expressing inability.",
+        "を忍ばない means 'cannot suppress', expressing inability to control."
+      ]
+    },
+    {
+      "id": "n1_059_1",
+      "pattern": "〜かたがた",
+      "meaning": "while also / taking the opportunity to",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはかたがたの例文です。",
+      "translation": "This is an example sentence for かたがた.",
+      "blank_target": "かたがた",
+      "wrong_choices": [
+        "だけが",
+        "こそが",
+        "のみが"
+      ],
+      "wrong_choice_explanations": [
+        "だけが marks 'only', a limiting particle.",
+        "こそが marks exclusive emphasis, similar to だけが but different emphasis.",
+        "のみが means 'only', a more formal version of だけが."
+      ]
+    },
+    {
+      "id": "n1_060_1",
+      "pattern": "〜がてら",
+      "meaning": "while / on the way to",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはがてらの例文です。",
+      "translation": "This is an example sentence for がてら.",
+      "blank_target": "がてら",
+      "wrong_choices": [
+        "に越すことない",
+        "に越したことない",
+        "より良い"
+      ],
+      "wrong_choice_explanations": [
+        "に越すことない means 'nothing better than / best to', similar in meaning.",
+        "に越したことない is a variant, both expressing superior choice.",
+        "より良い means 'better', an adjective rather than a sentence structure."
+      ]
+    },
+    {
+      "id": "n1_061_1",
+      "pattern": "〜ことなしに",
+      "meaning": "without doing",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはことなしにの例文です。",
+      "translation": "This is an example sentence for ことなしに.",
+      "blank_target": "ことなしに",
+      "wrong_choices": [
+        "のしかたによって",
+        "どころでは",
+        "が次第で"
+      ],
+      "wrong_choice_explanations": [
+        "のしかたによって means 'depending on how', a conditional marker.",
+        "どころでは means 'is not the time/place for', a negating structure.",
+        "が次第で means 'depending on', a conditional marker."
+      ]
+    },
+    {
+      "id": "n1_062_1",
+      "pattern": "〜ことだし",
+      "meaning": "since / given that (casual reason)",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはことだしの例文です。",
+      "translation": "This is an example sentence for ことだし.",
+      "blank_target": "ことだし",
+      "wrong_choices": [
+        "にて",
+        "に用いて",
+        "をもって"
+      ],
+      "wrong_choice_explanations": [
+        "にて marks place or means in formal speech, not the causal reason sense.",
+        "に用いて means 'using / employing', marking instrumental means.",
+        "をもって means 'with / by means of', also instrumental."
+      ]
+    },
+    {
+      "id": "n1_063_1",
+      "pattern": "〜こととて",
+      "meaning": "because of / since (formal, often apologetic)",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはこととての例文です。",
+      "translation": "This is an example sentence for こととて.",
+      "blank_target": "こととて",
+      "wrong_choices": [
+        "は無制限だ",
+        "が存在する",
+        "がぞんする"
+      ],
+      "wrong_choice_explanations": [
+        "は無制限だ means 'is unlimited', a predicate not a structure.",
+        "が存在する means 'exists', a predicate.",
+        "がぞんする is a formal variant of 存在する, also a predicate."
+      ]
+    },
+    {
+      "id": "n1_064_1",
+      "pattern": "〜とはいうものの",
+      "meaning": "although / having said that",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはとはいうもののの例文です。",
+      "translation": "This is an example sentence for とはいうものの.",
+      "blank_target": "とはいうものの",
+      "wrong_choices": [
+        "といえども",
+        "であっても",
+        "さえも"
+      ],
+      "wrong_choice_explanations": [
+        "といえども means 'even though / despite', similar concessive sense.",
+        "であっても means 'even if / even though', also concessive.",
+        "さえも means 'even', marking emphasis."
+      ]
+    },
+    {
+      "id": "n1_065_1",
+      "pattern": "〜と思いきや",
+      "meaning": "just when one thought / contrary to expectations",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはと思いきやの例文です。",
+      "translation": "This is an example sentence for と思いきや.",
+      "blank_target": "と思いきや",
+      "wrong_choices": [
+        "として",
+        "だから",
+        "それゆえ"
+      ],
+      "wrong_choice_explanations": [
+        "として marks role or capacity, not the contrary-to-expectation sense.",
+        "だから marks cause/reason, expressing logical consequence.",
+        "それゆえ means 'therefore / for that reason', marking conclusion."
+      ]
+    },
+    {
+      "id": "n1_066_1",
+      "pattern": "〜ときたら",
+      "meaning": "when it comes to (criticism/exasperation)",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはときたらの例文です。",
+      "translation": "This is an example sentence for ときたら.",
+      "blank_target": "ときたら",
+      "wrong_choices": [
+        "よりの影響",
+        "にも勝る",
+        "による"
+      ],
+      "wrong_choice_explanations": [
+        "よりの影響 means 'influence from', not the exasperation marker.",
+        "にも勝る means 'surpasses / exceeds', expressing superiority.",
+        "による marks agent/means, not the exasperation sense."
+      ]
+    },
+    {
+      "id": "n1_067_1",
+      "pattern": "〜にして",
+      "meaning": "for (someone); even for; being both",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはにしての例文です。",
+      "translation": "This is an example sentence for にして.",
+      "blank_target": "にして",
+      "wrong_choices": [
+        "である",
+        "だ",
+        "がいえる"
+      ],
+      "wrong_choice_explanations": [
+        "である is the formal copula, not a position or dual-nature marker.",
+        "だ is the plain copula, not conveying the nuance of にして.",
+        "がいえる means 'can be said', marking a statement."
+      ]
+    },
+    {
+      "id": "n1_068_1",
+      "pattern": "〜にあるまじき",
+      "meaning": "unbecoming of / unbefitting",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはにあるまじきの例文です。",
+      "translation": "This is an example sentence for にあるまじき.",
+      "blank_target": "にあるまじき",
+      "wrong_choices": [
+        "よりの影響",
+        "にも勝る",
+        "による"
+      ],
+      "wrong_choice_explanations": [
+        "よりの影響 means 'influence from', not the unbefitting sense.",
+        "にも勝る means 'surpasses / exceeds', expressing superiority.",
+        "による marks agent/means, not the impropriety sense."
+      ]
+    },
+    {
+      "id": "n1_069_1",
+      "pattern": "〜なりに",
+      "meaning": "in one's own way / as befits",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはなりにの例文です。",
+      "translation": "This is an example sentence for なりに.",
+      "blank_target": "なりに",
+      "wrong_choices": [
+        "ない結果",
+        "だ結果として",
+        "である"
+      ],
+      "wrong_choice_explanations": [
+        "ない結果 means 'result of not doing', expressing consequence.",
+        "だ結果として is an awkward construction for result marking.",
+        "である is the formal copula, not expressing manner."
+      ]
+    },
+    {
+      "id": "n1_070_1",
+      "pattern": "〜ごとく",
+      "meaning": "like / as (literary)",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはごとくの例文です。",
+      "translation": "This is an example sentence for ごとく.",
+      "blank_target": "ごとく",
+      "wrong_choices": [
+        "ようにできない",
+        "ようにできる",
+        "を望む"
+      ],
+      "wrong_choice_explanations": [
+        "ようにできない marks inability, not similarity or comparison.",
+        "ようにできる marks ability, also not the simile sense.",
+        "を望む means 'to hope for / wish for', expressing desire."
+      ]
+    },
+    {
+      "id": "n1_071_1",
+      "pattern": "〜ならではの",
+      "meaning": "unique to / only possible with (attributive)",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはならではのの例文です。",
+      "translation": "This is an example sentence for ならではの.",
+      "blank_target": "ならではの",
+      "wrong_choices": [
+        "にくい",
+        "しにくい",
+        "ない"
+      ],
+      "wrong_choice_explanations": [
+        "にくい means 'difficult to / hard to', expressing difficulty.",
+        "しにくい is a variant, also expressing difficulty.",
+        "ない is simple negation, not the unique-quality sense."
+      ]
+    },
+    {
+      "id": "n1_072_1",
+      "pattern": "〜はさておき",
+      "meaning": "setting aside / leaving aside",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これははさておきの例文です。",
+      "translation": "This is an example sentence for はさておき.",
+      "blank_target": "はさておき",
+      "wrong_choices": [
+        "られない",
+        "する",
+        "る"
+      ],
+      "wrong_choice_explanations": [
+        "られない marks inability or passive negation, not the setting-aside sense.",
+        "する is the infinitive form, not a phrase connector.",
+        "る is the base form, not a sentence structure."
+      ]
+    },
+    {
+      "id": "n1_073_1",
+      "pattern": "〜に足る",
+      "meaning": "worthy of / sufficient for",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはに足るの例文です。",
+      "translation": "This is an example sentence for に足る.",
+      "blank_target": "に足る",
+      "wrong_choices": [
+        "ついでに",
+        "の間に",
+        "かたわら"
+      ],
+      "wrong_choice_explanations": [
+        "ついでに means 'while doing / taking the chance to', emphasizing opportunity.",
+        "の間に means 'during / while', marking a time span.",
+        "かたわら means 'while also / on the side', similar but with simultaneous action."
+      ]
+    },
+    {
+      "id": "n1_074_1",
+      "pattern": "〜てはかなわない",
+      "meaning": "cannot stand / it is unbearable",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはてはかなわないの例文です。",
+      "translation": "This is an example sentence for てはかなわない.",
+      "blank_target": "てはかなわない",
+      "wrong_choices": [
+        "の故で",
+        "が故に",
+        "のゆえに"
+      ],
+      "wrong_choice_explanations": [
+        "の故で marks cause in formal speech, differing in strength.",
+        "が故に also marks cause formally, similar sense.",
+        "のゆえに marks cause very formally, also marking reason."
+      ]
+    },
+    {
+      "id": "n1_075_1",
+      "pattern": "〜かたわら",
+      "meaning": "while also / on the side",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはかたわらの例文です。",
+      "translation": "This is an example sentence for かたわら.",
+      "blank_target": "かたわら",
+      "wrong_choices": [
+        "で",
+        "だが",
+        "をいえ"
+      ],
+      "wrong_choice_explanations": [
+        "で marks location or means, not the simultaneous-action sense.",
+        "だが marks contrast between clauses, not simultaneous action.",
+        "をいえ is not a standard structure."
+      ]
+    },
+    {
+      "id": "n1_076_1",
+      "pattern": "〜をもってしても",
+      "meaning": "even with / even by means of",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはをもってしてもの例文です。",
+      "translation": "This is an example sentence for をもってしても.",
+      "blank_target": "をもってしても",
+      "wrong_choices": [
+        "を経ても",
+        "をもて",
+        "をなお"
+      ],
+      "wrong_choice_explanations": [
+        "を経ても means 'even after going through', expressing passage through.",
+        "をもて is not standard modern Japanese.",
+        "をなお is not standard; なお means 'still / yet'."
+      ]
+    },
+    {
+      "id": "n1_077_1",
+      "pattern": "〜もかまわず",
+      "meaning": "without caring about / regardless of",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはもかまわずの例文です。",
+      "translation": "This is an example sentence for もかまわず.",
+      "blank_target": "もかまわず",
+      "wrong_choices": [
+        "の末に",
+        "だから",
+        "の結果"
+      ],
+      "wrong_choice_explanations": [
+        "の末に marks 'final result / at the end of', expressing conclusion.",
+        "だから marks cause/reason, a logical connector.",
+        "の結果 means 'as a result', marking consequence."
+      ]
+    },
+    {
+      "id": "n1_078_1",
+      "pattern": "〜にかまけて",
+      "meaning": "being preoccupied with / neglecting because of",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはにかまけての例文です。",
+      "translation": "This is an example sentence for にかまけて.",
+      "blank_target": "にかまけて",
+      "wrong_choices": [
+        "ができない",
+        "される",
+        "も"
+      ],
+      "wrong_choice_explanations": [
+        "ができない means 'cannot do', expressing inability.",
+        "される marks passive voice, not the preoccupation sense.",
+        "も means 'also / even', a particle."
+      ]
+    },
+    {
+      "id": "n1_079_1",
+      "pattern": "〜を禁じ得ない",
+      "meaning": "cannot help but feel / cannot suppress",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはを禁じ得ないの例文です。",
+      "translation": "This is an example sentence for を禁じ得ない.",
+      "blank_target": "を禁じ得ない",
+      "wrong_choices": [
+        "にほかならない",
+        "ならない",
+        "がない"
+      ],
+      "wrong_choice_explanations": [
+        "にほかならない means 'is nothing but / is precisely', expressing identity.",
+        "ならない marks obligation, expressing necessity.",
+        "がない means 'lacking / without', expressing absence."
+      ]
+    },
+    {
+      "id": "n1_080_1",
+      "pattern": "〜てしかるべきだ",
+      "meaning": "ought to / it is only right that",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはてしかるべきだの例文です。",
+      "translation": "This is an example sentence for てしかるべきだ.",
+      "blank_target": "てしかるべきだ",
+      "wrong_choices": [
+        "で",
+        "では",
+        "だ"
+      ],
+      "wrong_choice_explanations": [
+        "で marks location or means, not the 'ought to' sense.",
+        "では marks location or topic, not the obligation sense.",
+        "だ is the plain copula, not marking obligation."
+      ]
+    },
+    {
+      "id": "n1_081_1",
+      "pattern": "〜からある",
+      "meaning": "as much as / a whopping",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはからあるの例文です。",
+      "translation": "This is an example sentence for からある.",
+      "blank_target": "からある",
+      "wrong_choices": [
+        "なども",
+        "とも",
+        "さえ"
+      ],
+      "wrong_choice_explanations": [
+        "なども marks inclusion, 'and things like', a listing marker.",
+        "とも marks also/even, an emphasis particle.",
+        "さえ means 'even', emphasizing extremity."
+      ]
+    },
+    {
+      "id": "n1_082_1",
+      "pattern": "〜たが最後",
+      "meaning": "once (something happens), it is all over",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはたが最後の例文です。",
+      "translation": "This is an example sentence for たが最後.",
+      "blank_target": "たが最後",
+      "wrong_choices": [
+        "に忍びない",
+        "ができない",
+        "がない"
+      ],
+      "wrong_choice_explanations": [
+        "に忍びない means 'cannot bear / is painful to', expressing emotional pain.",
+        "ができない means 'cannot do', expressing inability.",
+        "がない means 'lacking / without', expressing absence."
+      ]
+    },
+    {
+      "id": "n1_083_1",
+      "pattern": "〜とあいまって",
+      "meaning": "combined with / coupled with",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはとあいまっての例文です。",
+      "translation": "This is an example sentence for とあいまって.",
+      "blank_target": "とあいまって",
+      "wrong_choices": [
+        "たり",
+        "などと",
+        "として"
+      ],
+      "wrong_choice_explanations": [
+        "たり marks enumeration or alternation, not the combined sense.",
+        "などと marks listing casually, with dismissive tone.",
+        "として marks role or capacity, not combination."
+      ]
+    },
+    {
+      "id": "n1_084_1",
+      "pattern": "〜ずじまい",
+      "meaning": "ended up not doing",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはずじまいの例文です。",
+      "translation": "This is an example sentence for ずじまい.",
+      "blank_target": "ずじまい",
+      "wrong_choices": [
+        "より",
+        "の方が",
+        "より多い"
+      ],
+      "wrong_choice_explanations": [
+        "より marks comparison, expressing relative position.",
+        "の方が marks comparative superiority, also comparison.",
+        "より多い means 'more than', expressing quantity comparison."
+      ]
+    },
+    {
+      "id": "n1_085_1",
+      "pattern": "〜かぎりだ",
+      "meaning": "extremely / nothing but (emotion)",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはかぎりだの例文です。",
+      "translation": "This is an example sentence for かぎりだ.",
+      "blank_target": "かぎりだ",
+      "wrong_choices": [
+        "に優っている",
+        "がある",
+        "する"
+      ],
+      "wrong_choice_explanations": [
+        "に優っている means 'is superior / surpasses', expressing advantage.",
+        "がある marks existence or having quality, not extremity.",
+        "する means 'to do', not expressing emotion."
+      ]
+    },
+    {
+      "id": "n1_086_1",
+      "pattern": "〜きらいがある",
+      "meaning": "has a tendency to (negative)",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはきらいがあるの例文です。",
+      "translation": "This is an example sentence for きらいがある.",
+      "blank_target": "きらいがある",
+      "wrong_choices": [
+        "ないでは",
+        "ずには",
+        "ないには"
+      ],
+      "wrong_choice_explanations": [
+        "ないでは marks 'without which', expressing necessity.",
+        "ずには means 'must / cannot avoid', expressing necessity.",
+        "ないには marks 'without which', expressing necessity."
+      ]
+    },
+    {
+      "id": "n1_087_1",
+      "pattern": "〜に忍びない",
+      "meaning": "cannot bear to / too painful to",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはに忍びないの例文です。",
+      "translation": "This is an example sentence for に忍びない.",
+      "blank_target": "に忍びない",
+      "wrong_choices": [
+        "が言える",
+        "である",
+        "だ"
+      ],
+      "wrong_choice_explanations": [
+        "が言える means 'can be said', marking a statement.",
+        "である is the formal copula.",
+        "だ is the plain copula."
+      ]
+    },
+    {
+      "id": "n1_088_1",
+      "pattern": "〜ただ〜のみ",
+      "meaning": "nothing but / only",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはただ〜のみの例文です。",
+      "translation": "This is an example sentence for ただ〜のみ.",
+      "blank_target": "ただ〜のみ",
+      "wrong_choices": [
+        "ではない",
+        "ない",
+        "られない"
+      ],
+      "wrong_choice_explanations": [
+        "ではない marks negation of the copula, not the exclusive sense.",
+        "ない marks simple negation.",
+        "られない marks inability or passive negation."
+      ]
+    },
+    {
+      "id": "n1_089_1",
+      "pattern": "〜に越したことはない",
+      "meaning": "nothing better than / best to",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはに越したことはないの例文です。",
+      "translation": "This is an example sentence for に越したことはない.",
+      "blank_target": "に越したことはない",
+      "wrong_choices": [
+        "している",
+        "だ",
+        "である"
+      ],
+      "wrong_choice_explanations": [
+        "している marks an ongoing state, not the optimality sense.",
+        "だ is the plain copula.",
+        "である is the formal copula."
+      ]
+    },
+    {
+      "id": "n1_090_1",
+      "pattern": "〜ようによっては",
+      "meaning": "depending on how",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはようによってはの例文です。",
+      "translation": "This is an example sentence for ようによっては.",
+      "blank_target": "ようによっては",
+      "wrong_choices": [
+        "する",
+        "できる",
+        "される"
+      ],
+      "wrong_choice_explanations": [
+        "する means 'to do', not expressing conditionality.",
+        "できる means 'can do / is possible', not expressing conditionality.",
+        "される marks passive voice, not conditionality."
+      ]
+    },
+    {
+      "id": "n1_091_1",
+      "pattern": "〜をもって",
+      "meaning": "with / by means of / as of",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはをもっての例文です。",
+      "translation": "This is an example sentence for をもって.",
+      "blank_target": "をもって",
+      "wrong_choices": [
+        "なども",
+        "も",
+        "さえ"
+      ],
+      "wrong_choice_explanations": [
+        "なども marks inclusion, 'and things like', a listing marker.",
+        "も means 'also / even', a particle.",
+        "さえ means 'even', emphasizing extremity."
+      ]
+    },
+    {
+      "id": "n1_092_1",
+      "pattern": "〜にもほどがある",
+      "meaning": "there is a limit to / going too far",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはにもほどがあるの例文です。",
+      "translation": "This is an example sentence for にもほどがある.",
+      "blank_target": "にもほどがある",
+      "wrong_choices": [
+        "ないだけ",
+        "する",
+        "ある"
+      ],
+      "wrong_choice_explanations": [
+        "ないだけ means 'only not', marking limitation.",
+        "する means 'to do', a verb.",
+        "ある means 'to exist / to have', marking existence."
+      ]
+    },
+    {
+      "id": "n1_093_1",
+      "pattern": "〜ゆえに",
+      "meaning": "because of / due to (literary)",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはゆえにの例文です。",
+      "translation": "This is an example sentence for ゆえに.",
+      "blank_target": "ゆえに",
+      "wrong_choices": [
+        "される",
+        "している",
+        "した"
+      ],
+      "wrong_choice_explanations": [
+        "される marks passive voice, not the formal causal sense.",
+        "している marks ongoing state, not causality.",
+        "した marks past tense, not formal causality."
+      ]
+    },
+    {
+      "id": "n1_094_1",
+      "pattern": "〜とて",
+      "meaning": "even / even though (literary)",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはとての例文です。",
+      "translation": "This is an example sentence for とて.",
+      "blank_target": "とて",
+      "wrong_choices": [
+        "たり",
+        "している",
+        "した"
+      ],
+      "wrong_choice_explanations": [
+        "たり marks enumeration or alternation, not concession.",
+        "している marks ongoing state, not concession.",
+        "した marks past tense, not concession."
+      ]
+    },
+    {
+      "id": "n1_095_1",
+      "pattern": "〜のあまり",
+      "meaning": "out of (excessive emotion)",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはのあまりの例文です。",
+      "translation": "This is an example sentence for のあまり.",
+      "blank_target": "のあまり",
+      "wrong_choices": [
+        "がある",
+        "する",
+        "だ"
+      ],
+      "wrong_choice_explanations": [
+        "がある marks existence or having quality, not excessive emotion.",
+        "する means 'to do', not expressing result.",
+        "だ is the plain copula."
+      ]
+    },
+    {
+      "id": "n1_096_1",
+      "pattern": "〜あげく",
+      "meaning": "after all / in the end / as a result of",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはあげくの例文です。",
+      "translation": "This is an example sentence for あげく.",
+      "blank_target": "あげく",
+      "wrong_choices": [
+        "である",
+        "だ",
+        "がいえる"
+      ],
+      "wrong_choice_explanations": [
+        "である is the formal copula, not the result sense.",
+        "だ is the plain copula.",
+        "がいえる means 'can be said', not expressing result."
+      ]
+    },
+    {
+      "id": "n1_097_1",
+      "pattern": "〜ようにも〜ない",
+      "meaning": "even if one wanted to, cannot",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはようにも〜ないの例文です。",
+      "translation": "This is an example sentence for ようにも〜ない.",
+      "blank_target": "ようにも〜ない",
+      "wrong_choices": [
+        "だ",
+        "である",
+        "という"
+      ],
+      "wrong_choice_explanations": [
+        "だ is the plain copula, not the impossibility sense.",
+        "である is the formal copula, not the impossibility sense.",
+        "という marks quoting/naming, not expressing impossibility."
+      ]
+    },
+    {
+      "id": "n1_098_1",
+      "pattern": "〜がたい",
+      "meaning": "difficult to / hard to",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはがたいの例文です。",
+      "translation": "This is an example sentence for がたい.",
+      "blank_target": "がたい",
+      "wrong_choices": [
+        "した",
+        "する",
+        "している"
+      ],
+      "wrong_choice_explanations": [
+        "した marks past tense, not expressing difficulty.",
+        "する is the present/infinitive form, not difficulty.",
+        "している marks ongoing state, not difficulty."
+      ]
+    },
+    {
+      "id": "n1_099_1",
+      "pattern": "〜かねて",
+      "meaning": "for some time / previously",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはかねての例文です。",
+      "translation": "This is an example sentence for かねて.",
+      "blank_target": "かねて",
+      "wrong_choices": [
+        "れる",
+        "る",
+        "ない"
+      ],
+      "wrong_choice_explanations": [
+        "れる marks passive or potential voice, not temporal sense.",
+        "る is the base form, not expressing time.",
+        "ない marks negation, not temporal sense."
+      ]
+    },
+    {
+      "id": "n1_100_1",
+      "pattern": "〜げ",
+      "meaning": "seeming / giving an impression of",
+      "level": "N1",
+      "example_sentence": "[ファイル1]これはげの例文です。",
+      "translation": "This is an example sentence for げ.",
+      "blank_target": "げ",
+      "wrong_choices": [
+        "があるようだ",
+        "と見える",
+        "だ"
+      ],
+      "wrong_choice_explanations": [
+        "があるようだ marks seeming or appearance, but uses a different structure.",
+        "と見える means 'appears to be / looks like', also expressing appearance.",
+        "だ is the plain copula, not expressing impression."
+      ]
+    }
+  ]
+}

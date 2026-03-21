@@ -1,0 +1,1930 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "level": "N2",
+    "file_number": 7,
+    "total_patterns": 101,
+    "description": "JLPT N2 grammar exercises - Set 7"
+  },
+  "grammar": [
+    {
+      "id": "n2_001_7",
+      "pattern": "〜において",
+      "meaning": "in / at / in terms of (formal context or field)",
+      "level": "N2",
+      "example_sentence": "現代アートにおいて、このアーティストは独創的だ。",
+      "translation": "In contemporary art, this artist is original.",
+      "blank_target": "において",
+      "wrong_choices": [
+        "で",
+        "に関して",
+        "として"
+      ],
+      "wrong_choice_explanations": [
+        "で is a basic locational particle, but it lacks the formal, contextual nuance required in academic or specialized discourse.",
+        "に関して means 'regarding' and shifts focus to the topic itself rather than the setting or field where something applies.",
+        "として means 'as' (in the role of), which changes the meaning to treating something as an identity rather than indicating a field or context."
+      ]
+    },
+    {
+      "id": "n2_002_7",
+      "pattern": "〜に際して",
+      "meaning": "on the occasion of / at the time of",
+      "level": "N2",
+      "example_sentence": "離職に際して、上司から引き止めがあった。",
+      "translation": "During the resignation process, my boss tried to persuade me to stay.",
+      "blank_target": "に際して",
+      "wrong_choices": [
+        "にあたって",
+        "に対して",
+        "において"
+      ],
+      "wrong_choice_explanations": [
+        "にあたって emphasizes the need for careful preparation at an important turning point, which is too specific for a general transitional moment.",
+        "に対して means 'against/toward' (response to someone/something), which implies direction toward an object rather than a point in time.",
+        "において describes the field or setting, not the temporal moment when something occurs."
+      ]
+    },
+    {
+      "id": "n2_003_7",
+      "pattern": "〜にあたって",
+      "meaning": "when / at the time of (important occasion requiring careful preparation)",
+      "level": "N2",
+      "example_sentence": "起業にあたって、十分な資金計画が必要である。",
+      "translation": "When starting a new business, adequate financial planning is necessary.",
+      "blank_target": "にあたって",
+      "wrong_choices": [
+        "に際して",
+        "に当たり",
+        "において"
+      ],
+      "wrong_choice_explanations": [
+        "に際して refers to any temporal occasion, lacking the emphasis on important preparation and careful consideration needed here.",
+        "に当たり functions similarly but is more archaic/formal and less commonly used in modern written contexts for this nuance.",
+        "において indicates a location or field, not the temporal point of taking important action."
+      ]
+    },
+    {
+      "id": "n2_004_7",
+      "pattern": "〜をはじめ",
+      "meaning": "starting with / including (listing representative examples)",
+      "level": "N2",
+      "example_sentence": "イギリスをはじめ、ヨーロッパの主要国は協定に調印した。",
+      "translation": "Countries including Britain have signed the agreement.",
+      "blank_target": "をはじめ",
+      "wrong_choices": [
+        "をはじめとして",
+        "など",
+        "を中心に"
+      ],
+      "wrong_choice_explanations": [
+        "をはじめとして does not convey the same grammatical meaning as 〜をはじめ in this context.",
+        "など is a vague listing marker but doesn't specify that the first item is representative or exemplary of others.",
+        "を中心に does not convey the same grammatical meaning as 〜をはじめ in this context."
+      ]
+    },
+    {
+      "id": "n2_005_7",
+      "pattern": "〜を中心に",
+      "meaning": "centered on / focused on",
+      "level": "N2",
+      "example_sentence": "ロンドンを中心に、イギリスの経済活動が展開されている。",
+      "translation": "Economic activities in Britain develop centered on London.",
+      "blank_target": "を中心に",
+      "wrong_choices": [
+        "をはじめ",
+        "を通じて",
+        "を通して"
+      ],
+      "wrong_choice_explanations": [
+        "をはじめ marks something as a representative example in a list, not as a central hub or focal point.",
+        "を通じて means 'through/via' indicating a medium, not a central point of concentration.",
+        "を通して means 'through/via' indicating a medium or method, not a geographical or conceptual center."
+      ]
+    },
+    {
+      "id": "n2_006_7",
+      "pattern": "〜を通じて / 〜を通して",
+      "meaning": "through / via / throughout",
+      "level": "N2",
+      "example_sentence": "文学を通じて、異文化への理解が深まる。",
+      "translation": "Through literature, understanding of different cultures deepens.",
+      "blank_target": "を通じて",
+      "wrong_choices": [
+        "によって",
+        "を中心に",
+        "をもとに"
+      ],
+      "wrong_choice_explanations": [
+        "によって indicates agency or cause (who/what does the action), but this sentence needs a 'medium or method' through which understanding develops.",
+        "を中心に means 'centered on' focusing on a hub, but this sentence needs 'through/via' to show literature as a medium for deepening understanding.",
+        "をもとに means 'based on using as a foundation,' implying concrete source material, not the ongoing medium through which deep understanding develops."
+      ]
+    },
+    {
+      "id": "n2_007_7",
+      "pattern": "〜をもとに",
+      "meaning": "based on / using as a foundation",
+      "level": "N2",
+      "example_sentence": "患者のカルテをもとに、医師は診断を行う。",
+      "translation": "The doctor made a diagnosis based on the patient's medical records.",
+      "blank_target": "をもとに",
+      "wrong_choices": [
+        "に基づいて",
+        "を通じて",
+        "によって"
+      ],
+      "wrong_choice_explanations": [
+        "に基づいて emphasizes formal rules, laws, or official data, while medical records are more concrete personal source material.",
+        "を通じて means 'through/via' indicating a medium, but this sentence needs a concrete source or foundation for the diagnosis.",
+        "によって indicates agent/cause, not the concrete source material that the diagnosis is based upon."
+      ]
+    },
+    {
+      "id": "n2_008_7",
+      "pattern": "〜に基づいて",
+      "meaning": "based on / in accordance with (formal, rules/data)",
+      "level": "N2",
+      "example_sentence": "国勢調査に基づいて、人口統計が作成される。",
+      "translation": "Population statistics are created based on the national census.",
+      "blank_target": "に基づいて",
+      "wrong_choices": [
+        "をもとに",
+        "によって",
+        "を通じて"
+      ],
+      "wrong_choice_explanations": [
+        "をもとに emphasizes personal/concrete source material, but this sentence discusses formal statistical data which requires the formal に基づいて.",
+        "によって indicates the agent performing the action, but this sentence needs to specify the formal basis (the census data) for creating statistics.",
+        "を通じて means 'through/via' indicating a process, but this sentence needs to specify the formal authoritative source of the statistics."
+      ]
+    },
+    {
+      "id": "n2_009_7",
+      "pattern": "〜に従って",
+      "meaning": "in accordance with / following / as (change follows)",
+      "level": "N2",
+      "example_sentence": "交通規則に従って、安全運転を心がけるべきだ。",
+      "translation": "One should drive safely in accordance with traffic regulations.",
+      "blank_target": "に従って",
+      "wrong_choices": [
+        "に基づいて",
+        "に従い",
+        "に沿って"
+      ],
+      "wrong_choice_explanations": [
+        "に基づいて emphasizes formal official rules or data, while に従って is better for actively following/complying with regulations one must obey.",
+        "に従い is an archaic or classical variant; に従って is the standard modern form for emphasizing compliance with regulations.",
+        "に沿って means 'along/in line with' guidelines, but this sentence emphasizes strict compliance with traffic rules, not just aligning with them."
+      ]
+    },
+    {
+      "id": "n2_010_7",
+      "pattern": "〜に沿って",
+      "meaning": "along / in line with / following (a guideline or path)",
+      "level": "N2",
+      "example_sentence": "会社の経営方針に沿って、各部門が目標を設定する。",
+      "translation": "Each department sets targets in accordance with the company's management policy.",
+      "blank_target": "に沿って",
+      "wrong_choices": [
+        "に従って",
+        "に基づいて",
+        "にしたがって"
+      ],
+      "wrong_choice_explanations": [
+        "に従って emphasizes strict obedience to rules/orders, but this sentence indicates alignment with a company policy as a guideline rather than strict obedience.",
+        "に基づいて emphasizes formal official basis, but this sentence shows departments aligning their targets with policy guidance, not deriving from formal law/data.",
+        "にしたがって is another form of に従って (obedience), but this sentence needs the gentler 'alignment with guidelines' that に沿って conveys."
+      ]
+    },
+    {
+      "id": "n2_011_7",
+      "pattern": "〜ざるを得ない",
+      "meaning": "cannot help but / have no choice but to",
+      "level": "N2",
+      "example_sentence": "状況の悪化により、撤退を余儀なくされざるを得ない。",
+      "translation": "Due to deteriorating circumstances, withdrawal has become unavoidable.",
+      "blank_target": "ざるを得ない",
+      "wrong_choices": [
+        "るほかない",
+        "るしかない",
+        "ないわけにはいかない"
+      ],
+      "wrong_choice_explanations": [
+        "るほかない indicates alternatives, but this sentence needs 〜ざるを得ない to convey cannot help but / have no choice but to.",
+        "るしかない indicates alternatives, but this sentence needs 〜ざるを得ない to convey cannot help but / have no choice but to.",
+        "ないわけにはいかない indicates alternatives, but this sentence needs 〜ざるを得ない to convey cannot help but / have no choice but to."
+      ]
+    },
+    {
+      "id": "n2_012_7",
+      "pattern": "〜かねない",
+      "meaning": "might / there is a risk that (negative outcome)",
+      "level": "N2",
+      "example_sentence": "不正な会計処理は、企業の信用を失墜させかねない。",
+      "translation": "Fraudulent accounting practices may cause loss of company credibility.",
+      "blank_target": "かねない",
+      "wrong_choices": [
+        "かもしれない",
+        "おそれがある",
+        "かねる"
+      ],
+      "wrong_choice_explanations": [
+        "かもしれない indicates alternatives, but this sentence needs 〜かねない to convey might / there is a risk that (negative outcome).",
+        "おそれがある does not convey the meaning of 〜かねない required in this context: might / there is a risk that (negative outcome).",
+        "かねる indicates alternatives, but this sentence needs 〜かねない to convey might / there is a risk that (negative outcome)."
+      ]
+    },
+    {
+      "id": "n2_013_7",
+      "pattern": "〜かねる",
+      "meaning": "cannot bring oneself to / find it difficult to (reluctance)",
+      "level": "N2",
+      "example_sentence": "その結論には、科学的根拠がないため同意しかねます。",
+      "translation": "Since this conclusion lacks scientific basis, I cannot agree.",
+      "blank_target": "かねます",
+      "wrong_choices": [
+        "かねません",
+        "づらいです",
+        "にくいです"
+      ],
+      "wrong_choice_explanations": [
+        "かねません indicates alternatives, but this sentence needs 〜かねる to convey cannot bring oneself to / find it difficult to (reluctance).",
+        "づらいです does not convey the meaning of 〜かねる required in this context: cannot bring oneself to / find it difficult to (reluctance).",
+        "にくいです does not convey the meaning of 〜かねる required in this context: cannot bring oneself to / find it difficult to (reluctance)."
+      ]
+    },
+    {
+      "id": "n2_014_7",
+      "pattern": "〜おそれがある",
+      "meaning": "there is a fear / risk / danger that",
+      "level": "N2",
+      "example_sentence": "この政策には、格差拡大のおそれがある。",
+      "translation": "There is a risk that this policy may widen the wealth gap.",
+      "blank_target": "のおそれがある",
+      "wrong_choices": [
+        "のかねない",
+        "の危険がある",
+        "の可能性がある"
+      ],
+      "wrong_choice_explanations": [
+        "のかねない indicates alternatives, but this sentence needs 〜おそれがある to convey there is a fear / risk / danger that.",
+        "の危険がある does not convey the meaning of 〜おそれがある required in this context: there is a fear / risk / danger that.",
+        "の可能性がある does not convey the meaning of 〜おそれがある required in this context: there is a fear / risk / danger that."
+      ]
+    },
+    {
+      "id": "n2_015_7",
+      "pattern": "〜に反して",
+      "meaning": "contrary to / against / in opposition to",
+      "level": "N2",
+      "example_sentence": "国家の利益に反して、個人的な利益を優先した。",
+      "translation": "The country's interests were compromised for personal gain.",
+      "blank_target": "に反して",
+      "wrong_choices": [
+        "に対して",
+        "にもかかわらず",
+        "と違って"
+      ],
+      "wrong_choice_explanations": [
+        "に対して does not convey the meaning of 〜に反して required in this context: contrary to / against / in opposition to.",
+        "にもかかわらず indicates alternatives, but this sentence needs 〜に反して to convey contrary to / against / in opposition to.",
+        "と違って does not convey the meaning of 〜に反して required in this context: contrary to / against / in opposition to."
+      ]
+    },
+    {
+      "id": "n2_016_7",
+      "pattern": "〜にとどまらず",
+      "meaning": "not limited to / extending beyond",
+      "level": "N2",
+      "example_sentence": "影響は国内にとどまらず、国際社会全体に及んでいる。",
+      "translation": "The impact extends beyond the domestic market to the entire international community.",
+      "blank_target": "にとどまらず",
+      "wrong_choices": [
+        "だけでなく",
+        "のみならず",
+        "をはじめ"
+      ],
+      "wrong_choice_explanations": [
+        "だけでなく does not convey the meaning of 〜にとどまらず required in this context: not limited to / extending beyond.",
+        "のみならず does not convey the meaning of 〜にとどまらず required in this context: not limited to / extending beyond.",
+        "をはじめ means 'starting with,' but this sentence needs 〜にとどまらず to convey not limited to / extending beyond."
+      ]
+    },
+    {
+      "id": "n2_017_7",
+      "pattern": "〜のみならず",
+      "meaning": "not only... but also (formal version of だけでなく)",
+      "level": "N2",
+      "example_sentence": "理論のみならず、実践的なスキルも習得した。",
+      "translation": "We acquired not only the theory but also practical skills.",
+      "blank_target": "のみならず",
+      "wrong_choices": [
+        "だけでなく",
+        "にとどまらず",
+        "ばかりか"
+      ],
+      "wrong_choice_explanations": [
+        "だけでなく does not convey the meaning of 〜のみならず required in this context: not only...but also (formal).",
+        "にとどまらず does not convey the meaning of 〜のみならず required in this context: not only...but also (formal).",
+        "ばかりか indicates alternatives, but this sentence needs 〜のみならず to convey not only...but also (formal)."
+      ]
+    },
+    {
+      "id": "n2_018_7",
+      "pattern": "〜ばかりか",
+      "meaning": "not only... but also (emphasizes addition, often surprising)",
+      "level": "N2",
+      "example_sentence": "彼は歌手ばかりか、ダンサーとしても活躍している。",
+      "translation": "He is active as both a singer and a dancer.",
+      "blank_target": "ばかりか",
+      "wrong_choices": [
+        "のみならず",
+        "だけでなく",
+        "に加えて"
+      ],
+      "wrong_choice_explanations": [
+        "のみならず is formal but typically used with nouns, not to emphasize surprising additions.",
+        "だけでなく is less emphatic and doesn't convey the same degree of unexpected addition that ばかりか expresses.",
+        "に加えて does not convey the same grammatical meaning as 〜ばかりか in this context."
+      ]
+    },
+    {
+      "id": "n2_019_7",
+      "pattern": "〜に加えて",
+      "meaning": "in addition to / on top of",
+      "level": "N2",
+      "example_sentence": "行政改革に加えて、税制改革も推し進められた。",
+      "translation": "Along with administrative reform, tax reform has also been promoted.",
+      "blank_target": "に加えて",
+      "wrong_choices": [
+        "ばかりか",
+        "のみならず",
+        "とともに"
+      ],
+      "wrong_choice_explanations": [
+        "ばかりか indicates alternatives, but this sentence needs 〜に加えて to convey in addition to / on top of.",
+        "のみならず does not convey the meaning of 〜に加えて required in this context: in addition to / on top of.",
+        "とともに does not convey the meaning of 〜に加えて required in this context: in addition to / on top of."
+      ]
+    },
+    {
+      "id": "n2_020_7",
+      "pattern": "〜とともに",
+      "meaning": "together with / along with / as ... changes",
+      "level": "N2",
+      "example_sentence": "高度経済成長とともに、都市部への人口集中が進んだ。",
+      "translation": "As high economic growth progressed, population concentration in urban areas advanced.",
+      "blank_target": "とともに",
+      "wrong_choices": [
+        "に加えて",
+        "につれて",
+        "にしたがって"
+      ],
+      "wrong_choice_explanations": [
+        "に加えて does not convey the meaning of 〜とともに required in this context: together with/along with.",
+        "につれて does not convey the meaning of 〜とともに required in this context: together with/along with.",
+        "にしたがって does not convey the meaning of 〜とともに required in this context: together with/along with."
+      ]
+    },
+    {
+      "id": "n2_021_7",
+      "pattern": "〜上で",
+      "meaning": "after doing / when it comes to (prerequisite or context)",
+      "level": "N2",
+      "example_sentence": "十分な検討をした上で、提案を提出することにした。",
+      "translation": "We submitted the proposal after careful deliberation.",
+      "blank_target": "た上で",
+      "wrong_choices": [
+        "てから",
+        "に際して",
+        "た上に"
+      ],
+      "wrong_choice_explanations": [
+        "てから indicates alternatives, but this sentence needs 〜上で to convey after doing / when it comes to (prerequisite or context).",
+        "に際して does not convey the meaning of 〜上で required in this context: after doing / when it comes to (prerequisite or context).",
+        "た上に does not convey the meaning of 〜上で required in this context: after doing / when it comes to (prerequisite or context)."
+      ]
+    },
+    {
+      "id": "n2_022_7",
+      "pattern": "〜上に",
+      "meaning": "in addition to / on top of (cumulative, often negative)",
+      "level": "N2",
+      "example_sentence": "スケジュール遅延した上に、予算もオーバーした。",
+      "translation": "Schedule delays occurred, and the budget also exceeded limits.",
+      "blank_target": "た上に",
+      "wrong_choices": [
+        "た上で",
+        "に加えて",
+        "だけでなく"
+      ],
+      "wrong_choice_explanations": [
+        "た上で does not convey the meaning of 〜上に required in this context: in addition to / on top of (cumulative, often negative).",
+        "に加えて does not convey the meaning of 〜上に required in this context: in addition to / on top of (cumulative, often negative).",
+        "だけでなく does not convey the meaning of 〜上に required in this context: in addition to / on top of (cumulative, often negative)."
+      ]
+    },
+    {
+      "id": "n2_023_7",
+      "pattern": "〜つつ",
+      "meaning": "while / even while (contrast or simultaneous action, formal)",
+      "level": "N2",
+      "example_sentence": "疑問に思いつつも、彼は沈黙を守った。",
+      "translation": "Though I felt doubt, I maintained silence.",
+      "blank_target": "つつ",
+      "wrong_choices": [
+        "りながら",
+        "りつつも",
+        "っても"
+      ],
+      "wrong_choice_explanations": [
+        "りながら does not convey the meaning of 〜つつ required in this context: while/at the same time.",
+        "りつつも does not convey the meaning of 〜つつ required in this context: while/at the same time.",
+        "っても does not convey the meaning of 〜つつ required in this context: while/at the same time."
+      ]
+    },
+    {
+      "id": "n2_024_7",
+      "pattern": "〜つつも",
+      "meaning": "even while / although (strong contrast, formal)",
+      "level": "N2",
+      "example_sentence": "困難さを認識しつつも、プロジェクトを続行する。",
+      "translation": "We continue the project while acknowledging its difficulties.",
+      "blank_target": "しつつも",
+      "wrong_choices": [
+        "しつつ",
+        "しながらも",
+        "したものの"
+      ],
+      "wrong_choice_explanations": [
+        "しつつ does not convey the same grammatical meaning as 〜つつも in this context.",
+        "しながらも does not convey the same grammatical meaning as 〜つつも in this context.",
+        "したものの does not convey the same grammatical meaning as 〜つつも in this context."
+      ]
+    },
+    {
+      "id": "n2_025_7",
+      "pattern": "〜ながらも",
+      "meaning": "even though / despite (contrast, slightly softer than ものの)",
+      "level": "N2",
+      "example_sentence": "地方の町ながらも、文化的な活動が活発だ。",
+      "translation": "Though small, this local town has vibrant cultural activities.",
+      "blank_target": "ながらも",
+      "wrong_choices": [
+        "ものの",
+        "つつも",
+        "にもかかわらず"
+      ],
+      "wrong_choice_explanations": [
+        "ものの does not convey the meaning of 〜ながらも required in this context: even though / despite (contrast, slightly softer than ものの).",
+        "つつも does not convey the meaning of 〜ながらも required in this context: even though / despite (contrast, slightly softer than ものの).",
+        "にもかかわらず indicates alternatives, but this sentence needs 〜ながらも to convey even though / despite (contrast, slightly softer than ものの)."
+      ]
+    },
+    {
+      "id": "n2_026_7",
+      "pattern": "〜てならない",
+      "meaning": "cannot help feeling / extremely (strong natural emotion)",
+      "level": "N2",
+      "example_sentence": "その日のことが忘れられなくてならない。",
+      "translation": "I cannot forget what happened that day.",
+      "blank_target": "くてならない",
+      "wrong_choices": [
+        "くてたまらない",
+        "くてしょうがない",
+        "くてやまない"
+      ],
+      "wrong_choice_explanations": [
+        "くてたまらない does not convey the meaning of 〜てならない required in this context: cannot help feeling / extremely (strong natural emotion).",
+        "くてしょうがない does not convey the meaning of 〜てならない required in this context: cannot help feeling / extremely (strong natural emotion).",
+        "くてやまない is a listing particle, but this sentence requires 〜てならない to express cannot help feeling / extremely (strong natural emotion)."
+      ]
+    },
+    {
+      "id": "n2_027_7",
+      "pattern": "〜てたまらない",
+      "meaning": "unbearably / extremely (physical or emotional feeling)",
+      "level": "N2",
+      "example_sentence": "このニュースが信じられなくてたまらない。",
+      "translation": "I cannot believe this news.",
+      "blank_target": "くてたまらない",
+      "wrong_choices": [
+        "くてならない",
+        "くてしょうがない",
+        "くてやまない"
+      ],
+      "wrong_choice_explanations": [
+        "くてならない does not convey the meaning of 〜てたまらない required in this context: unbearably / extremely (physical or emotional feeling).",
+        "くてしょうがない does not convey the meaning of 〜てたまらない required in this context: unbearably / extremely (physical or emotional feeling).",
+        "くてやまない is a listing particle, but this sentence requires 〜てたまらない to express unbearably / extremely (physical or emotional feeling)."
+      ]
+    },
+    {
+      "id": "n2_028_7",
+      "pattern": "〜てやまない",
+      "meaning": "never stop feeling / deeply and continuously (formal, positive feeling)",
+      "level": "N2",
+      "example_sentence": "平和な世界の実現を願ってやまない。",
+      "translation": "My desire to realize a peaceful world will never cease.",
+      "blank_target": "ってやまない",
+      "wrong_choices": [
+        "ってならない",
+        "ってたまらない",
+        "ってやまず"
+      ],
+      "wrong_choice_explanations": [
+        "ってならない does not convey the meaning of 〜てやまない required in this context: never stop feeling / deeply and continuously (formal, positive feeling).",
+        "ってたまらない does not convey the meaning of 〜てやまない required in this context: never stop feeling / deeply and continuously (formal, positive feeling).",
+        "ってやまず is a listing particle, but this sentence requires 〜てやまない to express never stop feeling / deeply and continuously (formal, positive feeling)."
+      ]
+    },
+    {
+      "id": "n2_029_7",
+      "pattern": "〜に相違ない",
+      "meaning": "there is no doubt / must certainly be (formal)",
+      "level": "N2",
+      "example_sentence": "この署名は本人によるものに相違ない。",
+      "translation": "This signature must certainly be the work of the person themselves.",
+      "blank_target": "に相違ない",
+      "wrong_choices": [
+        "にちがいない",
+        "のはずだ",
+        "に決まっている"
+      ],
+      "wrong_choice_explanations": [
+        "にちがいない does not convey the meaning of 〜に相違ない required in this context: there is no doubt / must certainly be (formal).",
+        "のはずだ does not convey the meaning of 〜に相違ない required in this context: there is no doubt / must certainly be (formal).",
+        "に決まっている does not convey the meaning of 〜に相違ない required in this context: there is no doubt / must certainly be (formal)."
+      ]
+    },
+    {
+      "id": "n2_030_7",
+      "pattern": "〜に決まっている",
+      "meaning": "must be / I am sure that (strong conviction, colloquial)",
+      "level": "N2",
+      "example_sentence": "これだけの努力をしたから、結果は出るに決まっている。",
+      "translation": "With such effort, the results are bound to appear.",
+      "blank_target": "に決まっている",
+      "wrong_choices": [
+        "に相違ない",
+        "にちがいない",
+        "はずだ"
+      ],
+      "wrong_choice_explanations": [
+        "に相違ない does not convey the meaning of 〜に決まっている required in this context: must be / I am sure that (strong conviction, colloquial).",
+        "にちがいない does not convey the meaning of 〜に決まっている required in this context: must be / I am sure that (strong conviction, colloquial).",
+        "はずだ does not convey the meaning of 〜に決まっている required in this context: must be / I am sure that (strong conviction, colloquial)."
+      ]
+    },
+    {
+      "id": "n2_031_7",
+      "pattern": "〜をはじめ（として）",
+      "meaning": "starting with / including (naming the most representative example)",
+      "level": "N2",
+      "example_sentence": "田中教授をはじめ、三人の専門家が委員会に参加した。",
+      "translation": "Three experts, including Professor Tanaka, participated in the committee.",
+      "blank_target": "をはじめ",
+      "wrong_choices": [
+        "を中心に",
+        "など",
+        "に限らず"
+      ],
+      "wrong_choice_explanations": [
+        "を中心に means 'centered on,' but this sentence requires 〜をはじめ（として） to express starting with / including (naming the most representative example).",
+        "など is a vague listing marker, lacking the precision and  that 〜をはじめ（として） provides.",
+        "に限らず does not convey the meaning of 〜をはじめ（として） required in this context: starting with / including (naming the most representative example)."
+      ]
+    },
+    {
+      "id": "n2_032_7",
+      "pattern": "〜ものとする",
+      "meaning": "it is stipulated / shall be regarded as (formal, contractual, rules)",
+      "level": "N2",
+      "example_sentence": "この規則は本日付で施行されたものとする。",
+      "translation": "This rule becomes effective and binding as of today.",
+      "blank_target": "たものとする",
+      "wrong_choices": [
+        "たことにする",
+        "たものとして",
+        "たとみなす"
+      ],
+      "wrong_choice_explanations": [
+        "たことにする does not convey the meaning of 〜ものとする required in this context: it is stipulated / shall be regarded as (formal, contractual, rules).",
+        "たものとして does not convey the meaning of 〜ものとする required in this context: it is stipulated / shall be regarded as (formal, contractual, rules).",
+        "たとみなす does not convey the meaning of 〜ものとする required in this context: it is stipulated / shall be regarded as (formal, contractual, rules)."
+      ]
+    },
+    {
+      "id": "n2_033_7",
+      "pattern": "〜ものとして",
+      "meaning": "on the assumption that / treating it as though (hypothetical premise)",
+      "level": "N2",
+      "example_sentence": "来年度の予算が承認されたものとして、計画を進めます。",
+      "translation": "Assuming next year's budget is approved, we will proceed with planning.",
+      "blank_target": "ものとして",
+      "wrong_choices": [
+        "ものとする",
+        "として",
+        "とすれば"
+      ],
+      "wrong_choice_explanations": [
+        "ものとする does not convey the meaning of 〜ものとして required in this context: on the assumption that / treating it as though (hypothetical premise).",
+        "として means 'as/in the role of,' but this sentence needs 〜ものとして to mean on the assumption that / treating it as though (hypothetical premise).",
+        "とすれば does not convey the meaning of 〜ものとして required in this context: on the assumption that / treating it as though (hypothetical premise)."
+      ]
+    },
+    {
+      "id": "n2_034_7",
+      "pattern": "〜を問わず",
+      "meaning": "regardless of / irrespective of / without distinction",
+      "level": "N2",
+      "example_sentence": "学歴を問わず、適性のある人材を採用する。",
+      "translation": "Anyone can be hired regardless of educational background.",
+      "blank_target": "を問わず",
+      "wrong_choices": [
+        "にかかわらず",
+        "に限らず",
+        "を問わないで"
+      ],
+      "wrong_choice_explanations": [
+        "にかかわらず indicates alternatives, but this sentence needs 〜を問わず to convey regardless of / irrespective of / without distinction.",
+        "に限らず does not convey the meaning of 〜を問わず required in this context: regardless of / irrespective of / without distinction.",
+        "を問わないで does not convey the meaning of 〜を問わず required in this context: regardless of / irrespective of / without distinction."
+      ]
+    },
+    {
+      "id": "n2_035_7",
+      "pattern": "〜にかかわらず",
+      "meaning": "regardless of / no matter (slightly more formal than を問わず)",
+      "level": "N2",
+      "example_sentence": "結果の良し悪しにかかわらず、挑戦は続ける。",
+      "translation": "Regardless of whether outcomes are good or bad, challenges continue.",
+      "blank_target": "にかかわらず",
+      "wrong_choices": [
+        "を問わず",
+        "に限らず",
+        "にもかかわらず"
+      ],
+      "wrong_choice_explanations": [
+        "を問わず does not convey the meaning of 〜にかかわらず required in this context: regardless of / no matter (slightly more formal than を問わず).",
+        "に限らず does not convey the meaning of 〜にかかわらず required in this context: regardless of / no matter (slightly more formal than を問わず).",
+        "にもかかわらず indicates alternatives, but this sentence needs 〜にかかわらず to convey regardless of / no matter (slightly more formal than を問わず)."
+      ]
+    },
+    {
+      "id": "n2_036_7",
+      "pattern": "〜に限らず",
+      "meaning": "not limited to / not just (extends beyond the named example)",
+      "level": "N2",
+      "example_sentence": "アメリカに限らず、世界中の国で同じ問題が起きている。",
+      "translation": "Not only in America but environmental issues are occurring worldwide.",
+      "blank_target": "に限らず",
+      "wrong_choices": [
+        "を問わず",
+        "にかかわらず",
+        "にとどまらず"
+      ],
+      "wrong_choice_explanations": [
+        "を問わず does not convey the meaning of 〜に限らず required in this context: not limited to / not just (extends beyond the named example).",
+        "にかかわらず indicates alternatives, but this sentence needs 〜に限らず to convey not limited to / not just (extends beyond the named example).",
+        "にとどまらず does not convey the meaning of 〜に限らず required in this context: not limited to / not just (extends beyond the named example)."
+      ]
+    },
+    {
+      "id": "n2_037_7",
+      "pattern": "〜に限って",
+      "meaning": "only when / of all things, specifically (ironic or frustrated emphasis)",
+      "level": "N2",
+      "example_sentence": "試験当日に限って、一番緊張する。",
+      "translation": "I feel most nervous precisely on the day of the exam.",
+      "blank_target": "に限って",
+      "wrong_choices": [
+        "にだけ",
+        "に限り",
+        "だけに"
+      ],
+      "wrong_choice_explanations": [
+        "にだけ does not convey the meaning of 〜に限って required in this context: only when / of all things, specifically (ironic or frustrated emphasis).",
+        "に限り does not convey the meaning of 〜に限って required in this context: only when / of all things, specifically (ironic or frustrated emphasis).",
+        "だけに does not convey the meaning of 〜に限って required in this context: only when / of all things, specifically (ironic or frustrated emphasis)."
+      ]
+    },
+    {
+      "id": "n2_038_7",
+      "pattern": "〜に限り",
+      "meaning": "only for / limited to (specific condition or exception)",
+      "level": "N2",
+      "example_sentence": "この週末に限り、スペシャルセールを実施します。",
+      "translation": "Only this weekend will special sales be held.",
+      "blank_target": "に限り",
+      "wrong_choices": [
+        "に限って",
+        "だけ",
+        "のみ"
+      ],
+      "wrong_choice_explanations": [
+        "に限って does not convey the meaning of 〜に限り required in this context: only for / limited to (specific condition or exception).",
+        "だけ means 'only,' but this sentence requires 〜に限り to convey only for / limited to (specific condition or exception).",
+        "のみ means 'only,' but this sentence requires 〜に限り to express only for / limited to (specific condition or exception)."
+      ]
+    },
+    {
+      "id": "n2_039_7",
+      "pattern": "〜次第",
+      "meaning": "as soon as / depending on / once (it is up to...)",
+      "level": "N2",
+      "example_sentence": "医師の許可が下り次第、退院できます。",
+      "translation": "The patient can be discharged once the doctor's approval is obtained.",
+      "blank_target": "次第",
+      "wrong_choices": [
+        "たら",
+        "てから",
+        "次第で"
+      ],
+      "wrong_choice_explanations": [
+        "たら does not convey the meaning of 〜次第 required in this context: as soon as / depending on / once (it is up to...).",
+        "てから indicates alternatives, but this sentence needs 〜次第 to convey as soon as / depending on / once (it is up to...).",
+        "次第で does not convey the meaning of 〜次第 required in this context: as soon as / depending on / once (it is up to...)."
+      ]
+    },
+    {
+      "id": "n2_040_7",
+      "pattern": "〜次第で",
+      "meaning": "depending on / it all comes down to",
+      "level": "N2",
+      "example_sentence": "選択肢次第で、人生の道は大きく変わる。",
+      "translation": "Depending on the choices available, life paths can change greatly.",
+      "blank_target": "次第で",
+      "wrong_choices": [
+        "次第",
+        "によって",
+        "によっては"
+      ],
+      "wrong_choice_explanations": [
+        "次第 does not convey the meaning of 〜次第で required in this context: depending on / it all comes down to.",
+        "によって indicates agency or cause, not the depending on / it all comes down to that 〜次第で requires.",
+        "によっては does not convey the meaning of 〜次第で required in this context: depending on / it all comes down to."
+      ]
+    },
+    {
+      "id": "n2_041_7",
+      "pattern": "〜はもちろん",
+      "meaning": "of course / not to mention / let alone (something obvious, then something more)",
+      "level": "N2",
+      "example_sentence": "学習はもちろん、体験活動も重要だ。",
+      "translation": "Both learning and practical experience are important.",
+      "blank_target": "はもちろん",
+      "wrong_choices": [
+        "はもとより",
+        "だけでなく",
+        "をはじめ"
+      ],
+      "wrong_choice_explanations": [
+        "はもとより does not convey the meaning of 〜はもちろん required in this context: of course / not to mention / let alone (something obvious, then something more).",
+        "だけでなく does not convey the meaning of 〜はもちろん required in this context: of course / not to mention / let alone (something obvious, then something more).",
+        "をはじめ means 'starting with,' but this sentence needs 〜はもちろん to convey of course / not to mention / let alone (something obvious, then something more)."
+      ]
+    },
+    {
+      "id": "n2_042_7",
+      "pattern": "〜はもとより",
+      "meaning": "not only... but also (formal; the first item is taken as given)",
+      "level": "N2",
+      "example_sentence": "読み書き計算はもとより、批判的思考も必須だ。",
+      "translation": "Reading and writing basics are prerequisite; critical thinking is also essential.",
+      "blank_target": "はもとより",
+      "wrong_choices": [
+        "はもちろん",
+        "だけでなく",
+        "のみならず"
+      ],
+      "wrong_choice_explanations": [
+        "はもちろん does not convey the meaning of 〜はもとより required in this context: not only... but also (formal; the first item is taken as given).",
+        "だけでなく does not convey the meaning of 〜はもとより required in this context: not only... but also (formal; the first item is taken as given).",
+        "のみならず does not convey the meaning of 〜はもとより required in this context: not only... but also (formal; the first item is taken as given)."
+      ]
+    },
+    {
+      "id": "n2_043_7",
+      "pattern": "〜にすぎない",
+      "meaning": "nothing more than / only / merely",
+      "level": "N2",
+      "example_sentence": "これはあくまで仮説にすぎず、事実ではない。",
+      "translation": "This is merely a hypothesis, not fact.",
+      "blank_target": "にすぎず",
+      "wrong_choices": [
+        "だけだ",
+        "しかない",
+        "にほかならない"
+      ],
+      "wrong_choice_explanations": [
+        "だけだ does not convey the meaning of 〜にすぎない required in this context: nothing more than / only / merely.",
+        "しかない indicates alternatives, but this sentence needs 〜にすぎない to convey nothing more than / only / merely.",
+        "にほかならない indicates alternatives, but this sentence needs 〜にすぎない to convey nothing more than / only / merely."
+      ]
+    },
+    {
+      "id": "n2_044_7",
+      "pattern": "〜にほかならない",
+      "meaning": "nothing other than / is precisely / is exactly (strong assertion)",
+      "level": "N2",
+      "example_sentence": "その行動は、純粋な善意からのものにほかならない。",
+      "translation": "That conduct stems purely from genuine goodwill.",
+      "blank_target": "にほかならない",
+      "wrong_choices": [
+        "にすぎない",
+        "にちがいない",
+        "だけだ"
+      ],
+      "wrong_choice_explanations": [
+        "にすぎない does not convey the meaning of 〜にほかならない required in this context: nothing other than / is precisely / is exactly (strong assertion).",
+        "にちがいない does not convey the meaning of 〜にほかならない required in this context: nothing other than / is precisely / is exactly (strong assertion).",
+        "だけだ does not convey the meaning of 〜にほかならない required in this context: nothing other than / is precisely / is exactly (strong assertion)."
+      ]
+    },
+    {
+      "id": "n2_045_7",
+      "pattern": "〜というものだ",
+      "meaning": "that is what... is / that is exactly (natural assertion about the nature of something)",
+      "level": "N2",
+      "example_sentence": "正直さと信頼こそが、組織の基盤というものだ。",
+      "translation": "Good grades do not guarantee a good life.",
+      "blank_target": "というものだ",
+      "wrong_choices": [
+        "ということだ",
+        "ものだ",
+        "というものではない"
+      ],
+      "wrong_choice_explanations": [
+        "ということだ does not convey the meaning of 〜というものだ required in this context: that is what... is / that is exactly (natural assertion about the nature of something).",
+        "ものだ does not convey the meaning of 〜というものだ required in this context: that is what... is / that is exactly (natural assertion about the nature of something).",
+        "というものではない does not convey the meaning of 〜というものだ required in this context: that is what... is / that is exactly (natural assertion about the nature of something)."
+      ]
+    },
+    {
+      "id": "n2_046_7",
+      "pattern": "〜というものではない",
+      "meaning": "it is not necessarily the case that / it does not follow that",
+      "level": "N2",
+      "example_sentence": "良い成績が良い人生を保証するというものではない。",
+      "translation": "New technology is not necessarily always effective.",
+      "blank_target": "というものではない",
+      "wrong_choices": [
+        "というものだ",
+        "わけではない",
+        "とは限らない"
+      ],
+      "wrong_choice_explanations": [
+        "というものだ does not convey the meaning of 〜というものではない required in this context: it is not necessarily the case that / it does not follow that.",
+        "わけではない does not convey the meaning of 〜というものではない required in this context: it is not necessarily the case that / it does not follow that.",
+        "とは限らない does not convey the meaning of 〜というものではない required in this context: it is not necessarily the case that / it does not follow that."
+      ]
+    },
+    {
+      "id": "n2_047_7",
+      "pattern": "〜とは限らない",
+      "meaning": "not necessarily / not always the case",
+      "level": "N2",
+      "example_sentence": "新しい技術が必ずしも効果的であるとは限らない。",
+      "translation": "Having wealth does not necessarily lead to happiness.",
+      "blank_target": "とは限らない",
+      "wrong_choices": [
+        "とは言えない",
+        "わけではない",
+        "というものではない"
+      ],
+      "wrong_choice_explanations": [
+        "とは言えない does not convey the meaning of 〜とは限らない required in this context: not necessarily / not always the case.",
+        "わけではない does not convey the meaning of 〜とは限らない required in this context: not necessarily / not always the case.",
+        "というものではない does not convey the meaning of 〜とは限らない required in this context: not necessarily / not always the case."
+      ]
+    },
+    {
+      "id": "n2_048_7",
+      "pattern": "〜からといって",
+      "meaning": "just because / even though (the reason does not justify the conclusion)",
+      "level": "N2",
+      "example_sentence": "富があるからといって、幸福が得られるわけではない。",
+      "translation": "I have become responsible for this project, so I must take responsibility.",
+      "blank_target": "からといって",
+      "wrong_choices": [
+        "だからといって",
+        "ので",
+        "のに"
+      ],
+      "wrong_choice_explanations": [
+        "だからといって indicates alternatives, but this sentence needs 〜からといって to convey just because / even though (the reason does not justify the conclusion).",
+        "ので does not convey the meaning of 〜からといって required in this context: just because / even though (the reason does not justify the conclusion).",
+        "のに does not convey the meaning of 〜からといって required in this context: just because / even though (the reason does not justify the conclusion)."
+      ]
+    },
+    {
+      "id": "n2_049_7",
+      "pattern": "〜からには",
+      "meaning": "now that / since (having decided, one must follow through — strong commitment)",
+      "level": "N2",
+      "example_sentence": "このプロジェクトの責任者となったからには、責任をとる。",
+      "translation": "As a student, one should focus on academics.",
+      "blank_target": "たからには",
+      "wrong_choices": [
+        "た以上は",
+        "たからといって",
+        "たことだから"
+      ],
+      "wrong_choice_explanations": [
+        "た以上は does not convey the meaning of 〜からには required in this context: now that / since (having decided, one must follow through — strong commitment).",
+        "たからといって indicates alternatives, but this sentence needs 〜からには to convey now that / since (having decided, one must follow through — strong commitment).",
+        "たことだから indicates alternatives, but this sentence needs 〜からには to convey now that / since (having decided, one must follow through — strong commitment)."
+      ]
+    },
+    {
+      "id": "n2_050_7",
+      "pattern": "〜以上は",
+      "meaning": "now that / since (once something is the case, obligation follows — formal)",
+      "level": "N2",
+      "example_sentence": "学生である以上は、学業に専念すべきだ。",
+      "translation": "Because of many failures, current success exists.",
+      "blank_target": "である以上は",
+      "wrong_choices": [
+        "であるからには",
+        "である上は",
+        "だからといって"
+      ],
+      "wrong_choice_explanations": [
+        "であるからには indicates alternatives, but this sentence needs 〜以上は to convey now that / since (once something is the case, obligation follows — formal).",
+        "である上は does not convey the meaning of 〜以上は required in this context: now that / since (once something is the case, obligation follows — formal).",
+        "だからといって indicates alternatives, but this sentence needs 〜以上は to convey now that / since (once something is the case, obligation follows — formal)."
+      ]
+    },
+    {
+      "id": "n2_051_7",
+      "pattern": "〜からこそ",
+      "meaning": "precisely because / it is exactly because (strong causal emphasis)",
+      "level": "N2",
+      "example_sentence": "多くの失敗を経験したからこそ、現在の成功がある。",
+      "translation": "If his claim is correct, we need to change our response strategy.",
+      "blank_target": "たからこそ",
+      "wrong_choices": [
+        "たから",
+        "たのだからこそ",
+        "たために"
+      ],
+      "wrong_choice_explanations": [
+        "たから indicates alternatives, but this sentence needs 〜からこそ to convey precisely because / it is exactly because (strong causal emphasis).",
+        "たのだからこそ indicates alternatives, but this sentence needs 〜からこそ to convey precisely because / it is exactly because (strong causal emphasis).",
+        "たために does not convey the meaning of 〜からこそ required in this context: precisely because / it is exactly because (strong causal emphasis)."
+      ]
+    },
+    {
+      "id": "n2_052_7",
+      "pattern": "〜とすれば",
+      "meaning": "if we assume / supposing that (hypothetical reasoning)",
+      "level": "N2",
+      "example_sentence": "彼の主張が正しいとすれば、対応策を変更する必要がある。",
+      "translation": "If the market shrinks, what measures would be necessary?",
+      "blank_target": "とすれば",
+      "wrong_choices": [
+        "とすると",
+        "としたら",
+        "なら"
+      ],
+      "wrong_choice_explanations": [
+        "とすると does not convey the meaning of 〜とすれば required in this context: if we assume / supposing that (hypothetical reasoning).",
+        "としたら does not convey the meaning of 〜とすれば required in this context: if we assume / supposing that (hypothetical reasoning).",
+        "なら does not convey the meaning of 〜とすれば required in this context: if we assume / supposing that (hypothetical reasoning)."
+      ]
+    },
+    {
+      "id": "n2_053_7",
+      "pattern": "〜としたら / 〜とすると",
+      "meaning": "assuming that / if it turns out that (hypothetical starting point)",
+      "level": "N2",
+      "example_sentence": "市場が縮小するとしたら、どう対応するか。",
+      "translation": "Whatever criticism exists, that work will remain in history.",
+      "blank_target": "としたら",
+      "wrong_choices": [
+        "とすれば",
+        "なら",
+        "たら"
+      ],
+      "wrong_choice_explanations": [
+        "とすれば does not convey the meaning of 〜としたら / 〜とすると required in this context: assuming that / if it turns out that (hypothetical starting point).",
+        "なら does not convey the meaning of 〜としたら / 〜とすると required in this context: assuming that / if it turns out that (hypothetical starting point).",
+        "たら does not convey the meaning of 〜としたら / 〜とすると required in this context: assuming that / if it turns out that (hypothetical starting point)."
+      ]
+    },
+    {
+      "id": "n2_054_7",
+      "pattern": "〜にしても",
+      "meaning": "even if / regardless of whether (acknowledges the condition but dismisses it)",
+      "level": "N2",
+      "example_sentence": "理由が何であるにしても、その行動は許されない。",
+      "translation": "Even using the best restoration techniques, complete restoration is impossible.",
+      "blank_target": "にしても",
+      "wrong_choices": [
+        "としても",
+        "にしては",
+        "にせよ"
+      ],
+      "wrong_choice_explanations": [
+        "としても does not convey the meaning of 〜にしても required in this context: even if / regardless of whether (acknowledges the condition but dismisses it).",
+        "にしては does not convey the meaning of 〜にしても required in this context: even if / regardless of whether (acknowledges the condition but dismisses it).",
+        "にせよ does not convey the meaning of 〜にしても required in this context: even if / regardless of whether (acknowledges the condition but dismisses it)."
+      ]
+    },
+    {
+      "id": "n2_055_7",
+      "pattern": "〜としても",
+      "meaning": "even if / even granting that (concession — the conclusion remains unchanged)",
+      "level": "N2",
+      "example_sentence": "全力を尽くしたとしても、すべてが成功するとは限らない。",
+      "translation": "If possible, I would want to directly see the art of that era.",
+      "blank_target": "たとしても",
+      "wrong_choices": [
+        "たにしても",
+        "ても",
+        "たとしたら"
+      ],
+      "wrong_choice_explanations": [
+        "たにしても does not convey the meaning of 〜としても required in this context: even if / even granting that (concession — the conclusion remains unchanged).",
+        "ても does not convey the meaning of 〜としても required in this context: even if / even granting that (concession — the conclusion remains unchanged).",
+        "たとしたら does not convey the meaning of 〜としても required in this context: even if / even granting that (concession — the conclusion remains unchanged)."
+      ]
+    },
+    {
+      "id": "n2_056_7",
+      "pattern": "〜ものなら",
+      "meaning": "if... were possible / if you dare to (warning or wistful wish)",
+      "level": "N2",
+      "example_sentence": "もしできるものなら、時間を戻したい。",
+      "translation": "Without seeing the original, true value cannot be assessed.",
+      "blank_target": "ものなら",
+      "wrong_choices": [
+        "なら",
+        "ものの",
+        "ならば"
+      ],
+      "wrong_choice_explanations": [
+        "なら does not convey the meaning of 〜ものなら required in this context: if... were possible / if you dare to (warning or wistful wish).",
+        "ものの does not convey the meaning of 〜ものなら required in this context: if... were possible / if you dare to (warning or wistful wish).",
+        "ならば does not convey the meaning of 〜ものなら required in this context: if... were possible / if you dare to (warning or wistful wish)."
+      ]
+    },
+    {
+      "id": "n2_057_7",
+      "pattern": "〜ないことには",
+      "meaning": "unless / if... not (required condition for something to happen)",
+      "level": "N2",
+      "example_sentence": "実績を示さないことには、信頼を得られない。",
+      "translation": "Without owner permission, the artwork cannot be moved.",
+      "blank_target": "ないことには",
+      "wrong_choices": [
+        "なければ",
+        "ないと",
+        "ない限り"
+      ],
+      "wrong_choice_explanations": [
+        "なければ does not convey the meaning of 〜ないことには required in this context: unless / if... not (required condition for something to happen).",
+        "ないと does not convey the meaning of 〜ないことには required in this context: unless / if... not (required condition for something to happen).",
+        "ない限り does not convey the meaning of 〜ないことには required in this context: unless / if... not (required condition for something to happen)."
+      ]
+    },
+    {
+      "id": "n2_058_7",
+      "pattern": "〜ない限り",
+      "meaning": "unless / as long as... not (strong conditional — only one exception exists)",
+      "level": "N2",
+      "example_sentence": "政府が支援しない限り、プロジェクトは進まない。",
+      "translation": "Through continued practice, artistic skills are refined.",
+      "blank_target": "ない限り",
+      "wrong_choices": [
+        "ないことには",
+        "なければ",
+        "ない以上"
+      ],
+      "wrong_choice_explanations": [
+        "ないことには does not convey the meaning of 〜ない限り required in this context: unless / as long as... not (strong conditional — only one exception exists).",
+        "なければ does not convey the meaning of 〜ない限り required in this context: unless / as long as... not (strong conditional — only one exception exists).",
+        "ない以上 does not convey the meaning of 〜ない限り required in this context: unless / as long as... not (strong conditional — only one exception exists)."
+      ]
+    },
+    {
+      "id": "n2_059_7",
+      "pattern": "〜てこそ",
+      "meaning": "only by doing / only when (condition is essential for the result)",
+      "level": "N2",
+      "example_sentence": "継続してこそ、技能は磨かれる。",
+      "translation": "Only by seeing it in person can one understand how wonderful the artwork is.",
+      "blank_target": "してこそ",
+      "wrong_choices": [
+        "してからこそ",
+        "したからこそ",
+        "してはじめて"
+      ],
+      "wrong_choice_explanations": [
+        "してからこそ indicates alternatives, but this sentence needs 〜てこそ to convey only by doing / only when (condition is essential for the result).",
+        "したからこそ indicates alternatives, but this sentence needs 〜てこそ to convey only by doing / only when (condition is essential for the result).",
+        "してはじめて does not convey the meaning of 〜てこそ required in this context: only by doing / only when (condition is essential for the result)."
+      ]
+    },
+    {
+      "id": "n2_060_7",
+      "pattern": "〜てはじめて",
+      "meaning": "only after doing / not until (the result becomes possible only after the action)",
+      "level": "N2",
+      "example_sentence": "子どもを育ててはじめて、親の責任がわかる。",
+      "translation": "That conference became a turning point in his life.",
+      "blank_target": "てはじめて",
+      "wrong_choices": [
+        "ってこそ",
+        "ってから",
+        "って初めて"
+      ],
+      "wrong_choice_explanations": [
+        "ってこそ does not convey the meaning of 〜てはじめて required in this context: only after doing / not until (the result becomes possible only after the action).",
+        "ってから indicates alternatives, but this sentence needs 〜てはじめて to convey only after doing / not until (the result becomes possible only after the action).",
+        "って初めて does not convey the meaning of 〜てはじめて required in this context: only after doing / not until (the result becomes possible only after the action)."
+      ]
+    },
+    {
+      "id": "n2_061_7",
+      "pattern": "〜をきっかけに",
+      "meaning": "using as a trigger / taking the opportunity of (a turning point or catalyst)",
+      "level": "N2",
+      "example_sentence": "その講演会をきっかけに、彼の人生が変わった。",
+      "translation": "With the new director's appointment, the strategy changed significantly.",
+      "blank_target": "をきっかけに",
+      "wrong_choices": [
+        "を機に",
+        "をもとに",
+        "によって"
+      ],
+      "wrong_choice_explanations": [
+        "を機に does not convey the meaning of 〜をきっかけに required in this context: using as a trigger / taking the opportunity of (a turning point or catalyst).",
+        "をもとに means 'based on/using as a foundation,' but this sentence requires 〜をきっかけに to convey using as a trigger / taking the opportunity of (a turning point or catalyst).",
+        "によって indicates agency or cause, not the using as a trigger / taking the opportunity of (a turning point or catalyst) that 〜をきっかけに requires."
+      ]
+    },
+    {
+      "id": "n2_062_7",
+      "pattern": "〜を機に",
+      "meaning": "taking the opportunity of / on the occasion of (positive catalyst, formal)",
+      "level": "N2",
+      "example_sentence": "バルセロナオリンピックを機に、スポーツ産業が発展した。",
+      "translation": "This scandal prompted strengthened security measures.",
+      "blank_target": "を機に",
+      "wrong_choices": [
+        "をきっかけに",
+        "を契機に",
+        "際に"
+      ],
+      "wrong_choice_explanations": [
+        "をきっかけに indicates alternatives, but this sentence needs 〜を機に to convey taking the opportunity of / on the occasion of (positive catalyst, formal).",
+        "を契機に does not convey the meaning of 〜を機に required in this context: taking the opportunity of / on the occasion of (positive catalyst, formal).",
+        "際に does not convey the meaning of 〜を機に required in this context: taking the opportunity of / on the occasion of (positive catalyst, formal)."
+      ]
+    },
+    {
+      "id": "n2_063_7",
+      "pattern": "〜を契機に",
+      "meaning": "with... as an opportunity / prompted by (formal, often for social or historical events)",
+      "level": "N2",
+      "example_sentence": "このテロ事件を契機に、セキュリティ対策が強化された。",
+      "translation": "Talented young people are being developed under the guidance of a renowned mentor.",
+      "blank_target": "を契機に",
+      "wrong_choices": [
+        "をきっかけに",
+        "を機に",
+        "によって"
+      ],
+      "wrong_choice_explanations": [
+        "をきっかけに indicates alternatives, but this sentence needs 〜を契機に to convey with... as an opportunity / prompted by (formal, often for social or historical events).",
+        "を機に does not convey the meaning of 〜を契機に required in this context: with... as an opportunity / prompted by (formal, often for social or historical events).",
+        "によって indicates agency or cause, not the with... as an opportunity / prompted by (formal, often for social or historical events) that 〜を契機に requires."
+      ]
+    },
+    {
+      "id": "n2_064_7",
+      "pattern": "〜のもとで",
+      "meaning": "under / with (support, guidance, conditions, or authority)",
+      "level": "N2",
+      "example_sentence": "厳しい指導者のもとで、才能のある若者たちが育った。",
+      "translation": "Based on the principle of artistic freedom, exhibitions are held.",
+      "blank_target": "のもとで",
+      "wrong_choices": [
+        "のもとに",
+        "において",
+        "のなかで"
+      ],
+      "wrong_choice_explanations": [
+        "のもとに does not convey the meaning of 〜のもとで required in this context: under / with (support, guidance, conditions, or authority).",
+        "において does not convey the meaning of 〜のもとで required in this context: under / with (support, guidance, conditions, or authority).",
+        "のなかで indicates alternatives, but this sentence needs 〜のもとで to convey under / with (support, guidance, conditions, or authority)."
+      ]
+    },
+    {
+      "id": "n2_065_7",
+      "pattern": "〜のもとに",
+      "meaning": "under / based on (formal; an authority, name, or principle)",
+      "level": "N2",
+      "example_sentence": "民主主義の原則のもとに、すべての政策が立案される。",
+      "translation": "The Renaissance represents the most important period in art history.",
+      "blank_target": "のもとに",
+      "wrong_choices": [
+        "のもとで",
+        "において",
+        "に基づいて"
+      ],
+      "wrong_choice_explanations": [
+        "のもとで does not convey the meaning of 〜のもとに required in this context: under / based on (formal; an authority, name, or principle).",
+        "において does not convey the meaning of 〜のもとに required in this context: under / based on (formal; an authority, name, or principle).",
+        "に基づいて emphasizes formal rules/data, but this sentence needs 〜のもとに to express under / based on (formal; an authority, name, or principle)."
+      ]
+    },
+    {
+      "id": "n2_066_7",
+      "pattern": "〜にあたる",
+      "meaning": "corresponds to / is equivalent to / falls under",
+      "level": "N2",
+      "example_sentence": "7月4日は、アメリカ独立記念日にあたる。",
+      "translation": "There will be an explanation from the curators when the exhibition opens.",
+      "blank_target": "にあたる",
+      "wrong_choices": [
+        "に相当する",
+        "にあたって",
+        "に該当する"
+      ],
+      "wrong_choice_explanations": [
+        "に相当する does not convey the meaning of 〜にあたる required in this context: corresponds to / is equivalent to / falls under.",
+        "にあたって does not convey the meaning of 〜にあたる required in this context: corresponds to / is equivalent to / falls under.",
+        "に該当する does not convey the meaning of 〜にあたる required in this context: corresponds to / is equivalent to / falls under."
+      ]
+    },
+    {
+      "id": "n2_067_7",
+      "pattern": "〜に当たり",
+      "meaning": "on the occasion of / when (formal written variant of にあたって)",
+      "level": "N2",
+      "example_sentence": "新年度の開始に当たり、方針説明会が開かれる。",
+      "translation": "Over five years, we continued to collect works by that artist.",
+      "blank_target": "に当たり",
+      "wrong_choices": [
+        "に際して",
+        "にあたって",
+        "において"
+      ],
+      "wrong_choice_explanations": [
+        "に際して does not convey the meaning of 〜に当たり required in this context: on the occasion of / when (formal written variant of にあたって).",
+        "にあたって does not convey the meaning of 〜に当たり required in this context: on the occasion of / when (formal written variant of にあたって).",
+        "において does not convey the meaning of 〜に当たり required in this context: on the occasion of / when (formal written variant of にあたって)."
+      ]
+    },
+    {
+      "id": "n2_068_7",
+      "pattern": "〜にわたって",
+      "meaning": "spanning / over / throughout (a range of time or space)",
+      "level": "N2",
+      "example_sentence": "三ヶ月にわたって、彼は病院で治療を受けた。",
+      "translation": "From autumn to winter is the major season for art exhibitions.",
+      "blank_target": "にわたって",
+      "wrong_choices": [
+        "をかけて",
+        "にかけて",
+        "を通じて"
+      ],
+      "wrong_choice_explanations": [
+        "をかけて indicates alternatives, but this sentence needs 〜にわたって to convey spanning / over / throughout (a range of time or space).",
+        "にかけて indicates alternatives, but this sentence needs 〜にわたって to convey spanning / over / throughout (a range of time or space).",
+        "を通じて means 'through/via,' but this sentence needs 〜にわたって to express spanning / over / throughout (a range of time or space)."
+      ]
+    },
+    {
+      "id": "n2_069_7",
+      "pattern": "〜にかけて",
+      "meaning": "from... to / over the period of / in terms of (range or transition)",
+      "level": "N2",
+      "example_sentence": "冬から春にかけて、花粉症の患者が増加する。",
+      "translation": "Works from twenty years of collecting are displayed.",
+      "blank_target": "にかけて",
+      "wrong_choices": [
+        "にわたって",
+        "まで",
+        "を通じて"
+      ],
+      "wrong_choice_explanations": [
+        "にわたって does not convey the meaning of 〜にかけて required in this context: from... to / over the period of / in terms of (range or transition).",
+        "まで marks an endpoint, not the from... to / over the period of / in terms of (range or transition) that 〜にかけて conveys.",
+        "を通じて means 'through/via,' but this sentence needs 〜にかけて to express from... to / over the period of / in terms of (range or transition)."
+      ]
+    },
+    {
+      "id": "n2_070_7",
+      "pattern": "〜にわたる",
+      "meaning": "spanning / extending over (attributive form — modifying a noun)",
+      "level": "N2",
+      "example_sentence": "数年にわたる交渉の末、合意に至った。",
+      "translation": "The authorship of that artwork continues to be debated.",
+      "blank_target": "にわたる",
+      "wrong_choices": [
+        "にかけての",
+        "にわたって",
+        "をかけた"
+      ],
+      "wrong_choice_explanations": [
+        "にかけての indicates alternatives, but this sentence needs 〜にわたる to convey spanning / extending over (attributive form — modifying a noun).",
+        "にわたって does not convey the meaning of 〜にわたる required in this context: spanning / extending over (attributive form — modifying a noun).",
+        "をかけた indicates alternatives, but this sentence needs 〜にわたる to convey spanning / extending over (attributive form — modifying a noun)."
+      ]
+    },
+    {
+      "id": "n2_071_7",
+      "pattern": "〜をめぐって",
+      "meaning": "concerning / over / surrounding (a controversial or debated topic)",
+      "level": "N2",
+      "example_sentence": "新しい法律案をめぐって、国会で激しい議論がなされた。",
+      "translation": "A rebuttal to the critic's criticism has been published.",
+      "blank_target": "をめぐって",
+      "wrong_choices": [
+        "について",
+        "に関して",
+        "をめぐる"
+      ],
+      "wrong_choice_explanations": [
+        "について does not convey the meaning of 〜をめぐって required in this context: concerning / over / surrounding (a controversial or debated topic).",
+        "に関して means 'regarding/concerning,' but this sentence needs 〜をめぐって to indicate concerning / over / surrounding (a controversial or debated topic).",
+        "をめぐる does not convey the meaning of 〜をめぐって required in this context: concerning / over / surrounding (a controversial or debated topic)."
+      ]
+    },
+    {
+      "id": "n2_072_7",
+      "pattern": "〜に対する",
+      "meaning": "toward / against / for (attributive form; modifying a noun)",
+      "level": "N2",
+      "example_sentence": "政府の政策に対する批判が高まっている。",
+      "translation": "A lecture on art trends will be held.",
+      "blank_target": "に対する",
+      "wrong_choices": [
+        "に対して",
+        "に関する",
+        "についての"
+      ],
+      "wrong_choice_explanations": [
+        "に対して does not convey the meaning of 〜に対する required in this context: toward / against / for (attributive form; modifying a noun).",
+        "に関する does not convey the meaning of 〜に対する required in this context: toward / against / for (attributive form; modifying a noun).",
+        "についての does not convey the meaning of 〜に対する required in this context: toward / against / for (attributive form; modifying a noun)."
+      ]
+    },
+    {
+      "id": "n2_073_7",
+      "pattern": "〜に関する",
+      "meaning": "related to / concerning (attributive form; modifying a noun)",
+      "level": "N2",
+      "example_sentence": "気候変動に関する国際会議が開催された。",
+      "translation": "According to experts, this artwork is authentic.",
+      "blank_target": "に関する",
+      "wrong_choices": [
+        "に対する",
+        "についての",
+        "に関して"
+      ],
+      "wrong_choice_explanations": [
+        "に対する does not convey the meaning of 〜に関する required in this context: related to / concerning (attributive form; modifying a noun).",
+        "についての does not convey the meaning of 〜に関する required in this context: related to / concerning (attributive form; modifying a noun).",
+        "に関して means 'regarding/concerning,' but this sentence needs 〜に関する to indicate related to / concerning (attributive form; modifying a noun)."
+      ]
+    },
+    {
+      "id": "n2_074_7",
+      "pattern": "〜によると / 〜によれば",
+      "meaning": "according to (citing a source of information)",
+      "level": "N2",
+      "example_sentence": "世論調査によると、内閣の支持率は低下している。",
+      "translation": "From that technique, the artist's intent is clear.",
+      "blank_target": "によると",
+      "wrong_choices": [
+        "によって",
+        "によれば",
+        "では"
+      ],
+      "wrong_choice_explanations": [
+        "によって indicates agency or cause, not the according to (citing a source of information) that 〜によると / 〜によれば requires.",
+        "によれば does not convey the meaning of 〜によると / 〜によれば required in this context: according to (citing a source of information).",
+        "では does not convey the meaning of 〜によると / 〜によれば required in this context: according to (citing a source of information)."
+      ]
+    },
+    {
+      "id": "n2_075_7",
+      "pattern": "〜からすると / 〜からすれば",
+      "meaning": "judging from / from the perspective of / given",
+      "level": "N2",
+      "example_sentence": "事件現場の状況からすると、怪盗の仕業に違いない。",
+      "translation": "From a modern perspective, that artwork is innovative.",
+      "blank_target": "からすると",
+      "wrong_choices": [
+        "から見ると",
+        "によると",
+        "からいうと"
+      ],
+      "wrong_choice_explanations": [
+        "から見ると indicates alternatives, but this sentence needs 〜からすると / 〜からすれば to convey judging from / from the perspective of / given.",
+        "によると does not convey the meaning of 〜からすると / 〜からすれば required in this context: judging from / from the perspective of / given.",
+        "からいうと indicates alternatives, but this sentence needs 〜からすると / 〜からすれば to convey judging from / from the perspective of / given."
+      ]
+    },
+    {
+      "id": "n2_076_7",
+      "pattern": "〜から見ると / 〜から見れば",
+      "meaning": "from the perspective of / as seen from",
+      "level": "N2",
+      "example_sentence": "高齢者の視点から見ると、この政策は不十分だ。",
+      "translation": "In terms of artistic value, this work is highly regarded.",
+      "blank_target": "から見ると",
+      "wrong_choices": [
+        "からすると",
+        "から考えると",
+        "にとって"
+      ],
+      "wrong_choice_explanations": [
+        "からすると indicates alternatives, but this sentence needs 〜から見ると / 〜から見れば to convey from the perspective of / as seen from.",
+        "から考えると indicates alternatives, but this sentence needs 〜から見ると / 〜から見れば to convey from the perspective of / as seen from.",
+        "にとって does not convey the meaning of 〜から見ると / 〜から見れば required in this context: from the perspective of / as seen from."
+      ]
+    },
+    {
+      "id": "n2_077_7",
+      "pattern": "〜からいうと",
+      "meaning": "in terms of / speaking from the standpoint of",
+      "level": "N2",
+      "example_sentence": "技術革新からいうと、このAIは画期的だ。",
+      "translation": "In technical aspects, some challenges are apparent.",
+      "blank_target": "からいうと",
+      "wrong_choices": [
+        "からすると",
+        "から見ると",
+        "の点から"
+      ],
+      "wrong_choice_explanations": [
+        "からすると indicates alternatives, but this sentence needs 〜からいうと to convey in terms of / speaking from the standpoint of.",
+        "から見ると indicates alternatives, but this sentence needs 〜からいうと to convey in terms of / speaking from the standpoint of.",
+        "の点から indicates alternatives, but this sentence needs 〜からいうと to convey in terms of / speaking from the standpoint of."
+      ]
+    },
+    {
+      "id": "n2_078_7",
+      "pattern": "〜点で / 〜点では",
+      "meaning": "in the aspect of / in that respect (comparing or evaluating a specific point)",
+      "level": "N2",
+      "example_sentence": "デザインという点では、この商品は市場で一番優れている。",
+      "translation": "Recently my interest in art has declined, so I should visit the exhibition.",
+      "blank_target": "という点では",
+      "wrong_choices": [
+        "という面で",
+        "という意味で",
+        "からいうと"
+      ],
+      "wrong_choice_explanations": [
+        "という面で does not convey the meaning of 〜点で / 〜点では required in this context: in the aspect of / in that respect (comparing or evaluating a specific point).",
+        "という意味で does not convey the meaning of 〜点で / 〜点では required in this context: in the aspect of / in that respect (comparing or evaluating a specific point).",
+        "からいうと indicates alternatives, but this sentence needs 〜点で / 〜点では to convey in the aspect of / in that respect (comparing or evaluating a specific point)."
+      ]
+    },
+    {
+      "id": "n2_079_7",
+      "pattern": "〜面で",
+      "meaning": "in terms of / on the side of (an aspect or dimension)",
+      "level": "N2",
+      "example_sentence": "文化面で、アジアの重要性はますます高まっている。",
+      "translation": "New trainees tend to mishandle artworks, so training is necessary.",
+      "blank_target": "面で",
+      "wrong_choices": [
+        "点で",
+        "からいうと",
+        "において"
+      ],
+      "wrong_choice_explanations": [
+        "点で does not convey the meaning of 〜面で required in this context: in terms of / on the side of (an aspect or dimension).",
+        "からいうと indicates alternatives, but this sentence needs 〜面で to convey in terms of / on the side of (an aspect or dimension).",
+        "において does not convey the meaning of 〜面で required in this context: in terms of / on the side of (an aspect or dimension)."
+      ]
+    },
+    {
+      "id": "n2_080_7",
+      "pattern": "〜気味",
+      "meaning": "slightly / a little / tending toward (negative nuance, slight condition)",
+      "level": "N2",
+      "example_sentence": "最近、睡眠不足気味なので健康診断を受けるつもりだ。",
+      "translation": "That painting style seems to be an imitation of existing schools.",
+      "blank_target": "気味",
+      "wrong_choices": [
+        "がち",
+        "っぽい",
+        "ぎみ"
+      ],
+      "wrong_choice_explanations": [
+        "がち does not convey the meaning of 〜気味 required in this context: slightly / a little / tending toward (negative nuance, slight condition).",
+        "っぽい does not convey the meaning of 〜気味 required in this context: slightly / a little / tending toward (negative nuance, slight condition).",
+        "ぎみ does not convey the meaning of 〜気味 required in this context: slightly / a little / tending toward (negative nuance, slight condition)."
+      ]
+    },
+    {
+      "id": "n2_081_7",
+      "pattern": "〜がち",
+      "meaning": "tends to / apt to / inclined to (often negative or undesirable tendency)",
+      "level": "N2",
+      "example_sentence": "高齢者は転倒しがちなので、階段に手すりが必要だ。",
+      "translation": "While listening to explanations about artworks, the young students had interested expressions.",
+      "blank_target": "がちなので",
+      "wrong_choices": [
+        "気味なので",
+        "っぽいので",
+        "やすいので"
+      ],
+      "wrong_choice_explanations": [
+        "気味なので does not convey the meaning of 〜がち required in this context: tends to / apt to / inclined to (often negative or undesirable tendency).",
+        "っぽいので does not convey the meaning of 〜がち required in this context: tends to / apt to / inclined to (often negative or undesirable tendency).",
+        "やすいので is a listing particle, but this sentence requires 〜がち to express tends to / apt to / inclined to (often negative or undesirable tendency)."
+      ]
+    },
+    {
+      "id": "n2_082_7",
+      "pattern": "〜っぽい",
+      "meaning": "tending to be / somewhat / somewhat resembling (colloquial, often negative)",
+      "level": "N2",
+      "example_sentence": "彼の発言は、陰謀論っぽい感じがする。",
+      "translation": "The colors appear as if they were born from nature.",
+      "blank_target": "っぽい",
+      "wrong_choices": [
+        "がち",
+        "気味",
+        "らしい"
+      ],
+      "wrong_choice_explanations": [
+        "がち does not convey the meaning of 〜っぽい required in this context: tending to be / somewhat / somewhat resembling (colloquial, often negative).",
+        "気味 does not convey the meaning of 〜っぽい required in this context: tending to be / somewhat / somewhat resembling (colloquial, often negative).",
+        "らしい does not convey the meaning of 〜っぽい required in this context: tending to be / somewhat / somewhat resembling (colloquial, often negative)."
+      ]
+    },
+    {
+      "id": "n2_083_7",
+      "pattern": "〜げ",
+      "meaning": "seeming / giving an impression of (visible emotional state)",
+      "level": "N2",
+      "example_sentence": "夕焼けを見ながら、彼女は考え込んだげな表情をしていた。",
+      "translation": "I did not know such a hidden masterpiece existed.",
+      "blank_target": "げな",
+      "wrong_choices": [
+        "そうな",
+        "っぽい",
+        "らしい"
+      ],
+      "wrong_choice_explanations": [
+        "そうな does not convey the meaning of 〜げ required in this context: seeming / giving an impression of (visible emotional state).",
+        "っぽい does not convey the meaning of 〜げ required in this context: seeming / giving an impression of (visible emotional state).",
+        "らしい does not convey the meaning of 〜げ required in this context: seeming / giving an impression of (visible emotional state)."
+      ]
+    },
+    {
+      "id": "n2_084_7",
+      "pattern": "〜かのように",
+      "meaning": "as if / as though (something that appears to be the case but is not)",
+      "level": "N2",
+      "example_sentence": "何も起きなかったかのように、彼は平気で歩き去った。",
+      "translation": "Though expensive, the quality is worth the price.",
+      "blank_target": "かのように",
+      "wrong_choices": [
+        "ような",
+        "みたいな",
+        "かと思うような"
+      ],
+      "wrong_choice_explanations": [
+        "ような does not convey the meaning of 〜かのように required in this context: as if / as though (something that appears to be the case but is not).",
+        "みたいな does not convey the meaning of 〜かのように required in this context: as if / as though (something that appears to be the case but is not).",
+        "かと思うような indicates alternatives, but this sentence needs 〜かのように to convey as if / as though (something that appears to be the case but is not)."
+      ]
+    },
+    {
+      "id": "n2_085_7",
+      "pattern": "〜とは",
+      "meaning": "what... is / the fact that (defining or reacting with surprise or emotion)",
+      "level": "N2",
+      "example_sentence": "そんなことが起こるとは、誰も想像していなかった。",
+      "translation": "That artwork has something that captivates viewers.",
+      "blank_target": "とは",
+      "wrong_choices": [
+        "ということ",
+        "とは言え",
+        "なんて"
+      ],
+      "wrong_choice_explanations": [
+        "ということ does not convey the meaning of 〜とは required in this context: what... is / the fact that (defining or reacting with surprise or emotion).",
+        "とは言え does not convey the meaning of 〜とは required in this context: what... is / the fact that (defining or reacting with surprise or emotion).",
+        "なんて does not convey the meaning of 〜とは required in this context: what... is / the fact that (defining or reacting with surprise or emotion)."
+      ]
+    },
+    {
+      "id": "n2_086_7",
+      "pattern": "〜とはいえ",
+      "meaning": "that said / even so / although (acknowledges a fact but introduces a counter-point)",
+      "level": "N2",
+      "example_sentence": "高価とはいえ、これ以上品質の良い製品はない。",
+      "translation": "Whether classical or contemporary art, creative expression is the essence.",
+      "blank_target": "とはいえ",
+      "wrong_choices": [
+        "とは言っても",
+        "といっても",
+        "ものの"
+      ],
+      "wrong_choice_explanations": [
+        "とは言っても does not convey the meaning of 〜とはいえ required in this context: that said / even so / although (acknowledges a fact but introduces a counter-point).",
+        "といっても does not convey the meaning of 〜とはいえ required in this context: that said / even so / although (acknowledges a fact but introduces a counter-point).",
+        "ものの does not convey the meaning of 〜とはいえ required in this context: that said / even so / although (acknowledges a fact but introduces a counter-point)."
+      ]
+    },
+    {
+      "id": "n2_087_7",
+      "pattern": "〜ものがある",
+      "meaning": "there is something that... / one cannot help feeling (intrinsic quality or feeling)",
+      "level": "N2",
+      "example_sentence": "その音楽には、人々の心を揺さぶるものがある。",
+      "translation": "Whether famous or unknown artists, artwork value is relative.",
+      "blank_target": "ものがある",
+      "wrong_choices": [
+        "ものだ",
+        "ことがある",
+        "ところがある"
+      ],
+      "wrong_choice_explanations": [
+        "ものだ does not convey the meaning of 〜ものがある required in this context: there is something that... / one cannot help feeling (intrinsic quality or feeling).",
+        "ことがある does not convey the meaning of 〜ものがある required in this context: there is something that... / one cannot help feeling (intrinsic quality or feeling).",
+        "ところがある does not convey the meaning of 〜ものがある required in this context: there is something that... / one cannot help feeling (intrinsic quality or feeling)."
+      ]
+    },
+    {
+      "id": "n2_088_7",
+      "pattern": "〜にしろ〜にしろ",
+      "meaning": "whether... or... / either way (covers both cases and draws same conclusion)",
+      "level": "N2",
+      "example_sentence": "どちらの党が勝つにしろ、改革は避けられない。",
+      "translation": "Since the artist is anonymous, background cannot be deduced.",
+      "blank_target": "にしろ",
+      "wrong_choices": [
+        "にしても反対にしても",
+        "だろうと反対だろうと",
+        "でも反対でも"
+      ],
+      "wrong_choice_explanations": [
+        "にしても反対にしても does not convey the meaning of 〜にしろ〜にしろ required in this context: whether... or... / either way (covers both cases and draws same conclusion).",
+        "だろうと反対だろうと does not convey the meaning of 〜にしろ〜にしろ required in this context: whether... or... / either way (covers both cases and draws same conclusion).",
+        "でも反対でも does not convey the meaning of 〜にしろ〜にしろ required in this context: whether... or... / either way (covers both cases and draws same conclusion)."
+      ]
+    },
+    {
+      "id": "n2_089_7",
+      "pattern": "〜であれ〜であれ",
+      "meaning": "whether... or... (formal variant; covers both possibilities)",
+      "level": "N2",
+      "example_sentence": "金持ちであれ貧乏人であれ、人間の価値は変わらない。",
+      "translation": "Seeing that expression, I cannot help but be moved.",
+      "blank_target": "であれ",
+      "wrong_choices": [
+        "にしろ女にしろ",
+        "でも女でも",
+        "だろうと女だろうと"
+      ],
+      "wrong_choice_explanations": [
+        "にしろ女にしろ does not convey the meaning of 〜であれ〜であれ required in this context: whether... or... (formal variant; covers both possibilities).",
+        "でも女でも does not convey the meaning of 〜であれ〜であれ required in this context: whether... or... (formal variant; covers both possibilities).",
+        "だろうと女だろうと does not convey the meaning of 〜であれ〜であれ required in this context: whether... or... (formal variant; covers both possibilities)."
+      ]
+    },
+    {
+      "id": "n2_090_7",
+      "pattern": "〜ようがない / 〜ようもない",
+      "meaning": "there is no way to / it is impossible to (no means exist)",
+      "level": "N2",
+      "example_sentence": "本人が拒否しているので、説得しようがない。",
+      "translation": "Encountering that beauty, my heart cannot help but be stirred.",
+      "blank_target": "しようがない",
+      "wrong_choices": [
+        "するわけがない",
+        "することができない",
+        "せざるを得ない"
+      ],
+      "wrong_choice_explanations": [
+        "するわけがない does not convey the meaning of 〜ようがない / 〜ようもない required in this context: there is no way to / it is impossible to (no means exist).",
+        "することができない does not convey the meaning of 〜ようがない / 〜ようもない required in this context: there is no way to / it is impossible to (no means exist).",
+        "せざるを得ない does not convey the meaning of 〜ようがない / 〜ようもない required in this context: there is no way to / it is impossible to (no means exist)."
+      ]
+    },
+    {
+      "id": "n2_091_7",
+      "pattern": "〜ずにはいられない",
+      "meaning": "cannot help but / cannot stop oneself from (strong irresistible impulse)",
+      "level": "N2",
+      "example_sentence": "このスポーツの迫力を見ると、応援せずにはいられない。",
+      "translation": "From planning stage to implementation, there were many discussions.",
+      "blank_target": "ずにはいられない",
+      "wrong_choices": [
+        "ないではいられない",
+        "ないわけにはいかない",
+        "ずにはおかない"
+      ],
+      "wrong_choice_explanations": [
+        "ないではいられない does not convey the meaning of 〜ずにはいられない required in this context: cannot help but / cannot stop oneself from (strong irresistible impulse).",
+        "ないわけにはいかない indicates alternatives, but this sentence needs 〜ずにはいられない to convey cannot help but / cannot stop oneself from (strong irresistible impulse).",
+        "ずにはおかない indicates alternatives, but this sentence needs 〜ずにはいられない to convey cannot help but / cannot stop oneself from (strong irresistible impulse)."
+      ]
+    },
+    {
+      "id": "n2_092_7",
+      "pattern": "〜ないではいられない",
+      "meaning": "cannot help but / cannot refrain from (same as ずにはいられない, more colloquial)",
+      "level": "N2",
+      "example_sentence": "その店の味を知ると、定期的に通わないではいられない。",
+      "translation": "At this point, expert opinions are necessary.",
+      "blank_target": "ないではいられない",
+      "wrong_choices": [
+        "ずにはいられない",
+        "ないわけにはいかない",
+        "ずにはおかない"
+      ],
+      "wrong_choice_explanations": [
+        "ずにはいられない does not convey the meaning of 〜ないではいられない required in this context: cannot help but / cannot refrain from (same as ずにはいられない, more colloquial).",
+        "ないわけにはいかない indicates alternatives, but this sentence needs 〜ないではいられない to convey cannot help but / cannot refrain from (same as ずにはいられない, more colloquial).",
+        "ずにはおかない indicates alternatives, but this sentence needs 〜ないではいられない to convey cannot help but / cannot refrain from (same as ずにはいられない, more colloquial)."
+      ]
+    },
+    {
+      "id": "n2_093_7",
+      "pattern": "〜に至るまで",
+      "meaning": "up to / ranging all the way to (emphasizes extent of a range)",
+      "level": "N2",
+      "example_sentence": "最終段階の細部に至るまで、完璧にこだわった。",
+      "translation": "In this age of cultural diversity, individualistic works are sought.",
+      "blank_target": "に至るまで",
+      "wrong_choices": [
+        "に至って",
+        "にわたって",
+        "まで"
+      ],
+      "wrong_choice_explanations": [
+        "に至って does not convey the meaning of 〜に至るまで required in this context: up to / ranging all the way to (emphasizes extent of a range).",
+        "にわたって does not convey the meaning of 〜に至るまで required in this context: up to / ranging all the way to (emphasizes extent of a range).",
+        "まで marks an endpoint, not the up to / ranging all the way to (emphasizes extent of a range) that 〜に至るまで conveys."
+      ]
+    },
+    {
+      "id": "n2_094_7",
+      "pattern": "〜に至って（は）",
+      "meaning": "by the time it has come to this / at this point (when a situation has reached an extreme)",
+      "level": "N2",
+      "example_sentence": "事態がここに至っては、外国の仲介も必要だ。",
+      "translation": "Ignoring social turmoil, artists continue their creative work.",
+      "blank_target": "に至っては",
+      "wrong_choices": [
+        "に至るまで",
+        "になっては",
+        "にきては"
+      ],
+      "wrong_choice_explanations": [
+        "に至るまで does not convey the meaning of 〜に至って（は） required in this context: by the time it has come to this / at this point (when a situation has reached an extreme).",
+        "になっては does not convey the meaning of 〜に至って（は） required in this context: by the time it has come to this / at this point (when a situation has reached an extreme).",
+        "にきては does not convey the meaning of 〜に至って（は） required in this context: by the time it has come to this / at this point (when a situation has reached an extreme)."
+      ]
+    },
+    {
+      "id": "n2_095_7",
+      "pattern": "〜にあって",
+      "meaning": "being in / in the situation of (formal; describes specific circumstances)",
+      "level": "N2",
+      "example_sentence": "激動の時代にあって、指導者には強い信念が必要だ。",
+      "translation": "This exhibition is scheduled to end at the end of this fiscal year.",
+      "blank_target": "にあって",
+      "wrong_choices": [
+        "において",
+        "の中で",
+        "にいて"
+      ],
+      "wrong_choice_explanations": [
+        "において does not convey the meaning of 〜にあって required in this context: being in / in the situation of (formal; describes specific circumstances).",
+        "の中で does not convey the meaning of 〜にあって required in this context: being in / in the situation of (formal; describes specific circumstances).",
+        "にいて does not convey the meaning of 〜にあって required in this context: being in / in the situation of (formal; describes specific circumstances)."
+      ]
+    },
+    {
+      "id": "n2_096_7",
+      "pattern": "〜をよそに",
+      "meaning": "ignoring / paying no attention to / in disregard of (someone's concern or expectation)",
+      "level": "N2",
+      "example_sentence": "家族の反対をよそに、彼は独立することを決めた。",
+      "translation": "A preview was held before the public opening.",
+      "blank_target": "をよそに",
+      "wrong_choices": [
+        "に関係なく",
+        "をよそにして",
+        "にもかかわらず"
+      ],
+      "wrong_choice_explanations": [
+        "に関係なく does not convey the meaning of 〜をよそに required in this context: ignoring / paying no attention to / in disregard of (someone's concern or expectation).",
+        "をよそにして does not convey the meaning of 〜をよそに required in this context: ignoring / paying no attention to / in disregard of (someone's concern or expectation).",
+        "にもかかわらず indicates alternatives, but this sentence needs 〜をよそに to convey ignoring / paying no attention to / in disregard of (someone's concern or expectation)."
+      ]
+    },
+    {
+      "id": "n2_097_7",
+      "pattern": "〜をもって",
+      "meaning": "with / by means of / as of (formal; indicates a means or a deadline)",
+      "level": "N2",
+      "example_sentence": "2025年1月をもって、この施設の運営は終了します。",
+      "translation": "Not only is his artistry noteworthy, but his character is also highly regarded.",
+      "blank_target": "をもって",
+      "wrong_choices": [
+        "によって",
+        "をもとに",
+        "で"
+      ],
+      "wrong_choice_explanations": [
+        "によって indicates agency or cause, not the with / by means of / as of (formal; indicates a means or a deadline) that 〜をもって requires.",
+        "をもとに means 'based on/using as a foundation,' but this sentence requires 〜をもって to convey with / by means of / as of (formal; indicates a means or a deadline).",
+        "で is a basic particle for location/time/means, lacking the formal  that 〜をもって conveys in this academic context."
+      ]
+    },
+    {
+      "id": "n2_098_7",
+      "pattern": "〜に先立って",
+      "meaning": "prior to / before / ahead of (something important)",
+      "level": "N2",
+      "example_sentence": "実験に先立って、安全確認が徹底的に行われた。",
+      "translation": "He is both an artist and a philosopher, influencing multiple fields.",
+      "blank_target": "に先立って",
+      "wrong_choices": [
+        "の前に",
+        "に際して",
+        "に当たって"
+      ],
+      "wrong_choice_explanations": [
+        "の前に does not convey the meaning of 〜に先立って required in this context: prior to / before / ahead of (something important).",
+        "に際して does not convey the meaning of 〜に先立って required in this context: prior to / before / ahead of (something important).",
+        "に当たって does not convey the meaning of 〜に先立って required in this context: prior to / before / ahead of (something important)."
+      ]
+    },
+    {
+      "id": "n2_099_7",
+      "pattern": "〜もさることながら",
+      "meaning": "not only... but also (the first item is impressive, but the second is even more so)",
+      "level": "N2",
+      "example_sentence": "その豊かな知識もさることながら、実行力も優れている。",
+      "translation": "As it was shown at a world-famous museum, many visitors came.",
+      "blank_target": "もさることながら",
+      "wrong_choices": [
+        "はもちろん",
+        "はもとより",
+        "ばかりか"
+      ],
+      "wrong_choice_explanations": [
+        "はもちろん does not convey the meaning of 〜もさることながら required in this context: not only... but also (the first item is impressive, but the second is even more so).",
+        "はもとより does not convey the meaning of 〜もさることながら required in this context: not only... but also (the first item is impressive, but the second is even more so).",
+        "ばかりか indicates alternatives, but this sentence needs 〜もさることながら to convey not only... but also (the first item is impressive, but the second is even more so)."
+      ]
+    },
+    {
+      "id": "n2_100_7",
+      "pattern": "〜にして",
+      "meaning": "being both / at the same time as / even for (unexpected or emphatic combination)",
+      "level": "N2",
+      "example_sentence": "彼はエンジニアにして起業家であり、複数の企業を経営している。",
+      "translation": "He is an engineer and entrepreneur, managing multiple companies.",
+      "blank_target": "にして",
+      "wrong_choices": [
+        "として",
+        "であり",
+        "でもあり"
+      ],
+      "wrong_choice_explanations": [
+        "として means 'as/in the role of,' but this sentence needs 〜にして to mean being both / at the same time as / even for (unexpected or emphatic combination).",
+        "であり does not convey the meaning of 〜にして required in this context: being both / at the same time as / even for (unexpected or emphatic combination).",
+        "でもあり does not convey the meaning of 〜にして required in this context: being both / at the same time as / even for (unexpected or emphatic combination)."
+      ]
+    },
+    {
+      "id": "n2_101_7",
+      "pattern": "〜とあって",
+      "meaning": "because / given that (a special circumstance that naturally leads to a result)",
+      "level": "N2",
+      "example_sentence": "人気映画の続編とあって、チケットは瞬時に売り切れた。",
+      "translation": "Given that it was a popular movie sequel, tickets sold out instantly.",
+      "blank_target": "とあって",
+      "wrong_choices": [
+        "ので",
+        "だから",
+        "ということで"
+      ],
+      "wrong_choice_explanations": [
+        "ので does not convey the meaning of 〜とあって required in this context: because / given that (a special circumstance that naturally leads to a result).",
+        "だから indicates alternatives, but this sentence needs 〜とあって to convey because / given that (a special circumstance that naturally leads to a result).",
+        "ということで does not convey the meaning of 〜とあって required in this context: because / given that (a special circumstance that naturally leads to a result)."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+import Foundation
+import SwiftData
+
+struct SessionStats {
+    let newCount: Int
+    let reviewCount: Int
+    let totalDue: Int
+    let canUnlockNew: Bool
+}
+
+struct SessionBuilder {
+    static let newPerSessionKey = "newPatternsPerSession"
+    static let defaultNewPerSession = 1
+
+    /// Check whether the user has sufficiently mastered their current items to unlock new ones.
+    /// True if there are no seen items yet, or at least 80% of seen items have a scheduled
+    /// interval >= 3 days (meaning they've graduated from learning into review territory).
+    static func canUnlockNewPatterns(context: ModelContext) -> Bool {
+        let descriptor = FetchDescriptor<SRSRecord>()
+        let existingRecords: [SRSRecord]
+        do {
+            existingRecords = try context.fetch(descriptor)
+        } catch {
+            return true
+        }
+        if existingRecords.isEmpty { return true }
+        let familiarOrAbove = existingRecords.filter { $0.fsrsScheduledDays >= 3 }.count
+        let ratio = Double(familiarOrAbove) / Double(existingRecords.count)
+        return ratio >= 0.8
+    }
+
+    /// Preview what the next session would look like without modifying the database.
+    static func previewSession(allPoints: [GrammarPoint], context: ModelContext, includeNew: Bool, newPerSession: Int) -> SessionStats {
+        let descriptor = FetchDescriptor<SRSRecord>()
+        let existingRecords: [SRSRecord]
+        do {
+            existingRecords = try context.fetch(descriptor)
+        } catch {
+            return SessionStats(newCount: 0, reviewCount: 0, totalDue: 0, canUnlockNew: true)
+        }
+
+        var recordsByGrammarId: [String: SRSRecord] = [:]
+        for record in existingRecords {
+            recordsByGrammarId[record.grammarId] = record
+        }
+
+        let canUnlock = canUnlockNewPatterns(context: context)
+        let now = Date()
+
+        var dueCount = 0
+        var unseenCount = 0
+
+        for point in allPoints {
+            if let record = recordsByGrammarId[point.id] {
+                if record.fsrsDue <= now {
+                    dueCount += 1
+                }
+            } else {
+                unseenCount += 1
+            }
+        }
+
+        let maxReview = 10
+        let reviewCount = min(dueCount, maxReview)
+        let effectiveNew = (includeNew && canUnlock) ? min(newPerSession, unseenCount) : 0
+
+        return SessionStats(newCount: effectiveNew, reviewCount: reviewCount, totalDue: dueCount, canUnlockNew: canUnlock)
+    }
+
+    /// Build a session by ranking seen items by how overdue they are, then picking exercises.
+    static func buildSession(
+        allPoints: [GrammarPoint],
+        exercisePool: [String: [SessionExercise]],
+        context: ModelContext,
+        includeNew: Bool,
+        newPerSession: Int
+    ) -> [SessionExercise] {
+        let descriptor = FetchDescriptor<SRSRecord>()
+        let existingRecords: [SRSRecord]
+        do {
+            existingRecords = try context.fetch(descriptor)
+        } catch {
+            print("Error fetching SRS records: \(error)")
+            return []
+        }
+
+        var recordsByGrammarId: [String: SRSRecord] = [:]
+        for record in existingRecords {
+            recordsByGrammarId[record.grammarId] = record
+        }
+
+        let now = Date()
+
+        // Collect seen items sorted by how overdue they are
+        var overdueItems: [(point: GrammarPoint, overdueBy: TimeInterval)] = []
+        var newItems: [GrammarPoint] = []
+
+        for point in allPoints {
+            if let record = recordsByGrammarId[point.id] {
+                let overdueBy = now.timeIntervalSince(record.fsrsDue)
+                // Include items that are due or nearly due (within half their interval)
+                if overdueBy >= 0 {
+                    overdueItems.append((point, overdueBy))
+                }
+            } else {
+                newItems.append(point)
+            }
+        }
+
+        // Sort by overdue duration descending — most overdue first
+        overdueItems.sort { $0.overdueBy > $1.overdueBy }
+
+        let maxDue = 10
+        let selectedDue = overdueItems.prefix(maxDue).map(\.point)
+
+        let effectiveNewCount = (includeNew && canUnlockNewPatterns(context: context)) ? newPerSession : 0
+        let selectedNew = Array(newItems.prefix(effectiveNewCount))
+
+        for point in selectedNew {
+            let newRecord = SRSRecord(grammarId: point.id)
+            context.insert(newRecord)
+        }
+
+        do {
+            try context.save()
+        } catch {
+            print("Error saving context: \(error)")
+        }
+
+        // For review items, pick 1 random exercise per pattern
+        var sessionExercises: [SessionExercise] = []
+
+        for point in selectedDue {
+            if let exercises = exercisePool[point.id], let exercise = exercises.randomElement() {
+                sessionExercises.append(exercise)
+            } else {
+                sessionExercises.append(SessionExercise(
+                    id: point.id,
+                    grammarId: point.id,
+                    pattern: point.pattern,
+                    meaning: point.meaning,
+                    level: point.level,
+                    exampleSentence: point.exampleSentence,
+                    translation: point.translation,
+                    blankTarget: point.blankTarget,
+                    wrongChoices: point.wrongChoices,
+                    wrongChoiceExplanations: point.wrongChoiceExplanations
+                ))
+            }
+        }
+
+        // For new patterns, pick 3 shuffled sentences to introduce the pattern
+        let introSentenceCount = 3
+        for point in selectedNew {
+            if let exercises = exercisePool[point.id] {
+                let picked = Array(exercises.shuffled().prefix(introSentenceCount))
+                sessionExercises.append(contentsOf: picked)
+            } else {
+                sessionExercises.append(SessionExercise(
+                    id: point.id,
+                    grammarId: point.id,
+                    pattern: point.pattern,
+                    meaning: point.meaning,
+                    level: point.level,
+                    exampleSentence: point.exampleSentence,
+                    translation: point.translation,
+                    blankTarget: point.blankTarget,
+                    wrongChoices: point.wrongChoices,
+                    wrongChoiceExplanations: point.wrongChoiceExplanations
+                ))
+            }
+        }
+
+        return sessionExercises
+    }
+}

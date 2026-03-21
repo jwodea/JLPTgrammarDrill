@@ -1,0 +1,1341 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "level": "N3",
+    "file_number": 9,
+    "total_patterns": 70,
+    "description": "JLPT N3 grammar exercises - Set 9"
+  },
+  "grammar": [
+    {
+      "id": "n3_001_9",
+      "pattern": "〜ても",
+      "meaning": "even if / even though",
+      "level": "N3",
+      "example_sentence": "何度説いても、彼の意見は変わりません。",
+      "translation": "No matter how many times I explain, his opinion does not change.",
+      "blank_target": "ても",
+      "wrong_choices": [
+        "たら",
+        "ところで",
+        "ながら"
+      ],
+      "wrong_choice_explanations": [
+        "たら is a conditional form meaning 'if,' but the sentence requires 〜ても to express 'no matter how' or 'even if.'",
+        "ところで means 'even if one does' (with futility nuance) or 'by the way,' but the sentence uses 何度 to emphasize repeated attempts against resistance, which requires ても.",
+        "ながら means 'while doing' for simultaneous actions, but the sentence is about a concessive condition ('even though I explain'), not doing two things at once."
+      ]
+    },
+    {
+      "id": "n3_002_9",
+      "pattern": "〜てしまう",
+      "meaning": "to end up doing / done completely (often with regret)",
+      "level": "N3",
+      "example_sentence": "チャンスを逃してしまいました。",
+      "translation": "I ended up missing the opportunity.",
+      "blank_target": "してしまいました",
+      "wrong_choices": [
+        "してみました",
+        "しておきました",
+        "してきました"
+      ],
+      "wrong_choice_explanations": [
+        "してみました means 'tried to do,' implying an experiment or attempt, but the sentence conveys regret about a completed action, which needs 〜てしまう.",
+        "しておきました means 'did something in advance,' implying preparation, but the context indicates unwanted completion with regret.",
+        "してきました means 'have been doing' over a period, but the sentence describes a single past moment of losing an opportunity."
+      ]
+    },
+    {
+      "id": "n3_003_9",
+      "pattern": "〜ておく",
+      "meaning": "to do something in advance / leave in a state",
+      "level": "N3",
+      "example_sentence": "緊急時に備えて、連絡先をリストアップしておきました。",
+      "translation": "I made a list of contacts in advance for emergencies.",
+      "blank_target": "しておきました",
+      "wrong_choices": [
+        "いてしまいました",
+        "いてみました",
+        "いていきました"
+      ],
+      "wrong_choice_explanations": [
+        "いてしまいました suggests something was completed with regret or finality, but the sentence emphasizes doing something in advance for future use.",
+        "いてみました means 'tried to do,' but the context requires 'prepared in advance' which is 〜ておく.",
+        "いていきました means 'did and left in that state,' but the sentence specifically indicates preparation for a future emergency."
+      ]
+    },
+    {
+      "id": "n3_004_9",
+      "pattern": "〜てみる",
+      "meaning": "to try doing something",
+      "level": "N3",
+      "example_sentence": "新しい手法でチャレンジしてみましょう。",
+      "translation": "Let us try a new approach.",
+      "blank_target": "てみましょう",
+      "wrong_choices": [
+        "ってみてください",
+        "っておいてください",
+        "ってしまってください"
+      ],
+      "wrong_choice_explanations": [
+        "This form is awkward grammatically; the correct pattern for 'try' with honorific is 〜てみてください.",
+        "っておいてください combines 'keep/leave' with 'please,' but the sentence requires the direct meaning of 'try,' not 'keep prepared.'",
+        "ってしまってください implies 'please finish/complete completely,' but the instruction is simply to try or experiment with a new approach."
+      ]
+    },
+    {
+      "id": "n3_005_9",
+      "pattern": "〜はずだ",
+      "meaning": "should be / is supposed to be (expectation)",
+      "level": "N3",
+      "example_sentence": "この問題は簡単に解決するはずです。",
+      "translation": "This problem should be easily solved.",
+      "blank_target": "はずです",
+      "wrong_choices": [
+        "べきです",
+        "ようです",
+        "らしいです"
+      ],
+      "wrong_choice_explanations": [
+        "べきです expresses obligation or what should be done morally, but the sentence states what one expects to happen logically, not what ought to be.",
+        "ようです means 'appears based on observation,' but the speaker is stating a logical expectation about how the problem will unfold, not appearance.",
+        "らしいです means 'I heard' or 'apparently from hearsay,' but the sentence reflects personal logical expectation, not reported information."
+      ]
+    },
+    {
+      "id": "n3_006_9",
+      "pattern": "〜べきだ",
+      "meaning": "should do / ought to do (moral obligation)",
+      "level": "N3",
+      "example_sentence": "社会に貢献することは、みんなの責務であるべきだ。",
+      "translation": "Contributing to society ought to be everyone's responsibility.",
+      "blank_target": "べきだ",
+      "wrong_choices": [
+        "はずだ",
+        "ものだ",
+        "べきではない"
+      ],
+      "wrong_choice_explanations": [
+        "はずだ expresses expectation based on logic or probability, but the sentence conveys moral or ethical obligation, not mere expectation.",
+        "ものだ describes what is natural or habitual, but the context emphasizes duty or responsibility that someone 'ought to' fulfill.",
+        "べきではない means 'should not,' the opposite of what is needed; the sentence states what 'should be,' requiring the affirmative form."
+      ]
+    },
+    {
+      "id": "n3_007_9",
+      "pattern": "〜かもしれない",
+      "meaning": "might / maybe / possibly",
+      "level": "N3",
+      "example_sentence": "今夜は会議が長くなるかもしれません。",
+      "translation": "The meeting tonight might run late.",
+      "blank_target": "かもしれません",
+      "wrong_choices": [
+        "に違いません",
+        "のはずです",
+        "でしょう"
+      ],
+      "wrong_choice_explanations": [
+        "に違いません expresses certainty or strong conviction, but the sentence expresses possibility or uncertainty about what might happen.",
+        "のはずです conveys logical expectation, but the context indicates hesitation or possibility that something might occur, not firm expectation.",
+        "でしょう can mean possibility but is softer; かもしれない specifically emphasizes the nuance of 'might' with more uncertainty."
+      ]
+    },
+    {
+      "id": "n3_008_9",
+      "pattern": "〜にちがいない",
+      "meaning": "must be / no doubt that",
+      "level": "N3",
+      "example_sentence": "その反応は本心に違いない。",
+      "translation": "That reaction must be his true feeling.",
+      "blank_target": "に違いない",
+      "wrong_choices": [
+        "かもしれない",
+        "のはずだ",
+        "のようだ"
+      ],
+      "wrong_choice_explanations": [
+        "かもしれない means 'might' or 'possibly,' expressing uncertainty, but the sentence asserts certainty that something definitely is true.",
+        "のはずだ expresses logical expectation, but the context requires strong assertion of certainty, not mere expectation.",
+        "のようだ means 'seems' based on observation, but the sentence demands confident assertion that something definitely must be true."
+      ]
+    },
+    {
+      "id": "n3_009_9",
+      "pattern": "〜らしい",
+      "meaning": "seems like / apparently / I heard that",
+      "level": "N3",
+      "example_sentence": "その会社は業績が好調らしいですね。",
+      "translation": "I heard that company is performing well.",
+      "blank_target": "らしいですね",
+      "wrong_choices": [
+        "のようです",
+        "そうです",
+        "のはずです"
+      ],
+      "wrong_choice_explanations": [
+        "のようです means 'appears like' based on direct observation, but the sentence indicates information heard from others, not personal observation.",
+        "そうです (hearsay) means 'I heard,' but in this context, the speaker is sharing information about a company's performance, best expressed with らしい.",
+        "のはずです means 'is supposed to,' based on logic or expectation, but the sentence conveys hearsay or rumor about what people say."
+      ]
+    },
+    {
+      "id": "n3_010_9",
+      "pattern": "〜ようだ",
+      "meaning": "it seems / it looks like (based on direct observation)",
+      "level": "N3",
+      "example_sentence": "結果は思わしくないようです。",
+      "translation": "The results do not seem to be good.",
+      "blank_target": "ようです",
+      "wrong_choices": [
+        "らしいです",
+        "そうです",
+        "みたいです"
+      ],
+      "wrong_choice_explanations": [
+        "らしいです means 'apparently' from hearsay, but the sentence describes the speaker's own direct observation of the results' appearance.",
+        "そうです can mean appearance, but ようだ is more appropriate here for describing how something directly appears to the observer.",
+        "みたいです is casual/colloquial for appearance, while the formal context of discussing business results requires ようだ."
+      ]
+    },
+    {
+      "id": "n3_011_9",
+      "pattern": "〜そうだ（様態）",
+      "meaning": "looks like it will / looks like (appearance-based)",
+      "level": "N3",
+      "example_sentence": "その計画は実現可能そうです。",
+      "translation": "That plan looks feasible.",
+      "blank_target": "そうです",
+      "wrong_choices": [
+        "らしいです",
+        "ようです",
+        "みたいです"
+      ],
+      "wrong_choice_explanations": [
+        "らしいです indicates hearsay or reputation, but the sentence describes how the plan appears based on surface impression or characteristics.",
+        "ようです emphasizes observation, but そうだ (様態) specifically means the appearance or look of something based on its qualities.",
+        "みたいです is informal/colloquial, but the business context requires the more formal そうです to describe a plan's feasibility."
+      ]
+    },
+    {
+      "id": "n3_012_9",
+      "pattern": "〜そうだ（伝聞）",
+      "meaning": "I heard that / it is said that",
+      "level": "N3",
+      "example_sentence": "来月から新制度が導入されるそうです。",
+      "translation": "I heard a new system will be introduced next month.",
+      "blank_target": "されるそうです",
+      "wrong_choices": [
+        "されるようです",
+        "されるらしいです",
+        "されるはずです"
+      ],
+      "wrong_choice_explanations": [
+        "されるようです suggests the speaker's personal observation of the system being introduced, but the context is information heard from outside.",
+        "されるらしいです conveys rumor, but that's less direct than そうだ for stating what one has been told as a reliable report.",
+        "されるはずです expresses logical expectation, but the sentence presents information that was actively communicated ('I heard'), not mere expectation."
+      ]
+    },
+    {
+      "id": "n3_013_9",
+      "pattern": "〜ために",
+      "meaning": "in order to / for the purpose of",
+      "level": "N3",
+      "example_sentence": "競争力を維持するために、革新が不可欠です。",
+      "translation": "Innovation is essential in order to maintain competitiveness.",
+      "blank_target": "ために",
+      "wrong_choices": [
+        "ように",
+        "ので",
+        "ことに"
+      ],
+      "wrong_choice_explanations": [
+        "ように can mean purpose, but here it would suggest manner or result, not the clear cause-and-effect purpose that ために conveys.",
+        "ので indicates reason or cause, but the sentence emphasizes the purpose or goal toward which innovation is directed.",
+        "ことに means 'the fact that' or an unforeseen realization, not the purposeful intention that ために expresses."
+      ]
+    },
+    {
+      "id": "n3_014_9",
+      "pattern": "〜ように",
+      "meaning": "so that / in order that / as (goal/manner)",
+      "level": "N3",
+      "example_sentence": "ミスが起きないように、チェック体制を強化しました。",
+      "translation": "I strengthened the checking system so that mistakes do not occur.",
+      "blank_target": "ように",
+      "wrong_choices": [
+        "ために",
+        "ので",
+        "ことに"
+      ],
+      "wrong_choice_explanations": [
+        "ために expresses purpose, but ように is needed here to convey 'so that' in the sense of preventing or achieving a specific condition.",
+        "ので indicates cause/reason, but the sentence expresses a goal or preventive purpose, requiring ように.",
+        "ことに marks a surprising discovery or realization, but the sentence describes intentional action toward a goal."
+      ]
+    },
+    {
+      "id": "n3_015_9",
+      "pattern": "〜ことができる",
+      "meaning": "can do / be able to do",
+      "level": "N3",
+      "example_sentence": "このツールは複雑な計算を実行することができます。",
+      "translation": "This tool can perform complex calculations.",
+      "blank_target": "ることができます",
+      "wrong_choices": [
+        "ることがあります",
+        "ることにします",
+        "ることになります"
+      ],
+      "wrong_choice_explanations": [
+        "ることがあります means 'there are times when' or possibility, but the sentence requires 'can/is able to,' expressing general capability.",
+        "ることにします means 'decide to,' but the sentence describes what the tool is capable of performing, not a decision.",
+        "ることになります means 'it comes about that,' but the context emphasizes the tool's inherent ability or capacity."
+      ]
+    },
+    {
+      "id": "n3_016_9",
+      "pattern": "〜ことがある",
+      "meaning": "there are times when / sometimes",
+      "level": "N3",
+      "example_sentence": "ストレスで判断力が鈍ることがあります。",
+      "translation": "There are times when stress impairs my judgment.",
+      "blank_target": "ることがあります",
+      "wrong_choices": [
+        "ることができます",
+        "ることにします",
+        "ることになります"
+      ],
+      "wrong_choice_explanations": [
+        "ることができます means 'can' or 'is able to,' but the sentence indicates that this sometimes occurs, not constant capability.",
+        "ることにします means 'decide to,' but the sentence describes intermittent occurrences, not a deliberate decision.",
+        "ることになります implies a set pattern or decision, but the context emphasizes occasional or unpredictable instances."
+      ]
+    },
+    {
+      "id": "n3_017_9",
+      "pattern": "〜ことにする",
+      "meaning": "to decide to do",
+      "level": "N3",
+      "example_sentence": "今年はキャリアチェンジすることにしました。",
+      "translation": "I decided to change careers this year.",
+      "blank_target": "ることにしました",
+      "wrong_choices": [
+        "ることになりました",
+        "ることがありました",
+        "るようにしました"
+      ],
+      "wrong_choice_explanations": [
+        "ることになりました means 'it was decided' passively or by circumstances, but the sentence emphasizes the speaker's own deliberate choice.",
+        "ることがありました refers to past occurrences or experiences, but the context is about making an active decision.",
+        "るようにしました means 'made an effort to' over time, but the sentence describes a specific moment of decision in the past."
+      ]
+    },
+    {
+      "id": "n3_018_9",
+      "pattern": "〜ことになる",
+      "meaning": "it has been decided / it will turn out that",
+      "level": "N3",
+      "example_sentence": "経営方針の変更により、組織再編することになりました。",
+      "translation": "Due to a change in management policy, organizational restructuring was decided.",
+      "blank_target": "ることになりました",
+      "wrong_choices": [
+        "ることにしました",
+        "ることになっています",
+        "るようになりました"
+      ],
+      "wrong_choice_explanations": [
+        "ることにしました expresses a personal decision, but the sentence describes something determined by external circumstances or policy.",
+        "ることになっています suggests an ongoing habit or current arrangement, but the sentence marks a specific past decision point.",
+        "るようになりました means 'came to be able to,' implying gradual change, but the sentence describes a formal decision or arrangement."
+      ]
+    },
+    {
+      "id": "n3_019_9",
+      "pattern": "〜ようになる",
+      "meaning": "to come to be able to / to reach the point where",
+      "level": "N3",
+      "example_sentence": "コンサルティングを受けることで、経営が改善されるようになった。",
+      "translation": "Through consulting, management has come to improve.",
+      "blank_target": "るようになった",
+      "wrong_choices": [
+        "るようにしました",
+        "ることになりました",
+        "ることにしました"
+      ],
+      "wrong_choice_explanations": [
+        "るようにしました means 'made an effort to' achieve something, but the sentence describes the natural result of a process.",
+        "ることになりました expresses a formal decision or arrangement, but the context shows gradual improvement from an intervention.",
+        "ることにしました marks a deliberate decision, but the sentence emphasizes coming to reach a new capability through a process."
+      ]
+    },
+    {
+      "id": "n3_020_9",
+      "pattern": "〜ようにする",
+      "meaning": "to make an effort to / to try to",
+      "level": "N3",
+      "example_sentence": "定期的に運動するようにしています。",
+      "translation": "I try to exercise regularly.",
+      "blank_target": "るようにしています",
+      "wrong_choices": [
+        "るようになっています",
+        "ることにしています",
+        "ために"
+      ],
+      "wrong_choice_explanations": [
+        "るようになっています indicates a current state or habit, but the sentence expresses the speaker's ongoing personal effort to maintain this behavior.",
+        "ることにしています suggests a set arrangement or decision, but the context emphasizes continuous effort to try, not a static decision.",
+        "ために expresses purpose, but ようにしています specifically conveys ongoing effort and practice to achieve a goal."
+      ]
+    },
+    {
+      "id": "n3_021_9",
+      "pattern": "〜ながら",
+      "meaning": "while doing (simultaneous actions)",
+      "level": "N3",
+      "example_sentence": "ラジオを聴きながら、運転しています。",
+      "translation": "I drive while listening to the radio.",
+      "blank_target": "ながら",
+      "wrong_choices": [
+        "てから",
+        "あとで",
+        "ても"
+      ],
+      "wrong_choice_explanations": [
+        "てから means 'after doing something,' implying sequential actions, but the sentence requires simultaneous or parallel actions.",
+        "あとで means 'afterward,' marking clear temporal separation, but ながら expresses actions happening at the same time.",
+        "ても means 'even if,' expressing a concessive condition, but the sentence requires the meaning of simultaneous activity."
+      ]
+    },
+    {
+      "id": "n3_022_9",
+      "pattern": "〜たり〜たりする",
+      "meaning": "doing things like... and... (non-exhaustive list of actions)",
+      "level": "N3",
+      "example_sentence": "仕事中は打ち合わせしたり、メール対応したりします。",
+      "translation": "During work I do things like attend meetings and respond to emails.",
+      "blank_target": "したり、メール対応したりします",
+      "wrong_choices": [
+        "き、メール対応する",
+        "か、メール対応するか",
+        "も、メール対応みも"
+      ],
+      "wrong_choice_explanations": [
+        "This form lacks the repeating/listing structure; たり〜たり shows a non-exhaustive list of varied activities in a work context.",
+        "か〜か suggests alternatives or choices, but the context requires listing multiple tasks as examples of routine work.",
+        "This combination is grammatically incorrect; たり〜たり is the proper pattern for 'doing things like A and B.'"
+      ]
+    },
+    {
+      "id": "n3_023_9",
+      "pattern": "〜し〜し",
+      "meaning": "and also / what is more (listing reasons or traits)",
+      "level": "N3",
+      "example_sentence": "その投資は利回りが良いし、安全だし、理想的だ。",
+      "translation": "That investment has good returns, is safe, and is ideal.",
+      "blank_target": "いし、安全だし",
+      "wrong_choices": [
+        "かったり、安全だったり",
+        "くも、安全くも",
+        "いか、安全だか"
+      ],
+      "wrong_choice_explanations": [
+        "かったり〜だったり would suggest intermittent or changing qualities, but し〜し lists consistent reasons or traits.",
+        "This form is grammatically incorrect; し〜し is the pattern for listing multiple positive qualities or reasons.",
+        "か〜か would present alternatives or questions, but the sentence enumerates reasons why something is ideal."
+      ]
+    },
+    {
+      "id": "n3_024_9",
+      "pattern": "〜ば〜ほど",
+      "meaning": "the more... the more...",
+      "level": "N3",
+      "example_sentence": "調査すればするほど、問題の複雑さが分かります。",
+      "translation": "The more I investigate, the more I understand the complexity.",
+      "blank_target": "るほど",
+      "wrong_choices": [
+        "しても、しても",
+        "するにつれて",
+        "するとともに"
+      ],
+      "wrong_choice_explanations": [
+        "ても〜ても would mean 'even if A, even if B,' but the context requires expressing proportional increase: more investigation yields more understanding.",
+        "するにつれて means 'as...gradually,' but the sentence emphasizes the comparative 'the more...the more...' relationship.",
+        "するとともに means 'along with' or 'at the same time,' but ほど better expresses the proportional comparison here."
+      ]
+    },
+    {
+      "id": "n3_025_9",
+      "pattern": "〜につれて",
+      "meaning": "as... / in proportion to (gradual change)",
+      "level": "N3",
+      "example_sentence": "テクノロジーが発展するにつれて、仕事の形態が変わります。",
+      "translation": "As technology develops, the form of work changes.",
+      "blank_target": "につれて",
+      "wrong_choices": [
+        "ばとるほど",
+        "にしたがって",
+        "とともに"
+      ],
+      "wrong_choice_explanations": [
+        "This form is incorrect; につれて specifically expresses gradual change in proportion to development, not comparative doubling.",
+        "にしたがって means 'according to' or 'in compliance with,' but the sentence describes gradual natural change, not following rules.",
+        "とともに means 'along with' or 'together with,' but につれて better captures the sense of gradual proportional change."
+      ]
+    },
+    {
+      "id": "n3_026_9",
+      "pattern": "〜まま",
+      "meaning": "as is / leaving in the same state",
+      "level": "N3",
+      "example_sentence": "何も対応しないまま、時が経ってしまった。",
+      "translation": "Time passed with no action taken.",
+      "blank_target": "ないまま",
+      "wrong_choices": [
+        "ないとおりに",
+        "ないきり",
+        "ないっぱなし"
+      ],
+      "wrong_choice_explanations": [
+        "ないとおりに means 'in the way of not doing,' but the sentence requires the nuance of 'leaving in unchanged state.'",
+        "きり means 'since then / nothing but,' emphasizing that nothing else happened, but まま focuses on maintaining an unchanged state (no action taken) while time passed.",
+        "っぱなし means 'leaving something negligently,' implying careless neglect of an object, but まま more neutrally describes an unchanged state of inaction."
+      ]
+    },
+    {
+      "id": "n3_027_9",
+      "pattern": "〜っぱなし",
+      "meaning": "leaving something in a state (often negligently)",
+      "level": "N3",
+      "example_sentence": "エアコンをつけっぱなしで、無駄な電力を消費しました。",
+      "translation": "I wasted electricity by leaving the air conditioner on.",
+      "blank_target": "っぱなし",
+      "wrong_choices": [
+        "たまま",
+        "けたまま",
+        "たところ"
+      ],
+      "wrong_choice_explanations": [
+        "たまま means 'leaving in the done state,' but っぱなし specifically implies negligent or careless leaving (often with negative connotation).",
+        "けたまま would require different preceding context; っぱなし fits the meaning of carelessly leaving the air conditioner on.",
+        "たところ means 'just finished doing,' but the sentence requires the sense of leaving something in an active state carelessly."
+      ]
+    },
+    {
+      "id": "n3_028_9",
+      "pattern": "〜とおりに",
+      "meaning": "just as / in the same way as",
+      "level": "N3",
+      "example_sentence": "計画書の通りに、進捗管理をしてください。",
+      "translation": "Please manage progress according to the plan.",
+      "blank_target": "の通りに",
+      "wrong_choices": [
+        "のまま",
+        "のように",
+        "どおりに"
+      ],
+      "wrong_choice_explanations": [
+        "のまま means 'as is without change,' but the sentence requires following a specific plan or manner, which is とおりに.",
+        "のように means 'in the manner of' or 'like,' but the sentence emphasizes exact accordance with a plan.",
+        "This is essentially the same as とおりに, but の通りに is the grammatically standard form in this formal context."
+      ]
+    },
+    {
+      "id": "n3_029_9",
+      "pattern": "〜によって",
+      "meaning": "depending on / due to / by means of",
+      "level": "N3",
+      "example_sentence": "個人の能力によって、結果は大きく異なります。",
+      "translation": "Results vary greatly depending on individual ability.",
+      "blank_target": "によって",
+      "wrong_choices": [
+        "に対して",
+        "に関して",
+        "にとって"
+      ],
+      "wrong_choice_explanations": [
+        "に対して means 'toward' or 'against,' but the sentence requires 'depending on' or 'due to,' which によって expresses.",
+        "に関して means 'regarding' or 'concerning,' but the sentence emphasizes how results vary based on differing abilities.",
+        "にとって means 'for' from someone's standpoint, but the sentence requires the sense of causation or variance."
+      ]
+    },
+    {
+      "id": "n3_030_9",
+      "pattern": "〜に対して",
+      "meaning": "toward / against / in contrast to",
+      "level": "N3",
+      "example_sentence": "その主張に対して、強い反論が出ました。",
+      "translation": "There was strong counterargument to that claim.",
+      "blank_target": "に対して",
+      "wrong_choices": [
+        "によって",
+        "にとって",
+        "に関して"
+      ],
+      "wrong_choice_explanations": [
+        "によって expresses 'due to' or 'by means of,' but the sentence requires 'directed toward' or 'against,' which に対して conveys.",
+        "にとって means 'for someone's benefit or perspective,' but the sentence describes a counterargument to a claim.",
+        "に関して means 'regarding,' but the sentence emphasizes opposition or directedness toward a claim, not mere reference."
+      ]
+    },
+    {
+      "id": "n3_031_9",
+      "pattern": "〜にとって",
+      "meaning": "for / from the standpoint of",
+      "level": "N3",
+      "example_sentence": "学習者にとって、実践的な知識が最も価値があります。",
+      "translation": "For learners, practical knowledge has the most value.",
+      "blank_target": "にとって",
+      "wrong_choices": [
+        "に対して",
+        "によって",
+        "について"
+      ],
+      "wrong_choice_explanations": [
+        "に対して means 'toward' or 'against,' but the sentence expresses value 'from the learner's perspective,' which にとって conveys.",
+        "によって means 'due to' or 'by means of,' but the sentence focuses on what has value for learners, not causation.",
+        "について means 'about' or 'concerning,' but にとって specifically expresses value or meaning from a standpoint."
+      ]
+    },
+    {
+      "id": "n3_032_9",
+      "pattern": "〜に関して",
+      "meaning": "regarding / concerning / about",
+      "level": "N3",
+      "example_sentence": "経営戦略に関して、専門家の意見を求めています。",
+      "translation": "Regarding business strategy, I am seeking expert opinions.",
+      "blank_target": "に関して",
+      "wrong_choices": [
+        "について",
+        "に対して",
+        "によって"
+      ],
+      "wrong_choice_explanations": [
+        "について also means 'about,' but に関して emphasizes a specific concern or focus area with more formality.",
+        "に対して means 'toward' or 'against,' but the sentence discusses seeking opinions on a topic, not directing toward a target.",
+        "によって expresses causation, but the sentence requires the sense of 'regarding' a particular business matter."
+      ]
+    },
+    {
+      "id": "n3_033_9",
+      "pattern": "〜について",
+      "meaning": "about / concerning (general topic)",
+      "level": "N3",
+      "example_sentence": "グローバル化の影響について、研究があります。",
+      "translation": "There is research about the impact of globalization.",
+      "blank_target": "について",
+      "wrong_choices": [
+        "に関して",
+        "に対して",
+        "に関わる"
+      ],
+      "wrong_choice_explanations": [
+        "に関して also means 'regarding,' but について is broader and more general for discussing a topic like globalization's impact.",
+        "に対して means 'toward,' but the sentence discusses research on a general topic, not directing something toward something else.",
+        "に関わる means 'related to' or 'involved with,' but について better frames the discussion of a topic."
+      ]
+    },
+    {
+      "id": "n3_034_9",
+      "pattern": "〜だけでなく〜も",
+      "meaning": "not only... but also...",
+      "level": "N3",
+      "example_sentence": "オンラインだけでなく、オフラインでも営業活動をしています。",
+      "translation": "We conduct sales activities not only online but also offline.",
+      "blank_target": "だけでなく",
+      "wrong_choices": [
+        "ばかりか",
+        "より",
+        "も"
+      ],
+      "wrong_choice_explanations": [
+        "ばかりか means 'not only...but also,' but it emphasizes surprising extent; だけでなく is the standard pattern for listing activities.",
+        "より means 'more than,' expressing comparison, but the sentence requires listing both online and offline activities.",
+        "も alone means 'also,' but the paired pattern だけでなく〜も is required to properly express the inclusive meaning."
+      ]
+    },
+    {
+      "id": "n3_035_9",
+      "pattern": "〜ほど〜ない",
+      "meaning": "not as... as",
+      "level": "N3",
+      "example_sentence": "予想したほど、難しい試験ではありませんでした。",
+      "translation": "The exam was not as difficult as I expected.",
+      "blank_target": "たほど",
+      "wrong_choices": [
+        "ったより",
+        "ったほどに",
+        "ったくらい"
+      ],
+      "wrong_choice_explanations": [
+        "ったより means 'more than I expected,' but the sentence requires the negative comparison form 'not as...as,' which ほど〜ない provides.",
+        "ったほどに adds unnecessary particles; the simple ほど pattern is correct for negating the extent of difficulty.",
+        "ったくらい means 'about as...as' in a positive sense, but the sentence negates the comparison with ません, requiring ほど."
+      ]
+    },
+    {
+      "id": "n3_036_9",
+      "pattern": "〜さえ〜ば",
+      "meaning": "if only... then / as long as",
+      "level": "N3",
+      "example_sentence": "ビジョンさえあれば、実現は可能です。",
+      "translation": "As long as you have a vision, realization is possible.",
+      "blank_target": "さえあれば",
+      "wrong_choices": [
+        "があれば",
+        "があったら",
+        "さえあったら"
+      ],
+      "wrong_choice_explanations": [
+        "があれば uses only if, but the sentence requires the 'as long as' or 'if only' emphasis, which さえあれば provides.",
+        "があったら is also conditional but softer; さえあれば emphasizes the essential condition more strongly.",
+        "This adds unnecessary repetition of the conditional; さえあれば is the standard pattern for this meaning."
+      ]
+    },
+    {
+      "id": "n3_037_9",
+      "pattern": "〜かどうか",
+      "meaning": "whether or not",
+      "level": "N3",
+      "example_sentence": "その戦略が効果的かどうか、検証が必要です。",
+      "translation": "We need to verify whether that strategy is effective or not.",
+      "blank_target": "かどうか",
+      "wrong_choices": [
+        "かな",
+        "のかどうか",
+        "かも"
+      ],
+      "wrong_choice_explanations": [
+        "かな is a casual question particle meaning 'I wonder,' but the sentence requires the formal 'whether or not' in a professional context.",
+        "のかどうか adds の unnecessarily; かどうか alone is the correct pattern for expressing uncertainty about an outcome.",
+        "かも means 'might,' expressing possibility, but the sentence requires the yes-or-no uncertainty that かどうか conveys."
+      ]
+    },
+    {
+      "id": "n3_038_9",
+      "pattern": "〜てはいけない",
+      "meaning": "must not / it is not acceptable to",
+      "level": "N3",
+      "example_sentence": "納期を無視してはいけません。",
+      "translation": "You must not ignore deadlines.",
+      "blank_target": "てはいけません",
+      "wrong_choices": [
+        "わなくてはいけません",
+        "てはなりません",
+        "わなければなりません"
+      ],
+      "wrong_choice_explanations": [
+        "わなくてはいけません reverses the meaning to 'must do'; the sentence requires prohibition, which てはいけない expresses.",
+        "てはなりません is a formal alternative to いけない, but いけない is the expected form in this instruction context.",
+        "わなければなりません means 'must do,' the opposite of the required prohibition against ignoring deadlines."
+      ]
+    },
+    {
+      "id": "n3_039_9",
+      "pattern": "〜なければならない",
+      "meaning": "must do / have to do",
+      "level": "N3",
+      "example_sentence": "クライアントの要望に応えなければなりません。",
+      "translation": "I must meet the client's demands.",
+      "blank_target": "なければなりません",
+      "wrong_choices": [
+        "てはいけない",
+        "るべきだ",
+        "ないといけない"
+      ],
+      "wrong_choice_explanations": [
+        "てはいけない means 'must not,' the opposite of what the sentence requires; なければならない expresses obligation to act.",
+        "るべきだ expresses moral obligation, but なければならない better conveys necessity or requirement in a business context.",
+        "ないといけない essentially means 'must,' but adding ない creates a negative form that complicates the meaning."
+      ]
+    },
+    {
+      "id": "n3_040_9",
+      "pattern": "〜てもいい",
+      "meaning": "it is okay to / may / allowed to",
+      "level": "N3",
+      "example_sentence": "意見の相違があってもいいです。",
+      "translation": "It is okay to have different opinions.",
+      "blank_target": "てもいいです",
+      "wrong_choices": [
+        "てはいけませんか",
+        "なくてもいいですか",
+        "てもかまいませんか"
+      ],
+      "wrong_choice_explanations": [
+        "This means 'is it not okay to,' reversing the acceptability; the sentence permits differences, requiring the positive てもいい.",
+        "This suggests 'is it okay not to,' questioning permission; the sentence states acceptance of differing opinions positively.",
+        "This asks for permission politely, but the sentence makes a straightforward positive statement of permission."
+      ]
+    },
+    {
+      "id": "n3_041_9",
+      "pattern": "〜なくてもいい",
+      "meaning": "do not have to / it is okay not to",
+      "level": "N3",
+      "example_sentence": "すべてを完璧にしなくてもいいのです。",
+      "translation": "You do not have to make everything perfect.",
+      "blank_target": "なくてもいい",
+      "wrong_choices": [
+        "てもいいです",
+        "なければなりません",
+        "なくてはなりません"
+      ],
+      "wrong_choice_explanations": [
+        "てもいいです permits an action, but the sentence specifically releases the obligation not to do something, requiring なくても.",
+        "なければなりません expresses necessity to do something, the opposite of the relaxation expressed in the sentence.",
+        "なくてはなりません means 'must not do,' but the sentence conveys freedom from the obligation to be perfect."
+      ]
+    },
+    {
+      "id": "n3_042_9",
+      "pattern": "〜ているところ",
+      "meaning": "in the middle of doing / right in the process of",
+      "level": "N3",
+      "example_sentence": "新製品の開発をしているところです。",
+      "translation": "We are right in the middle of developing a new product.",
+      "blank_target": "ているところです",
+      "wrong_choices": [
+        "たところです",
+        "るところです",
+        "ていました"
+      ],
+      "wrong_choice_explanations": [
+        "たところです means 'just finished,' but the sentence emphasizes being 'in the middle of' development, requiring ている.",
+        "るところです can indicate imminent action, but ているところです is needed for ongoing process or current stage.",
+        "ていました is past continuous, but the sentence describes a current ongoing state, not a past condition."
+      ]
+    },
+    {
+      "id": "n3_043_9",
+      "pattern": "〜たところ",
+      "meaning": "just finished doing / tried and found that",
+      "level": "N3",
+      "example_sentence": "改善案を実行したところ、効果が出た。",
+      "translation": "When I implemented the improvement plan, it worked.",
+      "blank_target": "たところ",
+      "wrong_choices": [
+        "っているところ",
+        "ってみたら",
+        "ったばかり"
+      ],
+      "wrong_choice_explanations": [
+        "っているところです means 'in the middle of,' but the sentence indicates the result after implementation, requiring past たところ.",
+        "ってみたら means 'when I tried,' but the sentence describes actual implementation and results, not experimentation.",
+        "ったばかり means 'just finished,' but the sentence emphasizes the consequent results discovered, not immediate recency."
+      ]
+    },
+    {
+      "id": "n3_044_9",
+      "pattern": "〜たばかり",
+      "meaning": "just did (recently completed)",
+      "level": "N3",
+      "example_sentence": "事業拡張したばかりで、課題が山積みです。",
+      "translation": "We just expanded operations and have many challenges.",
+      "blank_target": "たばかりで",
+      "wrong_choices": [
+        "たところで",
+        "てしまって",
+        "たとたんに"
+      ],
+      "wrong_choice_explanations": [
+        "たところで means 'after doing,' but the sentence emphasizes the immediacy of 'just expanded,' which ばかり conveys.",
+        "てしまって suggests regrettable completion, but the sentence describes recent accomplishment with current consequences.",
+        "たとたんに means 'the very moment,' but the sentence describes a state following recent expansion, not instantaneous timing."
+      ]
+    },
+    {
+      "id": "n3_045_9",
+      "pattern": "〜たとたん",
+      "meaning": "the moment / just as / as soon as",
+      "level": "N3",
+      "example_sentence": "サービスを開始したとたん、アクセスが殺到した。",
+      "translation": "The moment we launched the service, traffic surged.",
+      "blank_target": "たとたん",
+      "wrong_choices": [
+        "たばかり",
+        "てすぐ",
+        "たら"
+      ],
+      "wrong_choice_explanations": [
+        "たばかり means 'just finished,' but the sentence emphasizes the immediate moment of impact, which たとたん conveys.",
+        "てすぐ means 'immediately after,' but たとたん better captures the sense of 'the very moment of' something happening.",
+        "たら is a conditional 'if,' but the sentence describes an actual event sequence, not a hypothetical condition."
+      ]
+    },
+    {
+      "id": "n3_046_9",
+      "pattern": "〜うちに",
+      "meaning": "while / before it is too late",
+      "level": "N3",
+      "example_sentence": "市場機会が残っているうちに、参入するべきです。",
+      "translation": "You should enter the market while the opportunity remains.",
+      "blank_target": "うちに",
+      "wrong_choices": [
+        "あいだに",
+        "ながら",
+        "ときに"
+      ],
+      "wrong_choice_explanations": [
+        "あいだに means 'during a span,' but うちに emphasizes 'while there's still time' or 'before it's too late.'",
+        "ながら means 'while doing,' but the sentence requires the sense of urgency about a diminishing window of opportunity.",
+        "ときに means 'when,' but うちに better conveys the sense of 'while the opportunity remains.'"
+      ]
+    },
+    {
+      "id": "n3_047_9",
+      "pattern": "〜あいだに",
+      "meaning": "during / while (a change occurs during a span)",
+      "level": "N3",
+      "example_sentence": "競争相手が成長する間に、我々は停滞していた。",
+      "translation": "While competitors grew, we stagnated.",
+      "blank_target": "間に",
+      "wrong_choices": [
+        "のうちに",
+        "のあいだ",
+        "の際に"
+      ],
+      "wrong_choice_explanations": [
+        "のうちに is similar to うちに, but the sentence requires the broader sense of 'while competitors were growing,' which あいだに provides.",
+        "のあいだ is essentially equivalent, but in this context, に conveys the ongoing contrast implied by the sentence.",
+        "の際に means 'at the occasion of,' but the sentence describes an extended period during which change occurred."
+      ]
+    },
+    {
+      "id": "n3_048_9",
+      "pattern": "〜ごとに",
+      "meaning": "every / each (repeated intervals)",
+      "level": "N3",
+      "example_sentence": "四半期ごとに、決算説明会を開催しています。",
+      "translation": "I hold earnings briefings every quarter.",
+      "blank_target": "ごとに",
+      "wrong_choices": [
+        "たびに",
+        "おきに",
+        "ずつ"
+      ],
+      "wrong_choice_explanations": [
+        "たびに means 'every time,' but ごとに is more formal and better suited for regular scheduled intervals like quarterly meetings.",
+        "おきに means 'every other,' implying skipped intervals, but the sentence indicates consistent quarterly occurrences.",
+        "ずつ means 'per piece' or 'each,' expressing distribution, but the sentence requires the sense of repeated intervals."
+      ]
+    },
+    {
+      "id": "n3_049_9",
+      "pattern": "〜たびに",
+      "meaning": "every time / whenever",
+      "level": "N3",
+      "example_sentence": "顧客からのクレームをもらうたびに、改善を工夫します。",
+      "translation": "Every time I receive a customer complaint, I think about improvements.",
+      "blank_target": "たびに",
+      "wrong_choices": [
+        "ごとに",
+        "おきに",
+        "と"
+      ],
+      "wrong_choice_explanations": [
+        "ごとに emphasizes regular fixed intervals, but the sentence conveys repetition in response to recurring events, which たびに expresses.",
+        "おきに means 'every other,' but the sentence describes improvement thinking with each complaint received, not alternating intervals.",
+        "と creates a sequence 'A and B,' but the sentence requires the meaning of 'whenever a complaint comes,' which たびに conveys."
+      ]
+    },
+    {
+      "id": "n3_050_9",
+      "pattern": "〜おきに",
+      "meaning": "at intervals of / every other",
+      "level": "N3",
+      "example_sentence": "二週間おきに、定例会議を開いています。",
+      "translation": "I hold regular meetings every two weeks.",
+      "blank_target": "おきに",
+      "wrong_choices": [
+        "ごとに",
+        "たびに",
+        "ずつ"
+      ],
+      "wrong_choice_explanations": [
+        "ごとに means 'every,' but the sentence specifically describes every other week, requiring the 'interval' sense of おきに.",
+        "たびに means 'every time,' but the sentence describes fixed intervals, not event-triggered occurrences.",
+        "ずつ means 'per' or 'at a rate,' but the sentence requires the temporal pattern of alternating intervals."
+      ]
+    },
+    {
+      "id": "n3_051_9",
+      "pattern": "〜わけだ",
+      "meaning": "that is why / no wonder / it means that",
+      "level": "N3",
+      "example_sentence": "十年の経験があるから、信頼されたわけだ。",
+      "translation": "No wonder he is trusted — he has ten years of experience.",
+      "blank_target": "たわけだ",
+      "wrong_choices": [
+        "なはずだ",
+        "ということだ",
+        "なのだ"
+      ],
+      "wrong_choice_explanations": [
+        "なはずだ expresses expectation, but the sentence conveys the reason or explanation for why something happened, which わけだ provides.",
+        "ということだ paraphrases or summarizes, but わけだ better conveys the logical conclusion or reason.",
+        "なのだ states a fact or explanation, but わけだ specifically emphasizes the logical connection."
+      ]
+    },
+    {
+      "id": "n3_052_9",
+      "pattern": "〜わけではない",
+      "meaning": "it does not mean that / not necessarily",
+      "level": "N3",
+      "example_sentence": "多忙ではないわけではないが、やりがいがある。",
+      "translation": "It is not that I am not busy, but the work is fulfilling.",
+      "blank_target": "わけではない",
+      "wrong_choices": [
+        "わけがない",
+        "はずではない",
+        "とは言えない"
+      ],
+      "wrong_choice_explanations": [
+        "わけがない means 'there is no way,' expressing impossibility, but the sentence negates a conclusion while acknowledging partial truth.",
+        "はずではない negates expectation, but the sentence requires the nuance of 'it doesn't mean that,' which わけではない provides.",
+        "とは言えない means 'one cannot say,' but わけではない better captures the grammatical negation of a logical conclusion."
+      ]
+    },
+    {
+      "id": "n3_053_9",
+      "pattern": "〜わけがない",
+      "meaning": "there is no way that / cannot possibly",
+      "level": "N3",
+      "example_sentence": "その仮説が正しいわけがない。",
+      "translation": "There is no way that hypothesis is correct.",
+      "blank_target": "わけがない",
+      "wrong_choices": [
+        "わけではない",
+        "はずがない",
+        "わけにはいかない"
+      ],
+      "wrong_choice_explanations": [
+        "わけではない negates a logical conclusion, but the sentence expresses absolute impossibility or denial, which わけがない conveys.",
+        "はずがない means 'there is no way' in terms of expectation, but わけがない is the standard form for expressing impossibility.",
+        "わけにはいかない means 'cannot' due to obligation or social reason, but the sentence expresses logical impossibility."
+      ]
+    },
+    {
+      "id": "n3_054_9",
+      "pattern": "〜わけにはいかない",
+      "meaning": "cannot / must not (due to social or moral reasons)",
+      "level": "N3",
+      "example_sentence": "信頼を裏切るわけにはいかない。",
+      "translation": "I cannot betray the trust.",
+      "blank_target": "わけにはいかない",
+      "wrong_choices": [
+        "わけがない",
+        "てはいけない",
+        "べきではない"
+      ],
+      "wrong_choice_explanations": [
+        "わけがない means 'there is no way,' but the sentence expresses social or moral obligation not to do something.",
+        "てはいけない means 'must not,' but わけにはいかない better conveys the sense of 'cannot do' due to moral reasons.",
+        "べきではない means 'should not,' but わけにはいかない better expresses the impossibility due to obligation."
+      ]
+    },
+    {
+      "id": "n3_055_9",
+      "pattern": "〜ものだ",
+      "meaning": "it is natural that / that is how things are (general truth or emotion)",
+      "level": "N3",
+      "example_sentence": "成功には、犠牲が伴うものだ。",
+      "translation": "Success comes with sacrifice, that is how it is.",
+      "blank_target": "ものだ",
+      "wrong_choices": [
+        "ことだ",
+        "はずだ",
+        "ものではない"
+      ],
+      "wrong_choice_explanations": [
+        "ことだ means 'the thing to do' (advice), but the sentence conveys a general truth or natural fact, which ものだ expresses.",
+        "はずだ expresses logical expectation, but the sentence conveys what naturally or habitually is, a more universal truth.",
+        "ものではない is the negative form; the sentence requires the affirmative meaning of natural consequence."
+      ]
+    },
+    {
+      "id": "n3_056_9",
+      "pattern": "〜ものではない",
+      "meaning": "one should not / it is not something you do",
+      "level": "N3",
+      "example_sentence": "企業秘密を外部に漏らすものではない。",
+      "translation": "One should not leak trade secrets outside.",
+      "blank_target": "ものではない",
+      "wrong_choices": [
+        "ものだ",
+        "べきではない",
+        "てはいけない"
+      ],
+      "wrong_choice_explanations": [
+        "ものだ conveys natural truth positively, but the sentence prohibits an action, requiring the negative ものではない.",
+        "べきではない means 'should not,' but ものではない better expresses the cultural norm or principle that something simply is not done.",
+        "てはいけない is a direct prohibition, but ものではない better conveys the sense of a principle or nature-based prohibition."
+      ]
+    },
+    {
+      "id": "n3_057_9",
+      "pattern": "〜ものの",
+      "meaning": "although / even though (but the result is unexpected)",
+      "level": "N3",
+      "example_sentence": "計画的に進めたものの、予想外の問題が発生した。",
+      "translation": "Although I proceeded systematically, unexpected problems arose.",
+      "blank_target": "たものの",
+      "wrong_choices": [
+        "たが",
+        "たけれど",
+        "たにもかかわらず"
+      ],
+      "wrong_choice_explanations": [
+        "たが is a simple 'but' conjunction, but ものの better conveys the sense of unexpected contrast despite preparation.",
+        "たけれど is also a conjunction, but the sentence requires the nuance of 'although' with unexpected consequences.",
+        "たにもかかわらず means 'despite,' but ものの better captures the sense of contrasting with preparation and expectation."
+      ]
+    },
+    {
+      "id": "n3_058_9",
+      "pattern": "〜ことだ",
+      "meaning": "should / the thing to do is (advice)",
+      "level": "N3",
+      "example_sentence": "急ぐのではなく、丁寧にすることが大事なことだ。",
+      "translation": "Rather than rushing, the important thing is to be careful.",
+      "blank_target": "ることが大事なことだ",
+      "wrong_choices": [
+        "るべきだ",
+        "るものだ",
+        "るといい"
+      ],
+      "wrong_choice_explanations": [
+        "るべきだ expresses obligation or what should be, but ことだ better conveys advice about what is 'the important thing to do.'",
+        "るものだ conveys what is natural or habitual, but the sentence gives advice or recommendation, requiring ことだ.",
+        "るといい means 'would be good,' but ことだ better emphasizes that something is 'the important thing.'"
+      ]
+    },
+    {
+      "id": "n3_059_9",
+      "pattern": "〜くせに",
+      "meaning": "even though / and yet (with blame or reproach)",
+      "level": "N3",
+      "example_sentence": "知識があるくせに、実行しない。",
+      "translation": "You have knowledge, yet you do not act on it.",
+      "blank_target": "るくせに",
+      "wrong_choices": [
+        "のに",
+        "ものの",
+        "にもかかわらず"
+      ],
+      "wrong_choice_explanations": [
+        "のに means 'but' or 'despite,' but くせに adds a tone of blame or reproach about someone's inconsistency.",
+        "ものの means 'although,' but くせに specifically conveys blame for acting contrary to one's knowledge.",
+        "にもかかわらず is formal 'despite,' but くせに better expresses blame or reproach for inconsistent behavior."
+      ]
+    },
+    {
+      "id": "n3_060_9",
+      "pattern": "〜せいで",
+      "meaning": "because of / due to (negative result — blaming)",
+      "level": "N3",
+      "example_sentence": "通信障害のせいで、会議が延期になりました。",
+      "translation": "Because of communication issues, the meeting was postponed.",
+      "blank_target": "のせいで",
+      "wrong_choices": [
+        "のおかげで",
+        "のために",
+        "によって"
+      ],
+      "wrong_choice_explanations": [
+        "のおかげで means 'thanks to,' expressing positive results, but the sentence blames communication issues for a negative outcome.",
+        "のために expresses purpose or reason, but the sentence specifically blames someone or something, requiring せいで.",
+        "によって expresses causation neutrally, but the sentence carries the connotation of blame, which せいで conveys."
+      ]
+    },
+    {
+      "id": "n3_061_9",
+      "pattern": "〜おかげで",
+      "meaning": "thanks to / owing to (positive result)",
+      "level": "N3",
+      "example_sentence": "メンターのサポートのおかげで、成長できました。",
+      "translation": "Thanks to my mentor's support, I was able to grow.",
+      "blank_target": "のおかげで",
+      "wrong_choices": [
+        "のせいで",
+        "のために",
+        "によって"
+      ],
+      "wrong_choice_explanations": [
+        "のせいで means 'because of' (negative), but the sentence expresses gratitude for positive growth resulting from support.",
+        "のために expresses purpose or reason, but the sentence specifically attributes positive results to someone's help.",
+        "によって is neutral causation, but the sentence carries gratitude and positive attribution, which おかげで conveys."
+      ]
+    },
+    {
+      "id": "n3_062_9",
+      "pattern": "〜にもかかわらず",
+      "meaning": "despite / in spite of / nevertheless",
+      "level": "N3",
+      "example_sentence": "景気悪化にもかかわらず、企業は投資を続けた。",
+      "translation": "Despite economic downturns, companies continued investing.",
+      "blank_target": "にもかかわらず",
+      "wrong_choices": [
+        "のに",
+        "ものの",
+        "くせに"
+      ],
+      "wrong_choice_explanations": [
+        "のに means 'but' or 'despite,' but にもかかわらず is more formal and better suited for a business context.",
+        "ものの means 'although,' but にもかかわらず better captures the formal expression of 'despite' in business writing.",
+        "くせに conveys blame or reproach, but the sentence neutrally contrasts economic conditions with continued investment."
+      ]
+    },
+    {
+      "id": "n3_063_9",
+      "pattern": "〜さえ",
+      "meaning": "even (unexpected / extreme case)",
+      "level": "N3",
+      "example_sentence": "機械さえ、エラーを起こすことがあります。",
+      "translation": "Even machines can make errors.",
+      "blank_target": "さえ",
+      "wrong_choices": [
+        "でも",
+        "だって",
+        "すら"
+      ],
+      "wrong_choice_explanations": [
+        "でも means 'even' or 'but,' but さえ better emphasizes the unexpectedness or extreme nature of machines making errors.",
+        "だって is conversational 'even,' but the formal context requires さえ.",
+        "すら means 'even,' but in this context, さえ better fits the nuance of an unexpected or extreme case."
+      ]
+    },
+    {
+      "id": "n3_064_9",
+      "pattern": "〜ずに",
+      "meaning": "without doing / instead of doing",
+      "level": "N3",
+      "example_sentence": "事前協議せずに、決定を下しました。",
+      "translation": "I made a decision without prior consultation.",
+      "blank_target": "ずに",
+      "wrong_choices": [
+        "ないで",
+        "なくて",
+        "なしで"
+      ],
+      "wrong_choice_explanations": [
+        "ないで also means 'without,' but ずに is the more formal written form suitable for describing a business decision.",
+        "なくて means 'without' but is often used as a conjunction; ずに is the standard form for the meaning 'without doing.'",
+        "なしで means 'without' (a thing), but the sentence requires the form meaning 'without doing' (an action), which ずに provides."
+      ]
+    },
+    {
+      "id": "n3_065_9",
+      "pattern": "〜ほかない",
+      "meaning": "have no choice but to / can only",
+      "level": "N3",
+      "example_sentence": "経営改革を行うほかない状況です。",
+      "translation": "It is a situation where we have no choice but to reform management.",
+      "blank_target": "ほかない",
+      "wrong_choices": [
+        "しかない",
+        "だけだ",
+        "ざるを得ない"
+      ],
+      "wrong_choice_explanations": [
+        "しかない means 'can only' or 'have no choice,' but ほかない better conveys the sense of being in a situation with no alternatives.",
+        "だけだ means 'only' or 'just,' but the sentence requires the connotation of having no other option.",
+        "ざるを得ない means 'must' or 'cannot avoid,' but the sentence emphasizes unavoidable action, which ほかない conveys."
+      ]
+    },
+    {
+      "id": "n3_066_9",
+      "pattern": "〜にしては",
+      "meaning": "for / considering (unexpectedly good or bad)",
+      "level": "N3",
+      "example_sentence": "中小企業にしては、グローバル展開が進んでいます。",
+      "translation": "For an SME, global expansion is quite advanced.",
+      "blank_target": "にしては",
+      "wrong_choices": [
+        "にしても",
+        "としては",
+        "わりに"
+      ],
+      "wrong_choice_explanations": [
+        "にしても means 'even if,' but the sentence compares actual progress against expectations for an SME.",
+        "としては is similar but less emphatic about the discrepancy; にしては better conveys 'for an SME,' indicating surprise.",
+        "わりに means 'for' or 'considering,' but にしては is more formal and better fits this business context."
+      ]
+    },
+    {
+      "id": "n3_067_9",
+      "pattern": "〜わりに",
+      "meaning": "for / considering that (discrepancy between expectation and reality)",
+      "level": "N3",
+      "example_sentence": "宣伝費の割に、認知度が低いですね。",
+      "translation": "For the advertising budget, the recognition is low.",
+      "blank_target": "割に",
+      "wrong_choices": [
+        "にしては",
+        "のわりに",
+        "としては"
+      ],
+      "wrong_choice_explanations": [
+        "にしては works similarly, but わりに better emphasizes the discrepancy between advertising investment and actual recognition.",
+        "のわりに adds の unnecessarily; わりに is the correct form for expressing this discrepancy.",
+        "としては means 'as,' but the sentence requires the sense of 'for the amount of advertising,' which わりに conveys."
+      ]
+    },
+    {
+      "id": "n3_068_9",
+      "pattern": "〜といえば",
+      "meaning": "speaking of / when it comes to",
+      "level": "N3",
+      "example_sentence": "サステナビリティといえば、環境問題が中心です。",
+      "translation": "When it comes to sustainability, environmental issues are central.",
+      "blank_target": "といえば",
+      "wrong_choices": [
+        "というと",
+        "と言ったら",
+        "といっても"
+      ],
+      "wrong_choice_explanations": [
+        "というと means 'when I say' or 'it is said,' but といえば better conveys 'speaking of' or 'when it comes to.'",
+        "と言ったら is more emphatic 'when I say,' but the sentence uses the softer 'speaking of' sense, requiring といえば.",
+        "といっても means 'even though I say,' but the sentence introduces a topic directly, requiring といえば."
+      ]
+    },
+    {
+      "id": "n3_069_9",
+      "pattern": "〜といっても",
+      "meaning": "even though I say / although I say (the reality is less extreme)",
+      "level": "N3",
+      "example_sentence": "改善といっても、根本的解決ではありません。",
+      "translation": "Even though I call it an improvement, it is not a fundamental solution.",
+      "blank_target": "といっても",
+      "wrong_choices": [
+        "といえば",
+        "とはいっても",
+        "としても"
+      ],
+      "wrong_choice_explanations": [
+        "といえば means 'speaking of,' but the sentence contrasts what something is called with reality, requiring といっても.",
+        "とはいっても means 'even so' or 'but,' but といっても better fits the sense of 'although called improvement.'",
+        "としても means 'even if,' but the sentence requires the sense of 'even though I call it,' which といっても conveys."
+      ]
+    },
+    {
+      "id": "n3_070_9",
+      "pattern": "〜として",
+      "meaning": "as / in the capacity of",
+      "level": "N3",
+      "example_sentence": "プロダクトマネージャーとして、責任を果たします。",
+      "translation": "As a product manager, I fulfill my responsibilities.",
+      "blank_target": "として",
+      "wrong_choices": [
+        "に対して",
+        "にとって",
+        "において"
+      ],
+      "wrong_choice_explanations": [
+        "に対して means 'toward,' but the sentence describes a role or capacity, which として expresses.",
+        "にとって means 'for someone's perspective,' but the sentence describes taking a role, not evaluating from a viewpoint.",
+        "において means 'in' or 'at,' but として better conveys 'in the capacity of' or 'as a PM.'"
+      ]
+    }
+  ]
+}
