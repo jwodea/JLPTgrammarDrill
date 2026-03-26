@@ -2,7 +2,7 @@ import Foundation
 
 class GrammarLoader {
 
-    private static let levelPrefixes = ["n1_", "n2_", "n3_"]
+    private static let levelPrefixes = ["n1_", "n2_", "n3_", "n4_", "n5_"]
 
     /// Load all per-pattern JSON files from the bundle.
     /// Files are named like n1_001.json, n2_050.json, etc.

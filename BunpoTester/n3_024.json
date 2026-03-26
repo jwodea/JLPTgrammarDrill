@@ -21,22 +21,6 @@
       ]
     },
     {
-      "id": "n3_024_10",
-      "example_sentence": "データを分析すればするほど、パターンが見えてきます。",
-      "translation": "The more I analyze data, the more patterns emerge.",
-      "blank_target": "ばするほど",
-      "wrong_choices": [
-        "しても、しても",
-        "するにつれて",
-        "するとともに"
-      ],
-      "wrong_choice_explanations": [
-        "ても〜ても suggests concession, not the proportional increase that ばするほど expresses.",
-        "するにつれて means 'as...progresses', expressing gradual change without the 'the more' comparison.",
-        "するとともに means 'along with', indicating simultaneous occurrence, not proportional intensity."
-      ]
-    },
-    {
       "id": "n3_024_2",
       "example_sentence": "経験を積めば積むほど、仕事の質が高くなります。",
       "translation": "The more experience you gain, the higher the quality of your work becomes.",
@@ -58,14 +42,14 @@
       "translation": "The more you walk, the more tired your feet become.",
       "blank_target": "けば歩くほど",
       "wrong_choices": [
-        "んでも、歩んでも",
+        "いても、歩いても",
         "くにつれて",
         "くとともに"
       ],
       "wrong_choice_explanations": [
-        "This form is not grammatically standard; ほど is needed to show the proportional relationship between two actions.",
-        "くにつれて means 'as you walk,' showing gradual change, but the sentence uses the comparative structure ば...ほど.",
-        "くとともに means 'along with,' but the sentence emphasizes the proportional relationship expressed by ば...ほど."
+        "〜ても〜ても means 'no matter how much you walk,' expressing futility or concession, but the sentence shows a proportional relationship (the more, the more).",
+        "〜につれて means 'as you walk (gradually),' expressing correlated change, but it lacks the emphatic 'the more X, the more Y' structure.",
+        "〜とともに means 'along with walking,' describing parallel change, but not the intensifying proportional comparison of ば〜ほど."
       ]
     },
     {
@@ -74,14 +58,14 @@
       "translation": "The deeper the love, the more painful the separation becomes.",
       "blank_target": "ければ深いほど",
       "wrong_choices": [
-        "んでも、深んでも",
-        "くにつれて",
-        "くとともに"
+        "くても、深くても",
+        "くなるにつれて",
+        "くなるとともに"
       ],
       "wrong_choice_explanations": [
-        "This form doesn't work grammatically, and doesn't express the 'the more...the more' comparison pattern.",
-        "につれて means 'in proportion to', but this sentence requires 'ほど' for the comparative 'the more...the more' pattern.",
-        "とともに means 'together with', but this sentence requires the specific 'ほど' pattern for comparative relationships."
+        "〜くても means 'even if it is deep,' expressing concession, but the sentence expresses a proportional relationship: the deeper, the more painful.",
+        "〜につれて means 'as it deepens,' expressing gradual change, but ば〜ほど specifically emphasizes the proportional 'the more...the more' comparison.",
+        "〜とともに means 'along with deepening,' indicating parallel change, but ば〜ほど is needed for the emphatic proportional comparison."
       ]
     },
     {
@@ -90,14 +74,14 @@
       "translation": "The more choices there are, the harder it becomes to decide.",
       "blank_target": "ければ多いほど",
       "wrong_choices": [
-        "んでも、多んでも",
-        "くにつれて",
-        "くとともに"
+        "くても、多くても",
+        "くなるにつれて",
+        "くなるとともに"
       ],
       "wrong_choice_explanations": [
-        "This form doesn't express the proportional or correlative relationship needed for 'the more...the more...'",
-        "につれて means 'as changes occur,' but ばほど shows a more direct correlation between two increases.",
-        "とともに means 'together with,' but ばほど specifically shows proportional increase."
+        "〜くても means 'even if there are many,' expressing concession, but the sentence shows a proportional increase: more choices make deciding harder.",
+        "〜につれて means 'as they increase,' expressing gradual change, but ば〜ほど emphasizes the proportional 'the more...the more' comparison.",
+        "〜とともに means 'along with increasing,' indicating parallel change, but ば〜ほど provides the emphatic proportional emphasis the sentence requires."
       ]
     },
     {
@@ -120,39 +104,39 @@
       "id": "n3_024_7",
       "example_sentence": "作れば作るほど、効率が上がります。",
       "translation": "The more you make, the more efficient you become.",
-      "blank_target": "るほど",
+      "blank_target": "ば作るほど",
       "wrong_choices": [
-        "しても、しても",
-        "するにつれて",
-        "するとともに"
+        "っても、作っても",
+        "るにつれて",
+        "るとともに"
       ],
       "wrong_choice_explanations": [
-        "This form is incorrect; 〜ば〜ほど requires the comparative structure",
-        "〜するにつれて indicates gradual change, but doesn't capture the 'more...the more' comparative structure",
-        "〜するとともに indicates simultaneity or parallel progression, not a proportional increase"
+        "〜ても〜ても means 'no matter how much you make,' implying futility, but the sentence shows a positive proportional result.",
+        "〜につれて means 'as you make more,' expressing gradual change, but it lacks the emphatic 'the more...the more' structure of ば〜ほど.",
+        "〜とともに means 'along with making,' expressing parallel progression, but not the intensifying comparison of ば〜ほど."
       ]
     },
     {
       "id": "n3_024_8",
       "example_sentence": "読めば読むほど、その著者が好きになります。",
       "translation": "The more I read, the more I like that author.",
-      "blank_target": "むほど",
+      "blank_target": "ば読むほど",
       "wrong_choices": [
-        "しても、しても",
-        "するにつれて",
-        "するとともに"
+        "んでも、読んでも",
+        "むにつれて",
+        "むとともに"
       ],
       "wrong_choice_explanations": [
-        "しても means 'even if', but the sentence requires the progressive comparison meaning of 'the more...the more'.",
-        "するにつれて means 'as...progresses' but emphasizes causation, while ほど emphasizes proportion in comparison.",
-        "するとともに means 'at the same time as', but the sentence expresses comparative increase."
+        "〜ても〜ても means 'no matter how much you read,' expressing futility or concession, but the sentence shows growing fondness proportional to reading.",
+        "〜につれて means 'as you read more,' expressing gradual change, but ば〜ほど specifically emphasizes the intensifying proportional comparison.",
+        "〜とともに means 'along with reading,' expressing parallel change, but not the emphatic 'the more...the more' comparison."
       ]
     },
     {
       "id": "n3_024_9",
       "example_sentence": "調査すればするほど、問題の複雑さが分かります。",
       "translation": "The more I investigate, the more I understand the complexity.",
-      "blank_target": "るほど",
+      "blank_target": "ばするほど",
       "wrong_choices": [
         "しても、しても",
         "するにつれて",
@@ -162,6 +146,22 @@
         "ても〜ても would mean 'even if A, even if B,' but the context requires expressing proportional increase: more investigation yields more understanding.",
         "するにつれて means 'as...gradually,' but the sentence emphasizes the comparative 'the more...the more...' relationship.",
         "するとともに means 'along with' or 'at the same time,' but ほど better expresses the proportional comparison here."
+      ]
+    },
+    {
+      "id": "n3_024_10",
+      "example_sentence": "データを分析すればするほど、パターンが見えてきます。",
+      "translation": "The more I analyze data, the more patterns emerge.",
+      "blank_target": "ばするほど",
+      "wrong_choices": [
+        "しても、しても",
+        "するにつれて",
+        "するとともに"
+      ],
+      "wrong_choice_explanations": [
+        "ても〜ても suggests concession, not the proportional increase that ばするほど expresses.",
+        "するにつれて means 'as...progresses', expressing gradual change without the 'the more' comparison.",
+        "するとともに means 'along with', indicating simultaneous occurrence, not proportional intensity."
       ]
     }
   ]

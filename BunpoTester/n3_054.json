@@ -21,83 +21,67 @@
       ]
     },
     {
-      "id": "n3_054_10",
-      "example_sentence": "顧客との約束を破るわけにはいかない。",
-      "translation": "I cannot break my promise to the client.",
-      "blank_target": "わけにはいかない",
-      "wrong_choices": [
-        "わけがない",
-        "てはいけない",
-        "べきではない"
-      ],
-      "wrong_choice_explanations": [
-        "わけがない means 'there is no way', expressing logical impossibility, not constraint.",
-        "てはいけない emphasizes prohibition, less focused on obligation/constraint.",
-        "べきではない expresses what one should not do, different from the constraint of わけにはいかない."
-      ]
-    },
-    {
       "id": "n3_054_2",
-      "example_sentence": "納期の約束をしたから、間に合わせないわけにはいかない。",
-      "translation": "Since I promised a deadline, I cannot fail to meet it.",
+      "example_sentence": "仕事の報告なしに、プロジェクトを終了するわけにはいかない。",
+      "translation": "I cannot end the project without reporting to work.",
       "blank_target": "わけにはいかない",
       "wrong_choices": [
         "わけがない",
-        "てはいけない",
-        "べきではない"
+        "ことはできない",
+        "ようがない"
       ],
       "wrong_choice_explanations": [
-        "わけがない means 'there's no way', but わけにはいかない indicates something cannot be done due to social or moral reasons.",
-        "てはいけない means 'must not', but わけにはいかない adds nuance of obligation or inevitability due to social context.",
-        "べきではない means 'should not', but わけにはいかない emphasizes that there's no choice but to meet the obligation."
+        "わけがない means 'there's no way,' denying logical possibility, but the sentence expresses a social obligation that cannot be avoided.",
+        "ことはできない means 'cannot do,' but わけにはいかない emphasizes that due to professional responsibility, this action is impossible to carry out.",
+        "ようがない means 'there's no way to,' implying lack of means, but わけにはいかない expresses social/professional obligation."
       ]
     },
     {
       "id": "n3_054_3",
-      "example_sentence": "友達と約束したから、キャンセルするわけにはいかない。",
-      "translation": "Since I promised a friend, I cannot cancel.",
+      "example_sentence": "親の健康のことを無視するわけにはいかない。",
+      "translation": "I cannot ignore my parents' health.",
       "blank_target": "わけにはいかない",
       "wrong_choices": [
-        "わけがない",
-        "てはいけない",
-        "べきではない"
+        "べきではない",
+        "ざるを得ない",
+        "わけがない"
       ],
       "wrong_choice_explanations": [
-        "わけがない means 'there is no way,' but the sentence uses わけにはいかない for a social or moral constraint.",
-        "てはいけない means 'must not,' but わけにはいかない emphasizes the impossibility due to a prior commitment.",
-        "べきではない means 'should not,' but the sentence uses わけにはいかない to express inability due to circumstances."
+        "べきではない means 'should not,' expressing what's advisable, but わけにはいかない emphasizes a duty that cannot be shirked.",
+        "ざるを得ない means 'have no choice but to,' similar in obligation but less focused on the impossibility of doing otherwise.",
+        "わけがない means 'there's no way,' denying possibility, but the sentence expresses moral obligation to take action."
       ]
     },
     {
       "id": "n3_054_4",
-      "example_sentence": "彼女と約束したから、約束をキャンセルするわけにはいかない。",
-      "translation": "Since I promised my girlfriend, I cannot cancel the promise.",
-      "blank_target": "るわけにはいかない",
+      "example_sentence": "家族の大事な決定に、意見を述べないわけにはいかない。",
+      "translation": "I cannot refrain from expressing my opinion on important family decisions.",
+      "blank_target": "わけにはいかない",
       "wrong_choices": [
-        "わけがない",
         "てはいけない",
+        "ことはできない",
         "べきではない"
       ],
       "wrong_choice_explanations": [
-        "This denies possibility, but this sentence requires 'わけにはいかない' for expressing inability due to circumstances.",
-        "This means 'must not', but this sentence uses 'わけにはいかない' for 'cannot' due to obligation.",
-        "This means 'should not', but this sentence requires 'わけにはいかない' for 'cannot' for social reasons."
+        "てはいけない means 'must not,' a prohibition, but the sentence expresses a family duty to participate, not a prohibition.",
+        "ことはできない means 'cannot do,' but わけにはいかない emphasizes the social/family obligation making it impossible to stay silent.",
+        "べきではない means 'should not,' but わけにはいかない expresses a stronger sense of obligation and necessity."
       ]
     },
     {
       "id": "n3_054_5",
-      "example_sentence": "お客さんに約束したから、品質を落とすわけにはいかない。",
-      "translation": "Since I promised the customer, I cannot compromise on quality.",
+      "example_sentence": "助けを求めている人を見て、無関心でいるわけにはいかない。",
+      "translation": "I cannot remain indifferent when I see someone asking for help.",
       "blank_target": "わけにはいかない",
       "wrong_choices": [
+        "ようがない",
         "わけがない",
-        "てはいけない",
-        "べきではない"
+        "ないわけにはいかない"
       ],
       "wrong_choice_explanations": [
-        "わけがない means 'cannot possibly,' but わけにはいかない means 'due to circumstances cannot.'",
-        "てはいけない means 'must not,' but わけにはいかない adds the sense of constraint or obligation.",
-        "べきではない means 'should not,' but わけにはいかない implies social or circumstantial constraint."
+        "ようがない means 'there's no way to,' but わけにはいかない emphasizes moral obligation, not lack of means.",
+        "わけがない means 'there's no way,' denying logical possibility, but the sentence expresses a moral duty.",
+        "ないわけにはいかない would create a double negative that's awkward; わけにはいかない alone correctly expresses the obligation."
       ]
     },
     {
@@ -150,18 +134,34 @@
     },
     {
       "id": "n3_054_9",
-      "example_sentence": "信頼を裏切るわけにはいかない。",
-      "translation": "I cannot betray the trust.",
+      "example_sentence": "公開討論の約束を破るわけにはいかない。",
+      "translation": "I cannot break my commitment to the public debate.",
       "blank_target": "わけにはいかない",
       "wrong_choices": [
-        "わけがない",
-        "てはいけない",
-        "べきではない"
+        "ざるを得ない",
+        "ことはできない",
+        "わけがない"
       ],
       "wrong_choice_explanations": [
-        "わけがない means 'there is no way,' but the sentence expresses social or moral obligation not to do something.",
-        "てはいけない means 'must not,' but わけにはいかない better conveys the sense of 'cannot do' due to moral reasons.",
-        "べきではない means 'should not,' but わけにはいかない better expresses the impossibility due to obligation."
+        "ざるを得ない means 'cannot help but do' or 'am forced to do,' but わけにはいかない emphasizes the obligation to avoid breaking a public commitment.",
+        "ことはできない is neutral 'cannot,' but わけにはいかない adds the sense of social/professional obligation.",
+        "わけがない means 'there's no way,' denying possibility, but the sentence expresses a duty that cannot be avoided."
+      ]
+    },
+    {
+      "id": "n3_054_10",
+      "example_sentence": "顧客との信頼関係を損なうようなことをするわけにはいかない。",
+      "translation": "I cannot do anything that would damage the trust relationship with our clients.",
+      "blank_target": "わけにはいかない",
+      "wrong_choices": [
+        "べきではない",
+        "てはいけない",
+        "わけがない"
+      ],
+      "wrong_choice_explanations": [
+        "べきではない means 'should not' and expresses moral judgment, but わけにはいかない emphasizes the impossibility due to business obligations.",
+        "てはいけない means 'must not' as a prohibition, but わけにはいかない emphasizes a constraint from existing relationships.",
+        "わけがない means 'there's no way,' denying logical possibility, but the sentence expresses a professional/moral obligation."
       ]
     }
   ]

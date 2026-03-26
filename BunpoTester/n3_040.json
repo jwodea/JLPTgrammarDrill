@@ -12,44 +12,28 @@
       "wrong_choices": [
         "てはいけませんか",
         "なくてもいいですか",
-        "てもかまいませんか"
+        "ないでください"
       ],
       "wrong_choice_explanations": [
-        "てはいけませんか means 'is it not allowed?'—this asks about a prohibition rather than seeking permission, giving a different nuance.",
-        "なくてもいいですか means 'is it okay not to?'—this asks whether you can skip doing something, which is the opposite of asking to do it.",
-        "てもかまいませんか also means 'would you mind if I...?' and is very close, but てもいいですか is the standard, more natural N3 permission form."
-      ]
-    },
-    {
-      "id": "n3_040_10",
-      "example_sentence": "複数の視点から検証してもいいです。",
-      "translation": "It is okay to verify from multiple perspectives.",
-      "blank_target": "てもいいです",
-      "wrong_choices": [
-        "てはいけませんか",
-        "なくてもいいですか",
-        "てもかまいませんか"
-      ],
-      "wrong_choice_explanations": [
-        "This is a negative prohibition, opposite of the permission meaning.",
-        "This means 'is it okay not to', which reverses the action.",
-        "While similar, this is a question form, and てもいい is more direct permission."
+        "てはいけませんか means 'is it not allowed?'—this asks about prohibition rather than seeking permission to eat.",
+        "なくてもいいですか means 'is it okay not to?'—this asks whether you can skip eating, which is opposite to asking to do it.",
+        "ないでください is a polite request to not do something; the sentence seeks permission to eat, not a request not to eat."
       ]
     },
     {
       "id": "n3_040_2",
       "example_sentence": "この会議に参加してもいいですか。",
       "translation": "Is it okay if I attend this meeting?",
-      "blank_target": "してもいいですか",
+      "blank_target": "てもいいですか",
       "wrong_choices": [
-        "してはいけませんか",
-        "しなくてもいいですか",
-        "してもかまいませんか"
+        "てはいけませんか",
+        "なければならないですか",
+        "ずにいい"
       ],
       "wrong_choice_explanations": [
-        "してはいけませんか means 'is it not allowed' or 'is it forbidden', expressing prohibition, but the sentence requests permission to do something.",
-        "しなくてもいいですか means 'do I have to', expressing optionality in the negative, but the sentence asks for permission to participate.",
-        "してもかまいませんか is a politer form but with the same meaning; the key difference is that いい is the casual form here."
+        "てはいけませんか means 'is it not allowed?', expressing prohibition; the sentence requests permission to participate.",
+        "なければならないですか asks 'must I?', expressing obligation; the sentence seeks permission, not mandatory requirement.",
+        "ずにいい means 'it's okay without doing,' which is the opposite of asking permission to attend."
       ]
     },
     {
@@ -59,13 +43,13 @@
       "blank_target": "でもいいですか",
       "wrong_choices": [
         "ではいけませんか",
-        "なくてもいいですか",
-        "でもかまいませんか"
+        "でなければならないですか",
+        "ずにいい"
       ],
       "wrong_choice_explanations": [
-        "ではいけませんか means 'is it not okay,' which contradicts the question asking if something is permitted.",
-        "なくてもいいですか means 'is it okay not to,' which is the opposite permission.",
-        "でもかまいませんか is similar in meaning but uses a different word for permission."
+        "ではいけませんか means 'is it not okay' or 'is it forbidden,' contradicting the question asking if something is permitted.",
+        "でなければならないですか asks 'must I remove them?', expressing obligation; the sentence seeks permission.",
+        "ずにいい means 'it's okay without doing,' which contradicts the permission to remove shoes."
       ]
     },
     {
@@ -74,14 +58,14 @@
       "translation": "Is it okay if I meet him?",
       "blank_target": "てもいいですか",
       "wrong_choices": [
-        "てはいけませんか",
-        "なくてもいいですか",
-        "てもかまいませんか"
+        "てはいけますか",
+        "なければならないですか",
+        "ばよい"
       ],
       "wrong_choice_explanations": [
-        "This asks 'is it not allowed?', which contradicts the positive permission meaning of 'てもいい'.",
-        "This asks 'is it okay not to?', expressing the opposite meaning of 'may I?'.",
-        "かまいません is an alternative form to いい, though both work; the sentence uses 'いい'."
+        "てはいけますか asks about non-prohibition; the sentence seeks permission to meet him.",
+        "なければならないですか asks 'must I?', expressing obligation; the sentence seeks permission, not requirement.",
+        "ばよい means 'it's good if,' expressing a different meaning from asking permission."
       ]
     },
     {
@@ -90,30 +74,30 @@
       "translation": "Is it okay if I take photos in this store?",
       "blank_target": "ってもいいですか",
       "wrong_choices": [
-        "ってはいけませんか",
-        "わなくてもいいですか",
-        "ってもかまいませんか"
+        "ってはいけますか",
+        "わなければならないですか",
+        "ずにいい"
       ],
       "wrong_choice_explanations": [
-        "ってはいけませんか is the negative form asking if something is forbidden, opposite of what the sentence asks.",
-        "わなくてもいいですか asks if something is optional, not asking for permission to do it.",
-        "ってもかまいませんか works similarly to ってもいいですか, but いい is more standard."
+        "ってはいけますか asks about non-prohibition; the sentence seeks permission to take photos.",
+        "わなければならないですか asks 'must I?', expressing obligation; the sentence seeks permission, not requirement.",
+        "ずにいい means 'it's okay without doing,' which is opposite to asking permission to take photos."
       ]
     },
     {
       "id": "n3_040_6",
-      "example_sentence": "この映画は外で見てもいいですか。",
+      "example_sentence": "この映画は、外で見てもいいですか。",
       "translation": "Is it okay to watch this movie outside?",
       "blank_target": "てもいいですか",
       "wrong_choices": [
-        "てはいけませんか",
+        "てはいけますか",
         "なくてもいいですか",
-        "てもかまいませんか"
+        "ないでください"
       ],
       "wrong_choice_explanations": [
-        "'てはいけませんか' has a different meaning and doesn't fit the sentence context where '〜てもいい' is required.",
-        "'なくてもいいですか' has a different meaning and doesn't fit the sentence context where '〜てもいい' is required.",
-        "'てもかまいませんか' has a different meaning and doesn't fit the sentence context where '〜てもいい' is required."
+        "てはいけますか asks about non-prohibition; the sentence seeks permission to watch outside.",
+        "なくてもいいですか means 'is it okay not to?', which is the opposite permission from watching.",
+        "ないでください is a polite request not to do something; the sentence seeks permission to watch the movie."
       ]
     },
     {
@@ -122,14 +106,14 @@
       "translation": "If you have questions, you can ask as many times as you like.",
       "blank_target": "てもいいです",
       "wrong_choices": [
-        "てはいけませんか",
-        "なくてもいいですか",
-        "てもかまいませんか"
+        "てはいけます",
+        "なければならないです",
+        "ないでください"
       ],
       "wrong_choice_explanations": [
-        "This asks for permission not to do something, but the sentence grants permission to do it",
-        "This asks whether not doing something is acceptable, reversing the meaning",
-        "This is a question form, but the sentence is a statement granting permission"
+        "てはいけます expresses non-permission; the sentence grants permission to ask multiple times.",
+        "なければならないです expresses obligation; the sentence permits asking, not requires it.",
+        "ないでください is a polite request not to do something; the sentence grants permission to ask."
       ]
     },
     {
@@ -138,14 +122,14 @@
       "translation": "Is it okay if I bring my friend to the party?",
       "blank_target": "てもいいですか",
       "wrong_choices": [
-        "てはいけませんか",
-        "なくてもいいですか",
-        "てもかまいませんか"
+        "てはいけますか",
+        "なくてはいけないですか",
+        "なければならないですか"
       ],
       "wrong_choice_explanations": [
-        "This asks if something is prohibited, but we need to ask if something is permitted.",
-        "This asks if not doing something is okay, but the sentence asks permission to do something.",
-        "While similar, かまいません is less common; てもいい is the standard form here."
+        "てはいけますか asks about non-permission; the sentence seeks permission to bring a friend.",
+        "なくてはいけないですか creates a double negative; the sentence seeks permission, not obligation.",
+        "なければならないですか asks 'must I?'; the sentence seeks permission, not requirement."
       ]
     },
     {
@@ -154,14 +138,30 @@
       "translation": "It is okay to have different opinions.",
       "blank_target": "てもいいです",
       "wrong_choices": [
-        "てはいけませんか",
-        "なくてもいいですか",
-        "てもかまいませんか"
+        "てはいけます",
+        "なければならないです",
+        "ずにいい"
       ],
       "wrong_choice_explanations": [
-        "This means 'is it not okay to,' reversing the acceptability; the sentence permits differences, requiring the positive てもいい.",
-        "This suggests 'is it okay not to,' questioning permission; the sentence states acceptance of differing opinions positively.",
-        "This asks for permission politely, but the sentence makes a straightforward positive statement of permission."
+        "てはいけます expresses non-permission; the sentence permits differences in opinion.",
+        "なければならないです expresses obligation; the sentence states acceptance of differing opinions, not a requirement.",
+        "ずにいい means 'it's okay without doing'; the sentence permits having differences."
+      ]
+    },
+    {
+      "id": "n3_040_10",
+      "example_sentence": "複数の視点から検証してもいいです。",
+      "translation": "It is okay to verify from multiple perspectives.",
+      "blank_target": "てもいいです",
+      "wrong_choices": [
+        "てはいけます",
+        "なればならないです",
+        "ないでください"
+      ],
+      "wrong_choice_explanations": [
+        "てはいけます expresses non-permission; the sentence states permission to verify from multiple perspectives.",
+        "なればならないです expresses obligation; the sentence permits verification, doesn't require it.",
+        "ないでください is a polite request not to do something; the sentence grants permission to verify."
       ]
     }
   ]

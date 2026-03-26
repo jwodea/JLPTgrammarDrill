@@ -21,33 +21,17 @@
       ]
     },
     {
-      "id": "n3_013_10",
-      "example_sentence": "顧客満足度を向上させるために、改革を行っています。",
-      "translation": "In order to improve customer satisfaction, we are implementing reforms.",
-      "blank_target": "ために",
-      "wrong_choices": [
-        "ように",
-        "ので",
-        "ことに"
-      ],
-      "wrong_choice_explanations": [
-        "ように implies manner or goal achievement, but ために directly states the purpose or reason more clearly.",
-        "ので means 'because/since', expressing cause, not the intentional purpose that ために conveys.",
-        "ことに doesn't fit; it often means 'the fact that' or is used in setups, not for expressing purpose."
-      ]
-    },
-    {
       "id": "n3_013_2",
       "example_sentence": "スキルアップするために、毎晩オンライン講座を受講しています。",
       "translation": "I am taking online courses every night in order to improve my skills.",
       "blank_target": "ために",
       "wrong_choices": [
-        "ように",
+        "として",
         "ので",
         "から"
       ],
       "wrong_choice_explanations": [
-        "ように means 'so that' or 'as', expressing purpose but with nuance of manner or result, while ために is the more direct expression of purpose here.",
+        "として means 'as' or 'in the capacity of', describing a role or function, not a purpose or goal.",
         "ので means 'because' expressing reason or cause, but this sentence indicates purpose and intention, not a causal relationship.",
         "から means 'because' or 'from', expressing reason or starting point, but the sentence indicates a deliberate purpose, not a reason."
       ]
@@ -58,12 +42,12 @@
       "translation": "I decided not to bring a smartphone in order to fully enjoy the trip.",
       "blank_target": "ために",
       "wrong_choices": [
-        "ように",
+        "によって",
         "ので",
         "から"
       ],
       "wrong_choice_explanations": [
-        "ように means 'so that or in order that,' expressing purpose similarly to ために, but it is used for actions that result from efforts, whereas ために is more direct.",
+        "によって means 'by' or 'by means of', indicating an agent or method, but the sentence indicates purpose, not the means of achieving something.",
         "ので means 'because,' expressing a reason, but the sentence indicates the purpose of not bringing a smartphone, not the reason for the trip.",
         "から means 'because,' expressing reason or cause, but the sentence uses ために to indicate the purpose of an action."
       ]
@@ -74,12 +58,12 @@
       "translation": "Proper meal management is important in order to live healthily.",
       "blank_target": "ために",
       "wrong_choices": [
-        "ように",
+        "おかげで",
         "ので",
         "から"
       ],
       "wrong_choice_explanations": [
-        "ように means 'in order that' focusing on how to achieve a goal, but this sentence uses 'ために' for expressing purpose or objective clearly.",
+        "おかげで means 'thanks to' or 'due to', expressing gratitude or credit for a positive result, not the purpose or reason for an action.",
         "ので expresses cause or reason 'because', but this sentence expresses purpose 'in order to' not a causal relationship.",
         "から means 'because' expressing cause and reason, but this sentence requires the purpose-expressing form 'ために'."
       ]
@@ -90,30 +74,30 @@
       "translation": "I am studying history in order to understand Japanese culture.",
       "blank_target": "ために",
       "wrong_choices": [
-        "ように",
+        "せいで",
         "ので",
         "から"
       ],
       "wrong_choice_explanations": [
-        "ように can mean 'in order that' but also 'as/like,' and is less directly purposeful than ために.",
+        "せいで means 'because of' or 'due to', typically expressing negative consequences, not the intentional purpose of an action.",
         "ので indicates a causal relationship or reason, not the intended purpose or goal of an action.",
         "から means 'because' showing cause, but ために shows purpose or the goal toward which an action aims."
       ]
     },
     {
       "id": "n3_013_6",
-      "example_sentence": "健康を維持するために、毎日運動しています。",
-      "translation": "I exercise every day in order to maintain my health.",
+      "example_sentence": "貯金を増やすために、毎月給料の20%を節約しています。",
+      "translation": "I save 20% of my salary every month in order to increase my savings.",
       "blank_target": "ために",
       "wrong_choices": [
-        "ように",
+        "ことで",
         "ので",
-        "ことに"
+        "ように"
       ],
       "wrong_choice_explanations": [
-        "'ように' expresses manner or goal; '〜ために' is more direct about purpose.",
-        "'ので' expresses reason/cause, not purpose or intention.",
-        "'ことに' means 'it is fortunate/unfortunate'; it doesn't express purpose."
+        "ことで means 'by doing' or 'through the act of', focusing on the action itself as a means, not the clear purpose that ために expresses.",
+        "ので expresses reason or cause, not the intentional purpose of setting aside money.",
+        "ように expresses manner or goal achievement, but ために is more direct about the purpose of saving."
       ]
     },
     {
@@ -134,17 +118,17 @@
     },
     {
       "id": "n3_013_8",
-      "example_sentence": "スキル向上のために、講座に参加しています。",
-      "translation": "I am attending a course in order to improve my skills.",
+      "example_sentence": "友達を作るために、大学のサークルに参加しています。",
+      "translation": "I am participating in a university club in order to make friends.",
       "blank_target": "ために",
       "wrong_choices": [
-        "ように",
+        "として",
         "ので",
         "ことに"
       ],
       "wrong_choice_explanations": [
-        "ように can mean 'so that' (same as ために), but it emphasizes the target state or manner more than purpose.",
-        "ので indicates the reason or cause for an action, but the sentence expresses the purpose or goal of attending.",
+        "として means 'as' or 'in the capacity of', describing a role or position, not the purpose of joining a club.",
+        "ので indicates the reason or cause for an action, but the sentence expresses the purpose or goal of participation.",
         "ことに means 'to one's surprise' or 'fortunately', but the sentence describes the purpose of an action."
       ]
     },
@@ -162,6 +146,22 @@
         "ように can mean purpose, but here it would suggest manner or result, not the clear cause-and-effect purpose that ために conveys.",
         "ので indicates reason or cause, but the sentence emphasizes the purpose or goal toward which innovation is directed.",
         "ことに means 'the fact that' or an unforeseen realization, not the purposeful intention that ために expresses."
+      ]
+    },
+    {
+      "id": "n3_013_10",
+      "example_sentence": "顧客満足度を向上させるために、改革を行っています。",
+      "translation": "In order to improve customer satisfaction, we are implementing reforms.",
+      "blank_target": "ために",
+      "wrong_choices": [
+        "によって",
+        "ので",
+        "ことに"
+      ],
+      "wrong_choice_explanations": [
+        "によって means 'by' or 'by means of', indicating the agent or method of change, but the sentence expresses purpose rather than the means of achieving an outcome.",
+        "ので means 'because/since', expressing cause, not the intentional purpose that ために conveys.",
+        "ことに doesn't fit; it often means 'the fact that' or is used in setups, not for expressing purpose."
       ]
     }
   ]

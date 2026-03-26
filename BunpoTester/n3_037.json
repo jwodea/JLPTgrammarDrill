@@ -11,29 +11,13 @@
       "blank_target": "かどうか",
       "wrong_choices": [
         "かな",
-        "のかどうか",
-        "かも"
+        "かも",
+        "か"
       ],
       "wrong_choice_explanations": [
-        "かな is a casual self-questioning particle ('I wonder'), but the sentence needs a formal embedded question for 'whether or not' before 決めていません.",
-        "のかどうか adds an explanatory の, which is grammatically possible but unnatural here—行くかどうか is the standard, cleaner form with 決める.",
-        "かも is short for かもしれない ('maybe'), expressing possibility, not an embedded question about whether to do something or not."
-      ]
-    },
-    {
-      "id": "n3_037_10",
-      "example_sentence": "その方針が持続可能かどうか、検討が必要です。",
-      "translation": "We need to examine whether that policy is sustainable or not.",
-      "blank_target": "かどうか",
-      "wrong_choices": [
-        "かな",
-        "のかどうか",
-        "かも"
-      ],
-      "wrong_choice_explanations": [
-        "かな is a question marker expressing uncertainty, not the 'whether or not' meaning.",
-        "This adds unnecessary の; かどうか alone is sufficient and correct.",
-        "かも means 'might', expressing possibility, not inquiry about alternatives."
+        "かな is a casual self-questioning particle ('I wonder'), but the sentence needs a formal embedded question meaning 'whether or not' before 決めていません.",
+        "かも is short for かもしれない ('maybe'), expressing possibility, not an embedded question about alternatives.",
+        "か is a simple question particle, but かどうか is required to express 'whether...or not' as a complete embedded question."
       ]
     },
     {
@@ -43,13 +27,13 @@
       "blank_target": "かどうか",
       "wrong_choices": [
         "かな",
-        "のかどうか",
-        "かも"
+        "かないか",
+        "かしら"
       ],
       "wrong_choice_explanations": [
-        "かな means 'I wonder', expressing personal wondering, but the sentence is about considering whether to accept an offer, not casual wondering.",
-        "のかどうか adds an explanatory の, which can be used but is less direct than かどうか for the 'whether or not' structure.",
-        "かも means 'might', expressing possibility, but the sentence is about considering two options (accept or not), not expressing possibility."
+        "かな means 'I wonder,' expressing personal casual wondering, but the sentence is about contemplating a serious decision, not casual wondering.",
+        "かないか is a double negative ('whether to do or not to do') that's redundant with かどうか's two-sided meaning.",
+        "かしら is a feminine variant of かな; while expressing uncertainty, it's too casual for a formal embedded question structure."
       ]
     },
     {
@@ -58,14 +42,14 @@
       "translation": "I am consulting with a friend about whether or not to participate in this trip.",
       "blank_target": "かどうか",
       "wrong_choices": [
-        "かな",
-        "のかどうか",
+        "か",
+        "かね",
         "かも"
       ],
       "wrong_choice_explanations": [
-        "かな is a questioning particle expressing uncertainty, but かどうか is used to present reported or contemplated doubt.",
-        "のかどうか is awkward; the simple かどうか is sufficient.",
-        "かも means 'might,' expressing possibility, but かどうか presents a direct either-or choice."
+        "か is a simple question particle and doesn't express the 'whether...or not' two-sided comparison that かどうか does.",
+        "かね is a questioning particle; while expressing uncertainty, it's less formal than かどうか for embedded questions.",
+        "かも means 'might,' expressing possibility, but かどうか presents a direct either-or choice between two options."
       ]
     },
     {
@@ -74,30 +58,30 @@
       "translation": "I am undecided about whether to date or not.",
       "blank_target": "かどうか",
       "wrong_choices": [
+        "のか",
         "かな",
-        "のかどうか",
-        "かも"
+        "かないか"
       ],
       "wrong_choice_explanations": [
-        "かな expresses a wondering question, but this sentence requires 'かどうか' for expressing undecidedness between options.",
-        "This adds an extra のか making the structure awkward; the sentence uses 'かどうか' directly.",
-        "かも means 'might/possibly', but this sentence requires 'かどうか' for expressing uncertainty about choosing between options."
+        "のか is an explanatory question particle; it asks 'what is the reason that...' rather than 'whether...or not.'",
+        "かな expresses a wondering question, but the sentence requires かどうか to formally express undecidedness between two specific options.",
+        "かないか is a double form ('do or not do') that's redundant with the meaning of かどうか."
       ]
     },
     {
       "id": "n3_037_5",
-      "example_sentence": "買うかどうか、迷っています。",
-      "translation": "I am undecided about whether to buy or not.",
+      "example_sentence": "参加するかどうか、迷っています。",
+      "translation": "I am undecided about whether to participate or not.",
       "blank_target": "かどうか",
       "wrong_choices": [
         "かな",
-        "のかどうか",
-        "かも"
+        "かしら",
+        "かね"
       ],
       "wrong_choice_explanations": [
-        "かな is a particle expressing uncertainty, not the formal 'whether or not' structure.",
-        "のかどうか adds の which is not needed here; かどうか alone is correct.",
-        "かも means 'maybe' or 'possibly,' not the 'whether or not' structure."
+        "かな is a particle expressing casual uncertainty and wondering, not the formal 'whether or not' structure needed in embedded questions.",
+        "かしら is a feminine casual variant; it doesn't provide the 'whether...or not' two-sided comparison that かどうか does.",
+        "かね is a questioning particle but doesn't express the formal two-sided 'whether or not' structure."
       ]
     },
     {
@@ -106,14 +90,14 @@
       "translation": "I do not know whether we will succeed or not.",
       "blank_target": "かどうか",
       "wrong_choices": [
-        "かな",
-        "のかどうか",
-        "かも"
+        "か",
+        "かも",
+        "のか"
       ],
       "wrong_choice_explanations": [
-        "'かな' expresses uncertainty; '〜かどうか' is needed for 'whether...or not'.",
-        "Redundant; '〜かどうか' already includes this meaning.",
-        "'かも' expresses possibility; '〜かどうか' is for marking two alternatives."
+        "か is a simple question particle and doesn't express the 'whether...or not' binary choice embedded in the sentence structure.",
+        "かも means 'maybe', but かどうか is the proper form for asking about certainty.",
+        "のか adds an explanatory element asking 'what is the reason,' but the sentence simply asks whether success will occur or not."
       ]
     },
     {
@@ -123,13 +107,13 @@
       "blank_target": "かどうか",
       "wrong_choices": [
         "かな",
-        "のかどうか",
-        "かも"
+        "かね",
+        "かないか"
       ],
       "wrong_choice_explanations": [
-        "〜かな indicates the speaker's uncertainty, but not the structure for checking something",
-        "This is overly complex for the straightforward whether/not structure needed",
-        "〜かも expresses possibility, but not the complete 'whether or not' interrogative structure"
+        "かな indicates the speaker's casual uncertainty and wondering, not the structure for verifying something systematically.",
+        "かね is a questioning particle but doesn't provide the 'whether or not' two-sided structure needed to ask about usability.",
+        "かないか is a double form that's redundant; the sentence requires the simple かどうか structure."
       ]
     },
     {
@@ -138,14 +122,14 @@
       "translation": "We need to investigate whether that policy is effective or not.",
       "blank_target": "かどうか",
       "wrong_choices": [
-        "かな",
-        "のかどうか",
-        "かも"
+        "かしら",
+        "かも",
+        "か"
       ],
       "wrong_choice_explanations": [
-        "かな is a sentence-final particle expressing uncertainty, but かどうか is the proper form for indirect questions.",
-        "This adds の unnecessarily; かどうか alone is the standard form.",
-        "かも means 'maybe', but かどうか is the proper form for asking about certainty."
+        "かしら is a feminine casual wondering particle, not the formal 'whether or not' structure for an embedded question.",
+        "かも means 'maybe,' expressing possibility, but かどうか is the proper form for indirect questions asking about certainty.",
+        "か is a simple question particle that doesn't express the complete 'whether...or not' two-sided evaluation needed for investigation."
       ]
     },
     {
@@ -155,13 +139,29 @@
       "blank_target": "かどうか",
       "wrong_choices": [
         "かな",
-        "のかどうか",
-        "かも"
+        "かも",
+        "かね"
       ],
       "wrong_choice_explanations": [
-        "かな is a casual question particle meaning 'I wonder,' but the sentence requires the formal 'whether or not' in a professional context.",
-        "のかどうか adds の unnecessarily; かどうか alone is the correct pattern for expressing uncertainty about an outcome.",
-        "かも means 'might,' expressing possibility, but the sentence requires the yes-or-no uncertainty that かどうか conveys."
+        "かな is a casual wondering particle ('I wonder'), but the sentence requires the formal 'whether or not' in a professional context.",
+        "かも means 'might,' expressing possibility, but the sentence requires the yes-or-no uncertainty about effectiveness that かどうか conveys.",
+        "かね is a questioning particle; while expressing uncertainty, it doesn't express the formal structure needed in professional evaluation."
+      ]
+    },
+    {
+      "id": "n3_037_10",
+      "example_sentence": "その方針が持続可能かどうか、検討が必要です。",
+      "translation": "We need to examine whether that policy is sustainable or not.",
+      "blank_target": "かどうか",
+      "wrong_choices": [
+        "かないか",
+        "かしら",
+        "のか"
+      ],
+      "wrong_choice_explanations": [
+        "かないか is a double form ('do or not do') that's redundant with かどうか's two-sided meaning.",
+        "かしら is a feminine casual wondering particle, not the formal embedded question structure for professional evaluation.",
+        "のか seeks explanation ('what is the reason'), but the sentence simply asks whether sustainability exists or not."
       ]
     }
   ]

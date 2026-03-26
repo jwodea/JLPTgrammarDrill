@@ -16,24 +16,8 @@
       ],
       "wrong_choice_explanations": [
         "たところで means 'even if one does,' expressing futility, not recency—the sentence is about having just arrived, not a hypothetical.",
-        "てしまって means 'ended up doing (regrettably),' but arriving in Guam isn't an accident or mistake—the jet lag is the problem, not the arrival.",
-        "たとたんに means 'the moment/as soon as,' linking two immediate events, but the sentence simply states recent arrival and its current effect."
-      ]
-    },
-    {
-      "id": "n3_044_10",
-      "example_sentence": "合併したばかりで、統合作業が進行中です。",
-      "translation": "We just merged and integration is ongoing.",
-      "blank_target": "たばかりで",
-      "wrong_choices": [
-        "たところで",
-        "てしまって",
-        "たとたんに"
-      ],
-      "wrong_choice_explanations": [
-        "たところで suggests 'even just now', different from the 'recently completed' of ばかり.",
-        "てしまって expresses regretful completion, not the recent positive completion of ばかり.",
-        "たとたんに means 'the moment', expressing immediate consequence, not recent completion."
+        "ってしまって means 'ended up doing (regrettably),' but arriving in Guam isn't an accident or mistake—the jet lag is the problem, not the arrival.",
+        "ったとたんに means 'the moment/as soon as,' linking two immediate events, but the sentence simply states recent arrival and its current effect."
       ]
     },
     {
@@ -42,30 +26,30 @@
       "translation": "I just started at this company and do not understand the system yet.",
       "blank_target": "たばかりで",
       "wrong_choices": [
-        "たところで",
-        "てしまって",
-        "たとたんに"
+        "たあとで",
+        "たばかりか",
+        "たとたん"
       ],
       "wrong_choice_explanations": [
-        "たところで means 'just finished', but ばかり emphasizes a very recent completion, fitting better for 'just started at this company'.",
-        "てしまって means 'ended up doing' with regret, but the sentence indicates a recent beginning, not a regrettable completion.",
-        "たとたんに means 'the moment' or 'as soon as', but the sentence is about the timing of employment, not a sudden transition."
+        "たあとで means 'after doing', which focuses on temporal sequence after an action but doesn't emphasize the recent recency like ばかり.",
+        "たばかりか means 'not only did, but also', expressing a compounding addition, not a simple statement of recent action.",
+        "たとたん means 'the moment/as soon as', emphasizing simultaneity of two events, not the recent completion of a single action."
       ]
     },
     {
       "id": "n3_044_3",
-      "example_sentence": "日本に着いたばかりで、時差に困っています。",
-      "translation": "I just arrived in Japan and am struggling with jet lag.",
+      "example_sentence": "ニューヨークで新しい仕事を始めたばかりで、英語の文書作成に困っています。",
+      "translation": "I just started a new job in New York and am struggling with English document creation.",
       "blank_target": "たばかりで",
       "wrong_choices": [
         "たところで",
         "てしまって",
-        "たとたんに"
+        "たあとに"
       ],
       "wrong_choice_explanations": [
-        "たところで means 'after trying,' but the sentence emphasizes the recency of arrival with ばかり.",
-        "てしまって means 'ended up doing,' but the sentence describes a recent completed action.",
-        "たとたんに means 'the moment that,' but the sentence emphasizes that something happened recently."
+        "たところで means 'even just now', but emphasizes a specific moment or hypothetical, not the simple recency of ばかり.",
+        "てしまって means 'ended up doing,' which can carry a tone of regret or surprise, but starting a job is intentional.",
+        "たあとに means 'after doing', which marks temporal progression but not the emphasis on 'just recently' that ばかり provides."
       ]
     },
     {
@@ -74,14 +58,14 @@
       "translation": "I just got married and am enjoying my newlywed life.",
       "blank_target": "たばかりで",
       "wrong_choices": [
-        "たところで",
+        "たばかりか",
         "てしまって",
         "たとたんに"
       ],
       "wrong_choice_explanations": [
-        "ところで means 'just after', but this sentence requires 'たばかり' for the meaning 'just recently'.",
-        "てしまって expresses regretful completion, but this sentence uses 'たばかり' for recent completion.",
-        "とたんに means 'the moment when', but this sentence requires 'たばかり' for recent completion."
+        "たばかりか means 'not only did, but also', which adds emphasis or a contrasting element, not what the sentence requires.",
+        "てしまって expresses regretful completion, but getting married is intentional and positive.",
+        "たとたんに means 'the moment when', but the sentence describes a state following recent marriage, not two simultaneous events."
       ]
     },
     {
@@ -90,14 +74,14 @@
       "translation": "The new product just came out and immediately became popular.",
       "blank_target": "たばかりで",
       "wrong_choices": [
-        "たところで",
-        "てしまって",
-        "たとたんに"
+        "てから",
+        "したばかりか",
+        "た途端"
       ],
       "wrong_choice_explanations": [
-        "たところで means 'having just done,' but ばかり better emphasizes the immediate recentness.",
-        "てしまって means 'did completely,' but the sentence focuses on the new product being just released.",
-        "たとたんに means 'the moment,' but ばかり is better for expressing the immediate time of release."
+        "てから means 'after doing', which indicates temporal sequence but doesn't capture the immediacy and recency of ばかり.",
+        "したばかりか means 'not only just did, but', which introduces a contrasting second element, not the simple statement needed.",
+        "た途端 means 'the very moment that', which expresses immediacy and consequence, different from emphasizing recency with ばかり."
       ]
     },
     {
@@ -106,14 +90,14 @@
       "translation": "I just changed jobs and am not used to the new workplace.",
       "blank_target": "たばかりで",
       "wrong_choices": [
-        "たところで",
-        "てしまって",
-        "たとたんに"
+        "てしまったので",
+        "ようやく",
+        "たから"
       ],
       "wrong_choice_explanations": [
-        "'たところで' means 'just when'; '〜たばかり' is needed for 'just did'.",
-        "'てしまって' means 'ended up'; it doesn't convey the recent action meaning.",
-        "'たとたんに' means 'the moment'; '〜たばかり' better fits recent completion."
+        "てしまったので means 'because I ended up doing', which carries an unintended or regrettable tone inappropriate for a job change.",
+        "ようやく means 'finally/at last', emphasizing difficulty in achieving something, not just recent action.",
+        "たから means 'because I did', which explains causality but not the emphasis on recency that ばかり provides."
       ]
     },
     {
@@ -122,14 +106,14 @@
       "translation": "We just established the company and there is much to do.",
       "blank_target": "たばかりで",
       "wrong_choices": [
-        "たところで",
-        "てしまって",
-        "たとたんに"
+        "たので",
+        "ようとしていた",
+        "たばかりか"
       ],
       "wrong_choice_explanations": [
-        "〜たところ + で means 'just finished and then', but the sentence means 'just completed'",
-        "〜てしまって indicates regret or completion, but doesn't emphasize the 'just happened' timing",
-        "〜たとたん means 'the moment', focusing on simultaneity rather than recent completion"
+        "たので means 'because I did', which expresses causality but not the emphasis on 'just happened' timing like ばかり.",
+        "ようとしていた means 'was about to do', which refers to an intention before an action, not a recent completion.",
+        "たばかりか means 'not only just did, but also', which introduces a contrast, not the straightforward recency required."
       ]
     },
     {
@@ -138,14 +122,14 @@
       "translation": "I just graduated from college and have no work experience.",
       "blank_target": "たばかりで",
       "wrong_choices": [
-        "たところで",
-        "てしまって",
-        "たとたんに"
+        "たばかりか",
+        "ようになった",
+        "たあとから"
       ],
       "wrong_choice_explanations": [
-        "たところで can mean 'even if just did', but the sentence emphasizes 'just graduated'.",
-        "てしまって means 'ended up doing' with regret, but the sentence simply states recent completion.",
-        "たとたんに means 'the moment', but the sentence describes being in a recent state."
+        "たばかりか means 'not only just did, but also', which compounds the statement rather than simply stating recency.",
+        "ようになった means 'came to (a new state)', which indicates a change or transition, not recent completion.",
+        "たあとから means 'from after doing', which marks a period starting after an action, not emphasizing the immediacy of recency."
       ]
     },
     {
@@ -154,14 +138,30 @@
       "translation": "We just expanded operations and have many challenges.",
       "blank_target": "たばかりで",
       "wrong_choices": [
-        "たところで",
-        "てしまって",
-        "たとたんに"
+        "てしまったので",
+        "するやいなや",
+        "たから"
       ],
       "wrong_choice_explanations": [
-        "たところで means 'after doing,' but the sentence emphasizes the immediacy of 'just expanded,' which ばかり conveys.",
-        "てしまって suggests regrettable completion, but the sentence describes recent accomplishment with current consequences.",
-        "たとたんに means 'the very moment,' but the sentence describes a state following recent expansion, not instantaneous timing."
+        "てしまったので means 'because I ended up doing', which suggests regret or unexpectedness, inappropriate for a business expansion.",
+        "するやいなや means 'immediately upon doing', which expresses the moment something follows an action, distinct from emphasizing recency.",
+        "たから means 'because I did', which expresses cause but not the immediacy of recent action that ばかり conveys."
+      ]
+    },
+    {
+      "id": "n3_044_10",
+      "example_sentence": "合併したばかりで、統合作業が進行中です。",
+      "translation": "We just merged and integration is ongoing.",
+      "blank_target": "たばかりで",
+      "wrong_choices": [
+        "た途端",
+        "たばかりか",
+        "たあとで"
+      ],
+      "wrong_choice_explanations": [
+        "た途端 means 'the very moment', which expresses the instant something happens following an action, not the emphasis on recent completion.",
+        "たばかりか means 'not only just did, but', which introduces a compounding second statement rather than simple recency.",
+        "たあとで means 'after doing', which marks temporal progression but doesn't emphasize the immediacy and recency that ばかり provides."
       ]
     }
   ]

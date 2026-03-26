@@ -2,12 +2,34 @@ import SwiftUI
 import SwiftData
 
 struct SettingsView: View {
+    static let enabledLevelsKey = "enabledJLPTLevels"
+    static let defaultEnabledLevels = "N5,N4,N3,N2,N1"
+    private static let allLevels = ["N5", "N4", "N3", "N2", "N1"]
+
     @AppStorage(FontSizeManager.scaleKey) private var fontScale = FontSizeManager.defaultScale
     @AppStorage(SessionBuilder.newPerSessionKey) private var newPerSession = SessionBuilder.defaultNewPerSession
+    @AppStorage(SettingsView.enabledLevelsKey) private var enabledLevelsString = SettingsView.defaultEnabledLevels
     @Environment(\.dismiss) private var dismiss
     @Environment(\.modelContext) private var modelContext
 
     @State private var showResetConfirmation = false
+
+    private var enabledLevelsSet: Set<String> {
+        Set(enabledLevelsString.split(separator: ",").map(String.init))
+    }
+
+    private func toggleLevel(_ level: String) {
+        var current = enabledLevelsSet
+        if current.contains(level) {
+            // Don't allow disabling all levels
+            if current.count > 1 {
+                current.remove(level)
+            }
+        } else {
+            current.insert(level)
+        }
+        enabledLevelsString = Self.allLevels.filter { current.contains($0) }.joined(separator: ",")
+    }
 
     /// Snaps fontScale to the nearest step to avoid floating-point drift.
     private func snapScale() {
@@ -35,6 +57,19 @@ struct SettingsView: View {
                     }
                 } header: {
                     Text("Study")
+                }
+
+                Section {
+                    ForEach(Self.allLevels, id: \.self) { level in
+                        Toggle(level, isOn: Binding(
+                            get: { enabledLevelsSet.contains(level) },
+                            set: { _ in toggleLevel(level) }
+                        ))
+                    }
+                } header: {
+                    Text("JLPT Levels")
+                } footer: {
+                    Text("Choose which JLPT levels to include in study sessions.")
                 }
 
                 Section {

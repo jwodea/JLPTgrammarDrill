@@ -21,35 +21,19 @@
       ]
     },
     {
-      "id": "n3_041_10",
-      "example_sentence": "急いで決定しなくてもいいです。",
-      "translation": "You do not have to rush to make a decision.",
-      "blank_target": "なくてもいいです",
-      "wrong_choices": [
-        "てもいいです",
-        "なければなりません",
-        "なくてはなりません"
-      ],
-      "wrong_choice_explanations": [
-        "This means 'it is okay to', asserting permission to act, not permission to not act.",
-        "This means 'must do', opposite of 'do not have to'.",
-        "This means 'must not fail to do', the opposite meaning of 'do not have to'."
-      ]
-    },
-    {
       "id": "n3_041_2",
       "example_sentence": "今日の報告書を提出しなくてもいいですよ。",
       "translation": "You do not have to submit today's report.",
       "blank_target": "しなくてもいいですよ",
       "wrong_choices": [
         "してもいいですよ",
-        "しなければなりません",
-        "しなくてはなりません"
+        "しないでください",
+        "しなくてはいけません"
       ],
       "wrong_choice_explanations": [
         "してもいいですよ means 'it's okay to do', but the sentence indicates you don't need to submit the report (negative optionality).",
-        "しなければなりません means 'must do', but the sentence indicates the opposite: you don't have to do something.",
-        "しなくてはなりません means 'must do/have to do', but the sentence indicates freedom from obligation, not obligation itself."
+        "ないでください means 'please don't do', expressing a direct prohibition, but the sentence grants freedom from obligation, not an order.",
+        "しなくてはいけません means 'must not do', an emphatic obligation, but the sentence indicates freedom from obligation."
       ]
     },
     {
@@ -58,14 +42,14 @@
       "translation": "Today is not bad to rest, so you do not have to go out.",
       "blank_target": "なくてもいいですよ",
       "wrong_choices": [
-        "てもいいですよ",
-        "なければなりません",
-        "なくてはなりません"
+        "ないほうがいいですよ",
+        "なければならないです",
+        "てはいけませんよ"
       ],
       "wrong_choice_explanations": [
-        "てもいいですよ means 'it is okay to do,' which is the opposite of what is stated.",
-        "なければなりません means 'must do,' which contradicts the statement that it is okay not to do.",
-        "なくてはなりません means 'must not do,' which contradicts the permission."
+        "ないほうがいいですよ means 'it would be better if you didn't', which implies a recommendation against something, whereas なくてもいい simply says there's no obligation.",
+        "なければならないです means 'you must do', expressing strong obligation, which contradicts the permissive tone.",
+        "てはいけませんよ means 'you must not', a prohibition, but the sentence is granting freedom, not restricting."
       ]
     },
     {
@@ -75,13 +59,13 @@
       "blank_target": "なくてもいい",
       "wrong_choices": [
         "てもいい",
-        "なければなりません",
-        "なくてはなりません"
+        "ないといけない",
+        "てはいけない"
       ],
       "wrong_choice_explanations": [
         "This means 'okay to do', but this sentence requires 'なくてもいい' meaning 'okay not to do'.",
         "This means 'must do', expressing obligation, but this sentence expresses optional non-action.",
-        "This means 'must not fail to do' or 'must do', but this sentence uses 'なくてもいい' for optional action."
+        "This means 'you must not do', a prohibition, but the sentence grants freedom from obligation."
       ]
     },
     {
@@ -90,14 +74,14 @@
       "translation": "You do not have to come to the store tomorrow.",
       "blank_target": "なくてもいいです",
       "wrong_choices": [
-        "てもいいです",
+        "てかまわないです",
         "なければなりません",
-        "なくてはなりません"
+        "ないといけません"
       ],
       "wrong_choice_explanations": [
-        "てもいいです means 'it is okay to do it,' opposite the meaning of 'don't have to.'",
+        "てかまわないです means 'it doesn't matter if you do', which can mean optional action but differs from the softer なくてもいい.",
         "なければなりません means 'must do,' opposite the optionality expressed in the sentence.",
-        "なくてはなりません means 'must not do' or 'must avoid,' contradicting the optional meaning."
+        "ないといけません means 'must do', an emphatic obligation, contradicting the optional meaning."
       ]
     },
     {
@@ -106,14 +90,14 @@
       "translation": "If you do not want to participate, you do not have to come.",
       "blank_target": "なくてもいいです",
       "wrong_choices": [
-        "てもいいです",
-        "なければなりません",
-        "なくてはなりません"
+        "ていいです",
+        "ないことになっています",
+        "てはいけません"
       ],
       "wrong_choice_explanations": [
-        "'てもいいです' is affirmative; '〜なくてもいい' is needed for 'don't have to'.",
-        "'なければなりません' means 'must do'; it expresses obligation, not permission.",
-        "'なくてはなりません' means 'must do'; it's obligatory, not optional."
+        "ていいです is affirmative 'it's okay to'; なくても is needed for 'don't have to'.",
+        "ないことになっています means 'it is decided/arranged that one doesn't', a formal rule, whereas なくてもいい is simply permission.",
+        "てはいけません means 'you must not', a prohibition, not freedom from obligation."
       ]
     },
     {
@@ -122,14 +106,14 @@
       "translation": "You do not have to be perfect, so please try your best.",
       "blank_target": "なくてもいい",
       "wrong_choices": [
-        "てもいいです",
-        "なければなりません",
-        "なくてはなりません"
+        "てしまっていい",
+        "ないことにしましょう",
+        "てはいけません"
       ],
       "wrong_choice_explanations": [
-        "This means 'it is okay to do', but the sentence means 'it is okay not to do'",
-        "This expresses obligation to do, but the sentence expresses that not doing is acceptable",
-        "This expresses necessity to not do, but the sentence indicates optional non-action"
+        "てしまっていい means 'it's okay to end up doing', which is odd in this context where we're discussing not needing perfection.",
+        "ないことにしましょう means 'let's decide/pretend it's not', which is action-oriented and different from simply not requiring perfection.",
+        "てはいけません means 'you must not do', a prohibition, but the sentence conveys freedom from a requirement."
       ]
     },
     {
@@ -138,14 +122,14 @@
       "translation": "You do not have to respond right away.",
       "blank_target": "なくてもいいです",
       "wrong_choices": [
-        "てもいいです",
-        "なければなりません",
-        "なくてはなりません"
+        "ない方がましです",
+        "ないといけません",
+        "てもかまいません"
       ],
       "wrong_choice_explanations": [
-        "This means 'it is okay to do', but the sentence expresses not having to do something.",
-        "This means 'must do', expressing obligation, but the sentence says one doesn't have to.",
-        "This also expresses obligation to do, not the freedom from obligation."
+        "ない方がましです means 'it would be better if you didn't', expressing a preference rather than freedom from obligation.",
+        "ないといけません means 'must do', expressing obligation, but the sentence says one doesn't have to.",
+        "てもかまいません means 'it doesn't matter if you do', allowing an action, whereas なくてもいい allows non-action."
       ]
     },
     {
@@ -154,14 +138,30 @@
       "translation": "You do not have to make everything perfect.",
       "blank_target": "なくてもいい",
       "wrong_choices": [
-        "てもいいです",
-        "なければなりません",
-        "なくてはなりません"
+        "ていいのです",
+        "ないべきです",
+        "ないことになっています"
       ],
       "wrong_choice_explanations": [
-        "てもいいです permits an action, but the sentence specifically releases the obligation not to do something, requiring なくても.",
-        "なければなりません expresses necessity to do something, the opposite of the relaxation expressed in the sentence.",
-        "なくてはなりません means 'must not do,' but the sentence conveys freedom from the obligation to be perfect."
+        "ていいのです permits an action, but the sentence specifically releases the obligation not to do something, requiring なくても.",
+        "ないべきです means 'you should not', expressing a strong recommendation or moral obligation, not simply freedom from obligation.",
+        "ないことになっています means 'it is arranged/decided that one doesn't', a formal rule, not the permissive meaning of なくてもいい."
+      ]
+    },
+    {
+      "id": "n3_041_10",
+      "example_sentence": "急いで決定しなくてもいいです。",
+      "translation": "You do not have to rush to make a decision.",
+      "blank_target": "なくてもいいです",
+      "wrong_choices": [
+        "てもいいだろう",
+        "ないといけなくなります",
+        "てはダメです"
+      ],
+      "wrong_choice_explanations": [
+        "てもいいだろう means 'it would probably be okay to', but the sentence conveys lack of necessity, not permission to do something.",
+        "ないといけなくなります means 'will have to', expressing future obligation, opposite of the no-obligation meaning.",
+        "てはダメです means 'you mustn't do that', a strict prohibition, not freedom from obligation."
       ]
     }
   ]

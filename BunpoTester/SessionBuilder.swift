@@ -12,6 +12,13 @@ struct SessionBuilder {
     static let newPerSessionKey = "newPatternsPerSession"
     static let defaultNewPerSession = 1
 
+    /// Returns the set of JLPT levels the user has enabled in Settings.
+    static var enabledLevels: Set<String> {
+        let raw = UserDefaults.standard.string(forKey: SettingsView.enabledLevelsKey)
+            ?? SettingsView.defaultEnabledLevels
+        return Set(raw.split(separator: ",").map(String.init))
+    }
+
     /// Check whether the user has sufficiently mastered their current items to unlock new ones.
     /// True if there are no seen items yet, or at least 80% of seen items have a scheduled
     /// interval >= 3 days (meaning they've graduated from learning into review territory).
@@ -31,6 +38,9 @@ struct SessionBuilder {
 
     /// Preview what the next session would look like without modifying the database.
     static func previewSession(allPoints: [GrammarPoint], context: ModelContext, includeNew: Bool, newPerSession: Int) -> SessionStats {
+        let levels = enabledLevels
+        let filteredPoints = allPoints.filter { levels.contains($0.level) }
+
         let descriptor = FetchDescriptor<SRSRecord>()
         let existingRecords: [SRSRecord]
         do {
@@ -50,7 +60,7 @@ struct SessionBuilder {
         var dueCount = 0
         var unseenCount = 0
 
-        for point in allPoints {
+        for point in filteredPoints {
             if let record = recordsByGrammarId[point.id] {
                 if record.fsrsDue <= now {
                     dueCount += 1
@@ -75,6 +85,9 @@ struct SessionBuilder {
         includeNew: Bool,
         newPerSession: Int
     ) -> [SessionExercise] {
+        let levels = enabledLevels
+        let filteredPoints = allPoints.filter { levels.contains($0.level) }
+
         let descriptor = FetchDescriptor<SRSRecord>()
         let existingRecords: [SRSRecord]
         do {
@@ -95,7 +108,7 @@ struct SessionBuilder {
         var overdueItems: [(point: GrammarPoint, overdueBy: TimeInterval)] = []
         var newItems: [GrammarPoint] = []
 
-        for point in allPoints {
+        for point in filteredPoints {
             if let record = recordsByGrammarId[point.id] {
                 let overdueBy = now.timeIntervalSince(record.fsrsDue)
                 // Include items that are due or nearly due (within half their interval)

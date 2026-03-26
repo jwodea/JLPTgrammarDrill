@@ -21,35 +21,19 @@
       ]
     },
     {
-      "id": "n3_028_10",
-      "example_sentence": "業務マニュアルの通りに、実行してください。",
-      "translation": "Please execute according to the operational manual.",
-      "blank_target": "の通りに",
-      "wrong_choices": [
-        "のまま",
-        "のように",
-        "どおりに"
-      ],
-      "wrong_choice_explanations": [
-        "のまま means 'as is', but the sentence requires following a specified method or manual.",
-        "のように means 'like', but とおりに conveys strict adherence to a standard.",
-        "This lacks の; the grammatically correct form requires の."
-      ]
-    },
-    {
       "id": "n3_028_2",
-      "example_sentence": "マニュアルの手順に従う通りに、システムをセットアップしてください。",
-      "translation": "Please set up the system exactly as follows in the manual.",
-      "blank_target": "う通りに",
+      "example_sentence": "先輩が教えてくれた通りに、作業を進めました。",
+      "translation": "I proceeded with the work just as my senior taught me.",
+      "blank_target": "た通りに",
       "wrong_choices": [
-        "うままに",
-        "うようにして",
-        "うどおりで"
+        "たままに",
+        "たようにして",
+        "たどおりで"
       ],
       "wrong_choice_explanations": [
-        "うままに means 'as it is/carelessly', but the sentence emphasizes following instructions exactly, which requires とおりに.",
-        "うようにして means 'so that/in order that', but the sentence is about following a procedure exactly, not achieving a goal.",
-        "うどおりで is not grammatically correct; the proper form is とおりに."
+        "〜まま means 'as-is / unchanged,' but the sentence is about following instructions, not maintaining a state.",
+        "〜ようにして means 'so that / trying to,' which is about effort or purpose, not exact adherence to what was taught.",
+        "〜どおりで with で would need a different sentence structure—通りに with に correctly marks 'according to' with the following verb."
       ]
     },
     {
@@ -86,34 +70,34 @@
     },
     {
       "id": "n3_028_5",
-      "example_sentence": "レシピの通りに、料理を作ったら、上手に出来ました。",
-      "translation": "When I made the dish exactly as the recipe said, it turned out well.",
-      "blank_target": "の通りに",
+      "example_sentence": "医者に言われた通りに、薬を飲んでいます。",
+      "translation": "I am taking my medicine just as the doctor told me.",
+      "blank_target": "た通りに",
       "wrong_choices": [
-        "のままに",
-        "のようにして",
-        "どおりで"
+        "たままに",
+        "たようにして",
+        "たどおりで"
       ],
       "wrong_choice_explanations": [
-        "のままに means 'leaving as is,' but the sentence emphasizes following instructions in exactly the prescribed manner.",
-        "のようにして means 'doing like,' but the sentence requires exact adherence to the recipe.",
-        "どおりで is a variant meaning 'no wonder,' not the meaning of following exactly."
+        "〜まま means 'leaving in a state,' but the sentence is about following the doctor's instructions precisely.",
+        "〜ようにして means 'trying to / so that,' expressing effort, but 通りに means following exactly without the nuance of 'trying.'",
+        "〜どおりで with で requires a different clause structure—通りに with に is the correct particle for 'take medicine according to.'"
       ]
     },
     {
       "id": "n3_028_6",
-      "example_sentence": "レシピの通りに、料理を作ってください。",
-      "translation": "Please make the dish according to the recipe.",
+      "example_sentence": "ナビの通りに運転したら、目的地に着きました。",
+      "translation": "When I drove just as the navigation said, I arrived at my destination.",
       "blank_target": "の通りに",
       "wrong_choices": [
         "のまま",
         "のように",
-        "どおりに"
+        "のせいで"
       ],
       "wrong_choice_explanations": [
-        "'のまま' means 'as is'; '〜とおりに' is needed for 'according to'.",
-        "'のように' means 'like'; '〜とおりに' is more specific for 'according to'.",
-        "Kanji vs hiragana; both work but '〜の通りに' is the standard form."
+        "〜まま means 'as-is / unchanged,' describing a maintained state, but the sentence is about following directions precisely.",
+        "〜ように means 'like / as if,' which is vaguer—通りに specifically means 'exactly as,' emphasizing precise adherence to the route.",
+        "〜のせいで means 'because of (negative),' expressing blame, but the sentence positively describes following navigation and arriving successfully."
       ]
     },
     {
@@ -124,12 +108,12 @@
       "wrong_choices": [
         "のまま",
         "のように",
-        "どおりに"
+        "のとおりで"
       ],
       "wrong_choice_explanations": [
         "〜まま means 'as is', but 〜とおりに emphasizes following instructions, not leaving unchanged",
         "〜ように means 'like' or 'so that', but 〜とおりに specifically means 'according to' or 'just as'",
-        "This is an alternate form, but not the standard written form used in the sentence"
+        "〜とおりで with で would need a different clause structure; 通りに with に is the correct particle to mean 'according to' before an action verb."
       ]
     },
     {
@@ -140,12 +124,12 @@
       "wrong_choices": [
         "のまま",
         "のように",
-        "どおりに"
+        "のおかげで"
       ],
       "wrong_choice_explanations": [
         "のまま means 'as is', but the sentence requires 'in accordance with' or 'just as'.",
         "のように means 'like' or 'as if', but the sentence requires exact accordance with the contract.",
-        "When used without の, どおりに is less common; の通りに is the standard form for this meaning."
+        "〜おかげで means 'thanks to,' expressing gratitude for a cause, but 通りに means following something exactly."
       ]
     },
     {
@@ -156,12 +140,28 @@
       "wrong_choices": [
         "のまま",
         "のように",
-        "どおりに"
+        "のために"
       ],
       "wrong_choice_explanations": [
         "のまま means 'as is without change,' but the sentence requires following a specific plan or manner, which is とおりに.",
         "のように means 'in the manner of' or 'like,' but the sentence emphasizes exact accordance with a plan.",
-        "This is essentially the same as とおりに, but の通りに is the grammatically standard form in this formal context."
+        "〜ために means 'for the purpose of / because of,' expressing purpose or cause, but 通りに means following something exactly as prescribed."
+      ]
+    },
+    {
+      "id": "n3_028_10",
+      "example_sentence": "業務マニュアルの通りに、実行してください。",
+      "translation": "Please execute according to the operational manual.",
+      "blank_target": "の通りに",
+      "wrong_choices": [
+        "のまま",
+        "のように",
+        "どおりに"
+      ],
+      "wrong_choice_explanations": [
+        "のまま means 'as is', but the sentence requires following a specified method or manual.",
+        "のように means 'like', but とおりに conveys strict adherence to a standard.",
+        "This lacks の; the grammatically correct form requires の."
       ]
     }
   ]

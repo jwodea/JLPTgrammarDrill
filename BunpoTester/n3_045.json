@@ -7,7 +7,7 @@
     {
       "id": "n3_045_1",
       "example_sentence": "ベッドから起きたとたんに、足を踏み外してしまった。",
-      "translation": "The moment I got out of bed, I mistepped.",
+      "translation": "The moment I got out of bed, I lost my footing.",
       "blank_target": "きたとたんに",
       "wrong_choices": [
         "きたばかり",
@@ -15,25 +15,9 @@
         "きたら"
       ],
       "wrong_choice_explanations": [
-        "たばかり means 'just did,' emphasizing recency, but the sentence needs to express the immediacy of the misStep happening right at the moment of getting up.",
+        "たばかり means 'just did,' emphasizing recency, but the sentence needs to express the immediacy of the accident happening right at the moment of getting up.",
         "てすぐ means 'soon after doing,' which is close but lacks the dramatic instantaneousness that とたん conveys—it happened at that very instant.",
-        "たら means 'when/if,' a general conditional, but it doesn't capture the sudden, unexpected nature of the mishap occurring at that precise moment."
-      ]
-    },
-    {
-      "id": "n3_045_10",
-      "example_sentence": "営業戦略を実行したとたん、市場が反応した。",
-      "translation": "The moment we implemented the sales strategy, the market responded.",
-      "blank_target": "たとたん",
-      "wrong_choices": [
-        "たばかり",
-        "てすぐ",
-        "たら"
-      ],
-      "wrong_choice_explanations": [
-        "ばかり means 'recently', not the immediate cause-effect of たとたん.",
-        "てすぐ means 'right after doing', less emphatic than たとたん.",
-        "たら is conditional, not the simultaneous cause-effect meaning of たとたん."
+        "たら means 'when/if,' a general conditional, but it doesn't capture the sudden, unexpected nature of the accident occurring at that precise moment."
       ]
     },
     {
@@ -42,13 +26,13 @@
       "translation": "The moment my promotion was decided, I was given a responsible task.",
       "blank_target": "まったとたんに",
       "wrong_choices": [
-        "まったばかり",
-        "まってすぐ",
+        "まった途中で",
+        "まってから",
         "まったら"
       ],
       "wrong_choice_explanations": [
-        "まったばかり means 'just did', but とたん emphasizes the exact moment or immediate consequence, fitting the 'the moment' context.",
-        "まってすぐ is colloquial but less formal than とたん for expressing the immediate moment.",
+        "まった途中で means 'in the middle of', which indicates an ongoing process, not the precise moment of something happening.",
+        "まってから means 'after', which marks temporal sequence but lacks the immediacy and simultaneity of とたん.",
         "まったら is conditional, but the sentence expresses what happened at the exact moment the promotion was decided, not a hypothetical condition."
       ]
     },
@@ -58,14 +42,14 @@
       "translation": "The moment the game started, it began to rain.",
       "blank_target": "まったとたんに",
       "wrong_choices": [
-        "まったばかり",
+        "まったとき",
         "まってすぐ",
-        "まったら"
+        "まったあと"
       ],
       "wrong_choice_explanations": [
-        "たばかり means 'just did recently,' emphasizing recency, but the sentence needs to express the instantaneous timing of rain starting the very moment the game began.",
-        "まってすぐ means 'right after,' which is similar but less grammatical than たとたん.",
-        "まったら is a conditional, but the sentence describes what happened at the exact moment of starting."
+        "まったとき means 'at the time when', which is a general temporal reference but lacks the instantaneous simultaneity that とたん conveys.",
+        "まってすぐ means 'right after,' which is similar but indicates a brief delay, whereas とたん emphasizes the exact simultaneous moment.",
+        "まったあと means 'after', which marks a sequence of events but not the immediacy of simultaneity that とたん expresses."
       ]
     },
     {
@@ -75,13 +59,13 @@
       "blank_target": "ったとたんに",
       "wrong_choices": [
         "ったばかり",
-        "ってすぐ",
+        "った時に",
         "ったら"
       ],
       "wrong_choice_explanations": [
-        "ばかり means 'just did', but this sentence requires 'とたんに' for the momentary timing.",
-        "すぐ means 'immediately', but this sentence uses 'とたんに' for the specific meaning 'the moment'.",
-        "ったら is a conditional, but this sentence requires 'とたんに' for expressing the moment something happens."
+        "ばかり means 'just did', which emphasizes recency, but the sentence needs とたん for the specific moment-to-moment connection.",
+        "った時に means 'at the time when', which is more general; とたん emphasizes the dramatic immediacy of the fight starting.",
+        "ったら is a conditional, but the sentence describes what actually happened, not a hypothetical situation."
       ]
     },
     {
@@ -90,14 +74,14 @@
       "translation": "The moment the sale started, customers rushed in.",
       "blank_target": "まったとたんに",
       "wrong_choices": [
-        "まったばかり",
-        "まってすぐ",
-        "まったら"
+        "まった後で",
+        "まってしばらく",
+        "まった時点で"
       ],
       "wrong_choice_explanations": [
-        "まったばかり means 'just finished,' but the sentence emphasizes the precise moment of rush.",
-        "まってすぐ means 'immediately after,' but とたん more specifically conveys 'the instant.'",
-        "まったら is the conditional 'if,' not expressing the immediate rush following the sale start."
+        "まった後で means 'after', which marks temporal progression but not the immediate cause-and-effect of customers rushing in at the exact moment.",
+        "まってしばらく means 'a while after doing', which indicates a delay; とたん emphasizes the instantaneous rush.",
+        "まった時点で means 'at the point when', which is temporal but lacks the sense of instantaneous consequence that とたん conveys."
       ]
     },
     {
@@ -106,14 +90,14 @@
       "translation": "The moment I opened my eyes, light came in.",
       "blank_target": "たとたん",
       "wrong_choices": [
-        "たばかり",
-        "てすぐ",
-        "たら"
+        "たあと",
+        "た途中で",
+        "たなら"
       ],
       "wrong_choice_explanations": [
-        "'たばかり' means 'just did'; '〜たとたん' is needed for 'the moment'.",
-        "'てすぐ' means 'immediately after'; it lacks the nuance of a defined moment.",
-        "'たら' is conditional; it doesn't express the immediate moment meaning."
+        "たあと means 'after doing', which marks a sequence but not the instantaneous simultaneity of light entering at the exact moment eyes opened.",
+        "た途中で means 'in the middle of', which suggests an ongoing process, not the simultaneous moment-to-moment connection.",
+        "たなら means 'if/when', which introduces a hypothetical or conditional element, not the actual simultaneous occurrence."
       ]
     },
     {
@@ -122,14 +106,14 @@
       "translation": "The moment I announced it, questions flew around.",
       "blank_target": "たとたん",
       "wrong_choices": [
-        "たばかり",
-        "てすぐ",
-        "たら"
+        "た直後で",
+        "たばかりで",
+        "たあとで"
       ],
       "wrong_choice_explanations": [
-        "〜たばかり means 'just did', but 〜たとたん emphasizes the immediate moment and simultaneity",
-        "〜てすぐ means 'immediately after', but doesn't capture the sense of 'at the exact moment'",
-        "〜たら is conditional, but 〜たとたん emphasizes the precise moment of an event"
+        "た直後で means 'immediately after', which suggests a brief moment of delay, whereas とたん emphasizes the exact simultaneous moment.",
+        "たばかりで means 'just did', which emphasizes recency but not the cause-effect immediacy of とたん.",
+        "たあとで means 'after', which marks temporal progression; とたん emphasizes the instantaneous eruption of questions."
       ]
     },
     {
@@ -138,14 +122,14 @@
       "translation": "The moment the seminar started, I heard a fire truck siren.",
       "blank_target": "たとたん",
       "wrong_choices": [
-        "たばかり",
-        "てすぐ",
-        "たら"
+        "てから",
+        "た時に",
+        "たばかり"
       ],
       "wrong_choice_explanations": [
-        "たばかり means 'just did recently', but the sentence emphasizes 'the exact moment'.",
-        "てすぐ means 'immediately after', but the sentence emphasizes 'the very moment' of coincidence.",
-        "たら expresses a conditional, but the sentence describes an exact moment of simultaneous events."
+        "てから means 'after doing', which marks a temporal sequence but not the instantaneous coincidence of hearing the siren at the exact moment.",
+        "た時に means 'at the time when', which is a general temporal marker; とたん conveys the specific sense of simultaneity and coincidence.",
+        "たばかり means 'just did', which emphasizes recency, not the dramatic moment-to-moment connection of two simultaneous events."
       ]
     },
     {
@@ -154,14 +138,30 @@
       "translation": "The moment we launched the service, traffic surged.",
       "blank_target": "たとたん",
       "wrong_choices": [
-        "たばかり",
-        "てすぐ",
-        "たら"
+        "ての際",
+        "たばかりで",
+        "た際に"
       ],
       "wrong_choice_explanations": [
-        "たばかり means 'just finished,' but the sentence emphasizes the immediate moment of impact, which たとたん conveys.",
-        "てすぐ means 'immediately after,' but たとたん better captures the sense of 'the very moment of' something happening.",
-        "たら is a conditional 'if,' but the sentence describes an actual event sequence, not a hypothetical condition."
+        "ての際 means 'at the time of', which is a formal temporal reference but less emphatic than とたん for expressing the dramatic immediacy.",
+        "たばかりで means 'just did', which emphasizes recency but not the instantaneous cause-effect surge of traffic.",
+        "た際に means 'at the occasion of', which is formal and temporal but lacks the sense of dramatic immediacy that とたん conveys."
+      ]
+    },
+    {
+      "id": "n3_045_10",
+      "example_sentence": "営業戦略を実行したとたん、市場が反応した。",
+      "translation": "The moment we implemented the sales strategy, the market responded.",
+      "blank_target": "たとたん",
+      "wrong_choices": [
+        "たら",
+        "てから",
+        "たばかりで"
+      ],
+      "wrong_choice_explanations": [
+        "たら is conditional, which introduces a hypothetical element; the sentence describes an actual event, not a what-if scenario.",
+        "てから means 'after doing', which marks temporal progression but not the cause-effect immediacy of the market's rapid response.",
+        "たばかりで means 'just did', which emphasizes recency but not the instantaneous reaction that とたん expresses."
       ]
     }
   ]

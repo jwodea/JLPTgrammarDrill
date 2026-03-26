@@ -21,22 +21,6 @@
       ]
     },
     {
-      "id": "n3_016_10",
-      "example_sentence": "予期しない問題が発生することがあります。",
-      "translation": "There are times when unexpected problems occur.",
-      "blank_target": "ることがあります",
-      "wrong_choices": [
-        "ることができます",
-        "ることにします",
-        "ることになります"
-      ],
-      "wrong_choice_explanations": [
-        "ることができます expresses ability/capability, not the occasional occurrence that ことがある conveys.",
-        "ることにします means 'decide to do', expressing deliberate choice, not occasional happening.",
-        "ることになります expresses external circumstances, not the sporadic nature of ことがある."
-      ]
-    },
-    {
       "id": "n3_016_2",
       "example_sentence": "営業の仕事をしていると、顧客のクレームを受けることがあります。",
       "translation": "When working in sales, there are times when you receive customer complaints.",
@@ -59,13 +43,13 @@
       "blank_target": "ないことがあります",
       "wrong_choices": [
         "ないことができます",
-        "ないことにします",
-        "ないことになります"
+        "ないものです",
+        "ないはずです"
       ],
       "wrong_choice_explanations": [
         "ないことができます means 'can do,' expressing ability, but the sentence describes occasional occurrences during busy periods.",
-        "ないことにします means 'decide not to do,' expressing a deliberate choice, but the sentence describes something that sometimes happens unintentionally.",
-        "ないことになります means 'it has been decided,' but the sentence describes occasional natural occurrences, not planned arrangements."
+        "ないものです suggests a universal characteristic or habitual pattern, not the unpredictable occasional nature of ことがある.",
+        "ないはずです means 'should not be,' expressing expectation or assumption, but the sentence describes what actually happens occasionally."
       ]
     },
     {
@@ -74,14 +58,14 @@
       "translation": "There are times when I argue with my family.",
       "blank_target": "ことがあります",
       "wrong_choices": [
-        "うことができます",
-        "うことにします",
-        "うことになります"
+        "ことができます",
+        "ことになります",
+        "ようにしています"
       ],
       "wrong_choice_explanations": [
         "ことができる means 'to be able to/can do', but this sentence expresses occasional or recurring occurrences of an action.",
-        "ことにする means 'to decide to do', but this sentence describes situations that sometimes happen, not personal decisions.",
-        "ことになる means 'it comes to be decided', but this sentence expresses the regular occurrence of something without external cause."
+        "ことになる means 'it comes to be decided', but this sentence expresses the regular occurrence of something without external cause.",
+        "ようにしています means 'I am making an effort to,' expressing intentional effort, but the sentence indicates unplanned occasional arguments."
       ]
     },
     {
@@ -91,12 +75,12 @@
       "blank_target": "くことがあります",
       "wrong_choices": [
         "くことができます",
-        "くことにします",
+        "くわけです",
         "くことになります"
       ],
       "wrong_choice_explanations": [
         "くことができます means 'can do,' expressing ability, but the sentence describes occasional or repeated occurrence.",
-        "くことにします means 'decide to do,' but the sentence describes habitual or occasional actions.",
+        "くわけです means 'the reason is that' or 'it amounts to,' explaining a situation, not expressing occasional actions.",
         "くことになります means 'it is decided/will happen,' but the sentence expresses what occurs sometimes or repeatedly."
       ]
     },
@@ -108,12 +92,12 @@
       "wrong_choices": [
         "ることができます",
         "ることにします",
-        "ることになります"
+        "ることばかりです"
       ],
       "wrong_choice_explanations": [
-        "'ることができます' expresses ability; '〜ことがある' is needed for occasional actions.",
-        "'ることにします' means 'decide to do'; it doesn't express habitual occasional actions.",
-        "'ることになります' means 'it is decided'; it doesn't convey occasional activities."
+        "'ることができます' expresses a stable ability or capability—the capacity to do something. However, '〜ことがある' describes occasional actions that happen sometimes, not whether someone is able to do something. The sentence indicates reading happens on weekends sometimes, not that the speaker has the ability to read.",
+        "'ることにします' means 'decide to do' or 'I will make a point of doing.' It expresses a conscious decision or intention to begin something. The sentence is not about making a decision to read, but rather describing an occasional activity that occurs.",
+        "'ることばかりです' means 'only does' or 'does nothing but,' emphasizing exclusive or repeated action. This doesn't capture the occasional, non-exclusive nature of ことがある—the speaker doesn't only read at cafes; they sometimes do."
       ]
     },
     {
@@ -124,12 +108,12 @@
       "wrong_choices": [
         "ることができます",
         "ることにします",
-        "ることになります"
+        "ることところです"
       ],
       "wrong_choice_explanations": [
-        "〜ることができる expresses ability, but the sentence indicates that situations happen sometimes, not ability",
-        "〜ることにする means 'to decide', but the sentence describes habitual or occasional occurrence, not decisions",
-        "〜ることになる means 'it will turn out that', but the sentence describes habitual occurrences"
+        "〜ることができる expresses ability, but the sentence indicates that situations happen sometimes, not ability.",
+        "〜ることにする means 'to decide', but the sentence describes habitual or occasional occurrence, not decisions.",
+        "〜ることところです means 'is just about to do' or 'is in the middle of doing,' expressing a moment in time, not occasional habitual occurrences."
       ]
     },
     {
@@ -162,6 +146,22 @@
         "ることができます means 'can' or 'is able to,' but the sentence indicates that this sometimes occurs, not constant capability.",
         "ることにします means 'decide to,' but the sentence describes intermittent occurrences, not a deliberate decision.",
         "ることになります implies a set pattern or decision, but the context emphasizes occasional or unpredictable instances."
+      ]
+    },
+    {
+      "id": "n3_016_10",
+      "example_sentence": "予期しない問題が発生することがあります。",
+      "translation": "There are times when unexpected problems occur.",
+      "blank_target": "ることがあります",
+      "wrong_choices": [
+        "ることができます",
+        "ることにします",
+        "ることになります"
+      ],
+      "wrong_choice_explanations": [
+        "ることができます expresses ability/capability, not the occasional occurrence that ことがある conveys.",
+        "ることにします means 'decide to do', expressing deliberate choice, not occasional happening.",
+        "ることになります expresses external circumstances, not the sporadic nature of ことがある."
       ]
     }
   ]

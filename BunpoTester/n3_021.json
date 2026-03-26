@@ -21,35 +21,19 @@
       ]
     },
     {
-      "id": "n3_021_10",
-      "example_sentence": "プレゼンテーション資料を作成しながら、戦略を立てています。",
-      "translation": "I develop strategy while creating presentation materials.",
-      "blank_target": "ながら",
-      "wrong_choices": [
-        "てから",
-        "あとで",
-        "ても"
-      ],
-      "wrong_choice_explanations": [
-        "てから means 'after doing', indicating sequential action, not the simultaneous action that ながら expresses.",
-        "あとで means 'after/later', indicating subsequent time, not simultaneous actions.",
-        "ても means 'even if', expressing concession, not the simultaneity of ながら."
-      ]
-    },
-    {
       "id": "n3_021_2",
       "example_sentence": "レポートを書きながら、参考文献を確認しています。",
       "translation": "I am checking reference materials while writing the report.",
       "blank_target": "ながら",
       "wrong_choices": [
-        "てから",
-        "あとで",
-        "ても"
+        "たあとで",
+        "つつ",
+        "ついでに"
       ],
       "wrong_choice_explanations": [
-        "てから means 'after doing', indicating sequential actions, but the sentence describes simultaneous actions happening at the same time.",
-        "あとで means 'after' or 'later', indicating temporal sequence, but the sentence uses ながら to show concurrent activities.",
-        "ても means 'even though' or 'even if', expressing concession, but the sentence indicates simultaneous actions, not a concessive relationship."
+        "〜たあとで means 'after doing,' indicating the actions happen in sequence, but the sentence describes checking references at the same time as writing.",
+        "〜つつ can express simultaneity, but it is literary and stiff—ながら is the natural choice in everyday contexts like this.",
+        "ついでに means 'taking the opportunity to,' implying one action is a side task, but here both activities are equally important and happening at the same time."
       ]
     },
     {
@@ -70,18 +54,18 @@
     },
     {
       "id": "n3_021_4",
-      "example_sentence": "テレビを見ながら、食事をするのは良くありません。",
-      "translation": "Eating while watching television is not good.",
+      "example_sentence": "コーヒーを飲みながら、新聞を読むのが朝の習慣です。",
+      "translation": "My morning routine is reading the newspaper while drinking coffee.",
       "blank_target": "ながら",
       "wrong_choices": [
-        "てから",
-        "あとで",
-        "ても"
+        "つつ",
+        "たまま",
+        "ついでに"
       ],
       "wrong_choice_explanations": [
-        "てから means 'after doing', expressing sequence, but this sentence requires 'ながら' to show two simultaneous actions happening together.",
-        "あとで means 'after/later', expressing temporal sequence, but this sentence describes simultaneous actions occurring at the same time.",
-        "ても means 'even if' expressing concession, but this sentence requires 'ながら' for actions done at the same time."
+        "〜つつ also means 'while doing,' but it is literary and formal—ながら is the natural everyday choice here.",
+        "〜まま means 'leaving in a state,' describing an unchanged condition, not two actions performed at the same time.",
+        "ついでに means 'while you're at it / taking the opportunity,' implying one action is secondary or opportunistic, but here both actions are habitual and equal."
       ]
     },
     {
@@ -102,18 +86,18 @@
     },
     {
       "id": "n3_021_6",
-      "example_sentence": "テレビを見ながら、夕食を食べました。",
-      "translation": "I ate dinner while watching television.",
+      "example_sentence": "歩きながら、スマホを操作するのは危ないです。",
+      "translation": "Operating your smartphone while walking is dangerous.",
       "blank_target": "ながら",
       "wrong_choices": [
-        "てから",
-        "あとで",
-        "ても"
+        "つつ",
+        "ついでに",
+        "たまま"
       ],
       "wrong_choice_explanations": [
-        "'てから' means 'after doing', indicating sequence; '〜ながら' is needed for simultaneous actions.",
-        "'あとで' means 'afterwards', indicating temporal sequence, not simultaneity.",
-        "'ても' expresses a concessive condition, not simultaneous actions."
+        "〜つつ can mean 'while,' but it is used in formal writing—ながら is natural for everyday warnings like this.",
+        "ついでに means 'while you're at it,' implying you add a secondary task, but the sentence warns about doing two things simultaneously, not about convenience.",
+        "〜まま describes leaving something in an unchanged state (e.g., 'with shoes on'), not performing two actions at the same time."
       ]
     },
     {
@@ -122,14 +106,14 @@
       "translation": "I commute while listening to podcasts.",
       "blank_target": "ながら",
       "wrong_choices": [
+        "たまま",
         "てから",
-        "あとで",
-        "ても"
+        "ついでに"
       ],
       "wrong_choice_explanations": [
-        "〜てから means 'after doing', indicating sequence, but the sentence describes simultaneous actions",
-        "〜あとで means 'after' or 'later', indicating temporal sequence rather than simultaneity",
-        "〜ても is concessive (even if), but the sentence describes two things happening at the same time"
+        "〜まま means 'leaving in a state' (e.g., keeping headphones on), but ながら expresses two actions performed simultaneously.",
+        "〜てから means 'after doing,' implying sequential order, but the sentence describes commuting and listening at the same time.",
+        "ついでに means 'while you're at it,' implying one action is added as a bonus, but here listening and commuting are equally routine."
       ]
     },
     {
@@ -154,14 +138,30 @@
       "translation": "I drive while listening to the radio.",
       "blank_target": "ながら",
       "wrong_choices": [
+        "つつ",
+        "あとで",
+        "たまま"
+      ],
+      "wrong_choice_explanations": [
+        "〜つつ can mean 'while,' but it sounds literary and unnatural for casual driving situations—ながら is the everyday form.",
+        "あとで means 'later/afterward,' implying sequential timing, but the sentence describes two things happening at the same time.",
+        "〜まま means 'leaving in a state,' but ながら expresses performing two activities simultaneously."
+      ]
+    },
+    {
+      "id": "n3_021_10",
+      "example_sentence": "プレゼンテーション資料を作成しながら、戦略を立てています。",
+      "translation": "I develop strategy while creating presentation materials.",
+      "blank_target": "ながら",
+      "wrong_choices": [
         "てから",
         "あとで",
         "ても"
       ],
       "wrong_choice_explanations": [
-        "てから means 'after doing something,' implying sequential actions, but the sentence requires simultaneous or parallel actions.",
-        "あとで means 'afterward,' marking clear temporal separation, but ながら expresses actions happening at the same time.",
-        "ても means 'even if,' expressing a concessive condition, but the sentence requires the meaning of simultaneous activity."
+        "てから means 'after doing', indicating sequential action, not the simultaneous action that ながら expresses.",
+        "あとで means 'after/later', indicating subsequent time, not simultaneous actions.",
+        "ても means 'even if', expressing concession, not the simultaneity of ながら."
       ]
     }
   ]

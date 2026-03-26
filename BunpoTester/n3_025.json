@@ -21,35 +21,19 @@
       ]
     },
     {
-      "id": "n3_025_10",
-      "example_sentence": "人工知能が進化するにつれて、仕事の形態も変わってきます。",
-      "translation": "As AI advances, the nature of work changes.",
+      "id": "n3_025_2",
+      "example_sentence": "年齢を重ねるにつれて、健康の大切さが分かるようになります。",
+      "translation": "As you get older, you come to understand the importance of health.",
       "blank_target": "につれて",
       "wrong_choices": [
-        "ばとるほど",
+        "ば重ねるほど",
         "にしたがって",
         "とともに"
       ],
       "wrong_choice_explanations": [
-        "ば〜ほど expresses 'the more...the more', with stronger emphasis on proportion than につれて.",
-        "にしたがって is similar but more formal and less commonly used for this gradual change meaning.",
-        "とともに means 'along with/together', indicating simultaneity rather than gradual proportional change."
-      ]
-    },
-    {
-      "id": "n3_025_2",
-      "example_sentence": "インターネットの普及に伴って、社会が大きく変わった。",
-      "translation": "As the Internet became widespread, society changed dramatically.",
-      "blank_target": "及に伴って",
-      "wrong_choices": [
-        "及ばとるほど",
-        "及にしたがって",
-        "及とともに"
-      ],
-      "wrong_choice_explanations": [
-        "及ばとるほど appears to be a malformed option; if it were ばとるほど, it would be incorrect grammar.",
-        "及にしたがって means 'following' or 'according to', but につれて emphasizes gradual parallel change more clearly.",
-        "及とともに means 'in conjunction with', but につれて is more specific for expressing gradual change that occurs as something else progresses."
+        "ば〜ほど means 'the more...the more,' emphasizing proportional intensity, but につれて more naturally describes a gradual realization over time.",
+        "にしたがって means 'in accordance with' and is similar, but につれて better captures the natural, gradual progression of understanding.",
+        "とともに means 'along with,' implying simultaneous change, but につれて emphasizes the gradual proportional nature of the change."
       ]
     },
     {
@@ -106,12 +90,12 @@
       "translation": "As my experience increased, I gained confidence.",
       "blank_target": "につれて",
       "wrong_choices": [
-        "ばとるほど",
+        "ば増すほど",
         "にしたがって",
         "とともに"
       ],
       "wrong_choice_explanations": [
-        "This is not a valid form.",
+        "ば〜ほど means 'the more...the more,' emphasizing proportional intensity, but につれて more naturally describes the gradual accumulation of confidence over time.",
         "'にしたがって' means 'in accordance with'; it suggests following rather than gradual change.",
         "'とともに' means 'together with'; it doesn't convey gradual change."
       ]
@@ -122,12 +106,12 @@
       "translation": "As the season changes, the temperature decreases.",
       "blank_target": "につれて",
       "wrong_choices": [
-        "ばとるほど",
+        "ば変わるほど",
         "にしたがって",
         "とともに"
       ],
       "wrong_choice_explanations": [
-        "This is not a valid grammatical form",
+        "ば〜ほど means 'the more...the more,' with stronger emphasis on proportional comparison, but につれて better suits the gradual seasonal change described here.",
         "〜にしたがって means 'in accordance with', but doesn't express the same sense of gradual proportional change",
         "〜とともに means 'together with', indicating simultaneity rather than gradual proportional change"
       ]
@@ -138,30 +122,46 @@
       "translation": "As digitalization progresses, the demand for paper decreases.",
       "blank_target": "につれて",
       "wrong_choices": [
-        "ばとるほど",
+        "ば進むほど",
         "にしたがって",
         "とともに"
       ],
       "wrong_choice_explanations": [
-        "This combination is not standard; つれて requires progressive change, not proportional comparison.",
+        "ば〜ほど means 'the more...the more,' emphasizing comparative proportion, but につれて is more natural for describing gradual societal changes over time.",
         "にしたがって means 'in accordance with', but the sentence describes gradual proportional change.",
         "とともに means 'together with', but the sentence emphasizes gradual proportional decrease."
       ]
     },
     {
       "id": "n3_025_9",
-      "example_sentence": "テクノロジーが発展するにつれて、仕事の形態が変わります。",
-      "translation": "As technology develops, the form of work changes.",
+      "example_sentence": "都市化が進むにつれて、自然環境が失われていきます。",
+      "translation": "As urbanization progresses, the natural environment is being lost.",
       "blank_target": "につれて",
       "wrong_choices": [
-        "ばとるほど",
+        "ば進むほど",
         "にしたがって",
         "とともに"
       ],
       "wrong_choice_explanations": [
-        "This form is incorrect; につれて specifically expresses gradual change in proportion to development, not comparative doubling.",
-        "にしたがって means 'according to' or 'in compliance with,' but the sentence describes gradual natural change, not following rules.",
-        "とともに means 'along with' or 'together with,' but につれて better captures the sense of gradual proportional change."
+        "ば〜ほど means 'the more...the more,' emphasizing proportional comparison, but につれて is more natural for describing a gradual environmental loss over time.",
+        "にしたがって means 'in accordance with,' and is close in meaning, but につれて better captures the natural, gradual correlation between urbanization and environmental loss.",
+        "とともに means 'along with,' implying simultaneous change, but につれて emphasizes the gradual proportional relationship more clearly."
+      ]
+    },
+    {
+      "id": "n3_025_10",
+      "example_sentence": "人工知能が進化するにつれて、仕事の形態も変わってきます。",
+      "translation": "As AI advances, the nature of work changes.",
+      "blank_target": "につれて",
+      "wrong_choices": [
+        "ば進化するほど",
+        "にしたがって",
+        "とともに"
+      ],
+      "wrong_choice_explanations": [
+        "ば〜ほど means 'the more...the more,' emphasizing proportional intensity, but につれて better captures the gradual parallel evolution of AI and work.",
+        "にしたがって is similar but more formal and less commonly used for this gradual change meaning.",
+        "とともに means 'along with/together', indicating simultaneity rather than gradual proportional change."
       ]
     }
   ]

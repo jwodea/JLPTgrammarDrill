@@ -21,22 +21,6 @@
       ]
     },
     {
-      "id": "n3_042_10",
-      "example_sentence": "組織文化の改革をしているところです。",
-      "translation": "We are right in the middle of reforming our organizational culture.",
-      "blank_target": "ているところです",
-      "wrong_choices": [
-        "たところです",
-        "るところです",
-        "ていました"
-      ],
-      "wrong_choice_explanations": [
-        "たところ means 'just finished', not 'in the middle of', which requires ている.",
-        "This form is incomplete; ている is needed for 'in the middle of'.",
-        "ていました is simple past, not the present ongoing action of ているところ."
-      ]
-    },
-    {
       "id": "n3_042_2",
       "example_sentence": "今、クライアントと電話をしているところです。",
       "translation": "I am right in the middle of a phone call with a client.",
@@ -58,14 +42,14 @@
       "translation": "I am right in the middle of playing tennis.",
       "blank_target": "しているところです",
       "wrong_choices": [
-        "したところです",
+        "したばかりです",
         "するところです",
-        "していました"
+        "していたところです"
       ],
       "wrong_choice_explanations": [
-        "したところです means 'just finished,' but the sentence describes an action in progress.",
-        "するところです means 'about to do,' but the sentence describes an action currently happening.",
-        "していました means 'was doing in the past,' but the sentence describes an action happening now."
+        "したばかりです means 'just finished,' but the sentence describes an action in progress, not something recently completed.",
+        "するところです means 'about to do,' but the sentence describes an action currently happening, not about to happen.",
+        "していたところです means 'was in the process of', but the sentence requires the present ているところ, not the past form."
       ]
     },
     {
@@ -74,14 +58,14 @@
       "translation": "I am right in the middle of talking with my girlfriend.",
       "blank_target": "しているところです",
       "wrong_choices": [
-        "したところです",
-        "するところです",
+        "したとたん",
+        "してしまった",
         "していました"
       ],
       "wrong_choice_explanations": [
-        "ところ means 'just after finishing', but the sentence requires the present progressive 'ている' form.",
-        "This would mean 'about to do', but the sentence describes action in progress using 'ている'.",
-        "This is past progressive, but the sentence describes the current state using present 'ている'."
+        "したとたん means 'the moment I did', expressing a sudden moment rather than an ongoing process.",
+        "してしまった means 'ended up doing' or 'finished (unexpectedly)', but doesn't indicate the present ongoing action.",
+        "していました is past progressive, but the sentence describes the current state using present ている."
       ]
     },
     {
@@ -91,13 +75,13 @@
       "blank_target": "えているところです",
       "wrong_choices": [
         "えたところです",
-        "えるところです",
-        "えていました"
+        "えてしまいました",
+        "えていたのです"
       ],
       "wrong_choice_explanations": [
         "えたところです means 'just finished,' but the sentence describes an action currently in progress.",
-        "えるところです can mean 'is about to,' but ている is needed to express ongoing action.",
-        "えていました indicates past ongoing action, but ているところです specifies the present moment."
+        "えてしまいました means 'finished completely', but the sentence expresses the present ongoing process.",
+        "えていたのです means 'was in the process of', but ているところ specifies the present moment, not past."
       ]
     },
     {
@@ -106,14 +90,14 @@
       "translation": "I am right in the middle of attending a meeting.",
       "blank_target": "ているところです",
       "wrong_choices": [
-        "たところです",
-        "るところです",
-        "ていました"
+        "てしまっています",
+        "ようとしています",
+        "た直後です"
       ],
       "wrong_choice_explanations": [
-        "'たところです' has a different meaning and doesn't fit the sentence context where '〜ているところ' is required.",
-        "'るところです' has a different meaning and doesn't fit the sentence context where '〜ているところ' is required.",
-        "'ていました' has a different meaning and doesn't fit the sentence context where '〜ているところ' is required."
+        "てしまっています means 'have ended up doing', emphasizing completion rather than the ongoing process in the middle of an action.",
+        "ようとしています means 'am about to do', expressing intention to start something, not being in the middle of it.",
+        "た直後です means 'right after doing', which focuses on the completion rather than the continuation of the action."
       ]
     },
     {
@@ -122,14 +106,14 @@
       "translation": "We are right in the middle of testing a new system.",
       "blank_target": "ているところです",
       "wrong_choices": [
-        "たところです",
-        "るところです",
-        "ていました"
+        "ったばかりです",
+        "つつあります",
+        "ていたところです"
       ],
       "wrong_choice_explanations": [
-        "〜たところ means 'just finished', but the sentence indicates an ongoing process",
-        "This incomplete form doesn't express the progressive 'in the middle of'",
-        "This is past progressive, but the sentence describes current action in progress"
+        "ったばかりです means 'just finished', but the sentence indicates an ongoing process of testing.",
+        "つつあります means 'is in the process of' but is more formal and literary, less suitable for the present context.",
+        "ていたところです means 'was in the process of', requiring the past tense, not the present ているところ."
       ]
     },
     {
@@ -138,14 +122,14 @@
       "translation": "We are right in the middle of creating a report.",
       "blank_target": "ているところです",
       "wrong_choices": [
-        "たところです",
-        "るところです",
-        "ていました"
+        "してしまった",
+        "する予定です",
+        "した結果です"
       ],
       "wrong_choice_explanations": [
-        "たところ means 'just finished', but the sentence describes an ongoing action.",
-        "るところ by itself can indicate futurity, but we need the -ている form for ongoing action.",
-        "ていました is past progressive, but the sentence is present tense describing current status."
+        "してしまった means 'finished (unexpectedly)', but the sentence emphasizes the ongoing action of creating, not completion.",
+        "する予定です means 'plan to do', expressing future intention, not the present process.",
+        "した結果です means 'as a result of doing', focusing on consequences, not the actual ongoing work."
       ]
     },
     {
@@ -154,14 +138,30 @@
       "translation": "We are right in the middle of developing a new product.",
       "blank_target": "ているところです",
       "wrong_choices": [
-        "たところです",
-        "るところです",
-        "ていました"
+        "たばかりです",
+        "ようとしているのです",
+        "ていました時点で"
       ],
       "wrong_choice_explanations": [
-        "たところです means 'just finished,' but the sentence emphasizes being 'in the middle of' development, requiring ている.",
-        "るところです can indicate imminent action, but ているところです is needed for ongoing process or current stage.",
-        "ていました is past continuous, but the sentence describes a current ongoing state, not a past condition."
+        "たばかりです means 'just finished,' but the sentence emphasizes being 'in the middle of' development, requiring ている.",
+        "ようとしているのです means 'am about to do', expressing intention to begin, not being in the middle of the process.",
+        "ていました時点で means 'at the point when I was doing', referencing a past moment, not the current state."
+      ]
+    },
+    {
+      "id": "n3_042_10",
+      "example_sentence": "組織文化の改革をしているところです。",
+      "translation": "We are right in the middle of reforming our organizational culture.",
+      "blank_target": "ているところです",
+      "wrong_choices": [
+        "たのですが",
+        "にかかっています",
+        "てしまったのです"
+      ],
+      "wrong_choice_explanations": [
+        "たのですが means 'did (explaining/contrasting)', which expresses a past event, not the ongoing process.",
+        "にかかっています means 'is taking (time)', referring to how long something takes rather than being in the middle of it.",
+        "てしまったのです means 'have ended up doing (explaining)', which emphasizes completion, not the ongoing state."
       ]
     }
   ]

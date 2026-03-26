@@ -21,22 +21,6 @@
       ]
     },
     {
-      "id": "n3_011_10",
-      "example_sentence": "その建築は危険そうです。",
-      "translation": "That building looks dangerous.",
-      "blank_target": "そうです",
-      "wrong_choices": [
-        "らしいです",
-        "ようです",
-        "みたいです"
-      ],
-      "wrong_choice_explanations": [
-        "らしいです means 'I heard', expressing hearsay, but the sentence describes what something looks like visually.",
-        "ようです implies inference, but そうです in this sense specifically denotes visual appearance or immediate perception.",
-        "みたいです is colloquial; そうです is more appropriate for describing how something appears."
-      ]
-    },
-    {
       "id": "n3_011_2",
       "example_sentence": "このアイデアは実現しそうだな。",
       "translation": "This idea looks like it might be achievable.",
@@ -54,34 +38,34 @@
     },
     {
       "id": "n3_011_3",
-      "example_sentence": "このアイスクリームはおいしそうですね。",
-      "translation": "This ice cream looks delicious.",
+      "example_sentence": "その空はどんより曇りそうですね。",
+      "translation": "That sky looks like it's going to turn gloomy and cloudy.",
       "blank_target": "そうですね",
       "wrong_choices": [
-        "ようですね",
-        "らしいですね",
-        "みたいですね"
+        "かもしれません",
+        "だそうです",
+        "に見えます"
       ],
       "wrong_choice_explanations": [
-        "ようですね means 'it seems or appears,' but this specifically refers to how something looks based on appearance, which そうですね expresses perfectly.",
-        "らしいですね means 'apparently or I heard,' conveying hearsay, but the sentence is about how the ice cream looks, not what was heard about it.",
-        "みたいですね is a more casual form, but そうですね is the standard form for describing how something appears to the senses."
+        "かもしれません expresses possibility or uncertainty ('might be'), but this sentence describes a direct visual impression of the sky's appearance right now.",
+        "だそうです means 'I heard that,' expressing hearsay or reported information, while the speaker is looking directly at the sky and reacting to what they see.",
+        "に見えます (looks like) is a valid alternative for appearance, but そうです more naturally expresses the imminent appearance of weather conditions."
       ]
     },
     {
       "id": "n3_011_4",
-      "example_sentence": "このスイーツはおいしそうですね。",
-      "translation": "This sweet looks delicious.",
+      "example_sentence": "その人は疲れきっていそうですね。",
+      "translation": "That person looks like they're completely worn out.",
       "blank_target": "そうですね",
       "wrong_choices": [
-        "ようですね",
-        "らしいですね",
-        "みたいですね"
+        "っぽいです",
+        "のようです",
+        "ようですね"
       ],
       "wrong_choice_explanations": [
-        "ようですね means 'it seems/looks like' based on visual observation, but this sentence describes the appearance of taste or quality itself.",
-        "らしいですね means 'apparently/I heard that', but this sentence describes the speaker's direct sensory impression of the food.",
-        "みたいですね is a casual form suggesting resemblance, but this sentence requires the 'そうです' form for describing appearance-based impressions."
+        "っぽいです suggests a quality or characteristic that seems to apply, but it's less direct than そうです—here we're observing the person's immediate appearance of exhaustion.",
+        "のようです ('like' or 'as if') is more formal and suggests a metaphorical likeness, whereas そうですね captures the sense of observing someone's visible state.",
+        "ようですね is close in meaning, but そうですね better conveys the sense of 'it looks to me like' based on direct visual cues of fatigue."
       ]
     },
     {
@@ -111,9 +95,9 @@
         "みたいです"
       ],
       "wrong_choice_explanations": [
-        "'らしいです' has a different meaning and doesn't fit the sentence context where '〜そうだ（様態）' is required.",
-        "'ようです' has a different meaning and doesn't fit the sentence context where '〜そうだ（様態）' is required.",
-        "'みたいです' has a different meaning and doesn't fit the sentence context where '〜そうだ（様態）' is required."
+        "らしいです conveys hearsay or information learned indirectly ('apparently', 'I heard'), but this sentence describes the speaker's direct visual impression of the flower's appearance.",
+        "ようです emphasizes observation and inference, but そうだ (様態) specifically denotes the immediate sensory appearance of a property—how something looks at first glance.",
+        "みたいです is an informal alternative that can express appearance, but in a descriptive context like this, そうです is the more standard and direct form for appearance-based statements."
       ]
     },
     {
@@ -162,6 +146,22 @@
         "らしいです indicates hearsay or reputation, but the sentence describes how the plan appears based on surface impression or characteristics.",
         "ようです emphasizes observation, but そうだ (様態) specifically means the appearance or look of something based on its qualities.",
         "みたいです is informal/colloquial, but the business context requires the more formal そうです to describe a plan's feasibility."
+      ]
+    },
+    {
+      "id": "n3_011_10",
+      "example_sentence": "その建物は危険そうです。",
+      "translation": "That building looks dangerous.",
+      "blank_target": "そうです",
+      "wrong_choices": [
+        "らしいです",
+        "ようです",
+        "みたいです"
+      ],
+      "wrong_choice_explanations": [
+        "らしいです means 'I heard', expressing hearsay, but the sentence describes what something looks like visually.",
+        "ようです implies inference, but そうです in this sense specifically denotes visual appearance or immediate perception.",
+        "みたいです is colloquial; そうです is more appropriate for describing how something appears."
       ]
     }
   ]

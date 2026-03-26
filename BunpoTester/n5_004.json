@@ -1,0 +1,128 @@
+{
+  "id": "n5_004",
+  "pattern": "〜が",
+  "meaning": "subject marker particle",
+  "level": "N5",
+  "exercises": [
+    {
+      "id": "n5_004_1",
+      "example_sentence": "猫＿＿います。",
+      "translation": "There is a cat.",
+      "blank_target": "が",
+      "wrong_choices": ["を", "に", "で"],
+      "wrong_choice_explanations": [
+        "を marks a direct object; います needs が for the subject that exists.",
+        "に marks a location, not the thing that exists.",
+        "で marks the place or means of an action, not the subject of existence."
+      ]
+    },
+    {
+      "id": "n5_004_2",
+      "example_sentence": "雨＿＿降っています。",
+      "translation": "It is raining.",
+      "blank_target": "が",
+      "wrong_choices": ["を", "に", "で"],
+      "wrong_choice_explanations": [
+        "を marks a direct object; rain is the subject of falling, not the object.",
+        "に marks a location or time, not the subject of a weather verb.",
+        "で marks the means or place; weather phenomena take が for the subject."
+      ]
+    },
+    {
+      "id": "n5_004_3",
+      "example_sentence": "日本語＿＿分かります。",
+      "translation": "I understand Japanese.",
+      "blank_target": "が",
+      "wrong_choices": ["を", "に", "と"],
+      "wrong_choice_explanations": [
+        "を marks a direct object, but 分かる specifically takes が for the thing understood.",
+        "に marks a target or time, not the object of understanding.",
+        "と means 'with' or 'and' and does not mark the object of 分かる."
+      ]
+    },
+    {
+      "id": "n5_004_4",
+      "example_sentence": "誰＿＿来ましたか。",
+      "translation": "Who came?",
+      "blank_target": "が",
+      "wrong_choices": ["を", "に", "は"],
+      "wrong_choice_explanations": [
+        "を marks a direct object; the question asks about the subject who performed the action.",
+        "に marks a destination or time, not who performed the action.",
+        "は marks the topic, but question words like 誰 require が as the subject marker."
+      ]
+    },
+    {
+      "id": "n5_004_5",
+      "example_sentence": "音楽＿＿好きです。",
+      "translation": "I like music.",
+      "blank_target": "が",
+      "wrong_choices": ["を", "に", "と"],
+      "wrong_choice_explanations": [
+        "を marks a direct object, but 好き takes が for the liked thing.",
+        "に marks a target or location, not the object of preference.",
+        "と means 'with' or 'and' and cannot mark the thing that is liked."
+      ]
+    },
+    {
+      "id": "n5_004_6",
+      "example_sentence": "頭＿＿痛いです。",
+      "translation": "My head hurts.",
+      "blank_target": "が",
+      "wrong_choices": ["を", "に", "で"],
+      "wrong_choice_explanations": [
+        "を marks a direct object; the head is the subject experiencing pain.",
+        "に marks a location or time, not the body part that hurts.",
+        "で marks a place or means; body sensations use が for the affected part."
+      ]
+    },
+    {
+      "id": "n5_004_7",
+      "example_sentence": "時間＿＿ありません。",
+      "translation": "There is no time.",
+      "blank_target": "が",
+      "wrong_choices": ["を", "に", "から"],
+      "wrong_choice_explanations": [
+        "を marks a direct object; ある/ない takes が for the subject of existence.",
+        "に marks a location, not the thing that exists or doesn't.",
+        "から means 'from' and does not mark the subject of ありません."
+      ]
+    },
+    {
+      "id": "n5_004_8",
+      "example_sentence": "窓＿＿開いています。",
+      "translation": "The window is open.",
+      "blank_target": "が",
+      "wrong_choices": ["を", "に", "で"],
+      "wrong_choice_explanations": [
+        "を is used with the transitive 開ける, not the intransitive 開く; the window is the subject.",
+        "に marks a location, not the subject of the state.",
+        "で marks means or place of action, not the subject."
+      ]
+    },
+    {
+      "id": "n5_004_9",
+      "example_sentence": "英語＿＿できます。",
+      "translation": "I can speak English.",
+      "blank_target": "が",
+      "wrong_choices": ["を", "に", "から"],
+      "wrong_choice_explanations": [
+        "を marks a direct object, but できる specifically takes が for the ability complement.",
+        "に marks a target, not the thing one is able to do.",
+        "から means 'from' and does not mark the complement of できる."
+      ]
+    },
+    {
+      "id": "n5_004_10",
+      "example_sentence": "花＿＿咲いています。",
+      "translation": "The flowers are blooming.",
+      "blank_target": "が",
+      "wrong_choices": ["を", "に", "で"],
+      "wrong_choice_explanations": [
+        "を marks a direct object; flowers are the subject of blooming.",
+        "に marks a location or time, not the subject.",
+        "で marks the place or means, not the blooming subject."
+      ]
+    }
+  ]
+}

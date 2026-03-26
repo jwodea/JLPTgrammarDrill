@@ -21,35 +21,19 @@
       ]
     },
     {
-      "id": "n3_026_10",
-      "example_sentence": "未処理のままで、報告書が積み重なっていた。",
-      "translation": "Unprocessed reports were piling up.",
-      "blank_target": "のままで",
-      "wrong_choices": [
-        "のとおりに",
-        "のきり",
-        "のっぱなし"
-      ],
-      "wrong_choice_explanations": [
-        "のとおりに means 'just as' or 'according to', not 'in an unchanged state' like まま.",
-        "のきり is non-standard; まま is the correct pattern for 'leaving unchanged'.",
-        "っぱなし means 'leaving abandoned/neglected', with a different nuance than the neutral まま."
-      ]
-    },
-    {
       "id": "n3_026_2",
-      "example_sentence": "オフィスの照明をつけたままで、帰宅してしまいました。",
-      "translation": "I went home with the office lights left on.",
-      "blank_target": "けたままで",
+      "example_sentence": "メガネをかけたまま、シャワーを浴びてしまった。",
+      "translation": "I accidentally showered with my glasses still on.",
+      "blank_target": "けたまま",
       "wrong_choices": [
         "けたとおりに",
         "けたきり",
         "けっぱなしで"
       ],
       "wrong_choice_explanations": [
-        "けたとおりに means 'exactly as' or 'in the manner of', but まま emphasizes leaving something in an unchanged state, not following a manner.",
-        "けたきり is not a standard form; the correct form is きり (used up/nothing but).",
-        "けっぱなしで means 'left on carelessly', but まま is the appropriate form for describing something left in a previous state intentionally or unintentionally."
+        "とおりに means 'just as / according to,' implying following a model, not maintaining a state by accident.",
+        "きり means 'since then / nothing but,' emphasizing that nothing else happened, not that you kept wearing something while doing something else.",
+        "っぱなし means 'leaving something negligently on/open,' but wearing glasses into the shower is not about neglecting an object—まま naturally describes the unchanged state."
       ]
     },
     {
@@ -119,7 +103,7 @@
     {
       "id": "n3_026_7",
       "example_sentence": "汚れたまま、部屋に置きました。",
-      "translation": "I left the room in a dirty state.",
+      "translation": "I put it in the room while it was still dirty.",
       "blank_target": "れたまま",
       "wrong_choices": [
         "れたとおりに",
@@ -138,14 +122,14 @@
       "translation": "I entered the house with my shoes still on.",
       "blank_target": "ままで",
       "wrong_choices": [
-        "ままとおりに",
-        "ままきり",
-        "まま っぱなし"
+        "のとおりに",
+        "のきり",
+        "のっぱなし"
       ],
       "wrong_choice_explanations": [
-        "This form is not standard; we need まま to express the state of remaining unchanged.",
-        "This form is not standard Japanese; まま alone is the correct form.",
-        "っぱなし describes leaving something on negligently, but まま simply describes a state."
+        "〜とおりに means 'just as / according to,' which is about following a model or instruction, not about remaining in an unchanged state.",
+        "〜きり means 'since then / only,' emphasizing that nothing else happened afterward, but まま describes continuing in the same state while doing something else.",
+        "〜っぱなし means 'leaving something negligently,' but まま neutrally describes keeping a state unchanged—here, entering the house with shoes still on."
       ]
     },
     {
@@ -162,6 +146,22 @@
         "ないとおりに means 'in the way of not doing,' but the sentence requires the nuance of 'leaving in unchanged state.'",
         "きり means 'since then / nothing but,' emphasizing that nothing else happened, but まま focuses on maintaining an unchanged state (no action taken) while time passed.",
         "っぱなし means 'leaving something negligently,' implying careless neglect of an object, but まま more neutrally describes an unchanged state of inaction."
+      ]
+    },
+    {
+      "id": "n3_026_10",
+      "example_sentence": "未処理のままで、報告書が積み重なっていた。",
+      "translation": "Unprocessed reports were piling up.",
+      "blank_target": "のままで",
+      "wrong_choices": [
+        "のとおりに",
+        "のきり",
+        "のっぱなし"
+      ],
+      "wrong_choice_explanations": [
+        "のとおりに means 'just as' or 'according to', not 'in an unchanged state' like まま.",
+        "のきり is non-standard; まま is the correct pattern for 'leaving unchanged'.",
+        "っぱなし means 'leaving abandoned/neglected', with a different nuance than the neutral まま."
       ]
     }
   ]

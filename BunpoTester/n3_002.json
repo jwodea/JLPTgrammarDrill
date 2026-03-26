@@ -21,22 +21,6 @@
       ]
     },
     {
-      "id": "n3_002_10",
-      "example_sentence": "投資資金を失ってしまいました。",
-      "translation": "I ended up losing my investment funds.",
-      "blank_target": "ってしまいました",
-      "wrong_choices": [
-        "ってみました",
-        "っておきました",
-        "ってきました"
-      ],
-      "wrong_choice_explanations": [
-        "てみました means 'tried doing', implying an experimental action, but the sentence conveys an unintended loss with regret.",
-        "ておきました means 'did in advance/prepared', but this sentence expresses an inadvertent negative outcome.",
-        "てきました means 'came/arrived doing', which doesn't express the sense of completion with regret."
-      ]
-    },
-    {
       "id": "n3_002_2",
       "example_sentence": "プレゼン資料を印刷し忘れてしまいました。",
       "translation": "I forgot to print the presentation materials.",
@@ -58,14 +42,14 @@
       "translation": "I made a mistake boarding the bus.",
       "blank_target": "えてしまった",
       "wrong_choices": [
+        "えていた",
         "えてみた",
-        "えておいた",
-        "えていった"
+        "えてしまわなかった"
       ],
       "wrong_choice_explanations": [
-        "えてみた means 'tried doing,' focusing on experimentation, but the sentence describes an unintended mistake, not an experimental action.",
-        "えておいた means 'did in advance or prepared,' but the sentence indicates an accidental mistake, not a purposeful preparatory action.",
-        "えていった means 'went on doing,' implying continuation, but the sentence describes a one-time mistaken action."
+        "えていた means 'was making a mistake' as an ongoing state, but the sentence describes a single completed mistake that happened, not a continuous state of being wrong.",
+        "えてみた means 'tried making a mistake,' implying deliberate experimentation, but boarding the wrong bus was clearly accidental.",
+        "えてしまわなかった means 'didn't end up making a mistake,' which contradicts the sentence — the speaker DID make a mistake."
       ]
     },
     {
@@ -91,13 +75,13 @@
       "blank_target": "してしまった",
       "wrong_choices": [
         "してみた",
-        "しておいた",
-        "していった"
+        "していた",
+        "しておいた"
       ],
       "wrong_choice_explanations": [
-        "てみた means 'tried doing' emphasizing the attempt or experiment, but the sentence expresses an accidental loss, not a deliberate trial.",
-        "ておいた means 'did in advance/left in a prepared state,' but this sentence needs the sense of completion or regretful finality.",
-        "ていった suggests a progressive action continuing forward, but the sentence requires the sense of something being done completely with finality."
+        "してみた means 'tried dropping,' implying intentional experimentation, but losing a wallet while shopping is an accident.",
+        "していた means 'was dropping' as a continuous action, but losing a wallet is a single momentary event, not something that was ongoing.",
+        "しておいた means 'dropped in advance/on purpose for later,' which makes no sense for accidentally losing a wallet."
       ]
     },
     {
@@ -106,14 +90,14 @@
       "translation": "I accidentally dropped my smartphone.",
       "blank_target": "してしまいました",
       "wrong_choices": [
-        "してしまった",
+        "していました",
         "してみました",
         "しておきました"
       ],
       "wrong_choice_explanations": [
-        "The sentence requires polite past tense '〜ました', not plain past form.",
-        "'してみました' means 'tried', not 'ended up doing'.",
-        "'しておきました' means 'prepared in advance', not 'accidentally ended up'."
+        "していました means 'was doing' as a past progressive, describing an ongoing action, but the sentence describes a single accidental event (dropping the phone), not a continuous activity.",
+        "してみました means 'tried doing,' implying the speaker intentionally experimented with dropping the phone, which makes no sense for an accident.",
+        "しておきました means 'did in advance as preparation,' but no one drops their phone on purpose as a preparatory step."
       ]
     },
     {
@@ -162,6 +146,22 @@
         "してみました means 'tried to do,' implying an experiment or attempt, but the sentence conveys regret about a completed action, which needs 〜てしまう.",
         "しておきました means 'did something in advance,' implying preparation, but the context indicates unwanted completion with regret.",
         "してきました means 'have been doing' over a period, but the sentence describes a single past moment of losing an opportunity."
+      ]
+    },
+    {
+      "id": "n3_002_10",
+      "example_sentence": "投資資金を失ってしまいました。",
+      "translation": "I ended up losing my investment funds.",
+      "blank_target": "ってしまいました",
+      "wrong_choices": [
+        "ってみました",
+        "っておきました",
+        "ってきました"
+      ],
+      "wrong_choice_explanations": [
+        "てみました means 'tried doing', implying an experimental action, but the sentence conveys an unintended loss with regret.",
+        "ておきました means 'did in advance/prepared', but this sentence expresses an inadvertent negative outcome.",
+        "てきました means 'came/arrived doing', which doesn't express the sense of completion with regret."
       ]
     }
   ]

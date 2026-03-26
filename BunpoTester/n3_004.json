@@ -21,22 +21,6 @@
       ]
     },
     {
-      "id": "n3_004_10",
-      "example_sentence": "デジタル化への転換を試みてみましょう。",
-      "translation": "Let us try digital transformation.",
-      "blank_target": "てみましょう",
-      "wrong_choices": [
-        "ってみてください",
-        "っておいてください",
-        "ってしまってください"
-      ],
-      "wrong_choice_explanations": [
-        "This is awkward duplication; only one てみる is needed, and the form doesn't match the imperative structure.",
-        "ておいてください means 'please prepare by doing', not 'please try', which doesn't match the meaning.",
-        "てしまってください carries a sense of regret or reluctance, while the sentence is a positive suggestion to try."
-      ]
-    },
-    {
       "id": "n3_004_2",
       "example_sentence": "この新しいソフトウェアを試してみたいです。",
       "translation": "I would like to try this new software.",
@@ -54,18 +38,18 @@
     },
     {
       "id": "n3_004_3",
-      "example_sentence": "新しいスポーツをしてみたいです。",
-      "translation": "I would like to try a new sport.",
-      "blank_target": "してみたい",
+      "example_sentence": "一度でいいから富士山に登ってみたいです。",
+      "translation": "Even if just once, I would like to try climbing Mt. Fuji.",
+      "blank_target": "ってみたい",
       "wrong_choices": [
-        "しておきたい",
-        "してしまいたい",
-        "していきたい"
+        "っておきたい",
+        "ってしまいたい",
+        "っていきたい"
       ],
       "wrong_choice_explanations": [
-        "しておきたい means 'want to do in advance,' but the sentence expresses the desire to try or experiment with a new sport, not to prepare something beforehand.",
-        "してしまいたい means 'want to end up doing,' with a sense of inevitability, but the sentence simply expresses wanting to attempt or experience something new.",
-        "していきたい means 'want to continue doing or go on doing,' but the sentence focuses on trying something for the first time, not maintaining an ongoing action."
+        "っておきたい means 'want to do in advance,' focusing on preparation, but the sentence expresses a desire to experience climbing Fuji, not to prepare for something.",
+        "ってしまいたい means 'want to end up doing' with a sense of finality, but the sentence expresses wanting to try the experience, not wanting to complete it.",
+        "っていきたい means 'want to continue doing going forward,' but the sentence is about trying something once as a new experience, not sustaining an ongoing activity."
       ]
     },
     {
@@ -138,14 +122,14 @@
       "translation": "Let us try a different approach.",
       "blank_target": "てみましょう",
       "wrong_choices": [
-        "ってみてください",
-        "っておいてください",
-        "ってしまってください"
+        "しておきましょう",
+        "してしまいましょう",
+        "していきましょう"
       ],
       "wrong_choice_explanations": [
-        "This form suggests trying something and then requesting an action, but the sentence calls for a simple request to try a different approach.",
-        "ておく means 'to prepare in advance', but the sentence asks to try an approach now, not prepare something beforehand.",
-        "てしまう emphasizes completion, but the sentence requests an attempt, not a completed action."
+        "しておきましょう means 'let's prepare by doing,' focusing on advance preparation, but the sentence asks everyone to try a different approach, not to prepare something.",
+        "してしまいましょう means 'let's just finish doing it,' emphasizing completion, but the sentence emphasizes the experimental aspect of trying a different approach.",
+        "していきましょう means 'let's keep doing it going forward,' implying continuation, but the sentence is about trying something new, not continuing a current activity."
       ]
     },
     {
@@ -154,14 +138,30 @@
       "translation": "Let us try a new approach.",
       "blank_target": "てみましょう",
       "wrong_choices": [
-        "ってみてください",
-        "っておいてください",
-        "ってしまってください"
+        "しておきましょう",
+        "してしまいましょう",
+        "してきましょう"
       ],
       "wrong_choice_explanations": [
-        "This form is awkward grammatically; the correct pattern for 'try' with honorific is 〜てみてください.",
-        "っておいてください combines 'keep/leave' with 'please,' but the sentence requires the direct meaning of 'try,' not 'keep prepared.'",
-        "ってしまってください implies 'please finish/complete completely,' but the instruction is simply to try or experiment with a new approach."
+        "しておきましょう means 'let's prepare by doing it in advance,' but the sentence is encouraging everyone to experiment with a new technique, not make advance preparations.",
+        "してしまいましょう means 'let's get it done,' focusing on completion, but the sentence emphasizes trying out a new method to see what happens.",
+        "してきましょう means 'let's go do it and come back,' but the sentence is about experimentally attempting a new approach here and now."
+      ]
+    },
+    {
+      "id": "n3_004_10",
+      "example_sentence": "新しいマーケティング戦略を導入してみましょう。",
+      "translation": "Let us try introducing a new marketing strategy.",
+      "blank_target": "してみましょう",
+      "wrong_choices": [
+        "しておきましょう",
+        "してしまいましょう",
+        "していきましょう"
+      ],
+      "wrong_choice_explanations": [
+        "しておきましょう means 'let's do it in advance,' focusing on preparation, but the sentence is about experimentally trying a new strategy, not preparing something ahead of time.",
+        "してしまいましょう means 'let's just go ahead and do it / get it done,' emphasizing completion, but the sentence emphasizes trying something new to see how it works.",
+        "していきましょう means 'let's continue doing it going forward,' but the sentence is about trying a new strategy for the first time, not continuing an ongoing effort."
       ]
     }
   ]

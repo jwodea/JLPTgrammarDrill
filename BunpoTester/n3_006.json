@@ -12,28 +12,12 @@
       "wrong_choices": [
         "すはずだと",
         "するわけだと",
-        "するべきではなく"
+        "するつもりだと"
       ],
       "wrong_choice_explanations": [
         "はずだ expresses expectation ('should be the case'), but the doctor is giving advice about obligation, not predicting what will happen.",
         "わけだ means 'that explains why,' giving a logical conclusion, but the doctor is prescribing what should be done, not explaining a reason.",
-        "べきではない means 'should not,' which is the opposite of what the doctor said—the doctor said exercise is something that should be done."
-      ]
-    },
-    {
-      "id": "n3_006_10",
-      "example_sentence": "ステークホルダーの利益を優先すべきだ。",
-      "translation": "We ought to prioritize stakeholder interests.",
-      "blank_target": "べきだ",
-      "wrong_choices": [
-        "はずだ",
-        "ものだ",
-        "べきではない"
-      ],
-      "wrong_choice_explanations": [
-        "はずだ is a logical expectation, but the sentence expresses a moral obligation to prioritize stakeholder interests.",
-        "ものだ states a general truth, but this sentence requires the stronger sense of obligation that べきだ carries.",
-        "This is the negative opposite; the sentence requires the affirmative obligation form."
+        "つもりだ expresses intention or plan ('intend to do'), but the doctor is stating what should be done as an obligation, not what someone intends to do."
       ]
     },
     {
@@ -44,12 +28,12 @@
       "wrong_choices": [
         "すはずではありません",
         "するわけではありません",
-        "するべきではありません"
+        "するものではありません"
       ],
       "wrong_choice_explanations": [
         "すはずではありません means 'should not be' as an expectation, but the sentence uses 'ought not' to express a moral obligation or rule, not an expectation about what should happen.",
         "するわけではありません means 'it doesn't mean should' or negates an implication, but the sentence directly states an obligation, not negating an implication about behavior.",
-        "するべきではありません is the correct negative form of すべき, so this is not a true wrong choice—this may indicate a data issue in the example set."
+        "するものではありません expresses a general prohibition or principle ('one does not do such a thing'), but this sentence specifically conveys an individual or institutional obligation against being late, not a universal principle."
       ]
     },
     {
@@ -58,14 +42,14 @@
       "translation": "Everyone thinks they should live a healthy lifestyle.",
       "blank_target": "べきだと",
       "wrong_choices": [
-        "はずだと",
+        "ことだと",
         "わけだと",
-        "べきではなく"
+        "つもりだと"
       ],
       "wrong_choice_explanations": [
-        "はずだと means 'should be based on expectation,' but the sentence expresses a moral obligation that everyone should adopt a healthy lifestyle.",
+        "ことだと suggests something is a matter or fact ('it's a thing that...'), but the sentence expresses moral obligation, not a simple matter-of-fact statement.",
         "わけだと means 'that is why or no wonder,' explaining a reason after the fact, but the sentence advocates for what people should do morally.",
-        "べきではなく means 'should not,' which contradicts the meaning of the sentence that emphasizes what should be done."
+        "つもりだと expresses intention ('intend to'), but the sentence expresses what people think should be done as an obligation, not what they plan to do."
       ]
     },
     {
@@ -75,29 +59,29 @@
       "blank_target": "べきだと",
       "wrong_choices": [
         "はずだと",
-        "わけだと",
-        "べきではなく"
+        "ほうがいいと",
+        "ものだと"
       ],
       "wrong_choice_explanations": [
-        "はずだ expresses logical expectation 'should be', but this sentence requires 'べきだ' for moral obligation and what one ought to do.",
-        "わけだ means 'no wonder/that is why', explaining past reasons, but this sentence prescribes what 'ought to be done' in the future.",
-        "This form means 'should not' creating a negative statement, but the sentence requires the positive form 'should do' asserting the obligation."
+        "はずだ expresses logical expectation 'should be', but this sentence requires べきだ for moral obligation and what one ought to do.",
+        "ほうがいい suggests a preference or recommendation ('it would be better to'), but べきだ conveys a stronger sense of duty and moral obligation that one 'ought' to fulfill.",
+        "ものだと expresses a general principle or emotional truth ('things are such that...'), but this sentence specifically prescribes filial duty as a moral obligation."
       ]
     },
     {
       "id": "n3_006_5",
-      "example_sentence": "文化的な活動に参加すべきだと思う。",
-      "translation": "I think one ought to participate in cultural activities.",
-      "blank_target": "べきだと",
+      "example_sentence": "子どもに対しては、親が責任を持ってしっかり向き合うべきだ。",
+      "translation": "Parents ought to face their children seriously with a sense of responsibility.",
+      "blank_target": "べきだ",
       "wrong_choices": [
-        "はずだと",
-        "わけだと",
-        "べきではなく"
+        "ことだ",
+        "わけがないと",
+        "つもりだ"
       ],
       "wrong_choice_explanations": [
-        "はずだと suggests logical expectation, but べきだと expresses moral obligation or duty, which is the intended meaning.",
-        "わけだと means 'that is why,' explaining a reason or consequence, not expressing what one ought to do.",
-        "べきではなく means 'should not,' which contradicts the affirmative obligation expressed in the sentence."
+        "ことだ means 'it is a matter that...' or 'the thing is...', but this sentence expresses a moral obligation that parents should face their children seriously, not just a matter of fact.",
+        "わけがないと means 'there is no way that...' or 'it cannot be the case that...', which creates a negative statement contradicting the affirmative obligation the sentence requires.",
+        "つもりだ expresses intention or plan ('intend to'), but the sentence prescribes what parents ought to do as a moral duty, not what they personally intend to do."
       ]
     },
     {
@@ -107,13 +91,13 @@
       "blank_target": "べきだ",
       "wrong_choices": [
         "はずだ",
-        "ものだ",
-        "べきではない"
+        "ことだ",
+        "しかないだろうと"
       ],
       "wrong_choice_explanations": [
-        "'はずだ' expresses expectation; '〜べきだ' is needed for moral obligation.",
-        "'ものだ' expresses natural inevitability; '〜べきだ' is for what one should do.",
-        "This is the negative form; the sentence requires the affirmative form."
+        "はずだ expresses expectation ('should be the case'), but this sentence emphasizes moral obligation and duty to follow medical advice, not a logical expectation about what will happen.",
+        "ことだ expresses a matter or fact ('it's a matter that...'), but the speaker is prescribing what one should do as an obligation, not stating a simple fact.",
+        "しかないだろう means 'there is no choice but to...' or 'one must...', which implies constraint or inevitability rather than the normative obligation that べきだ conveys."
       ]
     },
     {
@@ -122,14 +106,14 @@
       "translation": "You ought to listen well before judging someone.",
       "blank_target": "べきだ",
       "wrong_choices": [
-        "はずだ",
-        "ものだ",
-        "べきではない"
+        "わけだ",
+        "ほうがいい",
+        "ものだ"
       ],
       "wrong_choice_explanations": [
-        "〜はずだ expresses expectation based on logic, but the sentence expresses moral obligation about what one should do",
-        "〜ものだ expresses general truths, but the sentence specifically prescribes what should be done in this situation",
-        "This is the negative form, which contradicts the affirmative obligation in the sentence"
+        "わけだ means 'that explains why' or 'no wonder,' providing a logical explanation after a consequence, but this sentence prescribes what one should do morally before acting.",
+        "ほうがいい suggests a preference or recommendation ('it would be better to'), but べきだ conveys a stronger ethical obligation that one 'ought' to fulfill based on principle.",
+        "ものだ expresses natural truths or emotional statements, but this sentence specifically prescribes a moral obligation about proper conduct before judgment."
       ]
     },
     {
@@ -139,29 +123,45 @@
       "blank_target": "べきだ",
       "wrong_choices": [
         "はずだ",
-        "ものだ",
-        "べきではない"
+        "ことだ",
+        "つもりだ"
       ],
       "wrong_choice_explanations": [
-        "はずだ means 'should be' based on expectation, but this sentence emphasizes obligation and responsibility, not what one expects to be the case.",
-        "ものだ expresses a natural truth or emotional statement, but the sentence specifically conveys duty and moral obligation.",
-        "This expresses what one should not do, but the sentence is about what one should tackle, not what to avoid."
+        "はずだ means 'should be' based on expectation or logic, but this sentence emphasizes responsibility and obligation to tackle environmental issues, not a logical expectation.",
+        "ことだ means 'it is a matter that...' or expresses something as a factual proposition, but the sentence conveys moral duty and responsibility, not a neutral statement of fact.",
+        "つもりだ expresses intention or personal plan ('intend to'), but the sentence prescribes what society should do as a collective moral obligation."
       ]
     },
     {
       "id": "n3_006_9",
-      "example_sentence": "社会に貢献することは、みんなの責務であるべきだ。",
-      "translation": "Contributing to society ought to be everyone's responsibility.",
+      "example_sentence": "社会に貢献することは、みんなが実行するべきだと言えます。",
+      "translation": "It can be said that contributing to society is something everyone should do.",
+      "blank_target": "べきだ",
+      "wrong_choices": [
+        "ほうがいいと",
+        "ものだと",
+        "ざるを得ないと"
+      ],
+      "wrong_choice_explanations": [
+        "ほうがいいと means 'it would be better if...', expressing a preference, but べきだ conveys a stronger normative obligation that society members 'should' fulfill.",
+        "ものだと expresses what is natural or habitual, but this sentence emphasizes ethical obligation and duty to contribute to society, not what is naturally inevitable.",
+        "ざるを得ないと means 'cannot help but...' or 'forced to...', expressing inevitability or constraint, but the sentence asserts normative obligation based on moral principle, not unavoidable necessity."
+      ]
+    },
+    {
+      "id": "n3_006_10",
+      "example_sentence": "ステークホルダーの利益を優先すべきだ。",
+      "translation": "We ought to prioritize stakeholder interests.",
       "blank_target": "べきだ",
       "wrong_choices": [
         "はずだ",
-        "ものだ",
-        "べきではない"
+        "ことだ",
+        "ほうがいい"
       ],
       "wrong_choice_explanations": [
-        "はずだ expresses expectation based on logic or probability, but the sentence conveys moral or ethical obligation, not mere expectation.",
-        "ものだ describes what is natural or habitual, but the context emphasizes duty or responsibility that someone 'ought to' fulfill.",
-        "べきではない means 'should not,' the opposite of what is needed; the sentence states what 'should be,' requiring the affirmative form."
+        "はずだ is a logical expectation ('should be the case'), but the sentence expresses a moral obligation or prescriptive duty to prioritize stakeholder interests.",
+        "ことだ expresses something as a matter or fact, but this sentence prescribes what one 'should' do as an obligation, not a neutral factual statement.",
+        "ほうがいい means 'it would be better to...', suggesting a preference, but べきだ carries the stronger sense of normative obligation and responsibility that the business context demands."
       ]
     }
   ]

@@ -21,22 +21,6 @@
       ]
     },
     {
-      "id": "n3_043_10",
-      "example_sentence": "過去データを検証したところ、トレンドが見えた。",
-      "translation": "When I verified past data, a trend emerged.",
-      "blank_target": "したところ",
-      "wrong_choices": [
-        "しているところ",
-        "してみたら",
-        "したばかり"
-      ],
-      "wrong_choice_explanations": [
-        "ているところ means 'in the middle of', but the sentence expresses completion and discovery.",
-        "てみたら expresses 'when I tried', which is similar but less formal than たところ.",
-        "ばかり means 'just' but doesn't convey the discovery aspect of たところ."
-      ]
-    },
-    {
       "id": "n3_043_2",
       "example_sentence": "その会社に電話したところ、既に倒産していた。",
       "translation": "When I tried calling the company, they had already gone bankrupt.",
@@ -74,14 +58,14 @@
       "translation": "When I tried confessing on the date, she said yes.",
       "blank_target": "たところ",
       "wrong_choices": [
-        "っているところ",
-        "ってみたら",
-        "ったばかり"
+        "てしまった",
+        "とたんに",
+        "ばかりで"
       ],
       "wrong_choice_explanations": [
-        "This is present progressive 'in the middle of', but the sentence requires past 'たところ' for 'just finished'.",
-        "ってみたら means 'tried and found that', similar to たところ but 'たところ' is more direct.",
-        "ばかり means 'just did', but this sentence specifically uses 'たところ' for a result upon attempting."
+        "てしまった means 'ended up doing (often regrettably)', but the sentence is positive and requires たところ for 'when I did and found'.",
+        "とたんに means 'the moment', expressing simultaneous events, but the sentence requires たところ for the discovery following the action.",
+        "ばかりで means 'just did and', but the sentence specifically uses たところ for the cause-and-result relationship."
       ]
     },
     {
@@ -90,14 +74,14 @@
       "translation": "When I went to the department store, they were having a sale.",
       "blank_target": "ったところ",
       "wrong_choices": [
-        "っているところ",
-        "ってみたら",
-        "ったばかり"
+        "ってしまった",
+        "ったとたん",
+        "ったあと"
       ],
       "wrong_choice_explanations": [
-        "っているところ means 'is in the middle of,' but the sentence describes discovering something upon arrival.",
-        "ってみたら means 'tried and then,' but たところ more naturally expresses discovering a circumstance.",
-        "ったばかり means 'just did,' but the sentence emphasizes the discovery aspect of たところ."
+        "ってしまった means 'ended up going (regrettably)', but the sentence is neutral about going; it's about the discovery at the store.",
+        "ったとたん means 'the moment I went', which emphasizes simultaneity more than the discovery aspect.",
+        "ったあと means 'after going', which focuses on temporal sequence rather than the discovery that occurred."
       ]
     },
     {
@@ -106,14 +90,14 @@
       "translation": "When I went to the store, it was closed.",
       "blank_target": "ったところ",
       "wrong_choices": [
-        "っているところ",
-        "ってみたら",
-        "ったばかり"
+        "ったときに",
+        "ったら",
+        "った時点で"
       ],
       "wrong_choice_explanations": [
-        "Redundant/awkward double expression.",
-        "'ってみたら' means 'tried and found'; '〜たところ' is for 'just finished'.",
-        "'ったばかり' means 'just did'; it's similar to '〜たところ' but doesn't quite fit here."
+        "ったときに means 'at the time when', which is a general temporal reference but lacks the discovery aspect of たところ.",
+        "ったら means 'when/if', which is conditional, whereas たところ specifically frames the finding/discovery upon arriving.",
+        "った時点で means 'at the point when', which is temporal but doesn't capture the nuance of discovering an unexpected situation."
       ]
     },
     {
@@ -122,14 +106,14 @@
       "translation": "When I tried contacting him, he replied immediately.",
       "blank_target": "したところ",
       "wrong_choices": [
-        "しているところ",
-        "してみたら",
-        "したばかり"
+        "してしまったら",
+        "ようとしたら",
+        "するところです"
       ],
       "wrong_choice_explanations": [
-        "This means 'in the process of', but the sentence describes a completed attempt with a result",
-        "While both express trying, 〜たところ emphasizes the result discovered, not just the attempt",
-        "〜たばかり means 'just did', but 〜たところ emphasizes the discovery or result"
+        "してしまったら means 'when I ended up doing', which suggests something unintended, but the sentence is neutral about the contact itself.",
+        "ようとしたら means 'when I was about to', referring to attempts to start, not to completing an action and discovering a result.",
+        "するところです means 'is about to do', but the sentence describes a completed action with its result, not a future intent."
       ]
     },
     {
@@ -138,30 +122,46 @@
       "translation": "When I tested the product, I found bugs.",
       "blank_target": "したところ",
       "wrong_choices": [
-        "しているところ",
-        "してみたら",
-        "したばかり"
+        "してから",
+        "した結果として",
+        "している間に"
       ],
       "wrong_choice_explanations": [
-        "しているところ means 'in the middle of', but the sentence describes the result after testing.",
-        "してみたら means 'I tried and found', close but たところ is more standard for test results.",
-        "したばかり means 'just did', but the sentence describes what was discovered during testing."
+        "してから means 'after doing', which emphasizes temporal sequence but not the discovery or finding aspect.",
+        "した結果として means 'as a result of doing', which is similar but more formal and shifts focus to consequence rather than the moment of finding.",
+        "している間に means 'while doing', which refers to an ongoing process, not a completed action leading to a discovery."
       ]
     },
     {
       "id": "n3_043_9",
       "example_sentence": "改善案を実行したところ、効果が出た。",
       "translation": "When I implemented the improvement plan, it worked.",
-      "blank_target": "たところ",
+      "blank_target": "したところ",
       "wrong_choices": [
-        "っているところ",
-        "ってみたら",
-        "ったばかり"
+        "しているところ",
+        "してみたら",
+        "したばかり"
       ],
       "wrong_choice_explanations": [
-        "っているところです means 'in the middle of,' but the sentence indicates the result after implementation, requiring past たところ.",
-        "ってみたら means 'when I tried,' but the sentence describes actual implementation and results, not experimentation.",
-        "ったばかり means 'just finished,' but the sentence emphasizes the consequent results discovered, not immediate recency."
+        "しているところ means 'in the middle of,' but the sentence indicates the result after implementation, requiring past したところ.",
+        "してみたら means 'when I tried,' but the sentence describes actual implementation and results, not experimentation.",
+        "したばかり means 'just finished,' but the sentence emphasizes the consequent results discovered, not immediate recency."
+      ]
+    },
+    {
+      "id": "n3_043_10",
+      "example_sentence": "過去データを検証したところ、トレンドが見えた。",
+      "translation": "When I verified past data, a trend emerged.",
+      "blank_target": "したところ",
+      "wrong_choices": [
+        "してしまった",
+        "するまで",
+        "していく中で"
+      ],
+      "wrong_choice_explanations": [
+        "してしまった means 'ended up doing', which can suggest regret or unexpectedness, but the sentence is analytical and objective.",
+        "するまで means 'until doing', which focuses on the duration before completion, not the discovery that follows.",
+        "していく中で means 'in the process of doing', which emphasizes ongoing action rather than the insight gained from completed verification."
       ]
     }
   ]

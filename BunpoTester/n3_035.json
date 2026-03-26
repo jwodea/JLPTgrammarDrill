@@ -21,35 +21,19 @@
       ]
     },
     {
-      "id": "n3_035_10",
-      "example_sentence": "懸念したほど、問題は深刻ではありませんでした。",
-      "translation": "The problem was not as serious as I was concerned.",
-      "blank_target": "たほど",
-      "wrong_choices": [
-        "ったより",
-        "ったほどに",
-        "ったくらい"
-      ],
-      "wrong_choice_explanations": [
-        "より expresses comparison, but doesn't create the 'not as...as' structure of ほど〜ない.",
-        "ほどに is different; ほど〜ない is the correct pattern.",
-        "くらい is roughly 'about', not the comparative 'not as...as' meaning."
-      ]
-    },
-    {
       "id": "n3_035_2",
-      "example_sentence": "このプロジェクトは想像したほど複雑ではありません。",
-      "translation": "This project is not as complicated as I imagined.",
+      "example_sentence": "このプロジェクトは聞いていたほど複雑ではありません。",
+      "translation": "This project is not as complicated as I heard.",
       "blank_target": "たほど",
       "wrong_choices": [
-        "ったより",
-        "ったほどに",
+        "ほどは",
+        "ように",
         "ったくらい"
       ],
       "wrong_choice_explanations": [
-        "ったより means 'more than', but the sentence uses ほど for the comparative 'not as...as' structure.",
-        "ったほどに is a less common form; ほど alone with ない is the standard structure for 'not as...as'.",
-        "ったくらい means 'about/roughly', but the sentence requires ほど for the specific meaning of 'not as complicated as I imagined'."
+        "ったより means 'more than what I heard,' but the sentence uses ほど for the comparative 'not as...as' structure.",
+        "ように means 'like / as if / in the manner of,' but doesn't express the 'not as... as' comparison.",
+        "ったくらい means 'about/roughly', but the sentence requires ほど for the specific meaning of 'not as complicated as I heard.'"
       ]
     },
     {
@@ -59,36 +43,36 @@
       "blank_target": "たほど",
       "wrong_choices": [
         "ったより",
-        "ったほどに",
+        "みたいに",
         "ったくらい"
       ],
       "wrong_choice_explanations": [
         "ったより means 'more than what was imagined,' but the sentence uses ほど to express comparative degree.",
-        "ったほどに is awkward; the correct form is ったほど with the negative.",
+        "みたいに means 'like / seemingly,' but doesn't express the comparative 'not as... as' pattern.",
         "ったくらい means 'about as,' but the sentence uses ほど in the 'not as... as' structure."
       ]
     },
     {
       "id": "n3_035_4",
-      "example_sentence": "このレストランは思ったほど高くありませんでした。",
-      "translation": "This restaurant was not as expensive as I thought.",
-      "blank_target": "ったほど",
+      "example_sentence": "このレストランは考えたほど高くありませんでした。",
+      "translation": "This restaurant was not as expensive as I considered.",
+      "blank_target": "たほど",
       "wrong_choices": [
         "ったより",
         "ったほどに",
-        "ったくらい"
+        "ぐらい"
       ],
       "wrong_choice_explanations": [
         "より can express comparison but without 'ほど', it doesn't create the specific 'not as...as' pattern.",
         "ほどに is awkward; this sentence requires 'ほど' alone for the 'not as...as' comparison pattern.",
-        "くらい can mean 'about' or 'to the extent of', but this sentence requires 'ほど' for the specific comparison pattern."
+        "ぐらい can mean 'about' or 'roughly', but this sentence requires 'ほど' for the specific comparison pattern."
       ]
     },
     {
       "id": "n3_035_5",
-      "example_sentence": "このお店は思ったほど安くありませんでした。",
-      "translation": "This shop was not as cheap as I thought.",
-      "blank_target": "ったほど",
+      "example_sentence": "このお店は見たほど安くありませんでした。",
+      "translation": "This shop was not as cheap as I saw.",
+      "blank_target": "たほど",
       "wrong_choices": [
         "ったより",
         "ったほどに",
@@ -102,18 +86,18 @@
     },
     {
       "id": "n3_035_6",
-      "example_sentence": "想像したほど、困難ではありませんでした。",
-      "translation": "It was not as difficult as I imagined.",
+      "example_sentence": "見ていたほど、困難ではありませんでした。",
+      "translation": "It was not as difficult as I had seen.",
       "blank_target": "たほど",
       "wrong_choices": [
         "ったより",
-        "ったほどに",
-        "ったくらい"
+        "ように",
+        "ぐらい"
       ],
       "wrong_choice_explanations": [
-        "'ったより' means 'more than'; it doesn't express the negative comparison.",
-        "This is awkwardly expressed; '〜ほど〜ない' is the proper form.",
-        "'ったくらい' means 'about/approximately'; it doesn't express the negative comparison."
+        "'ったより' means 'more than'; it doesn't express the negative comparison structure.",
+        "'ように' means 'like / as if,' not the 'not as...as' pattern.",
+        "'ぐらい' means 'about/roughly'; it doesn't express the negative comparison."
       ]
     },
     {
@@ -123,45 +107,61 @@
       "blank_target": "たほど",
       "wrong_choices": [
         "ったより",
-        "ったほどに",
-        "ったくらい"
+        "みたいに",
+        "ったほどに"
       ],
       "wrong_choice_explanations": [
-        "〜より means 'than', but 〜ほど〜ない expresses an expected standard that wasn't met",
-        "This is not a natural form; 〜ほど〜ない is the correct pattern",
-        "〜くらい means 'about' or 'approximately', but doesn't express the negation of expectation"
+        "〜より means 'than', but 〜ほど〜ない expresses an expected standard that wasn't met.",
+        "〜みたいに means 'like / seemingly,' but doesn't express the negation of expectation.",
+        "This is not a natural form; 〜ほど〜ない is the correct pattern."
       ]
     },
     {
       "id": "n3_035_8",
-      "example_sentence": "心配したほど、悪い結果ではありませんでした。",
-      "translation": "The results were not as bad as I worried.",
+      "example_sentence": "予測していたほど、悪い結果ではありませんでした。",
+      "translation": "The results were not as bad as I predicted.",
       "blank_target": "たほど",
       "wrong_choices": [
         "ったより",
         "ったほどに",
-        "ったくらい"
+        "ぐらい"
       ],
       "wrong_choice_explanations": [
         "より indicates comparison, but ほど is needed for the negation pattern 'not as...as'.",
         "This adds に unnecessarily; the standard pattern is ほど~ない without に.",
-        "くらい can mean 'about' or 'to the extent', but ほど is the standard form for this negation pattern."
+        "ぐらい can mean 'about' or 'to the extent', but ほど is the standard form for this negation pattern."
       ]
     },
     {
       "id": "n3_035_9",
-      "example_sentence": "予想したほど、難しい試験ではありませんでした。",
-      "translation": "The exam was not as difficult as I expected.",
+      "example_sentence": "読んだほど、難しい試験ではありませんでした。",
+      "translation": "The exam was not as difficult as what I read.",
       "blank_target": "たほど",
       "wrong_choices": [
         "ったより",
-        "ったほどに",
+        "ように",
         "ったくらい"
       ],
       "wrong_choice_explanations": [
-        "ったより means 'more than I expected,' but the sentence requires the negative comparison form 'not as...as,' which ほど〜ない provides.",
-        "ったほどに adds unnecessary particles; the simple ほど pattern is correct for negating the extent of difficulty.",
+        "ったより means 'more than what I read,' but the sentence requires the negative comparison form 'not as...as,' which ほど〜ない provides.",
+        "ように means 'like / in the manner of,' not the comparative 'not as...as' meaning.",
         "ったくらい means 'about as...as' in a positive sense, but the sentence negates the comparison with ません, requiring ほど."
+      ]
+    },
+    {
+      "id": "n3_035_10",
+      "example_sentence": "懸念したほど、問題は深刻ではありませんでした。",
+      "translation": "The problem was not as serious as I was concerned.",
+      "blank_target": "たほど",
+      "wrong_choices": [
+        "ったほどに",
+        "みたいに",
+        "ぐらい"
+      ],
+      "wrong_choice_explanations": [
+        "より expresses comparison, but doesn't create the 'not as...as' structure of ほど〜ない.",
+        "ほどは is a variant with は particle, but the standard pattern uses bare ほど with ない.",
+        "ぐらい is roughly 'about', not the comparative 'not as...as' meaning."
       ]
     }
   ]

@@ -12,44 +12,28 @@
       "wrong_choices": [
         "かもしれません",
         "はずです",
-        "ようです"
+        "らしいです"
       ],
       "wrong_choice_explanations": [
-        "かもしれない means 'might,' expressing mere possibility, but the speaker is drawing a strong, confident conclusion from evidence.",
+        "かもしれません means 'might,' expressing mere possibility, but the speaker is drawing a strong, confident conclusion from evidence.",
         "はずです means 'should be' based on logical reasoning, but にちがいない conveys even stronger personal conviction—'there's no doubt.'",
-        "ようです means 'it seems' based on observation, which is weaker than the speaker's firm conviction expressed here."
-      ]
-    },
-    {
-      "id": "n3_008_10",
-      "example_sentence": "その戦術は計算されたものに違いない。",
-      "translation": "That tactic must be calculated.",
-      "blank_target": "に違いない",
-      "wrong_choices": [
-        "かもしれない",
-        "のはずだ",
-        "のようだ"
-      ],
-      "wrong_choice_explanations": [
-        "かもしれない means 'might/possibly', expressing uncertainty, but the sentence asserts the inevitability of the tactic.",
-        "のはずだ is a logical expectation based on normal knowledge, less strong than the certainty of に違いない.",
-        "のようだ means 'seems like' based on appearance or inference, but this sentence requires the firm assertion of に違いない."
+        "らしいです means 'apparently/so I've heard,' but the speaker is making a direct observation and firm conclusion, not reporting what others say."
       ]
     },
     {
       "id": "n3_008_2",
       "example_sentence": "彼の成績から見ると、一流大学に合格するに違いない。",
-      "translation": "Judging from his grades, he must pass a top-tier university.",
+      "translation": "Judging from his grades, he must get into a top-tier university.",
       "blank_target": "に違いない",
       "wrong_choices": [
         "かもしれません",
-        "はずです",
-        "ようです"
+        "ようです",
+        "そうだ"
       ],
       "wrong_choice_explanations": [
         "かもしれません means 'might' expressing uncertainty and possibility, but the sentence asserts a strong conclusion based on grades, not a tentative possibility.",
-        "はずです means 'should be' as an expectation, but the sentence makes a more definitive conclusion from evidence, not just a logical expectation.",
-        "ようです means 'seems' based on observation, but the sentence draws a logical conclusion from concrete grades, not from appearance or observation."
+        "ようです means 'seems' based on observation, but the sentence draws a logical conclusion from concrete grades, not from appearance or observation.",
+        "そうだ means 'it seems/appears,' but the sentence makes a definitive assertion from factual evidence, not a tentative impression."
       ]
     },
     {
@@ -59,29 +43,29 @@
       "blank_target": "に違いない",
       "wrong_choices": [
         "かもしれません",
-        "はずです",
-        "ようです"
+        "だろう",
+        "わけだ"
       ],
       "wrong_choice_explanations": [
         "かもしれません means 'might or possibly,' expressing uncertainty, but the sentence conveys certainty that the mountain view is breathtaking.",
-        "はずです means 'should be based on expectation,' but the sentence uses observation to conclude certainty, not logical expectation.",
-        "ようです means 'it seems based on observation,' but the sentence moves beyond appearance to conclude a definite certainty about the view."
+        "だろう expresses supposition or conjecture, but the sentence is based on direct observation and firm conclusion, not speculation.",
+        "わけだ means 'it stands to reason' or 'it makes sense that,' but it's used to explain reasons, not to assert definite certainty from observation."
       ]
     },
     {
       "id": "n3_008_4",
-      "example_sentence": "あの人の優しさを見ると、いい家庭育ちに違いない。",
-      "translation": "Seeing how kind that person is, they must have come from a good family.",
+      "example_sentence": "このアパートの値段の高さを見ると、最新式の設備に違いない。",
+      "translation": "Seeing how high the rent is on this apartment, it must have state-of-the-art facilities.",
       "blank_target": "に違いない",
       "wrong_choices": [
-        "かもしれません",
         "はずです",
-        "ようです"
+        "つもりだ",
+        "ことだ"
       ],
       "wrong_choice_explanations": [
-        "かもしれません means 'might/possibly' expressing uncertainty, but this sentence makes a strong confident assertion without doubt.",
-        "はずです means 'should be' from logical expectation, but this sentence requires 'に違いない' for a definitive statement based on evidence.",
-        "ようです means 'seems like' based on appearance, but this sentence makes a strong conclusion from observed evidence, not just appearance."
+        "はずです means 'should be' based on logical expectation, but this sentence requires にちがいない for a firm assertion based on direct evidence (the high rent).",
+        "つもりだ means 'one intends/plans to,' but this sentence draws a conclusion about existing facilities, not about intentions or plans.",
+        "ことだ is used to refer to things or events as objects, not to express conviction about something that must be true."
       ]
     },
     {
@@ -91,45 +75,45 @@
       "blank_target": "に違いない",
       "wrong_choices": [
         "かもしれません",
-        "はずです",
-        "ようです"
+        "のようだ",
+        "ものだ"
       ],
       "wrong_choice_explanations": [
-        "かもしれません expresses possibility or uncertainty, but the sentence conveys conviction based on evidence.",
-        "はずです suggests a logical expectation, but にちがいない expresses strong certainty based on observable facts.",
-        "ようです means 'it seems based on appearance,' but the sentence infers certainty from observed evidence, not mere appearance."
+        "かもしれません expresses possibility or uncertainty, but the sentence conveys conviction based on observable evidence of experience.",
+        "のようだ means 'seems like' based on appearance or resemblance, but the sentence infers certainty from substantive evidence, not mere appearance.",
+        "ものだ describes habitual actions or general truths, but the sentence asserts a definite conclusion about this specific person's status."
       ]
     },
     {
       "id": "n3_008_6",
-      "example_sentence": "この料理は有名なシェフが作ったに違いない。",
-      "translation": "This dish must have been made by a famous chef.",
+      "example_sentence": "この料理の繊細な味わいと美しい盛り付けを見ると、有名なシェフが作ったに違いない。",
+      "translation": "Looking at this dish's delicate flavor and beautiful presentation, it must have been made by a famous chef.",
       "blank_target": "に違いない",
       "wrong_choices": [
         "かもしれない",
-        "のはずだ",
-        "のようだ"
+        "らしい",
+        "のはずだ"
       ],
       "wrong_choice_explanations": [
-        "'かもしれない' expresses possibility/uncertainty; '〜にちがいない' is needed for deduced certainty.",
-        "'のはずだ' expresses expectation; '〜にちがいない' is for definitive deduction.",
-        "'のようだ' means 'seems like'; '〜にちがいない' is for stating what must be true."
+        "かもしれない expresses possibility or uncertainty ('might be'), but this sentence makes a firm, definitive assertion from concrete sensory evidence (taste and presentation).",
+        "らしい means 'apparently/seemingly' based on hearsay or indirect information, but this sentence draws certainty from direct observation of the food itself.",
+        "のはずだ expresses logical expectation based on normal knowledge, but this sentence demands stronger assertion—absolute certainty inferred from the food's quality."
       ]
     },
     {
       "id": "n3_008_7",
-      "example_sentence": "あの人の写真は昔に撮ったに違いない。",
-      "translation": "That photo must have been taken long ago.",
+      "example_sentence": "この写真の色褪せ方と品質を見ると、ずっと昔に撮られたに違いない。",
+      "translation": "Looking at the faded color and quality of this photo, it must have been taken long ago.",
       "blank_target": "に違いない",
       "wrong_choices": [
         "かもしれない",
-        "のはずだ",
-        "のようだ"
+        "そうだ",
+        "ようだ"
       ],
       "wrong_choice_explanations": [
-        "〜かもしれない means 'might', expressing uncertainty, but the sentence strongly asserts that the photo was taken long ago",
-        "〜はずだ expresses expectation, but the sentence demands stronger certainty about when the photo was taken",
-        "〜ようだ indicates appearance or seeming, but the sentence expresses definite logical certainty about the past"
+        "かもしれない means 'might,' expressing uncertainty, but the sentence strongly asserts that the photo's age is definite based on visible evidence.",
+        "そうだ means 'it seems/appears to be,' suggesting a tentative impression, but the sentence expresses firm logical certainty from physical evidence.",
+        "ようだ indicates appearance or seeming, but the sentence expresses definite logical certainty about the past based on deterioration, not just appearance."
       ]
     },
     {
@@ -139,13 +123,13 @@
       "blank_target": "に違いない",
       "wrong_choices": [
         "かもしれない",
-        "のはずだ",
-        "のようだ"
+        "つもりだ",
+        "のはずだ"
       ],
       "wrong_choice_explanations": [
-        "かもしれない means 'might' or 'possibly', but the sentence asserts strong certainty about the signal's intentionality.",
-        "のはずだ means 'is supposed to be' based on expectation, but the sentence expresses strong certainty without doubt.",
-        "のようだ means 'seems like' based on observation, but the sentence asserts a definite conclusion without suggesting appearance."
+        "かもしれない means 'might' or 'possibly', but the sentence asserts strong certainty based on analysis of the signal's nature, not mere possibility.",
+        "つもりだ expresses intent or plans ('intends to'), but this sentence describes a deduced fact about an existing signal, not someone's intention.",
+        "のはずだ means 'is supposed to be' based on expectation, but the sentence expresses strong certainty based on evidence, not logical expectation."
       ]
     },
     {
@@ -155,13 +139,29 @@
       "blank_target": "に違いない",
       "wrong_choices": [
         "かもしれない",
-        "のはずだ",
+        "ことだ",
         "のようだ"
       ],
       "wrong_choice_explanations": [
-        "かもしれない means 'might' or 'possibly,' expressing uncertainty, but the sentence asserts certainty that something definitely is true.",
-        "のはずだ expresses logical expectation, but the context requires strong assertion of certainty, not mere expectation.",
-        "のようだ means 'seems' based on observation, but the sentence demands confident assertion that something definitely must be true."
+        "かもしれない means 'might' or 'possibly,' expressing uncertainty, but the sentence asserts certainty that the reaction definitely reveals true feelings.",
+        "ことだ refers to things or matters as objects ('that thing'), but the sentence makes a conviction-based assertion, not a nominal reference.",
+        "のようだ means 'seems' based on observation, but the sentence makes a firm deduction about what the reaction truly represents, not just an apparent impression."
+      ]
+    },
+    {
+      "id": "n3_008_10",
+      "example_sentence": "その戦術は計算されたものに違いない。",
+      "translation": "That tactic must be calculated.",
+      "blank_target": "に違いない",
+      "wrong_choices": [
+        "だろう",
+        "らしい",
+        "わけだ"
+      ],
+      "wrong_choice_explanations": [
+        "だろう expresses supposition or conjecture ('probably'), but the sentence asserts definite certainty about the tactic's intentional design based on evidence.",
+        "らしい means 'apparently/so I've heard,' suggesting indirect knowledge, but this sentence expresses firm conviction from direct observation of the tactic.",
+        "わけだ means 'it stands to reason' and is used to explain reasons, but the sentence asserts what something must be, not why something makes sense."
       ]
     }
   ]

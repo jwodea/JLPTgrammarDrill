@@ -21,34 +21,18 @@
       ]
     },
     {
-      "id": "n3_017_10",
-      "example_sentence": "来期からは新しいシステムを導入することにしました。",
-      "translation": "We decided to introduce a new system from next term.",
-      "blank_target": "ることにしました",
-      "wrong_choices": [
-        "ることになりました",
-        "ることがありました",
-        "るようにしました"
-      ],
-      "wrong_choice_explanations": [
-        "ることになりました expresses external decision/circumstance, not the active personal decision that ことにする conveys.",
-        "ることがありました means 'there were times when', expressing occasional past events, not decision-making.",
-        "るようにしました means 'tried/made effort to', expressing attempt, not the decisiveness of ことにした."
-      ]
-    },
-    {
       "id": "n3_017_2",
       "example_sentence": "来年から、英語の研修に参加することにしました。",
       "translation": "I decided to participate in English training starting next year.",
       "blank_target": "することにしました",
       "wrong_choices": [
         "することになりました",
-        "することがありました",
+        "つもりでした",
         "するようにしました"
       ],
       "wrong_choice_explanations": [
         "することになりました means 'it has been decided' (passive or circumstantial), but the sentence expresses a personal decision made by the speaker.",
-        "することがありました means 'there were times when I did', but the sentence indicates a single definite decision, not occasional occurrences.",
+        "つもりでした means 'intended to' or 'was planning to,' suggesting future intention without concrete commitment, but ことにした emphasizes the firm decision already made.",
         "するようにしました means 'made an effort to' or 'came to do regularly', but the sentence expresses a one-time decision, not a habit or effort."
       ]
     },
@@ -75,12 +59,12 @@
       "blank_target": "ることにしました",
       "wrong_choices": [
         "ることになりました",
-        "ることがありました",
+        "はずでした",
         "るようにしました"
       ],
       "wrong_choice_explanations": [
         "ことになった means 'it came to be decided', suggesting external forces or circumstances, but this sentence expresses a deliberate personal decision.",
-        "ことがある means 'there are times when', describing occasional occurrences, but this sentence describes a firm decision made at a specific moment.",
+        "はずでした means 'was supposed to' or 'should have,' expressing expectation based on logic or reason, but ることにした expresses active personal determination.",
         "ようにした means 'made an effort to do', suggesting ongoing habit, but this sentence describes a single decision made in the past."
       ]
     },
@@ -91,12 +75,12 @@
       "blank_target": "訪問することにしました",
       "wrong_choices": [
         "訪問することになりました",
-        "訪問することがありました",
+        "訪問わけでした",
         "訪問するようにしました"
       ],
       "wrong_choice_explanations": [
         "ることになりました means 'it has been decided by circumstance,' but にしました means 'I personally decided.'",
-        "ることがありました means 'there were times when,' indicating past occurrences, not a decision.",
+        "わけでした means 'the reason was' or 'it was because,' explaining a reason or situation, but ことにした expresses a conscious decision.",
         "るようにしました means 'started making an effort to,' showing habit-formation rather than a single decision."
       ]
     },
@@ -111,9 +95,9 @@
         "るようにしました"
       ],
       "wrong_choice_explanations": [
-        "'ることになりました' has a different meaning and doesn't fit the sentence context where '〜ことにする' is required.",
-        "'ることがありました' has a different meaning and doesn't fit the sentence context where '〜ことにする' is required.",
-        "'るようにしました' has a different meaning and doesn't fit the sentence context where '〜ことにする' is required."
+        "ることになりました means 'it was decided by circumstances or external forces' (passive voice implication), implying the decision was made for you, not by your own will. The sentence requires active personal decision-making.",
+        "ることがありました means 'there were times when I did' or 'I have experienced,' describing past occasional events, not a deliberate personal commitment to do something. The sentence describes a single resolved decision.",
+        "るようにしました means 'I worked to make sure' or 'I made an effort toward,' suggesting a gradual habit-building process rather than the decisive moment. This sentence expresses the moment of resolve itself."
       ]
     },
     {
@@ -123,12 +107,12 @@
       "blank_target": "ることにしました",
       "wrong_choices": [
         "ることになりました",
-        "ることがありました",
+        "ものでした",
         "るようにしました"
       ],
       "wrong_choice_explanations": [
         "〜ることになる means 'it was decided/happened', but the sentence indicates a personal decision, not an external decision",
-        "〜ることがある means 'there were times when', but the sentence indicates a deliberate decision, not occasional occurrence",
+        "ものでした means 'it is the case that' or 'is a thing that,' used to state a fact or characteristic about something, but ることにした expresses a conscious personal choice.",
         "〜るようにする means 'to make an effort to', which differs from making a definite decision"
       ]
     },
@@ -139,12 +123,12 @@
       "blank_target": "ることにしました",
       "wrong_choices": [
         "ることになりました",
-        "ることがありました",
+        "ばかりでした",
         "るようにしました"
       ],
       "wrong_choice_explanations": [
         "ることになりました means 'it came about' or was decided by circumstances, but the sentence expresses a personal decision.",
-        "ることがありました means 'there were times when', but the sentence describes a single deliberate decision.",
+        "ばかりでした means 'it was just' or 'had only just,' describing a recent or limited action, but ることにした expresses resolve or commitment to a chosen course.",
         "るようにしました means 'I made an effort to', but the sentence expresses a decisive choice already made."
       ]
     },
@@ -155,13 +139,29 @@
       "blank_target": "ることにしました",
       "wrong_choices": [
         "ることになりました",
-        "ることがありました",
+        "ところでした",
         "るようにしました"
       ],
       "wrong_choice_explanations": [
         "ることになりました means 'it was decided' passively or by circumstances, but the sentence emphasizes the speaker's own deliberate choice.",
-        "ることがありました refers to past occurrences or experiences, but the context is about making an active decision.",
+        "ところでした means 'at the moment when' or 'just as,' marking a specific point in time or situation, but ることにした expresses a deliberate decision and commitment.",
         "るようにしました means 'made an effort to' over time, but the sentence describes a specific moment of decision in the past."
+      ]
+    },
+    {
+      "id": "n3_017_10",
+      "example_sentence": "来期からは新しいシステムを導入することにしました。",
+      "translation": "We decided to introduce a new system from next term.",
+      "blank_target": "ることにしました",
+      "wrong_choices": [
+        "ることになりました",
+        "ることがありました",
+        "るようにしました"
+      ],
+      "wrong_choice_explanations": [
+        "ることになりました expresses external decision/circumstance, not the active personal decision that ことにする conveys.",
+        "ることがありました means 'there were times when', expressing occasional past events, not decision-making.",
+        "るようにしました means 'tried/made effort to', expressing attempt, not the decisiveness of ことにした."
       ]
     }
   ]

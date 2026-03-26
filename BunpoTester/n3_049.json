@@ -21,6 +21,134 @@
       ]
     },
     {
+      "id": "n3_049_2",
+      "example_sentence": "会議のたびに、同じ意見が出ます。",
+      "translation": "Every time there is a meeting, the same opinion comes up.",
+      "blank_target": "たびに",
+      "wrong_choices": [
+        "ごとに",
+        "おきに",
+        "つど"
+      ],
+      "wrong_choice_explanations": [
+        "ごとに means 'every/each', but たびに emphasizes the recurrence each time an event happens, not fixed intervals.",
+        "おきに means 'every other/at intervals', but the sentence is about every occasion an event occurs, not fixed intervals.",
+        "つど means 'each time' but is more archaic; たびに is the modern, standard choice for 'every time.'"
+      ]
+    },
+    {
+      "id": "n3_049_3",
+      "example_sentence": "友達と会うたびに、新しい思い出が増えます。",
+      "translation": "Every time I meet with friends, I gain new memories.",
+      "blank_target": "たびに",
+      "wrong_choices": [
+        "ごとに",
+        "おきに",
+        "ときに"
+      ],
+      "wrong_choice_explanations": [
+        "ごとに means 'every,' but the sentence emphasizes that something happens each time an event occurs.",
+        "おきに means 'every other,' but the sentence uses たびに to indicate every occurrence.",
+        "ときに means 'when,' but the sentence needs たびに to express the idea of a new memory each time."
+      ]
+    },
+    {
+      "id": "n3_049_4",
+      "example_sentence": "この歌を聞くたびに、学生時代を思い出します。",
+      "translation": "Every time I hear this song, I remember my school days.",
+      "blank_target": "たびに",
+      "wrong_choices": [
+        "ごとに",
+        "おきに",
+        "と"
+      ],
+      "wrong_choice_explanations": [
+        "ごとに means 'every time' at set intervals, but this sentence requires たびに for an event-triggered pattern.",
+        "おきに means 'at intervals of/every other', but this sentence uses たびに for whenever something occurs.",
+        "と alone is too vague; this sentence requires たびに for the explicit meaning of every occasion."
+      ]
+    },
+    {
+      "id": "n3_049_5",
+      "example_sentence": "お祭りに行くたびに、新しい発見があります。",
+      "translation": "Every time I go to a festival, there is a new discovery.",
+      "blank_target": "たびに",
+      "wrong_choices": [
+        "ごとに",
+        "おきに",
+        "たら"
+      ],
+      "wrong_choice_explanations": [
+        "ごとに indicates fixed regular intervals, but たびに emphasizes each occasion when visiting.",
+        "おきに means 'every other,' creating intervals, but たびに means each time something happens.",
+        "たら means 'if/when (conditional)', but doesn't carry the meaning of 'every time'; たびに is the proper pattern."
+      ]
+    },
+    {
+      "id": "n3_049_6",
+      "example_sentence": "甘いものを見るたびに、欲しくなります。",
+      "translation": "Every time I see something sweet, I want it.",
+      "blank_target": "たびに",
+      "wrong_choices": [
+        "ごとに",
+        "おきに",
+        "ながら"
+      ],
+      "wrong_choice_explanations": [
+        "ごとに marks regular intervals; たびに is needed for 'every time'.",
+        "おきに means 'at intervals'; たびに is for occasions/instances.",
+        "ながら means 'while doing', implying simultaneous actions; たびに is needed for 'every time.'"
+      ]
+    },
+    {
+      "id": "n3_049_7",
+      "example_sentence": "失敗するたびに、諦めたいと思います。",
+      "translation": "Every time I fail, I think about giving up.",
+      "blank_target": "たびに",
+      "wrong_choices": [
+        "ごとに",
+        "おきに",
+        "時に"
+      ],
+      "wrong_choice_explanations": [
+        "〜ごとに means 'at regular intervals', but 〜たびに emphasizes 'every occasion when'.",
+        "〜おきに means 'every other', but 〜たびに means every single time something occurs.",
+        "〜時に means 'sometimes/at times', which is vague; たびに is needed for 'every time.'"
+      ]
+    },
+    {
+      "id": "n3_049_8",
+      "example_sentence": "プレゼンするたびに、緊張します。",
+      "translation": "Every time I present, I get nervous.",
+      "blank_target": "たびに",
+      "wrong_choices": [
+        "ごとに",
+        "おきに",
+        "つど"
+      ],
+      "wrong_choice_explanations": [
+        "ごとに emphasizes fixed intervals, but たびに emphasizes the frequency of occurrence.",
+        "おきに means 'every other', but たびに describes every occurrence of an event.",
+        "つど means 'each time' in archaic Japanese; たびに is the modern standard for 'every time.'"
+      ]
+    },
+    {
+      "id": "n3_049_9",
+      "example_sentence": "昇進するたびに、責任が増します。",
+      "translation": "Every time I get promoted, my responsibility increases.",
+      "blank_target": "たびに",
+      "wrong_choices": [
+        "ごとに",
+        "おきに",
+        "ながら"
+      ],
+      "wrong_choice_explanations": [
+        "ごとに emphasizes regular fixed intervals, but the sentence conveys repetition in response to recurring events, which たびに expresses.",
+        "おきに means 'every other,' but the sentence describes responsibility increasing with each promotion, not alternating intervals.",
+        "ながら means 'while', suggesting simultaneity; たびに is needed for 'every time.'"
+      ]
+    },
+    {
       "id": "n3_049_10",
       "example_sentence": "市場変動が起きるたびに、対応が必要です。",
       "translation": "Every time market fluctuations occur, response is needed.",
@@ -34,134 +162,6 @@
         "ごとに marks regular intervals, but たびに emphasizes each instance of an event.",
         "おきに refers to fixed intervals, not the event-based repetition of たびに.",
         "と is a conjunction meaning 'and', not for expressing 'every time'."
-      ]
-    },
-    {
-      "id": "n3_049_2",
-      "example_sentence": "会議のたびに、同じ意見が出ます。",
-      "translation": "Every time there is a meeting, the same opinion comes up.",
-      "blank_target": "たびに",
-      "wrong_choices": [
-        "ごとに",
-        "おきに",
-        "と"
-      ],
-      "wrong_choice_explanations": [
-        "ごとに means 'every/each', but たびに emphasizes the recurrence each time an event happens, not fixed intervals.",
-        "おきに means 'every other/at intervals', but the sentence is about every occasion an event occurs, not fixed intervals.",
-        "と means 'and/when', but the sentence uses たびに for 'every time' with emphasis on repeated occasions."
-      ]
-    },
-    {
-      "id": "n3_049_3",
-      "example_sentence": "友達と会うたびに、新しい思い出が増えます。",
-      "translation": "Every time I meet with friends, I gain new memories.",
-      "blank_target": "たびに",
-      "wrong_choices": [
-        "ごとに",
-        "おきに",
-        "と"
-      ],
-      "wrong_choice_explanations": [
-        "ごとに means 'every,' but the sentence emphasizes that something happens each time an event occurs.",
-        "おきに means 'every other,' but the sentence uses たびに to indicate every occurrence.",
-        "と is a basic conjunction, but the sentence needs たびに to express the idea of a new memory each time."
-      ]
-    },
-    {
-      "id": "n3_049_4",
-      "example_sentence": "友達と会うたびに、新しいことを学びます。",
-      "translation": "Every time I meet with friends, I learn something new.",
-      "blank_target": "たびに",
-      "wrong_choices": [
-        "ごとに",
-        "おきに",
-        "と"
-      ],
-      "wrong_choice_explanations": [
-        "ごとに means 'every time' at set intervals, but this sentence requires 'たびに' for an irregular or variable pattern.",
-        "おきに means 'at intervals of/every other', but this sentence uses 'たびに' for whenever something occurs.",
-        "と alone is too vague; this sentence requires 'たびに' for the explicit meaning of every occasion."
-      ]
-    },
-    {
-      "id": "n3_049_5",
-      "example_sentence": "お祭りに行くたびに、新しい発見があります。",
-      "translation": "Every time I go to a festival, there is a new discovery.",
-      "blank_target": "たびに",
-      "wrong_choices": [
-        "ごとに",
-        "おきに",
-        "と"
-      ],
-      "wrong_choice_explanations": [
-        "ごとに indicates fixed regular intervals, but たびに emphasizes each occasion when visiting.",
-        "おきに means 'every other,' creating intervals, but たびに means each time something happens.",
-        "と alone doesn't convey the meaning of 'every time'; たびに is needed."
-      ]
-    },
-    {
-      "id": "n3_049_6",
-      "example_sentence": "甘いものを見るたびに、欲しくなります。",
-      "translation": "Every time I see something sweet, I want it.",
-      "blank_target": "たびに",
-      "wrong_choices": [
-        "ごとに",
-        "おきに",
-        "と"
-      ],
-      "wrong_choice_explanations": [
-        "'ごとに' marks regular intervals; '〜たびに' is needed for 'every time'.",
-        "'おきに' means 'at intervals'; '〜たびに' is for occasions/instances.",
-        "'と' alone doesn't work; the full pattern '〜たびに' is needed."
-      ]
-    },
-    {
-      "id": "n3_049_7",
-      "example_sentence": "失敗するたびに、諦めたいと思います。",
-      "translation": "Every time I fail, I think about giving up.",
-      "blank_target": "たびに",
-      "wrong_choices": [
-        "ごとに",
-        "おきに",
-        "と"
-      ],
-      "wrong_choice_explanations": [
-        "〜ごとに means 'at regular intervals', but 〜たびに emphasizes 'every occasion when'",
-        "〜おきに means 'every other', but 〜たびに means every single time something occurs",
-        "〜と alone doesn't express 'every time', and changes the meaning entirely"
-      ]
-    },
-    {
-      "id": "n3_049_8",
-      "example_sentence": "プレゼンするたびに、緊張します。",
-      "translation": "Every time I present, I get nervous.",
-      "blank_target": "たびに",
-      "wrong_choices": [
-        "ごとに",
-        "おきに",
-        "と"
-      ],
-      "wrong_choice_explanations": [
-        "ごとに emphasizes fixed intervals, but たびに emphasizes the frequency of occurrence.",
-        "おきに means 'every other', but たびに describes every occurrence of an event.",
-        "と can mean 'and' or indicate conditions, but たびに specifically means 'every time'."
-      ]
-    },
-    {
-      "id": "n3_049_9",
-      "example_sentence": "顧客からのクレームをもらうたびに、改善を工夫します。",
-      "translation": "Every time I receive a customer complaint, I think about improvements.",
-      "blank_target": "たびに",
-      "wrong_choices": [
-        "ごとに",
-        "おきに",
-        "と"
-      ],
-      "wrong_choice_explanations": [
-        "ごとに emphasizes regular fixed intervals, but the sentence conveys repetition in response to recurring events, which たびに expresses.",
-        "おきに means 'every other,' but the sentence describes improvement thinking with each complaint received, not alternating intervals.",
-        "と creates a sequence 'A and B,' but the sentence requires the meaning of 'whenever a complaint comes,' which たびに conveys."
       ]
     }
   ]

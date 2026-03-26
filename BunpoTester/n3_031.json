@@ -21,35 +21,19 @@
       ]
     },
     {
-      "id": "n3_031_10",
-      "example_sentence": "投資家にとって、長期的リターンが重要です。",
-      "translation": "For investors, long-term returns are important.",
-      "blank_target": "にとって",
-      "wrong_choices": [
-        "に対して",
-        "によって",
-        "について"
-      ],
-      "wrong_choice_explanations": [
-        "に対して means 'toward/against', but the sentence expresses relevance to investors' interests.",
-        "によって means 'due to/by means of', not the perspective-based meaning of にとって.",
-        "について means 'about/concerning', less specific to 'from one's standpoint' than にとって."
-      ]
-    },
-    {
       "id": "n3_031_2",
       "example_sentence": "フリーランスにとって、健康保険の加入は大きな課題です。",
       "translation": "For freelancers, health insurance enrollment is a major issue.",
       "blank_target": "にとって",
       "wrong_choices": [
-        "に対して",
+        "にしたら",
         "によって",
-        "について"
+        "として"
       ],
       "wrong_choice_explanations": [
-        "に対して means 'toward/against', but the sentence expresses things from a particular person's perspective or circumstance.",
-        "によって means 'by means of', but にとって indicates perspective or standpoint of how something affects a specific group.",
-        "について means 'about/concerning', but the sentence indicates perspective, not a general topic for discussion."
+        "にしたら can mean 'for one's perspective,' but it carries a conditional tone ('if we say...'); にとって is more objective about perspective.",
+        "によって means 'by means of' or 'depending on,' but the sentence expresses how something affects a specific group.",
+        "として means 'as / in the role of,' but the sentence expresses what matters from a group's standpoint, not their role."
       ]
     },
     {
@@ -59,13 +43,13 @@
       "blank_target": "にとって",
       "wrong_choices": [
         "に対して",
-        "によって",
+        "からすると",
         "について"
       ],
       "wrong_choice_explanations": [
         "に対して means 'toward,' indicating direction of action, but the sentence shows what is important from an athlete's perspective.",
-        "によって means 'depending on or by means of,' but the sentence expresses what is significant for a particular group.",
-        "について means 'about or concerning,' but the sentence expresses what matters from an athlete's standpoint."
+        "からすると means 'from the perspective of,' which is similar, but it emphasizes judgment or interpretation more than the neutral perspective that にとって conveys.",
+        "について means 'about or concerning,' but the sentence expresses what matters from an athlete's standpoint, not a discussion topic."
       ]
     },
     {
@@ -74,14 +58,14 @@
       "translation": "For parents, their children's happiness is the top priority.",
       "blank_target": "にとって",
       "wrong_choices": [
-        "に対して",
+        "にしては",
         "によって",
-        "について"
+        "として"
       ],
       "wrong_choice_explanations": [
-        "に対して means 'toward/against', but this sentence uses 'にとって' for expressing something from a particular standpoint.",
-        "によって means 'depending on/by means of', but this sentence requires 'にとって' for showing perspective.",
-        "について means 'about/concerning', but this sentence uses 'にとって' for expressing what is important from a perspective."
+        "にしては means 'for / considering that,' implying a judgment against expectations, but にとって is more straightforward about priority.",
+        "によって means 'depending on / by means of,' but the sentence expresses what is important from a particular group's viewpoint.",
+        "として means 'as,' describing a role, but the sentence expresses what matters from parents' perspective."
       ]
     },
     {
@@ -90,30 +74,30 @@
       "translation": "For buyers, price is an important factor.",
       "blank_target": "にとって",
       "wrong_choices": [
+        "からすれば",
         "に対して",
-        "によって",
-        "について"
+        "については"
       ],
       "wrong_choice_explanations": [
+        "からすれば means 'from one's standpoint,' but it implies conditional or interpretive framing; にとって is more neutral about perspective.",
         "に対して means 'toward,' but にとって means something is important from the buyer's perspective.",
-        "によって means 'depending on' or 'by,' not expressing relevance to someone's interests.",
-        "について means 'about,' but にとって expresses importance from someone's viewpoint."
+        "についてはは means 'as for / regarding,' shifting the focus to topics, not perspective."
       ]
     },
     {
       "id": "n3_031_6",
-      "example_sentence": "社員にとって、職場の環境は重要です。",
-      "translation": "The work environment is important for employees.",
+      "example_sentence": "先生にとって、学生の成長を見ることが喜びです。",
+      "translation": "For a teacher, seeing students grow is a joy.",
       "blank_target": "にとって",
       "wrong_choices": [
-        "に対して",
+        "にしてみれば",
         "によって",
-        "について"
+        "に関して"
       ],
       "wrong_choice_explanations": [
-        "'に対して' means 'toward'; '〜にとって' is needed for 'for someone's perspective'.",
-        "'によって' means 'by means of'; '〜にとって' is for 'important to someone'.",
-        "'について' means 'about'; '〜にとって' is for expressing significance to someone."
+        "にしてみれば means 'trying from one's perspective,' implying hypothetical framing; にとって is more direct about perspective.",
+        "によって means 'by means of' or 'depending on,' but the sentence expresses what brings joy from a teacher's standpoint.",
+        "に関して means 'regarding,' but the sentence expresses the emotional significance from a teacher's viewpoint."
       ]
     },
     {
@@ -123,13 +107,13 @@
       "blank_target": "にとって",
       "wrong_choices": [
         "に対して",
-        "によって",
-        "について"
+        "からすると",
+        "として"
       ],
       "wrong_choice_explanations": [
-        "〜に対して means 'toward' or 'against', but the sentence indicates perspective or benefit for entrepreneurs",
-        "〜によって means 'depending on', but the sentence indicates who experiences or benefits from something",
-        "〜について means 'about', but the sentence indicates perspective or value for a particular group"
+        "に対して means 'toward' or 'against', but the sentence indicates perspective or benefit for entrepreneurs.",
+        "からすると means 'from the view of,' but it emphasizes interpretive judgment more than the perspective that にとって conveys.",
+        "として means 'as,' describing role or function, but にとって shows what something means from a particular group's standpoint."
       ]
     },
     {
@@ -138,30 +122,46 @@
       "translation": "For immigrants, language acquisition is a major challenge.",
       "blank_target": "にとって",
       "wrong_choices": [
-        "に対して",
+        "にしては",
         "によって",
-        "について"
+        "に関わる"
       ],
       "wrong_choice_explanations": [
-        "に対して means 'toward' or 'against', but the sentence describes a challenge from someone's perspective.",
-        "によって means 'by' or 'depending on', but the sentence describes a challenge faced by immigrants.",
-        "について means 'about', but the sentence describes a challenge faced by a specific group."
+        "にしては means 'for someone, considering that...,' implying a counter-expectation judgment, but にとって simply expresses perspective.",
+        "によって means 'by' or 'depending on', but the sentence describes a challenge faced by immigrants from their perspective.",
+        "に関わる means 'be involved with / relate to,' but the sentence describes a challenge faced by a specific group, not relational involvement."
       ]
     },
     {
       "id": "n3_031_9",
-      "example_sentence": "学習者にとって、実践的な知識が最も価値があります。",
-      "translation": "For learners, practical knowledge has the most value.",
+      "example_sentence": "消費者にとって、商品の品質が信頼の基本です。",
+      "translation": "For consumers, product quality is the foundation of trust.",
       "blank_target": "にとって",
       "wrong_choices": [
-        "に対して",
+        "からすれば",
         "によって",
         "について"
       ],
       "wrong_choice_explanations": [
-        "に対して means 'toward' or 'against,' but the sentence expresses value 'from the learner's perspective,' which にとって conveys.",
-        "によって means 'due to' or 'by means of,' but the sentence focuses on what has value for learners, not causation.",
-        "について means 'about' or 'concerning,' but にとって specifically expresses value or meaning from a standpoint."
+        "からすれば means 'from one's standpoint,' but it emphasizes interpretation; にとって is more objective about what matters to someone.",
+        "によって means 'by means of' or 'due to,' but the sentence expresses what is foundational from a consumer's perspective.",
+        "について means 'about,' introducing a discussion topic, but the sentence expresses what is important for consumers."
+      ]
+    },
+    {
+      "id": "n3_031_10",
+      "example_sentence": "投資家にとって、長期的リターンが重要です。",
+      "translation": "For investors, long-term returns are important.",
+      "blank_target": "にとって",
+      "wrong_choices": [
+        "にしてみれば",
+        "によって",
+        "として"
+      ],
+      "wrong_choice_explanations": [
+        "にしてみれば carries a hypothetical 'if one considers...,' implying conditional thinking, but にとって directly expresses perspective.",
+        "によって means 'by means of' or 'depending on,' but the sentence expresses importance from an investor's standpoint.",
+        "として means 'as / in the capacity of,' but にとって shows what matters from a particular group's perspective."
       ]
     }
   ]

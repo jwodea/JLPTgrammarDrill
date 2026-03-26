@@ -1,0 +1,128 @@
+{
+  "id": "n5_005",
+  "pattern": "〜て form",
+  "meaning": "connecting actions / requests / ongoing states",
+  "level": "N5",
+  "exercises": [
+    {
+      "id": "n5_005_1",
+      "example_sentence": "朝ごはんを食べ＿＿、学校に行きます。",
+      "translation": "I eat breakfast and then go to school.",
+      "blank_target": "て",
+      "wrong_choices": ["た", "ます", "たり"],
+      "wrong_choice_explanations": [
+        "た is the past tense ending; it ends the clause and cannot connect two sequential actions.",
+        "ます is the polite ending; it ends a sentence rather than connecting clauses.",
+        "たり is used to list multiple representative actions (食べたり飲んだりする) and cannot replace て for sequential connection."
+      ]
+    },
+    {
+      "id": "n5_005_2",
+      "example_sentence": "ここに座っ＿＿ください。",
+      "translation": "Please sit here.",
+      "blank_target": "て",
+      "wrong_choices": ["た", "ない", "ます"],
+      "wrong_choice_explanations": [
+        "た is past tense and cannot precede ください for requests.",
+        "ない is negative; ないでください would mean 'please don't,' which changes the meaning entirely.",
+        "ます is a polite ending but doesn't combine with ください."
+      ]
+    },
+    {
+      "id": "n5_005_3",
+      "example_sentence": "本を読ん＿＿、レポートを書きます。",
+      "translation": "I read a book and then write a report.",
+      "blank_target": "で",
+      "wrong_choices": ["だ", "た", "ます"],
+      "wrong_choice_explanations": [
+        "だ is the plain copula; 読む's te-form is 読んで, not 読んだ for connecting actions.",
+        "た makes it past tense (読んだ) but doesn't connect to the next action as a sequence.",
+        "ます ends the sentence politely and doesn't connect clauses."
+      ]
+    },
+    {
+      "id": "n5_005_4",
+      "example_sentence": "シャワーを浴び＿＿、出かけます。",
+      "translation": "I take a shower and then go out.",
+      "blank_target": "て",
+      "wrong_choices": ["ない", "ます", "たり"],
+      "wrong_choice_explanations": [
+        "ない is the negative form; 浴びない would negate the action instead of connecting it.",
+        "ます ends the sentence; it cannot link two actions.",
+        "たり lists representative actions and requires a paired たりする structure, not a direct connection."
+      ]
+    },
+    {
+      "id": "n5_005_5",
+      "example_sentence": "友達に会っ＿＿、映画を見ました。",
+      "translation": "I met a friend and watched a movie.",
+      "blank_target": "て",
+      "wrong_choices": ["た", "ない", "たり"],
+      "wrong_choice_explanations": [
+        "た would end the sentence in past tense (会った) without connecting to the next clause.",
+        "ない is the negative form and doesn't link sequential events.",
+        "たり lists representative actions (会ったり見たりした) and doesn't create a direct sequence."
+      ]
+    },
+    {
+      "id": "n5_005_6",
+      "example_sentence": "窓を開け＿＿もいいですか。",
+      "translation": "May I open the window?",
+      "blank_target": "て",
+      "wrong_choices": ["た", "ない", "ます"],
+      "wrong_choice_explanations": [
+        "た is past tense and doesn't form the permission pattern てもいい.",
+        "ない is negative; なくてもいい means 'don't have to,' which is a different pattern.",
+        "ます is polite ending; it can't precede もいいですか."
+      ]
+    },
+    {
+      "id": "n5_005_7",
+      "example_sentence": "電気をつけ＿＿ください。",
+      "translation": "Please turn on the light.",
+      "blank_target": "て",
+      "wrong_choices": ["た", "ます", "たり"],
+      "wrong_choice_explanations": [
+        "た is past tense; requests use the te-form + ください, not past tense.",
+        "ます is polite ending and doesn't precede ください.",
+        "たり is for listing actions and cannot form a request with ください."
+      ]
+    },
+    {
+      "id": "n5_005_8",
+      "example_sentence": "手を洗っ＿＿、ごはんを食べます。",
+      "translation": "I wash my hands and then eat.",
+      "blank_target": "て",
+      "wrong_choices": ["た", "ない", "たり"],
+      "wrong_choice_explanations": [
+        "た makes it past tense (洗った) without connecting to the next action.",
+        "ない negates the verb (洗わない); the っない form doesn't exist.",
+        "たり lists representative actions and requires paired usage with する."
+      ]
+    },
+    {
+      "id": "n5_005_9",
+      "example_sentence": "バスに乗っ＿＿、駅まで行きます。",
+      "translation": "I ride the bus and go to the station.",
+      "blank_target": "て",
+      "wrong_choices": ["ない", "ます", "たり"],
+      "wrong_choice_explanations": [
+        "ない negates the verb (乗らない); the っない form doesn't exist.",
+        "ます is a sentence-ending form, not a connector between clauses.",
+        "たり is for listing representative actions and needs a paired たりする structure."
+      ]
+    },
+    {
+      "id": "n5_005_10",
+      "example_sentence": "宿題をし＿＿から、遊びます。",
+      "translation": "After doing homework, I play.",
+      "blank_target": "て",
+      "wrong_choices": ["た", "ない", "たり"],
+      "wrong_choice_explanations": [
+        "た + から means 'because I did' (したから), which changes the meaning from 'after doing' to 'because I did.'",
+        "ない + から means 'because I don't' (しないから), which negates the action and changes the meaning.",
+        "たり is for listing actions and cannot precede から in this sequential pattern."
+      ]
+    }
+  ]
+}

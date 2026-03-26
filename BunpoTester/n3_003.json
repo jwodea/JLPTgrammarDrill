@@ -21,22 +21,6 @@
       ]
     },
     {
-      "id": "n3_003_10",
-      "example_sentence": "マーケット調査をしておくことが重要です。",
-      "translation": "It is important to conduct market research in advance.",
-      "blank_target": "しておく",
-      "wrong_choices": [
-        "いてしまう",
-        "いてみる",
-        "いていく"
-      ],
-      "wrong_choice_explanations": [
-        "てしまう emphasizes an unintended or regrettable completion, but the sentence calls for preparing something in advance.",
-        "てみる means 'try doing', suggesting experimentation, not the advance preparation meaning required.",
-        "ていく implies 'continue doing over time', but the sentence needs the 'do in advance' meaning."
-      ]
-    },
-    {
       "id": "n3_003_2",
       "example_sentence": "新しいパソコンを買う前に、データをバックアップしておきます。",
       "translation": "Before buying a new computer, I will back up the data in advance.",
@@ -86,18 +70,18 @@
     },
     {
       "id": "n3_003_5",
-      "example_sentence": "祭りに参加する前に、着物を用意しておきました。",
-      "translation": "I prepared my kimono in advance before attending the festival.",
-      "blank_target": "意しておきました",
+      "example_sentence": "祭りに参加する前に、浴衣を着てみておきました。",
+      "translation": "Before attending the festival, I tried on my yukata in advance.",
+      "blank_target": "ておきました",
       "wrong_choices": [
-        "意してしまいました",
-        "意してみました",
-        "意していきました"
+        "てしまいました",
+        "てみました",
+        "ていきました"
       ],
       "wrong_choice_explanations": [
-        "てしまいました conveys completion or regret, but the sentence is about preparing in advance, not about regretting a finished action.",
-        "てみました means 'tried' or 'attempted,' emphasizing the experimental nature, but the context is about advance preparation.",
-        "ていきました suggests a progressive or continuing action, but this sentence expresses a one-time preparatory action completed before the festival."
+        "てしまいました expresses regret or unintended completion, but trying on the yukata beforehand was a deliberate, positive preparatory action.",
+        "てみました means 'tried doing,' but the sentence emphasizes preparing in advance for the festival, not simply experimenting with wearing the yukata.",
+        "ていきました means 'went on doing' or 'did and left,' but the point is advance preparation to be ready for the event."
       ]
     },
     {
@@ -108,12 +92,12 @@
       "wrong_choices": [
         "してしまいましょう",
         "してみましょう",
-        "していきましょう"
+        "してきましょう"
       ],
       "wrong_choice_explanations": [
-        "'してしまいましょう' means 'let's end up doing'; it doesn't express advance preparation.",
-        "'してみましょう' means 'let's try'; it lacks the sense of advance preparation.",
-        "'していきましょう' means 'let's continue'; it doesn't express preparing in advance."
+        "してしまいましょう means 'let's finish it off / get it done' with a completive nuance, but the sentence emphasizes preparing in advance, not just getting something finished.",
+        "してみましょう means 'let's try doing it,' suggesting an experimental attempt, but the sentence calls for definite advance preparation, not a tentative try.",
+        "してきましょう means 'let's go and do it' or 'let's do it and come back,' but the sentence focuses on preparing documents ahead of time, not going somewhere to do it."
       ]
     },
     {
@@ -138,14 +122,14 @@
       "translation": "I prepared my passport in advance for the trip.",
       "blank_target": "しておきました",
       "wrong_choices": [
-        "いてしまいました",
-        "いてみました",
-        "いていきました"
+        "してしまいました",
+        "してみました",
+        "してきました"
       ],
       "wrong_choice_explanations": [
-        "てしまう means 'to finish' or 'to end up' with completion, but here we specifically need 'to do in advance' meaning.",
-        "てみる means 'to try', but the sentence describes preparation done beforehand, not a trial attempt.",
-        "ていく suggests an action going forward or progressing, but we need the meaning of preparatory action completed before the trip."
+        "してしまいました means 'ended up doing' with regret, but preparing a passport is a purposeful advance action, not an accident.",
+        "してみました means 'tried doing' as an experiment, but the speaker definitively prepared the passport, not tentatively attempted it.",
+        "してきました means 'has been doing' over time or 'went and did,' but the sentence describes a one-time preparatory action completed before the trip."
       ]
     },
     {
@@ -162,6 +146,22 @@
         "いてしまいました suggests something was completed with regret or finality, but the sentence emphasizes doing something in advance for future use.",
         "いてみました means 'tried to do,' but the context requires 'prepared in advance' which is 〜ておく.",
         "いていきました means 'did and left in that state,' but the sentence specifically indicates preparation for a future emergency."
+      ]
+    },
+    {
+      "id": "n3_003_10",
+      "example_sentence": "マーケット調査をしておくことが重要です。",
+      "translation": "It is important to conduct market research in advance.",
+      "blank_target": "しておく",
+      "wrong_choices": [
+        "いてしまう",
+        "いてみる",
+        "いていく"
+      ],
+      "wrong_choice_explanations": [
+        "てしまう emphasizes an unintended or regrettable completion, but the sentence calls for preparing something in advance.",
+        "てみる means 'try doing', suggesting experimentation, not the advance preparation meaning required.",
+        "ていく implies 'continue doing over time', but the sentence needs the 'do in advance' meaning."
       ]
     }
   ]

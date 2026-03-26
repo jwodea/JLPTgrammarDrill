@@ -21,34 +21,18 @@
       ]
     },
     {
-      "id": "n3_023_10",
-      "example_sentence": "その企業は成長性が高いし、財務が安定しているし、信頼できる。",
-      "translation": "That company has high growth, stable finances, and is trustworthy.",
-      "blank_target": "いし、財務が安定しているし",
-      "wrong_choices": [
-        "かったり、財務が安定したり",
-        "くも、財務が安定くも",
-        "いか、財務が安定しているか"
-      ],
-      "wrong_choice_explanations": [
-        "ったり〜ったり works differently; し〜し is needed to list characteristics in a cumulative way.",
-        "This doesn't work grammatically; し〜し is the correct pattern for listing traits.",
-        "This suggests questioning or choice, not the affirmative listing that し〜し conveys."
-      ]
-    },
-    {
       "id": "n3_023_2",
       "example_sentence": "この研究者の論文は説得力があるし、引用件数も多いし、素晴らしいです。",
       "translation": "This researcher's paper is persuasive and has many citations—it is excellent.",
       "blank_target": "あるし、引用件数も多いし",
       "wrong_choices": [
         "あったり、引用件数も多かったり",
-        "あくも、引用件数も多くも",
+        "あるうえに、引用件数も多いうえに",
         "あるか、引用件数も多いか"
       ],
       "wrong_choice_explanations": [
         "あったり、引用件数も多かったり uses たり for non-exhaustive listing, but し emphasizes adding multiple reasons or traits in support of the same point.",
-        "あくも、引用件数も多くも uses も (also), but し is the correct form for listing traits that support a conclusion together.",
+        "〜うえに means 'moreover / on top of,' which is close, but し〜し specifically lists multiple reasons or traits that together support a conclusion.",
         "あるか、引用件数も多いか uses か for alternatives, but the sentence uses し to enumerate reasons/traits that support the same positive evaluation."
       ]
     },
@@ -75,12 +59,12 @@
       "blank_target": "だし、容姿も良いし、人格も良いし",
       "wrong_choices": [
         "だったり、容姿も良かったり、人格も良かったり",
-        "だくも、容姿も良くも、人格も良くも",
+        "なうえに、容姿も良いうえに、人格も良いうえに",
         "だか、容姿も良いか、人格も良いか"
       ],
       "wrong_choice_explanations": [
         "This mixes past forms with the pattern, but the sentence requires 'し' to consistently list present/habitual traits.",
-        "This structure is archaic and does not fit the pattern for listing multiple reasons or traits.",
+        "〜うえに means 'moreover,' adding reasons, but し〜し is the natural conversational pattern for listing multiple qualities that build toward a conclusion.",
         "This structure with か suggests alternatives or questions, but 'し' is used for listing multiple reasons and traits."
       ]
     },
@@ -123,12 +107,12 @@
       "blank_target": "的だし、笑えるし",
       "wrong_choices": [
         "的だったり、笑えたり",
-        "的くも、笑えくも",
+        "的なうえに、笑えるうえに",
         "的だか、笑えるか"
       ],
       "wrong_choice_explanations": [
         "〜たり〜たり lists non-exhaustively, but 〜し〜し emphasizes listing reasons or qualities of the same item",
-        "This form is not a standard Japanese grammar pattern",
+        "〜うえに means 'moreover,' and could work in formal writing, but し〜し is the natural conversational way to list reasons or qualities.",
         "〜か〜か indicates questioning or alternatives, but 〜し〜し lists characteristics that support a conclusion"
       ]
     },
@@ -155,13 +139,29 @@
       "blank_target": "いし、安全だし",
       "wrong_choices": [
         "かったり、安全だったり",
-        "くも、安全くも",
+        "いうえに、安全なうえに",
         "いか、安全だか"
       ],
       "wrong_choice_explanations": [
         "かったり〜だったり would suggest intermittent or changing qualities, but し〜し lists consistent reasons or traits.",
-        "This form is grammatically incorrect; し〜し is the pattern for listing multiple positive qualities or reasons.",
+        "〜うえに means 'on top of that,' and can list merits, but し〜し is the standard conversational pattern for enumerating reasons or qualities.",
         "か〜か would present alternatives or questions, but the sentence enumerates reasons why something is ideal."
+      ]
+    },
+    {
+      "id": "n3_023_10",
+      "example_sentence": "その企業は成長性が高いし、財務が安定しているし、信頼できる。",
+      "translation": "That company has high growth, stable finances, and is trustworthy.",
+      "blank_target": "いし、財務が安定しているし",
+      "wrong_choices": [
+        "かったり、財務が安定したり",
+        "いうえに、財務が安定しているうえに",
+        "いか、財務が安定しているか"
+      ],
+      "wrong_choice_explanations": [
+        "ったり〜ったり works differently; し〜し is needed to list characteristics in a cumulative way.",
+        "〜うえに means 'moreover,' listing additional merits, but し〜し is the standard pattern for enumerating qualities that together support a judgment.",
+        "This suggests questioning or choice, not the affirmative listing that し〜し conveys."
       ]
     }
   ]

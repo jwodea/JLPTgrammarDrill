@@ -8,11 +8,11 @@
       "id": "n3_051_1",
       "example_sentence": "彼は三年も海外にいたから、日本語を忘れたわけだ。",
       "translation": "No wonder he forgot Japanese—he has been overseas for three years.",
-      "blank_target": "たわけだ",
+      "blank_target": "わけだ",
       "wrong_choices": [
-        "たはずだ",
-        "たということだ",
-        "たのだ"
+        "はずだ",
+        "ということだ",
+        "のだ"
       ],
       "wrong_choice_explanations": [
         "はずだ means 'should be / is expected to,' but the sentence is presenting a logical conclusion ('no wonder'), not an expectation about the future.",
@@ -21,83 +21,67 @@
       ]
     },
     {
-      "id": "n3_051_10",
-      "example_sentence": "長年の実績があるから、選ばれたわけだ。",
-      "translation": "No wonder we were chosen — we have years of track record.",
-      "blank_target": "たわけだ",
-      "wrong_choices": [
-        "なはずだ",
-        "ということだ",
-        "なのだ"
-      ],
-      "wrong_choice_explanations": [
-        "なはずだ is a logical expectation, less emphatic than わけだ's explanatory force.",
-        "ということだ means 'it means that', less colloquial and direct than わけだ.",
-        "なのだ emphasizes explanation but doesn't carry the same causal inference."
-      ]
-    },
-    {
       "id": "n3_051_2",
-      "example_sentence": "あの人は五年も海外にいたから、日本の現状を理解していないわけだ。",
-      "translation": "No wonder he does not understand Japan's current situation—he has been overseas for five years.",
-      "blank_target": "ないわけだ",
+      "example_sentence": "新しいレシピを使ったから、料理が失敗したわけだ。",
+      "translation": "No wonder the cooking failed—I used a new recipe without practice.",
+      "blank_target": "わけだ",
       "wrong_choices": [
-        "たはずだ",
-        "たということだ",
-        "たのだ"
+        "ものだ",
+        "ようだ",
+        "らしい"
       ],
       "wrong_choice_explanations": [
-        "たはずだ means 'should have' or 'was supposed to', but わけだ emphasizes explaining why something is the case based on reasoning.",
-        "たということだ means 'it means that', but the sentence uses わけだ to explain a conclusion from provided information.",
-        "たのだ is an emphatic statement form, but わけだ specifically conveys logical explanation or the reason why something is so."
+        "ものだ refers to habitual or characteristic actions/things, not causal explanations like わけだ.",
+        "ようだ suggests appearance or seeming, but わけだ directly states the logical reason why something happened.",
+        "らしい means 'apparently' or 'it seems,' which is speculative; わけだ is definitive about cause and effect."
       ]
     },
     {
       "id": "n3_051_3",
-      "example_sentence": "彼は十年も海外にいたから、日本の最新情報を知らないわけだ。",
-      "translation": "No wonder he does not know the latest information in Japan—he has been overseas for ten years.",
-      "blank_target": "ないわけだ",
+      "example_sentence": "雨が降ったから、運動会が中止になったわけだ。",
+      "translation": "No wonder the athletic meet was cancelled—it rained.",
+      "blank_target": "わけだ",
       "wrong_choices": [
-        "たはずだ",
-        "たということだ",
-        "たのだ"
+        "そうだ",
+        "ということだ",
+        "ものだ"
       ],
       "wrong_choice_explanations": [
-        "たはずだ means 'should have been,' but the sentence uses わけだ to explain the reason why something is true.",
-        "たということだ means 'it is said that,' but わけだ is better for explaining a logical consequence.",
-        "たのだ means 'it is that,' but わけだ more clearly expresses the logical explanation."
+        "そうだ means 'I heard' or 'it appears to be,' but doesn't express the causal logic that わけだ conveys.",
+        "ということだ paraphrases information, but わけだ specifically expresses 'this explains why it happened.'",
+        "ものだ emphasizes habitual nature, not the causal explanation that わけだ provides."
       ]
     },
     {
       "id": "n3_051_4",
-      "example_sentence": "彼は長く海外にいたから、日本の恋愛事情を知らないわけだ。",
-      "translation": "No wonder he does not understand Japan's dating culture—he has been abroad long.",
+      "example_sentence": "毎日ジムに通っているから、体が強くなったわけだ。",
+      "translation": "No wonder his body got stronger—he goes to the gym every day.",
       "blank_target": "わけだ",
       "wrong_choices": [
-        "たはずだ",
-        "たということだ",
-        "たのだ"
+        "はずだ",
+        "ようだ",
+        "そうだ"
       ],
       "wrong_choice_explanations": [
-        "はずだ expresses expectation, but this sentence uses 'わけだ' for explaining past reasons.",
-        "ということだ means 'that is to say', but this sentence uses 'わけだ' for a causal explanation.",
-        "のだ explains or emphasizes a fact, but this sentence requires 'わけだ' for logical consequence."
+        "はずだ expresses what should logically happen, but わけだ explains why something actually did happen.",
+        "ようだ suggests appearance or seeming rather than providing a causal explanation.",
+        "そうだ means 'it seems' or 'I heard,' lacking the definitive causal link that わけだ provides."
       ]
     },
     {
       "id": "n3_051_5",
-      "example_sentence": "十年も海外の文化に触れていたから、日本の最新トレンドを知らないわけだ。",
-      "translation": "No wonder he does not know the latest Japanese trends—he has been exposed to overseas culture for ten years.",
+      "example_sentence": "彼女とけんかしたから、彼は不機嫌になったわけだ。",
+      "translation": "No wonder he's in a bad mood—he had a fight with his girlfriend.",
       "blank_target": "わけだ",
       "wrong_choices": [
-        "たはずだ",
-        "たということだ",
-        "たのだ"
+        "ということだ",
+        "ものだ",
+        "らしい"
       ],
       "wrong_choice_explanations": [
-        "たはずだ means 'should have been,' but わけだ explains the reason for the consequence.",
-        "たということだ means 'it is said that,' but わけだ more directly shows logical consequence.",
-        "たのだ is a copular form, but わけだ specifically indicates the reason explaining something."
+        "ということだ reports what one has heard or understood, but doesn't express the logical explanation that わけだ provides.",
+        "ものだ emphasizes characteristic behavior or nature, not cause-and-effect reasoning.",
+        "らしい means 'apparently,' implying hearsay or speculation; わけだ directly states the reason."
       ]
     },
     {
@@ -106,62 +90,78 @@
       "translation": "No wonder I improved — I study every day.",
       "blank_target": "わけだ",
       "wrong_choices": [
-        "なはずだ",
+        "はずだ",
         "ということだ",
-        "なのだ"
+        "のだ"
       ],
       "wrong_choice_explanations": [
-        "Not a valid form.",
-        "'ということだ' is too general; '〜わけだ' is more specific for 'that is why'.",
-        "'なのだ' expresses explanation; '〜わけだ' is for 'no wonder'."
+        "はずだ expresses expected outcome, but わけだ explains why the improvement actually occurred as a logical consequence.",
+        "ということだ means 'it is said that,' but わけだ is more direct and personal for explaining one's own experience.",
+        "のだ emphasizes a fact, but わけだ specifically conveys 'it makes perfect sense that' with stronger logical force."
       ]
     },
     {
       "id": "n3_051_7",
-      "example_sentence": "毎日練習しているから、上達したわけだ。",
-      "translation": "No wonder I improved — I practice every day.",
-      "blank_target": "たわけだ",
+      "example_sentence": "ずっと無理をしていたから、病気になったわけだ。",
+      "translation": "No wonder I got sick—I've been overworking without rest.",
+      "blank_target": "わけだ",
       "wrong_choices": [
-        "なはずだ",
-        "ということだ",
-        "なのだ"
+        "ものだ",
+        "ようだ",
+        "ということだ"
       ],
       "wrong_choice_explanations": [
-        "〜はずだ expresses expectation, but 〜わけだ emphasizes explanation or understanding",
-        "〜ということだ means 'that means', but is less direct than 〜わけだ",
-        "〜のだ provides emphasis, but 〜わけだ better expresses the sense of 'it makes sense that'"
+        "ものだ refers to habitual or characteristic things/actions, not the direct cause-and-effect that わけだ expresses.",
+        "ようだ suggests appearance or seeming, but doesn't explain the logical reason as わけだ does.",
+        "ということだ reports information, but わけだ is stronger in expressing 'no wonder' with logical inevitability."
       ]
     },
     {
       "id": "n3_051_8",
-      "example_sentence": "ずっと経験を積んでいるから、成果が出たわけだ。",
-      "translation": "No wonder results came out — I have been accumulating experience.",
+      "example_sentence": "この製品は長年改良されてきたから、品質が高いわけだ。",
+      "translation": "No wonder this product has high quality—it's been improved for many years.",
       "blank_target": "わけだ",
       "wrong_choices": [
-        "なはずだ",
-        "ということだ",
-        "なのだ"
+        "はずだ",
+        "らしい",
+        "そうだ"
       ],
       "wrong_choice_explanations": [
-        "This means 'is supposed to be', but the sentence explains why results came out.",
-        "ということだ means 'that means', but the sentence specifically uses わけだ for explanation.",
-        "なのだ emphasizes explanation, but わけだ specifically means 'that is why'."
+        "はずだ expresses logical expectation, but わけだ explains the actual reason behind the observed result.",
+        "らしい means 'apparently,' but doesn't convey the definitive causal explanation that わけだ provides.",
+        "そうだ means 'it seems,' which is speculative; わけだ directly states the reason for the quality."
       ]
     },
     {
       "id": "n3_051_9",
-      "example_sentence": "十年の経験があるから、信頼されたわけだ。",
-      "translation": "No wonder he is trusted — he has ten years of experience.",
-      "blank_target": "たわけだ",
+      "example_sentence": "子どもの頃からピアノを習っているから、演奏が上手いわけだ。",
+      "translation": "No wonder she plays the piano well—she has been taking lessons since childhood.",
+      "blank_target": "わけだ",
       "wrong_choices": [
-        "なはずだ",
         "ということだ",
-        "なのだ"
+        "のだ",
+        "ものだ"
       ],
       "wrong_choice_explanations": [
-        "なはずだ expresses expectation, but the sentence conveys the reason or explanation for why something happened, which わけだ provides.",
-        "ということだ paraphrases or summarizes, but わけだ better conveys the logical conclusion or reason.",
-        "なのだ states a fact or explanation, but わけだ specifically emphasizes the logical connection."
+        "ということだ means 'it means that' or 'that is to say,' but doesn't capture the 'that explains why' sense of わけだ.",
+        "のだ provides emphasis or explanation, but わけだ uniquely conveys the logical connection and natural inevitability.",
+        "ものだ refers to habitual or characteristic actions, not the causal chain that わけだ expresses."
+      ]
+    },
+    {
+      "id": "n3_051_10",
+      "example_sentence": "毎晩十時間寝ているから、疲れが取れたわけだ。",
+      "translation": "No wonder my fatigue went away—I've been sleeping ten hours every night.",
+      "blank_target": "わけだ",
+      "wrong_choices": [
+        "はずだ",
+        "ようだ",
+        "ということだ"
+      ],
+      "wrong_choice_explanations": [
+        "はずだ expresses what should logically happen, but わけだ explains the actual result based on the stated condition.",
+        "ようだ means 'it seems,' suggesting appearance rather than definitive cause-and-effect.",
+        "ということだ reports or interprets information, but わけだ directly expresses the logical reason."
       ]
     }
   ]

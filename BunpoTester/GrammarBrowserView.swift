@@ -9,7 +9,7 @@ struct GrammarBrowserView: View {
     @Query private var srsRecords: [SRSRecord]
     @AppStorage(FontSizeManager.scaleKey) private var fontScale = FontSizeManager.defaultScale
 
-    private let levelOptions = ["All", "N3", "N2", "N1"]
+    private let levelOptions = ["All", "N5", "N4", "N3", "N2", "N1"]
 
     private var filteredPoints: [GrammarPoint] {
         allPoints.filter { point in
@@ -23,6 +23,51 @@ struct GrammarBrowserView: View {
 
     private func scaled(_ base: CGFloat) -> CGFloat {
         FontSizeManager.scaled(base, scale: fontScale)
+    }
+
+    private func levelBadgeColor(_ level: String) -> Color {
+        switch level {
+        case "N5": return .green
+        case "N4": return .teal
+        case "N3": return .blue
+        case "N2": return .orange
+        case "N1": return .red
+        default: return .secondary
+        }
+    }
+
+    /// Returns a subtle mastery-based tint for the list row background.
+    private func masteryRowTint(for grammarId: String) -> Color {
+        guard let record = srsRecords.first(where: { $0.grammarId == grammarId }) else {
+            return Color(.systemBackground) // unseen — default
+        }
+        let days = record.fsrsScheduledDays
+        if days >= 60 {
+            return Color.green.opacity(0.08)    // mastered
+        } else if days >= 14 {
+            return Color.purple.opacity(0.06)   // confident
+        } else if days >= 3 {
+            return Color.blue.opacity(0.06)     // familiar
+        } else {
+            return Color.orange.opacity(0.06)   // learning
+        }
+    }
+
+    /// Returns a mastery indicator dot color.
+    private func masteryColor(for grammarId: String) -> Color {
+        guard let record = srsRecords.first(where: { $0.grammarId == grammarId }) else {
+            return Color(.systemGray4) // unseen
+        }
+        let days = record.fsrsScheduledDays
+        if days >= 60 {
+            return .green       // mastered
+        } else if days >= 14 {
+            return .purple      // confident
+        } else if days >= 3 {
+            return .blue        // familiar
+        } else {
+            return .orange      // learning
+        }
     }
 
     var body: some View {
@@ -40,6 +85,11 @@ struct GrammarBrowserView: View {
                     selectedPoint = point
                 } label: {
                     HStack {
+                        // Mastery indicator dot
+                        Circle()
+                            .fill(masteryColor(for: point.id))
+                            .frame(width: 8, height: 8)
+
                         VStack(alignment: .leading, spacing: 4) {
                             Text(point.pattern)
                                 .font(.system(size: scaled(18), weight: .bold))
@@ -55,11 +105,12 @@ struct GrammarBrowserView: View {
                             .font(.system(size: scaled(13), weight: .medium))
                             .padding(.horizontal, 8)
                             .padding(.vertical, 4)
-                            .background(point.level == "N3" ? Color.blue.opacity(0.15) : Color.orange.opacity(0.15))
-                            .foregroundColor(point.level == "N3" ? .blue : .orange)
+                            .background(levelBadgeColor(point.level).opacity(0.15))
+                            .foregroundColor(levelBadgeColor(point.level))
                             .clipShape(Capsule())
                     }
                 }
+                .listRowBackground(masteryRowTint(for: point.id))
             }
         }
         .searchable(text: $searchText, prompt: "Search patterns or meanings")
@@ -101,6 +152,17 @@ struct GrammarDetailView: View {
         FontSizeManager.scaled(base, scale: fontScale)
     }
 
+    private func detailLevelBadgeColor(_ level: String) -> Color {
+        switch level {
+        case "N5": return .green
+        case "N4": return .teal
+        case "N3": return .blue
+        case "N2": return .orange
+        case "N1": return .red
+        default: return .secondary
+        }
+    }
+
     var body: some View {
         NavigationStack {
             VStack(alignment: .leading, spacing: 16) {
@@ -112,8 +174,8 @@ struct GrammarDetailView: View {
                         .font(.system(size: scaled(13), weight: .medium))
                         .padding(.horizontal, 8)
                         .padding(.vertical, 4)
-                        .background(point.level == "N3" ? Color.blue.opacity(0.15) : Color.orange.opacity(0.15))
-                        .foregroundColor(point.level == "N3" ? .blue : .orange)
+                        .background(detailLevelBadgeColor(point.level).opacity(0.15))
+                        .foregroundColor(detailLevelBadgeColor(point.level))
                         .clipShape(Capsule())
                 }
 

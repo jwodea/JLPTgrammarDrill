@@ -12,28 +12,12 @@
       "wrong_choices": [
         "ことだ",
         "はずだ",
-        "ものではない"
+        "べきだ"
       ],
       "wrong_choice_explanations": [
         "ことだ gives specific advice ('you should...'), but the sentence expresses a general truth about children's nature, not advice directed at someone.",
         "はずだ means 'should be' (logical expectation), but the sentence is about a universal truth about how children naturally are, not a prediction.",
-        "ものではない means 'one should not,' which is the negative counterpart—the sentence is making an affirmative statement about children's nature."
-      ]
-    },
-    {
-      "id": "n3_055_10",
-      "example_sentence": "ビジネスはリスク管理が重要なものだ。",
-      "translation": "In business, risk management is essential, that is how it is.",
-      "blank_target": "ものだ",
-      "wrong_choices": [
-        "ことだ",
-        "はずだ",
-        "ものではない"
-      ],
-      "wrong_choice_explanations": [
-        "ことだ means 'the thing is', less emphatic about what is natural or universal.",
-        "はずだ is a logical expectation, not the general truth that ものだ conveys.",
-        "This is the negated form; the sentence needs affirmation."
+        "べきだ means 'ought to' (moral obligation), but ものだ conveys inevitability and natural law rather than duty."
       ]
     },
     {
@@ -54,50 +38,50 @@
     },
     {
       "id": "n3_055_3",
-      "example_sentence": "人は野外で遊ぶものだ。",
-      "translation": "People are meant to play outdoors.",
+      "example_sentence": "昔遊んだあの場所を思い出すものだ。",
+      "translation": "That's what happens—you remember the places where you used to play.",
       "blank_target": "ものだ",
       "wrong_choices": [
-        "ことだ",
-        "はずだ",
-        "ものではない"
+        "わけだ",
+        "のだ",
+        "ことがある"
       ],
       "wrong_choice_explanations": [
-        "ことだ means 'the thing is,' but the sentence uses ものだ to express a natural truth or general statement.",
-        "はずだ means 'should be based on expectation,' but the sentence uses ものだ for a general truth.",
-        "ものではない means 'one should not,' which contradicts the statement that this is how people naturally are."
+        "わけだ explains the reason or consequence, but ものだ expresses an emotional or nostalgic inevitability.",
+        "のだ asks for explanation, but ものだ expresses an emotional truth without need for explanation.",
+        "ことがある suggests occasional occurrence, but ものだ emphasizes the emotional inevitability of remembering."
       ]
     },
     {
       "id": "n3_055_4",
-      "example_sentence": "人は愛する人を大切にするものだ。",
-      "translation": "People are meant to cherish those they love.",
+      "example_sentence": "春になると、人は新しいことに挑戦したくなるものだ。",
+      "translation": "When spring comes, people naturally feel like challenging themselves with new things.",
       "blank_target": "ものだ",
       "wrong_choices": [
-        "ことだ",
+        "べきだ",
         "はずだ",
         "ものではない"
       ],
       "wrong_choice_explanations": [
-        "ことだ means 'should/the thing to do', but this sentence uses 'ものだ' for natural truth.",
-        "はずだ means 'should be/is expected', but this sentence uses 'ものだ' for general natural behavior.",
-        "This negates the natural truth, but the sentence affirms that people naturally cherish loved ones."
+        "べきだ implies moral obligation, but the sentence expresses a natural seasonal impulse rather than a duty.",
+        "はずだ suggests logical expectation, but ものだ captures the emotional and instinctive nature of seasonal change.",
+        "ものではない negates, but the sentence affirms a natural human tendency tied to seasonal change."
       ]
     },
     {
       "id": "n3_055_5",
-      "example_sentence": "人は物を大切にするものだ。",
-      "translation": "People are meant to cherish their possessions.",
+      "example_sentence": "職場では年功序列を尊重するものだ。",
+      "translation": "In the workplace, seniority-based hierarchy is naturally respected, that is how it is.",
       "blank_target": "ものだ",
       "wrong_choices": [
         "ことだ",
-        "はずだ",
-        "ものではない"
+        "わけだ",
+        "べきだ"
       ],
       "wrong_choice_explanations": [
-        "ことだ means 'the thing is,' but ものだ expresses what is naturally or typically true.",
-        "はずだ means 'should be,' but ものだ describes what is characteristically or naturally true.",
-        "ものではない means 'one should not,' opposite the affirmative meaning of ものだ."
+        "ことだ refers to an action or task, but ものだ expresses a cultural or social principle as universal truth.",
+        "わけだ introduces reasoning or explanation, but ものだ states what is naturally and traditionally true.",
+        "べきだ imposes obligation, but ものだ describes what naturally exists in workplace culture."
       ]
     },
     {
@@ -162,6 +146,22 @@
         "ことだ means 'the thing to do' (advice), but the sentence conveys a general truth or natural fact, which ものだ expresses.",
         "はずだ expresses logical expectation, but the sentence conveys what naturally or habitually is, a more universal truth.",
         "ものではない is the negative form; the sentence requires the affirmative meaning of natural consequence."
+      ]
+    },
+    {
+      "id": "n3_055_10",
+      "example_sentence": "ビジネスはリスク管理が重要なものだ。",
+      "translation": "In business, risk management is essential, that is how it is.",
+      "blank_target": "ものだ",
+      "wrong_choices": [
+        "ことだ",
+        "はずだ",
+        "ものではない"
+      ],
+      "wrong_choice_explanations": [
+        "ことだ means 'the thing is', less emphatic about what is natural or universal.",
+        "はずだ is a logical expectation, not the general truth that ものだ conveys.",
+        "This is the negated form; the sentence needs affirmation."
       ]
     }
   ]

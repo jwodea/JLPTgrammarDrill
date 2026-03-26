@@ -1,0 +1,128 @@
+{
+  "id": "n5_001",
+  "pattern": "〜です",
+  "meaning": "polite copula (is / am / are)",
+  "level": "N5",
+  "exercises": [
+    {
+      "id": "n5_001_1",
+      "example_sentence": "これは本＿＿。",
+      "translation": "This is a book.",
+      "blank_target": "です",
+      "wrong_choices": ["だ", "でした", "ある"],
+      "wrong_choice_explanations": [
+        "だ is the plain copula; this sentence requires the polite form です.",
+        "でした is the past polite copula, but the sentence is present tense.",
+        "ある means 'to exist' for inanimate objects but cannot link a noun predicate."
+      ]
+    },
+    {
+      "id": "n5_001_2",
+      "example_sentence": "私は学生＿＿。",
+      "translation": "I am a student.",
+      "blank_target": "です",
+      "wrong_choices": ["だ", "ます", "いる"],
+      "wrong_choice_explanations": [
+        "だ is the plain form copula; the sentence requires the polite form.",
+        "ます is a polite verb ending, not used after nouns.",
+        "いる means 'to exist' and cannot link a noun predicate."
+      ]
+    },
+    {
+      "id": "n5_001_3",
+      "example_sentence": "田中さんは先生＿＿。",
+      "translation": "Tanaka-san is a teacher.",
+      "blank_target": "です",
+      "wrong_choices": ["だった", "じゃない", "ある"],
+      "wrong_choice_explanations": [
+        "だった is the past plain copula, but the sentence is present tense.",
+        "じゃない is the negative plain copula ('is not'), which contradicts the sentence meaning.",
+        "ある expresses existence, not equation between two nouns."
+      ]
+    },
+    {
+      "id": "n5_001_4",
+      "example_sentence": "今日は月曜日＿＿。",
+      "translation": "Today is Monday.",
+      "blank_target": "です",
+      "wrong_choices": ["だ", "ない", "でした"],
+      "wrong_choice_explanations": [
+        "だ is plain form; the context requires polite speech.",
+        "ない is a negative adjective and cannot serve as a copula.",
+        "でした is past polite; the sentence is about today, so present tense is needed."
+      ]
+    },
+    {
+      "id": "n5_001_5",
+      "example_sentence": "あの建物は図書館＿＿。",
+      "translation": "That building is a library.",
+      "blank_target": "です",
+      "wrong_choices": ["でした", "いる", "ある"],
+      "wrong_choice_explanations": [
+        "でした is past polite; the sentence describes a current fact.",
+        "いる is for living things, not for equating two nouns.",
+        "ある means 'exists' and does not equate two nouns."
+      ]
+    },
+    {
+      "id": "n5_001_6",
+      "example_sentence": "彼女はアメリカ人＿＿。",
+      "translation": "She is American.",
+      "blank_target": "です",
+      "wrong_choices": ["だ", "ます", "じゃない"],
+      "wrong_choice_explanations": [
+        "だ is plain form; polite form is required.",
+        "ます is a verb ending, not a noun copula.",
+        "じゃない is the negative plain copula ('is not'), which reverses the sentence meaning."
+      ]
+    },
+    {
+      "id": "n5_001_7",
+      "example_sentence": "この料理はおいしい＿＿。",
+      "translation": "This food is delicious.",
+      "blank_target": "です",
+      "wrong_choices": ["だった", "だ", "ある"],
+      "wrong_choice_explanations": [
+        "だった is past tense and plain form; the sentence is present and polite.",
+        "だ is not typically used directly after i-adjectives in standard Japanese.",
+        "ある means 'to exist' and doesn't follow adjectives this way."
+      ]
+    },
+    {
+      "id": "n5_001_8",
+      "example_sentence": "ここは駅＿＿。",
+      "translation": "This place is a station.",
+      "blank_target": "です",
+      "wrong_choices": ["だ", "でした", "いる"],
+      "wrong_choice_explanations": [
+        "だ is the plain copula; polite form is needed.",
+        "でした is past polite; the sentence describes a current fact.",
+        "いる refers to the existence of living things, not places."
+      ]
+    },
+    {
+      "id": "n5_001_9",
+      "example_sentence": "あれは富士山＿＿。",
+      "translation": "That over there is Mt. Fuji.",
+      "blank_target": "です",
+      "wrong_choices": ["だ", "ある", "いる"],
+      "wrong_choice_explanations": [
+        "だ is plain form; the polite copula is needed.",
+        "ある means 'exists' but doesn't equate nouns.",
+        "いる is for animate existence."
+      ]
+    },
+    {
+      "id": "n5_001_10",
+      "example_sentence": "明日は休み＿＿。",
+      "translation": "Tomorrow is a holiday.",
+      "blank_target": "です",
+      "wrong_choices": ["だ", "ます", "だった"],
+      "wrong_choice_explanations": [
+        "だ is plain form, not polite.",
+        "ます is for verbs, not noun predicates.",
+        "だった is past plain form; the sentence is about tomorrow (future)."
+      ]
+    }
+  ]
+}

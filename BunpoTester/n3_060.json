@@ -16,24 +16,8 @@
       ],
       "wrong_choice_explanations": [
         "おかげで means 'thanks to' with gratitude for a positive result, but the postponement is a negative outcome being blamed on the weather.",
-        "ために means 'because of' neutrally, lacking the blaming nuance—せいで specifically assigns fault for a bad outcome.",
-        "によって means 'due to / by means of,' a neutral or formal attribution, but せいで explicitly blames the weather for the negative result."
-      ]
-    },
-    {
-      "id": "n3_060_10",
-      "example_sentence": "予算削減のせいで、プロジェクトが遅延した。",
-      "translation": "Because of budget cuts, the project was delayed.",
-      "blank_target": "のせいで",
-      "wrong_choices": [
-        "のおかげで",
-        "のために",
-        "によって"
-      ],
-      "wrong_choice_explanations": [
-        "のおかげで means 'thanks to', expressing positive result, the opposite of せいで.",
-        "のために means 'for the purpose of', not the causal blame of せいで.",
-        "によって means 'due to/by means of', more neutral than せいで's negative implication."
+        "ために means 'for/in order to,' neutrally indicating purpose or reason, lacking the blaming nuance of せいで.",
+        "によって means 'due to/by means of,' a neutral or formal attribution, but せいで explicitly blames the weather for the negative result."
       ]
     },
     {
@@ -42,30 +26,30 @@
       "translation": "Because of the system malfunction, we could not conduct sales.",
       "blank_target": "のせいで",
       "wrong_choices": [
-        "いのおかげで",
-        "いのために",
-        "いによって"
+        "のおかげで",
+        "のために",
+        "によって"
       ],
       "wrong_choice_explanations": [
-        "いのおかげで means 'thanks to', expressing gratitude for positive results, but the sentence blames the malfunction for negative results.",
-        "いのために means 'for the purpose of', but the sentence indicates that the malfunction caused the negative result.",
-        "いによって means 'by means of', but the sentence uses せいで to blame the system failure for the loss of sales."
+        "のおかげで means 'thanks to,' expressing gratitude for positive results, but this sentence blames the malfunction for a negative outcome.",
+        "のために means 'for the purpose of,' indicating intention rather than causal blame.",
+        "によって indicates neutral causation, but せいで specifically assigns blame for an undesired result."
       ]
     },
     {
       "id": "n3_060_3",
-      "example_sentence": "悪い天気のせいで、ハイキングがキャンセルになった。",
-      "translation": "Because of the bad weather, the hiking trip was cancelled.",
+      "example_sentence": "彼の失敗のせいで、全員が責任を取ることになった。",
+      "translation": "Because of his mistake, everyone had to take responsibility.",
       "blank_target": "のせいで",
       "wrong_choices": [
-        "いおかげで",
-        "いために",
-        "いによって"
+        "のおかげで",
+        "のために",
+        "からして"
       ],
       "wrong_choice_explanations": [
-        "いおかげで means 'thanks to,' expressing a positive result, but the sentence describes a negative consequence.",
-        "いために means 'in order to,' but the sentence uses せいで to blame something for a bad outcome.",
-        "いによって means 'depending on or by means of,' but the sentence uses せいで for blaming."
+        "のおかげで means 'thanks to,' implying gratitude, but the sentence describes a negative consequence of blame.",
+        "のために means 'for the purpose of,' indicating intention, not the causal blame needed here.",
+        "からして means 'judging from,' expressing inference, not the direct causation and blame of せいで."
       ]
     },
     {
@@ -74,14 +58,14 @@
       "translation": "My life was ruined because of my girlfriend.",
       "blank_target": "のせいで",
       "wrong_choices": [
-        "いのおかげで",
-        "いのために",
-        "いによって"
+        "のおかげで",
+        "のために",
+        "によって"
       ],
       "wrong_choice_explanations": [
-        "おかげで means 'thanks to' for positive results, but this sentence uses 'のせいで' for negative blame.",
-        "ために is purpose, but this sentence uses 'のせいで' for 'because of' with blame.",
-        "によって is neutral 'by means of', but this sentence uses 'のせいで' for negative causation."
+        "のおかげで means 'thanks to,' implying positive results, but this sentence assigns blame for a negative life outcome.",
+        "のために means 'for,' indicating purpose, but せいで conveys causation of a bad result.",
+        "によって indicates neutral causation, but せいで carries the specific connotation of blame."
       ]
     },
     {
@@ -90,14 +74,14 @@
       "translation": "Because of the recession, business did not go well.",
       "blank_target": "せいで",
       "wrong_choices": [
-        "いおかげで",
-        "いために",
-        "いによって"
+        "おかげで",
+        "ために",
+        "によって"
       ],
       "wrong_choice_explanations": [
-        "いおかげで means 'thanks to,' but せいで blames something negative for the poor outcome.",
-        "いために indicates purpose, but せいで expresses causation of a negative result.",
-        "いによって is more neutral, but せいで carries the sense of blaming."
+        "おかげで means 'thanks to,' expressing gratitude for positive outcomes, opposite to せいで's blaming sense.",
+        "ために indicates purpose or neutral reason, but せいで specifically carries blame for a negative result.",
+        "によって is a neutral causal marker, but せいで emphasizes fault and assigns responsibility."
       ]
     },
     {
@@ -111,47 +95,63 @@
         "によって"
       ],
       "wrong_choice_explanations": [
-        "'のおかげで' means 'thanks to' (positive); '〜のせいで' is for negative result.",
-        "'のために' means 'for'; it doesn't imply blame.",
-        "'によって' means 'by means of'; it's neutral, not blaming."
+        "のおかげで means 'thanks to' (positive); せいで is for negative results and blame.",
+        "のために means 'for the purpose of,' indicating intention, not causation of a negative result.",
+        "によって is a neutral causal marker, lacking the blame that せいで conveys."
       ]
     },
     {
       "id": "n3_060_7",
-      "example_sentence": "スマートフォンの故障のせいで、連絡が取れません。",
-      "translation": "Because my smartphone broke, I cannot contact you.",
+      "example_sentence": "隣人の騒音のせいで、眠れませんでした。",
+      "translation": "Because of the neighbor's noise, I could not sleep.",
       "blank_target": "のせいで",
       "wrong_choices": [
         "のおかげで",
         "のために",
-        "によって"
+        "ので"
       ],
       "wrong_choice_explanations": [
-        "〜おかげで means 'thanks to' for positive results, but 〜せいで blames for negative results",
-        "〜ために indicates purpose, but 〜せいで indicates negative consequences or blame",
-        "〜によって indicates cause, but 〜せいで specifically blames for undesired results"
+        "のおかげで means 'thanks to,' expressing gratitude, but the sentence blames the neighbor's noise for a negative consequence.",
+        "のために means 'for the purpose of,' indicating intention, not the causal blame needed here.",
+        "ので is a causal marker but is more neutral; せいで specifically carries blame and reproach."
       ]
     },
     {
       "id": "n3_060_8",
-      "example_sentence": "システムのバグのせいで、サービスが停止しました。",
-      "translation": "Because of a system bug, the service stopped.",
+      "example_sentence": "寝不足のせいで、集中力が落ちている。",
+      "translation": "Because of lack of sleep, my concentration is declining.",
       "blank_target": "のせいで",
       "wrong_choices": [
         "のおかげで",
         "のために",
-        "によって"
+        "ので"
       ],
       "wrong_choice_explanations": [
-        "のおかげで means 'thanks to' with positive result, but the sentence assigns blame for negative result.",
-        "のために means 'in order to', but the sentence describes the cause of negative results.",
-        "によって means 'by means of' or 'depending on', but doesn't imply blame as せいで does."
+        "のおかげで means 'thanks to' with positive implication, opposite to せいで's negative blame.",
+        "のために means 'for,' indicating purpose or benefit, but せいで describes causation of a negative state.",
+        "ので is a neutral reason marker, but せいで specifically implies blame and fault."
       ]
     },
     {
       "id": "n3_060_9",
-      "example_sentence": "通信障害のせいで、会議が延期になりました。",
-      "translation": "Because of communication issues, the meeting was postponed.",
+      "example_sentence": "私の誤解のせいで、トラブルが起きてしまった。",
+      "translation": "Because of my misunderstanding, a problem occurred.",
+      "blank_target": "のせいで",
+      "wrong_choices": [
+        "のおかげで",
+        "ために",
+        "によって"
+      ],
+      "wrong_choice_explanations": [
+        "のおかげで means 'thanks to,' expressing gratitude for positive results, but the sentence blames a misunderstanding for a negative outcome.",
+        "ために means 'for,' indicating purpose, but この文では問題発生の原因と責任を表す。",
+        "によって expresses neutral causation, but せいで carries the specific nuance of personal blame and responsibility."
+      ]
+    },
+    {
+      "id": "n3_060_10",
+      "example_sentence": "予算削減のせいで、プロジェクトが遅延した。",
+      "translation": "Because of budget cuts, the project was delayed.",
       "blank_target": "のせいで",
       "wrong_choices": [
         "のおかげで",
@@ -159,9 +159,9 @@
         "によって"
       ],
       "wrong_choice_explanations": [
-        "のおかげで means 'thanks to,' expressing positive results, but the sentence blames communication issues for a negative outcome.",
-        "のために expresses purpose or reason, but the sentence specifically blames someone or something, requiring せいで.",
-        "によって expresses causation neutrally, but the sentence carries the connotation of blame, which せいで conveys."
+        "のおかげで means 'thanks to,' implying positive results, but the sentence assigns blame for project delays.",
+        "のために means 'for the purpose of,' indicating intention, not causal blame.",
+        "によって expresses neutral causation, but せいで specifically emphasizes blame for the negative consequence."
       ]
     }
   ]
