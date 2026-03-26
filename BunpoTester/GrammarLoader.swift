@@ -2,106 +2,81 @@ import Foundation
 
 class GrammarLoader {
 
-    /// All 30 exercise file names (N1-1 through N3-10).
-    private static let fileNames: [String] = {
-        var names: [String] = []
-        for level in ["N1", "N2", "N3"] {
-            for set in 1...10 {
-                names.append("\(level)-\(set)")
-            }
-        }
-        return names
-    }()
+    private static let levelPrefixes = ["n1_", "n2_", "n3_"]
 
-    /// Derive the base grammar-pattern ID from an exercise ID.
-    /// e.g. "n3_001_5" → "n3_001",  "n1_100_10" → "n1_100"
-    private static func basePatternId(from exerciseId: String) -> String {
-        // IDs follow the pattern: <level>_<number>_<set>
-        // We want everything up to (but not including) the last underscore.
-        if let range = exerciseId.range(of: "_", options: .backwards) {
-            return String(exerciseId[..<range.lowerBound])
-        }
-        return exerciseId
-    }
+    /// Load all per-pattern JSON files from the bundle.
+    /// Files are named like n1_001.json, n2_050.json, etc.
+    private static func loadAllPatternFiles() -> [PatternFile] {
+        var all: [PatternFile] = []
+        guard let resourceURL = Bundle.main.resourceURL else { return all }
 
-    /// Load every exercise from all 30 JSON files.
-    private static func loadAllExercises() -> [GrammarPoint] {
-        var all: [GrammarPoint] = []
-        for fileName in fileNames {
-            guard let url = Bundle.main.url(forResource: fileName, withExtension: "json") else {
-                print("Could not find \(fileName).json in bundle")
-                continue
+        do {
+            let allFiles = try FileManager.default.contentsOfDirectory(
+                at: resourceURL,
+                includingPropertiesForKeys: nil
+            )
+            let patternFiles = allFiles.filter { url in
+                guard url.pathExtension == "json" else { return false }
+                let name = url.deletingPathExtension().lastPathComponent
+                return levelPrefixes.contains(where: { name.hasPrefix($0) })
             }
-            do {
-                let data = try Data(contentsOf: url)
-                let decoded = try JSONDecoder().decode(GrammarFile.self, from: data)
-                all.append(contentsOf: decoded.grammar)
-            } catch {
-                print("Error loading \(fileName).json: \(error)")
+
+            for url in patternFiles {
+                do {
+                    let data = try Data(contentsOf: url)
+                    let decoded = try JSONDecoder().decode(PatternFile.self, from: data)
+                    all.append(decoded)
+                } catch {
+                    print("Error loading \(url.lastPathComponent): \(error)")
+                }
             }
+        } catch {
+            print("Error reading bundle resources: \(error)")
         }
-        return all
+
+        return all.sorted { $0.id < $1.id }
     }
 
     /// Return one canonical GrammarPoint per base pattern, ordered by base ID.
     /// This is the list used for SRS tracking (one record per grammar pattern).
     static func loadAll() -> [GrammarPoint] {
-        let allExercises = loadAllExercises()
-        var seen: [String: GrammarPoint] = [:]
-        var order: [String] = []
-        for point in allExercises {
-            let base = basePatternId(from: point.id)
-            if seen[base] == nil {
-                // Keep the first occurrence as the canonical representative
-                seen[base] = GrammarPoint(
-                    id: base,
-                    pattern: point.pattern,
-                    meaning: point.meaning,
-                    level: point.level,
-                    exampleSentence: point.exampleSentence,
-                    translation: point.translation,
-                    blankTarget: point.blankTarget,
-                    wrongChoices: point.wrongChoices,
-                    wrongChoiceExplanations: point.wrongChoiceExplanations
-                )
-                order.append(base)
-            }
+        let patternFiles = loadAllPatternFiles()
+        return patternFiles.map { pf in
+            let first = pf.exercises.first
+            return GrammarPoint(
+                id: pf.id,
+                pattern: pf.pattern,
+                meaning: pf.meaning,
+                level: pf.level,
+                exampleSentence: first?.exampleSentence ?? "",
+                translation: first?.translation ?? "",
+                blankTarget: first?.blankTarget ?? "",
+                wrongChoices: first?.wrongChoices ?? [],
+                wrongChoiceExplanations: first?.wrongChoiceExplanations ?? []
+            )
         }
-        return order.compactMap { seen[$0] }
     }
 
     /// Build a lookup from base grammar ID to all available SessionExercises.
-    /// Each pattern will have up to 10 exercise variations drawn from the 30 files.
     static func buildExercisePool() -> [String: [SessionExercise]] {
-        let allExercises = loadAllExercises()
+        let patternFiles = loadAllPatternFiles()
         var pool: [String: [SessionExercise]] = [:]
 
-        // First pass: collect pattern metadata keyed by base ID
-        var patternMeta: [String: (pattern: String, meaning: String, level: String)] = [:]
-        for point in allExercises {
-            let base = basePatternId(from: point.id)
-            if patternMeta[base] == nil {
-                patternMeta[base] = (point.pattern, point.meaning, point.level)
+        for pf in patternFiles {
+            pool[pf.id] = pf.exercises.map { exercise in
+                SessionExercise(
+                    id: exercise.id,
+                    grammarId: pf.id,
+                    pattern: pf.pattern,
+                    meaning: pf.meaning,
+                    level: pf.level,
+                    exampleSentence: exercise.exampleSentence,
+                    translation: exercise.translation,
+                    blankTarget: exercise.blankTarget,
+                    wrongChoices: exercise.wrongChoices,
+                    wrongChoiceExplanations: exercise.wrongChoiceExplanations
+                )
             }
-        }
-
-        // Second pass: build SessionExercises
-        for point in allExercises {
-            let base = basePatternId(from: point.id)
-            guard let meta = patternMeta[base] else { continue }
-            let sessionEx = SessionExercise(
-                id: point.id,
-                grammarId: base,
-                pattern: meta.pattern,
-                meaning: meta.meaning,
-                level: meta.level,
-                exampleSentence: point.exampleSentence,
-                translation: point.translation,
-                blankTarget: point.blankTarget,
-                wrongChoices: point.wrongChoices,
-                wrongChoiceExplanations: point.wrongChoiceExplanations
-            )
-            pool[base, default: []].append(sessionEx)
         }
 
         return pool

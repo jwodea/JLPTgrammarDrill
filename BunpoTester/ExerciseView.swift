@@ -18,6 +18,8 @@ struct ExerciseView: View {
     @State private var orderedPatternIds: [String] = []
     // Total distinct patterns in this session
     @State private var totalPatterns = 0
+    // Patterns that have had at least one wrong answer (used for color logic)
+    @State private var failedPatterns: Set<String> = []
     @State private var questionsAnswered = 0
 
     @State private var selectedAnswer: String?
@@ -56,7 +58,7 @@ struct ExerciseView: View {
                             orderedPatternIds: orderedPatternIds,
                             streaks: streaks,
                             completedPatterns: completedPatterns,
-                            currentGrammarId: item.grammarId,
+                            failedPatterns: failedPatterns,
                             requiredStreak: requiredStreak
                         )
                         .frame(height: 8)
@@ -235,37 +237,49 @@ struct ExerciseView: View {
         if isCorrect {
             let newStreak = (streaks[item.grammarId] ?? 0) + 1
             streaks[item.grammarId] = newStreak
-            if newStreak >= requiredStreak {
+            let hasFailed = failedPatterns.contains(item.grammarId)
+            // First-try correct: immediately complete. After a mistake: need requiredStreak in a row.
+            if !hasFailed || newStreak >= requiredStreak {
                 completedPatterns.insert(item.grammarId)
             }
         } else {
             // Reset this pattern's streak
             streaks[item.grammarId] = 0
             completedPatterns.remove(item.grammarId)
+            failedPatterns.insert(item.grammarId)
 
-            // Build retry exercises: same sentence + a different one for the same pattern
-            var retryItems: [SessionExercise] = [item]
-            if let pool = exercisePool[item.grammarId] {
-                let alternatives = pool.filter { $0.id != item.id }
-                retryItems.append(alternatives.randomElement() ?? item)
-            } else {
-                retryItems.append(item)
+            // Build 3 retry exercises so the streak can reach 3 from 0.
+            // Use different sentences from the pool where possible.
+            var retryItems: [SessionExercise] = []
+            let alternatives: [SessionExercise] = {
+                guard let pool = exercisePool[item.grammarId] else { return [] }
+                return pool.filter { $0.id != item.id }.shuffled()
+            }()
+
+            for i in 0..<requiredStreak {
+                if i < alternatives.count {
+                    retryItems.append(alternatives[i])
+                } else {
+                    retryItems.append(item)
+                }
             }
 
-            // Insert retries with a gap — after at least one different pattern.
-            // Find the first index past index 0 that belongs to a different grammar ID.
-            let insertionIndex: Int = {
-                // Start after the current item (index 0)
-                for i in 1..<queue.count {
-                    if queue[i].grammarId != item.grammarId {
-                        // Place retries after this different-pattern exercise
-                        return i + 1
-                    }
+            // First retry goes right after the current item (position 1) for immediate re-test.
+            queue.insert(retryItems[0], at: min(1, queue.count))
+
+            // Remaining retries (2nd and 3rd) get mixed randomly into the rest of the queue.
+            // We pick random positions from index 2 onward (past current + first retry),
+            // ensuring at least one other item separates them where possible.
+            for i in 1..<retryItems.count {
+                let minIdx = min(2 + i, queue.count) // spread them out a bit
+                let maxIdx = queue.count
+                if minIdx < maxIdx {
+                    let pos = Int.random(in: minIdx...maxIdx)
+                    queue.insert(retryItems[i], at: pos)
+                } else {
+                    queue.append(retryItems[i])
                 }
-                // No other patterns in queue — append at the end
-                return queue.count
-            }()
-            queue.insert(contentsOf: retryItems, at: min(insertionIndex, queue.count))
+            }
         }
 
         triggerHaptic(correct: isCorrect)
@@ -404,7 +418,7 @@ private struct SessionProgressBar: View {
     let orderedPatternIds: [String]
     let streaks: [String: Int]
     let completedPatterns: Set<String>
-    let currentGrammarId: String
+    let failedPatterns: Set<String>
     let requiredStreak: Int
 
     var body: some View {
@@ -420,13 +434,21 @@ private struct SessionProgressBar: View {
                     ForEach(Array(orderedPatternIds.enumerated()), id: \.element) { _, patternId in
                         let streak = streaks[patternId] ?? 0
                         let isCompleted = completedPatterns.contains(patternId)
-                        let isCurrent = patternId == currentGrammarId
-                        let fraction = isCompleted ? 1.0 : CGFloat(streak) / CGFloat(requiredStreak)
+                        let hasFailed = failedPatterns.contains(patternId)
+
+                        // After a wrong answer with streak 0, show a small red bar.
+                        // Otherwise fill proportionally to streak progress.
+                        let fraction: CGFloat = {
+                            if isCompleted { return 1.0 }
+                            if hasFailed && streak == 0 { return 0.15 }
+                            return CGFloat(streak) / CGFloat(requiredStreak)
+                        }()
 
                         segmentView(
+                            streak: streak,
                             fraction: fraction,
                             isCompleted: isCompleted,
-                            isCurrent: isCurrent,
+                            hasFailed: hasFailed,
                             width: segmentWidth,
                             height: geometry.size.height
                         )
@@ -436,7 +458,7 @@ private struct SessionProgressBar: View {
         }
     }
 
-    private func segmentView(fraction: CGFloat, isCompleted: Bool, isCurrent: Bool, width: CGFloat, height: CGFloat) -> some View {
+    private func segmentView(streak: Int, fraction: CGFloat, isCompleted: Bool, hasFailed: Bool, width: CGFloat, height: CGFloat) -> some View {
         ZStack(alignment: .leading) {
             // Background track
             RoundedRectangle(cornerRadius: height / 2)
@@ -446,23 +468,25 @@ private struct SessionProgressBar: View {
             // Filled portion
             if fraction > 0 {
                 RoundedRectangle(cornerRadius: height / 2)
-                    .fill(segmentColor(isCompleted: isCompleted))
+                    .fill(segmentColor(streak: streak, isCompleted: isCompleted, hasFailed: hasFailed))
                     .frame(width: max(height, width * fraction), height: height)
-            }
-
-            // Current-pattern indicator: a subtle ring
-            if isCurrent && !isCompleted {
-                RoundedRectangle(cornerRadius: height / 2)
-                    .stroke(Color.accentColor, lineWidth: 1.5)
-                    .frame(width: width, height: height)
             }
         }
         .animation(.easeInOut(duration: 0.3), value: fraction)
         .animation(.easeInOut(duration: 0.3), value: isCompleted)
     }
 
-    private func segmentColor(isCompleted: Bool) -> Color {
-        isCompleted ? .green : .orange
+    /// Patterns with no mistakes: always green.
+    /// Patterns after a mistake: red (0) → orange (1) → yellow (2) → green (3/completed).
+    private func segmentColor(streak: Int, isCompleted: Bool, hasFailed: Bool) -> Color {
+        if isCompleted { return .green }
+        if !hasFailed { return .green }
+        switch streak {
+        case 0: return .red
+        case 1: return .orange
+        case 2: return .yellow
+        default: return .green
+        }
     }
 }
 

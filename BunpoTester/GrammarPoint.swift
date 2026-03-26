@@ -1,7 +1,40 @@
 import Foundation
 
-struct GrammarFile: Codable {
-    let grammar: [GrammarPoint]
+/// Represents a per-pattern JSON file containing all exercises for one grammar pattern.
+struct PatternFile: Codable {
+    let id: String
+    let pattern: String
+    let meaning: String
+    let level: String
+    let exercises: [Exercise]
+}
+
+/// A single exercise variation within a grammar pattern file.
+struct Exercise: Codable {
+    let id: String
+    let exampleSentence: String
+    let translation: String
+    let blankTarget: String
+    let wrongChoices: [String]
+    let wrongChoiceExplanations: [String]
+
+    enum CodingKeys: String, CodingKey {
+        case id, translation
+        case exampleSentence = "example_sentence"
+        case blankTarget = "blank_target"
+        case wrongChoices = "wrong_choices"
+        case wrongChoiceExplanations = "wrong_choice_explanations"
+    }
+
+    init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        id = try container.decode(String.self, forKey: .id)
+        exampleSentence = try container.decode(String.self, forKey: .exampleSentence)
+        translation = try container.decode(String.self, forKey: .translation)
+        blankTarget = try container.decode(String.self, forKey: .blankTarget)
+        wrongChoices = try container.decode([String].self, forKey: .wrongChoices)
+        wrongChoiceExplanations = try container.decodeIfPresent([String].self, forKey: .wrongChoiceExplanations) ?? []
+    }
 }
 
 struct GrammarPoint: Codable, Identifiable, Hashable {
