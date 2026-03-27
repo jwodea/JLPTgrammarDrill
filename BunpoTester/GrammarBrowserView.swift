@@ -36,38 +36,35 @@ struct GrammarBrowserView: View {
         }
     }
 
+    /// Computes mastery progress (0.0 to 1.0) from SRS scheduled days.
+    private func masteryProgress(for grammarId: String) -> Double? {
+        guard let record = srsRecords.first(where: { $0.grammarId == grammarId }) else {
+            return nil // unseen
+        }
+        return min(max(Double(record.fsrsScheduledDays) / 60.0, 0.0), 1.0)
+    }
+
+    /// Returns a color interpolated from orange (novice) to green (mastered).
+    private func masteryHue(for progress: Double) -> Double {
+        // Orange hue ≈ 0.083 (30°), Green hue ≈ 0.333 (120°)
+        0.083 + progress * (0.333 - 0.083)
+    }
+
     /// Returns a subtle mastery-based tint for the list row background.
     private func masteryRowTint(for grammarId: String) -> Color {
-        guard let record = srsRecords.first(where: { $0.grammarId == grammarId }) else {
+        guard let progress = masteryProgress(for: grammarId) else {
             return Color(.systemBackground) // unseen — default
         }
-        let days = record.fsrsScheduledDays
-        if days >= 60 {
-            return Color.green.opacity(0.08)    // mastered
-        } else if days >= 14 {
-            return Color.purple.opacity(0.06)   // confident
-        } else if days >= 3 {
-            return Color.blue.opacity(0.06)     // familiar
-        } else {
-            return Color.orange.opacity(0.06)   // learning
-        }
+        return Color(hue: masteryHue(for: progress), saturation: 0.8, brightness: 1.0)
+            .opacity(0.18)
     }
 
     /// Returns a mastery indicator dot color.
     private func masteryColor(for grammarId: String) -> Color {
-        guard let record = srsRecords.first(where: { $0.grammarId == grammarId }) else {
+        guard let progress = masteryProgress(for: grammarId) else {
             return Color(.systemGray4) // unseen
         }
-        let days = record.fsrsScheduledDays
-        if days >= 60 {
-            return .green       // mastered
-        } else if days >= 14 {
-            return .purple      // confident
-        } else if days >= 3 {
-            return .blue        // familiar
-        } else {
-            return .orange      // learning
-        }
+        return Color(hue: masteryHue(for: progress), saturation: 0.8, brightness: 0.85)
     }
 
     var body: some View {
@@ -85,11 +82,6 @@ struct GrammarBrowserView: View {
                     selectedPoint = point
                 } label: {
                     HStack {
-                        // Mastery indicator dot
-                        Circle()
-                            .fill(masteryColor(for: point.id))
-                            .frame(width: 8, height: 8)
-
                         VStack(alignment: .leading, spacing: 4) {
                             Text(point.pattern)
                                 .font(.system(size: scaled(18), weight: .bold))
