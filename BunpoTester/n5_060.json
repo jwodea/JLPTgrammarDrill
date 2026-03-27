@@ -1,0 +1,168 @@
+{
+  "id": "n5_060",
+  "pattern": "～しか～ない",
+  "meaning": "Nothing but ~ / only (negative)",
+  "level": "N5",
+  "exercises": [
+    {
+      "id": "n5_060_1",
+      "example_sentence": "お金が千円__ありません。",
+      "translation": "I only have 1000 yen.",
+      "blank_target": "しか",
+      "wrong_choices": [
+        "だけ",
+        "も",
+        "は"
+      ],
+      "wrong_choice_explanations": [
+        "だけ means 'only' but is used with positive verbs — it doesn't fit here because the verb is negative.",
+        "も means 'also/even' — it doesn't fit here because we need the specific negative-only construction.",
+        "は marks the topic — it doesn't fit here because we need to express the limitation with negative verb."
+      ]
+    },
+    {
+      "id": "n5_060_2",
+      "example_sentence": "日本語__話せません。",
+      "translation": "I can only speak Japanese.",
+      "blank_target": "しか",
+      "wrong_choices": [
+        "を",
+        "が",
+        "だけ"
+      ],
+      "wrong_choice_explanations": [
+        "を marks the direct object — it doesn't fit here because we need to express limitation with the negative construction.",
+        "が marks the subject — it doesn't fit here because '日本語' is the object and we need the 'only' meaning.",
+        "だけ means 'only' but requires a positive verb — it doesn't work with the negative verb '話せません'."
+      ]
+    },
+    {
+      "id": "n5_060_3",
+      "example_sentence": "友達が一人__いません。",
+      "translation": "I only have one friend.",
+      "blank_target": "しか",
+      "wrong_choices": [
+        "くらい",
+        "だけ",
+        "ほど"
+      ],
+      "wrong_choice_explanations": [
+        "くらい means 'about/approximately' — it doesn't fit here because we need the 'only' meaning with negative verb.",
+        "だけ means 'only' but is used with positive verbs — it doesn't work with the negative verb 'いません'.",
+        "ほど means 'to the extent of' — it doesn't fit here because we're expressing limitation, not degree."
+      ]
+    },
+    {
+      "id": "n5_060_4",
+      "example_sentence": "コーヒー__飲みませんでした。",
+      "translation": "I only drank coffee.",
+      "blank_target": "しか",
+      "wrong_choices": [
+        "ばかり",
+        "を",
+        "だけ"
+      ],
+      "wrong_choice_explanations": [
+        "ばかり implies repetitive action with positive verbs — it doesn't fit here because we need the negative construction for 'only'.",
+        "を marks the direct object — it doesn't fit here because we need to express limitation with the negative construction.",
+        "だけ means 'only' but requires a positive verb — it doesn't work with the negative verb '飲みませんでした'."
+      ]
+    },
+    {
+      "id": "n5_060_5",
+      "example_sentence": "この本__読んでいません。",
+      "translation": "I'm only reading this book.",
+      "blank_target": "しか",
+      "wrong_choices": [
+        "を",
+        "ばかり",
+        "だけ"
+      ],
+      "wrong_choice_explanations": [
+        "を marks the direct object — it doesn't fit here because we need to express limitation with negative verb.",
+        "ばかり means 'only/nothing but' but is used with positive verbs — it doesn't work with the negative '読んでいません'.",
+        "だけ means 'only' but requires a positive verb — it doesn't work with the negative verb '読んでいません'."
+      ]
+    },
+    {
+      "id": "n5_060_6",
+      "example_sentence": "彼__この問題を解けません。",
+      "translation": "Only he cannot solve this problem.",
+      "blank_target": "しか",
+      "wrong_choices": [
+        "は",
+        "が",
+        "だけ"
+      ],
+      "wrong_choice_explanations": [
+        "は marks the topic — it doesn't express the limiting meaning needed with the negative verb here.",
+        "が marks the subject — it doesn't fit here because we need to express that he alone cannot solve it.",
+        "だけ means 'only' but is used with positive verbs — it doesn't work with the negative verb '解けません'."
+      ]
+    },
+    {
+      "id": "n5_060_7",
+      "example_sentence": "水__飲んではいけません。",
+      "translation": "You can only drink water.",
+      "blank_target": "しか",
+      "wrong_choices": [
+        "を",
+        "ばかり",
+        "は"
+      ],
+      "wrong_choice_explanations": [
+        "を marks the direct object — it doesn't fit here because we need to express limitation with the prohibition form.",
+        "ばかり means 'only/nothing but' but doesn't work with the prohibition form 'いけません'.",
+        "は marks the topic — it doesn't express the limiting meaning needed with the prohibition here."
+      ]
+    },
+    {
+      "id": "n5_060_8",
+      "example_sentence": "今日__時間がありませんでした。",
+      "translation": "I only had time today.",
+      "blank_target": "しか",
+      "wrong_choices": [
+        "は",
+        "に",
+        "だけ"
+      ],
+      "wrong_choice_explanations": [
+        "は marks the topic — it doesn't express the limiting meaning needed with the negative verb here.",
+        "に indicates time point — it doesn't fit here because we need to express that only today had time available.",
+        "だけ means 'only' but requires a positive verb — it doesn't work with the negative 'ありませんでした'."
+      ]
+    },
+    {
+      "id": "n5_060_9",
+      "example_sentence": "一時間__勉強しませんでした。",
+      "translation": "I only studied for one hour.",
+      "blank_target": "しか",
+      "wrong_choices": [
+        "間",
+        "ぐらい",
+        "だけ"
+      ],
+      "wrong_choice_explanations": [
+        "間 means 'during/for (time period)' — it doesn't express the limiting meaning needed with the negative verb.",
+        "ぐらい means 'about/approximately' — it doesn't fit here because we need to express limitation, not approximation.",
+        "だけ means 'only' but requires a positive verb — it doesn't work with the negative '勉強しませんでした'."
+      ]
+    },
+    {
+      "id": "n5_060_10",
+      "example_sentence": "パン__食べられませんでした。",
+      "translation": "I could only eat bread.",
+      "blank_target": "しか",
+      "wrong_choices": [
+        "を",
+        "ばかり",
+        "だけ"
+      ],
+      "wrong_choice_explanations": [
+        "を marks the direct object — it doesn't fit here because we need to express limitation with the negative potential form.",
+        "ばかり means 'only/nothing but' but doesn't work with the negative potential form '食べられませんでした'.",
+        "だけ means 'only' but requires a positive verb — it doesn't work with the negative '食べられませんでした'."
+      ]
+    }
+  ]
+}

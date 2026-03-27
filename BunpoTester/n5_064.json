@@ -1,0 +1,168 @@
+{
+  "id": "n5_064",
+  "pattern": "～がある／いる",
+  "meaning": "There is / exists (inanimate/animate)",
+  "level": "N5",
+  "exercises": [
+    {
+      "id": "n5_064_1",
+      "example_sentence": "机の上に本__あります。",
+      "translation": "There is a book on the desk.",
+      "blank_target": "が",
+      "wrong_choices": [
+        "を",
+        "は",
+        "に"
+      ],
+      "wrong_choice_explanations": [
+        "を marks direct objects for action verbs — it doesn't fit here because ある is an existence verb that takes が, not を.",
+        "は marks the topic — it doesn't fit here because in existence sentences, the existing thing takes が, not は.",
+        "に indicates location or direction — it doesn't fit here because 'on the desk' already shows location; the book needs が as the subject."
+      ]
+    },
+    {
+      "id": "n5_064_2",
+      "example_sentence": "公園に子どもたち__います。",
+      "translation": "There are children in the park.",
+      "blank_target": "が",
+      "wrong_choices": [
+        "の",
+        "と",
+        "で"
+      ],
+      "wrong_choice_explanations": [
+        "の shows possession or modification — it doesn't fit here because children are the subject of existence, not possessing something.",
+        "と means 'with' or 'and' — it doesn't fit here because children are not companions, but the subject of the existence verb いる.",
+        "で indicates means or location of actions — it doesn't fit here because 'in the park' already shows location; children need が as the existing subject."
+      ]
+    },
+    {
+      "id": "n5_064_3",
+      "example_sentence": "冷蔵庫にジュース__ありますか。",
+      "translation": "Is there juice in the refrigerator?",
+      "blank_target": "が",
+      "wrong_choices": [
+        "を",
+        "も",
+        "だけ"
+      ],
+      "wrong_choice_explanations": [
+        "を marks direct objects for actions — it doesn't fit here because ある is an existence verb that requires が for the existing thing.",
+        "も means 'also/too' — it doesn't fit here because we need the subject marker が, not an additional item marker.",
+        "だけ means 'only' — it doesn't fit here because we're asking about existence of juice, not limiting to juice alone."
+      ]
+    },
+    {
+      "id": "n5_064_4",
+      "example_sentence": "教室に先生__いません。",
+      "translation": "There is no teacher in the classroom.",
+      "blank_target": "が",
+      "wrong_choices": [
+        "は",
+        "に",
+        "から"
+      ],
+      "wrong_choice_explanations": [
+        "は marks the topic — it doesn't fit here because in existence sentences, the existing/non-existing entity takes が.",
+        "に indicates location — it doesn't fit here because 'in the classroom' already shows location; teacher needs が as the subject.",
+        "から means 'from' — it doesn't fit here because teacher is not a source, but the subject of the existence verb."
+      ]
+    },
+    {
+      "id": "n5_064_5",
+      "example_sentence": "庭に猫__三匹います。",
+      "translation": "There are three cats in the garden.",
+      "blank_target": "が",
+      "wrong_choices": [
+        "の",
+        "と",
+        "へ"
+      ],
+      "wrong_choice_explanations": [
+        "の shows possession or connection — it doesn't fit here because cats are the existing subjects, not possessing anything.",
+        "と means 'with' or 'and' — it doesn't fit here because cats are not companions in this context, but the subjects of existence.",
+        "へ indicates direction toward — it doesn't fit here because we're stating existence, not movement toward the garden."
+      ]
+    },
+    {
+      "id": "n5_064_6",
+      "example_sentence": "駅の近くにコンビニ__あります。",
+      "translation": "There is a convenience store near the station.",
+      "blank_target": "が",
+      "wrong_choices": [
+        "を",
+        "で",
+        "まで"
+      ],
+      "wrong_choice_explanations": [
+        "を marks direct objects for actions — it doesn't fit here because ある is an existence verb that takes が for the existing thing.",
+        "で indicates location of actions — it doesn't fit here because 'near the station' already shows location; the store needs が as the existing subject.",
+        "まで means 'until/up to' — it doesn't fit here because the convenience store is not a time or distance limit, but the subject of existence."
+      ]
+    },
+    {
+      "id": "n5_064_7",
+      "example_sentence": "部屋に誰__いますか。",
+      "translation": "Who is in the room?",
+      "blank_target": "が",
+      "wrong_choices": [
+        "は",
+        "を",
+        "に"
+      ],
+      "wrong_choice_explanations": [
+        "は marks the topic — it doesn't fit here because 'who' is the subject of existence inquiry, not the topic being discussed.",
+        "を marks direct objects — it doesn't fit here because いる is an existence verb that requires が for the existing person.",
+        "に indicates location — it doesn't fit here because 'in the room' already shows location; 'who' needs が as the subject."
+      ]
+    },
+    {
+      "id": "n5_064_8",
+      "example_sentence": "山に雪__たくさんあります。",
+      "translation": "There is a lot of snow on the mountain.",
+      "blank_target": "が",
+      "wrong_choices": [
+        "も",
+        "だけ",
+        "と"
+      ],
+      "wrong_choice_explanations": [
+        "も means 'also/too' — it doesn't fit here because we need が to mark snow as the existing subject, not an additional item.",
+        "だけ means 'only' — it doesn't fit here because we're describing the existence of snow, not limiting to snow alone.",
+        "と means 'with' or 'and' — it doesn't fit here because snow is not a companion, but the subject of the existence verb."
+      ]
+    },
+    {
+      "id": "n5_064_9",
+      "example_sentence": "この辺りに病院__ありますか。",
+      "translation": "Is there a hospital in this area?",
+      "blank_target": "が",
+      "wrong_choices": [
+        "の",
+        "へ",
+        "から"
+      ],
+      "wrong_choice_explanations": [
+        "の shows possession or modification — it doesn't fit here because hospital is the subject of existence inquiry, not possessing something.",
+        "へ indicates direction toward — it doesn't fit here because we're asking about existence, not movement toward the area.",
+        "から means 'from' — it doesn't fit here because hospital is not a source, but the subject of the existence question."
+      ]
+    },
+    {
+      "id": "n5_064_10",
+      "example_sentence": "池に魚__います。",
+      "translation": "There are fish in the pond.",
+      "blank_target": "が",
+      "wrong_choices": [
+        "を",
+        "で",
+        "に"
+      ],
+      "wrong_choice_explanations": [
+        "を marks direct objects for actions — it doesn't fit here because いる is an existence verb that requires が for the existing creatures.",
+        "で indicates location of actions — it doesn't fit here because 'in the pond' already shows location; fish need が as the existing subjects.",
+        "に indicates location — it doesn't fit here because 'in the pond' already shows location; fish need が as the subjects of existence."
+      ]
+    }
+  ]
+}
