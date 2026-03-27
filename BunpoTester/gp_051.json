@@ -1,0 +1,168 @@
+{
+  "id": "gp_051",
+  "pattern": "～ごろ",
+  "meaning": "Around (time)",
+  "level": "N5",
+  "exercises": [
+    {
+      "id": 1,
+      "example_sentence": "午後三時__に会いましょう。",
+      "translation": "Let's meet around 3 PM.",
+      "blank_target": "ごろ",
+      "wrong_choices": [
+        "まで",
+        "から",
+        "に"
+      ],
+      "wrong_choice_explanations": {
+        "まで": "まで means 'until' — it doesn't fit here because we're talking about an approximate meeting time, not an endpoint.",
+        "から": "から means 'from/since' — it doesn't fit here because we're talking about when to meet, not a starting point.",
+        "に": "に indicates an exact time — it doesn't fit here because we want to express an approximate time."
+      }
+    },
+    {
+      "id": 2,
+      "example_sentence": "夜の十時__寝ます。",
+      "translation": "I go to bed around 10 PM.",
+      "blank_target": "ごろ",
+      "wrong_choices": [
+        "で",
+        "を",
+        "と"
+      ],
+      "wrong_choice_explanations": {
+        "で": "で indicates location or means — it doesn't fit here because we're talking about time, not place or method.",
+        "を": "を marks the direct object — it doesn't fit here because '十時' is not the object being acted upon.",
+        "と": "と means 'with/and' — it doesn't fit here because we're not talking about doing something with 10 PM."
+      }
+    },
+    {
+      "id": 3,
+      "example_sentence": "朝の七時__起きました。",
+      "translation": "I woke up around 7 AM.",
+      "blank_target": "ごろ",
+      "wrong_choices": [
+        "ぐらい",
+        "まえに",
+        "あとで"
+      ],
+      "wrong_choice_explanations": {
+        "ぐらい": "ぐらい is used for quantities and durations — it doesn't fit here because we're talking about a specific point in time.",
+        "まえに": "まえに means 'before' — it doesn't fit here because we're talking about the approximate time of waking up, not before it.",
+        "あとで": "あとで means 'after/later' — it doesn't fit here because we're talking about the time of waking up, not something that happens later."
+      }
+    },
+    {
+      "id": 4,
+      "example_sentence": "春__桜が咲きます。",
+      "translation": "Cherry blossoms bloom around spring.",
+      "blank_target": "ごろ",
+      "wrong_choices": [
+        "には",
+        "だけ",
+        "しか"
+      ],
+      "wrong_choice_explanations": {
+        "には": "には indicates a specific time or condition — it doesn't fit here because we want to express an approximate time period.",
+        "だけ": "だけ means 'only' — it doesn't fit here because we're not limiting to spring exclusively.",
+        "しか": "しか means 'nothing but' and requires negative form — it doesn't fit here because the verb is positive."
+      }
+    },
+    {
+      "id": 5,
+      "example_sentence": "お昼の十二時__お弁当を食べます。",
+      "translation": "I eat my lunch box around 12 PM.",
+      "blank_target": "ごろ",
+      "wrong_choices": [
+        "ばかり",
+        "など",
+        "によって"
+      ],
+      "wrong_choice_explanations": {
+        "ばかり": "ばかり means 'only/just' — it doesn't fit here because we're talking about time, not exclusivity.",
+        "など": "など means 'such as/etc.' — it doesn't fit here because we're not giving examples.",
+        "によって": "によって means 'depending on/by means of' — it doesn't fit here because we're talking about time, not causation."
+      }
+    },
+    {
+      "id": 6,
+      "example_sentence": "冬__雪が降ります。",
+      "translation": "It snows around winter.",
+      "blank_target": "ごろ",
+      "wrong_choices": [
+        "として",
+        "について",
+        "による"
+      ],
+      "wrong_choice_explanations": {
+        "として": "として means 'as/in the capacity of' — it doesn't fit here because we're talking about time, not roles.",
+        "について": "について means 'about/concerning' — it doesn't fit here because we're not discussing winter as a topic.",
+        "による": "による means 'due to/according to' — it doesn't fit here because we're talking about when it snows, not causation."
+      }
+    },
+    {
+      "id": 7,
+      "example_sentence": "夕方の六時__帰ります。",
+      "translation": "I go home around 6 PM.",
+      "blank_target": "ごろ",
+      "wrong_choices": [
+        "までに",
+        "なのに",
+        "のに"
+      ],
+      "wrong_choice_explanations": {
+        "までに": "までに means 'by (deadline)' — it doesn't fit here because we're talking about approximate departure time, not a deadline.",
+        "なのに": "なのに means 'despite/although' — it doesn't fit here because we're not expressing contrast.",
+        "のに": "のに means 'despite/in order to' — it doesn't fit here because we're not expressing contrast or purpose."
+      }
+    },
+    {
+      "id": 8,
+      "example_sentence": "授業は九時__始まります。",
+      "translation": "Class starts around 9 o'clock.",
+      "blank_target": "ごろ",
+      "wrong_choices": [
+        "くらい",
+        "だけ",
+        "も"
+      ],
+      "wrong_choice_explanations": {
+        "くらい": "くらい is used for quantities and durations — it doesn't fit here because we're talking about a specific point in time.",
+        "だけ": "だけ means 'only' — it doesn't fit here because we're not talking about exclusivity.",
+        "も": "も means 'also/too' — it doesn't fit here because we're not adding information or emphasis."
+      }
+    },
+    {
+      "id": 9,
+      "example_sentence": "秋__紅葉が美しいです。",
+      "translation": "The autumn leaves are beautiful around fall.",
+      "blank_target": "ごろ",
+      "wrong_choices": [
+        "では",
+        "とは",
+        "なら"
+      ],
+      "wrong_choice_explanations": {
+        "では": "では indicates location or condition — it doesn't fit here because we're talking about time, not place or circumstances.",
+        "とは": "とは is used for definitions or contrasts — it doesn't fit here because we're not defining or contrasting.",
+        "なら": "なら means 'if/in the case of' — it doesn't fit here because we're making a statement, not a conditional."
+      }
+    },
+    {
+      "id": 10,
+      "example_sentence": "夜中の二時__電話がかかってきました。",
+      "translation": "I received a phone call around 2 AM.",
+      "blank_target": "ごろ",
+      "wrong_choices": [
+        "ちょうど",
+        "すぐに",
+        "やっと"
+      ],
+      "wrong_choice_explanations": {
+        "ちょうど": "ちょうど means 'exactly' — it doesn't fit here because we want to express approximate time, not exact time.",
+        "すぐに": "すぐに means 'immediately' — it doesn't fit here because we're talking about when the call came, not the speed of response.",
+        "やっと": "やっと means 'finally/at last' — it doesn't fit here because we're not expressing that we waited for the call."
+      }
+    }
+  ]
+}

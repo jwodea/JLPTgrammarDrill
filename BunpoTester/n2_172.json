@@ -15,9 +15,9 @@
         "に関して"
       ],
       "wrong_choice_explanations": [
-        "This pattern does not convey the same meaning as '〜に関する' (related to / concerning (attributive form; modifying a noun)) needed in this context.",
-        "This pattern does not convey the same meaning as '〜に関する' (related to / concerning (attributive form; modifying a noun)) needed in this context.",
-        "means 'regarding' or 'concerning' (discussing something), which is more about topical reference than establishing formal context"
+        "に対する expresses 'toward' or 'against' and cannot modify a noun directly. It doesn't fit when describing what a book is about.",
+        "についての also means 'about' but is less formal than に関する and sounds unnatural in this written context.",
+        "に関して is adverbial meaning 'regarding' and cannot modify a noun like 本. It would need to restructure the sentence entirely."
       ]
     },
     {
@@ -27,13 +27,13 @@
       "blank_target": "に関する",
       "wrong_choices": [
         "に対する",
-        "についての",
-        "に関して"
+        "による",
+        "についての"
       ],
       "wrong_choice_explanations": [
-        "に対する has a different grammatical function and doesn't fit the context of this sentence where に関する is required.",
-        "についての has a different grammatical function and doesn't fit the context of this sentence where に関する is required.",
-        "に関して has a different grammatical function and doesn't fit the context of this sentence where に関する is required."
+        "に対する expresses 'toward' or 'against' and doesn't work when describing what type of information something is.",
+        "による means 'by means of' or 'due to' and makes no sense when describing health information.",
+        "についての is grammatically possible but に関する is more formal and appropriate for official information contexts."
       ]
     },
     {
@@ -43,13 +43,13 @@
       "blank_target": "に関する",
       "wrong_choices": [
         "に対する",
-        "についての",
+        "における",
         "に関して"
       ],
       "wrong_choice_explanations": [
-        "に対する towards / against / towards, but 〜に関する is needed to express the specific meaning required in this sentence.",
-        "についての has a different grammatical function, but 〜に関する is needed to express the specific meaning required in this sentence.",
-        "means 'regarding' or 'concerning'; implies a topic of discussion rather than a temporal or contextual setting."
+        "に対する means 'toward' or 'against' and cannot describe what domain laws cover. It would imply opposition to education.",
+        "における means 'in' or 'at' (location/situation) and doesn't make sense when describing the subject matter of laws.",
+        "に関して is adverbial meaning 'regarding' and cannot directly modify 法律. The sentence would need restructuring."
       ]
     },
     {
@@ -58,30 +58,110 @@
       "translation": "I am analyzing data related to economics.",
       "blank_target": "に関する",
       "wrong_choices": [
-        "に対する",
+        "による",
         "についての",
-        "に関して"
+        "からの"
       ],
       "wrong_choice_explanations": [
-        "に対する has a different grammatical function that doesn't fit this sentence context.",
-        "についての has a different grammatical function that doesn't fit this sentence context.",
-        "に関して has a different grammatical function that doesn't fit this sentence context."
+        "による means 'by means of' or 'due to' and doesn't describe what type of data it is, but rather a causal relationship.",
+        "についての is possible but に関する sounds more formal and appropriate for analytical/academic contexts.",
+        "からの means 'from' and would suggest the data's source rather than its subject matter."
       ]
     },
     {
       "id": "n2_172_5",
       "example_sentence": "技術に関する革新が起こっている。",
-      "translation": "Innovation in technology is occurring.",
+      "translation": "Innovation related to technology is occurring.",
+      "blank_target": "に関する",
+      "wrong_choices": [
+        "に対する",
+        "での",
+        "による"
+      ],
+      "wrong_choice_explanations": [
+        "に対する expresses 'toward' or 'against' and doesn't work when describing what domain innovation occurs in.",
+        "での means 'at' or 'in' (location) but doesn't establish that the innovation is about technology itself.",
+        "による means 'by means of' and would suggest technology causes innovation, not that innovation is in the field of technology."
+      ]
+    },
+    {
+      "id": "n2_172_6",
+      "example_sentence": "安全に関する規則を守らなければならない。",
+      "translation": "We must follow rules related to safety.",
       "blank_target": "に関する",
       "wrong_choices": [
         "に対する",
         "についての",
-        "に関して"
+        "のための"
       ],
       "wrong_choice_explanations": [
-        "〜に対する conveys response; doesn't mean 'related to'.",
-        "〜についての is similar but less formal.",
-        "〜に関して is adverbial; doesn't modify noun."
+        "に対する means 'toward' or 'against' and cannot describe what domain rules cover.",
+        "についての is less formal and doesn't fit the formal tone appropriate for discussing regulations.",
+        "のための means 'for the purpose of' and changes the meaning to rules made for safety rather than rules about safety."
+      ]
+    },
+    {
+      "id": "n2_172_7",
+      "example_sentence": "文化に関する研究をしている。",
+      "translation": "I am conducting research related to culture.",
+      "blank_target": "に関する",
+      "wrong_choices": [
+        "における",
+        "についての",
+        "に対する"
+      ],
+      "wrong_choice_explanations": [
+        "における means 'in' or 'at' and would suggest research conducted within culture rather than about culture.",
+        "についての is grammatically possible but に関する is more formal and appropriate for academic research contexts.",
+        "に対する means 'toward' or 'against' and doesn't work when describing research subjects."
+      ]
+    },
+    {
+      "id": "n2_172_8",
+      "example_sentence": "医療に関する費用が増加している。",
+      "translation": "Costs related to medical care are increasing.",
+      "blank_target": "に関する",
+      "wrong_choices": [
+        "による",
+        "での",
+        "に対する"
+      ],
+      "wrong_choice_explanations": [
+        "による means 'due to' or 'by means of' and would suggest medical care causes costs rather than costs being in the medical domain.",
+        "での means 'at' or 'in' (location) and doesn't properly describe what type of costs these are.",
+        "に対する means 'toward' or 'against' and cannot describe what domain costs belong to."
+      ]
+    },
+    {
+      "id": "n2_172_9",
+      "example_sentence": "交通に関する事故が多発している。",
+      "translation": "Traffic-related accidents are occurring frequently.",
+      "blank_target": "に関する",
+      "wrong_choices": [
+        "における",
+        "による",
+        "についての"
+      ],
+      "wrong_choice_explanations": [
+        "における means 'in' or 'at' and would suggest accidents within traffic rather than accidents related to traffic.",
+        "による means 'caused by' and would change the focus to causation rather than the category of accident.",
+        "についての is less formal and doesn't match the formal tone appropriate for accident reports."
+      ]
+    },
+    {
+      "id": "n2_172_10",
+      "example_sentence": "国際に関する会議が開催される。",
+      "translation": "A conference related to international affairs will be held.",
+      "blank_target": "に関する",
+      "wrong_choices": [
+        "についての",
+        "に対する",
+        "での"
+      ],
+      "wrong_choice_explanations": [
+        "についての is less formal and doesn't suit the formal context of international conferences.",
+        "に対する means 'toward' or 'against' and cannot describe what subject matter a conference covers.",
+        "での means 'at' and would indicate location rather than the conference's topic."
       ]
     }
   ]

@@ -1,0 +1,168 @@
+{
+  "id": "gp_074",
+  "pattern": "～番",
+  "meaning": "Ordinal number / rank",
+  "level": "N5",
+  "exercises": [
+    {
+      "id": 1,
+      "example_sentence": "私は三__です。",
+      "translation": "I am third.",
+      "blank_target": "番",
+      "wrong_choices": [
+        "人",
+        "個",
+        "台"
+      ],
+      "wrong_choice_explanations": {
+        "人": "人 is used for counting people — it doesn't fit here because this is about ranking/order, not counting people.",
+        "個": "個 is a general counter for objects — it doesn't fit here because this is about ordinal position, not counting objects.",
+        "台": "台 is used for machines and vehicles — it doesn't fit here because this is about ranking, not counting machines."
+      }
+    },
+    {
+      "id": 2,
+      "example_sentence": "一__の電車に乗ります。",
+      "translation": "I will take the first train.",
+      "blank_target": "番",
+      "wrong_choices": [
+        "本",
+        "匹",
+        "枚"
+      ],
+      "wrong_choice_explanations": {
+        "本": "本 is used for long thin objects — it doesn't fit here because this is about train order/sequence, not counting objects.",
+        "匹": "匹 is used for small animals — it doesn't fit here because this is about train scheduling order, not counting animals.",
+        "枚": "枚 is used for flat thin objects — it doesn't fit here because this is about train sequence, not counting flat objects."
+      }
+    },
+    {
+      "id": 3,
+      "example_sentence": "二__目の駅で降ります。",
+      "translation": "I will get off at the second station.",
+      "blank_target": "番",
+      "wrong_choices": [
+        "台",
+        "人",
+        "個"
+      ],
+      "wrong_choice_explanations": {
+        "台": "台 is used for machines and vehicles — it doesn't fit here because this is about station order, not counting machines.",
+        "人": "人 is used for counting people — it doesn't fit here because this is about station sequence, not counting people.",
+        "個": "個 is a general counter for objects — it doesn't fit here because this is about ordinal position, not counting objects."
+      }
+    },
+    {
+      "id": 4,
+      "example_sentence": "五__の部屋に入ってください。",
+      "translation": "Please enter room number five.",
+      "blank_target": "番",
+      "wrong_choices": [
+        "冊",
+        "本",
+        "匹"
+      ],
+      "wrong_choice_explanations": {
+        "冊": "冊 is used for books — it doesn't fit here because this is about room numbers, not counting books.",
+        "本": "本 is used for long thin objects — it doesn't fit here because this is about room numbering, not counting objects.",
+        "匹": "匹 is used for small animals — it doesn't fit here because this is about room numbers, not counting animals."
+      }
+    },
+    {
+      "id": 5,
+      "example_sentence": "四__線のホームはどこですか。",
+      "translation": "Where is the platform for line number four?",
+      "blank_target": "番",
+      "wrong_choices": [
+        "台",
+        "枚",
+        "人"
+      ],
+      "wrong_choice_explanations": {
+        "台": "台 is used for machines and vehicles — it doesn't fit here because this is about train line numbers, not counting machines.",
+        "枚": "枚 is used for flat thin objects — it doesn't fit here because this is about line numbering, not counting flat objects.",
+        "人": "人 is used for counting people — it doesn't fit here because this is about line numbers, not counting people."
+      }
+    },
+    {
+      "id": 6,
+      "example_sentence": "六__の席に座りました。",
+      "translation": "I sat in seat number six.",
+      "blank_target": "番",
+      "wrong_choices": [
+        "個",
+        "匹",
+        "本"
+      ],
+      "wrong_choice_explanations": {
+        "個": "個 is a general counter for objects — it doesn't fit here because this is about seat numbers, not counting objects.",
+        "匹": "匹 is used for small animals — it doesn't fit here because this is about seat numbering, not counting animals.",
+        "本": "本 is used for long thin objects — it doesn't fit here because this is about seat numbers, not counting objects."
+      }
+    },
+    {
+      "id": 7,
+      "example_sentence": "七__出口から出てください。",
+      "translation": "Please exit from exit number seven.",
+      "blank_target": "番",
+      "wrong_choices": [
+        "台",
+        "冊",
+        "人"
+      ],
+      "wrong_choice_explanations": {
+        "台": "台 is used for machines and vehicles — it doesn't fit here because this is about exit numbers, not counting machines.",
+        "冊": "冊 is used for books — it doesn't fit here because this is about exit numbering, not counting books.",
+        "人": "人 is used for counting people — it doesn't fit here because this is about exit numbers, not counting people."
+      }
+    },
+    {
+      "id": 8,
+      "example_sentence": "八__のバスが来ました。",
+      "translation": "Bus number eight came.",
+      "blank_target": "番",
+      "wrong_choices": [
+        "匹",
+        "枚",
+        "個"
+      ],
+      "wrong_choice_explanations": {
+        "匹": "匹 is used for small animals — it doesn't fit here because this is about bus route numbers, not counting animals.",
+        "枚": "枚 is used for flat thin objects — it doesn't fit here because this is about bus numbering, not counting flat objects.",
+        "個": "個 is a general counter for objects — it doesn't fit here because this is about bus route numbers, not counting objects."
+      }
+    },
+    {
+      "id": 9,
+      "example_sentence": "九__のチャンネルを見ます。",
+      "translation": "I watch channel nine.",
+      "blank_target": "番",
+      "wrong_choices": [
+        "本",
+        "台",
+        "人"
+      ],
+      "wrong_choice_explanations": {
+        "本": "本 is used for long thin objects — it doesn't fit here because this is about TV channel numbers, not counting objects.",
+        "台": "台 is used for machines and vehicles — it doesn't fit here because this is about channel numbers, not counting machines.",
+        "人": "人 is used for counting people — it doesn't fit here because this is about channel numbers, not counting people."
+      }
+    },
+    {
+      "id": 10,
+      "example_sentence": "十__のゲートに行きます。",
+      "translation": "I will go to gate number ten.",
+      "blank_target": "番",
+      "wrong_choices": [
+        "冊",
+        "匹",
+        "枚"
+      ],
+      "wrong_choice_explanations": {
+        "冊": "冊 is used for books — it doesn't fit here because this is about gate numbers, not counting books.",
+        "匹": "匹 is used for small animals — it doesn't fit here because this is about gate numbering, not counting animals.",
+        "枚": "枚 is used for flat thin objects — it doesn't fit here because this is about gate numbers, not counting flat objects."
+      }
+    }
+  ]
+}

@@ -12,28 +12,12 @@
       "wrong_choices": [
         "をはじめ",
         "を通じて",
-        "を通して"
+        "を基準に"
       ],
       "wrong_choice_explanations": [
-        "means 'starting with' (listing), not the correct particle for the grammatical structure needed",
-        "This pattern does not convey the same meaning as '〜を中心に' (centered on / focused on) needed in this context.",
-        "This pattern does not convey the same meaning as '〜を中心に' (centered on / focused on) needed in this context."
-      ]
-    },
-    {
-      "id": "n2_005_10",
-      "example_sentence": "パリを中心に、フランスは美術の発展に貢献した。",
-      "translation": "France contributed to artistic development, centered on Paris.",
-      "blank_target": "を中心に",
-      "wrong_choices": [
-        "をはじめ",
-        "を通じて",
-        "を通して"
-      ],
-      "wrong_choice_explanations": [
-        "をはじめ means 'starting with / beginning with (one example first)', which is used in listing with one representative item first, but this sentence requires を中心に ('centered on / focused on') for emphasizing the main/focal point.",
-        "を通じて means 'を通じて', which is used in different context, but this sentence requires を中心に ('centered on / focused on') for emphasizing the main/focal point.",
-        "を通して means 'を通して', which is used in different context, but this sentence requires を中心に ('centered on / focused on') for emphasizing the main/focal point."
+        "をはじめ means 'starting with' for listing examples, not indicating a central hub like を中心に requires here.",
+        "を通じて means 'through/via' indicating a medium or channel, not a geographical center of expansion.",
+        "を基準に means 'based on/according to' for standards or criteria, not for indicating a central focal point."
       ]
     },
     {
@@ -42,14 +26,14 @@
       "translation": "This culture is popular chiefly among young people.",
       "blank_target": "を中心に",
       "wrong_choices": [
-        "をはじめ",
-        "を通じて",
-        "を通して"
+        "をめぐって",
+        "に関して",
+        "について"
       ],
       "wrong_choice_explanations": [
-        "をはじめ lists items starting with a representative first one, but を中心に indicates a central focus or concentration.",
-        "を通じて means 'through' as a medium or channel, not a central focus or concentration.",
-        "を通して also means 'through' emphasizing continuity, not the central concentration that を中心に requires."
+        "をめぐって means 'surrounding/concerning' for debates or issues, not indicating the main group where something is popular.",
+        "に関して means 'regarding/concerning' for topics, not indicating the demographic center of a trend.",
+        "について means 'about/concerning' for topics of discussion, not for showing where something is concentrated."
       ]
     },
     {
@@ -58,14 +42,14 @@
       "translation": "The earth revolves around the sun.",
       "blank_target": "を中心に",
       "wrong_choices": [
-        "をはじめ",
-        "を通じて",
-        "を通して"
+        "の周りに",
+        "に向かって",
+        "から離れて"
       ],
       "wrong_choice_explanations": [
-        "をはじめ means starting with, but 〜を中心に specifically emphasizes a representative starting point, which をはじめ cannot convey.",
-        "を通じて means through (abstract connection), but 〜を中心に specifically emphasizes a representative starting point, which を通じて cannot convey.",
-        "を通して means through (concrete or abstract), but 〜を中心に specifically emphasizes a representative starting point, which を通して cannot convey."
+        "の周りに means 'around' but lacks the nuance of centrality that を中心に provides in describing orbital motion.",
+        "に向かって means 'toward' indicating direction, not circular motion around a central point.",
+        "から離れて means 'away from' indicating separation, opposite of revolving around a center."
       ]
     },
     {
@@ -74,14 +58,14 @@
       "translation": "Communities are formed centered on the family.",
       "blank_target": "を中心に",
       "wrong_choices": [
-        "をはじめ",
-        "を通じて",
-        "を通して"
+        "をもとに",
+        "によって",
+        "とともに"
       ],
       "wrong_choice_explanations": [
-        "をはじめ has a different grammatical function that doesn't fit this sentence context.",
-        "を通じて has a different grammatical function that doesn't fit this sentence context.",
-        "を通して has a different grammatical function that doesn't fit this sentence context."
+        "をもとに means 'based on' for foundations or sources, not indicating the organizing principle around which something centers.",
+        "によって indicates cause or agent, not the central organizing unit of community formation.",
+        "とともに means 'together with' indicating accompaniment, not the focal point of organization."
       ]
     },
     {
@@ -90,14 +74,14 @@
       "translation": "Development is proceeding centered on major stations.",
       "blank_target": "を中心に",
       "wrong_choices": [
-        "をはじめ",
-        "を通じて",
-        "を通して"
+        "を起点に",
+        "の近くで",
+        "に沿って"
       ],
       "wrong_choice_explanations": [
-        "〜をはじめ lists examples; doesn't indicate a central focus.",
-        "〜を通じて means 'through'; indicates a medium, not central point.",
-        "〜を通して is similar to を通じて; means 'through', not 'centered on'."
+        "を起点に means 'starting from' indicating a departure point, not the ongoing central focus of development.",
+        "の近くで means 'near' indicating proximity, not the organizational center of development activities.",
+        "に沿って means 'along' indicating linear progression, not radial development from a central point."
       ]
     },
     {
@@ -108,60 +92,76 @@
       "wrong_choices": [
         "をはじめ",
         "を通じて",
-        "を通して"
+        "を背景に"
       ],
       "wrong_choice_explanations": [
-        "'をはじめ' emphasizes listing with a starting point, while 'を中心に' focuses on centrality around a point.",
-        "'を通じて' has a different grammatical function or nuance than '〜を中心に'.",
-        "'を通して' has a different grammatical function or nuance than '〜を中心に'."
+        "をはじめ means 'starting with' for listing examples, not indicating the cultural hub from which influence radiates.",
+        "を通じて means 'through' indicating a medium or channel, not the central source of cultural influence.",
+        "を背景に means 'against the backdrop of' for contextual settings, not the focal point of cultural dissemination."
       ]
     },
     {
       "id": "n2_005_7",
-      "example_sentence": "ロンドンを中心に、イギリスの経済活動が展開されている。",
-      "translation": "Economic activities in Britain develop centered on London.",
+      "example_sentence": "学生を中心に、環境保護運動が盛り上がっている。",
+      "translation": "Environmental protection movements are gaining momentum, centered on students.",
       "blank_target": "を中心に",
       "wrong_choices": [
-        "をはじめ",
-        "を通じて",
-        "を通して"
+        "を対象に",
+        "によると",
+        "に対して"
       ],
       "wrong_choice_explanations": [
-        "をはじめ marks something as a representative example in a list, not as a central hub or focal point.",
-        "を通じて means 'through/via' indicating a medium, not a central point of concentration.",
-        "を通して means 'through/via' indicating a medium or method, not a geographical or conceptual center."
+        "を対象に means 'targeting' for recipients or audiences, not indicating the main driving force of a movement.",
+        "によると means 'according to' for information sources, not for showing who is leading an activity.",
+        "に対して means 'toward/against' for direction or opposition, not for indicating the core participants."
       ]
     },
     {
       "id": "n2_005_8",
-      "example_sentence": "ソウルを中心に、韓国の音楽産業は世界で認識されている。",
-      "translation": "South Korea's music industry is recognized globally, centered on Seoul.",
+      "example_sentence": "大阪を中心に、関西地方の経済が発展している。",
+      "translation": "The Kansai region's economy is developing, centered on Osaka.",
       "blank_target": "を中心に",
       "wrong_choices": [
-        "をはじめ",
-        "を通じて",
-        "を通して"
+        "を除いて",
+        "にかけて",
+        "を含めて"
       ],
       "wrong_choice_explanations": [
-        "While をはじめ is a valid grammar pattern, it doesn't convey the same meaning as 〜を中心に and doesn't fit this sentence context.",
-        "を通じて means 'through'; indicates a means or medium, not a central focus; it doesn't fit this sentence context where 〜を中心に is needed.",
-        "を通して means 'through'; similar to を通じて but more casual; emphasizes the medium rather than the base; it doesn't fit this sentence context where 〜を中心に is needed."
+        "を除いて means 'except for' indicating exclusion, opposite of being the center of development.",
+        "にかけて means 'extending to/spanning' for ranges or periods, not for showing the focal point of economic activity.",
+        "を含めて means 'including' for encompassing items in a group, not for indicating the central driving force."
       ]
     },
     {
       "id": "n2_005_9",
-      "example_sentence": "オックスフォードを中心に、イギリスの学問は発展した。",
-      "translation": "British learning developed centered on Oxford.",
+      "example_sentence": "シリコンバレーを中心に、IT産業が急速に成長した。",
+      "translation": "The IT industry grew rapidly, centered on Silicon Valley.",
       "blank_target": "を中心に",
       "wrong_choices": [
-        "をはじめ",
-        "を通じて",
-        "を通して"
+        "に比べて",
+        "について",
+        "に関連して"
       ],
       "wrong_choice_explanations": [
-        "'をはじめ' means 'starting with', for listing representative examples, but this context requires '〜を中心に' to indicate centered on.",
-        "'を通じて' means 'through', for passage or means, but this context requires '〜を中心に' to indicate centered on.",
-        "'を通して' means 'through', similar to を通じて but slightly less formal, but this context requires '〜を中心に' to indicate centered on."
+        "に比べて means 'compared to' for making comparisons, not indicating the geographical center of industry growth.",
+        "について means 'about/concerning' for topics, not for showing the focal point of development.",
+        "に関連して means 'in connection with' for relationships, not for indicating the central hub of activity."
+      ]
+    },
+    {
+      "id": "n2_005_10",
+      "example_sentence": "研究者を中心に、新しい理論が議論されている。",
+      "translation": "New theories are being discussed, centered on researchers.",
+      "blank_target": "を中心に",
+      "wrong_choices": [
+        "を相手に",
+        "をきっかけに",
+        "を問わず"
+      ],
+      "wrong_choice_explanations": [
+        "を相手に means 'dealing with/against' for opponents or counterparts, not indicating the main participants in discussions.",
+        "をきっかけに means 'triggered by' for starting points or catalysts, not the ongoing focal group of activity.",
+        "を問わず means 'regardless of' for non-restrictive conditions, opposite of focusing on a specific group."
       ]
     }
   ]

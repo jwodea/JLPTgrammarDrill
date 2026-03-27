@@ -15,89 +15,73 @@
         "であれば"
       ],
       "wrong_choice_explanations": [
-        "ならば is a simple conditional; ならいざしらず adds concession and context-dependent meaning.",
-        "ならいざ is incomplete; the full form is ならいざしらず.",
-        "であれば is a simple conditional from the copula, lacking the concessive nuance."
-      ]
-    },
-    {
-      "id": "n1_014_10",
-      "example_sentence": "医学研究における不正ならいざしらず、AI開発においても倫理的問題が増加している。",
-      "translation": "It might be different if it were misconduct in medical research, but ethical issues are also increasing in AI development.",
-      "blank_target": "ならいざしらず",
-      "wrong_choices": [
-        "ではないなら",
-        "でなければ",
-        "じゃなくて"
-      ],
-      "wrong_choice_explanations": [
-        "'ではないなら' does not express the same grammatical relationship as '〜ならいざしらず' in this context.",
-        "'でなければ' does not express the same grammatical relationship as '〜ならいざしらず' in this context.",
-        "'じゃなくて' does not express the same grammatical relationship as '〜ならいざしらず' in this context."
-      ]
-    },
-    {
-      "id": "n1_014_2",
-      "example_sentence": "戦争ならいざしらず、平時にそれは許されない。",
-      "translation": "In war it might be understandable, but in peacetime it is not permitted.",
-      "blank_target": "ならいざしらず",
-      "wrong_choices": [
-        "ならば",
-        "ならいざ",
-        "であれば"
-      ],
-      "wrong_choice_explanations": [
         "ならば is a simple conditional 'if,' lacking the concessive 'it might be different if... but' structure.",
         "ならいざ is incomplete; the full form ならいざしらず is required to express the concessive contrast.",
         "であれば is a conditional but doesn't carry the concessive nuance of 'it might be understandable in war, but not in peacetime.'"
       ]
     },
     {
-      "id": "n1_014_3",
-      "example_sentence": "戦争ならいざしらず、平時にそれは許されない。",
-      "translation": "In war it might be understandable, but in peacetime it is not permitted.",
+      "id": "n1_014_2",
+      "example_sentence": "専門家ならいざしらず、素人にはこの作業は危険すぎる。",
+      "translation": "It might be different if it were an expert, but this work is too dangerous for amateurs.",
       "blank_target": "ならいざしらず",
       "wrong_choices": [
-        "ならば",
-        "ならいざ",
-        "であれば"
+        "なら",
+        "だったら",
+        "であったら"
       ],
       "wrong_choice_explanations": [
-        "Simple conditional; doesn't convey the contrast-with-concession meaning.",
-        "Incomplete form lacking しらず; doesn't complete the meaning.",
-        "Conditional 'if it be'; lacks the concession and contrast."
+        "なら is a simple conditional that doesn't express the concessive 'I might understand if it were an expert, but' meaning.",
+        "だったら is a casual conditional 'if it were' but lacks the formal concessive tone of acknowledging one scenario while contrasting it.",
+        "であったら is a formal conditional but doesn't convey the 'it might be acceptable in one case, but not in this case' nuance."
+      ]
+    },
+    {
+      "id": "n1_014_3",
+      "example_sentence": "富裕層ならいざしらず、一般庶民には高すぎる税率だ。",
+      "translation": "It might be different if it were the wealthy, but this tax rate is too high for ordinary citizens.",
+      "blank_target": "ならいざしらず",
+      "wrong_choices": [
+        "にとって",
+        "について",
+        "に関して"
+      ],
+      "wrong_choice_explanations": [
+        "にとって means 'for/to' and indicates a viewpoint, but doesn't express the concessive contrast needed here.",
+        "について means 'about/regarding' and indicates a topic, but lacks the 'it might be acceptable for the wealthy, but not for citizens' meaning.",
+        "に関して means 'concerning/regarding' and indicates relation, but doesn't convey the concessive acknowledgment of one scenario while rejecting another."
       ]
     },
     {
       "id": "n1_014_4",
-      "example_sentence": "戦争ならいざしらず、平時にそれは許されない。",
-      "translation": "In war it might be understandable, but in peacetime it is not permitted.",
+      "example_sentence": "緊急事態ならいざしらず、通常時にこんな措置を取るのは適切ではない。",
+      "translation": "It might be different if it were an emergency, but taking such measures during normal times is not appropriate.",
       "blank_target": "ならいざしらず",
       "wrong_choices": [
-        "ならば",
-        "ならいざ",
-        "であれば"
+        "の場合",
+        "において",
+        "に際して"
       ],
       "wrong_choice_explanations": [
-        "means \"if\"; expresses simple condition without the concessive contrast.",
-        "is incomplete and missing the しらず component needed for the full meaning.",
-        "means \"if that is the case\"; is more straightforward without the concessive sense."
+        "の場合 means 'in the case of' and indicates a situation, but doesn't express the 'I might understand in an emergency, but not now' concession.",
+        "において means 'in/at' and indicates a setting or context, but lacks the concessive contrast of acknowledging one scenario while rejecting the current one.",
+        "に際して means 'on the occasion of' and indicates timing, but doesn't convey the concessive meaning of 'it might be acceptable then, but not now.'"
       ]
     },
     {
       "id": "n1_014_5",
-      "example_sentence": "戦争ならいざしらず、平時にそれは許されない。",
-      "translation": "In war it might be understandable, but in peacetime it is not permitted.",
+      "example_sentence": "昔ならいざしらず、現在ではそのような考え方は通用しない。",
+      "translation": "It might have been different in the past, but such thinking doesn't work nowadays.",
       "blank_target": "ならいざしらず",
       "wrong_choices": [
-        "ならば",
-        "ならいざ",
-        "であれば"
+        "だったら",
+        "であれば",
+        "の時代なら"
       ],
       "wrong_choice_explanations": [
-        "ならば means 'if / in case of'; it doesn't convey the 'it might be different if... but' meaning needed here.",
-        "ならいざ means 'it might be (incomplete form)'; it doesn't convey the 'it might be different if... but' meaning needed here.",
-        "であれば means 'if it is (conditional)'; it doesn't convey the 'it might be different if... but' meaning needed here."
+        "だったら is a casual conditional 'if it were' but doesn't express the concessive acknowledgment that it might have been acceptable in the past.",
+        "であれば is a formal conditional but lacks the nuance of 'I might understand if it were the past, but times have changed.'",
+        "の時代なら means 'in the era of' but doesn't convey the concessive contrast between past acceptance and present rejection."
       ]
     },
     {
@@ -122,14 +106,14 @@
       "translation": "It might be different if it were the emissions from developed nations in the past, but developing nations must deal with rapidly increasing emissions.",
       "blank_target": "ならいざしらず",
       "wrong_choices": [
-        "ではないなら",
-        "でなければ",
-        "じゃなくて"
+        "に比べて",
+        "と違って",
+        "ではなく"
       ],
       "wrong_choice_explanations": [
-        "あるべき means 'should be' but lacks the strong prohibition sense of あるまじき.",
-        "ありえない means 'impossible' but is less formal and doesn't carry legal/moral prohibition.",
-        "あってはいけない means 'must not be' but is less emphatic and formal than あるまじき."
+        "に比べて means 'compared to' and makes a direct comparison, but doesn't express the concessive 'I might understand past emissions, but current ones are different' meaning.",
+        "と違って means 'unlike' and indicates difference, but lacks the concessional acknowledgment that past emissions might be understandable while current ones are problematic.",
+        "ではなく means 'not...but' and indicates correction or substitution, but doesn't convey the 'it might be acceptable in one case, but not in another' nuance."
       ]
     },
     {
@@ -138,14 +122,14 @@
       "translation": "It might be different if classical literature were superior, but modern literature also has value.",
       "blank_target": "ならいざしらず",
       "wrong_choices": [
-        "ではないなら",
-        "でなければ",
-        "じゃなくて"
+        "としても",
+        "にしても",
+        "だとしても"
       ],
       "wrong_choice_explanations": [
-        "ではないなら has a different grammatical meaning and context; it doesn't fit the required meaning here.",
-        "でなければ has a different grammatical meaning and context; it doesn't fit the required meaning here.",
-        "じゃなくて has a different grammatical meaning and context; it doesn't fit the required meaning here."
+        "としても means 'even if' and expresses concession, but lacks the specific nuance of 'I might acknowledge classical literature's superiority, but that doesn't diminish modern literature's value.'",
+        "にしても means 'even if' or 'even though' but doesn't convey the same level of conditional acknowledgment followed by contrast.",
+        "だとしても means 'even if it is' but is more straightforward concession without the sophisticated 'it might be different if... but' structure."
       ]
     },
     {
@@ -154,14 +138,30 @@
       "translation": "It might be different if it were misconduct by major corporations, but even small businesses are seeing increased compliance violations.",
       "blank_target": "ならいざしらず",
       "wrong_choices": [
-        "ではないなら",
-        "でなければ",
-        "じゃなくて"
+        "はともかく",
+        "はさておき",
+        "は別として"
       ],
       "wrong_choice_explanations": [
-        "『ではないなら』 creates a simple conditional 'if it is not'; it expresses a logical condition but lacks the sense of acknowledging one thing while dismissing others.",
-        "『でなければ』 is a straightforward 'if not' condition, but the sentence requires the 'I could overlook it, but' sense that 『ならいざしらず』 provides.",
-        "『じゃなくて』 means 'not...but' and contrasts two options; it expresses correction without the concessiveness of acknowledging one scenario's plausibility while rejecting it."
+        "はともかく means 'leaving aside' or 'regardless of' but doesn't express the concessive acknowledgment that corporate misconduct might be more expected or understandable.",
+        "はさておき means 'setting aside' and indicates putting something aside to focus on another point, but lacks the concessive contrast of the original pattern.",
+        "は別として means 'apart from' or 'aside from' and indicates separation, but doesn't convey the 'it might be different if it were corporations, but small businesses too' meaning."
+      ]
+    },
+    {
+      "id": "n1_014_10",
+      "example_sentence": "プロの料理人ならいざしらず、家庭料理でそこまで完璧を求める必要はない。",
+      "translation": "It might be different if it were a professional chef, but there's no need to demand such perfection in home cooking.",
+      "blank_target": "ならいざしらず",
+      "wrong_choices": [
+        "の場合は",
+        "についてなら",
+        "に限って"
+      ],
+      "wrong_choice_explanations": [
+        "の場合は means 'in the case of' and indicates a specific situation, but doesn't express the concessive 'I might understand perfection from a professional, but not in home cooking' meaning.",
+        "についてなら means 'when it comes to' and indicates a topic or subject, but lacks the concessive acknowledgment that professional standards might be justified while home standards are different.",
+        "に限って means 'only in the case of' or 'limited to' and indicates restriction, but doesn't convey the concessive contrast between professional and home cooking standards."
       ]
     }
   ]

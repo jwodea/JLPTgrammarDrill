@@ -5,83 +5,163 @@
   "level": "N2",
   "exercises": [
     {
-      "id": "n2_051_10",
-      "example_sentence": "過去の失敗を教訓としたからこそ、新しい企画が実現した。",
-      "translation": "Current success resulted from past failure lessons.",
+      "id": "n2_051_1",
+      "example_sentence": "過去の失敗を経験したからこそ、今の成功がある。",
+      "translation": "It is precisely because I experienced past failures that I have today's success.",
       "blank_target": "たからこそ",
       "wrong_choices": [
         "たから",
-        "たのだからこそ",
+        "たので",
         "たために"
       ],
       "wrong_choice_explanations": [
-        "たから means 'たから', which is used in different context, but this sentence requires からこそ ('からこそ') for its specific context.",
-        "たのだからこそ means 'たのだからこそ', which is used in different context, but this sentence requires からこそ ('からこそ') for its specific context.",
-        "たために means 'たために', which is used in different context, but this sentence requires からこそ ('からこそ') for its specific context."
+        "'たから' simply expresses cause-and-effect but lacks the strong emphasis of 'からこそ' that highlights the precise reason for the success.",
+        "'たので' indicates a natural cause-and-effect relationship but doesn't provide the emphatic 'precisely because' meaning required here.",
+        "'たために' expresses purpose or reason but doesn't convey the strong causal emphasis that 'からこそ' provides in this context."
+      ]
+    },
+    {
+      "id": "n2_051_2",
+      "example_sentence": "あなたが信頼できる人だからこそ、この秘密を話すのです。",
+      "translation": "It is precisely because you are a trustworthy person that I am telling you this secret.",
+      "blank_target": "だからこそ",
+      "wrong_choices": [
+        "だから",
+        "なので",
+        "であるから"
+      ],
+      "wrong_choice_explanations": [
+        "'だから' simply means 'therefore' but lacks the emphatic quality of 'からこそ' that stresses the specific reason for sharing the secret.",
+        "'なので' expresses a straightforward causal relationship but doesn't provide the strong emphasis on the precise reason that 'からこそ' conveys.",
+        "'であるから' is formal causation but doesn't carry the emphatic 'precisely because' nuance that makes 'からこそ' special in this context."
+      ]
+    },
+    {
+      "id": "n2_051_3",
+      "example_sentence": "困難な時期を乗り越えたからこそ、チームの絆が深まった。",
+      "translation": "It is precisely because we overcame difficult times that our team bond deepened.",
+      "blank_target": "たからこそ",
+      "wrong_choices": [
+        "たおかげで",
+        "たので",
+        "たゆえに"
+      ],
+      "wrong_choice_explanations": [
+        "'たおかげで' expresses gratitude or positive outcome but doesn't provide the emphatic 'precisely because' meaning that highlights the specific cause.",
+        "'たので' indicates a natural cause-and-effect but lacks the strong emphasis of 'からこそ' that stresses the exact reason for the deepened bond.",
+        "'たゆえに' is literary causation but doesn't convey the emphatic quality of 'からこそ' that emphasizes the precise reason."
+      ]
+    },
+    {
+      "id": "n2_051_4",
+      "example_sentence": "母の厳しい教育があったからこそ、今の私がいる。",
+      "translation": "It is precisely because of my mother's strict education that I am who I am today.",
+      "blank_target": "たからこそ",
+      "wrong_choices": [
+        "たから",
+        "ていたから",
+        "たせいで"
+      ],
+      "wrong_choice_explanations": [
+        "'たから' expresses simple causation but doesn't provide the strong emphasis of 'からこそ' that highlights the mother's education as the precise reason.",
+        "'ていたから' indicates ongoing past action as a reason but lacks the emphatic 'precisely because' meaning that 'からこそ' provides.",
+        "'たせいで' often implies negative causation and doesn't fit the appreciative tone or provide the emphatic precision of 'からこそ'."
+      ]
+    },
+    {
+      "id": "n2_051_5",
+      "example_sentence": "多くの本を読んだからこそ、幅広い知識を身につけることができた。",
+      "translation": "It is precisely because I read many books that I was able to acquire broad knowledge.",
+      "blank_target": "だからこそ",
+      "wrong_choices": [
+        "だから",
+        "ので",
+        "ために"
+      ],
+      "wrong_choice_explanations": [
+        "'だから' simply connects cause and effect but doesn't emphasize that reading many books was the precise key factor in gaining knowledge.",
+        "'ので' expresses natural causation but lacks the strong emphasis of 'からこそ' that highlights reading as the exact reason for acquiring knowledge.",
+        "'ために' typically expresses purpose rather than completed causation, and doesn't provide the emphatic 'precisely because' meaning."
       ]
     },
     {
       "id": "n2_051_6",
-      "example_sentence": "失敗を経験したからこそ、今の成功がある。",
-      "translation": "Because I experienced failure, I was able to achieve current success.",
+      "example_sentence": "彼の努力を見ていたからこそ、応援したくなったのだ。",
+      "translation": "It is precisely because I had been watching his efforts that I wanted to support him.",
       "blank_target": "たからこそ",
       "wrong_choices": [
-        "たから",
-        "たのだからこそ",
-        "たために"
+        "ていたから",
+        "ていたので",
+        "ていたため"
       ],
       "wrong_choice_explanations": [
-        "'たから' has a different grammatical function or nuance than '〜からこそ'.",
-        "'たのだからこそ' has a different grammatical function or nuance than '〜からこそ'.",
-        "'たために' has a different grammatical function or nuance than '〜からこそ'."
+        "'ていたから' expresses ongoing past action as a reason but doesn't provide the emphatic 'precisely because' meaning that emphasizes witnessing his efforts.",
+        "'ていたので' indicates natural causation from ongoing observation but lacks the strong emphasis of 'からこそ' on the specific reason for wanting to support.",
+        "'ていたため' expresses reason formally but doesn't convey the emphatic quality of 'からこそ' that highlights the precise cause of the desire to help."
       ]
     },
     {
       "id": "n2_051_7",
-      "example_sentence": "多くの失敗を経験したからこそ、現在の成功がある。",
-      "translation": "If his claim is correct, we need to change our response strategy.",
-      "blank_target": "たからこそ",
+      "example_sentence": "日本語が難しいからこそ、マスターした時の喜びは大きい。",
+      "translation": "It is precisely because Japanese is difficult that the joy of mastering it is great.",
+      "blank_target": "いからこそ",
       "wrong_choices": [
-        "たから",
-        "たのだからこそ",
-        "たために"
+        "いから",
+        "いので",
+        "くて"
       ],
       "wrong_choice_explanations": [
-        "たから indicates alternatives, but this sentence needs 〜からこそ to convey precisely because / it is exactly because (strong causal emphasis).",
-        "たのだからこそ indicates alternatives, but this sentence needs 〜からこそ to convey precisely because / it is exactly because (strong causal emphasis).",
-        "たために does not convey the meaning of 〜からこそ required in this context: precisely because / it is exactly because (strong causal emphasis)."
+        "'いから' expresses simple causation but doesn't emphasize that the difficulty is the precise reason for the great joy upon mastering.",
+        "'いので' indicates natural cause-and-effect but lacks the strong emphasis of 'からこそ' that highlights difficulty as the exact source of joy.",
+        "'くて' simply connects adjectives or states but doesn't provide the causal emphasis needed to explain why the joy is specifically great."
       ]
     },
     {
       "id": "n2_051_8",
-      "example_sentence": "市場の競争を経験したからこそ、企業は成長できる。",
-      "translation": "Companies grow through experiencing market competition.",
-      "blank_target": "たからこそ",
+      "example_sentence": "お客様のことを第一に考えているからこそ、この会社は成長している。",
+      "translation": "It is precisely because this company puts customers first that it is growing.",
+      "blank_target": "るからこそ",
       "wrong_choices": [
-        "たから",
-        "たのだからこそ",
-        "たために"
+        "るから",
+        "ているから",
+        "るので"
       ],
       "wrong_choice_explanations": [
-        "While たから is a valid grammar pattern, it doesn't convey the same meaning as 〜からこそ and doesn't fit this sentence context.",
-        "While たのだからこそ is a valid grammar pattern, it doesn't convey the same meaning as 〜からこそ and doesn't fit this sentence context.",
-        "While たために is a valid grammar pattern, it doesn't convey the same meaning as 〜からこそ and doesn't fit this sentence context."
+        "'るから' expresses basic causation but doesn't emphasize that customer-first thinking is the precise key to the company's growth.",
+        "'ているから' indicates ongoing action as a reason but lacks the emphatic 'precisely because' meaning that highlights the specific business philosophy.",
+        "'るので' expresses natural causation but doesn't provide the strong emphasis of 'からこそ' on customer focus as the exact reason for growth."
       ]
     },
     {
       "id": "n2_051_9",
-      "example_sentence": "過去の失敗を経験したからこそ、新しい手法が生まれた。",
-      "translation": "New methods emerged from past failure experiences.",
-      "blank_target": "たからこそ",
+      "example_sentence": "親友だからこそ、時には厳しいことも言わなければならない。",
+      "translation": "It is precisely because we are close friends that sometimes I must say harsh things.",
+      "blank_target": "だからこそ",
       "wrong_choices": [
-        "たから",
-        "たのだからこそ",
-        "たために"
+        "だから",
+        "なので",
+        "だけに"
       ],
       "wrong_choice_explanations": [
-        "'たから' is 'たから', but this context requires '〜からこそ' to indicate precisely because.",
-        "'たのだからこそ' is 'たのだからこそ', but this context requires '〜からこそ' to indicate precisely because.",
-        "'たために' is 'たために', but this context requires '〜からこそ' to indicate precisely because."
+        "'だから' simply means 'therefore' but doesn't emphasize that being close friends is the precise reason for needing to speak harshly sometimes.",
+        "'なので' expresses straightforward causation but lacks the emphatic quality of 'からこそ' that stresses the friendship as the exact reason.",
+        "'だけに' means 'precisely because' but is used differently and doesn't fit the grammatical structure of this sentence with the following clause."
+      ]
+    },
+    {
+      "id": "n2_051_10",
+      "example_sentence": "長年の経験があるからこそ、適切な判断ができるのです。",
+      "translation": "It is precisely because I have years of experience that I can make appropriate judgments.",
+      "blank_target": "るからこそ",
+      "wrong_choices": [
+        "るから",
+        "があるので",
+        "るために"
+      ],
+      "wrong_choice_explanations": [
+        "'るから' expresses simple causation but doesn't emphasize that long experience is the precise foundation for making good judgments.",
+        "'があるので' indicates natural cause-and-effect but lacks the strong emphasis of 'からこそ' that highlights experience as the exact qualification.",
+        "'るために' expresses purpose rather than completed causation, and doesn't provide the emphatic 'precisely because' meaning needed here."
       ]
     }
   ]

@@ -15,73 +15,153 @@
         "らしい"
       ],
       "wrong_choice_explanations": [
-        "This pattern does not convey the same meaning as '〜げ' (seeming / giving an impression of (visible emotional state)) needed in this context.",
-        "This pattern does not convey the same meaning as '〜げ' (seeming / giving an impression of (visible emotional state)) needed in this context.",
-        "means 'it seems' or 'apparently' based on information, not for stating definite facts or requirements"
+        "そうな expresses appearance or likelihood but lacks the specific nuance of visible emotional states that げ conveys in this context.",
+        "っぽい means 'having a tendency toward' or 'seeming like' but is more casual and doesn't capture the specific emotional expression visible on her face.",
+        "らしい indicates hearsay or inference based on information, not the direct observation of emotional expression that げ expresses here."
       ]
     },
     {
       "id": "n2_182_2",
-      "example_sentence": "その少年は不安そうげな表情だった。",
-      "translation": "The boy had a somewhat anxious expression.",
+      "example_sentence": "その少年は不安げな表情だった。",
+      "translation": "The boy had an anxious expression.",
       "blank_target": "げな",
       "wrong_choices": [
         "そうな",
-        "っぽい",
-        "らしい"
+        "みたいな",
+        "ような"
       ],
       "wrong_choice_explanations": [
-        "そうな has a different grammatical function and doesn't fit the context of this sentence where げ is required.",
-        "っぽい has a different grammatical function and doesn't fit the context of this sentence where げ is required.",
-        "らしい has a different grammatical function and doesn't fit the context of this sentence where げ is required."
+        "そうな expresses appearance but doesn't specifically convey the visible emotional state that げ captures in describing facial expressions.",
+        "みたいな means 'like' or 'similar to' but doesn't express the specific nuance of visible emotional states that げ provides.",
+        "ような means 'like' or 'as if' but is more general and doesn't capture the specific emotional expression visible in someone's appearance."
       ]
     },
     {
       "id": "n2_182_3",
-      "example_sentence": "上司は満足しているげな態度を見せた。",
-      "translation": "The boss showed an attitude as if satisfied.",
-      "blank_target": "げな",
+      "example_sentence": "母は心配げに私を見つめた。",
+      "translation": "My mother looked at me with a worried expression.",
+      "blank_target": "げに",
       "wrong_choices": [
-        "そうな",
-        "っぽい",
-        "らしい"
+        "そうに",
+        "っぽく",
+        "らしく"
       ],
       "wrong_choice_explanations": [
-        "そうな has a different grammatical function, but 〜げ is needed to express the specific meaning required in this sentence.",
-        "っぽい looks like / seems (informal), but 〜げ is needed to express the specific meaning required in this sentence.",
-        "indicates hearsay; doesn't match the definite causal or temporal meaning required."
+        "そうに expresses manner of action but doesn't specifically convey the emotional state visible in someone's expression like げに does.",
+        "っぽく is casual and means 'in a way that seems like' but doesn't capture the specific emotional nuance that げに provides.",
+        "らしく means 'in a manner typical of' but doesn't express the visible emotional state that げに conveys in this context."
       ]
     },
     {
       "id": "n2_182_4",
-      "example_sentence": "その政治家は自信満々げな話ぶりだった。",
-      "translation": "The politician had a very confident manner of speaking.",
-      "blank_target": "げな",
+      "example_sentence": "彼は寂しげに微笑んだ。",
+      "translation": "He smiled with a lonely expression.",
+      "blank_target": "げに",
       "wrong_choices": [
-        "そうな",
-        "っぽい",
-        "らしい"
+        "そうに",
+        "みたいに",
+        "ように"
       ],
       "wrong_choice_explanations": [
-        "そうな has a different grammatical function that doesn't fit this sentence context.",
-        "っぽい has a different grammatical function that doesn't fit this sentence context.",
-        "らしい has a different grammatical function that doesn't fit this sentence context."
+        "そうに expresses manner of action but doesn't capture the specific emotional nuance visible in his expression that げに provides.",
+        "みたいに means 'in a way like' but is more general and doesn't express the specific emotional state visible in his smile.",
+        "ように means 'as if' or 'like' but doesn't convey the specific emotional expression that can be seen in someone's actions like げに does."
       ]
     },
     {
       "id": "n2_182_5",
-      "example_sentence": "患者さんは痛みを感じているげな様子が見られた。",
-      "translation": "The patient appeared to be in pain.",
+      "example_sentence": "子供たちは楽しげに遊んでいる。",
+      "translation": "The children are playing with joyful expressions.",
+      "blank_target": "げに",
+      "wrong_choices": [
+        "そうに",
+        "っぽく",
+        "らしく"
+      ],
+      "wrong_choice_explanations": [
+        "そうに expresses manner but doesn't specifically convey the visible emotional joy that げに captures in their play.",
+        "っぽく is casual and means 'in a way that seems like' but doesn't express the specific emotional state visible in their behavior.",
+        "らしく means 'in a typical manner' but doesn't capture the visible emotional expression that げに provides in this context."
+      ]
+    },
+    {
+      "id": "n2_182_6",
+      "example_sentence": "彼女は恥ずかしげに頭を下げた。",
+      "translation": "She bowed her head with an embarrassed expression.",
+      "blank_target": "げに",
+      "wrong_choices": [
+        "そうに",
+        "みたいに",
+        "ぶって"
+      ],
+      "wrong_choice_explanations": [
+        "そうに expresses manner of action but doesn't capture the specific shy emotional state visible in her behavior that げに provides.",
+        "みたいに means 'in a way like' but doesn't express the specific emotional state that can be observed in her actions.",
+        "ぶって means 'pretending to be' or 'acting like' but implies fakeness, whereas げに expresses genuine visible emotion."
+      ]
+    },
+    {
+      "id": "n2_182_7",
+      "example_sentence": "老人は思い出深げに昔の話をした。",
+      "translation": "The old man spoke of the past with a nostalgic expression.",
+      "blank_target": "げに",
+      "wrong_choices": [
+        "そうに",
+        "らしく",
+        "ような"
+      ],
+      "wrong_choice_explanations": [
+        "そうに expresses manner but doesn't capture the specific nostalgic emotion visible in his storytelling that げに provides.",
+        "らしく means 'in a typical manner of' but doesn't express the visible emotional state that げに conveys when describing his expression.",
+        "ような means 'like' or 'as if' but is used differently grammatically and doesn't capture the emotional nuance of げに."
+      ]
+    },
+    {
+      "id": "n2_182_8",
+      "example_sentence": "学生は困惑げな表情で質問に答えた。",
+      "translation": "The student answered the question with a confused expression.",
       "blank_target": "げな",
       "wrong_choices": [
         "そうな",
         "っぽい",
-        "らしい"
+        "みたいな"
       ],
       "wrong_choice_explanations": [
-        "〜そうな indicates appearance; doesn't convey emotional expression.",
-        "〜っぽい is colloquial; doesn't convey visible state.",
-        "〜らしい is inference; doesn't convey visible emotional state."
+        "そうな expresses appearance but doesn't specifically convey the visible emotional confusion that げな captures in facial expressions.",
+        "っぽい means 'having a tendency toward' but is more casual and doesn't express the specific emotional state visible on his face.",
+        "みたいな means 'like' or 'similar to' but doesn't capture the specific emotional expression that げな provides in describing visible states."
+      ]
+    },
+    {
+      "id": "n2_182_9",
+      "example_sentence": "彼は誇らしげに自分の作品を見せた。",
+      "translation": "He showed his work with a proud expression.",
+      "blank_target": "げに",
+      "wrong_choices": [
+        "そうに",
+        "ぶって",
+        "らしく"
+      ],
+      "wrong_choice_explanations": [
+        "そうに expresses manner of action but doesn't capture the specific pride visible in his expression that げに provides.",
+        "ぶって means 'pretending to be' and implies artificiality, whereas げに expresses genuine visible emotion.",
+        "らしく means 'in a manner typical of' but doesn't express the visible emotional state that げに conveys in this context."
+      ]
+    },
+    {
+      "id": "n2_182_10",
+      "example_sentence": "その女性は悲しげな目で空を見上げた。",
+      "translation": "The woman looked up at the sky with sad eyes.",
+      "blank_target": "げな",
+      "wrong_choices": [
+        "そうな",
+        "っぽい",
+        "ような"
+      ],
+      "wrong_choice_explanations": [
+        "そうな expresses appearance but doesn't specifically convey the visible sadness in her eyes that げな captures.",
+        "っぽい means 'having a tendency toward' but is more casual and doesn't express the specific emotional state visible in her expression.",
+        "ような means 'like' or 'as if' but doesn't capture the specific emotional nuance that げな provides in describing visible emotional states."
       ]
     }
   ]

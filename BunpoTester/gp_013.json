@@ -1,0 +1,168 @@
+{
+  "id": "gp_013",
+  "pattern": "～より",
+  "meaning": "Than (comparison)",
+  "level": "N5",
+  "exercises": [
+    {
+      "id": 1,
+      "example_sentence": "日本__中国のほうが大きいです。",
+      "translation": "Japan is bigger than China.",
+      "blank_target": "より",
+      "wrong_choices": [
+        "から",
+        "まで",
+        "について"
+      ],
+      "wrong_choice_explanations": {
+        "から": "から means 'from' or 'because' — it doesn't fit here because we need to show comparison, not origin or reason.",
+        "まで": "まで means 'until' or 'to' — it doesn't fit here because we're comparing two things, not indicating a time limit or destination.",
+        "について": "について means 'about/concerning' — it doesn't fit here because we're making a size comparison, not discussing a topic."
+      }
+    },
+    {
+      "id": 2,
+      "example_sentence": "コーヒー__お茶のほうが好きです。",
+      "translation": "I like tea better than coffee.",
+      "blank_target": "より",
+      "wrong_choices": [
+        "と",
+        "で",
+        "に"
+      ],
+      "wrong_choice_explanations": {
+        "と": "と is used for 'with' or 'and' — it doesn't fit here because we're comparing preferences, not indicating accompaniment or listing items.",
+        "で": "で indicates location or means — it doesn't fit here because we're expressing preference comparison, not where something happens or how it's done.",
+        "に": "に indicates direction, time, or indirect object — it doesn't fit here because we need to show comparison between two beverages."
+      }
+    },
+    {
+      "id": 3,
+      "example_sentence": "今日は昨日__暖かいですね。",
+      "translation": "Today is warmer than yesterday.",
+      "blank_target": "より",
+      "wrong_choices": [
+        "の",
+        "が",
+        "を"
+      ],
+      "wrong_choice_explanations": {
+        "の": "の is a possessive particle — it doesn't fit here because we're comparing temperatures, not showing ownership or modification.",
+        "が": "が marks the subject — it doesn't fit here because 'yesterday' is the comparison standard, not the subject of the sentence.",
+        "を": "を marks the direct object — it doesn't fit here because 'yesterday' is not being acted upon, but used as a comparison point."
+      }
+    },
+    {
+      "id": 4,
+      "example_sentence": "電車__バスのほうが安いです。",
+      "translation": "The bus is cheaper than the train.",
+      "blank_target": "より",
+      "wrong_choices": [
+        "へ",
+        "も",
+        "しか"
+      ],
+      "wrong_choice_explanations": {
+        "へ": "へ indicates direction 'to/toward' — it doesn't fit here because we're comparing prices, not showing movement direction.",
+        "も": "も means 'also/too' — it doesn't fit here because we're contrasting prices, not adding information about similarity.",
+        "しか": "しか means 'only' (with negative) — it doesn't fit here because we're making a positive comparison, not expressing limitation."
+      }
+    },
+    {
+      "id": 5,
+      "example_sentence": "りんご__みかんのほうが甘いです。",
+      "translation": "Oranges are sweeter than apples.",
+      "blank_target": "より",
+      "wrong_choices": [
+        "や",
+        "など",
+        "だけ"
+      ],
+      "wrong_choice_explanations": {
+        "や": "や is used for incomplete listing 'and so on' — it doesn't fit here because we're comparing specific items, not giving examples.",
+        "など": "など means 'and so on/such as' — it doesn't fit here because we're making a direct comparison, not listing examples.",
+        "だけ": "だけ means 'only' — it doesn't fit here because we're comparing sweetness levels, not expressing limitation."
+      }
+    },
+    {
+      "id": 6,
+      "example_sentence": "弟__兄のほうが背が高いです。",
+      "translation": "My older brother is taller than my younger brother.",
+      "blank_target": "より",
+      "wrong_choices": [
+        "では",
+        "には",
+        "でも"
+      ],
+      "wrong_choice_explanations": {
+        "では": "では is a topic marker with contrast — it doesn't fit here because we need simple comparison, not topic establishment.",
+        "には": "には combines direction and topic — it doesn't fit here because we're comparing heights, not indicating direction or specific topic focus.",
+        "でも": "でも means 'but/even' — it doesn't fit here because we're making a straightforward comparison, not showing contrast or emphasis."
+      }
+    },
+    {
+      "id": 7,
+      "example_sentence": "夏__冬のほうが好きです。",
+      "translation": "I like winter better than summer.",
+      "blank_target": "より",
+      "wrong_choices": [
+        "として",
+        "による",
+        "によって"
+      ],
+      "wrong_choice_explanations": {
+        "として": "として means 'as/in the capacity of' — it doesn't fit here because we're comparing preferences, not indicating roles or functions.",
+        "による": "による means 'according to/due to' — it doesn't fit here because we're expressing personal preference, not causation or attribution.",
+        "によって": "によって means 'by means of/depending on' — it doesn't fit here because we're making a simple preference comparison, not explaining methods or conditions."
+      }
+    },
+    {
+      "id": 8,
+      "example_sentence": "漢字__ひらがなのほうが易しいです。",
+      "translation": "Hiragana is easier than kanji.",
+      "blank_target": "より",
+      "wrong_choices": [
+        "として",
+        "なら",
+        "こそ"
+      ],
+      "wrong_choice_explanations": {
+        "として": "として means 'as/in the role of' — it doesn't fit here because we're comparing difficulty levels, not indicating functions or roles.",
+        "なら": "なら means 'if' or indicates conditional topic — it doesn't fit here because we're making a direct comparison, not setting conditions.",
+        "こそ": "こそ is an emphasis particle meaning 'precisely/exactly' — it doesn't fit here because we need comparison, not emphasis on a particular item."
+      }
+    },
+    {
+      "id": 9,
+      "example_sentence": "車__自転車のほうが環境にいいです。",
+      "translation": "Bicycles are better for the environment than cars.",
+      "blank_target": "より",
+      "wrong_choices": [
+        "さえ",
+        "ばかり",
+        "ほど"
+      ],
+      "wrong_choice_explanations": {
+        "さえ": "さえ means 'even' (minimum example) — it doesn't fit here because we're comparing environmental impact, not showing minimum cases.",
+        "ばかり": "ばかり means 'only/just' — it doesn't fit here because we're contrasting two transportation methods, not expressing exclusivity.",
+        "ほど": "ほど means 'to the extent of' — it doesn't fit here because we need direct comparison, not expressing degree or extent."
+      }
+    },
+    {
+      "id": 10,
+      "example_sentence": "映画__本のほうが面白かったです。",
+      "translation": "The book was more interesting than the movie.",
+      "blank_target": "より",
+      "wrong_choices": [
+        "にて",
+        "をば",
+        "かな"
+      ],
+      "wrong_choice_explanations": {
+        "にて": "にて is a formal version of で meaning 'at/in' — it doesn't fit here because we're comparing entertainment value, not indicating location.",
+        "をば": "をば is an archaic emphatic object marker — it doesn't fit here because we need comparison, and this form is not used in modern Japanese.",
+        "かな": "かな expresses wondering or uncertainty — it doesn't fit here because we're making a definitive comparison, not expressing doubt."
+      }
+    }
+  ]
+}

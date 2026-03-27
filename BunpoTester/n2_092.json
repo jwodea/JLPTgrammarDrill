@@ -5,83 +5,163 @@
   "level": "N2",
   "exercises": [
     {
-      "id": "n2_092_10",
+      "id": "n2_092_1",
       "example_sentence": "その美しさに接すると、心が動かないではいられない。",
-      "translation": "From planning through execution, extensive discussions occurred.",
+      "translation": "When encountering such beauty, I cannot help but be moved.",
       "blank_target": "ないではいられない",
       "wrong_choices": [
-        "ずにはいられない",
         "ないわけにはいかない",
-        "ずにはおかない"
+        "てはならない",
+        "なければならない"
       ],
       "wrong_choice_explanations": [
-        "ずにはいられない means 'cannot help but', which is used in unavoidable emotion/action, but this sentence requires ないではいられない ('cannot help but / must') for unavoidable action.",
-        "ないわけにはいかない means 'ないわけにはいかない', which is used in different context, but this sentence requires ないではいられない ('cannot help but / must') for unavoidable action.",
-        "ずにはおかない means 'ずにはおかない', which is used in different context, but this sentence requires ないではいられない ('cannot help but / must') for unavoidable action."
+        "ないわけにはいかない means 'must do / have no choice but to' expressing obligation, but this sentence requires ないではいられない to express uncontrollable emotion.",
+        "てはならない means 'must not' expressing prohibition, but this sentence requires ないではいられない to express involuntary response.",
+        "なければならない means 'must' expressing duty/necessity, but this sentence requires ないではいられない to express emotional compulsion."
       ]
     },
     {
-      "id": "n2_092_6",
+      "id": "n2_092_2",
       "example_sentence": "彼のユーモアを聞くと、笑わないではいられない。",
       "translation": "Hearing his humor, I cannot help but laugh.",
       "blank_target": "ないではいられない",
       "wrong_choices": [
-        "ずにはいられない",
-        "ないわけにはいかない",
-        "ずにはおかない"
+        "ないわけではない",
+        "てはいけない",
+        "べきではない"
       ],
       "wrong_choice_explanations": [
-        "'ずにはいられない' has a different grammatical function or nuance than '〜ないではいられない'.",
-        "'ないわけにはいかない' has a different grammatical function or nuance than '〜ないではいられない'.",
-        "'ずにはおかない' has a different grammatical function or nuance than '〜ないではいられない'."
+        "ないわけではない means 'it's not that... not' expressing partial negation, but this sentence requires ないではいられない to express involuntary action.",
+        "てはいけない means 'must not' expressing prohibition, but this sentence requires ないではいられない to express uncontrollable laughter.",
+        "べきではない means 'should not' expressing advice against something, but this sentence requires ないではいられない to express automatic response."
+      ]
+    },
+    {
+      "id": "n2_092_3",
+      "example_sentence": "その店の味を知ると、定期的に通わないではいられない。",
+      "translation": "Once I knew the taste of that restaurant, I cannot help but go there regularly.",
+      "blank_target": "ないではいられない",
+      "wrong_choices": [
+        "ないことはない",
+        "てはだめだ",
+        "わけではない"
+      ],
+      "wrong_choice_explanations": [
+        "ないことはない means 'it's not impossible' expressing possibility, but this sentence requires ないではいられない to express compulsive behavior.",
+        "てはだめだ means 'must not' expressing prohibition, but this sentence requires ないではいられない to express irresistible urge.",
+        "わけではない means 'it's not that' expressing denial of assumption, but this sentence requires ないではいられない to express inevitable action."
+      ]
+    },
+    {
+      "id": "n2_092_4",
+      "example_sentence": "この映画の感動的な場面を見ると、涙を流さないではいられない。",
+      "translation": "When I see the moving scenes in this movie, I cannot help but shed tears.",
+      "blank_target": "ないではいられない",
+      "wrong_choices": [
+        "ないものでもない",
+        "てはいけない",
+        "ないといけない"
+      ],
+      "wrong_choice_explanations": [
+        "ないものでもない means 'it's not impossible' expressing reluctant agreement, but this sentence requires ないではいられない to express involuntary emotional response.",
+        "てはいけない means 'must not' expressing prohibition, but this sentence requires ないではいられない to express uncontrollable tears.",
+        "ないといけない means 'must' expressing necessity, but this sentence requires ないではいられない to express automatic emotional reaction."
+      ]
+    },
+    {
+      "id": "n2_092_5",
+      "example_sentence": "子供たちの純真な笑顔を見ると、微笑まないではいられない。",
+      "translation": "When I see the children's innocent smiles, I cannot help but smile.",
+      "blank_target": "ないではいられない",
+      "wrong_choices": [
+        "ないばかりか",
+        "てはならない",
+        "ないでもない"
+      ],
+      "wrong_choice_explanations": [
+        "ないばかりか means 'not only... but also' used for adding information, but this sentence requires ないではいられない to express involuntary reaction.",
+        "てはならない means 'must not' expressing strong prohibition, but this sentence requires ないではいられない to express natural response.",
+        "ないでもない means 'it's not that... not' expressing weak agreement, but this sentence requires ないではいられない to express irrepressible emotion."
+      ]
+    },
+    {
+      "id": "n2_092_6",
+      "example_sentence": "あの歌手の美しい歌声を聞くと、感動しないではいられない。",
+      "translation": "When I hear that singer's beautiful voice, I cannot help but be moved.",
+      "blank_target": "ないではいられない",
+      "wrong_choices": [
+        "ないとは限らない",
+        "べきではない",
+        "なくてもいい"
+      ],
+      "wrong_choice_explanations": [
+        "ないとは限らない means 'it's not necessarily the case that not' expressing uncertainty, but this sentence requires ないではいられない to express inevitable emotion.",
+        "べきではない means 'should not' expressing moral judgment, but this sentence requires ないではいられない to express uncontrollable feeling.",
+        "なくてもいい means 'don't have to' expressing lack of necessity, but this sentence requires ないではいられない to express compulsive emotion."
       ]
     },
     {
       "id": "n2_092_7",
-      "example_sentence": "その店の味を知ると、定期的に通わないではいられない。",
-      "translation": "At this point, expert opinions are necessary.",
+      "example_sentence": "彼女の一生懸命な姿を見ると、応援しないではいられない。",
+      "translation": "When I see her trying so hard, I cannot help but cheer for her.",
       "blank_target": "ないではいられない",
       "wrong_choices": [
-        "ずにはいられない",
-        "ないわけにはいかない",
-        "ずにはおかない"
+        "ないかもしれない",
+        "てはだめだ",
+        "なくてはいけない"
       ],
       "wrong_choice_explanations": [
-        "ずにはいられない does not convey the meaning of 〜ないではいられない required in this context: cannot help but / cannot refrain from (same as ずにはいられない, more colloquial).",
-        "ないわけにはいかない indicates alternatives, but this sentence needs 〜ないではいられない to convey cannot help but / cannot refrain from (same as ずにはいられない, more colloquial).",
-        "ずにはおかない indicates alternatives, but this sentence needs 〜ないではいられない to convey cannot help but / cannot refrain from (same as ずにはいられない, more colloquial)."
+        "ないかもしれない means 'might not' expressing possibility of negation, but this sentence requires ないではいられない to express compulsive support.",
+        "てはだめだ means 'must not' expressing prohibition, but this sentence requires ないではいられない to express irresistible urge to help.",
+        "なくてはいけない means 'must' expressing obligation, but this sentence requires ないではいられない to express spontaneous desire to support."
       ]
     },
     {
       "id": "n2_092_8",
-      "example_sentence": "この事業の成長性を知ると、参入しないではいられない。",
-      "translation": "Knowing this business's growth potential, I cannot help but participate.",
+      "example_sentence": "この本の内容があまりにも面白いので、最後まで読まないではいられない。",
+      "translation": "This book's content is so interesting that I cannot help but read it to the end.",
       "blank_target": "ないではいられない",
       "wrong_choices": [
-        "ずにはいられない",
-        "ないわけにはいかない",
-        "ずにはおかない"
+        "ないようだ",
+        "てはいけない",
+        "ないのではないか"
       ],
       "wrong_choice_explanations": [
-        "While ずにはいられない is a valid grammar pattern, it doesn't convey the same meaning as 〜ないではいられない and doesn't fit this sentence context.",
-        "While ないわけにはいかない is a valid grammar pattern, it doesn't convey the same meaning as 〜ないではいられない and doesn't fit this sentence context.",
-        "While ずにはおかない is a valid grammar pattern, it doesn't convey the same meaning as 〜ないではいられない and doesn't fit this sentence context."
+        "ないようだ means 'it seems that not' expressing appearance/conjecture, but this sentence requires ないではいられない to express compulsive reading.",
+        "てはいけない means 'must not' expressing prohibition, but this sentence requires ないではいられない to express irresistible urge to continue.",
+        "ないのではないか means 'isn't it that not' expressing questioning assumption, but this sentence requires ないではいられない to express inevitable action."
       ]
     },
     {
       "id": "n2_092_9",
-      "example_sentence": "その仮説の説得力を見ると、受け入れないではいられない。",
-      "translation": "From literature review to paper writing, strict procedures exist.",
+      "example_sentence": "故郷の美しい風景を思い出すと、帰りたくならないではいられない。",
+      "translation": "When I remember the beautiful scenery of my hometown, I cannot help but want to return.",
       "blank_target": "ないではいられない",
       "wrong_choices": [
-        "ずにはいられない",
-        "ないわけにはいかない",
-        "ずにはおかない"
+        "ないとしても",
+        "べきではない",
+        "なくても構わない"
       ],
       "wrong_choice_explanations": [
-        "'ずにはいられない' is 'ずにはいられない', but this context requires '〜ないではいられない' to indicate cannot help but.",
-        "'ないわけにはいかない' is 'ないわけにはいかない', but this context requires '〜ないではいられない' to indicate cannot help but.",
-        "'ずにはおかない' is 'ずにはおかない', but this context requires '〜ないではいられない' to indicate cannot help but."
+        "ないとしても means 'even if not' expressing concession, but this sentence requires ないではいられない to express uncontrollable longing.",
+        "べきではない means 'should not' expressing advice against action, but this sentence requires ないではいられない to express inevitable homesickness.",
+        "なくても構わない means 'it's okay even if not' expressing permission, but this sentence requires ないではいられない to express irrepressible nostalgia."
+      ]
+    },
+    {
+      "id": "n2_092_10",
+      "example_sentence": "その悲しいニュースを聞くと、同情しないではいられない。",
+      "translation": "When I hear that sad news, I cannot help but feel sympathy.",
+      "blank_target": "ないではいられない",
+      "wrong_choices": [
+        "ないに違いない",
+        "てはならない",
+        "ないだろう"
+      ],
+      "wrong_choice_explanations": [
+        "ないに違いない means 'must not' expressing strong conviction, but this sentence requires ないではいられない to express involuntary sympathy.",
+        "てはならない means 'must not' expressing prohibition, but this sentence requires ないではいられない to express automatic emotional response.",
+        "ないだろう means 'probably not' expressing conjecture, but this sentence requires ないではいられない to express compulsive compassion."
       ]
     }
   ]

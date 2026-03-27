@@ -6,98 +6,82 @@
   "exercises": [
     {
       "id": "n1_094_1",
-      "example_sentence": "[ファイル1]これはとての例文です。",
-      "translation": "This is an example sentence for とて.",
+      "example_sentence": "何ら経験がないとて、彼女は諦めることはない。",
+      "translation": "Even though she has no experience, she will not give up.",
       "blank_target": "とて",
       "wrong_choices": [
-        "たり",
-        "している",
-        "した"
+        "から",
+        "ので",
+        "けれど"
       ],
       "wrong_choice_explanations": [
-        "たり marks enumeration or alternation, not concession.",
-        "している marks ongoing state, not concession.",
-        "した marks past tense, not concession."
-      ]
-    },
-    {
-      "id": "n1_094_10",
-      "example_sentence": "何ら根拠がないとて、その医療方針は実行されている。",
-      "translation": "Even though there is no basis, that healthcare policy is being implemented.",
-      "blank_target": "とて",
-      "wrong_choices": [
-        "の重さに",
-        "が大きすぎて",
-        "の結果"
-      ],
-      "wrong_choice_explanations": [
-        "'の重さに' does not express the same grammatical relationship as '〜とて' in this context.",
-        "'が大きすぎて' does not express the same grammatical relationship as '〜とて' in this context.",
-        "'の結果' does not express the same grammatical relationship as '〜とて' in this context."
+        "から expresses reason/cause, but this sentence requires a concessive meaning showing contrast despite the condition.",
+        "ので expresses reason/cause, but this sentence requires a concessive meaning showing contrast despite the condition.",
+        "けれど is casual adversative conjunction, lacking the formal literary tone that とて provides in this context."
       ]
     },
     {
       "id": "n1_094_2",
-      "example_sentence": "[ファイル2]これはとての例文です。",
-      "translation": "This is an example sentence for とて.",
+      "example_sentence": "何ら成果がないとて、その研究は続けられている。",
+      "translation": "Even though there are no results, that research is being continued.",
       "blank_target": "とて",
       "wrong_choices": [
-        "たり",
-        "している",
-        "した"
+        "にしても",
+        "だけに",
+        "ばかりに"
       ],
       "wrong_choice_explanations": [
-        "たり lacks the specific nuance that とて provides, and this sentence needs that distinction.",
-        "している lacks the specific nuance that とて provides, and this sentence needs that distinction.",
-        "した lacks the specific nuance that とて provides, and this sentence needs that distinction."
+        "にしても expresses 'even if/even though' but is less formal and literary than とて.",
+        "だけに means 'precisely because' and expresses cause, not the concessive meaning needed here.",
+        "ばかりに means 'just because' and expresses regrettable cause, not the literary concessive meaning needed."
       ]
     },
     {
       "id": "n1_094_3",
-      "example_sentence": "[ファイル3]これはとての例文です。",
-      "translation": "This is an example sentence for とて.",
+      "example_sentence": "何ら理由がないとて、その決定は覆されない。",
+      "translation": "Even though there is no reason, that decision will not be overturned.",
       "blank_target": "とて",
       "wrong_choices": [
-        "たり",
-        "している",
-        "した"
+        "ながら",
+        "ものの",
+        "くせに"
       ],
       "wrong_choice_explanations": [
-        "Means 'and'; doesn't express even-though.",
-        "Progressive; doesn't convey literary even sense.",
-        "Past form; doesn't express even-though."
+        "ながら expresses 'while/although' but lacks the emphatic literary quality of とて.",
+        "ものの means 'although/though' but is less formal and doesn't carry the same literary weight as とて.",
+        "くせに expresses 'despite/although' with a critical tone, inappropriate for this formal context."
       ]
     },
     {
       "id": "n1_094_4",
-      "example_sentence": "[ファイル4]これはとての例文です。",
-      "translation": "This is an example sentence for とて.",
+      "example_sentence": "何ら利益がないとて、その事業は継続されている。",
+      "translation": "Even though there is no profit, that business is being continued.",
       "blank_target": "とて",
       "wrong_choices": [
-        "たり",
-        "している",
-        "した"
+        "としても",
+        "にも関わらず",
+        "どころか"
       ],
       "wrong_choice_explanations": [
-        "is a listing particle; does not express the \"even\" concessive sense.",
-        "means \"is doing\"; does not convey the concessive meaning.",
-        "is past tense; does not express the concessive sense."
+        "としても means 'even if' but doesn't fit grammatically with the noun phrase '何ら利益がない'.",
+        "にも関わらず means 'despite' but requires different syntax and doesn't attach directly to the clause.",
+        "どころか means 'far from' and indicates contrast, not the concessive meaning needed here."
       ]
     },
     {
       "id": "n1_094_5",
-      "example_sentence": "[ファイル5]これはとての例文です。",
-      "translation": "This is an example sentence for とて.",
+      "example_sentence": "何ら希望がないとて、人々は生き続けている。",
+      "translation": "Even though there is no hope, people continue to live.",
       "blank_target": "とて",
       "wrong_choices": [
-        "たり",
-        "している",
-        "した"
+        "といえども",
+        "にせよ",
+        "たところで"
       ],
       "wrong_choice_explanations": [
-        "たり means 'unknown form: たり'; it doesn't convey the 'even / even though (literary)' meaning needed here.",
-        "している means 'is / has been'; it doesn't convey the 'even / even though (literary)' meaning needed here.",
-        "した means 'did (past)'; it doesn't convey the 'even / even though (literary)' meaning needed here."
+        "といえども means 'even though' but is more commonly used with status or position, not abstract concepts like hope.",
+        "にせよ means 'whether...or' and is used for alternatives, not for concessive meaning.",
+        "たところで means 'even if one does' and requires a verb form, not the noun phrase used here."
       ]
     },
     {
@@ -111,25 +95,25 @@
         "があるから"
       ],
       "wrong_choice_explanations": [
-        "できなくはない is a double negative meaning 'it's not that one can't' but is different pattern.",
-        "できそうだ means 'seems possible' and doesn't use the double negative pattern.",
-        "ないわけではない means 'it's not that it isn't' and is similar but different structure."
+        "故に means 'therefore' and expresses result/conclusion, opposite to the concessive meaning needed here.",
+        "という理由で means 'for the reason that' and expresses cause, not the concessive contrast required.",
+        "があるから would mean 'because there is' and expresses reason, contradicting the intended concessive meaning."
       ]
     },
     {
       "id": "n1_094_7",
-      "example_sentence": "[ファイル7]これはとての例文です。",
-      "translation": "This is an example sentence for とて.",
+      "example_sentence": "何ら知識がないとて、彼は専門家として扱われている。",
+      "translation": "Even though he has no knowledge, he is being treated as an expert.",
       "blank_target": "とて",
       "wrong_choices": [
-        "の重さに",
-        "が大きすぎて",
-        "の結果"
+        "だというのに",
+        "なのに",
+        "のに"
       ],
       "wrong_choice_explanations": [
-        "This wrong choice doesn't fit the required grammar pattern 〜とて.",
-        "This wrong choice doesn't fit the required grammar pattern 〜とて.",
-        "This wrong choice doesn't fit the required grammar pattern 〜とて."
+        "だというのに expresses frustrated contrast but is less formal and literary than とて.",
+        "なのに means 'despite/although' but is casual and lacks the formal literary tone of とて.",
+        "のに expresses contrast but is conversational and doesn't match the formal register of this sentence."
       ]
     },
     {
@@ -138,14 +122,14 @@
       "translation": "Even though there is no objection, that theory is not complete.",
       "blank_target": "とて",
       "wrong_choices": [
-        "の重さに",
-        "が大きすぎて",
-        "の結果"
+        "としたって",
+        "だって",
+        "でも"
       ],
       "wrong_choice_explanations": [
-        "の重さに has a different grammatical meaning and context; it doesn't fit the required meaning here.",
-        "が大きすぎて has a different grammatical meaning and context; it doesn't fit the required meaning here.",
-        "の結果 has a different grammatical meaning and context; it doesn't fit the required meaning here."
+        "としたって means 'even if' but is very casual and inappropriate for this formal academic context.",
+        "だって is casual and means 'even/but' but lacks the sophisticated literary quality of とて.",
+        "でも is casual 'but/however' and doesn't fit the formal tone or grammatical structure needed."
       ]
     },
     {
@@ -154,14 +138,30 @@
       "translation": "Even though there is no track record, that manager holds power.",
       "blank_target": "とて",
       "wrong_choices": [
-        "の重さに",
-        "が大きすぎて",
-        "の結果"
+        "にあって",
+        "において",
+        "について"
       ],
       "wrong_choice_explanations": [
-        "『の重さに』 does not express the meaning of 『とて』 needed in this context.",
-        "『が大きすぎて』 does not express the meaning of 『とて』 needed in this context.",
-        "『の結果』 does not express the meaning of 『とて』 needed in this context."
+        "にあって means 'in/at' indicating location or situation, not expressing concessive meaning.",
+        "において means 'in/at/regarding' and indicates scope or location, not the concessive relationship needed.",
+        "について means 'about/concerning' and indicates topic, not the concessive meaning required here."
+      ]
+    },
+    {
+      "id": "n1_094_10",
+      "example_sentence": "何ら根拠がないとて、その医療方針は実行されている。",
+      "translation": "Even though there is no basis, that healthcare policy is being implemented.",
+      "blank_target": "とて",
+      "wrong_choices": [
+        "に対して",
+        "に関して",
+        "に基づいて"
+      ],
+      "wrong_choice_explanations": [
+        "に対して means 'toward/against' and expresses direction or opposition, not concessive meaning.",
+        "に関して means 'regarding/concerning' and indicates topic or scope, not the concessive relationship needed.",
+        "に基づいて means 'based on' and expresses foundation or basis, opposite to the meaning intended here."
       ]
     }
   ]

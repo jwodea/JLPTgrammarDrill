@@ -12,44 +12,28 @@
       "wrong_choices": [
         "に従って",
         "に基づいて",
-        "にしたがって"
+        "について"
       ],
       "wrong_choice_explanations": [
-        "This pattern does not convey the same meaning as '〜に沿って' (along / in line with / following (a guideline or path)) needed in this context.",
-        "This pattern does not convey the same meaning as '〜に沿って' (along / in line with / following (a guideline or path)) needed in this context.",
-        "This pattern does not convey the same meaning as '〜に沿って' (along / in line with / following (a guideline or path)) needed in this context."
-      ]
-    },
-    {
-      "id": "n2_010_10",
-      "example_sentence": "博物館の展示コンセプトに沿って、作品が配置されている。",
-      "translation": "Artworks are arranged in accordance with the museum's exhibition concept.",
-      "blank_target": "に沿って",
-      "wrong_choices": [
-        "に従って",
-        "に基づいて",
-        "にしたがって"
-      ],
-      "wrong_choice_explanations": [
-        "に従って means 'に従って', which is used in different context, but this sentence requires に沿って ('に沿って') for its specific context.",
-        "に基づいて means 'に基づいて', which is used in different context, but this sentence requires に沿って ('に沿って') for its specific context.",
-        "にしたがって means 'にしたがって', which is used in different context, but this sentence requires に沿って ('に沿って') for its specific context."
+        "に従って means 'in accordance with/obeying' and implies strict compliance with orders or rules, but this context needs alignment with a plan rather than obedience.",
+        "に基づいて means 'based on' and emphasizes using something as a foundation, but here we need to show following along a planned course.",
+        "について means 'about/concerning' and is used for topics of discussion, which doesn't fit this context of following a plan."
       ]
     },
     {
       "id": "n2_010_2",
-      "example_sentence": "マニュアルに沿って、手順を進めた。",
-      "translation": "I proceeded with the procedure following the manual.",
+      "example_sentence": "川に沿って散歩道が作られている。",
+      "translation": "A walking path has been built along the river.",
       "blank_target": "に沿って",
       "wrong_choices": [
-        "に従って",
-        "に基づいて",
-        "にしたがって"
+        "に向かって",
+        "によって",
+        "に関して"
       ],
       "wrong_choice_explanations": [
-        "に従って has a different grammatical function and doesn't fit the context of this sentence where に沿って is required.",
-        "に基づいて refers to a foundation or principle as the basis, not following along a path or course.",
-        "にしたがって has a different grammatical function and doesn't fit the context of this sentence where に沿って is required."
+        "に向かって means 'toward/heading for' and indicates direction to a destination, but this sentence describes a path running alongside the river.",
+        "によって means 'by means of/due to' and shows cause or method, which doesn't fit the meaning of a path running alongside something.",
+        "に関して means 'regarding/concerning' and is used for topics, not physical positioning along something."
       ]
     },
     {
@@ -58,110 +42,126 @@
       "translation": "Measures were implemented in line with government policy.",
       "blank_target": "に沿って",
       "wrong_choices": [
-        "に従って",
+        "に対して",
         "に基づいて",
-        "にしたがって"
+        "によると"
       ],
       "wrong_choice_explanations": [
-        "に従って means in accordance with, but 〜に沿って is needed to show the basis/foundation that に従って does not establish.",
-        "に基づいて means based on / founded on, but 〜に沿って is needed to show the basis/foundation that に基づいて does not establish.",
-        "にしたがって has a different grammatical function, but 〜に沿って shows the rule/standard being followed in this context."
+        "に対して means 'toward/against' and shows direction or opposition, but this sentence needs to show alignment with policy guidelines.",
+        "に基づいて means 'based on' and emphasizes using something as a foundation or source, but here we need alignment with policy direction rather than derivation from it.",
+        "によると means 'according to' and is used for reporting information sources, not for implementing measures in alignment with policy."
       ]
     },
     {
       "id": "n2_010_4",
-      "example_sentence": "建築基準に沿って、設計が行われた。",
-      "translation": "The design was carried out in accordance with building standards.",
+      "example_sentence": "マニュアルに沿って、手順を進めた。",
+      "translation": "I proceeded with the procedure following the manual.",
       "blank_target": "に沿って",
       "wrong_choices": [
         "に従って",
-        "に基づいて",
-        "にしたがって"
+        "について",
+        "に対して"
       ],
       "wrong_choice_explanations": [
-        "に従って has a different grammatical function that doesn't fit this sentence context.",
-        "に基づいて has a different grammatical function that doesn't fit this sentence context.",
-        "にしたがって has a different grammatical function that doesn't fit this sentence context."
+        "に従って means 'in accordance with' and implies obedience to authority, but following a manual is more about alignment with guidelines than strict obedience.",
+        "について means 'about/concerning' and is used for topics of discussion, not for following procedural steps.",
+        "に対して means 'toward/against' and shows direction or stance, which doesn't fit the context of following manual procedures."
       ]
     },
     {
       "id": "n2_010_5",
+      "example_sentence": "海岸線に沿って、ホテルが建ち並んでいる。",
+      "translation": "Hotels are lined up along the coastline.",
+      "blank_target": "に沿って",
+      "wrong_choices": [
+        "に向かって",
+        "に関して",
+        "によって"
+      ],
+      "wrong_choice_explanations": [
+        "に向かって means 'toward/heading for' and indicates movement in a direction, but this describes static positioning alongside the coast.",
+        "に関して means 'regarding/concerning' and is used for topics, not physical positioning along geographical features.",
+        "によって means 'by means of/due to' and shows cause or agent, which doesn't describe the positioning of buildings along a coastline."
+      ]
+    },
+    {
+      "id": "n2_010_6",
       "example_sentence": "教育課程に沿って、学習が進められている。",
       "translation": "Learning is proceeding along the educational curriculum.",
       "blank_target": "に沿って",
       "wrong_choices": [
         "に従って",
-        "に基づいて",
-        "にしたがって"
+        "によって",
+        "に対して"
       ],
       "wrong_choice_explanations": [
-        "〜に従って emphasizes following rules; doesn't convey alignment.",
-        "〜に基づいて emphasizes foundational conformity; doesn't capture alignment.",
-        "〜にしたがって is similar but more formal; less natural here."
-      ]
-    },
-    {
-      "id": "n2_010_6",
-      "example_sentence": "憲法の理念に沿って、制度が設計された。",
-      "translation": "The system was designed in line with constitutional principles.",
-      "blank_target": "に沿って",
-      "wrong_choices": [
-        "に従って",
-        "に基づいて",
-        "にしたがって"
-      ],
-      "wrong_choice_explanations": [
-        "'に従って' has a different grammatical function or nuance than '〜に沿って'.",
-        "'に基づいて' has a different grammatical function or nuance than '〜に沿って'.",
-        "'にしたがって' has a different grammatical function or nuance than '〜に沿って'."
+        "に従って emphasizes obedience to rules or orders, but following a curriculum is more about alignment with educational guidelines than strict obedience.",
+        "によって means 'by means of/due to' and shows method or cause, but this context needs to show progression alongside curriculum structure.",
+        "に対して means 'toward/against' and shows direction or opposition, which doesn't fit the context of following educational progression."
       ]
     },
     {
       "id": "n2_010_7",
       "example_sentence": "会社の経営方針に沿って、各部門が目標を設定する。",
-      "translation": "Each department sets targets in accordance with the company's management policy.",
+      "translation": "Each department sets targets in line with the company's management policy.",
       "blank_target": "に沿って",
       "wrong_choices": [
-        "に従って",
         "に基づいて",
-        "にしたがって"
+        "について",
+        "に対して"
       ],
       "wrong_choice_explanations": [
-        "に従って emphasizes strict obedience to rules/orders, but this sentence indicates alignment with a company policy as a guideline rather than strict obedience.",
-        "に基づいて emphasizes formal official basis, but this sentence shows departments aligning their targets with policy guidance, not deriving from formal law/data.",
-        "にしたがって is another form of に従って (obedience), but this sentence needs the gentler 'alignment with guidelines' that に沿って conveys."
+        "に基づいて means 'based on' and emphasizes using something as a foundation, but here departments are aligning with policy direction rather than deriving targets from it.",
+        "について means 'about/concerning' and is used for topics of discussion, not for setting targets in alignment with policy.",
+        "に対して means 'toward/against' and shows direction or stance, which doesn't fit the context of aligning departmental goals with company policy."
       ]
     },
     {
       "id": "n2_010_8",
-      "example_sentence": "企業の品質方針に沿って、製造プロセスが改善された。",
-      "translation": "Manufacturing processes were improved in accordance with the company's quality policy.",
+      "example_sentence": "憲法の理念に沿って、制度が設計された。",
+      "translation": "The system was designed in line with constitutional principles.",
       "blank_target": "に沿って",
       "wrong_choices": [
         "に従って",
-        "に基づいて",
-        "にしたがって"
+        "によると",
+        "に関して"
       ],
       "wrong_choice_explanations": [
-        "While に従って is a valid grammar pattern, it doesn't convey the same meaning as 〜に沿って and doesn't fit this sentence context.",
-        "While に基づいて is a valid grammar pattern, it doesn't convey the same meaning as 〜に沿って and doesn't fit this sentence context.",
-        "While にしたがって is a valid grammar pattern, it doesn't convey the same meaning as 〜に沿って and doesn't fit this sentence context."
+        "に従って means 'in accordance with' and implies strict compliance, but designing systems in alignment with constitutional ideals is more about following spirit than strict obedience.",
+        "によると means 'according to' and is used for reporting information sources, not for designing systems in alignment with principles.",
+        "に関して means 'regarding/concerning' and is used for topics, not for designing systems that align with constitutional principles."
       ]
     },
     {
       "id": "n2_010_9",
-      "example_sentence": "研究計画に沿って、プロジェクトが推進されている。",
-      "translation": "The project is being promoted in accordance with the research plan.",
+      "example_sentence": "線路に沿って歩いて、駅まで向かった。",
+      "translation": "I walked along the railway tracks toward the station.",
       "blank_target": "に沿って",
       "wrong_choices": [
-        "に従って",
-        "に基づいて",
-        "にしたがって"
+        "に向かって",
+        "によって",
+        "について"
       ],
       "wrong_choice_explanations": [
-        "'に従って' is 'に従って', but this context requires '〜に沿って' to indicate along.",
-        "'に基づいて' means 'based on', emphasizing foundation, but this context requires '〜に沿って' to indicate along.",
-        "'にしたがって' means 'according to', for following rules/standards, but this context requires '〜に沿って' to indicate along."
+        "に向かって means 'toward/heading for' and shows direction to a destination, but this sentence describes walking alongside the tracks rather than directly toward them.",
+        "によって means 'by means of/due to' and shows method or cause, which doesn't describe the path of walking alongside railway tracks.",
+        "について means 'about/concerning' and is used for topics of discussion, not for describing physical movement along a path."
+      ]
+    },
+    {
+      "id": "n2_010_10",
+      "example_sentence": "研究計画に沿って、実験が段階的に実施されている。",
+      "translation": "Experiments are being conducted step by step in line with the research plan.",
+      "blank_target": "に沿って",
+      "wrong_choices": [
+        "に基づいて",
+        "に対して",
+        "によると"
+      ],
+      "wrong_choice_explanations": [
+        "に基づいて means 'based on' and emphasizes using something as a foundation, but here experiments are following the planned sequence rather than being derived from it.",
+        "に対して means 'toward/against' and shows direction or stance, which doesn't fit the context of conducting experiments according to a planned sequence.",
+        "によると means 'according to' and is used for reporting information sources, not for conducting experiments in alignment with a research plan."
       ]
     }
   ]

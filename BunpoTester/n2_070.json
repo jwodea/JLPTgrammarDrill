@@ -5,9 +5,9 @@
   "level": "N2",
   "exercises": [
     {
-      "id": "n2_070_10",
+      "id": "n2_070_1",
       "example_sentence": "二十年にわたる収集の成果が展示されている。",
-      "translation": "Twenty years of collecting efforts are displayed.",
+      "translation": "The results of twenty years of collecting are being displayed.",
       "blank_target": "にわたる",
       "wrong_choices": [
         "にかけての",
@@ -15,73 +15,153 @@
         "をかけた"
       ],
       "wrong_choice_explanations": [
-        "にかけての means 'にかけての', which is used in different context, but this sentence requires にわたる ('にわたる') for its specific context.",
-        "にわたって means 'にわたって', which is used in different context, but this sentence requires にわたる ('にわたる') for its specific context.",
-        "をかけた means 'をかけた', which is used in different context, but this sentence requires にわたる ('にわたる') for its specific context."
+        "にかけての means 'toward/leading up to' and cannot modify 収集 directly in this attributive usage.",
+        "にわたって is the adverbial form meaning 'over/throughout', but here we need the attributive form にわたる to modify 収集.",
+        "をかけた means 'spent (time/effort)' but cannot be used with time periods like 二十年 in this construction."
+      ]
+    },
+    {
+      "id": "n2_070_2",
+      "example_sentence": "十年にわたる歴史的な調査の結果が公表された。",
+      "translation": "The results of historical research spanning ten years were announced.",
+      "blank_target": "にわたる",
+      "wrong_choices": [
+        "にかけての",
+        "にわたって",
+        "での"
+      ],
+      "wrong_choice_explanations": [
+        "にかけての indicates 'toward/leading up to' but doesn't express duration spanning over time like にわたる does.",
+        "にわたって is the adverbial form used to modify verbs, but here we need にわたる to modify the noun 調査.",
+        "での simply means 'with/at' and doesn't convey the meaning of duration spanning over ten years."
+      ]
+    },
+    {
+      "id": "n2_070_3",
+      "example_sentence": "数年にわたる交渉の末、合意に至った。",
+      "translation": "After negotiations spanning several years, an agreement was reached.",
+      "blank_target": "にわたる",
+      "wrong_choices": [
+        "にかけての",
+        "にわたって",
+        "間の"
+      ],
+      "wrong_choice_explanations": [
+        "にかけての expresses 'toward/leading up to' but doesn't indicate the duration of the negotiations themselves.",
+        "にわたって is adverbial and would modify the verb, but here we need にわたる to modify 交渉 attributively.",
+        "間の means 'during/between' but doesn't emphasize the continuous spanning nature that にわたる conveys."
+      ]
+    },
+    {
+      "id": "n2_070_4",
+      "example_sentence": "五年にわたる研究開発の成果が実用化された。",
+      "translation": "The results of research and development spanning five years were put to practical use.",
+      "blank_target": "にわたる",
+      "wrong_choices": [
+        "をかけた",
+        "にわたって",
+        "における"
+      ],
+      "wrong_choice_explanations": [
+        "をかけた means 'spent (time/effort on)' but cannot directly follow time periods like 五年 in this construction.",
+        "にわたって is the adverbial form that modifies verbs, but here we need にわたる to modify 研究開発 attributively.",
+        "における means 'in/at' and indicates location or circumstances, not duration spanning over time."
+      ]
+    },
+    {
+      "id": "n2_070_5",
+      "example_sentence": "十年にわたる継続研究の成果が集大成された。",
+      "translation": "The results of continuous research spanning ten years were compiled.",
+      "blank_target": "にわたる",
+      "wrong_choices": [
+        "にかけての",
+        "間での",
+        "による"
+      ],
+      "wrong_choice_explanations": [
+        "にかけての indicates 'toward/leading up to' but doesn't express the continuous duration that にわたる conveys.",
+        "間での means 'during/within' but lacks the sense of continuous spanning that にわたる provides.",
+        "による means 'by means of/due to' and indicates causation or method, not duration over time."
       ]
     },
     {
       "id": "n2_070_6",
-      "example_sentence": "十年にわたる歴史的な調査の結果が公表された。",
-      "translation": "The results of research spanning ten years were announced.",
+      "example_sentence": "三世代にわたる家族経営の店が閉店することになった。",
+      "translation": "A family-run shop spanning three generations will be closing down.",
       "blank_target": "にわたる",
       "wrong_choices": [
-        "にかけての",
         "にわたって",
-        "をかけた"
+        "を通じた",
+        "にかけての"
       ],
       "wrong_choice_explanations": [
-        "'にかけての' has a different grammatical function or nuance than '〜にわたる'.",
-        "'にわたって' has a different grammatical function or nuance than '〜にわたる'.",
-        "'をかけた' has a different grammatical function or nuance than '〜にわたる'."
+        "にわたって is adverbial and modifies verbs, but here we need にわたる to modify 家族経営 attributively.",
+        "を通じた means 'through/via' and indicates means or method, not continuous spanning over generations.",
+        "にかけての indicates 'toward/leading up to' but doesn't express the continuous inheritance across generations."
       ]
     },
     {
       "id": "n2_070_7",
-      "example_sentence": "数年にわたる交渉の末、合意に至った。",
-      "translation": "The authorship of that artwork continues to be debated.",
+      "example_sentence": "全国にわたる調査により、実態が明らかになった。",
+      "translation": "A survey spanning the entire country revealed the actual situation.",
       "blank_target": "にわたる",
       "wrong_choices": [
-        "にかけての",
+        "における",
         "にわたって",
-        "をかけた"
+        "での"
       ],
       "wrong_choice_explanations": [
-        "にかけての indicates alternatives, but this sentence needs 〜にわたる to convey spanning / extending over (attributive form — modifying a noun).",
-        "にわたって does not convey the meaning of 〜にわたる required in this context: spanning / extending over (attributive form — modifying a noun).",
-        "をかけた indicates alternatives, but this sentence needs 〜にわたる to convey spanning / extending over (attributive form — modifying a noun)."
+        "における means 'in/at' and indicates location, but doesn't convey the extensive coverage that にわたる expresses.",
+        "にわたって is adverbial and would modify the verb, but here we need にわたる to modify 調査 attributively.",
+        "での simply means 'at/in' and doesn't express the comprehensive scope across the entire country."
       ]
     },
     {
       "id": "n2_070_8",
-      "example_sentence": "五年にわたる研究開発の成果が実用化された。",
-      "translation": "Five years of research and development results were commercialized.",
+      "example_sentence": "数か月にわたる治療の効果が現れ始めた。",
+      "translation": "The effects of treatment spanning several months began to appear.",
       "blank_target": "にわたる",
       "wrong_choices": [
-        "にかけての",
+        "間の",
         "にわたって",
         "をかけた"
       ],
       "wrong_choice_explanations": [
-        "While にかけての is a valid grammar pattern, it doesn't convey the same meaning as 〜にわたる and doesn't fit this sentence context.",
-        "While にわたって is a valid grammar pattern, it doesn't convey the same meaning as 〜にわたる and doesn't fit this sentence context.",
-        "While をかけた is a valid grammar pattern, it doesn't convey the same meaning as 〜にわたる and doesn't fit this sentence context."
+        "間の means 'during/between' but doesn't emphasize the continuous nature of the treatment like にわたる does.",
+        "にわたって is the adverbial form that modifies verbs, but here we need にわたる to modify 治療 attributively.",
+        "をかけた means 'spent (time/effort on)' but cannot directly follow time periods like 数か月 in this construction."
       ]
     },
     {
       "id": "n2_070_9",
-      "example_sentence": "十年にわたる継続研究の成果が集大成された。",
-      "translation": "Decades of ongoing research results were compiled.",
+      "example_sentence": "八時間にわたる手術が無事終了した。",
+      "translation": "The surgery spanning eight hours ended successfully.",
       "blank_target": "にわたる",
       "wrong_choices": [
         "にかけての",
         "にわたって",
-        "をかけた"
+        "の間の"
       ],
       "wrong_choice_explanations": [
-        "'にかけての' is 'にかけての', but this context requires '〜にわたる' to indicate spanning.",
-        "'にわたって' is 'にわたって', but this context requires '〜にわたる' to indicate spanning.",
-        "'をかけた' is 'をかけた', but this context requires '〜にわたる' to indicate spanning."
+        "にかけての indicates 'toward/leading up to' but doesn't express the continuous duration of the surgery.",
+        "にわたって is adverbial and modifies verbs, but here we need にわたる to modify 手術 attributively.",
+        "の間の means 'during/between' but is redundant with の and doesn't convey the spanning nature as clearly as にわたる."
+      ]
+    },
+    {
+      "id": "n2_070_10",
+      "example_sentence": "広範囲にわたる被害の復旧作業が始まった。",
+      "translation": "Recovery work for damage spanning a wide area has begun.",
+      "blank_target": "にわたる",
+      "wrong_choices": [
+        "における",
+        "にわたって",
+        "での"
+      ],
+      "wrong_choice_explanations": [
+        "における means 'in/at' and indicates location, but doesn't express the extensive scope that にわたる conveys.",
+        "にわたって is the adverbial form that modifies verbs, but here we need にわたる to modify 被害 attributively.",
+        "での means 'at/in' and indicates location, but doesn't emphasize the widespread extent like にわたる does."
       ]
     }
   ]

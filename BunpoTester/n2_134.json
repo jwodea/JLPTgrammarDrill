@@ -15,73 +15,153 @@
         "にもかかわらず"
       ],
       "wrong_choice_explanations": [
-        "This pattern does not convey the same meaning as '〜にかかわらず' (regardless of / no matter (slightly more formal than を問わず)) needed in this context.",
-        "This pattern does not convey the same meaning as '〜にかかわらず' (regardless of / no matter (slightly more formal than を問わず)) needed in this context.",
-        "This pattern does not convey the same meaning as '〜にかかわらず' (regardless of / no matter (slightly more formal than を問わず)) needed in this context."
+        "を問わず also means 'regardless of' but is less formal than にかかわらず and doesn't fit the formal tone of this announcement.",
+        "に限らず means 'not limited to' or 'not only', which doesn't convey the meaning of 'regardless of' needed here.",
+        "にもかかわらず means 'in spite of/despite' and would require the sentence to have a contrasting result, not just stating a fact."
       ]
     },
     {
       "id": "n2_134_2",
-      "example_sentence": "個人の意見にかかわらず、決定は変わらない。",
-      "translation": "The decision does not change regardless of individual opinions.",
+      "example_sentence": "年齢にかかわらず、誰でも参加できます。",
+      "translation": "Anyone can participate regardless of age.",
       "blank_target": "にかかわらず",
       "wrong_choices": [
-        "を問わず",
-        "に限らず",
-        "にもかかわらず"
+        "によって",
+        "について",
+        "に関して"
       ],
       "wrong_choice_explanations": [
-        "を問わず has a different grammatical function and doesn't fit the context of this sentence where にかかわらず is required.",
-        "に限らず has a different grammatical function and doesn't fit the context of this sentence where にかかわらず is required.",
-        "にもかかわらず has a different grammatical function and doesn't fit the context of this sentence where にかかわらず is required."
+        "によって indicates causation or dependence, but here we need to express independence from age.",
+        "について means 'about/concerning' and doesn't express the 'regardless of' meaning needed in this context.",
+        "に関して means 'regarding/concerning' and doesn't convey the dismissive 'regardless of' nuance required here."
       ]
     },
     {
       "id": "n2_134_3",
-      "example_sentence": "過去にかかわらず、誰もが新しいチャンスを得られる。",
-      "translation": "Everyone can get a new chance regardless of the past.",
+      "example_sentence": "経験にかかわらず、新人研修を受けてください。",
+      "translation": "Please attend the new employee training regardless of experience.",
       "blank_target": "にかかわらず",
       "wrong_choices": [
-        "を問わず",
-        "に限らず",
-        "にもかかわらず"
+        "に応じて",
+        "次第で",
+        "によると"
       ],
       "wrong_choice_explanations": [
-        "を問わず regardless of / without regard to, but 〜にかかわらず is needed to express the specific meaning required in this sentence.",
-        "に限らず not limited to / not only, but 〜にかかわらず is needed to express the specific meaning required in this sentence.",
-        "にもかかわらず means in spite of / regardless, but 〜にかかわらず has a specific meaning, which is what this sentence requires."
+        "に応じて means 'according to/depending on', which is the opposite of 'regardless of' - it would make training dependent on experience.",
+        "次第で means 'depending on' and would contradict the meaning that everyone must attend training regardless of their background.",
+        "によると means 'according to' and is used for citing sources or information, not expressing independence from a condition."
       ]
     },
     {
       "id": "n2_134_4",
-      "example_sentence": "季節にかかわらず、営業しています。",
-      "translation": "We are open regardless of the season.",
+      "example_sentence": "国籍にかかわらず、平等に扱われるべきだ。",
+      "translation": "People should be treated equally regardless of nationality.",
       "blank_target": "にかかわらず",
       "wrong_choices": [
         "を問わず",
-        "に限らず",
-        "にもかかわらず"
+        "にしたがって",
+        "をもとに"
       ],
       "wrong_choice_explanations": [
-        "を問わず has a different grammatical function that doesn't fit this sentence context.",
-        "に限らず has a different grammatical function that doesn't fit this sentence context.",
-        "にもかかわらず has a different grammatical function that doesn't fit this sentence context."
+        "を問わず also means 'regardless of' but is less formal and doesn't match the serious, official tone of this statement about equality.",
+        "にしたがって means 'according to/following' and would suggest treatment varies by nationality, opposite of the intended meaning.",
+        "をもとに means 'based on' and would imply that nationality is used as a basis for treatment, contradicting the equality message."
       ]
     },
     {
       "id": "n2_134_5",
-      "example_sentence": "経済状況にかかわらず、給料は同じだ。",
-      "translation": "The salary is the same regardless of economic conditions.",
+      "example_sentence": "結果にかかわらず、最善を尽くしましょう。",
+      "translation": "Let's do our best regardless of the results.",
+      "blank_target": "にかかわらず",
+      "wrong_choices": [
+        "にもかかわらず",
+        "に対して",
+        "のために"
+      ],
+      "wrong_choice_explanations": [
+        "にもかかわらず means 'despite/in spite of' and would imply the results are already known and unfavorable, changing the meaning entirely.",
+        "に対して means 'toward/against' and doesn't express the independence from results that にかかわらず conveys.",
+        "のために means 'for the sake of' and would suggest doing one's best to achieve certain results, opposite of the intended meaning."
+      ]
+    },
+    {
+      "id": "n2_134_6",
+      "example_sentence": "性別にかかわらず、同じ仕事には同じ給料を払うべきだ。",
+      "translation": "The same salary should be paid for the same work regardless of gender.",
+      "blank_target": "にかかわらず",
+      "wrong_choices": [
+        "によって",
+        "を基準に",
+        "を考慮して"
+      ],
+      "wrong_choice_explanations": [
+        "によって indicates that salary is determined by gender, which contradicts the equal pay principle being expressed.",
+        "を基準に means 'based on' and would suggest gender is used as a criterion for salary, opposite of the intended meaning.",
+        "を考慮して means 'taking into consideration' and implies gender is factored into salary decisions, contradicting the equality message."
+      ]
+    },
+    {
+      "id": "n2_134_7",
+      "example_sentence": "理由にかかわらず、遅刻は許されません。",
+      "translation": "Lateness is not allowed regardless of the reason.",
+      "blank_target": "にかかわらず",
+      "wrong_choices": [
+        "によっては",
+        "に限って",
+        "を除いて"
+      ],
+      "wrong_choice_explanations": [
+        "によっては means 'depending on' and would suggest some reasons might excuse lateness, contradicting the strict policy stated.",
+        "に限って means 'only when' or 'limited to' and doesn't convey the universal application needed here.",
+        "を除いて means 'except for' and would imply there are exceptions to the lateness rule, opposite of the intended strict policy."
+      ]
+    },
+    {
+      "id": "n2_134_8",
+      "example_sentence": "出身地にかかわらず、みんなで協力しましょう。",
+      "translation": "Let's all cooperate regardless of where we're from.",
       "blank_target": "にかかわらず",
       "wrong_choices": [
         "を問わず",
-        "に限らず",
-        "にもかかわらず"
+        "に基づいて",
+        "ごとに"
       ],
       "wrong_choice_explanations": [
-        "〜を問わず is also used; slightly different nuance.",
-        "〜に限らず extends beyond; doesn't convey 'regardless'.",
-        "〜にもかかわらず adds 'in spite of'; different structure."
+        "を問わず also means 'regardless of' but is less formal and doesn't fit the encouraging, inclusive tone of this statement.",
+        "に基づいて means 'based on' and would suggest cooperation varies by origin, contradicting the unity message.",
+        "ごとに means 'for each' or 'every' and would imply separate cooperation by region rather than unified cooperation."
+      ]
+    },
+    {
+      "id": "n2_134_9",
+      "example_sentence": "価格にかかわらず、品質を重視する方針です。",
+      "translation": "Our policy is to prioritize quality regardless of price.",
+      "blank_target": "にかかわらず",
+      "wrong_choices": [
+        "に比例して",
+        "に応じて",
+        "によって"
+      ],
+      "wrong_choice_explanations": [
+        "に比例して means 'in proportion to' and would suggest quality varies with price, contradicting the policy of consistent quality.",
+        "に応じて means 'according to/depending on' and would imply quality changes based on price, opposite of the stated policy.",
+        "によって indicates that quality is determined by price, which contradicts the policy of maintaining quality standards regardless of cost."
+      ]
+    },
+    {
+      "id": "n2_134_10",
+      "example_sentence": "学歴にかかわらず、能力で評価します。",
+      "translation": "We evaluate based on ability regardless of educational background.",
+      "blank_target": "にかかわらず",
+      "wrong_choices": [
+        "を重視して",
+        "に従って",
+        "を条件に"
+      ],
+      "wrong_choice_explanations": [
+        "を重視して means 'emphasizing/valuing' and would suggest educational background is important for evaluation, opposite of the intended meaning.",
+        "に従って means 'according to/following' and would indicate evaluation follows educational background, contradicting the merit-based approach.",
+        "を条件に means 'on the condition of' and would make educational background a requirement for evaluation, opposite of the inclusive policy stated."
       ]
     }
   ]

@@ -15,25 +15,9 @@
         "にもかかわらず"
       ],
       "wrong_choice_explanations": [
-        "This pattern does not convey the same meaning as '〜ながらも' (even though / despite (contrast, slightly softer than ものの)) needed in this context.",
-        "This pattern does not convey the same meaning as '〜ながらも' (even though / despite (contrast, slightly softer than ものの)) needed in this context.",
-        "This pattern does not convey the same meaning as '〜ながらも' (even though / despite (contrast, slightly softer than ものの)) needed in this context."
-      ]
-    },
-    {
-      "id": "n2_025_10",
-      "example_sentence": "規模は小さいながらも、このギャラリーは評判が良い。",
-      "translation": "Though modest in size, this gallery has a good reputation.",
-      "blank_target": "ながらも",
-      "wrong_choices": [
-        "ものの",
-        "つつも",
-        "にもかかわらず"
-      ],
-      "wrong_choice_explanations": [
-        "ものの means 'ものの', which is used in different context, but this sentence requires ながらも ('ながらも') for its specific context.",
-        "つつも means 'つつも', which is used in different context, but this sentence requires ながらも ('ながらも') for its specific context.",
-        "にもかかわらず means 'にもかかわらず', which is used in different context, but this sentence requires ながらも ('ながらも') for its specific context."
+        "ものの is also contrastive but more formal and direct; ながらも provides a gentler contrast that better fits this casual apartment description.",
+        "つつも means 'while doing' and requires ongoing actions; this sentence describes a state, not an ongoing action.",
+        "にもかかわらず is very formal and emphatic; too strong for this simple description of an apartment's characteristics."
       ]
     },
     {
@@ -43,13 +27,13 @@
       "blank_target": "ながらも",
       "wrong_choices": [
         "ものの",
-        "つつも",
+        "くせに",
         "にもかかわらず"
       ],
       "wrong_choice_explanations": [
-        "ものの has a different grammatical function and doesn't fit the context of this sentence where ながらも is required.",
-        "つつも has a different grammatical function and doesn't fit the context of this sentence where ながらも is required.",
-        "にもかかわらず has a different grammatical function and doesn't fit the context of this sentence where ながらも is required."
+        "ものの would work grammatically but sounds more direct; ながらも provides a softer, more modest tone appropriate for describing one's own achievements.",
+        "くせに carries negative criticism and blame; inappropriate when positively describing someone's achievement despite limitations.",
+        "にもかかわらず is overly formal for this personal statement about one's own results."
       ]
     },
     {
@@ -59,13 +43,13 @@
       "blank_target": "ながらも",
       "wrong_choices": [
         "ものの",
-        "つつも",
-        "にもかかわらず"
+        "とはいえ",
+        "だが"
       ],
       "wrong_choice_explanations": [
-        "ものの has a different grammatical function, but 〜ながらも is needed to express the specific meaning required in this sentence.",
-        "つつも while at the same time / despite, but 〜ながらも is needed to express the specific meaning required in this sentence.",
-        "にもかかわらず means in spite of / regardless, but 〜ながらも has a specific meaning, which is what this sentence requires."
+        "ものの would be grammatically correct but lacks the gentle acknowledgment that ながらも provides when praising something's effectiveness.",
+        "とはいえ means 'having said that' and requires a preceding statement; it cannot directly connect to an adjective like シンプル.",
+        "だが is a simple conjunction meaning 'but' and cannot be attached directly to adjectives; it needs to start a new clause."
       ]
     },
     {
@@ -75,29 +59,29 @@
       "blank_target": "ながらも",
       "wrong_choices": [
         "ものの",
-        "つつも",
-        "にもかかわらず"
+        "けれど",
+        "のに"
       ],
       "wrong_choice_explanations": [
-        "ものの has a different grammatical function that doesn't fit this sentence context.",
-        "つつも has a different grammatical function that doesn't fit this sentence context.",
-        "にもかかわらず has a different grammatical function that doesn't fit this sentence context."
+        "ものの would work but sounds more matter-of-fact; ながらも better conveys appreciation for the building's age as giving it character.",
+        "けれど is a casual conjunction that starts new sentences or clauses; it cannot attach directly to adjectives like 古い.",
+        "のに expresses disappointment or complaint; inappropriate when positively describing a building's character."
       ]
     },
     {
       "id": "n2_025_5",
       "example_sentence": "予算が限られているながらも、質の高い製品を開発した。",
-      "translation": "Despite limited budget, we developed a high-quality product.",
+      "translation": "Despite having a limited budget, we developed a high-quality product.",
       "blank_target": "ながらも",
       "wrong_choices": [
         "ものの",
-        "つつも",
-        "にもかかわらず"
+        "のに",
+        "けれども"
       ],
       "wrong_choice_explanations": [
-        "〜ものの is also contrastive; different from the softer ながらも.",
-        "〜つつも is more emphatic; ながらも is softer contrast.",
-        "〜にもかかわらず is formal; doesn't convey the nuanced contrast."
+        "ものの would be correct but more direct; ながらも provides a softer tone that better acknowledges the constraint while celebrating the achievement.",
+        "のに typically expresses frustration or unexpectedness; this sentence celebrates an achievement, not complaining about constraints.",
+        "けれども cannot attach to ている form directly; it would need to start a new clause."
       ]
     },
     {
@@ -107,29 +91,29 @@
       "blank_target": "ながらも",
       "wrong_choices": [
         "ものの",
-        "つつも",
-        "にもかかわらず"
+        "だけに",
+        "にしては"
       ],
       "wrong_choice_explanations": [
-        "'ものの' has a different grammatical function or nuance than '〜ながらも'.",
-        "'つつも' has a different grammatical function or nuance than '〜ながらも'.",
-        "'にもかかわらず' has a different grammatical function or nuance than '〜ながらも'."
+        "ものの would work grammatically but is more direct; ながらも provides a gentler way to acknowledge the organization's modest size while praising its impact.",
+        "だけに means 'precisely because' and would suggest the impact is due to being small-scale, which contradicts the intended meaning.",
+        "にしては means 'for/considering' and would suggest the impact is appropriate for its size, not that it's impressive despite its size."
       ]
     },
     {
       "id": "n2_025_7",
       "example_sentence": "地方の町ながらも、文化的な活動が活発だ。",
-      "translation": "Though small, this local town has vibrant cultural activities.",
+      "translation": "Though it's a rural town, cultural activities are vibrant there.",
       "blank_target": "ながらも",
       "wrong_choices": [
         "ものの",
-        "つつも",
-        "にもかかわらず"
+        "なのに",
+        "にしては"
       ],
       "wrong_choice_explanations": [
-        "ものの does not convey the meaning of 〜ながらも required in this context: even though / despite (contrast, slightly softer than ものの).",
-        "つつも does not convey the meaning of 〜ながらも required in this context: even though / despite (contrast, slightly softer than ものの).",
-        "にもかかわらず indicates alternatives, but this sentence needs 〜ながらも to convey even though / despite (contrast, slightly softer than ものの)."
+        "ものの would be grammatically correct but more matter-of-fact; ながらも provides a gentler acknowledgment of the town's rural nature while praising its cultural life.",
+        "なのに expresses surprise or complaint; inappropriate when positively describing cultural vibrancy in a rural area.",
+        "にしては would suggest the cultural activities are good 'for a rural town,' implying lowered expectations rather than genuine surprise."
       ]
     },
     {
@@ -139,29 +123,45 @@
       "blank_target": "ながらも",
       "wrong_choices": [
         "ものの",
-        "つつも",
-        "にもかかわらず"
+        "わりに",
+        "くせに"
       ],
       "wrong_choice_explanations": [
-        "While ものの is a valid grammar pattern, it doesn't convey the same meaning as 〜ながらも and doesn't fit this sentence context.",
-        "While つつも is a valid grammar pattern, it doesn't convey the same meaning as 〜ながらも and doesn't fit this sentence context.",
-        "While にもかかわらず is a valid grammar pattern, it doesn't convey the same meaning as 〜ながらも and doesn't fit this sentence context."
+        "ものの would work but sounds more direct; ながらも provides a softer acknowledgment of the company's size while highlighting its innovation.",
+        "わりに means 'considering/for' and would suggest the innovation is reasonable for its size, not impressive despite its size.",
+        "くせに carries negative criticism; completely inappropriate when praising a startup's innovation."
       ]
     },
     {
       "id": "n2_025_9",
-      "example_sentence": "分野は小さいながらも、重要な研究テーマである。",
-      "translation": "Though small, this research area is important.",
+      "example_sentence": "若いながらも、彼は優秀な研究者だ。",
+      "translation": "Though young, he is an excellent researcher.",
       "blank_target": "ながらも",
       "wrong_choices": [
         "ものの",
-        "つつも",
-        "にもかかわらず"
+        "にしては",
+        "なのに"
       ],
       "wrong_choice_explanations": [
-        "'ものの' is 'ものの', but this context requires '〜ながらも' to indicate even though.",
-        "'つつも' is 'つつも', but this context requires '〜ながらも' to indicate even though.",
-        "'にもかかわらず' is 'にもかかわらず', but this context requires '〜ながらも' to indicate even though."
+        "ものの would be grammatically correct but more direct; ながらも provides a gentler way to acknowledge youth while praising ability.",
+        "にしては would suggest he's good 'for someone young,' implying lowered expectations rather than genuine recognition of excellence.",
+        "なのに typically expresses complaint or unexpectedness; inappropriate when praising someone's research abilities."
+      ]
+    },
+    {
+      "id": "n2_025_10",
+      "example_sentence": "短時間ながらも、有意義な会議だった。",
+      "translation": "Though brief, it was a meaningful meeting.",
+      "blank_target": "ながらも",
+      "wrong_choices": [
+        "ものの",
+        "にしては",
+        "だけに"
+      ],
+      "wrong_choice_explanations": [
+        "ものの would work grammatically but is more matter-of-fact; ながらも provides a gentler acknowledgment of the time constraint while appreciating the meeting's value.",
+        "にしては would suggest it was meaningful 'for a short meeting,' implying lowered expectations rather than genuine appreciation.",
+        "だけに means 'precisely because' and would incorrectly suggest the meeting was meaningful because it was short."
       ]
     }
   ]

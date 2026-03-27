@@ -1,0 +1,168 @@
+{
+  "id": "gp_006",
+  "pattern": "～へ",
+  "meaning": "Direction (toward)",
+  "level": "N5",
+  "exercises": [
+    {
+      "id": 1,
+      "example_sentence": "学校__行きます。",
+      "translation": "I go to school.",
+      "blank_target": "へ",
+      "wrong_choices": [
+        "で",
+        "を",
+        "に"
+      ],
+      "wrong_choice_explanations": {
+        "で": "で indicates location of action — it doesn't fit here because we need direction toward the destination, not where an action occurs.",
+        "を": "を marks direct objects or departure points — it doesn't fit here because school is the destination, not what we're leaving from.",
+        "に": "に also indicates destination but へ is more appropriate here to emphasize the direction toward school."
+      }
+    },
+    {
+      "id": 2,
+      "example_sentence": "東京__旅行に行きます。",
+      "translation": "I'm going on a trip to Tokyo.",
+      "blank_target": "へ",
+      "wrong_choices": [
+        "で",
+        "を",
+        "が"
+      ],
+      "wrong_choice_explanations": {
+        "で": "で indicates location of action — it doesn't fit here because Tokyo is the destination, not where the action of going occurs.",
+        "を": "を marks direct objects — it doesn't fit here because Tokyo is the destination, not the object of the action.",
+        "が": "が marks the subject — it doesn't fit here because Tokyo is not performing the action but is the destination."
+      }
+    },
+    {
+      "id": 3,
+      "example_sentence": "友達の家__遊びに行きます。",
+      "translation": "I'm going to play at my friend's house.",
+      "blank_target": "へ",
+      "wrong_choices": [
+        "で",
+        "に",
+        "と"
+      ],
+      "wrong_choice_explanations": {
+        "で": "で indicates location of action — it doesn't fit here because we need direction toward the friend's house, not the location of playing.",
+        "に": "に can indicate destination but へ better emphasizes the directional movement toward the friend's house.",
+        "と": "と means 'with' or 'and' — it doesn't fit here because we need to show direction, not companionship."
+      }
+    },
+    {
+      "id": 4,
+      "example_sentence": "駅__向かいます。",
+      "translation": "I head toward the station.",
+      "blank_target": "へ",
+      "wrong_choices": [
+        "に",
+        "を",
+        "で"
+      ],
+      "wrong_choice_explanations": {
+        "に": "に indicates destination but 向かう specifically requires へ to emphasize the directional movement.",
+        "を": "を marks direct objects — it doesn't fit here because station is the destination, not the object being headed.",
+        "で": "で indicates means or location of action — it doesn't fit here because we need to show direction toward the station."
+      }
+    },
+    {
+      "id": 5,
+      "example_sentence": "公園__散歩に行きましょう。",
+      "translation": "Let's go for a walk to the park.",
+      "blank_target": "へ",
+      "wrong_choices": [
+        "で",
+        "を",
+        "が"
+      ],
+      "wrong_choice_explanations": {
+        "で": "で indicates location of action — it doesn't fit here because we need direction toward the park, not the location of walking.",
+        "を": "を marks direct objects or paths — it doesn't fit here because park is the destination, not what we walk through.",
+        "が": "が marks the subject — it doesn't fit here because park is not performing the action but is the destination."
+      }
+    },
+    {
+      "id": 6,
+      "example_sentence": "山__登りに行きます。",
+      "translation": "I'm going to climb the mountain.",
+      "blank_target": "へ",
+      "wrong_choices": [
+        "を",
+        "で",
+        "に"
+      ],
+      "wrong_choice_explanations": {
+        "を": "を can mark the object being climbed but here we need direction toward where we're going to climb.",
+        "で": "で indicates location of action — it doesn't fit here because we need direction toward the mountain, not the location of climbing.",
+        "に": "に indicates destination but へ better emphasizes the directional movement toward the mountain for climbing."
+      }
+    },
+    {
+      "id": 7,
+      "example_sentence": "海外__留学したいです。",
+      "translation": "I want to study abroad.",
+      "blank_target": "へ",
+      "wrong_choices": [
+        "で",
+        "に",
+        "を"
+      ],
+      "wrong_choice_explanations": {
+        "で": "で indicates location of action — it doesn't fit here because we need direction toward overseas, not the location of studying.",
+        "に": "に indicates destination but へ better emphasizes the directional movement toward overseas.",
+        "を": "を marks direct objects — it doesn't fit here because overseas is the destination, not the object of studying."
+      }
+    },
+    {
+      "id": 8,
+      "example_sentence": "北__進んでください。",
+      "translation": "Please proceed toward the north.",
+      "blank_target": "へ",
+      "wrong_choices": [
+        "に",
+        "で",
+        "を"
+      ],
+      "wrong_choice_explanations": {
+        "に": "に indicates destination but 進む with directional words typically uses へ to emphasize movement toward that direction.",
+        "で": "で indicates means or location — it doesn't fit here because north is a direction, not a means or location.",
+        "を": "を marks direct objects — it doesn't fit here because north is a direction, not an object being proceeded."
+      }
+    },
+    {
+      "id": 9,
+      "example_sentence": "病院__お見舞いに行きます。",
+      "translation": "I'm going to visit someone at the hospital.",
+      "blank_target": "へ",
+      "wrong_choices": [
+        "で",
+        "を",
+        "と"
+      ],
+      "wrong_choice_explanations": {
+        "で": "で indicates location of action — it doesn't fit here because we need direction toward the hospital, not the location of visiting.",
+        "を": "を marks direct objects — it doesn't fit here because hospital is the destination, not the object of the action.",
+        "と": "と means 'with' or 'and' — it doesn't fit here because we need to show direction, not accompaniment."
+      }
+    },
+    {
+      "id": 10,
+      "example_sentence": "空港__迎えに行きます。",
+      "translation": "I'm going to pick someone up at the airport.",
+      "blank_target": "へ",
+      "wrong_choices": [
+        "に",
+        "で",
+        "を"
+      ],
+      "wrong_choice_explanations": {
+        "に": "に indicates destination but へ better emphasizes the directional movement toward the airport for pickup.",
+        "で": "で indicates location of action — it doesn't fit here because we need direction toward the airport, not the location of picking up.",
+        "を": "を marks direct objects — it doesn't fit here because airport is the destination, not the object being picked up."
+      }
+    }
+  ]
+}

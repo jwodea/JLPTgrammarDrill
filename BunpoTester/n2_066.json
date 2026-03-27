@@ -5,9 +5,9 @@
   "level": "N2",
   "exercises": [
     {
-      "id": "n2_066_10",
+      "id": "n2_066_1",
       "example_sentence": "ルネサンスは、美術史上最も重要な時期にあたる。",
-      "translation": "The Renaissance represents art history's most crucial period.",
+      "translation": "The Renaissance corresponds to the most important period in art history.",
       "blank_target": "にあたる",
       "wrong_choices": [
         "に相当する",
@@ -15,73 +15,153 @@
         "に該当する"
       ],
       "wrong_choice_explanations": [
-        "に相当する means 'に相当する', which is used in different context, but this sentence requires にあたる ('にあたる') for its specific context.",
-        "にあたって means 'when / at the time of (preparation/important moment)', which is used in important occasions requiring effort, but this sentence requires にあたる ('にあたる') for its specific context.",
-        "に該当する means 'に該当する', which is used in different context, but this sentence requires にあたる ('にあたる') for its specific context."
+        "に相当する means 'is equivalent to' but has a more quantitative nuance, while this sentence needs にあたる to express a qualitative correspondence to a historical period.",
+        "にあたって means 'when/at the time of (preparation)' and is used for important occasions requiring effort, but this sentence describes what something corresponds to, not timing.",
+        "に該当する means 'applies to/falls under' and is used for categories or conditions, but this sentence expresses what period the Renaissance represents in history."
+      ]
+    },
+    {
+      "id": "n2_066_2",
+      "example_sentence": "12月25日は、クリスマスにあたる。",
+      "translation": "December 25th corresponds to Christmas.",
+      "blank_target": "にあたる",
+      "wrong_choices": [
+        "に相当する",
+        "になる",
+        "に該当する"
+      ],
+      "wrong_choice_explanations": [
+        "に相当する implies equivalence in value or amount, but this sentence simply states what date corresponds to which holiday.",
+        "になる means 'becomes' and indicates change or transformation, but this sentence describes a fixed correspondence between a date and holiday.",
+        "に該当する means 'falls under a category' but this sentence expresses direct correspondence between a specific date and event."
+      ]
+    },
+    {
+      "id": "n2_066_3",
+      "example_sentence": "7月4日は、アメリカの独立記念日にあたる。",
+      "translation": "July 4th corresponds to America's Independence Day.",
+      "blank_target": "にあたる",
+      "wrong_choices": [
+        "に当てる",
+        "にあたって",
+        "に相当する"
+      ],
+      "wrong_choice_explanations": [
+        "に当てる means 'to apply/allocate to' and requires an active subject doing the applying, but this sentence describes what a date corresponds to.",
+        "にあたって means 'when/at the time of' and is used for occasions requiring preparation, but this sentence describes correspondence, not timing.",
+        "に相当する implies quantitative equivalence, but this sentence describes the correspondence between a specific date and national holiday."
+      ]
+    },
+    {
+      "id": "n2_066_4",
+      "example_sentence": "4月1日は、新会計年度の開始にあたる。",
+      "translation": "April 1st corresponds to the start of the new fiscal year.",
+      "blank_target": "にあたる",
+      "wrong_choices": [
+        "にあたって",
+        "に該当する",
+        "になる"
+      ],
+      "wrong_choice_explanations": [
+        "にあたって means 'when/at the time of' and emphasizes preparation for an event, but this sentence describes what date corresponds to the fiscal year start.",
+        "に該当する means 'falls under/applies to' and is used for categories or conditions, but this sentence expresses direct correspondence to a specific point in time.",
+        "になる means 'becomes' and indicates transformation, but this sentence describes a fixed correspondence between date and fiscal calendar."
+      ]
+    },
+    {
+      "id": "n2_066_5",
+      "example_sentence": "ノーベル賞の受賞は、学者のキャリアの最高峰にあたる。",
+      "translation": "Winning the Nobel Prize corresponds to the pinnacle of a scholar's career.",
+      "blank_target": "にあたる",
+      "wrong_choices": [
+        "に相当する",
+        "に該当する",
+        "になる"
+      ],
+      "wrong_choice_explanations": [
+        "に相当する suggests quantitative equivalence, but this sentence expresses what the Nobel Prize represents qualitatively in a scholar's career.",
+        "に該当する means 'falls under a category' but this sentence describes what achievement corresponds to the career peak, not categorization.",
+        "になる means 'becomes' and indicates change, but this sentence describes what the Nobel Prize represents, not a transformation process."
       ]
     },
     {
       "id": "n2_066_6",
-      "example_sentence": "12月25日は、クリスマスにあたる。",
-      "translation": "December 25 corresponds to Christmas.",
+      "example_sentence": "今年の売上高は、去年の2倍にあたる。",
+      "translation": "This year's sales correspond to twice last year's amount.",
       "blank_target": "にあたる",
       "wrong_choices": [
         "に相当する",
-        "にあたって",
+        "になる",
         "に該当する"
       ],
       "wrong_choice_explanations": [
-        "'に相当する' has a different grammatical function or nuance than '〜にあたる'.",
-        "'にあたって' has a different grammatical function or nuance than '〜にあたる'.",
-        "'に該当する' has a different grammatical function or nuance than '〜にあたる'."
+        "に相当する could work but is less natural here; にあたる is preferred when stating what something corresponds to in terms of proportion or relation.",
+        "になる means 'becomes' and indicates transformation over time, but this sentence compares current sales to past performance using correspondence.",
+        "に該当する means 'falls under' and is used for categories, but this sentence expresses numerical correspondence between different time periods."
       ]
     },
     {
       "id": "n2_066_7",
-      "example_sentence": "7月4日は、アメリカ独立記念日にあたる。",
-      "translation": "There will be an explanation from the curators when the exhibition opens.",
+      "example_sentence": "彼の行為は、背信行為にあたる。",
+      "translation": "His actions correspond to an act of betrayal.",
       "blank_target": "にあたる",
       "wrong_choices": [
-        "に相当する",
-        "にあたって",
-        "に該当する"
+        "に該当する",
+        "になる",
+        "に当てる"
       ],
       "wrong_choice_explanations": [
-        "に相当する does not convey the meaning of 〜にあたる required in this context: corresponds to / is equivalent to / falls under.",
-        "にあたって does not convey the meaning of 〜にあたる required in this context: corresponds to / is equivalent to / falls under.",
-        "に該当する does not convey the meaning of 〜にあたる required in this context: corresponds to / is equivalent to / falls under."
+        "に該当する means 'falls under/applies to' and focuses on meeting specific criteria, while にあたる expresses what the actions correspond to or represent.",
+        "になる means 'becomes' and indicates transformation, but this sentence describes what his actions correspond to, not a change in state.",
+        "に当てる means 'to apply/allocate' and requires an active subject doing the applying, but this sentence describes what actions correspond to."
       ]
     },
     {
       "id": "n2_066_8",
-      "example_sentence": "4月1日は、会計年度の開始にあたる。",
-      "translation": "April 1 marks the beginning of the accounting year.",
+      "example_sentence": "この問題は、緊急事態にあたる。",
+      "translation": "This problem corresponds to an emergency situation.",
       "blank_target": "にあたる",
       "wrong_choices": [
-        "に相当する",
+        "に該当する",
         "にあたって",
-        "に該当する"
+        "になる"
       ],
       "wrong_choice_explanations": [
-        "While に相当する is a valid grammar pattern, it doesn't convey the same meaning as 〜にあたる and doesn't fit this sentence context.",
-        "にあたって means 'when' or 'at the time of', similar to に際して but emphasizes preparation for a specific task; it doesn't fit this sentence context where 〜にあたる is needed.",
-        "While に該当する is a valid grammar pattern, it doesn't convey the same meaning as 〜にあたる and doesn't fit this sentence context."
+        "に該当する means 'falls under' and emphasizes meeting specific conditions, while にあたる expresses what the problem corresponds to or represents.",
+        "にあたって means 'when/at the time of' and is used for timing with preparation, but this sentence describes what the problem corresponds to, not timing.",
+        "になる means 'becomes' and indicates change, but this sentence describes what the current problem corresponds to, not a transformation."
       ]
     },
     {
       "id": "n2_066_9",
-      "example_sentence": "ノーベル賞の受賞は、学者のキャリアの最高峰にあたる。",
-      "translation": "Winning the Nobel Prize represents the highest point in a scholar's career.",
+      "example_sentence": "この地域は、東京の中心部にあたる。",
+      "translation": "This area corresponds to central Tokyo.",
       "blank_target": "にあたる",
       "wrong_choices": [
         "に相当する",
-        "にあたって",
-        "に該当する"
+        "に該当する",
+        "に当てる"
       ],
       "wrong_choice_explanations": [
-        "'に相当する' is 'に相当する', but this context requires '〜にあたる' to indicate corresponds to.",
-        "'にあたって' means 'at the time of' or 'when undertaking', for important occasions, but this context requires '〜にあたる' to indicate corresponds to.",
-        "'に該当する' is 'に該当する', but this context requires '〜にあたる' to indicate corresponds to."
+        "に相当する implies equivalence in value or scale, but this sentence describes geographical correspondence rather than quantitative equivalence.",
+        "に該当する means 'falls under' and is used for categories or conditions, but this sentence expresses what area corresponds to geographically.",
+        "に当てる means 'to apply/allocate' and requires an active subject, but this sentence describes what area corresponds to a location."
+      ]
+    },
+    {
+      "id": "n2_066_10",
+      "example_sentence": "今回の会議は、年次総会にあたる。",
+      "translation": "This meeting corresponds to the annual general meeting.",
+      "blank_target": "にあたる",
+      "wrong_choices": [
+        "に該当する",
+        "にあたって",
+        "に相当する"
+      ],
+      "wrong_choice_explanations": [
+        "に該当する means 'falls under/applies to' and focuses on meeting criteria, while にあたる expresses what this meeting corresponds to or represents.",
+        "にあたって means 'when/at the time of' and is used for timing with preparation, but this sentence describes what the meeting corresponds to, not timing.",
+        "に相当する suggests equivalence in value or importance, but にあたる is more natural for expressing what event this meeting represents."
       ]
     }
   ]

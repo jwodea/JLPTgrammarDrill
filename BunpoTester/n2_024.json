@@ -10,30 +10,14 @@
       "translation": "Even while opposing it, I respected his decision.",
       "blank_target": "しつつも",
       "wrong_choices": [
-        "しつつ",
-        "しながらも",
-        "したものの"
+        "しながら",
+        "しても",
+        "したが"
       ],
       "wrong_choice_explanations": [
-        "This pattern does not convey the same meaning as '〜つつも' (even while / although (strong contrast, formal)) needed in this context.",
-        "This pattern does not convey the same meaning as '〜つつも' (even while / although (strong contrast, formal)) needed in this context.",
-        "This pattern does not convey the same meaning as '〜つつも' (even while / although (strong contrast, formal)) needed in this context."
-      ]
-    },
-    {
-      "id": "n2_024_10",
-      "example_sentence": "限界を認めつつも、その芸術表現は革新的である。",
-      "translation": "While acknowledging limitations, that artistic expression is innovative.",
-      "blank_target": "つつも",
-      "wrong_choices": [
-        "しつつ",
-        "しながらも",
-        "したものの"
-      ],
-      "wrong_choice_explanations": [
-        "しつつ means 'しつつ', which is used in different context, but this sentence requires つつも ('つつも') for its specific context.",
-        "しながらも means 'しながらも', which is used in different context, but this sentence requires つつも ('つつも') for its specific context.",
-        "したものの means 'したものの', which is used in different context, but this sentence requires つつも ('つつも') for its specific context."
+        "しながら means 'while doing' but lacks the strong contrast nuance of つつも and is less formal.",
+        "しても means 'even if' but is hypothetical, whereas つつも indicates simultaneous actions with contrast.",
+        "したが means 'but/however' and connects past actions, not simultaneous ones like つつも."
       ]
     },
     {
@@ -42,14 +26,14 @@
       "translation": "Even while doubting, I decided to support it.",
       "blank_target": "つつも",
       "wrong_choices": [
-        "しつつ",
-        "しながらも",
-        "したものの"
+        "ながら",
+        "ても",
+        "けれど"
       ],
       "wrong_choice_explanations": [
-        "しつつ has a different grammatical function and doesn't fit the context of this sentence where つつも is required.",
-        "しながらも has a different grammatical function and doesn't fit the context of this sentence where つつも is required.",
-        "したものの has a different grammatical function and doesn't fit the context of this sentence where つつも is required."
+        "ながら indicates simple simultaneous action without the strong contrast meaning of つつも.",
+        "ても creates a hypothetical condition 'even if doubting,' not the actual simultaneous doubt expressed by つつも.",
+        "けれど is a casual conjunction meaning 'but' and cannot attach directly to the verb stem like つつも."
       ]
     },
     {
@@ -58,110 +42,126 @@
       "translation": "Even while feeling anxious, I decided to take on the challenge.",
       "blank_target": "つつも",
       "wrong_choices": [
-        "しつつ",
-        "しながらも",
-        "したものの"
+        "ながらも",
+        "ものの",
+        "くせに"
       ],
       "wrong_choice_explanations": [
-        "しつつ means while / at the same time, but 〜つつも has a specific meaning, which is what this sentence requires.",
-        "しながらも has a different grammatical function, but 〜つつも is needed to express the specific meaning required in this sentence.",
-        "したものの has a different grammatical function, but 〜つつも is needed to express the specific meaning required in this sentence."
+        "ながらも has similar meaning but is less formal than つつも and doesn't carry the same literary weight.",
+        "ものの means 'although' but cannot attach to the verb stem; it requires a past form like 感じたものの.",
+        "くせに expresses criticism or frustration 'despite/in spite of' and has a negative connotation inappropriate here."
       ]
     },
     {
       "id": "n2_024_4",
-      "example_sentence": "懐疑的つつも、新しい試みに参加した。",
-      "translation": "Even while skeptical, I participated in the new attempt.",
+      "example_sentence": "懐疑的でありつつも、新しい試みに参加した。",
+      "translation": "Even while being skeptical, I participated in the new attempt.",
       "blank_target": "つつも",
       "wrong_choices": [
-        "しつつ",
-        "しながらも",
-        "したものの"
+        "あっても",
+        "だが",
+        "なのに"
       ],
       "wrong_choice_explanations": [
-        "しつつ has a different grammatical function that doesn't fit this sentence context.",
-        "しながらも has a different grammatical function that doesn't fit this sentence context.",
-        "したものの has a different grammatical function that doesn't fit this sentence context."
+        "あっても means 'even if there is' and creates a hypothetical condition, not the simultaneous state described by つつも.",
+        "だが is a conjunction meaning 'but/however' that connects separate clauses, not simultaneous actions like つつも.",
+        "なのに means 'despite/even though' but expresses surprise or frustration, while つつも is more neutral and formal."
       ]
     },
     {
       "id": "n2_024_5",
-      "example_sentence": "不同意つつも、説得に応じた。",
-      "translation": "Even while disagreeing, I accepted the persuasion.",
+      "example_sentence": "反発を覚えつつも、規則に従った。",
+      "translation": "Even while feeling resistance, I followed the rules.",
       "blank_target": "つつも",
       "wrong_choices": [
-        "しつつ",
-        "しながらも",
-        "したものの"
+        "たのに",
+        "として",
+        "ばかり"
       ],
       "wrong_choice_explanations": [
-        "〜しつつ lacks the contrast element of つつも.",
-        "〜しながらも is less formal; doesn't convey strong contrast.",
-        "〜したものの is also contrastive but has different nuance."
+        "たのに would require past tense (覚えたのに) and expresses frustration about an unexpected result, not simultaneous actions.",
+        "として means 'as/in the capacity of' and doesn't fit the grammatical structure or meaning needed here.",
+        "ばかり means 'only/just' and doesn't create the contrastive relationship between feeling resistance and following rules."
       ]
     },
     {
       "id": "n2_024_6",
       "example_sentence": "批判を受けつつも、彼は自分の信念を貫いた。",
-      "translation": "Despite receiving criticism, he adhered to his beliefs.",
+      "translation": "Even while receiving criticism, he stuck to his beliefs.",
       "blank_target": "つつも",
       "wrong_choices": [
-        "しつつ",
-        "しながらも",
-        "したものの"
+        "ては",
+        "までも",
+        "として"
       ],
       "wrong_choice_explanations": [
-        "'しつつ' has a different grammatical function or nuance than '〜つつも'.",
-        "'しながらも' has a different grammatical function or nuance than '〜つつも'.",
-        "'したものの' has a different grammatical function or nuance than '〜つつも'."
+        "ては indicates a conditional or repetitive pattern 'if/when receiving criticism' rather than the simultaneous contrast of つつも.",
+        "までも means 'even/as far as' and typically follows nouns, not verbs, making it grammatically incorrect here.",
+        "として means 'as/in the role of' and doesn't create the contrastive meaning between receiving criticism and maintaining beliefs."
       ]
     },
     {
       "id": "n2_024_7",
       "example_sentence": "困難さを認識しつつも、プロジェクトを続行する。",
-      "translation": "We continue the project while acknowledging its difficulties.",
+      "translation": "Even while recognizing the difficulties, we continue the project.",
       "blank_target": "しつつも",
       "wrong_choices": [
-        "しつつ",
-        "しながらも",
-        "したものの"
+        "したうえで",
+        "するため",
+        "について"
       ],
       "wrong_choice_explanations": [
-        "しつつ does not convey the same grammatical meaning as 〜つつも in this context.",
-        "しながらも does not convey the same grammatical meaning as 〜つつも in this context.",
-        "したものの does not convey the same grammatical meaning as 〜つつも in this context."
+        "したうえで means 'after doing/based on' and indicates sequence rather than the simultaneous contrast of つつも.",
+        "するため means 'in order to' and expresses purpose, not the contrasting simultaneous actions shown by つつも.",
+        "について means 'about/concerning' and cannot create the grammatical relationship needed between recognizing and continuing."
       ]
     },
     {
       "id": "n2_024_8",
-      "example_sentence": "必要性を認めつつも、予算配分の見直しを先延ばしにした。",
-      "translation": "We postponed the budget restructuring review while acknowledging its necessity.",
+      "example_sentence": "必要性を認めつつも、予算見直しを先延ばしにした。",
+      "translation": "Even while acknowledging the necessity, we postponed the budget review.",
       "blank_target": "つつも",
       "wrong_choices": [
-        "しつつ",
-        "しながらも",
-        "したものの"
+        "ことで",
+        "ゆえに",
+        "にも"
       ],
       "wrong_choice_explanations": [
-        "While しつつ is a valid grammar pattern, it doesn't convey the same meaning as 〜つつも and doesn't fit this sentence context.",
-        "While しながらも is a valid grammar pattern, it doesn't convey the same meaning as 〜つつも and doesn't fit this sentence context.",
-        "While したものの is a valid grammar pattern, it doesn't convey the same meaning as 〜つつも and doesn't fit this sentence context."
+        "ことで indicates means or method 'by acknowledging' rather than the contrasting simultaneous state expressed by つつも.",
+        "ゆえに means 'because of/due to' and shows causation, opposite to the contrasting relationship shown by つつも.",
+        "にも cannot attach to verb stems and doesn't create the necessary grammatical structure for this sentence."
       ]
     },
     {
       "id": "n2_024_9",
-      "example_sentence": "限界を認識しつつも、その方法論は有効である。",
-      "translation": "While acknowledging limitations, the methodology remains effective.",
-      "blank_target": "しつつも",
+      "example_sentence": "限界を知りつつも、その方法論は有効である。",
+      "translation": "Even while knowing the limitations, that methodology is effective.",
+      "blank_target": "つつも",
       "wrong_choices": [
-        "しつつ",
-        "しながらも",
-        "したものの"
+        "ことに",
+        "からこそ",
+        "わりに"
       ],
       "wrong_choice_explanations": [
-        "'しつつ' is 'しつつ', but this context requires '〜つつも' to indicate even while.",
-        "'しながらも' is 'しながらも', but this context requires '〜つつも' to indicate even while.",
-        "'したものの' is 'したものの', but this context requires '〜つつも' to indicate even while."
+        "ことに expresses emotional response 'surprisingly/fortunately' but cannot attach to verb stems like つつも does.",
+        "からこそ means 'precisely because' and shows causation, opposite to the contrasting relationship of つつも.",
+        "わりに means 'considering/for' and typically follows nouns or na-adjectives, not verb stems, making it grammatically incorrect."
+      ]
+    },
+    {
+      "id": "n2_024_10",
+      "example_sentence": "心配しつつも、子供の独立を見守っている。",
+      "translation": "Even while worrying, I'm watching over my child's independence.",
+      "blank_target": "しつつも",
+      "wrong_choices": [
+        "ばかりで",
+        "ついでに",
+        "おかげで"
+      ],
+      "wrong_choice_explanations": [
+        "ばかりで means 'only doing' and doesn't create the contrasting relationship between worrying and watching over.",
+        "ついでに means 'while at it/incidentally' and suggests convenience rather than the emotional contrast shown by つつも.",
+        "おかげで means 'thanks to' and expresses positive causation, not the contrasting simultaneous actions of つつも."
       ]
     }
   ]

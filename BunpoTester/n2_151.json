@@ -15,63 +15,63 @@
         "なら"
       ],
       "wrong_choice_explanations": [
-        "This pattern does not convey the same meaning as '〜とすれば' (if we assume / supposing that (hypothetical reasoning)) needed in this context.",
-        "This pattern does not convey the same meaning as '〜とすれば' (if we assume / supposing that (hypothetical reasoning)) needed in this context.",
-        "This pattern does not convey the same meaning as '〜とすれば' (if we assume / supposing that (hypothetical reasoning)) needed in this context."
+        "とすると means 'if/when we suppose' but lacks the hypothetical reasoning nuance of とすれば needed for this logical deduction about timing.",
+        "としたら means 'if it were the case that' but is more casual and doesn't convey the formal reasoning aspect required in this context.",
+        "なら is a simple conditional 'if' but lacks the hypothetical assumption meaning needed for this reasoned speculation."
       ]
     },
     {
       "id": "n2_151_2",
       "example_sentence": "計画が成功するとすれば、利益は倍になるだろう。",
-      "translation": "If the plan were to succeed, profits would double.",
+      "translation": "If we assume the plan succeeds, profits would double.",
       "blank_target": "とすれば",
       "wrong_choices": [
         "とすると",
-        "としたら",
-        "なら"
+        "ばあい",
+        "かぎり"
       ],
       "wrong_choice_explanations": [
-        "とすると has a different grammatical function and doesn't fit the context of this sentence where とすれば is required.",
-        "としたら has a different grammatical function and doesn't fit the context of this sentence where とすれば is required.",
-        "なら has a different grammatical function and doesn't fit the context of this sentence where とすれば is required."
+        "とすると implies immediate consequence but doesn't convey the hypothetical reasoning needed for this business projection.",
+        "ばあい means 'in the case of' but lacks the assumptive reasoning nuance required for this hypothetical business scenario.",
+        "かぎり means 'as long as' which expresses limitation rather than the hypothetical assumption needed here."
       ]
     },
     {
       "id": "n2_151_3",
       "example_sentence": "彼女が本気だとすれば、結婚の話も出てくるはずだ。",
-      "translation": "If she were serious, talk of marriage should come up.",
+      "translation": "If we assume she is serious, talk of marriage should come up.",
       "blank_target": "とすれば",
       "wrong_choices": [
-        "とすると",
         "としたら",
-        "なら"
+        "というなら",
+        "ものなら"
       ],
       "wrong_choice_explanations": [
-        "とすると if / when / supposing, but 〜とすれば is needed to express the specific meaning required in this sentence.",
-        "としたら conditional if / when, but 〜とすれば has a specific meaning, which is what this sentence requires.",
-        "なら has a different grammatical function, but 〜とすれば is needed to express the specific meaning required in this sentence."
+        "としたら is a casual conditional but doesn't express the logical reasoning aspect needed for this deduction about her intentions.",
+        "というなら means 'if you say that' but implies reported speech rather than the hypothetical assumption required here.",
+        "ものなら expresses strong doubt or impossibility, which contradicts the reasoned assumption intended in this sentence."
       ]
     },
     {
       "id": "n2_151_4",
       "example_sentence": "天気が持つとすれば、野外イベントは開催できる。",
-      "translation": "If the weather holds, we can hold the outdoor event.",
+      "translation": "If we assume the weather holds, we can hold the outdoor event.",
       "blank_target": "とすれば",
       "wrong_choices": [
-        "とすると",
-        "としたら",
-        "なら"
+        "なら",
+        "かぎりは",
+        "ことがあれば"
       ],
       "wrong_choice_explanations": [
-        "とすると has a different grammatical function that doesn't fit this sentence context.",
-        "としたら has a different grammatical function that doesn't fit this sentence context.",
-        "なら has a different grammatical function that doesn't fit this sentence context."
+        "なら is a simple conditional but lacks the hypothetical reasoning nuance needed for this event planning assumption.",
+        "かぎりは means 'as far as' or 'as long as' but doesn't convey the assumptive reasoning required for this weather scenario.",
+        "ことがあれば means 'if there are times when' but implies occasional occurrence rather than the single hypothetical assumption needed."
       ]
     },
     {
       "id": "n2_151_5",
       "example_sentence": "もし人工知能が発達するとすれば、多くの職業が変わるだろう。",
-      "translation": "If artificial intelligence were to develop, many professions would change.",
+      "translation": "If we assume artificial intelligence develops, many professions would change.",
       "blank_target": "とすれば",
       "wrong_choices": [
         "とすると",
@@ -79,9 +79,89 @@
         "なら"
       ],
       "wrong_choice_explanations": [
-        "〜とすると is similar; slightly different nuance.",
-        "〜としたら is less formal; doesn't convey reasoned hypothesis.",
-        "〜なら is casual conditional; lacks formal reasoning."
+        "とすると implies immediate consequence but doesn't convey the formal hypothetical reasoning needed for this technological prediction.",
+        "としたら is more casual and lacks the formal reasoning aspect required for this serious technological discussion.",
+        "なら is a simple conditional that lacks the hypothetical assumption meaning needed for this reasoned speculation about the future."
+      ]
+    },
+    {
+      "id": "n2_151_6",
+      "example_sentence": "この薬が効果的だとすれば、患者の症状は改善するはずだ。",
+      "translation": "If we assume this medicine is effective, the patient's symptoms should improve.",
+      "blank_target": "とすれば",
+      "wrong_choices": [
+        "であれば",
+        "とすると",
+        "ばあい"
+      ],
+      "wrong_choice_explanations": [
+        "であれば is a formal conditional but lacks the hypothetical assumption nuance needed for this medical reasoning.",
+        "とすると suggests immediate result but doesn't convey the careful hypothetical reasoning required in this medical context.",
+        "ばあい means 'in the case of' but lacks the assumptive reasoning aspect needed for this medical hypothesis."
+      ]
+    },
+    {
+      "id": "n2_151_7",
+      "example_sentence": "彼の話が本当だとすれば、我々の計画を見直す必要がある。",
+      "translation": "If we assume his story is true, we need to reconsider our plans.",
+      "blank_target": "とすれば",
+      "wrong_choices": [
+        "としたら",
+        "というなら",
+        "ものとして"
+      ],
+      "wrong_choice_explanations": [
+        "としたら is casual and doesn't convey the serious hypothetical reasoning needed for this important decision-making context.",
+        "というなら implies 'if you say that' but suggests reported information rather than the reasoned assumption required here.",
+        "ものとして means 'assuming/treating as' but is used differently and doesn't fit the conditional structure of this sentence."
+      ]
+    },
+    {
+      "id": "n2_151_8",
+      "example_sentence": "経済が回復するとすれば、来年は景気が良くなるだろう。",
+      "translation": "If we assume the economy recovers, next year should see good business conditions.",
+      "blank_target": "とすれば",
+      "wrong_choices": [
+        "なら",
+        "かぎり",
+        "とすると"
+      ],
+      "wrong_choice_explanations": [
+        "なら is a basic conditional but lacks the hypothetical reasoning nuance needed for this economic prediction.",
+        "かぎり means 'as long as' which expresses limitation rather than the hypothetical assumption required for this economic analysis.",
+        "とすると implies immediate consequence but doesn't convey the careful hypothetical reasoning needed for this economic forecast."
+      ]
+    },
+    {
+      "id": "n2_151_9",
+      "example_sentence": "新しい技術が実用化されるとすれば、生活は大きく変わるに違いない。",
+      "translation": "If we assume new technology becomes practical, life will surely change greatly.",
+      "blank_target": "とすれば",
+      "wrong_choices": [
+        "ことになれば",
+        "としたら",
+        "であれば"
+      ],
+      "wrong_choice_explanations": [
+        "ことになれば means 'if it comes to pass that' but implies external decision rather than the hypothetical assumption needed here.",
+        "としたら is casual and doesn't convey the formal reasoning aspect required for this technological prediction.",
+        "であれば is formal but lacks the specific hypothetical assumption nuance needed for this reasoned speculation about technology."
+      ]
+    },
+    {
+      "id": "n2_151_10",
+      "example_sentence": "試験に合格するとすれば、来月から新しい仕事が始まる。",
+      "translation": "If we assume I pass the exam, the new job will start next month.",
+      "blank_target": "とすれば",
+      "wrong_choices": [
+        "なら",
+        "とすると",
+        "ば"
+      ],
+      "wrong_choice_explanations": [
+        "なら is a simple conditional but lacks the hypothetical reasoning nuance needed for this assumption about exam results and job prospects.",
+        "とすると suggests immediate result but doesn't convey the reasoned assumption aspect required for this career planning context.",
+        "ば is a basic conditional form but lacks the formal hypothetical assumption meaning needed for this important life decision context."
       ]
     }
   ]

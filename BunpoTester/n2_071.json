@@ -5,9 +5,9 @@
   "level": "N2",
   "exercises": [
     {
-      "id": "n2_071_10",
-      "example_sentence": "その作品の作者帰属をめぐって、議論が続いている。",
-      "translation": "Authorship of that artwork continues being debated.",
+      "id": "n2_071_1",
+      "example_sentence": "その作品の作者帰属をめぐって、専門家の間で議論が続いている。",
+      "translation": "Debate continues among experts concerning the authorship of that artwork.",
       "blank_target": "をめぐって",
       "wrong_choices": [
         "について",
@@ -15,15 +15,79 @@
         "をめぐる"
       ],
       "wrong_choice_explanations": [
-        "について means 'について', which is used in different context, but this sentence requires をめぐって ('をめぐって') for its specific context.",
-        "に関して means 'concerning / regarding', which is used in topic/subject relationship, but this sentence requires をめぐって ('をめぐって') for its specific context.",
-        "をめぐる means 'をめぐる', which is used in different context, but this sentence requires をめぐって ('をめぐって') for its specific context."
+        "について means 'about/concerning' but is neutral and doesn't imply controversy or debate like をめぐって does in this context.",
+        "に関して means 'regarding/concerning' but lacks the nuance of dispute or controversy that をめぐって conveys here.",
+        "をめぐる is the attributive form that modifies nouns, but this sentence needs をめぐって to connect the topic to the main clause."
+      ]
+    },
+    {
+      "id": "n2_071_2",
+      "example_sentence": "その古墳の起源をめぐって、学者たちが激しく論争している。",
+      "translation": "Scholars are engaged in heated debate concerning the origin of that ancient burial mound.",
+      "blank_target": "をめぐって",
+      "wrong_choices": [
+        "によって",
+        "に対して",
+        "にとって"
+      ],
+      "wrong_choice_explanations": [
+        "によって indicates means or agent ('by means of'), which doesn't fit this context about debating a topic.",
+        "に対して means 'toward/against' and is used for attitudes or actions directed at something, not for topics of debate.",
+        "にとって means 'for/to' someone and indicates perspective, but doesn't express the concept of debating around a topic."
+      ]
+    },
+    {
+      "id": "n2_071_3",
+      "example_sentence": "新しい法律案をめぐって、国会で激しい議論が交わされた。",
+      "translation": "Heated debate took place in the Diet concerning the new bill.",
+      "blank_target": "をめぐって",
+      "wrong_choices": [
+        "に基づいて",
+        "に従って",
+        "によると"
+      ],
+      "wrong_choice_explanations": [
+        "に基づいて means 'based on' and indicates using something as a foundation, not debating about it.",
+        "に従って means 'according to/following' and indicates compliance or adherence, not controversy or debate.",
+        "によると means 'according to' and is used to cite sources or information, not to express debate around a topic."
+      ]
+    },
+    {
+      "id": "n2_071_4",
+      "example_sentence": "新製品の発表時期をめぐって、経営陣の間で意見が分かれている。",
+      "translation": "Management is divided in opinion concerning the timing of the new product announcement.",
+      "blank_target": "をめぐって",
+      "wrong_choices": [
+        "を通して",
+        "をもって",
+        "をきっかけに"
+      ],
+      "wrong_choice_explanations": [
+        "を通して means 'through/via' and indicates a means or medium, not a topic of disagreement.",
+        "をもって means 'with/by means of' and indicates using something as a tool or method, not debating about it.",
+        "をきっかけに means 'triggered by/using as an opportunity' and indicates a starting point for action, not ongoing debate."
+      ]
+    },
+    {
+      "id": "n2_071_5",
+      "example_sentence": "その解釈をめぐって、学者たちの間で論争が続いている。",
+      "translation": "Controversy continues among scholars concerning that interpretation.",
+      "blank_target": "をめぐって",
+      "wrong_choices": [
+        "において",
+        "に応じて",
+        "に関連して"
+      ],
+      "wrong_choice_explanations": [
+        "において means 'in/at' and indicates location or field, not the topic of controversy or debate.",
+        "に応じて means 'in response to/according to' and indicates adaptation or correspondence, not debate around a topic.",
+        "に関連して means 'in connection with' and indicates mere relation, lacking the confrontational nuance of をめぐって."
       ]
     },
     {
       "id": "n2_071_6",
-      "example_sentence": "その古墳の起源をめぐって、学者たちが議論している。",
-      "translation": "A dispute arose concerning the origin of that ancient mound.",
+      "example_sentence": "環境問題をめぐって、政府と市民団体が対立している。",
+      "translation": "The government and citizen groups are in conflict over environmental issues.",
       "blank_target": "をめぐって",
       "wrong_choices": [
         "について",
@@ -31,57 +95,73 @@
         "をめぐる"
       ],
       "wrong_choice_explanations": [
-        "'について' has a different grammatical function or nuance than '〜をめぐって'.",
-        "'に関して' has a different grammatical function or nuance than '〜をめぐって'.",
-        "'をめぐる' has a different grammatical function or nuance than '〜をめぐって'."
+        "について means 'about/concerning' but doesn't convey the sense of conflict or confrontation that をめぐって implies.",
+        "に関して means 'regarding/concerning' but lacks the nuance of opposition or dispute that をめぐって carries.",
+        "をめぐる is the attributive form used to modify nouns, but this sentence needs をめぐって to connect the controversial topic to the main clause."
       ]
     },
     {
       "id": "n2_071_7",
-      "example_sentence": "新しい法律案をめぐって、国会で激しい議論がなされた。",
-      "translation": "A rebuttal to the critic's criticism has been published.",
+      "example_sentence": "遺産相続をめぐって、兄弟間で裁判沙汰になった。",
+      "translation": "The siblings ended up in court over the inheritance dispute.",
       "blank_target": "をめぐって",
       "wrong_choices": [
-        "について",
-        "に関して",
-        "をめぐる"
+        "のために",
+        "のせいで",
+        "のおかげで"
       ],
       "wrong_choice_explanations": [
-        "について does not convey the meaning of 〜をめぐって required in this context: concerning / over / surrounding (a controversial or debated topic).",
-        "に関して means 'regarding/concerning,' but this sentence needs 〜をめぐって to indicate concerning / over / surrounding (a controversial or debated topic).",
-        "をめぐる does not convey the meaning of 〜をめぐって required in this context: concerning / over / surrounding (a controversial or debated topic)."
+        "のために means 'for the sake of/in order to' and indicates purpose, not the subject of a dispute.",
+        "のせいで means 'because of/due to' and indicates blame or negative causation, but doesn't express debate around a topic.",
+        "のおかげで means 'thanks to' and indicates positive causation or gratitude, which is inappropriate for a court dispute."
       ]
     },
     {
       "id": "n2_071_8",
-      "example_sentence": "新製品の発表時期をめぐって、経営陣で議論がある。",
-      "translation": "There is debate among management about the new product announcement timing.",
+      "example_sentence": "選手の移籍問題をめぐって、ファンの間で議論が沸騰している。",
+      "translation": "Debate is heating up among fans concerning the player's transfer issue.",
       "blank_target": "をめぐって",
       "wrong_choices": [
-        "について",
-        "に関して",
-        "をめぐる"
+        "に向けて",
+        "に際して",
+        "にあたって"
       ],
       "wrong_choice_explanations": [
-        "While について is a valid grammar pattern, it doesn't convey the same meaning as 〜をめぐって and doesn't fit this sentence context.",
-        "に関して means 'regarding' or 'concerning' (focuses on topic); doesn't indicate the location/context where something exists; it doesn't fit this sentence context where 〜をめぐって is needed.",
-        "While をめぐる is a valid grammar pattern, it doesn't convey the same meaning as 〜をめぐって and doesn't fit this sentence context."
+        "に向けて means 'toward/heading for' and indicates direction or preparation, not debate around a topic.",
+        "に際して means 'on the occasion of' and indicates timing or circumstances, not ongoing controversy.",
+        "にあたって means 'when/upon' and indicates timing of events, but doesn't express debate or dispute about something."
       ]
     },
     {
       "id": "n2_071_9",
-      "example_sentence": "その解釈をめぐって、学者たちの間で論争が続いている。",
-      "translation": "That interpretation remains debated among scholars.",
+      "example_sentence": "教育改革をめぐって、保護者と教師の意見が対立している。",
+      "translation": "Parents and teachers are divided in opinion over educational reform.",
       "blank_target": "をめぐって",
       "wrong_choices": [
+        "に対して",
         "について",
-        "に関して",
-        "をめぐる"
+        "に関して"
       ],
       "wrong_choice_explanations": [
-        "'について' is 'について', but this context requires '〜をめぐって' to indicate concerning.",
-        "'に関して' means 'regarding' or 'concerning', used for general relation, but this context requires '〜をめぐって' to indicate concerning.",
-        "'をめぐる' is 'をめぐる', but this context requires '〜をめぐって' to indicate concerning."
+        "に対して means 'toward/against' and indicates direction of attitude or action, not the topic around which opinions clash.",
+        "について means 'about/concerning' but is neutral and doesn't capture the confrontational aspect that をめぐって conveys.",
+        "に関して means 'regarding/concerning' but lacks the implication of opposing views or controversy that をめぐって suggests."
+      ]
+    },
+    {
+      "id": "n2_071_10",
+      "example_sentence": "新しい条約の締結をめぐって、各国で賛否両論が起こっている。",
+      "translation": "Both pros and cons are emerging in various countries concerning the conclusion of the new treaty.",
+      "blank_target": "をめぐって",
+      "wrong_choices": [
+        "を契機に",
+        "を前提に",
+        "を機に"
+      ],
+      "wrong_choice_explanations": [
+        "を契機に means 'triggered by/taking the opportunity of' and indicates using something as a starting point, not debating about it.",
+        "を前提に means 'on the premise of/assuming' and indicates taking something as a given condition, not as a controversial topic.",
+        "を機に means 'taking the opportunity of' and indicates using an occasion for action, not expressing debate around a topic."
       ]
     }
   ]

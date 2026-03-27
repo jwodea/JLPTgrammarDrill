@@ -1,0 +1,168 @@
+{
+  "id": "gp_053",
+  "pattern": "～だけ",
+  "meaning": "Only / just",
+  "level": "N5",
+  "exercises": [
+    {
+      "id": 1,
+      "example_sentence": "私は日本語__話せます。",
+      "translation": "I can only speak Japanese.",
+      "blank_target": "だけ",
+      "wrong_choices": [
+        "も",
+        "が",
+        "を"
+      ],
+      "wrong_choice_explanations": {
+        "も": "も means 'also/too' — it doesn't fit here because we're limiting to Japanese, not adding to other languages.",
+        "が": "が marks the subject — it doesn't fit here because '日本語' is the object, and we need to express limitation.",
+        "を": "を marks the direct object — it doesn't fit here because we need to express that Japanese is the only language, not just the object."
+      }
+    },
+    {
+      "id": 2,
+      "example_sentence": "お金が千円__あります。",
+      "translation": "I only have 1000 yen.",
+      "blank_target": "だけ",
+      "wrong_choices": [
+        "くらい",
+        "ぐらい",
+        "ごろ"
+      ],
+      "wrong_choice_explanations": {
+        "くらい": "くらい means 'about/approximately' — it doesn't fit here because we're stating the exact amount we have, not approximating.",
+        "ぐらい": "ぐらい means 'about/approximately' — it doesn't fit here because we're emphasizing the limited amount, not approximating.",
+        "ごろ": "ごろ is used for approximate time — it doesn't fit here because we're talking about money, not time."
+      }
+    },
+    {
+      "id": 3,
+      "example_sentence": "今日は家で映画を見る__です。",
+      "translation": "Today I'm just watching movies at home.",
+      "blank_target": "だけ",
+      "wrong_choices": [
+        "ばかり",
+        "から",
+        "ので"
+      ],
+      "wrong_choice_explanations": {
+        "ばかり": "ばかり implies repetitive action — it doesn't fit here because we're talking about a single day's plan, not habitual behavior.",
+        "から": "から means 'from/because' — it doesn't fit here because we're not indicating a starting point or reason.",
+        "ので": "ので means 'because' — it doesn't fit here because we're not giving a reason, just stating what we'll do."
+      }
+    },
+    {
+      "id": 4,
+      "example_sentence": "コーヒー__飲みました。",
+      "translation": "I only drank coffee.",
+      "blank_target": "だけ",
+      "wrong_choices": [
+        "と",
+        "に",
+        "で"
+      ],
+      "wrong_choice_explanations": {
+        "と": "と means 'with/and' — it doesn't fit here because we're not connecting items or indicating accompaniment.",
+        "に": "に indicates direction or time — it doesn't fit here because we're not talking about destination or specific time.",
+        "で": "で indicates means or location — it doesn't fit here because we need to express limitation, not method or place."
+      }
+    },
+    {
+      "id": 5,
+      "example_sentence": "彼は勉強する__で、遊びません。",
+      "translation": "He only studies and doesn't play.",
+      "blank_target": "だけ",
+      "wrong_choices": [
+        "など",
+        "によって",
+        "として"
+      ],
+      "wrong_choice_explanations": {
+        "など": "など means 'such as/etc.' — it doesn't fit here because we're not giving examples, but limiting to studying.",
+        "によって": "によって means 'depending on/by means of' — it doesn't fit here because we're not talking about causation or variation.",
+        "として": "として means 'as/in the capacity of' — it doesn't fit here because we're not talking about roles, but limiting activities."
+      }
+    },
+    {
+      "id": 6,
+      "example_sentence": "この問題は君__解けるよ。",
+      "translation": "Only you can solve this problem.",
+      "blank_target": "だけ",
+      "wrong_choices": [
+        "について",
+        "による",
+        "までに"
+      ],
+      "wrong_choice_explanations": {
+        "について": "について means 'about/concerning' — it doesn't fit here because we're not discussing you as a topic, but limiting who can solve it.",
+        "による": "による means 'due to/according to' — it doesn't fit here because we're not talking about causation.",
+        "までに": "までに means 'by (deadline)' — it doesn't fit here because we're not talking about time limits, but about who can do it."
+      }
+    },
+    {
+      "id": 7,
+      "example_sentence": "パンを一つ__食べました。",
+      "translation": "I ate just one piece of bread.",
+      "blank_target": "だけ",
+      "wrong_choices": [
+        "なのに",
+        "のに",
+        "では"
+      ],
+      "wrong_choice_explanations": {
+        "なのに": "なのに means 'despite/although' — it doesn't fit here because we're not expressing contrast.",
+        "のに": "のに means 'despite/in order to' — it doesn't fit here because we're not expressing contrast or purpose.",
+        "では": "では indicates condition or location — it doesn't fit here because we're talking about quantity, not circumstances or place."
+      }
+    },
+    {
+      "id": 8,
+      "example_sentence": "今は宿題をする__で忙しいです。",
+      "translation": "Right now I'm busy just doing homework.",
+      "blank_target": "だけ",
+      "wrong_choices": [
+        "とは",
+        "なら",
+        "ちょうど"
+      ],
+      "wrong_choice_explanations": {
+        "とは": "とは is used for definitions or contrasts — it doesn't fit here because we're not defining or contrasting.",
+        "なら": "なら means 'if/in the case of' — it doesn't fit here because we're making a statement, not a conditional.",
+        "ちょうど": "ちょうど means 'exactly/just' for time or amount — it doesn't fit here because we need to express limitation of activity."
+      }
+    },
+    {
+      "id": 9,
+      "example_sentence": "水__飲んでください。",
+      "translation": "Please drink only water.",
+      "blank_target": "だけ",
+      "wrong_choices": [
+        "すぐに",
+        "やっと",
+        "まさか"
+      ],
+      "wrong_choice_explanations": {
+        "すぐに": "すぐに means 'immediately' — it doesn't fit here because we're not talking about when to drink, but what to drink.",
+        "やっと": "やっと means 'finally/at last' — it doesn't fit here because we're not expressing that someone waited to drink.",
+        "まさか": "まさか means 'surely not/don't tell me' — it doesn't fit here because we're giving instruction, not expressing disbelief."
+      }
+    },
+    {
+      "id": 10,
+      "example_sentence": "母に電話する__でした。",
+      "translation": "I was just going to call my mother.",
+      "blank_target": "だけ",
+      "wrong_choices": [
+        "しか",
+        "も",
+        "が"
+      ],
+      "wrong_choice_explanations": {
+        "しか": "しか means 'nothing but' and requires negative form — it doesn't fit here because the sentence doesn't end negatively.",
+        "も": "も means 'also/too' — it doesn't fit here because we're limiting the action, not adding to other actions.",
+        "が": "が marks the subject — it doesn't fit here because we need to express that calling mother was the only plan."
+      }
+    }
+  ]
+}

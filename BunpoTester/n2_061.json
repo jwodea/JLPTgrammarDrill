@@ -5,9 +5,9 @@
   "level": "N2",
   "exercises": [
     {
-      "id": "n2_061_10",
+      "id": "n2_061_01",
       "example_sentence": "その展覧会をきっかけに、彼の人生は変わった。",
-      "translation": "That exhibition became a turning point in his life.",
+      "translation": "That exhibition became a turning point that changed his life.",
       "blank_target": "をきっかけに",
       "wrong_choices": [
         "を機に",
@@ -15,73 +15,153 @@
         "によって"
       ],
       "wrong_choice_explanations": [
-        "を機に means 'を機に', which is used in different context, but this sentence requires をきっかけに ('をきっかけに') for its specific context.",
-        "をもとに means 'をもとに', which is used in different context, but this sentence requires をきっかけに ('をきっかけに') for its specific context.",
-        "によって means 'によって', which is used in different context, but this sentence requires をきっかけに ('をきっかけに') for its specific context."
+        "を機に means 'taking the opportunity of' but is more formal and typically used for planned actions, not life-changing events that happen as a result.",
+        "をもとに means 'based on' or 'using as a foundation' for creating something, but doesn't express the catalyst meaning needed here.",
+        "によって means 'by means of' or 'due to' but doesn't capture the turning point nuance that をきっかけに expresses."
       ]
     },
     {
-      "id": "n2_061_6",
+      "id": "n2_061_02",
       "example_sentence": "あの事件をきっかけに、法律が改正された。",
-      "translation": "This illness became a turning point, and I reformed my lifestyle habits.",
+      "translation": "That incident became the catalyst for legal reforms.",
       "blank_target": "をきっかけに",
       "wrong_choices": [
-        "を機に",
-        "をもとに",
-        "によって"
+        "により",
+        "について",
+        "に対して"
       ],
       "wrong_choice_explanations": [
-        "'を機に' has a different grammatical function or nuance than '〜をきっかけに'.",
-        "'をもとに' has a different grammatical function or nuance than '〜をきっかけに'.",
-        "'によって' has a different grammatical function or nuance than '〜をきっかけに'."
+        "により means 'due to' or 'by means of' but lacks the turning point implication that をきっかけに provides.",
+        "について means 'about' or 'concerning' but doesn't express causation or catalyst meaning needed in this context.",
+        "に対して means 'toward' or 'in response to' but doesn't convey the idea of using something as a trigger for change."
       ]
     },
     {
-      "id": "n2_061_7",
-      "example_sentence": "その講演会をきっかけに、彼の人生が変わった。",
-      "translation": "With the new director's appointment, the strategy changed significantly.",
+      "id": "n2_061_03",
+      "example_sentence": "この病気をきっかけに、生活習慣を見直した。",
+      "translation": "This illness became a wake-up call that made me reconsider my lifestyle habits.",
       "blank_target": "をきっかけに",
       "wrong_choices": [
-        "を機に",
-        "をもとに",
-        "によって"
+        "のために",
+        "に関して",
+        "を通して"
       ],
       "wrong_choice_explanations": [
-        "を機に does not convey the meaning of 〜をきっかけに required in this context: using as a trigger / taking the opportunity of (a turning point or catalyst).",
-        "をもとに means 'based on/using as a foundation,' but this sentence requires 〜をきっかけに to convey using as a trigger / taking the opportunity of (a turning point or catalyst).",
-        "によって indicates agency or cause, not the using as a trigger / taking the opportunity of (a turning point or catalyst) that 〜をきっかけに requires."
+        "のために means 'for the sake of' but suggests purpose rather than something serving as a catalyst for change.",
+        "に関して means 'regarding' or 'concerning' but doesn't express the trigger meaning needed here.",
+        "を通して means 'through' but implies a process or method rather than a turning point that sparked action."
       ]
     },
     {
-      "id": "n2_061_8",
+      "id": "n2_061_04",
+      "example_sentence": "新監督の就任をきっかけに、戦略が大きく変わった。",
+      "translation": "The new director's appointment became the catalyst for a major strategy change.",
+      "blank_target": "をきっかけに",
+      "wrong_choices": [
+        "とともに",
+        "に伴って",
+        "をめぐって"
+      ],
+      "wrong_choice_explanations": [
+        "とともに means 'together with' but suggests simultaneous action rather than one event triggering another.",
+        "に伴って means 'accompanying' but implies a natural consequence rather than using something as a catalyst.",
+        "をめぐって means 'concerning' or 'around' but suggests discussion or conflict about a topic, not using it as a trigger."
+      ]
+    },
+    {
+      "id": "n2_061_05",
       "example_sentence": "その技術革新をきっかけに、産業全体が変わった。",
-      "translation": "That technological innovation became an industry-wide turning point.",
+      "translation": "That technological innovation became the catalyst that transformed the entire industry.",
       "blank_target": "をきっかけに",
       "wrong_choices": [
-        "を機に",
-        "をもとに",
-        "によって"
+        "を境に",
+        "にあたって",
+        "にかけて"
       ],
       "wrong_choice_explanations": [
-        "While を機に is a valid grammar pattern, it doesn't convey the same meaning as 〜をきっかけに and doesn't fit this sentence context.",
-        "をもとに means 'based on'; indicates foundation, not ongoing medium or vehicle; it doesn't fit this sentence context where 〜をきっかけに is needed.",
-        "によって means 'by means of'; indicates agent or instrument, not a medium of connection; it doesn't fit this sentence context where 〜をきっかけに is needed."
+        "を境に means 'with... as a boundary' but focuses on marking a dividing point rather than using something as a catalyst.",
+        "にあたって means 'on the occasion of' but is used for ceremonial or formal situations, not for expressing causation.",
+        "にかけて means 'over a period' or 'spanning' but indicates duration rather than a trigger for change."
       ]
     },
     {
-      "id": "n2_061_9",
+      "id": "n2_061_06",
       "example_sentence": "そのセミナーをきっかけに、彼の研究テーマが変わった。",
-      "translation": "That seminar became a turning point in his research direction.",
+      "translation": "That seminar became the turning point that changed his research focus.",
+      "blank_target": "をきっかけに",
+      "wrong_choices": [
+        "における",
+        "に際して",
+        "をはじめ"
+      ],
+      "wrong_choice_explanations": [
+        "における means 'in' or 'at' but indicates location or context rather than something serving as a catalyst.",
+        "に際して means 'on the occasion of' but is formal and doesn't convey the catalyst meaning needed here.",
+        "をはじめ means 'starting with' or 'including' but is used for listing examples, not expressing causation."
+      ]
+    },
+    {
+      "id": "n2_061_07",
+      "example_sentence": "留学をきっかけに、彼女の価値観が変わった。",
+      "translation": "Studying abroad became the catalyst that changed her values.",
       "blank_target": "をきっかけに",
       "wrong_choices": [
         "を機に",
-        "をもとに",
-        "によって"
+        "に基づいて",
+        "をめざして"
       ],
       "wrong_choice_explanations": [
-        "'を機に' is 'を機に', but this context requires '〜をきっかけに' to indicate using as a trigger.",
-        "'をもとに' means 'based on', for foundation or source, but this context requires '〜をきっかけに' to indicate using as a trigger.",
-        "'によって' means 'by' or 'through', for causation or agency, but this context requires '〜をきっかけに' to indicate using as a trigger."
+        "を機に is similar but more formal and typically used for planned opportunities rather than life experiences that trigger change.",
+        "に基づいて means 'based on' but suggests using something as foundation for decisions rather than as a catalyst for change.",
+        "をめざして means 'aiming for' but indicates purpose or goal rather than something that triggered change."
+      ]
+    },
+    {
+      "id": "n2_061_08",
+      "example_sentence": "転職をきっかけに、新しい趣味を始めた。",
+      "translation": "Changing jobs became the opportunity to start a new hobby.",
+      "blank_target": "をきっかけに",
+      "wrong_choices": [
+        "に続いて",
+        "をかねて",
+        "にかかわらず"
+      ],
+      "wrong_choice_explanations": [
+        "に続いて means 'following' or 'after' but indicates sequence rather than using something as a catalyst.",
+        "をかねて means 'serving as both' but suggests dual purposes rather than one thing triggering another.",
+        "にかかわらず means 'regardless of' but expresses contrast rather than causation or opportunity."
+      ]
+    },
+    {
+      "id": "n2_061_09",
+      "example_sentence": "結婚をきっかけに、故郷に戻ることにした。",
+      "translation": "Marriage became the catalyst for deciding to return to my hometown.",
+      "blank_target": "をきっかけに",
+      "wrong_choices": [
+        "をはじめとして",
+        "に先立って",
+        "をとおして"
+      ],
+      "wrong_choice_explanations": [
+        "をはじめとして means 'beginning with' but is used for listing multiple items rather than expressing causation.",
+        "に先立って means 'prior to' but indicates timing rather than using something as a trigger for action.",
+        "をとおして means 'through' but suggests a continuous process rather than a catalyst that sparked a decision."
+      ]
+    },
+    {
+      "id": "n2_061_10",
+      "example_sentence": "その出会いをきっかけに、人生の目標が見つかった。",
+      "translation": "That encounter became the catalyst for finding my life's purpose.",
+      "blank_target": "をきっかけに",
+      "wrong_choices": [
+        "に関連して",
+        "をふまえて",
+        "に依存して"
+      ],
+      "wrong_choice_explanations": [
+        "に関連して means 'in relation to' but suggests connection rather than using something as a trigger for change.",
+        "をふまえて means 'taking into account' but suggests consideration of factors rather than using something as a catalyst.",
+        "に依存して means 'depending on' but suggests reliance rather than something serving as a turning point."
       ]
     }
   ]

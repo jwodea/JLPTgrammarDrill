@@ -15,9 +15,9 @@
         "というものではない"
       ],
       "wrong_choice_explanations": [
-        "This pattern does not convey the same meaning as '〜というものだ' (that is what... is / that is exactly (natural assertion about the nature of something)) needed in this context.",
-        "This pattern does not convey the same meaning as '〜というものだ' (that is what... is / that is exactly (natural assertion about the nature of something)) needed in this context.",
-        "This pattern does not convey the same meaning as '〜というものだ' (that is what... is / that is exactly (natural assertion about the nature of something)) needed in this context."
+        "ということだ is explanatory/reportive but doesn't express the natural assertion about essence that というものだ conveys here.",
+        "ものだ alone expresses general obligation but lacks the defining essence nuance of というものだ needed in this context.",
+        "というものではない is the negative form meaning 'is not what... is', which contradicts the affirmative assertion being made."
       ]
     },
     {
@@ -27,45 +27,45 @@
       "blank_target": "というものだ",
       "wrong_choices": [
         "ということだ",
-        "ものだ",
-        "というものではない"
+        "のだ",
+        "べきだ"
       ],
       "wrong_choice_explanations": [
-        "ということだ has a different grammatical function and doesn't fit the context of this sentence where というものだ is required.",
-        "ものだ has a different grammatical function and doesn't fit the context of this sentence where というものだ is required.",
-        "というものではない has a different grammatical function and doesn't fit the context of this sentence where というものだ is required."
+        "ということだ explains a fact but doesn't capture the essence-defining meaning that というものだ provides here.",
+        "のだ gives emphasis or explanation but doesn't define the nature of something like というものだ does.",
+        "べきだ expresses obligation 'should/ought to' which doesn't fit this context about defining what growth is."
       ]
     },
     {
       "id": "n2_144_3",
       "example_sentence": "努力を続けることが、成功の秘訣というものだ。",
-      "translation": "Continuing effort is the secret of success.",
+      "translation": "Continuing effort is what the secret of success is.",
       "blank_target": "というものだ",
       "wrong_choices": [
-        "ということだ",
-        "ものだ",
-        "というものではない"
+        "らしい",
+        "に違いない",
+        "ものだ"
       ],
       "wrong_choice_explanations": [
-        "ということだ has a different grammatical function, but 〜というものだ is needed to express the specific meaning required in this sentence.",
-        "ものだ one should / it is natural to, but 〜というものだ is needed to express the specific meaning required in this sentence.",
-        "というものではない is not such that / cannot, but 〜というものだ is needed to express the specific meaning required in this sentence."
+        "らしい expresses hearsay or typical characteristics but doesn't assert the definitive nature that というものだ conveys.",
+        "に違いない expresses strong certainty but doesn't define essence like というものだ does in this context.",
+        "ものだ alone expresses naturalness or obligation but lacks the defining quality that というものだ provides here."
       ]
     },
     {
       "id": "n2_144_4",
-      "example_sentence": "他者を思いやることが、幸福というものだ。",
-      "translation": "Consideration for others is what happiness is.",
+      "example_sentence": "他者を思いやることが、真の幸福というものだ。",
+      "translation": "Consideration for others is what true happiness is.",
       "blank_target": "というものだ",
       "wrong_choices": [
-        "ということだ",
-        "ものだ",
-        "というものではない"
+        "だろう",
+        "かもしれない",
+        "ということだ"
       ],
       "wrong_choice_explanations": [
-        "ということだ has a different grammatical function that doesn't fit this sentence context.",
-        "ものだ has a different grammatical function that doesn't fit this sentence context.",
-        "というものではない has a different grammatical function that doesn't fit this sentence context."
+        "だろう expresses probability or conjecture but doesn't assert the definitive nature that というものだ conveys.",
+        "かもしれない expresses possibility but lacks the confident assertion about essence that というものだ provides.",
+        "ということだ is explanatory but doesn't capture the natural truth assertion that というものだ expresses here."
       ]
     },
     {
@@ -74,14 +74,94 @@
       "translation": "Always seeking progress is what life is.",
       "blank_target": "というものだ",
       "wrong_choices": [
-        "ということだ",
-        "ものだ",
+        "はずだ",
+        "に決まっている",
         "というものではない"
       ],
       "wrong_choice_explanations": [
-        "〜ということだ is explanatory; doesn't convey natural assertion.",
-        "〜ものだ alone is incomplete; というものだ is fuller.",
-        "〜というものではない is negative; opposite meaning."
+        "はずだ expresses expectation based on reasoning but doesn't define essence like というものだ does here.",
+        "に決まっている expresses certainty about a conclusion but doesn't capture the nature-defining meaning of というものだ.",
+        "というものではない is the negative form meaning 'is not what... is', contradicting the positive assertion being made."
+      ]
+    },
+    {
+      "id": "n2_144_6",
+      "example_sentence": "時間を大切にすることが、大人の責任というものだ。",
+      "translation": "Valuing time is what adult responsibility is.",
+      "blank_target": "というものだ",
+      "wrong_choices": [
+        "わけだ",
+        "ことだ",
+        "ものだから"
+      ],
+      "wrong_choice_explanations": [
+        "わけだ explains reasons or circumstances but doesn't define the essence that というものだ expresses here.",
+        "ことだ can nominalize but doesn't convey the natural assertion about nature that というものだ provides.",
+        "ものだから gives reasons or causes but doesn't fit this context about defining adult responsibility."
+      ]
+    },
+    {
+      "id": "n2_144_7",
+      "example_sentence": "相手の立場を理解することが、真のコミュニケーションというものだ。",
+      "translation": "Understanding the other person's position is what true communication is.",
+      "blank_target": "というものだ",
+      "wrong_choices": [
+        "ものでしょう",
+        "ことになる",
+        "といえる"
+      ],
+      "wrong_choice_explanations": [
+        "ものでしょう is polite conjecture but doesn't assert the definitive nature that というものだ conveys.",
+        "ことになる expresses result or consequence but doesn't define essence like というものだ does here.",
+        "といえる means 'can be said' but lacks the natural truth assertion that というものだ provides."
+      ]
+    },
+    {
+      "id": "n2_144_8",
+      "example_sentence": "毎日の小さな努力が、本当の成長というものだ。",
+      "translation": "Daily small efforts are what real growth is.",
+      "blank_target": "というものだ",
+      "wrong_choices": [
+        "ということになる",
+        "と思われる",
+        "に他ならない"
+      ],
+      "wrong_choice_explanations": [
+        "ということになる expresses a conclusion or result but doesn't capture the essence-defining meaning of というものだ.",
+        "と思われる expresses opinion or appearance but lacks the confident assertion about nature that というものだ provides.",
+        "に他ならない means 'nothing other than' but has a different emphasis than the natural assertion of というものだ."
+      ]
+    },
+    {
+      "id": "n2_144_9",
+      "example_sentence": "家族を大切にすることが、人間らしさというものだ。",
+      "translation": "Cherishing family is what humanity is.",
+      "blank_target": "というものだ",
+      "wrong_choices": [
+        "ものである",
+        "のである",
+        "ばかりだ"
+      ],
+      "wrong_choice_explanations": [
+        "ものである is formal but doesn't convey the natural assertion about essence that というものだ expresses.",
+        "のである provides explanation or emphasis but lacks the defining quality that というものだ offers here.",
+        "ばかりだ means 'only/just' or expresses tendency but doesn't fit this context about defining humanity."
+      ]
+    },
+    {
+      "id": "n2_144_10",
+      "example_sentence": "困難に立ち向かうことが、勇気というものだ。",
+      "translation": "Facing difficulties is what courage is.",
+      "blank_target": "というものだ",
+      "wrong_choices": [
+        "ものなのだ",
+        "からだ",
+        "次第だ"
+      ],
+      "wrong_choice_explanations": [
+        "ものなのだ adds explanatory emphasis but doesn't capture the natural truth assertion that というものだ provides.",
+        "からだ gives reasons or causes but doesn't define the essence of courage like というものだ does here.",
+        "次第だ means 'depends on' but doesn't fit this context about defining what courage is."
       ]
     }
   ]

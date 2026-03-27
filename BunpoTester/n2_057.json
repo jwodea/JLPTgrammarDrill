@@ -5,9 +5,9 @@
   "level": "N2",
   "exercises": [
     {
-      "id": "n2_057_10",
+      "id": "n2_057_1",
       "example_sentence": "実物を見ないことには、真の価値は判断できない。",
-      "translation": "Without seeing the original, true value cannot be judged.",
+      "translation": "Unless you see the real thing, you cannot judge its true value.",
       "blank_target": "ないことには",
       "wrong_choices": [
         "なければ",
@@ -15,73 +15,153 @@
         "ない限り"
       ],
       "wrong_choice_explanations": [
-        "なければ means 'なければ', which is used in different context, but this sentence requires ないことには ('ないことには') for its specific context.",
-        "ないと means 'ないと', which is used in different context, but this sentence requires ないことには ('ないことには') for its specific context.",
-        "ない限り means 'ない限り', which is used in different context, but this sentence requires ないことには ('ないことには') for its specific context."
+        "なければ expresses general conditional 'if not', but lacks the emphasis on absolute necessity that ないことには provides in this context.",
+        "ないと is used for simple conditional statements, but doesn't convey the strong emphasis that 'there's no way to judge without seeing' that ないことには expresses.",
+        "ない限り means 'unless/as long as not' but emphasizes duration or scope, rather than the absolute requirement for action that ないことには conveys here."
+      ]
+    },
+    {
+      "id": "n2_057_2",
+      "example_sentence": "実際に試してみないことには、その効果は分からない。",
+      "translation": "Unless we actually try it, we won't know its effectiveness.",
+      "blank_target": "ないことには",
+      "wrong_choices": [
+        "なくては",
+        "ずには",
+        "ば"
+      ],
+      "wrong_choice_explanations": [
+        "なくては expresses necessity but doesn't emphasize the impossibility of knowing without trying that ないことには conveys.",
+        "ずには means 'without doing' but focuses on inability to avoid an action, not on the prerequisite nature emphasized by ないことには.",
+        "ば is a simple conditional form that doesn't carry the strong emphasis on absolute necessity that ないことには provides."
+      ]
+    },
+    {
+      "id": "n2_057_3",
+      "example_sentence": "実績を示さないことには、信頼を得られない。",
+      "translation": "Unless you show results, you cannot gain trust.",
+      "blank_target": "ないことには",
+      "wrong_choices": [
+        "ない以上",
+        "なしには",
+        "ところで"
+      ],
+      "wrong_choice_explanations": [
+        "ない以上 means 'since/because not' and expresses reason rather than the conditional requirement that ないことには emphasizes.",
+        "なしには means 'without' but doesn't grammatically fit with the verb form 示さない in this sentence structure.",
+        "ところで is a topic-changing conjunction meaning 'by the way' and is completely unrelated to the conditional meaning needed here."
+      ]
+    },
+    {
+      "id": "n2_057_4",
+      "example_sentence": "データを分析しないことには、原因は特定できない。",
+      "translation": "Unless we analyze the data, we cannot identify the cause.",
+      "blank_target": "ないことには",
+      "wrong_choices": [
+        "ないでは",
+        "ても",
+        "たら"
+      ],
+      "wrong_choice_explanations": [
+        "ないでは is not a standard grammatical pattern in modern Japanese and doesn't convey the conditional meaning required.",
+        "ても means 'even if' which expresses contrast rather than the absolute requirement that ないことには emphasizes.",
+        "たら is a conditional 'if' but doesn't carry the strong emphasis on necessity that makes ないことには appropriate for expressing 'there's no way to identify without analyzing'."
+      ]
+    },
+    {
+      "id": "n2_057_5",
+      "example_sentence": "実験を繰り返さないことには、再現性は確認できない。",
+      "translation": "Unless we repeat the experiments, we cannot confirm reproducibility.",
+      "blank_target": "ないことには",
+      "wrong_choices": [
+        "ながら",
+        "つつ",
+        "がてら"
+      ],
+      "wrong_choice_explanations": [
+        "ながら means 'while doing' and expresses simultaneous actions, which doesn't fit the conditional structure of this sentence.",
+        "つつ means 'while' and indicates ongoing states or actions, not the conditional requirement expressed by ないことには.",
+        "がてら means 'while doing/on the occasion of' and doesn't match the conditional meaning needed in this context."
       ]
     },
     {
       "id": "n2_057_6",
-      "example_sentence": "実際に試してみないことには、その効果は分からない。",
-      "translation": "Unless we try it, we cannot know whether it will work well.",
+      "example_sentence": "本人に会わないことには、真意は分からない。",
+      "translation": "Unless you meet the person directly, you cannot understand their true intentions.",
       "blank_target": "ないことには",
       "wrong_choices": [
-        "なければ",
-        "ないと",
-        "ない限り"
+        "でなくては",
+        "としても",
+        "だけでは"
       ],
       "wrong_choice_explanations": [
-        "'なければ' has a different grammatical function or nuance than '〜ないことには'.",
-        "'ないと' has a different grammatical function or nuance than '〜ないことには'.",
-        "'ない限り' has a different grammatical function or nuance than '〜ないことには'."
+        "でなくては expresses necessity but doesn't grammatically connect with the negative verb form 会わない in this sentence pattern.",
+        "としても means 'even if' and expresses concession rather than the absolute requirement that ないことには emphasizes.",
+        "だけでは means 'with just/only' but doesn't fit grammatically with 会わない and doesn't express the conditional meaning needed."
       ]
     },
     {
       "id": "n2_057_7",
-      "example_sentence": "実績を示さないことには、信頼を得られない。",
-      "translation": "Without owner permission, the artwork cannot be moved.",
+      "example_sentence": "詳しく調べないことには、問題の根本は見えてこない。",
+      "translation": "Unless we investigate thoroughly, the root of the problem won't become clear.",
       "blank_target": "ないことには",
       "wrong_choices": [
-        "なければ",
-        "ないと",
-        "ない限り"
+        "については",
+        "に関して",
+        "において"
       ],
       "wrong_choice_explanations": [
-        "なければ does not convey the meaning of 〜ないことには required in this context: unless / if... not (required condition for something to happen).",
-        "ないと does not convey the meaning of 〜ないことには required in this context: unless / if... not (required condition for something to happen).",
-        "ない限り does not convey the meaning of 〜ないことには required in this context: unless / if... not (required condition for something to happen)."
+        "については means 'regarding/about' and is used to introduce topics, not to express conditional relationships.",
+        "に関して means 'concerning/regarding' and indicates the subject matter rather than conditional requirements.",
+        "において means 'in/at' and indicates location or circumstances, not the conditional necessity expressed by ないことには."
       ]
     },
     {
       "id": "n2_057_8",
-      "example_sentence": "データを分析しないことには、原因は特定できない。",
-      "translation": "Without analyzing data, causes cannot be identified.",
+      "example_sentence": "専門家に相談しないことには、正しい判断はできない。",
+      "translation": "Unless you consult with experts, you cannot make correct judgments.",
       "blank_target": "ないことには",
       "wrong_choices": [
-        "なければ",
-        "ないと",
-        "ない限り"
+        "ずに",
+        "ことなく",
+        "もなく"
       ],
       "wrong_choice_explanations": [
-        "While なければ is a valid grammar pattern, it doesn't convey the same meaning as 〜ないことには and doesn't fit this sentence context.",
-        "While ないと is a valid grammar pattern, it doesn't convey the same meaning as 〜ないことには and doesn't fit this sentence context.",
-        "While ない限り is a valid grammar pattern, it doesn't convey the same meaning as 〜ないことには and doesn't fit this sentence context."
+        "ずに means 'without doing' but focuses on the manner of action rather than the conditional requirement that ないことには emphasizes.",
+        "ことなく means 'without doing' but doesn't convey the strong conditional meaning of 'no way to judge correctly unless consulting' that ないことには provides.",
+        "もなく is not a complete grammatical pattern by itself and doesn't fit the sentence structure or meaning required here."
       ]
     },
     {
       "id": "n2_057_9",
-      "example_sentence": "実験を繰り返さないことには、再現性は確認できない。",
-      "translation": "Without repeated experiments, reproducibility cannot be confirmed.",
+      "example_sentence": "現場を確認しないことには、対策は立てられない。",
+      "translation": "Unless we check the actual site, we cannot formulate countermeasures.",
       "blank_target": "ないことには",
       "wrong_choices": [
-        "なければ",
-        "ないと",
-        "ない限り"
+        "ではなく",
+        "でもなく",
+        "かわりに"
       ],
       "wrong_choice_explanations": [
-        "'なければ' is 'なければ', but this context requires '〜ないことには' to indicate unless.",
-        "'ないと' is 'ないと', but this context requires '〜ないことには' to indicate unless.",
-        "'ない限り' is 'ない限り', but this context requires '〜ないことには' to indicate unless."
+        "ではなく means 'not... but rather' and is used for contrast/correction, not for expressing conditional requirements.",
+        "でもなく means 'neither... nor' and is used in negative listings, not for conditional statements about necessity.",
+        "かわりに means 'instead of' and indicates substitution rather than the conditional requirement expressed by ないことには."
+      ]
+    },
+    {
+      "id": "n2_057_10",
+      "example_sentence": "直接話し合わないことには、誤解は解けない。",
+      "translation": "Unless we discuss it directly, the misunderstanding won't be resolved.",
+      "blank_target": "ないことには",
+      "wrong_choices": [
+        "といって",
+        "とはいえ",
+        "にしても"
+      ],
+      "wrong_choice_explanations": [
+        "といって means 'even so/that said' and introduces contrasting information rather than expressing conditional necessity.",
+        "とはいえ means 'nevertheless/although' and expresses concession, not the absolute requirement that ないことには emphasizes.",
+        "にしても means 'even if/whether' and expresses concession or alternatives, not the conditional requirement needed in this context."
       ]
     }
   ]

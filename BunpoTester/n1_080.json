@@ -6,98 +6,82 @@
   "exercises": [
     {
       "id": "n1_080_1",
-      "example_sentence": "[ファイル1]これはてしかるべきだの例文です。",
-      "translation": "This is an example sentence for てしかるべきだ.",
+      "example_sentence": "政府は国民の声に耳を傾けてしかるべきだ。",
+      "translation": "The government ought to listen to the voices of the people.",
       "blank_target": "てしかるべきだ",
       "wrong_choices": [
-        "で",
-        "では",
-        "だ"
+        "てもいいだろう",
+        "てみるべきだ",
+        "ておくべきだ"
       ],
       "wrong_choice_explanations": [
-        "で marks location or means, not the 'ought to' sense.",
-        "では marks location or topic, not the obligation sense.",
-        "だ is the plain copula, not marking obligation."
-      ]
-    },
-    {
-      "id": "n1_080_10",
-      "example_sentence": "医療機関の倫理審査体制を強化してしかるべきだ。",
-      "translation": "We ought to strengthen the ethics review system of medical institutions.",
-      "blank_target": "てしかるべきだ",
-      "wrong_choices": [
-        "してもいい",
-        "することが妥当である",
-        "する必要がある"
-      ],
-      "wrong_choice_explanations": [
-        "'してもいい' does not express the same grammatical relationship as '〜てしかるべきだ' in this context.",
-        "'することが妥当である' does not express the same grammatical relationship as '〜てしかるべきだ' in this context.",
-        "'する必要がある' does not express the same grammatical relationship as '〜てしかるべきだ' in this context."
+        "てもいいだろう means 'it would probably be okay to' but lacks the strong moral obligation expressed by てしかるべきだ.",
+        "てみるべきだ means 'should try to' but suggests experimentation rather than moral necessity.",
+        "ておくべきだ means 'should do in advance' but focuses on preparation rather than moral obligation."
       ]
     },
     {
       "id": "n1_080_2",
-      "example_sentence": "[ファイル2]これはてしかるべきだの例文です。",
-      "translation": "This is an example sentence for てしかるべきだ.",
+      "example_sentence": "医師は患者に病状を正直に説明してしかるべきだ。",
+      "translation": "Doctors ought to honestly explain the patient's condition to them.",
       "blank_target": "てしかるべきだ",
       "wrong_choices": [
-        "で",
-        "では",
-        "だ"
+        "てほしい",
+        "ているはずだ",
+        "てくれればいい"
       ],
       "wrong_choice_explanations": [
-        "で lacks the specific nuance that てしかるべきだ provides, and this sentence needs that distinction.",
-        "では lacks the specific nuance that てしかるべきだ provides, and this sentence needs that distinction.",
-        "だ is basic assertion without the grammatical nuance needed."
+        "てほしい expresses personal desire but doesn't convey the moral imperative of てしかるべきだ.",
+        "ているはずだ means 'should be doing' as an assumption, not a moral obligation.",
+        "てくれればいい means 'it would be nice if they did' but is too weak for moral necessity."
       ]
     },
     {
       "id": "n1_080_3",
-      "example_sentence": "[ファイル3]これはてしかるべきだの例文です。",
-      "translation": "This is an example sentence for てしかるべきだ.",
+      "example_sentence": "企業は環境保護に責任を持ってしかるべきだ。",
+      "translation": "Companies ought to take responsibility for environmental protection.",
       "blank_target": "てしかるべきだ",
       "wrong_choices": [
-        "で",
-        "では",
-        "だ"
+        "てはいけない",
+        "てもかまわない",
+        "てはならない"
       ],
       "wrong_choice_explanations": [
-        "Particle; doesn't convey ought-to sense.",
-        "Particle combination; doesn't express ought.",
-        "Copula; doesn't convey the should sense."
+        "てはいけない means 'must not' which is the opposite of what's needed here.",
+        "てもかまわない means 'it doesn't matter if' but lacks the obligatory sense.",
+        "てはならない means 'must not' which contradicts the positive obligation needed."
       ]
     },
     {
       "id": "n1_080_4",
-      "example_sentence": "[ファイル4]これはてしかるべきだの例文です。",
-      "translation": "This is an example sentence for てしかるべきだ.",
+      "example_sentence": "教師は生徒一人一人を平等に扱ってしかるべきだ。",
+      "translation": "Teachers ought to treat each student equally.",
       "blank_target": "てしかるべきだ",
       "wrong_choices": [
-        "で",
-        "では",
-        "だ"
+        "てみたい",
+        "てある",
+        "ていく"
       ],
       "wrong_choice_explanations": [
-        "is a particle; does not express the \"ought to\" meaning.",
-        "is a conditional particle; does not convey the obligatory sense.",
-        "is just a copula; does not express the \"ought to\" sense."
+        "てみたい means 'want to try' but expresses personal desire rather than moral obligation.",
+        "てある indicates a completed action's resulting state, not moral duty.",
+        "ていく indicates ongoing action away from the speaker, not moral obligation."
       ]
     },
     {
       "id": "n1_080_5",
-      "example_sentence": "[ファイル5]これはてしかるべきだの例文です。",
-      "translation": "This is an example sentence for てしかるべきだ.",
+      "example_sentence": "親は子供の将来のことを真剣に考えてしかるべきだ。",
+      "translation": "Parents ought to seriously consider their children's future.",
       "blank_target": "てしかるべきだ",
       "wrong_choices": [
-        "で",
-        "では",
-        "だ"
+        "てしまう",
+        "てくる",
+        "ておく"
       ],
       "wrong_choice_explanations": [
-        "で means 'at / with / by'; it doesn't convey the 'ought to / it is only right that' meaning needed here.",
-        "では means 'then / in that case'; it doesn't convey the 'ought to / it is only right that' meaning needed here.",
-        "だ means 'is / be'; it doesn't convey the 'ought to / it is only right that' meaning needed here."
+        "てしまう indicates completion or regret, not moral obligation.",
+        "てくる indicates movement toward the speaker, not moral duty.",
+        "ておく means 'do in advance' but lacks the moral imperative sense."
       ]
     },
     {
@@ -107,13 +91,13 @@
       "blank_target": "てしかるべきだ",
       "wrong_choices": [
         "を禁じ得ない",
-        "を抑えることができない",
-        "ずにいられない"
+        "てもよい",
+        "ずにはいられない"
       ],
       "wrong_choice_explanations": [
-        "本当に means 'really/truly' but is simpler and less emphatic than いかにも.",
-        "確かに means 'certainly' but is direct affirmation, not the sense of fitting/appropriate appearance.",
-        "その通り means 'that's right' but is agreement, not the sense of 'how very much'."
+        "を禁じ得ない means 'cannot help but forbid' but doesn't fit the grammar pattern of adding sanctions.",
+        "てもよい means 'it's okay to' but lacks the strong moral obligation of てしかるべきだ.",
+        "ずにはいられない means 'cannot help but' but requires the negative form of the verb."
       ]
     },
     {
@@ -123,13 +107,13 @@
       "blank_target": "てしかるべきだ",
       "wrong_choices": [
         "してもいい",
-        "することが妥当である",
+        "したほうがいい",
         "する必要がある"
       ],
       "wrong_choice_explanations": [
-        "This wrong choice doesn't fit the required grammar pattern 〜てしかるべきだ.",
-        "This wrong choice doesn't fit the required grammar pattern 〜てしかるべきだ.",
-        "This wrong choice doesn't fit the required grammar pattern 〜てしかるべきだ."
+        "してもいい means 'it's okay to do' but is too permissive compared to the moral obligation of てしかるべきだ.",
+        "したほうがいい means 'it would be better to' but is advice rather than moral imperative.",
+        "する必要がある means 'there is a need to' but is practical necessity rather than moral obligation."
       ]
     },
     {
@@ -138,14 +122,14 @@
       "translation": "The conservation of cultural heritage ought to be carried out as soon as possible.",
       "blank_target": "てしかるべきだ",
       "wrong_choices": [
-        "してもいい",
-        "することが妥当である",
-        "する必要がある"
+        "してほしい",
+        "することになる",
+        "してもらいたい"
       ],
       "wrong_choice_explanations": [
-        "してもいい has a different grammatical meaning and context; it doesn't fit the required meaning here.",
-        "することが妥当である has a different grammatical meaning and context; it doesn't fit the required meaning here.",
-        "する必要がある has a different grammatical meaning and context; it doesn't fit the required meaning here."
+        "してほしい expresses personal desire but lacks the moral authority of てしかるべきだ.",
+        "することになる means 'it will be decided that' but indicates future arrangement rather than moral obligation.",
+        "してもらいたい means 'want someone to do' but is a personal request rather than moral imperative."
       ]
     },
     {
@@ -154,14 +138,30 @@
       "translation": "We ought to strengthen the company's compliance system.",
       "blank_target": "てしかるべきだ",
       "wrong_choices": [
-        "してもいい",
-        "することが妥当である",
-        "する必要がある"
+        "してみる",
+        "していく",
+        "してある"
       ],
       "wrong_choice_explanations": [
-        "『してもいい』 does not express the meaning of 『てしかるべきだ』 needed in this context.",
-        "『することが妥当である』 does not express the meaning of 『てしかるべきだ』 needed in this context.",
-        "『する必要がある』 does not express the meaning of 『てしかるべきだ』 needed in this context."
+        "してみる means 'try doing' but suggests experimentation rather than moral necessity.",
+        "していく means 'continue doing' but focuses on ongoing action rather than moral obligation.",
+        "してある means 'have done (and left in that state)' but indicates completed preparation rather than moral duty."
+      ]
+    },
+    {
+      "id": "n1_080_10",
+      "example_sentence": "医療機関の倫理審査体制を強化してしかるべきだ。",
+      "translation": "We ought to strengthen the ethics review system of medical institutions.",
+      "blank_target": "てしかるべきだ",
+      "wrong_choices": [
+        "してみよう",
+        "することだ",
+        "したいものだ"
+      ],
+      "wrong_choice_explanations": [
+        "してみよう means 'let's try doing' but is a suggestion rather than moral obligation.",
+        "することだ means 'the thing to do is' but is advice rather than moral imperative.",
+        "したいものだ expresses desire but lacks the authoritative tone of てしかるべきだ."
       ]
     }
   ]

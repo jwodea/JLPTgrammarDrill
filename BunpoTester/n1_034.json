@@ -6,98 +6,82 @@
   "exercises": [
     {
       "id": "n1_034_1",
-      "example_sentence": "[ファイル1]これはいかんでの例文です。",
-      "translation": "This is an example sentence for いかんで.",
+      "example_sentence": "今度のプレゼンテーションの出来いかんで、昇進が決まる。",
+      "translation": "My promotion will be determined depending on how well the presentation goes.",
       "blank_target": "いかんで",
       "wrong_choices": [
-        "たところ",
-        "たような",
-        "たことで"
+        "によって",
+        "に関して",
+        "について"
       ],
       "wrong_choice_explanations": [
-        "たところ marks 'found out / discovered', a result marker not a dependency marker.",
-        "たような marks 'seemed to / appeared to', expressing appearance rather than dependency.",
-        "たことで marks 'due to the fact that / as a result of', a causal relation."
-      ]
-    },
-    {
-      "id": "n1_034_10",
-      "example_sentence": "今後のAI規制のあり方いかんで、医療の未来が決まるであろう。",
-      "translation": "The future of medicine will depend on how AI regulations are shaped going forward.",
-      "blank_target": "いかんで",
-      "wrong_choices": [
-        "いかんにせよ",
-        "いかんを問わず",
-        "の程度により"
-      ],
-      "wrong_choice_explanations": [
-        "'いかんにせよ' does not express the same grammatical relationship as '〜いかんで' in this context.",
-        "'いかんを問わず' does not express the same grammatical relationship as '〜いかんで' in this context.",
-        "'の程度により' does not express the same grammatical relationship as '〜いかんで' in this context."
+        "によって expresses simple causation but lacks the nuanced 'depending on the manner/quality' meaning of いかんで.",
+        "に関して means 'regarding/concerning' and introduces a topic, not a dependency relationship.",
+        "について means 'about/concerning' and indicates a topic of discussion, not conditional dependency."
       ]
     },
     {
       "id": "n1_034_2",
-      "example_sentence": "[ファイル2]これはいかんでの例文です。",
-      "translation": "This is an example sentence for いかんで.",
+      "example_sentence": "交渉の進め方いかんで、契約が成立するかどうかが決まるだろう。",
+      "translation": "Whether the contract will be established will depend on how the negotiations are conducted.",
       "blank_target": "いかんで",
       "wrong_choices": [
-        "たところ",
-        "たような",
-        "たことで"
+        "によっては",
+        "次第で",
+        "を通して"
       ],
       "wrong_choice_explanations": [
-        "たところ has different grammatical constraints than いかんで; this sentence requires いかんで to express 'depending on'.",
-        "たような has different grammatical constraints than いかんで; this sentence requires いかんで to express 'depending on'.",
-        "たことで has different grammatical constraints than いかんで; this sentence requires いかんで to express 'depending on'."
+        "によっては means 'depending on the case' but is less formal and doesn't emphasize the critical nature like いかんで.",
+        "次第で means 'depending on' but is more casual and lacks the weighty, formal tone of いかんで.",
+        "を通して means 'through/via' and indicates a medium or method, not conditional dependency."
       ]
     },
     {
       "id": "n1_034_3",
-      "example_sentence": "[ファイル3]これはいかんでの例文です。",
-      "translation": "This is an example sentence for いかんで.",
+      "example_sentence": "今回の選挙結果いかんで、国の将来の方向性が変わる可能性がある。",
+      "translation": "The future direction of the country may change depending on the results of this election.",
       "blank_target": "いかんで",
       "wrong_choices": [
-        "たところ",
-        "たような",
-        "たことで"
+        "いかんにせよ",
+        "いかんを問わず",
+        "に応じて"
       ],
       "wrong_choice_explanations": [
-        "Means 'the result was'; doesn't express dependence on how.",
-        "Means 'seemed to'; doesn't convey dependency relationship.",
-        "Means 'because it happened'; lacks the how-dependent sense."
+        "いかんにせよ means 'regardless of how' which expresses the opposite meaning - independence rather than dependence.",
+        "いかんを問わず means 'regardless of the state/quality' and indicates something happens irrespective of conditions.",
+        "に応じて means 'in accordance with' but lacks the critical, consequential nuance of いかんで."
       ]
     },
     {
       "id": "n1_034_4",
-      "example_sentence": "[ファイル4]これはいかんでの例文です。",
-      "translation": "This is an example sentence for いかんで.",
+      "example_sentence": "この薬の効果いかんで、手術が必要かどうかが判断される。",
+      "translation": "Whether surgery is necessary will be determined depending on the effectiveness of this medication.",
       "blank_target": "いかんで",
       "wrong_choices": [
-        "たところ",
-        "たような",
-        "たことで"
+        "によると",
+        "に対して",
+        "からして"
       ],
       "wrong_choice_explanations": [
-        "means \"when one did\"; does not express dependency or conditionality.",
-        "means \"as if one did\"; does not indicate dependency on circumstances.",
-        "means \"because one did\"; expresses causation rather than dependency."
+        "によると means 'according to' and introduces reported information, not conditional dependency on outcomes.",
+        "に対して means 'toward/against' and expresses direction or response, not dependency on results.",
+        "からして means 'judging from' and indicates inference from evidence, not conditional dependence on outcomes."
       ]
     },
     {
       "id": "n1_034_5",
-      "example_sentence": "[ファイル5]これはいかんでの例文です。",
-      "translation": "This is an example sentence for いかんで.",
+      "example_sentence": "経営陣の判断いかんで、この会社の存続が決まると言っても過言ではない。",
+      "translation": "It's no exaggeration to say that the survival of this company depends on the management's decisions.",
       "blank_target": "いかんで",
       "wrong_choices": [
-        "たところ",
-        "たような",
-        "たことで"
+        "を巡って",
+        "にしても",
+        "といえば"
       ],
       "wrong_choice_explanations": [
-        "たところ means 'when done / as a result of doing'; it doesn't convey the 'depending on' meaning needed here.",
-        "たような means 'seemed like / looked like'; it doesn't convey the 'depending on' meaning needed here.",
-        "たことで means 'as a result of'; it doesn't convey the 'depending on' meaning needed here."
+        "を巡って means 'concerning/around' and indicates the topic of discussion or conflict, not conditional dependency.",
+        "にしても means 'even if/even considering' and expresses concession, not dependency on quality or manner.",
+        "といえば means 'speaking of/when it comes to' and introduces a topic shift, not conditional dependence."
       ]
     },
     {
@@ -111,9 +95,9 @@
         "の程度により"
       ],
       "wrong_choice_explanations": [
-        "について is a general topic marker, not the sense of spanning time/space that にかけて conveys.",
-        "に対して means 'toward/against' and expresses direction or opposition, not the spanning sense.",
-        "を通じて means 'through' and suggests a medium, not the sense of extending across an area or period."
+        "いかんにせよ means 'regardless of the state' and expresses that the outcome is independent of the condition.",
+        "いかんを問わず means 'without regard to the state' and indicates something happens irrespective of the situation.",
+        "の程度により is less formal and doesn't carry the weighty, consequential tone that いかんで provides in this diplomatic context."
       ]
     },
     {
@@ -122,14 +106,14 @@
       "translation": "Whether environmental improvement succeeds in the future will depend on the government's political decision.",
       "blank_target": "いかんで",
       "wrong_choices": [
-        "いかんにせよ",
-        "いかんを問わず",
-        "の程度により"
+        "を受けて",
+        "に伴って",
+        "をきっかけに"
       ],
       "wrong_choice_explanations": [
-        "This wrong choice doesn't fit the required grammar pattern 〜いかんで.",
-        "This wrong choice doesn't fit the required grammar pattern 〜いかんで.",
-        "This wrong choice doesn't fit the required grammar pattern 〜いかんで."
+        "を受けて means 'in response to' and indicates a reaction to something that has already happened, not future dependency.",
+        "に伴って means 'along with/accompanying' and indicates simultaneous change, not conditional dependency on quality.",
+        "をきっかけに means 'triggered by' and indicates a starting point or catalyst, not ongoing conditional dependence."
       ]
     },
     {
@@ -138,14 +122,14 @@
       "translation": "The overall understanding will differ greatly depending on how this work is interpreted.",
       "blank_target": "いかんで",
       "wrong_choices": [
-        "いかんにせよ",
-        "いかんを問わず",
-        "の程度により"
+        "をもとに",
+        "に関連して",
+        "を前提に"
       ],
       "wrong_choice_explanations": [
-        "いかんにせよ has a different grammatical meaning and context; it doesn't fit the required meaning here.",
-        "いかんを問わず has a different grammatical meaning and context; it doesn't fit the required meaning here.",
-        "の程度により has a different grammatical meaning and context; it doesn't fit the required meaning here."
+        "をもとに means 'based on' and indicates using something as a foundation, not conditional dependency on manner or quality.",
+        "に関連して means 'in relation to' and indicates association or connection, not conditional dependence on approach.",
+        "を前提に means 'on the premise that' and indicates an assumed condition, not dependency on the quality of execution."
       ]
     },
     {
@@ -154,14 +138,30 @@
       "translation": "The direction of the entire industry will depend on future corporate growth.",
       "blank_target": "いかんで",
       "wrong_choices": [
-        "いかんにせよ",
-        "いかんを問わず",
-        "の程度により"
+        "と共に",
+        "に沿って",
+        "を背景に"
       ],
       "wrong_choice_explanations": [
-        "『いかんにせよ』 means 'regardless of quality'; this pattern means 'depending on the quality' showing causation.",
-        "『いかんを問わず』 means 'never mind the quality'; this pattern shows conditional causation based on quality.",
-        "『の程度により』 is awkward form; this pattern elegantly expresses conditional effect based on degree."
+        "と共に means 'together with' and indicates simultaneous occurrence, not conditional dependency on outcomes.",
+        "に沿って means 'along/in line with' and indicates following a pattern or guideline, not conditional dependence.",
+        "を背景に means 'against the backdrop of' and indicates contextual circumstances, not conditional dependency on results."
+      ]
+    },
+    {
+      "id": "n1_034_10",
+      "example_sentence": "今後のAI規制のあり方いかんで、医療の未来が決まるであろう。",
+      "translation": "The future of medicine will depend on how AI regulations are shaped going forward.",
+      "blank_target": "いかんで",
+      "wrong_choices": [
+        "に限らず",
+        "はともかく",
+        "にかかわらず"
+      ],
+      "wrong_choice_explanations": [
+        "に限らず means 'not limited to' and indicates something applies beyond the stated scope, opposite of dependency.",
+        "はともかく means 'setting aside' and dismisses the importance of something, contrary to the dependency meaning.",
+        "にかかわらず means 'regardless of' and indicates independence from conditions, opposite of いかんで's dependency meaning."
       ]
     }
   ]

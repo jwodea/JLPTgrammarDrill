@@ -15,9 +15,9 @@
         "のみならず"
       ],
       "wrong_choice_explanations": [
-        "This pattern does not convey the same meaning as '〜はもとより' (not only... but also (formal; the first item is taken as given)) needed in this context.",
-        "This pattern does not convey the same meaning as '〜はもとより' (not only... but also (formal; the first item is taken as given)) needed in this context.",
-        "This pattern does not convey the same meaning as '〜はもとより' (not only... but also (formal; the first item is taken as given)) needed in this context."
+        "はもちろん means 'of course' and doesn't establish the same formal comparison where the first item is already assumed to be obvious.",
+        "だけでなく means 'not only... but also' but lacks the formal tone and the implication that the first item is obviously important.",
+        "のみならず is very similar to はもとより but is more literary and less commonly used in modern Japanese."
       ]
     },
     {
@@ -26,14 +26,14 @@
       "translation": "Practical skills are necessary, not to mention knowledge.",
       "blank_target": "はもとより",
       "wrong_choices": [
-        "はもちろん",
-        "だけでなく",
-        "のみならず"
+        "ばかりか",
+        "に加えて",
+        "とともに"
       ],
       "wrong_choice_explanations": [
-        "はもちろん has a different grammatical function and doesn't fit the context of this sentence where はもとより is required.",
-        "だけでなく has a different grammatical function and doesn't fit the context of this sentence where はもとより is required.",
-        "のみならず has a different grammatical function and doesn't fit the context of this sentence where はもとより is required."
+        "ばかりか means 'not only... but even' and emphasizes the second item as unexpected, which doesn't fit this context.",
+        "に加えて means 'in addition to' but doesn't carry the formal tone or the assumption that the first item is obvious.",
+        "とともに means 'together with' and indicates simultaneous action rather than the formal comparison needed here."
       ]
     },
     {
@@ -42,46 +42,126 @@
       "translation": "Speed is important, not to mention accuracy.",
       "blank_target": "はもとより",
       "wrong_choices": [
-        "はもちろん",
-        "だけでなく",
-        "のみならず"
+        "はいうまでもなく",
+        "に限らず",
+        "を問わず"
       ],
       "wrong_choice_explanations": [
-        "はもちろん means of course / needless to say, but 〜はもとより is needed to express the specific meaning required in this sentence.",
-        "だけでなく means not only, but 〜はもとより is needed to express the specific meaning required in this sentence.",
-        "のみならず means not only (formal), but 〜はもとより is needed to express the specific meaning required in this sentence."
+        "はいうまでもなく means 'needless to say' but doesn't continue to introduce a second important item like はもとより does.",
+        "に限らず means 'not limited to' and is used differently, typically with negative contexts or broader categories.",
+        "を問わず means 'regardless of' and doesn't fit the meaning of highlighting two important aspects."
       ]
     },
     {
       "id": "n2_141_4",
-      "example_sentence": "製品の機能はもとより、デザインも評価される。",
-      "translation": "The design is evaluated, not to mention the product's function.",
+      "example_sentence": "日本語はもとより、中国語も話せる。",
+      "translation": "He can speak Chinese, not to mention Japanese.",
       "blank_target": "はもとより",
       "wrong_choices": [
-        "はもちろん",
         "だけでなく",
-        "のみならず"
+        "ばかりでなく",
+        "はもちろん"
       ],
       "wrong_choice_explanations": [
-        "はもちろん has a different grammatical function that doesn't fit this sentence context.",
-        "だけでなく has a different grammatical function that doesn't fit this sentence context.",
-        "のみならず has a different grammatical function that doesn't fit this sentence context."
+        "だけでなく means 'not only... but also' but is less formal and doesn't emphasize that the first item is obviously true.",
+        "ばかりでなく means 'not only... but also' but lacks the formal register and the assumption about the first item being given.",
+        "はもちろん means 'of course' but doesn't properly connect to introduce the second item in this formal construction."
       ]
     },
     {
       "id": "n2_141_5",
-      "example_sentence": "基本的なルールはもとより、細かい規則も守るべきだ。",
-      "translation": "Fine details should be observed, not to mention basic rules.",
+      "example_sentence": "価格はもとより、品質の向上が求められている。",
+      "translation": "Improvement in quality is demanded, not to mention price.",
       "blank_target": "はもとより",
       "wrong_choices": [
-        "はもちろん",
-        "だけでなく",
-        "のみならず"
+        "に関して",
+        "について",
+        "における"
       ],
       "wrong_choice_explanations": [
-        "〜はもちろん is more common; less archaic.",
-        "〜だけでなく is casual; lacks formal tone.",
-        "〜のみならず is also archaic; modern form preferred."
+        "に関して means 'regarding/concerning' and doesn't create the comparison structure needed in this sentence.",
+        "について means 'about/concerning' and changes the meaning entirely, making it about discussing price rather than comparing two aspects.",
+        "における means 'in/at' and is used to indicate location or context, not for making comparisons between two items."
+      ]
+    },
+    {
+      "id": "n2_141_6",
+      "example_sentence": "理論はもとより、実際の経験も重要である。",
+      "translation": "Actual experience is important, not to mention theory.",
+      "blank_target": "はもとより",
+      "wrong_choices": [
+        "のほかに",
+        "に対して",
+        "に関わらず"
+      ],
+      "wrong_choice_explanations": [
+        "のほかに means 'in addition to' but doesn't carry the formal tone or the implication that theory is obviously important.",
+        "に対して means 'toward/against' and would create a contrasting relationship rather than the additive one needed here.",
+        "に関わらず means 'regardless of' and implies that theory doesn't matter, which contradicts the intended meaning."
+      ]
+    },
+    {
+      "id": "n2_141_7",
+      "example_sentence": "社員はもとより、管理職も研修を受ける必要がある。",
+      "translation": "Management also needs to receive training, not to mention employees.",
+      "blank_target": "はもとより",
+      "wrong_choices": [
+        "をはじめ",
+        "を含めて",
+        "などの"
+      ],
+      "wrong_choice_explanations": [
+        "をはじめ means 'starting with' and is used to introduce examples, but doesn't create the formal comparison structure of はもとより.",
+        "を含めて means 'including' and treats both items as part of a larger group rather than emphasizing both as important.",
+        "などの means 'such as' and is used for giving examples, not for the formal emphasis structure needed here."
+      ]
+    },
+    {
+      "id": "n2_141_8",
+      "example_sentence": "安全性はもとより、環境への配慮も必要だ。",
+      "translation": "Environmental consideration is necessary, not to mention safety.",
+      "blank_target": "はもとより",
+      "wrong_choices": [
+        "と同様に",
+        "のように",
+        "に比べて"
+      ],
+      "wrong_choice_explanations": [
+        "と同様に means 'similarly to' and creates a comparison of similarity rather than the additive emphasis of はもとより.",
+        "のように means 'like/as' and is used for analogies or examples, not for emphasizing two important aspects.",
+        "に比べて means 'compared to' and creates a direct comparison rather than emphasizing both items as important."
+      ]
+    },
+    {
+      "id": "n2_141_9",
+      "example_sentence": "技術はもとより、コミュニケーション能力も採用の基準となる。",
+      "translation": "Communication skills also become a hiring criterion, not to mention technical ability.",
+      "blank_target": "はもとより",
+      "wrong_choices": [
+        "に応じて",
+        "によって",
+        "に反して"
+      ],
+      "wrong_choice_explanations": [
+        "に応じて means 'according to/depending on' and indicates variation based on circumstances, not the emphasis structure needed here.",
+        "によって means 'by means of/due to' and indicates cause or method rather than the formal comparison of two important factors.",
+        "に反して means 'contrary to' and creates an opposing relationship rather than the additive one required in this context."
+      ]
+    },
+    {
+      "id": "n2_141_10",
+      "example_sentence": "個人の努力はもとより、チーム全体の協力が成功の鍵だ。",
+      "translation": "Team cooperation is the key to success, not to mention individual effort.",
+      "blank_target": "はもとより",
+      "wrong_choices": [
+        "と違って",
+        "に代わって",
+        "のせいで"
+      ],
+      "wrong_choice_explanations": [
+        "と違って means 'unlike' and creates a contrasting relationship rather than the additive emphasis needed here.",
+        "に代わって means 'instead of' and indicates replacement rather than the inclusion of both important elements.",
+        "のせいで means 'because of/due to (negative)' and indicates causation with negative connotation, which doesn't fit this context."
       ]
     }
   ]

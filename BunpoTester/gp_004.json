@@ -1,0 +1,168 @@
+{
+  "id": "gp_004",
+  "pattern": "～に",
+  "meaning": "Direction / time / location (indirect)",
+  "level": "N5",
+  "exercises": [
+    {
+      "id": 1,
+      "example_sentence": "学校__行きます。",
+      "translation": "I go to school.",
+      "blank_target": "に",
+      "wrong_choices": [
+        "が",
+        "を",
+        "で"
+      ],
+      "wrong_choice_explanations": {
+        "が": "が marks subjects — it doesn't fit here because 学校 is the destination, not the subject performing the action.",
+        "を": "を marks direct objects or routes passed through — it doesn't fit here because 学校 is the destination being reached, not an object being acted upon or passed through.",
+        "で": "で indicates location where an action occurs — it doesn't fit here because 学校 is where we're going to, not where the action of going takes place."
+      }
+    },
+    {
+      "id": 2,
+      "example_sentence": "三時__会います。",
+      "translation": "I'll meet at three o'clock.",
+      "blank_target": "に",
+      "wrong_choices": [
+        "が",
+        "を",
+        "は"
+      ],
+      "wrong_choice_explanations": {
+        "が": "が marks subjects — it doesn't fit here because 三時 is a time specification, not the subject of the sentence.",
+        "を": "を marks direct objects — it doesn't fit here because 三時 is a time when something happens, not an object being acted upon.",
+        "は": "は marks topics — it doesn't fit here because 三時 is a specific time point, not a topic for general discussion."
+      }
+    },
+    {
+      "id": 3,
+      "example_sentence": "友達__プレゼントをあげました。",
+      "translation": "I gave a present to my friend.",
+      "blank_target": "に",
+      "wrong_choices": [
+        "が",
+        "を",
+        "と"
+      ],
+      "wrong_choice_explanations": {
+        "が": "が marks subjects — it doesn't fit here because 友達 is the recipient of the gift, not the subject giving it.",
+        "を": "を marks direct objects — it doesn't fit here because 友達 is the recipient (indirect object), while プレゼント is the direct object.",
+        "と": "と means 'with' or 'and' — it doesn't fit here because 友達 is receiving the gift, not accompanying the giver."
+      }
+    },
+    {
+      "id": 4,
+      "example_sentence": "家__帰ります。",
+      "translation": "I return home.",
+      "blank_target": "に",
+      "wrong_choices": [
+        "が",
+        "を",
+        "で"
+      ],
+      "wrong_choice_explanations": {
+        "が": "が marks subjects — it doesn't fit here because 家 is the destination, not the subject performing the action.",
+        "を": "を marks direct objects or departure points with certain verbs — it doesn't fit here because 家 is where we're going back to, not what we're leaving.",
+        "で": "で indicates location of action — it doesn't fit here because 家 is the destination we're returning to, not where the action of returning occurs."
+      }
+    },
+    {
+      "id": 5,
+      "example_sentence": "机の上__本があります。",
+      "translation": "There is a book on the desk.",
+      "blank_target": "に",
+      "wrong_choices": [
+        "が",
+        "を",
+        "は"
+      ],
+      "wrong_choice_explanations": {
+        "が": "が marks subjects — it doesn't fit here because 机の上 is the location where something exists, not the subject of existence.",
+        "を": "を marks direct objects — it doesn't fit here because 机の上 is a location, not an object being acted upon.",
+        "は": "は marks topics — it doesn't fit here because 机の上 specifies the location of existence, not a topic for discussion."
+      }
+    },
+    {
+      "id": 6,
+      "example_sentence": "日曜日__買い物をします。",
+      "translation": "I do shopping on Sunday.",
+      "blank_target": "に",
+      "wrong_choices": [
+        "が",
+        "を",
+        "で"
+      ],
+      "wrong_choice_explanations": {
+        "が": "が marks subjects — it doesn't fit here because 日曜日 specifies when the action occurs, not who performs it.",
+        "を": "を marks direct objects — it doesn't fit here because 日曜日 is a time specification, not an object being acted upon.",
+        "で": "で can indicate location or means — it doesn't fit here because 日曜日 specifies when, not where or how the shopping occurs."
+      }
+    },
+    {
+      "id": 7,
+      "example_sentence": "駅__着きました。",
+      "translation": "I arrived at the station.",
+      "blank_target": "に",
+      "wrong_choices": [
+        "が",
+        "を",
+        "から"
+      ],
+      "wrong_choice_explanations": {
+        "が": "が marks subjects — it doesn't fit here because 駅 is the destination reached, not the subject performing the arriving.",
+        "を": "を can mark routes or departure points — it doesn't fit here because 駅 is where we arrived, not what we passed through or left.",
+        "から": "から means 'from' — it doesn't fit here because 駅 is where we arrived, not where we came from."
+      }
+    },
+    {
+      "id": 8,
+      "example_sentence": "先生__質問しました。",
+      "translation": "I asked the teacher a question.",
+      "blank_target": "に",
+      "wrong_choices": [
+        "が",
+        "を",
+        "と"
+      ],
+      "wrong_choice_explanations": {
+        "が": "が marks subjects — it doesn't fit here because 先生 is who received the question, not who asked it.",
+        "を": "を marks direct objects — it doesn't fit here because 先生 is the person being asked (indirect object), not the question itself (direct object).",
+        "と": "と means 'with' — it doesn't fit here because we're directing a question to the teacher, not asking together with the teacher."
+      }
+    },
+    {
+      "id": 9,
+      "example_sentence": "部屋__入ります。",
+      "translation": "I enter the room.",
+      "blank_target": "に",
+      "wrong_choices": [
+        "が",
+        "を",
+        "で"
+      ],
+      "wrong_choice_explanations": {
+        "が": "が marks subjects — it doesn't fit here because 部屋 is the destination being entered, not the subject doing the entering.",
+        "を": "を can mark spaces passed through — it doesn't fit here because 部屋 is being entered into, not passed through or exited.",
+        "で": "で indicates location where action occurs — it doesn't fit here because 部屋 is where we're going into, not where the entering action takes place."
+      }
+    },
+    {
+      "id": 10,
+      "example_sentence": "母__電話をかけます。",
+      "translation": "I call my mother.",
+      "blank_target": "に",
+      "wrong_choices": [
+        "が",
+        "を",
+        "と"
+      ],
+      "wrong_choice_explanations": {
+        "が": "が marks subjects — it doesn't fit here because 母 is who receives the call, not who makes it.",
+        "を": "を marks direct objects — it doesn't fit here because 母 is the recipient of the call (indirect object), while 電話 is the direct object.",
+        "と": "と means 'with' — it doesn't fit here because we're calling to the mother, not calling together with the mother."
+      }
+    }
+  ]
+}

@@ -15,9 +15,9 @@
         "によっては"
       ],
       "wrong_choice_explanations": [
-        "This pattern does not convey the same meaning as '〜次第で' (depending on / it all comes down to) needed in this context.",
-        "means 'by' or 'through' (means or agent), not matching the required locative or formal context",
-        "This pattern does not convey the same meaning as '〜次第で' (depending on / it all comes down to) needed in this context."
+        "次第 alone is incomplete; で is needed to complete the pattern meaning 'depending on'.",
+        "によって indicates agent or means, but doesn't convey the contingency meaning needed here.",
+        "によっては means 'depending on the circumstances' but implies conditional alternatives, not direct dependency."
       ]
     },
     {
@@ -26,14 +26,14 @@
       "translation": "Problems can be solved depending on the ingenuity.",
       "blank_target": "次第で",
       "wrong_choices": [
-        "次第",
-        "によって",
-        "によっては"
+        "次第に",
+        "に応じて",
+        "のために"
       ],
       "wrong_choice_explanations": [
-        "次第 has a different grammatical function and doesn't fit the context of this sentence where 次第で is required.",
-        "によって has a different grammatical function and doesn't fit the context of this sentence where 次第で is required.",
-        "によっては has a different grammatical function and doesn't fit the context of this sentence where 次第で is required."
+        "次第に means 'gradually' which doesn't fit the dependency meaning needed here.",
+        "に応じて means 'according to' but is more formal and doesn't emphasize the decisive factor aspect.",
+        "のために means 'for the purpose of' which doesn't express dependency on ingenuity."
       ]
     },
     {
@@ -42,14 +42,14 @@
       "translation": "Depending on how you do it, there is a possibility of success.",
       "blank_target": "次第で",
       "wrong_choices": [
-        "次第",
-        "によって",
-        "によっては"
+        "次第だ",
+        "しだいに",
+        "によると"
       ],
       "wrong_choice_explanations": [
-        "次第 depends on / as soon as, but 〜次第で is needed to express the specific meaning required in this sentence.",
-        "によって indicates agent or means, but 〜次第で is needed to express the specific meaning required in this sentence.",
-        "によっては has a different grammatical function, but 〜次第で is needed to express the specific meaning required in this sentence."
+        "次第だ is a sentence-ending form meaning 'it depends' but doesn't work mid-sentence.",
+        "しだいに means 'gradually' which doesn't express the conditional dependency needed.",
+        "によると means 'according to' (information source) which doesn't fit the context of method dependency."
       ]
     },
     {
@@ -58,14 +58,14 @@
       "translation": "The future depends on the person's feelings.",
       "blank_target": "次第で",
       "wrong_choices": [
-        "次第",
         "によって",
-        "によっては"
+        "のせいで",
+        "を通して"
       ],
       "wrong_choice_explanations": [
-        "次第 has a different grammatical function that doesn't fit this sentence context.",
-        "によって has a different grammatical function that doesn't fit this sentence context.",
-        "によっては has a different grammatical function that doesn't fit this sentence context."
+        "によって indicates agent or cause but lacks the 'it all depends on' nuance of 次第で.",
+        "のせいで implies negative causation (blame) which doesn't fit this neutral dependency context.",
+        "を通して means 'through' (medium) which doesn't express the decisive factor meaning needed."
       ]
     },
     {
@@ -79,9 +79,89 @@
         "によっては"
       ],
       "wrong_choice_explanations": [
-        "〜次第 alone is incomplete; で is needed for 'depending on'.",
-        "〜によって indicates agent; doesn't convey contingency.",
-        "〜によっては introduces alternatives; different meaning."
+        "次第 alone is incomplete; で is needed to complete the pattern meaning 'depending on'.",
+        "によって indicates agent or means but doesn't convey the contingency emphasis of 次第で.",
+        "によっては means 'depending on the case' but implies conditional alternatives rather than direct proportional dependency."
+      ]
+    },
+    {
+      "id": "n2_139_6",
+      "example_sentence": "天候次第で、イベントを中止する。",
+      "translation": "We will cancel the event depending on the weather.",
+      "blank_target": "次第で",
+      "wrong_choices": [
+        "のために",
+        "について",
+        "に関して"
+      ],
+      "wrong_choice_explanations": [
+        "のために means 'for the purpose of' which doesn't express dependency on weather conditions.",
+        "について means 'about/concerning' which doesn't show the decisive factor relationship.",
+        "に関して means 'regarding' which doesn't convey the conditional dependency needed here."
+      ]
+    },
+    {
+      "id": "n2_139_7",
+      "example_sentence": "料理の腕次第で、レストランの評価が決まる。",
+      "translation": "The restaurant's reputation depends on the cooking skills.",
+      "blank_target": "次第で",
+      "wrong_choices": [
+        "によっては",
+        "としては",
+        "にとって"
+      ],
+      "wrong_choice_explanations": [
+        "によっては suggests conditional alternatives but doesn't emphasize the decisive factor aspect.",
+        "としては means 'as for' or 'from the standpoint of' which doesn't express dependency.",
+        "にとって means 'for/to someone' which doesn't fit the context of skill determining reputation."
+      ]
+    },
+    {
+      "id": "n2_139_8",
+      "example_sentence": "交渉のやり方次第で、契約が成立するかもしれない。",
+      "translation": "The contract might be concluded depending on how the negotiation is conducted.",
+      "blank_target": "次第で",
+      "wrong_choices": [
+        "に対して",
+        "において",
+        "を含めて"
+      ],
+      "wrong_choice_explanations": [
+        "に対して means 'toward' or 'against' which doesn't express the dependency relationship.",
+        "において means 'in' or 'at' (location/situation) which doesn't convey the conditional aspect.",
+        "を含めて means 'including' which doesn't fit the context of method determining outcome."
+      ]
+    },
+    {
+      "id": "n2_139_9",
+      "example_sentence": "チームワーク次第で、プロジェクトの成功が左右される。",
+      "translation": "The success of the project depends on teamwork.",
+      "blank_target": "次第で",
+      "wrong_choices": [
+        "をもとに",
+        "に基づいて",
+        "に従って"
+      ],
+      "wrong_choice_explanations": [
+        "をもとに means 'based on' but implies using as reference material, not dependency.",
+        "に基づいて means 'based on' (foundation) but lacks the 'it all depends on' emphasis.",
+        "に従って means 'according to' (following rules) which doesn't fit the teamwork dependency context."
+      ]
+    },
+    {
+      "id": "n2_139_10",
+      "example_sentence": "勉強の仕方次第で、試験の結果は大きく変わる。",
+      "translation": "Test results change greatly depending on how you study.",
+      "blank_target": "次第で",
+      "wrong_choices": [
+        "のおかげで",
+        "にもかかわらず",
+        "に限って"
+      ],
+      "wrong_choice_explanations": [
+        "のおかげで means 'thanks to' which expresses gratitude, not conditional dependency.",
+        "にもかかわらず means 'despite' which expresses contrast, not dependency.",
+        "に限って means 'only when' or 'just when' which doesn't fit the study method context."
       ]
     }
   ]

@@ -15,9 +15,9 @@
         "なんて"
       ],
       "wrong_choice_explanations": [
-        "This pattern does not convey the same meaning as '〜とは' (what... is / the fact that (defining or reacting with surprise or emotion)) needed in this context.",
-        "This pattern does not convey the same meaning as '〜とは' (what... is / the fact that (defining or reacting with surprise or emotion)) needed in this context.",
-        "This pattern does not convey the same meaning as '〜とは' (what... is / the fact that (defining or reacting with surprise or emotion)) needed in this context."
+        "ということ is used for indirect quotation or explanation, but doesn't express the speaker's emotional reaction to an unexpected fact like とは does.",
+        "とは言え means 'even so/although' and is used for concession, not for expressing surprise about an unexpected fact.",
+        "なんて is more casual and expresses emotion but lacks the formal tone and specific nuance of surprise that とは provides here."
       ]
     },
     {
@@ -26,14 +26,14 @@
       "translation": "It was unexpected that such a result would occur.",
       "blank_target": "とは",
       "wrong_choices": [
-        "ということ",
-        "とは言え",
-        "なんて"
+        "ということは",
+        "といえば",
+        "からには"
       ],
       "wrong_choice_explanations": [
-        "ということ has a different grammatical function and doesn't fit the context of this sentence where とは is required.",
-        "とは言え has a different grammatical function and doesn't fit the context of this sentence where とは is required.",
-        "なんて has a different grammatical function and doesn't fit the context of this sentence where とは is required."
+        "ということは means 'that means' and is used for logical deduction, not for expressing surprise about unexpected outcomes.",
+        "といえば means 'speaking of/when it comes to' and is used to introduce a topic, not to express surprise about results.",
+        "からには means 'since/now that' and expresses logical consequence, not emotional reaction to unexpected events."
       ]
     },
     {
@@ -42,14 +42,14 @@
       "translation": "I never dreamed it would be resolved so easily.",
       "blank_target": "とは",
       "wrong_choices": [
-        "ということ",
-        "とは言え",
-        "なんて"
+        "ものの",
+        "だけに",
+        "ばかりに"
       ],
       "wrong_choice_explanations": [
-        "ということ has a different grammatical function, but 〜とは is needed to express the specific meaning required in this sentence.",
-        "とは言え has a different grammatical function, but 〜とは is needed to express the specific meaning required in this sentence.",
-        "なんて has a different grammatical function, but 〜とは is needed to express the specific meaning required in this sentence."
+        "ものの means 'although/even though' and is used for contrast, not for expressing surprise about unexpected ease of resolution.",
+        "だけに means 'precisely because/just because' and expresses cause and effect, not surprise about unexpected outcomes.",
+        "ばかりに means 'just because/simply because' and expresses regret about consequences, not surprise about unexpected events."
       ]
     },
     {
@@ -58,14 +58,14 @@
       "translation": "It is unbelievable that he would break a promise.",
       "blank_target": "とは",
       "wrong_choices": [
-        "ということ",
-        "とは言え",
-        "なんて"
+        "というのは",
+        "といったら",
+        "にしては"
       ],
       "wrong_choice_explanations": [
-        "ということ has a different grammatical function that doesn't fit this sentence context.",
-        "とは言え has a different grammatical function that doesn't fit this sentence context.",
-        "なんて has a different grammatical function that doesn't fit this sentence context."
+        "というのは means 'the reason is' and is used for explanation, not for expressing disbelief about someone's actions.",
+        "といったら means 'when it comes to' and is used for emphasis or complaints, not for expressing disbelief about specific actions.",
+        "にしては means 'for/considering' and is used for comparison against expectations, not for expressing strong disbelief."
       ]
     },
     {
@@ -74,14 +74,94 @@
       "translation": "I did not know it would be so effective.",
       "blank_target": "とは",
       "wrong_choices": [
-        "ということ",
-        "とは言え",
-        "なんて"
+        "ほど",
+        "だけ",
+        "くらい"
       ],
       "wrong_choice_explanations": [
-        "〜ということ explains meaning; doesn't convey reaction.",
-        "〜とは言え is concessive; doesn't define.",
-        "〜なんて is casual; doesn't convey formal definition."
+        "ほど indicates degree or extent but doesn't express the speaker's surprise about discovering something unexpected like とは does.",
+        "だけ means 'only/just' and indicates limitation, not the speaker's reaction to discovering unexpected effectiveness.",
+        "くらい indicates approximate degree and is more casual, lacking the formal tone and surprise nuance that とは provides."
+      ]
+    },
+    {
+      "id": "n2_184_6",
+      "example_sentence": "愛とは、相手を思いやることだ。",
+      "translation": "Love is caring for another person.",
+      "blank_target": "とは",
+      "wrong_choices": [
+        "というのは",
+        "について",
+        "に関して"
+      ],
+      "wrong_choice_explanations": [
+        "というのは means 'the thing called' and is more explanatory, but とは is the standard pattern for formal definitions.",
+        "について means 'about/concerning' and indicates a topic of discussion, not a formal definition like とは provides.",
+        "に関して means 'regarding/concerning' and indicates the subject matter, not the definitional relationship that とは expresses."
+      ]
+    },
+    {
+      "id": "n2_184_7",
+      "example_sentence": "友情とは何か、考えてみよう。",
+      "translation": "Let's think about what friendship is.",
+      "blank_target": "とは",
+      "wrong_choices": [
+        "って",
+        "では",
+        "なら"
+      ],
+      "wrong_choice_explanations": [
+        "って is casual and used for quotation or topic introduction, but lacks the formal definitional nuance that とは provides.",
+        "では means 'then/in that case' and is used for conditional situations, not for asking about definitions.",
+        "なら means 'if/in the case of' and expresses conditionals, not the definitional questioning that とは expresses here."
+      ]
+    },
+    {
+      "id": "n2_184_8",
+      "example_sentence": "まさか彼女が辞めるとは、想像もしていなかった。",
+      "translation": "I never imagined that she would quit.",
+      "blank_target": "とは",
+      "wrong_choices": [
+        "など",
+        "でも",
+        "さえ"
+      ],
+      "wrong_choice_explanations": [
+        "など means 'such as/and so on' and is used for examples, not for expressing shock about unexpected actions.",
+        "でも means 'even/but' and is used for contrast or emphasis, not for expressing surprise about unexpected events.",
+        "さえ means 'even' and emphasizes the extent of something, but doesn't express the speaker's emotional reaction like とは does."
+      ]
+    },
+    {
+      "id": "n2_184_9",
+      "example_sentence": "成功とは、努力の結果である。",
+      "translation": "Success is the result of effort.",
+      "blank_target": "とは",
+      "wrong_choices": [
+        "によって",
+        "として",
+        "において"
+      ],
+      "wrong_choice_explanations": [
+        "によって means 'by means of' and indicates method or agent, not the definitional relationship that とは expresses.",
+        "として means 'as' and indicates role or capacity, not the formal definition that とは provides in this context.",
+        "において means 'in/at' and indicates location or situation, not the definitional equation that とは establishes here."
+      ]
+    },
+    {
+      "id": "n2_184_10",
+      "example_sentence": "こんな美味しい料理を作るとは、君は本当に料理上手だね。",
+      "translation": "To think you can make such delicious food - you're really good at cooking.",
+      "blank_target": "とは",
+      "wrong_choices": [
+        "なんて",
+        "ほど",
+        "くらい"
+      ],
+      "wrong_choice_explanations": [
+        "なんて expresses emotion but is more casual and lacks the formal surprise and admiration nuance that とは provides.",
+        "ほど indicates degree but doesn't express the speaker's impressed reaction to discovering someone's unexpected skill like とは does.",
+        "くらい indicates approximate extent but lacks the emotional reaction and formal tone that とは expresses in this context."
       ]
     }
   ]

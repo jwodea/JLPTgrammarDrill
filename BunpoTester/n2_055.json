@@ -5,83 +5,163 @@
   "level": "N2",
   "exercises": [
     {
-      "id": "n2_055_10",
+      "id": "n2_055_1",
       "example_sentence": "最高の修復技術を用いたとしても、完全な復元は不可能だ。",
-      "translation": "Even using the best techniques, complete restoration is impossible.",
+      "translation": "Even using the best restoration techniques, complete restoration is impossible.",
       "blank_target": "たとしても",
       "wrong_choices": [
-        "たにしても",
-        "ても",
-        "たとしたら"
+        "たとしたら",
+        "たって",
+        "ても"
       ],
       "wrong_choice_explanations": [
-        "たにしても means 'たにしても', which is used in different context, but this sentence requires としても ('としても') for its specific context.",
-        "ても means 'ても', which is used in different context, but this sentence requires としても ('としても') for its specific context.",
-        "たとしたら means 'たとしたら', which is used in different context, but this sentence requires としても ('としても') for its specific context."
+        "たとしたら expresses a hypothetical condition 'if', but this sentence needs the stronger concessive meaning of としても that acknowledges the action while maintaining the conclusion remains unchanged.",
+        "たって is a casual form meaning 'even if' but lacks the formal nuance and specific concessive force that としても provides in this context about technical impossibility.",
+        "ても expresses simple contrast 'even if/though' but としても is needed here to emphasize that despite the exceptional quality of techniques, the conclusion about impossibility still stands."
       ]
     },
     {
-      "id": "n2_055_6",
+      "id": "n2_055_2",
       "example_sentence": "百歳まで生きたとしても、人生は短い。",
       "translation": "Even if you live to be a hundred, life is short.",
       "blank_target": "たとしても",
       "wrong_choices": [
-        "たにしても",
+        "たとしたら",
+        "たところで",
+        "ても"
+      ],
+      "wrong_choice_explanations": [
+        "たとしたら suggests a hypothetical 'if' scenario, but this sentence needs としても to express that even granting the extreme case of living to 100, the fundamental truth about life's brevity remains.",
+        "たところで means 'even if' with a nuance of futility, but this sentence requires としても to make a philosophical concession about longevity while maintaining the perspective on life's shortness.",
+        "ても shows simple contrast, but としても is needed to emphasize the concessive nature—acknowledging the long lifespan while the conclusion about life's brevity doesn't change."
+      ]
+    },
+    {
+      "id": "n2_055_3",
+      "example_sentence": "全力を尽くしたとしても、すべてが成功するとは限らない。",
+      "translation": "Even if you give your all, everything won't necessarily succeed.",
+      "blank_target": "たとしても",
+      "wrong_choices": [
+        "たって",
+        "たとしたら",
+        "ところで"
+      ],
+      "wrong_choice_explanations": [
+        "たって is a casual form meaning 'even if' but doesn't provide the formal concessive nuance that としても gives when acknowledging maximum effort while maintaining realistic expectations.",
+        "たとしたら expresses a hypothetical condition, but this sentence needs としても to concede the premise of giving maximum effort while the conclusion about uncertain outcomes remains firm.",
+        "ところで means 'even if' with futility nuance, but としても is required here to make a balanced concession about effort while maintaining the realistic conclusion about success."
+      ]
+    },
+    {
+      "id": "n2_055_4",
+      "example_sentence": "最善を尽くしたとしても、予期しない障害が発生するかもしれない。",
+      "translation": "Even if we do our best, unexpected obstacles may occur.",
+      "blank_target": "たとしても",
+      "wrong_choices": [
         "ても",
+        "たって",
         "たとしたら"
       ],
       "wrong_choice_explanations": [
-        "'たにしても' has a different grammatical function or nuance than '〜としても'.",
-        "'ても' has a different grammatical function or nuance than '〜としても'.",
-        "'たとしたら' has a different grammatical function or nuance than '〜としても'."
+        "ても expresses simple contrast, but この文脈では としても is needed to acknowledge doing one's best as a concession while the possibility of obstacles remains unchanged.",
+        "たって is casual for 'even if' but lacks the formal concessive strength of としても needed when discussing professional situations involving best efforts and potential obstacles.",
+        "たとしたら presents a hypothetical condition, but this sentence requires としても to grant the premise of doing one's best while maintaining the realistic conclusion about unexpected obstacles."
+      ]
+    },
+    {
+      "id": "n2_055_5",
+      "example_sentence": "最大限努力したとしても、確実な成果が得られるとは限らない。",
+      "translation": "Even with maximum effort, certain results are not guaranteed.",
+      "blank_target": "たとしても",
+      "wrong_choices": [
+        "たとしたら",
+        "ところで",
+        "ても"
+      ],
+      "wrong_choice_explanations": [
+        "たとしたら expresses a hypothetical 'if' condition, but this sentence needs としても to concede maximum effort as a given while the conclusion about uncertain results remains constant.",
+        "ところで means 'even if' with futility implications, but としても is required to make a balanced concession about effort level while maintaining realistic expectations about outcomes.",
+        "ても shows basic contrast, but としても is needed here to formally acknowledge maximum effort as a concession while the fundamental uncertainty about guaranteed results doesn't change."
+      ]
+    },
+    {
+      "id": "n2_055_6",
+      "example_sentence": "有名な大学を卒業したとしても、就職が保証されるわけではない。",
+      "translation": "Even if you graduate from a famous university, employment is not guaranteed.",
+      "blank_target": "したとしても",
+      "wrong_choices": [
+        "したって",
+        "したとしたら",
+        "しても"
+      ],
+      "wrong_choice_explanations": [
+        "したって is a casual form meaning 'even if' but doesn't provide the formal concessive nuance needed when discussing serious topics like university education and employment prospects.",
+        "したとしたら presents a hypothetical scenario, but this sentence requires したとしても to acknowledge graduating from a prestigious university while maintaining the reality about employment uncertainty.",
+        "しても expresses simple contrast, but したとしても is needed to emphasize the concessive nature—granting the prestigious education while the conclusion about job security remains unchanged."
       ]
     },
     {
       "id": "n2_055_7",
-      "example_sentence": "全力を尽くしたとしても、すべてが成功するとは限らない。",
-      "translation": "If possible, I would want to directly see the art of that era.",
-      "blank_target": "たとしても",
+      "example_sentence": "高価な薬を使ったとしても、病気が完全に治るとは限らない。",
+      "translation": "Even if expensive medicine is used, the illness won't necessarily be completely cured.",
+      "blank_target": "ったとしても",
       "wrong_choices": [
-        "たにしても",
-        "ても",
-        "たとしたら"
+        "ったって",
+        "ったとしたら",
+        "っても"
       ],
       "wrong_choice_explanations": [
-        "たにしても does not convey the meaning of 〜としても required in this context: even if / even granting that (concession — the conclusion remains unchanged).",
-        "ても does not convey the meaning of 〜としても required in this context: even if / even granting that (concession — the conclusion remains unchanged).",
-        "たとしたら does not convey the meaning of 〜としても required in this context: even if / even granting that (concession — the conclusion remains unchanged)."
+        "ったって is casual for 'even if' but lacks the formal gravity needed when discussing medical treatments and their limitations in serious health contexts.",
+        "ったとしたら suggests a hypothetical condition, but this sentence needs ったとしても to concede using expensive medicine while the medical reality about cure uncertainty remains firm.",
+        "っても shows basic contrast, but ったとしても is required to formally acknowledge the expensive treatment as a concession while the conclusion about cure limitations doesn't change."
       ]
     },
     {
       "id": "n2_055_8",
-      "example_sentence": "最善を尽くしたとしても、予期しない障害が発生するかもしれない。",
-      "translation": "Even with best efforts, unexpected obstacles may occur.",
+      "example_sentence": "完璧な計画を立てたとしても、実行段階で問題が生じることがある。",
+      "translation": "Even if you make a perfect plan, problems can arise during implementation.",
       "blank_target": "たとしても",
       "wrong_choices": [
-        "たにしても",
-        "ても",
-        "たとしたら"
+        "たところで",
+        "たとしたら",
+        "ても"
       ],
       "wrong_choice_explanations": [
-        "While たにしても is a valid grammar pattern, it doesn't convey the same meaning as 〜としても and doesn't fit this sentence context.",
-        "While ても is a valid grammar pattern, it doesn't convey the same meaning as 〜としても and doesn't fit this sentence context.",
-        "While たとしたら is a valid grammar pattern, it doesn't convey the same meaning as 〜としても and doesn't fit this sentence context."
+        "たところで means 'even if' with futility nuance, but this sentence needs たとしても to acknowledge perfect planning as a concession while maintaining the reality about implementation challenges.",
+        "たとしたら expresses a hypothetical 'if' condition, but としても is required to concede the premise of perfect planning while the conclusion about potential problems remains unchanged.",
+        "ても shows simple contrast, but たとしても is needed to emphasize that even granting the ideal of perfect planning, the fundamental truth about implementation difficulties still holds."
       ]
     },
     {
       "id": "n2_055_9",
-      "example_sentence": "最大限努力したとしても、確実な成果が得られるとは限らない。",
-      "translation": "Even with maximum effort, success is not guaranteed.",
-      "blank_target": "たとしても",
+      "example_sentence": "世界中を旅したとしても、故郷の良さは忘れられない。",
+      "translation": "Even if you travel around the world, you can't forget the goodness of your hometown.",
+      "blank_target": "したとしても",
       "wrong_choices": [
-        "たにしても",
-        "ても",
-        "たとしたら"
+        "したって",
+        "したとしたら",
+        "しても"
       ],
       "wrong_choice_explanations": [
-        "'たにしても' is 'たにしても', but this context requires '〜としても' to indicate even if.",
-        "'ても' is 'ても', but this context requires '〜としても' to indicate even if.",
-        "'たとしたら' is 'たとしたら', but this context requires '〜としても' to indicate even if."
+        "したって is casual for 'even if' but doesn't capture the emotional and reflective nuance that したとしても provides when discussing personal experiences and homeland attachment.",
+        "したとしたら presents a hypothetical scenario, but this sentence requires したとしても to acknowledge extensive travel as a concession while the emotional truth about hometown attachment remains constant.",
+        "しても expresses basic contrast, but したとしても is needed to emphasize the concessive nature—granting world travel experiences while the deep connection to one's hometown doesn't change."
+      ]
+    },
+    {
+      "id": "n2_055_10",
+      "example_sentence": "何度説明したとしても、彼には理解してもらえないだろう。",
+      "translation": "Even if I explain many times, he probably won't understand.",
+      "blank_target": "したとしても",
+      "wrong_choices": [
+        "したって",
+        "したところで",
+        "しても"
+      ],
+      "wrong_choice_explanations": [
+        "したって is casual for 'even if' but doesn't provide the formal resignation that したとしても expresses when acknowledging repeated efforts while accepting likely failure.",
+        "したところで means 'even if' with futility, but this sentence needs したとしても to make a concession about explaining repeatedly while maintaining the conclusion about his lack of understanding.",
+        "しても shows simple contrast, but したとしても is required to emphasize that even granting multiple explanation attempts, the fundamental assessment of his comprehension ability remains unchanged."
       ]
     }
   ]

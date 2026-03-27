@@ -15,73 +15,153 @@
         "とすれば"
       ],
       "wrong_choice_explanations": [
-        "This pattern does not convey the same meaning as '〜ものとして' (on the assumption that / treating it as though (hypothetical premise)) needed in this context.",
-        "means 'as' or 'in the capacity of' (describing a role), which differs from the context/field meaning required here",
-        "This pattern does not convey the same meaning as '〜ものとして' (on the assumption that / treating it as though (hypothetical premise)) needed in this context."
+        "ものとする means 'to decide/stipulate that' and is used for decisions rather than assumptions in planning contexts.",
+        "として means 'as' or 'in the capacity of' but lacks the hypothetical assumption nuance needed here.",
+        "とすれば means 'if we assume' and creates a conditional clause, not a basis for proceeding with plans."
       ]
     },
     {
       "id": "n2_132_2",
       "example_sentence": "予算が十分にあるものとして、提案を作成した。",
-      "translation": "I created the proposal assuming there is sufficient budget.",
+      "translation": "I created the proposal on the assumption that there is sufficient budget.",
       "blank_target": "ものとして",
       "wrong_choices": [
         "ものとする",
-        "として",
-        "とすれば"
+        "つもりで",
+        "ことにして"
       ],
       "wrong_choice_explanations": [
-        "ものとする has a different grammatical function and doesn't fit the context of this sentence where ものとして is required.",
-        "として has a different grammatical function and doesn't fit the context of this sentence where ものとして is required.",
-        "とすれば has a different grammatical function and doesn't fit the context of this sentence where ものとして is required."
+        "ものとする implies making a decision or stipulation, not working under an assumption when creating proposals.",
+        "つもりで means 'with the intention of' but doesn't express the hypothetical assumption about budget availability.",
+        "ことにして means 'deciding to treat as' but is more about personal decisions than working premises."
       ]
     },
     {
       "id": "n2_132_3",
       "example_sentence": "全員が同意するものとして、決定を下した。",
-      "translation": "I made the decision assuming everyone agrees.",
+      "translation": "I made the decision on the assumption that everyone agrees.",
       "blank_target": "ものとして",
       "wrong_choices": [
-        "ものとする",
-        "として",
-        "とすれば"
+        "はずで",
+        "だろうと",
+        "に違いないと"
       ],
       "wrong_choice_explanations": [
-        "ものとする assume / let's say that, but 〜ものとして is needed to express the specific meaning required in this sentence.",
-        "means 'as' or 'in the capacity of'; doesn't indicate the temporal or contextual meaning needed.",
-        "とすれば if we assume / supposing, but 〜ものとして is needed to express the specific meaning required in this sentence."
+        "はずで expresses expectation based on reasoning, not the hypothetical premise needed for decision-making.",
+        "だろうと indicates probability or conjecture, lacking the firm assumption basis required here.",
+        "に違いないと expresses strong conviction/certainty, not the hypothetical assumption framework of ものとして."
       ]
     },
     {
       "id": "n2_132_4",
-      "example_sentence": "計画が予定通り進むものとして、スケジュールを組んだ。",
-      "translation": "I set the schedule on the assumption that the plan proceeds as planned.",
+      "example_sentence": "技術的な問題はないものとして、開発を始めた。",
+      "translation": "We started development on the assumption that there are no technical problems.",
       "blank_target": "ものとして",
       "wrong_choices": [
-        "ものとする",
-        "として",
-        "とすれば"
+        "と思って",
+        "らしくて",
+        "ようで"
       ],
       "wrong_choice_explanations": [
-        "ものとする has a different grammatical function that doesn't fit this sentence context.",
-        "として has a different grammatical function that doesn't fit this sentence context.",
-        "とすれば has a different grammatical function that doesn't fit this sentence context."
+        "と思って expresses personal opinion/belief, not the working assumption premise needed for project decisions.",
+        "らしくて indicates hearsay or appearance, which doesn't fit the context of making development decisions.",
+        "ようで suggests uncertain appearance/seeming, contradicting the firm assumption basis required here."
       ]
     },
     {
       "id": "n2_132_5",
-      "example_sentence": "すべてが順調に行くものとして、対策を講じた。",
-      "translation": "I took measures assuming everything goes smoothly.",
+      "example_sentence": "来年も同じ条件で続けられるものとして、契約を結んだ。",
+      "translation": "We signed the contract on the assumption that we can continue under the same conditions next year.",
       "blank_target": "ものとして",
       "wrong_choices": [
-        "ものとする",
-        "として",
-        "とすれば"
+        "べきだと",
+        "かもしれないと",
+        "に決まって"
       ],
       "wrong_choice_explanations": [
-        "〜ものとする emphasizes stipulation; different from hypothesis.",
-        "〜として alone lacks the hypothetical premise nuance.",
-        "〜とすれば implies questioning; doesn't convey assumption."
+        "べきだと expresses obligation or what should be done, not the assumption basis for contract decisions.",
+        "かもしれないと indicates possibility/uncertainty, contradicting the firm assumption needed for contracts.",
+        "に決まって implies certainty or established pattern, not the hypothetical premise of ものとして."
+      ]
+    },
+    {
+      "id": "n2_132_6",
+      "example_sentence": "会議は予定通り開催されるものとして、資料を準備した。",
+      "translation": "I prepared the materials on the assumption that the meeting will be held as scheduled.",
+      "blank_target": "ものとして",
+      "wrong_choices": [
+        "ということで",
+        "つもりで",
+        "からには"
+      ],
+      "wrong_choice_explanations": [
+        "ということで means 'with that being the case' but doesn't convey the hypothetical assumption needed here.",
+        "つもりで expresses intention but lacks the assumption framework required for preparation decisions.",
+        "からには means 'now that/since' and indicates actual conditions, not hypothetical assumptions."
+      ]
+    },
+    {
+      "id": "n2_132_7",
+      "example_sentence": "彼女が責任者を続けるものとして、新しいプロジェクトを立ち上げた。",
+      "translation": "We launched the new project on the assumption that she will continue as the person in charge.",
+      "blank_target": "ものとして",
+      "wrong_choices": [
+        "以上は",
+        "限りは",
+        "上では"
+      ],
+      "wrong_choice_explanations": [
+        "以上は means 'as long as/since' and indicates actual conditions, not the hypothetical premise of ものとして.",
+        "限りは means 'as long as' and expresses conditional continuation, not assumption-based planning.",
+        "上では means 'from the standpoint of' but doesn't capture the hypothetical assumption nuance needed here."
+      ]
+    },
+    {
+      "id": "n2_132_8",
+      "example_sentence": "売上が増加するものとして、新店舗の計画を進めている。",
+      "translation": "We are proceeding with plans for a new store on the assumption that sales will increase.",
+      "blank_target": "ものとして",
+      "wrong_choices": [
+        "ために",
+        "ので",
+        "から"
+      ],
+      "wrong_choice_explanations": [
+        "ために indicates purpose (in order to increase sales), not the assumption that sales will increase.",
+        "ので expresses reason/cause based on facts, not the hypothetical assumption framework needed here.",
+        "から indicates reason based on actual circumstances, not the assumption premise of ものとして."
+      ]
+    },
+    {
+      "id": "n2_132_9",
+      "example_sentence": "法律が改正されないものとして、来年度の方針を決定した。",
+      "translation": "We decided next year's policy on the assumption that the law will not be revised.",
+      "blank_target": "ものとして",
+      "wrong_choices": [
+        "わけで",
+        "せいで",
+        "おかげで"
+      ],
+      "wrong_choice_explanations": [
+        "わけで means 'for the reason that' and indicates actual reasons, not hypothetical assumptions for policy-making.",
+        "せいで indicates negative cause/blame, which doesn't fit the neutral assumption context here.",
+        "おかげで expresses positive cause/thanks to, inappropriate for assumption-based decision making."
+      ]
+    },
+    {
+      "id": "n2_132_10",
+      "example_sentence": "全ての許可が下りるものとして、建設スケジュールを組んだ。",
+      "translation": "We set the construction schedule on the assumption that all permits will be approved.",
+      "blank_target": "ものとして",
+      "wrong_choices": [
+        "ことから",
+        "だけに",
+        "ばかりに"
+      ],
+      "wrong_choice_explanations": [
+        "ことから means 'from the fact that' and indicates reasoning from actual facts, not hypothetical assumptions.",
+        "だけに means 'precisely because' and emphasizes actual reasons, not assumption-based planning.",
+        "ばかりに means 'just because of' and indicates regrettable causes, inappropriate for neutral scheduling assumptions."
       ]
     }
   ]

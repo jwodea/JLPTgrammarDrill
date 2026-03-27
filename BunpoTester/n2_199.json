@@ -15,73 +15,153 @@
         "でもあり"
       ],
       "wrong_choice_explanations": [
-        "means 'as' or 'in the capacity of' (describing a role), which differs from the context/field meaning required here",
-        "This pattern does not convey the same meaning as '〜にして' (being both / at the same time as / even for (unexpected or emphatic combination)) needed in this context.",
-        "This pattern does not convey the same meaning as '〜にして' (being both / at the same time as / even for (unexpected or emphatic combination)) needed in this context."
+        "として means 'as' or 'in the capacity of' and describes a single role, but this sentence emphasizes the dual nature of being both player and coach simultaneously.",
+        "であり is a simple connective form meaning 'and is' but lacks the emphatic nuance of にして that highlights the impressive combination of roles.",
+        "でもあり means 'is also' but doesn't convey the emphasis on the unexpected or remarkable nature of combining these two roles like にして does."
       ]
     },
     {
       "id": "n2_199_2",
-      "example_sentence": "彼女は医者にして、著者でもある。",
-      "translation": "She is both a doctor and also an author.",
+      "example_sentence": "彼女は医者にして、小説家でもある。",
+      "translation": "She is both a doctor and a novelist.",
       "blank_target": "にして",
       "wrong_choices": [
         "として",
-        "であり",
-        "でもあり"
+        "ながら",
+        "つつ"
       ],
       "wrong_choice_explanations": [
-        "として has a different grammatical function and doesn't fit the context of this sentence where にして is required.",
-        "であり has a different grammatical function and doesn't fit the context of this sentence where にして is required.",
-        "でもあり has a different grammatical function and doesn't fit the context of this sentence where にして is required."
+        "として indicates acting in a specific capacity but doesn't emphasize the remarkable combination of being both doctor and novelist that にして expresses.",
+        "ながら indicates simultaneous actions or contradictory states, but this sentence emphasizes dual professions rather than conflicting activities.",
+        "つつ indicates simultaneous actions in progress, but this sentence describes permanent professional identities rather than ongoing actions."
       ]
     },
     {
       "id": "n2_199_3",
-      "example_sentence": "その企業は利益を上げているにして、社会貢献も果たしている。",
-      "translation": "While making profits, the company also fulfills social responsibility.",
+      "example_sentence": "二十歳にして、すでに会社を経営している。",
+      "translation": "Even at twenty years old, he is already running a company.",
       "blank_target": "にして",
       "wrong_choices": [
-        "として",
-        "であり",
-        "でもあり"
+        "なのに",
+        "でも",
+        "だけど"
       ],
       "wrong_choice_explanations": [
-        "means 'as' or 'in the capacity of'; doesn't indicate the temporal or contextual meaning needed.",
-        "であり has a different grammatical function, but 〜にして is needed to express the specific meaning required in this sentence.",
-        "でもあり has a different grammatical function, but 〜にして is needed to express the specific meaning required in this sentence."
+        "なのに expresses contradiction or complaint ('despite being'), but にして here emphasizes the remarkable achievement at such a young age without negative connotation.",
+        "でも is a casual conjunction meaning 'but' and lacks the formal, emphatic tone that にして provides in highlighting this impressive accomplishment.",
+        "だけど is an informal conjunction meaning 'but' and doesn't convey the emphasis on the unexpectedness of running a company at twenty that にして expresses."
       ]
     },
     {
       "id": "n2_199_4",
-      "example_sentence": "彼はリーダーにして、最前線で働く。",
-      "translation": "He is both a leader and also works on the front lines.",
+      "example_sentence": "彼は学者にして、実業家でもある。",
+      "translation": "He is both a scholar and a businessman.",
       "blank_target": "にして",
       "wrong_choices": [
-        "として",
-        "であり",
-        "でもあり"
+        "かつ",
+        "そして",
+        "また"
       ],
       "wrong_choice_explanations": [
-        "として has a different grammatical function that doesn't fit this sentence context.",
-        "であり has a different grammatical function that doesn't fit this sentence context.",
-        "でもあり has a different grammatical function that doesn't fit this sentence context."
+        "かつ means 'and' or 'moreover' but lacks the emphasis on the impressive or unexpected combination of scholar and businessman that にして provides.",
+        "そして is a simple conjunction meaning 'and then' or 'and' but doesn't convey the emphatic meaning of being both roles simultaneously like にして.",
+        "また means 'also' or 'in addition' but doesn't emphasize the remarkable nature of combining these typically different career paths like にして does."
       ]
     },
     {
       "id": "n2_199_5",
       "example_sentence": "その国は発展途上国にして、高い技術力を持つ。",
-      "translation": "While being a developing country, it has high technological capabilities.",
+      "translation": "Even though it's a developing country, it has high technological capabilities.",
       "blank_target": "にして",
       "wrong_choices": [
-        "として",
-        "であり",
-        "でもあり"
+        "だが",
+        "けれど",
+        "しかし"
       ],
       "wrong_choice_explanations": [
-        "〜として alone doesn't convey the emphatic combination.",
-        "〜であり is simple conjunction; doesn't convey emphasis.",
-        "〜でもあり doesn't convey the unexpected nature."
+        "だが is a formal conjunction meaning 'but' and expresses simple contrast, while にして emphasizes the unexpected or remarkable nature of this combination.",
+        "けれど means 'but' or 'however' and shows contradiction, but にして here emphasizes the impressive coexistence rather than mere contrast.",
+        "しかし means 'however' and indicates contrast or opposition, but にして emphasizes the noteworthy combination rather than simple contradiction."
+      ]
+    },
+    {
+      "id": "n2_199_6",
+      "example_sentence": "十歳にして、大学レベルの数学を理解している。",
+      "translation": "Even at ten years old, he understands university-level mathematics.",
+      "blank_target": "にして",
+      "wrong_choices": [
+        "なのに",
+        "でも",
+        "のくせに"
+      ],
+      "wrong_choice_explanations": [
+        "なのに expresses dissatisfaction or contradiction ('despite being'), but にして emphasizes the remarkable achievement without negative feelings.",
+        "でも means 'but' and shows simple contrast, while にして emphasizes the extraordinary nature of understanding advanced math at such a young age.",
+        "のくせに carries a critical or negative nuance ('despite being'), but にして here expresses admiration for this impressive accomplishment."
+      ]
+    },
+    {
+      "id": "n2_199_7",
+      "example_sentence": "彼女は母親にして、会社の社長でもある。",
+      "translation": "She is both a mother and a company president.",
+      "blank_target": "にして",
+      "wrong_choices": [
+        "でありながら",
+        "である一方",
+        "でもって"
+      ],
+      "wrong_choice_explanations": [
+        "でありながら means 'while being' and often implies contradiction or difficulty, but にして here emphasizes the admirable combination without suggesting conflict.",
+        "である一方 means 'on one hand' and sets up a contrast, but にして emphasizes the impressive dual role rather than presenting opposing sides.",
+        "でもって is a colloquial expression meaning 'with' or 'by means of' and doesn't fit this context of describing dual roles like にして does."
+      ]
+    },
+    {
+      "id": "n2_199_8",
+      "example_sentence": "その作品は古典にして、現代的な魅力も持っている。",
+      "translation": "That work is both a classic and has modern appeal.",
+      "blank_target": "にして",
+      "wrong_choices": [
+        "でありつつ",
+        "としても",
+        "にとって"
+      ],
+      "wrong_choice_explanations": [
+        "でありつつ means 'while being' and indicates simultaneous states, but にして better emphasizes the remarkable combination of classic and modern qualities.",
+        "としても means 'even as' or 'even if' and suggests hypothetical situations, which doesn't fit this description of the work's actual dual nature.",
+        "にとって means 'for' or 'to' and indicates perspective or benefit, but doesn't express the dual characteristics that にして emphasizes here."
+      ]
+    },
+    {
+      "id": "n2_199_9",
+      "example_sentence": "五歳にして、三か国語を話すことができる。",
+      "translation": "Even at five years old, she can speak three languages.",
+      "blank_target": "にして",
+      "wrong_choices": [
+        "なのに",
+        "でも",
+        "といえども"
+      ],
+      "wrong_choice_explanations": [
+        "なのに expresses surprise with some negative nuance ('despite being'), but にして emphasizes the impressive achievement in a purely admiring way.",
+        "でも means 'but' and shows contrast, while にして emphasizes the extraordinary nature of this linguistic ability at such a young age.",
+        "といえども means 'even though' or 'although' and suggests concession, but にして here emphasizes the remarkable accomplishment without concessive meaning."
+      ]
+    },
+    {
+      "id": "n2_199_10",
+      "example_sentence": "彼は新人にして、ベテランのような技術を持っている。",
+      "translation": "Even though he's a newcomer, he has veteran-like skills.",
+      "blank_target": "にして",
+      "wrong_choices": [
+        "なのに",
+        "でありながら",
+        "くせに"
+      ],
+      "wrong_choice_explanations": [
+        "なのに expresses contradiction with surprise or criticism, but にして here emphasizes the admirable and unexpected high skill level.",
+        "でありながら means 'while being' and often implies some inconsistency or problem, but にして emphasizes the impressive nature without negative connotation.",
+        "くせに carries a critical or dismissive tone ('despite being'), but にして expresses genuine admiration for this remarkable combination."
       ]
     }
   ]

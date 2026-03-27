@@ -15,9 +15,9 @@
         "を問わないで"
       ],
       "wrong_choice_explanations": [
-        "This pattern does not convey the same meaning as '〜を問わず' (regardless of / irrespective of / without distinction) needed in this context.",
-        "This pattern does not convey the same meaning as '〜を問わず' (regardless of / irrespective of / without distinction) needed in this context.",
-        "This pattern does not convey the same meaning as '〜を問わず' (regardless of / irrespective of / without distinction) needed in this context."
+        "にかかわらず means 'regardless of' but is more formal and less commonly used in this context than を問わず.",
+        "に限らず means 'not limited to' which suggests inclusion rather than complete disregard for the factor.",
+        "を問わないで is an incorrect grammatical form; the standard expression is を問わず."
       ]
     },
     {
@@ -26,14 +26,14 @@
       "translation": "The same salary is paid regardless of gender.",
       "blank_target": "を問わず",
       "wrong_choices": [
-        "にかかわらず",
-        "に限らず",
-        "を問わないで"
+        "に関係なく",
+        "によらず",
+        "を除いて"
       ],
       "wrong_choice_explanations": [
-        "にかかわらず has a different grammatical function and doesn't fit the context of this sentence where を問わず is required.",
-        "に限らず has a different grammatical function and doesn't fit the context of this sentence where を問わず is required.",
-        "を問わないで has a different grammatical function and doesn't fit the context of this sentence where を問わず is required."
+        "に関係なく means 'regardless of' but is less formal and doesn't carry the same nuance of complete non-consideration.",
+        "によらず means 'not depending on' but focuses more on dependency rather than complete disregard.",
+        "を除いて means 'except for' which would exclude rather than include all genders equally."
       ]
     },
     {
@@ -42,14 +42,14 @@
       "translation": "Anyone can take the exam regardless of nationality.",
       "blank_target": "を問わず",
       "wrong_choices": [
-        "にかかわらず",
-        "に限らず",
-        "を問わないで"
+        "に限定せず",
+        "を条件とせず",
+        "に関わりなく"
       ],
       "wrong_choice_explanations": [
-        "にかかわらず in spite of / regardless of, but 〜を問わず is needed to express the specific meaning required in this sentence.",
-        "に限らず not limited to / not only, but 〜を問わず is needed to express the specific meaning required in this sentence.",
-        "を問わないで indicates location of action or means/method, but 〜を問わず has a specific meaning, which is what this sentence requires."
+        "に限定せず means 'not limiting to' but doesn't convey the complete disregard for nationality that を問わず expresses.",
+        "を条件とせず means 'not making it a condition' but is grammatically awkward in this context.",
+        "に関わりなく means 'regardless of' but is less formal and not the standard expression for this type of statement."
       ]
     },
     {
@@ -58,14 +58,14 @@
       "translation": "We are recruiting newcomers regardless of experience.",
       "blank_target": "を問わず",
       "wrong_choices": [
-        "にかかわらず",
-        "に限らず",
-        "を問わないで"
+        "は別として",
+        "を除けば",
+        "にしても"
       ],
       "wrong_choice_explanations": [
-        "にかかわらず has a different grammatical function that doesn't fit this sentence context.",
-        "に限らず has a different grammatical function that doesn't fit this sentence context.",
-        "を問わないで has a different grammatical function that doesn't fit this sentence context."
+        "は別として means 'setting aside' which suggests the factor is being considered separately, not disregarded entirely.",
+        "を除けば means 'if we exclude' which would mean experience is being excluded from consideration in a different way.",
+        "にしても is a conditional form meaning 'even if' which doesn't fit the grammatical structure needed here."
       ]
     },
     {
@@ -74,14 +74,94 @@
       "translation": "Anyone can apply regardless of educational background.",
       "blank_target": "を問わず",
       "wrong_choices": [
-        "にかかわらず",
-        "に限らず",
-        "を問わないで"
+        "を気にせず",
+        "は抜きにして",
+        "なしに"
       ],
       "wrong_choice_explanations": [
-        "〜にかかわらず is more formal; similar meaning.",
-        "〜に限らず extends beyond; doesn't mean 'regardless'.",
-        "〜を問わないで is awkward; を問わず is correct form."
+        "を気にせず means 'without worrying about' but implies a personal attitude rather than an official policy.",
+        "は抜きにして means 'leaving out' but suggests temporary exclusion rather than permanent non-consideration.",
+        "なしに means 'without' but is grammatically incomplete and doesn't form a proper expression with 学歴."
+      ]
+    },
+    {
+      "id": "n2_133_6",
+      "example_sentence": "時間を問わず、いつでもお電話ください。",
+      "translation": "Please call anytime, regardless of the time.",
+      "blank_target": "を問わず",
+      "wrong_choices": [
+        "に構わず",
+        "を考えず",
+        "は無視して"
+      ],
+      "wrong_choice_explanations": [
+        "に構わず means 'without caring about' but implies a lack of consideration rather than an official policy of non-discrimination.",
+        "を考えず means 'without thinking about' but doesn't convey the formal nuance of を問わず.",
+        "は無視して means 'ignoring' which has a negative connotation inappropriate for this polite invitation."
+      ]
+    },
+    {
+      "id": "n2_133_7",
+      "example_sentence": "男女を問わず、同じ条件で働ける。",
+      "translation": "Both men and women can work under the same conditions.",
+      "blank_target": "を問わず",
+      "wrong_choices": [
+        "を分けず",
+        "の区別なく",
+        "に差をつけず"
+      ],
+      "wrong_choice_explanations": [
+        "を分けず means 'without dividing' but doesn't form a standard grammatical pattern with 男女.",
+        "の区別なく means 'without distinction' and has similar meaning but を問わず is the correct pattern being tested.",
+        "に差をつけず means 'without making a difference' but focuses on treatment rather than consideration of the factor itself."
+      ]
+    },
+    {
+      "id": "n2_133_8",
+      "example_sentence": "資格を問わず、やる気のある人を採用します。",
+      "translation": "We will hire motivated people regardless of qualifications.",
+      "blank_target": "を問わず",
+      "wrong_choices": [
+        "を重視せず",
+        "は度外視して",
+        "抜きで"
+      ],
+      "wrong_choice_explanations": [
+        "を重視せず means 'without emphasizing' but suggests qualifications might still be considered to some degree.",
+        "は度外視して means 'disregarding' but is more formal and has a different nuance than を問わず.",
+        "抜きで means 'without' but is incomplete grammatically and doesn't form a proper expression with 資格."
+      ]
+    },
+    {
+      "id": "n2_133_9",
+      "example_sentence": "出身地を問わず、すべての学生が歓迎される。",
+      "translation": "All students are welcome regardless of their place of origin.",
+      "blank_target": "を問わず",
+      "wrong_choices": [
+        "に関わらず",
+        "を選ばず",
+        "の如何を問わず"
+      ],
+      "wrong_choice_explanations": [
+        "に関わらず means 'regardless of' but を問わず is the more standard and formal expression for this context.",
+        "を選ばず means 'without choosing' but doesn't convey the nuance of non-consideration that を問わず expresses.",
+        "の如何を問わず is overly formal and archaic; を問わず alone is the modern standard expression."
+      ]
+    },
+    {
+      "id": "n2_133_10",
+      "example_sentence": "職種を問わず、全従業員にボーナスを支給する。",
+      "translation": "Bonuses will be paid to all employees regardless of job type.",
+      "blank_target": "を問わず",
+      "wrong_choices": [
+        "を選択せず",
+        "によらず",
+        "を考慮せず"
+      ],
+      "wrong_choice_explanations": [
+        "を選択せず means 'without selecting' but doesn't form a natural expression with 職種 in this context.",
+        "によらず means 'not depending on' but を問わず is the more appropriate pattern for expressing non-discrimination.",
+        "を考慮せず means 'without considering' but implies negligence rather than the intentional equal treatment expressed by を問わず."
       ]
     }
   ]

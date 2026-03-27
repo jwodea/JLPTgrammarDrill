@@ -5,9 +5,9 @@
   "level": "N2",
   "exercises": [
     {
-      "id": "n2_054_10",
+      "id": "n2_054_1",
       "example_sentence": "どのような批評があるにしても、その作品は歴史に残る。",
-      "translation": "Whatever criticism exists, the work enters history.",
+      "translation": "Whatever criticism there may be, that work will remain in history.",
       "blank_target": "にしても",
       "wrong_choices": [
         "としても",
@@ -15,73 +15,153 @@
         "にせよ"
       ],
       "wrong_choice_explanations": [
-        "としても means 'としても', which is used in different context, but this sentence requires にしても ('にしても') for its specific context.",
-        "にしては means 'for / considering', which is used in evaluation relative to expectation, but this sentence requires にしても ('にしても') for its specific context.",
-        "にせよ means 'にせよ', which is used in different context, but this sentence requires にしても ('にしても') for its specific context."
+        "としても means 'even if' for hypothetical situations, but にしても is needed here to acknowledge actual criticism while dismissing its importance.",
+        "にしては means 'for/considering' and is used for evaluating something relative to expectations, which doesn't fit this context of dismissing criticism.",
+        "にせよ means 'whether...or not' and presents alternatives, but this sentence acknowledges one condition (criticism exists) while dismissing it."
+      ]
+    },
+    {
+      "id": "n2_054_2",
+      "example_sentence": "どんなに忙しいにしても、家族との時間は大切にすべきだ。",
+      "translation": "No matter how busy one may be, family time should be valued.",
+      "blank_target": "にしても",
+      "wrong_choices": [
+        "といっても",
+        "にしては",
+        "としたら"
+      ],
+      "wrong_choice_explanations": [
+        "といっても means 'even though/although' but doesn't convey the dismissive nuance that にしても has in acknowledging busyness while prioritizing family time.",
+        "にしては means 'for/considering' and is used for evaluation, not for dismissing a condition like busyness in favor of something more important.",
+        "としたら means 'if/supposing that' and presents a hypothetical condition, but this sentence acknowledges actual busyness while dismissing its importance."
+      ]
+    },
+    {
+      "id": "n2_054_3",
+      "example_sentence": "理由が何であるにしても、その行動は許されない。",
+      "translation": "Whatever the reason may be, that behavior is unacceptable.",
+      "blank_target": "にしても",
+      "wrong_choices": [
+        "であれ",
+        "だとしても",
+        "にかかわらず"
+      ],
+      "wrong_choice_explanations": [
+        "であれ means 'whether...or' and presents alternatives, but this sentence acknowledges any possible reason while dismissing its relevance to the judgment.",
+        "だとしても means 'even if it is the case that' but is more hypothetical, while にしても acknowledges the actual existence of reasons while dismissing them.",
+        "にかかわらず means 'regardless of' but is more neutral, while にしても has the specific nuance of acknowledging then dismissing the condition."
+      ]
+    },
+    {
+      "id": "n2_054_4",
+      "example_sentence": "どのような理由があるにしても、ルール違反は許されない。",
+      "translation": "Whatever reasons there may be, rule violations are not acceptable.",
+      "blank_target": "にしても",
+      "wrong_choices": [
+        "とはいえ",
+        "にもかかわらず",
+        "ところで"
+      ],
+      "wrong_choice_explanations": [
+        "とはいえ means 'having said that' and introduces a contrasting statement, but doesn't have the dismissive acknowledgment nuance of にしても.",
+        "にもかかわらず means 'despite/in spite of' and shows contrast, but にしても specifically acknowledges reasons while dismissing their validity.",
+        "ところで means 'by the way' and changes topics completely, which doesn't fit this context of addressing reasons for rule violations."
+      ]
+    },
+    {
+      "id": "n2_054_5",
+      "example_sentence": "どのような結論が得られるにしても、プロセスが重要だ。",
+      "translation": "Whatever conclusions may be reached, the process is important.",
+      "blank_target": "にしても",
+      "wrong_choices": [
+        "にしろ",
+        "といえども",
+        "ばかりか"
+      ],
+      "wrong_choice_explanations": [
+        "にしろ means 'whether...or not' and presents alternatives, but this sentence acknowledges any conclusion while emphasizing the process's importance.",
+        "といえども means 'even though/although' but is more formal and doesn't convey the specific dismissive acknowledgment that にしても expresses.",
+        "ばかりか means 'not only...but also' and adds information, which doesn't fit this context of acknowledging conclusions while prioritizing process."
       ]
     },
     {
       "id": "n2_054_6",
-      "example_sentence": "どんなに忙しいにしても、家族との時間は大切にすべきだ。",
-      "translation": "No matter how busy, family time should be cherished.",
+      "example_sentence": "成績が悪いにしても、努力している姿勢は評価したい。",
+      "translation": "Even if the grades are poor, I want to acknowledge the effort being made.",
       "blank_target": "にしても",
       "wrong_choices": [
-        "としても",
-        "にしては",
-        "にせよ"
+        "からには",
+        "に対して",
+        "につけて"
       ],
       "wrong_choice_explanations": [
-        "'としても' has a different grammatical function or nuance than '〜にしても'.",
-        "'にしては' has a different grammatical function or nuance than '〜にしても'.",
-        "'にせよ' has a different grammatical function or nuance than '〜にしても'."
+        "からには means 'since/now that' and indicates a logical consequence, but this sentence acknowledges poor grades while dismissing their importance in favor of effort.",
+        "に対して means 'toward/against' and shows direction or opposition, which doesn't fit this context of acknowledging grades while valuing effort.",
+        "につけて means 'whenever/on the occasion of' and indicates timing, but this sentence needs にしても to acknowledge grades while dismissing their significance."
       ]
     },
     {
       "id": "n2_054_7",
-      "example_sentence": "理由が何であるにしても、その行動は許されない。",
-      "translation": "Even using the best restoration techniques, complete restoration is impossible.",
+      "example_sentence": "経験が少ないにしても、やる気があれば大丈夫だ。",
+      "translation": "Even if experience is limited, it's fine as long as there's motivation.",
       "blank_target": "にしても",
       "wrong_choices": [
-        "としても",
-        "にしては",
-        "にせよ"
+        "について",
+        "において",
+        "に関して"
       ],
       "wrong_choice_explanations": [
-        "としても does not convey the meaning of 〜にしても required in this context: even if / regardless of whether (acknowledges the condition but dismisses it).",
-        "にしては does not convey the meaning of 〜にしても required in this context: even if / regardless of whether (acknowledges the condition but dismisses it).",
-        "にせよ does not convey the meaning of 〜にしても required in this context: even if / regardless of whether (acknowledges the condition but dismisses it)."
+        "について means 'about/regarding' and introduces a topic, but this sentence needs にしても to acknowledge limited experience while dismissing its importance.",
+        "において means 'in/at' and indicates location or situation, which doesn't convey the dismissive acknowledgment needed in this context.",
+        "に関して means 'regarding/concerning' and introduces a topic, but にしても is needed to acknowledge lack of experience while prioritizing motivation."
       ]
     },
     {
       "id": "n2_054_8",
-      "example_sentence": "どのような理由があるにしても、ルール違反は許されない。",
-      "translation": "Whatever reasons exist, rule violations are not acceptable.",
+      "example_sentence": "天気が悪いにしても、予定通り出発します。",
+      "translation": "Even if the weather is bad, we will depart as scheduled.",
       "blank_target": "にしても",
       "wrong_choices": [
-        "としても",
-        "にしては",
-        "にせよ"
+        "のせいで",
+        "によって",
+        "をもとに"
       ],
       "wrong_choice_explanations": [
-        "While としても is a valid grammar pattern, it doesn't convey the same meaning as 〜にしても and doesn't fit this sentence context.",
-        "While にしては is a valid grammar pattern, it doesn't convey the same meaning as 〜にしても and doesn't fit this sentence context.",
-        "にせよ means 'whether or not'; indicates a concessive or alternative condition; it doesn't fit this sentence context where 〜にしても is needed."
+        "のせいで means 'because of/due to' and indicates cause for a negative result, but this sentence acknowledges bad weather while dismissing its effect on plans.",
+        "によって means 'by means of/depending on' and shows method or dependency, which doesn't fit this context of dismissing weather conditions.",
+        "をもとに means 'based on' and indicates foundation for action, but にしても is needed to acknowledge weather while proceeding regardless."
       ]
     },
     {
       "id": "n2_054_9",
-      "example_sentence": "どのような結論が得られるにしても、プロセスが重要だ。",
-      "translation": "Whatever conclusions emerge, the process matters most.",
+      "example_sentence": "どんなに高価であるにしても、必要なものは買わなければならない。",
+      "translation": "No matter how expensive it may be, necessary things must be bought.",
       "blank_target": "にしても",
       "wrong_choices": [
-        "としても",
-        "にしては",
-        "にせよ"
+        "に応じて",
+        "に比べて",
+        "に加えて"
       ],
       "wrong_choice_explanations": [
-        "'としても' is 'としても', but this context requires '〜にしても' to indicate even if.",
-        "'にしては' is 'にしては', but this context requires '〜にしても' to indicate even if.",
-        "'にせよ' is 'にせよ', but this context requires '〜にしても' to indicate even if."
+        "に応じて means 'according to/depending on' and shows correspondence, but this sentence acknowledges high cost while dismissing it in favor of necessity.",
+        "に比べて means 'compared to' and makes comparisons, which doesn't fit this context of acknowledging expense while prioritizing necessity.",
+        "に加えて means 'in addition to' and adds information, but にしても is needed to acknowledge high cost while dismissing its relevance to the purchase decision."
+      ]
+    },
+    {
+      "id": "n2_054_10",
+      "example_sentence": "時間がかかるにしても、正確な作業を心がけたい。",
+      "translation": "Even if it takes time, I want to focus on accurate work.",
+      "blank_target": "にしても",
+      "wrong_choices": [
+        "につき",
+        "にとって",
+        "に際して"
+      ],
+      "wrong_choice_explanations": [
+        "につき means 'per/due to' and indicates rate or reason, but this sentence acknowledges time consumption while dismissing it in favor of accuracy.",
+        "にとって means 'for/to' and shows perspective or benefit, which doesn't convey the dismissive acknowledgment that にしても expresses here.",
+        "に際して means 'on the occasion of/when' and indicates timing, but にしても is needed to acknowledge time requirements while prioritizing quality."
       ]
     }
   ]

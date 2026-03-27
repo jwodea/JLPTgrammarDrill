@@ -1,0 +1,168 @@
+{
+  "id": "gp_027",
+  "pattern": "～てください",
+  "meaning": "Please do ~",
+  "level": "N5",
+  "exercises": [
+    {
+      "id": 1,
+      "example_sentence": "ちょっと待っ__ください。",
+      "translation": "Please wait a moment.",
+      "blank_target": "て",
+      "wrong_choices": [
+        "た",
+        "ます",
+        "で"
+      ],
+      "wrong_choice_explanations": {
+        "た": "た is past tense form — it doesn't combine with ください to make polite requests.",
+        "ます": "ます cannot directly connect to ください — the te-form is needed for polite requests.",
+        "で": "で is a particle meaning 'at/by' — it cannot function as a verb connector with ください."
+      }
+    },
+    {
+      "id": 2,
+      "example_sentence": "窓を開け__ください。",
+      "translation": "Please open the window.",
+      "blank_target": "て",
+      "wrong_choices": [
+        "た",
+        "ない",
+        "よう"
+      ],
+      "wrong_choice_explanations": {
+        "た": "た indicates past tense — it doesn't work with ください to make present requests.",
+        "ない": "ない is negative form — it would create 'please don't open' which changes the meaning entirely.",
+        "よう": "よう indicates volitional/intention — it doesn't combine with ください for making requests."
+      }
+    },
+    {
+      "id": 3,
+      "example_sentence": "もう一度言っ__ください。",
+      "translation": "Please say it one more time.",
+      "blank_target": "て",
+      "wrong_choices": [
+        "た",
+        "ます",
+        "ば"
+      ],
+      "wrong_choice_explanations": {
+        "た": "た is past tense — it doesn't create proper polite request structure with ください.",
+        "ます": "ます is polite form but doesn't connect to ください — te-form is required for requests.",
+        "ば": "ば is conditional form — it doesn't combine with ください to make polite requests."
+      }
+    },
+    {
+      "id": 4,
+      "example_sentence": "宿題を手伝っ__ください。",
+      "translation": "Please help me with my homework.",
+      "blank_target": "て",
+      "wrong_choices": [
+        "た",
+        "ながら",
+        "から"
+      ],
+      "wrong_choice_explanations": {
+        "た": "た is past tense form — it doesn't work with ください for making present requests.",
+        "ながら": "ながら means 'while doing' — it doesn't combine with ください to create polite requests.",
+        "から": "から means 'from/because' — it doesn't function as a verb connector with ください."
+      }
+    },
+    {
+      "id": 5,
+      "example_sentence": "静かにし__ください。",
+      "translation": "Please be quiet.",
+      "blank_target": "て",
+      "wrong_choices": [
+        "た",
+        "ます",
+        "ない"
+      ],
+      "wrong_choice_explanations": {
+        "た": "た indicates past action — it doesn't work with ください to make present requests.",
+        "ます": "ます cannot directly connect to ください — the te-form is needed for polite requests.",
+        "ない": "ない is negative form — it would create 'please don't be quiet' which is the opposite meaning."
+      }
+    },
+    {
+      "id": 6,
+      "example_sentence": "この本を読ん__ください。",
+      "translation": "Please read this book.",
+      "blank_target": "で",
+      "wrong_choices": [
+        "だ",
+        "た",
+        "ば"
+      ],
+      "wrong_choice_explanations": {
+        "だ": "だ is copula — it doesn't work as a verb connector with ください in this context.",
+        "た": "た is past tense — it doesn't create proper request structure with ください.",
+        "ば": "ば is conditional — it doesn't combine with ください to make polite requests."
+      }
+    },
+    {
+      "id": 7,
+      "example_sentence": "早く来__ください。",
+      "translation": "Please come quickly.",
+      "blank_target": "て",
+      "wrong_choices": [
+        "た",
+        "ます",
+        "よう"
+      ],
+      "wrong_choice_explanations": {
+        "た": "た is past tense — it doesn't work with ください for making present requests.",
+        "ます": "ます is polite form but doesn't connect properly to ください — te-form is required.",
+        "よう": "よう indicates volitional/intention — it doesn't combine with ください for making requests."
+      }
+    },
+    {
+      "id": 8,
+      "example_sentence": "名前を書い__ください。",
+      "translation": "Please write your name.",
+      "blank_target": "て",
+      "wrong_choices": [
+        "た",
+        "ながら",
+        "で"
+      ],
+      "wrong_choice_explanations": {
+        "た": "た is past tense form — it doesn't create proper polite request with ください.",
+        "ながら": "ながら means 'while doing' — it doesn't combine with ください to make polite requests.",
+        "で": "で is a particle — it cannot function as the required verb connector in this request structure."
+      }
+    },
+    {
+      "id": 9,
+      "example_sentence": "電気を消し__ください。",
+      "translation": "Please turn off the lights.",
+      "blank_target": "て",
+      "wrong_choices": [
+        "た",
+        "ます",
+        "そう"
+      ],
+      "wrong_choice_explanations": {
+        "た": "た is past tense — it doesn't work with ください to make present requests.",
+        "ます": "ます cannot directly connect to ください — the te-form is needed for polite requests.",
+        "そう": "そう indicates appearance or hearsay — it doesn't combine with ください for making requests."
+      }
+    },
+    {
+      "id": 10,
+      "example_sentence": "ゆっくり話し__ください。",
+      "translation": "Please speak slowly.",
+      "blank_target": "て",
+      "wrong_choices": [
+        "た",
+        "ない",
+        "ば"
+      ],
+      "wrong_choice_explanations": {
+        "た": "た is past tense form — it doesn't create proper request structure with ください.",
+        "ない": "ない is negative form — it would mean 'please don't speak' which contradicts the intended meaning.",
+        "ば": "ば is conditional form — it doesn't combine with ください to make polite requests."
+      }
+    }
+  ]
+}

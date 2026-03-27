@@ -5,83 +5,163 @@
   "level": "N2",
   "exercises": [
     {
-      "id": "n2_038_10",
-      "example_sentence": "今月に限り、入館料が割引されます。",
-      "translation": "Only this month is admission discounted.",
+      "id": "n2_038_1",
+      "example_sentence": "今月＿＿、入館料が半額になります。",
+      "translation": "Only this month, admission fees are half price.",
       "blank_target": "に限り",
       "wrong_choices": [
         "に限って",
-        "だけ",
-        "のみ"
+        "だけで",
+        "のみで"
       ],
       "wrong_choice_explanations": [
-        "に限って means 'に限って', which is used in different context, but this sentence requires に限り ('に限り') for its specific context.",
-        "だけ means 'only / just', which is used in limitation/exclusion, but this sentence requires に限り ('に限り') for its specific context.",
-        "のみ means 'のみ', which is used in different context, but this sentence requires に限り ('に限り') for its specific context."
+        "に限って is used for emphasis in exceptional situations, but に限り is needed here to indicate a time-limited offer or policy.",
+        "だけで means 'only with/by' but doesn't have the formal, policy-like nuance that に限り conveys for official announcements.",
+        "のみで means 'only with/by' but lacks the specific temporal limitation meaning that に限り expresses in formal contexts."
+      ]
+    },
+    {
+      "id": "n2_038_2",
+      "example_sentence": "学生証を持参した方＿＿、割引が適用されます。",
+      "translation": "Discounts apply only to those who bring their student ID.",
+      "blank_target": "に限り",
+      "wrong_choices": [
+        "に対して",
+        "について",
+        "によって"
+      ],
+      "wrong_choice_explanations": [
+        "に対して means 'toward/regarding' but doesn't express the limiting condition that に限り conveys.",
+        "について means 'about/concerning' but doesn't indicate the restrictive condition needed here.",
+        "によって means 'by means of/depending on' but doesn't express the exclusive limitation that に限り indicates."
+      ]
+    },
+    {
+      "id": "n2_038_3",
+      "example_sentence": "この週末＿＿、スペシャルセールを開催いたします。",
+      "translation": "We will hold a special sale only this weekend.",
+      "blank_target": "に限り",
+      "wrong_choices": [
+        "において",
+        "に関して",
+        "を通じて"
+      ],
+      "wrong_choice_explanations": [
+        "において means 'at/in' for locations or situations but doesn't convey the time limitation that に限り expresses.",
+        "に関して means 'regarding/concerning' but doesn't indicate the exclusive temporal restriction needed here.",
+        "を通じて means 'through/by means of' but doesn't express the limiting condition that に限り conveys."
+      ]
+    },
+    {
+      "id": "n2_038_4",
+      "example_sentence": "本日＿＿、このサービスを無料で提供します。",
+      "translation": "We offer this service free of charge only today.",
+      "blank_target": "に限り",
+      "wrong_choices": [
+        "以降",
+        "まで",
+        "から"
+      ],
+      "wrong_choice_explanations": [
+        "以降 means 'from now on/after' but doesn't indicate the single-day limitation that に限り expresses.",
+        "まで means 'until' but suggests a continuous period rather than the exclusive single-day offer that に限り indicates.",
+        "から means 'from' but indicates a starting point rather than the exclusive limitation that に限り conveys."
+      ]
+    },
+    {
+      "id": "n2_038_5",
+      "example_sentence": "今年度＿＿、会員登録費は無料となっております。",
+      "translation": "Membership registration fees are free only for this fiscal year.",
+      "blank_target": "に限り",
+      "wrong_choices": [
+        "にとって",
+        "に関しては",
+        "についても"
+      ],
+      "wrong_choice_explanations": [
+        "にとって means 'for/to' someone but doesn't express the temporal limitation that に限り indicates.",
+        "に関しては means 'as for/regarding' but doesn't convey the exclusive time-limited condition needed here.",
+        "についても means 'also regarding' but doesn't indicate the restrictive temporal condition that に限り expresses."
       ]
     },
     {
       "id": "n2_038_6",
-      "example_sentence": "今月に限り、会費は無料です。",
-      "translation": "Only for this month, all items are 20% off.",
+      "example_sentence": "新規会員の方＿＿、初回相談は無料です。",
+      "translation": "Initial consultations are free only for new members.",
       "blank_target": "に限り",
       "wrong_choices": [
         "に限って",
-        "だけ",
-        "のみ"
+        "だけに",
+        "のみに"
       ],
       "wrong_choice_explanations": [
-        "'に限って' has a different grammatical function or nuance than '〜に限り'.",
-        "'だけ' has a different grammatical function or nuance than '〜に限り'.",
-        "'のみ' has a different grammatical function or nuance than '〜に限り'."
+        "に限って emphasizes exceptional situations but に限り is more appropriate for stating formal policies or conditions.",
+        "だけに means 'only to' but doesn't have the formal, policy-announcing tone that に限り carries.",
+        "のみに means 'only to' but lacks the official, restrictive condition nuance that に限り expresses."
       ]
     },
     {
       "id": "n2_038_7",
-      "example_sentence": "この週末に限り、スペシャルセールを実施します。",
-      "translation": "Only this weekend will special sales be held.",
+      "example_sentence": "開店記念として、先着100名様＿＿特別価格で販売します。",
+      "translation": "As a store opening commemoration, we sell at special prices only to the first 100 customers.",
       "blank_target": "に限り",
       "wrong_choices": [
-        "に限って",
-        "だけ",
-        "のみ"
+        "に向けて",
+        "に対し",
+        "について"
       ],
       "wrong_choice_explanations": [
-        "に限って does not convey the meaning of 〜に限り required in this context: only for / limited to (specific condition or exception).",
-        "だけ means 'only,' but this sentence requires 〜に限り to convey only for / limited to (specific condition or exception).",
-        "のみ means 'only,' but this sentence requires 〜に限り to express only for / limited to (specific condition or exception)."
+        "に向けて means 'toward/for' but doesn't express the numerical limitation that に限り conveys.",
+        "に対し means 'toward/against' but doesn't indicate the exclusive quantitative restriction needed here.",
+        "について means 'about/concerning' but doesn't express the limiting condition that に限り indicates."
       ]
     },
     {
       "id": "n2_038_8",
-      "example_sentence": "本日のみに限り、このサービスは無料です。",
-      "translation": "Discounts are available only for today.",
+      "example_sentence": "雨天時＿＿、イベントは屋内で開催されます。",
+      "translation": "Only in case of rain, the event will be held indoors.",
       "blank_target": "に限り",
       "wrong_choices": [
-        "に限って",
-        "だけ",
-        "のみ"
+        "の場合",
+        "のとき",
+        "であれば"
       ],
       "wrong_choice_explanations": [
-        "While に限って is a valid grammar pattern, it doesn't convey the same meaning as 〜に限り and doesn't fit this sentence context.",
-        "While だけ is a valid grammar pattern, it doesn't convey the same meaning as 〜に限り and doesn't fit this sentence context.",
-        "While のみ is a valid grammar pattern, it doesn't convey the same meaning as 〜に限り and doesn't fit this sentence context."
+        "の場合 means 'in the case of' but doesn't emphasize the exclusive condition that に限り expresses.",
+        "のとき means 'when/at the time of' but doesn't convey the restrictive, exceptional condition that に限り indicates.",
+        "であれば means 'if' but doesn't express the specific limiting condition that に限り conveys."
       ]
     },
     {
       "id": "n2_038_9",
-      "example_sentence": "今年に限り、学会参加費は割引されます。",
-      "translation": "Only this year, conference registration fees are discounted.",
+      "example_sentence": "平日＿＿、駐車場は無料でご利用いただけます。",
+      "translation": "The parking lot can be used free of charge only on weekdays.",
       "blank_target": "に限り",
       "wrong_choices": [
-        "に限って",
-        "だけ",
-        "のみ"
+        "の間",
+        "中は",
+        "なら"
       ],
       "wrong_choice_explanations": [
-        "'に限って' is 'に限って', but this context requires '〜に限り' to indicate only for.",
-        "'だけ' is 'だけ', but this context requires '〜に限り' to indicate only for.",
-        "'のみ' is 'のみ', but this context requires '〜に限り' to indicate only for."
+        "の間 means 'during/between' but doesn't emphasize the exclusive limitation that に限り expresses.",
+        "中は means 'during' but doesn't convey the restrictive condition that に限り indicates for formal policies.",
+        "なら means 'if' but doesn't express the specific limiting condition with the formal tone that に限り carries."
+      ]
+    },
+    {
+      "id": "n2_038_10",
+      "example_sentence": "ゴールド会員の方＿＿、年会費が免除されます。",
+      "translation": "Annual fees are waived only for Gold members.",
+      "blank_target": "に限り",
+      "wrong_choices": [
+        "として",
+        "による",
+        "での"
+      ],
+      "wrong_choice_explanations": [
+        "として means 'as' but doesn't express the exclusive membership condition that に限り indicates.",
+        "による means 'by/due to' but doesn't convey the restrictive limitation that に限り expresses.",
+        "での means 'at/in/with' but doesn't indicate the exclusive condition that に限り conveys for membership benefits."
       ]
     }
   ]

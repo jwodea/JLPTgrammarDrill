@@ -5,9 +5,9 @@
   "level": "N2",
   "exercises": [
     {
-      "id": "n2_048_10",
-      "example_sentence": "美しいからといって、芸術的価値があるわけではない。",
-      "translation": "Beautiful things do not necessarily have artistic value.",
+      "id": "n2_048_1",
+      "example_sentence": "美しい___、芸術的価値があるわけではない。",
+      "translation": "Just because something is beautiful doesn't mean it has artistic value.",
       "blank_target": "からといって",
       "wrong_choices": [
         "だからといって",
@@ -15,73 +15,153 @@
         "のに"
       ],
       "wrong_choice_explanations": [
-        "だからといって means 'だからといって', which is used in different context, but this sentence requires からといって ('からといって') for its specific context.",
-        "ので means 'ので', which is used in different context, but this sentence requires からといって ('からといって') for its specific context.",
-        "のに means 'のに', which is used in different context, but this sentence requires からといって ('からといって') for its specific context."
+        "だからといって means 'just because of that' and refers back to something previously mentioned, but here we need からといって to connect directly to the preceding adjective.",
+        "ので simply indicates cause and reason, but doesn't convey the dismissive nuance that the beauty alone isn't sufficient justification for artistic value.",
+        "のに expresses contrast meaning 'despite/although', but this sentence needs からといって to show that beauty is not sufficient grounds for concluding artistic value."
+      ]
+    },
+    {
+      "id": "n2_048_2",
+      "example_sentence": "専門家だ___、すべてを知っているわけではない。",
+      "translation": "Just because someone is an expert doesn't mean they know everything.",
+      "blank_target": "からといって",
+      "wrong_choices": [
+        "だからといって",
+        "ため",
+        "のに"
+      ],
+      "wrong_choice_explanations": [
+        "だからといって refers back to a previously stated reason, but here we need からといって to directly connect to '専門家だ' in the same sentence.",
+        "ため indicates purpose or reason, but doesn't express the dismissive meaning that being an expert alone doesn't justify knowing everything.",
+        "のに means 'despite/although' but this sentence needs からといって to show that expert status is insufficient grounds for omniscience."
+      ]
+    },
+    {
+      "id": "n2_048_3",
+      "example_sentence": "富がある___、幸福が得られるわけではない。",
+      "translation": "Just because you have wealth doesn't mean you can obtain happiness.",
+      "blank_target": "からといって",
+      "wrong_choices": [
+        "だからといって",
+        "ので",
+        "けれど"
+      ],
+      "wrong_choice_explanations": [
+        "だからといって refers to a reason mentioned earlier, but this sentence needs からといって to connect directly to having wealth in the same clause.",
+        "ので simply shows cause and effect, but doesn't convey that wealth alone is insufficient justification for expecting happiness.",
+        "けれど means 'but/however' and shows simple contrast, not the specific meaning that wealth is inadequate grounds for assuming happiness."
+      ]
+    },
+    {
+      "id": "n2_048_4",
+      "example_sentence": "学歴が高い___、仕事で成功するわけではない。",
+      "translation": "Just because you have a high education level doesn't mean you'll succeed at work.",
+      "blank_target": "からといって",
+      "wrong_choices": [
+        "だからといって",
+        "ので",
+        "ものの"
+      ],
+      "wrong_choice_explanations": [
+        "だからといって refers back to previously mentioned information, but here we need からといって to connect directly to the high education level.",
+        "ので indicates straightforward cause and reason, but doesn't express the dismissive nuance that high education alone doesn't guarantee work success.",
+        "ものの means 'although/while' but lacks the specific meaning that high education is insufficient grounds for expecting work success."
+      ]
+    },
+    {
+      "id": "n2_048_5",
+      "example_sentence": "有名な大学を卒業した___、優秀な人材というわけではない。",
+      "translation": "Just because someone graduated from a famous university doesn't mean they're talented personnel.",
+      "blank_target": "からといって",
+      "wrong_choices": [
+        "だからといって",
+        "ため",
+        "のに"
+      ],
+      "wrong_choice_explanations": [
+        "だからといって refers to reasons stated previously, but this sentence needs からといって to connect directly to graduating from a famous university.",
+        "ため indicates purpose or cause, but doesn't convey that graduating from a prestigious school alone doesn't justify considering someone talented.",
+        "のに expresses contrast meaning 'despite', but this sentence needs からといって to show that university prestige is insufficient grounds for assuming talent."
       ]
     },
     {
       "id": "n2_048_6",
-      "example_sentence": "専門家だからといって、すべてを知っているわけではない。",
-      "translation": "Just because you are an expert does not mean you know everything.",
+      "example_sentence": "年上だ___、経験豊富だとは限らない。",
+      "translation": "Just because someone is older doesn't necessarily mean they're experienced.",
       "blank_target": "からといって",
       "wrong_choices": [
         "だからといって",
         "ので",
-        "のに"
+        "が"
       ],
       "wrong_choice_explanations": [
-        "'だからといって' has a different grammatical function or nuance than '〜からといって'.",
-        "'ので' has a different grammatical function or nuance than '〜からといって'.",
-        "'のに' has a different grammatical function or nuance than '〜からといって'."
+        "だからといって refers back to previously mentioned reasons, but here we need からといって to connect directly to being older.",
+        "ので shows simple cause and effect, but doesn't express that age alone is insufficient justification for assuming experience.",
+        "が means 'but' and shows contrast, but lacks the specific dismissive meaning that age doesn't adequately support conclusions about experience."
       ]
     },
     {
       "id": "n2_048_7",
-      "example_sentence": "富があるからといって、幸福が得られるわけではない。",
-      "translation": "I have become responsible for this project, so I must take responsibility.",
+      "example_sentence": "価格が安い___、品質が悪いわけではない。",
+      "translation": "Just because the price is cheap doesn't mean the quality is poor.",
       "blank_target": "からといって",
       "wrong_choices": [
         "だからといって",
         "ので",
-        "のに"
+        "ものの"
       ],
       "wrong_choice_explanations": [
-        "だからといって indicates alternatives, but this sentence needs 〜からといって to convey just because / even though (the reason does not justify the conclusion).",
-        "ので does not convey the meaning of 〜からといって required in this context: just because / even though (the reason does not justify the conclusion).",
-        "のに does not convey the meaning of 〜からといって required in this context: just because / even though (the reason does not justify the conclusion)."
+        "だからといって refers to reasons mentioned earlier, but this sentence needs からといって to directly connect to the cheap price.",
+        "ので indicates straightforward causation, but doesn't convey that low price alone doesn't justify assuming poor quality.",
+        "ものの means 'although/while' but doesn't express the specific meaning that cheap price is inadequate grounds for concluding poor quality."
       ]
     },
     {
       "id": "n2_048_8",
-      "example_sentence": "学歴が高いからといって、仕事で成功するわけではない。",
-      "translation": "High education does not guarantee workplace success.",
+      "example_sentence": "外国人だ___、日本語が下手だとは限らない。",
+      "translation": "Just because someone is a foreigner doesn't necessarily mean their Japanese is poor.",
       "blank_target": "からといって",
       "wrong_choices": [
         "だからといって",
-        "ので",
+        "けれど",
         "のに"
       ],
       "wrong_choice_explanations": [
-        "While だからといって is a valid grammar pattern, it doesn't convey the same meaning as 〜からといって and doesn't fit this sentence context.",
-        "While ので is a valid grammar pattern, it doesn't convey the same meaning as 〜からといって and doesn't fit this sentence context.",
-        "のに means 'despite' or 'in order to'; indicates contrast or purpose, not reason/cause; it doesn't fit this sentence context where 〜からといって is needed."
+        "だからといって refers back to previously stated information, but here we need からといって to connect directly to being a foreigner.",
+        "けれど means 'but/however' and shows simple contrast, not the specific dismissive meaning that foreign status doesn't support assumptions about Japanese ability.",
+        "のに expresses 'despite/although' but this sentence needs からといって to show that being foreign is insufficient grounds for assuming poor Japanese."
       ]
     },
     {
       "id": "n2_048_9",
-      "example_sentence": "インパクト・ファクターが高いからといって、内容が優れているわけではない。",
-      "translation": "High impact factor does not necessarily mean superior content.",
+      "example_sentence": "忙しい___、手抜きをしてもいいわけではない。",
+      "translation": "Just because you're busy doesn't mean it's okay to cut corners.",
       "blank_target": "からといって",
       "wrong_choices": [
         "だからといって",
         "ので",
-        "のに"
+        "ため"
       ],
       "wrong_choice_explanations": [
-        "'だからといって' is 'だからといって', but this context requires '〜からといって' to indicate just because.",
-        "'ので' is 'ので', but this context requires '〜からといって' to indicate just because.",
-        "'のに' is 'のに', but this context requires '〜からといって' to indicate just because."
+        "だからといって refers to reasons mentioned previously, but this sentence needs からといって to connect directly to being busy.",
+        "ので shows cause and effect, but doesn't express that being busy alone doesn't justify cutting corners.",
+        "ため indicates purpose or reason, but lacks the dismissive nuance that busyness is insufficient grounds for accepting poor work quality."
+      ]
+    },
+    {
+      "id": "n2_048_10",
+      "example_sentence": "テストの点数がよかった___、本当に理解しているとは限らない。",
+      "translation": "Just because test scores were good doesn't necessarily mean there's real understanding.",
+      "blank_target": "からといって",
+      "wrong_choices": [
+        "だからといって",
+        "ので",
+        "ものの"
+      ],
+      "wrong_choice_explanations": [
+        "だからといって refers back to previously mentioned reasons, but here we need からといって to connect directly to the good test scores.",
+        "ので indicates straightforward cause and reason, but doesn't convey that good scores alone don't justify assuming true understanding.",
+        "ものの means 'although/while' but doesn't express the specific meaning that good test scores are inadequate grounds for concluding real comprehension."
       ]
     }
   ]

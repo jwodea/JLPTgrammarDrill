@@ -15,9 +15,9 @@
         "によって"
       ],
       "wrong_choice_explanations": [
-        "This pattern does not convey the same meaning as '〜を契機に' (with... as an opportunity / prompted by (formal, often for social or historical events)) needed in this context.",
-        "This pattern does not convey the same meaning as '〜を契機に' (with... as an opportunity / prompted by (formal, often for social or historical events)) needed in this context.",
-        "means 'by' or 'through' (means or agent), not matching the required locative or formal context"
+        "をきっかけに is more casual and doesn't carry the formal, historical significance that を契機に conveys for diplomatic exchanges.",
+        "を機に suggests taking advantage of an opportunity, but doesn't emphasize the transformative catalyst aspect needed here.",
+        "によって indicates means or agent, but doesn't express the idea of an event serving as a turning point for change."
       ]
     },
     {
@@ -31,9 +31,9 @@
         "によって"
       ],
       "wrong_choice_explanations": [
-        "をきっかけに has a different grammatical function and doesn't fit the context of this sentence where を契機に is required.",
-        "を機に has a different grammatical function and doesn't fit the context of this sentence where を契機に is required.",
-        "によって has a different grammatical function and doesn't fit the context of this sentence where を契機に is required."
+        "をきっかけに is less formal and doesn't emphasize the historical significance of the crisis as a catalyst for major reforms.",
+        "を機に implies seizing a positive opportunity, which doesn't fit the serious context of a crisis prompting reforms.",
+        "によって expresses causation or means, but lacks the nuance of an event serving as a pivotal moment for change."
       ]
     },
     {
@@ -44,44 +44,124 @@
       "wrong_choices": [
         "をきっかけに",
         "を機に",
-        "によって"
+        "につれて"
       ],
       "wrong_choice_explanations": [
-        "をきっかけに triggered by / occasioned by, but 〜を契機に is needed to express the specific meaning required in this sentence.",
-        "を機に on the occasion of / taking the opportunity, but 〜を契機に is needed to express the specific meaning required in this sentence.",
-        "によって indicates agent or means, but 〜を契機に is needed to express the specific meaning required in this sentence."
+        "をきっかけに is less formal and doesn't capture the significant turning point nature of the success.",
+        "を機に suggests taking advantage of timing, but doesn't emphasize the transformative impact of the success.",
+        "につれて means 'as/along with' indicating gradual change, not a specific catalyst event prompting expansion."
       ]
     },
     {
       "id": "n2_162_4",
       "example_sentence": "あの事故を契機に、安全基準が強化された。",
-      "translation": "That accident prompted strengthened safety standards.",
+      "translation": "That accident prompted the strengthening of safety standards.",
       "blank_target": "を契機に",
       "wrong_choices": [
         "をきっかけに",
-        "を機に",
+        "のために",
         "によって"
       ],
       "wrong_choice_explanations": [
-        "をきっかけに has a different grammatical function that doesn't fit this sentence context.",
-        "を機に has a different grammatical function that doesn't fit this sentence context.",
-        "によって has a different grammatical function that doesn't fit this sentence context."
+        "をきっかけに is more casual and doesn't convey the formal, institutional response that を契機に implies.",
+        "のために means 'for the purpose of' but doesn't express the accident as a catalyst that prompted the changes.",
+        "によって indicates direct causation or means, but lacks the nuance of a pivotal event spurring institutional change."
       ]
     },
     {
       "id": "n2_162_5",
       "example_sentence": "その発見を契機に、新しい研究分野が開かれた。",
-      "translation": "That discovery opened a new field of research.",
+      "translation": "That discovery opened up a new field of research.",
       "blank_target": "を契機に",
       "wrong_choices": [
         "をきっかけに",
-        "を機に",
-        "によって"
+        "を通じて",
+        "に基づいて"
       ],
       "wrong_choice_explanations": [
-        "〜をきっかけに is more common; less formal.",
-        "〜を機に is positive catalyst; less emphasizes formal events.",
-        "〜によって indicates agent; doesn't convey historical catalyst."
+        "をきっかけに is less formal and doesn't emphasize the significant turning point nature of the discovery.",
+        "を通じて means 'through/via' indicating a method or medium, not a catalyst that prompted the opening of a new field.",
+        "に基づいて means 'based on' indicating foundation or basis, not an event serving as a catalyst for change."
+      ]
+    },
+    {
+      "id": "n2_162_6",
+      "example_sentence": "法改正を契機に、社会全体の意識が変わった。",
+      "translation": "The legal reform served as a catalyst for changing society's overall awareness.",
+      "blank_target": "を契機に",
+      "wrong_choices": [
+        "をきっかけに",
+        "を中心に",
+        "に関して"
+      ],
+      "wrong_choice_explanations": [
+        "をきっかけに is more casual and doesn't capture the formal, institutional significance of legal reform as a catalyst.",
+        "を中心に means 'centered on/around' indicating focus, not a catalyst event prompting societal change.",
+        "に関して means 'regarding/concerning' indicating topic, not an event serving as a turning point for change."
+      ]
+    },
+    {
+      "id": "n2_162_7",
+      "example_sentence": "経済危機を契機に、新たな政策が導入された。",
+      "translation": "The economic crisis prompted the introduction of new policies.",
+      "blank_target": "を契機に",
+      "wrong_choices": [
+        "をきっかけに",
+        "に対して",
+        "を原因として"
+      ],
+      "wrong_choice_explanations": [
+        "をきっかけに is less formal and doesn't emphasize the historical significance of the crisis as a catalyst for policy change.",
+        "に対して means 'toward/against' indicating direction or response, not a catalyst event prompting change.",
+        "を原因として means 'as a cause' but is more direct causation, lacking the nuance of a pivotal moment spurring action."
+      ]
+    },
+    {
+      "id": "n2_162_8",
+      "example_sentence": "その革命を契機に、新しい時代が始まった。",
+      "translation": "That revolution marked the beginning of a new era.",
+      "blank_target": "を契機に",
+      "wrong_choices": [
+        "をきっかけに",
+        "から始まって",
+        "を背景に"
+      ],
+      "wrong_choice_explanations": [
+        "をきっかけに is too casual for describing a revolution's historical significance as a catalyst for a new era.",
+        "から始まって means 'starting from' indicating a starting point, not emphasizing the catalytic nature of the revolution.",
+        "を背景に means 'with... as background' indicating context, not a specific catalyst event prompting change."
+      ]
+    },
+    {
+      "id": "n2_162_9",
+      "example_sentence": "大震災を契機に、防災対策が見直された。",
+      "translation": "The major earthquake prompted a review of disaster prevention measures.",
+      "blank_target": "を契機に",
+      "wrong_choices": [
+        "をきっかけに",
+        "の結果として",
+        "に応じて"
+      ],
+      "wrong_choice_explanations": [
+        "をきっかけに is less formal and doesn't capture the gravity of a major disaster as a catalyst for policy review.",
+        "の結果として means 'as a result of' but focuses on direct consequence rather than catalytic transformation.",
+        "に応じて means 'according to/in response to' indicating correspondence, not a catalyst event spurring change."
+      ]
+    },
+    {
+      "id": "n2_162_10",
+      "example_sentence": "国際会議を契機に、協力関係が強化された。",
+      "translation": "The international conference served as a catalyst for strengthening cooperative relations.",
+      "blank_target": "を契機に",
+      "wrong_choices": [
+        "をきっかけに",
+        "を中心として",
+        "に伴って"
+      ],
+      "wrong_choice_explanations": [
+        "をきっかけに is more casual and doesn't emphasize the formal diplomatic significance of the conference as a catalyst.",
+        "を中心として means 'centered around' indicating focus or hub, not a catalyst event prompting strengthened relations.",
+        "に伴って means 'accompanying/along with' indicating simultaneous occurrence, not emphasizing the catalytic role of the conference."
       ]
     }
   ]

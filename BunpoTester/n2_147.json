@@ -15,9 +15,9 @@
         "のに"
       ],
       "wrong_choice_explanations": [
-        "This pattern does not convey the same meaning as '〜からといって' (just because / even though (the reason does not justify the conclusion)) needed in this context.",
-        "This pattern does not convey the same meaning as '〜からといって' (just because / even though (the reason does not justify the conclusion)) needed in this context.",
-        "This pattern does not convey the same meaning as '〜からといって' (just because / even though (the reason does not justify the conclusion)) needed in this context."
+        "だからといって means 'just because of that' but is used when the reason was already mentioned. Here we need からといって to directly follow the stated reason.",
+        "ので simply indicates cause and reason, but doesn't convey the critical nuance that the reason doesn't justify the conclusion.",
+        "のに expresses contrast meaning 'even though/despite', but lacks the 'just because' warning tone that からといって provides."
       ]
     },
     {
@@ -26,14 +26,14 @@
       "translation": "Just because you are young, you should not overexert yourself.",
       "blank_target": "からといって",
       "wrong_choices": [
-        "だからといって",
-        "ので",
-        "のに"
+        "だから",
+        "くせに",
+        "ばかりに"
       ],
       "wrong_choice_explanations": [
-        "だからといって has a different grammatical function and doesn't fit the context of this sentence where からといって is required.",
-        "ので has a different grammatical function and doesn't fit the context of this sentence where からといって is required.",
-        "のに has a different grammatical function and doesn't fit the context of this sentence where からといって is required."
+        "だから simply means 'therefore/so' and would suggest the conclusion follows logically from being young, opposite of the intended meaning.",
+        "くせに means 'despite/even though' with a critical tone, but doesn't carry the 'just because' warning that からといって expresses.",
+        "ばかりに means 'just because' but implies negative consequences resulted from the reason, which doesn't fit this advisory context."
       ]
     },
     {
@@ -42,14 +42,14 @@
       "translation": "Just because you failed, you should not give up.",
       "blank_target": "からといって",
       "wrong_choices": [
-        "だからといって",
-        "ので",
-        "のに"
+        "ことで",
+        "にしても",
+        "としても"
       ],
       "wrong_choice_explanations": [
-        "だからといって has a different grammatical function, but 〜からといって is needed to express the specific meaning required in this sentence.",
-        "ので indicates location of action or means/method, but 〜からといって has a specific meaning, which is what this sentence requires.",
-        "indicates contrast or reason; can be casual where formality is needed."
+        "ことで indicates means or method ('by failing'), but doesn't convey that failure shouldn't justify giving up.",
+        "にしても means 'even if/even assuming', but lacks the critical tone warning against drawing unjustified conclusions.",
+        "としても means 'even if/supposing that', but doesn't carry the cautionary meaning that the reason doesn't warrant the conclusion."
       ]
     },
     {
@@ -58,14 +58,14 @@
       "translation": "Just because of one success, you must not become complacent.",
       "blank_target": "からといって",
       "wrong_choices": [
-        "だからといって",
-        "ので",
-        "のに"
+        "によって",
+        "をもって",
+        "を理由に"
       ],
       "wrong_choice_explanations": [
-        "だからといって has a different grammatical function that doesn't fit this sentence context.",
-        "ので has a different grammatical function that doesn't fit this sentence context.",
-        "のに has a different grammatical function that doesn't fit this sentence context."
+        "によって indicates means or agent ('through success'), but doesn't warn against drawing unjustified conclusions from that success.",
+        "をもって means 'with/by means of', suggesting the success is a tool or basis, rather than warning against overconfidence.",
+        "を理由に means 'for the reason of' and would actually support using success as justification, opposite of the intended meaning."
       ]
     },
     {
@@ -79,9 +79,89 @@
         "のに"
       ],
       "wrong_choice_explanations": [
-        "〜だからといって is slightly different; だ adds emphasis.",
-        "〜ので indicates direct cause; doesn't convey caution.",
-        "〜のに is contrastive; doesn't express the 'just because' sense."
+        "だからといって means 'just because of that' but refers to previously mentioned information, while here we need からといって to directly connect to the stated condition.",
+        "ので indicates straightforward cause and effect, but doesn't convey the warning that others' ability doesn't necessarily apply to oneself.",
+        "のに expresses contrast but lacks the cautionary 'just because' meaning that warns against assuming the same applies to you."
+      ]
+    },
+    {
+      "id": "n2_147_6",
+      "example_sentence": "お金があるからといって、幸せになれるとは限らない。",
+      "translation": "Just because you have money doesn't necessarily mean you'll be happy.",
+      "blank_target": "からといって",
+      "wrong_choices": [
+        "おかげで",
+        "せいで",
+        "ために"
+      ],
+      "wrong_choice_explanations": [
+        "おかげで means 'thanks to' and indicates positive results from having money, which contradicts the message that money doesn't guarantee happiness.",
+        "せいで means 'because of' with negative connotations, but doesn't convey the warning against assuming money leads to happiness.",
+        "ために means 'for the purpose of' or 'in order to', which doesn't fit the context of warning against false assumptions about money."
+      ]
+    },
+    {
+      "id": "n2_147_7",
+      "example_sentence": "経験があるからといって、必ずしも正しい判断ができるわけではない。",
+      "translation": "Just because you have experience doesn't necessarily mean you can make correct judgments.",
+      "blank_target": "からといって",
+      "wrong_choices": [
+        "につれて",
+        "に従って",
+        "とともに"
+      ],
+      "wrong_choice_explanations": [
+        "につれて means 'as/in proportion to', suggesting judgment ability increases with experience, which contradicts the intended warning.",
+        "に従って means 'according to/following', which would suggest following experience leads to correct judgment, opposite of the intended meaning.",
+        "とともに means 'together with/along with', implying experience and good judgment go hand in hand, contrary to the cautionary message."
+      ]
+    },
+    {
+      "id": "n2_147_8",
+      "example_sentence": "有名だからといって、その商品が良いとは限らない。",
+      "translation": "Just because it's famous doesn't mean the product is good.",
+      "blank_target": "からといって",
+      "wrong_choices": [
+        "だけあって",
+        "だけに",
+        "ばかりか"
+      ],
+      "wrong_choice_explanations": [
+        "だけあって means 'as expected from' and suggests fame does indicate quality, which contradicts the warning message.",
+        "だけに means 'precisely because' and would suggest fame is good reason to expect quality, opposite of the intended meaning.",
+        "ばかりか means 'not only' and is used to add more information, but doesn't convey the cautionary 'just because' meaning needed here."
+      ]
+    },
+    {
+      "id": "n2_147_9",
+      "example_sentence": "親友からといって、何でも頼んでいいわけではない。",
+      "translation": "Just because someone is your best friend doesn't mean you can ask them for anything.",
+      "blank_target": "からといって",
+      "wrong_choices": [
+        "なので",
+        "だけで",
+        "によると"
+      ],
+      "wrong_choice_explanations": [
+        "なので means 'so/therefore' and would suggest friendship justifies making any request, opposite of the intended cautionary message.",
+        "だけで means 'just by/only with' but lacks the warning tone that friendship doesn't justify unlimited requests.",
+        "によると means 'according to' and is used for reporting information, which doesn't fit this context about appropriate behavior with friends."
+      ]
+    },
+    {
+      "id": "n2_147_10",
+      "example_sentence": "テストの点数が良いからといって、本当に理解しているとは言えない。",
+      "translation": "Just because your test scores are good doesn't mean you truly understand the material.",
+      "blank_target": "からといって",
+      "wrong_choices": [
+        "ことから",
+        "結果として",
+        "により"
+      ],
+      "wrong_choice_explanations": [
+        "ことから means 'from the fact that' and would suggest good scores do indicate understanding, contrary to the warning message.",
+        "結果として means 'as a result' and doesn't fit grammatically or contextually in this cautionary statement.",
+        "により means 'due to/by means of' but doesn't convey the warning that good scores don't necessarily prove true understanding."
       ]
     }
   ]

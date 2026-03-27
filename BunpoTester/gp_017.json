@@ -1,0 +1,168 @@
+{
+  "id": "gp_017",
+  "pattern": "～でしょう",
+  "meaning": "Probably / I suppose",
+  "level": "N5",
+  "exercises": [
+    {
+      "id": 1,
+      "example_sentence": "明日は晴れる__。",
+      "translation": "It will probably be sunny tomorrow.",
+      "blank_target": "でしょう",
+      "wrong_choices": [
+        "だろう",
+        "である",
+        "であろう"
+      ],
+      "wrong_choice_explanations": {
+        "だろう": "だろう is the plain form equivalent — it's too casual for polite speech contexts.",
+        "である": "である is a formal written copula — it states facts rather than expressing probability.",
+        "であろう": "であろう is very formal literary language — it's not used in everyday conversation."
+      }
+    },
+    {
+      "id": 2,
+      "example_sentence": "彼は学生__。",
+      "translation": "He is probably a student.",
+      "blank_target": "でしょう",
+      "wrong_choices": [
+        "です",
+        "だ",
+        "である"
+      ],
+      "wrong_choice_explanations": {
+        "です": "です states a fact politely — it doesn't express the uncertainty or probability implied here.",
+        "だ": "だ is the plain form copula — it makes a definite statement without expressing probability.",
+        "である": "である is formal written language — it asserts facts rather than expressing suppositions."
+      }
+    },
+    {
+      "id": 3,
+      "example_sentence": "電車が遅れる__。",
+      "translation": "The train will probably be late.",
+      "blank_target": "でしょう",
+      "wrong_choices": [
+        "かもしれません",
+        "はずです",
+        "に違いありません"
+      ],
+      "wrong_choice_explanations": {
+        "かもしれません": "かもしれません expresses possibility but is less confident — でしょう shows more likelihood.",
+        "はずです": "はずです expresses expectation based on logical reasoning — it's more definite than probability.",
+        "に違いありません": "に違いありません expresses strong conviction — it's more certain than でしょう."
+      }
+    },
+    {
+      "id": 4,
+      "example_sentence": "今日は寒い__。",
+      "translation": "It's probably cold today.",
+      "blank_target": "でしょう",
+      "wrong_choices": [
+        "と思います",
+        "ようです",
+        "らしいです"
+      ],
+      "wrong_choice_explanations": {
+        "と思います": "と思います expresses personal opinion — it's more subjective than でしょう's general probability.",
+        "ようです": "ようです indicates appearance or hearsay — it suggests indirect evidence rather than general probability.",
+        "らしいです": "らしいです indicates hearsay or typical characteristics — it's based on information from others."
+      }
+    },
+    {
+      "id": 5,
+      "example_sentence": "あの人は日本人__。",
+      "translation": "That person is probably Japanese.",
+      "blank_target": "でしょう",
+      "wrong_choices": [
+        "みたいです",
+        "っぽいです",
+        "そうです"
+      ],
+      "wrong_choice_explanations": {
+        "みたいです": "みたいです indicates resemblance or appearance — it's more about looking like something.",
+        "っぽいです": "っぽいです suggests having characteristics of something — it's more casual and appearance-based.",
+        "そうです": "そうです indicates hearsay or appearance — it suggests information received from others or visual evidence."
+      }
+    },
+    {
+      "id": 6,
+      "example_sentence": "試験は難しい__。",
+      "translation": "The exam will probably be difficult.",
+      "blank_target": "でしょう",
+      "wrong_choices": [
+        "でした",
+        "でしたか",
+        "ですから"
+      ],
+      "wrong_choice_explanations": {
+        "でした": "でした is past tense — it would refer to an exam that already happened.",
+        "でしたか": "でしたか is a past tense question — it asks about something that already occurred.",
+        "ですから": "ですから means 'therefore' — it shows cause and effect, not probability."
+      }
+    },
+    {
+      "id": 7,
+      "example_sentence": "彼女は来ない__。",
+      "translation": "She probably won't come.",
+      "blank_target": "でしょう",
+      "wrong_choices": [
+        "つもりです",
+        "予定です",
+        "ことです"
+      ],
+      "wrong_choice_explanations": {
+        "つもりです": "つもりです expresses intention — it would mean she intends not to come, not probability.",
+        "予定です": "予定です indicates a plan or schedule — it's more definite than probability.",
+        "ことです": "ことです is used for explanations or emphasis — it doesn't express probability."
+      }
+    },
+    {
+      "id": 8,
+      "example_sentence": "この本は面白い__。",
+      "translation": "This book is probably interesting.",
+      "blank_target": "でしょう",
+      "wrong_choices": [
+        "でしょうか",
+        "でしょうね",
+        "でしょうよ"
+      ],
+      "wrong_choice_explanations": {
+        "でしょうか": "でしょうか forms a question — it asks rather than states probability.",
+        "でしょうね": "でしょうね seeks agreement — it's more conversational and agreement-seeking.",
+        "でしょうよ": "でしょうよ is assertive and persuasive — it's trying to convince rather than expressing probability."
+      }
+    },
+    {
+      "id": 9,
+      "example_sentence": "会議は長い__。",
+      "translation": "The meeting will probably be long.",
+      "blank_target": "でしょう",
+      "wrong_choices": [
+        "べきです",
+        "ものです",
+        "わけです"
+      ],
+      "wrong_choice_explanations": {
+        "べきです": "べきです expresses obligation or duty — it would mean the meeting should be long.",
+        "ものです": "ものです indicates natural consequence or general truth — it's more definite than probability.",
+        "わけです": "わけです provides explanation or reasoning — it explains why something is the case."
+      }
+    },
+    {
+      "id": 10,
+      "example_sentence": "お母さんは心配する__。",
+      "translation": "Your mother will probably worry.",
+      "blank_target": "でしょう",
+      "wrong_choices": [
+        "かもね",
+        "よね",
+        "でしょ"
+      ],
+      "wrong_choice_explanations": {
+        "かもね": "かもね is very casual — it's too informal for the polite context suggested by the sentence structure.",
+        "よね": "よね seeks confirmation — it assumes shared knowledge rather than expressing probability.",
+        "でしょ": "でしょ is a casual contraction of でしょう — it's too informal for proper polite speech."
+      }
+    }
+  ]
+}

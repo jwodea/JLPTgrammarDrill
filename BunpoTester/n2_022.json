@@ -15,89 +15,73 @@
         "だけでなく"
       ],
       "wrong_choice_explanations": [
-        "This pattern does not convey the same meaning as '〜上に' (in addition to / on top of (cumulative, often negative)) needed in this context.",
-        "This pattern does not convey the same meaning as '〜上に' (in addition to / on top of (cumulative, often negative)) needed in this context.",
-        "This pattern does not convey the same meaning as '〜上に' (in addition to / on top of (cumulative, often negative)) needed in this context."
-      ]
-    },
-    {
-      "id": "n2_022_10",
-      "example_sentence": "仕事が多い上に、給料も安い。",
-      "translation": "The workload is heavy, and in addition, the salary is also low.",
-      "blank_target": "上に",
-      "wrong_choices": [
-        "た上で",
-        "に加えて",
-        "だけでなく"
-      ],
-      "wrong_choice_explanations": [
-        "た上で means 'た上で', which is used in different context, but this sentence requires 上に ('上に') for its specific context.",
-        "に加えて means 'に加えて', which is used in different context, but this sentence requires 上に ('上に') for its specific context.",
-        "だけでなく means 'だけでなく', which is used in different context, but this sentence requires 上に ('上に') for its specific context."
+        "た上で indicates a prerequisite or basis for action, not cumulative addition of negative events.",
+        "に加えて is neutral addition and doesn't convey the compounding negativity that 〜上に expresses.",
+        "だけでなく means 'not only' but lacks the emphatic sense of problems piling up that 〜上に provides."
       ]
     },
     {
       "id": "n2_022_2",
       "example_sentence": "ケガをした上に、病気にもなってしまった。",
-      "translation": "On top of an injury, I also became ill.",
+      "translation": "On top of getting injured, I also became ill.",
       "blank_target": "た上に",
       "wrong_choices": [
         "た上で",
-        "に加えて",
-        "だけでなく"
+        "ばかりか",
+        "に加えて"
       ],
       "wrong_choice_explanations": [
-        "た上で has a different grammatical function and doesn't fit the context of this sentence where 上に is required.",
-        "に加えて has a different grammatical function and doesn't fit the context of this sentence where 上に is required.",
-        "だけでなく has a different grammatical function and doesn't fit the context of this sentence where 上に is required."
+        "た上で indicates doing something after completing another action, not expressing cumulative misfortune.",
+        "ばかりか emphasizes unexpectedness but doesn't fit the grammar structure of this sentence.",
+        "に加えて is neutral addition and doesn't convey the sense of mounting problems that 〜上に expresses."
       ]
     },
     {
       "id": "n2_022_3",
       "example_sentence": "失敗した上に、その後の対応も悪かった。",
-      "translation": "On top of failure, the follow-up response was also poor.",
+      "translation": "On top of failing, the follow-up response was also poor.",
       "blank_target": "た上に",
       "wrong_choices": [
-        "た上で",
-        "に加えて",
-        "だけでなく"
+        "た結果",
+        "だけでなく",
+        "に加えて"
       ],
       "wrong_choice_explanations": [
-        "た上で indicates location of action or means/method, but 〜上に has a specific meaning, which is what this sentence requires.",
-        "に加えて has a different grammatical function, but 〜上に is needed to express the specific meaning required in this sentence.",
-        "だけでなく means not only, but 〜上に is needed to express the specific meaning required in this sentence."
+        "た結果 indicates a result or consequence, not the addition of another negative circumstance.",
+        "だけでなく means 'not only' but doesn't emphasize the compounding nature of problems like 〜上に.",
+        "に加えて is neutral addition and lacks the negative emphasis that 〜上に conveys in this context."
       ]
     },
     {
       "id": "n2_022_4",
-      "example_sentence": "仕事が多い上に、給料も安い。",
-      "translation": "Not only is there a lot of work, but the pay is also low.",
+      "example_sentence": "雨が降っている上に、風も強い。",
+      "translation": "Not only is it raining, but the wind is also strong.",
       "blank_target": "上に",
       "wrong_choices": [
-        "た上で",
-        "に加えて",
-        "だけでなく"
+        "し",
+        "のに",
+        "から"
       ],
       "wrong_choice_explanations": [
-        "た上で has a different grammatical function that doesn't fit this sentence context.",
-        "に加えて has a different grammatical function that doesn't fit this sentence context.",
-        "だけでなく has a different grammatical function that doesn't fit this sentence context."
+        "し simply lists reasons and doesn't emphasize the cumulative negative impact like 〜上に.",
+        "のに expresses contrast or frustration, not the addition of another problematic condition.",
+        "から indicates a reason or cause, not the piling up of unfavorable conditions."
       ]
     },
     {
       "id": "n2_022_5",
       "example_sentence": "頭が悪い上に、努力もしない。",
-      "translation": "Not only is he not bright, but he also doesn't make effort.",
+      "translation": "Not only is he not bright, but he also doesn't make any effort.",
       "blank_target": "上に",
       "wrong_choices": [
-        "た上で",
-        "に加えて",
+        "くせに",
+        "のに",
         "だけでなく"
       ],
       "wrong_choice_explanations": [
-        "〜た上で indicates prerequisite; doesn't convey cumulative negativity.",
-        "〜に加えて is neutral addition; doesn't convey negative accumulation.",
-        "〜だけでなく is casual; doesn't emphasize compounding negativity."
+        "くせに expresses criticism about contradiction, not simple addition of negative traits.",
+        "のに expresses contrast or disappointment, not cumulative negative characteristics.",
+        "だけでなく means 'not only' but doesn't carry the strong negative emphasis of 〜上に."
       ]
     },
     {
@@ -106,62 +90,78 @@
       "translation": "On top of failing at work, problems also occurred at home.",
       "blank_target": "た上に",
       "wrong_choices": [
-        "た上で",
-        "に加えて",
-        "だけでなく"
+        "たあげく",
+        "た結果",
+        "に加えて"
       ],
       "wrong_choice_explanations": [
-        "'た上で' has a different grammatical function or nuance than '〜上に'.",
-        "'に加えて' has a different grammatical function or nuance than '〜上に'.",
-        "'だけでなく' has a different grammatical function or nuance than '〜上に'."
+        "たあげく indicates an undesirable final outcome after a long process, not simply adding another problem.",
+        "た結果 shows a direct consequence, not the addition of a separate unfortunate event.",
+        "に加えて is neutral addition and doesn't emphasize the mounting troubles like 〜上に."
       ]
     },
     {
       "id": "n2_022_7",
-      "example_sentence": "スケジュール遅延した上に、予算もオーバーした。",
-      "translation": "Schedule delays occurred, and the budget also exceeded limits.",
+      "example_sentence": "財布を落とした上に、携帯電話も壊れた。",
+      "translation": "On top of dropping my wallet, my cell phone also broke.",
       "blank_target": "た上に",
       "wrong_choices": [
-        "た上で",
-        "に加えて",
-        "だけでなく"
+        "た途端",
+        "たとたん",
+        "ばかりか"
       ],
       "wrong_choice_explanations": [
-        "た上で does not convey the meaning of 〜上に required in this context: in addition to / on top of (cumulative, often negative).",
-        "に加えて does not convey the meaning of 〜上に required in this context: in addition to / on top of (cumulative, often negative).",
-        "だけでなく does not convey the meaning of 〜上に required in this context: in addition to / on top of (cumulative, often negative)."
+        "た途端 indicates something happening immediately after another event, not cumulative misfortune.",
+        "たとたん has the same meaning as 途端 and indicates immediate timing, not accumulation of problems.",
+        "ばかりか emphasizes going beyond expectations but doesn't fit this sentence's grammar structure."
       ]
     },
     {
       "id": "n2_022_8",
       "example_sentence": "責任を放棄した上に、部下のせいにした。",
-      "translation": "The supervisor abandoned responsibility and then blamed subordinates.",
+      "translation": "On top of abandoning responsibility, he also blamed his subordinates.",
       "blank_target": "た上に",
       "wrong_choices": [
-        "た上で",
-        "に加えて",
+        "たまま",
+        "てから",
         "だけでなく"
       ],
       "wrong_choice_explanations": [
-        "While た上で is a valid grammar pattern, it doesn't convey the same meaning as 〜上に and doesn't fit this sentence context.",
-        "While に加えて is a valid grammar pattern, it doesn't convey the same meaning as 〜上に and doesn't fit this sentence context.",
-        "While だけでなく is a valid grammar pattern, it doesn't convey the same meaning as 〜上に and doesn't fit this sentence context."
+        "たまま indicates leaving something in a certain state, not adding another reprehensible action.",
+        "てから indicates sequence (after doing), not the piling up of bad behavior.",
+        "だけでなく means 'not only' but lacks the strong condemnatory tone that 〜上に provides."
       ]
     },
     {
       "id": "n2_022_9",
-      "example_sentence": "データの収集に失敗した上に、分析方法にも問題があった。",
-      "translation": "Data collection failures and analytical method problems both occurred.",
+      "example_sentence": "電車が遅れた上に、会議も延期になった。",
+      "translation": "On top of the train being delayed, the meeting was also postponed.",
       "blank_target": "た上に",
       "wrong_choices": [
-        "た上で",
-        "に加えて",
-        "だけでなく"
+        "たせいで",
+        "た影響で",
+        "に加えて"
       ],
       "wrong_choice_explanations": [
-        "'た上で' is 'た上で', but this context requires '〜上に' to indicate in addition to.",
-        "'に加えて' is 'に加えて', but this context requires '〜上に' to indicate in addition to.",
-        "'だけでなく' is 'だけでなく', but this context requires '〜上に' to indicate in addition to."
+        "たせいで indicates the train delay caused the meeting postponement, but these are separate unfortunate events.",
+        "た影響で suggests the meeting postponement was due to the train delay, not an additional problem.",
+        "に加えて is neutral addition and doesn't convey the sense of compounding inconvenience like 〜上に."
+      ]
+    },
+    {
+      "id": "n2_022_10",
+      "example_sentence": "病気になった上に、仕事も失った。",
+      "translation": "On top of getting sick, I also lost my job.",
+      "blank_target": "た上に",
+      "wrong_choices": [
+        "たために",
+        "た結果",
+        "ばかりか"
+      ],
+      "wrong_choice_explanations": [
+        "たために suggests losing the job was because of getting sick, but 〜上に shows these as separate misfortunes.",
+        "た結果 indicates job loss as a consequence of illness, not as an additional separate problem.",
+        "ばかりか emphasizes going beyond expectations but doesn't fit this sentence's grammatical structure."
       ]
     }
   ]

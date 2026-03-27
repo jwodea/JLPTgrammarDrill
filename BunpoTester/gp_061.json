@@ -1,0 +1,168 @@
+{
+  "id": "gp_061",
+  "pattern": "～かもしれない",
+  "meaning": "Might / perhaps ~",
+  "level": "N5",
+  "exercises": [
+    {
+      "id": 1,
+      "example_sentence": "雨が降る__。",
+      "translation": "It might rain.",
+      "blank_target": "かもしれない",
+      "wrong_choices": [
+        "つもりだ",
+        "はずだ",
+        "べきだ"
+      ],
+      "wrong_choice_explanations": {
+        "つもりだ": "つもりだ expresses intention or plan — it doesn't fit here because rain is not something that has intention.",
+        "はずだ": "はずだ expresses strong expectation based on logic — it doesn't fit here because the speaker is expressing uncertainty, not strong expectation.",
+        "べきだ": "べきだ expresses obligation or what should be done — it doesn't fit here because it's not about what rain should do."
+      }
+    },
+    {
+      "id": 2,
+      "example_sentence": "田中さんは来ない__。",
+      "translation": "Mr. Tanaka might not come.",
+      "blank_target": "かもしれない",
+      "wrong_choices": [
+        "でしょう",
+        "そうだ",
+        "らしい"
+      ],
+      "wrong_choice_explanations": {
+        "でしょう": "でしょう expresses polite assumption or probability — it doesn't fit here because the sentence already has the negative form 来ない.",
+        "そうだ": "そうだ expresses hearsay or appearance — it doesn't fit here because it would create an unnatural combination with the negative form.",
+        "らしい": "らしい expresses information from others — it doesn't fit here because it suggests the speaker heard this from someone else, not expressing personal uncertainty."
+      }
+    },
+    {
+      "id": 3,
+      "example_sentence": "この映画は面白い__。",
+      "translation": "This movie might be interesting.",
+      "blank_target": "かもしれない",
+      "wrong_choices": [
+        "に違いない",
+        "ことがある",
+        "ようだ"
+      ],
+      "wrong_choice_explanations": {
+        "に違いない": "に違いない expresses strong certainty — it doesn't fit here because the speaker is expressing uncertainty, not certainty.",
+        "ことがある": "ことがある expresses occasional occurrence — it doesn't fit here because it doesn't work with adjectives like 面白い.",
+        "ようだ": "ようだ expresses appearance or resemblance — it doesn't fit here because it would need な form (面白いような) to work with adjectives."
+      }
+    },
+    {
+      "id": 4,
+      "example_sentence": "彼は病気__。",
+      "translation": "He might be sick.",
+      "blank_target": "かもしれない",
+      "wrong_choices": [
+        "だろう",
+        "みたいだ",
+        "らしい"
+      ],
+      "wrong_choice_explanations": {
+        "だろう": "だろう expresses probability or assumption — while similar, it doesn't fit the exact nuance of uncertainty that かもしれない provides in this context.",
+        "みたいだ": "みたいだ expresses resemblance or appearance — it doesn't fit here because it suggests the person looks sick rather than expressing uncertainty about their condition.",
+        "らしい": "らしい expresses information from others — it doesn't fit here because it implies the speaker heard about the illness from someone else."
+      }
+    },
+    {
+      "id": 5,
+      "example_sentence": "試験は難しい__。",
+      "translation": "The exam might be difficult.",
+      "blank_target": "かもしれない",
+      "wrong_choices": [
+        "と思う",
+        "はずだ",
+        "に決まっている"
+      ],
+      "wrong_choice_explanations": {
+        "と思う": "と思う expresses personal opinion — it doesn't fit here because it would need the speaker to state their definite opinion rather than uncertainty.",
+        "はずだ": "はずだ expresses strong expectation — it doesn't fit here because it conveys certainty based on logic, not uncertainty.",
+        "に決まっている": "に決まっている expresses absolute certainty — it doesn't fit here because it's the opposite of expressing uncertainty."
+      }
+    },
+    {
+      "id": 6,
+      "example_sentence": "お母さんは怒る__。",
+      "translation": "My mother might get angry.",
+      "blank_target": "かもしれない",
+      "wrong_choices": [
+        "でしょう",
+        "つもりだ",
+        "ようだ"
+      ],
+      "wrong_choice_explanations": {
+        "でしょう": "でしょう expresses polite probability — while similar, it's more formal and doesn't capture the same level of uncertainty as かもしれない.",
+        "つもりだ": "つもりだ expresses intention — it doesn't fit here because it would mean the mother intends to get angry, not that she might get angry.",
+        "ようだ": "ようだ expresses appearance — it doesn't fit here because it suggests the mother appears to be getting angry, not uncertainty about future anger."
+      }
+    },
+    {
+      "id": 7,
+      "example_sentence": "電車が遅れる__。",
+      "translation": "The train might be delayed.",
+      "blank_target": "かもしれない",
+      "wrong_choices": [
+        "そうだ",
+        "ようだ",
+        "らしい"
+      ],
+      "wrong_choice_explanations": {
+        "そうだ": "そうだ expresses hearsay or appearance — it doesn't fit here because it suggests the speaker heard about or sees signs of the delay, not expressing uncertainty.",
+        "ようだ": "ようだ expresses appearance or resemblance — it doesn't fit here because it suggests the train appears to be delayed, not uncertainty about a potential delay.",
+        "らしい": "らしい expresses information from others — it doesn't fit here because it implies the speaker heard about the delay from someone else."
+      }
+    },
+    {
+      "id": 8,
+      "example_sentence": "今日は暑い__。",
+      "translation": "It might be hot today.",
+      "blank_target": "かもしれない",
+      "wrong_choices": [
+        "だろう",
+        "と思う",
+        "はずだ"
+      ],
+      "wrong_choice_explanations": {
+        "だろう": "だろう expresses probability — while similar in meaning, it's more confident than かもしれない and doesn't fit the level of uncertainty expressed here.",
+        "と思う": "と思う expresses personal opinion — it doesn't fit here because it would need the speaker to state a definite opinion rather than uncertainty.",
+        "はずだ": "はずだ expresses strong expectation — it doesn't fit here because it conveys certainty based on evidence, not uncertainty."
+      }
+    },
+    {
+      "id": 9,
+      "example_sentence": "財布を忘れた__。",
+      "translation": "I might have forgotten my wallet.",
+      "blank_target": "かもしれない",
+      "wrong_choices": [
+        "つもりだった",
+        "ようだ",
+        "らしい"
+      ],
+      "wrong_choice_explanations": {
+        "つもりだった": "つもりだった expresses past intention — it doesn't fit here because forgetting a wallet is not intentional.",
+        "ようだ": "ようだ expresses appearance — it doesn't fit here because it suggests it appears the wallet was forgotten, not expressing uncertainty about whether it was forgotten.",
+        "らしい": "らしい expresses information from others — it doesn't fit here because forgetting one's own wallet is not something you hear from others."
+      }
+    },
+    {
+      "id": 10,
+      "example_sentence": "彼女は来年結婚する__。",
+      "translation": "She might get married next year.",
+      "blank_target": "かもしれない",
+      "wrong_choices": [
+        "予定だ",
+        "つもりだ",
+        "そうだ"
+      ],
+      "wrong_choice_explanations": {
+        "予定だ": "予定だ expresses a definite plan or schedule — it doesn't fit here because it indicates certainty, not uncertainty.",
+        "つもりだ": "つもりだ expresses intention — it doesn't fit here because it would indicate her definite intention, not uncertainty about whether she will marry.",
+        "そうだ": "そうだ expresses hearsay or appearance — it doesn't fit here because it suggests the speaker heard this information or sees signs of marriage, not expressing uncertainty."
+      }
+    }
+  ]
+}

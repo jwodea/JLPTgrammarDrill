@@ -1,0 +1,168 @@
+{
+  "id": "gp_020",
+  "pattern": "～ません",
+  "meaning": "Polite negative",
+  "level": "N5",
+  "exercises": [
+    {
+      "id": 1,
+      "example_sentence": "今日は学校に行き__。",
+      "translation": "I won't go to school today.",
+      "blank_target": "ません",
+      "wrong_choices": [
+        "ました",
+        "ないです",
+        "ません でした"
+      ],
+      "wrong_choice_explanations": {
+        "ました": "ました is the polite past form — it means 'did' but this sentence is about not doing something now.",
+        "ないです": "ないです is also polite negative, but ません is the standard form used with masu-stem verbs.",
+        "ませんでした": "ませんでした is polite past negative — it means 'didn't do' but this sentence is about present/future."
+      }
+    },
+    {
+      "id": 2,
+      "example_sentence": "コーヒーを飲み__。",
+      "translation": "I don't drink coffee.",
+      "blank_target": "ません",
+      "wrong_choices": [
+        "ます",
+        "ました",
+        "ないです"
+      ],
+      "wrong_choice_explanations": {
+        "ます": "ます is the polite positive form — it means 'do/will do' but this sentence is negative.",
+        "ました": "ました is the polite past positive form — it means 'did' but this sentence is about not doing something.",
+        "ないです": "ないです is polite negative, but it's used with plain negative forms, not masu-stem verbs."
+      }
+    },
+    {
+      "id": 3,
+      "example_sentence": "映画を見__。",
+      "translation": "I won't watch the movie.",
+      "blank_target": "ません",
+      "wrong_choices": [
+        "ます",
+        "ませんでした",
+        "たくない"
+      ],
+      "wrong_choice_explanations": {
+        "ます": "ます is the polite positive form — it means 'will watch' but this sentence expresses not wanting to watch.",
+        "ませんでした": "ませんでした is polite past negative — it means 'didn't watch' but this sentence is about future intention.",
+        "たくない": "たくない is used with the tai-form to express not wanting to do something, but the sentence structure requires ません."
+      }
+    },
+    {
+      "id": 4,
+      "example_sentence": "肉は食べ__。",
+      "translation": "I don't eat meat.",
+      "blank_target": "ません",
+      "wrong_choices": [
+        "ます",
+        "ました",
+        "なかった"
+      ],
+      "wrong_choice_explanations": {
+        "ます": "ます is the polite positive form — it means 'eat' but this sentence is about not eating meat.",
+        "ました": "ました is the polite past positive form — it means 'ate' but this sentence is about general habit, not past action.",
+        "なかった": "なかった is plain past negative — it's too casual for this polite sentence structure."
+      }
+    },
+    {
+      "id": 5,
+      "example_sentence": "明日は働き__。",
+      "translation": "I won't work tomorrow.",
+      "blank_target": "ません",
+      "wrong_choices": [
+        "ます",
+        "ませんでした",
+        "ない"
+      ],
+      "wrong_choice_explanations": {
+        "ます": "ます is the polite positive form — it means 'will work' but this sentence is about not working.",
+        "ませんでした": "ませんでした is polite past negative — it means 'didn't work' but this sentence is about tomorrow.",
+        "ない": "ない is plain negative — it's too casual for this polite sentence structure."
+      }
+    },
+    {
+      "id": 6,
+      "example_sentence": "今夜は料理をし__。",
+      "translation": "I won't cook tonight.",
+      "blank_target": "ません",
+      "wrong_choices": [
+        "ます",
+        "ました",
+        "ないです"
+      ],
+      "wrong_choice_explanations": {
+        "ます": "ます is the polite positive form — it means 'will cook' but this sentence is about not cooking.",
+        "ました": "ました is the polite past positive form — it means 'cooked' but this sentence is about tonight (future).",
+        "ないです": "ないです is polite negative, but it follows plain negative forms like しない, not masu-stems."
+      }
+    },
+    {
+      "id": 7,
+      "example_sentence": "パーティーに参加し__。",
+      "translation": "I won't participate in the party.",
+      "blank_target": "ません",
+      "wrong_choices": [
+        "ます",
+        "ませんでした",
+        "ないでしょう"
+      ],
+      "wrong_choice_explanations": {
+        "ます": "ます is the polite positive form — it means 'will participate' but this sentence is negative.",
+        "ませんでした": "ませんでした is polite past negative — it means 'didn't participate' but this sentence is about future decision.",
+        "ないでしょう": "ないでしょう expresses uncertainty about something being negative, but this sentence is a definite statement."
+      }
+    },
+    {
+      "id": 8,
+      "example_sentence": "その本は読み__。",
+      "translation": "I won't read that book.",
+      "blank_target": "ません",
+      "wrong_choices": [
+        "ます",
+        "ました",
+        "なくて"
+      ],
+      "wrong_choice_explanations": {
+        "ます": "ます is the polite positive form — it means 'will read' but this sentence is about not reading.",
+        "ました": "ました is the polite past positive form — it means 'read' but this sentence is about future intention.",
+        "なくて": "なくて is a connective form meaning 'not doing and...' — it doesn't complete the sentence properly."
+      }
+    },
+    {
+      "id": 9,
+      "example_sentence": "今日は外出し__。",
+      "translation": "I won't go out today.",
+      "blank_target": "ません",
+      "wrong_choices": [
+        "ます",
+        "ませんでした",
+        "ないつもり"
+      ],
+      "wrong_choice_explanations": {
+        "ます": "ます is the polite positive form — it means 'will go out' but this sentence is about staying home.",
+        "ませんでした": "ませんでした is polite past negative — it means 'didn't go out' but this sentence is about today's plan.",
+        "ないつもり": "ないつもり means 'intention not to do' but requires different sentence structure (するつもりはありません)."
+      }
+    },
+    {
+      "id": 10,
+      "example_sentence": "テレビは見__。",
+      "translation": "I don't watch TV.",
+      "blank_target": "ません",
+      "wrong_choices": [
+        "ます",
+        "ました",
+        "ないで"
+      ],
+      "wrong_choice_explanations": {
+        "ます": "ます is the polite positive form — it means 'watch' but this sentence is about not watching TV.",
+        "ました": "ました is the polite past positive form — it means 'watched' but this sentence is about general habit.",
+        "ないで": "ないで means 'without doing' and is used to connect actions — it doesn't complete this sentence."
+      }
+    }
+  ]
+}

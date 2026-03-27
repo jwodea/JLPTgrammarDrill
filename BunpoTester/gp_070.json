@@ -1,0 +1,168 @@
+{
+  "id": "gp_070",
+  "pattern": "～冊",
+  "meaning": "Counter for bound books",
+  "level": "N5",
+  "exercises": [
+    {
+      "id": 1,
+      "example_sentence": "本を三__借りました。",
+      "translation": "I borrowed three books.",
+      "blank_target": "冊",
+      "wrong_choices": [
+        "つ",
+        "個",
+        "本"
+      ],
+      "wrong_choice_explanations": {
+        "つ": "つ is a general counter — it doesn't fit here because books are bound objects that use 冊.",
+        "個": "個 is for small objects — it doesn't fit here because books are bound objects that use 冊.",
+        "本": "本 is for long cylindrical objects — it doesn't fit here because books use the specific counter 冊."
+      }
+    },
+    {
+      "id": 2,
+      "example_sentence": "辞書を二__持っています。",
+      "translation": "I have two dictionaries.",
+      "blank_target": "冊",
+      "wrong_choices": [
+        "つ",
+        "個",
+        "巻"
+      ],
+      "wrong_choice_explanations": {
+        "つ": "つ is a general counter — it doesn't fit here because dictionaries are bound books that use 冊.",
+        "個": "個 is for small objects — it doesn't fit here because dictionaries are bound books that use 冊.",
+        "巻": "巻 is for volumes in a series — it doesn't fit here because we're counting individual dictionaries."
+      }
+    },
+    {
+      "id": 3,
+      "example_sentence": "雑誌を五__買いました。",
+      "translation": "I bought five magazines.",
+      "blank_target": "冊",
+      "wrong_choices": [
+        "つ",
+        "個",
+        "部"
+      ],
+      "wrong_choice_explanations": {
+        "つ": "つ is a general counter — it doesn't fit here because magazines are bound publications that use 冊.",
+        "個": "個 is for small objects — it doesn't fit here because magazines are bound publications that use 冊.",
+        "部": "部 is for copies of documents — it doesn't fit here because magazines use 冊."
+      }
+    },
+    {
+      "id": 4,
+      "example_sentence": "ノートを四__使いました。",
+      "translation": "I used four notebooks.",
+      "blank_target": "冊",
+      "wrong_choices": [
+        "つ",
+        "個",
+        "枚"
+      ],
+      "wrong_choice_explanations": {
+        "つ": "つ is a general counter — it doesn't fit here because notebooks are bound books that use 冊.",
+        "個": "個 is for small objects — it doesn't fit here because notebooks are bound books that use 冊.",
+        "枚": "枚 is for flat objects — it doesn't fit here because notebooks are bound, not individual sheets."
+      }
+    },
+    {
+      "id": 5,
+      "example_sentence": "漫画を十__読みました。",
+      "translation": "I read ten manga books.",
+      "blank_target": "冊",
+      "wrong_choices": [
+        "つ",
+        "個",
+        "巻"
+      ],
+      "wrong_choice_explanations": {
+        "つ": "つ is a general counter — it doesn't fit here because manga books are bound books that use 冊.",
+        "個": "個 is for small objects — it doesn't fit here because manga books are bound books that use 冊.",
+        "巻": "巻 is for volumes in a series — while manga often uses 巻, 冊 is also correct for individual books."
+      }
+    },
+    {
+      "id": 6,
+      "example_sentence": "教科書が六__あります。",
+      "translation": "There are six textbooks.",
+      "blank_target": "冊",
+      "wrong_choices": [
+        "つ",
+        "個",
+        "本"
+      ],
+      "wrong_choice_explanations": {
+        "つ": "つ is a general counter — it doesn't fit here because textbooks are bound books that use 冊.",
+        "個": "個 is for small objects — it doesn't fit here because textbooks are bound books that use 冊.",
+        "本": "本 is for long cylindrical objects — it doesn't fit here because books use the specific counter 冊."
+      }
+    },
+    {
+      "id": 7,
+      "example_sentence": "小説を一__プレゼントしました。",
+      "translation": "I gave one novel as a gift.",
+      "blank_target": "冊",
+      "wrong_choices": [
+        "つ",
+        "個",
+        "部"
+      ],
+      "wrong_choice_explanations": {
+        "つ": "つ is a general counter — it doesn't fit here because novels are bound books that use 冊.",
+        "個": "個 is for small objects — it doesn't fit here because novels are bound books that use 冊.",
+        "部": "部 is for copies of documents — it doesn't fit here because novels use 冊."
+      }
+    },
+    {
+      "id": 8,
+      "example_sentence": "図鑑を二__注文しました。",
+      "translation": "I ordered two picture books (encyclopedias).",
+      "blank_target": "冊",
+      "wrong_choices": [
+        "つ",
+        "個",
+        "巻"
+      ],
+      "wrong_choice_explanations": {
+        "つ": "つ is a general counter — it doesn't fit here because picture books are bound books that use 冊.",
+        "個": "個 is for small objects — it doesn't fit here because picture books are bound books that use 冊.",
+        "巻": "巻 is for volumes in a series — it doesn't fit here unless it's a multi-volume encyclopedia."
+      }
+    },
+    {
+      "id": 9,
+      "example_sentence": "料理本を三__もらいました。",
+      "translation": "I received three cookbooks.",
+      "blank_target": "冊",
+      "wrong_choices": [
+        "つ",
+        "個",
+        "本"
+      ],
+      "wrong_choice_explanations": {
+        "つ": "つ is a general counter — it doesn't fit here because cookbooks are bound books that use 冊.",
+        "個": "個 is for small objects — it doesn't fit here because cookbooks are bound books that use 冊.",
+        "本": "本 is for long cylindrical objects — it doesn't fit here because books use the specific counter 冊."
+      }
+    },
+    {
+      "id": 10,
+      "example_sentence": "手帳を一__落としました。",
+      "translation": "I dropped one planner/notebook.",
+      "blank_target": "冊",
+      "wrong_choices": [
+        "つ",
+        "個",
+        "台"
+      ],
+      "wrong_choice_explanations": {
+        "つ": "つ is a general counter — it doesn't fit here because planners are bound books that use 冊.",
+        "個": "個 is for small objects — it doesn't fit here because planners are bound books that use 冊.",
+        "台": "台 is for machines/equipment — it doesn't fit here because planners are bound books that use 冊."
+      }
+    }
+  ]
+}

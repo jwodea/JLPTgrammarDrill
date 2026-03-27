@@ -1,7 +1,7 @@
 {
   "id": "n2_138",
   "pattern": "〜次第",
-  "meaning": "as soon as / depending on / once (it is up to...)",
+  "meaning": "as soon as / depending on",
   "level": "N2",
   "exercises": [
     {
@@ -12,12 +12,12 @@
       "wrong_choices": [
         "たら",
         "てから",
-        "次第で"
+        "ところで"
       ],
       "wrong_choice_explanations": [
-        "This pattern does not convey the same meaning as '〜次第' (as soon as / depending on / once (it is up to...)) needed in this context.",
-        "This pattern does not convey the same meaning as '〜次第' (as soon as / depending on / once (it is up to...)) needed in this context.",
-        "This pattern does not convey the same meaning as '〜次第' (as soon as / depending on / once (it is up to...)) needed in this context."
+        "〜たら expresses a simple conditional 'if/when' but doesn't convey the immediacy of 'as soon as' that 〜次第 provides.",
+        "〜てから means 'after doing' and indicates sequence, but lacks the immediate action nuance of 〜次第.",
+        "〜ところで means 'by the way' or 'at the point of' and doesn't fit this context of immediate action upon completion."
       ]
     },
     {
@@ -26,30 +26,30 @@
       "translation": "I will report as soon as the results are known.",
       "blank_target": "次第",
       "wrong_choices": [
-        "たら",
-        "てから",
-        "次第で"
+        "とき",
+        "ばかり",
+        "限り"
       ],
       "wrong_choice_explanations": [
-        "たら has a different grammatical function and doesn't fit the context of this sentence where 次第 is required.",
-        "てから has a different grammatical function and doesn't fit the context of this sentence where 次第 is required.",
-        "次第で has a different grammatical function and doesn't fit the context of this sentence where 次第 is required."
+        "〜とき means 'when/at the time of' but doesn't emphasize the immediate action that 〜次第 conveys.",
+        "〜ばかり means 'just/only' or 'have just done' and doesn't fit this context of future immediate action.",
+        "〜限り means 'as long as' or 'to the extent that' and doesn't express the immediacy needed here."
       ]
     },
     {
       "id": "n2_138_3",
-      "example_sentence": "在庫が入荷し次第、販売開始いたします。",
-      "translation": "We will begin selling as soon as the inventory arrives.",
-      "blank_target": "次第",
+      "example_sentence": "彼の態度次第で、計画を変更します。",
+      "translation": "Depending on his attitude, we will change the plan.",
+      "blank_target": "次第で",
       "wrong_choices": [
-        "たら",
-        "てから",
-        "次第で"
+        "によって",
+        "について",
+        "として"
       ],
       "wrong_choice_explanations": [
-        "たら conditional if / when, but 〜次第 has a specific meaning, which is what this sentence requires.",
-        "てから sequential 'after' with completion emphasis, but 〜次第 is needed to express the specific meaning required in this sentence.",
-        "次第で indicates location of action or means/method, but 〜次第 has a specific meaning, which is what this sentence requires."
+        "〜によって means 'by means of' or 'due to' but doesn't capture the conditional dependence that 〜次第で expresses.",
+        "〜について means 'about/concerning' and is used for topics, not for expressing conditional dependence.",
+        "〜として means 'as' or 'in the capacity of' and doesn't fit this context of conditional dependence."
       ]
     },
     {
@@ -58,14 +58,14 @@
       "translation": "We will send it as soon as the procedure is complete.",
       "blank_target": "次第",
       "wrong_choices": [
-        "たら",
-        "てから",
-        "次第で"
+        "うちに",
+        "まで",
+        "なり"
       ],
       "wrong_choice_explanations": [
-        "たら has a different grammatical function that doesn't fit this sentence context.",
-        "てから has a different grammatical function that doesn't fit this sentence context.",
-        "次第で has a different grammatical function that doesn't fit this sentence context."
+        "〜うちに means 'while/during' and refers to actions within a time period, not immediate action upon completion.",
+        "〜まで means 'until' and indicates a time limit, not the immediate action that 〜次第 expresses.",
+        "〜なり means 'as soon as' but is archaic and formal, making it unnatural in this modern business context."
       ]
     },
     {
@@ -74,14 +74,94 @@
       "translation": "I will reply as soon as I can confirm.",
       "blank_target": "次第",
       "wrong_choices": [
-        "たら",
-        "てから",
-        "次第で"
+        "だけ",
+        "まま",
+        "きり"
       ],
       "wrong_choice_explanations": [
-        "〜たら is simple conditional; doesn't convey 'as soon as'.",
-        "〜てから indicates sequence; doesn't express immediacy.",
-        "〜次第で means 'depending on'; doesn't convey 'as soon as'."
+        "〜だけ means 'only/just' and doesn't express the temporal immediacy that 〜次第 conveys.",
+        "〜まま means 'as it is/remaining in a state' and doesn't fit this context of immediate future action.",
+        "〜きり means 'only' or indicates a state continuing since a point in time, which doesn't match this immediate action context."
+      ]
+    },
+    {
+      "id": "n2_138_6",
+      "example_sentence": "天気次第で、ピクニックに行きます。",
+      "translation": "Depending on the weather, we will go on a picnic.",
+      "blank_target": "次第で",
+      "wrong_choices": [
+        "に関して",
+        "を通じて",
+        "に対して"
+      ],
+      "wrong_choice_explanations": [
+        "〜に関して means 'regarding/concerning' and is used for topics, not for expressing conditional dependence.",
+        "〜を通じて means 'through/via' and indicates means or medium, not conditional dependence on circumstances.",
+        "〜に対して means 'toward/against' and expresses direction or opposition, not conditional dependence."
+      ]
+    },
+    {
+      "id": "n2_138_7",
+      "example_sentence": "材料が届き次第、料理を始めます。",
+      "translation": "I will start cooking as soon as the ingredients arrive.",
+      "blank_target": "次第",
+      "wrong_choices": [
+        "際に",
+        "あげく",
+        "ついでに"
+      ],
+      "wrong_choice_explanations": [
+        "〜際に means 'at the time of/when' but is more formal and doesn't emphasize immediacy like 〜次第.",
+        "〜あげく means 'after a long process/in the end' and implies struggle or difficulty, which doesn't fit this neutral context.",
+        "〜ついでに means 'while doing/taking the opportunity' and doesn't express the immediacy upon completion that 〜次第 conveys."
+      ]
+    },
+    {
+      "id": "n2_138_8",
+      "example_sentence": "本人の努力次第で、結果は変わります。",
+      "translation": "The results will change depending on the person's effort.",
+      "blank_target": "次第で",
+      "wrong_choices": [
+        "に基づいて",
+        "をめぐって",
+        "にしたがって"
+      ],
+      "wrong_choice_explanations": [
+        "〜に基づいて means 'based on' and refers to using something as a foundation, not conditional dependence.",
+        "〜をめぐって means 'concerning/around' and indicates dispute or discussion about a topic, not conditional dependence.",
+        "〜にしたがって means 'in accordance with/following' and indicates compliance, not the conditional dependence that 〜次第で expresses."
+      ]
+    },
+    {
+      "id": "n2_138_9",
+      "example_sentence": "審査が通り次第、契約書を送ります。",
+      "translation": "I will send the contract as soon as the screening passes.",
+      "blank_target": "次第",
+      "wrong_choices": [
+        "以上",
+        "からには",
+        "上で"
+      ],
+      "wrong_choice_explanations": [
+        "〜以上 means 'since/now that' and expresses consequence based on established facts, not immediate future action.",
+        "〜からには means 'since/now that' and emphasizes obligation or determination, not the immediacy of 〜次第.",
+        "〜上で means 'after doing/upon' and is more formal, but doesn't convey the same immediacy as 〜次第."
+      ]
+    },
+    {
+      "id": "n2_138_10",
+      "example_sentence": "予算次第で、プロジェクトの規模を決めます。",
+      "translation": "We will decide the project's scale depending on the budget.",
+      "blank_target": "次第で",
+      "wrong_choices": [
+        "を問わず",
+        "をきっかけに",
+        "に比べて"
+      ],
+      "wrong_choice_explanations": [
+        "〜を問わず means 'regardless of' and expresses the opposite meaning of conditional dependence that 〜次第で conveys.",
+        "〜をきっかけに means 'using as an opportunity/triggered by' and indicates a starting point, not conditional dependence.",
+        "〜に比べて means 'compared to' and is used for comparison, not for expressing conditional dependence on circumstances."
       ]
     }
   ]

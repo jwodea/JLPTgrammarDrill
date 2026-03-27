@@ -6,98 +6,82 @@
   "exercises": [
     {
       "id": "n1_076_1",
-      "example_sentence": "[ファイル1]これはをもってしてもの例文です。",
-      "translation": "This is an example sentence for をもってしても.",
+      "example_sentence": "最新の技術をもってしても、この病気を完全に治すことはできない。",
+      "translation": "Even with the latest technology, we cannot completely cure this disease.",
       "blank_target": "をもってしても",
       "wrong_choices": [
         "を経ても",
-        "をもて",
-        "をなお"
+        "をもとに",
+        "をめぐって"
       ],
       "wrong_choice_explanations": [
-        "を経ても means 'even after going through', expressing passage through.",
-        "をもて is not standard modern Japanese.",
-        "をなお is not standard; なお means 'still / yet'."
-      ]
-    },
-    {
-      "id": "n1_076_10",
-      "example_sentence": "いかなる医療理論をもってしても、すべての患者を満足させることはできない。",
-      "translation": "Even with any medical theory, one cannot satisfy all patients.",
-      "blank_target": "をもってしても",
-      "wrong_choices": [
-        "があっても",
-        "を以てしても",
-        "ほどではない"
-      ],
-      "wrong_choice_explanations": [
-        "'があっても' does not express the same grammatical relationship as '〜をもってしても' in this context.",
-        "'を以てしても' does not express the same grammatical relationship as '〜をもってしても' in this context.",
-        "'ほどではない' does not express the same grammatical relationship as '〜をもってしても' in this context."
+        "を経ても means 'even after going through', which expresses passage of time or process rather than using something as a means.",
+        "をもとに means 'based on', indicating a foundation or source, not the concessive 'even with' meaning needed here.",
+        "をめぐって means 'concerning/regarding', which is about topics of discussion, not about using something as means."
       ]
     },
     {
       "id": "n1_076_2",
-      "example_sentence": "[ファイル2]これはをもってしてもの例文です。",
-      "translation": "This is an example sentence for をもってしても.",
+      "example_sentence": "豊富な資金をもってしても、短期間でこの事業を成功させるのは困難だ。",
+      "translation": "Even with abundant funds, it would be difficult to make this business successful in a short time.",
       "blank_target": "をもってしても",
       "wrong_choices": [
-        "を経ても",
-        "をもて",
-        "をなお"
+        "があっても",
+        "としても",
+        "だけでは"
       ],
       "wrong_choice_explanations": [
-        "を経ても lacks the specific nuance that をもってしても provides, and this sentence needs that distinction.",
-        "をもて lacks the specific nuance that をもってしても provides, and this sentence needs that distinction.",
-        "をなお lacks the specific nuance that をもってしても provides, and this sentence needs that distinction."
+        "があっても is a simple conditional 'even if there is', but lacks the nuance of using something as a means or tool that をもってしても provides.",
+        "としても means 'even as/even if', but doesn't carry the instrumental meaning of 'by means of' that this context requires.",
+        "だけでは means 'with only/just with', expressing insufficiency but not the concessive 'even with' meaning."
       ]
     },
     {
       "id": "n1_076_3",
-      "example_sentence": "[ファイル3]これはをもってしてもの例文です。",
-      "translation": "This is an example sentence for をもってしても.",
+      "example_sentence": "どんな高性能なコンピュータをもってしても、人間の創造性に取って代わることはできない。",
+      "translation": "Even with any high-performance computer, it cannot replace human creativity.",
       "blank_target": "をもってしても",
       "wrong_choices": [
-        "を経ても",
-        "をもて",
-        "をなお"
+        "を使っても",
+        "によっても",
+        "を通じても"
       ],
       "wrong_choice_explanations": [
-        "Means 'even passing through'; different sense from by-means-of.",
-        "Incomplete form; malformed.",
-        "Means 'even now'; doesn't convey by-means-of."
+        "を使っても means 'even if using', which is more straightforward and lacks the formal, emphatic nuance of をもってしても.",
+        "によっても means 'even by/through', but doesn't have the same emphasis on using something as a powerful means that をもってしても conveys.",
+        "を通じても means 'even through/via', focusing on a channel or medium rather than the instrumental emphasis of をもってしても."
       ]
     },
     {
       "id": "n1_076_4",
-      "example_sentence": "[ファイル4]これはをもってしてもの例文です。",
-      "translation": "This is an example sentence for をもってしても.",
+      "example_sentence": "優秀な弁護士をもってしても、この訴訟に勝つのは難しいだろう。",
+      "translation": "Even with an excellent lawyer, it would be difficult to win this lawsuit.",
       "blank_target": "をもってしても",
       "wrong_choices": [
-        "を経ても",
-        "をもて",
-        "をなお"
+        "でさえも",
+        "といえども",
+        "にしても"
       ],
       "wrong_choice_explanations": [
-        "means \"even after going through\"; lacks the instrumental \"even with\" sense.",
-        "is an incomplete form; lacks the full \"even with\" meaning.",
-        "means \"and yet\" or \"still\"; does not express the instrumental sense."
+        "でさえも means 'even', but it's used after nouns directly and doesn't have the instrumental 'by means of' nuance that this sentence requires.",
+        "といえども means 'even though/although', but it follows a different grammatical pattern and lacks the 'using as means' emphasis.",
+        "にしても means 'even if/whether', but it doesn't carry the meaning of utilizing something as a powerful tool or means."
       ]
     },
     {
       "id": "n1_076_5",
-      "example_sentence": "[ファイル5]これはをもってしてもの例文です。",
-      "translation": "This is an example sentence for をもってしても.",
+      "example_sentence": "どれほど詳細な地図をもってしても、この山奥で道に迷う可能性はある。",
+      "translation": "Even with however detailed a map, there is a possibility of getting lost in these deep mountains.",
       "blank_target": "をもってしても",
       "wrong_choices": [
-        "を経ても",
-        "をもて",
-        "をなお"
+        "があったとしても",
+        "を持参しても",
+        "を頼りにしても"
       ],
       "wrong_choice_explanations": [
-        "を経ても means 'even after going through'; it doesn't convey the 'even with / even by means of' meaning needed here.",
-        "をもて means 'with / by means of (old form)'; it doesn't convey the 'even with / even by means of' meaning needed here.",
-        "をなお means 'with / still'; it doesn't convey the 'even with / even by means of' meaning needed here."
+        "があったとしても means 'even if there were', but it's less formal and doesn't emphasize using something as a powerful means like をもってしても does.",
+        "を持参しても means 'even if bringing along', focusing on the act of carrying rather than utilizing as an effective tool.",
+        "を頼りにしても means 'even if relying on', which emphasizes dependence rather than the instrumental usage implied by をもってしても."
       ]
     },
     {
@@ -106,14 +90,14 @@
       "translation": "Even with the authority of the UN, it is difficult to resolve this conflict between nations.",
       "blank_target": "をもってしても",
       "wrong_choices": [
-        "のかたわら",
-        "しながら",
-        "とともに"
+        "の力でも",
+        "を背景にしても",
+        "に頼っても"
       ],
       "wrong_choice_explanations": [
-        "まあまあ is similar but more colloquial and less sophisticated than そこそこ.",
-        "程度 is 'to some degree' but is formal, not the moderate satisfaction of そこそこ.",
-        "くらい means 'about' but is neutral, not the sense of 'fairly well' in そこそこ."
+        "の力でも means 'even with the power of', but it's less formal and doesn't have the same emphasis on utilizing authority as a means that をもってしても provides.",
+        "を背景にしても means 'even with as background', focusing on support or context rather than active utilization as a tool.",
+        "に頼っても means 'even if depending on', which emphasizes reliance rather than the active instrumental use conveyed by をもってしても."
       ]
     },
     {
@@ -123,13 +107,13 @@
       "blank_target": "をもってしても",
       "wrong_choices": [
         "があっても",
-        "を以てしても",
-        "ほどではない"
+        "を武器にしても",
+        "を根拠にしても"
       ],
       "wrong_choice_explanations": [
-        "This wrong choice doesn't fit the required grammar pattern 〜をもってしても.",
-        "This wrong choice doesn't fit the required grammar pattern 〜をもってしても.",
-        "This wrong choice doesn't fit the required grammar pattern 〜をもってしても."
+        "があっても means 'even if there is', but lacks the nuance of actively utilizing authority as a powerful means that をもってしても conveys.",
+        "を武器にしても means 'even using as a weapon', which is more aggressive and doesn't fit the formal, legal context of this sentence.",
+        "を根拠にしても means 'even using as basis/grounds', focusing on justification rather than the instrumental power emphasized by をもってしても."
       ]
     },
     {
@@ -138,30 +122,46 @@
       "translation": "Even with any theoretical framework, one cannot explain all phenomena.",
       "blank_target": "をもってしても",
       "wrong_choices": [
-        "があっても",
-        "を以てしても",
-        "ほどではない"
+        "を適用しても",
+        "に基づいても",
+        "を駆使しても"
       ],
       "wrong_choice_explanations": [
-        "があっても has a different grammatical meaning and context; it doesn't fit the required meaning here.",
-        "を以てしても has a different grammatical meaning and context; it doesn't fit the required meaning here.",
-        "ほどではない has a different grammatical meaning and context; it doesn't fit the required meaning here."
+        "を適用しても means 'even if applying', which is more straightforward and lacks the formal emphasis on utilizing as a powerful tool that をもってしても provides.",
+        "に基づいても means 'even if based on', focusing on foundation rather than the active instrumental use emphasized by をもってしても.",
+        "を駆使しても means 'even if making full use of', which is close but less formal and doesn't have the same concessive emphasis as をもってしても."
       ]
     },
     {
       "id": "n1_076_9",
-      "example_sentence": "いかなる経営理論をもってしても、全ての問題を解決することはできない。",
-      "translation": "Even with any management theory, one cannot solve all problems.",
+      "example_sentence": "どんな経営理論をもってしても、全ての企業問題を解決することはできない。",
+      "translation": "Even with any management theory, one cannot solve all corporate problems.",
       "blank_target": "をもってしても",
       "wrong_choices": [
-        "があっても",
-        "を以てしても",
-        "ほどではない"
+        "を学んでも",
+        "を研究しても",
+        "を実践しても"
       ],
       "wrong_choice_explanations": [
-        "『があっても』 does not express the meaning of 『をもってしても』 needed in this context.",
-        "『を以てしても』 does not express the meaning of 『をもってしても』 needed in this context.",
-        "『ほどではない』 does not express the meaning of 『をもってしても』 needed in this context."
+        "を学んでも means 'even if learning', focusing on the act of studying rather than utilizing as an effective means.",
+        "を研究しても means 'even if researching', emphasizing investigation rather than the instrumental application implied by をもってしても.",
+        "を実践しても means 'even if practicing', focusing on implementation but lacking the formal, emphatic nuance of utilizing as a powerful tool."
+      ]
+    },
+    {
+      "id": "n1_076_10",
+      "example_sentence": "現代医学の知識をもってしても、老化を完全に止めることは不可能だ。",
+      "translation": "Even with the knowledge of modern medicine, it is impossible to completely stop aging.",
+      "blank_target": "をもってしても",
+      "wrong_choices": [
+        "を総動員しても",
+        "に依存しても",
+        "を信頼しても"
+      ],
+      "wrong_choice_explanations": [
+        "を総動員しても means 'even if mobilizing all of', which is more concrete and lacks the formal, abstract emphasis on utilizing as means that をもってしても provides.",
+        "に依存しても means 'even if depending on', emphasizing reliance rather than the active utilization of knowledge as a tool.",
+        "を信頼しても means 'even if trusting', focusing on faith rather than the instrumental use of knowledge emphasized by をもってしても."
       ]
     }
   ]

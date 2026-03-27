@@ -12,76 +12,156 @@
       "wrong_choices": [
         "としても",
         "にしては",
-        "にせよ"
+        "だとしても"
       ],
       "wrong_choice_explanations": [
-        "This pattern does not convey the same meaning as '〜にしても' (even if / regardless of whether (acknowledges the condition but dismisses it)) needed in this context.",
-        "This pattern does not convey the same meaning as '〜にしても' (even if / regardless of whether (acknowledges the condition but dismisses it)) needed in this context.",
-        "This pattern does not convey the same meaning as '〜にしても' (even if / regardless of whether (acknowledges the condition but dismisses it)) needed in this context."
+        "としても means 'even if' but lacks the dismissive nuance of にしても that downplays the importance of being busy.",
+        "にしては means 'for/considering' and would suggest the speaker is evaluating the situation based on being busy, not dismissing it.",
+        "だとしても is used for hypothetical situations and doesn't convey the acknowledgment-but-dismissal meaning needed here."
       ]
     },
     {
       "id": "n2_153_2",
-      "example_sentence": "難しいにしても、試してみる価値はある。",
-      "translation": "Even if it is difficult, it is worth trying.",
+      "example_sentence": "雨にしても雪にしても、試合は開催される。",
+      "translation": "Whether it rains or snows, the game will be held.",
       "blank_target": "にしても",
       "wrong_choices": [
-        "としても",
-        "にしては",
-        "にせよ"
+        "だろうと",
+        "であっても",
+        "といっても"
       ],
       "wrong_choice_explanations": [
-        "としても has a different grammatical function and doesn't fit the context of this sentence where にしても is required.",
-        "にしては has a different grammatical function and doesn't fit the context of this sentence where にしても is required.",
-        "にせよ has a different grammatical function and doesn't fit the context of this sentence where にしても is required."
+        "だろうと expresses uncertainty about whether it will rain or snow, but にしても dismisses these conditions as irrelevant.",
+        "であっても is formal concession but doesn't capture the dismissive 'regardless of which' meaning of にしても here.",
+        "といっても means 'although/even though' but lacks the pattern structure needed for listing alternative conditions."
       ]
     },
     {
       "id": "n2_153_3",
-      "example_sentence": "高いにしても、その価値はある。",
-      "translation": "Even if it is expensive, it is worth the price.",
+      "example_sentence": "高いにしても、品質を考えれば納得できる。",
+      "translation": "Even if it's expensive, it's acceptable when you consider the quality.",
       "blank_target": "にしても",
       "wrong_choices": [
-        "としても",
-        "にしては",
-        "にせよ"
+        "とはいえ",
+        "ものの",
+        "けれども"
       ],
       "wrong_choice_explanations": [
-        "としても even if / even as, but 〜にしても is needed to express the specific meaning required in this sentence.",
-        "にしては means for / considering, but 〜にしても has a specific meaning, which is what this sentence requires.",
-        "にせよ has a different grammatical function, but 〜にしても is needed to express the specific meaning required in this sentence."
+        "とはいえ means 'having said that' and introduces a contrasting point, but doesn't acknowledge and dismiss the condition like にしても.",
+        "ものの means 'although' but is used mid-sentence to connect clauses, not to acknowledge and dismiss a condition.",
+        "けれども is a simple 'but/however' conjunction and lacks the specific acknowledgment-dismissal nuance of にしても."
       ]
     },
     {
       "id": "n2_153_4",
-      "example_sentence": "遠いにしても、一度は訪れるべきだ。",
-      "translation": "Even if it is far, you should visit once.",
+      "example_sentence": "新人にしても、この程度のミスは避けられるはずだ。",
+      "translation": "Even if you're a newcomer, this kind of mistake should be avoidable.",
       "blank_target": "にしても",
       "wrong_choices": [
-        "としても",
-        "にしては",
-        "にせよ"
+        "だからといって",
+        "にしたって",
+        "としたところで"
       ],
       "wrong_choice_explanations": [
-        "としても has a different grammatical function that doesn't fit this sentence context.",
-        "にしては has a different grammatical function that doesn't fit this sentence context.",
-        "にせよ has a different grammatical function that doesn't fit this sentence context."
+        "だからといって means 'just because' and introduces a reason why something doesn't follow, but doesn't acknowledge and dismiss the condition.",
+        "にしたって is casual and means 'even if' but lacks the formal dismissive tone of にしても needed in this context.",
+        "としたところで means 'even if' with a sense that the result won't change, but doesn't have the acknowledgment aspect of にしても."
       ]
     },
     {
       "id": "n2_153_5",
-      "example_sentence": "複雑にしても、説明することは可能だ。",
-      "translation": "Even if it is complex, it is possible to explain.",
+      "example_sentence": "時間がないにしても、準備は必要だ。",
+      "translation": "Even if there's no time, preparation is necessary.",
       "blank_target": "にしても",
       "wrong_choices": [
-        "としても",
-        "にしては",
-        "にせよ"
+        "にも関わらず",
+        "それでも",
+        "なくても"
       ],
       "wrong_choice_explanations": [
-        "〜としても is also concessive; slightly different nuance.",
-        "〜にしては means 'for'; doesn't convey concession.",
-        "〜にせよ is formal; similar meaning."
+        "にも関わらず means 'despite' and emphasizes contrast, but doesn't acknowledge the condition before dismissing it like にしても.",
+        "それでも means 'even so/still' but is used to continue despite previous information, not to acknowledge and dismiss a condition.",
+        "なくても would make the sentence mean 'even without time' which changes the meaning from acknowledging lack of time to saying time isn't needed."
+      ]
+    },
+    {
+      "id": "n2_153_6",
+      "example_sentence": "経験が浅いにしても、やる気があれば大丈夫だ。",
+      "translation": "Even if your experience is limited, you'll be fine if you have motivation.",
+      "blank_target": "にしても",
+      "wrong_choices": [
+        "からといって",
+        "ばかりに",
+        "くせに"
+      ],
+      "wrong_choice_explanations": [
+        "からといって means 'just because' and is used to say that one thing doesn't necessarily lead to another, not to acknowledge and dismiss a condition.",
+        "ばかりに means 'just because of' and expresses that something happened due to a single cause, which doesn't fit this context.",
+        "くせに means 'despite/in spite of' with a critical tone, but doesn't have the neutral acknowledgment-dismissal meaning of にしても."
+      ]
+    },
+    {
+      "id": "n2_153_7",
+      "example_sentence": "給料が安いにしても、この仕事にはやりがいがある。",
+      "translation": "Even if the salary is low, this job is rewarding.",
+      "blank_target": "にしても",
+      "wrong_choices": [
+        "ながらも",
+        "一方で",
+        "反面"
+      ],
+      "wrong_choice_explanations": [
+        "ながらも means 'while/although' and shows simultaneous contrasting states, but doesn't acknowledge and dismiss like にしても.",
+        "一方で means 'on the other hand' and presents an alternative viewpoint, not an acknowledgment-dismissal of a condition.",
+        "反面 means 'on the flip side' and presents a contrasting aspect, but doesn't acknowledge and dismiss the initial condition."
+      ]
+    },
+    {
+      "id": "n2_153_8",
+      "example_sentence": "危険にしても、誰かが行かなければならない。",
+      "translation": "Even if it's dangerous, someone has to go.",
+      "blank_target": "にしても",
+      "wrong_choices": [
+        "について",
+        "に対して",
+        "をもって"
+      ],
+      "wrong_choice_explanations": [
+        "について means 'about/regarding' and is used to indicate a topic of discussion, not to express concession.",
+        "に対して means 'toward/against' and indicates direction or opposition, not acknowledgment and dismissal of a condition.",
+        "をもって means 'with/by means of' and indicates a method or tool, completely unrelated to the concessive meaning needed here."
+      ]
+    },
+    {
+      "id": "n2_153_9",
+      "example_sentence": "古いにしても、まだ使える機械だ。",
+      "translation": "Even if it's old, it's still a usable machine.",
+      "blank_target": "にしても",
+      "wrong_choices": [
+        "わりに",
+        "のに",
+        "ゆえに"
+      ],
+      "wrong_choice_explanations": [
+        "わりに means 'for/considering' and suggests something is more than expected given the condition, not dismissing the condition.",
+        "のに means 'although/despite' with disappointment or surprise, but doesn't have the acknowledgment-dismissal structure of にしても.",
+        "ゆえに means 'therefore/because of' and shows causation, completely opposite to the concessive meaning needed here."
+      ]
+    },
+    {
+      "id": "n2_153_10",
+      "example_sentence": "若いにしても、責任感は十分にある。",
+      "translation": "Even if he's young, he has plenty of responsibility.",
+      "blank_target": "にしても",
+      "wrong_choices": [
+        "からして",
+        "において",
+        "にあたって"
+      ],
+      "wrong_choice_explanations": [
+        "からして means 'starting from/judging from' and indicates using something as a basis for judgment, not acknowledging and dismissing it.",
+        "において means 'in/at/on' and indicates location or circumstances, not concession or acknowledgment-dismissal.",
+        "にあたって means 'on the occasion of/when doing' and indicates timing or circumstances, not concessive acknowledgment-dismissal."
       ]
     }
   ]

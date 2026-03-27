@@ -7,7 +7,7 @@
     {
       "id": "n1_016_1",
       "example_sentence": "結果もさることながら、過程が重要だ。",
-      "translation": "Not only the result but the process is important.",
+      "translation": "Not only the result but the process is important (even more so).",
       "blank_target": "もさることながら",
       "wrong_choices": [
         "ばかりか",
@@ -21,83 +21,67 @@
       ]
     },
     {
-      "id": "n1_016_10",
-      "example_sentence": "その医療システムの効率性もさることながら、患者の尊厳もまた重要である。",
-      "translation": "That healthcare system's efficiency is noteworthy, but patient dignity is equally important.",
-      "blank_target": "もさることながら",
-      "wrong_choices": [
-        "とは言えない",
-        "と同じくらい",
-        "さながら"
-      ],
-      "wrong_choice_explanations": [
-        "'とは言えない' does not express the same grammatical relationship as '〜もさることながら' in this context.",
-        "'と同じくらい' does not express the same grammatical relationship as '〜もさることながら' in this context.",
-        "'さながら' does not express the same grammatical relationship as '〜もさることながら' in this context."
-      ]
-    },
-    {
       "id": "n1_016_2",
-      "example_sentence": "結果もさることながら、過程が重要だ。",
-      "translation": "Not only the result but the process is important.",
+      "example_sentence": "彼の学歴もさることながら、その実力こそが評価されるべきだ。",
+      "translation": "His educational background is notable, but his actual ability is what should be evaluated (even more so).",
       "blank_target": "もさることながら",
       "wrong_choices": [
-        "ばかりか",
-        "だけではなく",
-        "にもかかわらず"
+        "を問わず",
+        "はともかく",
+        "に加えて"
       ],
       "wrong_choice_explanations": [
-        "ばかりか simply adds items without emphasizing that the latter is more important than the former.",
-        "だけではなく means 'not only' but doesn't imply that what follows is even more important.",
-        "にもかかわらず means 'despite' which is contrastive rather than emphasizing both items with the latter more significant."
+        "を問わず means 'regardless of' and dismisses the first item rather than acknowledging its importance.",
+        "はともかく means 'setting aside' and dismisses the first item rather than acknowledging it.",
+        "に加えて simply adds information without the emphasis that the latter is more significant."
       ]
     },
     {
       "id": "n1_016_3",
-      "example_sentence": "結果もさることながら、過程が重要だ。",
-      "translation": "Not only the result but the process is important.",
+      "example_sentence": "料理の味もさることながら、店主の人柄に魅力を感じる。",
+      "translation": "The taste of the food is good, but I'm drawn to the owner's personality (even more so).",
       "blank_target": "もさることながら",
       "wrong_choices": [
-        "ばかりか",
-        "だけではなく",
-        "にもかかわらず"
+        "に限らず",
+        "のみならず",
+        "というより"
       ],
       "wrong_choice_explanations": [
-        "Means 'and moreover'; lacks the structure of emphasizing the second item.",
-        "Means 'not just'; lacks the subtle emphasis on what comes after.",
-        "Means 'in spite of'; doesn't convey the 'also noteworthy' structure."
+        "に限らず means 'not limited to' and suggests expanding scope rather than emphasizing the latter item.",
+        "のみならず means 'not only' but lacks the subtle emphasis that the latter is more noteworthy.",
+        "というより means 'rather than' and dismisses the first item completely."
       ]
     },
     {
       "id": "n1_016_4",
-      "example_sentence": "結果もさることながら、過程が重要だ。",
-      "translation": "Not only the result but the process is important.",
+      "example_sentence": "この小説の文体もさることながら、その深いテーマ性が印象的だ。",
+      "translation": "The writing style of this novel is noteworthy, but its profound thematic content is impressive (even more so).",
       "blank_target": "もさることながら",
       "wrong_choices": [
-        "ばかりか",
-        "だけではなく",
-        "にもかかわらず"
+        "と相まって",
+        "をはじめ",
+        "にしても"
       ],
       "wrong_choice_explanations": [
-        "means \"not only... but also\"; does not emphasize that the latter is even more important.",
-        "means \"not only... but also\"; simpler form without the nuance of the latter being emphasized.",
-        "means \"despite\"; expresses contrast rather than additive emphasis."
+        "と相まって means 'combined with' and suggests mutual reinforcement rather than emphasis on the latter.",
+        "をはじめ means 'starting with' and lists items without the emphasis structure needed here.",
+        "にしても means 'even if' and expresses concession rather than acknowledgment followed by emphasis."
       ]
     },
     {
       "id": "n1_016_5",
-      "example_sentence": "結果もさることながら、過程が重要だ。",
-      "translation": "Not only the result but the process is important.",
+      "example_sentence": "彼女の演技力もさることながら、その努力家な姿勢が素晴らしい。",
+      "translation": "Her acting ability is notable, but her hardworking attitude is wonderful (even more so).",
       "blank_target": "もさることながら",
       "wrong_choices": [
-        "ばかりか",
-        "だけではなく",
-        "にもかかわらず"
+        "に関して",
+        "について",
+        "といったら"
       ],
       "wrong_choice_explanations": [
-        "ばかりか means 'let alone / far from'; it doesn't convey the 'not only... but also (the latter even more so)' meaning needed here.",
-        "だけではなく means 'not only but also'; it doesn't convey the 'not only... but also (the latter even more so)' meaning needed here.",
-        "にもかかわらず means 'despite / in spite of'; it doesn't convey the 'not only... but also (the latter even more so)' meaning needed here."
+        "に関して means 'concerning' and introduces a topic rather than expressing the comparison structure.",
+        "について means 'about' and introduces a topic rather than the 'not only...but also' meaning.",
+        "といったら means 'speaking of' and expresses emphasis but not the balanced comparison needed."
       ]
     },
     {
@@ -106,62 +90,78 @@
       "translation": "Geopolitical interests are important, but humanitarian responsibility is even more so.",
       "blank_target": "もさることながら",
       "wrong_choices": [
-        "とは言えない",
-        "と同じくらい",
-        "さながら"
+        "を抜きにして",
+        "を度外視して",
+        "はさておき"
       ],
       "wrong_choice_explanations": [
-        "を避けず means 'without avoiding' but is passive/neutral, whereas をいとわず actively conveys willingness or readiness.",
-        "を気にせず means 'without caring about' and expresses indifference rather than the active willingness that いとわず implies.",
-        "を無視して means 'ignoring' and has a negative connotation, whereas をいとわず suggests positive acceptance or willingness."
+        "を抜きにして means 'leaving out' and completely dismisses the first item rather than acknowledging it.",
+        "を度外視して means 'disregarding' and ignores the first item rather than acknowledging its importance.",
+        "はさておき means 'setting aside' and dismisses the first item rather than acknowledging it as notable."
       ]
     },
     {
       "id": "n1_016_7",
       "example_sentence": "森林破壊の深刻さもさることながら、海洋汚染もまた急速に悪化している。",
-      "translation": "The severity of deforestation is notable, but marine pollution is equally becoming critical.",
+      "translation": "The severity of deforestation is notable, but marine pollution is also rapidly worsening (equally concerning).",
       "blank_target": "もさることながら",
       "wrong_choices": [
-        "とは言えない",
-        "と同じくらい",
-        "さながら"
+        "と比べて",
+        "に対して",
+        "に反して"
       ],
       "wrong_choice_explanations": [
-        "ぶりで means 'in the manner of' but lacks the time-based emphasis.",
-        "ぶりの means 'of the manner' but functions differently in sentence structure.",
-        "ぶりといえば means 'speaking of the manner' but is more direct than ぶりに."
+        "と比べて means 'compared to' and creates direct comparison rather than acknowledgment plus additional emphasis.",
+        "に対して means 'in contrast to' and creates opposition rather than the additive emphasis structure.",
+        "に反して means 'contrary to' and creates contradiction rather than acknowledging both items."
       ]
     },
     {
       "id": "n1_016_8",
       "example_sentence": "その文献の学術的価値もさることながら、文化的重要性もまた高い。",
-      "translation": "The academic value of that document is noteworthy, but its cultural importance is equally high.",
+      "translation": "The academic value of that document is noteworthy, but its cultural importance is also high (equally significant).",
       "blank_target": "もさることながら",
       "wrong_choices": [
-        "とは言えない",
-        "と同じくらい",
-        "さながら"
+        "によると",
+        "に基づいて",
+        "をめぐって"
       ],
       "wrong_choice_explanations": [
-        "とは言えない has a different grammatical meaning and context; it doesn't fit the required meaning here.",
-        "と同じくらい has a different grammatical meaning and context; it doesn't fit the required meaning here.",
-        "さながら has a different grammatical meaning and context; it doesn't fit the required meaning here."
+        "によると means 'according to' and introduces source information rather than the comparison structure.",
+        "に基づいて means 'based on' and shows foundation rather than the 'not only...but also' meaning.",
+        "をめぐって means 'concerning/around' and introduces topics for discussion rather than emphasis comparison."
       ]
     },
     {
       "id": "n1_016_9",
       "example_sentence": "その企業の市場支配力もさることながら、その社会的影響力もまた大きい。",
-      "translation": "That company's market dominance is notable, but its social influence is equally significant.",
+      "translation": "That company's market dominance is notable, but its social influence is also significant (equally important).",
       "blank_target": "もさることながら",
       "wrong_choices": [
-        "とは言えない",
-        "と同じくらい",
-        "さながら"
+        "によって",
+        "として",
+        "をもって"
       ],
       "wrong_choice_explanations": [
-        "This means 'cannot be said to' which contradicts the affirmative meaning needed.",
-        "『と同じくらい』 indicates equal degree; it expresses equivalence but not the logical progression of 'X is important; moreover, Y is also significant.'",
-        "『さながら』 means 'just like' and draws a comparison; it cannot express the 'not only...but also' structure and logical addition that 『もさることながら』 requires."
+        "によって means 'by means of' and indicates method or cause rather than the acknowledgment-plus-emphasis structure.",
+        "として means 'as' and indicates capacity or role rather than the comparison meaning needed.",
+        "をもって means 'with/by means of' and indicates instrument rather than the 'not only...but also' structure."
+      ]
+    },
+    {
+      "id": "n1_016_10",
+      "example_sentence": "この技術の革新性もさることながら、その実用性こそが注目すべき点だ。",
+      "translation": "The innovativeness of this technology is noteworthy, but its practicality is what we should pay attention to (even more so).",
+      "blank_target": "もさることながら",
+      "wrong_choices": [
+        "のおかげで",
+        "のせいで",
+        "を通じて"
+      ],
+      "wrong_choice_explanations": [
+        "のおかげで means 'thanks to' and shows positive causation rather than the acknowledgment-plus-emphasis structure.",
+        "のせいで means 'because of' (negative) and shows causation rather than the comparison meaning needed.",
+        "を通じて means 'through' and indicates means or method rather than the 'not only...but also' structure."
       ]
     }
   ]

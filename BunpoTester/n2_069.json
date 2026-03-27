@@ -5,9 +5,9 @@
   "level": "N2",
   "exercises": [
     {
-      "id": "n2_069_10",
-      "example_sentence": "秋から冬にかけて、美術展の重要な季節である。",
-      "translation": "From autumn to winter is the major exhibition season.",
+      "id": "n2_069_1",
+      "example_sentence": "秋から冬にかけて、紅葉が美しい季節である。",
+      "translation": "From autumn to winter is the season when autumn leaves are beautiful.",
       "blank_target": "にかけて",
       "wrong_choices": [
         "にわたって",
@@ -15,73 +15,153 @@
         "を通じて"
       ],
       "wrong_choice_explanations": [
-        "にわたって means 'にわたって', which is used in different context, but this sentence requires にかけて ('にかけて') for its specific context.",
-        "まで means 'until / up to / even', which is used in range or extent, but this sentence requires にかけて ('にかけて') for its specific context.",
-        "を通じて means 'を通じて', which is used in different context, but this sentence requires にかけて ('にかけて') for its specific context."
+        "にわたって indicates coverage over an entire period, but this sentence needs にかけて to express a gradual transition from autumn to winter.",
+        "まで indicates an endpoint, but this sentence needs にかけて to express the transitional period spanning from autumn to winter.",
+        "を通じて means 'through/via' as a means, but this sentence needs にかけて to express the time period from autumn to winter."
+      ]
+    },
+    {
+      "id": "n2_069_2",
+      "example_sentence": "夕方から夜にかけて、気温が下がる。",
+      "translation": "The temperature drops from evening to night.",
+      "blank_target": "にかけて",
+      "wrong_choices": [
+        "にわたって",
+        "のあいだに",
+        "までに"
+      ],
+      "wrong_choice_explanations": [
+        "にわたって suggests coverage over the entire period, but this sentence needs にかけて to show the gradual transition from evening to night.",
+        "のあいだに indicates something happening within a specific time frame, but this sentence needs にかけて to express the span from evening to night.",
+        "までに indicates a deadline, but this sentence needs にかけて to express the gradual change from evening to night."
+      ]
+    },
+    {
+      "id": "n2_069_3",
+      "example_sentence": "春から夏にかけて、観光客が増える。",
+      "translation": "Tourists increase from spring to summer.",
+      "blank_target": "にかけて",
+      "wrong_choices": [
+        "にわたって",
+        "の間",
+        "頃から"
+      ],
+      "wrong_choice_explanations": [
+        "にわたって indicates coverage throughout an entire period, but this sentence needs にかけて to express the transitional period from spring to summer.",
+        "の間 indicates 'during' a specific period, but this sentence needs にかけて to express the span from spring to summer.",
+        "頃から means 'from around/about', but this sentence needs にかけて to express the period spanning from spring to summer."
+      ]
+    },
+    {
+      "id": "n2_069_4",
+      "example_sentence": "年末から年始にかけて、多くの店が休業する。",
+      "translation": "Many stores close from the end of the year to the beginning of the new year.",
+      "blank_target": "にかけて",
+      "wrong_choices": [
+        "にわたって",
+        "を通して",
+        "から"
+      ],
+      "wrong_choice_explanations": [
+        "にわたって suggests coverage over the entire period, but this sentence needs にかけて to express the transition from year-end to New Year.",
+        "を通して means 'throughout' an entire period, but this sentence needs にかけて to express the span from year-end to New Year.",
+        "から alone indicates starting point but doesn't express the range that にかけて provides from year-end to New Year."
+      ]
+    },
+    {
+      "id": "n2_069_5",
+      "example_sentence": "午後から夕方にかけて、雨が降る予報だ。",
+      "translation": "It's forecast to rain from afternoon to evening.",
+      "blank_target": "にかけて",
+      "wrong_choices": [
+        "にわたって",
+        "まで",
+        "の間に"
+      ],
+      "wrong_choice_explanations": [
+        "にわたって indicates coverage throughout an entire period, but this sentence needs にかけて to express the transitional time from afternoon to evening.",
+        "まで indicates an endpoint, but this sentence needs にかけて to express the period spanning from afternoon to evening.",
+        "の間に indicates something happening within a timeframe, but this sentence needs にかけて to express the span from afternoon to evening."
       ]
     },
     {
       "id": "n2_069_6",
-      "example_sentence": "秋から冬にかけて、降水量が減少する傾向がある。",
-      "translation": "There is a lot of rain from autumn through winter.",
+      "example_sentence": "冬から春にかけて、花粉症の患者が増加する。",
+      "translation": "Hay fever patients increase from winter to spring.",
       "blank_target": "にかけて",
       "wrong_choices": [
         "にわたって",
-        "まで",
-        "を通じて"
+        "を通じて",
+        "のうちに"
       ],
       "wrong_choice_explanations": [
-        "'にわたって' has a different grammatical function or nuance than '〜にかけて'.",
-        "'まで' has a different grammatical function or nuance than '〜にかけて'.",
-        "'を通じて' has a different grammatical function or nuance than '〜にかけて'."
+        "にわたって indicates coverage throughout an entire period, but this sentence needs にかけて to express the transitional period from winter to spring.",
+        "を通じて means 'through/via' as a means or method, but this sentence needs にかけて to express the time span from winter to spring.",
+        "のうちに indicates something happening within a period, but this sentence needs にかけて to express the range from winter to spring."
       ]
     },
     {
       "id": "n2_069_7",
-      "example_sentence": "冬から春にかけて、花粉症の患者が増加する。",
-      "translation": "Works from twenty years of collecting are displayed.",
+      "example_sentence": "朝から昼にかけて、会議が予定されている。",
+      "translation": "Meetings are scheduled from morning to noon.",
       "blank_target": "にかけて",
       "wrong_choices": [
         "にわたって",
         "まで",
-        "を通じて"
+        "の間"
       ],
       "wrong_choice_explanations": [
-        "にわたって does not convey the meaning of 〜にかけて required in this context: from... to / over the period of / in terms of (range or transition).",
-        "まで marks an endpoint, not the from... to / over the period of / in terms of (range or transition) that 〜にかけて conveys.",
-        "を通じて means 'through/via,' but this sentence needs 〜にかけて to express from... to / over the period of / in terms of (range or transition)."
+        "にわたって suggests coverage over the entire time period, but this sentence needs にかけて to express the span from morning to noon.",
+        "まで indicates an endpoint, but this sentence needs にかけて to express the period from morning to noon.",
+        "の間 indicates 'during' a specific period, but this sentence needs にかけて to express the time span from morning to noon."
       ]
     },
     {
       "id": "n2_069_8",
-      "example_sentence": "秋から冬にかけて、営業活動の主要期間である。",
-      "translation": "From autumn to winter is the major business period.",
+      "example_sentence": "今週から来週にかけて、出張の予定がある。",
+      "translation": "I have business trips planned from this week to next week.",
       "blank_target": "にかけて",
       "wrong_choices": [
         "にわたって",
-        "まで",
-        "を通じて"
+        "を通して",
+        "までに"
       ],
       "wrong_choice_explanations": [
-        "While にわたって is a valid grammar pattern, it doesn't convey the same meaning as 〜にかけて and doesn't fit this sentence context.",
-        "まで means 'until' or 'up to'; indicates a limit point in time/space; it doesn't fit this sentence context where 〜にかけて is needed.",
-        "を通じて means 'through'; indicates a means or medium, not a central focus; it doesn't fit this sentence context where 〜にかけて is needed."
+        "にわたって indicates coverage throughout an entire period, but this sentence needs にかけて to express the span from this week to next week.",
+        "を通して means 'throughout' an entire period, but this sentence needs にかけて to express the range from this week to next week.",
+        "までに indicates a deadline, but this sentence needs にかけて to express the period from this week to next week."
       ]
     },
     {
       "id": "n2_069_9",
-      "example_sentence": "冬から春にかけて、論文の投稿が増加する傾向がある。",
-      "translation": "From winter to spring, paper submissions increase.",
+      "example_sentence": "夜中から明け方にかけて、強い雨が降った。",
+      "translation": "It rained heavily from midnight to dawn.",
       "blank_target": "にかけて",
       "wrong_choices": [
         "にわたって",
-        "まで",
-        "を通じて"
+        "の間に",
+        "頃まで"
       ],
       "wrong_choice_explanations": [
-        "'にわたって' is 'にわたって', but this context requires '〜にかけて' to indicate from... to.",
-        "'まで' is 'まで', but this context requires '〜にかけて' to indicate from... to.",
-        "'を通じて' means 'through', for passage or means, but this context requires '〜にかけて' to indicate from... to."
+        "にわたって suggests coverage over the entire time period, but this sentence needs にかけて to express the transition from midnight to dawn.",
+        "の間に indicates something happening within a timeframe, but this sentence needs にかけて to express the span from midnight to dawn.",
+        "頃まで means 'until around', but this sentence needs にかけて to express the period from midnight to dawn."
+      ]
+    },
+    {
+      "id": "n2_069_10",
+      "example_sentence": "来月から再来月にかけて、新商品の発売が続く。",
+      "translation": "New product releases will continue from next month to the month after next.",
+      "blank_target": "にかけて",
+      "wrong_choices": [
+        "にわたって",
+        "を通じて",
+        "から"
+      ],
+      "wrong_choice_explanations": [
+        "にわたって indicates coverage throughout an entire period, but this sentence needs にかけて to express the transitional period from next month to the month after.",
+        "を通じて means 'through/via' as a means, but this sentence needs にかけて to express the time span from next month to the month after.",
+        "から alone indicates starting point but doesn't express the range that にかけて provides from next month to the month after."
       ]
     }
   ]

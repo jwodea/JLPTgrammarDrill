@@ -1,0 +1,168 @@
+{
+  "id": "gp_010",
+  "pattern": "～の",
+  "meaning": "Possession / nominalization",
+  "level": "N5",
+  "exercises": [
+    {
+      "id": 1,
+      "example_sentence": "これは私__本です。",
+      "translation": "This is my book.",
+      "blank_target": "の",
+      "wrong_choices": [
+        "が",
+        "を",
+        "に"
+      ],
+      "wrong_choice_explanations": {
+        "が": "が is the subject marker — it doesn't express possession between 私 and 本.",
+        "を": "を is the object marker — it doesn't indicate possession and doesn't fit grammatically here.",
+        "に": "に indicates direction or location — it doesn't express the possessive relationship needed here."
+      }
+    },
+    {
+      "id": 2,
+      "example_sentence": "田中先生__車は新しいです。",
+      "translation": "Mr. Tanaka's car is new.",
+      "blank_target": "の",
+      "wrong_choices": [
+        "は",
+        "と",
+        "で"
+      ],
+      "wrong_choice_explanations": {
+        "は": "は is the topic marker — it cannot connect two nouns to show possession like の does.",
+        "と": "と means 'and' or 'with' — it doesn't indicate that the car belongs to Mr. Tanaka.",
+        "で": "で indicates location or means — it doesn't express the possessive relationship between person and object."
+      }
+    },
+    {
+      "id": 3,
+      "example_sentence": "日本語__勉強は難しいです。",
+      "translation": "Studying Japanese is difficult.",
+      "blank_target": "の",
+      "wrong_choices": [
+        "を",
+        "が",
+        "も"
+      ],
+      "wrong_choice_explanations": {
+        "を": "を marks objects — it cannot nominalize 勉強 or connect it to 日本語 in this way.",
+        "が": "が marks subjects — it doesn't create the noun phrase '日本語の勉強' (studying Japanese).",
+        "も": "も means 'also' — it doesn't connect the two nouns to form a compound noun phrase."
+      }
+    },
+    {
+      "id": 4,
+      "example_sentence": "友達__家に行きました。",
+      "translation": "I went to my friend's house.",
+      "blank_target": "の",
+      "wrong_choices": [
+        "へ",
+        "から",
+        "まで"
+      ],
+      "wrong_choice_explanations": {
+        "へ": "へ indicates direction — it doesn't show that the house belongs to the friend.",
+        "から": "から means 'from' — it doesn't express the possessive relationship needed here.",
+        "まで": "まで means 'until' — it doesn't indicate possession between friend and house."
+      }
+    },
+    {
+      "id": 5,
+      "example_sentence": "泳ぐ__が好きです。",
+      "translation": "I like swimming.",
+      "blank_target": "の",
+      "wrong_choices": [
+        "こと",
+        "とき",
+        "もの"
+      ],
+      "wrong_choice_explanations": {
+        "こと": "こと can nominalize verbs, but the pattern here requires の to nominalize 泳ぐ before が.",
+        "とき": "とき means 'when/time' — it doesn't nominalize the verb 泳ぐ in this context.",
+        "もの": "もの means 'thing' — it doesn't function as a nominalizer for verbs like の does here."
+      }
+    },
+    {
+      "id": 6,
+      "example_sentence": "学校__図書館で本を読みます。",
+      "translation": "I read books in the school's library.",
+      "blank_target": "の",
+      "wrong_choices": [
+        "で",
+        "に",
+        "と"
+      ],
+      "wrong_choice_explanations": {
+        "で": "で indicates location of action, but here we need の to show that the library belongs to the school.",
+        "に": "に indicates location or direction — it doesn't express the possessive relationship between school and library.",
+        "と": "と means 'and' or 'with' — it doesn't indicate that the library is part of the school."
+      }
+    },
+    {
+      "id": 7,
+      "example_sentence": "毎日漢字を覚える__は大変です。",
+      "translation": "Memorizing kanji every day is difficult.",
+      "blank_target": "の",
+      "wrong_choices": [
+        "ことは",
+        "ときは",
+        "ものは"
+      ],
+      "wrong_choice_explanations": {
+        "ことは": "こと can nominalize, but the sentence structure requires の to make the entire phrase the subject.",
+        "ときは": "とき means 'when/time' — it doesn't nominalize the action of memorizing kanji.",
+        "ものは": "もの means 'thing' — it doesn't properly nominalize verb phrases like の does."
+      }
+    },
+    {
+      "id": 8,
+      "example_sentence": "母__料理はとてもおいしいです。",
+      "translation": "My mother's cooking is very delicious.",
+      "blank_target": "の",
+      "wrong_choices": [
+        "が",
+        "は",
+        "を"
+      ],
+      "wrong_choice_explanations": {
+        "が": "が marks subjects — it doesn't connect 母 and 料理 to show possession.",
+        "は": "は is the topic marker — it cannot link two nouns to express a possessive relationship.",
+        "を": "を marks objects — it doesn't indicate that the cooking belongs to mother."
+      }
+    },
+    {
+      "id": 9,
+      "example_sentence": "あの赤い__が私の傘です。",
+      "translation": "That red one is my umbrella.",
+      "blank_target": "の",
+      "wrong_choices": [
+        "もの",
+        "こと",
+        "ひと"
+      ],
+      "wrong_choice_explanations": {
+        "もの": "もの means 'thing' but doesn't function as a pronoun substitute like の does here.",
+        "こと": "こと refers to abstract things or actions — it doesn't substitute for concrete objects like umbrellas.",
+        "ひと": "ひと means 'person' — it doesn't work as a pronoun for objects like の does."
+      }
+    },
+    {
+      "id": 10,
+      "example_sentence": "映画を見る__を忘れました。",
+      "translation": "I forgot to watch the movie.",
+      "blank_target": "の",
+      "wrong_choices": [
+        "こと",
+        "ため",
+        "ように"
+      ],
+      "wrong_choice_explanations": {
+        "こと": "こと can nominalize verbs, but this sentence structure specifically requires の before を.",
+        "ため": "ため means 'for the purpose of' — it doesn't nominalize the verb phrase here.",
+        "ように": "ように means 'so that' or 'like' — it doesn't function as a nominalizer in this context."
+      }
+    }
+  ]
+}

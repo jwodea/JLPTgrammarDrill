@@ -6,98 +6,82 @@
   "exercises": [
     {
       "id": "n1_063_1",
-      "example_sentence": "[ファイル1]これはこととての例文です。",
-      "translation": "This is an example sentence for こととて.",
+      "example_sentence": "急な依頼のこととて、十分な準備ができませんでした。",
+      "translation": "Since it was a sudden request, I couldn't prepare adequately.",
       "blank_target": "こととて",
       "wrong_choices": [
-        "は無制限だ",
-        "が存在する",
-        "がぞんする"
+        "ことから",
+        "ために",
+        "によって"
       ],
       "wrong_choice_explanations": [
-        "は無制限だ means 'is unlimited', a predicate not a structure.",
-        "が存在する means 'exists', a predicate.",
-        "がぞんする is a formal variant of 存在する, also a predicate."
-      ]
-    },
-    {
-      "id": "n1_063_10",
-      "example_sentence": "重要な医療判断のこととて、その全容を理解することは難しい。",
-      "translation": "Since it is a matter of important medical decisions, it is difficult to understand its full scope.",
-      "blank_target": "こととて",
-      "wrong_choices": [
-        "ことからして",
-        "ゆえに",
-        "として"
-      ],
-      "wrong_choice_explanations": [
-        "'ことからして' does not express the same grammatical relationship as '〜こととて' in this context.",
-        "'ゆえに' does not express the same grammatical relationship as '〜こととて' in this context.",
-        "'として' does not express the same grammatical relationship as '〜こととて' in this context."
+        "ことから means 'from the fact that' but lacks the apologetic nuance of こととて in this context.",
+        "ために means 'for the purpose of' or 'because of' but is less formal and doesn't convey the apologetic tone.",
+        "によって means 'by means of' or 'due to' but doesn't express the formal apologetic reasoning of こととて."
       ]
     },
     {
       "id": "n1_063_2",
-      "example_sentence": "[ファイル2]これはこととての例文です。",
-      "translation": "This is an example sentence for こととて.",
+      "example_sentence": "初めての海外出張のこととて、不慣れなことばかりでご迷惑をおかけしました。",
+      "translation": "Since it was my first overseas business trip, I caused trouble due to being unfamiliar with everything.",
       "blank_target": "こととて",
       "wrong_choices": [
-        "は無制限だ",
-        "が存在する",
-        "がぞんする"
+        "せいで",
+        "おかげで",
+        "もので"
       ],
       "wrong_choice_explanations": [
-        "は無制限だ has different grammatical constraints than こととて; this sentence requires こととて to express 'because of / since (formal, often apologetic)'.",
-        "が存在する has different grammatical constraints than こととて; this sentence requires こととて to express 'because of / since (formal, often apologetic)'.",
-        "がぞんする has different grammatical constraints than こととて; this sentence requires こととて to express 'because of / since (formal, often apologetic)'."
+        "せいで means 'because of' but has a negative blame connotation, unlike the apologetic formality of こととて.",
+        "おかげで means 'thanks to' and expresses positive causation, opposite to the apologetic context here.",
+        "もので means 'because' but is more casual and explanatory, lacking the formal apologetic tone of こととて."
       ]
     },
     {
       "id": "n1_063_3",
-      "example_sentence": "[ファイル3]これはこととての例文です。",
-      "translation": "This is an example sentence for こととて.",
+      "example_sentence": "重要な国際会議のこととて、詳細な情報をお伝えできないことをお許しください。",
+      "translation": "Since it concerns an important international conference, please forgive us for not being able to share detailed information.",
       "blank_target": "こととて",
       "wrong_choices": [
-        "は無制限だ",
-        "が存在する",
-        "がぞんする"
+        "に関して",
+        "について",
+        "に対して"
       ],
       "wrong_choice_explanations": [
-        "Means 'is unlimited'; doesn't express apologetic reason.",
-        "Means 'exists'; unrelated to reason.",
-        "Formal variant of 存在; unrelated to reason."
+        "に関して means 'regarding' or 'concerning' but doesn't express the causal apologetic reasoning of こととて.",
+        "について means 'about' or 'concerning' but is simply topical, not expressing the formal apologetic cause.",
+        "に対して means 'toward' or 'against' but doesn't convey the apologetic causal meaning needed here."
       ]
     },
     {
       "id": "n1_063_4",
-      "example_sentence": "[ファイル4]これはこととての例文です。",
-      "translation": "This is an example sentence for こととて.",
+      "example_sentence": "家族の病気のこととて、今回の出席を見合わせていただきます。",
+      "translation": "Since it's a matter of family illness, I will refrain from attending this time.",
       "blank_target": "こととて",
       "wrong_choices": [
-        "は無制限だ",
-        "が存在する",
-        "がぞんする"
+        "だから",
+        "ので",
+        "により"
       ],
       "wrong_choice_explanations": [
-        "は無制限だ means 'is unlimited,' a factual statement about limits, which has no connection to the apologetic, explanatory function of こととて.",
-        "means \"exists\"; does not express the reason sense.",
-        "is a formal version meaning \"exists\"; does not convey the apologetic reason."
+        "だから means 'so' or 'therefore' but is too casual for this formal apologetic context.",
+        "ので means 'because' but lacks the formal apologetic nuance that こととて provides in sensitive situations.",
+        "により means 'due to' but is more mechanical and doesn't convey the apologetic formality of こととて."
       ]
     },
     {
       "id": "n1_063_5",
-      "example_sentence": "[ファイル5]これはこととての例文です。",
-      "translation": "This is an example sentence for こととて.",
+      "example_sentence": "会社の機密事項のこととて、お答えできない部分があることをご了承ください。",
+      "translation": "Since it involves company confidential matters, please understand that there are parts I cannot answer.",
       "blank_target": "こととて",
       "wrong_choices": [
-        "は無制限だ",
-        "が存在する",
-        "がぞんする"
+        "であるため",
+        "に伴い",
+        "に際して"
       ],
       "wrong_choice_explanations": [
-        "は無制限だ means 'is unlimited (not a grammar pattern)'; it doesn't convey the 'because of / since (formal, often apologetic)' meaning needed here.",
-        "が存在する means 'exists / is present (not a grammar pattern)'; it doesn't convey the 'because of / since (formal, often apologetic)' meaning needed here.",
-        "がぞんする means 'exists (formal, not a pattern)'; it doesn't convey the 'because of / since (formal, often apologetic)' meaning needed here."
+        "であるため means 'because it is' but is more direct and lacks the apologetic formality of こととて.",
+        "に伴い means 'accompanying' or 'along with' but doesn't express the causal apologetic reasoning needed here.",
+        "に際して means 'on the occasion of' but indicates timing rather than the apologetic causal explanation of こととて."
       ]
     },
     {
@@ -111,9 +95,9 @@
         "という理由で"
       ],
       "wrong_choice_explanations": [
-        "を余儀なくされる means 'is forced to' but is formal and lacks the personal resignation of ざるを得ない.",
-        "ほかない means 'no choice but' but is less formal than ざるを得ない.",
-        "するしかない means 'no choice but to do' but is colloquial, not the formal necessity of ざるを得ない."
+        "ことでもあり means 'it is also the case that' but doesn't provide the formal apologetic reasoning of こととて.",
+        "こともあり means 'partly because' but lacks the formal apologetic tone needed in this diplomatic context.",
+        "という理由で means 'for the reason that' but is more direct and lacks the apologetic formality of こととて."
       ]
     },
     {
@@ -127,25 +111,25 @@
         "として"
       ],
       "wrong_choice_explanations": [
-        "This wrong choice doesn't fit the required grammar pattern 〜こととて.",
-        "This wrong choice doesn't fit the required grammar pattern 〜こととて.",
-        "This wrong choice doesn't fit the required grammar pattern 〜こととて."
+        "ことからして means 'judging from the fact that' but doesn't express the formal apologetic reasoning of こととて.",
+        "ゆえに means 'therefore' but is more conclusive and lacks the apologetic nuance of こととて in this context.",
+        "として means 'as' or 'in the capacity of' but doesn't convey the causal apologetic meaning needed here."
       ]
     },
     {
       "id": "n1_063_8",
-      "example_sentence": "重要な思想ないし芸術作品のこととて、その全体を理解することは困難である。",
-      "translation": "Since it is a matter of important philosophy and art, it is difficult to understand the whole work.",
+      "example_sentence": "学術研究のこととて、一般の方には理解しにくい内容が多く含まれております。",
+      "translation": "Since it is a matter of academic research, it contains much content that is difficult for the general public to understand.",
       "blank_target": "こととて",
       "wrong_choices": [
-        "ことからして",
-        "ゆえに",
-        "として"
+        "に関しては",
+        "においては",
+        "とあって"
       ],
       "wrong_choice_explanations": [
-        "ことからして has a different grammatical meaning and context; it doesn't fit the required meaning here.",
-        "ゆえに has a different grammatical meaning and context; it doesn't fit the required meaning here.",
-        "として has a different grammatical meaning and context; it doesn't fit the required meaning here."
+        "に関しては means 'as for' or 'regarding' but doesn't express the apologetic causal reasoning of こととて.",
+        "においては means 'in' or 'when it comes to' but is locational rather than expressing the formal apologetic cause.",
+        "とあって means 'given that' but is more casual and doesn't have the formal apologetic tone of こととて."
       ]
     },
     {
@@ -154,14 +138,30 @@
       "translation": "Since it is a matter of important management decisions, it is difficult to understand its full scope.",
       "blank_target": "こととて",
       "wrong_choices": [
-        "ことからして",
-        "ゆえに",
-        "として"
+        "に当たって",
+        "を巡って",
+        "に関する限り"
       ],
       "wrong_choice_explanations": [
-        "『ことからして』 does not express the meaning of 『こととて』 needed in this context.",
-        "『ゆえに』 means 'therefore'; this pattern expresses 'for the very reason' precision.",
-        "『として』 does not express the meaning of 『こととて』 needed in this context."
+        "に当たって means 'when doing' or 'on the occasion of' but indicates timing rather than apologetic causation.",
+        "を巡って means 'concerning' or 'around the issue of' but doesn't express the formal apologetic reasoning of こととて.",
+        "に関する限り means 'as far as... is concerned' but is limiting rather than expressing apologetic causation."
+      ]
+    },
+    {
+      "id": "n1_063_10",
+      "example_sentence": "専門的な医療判断のこととて、患者様にはご不安をおかけしていることと存じます。",
+      "translation": "Since it involves specialized medical judgments, I believe we are causing anxiety to the patients.",
+      "blank_target": "こととて",
+      "wrong_choices": [
+        "に限って",
+        "を通じて",
+        "にわたって"
+      ],
+      "wrong_choice_explanations": [
+        "に限って means 'limited to' or 'only in the case of' but doesn't express the apologetic causal meaning needed here.",
+        "を通じて means 'through' or 'by means of' but indicates method rather than the formal apologetic reasoning of こととて.",
+        "にわたって means 'over' or 'throughout' but indicates duration or scope, not the apologetic causation of こととて."
       ]
     }
   ]

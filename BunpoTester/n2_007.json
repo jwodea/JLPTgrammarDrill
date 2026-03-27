@@ -15,25 +15,9 @@
         "によって"
       ],
       "wrong_choice_explanations": [
-        "This pattern does not convey the same meaning as '〜をもとに' (based on / using as a foundation) needed in this context.",
-        "This pattern does not convey the same meaning as '〜をもとに' (based on / using as a foundation) needed in this context.",
-        "means 'by' or 'through' (means or agent), not matching the required locative or formal context"
-      ]
-    },
-    {
-      "id": "n2_007_10",
-      "example_sentence": "古い写真をもとに、歴史的背景が復元された。",
-      "translation": "Historical context was reconstructed based on old photographs.",
-      "blank_target": "をもとに",
-      "wrong_choices": [
-        "に基づいて",
-        "を通じて",
-        "によって"
-      ],
-      "wrong_choice_explanations": [
-        "に基づいて means 'に基づいて', which is used in different context, but this sentence requires をもとに ('をもとに') for its specific context.",
-        "を通じて means 'を通じて', which is used in different context, but this sentence requires をもとに ('をもとに') for its specific context.",
-        "によって means 'によって', which is used in different context, but this sentence requires をもとに ('をもとに') for its specific context."
+        "に基づいて means 'based on' but emphasizes following rules or official standards, not using creative source material like a true story.",
+        "を通じて means 'through' or 'via', indicating a medium or channel, not the source material for creating something.",
+        "によって indicates the agent or means of action, not the source material that serves as the foundation for creation."
       ]
     },
     {
@@ -43,13 +27,13 @@
       "blank_target": "をもとに",
       "wrong_choices": [
         "に基づいて",
-        "を通じて",
-        "によって"
+        "を中心に",
+        "に対して"
       ],
       "wrong_choice_explanations": [
-        "に基づいて has a different grammatical function and doesn't fit the context of this sentence where をもとに is required.",
-        "を通じて means 'through' as a conduit, not the source or foundation for a decision.",
-        "によって shows the agent or means of action, not the source or basis for creating something."
+        "に基づいて emphasizes strict adherence to formal standards or rules, while survey data is raw material used as a foundation.",
+        "を中心に means 'centered around' or 'focusing on', not using something as the basis or foundation for creating something.",
+        "に対して means 'toward' or 'against', indicating direction or opposition, not using something as source material."
       ]
     },
     {
@@ -58,14 +42,14 @@
       "translation": "The budget was determined based on last year's results.",
       "blank_target": "をもとに",
       "wrong_choices": [
-        "に基づいて",
-        "を通じて",
-        "によって"
+        "に関して",
+        "について",
+        "に向けて"
       ],
       "wrong_choice_explanations": [
-        "に基づいて means based on / founded on, but 〜をもとに is needed to show the basis/foundation that に基づいて does not establish.",
-        "を通じて means through (abstract connection), but 〜をもとに is needed to show the basis/foundation that を通じて does not establish.",
-        "によって indicates agent or means, but 〜をもとに is needed to express the foundation/basis for the action."
+        "に関して means 'regarding' or 'concerning', indicating a topic of discussion, not using something as the basis for decision-making.",
+        "について means 'about' or 'concerning', indicating the subject matter, not the foundation or basis for making a decision.",
+        "に向けて means 'toward' or 'aimed at', indicating direction or goal, not the source material used as a foundation."
       ]
     },
     {
@@ -74,14 +58,14 @@
       "translation": "The product was improved based on customer feedback.",
       "blank_target": "をもとに",
       "wrong_choices": [
-        "に基づいて",
-        "を通じて",
-        "によって"
+        "に応じて",
+        "に従って",
+        "に反して"
       ],
       "wrong_choice_explanations": [
-        "に基づいて has a different grammatical function that doesn't fit this sentence context.",
-        "を通じて has a different grammatical function that doesn't fit this sentence context.",
-        "によって has a different grammatical function that doesn't fit this sentence context."
+        "に応じて means 'in response to' or 'according to', emphasizing reaction rather than using as foundational material.",
+        "に従って means 'following' or 'in accordance with', emphasizing obedience to rules rather than using as creative foundation.",
+        "に反して means 'contrary to' or 'against', indicating opposition, which is the opposite of using something as a basis."
       ]
     },
     {
@@ -95,41 +79,41 @@
         "によって"
       ],
       "wrong_choice_explanations": [
-        "〜に基づいて is formal; emphasizes conformity rather than using as foundation.",
-        "〜を通じて means 'through'; doesn't convey foundational basis.",
-        "〜によって indicates agent; doesn't express foundational basis."
+        "に基づいて is formal and emphasizes strict conformity to rules, while をもとに emphasizes using something as foundational material.",
+        "を通じて means 'through' or 'via', indicating a medium or channel, not the foundational basis for making a judgment.",
+        "によって indicates the agent or means of action, not the foundational legal basis used for making the decision."
       ]
     },
     {
       "id": "n2_007_6",
       "example_sentence": "古典文学をもとに、この映画は制作された。",
-      "translation": "The movie was produced based on classic literature.",
+      "translation": "This movie was produced based on classic literature.",
       "blank_target": "をもとに",
       "wrong_choices": [
-        "に基づいて",
-        "を通じて",
-        "によって"
+        "に沿って",
+        "をきっかけに",
+        "に際して"
       ],
       "wrong_choice_explanations": [
-        "'に基づいて' has a different grammatical function or nuance than '〜をもとに'.",
-        "'を通じて' has a different grammatical function or nuance than '〜をもとに'.",
-        "'によって' has a different grammatical function or nuance than '〜をもとに'."
+        "に沿って means 'along' or 'in line with', indicating following a path or guideline, not using as creative source material.",
+        "をきっかけに means 'triggered by' or 'as an opportunity', emphasizing the catalyst rather than the foundational material.",
+        "に際して means 'on the occasion of' or 'at the time of', indicating timing, not using something as source material."
       ]
     },
     {
       "id": "n2_007_7",
       "example_sentence": "患者のカルテをもとに、医師は診断を行う。",
-      "translation": "The doctor made a diagnosis based on the patient's medical records.",
+      "translation": "The doctor makes a diagnosis based on the patient's medical records.",
       "blank_target": "をもとに",
       "wrong_choices": [
-        "に基づいて",
-        "を通じて",
-        "によって"
+        "を参考に",
+        "にかけて",
+        "に限って"
       ],
       "wrong_choice_explanations": [
-        "に基づいて emphasizes formal rules, laws, or official data, while medical records are more concrete personal source material.",
-        "を通じて means 'through/via' indicating a medium, but this sentence needs a concrete source or foundation for the diagnosis.",
-        "によって indicates agent/cause, not the concrete source material that the diagnosis is based upon."
+        "を参考に means 'for reference', indicating consultation rather than using as the primary foundation for diagnosis.",
+        "にかけて means 'over a period' or 'ranging from', indicating time span or scope, not foundational material.",
+        "に限って means 'limited to' or 'only in the case of', indicating restriction, not using something as a basis."
       ]
     },
     {
@@ -138,30 +122,46 @@
       "translation": "We will create this year's budget based on last year's sales data.",
       "blank_target": "をもとに",
       "wrong_choices": [
-        "に基づいて",
-        "を通じて",
-        "によって"
+        "に比べて",
+        "とともに",
+        "に代わって"
       ],
       "wrong_choice_explanations": [
-        "While に基づいて is a valid grammar pattern, it doesn't convey the same meaning as 〜をもとに and doesn't fit this sentence context.",
-        "を通じて means 'through'; indicates a means or medium, not a central focus; it doesn't fit this sentence context where 〜をもとに is needed.",
-        "によって means 'by means of'; indicates agent or instrument, not a medium of connection; it doesn't fit this sentence context where 〜をもとに is needed."
+        "に比べて means 'compared to', indicating comparison rather than using something as foundational material for creation.",
+        "とともに means 'together with' or 'along with', indicating accompaniment, not using something as a basis.",
+        "に代わって means 'instead of' or 'in place of', indicating substitution, not using something as foundational material."
       ]
     },
     {
       "id": "n2_007_9",
       "example_sentence": "古代の文献をもとに、その時代の生活を復元した。",
-      "translation": "Based on ancient documents, we reconstructed that era's life.",
+      "translation": "We reconstructed that era's lifestyle based on ancient documents.",
       "blank_target": "をもとに",
       "wrong_choices": [
-        "に基づいて",
-        "を通じて",
-        "によって"
+        "を除いて",
+        "をはじめ",
+        "に先立って"
       ],
       "wrong_choice_explanations": [
-        "'に基づいて' means 'based on', emphasizing foundation, but this context requires '〜をもとに' to indicate based on.",
-        "'を通じて' means 'through', for passage or means, but this context requires '〜をもとに' to indicate based on.",
-        "'によって' means 'by' or 'through', for causation or agency, but this context requires '〜をもとに' to indicate based on."
+        "を除いて means 'except for' or 'excluding', indicating omission, not using something as foundational material.",
+        "をはじめ means 'starting with' or 'beginning from', indicating the first in a series, not foundational basis.",
+        "に先立って means 'prior to' or 'before', indicating timing sequence, not using something as source material."
+      ]
+    },
+    {
+      "id": "n2_007_10",
+      "example_sentence": "古い写真をもとに、歴史的背景が復元された。",
+      "translation": "The historical background was reconstructed based on old photographs.",
+      "blank_target": "をもとに",
+      "wrong_choices": [
+        "にとって",
+        "のうちで",
+        "につれて"
+      ],
+      "wrong_choice_explanations": [
+        "にとって means 'for' or 'to', indicating perspective or benefit, not using something as foundational material.",
+        "のうちで means 'among' or 'within', indicating selection from a group, not using something as a basis.",
+        "につれて means 'as' or 'along with', indicating parallel change or progression, not foundational material."
       ]
     }
   ]

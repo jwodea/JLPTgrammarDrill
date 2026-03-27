@@ -10,14 +10,14 @@
       "translation": "Even if I had the money, I would not buy that.",
       "blank_target": "たとしても",
       "wrong_choices": [
-        "たにしても",
         "ても",
-        "たとしたら"
+        "たら",
+        "ば"
       ],
       "wrong_choice_explanations": [
-        "This pattern does not convey the same meaning as '〜としても' (even if / even granting that (concession — the conclusion remains unchanged)) needed in this context.",
-        "This pattern does not convey the same meaning as '〜としても' (even if / even granting that (concession — the conclusion remains unchanged)) needed in this context.",
-        "This pattern does not convey the same meaning as '〜としても' (even if / even granting that (concession — the conclusion remains unchanged)) needed in this context."
+        "「〜ても」 is simple concession but lacks the emphatic hypothetical nuance that 〜としても provides in this context.",
+        "「〜たら」 is a conditional form meaning 'if/when' but doesn't convey the strong concessive meaning needed here.",
+        "「〜ば」 is a conditional form but doesn't express the emphatic concession that 〜としても requires."
       ]
     },
     {
@@ -26,14 +26,14 @@
       "translation": "Even if I had time, I would not want to go.",
       "blank_target": "たとしても",
       "wrong_choices": [
-        "たにしても",
         "ても",
-        "たとしたら"
+        "たところで",
+        "たって"
       ],
       "wrong_choice_explanations": [
-        "たにしても has a different grammatical function and doesn't fit the context of this sentence where としても is required.",
-        "ても has a different grammatical function and doesn't fit the context of this sentence where としても is required.",
-        "たとしたら has a different grammatical function and doesn't fit the context of this sentence where としても is required."
+        "「〜ても」 expresses simple concession but doesn't have the formal hypothetical emphasis of 〜としても.",
+        "「〜たところで」 means 'even if' but implies futility rather than the neutral concession of 〜としても.",
+        "「〜たって」 is casual concession meaning 'even if' but is too informal for this sentence structure."
       ]
     },
     {
@@ -42,14 +42,14 @@
       "translation": "Even if he apologized, I would not forgive him.",
       "blank_target": "たとしても",
       "wrong_choices": [
-        "たにしても",
         "ても",
+        "たにしても",
         "たとしたら"
       ],
       "wrong_choice_explanations": [
-        "たにしても has a different grammatical function, but 〜としても is needed to express the specific meaning required in this sentence.",
-        "ても even if / no matter, but 〜としても is needed to express the specific meaning required in this sentence.",
-        "たとしたら conditional if / when, but 〜としても has a specific meaning, which is what this sentence requires."
+        "「〜ても」 is basic concession but lacks the hypothetical emphasis that makes 〜としても more impactful here.",
+        "「〜たにしても」 is not a standard Japanese grammar pattern and is grammatically incorrect.",
+        "「〜たとしたら」 is purely hypothetical conditional but doesn't convey the concessive meaning needed in this context."
       ]
     },
     {
@@ -58,14 +58,14 @@
       "translation": "Even if there were evidence, I would not believe it.",
       "blank_target": "たとしても",
       "wrong_choices": [
-        "たにしても",
         "ても",
-        "たとしたら"
+        "ならば",
+        "だけでは"
       ],
       "wrong_choice_explanations": [
-        "たにしても has a different grammatical function that doesn't fit this sentence context.",
-        "ても has a different grammatical function that doesn't fit this sentence context.",
-        "たとしたら has a different grammatical function that doesn't fit this sentence context."
+        "「〜ても」 expresses concession but doesn't have the emphatic hypothetical tone of 〜としても.",
+        "「〜ならば」 is a formal conditional meaning 'if' but doesn't express concession like 〜としても does.",
+        "「〜だけでは」 means 'just/only' and doesn't fit grammatically or semantically in this sentence."
       ]
     },
     {
@@ -74,14 +74,94 @@
       "translation": "Even if convinced, my opinion would not change.",
       "blank_target": "たとしても",
       "wrong_choices": [
-        "たにしても",
         "ても",
-        "たとしたら"
+        "にしても",
+        "からには"
       ],
       "wrong_choice_explanations": [
-        "〜たにしても is past tense form; not appropriate here.",
-        "〜ても is simple concession; doesn't have formal tone.",
-        "〜たとしたら is hypothetical; doesn't convey concession."
+        "「〜ても」 is simple concession but doesn't match the formal hypothetical emphasis of 〜としても.",
+        "「〜にしても」 means 'even considering' but doesn't work with past tense verbs like 説得された.",
+        "「〜からには」 means 'since/now that' and expresses obligation rather than concession."
+      ]
+    },
+    {
+      "id": "n2_154_6",
+      "example_sentence": "雨が降ったとしても、試合は続行される。",
+      "translation": "Even if it rains, the match will continue.",
+      "blank_target": "たとしても",
+      "wrong_choices": [
+        "ても",
+        "としたら",
+        "であっても"
+      ],
+      "wrong_choice_explanations": [
+        "「〜ても」 is basic concession but lacks the formal hypothetical nuance of 〜としても.",
+        "「〜としたら」 is hypothetical 'if' but doesn't convey the concessive meaning needed here.",
+        "「〜であっても」 means 'even if' but is used with nouns/na-adjectives, not verbs like 降った."
+      ]
+    },
+    {
+      "id": "n2_154_7",
+      "example_sentence": "先生に叱られたとしても、後悔しない。",
+      "translation": "Even if scolded by the teacher, I won't regret it.",
+      "blank_target": "たとしても",
+      "wrong_choices": [
+        "ても",
+        "たら",
+        "にしても"
+      ],
+      "wrong_choice_explanations": [
+        "「〜ても」 expresses concession but doesn't have the emphatic hypothetical tone of 〜としても.",
+        "「〜たら」 is conditional 'if' but doesn't express the strong concessive meaning required here.",
+        "「〜にしても」 means 'even if/considering' but doesn't work grammatically with past tense verbs."
+      ]
+    },
+    {
+      "id": "n2_154_8",
+      "example_sentence": "失敗したとしても、諦めるつもりはない。",
+      "translation": "Even if I fail, I don't intend to give up.",
+      "blank_target": "したとしても",
+      "wrong_choices": [
+        "しても",
+        "すれば",
+        "したって"
+      ],
+      "wrong_choice_explanations": [
+        "「〜しても」 is simple concession but doesn't have the formal hypothetical emphasis of 〜としても.",
+        "「〜すれば」 is conditional 'if' but doesn't convey the concessive meaning needed in this context.",
+        "「〜したって」 is casual concession meaning 'even if' but is too informal for this sentence tone."
+      ]
+    },
+    {
+      "id": "n2_154_9",
+      "example_sentence": "病気になったとしても、仕事を続ける。",
+      "translation": "Even if I get sick, I will continue working.",
+      "blank_target": "たとしても",
+      "wrong_choices": [
+        "ても",
+        "としたら",
+        "たところで"
+      ],
+      "wrong_choice_explanations": [
+        "「〜ても」 expresses concession but lacks the emphatic hypothetical nuance of 〜としても.",
+        "「〜としたら」 is hypothetical 'if' but doesn't express the concessive determination shown here.",
+        "「〜たところで」 means 'even if' but implies futility, which contradicts the determined tone of this sentence."
+      ]
+    },
+    {
+      "id": "n2_154_10",
+      "example_sentence": "値段が下がったとしても、今は買えない。",
+      "translation": "Even if the price drops, I can't buy it now.",
+      "blank_target": "たとしても",
+      "wrong_choices": [
+        "ても",
+        "ば",
+        "だけでは"
+      ],
+      "wrong_choice_explanations": [
+        "「〜ても」 is basic concession but doesn't match the formal hypothetical emphasis of 〜としても.",
+        "「〜ば」 is conditional 'if' but doesn't convey the concessive meaning required in this context.",
+        "「〜だけでは」 means 'just/only' and doesn't fit grammatically in this sentence structure."
       ]
     }
   ]

@@ -1,0 +1,168 @@
+{
+  "id": "gp_029",
+  "pattern": "～てはいけない",
+  "meaning": "Must not do ~",
+  "level": "N5",
+  "exercises": [
+    {
+      "id": 1,
+      "example_sentence": "ここでタバコを吸っ__はいけない。",
+      "translation": "You must not smoke here.",
+      "blank_target": "て",
+      "wrong_choices": [
+        "た",
+        "で",
+        "に"
+      ],
+      "wrong_choice_explanations": {
+        "た": "た is the past tense form — it doesn't connect to はいけない to express prohibition.",
+        "で": "で is a particle for location or method — it cannot link verbs to prohibition expressions.",
+        "に": "に is a direction or time particle — it doesn't form the connection needed for てはいけない."
+      }
+    },
+    {
+      "id": 2,
+      "example_sentence": "授業中に話し__はいけません。",
+      "translation": "You must not talk during class.",
+      "blank_target": "て",
+      "wrong_choices": [
+        "ながら",
+        "ために",
+        "ように"
+      ],
+      "wrong_choice_explanations": {
+        "ながら": "ながら means 'while doing' — it doesn't work with はいけません to express prohibition.",
+        "ために": "ために means 'for the purpose of' — it cannot connect to prohibition expressions.",
+        "ように": "ように means 'so that' — it doesn't form prohibitions with はいけません."
+      }
+    },
+    {
+      "id": 3,
+      "example_sentence": "夜遅く帰っ__はいけない。",
+      "translation": "You must not come home late at night.",
+      "blank_target": "て",
+      "wrong_choices": [
+        "ば",
+        "と",
+        "から"
+      ],
+      "wrong_choice_explanations": {
+        "ば": "ば creates conditional sentences — it doesn't connect verbs to はいけない for prohibition.",
+        "と": "と indicates conditionals or quotations — it cannot form prohibition expressions.",
+        "から": "から means 'because' or 'from' — it doesn't work with はいけない to express prohibition."
+      }
+    },
+    {
+      "id": 4,
+      "example_sentence": "宿題を忘れ__はいけません。",
+      "translation": "You must not forget your homework.",
+      "blank_target": "て",
+      "wrong_choices": [
+        "ない",
+        "ます",
+        "だろう"
+      ],
+      "wrong_choice_explanations": {
+        "ない": "ない is the negative form — combined with はいけません, it would create a double negative that's ungrammatical.",
+        "ます": "ます is the polite present form — it cannot connect directly to はいけません.",
+        "だろう": "だろう expresses probability — it doesn't form prohibition expressions with はいけません."
+      }
+    },
+    {
+      "id": 5,
+      "example_sentence": "人の悪口を言っ__はいけない。",
+      "translation": "You must not speak ill of others.",
+      "blank_target": "て",
+      "wrong_choices": [
+        "ので",
+        "けれど",
+        "のに"
+      ],
+      "wrong_choice_explanations": {
+        "ので": "ので means 'because' — it's used for giving reasons, not expressing prohibition.",
+        "けれど": "けれど means 'but' — it shows contrast, not prohibition.",
+        "のに": "のに means 'despite' — it expresses contradiction, not prohibition."
+      }
+    },
+    {
+      "id": 6,
+      "example_sentence": "他人のものを取っ__はいけません。",
+      "translation": "You must not take other people's things.",
+      "blank_target": "て",
+      "wrong_choices": [
+        "たら",
+        "まで",
+        "ほど"
+      ],
+      "wrong_choice_explanations": {
+        "たら": "たら creates conditional sentences — it doesn't work with はいけません for prohibition.",
+        "まで": "まで means 'until' — it indicates time limits, not prohibition.",
+        "ほど": "ほど means 'to the extent of' — it cannot connect verbs to prohibition expressions."
+      }
+    },
+    {
+      "id": 7,
+      "example_sentence": "約束を破っ__はいけない。",
+      "translation": "You must not break promises.",
+      "blank_target": "て",
+      "wrong_choices": [
+        "よう",
+        "そう",
+        "らしい"
+      ],
+      "wrong_choice_explanations": {
+        "よう": "よう indicates appearance or volitional form — it doesn't connect to はいけない for prohibition.",
+        "そう": "そう indicates hearsay or appearance — it cannot form prohibition expressions.",
+        "らしい": "らしい means 'seems like' — it expresses supposition, not prohibition."
+      }
+    },
+    {
+      "id": 8,
+      "example_sentence": "嘘をつい__はいけません。",
+      "translation": "You must not tell lies.",
+      "blank_target": "て",
+      "wrong_choices": [
+        "ている",
+        "てある",
+        "ておく"
+      ],
+      "wrong_choice_explanations": {
+        "ている": "ている indicates ongoing states — combined with はいけません, it would prohibit continuing a state rather than starting an action.",
+        "てある": "てある indicates completed actions with lasting results — it doesn't fit the prohibition context here.",
+        "ておく": "ておく means doing something in preparation — it changes the meaning from simple prohibition to prohibiting preparatory action."
+      }
+    },
+    {
+      "id": 9,
+      "example_sentence": "勝手に決め__はいけない。",
+      "translation": "You must not decide on your own.",
+      "blank_target": "て",
+      "wrong_choices": [
+        "として",
+        "について",
+        "に対して"
+      ],
+      "wrong_choice_explanations": {
+        "として": "として means 'as' or 'in the capacity of' — it doesn't connect verbs to prohibition expressions.",
+        "について": "について means 'about' or 'concerning' — it cannot link verbs to はいけない.",
+        "に対して": "に対して means 'toward' or 'against' — it doesn't form prohibition expressions."
+      }
+    },
+    {
+      "id": 10,
+      "example_sentence": "危険な場所に近づい__はいけません。",
+      "translation": "You must not approach dangerous places.",
+      "blank_target": "て",
+      "wrong_choices": [
+        "では",
+        "でも",
+        "とは"
+      ],
+      "wrong_choice_explanations": {
+        "では": "では is a topic particle or conditional — it cannot connect verbs to はいけません for prohibition.",
+        "でも": "でも means 'but' or 'even' — it doesn't form the connection needed for prohibition expressions.",
+        "とは": "とは is used for definitions or emphasis — it cannot link verbs to prohibition expressions."
+      }
+    }
+  ]
+}

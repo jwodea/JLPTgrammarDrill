@@ -15,9 +15,9 @@
         "やすいので"
       ],
       "wrong_choice_explanations": [
-        "This pattern does not convey the same meaning as '〜がち' (tends to / apt to / inclined to (often negative or undesirable tendency)) needed in this context.",
-        "This pattern does not convey the same meaning as '〜がち' (tends to / apt to / inclined to (often negative or undesirable tendency)) needed in this context.",
-        "This pattern does not convey the same meaning as '〜がち' (tends to / apt to / inclined to (often negative or undesirable tendency)) needed in this context."
+        "気味 expresses a slight or concerning degree but doesn't convey the habitual tendency that がち expresses for being late.",
+        "っぽい describes having certain characteristics but lacks the meaning of habitual tendency that がち conveys in this context.",
+        "やすい means 'easy to' but doesn't express the negative habitual tendency that がち conveys for chronic lateness."
       ]
     },
     {
@@ -26,14 +26,14 @@
       "translation": "Since it tends to rain this season, I carry an umbrella.",
       "blank_target": "がちなので",
       "wrong_choices": [
-        "気味なので",
-        "っぽいので",
-        "やすいので"
+        "ばかりなので",
+        "だらけなので",
+        "づくめなので"
       ],
       "wrong_choice_explanations": [
-        "気味なので has a different grammatical function and doesn't fit the context of this sentence where がち is required.",
-        "っぽいので has a different grammatical function and doesn't fit the context of this sentence where がち is required.",
-        "やすいので has a different grammatical function and doesn't fit the context of this sentence where がち is required."
+        "ばかり means 'only' or 'just' but doesn't express the tendency to rain frequently that がち conveys.",
+        "だらけ means 'full of' or 'covered with' but doesn't fit with weather patterns or express tendency.",
+        "づくめ means 'entirely' or 'completely' but doesn't express the frequent tendency that がち conveys for weather."
       ]
     },
     {
@@ -43,13 +43,13 @@
       "blank_target": "がちだ",
       "wrong_choices": [
         "気味だ",
-        "っぽいだ",
-        "やすいだ"
+        "ものだ",
+        "べきだ"
       ],
       "wrong_choice_explanations": [
-        "気味だ has a different grammatical function, but 〜がち is needed to express the specific meaning required in this sentence.",
-        "っぽいだ has a different grammatical function, but 〜がち is needed to express the specific meaning required in this sentence.",
-        "やすいだ has a different grammatical function, but 〜がち is needed to express the specific meaning required in this sentence."
+        "気味 suggests a slight degree or concerning sign but doesn't convey the habitual tendency that がち expresses.",
+        "ものだ expresses a general truth or characteristic but lacks the specific tendency meaning that がち provides.",
+        "べきだ expresses obligation or duty, which is completely inappropriate for describing a natural tendency to make mistakes."
       ]
     },
     {
@@ -58,14 +58,14 @@
       "translation": "Older people tend to avoid new technology.",
       "blank_target": "しがちだ",
       "wrong_choices": [
-        "気味なので",
-        "っぽいので",
-        "やすいので"
+        "しそうだ",
+        "したがるだ",
+        "するものだ"
       ],
       "wrong_choice_explanations": [
-        "気味なので has a different grammatical function that doesn't fit this sentence context.",
-        "っぽいので has a different grammatical function that doesn't fit this sentence context.",
-        "やすいので has a different grammatical function that doesn't fit this sentence context."
+        "そう expresses likelihood based on appearance but doesn't convey the established tendency that がち expresses.",
+        "たがる expresses desire or wanting to do something, which doesn't fit the context of avoiding technology.",
+        "するものだ states a general principle but lacks the specific negative tendency meaning that がち provides."
       ]
     },
     {
@@ -74,14 +74,94 @@
       "translation": "Humans tend to take the easy way.",
       "blank_target": "がちな",
       "wrong_choices": [
-        "気味なので",
-        "っぽいので",
-        "やすいので"
+        "やすい",
+        "そうな",
+        "らしい"
       ],
       "wrong_choice_explanations": [
-        "〜気味なので is wordy; doesn't convey habitual tendency.",
-        "〜っぽいので is colloquial; doesn't convey tendency.",
-        "〜やすいので emphasizes ease; doesn't convey tendency."
+        "やすい means 'easy to' but doesn't convey the inherent human tendency that がち expresses in this philosophical statement.",
+        "そうな expresses appearance or likelihood but doesn't capture the ingrained tendency that がち conveys about human nature.",
+        "らしい means 'seems like' or 'typical of' but doesn't express the inevitable tendency that がち conveys here."
+      ]
+    },
+    {
+      "id": "n2_180_6",
+      "example_sentence": "彼女は体調を崩しがちで心配だ。",
+      "translation": "She tends to get sick and I'm worried about her.",
+      "blank_target": "がちで",
+      "wrong_choices": [
+        "気味で",
+        "ばかりで",
+        "っぽくて"
+      ],
+      "wrong_choice_explanations": [
+        "気味 suggests a slight degree but doesn't convey the repeated pattern of getting sick that がち expresses.",
+        "ばかり means 'only' or 'just' but doesn't express the tendency to frequently get sick that がち conveys.",
+        "っぽくて is colloquial for 'seems like' but doesn't express the established pattern of poor health that がち conveys."
+      ]
+    },
+    {
+      "id": "n2_180_7",
+      "example_sentence": "この店は値段が高くなりがちだ。",
+      "translation": "This store's prices tend to be high.",
+      "blank_target": "がちだ",
+      "wrong_choices": [
+        "すぎるだ",
+        "そうだ",
+        "らしいだ"
+      ],
+      "wrong_choice_explanations": [
+        "すぎる means 'too much' which is grammatically incorrect here and doesn't express tendency like がち does.",
+        "そうだ expresses hearsay or appearance but doesn't convey the consistent tendency toward high prices that がち expresses.",
+        "らしい means 'seems like' but doesn't express the established tendency toward expensive pricing that がち conveys."
+      ]
+    },
+    {
+      "id": "n2_180_8",
+      "example_sentence": "学生は夜更かしをしがちになる。",
+      "translation": "Students tend to stay up late.",
+      "blank_target": "がちになる",
+      "wrong_choices": [
+        "やすくなる",
+        "そうになる",
+        "ものになる"
+      ],
+      "wrong_choice_explanations": [
+        "やすくなる means 'becomes easy' but doesn't express the developing tendency to stay up late that がち conveys.",
+        "そうになる means 'looks like it will' but doesn't express the habitual tendency that がち conveys for late nights.",
+        "ものになる means 'becomes something worthwhile' which doesn't fit the context of developing bad sleep habits."
+      ]
+    },
+    {
+      "id": "n2_180_9",
+      "example_sentence": "忙しい時期は食事を抜きがちだった。",
+      "translation": "During busy periods, I tended to skip meals.",
+      "blank_target": "がちだった",
+      "wrong_choices": [
+        "やすかった",
+        "そうだった",
+        "気味だった"
+      ],
+      "wrong_choice_explanations": [
+        "やすかった means 'was easy' but doesn't convey the past tendency to skip meals that がち expresses.",
+        "そうだった means 'seemed like' or 'I heard that' but doesn't express the personal tendency that がち conveys.",
+        "気味だった suggests a slight degree but doesn't convey the established pattern of skipping meals that がち expresses."
+      ]
+    },
+    {
+      "id": "n2_180_10",
+      "example_sentence": "会議では同じ人が発言しがちである。",
+      "translation": "In meetings, the same people tend to speak up.",
+      "blank_target": "がちである",
+      "wrong_choices": [
+        "ものである",
+        "べきである",
+        "はずである"
+      ],
+      "wrong_choice_explanations": [
+        "ものである expresses a general truth but doesn't convey the specific tendency pattern that がち expresses about meeting dynamics.",
+        "べきである expresses obligation or what should happen, which contradicts the observed tendency that がち describes.",
+        "はずである expresses expectation based on logic but doesn't convey the observed tendency that がち expresses."
       ]
     }
   ]

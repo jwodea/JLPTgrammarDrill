@@ -1,0 +1,168 @@
+{
+  "id": "gp_007",
+  "pattern": "～と",
+  "meaning": "And (exhaustive) / with / quotation",
+  "level": "N5",
+  "exercises": [
+    {
+      "id": 1,
+      "example_sentence": "友達__映画を見ました。",
+      "translation": "I watched a movie with my friend.",
+      "blank_target": "と",
+      "wrong_choices": [
+        "で",
+        "に",
+        "を"
+      ],
+      "wrong_choice_explanations": {
+        "で": "で indicates means or location — it doesn't fit here because we need to show companionship, not the means of watching.",
+        "に": "に indicates direction or target — it doesn't fit here because friend is not the target but the companion.",
+        "を": "を marks direct objects — it doesn't fit here because friend is not what we watched but who we watched with."
+      }
+    },
+    {
+      "id": 2,
+      "example_sentence": "パン__牛乳を買いました。",
+      "translation": "I bought bread and milk.",
+      "blank_target": "と",
+      "wrong_choices": [
+        "や",
+        "で",
+        "を"
+      ],
+      "wrong_choice_explanations": {
+        "や": "や also means 'and' but suggests a non-exhaustive list — it doesn't fit here because we're listing exactly what was bought.",
+        "で": "で indicates means — it doesn't fit here because we need to connect two items purchased.",
+        "を": "を marks direct objects — it doesn't fit here because we need to connect bread with milk, not mark them as objects."
+      }
+    },
+    {
+      "id": 3,
+      "example_sentence": "母は「元気です」__言いました。",
+      "translation": "My mother said, 'I'm fine.'",
+      "blank_target": "と",
+      "wrong_choices": [
+        "を",
+        "に",
+        "で"
+      ],
+      "wrong_choice_explanations": {
+        "を": "を marks direct objects — it doesn't fit here because we need to mark the quotation, not the object.",
+        "に": "に indicates target or direction — it doesn't fit here because we need to mark what was said as a quotation.",
+        "で": "で indicates means — it doesn't fit here because we need to mark the quoted speech, not the means of speaking."
+      }
+    },
+    {
+      "id": 4,
+      "example_sentence": "猫__犬がいます。",
+      "translation": "There are cats and dogs.",
+      "blank_target": "と",
+      "wrong_choices": [
+        "や",
+        "が",
+        "に"
+      ],
+      "wrong_choice_explanations": {
+        "や": "や suggests a non-exhaustive list — it doesn't fit here because we're stating exactly what animals are present.",
+        "が": "が marks the subject — it doesn't fit here because we need to connect cat with dog.",
+        "に": "に indicates location or direction — it doesn't fit here because we need to connect two subjects."
+      }
+    },
+    {
+      "id": 5,
+      "example_sentence": "先生__話しています。",
+      "translation": "I'm talking with the teacher.",
+      "blank_target": "と",
+      "wrong_choices": [
+        "に",
+        "で",
+        "を"
+      ],
+      "wrong_choice_explanations": {
+        "に": "に can indicate target but doesn't show the mutual nature of conversation like と does.",
+        "で": "で indicates means or location — it doesn't fit here because teacher is not the means but the conversation partner.",
+        "を": "を marks direct objects — it doesn't fit here because teacher is not what we're talking about but who we're talking with."
+      }
+    },
+    {
+      "id": 6,
+      "example_sentence": "りんご__みかんが好きです。",
+      "translation": "I like apples and oranges.",
+      "blank_target": "と",
+      "wrong_choices": [
+        "や",
+        "を",
+        "が"
+      ],
+      "wrong_choice_explanations": {
+        "や": "や suggests a non-exhaustive list — it doesn't fit here because we're stating our complete preference.",
+        "を": "を marks direct objects — it doesn't fit here because we need to connect the two fruits we like.",
+        "が": "が marks the subject — it doesn't fit here because we need to connect apple with orange as joint subjects."
+      }
+    },
+    {
+      "id": 7,
+      "example_sentence": "田中さんは「忙しいです」__答えました。",
+      "translation": "Mr. Tanaka answered, 'I'm busy.'",
+      "blank_target": "と",
+      "wrong_choices": [
+        "を",
+        "で",
+        "に"
+      ],
+      "wrong_choice_explanations": {
+        "を": "を marks direct objects — it doesn't fit here because we need to mark the quoted answer.",
+        "で": "で indicates means — it doesn't fit here because we need to mark what was answered as a quotation.",
+        "に": "に indicates target — it doesn't fit here because we need to mark the quoted speech, not the target."
+      }
+    },
+    {
+      "id": 8,
+      "example_sentence": "兄__妹がいます。",
+      "translation": "I have an older brother and younger sister.",
+      "blank_target": "と",
+      "wrong_choices": [
+        "や",
+        "に",
+        "で"
+      ],
+      "wrong_choice_explanations": {
+        "や": "や suggests a non-exhaustive list — it doesn't fit here because we're stating exactly what siblings we have.",
+        "に": "に indicates location or direction — it doesn't fit here because we need to connect the two siblings.",
+        "で": "で indicates means — it doesn't fit here because we need to connect brother with sister."
+      }
+    },
+    {
+      "id": 9,
+      "example_sentence": "家族__夕食を食べます。",
+      "translation": "I eat dinner with my family.",
+      "blank_target": "と",
+      "wrong_choices": [
+        "で",
+        "に",
+        "を"
+      ],
+      "wrong_choice_explanations": {
+        "で": "で indicates location or means — it doesn't fit here because family is not the means but the companions.",
+        "に": "に indicates target or direction — it doesn't fit here because family is not the target but the companions.",
+        "を": "を marks direct objects — it doesn't fit here because family is not what we eat but who we eat with."
+      }
+    },
+    {
+      "id": 10,
+      "example_sentence": "彼は「大丈夫です」__言いました。",
+      "translation": "He said, 'It's okay.'",
+      "blank_target": "と",
+      "wrong_choices": [
+        "を",
+        "に",
+        "が"
+      ],
+      "wrong_choice_explanations": {
+        "を": "を marks direct objects — it doesn't fit here because we need to mark the quotation, not treat it as a direct object.",
+        "に": "に indicates target — it doesn't fit here because we need to mark what was said as quoted speech.",
+        "が": "が marks the subject — it doesn't fit here because we need to mark the quotation, not identify a subject."
+      }
+    }
+  ]
+}

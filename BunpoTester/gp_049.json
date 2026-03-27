@@ -1,0 +1,168 @@
+{
+  "id": "gp_049",
+  "pattern": "～前に",
+  "meaning": "Before doing ~",
+  "level": "N5",
+  "exercises": [
+    {
+      "id": 1,
+      "example_sentence": "寝る__、歯を磨きます。",
+      "translation": "Before going to bed, I brush my teeth.",
+      "blank_target": "前に",
+      "wrong_choices": [
+        "後で",
+        "時に",
+        "間に"
+      ],
+      "wrong_choice_explanations": {
+        "後で": "後で means 'after' — it's the opposite of the temporal relationship needed here.",
+        "時に": "時に means 'when / at the time of' — it shows simultaneous timing, not beforehand.",
+        "間に": "間に means 'during / between' — it shows duration or interval, not the sequence of before."
+      }
+    },
+    {
+      "id": 2,
+      "example_sentence": "出かける__、鍵をかけました。",
+      "translation": "Before going out, I locked the door.",
+      "blank_target": "前に",
+      "wrong_choices": [
+        "ので",
+        "から",
+        "ため"
+      ],
+      "wrong_choice_explanations": {
+        "ので": "ので means 'because' — it shows causation, not temporal sequence.",
+        "から": "から means 'because' or 'from' — it doesn't indicate the timing relationship needed here.",
+        "ため": "ため means 'for the purpose of' — it shows purpose, not temporal sequence."
+      }
+    },
+    {
+      "id": 3,
+      "example_sentence": "食事する__、手を洗います。",
+      "translation": "Before eating, I wash my hands.",
+      "blank_target": "前に",
+      "wrong_choices": [
+        "ながら",
+        "つつ",
+        "て"
+      ],
+      "wrong_choice_explanations": {
+        "ながら": "ながら means 'while doing' — it shows simultaneous actions, not sequential timing.",
+        "つつ": "つつ means 'while doing' (formal) — it indicates simultaneous actions, not before/after sequence.",
+        "て": "て connects actions sequentially — but it doesn't specify the 'before' relationship clearly."
+      }
+    },
+    {
+      "id": 4,
+      "example_sentence": "旅行に行く__、切符を買いました。",
+      "translation": "Before going on a trip, I bought tickets.",
+      "blank_target": "前に",
+      "wrong_choices": [
+        "と",
+        "ば",
+        "なら"
+      ],
+      "wrong_choice_explanations": {
+        "と": "と shows natural consequence or habitual action — it doesn't indicate preparation beforehand.",
+        "ば": "ば is conditional 'if' — this sentence states completed preparation, not a condition.",
+        "なら": "なら means 'if' — it's conditional, but we're describing actual preparation that happened."
+      }
+    },
+    {
+      "id": 5,
+      "example_sentence": "会議が始まる__、資料を準備します。",
+      "translation": "Before the meeting starts, I'll prepare the materials.",
+      "blank_target": "前に",
+      "wrong_choices": [
+        "まで",
+        "など",
+        "ほど"
+      ],
+      "wrong_choice_explanations": {
+        "まで": "まで means 'until' — it shows duration up to a point, not preparation beforehand.",
+        "など": "など means 'and so on' — it gives examples but doesn't show temporal relationships.",
+        "ほど": "ほど means 'to the extent that' — it shows degree, not temporal sequence."
+      }
+    },
+    {
+      "id": 6,
+      "example_sentence": "映画を見る__、ポップコーンを買いました。",
+      "translation": "Before watching the movie, I bought popcorn.",
+      "blank_target": "前に",
+      "wrong_choices": [
+        "として",
+        "によって",
+        "について"
+      ],
+      "wrong_choice_explanations": {
+        "として": "として means 'as / in the capacity of' — it shows role, not temporal preparation.",
+        "によって": "によって means 'by means of / depending on' — it shows method or cause, not timing.",
+        "について": "について means 'about / concerning' — it indicates topic, not temporal sequence."
+      }
+    },
+    {
+      "id": 7,
+      "example_sentence": "試験を受ける__、たくさん勉強しました。",
+      "translation": "Before taking the exam, I studied a lot.",
+      "blank_target": "前に",
+      "wrong_choices": [
+        "だけ",
+        "ばかり",
+        "しか"
+      ],
+      "wrong_choice_explanations": {
+        "だけ": "だけ means 'only' — it limits scope but doesn't show temporal preparation.",
+        "ばかり": "ばかり means 'only / just' — it shows limitation or recent completion, not beforehand preparation.",
+        "しか": "しか means 'only' (with negative) — it expresses limitation, not temporal sequence."
+      }
+    },
+    {
+      "id": 8,
+      "example_sentence": "仕事を辞める__、次の仕事を探します。",
+      "translation": "Before quitting my job, I'll look for the next job.",
+      "blank_target": "前に",
+      "wrong_choices": [
+        "より",
+        "ほか",
+        "に関して"
+      ],
+      "wrong_choice_explanations": {
+        "より": "より means 'than' — it's for comparisons, not showing preparation beforehand.",
+        "ほか": "ほか means 'other / besides' — it indicates alternatives, not temporal sequence.",
+        "に関して": "に関して means 'regarding' — it shows topic, not the timing of preparation."
+      }
+    },
+    {
+      "id": 9,
+      "example_sentence": "買い物に行く__、お金を確認しました。",
+      "translation": "Before going shopping, I checked my money.",
+      "blank_target": "前に",
+      "wrong_choices": [
+        "に対して",
+        "における",
+        "による"
+      ],
+      "wrong_choice_explanations": {
+        "に対して": "に対して means 'toward / in response to' — it shows direction, not temporal preparation.",
+        "における": "における means 'in / at' (formal) — it shows location or context, not timing.",
+        "による": "による means 'due to / by' — it shows causation, not temporal sequence."
+      }
+    },
+    {
+      "id": 10,
+      "example_sentence": "家を出る__、天気予報を見ます。",
+      "translation": "Before leaving home, I check the weather forecast.",
+      "blank_target": "前に",
+      "wrong_choices": [
+        "ことを",
+        "のを",
+        "のが"
+      ],
+      "wrong_choice_explanations": {
+        "ことを": "ことを nominalizes actions as objects — it doesn't show the temporal relationship of preparation.",
+        "のを": "のを is an object marker with nominalized verbs — it doesn't indicate timing.",
+        "のが": "のが is a subject marker with nominalized verbs — it doesn't express temporal sequence."
+      }
+    }
+  ]
+}

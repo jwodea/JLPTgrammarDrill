@@ -58,12 +58,12 @@
       "translation": "Is it okay if I meet him?",
       "blank_target": "てもいいですか",
       "wrong_choices": [
-        "てはいけますか",
+        "てはいけませんか",
         "なければならないですか",
         "ばよい"
       ],
       "wrong_choice_explanations": [
-        "てはいけますか asks about non-prohibition; the sentence seeks permission to meet him.",
+        "てはいけませんか means 'is it not allowed?', expressing prohibition; the sentence seeks permission to meet him.",
         "なければならないですか asks 'must I?', expressing obligation; the sentence seeks permission, not requirement.",
         "ばよい means 'it's good if,' expressing a different meaning from asking permission."
       ]
@@ -74,12 +74,12 @@
       "translation": "Is it okay if I take photos in this store?",
       "blank_target": "ってもいいですか",
       "wrong_choices": [
-        "ってはいけますか",
+        "ってはいけませんか",
         "わなければならないですか",
         "ずにいい"
       ],
       "wrong_choice_explanations": [
-        "ってはいけますか asks about non-prohibition; the sentence seeks permission to take photos.",
+        "ってはいけませんか means 'is it not allowed?', expressing prohibition; the sentence seeks permission to take photos.",
         "わなければならないですか asks 'must I?', expressing obligation; the sentence seeks permission, not requirement.",
         "ずにいい means 'it's okay without doing,' which is opposite to asking permission to take photos."
       ]
@@ -90,12 +90,12 @@
       "translation": "Is it okay to watch this movie outside?",
       "blank_target": "てもいいですか",
       "wrong_choices": [
-        "てはいけますか",
+        "てはいけませんか",
         "なくてもいいですか",
         "ないでください"
       ],
       "wrong_choice_explanations": [
-        "てはいけますか asks about non-prohibition; the sentence seeks permission to watch outside.",
+        "てはいけませんか means 'is it not allowed?', expressing prohibition; the sentence seeks permission to watch outside.",
         "なくてもいいですか means 'is it okay not to?', which is the opposite permission from watching.",
         "ないでください is a polite request not to do something; the sentence seeks permission to watch the movie."
       ]
@@ -106,12 +106,12 @@
       "translation": "If you have questions, you can ask as many times as you like.",
       "blank_target": "てもいいです",
       "wrong_choices": [
-        "てはいけます",
+        "てはいけません",
         "なければならないです",
         "ないでください"
       ],
       "wrong_choice_explanations": [
-        "てはいけます expresses non-permission; the sentence grants permission to ask multiple times.",
+        "てはいけません expresses prohibition; the sentence grants permission to ask multiple times.",
         "なければならないです expresses obligation; the sentence permits asking, not requires it.",
         "ないでください is a polite request not to do something; the sentence grants permission to ask."
       ]
@@ -122,12 +122,12 @@
       "translation": "Is it okay if I bring my friend to the party?",
       "blank_target": "てもいいですか",
       "wrong_choices": [
-        "てはいけますか",
+        "てはいけませんか",
         "なくてはいけないですか",
         "なければならないですか"
       ],
       "wrong_choice_explanations": [
-        "てはいけますか asks about non-permission; the sentence seeks permission to bring a friend.",
+        "てはいけませんか means 'is it not allowed?', expressing prohibition; the sentence seeks permission to bring a friend.",
         "なくてはいけないですか creates a double negative; the sentence seeks permission, not obligation.",
         "なければならないですか asks 'must I?'; the sentence seeks permission, not requirement."
       ]
@@ -138,12 +138,12 @@
       "translation": "It is okay to have different opinions.",
       "blank_target": "てもいいです",
       "wrong_choices": [
-        "てはいけます",
+        "てはいけません",
         "なければならないです",
         "ずにいい"
       ],
       "wrong_choice_explanations": [
-        "てはいけます expresses non-permission; the sentence permits differences in opinion.",
+        "てはいけません expresses prohibition; the sentence permits differences in opinion.",
         "なければならないです expresses obligation; the sentence states acceptance of differing opinions, not a requirement.",
         "ずにいい means 'it's okay without doing'; the sentence permits having differences."
       ]
@@ -154,13 +154,13 @@
       "translation": "It is okay to verify from multiple perspectives.",
       "blank_target": "てもいいです",
       "wrong_choices": [
-        "てはいけます",
-        "なればならないです",
+        "てはいけません",
+        "なければならないです",
         "ないでください"
       ],
       "wrong_choice_explanations": [
-        "てはいけます expresses non-permission; the sentence states permission to verify from multiple perspectives.",
-        "なればならないです expresses obligation; the sentence permits verification, doesn't require it.",
+        "てはいけません expresses prohibition; the sentence states permission to verify from multiple perspectives.",
+        "なければならないです expresses obligation; the sentence permits verification, doesn't require it.",
         "ないでください is a polite request not to do something; the sentence grants permission to verify."
       ]
     }

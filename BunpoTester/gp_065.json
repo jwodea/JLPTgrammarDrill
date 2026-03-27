@@ -1,0 +1,168 @@
+{
+  "id": "gp_065",
+  "pattern": "～年間",
+  "meaning": "~ years (duration)",
+  "level": "N5",
+  "exercises": [
+    {
+      "id": 1,
+      "example_sentence": "大学は四__です。",
+      "translation": "University is four years long.",
+      "blank_target": "年間",
+      "wrong_choices": [
+        "年",
+        "ヶ月",
+        "週間"
+      ],
+      "wrong_choice_explanations": {
+        "年": "年 indicates specific years (like 'this year') — it doesn't fit here because we're talking about duration, not which years.",
+        "ヶ月": "ヶ月 means months — it doesn't fit here because four months would be too short for university education.",
+        "週間": "週間 means weeks — it doesn't fit here because four weeks would be impossibly short for university."
+      }
+    },
+    {
+      "id": 2,
+      "example_sentence": "この会社で十__働いています。",
+      "translation": "I have been working at this company for ten years.",
+      "blank_target": "年間",
+      "wrong_choices": [
+        "年",
+        "ヶ月",
+        "日"
+      ],
+      "wrong_choice_explanations": {
+        "年": "年 indicates specific years — it doesn't fit here because we're talking about duration of work, not which years.",
+        "ヶ月": "ヶ月 means months — it doesn't fit here because ten months would be relatively short for describing long-term employment.",
+        "日": "日 means days — it doesn't fit here because ten days is far too short to describe meaningful employment duration."
+      }
+    },
+    {
+      "id": 3,
+      "example_sentence": "研究に五__かかりました。",
+      "translation": "The research took five years.",
+      "blank_target": "年間",
+      "wrong_choices": [
+        "ヶ月",
+        "週間",
+        "年"
+      ],
+      "wrong_choice_explanations": {
+        "ヶ月": "ヶ月 means months — while five months is possible, it would be quite short for substantial research.",
+        "週間": "週間 means weeks — it doesn't fit here because five weeks would be too short for meaningful research.",
+        "年": "年 indicates specific years — it doesn't fit here because we're talking about how long research took, not which years it happened."
+      }
+    },
+    {
+      "id": 4,
+      "example_sentence": "留学は二__の予定です。",
+      "translation": "The study abroad is planned for two years.",
+      "blank_target": "年間",
+      "wrong_choices": [
+        "年",
+        "ヶ月",
+        "週間"
+      ],
+      "wrong_choice_explanations": {
+        "年": "年 indicates specific years — it doesn't fit here because we're talking about duration of study abroad, not which years.",
+        "ヶ月": "ヶ月 means months — while two months study abroad exists, two years suggests a more comprehensive program.",
+        "週間": "週間 means weeks — it doesn't fit here because two weeks would be too short for meaningful study abroad."
+      }
+    },
+    {
+      "id": 5,
+      "example_sentence": "プロジェクトは三__続きます。",
+      "translation": "The project will continue for three years.",
+      "blank_target": "年間",
+      "wrong_choices": [
+        "ヶ月",
+        "年",
+        "週間"
+      ],
+      "wrong_choice_explanations": {
+        "ヶ月": "ヶ月 means months — while three months is possible, the context suggests a longer-term project.",
+        "年": "年 indicates specific years — it doesn't fit here because we're talking about project duration, not which years.",
+        "週間": "週間 means weeks — it doesn't fit here because three weeks would be very short for substantial projects."
+      }
+    },
+    {
+      "id": 6,
+      "example_sentence": "契約は五__間有効です。",
+      "translation": "The contract is valid for five years.",
+      "blank_target": "年間",
+      "wrong_choices": [
+        "年",
+        "ヶ月",
+        "日"
+      ],
+      "wrong_choice_explanations": {
+        "年": "年 indicates specific years — it doesn't fit here because we're talking about contract duration, not which years.",
+        "ヶ月": "ヶ月 means months — it doesn't fit here because five months would be relatively short for long-term contracts.",
+        "日": "日 means days — it doesn't fit here because five days would be impractically short for contract validity."
+      }
+    },
+    {
+      "id": 7,
+      "example_sentence": "この薬の開発に七__かかった。",
+      "translation": "The development of this medicine took seven years.",
+      "blank_target": "年間",
+      "wrong_choices": [
+        "ヶ月",
+        "年",
+        "週間"
+      ],
+      "wrong_choice_explanations": {
+        "ヶ月": "ヶ月 means months — it doesn't fit here because seven months would be too short for pharmaceutical development.",
+        "年": "年 indicates specific years — it doesn't fit here because we're talking about development duration, not which years.",
+        "週間": "週間 means weeks — it doesn't fit here because seven weeks would be impossibly short for drug development."
+      }
+    },
+    {
+      "id": 8,
+      "example_sentence": "日本語の勉強を六__しています。",
+      "translation": "I have been studying Japanese for six years.",
+      "blank_target": "年間",
+      "wrong_choices": [
+        "年",
+        "ヶ月",
+        "週間"
+      ],
+      "wrong_choice_explanations": {
+        "年": "年 indicates specific years — it doesn't fit here because we're talking about study duration, not which years.",
+        "ヶ月": "ヶ月 means months — while six months of study is possible, six years suggests much more advanced proficiency.",
+        "週間": "週間 means weeks — it doesn't fit here because six weeks would be too short for meaningful language learning."
+      }
+    },
+    {
+      "id": 9,
+      "example_sentence": "この建物の建設は四__かかります。",
+      "translation": "The construction of this building will take four years.",
+      "blank_target": "年間",
+      "wrong_choices": [
+        "ヶ月",
+        "年",
+        "週間"
+      ],
+      "wrong_choice_explanations": {
+        "ヶ月": "ヶ月 means months — while four months is possible for small buildings, major construction often takes years.",
+        "年": "年 indicates specific years — it doesn't fit here because we're talking about construction duration, not which years.",
+        "週間": "週間 means weeks — it doesn't fit here because four weeks would be too short for substantial building construction."
+      }
+    },
+    {
+      "id": 10,
+      "example_sentence": "医師になるために八__勉強した。",
+      "translation": "I studied for eight years to become a doctor.",
+      "blank_target": "年間",
+      "wrong_choices": [
+        "年",
+        "ヶ月",
+        "週間"
+      ],
+      "wrong_choice_explanations": {
+        "年": "年 indicates specific years — it doesn't fit here because we're talking about study duration, not which years.",
+        "ヶ月": "ヶ月 means months — it doesn't fit here because eight months would be far too short to become a doctor.",
+        "週間": "週間 means weeks — it doesn't fit here because eight weeks would be impossibly short for medical education."
+      }
+    }
+  ]
+}

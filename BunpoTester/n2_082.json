@@ -5,9 +5,9 @@
   "level": "N2",
   "exercises": [
     {
-      "id": "n2_082_10",
-      "example_sentence": "その絵風は、既存の流派の模倣っぽい感じがする。",
-      "translation": "While hearing artwork explanations, young students showed interest.",
+      "id": "n2_082_1",
+      "example_sentence": "その絵は既存の流派の模倣＿感じがする。",
+      "translation": "That painting feels like it's somewhat imitating existing art schools.",
       "blank_target": "っぽい",
       "wrong_choices": [
         "がち",
@@ -15,73 +15,153 @@
         "らしい"
       ],
       "wrong_choice_explanations": [
-        "がち means 'がち', which is used in different context, but this sentence requires っぽい ('っぽい') for its specific context.",
-        "気味 means '気味', which is used in different context, but this sentence requires っぽい ('っぽい') for its specific context.",
-        "らしい means 'らしい', which is used in different context, but this sentence requires っぽい ('っぽい') for its specific context."
+        "がち means 'tending to' but is used with verbs to indicate habitual tendencies, not to describe the quality or appearance of something like this painting.",
+        "気味 means 'somewhat/slightly' but is typically used with negative emotions or unpleasant states, not for describing artistic styles or imitation.",
+        "らしい means 'seems like/typical of' but expresses hearsay or typical characteristics, not the subjective impression of resemblance that っぽい conveys."
+      ]
+    },
+    {
+      "id": "n2_082_2",
+      "example_sentence": "この文章は素人＿感じがする。",
+      "translation": "This text gives a somewhat amateur-like feeling.",
+      "blank_target": "っぽい",
+      "wrong_choices": [
+        "的",
+        "気味",
+        "らしい"
+      ],
+      "wrong_choice_explanations": [
+        "的 means 'like/typical of' but is more formal and doesn't carry the colloquial, slightly negative nuance that っぽい has when describing amateurish quality.",
+        "気味 means 'somewhat/slightly' but is mainly used with negative emotional states or physical conditions, not for describing writing style or skill level.",
+        "らしい means 'seems like/typical of' but indicates hearsay or expected characteristics, not the subjective impression of quality that っぽい expresses."
+      ]
+    },
+    {
+      "id": "n2_082_3",
+      "example_sentence": "彼の発言は陰謀論＿と思った。",
+      "translation": "I thought his remarks were somewhat conspiracy theory-like.",
+      "blank_target": "っぽい",
+      "wrong_choices": [
+        "みたい",
+        "がち",
+        "的"
+      ],
+      "wrong_choice_explanations": [
+        "みたい means 'like/similar to' but is more neutral and doesn't convey the colloquial, slightly dismissive tone that っぽい has when criticizing someone's ideas.",
+        "がち means 'tending to' but is used with verbs to describe habitual behavior, not to characterize the nature of someone's statements or ideas.",
+        "的 means 'like/typical of' but is more formal and academic, lacking the colloquial, somewhat negative nuance that っぽい carries in casual criticism."
+      ]
+    },
+    {
+      "id": "n2_082_4",
+      "example_sentence": "この店の料理は家庭的＿味がする。",
+      "translation": "This restaurant's food has a somewhat home-cooking-like taste.",
+      "blank_target": "っぽい",
+      "wrong_choices": [
+        "な",
+        "らしい",
+        "気味"
+      ],
+      "wrong_choice_explanations": [
+        "な is used to make 家庭的 into an adjective (家庭的な), but this creates a more definitive statement rather than the tentative, subjective impression that っぽい expresses.",
+        "らしい means 'seems like/typical of' but indicates hearsay or expected characteristics, not the personal, subjective taste impression that っぽい conveys.",
+        "気味 means 'somewhat/slightly' but is typically used with negative states or conditions, not for describing positive qualities like home-cooking taste."
+      ]
+    },
+    {
+      "id": "n2_082_5",
+      "example_sentence": "その分析は既存理論の焼き直し＿気がする。",
+      "translation": "That analysis feels like it's somewhat a rehash of existing theories.",
+      "blank_target": "っぽい",
+      "wrong_choices": [
+        "的",
+        "みたい",
+        "らしい"
+      ],
+      "wrong_choice_explanations": [
+        "的 means 'like/typical of' but is more formal and doesn't capture the colloquial, slightly critical tone that っぽい has when describing unoriginal work.",
+        "みたい means 'like/similar to' but is more neutral and doesn't convey the subjective, somewhat dismissive impression that っぽい expresses about this analysis.",
+        "らしい means 'seems like/typical of' but indicates hearsay or expected characteristics, not the personal judgment about originality that っぽい conveys."
       ]
     },
     {
       "id": "n2_082_6",
-      "example_sentence": "この文章は、素人っぽい感じがする。",
-      "translation": "This text gives a somewhat amateur-like feeling.",
-      "blank_target": "っぽい",
+      "example_sentence": "彼女の話し方は関西弁＿聞こえる。",
+      "translation": "Her way of speaking sounds somewhat Kansai dialect-like.",
+      "blank_target": "っぽく",
       "wrong_choices": [
-        "がち",
-        "気味",
-        "らしい"
+        "らしく",
+        "がちに",
+        "気味に"
       ],
       "wrong_choice_explanations": [
-        "'がち' has a different grammatical function or nuance than '〜っぽい'.",
-        "'気味' has a different grammatical function or nuance than '〜っぽい'.",
-        "'らしい' has a different grammatical function or nuance than '〜っぽい'."
+        "らしく means 'like/in a typical manner' but expresses expected characteristics or hearsay, not the subjective impression of resemblance that っぽく conveys.",
+        "がちに means 'tending to' but is used with verbs to describe habitual actions, not to modify how something sounds or appears to the speaker.",
+        "気味に is not a standard grammatical form - 気味 doesn't take に to modify verbs in this way, unlike っぽく which naturally modifies 聞こえる."
       ]
     },
     {
       "id": "n2_082_7",
-      "example_sentence": "彼の発言は、陰謀論っぽい感じがする。",
-      "translation": "The colors appear as if they were born from nature.",
+      "example_sentence": "その映画は昔の作品の真似＿感じだった。",
+      "translation": "That movie felt like it was somewhat imitating older works.",
       "blank_target": "っぽい",
       "wrong_choices": [
-        "がち",
-        "気味",
-        "らしい"
+        "風",
+        "的",
+        "がち"
       ],
       "wrong_choice_explanations": [
-        "がち does not convey the meaning of 〜っぽい required in this context: tending to be / somewhat / somewhat resembling (colloquial, often negative).",
-        "気味 does not convey the meaning of 〜っぽい required in this context: tending to be / somewhat / somewhat resembling (colloquial, often negative).",
-        "らしい does not convey the meaning of 〜っぽい required in this context: tending to be / somewhat / somewhat resembling (colloquial, often negative)."
+        "風 means 'style/manner' but describes a more established or intentional style, not the subjective impression of imitation that っぽい conveys.",
+        "的 means 'like/typical of' but is more formal and doesn't carry the colloquial, slightly negative connotation that っぽい has when describing derivative work.",
+        "がち means 'tending to' but is used with verbs to describe habitual tendencies, not to characterize the overall impression or quality of a movie."
       ]
     },
     {
       "id": "n2_082_8",
-      "example_sentence": "彼の企画案は、フリンジ的っぽい感じがする。",
-      "translation": "His proposal feels somewhat fringe-like in concept.",
+      "example_sentence": "この曲は90年代＿メロディーが印象的だ。",
+      "translation": "This song has a melody that's impressively 90s-like.",
       "blank_target": "っぽい",
       "wrong_choices": [
-        "がち",
-        "気味",
+        "風の",
+        "的な",
         "らしい"
       ],
       "wrong_choice_explanations": [
-        "While がち is a valid grammar pattern, it doesn't convey the same meaning as 〜っぽい and doesn't fit this sentence context.",
-        "While 気味 is a valid grammar pattern, it doesn't convey the same meaning as 〜っぽい and doesn't fit this sentence context.",
-        "While らしい is a valid grammar pattern, it doesn't convey the same meaning as 〜っぽい and doesn't fit this sentence context."
+        "風の means 'in the style of' but suggests a more deliberate or established style choice, not the casual resemblance that っぽい expresses.",
+        "的な means 'like/typical of' but is more formal and academic, lacking the colloquial, subjective quality that っぽい has when describing musical resemblance.",
+        "らしい means 'seems like/typical of' but indicates expected characteristics or hearsay, not the personal impression of era-specific musical qualities that っぽい conveys."
       ]
     },
     {
       "id": "n2_082_9",
-      "example_sentence": "その分析手法は、既存の理論の焼き直しっぽい感じがする。",
-      "translation": "While receiving questions from students, the professor had a thoughtful expression.",
+      "example_sentence": "彼の服装はいつも学生＿格好をしている。",
+      "translation": "His clothing always looks somewhat student-like.",
       "blank_target": "っぽい",
       "wrong_choices": [
-        "がち",
-        "気味",
-        "らしい"
+        "らしい",
+        "みたいな",
+        "風の"
       ],
       "wrong_choice_explanations": [
-        "'がち' is 'がち', but this context requires '〜っぽい' to indicate tending to be.",
-        "'気味' is '気味', but this context requires '〜っぽい' to indicate tending to be.",
-        "'らしい' is 'らしい', but this context requires '〜っぽい' to indicate tending to be."
+        "らしい means 'seems like/typical of' but expresses expected characteristics, not the subjective impression about someone's appearance that っぽい conveys.",
+        "みたいな means 'like/similar to' but is more neutral and doesn't carry the colloquial, slightly informal tone that っぽい has when describing someone's style.",
+        "風の means 'in the style of' but suggests a more intentional or established fashion choice, not the casual resemblance that っぽい expresses."
+      ]
+    },
+    {
+      "id": "n2_082_10",
+      "example_sentence": "今日の彼は子供＿行動ばかりしている。",
+      "translation": "Today he keeps acting in a somewhat childish way.",
+      "blank_target": "っぽい",
+      "wrong_choices": [
+        "じみた",
+        "がちな",
+        "的な"
+      ],
+      "wrong_choice_explanations": [
+        "じみた means 'somewhat like' but has a more negative, disparaging tone and is typically used for undesirable qualities, while っぽい is more casual and neutral in this context.",
+        "がちな is not standard usage - がち typically follows verb stems to indicate tendencies, not adjective stems to modify nouns like 行動.",
+        "的な means 'like/typical of' but is more formal and clinical, lacking the colloquial, slightly critical tone that っぽい has when describing someone's behavior."
       ]
     }
   ]

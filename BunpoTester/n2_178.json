@@ -15,9 +15,9 @@
         "において"
       ],
       "wrong_choice_explanations": [
-        "This pattern does not convey the same meaning as '〜面で' (in terms of / on the side of (an aspect or dimension)) needed in this context.",
-        "This pattern does not convey the same meaning as '〜面で' (in terms of / on the side of (an aspect or dimension)) needed in this context.",
-        "means 'in' or 'at' (formal context), which is already the correct answer in other exercises but wrong here"
+        "〜点で means 'from the point of' and focuses on specific points rather than broad aspects like 〜面で does.",
+        "〜からいうと means 'speaking from the standpoint of' and emphasizes the speaker's perspective, not the aspect itself.",
+        "〜において is formal and means 'in/at', but lacks the specific nuance of discussing aspects or dimensions."
       ]
     },
     {
@@ -26,30 +26,30 @@
       "translation": "In terms of society, major changes are occurring.",
       "blank_target": "面で",
       "wrong_choices": [
-        "点で",
-        "からいうと",
-        "において"
+        "的に",
+        "に関して",
+        "という点で"
       ],
       "wrong_choice_explanations": [
-        "点で has a different grammatical function and doesn't fit the context of this sentence where 面で is required.",
-        "からいうと has a different grammatical function and doesn't fit the context of this sentence where 面で is required.",
-        "において has a different grammatical function and doesn't fit the context of this sentence where 面で is required."
+        "〜的に makes an adverb meaning 'in a ~ manner', but doesn't express the aspect dimension that 〜面で conveys.",
+        "〜に関して means 'concerning/regarding' and is broader, not specifically about aspects or dimensions.",
+        "〜という点で means 'in the point that' and focuses on specific characteristics rather than broad aspects."
       ]
     },
     {
       "id": "n2_178_3",
       "example_sentence": "技術面で、ライバル企業に遅れている。",
-      "translation": "Technically, we are behind rival companies.",
+      "translation": "In terms of technology, we are behind rival companies.",
       "blank_target": "面で",
       "wrong_choices": [
-        "点で",
-        "からいうと",
-        "において"
+        "上で",
+        "について",
+        "の観点から"
       ],
       "wrong_choice_explanations": [
-        "点で indicates location of action or means/method, but 〜面で has a specific meaning, which is what this sentence requires.",
-        "からいうと speaking from the standpoint of, but 〜面で is needed to express the specific meaning required in this sentence.",
-        "is formal and contextual like the target, but the specific nuance differs from what this sentence needs."
+        "〜上で means 'in the process of' or 'from the standpoint of' but emphasizes conditions rather than aspects.",
+        "〜について means 'about/concerning' and is used for topics of discussion, not aspects or dimensions.",
+        "〜の観点から means 'from the viewpoint of' and emphasizes perspective rather than the aspect itself."
       ]
     },
     {
@@ -58,14 +58,14 @@
       "translation": "In terms of personnel, recruitment is becoming difficult.",
       "blank_target": "面で",
       "wrong_choices": [
-        "点で",
-        "からいうと",
-        "において"
+        "にとって",
+        "として",
+        "の分野で"
       ],
       "wrong_choice_explanations": [
-        "点で has a different grammatical function that doesn't fit this sentence context.",
-        "からいうと has a different grammatical function that doesn't fit this sentence context.",
-        "において has a different grammatical function that doesn't fit this sentence context."
+        "〜にとって means 'for/to someone' and indicates who is affected, not which aspect is being discussed.",
+        "〜として means 'as' and indicates role or capacity, not the aspect being considered.",
+        "〜の分野で means 'in the field of' and focuses on professional areas rather than aspects or dimensions."
       ]
     },
     {
@@ -74,14 +74,94 @@
       "translation": "In terms of environment, countermeasures are urgent.",
       "blank_target": "面で",
       "wrong_choices": [
-        "点で",
-        "からいうと",
-        "において"
+        "問題で",
+        "のことで",
+        "側面で"
       ],
       "wrong_choice_explanations": [
-        "〜点で is more specific; doesn't convey broader aspect.",
-        "〜からいうと emphasizes speaker; doesn't convey aspect.",
-        "〜において is contextual; doesn't mean aspect."
+        "〜問題で would mean 'due to ~ problem' which changes the meaning and grammatical structure of the sentence.",
+        "〜のことで means 'about the matter of' and is used for specific issues, not broad aspects or dimensions.",
+        "〜側面で means 'on the side of' but is less commonly used and doesn't flow as naturally as 〜面で in this context."
+      ]
+    },
+    {
+      "id": "n2_178_6",
+      "example_sentence": "安全面で、改善が必要だ。",
+      "translation": "In terms of safety, improvements are necessary.",
+      "blank_target": "面で",
+      "wrong_choices": [
+        "の件で",
+        "に対して",
+        "場面で"
+      ],
+      "wrong_choice_explanations": [
+        "〜の件で means 'regarding the matter of' and is used for specific cases or incidents, not aspects.",
+        "〜に対して means 'toward/against' and indicates direction or target, not the aspect being discussed.",
+        "〜場面で means 'in the situation of' and refers to specific scenarios, not broad aspects or dimensions."
+      ]
+    },
+    {
+      "id": "n2_178_7",
+      "example_sentence": "健康面で、注意が必要です。",
+      "translation": "In terms of health, caution is necessary.",
+      "blank_target": "面で",
+      "wrong_choices": [
+        "関連で",
+        "方面で",
+        "のため"
+      ],
+      "wrong_choice_explanations": [
+        "〜関連で means 'in connection with' and emphasizes relationships rather than aspects or dimensions.",
+        "〜方面で means 'in the direction of' and refers to geographical or organizational directions, not aspects.",
+        "〜のため means 'for the sake of' and indicates purpose or reason, not the aspect being discussed."
+      ]
+    },
+    {
+      "id": "n2_178_8",
+      "example_sentence": "コスト面で、削減が求められている。",
+      "translation": "In terms of cost, reduction is being demanded.",
+      "blank_target": "面で",
+      "wrong_choices": [
+        "部分で",
+        "方向で",
+        "なので"
+      ],
+      "wrong_choice_explanations": [
+        "〜部分で means 'in the part of' and refers to physical or specific portions, not aspects or dimensions.",
+        "〜方向で means 'in the direction of' and indicates directional movement, not aspects being considered.",
+        "〜なので means 'because of' and indicates reason or cause, completely changing the sentence structure."
+      ]
+    },
+    {
+      "id": "n2_178_9",
+      "example_sentence": "品質面で、競合他社に負けていない。",
+      "translation": "In terms of quality, we are not losing to competitors.",
+      "blank_target": "面で",
+      "wrong_choices": [
+        "に比べて",
+        "という面で",
+        "のせいで"
+      ],
+      "wrong_choice_explanations": [
+        "〜に比べて means 'compared to' and is used for direct comparisons, not for discussing aspects or dimensions.",
+        "〜という面で would be redundant as it means 'in the aspect of' but is unnecessarily wordy compared to 〜面で.",
+        "〜のせいで means 'because of/due to' and indicates blame or cause, completely changing the meaning."
+      ]
+    },
+    {
+      "id": "n2_178_10",
+      "example_sentence": "教育面で、地域格差が問題となっている。",
+      "translation": "In terms of education, regional disparities are becoming a problem.",
+      "blank_target": "面で",
+      "wrong_choices": [
+        "領域で",
+        "関係で",
+        "のもとで"
+      ],
+      "wrong_choice_explanations": [
+        "〜領域で means 'in the domain of' and refers to territories or fields, but lacks the aspect nuance of 〜面で.",
+        "〜関係で means 'in relation to' and emphasizes connections or relationships rather than aspects or dimensions.",
+        "〜のもとで means 'under the influence/guidance of' and indicates control or supervision, not aspects being discussed."
       ]
     }
   ]

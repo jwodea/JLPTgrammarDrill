@@ -15,25 +15,9 @@
         "を中心に"
       ],
       "wrong_choice_explanations": [
-        "This pattern does not convey the same meaning as '〜をはじめ' (starting with / including (listing representative examples)) needed in this context.",
-        "means 'etc.' or 'such as' (casual listing), less formal than the required pattern",
-        "This pattern does not convey the same meaning as '〜をはじめ' (starting with / including (listing representative examples)) needed in this context."
-      ]
-    },
-    {
-      "id": "n2_004_10",
-      "example_sentence": "ピカソをはじめ、多くの巨匠の作品が展示されている。",
-      "translation": "Works by Picasso and many other masters are displayed.",
-      "blank_target": "をはじめ",
-      "wrong_choices": [
-        "をはじめとして",
-        "など",
-        "を中心に"
-      ],
-      "wrong_choice_explanations": [
-        "をはじめとして means 'starting with / including (more exhaustive listing)', which is used in listing multiple items comprehensively, but this sentence requires をはじめ ('starting with / beginning with (one example first)') for listing with one representative item first.",
-        "など means 'and so on / and others (casual listing)', which is used in informal examples, but this sentence requires をはじめ ('starting with / beginning with (one example first)') for listing with one representative item first.",
-        "を中心に means 'centered on / focused on', which is used in emphasizing the main/focal point, but this sentence requires をはじめ ('starting with / beginning with (one example first)') for listing with one representative item first."
+        "をはじめとして is a longer, more formal variant meaning 'starting with, including', but をはじめ is more natural and concise in this sentence structure.",
+        "など means 'and so on' for casual listing, but this sentence requires をはじめ to emphasize Tokyo as a representative starting example.",
+        "を中心に means 'centered on/around' and indicates focus, but this sentence needs をはじめ to list examples starting with Tokyo."
       ]
     },
     {
@@ -43,13 +27,13 @@
       "blank_target": "をはじめ",
       "wrong_choices": [
         "をはじめとして",
-        "など",
-        "を中心に"
+        "から",
+        "とともに"
       ],
       "wrong_choice_explanations": [
-        "をはじめとして is longer and adds redundancy; をはじめ alone provides the needed meaning.",
-        "など means 'etc.' and loosely lists examples, but をはじめ specifically highlights the first item as representative.",
-        "を中心に means 'centered on' suggesting a focal point, not listing representative examples starting with the first."
+        "をはじめとして is redundantly formal and unnecessary when をはじめ alone conveys the needed meaning of listing examples starting with English.",
+        "から means 'from' indicating a starting point in time or space, but this sentence needs をはじめ to list language examples with English as representative.",
+        "とともに means 'together with' indicating simultaneous action, but this sentence needs をはじめ to show English as the first in a list of languages."
       ]
     },
     {
@@ -58,30 +42,30 @@
       "translation": "Starting with the leader, everyone agreed.",
       "blank_target": "をはじめ",
       "wrong_choices": [
+        "をふくめて",
         "をはじめとして",
-        "など",
-        "を中心に"
+        "さえ"
       ],
       "wrong_choice_explanations": [
-        "をはじめとして means as / in the capacity of, but 〜をはじめ specifically emphasizes a representative starting point, which をはじめとして cannot convey.",
-        "means 'and so on'; doesn't provide the 'starting with' emphasis this sentence requires.",
-        "を中心に means centered on / around, but 〜をはじめ specifically emphasizes a representative starting point, which を中心に cannot convey."
+        "をふくめて means 'including' for encompassing items, but this sentence needs をはじめ to highlight the leader as the first example of agreement.",
+        "をはじめとして is grammatically possible but unnecessarily formal compared to をはじめ in this straightforward sentence about group agreement.",
+        "さえ means 'even' for emphasis on unexpected items, but this sentence needs をはじめ to show the leader as a representative starting point."
       ]
     },
     {
       "id": "n2_004_4",
       "example_sentence": "イタリア料理をはじめ、様々な国の料理が味わえる。",
-      "translation": "Various international cuisines can be enjoyed, beginning with Italian.",
+      "translation": "Various international cuisines can be enjoyed, starting with Italian cuisine.",
       "blank_target": "をはじめ",
       "wrong_choices": [
-        "をはじめとして",
         "など",
+        "や",
         "を中心に"
       ],
       "wrong_choice_explanations": [
-        "をはじめとして has a different grammatical function that doesn't fit this sentence context.",
-        "など has a different grammatical function that doesn't fit this sentence context.",
-        "を中心に has a different grammatical function that doesn't fit this sentence context."
+        "など means 'and so on' for casual enumeration, but this sentence needs をはじめ to emphasize Italian cuisine as a representative first example.",
+        "や means 'and' for simple listing, but this sentence requires をはじめ to show Italian cuisine as the starting point among various cuisines.",
+        "を中心に means 'centered on' indicating focus, but this sentence needs をはじめ to list cuisines with Italian as a representative example."
       ]
     },
     {
@@ -90,14 +74,14 @@
       "translation": "We are focusing on science subjects, starting with chemistry.",
       "blank_target": "をはじめ",
       "wrong_choices": [
-        "をはじめとして",
+        "を中心に",
         "など",
-        "を中心に"
+        "にかけて"
       ],
       "wrong_choice_explanations": [
-        "〜をはじめとして is overly verbose; を単体のはじめ is sufficient.",
-        "〜など is casual; doesn't convey the leading/starting sense.",
-        "〜を中心に means 'centered on'; doesn't list representative examples."
+        "を中心に means 'centered on' indicating main focus, but this sentence needs をはじめ to list science subjects with chemistry as the first example.",
+        "など means 'and so on' for informal listing, but this sentence requires をはじめ to emphasize chemistry as a representative starting point.",
+        "にかけて means 'from...to' indicating range or period, but this sentence needs をはじめ to show chemistry as the first in a list of science subjects."
       ]
     },
     {
@@ -106,62 +90,78 @@
       "translation": "Starting with France, economic crises are deepening throughout Europe.",
       "blank_target": "をはじめ",
       "wrong_choices": [
-        "をはじめとして",
+        "を皮切りに",
         "など",
-        "を中心に"
+        "をふくめて"
       ],
       "wrong_choice_explanations": [
-        "'をはじめとして' is grammatically complete on its own and cannot be used before listing other items.",
-        "'など' is a general classifier but lacks the 'starting with' emphasis that 'をはじめ' provides.",
-        "'を中心に' means 'centered on' and doesn't convey the 'including/and others like' meaning."
+        "を皮切りに means 'starting with' for beginning a series of actions, but this sentence needs をはじめ to list countries with France as a representative example.",
+        "など means 'and so on' for casual enumeration, but this sentence requires をはじめ to emphasize France as the first example of European countries.",
+        "をふくめて means 'including' for encompassing items, but this sentence needs をはじめ to show France as a representative starting point."
       ]
     },
     {
       "id": "n2_004_7",
       "example_sentence": "イギリスをはじめ、ヨーロッパの主要国は協定に調印した。",
-      "translation": "Countries including Britain have signed the agreement.",
+      "translation": "Starting with Britain, major European countries signed the agreement.",
       "blank_target": "をはじめ",
       "wrong_choices": [
+        "をふくめて",
         "をはじめとして",
-        "など",
-        "を中心に"
+        "や"
       ],
       "wrong_choice_explanations": [
-        "をはじめとして does not convey the same grammatical meaning as 〜をはじめ in this context.",
-        "など is a vague listing marker but doesn't specify that the first item is representative or exemplary of others.",
-        "を中心に does not convey the same grammatical meaning as 〜をはじめ in this context."
+        "をふくめて means 'including' for encompassing all items, but this sentence needs をはじめ to highlight Britain as the representative first example.",
+        "をはじめとして is grammatically correct but unnecessarily verbose compared to をはじめ in this context about countries signing an agreement.",
+        "や means 'and' for simple listing, but this sentence requires をはじめ to emphasize Britain as the starting point among major countries."
       ]
     },
     {
       "id": "n2_004_8",
       "example_sentence": "シンガポールをはじめ、アジアの経済成長は著しい。",
-      "translation": "Growth in Asian economies, starting with Singapore, is remarkable.",
+      "translation": "Asian economic growth, starting with Singapore, is remarkable.",
       "blank_target": "をはじめ",
       "wrong_choices": [
-        "をはじめとして",
+        "を先頭に",
         "など",
         "を中心に"
       ],
       "wrong_choice_explanations": [
-        "をはじめとして means 'starting with, including'; creates different nuance than をはじめ alone; it doesn't fit this sentence context where 〜をはじめ is needed.",
-        "など means 'and so on'; less formal than をはじめ for emphasizing a starting example; it doesn't fit this sentence context where 〜をはじめ is needed.",
-        "を中心に means 'centered on'; emphasizes the main point, not the starting example; it doesn't fit this sentence context where 〜をはじめ is needed."
+        "を先頭に means 'at the head of/leading' for physical or hierarchical leadership, but this sentence needs をはじめ to list Asian countries with Singapore as a representative example.",
+        "など means 'and so on' for informal enumeration, but this sentence requires をはじめ to emphasize Singapore as the first example of Asian economic growth.",
+        "を中心に means 'centered on' indicating main focus, but this sentence needs をはじめ to show Singapore as a representative starting point among Asian countries."
       ]
     },
     {
       "id": "n2_004_9",
       "example_sentence": "ノーベル賞受賞者をはじめ、著名な学者が参加した。",
-      "translation": "Nobel laureates and many famous scholars participated.",
+      "translation": "Starting with Nobel laureates, famous scholars participated.",
       "blank_target": "をはじめ",
       "wrong_choices": [
-        "をはじめとして",
-        "など",
-        "を中心に"
+        "をふくめて",
+        "から",
+        "をはじめとして"
       ],
       "wrong_choice_explanations": [
-        "'をはじめとして' means 'starting with', more formal than をはじめ, but this context requires '〜をはじめ' to indicate starting with.",
-        "'など' means 'et cetera', for casual listing, but this context requires '〜をはじめ' to indicate starting with.",
-        "'を中心に' means 'centered on', for focus/concentration, but this context requires '〜をはじめ' to indicate starting with."
+        "をふくめて means 'including' for encompassing all members, but this sentence needs をはじめ to highlight Nobel laureates as the representative first example.",
+        "から means 'from' indicating starting point in sequence, but this sentence requires をはじめ to list scholars with Nobel laureates as the prominent example.",
+        "をはじめとして is grammatically possible but unnecessarily formal compared to をはじめ in this sentence about scholar participation."
+      ]
+    },
+    {
+      "id": "n2_004_10",
+      "example_sentence": "ピカソをはじめ、多くの巨匠の作品が展示されている。",
+      "translation": "Works by many masters, starting with Picasso, are displayed.",
+      "blank_target": "をはじめ",
+      "wrong_choices": [
+        "など",
+        "や",
+        "を代表として"
+      ],
+      "wrong_choice_explanations": [
+        "など means 'and so on' for casual listing, but this sentence needs をはじめ to emphasize Picasso as the representative first example among masters.",
+        "や means 'and' for simple enumeration, but this sentence requires をはじめ to show Picasso as the starting point in listing masters.",
+        "を代表として means 'as a representative of' indicating symbolic representation, but this sentence needs をはじめ to list artists with Picasso as the first example."
       ]
     }
   ]

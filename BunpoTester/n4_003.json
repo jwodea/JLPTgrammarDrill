@@ -9,7 +9,11 @@
       "example_sentence": "週末は本を読ん＿＿、映画を見たりします。",
       "translation": "On weekends I do things like reading books and watching movies.",
       "blank_target": "だり",
-      "wrong_choices": ["で", "た", "ながら"],
+      "wrong_choices": [
+        "で",
+        "た",
+        "ながら"
+      ],
       "wrong_choice_explanations": [
         "で connects actions sequentially; たり lists activities non-exhaustively.",
         "た is plain past tense; it ends a clause rather than listing activities.",
@@ -21,7 +25,11 @@
       "example_sentence": "休みの日は掃除し＿＿、洗濯したりします。",
       "translation": "On days off I do things like cleaning and laundry.",
       "blank_target": "たり",
-      "wrong_choices": ["て", "た", "ながら"],
+      "wrong_choices": [
+        "て",
+        "た",
+        "ながら"
+      ],
       "wrong_choice_explanations": [
         "て connects actions in sequence but doesn't suggest a non-exhaustive list.",
         "た is past tense ending; it doesn't create the listing pattern.",
@@ -33,7 +41,11 @@
       "example_sentence": "旅行では写真を撮っ＿＿、おいしいものを食べたりしました。",
       "translation": "On the trip I did things like taking photos and eating delicious food.",
       "blank_target": "たり",
-      "wrong_choices": ["て", "た", "ながら"],
+      "wrong_choices": [
+        "て",
+        "た",
+        "ながら"
+      ],
       "wrong_choice_explanations": [
         "て connects sequentially; たり implies there were other activities too.",
         "た ends the clause in past tense without the listing function.",
@@ -45,11 +57,15 @@
       "example_sentence": "子供たちは走っ＿＿、遊んだりしています。",
       "translation": "The children are doing things like running and playing.",
       "blank_target": "たり",
-      "wrong_choices": ["て", "た", "ながら"],
+      "wrong_choices": [
+        "て",
+        "た",
+        "から"
+      ],
       "wrong_choice_explanations": [
         "て connects actions but doesn't convey a non-exhaustive list.",
         "た is past tense and doesn't create the listing pattern.",
-        "ながら means 'while doing', implying two actions at once."
+        "から means 'from/since/because'; doesn't create the listing pattern needed here."
       ]
     },
     {
@@ -57,11 +73,15 @@
       "example_sentence": "夏休みは泳い＿＿、バーベキューをしたりしました。",
       "translation": "During summer break I did things like swimming and having barbecues.",
       "blank_target": "だり",
-      "wrong_choices": ["で", "だ", "ながら"],
+      "wrong_choices": [
+        "で",
+        "だ",
+        "ても"
+      ],
       "wrong_choice_explanations": [
         "で connects actions; たり/だり creates a sample list of activities.",
         "だ is the plain copula; it doesn't form the listing pattern.",
-        "ながら means 'while'; simultaneous actions, not listing."
+        "ても means 'even if'; expresses contrast, not listing activities."
       ]
     },
     {
@@ -69,7 +89,11 @@
       "example_sentence": "天気が良かっ＿＿、悪かったりします。",
       "translation": "The weather is sometimes good and sometimes bad.",
       "blank_target": "たり",
-      "wrong_choices": ["て", "た", "ので"],
+      "wrong_choices": [
+        "て",
+        "た",
+        "ので"
+      ],
       "wrong_choice_explanations": [
         "て connects but doesn't express alternation or listing.",
         "た is past tense; doesn't create the alternating pattern.",
@@ -78,26 +102,34 @@
     },
     {
       "id": "n4_003_7",
-      "example_sentence": "日曜日は音楽を聞い＿＿、料理をしたりします。",
-      "translation": "On Sundays I do things like listening to music and cooking.",
+      "example_sentence": "図書館では勉強し＿＿、本を借りたりします。",
+      "translation": "At the library I do things like studying and borrowing books.",
       "blank_target": "たり",
-      "wrong_choices": ["て", "た", "ながら"],
+      "wrong_choices": [
+        "て",
+        "た",
+        "つつ"
+      ],
       "wrong_choice_explanations": [
         "て connects actions sequentially, not as a sample list.",
         "た is past tense; doesn't form the listing pattern.",
-        "ながら indicates simultaneous actions, not a list."
+        "つつ means 'while' and is literary; indicates ongoing simultaneous actions."
       ]
     },
     {
       "id": "n4_003_8",
-      "example_sentence": "彼は笑っ＿＿、泣いたりします。",
-      "translation": "He does things like laughing and crying.",
+      "example_sentence": "その映画は面白かっ＿＿、つまらなかったりします。",
+      "translation": "That movie is sometimes interesting and sometimes boring.",
       "blank_target": "たり",
-      "wrong_choices": ["て", "た", "ながら"],
+      "wrong_choices": [
+        "て",
+        "た",
+        "けど"
+      ],
       "wrong_choice_explanations": [
         "て connects but doesn't suggest a non-exhaustive alternating list.",
         "た ends the clause in past tense without listing.",
-        "ながら means 'while'; implies doing both at once."
+        "けど means 'but'; shows simple contrast, not the alternating pattern of たり."
       ]
     },
     {
@@ -105,11 +137,15 @@
       "example_sentence": "パーティーで歌を歌っ＿＿、踊ったりしました。",
       "translation": "At the party we did things like singing and dancing.",
       "blank_target": "たり",
-      "wrong_choices": ["て", "た", "ながら"],
+      "wrong_choices": [
+        "て",
+        "た",
+        "ては"
+      ],
       "wrong_choice_explanations": [
         "て connects sequentially but doesn't list activities non-exhaustively.",
         "た is past tense ending without the listing function.",
-        "ながら means 'while'; implies simultaneous actions."
+        "ては means 'if you do'; creates a conditional, not a list of activities."
       ]
     },
     {
@@ -117,11 +153,15 @@
       "example_sentence": "電車の中ではスマホを見＿＿、寝たりします。",
       "translation": "On the train I do things like looking at my phone and sleeping.",
       "blank_target": "たり",
-      "wrong_choices": ["て", "た", "ながら"],
+      "wrong_choices": [
+        "て",
+        "た",
+        "とき"
+      ],
       "wrong_choice_explanations": [
         "て connects actions in sequence, not as a sample list.",
         "た is past tense; doesn't create the listing pattern.",
-        "ながら means 'while doing'; implies simultaneity."
+        "とき means 'when/time when'; indicates timing, not listing of activities."
       ]
     }
   ]

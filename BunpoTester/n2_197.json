@@ -15,9 +15,9 @@
         "に当たって"
       ],
       "wrong_choice_explanations": [
-        "This pattern does not convey the same meaning as '〜に先立って' (prior to / before / ahead of (something important)) needed in this context.",
-        "This pattern does not convey the same meaning as '〜に先立って' (prior to / before / ahead of (something important)) needed in this context.",
-        "This pattern does not convey the same meaning as '〜に先立って' (prior to / before / ahead of (something important)) needed in this context."
+        "の前に is more casual and doesn't convey the formal precedence that に先立って expresses for important events like ceremonies.",
+        "に際して means 'at the time of/on the occasion of' but doesn't express the preparatory action done beforehand as に先立って does.",
+        "に当たって means 'when facing/confronting' something but lacks the temporal precedence meaning needed in this context."
       ]
     },
     {
@@ -26,14 +26,14 @@
       "translation": "Prior to the performance, rehearsal was conducted.",
       "blank_target": "に先立って",
       "wrong_choices": [
-        "の前に",
-        "に際して",
-        "に当たって"
+        "を前にして",
+        "に向けて",
+        "に備えて"
       ],
       "wrong_choice_explanations": [
-        "の前に has a different grammatical function and doesn't fit the context of this sentence where に先立って is required.",
-        "に際して has a different grammatical function and doesn't fit the context of this sentence where に先立って is required.",
-        "に当たって has a different grammatical function and doesn't fit the context of this sentence where に先立って is required."
+        "を前にして means 'facing/in front of' and emphasizes being confronted by something rather than temporal precedence.",
+        "に向けて means 'toward/heading for' and expresses direction or preparation but not the formal precedence of に先立って.",
+        "に備えて means 'in preparation for' but focuses on preparing rather than the formal temporal sequence expressed by に先立って."
       ]
     },
     {
@@ -42,30 +42,30 @@
       "translation": "Prior to the announcement, materials were distributed.",
       "blank_target": "に先立って",
       "wrong_choices": [
-        "の前に",
-        "に際して",
-        "に当たって"
+        "に関して",
+        "について",
+        "に対して"
       ],
       "wrong_choice_explanations": [
-        "の前に has a different grammatical function, but 〜に先立って is needed to express the specific meaning required in this sentence.",
-        "に際して indicates the occasion of, but 〜に先立って is needed to express the specific meaning required in this sentence.",
-        "に当たって has a different grammatical function, but 〜に先立って is needed to express the specific meaning required in this sentence."
+        "に関して means 'regarding/concerning' and indicates topic rather than temporal precedence as required here.",
+        "について also means 'about/concerning' and indicates subject matter, not the temporal sequence needed in this context.",
+        "に対して means 'toward/against' and expresses direction or opposition, not the preparatory timing expressed by に先立って."
       ]
     },
     {
       "id": "n2_197_4",
-      "example_sentence": "出発に先立って、安全確認が行われた。",
-      "translation": "Prior to departure, safety confirmation was conducted.",
+      "example_sentence": "会議に先立って、議題の確認が行われた。",
+      "translation": "Prior to the meeting, the agenda was confirmed.",
       "blank_target": "に先立って",
       "wrong_choices": [
-        "の前に",
-        "に際して",
-        "に当たって"
+        "にあたり",
+        "を機に",
+        "をきっかけに"
       ],
       "wrong_choice_explanations": [
-        "の前に has a different grammatical function that doesn't fit this sentence context.",
-        "に際して has a different grammatical function that doesn't fit this sentence context.",
-        "に当たって has a different grammatical function that doesn't fit this sentence context."
+        "にあたり means 'on the occasion of' but emphasizes the moment of occurrence rather than the preparatory actions beforehand.",
+        "を機に means 'taking the opportunity of' and suggests using an event as a chance, not the formal precedence of に先立って.",
+        "をきっかけに means 'triggered by' and indicates causation, not the temporal precedence required in this context."
       ]
     },
     {
@@ -74,14 +74,94 @@
       "translation": "Prior to surgery, a detailed explanation was provided.",
       "blank_target": "に先立って",
       "wrong_choices": [
-        "の前に",
-        "に際して",
-        "に当たって"
+        "の最中に",
+        "の後で",
+        "と同時に"
       ],
       "wrong_choice_explanations": [
-        "の前に is casual; doesn't convey formal precedence.",
-        "〜に際して means 'at the time of'; doesn't convey precedence.",
-        "〜に当たって is similar but different nuance."
+        "の最中に means 'in the middle of' and indicates something happening during the surgery, not before it.",
+        "の後で means 'after' and expresses the opposite temporal relationship from what に先立って conveys.",
+        "と同時に means 'at the same time as' and indicates simultaneous action, not the precedence expressed by に先立って."
+      ]
+    },
+    {
+      "id": "n2_197_6",
+      "example_sentence": "開店に先立って、従業員の研修が行われた。",
+      "translation": "Prior to opening, employee training was conducted.",
+      "blank_target": "に先立って",
+      "wrong_choices": [
+        "にかけて",
+        "にわたって",
+        "を通じて"
+      ],
+      "wrong_choice_explanations": [
+        "にかけて means 'toward/leading up to' and expresses a period extending toward something, not the formal precedence of に先立って.",
+        "にわたって means 'over/throughout' and indicates duration or span, not the preparatory timing needed here.",
+        "を通じて means 'through/throughout' and expresses means or duration, not the temporal precedence required in this context."
+      ]
+    },
+    {
+      "id": "n2_197_7",
+      "example_sentence": "新製品の発売に先立って、市場調査が実施された。",
+      "translation": "Prior to the new product launch, market research was conducted.",
+      "blank_target": "に先立って",
+      "wrong_choices": [
+        "に関連して",
+        "に基づいて",
+        "に依存して"
+      ],
+      "wrong_choice_explanations": [
+        "に関連して means 'in relation to' and indicates connection rather than temporal precedence as expressed by に先立って.",
+        "に基づいて means 'based on' and indicates foundation or basis, not the preparatory timing required here.",
+        "に依存して means 'depending on' and expresses dependency, not the formal precedence conveyed by に先立って."
+      ]
+    },
+    {
+      "id": "n2_197_8",
+      "example_sentence": "卒業式に先立って、会場の装飾が完成した。",
+      "translation": "Prior to the graduation ceremony, the venue decoration was completed.",
+      "blank_target": "に先立って",
+      "wrong_choices": [
+        "に続いて",
+        "に従って",
+        "に沿って"
+      ],
+      "wrong_choice_explanations": [
+        "に続いて means 'following' and expresses sequence after something, opposite to the precedence of に先立って.",
+        "に従って means 'according to/following' and indicates compliance or sequence, not the preparatory precedence needed here.",
+        "に沿って means 'along/following' and expresses alignment or following a path, not the temporal precedence required."
+      ]
+    },
+    {
+      "id": "n2_197_9",
+      "example_sentence": "総会に先立って、財務報告書が配布された。",
+      "translation": "Prior to the general meeting, financial reports were distributed.",
+      "blank_target": "に先立って",
+      "wrong_choices": [
+        "のおかげで",
+        "のせいで",
+        "によって"
+      ],
+      "wrong_choice_explanations": [
+        "のおかげで means 'thanks to' and expresses gratitude or positive causation, not the temporal precedence of に先立って.",
+        "のせいで means 'because of/due to (negative)' and indicates blame or negative causation, not preparatory timing.",
+        "によって means 'by means of' and expresses method or agent, not the formal precedence required in this context."
+      ]
+    },
+    {
+      "id": "n2_197_10",
+      "example_sentence": "競技会に先立って、選手の健康チェックが義務付けられた。",
+      "translation": "Prior to the competition, athlete health checks were mandated.",
+      "blank_target": "に先立って",
+      "wrong_choices": [
+        "のうちに",
+        "の間に",
+        "の途中で"
+      ],
+      "wrong_choice_explanations": [
+        "のうちに means 'within/while' and indicates action within a time period, not the preparatory precedence of に先立って.",
+        "の間に means 'during/between' and expresses action within a timeframe, not the formal precedence needed here.",
+        "の途中で means 'in the middle of' and indicates interruption during an event, not the preparatory timing required."
       ]
     }
   ]

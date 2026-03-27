@@ -9,7 +9,11 @@
       "example_sentence": "ここで写真を撮っ＿＿。",
       "translation": "You may take photos here.",
       "blank_target": "てもいいです",
-      "wrong_choices": ["てはいけません", "てください", "ています"],
+      "wrong_choices": [
+        "てはいけません",
+        "てください",
+        "ています"
+      ],
       "wrong_choice_explanations": [
         "てはいけません means 'must not'; the opposite of permission.",
         "てください is a request ('please do'), not granting permission.",
@@ -21,7 +25,11 @@
       "example_sentence": "この本を借り＿＿。",
       "translation": "May I borrow this book?",
       "blank_target": "てもいいですか",
-      "wrong_choices": ["てはいけません", "てください", "たいです"],
+      "wrong_choices": [
+        "てはいけません",
+        "てください",
+        "たいです"
+      ],
       "wrong_choice_explanations": [
         "てはいけません means 'must not'; it's a prohibition, not a question.",
         "てください is a request, not asking for permission.",
@@ -30,38 +38,50 @@
     },
     {
       "id": "n4_001_3",
-      "example_sentence": "窓を開け＿＿。",
-      "translation": "It's okay to open the window.",
+      "example_sentence": "宿題をしなく＿＿。",
+      "translation": "It's okay not to do homework.",
       "blank_target": "てもいいです",
-      "wrong_choices": ["てはいけません", "なくてもいいです", "てください"],
+      "wrong_choices": [
+        "てはいけません",
+        "ちゃいけません",
+        "てはいけません"
+      ],
       "wrong_choice_explanations": [
-        "てはいけません means 'must not open'; the opposite meaning.",
-        "なくてもいいです means 'you don't have to open'; different meaning.",
-        "てください means 'please open'; a request, not permission."
+        "てはいけません would mean 'must not not do', which is grammatically awkward and wrong.",
+        "ちゃいけません means 'must not'; it prohibits not doing homework, meaning you must do it.",
+        "てはいけません would mean 'must not not do', which is grammatically awkward and wrong."
       ]
     },
     {
       "id": "n4_001_4",
-      "example_sentence": "明日休ん＿＿。",
-      "translation": "May I take the day off tomorrow?",
+      "example_sentence": "明日学校を休ん＿＿。",
+      "translation": "May I be absent from school tomorrow?",
       "blank_target": "でもいいですか",
-      "wrong_choices": ["ではいけません", "でください", "でいます"],
+      "wrong_choices": [
+        "ではいけません",
+        "だことがあります",
+        "でしょう"
+      ],
       "wrong_choice_explanations": [
         "ではいけません prohibits the action; not asking permission.",
-        "でください is not grammatically correct for this verb form.",
-        "でいます expresses ongoing state, not permission."
+        "だことがあります means 'have been absent before'; expresses experience, not permission.",
+        "でしょう expresses probability ('probably will be absent'), not asking permission."
       ]
     },
     {
       "id": "n4_001_5",
-      "example_sentence": "ここに座っ＿＿。",
-      "translation": "You may sit here.",
-      "blank_target": "てもいいです",
-      "wrong_choices": ["てはいけません", "てください", "ています"],
+      "example_sentence": "お先に失礼し＿＿。",
+      "translation": "May I excuse myself first?",
+      "blank_target": "てもいいですか",
+      "wrong_choices": [
+        "てはいけません",
+        "てみます",
+        "てあります"
+      ],
       "wrong_choice_explanations": [
-        "てはいけません means 'must not sit'; a prohibition.",
-        "てください means 'please sit'; a request, not permission.",
-        "ています describes an ongoing state of sitting."
+        "てはいけません means 'must not leave'; a prohibition.",
+        "てみます means 'try to excuse myself'; expressing attempt, not permission.",
+        "てあります describes a state resulting from an action, not asking permission."
       ]
     },
     {
@@ -69,11 +89,15 @@
       "example_sentence": "エアコンをつけ＿＿。",
       "translation": "May I turn on the air conditioning?",
       "blank_target": "てもいいですか",
-      "wrong_choices": ["てはいけません", "てください", "たいです"],
+      "wrong_choices": [
+        "てはいけません",
+        "てください",
+        "てしまいます"
+      ],
       "wrong_choice_explanations": [
         "てはいけません means 'must not turn on'; opposite of permission.",
         "てください is 'please turn on'; a request, not a permission question.",
-        "たいです means 'I want to'; expressing desire, not asking permission."
+        "てしまいます means 'will end up turning on'; expresses completion or regret, not asking permission."
       ]
     },
     {
@@ -81,47 +105,63 @@
       "example_sentence": "辞書を使っ＿＿。",
       "translation": "It's okay to use a dictionary.",
       "blank_target": "てもいいです",
-      "wrong_choices": ["てはいけません", "てください", "ています"],
+      "wrong_choices": [
+        "てはいけません",
+        "てあげます",
+        "てきます"
+      ],
       "wrong_choice_explanations": [
         "てはいけません means 'must not use'; a prohibition.",
-        "てください means 'please use'; a polite request.",
-        "ています means 'is using'; describes an ongoing action."
+        "てあげます means 'use (a dictionary) for someone'; giving a favor, not permission.",
+        "てきます means 'go and use'; indicates movement away, not permission."
       ]
     },
     {
       "id": "n4_001_8",
-      "example_sentence": "先に帰っ＿＿。",
-      "translation": "May I go home first?",
+      "example_sentence": "質問があるんですが、聞い＿＿。",
+      "translation": "I have a question - may I ask it?",
       "blank_target": "てもいいですか",
-      "wrong_choices": ["てはいけません", "てください", "たいです"],
+      "wrong_choices": [
+        "てはいけません",
+        "てくれます",
+        "ておきます"
+      ],
       "wrong_choice_explanations": [
-        "てはいけません means 'must not go home'; a prohibition.",
-        "てください means 'please go home'; a request, not asking permission.",
-        "たいです means 'I want to go home'; desire, not permission."
+        "てはいけません means 'must not ask'; a prohibition.",
+        "てくれます means 'ask for me'; receiving a favor, not asking permission.",
+        "ておきます means 'ask in advance'; preparation, not asking permission."
       ]
     },
     {
       "id": "n4_001_9",
-      "example_sentence": "ペンで書い＿＿。",
-      "translation": "It's okay to write with a pen.",
-      "blank_target": "てもいいです",
-      "wrong_choices": ["てはいけません", "てください", "ています"],
+      "example_sentence": "コーヒーを飲ん＿＿。",
+      "translation": "It's okay to drink coffee.",
+      "blank_target": "でもいいです",
+      "wrong_choices": [
+        "ではいけません",
+        "でいたいです",
+        "でいます"
+      ],
       "wrong_choice_explanations": [
-        "てはいけません means 'must not write with a pen'; prohibition.",
-        "てください means 'please write'; a request.",
-        "ています means 'is writing'; an ongoing action."
+        "ではいけません means 'must not drink'; prohibition.",
+        "でいたいです means 'want to be in the state of having drunk'; expresses desire for a state, not permission.",
+        "でいます expresses ongoing state after completing an action, not permission."
       ]
     },
     {
       "id": "n4_001_10",
-      "example_sentence": "電話を使っ＿＿。",
-      "translation": "May I use the phone?",
+      "example_sentence": "早く帰っ＿＿。",
+      "translation": "May I go home early?",
       "blank_target": "てもいいですか",
-      "wrong_choices": ["てはいけません", "てください", "たいです"],
+      "wrong_choices": [
+        "てはいけません",
+        "てもらいます",
+        "てみたいです"
+      ],
       "wrong_choice_explanations": [
-        "てはいけません means 'must not use'; prohibition.",
-        "てください means 'please use'; request, not permission question.",
-        "たいです expresses a wish, not a request for permission."
+        "てはいけません means 'must not go home'; prohibition.",
+        "てもらいます means 'receive the favor of going home'; receiving help, not asking permission.",
+        "てみたいです means 'want to try going home'; expresses desire to try, not asking permission."
       ]
     }
   ]

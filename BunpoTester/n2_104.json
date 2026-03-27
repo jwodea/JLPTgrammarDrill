@@ -15,73 +15,153 @@
         "に限らず"
       ],
       "wrong_choice_explanations": [
-        "This pattern does not convey the same meaning as '〜をはじめ（として）' (starting with / including (naming the most representative example)) needed in this context.",
-        "means 'etc.' or 'such as' (casual listing), less formal than the required pattern",
-        "This pattern does not convey the same meaning as '〜をはじめ（として）' (starting with / including (naming the most representative example)) needed in this context."
+        "を中心に means 'centered on' but doesn't convey the listing of representative examples that をはじめ provides",
+        "など means 'etc.' or 'such as' but is more casual and doesn't emphasize the leading representative like をはじめ",
+        "に限らず means 'not limited to' which has the opposite meaning of starting with a specific representative example"
       ]
     },
     {
       "id": "n2_104_2",
-      "example_sentence": "教授をはじめ、専門家が意見を述べた。",
-      "translation": "Starting with the professor, experts gave their opinions.",
-      "blank_target": "をはじめ",
+      "example_sentence": "教授をはじめとして、多くの専門家が意見を述べた。",
+      "translation": "Starting with the professor, many experts gave their opinions.",
+      "blank_target": "をはじめとして",
       "wrong_choices": [
-        "を中心に",
-        "など",
-        "に限らず"
+        "を含めて",
+        "ばかりでなく",
+        "に関して"
       ],
       "wrong_choice_explanations": [
-        "を中心に has a different grammatical function and doesn't fit the context of this sentence where をはじめ（として） is required.",
-        "など has a different grammatical function and doesn't fit the context of this sentence where をはじめ（として） is required.",
-        "に限らず has a different grammatical function and doesn't fit the context of this sentence where をはじめ（として） is required."
+        "を含めて means 'including' but doesn't emphasize the representative leading example like をはじめとして",
+        "ばかりでなく means 'not only' but requires a following だけでなく structure, not suitable here",
+        "に関して means 'regarding/about' which changes the sentence meaning entirely"
       ]
     },
     {
       "id": "n2_104_3",
-      "example_sentence": "日本をはじめ、アジア各国が参加した。",
-      "translation": "Starting with Japan, Asian countries participated.",
+      "example_sentence": "日本をはじめ、アジア各国が経済協定に参加した。",
+      "translation": "Starting with Japan, Asian countries participated in the economic agreement.",
       "blank_target": "をはじめ",
       "wrong_choices": [
-        "を中心に",
-        "など",
-        "に限らず"
+        "をもとに",
+        "において",
+        "に対して"
       ],
       "wrong_choice_explanations": [
-        "を中心に means centered on / around, but 〜をはじめ（として） specifically emphasizes a representative starting point, which を中心に cannot convey.",
-        "means 'and so on'; doesn't provide the 'starting with' emphasis this sentence requires.",
-        "に限らず not limited to / not only, but 〜をはじめ（として） is needed to express the specific meaning required in this sentence."
+        "をもとに means 'based on' which doesn't fit the context of listing participating countries",
+        "において means 'in/at' (location/situation) which is grammatically incorrect in this sentence structure",
+        "に対して means 'toward/against' which doesn't make sense when listing participating countries"
       ]
     },
     {
       "id": "n2_104_4",
-      "example_sentence": "マネージャーをはじめ、チーム全体が協力した。",
-      "translation": "Starting with the manager, the entire team cooperated.",
+      "example_sentence": "マネージャーをはじめ、チーム全体が新プロジェクトに協力した。",
+      "translation": "Starting with the manager, the entire team cooperated on the new project.",
       "blank_target": "をはじめ",
       "wrong_choices": [
-        "を中心に",
-        "など",
-        "に限らず"
+        "によって",
+        "に沿って",
+        "をもって"
       ],
       "wrong_choice_explanations": [
-        "を中心に has a different grammatical function that doesn't fit this sentence context.",
-        "など has a different grammatical function that doesn't fit this sentence context.",
-        "に限らず has a different grammatical function that doesn't fit this sentence context."
+        "によって means 'by means of' or 'due to' which doesn't fit the listing context of をはじめ",
+        "に沿って means 'along/following' which doesn't work for listing team members",
+        "をもって means 'with/by means of' which is grammatically incorrect in this sentence structure"
       ]
     },
     {
       "id": "n2_104_5",
-      "example_sentence": "大手企業をはじめ、多くの企業が応募した。",
-      "translation": "Starting with major companies, many companies applied.",
-      "blank_target": "をはじめ",
+      "example_sentence": "大手企業をはじめとして、多くの会社が環境対策に取り組んでいる。",
+      "translation": "Starting with major companies, many companies are working on environmental measures.",
+      "blank_target": "をはじめとして",
       "wrong_choices": [
-        "を中心に",
-        "など",
-        "に限らず"
+        "を通じて",
+        "に関わらず",
+        "に加えて"
       ],
       "wrong_choice_explanations": [
-        "〜を中心に means 'centered on'; doesn't list leading examples.",
-        "〜など is casual marker; less formal than をはじめ.",
-        "〜に限らず means 'not limited to'; different meaning."
+        "を通じて means 'through/via' which doesn't fit the context of listing representative examples",
+        "に関わらず means 'regardless of' which has the opposite meaning of highlighting representative examples",
+        "に加えて means 'in addition to' but doesn't convey the representative leading example emphasis of をはじめとして"
+      ]
+    },
+    {
+      "id": "n2_104_6",
+      "example_sentence": "東京をはじめ、日本全国で桜祭りが開催される。",
+      "translation": "Starting with Tokyo, cherry blossom festivals are held throughout Japan.",
+      "blank_target": "をはじめ",
+      "wrong_choices": [
+        "を除いて",
+        "に応じて",
+        "に比べて"
+      ],
+      "wrong_choice_explanations": [
+        "を除いて means 'except for' which is the opposite of including Tokyo as a representative example",
+        "に応じて means 'according to/depending on' which doesn't fit the context of listing locations",
+        "に比べて means 'compared to' which changes the meaning to comparison rather than listing examples"
+      ]
+    },
+    {
+      "id": "n2_104_7",
+      "example_sentence": "医師をはじめとして、看護師や薬剤師も研修を受けた。",
+      "translation": "Starting with doctors, nurses and pharmacists also received training.",
+      "blank_target": "をはじめとして",
+      "wrong_choices": [
+        "に反して",
+        "に基づいて",
+        "について"
+      ],
+      "wrong_choice_explanations": [
+        "に反して means 'contrary to' which doesn't fit the context of listing medical professionals",
+        "に基づいて means 'based on' which doesn't work for listing people who received training",
+        "について means 'about/regarding' which would require a different sentence structure"
+      ]
+    },
+    {
+      "id": "n2_104_8",
+      "example_sentence": "フランス料理をはじめ、様々な国の料理を習った。",
+      "translation": "Starting with French cuisine, I learned various countries' cuisines.",
+      "blank_target": "をはじめ",
+      "wrong_choices": [
+        "に向けて",
+        "を通して",
+        "に従って"
+      ],
+      "wrong_choice_explanations": [
+        "に向けて means 'toward/for' which doesn't fit the context of listing types of cuisine learned",
+        "を通して means 'through' which would change the meaning to learning through French cuisine",
+        "に従って means 'according to/following' which doesn't make sense when listing cuisines studied"
+      ]
+    },
+    {
+      "id": "n2_104_9",
+      "example_sentence": "社長をはじめ、役員全員が新方針に賛成した。",
+      "translation": "Starting with the company president, all executives agreed to the new policy.",
+      "blank_target": "をはじめ",
+      "wrong_choices": [
+        "にとって",
+        "に際して",
+        "に関する"
+      ],
+      "wrong_choice_explanations": [
+        "にとって means 'for/to' (from someone's perspective) which doesn't fit the listing context",
+        "に際して means 'on the occasion of' which doesn't work for listing people who agreed",
+        "に関する means 'concerning/about' which would require a completely different sentence structure"
+      ]
+    },
+    {
+      "id": "n2_104_10",
+      "example_sentence": "中国をはじめとして、アジア諸国との貿易が拡大している。",
+      "translation": "Starting with China, trade with Asian countries is expanding.",
+      "blank_target": "をはじめとして",
+      "wrong_choices": [
+        "に先立って",
+        "をめぐって",
+        "に渡って"
+      ],
+      "wrong_choice_explanations": [
+        "に先立って means 'prior to' which implies time sequence, not listing representative examples",
+        "をめぐって means 'concerning/around (an issue)' which doesn't fit the context of listing trading partners",
+        "に渡って means 'over/across (time/space)' which doesn't work for listing countries in trade relationships"
       ]
     }
   ]

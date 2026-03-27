@@ -12,12 +12,12 @@
       "wrong_choices": [
         "に至るまで",
         "になっては",
-        "にきては"
+        "におよんでは"
       ],
       "wrong_choice_explanations": [
-        "This pattern does not convey the same meaning as '〜に至って（は）' (by the time it has come to this / at this point (when a situation has reached an extreme)) needed in this context.",
-        "This pattern does not convey the same meaning as '〜に至って（は）' (by the time it has come to this / at this point (when a situation has reached an extreme)) needed in this context.",
-        "This pattern does not convey the same meaning as '〜に至って（は）' (by the time it has come to this / at this point (when a situation has reached an extreme)) needed in this context."
+        "に至るまで means 'up until the point of' and emphasizes process/range, but doesn't convey the critical turning point meaning needed here.",
+        "になっては is too weak and doesn't express the gravity of a situation reaching an extreme point like に至っては does.",
+        "におよんでは means 'when it comes to' but lacks the nuance of a situation deteriorating to a critical point."
       ]
     },
     {
@@ -26,14 +26,14 @@
       "translation": "Now that the situation has reached this stage, it is too late.",
       "blank_target": "に至っては",
       "wrong_choices": [
-        "に至るまで",
-        "になっては",
-        "にきては"
+        "になると",
+        "にしては",
+        "に対しては"
       ],
       "wrong_choice_explanations": [
-        "に至るまで has a different grammatical function and doesn't fit the context of this sentence where に至って（は） is required.",
-        "になっては has a different grammatical function and doesn't fit the context of this sentence where に至って（は） is required.",
-        "にきては has a different grammatical function and doesn't fit the context of this sentence where に至って（は） is required."
+        "になると simply indicates a condition or time, without the emphasis on reaching a critical/extreme point that に至っては provides.",
+        "にしては means 'for/considering' and is used for comparisons, not for expressing that a situation has reached a critical stage.",
+        "に対しては means 'toward/regarding' and indicates direction or attitude, not the culmination of a deteriorating situation."
       ]
     },
     {
@@ -42,14 +42,14 @@
       "translation": "Now that the problem has become this serious, fundamental reform is needed.",
       "blank_target": "に至っては",
       "wrong_choices": [
-        "に至るまで",
-        "になっては",
-        "にきては"
+        "になってからは",
+        "となっては",
+        "にかけては"
       ],
       "wrong_choice_explanations": [
-        "に至るまで indicates location of action or means/method, but 〜に至って（は） has a specific meaning, which is what this sentence requires.",
-        "になっては has a different grammatical function, but 〜に至って（は） is needed to express the specific meaning required in this sentence.",
-        "にきては has a different grammatical function, but 〜に至って（は） is needed to express the specific meaning required in this sentence."
+        "になってからは means 'after becoming' and focuses on what happens after a change, not on reaching a critical turning point.",
+        "となっては means 'when it becomes' but lacks the weight and finality that に至っては carries for extreme situations.",
+        "にかけては means 'when it comes to' and is used for expertise or specific areas, not for situations reaching critical points."
       ]
     },
     {
@@ -58,14 +58,14 @@
       "translation": "Now that the conflict has reached this point, third-party mediation is necessary.",
       "blank_target": "に至っては",
       "wrong_choices": [
-        "に至るまで",
-        "になっては",
-        "にきては"
+        "にきては",
+        "については",
+        "にあっては"
       ],
       "wrong_choice_explanations": [
-        "に至るまで has a different grammatical function that doesn't fit this sentence context.",
-        "になっては has a different grammatical function that doesn't fit this sentence context.",
-        "にきては has a different grammatical function that doesn't fit this sentence context."
+        "にきては is not a standard grammar pattern and would sound unnatural in formal contexts like this.",
+        "については means 'regarding/about' and is used to introduce topics, not to express reaching a critical situation.",
+        "にあっては means 'in the case of' and indicates circumstances, but doesn't convey the sense of a situation deteriorating to a breaking point."
       ]
     },
     {
@@ -75,13 +75,93 @@
       "blank_target": "に至っては",
       "wrong_choices": [
         "に至るまで",
-        "になっては",
-        "にきては"
+        "においては",
+        "に関しては"
       ],
       "wrong_choice_explanations": [
-        "〜に至るまで emphasizes range; doesn't convey critical point.",
-        "〜になっては is less emphatic; doesn't convey extreme.",
-        "〜にきては is not standard form."
+        "に至るまで emphasizes the process leading up to a point but doesn't convey that the situation has reached a critical threshold requiring action.",
+        "においては means 'in/at' and indicates location or circumstances, but lacks the sense of urgency and extremity that に至っては provides.",
+        "に関しては means 'regarding/concerning' and is used to introduce topics, not to express that a situation has deteriorated to a critical point."
+      ]
+    },
+    {
+      "id": "n2_193_6",
+      "example_sentence": "病状がここまで悪化に至っては、手術しかない。",
+      "translation": "Now that the condition has deteriorated to this extent, surgery is the only option.",
+      "blank_target": "に至っては",
+      "wrong_choices": [
+        "になっては",
+        "としては",
+        "のことには"
+      ],
+      "wrong_choice_explanations": [
+        "になっては is too neutral and doesn't capture the severity of a medical condition reaching a critical stage like に至っては does.",
+        "としては means 'as/in the capacity of' and is used for roles or positions, not for describing deteriorating situations.",
+        "のことには is not a proper grammar pattern and would make the sentence grammatically incorrect."
+      ]
+    },
+    {
+      "id": "n2_193_7",
+      "example_sentence": "借金がここに至っては、自己破産を考えなければならない。",
+      "translation": "Now that the debt has reached this point, I must consider bankruptcy.",
+      "blank_target": "に至っては",
+      "wrong_choices": [
+        "になると",
+        "をもって",
+        "にして"
+      ],
+      "wrong_choice_explanations": [
+        "になると indicates a simple condition or timing but doesn't emphasize the gravity of reaching a financial crisis point.",
+        "をもって means 'with/by means of' and indicates method or timing, not the culmination of a worsening financial situation.",
+        "にして means 'at/in' for age or status, or 'and yet' for contrast, neither of which fits this context of reaching a debt crisis."
+      ]
+    },
+    {
+      "id": "n2_193_8",
+      "example_sentence": "汚染がここまでひどい状態に至っては、住民の避難が急務だ。",
+      "translation": "Now that the pollution has reached such a terrible state, evacuating residents is urgent.",
+      "blank_target": "に至っては",
+      "wrong_choices": [
+        "となると",
+        "にしても",
+        "であっても"
+      ],
+      "wrong_choice_explanations": [
+        "となると means 'when it comes to' or 'if it becomes' but lacks the emphasis on reaching a critical environmental threshold.",
+        "にしても means 'even if' and is used for concessions, not for expressing that pollution has reached a dangerous level.",
+        "であっても means 'even if' and indicates concession, which doesn't fit the context of pollution reaching a crisis point."
+      ]
+    },
+    {
+      "id": "n2_193_9",
+      "example_sentence": "経営状況がここに至っては、会社の売却を検討せざるを得ない。",
+      "translation": "Now that the business situation has reached this point, we have no choice but to consider selling the company.",
+      "blank_target": "に至っては",
+      "wrong_choices": [
+        "になったら",
+        "といっては",
+        "にしたら"
+      ],
+      "wrong_choice_explanations": [
+        "になったら is a simple conditional meaning 'if/when it becomes' but doesn't convey the weight of a business crisis reaching a breaking point.",
+        "といっては means 'speaking of' or 'when you say' and is used to introduce topics or make clarifications, not describe critical situations.",
+        "にしたら means 'from the perspective of' and indicates viewpoint, not the deterioration of a business to a critical state."
+      ]
+    },
+    {
+      "id": "n2_193_10",
+      "example_sentence": "試験の結果がこの段階に至っては、浪人も覚悟しなければならない。",
+      "translation": "Now that my exam results have reached this stage, I must prepare myself for becoming a ronin student.",
+      "blank_target": "に至っては",
+      "wrong_choices": [
+        "になれば",
+        "としたら",
+        "ならば"
+      ],
+      "wrong_choice_explanations": [
+        "になれば is a simple conditional meaning 'if it becomes' but doesn't emphasize that exam results have reached a critical, disappointing point.",
+        "としたら means 'if we assume/suppose' and is used for hypothetical situations, not for describing exam results that have actually reached a poor state.",
+        "ならば is a formal conditional meaning 'if' but lacks the nuance of academic performance deteriorating to a point requiring drastic measures."
       ]
     }
   ]

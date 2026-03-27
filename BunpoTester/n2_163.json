@@ -15,9 +15,9 @@
         "のなかで"
       ],
       "wrong_choice_explanations": [
-        "This pattern does not convey the same meaning as '〜のもとで' (under / with (support, guidance, conditions, or authority)) needed in this context.",
-        "means 'in' or 'at' (formal context), which is already the correct answer in other exercises but wrong here",
-        "This pattern does not convey the same meaning as '〜のもとで' (under / with (support, guidance, conditions, or authority)) needed in this context."
+        "のもとに emphasizes direction or receiving authority/guidance, but this sentence describes working under conditions, which requires のもとで.",
+        "において is formal and indicates context or location, but doesn't convey the sense of being 'under' conditions that のもとで expresses.",
+        "のなかで means 'within' or 'among' and indicates being inside something, but doesn't express the authority/condition relationship needed here."
       ]
     },
     {
@@ -27,13 +27,13 @@
       "blank_target": "のもとで",
       "wrong_choices": [
         "のもとに",
-        "において",
+        "によって",
         "のなかで"
       ],
       "wrong_choice_explanations": [
-        "のもとに has a different grammatical function and doesn't fit the context of this sentence where のもとで is required.",
-        "において has a different grammatical function and doesn't fit the context of this sentence where のもとで is required.",
-        "のなかで has a different grammatical function and doesn't fit the context of this sentence where のもとで is required."
+        "のもとに emphasizes receiving guidance or going to someone, but this sentence describes growing under supervision, which requires のもとで.",
+        "によって indicates cause or means, but doesn't convey the ongoing supervision relationship that のもとで expresses.",
+        "のなかで indicates being within something, but doesn't express the authority/supervision relationship needed in this context."
       ]
     },
     {
@@ -42,14 +42,14 @@
       "translation": "Under constraints, we achieved maximum results.",
       "blank_target": "のもとで",
       "wrong_choices": [
-        "のもとに",
+        "について",
         "において",
-        "のなかで"
+        "に対して"
       ],
       "wrong_choice_explanations": [
-        "のもとに under / with (leadership/guidance), but 〜のもとで is needed to express the specific meaning required in this sentence.",
-        "is formal and contextual like the target, but the specific nuance differs from what this sentence needs.",
-        "のなかで indicates location of action or means/method, but 〜のもとで has a specific meaning, which is what this sentence requires."
+        "について means 'about' or 'concerning' and is used for topics, not for expressing working under constraints.",
+        "において indicates formal context or location, but doesn't convey being bound by constraints like のもとで does.",
+        "に対して means 'toward' or 'against' and indicates direction or opposition, not working under limiting conditions."
       ]
     },
     {
@@ -58,14 +58,14 @@
       "translation": "Under difficult circumstances, he made a decision.",
       "blank_target": "のもとで",
       "wrong_choices": [
-        "のもとに",
-        "において",
+        "によって",
+        "を通じて",
         "のなかで"
       ],
       "wrong_choice_explanations": [
-        "のもとに has a different grammatical function that doesn't fit this sentence context.",
-        "において has a different grammatical function that doesn't fit this sentence context.",
-        "のなかで has a different grammatical function that doesn't fit this sentence context."
+        "によって indicates cause or means, but this sentence needs のもとで to express making decisions within/under circumstances.",
+        "を通じて means 'through' or 'via' and indicates a medium or method, not circumstances that influence decisions.",
+        "のなかで means 'within' but doesn't capture the sense of being constrained or influenced by circumstances like のもとで does."
       ]
     },
     {
@@ -75,13 +75,93 @@
       "blank_target": "のもとで",
       "wrong_choices": [
         "のもとに",
-        "において",
-        "のなかで"
+        "に応えて",
+        "のために"
       ],
       "wrong_choice_explanations": [
-        "〜のもとに emphasizes formal authority; doesn't convey conditions.",
-        "〜において indicates context; different from 'under' support.",
-        "〜のなかで means 'within'; doesn't convey authority."
+        "のもとに emphasizes going to receive guidance, but this sentence describes studying while being subject to expectations, requiring のもとで.",
+        "に応えて means 'in response to' and indicates reacting to expectations, but doesn't convey the ongoing pressure/influence that のもとで expresses.",
+        "のために means 'for the sake of' and indicates purpose, but doesn't express being under the influence of expectations like のもとで does."
+      ]
+    },
+    {
+      "id": "n2_163_6",
+      "example_sentence": "経験豊富な先生のもとで、技術を習得した。",
+      "translation": "Under an experienced teacher, I acquired the skills.",
+      "blank_target": "のもとで",
+      "wrong_choices": [
+        "のもとに",
+        "から",
+        "によって"
+      ],
+      "wrong_choice_explanations": [
+        "のもとに would emphasize going to the teacher to receive guidance, but this sentence describes learning under their supervision, requiring のもとで.",
+        "から indicates the source or starting point of learning, but doesn't convey the ongoing guidance relationship that のもとで expresses.",
+        "によって indicates means or cause, but doesn't capture the mentorship relationship under which learning occurs like のもとで does."
+      ]
+    },
+    {
+      "id": "n2_163_7",
+      "example_sentence": "厳格な規則のもとで、工場は運営されている。",
+      "translation": "Under strict regulations, the factory is being operated.",
+      "blank_target": "のもとで",
+      "wrong_choices": [
+        "について",
+        "に従って",
+        "において"
+      ],
+      "wrong_choice_explanations": [
+        "について means 'about' or 'concerning' and is used for topics, not for expressing operation under regulations.",
+        "に従って means 'according to' or 'following' and emphasizes compliance, but doesn't convey being governed by rules like のもとで does.",
+        "において indicates formal context or location, but doesn't express being subject to regulatory authority like のもとで does."
+      ]
+    },
+    {
+      "id": "n2_163_8",
+      "example_sentence": "上司の監督のもとで、プロジェクトを完成させた。",
+      "translation": "Under the supervisor's oversight, we completed the project.",
+      "blank_target": "のもとで",
+      "wrong_choices": [
+        "のもとに",
+        "のおかげで",
+        "を通じて"
+      ],
+      "wrong_choice_explanations": [
+        "のもとに would suggest going to receive supervision, but this sentence describes working under ongoing oversight, requiring のもとで.",
+        "のおかげで means 'thanks to' and expresses gratitude for help, but doesn't convey the authority relationship that のもとで expresses.",
+        "を通じて means 'through' or 'via' and indicates a medium, not the supervisory relationship needed in this context."
+      ]
+    },
+    {
+      "id": "n2_163_9",
+      "example_sentence": "時間の制限のもとで、試験を受けた。",
+      "translation": "Under time constraints, I took the exam.",
+      "blank_target": "のもとで",
+      "wrong_choices": [
+        "のうちに",
+        "において",
+        "によって"
+      ],
+      "wrong_choice_explanations": [
+        "のうちに means 'within' or 'during' and indicates a time period, but doesn't express being constrained by limitations like のもとで does.",
+        "において indicates formal context, but doesn't convey being bound by time restrictions like のもとで does.",
+        "によって indicates cause or means, but doesn't express working under constraining conditions like のもとで does."
+      ]
+    },
+    {
+      "id": "n2_163_10",
+      "example_sentence": "新しい法律のもとで、会社の方針を変更した。",
+      "translation": "Under the new law, the company changed its policies.",
+      "blank_target": "のもとで",
+      "wrong_choices": [
+        "に基づいて",
+        "について",
+        "のせいで"
+      ],
+      "wrong_choice_explanations": [
+        "に基づいて means 'based on' and emphasizes using something as a foundation, but doesn't convey being governed by authority like のもとで does.",
+        "について means 'about' or 'concerning' and is used for topics, not for expressing action under legal authority.",
+        "のせいで means 'because of' with negative connotation and indicates blame, which doesn't fit the neutral authority context here."
       ]
     }
   ]

@@ -1,0 +1,168 @@
+{
+  "id": "gp_026",
+  "pattern": "～ている",
+  "meaning": "Ongoing action / resultant state",
+  "level": "N5",
+  "exercises": [
+    {
+      "id": 1,
+      "example_sentence": "今、テレビを見__います。",
+      "translation": "I am watching TV now.",
+      "blank_target": "て",
+      "wrong_choices": [
+        "た",
+        "ます",
+        "ながら"
+      ],
+      "wrong_choice_explanations": {
+        "た": "た indicates completed past action — it doesn't show the ongoing nature indicated by '今' (now).",
+        "ます": "ます alone indicates simple present/future — it doesn't express the continuous action happening right now.",
+        "ながら": "ながら means 'while doing' — it requires another simultaneous action and doesn't work with います."
+      }
+    },
+    {
+      "id": 2,
+      "example_sentence": "雨が降っ__から、傘を持って行きます。",
+      "translation": "Since it's raining, I'll take an umbrella.",
+      "blank_target": "て",
+      "wrong_choices": [
+        "た",
+        "り",
+        "で"
+      ],
+      "wrong_choice_explanations": {
+        "た": "た indicates past action — it doesn't show the current state of raining that requires an umbrella.",
+        "り": "り is used for listing actions — it doesn't work with います to show ongoing state.",
+        "で": "で is a particle meaning 'at/by' — it cannot function in this verb conjugation context."
+      }
+    },
+    {
+      "id": 3,
+      "example_sentence": "母は台所で料理をし__います。",
+      "translation": "My mother is cooking in the kitchen.",
+      "blank_target": "て",
+      "wrong_choices": [
+        "た",
+        "ます",
+        "よう"
+      ],
+      "wrong_choice_explanations": {
+        "た": "た indicates completed action — it doesn't show the ongoing cooking activity.",
+        "ます": "ます alone indicates simple present/habitual action — it doesn't emphasize the ongoing nature of the cooking.",
+        "よう": "よう indicates volitional/intention — it doesn't work with います to show ongoing action."
+      }
+    },
+    {
+      "id": 4,
+      "example_sentence": "弟はもう寝__います。",
+      "translation": "My younger brother is already sleeping.",
+      "blank_target": "て",
+      "wrong_choices": [
+        "た",
+        "ます",
+        "そう"
+      ],
+      "wrong_choice_explanations": {
+        "た": "た indicates past action — it doesn't show the current state of sleeping indicated by 'もう' (already).",
+        "ます": "ます alone would mean 'sleeps/will sleep' — it doesn't show the current ongoing state of being asleep.",
+        "そう": "そう indicates appearance or hearsay — it doesn't work with います to show ongoing state."
+      }
+    },
+    {
+      "id": 5,
+      "example_sentence": "学生たちは勉強し__います。",
+      "translation": "The students are studying.",
+      "blank_target": "て",
+      "wrong_choices": [
+        "た",
+        "ながら",
+        "ば"
+      ],
+      "wrong_choice_explanations": {
+        "た": "た indicates completed action — it doesn't show the ongoing study activity.",
+        "ながら": "ながら means 'while doing' — it requires another simultaneous action and doesn't work with います.",
+        "ば": "ば is conditional — it doesn't work with います to show ongoing action."
+      }
+    },
+    {
+      "id": 6,
+      "example_sentence": "猫が窓の近くで寝__います。",
+      "translation": "The cat is sleeping near the window.",
+      "blank_target": "て",
+      "wrong_choices": [
+        "た",
+        "ます",
+        "だら"
+      ],
+      "wrong_choice_explanations": {
+        "た": "た indicates past action — it doesn't show the current ongoing state of the cat sleeping.",
+        "ます": "ます alone indicates simple present/future — it doesn't emphasize the continuous state of sleeping.",
+        "だら": "だら is not a proper verb ending — it's grammatically incorrect in this context."
+      }
+    },
+    {
+      "id": 7,
+      "example_sentence": "友達は図書館で本を読ん__います。",
+      "translation": "My friend is reading a book in the library.",
+      "blank_target": "で",
+      "wrong_choices": [
+        "だ",
+        "た",
+        "ながら"
+      ],
+      "wrong_choice_explanations": {
+        "だ": "だ is copula — it doesn't work in this verb conjugation to show ongoing action.",
+        "た": "た indicates completed action — it doesn't show the ongoing reading activity.",
+        "ながら": "ながら means 'while doing' — it requires another simultaneous action and doesn't work with います."
+      }
+    },
+    {
+      "id": 8,
+      "example_sentence": "彼は日本に住ん__います。",
+      "translation": "He lives in Japan.",
+      "blank_target": "で",
+      "wrong_choices": [
+        "だ",
+        "た",
+        "ば"
+      ],
+      "wrong_choice_explanations": {
+        "だ": "だ is copula — it doesn't work in this verb conjugation context.",
+        "た": "た indicates past action — it doesn't show the current ongoing state of living in Japan.",
+        "ば": "ば is conditional — it doesn't work with います to show ongoing state."
+      }
+    },
+    {
+      "id": 9,
+      "example_sentence": "電話がなっ__います。",
+      "translation": "The phone is ringing.",
+      "blank_target": "て",
+      "wrong_choices": [
+        "た",
+        "ます",
+        "り"
+      ],
+      "wrong_choice_explanations": {
+        "た": "た indicates past action — it doesn't show the ongoing ringing sound.",
+        "ます": "ます alone indicates simple present/future — it doesn't emphasize the continuous ringing action.",
+        "り": "り is used for listing actions — it doesn't work with います to show ongoing action."
+      }
+    },
+    {
+      "id": 10,
+      "example_sentence": "鳥が空を飛ん__います。",
+      "translation": "Birds are flying in the sky.",
+      "blank_target": "で",
+      "wrong_choices": [
+        "だ",
+        "た",
+        "そう"
+      ],
+      "wrong_choice_explanations": {
+        "だ": "だ is copula — it doesn't work in this verb conjugation to show ongoing action.",
+        "た": "た indicates completed action — it doesn't show the ongoing flying activity.",
+        "そう": "そう indicates appearance or hearsay — it doesn't work with います to show ongoing action."
+      }
+    }
+  ]
+}

@@ -5,83 +5,163 @@
   "level": "N2",
   "exercises": [
     {
-      "id": "n2_080_10",
-      "example_sentence": "最近、美術への関心低下気味なので展示会に足を運んでみたい。",
-      "translation": "New curators tend to mishandle pieces, so training is necessary.",
+      "id": "n2_080_1",
+      "example_sentence": "最近、疲れ気味なので早めに休むようにしている。",
+      "translation": "Recently, I've been feeling a bit tired, so I'm trying to rest early.",
       "blank_target": "気味",
       "wrong_choices": [
         "がち",
         "っぽい",
-        "ぎみ"
+        "らしい"
       ],
       "wrong_choice_explanations": [
-        "がち means 'がち', which is used in different context, but this sentence requires 気味 ('気味') for its specific context.",
-        "っぽい means 'っぽい', which is used in different context, but this sentence requires 気味 ('気味') for its specific context.",
-        "ぎみ means 'ぎみ', which is used in different context, but this sentence requires 気味 ('気味') for its specific context."
+        "がち means 'tends to' but implies a stronger habitual tendency, not the slight condition that 気味 expresses here.",
+        "っぽい means 'seems like' or '-ish' but doesn't convey the slight negative condition that 気味 indicates.",
+        "らしい means 'seems' or 'apparently' but is used for hearsay or conjecture, not describing one's own slight condition."
+      ]
+    },
+    {
+      "id": "n2_080_2",
+      "example_sentence": "風邪気味なので今日は会議を欠席させてもらいます。",
+      "translation": "I'm feeling a bit under the weather, so I'll excuse myself from today's meeting.",
+      "blank_target": "気味",
+      "wrong_choices": [
+        "だらけ",
+        "ばかり",
+        "みたい"
+      ],
+      "wrong_choice_explanations": [
+        "だらけ means 'full of' or 'covered with' something negative, but doesn't indicate a slight condition like 気味.",
+        "ばかり means 'only' or 'just' but doesn't express the nuance of a developing condition that 気味 conveys.",
+        "みたい means 'like' or 'similar to' but is used for comparisons, not to describe slight symptoms."
+      ]
+    },
+    {
+      "id": "n2_080_3",
+      "example_sentence": "最近、太り気味なのでジムに通い始めた。",
+      "translation": "I've been gaining weight lately, so I started going to the gym.",
+      "blank_target": "気味",
+      "wrong_choices": [
+        "すぎる",
+        "がち",
+        "そう"
+      ],
+      "wrong_choice_explanations": [
+        "すぎる means 'too much' and indicates excess, not the gradual tendency that 気味 expresses.",
+        "がち means 'tends to' but implies a stronger habitual pattern rather than the slight condition 気味 describes.",
+        "そう means 'seems' or 'looks like' but is used for appearance or likelihood, not self-assessment of a slight condition."
+      ]
+    },
+    {
+      "id": "n2_080_4",
+      "example_sentence": "仕事が忙しくて、睡眠不足気味になっている。",
+      "translation": "Work has been busy, and I'm becoming a bit sleep-deprived.",
+      "blank_target": "気味",
+      "wrong_choices": [
+        "ばっかり",
+        "っぽい",
+        "めいた"
+      ],
+      "wrong_choice_explanations": [
+        "ばっかり means 'only' or 'nothing but' and doesn't express the gradual development of a condition like 気味.",
+        "っぽい means 'seems like' or '-ish' but doesn't capture the negative nuance of a developing condition that 気味 conveys.",
+        "めいた means 'having the air of' but is more literary and doesn't fit the context of describing a physical condition."
+      ]
+    },
+    {
+      "id": "n2_080_5",
+      "example_sentence": "ストレス過多で、胃が痛み気味だ。",
+      "translation": "Due to too much stress, my stomach has been aching a bit.",
+      "blank_target": "気味",
+      "wrong_choices": [
+        "っぽい",
+        "らしい",
+        "ようだ"
+      ],
+      "wrong_choice_explanations": [
+        "っぽい means 'seems like' or '-ish' but doesn't express the actual experience of symptoms that 気味 indicates.",
+        "らしい means 'apparently' or 'seems' but is used for information from others, not one's own physical sensations.",
+        "ようだ means 'seems like' but is used for conjecture based on evidence, not for describing one's own condition."
       ]
     },
     {
       "id": "n2_080_6",
-      "example_sentence": "最近、疲れ気味なので早めに休むようにしている。",
-      "translation": "Recently, I have been feeling tired, so I am trying to get rest early.",
+      "example_sentence": "パソコンの調子が悪く、動作が重たく気味だ。",
+      "translation": "My computer isn't working well, and it's running a bit slowly.",
       "blank_target": "気味",
       "wrong_choices": [
         "がち",
-        "っぽい",
-        "ぎみ"
+        "げ",
+        "そう"
       ],
       "wrong_choice_explanations": [
-        "'がち' has a different grammatical function or nuance than '〜気味'.",
-        "'っぽい' has a different grammatical function or nuance than '〜気味'.",
-        "'ぎみ' has a different grammatical function or nuance than '〜気味'."
+        "がち means 'tends to' but implies a habitual tendency rather than the current slight condition that 気味 describes.",
+        "げ means 'seeming' but is typically used with emotion/attitude words, not with performance descriptions like this.",
+        "そう means 'seems' or 'looks like' but indicates appearance from the outside, not the actual performance issue being described."
       ]
     },
     {
       "id": "n2_080_7",
-      "example_sentence": "最近、睡眠不足気味なので健康診断を受けるつもりだ。",
-      "translation": "That painting style seems to be an imitation of existing schools.",
+      "example_sentence": "最近、物忘れが多く、認知症気味かもしれない。",
+      "translation": "I've been forgetting things a lot lately; I might be showing slight signs of dementia.",
       "blank_target": "気味",
       "wrong_choices": [
-        "がち",
+        "みたい",
         "っぽい",
-        "ぎみ"
+        "だらけ"
       ],
       "wrong_choice_explanations": [
-        "がち does not convey the meaning of 〜気味 required in this context: slightly / a little / tending toward (negative nuance, slight condition).",
-        "っぽい does not convey the meaning of 〜気味 required in this context: slightly / a little / tending toward (negative nuance, slight condition).",
-        "ぎみ does not convey the meaning of 〜気味 required in this context: slightly / a little / tending toward (negative nuance, slight condition)."
+        "みたい means 'like' or 'similar to' but is used for comparisons, not for describing potential symptoms.",
+        "っぽい means 'seems like' or '-ish' but doesn't convey the serious concern about a developing condition that 気味 expresses.",
+        "だらけ means 'full of' something negative but doesn't indicate the gradual development of symptoms like 気味."
       ]
     },
     {
       "id": "n2_080_8",
-      "example_sentence": "最近、モチベーション低下気味なのでリフレッシュが必要だ。",
-      "translation": "Recently, my motivation has been declining, so refreshment is needed.",
+      "example_sentence": "エアコンが故障して、部屋が暑く気味になってきた。",
+      "translation": "The air conditioner broke down, and the room is getting a bit hot.",
       "blank_target": "気味",
       "wrong_choices": [
-        "がち",
-        "っぽい",
-        "ぎみ"
+        "すぎる",
+        "そう",
+        "ばかり"
       ],
       "wrong_choice_explanations": [
-        "While がち is a valid grammar pattern, it doesn't convey the same meaning as 〜気味 and doesn't fit this sentence context.",
-        "While っぽい is a valid grammar pattern, it doesn't convey the same meaning as 〜気味 and doesn't fit this sentence context.",
-        "While ぎみ is a valid grammar pattern, it doesn't convey the same meaning as 〜気味 and doesn't fit this sentence context."
+        "すぎる means 'too much' and indicates excess, but 気味 expresses a more gradual, slight change in condition.",
+        "そう means 'seems' or 'looks like' but is used for appearance or prediction, not for describing an actual developing situation.",
+        "ばかり means 'only' or 'just' but doesn't express the gradual change in temperature that 気味 conveys."
       ]
     },
     {
       "id": "n2_080_9",
-      "example_sentence": "最近、研究のモチベーション低下気味なので、休養が必要だ。",
-      "translation": "Young researchers tend to ignore theoretical frameworks, so guidance is needed.",
+      "example_sentence": "会社の業績が悪化気味で、社員みんなが不安になっている。",
+      "translation": "The company's performance is declining slightly, and all employees are becoming anxious.",
       "blank_target": "気味",
       "wrong_choices": [
         "がち",
-        "っぽい",
-        "ぎみ"
+        "ぶり",
+        "めく"
       ],
       "wrong_choice_explanations": [
-        "'がち' is 'がち', but this context requires '〜気味' to indicate slightly.",
-        "'っぽい' is 'っぽい', but this context requires '〜気味' to indicate slightly.",
-        "'ぎみ' is 'ぎみ', but this context requires '〜気味' to indicate slightly."
+        "がち means 'tends to' but implies a habitual tendency, while 気味 describes a current gradual change in the situation.",
+        "ぶり means 'manner' or 'style' but doesn't convey the sense of gradual deterioration that 気味 expresses here.",
+        "めく means 'showing signs of' but is more literary and doesn't fit the business context as naturally as 気味."
+      ]
+    },
+    {
+      "id": "n2_080_10",
+      "example_sentence": "運動不足で、体重が増加気味になっている。",
+      "translation": "Due to lack of exercise, my weight is increasing slightly.",
+      "blank_target": "気味",
+      "wrong_choices": [
+        "ばっかり",
+        "っぽい",
+        "らしい"
+      ],
+      "wrong_choice_explanations": [
+        "ばっかり means 'only' or 'nothing but' and doesn't express the gradual change in weight that 気味 indicates.",
+        "っぽい means 'seems like' or '-ish' but doesn't convey the actual experience of weight gain that 気味 expresses.",
+        "らしい means 'apparently' or 'seems' but is used for hearsay or conjecture, not for describing one's own physical changes."
       ]
     }
   ]

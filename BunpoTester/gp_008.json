@@ -1,0 +1,168 @@
+{
+  "id": "gp_008",
+  "pattern": "～や",
+  "meaning": "And (non-exhaustive list)",
+  "level": "N5",
+  "exercises": [
+    {
+      "id": 1,
+      "example_sentence": "りんご__みかんを買いました。",
+      "translation": "I bought apples, oranges, and other things.",
+      "blank_target": "や",
+      "wrong_choices": [
+        "と",
+        "を",
+        "に"
+      ],
+      "wrong_choice_explanations": {
+        "と": "と connects items in an exhaustive list — it doesn't fit here because や suggests there were other items bought besides apples and oranges.",
+        "を": "を marks direct objects — it doesn't fit here because we need to connect apple with orange.",
+        "に": "に indicates direction or target — it doesn't fit here because we need to list items, not show direction."
+      }
+    },
+    {
+      "id": 2,
+      "example_sentence": "本__雑誌を読みます。",
+      "translation": "I read books, magazines, and such.",
+      "blank_target": "や",
+      "wrong_choices": [
+        "と",
+        "で",
+        "を"
+      ],
+      "wrong_choice_explanations": {
+        "と": "と suggests a complete list — it doesn't fit here because や implies there are other reading materials besides books and magazines.",
+        "で": "で indicates means or location — it doesn't fit here because we need to list types of reading material.",
+        "を": "を marks direct objects — it doesn't fit here because we need to connect book with magazine."
+      }
+    },
+    {
+      "id": 3,
+      "example_sentence": "犬__猫がいます。",
+      "translation": "There are dogs, cats, and other animals.",
+      "blank_target": "や",
+      "wrong_choices": [
+        "と",
+        "が",
+        "に"
+      ],
+      "wrong_choice_explanations": {
+        "と": "と indicates a complete list — it doesn't fit here because や suggests there are other animals besides dogs and cats.",
+        "が": "が marks the subject — it doesn't fit here because we need to connect dog with cat.",
+        "に": "に indicates location — it doesn't fit here because we need to list types of animals."
+      }
+    },
+    {
+      "id": 4,
+      "example_sentence": "ペン__えんぴつが机にあります。",
+      "translation": "There are pens, pencils, and other things on the desk.",
+      "blank_target": "や",
+      "wrong_choices": [
+        "と",
+        "を",
+        "で"
+      ],
+      "wrong_choice_explanations": {
+        "と": "と suggests only pens and pencils are there — it doesn't fit here because や implies there are other items on the desk too.",
+        "を": "を marks direct objects — it doesn't fit here because we need to list items that exist, not objects of an action.",
+        "で": "で indicates means or location — it doesn't fit here because we need to connect pen with pencil."
+      }
+    },
+    {
+      "id": 5,
+      "example_sentence": "野菜__果物を食べましょう。",
+      "translation": "Let's eat vegetables, fruits, and so on.",
+      "blank_target": "や",
+      "wrong_choices": [
+        "と",
+        "を",
+        "に"
+      ],
+      "wrong_choice_explanations": {
+        "と": "と indicates only vegetables and fruits — it doesn't fit here because や suggests eating other healthy foods too.",
+        "を": "を marks direct objects — it doesn't fit here because we need to connect vegetable with fruit.",
+        "に": "に indicates direction or purpose — it doesn't fit here because we need to list food types."
+      }
+    },
+    {
+      "id": 6,
+      "example_sentence": "映画__音楽が好きです。",
+      "translation": "I like movies, music, and other entertainment.",
+      "blank_target": "や",
+      "wrong_choices": [
+        "と",
+        "を",
+        "が"
+      ],
+      "wrong_choice_explanations": {
+        "と": "と suggests liking only movies and music — it doesn't fit here because や implies liking other forms of entertainment too.",
+        "を": "を marks direct objects — it doesn't fit here because we need to connect movie with music as subjects we like.",
+        "が": "が marks the subject — it doesn't fit here because we need to connect movie with music."
+      }
+    },
+    {
+      "id": 7,
+      "example_sentence": "中国__韓国に行きたいです。",
+      "translation": "I want to go to China, Korea, and other places.",
+      "blank_target": "や",
+      "wrong_choices": [
+        "と",
+        "に",
+        "で"
+      ],
+      "wrong_choice_explanations": {
+        "と": "と suggests wanting to go only to China and Korea — it doesn't fit here because や implies interest in visiting other countries too.",
+        "に": "に indicates destination — it doesn't fit here because we need to list countries, and に is already used after Korea.",
+        "で": "で indicates means or location — it doesn't fit here because we need to connect China with Korea."
+      }
+    },
+    {
+      "id": 8,
+      "example_sentence": "パン__ケーキを作ります。",
+      "translation": "I make bread, cakes, and other baked goods.",
+      "blank_target": "や",
+      "wrong_choices": [
+        "と",
+        "を",
+        "で"
+      ],
+      "wrong_choice_explanations": {
+        "と": "と suggests making only bread and cakes — it doesn't fit here because や implies making other baked items too.",
+        "を": "を marks direct objects — it doesn't fit here because we need to connect bread with cake.",
+        "で": "で indicates means — it doesn't fit here because we need to list what we make, not how we make it."
+      }
+    },
+    {
+      "id": 9,
+      "example_sentence": "友達__家族と会います。",
+      "translation": "I meet with friends, family, and others.",
+      "blank_target": "や",
+      "wrong_choices": [
+        "と",
+        "に",
+        "を"
+      ],
+      "wrong_choice_explanations": {
+        "と": "と suggests meeting only friends and family — it doesn't fit here because や implies meeting other people too.",
+        "に": "に indicates direction or target — it doesn't fit here because we need to list who we meet, and と is already used after family.",
+        "を": "を marks direct objects — it doesn't fit here because we need to connect friend with family."
+      }
+    },
+    {
+      "id": 10,
+      "example_sentence": "日本語__英語を勉強しています。",
+      "translation": "I'm studying Japanese, English, and other languages.",
+      "blank_target": "や",
+      "wrong_choices": [
+        "と",
+        "を",
+        "で"
+      ],
+      "wrong_choice_explanations": {
+        "と": "と suggests studying only Japanese and English — it doesn't fit here because や implies studying other languages too.",
+        "を": "を marks direct objects — it doesn't fit here because we need to connect Japanese with English.",
+        "で": "で indicates means — it doesn't fit here because we need to list what languages we study, not how we study them."
+      }
+    }
+  ]
+}

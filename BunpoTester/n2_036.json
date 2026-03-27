@@ -5,9 +5,9 @@
   "level": "N2",
   "exercises": [
     {
-      "id": "n2_036_10",
-      "example_sentence": "フランスに限らず、世界中でそのスタイルは模倣されている。",
-      "translation": "That style is imitated not only in France but worldwide.",
+      "id": "n2_036_1",
+      "example_sentence": "学生に限らず、社会人も参加できるセミナーです。",
+      "translation": "This seminar is open not just to students, but working adults can also participate.",
       "blank_target": "に限らず",
       "wrong_choices": [
         "を問わず",
@@ -15,73 +15,153 @@
         "にとどまらず"
       ],
       "wrong_choice_explanations": [
-        "を問わず means 'を問わず', which is used in different context, but this sentence requires に限らず ('に限らず') for its specific context.",
-        "にかかわらず means 'にかかわらず', which is used in different context, but this sentence requires に限らず ('に限らず') for its specific context.",
-        "にとどまらず means 'にとどまらず', which is used in different context, but this sentence requires に限らず ('に限らず') for its specific context."
+        "を問わず means 'regardless of' and is used with abstract concepts like age or nationality, but this sentence requires に限らず to show extension beyond students.",
+        "にかかわらず means 'regardless of' and indicates that something happens despite conditions, but this sentence needs に限らず to show inclusion beyond the stated group.",
+        "にとどまらず means 'not stopping at' and implies progression, but this sentence requires に限らず to show that participation extends beyond students."
+      ]
+    },
+    {
+      "id": "n2_036_2",
+      "example_sentence": "東京に限らず、地方都市でも人口減少が深刻だ。",
+      "translation": "Not limited to Tokyo, population decline is serious in regional cities as well.",
+      "blank_target": "に限らず",
+      "wrong_choices": [
+        "において",
+        "に関して",
+        "をめぐって"
+      ],
+      "wrong_choice_explanations": [
+        "において means 'in/at' and simply indicates location, but this sentence needs に限らず to show the problem extends beyond Tokyo.",
+        "に関して means 'concerning/about' and introduces a topic, but this sentence requires に限らず to indicate the issue isn't limited to Tokyo.",
+        "をめぐって means 'around/concerning' and indicates disputes or discussions, but this sentence needs に限らず to show the problem affects more than just Tokyo."
+      ]
+    },
+    {
+      "id": "n2_036_3",
+      "example_sentence": "医師に限らず、看護師や薬剤師も重要な役割を果たしている。",
+      "translation": "Not just doctors, but nurses and pharmacists also play important roles.",
+      "blank_target": "に限らず",
+      "wrong_choices": [
+        "だけでなく",
+        "はもちろん",
+        "といえば"
+      ],
+      "wrong_choice_explanations": [
+        "だけでなく means 'not only' but has a different nuance and grammatical structure than に限らず, which specifically emphasizes extension beyond limits.",
+        "はもちろん means 'of course' and assumes the first item is obvious, but に限らず is needed here to show the role extends beyond doctors.",
+        "といえば means 'speaking of' and introduces associations, but this sentence requires に限らず to show importance isn't limited to doctors."
+      ]
+    },
+    {
+      "id": "n2_036_4",
+      "example_sentence": "日本料理に限らず、世界各国の料理を学びたい。",
+      "translation": "I want to learn not just Japanese cuisine, but cooking from countries around the world.",
+      "blank_target": "に限らず",
+      "wrong_choices": [
+        "に加えて",
+        "とともに",
+        "に対して"
+      ],
+      "wrong_choice_explanations": [
+        "に加えて means 'in addition to' and simply adds items, but に限らず is needed to show learning extends beyond Japanese cuisine specifically.",
+        "とともに means 'together with' and indicates simultaneous action, but this sentence requires に限らず to express desire beyond Japanese cuisine alone.",
+        "に対して means 'toward/against' and shows direction or contrast, but this sentence needs に限らず to indicate learning isn't limited to Japanese cuisine."
+      ]
+    },
+    {
+      "id": "n2_036_5",
+      "example_sentence": "子供に限らず、大人も楽しめるアニメが増えている。",
+      "translation": "Anime that can be enjoyed not just by children but by adults as well is increasing.",
+      "blank_target": "に限らず",
+      "wrong_choices": [
+        "にとって",
+        "による",
+        "に応じて"
+      ],
+      "wrong_choice_explanations": [
+        "にとって means 'for/to' and indicates perspective or benefit, but に限らず is needed to show enjoyment extends beyond children.",
+        "による means 'by/due to' and indicates cause or method, but this sentence requires に限らず to show the audience isn't limited to children.",
+        "に応じて means 'according to' and indicates adaptation, but に限らず is needed here to express that enjoyment goes beyond just children."
       ]
     },
     {
       "id": "n2_036_6",
-      "example_sentence": "日本に限らず、アジア全体で同様の問題が生じている。",
-      "translation": "Not just in Japan, but similar problems are occurring throughout Asia.",
+      "example_sentence": "平日に限らず、週末も図書館は混雑している。",
+      "translation": "Not limited to weekdays, the library is crowded on weekends as well.",
       "blank_target": "に限らず",
       "wrong_choices": [
-        "を問わず",
-        "にかかわらず",
-        "にとどまらず"
+        "に関して",
+        "について",
+        "に対して"
       ],
       "wrong_choice_explanations": [
-        "'を問わず' has a different grammatical function or nuance than '〜に限らず'.",
-        "'にかかわらず' has a different grammatical function or nuance than '〜に限らず'.",
-        "'にとどまらず' has a different grammatical function or nuance than '〜に限らず'."
+        "に関して means 'regarding/concerning' and introduces a topic, but に限らず is needed to show crowding extends beyond weekdays.",
+        "について means 'about/concerning' and indicates the topic of discussion, but this sentence requires に限らず to show the situation isn't limited to weekdays.",
+        "に対して means 'toward/in response to' and shows direction, but に限らず is needed to express that crowding goes beyond just weekdays."
       ]
     },
     {
       "id": "n2_036_7",
-      "example_sentence": "アメリカに限らず、世界中の国で同じ問題が起きている。",
-      "translation": "Not only in America but environmental issues are occurring worldwide.",
+      "example_sentence": "新入社員に限らず、ベテランも研修に参加する必要がある。",
+      "translation": "Not just new employees, but veterans also need to participate in training.",
       "blank_target": "に限らず",
       "wrong_choices": [
-        "を問わず",
-        "にかかわらず",
-        "にとどまらず"
+        "に比べて",
+        "に関わらず",
+        "によって"
       ],
       "wrong_choice_explanations": [
-        "を問わず does not convey the meaning of 〜に限らず required in this context: not limited to / not just (extends beyond the named example).",
-        "にかかわらず indicates alternatives, but this sentence needs 〜に限らず to convey not limited to / not just (extends beyond the named example).",
-        "にとどまらず does not convey the meaning of 〜に限らず required in this context: not limited to / not just (extends beyond the named example)."
+        "に比べて means 'compared to' and makes comparisons, but に限らず is needed to show training necessity extends beyond new employees.",
+        "に関わらず means 'regardless of' and indicates something happens despite conditions, but に限らず is required to show the requirement isn't limited to new employees.",
+        "によって means 'by/depending on' and indicates means or variation, but this sentence needs に限らず to show the requirement goes beyond new employees."
       ]
     },
     {
       "id": "n2_036_8",
-      "example_sentence": "ヨーロッパに限らず、世界中でこの問題は深刻だ。",
-      "translation": "Throughout Europe, not only in Germany, environmental problems are serious.",
+      "example_sentence": "都市部に限らず、農村地域でも高齢化が進んでいる。",
+      "translation": "Not limited to urban areas, aging is also progressing in rural regions.",
       "blank_target": "に限らず",
       "wrong_choices": [
-        "を問わず",
-        "にかかわらず",
-        "にとどまらず"
+        "において",
+        "に向けて",
+        "に沿って"
       ],
       "wrong_choice_explanations": [
-        "While を問わず is a valid grammar pattern, it doesn't convey the same meaning as 〜に限らず and doesn't fit this sentence context.",
-        "While にかかわらず is a valid grammar pattern, it doesn't convey the same meaning as 〜に限らず and doesn't fit this sentence context.",
-        "While にとどまらず is a valid grammar pattern, it doesn't convey the same meaning as 〜に限らず and doesn't fit this sentence context."
+        "において means 'in/at' and simply indicates location, but に限らず is needed to show aging extends beyond urban areas.",
+        "に向けて means 'toward/heading for' and indicates direction, but this sentence requires に限らず to show aging isn't limited to cities.",
+        "に沿って means 'along/in accordance with' and indicates following something, but に限らず is needed to express that aging goes beyond urban areas."
       ]
     },
     {
       "id": "n2_036_9",
-      "example_sentence": "日本に限らず、世界中でこの現象が観察されている。",
-      "translation": "Not only in Japan, this phenomenon is observed worldwide.",
+      "example_sentence": "英語に限らず、複数の外国語を学ぶことが重要だ。",
+      "translation": "Not just English, but learning multiple foreign languages is important.",
       "blank_target": "に限らず",
       "wrong_choices": [
-        "を問わず",
-        "にかかわらず",
-        "にとどまらず"
+        "を通じて",
+        "に際して",
+        "をもとに"
       ],
       "wrong_choice_explanations": [
-        "'を問わず' is 'を問わず', but this context requires '〜に限らず' to indicate not limited to.",
-        "'にかかわらず' is 'にかかわらず', but this context requires '〜に限らず' to indicate not limited to.",
-        "'にとどまらず' is 'にとどまらず', but this context requires '〜に限らず' to indicate not limited to."
+        "を通じて means 'through/via' and indicates means or method, but に限らず is needed to show importance extends beyond English alone.",
+        "に際して means 'on the occasion of' and indicates timing, but this sentence requires に限らず to show learning shouldn't be limited to English.",
+        "をもとに means 'based on' and indicates foundation, but に限らず is needed to express that language learning goes beyond just English."
+      ]
+    },
+    {
+      "id": "n2_036_10",
+      "example_sentence": "この問題は日本に限らず、アジア全体で見られる現象だ。",
+      "translation": "This problem is not limited to Japan, but is a phenomenon seen throughout Asia.",
+      "blank_target": "に限らず",
+      "wrong_choices": [
+        "を中心に",
+        "に基づいて",
+        "に伴って"
+      ],
+      "wrong_choice_explanations": [
+        "を中心に means 'centered on' and indicates a focal point, but に限らず is needed to show the problem extends beyond Japan.",
+        "に基づいて means 'based on' and indicates foundation or basis, but this sentence requires に限らず to show the phenomenon isn't limited to Japan.",
+        "に伴って means 'along with/accompanying' and indicates simultaneous occurrence, but に限らず is needed to express that the problem goes beyond Japan alone."
       ]
     }
   ]

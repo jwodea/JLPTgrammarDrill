@@ -15,9 +15,9 @@
         "まで"
       ],
       "wrong_choice_explanations": [
-        "This pattern does not convey the same meaning as '〜に至るまで' (up to / ranging all the way to (emphasizes extent of a range)) needed in this context.",
-        "This pattern does not convey the same meaning as '〜に至るまで' (up to / ranging all the way to (emphasizes extent of a range)) needed in this context.",
-        "indicates endpoint or extent, not matching the required grammatical meaning"
+        "に至って means 'at the point of reaching' but doesn't emphasize the complete range being covered like に至るまで does here.",
+        "にわたって means 'throughout/over a span' but lacks the emphasis on reaching the furthest extent that に至るまで provides.",
+        "まで simply indicates an endpoint but doesn't convey the emphasis on thoroughness and complete coverage needed here."
       ]
     },
     {
@@ -27,45 +27,45 @@
       "blank_target": "に至るまで",
       "wrong_choices": [
         "に至って",
-        "にわたって",
-        "まで"
+        "にかけて",
+        "において"
       ],
       "wrong_choice_explanations": [
-        "に至って has a different grammatical function and doesn't fit the context of this sentence where に至るまで is required.",
-        "にわたって has a different grammatical function and doesn't fit the context of this sentence where に至るまで is required.",
-        "まで has a different grammatical function and doesn't fit the context of this sentence where に至るまで is required."
+        "に至って means 'when it comes to' but doesn't emphasize the complete range from top to bottom like に至るまで does.",
+        "にかけて indicates a span of time or area but doesn't emphasize reaching the furthest extent of the hierarchy.",
+        "において means 'in/at' a location or situation but doesn't express the range concept needed here."
       ]
     },
     {
       "id": "n2_192_3",
-      "example_sentence": "最小限の必要性に至るまで、全て検討された。",
-      "translation": "Everything was considered down to the bare essentials.",
+      "example_sentence": "子どもから大人に至るまで、みんなが楽しめる映画だ。",
+      "translation": "It's a movie that everyone can enjoy, from children all the way to adults.",
       "blank_target": "に至るまで",
       "wrong_choices": [
-        "に至って",
         "にわたって",
-        "まで"
+        "について",
+        "に対して"
       ],
       "wrong_choice_explanations": [
-        "に至って when / at the point of, but 〜に至るまで is needed to express the specific meaning required in this sentence.",
-        "にわたって throughout / spanning, but 〜に至るまで is needed to express the specific meaning required in this sentence.",
-        "marks extent or limit; doesn't convey the temporal or contextual sense needed."
+        "にわたって means 'throughout' but doesn't emphasize the complete spectrum from one end to the other like に至るまで does.",
+        "について means 'about/concerning' but doesn't express the range concept needed here.",
+        "に対して means 'toward/against' but doesn't convey the idea of spanning a complete range."
       ]
     },
     {
       "id": "n2_192_4",
-      "example_sentence": "詳細な点に至るまで、説明されました。",
-      "translation": "It was explained right down to the details.",
+      "example_sentence": "料理の味付けから盛り付けに至るまで、完璧だった。",
+      "translation": "Everything was perfect, from the seasoning of the food right down to the presentation.",
       "blank_target": "に至るまで",
       "wrong_choices": [
         "に至って",
-        "にわたって",
-        "まで"
+        "をはじめ",
+        "を通じて"
       ],
       "wrong_choice_explanations": [
-        "に至って has a different grammatical function that doesn't fit this sentence context.",
-        "にわたって has a different grammatical function that doesn't fit this sentence context.",
-        "まで has a different grammatical function that doesn't fit this sentence context."
+        "に至って means 'when it comes to' but doesn't emphasize covering the complete range of aspects like に至るまで does.",
+        "をはじめ means 'starting with' but doesn't convey the sense of reaching the furthest extent of details.",
+        "を通じて means 'through/by means of' but doesn't express the comprehensive range concept needed here."
       ]
     },
     {
@@ -74,14 +74,94 @@
       "translation": "The impact has spread even to small towns in rural areas.",
       "blank_target": "に至るまで",
       "wrong_choices": [
-        "に至って",
-        "にわたって",
-        "まで"
+        "にかけて",
+        "にとって",
+        "に関して"
       ],
       "wrong_choice_explanations": [
-        "〜に至って doesn't emphasize range extent.",
-        "〜にわたって is similar; slightly different nuance.",
-        "〜まで indicates endpoint; doesn't emphasize extent."
+        "にかけて indicates a span but doesn't emphasize reaching the most remote or extreme places like に至るまで does.",
+        "にとって means 'for/to someone' but doesn't express the geographical extent concept needed here.",
+        "に関して means 'regarding/concerning' but doesn't convey the idea of influence spreading to the furthest places."
+      ]
+    },
+    {
+      "id": "n2_192_6",
+      "example_sentence": "基本的なルールから複雑な規則に至るまで、全て覚えなければならない。",
+      "translation": "You have to memorize everything, from basic rules all the way to complex regulations.",
+      "blank_target": "に至るまで",
+      "wrong_choices": [
+        "にわたって",
+        "に関して",
+        "について"
+      ],
+      "wrong_choice_explanations": [
+        "にわたって means 'throughout' but doesn't emphasize progressing from simple to the most complex like に至るまで does.",
+        "に関して means 'regarding' but doesn't express the range from basic to most advanced concepts.",
+        "について means 'about/concerning' but doesn't convey the comprehensive scope needed here."
+      ]
+    },
+    {
+      "id": "n2_192_7",
+      "example_sentence": "社長から新入社員に至るまで、全員が参加した。",
+      "translation": "Everyone participated, from the company president all the way down to the new employees.",
+      "blank_target": "に至るまで",
+      "wrong_choices": [
+        "を含めて",
+        "に対して",
+        "において"
+      ],
+      "wrong_choice_explanations": [
+        "を含めて means 'including' but doesn't emphasize the complete hierarchical range like に至るまで does.",
+        "に対して means 'toward/against' but doesn't express the concept of spanning the entire organizational hierarchy.",
+        "において means 'in/at' but doesn't convey the range from highest to lowest positions."
+      ]
+    },
+    {
+      "id": "n2_192_8",
+      "example_sentence": "準備から後片付けに至るまで、一人でやった。",
+      "translation": "I did everything by myself, from preparation all the way to cleanup.",
+      "blank_target": "に至るまで",
+      "wrong_choices": [
+        "を通して",
+        "に至って",
+        "にかけて"
+      ],
+      "wrong_choice_explanations": [
+        "を通して means 'through/throughout' but doesn't emphasize covering every step to the very end like に至るまで does.",
+        "に至って means 'when it comes to' but doesn't express the complete process from start to finish.",
+        "にかけて indicates a span but doesn't emphasize doing every single task to completion."
+      ]
+    },
+    {
+      "id": "n2_192_9",
+      "example_sentence": "基礎的な知識から専門的な技術に至るまで、幅広く学んだ。",
+      "translation": "I studied extensively, from basic knowledge all the way to specialized techniques.",
+      "blank_target": "に至るまで",
+      "wrong_choices": [
+        "にわたって",
+        "を中心に",
+        "に基づいて"
+      ],
+      "wrong_choice_explanations": [
+        "にわたって means 'throughout' but doesn't emphasize progressing to the highest level of expertise like に至るまで does.",
+        "を中心に means 'centering on' but doesn't express the range from basic to most advanced levels.",
+        "に基づいて means 'based on' but doesn't convey the comprehensive scope from fundamental to specialized knowledge."
+      ]
+    },
+    {
+      "id": "n2_192_10",
+      "example_sentence": "朝の挨拶から夜の見回りに至るまで、管理人の仕事は多岐にわたる。",
+      "translation": "The caretaker's work is diverse, from morning greetings all the way to evening rounds.",
+      "blank_target": "に至るまで",
+      "wrong_choices": [
+        "を含む",
+        "に関する",
+        "による"
+      ],
+      "wrong_choice_explanations": [
+        "を含む means 'including' but doesn't emphasize the complete range of daily responsibilities like に至るまで does.",
+        "に関する means 'related to' but doesn't express the span from first to last duties of the day.",
+        "による means 'by means of/due to' but doesn't convey the comprehensive scope of work activities."
       ]
     }
   ]

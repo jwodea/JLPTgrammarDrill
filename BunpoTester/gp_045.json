@@ -1,0 +1,168 @@
+{
+  "id": "gp_045",
+  "pattern": "～から",
+  "meaning": "Because ~ (reason clause)",
+  "level": "N5",
+  "exercises": [
+    {
+      "id": 1,
+      "example_sentence": "雨が降っている__、傘を持って行きます。",
+      "translation": "Because it's raining, I'll take an umbrella.",
+      "blank_target": "から",
+      "wrong_choices": [
+        "ので",
+        "のに",
+        "けれど"
+      ],
+      "wrong_choice_explanations": {
+        "ので": "ので also means 'because' but is more formal — から is more appropriate for this simple, direct reason.",
+        "のに": "のに means 'even though' or 'despite' — it expresses contrast, not causation.",
+        "けれど": "けれど means 'but' or 'however' — it shows contrast, not the causal relationship needed here."
+      }
+    },
+    {
+      "id": 2,
+      "example_sentence": "時間がない__、急いでください。",
+      "translation": "Because we don't have time, please hurry.",
+      "blank_target": "から",
+      "wrong_choices": [
+        "ので",
+        "でも",
+        "と"
+      ],
+      "wrong_choice_explanations": {
+        "ので": "ので also means 'because' but is more formal — から is more direct for urgent situations.",
+        "でも": "でも means 'but' or 'however' — it shows contrast, not the reason for hurrying.",
+        "と": "と is a conditional 'if/when' — it doesn't express the causal reason for the request."
+      }
+    },
+    {
+      "id": 3,
+      "example_sentence": "疲れた__、早く寝ました。",
+      "translation": "Because I was tired, I went to bed early.",
+      "blank_target": "から",
+      "wrong_choices": [
+        "ので",
+        "のに",
+        "が"
+      ],
+      "wrong_choice_explanations": {
+        "ので": "ので can also mean 'because' but is more formal — から is more natural for personal experiences.",
+        "のに": "のに means 'even though' — this would contradict the logical connection between being tired and sleeping.",
+        "が": "が can connect clauses but usually shows contrast — it doesn't clearly express the causal relationship."
+      }
+    },
+    {
+      "id": 4,
+      "example_sentence": "お金がない__、買えません。",
+      "translation": "Because I don't have money, I can't buy it.",
+      "blank_target": "から",
+      "wrong_choices": [
+        "ので",
+        "でも",
+        "し"
+      ],
+      "wrong_choice_explanations": {
+        "ので": "ので also means 'because' but is more formal — から is more straightforward for simple explanations.",
+        "でも": "でも means 'but' — it would create contradiction instead of explaining the reason for not buying.",
+        "し": "し can list reasons but is less direct — から more clearly shows the single cause-effect relationship."
+      }
+    },
+    {
+      "id": 5,
+      "example_sentence": "明日は休み__、ゆっくりできます。",
+      "translation": "Because tomorrow is a holiday, I can relax.",
+      "blank_target": "だから",
+      "wrong_choices": [
+        "なので",
+        "だけど",
+        "でも"
+      ],
+      "wrong_choice_explanations": {
+        "なので": "なので is more formal and typically follows nouns with な — だから is more natural here.",
+        "だけど": "だけど means 'but' — it shows contrast, not the reason for being able to relax.",
+        "でも": "でも means 'but' or 'however' — it doesn't express the causal relationship between holiday and relaxation."
+      }
+    },
+    {
+      "id": 6,
+      "example_sentence": "道が分からない__、地図を見ています。",
+      "translation": "Because I don't know the way, I'm looking at a map.",
+      "blank_target": "から",
+      "wrong_choices": [
+        "ので",
+        "のに",
+        "けど"
+      ],
+      "wrong_choice_explanations": {
+        "ので": "ので can also mean 'because' but is more formal — から is more direct for immediate situations.",
+        "のに": "のに means 'even though' — this would create an illogical contrast.",
+        "けど": "けど means 'but' — it shows contrast, not the reason for looking at the map."
+      }
+    },
+    {
+      "id": 7,
+      "example_sentence": "頭が痛い__、薬を飲みました。",
+      "translation": "Because my head hurt, I took medicine.",
+      "blank_target": "から",
+      "wrong_choices": [
+        "ので",
+        "のに",
+        "と"
+      ],
+      "wrong_choice_explanations": {
+        "ので": "ので can also mean 'because' but is more formal — から is more natural for personal health situations.",
+        "のに": "のに means 'even though' — this would create contradiction instead of explaining the reason.",
+        "と": "と as a conditional means 'when/if' — it doesn't express the past causal relationship."
+      }
+    },
+    {
+      "id": 8,
+      "example_sentence": "暑い__、窓を開けてください。",
+      "translation": "Because it's hot, please open the window.",
+      "blank_target": "から",
+      "wrong_choices": [
+        "ので",
+        "でも",
+        "けど"
+      ],
+      "wrong_choice_explanations": {
+        "ので": "ので can mean 'because' but is more formal — から is more direct for requests.",
+        "でも": "でも means 'but' — it doesn't provide the reason for the request.",
+        "けど": "けど means 'but' — it shows contrast, not the reason for opening the window."
+      }
+    },
+    {
+      "id": 9,
+      "example_sentence": "今日は忙しい__、会えません。",
+      "translation": "Because I'm busy today, I can't meet.",
+      "blank_target": "から",
+      "wrong_choices": [
+        "ので",
+        "のに",
+        "が"
+      ],
+      "wrong_choice_explanations": {
+        "ので": "ので can also mean 'because' but is more formal — から is more direct for declining invitations.",
+        "のに": "のに means 'even though' — this would create illogical contrast.",
+        "が": "が can connect clauses but often shows contrast — it doesn't clearly express the causal reason."
+      }
+    },
+    {
+      "id": 10,
+      "example_sentence": "電車が遅れた__、遅刻しました。",
+      "translation": "Because the train was delayed, I was late.",
+      "blank_target": "から",
+      "wrong_choices": [
+        "ので",
+        "のに",
+        "でも"
+      ],
+      "wrong_choice_explanations": {
+        "ので": "ので can also mean 'because' but is more formal — から is more straightforward for explaining lateness.",
+        "のに": "のに means 'even though' — this would create contradiction instead of explaining the cause.",
+        "でも": "でも means 'but' — it doesn't express the causal relationship between the delay and being late."
+      }
+    }
+  ]
+}

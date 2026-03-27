@@ -15,57 +15,57 @@
         "にとって"
       ],
       "wrong_choice_explanations": [
-        "This pattern does not convey the same meaning as '〜から見ると / 〜から見れば' (from the perspective of / as seen from) needed in this context.",
-        "This pattern does not convey the same meaning as '〜から見ると / 〜から見れば' (from the perspective of / as seen from) needed in this context.",
-        "means 'for' or 'to' (from a viewpoint), which differs from the required locative or contextual meaning"
+        "からすると means 'judging from' and implies making a judgment based on evidence, but here we need から見ると to express viewing from a perspective.",
+        "から考えると means 'thinking from' and emphasizes mental consideration, but this sentence requires から見ると to show visual/observational perspective.",
+        "にとって means 'for/to' someone and indicates personal relevance, but doesn't convey the observational viewpoint that から見ると expresses."
       ]
     },
     {
       "id": "n2_175_2",
-      "example_sentence": "子どもから見ると、親は絶対的な存在だ。",
-      "translation": "From a child's perspective, parents are absolute.",
-      "blank_target": "から見ると",
+      "example_sentence": "子どもから見れば、親は絶対的な存在だ。",
+      "translation": "From a child's perspective, parents are absolute beings.",
+      "blank_target": "から見れば",
       "wrong_choices": [
-        "からすると",
-        "から考えると",
-        "にとって"
+        "からすれば",
+        "によれば",
+        "について"
       ],
       "wrong_choice_explanations": [
-        "からすると has a different grammatical function and doesn't fit the context of this sentence where から見ると / から見れば is required.",
-        "から考えると has a different grammatical function and doesn't fit the context of this sentence where から見ると / から見れば is required.",
-        "にとって has a different grammatical function and doesn't fit the context of this sentence where から見ると / から見れば is required."
+        "からすれば means 'judging from' and focuses on making conclusions based on evidence, while から見れば emphasizes the viewpoint itself.",
+        "によれば means 'according to' and indicates information source, not personal perspective like から見れば.",
+        "について means 'about/regarding' and indicates topic, not the observational perspective that から見れば expresses."
       ]
     },
     {
       "id": "n2_175_3",
-      "example_sentence": "経営側から見ると、労働者のニーズは複雑だ。",
-      "translation": "From management's perspective, workers' needs are complex.",
+      "example_sentence": "経営側から見ると、この提案はリスクが高い。",
+      "translation": "From management's perspective, this proposal has high risk.",
       "blank_target": "から見ると",
       "wrong_choices": [
-        "からすると",
-        "から考えると",
-        "にとって"
+        "に関して",
+        "としては",
+        "において"
       ],
       "wrong_choice_explanations": [
-        "からすると from the perspective of, but 〜から見ると / 〜から見れば is needed to express the specific meaning required in this sentence.",
-        "から考えると has a different grammatical function, but 〜から見ると / 〜から見れば is needed to express the specific meaning required in this sentence.",
-        "にとって has a different grammatical function, but 〜から見ると / 〜から見れば is needed to express the specific meaning required in this sentence."
+        "に関して means 'regarding/concerning' and indicates topic, but doesn't express the viewing perspective that から見ると conveys.",
+        "としては means 'as for/in the capacity of' and indicates role or position, but lacks the observational nuance of から見ると.",
+        "において means 'in/at' and indicates location or circumstance, not the perspective-taking that から見ると expresses."
       ]
     },
     {
       "id": "n2_175_4",
-      "example_sentence": "専門家から見ると、その判断は妥当ではない。",
+      "example_sentence": "専門家から見れば、その判断は妥当ではない。",
       "translation": "From an expert's perspective, that judgment is not reasonable.",
-      "blank_target": "から見ると",
+      "blank_target": "から見れば",
       "wrong_choices": [
-        "からすると",
-        "から考えると",
-        "にとって"
+        "によると",
+        "に対して",
+        "として"
       ],
       "wrong_choice_explanations": [
-        "からすると has a different grammatical function that doesn't fit this sentence context.",
-        "から考えると has a different grammatical function that doesn't fit this sentence context.",
-        "にとって has a different grammatical function that doesn't fit this sentence context."
+        "によると means 'according to' and indicates information source, while から見れば emphasizes the expert's observational viewpoint.",
+        "に対して means 'toward/against' and indicates direction or opposition, not the perspective that から見れば expresses.",
+        "として means 'as' and indicates role or capacity, but doesn't convey the viewing aspect that から見れば emphasizes."
       ]
     },
     {
@@ -79,9 +79,89 @@
         "にとって"
       ],
       "wrong_choice_explanations": [
-        "〜からすると is judgment; doesn't emphasize viewing.",
-        "〜から考えると emphasizes thinking; less visual.",
-        "〜にとって means 'for'; doesn't convey perspective."
+        "からすると means 'judging from' and emphasizes making conclusions, while から見ると focuses on the observational viewpoint itself.",
+        "から考えると means 'thinking from' and emphasizes mental analysis, but から見ると is needed to express viewing from a perspective.",
+        "にとって means 'for/to' and indicates personal significance, but doesn't convey the observational standpoint that から見ると expresses."
+      ]
+    },
+    {
+      "id": "n2_175_6",
+      "example_sentence": "医師から見ると、患者の症状は深刻だ。",
+      "translation": "From a doctor's perspective, the patient's symptoms are serious.",
+      "blank_target": "から見ると",
+      "wrong_choices": [
+        "によって",
+        "のもとで",
+        "を通じて"
+      ],
+      "wrong_choice_explanations": [
+        "によって means 'by means of' and indicates method or agent, not the observational perspective that から見ると conveys.",
+        "のもとで means 'under' and indicates situation or guidance, but doesn't express the viewing angle that から見ると provides.",
+        "を通じて means 'through' and indicates means or medium, not the perspective-taking that から見ると expresses."
+      ]
+    },
+    {
+      "id": "n2_175_7",
+      "example_sentence": "学生から見れば、この授業は難しすぎる。",
+      "translation": "From students' perspective, this class is too difficult.",
+      "blank_target": "から見れば",
+      "wrong_choices": [
+        "にしては",
+        "わりには",
+        "ことには"
+      ],
+      "wrong_choice_explanations": [
+        "にしては means 'for' or 'considering' and indicates unexpected situations, while から見れば expresses viewpoint perspective.",
+        "わりには means 'considering' or 'for' and indicates proportion or expectation, not the observational stance that から見れば conveys.",
+        "ことには means 'surprisingly' and indicates unexpected discovery, but doesn't express the perspective that から見れば provides."
+      ]
+    },
+    {
+      "id": "n2_175_8",
+      "example_sentence": "消費者から見ると、この商品は価格が高い。",
+      "translation": "From consumers' perspective, this product is expensive.",
+      "blank_target": "から見ると",
+      "wrong_choices": [
+        "からして",
+        "をもって",
+        "に基づいて"
+      ],
+      "wrong_choice_explanations": [
+        "からして means 'starting from' and indicates beginning point or extreme example, not the perspective that から見ると expresses.",
+        "をもって means 'with' and indicates means or timing, but doesn't convey the observational viewpoint of から見ると.",
+        "に基づいて means 'based on' and indicates foundation or basis, while から見ると emphasizes the viewing perspective itself."
+      ]
+    },
+    {
+      "id": "n2_175_9",
+      "example_sentence": "親から見れば、子どもの成長は早い。",
+      "translation": "From parents' perspective, children's growth is fast.",
+      "blank_target": "から見れば",
+      "wrong_choices": [
+        "からいうと",
+        "にかけては",
+        "をめぐって"
+      ],
+      "wrong_choice_explanations": [
+        "からいうと means 'speaking from' and emphasizes verbal expression or opinion, while から見れば focuses on observational perspective.",
+        "にかけては means 'when it comes to' and indicates specific area of expertise, not the viewing angle that から見れば provides.",
+        "をめぐって means 'around/concerning' and indicates topic or issue, but doesn't express the perspective that から見れば conveys."
+      ]
+    },
+    {
+      "id": "n2_175_10",
+      "example_sentence": "環境保護の立場から見ると、この計画は問題が多い。",
+      "translation": "From an environmental protection standpoint, this plan has many problems.",
+      "blank_target": "から見ると",
+      "wrong_choices": [
+        "に関連して",
+        "に関わらず",
+        "に対応して"
+      ],
+      "wrong_choice_explanations": [
+        "に関連して means 'in connection with' and indicates relationship or association, not the observational perspective of から見ると.",
+        "に関わらず means 'regardless of' and indicates independence from conditions, opposite to the perspective-dependent meaning of から見ると.",
+        "に対応して means 'in response to' and indicates reaction or adaptation, but doesn't convey the viewing standpoint that から見ると expresses."
       ]
     }
   ]

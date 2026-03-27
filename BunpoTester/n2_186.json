@@ -15,9 +15,9 @@
         "ところがある"
       ],
       "wrong_choice_explanations": [
-        "This pattern does not convey the same meaning as '〜ものがある' (there is something that... / one cannot help feeling (intrinsic quality or feeling)) needed in this context.",
-        "This pattern does not convey the same meaning as '〜ものがある' (there is something that... / one cannot help feeling (intrinsic quality or feeling)) needed in this context.",
-        "This pattern does not convey the same meaning as '〜ものがある' (there is something that... / one cannot help feeling (intrinsic quality or feeling)) needed in this context."
+        "ものだ expresses 'one should/it's natural to' but doesn't convey the intrinsic quality that makes something moving.",
+        "ことがある means 'sometimes happens' but doesn't express the inherent emotional quality of his performance.",
+        "ところがある means 'there's an aspect' but lacks the emotional impact that ものがある conveys about something moving."
       ]
     },
     {
@@ -27,13 +27,13 @@
       "blank_target": "ものがある",
       "wrong_choices": [
         "ものだ",
-        "ことがある",
-        "ところがある"
+        "わけがある",
+        "はずがある"
       ],
       "wrong_choice_explanations": [
-        "ものだ has a different grammatical function and doesn't fit the context of this sentence where ものがある is required.",
-        "ことがある has a different grammatical function and doesn't fit the context of this sentence where ものがある is required.",
-        "ところがある has a different grammatical function and doesn't fit the context of this sentence where ものがある is required."
+        "ものだ expresses general truths or obligations but doesn't capture the intrinsic thought-provoking quality of the novel.",
+        "わけがある means 'there's a reason' but doesn't express the inherent quality that makes something thought-provoking.",
+        "はずがある means 'should be/must be' but doesn't convey the compelling quality that makes one think."
       ]
     },
     {
@@ -42,46 +42,126 @@
       "translation": "There is something attractive about that scenery.",
       "blank_target": "ものがある",
       "wrong_choices": [
-        "ものだ",
-        "ことがある",
-        "ところがある"
+        "ところがある",
+        "きらいがある",
+        "べきがある"
       ],
       "wrong_choice_explanations": [
-        "ものだ one should / it is natural to, but 〜ものがある is needed to express the specific meaning required in this sentence.",
-        "ことがある has a different grammatical function, but 〜ものがある is needed to express the specific meaning required in this sentence.",
-        "ところがある has a different grammatical function, but 〜ものがある is needed to express the specific meaning required in this sentence."
+        "ところがある means 'there's an aspect/tendency' but doesn't capture the magnetic quality that draws people in.",
+        "きらいがある means 'tends to' (negative tendency) but doesn't express the appealing quality of the scenery.",
+        "べきがある is grammatically incorrect; べき doesn't combine with がある in this way."
       ]
     },
     {
       "id": "n2_186_4",
-      "example_sentence": "彼の話には、説得力があるものがある。",
-      "translation": "His talk has something persuasive about it.",
+      "example_sentence": "この映画には、心に響くものがある。",
+      "translation": "This movie has something that touches the heart.",
       "blank_target": "ものがある",
       "wrong_choices": [
-        "ものだ",
-        "ことがある",
-        "ところがある"
+        "ことになる",
+        "ものでもない",
+        "ものではない"
       ],
       "wrong_choice_explanations": [
-        "ものだ has a different grammatical function that doesn't fit this sentence context.",
-        "ことがある has a different grammatical function that doesn't fit this sentence context.",
-        "ところがある has a different grammatical function that doesn't fit this sentence context."
+        "ことになる means 'it turns out that' but doesn't express the inherent emotional quality of the movie.",
+        "ものでもない means 'it's not really' (dismissive) which contradicts the positive quality being described.",
+        "ものではない means 'it's not something that' which negates the quality rather than affirming it."
       ]
     },
     {
       "id": "n2_186_5",
-      "example_sentence": "その計画には、実現の可能性があるものがある。",
-      "translation": "There is something about that plan that suggests it could be realized.",
+      "example_sentence": "彼女の笑顔には、人を安心させるものがある。",
+      "translation": "There is something about her smile that puts people at ease.",
       "blank_target": "ものがある",
       "wrong_choices": [
-        "ものだ",
-        "ことがある",
-        "ところがある"
+        "ものらしい",
+        "ものかもしれない",
+        "ものとみえる"
       ],
       "wrong_choice_explanations": [
-        "〜ものだ doesn't convey the intrinsic quality sense.",
-        "〜ことがある means 'sometimes'; doesn't convey quality.",
-        "〜ところがある emphasizes place; different meaning."
+        "ものらしい means 'seems like' (hearsay/appearance) but doesn't express the definite comforting quality.",
+        "ものかもしれない means 'might be something that' but expresses uncertainty rather than the clear quality described.",
+        "ものとみえる means 'it appears that' but focuses on observation rather than the inherent calming effect."
+      ]
+    },
+    {
+      "id": "n2_186_6",
+      "example_sentence": "その詩には、読む人の心を揺さぶるものがある。",
+      "translation": "That poem has something that stirs the reader's heart.",
+      "blank_target": "ものがある",
+      "wrong_choices": [
+        "ことがない",
+        "ものがない",
+        "ところがない"
+      ],
+      "wrong_choice_explanations": [
+        "ことがない means 'never happens' which completely contradicts the positive quality being described.",
+        "ものがない means 'there's nothing that' which negates the stirring quality of the poem.",
+        "ところがない means 'there's no aspect' which denies the heart-stirring quality mentioned."
+      ]
+    },
+    {
+      "id": "n2_186_7",
+      "example_sentence": "その建築には、見る人を圧倒するものがある。",
+      "translation": "That architecture has something overwhelming about it.",
+      "blank_target": "ものがある",
+      "wrong_choices": [
+        "ようがある",
+        "ばかりがある",
+        "だけがある"
+      ],
+      "wrong_choice_explanations": [
+        "ようがある is grammatically incorrect; よう doesn't combine with がある in this pattern.",
+        "ばかりがある means 'only has' but doesn't express the overwhelming quality inherent in the architecture.",
+        "だけがある means 'only has' but doesn't capture the impressive, overwhelming nature being described."
+      ]
+    },
+    {
+      "id": "n2_186_8",
+      "example_sentence": "彼の作品には、時代を超えて愛されるものがある。",
+      "translation": "His works have something that will be loved across generations.",
+      "blank_target": "ものがある",
+      "wrong_choices": [
+        "ことだろう",
+        "はずだろう",
+        "ものだろう"
+      ],
+      "wrong_choice_explanations": [
+        "ことだろう means 'it will probably be that' but doesn't express the timeless quality inherent in his works.",
+        "はずだろう means 'should probably' but expresses expectation rather than inherent timeless appeal.",
+        "ものだろう means 'it's probably something that' but doesn't capture the definite timeless quality described."
+      ]
+    },
+    {
+      "id": "n2_186_9",
+      "example_sentence": "その料理には、故郷を思い出させるものがある。",
+      "translation": "That dish has something that reminds one of home.",
+      "blank_target": "ものがある",
+      "wrong_choices": [
+        "というものだ",
+        "というものが",
+        "といったもの"
+      ],
+      "wrong_choice_explanations": [
+        "というものだ means 'that's what... is' but doesn't express the nostalgic quality that evokes memories of home.",
+        "というものが is incomplete and grammatically incorrect in this context.",
+        "といったもの means 'something like' but doesn't capture the specific nostalgic quality being described."
+      ]
+    },
+    {
+      "id": "n2_186_10",
+      "example_sentence": "この音楽には、聞く人を癒すものがある。",
+      "translation": "This music has something that heals the listener.",
+      "blank_target": "ものがある",
+      "wrong_choices": [
+        "ものにする",
+        "ものとする",
+        "ものになる"
+      ],
+      "wrong_choice_explanations": [
+        "ものにする means 'to make one's own/master' but doesn't express the healing quality inherent in the music.",
+        "ものとする means 'to regard as' but doesn't convey the therapeutic effect the music has on listeners.",
+        "ものになる means 'to become something worthwhile' but doesn't express the healing quality described."
       ]
     }
   ]

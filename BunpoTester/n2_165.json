@@ -15,9 +15,9 @@
         "に該当する"
       ],
       "wrong_choice_explanations": [
-        "This pattern does not convey the same meaning as '〜にあたる' (corresponds to / is equivalent to / falls under) needed in this context.",
-        "emphasizes careful preparation at an important occasion, but doesn't match the temporal context of this sentence",
-        "This pattern does not convey the same meaning as '〜にあたる' (corresponds to / is equivalent to / falls under) needed in this context."
+        "に相当する means 'is equivalent to' but is more formal and typically used with quantities or values, not dates or occasions like birthdays.",
+        "にあたって means 'on the occasion of' and emphasizes preparation for an important event, but doesn't express correspondence or equivalence.",
+        "に該当する means 'applies to' or 'falls under' but is used for categories or conditions, not for expressing that one date corresponds to another."
       ]
     },
     {
@@ -26,30 +26,30 @@
       "translation": "The deadline falls on the last day of next month.",
       "blank_target": "にあたる",
       "wrong_choices": [
-        "に相当する",
-        "にあたって",
-        "に該当する"
+        "になる",
+        "である",
+        "に関して"
       ],
       "wrong_choice_explanations": [
-        "に相当する has a different grammatical function and doesn't fit the context of this sentence where にあたる is required.",
-        "にあたって has a different grammatical function and doesn't fit the context of this sentence where にあたる is required.",
-        "に該当する has a different grammatical function and doesn't fit the context of this sentence where にあたる is required."
+        "になる means 'becomes' but doesn't express the specific correspondence between the deadline and the date.",
+        "である is a copula meaning 'is' but lacks the nuance of correspondence or equivalence that にあたる provides.",
+        "に関して means 'regarding' or 'concerning' but doesn't express that the deadline corresponds to that specific date."
       ]
     },
     {
       "id": "n2_165_3",
       "example_sentence": "その地点は北緯35度にあたる。",
-      "translation": "That location is at latitude 35 degrees north.",
+      "translation": "That location corresponds to 35 degrees north latitude.",
       "blank_target": "にあたる",
       "wrong_choices": [
-        "に相当する",
-        "にあたって",
-        "に該当する"
+        "に位置する",
+        "にある",
+        "に当たって"
       ],
       "wrong_choice_explanations": [
-        "に相当する has a different grammatical function, but 〜にあたる is needed to express the specific meaning required in this sentence.",
-        "means 'when' or 'at the time of' but emphasizes preparation; not appropriate for describing the specific occasion here.",
-        "に該当する has a different grammatical function, but 〜にあたる is needed to express the specific meaning required in this sentence."
+        "に位置する means 'is located at' but doesn't convey the correspondence between the location and the specific coordinate.",
+        "にある means 'exists at' or 'is located at' but lacks the precise meaning of correspondence that にあたる provides.",
+        "に当たって means 'when' or 'upon' and indicates timing or occasion, not positional correspondence."
       ]
     },
     {
@@ -58,14 +58,14 @@
       "translation": "That price corresponds to the market value.",
       "blank_target": "にあたる",
       "wrong_choices": [
-        "に相当する",
-        "にあたって",
-        "に該当する"
+        "と等しい",
+        "に比べて",
+        "について"
       ],
       "wrong_choice_explanations": [
-        "に相当する has a different grammatical function that doesn't fit this sentence context.",
-        "にあたって has a different grammatical function that doesn't fit this sentence context.",
-        "に該当する has a different grammatical function that doesn't fit this sentence context."
+        "と等しい means 'is equal to' but is more mathematical and doesn't have the nuance of correspondence that にあたる expresses.",
+        "に比べて means 'compared to' and is used for comparisons, not for expressing equivalence or correspondence.",
+        "について means 'about' or 'concerning' but doesn't express the relationship of correspondence between price and value."
       ]
     },
     {
@@ -74,14 +74,94 @@
       "translation": "That role corresponds to the manager's position.",
       "blank_target": "にあたる",
       "wrong_choices": [
-        "に相当する",
-        "にあたって",
-        "に該当する"
+        "と同じ",
+        "のような",
+        "に関する"
       ],
       "wrong_choice_explanations": [
-        "〜に相当する is similar; slightly different nuance.",
-        "〜にあたって means 'at the time of'; doesn't mean 'equivalent'.",
-        "〜に該当する is similar; more technical sense."
+        "と同じ means 'is the same as' but is more direct and doesn't convey the formal correspondence that にあたる expresses.",
+        "のような means 'like' or 'similar to' and indicates resemblance rather than exact correspondence or equivalence.",
+        "に関する means 'related to' or 'concerning' but doesn't express that the role corresponds to or is equivalent to the position."
+      ]
+    },
+    {
+      "id": "n2_165_6",
+      "example_sentence": "この試験の合格点は80点にあたる。",
+      "translation": "The passing score for this exam corresponds to 80 points.",
+      "blank_target": "にあたる",
+      "wrong_choices": [
+        "になっている",
+        "らしい",
+        "に決まっている"
+      ],
+      "wrong_choice_explanations": [
+        "になっている means 'has become' or 'is set as' but doesn't express the correspondence between the concept and the specific number.",
+        "らしい expresses hearsay or appearance ('seems like') but doesn't convey the definite correspondence that にあたる provides.",
+        "に決まっている means 'is decided' or 'is certain' but doesn't express the equivalence between the passing score and 80 points."
+      ]
+    },
+    {
+      "id": "n2_165_7",
+      "example_sentence": "彼の年収は一般的なサラリーマンの倍にあたる。",
+      "translation": "His annual income corresponds to twice that of an average salaryman.",
+      "blank_target": "にあたる",
+      "wrong_choices": [
+        "になる",
+        "である",
+        "に匹敵する"
+      ],
+      "wrong_choice_explanations": [
+        "になる means 'becomes' but doesn't express the specific correspondence between his income and the comparative amount.",
+        "である is a copula meaning 'is' but lacks the nuance of correspondence or equivalence that にあたる provides.",
+        "に匹敵する means 'is comparable to' or 'rivals' but suggests competition rather than mathematical correspondence."
+      ]
+    },
+    {
+      "id": "n2_165_8",
+      "example_sentence": "この建物の建設費用は市の年間予算の10%にあたる。",
+      "translation": "The construction cost of this building corresponds to 10% of the city's annual budget.",
+      "blank_target": "にあたる",
+      "wrong_choices": [
+        "に占める",
+        "を超える",
+        "と比較して"
+      ],
+      "wrong_choice_explanations": [
+        "に占める means 'accounts for' or 'takes up' but doesn't express the direct correspondence between the cost and the percentage.",
+        "を超える means 'exceeds' and indicates the cost is more than 10%, which contradicts the intended meaning.",
+        "と比較して means 'compared with' and is used for comparisons, not for expressing equivalence or correspondence."
+      ]
+    },
+    {
+      "id": "n2_165_9",
+      "example_sentence": "その距離は東京から大阪までの道のりにあたる。",
+      "translation": "That distance corresponds to the journey from Tokyo to Osaka.",
+      "blank_target": "にあたる",
+      "wrong_choices": [
+        "と同様",
+        "に等しい",
+        "のようだ"
+      ],
+      "wrong_choice_explanations": [
+        "と同様 means 'similarly' or 'in the same way' but doesn't express direct correspondence between two specific distances.",
+        "に等しい means 'is equal to' but is more mathematical and doesn't have the nuance of correspondence that にあたる provides.",
+        "のようだ means 'seems like' or 'appears to be' and expresses uncertainty, not the definite correspondence that にあたる conveys."
+      ]
+    },
+    {
+      "id": "n2_165_10",
+      "example_sentence": "その温度は人間の体温にあたる。",
+      "translation": "That temperature corresponds to human body temperature.",
+      "blank_target": "にあたる",
+      "wrong_choices": [
+        "に近い",
+        "みたいだ",
+        "に関して"
+      ],
+      "wrong_choice_explanations": [
+        "に近い means 'is close to' and suggests approximation rather than the exact correspondence that にあたる expresses.",
+        "みたいだ means 'seems like' or 'is like' and expresses resemblance or uncertainty, not definite correspondence.",
+        "に関して means 'regarding' or 'concerning' but doesn't express that the temperature corresponds to or equals body temperature."
       ]
     }
   ]

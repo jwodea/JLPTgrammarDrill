@@ -5,9 +5,9 @@
   "level": "N2",
   "exercises": [
     {
-      "id": "n2_068_10",
-      "example_sentence": "五年にわたって、その作家の作品を集め続けた。",
-      "translation": "We spent five years collecting works by that artist.",
+      "id": "n2_068_1",
+      "example_sentence": "五年______、その作家の作品を集め続けた。",
+      "translation": "I continued collecting works by that author over five years.",
       "blank_target": "にわたって",
       "wrong_choices": [
         "をかけて",
@@ -15,73 +15,153 @@
         "を通じて"
       ],
       "wrong_choice_explanations": [
-        "をかけて means 'をかけて', which is used in different context, but this sentence requires にわたって ('にわたって') for its specific context.",
-        "にかけて means 'にかけて', which is used in different context, but this sentence requires にわたって ('にわたって') for its specific context.",
-        "を通じて means 'を通じて', which is used in different context, but this sentence requires にわたって ('にわたって') for its specific context."
+        "をかけて means 'taking/spending (time)' and emphasizes the effort or cost involved, but this sentence needs にわたって to express the continuous span of time.",
+        "にかけて means 'toward/leading up to' a specific point in time, but this sentence needs にわたって to show duration throughout the entire five-year period.",
+        "を通じて means 'through/via' and indicates a means or medium, but this sentence needs にわたって to express the continuous timespan."
+      ]
+    },
+    {
+      "id": "n2_068_2",
+      "example_sentence": "三ヶ月______、この地域で調査が行われた。",
+      "translation": "Research was conducted in this region over three months.",
+      "blank_target": "にわたって",
+      "wrong_choices": [
+        "のあいだ",
+        "にかけて",
+        "を通して"
+      ],
+      "wrong_choice_explanations": [
+        "のあいだ means 'during/while' and indicates a time period, but it doesn't emphasize the continuous span as strongly as にわたって does in formal contexts.",
+        "にかけて means 'toward/leading up to' and is used for approaching a specific time point, not for spanning an entire duration like this sentence requires.",
+        "を通して means 'throughout' but is more commonly used with abstract concepts or means, while にわたって is more appropriate for concrete time periods in formal contexts."
+      ]
+    },
+    {
+      "id": "n2_068_3",
+      "example_sentence": "二年______、彼は病院で治療を受けた。",
+      "translation": "He received treatment at the hospital over two years.",
+      "blank_target": "にわたって",
+      "wrong_choices": [
+        "のあいだに",
+        "をかけて",
+        "にかけて"
+      ],
+      "wrong_choice_explanations": [
+        "のあいだに means 'during/within' and suggests something happened at some point during the period, but this sentence needs にわたって to show continuous treatment throughout the entire period.",
+        "をかけて emphasizes the effort or resources spent, but this sentence needs にわたって to simply express the duration of ongoing treatment.",
+        "にかけて means 'toward/leading up to' a specific time, but this sentence needs にわたって to show the treatment spanned the entire two-year period."
+      ]
+    },
+    {
+      "id": "n2_068_4",
+      "example_sentence": "十年______、海外赴任を経験した。",
+      "translation": "I experienced overseas assignments over ten years.",
+      "blank_target": "にわたって",
+      "wrong_choices": [
+        "のうちに",
+        "を通じて",
+        "にかけて"
+      ],
+      "wrong_choice_explanations": [
+        "のうちに means 'within/during' and suggests something happened at some point within the timeframe, but this sentence needs にわたって to show experience spanning the entire period.",
+        "を通じて means 'through/via' and indicates a means or medium, but this sentence needs にわたって to express the duration of overseas experience.",
+        "にかけて means 'toward/approaching' a specific time point, but this sentence needs にわたって to show experience spanning the entire ten-year period."
+      ]
+    },
+    {
+      "id": "n2_068_5",
+      "example_sentence": "四年______、フィールド調査が続けられた。",
+      "translation": "Field research was continued over four years.",
+      "blank_target": "にわたって",
+      "wrong_choices": [
+        "のあいだ",
+        "を通して",
+        "をかけて"
+      ],
+      "wrong_choice_explanations": [
+        "のあいだ means 'during/while' but doesn't emphasize the formal, continuous span that にわたって expresses in official or academic contexts like research.",
+        "を通して means 'throughout' but is more commonly used with abstract means or methods, while にわたって is more appropriate for concrete time periods in formal research contexts.",
+        "をかけて emphasizes the investment of time and effort, but this sentence needs にわたって to simply express the continuous duration of the research."
       ]
     },
     {
       "id": "n2_068_6",
-      "example_sentence": "五年にわたって、この地域で調査が行われた。",
-      "translation": "The meeting continued for over five years.",
+      "example_sentence": "全国______、この商品の販売が開始された。",
+      "translation": "Sales of this product began throughout the entire country.",
       "blank_target": "にわたって",
       "wrong_choices": [
-        "をかけて",
-        "にかけて",
+        "において",
+        "に対して",
         "を通じて"
       ],
       "wrong_choice_explanations": [
-        "'をかけて' has a different grammatical function or nuance than '〜にわたって'.",
-        "'にかけて' has a different grammatical function or nuance than '〜にわたって'.",
-        "'を通じて' has a different grammatical function or nuance than '〜にわたって'."
+        "において means 'in/at' and indicates a location or context, but this sentence needs にわたって to emphasize the span across the entire geographical area.",
+        "に対して means 'toward/against' and indicates direction or target, but this sentence needs にわたって to show coverage spanning the whole country.",
+        "を通じて means 'through/via' and indicates a means or medium, but this sentence needs にわたって to express geographical coverage spanning the entire nation."
       ]
     },
     {
       "id": "n2_068_7",
-      "example_sentence": "三ヶ月にわたって、彼は病院で治療を受けた。",
-      "translation": "From autumn to winter is the major season for art exhibitions.",
+      "example_sentence": "六ヶ月______、新製品の開発が進められた。",
+      "translation": "New product development was advanced over six months.",
       "blank_target": "にわたって",
       "wrong_choices": [
+        "のあいだに",
         "をかけて",
-        "にかけて",
-        "を通じて"
+        "にかけて"
       ],
       "wrong_choice_explanations": [
-        "をかけて indicates alternatives, but this sentence needs 〜にわたって to convey spanning / over / throughout (a range of time or space).",
-        "にかけて indicates alternatives, but this sentence needs 〜にわたって to convey spanning / over / throughout (a range of time or space).",
-        "を通じて means 'through/via,' but this sentence needs 〜にわたって to express spanning / over / throughout (a range of time or space)."
+        "のあいだに means 'during/within' and suggests something was completed within the timeframe, but this sentence needs にわたって to show ongoing development throughout the period.",
+        "をかけて emphasizes the time and resources invested in the development, but this sentence needs にわたって to simply express the continuous duration.",
+        "にかけて means 'toward/leading up to' a specific time point, but this sentence needs にわたって to show development spanning the entire six-month period."
       ]
     },
     {
       "id": "n2_068_8",
-      "example_sentence": "二年にわたって、海外赴任を経験した。",
-      "translation": "I gained overseas assignment experience over two years.",
+      "example_sentence": "一週間______、集中的な訓練が行われた。",
+      "translation": "Intensive training was conducted over one week.",
       "blank_target": "にわたって",
       "wrong_choices": [
-        "をかけて",
-        "にかけて",
-        "を通じて"
+        "のあいだ",
+        "を通して",
+        "にかけて"
       ],
       "wrong_choice_explanations": [
-        "While をかけて is a valid grammar pattern, it doesn't convey the same meaning as 〜にわたって and doesn't fit this sentence context.",
-        "While にかけて is a valid grammar pattern, it doesn't convey the same meaning as 〜にわたって and doesn't fit this sentence context.",
-        "を通じて means 'through'; indicates a means or medium, not a central focus; it doesn't fit this sentence context where 〜にわたって is needed."
+        "のあいだ means 'during/while' but doesn't convey the formal, comprehensive nature that にわたって expresses for intensive training programs.",
+        "を通して means 'throughout' but is more commonly used with abstract concepts, while にわたって is more appropriate for concrete time periods in formal training contexts.",
+        "にかけて means 'toward/leading up to' and is used for approaching a specific time, not for spanning an entire duration like this intensive training requires."
       ]
     },
     {
       "id": "n2_068_9",
-      "example_sentence": "三年にわたって、フィールド調査が続けられた。",
-      "translation": "Field research continued over three years.",
+      "example_sentence": "八時間______、会議が続いた。",
+      "translation": "The meeting continued over eight hours.",
       "blank_target": "にわたって",
       "wrong_choices": [
+        "のあいだ",
         "をかけて",
-        "にかけて",
+        "にかけて"
+      ],
+      "wrong_choice_explanations": [
+        "のあいだ means 'during/while' but doesn't emphasize the extensive, continuous nature that にわたって conveys for such a long meeting duration.",
+        "をかけて emphasizes the time spent or invested, but this sentence needs にわたって to simply express the continuous span of the meeting.",
+        "にかけて means 'toward/approaching' a specific time point, but this sentence needs にわたって to show the meeting spanned the entire eight-hour period."
+      ]
+    },
+    {
+      "id": "n2_068_10",
+      "example_sentence": "複数の県______、台風の被害が報告された。",
+      "translation": "Typhoon damage was reported across multiple prefectures.",
+      "blank_target": "にわたって",
+      "wrong_choices": [
+        "において",
+        "に対して",
         "を通じて"
       ],
       "wrong_choice_explanations": [
-        "'をかけて' is 'をかけて', but this context requires '〜にわたって' to indicate spanning.",
-        "'にかけて' is 'にかけて', but this context requires '〜にわたって' to indicate spanning.",
-        "'を通じて' means 'through', for passage or means, but this context requires '〜にわたって' to indicate spanning."
+        "において means 'in/at' and indicates location or context, but this sentence needs にわたって to emphasize the span across multiple geographical areas.",
+        "に対して means 'toward/against' and indicates direction or opposition, but this sentence needs にわたって to show damage spanning across the prefectures.",
+        "を通じて means 'through/via' and indicates a means or route, but this sentence needs にわたって to express geographical coverage spanning multiple prefectures."
       ]
     }
   ]

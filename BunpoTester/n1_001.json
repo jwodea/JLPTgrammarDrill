@@ -6,8 +6,8 @@
   "exercises": [
     {
       "id": "n1_001_1",
-      "example_sentence": "[ファイル1]弁護士ともなると、法律相談に応じることが求められる。",
-      "translation": "[ファイル1] When one becomes a 弁護士, 法律相談に応じる is required.",
+      "example_sentence": "弁護士ともなると、法律相談に応じることが求められる。",
+      "translation": "When it comes to being a lawyer, one is required to provide legal advice.",
       "blank_target": "ともなると",
       "wrong_choices": [
         "ともなれば",
@@ -21,25 +21,9 @@
       ]
     },
     {
-      "id": "n1_001_10",
-      "example_sentence": "医学倫理の最高段階に達するともなると、患者の自律性と医療的利益のバランスを深く理解する必要がある。",
-      "translation": "When it comes to reaching the highest stage of medical ethics, one must understand the balance between patient autonomy and medical benefit.",
-      "blank_target": "ともなると",
-      "wrong_choices": [
-        "という",
-        "といえば",
-        "とおぼしき"
-      ],
-      "wrong_choice_explanations": [
-        "'という' means 'is called / is said to be'; indicates quotation or naming, but doesn't express the sense of reaching a high level.",
-        "'といえば' means 'if we say / when it comes to'; expresses a conditional or topic, not the gradual progression to a high level.",
-        "'とおぼしき' means 'appears to be / seems like'; indicates appearance or assumption, not the reaching of a status or level."
-      ]
-    },
-    {
       "id": "n1_001_2",
-      "example_sentence": "[ファイル2]経営者ともなると、患者を治療することが求められる。",
-      "translation": "[ファイル2] When one becomes a 経営者, 患者を治療する is required.",
+      "example_sentence": "医師ともなると、患者を治療することが求められる。",
+      "translation": "When it comes to being a doctor, one is required to treat patients.",
       "blank_target": "ともなると",
       "wrong_choices": [
         "ともなれば",
@@ -54,8 +38,8 @@
     },
     {
       "id": "n1_001_3",
-      "example_sentence": "[ファイル3]俳優ともなると、建物を設計することが求められる。",
-      "translation": "[ファイル3] When one becomes a 俳優, 建物を設計する is required.",
+      "example_sentence": "建築家ともなると、建物を設計することが求められる。",
+      "translation": "When it comes to being an architect, one is required to design buildings.",
       "blank_target": "ともなると",
       "wrong_choices": [
         "ともなれば",
@@ -70,8 +54,8 @@
     },
     {
       "id": "n1_001_4",
-      "example_sentence": "[ファイル4]弁護士ともなると、生徒を指導することが求められる。",
-      "translation": "[ファイル4] When one becomes a 弁護士, 生徒を指導する is required.",
+      "example_sentence": "教師ともなると、生徒を指導することが求められる。",
+      "translation": "When it comes to being a teacher, one is required to guide students.",
       "blank_target": "ともなると",
       "wrong_choices": [
         "ともなれば",
@@ -86,8 +70,8 @@
     },
     {
       "id": "n1_001_5",
-      "example_sentence": "[ファイル5]経営者ともなると、システムを構築することが求められる。",
-      "translation": "[ファイル5] When one becomes a 経営者, システムを構築する is required.",
+      "example_sentence": "システムエンジニアともなると、システムを構築することが求められる。",
+      "translation": "When it comes to being a system engineer, one is required to build systems.",
       "blank_target": "ともなると",
       "wrong_choices": [
         "ともなれば",
@@ -162,6 +146,22 @@
         "『という』 expresses being 'called' or 'known as,' which identifies a name or label; it doesn't convey the temporal meaning of 'once one reaches' a high level.",
         "『といえば』 introduces a topic for discussion with 'if we speak of'; it lacks the conditional-consequence structure of reaching a threshold and experiencing what follows.",
         "『とおぼしき』 means 'appearing to be' or 'seeming,' describing perceived characteristics; it cannot express the actual attainment of a status or rank."
+      ]
+    },
+    {
+      "id": "n1_001_10",
+      "example_sentence": "医学倫理の最高段階に達するともなると、患者の自律性と医療的利益のバランスを深く理解する必要がある。",
+      "translation": "When it comes to reaching the highest stage of medical ethics, one must understand the balance between patient autonomy and medical benefit.",
+      "blank_target": "ともなると",
+      "wrong_choices": [
+        "という",
+        "といえば",
+        "とおぼしき"
+      ],
+      "wrong_choice_explanations": [
+        "'という' means 'is called / is said to be'; indicates quotation or naming, but doesn't express the sense of reaching a high level.",
+        "'といえば' means 'if we say / when it comes to'; expresses a conditional or topic, not the gradual progression to a high level.",
+        "'とおぼしき' means 'appears to be / seems like'; indicates appearance or assumption, not the reaching of a status or level."
       ]
     }
   ]

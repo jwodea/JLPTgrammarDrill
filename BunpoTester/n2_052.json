@@ -5,9 +5,9 @@
   "level": "N2",
   "exercises": [
     {
-      "id": "n2_052_10",
+      "id": "n2_052_1",
       "example_sentence": "その理論が正しいとすれば、美術の定義を見直す必要がある。",
-      "translation": "If that theory is correct, we need to reconsider art's definition.",
+      "translation": "If we assume that theory is correct, we need to reconsider the definition of art.",
       "blank_target": "とすれば",
       "wrong_choices": [
         "とすると",
@@ -15,73 +15,153 @@
         "なら"
       ],
       "wrong_choice_explanations": [
-        "とすると means 'とすると', which is used in different context, but this sentence requires とすれば ('とすれば') for its specific context.",
-        "としたら means 'としたら', which is used in different context, but this sentence requires とすれば ('とすれば') for its specific context.",
-        "なら means 'なら', which is used in different context, but this sentence requires とすれば ('とすれば') for its specific context."
+        "とすると implies a more immediate logical consequence, but this sentence needs とすれば to express hypothetical reasoning about assuming the theory's correctness.",
+        "としたら suggests a more conditional 'what if' scenario, but this context requires とすれば to express the formal assumption of the theory's validity.",
+        "なら is a simple conditional that doesn't convey the hypothetical reasoning nuance needed here; とすれば specifically indicates we're supposing something for the sake of argument."
+      ]
+    },
+    {
+      "id": "n2_052_2",
+      "example_sentence": "彼が本当に辞職するとすれば、跡継ぎをどうするのか。",
+      "translation": "Supposing he really does resign, what will we do about a successor?",
+      "blank_target": "とすれば",
+      "wrong_choices": [
+        "とすると",
+        "だとしたら",
+        "なら"
+      ],
+      "wrong_choice_explanations": [
+        "とすると would imply a more direct logical consequence, but this sentence needs とすれば to express the hypothetical consideration of his potential resignation.",
+        "だとしたら is used for assumptions about states or conditions, but とすれば is needed here to express hypothetical reasoning about his action of resigning.",
+        "なら would make this a simple conditional, but the context requires とすれば to convey the meaning of 'supposing' or 'assuming for argument's sake.'"
+      ]
+    },
+    {
+      "id": "n2_052_3",
+      "example_sentence": "彼の主張が正しいとすれば、対応策を変更する必要がある。",
+      "translation": "If we assume his claim is correct, we need to change our response measures.",
+      "blank_target": "とすれば",
+      "wrong_choices": [
+        "とすると",
+        "としても",
+        "ば"
+      ],
+      "wrong_choice_explanations": [
+        "とすると suggests a more immediate logical result, but this sentence needs とすれば to express the hypothetical assumption of his claim's validity.",
+        "としても means 'even if' and would contradict the sentence's logic; とすれば is needed to express supposing his claim for the sake of argument.",
+        "ば creates a simple conditional that lacks the hypothetical reasoning nuance; とすれば specifically conveys the meaning of assuming something as a premise."
+      ]
+    },
+    {
+      "id": "n2_052_4",
+      "example_sentence": "この新規事業が黒字化するとすれば、いつ頃だろうか。",
+      "translation": "If we assume this new business becomes profitable, when would that be?",
+      "blank_target": "とすれば",
+      "wrong_choices": [
+        "とすると",
+        "としたら",
+        "ものなら"
+      ],
+      "wrong_choice_explanations": [
+        "とすると would suggest a more direct logical consequence, but this sentence needs とすれば to express hypothetical reasoning about the business's potential profitability.",
+        "としたら is more casual and suggests a 'what if' scenario, but とすれば is needed here for the formal tone of supposing the business outcome.",
+        "ものなら implies an impossible or very difficult condition, but とすれば is appropriate here for reasonable hypothetical assumptions about business success."
+      ]
+    },
+    {
+      "id": "n2_052_5",
+      "example_sentence": "その理論が正しいとすれば、今後どのような展開が予想されるだろうか。",
+      "translation": "Supposing that theory is correct, what kind of developments can we expect in the future?",
+      "blank_target": "とすれば",
+      "wrong_choices": [
+        "とすると",
+        "だとしたら",
+        "として"
+      ],
+      "wrong_choice_explanations": [
+        "とすると would imply a more immediate logical result, but this sentence needs とすれば to express hypothetical reasoning about assuming the theory's correctness.",
+        "だとしたら is used for assumptions about states, but とすれば is needed here to express the formal supposition of the theory for analytical purposes.",
+        "として means 'as' or 'in the capacity of' and doesn't create a conditional meaning; とすれば is required to express the hypothetical assumption."
       ]
     },
     {
       "id": "n2_052_6",
-      "example_sentence": "彼が本当に辞職するとすれば、跡継ぎをどうするのか。",
-      "translation": "If he is truly resigning, what will we do about a successor?",
+      "example_sentence": "経済が回復するとすれば、雇用状況も改善されるはずだ。",
+      "translation": "If we assume the economy recovers, the employment situation should improve as well.",
       "blank_target": "とすれば",
       "wrong_choices": [
         "とすると",
-        "としたら",
-        "なら"
+        "なら",
+        "ならば"
       ],
       "wrong_choice_explanations": [
-        "'とすると' has a different grammatical function or nuance than '〜とすれば'.",
-        "'としたら' has a different grammatical function or nuance than '〜とすれば'.",
-        "'なら' has a different grammatical function or nuance than '〜とすれば'."
+        "とすると suggests a more direct cause-and-effect relationship, but とすれば is needed here to express the hypothetical reasoning about economic recovery.",
+        "なら creates a simple conditional that lacks the nuance of hypothetical assumption; とすれば specifically conveys supposing the economic recovery as a premise.",
+        "ならば is a formal conditional but doesn't carry the hypothetical reasoning meaning; とすれば is needed to express assuming the recovery for the sake of analysis."
       ]
     },
     {
       "id": "n2_052_7",
-      "example_sentence": "彼の主張が正しいとすれば、対応策を変更する必要がある。",
-      "translation": "If the market shrinks, what measures would be necessary?",
+      "example_sentence": "この計画が実現するとすれば、相当な資金が必要になる。",
+      "translation": "If we assume this plan is realized, considerable funding will be needed.",
       "blank_target": "とすれば",
       "wrong_choices": [
         "とすると",
         "としたら",
-        "なら"
+        "とは"
       ],
       "wrong_choice_explanations": [
-        "とすると does not convey the meaning of 〜とすれば required in this context: if we assume / supposing that (hypothetical reasoning).",
-        "としたら does not convey the meaning of 〜とすれば required in this context: if we assume / supposing that (hypothetical reasoning).",
-        "なら does not convey the meaning of 〜とすれば required in this context: if we assume / supposing that (hypothetical reasoning)."
+        "とすると would imply a more immediate logical consequence, but とすれば is needed to express hypothetical reasoning about the plan's realization.",
+        "としたら suggests a more casual 'what if' scenario, but とすれば is appropriate for the formal tone of supposing the plan's implementation.",
+        "とは is used for definitions or explanations, not conditionals; とすれば is required to create the hypothetical assumption about the plan."
       ]
     },
     {
       "id": "n2_052_8",
-      "example_sentence": "この新規事業が黒字化するとすれば、いつ頃だろうか。",
-      "translation": "If this new project becomes profitable, when would that be?",
+      "example_sentence": "彼女の診断が間違っているとすれば、治療方針を見直さなければならない。",
+      "translation": "Supposing her diagnosis is wrong, we would have to reconsider the treatment plan.",
       "blank_target": "とすれば",
       "wrong_choices": [
         "とすると",
-        "としたら",
-        "なら"
+        "だとしても",
+        "かもしれない"
       ],
       "wrong_choice_explanations": [
-        "While とすると is a valid grammar pattern, it doesn't convey the same meaning as 〜とすれば and doesn't fit this sentence context.",
-        "While としたら is a valid grammar pattern, it doesn't convey the same meaning as 〜とすれば and doesn't fit this sentence context.",
-        "While なら is a valid grammar pattern, it doesn't convey the same meaning as 〜とすれば and doesn't fit this sentence context."
+        "とすると would suggest a more direct logical result, but とすれば is needed to express the hypothetical consideration of the diagnosis being incorrect.",
+        "だとしても means 'even if' and would change the sentence's meaning; とすれば is required to express supposing the diagnosis error as a premise.",
+        "かもしれない expresses possibility, not a conditional; とすれば is needed to create the hypothetical assumption about the diagnosis being wrong."
       ]
     },
     {
       "id": "n2_052_9",
-      "example_sentence": "その理論が正しいとすれば、今後どのような展開が予想されるだろうか。",
-      "translation": "If the theory is correct, what future developments are predicted?",
+      "example_sentence": "この薬が効果的だとすれば、副作用についても調べる必要がある。",
+      "translation": "If we assume this medicine is effective, we also need to investigate side effects.",
       "blank_target": "とすれば",
       "wrong_choices": [
         "とすると",
-        "としたら",
-        "なら"
+        "とはいえ",
+        "にしても"
       ],
       "wrong_choice_explanations": [
-        "'とすると' is 'とすると', but this context requires '〜とすれば' to indicate if we assume.",
-        "'としたら' is 'としたら', but this context requires '〜とすれば' to indicate if we assume.",
-        "'なら' is 'なら', but this context requires '〜とすれば' to indicate if we assume."
+        "とすると implies a more immediate logical consequence, but とすれば is needed to express hypothetical reasoning about assuming the medicine's effectiveness.",
+        "とはいえ means 'even so' or 'nevertheless' and doesn't create a conditional; とすれば is required to express the hypothetical assumption.",
+        "にしても means 'even if' or 'whether' and changes the sentence logic; とすれば is needed to express supposing the medicine's effectiveness for analysis."
+      ]
+    },
+    {
+      "id": "n2_052_10",
+      "example_sentence": "この政策が成功するとすれば、他の地域でも導入を検討すべきだろう。",
+      "translation": "Supposing this policy succeeds, we should consider implementing it in other regions too.",
+      "blank_target": "とすれば",
+      "wrong_choices": [
+        "とすると",
+        "としても",
+        "について"
+      ],
+      "wrong_choice_explanations": [
+        "とすると would suggest a more direct logical result, but とすれば is needed to express hypothetical reasoning about the policy's potential success.",
+        "としても means 'even if' and would contradict the sentence's positive logic; とすれば is required to express supposing the policy's success as a premise.",
+        "について means 'about' or 'regarding' and doesn't create a conditional meaning; とすれば is needed to express the hypothetical assumption about policy success."
       ]
     }
   ]

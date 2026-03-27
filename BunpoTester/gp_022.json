@@ -1,0 +1,168 @@
+{
+  "id": "gp_022",
+  "pattern": "～ませんでした",
+  "meaning": "Polite past negative",
+  "level": "N5",
+  "exercises": [
+    {
+      "id": 1,
+      "example_sentence": "昨日は雨が降り__。",
+      "translation": "It didn't rain yesterday.",
+      "blank_target": "ませんでした",
+      "wrong_choices": [
+        "ました",
+        "ません",
+        "なかった"
+      ],
+      "wrong_choice_explanations": {
+        "ました": "ました is polite past positive — it means 'it rained' but this sentence is about it not raining.",
+        "ません": "ません is polite negative present — it means 'doesn't rain' but this sentence is about yesterday.",
+        "なかった": "なかった is plain past negative — it's too casual for this polite sentence structure."
+      }
+    },
+    {
+      "id": 2,
+      "example_sentence": "宿題をし__。",
+      "translation": "I didn't do my homework.",
+      "blank_target": "ませんでした",
+      "wrong_choices": [
+        "ました",
+        "ません",
+        "ない"
+      ],
+      "wrong_choice_explanations": {
+        "ました": "ました is polite past positive — it means 'I did' but this sentence is about not doing homework.",
+        "ません": "ません is polite negative present — it means 'don't do' but this sentence is about past failure.",
+        "ない": "ない is plain negative present — it's too casual and wrong tense for this polite past sentence."
+      }
+    },
+    {
+      "id": 3,
+      "example_sentence": "朝ごはんを食べ__。",
+      "translation": "I didn't eat breakfast.",
+      "blank_target": "ませんでした",
+      "wrong_choices": [
+        "ました",
+        "ません",
+        "なかった"
+      ],
+      "wrong_choice_explanations": {
+        "ました": "ました is polite past positive — it means 'I ate' but this sentence is about not eating.",
+        "ません": "ません is polite negative present — it means 'don't eat' but this sentence is about past action.",
+        "なかった": "なかった is plain past negative — it's too casual for this polite sentence structure."
+      }
+    },
+    {
+      "id": 4,
+      "example_sentence": "映画を見__。",
+      "translation": "I didn't watch the movie.",
+      "blank_target": "ませんでした",
+      "wrong_choices": [
+        "ました",
+        "ません",
+        "た"
+      ],
+      "wrong_choice_explanations": {
+        "ました": "ました is polite past positive — it means 'I watched' but this sentence is about not watching.",
+        "ません": "ません is polite negative present — it means 'don't watch' but this sentence is about past action.",
+        "た": "た is plain past positive — it's the wrong polarity and formality level for this sentence."
+      }
+    },
+    {
+      "id": 5,
+      "example_sentence": "友達に会い__。",
+      "translation": "I didn't meet my friend.",
+      "blank_target": "ませんでした",
+      "wrong_choices": [
+        "ました",
+        "ません",
+        "ないでした"
+      ],
+      "wrong_choice_explanations": {
+        "ました": "ました is polite past positive — it means 'I met' but this sentence is about not meeting.",
+        "ません": "ません is polite negative present — it means 'don't meet' but this sentence is about past action.",
+        "ないでした": "ないでした is not a correct Japanese form — the proper polite past negative is ませんでした."
+      }
+    },
+    {
+      "id": 6,
+      "example_sentence": "今朝は新聞を読み__。",
+      "translation": "I didn't read the newspaper this morning.",
+      "blank_target": "ませんでした",
+      "wrong_choices": [
+        "ました",
+        "ません",
+        "なかった"
+      ],
+      "wrong_choice_explanations": {
+        "ました": "ました is polite past positive — it means 'I read' but this sentence is about not reading.",
+        "ません": "ません is polite negative present — it means 'don't read' but this sentence is about this morning.",
+        "なかった": "なかった is plain past negative — it's too casual for this polite sentence structure."
+      }
+    },
+    {
+      "id": 7,
+      "example_sentence": "パーティーに行き__。",
+      "translation": "I didn't go to the party.",
+      "blank_target": "ませんでした",
+      "wrong_choices": [
+        "ました",
+        "ません",
+        "ていません"
+      ],
+      "wrong_choice_explanations": {
+        "ました": "ました is polite past positive — it means 'I went' but this sentence is about not going.",
+        "ません": "ません is polite negative present — it means 'don't go' but this sentence is about past action.",
+        "ていません": "ていません means 'am not doing' (present ongoing) — it doesn't fit this past context."
+      }
+    },
+    {
+      "id": 8,
+      "example_sentence": "お酒を飲み__。",
+      "translation": "I didn't drink alcohol.",
+      "blank_target": "ませんでした",
+      "wrong_choices": [
+        "ました",
+        "ません",
+        "ないです"
+      ],
+      "wrong_choice_explanations": {
+        "ました": "ました is polite past positive — it means 'I drank' but this sentence is about not drinking.",
+        "ません": "ません is polite negative present — it means 'don't drink' but this sentence is about past action.",
+        "ないです": "ないです is polite negative but present tense — it doesn't fit this past context."
+      }
+    },
+    {
+      "id": 9,
+      "example_sentence": "テレビを見__。",
+      "translation": "I didn't watch TV.",
+      "blank_target": "ませんでした",
+      "wrong_choices": [
+        "ました",
+        "ません",
+        "なかったです"
+      ],
+      "wrong_choice_explanations": {
+        "ました": "ました is polite past positive — it means 'I watched' but this sentence is about not watching.",
+        "ません": "ません is polite negative present — it means 'don't watch' but this sentence is about past action.",
+        "なかったです": "なかったです is overly casual mixing — ませんでした is the proper polite past negative form."
+      }
+    },
+    {
+      "id": 10,
+      "example_sentence": "買い物をし__。",
+      "translation": "I didn't go shopping.",
+      "blank_target": "ませんでした",
+      "wrong_choices": [
+        "ました",
+        "ません",
+        "ていない"
+      ],
+      "wrong_choice_explanations": {
+        "ました": "ました is polite past positive — it means 'I did' but this sentence is about not going shopping.",
+        "ません": "ません is polite negative present — it means 'don't do' but this sentence is about past action.",
+        "ていない": "ていない is plain negative present ongoing — it's too casual and wrong tense for this context."
+      }
+    }
+  ]
+}

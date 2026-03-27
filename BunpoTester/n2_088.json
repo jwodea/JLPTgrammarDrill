@@ -5,83 +5,163 @@
   "level": "N2",
   "exercises": [
     {
-      "id": "n2_088_10",
+      "id": "n2_088_1",
       "example_sentence": "古典にしろ現代美術にしろ、創造的表現が本質だ。",
-      "translation": "Whether famous or obscure artists, artwork value is relative.",
+      "translation": "Whether classical or contemporary art, creative expression is the essence.",
       "blank_target": "にしろ",
       "wrong_choices": [
-        "にしても反対にしても",
-        "だろうと反対だろうと",
-        "でも反対でも"
+        "にしても",
+        "だとしても",
+        "であれ"
       ],
       "wrong_choice_explanations": [
-        "にしても反対にしても means 'にしても反対にしても', which is used in different context, but this sentence requires にしろにしろ ('にしろにしろ') for its specific context.",
-        "だろうと反対だろうと means 'だろうと反対だろうと', which is used in different context, but this sentence requires にしろにしろ ('にしろにしろ') for its specific context.",
-        "でも反対でも means 'でも反対でも', which is used in different context, but this sentence requires にしろにしろ ('にしろにしろ') for its specific context."
+        "にしても means 'even if' and focuses on concession, but here we need にしろ to show that the same conclusion applies to both options.",
+        "だとしても means 'even if/supposing that' and expresses assumption, but this context requires にしろ to indicate that both cases lead to the same result.",
+        "であれ is formal and means 'whether/no matter', but にしろ is more appropriate here to emphasize that the conclusion holds for both alternatives."
+      ]
+    },
+    {
+      "id": "n2_088_2",
+      "example_sentence": "成功にしろ失敗にしろ、そこから学べることがある。",
+      "translation": "Whether success or failure, there are things to learn from both.",
+      "blank_target": "にしろ",
+      "wrong_choices": [
+        "だろうと",
+        "でも",
+        "といっても"
+      ],
+      "wrong_choice_explanations": [
+        "だろうと means 'even if/whether' but is typically used with uncertainty about future events, while にしろ is better for contrasting two definite possibilities.",
+        "でも means 'even' and creates unnatural grammar when repeated (成功でも失敗でも), whereas にしろ properly establishes the either-or structure.",
+        "といっても means 'even though/although' and expresses contradiction, but this sentence needs にしろ to show both options lead to the same positive conclusion."
+      ]
+    },
+    {
+      "id": "n2_088_3",
+      "example_sentence": "どちらの党が勝つにしろ、改革は避けられない。",
+      "translation": "Whichever party wins, reform is unavoidable.",
+      "blank_target": "にしろ",
+      "wrong_choices": [
+        "としても",
+        "にせよ",
+        "ものの"
+      ],
+      "wrong_choice_explanations": [
+        "としても means 'even if' and suggests the outcome might be contrary to expectation, but にしろ is needed to show the same result regardless of which party wins.",
+        "にせよ has similar meaning to にしろ but is more formal and literary, while にしろ is the standard form for this pattern.",
+        "ものの means 'although/though' and indicates contrast or contradiction, but this sentence needs にしろ to show the inevitable result in either case."
+      ]
+    },
+    {
+      "id": "n2_088_4",
+      "example_sentence": "上場にしろ非上場にしろ、経営の透明性は重要だ。",
+      "translation": "Whether going public or remaining private, management transparency is important.",
+      "blank_target": "にしろ",
+      "wrong_choices": [
+        "であっても",
+        "にかかわらず",
+        "を問わず"
+      ],
+      "wrong_choice_explanations": [
+        "であっても means 'even if' and emphasizes that something remains true despite a condition, but にしろ specifically creates the either-or pattern needed here.",
+        "にかかわらず means 'regardless of' and would require different grammar (上場・非上場にかかわらず), while this sentence uses the paired にしろ structure.",
+        "を問わず means 'regardless of/irrespective of' and would need noun form, but this sentence requires にしろ to create the contrast between two specific options."
+      ]
+    },
+    {
+      "id": "n2_088_5",
+      "example_sentence": "帰納的なアプローチにしろ演繹的なアプローチにしろ、厳密性が必要だ。",
+      "translation": "Whether an inductive approach or deductive approach, rigor is necessary.",
+      "blank_target": "にしろ",
+      "wrong_choices": [
+        "にしたって",
+        "だって",
+        "なら"
+      ],
+      "wrong_choice_explanations": [
+        "にしたって is casual and means 'even if', but this formal academic context requires にしろ to properly express that both methodological approaches demand the same standard.",
+        "だって is very casual and means 'even' or 'because', creating unnatural grammar in this formal sentence about research methodology.",
+        "なら means 'if' and creates conditional meaning, but this sentence needs にしろ to show that rigor is required regardless of which approach is chosen."
       ]
     },
     {
       "id": "n2_088_6",
-      "example_sentence": "成功にしろ失敗にしろ、そこから学べることがある。",
-      "translation": "Both success and failure have things to learn from.",
+      "example_sentence": "男性にしろ女性にしろ、平等な機会が与えられるべきだ。",
+      "translation": "Whether male or female, equal opportunities should be given.",
       "blank_target": "にしろ",
       "wrong_choices": [
-        "にしても反対にしても",
-        "だろうと反対だろうと",
-        "でも反対でも"
+        "であろうと",
+        "にかかわらず",
+        "だろうが"
       ],
       "wrong_choice_explanations": [
-        "'にしても反対にしても' has a different grammatical function or nuance than '〜にしろ〜にしろ'.",
-        "'だろうと反対だろうと' has a different grammatical function or nuance than '〜にしろ〜にしろ'.",
-        "'でも反対でも' has a different grammatical function or nuance than '〜にしろ〜にしろ'."
+        "であろうと means 'no matter whether' and is more formal, but にしろ is the standard form for this paired pattern expressing equal treatment.",
+        "にかかわらず means 'regardless of' but would require different grammar structure (性別にかかわらず), while this uses the specific paired pattern with にしろ.",
+        "だろうが means 'whether' in casual speech but sounds too informal for this statement about equal rights, whereas にしろ maintains appropriate formality."
       ]
     },
     {
       "id": "n2_088_7",
-      "example_sentence": "どちらの党が勝つにしろ、改革は避けられない。",
-      "translation": "Since the artist is anonymous, background cannot be deduced.",
+      "example_sentence": "国内企業にしろ外資系企業にしろ、人材確保が課題だ。",
+      "translation": "Whether domestic companies or foreign companies, securing talent is a challenge.",
       "blank_target": "にしろ",
       "wrong_choices": [
-        "にしても反対にしても",
-        "だろうと反対だろうと",
-        "でも反対でも"
+        "と言えども",
+        "とはいえ",
+        "にしたところで"
       ],
       "wrong_choice_explanations": [
-        "にしても反対にしても does not convey the meaning of 〜にしろ〜にしろ required in this context: whether... or... / either way (covers both cases and draws same conclusion).",
-        "だろうと反対だろうと does not convey the meaning of 〜にしろ〜にしろ required in this context: whether... or... / either way (covers both cases and draws same conclusion).",
-        "でも反対でも does not convey the meaning of 〜にしろ〜にしろ required in this context: whether... or... / either way (covers both cases and draws same conclusion)."
+        "と言えども means 'even though/although' and expresses concession, but this sentence needs にしろ to show both types of companies face the same challenge.",
+        "とはいえ means 'having said that/nevertheless' and indicates contrast or qualification, but にしろ is required to establish the parallel situation.",
+        "にしたところで means 'even if/no matter how' and suggests limitation, but にしろ is needed to show the common challenge across both company types."
       ]
     },
     {
       "id": "n2_088_8",
-      "example_sentence": "上場にしろ非上場にしろ、経営の透明性は重要だ。",
-      "translation": "Whether going public or remaining private, management transparency is critical.",
+      "example_sentence": "新人にしろベテランにしろ、継続的な学習が大切だ。",
+      "translation": "Whether newcomers or veterans, continuous learning is important.",
       "blank_target": "にしろ",
       "wrong_choices": [
-        "にしても反対にしても",
-        "だろうと反対だろうと",
-        "でも反対でも"
+        "であれば",
+        "なりに",
+        "につけ"
       ],
       "wrong_choice_explanations": [
-        "While にしても反対にしても is a valid grammar pattern, it doesn't convey the same meaning as 〜にしろ〜にしろ and doesn't fit this sentence context.",
-        "While だろうと反対だろうと is a valid grammar pattern, it doesn't convey the same meaning as 〜にしろ〜にしろ and doesn't fit this sentence context.",
-        "While でも反対でも is a valid grammar pattern, it doesn't convey the same meaning as 〜にしろ〜にしろ and doesn't fit this sentence context."
+        "であれば means 'if' and creates conditional meaning, but this sentence needs にしろ to show that learning is important regardless of experience level.",
+        "なりに means 'in one's own way/according to' and suggests individual adaptation, but にしろ emphasizes the universal importance of learning.",
+        "につけ means 'whenever/every time' and is used with repeated actions, but this context requires にしろ to contrast the two groups while making the same point."
       ]
     },
     {
       "id": "n2_088_9",
-      "example_sentence": "帰納的なアプローチにしろ演繹的なアプローチにしろ、厳密性が必要だ。",
-      "translation": "Whether young or veteran researchers, academic ethics are equal.",
+      "example_sentence": "賛成にしろ反対にしろ、きちんとした理由が必要だ。",
+      "translation": "Whether in favor or against, proper reasons are necessary.",
       "blank_target": "にしろ",
       "wrong_choices": [
-        "にしても反対にしても",
-        "だろうと反対だろうと",
-        "でも反対でも"
+        "にもかかわらず",
+        "をよそに",
+        "ながらも"
       ],
       "wrong_choice_explanations": [
-        "'にしても反対にしても' is 'にしても反対にしても', but this context requires '〜にしろ〜にしろ' to indicate whether... or....",
-        "'だろうと反対だろうと' is 'だろうと反対だろうと', but this context requires '〜にしろ〜にしろ' to indicate whether... or....",
-        "'でも反対でも' is 'でも反対でも', but this context requires '〜にしろ〜にしろ' to indicate whether... or...."
+        "にもかかわらず means 'despite/in spite of' and expresses contrast or unexpected results, but にしろ is needed to show both positions require justification.",
+        "をよそに means 'ignoring/disregarding' and suggests indifference, which contradicts the message that both positions need proper reasoning.",
+        "ながらも means 'while/although' and indicates simultaneous contrasting actions, but にしろ creates the either-or structure required here."
+      ]
+    },
+    {
+      "id": "n2_088_10",
+      "example_sentence": "都市部にしろ地方にしろ、高齢化社会への対応が急務だ。",
+      "translation": "Whether in urban areas or rural areas, responding to an aging society is urgent.",
+      "blank_target": "にしろ",
+      "wrong_choices": [
+        "において",
+        "に関して",
+        "について"
+      ],
+      "wrong_choice_explanations": [
+        "において means 'in/at' and indicates location or situation, but this sentence needs にしろ to show that both areas face the same urgent challenge.",
+        "に関して means 'regarding/concerning' and introduces a topic, but にしろ is required to create the either-or pattern showing universal urgency.",
+        "について means 'about/concerning' and indicates the subject matter, but にしろ establishes the contrast between locations while emphasizing the same conclusion."
       ]
     }
   ]

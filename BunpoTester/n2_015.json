@@ -15,41 +15,25 @@
         "と違って"
       ],
       "wrong_choice_explanations": [
-        "means 'against' or 'in response to' (relational or adversarial), which differs from the meaning needed here",
-        "This pattern does not convey the same meaning as '〜に反して' (contrary to / against / in opposition to) needed in this context.",
-        "This pattern does not convey the same meaning as '〜に反して' (contrary to / against / in opposition to) needed in this context."
-      ]
-    },
-    {
-      "id": "n2_015_10",
-      "example_sentence": "専門家の意見に反して、管理者は別の判断を下した。",
-      "translation": "The manager made a different judgment contrary to expert opinion.",
-      "blank_target": "に反して",
-      "wrong_choices": [
-        "に対して",
-        "にもかかわらず",
-        "と違って"
-      ],
-      "wrong_choice_explanations": [
-        "に対して means 'against / toward / in response to', which is used in directional or oppositional relationship, but this sentence requires に反して ('に反して') for its specific context.",
-        "にもかかわらず means 'にもかかわらず', which is used in different context, but this sentence requires に反して ('に反して') for its specific context.",
-        "と違って means 'と違って', which is used in different context, but this sentence requires に反して ('に反して') for its specific context."
+        "に対して means 'toward/against' for directional relationships, but doesn't express the contradiction implied by 'contrary to expectations'.",
+        "にもかかわらず means 'despite/in spite of' but lacks the active opposition nuance of に反して needed here.",
+        "と違って means 'different from' but only shows difference, not the contradictory relationship expressed by に反して."
       ]
     },
     {
       "id": "n2_015_2",
       "example_sentence": "予測に反して、株価が上昇した。",
-      "translation": "Against predictions, stock prices rose.",
+      "translation": "Contrary to predictions, stock prices rose.",
       "blank_target": "に反して",
       "wrong_choices": [
-        "に対して",
-        "にもかかわらず",
-        "と違って"
+        "によって",
+        "について",
+        "として"
       ],
       "wrong_choice_explanations": [
-        "に対して has a different grammatical function and doesn't fit the context of this sentence where に反して is required.",
-        "にもかかわらず has a different grammatical function and doesn't fit the context of this sentence where に反して is required.",
-        "と違って has a different grammatical function and doesn't fit the context of this sentence where に反して is required."
+        "によって indicates means or cause, but this sentence needs に反して to show the outcome contradicted predictions.",
+        "について means 'about/concerning' but doesn't express the contradictory relationship required here.",
+        "として means 'as/in the role of' but cannot express opposition to predictions like に反して does."
       ]
     },
     {
@@ -63,9 +47,9 @@
         "と違って"
       ],
       "wrong_choice_explanations": [
-        "に対して means towards / against / in response to, but 〜に反して has a specific meaning, which is what this sentence requires.",
-        "にもかかわらず means in spite of / regardless, but 〜に反して has a specific meaning, which is what this sentence requires.",
-        "と違って has a different grammatical function, but 〜に反して is needed to express the specific meaning required in this sentence."
+        "に対して expresses direction or response but cannot capture the meaning of going against common sense.",
+        "にもかかわらず means 'despite' but emphasizes overcoming obstacles rather than actively contradicting expectations.",
+        "と違って shows simple difference but lacks the confrontational nuance of に反して needed here."
       ]
     },
     {
@@ -74,14 +58,14 @@
       "translation": "Contrary to expectations, sales declined.",
       "blank_target": "に反して",
       "wrong_choices": [
-        "に対して",
-        "にもかかわらず",
-        "と違って"
+        "に関して",
+        "に沿って",
+        "に基づいて"
       ],
       "wrong_choice_explanations": [
-        "に対して has a different grammatical function that doesn't fit this sentence context.",
-        "にもかかわらず has a different grammatical function that doesn't fit this sentence context.",
-        "と違って has a different grammatical function that doesn't fit this sentence context."
+        "に関して means 'regarding/concerning' but doesn't express contradiction to expectations.",
+        "に沿って means 'along with/according to' which is opposite to the contradictory meaning needed here.",
+        "に基づいて means 'based on' but suggests following expectations rather than contradicting them."
       ]
     },
     {
@@ -95,41 +79,41 @@
         "と違って"
       ],
       "wrong_choice_explanations": [
-        "〜に対して means 'against/toward'; indicates direction, not contradiction.",
-        "〜にもかかわらず means 'despite'; doesn't emphasize active contradiction.",
-        "〜と違って means 'different from'; indicates difference, not opposition."
+        "に対して indicates direction or opposition but lacks the specific meaning of going against a trend or expectation.",
+        "にもかかわらず means 'despite' but doesn't emphasize the active contradiction to historical flow.",
+        "と違って indicates difference but cannot express the opposition to historical trends like に反して."
       ]
     },
     {
       "id": "n2_015_6",
-      "example_sentence": "専門家の警告に反して、政府は対策を先延ばしにした。",
-      "translation": "Contrary to expert warnings, the government postponed measures.",
+      "example_sentence": "医師の助言に反して、患者は治療を拒否した。",
+      "translation": "Contrary to the doctor's advice, the patient refused treatment.",
       "blank_target": "に反して",
       "wrong_choices": [
-        "に対して",
-        "にもかかわらず",
-        "と違って"
+        "に従って",
+        "によると",
+        "に関して"
       ],
       "wrong_choice_explanations": [
-        "'に対して' has a different grammatical function or nuance than '〜に反して'.",
-        "'にもかかわらず' has a different grammatical function or nuance than '〜に反して'.",
-        "'と違って' has a different grammatical function or nuance than '〜に反して'."
+        "に従って means 'according to/following' which is opposite to the contradictory action described.",
+        "によると means 'according to' for reporting information, not for expressing opposition to advice.",
+        "に関して means 'regarding/about' but cannot express the defiant act against medical advice."
       ]
     },
     {
       "id": "n2_015_7",
-      "example_sentence": "国家の利益に反して、個人的な利益を優先した。",
-      "translation": "The country's interests were compromised for personal gain.",
+      "example_sentence": "世論に反して、政府は新政策を実施した。",
+      "translation": "Against public opinion, the government implemented the new policy.",
       "blank_target": "に反して",
       "wrong_choices": [
         "に対して",
-        "にもかかわらず",
-        "と違って"
+        "について",
+        "による"
       ],
       "wrong_choice_explanations": [
-        "に対して does not convey the meaning of 〜に反して required in this context: contrary to / against / in opposition to.",
-        "にもかかわらず indicates alternatives, but this sentence needs 〜に反して to convey contrary to / against / in opposition to.",
-        "と違って does not convey the meaning of 〜に反して required in this context: contrary to / against / in opposition to."
+        "に対して can show opposition but doesn't capture the specific meaning of acting contrary to public will.",
+        "について means 'about/concerning' but cannot express the government's defiance of public opinion.",
+        "による indicates agency or means but doesn't show opposition to public opinion like に反して."
       ]
     },
     {
@@ -140,28 +124,44 @@
       "wrong_choices": [
         "に対して",
         "にもかかわらず",
-        "と違って"
+        "に応じて"
       ],
       "wrong_choice_explanations": [
-        "に対して means 'toward' or 'against'; indicates direction or opposition, not a temporal occasion; it doesn't fit this sentence context where 〜に反して is needed.",
-        "While にもかかわらず is a valid grammar pattern, it doesn't convey the same meaning as 〜に反して and doesn't fit this sentence context.",
-        "While と違って is a valid grammar pattern, it doesn't convey the same meaning as 〜に反して and doesn't fit this sentence context."
+        "に対して shows directional opposition but lacks the defiant nuance of actively going against demands.",
+        "にもかかわらず means 'despite' but doesn't emphasize the deliberate contradiction to union requests.",
+        "に応じて means 'in response to/according to' which contradicts the meaning of opposing union demands."
       ]
     },
     {
       "id": "n2_015_9",
-      "example_sentence": "先行研究の見解に反して、新しい知見が報告された。",
-      "translation": "New findings contradict previous research views.",
+      "example_sentence": "先行研究の結論に反して、新しい証拠が発見された。",
+      "translation": "Contrary to previous research conclusions, new evidence was discovered.",
       "blank_target": "に反して",
       "wrong_choices": [
-        "に対して",
-        "にもかかわらず",
-        "と違って"
+        "に基づいて",
+        "に関して",
+        "によって"
       ],
       "wrong_choice_explanations": [
-        "'に対して' means 'towards' or 'against', for opposition/direction, but this context requires '〜に反して' to indicate contrary to.",
-        "'にもかかわらず' is 'にもかかわらず', but this context requires '〜に反して' to indicate contrary to.",
-        "'と違って' is 'と違って', but this context requires '〜に反して' to indicate contrary to."
+        "に基づいて means 'based on' which suggests following previous research rather than contradicting it.",
+        "に関して means 'regarding/about' but cannot express the contradictory nature of new evidence.",
+        "によって indicates means or cause but doesn't capture the opposition to previous conclusions."
+      ]
+    },
+    {
+      "id": "n2_015_10",
+      "example_sentence": "親の反対に反して、彼女は留学を決意した。",
+      "translation": "Against her parents' opposition, she decided to study abroad.",
+      "blank_target": "に反して",
+      "wrong_choices": [
+        "にもかかわらず",
+        "に対して",
+        "について"
+      ],
+      "wrong_choice_explanations": [
+        "にもかかわらず means 'despite' but doesn't emphasize the deliberate defiance of parental wishes.",
+        "に対して can show opposition but lacks the specific nuance of acting contrary to family expectations.",
+        "について means 'about/concerning' but cannot express the act of going against parental opposition."
       ]
     }
   ]
