@@ -7,7 +7,7 @@ struct SettingsView: View {
     private static let allLevels = ["N5", "N4", "N3", "N2", "N1"]
 
     @AppStorage(FontSizeManager.scaleKey) private var fontScale = FontSizeManager.defaultScale
-    @AppStorage(SessionBuilder.newPerSessionKey) private var newPerSession = SessionBuilder.defaultNewPerSession
+    @AppStorage(SessionBuilder.defaultNewCountKey) private var defaultNewCount = SessionBuilder.defaultNewCount
     @AppStorage(SettingsView.enabledLevelsKey) private var enabledLevelsString = SettingsView.defaultEnabledLevels
     @Environment(\.dismiss) private var dismiss
     @Environment(\.modelContext) private var modelContext
@@ -45,12 +45,12 @@ struct SettingsView: View {
         NavigationStack {
             Form {
                 Section {
-                    Stepper(value: $newPerSession, in: 1...5) {
+                    Stepper(value: $defaultNewCount, in: 1...5) {
                         HStack {
-                            Text("New patterns per session")
+                            Text("Default new patterns")
                                 .font(.system(size: 15))
                             Spacer()
-                            Text("\(newPerSession)")
+                            Text("\(defaultNewCount)")
                                 .font(.system(size: 15, weight: .medium))
                                 .foregroundColor(.secondary)
                         }

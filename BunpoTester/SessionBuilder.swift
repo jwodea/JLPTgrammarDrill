@@ -5,12 +5,11 @@ struct SessionStats {
     let newCount: Int
     let reviewCount: Int
     let totalDue: Int
-    let canUnlockNew: Bool
 }
 
 struct SessionBuilder {
-    static let newPerSessionKey = "newPatternsPerSession"
-    static let defaultNewPerSession = 1
+    static let defaultNewCountKey = "defaultNewPatterns"
+    static let defaultNewCount = 1
 
     /// Returns the set of JLPT levels the user has enabled in Settings.
     static var enabledLevels: Set<String> {
@@ -19,25 +18,8 @@ struct SessionBuilder {
         return Set(raw.split(separator: ",").map(String.init))
     }
 
-    /// Check whether the user has sufficiently mastered their current items to unlock new ones.
-    /// True if there are no seen items yet, or at least 80% of seen items have a scheduled
-    /// interval >= 3 days (meaning they've graduated from learning into review territory).
-    static func canUnlockNewPatterns(context: ModelContext) -> Bool {
-        let descriptor = FetchDescriptor<SRSRecord>()
-        let existingRecords: [SRSRecord]
-        do {
-            existingRecords = try context.fetch(descriptor)
-        } catch {
-            return true
-        }
-        if existingRecords.isEmpty { return true }
-        let familiarOrAbove = existingRecords.filter { $0.fsrsScheduledDays >= 3 }.count
-        let ratio = Double(familiarOrAbove) / Double(existingRecords.count)
-        return ratio >= 0.8
-    }
-
     /// Preview what the next session would look like without modifying the database.
-    static func previewSession(allPoints: [GrammarPoint], context: ModelContext, includeNew: Bool, newPerSession: Int) -> SessionStats {
+    static func previewSession(allPoints: [GrammarPoint], context: ModelContext, newCount: Int) -> SessionStats {
         let levels = enabledLevels
         let filteredPoints = allPoints.filter { levels.contains($0.level) }
 
@@ -46,7 +28,7 @@ struct SessionBuilder {
         do {
             existingRecords = try context.fetch(descriptor)
         } catch {
-            return SessionStats(newCount: 0, reviewCount: 0, totalDue: 0, canUnlockNew: true)
+            return SessionStats(newCount: 0, reviewCount: 0, totalDue: 0)
         }
 
         var recordsByGrammarId: [String: SRSRecord] = [:]
@@ -54,9 +36,7 @@ struct SessionBuilder {
             recordsByGrammarId[record.grammarId] = record
         }
 
-        let canUnlock = canUnlockNewPatterns(context: context)
         let now = Date()
-
         var dueCount = 0
         var unseenCount = 0
 
@@ -72,9 +52,9 @@ struct SessionBuilder {
 
         let maxReview = 10
         let reviewCount = min(dueCount, maxReview)
-        let effectiveNew = (includeNew && canUnlock) ? min(newPerSession, unseenCount) : 0
+        let effectiveNew = min(newCount, unseenCount)
 
-        return SessionStats(newCount: effectiveNew, reviewCount: reviewCount, totalDue: dueCount, canUnlockNew: canUnlock)
+        return SessionStats(newCount: effectiveNew, reviewCount: reviewCount, totalDue: dueCount)
     }
 
     /// Build a session by ranking seen items by how overdue they are, then picking exercises.
@@ -82,8 +62,7 @@ struct SessionBuilder {
         allPoints: [GrammarPoint],
         exercisePool: [String: [SessionExercise]],
         context: ModelContext,
-        includeNew: Bool,
-        newPerSession: Int
+        newCount: Int
     ) -> [SessionExercise] {
         let levels = enabledLevels
         let filteredPoints = allPoints.filter { levels.contains($0.level) }
@@ -126,8 +105,7 @@ struct SessionBuilder {
         let maxDue = 10
         let selectedDue = overdueItems.prefix(maxDue).map(\.point)
 
-        let effectiveNewCount = (includeNew && canUnlockNewPatterns(context: context)) ? newPerSession : 0
-        let selectedNew = Array(newItems.prefix(effectiveNewCount))
+        let selectedNew = Array(newItems.prefix(newCount))
 
         for point in selectedNew {
             let newRecord = SRSRecord(grammarId: point.id)

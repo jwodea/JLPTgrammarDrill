@@ -5,7 +5,8 @@ struct HomeView: View {
     @Environment(\.modelContext) private var modelContext
     @Query private var srsRecords: [SRSRecord]
     @AppStorage(FontSizeManager.scaleKey) private var fontScale = FontSizeManager.defaultScale
-    @AppStorage(SessionBuilder.newPerSessionKey) private var newPerSession = SessionBuilder.defaultNewPerSession
+    @AppStorage(SessionBuilder.defaultNewCountKey) private var defaultNewCount = SessionBuilder.defaultNewCount
+    @AppStorage(SettingsView.enabledLevelsKey) private var enabledLevelsString = SettingsView.defaultEnabledLevels
 
     @State private var grammarPoints: [GrammarPoint] = []
     @State private var exercisePool: [String: [SessionExercise]] = [:]
@@ -65,16 +66,23 @@ struct HomeView: View {
         }
     }
 
+    private var activeGrammarPoints: [GrammarPoint] {
+        let levels = Set(enabledLevelsString.split(separator: ",").map(String.init))
+        return grammarPoints.filter { levels.contains($0.level) }
+    }
+
     private var masteryCounts: [MasteryLevel: Int] {
         var counts: [MasteryLevel: Int] = [:]
         for level in MasteryLevel.allCases {
             counts[level] = 0
         }
 
-        let seenIds = Set(srsRecords.map(\.grammarId))
-        counts[.new] = grammarPoints.count - seenIds.count
+        let activeIds = Set(activeGrammarPoints.map(\.id))
+        let activeRecords = srsRecords.filter { activeIds.contains($0.grammarId) }
+        let seenIds = Set(activeRecords.map(\.grammarId))
+        counts[.new] = activeGrammarPoints.count - seenIds.count
 
-        for record in srsRecords {
+        for record in activeRecords {
             let level = MasteryLevel.level(for: record)
             counts[level, default: 0] += 1
         }
@@ -86,13 +94,12 @@ struct HomeView: View {
 
     private var sessionStats: SessionStats {
         guard !grammarPoints.isEmpty else {
-            return SessionStats(newCount: 0, reviewCount: 0, totalDue: 0, canUnlockNew: true)
+            return SessionStats(newCount: 0, reviewCount: 0, totalDue: 0)
         }
         return SessionBuilder.previewSession(
             allPoints: grammarPoints,
             context: modelContext,
-            includeNew: true,
-            newPerSession: newPerSession
+            newCount: defaultNewCount
         )
     }
 
@@ -118,10 +125,10 @@ struct HomeView: View {
             VStack(spacing: 16) {
                 // Header
                 VStack(spacing: 4) {
-                    Text("文法テスター")
+                    Text("JLPT文法ドリル")
                         .font(.system(size: scaled(30), weight: .bold))
                     HStack(spacing: 8) {
-                        Text("BunpoTester")
+                        Text("JLPT Grammar Drill")
                             .font(.system(size: scaled(15)))
                             .foregroundColor(.secondary)
                         if streakCount > 0 {
@@ -141,7 +148,7 @@ struct HomeView: View {
                         Text("Stats")
                             .font(.system(size: scaled(18), weight: .semibold))
                         Spacer()
-                        Text("\(grammarPoints.count) total")
+                        Text("\(activeGrammarPoints.count) total")
                             .font(.system(size: scaled(14)))
                             .foregroundColor(.secondary)
                     }
@@ -183,7 +190,7 @@ struct HomeView: View {
                     .padding(.bottom, 10)
 
                     VStack(alignment: .leading, spacing: 6) {
-                        if sessionStats.canUnlockNew && sessionStats.newCount > 0 {
+                        if sessionStats.newCount > 0 {
                             HStack(spacing: 4) {
                                 Text("\(sessionStats.newCount)")
                                     .font(.system(size: scaled(16), weight: .bold))
@@ -206,12 +213,6 @@ struct HomeView: View {
                                     .font(.system(size: scaled(13)))
                                     .foregroundColor(.secondary)
                             }
-                        }
-
-                        if !sessionStats.canUnlockNew {
-                            Text("Master current patterns to unlock new ones")
-                                .font(.system(size: scaled(12)))
-                                .foregroundColor(.orange)
                         }
                     }
                     .padding(.horizontal, 16)
@@ -237,34 +238,30 @@ struct HomeView: View {
                 }
 
                 VStack(spacing: 10) {
-                    if sessionStats.canUnlockNew && sessionStats.newCount > 0 {
-                        Button {
-                            startSession(includeNew: true)
-                        } label: {
-                            Text("Start")
-                                .font(.system(size: scaled(18), weight: .semibold))
-                                .frame(maxWidth: .infinity)
-                                .padding(.vertical, 14)
-                                .background(Color.accentColor)
-                                .foregroundColor(.white)
-                                .cornerRadius(12)
-                        }
-                        .disabled(isLoading)
-                    }
-
                     Button {
-                        startSession(includeNew: false)
+                        startSession(newCount: defaultNewCount)
                     } label: {
-                        let isOnlyButton = !sessionStats.canUnlockNew || sessionStats.newCount == 0
-                        Text(isOnlyButton ? "Start" : "Review Only")
+                        Text("New and Review")
                             .font(.system(size: scaled(18), weight: .semibold))
                             .frame(maxWidth: .infinity)
                             .padding(.vertical, 14)
-                            .background(isOnlyButton ? Color.accentColor : Color(.secondarySystemBackground))
-                            .foregroundColor(isOnlyButton ? .white : .accentColor)
+                            .background(Color.accentColor)
+                            .foregroundColor(.white)
+                            .cornerRadius(12)
+                    }
+                    .disabled(isLoading)
+
+                    Button {
+                        startSession(newCount: 0)
+                    } label: {
+                        Text("Review Only")
+                            .font(.system(size: scaled(18), weight: .semibold))
+                            .frame(maxWidth: .infinity)
+                            .padding(.vertical, 14)
+                            .background(Color(.secondarySystemBackground))
+                            .foregroundColor(.accentColor)
                             .cornerRadius(12)
                             .overlay(
-                                isOnlyButton ? nil :
                                 RoundedRectangle(cornerRadius: 12)
                                     .stroke(Color.accentColor, lineWidth: 1.5)
                             )
@@ -304,15 +301,14 @@ struct HomeView: View {
         }
     }
 
-    private func startSession(includeNew: Bool) {
+    private func startSession(newCount: Int) {
         isLoading = true
         Task {
             let items = SessionBuilder.buildSession(
                 allPoints: grammarPoints,
                 exercisePool: exercisePool,
                 context: modelContext,
-                includeNew: includeNew,
-                newPerSession: newPerSession
+                newCount: newCount
             )
             await MainActor.run {
                 isLoading = false
