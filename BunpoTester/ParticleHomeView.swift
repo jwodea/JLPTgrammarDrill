@@ -1,22 +1,19 @@
 import SwiftUI
 import SwiftData
 
-struct HomeView: View {
+struct ParticleHomeView: View {
     @Environment(\.modelContext) private var modelContext
     @Query private var srsRecords: [SRSRecord]
     @AppStorage(FontSizeManager.scaleKey) private var fontScale = FontSizeManager.defaultScale
-    @AppStorage(SessionBuilder.defaultNewCountKey) private var defaultNewCount = SessionBuilder.defaultNewCount
-    @AppStorage(SettingsView.enabledLevelsKey) private var enabledLevelsString = SettingsView.defaultEnabledLevels
+    @AppStorage(ParticleSessionBuilder.defaultNewCountKey) private var defaultNewCount = ParticleSessionBuilder.defaultNewCount
     @AppStorage(SettingsView.combinedDrillsKey) private var combinedDrills = false
 
-    @State private var grammarPoints: [GrammarPoint] = []
     @State private var particleExercises: [ParticleExercise] = []
     @State private var exercisePool: [String: [SessionExercise]] = [:]
     @State private var sessionItems: [SessionExercise]?
     @State private var isLoading = false
     @State private var showAllCaughtUp = false
     @State private var navigateToExercise = false
-    @State private var showSettings = false
 
     private var streakCount: Int {
         UserDefaults.standard.integer(forKey: "streakCount")
@@ -68,23 +65,18 @@ struct HomeView: View {
         }
     }
 
-    private var activeGrammarPoints: [GrammarPoint] {
-        let levels = Set(enabledLevelsString.split(separator: ",").map(String.init))
-        return grammarPoints.filter { levels.contains($0.level) }
-    }
-
     private var masteryCounts: [MasteryLevel: Int] {
         var counts: [MasteryLevel: Int] = [:]
         for level in MasteryLevel.allCases {
             counts[level] = 0
         }
 
-        let activeIds = Set(activeGrammarPoints.map(\.id))
-        let activeRecords = srsRecords.filter { activeIds.contains($0.grammarId) }
-        let seenIds = Set(activeRecords.map(\.grammarId))
-        counts[.new] = activeGrammarPoints.count - seenIds.count
+        let particleIds = Set(particleExercises.map(\.id))
+        let particleRecords = srsRecords.filter { particleIds.contains($0.grammarId) }
+        let seenIds = Set(particleRecords.map(\.grammarId))
+        counts[.new] = particleExercises.count - seenIds.count
 
-        for record in activeRecords {
+        for record in particleRecords {
             let level = MasteryLevel.level(for: record)
             counts[level, default: 0] += 1
         }
@@ -94,12 +86,12 @@ struct HomeView: View {
 
     // MARK: - Session Preview
 
-    private var sessionStats: SessionStats {
-        guard !grammarPoints.isEmpty else {
-            return SessionStats(newCount: 0, reviewCount: 0, totalDue: 0)
+    private var sessionStats: ParticleSessionStats {
+        guard !particleExercises.isEmpty else {
+            return ParticleSessionStats(newCount: 0, reviewCount: 0, totalDue: 0)
         }
-        return SessionBuilder.previewSession(
-            allPoints: grammarPoints,
+        return ParticleSessionBuilder.previewSession(
+            allExercises: particleExercises,
             context: modelContext,
             newCount: defaultNewCount
         )
@@ -125,12 +117,28 @@ struct HomeView: View {
     var body: some View {
         ScrollView {
             VStack(spacing: 16) {
+                // Combined mode notice
+                if combinedDrills {
+                    HStack(spacing: 6) {
+                        Image(systemName: "arrow.triangle.merge")
+                            .font(.system(size: scaled(13)))
+                        Text("Particles are also mixed into 文法 sessions")
+                            .font(.system(size: scaled(13)))
+                    }
+                    .foregroundColor(.secondary)
+                    .padding(.vertical, 8)
+                    .padding(.horizontal, 12)
+                    .background(Color(.secondarySystemBackground))
+                    .cornerRadius(8)
+                    .padding(.horizontal)
+                }
+
                 // Header
                 VStack(spacing: 4) {
-                    Text("JLPT文法ドリル")
+                    Text("助詞ドリル")
                         .font(.system(size: scaled(30), weight: .bold))
                     HStack(spacing: 8) {
-                        Text("JLPT Grammar Drill")
+                        Text("Particle Drill")
                             .font(.system(size: scaled(15)))
                             .foregroundColor(.secondary)
                         if streakCount > 0 {
@@ -150,7 +158,7 @@ struct HomeView: View {
                         Text("Stats")
                             .font(.system(size: scaled(18), weight: .semibold))
                         Spacer()
-                        Text("\(activeGrammarPoints.count) total")
+                        Text("\(particleExercises.count) total")
                             .font(.system(size: scaled(14)))
                             .foregroundColor(.secondary)
                     }
@@ -275,18 +283,6 @@ struct HomeView: View {
             }
             .padding(.bottom, 20)
         }
-        .toolbar {
-            ToolbarItem(placement: .topBarTrailing) {
-                Button {
-                    showSettings = true
-                } label: {
-                    Image(systemName: "gearshape")
-                }
-            }
-        }
-        .sheet(isPresented: $showSettings) {
-            SettingsView()
-        }
         .alert("All caught up!", isPresented: $showAllCaughtUp) {
             Button("OK", role: .cancel) {}
         } message: {
@@ -298,45 +294,19 @@ struct HomeView: View {
             }
         }
         .onAppear {
-            loadData()
+            particleExercises = ParticleLoader.loadAll()
+            exercisePool = ParticleLoader.buildExercisePool()
         }
-        .onChange(of: combinedDrills) {
-            loadData()
-        }
-    }
-
-    private func loadData() {
-        grammarPoints = GrammarLoader.loadAll()
-        var pool = GrammarLoader.buildExercisePool()
-        particleExercises = combinedDrills ? ParticleLoader.loadAll() : []
-        if combinedDrills {
-            let particlePool = ParticleLoader.buildExercisePool()
-            pool.merge(particlePool) { _, new in new }
-        }
-        exercisePool = pool
     }
 
     private func startSession(newCount: Int) {
         isLoading = true
         Task {
-            var items = SessionBuilder.buildSession(
-                allPoints: grammarPoints,
-                exercisePool: exercisePool,
+            let items = ParticleSessionBuilder.buildSession(
+                allExercises: particleExercises,
                 context: modelContext,
                 newCount: newCount
             )
-
-            // Mix in particle exercises when combined mode is on
-            if combinedDrills {
-                let particleItems = ParticleSessionBuilder.buildSession(
-                    allExercises: particleExercises,
-                    context: modelContext,
-                    newCount: newCount
-                )
-                items.append(contentsOf: particleItems)
-                items.shuffle()
-            }
-
             await MainActor.run {
                 isLoading = false
                 if items.isEmpty {

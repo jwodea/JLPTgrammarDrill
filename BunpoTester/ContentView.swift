@@ -13,7 +13,15 @@ struct ContentView: View {
                 }
                 .tabItem {
                     Image(systemName: "house.fill")
-                    Text("Today")
+                    Text("文法")
+                }
+
+                NavigationStack {
+                    ParticleHomeView()
+                }
+                .tabItem {
+                    Text("を")
+                    Text("助詞")
                 }
 
                 NavigationStack {
@@ -21,7 +29,7 @@ struct ContentView: View {
                 }
                 .tabItem {
                     Image(systemName: "book.fill")
-                    Text("Grammar")
+                    Text("一覧")
                 }
             }
         } else {

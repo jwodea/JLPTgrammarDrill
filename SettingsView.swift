@@ -4,11 +4,13 @@ import SwiftData
 struct SettingsView: View {
     static let enabledLevelsKey = "enabledJLPTLevels"
     static let defaultEnabledLevels = "N5,N4,N3,N2,N1"
+    static let combinedDrillsKey = "combinedDrills"
     private static let allLevels = ["N5", "N4", "N3", "N2", "N1"]
 
     @AppStorage(FontSizeManager.scaleKey) private var fontScale = FontSizeManager.defaultScale
     @AppStorage(SessionBuilder.defaultNewCountKey) private var defaultNewCount = SessionBuilder.defaultNewCount
     @AppStorage(SettingsView.enabledLevelsKey) private var enabledLevelsString = SettingsView.defaultEnabledLevels
+    @AppStorage(SettingsView.combinedDrillsKey) private var combinedDrills = false
     @Environment(\.dismiss) private var dismiss
     @Environment(\.modelContext) private var modelContext
 
@@ -55,8 +57,15 @@ struct SettingsView: View {
                                 .foregroundColor(.secondary)
                         }
                     }
+
+                    Toggle("Combined drills", isOn: $combinedDrills)
+                        .font(.system(size: 15))
                 } header: {
                     Text("Study")
+                } footer: {
+                    if combinedDrills {
+                        Text("Grammar and particle exercises will be mixed together in the 文法 tab sessions.")
+                    }
                 }
 
                 Section {
