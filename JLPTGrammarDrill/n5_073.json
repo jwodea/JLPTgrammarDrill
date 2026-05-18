@@ -10,14 +10,14 @@
       "translation": "Please be quiet during class.",
       "blank_target": "中",
       "wrong_choices": [
-        "間",
-        "時",
-        "内"
+        "の間",
+        "の途中",
+        "の最中"
       ],
       "wrong_choice_explanations": [
-        "間 means 'during/between' but 授業中 is the standard expression for 'during class'.",
-        "時 means 'time/when' and doesn't work grammatically in this context.",
-        "内 means 'within/inside' but refers to physical or abstract boundaries, not time periods."
+        "の間 is the analytic 'during/while': 授業の間 is grammatical, but the bound suffix 中 forms the tighter, conventional compound 授業中 used as a standing phrase for 'in class'. の間 puts the emphasis on the time span itself rather than the in-progress state.",
+        "の途中 means 'midway/partway through' and is typically used for journeys or step-by-step processes (帰り道の途中); for a discrete activity like a class period, 中 is the natural choice.",
+        "の最中 means 'right in the thick of it' — emphatic and slightly dramatic. For a neutral request to be quiet, 中 is the unmarked form."
       ],
       "hiragana_full": "じゅぎょうちゅうはしずかにしてください",
       "audio_alternatives": [
@@ -43,9 +43,9 @@
         "間"
       ],
       "wrong_choice_explanations": [
-        "途中 means 'on the way/midway' and is used for physical journeys or processes, not ongoing activities.",
-        "最中 means 'in the middle of' but is more formal and literary than the simple 中 used here.",
-        "間 means 'during/between' but 会議中 is the established expression for 'in a meeting'."
+        "途中 by itself doesn't bind cleanly to 会議 — the natural form would be 会議の途中, meaning 'partway through the meeting'. The bound suffix 中 attaches directly without の and is the conventional way to mark 'in a meeting'.",
+        "最中 alone also requires の (会議の最中), and even then is emphatic 'right in the thick of the meeting' — too dramatic for a simple status report. 会議中 is the neutral conventional form.",
+        "間 alone doesn't bind to 会議; the analytic 会議の間 is grammatical but emphasizes the time span. 中 forms the tighter compound that signals 'currently in the activity'."
       ],
       "hiragana_full": "かいぎちゅうです。あとででんわします。",
       "audio_alternatives": [
@@ -62,28 +62,28 @@
     },
     {
       "id": "n5_073_3",
-      "example_sentence": "今、勉強中なので話せません。",
-      "translation": "I can't talk now because I'm in the middle of studying.",
+      "example_sentence": "一日中、雨が降っていた。",
+      "translation": "It rained the whole day.",
       "blank_target": "中",
       "wrong_choices": [
-        "している",
-        "の時間",
-        "のとき"
+        "の間",
+        "の途中",
+        "の最中"
       ],
       "wrong_choice_explanations": [
-        "している means 'doing' but would make the sentence wordy (勉強をしている) when 勉強中 is more natural.",
-        "の時間 means 'time for' but doesn't work grammatically in this context with なので.",
-        "のとき means 'when' and indicates a specific moment, not an ongoing state like studying."
+        "の間 means 'during/while' (analytic), but 一日中 — read いちにちじゅう here — uses the bound suffix to mean 'throughout the entire day' as a fixed compound. Note this is the じゅう reading of 中, not ちゅう: 中 takes じゅう when expressing 'all of / throughout' a span.",
+        "の途中 means 'midway/halfway through' and would imply partway through the day. 一日中 means the full extent of the day from start to end — the rain didn't stop.",
+        "の最中 means 'right in the middle of' and is too emphatic for a simple statement that the rain lasted all day. The bound suffix 中 (じゅう) is the natural choice for 'throughout'."
       ],
-      "hiragana_full": "いま、べんきょうちゅうなのではなせません。",
+      "hiragana_full": "いちにちじゅう、あめがふっていた。",
       "audio_alternatives": [
         {
-          "kanji": "今、勉強しているので話せません。",
-          "hiragana_full": "いま、べんきょうしているのではなせません。"
+          "kanji": "雨は一日中降っていた。",
+          "hiragana_full": "あめはいちにちじゅうふっていた。"
         },
         {
-          "kanji": "今は勉強中なので、話すことができません。",
-          "hiragana_full": "いまはべんきょうちゅうなので、はなすことができません。"
+          "kanji": "今日は一日中、雨だった。",
+          "hiragana_full": "きょうはいちにちじゅう、あめだった。"
         }
       ],
       "audio_eligible": true
@@ -99,9 +99,9 @@
         "から"
       ],
       "wrong_choice_explanations": [
-        "に indicates a specific time point, but summer vacation is an extended period requiring 中.",
-        "の間 means 'during' but 夏休み中 is the more common and natural expression for vacation periods.",
-        "から means 'from' and would need a corresponding まで (until) to indicate a time period."
+        "に marks a specific time point ('at summer vacation'), but summer vacation is an extended span — 中 turns it into a temporal frame in which the event occurred.",
+        "の間 ('during') is grammatically possible (夏休みの間) but emphasizes the duration as a whole; 中 is the conventional compact form for 'sometime within the vacation period'.",
+        "から means 'from' and would need a corresponding まで ('until') to mark a time period; on its own it can't express 'during'."
       ],
       "hiragana_full": "なつやすみちゅう、かぞくとうみにいきました。",
       "audio_alternatives": [
@@ -124,12 +124,12 @@
       "wrong_choices": [
         "をしている",
         "の最中",
-        "している"
+        "の途中"
       ],
       "wrong_choice_explanations": [
-        "をしている means 'doing' but 電話中 is the established, concise way to say 'on the phone'.",
-        "の最中 means 'in the middle of' but is more formal and less commonly used than 中.",
-        "している means 'doing' but would need を to be grammatically correct (電話をしている)."
+        "をしている would form 電話をしている ('am doing a phone call'), which is grammatical but wordier; 電話中 is the conventional concise expression for 'on the phone' and pairs naturally with なので.",
+        "の最中 would form 電話の最中, emphatic 'right in the middle of a phone call' — too dramatic for a simple notice. 電話中 is the neutral form.",
+        "の途中 would form 電話の途中, meaning 'midway through a phone call' — suggests the call is partly done. 電話中 simply marks the in-progress state without implying a midpoint."
       ],
       "hiragana_full": "でんわちゅうなので、しずかにしてください。",
       "audio_alternatives": [
@@ -139,63 +139,63 @@
         },
         {
           "kanji": "電話しているので、静かにしてください。",
-          "hiragana_full": "でんわしているので、しずかにしてください。"
+          "hiragana_full": "でんわしているのでしずかにしてください。"
         }
       ],
       "audio_eligible": true
     },
     {
       "id": "n5_073_6",
-      "example_sentence": "工事中でうるさいです。",
-      "translation": "It's noisy because of construction work in progress.",
+      "example_sentence": "彼は世界中で有名です。",
+      "translation": "He is famous all over the world.",
       "blank_target": "中",
       "wrong_choices": [
-        "の音",
-        "をしている",
-        "だから"
+        "全体",
+        "各地",
+        "内"
       ],
       "wrong_choice_explanations": [
-        "の音 means 'sound of' but the sentence structure requires something that can be followed by で.",
-        "をしている means 'doing' but doesn't work grammatically with で in this context.",
-        "だから means 'because/so' but is a conjunction, not something that can be followed by で."
+        "全体 would form 世界全体, meaning 'the whole world' as a single unit. The bound suffix 中 — read じゅう here — means 'throughout / all over' and emphasizes pervasive distribution, the right nuance for 'famous everywhere'.",
+        "各地 would form 世界各地, meaning 'various places in the world,' which fits some contexts but suggests scattered locations rather than the blanket 'all over' that 世界中 (じゅう) conveys.",
+        "内 marks bounded interiors (室内 'indoors', 国内 'domestic'); 世界内 is not a natural expression. For 'throughout the world', the bound suffix 中 (じゅう) is the standard form."
       ],
-      "hiragana_full": "こうじちゅうでうるさいです",
+      "hiragana_full": "かれはせかいじゅうでゆうめいです。",
       "audio_alternatives": [
         {
-          "kanji": "工事中なのでうるさいです。",
-          "hiragana_full": "こうじちゅうなのでうるさいです"
+          "kanji": "彼の名前は世界中で知られています。",
+          "hiragana_full": "かれのなまえはせかいじゅうでしられています。"
         },
         {
-          "kanji": "工事中だからうるさいです。",
-          "hiragana_full": "こうじちゅうだからうるさいです"
+          "kanji": "あの歌手は世界中で人気がある。",
+          "hiragana_full": "あのかしゅはせかいじゅうでにんきがある。"
         }
       ],
       "audio_eligible": true
     },
     {
       "id": "n5_073_7",
-      "example_sentence": "映画中に寝てしまいました。",
-      "translation": "I fell asleep in the middle of the movie.",
+      "example_sentence": "あの店は今、営業中なので入れます。",
+      "translation": "That shop is currently open, so we can go in.",
       "blank_target": "中",
       "wrong_choices": [
-        "の間",
-        "を見ている",
-        "のとき"
+        "している",
+        "の途中",
+        "の最中"
       ],
       "wrong_choice_explanations": [
-        "の間 means 'during' but doesn't work with に - it would need を instead of に.",
-        "を見ている means 'watching' but is a verb phrase that doesn't fit with the に particle here.",
-        "のとき means 'when' and refers to a specific moment, not the duration implied by に."
+        "している would form 営業している ('is doing business'), which is grammatical but lacks the conventional sign-like quality of 営業中, the standard form printed on shop signs and notices.",
+        "の途中 would form 営業の途中, meaning 'midway through doing business' — implying the shop is partway through some specific operation, not the broad 'open for business' state that 営業中 marks.",
+        "の最中 would emphasize 'right in the thick of business hours,' which is too dramatic for a simple statement that the shop is currently open. 営業中 is the conventional neutral form."
       ],
-      "hiragana_full": "えいがちゅうにねてしまいました",
+      "hiragana_full": "あのみせはいま、えいぎょうちゅうなのではいれます。",
       "audio_alternatives": [
         {
-          "kanji": "映画の途中で寝てしまいました。",
-          "hiragana_full": "えいがのとちゅうでねてしまいました"
+          "kanji": "この店は営業中だから、コーヒーが飲めるよ。",
+          "hiragana_full": "このみせはえいぎょうちゅうだから、コーヒーがのめるよ。"
         },
         {
-          "kanji": "映画を見ながら寝てしまいました。",
-          "hiragana_full": "えいがをみながらねてしまいました"
+          "kanji": "営業中の店を探しています。",
+          "hiragana_full": "えいぎょうちゅうのみせをさがしています。"
         }
       ],
       "audio_eligible": true
@@ -206,14 +206,14 @@
       "translation": "We're in the middle of preparations, so please wait a little longer.",
       "blank_target": "中",
       "wrong_choices": [
-        "している",
         "をしている",
-        "の途中"
+        "の途中",
+        "の最中"
       ],
       "wrong_choice_explanations": [
-        "している means 'doing' but would need を to be grammatically correct (準備をしている).",
-        "をしている means 'doing' but 準備中 is more concise and natural in this formal context.",
-        "の途中 means 'in the process of' but is less natural than 準備中 for ongoing preparations."
+        "をしている would form 準備をしている ('are doing preparation'), which is grammatical but less natural for a formal notice; 準備中 is the conventional sign-like form often seen on store entrances and service counters.",
+        "の途中 would form 準備の途中, meaning 'midway through preparing' — suggests the preparation is partly done. 準備中 captures the general 'in-progress' state without implying a midpoint.",
+        "の最中 would form 準備の最中, emphatic 'right in the thick of preparing' — too dramatic for a polite notice. 準備中 is the neutral form expected in this register."
       ],
       "hiragana_full": "じゅんびちゅうですから、もうすこしまってください。",
       "audio_alternatives": [
@@ -239,9 +239,9 @@
         "のとき"
       ],
       "wrong_choice_explanations": [
-        "の間 means 'during' but 試験期間中 is the more natural expression for 'during exam period'.",
-        "に indicates a specific time point, but exam period is an extended duration requiring 中.",
-        "のとき means 'when' and suggests a specific moment rather than the extended period of exams."
+        "の間 is the analytic 'during' and is grammatical (試験期間の間), but 試験期間中 is the conventional compact form that frames the exam period as the active context for study.",
+        "に marks a specific time point, but the exam period is an extended span requiring a duration marker like 中.",
+        "のとき means 'when/at the time of' and suggests a specific moment rather than the extended period during which one habitually studies."
       ],
       "hiragana_full": "しけんきかんちゅうはとしょかんでべんきょうします",
       "audio_alternatives": [
@@ -258,28 +258,28 @@
     },
     {
       "id": "n5_073_10",
-      "example_sentence": "昼食中なので、後で来てください。",
-      "translation": "I'm having lunch right now, so please come later.",
+      "example_sentence": "今は仕事中ではないので、ゆっくり話せます。",
+      "translation": "I'm not at work right now, so we can talk leisurely.",
       "blank_target": "中",
       "wrong_choices": [
-        "を食べている",
-        "の時間",
-        "タイム"
+        "の途中",
+        "している",
+        "の最中"
       ],
       "wrong_choice_explanations": [
-        "を食べている means 'eating' but 昼食中 is more concise and natural in this context.",
-        "の時間 means 'time for' but doesn't work grammatically with なので in this sentence structure.",
-        "タイム is English loanword meaning 'time' but doesn't fit grammatically or naturally here."
+        "の途中 would form 仕事の途中, meaning 'midway through work' — but the sentence asserts the speaker is NOT in the work state at all (using ではない). The bound suffix 中 pairs cleanly with this categorical negation.",
+        "している would form 仕事している, which is grammatical but doesn't combine as naturally with ではない; 仕事中ではない is the conventional way to deny the 'currently working' state.",
+        "の最中 would form 仕事の最中, emphatic 'right in the thick of work' — too dramatic for a simple negation. 仕事中 (and its negation) is the neutral form."
       ],
-      "hiragana_full": "ちゅうしょくちゅうなので、あとできてください。",
+      "hiragana_full": "いまはしごとちゅうではないので、ゆっくりはなせます。",
       "audio_alternatives": [
         {
-          "kanji": "今、昼ごはんを食べているので、後で来てください。",
-          "hiragana_full": "いま、ひるごはんをたべているので、あとできてください。"
+          "kanji": "今は仕事中じゃないので、ゆっくり話せます。",
+          "hiragana_full": "いまはしごとちゅうじゃないので、ゆっくりはなせます。"
         },
         {
-          "kanji": "昼ごはんの時間なので、後で来てください。",
-          "hiragana_full": "ひるごはんのじかんなので、あとできてください。"
+          "kanji": "もう仕事中ではないから、自由に話せる。",
+          "hiragana_full": "もうしごとちゅうではないから、じゆうにはなせる。"
         }
       ],
       "audio_eligible": true

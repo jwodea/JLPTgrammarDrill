@@ -11,13 +11,13 @@
       "blank_target": "さえ",
       "wrong_choices": [
         "でも",
-        "だって",
-        "すら"
+        "も",
+        "まで"
       ],
       "wrong_choice_explanations": [
-        "でも means 'even' more casually, but さえ more strongly emphasizes the extreme, surprising nature of a baby being able to sing.",
-        "だって means 'even' in casual speech, but it's too informal and doesn't carry the same emphatic, surprising weight as さえ.",
-        "すら also means 'even' with emphasis on an extreme case, and is very close in meaning, but さえ is the standard N3 form—すら is more literary/N1 level."
+        "でも would mean 'even a baby' but is a softer, more conversational particle; さえ adds stronger emphasis on the surprising case of a baby — usually thought incapable — being able to sing this song.",
+        "も means 'also/too', which would simply add the baby to a list of singers ('a baby too can sing this') rather than highlighting the surprise that even a baby can sing — さえ uniquely conveys 'this extreme case included'.",
+        "まで means 'even / up to', emphasizing extent or limit ('all the way up to a baby'); さえ better captures the surprise that a baby — the unexpected example, not the extreme endpoint — is included."
       ],
       "hiragana_full": "あかちゃんさえ、このうたをうたうことができます。",
       "audio_alternatives": [
@@ -39,13 +39,13 @@
       "blank_target": "さえ",
       "wrong_choices": [
         "でも",
-        "だって",
-        "すら"
+        "は",
+        "まで"
       ],
       "wrong_choice_explanations": [
-        "でも means 'also/either', similar but not as emphatic as さえ.",
-        "だって is colloquial for 'even/also', less formal than さえ.",
-        "すら is literary; さえ is standard for the extreme case meaning."
+        "でも would mean 'even pros' in a softer tone; さえ adds stronger emphasis on the unexpected nature of professional managers failing — a paradox worth marking with the most emphatic particle available.",
+        "は would simply topicalize pros ('as for pros, they fail') without emphasizing the surprise; さえ uniquely flags pros as an extreme/unexpected example within the broader category of people who fail.",
+        "まで emphasizes extent ('even up to pros'), which works in some contexts but lacks the 'this surprising example included' nuance of さえ. For highlighting that experts surprisingly fail, さえ is the better marker."
       ],
       "hiragana_full": "ぷろのけいえいしゃさえ、しっぱいすることがあります。",
       "audio_alternatives": [
@@ -71,9 +71,9 @@
         "すら"
       ],
       "wrong_choice_explanations": [
-        "でも means 'even' (softer form) or 'also', but the sentence emphasizes the extreme or unexpected case with さえ.",
-        "だって means 'even' (casual), but the sentence uses さえ for formal or literary expression of the extreme case.",
-        "すら means 'even' (literary), but さえ is more natural in this specific context about beginners being able to use the system."
+        "でも means 'even' in a softer tone; さえ is the more emphatic choice for the rhetorical 'even a beginner can do it' boast about how easy the system is.",
+        "だって is the casual conversational 'even'; さえ matches the more neutral/formal register of this assertion about a system's accessibility.",
+        "すら is also 'even' with emphasis on an extreme case and is very close in meaning to さえ — the difference is register: すら is literary and tested at N1, while さえ is the standard N3 form."
       ],
       "hiragana_full": "しょしんしゃさえ、このシステムをつかいこなせるほどかんたんです。",
       "audio_alternatives": [
@@ -90,28 +90,28 @@
     },
     {
       "id": "n3_063_3",
-      "example_sentence": "小さい子供さえ、この山に登ることができます。",
-      "translation": "Even small children can climb this mountain.",
+      "example_sentence": "彼は怒っていて、私と話してさえくれない。",
+      "translation": "He's angry, and won't even talk to me.",
       "blank_target": "さえ",
       "wrong_choices": [
-        "でも",
-        "だって",
+        "も",
+        "は",
         "すら"
       ],
       "wrong_choice_explanations": [
-        "でも means 'even,' but さえ emphasizes the extreme or unexpected nature of the case.",
-        "だって means 'even,' but it is more colloquial than さえ.",
-        "すら means 'even,' similar to さえ, but さえ is more commonly used."
+        "〜ても would form 話してもくれない, which can read as '[even if asked,] won't talk to me' — a conditional concession, not the flat 'won't even talk' that 〜てさえ delivers. さえ emphasizes that the basic act of talking is what's being denied.",
+        "〜ては would form 話してはくれない, which works grammatically but emphasizes a conditional refusal ('isn't going to talk for me'). 〜てさえ specifically marks 'won't even [do the bare minimum of] talk', highlighting the missing basic gesture.",
+        "〜てすら is the literary equivalent (話してすらくれない) and is very close to 〜てさえ in meaning; さえ is the standard N3 form, while すら is tested at N1 and feels more written/dramatic."
       ],
-      "hiragana_full": "ちいさいこどもさえ、このやまにのぼることができます。",
+      "hiragana_full": "かれはおこっていて、わたしとはなしてさえくれない。",
       "audio_alternatives": [
         {
-          "kanji": "小さい子供でも、この山に登ることができます。",
-          "hiragana_full": "ちいさいこどもでも、このやまにのぼることができます。"
+          "kanji": "彼は無視して、話してさえくれません。",
+          "hiragana_full": "かれはむしして、はなしてさえくれません。"
         },
         {
-          "kanji": "小さな子供さえ、この山に登れます。",
-          "hiragana_full": "ちいさなこどもさえ、このやまにのぼれます。"
+          "kanji": "怒っているのか、彼は話してさえくれない。",
+          "hiragana_full": "おこっているのか、かれははなしてさえくれない。"
         }
       ],
       "audio_eligible": true
@@ -202,28 +202,28 @@
     },
     {
       "id": "n3_063_7",
-      "example_sentence": "初心者さえ、このゲームに勝てます。",
-      "translation": "Even beginners can win this game.",
+      "example_sentence": "彼はショックで、水さえ飲めなかった。",
+      "translation": "He was so shocked he couldn't even drink water.",
       "blank_target": "さえ",
       "wrong_choices": [
-        "でも",
-        "だって",
-        "すら"
+        "も",
+        "まで",
+        "ぐらい"
       ],
       "wrong_choice_explanations": [
-        "〜でも means 'even' or 'but', but is less emphatic about the extreme or unexpected case",
-        "〜だって is colloquial for 'even', but 〜さえ is more formal and emphatic",
-        "〜すら is similar, but 〜さえ better fits the context of beginners unexpectedly winning"
+        "も means 'also/too', adding water to a list of things he couldn't consume; さえ instead emphasizes that water — the absolute basic minimum — was unattainable, marking the extremity of his state.",
+        "まで means 'even / up to', which can fit emotionally but emphasizes a limit ('all the way to water'). さえ better frames water as the bare-minimum baseline whose absence is shocking.",
+        "ぐらい means 'about / at least'; 水ぐらい would mean 'at least water' (implying it's the easy option) — which inverts the emphasis. さえ marks water as the extreme low bar that was somehow still beyond him."
       ],
-      "hiragana_full": "しょしんしゃさえ、このげーむにかてます。",
+      "hiragana_full": "かれはショックで、みずさえのめなかった。",
       "audio_alternatives": [
         {
-          "kanji": "初心者でもこのゲームに勝てます。",
-          "hiragana_full": "しょしんしゃでもこのげーむにかてます。"
+          "kanji": "悲しすぎて、水さえ口にできなかった。",
+          "hiragana_full": "かなしすぎて、みずさえくちにできなかった。"
         },
         {
-          "kanji": "初心者であってもこのゲームに勝てる。",
-          "hiragana_full": "しょしんしゃであってもこのげーむにかてる。"
+          "kanji": "彼は動揺して、水さえ飲もうとしなかった。",
+          "hiragana_full": "かれはどうようして、みずさえのもうとしなかった。"
         }
       ],
       "audio_eligible": true
@@ -235,13 +235,13 @@
       "blank_target": "さえ",
       "wrong_choices": [
         "まで",
-        "も",
-        "だって"
+        "は",
+        "だけ"
       ],
       "wrong_choice_explanations": [
-        "まで means 'even' or 'up to,' emphasizing a limit, but さえ better highlights the surprise that children could understand such a movie.",
-        "も means 'also,' simply adding children to those who understood, but さえ emphasizes that children understanding is an extreme, unexpected case.",
-        "だって means 'even' in casual speech, but the sentence's context calls for さえ's emphatic, surprising tone."
+        "まで means 'even / up to,' emphasizing a limit, but さえ better highlights the surprise that children — usually not expected to grasp this kind of film — could understand it.",
+        "は would topicalize children ('as for children, they understood'), losing the emphatic 'even children' surprise that さえ delivers.",
+        "だけ means 'only', which would flip the meaning to 'only children could understand'; さえ marks children as the extreme/surprising case in a wider set of viewers who all understood."
       ],
       "hiragana_full": "こどもさえ、そのえいがをりかいできました。",
       "audio_alternatives": [
@@ -262,14 +262,14 @@
       "translation": "Even machines can make errors.",
       "blank_target": "さえ",
       "wrong_choices": [
-        "でも",
+        "も",
         "だって",
-        "すら"
+        "だけ"
       ],
       "wrong_choice_explanations": [
-        "でも means 'even' or 'but,' but さえ better emphasizes the unexpectedness or extreme nature of machines making errors.",
-        "だって is conversational 'even,' but the formal context requires さえ.",
-        "すら means 'even,' but in this context, さえ better fits the nuance of an unexpected or extreme case."
+        "も would mean 'machines also make errors,' simply adding machines to a list of error-makers; さえ instead frames machines as a surprising/extreme case of erring — exactly the rhetorical point of the sentence.",
+        "だって works as a casual 'even', but the neutral-formal context of this assertion about machines calls for さえ; だって is more conversational.",
+        "だけ means 'only / just', which would flip the meaning to 'only machines make errors' — the opposite of what the sentence claims about machines being a surprising error-maker."
       ],
       "hiragana_full": "きかいさえ、えらーをおこすことがあります。",
       "audio_alternatives": [

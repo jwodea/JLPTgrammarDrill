@@ -1,0 +1,109 @@
+{
+  "reviewed": {
+    "n1_045": {
+      "audit": {
+        "last": "2026-05-18",
+        "issues_found": 0,
+        "issues_flagged": 0,
+        "notes": "no changes"
+      }
+    },
+    "n2_001": {
+      "audit": {
+        "last": "2026-05-18",
+        "issues_found": 1,
+        "issues_flagged": 0,
+        "notes": "Fixed stray space in ex 8 hiragana_full ('じゅうような やくわり' → 'じゅうようなやくわり')"
+      }
+    },
+    "n2_056": {
+      "audit": {
+        "last": "2026-05-18",
+        "issues_found": 0,
+        "issues_flagged": 0,
+        "notes": "no changes"
+      }
+    },
+    "n2_152": {
+      "audit": {
+        "last": "2026-05-18",
+        "issues_found": 0,
+        "issues_flagged": 0,
+        "notes": "no changes"
+      }
+    },
+    "n2_183": {
+      "audit": {
+        "last": "2026-05-18",
+        "issues_found": 1,
+        "issues_flagged": 0,
+        "notes": "Rewrote ex 7 example_sentence + hiragana_full: '崩れそうかのように' → '崩れるかのように' (non-standard 〜そう + かのように stacking)"
+      }
+    },
+    "n3_005": {
+      "audit": {
+        "last": "2026-05-18",
+        "issues_found": 0,
+        "issues_flagged": 0,
+        "notes": "no changes (trailing 。 inconsistency in hiragana_full noted as corpus-wide pattern)"
+      }
+    },
+    "n3_063": {
+      "audit": {
+        "last": "2026-05-18",
+        "issues_found": 0,
+        "issues_flagged": 0,
+        "notes": "no changes"
+      },
+      "pedagogy": {
+        "last": "2026-05-18",
+        "wrong_choice_issues": 1,
+        "coverage_gaps": 4,
+        "explanation_issues": 4,
+        "suggested_exercises": 5,
+        "auto_edits": 0
+      }
+    },
+    "n4_026": {
+      "audit": {
+        "last": "2026-05-18",
+        "issues_found": 1,
+        "issues_flagged": 0,
+        "notes": "Fixed ex 5 hiragana_full + audio_alternatives: missing 。 between clauses"
+      },
+      "pedagogy": {
+        "last": "2026-05-18",
+        "wrong_choice_issues": 2,
+        "coverage_gaps": 4,
+        "explanation_issues": 3,
+        "suggested_exercises": 5,
+        "auto_edits": 0
+      }
+    },
+    "n4_080": {
+      "audit": {
+        "last": "2026-05-18",
+        "issues_found": 0,
+        "issues_flagged": 0,
+        "notes": "no changes"
+      }
+    },
+    "n5_073": {
+      "audit": {
+        "last": "2026-05-18",
+        "issues_found": 0,
+        "issues_flagged": 0,
+        "notes": "no changes"
+      },
+      "pedagogy": {
+        "last": "2026-05-18",
+        "wrong_choice_issues": 5,
+        "coverage_gaps": 5,
+        "explanation_issues": 4,
+        "suggested_exercises": 5,
+        "auto_edits": 0
+      }
+    }
+  },
+  "version": 1
+}
