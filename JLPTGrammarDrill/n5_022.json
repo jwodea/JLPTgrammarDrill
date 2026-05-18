@@ -1,0 +1,288 @@
+{
+  "id": "n5_022",
+  "pattern": "～か",
+  "meaning": "Question marker",
+  "level": "N5",
+  "exercises": [
+    {
+      "id": "n5_022_1",
+      "example_sentence": "これは何ですか。",
+      "translation": "What is this?",
+      "blank_target": "か",
+      "wrong_choices": [
+        "よ",
+        "ね",
+        "を"
+      ],
+      "wrong_choice_explanations": [
+        "よ is an emphatic particle used to assert or inform — it doesn't form questions.",
+        "ね is used for confirmation or agreement — it doesn't form direct questions like this.",
+        "を is an object particle for verbs — it has no function in forming questions with です."
+      ],
+      "hiragana_full": "これはなんですか",
+      "audio_alternatives": [
+        {
+          "kanji": "これは何？",
+          "hiragana_full": "これはなに"
+        },
+        {
+          "kanji": "こちらは何ですか。",
+          "hiragana_full": "こちらはなんですか"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_022_2",
+      "example_sentence": "明日雨が降りますか。",
+      "translation": "Will it rain tomorrow?",
+      "blank_target": "か",
+      "wrong_choices": [
+        "の",
+        "と",
+        "が"
+      ],
+      "wrong_choice_explanations": [
+        "の is a possessive or explanatory particle — it cannot form yes/no questions.",
+        "と means 'and' or 'with' — it doesn't function as a question marker.",
+        "が is a subject particle — using it here would make an incomplete statement, not a question."
+      ],
+      "hiragana_full": "あしたあめがふりますか",
+      "audio_alternatives": [
+        {
+          "kanji": "明日雨が降る？",
+          "hiragana_full": "あしたあめがふる？"
+        },
+        {
+          "kanji": "あした雨は降りますか。",
+          "hiragana_full": "あしたあめはふりますか"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_022_3",
+      "example_sentence": "田中さんは学生ですか。",
+      "translation": "Is Tanaka-san a student?",
+      "blank_target": "か",
+      "wrong_choices": [
+        "だ",
+        "な",
+        "も"
+      ],
+      "wrong_choice_explanations": [
+        "だ is the plain form copula — it would make this a statement, not a question.",
+        "な is used for emphasis or prohibition — it doesn't form polite questions with です.",
+        "も means 'also/too' — it adds meaning but doesn't create a question structure."
+      ],
+      "hiragana_full": "たなかさんはがくせいですか",
+      "audio_alternatives": [
+        {
+          "kanji": "田中さんは学生？",
+          "hiragana_full": "たなかさんはがくせい"
+        },
+        {
+          "kanji": "田中さんって学生ですか。",
+          "hiragana_full": "たなかさんってがくせいですか"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_022_4",
+      "example_sentence": "どこに行きますか。",
+      "translation": "Where are you going?",
+      "blank_target": "か",
+      "wrong_choices": [
+        "に",
+        "で",
+        "は"
+      ],
+      "wrong_choice_explanations": [
+        "に is already used for direction in this sentence — adding another に would be redundant and incorrect.",
+        "で indicates location of action or means — it doesn't form questions.",
+        "は is a topic particle — it would change the meaning but not create a question structure."
+      ],
+      "hiragana_full": "どこにいきますか",
+      "audio_alternatives": [
+        {
+          "kanji": "どこへ行きますか。",
+          "hiragana_full": "どこへいきますか"
+        },
+        {
+          "kanji": "どこに行くの？",
+          "hiragana_full": "どこにいくの"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_022_5",
+      "example_sentence": "コーヒーを飲みますか。",
+      "translation": "Do you drink coffee?",
+      "blank_target": "か",
+      "wrong_choices": [
+        "を",
+        "や",
+        "け"
+      ],
+      "wrong_choice_explanations": [
+        "を is already used as the object particle for コーヒー — doubling it would be grammatically incorrect.",
+        "や means 'and (among other things)' — it lists items but doesn't form questions.",
+        "け is a dialect form mainly used in Kansai — it's not standard for forming polite questions."
+      ],
+      "hiragana_full": "コーヒーをのみますか。",
+      "audio_alternatives": [
+        {
+          "kanji": "コーヒーは飲みますか。",
+          "hiragana_full": "コーヒーはのみますか。"
+        },
+        {
+          "kanji": "コーヒーを飲む？",
+          "hiragana_full": "コーヒーをのむ？"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_022_6",
+      "example_sentence": "日本語が分かりますか。",
+      "translation": "Do you understand Japanese?",
+      "blank_target": "か",
+      "wrong_choices": [
+        "ぞ",
+        "さ",
+        "わ"
+      ],
+      "wrong_choice_explanations": [
+        "ぞ is a masculine emphatic particle — it makes assertions, not questions.",
+        "さ is a casual emphatic particle — it doesn't form proper questions in polite speech.",
+        "わ is a feminine emphatic particle — it's used for statements, not questions."
+      ],
+      "hiragana_full": "にほんごがわかりますか",
+      "audio_alternatives": [
+        {
+          "kanji": "日本語は分かりますか。",
+          "hiragana_full": "にほんごはわかりますか"
+        },
+        {
+          "kanji": "日本語が分かる？",
+          "hiragana_full": "にほんごがわかる"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_022_7",
+      "example_sentence": "今何時ですか。",
+      "translation": "What time is it now?",
+      "blank_target": "か",
+      "wrong_choices": [
+        "よ",
+        "でした",
+        "だった"
+      ],
+      "wrong_choice_explanations": [
+        "よ is an emphatic particle for statements — it doesn't form questions with です.",
+        "でした is past tense polite copula — it would ask about past time, changing the meaning.",
+        "だった is plain past copula — it's too casual and refers to past time."
+      ],
+      "hiragana_full": "いまなんじですか",
+      "audio_alternatives": [
+        {
+          "kanji": "今、何時でしょうか。",
+          "hiragana_full": "いまなんじでしょうか"
+        },
+        {
+          "kanji": "何時ですか。",
+          "hiragana_full": "なんじですか"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_022_8",
+      "example_sentence": "誰が来ますか。",
+      "translation": "Who is coming?",
+      "blank_target": "か",
+      "wrong_choices": [
+        "かな",
+        "かい",
+        "かよ"
+      ],
+      "wrong_choice_explanations": [
+        "かな expresses uncertainty or wondering to oneself — it's not used for direct questions to others.",
+        "かい is a casual masculine question marker — it doesn't fit with the polite ます form.",
+        "かよ is very casual and somewhat rough — it's inappropriate with polite ます."
+      ],
+      "hiragana_full": "だれがきますか。",
+      "audio_alternatives": [
+        {
+          "kanji": "誰が来るの？",
+          "hiragana_full": "だれがくるの？"
+        },
+        {
+          "kanji": "どなたが来ますか。",
+          "hiragana_full": "どなたがきますか。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_022_9",
+      "example_sentence": "お名前は何ですか。",
+      "translation": "What is your name?",
+      "blank_target": "か",
+      "wrong_choices": [
+        "って",
+        "など",
+        "でも"
+      ],
+      "wrong_choice_explanations": [
+        "って is a casual quotation particle or topic marker — it doesn't form questions.",
+        "など means 'such as/and so on' — it lists examples but doesn't create question structures.",
+        "でも means 'but/however' — it shows contrast, not questions."
+      ],
+      "hiragana_full": "おなまえはなんですか",
+      "audio_alternatives": [
+        {
+          "kanji": "名前は何ですか。",
+          "hiragana_full": "なまえはなんですか"
+        },
+        {
+          "kanji": "お名前を教えていただけますか。",
+          "hiragana_full": "おなまえをおしえていただけますか"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_022_10",
+      "example_sentence": "電車で行きますか。",
+      "translation": "Are you going by train?",
+      "blank_target": "か",
+      "wrong_choices": [
+        "から",
+        "まで",
+        "より"
+      ],
+      "wrong_choice_explanations": [
+        "から means 'from' or 'because' — it shows starting points or reasons, not questions.",
+        "まで means 'until/to' — it indicates endpoints but doesn't form questions.",
+        "より means 'than' or 'from' — it's used for comparisons or sources, not questions."
+      ],
+      "hiragana_full": "でんしゃでいきますか。",
+      "audio_alternatives": [
+        {
+          "kanji": "電車で行くの？",
+          "hiragana_full": "でんしゃでいくの？"
+        },
+        {
+          "kanji": "電車で行きますか？",
+          "hiragana_full": "でんしゃでいきますか？"
+        }
+      ],
+      "audio_eligible": true
+    }
+  ]
+}

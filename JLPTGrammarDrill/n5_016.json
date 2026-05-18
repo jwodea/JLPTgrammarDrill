@@ -1,0 +1,288 @@
+{
+  "id": "n5_016",
+  "pattern": "～の",
+  "meaning": "Possessive marker / nominalizer",
+  "level": "N5",
+  "exercises": [
+    {
+      "id": "n5_016_1",
+      "example_sentence": "これは私の本です。",
+      "translation": "This is my book.",
+      "blank_target": "の",
+      "wrong_choices": [
+        "が",
+        "を",
+        "に"
+      ],
+      "wrong_choice_explanations": [
+        "が is the subject marker — it doesn't express possession between 私 and 本.",
+        "を is the object marker — it doesn't indicate possession and doesn't fit grammatically here.",
+        "に indicates direction or location — it doesn't express the possessive relationship needed here."
+      ],
+      "hiragana_full": "これはわたしのほんです",
+      "audio_alternatives": [
+        {
+          "kanji": "これは僕の本です。",
+          "hiragana_full": "これはぼくのほんです"
+        },
+        {
+          "kanji": "この本は私のです。",
+          "hiragana_full": "このほんはわたしのです"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_016_2",
+      "example_sentence": "田中先生の車は新しいです。",
+      "translation": "Mr. Tanaka's car is new.",
+      "blank_target": "の",
+      "wrong_choices": [
+        "は",
+        "と",
+        "で"
+      ],
+      "wrong_choice_explanations": [
+        "は is the topic marker — it cannot connect two nouns to show possession like の does.",
+        "と means 'and' or 'with' — it doesn't indicate that the car belongs to Mr. Tanaka.",
+        "で indicates location or means — it doesn't express the possessive relationship between person and object."
+      ],
+      "hiragana_full": "たなかせんせいのくるまはあたらしいです",
+      "audio_alternatives": [
+        {
+          "kanji": "田中先生の車は新しい。",
+          "hiragana_full": "たなかせんせいのくるまはあたらしい"
+        },
+        {
+          "kanji": "田中先生の車は新しいですね。",
+          "hiragana_full": "たなかせんせいのくるまはあたらしいですね"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_016_3",
+      "example_sentence": "日本語の勉強は難しいです。",
+      "translation": "Studying Japanese is difficult.",
+      "blank_target": "の",
+      "wrong_choices": [
+        "を",
+        "が",
+        "も"
+      ],
+      "wrong_choice_explanations": [
+        "を marks objects — it cannot connect 日本語 and 勉強 to form a compound noun phrase.",
+        "が marks subjects — it doesn't create the noun phrase '日本語の勉強' (studying Japanese).",
+        "も means 'also' — it doesn't connect the two nouns to form a compound noun phrase."
+      ],
+      "hiragana_full": "にほんごのべんきょうはむずかしいです",
+      "audio_alternatives": [
+        {
+          "kanji": "日本語を勉強するのは難しいです。",
+          "hiragana_full": "にほんごをべんきょうするのはむずかしいです"
+        },
+        {
+          "kanji": "日本語の勉強は大変です。",
+          "hiragana_full": "にほんごのべんきょうはたいへんです"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_016_4",
+      "example_sentence": "友達の家に行きました。",
+      "translation": "I went to my friend's house.",
+      "blank_target": "の",
+      "wrong_choices": [
+        "と",
+        "から",
+        "まで"
+      ],
+      "wrong_choice_explanations": [
+        "と means 'and' or 'with' — it doesn't show that the house belongs to the friend.",
+        "から means 'from' — it doesn't express the possessive relationship needed here.",
+        "まで means 'until' — it doesn't indicate possession between friend and house."
+      ],
+      "hiragana_full": "ともだちのいえにいきました",
+      "audio_alternatives": [
+        {
+          "kanji": "友達の家へ行きました。",
+          "hiragana_full": "ともだちのいえへいきました"
+        },
+        {
+          "kanji": "友達のところに行きました。",
+          "hiragana_full": "ともだちのところにいきました"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_016_5",
+      "example_sentence": "本を読むのが好きです。",
+      "translation": "I like reading books.",
+      "blank_target": "の",
+      "wrong_choices": [
+        "こと",
+        "とき",
+        "ため"
+      ],
+      "wrong_choice_explanations": [
+        "こと can nominalize verbs, but this structure requires の to nominalize 読む before が.",
+        "とき means 'when/time' — it doesn't nominalize the verb 読む in this context.",
+        "ため means 'for the sake of' — it doesn't function as a nominalizer for verbs like の does here."
+      ],
+      "hiragana_full": "ほんをよむのがすきです。",
+      "audio_alternatives": [
+        {
+          "kanji": "本を読むことが好きです。",
+          "hiragana_full": "ほんをよむことがすきです。"
+        },
+        {
+          "kanji": "読書が好きです。",
+          "hiragana_full": "どくしょがすきです。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_016_6",
+      "example_sentence": "学校の図書館で本を読みます。",
+      "translation": "I read books in the school's library.",
+      "blank_target": "の",
+      "wrong_choices": [
+        "で",
+        "に",
+        "と"
+      ],
+      "wrong_choice_explanations": [
+        "で indicates location of action, but here we need の to show that the library belongs to the school.",
+        "に indicates location or direction — it doesn't express the possessive relationship between school and library.",
+        "と means 'and' or 'with' — it doesn't indicate that the library is part of the school."
+      ],
+      "hiragana_full": "がっこうのとしょかんでほんをよみます。",
+      "audio_alternatives": [
+        {
+          "kanji": "学校の図書館で本を読む。",
+          "hiragana_full": "がっこうのとしょかんでほんをよむ。"
+        },
+        {
+          "kanji": "図書館で本を読みます。",
+          "hiragana_full": "としょかんでほんをよみます。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_016_7",
+      "example_sentence": "毎日日本語を話すのは楽しいです。",
+      "translation": "Speaking Japanese every day is fun.",
+      "blank_target": "の",
+      "wrong_choices": [
+        "こと",
+        "とき",
+        "ため"
+      ],
+      "wrong_choice_explanations": [
+        "こと can nominalize verbs, but this sentence structure requires の to make the entire phrase the subject.",
+        "とき means 'when/time' — it doesn't nominalize the action of speaking Japanese.",
+        "ため means 'for the purpose of' — it doesn't properly nominalize verb phrases like の does."
+      ],
+      "hiragana_full": "まいにちにほんごをはなすのはたのしいです",
+      "audio_alternatives": [
+        {
+          "kanji": "毎日日本語を話すことは楽しいです。",
+          "hiragana_full": "まいにちにほんごをはなすことはたのしいです"
+        },
+        {
+          "kanji": "毎日日本語を話すのは楽しい。",
+          "hiragana_full": "まいにちにほんごをはなすのはたのしい"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_016_8",
+      "example_sentence": "母の料理はとてもおいしいです。",
+      "translation": "My mother's cooking is very delicious.",
+      "blank_target": "の",
+      "wrong_choices": [
+        "が",
+        "は",
+        "を"
+      ],
+      "wrong_choice_explanations": [
+        "が marks subjects — it doesn't connect 母 and 料理 to show possession.",
+        "は is the topic marker — it cannot link two nouns to express a possessive relationship.",
+        "を marks objects — it doesn't indicate that the cooking belongs to mother."
+      ],
+      "hiragana_full": "ははのりょうりはとてもおいしいです",
+      "audio_alternatives": [
+        {
+          "kanji": "母の料理はとても美味しい。",
+          "hiragana_full": "ははのりょうりはとてもおいしい"
+        },
+        {
+          "kanji": "母が作る料理はとてもおいしいです。",
+          "hiragana_full": "ははがつくるりょうりはとてもおいしいです"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_016_9",
+      "example_sentence": "あの青いのが私のペンです。",
+      "translation": "That blue one is my pen.",
+      "blank_target": "の",
+      "wrong_choices": [
+        "もの",
+        "こと",
+        "ひと"
+      ],
+      "wrong_choice_explanations": [
+        "もの means 'thing' but doesn't function as a pronoun substitute like の does here.",
+        "こと refers to abstract things or actions — it doesn't substitute for concrete objects like pens.",
+        "ひと means 'person' — it doesn't work as a pronoun for objects like の does."
+      ],
+      "hiragana_full": "あのあおいのがわたしのぺんです",
+      "audio_alternatives": [
+        {
+          "kanji": "あの青いのは私のペンです。",
+          "hiragana_full": "あのあおいのはわたしのぺんです"
+        },
+        {
+          "kanji": "あの青いペンは私のです。",
+          "hiragana_full": "あのあおいぺんはわたしのです"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_016_10",
+      "example_sentence": "宿題をするのを忘れました。",
+      "translation": "I forgot to do my homework.",
+      "blank_target": "の",
+      "wrong_choices": [
+        "こと",
+        "ため",
+        "もの"
+      ],
+      "wrong_choice_explanations": [
+        "こと can nominalize verbs, but this sentence structure specifically requires の before を.",
+        "ため means 'for the purpose of' — it doesn't nominalize the verb phrase here.",
+        "もの means 'thing' — it doesn't function as a nominalizer for verb phrases in this context."
+      ],
+      "hiragana_full": "しゅくだいをするのをわすれました",
+      "audio_alternatives": [
+        {
+          "kanji": "宿題をするのを忘れた。",
+          "hiragana_full": "しゅくだいをするのをわすれた"
+        },
+        {
+          "kanji": "宿題を忘れました。",
+          "hiragana_full": "しゅくだいをわすれました"
+        }
+      ],
+      "audio_eligible": true
+    }
+  ]
+}

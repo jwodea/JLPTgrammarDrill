@@ -1,0 +1,288 @@
+{
+  "id": "n5_003",
+  "pattern": "〜に",
+  "meaning": "location / time / direction marker particle",
+  "level": "N5",
+  "exercises": [
+    {
+      "id": "n5_003_1",
+      "example_sentence": "学校に行きます。",
+      "translation": "I go to school.",
+      "blank_target": "に",
+      "wrong_choices": [
+        "を",
+        "が",
+        "で"
+      ],
+      "wrong_choice_explanations": [
+        "を marks a direct object or a space traversed, not the destination.",
+        "が marks the subject, not a destination.",
+        "で marks the location of an action, not the direction of movement."
+      ],
+      "hiragana_full": "がっこうにいきます。",
+      "audio_alternatives": [
+        {
+          "kanji": "学校へ行きます。",
+          "hiragana_full": "がっこうへいきます。"
+        },
+        {
+          "kanji": "学校に行く。",
+          "hiragana_full": "がっこうにいく。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_003_2",
+      "example_sentence": "七時に起きます。",
+      "translation": "I wake up at seven o'clock.",
+      "blank_target": "に",
+      "wrong_choices": [
+        "で",
+        "を",
+        "が"
+      ],
+      "wrong_choice_explanations": [
+        "で marks a place or means, not a specific point in time.",
+        "を marks a direct object, not a time.",
+        "が marks the subject, not time."
+      ],
+      "hiragana_full": "しちじにおきます。",
+      "audio_alternatives": [
+        {
+          "kanji": "七時に目が覚めます。",
+          "hiragana_full": "しちじにめがさめます。"
+        },
+        {
+          "kanji": "朝七時に起きます。",
+          "hiragana_full": "あさしちじにおきます。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_003_3",
+      "example_sentence": "友達にプレゼントをあげます。",
+      "translation": "I give a present to my friend.",
+      "blank_target": "に",
+      "wrong_choices": [
+        "を",
+        "が",
+        "で"
+      ],
+      "wrong_choice_explanations": [
+        "を marks the direct object (the present), not the recipient.",
+        "が marks the subject, not the indirect object.",
+        "で marks the means or place, not the recipient."
+      ],
+      "hiragana_full": "ともだちにぷれぜんとをあげます",
+      "audio_alternatives": [
+        {
+          "kanji": "友達にプレゼントをあげる。",
+          "hiragana_full": "ともだちにぷれぜんとをあげる"
+        },
+        {
+          "kanji": "友達へプレゼントをあげます。",
+          "hiragana_full": "ともだちへぷれぜんとをあげます"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_003_4",
+      "example_sentence": "椅子に座ります。",
+      "translation": "I sit on a chair.",
+      "blank_target": "に",
+      "wrong_choices": [
+        "を",
+        "で",
+        "が"
+      ],
+      "wrong_choice_explanations": [
+        "を marks a direct object; 座る takes に for the surface sat upon.",
+        "で marks the general location of activity, not the specific point of contact.",
+        "が marks the subject, not where one sits."
+      ],
+      "hiragana_full": "いすにすわります。",
+      "audio_alternatives": [
+        {
+          "kanji": "椅子に座る。",
+          "hiragana_full": "いすにすわる。"
+        },
+        {
+          "kanji": "椅子へ座ります。",
+          "hiragana_full": "いすへすわります。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_003_5",
+      "example_sentence": "日本に住んでいます。",
+      "translation": "I live in Japan.",
+      "blank_target": "に",
+      "wrong_choices": [
+        "で",
+        "を",
+        "が"
+      ],
+      "wrong_choice_explanations": [
+        "で marks where an action takes place, but 住む takes に for the place of residence.",
+        "を marks a direct object, not a place of residence.",
+        "が marks the subject, not the location."
+      ],
+      "hiragana_full": "にほんにすんでいます。",
+      "audio_alternatives": [
+        {
+          "kanji": "日本に住んでいる。",
+          "hiragana_full": "にほんにすんでいる。"
+        },
+        {
+          "kanji": "日本に住んでます。",
+          "hiragana_full": "にほんにすんでます。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_003_6",
+      "example_sentence": "月曜日にテストがあります。",
+      "translation": "There is a test on Monday.",
+      "blank_target": "に",
+      "wrong_choices": [
+        "で",
+        "を",
+        "と"
+      ],
+      "wrong_choice_explanations": [
+        "で marks a place or means, not a day of the week as a time point.",
+        "を marks a direct object, not a time.",
+        "と means 'with' or 'and'; 月曜日とテストがあります would mean 'Monday and a test exist,' which is nonsensical."
+      ],
+      "hiragana_full": "げつようびにてすとがあります",
+      "audio_alternatives": [
+        {
+          "kanji": "月曜日にテストがある。",
+          "hiragana_full": "げつようびにてすとがある"
+        },
+        {
+          "kanji": "月曜日にテストがございます。",
+          "hiragana_full": "げつようびにてすとがございます"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_003_7",
+      "example_sentence": "駅に着きました。",
+      "translation": "I arrived at the station.",
+      "blank_target": "に",
+      "wrong_choices": [
+        "を",
+        "で",
+        "が"
+      ],
+      "wrong_choice_explanations": [
+        "を marks a direct object or departure point, not an arrival destination.",
+        "で marks the location of an action, not the endpoint of arrival.",
+        "が marks the subject, not the destination."
+      ],
+      "hiragana_full": "えきにつきました。",
+      "audio_alternatives": [
+        {
+          "kanji": "駅に到着しました。",
+          "hiragana_full": "えきにとうちゃくしました。"
+        },
+        {
+          "kanji": "駅へ着きました。",
+          "hiragana_full": "えきへつきました。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_003_8",
+      "example_sentence": "壁に絵をかけます。",
+      "translation": "I hang a picture on the wall.",
+      "blank_target": "に",
+      "wrong_choices": [
+        "で",
+        "を",
+        "が"
+      ],
+      "wrong_choice_explanations": [
+        "で marks the means or general location, not the specific surface.",
+        "を marks the object being hung, not where it is placed.",
+        "が marks the subject, not the surface."
+      ],
+      "hiragana_full": "かべにえをかけます。",
+      "audio_alternatives": [
+        {
+          "kanji": "壁に絵を掛けます。",
+          "hiragana_full": "かべにえをかけます。"
+        },
+        {
+          "kanji": "壁に絵をかける。",
+          "hiragana_full": "かべにえをかける。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_003_9",
+      "example_sentence": "バスに乗ります。",
+      "translation": "I ride the bus.",
+      "blank_target": "に",
+      "wrong_choices": [
+        "を",
+        "で",
+        "が"
+      ],
+      "wrong_choice_explanations": [
+        "を marks a direct object or space passed through, but 乗る takes に for the vehicle boarded.",
+        "で marks the means of transport differently; 乗る requires に for the vehicle boarded.",
+        "が marks the subject, not the vehicle."
+      ],
+      "hiragana_full": "ばすにのります。",
+      "audio_alternatives": [
+        {
+          "kanji": "バスに乗る。",
+          "hiragana_full": "ばすにのる。"
+        },
+        {
+          "kanji": "バスに乗っています。",
+          "hiragana_full": "ばすにのっています。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_003_10",
+      "example_sentence": "三月＿＿日本に行きます。",
+      "translation": "I go to Japan in March.",
+      "blank_target": "に",
+      "wrong_choices": [
+        "で",
+        "を",
+        "と"
+      ],
+      "wrong_choice_explanations": [
+        "で marks a place or means, not a specific month as a time marker.",
+        "を marks a direct object, not a time reference.",
+        "と means 'with' or 'and'; 三月と日本に行きます would mean 'go to Japan with March,' which is nonsensical."
+      ],
+      "hiragana_full": "さんがつにほんにいきます。",
+      "audio_alternatives": [
+        {
+          "kanji": "三月に日本へ行きます。",
+          "hiragana_full": "さんがつにほんへいきます。"
+        },
+        {
+          "kanji": "三月、日本に行きます。",
+          "hiragana_full": "さんがつにほんにいきます。"
+        }
+      ],
+      "audio_eligible": true
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "id": "n5_001",
+  "pattern": "〜です",
+  "meaning": "polite copula (is / am / are)",
+  "level": "N5",
+  "exercises": [
+    {
+      "id": "n5_001_1",
+      "example_sentence": "これは本です。",
+      "translation": "This is a book.",
+      "blank_target": "です",
+      "wrong_choices": [
+        "だ",
+        "でした",
+        "ある"
+      ],
+      "wrong_choice_explanations": [
+        "だ is the plain copula; this sentence requires the polite form です.",
+        "でした is the past polite copula, but the sentence is present tense.",
+        "ある means 'to exist' for inanimate objects but cannot link a noun predicate."
+      ],
+      "hiragana_full": "これはほんです。",
+      "audio_alternatives": [
+        {
+          "kanji": "これは本だ。",
+          "hiragana_full": "これはほんだ。"
+        },
+        {
+          "kanji": "この本です。",
+          "hiragana_full": "このほんです。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_001_2",
+      "example_sentence": "私は学生です。",
+      "translation": "I am a student.",
+      "blank_target": "です",
+      "wrong_choices": [
+        "だ",
+        "ます",
+        "いる"
+      ],
+      "wrong_choice_explanations": [
+        "だ is the plain form copula; the sentence requires the polite form.",
+        "ます is a polite verb ending, not used after nouns.",
+        "いる means 'to exist' and cannot link a noun predicate."
+      ],
+      "hiragana_full": "わたしはがくせいです",
+      "audio_alternatives": [
+        {
+          "kanji": "私は学生だ。",
+          "hiragana_full": "わたしはがくせいだ"
+        },
+        {
+          "kanji": "僕は学生です。",
+          "hiragana_full": "ぼくはがくせいです"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_001_3",
+      "example_sentence": "田中さんは先生です。",
+      "translation": "Tanaka-san is a teacher.",
+      "blank_target": "です",
+      "wrong_choices": [
+        "だった",
+        "じゃない",
+        "ある"
+      ],
+      "wrong_choice_explanations": [
+        "だった is the past plain copula, but the sentence is present tense.",
+        "じゃない is the negative plain copula ('is not'), which contradicts the sentence meaning.",
+        "ある expresses existence, not equation between two nouns."
+      ],
+      "hiragana_full": "たなかさんはせんせいです",
+      "audio_alternatives": [
+        {
+          "kanji": "田中さんは教師です。",
+          "hiragana_full": "たなかさんはきょうしです"
+        },
+        {
+          "kanji": "田中さんは先生だ。",
+          "hiragana_full": "たなかさんはせんせいだ"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_001_4",
+      "example_sentence": "今日は月曜日です。",
+      "translation": "Today is Monday.",
+      "blank_target": "です",
+      "wrong_choices": [
+        "だ",
+        "ない",
+        "でした"
+      ],
+      "wrong_choice_explanations": [
+        "だ is plain form; the context requires polite speech.",
+        "ない is a negative adjective and cannot serve as a copula.",
+        "でした is past polite; the sentence is about today, so present tense is needed."
+      ],
+      "hiragana_full": "きょうはげつようびです",
+      "audio_alternatives": [
+        {
+          "kanji": "今日は月曜日だ。",
+          "hiragana_full": "きょうはげつようびだ"
+        },
+        {
+          "kanji": "本日は月曜日です。",
+          "hiragana_full": "ほんじつはげつようびです"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_001_5",
+      "example_sentence": "あの建物は図書館です。",
+      "translation": "That building is a library.",
+      "blank_target": "です",
+      "wrong_choices": [
+        "でした",
+        "いる",
+        "ある"
+      ],
+      "wrong_choice_explanations": [
+        "でした is past polite; the sentence describes a current fact.",
+        "いる is for living things, not for equating two nouns.",
+        "ある means 'exists' and does not equate two nouns."
+      ],
+      "hiragana_full": "あのたてものはとしょかんです",
+      "audio_alternatives": [
+        {
+          "kanji": "あの建物は図書館だ。",
+          "hiragana_full": "あのたてものはとしょかんだ"
+        },
+        {
+          "kanji": "あれは図書館です。",
+          "hiragana_full": "あれはとしょかんです"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_001_6",
+      "example_sentence": "彼女はアメリカ人です。",
+      "translation": "She is American.",
+      "blank_target": "です",
+      "wrong_choices": [
+        "だ",
+        "ます",
+        "じゃない"
+      ],
+      "wrong_choice_explanations": [
+        "だ is plain form; polite form is required.",
+        "ます is a verb ending, not a noun copula.",
+        "じゃない is the negative plain copula ('is not'), which reverses the sentence meaning."
+      ],
+      "hiragana_full": "かのじょはアメリカじんです。",
+      "audio_alternatives": [
+        {
+          "kanji": "彼女はアメリカ人だ。",
+          "hiragana_full": "かのじょはアメリカじんだ。"
+        },
+        {
+          "kanji": "あの人はアメリカ人です。",
+          "hiragana_full": "あのひとはアメリカじんです。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_001_7",
+      "example_sentence": "この料理はおいしいです。",
+      "translation": "This food is delicious.",
+      "blank_target": "です",
+      "wrong_choices": [
+        "だった",
+        "だ",
+        "ある"
+      ],
+      "wrong_choice_explanations": [
+        "だった is past tense and plain form; the sentence is present and polite.",
+        "だ is not typically used directly after i-adjectives in standard Japanese.",
+        "ある means 'to exist' and doesn't follow adjectives this way."
+      ],
+      "hiragana_full": "このりょうりはおいしいです",
+      "audio_alternatives": [
+        {
+          "kanji": "この料理はおいしい。",
+          "hiragana_full": "このりょうりはおいしい"
+        },
+        {
+          "kanji": "この食べ物はおいしいです。",
+          "hiragana_full": "このたべものはおいしいです"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_001_8",
+      "example_sentence": "ここは駅です。",
+      "translation": "This place is a station.",
+      "blank_target": "です",
+      "wrong_choices": [
+        "だ",
+        "でした",
+        "いる"
+      ],
+      "wrong_choice_explanations": [
+        "だ is the plain copula; polite form is needed.",
+        "でした is past polite; the sentence describes a current fact.",
+        "いる refers to the existence of living things, not places."
+      ],
+      "hiragana_full": "ここはえきです",
+      "audio_alternatives": [
+        {
+          "kanji": "ここが駅です。",
+          "hiragana_full": "ここがえきです"
+        },
+        {
+          "kanji": "この場所は駅です。",
+          "hiragana_full": "このばしょはえきです"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_001_9",
+      "example_sentence": "あれは富士山です。",
+      "translation": "That over there is Mt. Fuji.",
+      "blank_target": "です",
+      "wrong_choices": [
+        "だ",
+        "ある",
+        "いる"
+      ],
+      "wrong_choice_explanations": [
+        "だ is plain form; the polite copula is needed.",
+        "ある means 'exists' but doesn't equate nouns.",
+        "いる is for animate existence."
+      ],
+      "hiragana_full": "あれはふじさんです",
+      "audio_alternatives": [
+        {
+          "kanji": "あれが富士山です。",
+          "hiragana_full": "あれがふじさんです"
+        },
+        {
+          "kanji": "富士山はあれです。",
+          "hiragana_full": "ふじさんはあれです"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_001_10",
+      "example_sentence": "明日は休みです。",
+      "translation": "Tomorrow is a holiday.",
+      "blank_target": "です",
+      "wrong_choices": [
+        "だ",
+        "ます",
+        "だった"
+      ],
+      "wrong_choice_explanations": [
+        "だ is plain form, not polite.",
+        "ます is for verbs, not noun predicates.",
+        "だった is past plain form; the sentence is about tomorrow (future)."
+      ],
+      "hiragana_full": "あしたはやすみです",
+      "audio_alternatives": [
+        {
+          "kanji": "明日は休日です。",
+          "hiragana_full": "あしたはきゅうじつです"
+        },
+        {
+          "kanji": "あすは休みです。",
+          "hiragana_full": "あすはやすみです"
+        }
+      ],
+      "audio_eligible": true
+    }
+  ]
+}

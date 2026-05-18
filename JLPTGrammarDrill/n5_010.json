@@ -1,0 +1,288 @@
+{
+  "id": "n5_010",
+  "pattern": "～に",
+  "meaning": "Direction / time / location / indirect object marker",
+  "level": "N5",
+  "exercises": [
+    {
+      "id": "n5_010_1",
+      "example_sentence": "学校に行きます。",
+      "translation": "I go to school.",
+      "blank_target": "に",
+      "wrong_choices": [
+        "が",
+        "を",
+        "で"
+      ],
+      "wrong_choice_explanations": [
+        "が marks subjects — it doesn't fit here because 学校 is the destination, not the subject performing the action.",
+        "を marks direct objects or routes passed through — it doesn't fit here because 学校 is the destination being reached, not an object being acted upon or passed through.",
+        "で indicates location where an action occurs — it doesn't fit here because 学校 is where we're going to, not where the action of going takes place."
+      ],
+      "hiragana_full": "がっこうにいきます。",
+      "audio_alternatives": [
+        {
+          "kanji": "学校へ行きます。",
+          "hiragana_full": "がっこうへいきます。"
+        },
+        {
+          "kanji": "学校に行く。",
+          "hiragana_full": "がっこうにいく。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_010_2",
+      "example_sentence": "三時に会います。",
+      "translation": "I'll meet at three o'clock.",
+      "blank_target": "に",
+      "wrong_choices": [
+        "が",
+        "を",
+        "は"
+      ],
+      "wrong_choice_explanations": [
+        "が marks subjects — it doesn't fit here because 三時 is a time specification, not the subject of the sentence.",
+        "を marks direct objects — it doesn't fit here because 三時 is a time when something happens, not an object being acted upon.",
+        "は marks topics — it doesn't fit here because 三時 is a specific time point, not a topic for general discussion."
+      ],
+      "hiragana_full": "さんじにあいます。",
+      "audio_alternatives": [
+        {
+          "kanji": "三時に会いましょう。",
+          "hiragana_full": "さんじにあいましょう。"
+        },
+        {
+          "kanji": "三時に会う。",
+          "hiragana_full": "さんじにあう。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_010_3",
+      "example_sentence": "友達にプレゼントをあげました。",
+      "translation": "I gave a present to my friend.",
+      "blank_target": "に",
+      "wrong_choices": [
+        "が",
+        "を",
+        "と"
+      ],
+      "wrong_choice_explanations": [
+        "が marks subjects — it doesn't fit here because 友達 is the recipient of the gift, not the subject giving it.",
+        "を marks direct objects — it doesn't fit here because 友達 is the recipient (indirect object), while プレゼント is the direct object.",
+        "と means 'with' or 'and' — it doesn't fit here because 友達 is receiving the gift, not accompanying the giver."
+      ],
+      "hiragana_full": "ともだちにぷれぜんとをあげました",
+      "audio_alternatives": [
+        {
+          "kanji": "友達にプレゼントをあげた。",
+          "hiragana_full": "ともだちにぷれぜんとをあげた"
+        },
+        {
+          "kanji": "友達へプレゼントをあげました。",
+          "hiragana_full": "ともだちへぷれぜんとをあげました"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_010_4",
+      "example_sentence": "家に帰ります。",
+      "translation": "I return home.",
+      "blank_target": "に",
+      "wrong_choices": [
+        "が",
+        "を",
+        "で"
+      ],
+      "wrong_choice_explanations": [
+        "が marks subjects — it doesn't fit here because 家 is the destination, not the subject performing the action.",
+        "を marks direct objects or departure points with certain verbs — it doesn't fit here because 家 is where we're going back to, not what we're leaving.",
+        "で indicates location of action — it doesn't fit here because 家 is the destination we're returning to, not where the action of returning occurs."
+      ],
+      "hiragana_full": "いえにかえります。",
+      "audio_alternatives": [
+        {
+          "kanji": "うちに帰ります。",
+          "hiragana_full": "うちにかえります。"
+        },
+        {
+          "kanji": "家に戻ります。",
+          "hiragana_full": "いえにもどります。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_010_5",
+      "example_sentence": "机の上に本があります。",
+      "translation": "There is a book on the desk.",
+      "blank_target": "に",
+      "wrong_choices": [
+        "が",
+        "を",
+        "の"
+      ],
+      "wrong_choice_explanations": [
+        "が marks subjects — it doesn't fit here because 机の上 is the location where something exists, not the subject of existence.",
+        "を marks direct objects — it doesn't fit here because 机の上 is a location, not an object being acted upon.",
+        "の shows possession or modification — it doesn't fit here because we need a particle to mark location, not to show relationship between nouns."
+      ],
+      "hiragana_full": "つくえのうえにほんがあります。",
+      "audio_alternatives": [
+        {
+          "kanji": "机の上に本がある。",
+          "hiragana_full": "つくえのうえにほんがある。"
+        },
+        {
+          "kanji": "本は机の上にあります。",
+          "hiragana_full": "ほんはつくえのうえにあります。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_010_6",
+      "example_sentence": "日曜日に買い物をします。",
+      "translation": "I do shopping on Sunday.",
+      "blank_target": "に",
+      "wrong_choices": [
+        "が",
+        "から",
+        "まで"
+      ],
+      "wrong_choice_explanations": [
+        "が marks subjects — it doesn't fit here because 日曜日 specifies when the action occurs, not who performs it.",
+        "から means 'from' — it doesn't fit here because 日曜日 is when the shopping happens, not a starting point.",
+        "まで means 'until' — it doesn't fit here because 日曜日 is the specific time of action, not an endpoint."
+      ],
+      "hiragana_full": "にちようびにかいものをします。",
+      "audio_alternatives": [
+        {
+          "kanji": "日曜日に買い物する。",
+          "hiragana_full": "にちようびにかいものする。"
+        },
+        {
+          "kanji": "日曜日にショッピングをします。",
+          "hiragana_full": "にちようびにショッピングをします。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_010_7",
+      "example_sentence": "駅に着きました。",
+      "translation": "I arrived at the station.",
+      "blank_target": "に",
+      "wrong_choices": [
+        "が",
+        "を",
+        "から"
+      ],
+      "wrong_choice_explanations": [
+        "が marks subjects — it doesn't fit here because 駅 is the destination reached, not the subject performing the arriving.",
+        "を can mark routes or departure points — it doesn't fit here because 駅 is where we arrived, not what we passed through or left.",
+        "から means 'from' — it doesn't fit here because 駅 is where we arrived, not where we came from."
+      ],
+      "hiragana_full": "えきにつきました。",
+      "audio_alternatives": [
+        {
+          "kanji": "駅に到着しました。",
+          "hiragana_full": "えきにとうちゃくしました。"
+        },
+        {
+          "kanji": "駅へ着きました。",
+          "hiragana_full": "えきへつきました。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_010_8",
+      "example_sentence": "先生に質問しました。",
+      "translation": "I asked the teacher a question.",
+      "blank_target": "に",
+      "wrong_choices": [
+        "が",
+        "を",
+        "の"
+      ],
+      "wrong_choice_explanations": [
+        "が marks subjects — it doesn't fit here because 先生 is who received the question, not who asked it.",
+        "を marks direct objects — it doesn't fit here because 先生 is the person being asked (indirect object), not the question itself (direct object).",
+        "の shows possession or modification — it doesn't fit here because we need to mark the indirect object, not show possession."
+      ],
+      "hiragana_full": "せんせいにしつもんしました",
+      "audio_alternatives": [
+        {
+          "kanji": "先生に質問した。",
+          "hiragana_full": "せんせいにしつもんした"
+        },
+        {
+          "kanji": "先生に聞きました。",
+          "hiragana_full": "せんせいにききました"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_010_9",
+      "example_sentence": "部屋に入ります。",
+      "translation": "I enter the room.",
+      "blank_target": "に",
+      "wrong_choices": [
+        "が",
+        "から",
+        "まで"
+      ],
+      "wrong_choice_explanations": [
+        "が marks subjects — it doesn't fit here because 部屋 is the destination being entered, not the subject doing the entering.",
+        "から means 'from' — it doesn't fit here because 部屋 is where we're entering into, not where we're coming from.",
+        "まで means 'until/up to' — it doesn't fit here because 部屋 is the destination we enter completely, not just a point we reach."
+      ],
+      "hiragana_full": "へやにはいります。",
+      "audio_alternatives": [
+        {
+          "kanji": "部屋に入る。",
+          "hiragana_full": "へやにはいる。"
+        },
+        {
+          "kanji": "部屋の中に入ります。",
+          "hiragana_full": "へやのなかにはいります。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_010_10",
+      "example_sentence": "母に電話をかけます。",
+      "translation": "I call my mother.",
+      "blank_target": "に",
+      "wrong_choices": [
+        "が",
+        "の",
+        "から"
+      ],
+      "wrong_choice_explanations": [
+        "が marks subjects — it doesn't fit here because 母 is who receives the call, not who makes it.",
+        "の shows possession or modification — it doesn't fit here because 母 is the recipient of the call, not a possessive relationship.",
+        "から means 'from' — it doesn't fit here because we're calling to the mother, not calling from the mother."
+      ],
+      "hiragana_full": "ははにでんわをかけます。",
+      "audio_alternatives": [
+        {
+          "kanji": "母に電話します。",
+          "hiragana_full": "ははにでんわします。"
+        },
+        {
+          "kanji": "お母さんに電話をかけます。",
+          "hiragana_full": "おかあさんにでんわをかけます。"
+        }
+      ],
+      "audio_eligible": true
+    }
+  ]
+}

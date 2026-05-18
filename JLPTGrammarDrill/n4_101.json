@@ -1,0 +1,288 @@
+{
+  "id": "n4_101",
+  "pattern": "～ごとに",
+  "meaning": "Every ~ / each ~ (no gaps, complete coverage)",
+  "level": "N4",
+  "exercises": [
+    {
+      "id": "n4_101_1",
+      "example_sentence": "毎日3時間ごとに休憩を取る。",
+      "translation": "I take a break every 3 hours every day.",
+      "blank_target": "ごと",
+      "wrong_choices": [
+        "おき",
+        "たび",
+        "まえ"
+      ],
+      "wrong_choice_explanations": [
+        "おきに means 'at intervals with gaps' — it doesn't fit here because we want continuous every-3-hour breaks without skipping.",
+        "たびに means 'each time when' — it doesn't fit here because it requires a specific action or event, not a time interval.",
+        "まえに means 'before' — it doesn't fit here because we're talking about regular intervals, not timing before something."
+      ],
+      "hiragana_full": "まいにちさんじかんごとにきゅうけいをとる。",
+      "audio_alternatives": [
+        {
+          "kanji": "毎日3時間おきに休憩を取る。",
+          "hiragana_full": "まいにちさんじかんおきにきゅうけいをとる。"
+        },
+        {
+          "kanji": "毎日3時間ごとに休憩を取ります。",
+          "hiragana_full": "まいにちさんじかんごとにきゅうけいをとります。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_101_2",
+      "example_sentence": "この電車は駅ごとに止まります。",
+      "translation": "This train stops at every station.",
+      "blank_target": "ごと",
+      "wrong_choices": [
+        "おき",
+        "ずつ",
+        "だけ"
+      ],
+      "wrong_choice_explanations": [
+        "おきに means 'at intervals with gaps' — it doesn't fit here because the train stops at consecutive stations without skipping any.",
+        "ずつ means 'each/apiece' for quantities — it doesn't fit here because we're talking about locations, not amounts.",
+        "だけ means 'only' — it doesn't fit here because we're expressing frequency at all stations, not limitation."
+      ],
+      "hiragana_full": "このでんしゃはえきごとにとまります",
+      "audio_alternatives": [
+        {
+          "kanji": "この電車は各駅に止まります。",
+          "hiragana_full": "このでんしゃはかくえきにとまります"
+        },
+        {
+          "kanji": "この電車はすべての駅に止まります。",
+          "hiragana_full": "このでんしゃはすべてのえきにとまります"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_101_3",
+      "example_sentence": "彼は試合ごとに新記録を出している。",
+      "translation": "He sets a new record in every match.",
+      "blank_target": "ごと",
+      "wrong_choices": [
+        "たび",
+        "おき",
+        "とき"
+      ],
+      "wrong_choice_explanations": [
+        "たびに means 'each time when' — while similar, it doesn't fit as naturally here because ごとに emphasizes the systematic pattern across all matches.",
+        "おきに means 'at intervals with gaps' — it doesn't fit here because we're talking about consecutive matches, not skipping some.",
+        "ときに means 'when/at the time of' — it doesn't fit here because we need to express regularity, not just timing."
+      ],
+      "hiragana_full": "かれはしあいごとにしんきろくをだしている",
+      "audio_alternatives": [
+        {
+          "kanji": "彼は毎試合新記録を出している。",
+          "hiragana_full": "かれはまいしあいしんきろくをだしている"
+        },
+        {
+          "kanji": "彼は試合のたびに新記録を出している。",
+          "hiragana_full": "かれはしあいのたびにしんきろくをだしている"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_101_4",
+      "example_sentence": "学生は一人ごとにプレゼンテーションをした。",
+      "translation": "Each student gave a presentation.",
+      "blank_target": "ごと",
+      "wrong_choices": [
+        "ずつ",
+        "おき",
+        "ばかり"
+      ],
+      "wrong_choice_explanations": [
+        "ずつ means 'each/apiece' for quantities distributed — it doesn't fit here because we're talking about individual actions, not distribution.",
+        "おきに means 'at intervals with gaps' — it doesn't fit here because every student presented without anyone being skipped.",
+        "ばかり means 'only/just' — it doesn't fit here because we're expressing that each person did something, not exclusivity."
+      ],
+      "hiragana_full": "がくせいはひとりごとにぷれぜんてーしょんをした",
+      "audio_alternatives": [
+        {
+          "kanji": "学生はそれぞれプレゼンテーションをした。",
+          "hiragana_full": "がくせいはそれぞれぷれぜんてーしょんをした"
+        },
+        {
+          "kanji": "各学生がプレゼンテーションをした。",
+          "hiragana_full": "かくがくせいがぷれぜんてーしょんをした"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_101_5",
+      "example_sentence": "会社は部署ごとに新しい機械を導入した。",
+      "translation": "The company introduced new machines to every department.",
+      "blank_target": "ごと",
+      "wrong_choices": [
+        "おき",
+        "なか",
+        "まで"
+      ],
+      "wrong_choice_explanations": [
+        "おきに means 'at intervals with gaps' — it doesn't fit here because machines were introduced to all departments without skipping any.",
+        "なかに means 'inside/within' — it doesn't fit here because we need to express 'to each department', not location within departments.",
+        "まで means 'until/up to' — it doesn't fit here because we're talking about complete coverage, not a limit or endpoint."
+      ],
+      "hiragana_full": "かいしゃはぶしょごとにあたらしいきかいをどうにゅうした",
+      "audio_alternatives": [
+        {
+          "kanji": "会社は各部署に新しい機械を導入した。",
+          "hiragana_full": "かいしゃはかくぶしょにあたらしいきかいをどうにゅうした"
+        },
+        {
+          "kanji": "会社はすべての部署に新しい機械を入れた。",
+          "hiragana_full": "かいしゃはすべてのぶしょにあたらしいきかいをいれた"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_101_6",
+      "example_sentence": "彼女は国ごとに友達がいる。",
+      "translation": "She has friends in every country.",
+      "blank_target": "ごと",
+      "wrong_choices": [
+        "おき",
+        "ばかり",
+        "ぐらい"
+      ],
+      "wrong_choice_explanations": [
+        "おきに means 'at intervals with gaps' — it doesn't fit here because having friends in every country doesn't involve skipping countries.",
+        "ばかり means 'only/just' — it doesn't fit here because we're talking about the extent across all countries, not limitation.",
+        "ぐらい means 'about/approximately' — it doesn't fit here because we need to express 'each/every', not approximation."
+      ],
+      "hiragana_full": "かのじょはくにごとにともだちがいる",
+      "audio_alternatives": [
+        {
+          "kanji": "彼女はどの国にも友達がいる。",
+          "hiragana_full": "かのじょはどのくににもともだちがいる"
+        },
+        {
+          "kanji": "彼女はいろいろな国に友達がいます。",
+          "hiragana_full": "かのじょはいろいろなくににともだちがいます"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_101_7",
+      "example_sentence": "私たちは週ごとに会議を開いている。",
+      "translation": "We hold meetings every week.",
+      "blank_target": "ごと",
+      "wrong_choices": [
+        "おき",
+        "うち",
+        "ころ"
+      ],
+      "wrong_choice_explanations": [
+        "おきに means 'at intervals with gaps' — it doesn't fit here because meetings are held every week consecutively, not skipping weeks.",
+        "うちに means 'within/during' — it doesn't fit here because we need to express regular weekly occurrence, not duration within a week.",
+        "ころに means 'around the time of' — it doesn't fit here because we need regularity, not approximate timing."
+      ],
+      "hiragana_full": "わたしたちはしゅうごとにかいぎをひらいている",
+      "audio_alternatives": [
+        {
+          "kanji": "私たちは毎週会議を開いている。",
+          "hiragana_full": "わたしたちはまいしゅうかいぎをひらいている"
+        },
+        {
+          "kanji": "私たちは毎週ミーティングをしている。",
+          "hiragana_full": "わたしたちはまいしゅうみーてぃんぐをしている"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_101_8",
+      "example_sentence": "教室ごとに時計が設置されています。",
+      "translation": "Clocks are installed in every classroom.",
+      "blank_target": "ごと",
+      "wrong_choices": [
+        "おき",
+        "なか",
+        "ほど"
+      ],
+      "wrong_choice_explanations": [
+        "おきに means 'at intervals with gaps' — it doesn't fit here because clocks are in all classrooms consecutively, not skipping some classrooms.",
+        "なかに means 'inside' — it doesn't fit here because we need to express 'in each/every classroom', not just location inside classrooms.",
+        "ほど means 'to the extent of/as much as' — it doesn't fit here because we're expressing complete coverage, not degree or extent."
+      ],
+      "hiragana_full": "きょうしつごとにとけいがせっちされています",
+      "audio_alternatives": [
+        {
+          "kanji": "すべての教室に時計が設置されています。",
+          "hiragana_full": "すべてのきょうしつにとけいがせっちされています"
+        },
+        {
+          "kanji": "どの教室にも時計があります。",
+          "hiragana_full": "どのきょうしつにもとけいがあります"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_101_9",
+      "example_sentence": "店は階ごとに異なる商品を置いている。",
+      "translation": "The store has different products on every floor.",
+      "blank_target": "ごと",
+      "wrong_choices": [
+        "おき",
+        "あいだ",
+        "とき"
+      ],
+      "wrong_choice_explanations": [
+        "おきに means 'at intervals with gaps' — it doesn't fit here because products are on consecutive floors, not skipping some floors.",
+        "あいだに means 'between/during' — it doesn't fit here because we're talking about what's on each floor, not what's between floors.",
+        "ときに means 'when/at the time of' — it doesn't fit here because we need to express location on each floor, not timing."
+      ],
+      "hiragana_full": "みせはかいごとにことなるしょうひんをおいている",
+      "audio_alternatives": [
+        {
+          "kanji": "店は各階に違う商品がある。",
+          "hiragana_full": "みせはかくかいにちがうしょうひんがある"
+        },
+        {
+          "kanji": "各階ごとに異なる商品が置いてある。",
+          "hiragana_full": "かくかいごとにことなるしょうひんがおいてある"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_101_10",
+      "example_sentence": "チームごとに一つずつ賞品を渡した。",
+      "translation": "We gave one prize to each team.",
+      "blank_target": "ごと",
+      "wrong_choices": [
+        "おき",
+        "あて",
+        "ぐらい"
+      ],
+      "wrong_choice_explanations": [
+        "おきに means 'at intervals with gaps' — it doesn't fit here because prizes were given to all teams consecutively, not skipping teams.",
+        "あて means 'per/for each' in allocation — while similar, it doesn't fit as naturally as ごとに for expressing distribution to each individual team.",
+        "ぐらい means 'about/approximately' — it doesn't fit here because we're expressing exact distribution to each team, not approximation."
+      ],
+      "hiragana_full": "チームごとにひとつずつしょうひんをわたした",
+      "audio_alternatives": [
+        {
+          "kanji": "各チームに一つずつ賞品を渡した。",
+          "hiragana_full": "かくチームにひとつずつしょうひんをわたした"
+        },
+        {
+          "kanji": "チームごとに賞品を一つ渡した。",
+          "hiragana_full": "チームごとにしょうひんをひとつわたした"
+        }
+      ],
+      "audio_eligible": true
+    }
+  ]
+}

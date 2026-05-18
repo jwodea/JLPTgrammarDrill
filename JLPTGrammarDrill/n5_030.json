@@ -1,0 +1,288 @@
+{
+  "id": "n5_030",
+  "pattern": "～た",
+  "meaning": "Plain past tense",
+  "level": "N5",
+  "exercises": [
+    {
+      "id": "n5_030_1",
+      "example_sentence": "昨日、友達と映画を見た。",
+      "translation": "Yesterday, I watched a movie with my friend.",
+      "blank_target": "た",
+      "wrong_choices": [
+        "る",
+        "て",
+        "ます"
+      ],
+      "wrong_choice_explanations": [
+        "る is the dictionary form indicating present/future — it doesn't fit here because the sentence mentions '昨日' (yesterday), requiring past tense.",
+        "て is the te-form used for connecting actions or making requests — it doesn't complete the sentence as a past tense statement.",
+        "ます is the polite present/future form — it doesn't fit here because we need past tense for an action that happened yesterday."
+      ],
+      "hiragana_full": "きのう、ともだちとえいがをみた。",
+      "audio_alternatives": [
+        {
+          "kanji": "昨日、友達と映画を観た。",
+          "hiragana_full": "きのう、ともだちとえいがをみた。"
+        },
+        {
+          "kanji": "昨日、友達と一緒に映画を見た。",
+          "hiragana_full": "きのう、ともだちといっしょにえいがをみた。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_030_2",
+      "example_sentence": "朝ごはんを食べたから、学校に行きました。",
+      "translation": "After eating breakfast, I went to school.",
+      "blank_target": "た",
+      "wrong_choices": [
+        "る",
+        "ない",
+        "よう"
+      ],
+      "wrong_choice_explanations": [
+        "る would make this present tense — it doesn't fit because the sequence shows completed actions in the past.",
+        "ない is the negative form meaning 'didn't eat' — it contradicts the logical sequence of eating breakfast before going to school.",
+        "よう indicates volitional/intention — it doesn't fit here because we need past tense for a completed action."
+      ],
+      "hiragana_full": "あさごはんをたべたから、がっこうにいきました。",
+      "audio_alternatives": [
+        {
+          "kanji": "朝ごはんを食べてから、学校に行きました。",
+          "hiragana_full": "あさごはんをたべてから、がっこうにいきました。"
+        },
+        {
+          "kanji": "朝ごはんの後で、学校に行きました。",
+          "hiragana_full": "あさごはんのあとで、がっこうにいきました。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_030_3",
+      "example_sentence": "宿題をした後で、テレビを見ました。",
+      "translation": "After doing homework, I watched TV.",
+      "blank_target": "た",
+      "wrong_choices": [
+        "て",
+        "ている",
+        "ません"
+      ],
+      "wrong_choice_explanations": [
+        "て form alone cannot be followed by 後で — it doesn't create the proper past tense needed for the sequence.",
+        "ている indicates ongoing action — it doesn't fit because we need simple past tense for a completed action before watching TV.",
+        "ません is negative polite form — it would mean 'didn't do homework' which contradicts the logical sequence."
+      ],
+      "hiragana_full": "しゅくだいをしたあとで、テレビをみました。",
+      "audio_alternatives": [
+        {
+          "kanji": "宿題をしてから、テレビを見ました。",
+          "hiragana_full": "しゅくだいをしてから、テレビをみました。"
+        },
+        {
+          "kanji": "宿題の後で、テレビを見ました。",
+          "hiragana_full": "しゅくだいのあとで、テレビをみました。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_030_4",
+      "example_sentence": "雨が降ったので、家にいました。",
+      "translation": "Because it rained, I stayed home.",
+      "blank_target": "った",
+      "wrong_choices": [
+        "る",
+        "って",
+        "ります"
+      ],
+      "wrong_choice_explanations": [
+        "る is present/future tense — it doesn't fit because staying home was a past action due to past rain.",
+        "って is casual quotation particle — it doesn't make grammatical sense in this context of past tense verb conjugation.",
+        "ります is polite present/future form — it doesn't fit because we need past tense to explain the reason for staying home."
+      ],
+      "hiragana_full": "あめがふったので、いえにいました。",
+      "audio_alternatives": [
+        {
+          "kanji": "雨が降ったから、家にいました。",
+          "hiragana_full": "あめがふったから、いえにいました。"
+        },
+        {
+          "kanji": "雨が降ったので、うちにいました。",
+          "hiragana_full": "あめがふったので、うちにいました。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_030_5",
+      "example_sentence": "昨日は早く寝た。",
+      "translation": "Yesterday I went to bed early.",
+      "blank_target": "た",
+      "wrong_choices": [
+        "る",
+        "ている",
+        "ましょう"
+      ],
+      "wrong_choice_explanations": [
+        "る is dictionary form for present/future — it doesn't fit because '昨日' (yesterday) requires past tense.",
+        "ている indicates ongoing state — it doesn't fit because going to bed is a completed past action, not an ongoing state.",
+        "ましょう is volitional form meaning 'let's' — it doesn't fit because this is a statement about a past action, not a suggestion."
+      ],
+      "hiragana_full": "きのうははやくねた。",
+      "audio_alternatives": [
+        {
+          "kanji": "昨日は早めに寝た。",
+          "hiragana_full": "きのうははやめにねた。"
+        },
+        {
+          "kanji": "昨日、早く寝ました。",
+          "hiragana_full": "きのう、はやくねました。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_030_6",
+      "example_sentence": "母は料理を作った。",
+      "translation": "My mother made food.",
+      "blank_target": "った",
+      "wrong_choices": [
+        "る",
+        "ながら",
+        "たら"
+      ],
+      "wrong_choice_explanations": [
+        "る indicates present/future or habitual action — it doesn't fit here because this is a statement about a completed past action.",
+        "ながら means 'while doing' — it doesn't complete the sentence properly as it requires another action to follow.",
+        "たら is conditional meaning 'if/when' — it doesn't fit because this is a simple past statement, not a conditional."
+      ],
+      "hiragana_full": "はははりょうりをつくった",
+      "audio_alternatives": [
+        {
+          "kanji": "母は料理を作りました。",
+          "hiragana_full": "はははりょうりをつくりました"
+        },
+        {
+          "kanji": "お母さんは料理を作った。",
+          "hiragana_full": "おかあさんはりょうりをつくった"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_030_7",
+      "example_sentence": "先週、新しい本を買った。",
+      "translation": "Last week, I bought a new book.",
+      "blank_target": "った",
+      "wrong_choices": [
+        "う",
+        "います",
+        "いました"
+      ],
+      "wrong_choice_explanations": [
+        "う is volitional ending meaning 'will/shall' — it doesn't fit because '先週' (last week) requires past tense.",
+        "います is polite present form — it doesn't fit because we need past tense for an action completed last week.",
+        "いました is polite past form — it doesn't fit because this sentence uses plain form style throughout."
+      ],
+      "hiragana_full": "せんしゅう、あたらしいほんをかった。",
+      "audio_alternatives": [
+        {
+          "kanji": "先週、新しい本を買いました。",
+          "hiragana_full": "せんしゅう、あたらしいほんをかいました。"
+        },
+        {
+          "kanji": "新しい本を先週買った。",
+          "hiragana_full": "あたらしいほんをせんしゅうかった。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_030_8",
+      "example_sentence": "彼は日本語を勉強した。",
+      "translation": "He studied Japanese.",
+      "blank_target": "た",
+      "wrong_choices": [
+        "ます",
+        "ない",
+        "そう"
+      ],
+      "wrong_choice_explanations": [
+        "ます is polite present/future form — it doesn't fit because this appears to be a plain past statement about completed study.",
+        "ない is negative form meaning 'didn't study' — it changes the meaning entirely from a positive to negative statement.",
+        "そう indicates hearsay or appearance — it doesn't fit because this is a direct statement about a past action."
+      ],
+      "hiragana_full": "かれはにほんごをべんきょうした",
+      "audio_alternatives": [
+        {
+          "kanji": "彼は日本語を勉強しました。",
+          "hiragana_full": "かれはにほんごをべんきょうしました"
+        },
+        {
+          "kanji": "彼は日本語を学んだ。",
+          "hiragana_full": "かれはにほんごをまなんだ"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_030_9",
+      "example_sentence": "電車が来たから、急いで走りました。",
+      "translation": "Because the train came, I hurried and ran.",
+      "blank_target": "た",
+      "wrong_choices": [
+        "る",
+        "ている",
+        "ば"
+      ],
+      "wrong_choice_explanations": [
+        "る is present/future form — it doesn't fit because the running was a past reaction to the train's arrival.",
+        "ている indicates ongoing action — it doesn't fit because we need simple past tense for the reason that caused the running.",
+        "ば is conditional meaning 'if' — it doesn't fit because this expresses actual past cause and effect, not a hypothetical condition."
+      ],
+      "hiragana_full": "でんしゃがきたから、いそいではしりました。",
+      "audio_alternatives": [
+        {
+          "kanji": "電車が来たので、急いで走りました。",
+          "hiragana_full": "でんしゃがきたので、いそいではしりました。"
+        },
+        {
+          "kanji": "電車が来たから、急いで走った。",
+          "hiragana_full": "でんしゃがきたから、いそいではしった。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_030_10",
+      "example_sentence": "弟は公園で遊んだ。",
+      "translation": "My younger brother played in the park.",
+      "blank_target": "だ",
+      "wrong_choices": [
+        "で",
+        "でいる",
+        "だり"
+      ],
+      "wrong_choice_explanations": [
+        "で is a particle meaning 'at/by means of' — it cannot function as a verb ending to complete this sentence.",
+        "でいる indicates ongoing state — it doesn't fit because this is a statement about a completed past action of playing.",
+        "だり is part of the pattern だり～だり for listing actions — it doesn't fit because this is a single completed action."
+      ],
+      "hiragana_full": "おとうとはこうえんであそんだ。",
+      "audio_alternatives": [
+        {
+          "kanji": "弟は公園で遊びました。",
+          "hiragana_full": "おとうとはこうえんであそびました。"
+        },
+        {
+          "kanji": "弟が公園で遊んだ。",
+          "hiragana_full": "おとうとがこうえんであそんだ。"
+        }
+      ],
+      "audio_eligible": true
+    }
+  ]
+}

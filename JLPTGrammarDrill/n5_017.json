@@ -1,0 +1,288 @@
+{
+  "id": "n5_017",
+  "pattern": "～から",
+  "meaning": "From (starting point) / because (reason)",
+  "level": "N5",
+  "exercises": [
+    {
+      "id": "n5_017_1",
+      "example_sentence": "東京から大阪まで行きました。",
+      "translation": "I went from Tokyo to Osaka.",
+      "blank_target": "から",
+      "wrong_choices": [
+        "まで",
+        "に",
+        "で"
+      ],
+      "wrong_choice_explanations": [
+        "まで means 'until/to' — it indicates the destination, not the starting point like から does.",
+        "に indicates direction or destination — it doesn't express the starting point 'from' needed here.",
+        "で indicates location of action — it doesn't show the starting point of movement like から does."
+      ],
+      "hiragana_full": "とうきょうからおおさかまでいきました",
+      "audio_alternatives": [
+        {
+          "kanji": "東京から大阪へ行きました。",
+          "hiragana_full": "とうきょうからおおさかへいきました"
+        },
+        {
+          "kanji": "大阪まで東京から行きました。",
+          "hiragana_full": "おおさかまでとうきょうからいきました"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_017_2",
+      "example_sentence": "雨が降っているから、出かけません。",
+      "translation": "Because it's raining, I won't go out.",
+      "blank_target": "から",
+      "wrong_choices": [
+        "ので",
+        "けれど",
+        "でも"
+      ],
+      "wrong_choice_explanations": [
+        "ので also means 'because' but is more formal and softer — から is more direct and casual here.",
+        "けれど means 'but/however' — it creates a contrasting meaning rather than causal relationship.",
+        "でも means 'but' — it indicates contrast rather than the cause-effect relationship needed here."
+      ],
+      "hiragana_full": "あめがふっているから、でかけません。",
+      "audio_alternatives": [
+        {
+          "kanji": "雨が降っているので、出かけません。",
+          "hiragana_full": "あめがふっているので、でかけません。"
+        },
+        {
+          "kanji": "雨が降っているから、外に出ません。",
+          "hiragana_full": "あめがふっているから、そとにでません。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_017_3",
+      "example_sentence": "九時から授業が始まります。",
+      "translation": "Classes start from nine o'clock.",
+      "blank_target": "から",
+      "wrong_choices": [
+        "に",
+        "で",
+        "まで"
+      ],
+      "wrong_choice_explanations": [
+        "に indicates a specific time point — it doesn't express the starting point 'from' that から provides.",
+        "で indicates location or means — it doesn't express the temporal starting point needed here.",
+        "まで means 'until' — it indicates an endpoint, not the starting time like から does."
+      ],
+      "hiragana_full": "くじからじゅぎょうがはじまります",
+      "audio_alternatives": [
+        {
+          "kanji": "九時から授業が始まる。",
+          "hiragana_full": "くじからじゅぎょうがはじまる"
+        },
+        {
+          "kanji": "授業は九時から始まります。",
+          "hiragana_full": "じゅぎょうはくじからはじまります"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_017_4",
+      "example_sentence": "疲れているから、早く寝ます。",
+      "translation": "Because I'm tired, I'll go to bed early.",
+      "blank_target": "から",
+      "wrong_choices": [
+        "が",
+        "と",
+        "なら"
+      ],
+      "wrong_choice_explanations": [
+        "が can connect clauses but often shows contrast — it doesn't clearly express the causal relationship here.",
+        "と indicates condition 'if/when' — it doesn't express the reason 'because' needed in this context.",
+        "なら means 'if' for hypothetical conditions — it doesn't express the factual reason like から does."
+      ],
+      "hiragana_full": "つかれているから、はやくねます。",
+      "audio_alternatives": [
+        {
+          "kanji": "疲れているので、早く寝ます。",
+          "hiragana_full": "つかれているので、はやくねます。"
+        },
+        {
+          "kanji": "疲れているから、早く寝るよ。",
+          "hiragana_full": "つかれているから、はやくねるよ。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_017_5",
+      "example_sentence": "家から学校まで歩いて十分です。",
+      "translation": "It's ten minutes on foot from home to school.",
+      "blank_target": "から",
+      "wrong_choices": [
+        "を",
+        "の",
+        "へ"
+      ],
+      "wrong_choice_explanations": [
+        "を marks objects or routes — it doesn't indicate the starting point 'from' like から does.",
+        "の shows possession or connection — it doesn't express the spatial starting point needed here.",
+        "へ indicates direction 'toward' — it shows destination, not the starting point like から."
+      ],
+      "hiragana_full": "いえからがっこうまであるいてじゅっぷんです",
+      "audio_alternatives": [
+        {
+          "kanji": "家から学校まで歩いて十分かかります。",
+          "hiragana_full": "いえからがっこうまであるいてじゅっぷんかかります"
+        },
+        {
+          "kanji": "学校まで家から歩いて十分です。",
+          "hiragana_full": "がっこうまでいえからあるいてじゅっぷんです"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_017_6",
+      "example_sentence": "忙しいから、手伝えません。",
+      "translation": "Because I'm busy, I can't help.",
+      "blank_target": "から",
+      "wrong_choices": [
+        "ても",
+        "ば",
+        "たら"
+      ],
+      "wrong_choice_explanations": [
+        "ても means 'even if/though' — it creates a concessive meaning rather than causal relationship.",
+        "ば indicates condition 'if' — it doesn't express the factual reason 'because' needed here.",
+        "たら means 'if/when' for conditions — it doesn't express the causal relationship like から does."
+      ],
+      "hiragana_full": "いそがしいから、てつだえません。",
+      "audio_alternatives": [
+        {
+          "kanji": "忙しいので、手伝えません。",
+          "hiragana_full": "いそがしいので、てつだえません。"
+        },
+        {
+          "kanji": "忙しいから、手伝うことができません。",
+          "hiragana_full": "いそがしいから、てつだうことができません。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_017_7",
+      "example_sentence": "駅からバスに乗りました。",
+      "translation": "I took the bus from the station.",
+      "blank_target": "から",
+      "wrong_choices": [
+        "で",
+        "に",
+        "を"
+      ],
+      "wrong_choice_explanations": [
+        "で indicates location of action — while buses are boarded at stations, から emphasizes the starting point.",
+        "に indicates destination — it doesn't show the starting point 'from' that から expresses.",
+        "を marks objects — it doesn't indicate the starting location like から does."
+      ],
+      "hiragana_full": "えきからばすにのりました",
+      "audio_alternatives": [
+        {
+          "kanji": "駅からバスに乗った。",
+          "hiragana_full": "えきからばすにのった"
+        },
+        {
+          "kanji": "バスで駅から来ました。",
+          "hiragana_full": "ばすでえきからきました"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_017_8",
+      "example_sentence": "お金がないから、買えません。",
+      "translation": "Because I don't have money, I can't buy it.",
+      "blank_target": "から",
+      "wrong_choices": [
+        "ので",
+        "しかし",
+        "それに"
+      ],
+      "wrong_choice_explanations": [
+        "ので also means 'because' but is more formal and softer — から is more direct for this straightforward reason.",
+        "しかし means 'however' — it indicates contrast rather than the cause-effect relationship needed.",
+        "それに means 'moreover/in addition' — it adds information rather than showing reason like から does."
+      ],
+      "hiragana_full": "おかねがないから、かえません。",
+      "audio_alternatives": [
+        {
+          "kanji": "お金がないので、買えません。",
+          "hiragana_full": "おかねがないので、かえません。"
+        },
+        {
+          "kanji": "お金がないから、買うことができません。",
+          "hiragana_full": "おかねがないから、かうことができません。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_017_9",
+      "example_sentence": "朝六時から夜十時まで働きます。",
+      "translation": "I work from 6 AM until 10 PM.",
+      "blank_target": "から",
+      "wrong_choices": [
+        "と",
+        "より",
+        "まで"
+      ],
+      "wrong_choice_explanations": [
+        "と means 'and' — it doesn't express the starting time 'from' that から provides.",
+        "より means 'than' for comparisons — it doesn't indicate the starting time like から does.",
+        "まで means 'until' — it shows the endpoint, not the starting point like から."
+      ],
+      "hiragana_full": "あさろくじからよるじゅうじまではたらきます",
+      "audio_alternatives": [
+        {
+          "kanji": "朝六時から夜十時まで仕事をします。",
+          "hiragana_full": "あさろくじからよるじゅうじまでしごとをします"
+        },
+        {
+          "kanji": "六時から二十二時まで働きます。",
+          "hiragana_full": "ろくじからにじゅうにじまではたらきます"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_017_10",
+      "example_sentence": "風邪を引いたから、学校を休みました。",
+      "translation": "Because I caught a cold, I was absent from school.",
+      "blank_target": "から",
+      "wrong_choices": [
+        "あと",
+        "まえ",
+        "とき"
+      ],
+      "wrong_choice_explanations": [
+        "あと means 'after' — it indicates sequence in time rather than causal relationship.",
+        "まえ means 'before' — it shows temporal order rather than the reason like から does.",
+        "とき means 'when' — it indicates timing rather than the causal relationship needed here."
+      ],
+      "hiragana_full": "かぜをひいたから、がっこうをやすみました。",
+      "audio_alternatives": [
+        {
+          "kanji": "風邪を引いたので、学校を休みました。",
+          "hiragana_full": "かぜをひいたので、がっこうをやすみました。"
+        },
+        {
+          "kanji": "風邪を引いて、学校を休みました。",
+          "hiragana_full": "かぜをひいて、がっこうをやすみました。"
+        }
+      ],
+      "audio_eligible": true
+    }
+  ]
+}

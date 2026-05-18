@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B57B94942F62404C00972499 /* FontSizeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57B94932F62404C00972499 /* FontSizeManager.swift */; };
+		B57B94962F62409E00972499 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57B94952F62409E00972499 /* SettingsView.swift */; };
+		B5DF65A62F6A3693005FA39B /* SwiftFSRS in Frameworks */ = {isa = PBXBuildFile; productRef = B5DF65A52F6A3693005FA39B /* SwiftFSRS */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5DD7A682F62292B00A30682 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5DD7A522F62292A00A30682 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5DD7A592F62292A00A30682;
+			remoteInfo = BunpoTester;
+		};
+		B5DD7A722F62292B00A30682 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5DD7A522F62292A00A30682 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5DD7A592F62292A00A30682;
+			remoteInfo = BunpoTester;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B57B94932F62404C00972499 /* FontSizeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSizeManager.swift; sourceTree = "<group>"; };
+		B57B94952F62409E00972499 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B5DD7A5A2F62292A00A30682 /* JLPT Grammar Drill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JLPT Grammar Drill.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5DD7A672F62292B00A30682 /* JLPT Grammar DrillTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JLPT Grammar DrillTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5DD7A712F62292B00A30682 /* JLPT Grammar DrillUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JLPT Grammar DrillUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B5DD7A5C2F62292A00A30682 /* JLPTGrammarDrill */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = JLPTGrammarDrill;
+			sourceTree = "<group>";
+		};
+		B5DD7A6A2F62292B00A30682 /* JLPTGrammarDrillTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = JLPTGrammarDrillTests;
+			sourceTree = "<group>";
+		};
+		B5DD7A742F62292B00A30682 /* JLPTGrammarDrillUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = JLPTGrammarDrillUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5DD7A572F62292A00A30682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5DF65A62F6A3693005FA39B /* SwiftFSRS in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5DD7A642F62292B00A30682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5DD7A6E2F62292B00A30682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5DD7A512F62292A00A30682 = {
+			isa = PBXGroup;
+			children = (
+				B5DD7A5C2F62292A00A30682 /* JLPTGrammarDrill */,
+				B5DD7A6A2F62292B00A30682 /* JLPTGrammarDrillTests */,
+				B5DD7A742F62292B00A30682 /* JLPTGrammarDrillUITests */,
+				B5DD7A5B2F62292A00A30682 /* Products */,
+				B57B94932F62404C00972499 /* FontSizeManager.swift */,
+				B57B94952F62409E00972499 /* SettingsView.swift */,
+			);
+			sourceTree = "<group>";
+		};
+		B5DD7A5B2F62292A00A30682 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5DD7A5A2F62292A00A30682 /* JLPT Grammar Drill.app */,
+				B5DD7A672F62292B00A30682 /* JLPT Grammar DrillTests.xctest */,
+				B5DD7A712F62292B00A30682 /* JLPT Grammar DrillUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5DD7A592F62292A00A30682 /* JLPT Grammar Drill */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5DD7A7B2F62292B00A30682 /* Build configuration list for PBXNativeTarget "JLPT Grammar Drill" */;
+			buildPhases = (
+				B5DD7A562F62292A00A30682 /* Sources */,
+				B5DD7A572F62292A00A30682 /* Frameworks */,
+				B5DD7A582F62292A00A30682 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B5DD7A5C2F62292A00A30682 /* JLPTGrammarDrill */,
+			);
+			name = "JLPT Grammar Drill";
+			packageProductDependencies = (
+				B5DF65A52F6A3693005FA39B /* SwiftFSRS */,
+			);
+			productName = BunpoTester;
+			productReference = B5DD7A5A2F62292A00A30682 /* JLPT Grammar Drill.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5DD7A662F62292B00A30682 /* JLPT Grammar DrillTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5DD7A7E2F62292B00A30682 /* Build configuration list for PBXNativeTarget "JLPT Grammar DrillTests" */;
+			buildPhases = (
+				B5DD7A632F62292B00A30682 /* Sources */,
+				B5DD7A642F62292B00A30682 /* Frameworks */,
+				B5DD7A652F62292B00A30682 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5DD7A692F62292B00A30682 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B5DD7A6A2F62292B00A30682 /* JLPTGrammarDrillTests */,
+			);
+			name = "JLPT Grammar DrillTests";
+			packageProductDependencies = (
+			);
+			productName = BunpoTesterTests;
+			productReference = B5DD7A672F62292B00A30682 /* JLPT Grammar DrillTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5DD7A702F62292B00A30682 /* JLPT Grammar DrillUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5DD7A812F62292B00A30682 /* Build configuration list for PBXNativeTarget "JLPT Grammar DrillUITests" */;
+			buildPhases = (
+				B5DD7A6D2F62292B00A30682 /* Sources */,
+				B5DD7A6E2F62292B00A30682 /* Frameworks */,
+				B5DD7A6F2F62292B00A30682 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5DD7A732F62292B00A30682 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B5DD7A742F62292B00A30682 /* JLPTGrammarDrillUITests */,
+			);
+			name = "JLPT Grammar DrillUITests";
+			packageProductDependencies = (
+			);
+			productName = BunpoTesterUITests;
+			productReference = B5DD7A712F62292B00A30682 /* JLPT Grammar DrillUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5DD7A522F62292A00A30682 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2650;
+				TargetAttributes = {
+					B5DD7A592F62292A00A30682 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+					B5DD7A662F62292B00A30682 = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = B5DD7A592F62292A00A30682;
+					};
+					B5DD7A702F62292B00A30682 = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = B5DD7A592F62292A00A30682;
+					};
+				};
+			};
+			buildConfigurationList = B5DD7A552F62292A00A30682 /* Build configuration list for PBXProject "JLPT Grammar Drill" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5DD7A512F62292A00A30682;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B5DF65A42F6A3693005FA39B /* XCRemoteSwiftPackageReference "swift-fsrs" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B5DD7A5B2F62292A00A30682 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5DD7A592F62292A00A30682 /* JLPT Grammar Drill */,
+				B5DD7A662F62292B00A30682 /* JLPT Grammar DrillTests */,
+				B5DD7A702F62292B00A30682 /* JLPT Grammar DrillUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5DD7A582F62292A00A30682 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5DD7A652F62292B00A30682 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5DD7A6F2F62292B00A30682 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5DD7A562F62292A00A30682 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57B94942F62404C00972499 /* FontSizeManager.swift in Sources */,
+				B57B94962F62409E00972499 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5DD7A632F62292B00A30682 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5DD7A6D2F62292B00A30682 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5DD7A692F62292B00A30682 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5DD7A592F62292A00A30682 /* JLPT Grammar Drill */;
+			targetProxy = B5DD7A682F62292B00A30682 /* PBXContainerItemProxy */;
+		};
+		B5DD7A732F62292B00A30682 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5DD7A592F62292A00A30682 /* JLPT Grammar Drill */;
+			targetProxy = B5DD7A722F62292B00A30682 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B5DD7A792F62292B00A30682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = U7CJ6U989K;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5DD7A7A2F62292B00A30682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = U7CJ6U989K;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5DD7A7C2F62292B00A30682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U7CJ6U989K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "JLPT Grammar Drill";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "JLPT Grammar Drill needs the microphone to hear your spoken Japanese for audio drill practice.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "JLPT Grammar Drill transcribes your spoken Japanese on-device to grade your audio drill answers. No audio leaves your device. ";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jod.Nogawa.BunpoTester;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5DD7A7D2F62292B00A30682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U7CJ6U989K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "JLPT Grammar Drill";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "JLPT Grammar Drill needs the microphone to hear your spoken Japanese for audio drill practice.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "JLPT Grammar Drill transcribes your spoken Japanese on-device to grade your audio drill answers. No audio leaves your device. ";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jod.Nogawa.BunpoTester;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B5DD7A7F2F62292B00A30682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U7CJ6U989K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jod.Nogawa.BunpoTesterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JLPT Grammar Drill.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JLPT Grammar Drill";
+			};
+			name = Debug;
+		};
+		B5DD7A802F62292B00A30682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U7CJ6U989K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jod.Nogawa.BunpoTesterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JLPT Grammar Drill.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JLPT Grammar Drill";
+			};
+			name = Release;
+		};
+		B5DD7A822F62292B00A30682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U7CJ6U989K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jod.Nogawa.BunpoTesterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BunpoTester;
+			};
+			name = Debug;
+		};
+		B5DD7A832F62292B00A30682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U7CJ6U989K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jod.Nogawa.BunpoTesterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BunpoTester;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5DD7A552F62292A00A30682 /* Build configuration list for PBXProject "JLPT Grammar Drill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5DD7A792F62292B00A30682 /* Debug */,
+				B5DD7A7A2F62292B00A30682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5DD7A7B2F62292B00A30682 /* Build configuration list for PBXNativeTarget "JLPT Grammar Drill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5DD7A7C2F62292B00A30682 /* Debug */,
+				B5DD7A7D2F62292B00A30682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5DD7A7E2F62292B00A30682 /* Build configuration list for PBXNativeTarget "JLPT Grammar DrillTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5DD7A7F2F62292B00A30682 /* Debug */,
+				B5DD7A802F62292B00A30682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5DD7A812F62292B00A30682 /* Build configuration list for PBXNativeTarget "JLPT Grammar DrillUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5DD7A822F62292B00A30682 /* Debug */,
+				B5DD7A832F62292B00A30682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B5DF65A42F6A3693005FA39B /* XCRemoteSwiftPackageReference "swift-fsrs" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/4rays/swift-fsrs";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B5DF65A52F6A3693005FA39B /* SwiftFSRS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5DF65A42F6A3693005FA39B /* XCRemoteSwiftPackageReference "swift-fsrs" */;
+			productName = SwiftFSRS;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B5DD7A522F62292A00A30682 /* Project object */;
+}

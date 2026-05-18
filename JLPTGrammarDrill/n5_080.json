@@ -1,0 +1,288 @@
+{
+  "id": "n5_080",
+  "pattern": "～番",
+  "meaning": "Ordinal number / rank",
+  "level": "N5",
+  "exercises": [
+    {
+      "id": "n5_080_1",
+      "example_sentence": "私は三番です。",
+      "translation": "I am third.",
+      "blank_target": "番",
+      "wrong_choices": [
+        "人",
+        "個",
+        "つ"
+      ],
+      "wrong_choice_explanations": [
+        "人 is used for counting people — it doesn't fit here because this is about ranking/order, not counting people.",
+        "個 is a general counter for objects — it doesn't fit here because this is about ordinal position, not counting objects.",
+        "つ is a general counter — it doesn't fit here because this is about ranking position, not counting items."
+      ],
+      "hiragana_full": "わたしはさんばんです",
+      "audio_alternatives": [
+        {
+          "kanji": "私が三番です。",
+          "hiragana_full": "わたしがさんばんです"
+        },
+        {
+          "kanji": "三番は私です。",
+          "hiragana_full": "さんばんはわたしです"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_080_2",
+      "example_sentence": "一番の電車に乗ります。",
+      "translation": "I will take the first train.",
+      "blank_target": "番",
+      "wrong_choices": [
+        "本",
+        "台",
+        "つ"
+      ],
+      "wrong_choice_explanations": [
+        "本 is used for long thin objects — it doesn't fit here because this is about train order/sequence, not counting objects.",
+        "台 is used for machines and vehicles — it doesn't fit here because this is about train scheduling order, not counting the trains themselves.",
+        "つ is a general counter — it doesn't fit here because this is about train sequence numbers, not counting trains."
+      ],
+      "hiragana_full": "いちばんのでんしゃにのります",
+      "audio_alternatives": [
+        {
+          "kanji": "始発電車に乗ります。",
+          "hiragana_full": "しはつでんしゃにのります"
+        },
+        {
+          "kanji": "一番の電車に乗る。",
+          "hiragana_full": "いちばんのでんしゃにのる"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_080_3",
+      "example_sentence": "二番目の駅で降ります。",
+      "translation": "I will get off at the second station.",
+      "blank_target": "番",
+      "wrong_choices": [
+        "つ",
+        "個",
+        "軒"
+      ],
+      "wrong_choice_explanations": [
+        "つ is a general counter — it doesn't fit here because this is about station order in sequence, not counting stations.",
+        "個 is a general counter for objects — it doesn't fit here because this is about ordinal position, not counting objects.",
+        "軒 is used for houses/buildings — it doesn't fit here because this is about station sequence, not counting buildings."
+      ],
+      "hiragana_full": "にばんめのえきでおります",
+      "audio_alternatives": [
+        {
+          "kanji": "二番目の駅で降りる。",
+          "hiragana_full": "にばんめのえきでおりる"
+        },
+        {
+          "kanji": "二つ目の駅で降ります。",
+          "hiragana_full": "ふたつめのえきでおります"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_080_4",
+      "example_sentence": "五番の部屋に入ってください。",
+      "translation": "Please enter room number five.",
+      "blank_target": "番",
+      "wrong_choices": [
+        "室",
+        "つ",
+        "個"
+      ],
+      "wrong_choice_explanations": [
+        "室 means 'room' but doesn't work for room numbering — it's used for counting rooms as units, not for room numbers.",
+        "つ is a general counter — it doesn't fit here because this is about room numbers, not counting rooms.",
+        "個 is a general counter for objects — it doesn't fit here because this is about room numbering, not counting objects."
+      ],
+      "hiragana_full": "ごばんのへやにはいってください",
+      "audio_alternatives": [
+        {
+          "kanji": "五番の部屋に入りなさい。",
+          "hiragana_full": "ごばんのへやにはいりなさい"
+        },
+        {
+          "kanji": "五号室に入ってください。",
+          "hiragana_full": "ごごうしつにはいってください"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_080_5",
+      "example_sentence": "四番線のホームはどこですか。",
+      "translation": "Where is the platform for line number four?",
+      "blank_target": "番",
+      "wrong_choices": [
+        "本",
+        "つ",
+        "号"
+      ],
+      "wrong_choice_explanations": [
+        "本 is used for long thin objects — it doesn't fit here because this is about train line numbers, not counting objects.",
+        "つ is a general counter — it doesn't fit here because this is about line numbering, not counting lines.",
+        "号 can indicate numbers but is typically used for issues/editions — it doesn't fit here for train line numbering."
+      ],
+      "hiragana_full": "よんばんせんのほーむはどこですか",
+      "audio_alternatives": [
+        {
+          "kanji": "四番線のホームはどこにありますか。",
+          "hiragana_full": "よんばんせんのほーむはどこにありますか"
+        },
+        {
+          "kanji": "四番線はどこですか。",
+          "hiragana_full": "よんばんせんはどこですか"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_080_6",
+      "example_sentence": "彼女は競争で一番になりました。",
+      "translation": "She came in first place in the competition.",
+      "blank_target": "番",
+      "wrong_choices": [
+        "位",
+        "等",
+        "つ"
+      ],
+      "wrong_choice_explanations": [
+        "位 means 'rank/position' but 一位 is more formal — 一番 is the natural way to say 'first place' in casual contexts.",
+        "等 means 'grade/class' but is not used for ranking in competitions — it's more for quality grades or classifications.",
+        "つ is a general counter — it doesn't fit here because this is about ranking position, not counting items."
+      ],
+      "hiragana_full": "かのじょはきょうそうでいちばんになりました",
+      "audio_alternatives": [
+        {
+          "kanji": "彼女は競争で一位になりました。",
+          "hiragana_full": "かのじょはきょうそうでいちいになりました"
+        },
+        {
+          "kanji": "彼女は競争で一番を取りました。",
+          "hiragana_full": "かのじょはきょうそうでいちばんをとりました"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_080_7",
+      "example_sentence": "七番出口から出てください。",
+      "translation": "Please exit from exit number seven.",
+      "blank_target": "番",
+      "wrong_choices": [
+        "号",
+        "つ",
+        "個"
+      ],
+      "wrong_choice_explanations": [
+        "号 can indicate numbers but is typically used for issues/editions — it doesn't fit here for exit numbering.",
+        "つ is a general counter — it doesn't fit here because this is about exit numbers, not counting exits.",
+        "個 is a general counter for objects — it doesn't fit here because this is about exit numbering, not counting objects."
+      ],
+      "hiragana_full": "ななばんでぐちからでてください",
+      "audio_alternatives": [
+        {
+          "kanji": "七番の出口から出てください。",
+          "hiragana_full": "ななばんのでぐちからでてください"
+        },
+        {
+          "kanji": "七番出口よりお出口ください。",
+          "hiragana_full": "ななばんでぐちよりおでぐちください"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_080_8",
+      "example_sentence": "この問題が一番難しいです。",
+      "translation": "This problem is the most difficult.",
+      "blank_target": "番",
+      "wrong_choices": [
+        "つ",
+        "個",
+        "回"
+      ],
+      "wrong_choice_explanations": [
+        "つ is a general counter — it doesn't fit here because this is about degree/extent (most), not counting items.",
+        "個 is a general counter for objects — it doesn't fit here because this is about degree of difficulty, not counting objects.",
+        "回 is used for counting times/occurrences — it doesn't fit here because this is about degree, not frequency."
+      ],
+      "hiragana_full": "このもんだいがいちばんむずかしいです",
+      "audio_alternatives": [
+        {
+          "kanji": "この問題は一番難しいです。",
+          "hiragana_full": "このもんだいはいちばんむずかしいです"
+        },
+        {
+          "kanji": "この問題が一番難しい。",
+          "hiragana_full": "このもんだいがいちばんむずかしい"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_080_9",
+      "example_sentence": "九番のチャンネルを見ます。",
+      "translation": "I watch channel nine.",
+      "blank_target": "番",
+      "wrong_choices": [
+        "号",
+        "つ",
+        "本"
+      ],
+      "wrong_choice_explanations": [
+        "号 can indicate numbers but is typically used for issues/editions — it doesn't fit here for TV channel numbers.",
+        "つ is a general counter — it doesn't fit here because this is about channel numbers, not counting channels.",
+        "本 is used for long thin objects — it doesn't fit here because this is about channel numbers, not counting objects."
+      ],
+      "hiragana_full": "きゅうばんのちゃんねるをみます。",
+      "audio_alternatives": [
+        {
+          "kanji": "チャンネル九を見ます。",
+          "hiragana_full": "ちゃんねるきゅうをみます。"
+        },
+        {
+          "kanji": "九番のチャンネルを見ている。",
+          "hiragana_full": "きゅうばんのちゃんねるをみている。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_080_10",
+      "example_sentence": "十番のゲートに行きます。",
+      "translation": "I will go to gate number ten.",
+      "blank_target": "番",
+      "wrong_choices": [
+        "号",
+        "つ",
+        "個"
+      ],
+      "wrong_choice_explanations": [
+        "号 can indicate numbers but is typically used for issues/editions — it doesn't fit here for gate numbering.",
+        "つ is a general counter — it doesn't fit here because this is about gate numbers, not counting gates.",
+        "個 is a general counter for objects — it doesn't fit here because this is about gate numbering, not counting objects."
+      ],
+      "hiragana_full": "じゅうばんのげーとにいきます。",
+      "audio_alternatives": [
+        {
+          "kanji": "十番ゲートへ行きます。",
+          "hiragana_full": "じゅうばんげーとへいきます。"
+        },
+        {
+          "kanji": "ゲート十番に行きます。",
+          "hiragana_full": "げーとじゅうばんにいきます。"
+        }
+      ],
+      "audio_eligible": true
+    }
+  ]
+}

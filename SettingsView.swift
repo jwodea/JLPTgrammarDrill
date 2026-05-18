@@ -47,6 +47,16 @@ struct SettingsView: View {
         NavigationStack {
             Form {
                 Section {
+                    NavigationLink {
+                        HowItWorksView()
+                    } label: {
+                        Label("How it works", systemImage: "questionmark.circle")
+                    }
+                } header: {
+                    Text("About")
+                }
+
+                Section {
                     Stepper(value: $defaultNewCount, in: 1...5) {
                         HStack {
                             Text("Default new patterns")
@@ -58,13 +68,13 @@ struct SettingsView: View {
                         }
                     }
 
-                    Toggle("Combined drills", isOn: $combinedDrills)
+                    Toggle("Combine Grammar and particle drills", isOn: $combinedDrills)
                         .font(.system(size: 15))
                 } header: {
                     Text("Study")
                 } footer: {
                     if combinedDrills {
-                        Text("Grammar and particle exercises will be mixed together in the 文法 tab sessions.")
+                        Text("Grammar and particle exercises will be mixed together in Grammar Drill sessions.")
                     }
                 }
 
@@ -103,6 +113,7 @@ struct SettingsView: View {
                                     .background(Color(.secondarySystemBackground))
                                     .cornerRadius(8)
                             }
+                            .buttonStyle(.borderless)
                             .disabled(fontScale <= FontSizeManager.minScale + 0.01)
 
                             Slider(
@@ -124,6 +135,7 @@ struct SettingsView: View {
                                     .background(Color(.secondarySystemBackground))
                                     .cornerRadius(8)
                             }
+                            .buttonStyle(.borderless)
                             .disabled(fontScale >= FontSizeManager.maxScale - 0.01)
                         }
 
@@ -202,16 +214,110 @@ struct SettingsView: View {
     }
 
     private func resetProgress() {
-        // Delete all SRS records
+        // Wipe every SwiftData model that holds progress. StudyLog feeds the
+        // streak/activity chart on StatsView; AudioCard + AudioAttempt back
+        // the audio drill — if any of these survive, the reset is misleading.
         do {
             try modelContext.delete(model: SRSRecord.self)
+            try modelContext.delete(model: StudyLog.self)
+            try modelContext.delete(model: AudioCard.self)
+            try modelContext.delete(model: AudioAttempt.self)
             try modelContext.save()
         } catch {
-            print("Error deleting SRS records: \(error)")
+            print("Error resetting progress: \(error)")
         }
 
         // Reset UserDefaults keys
         UserDefaults.standard.removeObject(forKey: "streakCount")
         UserDefaults.standard.removeObject(forKey: "lastStudyDate")
+    }
+}
+
+// MARK: - How It Works
+
+private struct HowItWorksView: View {
+    @AppStorage(FontSizeManager.scaleKey) private var fontScale = FontSizeManager.defaultScale
+
+    private func scaled(_ base: CGFloat) -> CGFloat {
+        FontSizeManager.scaled(base, scale: fontScale)
+    }
+
+    private struct Topic: Identifiable {
+        let id = UUID()
+        let icon: String
+        let color: Color
+        let title: String
+        let body: String
+    }
+
+    private let topics: [Topic] = [
+        Topic(
+            icon: "text.book.closed.fill",
+            color: .blue,
+            title: "Content",
+            body: "525 grammar patterns across all five JLPT levels (N5–N1), with  around 5,250 example sentences. Explanations given for wrong answers. Sentences and explanations were generated and extensively reviewed using a large language model."
+        ),
+        Topic(
+            icon: "clock.arrow.circlepath",
+            color: .purple,
+            title: "How patterns come back",
+            body: "Each pattern has its own schedule. Right answers grow the interval; misses shrink it. Five stages reflect interval length:\n• Unseen — not studied yet\n• Learning — under 3 days\n• Familiar — 3 to 14 days\n• Confident — 14 to 60 days\n• Mastered — 60+ days"
+        ),
+        Topic(
+            icon: "rectangle.stack.fill",
+            color: .teal,
+            title: "Three ways to drill",
+            body: "• **Grammar Drill**. Daily fill-in-the-blank session.\n• **Particle Practice**. Endless, weighted toward your weak particles.\n• **Audio Drill**. The goal is to memorize translations of basic sentences to build fluency."
+        ),
+        Topic(
+            icon: "slider.horizontal.3",
+            color: .gray,
+            title: "What you can adjust",
+            body: "**Settings** (gear on home):\n• New patterns per session\n• JLPT levels (N5–N1)\n• Mix particles into Grammar Drill (~15%)\n• Font size\n\n**Audio Settings** (inside Audio Drill):\n• Generosity threshold\n• New sentences per day\n• Voice + preview\n• Ignore final です/ます/だ"
+        ),
+        Topic(
+            icon: "lock.fill",
+            color: .green,
+            title: "Privacy",
+            body: "All progress stays on this device. No accounts, no analytics, no servers."
+        ),
+ 
+    ]
+
+    var body: some View {
+        ScrollView {
+            VStack(alignment: .leading, spacing: 28) {
+                // Intro
+                VStack(alignment: .leading, spacing: 10) {
+                    Text("What it does")
+                        .font(.system(size: scaled(20), weight: .bold))
+                    Text("Build JLPT grammar knowledge through short daily reviews.")
+                        .font(.system(size: scaled(15)))
+                        .foregroundColor(.secondary)
+                        .fixedSize(horizontal: false, vertical: true)
+                }
+
+                ForEach(topics) { topic in
+                    VStack(alignment: .leading, spacing: 10) {
+                        HStack(spacing: 10) {
+                            Image(systemName: topic.icon)
+                                .font(.system(size: scaled(18), weight: .semibold))
+                                .foregroundColor(topic.color)
+                                .frame(width: 28)
+                            Text(topic.title)
+                                .font(.system(size: scaled(18), weight: .semibold))
+                        }
+                        Text(.init(topic.body))
+                            .font(.system(size: scaled(15)))
+                            .foregroundColor(.secondary)
+                            .fixedSize(horizontal: false, vertical: true)
+                    }
+                }
+            }
+            .padding()
+            .frame(maxWidth: .infinity, alignment: .leading)
+        }
+        .navigationTitle("How it works")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }

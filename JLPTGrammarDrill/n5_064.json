@@ -1,0 +1,288 @@
+{
+  "id": "n5_064",
+  "pattern": "～がある／いる",
+  "meaning": "There is / exists (inanimate/animate)",
+  "level": "N5",
+  "exercises": [
+    {
+      "id": "n5_064_1",
+      "example_sentence": "机の上に本があります。",
+      "translation": "There is a book on the desk.",
+      "blank_target": "が",
+      "wrong_choices": [
+        "を",
+        "は",
+        "に"
+      ],
+      "wrong_choice_explanations": [
+        "を marks direct objects for action verbs — it doesn't fit here because ある is an existence verb that takes が, not を.",
+        "は marks the topic — it doesn't fit here because in existence sentences, the existing thing takes が, not は.",
+        "に indicates location or direction — it doesn't fit here because 'on the desk' already shows location; the book needs が as the subject."
+      ],
+      "hiragana_full": "つくえのうえにほんがあります。",
+      "audio_alternatives": [
+        {
+          "kanji": "机の上に本がある。",
+          "hiragana_full": "つくえのうえにほんがある。"
+        },
+        {
+          "kanji": "本は机の上にあります。",
+          "hiragana_full": "ほんはつくえのうえにあります。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_064_2",
+      "example_sentence": "公園に子どもたちがいます。",
+      "translation": "There are children in the park.",
+      "blank_target": "が",
+      "wrong_choices": [
+        "の",
+        "と",
+        "で"
+      ],
+      "wrong_choice_explanations": [
+        "の shows possession or modification — it doesn't fit here because children are the subject of existence, not possessing something.",
+        "と means 'with' or 'and' — it doesn't fit here because children are not companions, but the subject of the existence verb いる.",
+        "で indicates means or location of actions — it doesn't fit here because 'in the park' already shows location; children need が as the existing subject."
+      ],
+      "hiragana_full": "こうえんにこどもたちがいます。",
+      "audio_alternatives": [
+        {
+          "kanji": "公園に子どもたちがいる。",
+          "hiragana_full": "こうえんにこどもたちがいる。"
+        },
+        {
+          "kanji": "子どもたちは公園にいます。",
+          "hiragana_full": "こどもたちはこうえんにいます。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_064_3",
+      "example_sentence": "冷蔵庫にジュースがありますか。",
+      "translation": "Is there juice in the refrigerator?",
+      "blank_target": "が",
+      "wrong_choices": [
+        "を",
+        "も",
+        "だけ"
+      ],
+      "wrong_choice_explanations": [
+        "を marks direct objects for actions — it doesn't fit here because ある is an existence verb that requires が for the existing thing.",
+        "も means 'also/too' — it doesn't fit here because we need the subject marker が, not an additional item marker.",
+        "だけ means 'only' — it doesn't fit here because we're asking about existence of juice, not limiting to juice alone."
+      ],
+      "hiragana_full": "れいぞうこにジュースがありますか。",
+      "audio_alternatives": [
+        {
+          "kanji": "冷蔵庫の中にジュースがありますか。",
+          "hiragana_full": "れいぞうこのなかにジュースがありますか。"
+        },
+        {
+          "kanji": "ジュースは冷蔵庫にありますか。",
+          "hiragana_full": "ジュースはれいぞうこにありますか。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_064_4",
+      "example_sentence": "教室に先生がいません。",
+      "translation": "There is no teacher in the classroom.",
+      "blank_target": "が",
+      "wrong_choices": [
+        "は",
+        "に",
+        "から"
+      ],
+      "wrong_choice_explanations": [
+        "は marks the topic — it doesn't fit here because in existence sentences, the existing/non-existing entity takes が.",
+        "に indicates location — it doesn't fit here because 'in the classroom' already shows location; teacher needs が as the subject.",
+        "から means 'from' — it doesn't fit here because teacher is not a source, but the subject of the existence verb."
+      ],
+      "hiragana_full": "きょうしつにせんせいがいません",
+      "audio_alternatives": [
+        {
+          "kanji": "教室に先生はいません。",
+          "hiragana_full": "きょうしつにせんせいはいません"
+        },
+        {
+          "kanji": "先生は教室にいません。",
+          "hiragana_full": "せんせいはきょうしつにいません"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_064_5",
+      "example_sentence": "庭に猫が三匹います。",
+      "translation": "There are three cats in the garden.",
+      "blank_target": "が",
+      "wrong_choices": [
+        "の",
+        "と",
+        "へ"
+      ],
+      "wrong_choice_explanations": [
+        "の shows possession or connection — it doesn't fit here because cats are the existing subjects, not possessing anything.",
+        "と means 'with' or 'and' — it doesn't fit here because cats are not companions in this context, but the subjects of existence.",
+        "へ indicates direction toward — it doesn't fit here because we're stating existence, not movement toward the garden."
+      ],
+      "hiragana_full": "にわにねこがさんびきいます。",
+      "audio_alternatives": [
+        {
+          "kanji": "庭には猫が三匹います。",
+          "hiragana_full": "にわにはねこがさんびきいます。"
+        },
+        {
+          "kanji": "庭に三匹の猫がいます。",
+          "hiragana_full": "にわにさんびきのねこがいます。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_064_6",
+      "example_sentence": "駅の近くにコンビニがあります。",
+      "translation": "There is a convenience store near the station.",
+      "blank_target": "が",
+      "wrong_choices": [
+        "を",
+        "で",
+        "まで"
+      ],
+      "wrong_choice_explanations": [
+        "を marks direct objects for actions — it doesn't fit here because ある is an existence verb that takes が for the existing thing.",
+        "で indicates location of actions — it doesn't fit here because 'near the station' already shows location; the store needs が as the existing subject.",
+        "まで means 'until/up to' — it doesn't fit here because the convenience store is not a time or distance limit, but the subject of existence."
+      ],
+      "hiragana_full": "えきのちかくにコンビニがあります。",
+      "audio_alternatives": [
+        {
+          "kanji": "駅のそばにコンビニがあります。",
+          "hiragana_full": "えきのそばにコンビニがあります。"
+        },
+        {
+          "kanji": "コンビニが駅の近くにあります。",
+          "hiragana_full": "コンビニがえきのちかくにあります。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_064_7",
+      "example_sentence": "部屋に誰がいますか。",
+      "translation": "Who is in the room?",
+      "blank_target": "が",
+      "wrong_choices": [
+        "は",
+        "を",
+        "に"
+      ],
+      "wrong_choice_explanations": [
+        "は marks the topic — it doesn't fit here because 'who' is the subject of existence inquiry, not the topic being discussed.",
+        "を marks direct objects — it doesn't fit here because いる is an existence verb that requires が for the existing person.",
+        "に indicates location — it doesn't fit here because 'in the room' already shows location; 'who' needs が as the subject."
+      ],
+      "hiragana_full": "へやにだれがいますか",
+      "audio_alternatives": [
+        {
+          "kanji": "部屋に誰がいるの？",
+          "hiragana_full": "へやにだれがいるの"
+        },
+        {
+          "kanji": "誰が部屋にいますか。",
+          "hiragana_full": "だれがへやにいますか"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_064_8",
+      "example_sentence": "山に雪がたくさんあります。",
+      "translation": "There is a lot of snow on the mountain.",
+      "blank_target": "が",
+      "wrong_choices": [
+        "も",
+        "だけ",
+        "と"
+      ],
+      "wrong_choice_explanations": [
+        "も means 'also/too' — it doesn't fit here because we need が to mark snow as the existing subject, not an additional item.",
+        "だけ means 'only' — it doesn't fit here because we're describing the existence of snow, not limiting to snow alone.",
+        "と means 'with' or 'and' — it doesn't fit here because snow is not a companion, but the subject of the existence verb."
+      ],
+      "hiragana_full": "やまにゆきがたくさんあります。",
+      "audio_alternatives": [
+        {
+          "kanji": "山には雪がたくさんあります。",
+          "hiragana_full": "やまにはゆきがたくさんあります。"
+        },
+        {
+          "kanji": "山にたくさんの雪があります。",
+          "hiragana_full": "やまにたくさんのゆきがあります。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_064_9",
+      "example_sentence": "この辺りに病院がありますか。",
+      "translation": "Is there a hospital in this area?",
+      "blank_target": "が",
+      "wrong_choices": [
+        "の",
+        "へ",
+        "から"
+      ],
+      "wrong_choice_explanations": [
+        "の shows possession or modification — it doesn't fit here because hospital is the subject of existence inquiry, not possessing something.",
+        "へ indicates direction toward — it doesn't fit here because we're asking about existence, not movement toward the area.",
+        "から means 'from' — it doesn't fit here because hospital is not a source, but the subject of the existence question."
+      ],
+      "hiragana_full": "このあたりにびょういんがありますか",
+      "audio_alternatives": [
+        {
+          "kanji": "この近くに病院がありますか。",
+          "hiragana_full": "このちかくにびょういんがありますか"
+        },
+        {
+          "kanji": "この辺に病院はありますか。",
+          "hiragana_full": "このへんにびょういんはありますか"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_064_10",
+      "example_sentence": "池に魚がいます。",
+      "translation": "There are fish in the pond.",
+      "blank_target": "が",
+      "wrong_choices": [
+        "を",
+        "で",
+        "に"
+      ],
+      "wrong_choice_explanations": [
+        "を marks direct objects for actions — it doesn't fit here because いる is an existence verb that requires が for the existing creatures.",
+        "で indicates location of actions — it doesn't fit here because 'in the pond' already shows location; fish need が as the existing subjects.",
+        "に indicates location — it doesn't fit here because 'in the pond' already shows location; fish need が as the subjects of existence."
+      ],
+      "hiragana_full": "いけにさかながいます。",
+      "audio_alternatives": [
+        {
+          "kanji": "池の中に魚がいます。",
+          "hiragana_full": "いけのなかにさかながいます。"
+        },
+        {
+          "kanji": "池に魚がいる。",
+          "hiragana_full": "いけにさかながいる。"
+        }
+      ],
+      "audio_eligible": true
+    }
+  ]
+}

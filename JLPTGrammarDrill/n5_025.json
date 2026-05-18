@@ -1,0 +1,288 @@
+{
+  "id": "n5_025",
+  "pattern": "～ます",
+  "meaning": "Polite verb ending (present/future)",
+  "level": "N5",
+  "exercises": [
+    {
+      "id": "n5_025_1",
+      "example_sentence": "毎日日本語を勉強します。",
+      "translation": "I study Japanese every day.",
+      "blank_target": "ます",
+      "wrong_choices": [
+        "る",
+        "た",
+        "て"
+      ],
+      "wrong_choice_explanations": [
+        "る is the plain present form — it's too casual for polite speech.",
+        "た is plain past tense — it would mean 'studied' and is too casual.",
+        "て is the te-form — it's incomplete and needs additional elements to form a sentence."
+      ],
+      "hiragana_full": "まいにちにほんごをべんきょうします",
+      "audio_alternatives": [
+        {
+          "kanji": "毎日日本語を勉強している。",
+          "hiragana_full": "まいにちにほんごをべんきょうしている"
+        },
+        {
+          "kanji": "日本語を毎日勉強します。",
+          "hiragana_full": "にほんごをまいにちべんきょうします"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_025_2",
+      "example_sentence": "明日東京に行きます。",
+      "translation": "I will go to Tokyo tomorrow.",
+      "blank_target": "ます",
+      "wrong_choices": [
+        "ました",
+        "ません",
+        "ましょう"
+      ],
+      "wrong_choice_explanations": [
+        "ました is past tense — it would mean 'went' instead of future 'will go'.",
+        "ません is negative — it would mean 'will not go' instead of 'will go'.",
+        "ましょう is volitional — it suggests 'let's go' rather than stating intention."
+      ],
+      "hiragana_full": "あしたとうきょうにいきます。",
+      "audio_alternatives": [
+        {
+          "kanji": "明日東京へ行きます。",
+          "hiragana_full": "あしたとうきょうへいきます。"
+        },
+        {
+          "kanji": "あした東京に行く。",
+          "hiragana_full": "あしたとうきょうにいく。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_025_3",
+      "example_sentence": "父は新聞を読みます。",
+      "translation": "My father reads the newspaper.",
+      "blank_target": "ます",
+      "wrong_choices": [
+        "だ",
+        "である",
+        "だった"
+      ],
+      "wrong_choice_explanations": [
+        "だ is a copula for nouns/adjectives — it cannot be used with verb stems like 読み.",
+        "である is a formal copula — it's used with nouns, not with verb stems.",
+        "だった is past copula — it's used with nouns/adjectives, not verb stems."
+      ],
+      "hiragana_full": "ちちはしんぶんをよみます",
+      "audio_alternatives": [
+        {
+          "kanji": "父は新聞を読む。",
+          "hiragana_full": "ちちはしんぶんをよむ"
+        },
+        {
+          "kanji": "お父さんは新聞を読みます。",
+          "hiragana_full": "おとうさんはしんぶんをよみます"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_025_4",
+      "example_sentence": "友達と映画を見ます。",
+      "translation": "I watch movies with my friends.",
+      "blank_target": "ます",
+      "wrong_choices": [
+        "なさい",
+        "ろ",
+        "よ"
+      ],
+      "wrong_choice_explanations": [
+        "なさい is an imperative form — it would make this a command 'please watch'.",
+        "ろ is a plain imperative — it's a rude command form meaning 'watch!'.",
+        "よ is an emphatic particle — it cannot attach directly to verb stems."
+      ],
+      "hiragana_full": "ともだちとえいがをみます。",
+      "audio_alternatives": [
+        {
+          "kanji": "友達と映画を見る。",
+          "hiragana_full": "ともだちとえいがをみる。"
+        },
+        {
+          "kanji": "友達と一緒に映画を見ます。",
+          "hiragana_full": "ともだちといっしょにえいがをみます。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_025_5",
+      "example_sentence": "学校で英語を教えます。",
+      "translation": "I teach English at school.",
+      "blank_target": "ます",
+      "wrong_choices": [
+        "られます",
+        "させます",
+        "てもらいます"
+      ],
+      "wrong_choice_explanations": [
+        "られます indicates potential or passive — it would mean 'can teach' or 'is taught'.",
+        "させます is causative — it would mean 'make someone teach'.",
+        "てもらいます indicates receiving a favor — it would mean 'have someone teach for me'."
+      ],
+      "hiragana_full": "がっこうでえいごをおしえます。",
+      "audio_alternatives": [
+        {
+          "kanji": "学校で英語を教えている。",
+          "hiragana_full": "がっこうでえいごをおしえている。"
+        },
+        {
+          "kanji": "英語を学校で教えます。",
+          "hiragana_full": "えいごをがっこうでおしえます。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_025_6",
+      "example_sentence": "母は料理を作ります。",
+      "translation": "My mother makes meals.",
+      "blank_target": "ます",
+      "wrong_choices": [
+        "ながら",
+        "たり",
+        "て"
+      ],
+      "wrong_choice_explanations": [
+        "ながら means 'while doing' — it would need another action to complete the thought.",
+        "たり lists multiple actions — it would need another action and する/です to complete.",
+        "て connects actions — it would leave the sentence incomplete without a following clause."
+      ],
+      "hiragana_full": "はははりょうりをつくります。",
+      "audio_alternatives": [
+        {
+          "kanji": "母は料理を作る。",
+          "hiragana_full": "はははりょうりをつくる。"
+        },
+        {
+          "kanji": "母が料理を作ります。",
+          "hiragana_full": "ははがりょうりをつくります。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_025_7",
+      "example_sentence": "犬と一緒に散歩します。",
+      "translation": "I take walks with my dog.",
+      "blank_target": "ます",
+      "wrong_choices": [
+        "ている",
+        "てある",
+        "ておく"
+      ],
+      "wrong_choice_explanations": [
+        "ている indicates ongoing action — it would mean 'am walking' but needs です after it.",
+        "てある indicates a completed action with remaining results — it doesn't fit the context of regular walks.",
+        "ておく means doing something in preparation — it doesn't fit the simple habitual action here."
+      ],
+      "hiragana_full": "いぬといっしょにさんぽします。",
+      "audio_alternatives": [
+        {
+          "kanji": "犬と散歩します。",
+          "hiragana_full": "いぬとさんぽします。"
+        },
+        {
+          "kanji": "犬と一緒に歩きます。",
+          "hiragana_full": "いぬといっしょにあるきます。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_025_8",
+      "example_sentence": "週末にゴルフをします。",
+      "translation": "I play golf on weekends.",
+      "blank_target": "ます",
+      "wrong_choices": [
+        "そう",
+        "よう",
+        "ばかり"
+      ],
+      "wrong_choice_explanations": [
+        "そう indicates appearance or hearsay — it would need です and would change the meaning to 'seems to play'.",
+        "よう indicates similarity or attempt — it would need です and change the meaning.",
+        "ばかり means 'only/just' — it's a particle that cannot complete verb conjugation."
+      ],
+      "hiragana_full": "しゅうまつにごるふをします",
+      "audio_alternatives": [
+        {
+          "kanji": "週末にゴルフをやります。",
+          "hiragana_full": "しゅうまつにごるふをやります"
+        },
+        {
+          "kanji": "週末はゴルフをします。",
+          "hiragana_full": "しゅうまつはごるふをします"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_025_9",
+      "example_sentence": "コンビニでパンを買います。",
+      "translation": "I buy bread at the convenience store.",
+      "blank_target": "ます",
+      "wrong_choices": [
+        "に行く",
+        "にくる",
+        "にかえる"
+      ],
+      "wrong_choice_explanations": [
+        "に行く means 'go to do' — it would mean 'go to buy' rather than simply 'buy'.",
+        "にくる means 'come to do' — it would mean 'come to buy' and changes the focus.",
+        "にかえる means 'return to do' — it doesn't make sense with buying bread."
+      ],
+      "hiragana_full": "コンビニでパンをかいます。",
+      "audio_alternatives": [
+        {
+          "kanji": "コンビニでパンを買う。",
+          "hiragana_full": "コンビニでパンをかう。"
+        },
+        {
+          "kanji": "パンをコンビニで買います。",
+          "hiragana_full": "パンをコンビニでかいます。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_025_10",
+      "example_sentence": "夜遅くまで働きます。",
+      "translation": "I work until late at night.",
+      "blank_target": "ます",
+      "wrong_choices": [
+        "すぎる",
+        "やすい",
+        "にくい"
+      ],
+      "wrong_choice_explanations": [
+        "すぎる means 'too much' — it would mean 'work too much' and changes the nuance.",
+        "やすい means 'easy to do' — it would mean 'easy to work' which doesn't fit the context.",
+        "にくい means 'difficult to do' — it would mean 'difficult to work' which changes the meaning."
+      ],
+      "hiragana_full": "よるおそくまではたらきます。",
+      "audio_alternatives": [
+        {
+          "kanji": "夜遅くまで仕事をします。",
+          "hiragana_full": "よるおそくまでしごとをします。"
+        },
+        {
+          "kanji": "深夜まで働きます。",
+          "hiragana_full": "しんやまではたらきます。"
+        }
+      ],
+      "audio_eligible": true
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+import SwiftUI
+import SwiftData
+
+/// Read-only browser of every audio-eligible exercise in the active levels.
+struct AudioBrowserView: View {
+    let allExercises: [AudioExercise]
+
+    @Environment(\.modelContext) private var modelContext
+    @Query private var attempts: [AudioAttempt]
+
+    @AppStorage(AudioDrillSettings.activeLevelsCSVKey)
+    private var activeLevelsCSV = AudioDrillSettings.defaultActiveLevelsCSV
+
+    @State private var search = ""
+
+    private var activeLevels: Set<String> {
+        Set(activeLevelsCSV.split(separator: ",").map(String.init))
+    }
+
+    private var filtered: [AudioExercise] {
+        let active = allExercises.filter { activeLevels.contains($0.level) }
+        guard !search.isEmpty else { return active }
+        let q = search.lowercased()
+        return active.filter {
+            $0.translation.lowercased().contains(q)
+                || $0.exampleSentence.contains(search)
+                || $0.hiraganaFull.contains(search)
+        }
+    }
+
+    private var lastAttemptByExercise: [String: AudioAttempt] {
+        var out: [String: AudioAttempt] = [:]
+        for a in attempts {
+            if let existing = out[a.exerciseId], existing.timestamp > a.timestamp { continue }
+            out[a.exerciseId] = a
+        }
+        return out
+    }
+
+    var body: some View {
+        List {
+            ForEach(filtered, id: \.id) { ex in
+                row(ex)
+            }
+        }
+        .searchable(text: $search, prompt: "Search English or Japanese")
+        .navigationTitle("Browse")
+        .navigationBarTitleDisplayMode(.inline)
+    }
+
+    private func row(_ ex: AudioExercise) -> some View {
+        let last = lastAttemptByExercise[ex.id]
+        return VStack(alignment: .leading, spacing: 4) {
+            HStack {
+                Text(ex.level)
+                    .font(.system(size: 10, weight: .bold, design: .monospaced))
+                    .foregroundColor(.secondary)
+                Text(ex.id)
+                    .font(.system(size: 10, design: .monospaced))
+                    .foregroundColor(.secondary)
+                Spacer()
+                if let last {
+                    Image(systemName: last.passed ? "checkmark.circle.fill" : "xmark.circle.fill")
+                        .font(.system(size: 12))
+                        .foregroundColor(last.passed ? .green : .red)
+                    Text(last.timestamp.formatted(.relative(presentation: .named)))
+                        .font(.system(size: 10))
+                        .foregroundColor(.secondary)
+                }
+            }
+            Text(ex.translation)
+                .font(.system(size: 15, weight: .medium))
+            Text(ex.exampleSentence)
+                .font(.system(size: 14))
+            Text(ex.hiraganaFull)
+                .font(.system(size: 12))
+                .foregroundColor(.secondary)
+            if !ex.audioAlternatives.isEmpty {
+                ForEach(ex.audioAlternatives, id: \.self) { alt in
+                    Text("· \(alt.kanji)")
+                        .font(.system(size: 12))
+                        .foregroundColor(.secondary)
+                }
+            }
+        }
+        .padding(.vertical, 4)
+    }
+}

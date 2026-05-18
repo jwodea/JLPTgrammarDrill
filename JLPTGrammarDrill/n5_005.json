@@ -1,0 +1,288 @@
+{
+  "id": "n5_005",
+  "pattern": "〜て form",
+  "meaning": "connecting actions / requests / ongoing states",
+  "level": "N5",
+  "exercises": [
+    {
+      "id": "n5_005_1",
+      "example_sentence": "朝ごはんを食べて、学校に行きます。",
+      "translation": "I eat breakfast and then go to school.",
+      "blank_target": "て",
+      "wrong_choices": [
+        "た",
+        "ます",
+        "たり"
+      ],
+      "wrong_choice_explanations": [
+        "た is the past tense ending; it ends the clause and cannot connect two sequential actions.",
+        "ます is the polite ending; it ends a sentence rather than connecting clauses.",
+        "たり is used to list multiple representative actions (食べたり飲んだりする) and cannot replace て for sequential connection."
+      ],
+      "hiragana_full": "あさごはんをたべて、がっこうにいきます。",
+      "audio_alternatives": [
+        {
+          "kanji": "朝食を食べて、学校に行きます。",
+          "hiragana_full": "ちょうしょくをたべて、がっこうにいきます。"
+        },
+        {
+          "kanji": "朝ごはんを食べてから、学校に行きます。",
+          "hiragana_full": "あさごはんをたべてから、がっこうにいきます。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_005_2",
+      "example_sentence": "ここに座ってください。",
+      "translation": "Please sit here.",
+      "blank_target": "て",
+      "wrong_choices": [
+        "た",
+        "ない",
+        "ます"
+      ],
+      "wrong_choice_explanations": [
+        "た is past tense and cannot precede ください for requests.",
+        "ない is negative; ないでください would mean 'please don't,' which changes the meaning entirely.",
+        "ます is a polite ending but doesn't combine with ください."
+      ],
+      "hiragana_full": "ここにすわってください",
+      "audio_alternatives": [
+        {
+          "kanji": "ここに座りなさい。",
+          "hiragana_full": "ここにすわりなさい"
+        },
+        {
+          "kanji": "こちらに座ってください。",
+          "hiragana_full": "こちらにすわってください"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_005_3",
+      "example_sentence": "本を読んで、レポートを書きます。",
+      "translation": "I read a book and then write a report.",
+      "blank_target": "で",
+      "wrong_choices": [
+        "だ",
+        "た",
+        "ます"
+      ],
+      "wrong_choice_explanations": [
+        "だ is the plain copula; 読む's te-form is 読んで, not 読んだ for connecting actions.",
+        "た makes it past tense (読んだ) but doesn't connect to the next action as a sequence.",
+        "ます ends the sentence politely and doesn't connect clauses."
+      ],
+      "hiragana_full": "ほんをよんで、レポートをかきます。",
+      "audio_alternatives": [
+        {
+          "kanji": "本を読んでから、レポートを書きます。",
+          "hiragana_full": "ほんをよんでから、レポートをかきます。"
+        },
+        {
+          "kanji": "本を読んだ後で、レポートを書きます。",
+          "hiragana_full": "ほんをよんだあとで、レポートをかきます。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_005_4",
+      "example_sentence": "シャワーを浴びて、出かけます。",
+      "translation": "I take a shower and then go out.",
+      "blank_target": "て",
+      "wrong_choices": [
+        "ない",
+        "ます",
+        "たり"
+      ],
+      "wrong_choice_explanations": [
+        "ない is the negative form; 浴びない would negate the action instead of connecting it.",
+        "ます ends the sentence; it cannot link two actions.",
+        "たり lists representative actions and requires a paired たりする structure, not a direct connection."
+      ],
+      "hiragana_full": "シャワーをあびて、でかけます。",
+      "audio_alternatives": [
+        {
+          "kanji": "シャワーを浴びてから、出かけます。",
+          "hiragana_full": "シャワーをあびてから、でかけます。"
+        },
+        {
+          "kanji": "シャワーを浴びて、外に出ます。",
+          "hiragana_full": "シャワーをあびて、そとにでます。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_005_5",
+      "example_sentence": "友達に会って、映画を見ました。",
+      "translation": "I met a friend and watched a movie.",
+      "blank_target": "て",
+      "wrong_choices": [
+        "た",
+        "ない",
+        "たり"
+      ],
+      "wrong_choice_explanations": [
+        "た would end the sentence in past tense (会った) without connecting to the next clause.",
+        "ない is the negative form and doesn't link sequential events.",
+        "たり lists representative actions (会ったり見たりした) and doesn't create a direct sequence."
+      ],
+      "hiragana_full": "ともだちにあって、えいがをみました。",
+      "audio_alternatives": [
+        {
+          "kanji": "友達と会って、映画を見ました。",
+          "hiragana_full": "ともだちとあって、えいがをみました。"
+        },
+        {
+          "kanji": "友達に会って、映画を見た。",
+          "hiragana_full": "ともだちにあって、えいがをみた。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_005_6",
+      "example_sentence": "窓を開けてもいいですか。",
+      "translation": "May I open the window?",
+      "blank_target": "て",
+      "wrong_choices": [
+        "た",
+        "ない",
+        "ます"
+      ],
+      "wrong_choice_explanations": [
+        "た is past tense and doesn't form the permission pattern てもいい.",
+        "ない is negative; なくてもいい means 'don't have to,' which is a different pattern.",
+        "ます is polite ending; it can't precede もいいですか."
+      ],
+      "hiragana_full": "まどをあけてもいいですか",
+      "audio_alternatives": [
+        {
+          "kanji": "窓を開けていいですか。",
+          "hiragana_full": "まどをあけていいですか"
+        },
+        {
+          "kanji": "窓を開けてもかまいませんか。",
+          "hiragana_full": "まどをあけてもかまいませんか"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_005_7",
+      "example_sentence": "電気をつけてください。",
+      "translation": "Please turn on the light.",
+      "blank_target": "て",
+      "wrong_choices": [
+        "た",
+        "ます",
+        "たり"
+      ],
+      "wrong_choice_explanations": [
+        "た is past tense; requests use the te-form + ください, not past tense.",
+        "ます is polite ending and doesn't precede ください.",
+        "たり is for listing actions and cannot form a request with ください."
+      ],
+      "hiragana_full": "でんきをつけてください",
+      "audio_alternatives": [
+        {
+          "kanji": "電気をつけてくれますか。",
+          "hiragana_full": "でんきをつけてくれますか"
+        },
+        {
+          "kanji": "ライトをつけてください。",
+          "hiragana_full": "らいとをつけてください"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_005_8",
+      "example_sentence": "手を洗って、ごはんを食べます。",
+      "translation": "I wash my hands and then eat.",
+      "blank_target": "て",
+      "wrong_choices": [
+        "た",
+        "ない",
+        "たり"
+      ],
+      "wrong_choice_explanations": [
+        "た makes it past tense (洗った) without connecting to the next action.",
+        "ない negates the verb (洗わない); the っない form doesn't exist.",
+        "たり lists representative actions and requires paired usage with する."
+      ],
+      "hiragana_full": "てをあらって、ごはんをたべます。",
+      "audio_alternatives": [
+        {
+          "kanji": "手を洗ってから、ごはんを食べます。",
+          "hiragana_full": "てをあらってから、ごはんをたべます。"
+        },
+        {
+          "kanji": "手を洗った後で、ごはんを食べます。",
+          "hiragana_full": "てをあらったあとで、ごはんをたべます。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_005_9",
+      "example_sentence": "バスに乗って、駅まで行きます。",
+      "translation": "I ride the bus and go to the station.",
+      "blank_target": "て",
+      "wrong_choices": [
+        "ない",
+        "ます",
+        "たり"
+      ],
+      "wrong_choice_explanations": [
+        "ない negates the verb (乗らない); the っない form doesn't exist.",
+        "ます is a sentence-ending form, not a connector between clauses.",
+        "たり is for listing representative actions and needs a paired たりする structure."
+      ],
+      "hiragana_full": "ばすにのって、えきまでいきます。",
+      "audio_alternatives": [
+        {
+          "kanji": "バスで駅まで行きます。",
+          "hiragana_full": "ばすでえきまでいきます。"
+        },
+        {
+          "kanji": "バスに乗って、駅に行きます。",
+          "hiragana_full": "ばすにのって、えきにいきます。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_005_10",
+      "example_sentence": "宿題をしてから、遊びます。",
+      "translation": "After doing homework, I play.",
+      "blank_target": "て",
+      "wrong_choices": [
+        "た",
+        "ない",
+        "たり"
+      ],
+      "wrong_choice_explanations": [
+        "た + から means 'because I did' (したから), which changes the meaning from 'after doing' to 'because I did.'",
+        "ない + から means 'because I don't' (しないから), which negates the action and changes the meaning.",
+        "たり is for listing actions and cannot precede から in this sequential pattern."
+      ],
+      "hiragana_full": "しゅくだいをしてから、あそびます。",
+      "audio_alternatives": [
+        {
+          "kanji": "宿題をした後で、遊びます。",
+          "hiragana_full": "しゅくだいをしたあとで、あそびます。"
+        },
+        {
+          "kanji": "宿題をしてから、遊ぶ。",
+          "hiragana_full": "しゅくだいをしてから、あそぶ。"
+        }
+      ],
+      "audio_eligible": true
+    }
+  ]
+}

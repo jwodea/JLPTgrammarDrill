@@ -1,0 +1,288 @@
+{
+  "id": "n5_056",
+  "pattern": "～後で",
+  "meaning": "After doing ~",
+  "level": "N5",
+  "exercises": [
+    {
+      "id": "n5_056_1",
+      "example_sentence": "宿題を終えた後で、テレビを見ました。",
+      "translation": "After finishing homework, I watched TV.",
+      "blank_target": "後で",
+      "wrong_choices": [
+        "前に",
+        "時に",
+        "間に"
+      ],
+      "wrong_choice_explanations": [
+        "前に means 'before' — it's the opposite of the temporal relationship needed here.",
+        "時に means 'when / at the time of' — it shows simultaneous timing, not after completion.",
+        "間に means 'during / between' — it shows duration or interval, not sequence after completion."
+      ],
+      "hiragana_full": "しゅくだいをおえたあとで、テレビをみました。",
+      "audio_alternatives": [
+        {
+          "kanji": "宿題が終わってから、テレビを見ました。",
+          "hiragana_full": "しゅくだいがおわってから、テレビをみました。"
+        },
+        {
+          "kanji": "宿題をしてから、テレビを見ました。",
+          "hiragana_full": "しゅくだいをしてから、テレビをみました。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_056_2",
+      "example_sentence": "昼ご飯を食べた後で、散歩しました。",
+      "translation": "After eating lunch, I took a walk.",
+      "blank_target": "後で",
+      "wrong_choices": [
+        "ので",
+        "から",
+        "のに"
+      ],
+      "wrong_choice_explanations": [
+        "ので means 'because' — it shows causation, not temporal sequence after completion.",
+        "から means 'because' or 'from' — it doesn't indicate the timing relationship needed here.",
+        "のに means 'despite / although' — it shows contrast, not temporal sequence."
+      ],
+      "hiragana_full": "ひるごはんをたべたあとで、さんぽしました。",
+      "audio_alternatives": [
+        {
+          "kanji": "昼ご飯の後で、散歩しました。",
+          "hiragana_full": "ひるごはんのあとで、さんぽしました。"
+        },
+        {
+          "kanji": "昼ご飯を食べてから、散歩しました。",
+          "hiragana_full": "ひるごはんをたべてから、さんぽしました。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_056_3",
+      "example_sentence": "映画を見た後で、友達と話しました。",
+      "translation": "After watching the movie, I talked with friends.",
+      "blank_target": "後で",
+      "wrong_choices": [
+        "ながら",
+        "てから",
+        "までに"
+      ],
+      "wrong_choice_explanations": [
+        "ながら means 'while doing' — it shows simultaneous actions, not sequential timing after completion.",
+        "てから also means 'after' but requires て-form + から, not past tense + てから.",
+        "までに means 'by / before (deadline)' — it shows a time limit, not sequence after completion."
+      ],
+      "hiragana_full": "えいがをみたあとで、ともだちとはなしました。",
+      "audio_alternatives": [
+        {
+          "kanji": "映画を見てから、友達と話しました。",
+          "hiragana_full": "えいがをみてから、ともだちとはなしました。"
+        },
+        {
+          "kanji": "映画の後で、友達と話しました。",
+          "hiragana_full": "えいがのあとで、ともだちとはなしました。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_056_4",
+      "example_sentence": "仕事が終わった後で、買い物に行きます。",
+      "translation": "After work finishes, I'll go shopping.",
+      "blank_target": "後で",
+      "wrong_choices": [
+        "と",
+        "ば",
+        "なら"
+      ],
+      "wrong_choice_explanations": [
+        "と shows natural consequence or habitual action — it doesn't specifically indicate timing after completion.",
+        "ば is conditional 'if' — this sentence describes planned sequence, not a condition.",
+        "なら means 'if' — it's conditional, but we're describing a planned sequence after work."
+      ],
+      "hiragana_full": "しごとがおわったあとで、かいものにいきます。",
+      "audio_alternatives": [
+        {
+          "kanji": "仕事が終わってから、買い物に行きます。",
+          "hiragana_full": "しごとがおわってから、かいものにいきます。"
+        },
+        {
+          "kanji": "仕事の後で、買い物に行きます。",
+          "hiragana_full": "しごとのあとで、かいものにいきます。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_056_5",
+      "example_sentence": "シャワーを浴びた後で、寝ました。",
+      "translation": "After taking a shower, I went to bed.",
+      "blank_target": "後で",
+      "wrong_choices": [
+        "まで",
+        "あいだ",
+        "うちに"
+      ],
+      "wrong_choice_explanations": [
+        "まで means 'until' — it shows duration up to a point, not sequence after completion.",
+        "あいだ means 'while / during' — it shows simultaneous time periods, not after finishing.",
+        "うちに means 'while / during' — it indicates actions within a time period, not after completion."
+      ],
+      "hiragana_full": "シャワーをあびたあとで、ねました。",
+      "audio_alternatives": [
+        {
+          "kanji": "シャワーを浴びてから、寝ました。",
+          "hiragana_full": "シャワーをあびてから、ねました。"
+        },
+        {
+          "kanji": "シャワーの後で、寝ました。",
+          "hiragana_full": "シャワーのあとで、ねました。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_056_6",
+      "example_sentence": "勉強した後で、ゲームをしました。",
+      "translation": "After studying, I played games.",
+      "blank_target": "後で",
+      "wrong_choices": [
+        "だけ",
+        "ばかり",
+        "しか"
+      ],
+      "wrong_choice_explanations": [
+        "だけ means 'only' — it limits scope but doesn't show temporal sequence.",
+        "ばかり means 'only / just' — it shows limitation or recent completion, not sequence after finishing.",
+        "しか means 'only' (with negative) — it expresses limitation, not temporal sequence."
+      ],
+      "hiragana_full": "べんきょうしたあとで、げーむをしました。",
+      "audio_alternatives": [
+        {
+          "kanji": "勉強してから、ゲームをしました。",
+          "hiragana_full": "べんきょうしてから、げーむをしました。"
+        },
+        {
+          "kanji": "勉強した後、ゲームをしました。",
+          "hiragana_full": "べんきょうしたあと、げーむをしました。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_056_7",
+      "example_sentence": "掃除を終えた後で、コーヒーを飲みました。",
+      "translation": "After finishing cleaning, I drank coffee.",
+      "blank_target": "後で",
+      "wrong_choices": [
+        "とき",
+        "ところ",
+        "場合"
+      ],
+      "wrong_choice_explanations": [
+        "とき means 'when' — it shows simultaneous timing, not specifically after completion.",
+        "ところ means 'place' or 'about to' — it doesn't show temporal sequence after finishing cleaning.",
+        "場合 means 'case / situation' — it indicates circumstances, not temporal sequence."
+      ],
+      "hiragana_full": "そうじをおえたあとで、こーひーをのみました。",
+      "audio_alternatives": [
+        {
+          "kanji": "掃除が終わった後で、コーヒーを飲みました。",
+          "hiragana_full": "そうじがおわったあとで、こーひーをのみました。"
+        },
+        {
+          "kanji": "掃除してから、コーヒーを飲みました。",
+          "hiragana_full": "そうじしてから、こーひーをのみました。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_056_8",
+      "example_sentence": "病院に行った後で、薬をもらいました。",
+      "translation": "After going to the hospital, I got medicine.",
+      "blank_target": "後で",
+      "wrong_choices": [
+        "ために",
+        "について",
+        "として"
+      ],
+      "wrong_choice_explanations": [
+        "ために means 'for the purpose of' — it shows purpose, not temporal sequence after the hospital visit.",
+        "について means 'about / concerning' — it indicates topic, not timing after going to hospital.",
+        "として means 'as / in the capacity of' — it shows role, not temporal sequence."
+      ],
+      "hiragana_full": "びょういんにいったあとで、くすりをもらいました。",
+      "audio_alternatives": [
+        {
+          "kanji": "病院に行ってから、薬をもらいました。",
+          "hiragana_full": "びょういんにいってから、くすりをもらいました。"
+        },
+        {
+          "kanji": "病院に行った後で、薬をいただきました。",
+          "hiragana_full": "びょういんにいったあとで、くすりをいただきました。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_056_9",
+      "example_sentence": "電話をかけた後で、返事が来ました。",
+      "translation": "After making a phone call, a reply came.",
+      "blank_target": "後で",
+      "wrong_choices": [
+        "ので",
+        "けれど",
+        "でも"
+      ],
+      "wrong_choice_explanations": [
+        "ので means 'because' — while calling might cause a reply, this sentence focuses on temporal sequence, not causation.",
+        "けれど means 'but / however' — it shows contrast, not temporal sequence after making the call.",
+        "でも means 'but / however' — it indicates contrast, not the timing after the phone call."
+      ],
+      "hiragana_full": "でんわをかけたあとで、へんじがきました。",
+      "audio_alternatives": [
+        {
+          "kanji": "電話した後で、返事が来ました。",
+          "hiragana_full": "でんわしたあとで、へんじがきました。"
+        },
+        {
+          "kanji": "電話をかけてから、返事が来ました。",
+          "hiragana_full": "でんわをかけてから、へんじがきました。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_056_10",
+      "example_sentence": "本を読んだ後で、感想を書きました。",
+      "translation": "After reading the book, I wrote my impressions.",
+      "blank_target": "後で",
+      "wrong_choices": [
+        "あと",
+        "さき",
+        "まえ"
+      ],
+      "wrong_choice_explanations": [
+        "あと means 'after' as a noun but cannot directly follow past tense verbs like 後で can.",
+        "さき means 'before / earlier' — it's the opposite temporal relationship from what's needed here.",
+        "まえ means 'before' — it indicates the opposite timing, before reading rather than after."
+      ],
+      "hiragana_full": "ほんをよんだあとで、かんそうをかきました。",
+      "audio_alternatives": [
+        {
+          "kanji": "本を読んでから、感想を書きました。",
+          "hiragana_full": "ほんをよんでから、かんそうをかきました。"
+        },
+        {
+          "kanji": "本を読んだ後、感想を書きました。",
+          "hiragana_full": "ほんをよんだあと、かんそうをかきました。"
+        }
+      ],
+      "audio_eligible": true
+    }
+  ]
+}

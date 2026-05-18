@@ -1,0 +1,288 @@
+{
+  "id": "n5_081",
+  "pattern": "～目",
+  "meaning": "Ordinal suffix (1st, 2nd, 3rd, etc.)",
+  "level": "N5",
+  "exercises": [
+    {
+      "id": "n5_081_1",
+      "example_sentence": "三つ目の質問に答えてください。",
+      "translation": "Please answer the third question.",
+      "blank_target": "目",
+      "wrong_choices": [
+        "番",
+        "人",
+        "個"
+      ],
+      "wrong_choice_explanations": [
+        "番 is used for numbering/ranking but doesn't attach to つ - you need 目 to make ordinals with つ counting.",
+        "人 is a counter for people - it can't be used here because we're talking about question order, not counting people.",
+        "個 is a general counter for objects - it can't be used here because we need 目 to form the ordinal 'third one'."
+      ],
+      "hiragana_full": "みっつめのしつもんにこたえてください",
+      "audio_alternatives": [
+        {
+          "kanji": "三番目の質問に答えてください。",
+          "hiragana_full": "さんばんめのしつもんにこたえてください"
+        },
+        {
+          "kanji": "三つ目の質問に答えなさい。",
+          "hiragana_full": "みっつめのしつもんにこたえなさい"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_081_2",
+      "example_sentence": "二つ目の角を右に曲がります。",
+      "translation": "Turn right at the second corner.",
+      "blank_target": "目",
+      "wrong_choices": [
+        "番目",
+        "つ",
+        "め"
+      ],
+      "wrong_choice_explanations": [
+        "番目 would make it 二つ番目 which is grammatically incorrect - you can't combine つ with 番目.",
+        "つ would make it 二つつ which is nonsensical - you can't repeat the counter つ.",
+        "め (hiragana) is incorrect - the ordinal suffix 目 must be written in kanji when used with つ."
+      ],
+      "hiragana_full": "ふたつめのかどをみぎにまがります",
+      "audio_alternatives": [
+        {
+          "kanji": "二つ目の角で右に曲がります。",
+          "hiragana_full": "ふたつめのかどでみぎにまがります"
+        },
+        {
+          "kanji": "二つ目の角を右に曲がってください。",
+          "hiragana_full": "ふたつめのかどをみぎにまがってください"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_081_3",
+      "example_sentence": "四つ目の信号で止まってください。",
+      "translation": "Please stop at the fourth traffic light.",
+      "blank_target": "目",
+      "wrong_choices": [
+        "枚",
+        "台",
+        "本"
+      ],
+      "wrong_choice_explanations": [
+        "枚 is a counter for flat thin objects like paper - it can't be used here because we need 目 to form ordinals.",
+        "台 is a counter for machines and vehicles - it can't combine with つ and doesn't fit the ordinal meaning needed here.",
+        "本 is a counter for long cylindrical objects - it can't be used here because we need 目 to form the ordinal 'fourth one'."
+      ],
+      "hiragana_full": "よっつめのしんごうでとまってください",
+      "audio_alternatives": [
+        {
+          "kanji": "四番目の信号で止まってください。",
+          "hiragana_full": "よんばんめのしんごうでとまってください"
+        },
+        {
+          "kanji": "四つ目の信号のところで止まってください。",
+          "hiragana_full": "よっつめのしんごうのところでとまってください"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_081_4",
+      "example_sentence": "一つ目のドアを開けました。",
+      "translation": "I opened the first door.",
+      "blank_target": "目",
+      "wrong_choices": [
+        "だけ",
+        "ずつ",
+        "も"
+      ],
+      "wrong_choice_explanations": [
+        "だけ means 'only' - 一つだけ would mean 'only one door' which changes the meaning from 'first door' to 'only one door'.",
+        "ずつ means 'each' or 'at a time' - it doesn't make sense with 一つ in this context about door sequence.",
+        "も is an inclusive particle meaning 'also/too' - 一つも would mean 'even one' which doesn't fit this ordinal context."
+      ],
+      "hiragana_full": "ひとつめのどあをあけました",
+      "audio_alternatives": [
+        {
+          "kanji": "最初のドアを開けました。",
+          "hiragana_full": "さいしょのどあをあけました"
+        },
+        {
+          "kanji": "一つ目のドアを開けた。",
+          "hiragana_full": "ひとつめのどあをあけた"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_081_5",
+      "example_sentence": "五つ目の建物が学校です。",
+      "translation": "The fifth building is the school.",
+      "blank_target": "目",
+      "wrong_choices": [
+        "個",
+        "軒",
+        "棟"
+      ],
+      "wrong_choice_explanations": [
+        "個 is a general counter - while it can count buildings, it can't be used after つ to form ordinals like 目 can.",
+        "軒 is a counter specifically for houses/buildings, but it can't combine with つ and doesn't create the ordinal meaning needed.",
+        "棟 is a counter for large buildings, but it can't be used after つ to form ordinals - you need 目 for that."
+      ],
+      "hiragana_full": "いつつめのたてものががっこうです",
+      "audio_alternatives": [
+        {
+          "kanji": "五番目の建物が学校です。",
+          "hiragana_full": "ごばんめのたてものががっこうです"
+        },
+        {
+          "kanji": "五番目の建物は学校です。",
+          "hiragana_full": "ごばんめのたてものはがっこうです"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_081_6",
+      "example_sentence": "六つ目の駅で電車を降ります。",
+      "translation": "I will get off the train at the sixth station.",
+      "blank_target": "目",
+      "wrong_choices": [
+        "先",
+        "後",
+        "前"
+      ],
+      "wrong_choice_explanations": [
+        "先 means 'ahead/future' - 六つ先 would mean 'six stations ahead' which is different from the ordinal 'sixth station'.",
+        "後 means 'after/later' - it doesn't combine with つ to form ordinals and changes the meaning incorrectly.",
+        "前 means 'before/ago' - 六つ前 would mean 'six stations ago' which is the opposite of what's needed here."
+      ],
+      "hiragana_full": "むっつめのえきででんしゃをおります",
+      "audio_alternatives": [
+        {
+          "kanji": "六番目の駅で電車を降ります。",
+          "hiragana_full": "ろくばんめのえきででんしゃをおります"
+        },
+        {
+          "kanji": "六つ目の駅で電車から降ります。",
+          "hiragana_full": "むっつめのえきででんしゃからおります"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_081_7",
+      "example_sentence": "七つ目の問題が難しいです。",
+      "translation": "The seventh problem is difficult.",
+      "blank_target": "目",
+      "wrong_choices": [
+        "問",
+        "題",
+        "番"
+      ],
+      "wrong_choice_explanations": [
+        "問 is part of the word 問題 (problem) - 七つ問 is grammatically incorrect and doesn't form an ordinal.",
+        "題 is also part of 問題 - using it here would be incorrect and doesn't create the ordinal meaning needed.",
+        "番 is used for numbering but can't attach to つ - you need 目 to make ordinals with the つ counting system."
+      ],
+      "hiragana_full": "ななつめのもんだいがむずかしいです",
+      "audio_alternatives": [
+        {
+          "kanji": "七番目の問題は難しいです。",
+          "hiragana_full": "ななばんめのもんだいはむずかしいです"
+        },
+        {
+          "kanji": "七つ目の問題は難しいです。",
+          "hiragana_full": "ななつめのもんだいはむずかしいです"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_081_8",
+      "example_sentence": "八つ目の部屋に入りました。",
+      "translation": "I entered the eighth room.",
+      "blank_target": "目",
+      "wrong_choices": [
+        "間",
+        "室",
+        "屋"
+      ],
+      "wrong_choice_explanations": [
+        "間 can mean 'room' but八つ間 is not a valid ordinal construction - you need 目 to form 'eighth one'.",
+        "室 means 'room' but can't be used after つ to form ordinals - only 目 can create this ordinal meaning.",
+        "屋 can mean 'shop/building' but doesn't combine with つ to form ordinals - you need 目 for that function."
+      ],
+      "hiragana_full": "やっつめのへやにはいりました",
+      "audio_alternatives": [
+        {
+          "kanji": "八番目の部屋に入りました。",
+          "hiragana_full": "はちばんめのへやにはいりました"
+        },
+        {
+          "kanji": "八つ目の部屋に入った。",
+          "hiragana_full": "やっつめのへやにはいった"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_081_9",
+      "example_sentence": "九つ目の店で買い物しました。",
+      "translation": "I shopped at the ninth store.",
+      "blank_target": "目",
+      "wrong_choices": [
+        "軒",
+        "店",
+        "屋"
+      ],
+      "wrong_choice_explanations": [
+        "軒 is a counter for shops/buildings but can't combine with つ - you need 目 to form the ordinal 'ninth one'.",
+        "店 means 'store' but 九つ店 is grammatically incorrect - you can't attach 店 to つ to form ordinals.",
+        "屋 can refer to shops but doesn't combine with つ for ordinals - only 目 can create the ordinal meaning here."
+      ],
+      "hiragana_full": "ここのつめのみせでかいものしました。",
+      "audio_alternatives": [
+        {
+          "kanji": "九番目の店で買い物をしました。",
+          "hiragana_full": "きゅうばんめのみせでかいものをしました。"
+        },
+        {
+          "kanji": "九つ目のお店で買い物しました。",
+          "hiragana_full": "ここのつめのおみせでかいものしました。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_081_10",
+      "example_sentence": "十つ目の階段を上りました。",
+      "translation": "I climbed the tenth set of stairs.",
+      "blank_target": "目",
+      "wrong_choices": [
+        "段",
+        "階",
+        "歩"
+      ],
+      "wrong_choice_explanations": [
+        "段 means 'step/stage' but can't be used after つ to form ordinals - you need 目 to make 'tenth one'.",
+        "階 means 'floor/story' but doesn't combine with つ for ordinal formation - only 目 works for this pattern.",
+        "歩 means 'step' (as in walking) but can't attach to つ to form ordinals - you need 目 to create the ordinal meaning."
+      ],
+      "hiragana_full": "とおつめのかいだんをのぼりました",
+      "audio_alternatives": [
+        {
+          "kanji": "十番目の階段を上りました。",
+          "hiragana_full": "じゅうばんめのかいだんをのぼりました"
+        },
+        {
+          "kanji": "十番目の階段を上がりました。",
+          "hiragana_full": "じゅうばんめのかいだんをあがりました"
+        }
+      ],
+      "audio_eligible": true
+    }
+  ]
+}

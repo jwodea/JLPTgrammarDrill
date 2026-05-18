@@ -1,0 +1,288 @@
+{
+  "id": "n5_024",
+  "pattern": "～です",
+  "meaning": "Polite copula (is/am/are)",
+  "level": "N5",
+  "exercises": [
+    {
+      "id": "n5_024_1",
+      "example_sentence": "私は学生です。",
+      "translation": "I am a student.",
+      "blank_target": "です",
+      "wrong_choices": [
+        "だ",
+        "である",
+        "であります"
+      ],
+      "wrong_choice_explanations": [
+        "だ is the plain form copula — it's too casual for polite conversation.",
+        "である is formal written language — it's not used in spoken conversation.",
+        "であります is very formal military/official language — it's unnecessarily stiff for normal polite speech."
+      ],
+      "hiragana_full": "わたしはがくせいです",
+      "audio_alternatives": [
+        {
+          "kanji": "僕は学生です。",
+          "hiragana_full": "ぼくはがくせいです"
+        },
+        {
+          "kanji": "私は学生だ。",
+          "hiragana_full": "わたしはがくせいだ"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_024_2",
+      "example_sentence": "今日は月曜日です。",
+      "translation": "Today is Monday.",
+      "blank_target": "です",
+      "wrong_choices": [
+        "でした",
+        "でしょう",
+        "ではない"
+      ],
+      "wrong_choice_explanations": [
+        "でした is past tense — it would mean today was Monday, which doesn't make sense.",
+        "でしょう expresses probability — but what day today is isn't a matter of probability.",
+        "ではない is negative plain form — it would mean today is not Monday."
+      ],
+      "hiragana_full": "きょうはげつようびです",
+      "audio_alternatives": [
+        {
+          "kanji": "今日は月曜日だ。",
+          "hiragana_full": "きょうはげつようびだ"
+        },
+        {
+          "kanji": "今日って月曜日ですよね。",
+          "hiragana_full": "きょうってげつようびですよね"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_024_3",
+      "example_sentence": "この本は面白いです。",
+      "translation": "This book is interesting.",
+      "blank_target": "です",
+      "wrong_choices": [
+        "だった",
+        "なので",
+        "から"
+      ],
+      "wrong_choice_explanations": [
+        "だった is plain past tense — it's too casual and refers to past time.",
+        "なので means 'so/because' — it would start a reason or result, not complete the statement.",
+        "から means 'from' or 'because' — it doesn't function as a copula to complete the sentence."
+      ],
+      "hiragana_full": "このほんはおもしろいです。",
+      "audio_alternatives": [
+        {
+          "kanji": "この本は面白い。",
+          "hiragana_full": "このほんはおもしろい。"
+        },
+        {
+          "kanji": "この本はとても面白いです。",
+          "hiragana_full": "このほんはとてもおもしろいです。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_024_4",
+      "example_sentence": "田中さんは先生です。",
+      "translation": "Tanaka-san is a teacher.",
+      "blank_target": "です",
+      "wrong_choices": [
+        "の",
+        "と",
+        "に"
+      ],
+      "wrong_choice_explanations": [
+        "の is a possessive or explanatory particle — it cannot function as a copula.",
+        "と means 'and' or 'with' — it doesn't work as a copula to link subject and predicate.",
+        "に is a directional or time particle — it has no copula function."
+      ],
+      "hiragana_full": "たなかさんはせんせいです",
+      "audio_alternatives": [
+        {
+          "kanji": "田中さんは教師です。",
+          "hiragana_full": "たなかさんはきょうしです"
+        },
+        {
+          "kanji": "田中さんは先生でございます。",
+          "hiragana_full": "たなかさんはせんせいでございます"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_024_5",
+      "example_sentence": "これは私の車です。",
+      "translation": "This is my car.",
+      "blank_target": "です",
+      "wrong_choices": [
+        "を",
+        "が",
+        "は"
+      ],
+      "wrong_choice_explanations": [
+        "を is an object particle for verbs — it doesn't complete copula sentences.",
+        "が is a subject particle — adding it here would leave the sentence incomplete.",
+        "は is a topic particle — it would make 'my car' the topic but leave no predicate."
+      ],
+      "hiragana_full": "これはわたしのくるまです",
+      "audio_alternatives": [
+        {
+          "kanji": "これは私のクルマです。",
+          "hiragana_full": "これはわたしのくるまです"
+        },
+        {
+          "kanji": "この車は私のです。",
+          "hiragana_full": "このくるまはわたしのです"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_024_6",
+      "example_sentence": "あの人は有名です。",
+      "translation": "That person is famous.",
+      "blank_target": "です",
+      "wrong_choices": [
+        "だ",
+        "だね",
+        "よね"
+      ],
+      "wrong_choice_explanations": [
+        "だ is the plain form copula — it's too casual for polite conversation.",
+        "だね is casual and seeks agreement — it's too informal for polite speech.",
+        "よね seeks confirmation — it's incomplete without a copula before it."
+      ],
+      "hiragana_full": "あのひとはゆうめいです",
+      "audio_alternatives": [
+        {
+          "kanji": "あの方は有名です。",
+          "hiragana_full": "あのかたはゆうめいです"
+        },
+        {
+          "kanji": "あの人は有名だ。",
+          "hiragana_full": "あのひとはゆうめいだ"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_024_7",
+      "example_sentence": "今年は暖かいです。",
+      "translation": "This year is warm.",
+      "blank_target": "です",
+      "wrong_choices": [
+        "でしょうか",
+        "ですか",
+        "ですね"
+      ],
+      "wrong_choice_explanations": [
+        "でしょうか forms a question expressing uncertainty — but this is stated as fact.",
+        "ですか forms a question — but this sentence is making a statement, not asking.",
+        "ですね seeks agreement — while grammatical, the context suggests a simple statement."
+      ],
+      "hiragana_full": "ことしはあたたかいです。",
+      "audio_alternatives": [
+        {
+          "kanji": "今年は暖かいですね。",
+          "hiragana_full": "ことしはあたたかいですね。"
+        },
+        {
+          "kanji": "今年は暖かい。",
+          "hiragana_full": "ことしはあたたかい。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_024_8",
+      "example_sentence": "彼の趣味は読書です。",
+      "translation": "His hobby is reading.",
+      "blank_target": "です",
+      "wrong_choices": [
+        "でも",
+        "しか",
+        "ばかり"
+      ],
+      "wrong_choice_explanations": [
+        "でも means 'but/even' — it doesn't function as a copula to complete the sentence.",
+        "しか means 'only' and requires negative form — it can't complete this positive copula sentence.",
+        "ばかり means 'only/just' — it's a particle that can't function as a sentence-ending copula."
+      ],
+      "hiragana_full": "かれのしゅみはどくしょです",
+      "audio_alternatives": [
+        {
+          "kanji": "彼の趣味は本を読むことです。",
+          "hiragana_full": "かれのしゅみはほんをよむことです"
+        },
+        {
+          "kanji": "彼は読書が趣味です。",
+          "hiragana_full": "かれはどくしょがしゅみです"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_024_9",
+      "example_sentence": "明日は祝日です。",
+      "translation": "Tomorrow is a holiday.",
+      "blank_target": "です",
+      "wrong_choices": [
+        "かな",
+        "みたい",
+        "らしい"
+      ],
+      "wrong_choice_explanations": [
+        "かな expresses uncertainty or wondering — but holidays are definite facts, not uncertain.",
+        "みたい indicates resemblance — it would mean 'tomorrow seems like a holiday'.",
+        "らしい indicates hearsay — it would suggest you heard this from someone else."
+      ],
+      "hiragana_full": "あしたはしゅくじつです。",
+      "audio_alternatives": [
+        {
+          "kanji": "明日は休日です。",
+          "hiragana_full": "あしたはきゅうじつです。"
+        },
+        {
+          "kanji": "あすは祝日です。",
+          "hiragana_full": "あすはしゅくじつです。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_024_10",
+      "example_sentence": "彼女の名前はさくらです。",
+      "translation": "Her name is Sakura.",
+      "blank_target": "です",
+      "wrong_choices": [
+        "という",
+        "って",
+        "と言います"
+      ],
+      "wrong_choice_explanations": [
+        "という is used to quote or define names — it would need additional structure to complete the sentence.",
+        "って is casual quotation or topic marker — it's too informal and doesn't complete the sentence properly.",
+        "と言います means 'is called/says' — it changes the meaning to 'she says Sakura' rather than identifying her name."
+      ],
+      "hiragana_full": "かのじょのなまえはさくらです",
+      "audio_alternatives": [
+        {
+          "kanji": "彼女の名前はさくらと言います。",
+          "hiragana_full": "かのじょのなまえはさくらといいます"
+        },
+        {
+          "kanji": "彼女はさくらという名前です。",
+          "hiragana_full": "かのじょはさくらというなまえです"
+        }
+      ],
+      "audio_eligible": true
+    }
+  ]
+}
