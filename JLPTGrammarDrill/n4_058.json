@@ -15,19 +15,19 @@
         "みたいな"
       ],
       "wrong_choice_explanations": [
-        "の is a possessive particle but doesn't create the meaning of 'called' or 'named'.",
-        "である means 'is/are' but doesn't fit grammatically before 人 in this context.",
-        "みたいな means 'like' for similarity but doesn't express the naming meaning needed here."
+        "の would give 田中の人 ('Tanaka's person'), a possessive link — not the naming function という gives ('the person called Tanaka').",
+        "である asserts identity ('a person who is Tanaka'); という instead presents 田中 as the person's name.",
+        "みたいな means 'a person like Tanaka' (resemblance to someone else), not a person whose name is Tanaka."
       ],
-      "hiragana_full": "たなかというひとにあったことがありますか",
+      "hiragana_full": "たなかというひとにあったことがありますか。",
       "audio_alternatives": [
         {
           "kanji": "田中という人に会ったことはありますか。",
-          "hiragana_full": "たなかというひとにあったことはありますか"
+          "hiragana_full": "たなかというひとにあったことはありますか。"
         },
         {
           "kanji": "田中さんに会ったことがありますか。",
-          "hiragana_full": "たなかさんにあったことがありますか"
+          "hiragana_full": "たなかさんにあったことがありますか。"
         }
       ],
       "audio_eligible": true
@@ -43,19 +43,19 @@
         "そうな"
       ],
       "wrong_choice_explanations": [
-        "の creates a noun phrase but doesn't properly introduce reported speech before こと.",
-        "らしい means 'seems like' but doesn't grammatically work before こと in this structure.",
-        "そうな means 'looks like' but doesn't fit grammatically with this sentence pattern."
+        "の can nominalize a clause, but 来るの cannot then take こと (来るのこと is ungrammatical); という is what embeds the reported clause before ことを聞いた.",
+        "らしい would add 'apparently' (来るらしい), reporting a conjecture; here you state the plain content of what you heard, which という marks neutrally.",
+        "the 'looks-like' そう attaches to a stem (来そう), not to the plain verb 来る, and it conveys appearance rather than reported speech."
       ],
-      "hiragana_full": "かれはあしたくるということをきいた",
+      "hiragana_full": "かれはあしたくるということをきいた。",
       "audio_alternatives": [
         {
           "kanji": "彼は明日来ると聞いた。",
-          "hiragana_full": "かれはあしたくるときいた"
+          "hiragana_full": "かれはあしたくるときいた。"
         },
         {
           "kanji": "彼が明日来るそうだ。",
-          "hiragana_full": "かれがあしたくるそうだ"
+          "hiragana_full": "かれがあしたくるそうだ。"
         }
       ],
       "audio_eligible": true
@@ -71,9 +71,9 @@
         "である"
       ],
       "wrong_choice_explanations": [
-        "の is possessive but doesn't properly introduce the quoted word 'さくら'.",
-        "な is for na-adjectives but doesn't work to introduce quoted content.",
-        "である means 'is' but doesn't grammatically fit before 日本語の言葉."
+        "の would give さくらの言葉 ('sakura's word'), a possessive link, not the labeling 'the word called *sakura*' that という gives.",
+        "な attaches only to na-adjectives (静かな); it can't link a quoted word like さくら to 言葉.",
+        "である asserts 'is' (さくらである言葉 = 'a word that is sakura'); という instead quotes さくら as the word itself."
       ],
       "hiragana_full": "「さくら」というにほんごのことばはうつくしい。",
       "audio_alternatives": [
@@ -99,9 +99,9 @@
         "みたいな"
       ],
       "wrong_choice_explanations": [
-        "ような means 'like' for similarity but doesn't express reported content from the forecast.",
-        "らしい means 'seems like' but doesn't grammatically work before 天気予報.",
-        "みたいな means 'like' but doesn't introduce the content of what the forecast said."
+        "ような means 'a forecast like it would rain' (resemblance), not a forecast that actually states it will rain.",
+        "らしい adds 'apparently' (降るらしい), your own conjecture; という instead reports the forecast's own content neutrally.",
+        "みたいな means 'like / resembling'; it doesn't introduce the content the forecast actually gave."
       ],
       "hiragana_full": "あめがふるというてんきよほうをみた。",
       "audio_alternatives": [
@@ -127,9 +127,9 @@
         "ような"
       ],
       "wrong_choice_explanations": [
-        "の is possessive but doesn't properly introduce the name 'スマートフォン'.",
-        "である means 'is' but doesn't fit grammatically before 機械 in this context.",
-        "ような means 'like' for resemblance but doesn't express the naming meaning needed."
+        "の would give スマートフォンの機械 ('a smartphone's machine'), a possessive link, not 'the machine called a smartphone.'",
+        "である asserts 'is' (スマートフォンである機械 = 'a machine that is a smartphone'); という instead presents スマートフォン as its name.",
+        "ような means 'a machine like a smartphone' (resemblance); after a noun it also needs の (スマートフォンのような), and it doesn't express the naming sense."
       ],
       "hiragana_full": "「スマートフォン」というきかいをもっていますか。",
       "audio_alternatives": [
@@ -155,19 +155,19 @@
         "ために"
       ],
       "wrong_choice_explanations": [
-        "から means 'because' but doesn't work grammatically before 理由 in this pattern.",
-        "ので means 'because' but doesn't fit the structure of introducing the content of a reason.",
-        "ために means 'because of' but doesn't introduce the quoted content of the reason."
+        "から ends a clause meaning 'because she was busy'; it can't modify the noun 理由. という turns the clause into the content of the reason ('the reason that she was busy').",
+        "ので is also a clause-final 'because'; it can't introduce 忙しい as the content of 理由, which is what という does.",
+        "ために expresses cause or purpose at the clause level; it can't label the content of 理由 the way という can."
       ],
-      "hiragana_full": "かのじょはいそがしいというりゆうでこられなかった",
+      "hiragana_full": "かのじょはいそがしいというりゆうでこられなかった。",
       "audio_alternatives": [
         {
           "kanji": "彼女は忙しいから来られなかった。",
-          "hiragana_full": "かのじょはいそがしいからこられなかった"
+          "hiragana_full": "かのじょはいそがしいからこられなかった。"
         },
         {
           "kanji": "彼女は忙しくて来られなかった。",
-          "hiragana_full": "かのじょはいそがしくてこられなかった"
+          "hiragana_full": "かのじょはいそがしくてこられなかった。"
         }
       ],
       "audio_eligible": true
@@ -183,9 +183,9 @@
         "そうな"
       ],
       "wrong_choice_explanations": [
-        "ような means 'like' but doesn't introduce the content of what was heard.",
-        "らしい means 'apparently' but doesn't work grammatically before 話.",
-        "そうな means 'looks like' but doesn't introduce reported speech content."
+        "ような means 'a story like the exam was hard' (resemblance), not a story reporting that it was hard.",
+        "らしい adds 'apparently' (難しかったらしい), your own conjecture; という instead reports the content of the story neutrally.",
+        "the 'looks-like' そう attaches to a stem and can't follow the past form 難しかった, nor introduce reported content before 話."
       ],
       "hiragana_full": "しけんがむずかしかったというはなしをきいた。",
       "audio_alternatives": [
@@ -203,19 +203,19 @@
     {
       "id": "n4_058_8",
       "example_sentence": "「富士山」という名前の山を知っていますか。",
-      "translation": "Do you know the mountain with the name called 'Fuji-san'?",
+      "translation": "Do you know the mountain named 'Fuji-san'?",
       "blank_target": "という",
       "wrong_choices": [
-        "の",
         "である",
-        "な"
+        "な",
+        "みたいな"
       ],
       "wrong_choice_explanations": [
-        "の is possessive but doesn't properly introduce the quoted name '富士山'.",
-        "である means 'is' but doesn't fit grammatically in this naming structure.",
-        "な is for na-adjectives and doesn't work to introduce quoted names."
+        "である asserts 'is' (富士山である山 = 'a mountain that is Fuji'); という instead presents 富士山 as the name.",
+        "な attaches only to na-adjectives; it can't link a quoted name like 富士山 to 名前.",
+        "みたいな means 'a name like Fuji-san' (resemblance), not the name that the mountain actually has."
       ],
-      "hiragana_full": "「ふじさん」というなまえのやまをしっていますか",
+      "hiragana_full": "「ふじさん」というなまえのやまをしっていますか。",
       "audio_alternatives": [
         {
           "kanji": "「富士山」という名前の山を知っていますか？",
@@ -223,7 +223,7 @@
         },
         {
           "kanji": "「富士山」と呼ばれる山を知っていますか。",
-          "hiragana_full": "「ふじさん」とよばれるやまをしっていますか"
+          "hiragana_full": "「ふじさん」とよばれるやまをしっていますか。"
         }
       ],
       "audio_eligible": true
@@ -235,13 +235,13 @@
       "blank_target": "という",
       "wrong_choices": [
         "ような",
-        "らしい",
-        "そうな"
+        "そうな",
+        "みたいな"
       ],
       "wrong_choice_explanations": [
-        "ような means 'like' but doesn't introduce the content of an announcement.",
-        "らしい means 'apparently' but doesn't work grammatically before アナウンス.",
-        "そうな means 'looks like' but doesn't introduce reported content properly."
+        "ような means 'an announcement like the train would be delayed' (resemblance), not one that actually said so.",
+        "the 'looks-like' そう attaches to a stem (遅れそう), not to the plain verb 遅れる, and conveys appearance rather than an announcement's content.",
+        "みたいな means 'like / resembling'; it doesn't introduce the content the announcement gave."
       ],
       "hiragana_full": "でんしゃがおくれるというアナウンスがあった。",
       "audio_alternatives": [
@@ -263,23 +263,23 @@
       "blank_target": "という",
       "wrong_choices": [
         "らしい",
-        "ような",
+        "みたいな",
         "そうな"
       ],
       "wrong_choice_explanations": [
-        "らしい means 'apparently' but doesn't work grammatically before うわさ in this pattern.",
-        "ような means 'like' but doesn't introduce the content of what was rumored.",
-        "そうな means 'looks like' but doesn't properly introduce reported content before うわさ."
+        "らしい adds 'apparently' (結婚するらしい), your own conjecture; という instead reports the content of the rumor neutrally.",
+        "みたいな means 'a rumor like they'll marry' (resemblance), not a rumor stating they will.",
+        "the 'looks-like' そう attaches to a stem and can't follow the plain verb 結婚する, nor introduce reported content before うわさ."
       ],
-      "hiragana_full": "らいねんけっこんするといううわさをきいた",
+      "hiragana_full": "らいねんけっこんするといううわさをきいた。",
       "audio_alternatives": [
         {
           "kanji": "来年結婚するといううわさを聞きました。",
-          "hiragana_full": "らいねんけっこんするといううわさをききました"
+          "hiragana_full": "らいねんけっこんするといううわさをききました。"
         },
         {
           "kanji": "来年結婚するらしいといううわさを聞いた。",
-          "hiragana_full": "らいねんけっこんするらしいといううわさをきいた"
+          "hiragana_full": "らいねんけっこんするらしいといううわさをきいた。"
         }
       ],
       "audio_eligible": true

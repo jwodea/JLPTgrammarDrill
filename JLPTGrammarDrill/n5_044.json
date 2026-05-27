@@ -183,7 +183,7 @@
         "という"
       ],
       "wrong_choice_explanations": [
-        "の is a possessive particle — it doesn't fit here because we need こと to nominalize the verb in the ability expression.",
+        "の can act as a nominalizer too, but ことができる is a set pattern — のができる is not standard, so こと is the form required here.",
         "な is used with na-adjectives — it doesn't fit here because we need こと for the ことができる pattern.",
         "という means 'called/that' — it doesn't fit here because we need the nominalizer こと to express ability."
       ],
@@ -236,12 +236,12 @@
       "wrong_choices": [
         "もの",
         "ばあい",
-        "それ"
+        "の"
       ],
       "wrong_choice_explanations": [
         "もの means 'thing' (concrete/tangible) — it doesn't fit here because we need こと to nominalize abstract actions like 'talking'.",
         "ばあい means 'case/situation' — it doesn't fit here because we need こと to create the ability expression with できる.",
-        "それ means 'that' (demonstrative) — it doesn't fit here because we need こと to form the ことができる pattern."
+        "の is another nominalizer, but the fixed pattern is ことができる — のができて is not standard, so こと is needed."
       ],
       "hiragana_full": "ともだちとはなすことができてうれしいです",
       "audio_alternatives": [
@@ -258,28 +258,28 @@
     },
     {
       "id": "n5_044_10",
-      "example_sentence": "新しい言語を学ぶことができれば、世界が広がります。",
-      "translation": "If you can learn a new language, your world will expand.",
+      "example_sentence": "漢字を読むことができれば、メニューがわかります。",
+      "translation": "If you can read kanji, you can understand menus.",
       "blank_target": "こと",
       "wrong_choices": [
-        "場合",
-        "際",
-        "とき"
+        "とき",
+        "ところ",
+        "もの"
       ],
       "wrong_choice_explanations": [
-        "場合 means 'case/situation' — it doesn't fit here because we need こと to nominalize the verb for the ability expression.",
-        "際 means 'occasion/time when' — it doesn't fit here because we need こと to form ことができる pattern.",
-        "とき means 'time/when' — it doesn't fit here because we need the nominalizer こと, not a time expression."
+        "とき means 'time/when' — it sets up a time clause, but here we need こと to nominalize the verb inside ことができる.",
+        "ところ means 'place' or 'just at the point of doing' — neither fits the ability pattern that requires こと.",
+        "もの means 'thing' in the concrete sense — こと is the abstract-action nominalizer required by ことができる."
       ],
-      "hiragana_full": "あたらしいげんごをまなぶことができれば、せかいがひろがります。",
+      "hiragana_full": "かんじをよむことができれば、めにゅーがわかります。",
       "audio_alternatives": [
         {
-          "kanji": "新しい言語を学べたら、世界が広がります。",
-          "hiragana_full": "あたらしいげんごをまなべたら、せかいがひろがります。"
+          "kanji": "漢字が読めれば、メニューがわかります。",
+          "hiragana_full": "かんじがよめれば、めにゅーがわかります。"
         },
         {
-          "kanji": "新しい言語を学ぶことができると、世界が広がります。",
-          "hiragana_full": "あたらしいげんごをまなぶことができると、せかいがひろがります。"
+          "kanji": "漢字を読むことができたら、メニューがわかります。",
+          "hiragana_full": "かんじをよむことができたら、めにゅーがわかります。"
         }
       ],
       "audio_eligible": true

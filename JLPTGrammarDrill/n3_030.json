@@ -12,12 +12,12 @@
       "wrong_choices": [
         "によって",
         "にとって",
-        "に関して"
+        "へ"
       ],
       "wrong_choice_explanations": [
-        "によって means 'depending on' or 'by means of,' but the sentence is about directing behavior toward a specific person (the president).",
-        "にとって means 'for / from the standpoint of,' expressing perspective, but the sentence is about how you treat someone, not their viewpoint.",
-        "に関して means 'regarding / concerning a topic,' but the sentence is about the target of one's behavior, not the topic of discussion."
+        "によって means 'depending on' or 'by means of', but the sentence is about directing behavior at a specific person (the president), which に対して marks.",
+        "にとって means 'for / from the standpoint of', expressing whose viewpoint matters, but the sentence is about how you treat someone, not their perspective.",
+        "へ marks physical direction or a destination (駅へ行く), so it does not fit aiming questions at a person; に対して marks the president as the target of the behavior."
       ],
       "hiragana_full": "しゃちょうにたいして、しつれいなしつもんをしてはいけません。",
       "audio_alternatives": [
@@ -99,9 +99,9 @@
         "に関して"
       ],
       "wrong_choice_explanations": [
-        "によって means 'depending on/by means of', but this sentence requires 'に対して' for showing direction or target of action.",
-        "にとって means 'for/from the perspective of', but this sentence uses 'に対して' for directing action toward children.",
-        "に関して means 'regarding', but this sentence requires 'に対して' for showing action directed toward a target."
+        "によって means 'depending on' or 'by means of' (子どもによって = 'depending on the child'), but the sentence is about directing an action at children, which に対して marks.",
+        "にとって means 'for / from the perspective of' (子どもにとって = 'for a child'), expressing whose viewpoint matters, not the target of the violence.",
+        "に関して means 'regarding / concerning' (子どもに関して = 'about children'), introducing a topic, but に対して marks children as the ones the action is aimed at."
       ],
       "hiragana_full": "こどもにたいして、ぼうりょくをつかうべきではありません。",
       "audio_alternatives": [
@@ -258,28 +258,28 @@
     },
     {
       "id": "n3_030_10",
-      "example_sentence": "その戦略に対して、複数の異議が提出されました。",
-      "translation": "Multiple objections were raised against that strategy.",
+      "example_sentence": "監督は選手に対して、厳しい態度を取った。",
+      "translation": "The manager took a strict attitude toward the players.",
       "blank_target": "に対して",
       "wrong_choices": [
-        "によって",
         "にとって",
-        "に関して"
+        "について",
+        "によって"
       ],
       "wrong_choice_explanations": [
-        "によって means 'due to/depending on', but the sentence expresses opposition or contrast.",
-        "にとって means 'for/from one's perspective', not the confrontational relationship needed.",
-        "に関して means 'regarding', not the contrastive or opposing sense of に対して."
+        "にとって means 'for / from the standpoint of' (選手にとって = 'for the players'), but the sentence is about the attitude the manager aims at the players, not their viewpoint.",
+        "について means 'about / concerning' (選手について = 'about the players'), introducing a topic, but に対して marks the players as the target of the attitude.",
+        "によって means 'depending on / by means of', but the sentence shows an attitude directed at the players, which に対して expresses."
       ],
-      "hiragana_full": "そのせんりゃくにたいして、ふくすうのいぎがていしゅつされました。",
+      "hiragana_full": "かんとくはせんしゅにたいして、きびしいたいどをとった。",
       "audio_alternatives": [
         {
-          "kanji": "その戦略に対し、いくつかの反対意見が出されました。",
-          "hiragana_full": "そのせんりゃくにたいし、いくつかのはんたいいけんがだされました。"
+          "kanji": "監督は選手に厳しい態度を取った。",
+          "hiragana_full": "かんとくはせんしゅにきびしいたいどをとった。"
         },
         {
-          "kanji": "その戦略について、複数の異議が提起されました。",
-          "hiragana_full": "そのせんりゃくについて、ふくすうのいぎがていきされました。"
+          "kanji": "監督は選手に対し、厳しい態度で接した。",
+          "hiragana_full": "かんとくはせんしゅにたいし、きびしいたいどでせっした。"
         }
       ],
       "audio_eligible": true

@@ -12,22 +12,22 @@
       "wrong_choices": [
         "らしいです",
         "そうです",
-        "みたいです"
+        "かもしれません"
       ],
       "wrong_choice_explanations": [
         "らしいです conveys hearsay or indirect evidence, but the speaker is making their own inference about tomorrow's weather, not relaying what they heard.",
-        "そうです (様態) means 'looks like' from immediate appearance, but weather forecasting involves inference and judgment, not just surface appearance.",
-        "みたいです is colloquial and means roughly the same as ようです, but in a formal or written context like a weather statement, ようです is more appropriate."
+        "Attached to the plain form 〜なる, そうです reads as 伝聞 — 'I hear it will rain' (secondhand information) — whereas ようです is the speaker's own inference from the forecast and conditions.",
+        "かもしれません expresses bare possibility ('it might rain'), a weaker, evidence-free guess, while ようです states what the available signs make it look like."
       ],
-      "hiragana_full": "あしたのてんきはあめになるようです",
+      "hiragana_full": "あしたのてんきはあめになるようです。",
       "audio_alternatives": [
         {
           "kanji": "明日は雨が降るようです。",
-          "hiragana_full": "あしたはあめがふるようです"
+          "hiragana_full": "あしたはあめがふるようです。"
         },
         {
           "kanji": "明日の天気は雨になりそうです。",
-          "hiragana_full": "あしたのてんきはあめになりそうです"
+          "hiragana_full": "あしたのてんきはあめになりそうです。"
         }
       ],
       "audio_eligible": true
@@ -47,15 +47,15 @@
         "に違いない (must be / surely is) expresses strong conviction or deduction, but doesn't convey the tentative observation implied by ようです in this context.",
         "かもしれません (might / possibly) expresses uncertainty or speculation, but ようです is more confident based on what the speaker directly observes about the project's progress."
       ],
-      "hiragana_full": "このぷろじぇくとはじゅんちょうにすすんでいるようです",
+      "hiragana_full": "このぷろじぇくとはじゅんちょうにすすんでいるようです。",
       "audio_alternatives": [
         {
           "kanji": "このプロジェクトは順調に進んでいるみたいです。",
-          "hiragana_full": "このぷろじぇくとはじゅんちょうにすすんでいるみたいです"
+          "hiragana_full": "このぷろじぇくとはじゅんちょうにすすんでいるみたいです。"
         },
         {
           "kanji": "このプロジェクトはうまく進んでいるようです。",
-          "hiragana_full": "このぷろじぇくとはうまくすすんでいるようです"
+          "hiragana_full": "このぷろじぇくとはうまくすすんでいるようです。"
         }
       ],
       "audio_eligible": true
@@ -75,15 +75,15 @@
         "ものです (it is the nature of / things tend to) expresses habitual or general patterns, not the speaker's observation of a specific patient's condition.",
         "だろう (probably / I think) expresses speculation or prediction, but lacks the sense of direct observation that ようです conveys."
       ],
-      "hiragana_full": "かんじゃのようたいはかいぜんしているようです",
+      "hiragana_full": "かんじゃのようたいはかいぜんしているようです。",
       "audio_alternatives": [
         {
           "kanji": "患者の容態は良くなっているようです。",
-          "hiragana_full": "かんじゃのようたいはよくなっているようです"
+          "hiragana_full": "かんじゃのようたいはよくなっているようです。"
         },
         {
           "kanji": "患者の状態が改善しているみたいです。",
-          "hiragana_full": "かんじゃのじょうたいがかいぜんしているみたいです"
+          "hiragana_full": "かんじゃのじょうたいがかいぜんしているみたいです。"
         }
       ],
       "audio_eligible": true
@@ -103,15 +103,15 @@
         "と思います (I think / I believe) expresses personal opinion or judgment, whereas ようです specifically describes what appears to be the case based on direct observation.",
         "べきです (should / ought to) expresses obligation or what is appropriate, not what actually appears to be happening in their relationship."
       ],
-      "hiragana_full": "ふたりのかんけいはうまくいっているようです",
+      "hiragana_full": "ふたりのかんけいはうまくいっているようです。",
       "audio_alternatives": [
         {
           "kanji": "二人の関係はうまくいっているみたいです。",
-          "hiragana_full": "ふたりのかんけいはうまくいっているみたいです"
+          "hiragana_full": "ふたりのかんけいはうまくいっているみたいです。"
         },
         {
           "kanji": "二人はうまくやっているようです。",
-          "hiragana_full": "ふたりはうまくやっているようです"
+          "hiragana_full": "ふたりはうまくやっているようです。"
         }
       ],
       "audio_eligible": true
@@ -151,23 +151,23 @@
       "blank_target": "ようです",
       "wrong_choices": [
         "そうです",
-        "みたいです",
+        "はずです",
         "らしいです"
       ],
       "wrong_choice_explanations": [
-        "そうです in the 様態 sense means 'appears' based on visual signs (e.g., 'この料理はおいしそうです' - this food looks delicious based on appearance), not the speaker's inference from behavior.",
-        "みたいです is a casual, informal equivalent of ようです, but it's less suitable for formal or educational contexts and less precise for describing observation-based inference.",
+        "After the plain form 楽しい, そうです reads as 伝聞 — 'I hear the children are having fun,' i.e. secondhand information; the 様態 'they look like fun' form would be 楽しそうです (dropping い), while ようです expresses inference from what the speaker observes.",
+        "はずです expresses logical expectation — 'they should be having fun,' given the circumstances — not a conclusion drawn from directly observing their behavior, which is what ようです conveys.",
         "らしいです indicates hearsay or information learned indirectly ('I heard that'), but the speaker is describing what they directly observe about the children's behavior and expressions."
       ],
-      "hiragana_full": "こどもたちはたのしいようです",
+      "hiragana_full": "こどもたちはたのしいようです。",
       "audio_alternatives": [
         {
           "kanji": "子どもたちは楽しそうです。",
-          "hiragana_full": "こどもたちはたのしそうです"
+          "hiragana_full": "こどもたちはたのしそうです。"
         },
         {
           "kanji": "子どもたちは楽しんでいるみたいです。",
-          "hiragana_full": "こどもたちはたのしんでいるみたいです"
+          "hiragana_full": "こどもたちはたのしんでいるみたいです。"
         }
       ],
       "audio_eligible": true
@@ -187,15 +187,15 @@
         "に他ならない (is nothing but / is no other than) emphasizes that something is definitively one thing, not a tentative observation based on available evidence.",
         "ばかりです (just / only / is full of) expresses quantity or recent completion, not the speaker's observation of how something appears or seems."
       ],
-      "hiragana_full": "このあたらしいぎじゅつはこうかてきなようです",
+      "hiragana_full": "このあたらしいぎじゅつはこうかてきなようです。",
       "audio_alternatives": [
         {
           "kanji": "この新しい技術は効果的に見えます。",
-          "hiragana_full": "このあたらしいぎじゅつはこうかてきにみえます"
+          "hiragana_full": "このあたらしいぎじゅつはこうかてきにみえます。"
         },
         {
           "kanji": "この新しい技術は効果的らしいです。",
-          "hiragana_full": "このあたらしいぎじゅつはこうかてきらしいです"
+          "hiragana_full": "このあたらしいぎじゅつはこうかてきらしいです。"
         }
       ],
       "audio_eligible": true
@@ -208,22 +208,22 @@
       "wrong_choices": [
         "らしいです",
         "そうです",
-        "みたいです"
+        "でしょう"
       ],
       "wrong_choice_explanations": [
         "らしいです means 'apparently' or 'I heard that', based on indirect information or hearsay, but the sentence describes what the speaker directly observes in the sky.",
         "そうです in the 伝聞 sense means 'I heard that', based on secondhand information, not direct observation of the threatening cloud formations.",
-        "みたいです is informal colloquial speech meaning 'seems like', but when describing direct visual observation of weather, the more standard formal ようです is appropriate."
+        "でしょう expresses the speaker's probability judgment ('it's probably going to turn'), a conjecture that needn't rest on present evidence, whereas ようです reports what the sky directly looks like right now."
       ],
-      "hiragana_full": "くもゆきがあやしいようです",
+      "hiragana_full": "くもゆきがあやしいようです。",
       "audio_alternatives": [
         {
           "kanji": "雲行きが怪しそうです。",
-          "hiragana_full": "くもゆきがあやしそうです"
+          "hiragana_full": "くもゆきがあやしそうです。"
         },
         {
           "kanji": "空模様が怪しいようです。",
-          "hiragana_full": "そらもようがあやしいようです"
+          "hiragana_full": "そらもようがあやしいようです。"
         }
       ],
       "audio_eligible": true
@@ -243,15 +243,15 @@
         "と違う (is different from / contrasts with) is a comparative expression used to show contrast between two things, not to describe how something appears.",
         "ままです (as it is / unchanged) expresses the state of remaining unchanged, not the speaker's observation of how the results appear or seem."
       ],
-      "hiragana_full": "けっかはおもわしくないようです",
+      "hiragana_full": "けっかはおもわしくないようです。",
       "audio_alternatives": [
         {
           "kanji": "結果はよくないようです。",
-          "hiragana_full": "けっかはよくないようです"
+          "hiragana_full": "けっかはよくないようです。"
         },
         {
           "kanji": "結果は良くないみたいです。",
-          "hiragana_full": "けっかはよくないみたいです"
+          "hiragana_full": "けっかはよくないみたいです。"
         }
       ],
       "audio_eligible": true
@@ -271,15 +271,15 @@
         "ようになります (comes to be / starts to) expresses a change or progression toward a state, not a current observation of how things appear.",
         "ために (for the purpose of / in order to) is a causal or purposive particle used to express a reason or goal, not to describe appearance or observation."
       ],
-      "hiragana_full": "そのどうこうはしじょうをゆさぶるようです",
+      "hiragana_full": "そのどうこうはしじょうをゆさぶるようです。",
       "audio_alternatives": [
         {
           "kanji": "その動向は市場に影響を与えているようです。",
-          "hiragana_full": "そのどうこうはしじょうにえいきょうをあたえているようです"
+          "hiragana_full": "そのどうこうはしじょうにえいきょうをあたえているようです。"
         },
         {
           "kanji": "その傾向は市場を揺さぶっているみたいです。",
-          "hiragana_full": "そのけいこうはしじょうをゆさぶっているみたいです"
+          "hiragana_full": "そのけいこうはしじょうをゆさぶっているみたいです。"
         }
       ],
       "audio_eligible": true

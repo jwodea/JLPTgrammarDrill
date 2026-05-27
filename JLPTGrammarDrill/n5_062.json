@@ -150,12 +150,12 @@
       "translation": "Many people like dogs.",
       "blank_target": "が",
       "wrong_choices": [
-        "の",
+        "に",
         "と",
         "へ"
       ],
       "wrong_choice_explanations": [
-        "の shows possession or modification — it doesn't fit here because dogs are the subject of liking, not possessing or modifying something.",
+        "に marks a destination or target — it cannot mark what is liked, so 犬に好きな人 is ungrammatical; the object of 好き takes が.",
         "と means 'with' or 'and' — it doesn't fit here because dogs are not companions in this context, but the object of affection.",
         "へ indicates direction — it doesn't fit here because dogs are not a destination, but the subject of feelings."
       ],
@@ -234,12 +234,12 @@
       "translation": "I came to like movies.",
       "blank_target": "が",
       "wrong_choices": [
-        "を",
+        "に",
         "で",
         "と"
       ],
       "wrong_choice_explanations": [
-        "を marks direct objects for actions — it doesn't fit here because movies are the subject of liking, not the object of an action.",
+        "に marks a destination or target, not the thing one comes to like; 映画に好きになりました is ungrammatical, because 好き takes が for its object.",
         "で indicates means or location — it doesn't fit here because movies are not a tool or place, but the subject of feelings.",
         "と means 'with' or 'and' — it doesn't fit here because movies are not a companion, but the object of affection."
       ],
@@ -250,8 +250,8 @@
           "hiragana_full": "えいががすきになった。"
         },
         {
-          "kanji": "映画を好きになりました。",
-          "hiragana_full": "えいがをすきになりました。"
+          "kanji": "映画が大好きになりました。",
+          "hiragana_full": "えいががだいすきになりました。"
         }
       ],
       "audio_eligible": true

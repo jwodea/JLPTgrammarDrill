@@ -15,9 +15,9 @@
         "ように"
       ],
       "wrong_choice_explanations": [
-        "てから means 'after doing' — it shows sequential actions, not simultaneous ones like ながら.",
-        "ために means 'for the purpose of' — it expresses purpose, not simultaneous actions.",
-        "ように means 'so that' — it shows purpose or manner, not simultaneous actions."
+        "てから ('after doing') sets up a sequence — 音楽を聞いてから、勉強します means 'I listen to music, then study,' so the two actions don't overlap.",
+        "ために ('in order to') marks purpose — 音楽を聞くために勉強します would mean 'I study in order to listen to music,' reversing the relationship between the two actions.",
+        "ように ('so that') expresses aim or result — 音楽を聞くように勉強します reads as 'I study so as to listen to music,' again making one action serve the other rather than happen alongside it."
       ],
       "hiragana_full": "おんがくをききながら、べんきょうします。",
       "audio_alternatives": [
@@ -27,7 +27,7 @@
         },
         {
           "kanji": "音楽を聴きながら、勉強します。",
-          "hiragana_full": "おんがくをきいて、べんきょうします。"
+          "hiragana_full": "おんがくをききながら、べんきょうします。"
         }
       ],
       "audio_eligible": true
@@ -43,9 +43,9 @@
         "ば"
       ],
       "wrong_choice_explanations": [
-        "て connects actions but doesn't necessarily show they happen simultaneously — ながら specifically means 'while doing.'",
-        "つつ means 'while doing' but is more formal and literary than ながら — in casual contexts, ながら is preferred.",
-        "ば creates conditional sentences ('if') — it doesn't express simultaneous actions."
+        "て (テレビを見て、夕飯を食べました) can connect actions, but in this casual context it reads as sequential — 'I watched TV, then ate dinner' — not 'while watching.'",
+        "つつ is the formal/literary equivalent of ながら (テレビを見つつ食べる); the meaning is similar, but the register clashes with this everyday dinner scene where ながら is standard.",
+        "ば makes conditionals — テレビを見れば夕飯を食べました reads as 'if/when I watch TV, I ate dinner,' which describes a condition, not two actions happening at the same time."
       ],
       "hiragana_full": "テレビをみながら、ゆうはんをたべました。",
       "audio_alternatives": [
@@ -71,9 +71,9 @@
         "まま"
       ],
       "wrong_choice_explanations": [
-        "とき means 'when' and needs に after it — 歩くときに would be correct, but this creates a different nuance.",
-        "あいだ means 'while/during' but requires の before it — 歩くあいだ would express duration, not simultaneous action.",
-        "まま means 'while remaining in a state' — it doesn't fit with action verbs like 歩く."
+        "とき marks a point in time and attaches to the dictionary form (歩くとき = 'when walking'); it pinpoints the timing of an action rather than presenting the two actions as overlapping in motion.",
+        "あいだ ('during/while') attaches with の (歩いている間) and frames a span of time; it tells you the duration is shared, but it doesn't link to a verb stem here, where ながら fits cleanly.",
+        "まま describes a state someone keeps unchanged (立ったまま = 'while still standing'); it doesn't attach to a continuous action verb like 歩く to express two actions happening at once."
       ],
       "hiragana_full": "あるきながら、はなしをしました。",
       "audio_alternatives": [
@@ -99,9 +99,9 @@
         "たり"
       ],
       "wrong_choice_explanations": [
-        "ては creates a repetitive pattern ('do and then do') — it doesn't show simultaneous actions.",
-        "ても means 'even if' — it expresses concession, not simultaneous actions.",
-        "たり lists examples of actions — 働いたり requires another verb with たり to be complete."
+        "ては sets up a repeating cycle (働いては休む = 'work, then rest, over and over'); it pictures alternation between activities, not doing them at the same time.",
+        "ても is concessive ('even if') — 働いても大学に通っています would mean 'even if I work, I'm attending university,' which doesn't match how the two actions actually run in parallel.",
+        "たり needs a partner たり to list activities (働いたり勉強したりしています); a single たり cannot describe two activities happening simultaneously."
       ],
       "hiragana_full": "はたらきながら、だいがくにかよっています。",
       "audio_alternatives": [
@@ -127,9 +127,9 @@
         "のに"
       ],
       "wrong_choice_explanations": [
-        "ので means 'because' — it shows cause and effect, not simultaneous actions.",
-        "けれど means 'but' — it shows contrast, not simultaneous actions.",
-        "のに means 'despite' — it expresses contradiction, not simultaneous actions."
+        "ので gives a reason — 笑うので写真を撮りました would mean 'I took photos because I was laughing,' turning the laugh into the cause rather than something happening at the same time as the photo.",
+        "けれど contrasts two clauses — 笑うけれど写真を撮りました reads as 'I'm laughing, but I took photos,' implying the two are in tension instead of paired.",
+        "のに expresses 'despite' (笑うのに写真を撮りました = 'even though laughing, I took photos'); like けれど, it makes the two actions feel mismatched rather than naturally coinciding."
       ],
       "hiragana_full": "わらいながら、しゃしんをとりました。",
       "audio_alternatives": [
@@ -155,9 +155,9 @@
         "と"
       ],
       "wrong_choice_explanations": [
-        "たら creates conditional sentences ('if/when') — it doesn't express simultaneous actions.",
-        "なら means 'if' (hypothetical condition) — it doesn't show two actions happening at the same time.",
-        "と can show sequence or conditions — it doesn't specifically mean 'while doing simultaneously.'"
+        "たら sets up 'when/if' — お茶を飲んだら本を読みます means 'once I drink my tea, I'll read,' a sequence triggered by the first action, not two activities at once.",
+        "なら is a hypothetical 'if' (お茶を飲むなら本を読みます = 'if I'm going to drink tea, I'll read'); it conditions one action on the other rather than running them in parallel.",
+        "と marks an automatic consequence (お茶を飲むと本を読みます = 'when I drink tea, I read'), framing the first as a trigger; ながら is what says the two happen together."
       ],
       "hiragana_full": "おちゃをのみながら、ほんをよみます。",
       "audio_alternatives": [
@@ -183,9 +183,9 @@
         "際に"
       ],
       "wrong_choice_explanations": [
-        "ている indicates ongoing states — 運転している would mean 'is driving' but doesn't connect to the prohibition naturally.",
-        "中に means 'during' but is typically used with nouns — 運転中に would be correct but changes the sentence structure.",
-        "際に means 'at the time of' — it's more formal and doesn't fit the natural flow of this sentence."
+        "ている marks an ongoing state (運転している = 'is driving'); inserted here it would need to be followed by something like 時 or 間 to express 'during,' so it can't stand alone in the slot ながら fills.",
+        "中に ('during') attaches to a noun (運転中に = 'while driving' with 運転 as a noun); the slot here follows the verb 運転する, so a verb-attaching connector like ながら is needed.",
+        "際に ('at the time of') attaches to a dictionary-form verb (運転する際に) and is more formal/written; it picks out the moment of an event, not the ongoing overlap that the prohibition is warning about."
       ],
       "hiragana_full": "うんてんしながら、でんわをしてはいけません。",
       "audio_alternatives": [
@@ -211,9 +211,9 @@
         "かたがた"
       ],
       "wrong_choice_explanations": [
-        "つつも means 'while also' but implies contradiction — it suggests singing despite cooking, not simply doing both.",
-        "がてら means 'while (taking the opportunity to)' — it implies doing something secondary, but here both actions are equal.",
-        "かたがた means 'while also/at the same time as' but is very formal and typically used in business contexts."
+        "つつも is a formal/literary 'although' (料理しつつも歌を歌った = 'though cooking, I also sang'); it adds a hint of contrast, while ながら presents the two activities as a natural pair.",
+        "がてら means 'while taking the opportunity to' and frames one action as a side-task done in the course of another (散歩がてら買い物 = shopping during a walk); singing while cooking isn't really an errand-on-the-way framing.",
+        "かたがた is a very formal 'while also' used in greetings or set phrases (お礼かたがた = 'as a thank-you, and also...'); it would sound oddly business-formal in this everyday kitchen scene."
       ],
       "hiragana_full": "りょうりしながら、うたをうたいました。",
       "audio_alternatives": [
@@ -239,9 +239,9 @@
         "ように"
       ],
       "wrong_choice_explanations": [
-        "そうに indicates appearance — 泣きそうに means 'looking like about to cry,' not actually crying while apologizing.",
-        "みたいに means 'like/as if' — it would suggest pretending to cry, not actually crying.",
-        "ように means 'like/in order to' — it doesn't express actually doing two actions simultaneously."
+        "そうに on a verb stem signals appearance — 泣きそうに謝りました would say 'I apologized looking like I was about to cry,' which doesn't actually mean tears were flowing.",
+        "みたいに ('as if/like') invites comparison — 泣くみたいに謝りました suggests apologizing in a manner resembling crying, not actually crying while doing so.",
+        "ように has uses like 'so that' or 'in the manner of'; 泣くように謝りました reads as 'I apologized as if crying,' again giving an impression rather than two actions happening at the same time."
       ],
       "hiragana_full": "なきながら、あやまりました。",
       "audio_alternatives": [
@@ -267,9 +267,9 @@
         "ていて"
       ],
       "wrong_choice_explanations": [
-        "てみて means 'try doing' — 考えてみて would mean 'try thinking' but doesn't connect naturally to writing.",
-        "てしまい indicates completion — 考えてしまい suggests finishing thinking before writing, not doing both simultaneously.",
-        "ていて shows ongoing state — 考えていて could work but is less natural than ながら for simultaneous actions."
+        "てみて ('try and see') — 考えてみて答えを書きました would mean 'I tried thinking, then wrote the answer,' a tentative attempt followed by writing rather than simultaneous thinking-while-writing.",
+        "てしまい signals completion or regret — 考えてしまい答えを書きました reads as 'I ended up thinking, then wrote the answer,' putting the thinking before the writing instead of alongside it.",
+        "ていて can describe an ongoing state (考えていて答えを書きました = 'I was thinking, and...'), but it doesn't carry the tight 'while doing X, also doing Y' linkage that ながら provides."
       ],
       "hiragana_full": "かんがえながら、こたえをかきました。",
       "audio_alternatives": [

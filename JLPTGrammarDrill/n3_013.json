@@ -6,8 +6,8 @@
   "exercises": [
     {
       "id": "n3_013_1",
-      "example_sentence": "健康になるために、毎日ジョギングをしています。",
-      "translation": "I do jogging every day in order to become healthier.",
+      "example_sentence": "健康を保つために、毎日ジョギングをしています。",
+      "translation": "I go jogging every day in order to maintain my health.",
       "blank_target": "ために",
       "wrong_choices": [
         "ように",
@@ -15,19 +15,19 @@
         "から"
       ],
       "wrong_choice_explanations": [
-        "ように is used with potential or negative forms for goals ('so that I can...'), but ために pairs naturally with なる (a volitional verb) for direct purpose.",
-        "ので means 'because' and gives a reason, but the sentence states a goal (becoming healthier), not a cause-and-effect explanation.",
-        "から also means 'because,' but the sentence expresses purpose ('in order to become healthier'), not a reason for an existing state."
+        "ように pairs with potential or change-of-state verbs to express a hoped-for result (例: 治るように、間に合うように); 保つ is an action the speaker directly controls, so its purpose is marked with ために, not ように.",
+        "ので means 'because' and gives a reason, but the sentence states a goal (maintaining one's health), not a cause-and-effect explanation.",
+        "から also means 'because', but the sentence expresses purpose (in order to maintain one's health), not a reason for an existing state."
       ],
-      "hiragana_full": "けんこうになるために、まいにちジョギングをしています。",
+      "hiragana_full": "けんこうをたもつために、まいにちジョギングをしています。",
       "audio_alternatives": [
         {
           "kanji": "健康のために、毎日ジョギングをしています。",
           "hiragana_full": "けんこうのために、まいにちジョギングをしています。"
         },
         {
-          "kanji": "健康になるため、毎日ジョギングしています。",
-          "hiragana_full": "けんこうになるため、まいにちジョギングしています。"
+          "kanji": "健康を維持するため、毎日ジョギングしています。",
+          "hiragana_full": "けんこうをいじするため、まいにちジョギングしています。"
         }
       ],
       "audio_eligible": true
@@ -183,9 +183,9 @@
         "ことに"
       ],
       "wrong_choice_explanations": [
-        "〜ように can mean 'so that', but here it emphasizes the goal/purpose in a way that 〜ために fits better",
-        "〜ので indicates a reason/cause, but the sentence expresses purpose or intention, not the reason something happened",
-        "〜ことに expresses surprise or emphasis, which doesn't fit the purpose-oriented sentence structure"
+        "After the noun 試験合格, this becomes 試験合格のように, meaning 'like / resembling passing the exam' — a comparison, not the purpose the studying serves, which is what ために marks.",
+        "ので gives a reason ('because'), and after a noun it must be なので (試験合格なので); even then 'because of passing' contradicts the sentence, which sets passing as the goal, not an established fact.",
+        "ことに ('to one's surprise / fortunately') attaches to a verb or adjective, not the noun 試験合格, and marks an emotional reaction rather than the purpose ために conveys."
       ],
       "hiragana_full": "しけんごうかくのために、まいばんさんじかんべんきょうします。",
       "audio_alternatives": [

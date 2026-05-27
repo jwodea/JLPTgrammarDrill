@@ -48,11 +48,17 @@ struct ParticleSessionBuilder {
     }
 
     /// Build a particle session by ranking seen items by how overdue they are, then picking exercises.
+    /// `maxItems` caps the total returned items; SRS records are only created for new items
+    /// that survive the cap, so particles can't accumulate phantom "introduced" rows that were
+    /// dropped before display.
     static func buildSession(
         allExercises: [ParticleExercise],
         context: ModelContext,
-        newCount: Int
+        newCount: Int,
+        maxItems: Int
     ) -> [SessionExercise] {
+        guard maxItems > 0 else { return [] }
+
         let descriptor = FetchDescriptor<SRSRecord>()
         let existingRecords: [SRSRecord]
         do {
@@ -86,11 +92,12 @@ struct ParticleSessionBuilder {
         // Sort by overdue duration descending — most overdue first
         overdueItems.sort { $0.overdueBy > $1.overdueBy }
 
-        let maxDue = 10
-        let selectedDue = overdueItems.prefix(maxDue).map(\.exercise)
-        let selectedNew = Array(newItems.prefix(newCount))
+        // Apply the cap: reviews first, then new items, never exceeding maxItems total.
+        let selectedDue = Array(overdueItems.prefix(maxItems).map(\.exercise))
+        let remainingSlots = max(0, maxItems - selectedDue.count)
+        let selectedNew = Array(newItems.prefix(min(newCount, remainingSlots)))
 
-        // Create SRS records for new items
+        // Only now do we create SRS records — guaranteed to match what gets displayed.
         for exercise in selectedNew {
             let newRecord = SRSRecord(grammarId: exercise.id)
             context.insert(newRecord)
@@ -102,18 +109,13 @@ struct ParticleSessionBuilder {
             print("Error saving context: \(error)")
         }
 
-        // Build session exercises
         var sessionExercises: [SessionExercise] = []
-
         for exercise in selectedDue {
             sessionExercises.append(exercise.toSessionExercise())
         }
-
-        // For new particle exercises, just add them directly (each is its own item)
         for exercise in selectedNew {
             sessionExercises.append(exercise.toSessionExercise())
         }
-
         return sessionExercises
     }
 }

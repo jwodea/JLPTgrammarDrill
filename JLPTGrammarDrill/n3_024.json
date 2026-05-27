@@ -96,12 +96,12 @@
       "wrong_choices": [
         "くても、深くても",
         "くなるにつれて",
-        "くなるとともに"
+        "くなるに従って"
       ],
       "wrong_choice_explanations": [
         "〜くても means 'even if it is deep,' expressing concession, but the sentence expresses a proportional relationship: the deeper, the more painful.",
         "〜につれて means 'as it deepens,' expressing gradual change, but ば〜ほど specifically emphasizes the proportional 'the more...the more' comparison.",
-        "〜とともに means 'along with deepening,' indicating parallel change, but ば〜ほど is needed for the emphatic proportional comparison."
+        "〜に従って describes change tracking another (as A advances, B follows), but it reports a one-directional dependency, not the mutually-amplifying 'the deeper the love, the worse the parting' relation ば〜ほど expresses."
       ],
       "hiragana_full": "あいじょうがふかければふかいほど、わかれがくるしくなります。",
       "audio_alternatives": [
@@ -152,12 +152,12 @@
       "wrong_choices": [
         "しても、しても",
         "するにつれて",
-        "するとともに"
+        "するに従って"
       ],
       "wrong_choice_explanations": [
-        "'しても、しても' expresses 'no matter how much'; the 'more...more' comparison requires '〜ば〜ほど'.",
-        "'するにつれて' means 'as...gradually'; it doesn't express the comparative 'more...more' relationship.",
-        "'するとともに' means 'at the same time as'; it doesn't express a comparative relationship."
+        "'しても、しても' expresses 'no matter how much,' suggesting effort without proportional reward, but the sentence reports practice paying off in matching gains — the 'more...more' pairing that 〜ば〜ほど captures.",
+        "'するにつれて' frames the change as gradual co-occurrence ('as you practice, skill grows along with it'), but ば〜ほど foregrounds the proportional intensity: the more practice, the proportionally bigger the gain.",
+        "'するに従って' tracks one process trailing another, but it doesn't carry the symmetric amplification — practice and skill growing in lockstep — that ば〜ほど expresses."
       ],
       "hiragana_full": "れんしゅうすればするほど、すきるがこうじょうします。",
       "audio_alternatives": [
@@ -207,12 +207,12 @@
       "blank_target": "ば読むほど",
       "wrong_choices": [
         "んでも、読んでも",
-        "むにつれて",
+        "むに従って",
         "むとともに"
       ],
       "wrong_choice_explanations": [
         "〜ても〜ても means 'no matter how much you read,' expressing futility or concession, but the sentence shows growing fondness proportional to reading.",
-        "〜につれて means 'as you read more,' expressing gradual change, but ば〜ほど specifically emphasizes the intensifying proportional comparison.",
+        "〜に従って describes a tracking change ('as reading progresses, fondness follows'), but it lacks the intensifying proportional emphasis — the bigger the reading, the bigger the fondness — that ば〜ほど expresses.",
         "〜とともに means 'along with reading,' expressing parallel change, but not the emphatic 'the more...the more' comparison."
       ],
       "hiragana_full": "よめばよむほど、そのちょしゃがすきになります。",
@@ -263,23 +263,23 @@
       "blank_target": "ばするほど",
       "wrong_choices": [
         "しても、しても",
-        "するにつれて",
+        "するに従って",
         "するとともに"
       ],
       "wrong_choice_explanations": [
-        "ても〜ても suggests concession, not the proportional increase that ばするほど expresses.",
-        "するにつれて means 'as...progresses', expressing gradual change without the 'the more' comparison.",
+        "ても〜ても suggests effort with concession ('no matter how much you analyze'), not the proportional pay-off that 〜ば〜ほど captures.",
+        "するに従って frames patterns as trailing the analysis ('as analysis advances, patterns appear with it'), but it doesn't carry the emphasis that more analysis yields proportionally more patterns.",
         "するとともに means 'along with', indicating simultaneous occurrence, not proportional intensity."
       ],
-      "hiragana_full": "データをぶんせきすればするほど、パターンがみえてきます。",
+      "hiragana_full": "でーたをぶんせきすればするほど、ぱたーんがみえてきます。",
       "audio_alternatives": [
         {
           "kanji": "データを分析するほど、パターンが見えてきます。",
-          "hiragana_full": "データをぶんせきするほど、パターンがみえてきます。"
+          "hiragana_full": "でーたをぶんせきするほど、ぱたーんがみえてきます。"
         },
         {
           "kanji": "データを分析すればするほど、パターンが見えてくる。",
-          "hiragana_full": "データをぶんせきすればするほど、パターンがみえてくる。"
+          "hiragana_full": "でーたをぶんせきすればするほど、ぱたーんがみえてくる。"
         }
       ],
       "audio_eligible": true

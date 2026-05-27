@@ -35,27 +35,27 @@
     {
       "id": "n5_018_2",
       "example_sentence": "駅まで歩いて行きました。",
-      "translation": "I walked to the station.",
+      "translation": "I walked all the way to the station.",
       "blank_target": "まで",
       "wrong_choices": [
-        "へ",
-        "に",
+        "で",
+        "より",
         "を"
       ],
       "wrong_choice_explanations": [
-        "へ indicates direction — while similar, まで emphasizes reaching the destination completely.",
-        "に indicates destination — まで emphasizes the extent 'up to' the station more strongly.",
-        "を marks objects or routes — it doesn't indicate destination like まで does."
+        "で marks where an action happens (駅で = 'at the station'), but with 歩いて行きました the sentence needs the goal that is reached, which is what まで marks.",
+        "より mainly marks a comparison ('than') or a stiff, literary starting point, so 駅より does not express the destination 'to the station' that まで does.",
+        "を with a motion verb marks a route passed through (駅を歩く = 'walk through the station'), not the destination that まで expresses here."
       ],
-      "hiragana_full": "えきまであるいていきました",
+      "hiragana_full": "えきまであるいていきました。",
       "audio_alternatives": [
         {
           "kanji": "駅まで歩きました。",
-          "hiragana_full": "えきまであるきました"
+          "hiragana_full": "えきまであるきました。"
         },
         {
           "kanji": "駅へ歩いて行きました。",
-          "hiragana_full": "えきへあるいていきました"
+          "hiragana_full": "えきへあるいていきました。"
         }
       ],
       "audio_eligible": true
@@ -75,15 +75,15 @@
         "と means 'and' — it doesn't indicate the time range from Monday that extends until Sunday.",
         "より means 'than' for comparison — it doesn't express the starting point 'from' like から does."
       ],
-      "hiragana_full": "げつようびからにちようびまでいそがしいです",
+      "hiragana_full": "げつようびからにちようびまでいそがしいです。",
       "audio_alternatives": [
         {
           "kanji": "月曜日から日曜日まで忙しい。",
-          "hiragana_full": "げつようびからにちようびまでいそがしい"
+          "hiragana_full": "げつようびからにちようびまでいそがしい。"
         },
         {
           "kanji": "月曜から日曜まで忙しいです。",
-          "hiragana_full": "げつようからにちようまでいそがしいです"
+          "hiragana_full": "げつようからにちようまでいそがしいです。"
         }
       ],
       "audio_eligible": true
@@ -95,23 +95,23 @@
       "blank_target": "まで",
       "wrong_choices": [
         "と",
-        "ば",
-        "たら"
+        "なら",
+        "から"
       ],
       "wrong_choice_explanations": [
-        "と indicates immediate sequence — it doesn't express duration 'until' like まで does.",
-        "ば indicates condition 'if' — it doesn't express the temporal limit 'until' needed here.",
-        "たら means 'when/if' — it doesn't express the duration 'until' that まで provides."
+        "と makes an automatic 'whenever' result (終わると = 'when it finishes'), but the sentence needs the durational 'until it finishes' that まで provides.",
+        "なら sets up a hypothetical 'if' (終わるなら = 'if it is going to finish'), not the time limit 'until' that まで expresses.",
+        "から gives a reason (終わるから = 'because it finishes'), but here まで marks the endpoint up to which you cannot sleep."
       ],
-      "hiragana_full": "しゅくだいがおわるまでねられません",
+      "hiragana_full": "しゅくだいがおわるまでねられません。",
       "audio_alternatives": [
         {
           "kanji": "宿題が終わるまで眠れません。",
-          "hiragana_full": "しゅくだいがおわるまでねむれません"
+          "hiragana_full": "しゅくだいがおわるまでねむれません。"
         },
         {
           "kanji": "宿題が終わらないと寝られません。",
-          "hiragana_full": "しゅくだいがおわらないとねられません"
+          "hiragana_full": "しゅくだいがおわらないとねられません。"
         }
       ],
       "audio_eligible": true
@@ -131,15 +131,15 @@
         "で indicates location of action — it doesn't express the starting point 'from' like から does.",
         "に indicates destination — it doesn't show the starting point needed to pair with まで."
       ],
-      "hiragana_full": "ここからあそこまではしりました",
+      "hiragana_full": "ここからあそこまではしりました。",
       "audio_alternatives": [
         {
           "kanji": "ここからあそこまで走った。",
-          "hiragana_full": "ここからあそこまではしった"
+          "hiragana_full": "ここからあそこまではしった。"
         },
         {
           "kanji": "あそこまでここから走りました。",
-          "hiragana_full": "あそこまでここからはしりました"
+          "hiragana_full": "あそこまでここからはしりました。"
         }
       ],
       "audio_eligible": true
@@ -151,23 +151,23 @@
       "blank_target": "から",
       "wrong_choices": [
         "まで",
-        "に",
+        "ごろ",
         "で"
       ],
       "wrong_choice_explanations": [
-        "まで would mean classes start 'until' nine, which doesn't make logical sense here.",
-        "に indicates exact time but doesn't show this as a starting point in a range.",
-        "で indicates means or location — it doesn't express the starting time 'from' nine o'clock."
+        "まで would mean classes go on 'until' nine, but the sentence marks nine as the point they begin from, which is から.",
+        "ごろ means 'around' (九時ごろ = 'around nine'), giving an approximate time rather than the definite starting point から expresses.",
+        "で marks a means or a cut-off, not the time a class starts from; から is needed to mark nine as the start."
       ],
-      "hiragana_full": "じゅぎょうはくじからはじまります",
+      "hiragana_full": "じゅぎょうはくじからはじまります。",
       "audio_alternatives": [
         {
           "kanji": "授業は九時に始まります。",
-          "hiragana_full": "じゅぎょうはくじにはじまります"
+          "hiragana_full": "じゅぎょうはくじにはじまります。"
         },
         {
           "kanji": "九時から授業が始まります。",
-          "hiragana_full": "くじからじゅぎょうがはじまります"
+          "hiragana_full": "くじからじゅぎょうがはじまります。"
         }
       ],
       "audio_eligible": true
@@ -187,15 +187,15 @@
         "と means 'and' — it doesn't indicate the time range starting from one o'clock.",
         "より means 'than' — it's used for comparisons, not time ranges like から～まで."
       ],
-      "hiragana_full": "いちじからさんじまでひるやすみです",
+      "hiragana_full": "いちじからさんじまでひるやすみです。",
       "audio_alternatives": [
         {
           "kanji": "昼休みは一時から三時までです。",
-          "hiragana_full": "ひるやすみはいちじからさんじまでです"
+          "hiragana_full": "ひるやすみはいちじからさんじまでです。"
         },
         {
           "kanji": "一時から三時まで昼休みがあります。",
-          "hiragana_full": "いちじからさんじまでひるやすみがあります"
+          "hiragana_full": "いちじからさんじまでひるやすみがあります。"
         }
       ],
       "audio_eligible": true
@@ -207,23 +207,23 @@
       "blank_target": "まで",
       "wrong_choices": [
         "間",
-        "あいだ",
+        "と",
         "うちに"
       ],
       "wrong_choice_explanations": [
-        "間 means 'while/during' — it expresses duration within a period, not 'until' an endpoint.",
-        "あいだ means 'while/between' — it doesn't express waiting 'until' a condition is met.",
-        "うちに means 'while/during' — it doesn't express the temporal limit 'until' like まで does."
+        "間 ('while/during') covers the whole stretch of time the rain continues, but まで pins down the endpoint — you cannot play up to the moment it stops.",
+        "と makes an automatic result (やむと = 'when it stops'), describing what happens at that point rather than the 'until' span that まで marks.",
+        "うちに means 'while (a state still lasts)', pointing to doing something during a period, not waiting up to the endpoint that まで marks."
       ],
-      "hiragana_full": "あめがやむまでそとであそべません",
+      "hiragana_full": "あめがやむまでそとであそべません。",
       "audio_alternatives": [
         {
           "kanji": "雨がやむまで外に出られません。",
-          "hiragana_full": "あめがやむまでそとにでられません"
+          "hiragana_full": "あめがやむまでそとにでられません。"
         },
         {
           "kanji": "雨がとまるまで外で遊べません。",
-          "hiragana_full": "あめがとまるまでそとであそべません"
+          "hiragana_full": "あめがとまるまでそとであそべません。"
         }
       ],
       "audio_eligible": true
@@ -235,23 +235,23 @@
       "blank_target": "まで",
       "wrong_choices": [
         "で",
-        "に",
-        "へ"
+        "から",
+        "を"
       ],
       "wrong_choice_explanations": [
-        "で indicates location of action — it doesn't emphasize reaching the destination like まで does.",
-        "に indicates destination — まで emphasizes going all the way to the hospital more strongly.",
-        "へ indicates direction — まで emphasizes actually reaching the destination, not just heading there."
+        "で marks where an action happens (病院で = 'at the hospital'), but with 行きました the sentence needs the destination reached, which まで marks.",
+        "から marks a starting point (病院から = 'from the hospital'), the opposite of the destination 'to the hospital' that まで expresses.",
+        "を with a motion verb marks a route (病院を通る), not the goal; まで marks going all the way to the hospital."
       ],
-      "hiragana_full": "びょういんまでおみまいにいきました",
+      "hiragana_full": "びょういんまでおみまいにいきました。",
       "audio_alternatives": [
         {
           "kanji": "病院へお見舞いに行きました。",
-          "hiragana_full": "びょういんへおみまいにいきました"
+          "hiragana_full": "びょういんへおみまいにいきました。"
         },
         {
           "kanji": "病院にお見舞いに行きました。",
-          "hiragana_full": "びょういんにおみまいにいきました"
+          "hiragana_full": "びょういんにおみまいにいきました。"
         }
       ],
       "audio_eligible": true
@@ -263,23 +263,23 @@
       "blank_target": "まで",
       "wrong_choices": [
         "ごろ",
-        "頃",
+        "から",
         "に"
       ],
       "wrong_choice_explanations": [
-        "ごろ means 'around/about' — it indicates approximate time, not the specific endpoint 'until'.",
-        "頃 means 'around' — it expresses approximate time rather than the exact limit 'until' twelve.",
-        "に indicates a specific time point — it doesn't express duration or the endpoint 'until' like まで."
+        "ごろ means 'around' (十二時ごろ = 'around twelve'), an approximate time, not the endpoint 'until twelve' that まで marks.",
+        "から marks a starting point (十二時から = 'from twelve'), the opposite of the endpoint up to which you stayed awake.",
+        "に marks a point in time (十二時に = 'at twelve'), but the sentence describes staying awake for a duration up to twelve, which まで expresses."
       ],
-      "hiragana_full": "じゅうにじまでおきていました",
+      "hiragana_full": "じゅうにじまでおきていました。",
       "audio_alternatives": [
         {
           "kanji": "十二時まで起きてた。",
-          "hiragana_full": "じゅうにじまでおきてた"
+          "hiragana_full": "じゅうにじまでおきてた。"
         },
         {
           "kanji": "十二時まで眠りませんでした。",
-          "hiragana_full": "じゅうにじまでねむりませんでした"
+          "hiragana_full": "じゅうにじまでねむりませんでした。"
         }
       ],
       "audio_eligible": true

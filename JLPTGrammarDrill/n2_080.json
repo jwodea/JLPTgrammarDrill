@@ -146,8 +146,8 @@
     },
     {
       "id": "n2_080_6",
-      "example_sentence": "パソコンの調子が悪く、動作が重たく気味だ。",
-      "translation": "My computer isn't working well, and it's running a bit slowly.",
+      "example_sentence": "パソコンの調子が悪く、動作が遅れ気味だ。",
+      "translation": "My computer isn't running well, and its responses tend to lag a bit.",
       "blank_target": "気味",
       "wrong_choices": [
         "がち",
@@ -155,19 +155,19 @@
         "そう"
       ],
       "wrong_choice_explanations": [
-        "がち means 'tends to' but implies a habitual tendency rather than the current slight condition that 気味 describes.",
-        "げ means 'seeming' but is typically used with emotion/attitude words, not with performance descriptions like this.",
-        "そう means 'seems' or 'looks like' but indicates appearance from the outside, not the actual performance issue being described."
+        "〜がち describes a habitual, recurring tendency (休みがち, 遅れがち as a chronic trait); here the computer is acting up right now and only somewhat lagging, the current slight-degree sense that 〜気味 conveys.",
+        "〜げ attaches to emotion words to mean 'looking ~' (嬉しげ, 不安げ) and describes a person's visible mood; it can't attach to 遅れ or describe a machine's performance.",
+        "〜そう (様態) means 'looks about to' (遅れそう = about to be delayed), a prediction from appearance; the sentence reports an ongoing mild condition, not an impending one, so 〜気味 fits."
       ],
-      "hiragana_full": "ぱそこんのちょうしがわるく、どうさがおもたくきみだ。",
+      "hiragana_full": "ぱそこんのちょうしがわるく、どうさがおくれぎみだ。",
       "audio_alternatives": [
         {
-          "kanji": "パソコンの調子が悪くて、動作が少し重い。",
-          "hiragana_full": "ぱそこんのちょうしがわるくて、どうさがすこしおもい。"
+          "kanji": "パソコンの調子が悪くて、動作が少し遅れる。",
+          "hiragana_full": "ぱそこんのちょうしがわるくて、どうさがすこしおくれる。"
         },
         {
-          "kanji": "パソコンの具合が悪く、動きがやや重たい感じだ。",
-          "hiragana_full": "ぱそこんのぐあいがわるく、うごきがややおもたいかんじだ。"
+          "kanji": "パソコンの具合が悪く、動きが遅れ気味だ。",
+          "hiragana_full": "ぱそこんのぐあいがわるく、うごきがおくれぎみだ。"
         }
       ],
       "audio_eligible": true
@@ -184,7 +184,7 @@
       ],
       "wrong_choice_explanations": [
         "みたい means 'like' or 'similar to' but is used for comparisons, not for describing potential symptoms.",
-        "っぽい means 'seems like' or '-ish' but doesn't convey the serious concern about a developing condition that 気味 expresses.",
+        "〜っぽい attaches to a noun to mean 'resembles' or 'gives the impression of' (子供っぽい); 認知症っぽい would bluntly liken the speaker to a dementia patient, whereas 〜気味 hedges it as a slight, incipient tendency — the milder, more accurate nuance here.",
         "だらけ means 'full of' something negative but doesn't indicate the gradual development of symptoms like 気味."
       ],
       "hiragana_full": "さいきん、ものわすれがおおく、にんちしょうぎみかもしれない。",
@@ -202,28 +202,28 @@
     },
     {
       "id": "n2_080_8",
-      "example_sentence": "エアコンが故障して、部屋が暑く気味になってきた。",
-      "translation": "The air conditioner broke down, and the room is getting a bit hot.",
+      "example_sentence": "エアコンが故障して、室温が上がり気味だ。",
+      "translation": "The air conditioner broke down, and the room temperature has been creeping up a bit.",
       "blank_target": "気味",
       "wrong_choices": [
         "すぎる",
         "そう",
-        "ばかり"
+        "がち"
       ],
       "wrong_choice_explanations": [
-        "すぎる means 'too much' and indicates excess, but 気味 expresses a more gradual, slight change in condition.",
-        "そう means 'seems' or 'looks like' but is used for appearance or prediction, not for describing an actual developing situation.",
-        "ばかり means 'only' or 'just' but doesn't express the gradual change in temperature that 気味 conveys."
+        "〜すぎる means 'too much' and marks excess (上がりすぎる = rises too high); the room is only edging upward, not overheating, so the slight-degree 〜気味 is correct.",
+        "〜そう (様態) means 'looks about to' (上がりそう = about to rise), predicting from appearance; here the temperature is already gradually rising, an ongoing mild change that 〜気味 expresses.",
+        "〜がち marks a habitual, recurring tendency (夏は室温が上がりがち as a general pattern); this sentence is about the temperature right now after the breakdown, a current slight rise, so 〜気味 fits better."
       ],
-      "hiragana_full": "えあこんがこしょうして、へやがあつくぎみになってきた。",
+      "hiragana_full": "えあこんがこしょうして、しつおんがあがりぎみだ。",
       "audio_alternatives": [
         {
-          "kanji": "エアコンが壊れて、部屋が少し暑くなってきた。",
-          "hiragana_full": "えあこんがこわれて、へやがすこしあつくなってきた。"
+          "kanji": "エアコンが壊れて、室温が少しずつ上がってきた。",
+          "hiragana_full": "えあこんがこわれて、しつおんがすこしずつあがってきた。"
         },
         {
-          "kanji": "エアコンが故障したので、部屋が暑めになってきた。",
-          "hiragana_full": "えあこんがこしょうしたので、へやがあつめになってきた。"
+          "kanji": "エアコンが故障したせいで、室温が上がり気味になっている。",
+          "hiragana_full": "えあこんがこしょうしたせいで、しつおんがあがりぎみになっている。"
         }
       ],
       "audio_eligible": true

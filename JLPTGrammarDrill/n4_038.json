@@ -99,9 +99,9 @@
         "な"
       ],
       "wrong_choice_explanations": [
-        "だ is the plain copula — it doesn't fit here because it would create 'read is see' which makes no sense grammatically.",
-        "である is the formal written copula — it doesn't fit here because it would create an unnatural construction that doesn't express trying.",
-        "な is used with na-adjectives or prohibitions — it doesn't fit here because it would create 'don't read and see' which contradicts the request."
+        "だ is the plain copula and follows nouns or na-adjectives; the te-form of 読む is 読んで, so the slot between 読ん and みて needs で, not だ.",
+        "である is the formal written copula — it attaches to nouns, not to the 読ん stem, and breaks the 〜てみる connection to みてください.",
+        "な attaches to na-adjectives or follows the dictionary form for prohibitions (読むな = 'don't read'); placed after 読ん it forms no valid connector to みて."
       ],
       "hiragana_full": "そのほんをよんでみてください",
       "audio_alternatives": [
@@ -150,14 +150,14 @@
       "translation": "I tried thinking with a different method.",
       "blank_target": "て",
       "wrong_choices": [
-        "られ",
-        "させ",
-        "れ"
+        "たり",
+        "ば",
+        "ても"
       ],
       "wrong_choice_explanations": [
-        "られ is the potential/passive auxiliary — it doesn't fit here because it would create 'was thought and saw' which doesn't make sense.",
-        "させ is the causative auxiliary — it doesn't fit here because it would mean 'made someone think and saw' which changes the meaning completely.",
-        "れ is the passive/potential auxiliary (short form) — it doesn't fit here because it creates an unnatural construction that doesn't express trying."
+        "たり is the 'doing things like' connector — 考えたりみた would not make sense; the sentence reports a single trial attempt, not a listing of activities.",
+        "ば is a conditional — 考えればみた breaks grammatically, and even reading it as a hypothetical loses the 'I gave it a try' nuance of 〜てみる.",
+        "ても means 'even if' — 考えてもみた is a real expression but means 'I even tried thinking,' shifting emphasis from the trial itself to surprise at having considered it at all."
       ],
       "hiragana_full": "ちがうほうほうでかんがえてみた",
       "audio_alternatives": [
@@ -206,14 +206,14 @@
       "translation": "I'm thinking of trying to climb a mountain this Sunday.",
       "blank_target": "て",
       "wrong_choices": [
-        "おう",
-        "よう",
-        "こう"
+        "たら",
+        "ば",
+        "ながら"
       ],
       "wrong_choice_explanations": [
-        "おう is a volitional ending — it doesn't fit here because it would create 'let's climb see' which is grammatically incorrect without the て connection.",
-        "よう is part of the volitional form — it doesn't fit here because it would create an incomplete construction that doesn't express trying.",
-        "こう means 'this way' — it doesn't fit here because it would create 'climb this way and see' which doesn't form the trying pattern."
+        "たら means 'when/if' — 登ったらみよう would mean 'I'll see when I've climbed,' splitting the climb and the seeing into two events rather than the unified 'try climbing and see' of 〜てみる.",
+        "ば is a conditional — 登れば would set up a hypothetical ('if I climb, ...'), but the speaker is planning to actually attempt the climb, not hypothesizing.",
+        "ながら means 'while doing' — 登りながら would describe doing something else while climbing, not the trial-attempt nuance the sentence needs."
       ],
       "hiragana_full": "こんどのにちようびにやまにのぼってみようとおもいます",
       "audio_alternatives": [
@@ -262,14 +262,14 @@
       "translation": "Won't you try using the new app?",
       "blank_target": "て",
       "wrong_choices": [
-        "い",
-        "え",
-        "う"
+        "ながら",
+        "から",
+        "ても"
       ],
       "wrong_choice_explanations": [
-        "い is a vowel sound — it doesn't fit here because it would create 'use-i see' which is not a valid grammatical construction.",
-        "え is a vowel sound — it doesn't fit here because it would create 'use-e see' which makes no grammatical sense.",
-        "う is a vowel sound — it doesn't fit here because it would create 'use-u see' which is not a proper grammatical form."
+        "ながら means 'while doing' — 使いながら would describe using the app simultaneously with another action, not inviting the listener to try it as an experiment.",
+        "から means 'after/because' — 使ってから would set up 'after using the app, [something happens],' losing the trial-and-see nuance of 〜てみる.",
+        "ても means 'even if' — 使っても would frame app use as a concession ('even if you use it...'), not the gentle invitation to try it that 〜てみませんか conveys."
       ],
       "hiragana_full": "あたらしいアプリをつかってみませんか。",
       "audio_alternatives": [

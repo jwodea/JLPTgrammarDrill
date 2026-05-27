@@ -34,8 +34,8 @@
     },
     {
       "id": "n2_083_2",
-      "example_sentence": "彼は非常に困ったげな表情をしていた。",
-      "translation": "He had a very troubled expression on his face.",
+      "example_sentence": "彼は非常に悲しげな表情をしていた。",
+      "translation": "He had a deeply sad expression on his face.",
       "blank_target": "げな",
       "wrong_choices": [
         "そうな",
@@ -43,27 +43,27 @@
         "みたいな"
       ],
       "wrong_choice_explanations": [
-        "そうな suggests probability or hearsay, but doesn't express the visible emotional state of being troubled.",
-        "がちな means 'tending to' or 'prone to', but doesn't convey the immediate visible expression that げ indicates.",
-        "みたいな means 'like' or 'similar to', but lacks the specific nuance of visible emotional state that げ provides."
+        "そうな (悲しそうな) is closest in meaning, but it merely reports how things look right now from outside — げな adds the literary, observed-from-the-inside emotional tone.",
+        "がちな means 'tending to' or 'prone to' a recurring state — describing a single observed expression of sadness, you want げな, not a tendency marker.",
+        "みたいな means 'like' or 'similar to', but it draws a comparison rather than describing the visible emotional state that げな captures."
       ],
-      "hiragana_full": "かれはひじょうにこまったげなひょうじょうをしていた",
+      "hiragana_full": "かれはひじょうにかなしげなひょうじょうをしていた",
       "audio_alternatives": [
         {
-          "kanji": "彼はとても困った様子の顔をしていた。",
-          "hiragana_full": "かれはとてもこまったようすのかおをしていた"
+          "kanji": "彼はとても悲しそうな顔をしていた。",
+          "hiragana_full": "かれはとてもかなしそうなかおをしていた"
         },
         {
-          "kanji": "彼は非常に悩んだ表情を浮かべていた。",
-          "hiragana_full": "かれはひじょうになやんだひょうじょうをうかべていた"
+          "kanji": "彼は非常に悲しげな表情を浮かべていた。",
+          "hiragana_full": "かれはひじょうにかなしげなひょうじょうをうかべていた"
         }
       ],
       "audio_eligible": true
     },
     {
       "id": "n2_083_3",
-      "example_sentence": "夕焼けを見ながら、彼女は物思いにふけったげな表情をしていた。",
-      "translation": "While watching the sunset, she had a pensive expression on her face.",
+      "example_sentence": "夕焼けを見ながら、彼女は寂しげな表情をしていた。",
+      "translation": "While watching the sunset, she had a lonely-looking expression on her face.",
       "blank_target": "げな",
       "wrong_choices": [
         "ような",
@@ -71,27 +71,27 @@
         "らしい"
       ],
       "wrong_choice_explanations": [
-        "ような means 'like' or 'as if', but doesn't specifically express the visible emotional state that げ conveys.",
-        "っぽい indicates having the tendency or quality of something, but lacks the emotional nuance that げ provides.",
-        "らしい expresses what is typical or heard, but doesn't capture the direct observation of emotional expression."
+        "ような means 'like' or 'as if'; it draws a comparison ('an expression like a lonely person's') rather than naming the visible emotional state that げな directly describes.",
+        "っぽい marks a tendency or quality ('lonely-ish'), suitable for personality or things in general, but げな is the right choice for the literary description of a visible emotion right now.",
+        "らしい expresses what is typical ('typical of a lonely person') or hearsay — it doesn't capture the direct, present observation of an expression that げな conveys."
       ],
-      "hiragana_full": "ゆうやけをみながら、かのじょはものおもいにふけったげなひょうじょうをしていた。",
+      "hiragana_full": "ゆうやけをみながら、かのじょはさびしげなひょうじょうをしていた。",
       "audio_alternatives": [
         {
-          "kanji": "夕焼けを眺めながら、彼女は物思いにふけったような表情をしていた。",
-          "hiragana_full": "ゆうやけをながめながら、かのじょはものおもいにふけったようなひょうじょうをしていた。"
+          "kanji": "夕焼けを眺めながら、彼女は寂しそうな表情をしていた。",
+          "hiragana_full": "ゆうやけをながめながら、かのじょはさびしそうなひょうじょうをしていた。"
         },
         {
-          "kanji": "夕焼けを見ながら、彼女は思いにふけった表情を浮かべていた。",
-          "hiragana_full": "ゆうやけをみながら、かのじょはおもいにふけったひょうじょうをうかべていた。"
+          "kanji": "夕焼けを見つめながら、彼女は寂しげな顔をしていた。",
+          "hiragana_full": "ゆうやけをみつめながら、かのじょはさびしげなかおをしていた。"
         }
       ],
       "audio_eligible": true
     },
     {
       "id": "n2_083_4",
-      "example_sentence": "彼は決算結果を見ながら、複雑な心境げな表情をしていた。",
-      "translation": "While looking at the financial results, he had a complex emotional expression on his face.",
+      "example_sentence": "彼は決算結果を見ながら、不満げな表情をしていた。",
+      "translation": "While looking at the financial results, he had a dissatisfied expression on his face.",
       "blank_target": "げな",
       "wrong_choices": [
         "そうな",
@@ -99,27 +99,27 @@
         "風な"
       ],
       "wrong_choice_explanations": [
-        "そうな indicates likelihood or hearsay, but doesn't express the visible complex emotional state.",
-        "的な means 'having the nature of', but is too general and doesn't convey the specific emotional expression that げ indicates.",
-        "風な means 'in the style of', but lacks the emotional nuance and visible state that げ provides."
+        "そうな (不満そうな) is grammatical and close in meaning, but it reports surface likelihood — げな adds the literary observed-emotion register more suited to written prose.",
+        "的な attaches to nouns to form general descriptive adjectives ('philosophical', 'economic') — 不満的 isn't an established word, and the slot here calls for an emotion-marker like げな.",
+        "風な means 'in the style of' and works for stylistic resemblance (学者風な口調), but doesn't describe the visible emotional state on someone's face."
       ],
-      "hiragana_full": "かれはけっさんけっかをみながら、ふくざつなしんきょうげなひょうじょうをしていた。",
+      "hiragana_full": "かれはけっさんけっかをみながら、ふまんげなひょうじょうをしていた。",
       "audio_alternatives": [
         {
-          "kanji": "決算結果を見ながら、彼は複雑な心境げな表情を浮かべていた。",
-          "hiragana_full": "けっさんけっかをみながら、かれはふくざつなしんきょうげなひょうじょうをうかべていた。"
+          "kanji": "決算結果を見ながら、彼は不満そうな顔をしていた。",
+          "hiragana_full": "けっさんけっかをみながら、かれはふまんそうなかおをしていた。"
         },
         {
-          "kanji": "彼は決算結果を眺めながら、複雑な心境げな顔をしていた。",
-          "hiragana_full": "かれはけっさんけっかをながめながら、ふくざつなしんきょうげなかおをしていた。"
+          "kanji": "彼は決算結果を眺めながら、不満げな顔つきをしていた。",
+          "hiragana_full": "かれはけっさんけっかをながめながら、ふまんげなかおつきをしていた。"
         }
       ],
       "audio_eligible": true
     },
     {
       "id": "n2_083_5",
-      "example_sentence": "教授は学生からの質問を受けながら、考え込んだげな表情をしていた。",
-      "translation": "While receiving questions from students, the professor had a thoughtful expression on his face.",
+      "example_sentence": "教授は学生からの質問を受けながら、満足げな表情をしていた。",
+      "translation": "While receiving questions from students, the professor had a satisfied expression on his face.",
       "blank_target": "げな",
       "wrong_choices": [
         "そうな",
@@ -127,19 +127,19 @@
         "みたいな"
       ],
       "wrong_choice_explanations": [
-        "そうな suggests probability or appearance, but doesn't capture the visible thoughtful emotional state that げ expresses.",
-        "ばかりの means 'just' or 'only', which doesn't fit the context of describing an emotional expression.",
-        "みたいな means 'like', but lacks the specific nuance of visible emotional state that げ provides."
+        "そうな (満足そうな) is grammatical, but it describes how the expression appears from outside — げな is the literary, observed-emotion form that suits the descriptive prose here.",
+        "ばかりの means 'just (now)' and typically follows verbs (始まったばかりの) — it can't combine with 満足 to mark a visible emotional state.",
+        "みたいな means 'like' and draws a comparison, but the slot here needs the direct emotional-expression marker that げな supplies."
       ],
-      "hiragana_full": "きょうじゅはがくせいからのしつもんをうけながら、かんがえこんだげなひょうじょうをしていた。",
+      "hiragana_full": "きょうじゅはがくせいからのしつもんをうけながら、まんぞくげなひょうじょうをしていた。",
       "audio_alternatives": [
         {
-          "kanji": "教授は学生からの質問を受けつつ、考え込んだような表情を浮かべていた。",
-          "hiragana_full": "きょうじゅはがくせいからのしつもんをうけつつ、かんがえこんだようなひょうじょうをうかべていた。"
+          "kanji": "教授は学生からの質問を聞きつつ、満足そうな表情を浮かべていた。",
+          "hiragana_full": "きょうじゅはがくせいからのしつもんをききつつ、まんぞくそうなひょうじょうをうかべていた。"
         },
         {
-          "kanji": "学生からの質問を受けながら、教授は思案顔をしていた。",
-          "hiragana_full": "がくせいからのしつもんをうけながら、きょうじゅはしあんがおをしていた。"
+          "kanji": "学生からの質問を受けながら、教授は満足げな顔をしていた。",
+          "hiragana_full": "がくせいからのしつもんをうけながら、きょうじゅはまんぞくげなかおをしていた。"
         }
       ],
       "audio_eligible": true

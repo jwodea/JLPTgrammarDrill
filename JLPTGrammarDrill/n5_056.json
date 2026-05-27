@@ -19,15 +19,15 @@
         "時に means 'when / at the time of' — it shows simultaneous timing, not after completion.",
         "間に means 'during / between' — it shows duration or interval, not sequence after completion."
       ],
-      "hiragana_full": "しゅくだいをおえたあとで、テレビをみました。",
+      "hiragana_full": "しゅくだいをおえたあとで、てれびをみました。",
       "audio_alternatives": [
         {
           "kanji": "宿題が終わってから、テレビを見ました。",
-          "hiragana_full": "しゅくだいがおわってから、テレビをみました。"
+          "hiragana_full": "しゅくだいがおわってから、てれびをみました。"
         },
         {
           "kanji": "宿題をしてから、テレビを見ました。",
-          "hiragana_full": "しゅくだいをしてから、テレビをみました。"
+          "hiragana_full": "しゅくだいをしてから、てれびをみました。"
         }
       ],
       "audio_eligible": true
@@ -67,12 +67,12 @@
       "blank_target": "後で",
       "wrong_choices": [
         "ながら",
-        "てから",
+        "前に",
         "までに"
       ],
       "wrong_choice_explanations": [
         "ながら means 'while doing' — it shows simultaneous actions, not sequential timing after completion.",
-        "てから also means 'after' but requires て-form + から, not past tense + てから.",
+        "前に means 'before' — it reverses the temporal direction (would mean talking with friends before watching the movie, not after).",
         "までに means 'by / before (deadline)' — it shows a time limit, not sequence after completion."
       ],
       "hiragana_full": "えいがをみたあとで、ともだちとはなしました。",
@@ -94,14 +94,14 @@
       "translation": "After work finishes, I'll go shopping.",
       "blank_target": "後で",
       "wrong_choices": [
-        "と",
-        "ば",
-        "なら"
+        "時に",
+        "間に",
+        "前に"
       ],
       "wrong_choice_explanations": [
-        "と shows natural consequence or habitual action — it doesn't specifically indicate timing after completion.",
-        "ば is conditional 'if' — this sentence describes planned sequence, not a condition.",
-        "なら means 'if' — it's conditional, but we're describing a planned sequence after work."
+        "時に means 'at the time of' — would imply going shopping simultaneously with work ending, but 後で expresses sequence after completion.",
+        "間に means 'during / while' — would imply shopping during work, not after it finishes.",
+        "前に means 'before' — would reverse the temporal direction (shopping before work ends, not after)."
       ],
       "hiragana_full": "しごとがおわったあとで、かいものにいきます。",
       "audio_alternatives": [
@@ -131,15 +131,15 @@
         "あいだ means 'while / during' — it shows simultaneous time periods, not after finishing.",
         "うちに means 'while / during' — it indicates actions within a time period, not after completion."
       ],
-      "hiragana_full": "シャワーをあびたあとで、ねました。",
+      "hiragana_full": "しゃわーをあびたあとで、ねました。",
       "audio_alternatives": [
         {
           "kanji": "シャワーを浴びてから、寝ました。",
-          "hiragana_full": "シャワーをあびてから、ねました。"
+          "hiragana_full": "しゃわーをあびてから、ねました。"
         },
         {
           "kanji": "シャワーの後で、寝ました。",
-          "hiragana_full": "シャワーのあとで、ねました。"
+          "hiragana_full": "しゃわーのあとで、ねました。"
         }
       ],
       "audio_eligible": true
@@ -206,14 +206,14 @@
       "translation": "After going to the hospital, I got medicine.",
       "blank_target": "後で",
       "wrong_choices": [
-        "ために",
-        "について",
-        "として"
+        "前に",
+        "時に",
+        "までに"
       ],
       "wrong_choice_explanations": [
-        "ために means 'for the purpose of' — it shows purpose, not temporal sequence after the hospital visit.",
-        "について means 'about / concerning' — it indicates topic, not timing after going to hospital.",
-        "として means 'as / in the capacity of' — it shows role, not temporal sequence."
+        "前に means 'before' — would reverse the order (getting medicine before going to the hospital, not after).",
+        "時に means 'when / at the time of' — would imply receiving medicine at the moment of arrival, but 後で expresses sequence after the visit is complete.",
+        "までに means 'by (a deadline)' — sets a time limit for an action, not a sequence after completion."
       ],
       "hiragana_full": "びょういんにいったあとで、くすりをもらいました。",
       "audio_alternatives": [

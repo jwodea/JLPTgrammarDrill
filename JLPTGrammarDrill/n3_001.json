@@ -11,12 +11,12 @@
       "blank_target": "でも",
       "wrong_choices": [
         "だから",
-        "ながら",
+        "なら",
         "ために"
       ],
       "wrong_choice_explanations": [
         "だから means 'therefore/so' and states a reason leading to an expected result, but here the result (going to work) contradicts the condition (being sick).",
-        "ながら means 'while doing' for simultaneous actions, but this sentence needs a concessive ('even though'), not simultaneity.",
+        "なら poses a hypothetical condition ('if you're sick'), but the sentence states a real situation and goes to work in spite of it, which calls for the concessive でも.",
         "ために means 'in order to' or 'because of,' but the sentence expresses doing something despite an adverse condition, not purpose or cause."
       ],
       "hiragana_full": "びょうきでも、がんばってしごとにいった。",
@@ -95,12 +95,12 @@
       "blank_target": "でも",
       "wrong_choices": [
         "だから",
-        "ながら",
+        "で",
         "ために"
       ],
       "wrong_choice_explanations": [
         "だから means 'therefore/so' expressing a result or cause-effect relationship, but here we need a concessive form showing 'even if' despite something.",
-        "ながら means 'while doing' expressing simultaneous actions, but the sentence requires a concessive pattern showing contradiction between the condition and result.",
+        "で simply links the clauses ('I dislike meat, and...'), giving a plain reason or sequence without the 'even though' concession that makes eating the curry surprising.",
         "ために means 'in order to' expressing purpose, but this sentence expresses a conditional concession 'even though' rather than purposeful action."
       ],
       "hiragana_full": "にくがにがてでも、このかれーならおいしくたべられます。",
@@ -123,12 +123,12 @@
       "blank_target": "くても",
       "wrong_choices": [
         "くなっても",
-        "くて",
+        "くなくて",
         "ければ"
       ],
       "wrong_choice_explanations": [
         "くなっても means 'even if it becomes expensive,' implying a future change in price, but the sentence discusses a general principle about price vs. quality, not a change in price.",
-        "くて simply connects two clauses ('the price is high and...') without the concessive meaning needed to show that high price doesn't prevent the item being worth buying.",
+        "くなくて means 'not being expensive, and...,' which reverses the premise; the sentence acknowledges the price IS high and still calls it worth buying.",
         "ければ means 'if the price is high,' making it a conditional hypothesis, but the sentence acknowledges the high price as a given fact and argues it's still worth buying."
       ],
       "hiragana_full": "ねだんがたかくても、ひんしつがよければかうかちがあります。",
@@ -179,12 +179,12 @@
       "blank_target": "ても",
       "wrong_choices": [
         "のに",
-        "たところで",
+        "たら",
         "からといって"
       ],
       "wrong_choice_explanations": [
         "のに means 'despite/although' and expresses the speaker's surprise or frustration at a specific situation, but ても here states a general truth — even studying every day wouldn't help — not disappointment about one event.",
-        "たところで means 'even if one does' with a nuance of futility, which is close in meaning, but it emphasizes that the action is pointless. ても is more neutral, simply stating that the condition doesn't change the outcome.",
+        "たら sets up a one-time condition whose result follows ('once I study'), but the sentence says the outcome holds no matter how much one studies, which needs the concessive ても.",
         "からといって means 'just because,' warning against a hasty conclusion, but the sentence isn't cautioning against an assumption — it states a plain concessive fact."
       ],
       "hiragana_full": "まいにちべんきょうしても、すべてをおぼえることはできません。",
@@ -208,12 +208,12 @@
       "wrong_choices": [
         "たら",
         "ところで",
-        "ながら"
+        "のに"
       ],
       "wrong_choice_explanations": [
         "たら indicates a conditional situation that will trigger an action, but here we need 'even if' meaning to express the idea that something happens regardless of the condition.",
         "ところで means 'by the way' or marks a specific point in time, but we need a concessive form to express how the result persists despite the condition.",
-        "ながら means simultaneous actions, but here we need the concessive form to show that the lack of understanding happens regardless of the explanation."
+        "のに means 'even though' and conveys frustration about a specific outcome; 〜ても here states that the result holds across every attempt, a general concession rather than a complaint about one case."
       ],
       "hiragana_full": "どんなにせつめいしても、りかいしてくれません。",
       "audio_alternatives": [
@@ -258,28 +258,28 @@
     },
     {
       "id": "n3_001_10",
-      "example_sentence": "どうしても気に入らないとしても、対応しなければなりません。",
-      "translation": "Even if you do not like it, you must deal with it.",
+      "example_sentence": "どんなに走っても、終電には間に合わなかった。",
+      "translation": "No matter how hard I ran, I couldn't make the last train.",
       "blank_target": "ても",
       "wrong_choices": [
         "たら",
-        "ところで",
+        "と",
         "ながら"
       ],
       "wrong_choice_explanations": [
-        "たら indicates 'if/when' as a conditional, but the sentence emphasizes acceptance despite dislike, not a conditional scenario.",
-        "ところで means 'by the way' or 'at that place', which does not fit the concessive meaning needed here.",
-        "ながら means 'while doing simultaneously', but this sentence requires a concessive (even if/even though) structure."
+        "たら sets up a one-time condition ('once I run'), but the sentence stresses that the outcome held no matter how hard I ran, which needs the concessive ても.",
+        "と expresses an automatic, general result ('whenever you run, X follows'), but here running did NOT produce the hoped-for result, so the concessive ても is required.",
+        "ながら links two simultaneous actions ('while running'), but the sentence contrasts the effort with a contrary outcome, which calls for the concessive ても."
       ],
-      "hiragana_full": "どうしてもきにいらないとしても、たいおうしなければなりません。",
+      "hiragana_full": "どんなにはしっても、しゅうでんにはまにあわなかった。",
       "audio_alternatives": [
         {
-          "kanji": "どうしても気に入らなくても、対応しなければなりません。",
-          "hiragana_full": "どうしてもきにいらなくても、たいおうしなければなりません。"
+          "kanji": "どれだけ走っても、終電には間に合わなかった。",
+          "hiragana_full": "どれだけはしっても、しゅうでんにはまにあわなかった。"
         },
         {
-          "kanji": "どうしても気に入らないとしても、対応しないといけません。",
-          "hiragana_full": "どうしてもきにいらないとしても、たいおうしないといけません。"
+          "kanji": "いくら全力で走っても、終電に間に合わなかった。",
+          "hiragana_full": "いくらぜんりょくではしっても、しゅうでんにまにあわなかった。"
         }
       ],
       "audio_eligible": true

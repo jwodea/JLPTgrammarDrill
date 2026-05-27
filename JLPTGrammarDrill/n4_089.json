@@ -15,9 +15,9 @@
         "は"
       ],
       "wrong_choice_explanations": [
-        "に indicates direction or indirect object — it doesn't fit here because we need the をはじめ pattern for 'starting with'.",
-        "が marks the subject — it doesn't fit here because Tanaka is not the subject performing the action.",
-        "は marks the topic — it doesn't fit here because we need the をはじめ pattern structure."
+        "に would mark Tanaka as a goal or recipient ('to Mr. Tanaka'), but はじめ takes its preceding noun marked with を to flag it as the representative of the wider group.",
+        "が would make Tanaka the grammatical subject who is doing はじめる ('Tanaka starts something'), turning はじめ into a verb instead of part of the listing pattern.",
+        "は would topicalize Tanaka and separate him from the group; the fixed form requires を so that はじめ reads as a postposition meaning 'including [Tanaka] and others.'"
       ],
       "hiragana_full": "たなかさんをはじめ、おおくのひとがさんかした。",
       "audio_alternatives": [
@@ -99,9 +99,9 @@
         "ほか"
       ],
       "wrong_choice_explanations": [
-        "など means 'and so on' or 'etc.' — it doesn't fit here because we need the をはじめ pattern structure.",
-        "とか lists examples casually — it doesn't fit here because we need をはじめ to emphasize France as the starting point.",
-        "ほか means 'others' — it doesn't fit here because we need the をはじめ pattern to show starting with something specific."
+        "など follows the noun directly to mean 'France, and so on,' but it doesn't pair with はじめ; the fixed pattern requires を so that France reads as the headline example of European countries.",
+        "とか casually lists items ('things like France') and treats France as one of several equals, losing the 'starting with France as the prime example' framing that をはじめ provides.",
+        "ほか means 'others' and would need a different structure (フランスのほかに…); it can't slot directly before はじめ to introduce France as the leading member of the group."
       ],
       "hiragana_full": "ふらんすをはじめ、よーろっぱしょこくをほうもんした。",
       "audio_alternatives": [
@@ -139,7 +139,7 @@
         },
         {
           "kanji": "アジアの言語、特に中国語を学んでいます。",
-          "hiragana_full": "アジアのげんごをまなんでいます、とくにちゅうごくごをまなんでいます。"
+          "hiragana_full": "アジアのげんご、とくにちゅうごくごをまなんでいます。"
         }
       ],
       "audio_eligible": true
@@ -150,14 +150,14 @@
       "translation": "Starting with baseball, I enjoy various sports.",
       "blank_target": "を",
       "wrong_choices": [
-        "に対して",
-        "について",
-        "に関して"
+        "で",
+        "から",
+        "へ"
       ],
       "wrong_choice_explanations": [
-        "に対して means 'toward' or 'against' — it doesn't fit here because we need をはじめ to show baseball as the primary example.",
-        "について means 'about' or 'concerning' — it doesn't fit here because we're not discussing baseball, but using it as an example.",
-        "に関して means 'regarding' — it doesn't fit here because we need をはじめ to establish baseball as the starting point of examples."
+        "で would mark baseball as a means or location ('with baseball'), but はじめ needs を to flag baseball as the representative member of the sport list.",
+        "から would say 'from baseball' as a starting time or source, not as a leading example of the broader category 様々なスポーツ.",
+        "へ marks direction ('toward baseball'), which doesn't combine with はじめ to introduce a list — that role is reserved for を."
       ],
       "hiragana_full": "やきゅうをはじめ、さまざまなスポーツをたのしんでいる。",
       "audio_alternatives": [
@@ -267,9 +267,9 @@
         "として"
       ],
       "wrong_choice_explanations": [
-        "という means 'called' or 'that' — it doesn't fit here because we need をはじめ to show sushi as the primary example.",
-        "といった means 'such as' — while similar in meaning, it doesn't fit the をはじめ pattern structure.",
-        "として means 'as' — it doesn't fit here because we need をはじめ to establish sushi as the starting point of examples."
+        "という would mean 'a thing called sushi' and frames sushi as a label, not as the leading example of Japanese cuisine the way をはじめ does.",
+        "といった ('such as sushi, ...') is a related listing pattern, but it treats sushi as one example among equals, while をはじめ singles sushi out as the representative item.",
+        "として means 'as sushi,' assigning sushi a role or capacity, not introducing it as the foremost member of a wider category."
       ],
       "hiragana_full": "すしをはじめ、にほんりょうりがにんきです。",
       "audio_alternatives": [

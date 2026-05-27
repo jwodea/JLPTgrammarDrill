@@ -15,19 +15,19 @@
         "ので"
       ],
       "wrong_choice_explanations": [
-        "ながら means 'while doing' — it doesn't fit here because it indicates simultaneous actions, not a resultant state.",
-        "ために means 'for the purpose of' — it doesn't fit here because it indicates purpose, not a completed state.",
-        "ので means 'because' — it doesn't fit here because it indicates reason, not the resultant state pattern."
+        "ながら attaches to the verb's i-stem (飾りながら) and means 'while hanging' — it describes simultaneous action, not the lingering result of someone having hung the picture.",
+        "ために would give 飾るためにある ('exists in order to decorate'), which makes ある a regular existence verb with a purpose, losing the resultant-state meaning of 〜てある.",
+        "ので is a clause connector meaning 'because,' so 飾るのである is a different structure entirely; only て can fuse with ある to express 'has been hung and remains so.'"
       ],
-      "hiragana_full": "かべにえがかざってある",
+      "hiragana_full": "かべにえがかざってある。",
       "audio_alternatives": [
         {
           "kanji": "壁に絵がかけてある。",
-          "hiragana_full": "かべにえがかけてある"
+          "hiragana_full": "かべにえがかけてある。"
         },
         {
           "kanji": "壁に絵が飾られている。",
-          "hiragana_full": "かべにえがかざられている"
+          "hiragana_full": "かべにえがかざられている。"
         }
       ],
       "audio_eligible": true
@@ -43,19 +43,19 @@
         "でも"
       ],
       "wrong_choice_explanations": [
-        "から means 'because/from' — it doesn't fit here because it indicates reason or starting point, not a completed state.",
-        "けれど means 'but/however' — it doesn't fit here because it indicates contrast, not the resultant state pattern.",
-        "でも means 'but/however' — it doesn't fit here because it's a conjunction, not part of expressing completed states."
+        "から after a dictionary-form verb means 'because/since,' so 置くからあります reads as 'because (someone) places it, it exists' — a causal chain, not the resultant state we need.",
+        "けれど is a contrastive conjunction; 置くけれどあります would awkwardly mean 'they place it, but it exists,' which makes no sense as a description of books sitting on a desk.",
+        "でも links contrasting clauses and cannot bridge a verb stem to ある; the て-form is the only connector that lets the action's result persist as a visible state."
       ],
-      "hiragana_full": "つくえのうえにほんがおいてあります",
+      "hiragana_full": "つくえのうえにほんがおいてあります。",
       "audio_alternatives": [
         {
           "kanji": "机の上に本があります。",
-          "hiragana_full": "つくえのうえにほんがあります"
+          "hiragana_full": "つくえのうえにほんがあります。"
         },
         {
           "kanji": "本が机の上に置いてあります。",
-          "hiragana_full": "ほんがつくえのうえにおいてあります"
+          "hiragana_full": "ほんがつくえのうえにおいてあります。"
         }
       ],
       "audio_eligible": true
@@ -71,9 +71,9 @@
         "まま"
       ],
       "wrong_choice_explanations": [
-        "ところ means 'place' or 'just about to' — it doesn't fit here because it doesn't express a completed preparatory state.",
-        "ばかり means 'just/only' — it doesn't fit here because it indicates recent completion without the preparatory nuance.",
-        "まま means 'as it is/while remaining' — it doesn't fit here because it indicates unchanged state, not intentional preparation."
+        "ところ marks a stage in an action (about to / in the middle of); 冷やすところがあります would mean 'there is a place/moment for chilling,' not 'the juice has been chilled and is ready.'",
+        "ばかり after て expresses 'just (finished) doing' or 'nothing but'; 冷やしばかりある is broken Japanese, and even 冷やしてばかりある would focus on repetition, not on someone having prepared chilled juice.",
+        "まま (V-た+まま) describes a state someone leaves unchanged, but it cannot link directly to ある; 〜てある is what flags that the chilling was done deliberately, with the result still in place."
       ],
       "hiragana_full": "れいぞうこにジュースがひやしてあります。",
       "audio_alternatives": [
@@ -99,19 +99,19 @@
         "ほど"
       ],
       "wrong_choice_explanations": [
-        "だけ means 'only' — it doesn't fit here because it indicates limitation, not a completed preparatory state.",
-        "しか means 'only' (with negative) — it doesn't fit here because it indicates exclusivity, not the resultant state pattern.",
-        "ほど means 'to the extent of' — it doesn't fit here because it indicates degree, not completed states."
+        "だけ is a limiting particle; 開けるだけある would mean 'there is only the act of opening,' not 'the window has been opened and left that way.'",
+        "しか pairs with a negative and marks exclusivity (開けるしかない = 'no choice but to open'); it cannot link a verb to ある to convey a maintained result.",
+        "ほど expresses degree or extent (V-る + ほど), so 開けるほどある would read as 'there is to the extent of opening,' a comparison phrase rather than a description of the window's current state."
       ],
-      "hiragana_full": "まどがあけてある",
+      "hiragana_full": "まどがあけてある。",
       "audio_alternatives": [
         {
           "kanji": "窓は開けてある。",
-          "hiragana_full": "まどはあけてある"
+          "hiragana_full": "まどはあけてある。"
         },
         {
           "kanji": "窓が開いている。",
-          "hiragana_full": "まどがあいている"
+          "hiragana_full": "まどがあいている。"
         }
       ],
       "audio_eligible": true
@@ -127,27 +127,27 @@
         "うち"
       ],
       "wrong_choice_explanations": [
-        "とき means 'when/time' — it doesn't fit here because it indicates timing, not a completed preparatory state.",
-        "あいだ means 'during/while' — it doesn't fit here because it indicates duration, not the resultant state pattern.",
-        "うち means 'while/during' — it doesn't fit here because it indicates a time period, not completed states."
+        "とき marks a point in time (洗うとき = 'when washing'); pairing it with あった would describe a time at which something existed, not the lingering result of someone having washed the car.",
+        "あいだ frames an interval — 洗うあいだ means 'during the washing,' which fixes attention on the duration of the action rather than its finished, visible outcome.",
+        "うち names a span of time before something changes (洗ううちに = 'while washing'); only the て-form lets the verb's effect persist as a state described by ある/あった."
       ],
-      "hiragana_full": "くるまがあらってあった",
+      "hiragana_full": "くるまがあらってあった。",
       "audio_alternatives": [
         {
           "kanji": "車は洗ってあった。",
-          "hiragana_full": "くるまはあらってあった"
+          "hiragana_full": "くるまはあらってあった。"
         },
         {
           "kanji": "車が洗われていた。",
-          "hiragana_full": "くるまがあらわれていた"
+          "hiragana_full": "くるまがあらわれていた。"
         }
       ],
       "audio_eligible": true
     },
     {
       "id": "n4_040_6",
-      "example_sentence": "薬が買ってあるから、安心してください。",
-      "translation": "Medicine has been bought, so please don't worry.",
+      "example_sentence": "薬が買ってあるから、もう心配はいらない。",
+      "translation": "Medicine has been bought, so there's no need to worry anymore.",
       "blank_target": "て",
       "wrong_choices": [
         "にくい",
@@ -155,11 +155,11 @@
         "がたい"
       ],
       "wrong_choice_explanations": [
-        "にくい means 'difficult to' — it doesn't fit here because it expresses difficulty, not a completed state.",
-        "やすい means 'easy to' — it doesn't fit here because it indicates ease of action, not resultant states.",
-        "がたい means 'hard to' — it doesn't fit here because it expresses difficulty, not the completed state pattern."
+        "にくい attaches to the verb stem to describe difficulty (買いにくい = 'hard to buy'); it would say something about the act, not reassure the listener that the medicine has already been bought and is ready.",
+        "やすい also attaches to the stem and means 'easy to' (買いやすい = 'easy to buy') — again a property of the action, not a finished result you can lean on for comfort.",
+        "がたい is a stiff 'difficult to' suffix on the stem (信じがたい = 'hard to believe'); it characterizes the verb itself rather than reporting, like 〜てある does, that the action has been completed in preparation."
       ],
-      "hiragana_full": "くすりがかってあるから、あんしんしてください。",
+      "hiragana_full": "くすりがかってあるから、もうしんぱいはいらない。",
       "audio_alternatives": [
         {
           "kanji": "薬を買っておいたので、安心してください。",
@@ -183,9 +183,9 @@
         "そうだ"
       ],
       "wrong_choice_explanations": [
-        "たい means 'want to' — it doesn't fit here because it expresses desire, not completed preparation.",
-        "たがる means 'want to' (third person) — it doesn't fit here because it indicates desire, not actual completed states.",
-        "そうだ means 'looks like/about to' — it doesn't fit here because it indicates appearance or hearsay, not definite completed preparation."
+        "たい on the stem expresses the speaker's desire (したい = 'want to do'); it would describe someone wanting to prepare the party, not that the preparations are already in place.",
+        "たがる reports a third person's desire (したがる = 'wants to do'); again it speaks of an attitude toward the action, not of preparations that have actually been completed.",
+        "そうだ on the stem gives appearance ('looks like it will happen'); it conveys impression rather than the assured, observable result that 〜てある reports."
       ],
       "hiragana_full": "パーティーのじゅんびがしてあります。",
       "audio_alternatives": [
@@ -211,9 +211,9 @@
         "がち"
       ],
       "wrong_choice_explanations": [
-        "すぎる means 'too much/excessive' — it doesn't fit here because it indicates excess, not a completed state.",
-        "すぎて means 'too much/excessive' — it doesn't fit here because it expresses excess, not actual completed preparation.",
-        "がち means 'tend to' — it doesn't fit here because it expresses tendency, not a definite resultant state."
+        "すぎる attaches to the stem to mean 'too much' (消しすぎる = 'turn off too many'); it judges the degree of the action rather than reporting a lingering switched-off state.",
+        "すぎて is the て-form of すぎる ('so much that...'); 消しすぎて暗い would mean 'too many lights were turned off, so it's dark' — the focus shifts from result to excess.",
+        "がち on the stem means 'prone to' (消しがち = 'tends to turn off'); it describes a habit, not the deliberate, currently-in-effect action that 〜てある expresses."
       ],
       "hiragana_full": "でんきがけしてあるので、くらいです。",
       "audio_alternatives": [
@@ -230,8 +230,8 @@
     },
     {
       "id": "n4_040_9",
-      "example_sentence": "宿題がやってあるかどうか確認してください。",
-      "translation": "Please check whether the homework has been done.",
+      "example_sentence": "宿題がやってあるかどうか確認をお願いします。",
+      "translation": "Please confirm whether the homework has been done.",
       "blank_target": "て",
       "wrong_choices": [
         "始める",
@@ -239,19 +239,19 @@
         "終わる"
       ],
       "wrong_choice_explanations": [
-        "始める means 'to begin' — it doesn't fit here because it indicates starting, not completed states.",
-        "続ける means 'to continue' — it doesn't fit here because it indicates ongoing action, not the resultant state pattern.",
-        "終わる means 'to end' — it doesn't fit here because it's an intransitive verb, not the completed preparation pattern."
+        "始める attaches to the stem to mean 'start doing' (やり始める = 'start doing'); the check would be whether the homework was begun, not whether it has actually been finished and left in that state.",
+        "続ける on the stem means 'keep doing' (やり続ける); it describes an action in progress, not the completed, verifiable result that 〜てある reports.",
+        "終わる on the stem means 'finish doing' (やり終わる), which sounds close but emphasizes the moment of completion rather than the result remaining there for inspection — and it cannot directly link to ある."
       ],
-      "hiragana_full": "しゅくだいがやってあるかどうかかくにんしてください",
+      "hiragana_full": "しゅくだいがやってあるかどうかかくにんをおねがいします。",
       "audio_alternatives": [
         {
           "kanji": "宿題が終わっているかどうか確認してください。",
-          "hiragana_full": "しゅくだいがおわっているかどうかかくにんしてください"
+          "hiragana_full": "しゅくだいがおわっているかどうかかくにんしてください。"
         },
         {
           "kanji": "宿題がやってあるか確かめてください。",
-          "hiragana_full": "しゅくだいがやってあるかたしかめてください"
+          "hiragana_full": "しゅくだいがやってあるかたしかめてください。"
         }
       ],
       "audio_eligible": true
@@ -267,19 +267,19 @@
         "くる"
       ],
       "wrong_choice_explanations": [
-        "いる means 'to exist/be' — it doesn't fit here because it doesn't complete the てある pattern for resultant states.",
-        "いた means 'was/existed' — it doesn't fit here because it's past tense of いる, not part of the completed preparation pattern.",
-        "くる means 'to come' — it doesn't fit here because it indicates movement, not a resultant state."
+        "洗っている would describe the dishes as currently being washed (action in progress); 〜てある instead spotlights the completed result that someone left behind — the dishes are now clean.",
+        "洗っていた pushes the action into the past progressive ('was washing them'), which doesn't reassure the listener that the dishes are clean right now the way 洗ってある does.",
+        "洗ってくる means 'go wash and come back,' a directional sequence; 〜てある is what flags that the washing was done intentionally and the dishes remain in that state."
       ],
-      "hiragana_full": "おさらがあらってありますよ",
+      "hiragana_full": "おさらがあらってありますよ。",
       "audio_alternatives": [
         {
           "kanji": "お皿は洗ってあります。",
-          "hiragana_full": "おさらはあらってあります"
+          "hiragana_full": "おさらはあらってあります。"
         },
         {
           "kanji": "お皿が洗われています。",
-          "hiragana_full": "おさらがあらわれています"
+          "hiragana_full": "おさらがあらわれています。"
         }
       ],
       "audio_eligible": true

@@ -15,9 +15,9 @@
         "によって"
       ],
       "wrong_choice_explanations": [
-        "があってこそ emphasizes 'only with' but has different structural constraints than あっての.",
-        "のおかげで means 'thanks to' but is more casual and doesn't create the attributive construction that あっての requires.",
-        "によって indicates agency or means but doesn't express the exclusive dependency that あっての conveys."
+        "があってこそ carries the same 'only because there is' nuance, but it is a clause-final emphatic form ('〜こそ Y する/だ') and cannot attach directly to a noun like 結果 the way あっての does.",
+        "のおかげで is an adverbial 'thanks to' that modifies a verb or whole clause; it cannot slot in before 結果だ to mean 'a result that owes its existence to family support'.",
+        "によって points to means or agent ('by means of family support'), not the existential 'wouldn't exist without it' dependency that あっての uniquely carries."
       ],
       "hiragana_full": "きょうのせいこうは、かぞくのささえあってのけっかだ。",
       "audio_alternatives": [
@@ -43,9 +43,9 @@
         "を通じて"
       ],
       "wrong_choice_explanations": [
-        "があればこそ means 'only because there is' but uses different structural patterns than あっての.",
-        "のせいで indicates blame or negative causation, which doesn't fit the positive context of company development.",
-        "を通じて means 'through' or 'via' but doesn't express the foundational dependency that あっての conveys."
+        "があればこそ means 'precisely because (X) exists', but it ends a clause and is followed by a verbal predicate; it cannot attach to 物 as a noun modifier the way あっての can.",
+        "のせいで marks a cause with negative consequences ('because of', as a complaint), which clashes with the positive evaluation 'company development'.",
+        "を通じて means 'through / by way of' and points to a channel or medium — not the foundational 'wouldn't exist without it' dependency that あっての conveys."
       ],
       "hiragana_full": "このかいしゃのはってんは、じゅうぎょういんのけんしんてきなどりょくあってのものだとおもう。",
       "audio_alternatives": [
@@ -55,7 +55,7 @@
         },
         {
           "kanji": "従業員の献身的な努力があるからこそ、この会社は発展できていると思う。",
-          "hiragana_full": "じゅうぎょういんのけんしんてきなどりょくがあるからこそ、このかいしゃははってんできていておもう。"
+          "hiragana_full": "じゅうぎょういんのけんしんてきなどりょくがあるからこそ、このかいしゃははってんできているとおもう。"
         }
       ],
       "audio_eligible": true
@@ -183,9 +183,9 @@
         "があったからの"
       ],
       "wrong_choice_explanations": [
-        "のおかげによる creates an awkward double particle structure that is grammatically incorrect.",
-        "によるところの means 'which comes from' but doesn't fit the structure needed before 結果.",
-        "があったからの is grammatically awkward and doesn't create the proper attributive construction."
+        "のおかげによる stacks two cause-markers awkwardly and reads as a literal translation of 'due to thanks to'; native usage would pick one or the other, and neither captures あっての's existential dependency.",
+        "によるところの means 'attributable to' and is grammatical, but it frames the coach's guidance as a contributing factor rather than the indispensable foundation あっての implies.",
+        "があったからの reads like 'a result of the fact that there was guidance'; it is awkward as a noun-modifier and lacks the formal, foundational nuance of あっての."
       ],
       "hiragana_full": "ちーむのしょうりは、かんとくのてきかくなしどうあってのけっかにほかならない。",
       "audio_alternatives": [
@@ -211,9 +211,9 @@
         "のせいでの"
       ],
       "wrong_choice_explanations": [
-        "による恩恵 creates redundant phrasing since 恩恵 already implies benefit from something.",
-        "があっての恩恵 is grammatically incorrect; あっての doesn't use the が particle in this construction.",
-        "のせいでの implies negative causation, which contradicts the positive meaning of 恩恵 (benefit)."
+        "による恩恵 means 'a benefit caused by'; it would create the redundant '苦労による恩恵恩恵だ' here, since 恩恵 already appears as the head noun the blank modifies.",
+        "があっての is conventionally written without the が when the preceding noun is the foundational element; the established idiom is 'Xあっての Y', so inserting が here sounds non-native even though logically close.",
+        "のせいでの marks negative causation ('because of'), which clashes with the positive evaluation 恩恵 ('blessing/benefit')."
       ],
       "hiragana_full": "いまのゆたかなせいかつは、せんじんたちのくろうあってのおんけいだ。",
       "audio_alternatives": [

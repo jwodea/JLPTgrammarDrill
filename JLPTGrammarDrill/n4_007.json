@@ -146,8 +146,8 @@
     },
     {
       "id": "n4_007_6",
-      "example_sentence": "近所の人が野菜をくれてくれた。",
-      "translation": "The neighbor gave me vegetables.",
+      "example_sentence": "近所の人が野菜を分けてくれた。",
+      "translation": "My neighbor shared some vegetables with me.",
       "blank_target": "て",
       "wrong_choices": [
         "まで",
@@ -155,19 +155,19 @@
         "ほど"
       ],
       "wrong_choice_explanations": [
-        "まで means 'until/up to' — it indicates limits, not receiving beneficial actions from others.",
-        "など means 'such as/etc.' — it gives examples rather than connecting verbs for receiving favors.",
-        "ほど means 'extent/about' — it shows degree or approximation, not beneficial actions received."
+        "まで means 'until/up to' and marks a limit; it can't link 分け to くれた to express the kind act being done for the speaker.",
+        "など means 'such as/etc.' and introduces examples; it doesn't connect a verb stem to くれる to form the benefactive 〜てくれる construction.",
+        "ほど indicates degree or approximation; it can't form the 〜てくれる pattern needed to show the neighbor's action benefiting the speaker."
       ],
-      "hiragana_full": "きんじょのひとがやさいをくれてくれた。",
+      "hiragana_full": "きんじょのひとがやさいをわけてくれた。",
       "audio_alternatives": [
         {
-          "kanji": "近所の人が野菜をくれた。",
-          "hiragana_full": "きんじょのひとがやさいをくれた。"
+          "kanji": "近所の人が野菜を分けてくれました。",
+          "hiragana_full": "きんじょのひとがやさいをわけてくれました。"
         },
         {
-          "kanji": "近所の人が野菜をくださった。",
-          "hiragana_full": "きんじょのひとがやさいをくださった。"
+          "kanji": "近所の方が野菜を持ってきてくれた。",
+          "hiragana_full": "きんじょのかたがやさいをもってきてくれた。"
         }
       ],
       "audio_eligible": true

@@ -6,20 +6,20 @@
   "exercises": [
     {
       "id": "n1_040_1",
-      "example_sentence": "電車が駅に着いたや否や、乗客が一斉にドアに向かった。",
+      "example_sentence": "電車が駅に着くや否や、乗客が一斉にドアに向かった。",
       "translation": "As soon as the train arrived at the station, passengers all headed for the doors at once.",
       "blank_target": "や否や",
       "wrong_choices": [
         "そばから",
-        "と同時に",
-        "した途端に"
+        "に先立って",
+        "につれて"
       ],
       "wrong_choice_explanations": [
-        "そばから emphasizes repeated frustration or continuous action, while や否や marks a single decisive instant.",
-        "と同時に indicates simultaneity but lacks the emphatic immediacy conveyed by や否や.",
-        "した途端に means 'the moment' but doesn't carry the literary formality and finality of や否や."
+        "そばから marks an action that recurs right after each instance ('no sooner does it arrive than…'), implying a repeated pattern, but this sentence describes one specific arrival, which や否や frames as a single instant.",
+        "に先立って means 'prior to,' which would put the passengers' rush before the train's arrival — the reverse of や否や, where the rush follows the arrival the instant it happens.",
+        "につれて describes a gradual, proportional change ('as the train slowly pulls in'), whereas や否や marks one sudden trigger, not a slow process."
       ],
-      "hiragana_full": "でんしゃがえきについたやいなや、じょうきゃくがいっせいにドアにむかった。",
+      "hiragana_full": "でんしゃがえきにつくやいなや、じょうきゃくがいっせいにドアにむかった。",
       "audio_alternatives": [
         {
           "kanji": "電車が駅に着くなり、乗客が一斉にドアに向かった。",
@@ -34,20 +34,20 @@
     },
     {
       "id": "n1_040_2",
-      "example_sentence": "会議が終了したや否や、参加者は次の予定に向かって散らばった。",
+      "example_sentence": "会議が終了するや否や、参加者は次の予定に向かって散らばった。",
       "translation": "The instant the meeting ended, participants scattered off to their next appointments.",
       "blank_target": "や否や",
       "wrong_choices": [
-        "するなり",
-        "と共に",
-        "から間もなく"
+        "ものの",
+        "に当たって",
+        "ばかりに"
       ],
       "wrong_choice_explanations": [
-        "するなり means 'as soon as' but is less formal and doesn't convey the emphatic finality of や否や.",
-        "と共に means 'together with' and indicates accompaniment, not the immediate sequence expressed by や否や.",
-        "から間もなく means 'shortly after' and allows for a time gap, while や否や indicates instantaneous action."
+        "ものの sets up a concession ('even though the meeting ended'), but や否や expresses immediate sequence — the meeting ending and people scattering — with no contrast between the clauses.",
+        "に当たって frames a deliberate occasion one prepares for ('in concluding the meeting'), while や否や stresses a split-second, spontaneous reaction.",
+        "ばかりに blames an unwelcome result on a cause ('simply because the meeting ended'), but や否や only links the two events in time, without assigning blame."
       ],
-      "hiragana_full": "かいぎがしゅうりょうしたやいなや、さんかしゃはつぎのよていにむかってちらばった。",
+      "hiragana_full": "かいぎがしゅうりょうするやいなや、さんかしゃはつぎのよていにむかってちらばった。",
       "audio_alternatives": [
         {
           "kanji": "会議が終了するが早いか、参加者は次の予定に向かって散らばった。",
@@ -62,24 +62,24 @@
     },
     {
       "id": "n1_040_3",
-      "example_sentence": "新製品が発表されたや否や、競合他社が類似商品の開発を開始した。",
+      "example_sentence": "新製品が発表されるや否や、競合他社が類似商品の開発を開始した。",
       "translation": "As soon as the new product was announced, competing companies began developing similar products.",
       "blank_target": "や否や",
       "wrong_choices": [
-        "してすぐに",
-        "に伴って",
-        "を機に"
+        "にもかかわらず",
+        "一方で",
+        "たびに"
       ],
       "wrong_choice_explanations": [
-        "してすぐに is more casual and doesn't carry the formal literary tone of や否や.",
-        "に伴って means 'in accordance with' and indicates gradual change rather than immediate action.",
-        "を機に means 'taking the opportunity of' and suggests planned action rather than instant reaction."
+        "にもかかわらず concedes a contrast ('despite the announcement'), whereas や否や presents the announcement as the immediate trigger for the rivals' move.",
+        "一方で contrasts two coexisting situations ('while it was announced, on the other hand…'), but や否や puts one event right after the other in time.",
+        "たびに means 'every time it is announced,' implying repeated announcements, but this describes a single product launch — the one instant や否や captures."
       ],
-      "hiragana_full": "しんせいひんがはっぴょうされたやいなや、きょうごうたしゃがるいじしょうひんのかいはつをかいしした。",
+      "hiragana_full": "しんせいひんがはっぴょうされるやいなや、きょうごうたしゃがるいじしょうひんのかいはつをかいしした。",
       "audio_alternatives": [
         {
-          "kanji": "新製品が発表されるや否や、競合他社が類似商品の開発を開始した。",
-          "hiragana_full": "しんせいひんがはっぴょうされるやいなや、きょうごうたしゃがるいじしょうひんのかいはつをかいしした。"
+          "kanji": "新製品が発表されるなり、競合他社が類似商品の開発を開始した。",
+          "hiragana_full": "しんせいひんがはっぴょうされるなり、きょうごうたしゃがるいじしょうひんのかいはつをかいしした。"
         },
         {
           "kanji": "新製品が発表されるが早いか、競合他社が類似商品の開発を開始した。",
@@ -90,20 +90,20 @@
     },
     {
       "id": "n1_040_4",
-      "example_sentence": "警報が鳴ったや否や、全員が避難場所に向かった。",
+      "example_sentence": "警報が鳴るや否や、全員が避難場所に向かった。",
       "translation": "The instant the alarm sounded, everyone headed for the evacuation site.",
       "blank_target": "や否や",
       "wrong_choices": [
-        "かと思うと",
         "ばかりに",
-        "と見るや"
+        "どころか",
+        "ものの"
       ],
       "wrong_choice_explanations": [
-        "かと思うと indicates surprise at quick succession but doesn't fit the formal context of emergency procedures.",
-        "ばかりに means 'just because' and indicates cause-effect, not temporal immediacy.",
-        "と見るや means 'upon seeing' and requires visual confirmation, which doesn't fit with hearing an alarm."
+        "ばかりに pins an unfortunate outcome on a cause ('just because the alarm sounded'), but や否や simply marks the alarm as the instant trigger for the evacuation.",
+        "どころか overturns an expectation ('far from sounding'), whereas や否や takes the alarm sounding as a given and reports what happened the moment it did.",
+        "ものの concedes a contrast ('although the alarm sounded'), but や否や signals smooth, immediate succession, not a clash between the clauses."
       ],
-      "hiragana_full": "けいほうがなったやいなや、ぜんいんがひなんばしょにむかった。",
+      "hiragana_full": "けいほうがなるやいなや、ぜんいんがひなんばしょにむかった。",
       "audio_alternatives": [
         {
           "kanji": "警報が鳴った途端、全員が避難場所に向かった。",
@@ -118,24 +118,24 @@
     },
     {
       "id": "n1_040_5",
-      "example_sentence": "桜が咲いたや否や、公園は花見客で賑わった。",
+      "example_sentence": "桜が咲くや否や、公園は花見客で賑わった。",
       "translation": "As soon as the cherry blossoms bloomed, the park became lively with flower-viewing visitors.",
       "blank_target": "や否や",
       "wrong_choices": [
-        "とたんに",
-        "次第",
-        "に連れて"
+        "につれて",
+        "そばから",
+        "に先立って"
       ],
       "wrong_choice_explanations": [
-        "とたんに means 'suddenly' but lacks the formal literary quality of や否や.",
-        "次第 means 'depending on' and indicates conditional relationship rather than temporal sequence.",
-        "に連れて means 'as/while' and indicates gradual change over time, not instant reaction."
+        "につれて tracks a gradual change ('as the blossoms slowly open'), whereas や否や marks a single sudden moment when the crowds appeared.",
+        "そばから implies a repeating cycle ('no sooner do they bloom each time than…'), but this describes one season's burst of blossoms, which や否や frames as one instant.",
+        "に先立って means 'prior to blooming,' placing the crowds before the blossoms — the opposite order from や否や's 'the moment they bloomed, the park filled up.'"
       ],
-      "hiragana_full": "さくらがさいたやいなや、こうえんははなみきゃくでにぎわった。",
+      "hiragana_full": "さくらがさくやいなや、こうえんははなみきゃくでにぎわった。",
       "audio_alternatives": [
         {
-          "kanji": "桜が咲くや否や、公園は花見客で賑わった。",
-          "hiragana_full": "さくらがさくやいなや、こうえんははなみきゃくでにぎわった。"
+          "kanji": "桜が咲くなり、公園は花見客で賑わった。",
+          "hiragana_full": "さくらがさくなり、こうえんははなみきゃくでにぎわった。"
         },
         {
           "kanji": "桜が咲いたとたん、公園は花見客で賑わった。",
@@ -146,24 +146,24 @@
     },
     {
       "id": "n1_040_6",
-      "example_sentence": "新しい政権が発足したや否や、改革政策の実行が開始された。",
+      "example_sentence": "新しい政権が発足するや否や、改革政策の実行が開始された。",
       "translation": "As soon as the new administration took office, the implementation of reform policies began.",
       "blank_target": "や否や",
       "wrong_choices": [
-        "から間もなく",
-        "と共に",
-        "した途端"
+        "に際して",
+        "一方で",
+        "に当たって"
       ],
       "wrong_choice_explanations": [
-        "から間もなく means 'shortly after' and allows time to pass, whereas や否や means the very instant.",
-        "と共に means 'along with' and suggests simultaneity, not the 'as soon as' immediacy of や否や.",
-        "した途端 means 'the instant' but lacks the emphatic finality of や否や."
+        "に際して marks a notable occasion ('on the occasion of taking office'), suggesting planned timing, while や否や emphasizes an immediate, almost reflexive follow-up.",
+        "一方で contrasts two parallel situations ('on one hand the government launched…'), but や否や chains one event directly to the next.",
+        "に当たって frames a deliberate undertaking ('in launching the new government'), whereas や否や stresses the instant the launch happened, not the preparation around it."
       ],
-      "hiragana_full": "あたらしいせいけんがほっそくしたやいなや、かいかくせいさくのじっこうがかいしされた。",
+      "hiragana_full": "あたらしいせいけんがほっそくするやいなや、かいかくせいさくのじっこうがかいしされた。",
       "audio_alternatives": [
         {
-          "kanji": "新しい政権が発足するや否や、改革政策の実行が始まった。",
-          "hiragana_full": "あたらしいせいけんがほっそくするやいなや、かいかくせいさくのじっこうがはじまった。"
+          "kanji": "新しい政権が発足するなり、改革政策の実行が開始された。",
+          "hiragana_full": "あたらしいせいけんがほっそくするなり、かいかくせいさくのじっこうがかいしされた。"
         },
         {
           "kanji": "新政権が発足するが早いか、改革政策の実施が開始された。",
@@ -174,24 +174,24 @@
     },
     {
       "id": "n1_040_7",
-      "example_sentence": "サステナビリティ基準が発表されたや否や、企業の対応が迫られた。",
+      "example_sentence": "サステナビリティ基準が発表されるや否や、企業の対応が迫られた。",
       "translation": "As soon as sustainability standards were announced, companies were forced to respond.",
       "blank_target": "や否や",
       "wrong_choices": [
-        "に際して",
-        "を契機に",
-        "に当たって"
+        "に先立って",
+        "にもかかわらず",
+        "たびに"
       ],
       "wrong_choice_explanations": [
-        "に際して means 'on the occasion of' and indicates preparation for an event, not instant reaction.",
-        "を契機に means 'triggered by' and suggests a catalyst for change, not immediate temporal sequence.",
-        "に当たって means 'in the face of' and indicates confronting a situation, not temporal immediacy."
+        "に先立って means 'prior to the announcement,' which reverses the order — や否や has the pressure on companies follow the announcement the instant it was made.",
+        "にもかかわらず concedes a contrast ('despite the standards being announced'), but や否や makes the announcement the immediate cause of the pressure.",
+        "たびに means 'each time they are announced,' implying repetition, but this is a one-time announcement — the single instant や否や marks."
       ],
-      "hiragana_full": "さすてなびりてぃきじゅんがはっぴょうされたやいなや、きぎょうのたいおうがせまられた。",
+      "hiragana_full": "さすてなびりてぃきじゅんがはっぴょうされるやいなや、きぎょうのたいおうがせまられた。",
       "audio_alternatives": [
         {
-          "kanji": "サステナビリティ基準が発表されるや否や、企業の対応が迫られた。",
-          "hiragana_full": "さすてなびりてぃきじゅんがはっぴょうされるやいなや、きぎょうのたいおうがせまられた。"
+          "kanji": "サステナビリティ基準が発表されるなり、企業の対応が迫られた。",
+          "hiragana_full": "さすてなびりてぃきじゅんがはっぴょうされるなり、きぎょうのたいおうがせまられた。"
         },
         {
           "kanji": "サステナビリティ基準が発表されるや、企業は対応を迫られた。",
@@ -202,24 +202,24 @@
     },
     {
       "id": "n1_040_8",
-      "example_sentence": "その理論が提示されたや否や、学界は論争に巻き込まれた。",
+      "example_sentence": "その理論が提示されるや否や、学界は論争に巻き込まれた。",
       "translation": "As soon as that theory was presented, academia was drawn into controversy.",
       "blank_target": "や否や",
       "wrong_choices": [
-        "のを境に",
-        "を皮切りに",
-        "に基づいて"
+        "どころか",
+        "ものの",
+        "に当たって"
       ],
       "wrong_choice_explanations": [
-        "のを境に means 'taking as a turning point' and indicates a dividing line, not immediate reaction.",
-        "を皮切りに means 'starting with' and indicates the beginning of a series, not instant response.",
-        "に基づいて means 'based on' and indicates foundation or reasoning, not temporal sequence."
+        "どころか overturns an expectation ('far from being presented'), whereas や否や takes the theory's presentation as the trigger for the controversy that immediately followed.",
+        "ものの sets up a concession ('even though the theory was presented'), but や否や expresses immediate succession without any contrast.",
+        "に当たって frames a deliberate occasion ('in presenting the theory'), while や否や emphasizes the split second between presentation and uproar."
       ],
-      "hiragana_full": "そのりろんがていじされたやいなや、がっかいはろんそうにまきこまれた。",
+      "hiragana_full": "そのりろんがていじされるやいなや、がっかいはろんそうにまきこまれた。",
       "audio_alternatives": [
         {
-          "kanji": "その理論が提示されるやいなや、学界は論争に巻き込まれた。",
-          "hiragana_full": "そのりろんがていじされるやいなや、がっかいはろんそうにまきこまれた。"
+          "kanji": "その理論が提示されるなり、学界は論争に巻き込まれた。",
+          "hiragana_full": "そのりろんがていじされるなり、がっかいはろんそうにまきこまれた。"
         },
         {
           "kanji": "その理論が提示されたとたん、学界は論争に巻き込まれた。",
@@ -230,24 +230,24 @@
     },
     {
       "id": "n1_040_9",
-      "example_sentence": "新しい会長が就任したや否や、大規模な人事異動が行われた。",
+      "example_sentence": "新しい会長が就任するや否や、大規模な人事異動が行われた。",
       "translation": "As soon as the new chairman took office, a large-scale personnel reorganization took place.",
       "blank_target": "や否や",
       "wrong_choices": [
-        "に関して",
-        "に関連して",
-        "につれて"
+        "に際して",
+        "たびに",
+        "どころか"
       ],
       "wrong_choice_explanations": [
-        "に関して means 'concerning' and indicates topic relation, not temporal immediacy.",
-        "に関連して means 'in connection with' and indicates association, not immediate temporal sequence.",
-        "につれて means 'as/along with' and indicates gradual change over time, not instant action."
+        "に際して marks a formal occasion ('on the occasion of taking office'), implying measured timing, while や否や stresses the personnel shake-up coming the instant he took office.",
+        "たびに means 'every time he takes office,' implying a recurring event, but a chairman takes office once — the single instant や否や captures.",
+        "どころか overturns an expectation ('far from taking office'), whereas や否や treats his taking office as the immediate trigger for the reshuffle."
       ],
-      "hiragana_full": "あたらしいかいちょうがしゅうにんしたやいなや、だいきぼなじんじいどうがおこなわれた。",
+      "hiragana_full": "あたらしいかいちょうがしゅうにんするやいなや、だいきぼなじんじいどうがおこなわれた。",
       "audio_alternatives": [
         {
-          "kanji": "新しい会長が就任するや否や、大規模な人事異動が行われた。",
-          "hiragana_full": "あたらしいかいちょうがしゅうにんするやいなや、だいきぼなじんじいどうがおこなわれた。"
+          "kanji": "新しい会長が就任した途端、大規模な人事異動が行われた。",
+          "hiragana_full": "あたらしいかいちょうがしゅうにんしたとたん、だいきぼなじんじいどうがおこなわれた。"
         },
         {
           "kanji": "新しい会長が就任するなり、大規模な人事異動が行われた。",
@@ -258,24 +258,24 @@
     },
     {
       "id": "n1_040_10",
-      "example_sentence": "医療AIが導入されたや否や、医師たちから様々な懸念が表明された。",
+      "example_sentence": "医療AIが導入されるや否や、医師たちから様々な懸念が表明された。",
       "translation": "As soon as medical AI was introduced, various concerns were expressed by physicians.",
       "blank_target": "や否や",
       "wrong_choices": [
-        "に先立って",
-        "に応じて",
-        "をめぐって"
+        "につれて",
+        "にもかかわらず",
+        "ばかりに"
       ],
       "wrong_choice_explanations": [
-        "に先立って means 'prior to' and indicates something happening before, opposite of や否や's meaning.",
-        "に応じて means 'in response to' and indicates adaptation or proportional response, not immediate temporal sequence.",
-        "をめぐって means 'concerning/around' and indicates discussion about a topic, not temporal immediacy."
+        "につれて describes a gradual change ('as medical AI is rolled out little by little'), whereas や否や marks one sudden moment when concerns erupted.",
+        "にもかかわらず concedes a contrast ('despite the introduction of medical AI'), but や否や makes the introduction the immediate trigger for the doctors' concerns.",
+        "ばかりに blames a result on a cause ('merely because medical AI was introduced'), but や否や only sequences the introduction and the reaction in time."
       ],
-      "hiragana_full": "いりょうえーあいがどうにゅうされたやいなや、いしたちからさまざまなけねんがひょうめいされた。",
+      "hiragana_full": "いりょうえーあいがどうにゅうされるやいなや、いしたちからさまざまなけねんがひょうめいされた。",
       "audio_alternatives": [
         {
-          "kanji": "医療AIが導入されるや否や、医師たちから様々な懸念が表明された。",
-          "hiragana_full": "いりょうえーあいがどうにゅうされるやいなや、いしたちからさまざまなけねんがひょうめいされた。"
+          "kanji": "医療AIが導入された途端、医師たちから様々な懸念が表明された。",
+          "hiragana_full": "いりょうえーあいがどうにゅうされたとたん、いしたちからさまざまなけねんがひょうめいされた。"
         },
         {
           "kanji": "医療AIが導入されるなり、医師たちから様々な懸念が表明された。",

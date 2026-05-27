@@ -17,17 +17,17 @@
       "wrong_choice_explanations": [
         "た is past tense form — it doesn't combine with ください to make polite requests.",
         "ます cannot directly connect to ください — the te-form is needed for polite requests.",
-        "で is a particle meaning 'at/by' — it cannot function as a verb connector with ください."
+        "で is the voiced te-form, used after verbs ending in む・ぶ・ぬ・ぐ (e.g. 読んで・遊んで); 待つ is a つ-verb, so its te-form is 待って with て, not で."
       ],
-      "hiragana_full": "ちょっとまってください",
+      "hiragana_full": "ちょっとまってください。",
       "audio_alternatives": [
         {
           "kanji": "少し待ってください。",
-          "hiragana_full": "すこしまってください"
+          "hiragana_full": "すこしまってください。"
         },
         {
           "kanji": "ちょっと待って。",
-          "hiragana_full": "ちょっとまって"
+          "hiragana_full": "ちょっとまって。"
         }
       ],
       "audio_eligible": true
@@ -44,7 +44,7 @@
       ],
       "wrong_choice_explanations": [
         "た indicates past tense — it doesn't work with ください to make present requests.",
-        "ない is negative form — it would create 'please don't open' which changes the meaning entirely.",
+        "ない is the plain negative; a negative request uses 〜ないでください (開けないでください = 'please don't open'), so ない alone can't attach to ください here.",
         "よう indicates volitional/intention — it doesn't combine with ください for making requests."
       ],
       "hiragana_full": "まどをあけてください。",
@@ -75,15 +75,15 @@
         "ます is polite form but doesn't connect to ください — te-form is required for requests.",
         "ば is conditional form — it doesn't combine with ください to make polite requests."
       ],
-      "hiragana_full": "もういちどいってください",
+      "hiragana_full": "もういちどいってください。",
       "audio_alternatives": [
         {
-          "kanji": "もう一度おっしゃってください",
-          "hiragana_full": "もういちどおっしゃってください"
+          "kanji": "もう一度おっしゃってください。",
+          "hiragana_full": "もういちどおっしゃってください。"
         },
         {
-          "kanji": "もう一回言ってください",
-          "hiragana_full": "もういっかいいってください"
+          "kanji": "もう一回言ってください。",
+          "hiragana_full": "もういっかいいってください。"
         }
       ],
       "audio_eligible": true
@@ -103,15 +103,15 @@
         "ながら means 'while doing' — it doesn't combine with ください to create polite requests.",
         "から means 'from/because' — it doesn't function as a verb connector with ください."
       ],
-      "hiragana_full": "しゅくだいをてつだってください",
+      "hiragana_full": "しゅくだいをてつだってください。",
       "audio_alternatives": [
         {
           "kanji": "宿題を手伝ってほしいです。",
-          "hiragana_full": "しゅくだいをてつだってほしいです"
+          "hiragana_full": "しゅくだいをてつだってほしいです。"
         },
         {
           "kanji": "宿題のことを手伝ってください。",
-          "hiragana_full": "しゅくだいのことをてつだってください"
+          "hiragana_full": "しゅくだいのことをてつだってください。"
         }
       ],
       "audio_eligible": true
@@ -129,17 +129,17 @@
       "wrong_choice_explanations": [
         "た indicates past action — it doesn't work with ください to make present requests.",
         "ます cannot directly connect to ください — the te-form is needed for polite requests.",
-        "ない is negative form — it would create 'please don't be quiet' which is the opposite meaning."
+        "ない is the plain negative; 'please don't be quiet' would be 静かにしないでください, so bare ない doesn't connect to ください — the te-form して is needed."
       ],
-      "hiragana_full": "しずかにしてください",
+      "hiragana_full": "しずかにしてください。",
       "audio_alternatives": [
         {
           "kanji": "静かにしろ。",
-          "hiragana_full": "しずかにしろ"
+          "hiragana_full": "しずかにしろ。"
         },
         {
           "kanji": "お静かにお願いします。",
-          "hiragana_full": "おしずかにおねがいします"
+          "hiragana_full": "おしずかにおねがいします。"
         }
       ],
       "audio_eligible": true
@@ -159,15 +159,15 @@
         "た is past tense — it doesn't create proper request structure with ください.",
         "ます cannot directly connect to ください — the te-form で is needed for polite requests."
       ],
-      "hiragana_full": "このほんをよんでください",
+      "hiragana_full": "このほんをよんでください。",
       "audio_alternatives": [
         {
           "kanji": "この本を読んでほしい。",
-          "hiragana_full": "このほんをよんでほしい"
+          "hiragana_full": "このほんをよんでほしい。"
         },
         {
           "kanji": "この本を読んでくれますか。",
-          "hiragana_full": "このほんをよんでくれますか"
+          "hiragana_full": "このほんをよんでくれますか。"
         }
       ],
       "audio_eligible": true
@@ -185,17 +185,17 @@
       "wrong_choice_explanations": [
         "た is past tense — it doesn't work with ください for making present requests.",
         "る is dictionary form — it doesn't connect with ください to make polite requests.",
-        "ない is negative form — it would mean 'please don't come' which is the opposite meaning."
+        "ない is the plain negative; 'please don't come' would be 来ないでください, so bare ない can't join ください here — the te-form 来て is required."
       ],
-      "hiragana_full": "はやくきてください",
+      "hiragana_full": "はやくきてください。",
       "audio_alternatives": [
         {
           "kanji": "急いで来てください。",
-          "hiragana_full": "いそいできてください"
+          "hiragana_full": "いそいできてください。"
         },
         {
           "kanji": "早く来て。",
-          "hiragana_full": "はやくきて"
+          "hiragana_full": "はやくきて。"
         }
       ],
       "audio_eligible": true
@@ -215,15 +215,15 @@
         "ながら means 'while doing' — it doesn't combine with ください to make polite requests.",
         "でしょう is used for probability/conjecture — it doesn't work with ください for making requests."
       ],
-      "hiragana_full": "なまえをかいてください",
+      "hiragana_full": "なまえをかいてください。",
       "audio_alternatives": [
         {
           "kanji": "名前を書いてくれますか。",
-          "hiragana_full": "なまえをかいてくれますか"
+          "hiragana_full": "なまえをかいてくれますか。"
         },
         {
           "kanji": "お名前を書いてください。",
-          "hiragana_full": "おなまえをかいてください"
+          "hiragana_full": "おなまえをかいてください。"
         }
       ],
       "audio_eligible": true
@@ -268,7 +268,7 @@
       ],
       "wrong_choice_explanations": [
         "た is past tense form — it doesn't create proper request structure with ください.",
-        "ない is negative form — it would mean 'please don't close' which contradicts the intended meaning.",
+        "ない is the plain negative; a negative request is 閉めないでください, so ない alone can't attach to ください — the te-form 閉めて is needed.",
         "れば is conditional form — it doesn't combine with ください to make polite requests."
       ],
       "hiragana_full": "どあをしめてください。",

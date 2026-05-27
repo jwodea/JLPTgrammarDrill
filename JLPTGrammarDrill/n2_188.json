@@ -10,14 +10,14 @@
       "translation": "Whether male or female, everyone should be treated equally.",
       "blank_target": "であれ女であれ",
       "wrong_choices": [
-        "にしろ女にしろ",
-        "でも女でも",
-        "だろうと女だろうと"
+        "か女か",
+        "とか女とか",
+        "なり女なり"
       ],
       "wrong_choice_explanations": [
-        "にしろ女にしろ is less formal and doesn't match the elevated register needed in this context about equality rights.",
-        "でも女でも is too casual and doesn't convey the comprehensive coverage that であれであれ provides in formal statements.",
-        "だろうと女だろうと expresses uncertainty/speculation, not the definitive coverage intended in this formal declaration."
+        "「男か女か」 poses a disjunctive question — 'is it a man or a woman?' — leaving which one open; であれ〜であれ instead asserts everyone should be treated equally no matter which.",
+        "「男とか女とか」 casually lists examples ('men, women, and the like'), implying others too; であれ〜であれ names exactly these two and covers both, not a loose sample.",
+        "「男なり女なり」 offers a choice to pick one ('a man or a woman, whichever'); であれ〜であれ means the rule applies regardless of which, not that you choose."
       ],
       "hiragana_full": "おとこであれおんなであれ、びょうどうにあつかわれるべきだ。",
       "audio_alternatives": [
@@ -38,14 +38,14 @@
       "translation": "Whether child or adult, the rules are the same.",
       "blank_target": "であれ大人であれ",
       "wrong_choices": [
-        "でも大人でも",
-        "だって大人だって",
+        "だの大人だの",
+        "か大人か",
         "といえども大人といえども"
       ],
       "wrong_choice_explanations": [
-        "でも大人でも is too casual for a formal rule statement and doesn't provide the comprehensive coverage needed.",
-        "だって大人だって is very casual/colloquial and inappropriate for discussing rules and regulations.",
-        "といえども大人といえども means 'even though' and contradicts the intended meaning of equal treatment regardless of age."
+        "「子どもだの大人だの」 lists with a complaining, dismissive tone ('kids this, adults that'); it lacks the even-handed 'whether child or adult' coverage of であれ〜であれ.",
+        "「子どもか大人か」 asks which of the two it is, leaving the answer open; であれ〜であれ instead states the rules apply no matter which.",
+        "といえども means 'even though' and concedes a single point; it doesn't form the paired 'whether A or B' structure that であれ〜であれ does."
       ],
       "hiragana_full": "こどもであれおとなであれ、るーるはおなじだ。",
       "audio_alternatives": [
@@ -66,14 +66,14 @@
       "translation": "Whether new technology or old technology, if it's effective, it should be used.",
       "blank_target": "であれ古い技術であれ",
       "wrong_choices": [
-        "にしろ古い技術にしろ",
+        "なり古い技術なり",
         "を問わず古い技術を問わず",
         "はともかく古い技術はともかく"
       ],
       "wrong_choice_explanations": [
-        "にしろ古い技術にしろ is less formal and doesn't convey the same comprehensive coverage as であれであれ in professional contexts.",
-        "を問わず古い技術を問わず is grammatically incorrect - を問わず doesn't repeat like this pattern requires.",
-        "はともかく古い技術はともかく means 'setting aside' rather than covering both possibilities equally."
+        "「新しい技術なり古い技術なり」 offers a choice of which to use ('new or old, whichever'); であれ〜であれ means it should be used regardless of which, as long as it is effective.",
+        "を問わず ('regardless of') takes a single compound noun — 新旧を問わず — so repeating it after each item is ungrammatical; であれ〜であれ is the form that attaches to and repeats both items.",
+        "はともかく means 'setting … aside (for now)'; repeated, it brushes both items aside rather than covering both equally, the opposite of であれ〜であれ."
       ],
       "hiragana_full": "あたらしいぎじゅつであれふるいぎじゅつであれ、こうかてきならつかうべきだ。",
       "audio_alternatives": [
@@ -94,14 +94,14 @@
       "translation": "Whether rich or poor, rights are guaranteed.",
       "blank_target": "であれ貧乏人であれ",
       "wrong_choices": [
-        "だろうが貧乏人だろうが",
-        "にせよ貧乏人にせよ",
+        "とか貧乏人とか",
+        "だの貧乏人だの",
         "にかかわらず貧乏人にかかわらず"
       ],
       "wrong_choice_explanations": [
-        "だろうが貧乏人だろうが implies uncertainty about someone's status, inappropriate when discussing guaranteed rights.",
-        "にせよ貧乏人にせよ is slightly less formal and doesn't match the elevated tone of constitutional rights discourse.",
-        "にかかわらず貧乏人にかかわらず is grammatically incorrect - this pattern doesn't repeat the noun like であれであれ does."
+        "「金持ちとか貧乏人とか」 loosely lists examples ('rich people, poor people, and such'); であれ〜であれ names exactly these two and guarantees rights for both, not a vague sample.",
+        "「金持ちだの貧乏人だの」 lists with a dismissive, complaining tone; it lacks the even-handed 'whether rich or poor' coverage of であれ〜であれ.",
+        "にかかわらず ('regardless of') attaches once — 金持ちか貧乏人かにかかわらず — and isn't repeated after each item the way であれ〜であれ is."
       ],
       "hiragana_full": "かねもちであれびんぼうにんであれ、けんりはほしょうされている。",
       "audio_alternatives": [
@@ -111,7 +111,7 @@
         },
         {
           "kanji": "富裕層であれ貧困層であれ、権利は保障されている。",
-          "hiragana_full": "ふゆうそうであればひんこんそうであれ、けんりはほしょうされている。"
+          "hiragana_full": "ふゆうそうであれひんこんそうであれ、けんりはほしょうされている。"
         }
       ],
       "audio_eligible": true
@@ -122,14 +122,14 @@
       "translation": "Whether young or old, everyone should be treated as a member of society.",
       "blank_target": "であれ高齢者であれ",
       "wrong_choices": [
-        "でも高齢者でも",
-        "だろうと高齢者だろうと",
-        "にしても高齢者にしても"
+        "か高齢者か",
+        "なり高齢者なり",
+        "だの高齢者だの"
       ],
       "wrong_choice_explanations": [
-        "でも高齢者でも is too casual for formal social policy discussion and lacks the comprehensive coverage of であれであれ.",
-        "だろうと高齢者だろうと expresses speculation about age categories, inappropriate for definitive social principles.",
-        "にしても高齢者にしても means 'even if' and suggests reluctant acceptance rather than equal treatment."
+        "「若者か高齢者か」 asks which of the two it is, leaving it open; であれ〜であれ instead states everyone should be treated as a member of society no matter which.",
+        "「若者なり高齢者なり」 offers a choice to pick one; であれ〜であれ means the principle applies regardless of which, not that you choose.",
+        "「若者だの高齢者だの」 lists with a dismissive tone ('the young, the old, and so on'); であれ〜であれ gives the even-handed 'whether young or old' coverage this lacks."
       ],
       "hiragana_full": "わかものであれこうれいしゃであれ、しゃかいのいちいんとしてあつかわれるべきだ。",
       "audio_alternatives": [
@@ -150,14 +150,14 @@
       "translation": "Whether domestic or overseas, maintaining the same quality is important.",
       "blank_target": "であれ海外であれ",
       "wrong_choices": [
-        "にしろ海外にしろ",
-        "を問わず海外を問わず",
-        "だろうが海外だろうが"
+        "とか海外とか",
+        "か海外か",
+        "を問わず海外を問わず"
       ],
       "wrong_choice_explanations": [
-        "にしろ海外にしろ is less formal and doesn't convey the comprehensive coverage needed in business quality standards.",
-        "を問わず海外を問わず is grammatically incorrect - this pattern doesn't repeat with the same structure as であれであれ.",
-        "だろうが海外だろうが implies uncertainty about location, inappropriate when discussing definitive quality standards."
+        "「国内とか海外とか」 loosely lists examples, implying other cases too; であれ〜であれ names exactly domestic and overseas and covers both equally.",
+        "「国内か海外か」 asks which of the two, leaving it open; であれ〜であれ instead means the same quality must be kept regardless of which.",
+        "を問わず ('regardless of') takes a single compound — 国内外を問わず — so repeating it after each item is ungrammatical; であれ〜であれ is the form that repeats both items."
       ],
       "hiragana_full": "こくないであれかいがいであれ、おなじひんしつをたもつことがじゅうようだ。",
       "audio_alternatives": [
@@ -178,14 +178,14 @@
       "translation": "Whether doctor or patient, respecting each other is important.",
       "blank_target": "であれ患者であれ",
       "wrong_choices": [
-        "でも患者でも",
+        "だの患者だの",
         "にかかわらず患者にかかわらず",
         "といえども患者といえども"
       ],
       "wrong_choice_explanations": [
-        "でも患者でも is too casual for medical ethics discussion and doesn't provide the equal treatment implication of であれであれ.",
-        "にかかわらず患者にかかわらず is grammatically incorrect - this pattern doesn't repeat the noun structure like であれであれ.",
-        "といえども患者といえども means 'even though' and implies hierarchy rather than mutual respect between roles."
+        "「医師だの患者だの」 lists with a dismissive, complaining tone; であれ〜であれ gives the even-handed 'whether doctor or patient' coverage this lacks.",
+        "にかかわらず ('regardless of') attaches once — 医師か患者かにかかわらず — and isn't repeated after each item like であれ〜であれ.",
+        "といえども means 'even though' and concedes a single point, implying a hierarchy; であれ〜であれ instead covers both roles equally without that concessive nuance."
       ],
       "hiragana_full": "いしであれかんじゃであれ、おたがいをそんちょうすることがたいせつだ。",
       "audio_alternatives": [
@@ -206,14 +206,14 @@
       "translation": "Whether success or failure, you can learn from the experience.",
       "blank_target": "であれ失敗であれ",
       "wrong_choices": [
-        "だろうと失敗だろうと",
-        "にせよ失敗にせよ",
+        "か失敗か",
+        "とか失敗とか",
         "はともかく失敗はともかく"
       ],
       "wrong_choice_explanations": [
-        "だろうと失敗だろうと implies uncertainty about outcomes, but here we're discussing learning from any definite result.",
-        "にせよ失敗にせよ is less formal and doesn't convey the comprehensive philosophical stance that であれであれ provides.",
-        "はともかく失敗はともかく means 'setting aside' and doesn't convey learning from both possibilities equally."
+        "「成功か失敗か」 asks which of the two the outcome was, leaving it open; であれ〜であれ instead means you can learn from it whichever it is.",
+        "「成功とか失敗とか」 loosely lists examples ('success, failure, and the like'); であれ〜であれ names exactly these two and covers both.",
+        "はともかく means 'setting … aside'; repeated, it brushes both outcomes aside rather than covering both equally, the opposite of であれ〜であれ."
       ],
       "hiragana_full": "せいこうであれしっぱいであれ、けいけんからまなぶことができる。",
       "audio_alternatives": [
@@ -234,14 +234,14 @@
       "translation": "Whether expert or amateur, their opinions are worth listening to.",
       "blank_target": "であれ素人であれ",
       "wrong_choices": [
-        "でも素人でも",
-        "だって素人だって",
-        "にしても素人にしても"
+        "なり素人なり",
+        "だの素人だの",
+        "とか素人とか"
       ],
       "wrong_choice_explanations": [
-        "でも素人でも is too casual and suggests reluctant acceptance rather than the equal valuation expressed by であれであれ.",
-        "だって素人だって is very colloquial and inappropriate for formal discussion about valuing different perspectives.",
-        "にしても素人にしても implies 'even if amateur' suggesting lower expectations, contrary to the equal respect intended."
+        "「専門家なり素人なり」 offers a choice to consult one or the other; であれ〜であれ instead means both are worth listening to regardless of which.",
+        "「専門家だの素人だの」 lists with a dismissive tone; であれ〜であれ gives the even-handed 'whether expert or amateur' valuation this lacks.",
+        "「専門家とか素人とか」 loosely lists examples, implying others too; であれ〜であれ names exactly these two and values both."
       ],
       "hiragana_full": "せんもんかであれしろうとであれ、いけんをきくかちがある。",
       "audio_alternatives": [
@@ -262,14 +262,14 @@
       "translation": "Whether sunny or rainy, the sports festival will proceed as scheduled.",
       "blank_target": "であれ雨であれ",
       "wrong_choices": [
-        "でも雨でも",
-        "だろうと雨だろうと",
+        "か雨か",
+        "なり雨なり",
         "にかかわらず雨にかかわらず"
       ],
       "wrong_choice_explanations": [
-        "でも雨でも is too casual for official announcements and doesn't convey the comprehensive planning that であれであれ implies.",
-        "だろうと雨だろうと expresses uncertainty about weather, inappropriate for definitive scheduling announcements.",
-        "にかかわらず雨にかかわらず is grammatically incorrect - this pattern doesn't properly repeat with the noun structure."
+        "「晴れか雨か」 asks which the weather will be, leaving it open; であれ〜であれ instead means the festival proceeds regardless of which.",
+        "「晴れなり雨なり」 offers a choice of options to pick; であれ〜であれ means the plan holds no matter which, not that you choose one.",
+        "にかかわらず ('regardless of') attaches once — 晴れか雨かにかかわらず — and isn't repeated after each item the way であれ〜であれ is."
       ],
       "hiragana_full": "はれであれあめであれ、うんどうかいはよていどおりおこないます。",
       "audio_alternatives": [

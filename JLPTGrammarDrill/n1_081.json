@@ -15,9 +15,9 @@
         "だけ"
       ],
       "wrong_choice_explanations": [
-        "ほど indicates approximate extent but lacks the emphatic 'whopping' sense of からある.",
-        "ばかり means 'only/just' and doesn't express the impressive large quantity meaning.",
-        "だけ means 'only' and contradicts the emphasis on largeness that からある provides."
+        "ほど after a quantity reads as 'about that much' (三千ページほど ≈ 'around 3000 pages'), giving an approximate, flat description rather than the emphatic lower-bound assertion of からある.",
+        "ばかり after a quantity means 'approximately' or 'just about' (三千ページばかり), again purely descriptive — it lacks the 'no fewer than' emphasis that からある carries.",
+        "だけ is a limiting particle ('only that much, no more') — the opposite of からある, which insists that the quantity is at minimum that figure."
       ],
       "hiragana_full": "このじしょはさんぜんぺーじからあるというあつさだ",
       "audio_alternatives": [
@@ -258,28 +258,28 @@
     },
     {
       "id": "n1_081_10",
-      "example_sentence": "その医療市場は売上規模数兆円からあるという巨大産業である。",
-      "translation": "That healthcare market is a massive industry with sales as large as several trillion yen.",
+      "example_sentence": "祖父の蔵書は一万冊からあるという驚異の量だ。",
+      "translation": "My grandfather's library holds a staggering ten thousand volumes or more.",
       "blank_target": "からある",
       "wrong_choices": [
-        "の規模を持つ",
-        "に匹敵する",
-        "という市場規模の"
+        "もある",
+        "にも及ぶ",
+        "ほどの"
       ],
       "wrong_choice_explanations": [
-        "の規模を持つ means 'having the scale of' but doesn't emphasize the impressive largeness.",
-        "に匹敵する means 'comparable to' but doesn't convey the emphatic quantity meaning.",
-        "という市場規模の is descriptive but lacks the emphatic 'whopping' sense of からある."
+        "もある (一万冊もある) expresses 'as many as,' similar in spirit to からある, but it conveys surprise at the figure itself; からある has a more written, almost catalogue-like tone that posits the number as a verified lower bound.",
+        "にも及ぶ means '(extending) all the way to' and highlights the reach of the count; からある instead asserts the quantity as a minimum — 'no fewer than ten thousand.'",
+        "ほどの indicates approximate extent ('about ten thousand'); からある, by contrast, claims the figure as a firm floor and often implies the actual count is even higher."
       ],
-      "hiragana_full": "そのいりょうしじょうはうりあげきぼすうちょうえんからあるというきょだいさんぎょうである",
+      "hiragana_full": "そふのぞうしょはいちまんさつからあるというきょういのりょうだ",
       "audio_alternatives": [
         {
-          "kanji": "その医療市場は売上規模が数兆円にも上る巨大産業だ。",
-          "hiragana_full": "そのいりょうしじょうはうりあげきぼがすうちょうえんにものぼるきょだいさんぎょうだ"
+          "kanji": "祖父の蔵書は一万冊にも及ぶ驚異の量だ。",
+          "hiragana_full": "そふのぞうしょはいちまんさつにもおよぶきょういのりょうだ"
         },
         {
-          "kanji": "その医療市場は数兆円規模の売上を誇る巨大産業である。",
-          "hiragana_full": "そのいりょうしじょうはすうちょうえんきぼのうりあげをほこるきょだいさんぎょうである"
+          "kanji": "祖父は一万冊もある蔵書を所有している。",
+          "hiragana_full": "そふはいちまんさつもあるぞうしょをしょゆうしている"
         }
       ],
       "audio_eligible": true

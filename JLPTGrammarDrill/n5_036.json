@@ -15,7 +15,7 @@
         "に"
       ],
       "wrong_choice_explanations": [
-        "た is the past tense form — it doesn't connect to から to show sequence of actions.",
+        "た would give 宿題をしたから — 'because I did my homework' (causal から, a reason), not the 'after doing' sequence that the て-form (てから) expresses.",
         "で is a particle for location or method — it cannot link verbs to temporal expressions like から.",
         "に is a particle for time or direction — it doesn't form the て-form needed before から."
       ],
@@ -43,7 +43,7 @@
         "に"
       ],
       "wrong_choice_explanations": [
-        "た is the past tense form — it doesn't connect to から to show sequence of actions.",
+        "た would give 手を洗ったから — 'because I washed my hands' (causal から, a reason), not the 'after washing' sequence that the て-form (てから) expresses.",
         "で is a particle for location or method — it cannot link verbs to temporal expressions like から.",
         "に is a particle for time or direction — it doesn't form the て-form needed before から."
       ],
@@ -146,8 +146,8 @@
     },
     {
       "id": "n5_036_6",
-      "example_sentence": "本を読んてから、勉強します。",
-      "translation": "After reading the book, I will study.",
+      "example_sentence": "本を借りてから、勉強します。",
+      "translation": "After borrowing the book, I will study.",
       "blank_target": "て",
       "wrong_choices": [
         "たら",
@@ -159,15 +159,15 @@
         "まで means 'until' — it cannot connect with から to show sequential actions.",
         "ほど means 'to the extent of' — it doesn't work with から for temporal expressions."
       ],
-      "hiragana_full": "ほんをよんてから、べんきょうします。",
+      "hiragana_full": "ほんをかりてから、べんきょうします。",
       "audio_alternatives": [
         {
-          "kanji": "本を読んでから、勉強します。",
-          "hiragana_full": "ほんをよんでから、べんきょうします。"
+          "kanji": "本を借りた後で、勉強します。",
+          "hiragana_full": "ほんをかりたあとで、べんきょうします。"
         },
         {
-          "kanji": "本を読んだ後で、勉強します。",
-          "hiragana_full": "ほんをよんだあとで、べんきょうします。"
+          "kanji": "本を借りてから、勉強を始めます。",
+          "hiragana_full": "ほんをかりてから、べんきょうをはじめます。"
         }
       ],
       "audio_eligible": true
@@ -258,8 +258,8 @@
     },
     {
       "id": "n5_036_10",
-      "example_sentence": "薬を飲んてから、少し楽になりました。",
-      "translation": "After taking medicine, I felt a little better.",
+      "example_sentence": "病院に行ってから、少し楽になりました。",
+      "translation": "After going to the hospital, I felt a little better.",
       "blank_target": "て",
       "wrong_choices": [
         "では",
@@ -271,15 +271,15 @@
         "でも means 'but' or 'even' — it doesn't form the connection needed with から for sequential actions.",
         "とは is used for definitions or emphasis — it cannot link verbs to temporal expressions with から."
       ],
-      "hiragana_full": "くすりをのんてから、すこしらくになりました。",
+      "hiragana_full": "びょういんにいってから、すこしらくになりました。",
       "audio_alternatives": [
         {
-          "kanji": "薬を飲んでから、少し良くなりました。",
-          "hiragana_full": "くすりをのんでから、すこしよくなりました。"
+          "kanji": "病院に行った後で、少し楽になりました。",
+          "hiragana_full": "びょういんにいったあとで、すこしらくになりました。"
         },
         {
-          "kanji": "薬を飲んだ後、少し楽になりました。",
-          "hiragana_full": "くすりをのんだあと、すこしらくになりました。"
+          "kanji": "病院へ行ってから、少し良くなりました。",
+          "hiragana_full": "びょういんへいってから、すこしよくなりました。"
         }
       ],
       "audio_eligible": true

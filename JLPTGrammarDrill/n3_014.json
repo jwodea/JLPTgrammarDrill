@@ -183,7 +183,7 @@
         "ことに"
       ],
       "wrong_choice_explanations": [
-        "〜ために means 'for the sake of' or 'in order to', but 〜ように better captures the manner of how to handle the book.",
+        "〜ために pairs with volitional verbs (acts the subject controls), but 損傷する here is something happening to the book (non-volitional), so ように is the form that fits.",
         "〜ので indicates cause/reason, but the sentence expresses purpose and desired outcome, not causality.",
         "〜ことに expresses surprise or realization, which doesn't fit a sentence about careful handling."
       ],
@@ -258,8 +258,8 @@
     },
     {
       "id": "n3_014_10",
-      "example_sentence": "品質が落ちないように、検査基準を厳しくしました。",
-      "translation": "I tightened inspection standards so that quality does not decline.",
+      "example_sentence": "後ろの席まで聞こえるように、もう少し大きな声で話してください。",
+      "translation": "Please speak a little louder so that you can be heard all the way in the back seats.",
       "blank_target": "ように",
       "wrong_choices": [
         "ために",
@@ -267,19 +267,19 @@
         "ことに"
       ],
       "wrong_choice_explanations": [
-        "ために emphasizes purpose/reason, but ように better captures the 'so that quality does not decline' outcome-focused meaning.",
-        "ので means 'because/since', expressing cause after the fact, not the preventative goal that ように conveys.",
-        "ことに is used differently; it doesn't express purpose or intention."
+        "ために pairs with volitional actions, but 聞こえる ('be audible') is a non-volitional potential verb — when the goal is a state happening on its own, ように is the form to use.",
+        "ので means 'because,' expressing a cause; the sentence states a purpose (speak louder in order that you can be heard), not a reason.",
+        "ことに ('to one's surprise / what's more') doesn't form a purpose clause and would leave the audibility unlinked to the request to speak louder."
       ],
-      "hiragana_full": "ひんしつがおちないように、けんさきじゅんをきびしくしました。",
+      "hiragana_full": "うしろのせきまできこえるように、もうすこしおおきなこえではなしてください。",
       "audio_alternatives": [
         {
-          "kanji": "品質が下がらないように、検査基準を厳しくしました。",
-          "hiragana_full": "ひんしつがさがらないように、けんさきじゅんをきびしくしました。"
+          "kanji": "後ろの席まで聞こえるよう、もう少し大きな声でお願いします。",
+          "hiragana_full": "うしろのせきまできこえるよう、もうすこしおおきなこえでおねがいします。"
         },
         {
-          "kanji": "品質を維持するために、検査基準を厳しくしました。",
-          "hiragana_full": "ひんしつをいじするために、けんさきじゅんをきびしくしました。"
+          "kanji": "後ろの席の人にも聞こえるように、もう少し声を大きくしてください。",
+          "hiragana_full": "うしろのせきのひとにもきこえるように、もうすこしこえをおおきくしてください。"
         }
       ],
       "audio_eligible": true

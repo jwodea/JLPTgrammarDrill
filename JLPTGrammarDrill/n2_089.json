@@ -10,14 +10,14 @@
       "translation": "Whether a famous author or an unknown author, the value of a work is relative.",
       "blank_target": "であれ",
       "wrong_choices": [
-        "にしろ",
-        "でも",
-        "だろうと"
+        "にかかわらず",
+        "なら",
+        "を問わず"
       ],
       "wrong_choice_explanations": [
-        "'〜にしろ〜にしろ' has a more casual tone and implies reluctant acceptance, while '〜であれ〜であれ' is formal and neutrally presents both possibilities.",
-        "'〜でも〜でも' is too casual for this formal context and is typically used with concrete examples rather than abstract concepts like authorial status.",
-        "'〜だろうと〜だろうと' expresses conjecture or assumption, while this sentence states a definitive principle about literary value."
+        "にかかわらず is a single-attach marker meaning 'regardless of' — it appears once with a parameter ('有名・無名にかかわらず'), not in a paired 〜にかかわらず〜にかかわらず structure. Doubling it as the slot demands yields ungrammatical Japanese; the paired 〜であれ〜であれ is what fits.",
+        "なら is conditional ('if'). Doubling it gives '有名作家なら無名作家なら…' — two stacked conditionals with no clean main-clause attachment, and the meaning would shift from 'whether either' to 'if X then if Y'. The sentence states a universal principle, not a layered condition.",
+        "を問わず is a single-attach 'regardless of' marker that appears once with a coordinating-noun pair ('有名か無名かを問わず'), not doubled. The 〜A〜B paired slot requires a member of the であれ/にせよ/にしろ paired family, and the sentence calls for the formal であれ register."
       ],
       "hiragana_full": "ゆうめいさっかであれむめいさっかであれ、さくひんのかちはそうたいてきだ。",
       "audio_alternatives": [
@@ -43,9 +43,9 @@
         "にかかわらず"
       ],
       "wrong_choice_explanations": [
-        "'〜にしろ〜にしろ' sounds less formal than the workplace context requires and carries a slight nuance of reluctant acceptance.",
-        "'〜といえども' means 'even though' and is used for a single contrasting point, not for presenting two equal alternatives.",
-        "'〜にかかわらず' means 'regardless of' but doesn't follow the pattern structure needed here for presenting two specific alternatives."
+        "にしろ does form a valid paired construction (〜にしろ〜にしろ) and shares the same 'whether either' meaning — its main difference is register, leaning more colloquial. The formal workplace context tilts toward であれ; the meanings overlap closely.",
+        "といえども is a single-attach concessive ('even though X' — 男性といえども油断は禁物) and doesn't form the 〜A〜B paired construction the slot requires.",
+        "にかかわらず is a single-attach 'regardless of' that takes a coordinating noun pair once ('男女にかかわらず'); the doubled 〜にかかわらず〜にかかわらず is ungrammatical. The paired slot here needs であれ."
       ],
       "hiragana_full": "だんせいであれじょせいであれ、このしょくばではびょうどうにあつかわれる。",
       "audio_alternatives": [
@@ -66,14 +66,14 @@
       "translation": "Whether rich or poor, human worth does not change.",
       "blank_target": "であれ",
       "wrong_choices": [
-        "にしろ",
-        "だとしても",
-        "であっても"
+        "にかかわらず",
+        "たりとも",
+        "なら"
       ],
       "wrong_choice_explanations": [
-        "'〜にしろ〜にしろ' is less formal and appropriate for casual conversation, while this sentence discusses a philosophical principle requiring formal language.",
-        "'〜だとしても〜だとしても' emphasizes hypothetical situations, but this sentence states an absolute truth about human value.",
-        "'〜であっても〜であっても' means 'even if' and suggests some difficulty or obstacle, which doesn't match the neutral tone of this statement."
+        "にかかわらず means 'regardless of' and works as a single attachment ('金持ち・貧乏人にかかわらず'); the paired 〜にかかわらず〜にかかわらず is ungrammatical. 〜であれ〜であれ is what fills the paired slot here.",
+        "たりとも means 'even a single' and is used with quantities for emphasis (一日たりとも = 'not even a day'); it doesn't attach to a category noun like 金持ち and can't form a paired 'whether… or…' construction.",
+        "なら sets up a conditional ('if'). The doubled form 金持ちなら貧乏人なら would read as stacked hypotheticals, not a universal 'whether either'. The sentence asserts an absolute principle of human worth — であれ's slot."
       ],
       "hiragana_full": "かねもちであれびんぼうにんであれ、にんげんのかちはかわらない。",
       "audio_alternatives": [
@@ -83,7 +83,7 @@
         },
         {
           "kanji": "裕福であれ貧しくあれ、人間の価値は変わらない。",
-          "hiragana_full": "ゆうふくであればずしくあれ、にんげんのかちはかわらない。"
+          "hiragana_full": "ゆうふくであれまずしくあれ、にんげんのかちはかわらない。"
         }
       ],
       "audio_eligible": true
@@ -94,14 +94,14 @@
       "translation": "Whether newcomer or veteran, evaluation is based on performance.",
       "blank_target": "であれ",
       "wrong_choices": [
-        "でも",
+        "にかかわらず",
         "なら",
         "として"
       ],
       "wrong_choice_explanations": [
-        "'〜でも〜でも' is too casual for a statement about company evaluation policy and lacks the formal register required.",
-        "'〜なら〜なら' sets up conditional scenarios, but this sentence states an existing policy that applies universally, not conditionally.",
-        "'〜として〜として' means 'as' or 'in the role of' and would change the meaning to defining roles rather than presenting alternatives."
+        "にかかわらず is a single-attach 'regardless of' that pairs a coordinating noun ('新人かベテランかにかかわらず') rather than doubling itself. The paired slot in 〜A〜B requires a member of the であれ/にしろ family — であれ for this formal HR statement.",
+        "なら gives '新人なら ベテランなら…' — stacked conditionals ('if newcomer, if veteran…'), not a 'whether either' universal. The sentence asserts an existing policy, not a hypothetical.",
+        "として attaches as a capacity marker ('新人として' = 'as a newcomer'). Doubling it would mean 'as a newcomer, as a veteran, evaluated…', shifting the meaning from impartial coverage to capacity-by-capacity — not what であれ marks."
       ],
       "hiragana_full": "しんじんであれべてらんであれ、せいかしゅぎでひょうかされる。",
       "audio_alternatives": [
@@ -127,9 +127,9 @@
         "を問わず"
       ],
       "wrong_choice_explanations": [
-        "'〜にせよ〜にせよ' is similar but slightly more emphatic and argumentative, while this sentence makes a neutral statement about universal principles.",
-        "'〜といわず〜といわず' means 'not to mention' or 'both... and...' but doesn't fit grammatically with the sentence structure here.",
-        "'〜を問わず' means 'regardless of' but is typically used as a single phrase (年齢を問わず), not in a paired construction like this."
+        "にせよ does form a paired construction and is meaning-equivalent ('whether young or old'); the difference is mostly register, with にせよ leaning slightly more emphatic/argumentative. The neutral statement here favors であれ.",
+        "といわず is a paired-construction marker ('昼といわず夜といわず' = 'day and night alike'), but it stresses no-pause-no-distinction across the named items as a single sweep — it doesn't set up the 'in either case, the same holds' contrast 〜であれ〜であれ uses.",
+        "を問わず attaches once with a coordinating noun ('年齢を問わず'), not doubled. The paired slot in this sentence requires a であれ-family member."
       ],
       "hiragana_full": "わかいけんきゅうしゃであれねんぱいのけんきゅうしゃであれ、がくもんのりんりはおなじだ。",
       "audio_alternatives": [
@@ -150,20 +150,20 @@
       "translation": "Whether large corporations or small and medium enterprises, environmental measures are necessary.",
       "blank_target": "であれ",
       "wrong_choices": [
-        "にしろ",
-        "だろうが",
-        "にしても"
+        "にかかわらず",
+        "を問わず",
+        "たりとも"
       ],
       "wrong_choice_explanations": [
-        "'〜にしろ〜にしろ' implies some reluctance or concession, while this sentence states an objective requirement without emotional nuance.",
-        "'〜だろうが〜だろうが' expresses strong assertion despite opposition, but this sentence simply states a universal principle.",
-        "'〜にしても〜にしても' means 'even considering' and implies some concession or problem, which doesn't match the neutral tone here."
+        "にかかわらず is a single-attachment 'regardless of' marker ('大企業・中小企業にかかわらず'), not a paired construction. The 〜A〜A slot here requires a member of the であれ/にしろ/にせよ paired family.",
+        "を問わず similarly attaches once with a coordinating noun pair ('企業規模を問わず'), not doubled. To fill the paired slot, であれ is the formal choice; を問わず would need a recast.",
+        "たりとも means 'even a single' (一円たりとも = 'not even one yen') and is used with quantities for emphasis; it doesn't form a 'whether… or…' paired construction with category nouns like 大企業/中小企業."
       ],
-      "hiragana_full": "おおきぎょうであれちゅうしょうきぎょうであれ、かんきょうたいさくはひつようだ。",
+      "hiragana_full": "だいきぎょうであれちゅうしょうきぎょうであれ、かんきょうたいさくはひつようだ。",
       "audio_alternatives": [
         {
           "kanji": "大企業も中小企業も、環境対策は必要です。",
-          "hiragana_full": "おおきぎょうもちゅうしょうきぎょうも、かんきょうたいさくはひつようです。"
+          "hiragana_full": "だいきぎょうもちゅうしょうきぎょうも、かんきょうたいさくはひつようです。"
         }
       ],
       "audio_eligible": true
@@ -179,9 +179,9 @@
         "とも"
       ],
       "wrong_choice_explanations": [
-        "'〜なり〜なり' means 'either... or...' for choices or alternatives, but doesn't convey the formal, universal scope intended here.",
-        "'〜でも〜でも' is too casual for a statement about the business world and job market trends.",
-        "'〜とも〜とも' is archaic and primarily used in set phrases, not appropriate for modern business contexts."
+        "〜なり〜なり sets up alternative choices for the listener to pick from ('連絡するなりメールするなり = either call or email'), suggesting selection rather than the universal-coverage 'in either case' that 〜であれ〜であれ asserts.",
+        "〜でも〜でも would work in casual speech ('国内でも外資でも、人材は求められる') and is mostly meaning-equivalent — the contrast here is register, with でも leaning conversational and であれ formal/written.",
+        "〜とも〜とも is archaic and survives mainly in set literary phrases; it's not the productive paired-concessive marker that modern business writing reaches for — であれ is the live choice for this register."
       ],
       "hiragana_full": "こくないきぎょうであれがいしけいきぎょうであれ、ゆうしゅうなじんざいはもとめられている。",
       "audio_alternatives": [
@@ -207,9 +207,9 @@
         "によらず"
       ],
       "wrong_choice_explanations": [
-        "'〜にかかわらず' means 'regardless of' but is used as a single phrase, not in the paired construction that this sentence structure requires.",
-        "'〜を問わず' also means 'regardless of' but follows a different grammatical pattern and cannot be used twice in parallel like this.",
-        "'〜によらず' means 'not depending on' but grammatically doesn't work in this paired sentence structure."
+        "にかかわらず is a single-attach 'regardless of' marker — used once with a coordinating noun ('公立か私立かにかかわらず'). The paired 〜にかかわらず〜にかかわらず is ungrammatical; the 〜A〜B slot needs a member of the であれ/にしろ/にせよ paired family.",
+        "を問わず attaches the same way — once with a coordinating noun ('公私を問わず'), not in a paired 〜A〜B structure. であれ is the paired-construction fit.",
+        "によらず is similarly single-attach ('成績によらず = regardless of grades'); it can't double up as the paired slot requires. The sentence's universal coverage demands the paired であれ."
       ],
       "hiragana_full": "こうりつがっこうであれしりつがっこうであれ、きょういくのしつこうじょうがかだいだ。",
       "audio_alternatives": [
@@ -230,14 +230,14 @@
       "translation": "Whether doctors or nurses, responsibility toward patients is heavy.",
       "blank_target": "であれ",
       "wrong_choices": [
-        "でも",
+        "にかかわらず",
         "たりとも",
         "にかぎらず"
       ],
       "wrong_choice_explanations": [
-        "'〜でも〜でも' is too casual for discussing professional medical responsibility and lacks the appropriate formal register.",
-        "'〜たりとも' means 'even a single' and is used for emphasis with small amounts, not for presenting equal professional categories.",
-        "'〜にかぎらず' means 'not limited to' but implies a broader scope beyond the two mentioned, which changes the sentence meaning."
+        "にかかわらず is a single-attach 'regardless of' marker — it pairs a coordinating noun phrase once ('職種にかかわらず'), it doesn't double. The slot requires the paired であれ construction.",
+        "たりとも means 'even a single' and is used with quantities for emphasis (一瞬たりとも); it doesn't form 'whether… or…' with profession categories.",
+        "にかぎらず means 'not limited to' and is single-attach — it adds an OPEN scope beyond the named item ('医師に限らず =not just doctors but others too'), not the 'in either case' equivalence the paired 〜であれ〜であれ asserts."
       ],
       "hiragana_full": "いしであれかんごしであれ、かんじゃへのせきにんはおもい。",
       "audio_alternatives": [
@@ -259,13 +259,13 @@
       "blank_target": "であれ",
       "wrong_choices": [
         "といえども",
-        "だとしても",
-        "にせよ"
+        "にかかわらず",
+        "を問わず"
       ],
       "wrong_choice_explanations": [
-        "'〜といえども' means 'even though' and implies a contrasting or surprising element, while this sentence makes an equal statement about both employment types.",
-        "'〜だとしても〜だとしても' suggests hypothetical concession, but this sentence states an absolute principle about worker rights.",
-        "'〜にせよ〜にせよ' is more argumentative and emphatic, while this sentence makes a calm, principled statement about labor rights."
+        "といえども is a single-attach concessive ('even though') used once with one item ('正社員といえども油断はできない'); the paired 〜といえども〜といえども is not how the construction works. The sentence's paired 〜A〜B slot needs であれ.",
+        "にかかわらず is the single-attach 'regardless of' marker ('正社員・契約社員にかかわらず'). It can't be doubled as the slot requires; であれ is the paired-construction fit.",
+        "を問わず similarly works as a single attachment with a coordinating noun pair ('雇用形態を問わず'); the paired 〜A〜B slot must take a member of the であれ/にしろ/にせよ family — であれ is the formal choice the sentence's register cues."
       ],
       "hiragana_full": "せいしゃいんであれけいやくしゃいんであれ、ろうどうしゃのけんりはまもられるべきだ。",
       "audio_alternatives": [

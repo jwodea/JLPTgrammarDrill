@@ -35,17 +35,17 @@
     {
       "id": "n5_067_2",
       "example_sentence": "田中さんは来ないかもしれない。",
-      "translation": "Mr. Tanaka might not come.",
+      "translation": "Tanaka might not come.",
       "blank_target": "かもしれない",
       "wrong_choices": [
-        "でしょう",
-        "そうです",
-        "らしいです"
+        "だろう",
+        "そうだ",
+        "らしい"
       ],
       "wrong_choice_explanations": [
-        "でしょう expresses polite probability — it doesn't work well with the negative form 来ない in this context.",
-        "そうです expresses hearsay or appearance — it doesn't fit here because it would create an unnatural combination with the negative form.",
-        "らしいです expresses information from others — it doesn't fit here because it suggests the speaker heard this from someone else, not expressing personal uncertainty."
+        "来ないだろう expresses a fairly confident prediction ('he probably won't come'); かもしれない is needed here to convey that his absence is only a possibility.",
+        "来ないそうだ reports hearsay ('I hear he isn't coming'), so it presents the absence as information from someone else rather than the speaker's own guess that かもしれない expresses.",
+        "来ないらしい also marks information picked up from others ('it seems he isn't coming, from what I've heard'); it doesn't capture the speaker's personal uncertainty that かもしれない conveys."
       ],
       "hiragana_full": "たなかさんはこないかもしれない。",
       "audio_alternatives": [
@@ -72,8 +72,8 @@
       ],
       "wrong_choice_explanations": [
         "に違いない expresses strong certainty — it doesn't fit here because the speaker is expressing uncertainty, not certainty.",
-        "ことがある expresses occasional occurrence — it doesn't fit here because it doesn't work grammatically with adjectives like 面白い.",
-        "と思う expresses personal opinion — it doesn't fit here because it would need different grammar structure (面白いと思う)."
+        "ことがある means 'there are times when …' (occasional occurrence), so 面白いことがある would say the movie is interesting on some occasions, not that it might be interesting this time — which is the single possibility かもしれない expresses.",
+        "と思う states the speaker's opinion as a held belief ('I think it's interesting'), whereas かもしれない presents it only as a possibility the speaker isn't committing to."
       ],
       "hiragana_full": "このえいがはおもしろいかもしれない。",
       "audio_alternatives": [
@@ -147,7 +147,7 @@
     {
       "id": "n5_067_6",
       "example_sentence": "お母さんは怒るかもしれない。",
-      "translation": "My mother might get angry.",
+      "translation": "Mom might get angry.",
       "blank_target": "かもしれない",
       "wrong_choices": [
         "でしょう",
@@ -155,47 +155,47 @@
         "ところだ"
       ],
       "wrong_choice_explanations": [
-        "でしょう expresses polite probability — while similar, it's more formal and doesn't capture the same level of uncertainty as かもしれない.",
-        "つもりだ expresses intention — it doesn't fit here because it would mean the mother intends to get angry, not that she might get angry.",
-        "ところだ expresses being about to do something — it doesn't fit here because it suggests she's just about to get angry, not uncertainty about whether she will."
+        "怒るでしょう leans toward a confident prediction ('she's probably going to get angry'); かもしれない is needed to express the speaker's genuine uncertainty about whether she will.",
+        "つもりだ marks the subject's own intention, so 怒るつもりだ would mean Mom plans to get angry on purpose — not the uncertainty about her reaction that かもしれない conveys.",
+        "ところだ describes being right at the moment of an action ('she's about to get angry'); it pins down timing rather than expressing whether she will get angry at all, which is what かもしれない does."
       ],
-      "hiragana_full": "おかあさんはおこるかもしれない",
+      "hiragana_full": "おかあさんはおこるかもしれない。",
       "audio_alternatives": [
         {
           "kanji": "お母さんは怒るかもしれません。",
-          "hiragana_full": "おかあさんはおこるかもしれません"
+          "hiragana_full": "おかあさんはおこるかもしれません。"
         },
         {
           "kanji": "母は怒るかもしれない。",
-          "hiragana_full": "はははおこるかもしれない"
+          "hiragana_full": "はははおこるかもしれない。"
         }
       ],
       "audio_eligible": true
     },
     {
       "id": "n5_067_7",
-      "example_sentence": "電車が遅れるかもしれない。",
-      "translation": "The train might be delayed.",
+      "example_sentence": "あの店はもう閉まっているかもしれない。",
+      "translation": "That store might already be closed.",
       "blank_target": "かもしれない",
       "wrong_choices": [
         "そうだ",
         "ようだ",
-        "べきだ"
+        "に違いない"
       ],
       "wrong_choice_explanations": [
-        "そうだ expresses hearsay or appearance — it doesn't fit here because it suggests the speaker heard about or sees signs of the delay, not expressing uncertainty.",
-        "ようだ expresses appearance or resemblance — it doesn't fit here because it suggests the train appears to be delayed, not uncertainty about a potential delay.",
-        "べきだ expresses obligation — it doesn't fit here because trains being delayed is not about what should happen."
+        "閉まっているそうだ would report hearsay ('I heard the store is closed'); the speaker here is making a private guess, which is what かもしれない expresses.",
+        "閉まっているようだ would mean the speaker can see signs that the store is closed ('it looks closed from here'); かもしれない instead voices a possibility without that visual evidence.",
+        "閉まっているに違いない expresses near-certainty ('it must be closed'); かもしれない is needed because the speaker is only guessing, not concluding."
       ],
-      "hiragana_full": "でんしゃがおくれるかもしれない。",
+      "hiragana_full": "あのみせはもうしまっているかもしれない。",
       "audio_alternatives": [
         {
-          "kanji": "電車が遅れるかもしれません。",
-          "hiragana_full": "でんしゃがおくれるかもしれません。"
+          "kanji": "あの店はもう閉まっているかもしれません。",
+          "hiragana_full": "あのみせはもうしまっているかもしれません。"
         },
         {
-          "kanji": "電車は遅れるかもしれない。",
-          "hiragana_full": "でんしゃはおくれるかもしれない。"
+          "kanji": "あの店はもう閉まっているかも。",
+          "hiragana_full": "あのみせはもうしまっているかも。"
         }
       ],
       "audio_eligible": true
@@ -212,7 +212,7 @@
       ],
       "wrong_choice_explanations": [
         "だろう expresses probability — while similar in meaning, it's more confident than かもしれない and doesn't fit the level of uncertainty expressed here.",
-        "ことがある expresses occasional occurrence — it doesn't fit here because it doesn't work grammatically with adjectives like 暑い.",
+        "ことがある means 'there are times when …' (occasional occurrence), so 暑いことがある would describe weather that is sometimes hot in general, not a guess about today specifically, which is what かもしれない conveys.",
         "はずだ expresses strong expectation — it doesn't fit here because it conveys certainty based on evidence, not uncertainty."
       ],
       "hiragana_full": "きょうはあついかもしれない。",

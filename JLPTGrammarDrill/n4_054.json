@@ -10,24 +10,24 @@
       "translation": "I studied for about three hours.",
       "blank_target": "くらい",
       "wrong_choices": [
-        "ほど",
+        "も",
         "だけ",
-        "しか"
+        "ずつ"
       ],
       "wrong_choice_explanations": [
-        "ほど means 'to the extent of' — while similar to くらい, it emphasizes degree that causes a result rather than simple approximation of time.",
-        "だけ means 'only/just' — it doesn't fit here because it expresses exact limitation rather than approximation.",
-        "しか means 'only/nothing but' — it doesn't fit here because it's used with negatives for exclusivity, not approximation."
+        "も emphasizes that three hours is a surprisingly large amount ('as much as three hours'), whereas くらい simply gives an approximate amount.",
+        "だけ means 'only / just,' marking three hours as an exact limit, not the rough approximation that くらい expresses.",
+        "ずつ means 'each / apiece,' describing three hours per session or unit, not a single approximate duration like くらい."
       ],
-      "hiragana_full": "さんじかんくらいべんきょうした",
+      "hiragana_full": "さんじかんくらいべんきょうした。",
       "audio_alternatives": [
         {
           "kanji": "三時間ほど勉強した。",
-          "hiragana_full": "さんじかんほどべんきょうした"
+          "hiragana_full": "さんじかんほどべんきょうした。"
         },
         {
           "kanji": "三時間くらい勉強しました。",
-          "hiragana_full": "さんじかんくらいべんきょうしました"
+          "hiragana_full": "さんじかんくらいべんきょうしました。"
         }
       ],
       "audio_eligible": true
@@ -47,15 +47,15 @@
         "から means 'from/because' — it doesn't fit here because it expresses starting point or reason rather than approximate amount.",
         "まで means 'until/up to' — it doesn't fit here because it expresses limits rather than approximation."
       ],
-      "hiragana_full": "せんえんぐらいもっている",
+      "hiragana_full": "せんえんぐらいもっている。",
       "audio_alternatives": [
         {
           "kanji": "千円くらい持っている。",
-          "hiragana_full": "せんえんくらいもっている"
+          "hiragana_full": "せんえんくらいもっている。"
         },
         {
           "kanji": "千円ほど持っています。",
-          "hiragana_full": "せんえんほどもっています"
+          "hiragana_full": "せんえんほどもっています。"
         }
       ],
       "audio_eligible": true
@@ -66,24 +66,24 @@
       "translation": "I'm tired to the point of dying.",
       "blank_target": "くらい",
       "wrong_choices": [
-        "ほど",
         "まで",
-        "ような"
+        "ように",
+        "とき"
       ],
       "wrong_choice_explanations": [
-        "ほど means 'to the extent of' — while similar and sometimes interchangeable, くらい is more natural here for expressing extreme degree in casual speech.",
-        "まで means 'until/up to' — it doesn't fit here because it expresses limits in time or space rather than degree of tiredness.",
-        "ような means 'like/similar to' — it doesn't fit here because it expresses resemblance rather than extreme degree."
+        "まで marks an endpoint in time or space ('until ...'), not the extreme degree of tiredness that くらい expresses.",
+        "ように expresses manner or resemblance ('as if ...'), not the degree of exhaustion reaching collapse that くらい marks.",
+        "とき marks a point in time ('when ...'), not the intensity of the tiredness that くらい conveys."
       ],
-      "hiragana_full": "しぬくらいつかれた",
+      "hiragana_full": "しぬくらいつかれた。",
       "audio_alternatives": [
         {
           "kanji": "死ぬほど疲れた。",
-          "hiragana_full": "しぬほどつかれた"
+          "hiragana_full": "しぬほどつかれた。"
         },
         {
           "kanji": "死にそうなくらい疲れた。",
-          "hiragana_full": "しにそうなくらいつかれた"
+          "hiragana_full": "しにそうなくらいつかれた。"
         }
       ],
       "audio_eligible": true
@@ -103,15 +103,15 @@
         "ごと means 'every/each' — it doesn't fit here because it expresses intervals rather than approximate number.",
         "おき means 'every/at intervals of' — it doesn't fit here because it expresses spacing rather than approximation."
       ],
-      "hiragana_full": "じゅうにんぐらいあつまった",
+      "hiragana_full": "じゅうにんぐらいあつまった。",
       "audio_alternatives": [
         {
           "kanji": "十人ほど集まった。",
-          "hiragana_full": "じゅうにんほどあつまった"
+          "hiragana_full": "じゅうにんほどあつまった。"
         },
         {
           "kanji": "十人くらい集まりました。",
-          "hiragana_full": "じゅうにんくらいあつまりました"
+          "hiragana_full": "じゅうにんくらいあつまりました。"
         }
       ],
       "audio_eligible": true
@@ -159,15 +159,15 @@
         "前 means 'before/ago' — it doesn't fit here because it indicates a point in the past rather than approximate duration.",
         "後 means 'after/later' — it doesn't fit here because it indicates a point in the future rather than approximate duration."
       ],
-      "hiragana_full": "ごふんぐらいまってください",
+      "hiragana_full": "ごふんぐらいまってください。",
       "audio_alternatives": [
         {
           "kanji": "五分ほど待ってください。",
-          "hiragana_full": "ごふんほどまってください"
+          "hiragana_full": "ごふんほどまってください。"
         },
         {
           "kanji": "五分くらい待ってください。",
-          "hiragana_full": "ごふんくらいまってください"
+          "hiragana_full": "ごふんくらいまってください。"
         }
       ],
       "audio_eligible": true
@@ -187,43 +187,43 @@
         "ころ means 'time/around' — it doesn't fit here because it indicates approximate time periods rather than extent of emotion.",
         "間 means 'while/during' — it doesn't fit here because it expresses duration rather than degree that causes a near result."
       ],
-      "hiragana_full": "びっくりしてしんぞうがとまるくらいだった",
+      "hiragana_full": "びっくりしてしんぞうがとまるくらいだった。",
       "audio_alternatives": [
         {
           "kanji": "驚いて心臓が止まりそうだった。",
-          "hiragana_full": "おどろいてしんぞうがとまりそうだった"
+          "hiragana_full": "おどろいてしんぞうがとまりそうだった。"
         },
         {
           "kanji": "あまりの驚きで心臓が止まるところだった。",
-          "hiragana_full": "あまりのおどろきでしんぞうがとまるところだった"
+          "hiragana_full": "あまりのおどろきでしんぞうがとまるところだった。"
         }
       ],
       "audio_eligible": true
     },
     {
       "id": "n4_054_8",
-      "example_sentence": "二十歳ぐらいに見える。",
-      "translation": "She looks about twenty years old.",
+      "example_sentence": "このスイカは三キロぐらいある。",
+      "translation": "This watermelon weighs about three kilos.",
       "blank_target": "ぐらい",
       "wrong_choices": [
-        "らしい",
-        "みたい",
-        "そう"
+        "も",
+        "だけ",
+        "まで"
       ],
       "wrong_choice_explanations": [
-        "らしい means 'seems like/typical of' — it doesn't fit here because it expresses typicality or hearsay rather than approximation of age.",
-        "みたい means 'like/similar to' — it doesn't fit here because it expresses resemblance rather than approximate age.",
-        "そう means 'seems like/looks like' — it doesn't fit here because it expresses appearance but not with specific approximate numbers."
+        "も emphasizes that three kilos is a surprisingly large amount ('as much as three kilos'), whereas ぐらい simply gives an approximate weight.",
+        "だけ means 'only / just,' marking three kilos as an exact limit, not the rough approximation that ぐらい expresses.",
+        "まで means 'up to,' marking three kilos as an upper limit, not the approximate amount that ぐらい conveys."
       ],
-      "hiragana_full": "はたちぐらいにみえる。",
+      "hiragana_full": "このすいかはさんきろぐらいある。",
       "audio_alternatives": [
         {
-          "kanji": "二十歳くらいに見える。",
-          "hiragana_full": "はたちくらいにみえる。"
+          "kanji": "このスイカは三キロほどある。",
+          "hiragana_full": "このすいかはさんきろほどある。"
         },
         {
-          "kanji": "二十歳ぐらいに見えます。",
-          "hiragana_full": "はたちぐらいにみえます。"
+          "kanji": "このスイカは三キロぐらいあります。",
+          "hiragana_full": "このすいかはさんきろぐらいあります。"
         }
       ],
       "audio_eligible": true
@@ -243,15 +243,15 @@
         "わけ means 'reason/situation' — it doesn't fit here because it expresses reasoning or circumstances rather than extent of pain.",
         "もの means 'thing/because' — it doesn't fit here because it provides explanation or emphasis rather than expressing degree."
       ],
-      "hiragana_full": "あたまがいたくてしにそうなくらいだ",
+      "hiragana_full": "あたまがいたくてしにそうなくらいだ。",
       "audio_alternatives": [
         {
           "kanji": "頭が痛くて死にそうなほどだ。",
-          "hiragana_full": "あたまがいたくてしにそうなほどだ"
+          "hiragana_full": "あたまがいたくてしにそうなほどだ。"
         },
         {
           "kanji": "頭痛がひどくて死にそうだ。",
-          "hiragana_full": "ずつうがひどくてしにそうだ"
+          "hiragana_full": "ずつうがひどくてしにそうだ。"
         }
       ],
       "audio_eligible": true

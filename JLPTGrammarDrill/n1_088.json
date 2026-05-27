@@ -10,14 +10,14 @@
       "translation": "His success was nothing but the result of his efforts.",
       "blank_target": "ただ努力のみ",
       "wrong_choices": [
-        "ただ努力だけ",
-        "努力ばかり",
-        "努力のみならず"
+        "努力のみならず",
+        "努力など",
+        "努力ばかり"
       ],
       "wrong_choice_explanations": [
-        "ただ〜だけ is less formal and emphatic than ただ〜のみ; it doesn't convey the same strong exclusive meaning.",
-        "〜ばかり means 'only' but suggests repetition or excess, not the exclusive 'nothing but' meaning needed here.",
-        "〜のみならず means 'not only' and indicates addition, opposite to the exclusive meaning required."
+        "〜のみならず is additive (\"not only X, but also…\"), the opposite of のみ's exclusivity — it would imply his success came from more than effort, contradicting \"nothing but effort.\"",
+        "〜など lists effort as a mere example (\"effort and the like\"), leaving room for other causes, whereas のみ shuts out everything but effort.",
+        "〜ばかり does mean \"nothing but,\" but it carries a flavor of excess/overdoing (\"all that effort\"); のみ states pure, neutral exclusivity without that overloaded nuance."
       ],
       "hiragana_full": "かれのせいこうはただどりょくのみのけっかだった",
       "audio_alternatives": [
@@ -66,14 +66,14 @@
       "translation": "She answered with nothing but tears.",
       "blank_target": "ただ涙のみ",
       "wrong_choices": [
-        "ただ涙だけ",
-        "涙ばかり",
+        "涙まじり",
+        "涙など",
         "涙のみならず"
       ],
       "wrong_choice_explanations": [
-        "ただ〜だけ expresses \"only\" but is less formal and emphatic than ただ〜のみ; it lacks the strong exclusive nuance.",
-        "〜ばかり means \"only/just\" but implies excess or repetition, not the pure exclusivity that ただ〜のみ conveys.",
-        "〜のみならず means \"not only\" and indicates addition; its meaning is the opposite of the exclusive \"nothing but\" required here."
+        "〜まじり means \"mixed with / interspersed with,\" so 涙まじり would mean she still spoke, with tears mixed into her words; のみ means tears were the whole of her answer, with no words at all.",
+        "〜など treats tears as just one example among possible reactions (\"tears and the like\"), so it doesn't lock the answer down to tears alone the way のみ does.",
+        "〜のみならず means \"not only tears (but also…),\" the additive opposite of のみ — it would imply she answered with more than tears."
       ],
       "hiragana_full": "かのじょはただなみだのみでこたえた",
       "audio_alternatives": [
@@ -206,14 +206,14 @@
       "translation": "His reply was nothing but the single word 'yes'.",
       "blank_target": "ただ「はい」という一言のみ",
       "wrong_choices": [
-        "ただ「はい」という一言だけ",
-        "「はい」という一言ばかり",
+        "ただ「はい」という一言くらい",
+        "「はい」という一言など",
         "「はい」という一言のみならず"
       ],
       "wrong_choice_explanations": [
-        "ただ〜だけ expresses \"only\" but is less formal and emphatic than ただ〜のみ; it lacks the strong exclusive nuance.",
-        "〜ばかり means \"only/just\" but implies excess or repetition, not the pure exclusivity that ただ〜のみ conveys.",
-        "〜のみならず means \"not only\" and indicates addition; its meaning is the opposite of the exclusive \"nothing but\" required here."
+        "〜くらい marks an approximate extent (\"only about the one word\"), downplaying the amount rather than asserting strict exclusivity; のみ states that the single word was literally all there was.",
+        "〜など treats \"the word 'yes'\" as just one example of what he might have said (\"things like 'yes'\"), which undercuts the exclusive sense that のみ delivers.",
+        "〜のみならず means \"not only the one word (but also…),\" the additive opposite of のみ — it would imply his reply contained more than that single word."
       ],
       "hiragana_full": "かれのへんじはただはいというひとことのみだった",
       "audio_alternatives": [
@@ -230,20 +230,20 @@
     },
     {
       "id": "n1_088_9",
-      "example_sentence": "その店で売っているのはただパンのみだ。",
-      "translation": "What that shop sells is nothing but bread.",
+      "example_sentence": "その店ではただパンのみを売っている。",
+      "translation": "That shop sells nothing but bread.",
       "blank_target": "ただパンのみ",
       "wrong_choices": [
-        "ただパンだけ",
         "パンばかり",
-        "パンのみならず"
+        "パンなど",
+        "パンまで"
       ],
       "wrong_choice_explanations": [
-        "ただ〜だけ expresses \"only\" but is less formal and emphatic than ただ〜のみ; it lacks the strong exclusive nuance.",
-        "〜ばかり means \"only/just\" but implies excess or repetition, not the pure exclusivity that ただ〜のみ conveys.",
-        "〜のみならず means \"not only\" and indicates addition; its meaning is the opposite of the exclusive \"nothing but\" required here."
+        "〜ばかり means \"nothing but,\" but it adds a sense of excess (\"bread and more bread\"); のみ asserts plain, exclusive \"only bread\" without that overload nuance.",
+        "〜など lists bread as a mere example (\"bread and such\"), implying other goods too, which contradicts のみ's \"bread and nothing else.\"",
+        "〜まで means \"even,\" so パンまで売っている would mean the shop goes so far as to also sell bread — implying it sells other things as well, the opposite of exclusivity."
       ],
-      "hiragana_full": "そのみせでうっているのはただぱんのみだ",
+      "hiragana_full": "そのみせではただぱんのみをうっている",
       "audio_alternatives": [
         {
           "kanji": "その店で売っているものはパンだけだ。",

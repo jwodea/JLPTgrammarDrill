@@ -15,7 +15,7 @@
         "に"
       ],
       "wrong_choice_explanations": [
-        "は marks the topic — it doesn't fit here because 寿司 is what is liked (the object of preference), not the topic being discussed.",
+        "は would topicalize 寿司, adding a contrastive nuance ('sushi, at least, I like'); to plainly state what you like, the liked thing is marked with が.",
         "を marks direct objects of transitive verbs — it doesn't fit here because 好き is an adjective expressing preference, not a transitive verb.",
         "に indicates direction, time, or location — it doesn't fit here because we're expressing what is liked, not direction or location."
       ],
@@ -202,8 +202,8 @@
     },
     {
       "id": "n5_008_8",
-      "example_sentence": "お茶が飲みたいです。",
-      "translation": "I want to drink tea.",
+      "example_sentence": "お茶が欲しいです。",
+      "translation": "I want some tea.",
       "blank_target": "が",
       "wrong_choices": [
         "は",
@@ -211,19 +211,19 @@
         "で"
       ],
       "wrong_choice_explanations": [
-        "は marks topics — it doesn't fit here because お茶 is the object of desire with たい, not a topic being discussed.",
-        "を marks direct objects — it doesn't fit here because with たい (want to), the desired object takes が, not を.",
-        "で indicates location or means — it doesn't fit here because お茶 is what is wanted, not a location or method."
+        "は would topicalize お茶, adding a contrastive nuance ('tea, at least, I want'); a plain statement of what you want marks it with が.",
+        "を marks the object of a transitive verb, but 欲しい is an adjective meaning 'wanted', so the desired thing takes が — お茶を欲しい is ungrammatical.",
+        "で marks a location or means, not the thing desired; 欲しい takes が for what is wanted."
       ],
-      "hiragana_full": "おちゃがのみたいです",
+      "hiragana_full": "おちゃがほしいです。",
       "audio_alternatives": [
         {
-          "kanji": "お茶が飲みたい。",
-          "hiragana_full": "おちゃがのみたい"
+          "kanji": "お茶が欲しい。",
+          "hiragana_full": "おちゃがほしい。"
         },
         {
-          "kanji": "お茶を飲みたいです。",
-          "hiragana_full": "おちゃをのみたいです"
+          "kanji": "お茶が飲みたいです。",
+          "hiragana_full": "おちゃがのみたいです。"
         }
       ],
       "audio_eligible": true

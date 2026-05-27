@@ -7,7 +7,7 @@
     {
       "id": "n3_050_1",
       "example_sentence": "私は二日おきに、ヨガ教室に通っています。",
-      "translation": "I attend yoga classes every other day.",
+      "translation": "I attend yoga classes every three days.",
       "blank_target": "おきに",
       "wrong_choices": [
         "ごとに",
@@ -96,12 +96,12 @@
       "wrong_choices": [
         "ごとに",
         "たびに",
-        "ごとは"
+        "につき"
       ],
       "wrong_choice_explanations": [
-        "ごとに means 'every at set intervals', but this sentence requires おきに for specific interval measurements.",
-        "たびに means 'every time something happens', but this sentence uses おきに for set time intervals.",
-        "ごとは means 'every... as for', creating an incorrect contrast rather than expressing regular intervals."
+        "ごとに means 'every / each' with no gap implication. 二週間ごとに would mark every two weeks straight; おきに inserts a two-week interval between each visit, which is the standard JLPT distinction this drill is testing.",
+        "たびに means 'every time something happens' and is triggered by events (会うたびに, 見るたびに), not by a fixed schedule. The sentence describes a regular interval-based routine, which is おきに's territory.",
+        "につき means 'per' in a ratio or rate sense (二週間につき一万円 = '10,000 yen per two weeks'). The sentence isn't quoting a rate — it describes when the visits occur, which calls for the interval marker おきに."
       ],
       "hiragana_full": "かれはにしゅうかんおきに、じっかにきせいしています。",
       "audio_alternatives": [
@@ -147,7 +147,7 @@
     {
       "id": "n3_050_6",
       "example_sentence": "三日おきに、美容院に行くのは贅沢ですね。",
-      "translation": "Going to the beauty salon every three days is extravagant, is it not.",
+      "translation": "Going to the beauty salon every three days is extravagant, isn't it.",
       "blank_target": "おきに",
       "wrong_choices": [
         "ごとに",
@@ -159,15 +159,15 @@
         "たびに means 'every time'; おきに is for 'at intervals of'.",
         "におきに creates a double particle and is awkward; おきに alone is the correct form."
       ],
-      "hiragana_full": "みっかおきに、びようインにいくのはぜいたくですね。",
+      "hiragana_full": "みっかおきに、びよういんにいくのはぜいたくですね。",
       "audio_alternatives": [
         {
           "kanji": "三日おきに美容院へ行くのは贅沢ですね。",
-          "hiragana_full": "みっかおきにびようインへいくのはぜいたくですね。"
+          "hiragana_full": "みっかおきにびよういんへいくのはぜいたくですね。"
         },
         {
           "kanji": "三日おきに美容院に行くのは贅沢だよね。",
-          "hiragana_full": "みっかおきにびようインにいくのはぜいたくだよね。"
+          "hiragana_full": "みっかおきにびよういんにいくのはぜいたくだよね。"
         }
       ],
       "audio_eligible": true
@@ -208,12 +208,12 @@
       "wrong_choices": [
         "ごとに",
         "たびに",
-        "ごとは"
+        "につき"
       ],
       "wrong_choice_explanations": [
-        "ごとに means 'every', but おきに specifically means 'every other' or 'at intervals'.",
-        "たびに means 'every time' an action occurs, but おきに describes time intervals.",
-        "ごとは means 'every... as for', creating an incorrect contrast rather than expressing intervals."
+        "ごとに means 'every / each' without the gap nuance; 一ヶ月ごとに would mean monthly with no skipped month, while おきに inserts a one-month interval (so checkups fall every other month).",
+        "たびに means 'every time something occurs' (event-triggered), but the sentence is about a fixed interval-based routine — that's おきに's domain.",
+        "につき means 'per' in a ratio sense (一ヶ月につき一回 = 'once per month'). The sentence doesn't quote a rate, it describes the timing pattern of the checkups, which the interval marker おきに captures."
       ],
       "hiragana_full": "いっかげつおきに、ていきけんさをうけています。",
       "audio_alternatives": [

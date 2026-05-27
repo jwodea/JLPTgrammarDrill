@@ -11,23 +11,23 @@
       "blank_target": "ごとに",
       "wrong_choices": [
         "たびに",
-        "おきに",
+        "ごと",
         "ずつ"
       ],
       "wrong_choice_explanations": [
         "たびに means 'every time [something happens],' triggered by events, but the sentence is about fixed time intervals, not event-based repetition.",
-        "おきに means 'at intervals of / every other,' and with 三時間 it would mean 'every 4th hour' (skipping 3), not 'every 3 hours.'",
+        "「ごと」 without 「に」 is incomplete here; as an adverb of recurring interval the pattern needs 「ごとに」, so 「三時間ごと」 cannot link to the following clause the way 「三時間ごとに」 does.",
         "ずつ means 'each / at a time,' expressing portions or amounts, not regular time intervals."
       ],
-      "hiragana_full": "わたしたちはさんじかんごとに、きゅうけいをとることにしています",
+      "hiragana_full": "わたしたちはさんじかんごとに、きゅうけいをとることにしています。",
       "audio_alternatives": [
         {
           "kanji": "私たちは三時間おきに、休憩を取ることにしています。",
-          "hiragana_full": "わたしたちはさんじかんおきに、きゅうけいをとることにしています"
+          "hiragana_full": "わたしたちはさんじかんおきに、きゅうけいをとることにしています。"
         },
         {
           "kanji": "三時間ごとに休憩を取るようにしています。",
-          "hiragana_full": "さんじかんごとにきゅうけいをとるようにしています"
+          "hiragana_full": "さんじかんごとにきゅうけいをとるようにしています。"
         }
       ],
       "audio_eligible": true
@@ -47,15 +47,15 @@
         "ごとの is a possessive form meaning 'each one's', not used for expressing repetition of actions.",
         "におきに is awkward and creates a double particle; ごとに is the correct form for regular, named intervals."
       ],
-      "hiragana_full": "げつようびごとにかいさいされます",
+      "hiragana_full": "げつようびごとにかいさいされます。",
       "audio_alternatives": [
         {
           "kanji": "毎週月曜日に開催されます。",
-          "hiragana_full": "まいしゅうげつようびにかいさいされます"
+          "hiragana_full": "まいしゅうげつようびにかいさいされます。"
         },
         {
           "kanji": "月曜日のたびに開かれます。",
-          "hiragana_full": "げつようびのたびにひらかれます"
+          "hiragana_full": "げつようびのたびにひらかれます。"
         }
       ],
       "audio_eligible": true
@@ -155,7 +155,7 @@
         "ずつ"
       ],
       "wrong_choice_explanations": [
-        "たびに means 'every time'; ごとに is for regular intervals.",
+        "「たびに」 means 'each time (an event occurs)' and attaches to a verb or event noun (e.g. 提出するたびに); it doesn't mark a fixed time-span, whereas ごとに marks the regular weekly interval here.",
         "ごとは means 'every ... as for', creating an incorrect contrast rather than expressing regular submission.",
         "ずつ means 'each/apiece'; it marks distribution, not intervals."
       ],
@@ -267,8 +267,8 @@
         "ずつ"
       ],
       "wrong_choice_explanations": [
-        "たびに means 'every time', more emphasizing repetition of events than ごとに.",
-        "おきに means 'at intervals', but ごとに is used for regular recurring periods.",
+        "「たびに」 means 'each time (something happens)' and pairs with a verb or event (見直すたびに); ごとに is what marks the regular yearly interval in this sentence.",
+        "「おきに」 means 'every other (leaving a gap)', so 年おきに would be every second year, whereas ごとに marks every single year.",
         "ずつ means 'each/per', not the temporal recurrence that ごとに conveys."
       ],
       "hiragana_full": "ねんごとに、けいえいほうしんをみなおしています。",

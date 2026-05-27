@@ -6,7 +6,7 @@
   "exercises": [
     {
       "id": "n4_064_1",
-      "example_sentence": "朝ご飯を食べたばかりなのに、もうお腹が空いた。",
+      "example_sentence": "朝ご飯を食べたばかりなのに、もうお腹が空いている。",
       "translation": "I just ate breakfast, but I'm already hungry.",
       "blank_target": "た",
       "wrong_choices": [
@@ -19,7 +19,7 @@
         "る creates present tense — ばかり needs past tense to indicate the action was just completed",
         "ない creates negative form — it doesn't work with ばかり which shows recent completion"
       ],
-      "hiragana_full": "あさごはんをたべたばかりなのに、もうおなかがすいた。",
+      "hiragana_full": "あさごはんをたべたばかりなのに、もうおなかがすいている。",
       "audio_alternatives": [
         {
           "kanji": "朝食を食べたばかりなのに、もうお腹が空いた。",
@@ -40,12 +40,12 @@
       "wrong_choices": [
         "ところ",
         "あと",
-        "まで"
+        "だけ"
       ],
       "wrong_choice_explanations": [
-        "ところ can mean 'just did' but has different nuance — ばかり emphasizes the recentness more strongly",
-        "あと means 'after' — it doesn't express the 'just recently completed' meaning",
-        "まで means 'until' — it expresses time limits rather than recent completion"
+        "「〜たところ」 also means 'just did,' but pins the action to this very instant, whereas 〜たばかり covers a recently-passed stretch — fitting here, since not yet being used to Japan implies time has passed since arriving.",
+        "「〜たあと」 means 'after coming,' marking plain sequence and a later point, not the 'only recently' recency that 〜たばかり expresses.",
+        "「〜ただけ」 means 'only came (and nothing more),' limiting the action, not expressing that it happened just recently as 〜たばかり does."
       ],
       "hiragana_full": "にほんにきたばかりだから、まだなれていません。",
       "audio_alternatives": [
@@ -73,24 +73,24 @@
       "wrong_choice_explanations": [
         "て creates continuous form — ばかり needs past tense to show the action was just completed",
         "ている shows ongoing state — ばかり emphasizes the recent completion, not continuing state",
-        "よう means 'like/appear' — it doesn't create the past tense needed for ばかり"
+        "「よう」 makes 終わらせよう, the volitional 'let's finish' — not the past tense that 〜たばかり needs to show recent completion."
       ],
-      "hiragana_full": "しゅくだいをおわらせたばかりです",
+      "hiragana_full": "しゅくだいをおわらせたばかりです。",
       "audio_alternatives": [
         {
           "kanji": "宿題をちょうど終わらせました。",
-          "hiragana_full": "しゅくだいをちょうどおわらせました"
+          "hiragana_full": "しゅくだいをちょうどおわらせました。"
         },
         {
           "kanji": "今、宿題が終わったところです。",
-          "hiragana_full": "いま、しゅくだいがおわったところです"
+          "hiragana_full": "いま、しゅくだいがおわったところです。"
         }
       ],
       "audio_eligible": true
     },
     {
       "id": "n4_064_4",
-      "example_sentence": "赤ちゃんが生まれたばかりで、とても可愛いです。",
+      "example_sentence": "赤ちゃんが生まれたばかりで、とても可愛い。",
       "translation": "The baby was just born, so it's very cute.",
       "blank_target": "で",
       "wrong_choices": [
@@ -103,7 +103,7 @@
         "ので means 'because' but is more formal — で flows better with the casual observation",
         "だから means 'therefore' — it's too emphatic after ばかり which already sets up gentle reasoning"
       ],
-      "hiragana_full": "あかちゃんがうまれたばかりで、とてもかわいいです。",
+      "hiragana_full": "あかちゃんがうまれたばかりで、とてもかわいい。",
       "audio_alternatives": [
         {
           "kanji": "赤ちゃんが生まれたばかりだから、とても可愛い。",
@@ -128,8 +128,8 @@
       ],
       "wrong_choice_explanations": [
         "で would make it 飲んで which is the te-form — ばかり requires the past tense 飲んだ",
-        "でる is not a valid verb ending for 飲む — the correct past tense is 飲んだ",
-        "でい is not a valid verb ending — the correct past tense is 飲んだ"
+        "「でる」 gives 飲んでる, the casual form of 飲んでいる ('am drinking'), an ongoing action — not the completed past 飲んだ that 〜ばかり needs.",
+        "「でい」 leaves 飲んでい, an incomplete form (it would need 飲んでいる) — the past tense 〜ばかり requires is 飲んだ."
       ],
       "hiragana_full": "くすりをのんだばかりなのに、またあたまがいたくなった。",
       "audio_alternatives": [
@@ -157,7 +157,7 @@
       "wrong_choice_explanations": [
         "て creates the te-form — but ばかり needs past tense to show the action was just completed",
         "ている shows ongoing state — ばかり emphasizes recent completion, not continuing action",
-        "よう means 'seem/like' — it doesn't create the past tense needed for ばかり"
+        "「よう」 makes 辞めよう, the volitional 'let's quit' — not the past tense that 〜たばかり needs."
       ],
       "hiragana_full": "かいしゃをやめたばかりで、つぎのしごとをさがしている。",
       "audio_alternatives": [
@@ -211,9 +211,9 @@
         "あいだ"
       ],
       "wrong_choice_explanations": [
-        "ところ means 'just did' but lacks the emphasis on recentness that ばかり provides",
-        "とき means 'when/time' — it doesn't express recent completion like ばかり does",
-        "あいだ means 'while/during' — it refers to duration rather than recent completion"
+        "「〜たところ」 also means 'just did,' but marks this very instant, whereas 〜たばかり covers a recently-passed stretch (here, the period since graduating).",
+        "「〜たとき」 means 'when X happened,' pointing to the time of an event, not the recency that 〜たばかり emphasizes.",
+        "「〜たあいだ」 refers to a span 'during which' something holds, not the recent completion of a single action that 〜たばかり expresses."
       ],
       "hiragana_full": "だいがくをそつぎょうしたばかりなのに、しゅうしょくかつどうがうまくいかない。",
       "audio_alternatives": [
@@ -271,15 +271,15 @@
         "ている shows ongoing state — ばかり emphasizes the recent event, not continuing state",
         "たい expresses desire/want — it doesn't create the past tense needed for ばかり"
       ],
-      "hiragana_full": "けっこんしたばかりのふうふです",
+      "hiragana_full": "けっこんしたばかりのふうふです。",
       "audio_alternatives": [
         {
           "kanji": "結婚したばかりの二人です。",
-          "hiragana_full": "けっこんしたばかりのふたりです"
+          "hiragana_full": "けっこんしたばかりのふたりです。"
         },
         {
           "kanji": "最近結婚した夫婦です。",
-          "hiragana_full": "さいきんけっこんしたふうふです"
+          "hiragana_full": "さいきんけっこんしたふうふです。"
         }
       ],
       "audio_eligible": true

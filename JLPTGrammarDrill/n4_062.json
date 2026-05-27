@@ -10,16 +10,16 @@
       "translation": "I heard Tanaka-san is busy.",
       "blank_target": "って",
       "wrong_choices": [
-        "は",
+        "に",
         "が",
         "を"
       ],
       "wrong_choice_explanations": [
-        "は is a topic marker — it doesn't create the casual quotation or hearsay meaning needed here",
-        "が is a subject marker — it doesn't express the 'I heard that' nuance of casual reporting",
-        "を is an object marker — it doesn't fit the grammatical structure for casual quotation"
+        "に marks a target or location, but 田中さんに忙しい isn't grammatical—the topic-marker って is what introduces 田中さん as what the hearsay is about.",
+        "が marks a neutral subject; it can state who is busy but doesn't raise 田中さん as the conversational topic the way the topic-marking って does.",
+        "を is an object marker, but 忙しい is an adjective with no object to take, so を cannot attach here."
       ],
-      "hiragana_full": "たなかさんってにしいんだって。",
+      "hiragana_full": "たなかさんっていそがしいんだって。",
       "audio_alternatives": [
         {
           "kanji": "田中さんは忙しいそうです。",
@@ -38,14 +38,14 @@
       "translation": "Did you know there's a test tomorrow?",
       "blank_target": "って",
       "wrong_choices": [
-        "と",
+        "を",
         "こと",
-        "の"
+        "か"
       ],
       "wrong_choice_explanations": [
-        "と is formal quotation — って is more natural for casual conversation about known information",
-        "こと would nominalize the clause but doesn't create the casual quotation nuance",
-        "の nominalizes but doesn't express the hearsay or casual reporting meaning of って"
+        "を can't mark a whole clause like 明日テストがある before 知ってた; the clause needs the quotation って (or to be nominalized first).",
+        "こと nominalizes the clause but here would need を (ことを知ってた); on its own it doesn't give the casual 'that…' quotation って provides.",
+        "か turns it into 'did you know WHETHER there's a test'—an embedded yes/no question, not the statement 'that there's a test' that って reports."
       ],
       "hiragana_full": "あしたてすとがあるってしってた？",
       "audio_alternatives": [
@@ -94,14 +94,14 @@
       "translation": "Even though I said 'good morning', there was no reply.",
       "blank_target": "って",
       "wrong_choices": [
-        "と",
+        "の",
         "を",
         "に"
       ],
       "wrong_choice_explanations": [
-        "と is formal quotation — って is more natural for casual reported speech like this",
-        "を would make 'good morning' an object, but we need a quotation marker here",
-        "に indicates direction/target — it doesn't create the quotation structure needed"
+        "の can't mark a direct quotation before 言った—「おはよう」の言った is broken; quoted speech takes って (or formal と).",
+        "を would make 'good morning' an object, but a quoted utterance is marked with って, not を.",
+        "に indicates direction/target — it doesn't create the quotation structure needed."
       ],
       "hiragana_full": "おはようっていったのに、へんじがなかった。",
       "audio_alternatives": [
@@ -118,28 +118,28 @@
     },
     {
       "id": "n4_062_5",
-      "example_sentence": "雨が降るから傘を持っていけって母に言われた。",
-      "translation": "My mother told me to take an umbrella because it's going to rain.",
+      "example_sentence": "雨が降りそうだから、傘を忘れるなって母に言われた。",
+      "translation": "My mother told me not to forget my umbrella because it looks like rain.",
       "blank_target": "って",
       "wrong_choices": [
-        "と",
+        "ように",
         "ので",
         "から"
       ],
       "wrong_choice_explanations": [
-        "と is formal quotation — って better captures the casual family conversation context",
-        "ので means 'because' — it would create a causal clause rather than quotation",
-        "から means 'because' — it would change the meaning from quotation to reason"
+        "ように reports an indirect command, but it needs the form 忘れないように; after the direct prohibition 忘れるな, only the casual quotation って (or formal と) can mark it.",
+        "ので means 'because'; it would turn 忘れるな into a reason clause rather than quoting mother's words.",
+        "から means 'because'; it would read as a cause rather than the quoted command that って introduces."
       ],
-      "hiragana_full": "あめがふるからかさをもっていけっておかあさんにいわれた。",
+      "hiragana_full": "あめがふりそうだから、かさをわすれるなっておかあさんにいわれた。",
       "audio_alternatives": [
         {
-          "kanji": "雨が降るから傘を持って行くように母に言われた。",
-          "hiragana_full": "あめがふるからかさをもっていくようにおかあさんにいわれた。"
+          "kanji": "雨が降りそうだから、傘を忘れないように母に言われた。",
+          "hiragana_full": "あめがふりそうだから、かさをわすれないようにおかあさんにいわれた。"
         },
         {
-          "kanji": "雨が降るので傘を持っていけって母に言われた。",
-          "hiragana_full": "あめがふるのでかさをもっていけっておかあさんにいわれた。"
+          "kanji": "雨が降りそうだから、傘を忘れるなって母に言われたんだ。",
+          "hiragana_full": "あめがふりそうだから、かさをわすれるなっておかあさんにいわれたんだ。"
         }
       ],
       "audio_eligible": true
@@ -263,13 +263,13 @@
       "blank_target": "って",
       "wrong_choices": [
         "も",
-        "は",
+        "を",
         "が"
       ],
       "wrong_choice_explanations": [
-        "も means 'also/too' — it adds to a list rather than introducing a topic of conversation",
-        "は is a topic marker — って is more natural for bringing up a casual topic of discussion",
-        "が is a subject marker — it doesn't capture the conversational topic-introduction nuance of って"
+        "も means 'also/too' — it adds the bento to a list rather than raising it as the topic of conversation.",
+        "を marks a direct object, but 美味しくなった is intransitive (the bento itself becomes tasty), so を can't attach here.",
+        "が marks a neutral subject; it states the bento got tasty but doesn't raise it as the shared topic the way って does."
       ],
       "hiragana_full": "コンビニのべんとうってうまくなったね。",
       "audio_alternatives": [

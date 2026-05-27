@@ -10,14 +10,14 @@
       "translation": "I'm in the middle of doing homework right now.",
       "blank_target": "ている",
       "wrong_choices": [
-        "てから",
-        "ながら",
-        "ために"
+        "た",
+        "る",
+        "ていた"
       ],
       "wrong_choice_explanations": [
-        "てから means 'after doing' — it doesn't fit here because we need to express an ongoing action in progress.",
-        "ながら means 'while doing simultaneously' — it doesn't fit here because we need to show the current state of being in the middle of an action.",
-        "ために means 'in order to / for the purpose of' — it doesn't fit here because we need to express an action currently in progress."
+        "た would yield 宿題をしたところ ('I just finished my homework'), but 今 ('right now') means the speaker is still mid-task, so ているところ is needed.",
+        "る would yield 宿題をするところ ('I'm about to start my homework'), which describes the moment before starting; here the action is already underway.",
+        "ていた would yield 宿題をしていたところ ('I was in the middle of doing my homework'), shifting the action into the past; 今 demands the present-progressive ているところ."
       ],
       "hiragana_full": "いま、しゅくだいをしているところです。",
       "audio_alternatives": [
@@ -38,14 +38,14 @@
       "translation": "When I called him, he was in the middle of cooking.",
       "blank_target": "ている",
       "wrong_choices": [
-        "てみる",
-        "てしまう",
-        "ておく"
+        "た",
+        "る",
+        "ようとしていた"
       ],
       "wrong_choice_explanations": [
-        "てみる means 'try doing' — it doesn't fit here because we need to express an ongoing action, not an attempt.",
-        "てしまう means 'completely finish doing' — it doesn't fit here because we need to show an action in progress, not completion.",
-        "ておく means 'do in advance' — it doesn't fit here because we need to express a current ongoing state, not preparation."
+        "た would yield 料理を作ったところだった ('he had just finished cooking'), but the call interrupted him mid-cooking, so ているところ is needed.",
+        "る would yield 料理を作るところだった ('he was about to start cooking'), which places him before the action — here he is already underway.",
+        "ようとしていた would yield 作ろうとしていたところだった ('he was on the verge of starting to cook'), still pre-action; ているところだった is what describes an action in progress at a past moment."
       ],
       "hiragana_full": "でんわをかけたとき、かれはりょうりをつくっているところだった。",
       "audio_alternatives": [
@@ -66,14 +66,14 @@
       "translation": "Sorry, I'm in the middle of a meeting right now, so I'll contact you later.",
       "blank_target": "ている",
       "wrong_choices": [
-        "たあと",
-        "る前に",
-        "とき"
+        "た",
+        "ようとしている",
+        "ていた"
       ],
       "wrong_choice_explanations": [
-        "たあと means 'after doing' — it doesn't fit here because we need to express a current ongoing action, not something that happened after.",
-        "る前に means 'before doing' — it doesn't fit here because we need to show an action currently in progress, not something about to happen.",
-        "とき means 'when/at the time of' — it doesn't fit here because we need to express the ongoing state of an action, not a time reference."
+        "た would yield 会議をしたところなので ('since I just finished a meeting'), but the excuse for the delay is that the meeting is happening right now — ているところ is required.",
+        "ようとしている would yield 会議をしようとしているところ ('I'm about to start a meeting'), placing the meeting before it has begun; the speaker is already inside it.",
+        "ていた would yield 会議をしていたところ ('I was in the middle of a meeting'), shifting the action to the past; 今 demands the present-progressive ているところ."
       ],
       "hiragana_full": "すみません、いまかいぎをしているところなので、あとでれんらくします。",
       "audio_alternatives": [
@@ -94,14 +94,14 @@
       "translation": "When my mother came home, I was in the middle of reading a book.",
       "blank_target": "でいる",
       "wrong_choices": [
-        "でみる",
-        "でから",
-        "ながら"
+        "だ",
+        "でいた",
+        "でしまった"
       ],
       "wrong_choice_explanations": [
-        "でみる means 'try doing' — it doesn't fit here because we need to express an ongoing action, not an attempt.",
-        "でから means 'after doing' — it doesn't fit here because we need to show an action in progress, not something that happens after.",
-        "ながら means 'while doing simultaneously' — it doesn't fit here because we need to express being in the middle of a single action, not doing two things at once."
+        "だ would yield 本を読んだところでした ('I had just finished reading'), but the scene catches the speaker mid-book when mom walks in — でいるところ is required.",
+        "でいた would yield 読んでいたところでした, which doubles up the past aspect and reads as 'I had been reading'; the standard form for an ongoing action at a past moment is でいるところでした.",
+        "でしまった would yield 読んでしまったところでした ('I had just gotten through reading it'), again signaling completion rather than the ongoing reading the sentence describes."
       ],
       "hiragana_full": "ははがかえってきたとき、わたしはほんをよんでいるところでした。",
       "audio_alternatives": [
@@ -122,24 +122,24 @@
       "translation": "The children are in the middle of playing at the park.",
       "blank_target": "でいる",
       "wrong_choices": [
-        "でみる",
-        "でから",
-        "だけで"
+        "だ",
+        "でいた",
+        "でみる"
       ],
       "wrong_choice_explanations": [
-        "でみる means 'try doing' — it doesn't fit here because we need to express an ongoing action, not an attempt.",
-        "でから means 'after doing' — it doesn't fit here because we need to show an action in progress, not something sequential.",
-        "だけで means 'just by/only with' — it doesn't fit here because we need to express being in the middle of an action, not limitation."
+        "だ would yield 遊んだところです ('they just finished playing'), but the sentence describes the kids currently playing — でいるところ is needed.",
+        "でいた would yield 遊んでいたところ ('they were in the middle of playing'), placing the action in the past; the sentence is present-tense.",
+        "でみる would yield 遊んでみるところ ('they're about to try playing'), still pre-action; the kids are already mid-play."
       ],
-      "hiragana_full": "こどもたちはこうえんであそんでいるところです",
+      "hiragana_full": "こどもたちはこうえんであそんでいるところです。",
       "audio_alternatives": [
         {
           "kanji": "子供たちは公園で遊んでいます。",
-          "hiragana_full": "こどもたちはこうえんであそんでいます"
+          "hiragana_full": "こどもたちはこうえんであそんでいます。"
         },
         {
           "kanji": "子供たちは今、公園で遊んでいるところだ。",
-          "hiragana_full": "こどもたちはいま、こうえんであそんでいるところだ"
+          "hiragana_full": "こどもたちはいま、こうえんであそんでいるところだ。"
         }
       ],
       "audio_eligible": true
@@ -150,14 +150,14 @@
       "translation": "I'm in the middle of taking a bath, so please wait a little longer.",
       "blank_target": "ている",
       "wrong_choices": [
-        "たら",
-        "れば",
-        "と"
+        "た",
+        "る",
+        "ていた"
       ],
       "wrong_choice_explanations": [
-        "たら means 'if/when (conditional)' — it doesn't fit here because we need to express an ongoing action, not a conditional situation.",
-        "れば means 'if (conditional)' — it doesn't fit here because we need to show current progress of an action, not a hypothetical condition.",
-        "と means 'when/if (natural consequence)' — it doesn't fit here because we need to express being in the middle of an action, not a conditional relationship."
+        "た would yield お風呂に入ったところ ('I just got into the bath'), but the speaker is asking to be waited for while in the bath — ているところ shows the ongoing state.",
+        "る would yield お風呂に入るところ ('I'm about to get in the bath'), describing the moment before entry; here the speaker is already in.",
+        "ていた would yield お風呂に入っていたところ ('I was in the bath'), implying the bath is over; the request only makes sense while still bathing."
       ],
       "hiragana_full": "おふろにはいっているところなので、もうすこしまってください。",
       "audio_alternatives": [
@@ -178,14 +178,14 @@
       "translation": "When the teacher entered the classroom, the students were in the middle of taking an exam.",
       "blank_target": "ている",
       "wrong_choices": [
-        "るつもり",
-        "ようと",
-        "はず"
+        "た",
+        "る",
+        "ようとしていた"
       ],
       "wrong_choice_explanations": [
-        "るつもり means 'intend to do' — it doesn't fit here because we need to express an action in progress, not an intention.",
-        "ようと means 'try to do' — it doesn't fit here because we need to show an ongoing action, not an attempt or effort.",
-        "はず means 'should/expected to' — it doesn't fit here because we need to express an action currently happening, not an expectation."
+        "た would yield 試験を受けたところだった ('they had just finished the exam'), but when the teacher walked in the exam was underway — ているところだった is required.",
+        "る would yield 試験を受けるところだった ('they were about to take the exam'), placing them before the test starts; the sentence describes them mid-test.",
+        "ようとしていた would yield 受けようとしていたところだった ('they were on the verge of starting'), again pre-action; the ongoing past-progressive needs ているところだった."
       ],
       "hiragana_full": "せんせいがきょうしつにはいったとき、がくせいたちはしけんをうけているところだった。",
       "audio_alternatives": [
@@ -206,14 +206,14 @@
       "translation": "I'm in the middle of organizing my luggage right now, so the room is messy.",
       "blank_target": "ている",
       "wrong_choices": [
-        "ようになる",
-        "ことになる",
-        "ものだ"
+        "た",
+        "ようとしている",
+        "ていた"
       ],
       "wrong_choice_explanations": [
-        "ようになる means 'come to do / become able to' — it doesn't fit here because we need to express an ongoing action, not a change in ability.",
-        "ことになる means 'it has been decided that' — it doesn't fit here because we need to show current progress, not a decision or arrangement.",
-        "ものだ means 'it is natural that / one should' — it doesn't fit here because we need to express an action in progress, not a general principle."
+        "た would yield 片付けたところ ('I just finished tidying up'), but the messy room shows the cleaning is still under way — ているところ is needed.",
+        "ようとしている would yield 片付けようとしているところ ('I'm about to start tidying up'), still pre-action; the room is mid-cleanup, not pre-cleanup.",
+        "ていた would yield 片付けていたところ ('I was tidying up'), shifting to past tense; the sentence is present-tense (今)."
       ],
       "hiragana_full": "いま、にもつをかたづけているところですから、へやがちらかっています。",
       "audio_alternatives": [
@@ -234,14 +234,14 @@
       "translation": "He is in the middle of washing his new car right now.",
       "blank_target": "ている",
       "wrong_choices": [
-        "ばかり",
-        "だけ",
-        "しか"
+        "た",
+        "る",
+        "ていた"
       ],
       "wrong_choice_explanations": [
-        "ばかり means 'just did / only' — it doesn't fit here because we need to express an ongoing action, not something just completed.",
-        "だけ means 'only' — it doesn't fit here because we need to show an action in progress, not limitation.",
-        "しか means 'only (with negative)' — it doesn't fit here because we need to express being in the middle of an action, not restriction."
+        "た would yield 車を洗ったところ ('he just finished washing the car'), but with 今 he is still scrubbing away — ているところ is required.",
+        "る would yield 車を洗うところ ('he's about to wash the car'), placing him before the action; the sentence catches him mid-wash.",
+        "ていた would yield 洗っていたところ ('he was washing the car'), shifting to the past; 今 forces the present-progressive ているところ."
       ],
       "hiragana_full": "かれはいま、あたらしいくるまをあらっているところです。",
       "audio_alternatives": [
@@ -262,14 +262,14 @@
       "translation": "I'm sorry, but I'm in the middle of a meeting with a client right now.",
       "blank_target": "ている",
       "wrong_choices": [
-        "たがる",
-        "やすい",
-        "にくい"
+        "た",
+        "る",
+        "ようとしている"
       ],
       "wrong_choice_explanations": [
-        "たがる means 'want to do / show signs of wanting to' — it doesn't fit here because we need to express an ongoing action, not desire.",
-        "やすい means 'easy to do' — it doesn't fit here because we need to show an action in progress, not ease of doing something.",
-        "にくい means 'hard to do' — it doesn't fit here because we need to express being in the middle of an action, not difficulty."
+        "た would yield 打ち合わせをしたところです ('I just finished a meeting with the client'), but the apology only makes sense if the meeting is still going — ているところ is needed.",
+        "る would yield 打ち合わせをするところです ('I'm about to start a meeting'), placing the speaker before the meeting; here it has already started.",
+        "ようとしている would yield しようとしているところ ('I'm on the verge of starting'), still pre-action; the speaker is excusing themselves because the meeting is currently under way."
       ],
       "hiragana_full": "もうしわけありませんが、いまおきゃくさまとうちあわせをしているところです。",
       "audio_alternatives": [

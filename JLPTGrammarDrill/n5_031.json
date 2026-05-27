@@ -15,9 +15,9 @@
         "ながら"
       ],
       "wrong_choice_explanations": [
-        "た is past tense form — it doesn't connect properly to the following action in this sequence.",
-        "ます is polite ending — it would end the sentence here instead of connecting to the next action.",
-        "ながら means 'while doing simultaneously' — it doesn't fit because these are sequential actions, not simultaneous ones."
+        "た is the plain past ('woke up') and ends the clause; it can't link to the next action, so 起きた…顔を洗います wouldn't form one connected sentence the way 起きて does.",
+        "ます is the polite ending; 起きます would finish the sentence, not join it to washing your face — the te-form is what connects two actions.",
+        "ながら means 'while doing at the same time' (起きながら = 'while waking up'); these actions happen one after another, so て ('and then') fits, not simultaneous ながら."
       ],
       "hiragana_full": "あさおきて、かおをあらいます。",
       "audio_alternatives": [
@@ -39,13 +39,13 @@
       "blank_target": "て",
       "wrong_choices": [
         "た",
-        "る",
-        "ない"
+        "ない",
+        "ます"
       ],
       "wrong_choice_explanations": [
-        "た creates 'studied' but doesn't connect properly with から in this temporal sequence construction.",
-        "る is dictionary form — it doesn't work with から to show 'after doing' in past context.",
-        "ない is negative form — it would mean 'after not studying' which contradicts the intended meaning."
+        "Without て, したから means 'because I studied,' giving a reason; 〜てから means 'after studying,' the time sequence intended here.",
+        "しないから means 'because I don't/won't study'; it makes the clause a negative reason, not the 'after doing' sequence that てから expresses.",
+        "しますから means 'because I will study' (polite reason); it doesn't give the 'after ~' timing that てから marks."
       ],
       "hiragana_full": "べんきょうしてから、ともだちとあそびました。",
       "audio_alternatives": [
@@ -67,23 +67,23 @@
       "blank_target": "て",
       "wrong_choices": [
         "た",
-        "ます",
-        "よう"
+        "たら",
+        "たり"
       ],
       "wrong_choice_explanations": [
-        "た is past tense — it doesn't combine with ください to make polite requests.",
-        "ます cannot directly connect to ください — the te-form is needed for polite requests.",
-        "よう indicates volitional/intention — it doesn't combine with ください for making requests."
+        "洗った is the plain past ('washed'); ください attaches only to the te-form, so 洗ったください is not possible — it must be 洗ってください.",
+        "洗ったら means 'if/when you wash'; it is a conditional and can't precede ください, which requires the te-form for a request.",
+        "洗ったり means 'do things like washing' and needs a second 〜たり; it can't combine with ください, which takes the te-form."
       ],
-      "hiragana_full": "てをあらってください",
+      "hiragana_full": "てをあらってください。",
       "audio_alternatives": [
         {
           "kanji": "手を洗いなさい。",
-          "hiragana_full": "てをあらいなさい"
+          "hiragana_full": "てをあらいなさい。"
         },
         {
           "kanji": "手を洗ってね。",
-          "hiragana_full": "てをあらってね"
+          "hiragana_full": "てをあらってね。"
         }
       ],
       "audio_eligible": true
@@ -95,13 +95,13 @@
       "blank_target": "で",
       "wrong_choices": [
         "だ",
-        "た",
-        "たら"
+        "だら",
+        "でも"
       ],
       "wrong_choice_explanations": [
-        "だ is copula — it doesn't work as a connector for verb sequences in this context.",
-        "た is past tense — it would create two separate past actions instead of connected sequence.",
-        "たら is conditional meaning 'if/when' — it doesn't fit because this describes sequential actions that actually happened."
+        "読んだ is the plain past ('read'); it ends the clause instead of linking to taking notes, so the de-form (読んで) is needed to connect the two actions.",
+        "読んだら means 'if/when I read'; it sets up a condition, not the simple 'read and then took notes' sequence that 読んで gives.",
+        "読んでも means 'even if I read'; it concedes a point rather than connecting two actions that both happened, which 読んで does."
       ],
       "hiragana_full": "ほんをよんで、めもをとりました。",
       "audio_alternatives": [
@@ -123,13 +123,13 @@
       "blank_target": "て",
       "wrong_choices": [
         "た",
-        "から",
-        "ば"
+        "たら",
+        "ても"
       ],
       "wrong_choice_explanations": [
-        "た is past tense — it doesn't connect properly to present tense homework doing.",
-        "から means 'from/after' — it would change the meaning to 'after listening to music' rather than connecting the actions.",
-        "ば is conditional meaning 'if' — it doesn't fit because this describes actual actions, not hypothetical conditions."
+        "聞いた is the plain past ('listened') and closes the clause; it can't link to doing homework, so the te-form 聞いて is required to connect them.",
+        "聞いたら means 'when/if I listen'; it is a conditional, whereas 聞いて simply joins listening to music with doing homework.",
+        "聞いても means 'even if I listen'; it expresses concession, not the 'and then' connection that 聞いて provides."
       ],
       "hiragana_full": "おんがくをきいて、しゅくだいをします。",
       "audio_alternatives": [
@@ -151,23 +151,23 @@
       "blank_target": "て",
       "wrong_choices": [
         "た",
-        "から",
-        "ので"
+        "たら",
+        "ながら"
       ],
       "wrong_choice_explanations": [
-        "た is past tense — it doesn't connect sequential actions properly in this volitional context.",
-        "から means 'from/because' — it doesn't create the proper connection for sequential actions here.",
-        "ので means 'because/since' — it indicates reason rather than sequential action connection."
+        "食べた is the plain past ('ate'); it can't attach to 行きましょう, so the te-form 食べて is needed to mean 'eat and (then) go.'",
+        "食べたら means 'after/when we eat'; it makes the clause conditional, while 食べて行く means 'eat and go' as one linked action.",
+        "食べながら means 'while eating'; it would mean going while still eating, but here we eat first and then go, so て fits."
       ],
-      "hiragana_full": "はやくたべていきましょう",
+      "hiragana_full": "はやくたべていきましょう。",
       "audio_alternatives": [
         {
           "kanji": "急いで食べて出発しましょう。",
-          "hiragana_full": "いそいでたべてしゅっぱつしましょう"
+          "hiragana_full": "いそいでたべてしゅっぱつしましょう。"
         },
         {
           "kanji": "早く食べましょう。",
-          "hiragana_full": "はやくたべましょう"
+          "hiragana_full": "はやくたべましょう。"
         }
       ],
       "audio_eligible": true
@@ -180,22 +180,22 @@
       "wrong_choices": [
         "た",
         "ます",
-        "ば"
+        "たら"
       ],
       "wrong_choice_explanations": [
-        "た is past tense — it doesn't properly connect the two related actions in this sequence.",
-        "ます is polite ending — it would end the sentence instead of connecting to letting wind in.",
-        "ば is conditional — it doesn't fit because these are actual sequential actions, not hypothetical conditions."
+        "開けた is the plain past ('opened') and ends the clause; it can't connect to letting the wind in, so the te-form 開けて is needed.",
+        "開けます is the polite ending and would finish the sentence, not link it to the next action — て connects the two.",
+        "開けたら means 'if/when I open'; it is a conditional, whereas 開けて simply joins opening the window with letting the wind in."
       ],
-      "hiragana_full": "まどをあけてかぜをいれました",
+      "hiragana_full": "まどをあけてかぜをいれました。",
       "audio_alternatives": [
         {
           "kanji": "窓を開けて風を通しました。",
-          "hiragana_full": "まどをあけてかぜをとおしました"
+          "hiragana_full": "まどをあけてかぜをとおしました。"
         },
         {
           "kanji": "窓を開けて風を入れた。",
-          "hiragana_full": "まどをあけてかぜをいれた"
+          "hiragana_full": "まどをあけてかぜをいれた。"
         }
       ],
       "audio_eligible": true
@@ -207,23 +207,23 @@
       "blank_target": "て",
       "wrong_choices": [
         "た",
-        "から",
-        "ので"
+        "たり",
+        "ても"
       ],
       "wrong_choice_explanations": [
-        "た is past tense — it doesn't create the proper connection between taking and sending the photo.",
-        "から means 'from/after/because' — it doesn't fit the direct sequential relationship between these actions.",
-        "ので means 'because/since' — it indicates causation rather than simple action sequence."
+        "撮った is the plain past ('took a photo'); it closes the clause instead of linking to sending it, so the te-form 撮って connects the two actions.",
+        "撮ったり means 'do things like taking photos' and needs another 〜たり; it doesn't link two specific actions the way 撮って does.",
+        "撮っても means 'even if I take a photo'; it concedes a point rather than connecting taking and sending, which 撮って does."
       ],
-      "hiragana_full": "しゃしんをとってともだちにおくりました",
+      "hiragana_full": "しゃしんをとってともだちにおくりました。",
       "audio_alternatives": [
         {
           "kanji": "写真を撮り、友達に送りました。",
-          "hiragana_full": "しゃしんをとり、ともだちにおくりました"
+          "hiragana_full": "しゃしんをとり、ともだちにおくりました。"
         },
         {
           "kanji": "写真を撮って友達に送った。",
-          "hiragana_full": "しゃしんをとってともだちにおくった"
+          "hiragana_full": "しゃしんをとってともだちにおくった。"
         }
       ],
       "audio_eligible": true
@@ -235,23 +235,23 @@
       "blank_target": "て",
       "wrong_choices": [
         "た",
-        "ながら",
-        "ば"
+        "たら",
+        "ても"
       ],
       "wrong_choice_explanations": [
-        "た is past tense — it doesn't connect the standing and talking actions properly.",
-        "ながら means 'while doing' — while grammatically possible, the context suggests sequential rather than simultaneous actions.",
-        "ば is conditional — it doesn't fit because this describes actual past actions, not hypothetical conditions."
+        "立った is the plain past ('stood'); it ends the clause and can't link to talking, so the te-form 立って is needed to connect them.",
+        "立ったら means 'when/if I stand'; it is a conditional, while 立って simply joins standing with talking (talked while standing).",
+        "立っても means 'even if I stand'; it expresses concession, not the connected 'stood and talked' that 立って conveys."
       ],
-      "hiragana_full": "たってはなしをしました",
+      "hiragana_full": "たってはなしをしました。",
       "audio_alternatives": [
         {
           "kanji": "立ちながら話しました。",
-          "hiragana_full": "たちながらはなしました"
+          "hiragana_full": "たちながらはなしました。"
         },
         {
           "kanji": "立って話しました。",
-          "hiragana_full": "たってはなしました"
+          "hiragana_full": "たってはなしました。"
         }
       ],
       "audio_eligible": true
@@ -263,23 +263,23 @@
       "blank_target": "て",
       "wrong_choices": [
         "た",
-        "ます",
-        "よう"
+        "たら",
+        "たり"
       ],
       "wrong_choice_explanations": [
-        "た is past tense — it doesn't connect properly with the offer to help in this context.",
-        "ます is polite ending — it would complete the sentence instead of connecting to the helping action.",
-        "よう indicates intention — it doesn't create the proper connection for offering help in this construction."
+        "持った is the plain past ('held'); it can't attach to 手伝いましょう, so the te-form 持って is needed to mean 'carry and help.'",
+        "持ったら means 'if/when I hold'; it makes the clause conditional, whereas 持って手伝う means 'carry and help' as one linked offer.",
+        "持ったり means 'do things like holding' and needs a second 〜たり; it doesn't link the two actions the way 持って does."
       ],
-      "hiragana_full": "にもつをもってつだいましょう",
+      "hiragana_full": "にもつをもっててつだいましょう。",
       "audio_alternatives": [
         {
           "kanji": "荷物を運ぶのを手伝いましょう。",
-          "hiragana_full": "にもつをはこぶのをてつだいましょう"
+          "hiragana_full": "にもつをはこぶのをてつだいましょう。"
         },
         {
           "kanji": "荷物を持ちますよ。",
-          "hiragana_full": "にもつをもちますよ"
+          "hiragana_full": "にもつをもちますよ。"
         }
       ],
       "audio_eligible": true

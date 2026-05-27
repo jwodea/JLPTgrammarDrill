@@ -11,12 +11,12 @@
       "blank_target": "らしい",
       "wrong_choices": [
         "ようだ",
-        "そうだ",
+        "はずだ",
         "みたい"
       ],
       "wrong_choice_explanations": [
         "ようだ indicates inference from direct evidence, but here we're expressing information heard from others.",
-        "そうだ (hearsay) could work, but らしい is more natural for expressing rumors or secondhand information.",
+        "はずだ means 'is supposed to / should be' based on logic or expectation, not information passed on from others as らしい conveys.",
         "みたい means 'seems like' based on appearance or feeling, not information heard from others."
       ],
       "hiragana_full": "たなかさんはらいげつけっこんするらしい。",
@@ -38,14 +38,14 @@
       "translation": "I hear the new restaurant is delicious. My friend was saying so.",
       "blank_target": "いらしい",
       "wrong_choices": [
-        "そう",
-        "よう",
-        "みたい"
+        "そうだ",
+        "いようだ",
+        "いみたいだ"
       ],
       "wrong_choice_explanations": [
-        "そう indicates visual appearance, but here we're expressing information received from a friend.",
-        "よう indicates inference from evidence, but this is clearly secondhand information, not personal observation.",
-        "みたい expresses similarity or personal impression, not information heard from others."
+        "そうだ here gives おいしそう, 'it looks delicious' from appearance, but the basis is what your friend told you.",
+        "ようだ would express your own inference from evidence you observed, but the deliciousness is something your friend told you, so it's secondhand.",
+        "みたいだ expresses your own impression or a resemblance, not information you received from your friend."
       ],
       "hiragana_full": "あたらしいれすとらんはおいしいらしいよ。ともだちがいっていた。",
       "audio_alternatives": [
@@ -66,14 +66,14 @@
       "translation": "It seems it will rain tomorrow (I heard).",
       "blank_target": "らしい",
       "wrong_choices": [
-        "ようだ",
-        "そうだ",
-        "でしょう"
+        "よう",
+        "みたい",
+        "かもしれない"
       ],
       "wrong_choice_explanations": [
-        "ようだ indicates inference from direct evidence, but weather predictions are typically heard from forecasts.",
-        "そうだ (appearance) indicates visual inference, which doesn't apply to future weather predictions.",
-        "でしょう expresses probability or conjecture, but らしい better indicates information from external sources."
+        "ようだ (降るようです) expresses your own inference from evidence you can see, but a forecast is information you heard, which is what らしい conveys.",
+        "みたいだ (降るみたいです) expresses your own impression, not information passed on from a forecast.",
+        "かもしれない means 'might' and is your own guess about the possibility, not information drawn from a forecast as らしい conveys."
       ],
       "hiragana_full": "あしたはあめがふるらしいです",
       "audio_alternatives": [
@@ -94,14 +94,14 @@
       "translation": "He seems smart. Everyone says so.",
       "blank_target": "いらしい",
       "wrong_choices": [
-        "そう",
-        "よう",
-        "はず"
+        "いみたいだ",
+        "いようだ",
+        "いはずだ"
       ],
       "wrong_choice_explanations": [
-        "そう indicates visual appearance, but here we're expressing general reputation or what people say.",
-        "よう indicates personal inference from evidence, but this is based on what others are saying.",
-        "はず means 'should be' based on logic or expectation, not general reputation or hearsay."
+        "みたいだ expresses your own impression, but his being smart is what everyone is saying, i.e. general reputation.",
+        "ようだ expresses your own inference from evidence, but here the basis is what people say, not your own observation.",
+        "はずだ means 'should be' from logic or expectation, not the general reputation that らしい reports."
       ],
       "hiragana_full": "かれはあたまがいいらしいね。みんなそういっている。",
       "audio_alternatives": [
@@ -123,13 +123,13 @@
       "blank_target": "いらしい",
       "wrong_choices": [
         "そうだ",
-        "ようだ",
-        "かもしれない"
+        "いようだ",
+        "いかもしれない"
       ],
       "wrong_choice_explanations": [
-        "そうだ indicates visual appearance or hearsay, but らしい better expresses general reputation from reviews.",
-        "ようだ indicates personal inference from evidence, but this is based on general reputation, not personal observation.",
-        "かもしれない expresses possibility or uncertainty, but らしい indicates information based on what others say."
+        "そうだ here gives 面白そうだ, 'it looks interesting' from appearance, but the basis is the film's reviews and reputation, which らしい conveys.",
+        "ようだ expresses your own inference from evidence, but here the basis is the movie's reputation, not your own observation.",
+        "かもしれない means 'might be' and expresses possibility, whereas らしい reports what its reviews and reputation actually say."
       ],
       "hiragana_full": "このえいがはおもしろいらしい。ひょうばんがいいから。",
       "audio_alternatives": [
@@ -178,14 +178,14 @@
       "translation": "I hear taxes will go up from next year. I saw it on the news.",
       "blank_target": "らしい",
       "wrong_choices": [
-        "ようだ",
-        "そうだ",
-        "でしょう"
+        "よう",
+        "はず",
+        "みたい"
       ],
       "wrong_choice_explanations": [
-        "ようだ indicates personal inference, but this is information from news media, not personal deduction.",
-        "そうだ (hearsay) could work, but らしい is more natural for expressing information from media sources.",
-        "でしょう expresses probability or conjecture, but らしい better indicates information from external sources."
+        "ようだ (上がるようです) expresses your own inference from evidence, but this comes from the news, i.e. reported information, which らしい conveys.",
+        "はずだ (上がるはずです) means 'should / is supposed to' from logic or expectation, not information reported by the news.",
+        "みたいだ (上がるみたいです) expresses your own impression, not the news report that らしい is conveying."
       ],
       "hiragana_full": "らいねんからぜいきんがあがるらしいです。にゅーすでみました。",
       "audio_alternatives": [
@@ -207,13 +207,13 @@
       "blank_target": "いらしい",
       "wrong_choices": [
         "そうな",
-        "ような",
-        "だろう"
+        "いような",
+        "いみたいな"
       ],
       "wrong_choice_explanations": [
         "そうな indicates visual appearance or immediate hearsay, but らしい better expresses general reputation among students.",
-        "ような indicates personal inference from evidence, but this is based on what students say, not personal observation.",
-        "だろう expresses conjecture or probability, but らしい better conveys information based on what people generally say."
+        "ようだ expresses your own inference from evidence, but the basis here is what students say, i.e. reputation.",
+        "みたいだ expresses your own impression of the teacher, not the general reputation among students that らしい conveys."
       ],
       "hiragana_full": "やまだせんせいはきびしいらしいせんせいだ。がくせいたちがよくはなしている。",
       "audio_alternatives": [
@@ -235,13 +235,13 @@
       "blank_target": "いらしい",
       "wrong_choices": [
         "そうだ",
-        "ようだ",
-        "に違いない"
+        "いようだ",
+        "いに違いない"
       ],
       "wrong_choice_explanations": [
         "そうだ indicates visual appearance, but we haven't seen her, so this is based on inference or hearsay.",
-        "ようだ indicates inference from evidence, but not being able to meet suggests hearsay rather than direct evidence.",
-        "に違いない expresses strong certainty, but らしい indicates uncertainty based on indirect information."
+        "ようだ expresses your own inference from evidence, but not being able to meet her is indirect, closer to hearsay than direct observation.",
+        "に違いない expresses your own strong certainty, but らしい conveys that the information is indirect and not fully certain."
       ],
       "hiragana_full": "かのじょはいそがしいらしい。さいきんぜんぜんあえない。",
       "audio_alternatives": [
@@ -263,12 +263,12 @@
       "blank_target": "らしい",
       "wrong_choices": [
         "そうだ",
-        "ようだ",
+        "なようだ",
         "かもしれない"
       ],
       "wrong_choice_explanations": [
-        "そうだ indicates visual appearance or immediate hearsay, but らしい is more natural when citing what someone specifically said.",
-        "ようだ indicates personal inference from evidence, but this is clearly based on the teacher's statement.",
+        "そうだ here gives 簡単そうだ, 'it looks easy' from appearance, but the basis is what the teacher said, which らしい reports.",
+        "ようだ (簡単なようだ) expresses your own inference from evidence, but here the basis is explicitly what the teacher said.",
         "かもしれない means 'might be' expressing possibility, but らしい better indicates information received from the teacher."
       ],
       "hiragana_full": "このもんだいはかんたんらしいよ。せんせいがそういっていた。",

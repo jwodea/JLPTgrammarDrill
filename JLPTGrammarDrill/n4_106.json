@@ -12,22 +12,22 @@
       "wrong_choices": [
         "始めました",
         "続けました",
-        "やめました"
+        "直しました"
       ],
       "wrong_choice_explanations": [
-        "始めました means 'started' — it indicates the beginning of an action, not its completion.",
-        "続けました means 'continued' — it indicates ongoing action rather than finishing.",
-        "やめました means 'stopped/quit' — it indicates stopping an action but not necessarily completing it."
+        "始めました means 'started doing the homework' — it marks the beginning of the action, the opposite of finishing it.",
+        "続けました means 'kept doing the homework' — it describes the action still going on, not its completion.",
+        "直しました means 'did the homework over / redid it' — it describes repeating the action, not finishing it."
       ],
-      "hiragana_full": "しゅくだいをしおわりました",
+      "hiragana_full": "しゅくだいをしおわりました。",
       "audio_alternatives": [
         {
           "kanji": "宿題が終わりました。",
-          "hiragana_full": "しゅくだいがおわりました"
+          "hiragana_full": "しゅくだいがおわりました。"
         },
         {
           "kanji": "宿題をやり終えました。",
-          "hiragana_full": "しゅくだいをやりおえました"
+          "hiragana_full": "しゅくだいをやりおえました。"
         }
       ],
       "audio_eligible": true
@@ -40,22 +40,22 @@
       "wrong_choices": [
         "かけた",
         "忘れた",
-        "やめた"
+        "直した"
       ],
       "wrong_choice_explanations": [
-        "かけた means 'was in the middle of/about to' — it indicates an incomplete state, not completion.",
-        "忘れた means 'forgot' — it indicates forgetting to read, not finishing reading.",
-        "やめた means 'stopped' — it indicates stopping reading but not necessarily completing it."
+        "かけた means 'started but left the book half-read' — it marks an incomplete, interrupted action, not a finished one.",
+        "忘れた means 'forgot to read it' — it describes failing to read at all, not finishing reading.",
+        "直した means 'reread it' — it describes reading it again, not completing the reading."
       ],
-      "hiragana_full": "ほんをよみおわった",
+      "hiragana_full": "ほんをよみおわった。",
       "audio_alternatives": [
         {
           "kanji": "本を読み終えた。",
-          "hiragana_full": "ほんをよみおえた"
+          "hiragana_full": "ほんをよみおえた。"
         },
         {
           "kanji": "本を全部読んだ。",
-          "hiragana_full": "ほんをぜんぶよんだ"
+          "hiragana_full": "ほんをぜんぶよんだ。"
         }
       ],
       "audio_eligible": true
@@ -66,24 +66,24 @@
       "translation": "I finished cooking.",
       "blank_target": "終わりました",
       "wrong_choices": [
-        "直しました",
-        "失敗しました",
-        "途中でした"
+        "始めました",
+        "続けました",
+        "直しました"
       ],
       "wrong_choice_explanations": [
-        "直しました means 'fixed/corrected' — it indicates repair or correction, not completion of cooking.",
-        "失敗しました means 'failed' — it indicates failure in cooking, not successful completion.",
-        "途中でした means 'was in the middle' — it indicates an unfinished state rather than completion."
+        "始めました means 'started cooking' — it marks the beginning of cooking, not its completion.",
+        "続けました means 'kept cooking' — it describes the cooking still going on, not finishing.",
+        "直しました means 'remade it / cooked it over' — it describes redoing the cooking, not finishing it."
       ],
-      "hiragana_full": "りょうりをつくりおわりました",
+      "hiragana_full": "りょうりをつくりおわりました。",
       "audio_alternatives": [
         {
           "kanji": "料理を作り終えました。",
-          "hiragana_full": "りょうりをつくりおえました"
+          "hiragana_full": "りょうりをつくりおえました。"
         },
         {
           "kanji": "料理を作り終わった。",
-          "hiragana_full": "りょうりをつくりおわった"
+          "hiragana_full": "りょうりをつくりおわった。"
         }
       ],
       "audio_eligible": true
@@ -95,23 +95,23 @@
       "blank_target": "終わった",
       "wrong_choices": [
         "始めた",
-        "途中だった",
+        "続けた",
         "飽きた"
       ],
       "wrong_choice_explanations": [
-        "始めた means 'started' — it indicates the beginning of watching, not completion.",
-        "途中だった means 'was in the middle' — it indicates an incomplete viewing, not finishing.",
-        "飽きた means 'got bored' — it indicates losing interest but not necessarily finishing the movie."
+        "始めた means 'started watching the movie' — it marks the beginning, not the completion.",
+        "続けた means 'kept watching' — it describes the watching still going on, not finishing.",
+        "飽きた means 'got tired of watching' — it describes losing interest, not finishing the movie."
       ],
-      "hiragana_full": "えいがをみおわった",
+      "hiragana_full": "えいがをみおわった。",
       "audio_alternatives": [
         {
           "kanji": "映画を見終えた。",
-          "hiragana_full": "えいがをみおえた"
+          "hiragana_full": "えいがをみおえた。"
         },
         {
           "kanji": "映画を最後まで見た。",
-          "hiragana_full": "えいがをさいごまでみた"
+          "hiragana_full": "えいがをさいごまでみた。"
         }
       ],
       "audio_eligible": true
@@ -131,15 +131,15 @@
         "忘れました means 'forgot' — it indicates forgetting to clean, not finishing cleaning.",
         "疲れました means 'got tired' — it indicates becoming tired from cleaning but doesn't express completion."
       ],
-      "hiragana_full": "そうじをしおわりました",
+      "hiragana_full": "そうじをしおわりました。",
       "audio_alternatives": [
         {
           "kanji": "掃除が終わりました。",
-          "hiragana_full": "そうじがおわりました"
+          "hiragana_full": "そうじがおわりました。"
         },
         {
           "kanji": "掃除をしてしまいました。",
-          "hiragana_full": "そうじをしてしまいました"
+          "hiragana_full": "そうじをしてしまいました。"
         }
       ],
       "audio_eligible": true
@@ -151,23 +151,23 @@
       "blank_target": "終わった",
       "wrong_choices": [
         "かけた",
-        "やめた",
+        "直した",
         "間違えた"
       ],
       "wrong_choice_explanations": [
-        "かけた means 'was in the middle of' — it indicates incomplete writing, not completion.",
-        "やめた means 'stopped' — it indicates stopping writing but not necessarily completing the letter.",
-        "間違えた means 'made a mistake' — it indicates making an error while writing, not finishing."
+        "かけた means 'started but left the letter half-written' — it marks an incomplete action, not a finished one.",
+        "直した means 'rewrote the letter' — it describes writing it again, not finishing it.",
+        "間違えた means 'wrote it wrong / made a mistake writing' — it describes writing incorrectly, not finishing."
       ],
-      "hiragana_full": "てがみをかきおわった",
+      "hiragana_full": "てがみをかきおわった。",
       "audio_alternatives": [
         {
           "kanji": "手紙を書き終えた。",
-          "hiragana_full": "てがみをかきおえた"
+          "hiragana_full": "てがみをかきおえた。"
         },
         {
           "kanji": "手紙を書くことが終わった。",
-          "hiragana_full": "てがみをかくことがおわった"
+          "hiragana_full": "てがみをかくことがおわった。"
         }
       ],
       "audio_eligible": true
@@ -179,23 +179,23 @@
       "blank_target": "終わりました",
       "wrong_choices": [
         "始めました",
-        "途中でした",
-        "楽しみました"
+        "かけました",
+        "直しました"
       ],
       "wrong_choice_explanations": [
-        "始めました means 'started' — it indicates the beginning of shopping, not completion.",
-        "途中でした means 'was in the middle' — it indicates incomplete shopping, not finishing.",
-        "楽しみました means 'enjoyed' — it indicates having fun shopping but doesn't express completion."
+        "始めました means 'started shopping' — it marks the beginning, not the completion.",
+        "かけました means 'was partway through shopping' — it marks an incomplete, interrupted action, not a finished one.",
+        "直しました means 'redid the shopping' — it describes doing it over, not finishing it."
       ],
-      "hiragana_full": "かいものをしおわりました",
+      "hiragana_full": "かいものをしおわりました。",
       "audio_alternatives": [
         {
           "kanji": "買い物が終わりました。",
-          "hiragana_full": "かいものがおわりました"
+          "hiragana_full": "かいものがおわりました。"
         },
         {
           "kanji": "買い物を済ませました。",
-          "hiragana_full": "かいものをすませました"
+          "hiragana_full": "かいものをすませました。"
         }
       ],
       "audio_eligible": true
@@ -215,15 +215,15 @@
         "残した means 'left over' — it indicates leaving food unfinished, the opposite of completing the meal.",
         "忘れた means 'forgot' — it indicates forgetting to eat, not finishing eating."
       ],
-      "hiragana_full": "ちゅうしょくをたべおわった",
+      "hiragana_full": "ちゅうしょくをたべおわった。",
       "audio_alternatives": [
         {
           "kanji": "昼ごはんを食べ終わった。",
-          "hiragana_full": "ひるごはんをたべおわった"
+          "hiragana_full": "ひるごはんをたべおわった。"
         },
         {
           "kanji": "昼食を食べ終わりました。",
-          "hiragana_full": "ちゅうしょくをたべおわりました"
+          "hiragana_full": "ちゅうしょくをたべおわりました。"
         }
       ],
       "audio_eligible": true
@@ -235,23 +235,23 @@
       "blank_target": "終わりました",
       "wrong_choices": [
         "始めました",
-        "休みました",
-        "頑張りました"
+        "続けました",
+        "かけました"
       ],
       "wrong_choice_explanations": [
-        "始めました means 'started' — it indicates beginning work, not completing it.",
-        "休みました means 'took a break/rested' — it indicates resting from work, not finishing it.",
-        "頑張りました means 'tried hard' — it indicates effort during work but doesn't express completion."
+        "始めました means 'started the work' — it marks the beginning, not the completion.",
+        "続けました means 'kept working' — it describes the work still going on, not finishing.",
+        "かけました means 'was partway through the work' — it marks an incomplete action, not a finished one."
       ],
-      "hiragana_full": "きょうのしごとをしおわりました",
+      "hiragana_full": "きょうのしごとをしおわりました。",
       "audio_alternatives": [
         {
           "kanji": "今日の仕事が終わりました。",
-          "hiragana_full": "きょうのしごとがおわりました"
+          "hiragana_full": "きょうのしごとがおわりました。"
         },
         {
           "kanji": "今日の仕事を終えました。",
-          "hiragana_full": "きょうのしごとをおえました"
+          "hiragana_full": "きょうのしごとをおえました。"
         }
       ],
       "audio_eligible": true
@@ -262,24 +262,24 @@
       "translation": "I finished writing the report.",
       "blank_target": "終わった",
       "wrong_choices": [
-        "途中だった",
-        "諦めた",
-        "苦労した"
+        "始めた",
+        "直した",
+        "かけた"
       ],
       "wrong_choice_explanations": [
-        "途中だった means 'was in the middle' — it indicates an incomplete report, not a finished one.",
-        "諦めた means 'gave up' — it indicates abandoning the report rather than completing it.",
-        "苦労した means 'had trouble/struggled' — it indicates difficulty in writing but doesn't express completion."
+        "始めた means 'started writing the report' — it marks the beginning, not the completion.",
+        "直した means 'rewrote the report' — it describes writing it again, not finishing it.",
+        "かけた means 'started but left the report half-written' — it marks an incomplete action, not a finished one."
       ],
-      "hiragana_full": "れぽーとをかきおわった",
+      "hiragana_full": "れぽーとをかきおわった。",
       "audio_alternatives": [
         {
           "kanji": "レポートを書き終えた。",
-          "hiragana_full": "れぽーとをかきおえた"
+          "hiragana_full": "れぽーとをかきおえた。"
         },
         {
           "kanji": "レポートを書き上げた。",
-          "hiragana_full": "れぽーとをかきあげた"
+          "hiragana_full": "れぽーとをかきあげた。"
         }
       ],
       "audio_eligible": true

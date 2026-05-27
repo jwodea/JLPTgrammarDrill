@@ -19,15 +19,15 @@
         "を marks the direct object — it doesn't fit here because 'library' is not what we're studying, but where we study.",
         "へ indicates direction toward something — it doesn't fit here because we're not going to the library, but doing an action there."
       ],
-      "hiragana_full": "としょかんでべんきょうします",
+      "hiragana_full": "としょかんでべんきょうします。",
       "audio_alternatives": [
         {
           "kanji": "図書館で勉強する。",
-          "hiragana_full": "としょかんでべんきょうする"
+          "hiragana_full": "としょかんでべんきょうする。"
         },
         {
           "kanji": "図書館で勉強しています。",
-          "hiragana_full": "としょかんでべんきょうしています"
+          "hiragana_full": "としょかんでべんきょうしています。"
         }
       ],
       "audio_eligible": true
@@ -75,15 +75,15 @@
         "の is a possessive particle — it doesn't fit here because we need to show cause/reason, not possession.",
         "に indicates purpose or destination — it doesn't fit here because 'illness' is the cause, not the purpose of being absent."
       ],
-      "hiragana_full": "びょうきでがっこうをやすみました",
+      "hiragana_full": "びょうきでがっこうをやすみました。",
       "audio_alternatives": [
         {
           "kanji": "病気だったので学校を休みました。",
-          "hiragana_full": "びょうきだったのでがっこうをやすみました"
+          "hiragana_full": "びょうきだったのでがっこうをやすみました。"
         },
         {
           "kanji": "病気で学校を休んだ。",
-          "hiragana_full": "びょうきでがっこうをやすんだ"
+          "hiragana_full": "びょうきでがっこうをやすんだ。"
         }
       ],
       "audio_eligible": true
@@ -131,15 +131,15 @@
         "へ indicates direction — it doesn't fit here because we're not going to the restaurant but eating there.",
         "が marks the subject — it doesn't fit here because 'restaurant' is not performing the action but is where the action occurs."
       ],
-      "hiragana_full": "れすとらんでゆうしょくをたべます",
+      "hiragana_full": "れすとらんでゆうしょくをたべます。",
       "audio_alternatives": [
         {
           "kanji": "レストランで晩ご飯を食べます。",
-          "hiragana_full": "れすとらんでばんごはんをたべます"
+          "hiragana_full": "れすとらんでばんごはんをたべます。"
         },
         {
           "kanji": "レストランで夕食を食べる。",
-          "hiragana_full": "れすとらんでゆうしょくをたべる"
+          "hiragana_full": "れすとらんでゆうしょくをたべる。"
         }
       ],
       "audio_eligible": true
@@ -150,12 +150,12 @@
       "translation": "Let's speak in Japanese.",
       "blank_target": "で",
       "wrong_choices": [
-        "を",
+        "から",
         "に",
         "が"
       ],
       "wrong_choice_explanations": [
-        "を marks the direct object — it doesn't fit here because Japanese is the language we use to speak, not what we speak about.",
+        "から means 'from' and marks a source or starting point — it cannot mark the language used as the medium of speaking, which is で's role (日本語で = 'in Japanese'). (を was removed here because 日本語を話す, 'to speak Japanese', is itself fully correct.)",
         "に indicates direction or target — it doesn't fit here because Japanese is the means of communication, not the target.",
         "が marks the subject — it doesn't fit here because Japanese is not the subject performing the action."
       ],
@@ -185,17 +185,17 @@
       "wrong_choice_explanations": [
         "が marks the subject — it doesn't fit here because rain is the cause, not the subject that canceled the game.",
         "に indicates time or target — it doesn't fit here because rain is the reason, not when or what the cancellation targets.",
-        "から means 'from' or 'because of' — while から can show reason, で is more natural for external causes like weather."
+        "から after a plain noun like 雨 marks a source ('from the rain'); to express a reason から needs a full clause (雨が降ったから), so it cannot fill this slot the way で marks the cause directly."
       ],
-      "hiragana_full": "あめでしあいがちゅうしになりました",
+      "hiragana_full": "あめでしあいがちゅうしになりました。",
       "audio_alternatives": [
         {
           "kanji": "雨のせいで試合が中止になりました。",
-          "hiragana_full": "あめのせいでしあいがちゅうしになりました"
+          "hiragana_full": "あめのせいでしあいがちゅうしになりました。"
         },
         {
           "kanji": "雨が降って試合が中止になりました。",
-          "hiragana_full": "あめがふってしあいがちゅうしになりました"
+          "hiragana_full": "あめがふってしあいがちゅうしになりました。"
         }
       ],
       "audio_eligible": true
@@ -215,15 +215,15 @@
         "へ indicates direction — it doesn't fit here because we're not going to the park but playing there.",
         "の is a possessive particle — it doesn't fit here because we need to show the location of action, not possession."
       ],
-      "hiragana_full": "こうえんでともだちとあそびました",
+      "hiragana_full": "こうえんでともだちとあそびました。",
       "audio_alternatives": [
         {
           "kanji": "公園で友達と遊んだ。",
-          "hiragana_full": "こうえんでともだちとあそんだ"
+          "hiragana_full": "こうえんでともだちとあそんだ。"
         },
         {
           "kanji": "友達と公園で遊びました。",
-          "hiragana_full": "ともだちとこうえんであそびました"
+          "hiragana_full": "ともだちとこうえんであそびました。"
         }
       ],
       "audio_eligible": true

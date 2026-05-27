@@ -15,9 +15,9 @@
         "より"
       ],
       "wrong_choice_explanations": [
-        "しか means 'only' and requires a negative verb form, but 話せる is positive, so this doesn't work grammatically.",
-        "から means 'from' or 'because' but doesn't create the 'not only but also' meaning needed here.",
-        "より means 'than' for comparisons but doesn't express the additive meaning of listing multiple abilities."
+        "しか means 'only' and demands a negative predicate (話せない), so it clashes with the affirmative 話せる.",
+        "から would mean 'from English' — a starting point or source — and gives no way to add Chinese as a second ability.",
+        "より sets up a comparison ('more than English'), so the listener expects the rest of the sentence to rank one language above another, not to add a second."
       ],
       "hiragana_full": "かれはえいごだけでなく、ちゅうごくごもはなせる。",
       "audio_alternatives": [
@@ -99,9 +99,9 @@
         "それに"
       ],
       "wrong_choice_explanations": [
-        "そして means 'and then' for sequential actions but doesn't create the emphatic structure of だけでなく.",
-        "また means 'also/again' but lacks the strong 'not only but also' emphasis needed here.",
-        "それに means 'besides/moreover' which is additive but doesn't have the specific grammatical pattern required."
+        "そして is a sentence-initial conjunction ('and then'); it can't follow 美しい directly the way a clause-final particle does — it needs to start the next clause.",
+        "また also begins a new clause ('also, ...') and can't slot in between 美しい and the comma to bind the two qualities together.",
+        "それに means 'besides' and likewise opens a new clause; it doesn't take the place of だけでなく, which links the two adjectives within one sentence."
       ],
       "hiragana_full": "かのじょはうつくしいだけでなく、あたまもいい。",
       "audio_alternatives": [
@@ -174,20 +174,20 @@
     },
     {
       "id": "n4_057_7",
-      "example_sentence": "彼は料理が上手だけでなく、掃除も得意だ。",
-      "translation": "He is not only good at cooking but also skilled at cleaning.",
+      "example_sentence": "彼は料理が上手なだけでなく、掃除も得意だ。",
+      "translation": "He's not only good at cooking but also skilled at cleaning.",
       "blank_target": "だけでなく",
       "wrong_choices": [
-        "によって",
-        "に対して",
-        "について"
+        "ばかり",
+        "しか",
+        "ほど"
       ],
       "wrong_choice_explanations": [
-        "によって means 'by means of' or 'depending on' but doesn't fit the pattern for listing multiple skills.",
-        "に対して means 'toward/against' and doesn't create the additive meaning needed for describing abilities.",
-        "について means 'about/regarding' but doesn't form the 'not only but also' structure required."
+        "ばかり after 上手な would mean 'he's nothing but good at cooking' — it limits him to that one skill, the opposite of adding cleaning as a second one.",
+        "しか requires a negative predicate (上手な + しか + ない), so it can't slot into this affirmative sentence that goes on to praise a second ability.",
+        "ほど marks degree ('to the extent that he's good at cooking') and would expect a comparison or consequence to follow, not a parallel skill."
       ],
-      "hiragana_full": "かれはりょうりがじょうずだけでなく、そうじもとくいだ。",
+      "hiragana_full": "かれはりょうりがじょうずなだけでなく、そうじもとくいだ。",
       "audio_alternatives": [
         {
           "kanji": "彼は料理が上手なだけでなく、掃除も得意です。",
@@ -206,14 +206,14 @@
       "translation": "This year there were not only typhoons but also many earthquakes.",
       "blank_target": "だけでなく",
       "wrong_choices": [
-        "として",
-        "による",
-        "において"
+        "や",
+        "ばかり",
+        "しか"
       ],
       "wrong_choice_explanations": [
-        "として means 'as' for roles or capacity but doesn't create the listing structure needed for natural disasters.",
-        "による means 'due to/by means of' which shows causation, not the additive meaning of multiple disasters occurring.",
-        "において means 'in/at' for formal contexts but doesn't express the 'not only but also' meaning required."
+        "や would just list typhoons among other disasters ('typhoons and earthquakes, etc.') without flagging typhoons as the headline item the way だけでなく does.",
+        "ばかり means 'nothing but typhoons,' which contradicts the second half of the sentence saying earthquakes were also frequent.",
+        "しか means 'only' and requires a negative predicate, so it can't combine with the affirmative 多かった about both disasters."
       ],
       "hiragana_full": "ことしはたいふうだけでなく、じしんもおおかった。",
       "audio_alternatives": [
@@ -262,14 +262,14 @@
       "translation": "She is professional level not only in singing but also in dancing.",
       "blank_target": "だけでなく",
       "wrong_choices": [
-        "に関して",
-        "をもって",
-        "にとって"
+        "だけで",
+        "ばかり",
+        "しか"
       ],
       "wrong_choice_explanations": [
-        "に関して means 'regarding/concerning' which is formal but doesn't create the 'not only but also' structure.",
-        "をもって means 'with/by means of' and doesn't express the additive meaning needed for listing skills.",
-        "にとって means 'for/to' someone but doesn't fit the grammar pattern for describing her abilities."
+        "だけで means 'just by singing' and would lead into a result clause ('she earns a living just by singing'), not a parallel skill in dance.",
+        "ばかり would say she does 'nothing but sing,' which directly contradicts the rest of the sentence praising her dancing too.",
+        "しか requires a negative predicate (e.g., 歌しか…ない), so it can't pair with the affirmative プロ級だ that praises both skills."
       ],
       "hiragana_full": "かのじょはうただけでなく、おどりもぷろきゅうだ。",
       "audio_alternatives": [

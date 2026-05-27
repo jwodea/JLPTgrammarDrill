@@ -10,14 +10,14 @@
       "translation": "A decision was made in accordance with the law.",
       "blank_target": "に基づいて",
       "wrong_choices": [
-        "をもとに",
+        "において",
         "によって",
         "を通じて"
       ],
       "wrong_choice_explanations": [
-        "をもとに is less formal and typically used for personal judgment or reference material, not legal compliance.",
-        "によって indicates the agent performing an action, not the legal basis for a decision.",
-        "を通じて means 'through/via' indicating a process or medium, not the authoritative foundation for legal decisions."
+        "において means 'in/within (the domain of)' and would only locate the ruling inside the legal sphere; に基づいて signals that the law itself is the formal authority the decision is derived from.",
+        "によって here would point to the agent who handed down the ruling ('the judgment was made by...'), but the slot calls for the foundation of the ruling, not its doer.",
+        "を通じて means 'through/by way of' and frames the noun as a channel or medium, not as the binding standard from which the decision is derived."
       ],
       "hiragana_full": "ほうりつにもとづいて、はんだんがくだされた。",
       "audio_alternatives": [
@@ -38,14 +38,14 @@
       "translation": "The punishment was determined based on the rules.",
       "blank_target": "に基づいて",
       "wrong_choices": [
-        "をもとに",
+        "に先立って",
         "によって",
         "を通じて"
       ],
       "wrong_choice_explanations": [
-        "をもとに has similar meaning but is less formal than に基づいて and unsuitable for official rule enforcement.",
-        "によって indicates an agent or instrument performing an action, not the foundation or basis for something.",
-        "を通じて has a different grammatical function and doesn't fit the context of this sentence where に基づいて is required."
+        "に先立って means 'prior to / in advance of' and would place the punishment as happening before the rules, reversing the order; に基づいて instead marks the rules as the standard the punishment was measured against.",
+        "によって in a passive sentence picks out the agent of the action, so it would identify who decided the punishment rather than the rules being applied.",
+        "を通じて means 'via/through' and suggests the rules were a channel something passed through, not the formal standard the punishment was measured against."
       ],
       "hiragana_full": "きそくにもとづいて、しょばつがけっていされた。",
       "audio_alternatives": [
@@ -66,14 +66,14 @@
       "translation": "Conclusions were drawn based on scientific evidence.",
       "blank_target": "に基づいて",
       "wrong_choices": [
-        "をもとに",
+        "に伴って",
         "について",
         "によって"
       ],
       "wrong_choice_explanations": [
-        "をもとに is less formal and doesn't emphasize strict adherence to evidence as に基づいて does in scientific contexts.",
-        "について means 'about/regarding' and indicates the topic of discussion, not the evidential basis for conclusions.",
-        "によって indicates the agent performing an action, but here we need to show the evidence serving as the foundation."
+        "に伴って means 'accompanying / along with' and would describe the conclusions as a concurrent change moving alongside the evidence; に基づいて instead marks the evidence as the rigorous foundation the conclusions rest on.",
+        "について would shift the meaning to 'conclusions about scientific evidence' — making the evidence the topic rather than the grounds on which the conclusions rest.",
+        "によって in this passive sentence would name the agent doing the concluding (e.g. 'by the committee'); it cannot mark the body of evidence underpinning that work."
       ],
       "hiragana_full": "かがくてきしょうこにもとづいて、けつろんがだされた。",
       "audio_alternatives": [
@@ -99,9 +99,9 @@
         "を通じて"
       ],
       "wrong_choice_explanations": [
-        "に関して means 'regarding/concerning' and indicates the topic, not compliance with contractual terms.",
-        "によって indicates the agent performing the payment, not the contractual basis for it.",
-        "を通じて means 'through/via' indicating a method or process, not adherence to contract terms."
+        "に関して introduces a topic ('regarding the contract'); it would describe what the payment is about, not that the contract's clauses governed how the payment was made.",
+        "によって in a passive sentence flags the agent (e.g. 'paid by the bank'), so it cannot point to the contract as the controlling instrument for the payment.",
+        "を通じて casts the contract as a route or intermediary the payment moved through, missing the obligation-to-terms force that に基づいて conveys here."
       ],
       "hiragana_full": "けいやくにもとづいて、しはらいがおこなわれた。",
       "audio_alternatives": [
@@ -122,16 +122,16 @@
       "translation": "A strategy was formulated based on the data.",
       "blank_target": "に基づいて",
       "wrong_choices": [
-        "をもとに",
+        "に応じて",
         "について",
         "に対して"
       ],
       "wrong_choice_explanations": [
-        "をもとに is less formal and doesn't emphasize strict adherence to data as に基づいて does in strategic planning.",
-        "について means 'about/regarding' and would indicate the strategy is about data, not founded on it.",
-        "に対して means 'toward/against' and indicates direction or response, not the basis for formulation."
+        "に応じて means 'in accordance with / varying with' and would suggest the strategy was adjusted to match changing data; に基づいて instead presents the data as the fixed foundation the whole strategy was derived from.",
+        "について would make the strategy be 'about data,' as if data were the subject of the plan — losing the sense that the data was the evidential ground.",
+        "に対して means 'toward/in response to' and would frame the strategy as a counter-move directed at the data, which doesn't match how planning teams use evidence."
       ],
-      "hiragana_full": "でーたにもとづいて、せんりゃくがたてられた。",
+      "hiragana_full": "データにもとづいて、せんりゃくがたてられた。",
       "audio_alternatives": [
         {
           "kanji": "データを基に、戦略が策定された。",
@@ -150,14 +150,14 @@
       "translation": "A new treatment method was developed based on research results.",
       "blank_target": "に基づいて",
       "wrong_choices": [
-        "をもとに",
+        "につき",
         "によって",
         "に関して"
       ],
       "wrong_choice_explanations": [
-        "をもとに is less formal and doesn't convey the rigorous scientific foundation that に基づいて emphasizes in medical contexts.",
-        "によって indicates the agent who developed the treatment, not the research foundation it's built on.",
-        "に関して means 'regarding/concerning' and would indicate the treatment is about research, not founded on it."
+        "につき means 'per / regarding' and would treat the research results as a unit-rate or topic-marker; に基づいて instead frames them as the evidential foundation the new treatment was built on.",
+        "によって in this passive would mark who developed the treatment (e.g. 'by a research team'), not the body of findings the treatment is grounded in.",
+        "に関して ('regarding') would make 'research results' the topic of the treatment, which is grammatically off — the treatment isn't about the research, it follows from it."
       ],
       "hiragana_full": "けんきゅうけっかにもとづいて、あたらしいちりょうほうがかいはつされた。",
       "audio_alternatives": [
@@ -178,14 +178,14 @@
       "translation": "Population statistics are created based on the national census.",
       "blank_target": "に基づいて",
       "wrong_choices": [
-        "をもとに",
+        "に向けて",
         "によって",
         "を通じて"
       ],
       "wrong_choice_explanations": [
-        "をもとに emphasizes personal/concrete source material, but this sentence discusses formal statistical data which requires the formal に基づいて.",
-        "によって indicates the agent performing the action, but this sentence needs to specify the formal basis (the census data) for creating statistics.",
-        "を通じて means 'through/via' indicating a process, but this sentence needs to specify the formal authoritative source of the statistics."
+        "に向けて means 'toward / aimed at' and would frame the statistics as something produced for the sake of the census; に基づいて instead marks the census as the data source the statistics are derived from.",
+        "によって in this passive sentence would point to the agency that compiled the statistics, leaving the census's role as informational ground unmarked.",
+        "を通じて would frame the census as a medium the statistics passed through, rather than the authoritative dataset from which they were calculated."
       ],
       "hiragana_full": "こくせいちょうさにもとづいて、じんこうとうけいがさくせいされる。",
       "audio_alternatives": [
@@ -211,9 +211,9 @@
         "を通じて"
       ],
       "wrong_choice_explanations": [
-        "について means 'regarding/concerning' and would indicate the judgment is about constitutional provisions, not founded on them.",
-        "によって indicates the agent who made the judgment, not the constitutional basis for the decision.",
-        "を通じて means 'through/via' indicating a process or medium, not adherence to constitutional authority."
+        "について turns the constitutional provisions into the topic of the judgment ('a ruling about the constitution'), which doesn't convey that those provisions controlled the outcome.",
+        "によって would identify the court or judge as the agent of the ruling, not the constitutional text being applied as the standard.",
+        "を通じて casts the provisions as a channel through which the ruling was reached, missing the sense that the constitution is the binding authority the ruling rests on."
       ],
       "hiragana_full": "けんぽうのきていにもとづいて、このはんけつがくだされた。",
       "audio_alternatives": [
@@ -230,28 +230,28 @@
     },
     {
       "id": "n2_008_9",
-      "example_sentence": "統計データに基づいて、社会現象の解釈がなされた。",
-      "translation": "Social phenomena were interpreted based on statistical data.",
+      "example_sentence": "目撃証言に基づいて、警察が容疑者の捜査を進めている。",
+      "translation": "Based on eyewitness testimony, the police are advancing their investigation of the suspect.",
       "blank_target": "に基づいて",
       "wrong_choices": [
-        "をもとに",
+        "をめぐって",
         "に関して",
         "によって"
       ],
       "wrong_choice_explanations": [
-        "をもとに is less formal and doesn't emphasize the rigorous statistical foundation that に基づいて conveys in academic analysis.",
-        "に関して means 'regarding/concerning' and would indicate interpretation about data, not interpretation founded on data.",
-        "によって indicates the agent performing the interpretation, not the statistical foundation for the analysis."
+        "をめぐって means 'concerning / surrounding' and would frame the testimony as a contested topic the investigation revolves around; に基づいて instead marks the testimony as the evidential basis the investigation is built on.",
+        "に関して would mean 'regarding the eyewitness testimony,' making the testimony the topic of the investigation rather than the source the investigation is built on.",
+        "によって would frame the testimony as the means by which the investigation is being conducted (almost as if testimony itself were doing the investigating), losing the 'grounded in' nuance."
       ],
-      "hiragana_full": "とうけいでーたにもとづいて、しゃかいげんしょうのかいしゃくがなされた。",
+      "hiragana_full": "もくげきしょうげんにもとづいて、けいさつがようぎしゃのそうさをすすめている。",
       "audio_alternatives": [
         {
-          "kanji": "統計データに基づき、社会現象の解釈が行われた。",
-          "hiragana_full": "とうけいでーたにもとづき、しゃかいげんしょうのかいしゃくがおこなわれた。"
+          "kanji": "目撃証言に基づき、警察が容疑者の捜査を進めている。",
+          "hiragana_full": "もくげきしょうげんにもとづき、けいさつがようぎしゃのそうさをすすめている。"
         },
         {
-          "kanji": "統計データをもとに、社会現象が解釈された。",
-          "hiragana_full": "とうけいでーたをもとに、しゃかいげんしょうがかいしゃくされた。"
+          "kanji": "目撃証言をもとに、警察が捜査を進めている。",
+          "hiragana_full": "もくげきしょうげんをもとに、けいさつがそうさをすすめている。"
         }
       ],
       "audio_eligible": true
@@ -262,14 +262,14 @@
       "translation": "The building's age was determined based on ancient document records.",
       "blank_target": "に基づいて",
       "wrong_choices": [
-        "をもとに",
+        "を機に",
         "について",
         "を通じて"
       ],
       "wrong_choice_explanations": [
-        "をもとに is less formal and doesn't emphasize the authoritative nature of historical documentation that に基づいて conveys.",
-        "について means 'regarding/concerning' and would indicate determination about documents, not determination founded on documentary evidence.",
-        "を通じて means 'through/via' indicating a method or process, not reliance on documentary authority."
+        "を機に means 'using X as an opportunity / trigger' and would cast the documents as a prompt that occasioned the dating effort; に基づいて instead marks them as the evidential basis the dating itself was derived from.",
+        "について would shift the meaning to 'a dating determination about the documents,' as if the documents themselves were what got dated.",
+        "を通じて would frame the documents as a route through which the dating happened — too indirect for evidence that is itself the dating basis."
       ],
       "hiragana_full": "こもんじょのきろくにもとづいて、そのけんぞうぶつのねんだいがけっていされた。",
       "audio_alternatives": [

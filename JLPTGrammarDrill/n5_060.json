@@ -147,7 +147,7 @@
     {
       "id": "n5_060_6",
       "example_sentence": "彼しかこの問題を解けません。",
-      "translation": "Only he cannot solve this problem.",
+      "translation": "Only he can solve this problem.",
       "blank_target": "しか",
       "wrong_choices": [
         "は",
@@ -155,9 +155,9 @@
         "だけ"
       ],
       "wrong_choice_explanations": [
-        "は marks the topic — it doesn't express the limiting meaning needed with the negative verb here.",
-        "が marks the subject — it doesn't fit here because we need to express that he alone cannot solve it.",
-        "だけ means 'only' but is used with positive verbs — it doesn't work with the negative verb '解けません'."
+        "は marks the topic and doesn't carry 'only' by itself — you need しか paired with the negative 解けません to mean 'no one but him can solve it.'",
+        "が marks the subject but doesn't add the 'only' meaning — pair 'he' with しか so that the negative verb produces the 'only he is able' reading.",
+        "だけ means 'only' but takes a positive verb (彼だけ解けます). It cannot pair with 解けません — that slot is reserved for しか."
       ],
       "hiragana_full": "かれしかこのもんだいをとけません。",
       "audio_alternatives": [

@@ -38,24 +38,24 @@
       "translation": "I ate two bananas.",
       "blank_target": "本",
       "wrong_choices": [
-        "個",
-        "つ",
-        "匹"
+        "房",
+        "枚",
+        "つ"
       ],
       "wrong_choice_explanations": [
-        "個 is for small objects — it doesn't fit here because bananas are long cylindrical objects that use 本.",
-        "つ is a general counter — it doesn't fit here because bananas are long cylindrical objects that use 本.",
-        "匹 is for animals — it doesn't fit here because bananas are objects, not animals."
+        "房 counts a whole bunch of bananas; here we are counting individual bananas, each of which is 本.",
+        "枚 counts flat, thin things like paper; a banana is rounded and long, not flat, so 本 is used.",
+        "つ is the generic counter for objects; a banana is long and cylindrical, so the specific counter 本 fits better."
       ],
-      "hiragana_full": "ばななをにほんたべました",
+      "hiragana_full": "ばななをにほんたべました。",
       "audio_alternatives": [
         {
           "kanji": "バナナを二本食べた。",
-          "hiragana_full": "ばななをにほんたべた"
+          "hiragana_full": "ばななをにほんたべた。"
         },
         {
           "kanji": "二本のバナナを食べました。",
-          "hiragana_full": "にほんのばななをたべました"
+          "hiragana_full": "にほんのばななをたべました。"
         }
       ],
       "audio_eligible": true
@@ -66,24 +66,24 @@
       "translation": "There are five pencils.",
       "blank_target": "本",
       "wrong_choices": [
+        "束",
         "つ",
-        "個",
         "枚"
       ],
       "wrong_choice_explanations": [
-        "つ is a general counter — it doesn't fit here because pencils are long cylindrical objects that use 本.",
-        "個 is for small objects — it doesn't fit here because pencils are long cylindrical objects that use 本.",
-        "枚 is for flat objects — it doesn't fit here because pencils are cylindrical, not flat."
+        "束 counts a tied bundle; here the pencils are counted individually, so each one is 本.",
+        "つ is the generic counter for objects; a pencil is long and thin, so 本 is the proper counter.",
+        "枚 counts flat, thin objects like paper; a pencil is cylindrical, not flat, so 本 is correct."
       ],
-      "hiragana_full": "えんぴつがごほんあります",
+      "hiragana_full": "えんぴつがごほんあります。",
       "audio_alternatives": [
         {
           "kanji": "鉛筆は五本あります。",
-          "hiragana_full": "えんぴつはごほんあります"
+          "hiragana_full": "えんぴつはごほんあります。"
         },
         {
           "kanji": "鉛筆が五本ございます。",
-          "hiragana_full": "えんぴつがごほんございます"
+          "hiragana_full": "えんぴつがごほんございます。"
         }
       ],
       "audio_eligible": true
@@ -94,24 +94,24 @@
       "translation": "This flower costs 100 yen each.",
       "blank_target": "本",
       "wrong_choices": [
-        "つ",
-        "個",
-        "輪"
+        "輪",
+        "束",
+        "個"
       ],
       "wrong_choice_explanations": [
-        "つ is a general counter — it doesn't fit here because flowers (stems) are long cylindrical objects that use 本.",
-        "個 is for small objects — it doesn't fit here because flower stems use 本.",
-        "輪 is for flowers but refers to the bloom itself — it doesn't fit here because we're counting stems."
+        "輪 counts flower blooms; this sentence prices the flower by the stem, which is counted with 本.",
+        "束 counts a bouquet (a tied bundle); here the price is per single stem, so 本 is used.",
+        "個 counts small, compact objects; a flower on its stem is long and slender, so 本 is correct."
       ],
-      "hiragana_full": "このはなはいっぽんひゃくえんです",
+      "hiragana_full": "このはなはいっぽんひゃくえんです。",
       "audio_alternatives": [
         {
           "kanji": "この花は一本百円になります。",
-          "hiragana_full": "このはなはいっぽんひゃくえんになります"
+          "hiragana_full": "このはなはいっぽんひゃくえんになります。"
         },
         {
-          "kanji": "この花、一本百円ですよ。",
-          "hiragana_full": "このはなはいっぽんひゃくえんですよ"
+          "kanji": "この花は一本百円ですよ。",
+          "hiragana_full": "このはなはいっぽんひゃくえんですよ。"
         }
       ],
       "audio_eligible": true
@@ -122,24 +122,24 @@
       "translation": "I smoke ten cigarettes a day.",
       "blank_target": "本",
       "wrong_choices": [
+        "箱",
         "個",
-        "つ",
-        "箱"
+        "枚"
       ],
       "wrong_choice_explanations": [
-        "個 is for small objects — it doesn't fit here because cigarettes are long cylindrical objects that use 本.",
-        "つ is a general counter — it doesn't fit here because cigarettes are long cylindrical objects that use 本.",
-        "箱 is for boxes — it doesn't fit here because we're counting individual cigarettes, not boxes."
+        "箱 counts boxes or packs; here we are counting individual cigarettes, not packs, so 本 is used.",
+        "個 counts small, compact objects; a cigarette is long and cylindrical, which takes 本.",
+        "枚 counts flat, thin objects; a cigarette is cylindrical, not flat, so 本 is correct."
       ],
-      "hiragana_full": "たばこをいちにちにじゅっぽんすいます",
+      "hiragana_full": "たばこをいちにちにじゅっぽんすいます。",
       "audio_alternatives": [
         {
           "kanji": "一日にタバコを十本吸います。",
-          "hiragana_full": "いちにちにたばこをじゅっぽんすいます"
+          "hiragana_full": "いちにちにたばこをじゅっぽんすいます。"
         },
         {
           "kanji": "毎日タバコを十本吸います。",
-          "hiragana_full": "まいにちたばこをじゅっぽんすいます"
+          "hiragana_full": "まいにちたばこをじゅっぽんすいます。"
         }
       ],
       "audio_eligible": true
@@ -152,22 +152,22 @@
       "wrong_choices": [
         "つ",
         "個",
-        "台"
+        "枚"
       ],
       "wrong_choice_explanations": [
-        "つ is a general counter — it doesn't fit here because candles are long cylindrical objects that use 本.",
-        "個 is for small objects — it doesn't fit here because candles are long cylindrical objects that use 本.",
-        "台 is for machines/equipment — it doesn't fit here because candles use 本."
+        "つ is the generic counter for objects; a candle is long and column-shaped, so the specific counter 本 is used.",
+        "個 counts small, compact objects; a candle is long and cylindrical, which takes 本, not 個.",
+        "枚 counts flat, thin objects like paper; a candle is cylindrical, not flat, so 本 is correct."
       ],
-      "hiragana_full": "ろうそくをよんほんともしました",
+      "hiragana_full": "ろうそくをよんほんともしました。",
       "audio_alternatives": [
         {
           "kanji": "ろうそくを四本つけました。",
-          "hiragana_full": "ろうそくをよんほんつけました"
+          "hiragana_full": "ろうそくをよんほんつけました。"
         },
         {
           "kanji": "四本のろうそくを灯しました。",
-          "hiragana_full": "よんほんのろうそくをともしました"
+          "hiragana_full": "よんほんのろうそくをともしました。"
         }
       ],
       "audio_eligible": true
@@ -187,15 +187,15 @@
         "個 is for small objects — it doesn't fit here because umbrellas are long cylindrical objects that use 本.",
         "枚 is for flat objects — it doesn't fit here because umbrellas are cylindrical, not flat."
       ],
-      "hiragana_full": "かさをいっぽんわすれました",
+      "hiragana_full": "かさをいっぽんわすれました。",
       "audio_alternatives": [
         {
           "kanji": "傘を一本忘れた。",
-          "hiragana_full": "かさをいっぽんわすれた"
+          "hiragana_full": "かさをいっぽんわすれた。"
         },
         {
           "kanji": "一本の傘を忘れました。",
-          "hiragana_full": "いっぽんのかさをわすれました"
+          "hiragana_full": "いっぽんのかさをわすれました。"
         }
       ],
       "audio_eligible": true
@@ -215,15 +215,15 @@
         "個 is for small objects — it doesn't fit here because trees are long cylindrical objects that use 本.",
         "株 is for plants with roots — while sometimes used for trees, 本 is more standard for tree trunks."
       ],
-      "hiragana_full": "このきをにほんうえました",
+      "hiragana_full": "このきをにほんうえました。",
       "audio_alternatives": [
         {
           "kanji": "この木を二本植えた。",
-          "hiragana_full": "このきをにほんうえた"
+          "hiragana_full": "このきをにほんうえた。"
         },
         {
           "kanji": "二本のこの木を植えました。",
-          "hiragana_full": "にほんのこのきをうえました"
+          "hiragana_full": "にほんのこのきをうえました。"
         }
       ],
       "audio_eligible": true
@@ -234,24 +234,24 @@
       "translation": "I washed three chopsticks.",
       "blank_target": "本",
       "wrong_choices": [
+        "膳",
         "つ",
-        "個",
-        "膳"
+        "枚"
       ],
       "wrong_choice_explanations": [
-        "つ is a general counter — it doesn't fit here because chopsticks are long cylindrical objects that use 本.",
-        "個 is for small objects — it doesn't fit here because chopsticks are long cylindrical objects that use 本.",
-        "膳 is for pairs of chopsticks — it doesn't fit here because we're counting individual chopsticks."
+        "膳 counts chopsticks in pairs (one place setting); here we are counting individual sticks, so each is 本.",
+        "つ is the generic counter for objects; a chopstick is long and thin, so 本 is used.",
+        "枚 counts flat, thin objects; a chopstick is cylindrical, not flat, so 本 is correct."
       ],
-      "hiragana_full": "はしをさんぼんあらいました",
+      "hiragana_full": "はしをさんぼんあらいました。",
       "audio_alternatives": [
         {
           "kanji": "箸を三本洗った。",
-          "hiragana_full": "はしをさんぼんあらった"
+          "hiragana_full": "はしをさんぼんあらった。"
         },
         {
           "kanji": "三本の箸を洗いました。",
-          "hiragana_full": "さんぼんのはしをあらいました"
+          "hiragana_full": "さんぼんのはしをあらいました。"
         }
       ],
       "audio_eligible": true
@@ -271,15 +271,15 @@
         "個 is for small objects — it doesn't fit here because nails are long cylindrical objects that use 本.",
         "枚 is for flat objects — it doesn't fit here because nails are cylindrical, not flat."
       ],
-      "hiragana_full": "くぎをごほんつかいました",
+      "hiragana_full": "くぎをごほんつかいました。",
       "audio_alternatives": [
         {
           "kanji": "釘を五本使った。",
-          "hiragana_full": "くぎをごほんつかった"
+          "hiragana_full": "くぎをごほんつかった。"
         },
         {
           "kanji": "五本の釘を使いました。",
-          "hiragana_full": "ごほんのくぎをつかいました"
+          "hiragana_full": "ごほんのくぎをつかいました。"
         }
       ],
       "audio_eligible": true

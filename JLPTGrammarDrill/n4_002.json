@@ -258,28 +258,28 @@
     },
     {
       "id": "n4_002_10",
-      "example_sentence": "18歳になるまで、お酒を飲んではいけない。",
-      "translation": "You must not drink alcohol until you turn 18.",
-      "blank_target": "てはいけない",
+      "example_sentence": "雨が降っているから、傘を持って行かなければならない。",
+      "translation": "It's raining, so I have to take an umbrella.",
+      "blank_target": "なければならない",
       "wrong_choices": [
-        "なければならない",
-        "てもいい",
-        "たがる"
+        "なくてもいい",
+        "たほうがいい",
+        "つもりだ"
       ],
       "wrong_choice_explanations": [
-        "なければならない means 'must drink'; opposite of the intended prohibition.",
-        "てもいい means 'it's okay to drink'; permission, not prohibition.",
-        "たがる means 'want to'; expresses desire, inappropriate for prohibition."
+        "なくてもいい means 'don't have to take it'; the opposite of obligation, but the rain makes the umbrella actually necessary.",
+        "たほうがいい means 'it would be better to take it'; a soft suggestion, weaker than the necessity the rain creates.",
+        "つもりだ means 'plan to take it'; describes intention, not the practical necessity of needing rain protection."
       ],
-      "hiragana_full": "じゅうはっさいになるまで、おさけをのんではいけない。",
+      "hiragana_full": "あめがふっているから、かさをもっていかなければならない。",
       "audio_alternatives": [
         {
-          "kanji": "18歳になるまで、お酒を飲むことは禁止されている。",
-          "hiragana_full": "じゅうはっさいになるまで、おさけをのむことはきんしされている。"
+          "kanji": "雨が降っているから、傘を持って行かないといけない。",
+          "hiragana_full": "あめがふっているから、かさをもっていかないといけない。"
         },
         {
-          "kanji": "18歳になるまで、お酒を飲んではだめだ。",
-          "hiragana_full": "じゅうはっさいになるまで、おさけをのんではだめだ。"
+          "kanji": "雨が降っているので、傘が必要だ。",
+          "hiragana_full": "あめがふっているので、かさがひつようだ。"
         }
       ],
       "audio_eligible": true

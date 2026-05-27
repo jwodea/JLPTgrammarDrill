@@ -63,10 +63,13 @@ final class AudioSRSService {
             slots = 0
         }
 
-        // 3. Pick new exercises in canonical order (allExercises is already sorted).
+        // 3. Pick new exercises at random from the eligible level(s), ignoring pattern
+        // grouping. Canonical order tended to drill the same grammar pattern back-to-back
+        // because consecutive exercises within a pattern file share the same template.
         let cardedIds = Set(cards.map(\.exerciseId))
         let newExercises = allExercises
             .filter { activeLevels.contains($0.level) && !cardedIds.contains($0.id) }
+            .shuffled()
             .prefix(slots)
         let newItems: [AudioQueueItem] = newExercises.map { .new($0) }
 
@@ -142,6 +145,7 @@ final class AudioSRSService {
         let cardedIds = Set(cards.map(\.exerciseId))
         return allExercises
             .filter { activeLevels.contains($0.level) && !cardedIds.contains($0.id) }
+            .shuffled()
             .prefix(count)
             .map { .new($0) }
     }

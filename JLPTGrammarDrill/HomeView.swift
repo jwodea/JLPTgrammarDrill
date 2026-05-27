@@ -363,18 +363,20 @@ struct HomeView: View {
 
             // Mix in particle exercises when combined mode is on.
             // Cap particles at ~15% of the final session so they stay an occasional flavor.
+            // The cap is passed *into* the builder so it doesn't insert SRS rows for items
+            // that would be dropped — otherwise undrilled particles accumulate as phantom due cards.
             if combinedDrills {
+                let grammarCount = items.count
+                let maxParticleCount = grammarCount == 0
+                    ? 1
+                    : max(1, Int((Double(grammarCount) * 0.15 / 0.85).rounded()))
                 let particleItems = ParticleSessionBuilder.buildSession(
                     allExercises: particleExercises,
                     context: modelContext,
-                    newCount: newCount
+                    newCount: newCount,
+                    maxItems: maxParticleCount
                 )
-                let grammarCount = items.count
-                let maxParticleCount = grammarCount == 0
-                    ? min(particleItems.count, 1)
-                    : max(1, Int((Double(grammarCount) * 0.15 / 0.85).rounded()))
-                let cappedParticles = Array(particleItems.prefix(maxParticleCount))
-                items.append(contentsOf: cappedParticles)
+                items.append(contentsOf: particleItems)
                 items.shuffle()
             }
 

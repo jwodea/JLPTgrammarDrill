@@ -62,28 +62,28 @@
     },
     {
       "id": "n2_165_3",
-      "example_sentence": "その地点は北緯35度にあたる。",
-      "translation": "That location corresponds to 35 degrees north latitude.",
+      "example_sentence": "鈴木さんは私の母の兄で、私には伯父にあたる。",
+      "translation": "Mr. Suzuki is my mother's older brother, which makes him my uncle.",
       "blank_target": "にあたる",
       "wrong_choices": [
-        "に位置する",
-        "にある",
-        "に当たって"
+        "になる",
+        "みたいだ",
+        "に該当する"
       ],
       "wrong_choice_explanations": [
-        "に位置する means 'is located at' but doesn't convey the correspondence between the location and the specific coordinate.",
-        "にある means 'exists at' or 'is located at' but lacks the precise meaning of correspondence that にあたる provides.",
-        "に当たって means 'when' or 'upon' and indicates timing or occasion, not positional correspondence."
+        "になる means 'becomes'; a blood relationship simply is what it is — he doesn't *become* an uncle — so it can't express the family correspondence that にあたる states.",
+        "みたいだ means 'is like / seems like'; it expresses resemblance or casual conjecture, not the definite family-tree relationship that にあたる pins down.",
+        "に該当する means 'falls under (a category/criterion)'; it sounds bureaucratic, as if checking eligibility, whereas にあたる naturally expresses a relationship within the family."
       ],
-      "hiragana_full": "そのちてんはほくい35どにあたる。",
+      "hiragana_full": "すずきさんはわたしのははのあにで、わたしにはおじにあたる。",
       "audio_alternatives": [
         {
-          "kanji": "その地点は北緯35度に相当する。",
-          "hiragana_full": "そのちてんはほくい35どにそうとうする。"
+          "kanji": "鈴木さんは私の母の兄で、私の伯父だ。",
+          "hiragana_full": "すずきさんはわたしのははのあにで、わたしのおじだ。"
         },
         {
-          "kanji": "あの地点は北緯35度にあたります。",
-          "hiragana_full": "あのちてんはほくい35どにあたります。"
+          "kanji": "鈴木さんは母の兄なので、私には伯父にあたる。",
+          "hiragana_full": "すずきさんはははのあになので、わたしにはおじにあたる。"
         }
       ],
       "audio_eligible": true
@@ -179,12 +179,12 @@
       "blank_target": "にあたる",
       "wrong_choices": [
         "になる",
-        "である",
+        "を超える",
         "に匹敵する"
       ],
       "wrong_choice_explanations": [
         "になる means 'becomes' but doesn't express the specific correspondence between his income and the comparative amount.",
-        "である is a copula meaning 'is' but lacks the nuance of correspondence or equivalence that にあたる provides.",
+        "を超える means 'exceeds'; it would say his income is *more than* double an average salaryman's, which contradicts にあたる's claim that it works out to *exactly* twice.",
         "に匹敵する means 'is comparable to' or 'rivals' but suggests competition rather than mathematical correspondence."
       ],
       "hiragana_full": "かれのねんしゅうはいっぱんてきなサラリーマンのばいにあたる。",
@@ -243,15 +243,15 @@
         "に等しい means 'is equal to' but is more mathematical and doesn't have the nuance of correspondence that にあたる provides.",
         "のようだ means 'seems like' or 'appears to be' and expresses uncertainty, not the definite correspondence that にあたる conveys."
       ],
-      "hiragana_full": "そのきょりはとうきょうからおおさかまでのみちのりにあたる",
+      "hiragana_full": "そのきょりはとうきょうからおおさかまでのみちのりにあたる。",
       "audio_alternatives": [
         {
           "kanji": "その距離は東京から大阪までの道のりと同じだ。",
-          "hiragana_full": "そのきょりはとうきょうからおおさかまでのみちのりとおなじだ"
+          "hiragana_full": "そのきょりはとうきょうからおおさかまでのみちのりとおなじだ。"
         },
         {
           "kanji": "その距離は東京から大阪までの道のりに相当する。",
-          "hiragana_full": "そのきょりはとうきょうからおおさかまでのみちのりにそうとうする"
+          "hiragana_full": "そのきょりはとうきょうからおおさかまでのみちのりにそうとうする。"
         }
       ],
       "audio_eligible": true

@@ -10,24 +10,24 @@
       "translation": "I study Japanese every day.",
       "blank_target": "ます",
       "wrong_choices": [
-        "る",
+        "ない",
         "た",
         "て"
       ],
       "wrong_choice_explanations": [
-        "る is the plain present form — it's too casual for polite speech.",
+        "ない is the plain negative form — 勉強しない would mean 'don't study' and is too casual for polite speech.",
         "た is plain past tense — it would mean 'studied' and is too casual.",
         "て is the te-form — it's incomplete and needs additional elements to form a sentence."
       ],
-      "hiragana_full": "まいにちにほんごをべんきょうします",
+      "hiragana_full": "まいにちにほんごをべんきょうします。",
       "audio_alternatives": [
         {
           "kanji": "毎日日本語を勉強している。",
-          "hiragana_full": "まいにちにほんごをべんきょうしている"
+          "hiragana_full": "まいにちにほんごをべんきょうしている。"
         },
         {
           "kanji": "日本語を毎日勉強します。",
-          "hiragana_full": "にほんごをまいにちべんきょうします"
+          "hiragana_full": "にほんごをまいにちべんきょうします。"
         }
       ],
       "audio_eligible": true
@@ -75,15 +75,15 @@
         "である is a formal copula — it's used with nouns, not with verb stems.",
         "だった is past copula — it's used with nouns/adjectives, not verb stems."
       ],
-      "hiragana_full": "ちちはしんぶんをよみます",
+      "hiragana_full": "ちちはしんぶんをよみます。",
       "audio_alternatives": [
         {
           "kanji": "父は新聞を読む。",
-          "hiragana_full": "ちちはしんぶんをよむ"
+          "hiragana_full": "ちちはしんぶんをよむ。"
         },
         {
           "kanji": "お父さんは新聞を読みます。",
-          "hiragana_full": "おとうさんはしんぶんをよみます"
+          "hiragana_full": "おとうさんはしんぶんをよみます。"
         }
       ],
       "audio_eligible": true
@@ -151,13 +151,13 @@
       "blank_target": "ます",
       "wrong_choices": [
         "ながら",
-        "たり",
-        "て"
+        "たい",
+        "すぎる"
       ],
       "wrong_choice_explanations": [
         "ながら means 'while doing' — it would need another action to complete the thought.",
-        "たり lists multiple actions — it would need another action and する/です to complete.",
-        "て connects actions — it would leave the sentence incomplete without a following clause."
+        "たい is the desiderative — 作りたい would mean 'wants to make' rather than stating that mother makes meals.",
+        "すぎる means 'too much' — 作りすぎる would mean 'makes too much,' which changes the simple statement."
       ],
       "hiragana_full": "はははりょうりをつくります。",
       "audio_alternatives": [
@@ -183,7 +183,7 @@
         "ておく"
       ],
       "wrong_choice_explanations": [
-        "ている indicates ongoing action — it would mean 'am walking' but needs です after it.",
+        "ている is the casual progressive — 散歩している would describe an ongoing action in plain style, not the polite habitual statement that ます expresses.",
         "てある indicates a completed action with remaining results — it doesn't fit the context of regular walks.",
         "ておく means doing something in preparation — it doesn't fit the simple habitual action here."
       ],
@@ -208,22 +208,22 @@
       "wrong_choices": [
         "そう",
         "よう",
-        "ばかり"
+        "たい"
       ],
       "wrong_choice_explanations": [
-        "そう indicates appearance or hearsay — it would need です and would change the meaning to 'seems to play'.",
-        "よう indicates similarity or attempt — it would need です and change the meaning.",
-        "ばかり means 'only/just' — it's a particle that cannot complete verb conjugation."
+        "そう forms the appearance form しそう — it would mean 'looks like (I'll) play' rather than the plain statement that you play golf.",
+        "よう forms the plain volitional しよう, meaning 'let's play' or 'I think I'll play,' rather than simply stating that you play golf.",
+        "たい is the desiderative — ゴルフをしたい would mean 'want to play golf' rather than stating that you do play."
       ],
-      "hiragana_full": "しゅうまつにごるふをします",
+      "hiragana_full": "しゅうまつにごるふをします。",
       "audio_alternatives": [
         {
           "kanji": "週末にゴルフをやります。",
-          "hiragana_full": "しゅうまつにごるふをやります"
+          "hiragana_full": "しゅうまつにごるふをやります。"
         },
         {
           "kanji": "週末はゴルフをします。",
-          "hiragana_full": "しゅうまつはごるふをします"
+          "hiragana_full": "しゅうまつはごるふをします。"
         }
       ],
       "audio_eligible": true

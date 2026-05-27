@@ -19,15 +19,15 @@
         "〜きり means 'since then / only,' suggesting nothing else happened, but the sentence is about negligently leaving something in an undesirable state.",
         "〜たところに means 'just when,' referring to timing, not the state of leaving something open."
       ],
-      "hiragana_full": "こどもはへやのどあをあけっぱなしにしてしまいました",
+      "hiragana_full": "こどもはへやのどあをあけっぱなしにしてしまいました。",
       "audio_alternatives": [
         {
           "kanji": "子供は部屋のドアを開けたままにしてしまいました。",
-          "hiragana_full": "こどもはへやのどあをあけたままにしてしまいました"
+          "hiragana_full": "こどもはへやのどあをあけたままにしてしまいました。"
         },
         {
           "kanji": "子供が部屋のドアを開けっぱなしにしてしまった。",
-          "hiragana_full": "こどもがへやのどあをあけっぱなしにしてしまった"
+          "hiragana_full": "こどもがへやのどあをあけっぱなしにしてしまった。"
         }
       ],
       "audio_eligible": true
@@ -47,15 +47,15 @@
         "たきりに is not a standard form; きり means 'only' or 'just'.",
         "たところに is not a standard form for this meaning; ところ means 'place' or 'moment'."
       ],
-      "hiragana_full": "ぱそこんのすいっちをいれっぱなしにしないでください",
+      "hiragana_full": "ぱそこんのすいっちをいれっぱなしにしないでください。",
       "audio_alternatives": [
         {
           "kanji": "パソコンのスイッチをつけっぱなしにしないでください。",
-          "hiragana_full": "ぱそこんのすいっちをつけっぱなしにしないでください"
+          "hiragana_full": "ぱそこんのすいっちをつけっぱなしにしないでください。"
         },
         {
           "kanji": "パソコンのスイッチを入れたままにしないでください。",
-          "hiragana_full": "ぱそこんのすいっちをいれたままにしないでください"
+          "hiragana_full": "ぱそこんのすいっちをいれたままにしないでください。"
         }
       ],
       "audio_eligible": true
@@ -151,23 +151,23 @@
       "blank_target": "っぱなし",
       "wrong_choices": [
         "たまま",
-        "けたまま",
+        "たきり",
         "たところ"
       ],
       "wrong_choice_explanations": [
-        "〜まま means 'in the same state,' and is grammatically possible here, but っぱなし specifically adds a nuance of carelessness or negligence that fits the warning context better.",
-        "This conjugation is non-standard; っぱなし attaches directly to the verb stem (つけ+っぱなし), not through けた.",
-        "〜たところ means 'just finished doing' or 'at the moment of,' but the sentence warns about leaving something in a state, not about timing."
+        "つけたまま is grammatical and describes the computer being on as a neutral, unchanged state. っぱなし adds the careless-and-wasteful nuance the warning relies on — leaving a machine running unattended overnight.",
+        "つけたきり means 'turned it on and nothing further happened' — emphasizing that no follow-up action occurred. The sentence isn't about absence of follow-up; it's about negligently leaving the machine in a running state, which is what っぱなし conveys.",
+        "つけたところ means 'just turned it on,' marking the moment of action. The warning is about the sustained on-state while you sleep, not the instant of switching it on — that ongoing neglect is what っぱなし captures."
       ],
-      "hiragana_full": "ぱそこんをつけっぱなしにしてねないでください",
+      "hiragana_full": "ぱそこんをつけっぱなしにしてねないでください。",
       "audio_alternatives": [
         {
           "kanji": "パソコンをつけたまま寝ないでください。",
-          "hiragana_full": "ぱそこんをつけたままねないでください"
+          "hiragana_full": "ぱそこんをつけたままねないでください。"
         },
         {
           "kanji": "パソコンをつけっぱなしで寝ないでください。",
-          "hiragana_full": "ぱそこんをつけっぱなしでねないでください"
+          "hiragana_full": "ぱそこんをつけっぱなしでねないでください。"
         }
       ],
       "audio_eligible": true
@@ -175,17 +175,17 @@
     {
       "id": "n3_027_7",
       "example_sentence": "エアコンをつけっぱなしにして、出かけてしまった。",
-      "translation": "I went out with the air conditioner left on.",
+      "translation": "I ended up going out with the air conditioner still on.",
       "blank_target": "っぱなし",
       "wrong_choices": [
         "たまま",
-        "けたまま",
+        "たきり",
         "たところ"
       ],
       "wrong_choice_explanations": [
-        "〜まま and 〜っぱなし both mean leaving in a state, but 〜っぱなし better captures careless leaving",
-        "This form is awkward; 〜っぱなし better captures the sense of leaving an appliance on negligently",
-        "〜たところ means 'just finished doing', but doesn't express the state of negligently leaving something"
+        "つけたまま is grammatical and means simply 'with it left on' — a neutral state. っぱなし adds the wasted-electricity, careless-abandonment nuance that fits 'went out and forgot about it.'",
+        "つけたきり means 'turned it on and that was the end of it,' marking a one-time action with no follow-up. The sentence isn't about doing-and-stopping; it's about the AC running unattended while you're out, which is what っぱなし conveys.",
+        "つけたところ means 'just turned it on,' a snapshot of the moment of action. The sentence describes the appliance still running after you've left — a sustained, neglected on-state, which is っぱなし's territory."
       ],
       "hiragana_full": "えあこんをつけっぱなしにして、でかけてしまった。",
       "audio_alternatives": [
@@ -203,17 +203,17 @@
     {
       "id": "n3_027_8",
       "example_sentence": "ライトをつけっぱなしで、電気代が高くなりました。",
-      "translation": "I left the light on and my electricity bill went up.",
+      "translation": "I left the light on and my electricity bill ended up going up.",
       "blank_target": "っぱなし",
       "wrong_choices": [
         "たまま",
-        "けたまま",
+        "たきり",
         "たところ"
       ],
       "wrong_choice_explanations": [
-        "ままだけ emphasizes the state, but っぱなし specifically conveys the nuance of negligent continuation.",
-        "This form is less appropriate; っぱなし specifically means leaving in a state carelessly.",
-        "ところ means 'the moment' or 'just after', but っぱなし emphasizes leaving in a state of neglect."
+        "つけたまま is grammatical and describes the light staying on as a neutral, unchanged state. っぱなし adds the careless-and-wasteful layer that motivates the second clause — wasted electricity drove the bill up.",
+        "つけたきり means 'turned it on and that was the last of it,' emphasizing that nothing else happened afterward. The sentence isn't about absence of follow-up actions; it's about the light burning unattended for so long that the bill climbed, which is っぱなし's careless-continuation sense.",
+        "つけたところ means 'the moment I turned it on' — a point in time. The sentence is about the prolonged on-state that drove the bill up, not the instant of switching the light on, so っぱなし fits."
       ],
       "hiragana_full": "らいとをつけっぱなしで、でんきだいがたかくなりました。",
       "audio_alternatives": [
@@ -243,15 +243,15 @@
         "〜きり means 'since then / only,' suggesting nothing further happened, but the focus here is on the ongoing neglected state of the TV being on.",
         "〜たところ means 'just when' or 'having just done,' describing timing, not the negligent state of leaving something running."
       ],
-      "hiragana_full": "テレビをつけっぱなしで、だれもみていなかった。",
+      "hiragana_full": "てれびをつけっぱなしで、だれもみていなかった。",
       "audio_alternatives": [
         {
           "kanji": "テレビがつけっぱなしになっていて、誰も見ていなかった。",
-          "hiragana_full": "テレビがつけっぱなしになっていて、だれもみていなかった。"
+          "hiragana_full": "てれびがつけっぱなしになっていて、だれもみていなかった。"
         },
         {
           "kanji": "誰もテレビを見ていなかったのに、つけっぱなしだった。",
-          "hiragana_full": "だれもテレビをみていなかったのに、つけっぱなしだった。"
+          "hiragana_full": "だれもてれびをみていなかったのに、つけっぱなしだった。"
         }
       ],
       "audio_eligible": true

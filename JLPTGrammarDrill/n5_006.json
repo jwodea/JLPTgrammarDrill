@@ -19,15 +19,15 @@
         "を marks direct objects of verbs — it doesn't fit here because 学生 is not an object being acted upon.",
         "に indicates direction, time, or indirect location — it doesn't fit here because we're not expressing movement or time."
       ],
-      "hiragana_full": "わたしはがくせいです",
+      "hiragana_full": "わたしはがくせいです。",
       "audio_alternatives": [
         {
           "kanji": "私は学生だ。",
-          "hiragana_full": "わたしはがくせいだ"
+          "hiragana_full": "わたしはがくせいだ。"
         },
         {
           "kanji": "僕は学生です。",
-          "hiragana_full": "ぼくはがくせいです"
+          "hiragana_full": "ぼくはがくせいです。"
         }
       ],
       "audio_eligible": true
@@ -47,15 +47,15 @@
         "を marks direct objects — it doesn't fit here because 雨 is not being acted upon by a verb.",
         "で indicates location of action or means — it doesn't fit here because we're describing the weather, not an action location."
       ],
-      "hiragana_full": "きょうはあめです",
+      "hiragana_full": "きょうはあめです。",
       "audio_alternatives": [
         {
           "kanji": "今日は雨が降っています。",
-          "hiragana_full": "きょうはあめがふっています"
+          "hiragana_full": "きょうはあめがふっています。"
         },
         {
           "kanji": "今日は雨だ。",
-          "hiragana_full": "きょうはあめだ"
+          "hiragana_full": "きょうはあめだ。"
         }
       ],
       "audio_eligible": true
@@ -103,23 +103,23 @@
         "に indicates direction, time, or location — it doesn't fit here because we're not expressing movement or position.",
         "から means 'from' or 'because' — it doesn't fit here because we're not indicating origin or reason."
       ],
-      "hiragana_full": "たなかさんはせんせいです",
+      "hiragana_full": "たなかさんはせんせいです。",
       "audio_alternatives": [
         {
           "kanji": "田中さんは先生だ。",
-          "hiragana_full": "たなかさんはせんせいだ"
+          "hiragana_full": "たなかさんはせんせいだ。"
         },
         {
           "kanji": "田中さんは教師です。",
-          "hiragana_full": "たなかさんはきょうしです"
+          "hiragana_full": "たなかさんはきょうしです。"
         }
       ],
       "audio_eligible": true
     },
     {
       "id": "n5_006_5",
-      "example_sentence": "犬は好きです。",
-      "translation": "I like dogs.",
+      "example_sentence": "犬は大きいです。",
+      "translation": "Dogs are big.",
       "blank_target": "は",
       "wrong_choices": [
         "が",
@@ -127,19 +127,19 @@
         "の"
       ],
       "wrong_choice_explanations": [
-        "が marks what is liked in preference expressions — here 犬 is the topic being commented on, not what is specifically liked.",
-        "を marks direct objects — it doesn't fit here because 好き is an adjective expressing preference, not a transitive verb.",
-        "の shows possession or modification — it doesn't fit here because we're not showing ownership or describing something."
+        "が marks the subject as new or exhaustive information ('it is the dog that is big'), but here 犬 is the general topic being described, so the topic marker は fits.",
+        "を marks the direct object of a transitive verb—it doesn't fit here because 大きい is an adjective, not a verb acting on 犬.",
+        "の links nouns or shows possession ('the dog's...'), but here we simply mark 犬 as the topic, which requires は."
       ],
-      "hiragana_full": "いぬはすきです。",
+      "hiragana_full": "いぬはおおきいです。",
       "audio_alternatives": [
         {
-          "kanji": "犬が好きです。",
-          "hiragana_full": "いぬがすきです。"
+          "kanji": "犬は大きい。",
+          "hiragana_full": "いぬはおおきい。"
         },
         {
-          "kanji": "私は犬が好きです。",
-          "hiragana_full": "わたしはいぬがすきです。"
+          "kanji": "この犬は大きいです。",
+          "hiragana_full": "このいぬはおおきいです。"
         }
       ],
       "audio_eligible": true
@@ -159,15 +159,15 @@
         "を marks direct objects of verbs — it doesn't fit here because かわいい is an adjective, not a transitive verb.",
         "で indicates location of action or means — it doesn't fit here because we're describing a quality, not an action or method."
       ],
-      "hiragana_full": "ねこはかわいいです",
+      "hiragana_full": "ねこはかわいいです。",
       "audio_alternatives": [
         {
           "kanji": "猫はかわいい。",
-          "hiragana_full": "ねこはかわいい"
+          "hiragana_full": "ねこはかわいい。"
         },
         {
           "kanji": "猫ってかわいいですね。",
-          "hiragana_full": "ねこってかわいいですね"
+          "hiragana_full": "ねこってかわいいですね。"
         }
       ],
       "audio_eligible": true
@@ -271,15 +271,15 @@
         "を marks direct objects — it doesn't fit here because 母 is not being acted upon by a verb.",
         "に indicates direction or location — it doesn't fit here because we're not expressing movement toward or position of the mother."
       ],
-      "hiragana_full": "はははりょうりがじょうずです",
+      "hiragana_full": "はははりょうりがじょうずです。",
       "audio_alternatives": [
         {
           "kanji": "母は料理が得意です。",
-          "hiragana_full": "はははりょうりがとくいです"
+          "hiragana_full": "はははりょうりがとくいです。"
         },
         {
           "kanji": "お母さんは料理が上手です。",
-          "hiragana_full": "おかあさんはりょうりがじょうずです"
+          "hiragana_full": "おかあさんはりょうりがじょうずです。"
         }
       ],
       "audio_eligible": true

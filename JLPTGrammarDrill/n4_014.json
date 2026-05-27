@@ -15,19 +15,19 @@
         "て"
       ],
       "wrong_choice_explanations": [
-        "ら would create 食べられる which is regular passive, but here we need the causative-passive 食べさせられる",
+        "ら gives 食べらせられました, which is not a valid form; the causative-passive of the ichidan verb 食べる is 食べさせられる, so さ is the missing mora.",
         "れ would create 食べれせられる which is incorrect conjugation, we need さ for the causative stem",
         "て would create the te-form 食べてせられる which is grammatically incorrect"
       ],
-      "hiragana_full": "わたしははははやさいをたべさせられました",
+      "hiragana_full": "わたしはははにやさいをたべさせられました。",
       "audio_alternatives": [
         {
           "kanji": "母に野菜を食べさせられた。",
-          "hiragana_full": "ははにやさいをたべさせられた"
+          "hiragana_full": "ははにやさいをたべさせられた。"
         },
         {
           "kanji": "私は母に野菜を食べさせられたのです。",
-          "hiragana_full": "わたしははははやさいをたべさせられたのです"
+          "hiragana_full": "わたしはははにやさいをたべさせられたのです。"
         }
       ],
       "audio_eligible": true
@@ -44,18 +44,18 @@
       ],
       "wrong_choice_explanations": [
         "れ would create やられられた which is double passive and grammatically incorrect",
-        "さ would create やらされた which is incomplete - we need せられる for the full causative-passive",
+        "さ gives やらさられた, which is not a valid form; the full causative-passive of やる is やらせられた, so せ is the correct mora.",
         "し would create やらしられた which uses the wrong causative form - we need せ not し"
       ],
-      "hiragana_full": "がくせいはせんせいにしゅくだいをやらせられた",
+      "hiragana_full": "がくせいはせんせいにしゅくだいをやらせられた。",
       "audio_alternatives": [
         {
           "kanji": "学生は先生に宿題をさせられた。",
-          "hiragana_full": "がくせいはせんせいにしゅくだいをさせられた"
+          "hiragana_full": "がくせいはせんせいにしゅくだいをさせられた。"
         },
         {
           "kanji": "先生は学生に宿題をやらせた。",
-          "hiragana_full": "せんせいはがくせいにしゅくだいをやらせた"
+          "hiragana_full": "せんせいはがくせいにしゅくだいをやらせた。"
         }
       ],
       "audio_eligible": true
@@ -71,19 +71,19 @@
         "し"
       ],
       "wrong_choice_explanations": [
-        "さ would create 寝かされる which is incomplete - we need the full causative-passive せられる",
+        "さ gives 寝かさられています, which is not a valid form; the causative-passive here is 寝かせられる, so せ is the correct mora.",
         "れ would create 寝かれられる which is double passive and grammatically incorrect",
         "し would create 寝かしられる which uses the wrong causative form - we need せ not し"
       ],
-      "hiragana_full": "こどもたちははやくねかせられています",
+      "hiragana_full": "こどもたちははやくねかせられています。",
       "audio_alternatives": [
         {
           "kanji": "子供たちは早く寝るように言われています。",
-          "hiragana_full": "こどもたちははやくねるようにいわれています"
+          "hiragana_full": "こどもたちははやくねるようにいわれています。"
         },
         {
           "kanji": "子供たちは早く寝させられています。",
-          "hiragana_full": "こどもたちははやくねさせられています"
+          "hiragana_full": "こどもたちははやくねさせられています。"
         }
       ],
       "audio_eligible": true
@@ -103,15 +103,15 @@
         "に is a particle for direction/target and doesn't belong in the causative-passive form",
         "で is a particle for means/location and cannot be part of the causative-passive conjugation"
       ],
-      "hiragana_full": "しゃいんはじょうしにざんぎょうさせられている",
+      "hiragana_full": "しゃいんはじょうしにざんぎょうさせられている。",
       "audio_alternatives": [
         {
           "kanji": "社員は上司に残業をさせられている。",
-          "hiragana_full": "しゃいんはじょうしにざんぎょうをさせられている"
+          "hiragana_full": "しゃいんはじょうしにざんぎょうをさせられている。"
         },
         {
           "kanji": "上司は社員に残業させている。",
-          "hiragana_full": "じょうしはしゃいんにざんぎょうさせている"
+          "hiragana_full": "じょうしはしゃいんにざんぎょうさせている。"
         }
       ],
       "audio_eligible": true
@@ -131,15 +131,15 @@
         "ね would create 飲まねられる which is not a valid conjugation pattern",
         "み would create 飲まみられる which uses the wrong stem - we need せ for causative-passive"
       ],
-      "hiragana_full": "おとうとはちちにくすりをのませられました",
+      "hiragana_full": "おとうとはちちにくすりをのませられました。",
       "audio_alternatives": [
         {
           "kanji": "弟は父に薬を飲まされました。",
-          "hiragana_full": "おとうとはちちにくすりをのまされました"
+          "hiragana_full": "おとうとはちちにくすりをのまされました。"
         },
         {
           "kanji": "父は弟に薬を飲ませました。",
-          "hiragana_full": "ちちはおとうとにくすりをのませました"
+          "hiragana_full": "ちちはおとうとにくすりをのませました。"
         }
       ],
       "audio_eligible": true
@@ -159,15 +159,15 @@
         "だ would create 待ただられた which is meaningless and grammatically incorrect",
         "た would create 待たたられた which is not a proper conjugation"
       ],
-      "hiragana_full": "わたしたちはちょうじかんまたせられた",
+      "hiragana_full": "わたしたちはちょうじかんまたせられた。",
       "audio_alternatives": [
         {
           "kanji": "私たちは長い間待たされた。",
-          "hiragana_full": "わたしたちはながいあいだまたされた"
+          "hiragana_full": "わたしたちはながいあいだまたされた。"
         },
         {
           "kanji": "私たちはずっと待たされた。",
-          "hiragana_full": "わたしたちはずっとまたされた"
+          "hiragana_full": "わたしたちはずっとまたされた。"
         }
       ],
       "audio_eligible": true
@@ -187,15 +187,15 @@
         "し would create 走らしられる which uses the colloquial causative し instead of proper せ",
         "す would create 走らすられる which mixes different causative forms incorrectly"
       ],
-      "hiragana_full": "せんしゅはこーちにまいにちはしらせられている",
+      "hiragana_full": "せんしゅはこーちにまいにちはしらせられている。",
       "audio_alternatives": [
         {
           "kanji": "コーチは選手を毎日走らせている。",
-          "hiragana_full": "こーちはせんしゅをまいにちはしらせている"
+          "hiragana_full": "こーちはせんしゅをまいにちはしらせている。"
         },
         {
           "kanji": "選手はコーチに毎日走らされている。",
-          "hiragana_full": "せんしゅはこーちにまいにちはしらされている"
+          "hiragana_full": "せんしゅはこーちにまいにちはしらされている。"
         }
       ],
       "audio_eligible": true
@@ -215,15 +215,15 @@
         "べ would create 作らべられた which is meaningless",
         "け would create 作らけられた which is not a proper verb form"
       ],
-      "hiragana_full": "しんじんはせんぱいにしょるいをつくらせられた",
+      "hiragana_full": "しんじんはせんぱいにしょるいをつくらせられた。",
       "audio_alternatives": [
         {
           "kanji": "新人は先輩に書類を作るよう言われた。",
-          "hiragana_full": "しんじんはせんぱいにしょるいをつくるよういわれた"
+          "hiragana_full": "しんじんはせんぱいにしょるいをつくるよういわれた。"
         },
         {
           "kanji": "先輩は新人に書類を作らせた。",
-          "hiragana_full": "せんぱいはしんじんにしょるいをつくらせた"
+          "hiragana_full": "せんぱいはしんじんにしょるいをつくらせた。"
         }
       ],
       "audio_eligible": true
@@ -243,15 +243,15 @@
         "ず would create 出ずせられる which is not a valid conjugation pattern",
         "て would create 出てせられる which mixes te-form with causative-passive incorrectly"
       ],
-      "hiragana_full": "ぶかはぶちょうにかいぎにでさせられています",
+      "hiragana_full": "ぶかはぶちょうにかいぎにでさせられています。",
       "audio_alternatives": [
         {
           "kanji": "部下は部長に会議に出るよう強いられています。",
-          "hiragana_full": "ぶかはぶちょうにかいぎにでるようしいられています"
+          "hiragana_full": "ぶかはぶちょうにかいぎにでるようしいられています。"
         },
         {
           "kanji": "部長は部下を会議に出させています。",
-          "hiragana_full": "ぶちょうはぶかをかいぎにでさせています"
+          "hiragana_full": "ぶちょうはぶかをかいぎにでさせています。"
         }
       ],
       "audio_eligible": true
@@ -267,19 +267,19 @@
         "の"
       ],
       "wrong_choice_explanations": [
-        "ら would create 片付けられせられた which is double passive and incorrect",
+        "ら gives 片付けらせられた, which is not a valid form; the causative-passive of the ichidan verb 片付ける is 片付けさせられる, so さ is the missing mora.",
         "が is a subject particle and cannot be used in verb conjugation",
         "の is a possessive particle and doesn't belong in the causative-passive form"
       ],
-      "hiragana_full": "むすこははははおやにへやをかたづけさせられた",
+      "hiragana_full": "むすこはははおやにへやをかたづけさせられた。",
       "audio_alternatives": [
         {
           "kanji": "息子は母親に部屋を掃除させられた。",
-          "hiragana_full": "むすこははははおやにへやをそうじさせられた"
+          "hiragana_full": "むすこはははおやにへやをそうじさせられた。"
         },
         {
           "kanji": "母親は息子に部屋を片付けさせた。",
-          "hiragana_full": "ははおやはむすこにへやをかたづけさせた"
+          "hiragana_full": "ははおやはむすこにへやをかたづけさせた。"
         }
       ],
       "audio_eligible": true

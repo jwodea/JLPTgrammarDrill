@@ -47,15 +47,15 @@
         "ない is negative; ないでください would mean 'please don't,' which changes the meaning entirely.",
         "ます is a polite ending but doesn't combine with ください."
       ],
-      "hiragana_full": "ここにすわってください",
+      "hiragana_full": "ここにすわってください。",
       "audio_alternatives": [
         {
           "kanji": "ここに座りなさい。",
-          "hiragana_full": "ここにすわりなさい"
+          "hiragana_full": "ここにすわりなさい。"
         },
         {
           "kanji": "こちらに座ってください。",
-          "hiragana_full": "こちらにすわってください"
+          "hiragana_full": "こちらにすわってください。"
         }
       ],
       "audio_eligible": true
@@ -159,15 +159,15 @@
         "ない is negative; なくてもいい means 'don't have to,' which is a different pattern.",
         "ます is polite ending; it can't precede もいいですか."
       ],
-      "hiragana_full": "まどをあけてもいいですか",
+      "hiragana_full": "まどをあけてもいいですか。",
       "audio_alternatives": [
         {
           "kanji": "窓を開けていいですか。",
-          "hiragana_full": "まどをあけていいですか"
+          "hiragana_full": "まどをあけていいですか。"
         },
         {
           "kanji": "窓を開けてもかまいませんか。",
-          "hiragana_full": "まどをあけてもかまいませんか"
+          "hiragana_full": "まどをあけてもかまいませんか。"
         }
       ],
       "audio_eligible": true
@@ -187,15 +187,15 @@
         "ます is polite ending and doesn't precede ください.",
         "たり is for listing actions and cannot form a request with ください."
       ],
-      "hiragana_full": "でんきをつけてください",
+      "hiragana_full": "でんきをつけてください。",
       "audio_alternatives": [
         {
           "kanji": "電気をつけてくれますか。",
-          "hiragana_full": "でんきをつけてくれますか"
+          "hiragana_full": "でんきをつけてくれますか。"
         },
         {
           "kanji": "ライトをつけてください。",
-          "hiragana_full": "らいとをつけてください"
+          "hiragana_full": "らいとをつけてください。"
         }
       ],
       "audio_eligible": true
@@ -212,7 +212,7 @@
       ],
       "wrong_choice_explanations": [
         "た makes it past tense (洗った) without connecting to the next action.",
-        "ない negates the verb (洗わない); the っない form doesn't exist.",
+        "ない is the negative form (洗わない, 'don't wash'); it negates the verb instead of linking it, and 洗って cannot simply turn into 洗ない to connect to the next action.",
         "たり lists representative actions and requires paired usage with する."
       ],
       "hiragana_full": "てをあらって、ごはんをたべます。",
@@ -239,7 +239,7 @@
         "たり"
       ],
       "wrong_choice_explanations": [
-        "ない negates the verb (乗らない); the っない form doesn't exist.",
+        "ない is the negative form (乗らない, 'don't ride'); it negates the action rather than connecting 'riding the bus' to 'going to the station,' and 乗って cannot become 乗ない.",
         "ます is a sentence-ending form, not a connector between clauses.",
         "たり is for listing representative actions and needs a paired たりする structure."
       ],

@@ -34,28 +34,28 @@
     },
     {
       "id": "n2_082_2",
-      "example_sentence": "この文章は素人っぽい感じがする。",
-      "translation": "This text gives a somewhat amateur-like feeling.",
+      "example_sentence": "祖父は年のせいか、最近とても忘れっぽい。",
+      "translation": "Maybe because of his age, my grandfather has been really forgetful lately.",
       "blank_target": "っぽい",
       "wrong_choices": [
-        "的",
-        "気味",
-        "らしい"
+        "がち",
+        "やすい",
+        "気味"
       ],
       "wrong_choice_explanations": [
-        "的 means 'like/typical of' but is more formal and doesn't carry the colloquial, slightly negative nuance that っぽい has when describing amateurish quality.",
-        "気味 means 'somewhat/slightly' but is mainly used with negative emotional states or physical conditions, not for describing writing style or skill level.",
-        "らしい means 'seems like/typical of' but indicates hearsay or expected characteristics, not the subjective impression of quality that っぽい expresses."
+        "がち would give 忘れがち, which describes a situational tendency ('tends to forget under these circumstances'), but っぽい marks an ingrained personal trait — the grandfather has become a forgetful person.",
+        "やすい would give 忘れやすい, framing things as 'easy to forget' from the object's side (these matters slip the mind easily), but we want to describe the person's disposition, which is what 忘れっぽい conveys.",
+        "気味 (忘れ気味) suggests a slight lean toward forgetting as a current condition, but it doesn't capture the established character trait of being a forgetful person that 忘れっぽい names."
       ],
-      "hiragana_full": "このぶんしょうはしろうとっぽいかんじがする。",
+      "hiragana_full": "そふはとしのせいか、さいきんとてもわすれっぽい。",
       "audio_alternatives": [
         {
-          "kanji": "この文章はアマチュアっぽい印象を与える。",
-          "hiragana_full": "このぶんしょうはアマチュアっぽいいんしょうをあたえる。"
+          "kanji": "祖父は年のせいか、最近すっかり忘れっぽい。",
+          "hiragana_full": "そふはとしのせいか、さいきんすっかりわすれっぽい。"
         },
         {
-          "kanji": "この文章は素人っぽい印象がある。",
-          "hiragana_full": "このぶんしょうはしろうとっぽいいんしょうがある。"
+          "kanji": "最近の祖父は、年のせいかとても忘れっぽい。",
+          "hiragana_full": "さいきんのそふは、としのせいかとてもわすれっぽい。"
         }
       ],
       "audio_eligible": true
@@ -90,8 +90,8 @@
     },
     {
       "id": "n2_082_4",
-      "example_sentence": "この店の料理は家庭的っぽい味がする。",
-      "translation": "This restaurant's food has a somewhat home-cooking-like taste.",
+      "example_sentence": "この居酒屋の料理は手作りっぽい素朴な味がする。",
+      "translation": "The food at this izakaya has a somewhat homemade, down-to-earth taste.",
       "blank_target": "っぽい",
       "wrong_choices": [
         "な",
@@ -99,19 +99,19 @@
         "気味"
       ],
       "wrong_choice_explanations": [
-        "な is used to make 家庭的 into an adjective (家庭的な), but this creates a more definitive statement rather than the tentative, subjective impression that っぽい expresses.",
-        "らしい means 'seems like/typical of' but indicates hearsay or expected characteristics, not the personal, subjective taste impression that っぽい conveys.",
-        "気味 means 'somewhat/slightly' but is typically used with negative states or conditions, not for describing positive qualities like home-cooking taste."
+        "な doesn't fit because 手作り is a noun, not a na-adjective, so 手作りな is ungrammatical; modifying a noun would require 手作りの, and to convey 'somewhat resembling' you need っぽい.",
+        "らしい would mean 'as you'd expect from homemade food', presenting the quality as a characteristic match, but っぽい is wanted here for the looser, more subjective 'feels homemade' impression.",
+        "気味 attaches to states with a slightly negative drift (風邪気味, 太り気味) and doesn't pair with a noun like 手作り or convey a positive taste impression."
       ],
-      "hiragana_full": "このみせのりょうりはかていてきっぽいあじがする",
+      "hiragana_full": "このいざかやのりょうりはてづくりっぽいそぼくなあじがする。",
       "audio_alternatives": [
         {
-          "kanji": "この店の料理は家庭的な味がする。",
-          "hiragana_full": "このみせのりょうりはかていてきなあじがする"
+          "kanji": "この居酒屋の料理はどこか手作りっぽい素朴な味がする。",
+          "hiragana_full": "このいざかやのりょうりはどこかてづくりっぽいそぼくなあじがする。"
         },
         {
-          "kanji": "この店の食べ物は家庭料理っぽい味がする。",
-          "hiragana_full": "このみせのたべものはかていりょうりっぽいあじがする"
+          "kanji": "この居酒屋の料理は手作りっぽくて素朴な味だ。",
+          "hiragana_full": "このいざかやのりょうりはてづくりっぽくてそぼくなあじだ。"
         }
       ],
       "audio_eligible": true

@@ -1,6 +1,6 @@
 {
   "id": "n4_107",
-  "pattern": "～直す",
+  "pattern": "〜直す",
   "meaning": "Redo ~ / fix by doing again",
   "level": "N4",
   "exercises": [
@@ -39,13 +39,13 @@
       "blank_target": "直し",
       "wrong_choices": [
         "間違え",
-        "正しく",
-        "簡単"
+        "終わり",
+        "始め"
       ],
       "wrong_choice_explanations": [
-        "間違え means 'make a mistake' — it indicates making an error rather than fixing by redoing.",
-        "正しく means 'correctly' — it's an adverb describing manner, not an auxiliary verb for redoing.",
-        "簡単 means 'simple/easy' — it's an adjective describing difficulty, not expressing redoing."
+        "計算し間違える means 'calculate wrongly' — describes making the error, while the sentence describes the corrective recalculation that follows.",
+        "計算し終わる means 'finish calculating' — marks the completion of the first attempt, not the redo that fixes it.",
+        "計算し始める means 'start calculating' — points to the beginning of the original effort, not to doing it over."
       ],
       "hiragana_full": "けいさんをしなおした",
       "audio_alternatives": [
@@ -63,7 +63,7 @@
     {
       "id": "n4_107_3",
       "example_sentence": "服を着直しました。",
-      "translation": "I changed clothes / put clothes back on properly.",
+      "translation": "I put my clothes back on properly.",
       "blank_target": "直し",
       "wrong_choices": [
         "替え",

@@ -15,9 +15,9 @@
         "を"
       ],
       "wrong_choice_explanations": [
-        "で is a particle indicating location or method — it doesn't connect verbs to permission expressions.",
-        "に is a particle for direction or time — it cannot link verbs to もいいですか.",
-        "を is the direct object particle — it doesn't form the て-form needed for permission requests."
+        "で is the te-form connector, but only for verbs ending in ぬ・ぶ・む・ぐ (読んで, 泳いで); 座る forms its te-form as 座って with て, so で doesn't fit here.",
+        "に is a particle for direction or time and does not form the te-form needed to attach もいいですか.",
+        "を is the direct-object particle and does not form the te-form required for a permission request."
       ],
       "hiragana_full": "ここにすわってもいいですか。",
       "audio_alternatives": [
@@ -47,15 +47,15 @@
         "ない is the negative form — it would make the sentence grammatically incorrect here.",
         "ます is the polite present form — it cannot connect directly to もいいですか."
       ],
-      "hiragana_full": "しゃしんをとってもいいですか",
+      "hiragana_full": "しゃしんをとってもいいですか。",
       "audio_alternatives": [
         {
           "kanji": "写真を撮っていいですか。",
-          "hiragana_full": "しゃしんをとっていいですか"
+          "hiragana_full": "しゃしんをとっていいですか。"
         },
         {
           "kanji": "写真を撮ってもかまいませんか。",
-          "hiragana_full": "しゃしんをとってもかまいませんか"
+          "hiragana_full": "しゃしんをとってもかまいませんか。"
         }
       ],
       "audio_eligible": true
@@ -75,15 +75,15 @@
         "と means 'when' or 'if' in conditionals — it's not used for asking permission.",
         "から means 'because' or 'from' — it cannot connect verbs to permission expressions."
       ],
-      "hiragana_full": "まどをあけてもいいですか",
+      "hiragana_full": "まどをあけてもいいですか。",
       "audio_alternatives": [
         {
           "kanji": "窓を開けていいですか。",
-          "hiragana_full": "まどをあけていいですか"
+          "hiragana_full": "まどをあけていいですか。"
         },
         {
           "kanji": "窓を開けてもかまいませんか。",
-          "hiragana_full": "まどをあけてもかまいませんか"
+          "hiragana_full": "まどをあけてもかまいませんか。"
         }
       ],
       "audio_eligible": true
@@ -131,15 +131,15 @@
         "ながら means 'while doing' — it expresses simultaneous actions, not permission requests.",
         "まで means 'until' — it indicates time limits, not permission."
       ],
-      "hiragana_full": "しつもんしてもいいですか",
+      "hiragana_full": "しつもんしてもいいですか。",
       "audio_alternatives": [
         {
           "kanji": "聞いてもいいですか。",
-          "hiragana_full": "きいてもいいですか"
+          "hiragana_full": "きいてもいいですか。"
         },
         {
           "kanji": "質問してもいいですか？",
-          "hiragana_full": "しつもんしてもいいですか"
+          "hiragana_full": "しつもんしてもいいですか？"
         }
       ],
       "audio_eligible": true
@@ -159,15 +159,15 @@
         "しか means 'only' (with negative) — it doesn't form the connection needed for permission requests.",
         "ほど means 'to the extent of' — it cannot link verbs to permission expressions."
       ],
-      "hiragana_full": "おてあらいにいってもいいですか",
+      "hiragana_full": "おてあらいにいってもいいですか。",
       "audio_alternatives": [
         {
           "kanji": "トイレに行ってもいいですか。",
-          "hiragana_full": "トイレにいってもいいですか"
+          "hiragana_full": "トイレにいってもいいですか。"
         },
         {
           "kanji": "トイレに行っていいですか。",
-          "hiragana_full": "トイレにいっていいですか"
+          "hiragana_full": "トイレにいっていいですか。"
         }
       ],
       "audio_eligible": true
@@ -187,15 +187,15 @@
         "そう indicates hearsay or appearance — it cannot form permission expressions with もいいですか.",
         "みたい means 'seems like' — it expresses similarity, not permission requests."
       ],
-      "hiragana_full": "はやくたべてもいいですか",
+      "hiragana_full": "はやくたべてもいいですか。",
       "audio_alternatives": [
         {
           "kanji": "早く食べていいですか。",
-          "hiragana_full": "はやくたべていいですか"
+          "hiragana_full": "はやくたべていいですか。"
         },
         {
           "kanji": "早く食べてもかまいませんか。",
-          "hiragana_full": "はやくたべてもかまいませんか"
+          "hiragana_full": "はやくたべてもかまいませんか。"
         }
       ],
       "audio_eligible": true
@@ -215,15 +215,15 @@
         "た is the past tense form — it doesn't work with もいいですか for permission requests.",
         "ます is the polite present form — it cannot connect directly to もいいですか."
       ],
-      "hiragana_full": "ぺんをかりてもいいですか",
+      "hiragana_full": "ぺんをかりてもいいですか。",
       "audio_alternatives": [
         {
           "kanji": "ペンを貸してもらえますか。",
-          "hiragana_full": "ぺんをかしてもらえますか"
+          "hiragana_full": "ぺんをかしてもらえますか。"
         },
         {
           "kanji": "ペンを使ってもいいですか。",
-          "hiragana_full": "ぺんをつかってもいいですか"
+          "hiragana_full": "ぺんをつかってもいいですか。"
         }
       ],
       "audio_eligible": true
@@ -234,24 +234,24 @@
       "translation": "Is it okay to wait here?",
       "blank_target": "て",
       "wrong_choices": [
-        "い",
-        "う",
-        "つ"
+        "で",
+        "た",
+        "ば"
       ],
       "wrong_choice_explanations": [
-        "い is not a valid verb connector — it doesn't form the て-form needed for permission requests.",
-        "う is not a valid verb connector — it cannot link verbs to もいいですか.",
-        "つ is not a valid verb connector — it doesn't create the proper form for permission expressions."
+        "で is the te-form connector only for verbs ending in ぬ・ぶ・む・ぐ; 待つ forms its te-form as 待って with て, so で doesn't fit.",
+        "た is the plain past-tense ending; 待った means 'waited,' which doesn't combine with もいいですか to ask permission.",
+        "ば makes a conditional ('if ...') and does not form the te-form that もいいですか attaches to."
       ],
-      "hiragana_full": "ここでまってもいいですか",
+      "hiragana_full": "ここでまってもいいですか。",
       "audio_alternatives": [
         {
           "kanji": "ここで待っていいですか。",
-          "hiragana_full": "ここでまっていいですか"
+          "hiragana_full": "ここでまっていいですか。"
         },
         {
           "kanji": "ここで待ってもかまいませんか。",
-          "hiragana_full": "ここでまってもかまいませんか"
+          "hiragana_full": "ここでまってもかまいませんか。"
         }
       ],
       "audio_eligible": true
@@ -271,15 +271,15 @@
         "ても means 'even if' — while it contains て, it changes the meaning to concessive rather than permission.",
         "では is a topic particle or conditional — it cannot connect verbs to いいですか for permission."
       ],
-      "hiragana_full": "もういちどいってもいいですか",
+      "hiragana_full": "もういちどいってもいいですか。",
       "audio_alternatives": [
         {
-          "kanji": "もう一度言ってもいいですか。",
-          "hiragana_full": "もういちどいってもいいですか"
+          "kanji": "もう一度言っていいですか。",
+          "hiragana_full": "もういちどいっていいですか。"
         },
         {
-          "kanji": "もう一度言ってもいいですか。",
-          "hiragana_full": "もういちどいってもいいですか"
+          "kanji": "もう一度言ってもかまいませんか。",
+          "hiragana_full": "もういちどいってもかまいませんか。"
         }
       ],
       "audio_eligible": true

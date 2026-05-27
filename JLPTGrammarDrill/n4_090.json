@@ -6,8 +6,8 @@
   "exercises": [
     {
       "id": "n4_090_1",
-      "example_sentence": "この経験をとおして、多くのことを学んだ。",
-      "translation": "Through this experience, I learned many things.",
+      "example_sentence": "この経験をとおして、たくさんのことが学べた。",
+      "translation": "Through this experience, I was able to learn a lot.",
       "blank_target": "を",
       "wrong_choices": [
         "に",
@@ -15,11 +15,11 @@
         "から"
       ],
       "wrong_choice_explanations": [
-        "に indicates direction or time — it doesn't form the をとおして pattern needed to express 'through an experience'.",
-        "で indicates means or location — while it can show method, it doesn't fit the をとおして pattern structure.",
-        "から means 'from' — it shows starting point, not the continuous medium expressed by をとおして."
+        "に marks a destination or a point in time; it never combines with とおして, and 経験にとおして is not a possible form — 〜をとおして always takes を.",
+        "で would mark the experience as a plain means ('by this experience'), which exists only as 経験で on its own; でとおして is ungrammatical, so the set phrase needs を.",
+        "から means 'from' and marks a starting point; 経験からとおして is not valid, because 〜をとおして ('through, by way of') is fixed with を, not から."
       ],
-      "hiragana_full": "このけいけんをとおして、おおくのことをまなんだ。",
+      "hiragana_full": "このけいけんをとおして、たくさんのことがまなべた。",
       "audio_alternatives": [
         {
           "kanji": "この経験を通じて、多くのことを学んだ。",
@@ -34,8 +34,8 @@
     },
     {
       "id": "n4_090_2",
-      "example_sentence": "友人をとおして、その情報を知りました。",
-      "translation": "I learned that information through a friend.",
+      "example_sentence": "友人をとおして、その情報が手に入りました。",
+      "translation": "I obtained that information through a friend.",
       "blank_target": "を",
       "wrong_choices": [
         "に",
@@ -43,11 +43,11 @@
         "の"
       ],
       "wrong_choice_explanations": [
-        "に indicates direction — it doesn't form the をとおして pattern needed to express getting information through someone.",
-        "で indicates means — while it can show method, it doesn't fit the をとおして pattern for intermediary persons.",
-        "の would make it possessive — it doesn't form the をとおして pattern needed here."
+        "に marks a target or recipient; here you need the intermediary pattern 友人をとおして ('through a friend'), and 友人にとおして does not exist.",
+        "で would treat the friend as a mere tool ('by means of a friend'), which sounds wrong for a person, and でとおして is not a real form; the intermediary sense requires をとおして.",
+        "の is the possessive/linking particle ('a friend's'); 友人のとおして is meaningless, since 〜をとおして needs を to mark what you go through."
       ],
-      "hiragana_full": "ゆうじんをとおして、そのじょうほうをしりました。",
+      "hiragana_full": "ゆうじんをとおして、そのじょうほうがてにはいりました。",
       "audio_alternatives": [
         {
           "kanji": "友人を通じて、その情報を知りました。",
@@ -71,9 +71,9 @@
         "の"
       ],
       "wrong_choice_explanations": [
-        "に would indicate a point in time — it doesn't form the をとおして pattern needed for duration throughout a period.",
-        "で could indicate time period in some contexts — but it doesn't fit the をとおして pattern structure.",
-        "の would make it possessive — it doesn't form the をとおして pattern needed for temporal duration."
+        "に points to a single moment ('at one year'); the sentence means 'throughout the whole year,' which is 一年をとおして — に cannot express that span.",
+        "で can mark a frame in which something is completed ('within a year'), but でとおして is not valid; continuous duration across the period uses をとおして.",
+        "の merely links nouns ('of a year'); 一年のとおして is not a pattern — 'throughout the year' requires 一年をとおして."
       ],
       "hiragana_full": "いちねんをとおして、さくらがさいているちいきもある。",
       "audio_alternatives": [
@@ -99,9 +99,9 @@
         "から"
       ],
       "wrong_choice_explanations": [
-        "で indicates means — while internet is a means of communication, it doesn't fit the をとおして pattern structure.",
-        "に indicates direction — it doesn't form the をとおして pattern needed to express communication medium.",
-        "から means 'from' — it shows source, not the communication medium expressed by をとおして."
+        "で would mark the internet as a plain means ('on the internet'), which works alone as インターネットで but not with とおして; the 'by way of' sense here is をとおして.",
+        "に marks a destination or a location of existence; インターネットにとおして is impossible, and the medium pattern is をとおして.",
+        "から means 'from' a source; the internet here is the channel you communicate through, not where things come from, so をとおして is needed, not から."
       ],
       "hiragana_full": "インターネットをとおして、せかいじゅうのひととはなせる。",
       "audio_alternatives": [
@@ -127,9 +127,9 @@
         "の"
       ],
       "wrong_choice_explanations": [
-        "で indicates means — while reading is a means of learning, it doesn't fit the をとおして pattern structure.",
-        "に could indicate purpose — but it doesn't form the をとおして pattern needed for continuous process.",
-        "の would make it possessive — it doesn't form the をとおして pattern needed here."
+        "で would mark reading as a simple means ('by reading'), fine as 読書で alone, but でとおして is ungrammatical; the 'through the process of' sense uses をとおして.",
+        "に would suggest a purpose or target; it cannot attach to とおして, and 読書にとおして is not a form — the activity-medium pattern is をとおして.",
+        "の only links nouns possessively; 読書のとおして has no meaning, whereas 読書をとおして means 'through reading.'"
       ],
       "hiragana_full": "どくしょをとおして、ごいりょくがこうじょうした。",
       "audio_alternatives": [
@@ -146,7 +146,7 @@
     },
     {
       "id": "n4_090_6",
-      "example_sentence": "旅行をとおして、異文化を理解できた。",
+      "example_sentence": "旅行をとおして、異文化が理解できた。",
       "translation": "Through travel, I was able to understand different cultures.",
       "blank_target": "を",
       "wrong_choices": [
@@ -155,11 +155,11 @@
         "から"
       ],
       "wrong_choice_explanations": [
-        "で indicates means or location — while travel is a means of learning, it doesn't fit the をとおして pattern structure.",
-        "に could indicate purpose — but it doesn't form the をとおして pattern needed for experiential process.",
-        "から means 'from' — it shows starting point, not the continuous experience expressed by をとおして."
+        "で would mark travel as a plain means ('by traveling'), usable as 旅行で but not with とおして; the experiential 'through' sense is をとおして.",
+        "に marks a destination or a time, not a medium; 旅行にとおして is impossible, so をとおして is required.",
+        "から means 'from' a starting point; travel is the experience you gain understanding through, not a source, so the pattern is 旅行をとおして, not から."
       ],
-      "hiragana_full": "りょこうをとおして、いぶんかをりかいできた。",
+      "hiragana_full": "りょこうをとおして、いぶんかがりかいできた。",
       "audio_alternatives": [
         {
           "kanji": "旅行を通じて、異文化を理解できた。",
@@ -174,7 +174,7 @@
     },
     {
       "id": "n4_090_7",
-      "example_sentence": "練習をとおして、技術を身につけた。",
+      "example_sentence": "練習をとおして、技術が身についた。",
       "translation": "Through practice, I acquired skills.",
       "blank_target": "を",
       "wrong_choices": [
@@ -183,11 +183,11 @@
         "の"
       ],
       "wrong_choice_explanations": [
-        "で indicates means — while practice is a means of improvement, it doesn't fit the をとおして pattern structure.",
-        "に could indicate purpose — but it doesn't form the をとおして pattern needed for continuous development process.",
-        "の would make it possessive — it doesn't form the をとおして pattern needed here."
+        "で would mark practice as a simple means ('by practicing'), fine as 練習で but not before とおして; the continuous 'through' sense needs をとおして.",
+        "に would mark a purpose or target and cannot combine with とおして; 練習にとおして is not a valid form.",
+        "の only links nouns; 練習のとおして is meaningless, while 練習をとおして means 'through practice.'"
       ],
-      "hiragana_full": "れんしゅうをとおして、ぎじゅつをみにつけた。",
+      "hiragana_full": "れんしゅうをとおして、ぎじゅつがみについた。",
       "audio_alternatives": [
         {
           "kanji": "練習によって、技術を身につけた。",
@@ -211,9 +211,9 @@
         "の"
       ],
       "wrong_choice_explanations": [
-        "に indicates a point in time — it doesn't form the をとおして pattern needed for duration throughout a season.",
-        "で can indicate time period — but it doesn't fit the をとおして pattern for continuous temporal duration.",
-        "の would make it possessive — it doesn't form the をとおして pattern needed for temporal duration."
+        "に marks one point in time ('in summer'); the sentence means 'all summer long,' which is 夏をとおして — に cannot show that continuous span.",
+        "で can mark a deadline or frame ('by summer'), but でとおして is not valid; 'throughout the season' uses をとおして.",
+        "の just links nouns ('of summer'); 夏のとおして is not a pattern, so 'throughout the summer' requires 夏をとおして."
       ],
       "hiragana_full": "なつをとおして、まいにちおよいでいた。",
       "audio_alternatives": [
@@ -230,8 +230,8 @@
     },
     {
       "id": "n4_090_9",
-      "example_sentence": "スポーツをとおして、友情を深めた。",
-      "translation": "Through sports, I deepened friendships.",
+      "example_sentence": "スポーツをとおして、友情が深まった。",
+      "translation": "Through sports, our friendship deepened.",
       "blank_target": "を",
       "wrong_choices": [
         "で",
@@ -239,11 +239,11 @@
         "から"
       ],
       "wrong_choice_explanations": [
-        "で indicates means or location — while sports is a means of bonding, it doesn't fit the をとおして pattern structure.",
-        "に could indicate purpose — but it doesn't form the をとおして pattern needed for experiential medium.",
-        "から means 'from' — it shows starting point, not the continuous activity medium expressed by をとおして."
+        "で would mark sports as a plain means ('with sports'), usable alone as スポーツで but not with とおして; the bonding-through sense is をとおして.",
+        "に marks a target or a location, not a medium; スポーツにとおして is impossible, so をとおして is needed.",
+        "から means 'from' a source; sports is the shared activity you bond through, not a starting point, so the pattern is スポーツをとおして, not から."
       ],
-      "hiragana_full": "スポーツをとおして、ゆうじょうをふかめた。",
+      "hiragana_full": "スポーツをとおして、ゆうじょうがふかまった。",
       "audio_alternatives": [
         {
           "kanji": "スポーツを通じて、友情を深めた。",
@@ -258,8 +258,8 @@
     },
     {
       "id": "n4_090_10",
-      "example_sentence": "テレビをとおして、ニュースを見ています。",
-      "translation": "I watch the news through television.",
+      "example_sentence": "テレビをとおして、世界のニュースがよく分かります。",
+      "translation": "Through television, I understand world news well.",
       "blank_target": "を",
       "wrong_choices": [
         "で",
@@ -267,19 +267,19 @@
         "から"
       ],
       "wrong_choice_explanations": [
-        "で indicates means or location — while TV is a means of viewing, it doesn't fit the をとおして pattern structure.",
-        "に indicates direction — it doesn't form the をとおして pattern needed to express viewing medium.",
-        "から means 'from' — it shows source, not the viewing medium expressed by をとおして."
+        "で would mark TV as a simple means ('on TV'), fine as テレビで but not with とおして; 'by way of television' is テレビをとおして.",
+        "に marks a destination or a location, not a channel; テレビにとおして is impossible, so the medium pattern is をとおして.",
+        "から means 'from' a source; television is the medium the news reaches you through, not where it originates, so をとおして is required, not から."
       ],
-      "hiragana_full": "テレビをとおして、ニュースをみています。",
+      "hiragana_full": "テレビをとおして、せかいのニュースがよくわかります。",
       "audio_alternatives": [
         {
-          "kanji": "テレビでニュースを見ています。",
-          "hiragana_full": "テレビでニュースをみています。"
+          "kanji": "テレビを通じて、世界のニュースがよく分かります。",
+          "hiragana_full": "テレビをつうじて、せかいのニュースがよくわかります。"
         },
         {
-          "kanji": "テレビによってニュースを見ています。",
-          "hiragana_full": "テレビによってニュースをみています。"
+          "kanji": "テレビで、世界のニュースがよく分かります。",
+          "hiragana_full": "テレビで、せかいのニュースがよくわかります。"
         }
       ],
       "audio_eligible": true
