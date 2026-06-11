@@ -1,0 +1,188 @@
+{
+  "id": "n4_140",
+  "pattern": "なさる",
+  "meaning": "to do (honorific form of する)",
+  "level": "N4",
+  "exercises": [
+    {
+      "id": "n4_140_1",
+      "example_sentence": "ご注文は何になさいますか。",
+      "translation": "What would you like to order?",
+      "blank_target": "なさいます",
+      "wrong_choices": ["いたします", "申します", "拝見します"],
+      "wrong_choice_explanations": [
+        "いたします is the humble form of する, used to lower the speaker's own actions; ordering is the customer's action, so the honorific なさいます is needed to show respect.",
+        "申します is the humble form of 言う ('to say'); besides pointing respect the wrong way, the question asks what the customer will choose, not what they will say.",
+        "拝見します is the humble form of 見る ('to look at'); it would humble the customer and changes the meaning to looking, which doesn't fit deciding ご注文."
+      ],
+      "hiragana_full": "ごちゅうもんはなにになさいますか。",
+      "audio_alternatives": [
+        { "kanji": "お飲み物は何になさいますか。", "hiragana_full": "おのみものはなにになさいますか。" },
+        { "kanji": "ご注文はお決まりですか。", "hiragana_full": "ごちゅうもんはおきまりですか。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_140_2",
+      "example_sentence": "山田先生は週末によくテニスをなさるそうです。",
+      "translation": "I hear Professor Yamada often plays tennis on weekends.",
+      "blank_target": "なさる",
+      "wrong_choices": ["いたす", "めしあがる", "くださる"],
+      "wrong_choice_explanations": [
+        "いたす is humble and describes the speaker's own actions; using it for 先生's tennis would lower the teacher instead of honoring them.",
+        "めしあがる is the honorific for 食べる/飲む; it shows respect but means 'to eat or drink,' which doesn't work with テニスを.",
+        "くださる is the honorific for くれる ('to give'); テニスをくださる would mean the teacher gives tennis to someone, not that they play it."
+      ],
+      "hiragana_full": "やまだせんせいはしゅうまつによくてにすをなさるそうです。",
+      "audio_alternatives": [
+        { "kanji": "山田先生は休みの日にテニスをなさいます。", "hiragana_full": "やまだせんせいはやすみのひにてにすをなさいます。" },
+        { "kanji": "山田先生の週末の趣味はテニスだそうです。", "hiragana_full": "やまだせんせいのしゅうまつのしゅみはてにすだそうです。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_140_3",
+      "example_sentence": "社長は明日、大阪へ出張なさいます。",
+      "translation": "The president is going on a business trip to Osaka tomorrow.",
+      "blank_target": "なさいます",
+      "wrong_choices": ["いたします", "参ります", "やります"],
+      "wrong_choice_explanations": [
+        "いたします is the humble する, right when the speaker reports their own trip; the subject is 社長, who must be elevated with なさいます.",
+        "参ります is the humble form of 行く ('to go'); used of 社長 it would humble the president's movement instead of showing respect.",
+        "やります is plain, casual 'do' with no respect built in; describing 社長's trip in polite speech calls for the honorific なさいます."
+      ],
+      "hiragana_full": "しゃちょうはあした、おおさかへしゅっちょうなさいます。",
+      "audio_alternatives": [
+        { "kanji": "社長は明日、大阪へご出張なさる予定です。", "hiragana_full": "しゃちょうはあした、おおさかへごしゅっちょうなさるよていです。" },
+        { "kanji": "明日、社長は大阪に出張されます。", "hiragana_full": "あした、しゃちょうはおおさかにしゅっちょうされます。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_140_4",
+      "example_sentence": "お客様はもうお帰りの準備をなさいました。",
+      "translation": "The guest has already gotten ready to leave.",
+      "blank_target": "なさいました",
+      "wrong_choices": ["いたしました", "拝見しました", "さしあげました"],
+      "wrong_choice_explanations": [
+        "いたしました humbles the actor, so it can only describe the speaker's side; the actor here is お客様, who should be honored with なさいました.",
+        "拝見しました means '(I) humbly looked at'; the sentence is about preparations being made, not about looking, and it humbles the guest.",
+        "さしあげました is humble 'gave (to a superior)'; 準備をさしあげました would mean handing the preparations to someone, which makes no sense here."
+      ],
+      "hiragana_full": "おきゃくさまはもうおかえりのじゅんびをなさいました。",
+      "audio_alternatives": [
+        { "kanji": "お客様はもう帰る準備をなさったようです。", "hiragana_full": "おきゃくさまはもうかえるじゅんびをなさったようです。" },
+        { "kanji": "お客様はもう帰る用意ができたようです。", "hiragana_full": "おきゃくさまはもうかえるよういができたようです。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_140_5",
+      "example_sentence": "部長は毎朝ジョギングをなさっています。",
+      "translation": "The department head goes jogging every morning.",
+      "blank_target": "なさっています",
+      "wrong_choices": ["しております", "おっしゃっています", "いたしています"],
+      "wrong_choice_explanations": [
+        "しております is the humble continuous form, used for the speaker's own ongoing actions; the subject is 部長, so the honorific なさっています is needed.",
+        "おっしゃっています is the honorific of 言う and means 'is saying'; it shows respect but has the wrong meaning for doing ジョギング.",
+        "いたしています uses the humble いたす in progressive form; like しております it lowers the actor, which is wrong for a superior's habit."
+      ],
+      "hiragana_full": "ぶちょうはまいあさじょぎんぐをなさっています。",
+      "audio_alternatives": [
+        { "kanji": "部長は朝、いつもジョギングをなさるそうです。", "hiragana_full": "ぶちょうはあさ、いつもじょぎんぐをなさるそうです。" },
+        { "kanji": "部長は毎朝、走るのが習慣です。", "hiragana_full": "ぶちょうはまいあさ、はしるのがしゅうかんです。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_140_6",
+      "example_sentence": "体調が悪いときは、無理をなさらないでください。",
+      "translation": "Please don't push yourself when you're not feeling well.",
+      "blank_target": "なさらない",
+      "wrong_choices": ["いたさない", "めしあがらない", "申し上げない"],
+      "wrong_choice_explanations": [
+        "いたさない is the humble negative of する; a humble form cannot be used for the listener's actions when politely asking them to take care of themselves.",
+        "めしあがらない is the negative honorific of 'eat/drink'; it is respectful but means not eating, which doesn't combine with 無理を.",
+        "申し上げない is the humble negative of 'say (to a superior)'; it would be about not saying something and humbles the wrong person, while the request concerns the listener overexerting themselves."
+      ],
+      "hiragana_full": "たいちょうがわるいときは、むりをなさらないでください。",
+      "audio_alternatives": [
+        { "kanji": "お体に悪いですから、無理をなさらないでくださいね。", "hiragana_full": "おからだにわるいですから、むりをなさらないでくださいね。" },
+        { "kanji": "体調が悪いなら、ゆっくり休んでください。", "hiragana_full": "たいちょうがわるいなら、ゆっくりやすんでください。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_140_7",
+      "example_sentence": "来週の会議で、どなたが司会をなさいますか。",
+      "translation": "Who will chair next week's meeting?",
+      "blank_target": "なさいます",
+      "wrong_choices": ["いたします", "やります", "拝見します"],
+      "wrong_choice_explanations": [
+        "いたします humbles the actor; どなた refers respectfully to people whose action should be raised with なさいます, not lowered.",
+        "やります is casual and carries no respect; it clashes with the polite どなた in a question about esteemed colleagues.",
+        "拝見します is humble 'look at'; chairing is 'doing' 司会, and the humble form also points respect in the wrong direction."
+      ],
+      "hiragana_full": "らいしゅうのかいぎで、どなたがしかいをなさいますか。",
+      "audio_alternatives": [
+        { "kanji": "次の会議の司会はどなたがなさいますか。", "hiragana_full": "つぎのかいぎのしかいはどなたがなさいますか。" },
+        { "kanji": "来週の会議では、誰が司会をしますか。", "hiragana_full": "らいしゅうのかいぎでは、だれがしかいをしますか。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_140_8",
+      "example_sentence": "田中先生は若いころ、アメリカに留学なさったと聞きました。",
+      "translation": "I heard that Professor Tanaka studied abroad in America when she was young.",
+      "blank_target": "なさった",
+      "wrong_choices": ["いたした", "申した", "拝見した"],
+      "wrong_choice_explanations": [
+        "いたした is the humble past of する; the teacher's study abroad should be honored with なさった, not humbled.",
+        "申した is the humble past of 言う; the sentence reports what the teacher did, not said, and 申す lowers the speaker's side rather than honoring a teacher.",
+        "拝見した is the humble past of 見る; 留学 is not something you 'look at,' and the humble form disrespects the teacher."
+      ],
+      "hiragana_full": "たなかせんせいはわかいころ、あめりかにりゅうがくなさったとききました。",
+      "audio_alternatives": [
+        { "kanji": "田中先生は若いとき、アメリカで勉強なさったそうです。", "hiragana_full": "たなかせんせいはわかいとき、あめりかでべんきょうなさったそうです。" },
+        { "kanji": "田中先生は昔、アメリカに留学していたと聞きました。", "hiragana_full": "たなかせんせいはむかし、あめりかにりゅうがくしていたとききました。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_140_9",
+      "example_sentence": "校長先生が卒業式でスピーチをなさいました。",
+      "translation": "The principal gave a speech at the graduation ceremony.",
+      "blank_target": "なさいました",
+      "wrong_choices": ["いたしました", "申し上げました", "うかがいました"],
+      "wrong_choice_explanations": [
+        "いたしました is humble and would lower the principal; the principal's speech must be described with the honorific なさいました.",
+        "申し上げました is humble 'said (to a superior)'; it directs respect away from the 校長先生, the very person being honored.",
+        "うかがいました is humble 'asked / visited / heard'; it has the wrong meaning for giving a speech and humbles the wrong person."
+      ],
+      "hiragana_full": "こうちょうせんせいがそつぎょうしきですぴーちをなさいました。",
+      "audio_alternatives": [
+        { "kanji": "卒業式では、校長先生がスピーチをなさいました。", "hiragana_full": "そつぎょうしきでは、こうちょうせんせいがすぴーちをなさいました。" },
+        { "kanji": "校長先生が卒業式で話をしました。", "hiragana_full": "こうちょうせんせいがそつぎょうしきではなしをしました。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_140_10",
+      "example_sentence": "どうぞ、ごゆっくりなさってください。",
+      "translation": "Please make yourself at home and take your time.",
+      "blank_target": "なさって",
+      "wrong_choices": ["いたして", "拝見して", "参って"],
+      "wrong_choice_explanations": [
+        "いたして is the humble te-form of する; an invitation to a guest must honor their action, which なさって does.",
+        "拝見して is humble 'look at'; nothing is being shown to the guest to view, and the humble form would lower the guest instead of welcoming them.",
+        "参って is the humble te-form of 行く/来る; ごゆっくり参ってください mixes a self-humbling verb into a request meant to elevate the listener."
+      ],
+      "hiragana_full": "どうぞ、ごゆっくりなさってください。",
+      "audio_alternatives": [
+        { "kanji": "どうぞ、ゆっくりしていってください。", "hiragana_full": "どうぞ、ゆっくりしていってください。" },
+        { "kanji": "時間を気になさらないで、ごゆっくりどうぞ。", "hiragana_full": "じかんをきになさらないで、ごゆっくりどうぞ。" }
+      ],
+      "audio_eligible": true
+    }
+  ]
+}

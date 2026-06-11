@@ -9,7 +9,7 @@ struct SessionStats {
 
 struct SessionBuilder {
     static let defaultNewCountKey = "defaultNewPatterns"
-    static let defaultNewCount = 1
+    static let defaultNewCount = 5
 
     /// Returns the set of JLPT levels the user has enabled in Settings.
     static var enabledLevels: Set<String> {

@@ -1,0 +1,188 @@
+{
+  "id": "n4_127",
+  "pattern": "〜たらいい(ですか)",
+  "meaning": "asks 'what/how/where/etc. should I do?' — uses a question word + verb-たら + いい(ですか) to seek instruction or advice",
+  "level": "N4",
+  "exercises": [
+    {
+      "id": "n4_127_1",
+      "example_sentence": "すみません、駅まではどう行ったらいいですか。",
+      "translation": "Excuse me, how should I get to the station?",
+      "blank_target": "たらいいですか",
+      "wrong_choices": ["たほうがいいですか", "べきですか", "たがっていますか"],
+      "wrong_choice_explanations": [
+        "たほうがいいですか asks for a comparative recommendation ('is it better to go?'); but the speaker doesn't know the route at all and is asking for instruction, not weighing options, so たらいいですか is the natural seek-advice form.",
+        "べきですか carries an obligation/moral 'should I'; asking a stranger '駅までどう行くべきですか' sounds overly formal and ethical for a simple direction question — たらいいですか is the standard polite request for guidance.",
+        "たがっていますか would ask whether someone WANTS to go ('does X want to go?'); the speaker is asking about their own next action, not someone else's desire."
+      ],
+      "hiragana_full": "すみません、えきまではどういったらいいですか。",
+      "audio_alternatives": [
+        { "kanji": "あの、駅へはどうやって行ったらいいですか。", "hiragana_full": "あの、えきへはどうやっていったらいいですか。" },
+        { "kanji": "駅までの行き方を教えていただけますか。", "hiragana_full": "えきまでのいきかたをおしえていただけますか。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_127_2",
+      "example_sentence": "この漢字、どう書いたらいいですか。",
+      "translation": "How should I write this kanji?",
+      "blank_target": "たらいいですか",
+      "wrong_choices": ["たほうがいいですか", "てもいいですか", "たいですか"],
+      "wrong_choice_explanations": [
+        "たほうがいいですか asks for a recommendation between options ('would it be better to write it [some way]'); the speaker has no idea how to write it at all and is asking for instruction, where たらいいですか fits.",
+        "てもいいですか asks PERMISSION ('may I write it'); the speaker isn't seeking permission, they're seeking the correct method.",
+        "たいですか asks 'do YOU want to write it', flipping the subject to the listener; the speaker is asking what they themselves should do."
+      ],
+      "hiragana_full": "このかんじ、どうかいたらいいですか。",
+      "audio_alternatives": [
+        { "kanji": "この漢字の書き方を教えてもらえますか。", "hiragana_full": "このかんじのかきかたをおしえてもらえますか。" },
+        { "kanji": "この字、どうやって書けばいいですか。", "hiragana_full": "このじ、どうやってかけばいいですか。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_127_3",
+      "example_sentence": "パソコンの調子が悪い。どこに持って行ったらいいかな。",
+      "translation": "My computer isn't working right. Where should I take it, I wonder.",
+      "blank_target": "たらいい",
+      "wrong_choices": ["たほうがいい", "ようとする", "ばよかった"],
+      "wrong_choice_explanations": [
+        "たほうがいい would assert a recommendation ('it's better to take it [there]'); the speaker doesn't know any destination and is musing aloud about where to bring it, which calls for the seeking-advice form たらいい + かな.",
+        "ようとする means 'try to / be about to' (持って行こうとする); it doesn't form a 'what would be good' question.",
+        "ばよかった is past regret ('I should have taken it [there earlier]'); the speaker is deciding NOW where to go, not lamenting a past choice."
+      ],
+      "hiragana_full": "ぱそこんのちょうしがわるい。どこにもっていったらいいかな。",
+      "audio_alternatives": [
+        { "kanji": "パソコンが調子悪いから、どこの修理屋に持っていけばいいかな。", "hiragana_full": "ぱそこんがちょうしわるいから、どこのしゅうりやにもっていけばいいかな。" },
+        { "kanji": "このパソコン、修理にどこへ出したらいいか迷う。", "hiragana_full": "このぱそこん、しゅうりにどこへだしたらいいかまよう。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_127_4",
+      "example_sentence": "風邪のとき、何を食べたらいいですか。",
+      "translation": "What should I eat when I have a cold?",
+      "blank_target": "たらいいですか",
+      "wrong_choices": ["たほうがいいですか", "ているといいですか", "なくてはいけませんか"],
+      "wrong_choice_explanations": [
+        "たほうがいいですか asks 'is it better to eat [a specific thing]'; the speaker has no candidate in mind and is asking for guidance, where たらいいですか is the natural seek-advice form.",
+        "ているといいですか is a malformed/awkward construction here; 食べているといいですか would mean 'is it good if I am eating it', which doesn't ask for a recommendation on WHAT to eat.",
+        "なくてはいけませんか asks about obligation ('must I eat'); the speaker isn't being forced to eat — they're seeking dietary advice."
+      ],
+      "hiragana_full": "かぜのとき、なにをたべたらいいですか。",
+      "audio_alternatives": [
+        { "kanji": "風邪をひいたときは、どんな食べ物をとったらいいですか。", "hiragana_full": "かぜをひいたときは、どんなたべものをとったらいいですか。" },
+        { "kanji": "体調が悪いとき、おすすめの食事は何ですか。", "hiragana_full": "たいちょうがわるいとき、おすすめのしょくじはなんですか。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_127_5",
+      "example_sentence": "レポートはいつまでに出したらいいですか。",
+      "translation": "By when should I submit the report?",
+      "blank_target": "たらいいですか",
+      "wrong_choices": ["たほうがいいですか", "なければなりませんか", "ましょうか"],
+      "wrong_choice_explanations": [
+        "たほうがいいですか would seek a soft recommendation ('would it be better to turn it in [by some date]'); the speaker is asking the teacher/boss for the DEADLINE itself, which is a request for instruction — たらいいですか fits.",
+        "なければなりませんか asks about obligation ('do I have to submit it by [date]'); the speaker assumes there IS a deadline and is asking when it is, not whether one exists.",
+        "ましょうか is an offer/suggestion ('shall I submit it'); it shifts the modality from 'when should I' to 'how about I do it' and doesn't pair with the question word いつまでに for seeking a fixed time."
+      ],
+      "hiragana_full": "れぽーとはいつまでにだしたらいいですか。",
+      "audio_alternatives": [
+        { "kanji": "レポートの提出期限はいつまででしょうか。", "hiragana_full": "れぽーとのていしゅつきげんはいつまででしょうか。" },
+        { "kanji": "このレポート、いつまでに出せばいいですか。", "hiragana_full": "このれぽーと、いつまでにだせばいいですか。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_127_6",
+      "example_sentence": "田中先生に何とお礼を言ったらいいでしょう。",
+      "translation": "What should I say to thank Professor Tanaka?",
+      "blank_target": "たらいい",
+      "wrong_choices": ["たほうがいい", "ようと思う", "なくてはいけない"],
+      "wrong_choice_explanations": [
+        "たほうがいい would assert 'it's better to say [X]'; the speaker has no candidate wording and is musing about what would be appropriate, which is the seek-advice たらいい + でしょう.",
+        "ようと思う means 'I'm thinking of saying' (言おうと思う), expressing the speaker's intention; the sentence is asking for the right thing to say, not declaring a plan.",
+        "なくてはいけない is obligation ('I must say'); the speaker isn't asking what they're obligated to say but what would be a good thing to say."
+      ],
+      "hiragana_full": "たなかせんせいになんとおれいをいったらいいでしょう。",
+      "audio_alternatives": [
+        { "kanji": "田中先生にどんな言葉でお礼を伝えたらいいでしょうか。", "hiragana_full": "たなかせんせいにどんなことばでおれいをつたえたらいいでしょうか。" },
+        { "kanji": "先生への感謝の気持ちを、どう表せばいいかな。", "hiragana_full": "せんせいへのかんしゃのきもちを、どうあらわせばいいかな。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_127_7",
+      "example_sentence": "初めての面接で、どんな服を着て行ったらいいですか。",
+      "translation": "For my first job interview, what kind of clothes should I wear?",
+      "blank_target": "たらいいですか",
+      "wrong_choices": ["たほうがいいですか", "てもかまいませんか", "たいですか"],
+      "wrong_choice_explanations": [
+        "たほうがいいですか asks 'would it be better to wear [X]', usually with a candidate in mind; the speaker has no idea what's appropriate, so they're seeking general guidance — たらいいですか fits.",
+        "てもかまいませんか asks permission ('is it OK if I wear...'); the speaker isn't proposing one outfit and asking approval, but asking what dress code to follow.",
+        "たいですか asks 'do YOU want to wear', addressing the listener's desire; the speaker is asking about their own appropriate attire."
+      ],
+      "hiragana_full": "はじめてのめんせつで、どんなふくをきていったらいいですか。",
+      "audio_alternatives": [
+        { "kanji": "面接に行くとき、どんな服装で行けばいいですか。", "hiragana_full": "めんせつにいくとき、どんなふくそうでいけばいいですか。" },
+        { "kanji": "初めての面接にふさわしい服装を教えてください。", "hiragana_full": "はじめてのめんせつにふさわしいふくそうをおしえてください。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_127_8",
+      "example_sentence": "道に迷ったら、誰に聞いたらいい？",
+      "translation": "If I get lost, who should I ask?",
+      "blank_target": "たらいい",
+      "wrong_choices": ["たほうがいい", "ばよかった", "てもいい"],
+      "wrong_choice_explanations": [
+        "たほうがいい asserts 'it's better to ask [someone specific]'; the speaker has no specific person in mind and is asking generally who would be a good person to approach — たらいい fits the question.",
+        "ばよかった is past regret ('I should have asked [someone]'); the sentence is about future hypothetical situations, not regretting past inaction.",
+        "てもいい asks/states permission ('may I ask'); the speaker isn't worried about whether asking is allowed, but who to direct the question to."
+      ],
+      "hiragana_full": "みちにまよったら、だれにきいたらいい？",
+      "audio_alternatives": [
+        { "kanji": "迷子になったとき、誰に声をかけたらいいかな。", "hiragana_full": "まいごになったとき、だれにこえをかけたらいいかな。" },
+        { "kanji": "道がわからなくなったら、近くのお店の人に聞けばいい。", "hiragana_full": "みちがわからなくなったら、ちかくのおみせのひとにきけばいい。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_127_9",
+      "example_sentence": "漢字を覚えるには、どうやって勉強したらいいですか。",
+      "translation": "To memorize kanji, how should I study?",
+      "blank_target": "たらいいですか",
+      "wrong_choices": ["たほうがいいですか", "べきですか", "ようとしますか"],
+      "wrong_choice_explanations": [
+        "たほうがいいですか asks 'is it better to study [some specific way]'; the speaker has no method in mind and is asking for general advice on study technique — たらいいですか is the natural fit.",
+        "べきですか carries a moral/obligation 'should I'; for a practical 'what's an effective method' question, べき sounds too heavy — たらいいですか is the everyday way to ask for advice.",
+        "ようとしますか asks 'are you trying to study'; it doesn't form a 'what would be good' question and addresses the listener's actions, not the speaker's."
+      ],
+      "hiragana_full": "かんじをおぼえるには、どうやってべんきょうしたらいいですか。",
+      "audio_alternatives": [
+        { "kanji": "漢字を効率よく覚えるには、どんな勉強法がいいですか。", "hiragana_full": "かんじをこうりつよくおぼえるには、どんなべんきょうほうがいいですか。" },
+        { "kanji": "漢字を覚えるコツを教えていただけませんか。", "hiragana_full": "かんじをおぼえるこつをおしえていただけませんか。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_127_10",
+      "example_sentence": "結婚式の招待状にはどんな言葉を書いたらいいですか。",
+      "translation": "What kind of wording should I use on the wedding invitation?",
+      "blank_target": "たらいいですか",
+      "wrong_choices": ["たほうがいいですか", "なくてはなりませんか", "ますか"],
+      "wrong_choice_explanations": [
+        "たほうがいいですか asks 'is it better to write [some wording]', implying a specific candidate; the speaker has no draft yet and is asking for general guidance on what's appropriate — たらいいですか fits.",
+        "なくてはなりませんか asks about obligation ('must I write [X]'); invitations don't have a single mandatory wording, so the question is about what's good/appropriate, not what's required.",
+        "ますか is a plain question ('do you write'); it doesn't carry the 'what should I' nuance the speaker needs to seek advice."
+      ],
+      "hiragana_full": "けっこんしきのしょうたいじょうにはどんなことばをかいたらいいですか。",
+      "audio_alternatives": [
+        { "kanji": "結婚式の招待状の文面は、どんなふうに書けばいいですか。", "hiragana_full": "けっこんしきのしょうたいじょうのぶんめんは、どんなふうにかけばいいですか。" },
+        { "kanji": "招待状にふさわしい挨拶文の例を教えてください。", "hiragana_full": "しょうたいじょうにふさわしいあいさつぶんのれいをおしえてください。" }
+      ],
+      "audio_eligible": true
+    }
+  ]
+}

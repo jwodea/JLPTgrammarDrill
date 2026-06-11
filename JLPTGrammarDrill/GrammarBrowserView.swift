@@ -4,14 +4,21 @@ import SwiftFSRS
 
 struct GrammarBrowserView: View {
     @Environment(\.modelContext) private var modelContext
+    @Environment(StoreManager.self) private var store
     @State private var searchText = ""
     @State private var levelFilter = "All"
     @State private var allPoints: [GrammarPoint] = []
+    @State private var freeIds: Set<String> = []
     @State private var selectedPoint: GrammarPoint?
+    @State private var showPaywall = false
     @State private var isSelecting = false
     @State private var selectedIds: Set<String> = []
     @Query private var srsRecords: [SRSRecord]
     @AppStorage(FontSizeManager.scaleKey) private var fontScale = FontSizeManager.defaultScale
+
+    private func isLocked(_ id: String) -> Bool {
+        !store.isUnlocked && !freeIds.contains(id)
+    }
 
     private let levelOptions = ["All", "N5", "N4", "N3", "N2", "N1"]
 
@@ -99,8 +106,11 @@ struct GrammarBrowserView: View {
 
             let recordsById = srsRecordsById
             List(filteredPoints) { point in
+                let locked = isLocked(point.id)
                 Button {
-                    if isSelecting {
+                    if locked {
+                        showPaywall = true
+                    } else if isSelecting {
                         toggleSelection(point.id)
                     } else {
                         selectedPoint = point
@@ -116,7 +126,7 @@ struct GrammarBrowserView: View {
                         VStack(alignment: .leading, spacing: 4) {
                             Text(point.pattern)
                                 .font(.system(size: scaled(18), weight: .bold))
-                                .foregroundColor(.primary)
+                                .foregroundColor(locked ? .secondary : .primary)
                             Text(point.meaning)
                                 .font(.system(size: scaled(15)))
                                 .foregroundColor(.secondary)
@@ -124,11 +134,18 @@ struct GrammarBrowserView: View {
 
                         Spacer()
 
-                        let mastery = masteryIndicator(for: point.id, recordsById: recordsById)
-                        Image(systemName: mastery.icon)
-                            .font(.system(size: scaled(13)))
-                            .foregroundColor(mastery.color)
-                            .frame(width: 18)
+                        if locked {
+                            Image(systemName: "lock.fill")
+                                .font(.system(size: scaled(13)))
+                                .foregroundColor(.secondary)
+                                .frame(width: 18)
+                        } else {
+                            let mastery = masteryIndicator(for: point.id, recordsById: recordsById)
+                            Image(systemName: mastery.icon)
+                                .font(.system(size: scaled(13)))
+                                .foregroundColor(mastery.color)
+                                .frame(width: 18)
+                        }
 
                         Text(point.level)
                             .font(.system(size: scaled(13), weight: .medium))
@@ -140,20 +157,22 @@ struct GrammarBrowserView: View {
                     }
                 }
                 .contextMenu {
-                    if recordsById[point.id] != nil {
+                    if !locked {
+                        if recordsById[point.id] != nil {
+                            Button {
+                                resetProgress(for: point.id)
+                            } label: {
+                                Label("Reset Progress", systemImage: "arrow.counterclockwise")
+                            }
+                        }
                         Button {
-                            resetProgress(for: point.id)
+                            markAsKnown(grammarId: point.id)
                         } label: {
-                            Label("Reset Progress", systemImage: "arrow.counterclockwise")
+                            Label("Mark as Known", systemImage: "checkmark.seal.fill")
                         }
                     }
-                    Button {
-                        markAsKnown(grammarId: point.id)
-                    } label: {
-                        Label("Mark as Known", systemImage: "checkmark.seal.fill")
-                    }
                 }
-                .listRowBackground(masteryRowTint(for: point.id, recordsById: recordsById))
+                .listRowBackground(locked ? Color(.systemBackground) : masteryRowTint(for: point.id, recordsById: recordsById))
             }
 
             if isSelecting {
@@ -161,14 +180,14 @@ struct GrammarBrowserView: View {
                     Divider()
                     HStack(spacing: 12) {
                         Button {
-                            let visibleIds = Set(filteredPoints.map(\.id))
+                            let visibleIds = Set(filteredPoints.map(\.id).filter { !isLocked($0) })
                             if visibleIds.isSubset(of: selectedIds) {
                                 selectedIds.subtract(visibleIds)
                             } else {
                                 selectedIds.formUnion(visibleIds)
                             }
                         } label: {
-                            let allVisible = Set(filteredPoints.map(\.id)).isSubset(of: selectedIds)
+                            let allVisible = Set(filteredPoints.map(\.id).filter { !isLocked($0) }).isSubset(of: selectedIds)
                             Text(allVisible ? "Deselect All" : "Select All")
                                 .font(.system(size: scaled(15), weight: .medium))
                                 .frame(maxWidth: .infinity)
@@ -238,10 +257,17 @@ struct GrammarBrowserView: View {
                 onReset: { resetProgress(for: point.id) }
             )
         }
+        .sheet(isPresented: $showPaywall) {
+            PaywallView()
+        }
         .onAppear {
             if allPoints.isEmpty {
                 allPoints = GrammarLoader.loadAll()
             }
+            freeIds = Entitlement.freeGrammarIds(from: GrammarLoader.allPatternFiles) ?? []
+        }
+        .onChange(of: store.isUnlocked) {
+            freeIds = Entitlement.freeGrammarIds(from: GrammarLoader.allPatternFiles) ?? []
         }
     }
 

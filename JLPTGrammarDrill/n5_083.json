@@ -1,0 +1,288 @@
+{
+  "id": "n5_083",
+  "pattern": "〜か〜か",
+  "meaning": "A or B (presents alternatives)",
+  "level": "N5",
+  "exercises": [
+    {
+      "id": "n5_083_1",
+      "example_sentence": "お茶かコーヒーか、どちらにしますか。",
+      "translation": "Tea or coffee — which will you have?",
+      "blank_target": "コーヒーか",
+      "wrong_choices": [
+        "コーヒーと",
+        "コーヒーや",
+        "コーヒーも"
+      ],
+      "wrong_choice_explanations": [
+        "コーヒーと links the two nouns as a complete pair ('tea and coffee'), but the question asks for one or the other — that needs か after the second option as well, mirroring the first か.",
+        "コーヒーや lists items non-exhaustively ('tea, coffee, etc.'), implying more options exist; the speaker is offering exactly two choices, which is the 〜か〜か pattern.",
+        "コーヒーも would mean 'coffee also', making the sentence say 'tea, and also coffee', the opposite of asking the listener to pick one — か is what marks each alternative."
+      ],
+      "hiragana_full": "おちゃかこーひーか、どちらにしますか。",
+      "audio_alternatives": [
+        {
+          "kanji": "お茶かコーヒー、どっちがいい?",
+          "hiragana_full": "おちゃかこーひー、どっちがいい?"
+        },
+        {
+          "kanji": "お飲み物はお茶かコーヒーかお選びください。",
+          "hiragana_full": "おのみものはおちゃかこーひーかおえらびください。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_083_2",
+      "example_sentence": "行くか行かないか、まだ決めていません。",
+      "translation": "I haven't decided yet whether to go or not.",
+      "blank_target": "行かないか",
+      "wrong_choices": [
+        "行かないと",
+        "行かないし",
+        "行かないで"
+      ],
+      "wrong_choice_explanations": [
+        "行かないと turns the clause into a conditional ('if I don't go, ...'), which doesn't pair with the first か to express undecided alternatives.",
+        "行かないし uses し to add a reason ('and I'm not going'), but the speaker is reporting open indecision, which requires the closing か of the 〜か〜か frame.",
+        "行かないで is the te-form ('without going') and is used for sequencing or requests; it can't form the 'whether or not' structure that needs か after each option."
+      ],
+      "hiragana_full": "いくかいかないか、まだきめていません。",
+      "audio_alternatives": [
+        {
+          "kanji": "行くかどうか、まだ迷っています。",
+          "hiragana_full": "いくかどうか、まだまよっています。"
+        },
+        {
+          "kanji": "参加するかしないかは、まだ決まっていません。",
+          "hiragana_full": "さんかするかしないかは、まだきまっていません。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_083_3",
+      "example_sentence": "電車かバスかで会場まで行きましょう。",
+      "translation": "Let's go to the venue by train or bus.",
+      "blank_target": "バスか",
+      "wrong_choices": [
+        "バスと",
+        "バスや",
+        "バスに"
+      ],
+      "wrong_choice_explanations": [
+        "バスと would join train and bus as a single set ('train and bus'), implying riding both; the sentence offers a choice, which is what the second か marks.",
+        "バスや treats bus as one example of several ('train, bus, etc.'), but the speaker is choosing between exactly two means of transport.",
+        "バスに marks bus as a destination/target, producing 電車かバスに which has no clear means-of-transport reading; か is what continues the alternation."
+      ],
+      "hiragana_full": "でんしゃかばすかでかいじょうまでいきましょう。",
+      "audio_alternatives": [
+        {
+          "kanji": "電車かバスで会場まで行こうよ。",
+          "hiragana_full": "でんしゃかばすでかいじょうまでいこうよ。"
+        },
+        {
+          "kanji": "会場までは電車かバスのどちらかを使います。",
+          "hiragana_full": "かいじょうまではでんしゃかばすのどちらかをつかいます。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_083_4",
+      "example_sentence": "肉か魚か、どちらでもいいです。",
+      "translation": "Meat or fish — either one is fine.",
+      "blank_target": "魚か",
+      "wrong_choices": [
+        "魚と",
+        "魚や",
+        "魚の"
+      ],
+      "wrong_choice_explanations": [
+        "魚と would say 'meat and fish', presenting them as a pair to be had together; どちらでもいい frames it as a choice between two, which needs the closing か.",
+        "魚や lists fish as an example among more dishes ('meat, fish, etc.'), but the sentence presents an exact two-way choice.",
+        "魚の is the genitive ('of fish'/'fish's'), producing 肉か魚の which doesn't form a valid alternation — か is required after each option."
+      ],
+      "hiragana_full": "にくかさかなか、どちらでもいいです。",
+      "audio_alternatives": [
+        {
+          "kanji": "メインは肉か魚か、お選びいただけます。",
+          "hiragana_full": "めいんはにくかさかなか、おえらびいただけます。"
+        },
+        {
+          "kanji": "肉でも魚でも、好きな方でいいよ。",
+          "hiragana_full": "にくでもさかなでも、すきなほうでいいよ。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_083_5",
+      "example_sentence": "赤か青か、好きな色を教えてください。",
+      "translation": "Red or blue — please tell me which color you like.",
+      "blank_target": "青か",
+      "wrong_choices": [
+        "青と",
+        "青や",
+        "青も"
+      ],
+      "wrong_choice_explanations": [
+        "青と pairs red and blue as a single set ('red and blue'), but the speaker is asking the listener to pick one, which needs か after the second option.",
+        "青や treats blue as an example among more colors, but the sentence narrows the choice to exactly two, which is the 〜か〜か frame.",
+        "青も would mean 'blue too', so 赤か青も would loosely say 'red, and also blue', not a clean choice — か is what creates the either/or."
+      ],
+      "hiragana_full": "あかかあおか、すきないろをおしえてください。",
+      "audio_alternatives": [
+        {
+          "kanji": "赤と青、どちらが好き?",
+          "hiragana_full": "あかとあお、どちらがすき?"
+        },
+        {
+          "kanji": "色は赤か青のどちらかをお選びください。",
+          "hiragana_full": "いろはあかかあおのどちらかをおえらびください。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_083_6",
+      "example_sentence": "来週か再来週か、京都に行く予定です。",
+      "translation": "I plan to go to Kyoto either next week or the week after.",
+      "blank_target": "再来週か",
+      "wrong_choices": [
+        "再来週と",
+        "再来週や",
+        "再来週に"
+      ],
+      "wrong_choice_explanations": [
+        "再来週と would tie the two weeks together ('next week and the week after'), but the speaker is undecided between them — that's the second か's job.",
+        "再来週や frames the times as examples among more ('next week, the week after, etc.'), losing the precise two-week framing.",
+        "再来週に marks the week as a fixed point in time, producing 来週か再来週に which collapses the choice; か after the second option keeps it open."
+      ],
+      "hiragana_full": "らいしゅうかさらいしゅうか、きょうとにいくよていです。",
+      "audio_alternatives": [
+        {
+          "kanji": "来週か再来週のどちらかに京都へ行きます。",
+          "hiragana_full": "らいしゅうかさらいしゅうのどちらかにきょうとへいきます。"
+        },
+        {
+          "kanji": "京都旅行は来週か再来週かで考えています。",
+          "hiragana_full": "きょうとりょこうはらいしゅうかさらいしゅうかでかんがえています。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_083_7",
+      "example_sentence": "彼が来るか来ないか、私には分かりません。",
+      "translation": "I don't know whether he's coming or not.",
+      "blank_target": "来ないか",
+      "wrong_choices": [
+        "来ないと",
+        "来ないし",
+        "来ないで"
+      ],
+      "wrong_choice_explanations": [
+        "来ないと turns the second clause into a conditional ('if he doesn't come'), but the speaker is reporting an unknown outcome, which needs か as the closing alternative marker.",
+        "来ないし adds a reason ('and he's not coming'), asserting the negative rather than admitting uncertainty between the two possibilities.",
+        "来ないで is the negative te-form ('without coming'), used for requests or sequencing — it can't pair with the first か to form 'whether or not.'"
+      ],
+      "hiragana_full": "かれがくるかこないか、わたしにはわかりません。",
+      "audio_alternatives": [
+        {
+          "kanji": "彼が来るかどうか、私は知りません。",
+          "hiragana_full": "かれがくるかどうか、わたしはしりません。"
+        },
+        {
+          "kanji": "あの人が出席するかどうかは不明です。",
+          "hiragana_full": "あのひとがしゅっせきするかどうかはふめいです。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_083_8",
+      "example_sentence": "ペンか鉛筆か、書きやすい方を使ってください。",
+      "translation": "Pen or pencil — use whichever is easier to write with.",
+      "blank_target": "鉛筆か",
+      "wrong_choices": [
+        "鉛筆と",
+        "鉛筆や",
+        "鉛筆の"
+      ],
+      "wrong_choice_explanations": [
+        "鉛筆と would link pen and pencil as a set ('pen and pencil'), but the speaker is offering a choice — か after the second item is what makes it an either/or.",
+        "鉛筆や lists pencil as an example among more writing tools, but the sentence limits the choice to exactly two.",
+        "鉛筆の is the genitive ('of pencil'), producing ペンか鉛筆の which doesn't form a valid alternation. か is needed after the second option."
+      ],
+      "hiragana_full": "ぺんかえんぴつか、かきやすいほうをつかってください。",
+      "audio_alternatives": [
+        {
+          "kanji": "ペンか鉛筆、お好きな方をどうぞ。",
+          "hiragana_full": "ぺんかえんぴつ、おすきなほうをどうぞ。"
+        },
+        {
+          "kanji": "筆記用具はペンか鉛筆かをご用意ください。",
+          "hiragana_full": "ひっきようぐはぺんかえんぴつかをごよういください。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_083_9",
+      "example_sentence": "メールか電話か、好きな方で連絡してください。",
+      "translation": "Please contact me by email or phone — whichever you prefer.",
+      "blank_target": "電話か",
+      "wrong_choices": [
+        "電話と",
+        "電話や",
+        "電話も"
+      ],
+      "wrong_choice_explanations": [
+        "電話と groups the two methods together ('email and phone'), suggesting both at once; the speaker is letting the listener choose one, which needs the second か.",
+        "電話や frames phone as one example among more methods, but the request narrows the options to exactly two.",
+        "電話も means 'phone too', so メールか電話も would say 'email, and also phone', not a clean choice between the two."
+      ],
+      "hiragana_full": "めーるかでんわか、すきなほうでれんらくしてください。",
+      "audio_alternatives": [
+        {
+          "kanji": "メールでも電話でも、ご都合のよい方でご連絡ください。",
+          "hiragana_full": "めーるでもでんわでも、ごつごうのよいほうでごれんらくください。"
+        },
+        {
+          "kanji": "連絡はメールか電話のどちらかでお願いします。",
+          "hiragana_full": "れんらくはめーるかでんわのどちらかでおねがいします。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_083_10",
+      "example_sentence": "昼ご飯はうどんかそばか、決めかねています。",
+      "translation": "I can't decide whether to have udon or soba for lunch.",
+      "blank_target": "そばか",
+      "wrong_choices": [
+        "そばと",
+        "そばや",
+        "そばの"
+      ],
+      "wrong_choice_explanations": [
+        "そばと would say 'udon and soba', as if planning to eat both; the speaker is undecided between the two, which needs か after the second option.",
+        "そばや frames soba as one example among more dishes, but the dilemma is precisely between these two.",
+        "そばの is the genitive ('of soba'), producing うどんかそばの, which doesn't form a coherent alternation — か is what closes the pair."
+      ],
+      "hiragana_full": "ひるごはんはうどんかそばか、きめかねています。",
+      "audio_alternatives": [
+        {
+          "kanji": "ランチはうどんかそばか、まだ迷ってる。",
+          "hiragana_full": "らんちはうどんかそばか、まだまよってる。"
+        },
+        {
+          "kanji": "お昼ご飯、うどんにするかそばにするか悩むなあ。",
+          "hiragana_full": "おひるごはん、うどんにするかそばにするかなやむなあ。"
+        }
+      ],
+      "audio_eligible": true
+    }
+  ]
+}

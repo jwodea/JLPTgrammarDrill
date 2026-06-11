@@ -1,0 +1,188 @@
+{
+  "id": "n4_120",
+  "pattern": "〜さ",
+  "meaning": "nominalizer turning an adjective into a noun for its measurable quality (-ness)",
+  "level": "N4",
+  "exercises": [
+    {
+      "id": "n4_120_1",
+      "example_sentence": "富士山の高さは三千七百七十六メートルあります。",
+      "translation": "Mt. Fuji's height is 3,776 meters.",
+      "blank_target": "さ",
+      "wrong_choices": ["み", "げ", "く"],
+      "wrong_choice_explanations": [
+        "〜み also nominalizes adjectives but expresses a felt quality or position: 高み refers to 'the heights' as a lofty location, not the numeric measurement being stated in meters.",
+        "〜げ marks an appearance ('seeming ~'); 高げ would suggest 'looking tall' and cannot head a subject phrase that equals a specific number.",
+        "〜く is the adverbial ending; 高く means 'highly' and modifies verbs, so it cannot form the noun phrase 'Mt. Fuji's height'."
+      ],
+      "hiragana_full": "ふじさんのたかさはさんぜんななひゃくななじゅうろくめーとるあります。",
+      "audio_alternatives": [
+        { "kanji": "富士山は標高三千七百七十六メートルもある。", "hiragana_full": "ふじさんはひょうこうさんぜんななひゃくななじゅうろくめーとるもある。" },
+        { "kanji": "日本で一番高い山、富士山の高さは三千七百七十六メートルだ。", "hiragana_full": "にほんでいちばんたかいやま、ふじさんのたかさはさんぜんななひゃくななじゅうろくめーとるだ。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_120_2",
+      "example_sentence": "この箱の重さを正確に量りましょう。",
+      "translation": "Let's measure this box's weight precisely.",
+      "blank_target": "さ",
+      "wrong_choices": ["み", "げ", "く"],
+      "wrong_choice_explanations": [
+        "〜み in 重み refers to a felt or figurative weight (e.g., 言葉の重み 'the weight of words'); the act of 正確に量る (precisely weighing) calls for the quantifiable noun 重さ.",
+        "〜げ marks an appearance ('looking heavy'), not a measurable amount; 重げ cannot serve as the object you can actually weigh.",
+        "〜く is adverbial ('heavily') and modifies verbs; it cannot form the direct object of 量る in this sentence."
+      ],
+      "hiragana_full": "このはこのおもさをせいかくにはかりましょう。",
+      "audio_alternatives": [
+        { "kanji": "この荷物の重さを量って教えてください。", "hiragana_full": "このにもつのおもさをはかっておしえてください。" },
+        { "kanji": "箱に何キロあるか正確に調べてほしい。", "hiragana_full": "はこになんきろあるかせいかくにしらべてほしい。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_120_3",
+      "example_sentence": "北海道の冬の寒さに驚いた。",
+      "translation": "I was shocked by the cold of Hokkaido's winter.",
+      "blank_target": "さ",
+      "wrong_choices": ["み", "げ", "く"],
+      "wrong_choice_explanations": [
+        "〜み as in 寒み is not a standard modern Japanese noun; the noun describing cold as a phenomenon is 寒さ.",
+        "〜げ means 'looking ~'; 寒げ describes someone appearing cold, but the sentence is about the actual cold the speaker encountered.",
+        "〜く is adverbial ('coldly'); 寒く modifies verbs like 寒くなる but cannot be the noun object of に驚く."
+      ],
+      "hiragana_full": "ほっかいどうのふゆのさむさにおどろいた。",
+      "audio_alternatives": [
+        { "kanji": "北海道では冬になると、信じられないほど寒くなる。", "hiragana_full": "ほっかいどうではふゆになると、しんじられないほどさむくなる。" },
+        { "kanji": "北海道の冬の厳しい寒さに本当にびっくりした。", "hiragana_full": "ほっかいどうのふゆのきびしいさむさにほんとうにびっくりした。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_120_4",
+      "example_sentence": "海の深さは場所によって違う。",
+      "translation": "The sea's depth varies depending on location.",
+      "blank_target": "さ",
+      "wrong_choices": ["み", "げ", "の"],
+      "wrong_choice_explanations": [
+        "〜み in 深み refers to deep spots in water or figurative depth (e.g., 味の深み 'depth of flavor'); the sentence compares measurable depth by location, which calls for 深さ.",
+        "〜げ would suggest 'looking deep' (appearance), but the sentence is about actual measurable depth that differs by location.",
+        "の as a nominalizer follows a full clause (深いのは); after the bare stem 深 it does not form the noun 'depth' the subject needs."
+      ],
+      "hiragana_full": "うみのふかさはばしょによってちがう。",
+      "audio_alternatives": [
+        { "kanji": "海の深さは、場所ごとに大きく異なる。", "hiragana_full": "うみのふかさは、ばしょごとにおおきくことなる。" },
+        { "kanji": "海はどこでも同じ深さではない。", "hiragana_full": "うみはどこでもおなじふかさではない。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_120_5",
+      "example_sentence": "母の優しさが今でも心に残っている。",
+      "translation": "My mother's kindness still remains in my heart.",
+      "blank_target": "さ",
+      "wrong_choices": ["み", "げ", "く"],
+      "wrong_choice_explanations": [
+        "〜み in 優しみ is not a standard Japanese noun; kindness/gentleness is expressed by 優しさ.",
+        "〜げ means 'looking ~'; 優しげ describes how someone seems on the outside, but the sentence is about the kindness itself lingering in the heart.",
+        "〜く is the adverbial form ('kindly'); 優しく modifies verbs (e.g., 優しく接する) and cannot stand as the subject 'kindness remains'."
+      ],
+      "hiragana_full": "ははのやさしさがいまでもこころにのこっている。",
+      "audio_alternatives": [
+        { "kanji": "母の温かい心遣いは忘れられない。", "hiragana_full": "ははのあたたかいこころづかいはわすれられない。" },
+        { "kanji": "今でも母の優しさをよく思い出す。", "hiragana_full": "いまでもははのやさしさをよくおもいだす。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_120_6",
+      "example_sentence": "このスープの熱さがちょうどよかった。",
+      "translation": "This soup's hotness was just right.",
+      "blank_target": "さ",
+      "wrong_choices": ["み", "げ", "く"],
+      "wrong_choice_explanations": [
+        "〜み in 熱み is not a standard Japanese noun (Japanese uses 熱気 for hot atmosphere); measurable heat is 熱さ.",
+        "〜げ means 'looking ~'; 熱げ would suggest 'seeming hot', but the speaker is evaluating the actual temperature on the tongue.",
+        "〜く is adverbial ('hotly'), used with verbs like 熱くなる; it cannot be the noun subject of がちょうどよかった."
+      ],
+      "hiragana_full": "このすーぷのあつさがちょうどよかった。",
+      "audio_alternatives": [
+        { "kanji": "スープが熱すぎず、ぬるすぎず、ちょうどいい温度だった。", "hiragana_full": "すーぷがあつすぎず、ぬるすぎず、ちょうどいいおんどだった。" },
+        { "kanji": "スープの温度が私には完璧だった。", "hiragana_full": "すーぷのおんどがわたしにはかんぺきだった。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_120_7",
+      "example_sentence": "日本語の難しさは漢字にあると思う。",
+      "translation": "I think the difficulty of Japanese lies in its kanji.",
+      "blank_target": "さ",
+      "wrong_choices": ["み", "げ", "の"],
+      "wrong_choice_explanations": [
+        "〜み in 難しみ is not a standard Japanese noun; difficulty as an abstract quality is expressed with 難しさ.",
+        "〜げ means 'looking ~'; 難しげ describes how something appears (forbidding/difficult-looking), but the sentence claims where the actual difficulty lies.",
+        "の as a nominalizer requires a full adjective clause (難しいのは); after the bare stem 難し it does not form a grammatical noun phrase."
+      ],
+      "hiragana_full": "にほんごのむずかしさはかんじにあるとおもう。",
+      "audio_alternatives": [
+        { "kanji": "日本語学習で一番大変なのは漢字だと思う。", "hiragana_full": "にほんごがくしゅうでいちばんたいへんなのはかんじだとおもう。" },
+        { "kanji": "日本語の難しさの原因は漢字の多さにある。", "hiragana_full": "にほんごのむずかしさのげんいんはかんじのおおさにある。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_120_8",
+      "example_sentence": "学生たちは先生の厳しさに耐えながら頑張っている。",
+      "translation": "The students are doing their best while enduring the teacher's strictness.",
+      "blank_target": "さ",
+      "wrong_choices": ["み", "げ", "く"],
+      "wrong_choice_explanations": [
+        "〜み in 厳しみ is not a standard Japanese noun; strictness/severity is expressed by 厳しさ.",
+        "〜げ means 'looking ~'; 厳しげ would describe a teacher who appears stern, but the sentence refers to the actual strictness the students endure.",
+        "〜く is adverbial ('strictly') and modifies verbs (e.g., 厳しく指導する); it cannot stand as the object of に耐える."
+      ],
+      "hiragana_full": "がくせいたちはせんせいのきびしさにたえながらがんばっている。",
+      "audio_alternatives": [
+        { "kanji": "先生は厳しいが、学生たちはよく頑張っている。", "hiragana_full": "せんせいはきびしいが、がくせいたちはよくがんばっている。" },
+        { "kanji": "学生たちは厳しい先生の指導の下、努力を続けている。", "hiragana_full": "がくせいたちはきびしいせんせいのしどうのもと、どりょくをつづけている。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_120_9",
+      "example_sentence": "新幹線の速さに外国人観光客は驚くそうだ。",
+      "translation": "Foreign tourists are reportedly amazed by the speed of the bullet train.",
+      "blank_target": "さ",
+      "wrong_choices": ["み", "げ", "く"],
+      "wrong_choice_explanations": [
+        "〜み in 速み is not a standard Japanese noun; speed as a quality is expressed by 速さ.",
+        "〜げ means 'looking ~'; 速げ would mean 'appearing fast', but tourists react to the actual speed of the train, not how it looks.",
+        "〜く is the adverbial form ('quickly'); 速く modifies verbs (e.g., 速く走る) and cannot form the noun phrase 'the speed of the bullet train'."
+      ],
+      "hiragana_full": "しんかんせんのはやさにがいこくじんかんこうきゃくはおどろくそうだ。",
+      "audio_alternatives": [
+        { "kanji": "海外から来た人々は、新幹線がどれほど速いか驚くらしい。", "hiragana_full": "かいがいからきたひとびとは、しんかんせんがどれほどはやいかおどろくらしい。" },
+        { "kanji": "新幹線の速さは世界でも有名だ。", "hiragana_full": "しんかんせんのはやさはせかいでもゆうめいだ。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_120_10",
+      "example_sentence": "子供たちは満開の桜の美しさに見とれていた。",
+      "translation": "The children were captivated by the beauty of the cherry blossoms in full bloom.",
+      "blank_target": "さ",
+      "wrong_choices": ["み", "げ", "く"],
+      "wrong_choice_explanations": [
+        "〜み in 美しみ is not a standard Japanese noun; beauty as a quality is expressed by 美しさ.",
+        "〜げ means 'looking ~'; 美しげ would suggest 'appearing beautiful', but the sentence is about the actual beauty that captivates the children.",
+        "〜く is adverbial ('beautifully'), modifying verbs like 美しく咲く; it cannot be the noun object of に見とれる."
+      ],
+      "hiragana_full": "こどもたちはまんかいのさくらのうつくしさにみとれていた。",
+      "audio_alternatives": [
+        { "kanji": "桜が満開で、子供たちはじっと眺めていた。", "hiragana_full": "さくらがまんかいで、こどもたちはじっとながめていた。" },
+        { "kanji": "公園の桜の美しさに、子供たちは思わず立ち止まった。", "hiragana_full": "こうえんのさくらのうつくしさに、こどもたちはおもわずたちどまった。" }
+      ],
+      "audio_eligible": true
+    }
+  ]
+}

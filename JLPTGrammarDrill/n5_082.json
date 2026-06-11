@@ -1,0 +1,288 @@
+{
+  "id": "n5_082",
+  "pattern": "い形容詞",
+  "meaning": "i-adjective (conjugates by replacing the い ending)",
+  "level": "N5",
+  "exercises": [
+    {
+      "id": "n5_082_1",
+      "example_sentence": "この時計は高いです。",
+      "translation": "This watch is expensive.",
+      "blank_target": "高い",
+      "wrong_choices": [
+        "高な",
+        "高だ",
+        "高くて"
+      ],
+      "wrong_choice_explanations": [
+        "高な uses the な-adjective attributive pattern, but 高い is an i-adjective — its dictionary form ends in い and never takes な.",
+        "高だ drops the い and adds the copula だ, but an i-adjective keeps its い before です; you don't say 高だ in standard Japanese.",
+        "高くて is the te-form used to connect clauses, so the sentence can't end with です right after it — the sentence ends predicatively, which needs 高い."
+      ],
+      "hiragana_full": "このとけいはたかいです。",
+      "audio_alternatives": [
+        {
+          "kanji": "この時計、高いね。",
+          "hiragana_full": "このとけい、たかいね。"
+        },
+        {
+          "kanji": "この腕時計は値段が高い。",
+          "hiragana_full": "このうでどけいはねだんがたかい。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_082_2",
+      "example_sentence": "昨日は寒かったです。",
+      "translation": "Yesterday was cold.",
+      "blank_target": "寒かった",
+      "wrong_choices": [
+        "寒だった",
+        "寒いだった",
+        "寒くた"
+      ],
+      "wrong_choice_explanations": [
+        "寒だった treats the stem like a noun or な-adjective and tacks on だった; the i-adjective past form replaces い with かった, giving 寒かった.",
+        "寒いだった keeps the dictionary い and adds the past copula on top, which double-marks tense; i-adjectives don't combine with だった like that.",
+        "寒くた is not a real conjugation — く is the adverbial/te-form base, never the past ending. The past of i-adjectives is 〜かった."
+      ],
+      "hiragana_full": "きのうはさむかったです。",
+      "audio_alternatives": [
+        {
+          "kanji": "昨日はとても寒かった。",
+          "hiragana_full": "きのうはとてもさむかった。"
+        },
+        {
+          "kanji": "昨日の朝は冷え込みが強かったです。",
+          "hiragana_full": "きのうのあさはひえこみがつよかったです。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_082_3",
+      "example_sentence": "この店は安くないです。",
+      "translation": "This shop isn't cheap.",
+      "blank_target": "安くない",
+      "wrong_choices": [
+        "安いない",
+        "安じゃない",
+        "安ではない"
+      ],
+      "wrong_choice_explanations": [
+        "安いない leaves the dictionary い in place and adds ない; the i-adjective negative replaces い with く before ない, giving 安くない.",
+        "安じゃない is the casual negative for nouns and な-adjectives, but 安い is an i-adjective and conjugates with 〜くない.",
+        "安ではない is the formal negative for nouns and な-adjectives; it can't attach to an i-adjective stem like 安."
+      ],
+      "hiragana_full": "このみせはやすくないです。",
+      "audio_alternatives": [
+        {
+          "kanji": "このお店、あまり安くないね。",
+          "hiragana_full": "このおみせ、あまりやすくないね。"
+        },
+        {
+          "kanji": "この店の値段は安くありません。",
+          "hiragana_full": "このみせのねだんはやすくありません。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_082_4",
+      "example_sentence": "このケーキは美味しくて、安いです。",
+      "translation": "This cake is delicious and cheap.",
+      "blank_target": "美味しくて",
+      "wrong_choices": [
+        "美味しいて",
+        "美味しで",
+        "美味しいで"
+      ],
+      "wrong_choice_explanations": [
+        "美味しいて keeps the dictionary い and just adds て; i-adjectives form the te-form by dropping い and adding くて, so the correct shape is 美味しくて.",
+        "美味しで uses で as if 美味し were a noun or な-adjective stem, but 美味しい is an i-adjective — the linking form is 〜くて, not 〜で.",
+        "美味しいで combines the dictionary form with で, which neither i-adjectives nor any standard form accepts; the i-adjective connector is くて."
+      ],
+      "hiragana_full": "このけーきはおいしくて、やすいです。",
+      "audio_alternatives": [
+        {
+          "kanji": "このケーキは美味しいし、安い。",
+          "hiragana_full": "このけーきはおいしいし、やすい。"
+        },
+        {
+          "kanji": "このケーキは味も値段もいいです。",
+          "hiragana_full": "このけーきはあじもねだんもいいです。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_082_5",
+      "example_sentence": "電車が早く着きました。",
+      "translation": "The train arrived early.",
+      "blank_target": "早く",
+      "wrong_choices": [
+        "早い",
+        "早に",
+        "早で"
+      ],
+      "wrong_choice_explanations": [
+        "早い is the dictionary form, but to modify the verb 着きました you need the adverbial form, which for i-adjectives is made by replacing い with く: 早く.",
+        "早に uses the な-adjective adverbial pattern (〜に), but 早い is an i-adjective — its adverbial form is 〜く.",
+        "早で treats 早 as a noun or な-adjective stem and adds で; i-adjectives form adverbs with 〜く, not 〜で."
+      ],
+      "hiragana_full": "でんしゃがはやくつきました。",
+      "audio_alternatives": [
+        {
+          "kanji": "電車は予定より早く到着しました。",
+          "hiragana_full": "でんしゃはよていよりはやくとうちゃくしました。"
+        },
+        {
+          "kanji": "電車が早めに着いた。",
+          "hiragana_full": "でんしゃがはやめについた。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_082_6",
+      "example_sentence": "先週は暑くなかったです。",
+      "translation": "Last week wasn't hot.",
+      "blank_target": "暑くなかった",
+      "wrong_choices": [
+        "暑じゃなかった",
+        "暑かったない",
+        "暑いじゃなかった"
+      ],
+      "wrong_choice_explanations": [
+        "暑じゃなかった is the casual past negative for nouns and な-adjectives; the i-adjective past negative replaces い with く and uses なかった, giving 暑くなかった.",
+        "暑かったない stacks ない after the past form, but the ない has to come first (as part of くない) and then take past form なかった — not the other way around.",
+        "暑いじゃなかった keeps the dictionary い and bolts on the noun/な-adjective negative; i-adjectives don't combine with じゃなかった."
+      ],
+      "hiragana_full": "せんしゅうはあつくなかったです。",
+      "audio_alternatives": [
+        {
+          "kanji": "先週はそれほど暑くなかった。",
+          "hiragana_full": "せんしゅうはそれほどあつくなかった。"
+        },
+        {
+          "kanji": "先週は気温が高くありませんでした。",
+          "hiragana_full": "せんしゅうはきおんがたかくありませんでした。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_082_7",
+      "example_sentence": "新しい車を買いました。",
+      "translation": "I bought a new car.",
+      "blank_target": "新しい",
+      "wrong_choices": [
+        "新しな",
+        "新しの",
+        "新しく"
+      ],
+      "wrong_choice_explanations": [
+        "新しな borrows the な-adjective attributive pattern, but 新しい is an i-adjective and modifies a noun directly with its dictionary い form.",
+        "新しの uses the genitive の as if linking nouns; i-adjectives modify nouns without の, just by keeping the い ending.",
+        "新しく is the adverbial form used before verbs, not before nouns; to modify 車 you need the dictionary form 新しい."
+      ],
+      "hiragana_full": "あたらしいくるまをかいました。",
+      "audio_alternatives": [
+        {
+          "kanji": "新しい車を購入しました。",
+          "hiragana_full": "あたらしいくるまをこうにゅうしました。"
+        },
+        {
+          "kanji": "この前、新しい車を買ったよ。",
+          "hiragana_full": "このまえ、あたらしいくるまをかったよ。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_082_8",
+      "example_sentence": "子供が大きくなりました。",
+      "translation": "The child has grown up.",
+      "blank_target": "大きく",
+      "wrong_choices": [
+        "大きい",
+        "大きな",
+        "大きで"
+      ],
+      "wrong_choice_explanations": [
+        "大きい is the dictionary form, but before the verb なる an i-adjective must take the adverbial 〜く form, giving 大きく.",
+        "大きな is a special attributive form that only appears directly before a noun (大きな家 etc.); it can't precede the verb なります.",
+        "大きで applies the な-adjective/noun te-pattern; i-adjectives form the equivalent linking form with 〜くて, and before なる they use 〜く."
+      ],
+      "hiragana_full": "こどもがおおきくなりました。",
+      "audio_alternatives": [
+        {
+          "kanji": "子供がずいぶん大きくなった。",
+          "hiragana_full": "こどもがずいぶんおおきくなった。"
+        },
+        {
+          "kanji": "うちの子はもうすっかり成長しました。",
+          "hiragana_full": "うちのこはもうすっかりせいちょうしました。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_082_9",
+      "example_sentence": "彼は楽しそうです。",
+      "translation": "He looks like he's having fun.",
+      "blank_target": "楽しそう",
+      "wrong_choices": [
+        "楽しいそう",
+        "楽しなそう",
+        "楽しさそう"
+      ],
+      "wrong_choice_explanations": [
+        "楽しいそう keeps the dictionary い and adds そう; that pattern is the hearsay 〜そうだ ('I hear it's fun'). To express appearance ('looks fun') with an i-adjective you drop the い: 楽しそう.",
+        "楽しなそう uses a な-adjective stem shape, but 楽しい is an i-adjective and never takes な.",
+        "楽しさそう wedges the nominalizing さ between the stem and そう; the appearance-そう pattern attaches directly to the i-adjective stem with no さ."
+      ],
+      "hiragana_full": "かれはたのしそうです。",
+      "audio_alternatives": [
+        {
+          "kanji": "彼は楽しそうにしている。",
+          "hiragana_full": "かれはたのしそうにしている。"
+        },
+        {
+          "kanji": "彼、何だか嬉しそうだね。",
+          "hiragana_full": "かれ、なんだかうれしそうだね。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_082_10",
+      "example_sentence": "この問題は難しすぎる。",
+      "translation": "This problem is too hard.",
+      "blank_target": "難しすぎる",
+      "wrong_choices": [
+        "難しいすぎる",
+        "難しくすぎる",
+        "難しなすぎる"
+      ],
+      "wrong_choice_explanations": [
+        "難しいすぎる keeps the dictionary い before すぎる; the 〜すぎる pattern attaches to the i-adjective stem after the い is dropped, giving 難しすぎる.",
+        "難しくすぎる uses the adverbial く before すぎる, but すぎる combines directly with the stem, not with the く form.",
+        "難しなすぎる treats 難し as a な-adjective stem; 難しい is an i-adjective, so you just drop い and add すぎる."
+      ],
+      "hiragana_full": "このもんだいはむずかしすぎる。",
+      "audio_alternatives": [
+        {
+          "kanji": "この問題は難しすぎます。",
+          "hiragana_full": "このもんだいはむずかしすぎます。"
+        },
+        {
+          "kanji": "この問題、ちょっと難しすぎるよ。",
+          "hiragana_full": "このもんだい、ちょっとむずかしすぎるよ。"
+        }
+      ],
+      "audio_eligible": true
+    }
+  ]
+}

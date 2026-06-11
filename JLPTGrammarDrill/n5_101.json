@@ -1,0 +1,288 @@
+{
+  "id": "n5_101",
+  "pattern": "〜より〜のほうが",
+  "meaning": "more than ~; A is more ~ than B",
+  "level": "N5",
+  "exercises": [
+    {
+      "id": "n5_101_1",
+      "example_sentence": "夏より冬のほうが好きです。",
+      "translation": "I like winter more than summer.",
+      "blank_target": "より",
+      "wrong_choices": [
+        "と",
+        "でも",
+        "から"
+      ],
+      "wrong_choice_explanations": [
+        "と after 夏 means 'and,' so '夏と冬のほうが好きです' would say 'I prefer summer and winter [over something else],' lumping both seasons together. The sentence is comparing summer against winter, not bundling them.",
+        "でも means 'but / even,' so '夏でも冬のほうが好きです' would read 'even in summer, winter is preferred,' which doesn't form a clean comparison. The sentence wants the 'A than B' frame that より provides.",
+        "から after 夏 means 'from / because,' so '夏から冬のほうが好きです' would suggest a time range or reason. The sentence is comparing one season to the other, not giving a starting point."
+      ],
+      "hiragana_full": "なつよりふゆのほうがすきです。",
+      "audio_alternatives": [
+        {
+          "kanji": "私は夏より冬のほうが好きだ。",
+          "hiragana_full": "わたしはなつよりふゆのほうがすきだ。"
+        },
+        {
+          "kanji": "夏は苦手で、冬のほうが好きです。",
+          "hiragana_full": "なつはにがてで、ふゆのほうがすきです。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_101_2",
+      "example_sentence": "バスより電車のほうが速いです。",
+      "translation": "Trains are faster than buses.",
+      "blank_target": "より",
+      "wrong_choices": [
+        "と",
+        "から",
+        "まで"
+      ],
+      "wrong_choice_explanations": [
+        "と means 'and,' so 'バスと電車のほうが速い' would lump buses and trains together as the faster option. The sentence is contrasting buses against trains, not grouping them.",
+        "から means 'from,' so 'バスから電車のほうが速い' would suggest a transfer point ('from the bus') rather than a comparison. The sentence is ranking the two as transit options.",
+        "まで means 'until / as far as,' so 'バスまで電車のほうが速い' would oddly read 'even buses, trains are faster,' which doesn't form the 'A than B' structure the sentence needs."
+      ],
+      "hiragana_full": "ばすよりでんしゃのほうがはやいです。",
+      "audio_alternatives": [
+        {
+          "kanji": "電車のほうがバスより速い。",
+          "hiragana_full": "でんしゃのほうがばすよりはやい。"
+        },
+        {
+          "kanji": "急ぐときはバスではなく電車を使います。",
+          "hiragana_full": "いそぐときはばすではなくでんしゃをつかいます。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_101_3",
+      "example_sentence": "紅茶よりコーヒーのほうが好きです。",
+      "translation": "I prefer coffee to tea.",
+      "blank_target": "より",
+      "wrong_choices": [
+        "と",
+        "は",
+        "でも"
+      ],
+      "wrong_choice_explanations": [
+        "と means 'and,' so '紅茶とコーヒーのほうが好き' would say the speaker prefers both tea and coffee together [over something else]. The sentence is choosing coffee over tea, not pairing them.",
+        "は is the topic marker, so '紅茶はコーヒーのほうが好き' is awkward — 紅茶 would be set up as the topic, but then the comment about coffee leaves 紅茶 dangling.",
+        "でも means 'but / even,' so '紅茶でもコーヒーのほうが好き' would oddly read 'even with tea on offer, coffee is preferred.' The sentence wants a direct 'A than B' comparison."
+      ],
+      "hiragana_full": "こうちゃよりこーひーのほうがすきです。",
+      "audio_alternatives": [
+        {
+          "kanji": "コーヒーのほうが紅茶より好きです。",
+          "hiragana_full": "こーひーのほうがこうちゃよりすきです。"
+        },
+        {
+          "kanji": "私は紅茶はあまり飲まず、コーヒーをよく飲みます。",
+          "hiragana_full": "わたしはこうちゃはあまりのまず、こーひーをよくのみます。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_101_4",
+      "example_sentence": "兄より弟のほうが背が高いです。",
+      "translation": "My younger brother is taller than my older brother.",
+      "blank_target": "より",
+      "wrong_choices": [
+        "と",
+        "も",
+        "で"
+      ],
+      "wrong_choice_explanations": [
+        "と means 'and,' so '兄と弟のほうが背が高い' would group the two brothers as tall together [compared to someone else]. The sentence is ranking one brother against the other.",
+        "も means 'also,' so '兄も弟のほうが背が高い' is structurally broken — も flags 兄 as 'also tall,' but then のほうが declares 弟 the taller one, leaving the sentence at odds with itself.",
+        "で means 'at / by,' so '兄で弟のほうが背が高い' would oddly use 兄 as a location or means. The sentence needs the comparative particle より to set 兄 as the baseline."
+      ],
+      "hiragana_full": "あによりおとうとのほうがせがたかいです。",
+      "audio_alternatives": [
+        {
+          "kanji": "弟は兄より背が高い。",
+          "hiragana_full": "おとうとはあによりせがたかい。"
+        },
+        {
+          "kanji": "うちでは兄より弟のほうが大きく育ちました。",
+          "hiragana_full": "うちではあによりおとうとのほうがおおきくそだちました。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_101_5",
+      "example_sentence": "漢字よりひらがなのほうが簡単です。",
+      "translation": "Hiragana is easier than kanji.",
+      "blank_target": "より",
+      "wrong_choices": [
+        "と",
+        "から",
+        "は"
+      ],
+      "wrong_choice_explanations": [
+        "と means 'and,' so '漢字とひらがなのほうが簡単' would say kanji and hiragana together are easier [than something else]. The sentence contrasts the two scripts; it doesn't bundle them.",
+        "から means 'from / because,' so '漢字からひらがなのほうが簡単' would oddly read 'starting from kanji, hiragana is easier,' which doesn't form a comparison.",
+        "は is the topic marker, so '漢字はひらがなのほうが簡単' sets up 漢字 as the topic but then talks about ひらがな instead. The sentence needs より to mark 漢字 as the thing being compared against."
+      ],
+      "hiragana_full": "かんじよりひらがなのほうがかんたんです。",
+      "audio_alternatives": [
+        {
+          "kanji": "ひらがなのほうが漢字より簡単だ。",
+          "hiragana_full": "ひらがなのほうがかんじよりかんたんだ。"
+        },
+        {
+          "kanji": "漢字は難しいので、まずひらがなから勉強します。",
+          "hiragana_full": "かんじはむずかしいので、まずひらがなからべんきょうします。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_101_6",
+      "example_sentence": "朝より夜のほうがにぎやかです。",
+      "translation": "It's livelier at night than in the morning.",
+      "blank_target": "より",
+      "wrong_choices": [
+        "と",
+        "でも",
+        "に"
+      ],
+      "wrong_choice_explanations": [
+        "と means 'and,' so '朝と夜のほうがにぎやか' would lump morning and night together as the lively time. The sentence is contrasting them, picking night as the busier one.",
+        "でも means 'but / even,' so '朝でも夜のほうがにぎやか' would oddly say 'even in the morning, night is livelier' — a sentence about morning that ends up about night.",
+        "に marks a point in time, so '朝に夜のほうがにぎやか' would awkwardly state 'in the morning, night is livelier,' leaving 朝 as a stranded time marker. より is what sets up the comparison."
+      ],
+      "hiragana_full": "あさよりよるのほうがにぎやかです。",
+      "audio_alternatives": [
+        {
+          "kanji": "夜のほうが朝よりにぎやかだ。",
+          "hiragana_full": "よるのほうがあさよりにぎやかだ。"
+        },
+        {
+          "kanji": "この町は夜になると人が多くなります。",
+          "hiragana_full": "このまちはよるになるとひとがおおくなります。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_101_7",
+      "example_sentence": "山より海のほうが好きです。",
+      "translation": "I prefer the sea to the mountains.",
+      "blank_target": "より",
+      "wrong_choices": [
+        "と",
+        "から",
+        "でも"
+      ],
+      "wrong_choice_explanations": [
+        "と means 'and,' so '山と海のほうが好き' would say the speaker likes both mountains and the sea [over a third option]. The sentence picks the sea over the mountains.",
+        "から means 'from,' so '山から海のほうが好き' would suggest movement 'from the mountains' rather than ranking them as destinations.",
+        "でも means 'but / even,' so '山でも海のほうが好き' would oddly say 'even with mountains available, the sea is preferred.' The sentence wants a clean 'A than B' comparison."
+      ],
+      "hiragana_full": "やまよりうみのほうがすきです。",
+      "audio_alternatives": [
+        {
+          "kanji": "海のほうが山より好きだ。",
+          "hiragana_full": "うみのほうがやまよりすきだ。"
+        },
+        {
+          "kanji": "休みには山ではなく海に行きたいです。",
+          "hiragana_full": "やすみにはやまではなくうみにいきたいです。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_101_8",
+      "example_sentence": "去年より今年のほうが暑いです。",
+      "translation": "This year is hotter than last year.",
+      "blank_target": "より",
+      "wrong_choices": [
+        "と",
+        "から",
+        "まで"
+      ],
+      "wrong_choice_explanations": [
+        "と means 'and,' so '去年と今年のほうが暑い' would say last year and this year together are hot [compared to other years]. The sentence is comparing the two, not grouping them.",
+        "から means 'from / since,' so '去年から今年のほうが暑い' would oddly suggest a time span starting last year. The sentence ranks the two years; it doesn't describe a range.",
+        "まで means 'until,' so '去年まで今年のほうが暑い' would awkwardly read 'up until last year, this year is hotter,' which scrambles the timing."
+      ],
+      "hiragana_full": "きょねんよりことしのほうがあついです。",
+      "audio_alternatives": [
+        {
+          "kanji": "今年は去年よりずっと暑い。",
+          "hiragana_full": "ことしはきょねんよりずっとあつい。"
+        },
+        {
+          "kanji": "毎年気温が上がっているように感じます。",
+          "hiragana_full": "まいとしきおんがあがっているようにかんじます。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_101_9",
+      "example_sentence": "父より母のほうが料理が上手です。",
+      "translation": "My mom is a better cook than my dad.",
+      "blank_target": "より",
+      "wrong_choices": [
+        "と",
+        "は",
+        "も"
+      ],
+      "wrong_choice_explanations": [
+        "と means 'and,' so '父と母のほうが料理が上手' would say both parents together are skilled cooks [compared to someone else]. The sentence is ranking one against the other.",
+        "は is the topic marker, so '父は母のほうが料理が上手' sets up 父 as the topic but ends up praising 母 — leaving 父 awkwardly stranded.",
+        "も means 'also,' so '父も母のほうが料理が上手' implies 'dad also' is in the same skill group, but のほうが then singles out mom — the two halves of the sentence contradict each other."
+      ],
+      "hiragana_full": "ちちよりははのほうがりょうりがじょうずです。",
+      "audio_alternatives": [
+        {
+          "kanji": "母のほうが父より料理が上手だ。",
+          "hiragana_full": "ははのほうがちちよりりょうりがじょうずだ。"
+        },
+        {
+          "kanji": "うちの夕食はだいたい母が作ります。",
+          "hiragana_full": "うちのゆうしょくはだいたいははがつくります。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_101_10",
+      "example_sentence": "犬より猫のほうが静かです。",
+      "translation": "Cats are quieter than dogs.",
+      "blank_target": "より",
+      "wrong_choices": [
+        "と",
+        "でも",
+        "に"
+      ],
+      "wrong_choice_explanations": [
+        "と means 'and,' so '犬と猫のほうが静か' would lump dogs and cats together as the quiet group. The sentence is comparing them, ranking cats as quieter.",
+        "でも means 'but / even,' so '犬でも猫のほうが静か' would say 'even with dogs in the mix, cats are quieter,' which doesn't form a direct comparison the way より does.",
+        "に marks direction or location, so '犬に猫のほうが静か' would treat 犬 as a target ('to dogs'). The sentence needs より to set dogs as the standard being compared against."
+      ],
+      "hiragana_full": "いぬよりねこのほうがしずかです。",
+      "audio_alternatives": [
+        {
+          "kanji": "猫のほうが犬より静かだ。",
+          "hiragana_full": "ねこのほうがいぬよりしずかだ。"
+        },
+        {
+          "kanji": "犬はよくほえるけれど、猫はあまり鳴きません。",
+          "hiragana_full": "いぬはよくほえるけれど、ねこはあまりなきません。"
+        }
+      ],
+      "audio_eligible": true
+    }
+  ]
+}

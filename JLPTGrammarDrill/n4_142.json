@@ -1,0 +1,188 @@
+{
+  "id": "n4_142",
+  "pattern": "〜に見える",
+  "meaning": "to look like; to seem; to appear",
+  "level": "N4",
+  "exercises": [
+    {
+      "id": "n4_142_1",
+      "example_sentence": "田中さんは今日、とても元気に見えますね。",
+      "translation": "Tanaka looks really well today, doesn't he?",
+      "blank_target": "に見えます",
+      "wrong_choices": ["になります", "がします", "だそうです"],
+      "wrong_choice_explanations": [
+        "になります expresses a change of state ('will become well'), but the speaker is describing Tanaka's current appearance, marked by 今日 and the shared observation ね.",
+        "〜がする attaches to sensory nouns like 匂い, 音, or 気; 元気 is not a sensory noun, so 元気がします is not possible.",
+        "だそうです reports hearsay ('I hear he is well'), but the speaker is looking at Tanaka right now and commenting on how he appears."
+      ],
+      "hiragana_full": "たなかさんはきょう、とてもげんきにみえますね。",
+      "audio_alternatives": [
+        { "kanji": "田中さんは最近、とても幸せそうに見えますね。", "hiragana_full": "たなかさんはさいきん、とてもしあわせそうにみえますね。" },
+        { "kanji": "田中さんは今日、元気そうですね。", "hiragana_full": "たなかさんはきょう、げんきそうですね。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_142_2",
+      "example_sentence": "あの雲は動物の顔に見えます。",
+      "translation": "That cloud looks like an animal's face.",
+      "blank_target": "に見えます",
+      "wrong_choices": ["が見えます", "に見せます", "を見ます"],
+      "wrong_choice_explanations": [
+        "が見える means something 'is visible'; 顔が見えます would say an actual face can be seen, but the sentence says the cloud resembles a face.",
+        "見せる is transitive ('to show'); a cloud cannot show something to anyone, and 'make it look like' would require 〜ように見せる with a person doing it.",
+        "を見ます means 'to look at'; the cloud is not looking at a face — the speaker is describing what the cloud resembles."
+      ],
+      "hiragana_full": "あのくもはどうぶつのかおにみえます。",
+      "audio_alternatives": [
+        { "kanji": "あの雲は犬の形に見えませんか。", "hiragana_full": "あのくもはいぬのかたちにみえませんか。" },
+        { "kanji": "あの雲、動物みたいですね。", "hiragana_full": "あのくも、どうぶつみたいですね。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_142_3",
+      "example_sentence": "この料理は簡単に見えますが、作るのは難しいです。",
+      "translation": "This dish looks easy, but it's actually hard to make.",
+      "blank_target": "に見えます",
+      "wrong_choices": ["がします", "にします", "だと思います"],
+      "wrong_choice_explanations": [
+        "〜がする is limited to sensory nouns (味, 匂い, 音, 気); 簡単 is a na-adjective, so 簡単がします is ungrammatical.",
+        "簡単にします means 'to make it simple' — a deliberate action — which contradicts the following clause saying that making the dish is hard.",
+        "だと思います states the speaker's actual belief that it is easy, clashing with が…難しいです; に見える captures the appearance-versus-reality contrast."
+      ],
+      "hiragana_full": "このりょうりはかんたんにみえますが、つくるのはむずかしいです。",
+      "audio_alternatives": [
+        { "kanji": "この問題は簡単に見えますが、実は難しいです。", "hiragana_full": "このもんだいはかんたんにみえますが、じつはむずかしいです。" },
+        { "kanji": "この料理は簡単そうですが、作ると難しいです。", "hiragana_full": "このりょうりはかんたんそうですが、つくるとむずかしいです。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_142_4",
+      "example_sentence": "兄はスーツを着ると、別人に見えます。",
+      "translation": "When my brother puts on a suit, he looks like a completely different person.",
+      "blank_target": "に見えます",
+      "wrong_choices": ["に見られます", "にします", "が見えます"],
+      "wrong_choice_explanations": [
+        "に見られます is the passive 'is seen by'; 別人に見られます would mean 'is seen by a different person', shifting 別人 from what he resembles to who is looking.",
+        "にします means 'to turn (something) into'; the sentence has no object being transformed — it describes how 兄 appears to others.",
+        "が見えます would mean 'a different person is visible (over there)', stating actual sight of someone else rather than a resemblance."
+      ],
+      "hiragana_full": "あにはすーつをきると、べつじんにみえます。",
+      "audio_alternatives": [
+        { "kanji": "兄はめがねをかけると、別人に見えます。", "hiragana_full": "あにはめがねをかけると、べつじんにみえます。" },
+        { "kanji": "スーツを着た兄は、いつもと全然違います。", "hiragana_full": "すーつをきたあには、いつもとぜんぜんちがいます。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_142_5",
+      "example_sentence": "祖母は八十歳ですが、六十歳ぐらいに見えます。",
+      "translation": "My grandmother is eighty, but she looks about sixty.",
+      "blank_target": "に見えます",
+      "wrong_choices": ["になります", "らしいです", "に見せます"],
+      "wrong_choice_explanations": [
+        "になります would mean she 'will turn about sixty', which is impossible — she is already eighty; the sentence is about how young she appears.",
+        "らしいです marks inference from indirect information ('apparently she is about sixty'), but the speaker knows her real age and is describing her appearance.",
+        "に見せます means she deliberately presents herself as younger ('makes herself look sixty'); the sentence reports the speaker's impression, not her effort."
+      ],
+      "hiragana_full": "そぼははちじゅっさいですが、ろくじゅっさいぐらいにみえます。",
+      "audio_alternatives": [
+        { "kanji": "祖母はとても元気で、六十代に見えます。", "hiragana_full": "そぼはとてもげんきで、ろくじゅうだいにみえます。" },
+        { "kanji": "祖母は八十歳ですが、とても若いです。", "hiragana_full": "そぼははちじゅっさいですが、とてもわかいです。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_142_6",
+      "example_sentence": "新しい部長は怖い人に見えますが、本当は優しいです。",
+      "translation": "The new department head looks like a scary person, but he's actually kind.",
+      "blank_target": "に見えます",
+      "wrong_choices": ["が見えます", "に見られます", "になります"],
+      "wrong_choice_explanations": [
+        "が見えます states that 'a scary person is visible', as if spotting someone in the distance; the sentence describes the impression the 部長 gives.",
+        "に見られます (passive) would mean 'is watched by a scary person', turning 怖い人 into the one doing the looking.",
+        "になります means he 'becomes a scary person', describing a real change in character that contradicts 本当は優しいです."
+      ],
+      "hiragana_full": "あたらしいぶちょうはこわいひとにみえますが、ほんとうはやさしいです。",
+      "audio_alternatives": [
+        { "kanji": "新しい先生は厳しい人に見えますが、本当は親切です。", "hiragana_full": "あたらしいせんせいはきびしいひとにみえますが、ほんとうはしんせつです。" },
+        { "kanji": "部長は顔は怖いですが、心は優しいです。", "hiragana_full": "ぶちょうはかおはこわいですが、こころはやさしいです。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_142_7",
+      "example_sentence": "写真では、湖の水が緑色に見えます。",
+      "translation": "In the photo, the lake water looks green.",
+      "blank_target": "に見えます",
+      "wrong_choices": ["になります", "がします", "を見ます"],
+      "wrong_choice_explanations": [
+        "になります would mean the water actually turns green; 写真では shows we are talking about how it appears in the photo, not a real change.",
+        "〜がする works with 味, 匂い, 音, and 気, not with colors; 緑色がします is not natural Japanese.",
+        "を見ます means 'to look at'; the water is the thing being seen, not something looking at the color green."
+      ],
+      "hiragana_full": "しゃしんでは、みずうみのみずがみどりいろにみえます。",
+      "audio_alternatives": [
+        { "kanji": "この写真では、海が暗い色に見えます。", "hiragana_full": "このしゃしんでは、うみがくらいいろにみえます。" },
+        { "kanji": "写真の湖はとてもきれいな緑色です。", "hiragana_full": "しゃしんのみずうみはとてもきれいなみどりいろです。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_142_8",
+      "example_sentence": "このおもちゃのお金は本物に見えます。",
+      "translation": "This toy money looks like the real thing.",
+      "blank_target": "に見えます",
+      "wrong_choices": ["に見せます", "になります", "が見えます"],
+      "wrong_choice_explanations": [
+        "見せる needs someone deliberately showing or disguising something (〜を本物のように見せる); toy money cannot perform the action of showing itself.",
+        "になります would claim the toy money actually turns into real money, not that it merely resembles it.",
+        "が見えます would mean 'the real thing is visible', as if spotting real money somewhere, rather than describing what the toy resembles."
+      ],
+      "hiragana_full": "このおもちゃのおかねはほんものにみえます。",
+      "audio_alternatives": [
+        { "kanji": "このおもちゃの刀は本物に見えますね。", "hiragana_full": "このおもちゃのかたなはほんものにみえますね。" },
+        { "kanji": "このおもちゃのお金は本物そっくりです。", "hiragana_full": "このおもちゃのおかねはほんものそっくりです。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_142_9",
+      "example_sentence": "弟は静かなので、まじめに見えます。でも、本当はいたずらが好きです。",
+      "translation": "My little brother is quiet, so he seems serious. But he actually loves playing pranks.",
+      "blank_target": "に見えます",
+      "wrong_choices": ["になります", "にします", "だそうです"],
+      "wrong_choice_explanations": [
+        "になります describes a real change ('becomes serious'), but the following sentence says he actually loves pranks — only his appearance is serious.",
+        "にします means 'to make (something/someone) serious', a deliberate action with an object, which doesn't fit this description of an impression.",
+        "だそうです reports what the speaker heard from others, but ので shows the speaker is reasoning from their own observation that he is quiet."
+      ],
+      "hiragana_full": "おとうとはしずかなので、まじめにみえます。でも、ほんとうはいたずらがすきです。",
+      "audio_alternatives": [
+        { "kanji": "弟はおとなしいので、まじめに見えます。", "hiragana_full": "おとうとはおとなしいので、まじめにみえます。" },
+        { "kanji": "弟は静かですが、実はいたずらが大好きです。", "hiragana_full": "おとうとはしずかですが、じつはいたずらがだいすきです。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_142_10",
+      "example_sentence": "この服を着ると、モデルに見えますよ。",
+      "translation": "When you wear these clothes, you look like a model.",
+      "blank_target": "に見えます",
+      "wrong_choices": ["になれます", "を見ます", "が見えます"],
+      "wrong_choice_explanations": [
+        "になれます means 'you can become a model', stating a real career possibility; the compliment is about how the listener appears in the clothes.",
+        "を見ます means 'to look at a model', which makes the listener the viewer instead of the one being admired.",
+        "が見えます would mean 'a model is visible', as if a model came into view, not that the listener resembles one."
+      ],
+      "hiragana_full": "このふくをきると、もでるにみえますよ。",
+      "audio_alternatives": [
+        { "kanji": "そのめがねをかけると、先生に見えますよ。", "hiragana_full": "そのめがねをかけると、せんせいにみえますよ。" },
+        { "kanji": "その服、とても似合っていますね。", "hiragana_full": "そのふく、とてもにあっていますね。" }
+      ],
+      "audio_eligible": true
+    }
+  ]
+}

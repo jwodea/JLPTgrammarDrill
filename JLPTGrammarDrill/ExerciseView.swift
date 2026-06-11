@@ -1,5 +1,21 @@
 import SwiftUI
 import SwiftData
+import SwiftFSRS
+
+/// Aggregated outcomes for one grammar pattern across a single session.
+/// Grammar patterns are spread over many sentences but represent a single FSRS card,
+/// so we collect every on-screen answer here and emit one `applyRating` call at end
+/// of session — see `flushPatternRatings()`.
+private struct PatternOutcomes {
+    /// First-attempt correct/wrong per distinct SessionExercise.id. Retries don't
+    /// overwrite the original result, so this stays faithful to the user's real
+    /// first-try performance.
+    var firstAttempts: [String: Bool] = [:]
+    /// Every answer the user gave, including retries — feeds totalAttempts / totalCorrect
+    /// so the local accuracy stat keeps matching what was on screen.
+    var totalAnswers = 0
+    var correctAnswers = 0
+}
 
 struct ExerciseView: View {
     let sessionItems: [SessionExercise]
@@ -28,6 +44,10 @@ struct ExerciseView: View {
     @State private var showExplanation = false
     // Per-pattern required streak. Particles only need 1 correct retry; grammar needs 3.
     @State private var requiredStreaks: [String: Int] = [:]
+    // Per-pattern aggregated outcomes — drives a single FSRS rating per pattern at end of session.
+    @State private var patternOutcomes: [String: PatternOutcomes] = [:]
+    // Guards against flushing twice when both `advanceToNext` and `onDisappear` fire.
+    @State private var didFlushRatings = false
 
     private let defaultRequiredStreak = 3
     private let particleRequiredStreak = 1
@@ -239,6 +259,7 @@ struct ExerciseView: View {
         .toolbar {
             ToolbarItem(placement: .topBarLeading) {
                 Button {
+                    flushPatternRatings()
                     dismiss()
                 } label: {
                     Image(systemName: "xmark")
@@ -249,6 +270,11 @@ struct ExerciseView: View {
         }
         .onAppear {
             initializeSession()
+        }
+        .onDisappear {
+            // Safety net for any dismissal path (system gesture, etc.) that
+            // skips both the X button and `advanceToNext`. The flush is idempotent.
+            flushPatternRatings()
         }
     }
 
@@ -341,7 +367,7 @@ struct ExerciseView: View {
         }
 
         triggerHaptic(correct: isCorrect)
-        updateSRS(correct: isCorrect, for: item)
+        recordOutcome(correct: isCorrect, for: item)
 
         withAnimation(.easeInOut(duration: 0.2)) {
             showExplanation = true
@@ -358,6 +384,7 @@ struct ExerciseView: View {
 
         // Check if the session is done
         if isSessionComplete || queue.isEmpty {
+            flushPatternRatings()
             updateStreak()
             dismiss()
             return
@@ -373,6 +400,7 @@ struct ExerciseView: View {
         }
 
         if queue.isEmpty || isSessionComplete {
+            flushPatternRatings()
             updateStreak()
             dismiss()
             return
@@ -448,20 +476,60 @@ struct ExerciseView: View {
         defaults.set(Date.now.timeIntervalSince1970, forKey: "lastStudyDate")
     }
 
-    private func updateSRS(correct: Bool, for item: SessionExercise) {
-        let grammarId = item.grammarId
-        let descriptor = FetchDescriptor<SRSRecord>(
-            predicate: #Predicate { $0.grammarId == grammarId }
-        )
-        do {
-            if let record = try modelContext.fetch(descriptor).first {
-                SRSEngine.processAnswer(record: record, correct: correct)
-                try modelContext.save()
-            }
-        } catch {
-            print("Error updating SRS: \(error)")
+    /// Append one on-screen answer to the per-pattern accumulator. No FSRS scheduling
+    /// happens here — that's deferred to `flushPatternRatings()` so the scheduler sees
+    /// one rating per pattern per session (matching FSRS's assumed cadence).
+    private func recordOutcome(correct: Bool, for item: SessionExercise) {
+        var outcomes = patternOutcomes[item.grammarId] ?? PatternOutcomes()
+        // Only the first attempt at each distinct sentence counts toward the aggregate
+        // rating. Retries (same exerciseId or pool alternates after a wrong answer)
+        // still bump the totals below but don't overwrite the first-try record.
+        if outcomes.firstAttempts[item.id] == nil {
+            outcomes.firstAttempts[item.id] = correct
         }
+        outcomes.totalAnswers += 1
+        if correct { outcomes.correctAnswers += 1 }
+        patternOutcomes[item.grammarId] = outcomes
+
         StudyLog.record(correct: correct, context: modelContext)
+    }
+
+    /// Emit one FSRS rating per pattern based on accumulated first-attempt outcomes.
+    /// Called on every session-exit path; the `didFlushRatings` guard makes repeat calls
+    /// (e.g. advanceToNext → dismiss → onDisappear) no-ops.
+    private func flushPatternRatings() {
+        guard !didFlushRatings else { return }
+        didFlushRatings = true
+
+        for (grammarId, outcomes) in patternOutcomes {
+            let firstTryCorrect = outcomes.firstAttempts.values.filter { $0 }.count
+            let firstTryTotal = outcomes.firstAttempts.count
+            guard let rating = SRSEngine.aggregateRating(correct: firstTryCorrect, total: firstTryTotal) else {
+                continue
+            }
+
+            let descriptor = FetchDescriptor<SRSRecord>(
+                predicate: #Predicate { $0.grammarId == grammarId }
+            )
+            do {
+                if let record = try modelContext.fetch(descriptor).first {
+                    SRSEngine.applyRating(
+                        record: record,
+                        rating: rating,
+                        attemptsDelta: outcomes.totalAnswers,
+                        correctDelta: outcomes.correctAnswers
+                    )
+                }
+            } catch {
+                print("Error fetching SRS record for \(grammarId): \(error)")
+            }
+        }
+
+        do {
+            try modelContext.save()
+        } catch {
+            print("Error saving SRS updates: \(error)")
+        }
     }
 
     private func triggerHaptic(correct: Bool) {

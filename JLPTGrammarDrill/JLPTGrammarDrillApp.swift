@@ -5,6 +5,7 @@ import CoreData
 @main
 struct JLPTGrammarDrillApp: App {
     let modelContainer: ModelContainer
+    @State private var storeManager = StoreManager()
 
     init() {
         do {
@@ -31,6 +32,7 @@ struct JLPTGrammarDrillApp: App {
         WindowGroup {
             ContentView()
                 .tint(.accentColor)
+                .environment(storeManager)
         }
         .modelContainer(modelContainer)
     }

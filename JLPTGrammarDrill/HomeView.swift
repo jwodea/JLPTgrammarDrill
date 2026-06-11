@@ -3,11 +3,13 @@ import SwiftData
 
 struct HomeView: View {
     @Environment(\.modelContext) private var modelContext
+    @Environment(StoreManager.self) private var store
     @Query private var srsRecords: [SRSRecord]
     @AppStorage(FontSizeManager.scaleKey) private var fontScale = FontSizeManager.defaultScale
     @AppStorage(SessionBuilder.defaultNewCountKey) private var defaultNewCount = SessionBuilder.defaultNewCount
     @AppStorage(SettingsView.enabledLevelsKey) private var enabledLevelsString = SettingsView.defaultEnabledLevels
     @AppStorage(SettingsView.combinedDrillsKey) private var combinedDrills = false
+    @State private var showPaywall = false
 
     @State private var grammarPoints: [GrammarPoint] = []
     @State private var particleExercises: [ParticleExercise] = []
@@ -189,6 +191,11 @@ struct HomeView: View {
                 }
                 .padding(.top, 12)
 
+                if !store.isUnlocked {
+                    upgradeBanner
+                        .padding(.horizontal)
+                }
+
                 // Stats Card
                 VStack(spacing: 0) {
                     HStack {
@@ -338,11 +345,56 @@ struct HomeView: View {
         .onChange(of: combinedDrills) {
             loadData()
         }
+        .onChange(of: store.isUnlocked) {
+            loadData()
+        }
+        .sheet(isPresented: $showPaywall) {
+            PaywallView()
+        }
+    }
+
+    private var upgradeBanner: some View {
+        Button {
+            showPaywall = true
+        } label: {
+            HStack(spacing: 12) {
+                Image(systemName: "lock.fill")
+                    .font(.system(size: scaled(16), weight: .semibold))
+                    .foregroundColor(.white)
+                    .frame(width: 36, height: 36)
+                    .background(
+                        LinearGradient(colors: [.accentColor, .purple],
+                                       startPoint: .leading, endPoint: .trailing)
+                    )
+                    .clipShape(RoundedRectangle(cornerRadius: 10))
+                VStack(alignment: .leading, spacing: 2) {
+                    Text("Unlock the full version")
+                        .font(.system(size: scaled(15), weight: .semibold))
+                        .foregroundColor(.primary)
+                    Text("Free: 20 patterns per level + all particles")
+                        .font(.system(size: scaled(12)))
+                        .foregroundColor(.secondary)
+                }
+                Spacer()
+                if let price = store.displayPrice {
+                    Text(price)
+                        .font(.system(size: scaled(15), weight: .semibold))
+                        .foregroundColor(.accentColor)
+                }
+                Image(systemName: "chevron.right")
+                    .font(.system(size: scaled(12), weight: .semibold))
+                    .foregroundColor(Color(.tertiaryLabel))
+            }
+            .padding(12)
+            .background(Color(.secondarySystemBackground))
+            .cornerRadius(12)
+        }
+        .buttonStyle(.plain)
     }
 
     private func loadData() {
-        grammarPoints = GrammarLoader.loadAll()
-        var pool = GrammarLoader.buildExercisePool()
+        grammarPoints = Entitlement.filterFreeGrammar(GrammarLoader.loadAll())
+        var pool = Entitlement.filterFreeExercisePool(GrammarLoader.buildExercisePool())
         particleExercises = combinedDrills ? ParticleLoader.loadAll() : []
         if combinedDrills {
             let particlePool = ParticleLoader.buildExercisePool()

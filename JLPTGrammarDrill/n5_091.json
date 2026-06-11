@@ -1,0 +1,288 @@
+{
+  "id": "n5_091",
+  "pattern": "な形容詞",
+  "meaning": "na-adjective (links to a noun with な, and conjugates with the copula だ/です)",
+  "level": "N5",
+  "exercises": [
+    {
+      "id": "n5_091_1",
+      "example_sentence": "静かな図書館で勉強しました。",
+      "translation": "I studied at a quiet library.",
+      "blank_target": "静かな",
+      "wrong_choices": [
+        "静かい",
+        "静かの",
+        "静かで"
+      ],
+      "wrong_choice_explanations": [
+        "静かい treats 静か as an i-adjective by tacking on い, but 静か is a な-adjective and links to a noun with な, not い.",
+        "静かの uses の as if 静か were a plain noun modifying 図書館, but な-adjectives use な (not の) to attach to a following noun.",
+        "静かで is the te-form, used to connect clauses; here we are placing the adjective directly before the noun 図書館, which needs the attributive な."
+      ],
+      "hiragana_full": "しずかなとしょかんでべんきょうしました。",
+      "audio_alternatives": [
+        {
+          "kanji": "静かな部屋で勉強した。",
+          "hiragana_full": "しずかなへやでべんきょうした。"
+        },
+        {
+          "kanji": "図書館は静かで、勉強しやすかった。",
+          "hiragana_full": "としょかんはしずかで、べんきょうしやすかった。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_091_2",
+      "example_sentence": "駅員さんはとても親切でした。",
+      "translation": "The station attendant was very kind.",
+      "blank_target": "親切でした",
+      "wrong_choices": [
+        "親切かった",
+        "親切いでした",
+        "親切だでした"
+      ],
+      "wrong_choice_explanations": [
+        "親切かった applies the i-adjective past ending 〜かった, but 親切 is a な-adjective and its past polite form is 親切でした.",
+        "親切いでした inserts い as though 親切 were an i-adjective, then adds でした on top — な-adjectives never take い before the copula.",
+        "親切だでした doubles the copula by stacking the plain だ and the polite でした; the past polite form is simply 〜でした."
+      ],
+      "hiragana_full": "えきいんさんはとてもしんせつでした。",
+      "audio_alternatives": [
+        {
+          "kanji": "駅の人はとても親切でした。",
+          "hiragana_full": "えきのひとはとてもしんせつでした。"
+        },
+        {
+          "kanji": "あの駅員さん、親切だったね。",
+          "hiragana_full": "あのえきいんさん、しんせつだったね。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_091_3",
+      "example_sentence": "この部屋はあまりきれいじゃないです。",
+      "translation": "This room isn't very clean.",
+      "blank_target": "きれいじゃない",
+      "wrong_choices": [
+        "きれいくない",
+        "きれいない",
+        "きれいなくない"
+      ],
+      "wrong_choice_explanations": [
+        "きれいくない uses the i-adjective negative 〜くない, but きれい (in spite of ending in い) is a な-adjective; its negative is 〜じゃない or 〜ではない.",
+        "きれいない drops the copula entirely; な-adjectives need じゃ (=では) before ない, never bare ない.",
+        "きれいなくない keeps the attributive な and adds くない on top — a mash-up that doesn't exist; the negative replaces the copula, not attaches to な."
+      ],
+      "hiragana_full": "このへやはあまりきれいじゃないです。",
+      "audio_alternatives": [
+        {
+          "kanji": "この部屋はあまりきれいではありません。",
+          "hiragana_full": "このへやはあまりきれいではありません。"
+        },
+        {
+          "kanji": "部屋はそんなにきれいじゃない。",
+          "hiragana_full": "へやはそんなにきれいじゃない。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_091_4",
+      "example_sentence": "新しいアプリで生活が便利になりました。",
+      "translation": "Life has become convenient thanks to the new app.",
+      "blank_target": "便利に",
+      "wrong_choices": [
+        "便利く",
+        "便利で",
+        "便利な"
+      ],
+      "wrong_choice_explanations": [
+        "便利く applies the i-adjective adverbial ending 〜く, but 便利 is a な-adjective; before なる it takes the adverbial に, giving 便利に.",
+        "便利で is the te-form, used to link clauses; it cannot serve as the adverbial slot before なる, which requires に.",
+        "便利な is the attributive form used before a noun, not before a verb like なる; modifying the verb needs the adverbial 便利に."
+      ],
+      "hiragana_full": "あたらしいあぷりでせいかつがべんりになりました。",
+      "audio_alternatives": [
+        {
+          "kanji": "このアプリのおかげで生活が便利になった。",
+          "hiragana_full": "このあぷりのおかげでせいかつがべんりになった。"
+        },
+        {
+          "kanji": "新しいアプリで毎日が便利だ。",
+          "hiragana_full": "あたらしいあぷりでまいにちがべんりだ。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_091_5",
+      "example_sentence": "子供の時の僕はもっと元気だった。",
+      "translation": "I was much more energetic when I was a kid.",
+      "blank_target": "元気だった",
+      "wrong_choices": [
+        "元気かった",
+        "元気いった",
+        "元気くなった"
+      ],
+      "wrong_choice_explanations": [
+        "元気かった borrows the i-adjective past ending 〜かった, but 元気 is a な-adjective and forms its plain past with the copula: 元気だった.",
+        "元気いった inserts い as if 元気 were an i-adjective and then adds った; this conjugation pattern doesn't exist in Japanese.",
+        "元気くなった means 'became energetic' (a change of state with なる), but the sentence describes a past state, not a transition, so the simple past 元気だった is needed."
+      ],
+      "hiragana_full": "こどものときのぼくはもっとげんきだった。",
+      "audio_alternatives": [
+        {
+          "kanji": "子供の頃の僕はもっと元気だった。",
+          "hiragana_full": "こどものころのぼくはもっとげんきだった。"
+        },
+        {
+          "kanji": "小さい時、僕は今より元気でした。",
+          "hiragana_full": "ちいさいとき、ぼくはいまよりげんきでした。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_091_6",
+      "example_sentence": "昨日は仕事が忙しくて、暇じゃなかった。",
+      "translation": "Yesterday I was busy with work, so I had no free time.",
+      "blank_target": "暇じゃなかった",
+      "wrong_choices": [
+        "暇くなかった",
+        "暇ないだった",
+        "暇でなかったた"
+      ],
+      "wrong_choice_explanations": [
+        "暇くなかった uses the i-adjective past negative 〜くなかった, but 暇 is a な-adjective; its past negative is 〜じゃなかった (or 〜ではなかった).",
+        "暇ないだった drops the じゃ and stacks the copula on the end; な-adjective negatives need じゃ before ない and conjugate inside that frame as じゃなかった.",
+        "暇でなかったた has an extra た at the end; the correct past negative ends in 〜なかった with only one た."
+      ],
+      "hiragana_full": "きのうはしごとがいそがしくて、ひまじゃなかった。",
+      "audio_alternatives": [
+        {
+          "kanji": "昨日は仕事に追われて、全然暇じゃなかった。",
+          "hiragana_full": "きのうはしごとにおわれて、ぜんぜんひまじゃなかった。"
+        },
+        {
+          "kanji": "昨日は忙しくて、暇ではありませんでした。",
+          "hiragana_full": "きのうはいそがしくて、ひまではありませんでした。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_091_7",
+      "example_sentence": "兄はギターを上手に弾きます。",
+      "translation": "My older brother plays the guitar well.",
+      "blank_target": "上手に",
+      "wrong_choices": [
+        "上手な",
+        "上手で",
+        "上手の"
+      ],
+      "wrong_choice_explanations": [
+        "上手な is the attributive form used before a noun (e.g., 上手な人), but here it modifies the verb 弾きます, which needs the adverbial form 上手に.",
+        "上手で is the te-form for linking clauses; it can't serve as the manner adverb before a verb in this sentence.",
+        "上手の treats 上手 as a plain noun joined by の, but な-adjectives use に to modify a verb, not の."
+      ],
+      "hiragana_full": "あにはぎたーをじょうずにひきます。",
+      "audio_alternatives": [
+        {
+          "kanji": "兄はギターがとても上手だ。",
+          "hiragana_full": "あにはぎたーがとてもじょうずだ。"
+        },
+        {
+          "kanji": "兄は上手にギターを演奏します。",
+          "hiragana_full": "あにはじょうずにぎたーをえんそうします。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_091_8",
+      "example_sentence": "田中さんはハンサムで優しい。",
+      "translation": "Mr. Tanaka is handsome and kind.",
+      "blank_target": "ハンサムで",
+      "wrong_choices": [
+        "ハンサムくて",
+        "ハンサムにて",
+        "ハンサムだて"
+      ],
+      "wrong_choice_explanations": [
+        "ハンサムくて uses the i-adjective te-form 〜くて, but ハンサム is a な-adjective; its te-form is made with the copula で, giving ハンサムで.",
+        "ハンサムにて combines the adverbial に with て, which isn't how な-adjectives form a connector; the te-form is simply で.",
+        "ハンサムだて attaches the plain copula だ to て, which isn't a real Japanese form — the connector replaces だ with で."
+      ],
+      "hiragana_full": "たなかさんははんさむでやさしい。",
+      "audio_alternatives": [
+        {
+          "kanji": "田中さんはハンサムで、優しい人です。",
+          "hiragana_full": "たなかさんははんさむで、やさしいひとです。"
+        },
+        {
+          "kanji": "田中さんはかっこよくて優しい。",
+          "hiragana_full": "たなかさんはかっこよくてやさしい。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_091_9",
+      "example_sentence": "子供たちは安全な道を歩いて学校へ行く。",
+      "translation": "The children walk to school along a safe road.",
+      "blank_target": "安全な",
+      "wrong_choices": [
+        "安全い",
+        "安全の",
+        "安全だ"
+      ],
+      "wrong_choice_explanations": [
+        "安全い tacks on い as if 安全 were an i-adjective, but 安全 is a な-adjective and attaches to a noun with な.",
+        "安全の uses the noun-linker の, but な-adjectives link to a noun with な, not の (compare 安全な道, not 安全の道).",
+        "安全だ is the plain predicate form for ending a sentence ('it is safe'); in front of a noun like 道, the attributive な is required instead."
+      ],
+      "hiragana_full": "こどもたちはあんぜんなみちをあるいてがっこうへいく。",
+      "audio_alternatives": [
+        {
+          "kanji": "子供たちは安全な通学路を歩いている。",
+          "hiragana_full": "こどもたちはあんぜんなつうがくろをあるいている。"
+        },
+        {
+          "kanji": "この道は安全だから、子供たちが歩いて学校に行く。",
+          "hiragana_full": "このみちはあんぜんだから、こどもたちがあるいてがっこうにいく。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_091_10",
+      "example_sentence": "この寺はとても有名です。",
+      "translation": "This temple is very famous.",
+      "blank_target": "有名です",
+      "wrong_choices": [
+        "有名いです",
+        "有名なです",
+        "有名のです"
+      ],
+      "wrong_choice_explanations": [
+        "有名いです inserts い as if 有名 were an i-adjective; な-adjectives connect directly to the copula です with no い in between.",
+        "有名なです keeps the attributive な before the copula, but な is only used to link to a following noun, not to です.",
+        "有名のです treats 有名 like a noun joined by の, but as a な-adjective it attaches to です directly: 有名です."
+      ],
+      "hiragana_full": "このてらはとてもゆうめいです。",
+      "audio_alternatives": [
+        {
+          "kanji": "このお寺はとても有名な場所です。",
+          "hiragana_full": "このおてらはとてもゆうめいなばしょです。"
+        },
+        {
+          "kanji": "この寺は全国的に有名だ。",
+          "hiragana_full": "このてらはぜんこくてきにゆうめいだ。"
+        }
+      ],
+      "audio_eligible": true
+    }
+  ]
+}

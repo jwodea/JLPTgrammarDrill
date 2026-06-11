@@ -1,0 +1,288 @@
+{
+  "id": "n5_097",
+  "pattern": "〜の中で〜が一番〜",
+  "meaning": "out of [group], [A] is the most ~",
+  "level": "N5",
+  "exercises": [
+    {
+      "id": "n5_097_1",
+      "example_sentence": "クラスの中で田中さんが一番背が高いです。",
+      "translation": "Tanaka is the tallest in the class.",
+      "blank_target": "が一番",
+      "wrong_choices": [
+        "のほうが",
+        "よりも",
+        "だけが"
+      ],
+      "wrong_choice_explanations": [
+        "のほうが marks one side of a two-way comparison ('Tanaka is taller'), but this sentence ranks Tanaka at the top of a whole group (the class), which calls for 一番.",
+        "よりも means 'more than [something],' and it needs a second item as the standard of comparison — here we are picking Tanaka out of the whole class, not comparing him to one named person.",
+        "だけが would mean 'only Tanaka is tall in the class,' but the sentence is saying he is the tallest among many, not the only tall one."
+      ],
+      "hiragana_full": "くらすのなかでたなかさんがいちばんせがたかいです。",
+      "audio_alternatives": [
+        {
+          "kanji": "うちのクラスで一番背が高い人は田中さんです。",
+          "hiragana_full": "うちのくらすでいちばんせがたかいひとはたなかさんです。"
+        },
+        {
+          "kanji": "田中さんはクラスのみんなより背が高い。",
+          "hiragana_full": "たなかさんはくらすのみんなよりせがたかい。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_097_2",
+      "example_sentence": "果物の中でりんごが一番安いです。",
+      "translation": "Out of all the fruits, apples are the cheapest.",
+      "blank_target": "が一番",
+      "wrong_choices": [
+        "のほうが",
+        "よりも",
+        "だけが"
+      ],
+      "wrong_choice_explanations": [
+        "のほうが would set up a two-way comparison ('apples are cheaper'), but the sentence is ranking apples at the bottom of the price scale among all fruits, which requires 一番.",
+        "よりも means 'more than [something]' and needs an explicit second item; here we are picking the cheapest out of the whole fruit category, not comparing to one named fruit.",
+        "だけが would mean 'only apples are cheap among the fruits,' but the sentence is saying apples are the cheapest of many fruits — other fruits may also be cheap, just not as cheap."
+      ],
+      "hiragana_full": "くだもののなかでりんごがいちばんやすいです。",
+      "audio_alternatives": [
+        {
+          "kanji": "果物の中で一番安いのはりんごです。",
+          "hiragana_full": "くだもののなかでいちばんやすいのはりんごです。"
+        },
+        {
+          "kanji": "他の果物より、りんごのほうがずっと安い。",
+          "hiragana_full": "ほかのくだものより、りんごのほうがずっとやすい。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_097_3",
+      "example_sentence": "家族の中で母が一番早く起きます。",
+      "translation": "Out of my family, my mom wakes up the earliest.",
+      "blank_target": "が一番",
+      "wrong_choices": [
+        "のほうが",
+        "よりも",
+        "だけが"
+      ],
+      "wrong_choice_explanations": [
+        "のほうが would set up a two-way comparison ('mom wakes up earlier'), but the sentence is picking mom out of the whole family, which requires 一番.",
+        "よりも means 'earlier than [someone]' and needs a specific named person as the standard — here we are ranking mom against the entire family.",
+        "だけが would mean 'only mom wakes up early in the family,' implying nobody else does — but the sentence is saying she wakes up earliest among many, not that she's the only early riser."
+      ],
+      "hiragana_full": "かぞくのなかでははがいちばんはやくおきます。",
+      "audio_alternatives": [
+        {
+          "kanji": "母はうちの家族で一番早く起きる人だ。",
+          "hiragana_full": "はははうちのかぞくでいちばんはやくおきるひとだ。"
+        },
+        {
+          "kanji": "毎朝、家族の誰よりも母が早く起きる。",
+          "hiragana_full": "まいあさ、かぞくのだれよりもははがはやくおきる。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_097_4",
+      "example_sentence": "日本の都市の中で東京が一番大きいです。",
+      "translation": "Out of Japan's cities, Tokyo is the biggest.",
+      "blank_target": "が一番",
+      "wrong_choices": [
+        "のほうが",
+        "よりも",
+        "だけが"
+      ],
+      "wrong_choice_explanations": [
+        "のほうが sets up a head-to-head comparison ('Tokyo is bigger'), but the sentence is ranking Tokyo at the top of every Japanese city, which calls for 一番.",
+        "よりも means 'bigger than [a specific city]' and needs a second city named as the reference; here Tokyo is being compared against the whole group.",
+        "だけが would mean 'only Tokyo is big among Japan's cities,' but the sentence is saying Tokyo is the biggest — other cities like Osaka are also big, just not as big."
+      ],
+      "hiragana_full": "にほんのとしのなかでとうきょうがいちばんおおきいです。",
+      "audio_alternatives": [
+        {
+          "kanji": "日本で一番大きい都市は東京です。",
+          "hiragana_full": "にほんでいちばんおおきいとしはとうきょうです。"
+        },
+        {
+          "kanji": "東京は日本のどの都市よりも大きい。",
+          "hiragana_full": "とうきょうはにほんのどのとしよりもおおきい。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_097_5",
+      "example_sentence": "スポーツの中でサッカーが一番人気があります。",
+      "translation": "Out of all sports, soccer is the most popular.",
+      "blank_target": "が一番",
+      "wrong_choices": [
+        "のほうが",
+        "よりも",
+        "だけが"
+      ],
+      "wrong_choice_explanations": [
+        "のほうが sets up a two-way comparison ('soccer is more popular'), but the sentence is naming soccer as the most popular among all sports, which requires 一番.",
+        "よりも means 'more than [a specific sport]' and needs a second sport as the standard; the sentence is comparing soccer to the whole sports category.",
+        "だけが would mean 'only soccer is popular among sports,' but the sentence is just saying it is the most popular — basketball and baseball can still be popular, just less so."
+      ],
+      "hiragana_full": "すぽーつのなかでさっかーがいちばんにんきがあります。",
+      "audio_alternatives": [
+        {
+          "kanji": "サッカーはあらゆるスポーツの中で最も人気がある。",
+          "hiragana_full": "さっかーはあらゆるすぽーつのなかでもっともにんきがある。"
+        },
+        {
+          "kanji": "数あるスポーツでサッカーほど人気のあるものはない。",
+          "hiragana_full": "かずあるすぽーつでさっかーほどにんきのあるものはない。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_097_6",
+      "example_sentence": "友達の中で彼が一番おもしろいです。",
+      "translation": "Out of my friends, he is the funniest.",
+      "blank_target": "が一番",
+      "wrong_choices": [
+        "のほうが",
+        "よりも",
+        "だけが"
+      ],
+      "wrong_choice_explanations": [
+        "のほうが sets up a two-way comparison ('he is funnier'), but the sentence is ranking him at the top of the speaker's whole friend group, which calls for 一番.",
+        "よりも means 'funnier than [someone specific]' and needs another named person; here he is being compared against the entire group of friends.",
+        "だけが would mean 'only he is funny among the friends,' implying the others aren't funny at all — but the sentence is saying he is the funniest, not that he is alone in being funny."
+      ],
+      "hiragana_full": "ともだちのなかでかれがいちばんおもしろいです。",
+      "audio_alternatives": [
+        {
+          "kanji": "わたしの友達で一番おもしろいのは彼だ。",
+          "hiragana_full": "わたしのともだちでいちばんおもしろいのはかれだ。"
+        },
+        {
+          "kanji": "彼はわたしの友達の誰よりもおもしろい人です。",
+          "hiragana_full": "かれはわたしのともだちのだれよりもおもしろいひとです。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_097_7",
+      "example_sentence": "季節の中で春が一番好きです。",
+      "translation": "Out of the seasons, I like spring the best.",
+      "blank_target": "が一番",
+      "wrong_choices": [
+        "のほうが",
+        "よりも",
+        "だけが"
+      ],
+      "wrong_choice_explanations": [
+        "のほうが sets up a two-way comparison ('I like spring more'), but the sentence is picking spring as the top favorite out of all four seasons, which requires 一番.",
+        "よりも means 'more than [another season]' and needs a second season as the reference; the sentence is comparing spring against the whole seasonal lineup.",
+        "だけが would mean 'I only like spring among the seasons,' implying the speaker dislikes the others — but they are simply saying spring is the favorite, not the only one they like."
+      ],
+      "hiragana_full": "きせつのなかではるがいちばんすきです。",
+      "audio_alternatives": [
+        {
+          "kanji": "わたしは四季の中で春が一番好きだ。",
+          "hiragana_full": "わたしはしきのなかではるがいちばんすきだ。"
+        },
+        {
+          "kanji": "春はわたしにとってどの季節よりも好きな時期です。",
+          "hiragana_full": "はるはわたしにとってどのきせつよりもすきなじきです。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_097_8",
+      "example_sentence": "この店のケーキの中でチョコレートケーキが一番おいしいです。",
+      "translation": "Out of this shop's cakes, the chocolate cake is the tastiest.",
+      "blank_target": "が一番",
+      "wrong_choices": [
+        "のほうが",
+        "よりも",
+        "だけが"
+      ],
+      "wrong_choice_explanations": [
+        "のほうが sets up a two-way comparison ('the chocolate cake is tastier'), but the sentence is ranking it as the best among all the cakes in this shop, which requires 一番.",
+        "よりも means 'tastier than [a specific cake]' and needs another named cake; here it is being compared to the whole lineup at the shop.",
+        "だけが would mean 'only the chocolate cake is tasty here,' but the sentence is just naming it the tastiest — the other cakes may also be tasty, just not as tasty."
+      ],
+      "hiragana_full": "このみせのけーきのなかでちょこれーとけーきがいちばんおいしいです。",
+      "audio_alternatives": [
+        {
+          "kanji": "このお店で一番おいしいケーキはチョコレートケーキです。",
+          "hiragana_full": "このおみせでいちばんおいしいけーきはちょこれーとけーきです。"
+        },
+        {
+          "kanji": "ここのケーキでチョコレートケーキほどおいしいものはない。",
+          "hiragana_full": "ここのけーきでちょこれーとけーきほどおいしいものはない。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_097_9",
+      "example_sentence": "兄弟の中で弟が一番元気だ。",
+      "translation": "Out of the siblings, my little brother is the most energetic.",
+      "blank_target": "が一番",
+      "wrong_choices": [
+        "のほうが",
+        "よりも",
+        "だけが"
+      ],
+      "wrong_choice_explanations": [
+        "のほうが sets up a two-way comparison ('my brother is more energetic'), but the sentence is ranking him at the top of all the siblings, which calls for 一番.",
+        "よりも means 'more energetic than [a specific sibling]' and needs another named person; here he is being compared against the whole sibling group.",
+        "だけが would mean 'only my little brother has energy among the siblings,' but the sentence is saying he is the most energetic, not that the others have no energy."
+      ],
+      "hiragana_full": "きょうだいのなかでおとうとがいちばんげんきだ。",
+      "audio_alternatives": [
+        {
+          "kanji": "うちの兄弟で一番元気なのは弟だ。",
+          "hiragana_full": "うちのきょうだいでいちばんげんきなのはおとうとだ。"
+        },
+        {
+          "kanji": "弟は兄弟の中で誰よりも元気いっぱいだ。",
+          "hiragana_full": "おとうとはきょうだいのなかでだれよりもげんきいっぱいだ。"
+        }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n5_097_10",
+      "example_sentence": "世界の動物の中でチーターが一番速いです。",
+      "translation": "Out of all the world's animals, the cheetah is the fastest.",
+      "blank_target": "が一番",
+      "wrong_choices": [
+        "のほうが",
+        "よりも",
+        "だけが"
+      ],
+      "wrong_choice_explanations": [
+        "のほうが sets up a two-way comparison ('the cheetah is faster'), but the sentence is naming it the fastest of every animal in the world, which requires 一番.",
+        "よりも means 'faster than [a specific animal]' and needs another named animal as the standard; here the cheetah is being compared against the whole animal kingdom.",
+        "だけが would mean 'only the cheetah is fast in the world,' but the sentence is just claiming the top speed — lions and horses can still be fast, just not as fast as the cheetah."
+      ],
+      "hiragana_full": "せかいのどうぶつのなかでちーたーがいちばんはやいです。",
+      "audio_alternatives": [
+        {
+          "kanji": "陸上の動物で一番速く走れるのはチーターだ。",
+          "hiragana_full": "りくじょうのどうぶつでいちばんはやくはしれるのはちーたーだ。"
+        },
+        {
+          "kanji": "チーターはどんな動物よりも速く走ることができる。",
+          "hiragana_full": "ちーたーはどんなどうぶつよりもはやくはしることができる。"
+        }
+      ],
+      "audio_eligible": true
+    }
+  ]
+}

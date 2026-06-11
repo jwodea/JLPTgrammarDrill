@@ -1,0 +1,188 @@
+{
+  "id": "n4_125",
+  "pattern": "そんなに",
+  "meaning": "so; that much; like that (often in negative or restraining contexts: not that much, no need to do it so much)",
+  "level": "N4",
+  "exercises": [
+    {
+      "id": "n4_125_1",
+      "example_sentence": "そんなに急がなくても大丈夫だよ。",
+      "translation": "You don't need to hurry that much, it's fine.",
+      "blank_target": "そんなに",
+      "wrong_choices": ["あんなに", "とても", "どんなに"],
+      "wrong_choice_explanations": [
+        "あんなに refers to something distant or previously witnessed ('that much, over there/back then'); the speaker is reacting to the listener's hurrying right in front of them, which calls for the proximal-to-listener そんなに.",
+        "とても is a positive intensifier ('very') that pairs with affirmative predicates; it can't naturally modify the negative 急がなくても ('even if you don't hurry').",
+        "どんなに introduces 'no matter how' clauses (どんなに急いでも 'no matter how much you hurry'); it doesn't temper an action with 'that much' the way そんなに does."
+      ],
+      "hiragana_full": "そんなにいそがなくてもだいじょうぶだよ。",
+      "audio_alternatives": [
+        { "kanji": "そんなに慌てなくても、まだ時間はあるよ。", "hiragana_full": "そんなにあわてなくても、まだじかんはあるよ。" },
+        { "kanji": "焦らなくて平気だよ、まだ余裕があるから。", "hiragana_full": "あせらなくてへいきだよ、まだよゆうがあるから。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_125_2",
+      "example_sentence": "このケーキはそんなに甘くない。",
+      "translation": "This cake isn't all that sweet.",
+      "blank_target": "そんなに",
+      "wrong_choices": ["とても", "どんなに", "こんなに"],
+      "wrong_choice_explanations": [
+        "とても 'very' is a positive intensifier; とても甘くない doesn't read as 'not very sweet' but is awkward in standard usage where あまり or そんなに are the natural negative-pair adverbs.",
+        "どんなに 'no matter how' starts conditional concessives (どんなに甘くても 'no matter how sweet'); it doesn't form a flat 'not THAT sweet' description.",
+        "こんなに 'this much' (proximal) would mean 'this cake isn't THIS sweet (to the degree just shown/expected)'; it requires a specific reference point, while the speaker is dismissing an exaggerated expectation in general — そんなに is the fit."
+      ],
+      "hiragana_full": "このけーきはそんなにあまくない。",
+      "audio_alternatives": [
+        { "kanji": "このケーキ、見た目ほどそんなに甘くないよ。", "hiragana_full": "このけーき、みためほどそんなにあまくないよ。" },
+        { "kanji": "思っていたほどこのケーキは甘くないね。", "hiragana_full": "おもっていたほどこのけーきはあまくないね。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_125_3",
+      "example_sentence": "そんなに食べたら、お腹を壊すよ。",
+      "translation": "If you eat that much, you'll upset your stomach.",
+      "blank_target": "そんなに",
+      "wrong_choices": ["こんなに", "どんなに", "とても"],
+      "wrong_choice_explanations": [
+        "こんなに 'this much' would refer to the speaker's own demonstrated amount; here the speaker is criticizing the listener's intake right in front of them, so the listener-proximal そんなに is correct.",
+        "どんなに 'no matter how much' opens a concessive (どんなに食べても 'no matter how much you eat'), but the sentence is a direct warning, not a 'regardless of degree' statement.",
+        "とても 'very' is a positive intensifier that doesn't combine with 食べたら to scale the amount; とても食べたら sounds ungrammatical in this construction."
+      ],
+      "hiragana_full": "そんなにたべたら、おなかをこわすよ。",
+      "audio_alternatives": [
+        { "kanji": "そんなにたくさん食べると、後で気持ち悪くなるよ。", "hiragana_full": "そんなにたくさんたべると、あとできもちわるくなるよ。" },
+        { "kanji": "一度にそれだけ食べたら、お腹を壊しちゃうよ。", "hiragana_full": "いちどにそれだけたべたら、おなかをこわしちゃうよ。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_125_4",
+      "example_sentence": "日本語はそんなに難しくないよ。",
+      "translation": "Japanese isn't all that hard, you know.",
+      "blank_target": "そんなに",
+      "wrong_choices": ["とても", "どんなに", "こんなに"],
+      "wrong_choice_explanations": [
+        "とても 'very' pairs with affirmative predicates; とても難しくない is awkward — the standard way to soften the negative is そんなに or あまり.",
+        "どんなに 'no matter how' starts concessive clauses (どんなに難しくても 'no matter how hard it is'); it doesn't form 'not THAT hard' as a standalone description.",
+        "こんなに 'this much' would point at something the speaker is demonstrating right now; the speaker is pushing back on the LISTENER'S exaggerated impression of difficulty, which is the role of そんなに."
+      ],
+      "hiragana_full": "にほんごはそんなにむずかしくないよ。",
+      "audio_alternatives": [
+        { "kanji": "実は、日本語はそんなに難しい言語じゃないんだよ。", "hiragana_full": "じつは、にほんごはそんなにむずかしいげんごじゃないんだよ。" },
+        { "kanji": "思っていたほど日本語は難しくなかった。", "hiragana_full": "おもっていたほどにほんごはむずかしくなかった。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_125_5",
+      "example_sentence": "そんなに怒らないでください。",
+      "translation": "Please don't get so angry.",
+      "blank_target": "そんなに",
+      "wrong_choices": ["そんな", "こんなに", "どんなに"],
+      "wrong_choice_explanations": [
+        "そんな needs a noun ('such a [thing/person]'); そんな怒らないでください is ungrammatical because そんな can't directly modify the verb 怒る — そんなにことで or そんなに is required to attach to a verb.",
+        "こんなに 'this much' would have the speaker pointing to their own demonstrated degree of anger, but the speaker is asking the LISTENER (who is angry) to dial it back; the listener-proximal そんなに fits.",
+        "どんなに 'no matter how' starts concessive clauses (どんなに怒っても 'no matter how angry you get'); it doesn't function as a plea to lessen current anger."
+      ],
+      "hiragana_full": "そんなにおこらないでください。",
+      "audio_alternatives": [
+        { "kanji": "お願いだから、そんなに大声を出さないでください。", "hiragana_full": "おねがいだから、そんなにおおごえをださないでください。" },
+        { "kanji": "そこまで怒らないでよ、こちらも反省しているから。", "hiragana_full": "そこまでおこらないでよ、こちらもはんせいしているから。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_125_6",
+      "example_sentence": "その映画はそんなに面白くなかった。",
+      "translation": "That movie wasn't all that interesting.",
+      "blank_target": "そんなに",
+      "wrong_choices": ["とても", "あんなに", "どんなに"],
+      "wrong_choice_explanations": [
+        "とても 'very' is a positive intensifier; とても面白くなかった sounds off — to scale down a negative judgment, そんなに or あまり is the natural choice.",
+        "あんなに 'that much (distant/famous)' would imply the movie was that wildly hyped level of interesting — but the speaker is rejecting an EXPECTED degree, not a clearly displayed past one; そんなに matches the dismissive nuance.",
+        "どんなに 'no matter how' opens a concessive (どんなに面白くても 'however interesting it may be'), but here the speaker is delivering a flat verdict on the movie they already watched."
+      ],
+      "hiragana_full": "そのえいがはそんなにおもしろくなかった。",
+      "audio_alternatives": [
+        { "kanji": "あの映画、評判ほどそんなに面白くなかったよ。", "hiragana_full": "あのえいが、ひょうばんほどそんなにおもしろくなかったよ。" },
+        { "kanji": "期待していたけど、その映画は普通の出来だった。", "hiragana_full": "きたいしていたけど、そのえいがはふつうのできだった。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_125_7",
+      "example_sentence": "そんなに心配しなくていいと思うよ。",
+      "translation": "I don't think you need to worry that much.",
+      "blank_target": "そんなに",
+      "wrong_choices": ["こんなに", "どんなに", "とても"],
+      "wrong_choice_explanations": [
+        "こんなに 'this much' would have the speaker referencing their own degree of worry; but the speaker is responding to the LISTENER'S worrying, which calls for the listener-proximal そんなに.",
+        "どんなに 'no matter how' starts concessive clauses (どんなに心配しても 'no matter how much you worry'); it doesn't form the gentle 'no need to worry THAT much' reassurance the sentence carries.",
+        "とても 'very' is a positive intensifier that doesn't combine with 心配しなくていい to mean 'don't worry so much'; とても is naturally paired with affirmative predicates."
+      ],
+      "hiragana_full": "そんなにしんぱいしなくていいとおもうよ。",
+      "audio_alternatives": [
+        { "kanji": "そんなに不安にならなくても、きっと大丈夫だよ。", "hiragana_full": "そんなにふあんにならなくても、きっとだいじょうぶだよ。" },
+        { "kanji": "大丈夫、そこまで深刻に考える必要はないよ。", "hiragana_full": "だいじょうぶ、そこまでしんこくにかんがえるひつようはないよ。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_125_8",
+      "example_sentence": "彼の話はそんなに長くないから、聞いてみて。",
+      "translation": "His story isn't all that long, so try listening to him.",
+      "blank_target": "そんなに",
+      "wrong_choices": ["とても", "あんなに", "どんなに"],
+      "wrong_choice_explanations": [
+        "とても 'very' is positive; とても長くない is awkward — そんなに and あまり are the standard adverbs that downplay a negative quality.",
+        "あんなに 'that much (distant)' would reference a previously known dramatic length, but the speaker is reassuring the listener relative to their imagined expectation; the listener-side そんなに is the fit.",
+        "どんなに 'no matter how' opens concessive clauses (どんなに長くても 'no matter how long it is'); it doesn't describe an actual moderate length."
+      ],
+      "hiragana_full": "かれのはなしはそんなにながくないから、きいてみて。",
+      "audio_alternatives": [
+        { "kanji": "彼のスピーチはそんなに長くないから、最後まで聞いてあげて。", "hiragana_full": "かれのすぴーちはそんなにながくないから、さいごまできいてあげて。" },
+        { "kanji": "数分で終わる話だから、ちょっと耳を貸してあげて。", "hiragana_full": "すうふんでおわるはなしだから、ちょっとみみをかしてあげて。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_125_9",
+      "example_sentence": "そんなにたくさんお金を使うのは無駄だよ。",
+      "translation": "Spending that much money is just a waste.",
+      "blank_target": "そんなに",
+      "wrong_choices": ["こんなに", "どんなに", "そんな"],
+      "wrong_choice_explanations": [
+        "こんなに 'this much' would point at the speaker's own demonstrated amount; here the speaker is criticizing the LISTENER'S spending, so the listener-side そんなに is correct.",
+        "どんなに 'no matter how much' opens a concessive (どんなにお金を使っても 'no matter how much you spend'); it doesn't deliver the direct verdict 'spending THAT much is wasteful'.",
+        "そんな needs a noun ('such [a thing]'); そんなたくさん is ungrammatical because the adverb form そんなに is required to scale たくさん, which is itself adverbial here."
+      ],
+      "hiragana_full": "そんなにたくさんおかねをつかうのはむだだよ。",
+      "audio_alternatives": [
+        { "kanji": "そんなに浪費するのは、本当にもったいないよ。", "hiragana_full": "そんなにろうひするのは、ほんとうにもったいないよ。" },
+        { "kanji": "必要以上にお金を使うのは無駄遣いだよ。", "hiragana_full": "ひつようじょうにおかねをつかうのはむだづかいだよ。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n4_125_10",
+      "example_sentence": "試験はそんなに簡単じゃなかった。",
+      "translation": "The exam wasn't all that easy.",
+      "blank_target": "そんなに",
+      "wrong_choices": ["とても", "あんなに", "どんなに"],
+      "wrong_choice_explanations": [
+        "とても 'very' pairs with affirmative predicates; とても簡単じゃなかった is unnatural, while そんなに/あまり are the standard adverbs for downplaying a negative claim.",
+        "あんなに 'that much (distant/famous)' would reference a previously displayed dramatic ease; the speaker is pushing back on an EXPECTED ease ('not as easy as people said'), where そんなに matches the dismissive nuance.",
+        "どんなに 'no matter how' starts concessive clauses (どんなに簡単でも 'no matter how easy'); it doesn't deliver a flat verdict on the test the speaker already took."
+      ],
+      "hiragana_full": "しけんはそんなにかんたんじゃなかった。",
+      "audio_alternatives": [
+        { "kanji": "今回の試験は予想していたほどそんなに易しくなかった。", "hiragana_full": "こんかいのしけんはよそうしていたほどそんなにやさしくなかった。" },
+        { "kanji": "テストは思ったよりずっと難しかった。", "hiragana_full": "てすとはおもったよりずっとむずかしかった。" }
+      ],
+      "audio_eligible": true
+    }
+  ]
+}

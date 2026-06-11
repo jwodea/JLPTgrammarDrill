@@ -101,4 +101,84 @@ struct SRSEngineTests {
         #expect(record.totalCorrect == 2)
         #expect(abs(record.accuracy - 2.0 / 3.0) < 1e-9)
     }
+
+    // MARK: - Aggregate rating (per-pattern session cadence)
+
+    @Test func aggregateRatingAllCorrectIsGood() {
+        #expect(SRSEngine.aggregateRating(correct: 3, total: 3) == .good)
+        #expect(SRSEngine.aggregateRating(correct: 1, total: 1) == .good)
+    }
+
+    @Test func aggregateRatingMajorityIsHard() {
+        #expect(SRSEngine.aggregateRating(correct: 2, total: 3) == .hard)
+        #expect(SRSEngine.aggregateRating(correct: 1, total: 2) == .hard)
+        #expect(SRSEngine.aggregateRating(correct: 3, total: 5) == .hard)
+    }
+
+    @Test func aggregateRatingMinorityIsAgain() {
+        #expect(SRSEngine.aggregateRating(correct: 1, total: 3) == .again)
+        #expect(SRSEngine.aggregateRating(correct: 0, total: 3) == .again)
+        #expect(SRSEngine.aggregateRating(correct: 0, total: 1) == .again)
+    }
+
+    @Test func aggregateRatingZeroAttemptsReturnsNil() {
+        #expect(SRSEngine.aggregateRating(correct: 0, total: 0) == nil)
+    }
+
+    /// Three intro sentences answered correctly should advance a new card exactly
+    /// like ONE `.good` review — not blow past `.learning` straight into `.review`
+    /// the way three rapid-fire `processAnswer` calls used to.
+    @Test func aggregatePathOnNewCardLandsInLearning() throws {
+        let context = try makeContext()
+        let record = makeRecord(context: context)
+        SRSEngine.applyRating(record: record, rating: .good, attemptsDelta: 3, correctDelta: 3)
+        // fsrsStatusRaw == 1 corresponds to .learning (see SRSRecord.update).
+        #expect(record.fsrsStatusRaw == 1)
+        #expect(record.totalAttempts == 3)
+        #expect(record.totalCorrect == 3)
+    }
+
+    /// A `.hard` aggregate (e.g. 2/3 first-try correct) should still leave the card
+    /// in `.learning` after one session — bumping it to `.review` requires another
+    /// successful session, matching the FSRS short-term step convention.
+    @Test func aggregatePathHardKeepsCardInLearning() throws {
+        let context = try makeContext()
+        let record = makeRecord(context: context)
+        SRSEngine.applyRating(record: record, rating: .hard, attemptsDelta: 3, correctDelta: 2)
+        #expect(record.fsrsStatusRaw == 1)
+        #expect(record.totalAttempts == 3)
+        #expect(record.totalCorrect == 2)
+    }
+
+    /// `.again` on a new card stays in `.learning` with a near-immediate due date —
+    /// no lapse counted because the card was never in `.review` to begin with.
+    @Test func aggregatePathAgainOnNewCardDoesNotLapse() throws {
+        let context = try makeContext()
+        let record = makeRecord(context: context)
+        let lapsesBefore = record.fsrsLapses
+        SRSEngine.applyRating(record: record, rating: .again, attemptsDelta: 3, correctDelta: 0)
+        #expect(record.fsrsLapses == lapsesBefore)
+        #expect(record.fsrsStatusRaw == 1)
+    }
+
+    /// Compared to the old behavior (three back-to-back `.good` calls), the aggregate
+    /// path should leave the card with a meaningfully shorter due date — one short-term
+    /// step away, not days into the future.
+    @Test func aggregatePathSchedulesShorterThanThreeRapidGoods() throws {
+        let context = try makeContext()
+        let now = Date()
+
+        let aggregateRecord = makeRecord(context: context, grammarId: "agg")
+        SRSEngine.applyRating(record: aggregateRecord, rating: .good,
+                              attemptsDelta: 3, correctDelta: 3, reviewTime: now)
+
+        let rapidRecord = makeRecord(context: context, grammarId: "rapid")
+        SRSEngine.processAnswer(record: rapidRecord, correct: true, reviewTime: now)
+        SRSEngine.processAnswer(record: rapidRecord, correct: true, reviewTime: now)
+        SRSEngine.processAnswer(record: rapidRecord, correct: true, reviewTime: now)
+
+        #expect(aggregateRecord.fsrsDue < rapidRecord.fsrsDue)
+        #expect(aggregateRecord.fsrsStatusRaw == 1) // .learning
+        #expect(rapidRecord.fsrsStatusRaw == 2)     // .review — overshot
+    }
 }

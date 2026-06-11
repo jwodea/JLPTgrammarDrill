@@ -4,7 +4,9 @@ import SwiftData
 /// Landing screen for the audio drill (発話) tab.
 struct AudioDrillHomeView: View {
     @Environment(\.modelContext) private var modelContext
+    @Environment(StoreManager.self) private var store
     @Query private var audioCards: [AudioCard]
+    @State private var showPaywall = false
 
     @AppStorage(AudioDrillSettings.activeLevelsCSVKey)
     private var activeLevelsCSV = AudioDrillSettings.defaultActiveLevelsCSV
@@ -40,6 +42,10 @@ struct AudioDrillHomeView: View {
             VStack(spacing: 16) {
                 header
 
+                if !store.isUnlocked {
+                    upgradeBanner.padding(.horizontal)
+                }
+
                 if !allExercises.isEmpty {
                     statsCard
                     primaryButtons
@@ -69,7 +75,7 @@ struct AudioDrillHomeView: View {
             AudioHistoryView(allExercises: allExercises)
         }
         .navigationDestination(isPresented: $navigateToBrowser) {
-            AudioBrowserView(allExercises: allExercises)
+            AudioBrowserView()
         }
         .navigationDestination(isPresented: $navigateToSettings) {
             AudioDrillSettingsView()
@@ -84,6 +90,47 @@ struct AudioDrillHomeView: View {
         .onChange(of: activeLevelsCSV) { reload() }
         .onChange(of: dailyNewCardBudget) { reload() }
         .onChange(of: learningPoolCap) { reload() }
+        .onChange(of: store.isUnlocked) { reload() }
+        .sheet(isPresented: $showPaywall) { PaywallView() }
+    }
+
+    private var upgradeBanner: some View {
+        Button {
+            showPaywall = true
+        } label: {
+            HStack(spacing: 12) {
+                Image(systemName: "lock.fill")
+                    .font(.system(size: scaled(16), weight: .semibold))
+                    .foregroundColor(.white)
+                    .frame(width: 36, height: 36)
+                    .background(
+                        LinearGradient(colors: [.accentColor, .pink],
+                                       startPoint: .leading, endPoint: .trailing)
+                    )
+                    .clipShape(RoundedRectangle(cornerRadius: 10))
+                VStack(alignment: .leading, spacing: 2) {
+                    Text("Unlock the full version")
+                        .font(.system(size: scaled(15), weight: .semibold))
+                        .foregroundColor(.primary)
+                    Text("Free: 20 sentences per level")
+                        .font(.system(size: scaled(12)))
+                        .foregroundColor(.secondary)
+                }
+                Spacer()
+                if let price = store.displayPrice {
+                    Text(price)
+                        .font(.system(size: scaled(15), weight: .semibold))
+                        .foregroundColor(.accentColor)
+                }
+                Image(systemName: "chevron.right")
+                    .font(.system(size: scaled(12), weight: .semibold))
+                    .foregroundColor(Color(.tertiaryLabel))
+            }
+            .padding(12)
+            .background(Color(.secondarySystemBackground))
+            .cornerRadius(12)
+        }
+        .buttonStyle(.plain)
     }
 
     // MARK: - Sections
@@ -219,9 +266,7 @@ struct AudioDrillHomeView: View {
     // MARK: - Actions
 
     private func reload() {
-        if allExercises.isEmpty {
-            allExercises = AudioExerciseLoader.loadAll()
-        }
+        allExercises = Entitlement.filterFreeAudio(AudioExerciseLoader.loadAll())
         queue = srs.buildQueue(
             activeLevels: activeLevels,
             dailyNewCardBudget: dailyNewCardBudget,
