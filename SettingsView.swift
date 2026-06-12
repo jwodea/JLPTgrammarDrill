@@ -5,11 +5,9 @@ struct SettingsView: View {
     static let enabledLevelsKey = "enabledJLPTLevels"
     static let defaultEnabledLevels = "N5,N4,N3,N2,N1"
     static let combinedDrillsKey = "combinedDrills"
-    private static let allLevels = ["N5", "N4", "N3", "N2", "N1"]
 
     @AppStorage(FontSizeManager.scaleKey) private var fontScale = FontSizeManager.defaultScale
     @AppStorage(SessionBuilder.defaultNewCountKey) private var defaultNewCount = SessionBuilder.defaultNewCount
-    @AppStorage(SettingsView.enabledLevelsKey) private var enabledLevelsString = SettingsView.defaultEnabledLevels
     @AppStorage(SettingsView.combinedDrillsKey) private var combinedDrills = false
     @Environment(\.dismiss) private var dismiss
     @Environment(\.modelContext) private var modelContext
@@ -17,23 +15,6 @@ struct SettingsView: View {
 
     @State private var showResetConfirmation = false
     @State private var showPaywall = false
-
-    private var enabledLevelsSet: Set<String> {
-        Set(enabledLevelsString.split(separator: ",").map(String.init))
-    }
-
-    private func toggleLevel(_ level: String) {
-        var current = enabledLevelsSet
-        if current.contains(level) {
-            // Don't allow disabling all levels
-            if current.count > 1 {
-                current.remove(level)
-            }
-        } else {
-            current.insert(level)
-        }
-        enabledLevelsString = Self.allLevels.filter { current.contains($0) }.joined(separator: ",")
-    }
 
     /// Snaps fontScale to the nearest step to avoid floating-point drift.
     private func snapScale() {
@@ -138,19 +119,6 @@ struct SettingsView: View {
                     if combinedDrills {
                         Text("Grammar and particle exercises will be mixed together in Grammar Drill sessions.")
                     }
-                }
-
-                Section {
-                    ForEach(Self.allLevels, id: \.self) { level in
-                        Toggle(level, isOn: Binding(
-                            get: { enabledLevelsSet.contains(level) },
-                            set: { _ in toggleLevel(level) }
-                        ))
-                    }
-                } header: {
-                    Text("JLPT Levels")
-                } footer: {
-                    Text("Choose which JLPT levels to include in study sessions.")
                 }
 
                 Section {
@@ -338,7 +306,7 @@ private struct HowItWorksView: View {
             icon: "slider.horizontal.3",
             color: .gray,
             title: "What you can adjust",
-            body: "**Settings** (gear on home):\n• New patterns per session\n• JLPT levels (N5–N1)\n• Mix particles into Grammar Drill (~15%)\n• Font size\n\n**Audio Settings** (inside Audio Drill):\n• Generosity threshold\n• New sentences per day\n• Voice + preview\n• Ignore final です/ます/だ"
+            body: "**JLPT levels** (N5–N1) are picked right on each home screen.\n\n**Settings** (gear on home):\n• New patterns per session\n• Mix particles into Grammar Drill (~15%)\n• Font size\n\n**Audio Settings** (inside Audio Drill):\n• Generosity threshold\n• New sentences per day\n• Voice + preview"
         ),
         Topic(
             icon: "lock.fill",

@@ -12,8 +12,7 @@ struct AudioDrillView: View {
 
     @AppStorage(AudioDrillSettings.thresholdKey)
     private var threshold = AudioDrillSettings.defaultThreshold
-    @AppStorage(AudioDrillSettings.stripFinalCopulaKey)
-    private var stripFinalCopula = AudioDrillSettings.defaultStripFinalCopula
+    private let stripFinalCopula = true
 
     @AppStorage(FontSizeManager.scaleKey)
     private var fontScale = FontSizeManager.defaultScale

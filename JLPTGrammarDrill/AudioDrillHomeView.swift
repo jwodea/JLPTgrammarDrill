@@ -29,6 +29,21 @@ struct AudioDrillHomeView: View {
         Set(activeLevelsCSV.split(separator: ",").map(String.init))
     }
 
+    private func toggleLevel(_ level: String) {
+        var current = activeLevels
+        if current.contains(level) {
+            // Don't allow disabling all levels.
+            if current.count > 1 {
+                current.remove(level)
+            }
+        } else {
+            current.insert(level)
+        }
+        activeLevelsCSV = AudioDrillSettings.allLevels
+            .filter { current.contains($0) }
+            .joined(separator: ",")
+    }
+
     private var srs: AudioSRSService {
         AudioSRSService(context: modelContext, allExercises: allExercises)
     }
@@ -41,6 +56,8 @@ struct AudioDrillHomeView: View {
         ScrollView {
             VStack(spacing: 16) {
                 header
+
+                levelPicker.padding(.horizontal)
 
                 if !store.isUnlocked {
                     upgradeBanner.padding(.horizontal)
@@ -92,6 +109,28 @@ struct AudioDrillHomeView: View {
         .onChange(of: learningPoolCap) { reload() }
         .onChange(of: store.isUnlocked) { reload() }
         .sheet(isPresented: $showPaywall) { PaywallView() }
+    }
+
+    private var levelPicker: some View {
+        HStack(spacing: 8) {
+            ForEach(AudioDrillSettings.allLevels, id: \.self) { level in
+                let isOn = activeLevels.contains(level)
+                Button {
+                    toggleLevel(level)
+                } label: {
+                    Text(level)
+                        .font(.system(size: scaled(14), weight: .semibold, design: .rounded))
+                        .frame(maxWidth: .infinity)
+                        .padding(.vertical, 8)
+                        .background(isOn ? Color.accentColor : Color(.secondarySystemBackground))
+                        .foregroundColor(isOn ? .white : .primary)
+                        .cornerRadius(10)
+                }
+                .buttonStyle(.plain)
+                .accessibilityLabel("JLPT \(level)")
+                .accessibilityAddTraits(isOn ? .isSelected : [])
+            }
+        }
     }
 
     private var upgradeBanner: some View {

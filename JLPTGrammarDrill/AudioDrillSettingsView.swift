@@ -8,14 +8,10 @@ struct AudioDrillSettingsView: View {
 
     @AppStorage(AudioDrillSettings.thresholdKey)
     private var threshold = AudioDrillSettings.defaultThreshold
-    @AppStorage(AudioDrillSettings.stripFinalCopulaKey)
-    private var stripFinalCopula = AudioDrillSettings.defaultStripFinalCopula
     @AppStorage(AudioDrillSettings.dailyNewCardBudgetKey)
     private var dailyNewCardBudget = AudioDrillSettings.defaultDailyNewCardBudget
     @AppStorage(AudioDrillSettings.learningPoolCapKey)
     private var learningPoolCap = AudioDrillSettings.defaultLearningPoolCap
-    @AppStorage(AudioDrillSettings.activeLevelsCSVKey)
-    private var activeLevelsCSV = AudioDrillSettings.defaultActiveLevelsCSV
     @AppStorage(AudioDrillSettings.voiceIdentifierKey)
     private var voiceIdentifier = AudioDrillSettings.defaultVoiceIdentifier
 
@@ -23,22 +19,6 @@ struct AudioDrillSettingsView: View {
     @State private var showDeleteAttemptsConfirm = false
     @State private var japaneseVoices: [AVSpeechSynthesisVoice] = []
     @State private var previewSpeaker = JapaneseSpeaker()
-
-    private var activeLevels: Set<String> {
-        Set(activeLevelsCSV.split(separator: ",").map(String.init))
-    }
-
-    private func toggleLevel(_ level: String) {
-        var current = activeLevels
-        if current.contains(level) {
-            if current.count > 1 { current.remove(level) }
-        } else {
-            current.insert(level)
-        }
-        activeLevelsCSV = AudioDrillSettings.allLevels
-            .filter { current.contains($0) }
-            .joined(separator: ",")
-    }
 
     private func voiceLabel(_ voice: AVSpeechSynthesisVoice) -> String {
         // iOS bakes the quality into voice.name on newer versions (e.g. "Otoya (Enhanced)").
@@ -67,17 +47,6 @@ struct AudioDrillSettingsView: View {
     var body: some View {
         Form {
             Section {
-                ForEach(AudioDrillSettings.allLevels, id: \.self) { level in
-                    Toggle(level, isOn: Binding(
-                        get: { activeLevels.contains(level) },
-                        set: { _ in toggleLevel(level) }
-                    ))
-                }
-            } header: { Text("Levels") } footer: {
-                Text("Which JLPT levels to include in the audio drill.")
-            }
-
-            Section {
                 VStack(alignment: .leading, spacing: 6) {
                     HStack {
                         Text("Generosity")
@@ -93,10 +62,8 @@ struct AudioDrillSettingsView: View {
                     }
                 }
                 .padding(.vertical, 4)
-
-                Toggle("Ignore sentence-final です/ます/だ", isOn: $stripFinalCopula)
             } header: { Text("Matching") } footer: {
-                Text("Lower threshold accepts looser pronunciation. The toggle drops trailing copulas like です/ます/だ when comparing.")
+                Text("Lower threshold accepts looser pronunciation.")
             }
 
             Section {

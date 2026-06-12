@@ -70,8 +70,27 @@ struct HomeView: View {
         }
     }
 
+    private static let allLevels = ["N5", "N4", "N3", "N2", "N1"]
+
+    private var enabledLevelsSet: Set<String> {
+        Set(enabledLevelsString.split(separator: ",").map(String.init))
+    }
+
+    private func toggleLevel(_ level: String) {
+        var current = enabledLevelsSet
+        if current.contains(level) {
+            // Don't allow disabling all levels.
+            if current.count > 1 {
+                current.remove(level)
+            }
+        } else {
+            current.insert(level)
+        }
+        enabledLevelsString = Self.allLevels.filter { current.contains($0) }.joined(separator: ",")
+    }
+
     private var activeGrammarPoints: [GrammarPoint] {
-        let levels = Set(enabledLevelsString.split(separator: ",").map(String.init))
+        let levels = enabledLevelsSet
         return grammarPoints.filter { levels.contains($0.level) }
     }
 
@@ -190,6 +209,9 @@ struct HomeView: View {
                     }
                 }
                 .padding(.top, 12)
+
+                levelPicker
+                    .padding(.horizontal)
 
                 if !store.isUnlocked {
                     upgradeBanner
@@ -350,6 +372,28 @@ struct HomeView: View {
         }
         .sheet(isPresented: $showPaywall) {
             PaywallView()
+        }
+    }
+
+    private var levelPicker: some View {
+        HStack(spacing: 8) {
+            ForEach(Self.allLevels, id: \.self) { level in
+                let isOn = enabledLevelsSet.contains(level)
+                Button {
+                    toggleLevel(level)
+                } label: {
+                    Text(level)
+                        .font(.system(size: scaled(14), weight: .semibold, design: .rounded))
+                        .frame(maxWidth: .infinity)
+                        .padding(.vertical, 8)
+                        .background(isOn ? Color.accentColor : Color(.secondarySystemBackground))
+                        .foregroundColor(isOn ? .white : .primary)
+                        .cornerRadius(10)
+                }
+                .buttonStyle(.plain)
+                .accessibilityLabel("JLPT \(level)")
+                .accessibilityAddTraits(isOn ? .isSelected : [])
+            }
         }
     }
 
