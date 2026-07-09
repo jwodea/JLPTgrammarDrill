@@ -1,0 +1,188 @@
+{
+  "id": "n3_132",
+  "pattern": "〜上げる・〜上がる",
+  "meaning": "to finish doing something completely (with a sense of accomplishment)",
+  "level": "N3",
+  "exercises": [
+    {
+      "id": "n3_132_1",
+      "example_sentence": "彼は三年かけて、ようやく小説を書き上げた。",
+      "translation": "After three years, he finally finished writing his novel.",
+      "blank_target": "上げた",
+      "wrong_choices": ["かけた", "出した", "直した"],
+      "wrong_choice_explanations": [
+        "書きかけた means he started writing and left it unfinished, which contradicts ようやく, showing the novel was finally brought to completion.",
+        "書き出した means 'started writing,' but 三年かけてようやく indicates the long effort ended in completion, not a beginning.",
+        "書き直した means 'rewrote,' but nothing in the sentence mentions an earlier version to revise; the point is finishing after three years of work."
+      ],
+      "hiragana_full": "かれはさんねんかけて、ようやくしょうせつをかきあげた。",
+      "audio_alternatives": [
+        { "kanji": "三年かかって、彼はついに小説を完成させた。", "hiragana_full": "さんねんかかって、かれはついにしょうせつをかんせいさせた。" },
+        { "kanji": "彼は長い時間をかけて小説を書き上げた。", "hiragana_full": "かれはながいじかんをかけてしょうせつをかきあげた。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n3_132_2",
+      "example_sentence": "パンがふっくらと焼き上がった。",
+      "translation": "The bread baked up nice and fluffy.",
+      "blank_target": "上がった",
+      "wrong_choices": ["上げた", "かけた", "出した"],
+      "wrong_choice_explanations": [
+        "焼き上げた is transitive and needs a baker as the subject with パンを as the object; here パンが is the subject, so the intransitive 上がった is required.",
+        "焼きかけた is also transitive and would mean someone started baking and stopped partway, contradicting the finished, fluffy state described by ふっくらと.",
+        "焼き出した would mean someone 'suddenly started baking'; besides needing a person as subject, the sentence describes completion, not a beginning."
+      ],
+      "hiragana_full": "ぱんがふっくらとやきあがった。",
+      "audio_alternatives": [
+        { "kanji": "パンがおいしそうに焼き上がりました。", "hiragana_full": "ぱんがおいしそうにやきあがりました。" },
+        { "kanji": "ふっくらしたパンが焼けた。", "hiragana_full": "ふっくらしたぱんがやけた。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n3_132_3",
+      "example_sentence": "彼らは十年かけて、ついに新しい辞書を作り上げた。",
+      "translation": "After ten years of work, they finally completed the new dictionary.",
+      "blank_target": "上げた",
+      "wrong_choices": ["かけた", "出した", "直した"],
+      "wrong_choice_explanations": [
+        "作りかけた means they started making it and left it unfinished, which contradicts ついに, showing the dictionary was at last completed.",
+        "作り出した emphasizes bringing something into existence or starting to make it; it does not express carrying the work through to the end, which 十年かけてついに requires.",
+        "作り直した means 'remade from scratch,' but the sentence describes one long effort reaching completion, not redoing a failed earlier version."
+      ],
+      "hiragana_full": "かれらはじゅうねんかけて、ついにあたらしいじしょをつくりあげた。",
+      "audio_alternatives": [
+        { "kanji": "十年の歳月をかけて、新しい辞書がついに完成した。", "hiragana_full": "じゅうねんのさいげつをかけて、あたらしいじしょがついにかんせいした。" },
+        { "kanji": "彼らは長年かけて辞書を作り上げたのだ。", "hiragana_full": "かれらはながねんかけてじしょをつくりあげたのだ。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n3_132_4",
+      "example_sentence": "母は一人で三人の子供を育て上げた。",
+      "translation": "My mother raised three children to adulthood all by herself.",
+      "blank_target": "上げた",
+      "wrong_choices": ["上がった", "かけた", "直した"],
+      "wrong_choice_explanations": [
+        "上がる is intransitive and cannot take the object 三人の子供を; since 母 actively raised them, the transitive 上げる is needed.",
+        "育てかけた would mean she raised them partway and stopped, but 育て上げる expresses the accomplishment of raising them all the way to adulthood.",
+        "育て直した would mean 'raised them over again,' but nothing in the sentence suggests a failed first attempt at raising them."
+      ],
+      "hiragana_full": "はははひとりでさんにんのこどもをそだてあげた。",
+      "audio_alternatives": [
+        { "kanji": "母は女手一つで子供たちを立派に育て上げた。", "hiragana_full": "はははおんなでひとつでこどもたちをりっぱにそだてあげた。" },
+        { "kanji": "母は一人で三人の子供を育てた。", "hiragana_full": "はははひとりでさんにんのこどもをそだてた。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n3_132_5",
+      "example_sentence": "卒業式までにドレスを縫い上げるつもりです。",
+      "translation": "I plan to finish sewing the dress by the graduation ceremony.",
+      "blank_target": "上げる",
+      "wrong_choices": ["上がる", "かける", "直す"],
+      "wrong_choice_explanations": [
+        "縫い上がる is intransitive ('be sewn up'), but the sentence has the object ドレスを and an implied human subject, so the transitive 上げる is required.",
+        "縫いかける means to start sewing and leave it half-done, which contradicts the deadline までに, implying the dress will be completed by then.",
+        "縫い直す means to re-sew something already made; the sentence is about finishing the dress for the first time, not fixing it."
+      ],
+      "hiragana_full": "そつぎょうしきまでにどれすをぬいあげるつもりです。",
+      "audio_alternatives": [
+        { "kanji": "卒業式までにドレスを完成させるつもりです。", "hiragana_full": "そつぎょうしきまでにどれすをかんせいさせるつもりです。" },
+        { "kanji": "式の日までに、このドレスを縫い上げたいです。", "hiragana_full": "しきのひまでに、このどれすをぬいあげたいです。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n3_132_6",
+      "example_sentence": "ご飯が炊き上がったら、すぐに呼んでください。",
+      "translation": "Please call me as soon as the rice finishes cooking.",
+      "blank_target": "上がったら",
+      "wrong_choices": ["上げたら", "かけたら", "出したら"],
+      "wrong_choice_explanations": [
+        "炊き上げたら is transitive and would need a cook as subject with ご飯を; here ご飯が is the subject, so the intransitive 上がったら is required.",
+        "炊きかけたら would mean the rice was only partway through cooking, but the request is to be called when it is completely done.",
+        "炊き出したら would suggest suddenly starting to cook; the sentence is about the moment cooking finishes, not begins."
+      ],
+      "hiragana_full": "ごはんがたきあがったら、すぐによんでください。",
+      "audio_alternatives": [
+        { "kanji": "ご飯が炊けたら、教えてください。", "hiragana_full": "ごはんがたけたら、おしえてください。" },
+        { "kanji": "ご飯が炊き上がり次第、声をかけてください。", "hiragana_full": "ごはんがたきあがりしだい、こえをかけてください。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n3_132_7",
+      "example_sentence": "職人は靴を丁寧に磨き上げた。",
+      "translation": "The craftsman polished the shoes to a perfect shine.",
+      "blank_target": "上げた",
+      "wrong_choices": ["上がった", "かけた", "出した"],
+      "wrong_choice_explanations": [
+        "磨き上がった is intransitive and cannot take the object 靴を; the craftsman is doing the polishing, so the transitive 上げる is needed.",
+        "磨きかけた means he started polishing and stopped midway, which clashes with 丁寧に, describing careful work carried through to a finished shine.",
+        "磨き出した would mean 'suddenly started polishing,' describing the beginning of the action rather than bringing it to a polished finish."
+      ],
+      "hiragana_full": "しょくにんはくつをていねいにみがきあげた。",
+      "audio_alternatives": [
+        { "kanji": "職人は靴をぴかぴかになるまで磨いた。", "hiragana_full": "しょくにんはくつをぴかぴかになるまでみがいた。" },
+        { "kanji": "靴は職人の手で美しく磨き上げられた。", "hiragana_full": "くつはしょくにんのてでうつくしくみがきあげられた。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n3_132_8",
+      "example_sentence": "一時間かけて、やっと夕食が出来上がった。",
+      "translation": "After a whole hour, dinner was finally ready.",
+      "blank_target": "上がった",
+      "wrong_choices": ["上げた", "かけた", "始めた"],
+      "wrong_choice_explanations": [
+        "出来上げた does not exist: 出来る is intransitive, so it pairs with the intransitive 上がる; with 夕食が as subject, 上がった is the only possible form.",
+        "出来かけた would mean dinner was only half-done, contradicting やっと, which signals that the process finally reached completion.",
+        "出来始めた means dinner 'began to take shape,' but 一時間かけてやっと describes the end of the process, not its beginning."
+      ],
+      "hiragana_full": "いちじかんかけて、やっとゆうしょくができあがった。",
+      "audio_alternatives": [
+        { "kanji": "一時間かかって、ようやく夕食が完成した。", "hiragana_full": "いちじかんかかって、ようやくゆうしょくがかんせいした。" },
+        { "kanji": "夕食がやっと出来上がりました。", "hiragana_full": "ゆうしょくがやっとできあがりました。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n3_132_9",
+      "example_sentence": "祖母は冬が来る前に、セーターを編み上げた。",
+      "translation": "My grandmother finished knitting the sweater before winter came.",
+      "blank_target": "上げた",
+      "wrong_choices": ["上がった", "かけた", "直した"],
+      "wrong_choice_explanations": [
+        "編み上がった is intransitive and cannot take the object セーターを; the grandmother is the one knitting, so the transitive 上げる is required.",
+        "編みかけた means she started knitting and left it unfinished, which contradicts the sense that the sweater was completed in time for winter.",
+        "編み直した means to unravel and knit again, but the sentence describes finishing the sweater, not redoing a botched attempt."
+      ],
+      "hiragana_full": "そぼはふゆがくるまえに、せーたーをあみあげた。",
+      "audio_alternatives": [
+        { "kanji": "祖母は寒くなる前にセーターを編み上げました。", "hiragana_full": "そぼはさむくなるまえにせーたーをあみあげました。" },
+        { "kanji": "冬が来る前に、祖母はセーターを完成させた。", "hiragana_full": "ふゆがくるまえに、そぼはせーたーをかんせいさせた。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n3_132_10",
+      "example_sentence": "画家はその大作を半年で描き上げた。",
+      "translation": "The painter completed the large work in just half a year.",
+      "blank_target": "上げた",
+      "wrong_choices": ["かけた", "出した", "続けた"],
+      "wrong_choice_explanations": [
+        "描きかけた means he started the painting and left it unfinished, but 半年で ('in half a year') expresses the time within which the work was completed.",
+        "描き出した means 'started to paint' or 'began to depict,' describing the start of the work, while the sentence is about bringing the large work to completion.",
+        "描き続けた means 'kept painting'; continuous duration would take 半年間, whereas 半年で marks the span in which the task was finished, so a completion verb is needed."
+      ],
+      "hiragana_full": "がかはそのたいさくをはんとしでえがきあげた。",
+      "audio_alternatives": [
+        { "kanji": "画家はわずか半年でその大きな絵を完成させた。", "hiragana_full": "がかはわずかはんとしでそのおおきなえをかんせいさせた。" },
+        { "kanji": "その大作は半年で描き上げられた。", "hiragana_full": "そのたいさくははんとしでえがきあげられた。" }
+      ],
+      "audio_eligible": true
+    }
+  ]
+}

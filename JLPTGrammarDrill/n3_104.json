@@ -1,0 +1,188 @@
+{
+  "id": "n3_104",
+  "pattern": "なぜなら〜から",
+  "meaning": "because; the reason is (that)…",
+  "level": "N3",
+  "exercises": [
+    {
+      "id": "n3_104_1",
+      "example_sentence": "私は今日早く帰ります。なぜなら、母の誕生日だからです。",
+      "translation": "I'm going home early today. The reason is that it's my mother's birthday.",
+      "blank_target": "なぜなら",
+      "wrong_choices": ["だから", "それで", "つまり"],
+      "wrong_choice_explanations": [
+        "だから means 'so/therefore' and introduces a result, but the second sentence states the cause (the birthday) that だからです completes, so the reason-marker なぜなら is needed.",
+        "それで means 'and so' and also presents a consequence, not the cause; it would not pair with だからです to state why she leaves early.",
+        "つまり means 'in other words' and signals a restatement or summary, not a reason for going home early."
+      ],
+      "hiragana_full": "わたしはきょうはやくかえります。なぜなら、ははのたんじょうびだからです。",
+      "audio_alternatives": [
+        { "kanji": "今日は早めに帰ります。なぜなら母の誕生日だからです。", "hiragana_full": "きょうははやめにかえります。なぜならははのたんじょうびだからです。" },
+        { "kanji": "母の誕生日なので、今日は早く帰ります。", "hiragana_full": "ははのたんじょうびなので、きょうははやくかえります。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n3_104_2",
+      "example_sentence": "この計画は中止になった。なぜなら、予算が足りなかったからだ。",
+      "translation": "This plan was canceled. The reason is that the budget was insufficient.",
+      "blank_target": "なぜなら",
+      "wrong_choices": ["だから", "ところが", "なお"],
+      "wrong_choice_explanations": [
+        "だから means 'therefore' and points to a result, but the clause about the budget is the cause of the cancellation, so なぜなら is required.",
+        "ところが means 'however' and marks an unexpected contrast, which contradicts the explanatory link that からだ completes.",
+        "なお means 'furthermore/in addition' and supplements information rather than giving the reason for the cancellation."
+      ],
+      "hiragana_full": "このけいかくはちゅうしになった。なぜなら、よさんがたりなかったからだ。",
+      "audio_alternatives": [
+        { "kanji": "この計画は中止になった。なぜなら予算が不足していたからだ。", "hiragana_full": "このけいかくはちゅうしになった。なぜならよさんがふそくしていたからだ。" },
+        { "kanji": "予算が足りず、この計画は中止になった。", "hiragana_full": "よさんがたりず、このけいかくはちゅうしになった。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n3_104_3",
+      "example_sentence": "彼の意見に賛成できない。なぜなら、現実的ではないからだ。",
+      "translation": "I can't agree with his opinion. The reason is that it isn't realistic.",
+      "blank_target": "なぜなら",
+      "wrong_choices": ["しかし", "それで", "なお"],
+      "wrong_choice_explanations": [
+        "しかし means 'but/however' and is contrastive, the opposite of supplying the reason that からだ completes.",
+        "それで means 'and so' and introduces a consequence, not the cause of the disagreement.",
+        "なお means 'furthermore' and adds supplementary information rather than explaining why he can't agree."
+      ],
+      "hiragana_full": "かれのいけんにさんせいできない。なぜなら、げんじつてきではないからだ。",
+      "audio_alternatives": [
+        { "kanji": "彼の意見には賛成できない。なぜなら現実的ではないからだ。", "hiragana_full": "かれのいけんにはさんせいできない。なぜならげんじつてきではないからだ。" },
+        { "kanji": "現実的ではないので、彼の意見には賛成できない。", "hiragana_full": "げんじつてきではないので、かれのいけんにはさんせいできない。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n3_104_4",
+      "example_sentence": "留学を決めた。なぜなら、本場で語学を学びたかったからだ。",
+      "translation": "I decided to study abroad. The reason is that I wanted to learn the language in its home country.",
+      "blank_target": "なぜなら",
+      "wrong_choices": ["そのため", "さて", "つまり"],
+      "wrong_choice_explanations": [
+        "そのため means 'for that reason/therefore' and points forward to a result, but here the clause is itself the reason, so なぜなら fits.",
+        "さて is a topic-shifting 'now then' and is unrelated to giving a cause.",
+        "つまり means 'in other words' and restates a point rather than explaining why the decision was made."
+      ],
+      "hiragana_full": "りゅうがくをきめた。なぜなら、ほんばでごがくをまなびたかったからだ。",
+      "audio_alternatives": [
+        { "kanji": "留学を決意した。なぜなら本場で語学を学びたかったからだ。", "hiragana_full": "りゅうがくをけついした。なぜならほんばでごがくをまなびたかったからだ。" },
+        { "kanji": "本場で語学を学びたくて、留学を決めた。", "hiragana_full": "ほんばでごがくをまなびたくて、りゅうがくをきめた。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n3_104_5",
+      "example_sentence": "来月の会議は延期します。なぜなら、会場の都合がつかないからです。",
+      "translation": "Next month's meeting will be postponed. The reason is that the venue is unavailable.",
+      "blank_target": "なぜなら",
+      "wrong_choices": ["したがって", "それでは", "ですが"],
+      "wrong_choice_explanations": [
+        "したがって means 'therefore' and draws a conclusion from premises; it can't introduce the cause that からです marks.",
+        "それでは means 'well then' and signals a transition to action, not a reason.",
+        "ですが means 'however' and is contrastive, opposing rather than explaining the postponement."
+      ],
+      "hiragana_full": "らいげつのかいぎはえんきします。なぜなら、かいじょうのつごうがつかないからです。",
+      "audio_alternatives": [
+        { "kanji": "来月の会議は延期いたします。なぜなら会場の都合がつかないからです。", "hiragana_full": "らいげつのかいぎはえんきいたします。なぜならかいじょうのつごうがつかないからです。" },
+        { "kanji": "会場の都合がつかないため、来月の会議は延期します。", "hiragana_full": "かいじょうのつごうがつかないため、らいげつのかいぎはえんきします。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n3_104_6",
+      "example_sentence": "子どもには早く寝てほしい。なぜなら、十分な睡眠が成長に欠かせないからだ。",
+      "translation": "I want my child to go to bed early. The reason is that enough sleep is essential to growth.",
+      "blank_target": "なぜなら",
+      "wrong_choices": ["だから", "ただし", "なお"],
+      "wrong_choice_explanations": [
+        "だから means 'therefore' and gives a result, but the clause about sleep is the reason, so なぜなら is required.",
+        "ただし means 'however/provided that' and adds a condition or exception, not a cause.",
+        "なお means 'furthermore' and supplements information rather than explaining why."
+      ],
+      "hiragana_full": "こどもにははやくねてほしい。なぜなら、じゅうぶんなすいみんがせいちょうにかかせないからだ。",
+      "audio_alternatives": [
+        { "kanji": "子どもには早く寝てほしい。なぜなら十分な睡眠が成長に欠かせないからだ。", "hiragana_full": "こどもにははやくねてほしい。なぜならじゅうぶんなすいみんがせいちょうにかかせないからだ。" },
+        { "kanji": "十分な睡眠は成長に欠かせないので、子どもには早く寝てほしい。", "hiragana_full": "じゅうぶんなすいみんはせいちょうにかかせないので、こどもにははやくねてほしい。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n3_104_7",
+      "example_sentence": "値上げを決定いたしました。なぜなら、原材料の価格が高騰しているからです。",
+      "translation": "We have decided to raise prices. The reason is that the cost of raw materials is soaring.",
+      "blank_target": "なぜなら",
+      "wrong_choices": ["そこで", "つまり", "それなのに"],
+      "wrong_choice_explanations": [
+        "そこで means 'thereupon/so' and introduces an action taken in response, not the underlying cause.",
+        "つまり means 'in other words' and restates a point instead of giving the reason.",
+        "それなのに means 'and yet' and marks a contradiction, clashing with the explanatory からです."
+      ],
+      "hiragana_full": "ねあげをけっていいたしました。なぜなら、げんざいりょうのかかくがこうとうしているからです。",
+      "audio_alternatives": [
+        { "kanji": "値上げを決定いたしました。なぜなら原材料費が高騰しているからです。", "hiragana_full": "ねあげをけっていいたしました。なぜならげんざいりょうひがこうとうしているからです。" },
+        { "kanji": "原材料の価格が高騰しているため、値上げを決定しました。", "hiragana_full": "げんざいりょうのかかくがこうとうしているため、ねあげをけっていしました。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n3_104_8",
+      "example_sentence": "彼女は信頼されている。なぜなら、約束を必ず守るからだ。",
+      "translation": "She is trusted. The reason is that she always keeps her promises.",
+      "blank_target": "なぜなら",
+      "wrong_choices": ["だから", "とはいえ", "それで"],
+      "wrong_choice_explanations": [
+        "だから means 'therefore' and gives a result, but the clause about keeping promises is the reason she is trusted, so なぜなら fits.",
+        "とはいえ means 'that said/even so' and concedes a contrast, not a cause.",
+        "それで means 'and so' and presents a consequence, not why she is trusted."
+      ],
+      "hiragana_full": "かのじょはしんらいされている。なぜなら、やくそくをかならずまもるからだ。",
+      "audio_alternatives": [
+        { "kanji": "彼女は皆に信頼されている。なぜなら約束を必ず守るからだ。", "hiragana_full": "かのじょはみなにしんらいされている。なぜならやくそくをかならずまもるからだ。" },
+        { "kanji": "約束を必ず守るので、彼女は信頼されている。", "hiragana_full": "やくそくをかならずまもるので、かのじょはしんらいされている。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n3_104_9",
+      "example_sentence": "この道は通れません。なぜなら、工事中だからです。",
+      "translation": "This road is impassable. The reason is that it's under construction.",
+      "blank_target": "なぜなら",
+      "wrong_choices": ["ところで", "したがって", "でも"],
+      "wrong_choice_explanations": [
+        "ところで means 'by the way' and changes the topic, unrelated to giving a reason.",
+        "したがって means 'therefore' and gives a conclusion, not the cause that からです marks.",
+        "でも means 'but' and is contrastive, opposing rather than explaining why the road is closed."
+      ],
+      "hiragana_full": "このみちはとおれません。なぜなら、こうじちゅうだからです。",
+      "audio_alternatives": [
+        { "kanji": "ただいまこの道は通行止めです。なぜなら工事中だからです。", "hiragana_full": "ただいまこのみちはつうこうどめです。なぜならこうじちゅうだからです。" },
+        { "kanji": "工事中のため、この道は通れません。", "hiragana_full": "こうじちゅうのため、このみちはとおれません。" }
+      ],
+      "audio_eligible": true
+    },
+    {
+      "id": "n3_104_10",
+      "example_sentence": "歴史を学ぶ意義は大きい。なぜなら、過去から未来へのヒントが得られるからだ。",
+      "translation": "There is great significance in studying history. The reason is that we can gain hints for the future from the past.",
+      "blank_target": "なぜなら",
+      "wrong_choices": ["つまり", "それゆえ", "ただ"],
+      "wrong_choice_explanations": [
+        "つまり means 'in other words' and restates a point rather than explaining why.",
+        "それゆえ means 'therefore/hence' and is a result-marker drawing a conclusion, the reverse of introducing the cause that からだ completes.",
+        "ただ means 'however/only' and adds a caveat, not a reason."
+      ],
+      "hiragana_full": "れきしをまなぶいぎはおおきい。なぜなら、かこからみらいへのひんとがえられるからだ。",
+      "audio_alternatives": [
+        { "kanji": "歴史を学ぶ意義は大きい。なぜなら過去から未来へのヒントが得られるからだ。", "hiragana_full": "れきしをまなぶいぎはおおきい。なぜならかこからみらいへのひんとがえられるからだ。" },
+        { "kanji": "過去から未来へのヒントが得られるので、歴史を学ぶ意義は大きい。", "hiragana_full": "かこからみらいへのひんとがえられるので、れきしをまなぶいぎはおおきい。" }
+      ],
+      "audio_eligible": true
+    }
+  ]
+}

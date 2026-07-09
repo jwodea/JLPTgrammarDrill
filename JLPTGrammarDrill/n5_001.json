@@ -10,12 +10,12 @@
       "translation": "This is a book.",
       "blank_target": "です",
       "wrong_choices": [
-        "だ",
+        "かった",
         "でした",
         "ある"
       ],
       "wrong_choice_explanations": [
-        "だ is the plain copula; this sentence requires the polite form です.",
+        "かった is the past-tense ending of い-adjectives (高い→高かった); it cannot attach to the noun 本, so 本かった is ungrammatical — a noun predicate takes the copula です.",
         "でした is the past polite copula, but the sentence is present tense.",
         "ある means 'to exist' for inanimate objects but cannot link a noun predicate."
       ],
@@ -38,12 +38,12 @@
       "translation": "I am a student.",
       "blank_target": "です",
       "wrong_choices": [
-        "だ",
+        "くない",
         "ます",
         "いる"
       ],
       "wrong_choice_explanations": [
-        "だ is the plain form copula; the sentence requires the polite form.",
+        "くない is the negative ending of い-adjectives (高くない); it cannot follow the noun 学生, so 学生くない is ungrammatical — the polite negative of a noun is じゃないです and the affirmative is です.",
         "ます is a polite verb ending, not used after nouns.",
         "いる means 'to exist' and cannot link a noun predicate."
       ],
@@ -94,12 +94,12 @@
       "translation": "Today is Monday.",
       "blank_target": "です",
       "wrong_choices": [
-        "だ",
+        "ます",
         "ない",
         "でした"
       ],
       "wrong_choice_explanations": [
-        "だ is the plain-form copula; this sentence calls for the polite です.",
+        "ます is a polite verb ending and attaches to verb stems (行きます), not to a noun; 月曜日ます is ungrammatical, since a noun predicate takes the copula です.",
         "ない is the negative ending used with い-adjectives (高くない, 寒くない) — for a noun predicate the negative is じゃない (e.g. 月曜日じゃないです), so 月曜日ない is not valid Japanese.",
         "でした is the past polite copula; since the sentence is about today, the present です is required."
       ],
@@ -150,12 +150,12 @@
       "translation": "She is American.",
       "blank_target": "です",
       "wrong_choices": [
-        "だ",
+        "くない",
         "ます",
         "じゃない"
       ],
       "wrong_choice_explanations": [
-        "だ is plain form; polite form is required.",
+        "くない is an い-adjective negative ending; アメリカ人くない is ungrammatical because アメリカ人 is a noun — its polite negative is じゃないです and its affirmative is です.",
         "ます is a verb ending, not a noun copula.",
         "じゃない is the negative plain copula ('is not'), which reverses the sentence meaning."
       ],
@@ -206,12 +206,12 @@
       "translation": "This place is a station.",
       "blank_target": "です",
       "wrong_choices": [
-        "だ",
+        "かった",
         "でした",
         "いる"
       ],
       "wrong_choice_explanations": [
-        "だ is the plain copula; polite form is needed.",
+        "かった is the past form of い-adjectives (高かった); the noun 駅 cannot take かった, so 駅かった is ungrammatical — it requires the copula (です / past でした).",
         "でした is past polite; the sentence describes a current fact.",
         "いる refers to the existence of living things, not places."
       ],
@@ -234,12 +234,12 @@
       "translation": "That over there is Mt. Fuji.",
       "blank_target": "です",
       "wrong_choices": [
-        "だ",
+        "ます",
         "ある",
         "いる"
       ],
       "wrong_choice_explanations": [
-        "だ is the plain-form copula; the sentence's polite register calls for です.",
+        "ます is a polite verb ending attached to verb stems, not nouns; 富士山ます is ungrammatical, and identifying あれ as 富士山 needs the copula です.",
         "ある means 'exists' for inanimate things — you can say 富士山がある, but ある cannot identify あれ as 富士山 the way the copula does.",
         "いる expresses existence for animate beings, so it doesn't fit Mt. Fuji and also can't function as a copula."
       ],
@@ -262,12 +262,12 @@
       "translation": "Tomorrow is a holiday.",
       "blank_target": "です",
       "wrong_choices": [
-        "だ",
+        "くない",
         "ます",
         "だった"
       ],
       "wrong_choice_explanations": [
-        "だ is plain form, not polite.",
+        "くない is the negative ending of い-adjectives; 休み is a noun, so 休みくない is ungrammatical — the polite copula です is needed (negative: 休みじゃないです).",
         "ます is for verbs, not noun predicates.",
         "だった is past plain form; the sentence is about tomorrow (future)."
       ],

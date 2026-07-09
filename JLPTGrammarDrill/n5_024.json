@@ -10,12 +10,12 @@
       "translation": "I am a student.",
       "blank_target": "です",
       "wrong_choices": [
-        "だ",
+        "くない",
         "である",
         "であります"
       ],
       "wrong_choice_explanations": [
-        "だ is the plain form copula — it's too casual for polite conversation.",
+        "くない is the negative ending of い-adjectives (高くない); it cannot attach to the noun 学生, so 学生くない is ungrammatical — the polite negative of a noun is じゃないです.",
         "である is formal written language — it's not used in spoken conversation.",
         "であります is very formal military/official language — it's unnecessarily stiff for normal polite speech."
       ],
@@ -71,7 +71,7 @@
         "から"
       ],
       "wrong_choice_explanations": [
-        "だった is plain past tense — it's too casual and refers to past time.",
+        "だった follows nouns and な-adjectives, not い-adjectives — the past of 面白い is 面白かった, so 面白いだった is ungrammatical (polite: 面白かったです).",
         "なので means 'so/because' — it would start a reason or result, not complete the statement.",
         "から means 'from' or 'because' — it doesn't function as a copula to complete the sentence."
       ],
@@ -150,12 +150,12 @@
       "translation": "That person is famous.",
       "blank_target": "です",
       "wrong_choices": [
-        "だ",
+        "かった",
         "だね",
         "よね"
       ],
       "wrong_choice_explanations": [
-        "だ is the plain form copula — it's too casual for polite conversation.",
+        "かった is the past-tense ending of い-adjectives (高かった); 有名 is a な-adjective, so 有名かった is ungrammatical — its past is 有名でした (polite) or 有名だった (plain).",
         "だね is casual and seeks agreement — it's too informal for polite speech.",
         "よね seeks confirmation — it's incomplete without a copula before it."
       ],
@@ -178,14 +178,14 @@
       "translation": "This year is warm.",
       "blank_target": "です",
       "wrong_choices": [
-        "でしょうか",
-        "ですか",
-        "ですね"
+        "だ",
+        "だった",
+        "である"
       ],
       "wrong_choice_explanations": [
-        "でしょうか forms a question expressing uncertainty — but this is stated as fact.",
-        "ですか forms a question — but this sentence is making a statement, not asking.",
-        "ですね seeks agreement — while grammatical, the context suggests a simple statement."
+        "だ does not attach to い-adjectives in standard Japanese — 暖かいだ is ungrammatical; the polite form of an い-adjective simply adds です (暖かいです).",
+        "だった follows nouns and な-adjectives, not い-adjectives — the past of 暖かい is 暖かかった, so 暖かいだった is ungrammatical (polite: 暖かかったです).",
+        "である is the formal written copula for nouns and な-adjectives; it cannot attach to the い-adjective 暖かい, so 暖かいである is ungrammatical."
       ],
       "hiragana_full": "ことしはあたたかいです。",
       "audio_alternatives": [
