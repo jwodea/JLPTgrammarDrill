@@ -30,7 +30,20 @@
           "hiragana_full": "ぼくもにほんごをべんきょうしています。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "日本語",
+          "reading": "にほんご",
+          "meaning": "Japanese (language)"
+        },
+        {
+          "word": "勉強しています",
+          "reading": "べんきょうしています",
+          "meaning": "am studying"
+        }
+      ]
     },
     {
       "id": "n5_015_2",
@@ -58,7 +71,15 @@
           "hiragana_full": "たなかさんもきませんでしたよ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "来ませんでした",
+          "reading": "きませんでした",
+          "meaning": "did not come"
+        }
+      ]
     },
     {
       "id": "n5_015_3",
@@ -66,13 +87,13 @@
       "translation": "There is both coffee and tea.",
       "blank_target": "も",
       "wrong_choices": [
-        "と",
-        "や",
+        "が",
+        "は",
         "だけ"
       ],
       "wrong_choice_explanations": [
-        "と means 'and' for complete lists — it doesn't emphasize that both items are included like も does in this parallel structure.",
-        "や means 'and' for incomplete lists — it doesn't emphasize that both items are included like も does.",
+        "が marks a subject — コーヒーが紅茶もあります double-marks the subject slot and breaks the sentence; the paired 'both A and B' meaning needs も on each item.",
+        "は marks a topic — コーヒーは紅茶もあります reads as 'as for coffee, there is also tea', which is incoherent; the paired も…も structure is needed for 'both'.",
         "だけ means 'only' — this would contradict the meaning that both coffee and tea are available."
       ],
       "hiragana_full": "コーヒーもこうちゃもあります。",
@@ -86,7 +107,15 @@
           "hiragana_full": "コーヒーもこうちゃもある。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "紅茶",
+          "reading": "こうちゃ",
+          "meaning": "black tea"
+        }
+      ]
     },
     {
       "id": "n5_015_4",
@@ -94,13 +123,13 @@
       "translation": "Both children and adults can enjoy it.",
       "blank_target": "も",
       "wrong_choices": [
-        "と",
-        "や",
+        "は",
+        "に",
         "ばかり"
       ],
       "wrong_choice_explanations": [
-        "と means 'and' — it doesn't create the inclusive 'both...and also' meaning that も provides in this structure.",
-        "や means 'and' for incomplete lists — it doesn't express the inclusive 'both' meaning needed here.",
+        "は marks a topic — 子供は大人も楽しめます reads as 'as for children, adults can also enjoy it', which scrambles the meaning; the paired も…も is needed for 'both...and'.",
+        "に marks a target or location — 子供に大人も楽しめます doesn't form a coherent sentence; the first item of the 'both A and B' pair needs も.",
         "ばかり means 'only' or 'nothing but' — it would exclude adults rather than include both groups."
       ],
       "hiragana_full": "こどももおとなもたのしめます。",
@@ -114,7 +143,25 @@
           "hiragana_full": "おとなもこどももたのしめます。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "子供",
+          "reading": "こども",
+          "meaning": "children"
+        },
+        {
+          "word": "大人",
+          "reading": "おとな",
+          "meaning": "adults"
+        },
+        {
+          "word": "楽しめます",
+          "reading": "たのしめます",
+          "meaning": "can enjoy"
+        }
+      ]
     },
     {
       "id": "n5_015_5",
@@ -142,7 +189,15 @@
           "hiragana_full": "きょうもさむいですよね。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "寒い",
+          "reading": "さむい",
+          "meaning": "cold"
+        }
+      ]
     },
     {
       "id": "n5_015_6",
@@ -170,7 +225,20 @@
           "hiragana_full": "かれもくるかな。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "彼",
+          "reading": "かれ",
+          "meaning": "he"
+        },
+        {
+          "word": "来る",
+          "reading": "くる",
+          "meaning": "come"
+        }
+      ]
     },
     {
       "id": "n5_015_7",
@@ -178,13 +246,13 @@
       "translation": "Both mother and father are busy.",
       "blank_target": "も",
       "wrong_choices": [
-        "と",
-        "や",
+        "は",
+        "が",
         "か"
       ],
       "wrong_choice_explanations": [
-        "と means 'and' — it doesn't create the inclusive 'both...and also' meaning that も provides.",
-        "や means 'and' for incomplete lists — it doesn't express the inclusive 'both' meaning needed here.",
+        "は marks a topic — お母さんはお父さんも忙しいです reads as 'as for mom, dad is also busy', which garbles the intended meaning; both people need も.",
+        "が marks the subject — お母さんがお父さんも忙しいです double-marks the subject slot and breaks the sentence; the paired も…も is required.",
         "か indicates a question or choice — it doesn't express the inclusive meaning 'both' needed here."
       ],
       "hiragana_full": "おかあさんもおとうさんもいそがしいです。",
@@ -198,7 +266,25 @@
           "hiragana_full": "おかあさんもおとうさんもいそがしい。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "お母さん",
+          "reading": "おかあさん",
+          "meaning": "mother"
+        },
+        {
+          "word": "お父さん",
+          "reading": "おとうさん",
+          "meaning": "father"
+        },
+        {
+          "word": "忙しい",
+          "reading": "いそがしい",
+          "meaning": "busy"
+        }
+      ]
     },
     {
       "id": "n5_015_8",
@@ -206,13 +292,13 @@
       "translation": "I like both dogs and cats.",
       "blank_target": "も",
       "wrong_choices": [
-        "と",
-        "や",
+        "を",
+        "に",
         "より"
       ],
       "wrong_choice_explanations": [
-        "と means 'and' — it doesn't express the inclusive 'both...and also' meaning that も creates.",
-        "や means 'and' for incomplete lists — it doesn't convey the inclusive meaning 'both' needed here.",
+        "を marks the direct object of an action verb — 好き is an adjective whose object takes が/も, so 犬を猫も好きです is ungrammatical.",
+        "に marks a target or location — 犬に猫も好きです doesn't form a coherent sentence; the first member of the 'both A and B' pair needs も.",
         "より means 'than' for comparisons — it doesn't fit in this context about liking both animals."
       ],
       "hiragana_full": "いぬもねこもすきです。",
@@ -226,7 +312,20 @@
           "hiragana_full": "いぬとねこがすきです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "犬",
+          "reading": "いぬ",
+          "meaning": "dog"
+        },
+        {
+          "word": "猫",
+          "reading": "ねこ",
+          "meaning": "cat"
+        }
+      ]
     },
     {
       "id": "n5_015_9",
@@ -254,7 +353,20 @@
           "hiragana_full": "きのうもあめでしたね。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "昨日",
+          "reading": "きのう",
+          "meaning": "yesterday"
+        },
+        {
+          "word": "雨",
+          "reading": "あめ",
+          "meaning": "rain"
+        }
+      ]
     },
     {
       "id": "n5_015_10",
@@ -282,7 +394,20 @@
           "hiragana_full": "わたしのゆうじんもそういっていました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "友達",
+          "reading": "ともだち",
+          "meaning": "friend"
+        },
+        {
+          "word": "言っていました",
+          "reading": "いっていました",
+          "meaning": "was saying"
+        }
+      ]
     }
   ]
 }

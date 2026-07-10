@@ -20,6 +20,24 @@ struct AudioAlternative: Codable, Hashable {
     }
 }
 
+/// A significant vocabulary word appearing in an exercise sentence.
+/// Optional enrichment field — surfaced as tappable chips on the drill screen.
+struct VocabItem: Codable, Hashable {
+    let word: String
+    let reading: String
+    let meaning: String
+}
+
+/// Register (formality) of an exercise sentence.
+/// `neutral` means "assessed, unmarked" (です・ます or register-irrelevant) and renders no UI;
+/// a nil `register` in the JSON means the exercise hasn't been enriched yet.
+enum Register: String, Codable {
+    case casual     // plain-form speech among friends/family
+    case neutral    // です・ます default or register-irrelevant — no chip shown
+    case formal     // formal spoken: keigo, business, announcements
+    case written    // literary/written language: essays, news, contracts
+}
+
 /// A single exercise variation within a grammar pattern file.
 struct Exercise: Codable {
     let id: String
@@ -34,8 +52,13 @@ struct Exercise: Codable {
     let audioAlternatives: [AudioAlternative]
     let audioEligible: Bool
 
+    // Enrichment — optional fields; absent in un-enriched files, features stay hidden.
+    let register: Register?
+    let vocab: [VocabItem]
+    let blankTargetReading: String?
+
     enum CodingKeys: String, CodingKey {
-        case id, translation
+        case id, translation, register, vocab
         case exampleSentence = "example_sentence"
         case blankTarget = "blank_target"
         case wrongChoices = "wrong_choices"
@@ -43,6 +66,7 @@ struct Exercise: Codable {
         case hiraganaFull = "hiragana_full"
         case audioAlternatives = "audio_alternatives"
         case audioEligible = "audio_eligible"
+        case blankTargetReading = "blank_target_reading"
     }
 
     init(from decoder: Decoder) throws {
@@ -56,6 +80,10 @@ struct Exercise: Codable {
         hiraganaFull = try container.decodeIfPresent(String.self, forKey: .hiraganaFull)
         audioAlternatives = try container.decodeIfPresent([AudioAlternative].self, forKey: .audioAlternatives) ?? []
         audioEligible = try container.decodeIfPresent(Bool.self, forKey: .audioEligible) ?? true
+        // `try?` so an unexpected register string degrades to "no chip" instead of failing the file.
+        register = (try? container.decodeIfPresent(Register.self, forKey: .register)) ?? nil
+        vocab = try container.decodeIfPresent([VocabItem].self, forKey: .vocab) ?? []
+        blankTargetReading = try container.decodeIfPresent(String.self, forKey: .blankTargetReading)
     }
 
     /// True iff this exercise has audio data and is not opted out.
@@ -123,4 +151,37 @@ struct SessionExercise: Identifiable, Hashable {
     let blankTarget: String
     let wrongChoices: [String]
     let wrongChoiceExplanations: [String]
+    let register: Register?
+    let vocab: [VocabItem]
+    let blankTargetReading: String?
+
+    init(
+        id: String,
+        grammarId: String,
+        pattern: String,
+        meaning: String,
+        level: String,
+        exampleSentence: String,
+        translation: String,
+        blankTarget: String,
+        wrongChoices: [String],
+        wrongChoiceExplanations: [String],
+        register: Register? = nil,
+        vocab: [VocabItem] = [],
+        blankTargetReading: String? = nil
+    ) {
+        self.id = id
+        self.grammarId = grammarId
+        self.pattern = pattern
+        self.meaning = meaning
+        self.level = level
+        self.exampleSentence = exampleSentence
+        self.translation = translation
+        self.blankTarget = blankTarget
+        self.wrongChoices = wrongChoices
+        self.wrongChoiceExplanations = wrongChoiceExplanations
+        self.register = register
+        self.vocab = vocab
+        self.blankTargetReading = blankTargetReading
+    }
 }

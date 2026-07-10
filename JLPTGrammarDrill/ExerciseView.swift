@@ -1,6 +1,7 @@
 import SwiftUI
 import SwiftData
 import SwiftFSRS
+import CoreText
 
 /// Aggregated outcomes for one grammar pattern across a single session.
 /// Grammar patterns are spread over many sentences but represent a single FSRS card,
@@ -20,6 +21,13 @@ private struct PatternOutcomes {
 struct ExerciseView: View {
     let sessionItems: [SessionExercise]
     let exercisePool: [String: [SessionExercise]]
+    /// Grammar IDs being introduced for the first time this session. Each shows
+    /// a one-time intro card (pattern, meaning, examples) before its first question.
+    var newPatternIds: Set<String> = []
+    /// Fired only when the session finishes naturally (all patterns mastered or queue
+    /// exhausted) — not when the user bails out via the X button or a swipe-back.
+    /// Lets the presenter offer a "keep reviewing" prompt when more cards are due.
+    var onSessionComplete: (() -> Void)? = nil
     @Environment(\.modelContext) private var modelContext
     @Environment(\.dismiss) private var dismiss
     @AppStorage(FontSizeManager.scaleKey) private var fontScale = FontSizeManager.defaultScale
@@ -48,6 +56,8 @@ struct ExerciseView: View {
     @State private var patternOutcomes: [String: PatternOutcomes] = [:]
     // Guards against flushing twice when both `advanceToNext` and `onDisappear` fire.
     @State private var didFlushRatings = false
+    // New patterns whose intro card has been dismissed this session.
+    @State private var introducedPatterns: Set<String> = []
 
     private let defaultRequiredStreak = 3
     private let particleRequiredStreak = 1
@@ -93,6 +103,48 @@ struct ExerciseView: View {
         FontSizeManager.scaled(base, scale: fontScale)
     }
 
+    /// Furigana for the revealed answer: only when a reading exists and actually
+    /// differs from the target (kana-only targets need no ruby).
+    private var targetRuby: (base: String, reading: String)? {
+        guard let item = currentItem,
+              let reading = item.blankTargetReading,
+              !reading.isEmpty,
+              reading != item.blankTarget else { return nil }
+        return (item.blankTarget, reading)
+    }
+
+    // MARK: - Chips
+
+    private func chip(label: String, icon: String, color: Color) -> some View {
+        HStack(spacing: 4) {
+            Image(systemName: icon)
+                .font(.system(size: scaled(10), weight: .semibold))
+            Text(label)
+                .font(.system(size: scaled(11), weight: .semibold))
+                .tracking(0.5)
+        }
+        .foregroundColor(color)
+        .padding(.horizontal, 8)
+        .padding(.vertical, 3)
+        .background(color.opacity(0.12))
+        .clipShape(Capsule())
+    }
+
+    /// Register chip — shown only for marked registers; neutral/nil renders nothing.
+    @ViewBuilder
+    private func registerChip(for register: Register) -> some View {
+        switch register {
+        case .casual:
+            chip(label: "casual speech", icon: "bubble.left.and.bubble.right", color: .teal)
+        case .formal:
+            chip(label: "formal", icon: "building.columns", color: .indigo)
+        case .written:
+            chip(label: "written language", icon: "book", color: .purple)
+        case .neutral:
+            EmptyView()
+        }
+    }
+
     var body: some View {
         ZStack {
             Color(.systemBackground).ignoresSafeArea()
@@ -120,127 +172,15 @@ struct ExerciseView: View {
                             }
                             .padding(.top)
 
-                            Spacer(minLength: 30)
-
-                            // Question
-                            VStack(spacing: 12) {
-                                if item.level == "Particles" {
-                                    HStack(spacing: 4) {
-                                        Image(systemName: "character.ja")
-                                            .font(.system(size: scaled(10), weight: .semibold))
-                                        Text("particle")
-                                            .font(.system(size: scaled(11), weight: .semibold))
-                                            .tracking(0.5)
+                            if isIntroducingNewPattern(item) {
+                                PatternIntroCard(item: item, examples: introExamples(for: item)) {
+                                    withAnimation(.easeInOut(duration: 0.25)) {
+                                        _ = introducedPatterns.insert(item.grammarId)
                                     }
-                                    .foregroundColor(.orange)
-                                    .padding(.horizontal, 8)
-                                    .padding(.vertical, 3)
-                                    .background(Color.orange.opacity(0.12))
-                                    .clipShape(Capsule())
                                 }
-
-                                SelectableText(
-                                    text: blankedSentence,
-                                    fontSize: scaled(26),
-                                    fontWeight: .bold,
-                                    textColor: .label,
-                                    textAlignment: .center
-                                )
-                                .padding(.horizontal)
-
-                                SelectableText(
-                                    text: item.translation,
-                                    fontSize: scaled(17),
-                                    fontWeight: .regular,
-                                    textColor: .secondaryLabel,
-                                    textAlignment: .center
-                                )
-                                .padding(.horizontal)
-                            }
-
-                            Spacer(minLength: 30)
-
-                            // Answer buttons (2x2 grid)
-                            LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 12) {
-                                ForEach(shuffledChoices, id: \.self) { choice in
-                                    Button {
-                                        guard selectedAnswer == nil else { return }
-                                        handleAnswer(choice, for: item)
-                                    } label: {
-                                        Text(choice)
-                                            .font(.system(size: scaled(17)))
-                                            .frame(maxWidth: .infinity)
-                                            .padding(.vertical, 14)
-                                            .background(buttonBackground(for: choice))
-                                            .foregroundColor(buttonForeground(for: choice))
-                                            .cornerRadius(10)
-                                            .overlay(
-                                                RoundedRectangle(cornerRadius: 10)
-                                                    .stroke(buttonBorder(for: choice), lineWidth: 1.5)
-                                            )
-                                    }
-                                    .disabled(selectedAnswer != nil)
-                                    .animation(.easeInOut(duration: 0.2), value: selectedAnswer)
-                                }
-                            }
-                            .padding(.horizontal)
-
-                            // Explanation card
-                            if showExplanation {
-                                VStack(alignment: .leading, spacing: 10) {
-                                    // Show why the selected wrong answer is wrong
-                                    if let selected = selectedAnswer,
-                                       selected != item.blankTarget,
-                                       let idx = item.wrongChoices.firstIndex(of: selected),
-                                       idx < item.wrongChoiceExplanations.count {
-                                        Text(item.wrongChoiceExplanations[idx])
-                                            .font(.system(size: scaled(15)))
-                                            .foregroundColor(.red.opacity(0.8))
-                                            .padding(.bottom, 4)
-                                    }
-
-                                    Text(item.pattern)
-                                        .font(.system(size: scaled(19), weight: .bold))
-
-                                    Text(item.meaning)
-                                        .font(.system(size: scaled(16)))
-                                        .foregroundColor(.secondary)
-
-                                    SelectableText(
-                                        text: filledSentence,
-                                        fontSize: scaled(17),
-                                        fontWeight: .regular,
-                                        textColor: .label,
-                                        textAlignment: .left
-                                    )
-
-                                    SelectableText(
-                                        text: item.translation,
-                                        fontSize: scaled(15),
-                                        fontWeight: .regular,
-                                        textColor: .secondaryLabel,
-                                        textAlignment: .left
-                                    )
-
-                                    Button {
-                                        advanceToNext()
-                                    } label: {
-                                        Text(isSessionComplete ? "All Done" : "Next")
-                                            .font(.system(size: scaled(17), weight: .semibold))
-                                            .frame(maxWidth: .infinity)
-                                            .padding(.vertical, 12)
-                                            .background(Color.accentColor)
-                                            .foregroundColor(.white)
-                                            .cornerRadius(10)
-                                    }
-                                    .padding(.top, 4)
-                                }
-                                .padding()
-                                .background(Color(.secondarySystemBackground))
-                                .cornerRadius(16)
-                                .padding(.horizontal)
-                                .transition(.move(edge: .bottom))
-                                .id("explanation")
+                                .padding(.top, 20)
+                            } else {
+                                questionContent(for: item)
                             }
                         }
                         .padding(.bottom, 20)
@@ -276,6 +216,164 @@ struct ExerciseView: View {
             // skips both the X button and `advanceToNext`. The flush is idempotent.
             flushPatternRatings()
         }
+    }
+
+    // MARK: - Question Content
+
+    /// The quiz UI for the current item: sentence, answer grid, vocab chips, explanation card.
+    @ViewBuilder
+    private func questionContent(for item: SessionExercise) -> some View {
+        Spacer(minLength: 30)
+
+        // Question
+        VStack(spacing: 12) {
+            HStack(spacing: 6) {
+                if item.level == "Particles" {
+                    chip(label: "particle", icon: "character.ja", color: .orange)
+                }
+                if let register = item.register, register != .neutral {
+                    registerChip(for: register)
+                }
+            }
+
+            SelectableText(
+                text: blankedSentence,
+                fontSize: scaled(26),
+                fontWeight: .bold,
+                textColor: .label,
+                textAlignment: .center
+            )
+            .padding(.horizontal)
+
+            SelectableText(
+                text: item.translation,
+                fontSize: scaled(17),
+                fontWeight: .regular,
+                textColor: .secondaryLabel,
+                textAlignment: .center
+            )
+            .padding(.horizontal)
+        }
+
+        Spacer(minLength: 30)
+
+        // Answer buttons (2x2 grid)
+        LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 12) {
+            ForEach(shuffledChoices, id: \.self) { choice in
+                Button {
+                    guard selectedAnswer == nil else { return }
+                    handleAnswer(choice, for: item)
+                } label: {
+                    Text(choice)
+                        .font(.system(size: scaled(17)))
+                        .frame(maxWidth: .infinity)
+                        .padding(.vertical, 14)
+                        .background(buttonBackground(for: choice))
+                        .foregroundColor(buttonForeground(for: choice))
+                        .cornerRadius(10)
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 10)
+                                .stroke(buttonBorder(for: choice), lineWidth: 1.5)
+                        )
+                }
+                .disabled(selectedAnswer != nil)
+                .animation(.easeInOut(duration: 0.2), value: selectedAnswer)
+            }
+        }
+        .padding(.horizontal)
+
+        // Significant-vocab chips — tap for reading + meaning
+        if !item.vocab.isEmpty {
+            VStack(alignment: .leading, spacing: 6) {
+                Text("VOCAB")
+                    .font(.system(size: scaled(10), weight: .semibold))
+                    .tracking(1.0)
+                    .foregroundColor(Color.secondary.opacity(0.7))
+                ChipFlowLayout(spacing: 8) {
+                    ForEach(item.vocab, id: \.self) { vocabItem in
+                        VocabChip(item: vocabItem, fontSize: scaled(15))
+                    }
+                }
+            }
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .padding(.horizontal)
+            .padding(.top, 8)
+        }
+
+        // Explanation card
+        if showExplanation {
+            VStack(alignment: .leading, spacing: 10) {
+                // Show why the selected wrong answer is wrong
+                if let selected = selectedAnswer,
+                   selected != item.blankTarget,
+                   let idx = item.wrongChoices.firstIndex(of: selected),
+                   idx < item.wrongChoiceExplanations.count {
+                    Text(item.wrongChoiceExplanations[idx])
+                        .font(.system(size: scaled(15)))
+                        .foregroundColor(.red.opacity(0.8))
+                        .padding(.bottom, 4)
+                }
+
+                Text(item.pattern)
+                    .font(.system(size: scaled(19), weight: .bold))
+
+                Text(item.meaning)
+                    .font(.system(size: scaled(16)))
+                    .foregroundColor(.secondary)
+
+                SelectableText(
+                    text: filledSentence,
+                    fontSize: scaled(17),
+                    fontWeight: .regular,
+                    textColor: .label,
+                    textAlignment: .left,
+                    rubyBase: targetRuby?.base,
+                    rubyReading: targetRuby?.reading
+                )
+
+                SelectableText(
+                    text: item.translation,
+                    fontSize: scaled(15),
+                    fontWeight: .regular,
+                    textColor: .secondaryLabel,
+                    textAlignment: .left
+                )
+
+                Button {
+                    advanceToNext()
+                } label: {
+                    Text(isSessionComplete ? "All Done" : "Next")
+                        .font(.system(size: scaled(17), weight: .semibold))
+                        .frame(maxWidth: .infinity)
+                        .padding(.vertical, 12)
+                        .background(Color.accentColor)
+                        .foregroundColor(.white)
+                        .cornerRadius(10)
+                }
+                .padding(.top, 4)
+            }
+            .padding()
+            .background(Color(.secondarySystemBackground))
+            .cornerRadius(16)
+            .padding(.horizontal)
+            .transition(.move(edge: .bottom))
+            .id("explanation")
+        }
+    }
+
+    // MARK: - New Pattern Introduction
+
+    /// True while the current item's pattern is new this session and its intro
+    /// card hasn't been dismissed yet.
+    private func isIntroducingNewPattern(_ item: SessionExercise) -> Bool {
+        newPatternIds.contains(item.grammarId) && !introducedPatterns.contains(item.grammarId)
+    }
+
+    /// Example sentences for the intro card, drawn from the pattern's full pool
+    /// so the learner sees the pattern in context before being quizzed on it.
+    private func introExamples(for item: SessionExercise) -> [SessionExercise] {
+        let pool = exercisePool[item.grammarId] ?? []
+        return pool.isEmpty ? [item] : Array(pool.prefix(2))
     }
 
     // MARK: - Session Initialization
@@ -348,21 +446,16 @@ struct ExerciseView: View {
                 }
             }
 
-            // First retry goes right after the current item (position 1) for immediate re-test.
-            queue.insert(retryItems[0], at: min(1, queue.count))
-
-            // Remaining retries (2nd and 3rd) get mixed randomly into the rest of the queue.
-            // We pick random positions from index 2 onward (past current + first retry),
-            // ensuring at least one other item separates them where possible.
-            for i in 1..<retryItems.count {
-                let minIdx = min(2 + i, queue.count) // spread them out a bit
+            // Spread retries into the rest of the queue with a minimum gap so the
+            // pattern isn't re-tested immediately after the answer was just shown.
+            // Near the end of a session the gap shrinks naturally as the queue empties.
+            var lastPos = 0
+            for retry in retryItems {
+                let minIdx = min(lastPos + 3, queue.count)
                 let maxIdx = queue.count
-                if minIdx < maxIdx {
-                    let pos = Int.random(in: minIdx...maxIdx)
-                    queue.insert(retryItems[i], at: pos)
-                } else {
-                    queue.append(retryItems[i])
-                }
+                let pos = minIdx < maxIdx ? Int.random(in: minIdx...maxIdx) : queue.count
+                queue.insert(retry, at: pos)
+                lastPos = pos
             }
         }
 
@@ -386,6 +479,7 @@ struct ExerciseView: View {
         if isSessionComplete || queue.isEmpty {
             flushPatternRatings()
             updateStreak()
+            onSessionComplete?()
             dismiss()
             return
         }
@@ -402,6 +496,7 @@ struct ExerciseView: View {
         if queue.isEmpty || isSessionComplete {
             flushPatternRatings()
             updateStreak()
+            onSessionComplete?()
             dismiss()
             return
         }
@@ -541,6 +636,104 @@ struct ExerciseView: View {
     }
 }
 
+// MARK: - Pattern Intro Card
+
+/// One-time card shown before a brand-new pattern's first question:
+/// the pattern, its meaning, and example sentences with the pattern highlighted.
+private struct PatternIntroCard: View {
+    let item: SessionExercise
+    let examples: [SessionExercise]
+    let onContinue: () -> Void
+    @AppStorage(FontSizeManager.scaleKey) private var fontScale = FontSizeManager.defaultScale
+
+    private func scaled(_ base: CGFloat) -> CGFloat {
+        FontSizeManager.scaled(base, scale: fontScale)
+    }
+
+    /// Example sentence with the blank filled in and the grammar target highlighted.
+    private func highlightedSentence(for exercise: SessionExercise) -> AttributedString {
+        let filled: String
+        if exercise.exampleSentence.range(of: "_{2,}", options: .regularExpression) != nil {
+            filled = exercise.exampleSentence.replacingOccurrences(
+                of: "_{2,}",
+                with: exercise.blankTarget,
+                options: .regularExpression
+            )
+        } else {
+            filled = exercise.exampleSentence
+        }
+        var attributed = AttributedString(filled)
+        if let range = attributed.range(of: exercise.blankTarget) {
+            attributed[range].foregroundColor = .accentColor
+            attributed[range].font = .system(size: scaled(18), weight: .bold)
+        }
+        return attributed
+    }
+
+    var body: some View {
+        VStack(spacing: 20) {
+            VStack(spacing: 10) {
+                HStack(spacing: 5) {
+                    Image(systemName: "sparkles")
+                        .font(.system(size: scaled(11), weight: .semibold))
+                    Text("NEW PATTERN · \(item.level)")
+                        .font(.system(size: scaled(11), weight: .semibold))
+                        .tracking(1.0)
+                }
+                .foregroundColor(.accentColor)
+                .padding(.horizontal, 10)
+                .padding(.vertical, 4)
+                .background(Color.accentColor.opacity(0.12))
+                .clipShape(Capsule())
+
+                Text(item.pattern)
+                    .font(.system(size: scaled(30), weight: .bold))
+                    .multilineTextAlignment(.center)
+
+                Text(item.meaning)
+                    .font(.system(size: scaled(17)))
+                    .foregroundColor(.secondary)
+                    .multilineTextAlignment(.center)
+            }
+            .padding(.horizontal)
+
+            VStack(alignment: .leading, spacing: 14) {
+                Text("HOW IT'S USED")
+                    .font(.system(size: scaled(10), weight: .semibold))
+                    .tracking(1.0)
+                    .foregroundColor(Color.secondary.opacity(0.7))
+
+                ForEach(examples, id: \.id) { example in
+                    VStack(alignment: .leading, spacing: 4) {
+                        Text(highlightedSentence(for: example))
+                            .font(.system(size: scaled(18)))
+
+                        Text(example.translation)
+                            .font(.system(size: scaled(14)))
+                            .foregroundColor(.secondary)
+                    }
+                }
+            }
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .padding()
+            .background(Color(.secondarySystemBackground))
+            .cornerRadius(16)
+            .padding(.horizontal)
+
+            Button(action: onContinue) {
+                Text("Got It — Start Practicing")
+                    .font(.system(size: scaled(17), weight: .semibold))
+                    .frame(maxWidth: .infinity)
+                    .padding(.vertical, 14)
+                    .background(Color.accentColor)
+                    .foregroundColor(.white)
+                    .cornerRadius(12)
+            }
+            .padding(.horizontal)
+        }
+    }
+}
+
 // MARK: - Session Progress Bar
 
 private struct SessionProgressBar: View {
@@ -621,6 +814,83 @@ private struct SessionProgressBar: View {
     }
 }
 
+// MARK: - Vocab Chips
+
+/// One tappable vocab chip; tap shows a popover with reading + meaning.
+private struct VocabChip: View {
+    let item: VocabItem
+    let fontSize: CGFloat
+    @State private var showingDetail = false
+
+    var body: some View {
+        Button {
+            showingDetail = true
+        } label: {
+            Text(item.word)
+                .font(.system(size: fontSize))
+                .foregroundColor(.primary)
+                .padding(.horizontal, 10)
+                .padding(.vertical, 5)
+                .background(Color(.secondarySystemBackground))
+                .clipShape(Capsule())
+                .overlay(
+                    Capsule().stroke(Color.secondary.opacity(0.25), lineWidth: 1)
+                )
+        }
+        .popover(isPresented: $showingDetail, arrowEdge: .bottom) {
+            VStack(spacing: 4) {
+                Text(item.reading)
+                    .font(.system(size: fontSize - 2))
+                    .foregroundColor(.secondary)
+                Text(item.word)
+                    .font(.system(size: fontSize + 5, weight: .semibold))
+                Text(item.meaning)
+                    .font(.system(size: fontSize))
+                    .multilineTextAlignment(.center)
+                    .padding(.top, 2)
+            }
+            .padding(14)
+            .presentationCompactAdaptation(.popover)
+        }
+    }
+}
+
+/// Minimal left-aligned flow layout: wraps chips onto new rows as needed.
+private struct ChipFlowLayout: Layout {
+    var spacing: CGFloat = 8
+
+    func sizeThatFits(proposal: ProposedViewSize, subviews: Subviews, cache: inout ()) -> CGSize {
+        let maxWidth = proposal.width ?? .infinity
+        var x: CGFloat = 0, y: CGFloat = 0, rowHeight: CGFloat = 0
+        for subview in subviews {
+            let size = subview.sizeThatFits(.unspecified)
+            if x > 0 && x + size.width > maxWidth {
+                x = 0
+                y += rowHeight + spacing
+                rowHeight = 0
+            }
+            x += size.width + spacing
+            rowHeight = max(rowHeight, size.height)
+        }
+        return CGSize(width: maxWidth == .infinity ? x : maxWidth, height: y + rowHeight)
+    }
+
+    func placeSubviews(in bounds: CGRect, proposal: ProposedViewSize, subviews: Subviews, cache: inout ()) {
+        var x = bounds.minX, y = bounds.minY, rowHeight: CGFloat = 0
+        for subview in subviews {
+            let size = subview.sizeThatFits(.unspecified)
+            if x > bounds.minX && x + size.width > bounds.maxX {
+                x = bounds.minX
+                y += rowHeight + spacing
+                rowHeight = 0
+            }
+            subview.place(at: CGPoint(x: x, y: y), proposal: ProposedViewSize(size))
+            x += size.width + spacing
+            rowHeight = max(rowHeight, size.height)
+        }
+    }
+}
+
 // MARK: - Selectable Text (character-level selection)
 
 private struct SelectableText: UIViewRepresentable {
@@ -629,9 +899,16 @@ private struct SelectableText: UIViewRepresentable {
     var fontWeight: UIFont.Weight = .regular
     var textColor: UIColor = .label
     var textAlignment: NSTextAlignment = .center
+    /// When both are set and `rubyBase` occurs in `text`, `rubyReading` is drawn as
+    /// furigana above the first occurrence (used for the revealed grammar target).
+    var rubyBase: String? = nil
+    var rubyReading: String? = nil
 
     func makeUIView(context: Context) -> UITextView {
         let textView = UITextView()
+        // Ruby annotations (kCTRubyAnnotationAttributeName) render under the default
+        // TextKit 2 stack on current OSes; forcing TextKit 1 compatibility mode
+        // (`_ = textView.layoutManager`) suppresses them, so don't.
         textView.isEditable = false
         textView.isSelectable = true
         textView.isScrollEnabled = false
@@ -644,11 +921,66 @@ private struct SelectableText: UIViewRepresentable {
     }
 
     func updateUIView(_ textView: UITextView, context: Context) {
-        textView.font = .systemFont(ofSize: fontSize, weight: fontWeight)
-        textView.textColor = textColor
-        textView.textAlignment = textAlignment
-        textView.text = text
+        if let attributed = rubyAttributedString() {
+            textView.attributedText = attributed
+        } else {
+            textView.font = .systemFont(ofSize: fontSize, weight: fontWeight)
+            textView.textColor = textColor
+            textView.textAlignment = textAlignment
+            textView.text = text
+        }
         textView.invalidateIntrinsicContentSize()
+    }
+
+    /// Attributed string with a furigana annotation over the first occurrence of
+    /// `rubyBase`, or nil when ruby isn't applicable (plain-text path is used instead).
+    private func rubyAttributedString() -> NSAttributedString? {
+        guard let base = rubyBase, let reading = rubyReading,
+              !base.isEmpty, !reading.isEmpty else { return nil }
+        // Annotate only the kanji core, not surrounding kana shared with the reading
+        // (に決まっている/にきまっている → 決/き). Annotating the kana too makes
+        // TextKit reserve the ruby's full width inline, punching a gap into the base line.
+        let baseChars = Array(base), readingChars = Array(reading)
+        var prefix = 0
+        while prefix < baseChars.count && prefix < readingChars.count
+                && baseChars[prefix] == readingChars[prefix] { prefix += 1 }
+        var suffix = 0
+        while suffix < baseChars.count - prefix && suffix < readingChars.count - prefix
+                && baseChars[baseChars.count - 1 - suffix] == readingChars[readingChars.count - 1 - suffix] { suffix += 1 }
+        let coreBase = String(baseChars[prefix..<(baseChars.count - suffix)])
+        let coreReading = String(readingChars[prefix..<(readingChars.count - suffix)])
+        guard !coreBase.isEmpty, !coreReading.isEmpty else { return nil }
+
+        let nsText = text as NSString
+        let baseRange = nsText.range(of: base)
+        guard baseRange.location != NSNotFound else { return nil }
+        let range = NSRange(
+            location: baseRange.location + String(baseChars[0..<prefix]).utf16.count,
+            length: (coreBase as NSString).length
+        )
+
+        let paragraphStyle = NSMutableParagraphStyle()
+        paragraphStyle.alignment = textAlignment
+        // Extra leading so the ruby glyphs above the first line aren't clipped.
+        paragraphStyle.lineHeightMultiple = 1.35
+
+        let attributed = NSMutableAttributedString(string: text, attributes: [
+            .font: UIFont.systemFont(ofSize: fontSize, weight: fontWeight),
+            .foregroundColor: textColor,
+            .paragraphStyle: paragraphStyle
+        ])
+
+        let annotation = CTRubyAnnotationCreateWithAttributes(
+            .auto, .auto, .before,
+            coreReading as CFString,
+            [kCTRubyAnnotationSizeFactorAttributeName: 0.5] as CFDictionary
+        )
+        attributed.addAttribute(
+            NSAttributedString.Key(kCTRubyAnnotationAttributeName as String),
+            value: annotation,
+            range: range
+        )
+        return attributed
     }
 
     func sizeThatFits(_ proposal: ProposedViewSize, uiView: UITextView, context: Context) -> CGSize? {

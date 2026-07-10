@@ -67,7 +67,10 @@ class GrammarLoader {
                     translation: exercise.translation,
                     blankTarget: exercise.blankTarget,
                     wrongChoices: exercise.wrongChoices,
-                    wrongChoiceExplanations: exercise.wrongChoiceExplanations
+                    wrongChoiceExplanations: exercise.wrongChoiceExplanations,
+                    register: exercise.register,
+                    vocab: exercise.vocab,
+                    blankTargetReading: exercise.blankTargetReading
                 )
             }
         }

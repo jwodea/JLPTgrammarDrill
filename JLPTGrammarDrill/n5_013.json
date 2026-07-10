@@ -30,7 +30,20 @@
           "hiragana_full": "ともだちといっしょにえいがをみました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "友達",
+          "reading": "ともだち",
+          "meaning": "friend"
+        },
+        {
+          "word": "映画",
+          "reading": "えいが",
+          "meaning": "movie"
+        }
+      ]
     },
     {
       "id": "n5_013_2",
@@ -58,7 +71,20 @@
           "hiragana_full": "ぎゅうにゅうとぱんをかいました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "牛乳",
+          "reading": "ぎゅうにゅう",
+          "meaning": "milk"
+        },
+        {
+          "word": "買いました",
+          "reading": "かいました",
+          "meaning": "bought"
+        }
+      ]
     },
     {
       "id": "n5_013_3",
@@ -86,7 +112,25 @@
           "hiragana_full": "おかあさんは「げんきです」といいました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "母",
+          "reading": "はは",
+          "meaning": "(my) mother"
+        },
+        {
+          "word": "元気",
+          "reading": "げんき",
+          "meaning": "well; fine"
+        },
+        {
+          "word": "言いました",
+          "reading": "いいました",
+          "meaning": "said"
+        }
+      ]
     },
     {
       "id": "n5_013_4",
@@ -94,12 +138,12 @@
       "translation": "How about coffee and tea?",
       "blank_target": "と",
       "wrong_choices": [
-        "や",
+        "で",
         "が",
         "に"
       ],
       "wrong_choice_explanations": [
-        "や suggests a non-exhaustive list — it doesn't fit here because we're offering exactly these two options.",
+        "で indicates means or location — it cannot join two nouns into a list, so コーヒーで紅茶はいかがですか doesn't work.",
         "が marks the subject — it doesn't fit here because we need to connect coffee with tea as joint topics.",
         "に indicates location or direction — it doesn't fit here because we need to connect two beverage options."
       ],
@@ -114,7 +158,20 @@
           "hiragana_full": "こーひーかこうちゃはいかがですか。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "紅茶",
+          "reading": "こうちゃ",
+          "meaning": "black tea"
+        },
+        {
+          "word": "いかが",
+          "reading": "いかが",
+          "meaning": "how about"
+        }
+      ]
     },
     {
       "id": "n5_013_5",
@@ -142,7 +199,20 @@
           "hiragana_full": "かのじょは「ありがとう」とはなしました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "彼女",
+          "reading": "かのじょ",
+          "meaning": "she"
+        },
+        {
+          "word": "言いました",
+          "reading": "いいました",
+          "meaning": "said"
+        }
+      ]
     },
     {
       "id": "n5_013_6",
@@ -170,7 +240,25 @@
           "hiragana_full": "けしごむとえんぴつをわすれました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "鉛筆",
+          "reading": "えんぴつ",
+          "meaning": "pencil"
+        },
+        {
+          "word": "消しゴム",
+          "reading": "けしごむ",
+          "meaning": "eraser"
+        },
+        {
+          "word": "忘れました",
+          "reading": "わすれました",
+          "meaning": "forgot"
+        }
+      ]
     },
     {
       "id": "n5_013_7",
@@ -198,7 +286,20 @@
           "hiragana_full": "おねえさんとかいものにいきました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "姉",
+          "reading": "あね",
+          "meaning": "(my) older sister"
+        },
+        {
+          "word": "買い物",
+          "reading": "かいもの",
+          "meaning": "shopping"
+        }
+      ]
     },
     {
       "id": "n5_013_8",
@@ -226,7 +327,25 @@
           "hiragana_full": "ちちは「つかれた」といっている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "父",
+          "reading": "ちち",
+          "meaning": "(my) father"
+        },
+        {
+          "word": "疲れた",
+          "reading": "つかれた",
+          "meaning": "tired; worn out"
+        },
+        {
+          "word": "言っています",
+          "reading": "いっています",
+          "meaning": "is saying"
+        }
+      ]
     },
     {
       "id": "n5_013_9",
@@ -254,7 +373,25 @@
           "hiragana_full": "えいごとにほんごをべんきょうしています。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "日本語",
+          "reading": "にほんご",
+          "meaning": "Japanese (language)"
+        },
+        {
+          "word": "英語",
+          "reading": "えいご",
+          "meaning": "English"
+        },
+        {
+          "word": "勉強しています",
+          "reading": "べんきょうしています",
+          "meaning": "am studying"
+        }
+      ]
     },
     {
       "id": "n5_013_10",
@@ -282,7 +419,25 @@
           "hiragana_full": "せんせいとがくせいがかいわしています。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "先生",
+          "reading": "せんせい",
+          "meaning": "teacher"
+        },
+        {
+          "word": "学生",
+          "reading": "がくせい",
+          "meaning": "student"
+        },
+        {
+          "word": "話しています",
+          "reading": "はなしています",
+          "meaning": "are talking"
+        }
+      ]
     }
   ]
 }

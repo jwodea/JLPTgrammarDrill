@@ -30,7 +30,20 @@
           "hiragana_full": "わたしはがくせいだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "私",
+          "reading": "わたし",
+          "meaning": "I"
+        },
+        {
+          "word": "学生",
+          "reading": "がくせい",
+          "meaning": "student"
+        }
+      ]
     },
     {
       "id": "n5_007_2",
@@ -58,7 +71,20 @@
           "hiragana_full": "きょうはあめですね。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "今日",
+          "reading": "きょう",
+          "meaning": "today"
+        },
+        {
+          "word": "雨",
+          "reading": "あめ",
+          "meaning": "rain"
+        }
+      ]
     },
     {
       "id": "n5_007_3",
@@ -86,7 +112,20 @@
           "hiragana_full": "このほんはとてもおもしろいです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "本",
+          "reading": "ほん",
+          "meaning": "book"
+        },
+        {
+          "word": "面白い",
+          "reading": "おもしろい",
+          "meaning": "interesting"
+        }
+      ]
     },
     {
       "id": "n5_007_4",
@@ -114,7 +153,15 @@
           "hiragana_full": "たなかさんはせんせいだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "先生",
+          "reading": "せんせい",
+          "meaning": "teacher"
+        }
+      ]
     },
     {
       "id": "n5_007_5",
@@ -122,12 +169,12 @@
       "translation": "I like movies.",
       "blank_target": "は",
       "wrong_choices": [
-        "が",
+        "で",
         "を",
         "の"
       ],
       "wrong_choice_explanations": [
-        "Both 映画が好きです and 映画は好きです are grammatical (が is in fact the more neutral phrasing for stating a preference); but the slot here expects は, which foregrounds 映画 as the topic ('as for movies') and is the particle this drill is testing.",
+        "で marks the place or means of an action (映画館で見ます 'watch at the theater'); it cannot mark the thing that is liked — 好き takes が for the liked item (or は when topicalized), so 映画で好きです is ungrammatical.",
         "を marks direct objects — it doesn't fit here because 好き is an adjective expressing preference, not a transitive verb.",
         "の shows possession or modification — it doesn't fit here because we're not showing ownership or describing something."
       ],
@@ -142,7 +189,20 @@
           "hiragana_full": "えいががすきだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "映画",
+          "reading": "えいが",
+          "meaning": "movie"
+        },
+        {
+          "word": "好き",
+          "reading": "すき",
+          "meaning": "like"
+        }
+      ]
     },
     {
       "id": "n5_007_6",
@@ -170,7 +230,20 @@
           "hiragana_full": "ねこってかわいいですね。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "猫",
+          "reading": "ねこ",
+          "meaning": "cat"
+        },
+        {
+          "word": "かわいい",
+          "reading": "かわいい",
+          "meaning": "cute"
+        }
+      ]
     },
     {
       "id": "n5_007_7",
@@ -198,7 +271,20 @@
           "hiragana_full": "にほんごはむずかしいです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "日本語",
+          "reading": "にほんご",
+          "meaning": "Japanese (language)"
+        },
+        {
+          "word": "難しい",
+          "reading": "むずかしい",
+          "meaning": "difficult"
+        }
+      ]
     },
     {
       "id": "n5_007_8",
@@ -226,7 +312,20 @@
           "hiragana_full": "あしたはおやすみです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "明日",
+          "reading": "あした",
+          "meaning": "tomorrow"
+        },
+        {
+          "word": "休み",
+          "reading": "やすみ",
+          "meaning": "day off"
+        }
+      ]
     },
     {
       "id": "n5_007_9",
@@ -254,7 +353,15 @@
           "hiragana_full": "このこーひーはあついです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "熱い",
+          "reading": "あつい",
+          "meaning": "hot (to the touch)"
+        }
+      ]
     },
     {
       "id": "n5_007_10",
@@ -282,7 +389,25 @@
           "hiragana_full": "おかあさんはりょうりがじょうずです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "母",
+          "reading": "はは",
+          "meaning": "(my) mother"
+        },
+        {
+          "word": "料理",
+          "reading": "りょうり",
+          "meaning": "cooking"
+        },
+        {
+          "word": "上手",
+          "reading": "じょうず",
+          "meaning": "good at"
+        }
+      ]
     }
   ]
 }

@@ -10,12 +10,12 @@
       "translation": "I like sushi.",
       "blank_target": "が",
       "wrong_choices": [
-        "は",
+        "で",
         "を",
         "に"
       ],
       "wrong_choice_explanations": [
-        "は would topicalize 寿司, adding a contrastive nuance ('sushi, at least, I like'); to plainly state what you like, the liked thing is marked with が.",
+        "で marks where an action happens or the means used (レストランで食べます); it cannot mark the thing that is liked — the liked item with the adjective 好き is marked with が, so 寿司で好きです is ungrammatical.",
         "を marks direct objects of transitive verbs — it doesn't fit here because 好き is an adjective expressing preference, not a transitive verb.",
         "に indicates direction, time, or location — it doesn't fit here because we're expressing what is liked, not direction or location."
       ],
@@ -30,7 +30,20 @@
           "hiragana_full": "すしがすきだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "寿司",
+          "reading": "すし",
+          "meaning": "sushi"
+        },
+        {
+          "word": "好き",
+          "reading": "すき",
+          "meaning": "like"
+        }
+      ]
     },
     {
       "id": "n5_008_2",
@@ -58,7 +71,20 @@
           "hiragana_full": "どなたがきましたか"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "誰",
+          "reading": "だれ",
+          "meaning": "who"
+        },
+        {
+          "word": "来ました",
+          "reading": "きました",
+          "meaning": "came"
+        }
+      ]
     },
     {
       "id": "n5_008_3",
@@ -86,7 +112,20 @@
           "hiragana_full": "あめがふっているところです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "雨",
+          "reading": "あめ",
+          "meaning": "rain"
+        },
+        {
+          "word": "降っています",
+          "reading": "ふっています",
+          "meaning": "is falling (raining)"
+        }
+      ]
     },
     {
       "id": "n5_008_4",
@@ -114,7 +153,15 @@
           "hiragana_full": "なにがある"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "何",
+          "reading": "なに",
+          "meaning": "what"
+        }
+      ]
     },
     {
       "id": "n5_008_5",
@@ -142,7 +189,20 @@
           "hiragana_full": "いぬははしっています。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "犬",
+          "reading": "いぬ",
+          "meaning": "dog"
+        },
+        {
+          "word": "走っています",
+          "reading": "はしっています",
+          "meaning": "is running"
+        }
+      ]
     },
     {
       "id": "n5_008_6",
@@ -170,7 +230,20 @@
           "hiragana_full": "おんがくがきこえてきます。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "音楽",
+          "reading": "おんがく",
+          "meaning": "music"
+        },
+        {
+          "word": "聞こえます",
+          "reading": "きこえます",
+          "meaning": "can be heard"
+        }
+      ]
     },
     {
       "id": "n5_008_7",
@@ -178,12 +251,12 @@
       "translation": "The car stopped.",
       "blank_target": "が",
       "wrong_choices": [
-        "は",
+        "から",
         "を",
         "に"
       ],
       "wrong_choice_explanations": [
-        "は marks topics for general statements — it doesn't fit here because we're reporting a specific event that just happened.",
+        "から means 'from' and marks a source or starting point; 車から止まりました ('stopped from the car') makes no sense — 車 is the subject that stopped, which takes が.",
         "を marks direct objects — it doesn't fit here because 車 is the subject that stopped, not an object being acted upon.",
         "に indicates direction, time, or location — it doesn't fit here because 車 is the subject performing the action, not a destination or time."
       ],
@@ -198,7 +271,20 @@
           "hiragana_full": "くるまがとまった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "車",
+          "reading": "くるま",
+          "meaning": "car"
+        },
+        {
+          "word": "止まりました",
+          "reading": "とまりました",
+          "meaning": "stopped"
+        }
+      ]
     },
     {
       "id": "n5_008_8",
@@ -226,7 +312,20 @@
           "hiragana_full": "おちゃがのみたいです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "お茶",
+          "reading": "おちゃ",
+          "meaning": "tea"
+        },
+        {
+          "word": "欲しい",
+          "reading": "ほしい",
+          "meaning": "want"
+        }
+      ]
     },
     {
       "id": "n5_008_9",
@@ -254,7 +353,20 @@
           "hiragana_full": "でんわがなっているよ"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "電話",
+          "reading": "でんわ",
+          "meaning": "telephone"
+        },
+        {
+          "word": "鳴っています",
+          "reading": "なっています",
+          "meaning": "is ringing"
+        }
+      ]
     },
     {
       "id": "n5_008_10",
@@ -262,12 +374,12 @@
       "translation": "I finished my homework.",
       "blank_target": "が",
       "wrong_choices": [
-        "は",
+        "から",
         "を",
         "に"
       ],
       "wrong_choice_explanations": [
-        "は marks topics — it doesn't fit here because 宿題 is the subject that got completed, not a topic for general comment.",
+        "から means 'from' and marks a source or starting point (学校から帰る); 宿題からできました would mean something like 'it was made from the homework,' which is nonsense here — できる ('to get done') marks the completed thing with が.",
         "を marks direct objects — it doesn't fit here because できる is an intransitive verb meaning 'to be completed/finished', not a transitive action.",
         "に indicates direction, time, or location — it doesn't fit here because 宿題 is the subject that was completed, not a time or location."
       ],
@@ -282,7 +394,20 @@
           "hiragana_full": "しゅくだいをやりました"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "宿題",
+          "reading": "しゅくだい",
+          "meaning": "homework"
+        },
+        {
+          "word": "できました",
+          "reading": "できました",
+          "meaning": "is done; finished"
+        }
+      ]
     }
   ]
 }

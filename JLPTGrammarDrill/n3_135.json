@@ -9,7 +9,11 @@
       "example_sentence": "「怒ってるの？」「別に怒ってないよ。」",
       "translation": "\"Are you mad?\" \"No, not really.\"",
       "blank_target": "別に",
-      "wrong_choices": ["決して", "めったに", "なかなか"],
+      "wrong_choices": [
+        "決して",
+        "めったに",
+        "なかなか"
+      ],
       "wrong_choice_explanations": [
         "決して怒ってない would be a strong, vow-like denial ('absolutely not'); the casual reply here plays the matter down, which is what 別に does.",
         "めったに expresses low frequency ('rarely get angry'), but the question is about right now, not about how often the speaker gets angry.",
@@ -17,17 +21,28 @@
       ],
       "hiragana_full": "「おこってるの？」「べつにおこってないよ。」",
       "audio_alternatives": [
-        { "kanji": "「怒ってる？」「いや、別に。」", "hiragana_full": "「おこってる？」「いや、べつに。」" },
-        { "kanji": "怒ってなんかいないよ。", "hiragana_full": "おこってなんかいないよ。" }
+        {
+          "kanji": "「怒ってる？」「いや、別に。」",
+          "hiragana_full": "「おこってる？」「いや、べつに。」"
+        },
+        {
+          "kanji": "怒ってなんかいないよ。",
+          "hiragana_full": "おこってなんかいないよ。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "blank_target_reading": "べつに"
     },
     {
       "id": "n3_135_2",
       "example_sentence": "週末は別に予定がないので、家でゆっくりするつもりだ。",
       "translation": "I don't have any particular plans for the weekend, so I'm going to relax at home.",
       "blank_target": "別に",
-      "wrong_choices": ["めったに", "必ずしも", "一向に"],
+      "wrong_choices": [
+        "めったに",
+        "必ずしも",
+        "一向に"
+      ],
       "wrong_choice_explanations": [
         "めったに予定がない would describe a general habit of rarely having plans, but the sentence is about this weekend specifically.",
         "必ずしも gives partial negation of a general claim ('not necessarily') and normally pairs with わけではない; it doesn't fit a plain statement about one's own schedule.",
@@ -35,17 +50,28 @@
       ],
       "hiragana_full": "しゅうまつはべつによていがないので、いえでゆっくりするつもりだ。",
       "audio_alternatives": [
-        { "kanji": "今週末は別にすることがないから、家にいるよ。", "hiragana_full": "こんしゅうまつはべつにすることがないから、いえにいるよ。" },
-        { "kanji": "週末はこれといった予定がありません。", "hiragana_full": "しゅうまつはこれといったよていがありません。" }
+        {
+          "kanji": "今週末は別にすることがないから、家にいるよ。",
+          "hiragana_full": "こんしゅうまつはべつにすることがないから、いえにいるよ。"
+        },
+        {
+          "kanji": "週末はこれといった予定がありません。",
+          "hiragana_full": "しゅうまつはこれといったよていがありません。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "blank_target_reading": "べつに"
     },
     {
       "id": "n3_135_3",
       "example_sentence": "その映画は別に面白くなかった。",
       "translation": "The movie wasn't especially interesting.",
       "blank_target": "別に",
-      "wrong_choices": ["必ずしも", "なかなか", "めったに"],
+      "wrong_choices": [
+        "必ずしも",
+        "なかなか",
+        "めったに"
+      ],
       "wrong_choice_explanations": [
         "必ずしも partially negates general statements and usually needs とは限らない or わけではない; it sounds wrong in a simple personal review of one movie.",
         "なかなか with a negative means 'not easily / still not after waiting' (なかなか来ない); it can't mean 'not particularly' with an adjective like 面白い.",
@@ -53,17 +79,28 @@
       ],
       "hiragana_full": "そのえいがはべつにおもしろくなかった。",
       "audio_alternatives": [
-        { "kanji": "その映画は別に面白くありませんでした。", "hiragana_full": "そのえいがはべつにおもしろくありませんでした。" },
-        { "kanji": "思ったほど面白くない映画だった。", "hiragana_full": "おもったほどおもしろくないえいがだった。" }
+        {
+          "kanji": "その映画は別に面白くありませんでした。",
+          "hiragana_full": "そのえいがはべつにおもしろくありませんでした。"
+        },
+        {
+          "kanji": "思ったほど面白くない映画だった。",
+          "hiragana_full": "おもったほどおもしろくないえいがだった。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "blank_target_reading": "べつに"
     },
     {
       "id": "n3_135_4",
       "example_sentence": "彼が何をしようと、私には別に関係ない。",
       "translation": "Whatever he does, it really has nothing to do with me.",
       "blank_target": "別に",
-      "wrong_choices": ["一向に", "決して", "めったに"],
+      "wrong_choices": [
+        "一向に",
+        "決して",
+        "めったに"
+      ],
       "wrong_choice_explanations": [
         "一向に needs an ongoing situation that shows no change (一向に直らない); 関係ない is a simple state, and 一向に関係ない is not a natural combination.",
         "決して関係ない sounds like a solemn declaration; the speaker is shrugging the matter off, and 別に conveys that indifference.",
@@ -71,17 +108,28 @@
       ],
       "hiragana_full": "かれがなにをしようと、わたしにはべつにかんけいない。",
       "audio_alternatives": [
-        { "kanji": "彼が何をしても、私には関係ないよ。", "hiragana_full": "かれがなにをしても、わたしにはかんけいないよ。" },
-        { "kanji": "彼のことは別に気にしていない。", "hiragana_full": "かれのことはべつにきにしていない。" }
+        {
+          "kanji": "彼が何をしても、私には関係ないよ。",
+          "hiragana_full": "かれがなにをしても、わたしにはかんけいないよ。"
+        },
+        {
+          "kanji": "彼のことは別に気にしていない。",
+          "hiragana_full": "かれのことはべつにきにしていない。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "blank_target_reading": "べつに"
     },
     {
       "id": "n3_135_5",
       "example_sentence": "熱があるかと思ったが、測ってみると別に高くなかった。",
       "translation": "I thought I had a fever, but when I took my temperature, it wasn't particularly high.",
       "blank_target": "別に",
-      "wrong_choices": ["必ずしも", "一向に", "めったに"],
+      "wrong_choices": [
+        "必ずしも",
+        "一向に",
+        "めったに"
+      ],
       "wrong_choice_explanations": [
         "必ずしも hedges general claims ('high fevers aren't necessarily dangerous') and pairs with expressions like とは限らない; it doesn't fit one concrete measurement.",
         "一向に describes something stubbornly unchanging over time (熱が一向に下がらない); a single thermometer reading isn't a continuing process.",
@@ -89,17 +137,28 @@
       ],
       "hiragana_full": "ねつがあるかとおもったが、はかってみるとべつにたかくなかった。",
       "audio_alternatives": [
-        { "kanji": "熱を測ったら、別に高くありませんでした。", "hiragana_full": "ねつをはかったら、べつにたかくありませんでした。" },
-        { "kanji": "体温は思ったより普通だった。", "hiragana_full": "たいおんはおもったよりふつうだった。" }
+        {
+          "kanji": "熱を測ったら、別に高くありませんでした。",
+          "hiragana_full": "ねつをはかったら、べつにたかくありませんでした。"
+        },
+        {
+          "kanji": "体温は思ったより普通だった。",
+          "hiragana_full": "たいおんはおもったよりふつうだった。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "blank_target_reading": "べつに"
     },
     {
       "id": "n3_135_6",
       "example_sentence": "給料は高くないが、今の仕事に別に不満はない。",
       "translation": "The pay isn't great, but I don't really have any complaints about my current job.",
       "blank_target": "別に",
-      "wrong_choices": ["必ずしも", "めったに", "なかなか"],
+      "wrong_choices": [
+        "必ずしも",
+        "めったに",
+        "なかなか"
+      ],
       "wrong_choice_explanations": [
         "必ずしも不満はない is unnatural; 必ずしも partially negates general statements and wants とは限らない or わけではない, not a flat statement about one's own feelings.",
         "めったに不満はない would mean the speaker rarely feels dissatisfied over time; the sentence states their present attitude toward this job.",
@@ -107,17 +166,28 @@
       ],
       "hiragana_full": "きゅうりょうはたかくないが、いまのしごとにべつにふまんはない。",
       "audio_alternatives": [
-        { "kanji": "給料は安いけど、別に文句はないよ。", "hiragana_full": "きゅうりょうはやすいけど、べつにもんくはないよ。" },
-        { "kanji": "今の仕事にはおおむね満足している。", "hiragana_full": "いまのしごとにはおおむねまんぞくしている。" }
+        {
+          "kanji": "給料は安いけど、別に文句はないよ。",
+          "hiragana_full": "きゅうりょうはやすいけど、べつにもんくはないよ。"
+        },
+        {
+          "kanji": "今の仕事にはおおむね満足している。",
+          "hiragana_full": "いまのしごとにはおおむねまんぞくしている。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "blank_target_reading": "べつに"
     },
     {
       "id": "n3_135_7",
       "example_sentence": "一人で旅行するのは、別に寂しくない。",
       "translation": "Traveling alone isn't really lonely.",
       "blank_target": "別に",
-      "wrong_choices": ["決して", "一向に", "めったに"],
+      "wrong_choices": [
+        "決して",
+        "一向に",
+        "めったに"
+      ],
       "wrong_choice_explanations": [
         "決して寂しくない is an emphatic, oath-like denial ('absolutely never lonely'); the speaker is just saying it's no big deal, which is the nuance of 別に.",
         "一向に suits a situation that shows no change despite time or effort (一向に慣れない); it doesn't modify a general impression like 'lonely.'",
@@ -125,17 +195,28 @@
       ],
       "hiragana_full": "ひとりでりょこうするのは、べつにさびしくない。",
       "audio_alternatives": [
-        { "kanji": "一人旅は別に寂しくありませんよ。", "hiragana_full": "ひとりたびはべつにさびしくありませんよ。" },
-        { "kanji": "一人で旅行しても寂しいとは感じない。", "hiragana_full": "ひとりでりょこうしてもさびしいとはかんじない。" }
+        {
+          "kanji": "一人旅は別に寂しくありませんよ。",
+          "hiragana_full": "ひとりたびはべつにさびしくありませんよ。"
+        },
+        {
+          "kanji": "一人で旅行しても寂しいとは感じない。",
+          "hiragana_full": "ひとりでりょこうしてもさびしいとはかんじない。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "blank_target_reading": "べつに"
     },
     {
       "id": "n3_135_8",
       "example_sentence": "彼の話は長かったが、別に新しい情報はなかった。",
       "translation": "His talk was long, but there wasn't really anything new in it.",
       "blank_target": "別に",
-      "wrong_choices": ["一向に", "なかなか", "決して"],
+      "wrong_choices": [
+        "一向に",
+        "なかなか",
+        "決して"
+      ],
       "wrong_choice_explanations": [
         "一向に describes a lack of change in an ongoing situation (一向に進まない); the sentence just reports what the finished talk contained.",
         "なかなか〜ない means something doesn't come easily or quickly; the talk is already over, so 'new information didn't come easily' misreads the sentence.",
@@ -143,17 +224,28 @@
       ],
       "hiragana_full": "かれのはなしはながかったが、べつにあたらしいじょうほうはなかった。",
       "audio_alternatives": [
-        { "kanji": "長い話だったが、特に新しい内容はなかった。", "hiragana_full": "ながいはなしだったが、とくにあたらしいないようはなかった。" },
-        { "kanji": "彼の話には別に目新しい点はなかった。", "hiragana_full": "かれのはなしにはべつにめあたらしいてんはなかった。" }
+        {
+          "kanji": "長い話だったが、特に新しい内容はなかった。",
+          "hiragana_full": "ながいはなしだったが、とくにあたらしいないようはなかった。"
+        },
+        {
+          "kanji": "彼の話には別に目新しい点はなかった。",
+          "hiragana_full": "かれのはなしにはべつにめあたらしいてんはなかった。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "blank_target_reading": "べつに"
     },
     {
       "id": "n3_135_9",
       "example_sentence": "どちらのデザインでも、私は別にかまわない。",
       "translation": "Either design is fine with me — I don't really mind.",
       "blank_target": "別に",
-      "wrong_choices": ["めったに", "とても", "必ずしも"],
+      "wrong_choices": [
+        "めったに",
+        "とても",
+        "必ずしも"
+      ],
       "wrong_choice_explanations": [
         "めったにかまわない would be a frequency statement ('I rarely mind'), which is not how the speaker is expressing indifference about this one choice.",
         "とても with a negative means 'cannot possibly' and attaches to potential-like predicates (とても間に合わない); with かまわない ('I don't mind') it produces nonsense.",
@@ -161,17 +253,28 @@
       ],
       "hiragana_full": "どちらのでざいんでも、わたしはべつにかまわない。",
       "audio_alternatives": [
-        { "kanji": "デザインはどちらでも別にかまいませんよ。", "hiragana_full": "でざいんはどちらでもべつにかまいませんよ。" },
-        { "kanji": "どちらを選んでも問題ないですよ。", "hiragana_full": "どちらをえらんでももんだいないですよ。" }
+        {
+          "kanji": "デザインはどちらでも別にかまいませんよ。",
+          "hiragana_full": "でざいんはどちらでもべつにかまいませんよ。"
+        },
+        {
+          "kanji": "どちらを選んでも問題ないですよ。",
+          "hiragana_full": "どちらをえらんでももんだいないですよ。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "blank_target_reading": "べつに"
     },
     {
       "id": "n3_135_10",
       "example_sentence": "昨日のことなら別に気にしていないから、心配しないで。",
       "translation": "If it's about yesterday, I'm not really bothered, so don't worry.",
       "blank_target": "別に",
-      "wrong_choices": ["なかなか", "めったに", "必ずしも"],
+      "wrong_choices": [
+        "なかなか",
+        "めったに",
+        "必ずしも"
+      ],
       "wrong_choice_explanations": [
         "なかなか気にしていない is ungrammatical; なかなか〜ない means 'not easily / not yet' (なかなか終わらない) and cannot soften a statement about one's current feelings.",
         "めったに気にしない would be a claim about the speaker's general personality ('I rarely let things bother me'); here they are reassuring someone about one specific incident.",
@@ -179,10 +282,17 @@
       ],
       "hiragana_full": "きのうのことならべつにきにしていないから、しんぱいしないで。",
       "audio_alternatives": [
-        { "kanji": "昨日のことは別に気にしてないよ。", "hiragana_full": "きのうのことはべつにきにしてないよ。" },
-        { "kanji": "昨日のことなら、もう大丈夫だから安心して。", "hiragana_full": "きのうのことなら、もうだいじょうぶだからあんしんして。" }
+        {
+          "kanji": "昨日のことは別に気にしてないよ。",
+          "hiragana_full": "きのうのことはべつにきにしてないよ。"
+        },
+        {
+          "kanji": "昨日のことなら、もう大丈夫だから安心して。",
+          "hiragana_full": "きのうのことなら、もうだいじょうぶだからあんしんして。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "blank_target_reading": "べつに"
     }
   ]
 }

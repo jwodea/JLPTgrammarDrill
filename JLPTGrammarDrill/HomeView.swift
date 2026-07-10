@@ -15,9 +15,17 @@ struct HomeView: View {
     @State private var particleExercises: [ParticleExercise] = []
     @State private var exercisePool: [String: [SessionExercise]] = [:]
     @State private var sessionItems: [SessionExercise]?
+    // Grammar IDs being introduced for the first time in the current session —
+    // ExerciseView shows an intro card before each one's first question.
+    @State private var newPatternIds: Set<String> = []
     @State private var isLoading = false
     @State private var showAllCaughtUp = false
     @State private var navigateToExercise = false
+    // Set by ExerciseView's onSessionComplete so the continue prompt only appears
+    // after a finished session, not when the user exits early via the X button.
+    @State private var sessionDidComplete = false
+    @State private var showContinuePrompt = false
+    @State private var remainingDueCount = 0
 
 
     private var streakCount: Int {
@@ -358,8 +366,33 @@ struct HomeView: View {
         }
         .navigationDestination(isPresented: $navigateToExercise) {
             if let items = sessionItems {
-                ExerciseView(sessionItems: items, exercisePool: exercisePool)
+                ExerciseView(sessionItems: items, exercisePool: exercisePool, newPatternIds: newPatternIds) {
+                    sessionDidComplete = true
+                }
             }
+        }
+        .onChange(of: navigateToExercise) {
+            guard !navigateToExercise, sessionDidComplete else { return }
+            sessionDidComplete = false
+            // Ratings were flushed before dismissal, so the due count is current.
+            let due = sessionStats.totalDue
+            guard due > 0 else { return }
+            remainingDueCount = due
+            // Let the pop animation finish; an alert presented mid-transition can be dropped.
+            Task {
+                try? await Task.sleep(for: .seconds(0.6))
+                showContinuePrompt = true
+            }
+        }
+        .alert("Session complete!", isPresented: $showContinuePrompt) {
+            Button("Keep Reviewing") {
+                startSession(newCount: 0)
+            }
+            Button("Done", role: .cancel) {}
+        } message: {
+            Text(remainingDueCount == 1
+                 ? "1 more pattern is due for review."
+                 : "\(remainingDueCount) more patterns are due for review.")
         }
         .onAppear {
             loadData()
@@ -450,12 +483,13 @@ struct HomeView: View {
     private func startSession(newCount: Int) {
         isLoading = true
         Task {
-            var items = SessionBuilder.buildSession(
+            let built = SessionBuilder.buildSession(
                 allPoints: grammarPoints,
                 exercisePool: exercisePool,
                 context: modelContext,
                 newCount: newCount
             )
+            var items = built.items
 
             // Mix in particle exercises when combined mode is on.
             // Cap particles at ~15% of the final session so they stay an occasional flavor.
@@ -482,6 +516,7 @@ struct HomeView: View {
                     showAllCaughtUp = true
                 } else {
                     sessionItems = items
+                    newPatternIds = built.newPatternIds
                     navigateToExercise = true
                 }
             }

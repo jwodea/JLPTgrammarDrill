@@ -30,7 +30,20 @@
           "hiragana_full": "このほんはわたしのです"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "私",
+          "reading": "わたし",
+          "meaning": "I"
+        },
+        {
+          "word": "本",
+          "reading": "ほん",
+          "meaning": "book"
+        }
+      ]
     },
     {
       "id": "n5_016_2",
@@ -58,7 +71,25 @@
           "hiragana_full": "たなかせんせいのくるまはあたらしいですね"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "先生",
+          "reading": "せんせい",
+          "meaning": "teacher"
+        },
+        {
+          "word": "車",
+          "reading": "くるま",
+          "meaning": "car"
+        },
+        {
+          "word": "新しい",
+          "reading": "あたらしい",
+          "meaning": "new"
+        }
+      ]
     },
     {
       "id": "n5_016_3",
@@ -86,7 +117,20 @@
           "hiragana_full": "にほんごのべんきょうはたいへんです"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "勉強",
+          "reading": "べんきょう",
+          "meaning": "study"
+        },
+        {
+          "word": "難しい",
+          "reading": "むずかしい",
+          "meaning": "difficult"
+        }
+      ]
     },
     {
       "id": "n5_016_4",
@@ -114,7 +158,20 @@
           "hiragana_full": "ともだちのところにいきました"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "友達",
+          "reading": "ともだち",
+          "meaning": "friend"
+        },
+        {
+          "word": "家",
+          "reading": "いえ",
+          "meaning": "house"
+        }
+      ]
     },
     {
       "id": "n5_016_5",
@@ -122,12 +179,12 @@
       "translation": "I like reading books.",
       "blank_target": "の",
       "wrong_choices": [
-        "こと",
+        "もの",
         "とき",
         "ため"
       ],
       "wrong_choice_explanations": [
-        "こと can also nominalize verbs (本を読むことが好きです is also acceptable), but with feeling verbs like 好き / 嫌い / 上手 the の-nominalizer is the more idiomatic pick.",
+        "もの refers to tangible things or people — 本を読むものが好きです would mean liking 'things/people that read books', not the act of reading itself.",
         "とき means 'when/time' — 読むとき would mean 'the time when (I) read,' not the act of reading itself, which is what we want as the subject of 好き.",
         "ため means 'for the sake of / in order to' — 読むため would mark purpose, not turn 読む into a noun that can sit before が."
       ],
@@ -142,7 +199,20 @@
           "hiragana_full": "どくしょがすきです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "読む",
+          "reading": "よむ",
+          "meaning": "to read"
+        },
+        {
+          "word": "好き",
+          "reading": "すき",
+          "meaning": "to like"
+        }
+      ]
     },
     {
       "id": "n5_016_6",
@@ -170,7 +240,20 @@
           "hiragana_full": "としょかんでほんをよみます。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "学校",
+          "reading": "がっこう",
+          "meaning": "school"
+        },
+        {
+          "word": "図書館",
+          "reading": "としょかん",
+          "meaning": "library"
+        }
+      ]
     },
     {
       "id": "n5_016_7",
@@ -178,12 +261,12 @@
       "translation": "Speaking Japanese every day is fun.",
       "blank_target": "の",
       "wrong_choices": [
-        "こと",
+        "ところ",
         "とき",
         "ため"
       ],
       "wrong_choice_explanations": [
-        "こと can also nominalize verbs (話すことは楽しいです is also fine), but の is more natural when describing a directly experienced, ongoing activity like daily speaking.",
+        "ところ means 'place/scene' — 話すところは楽しいです would mean 'the place (or moment) of speaking is fun', not the activity of speaking itself.",
         "とき means 'when/time' — 話すときは楽しい would mean 'when I speak, it's fun,' not 'the act of speaking is fun.'",
         "ため means 'for the purpose of' — 話すためは marks purpose, not the subject 'speaking' that 楽しい is describing."
       ],
@@ -198,7 +281,25 @@
           "hiragana_full": "まいにちにほんごをはなすのはたのしい"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "毎日",
+          "reading": "まいにち",
+          "meaning": "every day"
+        },
+        {
+          "word": "話す",
+          "reading": "はなす",
+          "meaning": "to speak"
+        },
+        {
+          "word": "楽しい",
+          "reading": "たのしい",
+          "meaning": "fun"
+        }
+      ]
     },
     {
       "id": "n5_016_8",
@@ -226,7 +327,20 @@
           "hiragana_full": "ははがつくるりょうりはとてもおいしいです"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "母",
+          "reading": "はは",
+          "meaning": "(my) mother"
+        },
+        {
+          "word": "料理",
+          "reading": "りょうり",
+          "meaning": "cooking"
+        }
+      ]
     },
     {
       "id": "n5_016_9",
@@ -234,12 +348,12 @@
       "translation": "That blue one is my pen.",
       "blank_target": "の",
       "wrong_choices": [
-        "もの",
+        "ところ",
         "こと",
         "ひと"
       ],
       "wrong_choice_explanations": [
-        "もの means 'thing' but doesn't function as a pronoun substitute like の does here.",
+        "ところ means 'place/part' — あの青いところが私のペンです would mean 'the blue part is my pen', not 'the blue one'; の is the pronoun meaning 'one'.",
         "こと refers to abstract things or actions — it doesn't substitute for concrete objects like pens.",
         "ひと means 'person' — it doesn't work as a pronoun for objects like の does."
       ],
@@ -254,7 +368,15 @@
           "hiragana_full": "あのあおいぺんはわたしのです"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "青い",
+          "reading": "あおい",
+          "meaning": "blue"
+        }
+      ]
     },
     {
       "id": "n5_016_10",
@@ -262,12 +384,12 @@
       "translation": "I forgot to do my homework.",
       "blank_target": "の",
       "wrong_choices": [
-        "こと",
+        "とき",
         "ため",
         "もの"
       ],
       "wrong_choice_explanations": [
-        "こと can also nominalize verbs (することを忘れる is also valid), but with 忘れる + a concrete action you meant to do, の is the more natural choice.",
+        "とき means 'when/the time' — 宿題をするときを忘れました would mean forgetting the time for doing homework, not forgetting to do it.",
         "ため means 'for the purpose of' — するためを忘れる doesn't form 'forgot to do'; it would imply forgetting a purpose, which isn't the meaning here.",
         "もの means 'thing' as a tangible noun — it doesn't nominalize a verb phrase like 宿題をする into 'the act of doing homework.'"
       ],
@@ -282,7 +404,20 @@
           "hiragana_full": "しゅくだいをわすれました"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "宿題",
+          "reading": "しゅくだい",
+          "meaning": "homework"
+        },
+        {
+          "word": "忘れました",
+          "reading": "わすれました",
+          "meaning": "forgot"
+        }
+      ]
     }
   ]
 }

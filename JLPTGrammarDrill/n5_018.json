@@ -30,7 +30,15 @@
           "hiragana_full": "ごじまではたらく。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "働きます",
+          "reading": "はたらきます",
+          "meaning": "work"
+        }
+      ]
     },
     {
       "id": "n5_018_2",
@@ -58,7 +66,20 @@
           "hiragana_full": "えきへあるいていきました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "駅",
+          "reading": "えき",
+          "meaning": "station"
+        },
+        {
+          "word": "歩いて",
+          "reading": "あるいて",
+          "meaning": "on foot"
+        }
+      ]
     },
     {
       "id": "n5_018_3",
@@ -68,12 +89,12 @@
       "wrong_choices": [
         "に",
         "と",
-        "より"
+        "で"
       ],
       "wrong_choice_explanations": [
         "に indicates specific time points — it doesn't show the starting point 'from' needed with まで.",
         "と means 'and' — it doesn't indicate the time range from Monday that extends until Sunday.",
-        "より means 'than' for comparison — it doesn't express the starting point 'from' like から does."
+        "で marks a means or a cut-off point — it cannot open a time range paired with まで, so 月曜日で日曜日まで doesn't work; から is needed for 'from Monday'."
       ],
       "hiragana_full": "げつようびからにちようびまでいそがしいです。",
       "audio_alternatives": [
@@ -86,7 +107,25 @@
           "hiragana_full": "げつようからにちようまでいそがしいです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "月曜日",
+          "reading": "げつようび",
+          "meaning": "Monday"
+        },
+        {
+          "word": "日曜日",
+          "reading": "にちようび",
+          "meaning": "Sunday"
+        },
+        {
+          "word": "忙しい",
+          "reading": "いそがしい",
+          "meaning": "busy"
+        }
+      ]
     },
     {
       "id": "n5_018_4",
@@ -114,7 +153,25 @@
           "hiragana_full": "しゅくだいがおわらないとねられません。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "宿題",
+          "reading": "しゅくだい",
+          "meaning": "homework"
+        },
+        {
+          "word": "終わる",
+          "reading": "おわる",
+          "meaning": "to finish"
+        },
+        {
+          "word": "寝られません",
+          "reading": "ねられません",
+          "meaning": "can't sleep"
+        }
+      ]
     },
     {
       "id": "n5_018_5",
@@ -142,7 +199,15 @@
           "hiragana_full": "あそこまでここからはしりました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "走りました",
+          "reading": "はしりました",
+          "meaning": "ran"
+        }
+      ]
     },
     {
       "id": "n5_018_6",
@@ -170,7 +235,20 @@
           "hiragana_full": "くじからじゅぎょうがはじまります。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "授業",
+          "reading": "じゅぎょう",
+          "meaning": "class"
+        },
+        {
+          "word": "始まります",
+          "reading": "はじまります",
+          "meaning": "starts"
+        }
+      ]
     },
     {
       "id": "n5_018_7",
@@ -180,12 +258,12 @@
       "wrong_choices": [
         "で",
         "と",
-        "より"
+        "に"
       ],
       "wrong_choice_explanations": [
         "で indicates location or means — it doesn't express the starting time 'from one' needed with まで.",
         "と means 'and' — it doesn't indicate the time range starting from one o'clock.",
-        "より means 'than' — it's used for comparisons, not time ranges like から～まで."
+        "に marks a single point in time — 一時に cannot open the span that 三時まで closes, so the sentence doesn't hold together; から is required."
       ],
       "hiragana_full": "いちじからさんじまでひるやすみです。",
       "audio_alternatives": [
@@ -198,7 +276,15 @@
           "hiragana_full": "いちじからさんじまでひるやすみがあります。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "昼休み",
+          "reading": "ひるやすみ",
+          "meaning": "lunch break"
+        }
+      ]
     },
     {
       "id": "n5_018_8",
@@ -226,7 +312,25 @@
           "hiragana_full": "あめがとまるまでそとであそべません。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "やむ",
+          "reading": "やむ",
+          "meaning": "to stop (raining)"
+        },
+        {
+          "word": "外",
+          "reading": "そと",
+          "meaning": "outside"
+        },
+        {
+          "word": "遊べません",
+          "reading": "あそべません",
+          "meaning": "can't play"
+        }
+      ]
     },
     {
       "id": "n5_018_9",
@@ -254,7 +358,20 @@
           "hiragana_full": "びょういんにおみまいにいきました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "病院",
+          "reading": "びょういん",
+          "meaning": "hospital"
+        },
+        {
+          "word": "お見舞い",
+          "reading": "おみまい",
+          "meaning": "visit to a sick person"
+        }
+      ]
     },
     {
       "id": "n5_018_10",
@@ -282,7 +399,15 @@
           "hiragana_full": "じゅうにじまでねむりませんでした。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "起きていました",
+          "reading": "おきていました",
+          "meaning": "stayed awake"
+        }
+      ]
     }
   ]
 }

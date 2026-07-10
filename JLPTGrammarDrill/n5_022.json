@@ -30,7 +30,8 @@
           "hiragana_full": "こちらはなんですか。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n5_022_2",
@@ -58,7 +59,20 @@
           "hiragana_full": "あしたあめはふりますか。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "雨",
+          "reading": "あめ",
+          "meaning": "rain"
+        },
+        {
+          "word": "降ります",
+          "reading": "ふります",
+          "meaning": "will fall"
+        }
+      ]
     },
     {
       "id": "n5_022_3",
@@ -86,7 +100,15 @@
           "hiragana_full": "たなかさんってがくせいですか。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "学生",
+          "reading": "がくせい",
+          "meaning": "student"
+        }
+      ]
     },
     {
       "id": "n5_022_4",
@@ -114,7 +136,8 @@
           "hiragana_full": "どこにいくの？"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n5_022_5",
@@ -142,7 +165,15 @@
           "hiragana_full": "コーヒーをのむ？"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "飲みます",
+          "reading": "のみます",
+          "meaning": "drink"
+        }
+      ]
     },
     {
       "id": "n5_022_6",
@@ -170,7 +201,15 @@
           "hiragana_full": "にほんごがわかる？"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "分かります",
+          "reading": "わかります",
+          "meaning": "understand"
+        }
+      ]
     },
     {
       "id": "n5_022_7",
@@ -198,7 +237,15 @@
           "hiragana_full": "なんじですか。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "何時",
+          "reading": "なんじ",
+          "meaning": "what time"
+        }
+      ]
     },
     {
       "id": "n5_022_8",
@@ -226,7 +273,15 @@
           "hiragana_full": "どなたがきますか。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "誰",
+          "reading": "だれ",
+          "meaning": "who"
+        }
+      ]
     },
     {
       "id": "n5_022_9",
@@ -254,7 +309,15 @@
           "hiragana_full": "おなまえをおしえていただけますか。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "お名前",
+          "reading": "おなまえ",
+          "meaning": "(your) name"
+        }
+      ]
     },
     {
       "id": "n5_022_10",
@@ -282,7 +345,15 @@
           "hiragana_full": "でんしゃでいきますか？"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "電車",
+          "reading": "でんしゃ",
+          "meaning": "train"
+        }
+      ]
     }
   ]
 }

@@ -43,6 +43,29 @@ def main():
                               f"ex {i} alt {j}: missing kanji/hiragana_full")
                 if 'audio_eligible' in ex:
                     check(ex['audio_eligible'] is True, f"ex {i}: audio_eligible must be true")
+                # Enrichment fields — all optional, validated only when present
+                if 'register' in ex:
+                    check(ex['register'] in ['casual','neutral','formal','written'],
+                          f"ex {i}: bad register: {ex['register']}")
+                if 'vocab' in ex:
+                    check(isinstance(ex['vocab'], list) and 1 <= len(ex['vocab']) <= 4,
+                          f"ex {i}: vocab must be a list of 1-4 items")
+                    for j, v in enumerate(ex.get('vocab') or [], 1):
+                        check(isinstance(v, dict) and all(k in v for k in ['word','reading','meaning']),
+                              f"ex {i} vocab {j}: missing word/reading/meaning")
+                        if isinstance(v, dict) and 'reading' in v:
+                            check(bool(re.fullmatch(r'[ぁ-ゖーゝゞ・ 　]+', v['reading'])),
+                                  f"ex {i} vocab {j}: reading not hiragana: {v.get('reading')}")
+                        if isinstance(v, dict) and 'word' in v and 'blank_target' in ex:
+                            check(v['word'] != ex['blank_target'],
+                                  f"ex {i} vocab {j}: vocab word equals blank_target")
+                if 'blank_target_reading' in ex:
+                    btr = ex['blank_target_reading']
+                    # 、 allowed: some (miscut) multi-clause targets contain commas
+                    check(bool(re.fullmatch(r'[ぁ-ゖーゝゞ、]+', btr or '')),
+                          f"ex {i}: blank_target_reading not hiragana: {btr}")
+                    check(bool(re.search(r'[一-鿿々]', ex.get('blank_target',''))),
+                          f"ex {i}: blank_target_reading present but blank_target has no kanji")
         if errs:
             print(f'❌ {path}')
             for e in errs: print(f'   {e}')

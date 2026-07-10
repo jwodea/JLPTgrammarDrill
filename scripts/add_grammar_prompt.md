@@ -36,14 +36,19 @@ Each exercise object (in this key order, matching existing files):
 - `hiragana_full` — full hiragana reading of `example_sentence`, preserving punctuation. Convert all kanji to hiragana; leave katakana words as katakana (the existing files use lowercased katakana e.g. `スポーツ → すぽーつ` — match that convention).
 - `audio_alternatives` — array of exactly **2** rephrasings, each an object `{ "kanji": ..., "hiragana_full": ... }`. Use different vocabulary, register, or word order. At least one of the two should still use the pattern when natural.
 - `audio_eligible` — `true` (boolean)
+- `register` — one of `"casual"` (plain-form speech among friends/family), `"neutral"` (です・ます default or register-irrelevant), `"formal"` (formal spoken: keigo, business, announcements), `"written"` (literary/written: essays, news, contracts). Always assess; `"neutral"` is the common case. A non-neutral tag is shown to the learner as a chip before answering, so the sentence — and ideally the translation, e.g. "(to your boss)" — must actually carry that register.
+- `vocab` — array of **2–4** objects `{ "word": ..., "reading": ..., "meaning": ... }`: the significant words a learner at this JLPT level would plausibly look up. `reading` is full hiragana; `meaning` is a short English gloss matching this sentence's usage. Never include `blank_target` or the grammar pattern itself.
+- `blank_target_reading` — full hiragana reading of `blank_target`, **only when it contains kanji** (rendered as furigana when the answer is revealed). Omit the key entirely for kana-only targets.
 
 ### Content quality rules
 
 1. **Pattern shows up** in every `example_sentence` and ideally in at least one alternative.
 2. **Variety across the 10 exercises**: different subjects, settings, registers; don't reuse the same verb stem or scenario.
 3. **Distractor quality**: pick adjacent grammar points, sibling particles, similar conjugations. A learner who half-understands the pattern should be tempted.
-4. **Hiragana correctness**: double-check every reading (今日 → きょう, 一日 → ついたち vs いちにち by context, 行く → いく, etc.).
-5. **No markdown inside the JSON**, no comments, no trailing commas.
+4. **No competing-correct distractors.** For every wrong choice, mentally substitute it into the sentence (`example_sentence.replace(blank_target, wrong_choice)`): if the result is a grammatical, natural sentence with the same or an equally acceptable meaning, the item has two right answers — replace that distractor with one from a genuinely different function (opposite meaning, different relation, different modality). Exact synonyms, the answer in a different orthography, and the pattern's optional-particle variants are never valid distractors.
+5. **Register twins need a register flag.** A distractor differing from the answer only in register (です↔だ, でしょう↔だろう/でしょ, formal↔plain twins like に相違ない↔に違いない) is only fair when the exercise's `register` is non-neutral and the sentence/translation carries the cue; otherwise pick a genuinely-wrong alternative.
+6. **Hiragana correctness**: double-check every reading (今日 → きょう, 一日 → ついたち vs いちにち by context, 行く → いく, etc.) — including `vocab` readings and `blank_target_reading`.
+7. **No markdown inside the JSON**, no comments, no trailing commas.
 
 ### Reference shape (do not reuse content)
 
@@ -59,9 +64,9 @@ Each exercise object (in this key order, matching existing files):
       "example_sentence": "これは本です。",
       "translation": "This is a book.",
       "blank_target": "です",
-      "wrong_choices": ["だ", "でした", "ある"],
+      "wrong_choices": ["ます", "でした", "ある"],
       "wrong_choice_explanations": [
-        "だ is the plain copula; this sentence requires the polite form です.",
+        "ます is the polite ending for verbs and cannot attach to a noun like 本; a noun predicate needs the copula です.",
         "でした is the past polite copula, but the sentence is present tense.",
         "ある means 'to exist' for inanimate objects but cannot link a noun predicate."
       ],
@@ -70,7 +75,11 @@ Each exercise object (in this key order, matching existing files):
         { "kanji": "これは本だ。", "hiragana_full": "これはほんだ。" },
         { "kanji": "この本です。", "hiragana_full": "このほんです。" }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "本", "reading": "ほん", "meaning": "book" }
+      ]
     }
     // ... 9 more exercises
   ]

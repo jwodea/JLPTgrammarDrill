@@ -9,7 +9,11 @@
       "example_sentence": "そんなにたくさんの仕事を一度に頼まれても、できません。",
       "translation": "I can't do it if you ask me to handle that much work all at once.",
       "blank_target": "一度に",
-      "wrong_choices": ["一度も", "もう一度", "めったに"],
+      "wrong_choices": [
+        "一度も",
+        "もう一度",
+        "めったに"
+      ],
       "wrong_choice_explanations": [
         "「一度も」は「一回も〜ない」と経験や回数のゼロを表し、否定の述語と直接呼応する。「頼まれても」という譲歩の形には付かず、「まとめて」という意味も出ない。",
         "「もう一度」は「再び」という意味。訳の「一回にまとめて」という意味にならず、「そんなにたくさん」という量の多さとも呼応しない。",
@@ -17,17 +21,28 @@
       ],
       "hiragana_full": "そんなにたくさんのしごとをいちどにたのまれても、できません。",
       "audio_alternatives": [
-        { "kanji": "こんなに多くの仕事を一度に頼まれても無理です。", "hiragana_full": "こんなにおおくのしごとをいちどにたのまれてもむりです。" },
-        { "kanji": "仕事はまとめてではなく、少しずつお願いします。", "hiragana_full": "しごとはまとめてではなく、すこしずつおねがいします。" }
+        {
+          "kanji": "こんなに多くの仕事を一度に頼まれても無理です。",
+          "hiragana_full": "こんなにおおくのしごとをいちどにたのまれてもむりです。"
+        },
+        {
+          "kanji": "仕事はまとめてではなく、少しずつお願いします。",
+          "hiragana_full": "しごとはまとめてではなく、すこしずつおねがいします。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "blank_target_reading": "いちどに"
     },
     {
       "id": "n3_129_2",
       "example_sentence": "引っ越しの荷物は一度に運べないので、何回かに分けて運びましょう。",
       "translation": "We can't carry all the moving boxes at once, so let's take them in several trips.",
       "blank_target": "一度に",
-      "wrong_choices": ["一度も", "徐々に", "ついでに"],
+      "wrong_choices": [
+        "一度も",
+        "徐々に",
+        "ついでに"
+      ],
       "wrong_choice_explanations": [
         "「一度も」は「一回も〜ない」と経験のなさを表す。ここは「一回でまとめては運べない」という意味なので、経験を否定する形は合わない。",
         "「徐々に」は「少しずつ」という意味。「何回かに分けて」と対比される「一回でまとめて」という意味にならない。",
@@ -35,17 +50,28 @@
       ],
       "hiragana_full": "ひっこしのにもつはいちどにはこべないので、なんかいかにわけてはこびましょう。",
       "audio_alternatives": [
-        { "kanji": "荷物は一度に全部は運べないから、分けて運ぼう。", "hiragana_full": "にもつはいちどにぜんぶははこべないから、わけてはこぼう。" },
-        { "kanji": "引っ越しの荷物は何回かに分けて運ぶしかないね。", "hiragana_full": "ひっこしのにもつはなんかいかにわけてはこぶしかないね。" }
+        {
+          "kanji": "荷物は一度に全部は運べないから、分けて運ぼう。",
+          "hiragana_full": "にもつはいちどにぜんぶははこべないから、わけてはこぼう。"
+        },
+        {
+          "kanji": "引っ越しの荷物は何回かに分けて運ぶしかないね。",
+          "hiragana_full": "ひっこしのにもつはなんかいかにわけてはこぶしかないね。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "blank_target_reading": "いちどに"
     },
     {
       "id": "n3_129_3",
       "example_sentence": "セールが始まると、客が一度に店に入ってきた。",
       "translation": "When the sale started, customers poured into the store all at once.",
       "blank_target": "一度に",
-      "wrong_choices": ["次第に", "めったに", "そろそろ"],
+      "wrong_choices": [
+        "次第に",
+        "めったに",
+        "そろそろ"
+      ],
       "wrong_choice_explanations": [
         "「次第に」は「だんだん・少しずつ」という意味。訳の「どっと同時に入ってきた」という勢いのある様子と合わない。",
         "「めったに」は「めったに〜ない」と否定を伴って頻度の低さを表す。「入ってきた」という肯定文では使えない。",
@@ -53,17 +79,28 @@
       ],
       "hiragana_full": "せーるがはじまると、きゃくがいちどにみせにはいってきた。",
       "audio_alternatives": [
-        { "kanji": "セールが始まったとたん、客が一度にどっと入ってきた。", "hiragana_full": "せーるがはじまったとたん、きゃくがいちどにどっとはいってきた。" },
-        { "kanji": "セール開始と同時に、大勢の客が店に押し寄せた。", "hiragana_full": "せーるかいしとどうじに、おおぜいのきゃくがみせにおしよせた。" }
+        {
+          "kanji": "セールが始まったとたん、客が一度にどっと入ってきた。",
+          "hiragana_full": "せーるがはじまったとたん、きゃくがいちどにどっとはいってきた。"
+        },
+        {
+          "kanji": "セール開始と同時に、大勢の客が店に押し寄せた。",
+          "hiragana_full": "せーるかいしとどうじに、おおぜいのきゃくがみせにおしよせた。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "blank_target_reading": "いちどに"
     },
     {
       "id": "n3_129_4",
       "example_sentence": "薬を一度にたくさん飲むのは危険です。",
       "translation": "It's dangerous to take a lot of medicine all at once.",
       "blank_target": "一度に",
-      "wrong_choices": ["一度だけ", "たまに", "常に"],
+      "wrong_choices": [
+        "一度だけ",
+        "たまに",
+        "常に"
+      ],
       "wrong_choice_explanations": [
         "「一度だけ」は回数が一回きりであることを表す。危険なのは「一回にまとめて大量に」飲むことなので、回数の少なさを言う言葉では意味が合わない。",
         "「たまに」は「ときどき」と頻度を表す。訳の「一回にまとめて」という意味にならない。",
@@ -71,17 +108,28 @@
       ],
       "hiragana_full": "くすりをいちどにたくさんのむのはきけんです。",
       "audio_alternatives": [
-        { "kanji": "一度にたくさんの薬を飲んではいけません。", "hiragana_full": "いちどにたくさんのくすりをのんではいけません。" },
-        { "kanji": "薬をまとめて大量に飲むのは体に良くない。", "hiragana_full": "くすりをまとめてたいりょうにのむのはからだによくない。" }
+        {
+          "kanji": "一度にたくさんの薬を飲んではいけません。",
+          "hiragana_full": "いちどにたくさんのくすりをのんではいけません。"
+        },
+        {
+          "kanji": "薬をまとめて大量に飲むのは体に良くない。",
+          "hiragana_full": "くすりをまとめてたいりょうにのむのはからだによくない。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "blank_target_reading": "いちどに"
     },
     {
       "id": "n3_129_5",
       "example_sentence": "質問が多すぎて、一度に答えられません。順番にお願いします。",
       "translation": "There are too many questions — I can't answer them all at once. One at a time, please.",
       "blank_target": "一度に",
-      "wrong_choices": ["少しも", "何度も", "一斉に"],
+      "wrong_choices": [
+        "少しも",
+        "何度も",
+        "一斉に"
+      ],
       "wrong_choice_explanations": [
         "「少しも」は「少しも〜ない」と全否定を表す。「順番にお願いします」と続くので、全く答えられないのではなく「まとめては無理」という意味が必要。",
         "「何度も」は「繰り返し何回も」という意味。答える回数の多さではなく、一回にまとめて答えられないことを言う文なので合わない。",
@@ -89,17 +137,28 @@
       ],
       "hiragana_full": "しつもんがおおすぎて、いちどにこたえられません。じゅんばんにおねがいします。",
       "audio_alternatives": [
-        { "kanji": "そんなに一度に聞かれても答えられませんよ。", "hiragana_full": "そんなにいちどにきかれてもこたえられませんよ。" },
-        { "kanji": "質問は一つずつ順番にお願いします。", "hiragana_full": "しつもんはひとつずつじゅんばんにおねがいします。" }
+        {
+          "kanji": "そんなに一度に聞かれても答えられませんよ。",
+          "hiragana_full": "そんなにいちどにきかれてもこたえられませんよ。"
+        },
+        {
+          "kanji": "質問は一つずつ順番にお願いします。",
+          "hiragana_full": "しつもんはひとつずつじゅんばんにおねがいします。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "blank_target_reading": "いちどに"
     },
     {
       "id": "n3_129_6",
       "example_sentence": "桜の花は春になると一度に咲きます。",
       "translation": "Cherry blossoms all bloom at once when spring comes.",
       "blank_target": "一度に",
-      "wrong_choices": ["だんだん", "やっと", "一度は"],
+      "wrong_choices": [
+        "だんだん",
+        "やっと",
+        "一度は"
+      ],
       "wrong_choice_explanations": [
         "「だんだん」は「少しずつ変化する」様子を表す。訳の「いっぺんに咲く」という同時性と反対の意味になってしまう。",
         "「やっと」は「長く待った末にようやく」という意味。咲き方がまとまって同時であることは表せない。",
@@ -107,17 +166,28 @@
       ],
       "hiragana_full": "さくらのはなははるになるといちどにさきます。",
       "audio_alternatives": [
-        { "kanji": "春が来ると、桜は一度に開く。", "hiragana_full": "はるがくると、さくらはいちどにひらく。" },
-        { "kanji": "桜の花は春に一斉に咲き始める。", "hiragana_full": "さくらのはなははるにいっせいにさきはじめる。" }
+        {
+          "kanji": "春が来ると、桜は一度に開く。",
+          "hiragana_full": "はるがくると、さくらはいちどにひらく。"
+        },
+        {
+          "kanji": "桜の花は春に一斉に咲き始める。",
+          "hiragana_full": "さくらのはなははるにいっせいにさきはじめる。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "blank_target_reading": "いちどに"
     },
     {
       "id": "n3_129_7",
       "example_sentence": "一度に二つのことをするのは苦手だ。",
       "translation": "I'm not good at doing two things at once.",
       "blank_target": "一度に",
-      "wrong_choices": ["一度も", "二度と", "何度か"],
+      "wrong_choices": [
+        "一度も",
+        "二度と",
+        "何度か"
+      ],
       "wrong_choice_explanations": [
         "「一度も」は「一回も〜ない」と完全な否定と呼応する。「苦手だ」は程度を表す述語なので呼応せず、「同時に」という意味も出ない。",
         "「二度と」は「二度と〜ない」と強い拒絶や不可能を表す。二つのことを同時に行うという意味とは全く別の働きをする。",
@@ -125,17 +195,28 @@
       ],
       "hiragana_full": "いちどにふたつのことをするのはにがてだ。",
       "audio_alternatives": [
-        { "kanji": "二つの作業を一度にこなすのは難しい。", "hiragana_full": "ふたつのさぎょうをいちどにこなすのはむずかしい。" },
-        { "kanji": "同時に複数のことをするのが苦手だ。", "hiragana_full": "どうじにふくすうのことをするのがにがてだ。" }
+        {
+          "kanji": "二つの作業を一度にこなすのは難しい。",
+          "hiragana_full": "ふたつのさぎょうをいちどにこなすのはむずかしい。"
+        },
+        {
+          "kanji": "同時に複数のことをするのが苦手だ。",
+          "hiragana_full": "どうじにふくすうのことをするのがにがてだ。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "blank_target_reading": "いちどに"
     },
     {
       "id": "n3_129_8",
       "example_sentence": "停電で、ビル全体の電気が一度に消えた。",
       "translation": "Because of the blackout, the lights in the whole building went out all at once.",
       "blank_target": "一度に",
-      "wrong_choices": ["一つずつ", "そのうち", "二度と"],
+      "wrong_choices": [
+        "一つずつ",
+        "そのうち",
+        "二度と"
+      ],
       "wrong_choice_explanations": [
         "「一つずつ」は「順番に一個ずつ」という意味。停電でビル全体が同時に消えたという文の内容と合わない。",
         "「そのうち」は「近いうちに・やがて」という意味で未来の予測に使う。すでに起きた出来事の同時性は表せない。",
@@ -143,17 +224,28 @@
       ],
       "hiragana_full": "ていでんで、びるぜんたいのでんきがいちどにきえた。",
       "audio_alternatives": [
-        { "kanji": "停電で、建物の明かりが一度に全部消えた。", "hiragana_full": "ていでんで、たてもののあかりがいちどにぜんぶきえた。" },
-        { "kanji": "ビルの電気が突然いっぺんに消えてしまった。", "hiragana_full": "びるのでんきがとつぜんいっぺんにきえてしまった。" }
+        {
+          "kanji": "停電で、建物の明かりが一度に全部消えた。",
+          "hiragana_full": "ていでんで、たてもののあかりがいちどにぜんぶきえた。"
+        },
+        {
+          "kanji": "ビルの電気が突然いっぺんに消えてしまった。",
+          "hiragana_full": "びるのでんきがとつぜんいっぺんにきえてしまった。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "blank_target_reading": "いちどに"
     },
     {
       "id": "n3_129_9",
       "example_sentence": "週末は予約の電話が一度にかかってくるので、対応が大変だ。",
       "translation": "On weekends the reservation calls all come in at once, so it's hard to keep up.",
       "blank_target": "一度に",
-      "wrong_choices": ["たまに", "順番に", "そのたびに"],
+      "wrong_choices": [
+        "たまに",
+        "順番に",
+        "そのたびに"
+      ],
       "wrong_choice_explanations": [
         "「たまに」は「ときどき」と頻度の低さを表す。電話がまれにしか来ないなら「対応が大変だ」という結果につながらない。",
         "「順番に」は「一つずつ順序よく」という意味。順序よくかかってくるなら対応しやすいはずで、「大変だ」という文脈と合わない。",
@@ -161,17 +253,28 @@
       ],
       "hiragana_full": "しゅうまつはよやくのでんわがいちどにかかってくるので、たいおうがたいへんだ。",
       "audio_alternatives": [
-        { "kanji": "週末は電話が一度に何本もかかってくる。", "hiragana_full": "しゅうまつはでんわがいちどになんぼんもかかってくる。" },
-        { "kanji": "週末になると予約の電話が集中して大変だ。", "hiragana_full": "しゅうまつになるとよやくのでんわがしゅうちゅうしてたいへんだ。" }
+        {
+          "kanji": "週末は電話が一度に何本もかかってくる。",
+          "hiragana_full": "しゅうまつはでんわがいちどになんぼんもかかってくる。"
+        },
+        {
+          "kanji": "週末になると予約の電話が集中して大変だ。",
+          "hiragana_full": "しゅうまつになるとよやくのでんわがしゅうちゅうしてたいへんだ。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "blank_target_reading": "いちどに"
     },
     {
       "id": "n3_129_10",
       "example_sentence": "新しい単語を一度に覚えようとしないで、毎日少しずつ覚えたほうがいい。",
       "translation": "Rather than trying to memorize new words all at once, it's better to learn a little every day.",
       "blank_target": "一度に",
-      "wrong_choices": ["そのうちに", "とっくに", "今さら"],
+      "wrong_choices": [
+        "そのうちに",
+        "とっくに",
+        "今さら"
+      ],
       "wrong_choice_explanations": [
         "「そのうちに」は「近いうちに自然と」という意味。「毎日少しずつ」と対比される「一回でまとめて」という意味にならない。",
         "「とっくに」は「ずっと前にすでに」という意味で完了したことに使う。「覚えようとしないで」というこれからの行動への助言には合わない。",
@@ -179,10 +282,17 @@
       ],
       "hiragana_full": "あたらしいたんごをいちどにおぼえようとしないで、まいにちすこしずつおぼえたほうがいい。",
       "audio_alternatives": [
-        { "kanji": "単語を一度に全部覚えるのは無理だ。", "hiragana_full": "たんごをいちどにぜんぶおぼえるのはむりだ。" },
-        { "kanji": "新しい単語は毎日少しずつ覚えるのが一番だ。", "hiragana_full": "あたらしいたんごはまいにちすこしずつおぼえるのがいちばんだ。" }
+        {
+          "kanji": "単語を一度に全部覚えるのは無理だ。",
+          "hiragana_full": "たんごをいちどにぜんぶおぼえるのはむりだ。"
+        },
+        {
+          "kanji": "新しい単語は毎日少しずつ覚えるのが一番だ。",
+          "hiragana_full": "あたらしいたんごはまいにちすこしずつおぼえるのがいちばんだ。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "blank_target_reading": "いちどに"
     }
   ]
 }

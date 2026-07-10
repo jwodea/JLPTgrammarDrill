@@ -30,7 +30,20 @@
           "hiragana_full": "おおさかまでとうきょうからいきました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "東京",
+          "reading": "とうきょう",
+          "meaning": "Tokyo"
+        },
+        {
+          "word": "大阪",
+          "reading": "おおさか",
+          "meaning": "Osaka"
+        }
+      ]
     },
     {
       "id": "n5_017_2",
@@ -58,7 +71,20 @@
           "hiragana_full": "あめがふっているから、そとにでません。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "雨",
+          "reading": "あめ",
+          "meaning": "rain"
+        },
+        {
+          "word": "出かけません",
+          "reading": "でかけません",
+          "meaning": "won't go out"
+        }
+      ]
     },
     {
       "id": "n5_017_3",
@@ -66,12 +92,12 @@
       "translation": "Classes start from nine o'clock.",
       "blank_target": "から",
       "wrong_choices": [
-        "に",
+        "を",
         "で",
         "まで"
       ],
       "wrong_choice_explanations": [
-        "に indicates a specific time point — it doesn't express the starting point 'from' that から provides.",
+        "を marks a direct object — 始まります is intransitive and a start time is not an object, so 九時を授業が始まります is ungrammatical.",
         "で indicates location or means — it doesn't express the temporal starting point needed here.",
         "まで means 'until' — it indicates an endpoint, not the starting time like から does."
       ],
@@ -86,7 +112,20 @@
           "hiragana_full": "じゅぎょうはくじからはじまります。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "授業",
+          "reading": "じゅぎょう",
+          "meaning": "class"
+        },
+        {
+          "word": "始まります",
+          "reading": "はじまります",
+          "meaning": "starts"
+        }
+      ]
     },
     {
       "id": "n5_017_4",
@@ -114,7 +153,20 @@
           "hiragana_full": "つかれているから、はやくねるよ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "疲れている",
+          "reading": "つかれている",
+          "meaning": "to be tired"
+        },
+        {
+          "word": "寝ます",
+          "reading": "ねます",
+          "meaning": "go to bed"
+        }
+      ]
     },
     {
       "id": "n5_017_5",
@@ -142,7 +194,20 @@
           "hiragana_full": "がっこうまでいえからあるいてじゅっぷんです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "歩いて",
+          "reading": "あるいて",
+          "meaning": "on foot"
+        },
+        {
+          "word": "十分",
+          "reading": "じゅっぷん",
+          "meaning": "ten minutes"
+        }
+      ]
     },
     {
       "id": "n5_017_6",
@@ -170,7 +235,20 @@
           "hiragana_full": "いそがしいから、てつだうことができません。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "忙しい",
+          "reading": "いそがしい",
+          "meaning": "busy"
+        },
+        {
+          "word": "手伝えません",
+          "reading": "てつだえません",
+          "meaning": "can't help"
+        }
+      ]
     },
     {
       "id": "n5_017_7",
@@ -198,7 +276,20 @@
           "hiragana_full": "ばすでえきからきました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "駅",
+          "reading": "えき",
+          "meaning": "station"
+        },
+        {
+          "word": "乗りました",
+          "reading": "のりました",
+          "meaning": "took / rode"
+        }
+      ]
     },
     {
       "id": "n5_017_8",
@@ -226,7 +317,20 @@
           "hiragana_full": "おかねがないから、かうことができません。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "お金",
+          "reading": "おかね",
+          "meaning": "money"
+        },
+        {
+          "word": "買えません",
+          "reading": "かえません",
+          "meaning": "can't buy"
+        }
+      ]
     },
     {
       "id": "n5_017_9",
@@ -235,12 +339,12 @@
       "blank_target": "から",
       "wrong_choices": [
         "と",
-        "より",
+        "に",
         "まで"
       ],
       "wrong_choice_explanations": [
         "と means 'and' — it doesn't express the starting time 'from' that から provides.",
-        "より means 'than' for comparisons — it doesn't indicate the starting time like から does.",
+        "に marks a single point in time — pairing 朝六時に with 夜十時まで leaves the time span without a starting-point marker, so the sentence doesn't hold together.",
         "まで means 'until' — it shows the endpoint, not the starting point like から."
       ],
       "hiragana_full": "あさろくじからよるじゅうじまではたらきます。",
@@ -254,7 +358,25 @@
           "hiragana_full": "ろくじからにじゅうにじまではたらきます。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "朝",
+          "reading": "あさ",
+          "meaning": "morning"
+        },
+        {
+          "word": "夜",
+          "reading": "よる",
+          "meaning": "night"
+        },
+        {
+          "word": "働きます",
+          "reading": "はたらきます",
+          "meaning": "work"
+        }
+      ]
     },
     {
       "id": "n5_017_10",
@@ -282,7 +404,25 @@
           "hiragana_full": "かぜをひいて、がっこうをやすみました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "風邪",
+          "reading": "かぜ",
+          "meaning": "a cold"
+        },
+        {
+          "word": "引いた",
+          "reading": "ひいた",
+          "meaning": "caught (a cold)"
+        },
+        {
+          "word": "休みました",
+          "reading": "やすみました",
+          "meaning": "was absent"
+        }
+      ]
     }
   ]
 }

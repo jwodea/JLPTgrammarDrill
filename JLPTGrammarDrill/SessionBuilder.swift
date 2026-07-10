@@ -85,12 +85,14 @@ struct SessionBuilder {
     }
 
     /// Build a session by ranking seen items by how overdue they are, then picking exercises.
+    /// Also returns the grammar IDs being introduced for the first time so the
+    /// exercise screen can show an intro card before each new pattern's first question.
     static func buildSession(
         allPoints: [GrammarPoint],
         exercisePool: [String: [SessionExercise]],
         context: ModelContext,
         newCount: Int
-    ) -> [SessionExercise] {
+    ) -> (items: [SessionExercise], newPatternIds: Set<String>) {
         let levels = enabledLevels
         let filteredPoints = allPoints.filter { levels.contains($0.level) }
 
@@ -100,7 +102,7 @@ struct SessionBuilder {
             existingRecords = try context.fetch(descriptor)
         } catch {
             print("Error fetching SRS records: \(error)")
-            return []
+            return ([], [])
         }
 
         var recordsByGrammarId: [String: SRSRecord] = [:]
@@ -196,6 +198,6 @@ struct SessionBuilder {
             }
         }
 
-        return sessionExercises
+        return (sessionExercises, Set(selectedNew.map(\.id)))
     }
 }

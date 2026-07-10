@@ -12,12 +12,12 @@
       "wrong_choices": [
         "で",
         "を",
-        "に"
+        "が"
       ],
       "wrong_choice_explanations": [
         "で indicates location where an action takes place, but here we need to show direction toward the destination school.",
         "を marks direct objects or departure points, but school is the destination we're going toward, not what we're leaving.",
-        "に also indicates destination, but while both に and へ work here, へ emphasizes the directional movement toward school."
+        "が marks the subject — 学校が行きます would mean 'the school goes', but 学校 is the destination of the movement, so a direction particle is needed."
       ],
       "hiragana_full": "がっこうへいきます。",
       "audio_alternatives": [
@@ -30,7 +30,20 @@
           "hiragana_full": "がっこうへいく。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "学校",
+          "reading": "がっこう",
+          "meaning": "school"
+        },
+        {
+          "word": "行きます",
+          "reading": "いきます",
+          "meaning": "go"
+        }
+      ]
     },
     {
       "id": "n5_012_2",
@@ -58,7 +71,20 @@
           "hiragana_full": "とうきょうへりょこうにいく。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "東京",
+          "reading": "とうきょう",
+          "meaning": "Tokyo"
+        },
+        {
+          "word": "旅行",
+          "reading": "りょこう",
+          "meaning": "trip; travel"
+        }
+      ]
     },
     {
       "id": "n5_012_3",
@@ -67,12 +93,12 @@
       "blank_target": "へ",
       "wrong_choices": [
         "で",
-        "に",
+        "を",
         "と"
       ],
       "wrong_choice_explanations": [
         "で would indicate where the playing happens, but here we need to show direction toward the friend's house as our destination.",
-        "に can also indicate destination, but へ better emphasizes the directional movement toward the friend's house.",
+        "を with motion verbs marks a route passed through (道を歩く) — the friend's house is the destination, not a route, so 友達の家を遊びに行きます doesn't work.",
         "と means 'with' or connects nouns, but we need a particle showing direction toward the friend's house."
       ],
       "hiragana_full": "ともだちのいえへあそびにいきます。",
@@ -86,7 +112,20 @@
           "hiragana_full": "ともだちのいえへあそびにいく。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "友達",
+          "reading": "ともだち",
+          "meaning": "friend"
+        },
+        {
+          "word": "家",
+          "reading": "いえ",
+          "meaning": "house; home"
+        }
+      ]
     },
     {
       "id": "n5_012_4",
@@ -94,12 +133,12 @@
       "translation": "I head toward the station.",
       "blank_target": "へ",
       "wrong_choices": [
-        "に",
+        "から",
         "を",
         "で"
       ],
       "wrong_choice_explanations": [
-        "に can indicate destination, but with 向かう (to head toward), へ is preferred to emphasize the directional movement.",
+        "から means 'from' and marks a starting point — 駅から向かいます would mean heading somewhere FROM the station, the opposite of moving toward it as the translation requires.",
         "を marks direct objects, but the station is where we're heading toward, not what we're directing our action at.",
         "で indicates location or means, but we need to show direction toward the station as our destination."
       ],
@@ -114,7 +153,20 @@
           "hiragana_full": "えきへむかう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "駅",
+          "reading": "えき",
+          "meaning": "station"
+        },
+        {
+          "word": "向かいます",
+          "reading": "むかいます",
+          "meaning": "head toward"
+        }
+      ]
     },
     {
       "id": "n5_012_5",
@@ -142,7 +194,20 @@
           "hiragana_full": "こうえんへさんぽしにいきましょう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "公園",
+          "reading": "こうえん",
+          "meaning": "park"
+        },
+        {
+          "word": "散歩",
+          "reading": "さんぽ",
+          "meaning": "walk; stroll"
+        }
+      ]
     },
     {
       "id": "n5_012_6",
@@ -150,12 +215,12 @@
       "translation": "I'm going to the mountain to climb.",
       "blank_target": "へ",
       "wrong_choices": [
-        "を",
+        "と",
         "で",
         "まで"
       ],
       "wrong_choice_explanations": [
-        "を can mark the object being climbed (山を登る), but here we need direction toward the mountain as our destination for climbing.",
+        "と means 'together with' — 山と登りに行きます would mean going climbing together with the mountain, which makes no sense; the mountain is the destination, not a companion.",
         "で indicates location where climbing occurs, but we need to show movement toward the mountain first.",
         "まで means 'until/up to' and shows extent, but we need simple direction toward the mountain as our destination."
       ],
@@ -170,7 +235,20 @@
           "hiragana_full": "やまへのぼりにいく。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "山",
+          "reading": "やま",
+          "meaning": "mountain"
+        },
+        {
+          "word": "登り",
+          "reading": "のぼり",
+          "meaning": "climbing"
+        }
+      ]
     },
     {
       "id": "n5_012_7",
@@ -179,12 +257,12 @@
       "blank_target": "へ",
       "wrong_choices": [
         "で",
-        "に",
+        "が",
         "を"
       ],
       "wrong_choice_explanations": [
         "で would indicate where studying takes place, but we need direction toward overseas as our destination.",
-        "に can indicate destination, but へ better emphasizes the directional movement toward overseas.",
+        "が marks the subject — 海外が留学したいです would make 'overseas' the one wanting to study abroad; 海外 is the destination, so a direction particle is required.",
         "を marks direct objects, but overseas is where we want to go, not what we want to study."
       ],
       "hiragana_full": "かいがいへりゅうがくしたいです。",
@@ -198,7 +276,20 @@
           "hiragana_full": "かいがいでべんきょうしたいです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "海外",
+          "reading": "かいがい",
+          "meaning": "overseas"
+        },
+        {
+          "word": "留学",
+          "reading": "りゅうがく",
+          "meaning": "studying abroad"
+        }
+      ]
     },
     {
       "id": "n5_012_8",
@@ -206,12 +297,12 @@
       "translation": "Please proceed toward the north.",
       "blank_target": "へ",
       "wrong_choices": [
-        "に",
+        "を",
         "で",
         "まで"
       ],
       "wrong_choice_explanations": [
-        "に can indicate direction, but with 進む and directional words, へ is preferred to emphasize movement toward that direction.",
+        "を with motion verbs marks a route traversed (道を進む) and needs a path noun — 北 is a bare direction, not a route, so 北を進んでください doesn't work.",
         "で indicates means or location, but north is a direction to move toward, not a location or method.",
         "まで means 'until/up to' showing extent, but we need simple directional movement toward north."
       ],
@@ -226,7 +317,20 @@
           "hiragana_full": "きたにすすんでください。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "北",
+          "reading": "きた",
+          "meaning": "north"
+        },
+        {
+          "word": "進んで",
+          "reading": "すすんで",
+          "meaning": "go forward; proceed"
+        }
+      ]
     },
     {
       "id": "n5_012_9",
@@ -254,7 +358,20 @@
           "hiragana_full": "びょういんへおみまいにいく。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "病院",
+          "reading": "びょういん",
+          "meaning": "hospital"
+        },
+        {
+          "word": "お見舞い",
+          "reading": "おみまい",
+          "meaning": "visit (to a sick person)"
+        }
+      ]
     },
     {
       "id": "n5_012_10",
@@ -262,12 +379,12 @@
       "translation": "I'm going to the airport to pick (someone) up.",
       "blank_target": "へ",
       "wrong_choices": [
-        "に",
+        "を",
         "で",
         "から"
       ],
       "wrong_choice_explanations": [
-        "に can indicate destination, but へ better emphasizes the directional movement toward the airport for the pickup.",
+        "を would mark 空港 as the thing being picked up (空港を迎えに行きます = 'go pick up the airport') — the person is who is being met; the airport is just the destination.",
         "で would indicate where the picking up occurs, but we need direction toward the airport as our destination.",
         "から means 'from' indicating starting point, but the airport is where we're going to, not where we're coming from."
       ],
@@ -282,7 +399,20 @@
           "hiragana_full": "くうこうへむかえにいく。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "空港",
+          "reading": "くうこう",
+          "meaning": "airport"
+        },
+        {
+          "word": "迎え",
+          "reading": "むかえ",
+          "meaning": "picking (someone) up"
+        }
+      ]
     }
   ]
 }

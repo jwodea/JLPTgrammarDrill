@@ -12,12 +12,12 @@
       "wrong_choices": [
         "よ",
         "か",
-        "な"
+        "さ"
       ],
       "wrong_choice_explanations": [
         "よ is used to assert new information — it doesn't fit here because we're seeking agreement about shared observation, not telling something new.",
         "か makes questions — it doesn't fit here because we're making a statement seeking agreement, not asking a direct question.",
-        "な is mainly used by men for self-reflection — it doesn't fit here because we're seeking the listener's agreement, not talking to ourselves."
+        "さ is a casual assertive particle that cannot attach to polite です — 暖かいですさ is ungrammatical, and さ asserts rather than seeks agreement."
       ],
       "hiragana_full": "きょうはあたたかいですね",
       "audio_alternatives": [
@@ -30,7 +30,15 @@
           "hiragana_full": "きょうはあたたかいですね"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "暖かい",
+          "reading": "あたたかい",
+          "meaning": "warm"
+        }
+      ]
     },
     {
       "id": "n5_020_2",
@@ -58,7 +66,20 @@
           "hiragana_full": "このえいが、おもしろくない？"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "映画",
+          "reading": "えいが",
+          "meaning": "movie"
+        },
+        {
+          "word": "面白い",
+          "reading": "おもしろい",
+          "meaning": "interesting"
+        }
+      ]
     },
     {
       "id": "n5_020_3",
@@ -68,12 +89,12 @@
       "wrong_choices": [
         "ぜ",
         "と",
-        "が"
+        "か"
       ],
       "wrong_choice_explanations": [
         "ぜ is a masculine particle for strong suggestion — it doesn't fit here because we're seeking agreement about the time, not making a strong suggestion.",
         "と is used for quotation or conditional — it doesn't fit here because we're making a statement seeking agreement, not quoting or setting conditions.",
-        "が is a conjunction meaning 'but' — it doesn't fit here because we're ending a statement seeking agreement, not connecting contrasting ideas."
+        "か turns the statement into a question — もう遅いですか asks the listener whether it is late, which clashes with then proposing to go home; ね states the shared observation while inviting agreement."
       ],
       "hiragana_full": "もうおそいですね。かえりましょう。",
       "audio_alternatives": [
@@ -86,7 +107,20 @@
           "hiragana_full": "もうおそくなりましたね。かえりましょう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "遅い",
+          "reading": "おそい",
+          "meaning": "late"
+        },
+        {
+          "word": "帰りましょう",
+          "reading": "かえりましょう",
+          "meaning": "let's go home"
+        }
+      ]
     },
     {
       "id": "n5_020_4",
@@ -114,7 +148,15 @@
           "hiragana_full": "たなかさんってやさしいひとですよね"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "優しい",
+          "reading": "やさしい",
+          "meaning": "kind"
+        }
+      ]
     },
     {
       "id": "n5_020_5",
@@ -142,7 +184,15 @@
           "hiragana_full": "このほんってたかいね。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "高い",
+          "reading": "たかい",
+          "meaning": "expensive"
+        }
+      ]
     },
     {
       "id": "n5_020_6",
@@ -170,7 +220,20 @@
           "hiragana_full": "あめがふりそうですよね"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "雨",
+          "reading": "あめ",
+          "meaning": "rain"
+        },
+        {
+          "word": "降りそう",
+          "reading": "ふりそう",
+          "meaning": "looks like it will fall"
+        }
+      ]
     },
     {
       "id": "n5_020_7",
@@ -198,7 +261,15 @@
           "hiragana_full": "ごくろうさまでしたね"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "お疲れさま",
+          "reading": "おつかれさま",
+          "meaning": "thanks for your hard work"
+        }
+      ]
     },
     {
       "id": "n5_020_8",
@@ -206,14 +277,14 @@
       "translation": "This food is delicious, don't you think?",
       "blank_target": "ね",
       "wrong_choices": [
-        "べ",
+        "ぞ",
         "もん",
-        "っしょ"
+        "か"
       ],
       "wrong_choice_explanations": [
-        "べ is dialectal and means 'probably' — it doesn't fit here because we're seeking agreement about taste, not expressing probability.",
+        "ぞ is a strong masculine assertion that pushes information at the listener — it doesn't invite the shared agreement that ね does.",
         "もん is casual explanation (childish/feminine) — it doesn't fit here because we're seeking agreement, not giving explanations or excuses.",
-        "っしょ is very casual form of でしょう — it doesn't fit here because we need agreement-seeking, not casual probability expression."
+        "か makes a direct question — この料理、おいしいか bluntly asks whether the food is good instead of sharing the observation and inviting agreement."
       ],
       "hiragana_full": "このりょうり、おいしいね。",
       "audio_alternatives": [
@@ -226,7 +297,15 @@
           "hiragana_full": "このたべもの、おいしいね。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "料理",
+          "reading": "りょうり",
+          "meaning": "food / dish"
+        }
+      ]
     },
     {
       "id": "n5_020_9",
@@ -234,12 +313,12 @@
       "translation": "The cherry blossoms are beautiful, aren't they?",
       "blank_target": "ね",
       "wrong_choices": [
-        "こと",
+        "よ",
         "もの",
         "はず"
       ],
       "wrong_choice_explanations": [
-        "こと nominalizes or shows exclamation — it doesn't fit here because we need agreement-seeking particle, not nominalization.",
+        "よ asserts information the listener doesn't know — announcing the blossoms are beautiful while you're both looking at them misses the shared-agreement nuance of ね.",
         "もの gives reasons or shows possession — it doesn't fit here because we're seeking agreement about beauty, not giving explanations.",
         "はず indicates expectation — it doesn't fit here because we're seeking agreement about present beauty, not expressing what should be expected."
       ],
@@ -254,7 +333,15 @@
           "hiragana_full": "さくら、きれいだね。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "桜",
+          "reading": "さくら",
+          "meaning": "cherry blossoms"
+        }
+      ]
     },
     {
       "id": "n5_020_10",
@@ -282,7 +369,20 @@
           "hiragana_full": "こんど、みんなでいきましょうね。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "今度",
+          "reading": "こんど",
+          "meaning": "next time"
+        },
+        {
+          "word": "一緒に",
+          "reading": "いっしょに",
+          "meaning": "together"
+        }
+      ]
     }
   ]
 }
