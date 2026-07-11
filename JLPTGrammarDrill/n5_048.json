@@ -30,7 +30,8 @@
           "hiragana_full": "このほんはよむのがかんたんです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n5_048_2",
@@ -58,7 +59,15 @@
           "hiragana_full": "このいすはすわりやすいですね。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "椅子",
+          "reading": "いす",
+          "meaning": "chair"
+        }
+      ]
     },
     {
       "id": "n5_048_3",
@@ -86,7 +95,15 @@
           "hiragana_full": "かれのはなしはきくのがかんたんです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "話",
+          "reading": "はなし",
+          "meaning": "talk; stories"
+        }
+      ]
     },
     {
       "id": "n5_048_4",
@@ -114,7 +131,15 @@
           "hiragana_full": "このりょうりはかんたんにつくれるから、よくつくります。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "料理",
+          "reading": "りょうり",
+          "meaning": "dish; cooking"
+        }
+      ]
     },
     {
       "id": "n5_048_5",
@@ -142,7 +167,15 @@
           "hiragana_full": "このあたらしいアプリはつかいやすくてべんりです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "便利",
+          "reading": "べんり",
+          "meaning": "convenient"
+        }
+      ]
     },
     {
       "id": "n5_048_6",
@@ -170,7 +203,20 @@
           "hiragana_full": "このくつはあるきやすそうですが、たかいですね。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "靴",
+          "reading": "くつ",
+          "meaning": "shoes"
+        },
+        {
+          "word": "高い",
+          "reading": "たかい",
+          "meaning": "expensive"
+        }
+      ]
     },
     {
       "id": "n5_048_7",
@@ -198,7 +244,20 @@
           "hiragana_full": "かんじがおぼえやすくなるように、まいにちれんしゅうしています。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "漢字",
+          "reading": "かんじ",
+          "meaning": "kanji"
+        },
+        {
+          "word": "練習しています",
+          "reading": "れんしゅうしています",
+          "meaning": "am practicing"
+        }
+      ]
     },
     {
       "id": "n5_048_8",
@@ -226,7 +285,15 @@
           "hiragana_full": "このぶんはりかいしやすい。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "文",
+          "reading": "ぶん",
+          "meaning": "sentence"
+        }
+      ]
     },
     {
       "id": "n5_048_9",
@@ -254,7 +321,15 @@
           "hiragana_full": "かのじょのじはすごくよみやすいです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "字",
+          "reading": "じ",
+          "meaning": "handwriting; characters"
+        }
+      ]
     },
     {
       "id": "n5_048_10",
@@ -282,7 +357,20 @@
           "hiragana_full": "このもんだいはときやすかったので、しゅくだいがはやくおわりました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "問題",
+          "reading": "もんだい",
+          "meaning": "problem"
+        },
+        {
+          "word": "宿題",
+          "reading": "しゅくだい",
+          "meaning": "homework"
+        }
+      ]
     }
   ]
 }

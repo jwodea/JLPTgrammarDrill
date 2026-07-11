@@ -1,0 +1,41 @@
+id,date,verdict,poison_found,swapped,flagged,notes
+n5_001,2026-07-09,clean,0,0,0,copula file; no da-on-noun register twin present; clean
+n5_002,2026-07-09,clean,0,0,0,wa-topic foils are contrastive cousins vs neutral translations; near-duplicate of n5_009 (corpus-level)
+n5_003,2026-07-09,clean,0,0,0,he never used as distractor (only audio alts) - good; near-duplicate of n5_010
+n5_004,2026-07-09,clean,0,0,0,"wo-suki/wo-dekiru foils are nonstandard-colloquial, fair at N5; near-duplicate of n5_008"
+n5_005,2026-07-09,clean,0,0,0,te-form file uses deliberately BROKEN conjugation foils (座っない etc.) by design; shitakara vs shitekara is honest meaning contrast
+n5_006,2026-07-09,clean,0,0,0,near-duplicate of n5_007 (8/10 same sentences); ex8 ashita-kara borderline-natural but translation pins identity reading; ga foils = exhaustive-focus cousins
+n5_007,2026-07-09,fixed,1,1,0,ex5 eiga-ga-suki: explanation conceded both correct + verbatim audio-alt tell; swapped ga->de. Duplicate of n5_006
+n5_008,2026-07-09,fixed,3,3,0,"wa competing-correct on definite/preference hosts ex1/7/10 (audio-alt tells on 1,7); left wa as fair cousin on new-info hosts ex3/5 (ex5 has audio-alt tell but 'A dog' translation defends ga) and ex8 hoshii (episodic desire, contrastive); duplicate of n5_004"
+n5_009,2026-07-09,clean,0,0,0,wa foils cousins as in n5_002; duplicate of n5_002
+n5_010,2026-07-09,clean,0,0,0,kara/made/to foils grammatical but meaning-divergent = cousins; duplicate of n5_003
+n5_011,2026-07-10,clean,0,0,0,clean; で-file distractors all genuinely wrong
+n5_012,2026-07-10,fixed,7,7,0,systemic に↔へ destination twins ex1/3/4/7/8/10 (audio-alt tells throughout); ex6 を poison via Oを+V-stem+に行く
+n5_013,2026-07-10,fixed,1,1,0,や poison on offer host ex4 (か in audio-alts); declarative や kept as cousins; ex10 に borderline-left
+n5_014,2026-07-10,clean,0,0,0,"clean; all translations showcase non-exhaustive nuance, protecting と"
+n5_015,2026-07-10,fixed,8,8,0,paired-も first-slot reparse: と/や become [AとB]も in ex3/4/7/8; single-も items protected by 'also' in translations
+n5_016,2026-07-10,fixed,4,4,0,こと nominalizer conceded-correct ex5/7/10; もの pronoun equivalent ex9
+n5_017,2026-07-10,fixed,2,2,0,九時に始まります equiv ex3; formal より=から ex9; あと/とき ex10 left as cousins (translation says Because)
+n5_018,2026-07-10,fixed,2,2,0,formal より register-twin of から in から-keyed ex3/7; ex2 より fair (keyed slot is まで)
+n5_019,2026-07-10,clean,0,0,0,clean; comparison hosts garble all distractors
+n5_020,2026-07-10,fixed,5,5,0,register/dialect ね-twins ですな/べ/っしょ/ですこと ex1/8/9; softening が ex3; でしょ/じゃん saved by です-clash ex6
+n5_021,2026-07-11,fixed,1,1,0,わ feminine assertive twin of よ ex2 (formality-candidate); ね + trailing から/ので/けど left as translation-excludable cousins
+n5_022,2026-07-11,clean,0,0,0,clean; ex5 け explanation misattributes dialect to Kansai (recorded only); ですって ex9 judged echo-question cousin
+n5_023,2026-07-11,fixed,4,4,0,"だろう ex1+ex10, でしょ ex10 register twins (formality-candidates); と思います ex3 audio-paraphrase tell; ex2 かも false 'incomplete' claim rewritten"
+n5_024,2026-07-11,fixed,4,4,0,である/であります ex1 literary+military twins of です; という/と言います ex10 (と言います is own audio alt); ex7 い-adj attachment clash shows the honest pattern
+n5_025,2026-07-11,fixed,1,1,0,ている ex7 plain habitual twin of ます (file's own ex1 audio accepts している); ex4 見よ false-claim explanation rewritten
+n5_026,2026-07-11,fixed,2,2,0,"stem-coincidence twins: 見+ない=見ない ex3, し+ないです=しないです ex6 (audio alts accept ないです); same ないです honestly broken on godan ex1 — per-host; ex7 たくありません false claim rewritten"
+n5_027,2026-07-11,fixed,3,3,0,た ex2/ex3 stem-coincidence plain past twins; ていた ex10 durative covers 'I studied'; ex6 買いていました broken-with-false-explanation recorded
+n5_028,2026-07-11,fixed,2,2,0,なかったです ex5 is standard polite past negative (false 'mixes forms' claim + ex6 audio tell); なかった ex9 ichidan coincidence; ex1/6/7/8 identical trios recorded
+n5_029,2026-07-11,clean,0,0,0,clean — register:casual flags rule out ません/ないです/いです twins exactly as the register-twin rule intends; ぬ/ず literary also excluded by chip
+n5_030,2026-07-11,clean,0,0,0,clean — casual chips + tense anchors save polite/plain twins incl. 買いました ex7; ex6 作ながら/作たら broken-with-misleading-explanations and ex9 relative-tense 来るから recorded
+n5_031,2026-07-11,fixed,2,2,0,tara poison on non-past main clauses ex5/6 (kiitara/tabetara fully natural vs bare-'and' translations); tara left as fair on past-volitional hosts ex4/7/9 — per-host split worth remembering for te-form files
+n5_032,2026-07-11,clean,0,0,0,"te-iru file; all foils broken at the stem (X+imasu) by design, n5_005 precedent; no substitution yields a grammatical sentence"
+n5_033,2026-07-11,clean,0,0,0,te-kudasai file; all foils broken against kudasai; de-foils get honest voicing explanations
+n5_034,2026-07-11,clean,0,0,0,"temo ii desu ka file; all foils broken against mo ii desu ka (incl. ex10 temo which doubles mo); ex10 temo explanation slightly misleading (claims concessive meaning, reconstruction actually breaks) — recorded only"
+n5_035,2026-07-11,clean,0,0,0,"te wa ikenai file; all foils broken against wa ikenai; several explanations give meaning-based reasons for structurally broken foils (e.g. ex8 te-iru trio) — polish material, not poison"
+n5_036,2026-07-11,clean,0,0,0,te-kara file; ta->'ta kara' causal twins ex1/2 protected by 'After' translations and honest explanations (teaching contrast by design); all other foils broken
+n5_037,2026-07-11,fixed,3,3,0,"tsutsu/tsutsumo literary twins of nagara ex2/8 (formality-candidates, register-claim defense tell); te-ite overlap reading ex10; godan masu-stem hosts break most foils, ichidan/suru stems are where poison lives — stem-coincidence corollary"
+n5_038,2026-07-11,fixed,1,1,0,paired-tari first-slot reparse: te ex7 grammatical single-tari list matching translation's 'and' (sibling of n5_015 paired-mo family); tekara/ta-ato left as translation-excludable 'after' cousins ex3/10
+n5_039,2026-07-11,clean,0,0,0,"tai file; masu-stem host breaks most foils; grammatical divergents (ikimashita ex2, tabe-ru-na ex7, shita kimochi/kibun ex9/10) all meaning-flipped and translation-pinned — good honest design"
+n5_040,2026-07-11,fixed,2,2,0,"tai-to-omou file: you->shiyou-to-omou near-synonym ex1 (file's own ex2/8 audio alts accept -you paraphrases = tell); temitai contains keyed tai ex10 (conceded-correct tell); you-foil is host-dependent — broken on godan (ikiyou ex5), live poison on suru/ichidan"

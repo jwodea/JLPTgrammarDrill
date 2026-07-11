@@ -1,0 +1,254 @@
+{
+  "id": "n3_142",
+  "pattern": "〜的",
+  "meaning": "-ic; -al (turns a noun into a na-adjective: 具体的, 経済的)",
+  "level": "N3",
+  "exercises": [
+    {
+      "id": "n3_142_1",
+      "example_sentence": "もう少し具体的に説明していただけませんか。",
+      "translation": "Could you explain a bit more concretely? (politely, to a presenter)",
+      "blank_target": "的",
+      "wrong_choices": ["性", "風", "式"],
+      "wrong_choice_explanations": [
+        "〜性 forms abstract nouns: 具体性 ('concreteness') is a real word, but it's a noun and can't take に to make an adverb — 'concretely' is 具体的に.",
+        "〜風 means 'style; manner' (和風・ビジネス風) and attaches to nouns naming a style to imitate; 具体風 is not a word.",
+        "〜式 means 'system; type' (日本式); 具体式 is not a word."
+      ],
+      "hiragana_full": "もうすこしぐたいてきにせつめいしていただけませんか。",
+      "audio_alternatives": [
+        { "kanji": "もっと具体的な例を挙げていただけますか。", "hiragana_full": "もっとぐたいてきなれいをあげていただけますか。" },
+        { "kanji": "もう少し詳しく話してもらえませんか。", "hiragana_full": "もうすこしくわしくはなしてもらえませんか。" }
+      ],
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        { "word": "説明する", "reading": "せつめいする", "meaning": "to explain" },
+        { "word": "もう少し", "reading": "もうすこし", "meaning": "a little more" }
+      ],
+      "blank_target_reading": "てき"
+    },
+    {
+      "id": "n3_142_2",
+      "example_sentence": "彼女は経済的な理由で大学進学をあきらめた。",
+      "translation": "She gave up on going to university for financial reasons.",
+      "blank_target": "的",
+      "wrong_choices": ["性", "上", "式"],
+      "wrong_choice_explanations": [
+        "〜性 makes abstract nouns: 経済性 is a real word, but it means 'cost-efficiency' and is a noun — 経済性な理由 is ungrammatical and the meaning is wrong anyway.",
+        "〜上（じょう） means 'from the standpoint of ~' and connects with の (経済上の理由); here the blank is followed by な, and the sentence describes the nature of the reasons (financial), which is 経済的.",
+        "〜式 means 'style; system' (日本式のホテル); 経済式 is not a word."
+      ],
+      "hiragana_full": "かのじょはけいざいてきなりゆうでだいがくしんがくをあきらめた。",
+      "audio_alternatives": [
+        { "kanji": "お金の問題で、彼女は大学に行くのをあきらめた。", "hiragana_full": "おかねのもんだいで、かのじょはだいがくにいくのをあきらめた。" },
+        { "kanji": "経済的な事情から、彼女は進学を断念した。", "hiragana_full": "けいざいてきなじじょうから、かのじょはしんがくをだんねんした。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "理由", "reading": "りゆう", "meaning": "reason" },
+        { "word": "進学", "reading": "しんがく", "meaning": "going on to university" },
+        { "word": "あきらめる", "reading": "あきらめる", "meaning": "to give up" }
+      ],
+      "blank_target_reading": "てき"
+    },
+    {
+      "id": "n3_142_3",
+      "example_sentence": "彼女はボランティア活動に積極的に参加している。",
+      "translation": "She actively takes part in volunteer activities.",
+      "blank_target": "的",
+      "wrong_choices": ["性", "感", "中"],
+      "wrong_choice_explanations": [
+        "〜性 forms nouns: 積極性 ('initiative; proactiveness') is a real word, but a noun can't take に to form the adverb 'actively' — that's 積極的に.",
+        "〜感 forms nouns of feeling (達成感・清潔感); 積極感 is not a word.",
+        "〜中（ちゅう） means 'during; in the middle of' (活動中・会議中); 積極中 is not a word."
+      ],
+      "hiragana_full": "かのじょはぼらんてぃあかつどうにせっきょくてきにさんかしている。",
+      "audio_alternatives": [
+        { "kanji": "彼女は地域のボランティアに積極的に参加している。", "hiragana_full": "かのじょはちいきのぼらんてぃあにせっきょくてきにさんかしている。" },
+        { "kanji": "彼女は自分から進んでボランティア活動をしている。", "hiragana_full": "かのじょはじぶんからすすんでぼらんてぃあかつどうをしている。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "活動", "reading": "かつどう", "meaning": "activity" },
+        { "word": "参加する", "reading": "さんかする", "meaning": "to participate" },
+        { "word": "ボランティア", "reading": "ぼらんてぃあ", "meaning": "volunteer (work)" }
+      ],
+      "blank_target_reading": "てき"
+    },
+    {
+      "id": "n3_142_4",
+      "example_sentence": "この町では、伝統的な祭りが今も続いている。",
+      "translation": "In this town, a traditional festival still continues today.",
+      "blank_target": "的",
+      "wrong_choices": ["風", "式", "流"],
+      "wrong_choice_explanations": [
+        "〜風 means '~-style' (洋風) and suggests imitation of a style; 伝統風 would imply something merely made to look traditional, but this festival genuinely is a long-standing tradition.",
+        "〜式 means 'type; system' (日本式のトイレ) and connects with の; 伝統式 is not a standard word.",
+        "〜流 means 'school/style of ~' associated with a person or group (自己流・小笠原流); 伝統流 is not a word."
+      ],
+      "hiragana_full": "このまちでは、でんとうてきなまつりがいまもつづいている。",
+      "audio_alternatives": [
+        { "kanji": "この町には、昔から続く祭りが今も残っている。", "hiragana_full": "このまちには、むかしからつづくまつりがいまものこっている。" },
+        { "kanji": "この町の伝統的な祭りは、今も行われている。", "hiragana_full": "このまちのでんとうてきなまつりは、いまもおこなわれている。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "祭り", "reading": "まつり", "meaning": "festival" },
+        { "word": "続く", "reading": "つづく", "meaning": "to continue" },
+        { "word": "町", "reading": "まち", "meaning": "town" }
+      ],
+      "blank_target_reading": "てき"
+    },
+    {
+      "id": "n3_142_5",
+      "example_sentence": "その健康法には科学的な根拠がないそうだ。",
+      "translation": "I hear that health method has no scientific basis.",
+      "blank_target": "的",
+      "wrong_choices": ["性", "上", "風"],
+      "wrong_choice_explanations": [
+        "〜性 forms nouns: 科学性 ('scientific quality') can't take な to describe 根拠, and the intended meaning 'based on science' is 科学的.",
+        "〜上（じょう） means 'from the standpoint of ~' and takes の (教育上の理由); 科学上な is ungrammatical, and the sentence needs the property 'scientific', not a viewpoint.",
+        "〜風 would give 科学風 — 'science-style', something dressed up to look scientific; the sentence is about whether real scientific grounds exist."
+      ],
+      "hiragana_full": "そのけんこうほうにはかがくてきなこんきょがないそうだ。",
+      "audio_alternatives": [
+        { "kanji": "その健康法に科学的な裏付けはないらしい。", "hiragana_full": "そのけんこうほうにかがくてきなうらづけはないらしい。" },
+        { "kanji": "その方法が体にいいという証拠はないそうだ。", "hiragana_full": "そのほうほうがからだにいいというしょうこはないそうだ。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "健康法", "reading": "けんこうほう", "meaning": "health method" },
+        { "word": "根拠", "reading": "こんきょ", "meaning": "basis; grounds" }
+      ],
+      "blank_target_reading": "てき"
+    },
+    {
+      "id": "n3_142_6",
+      "example_sentence": "個人的には、この計画に賛成です。",
+      "translation": "Personally, I'm in favor of this plan.",
+      "blank_target": "的",
+      "wrong_choices": ["用", "感", "流"],
+      "wrong_choice_explanations": [
+        "〜用 marks intended use (子ども用・個人用のパソコン); 個人用には would mean 'for personal-use purposes', not 'speaking personally'.",
+        "〜感 forms 'feeling of ~' nouns (達成感・清潔感); 個人感 is not a word.",
+        "〜流 means 'in the style of ~' (自分流); 個人流には is not how you preface a personal opinion — that's 個人的には."
+      ],
+      "hiragana_full": "こじんてきには、このけいかくにさんせいです。",
+      "audio_alternatives": [
+        { "kanji": "私としては、この計画に賛成です。", "hiragana_full": "わたしとしては、このけいかくにさんせいです。" },
+        { "kanji": "個人的な意見ですが、この計画はいいと思います。", "hiragana_full": "こじんてきないけんですが、このけいかくはいいとおもいます。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "計画", "reading": "けいかく", "meaning": "plan" },
+        { "word": "賛成", "reading": "さんせい", "meaning": "agreement; approval" }
+      ],
+      "blank_target_reading": "てき"
+    },
+    {
+      "id": "n3_142_7",
+      "example_sentence": "一般的に、日本の夏は湿度が高いと言われている。",
+      "translation": "Generally speaking, summers in Japan are said to be very humid.",
+      "blank_target": "的",
+      "wrong_choices": ["式", "論", "中"],
+      "wrong_choice_explanations": [
+        "〜式 gives 一般式, a real word only as a math term ('general formula'); it's a noun and can't act as the adverb 'generally'.",
+        "〜論 means 'theory; discussion of ~' (人生論). 一般論 ('a generalization') is a real word, but it's a noun — you say 一般論として, not 一般論に.",
+        "〜中（じゅう/ちゅう） means 'throughout; during' (世界中・会議中); 一般中 is not a word."
+      ],
+      "hiragana_full": "いっぱんてきに、にほんのなつはしつどがたかいといわれている。",
+      "audio_alternatives": [
+        { "kanji": "日本の夏は一般的に湿度が高い。", "hiragana_full": "にほんのなつはいっぱんてきにしつどがたかい。" },
+        { "kanji": "普通、日本の夏はじめじめしていると言われる。", "hiragana_full": "ふつう、にほんのなつはじめじめしているといわれる。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "湿度", "reading": "しつど", "meaning": "humidity" },
+        { "word": "夏", "reading": "なつ", "meaning": "summer" }
+      ],
+      "blank_target_reading": "てき"
+    },
+    {
+      "id": "n3_142_8",
+      "example_sentence": "最近、野菜をたくさん食べて健康的な生活を送ってるんだ。",
+      "translation": "Lately I've been eating lots of vegetables and living a healthy lifestyle, you know. (chatting with a friend)",
+      "blank_target": "的",
+      "wrong_choices": ["上", "風", "感"],
+      "wrong_choice_explanations": [
+        "〜上（じょう） gives 健康上, a real word ('in terms of health', 健康上の理由), but it takes の and expresses a standpoint; here we need 'healthy' as a quality of the lifestyle itself.",
+        "〜風 would give 健康風 — 'healthy-seeming', merely looking the part; the speaker is actually eating vegetables for real health.",
+        "〜感 forms nouns of feeling (清潔感); 健康感 is not a standard word, and a noun couldn't take な to modify 生活 here."
+      ],
+      "hiragana_full": "さいきん、やさいをたくさんたべてけんこうてきなせいかつをおくってるんだ。",
+      "audio_alternatives": [
+        { "kanji": "最近は野菜中心の健康的な食生活をしている。", "hiragana_full": "さいきんはやさいちゅうしんのけんこうてきなしょくせいかつをしている。" },
+        { "kanji": "体にいい生活を心がけて、野菜をたくさん食べている。", "hiragana_full": "からだにいいせいかつをこころがけて、やさいをたくさんたべている。" }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        { "word": "野菜", "reading": "やさい", "meaning": "vegetables" },
+        { "word": "送る", "reading": "おくる", "meaning": "to lead (a life)" },
+        { "word": "最近", "reading": "さいきん", "meaning": "lately" }
+      ],
+      "blank_target_reading": "てき"
+    },
+    {
+      "id": "n3_142_9",
+      "example_sentence": "彼は国際的な会議で研究の成果を発表した。",
+      "translation": "He presented the results of his research at an international conference.",
+      "blank_target": "的",
+      "wrong_choices": ["性", "用", "流"],
+      "wrong_choice_explanations": [
+        "〜性 gives 国際性, a real noun ('international character; cosmopolitanism'); a noun can't take な to describe 会議 — the adjective 'international' is 国際的.",
+        "〜用 marks intended use (会員用); 国際用 is not standard and would mean 'for international use', not 'international in scale'.",
+        "〜流 means 'style/school of ~' (日本流のやり方); 国際流 is not a word."
+      ],
+      "hiragana_full": "かれはこくさいてきなかいぎでけんきゅうのせいかをはっぴょうした。",
+      "audio_alternatives": [
+        { "kanji": "彼は世界中の研究者が集まる会議で成果を発表した。", "hiragana_full": "かれはせかいじゅうのけんきゅうしゃがあつまるかいぎでせいかをはっぴょうした。" },
+        { "kanji": "国際的な学会で、彼は研究結果を報告した。", "hiragana_full": "こくさいてきながっかいで、かれはけんきゅうけっかをほうこくした。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "研究", "reading": "けんきゅう", "meaning": "research" },
+        { "word": "成果", "reading": "せいか", "meaning": "results; achievements" },
+        { "word": "発表する", "reading": "はっぴょうする", "meaning": "to present; to announce" }
+      ],
+      "blank_target_reading": "てき"
+    },
+    {
+      "id": "n3_142_10",
+      "example_sentence": "このソフトの基本的な操作を覚えれば、誰でも使える。",
+      "translation": "Once you learn the basic operations of this software, anyone can use it.",
+      "blank_target": "的",
+      "wrong_choices": ["式", "用", "流"],
+      "wrong_choice_explanations": [
+        "〜式 gives 基本式, which exists only as a math term ('basic formula') and is a noun; 'basic (operations)' as an adjective is 基本的な.",
+        "〜用 marks purpose or intended users (初心者用); 基本用 is not a word.",
+        "〜流 means 'style of ~' (自己流のやり方); 基本流 is not a word."
+      ],
+      "hiragana_full": "このそふとのきほんてきなそうさをおぼえれば、だれでもつかえる。",
+      "audio_alternatives": [
+        { "kanji": "基本的な使い方さえ覚えれば、誰でもこのソフトを使える。", "hiragana_full": "きほんてきなつかいかたさえおぼえれば、だれでもこのそふとをつかえる。" },
+        { "kanji": "このソフトは、簡単な操作を覚えるだけで誰でも使えるようになる。", "hiragana_full": "このそふとは、かんたんなそうさをおぼえるだけでだれでもつかえるようになる。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "操作", "reading": "そうさ", "meaning": "operation (of a device)" },
+        { "word": "覚える", "reading": "おぼえる", "meaning": "to learn; to memorize" },
+        { "word": "ソフト", "reading": "そふと", "meaning": "software" }
+      ],
+      "blank_target_reading": "てき"
+    }
+  ]
+}

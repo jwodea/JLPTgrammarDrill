@@ -1,0 +1,61 @@
+id,date,vocab_added,readings_added,neutral,casual,formal,written,notes
+n5_001,2026-07-09,16,0,10,,,,"all neutral (desu/masu); blank_target kana-only, no readings needed; ex6/ex3 got 1-2 vocab (sparse sentences)"
+n5_002,2026-07-09,17,0,10,,,,all neutral; kana-only target
+n5_003,2026-07-09,19,0,10,,,,"all neutral; kana-only target; ex3 hiragana_full renders katakana loanwords in hiragana (purezento) — pre-existing, not touched"
+n5_004,2026-07-09,18,0,10,,,,all neutral; kana-only target
+n5_005,2026-07-09,14,0,10,,,,all neutral; ex2 no vocab (no lookup-worthy non-pattern word); te-form verbs excluded from vocab since they contain the blank answer
+n5_006,2026-07-09,19,0,10,,,,"all neutral; NOTE: file is a near-duplicate of n5_007 (same wa topic-marker pattern, 9/10 identical sentences) — defect noted, not fixed"
+n5_007,2026-07-09,19,0,10,,,,all neutral; near-duplicate of n5_006 (see its note); ex9 hiragana_full writes koohii in hiragana — pre-existing
+n5_008,2026-07-09,19,0,10,,,,all neutral; kana-only target
+n5_009,2026-07-09,17,0,10,,,,"all neutral; pattern duplicates n5_002 (wo object marker) with partly identical sentences — noted, not fixed"
+n5_010,2026-07-09,21,0,10,,,,"all neutral; pattern overlaps n5_003 (ni) with several identical sentences — noted, not fixed"
+n5_011,2026-07-09,19,0,10,,,,all neutral; kana-only target
+n5_012,2026-07-09,20,0,10,,,,all neutral; kana-only target
+n5_013,2026-07-09,25,0,10,,,,all neutral; ex8 quoted speech is plain form but frame sentence is neutral — tagged by sentence as written
+n5_014,2026-07-09,19,0,10,,,,all neutral; kana-only target
+n5_015,2026-07-09,19,0,10,,,,all neutral; kana-only target
+n5_016,2026-07-10,21,0,10,,,,all neutral desu/masu; possessive + nominalizer mix
+n5_017,2026-07-10,22,0,10,,,,all neutral; 017_5 vocab 十分=じゅっぷん (ten minutes) cross-checked against hiragana_full
+n5_018,2026-07-10,19,0,10,,,,"all neutral; defect noted (not touched): 018_3/5/6/7 blank から, not まで, in a まで pattern file; 018_6 translation says 'at nine' though pattern glosses から"
+n5_019,2026-07-10,20,0,10,,,,all neutral
+n5_020,2026-07-10,14,0,7,3,,,ex2/5/8 casual (plain-form + ね); rest neutral incl. polite お疲れさまでしたね
+n5_021,2026-07-10,13,0,10,,,,"all neutral by frame sentence; 021_6 and 021_10 have plain て-form requests after polite ですよ clause — register-mixed, tagged by main clause, not touched"
+n5_022,2026-07-10,9,0,10,,,,all neutral; several bare exercises left without vocab (no lookup-worthy word)
+n5_023,2026-07-10,13,0,10,,,,all neutral; file already flagged elsewhere as suspect for でしょう register-twin distractors — nothing touched here
+n5_024,2026-07-10,12,0,10,,,,all neutral; vocab kept 1-2/exercise to avoid chip noise on copula drills
+n5_025,2026-07-10,16,0,10,,,,all neutral; avoided glossing verbs whose surface contains the blanked ます; 025_9 no vocab (all katakana/basic)
+n5_026,2026-07-10,5,0,10,,,,all neutral; sparse vocab by design — sentences reuse ultra-basic words; 参加/外出 the only real chips
+n5_027,2026-07-10,14,0,10,,,,all neutral; final verbs contain blanked ました so chips are nouns/adverbs only
+n5_028,2026-07-10,8,0,10,,,,all neutral; 昨夜=さくや and 今朝=けさ good reading-trap chips
+n5_029,2026-07-10,6,0,,10,,,"all 10 casual (bare plain-form speech); NOTE: casual chip may pre-hint plain-form answer where ません-type distractors exist — register-twin concern for distractor audit, not touched; 029_10 blank_target is bare い (お金がな[い]) — inconsistent with file's ない blanks elsewhere, not touched"
+n5_030,2026-07-10,10,0,4,6,,,"ex1/5/6/7/8/10 casual (plain-form final); ex2/3/4/9 neutral (polite main clause, plain form only in subordinate clause); same register-twin pre-hint caveat as n5_029"
+n5_031,2026-07-10,16,0,10,,,,all neutral (masu); te-form verbs excluded from vocab (contain blank); kana-only target
+n5_032,2026-07-10,17,0,10,,,,all neutral; ex1 TV katakana kept in hiragana_full (pre-existing); kana-only target
+n5_033,2026-07-10,9,0,10,,,,"all neutral; ex10 no vocab (doa only content word, too basic); kana-only target"
+n5_034,2026-07-10,7,0,10,,,,all neutral; ex1/ex8/ex9 no vocab (only lookup-worthy word carries the blank); kana-only target
+n5_035,2026-07-10,14,0,5,5,,,ex1/3/5/7/9 casual (plain -te wa ikenai); polite -masen ones neutral; kana-only target
+n5_036,2026-07-10,15,0,10,,,,all neutral; kana-only target
+n5_037,2026-07-10,16,0,10,,,,"all neutral; non-blank verbs glossed in surface form (kayotteimasu, ayamarimashita) per prior convention; kana-only target"
+n5_038,2026-07-10,19,0,4,6,,,ex1/3/4/6/7/10 casual (plain suru/shita/shiteiru/tanoshikatta finals); DEFECT NOTED not touched: ex2-9 hiragana_full missing final 。; kana-only target
+n5_039,2026-07-10,13,0,7,3,,,"ex2/5/7 casual (plain -tai finals, ex7 sentence-final na); ex3 no vocab; kana-only target"
+n5_040,2026-07-10,15,0,8,2,,,ex3/10 casual (plain to omou); -tai verbs excluded from vocab (contain blank); kana-only target
+n5_041,2026-07-10,13,0,6,4,,,ex2/4/8/9 casual (plain hoshii/hoshikatta/hoshigatteiru/naa); hoshii itself never glossed (pattern); ex6 no vocab; kana-only target (particle)
+n5_042,2026-07-10,13,0,10,,,,all neutral (mashou polite); kana-only target
+n5_043,2026-07-10,13,0,10,,,,all neutral (masen ka polite); ex8 no vocab; DEFECT NOTED not touched: ex7/ex10 hiragana_full missing final 。; kana-only target
+n5_044,2026-07-10,13,0,10,,,,all neutral; dictionary-form verbs glossed (don't contain blank koto); DEFECT NOTED not touched: most hiragana_full missing final 。; kana-only target
+n5_045,2026-07-10,16,0,8,2,,,ex3/9 casual (plain nai finals); ta-form verbs glossed in surface form; DEFECT NOTED not touched: most hiragana_full missing final 。; kana-only target
+n5_046,2026-07-11,19,0,8,2,,,ex2/ex6 casual (plain finals); pattern-word compounds (読み方 etc.) excluded from vocab per blank-containment rule
+n5_047,2026-07-11,14,0,8,2,,,ex1/ex4 casual (plain finals); ex1 vocab omitted — only content word 甘すぎる contains blank
+n5_048,2026-07-11,12,0,10,,,,"sparse vocab correct: ~やすい compounds all blank-excluded, sentences otherwise basic"
+n5_049,2026-07-11,15,0,10,,,,"ex1/ex4/ex5/ex8 hiragana_full missing final 。 (known defect class, not touched)"
+n5_050,2026-07-11,14,0,10,,,,blank に: any word containing に excluded from vocab (見に etc. fused forms)
+n5_051,2026-07-11,15,0,10,,,,から-clause plain + polite main = neutral per run-2 precedent; ex8 vocab omitted (all basic)
+n5_052,2026-07-11,17,0,10,,,,ex9 vocab omitted (all basic)
+n5_053,2026-07-11,6,0,10,,,,sparse vocab: ultra-basic contrast sentences; plain-clause+polite-main all neutral
+n5_054,2026-07-11,14,0,10,,,,"words containing し (楽しみ, 散歩しませんか) excluded from vocab per strict blank-containment"
+n5_055,2026-07-11,18,0,10,,,,blank_target_reading pre-existing on all ex (2026-07-09 coverage) — 0 added
+n5_056,2026-07-11,14,0,10,,,,blank_target_reading pre-existing on all ex — 0 added
+n5_057,2026-07-11,10,0,10,,,,time-word sentences mostly basic; 紅葉/こうよう best chip of batch
+n5_058,2026-07-11,5,0,10,,,,"ex1/2/4/5/9 vocab omitted (number+counter only); ex10 二十歳 read にじゅっさい in hiragana_full (not はたち) — followed HF, flagged"
+n5_059,2026-07-11,3,0,9,1,,,"ex6 casual (君…解けるよ); most sentences trivially basic, vocab omitted"
+n5_060,2026-07-11,6,0,10,,,,ex1/4/5/8/9 vocab omitted (basic); ヶ所 none

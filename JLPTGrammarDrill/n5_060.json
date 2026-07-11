@@ -30,7 +30,8 @@
           "hiragana_full": "おかねはせんえんだけです"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n5_060_2",
@@ -58,7 +59,15 @@
           "hiragana_full": "にほんごしかはなせない"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "話せません",
+          "reading": "はなせません",
+          "meaning": "can't speak"
+        }
+      ]
     },
     {
       "id": "n5_060_3",
@@ -86,7 +95,15 @@
           "hiragana_full": "ともだちがひとりしかいない"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "一人",
+          "reading": "ひとり",
+          "meaning": "one person"
+        }
+      ]
     },
     {
       "id": "n5_060_4",
@@ -114,7 +131,8 @@
           "hiragana_full": "コーヒーしかのまなかった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n5_060_5",
@@ -142,7 +160,8 @@
           "hiragana_full": "このほんだけをよんでいます"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n5_060_6",
@@ -170,7 +189,20 @@
           "hiragana_full": "かれしかこのもんだいがとけない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "問題",
+          "reading": "もんだい",
+          "meaning": "problem"
+        },
+        {
+          "word": "解けません",
+          "reading": "とけません",
+          "meaning": "can't solve"
+        }
+      ]
     },
     {
       "id": "n5_060_7",
@@ -198,7 +230,15 @@
           "hiragana_full": "みずしかのめません"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "飲んではいけません",
+          "reading": "のんではいけません",
+          "meaning": "must not drink"
+        }
+      ]
     },
     {
       "id": "n5_060_8",
@@ -226,7 +266,8 @@
           "hiragana_full": "きょうしかじかんがなかったです"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n5_060_9",
@@ -254,7 +295,8 @@
           "hiragana_full": "べんきょうしたのはいちじかんだけでした。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n5_060_10",
@@ -282,7 +324,15 @@
           "hiragana_full": "ぱんだけしかたべられなかったです"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "食べられませんでした",
+          "reading": "たべられませんでした",
+          "meaning": "couldn't eat"
+        }
+      ]
     }
   ]
 }

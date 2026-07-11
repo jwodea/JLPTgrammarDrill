@@ -10,12 +10,12 @@
       "translation": "It will probably be sunny tomorrow.",
       "blank_target": "でしょう",
       "wrong_choices": [
-        "だろう",
+        "はずがありません",
         "である",
         "でした"
       ],
       "wrong_choice_explanations": [
-        "だろう is the plain form equivalent of でしょう — it's too casual for polite speech contexts.",
+        "〜はずがありません asserts that something is impossible (晴れるはずがありません = 'it can't possibly be sunny'), the opposite of the mild positive prediction 'it will probably be sunny' that でしょう expresses.",
         "である is a formal written copula — it states facts rather than expressing probability.",
         "でした is past tense — it would refer to weather that already happened."
       ],
@@ -53,7 +53,7 @@
       "wrong_choice_explanations": [
         "です states a fact politely — it doesn't express the uncertainty or probability implied here.",
         "だ is the plain form copula — it makes a definite statement without expressing probability.",
-        "かも is incomplete — it needs しれません to form the complete expression for possibility."
+        "かも is the casual clipped form of かもしれません ('maybe'); it expresses a weaker, more offhand possibility than the confident 'probably' this sentence carries, and its casualness clashes with the polite tone."
       ],
       "hiragana_full": "かれはがくせいでしょう。",
       "audio_alternatives": [
@@ -89,12 +89,12 @@
       "wrong_choices": [
         "かもしれません",
         "はずです",
-        "と思います"
+        "予定です"
       ],
       "wrong_choice_explanations": [
         "かもしれません expresses possibility but is less confident — でしょう shows more likelihood.",
         "はずです expresses expectation based on logical reasoning — it's more definite than probability.",
-        "と思います expresses personal opinion — it's more subjective than でしょう's general probability."
+        "〜予定です states something fixed on a schedule (遅れる予定です = 'the train is scheduled to be late'), which makes no sense for an unforeseen delay — the speaker is predicting, not citing a timetable."
       ],
       "hiragana_full": "でんしゃがおくれるでしょう。",
       "audio_alternatives": [
@@ -350,13 +350,13 @@
       "blank_target": "でしょう",
       "wrong_choices": [
         "よね",
-        "でしょ",
-        "だろう"
+        "そうです",
+        "わけがありません"
       ],
       "wrong_choice_explanations": [
         "よね seeks confirmation — it assumes shared knowledge rather than expressing probability.",
-        "でしょ is a casual contraction of でしょう — it's too informal for proper polite speech.",
-        "だろう is the plain form equivalent of でしょう — it's too casual for the polite context."
+        "〜そうです after the dictionary form reports hearsay (心配するそうです = 'I hear your mother will worry'), but nobody has told the speaker this — it is the speaker's own guess, which でしょう expresses.",
+        "〜わけがありません denies any possibility (心配するわけがありません = 'there's no way she would worry'), reversing the meaning — the speaker thinks she almost certainly will worry."
       ],
       "hiragana_full": "おかあさんはしんぱいするでしょう。",
       "audio_alternatives": [

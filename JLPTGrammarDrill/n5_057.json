@@ -30,7 +30,8 @@
           "hiragana_full": "ごごさんじごろあいましょう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n5_057_2",
@@ -58,7 +59,8 @@
           "hiragana_full": "よるのじゅうじごろねる。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n5_057_3",
@@ -86,7 +88,8 @@
           "hiragana_full": "ごぜんしちじごろおきました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n5_057_4",
@@ -114,7 +117,20 @@
           "hiragana_full": "はるごろさくらがさく。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "桜",
+          "reading": "さくら",
+          "meaning": "cherry blossoms"
+        },
+        {
+          "word": "咲きます",
+          "reading": "さきます",
+          "meaning": "bloom"
+        }
+      ]
     },
     {
       "id": "n5_057_5",
@@ -142,7 +158,15 @@
           "hiragana_full": "おひるごろおべんとうをたべます。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "お弁当",
+          "reading": "おべんとう",
+          "meaning": "boxed lunch"
+        }
+      ]
     },
     {
       "id": "n5_057_6",
@@ -170,7 +194,8 @@
           "hiragana_full": "ふゆにゆきがふります。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n5_057_7",
@@ -198,7 +223,15 @@
           "hiragana_full": "ゆうがたのろくじごろいえにかえります。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "夕方",
+          "reading": "ゆうがた",
+          "meaning": "early evening"
+        }
+      ]
     },
     {
       "id": "n5_057_8",
@@ -226,7 +259,20 @@
           "hiragana_full": "くらすはくじごろはじまります。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "授業",
+          "reading": "じゅぎょう",
+          "meaning": "class"
+        },
+        {
+          "word": "始まります",
+          "reading": "はじまります",
+          "meaning": "begins"
+        }
+      ]
     },
     {
       "id": "n5_057_9",
@@ -254,7 +300,20 @@
           "hiragana_full": "あきにこうようがうつくしいです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "紅葉",
+          "reading": "こうよう",
+          "meaning": "autumn leaves"
+        },
+        {
+          "word": "美しい",
+          "reading": "うつくしい",
+          "meaning": "beautiful"
+        }
+      ]
     },
     {
       "id": "n5_057_10",
@@ -282,7 +341,20 @@
           "hiragana_full": "しんやにじごろにでんわがかかってきました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "夜中",
+          "reading": "よなか",
+          "meaning": "middle of the night"
+        },
+        {
+          "word": "かかってきました",
+          "reading": "かかってきました",
+          "meaning": "(a call) came in"
+        }
+      ]
     }
   ]
 }
