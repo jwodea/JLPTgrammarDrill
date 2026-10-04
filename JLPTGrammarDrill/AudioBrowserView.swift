@@ -55,6 +55,8 @@ struct AudioBrowserView: View {
                 .buttonStyle(.plain)
             }
         }
+        .scrollContentBackground(.hidden)
+        .background(GlassBackdrop().ignoresSafeArea())
         .searchable(text: $search, prompt: "Search English or Japanese")
         .navigationTitle("Browse")
         .navigationBarTitleDisplayMode(.inline)

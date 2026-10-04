@@ -42,6 +42,8 @@ struct AudioHistoryView: View {
                 }
             }
         }
+        .scrollContentBackground(.hidden)
+        .background(GlassBackdrop().ignoresSafeArea())
         .searchable(text: $search, prompt: "Search English or Japanese")
         .navigationTitle("History")
         .navigationBarTitleDisplayMode(.inline)
@@ -140,6 +142,8 @@ struct AudioHistoryDetailView: View {
                 }
             }
         }
+        .scrollContentBackground(.hidden)
+        .background(GlassBackdrop().ignoresSafeArea())
         .navigationTitle("Detail")
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {

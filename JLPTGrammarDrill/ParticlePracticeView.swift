@@ -49,7 +49,7 @@ struct ParticlePracticeView: View {
 
     var body: some View {
         ZStack {
-            Color(.systemBackground).ignoresSafeArea()
+            GlassBackdrop().ignoresSafeArea()
 
             if isLoading {
                 ProgressView("Loading particles…")
@@ -95,26 +95,25 @@ struct ParticlePracticeView: View {
                             Spacer(minLength: 30)
 
                             // Answer buttons (2x2 grid)
-                            LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 12) {
-                                ForEach(shuffledChoices, id: \.self) { choice in
-                                    Button {
-                                        guard selectedAnswer == nil else { return }
-                                        handleAnswer(choice)
-                                    } label: {
-                                        Text(choice)
-                                            .font(.system(size: scaled(22), weight: .medium))
-                                            .frame(maxWidth: .infinity)
-                                            .padding(.vertical, 18)
-                                            .background(buttonBackground(for: choice))
-                                            .foregroundColor(buttonForeground(for: choice))
-                                            .cornerRadius(10)
-                                            .overlay(
-                                                RoundedRectangle(cornerRadius: 10)
-                                                    .stroke(buttonBorder(for: choice), lineWidth: 1.5)
-                                            )
+                            GlassEffectContainer(spacing: 12) {
+                                LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 12) {
+                                    ForEach(shuffledChoices, id: \.self) { choice in
+                                        Button {
+                                            guard selectedAnswer == nil else { return }
+                                            handleAnswer(choice)
+                                        } label: {
+                                            Text(choice)
+                                                .font(.system(size: scaled(22), weight: .medium))
+                                                .frame(maxWidth: .infinity)
+                                                .padding(.vertical, 18)
+                                                .foregroundStyle(buttonForeground(for: choice))
+                                                .contentShape(Rectangle())
+                                                .glassEffect(buttonGlass(for: choice), in: .rect(cornerRadius: 14))
+                                        }
+                                        .buttonStyle(.plain)
+                                        .disabled(selectedAnswer != nil)
+                                        .animation(.easeInOut(duration: 0.2), value: selectedAnswer)
                                     }
-                                    .disabled(selectedAnswer != nil)
-                                    .animation(.easeInOut(duration: 0.2), value: selectedAnswer)
                                 }
                             }
                             .padding(.horizontal)
@@ -154,16 +153,13 @@ struct ParticlePracticeView: View {
                                         Text("Next")
                                             .font(.system(size: scaled(17), weight: .semibold))
                                             .frame(maxWidth: .infinity)
-                                            .padding(.vertical, 12)
-                                            .background(Color.accentColor)
-                                            .foregroundColor(.white)
-                                            .cornerRadius(10)
+                                            .padding(.vertical, 8)
                                     }
+                                    .buttonStyle(.glassProminent)
                                     .padding(.top, 4)
                                 }
                                 .padding()
-                                .background(Color(.secondarySystemBackground))
-                                .cornerRadius(16)
+                                .glassEffect(.regular, in: .rect(cornerRadius: 20))
                                 .padding(.horizontal)
                                 .transition(.move(edge: .bottom))
                                 .id("explanation")
@@ -295,17 +291,19 @@ struct ParticlePracticeView: View {
 
     // MARK: - Button Styling
 
-    private func buttonBackground(for choice: String) -> Color {
+    /// Glass variant per answer state: neutral interactive glass before answering,
+    /// green-tinted for the correct answer and red-tinted for a wrong selection after.
+    private func buttonGlass(for choice: String) -> Glass {
         guard let selected = selectedAnswer, let item = currentExercise else {
-            return Color(.secondarySystemBackground)
+            return .regular.interactive()
         }
         if choice == item.blankTarget {
-            return Color.green.opacity(0.2)
+            return .regular.tint(.green.opacity(0.45))
         }
         if choice == selected && selected != item.blankTarget {
-            return Color.red.opacity(0.2)
+            return .regular.tint(.red.opacity(0.45))
         }
-        return Color(.secondarySystemBackground)
+        return .regular
     }
 
     private func buttonForeground(for choice: String) -> Color {
@@ -319,19 +317,6 @@ struct ParticlePracticeView: View {
             return Color.red
         }
         return Color.primary
-    }
-
-    private func buttonBorder(for choice: String) -> Color {
-        guard let selected = selectedAnswer, let item = currentExercise else {
-            return Color.secondary.opacity(0.3)
-        }
-        if choice == item.blankTarget {
-            return Color.green
-        }
-        if choice == selected && selected != item.blankTarget {
-            return Color.red
-        }
-        return Color.secondary.opacity(0.3)
     }
 
     // MARK: - Haptics

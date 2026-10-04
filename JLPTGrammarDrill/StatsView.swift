@@ -162,6 +162,7 @@ struct StatsView: View {
             .padding(.horizontal)
             .padding(.bottom, 20)
         }
+        .background(GlassBackdrop().ignoresSafeArea())
         .navigationTitle("Stats")
         .navigationBarTitleDisplayMode(.inline)
         .onAppear {
@@ -193,8 +194,7 @@ struct StatsView: View {
         }
         .padding(.horizontal, 16)
         .padding(.vertical, 12)
-        .background(Color(.secondarySystemBackground))
-        .cornerRadius(12)
+        .glassEffect(.regular, in: .rect(cornerRadius: 20))
     }
 
     // MARK: - Grammar section
@@ -219,8 +219,7 @@ struct StatsView: View {
                 .foregroundColor(.secondary)
         }
         .padding(16)
-        .background(Color(.secondarySystemBackground))
-        .cornerRadius(12)
+        .glassEffect(.regular, in: .rect(cornerRadius: 20))
     }
 
     // MARK: - Particles section
@@ -237,8 +236,7 @@ struct StatsView: View {
             }
         }
         .padding(16)
-        .background(Color(.secondarySystemBackground))
-        .cornerRadius(12)
+        .glassEffect(.regular, in: .rect(cornerRadius: 20))
     }
 
     // MARK: - Audio section
@@ -265,8 +263,7 @@ struct StatsView: View {
             }
         }
         .padding(16)
-        .background(Color(.secondarySystemBackground))
-        .cornerRadius(12)
+        .glassEffect(.regular, in: .rect(cornerRadius: 20))
     }
 
     // MARK: - Row + legend helpers
@@ -372,8 +369,7 @@ struct StatsView: View {
             .padding(.top, 6)
         }
         .padding(16)
-        .background(Color(.secondarySystemBackground))
-        .cornerRadius(12)
+        .glassEffect(.regular, in: .rect(cornerRadius: 20))
     }
 }
 
@@ -383,4 +379,11 @@ private struct DayEntry: Identifiable {
     let date: Date
     let studied: Int
     var id: Date { date }
+}
+
+#Preview {
+    NavigationStack {
+        StatsView()
+    }
+    .modelContainer(for: [SRSRecord.self, StudyLog.self, AudioCard.self, AudioAttempt.self], inMemory: true)
 }

@@ -54,6 +54,7 @@ struct AudioDrillView: View {
                 drillBody(item: item)
             }
         }
+        .background(GlassBackdrop().ignoresSafeArea())
         .navigationTitle("Audio Drill (\(min(index + 1, queue.count))/\(queue.count))")
         .navigationBarTitleDisplayMode(.inline)
         .onDisappear {
@@ -155,12 +156,11 @@ struct AudioDrillView: View {
             } label: {
                 Text("Too easy — skip")
                     .font(.system(size: scaled(15), weight: .medium))
+                    .foregroundStyle(Color.accentColor)
                     .padding(.horizontal, 16)
-                    .padding(.vertical, 10)
-                    .background(Color(.secondarySystemBackground))
-                    .foregroundColor(.accentColor)
-                    .cornerRadius(10)
+                    .padding(.vertical, 8)
             }
+            .buttonStyle(.glass)
             .padding(.top, 8)
         }
     }
@@ -217,8 +217,7 @@ struct AudioDrillView: View {
                     scoreBar(score: result.bestScore)
                 }
                 .padding(14)
-                .background(Color(.secondarySystemBackground))
-                .cornerRadius(12)
+                .glassEffect(.regular, in: .rect(cornerRadius: 20))
                 .padding(.horizontal)
 
                 if result.passed {
@@ -275,10 +274,9 @@ struct AudioDrillView: View {
                 Label("Hear it", systemImage: "speaker.wave.2.fill")
                     .font(.system(size: scaled(15), weight: .medium))
                     .frame(maxWidth: .infinity)
-                    .padding(.vertical, 12)
-                    .background(Color(.secondarySystemBackground))
-                    .cornerRadius(10)
+                    .padding(.vertical, 8)
             }
+            .buttonStyle(.glass)
             .padding(.horizontal)
 
             Button {
@@ -287,11 +285,10 @@ struct AudioDrillView: View {
                 Label("Next", systemImage: "arrow.right.circle.fill")
                     .font(.system(size: scaled(18), weight: .semibold))
                     .frame(maxWidth: .infinity)
-                    .padding(.vertical, 14)
-                    .background(Color.green)
-                    .foregroundColor(.white)
-                    .cornerRadius(12)
+                    .padding(.vertical, 8)
             }
+            .buttonStyle(.glassProminent)
+            .tint(.green)
             .padding(.horizontal)
         }
     }
@@ -309,8 +306,7 @@ struct AudioDrillView: View {
         }
         .frame(maxWidth: .infinity, alignment: .leading)
         .padding(14)
-        .background(Color(.secondarySystemBackground))
-        .cornerRadius(12)
+        .glassEffect(.regular, in: .rect(cornerRadius: 20))
         .padding(.horizontal)
     }
 
@@ -326,10 +322,9 @@ struct AudioDrillView: View {
                 Label("Hear it again", systemImage: "speaker.wave.2.fill")
                     .font(.system(size: scaled(15), weight: .medium))
                     .frame(maxWidth: .infinity)
-                    .padding(.vertical, 12)
-                    .background(Color(.secondarySystemBackground))
-                    .cornerRadius(10)
+                    .padding(.vertical, 8)
             }
+            .buttonStyle(.glass)
             .padding(.horizontal)
 
             Button {
@@ -340,11 +335,9 @@ struct AudioDrillView: View {
                 Label("Try again", systemImage: "mic.fill")
                     .font(.system(size: scaled(18), weight: .semibold))
                     .frame(maxWidth: .infinity)
-                    .padding(.vertical, 14)
-                    .background(Color.accentColor)
-                    .foregroundColor(.white)
-                    .cornerRadius(12)
+                    .padding(.vertical, 8)
             }
+            .buttonStyle(.glassProminent)
             .padding(.horizontal)
 
             Button {
@@ -373,11 +366,9 @@ struct AudioDrillView: View {
                 Text("Done")
                     .font(.system(size: scaled(17), weight: .semibold))
                     .frame(maxWidth: .infinity)
-                    .padding(.vertical, 14)
-                    .background(Color.accentColor)
-                    .foregroundColor(.white)
-                    .cornerRadius(12)
+                    .padding(.vertical, 8)
             }
+            .buttonStyle(.glassProminent)
             .padding(.horizontal)
         }
         .padding()

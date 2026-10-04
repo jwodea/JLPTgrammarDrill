@@ -55,6 +55,7 @@ struct PaywallView: View {
                 }
                 .padding(.vertical, 24)
             }
+            .background(GlassBackdrop().ignoresSafeArea())
             .navigationTitle("Unlock Full Version")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
@@ -108,8 +109,7 @@ struct PaywallView: View {
             )
         }
         .padding(16)
-        .background(Color(.secondarySystemBackground))
-        .cornerRadius(14)
+        .glassEffect(.regular, in: .rect(cornerRadius: 20))
         .padding(.horizontal)
     }
 
@@ -149,11 +149,9 @@ struct PaywallView: View {
                         .font(.system(size: scaled(17), weight: .semibold))
                 }
                 .frame(maxWidth: .infinity)
-                .padding(.vertical, 14)
-                .background(Color.accentColor)
-                .foregroundColor(.white)
-                .cornerRadius(12)
+                .padding(.vertical, 8)
             }
+            .buttonStyle(.glassProminent)
             .disabled(isBusy || store.product == nil)
 
             Button {
@@ -167,12 +165,11 @@ struct PaywallView: View {
                     Text("Restore Purchase")
                         .font(.system(size: scaled(15), weight: .medium))
                 }
+                .foregroundStyle(Color.accentColor)
                 .frame(maxWidth: .infinity)
-                .padding(.vertical, 12)
-                .background(Color(.secondarySystemBackground))
-                .foregroundColor(.accentColor)
-                .cornerRadius(12)
+                .padding(.vertical, 8)
             }
+            .buttonStyle(.glass)
             .disabled(isBusy)
         }
         .padding(.horizontal)

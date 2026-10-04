@@ -66,45 +66,42 @@ struct HubView: View {
                         Text("JLPT")
                             .font(.system(size: scaled(14), weight: .bold, design: .monospaced))
                             .tracking(6)
-                            .foregroundColor(.secondary)
+                            .foregroundStyle(.secondary)
 
                         Text("Grammar Drill")
-                            .font(.system(size: scaled(32), weight: .heavy, design: .rounded))
-                            .foregroundStyle(
-                                LinearGradient(
-                                    colors: [.accentColor, .purple],
-                                    startPoint: .leading,
-                                    endPoint: .trailing
-                                )
-                            )
+                            .font(.system(size: scaled(34), weight: .heavy, design: .rounded))
+                            .foregroundStyle(.primary)
                     }
+                    .padding(.top, 8)
 
-                    // Navigation Cards
-                    VStack(spacing: 14) {
-                        NavigationLink(value: HubDestination.grammarDrill) {
-                            HubCard(icon: "pencil.and.outline", title: "Grammar Drill", color: .blue, fontScale: fontScale)
-                        }
+                    // Navigation Cards — glass layer floating over the gradient backdrop
+                    GlassEffectContainer(spacing: 14) {
+                        VStack(spacing: 14) {
+                            NavigationLink(value: HubDestination.grammarDrill) {
+                                HubCard(icon: "checklist", title: "Grammar Drill", color: .blue, fontScale: fontScale)
+                            }
 
-                        NavigationLink(value: HubDestination.particlePractice) {
-                            HubCard(icon: "character.ja", title: "Particle Practice", color: .orange, fontScale: fontScale)
-                        }
+                            NavigationLink(value: HubDestination.particlePractice) {
+                                HubCard(icon: "character.ja", title: "Particle Practice", color: .orange, fontScale: fontScale)
+                            }
 
-                        NavigationLink(value: HubDestination.audioDrill) {
-                            HubCard(icon: "mic.fill", title: "Audio Drill", color: .pink, fontScale: fontScale)
-                        }
+                            NavigationLink(value: HubDestination.audioDrill) {
+                                HubCard(icon: "mic.fill", title: "Audio Drill", color: .pink, fontScale: fontScale)
+                            }
 
-                        NavigationLink(value: HubDestination.grammarList) {
-                            HubCard(icon: "book.fill", title: "Grammar List", color: .green, fontScale: fontScale)
-                        }
+                            NavigationLink(value: HubDestination.grammarList) {
+                                HubCard(icon: "book.fill", title: "Grammar List", color: .green, fontScale: fontScale)
+                            }
 
-                        NavigationLink(value: HubDestination.stats) {
-                            HubCard(icon: "chart.bar.fill", title: "Stats", color: .purple, fontScale: fontScale)
-                        }
+                            NavigationLink(value: HubDestination.stats) {
+                                HubCard(icon: "chart.bar.fill", title: "Stats", color: .purple, fontScale: fontScale)
+                            }
 
-                        Button {
-                            showSettings = true
-                        } label: {
-                            HubCard(icon: "gearshape", title: "Settings", color: .gray, fontScale: fontScale)
+                            Button {
+                                showSettings = true
+                            } label: {
+                                HubCard(icon: "gearshape", title: "Settings", color: .gray, fontScale: fontScale)
+                            }
                         }
                     }
                     .padding(.horizontal)
@@ -114,6 +111,7 @@ struct HubView: View {
                 .frame(maxWidth: .infinity)
             }
         }
+        .background(GlassBackdrop().ignoresSafeArea())
         .navigationBarTitleDisplayMode(.inline)
     }
 }
@@ -133,25 +131,24 @@ private struct HubCard: View {
     var body: some View {
         HStack(spacing: 16) {
             Image(systemName: icon)
-                .font(.system(size: scaled(24)))
-                .foregroundColor(color)
-                .frame(width: 48, height: 48)
-                .background(color.opacity(0.12))
-                .cornerRadius(12)
+                .font(.system(size: scaled(22), weight: .medium))
+                .foregroundStyle(color)
+                .frame(width: 44, height: 44)
 
             Text(title)
                 .font(.system(size: scaled(18), weight: .semibold))
-                .foregroundColor(.primary)
+                .foregroundStyle(.primary)
 
             Spacer()
 
             Image(systemName: "chevron.right")
                 .font(.system(size: scaled(14), weight: .semibold))
-                .foregroundColor(Color(.tertiaryLabel))
+                .foregroundStyle(.tertiary)
         }
-        .padding(16)
-        .background(Color(.secondarySystemBackground))
-        .cornerRadius(14)
+        .padding(.horizontal, 16)
+        .padding(.vertical, 14)
+        .contentShape(Rectangle())
+        .glassEffect(.regular.interactive(), in: .rect(cornerRadius: 22))
     }
 }
 

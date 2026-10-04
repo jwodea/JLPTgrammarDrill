@@ -174,6 +174,7 @@ struct GrammarBrowserView: View {
                 }
                 .listRowBackground(locked ? Color(.systemBackground) : masteryRowTint(for: point.id, recordsById: recordsById))
             }
+            .scrollContentBackground(.hidden)
 
             if isSelecting {
                 VStack(spacing: 0) {
@@ -191,10 +192,9 @@ struct GrammarBrowserView: View {
                             Text(allVisible ? "Deselect All" : "Select All")
                                 .font(.system(size: scaled(15), weight: .medium))
                                 .frame(maxWidth: .infinity)
-                                .padding(.vertical, 12)
-                                .background(Color(.secondarySystemFill))
-                                .clipShape(RoundedRectangle(cornerRadius: 10))
+                                .padding(.vertical, 8)
                         }
+                        .buttonStyle(.glass)
 
                         Button {
                             for id in selectedIds {
@@ -206,11 +206,10 @@ struct GrammarBrowserView: View {
                             Text("Mark \(selectedIds.count) Known")
                                 .font(.system(size: scaled(15), weight: .medium))
                                 .frame(maxWidth: .infinity)
-                                .padding(.vertical, 12)
-                                .background(selectedIds.isEmpty ? Color(.secondarySystemFill) : Color.green.opacity(0.15))
-                                .foregroundColor(selectedIds.isEmpty ? .secondary : .green)
-                                .clipShape(RoundedRectangle(cornerRadius: 10))
+                                .padding(.vertical, 8)
+                                .foregroundStyle(selectedIds.isEmpty ? .secondary : Color.green)
                         }
+                        .buttonStyle(.glass)
                         .disabled(selectedIds.isEmpty)
 
                         Button {
@@ -223,11 +222,10 @@ struct GrammarBrowserView: View {
                             Text("Reset \(selectedIds.count)")
                                 .font(.system(size: scaled(15), weight: .medium))
                                 .frame(maxWidth: .infinity)
-                                .padding(.vertical, 12)
-                                .background(selectedIds.isEmpty ? Color(.secondarySystemFill) : Color.red.opacity(0.12))
-                                .foregroundColor(selectedIds.isEmpty ? .secondary : .red)
-                                .clipShape(RoundedRectangle(cornerRadius: 10))
+                                .padding(.vertical, 8)
+                                .foregroundStyle(selectedIds.isEmpty ? .secondary : Color.red)
                         }
+                        .buttonStyle(.glass)
                         .disabled(selectedIds.isEmpty)
                     }
                     .padding(.horizontal)
@@ -236,6 +234,7 @@ struct GrammarBrowserView: View {
                 }
             }
         }
+        .background(GlassBackdrop().ignoresSafeArea())
         .searchable(text: $searchText, prompt: "Search patterns or meanings")
         .navigationTitle("Grammar List")
         .navigationBarTitleDisplayMode(.inline)
@@ -405,11 +404,10 @@ struct GrammarDetailView: View {
                         Label("Mark as Known", systemImage: "checkmark.seal.fill")
                             .font(.system(size: scaled(15), weight: .medium))
                             .frame(maxWidth: .infinity)
-                            .padding(.vertical, 10)
-                            .background(Color.green.opacity(0.12))
-                            .foregroundColor(.green)
-                            .clipShape(RoundedRectangle(cornerRadius: 10))
+                            .padding(.vertical, 8)
+                            .foregroundStyle(Color.green)
                     }
+                    .buttonStyle(.glass)
 
                     if record != nil {
                         Button {
@@ -419,17 +417,17 @@ struct GrammarDetailView: View {
                             Label("Reset", systemImage: "arrow.counterclockwise")
                                 .font(.system(size: scaled(15), weight: .medium))
                                 .frame(maxWidth: .infinity)
-                                .padding(.vertical, 10)
-                                .background(Color.red.opacity(0.12))
-                                .foregroundColor(.red)
-                                .clipShape(RoundedRectangle(cornerRadius: 10))
+                                .padding(.vertical, 8)
+                                .foregroundStyle(Color.red)
                         }
+                        .buttonStyle(.glass)
                     }
                 }
 
                 Spacer()
             }
             .padding()
+            .background(GlassBackdrop().ignoresSafeArea())
             .navigationTitle("Details")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {

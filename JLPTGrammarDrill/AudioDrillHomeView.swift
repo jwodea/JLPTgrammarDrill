@@ -74,6 +74,7 @@ struct AudioDrillHomeView: View {
             }
             .padding(.bottom, 20)
         }
+        .background(GlassBackdrop().ignoresSafeArea())
         .navigationTitle("Audio Drill")
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {
@@ -112,23 +113,28 @@ struct AudioDrillHomeView: View {
     }
 
     private var levelPicker: some View {
-        HStack(spacing: 8) {
-            ForEach(AudioDrillSettings.allLevels, id: \.self) { level in
-                let isOn = activeLevels.contains(level)
-                Button {
-                    toggleLevel(level)
-                } label: {
-                    Text(level)
-                        .font(.system(size: scaled(14), weight: .semibold, design: .rounded))
-                        .frame(maxWidth: .infinity)
-                        .padding(.vertical, 8)
-                        .background(isOn ? Color.accentColor : Color(.secondarySystemBackground))
-                        .foregroundColor(isOn ? .white : .primary)
-                        .cornerRadius(10)
+        GlassEffectContainer(spacing: 8) {
+            HStack(spacing: 8) {
+                ForEach(AudioDrillSettings.allLevels, id: \.self) { level in
+                    let isOn = activeLevels.contains(level)
+                    Button {
+                        toggleLevel(level)
+                    } label: {
+                        Text(level)
+                            .font(.system(size: scaled(14), weight: .semibold, design: .rounded))
+                            .frame(maxWidth: .infinity)
+                            .padding(.vertical, 8)
+                            .foregroundStyle(isOn ? .white : .primary)
+                            .contentShape(Rectangle())
+                            .glassEffect(
+                                isOn ? .regular.tint(.accentColor).interactive() : .regular.interactive(),
+                                in: .rect(cornerRadius: 12)
+                            )
+                    }
+                    .buttonStyle(.plain)
+                    .accessibilityLabel("JLPT \(level)")
+                    .accessibilityAddTraits(isOn ? .isSelected : [])
                 }
-                .buttonStyle(.plain)
-                .accessibilityLabel("JLPT \(level)")
-                .accessibilityAddTraits(isOn ? .isSelected : [])
             }
         }
     }
@@ -166,8 +172,8 @@ struct AudioDrillHomeView: View {
                     .foregroundColor(Color(.tertiaryLabel))
             }
             .padding(12)
-            .background(Color(.secondarySystemBackground))
-            .cornerRadius(12)
+            .contentShape(Rectangle())
+            .glassEffect(.regular.interactive(), in: .rect(cornerRadius: 20))
         }
         .buttonStyle(.plain)
     }
@@ -218,8 +224,7 @@ struct AudioDrillHomeView: View {
                     label: "New today", value: "\(introduced) / \(dailyNewCardBudget)")
                 .padding(.bottom, 12)
         }
-        .background(Color(.secondarySystemBackground))
-        .cornerRadius(12)
+        .glassEffect(.regular, in: .rect(cornerRadius: 20))
         .padding(.horizontal)
     }
 
@@ -248,23 +253,20 @@ struct AudioDrillHomeView: View {
                 Text("Start drill")
                     .font(.system(size: scaled(18), weight: .semibold))
                     .frame(maxWidth: .infinity)
-                    .padding(.vertical, 14)
-                    .background(Color.accentColor)
-                    .foregroundColor(.white)
-                    .cornerRadius(12)
+                    .padding(.vertical, 8)
             }
+            .buttonStyle(.glassProminent)
 
             Button {
                 startExtraDrill(count: 5)
             } label: {
                 Label("Drill 5 more new sentences", systemImage: "plus.circle")
                     .font(.system(size: scaled(15), weight: .medium))
+                    .foregroundStyle(Color.accentColor)
                     .frame(maxWidth: .infinity)
-                    .padding(.vertical, 12)
-                    .background(Color(.secondarySystemBackground))
-                    .foregroundColor(.accentColor)
-                    .cornerRadius(12)
+                    .padding(.vertical, 8)
             }
+            .buttonStyle(.glass)
         }
         .padding(.horizontal)
         .padding(.top, 4)
@@ -277,11 +279,13 @@ struct AudioDrillHomeView: View {
             } label: {
                 secondaryLabel("Review history", systemImage: "clock.arrow.circlepath")
             }
+            .buttonStyle(.glass)
             Button {
                 navigateToBrowser = true
             } label: {
                 secondaryLabel("Browse sentences", systemImage: "book")
             }
+            .buttonStyle(.glass)
         }
         .padding(.horizontal)
     }
@@ -296,10 +300,9 @@ struct AudioDrillHomeView: View {
                 .font(.system(size: scaled(12), weight: .semibold))
                 .foregroundColor(Color(.tertiaryLabel))
         }
-        .padding(14)
-        .background(Color(.secondarySystemBackground))
-        .foregroundColor(.accentColor)
-        .cornerRadius(12)
+        .padding(.horizontal, 14)
+        .padding(.vertical, 8)
+        .foregroundStyle(Color.accentColor)
     }
 
     // MARK: - Actions

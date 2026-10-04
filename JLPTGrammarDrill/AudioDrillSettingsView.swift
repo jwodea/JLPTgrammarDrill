@@ -127,6 +127,8 @@ struct AudioDrillSettingsView: View {
                 }
             } header: { Text("Danger zone") }
         }
+        .scrollContentBackground(.hidden)
+        .background(GlassBackdrop().ignoresSafeArea())
         .navigationTitle("Audio Settings")
         .navigationBarTitleDisplayMode(.inline)
         .onAppear {
@@ -184,12 +186,10 @@ private struct MicrophoneTestView: View {
                     Label("Record 3 seconds", systemImage: "mic.fill")
                         .font(.system(size: 17, weight: .semibold))
                         .frame(maxWidth: .infinity)
-                        .padding(.vertical, 14)
-                        .background(Color.accentColor)
-                        .foregroundColor(.white)
-                        .cornerRadius(12)
-                        .padding(.horizontal)
+                        .padding(.vertical, 8)
                 }
+                .buttonStyle(.glassProminent)
+                .padding(.horizontal)
             case .recording:
                 VStack(spacing: 8) {
                     ProgressView()
@@ -202,8 +202,7 @@ private struct MicrophoneTestView: View {
                         .font(.system(size: 16, design: .monospaced))
                         .padding(12)
                         .frame(maxWidth: .infinity, alignment: .leading)
-                        .background(Color(.secondarySystemBackground))
-                        .cornerRadius(10)
+                        .glassEffect(.regular, in: .rect(cornerRadius: 20))
                 }
                 .padding(.horizontal)
                 Button("Test again") {
@@ -215,6 +214,7 @@ private struct MicrophoneTestView: View {
             Spacer()
         }
         .padding(.top, 32)
+        .background(GlassBackdrop().ignoresSafeArea())
         .navigationTitle("Mic Test")
         .navigationBarTitleDisplayMode(.inline)
         .onDisappear {

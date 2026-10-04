@@ -258,8 +258,7 @@ struct HomeView: View {
                     }
                     .padding(.bottom, 10)
                 }
-                .background(Color(.secondarySystemBackground))
-                .cornerRadius(12)
+                .glassEffect(.regular, in: .rect(cornerRadius: 20))
                 .padding(.horizontal)
 
                 // Today's Session Card
@@ -311,8 +310,7 @@ struct HomeView: View {
                     .padding(.top, 8)
                     .padding(.bottom, 14)
                 }
-                .background(Color(.secondarySystemBackground))
-                .cornerRadius(12)
+                .glassEffect(.regular, in: .rect(cornerRadius: 20))
                 .padding(.horizontal)
 
                 // Session Buttons
@@ -328,11 +326,9 @@ struct HomeView: View {
                         Text("New and Review")
                             .font(.system(size: scaled(18), weight: .semibold))
                             .frame(maxWidth: .infinity)
-                            .padding(.vertical, 14)
-                            .background(Color.accentColor)
-                            .foregroundColor(.white)
-                            .cornerRadius(12)
+                            .padding(.vertical, 8)
                     }
+                    .buttonStyle(.glassProminent)
                     .disabled(isLoading)
 
                     Button {
@@ -340,16 +336,11 @@ struct HomeView: View {
                     } label: {
                         Text("Review Only")
                             .font(.system(size: scaled(18), weight: .semibold))
+                            .foregroundStyle(Color.accentColor)
                             .frame(maxWidth: .infinity)
-                            .padding(.vertical, 14)
-                            .background(Color(.secondarySystemBackground))
-                            .foregroundColor(.accentColor)
-                            .cornerRadius(12)
-                            .overlay(
-                                RoundedRectangle(cornerRadius: 12)
-                                    .stroke(Color.accentColor, lineWidth: 1.5)
-                            )
+                            .padding(.vertical, 8)
                     }
+                    .buttonStyle(.glass)
                     .disabled(isLoading)
                 }
                 .padding(.horizontal)
@@ -357,6 +348,7 @@ struct HomeView: View {
             }
             .padding(.bottom, 20)
         }
+        .background(GlassBackdrop().ignoresSafeArea())
         .navigationTitle("Grammar Drill")
         .navigationBarTitleDisplayMode(.inline)
         .alert("All caught up!", isPresented: $showAllCaughtUp) {
@@ -409,23 +401,28 @@ struct HomeView: View {
     }
 
     private var levelPicker: some View {
-        HStack(spacing: 8) {
-            ForEach(Self.allLevels, id: \.self) { level in
-                let isOn = enabledLevelsSet.contains(level)
-                Button {
-                    toggleLevel(level)
-                } label: {
-                    Text(level)
-                        .font(.system(size: scaled(14), weight: .semibold, design: .rounded))
-                        .frame(maxWidth: .infinity)
-                        .padding(.vertical, 8)
-                        .background(isOn ? Color.accentColor : Color(.secondarySystemBackground))
-                        .foregroundColor(isOn ? .white : .primary)
-                        .cornerRadius(10)
+        GlassEffectContainer(spacing: 8) {
+            HStack(spacing: 8) {
+                ForEach(Self.allLevels, id: \.self) { level in
+                    let isOn = enabledLevelsSet.contains(level)
+                    Button {
+                        toggleLevel(level)
+                    } label: {
+                        Text(level)
+                            .font(.system(size: scaled(14), weight: .semibold, design: .rounded))
+                            .frame(maxWidth: .infinity)
+                            .padding(.vertical, 8)
+                            .foregroundStyle(isOn ? .white : .primary)
+                            .contentShape(Rectangle())
+                            .glassEffect(
+                                isOn ? .regular.tint(.accentColor).interactive() : .regular.interactive(),
+                                in: .rect(cornerRadius: 12)
+                            )
+                    }
+                    .buttonStyle(.plain)
+                    .accessibilityLabel("JLPT \(level)")
+                    .accessibilityAddTraits(isOn ? .isSelected : [])
                 }
-                .buttonStyle(.plain)
-                .accessibilityLabel("JLPT \(level)")
-                .accessibilityAddTraits(isOn ? .isSelected : [])
             }
         }
     }
@@ -463,8 +460,8 @@ struct HomeView: View {
                     .foregroundColor(Color(.tertiaryLabel))
             }
             .padding(12)
-            .background(Color(.secondarySystemBackground))
-            .cornerRadius(12)
+            .contentShape(Rectangle())
+            .glassEffect(.regular.interactive(), in: .rect(cornerRadius: 20))
         }
         .buttonStyle(.plain)
     }
@@ -522,4 +519,12 @@ struct HomeView: View {
             }
         }
     }
+}
+
+#Preview {
+    NavigationStack {
+        HomeView()
+    }
+    .modelContainer(for: [SRSRecord.self, StudyLog.self], inMemory: true)
+    .environment(StoreManager())
 }

@@ -147,7 +147,7 @@ struct ExerciseView: View {
 
     var body: some View {
         ZStack {
-            Color(.systemBackground).ignoresSafeArea()
+            GlassBackdrop().ignoresSafeArea()
 
             if let item = currentItem {
                 ScrollViewReader { proxy in
@@ -258,26 +258,25 @@ struct ExerciseView: View {
         Spacer(minLength: 30)
 
         // Answer buttons (2x2 grid)
-        LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 12) {
-            ForEach(shuffledChoices, id: \.self) { choice in
-                Button {
-                    guard selectedAnswer == nil else { return }
-                    handleAnswer(choice, for: item)
-                } label: {
-                    Text(choice)
-                        .font(.system(size: scaled(17)))
-                        .frame(maxWidth: .infinity)
-                        .padding(.vertical, 14)
-                        .background(buttonBackground(for: choice))
-                        .foregroundColor(buttonForeground(for: choice))
-                        .cornerRadius(10)
-                        .overlay(
-                            RoundedRectangle(cornerRadius: 10)
-                                .stroke(buttonBorder(for: choice), lineWidth: 1.5)
-                        )
+        GlassEffectContainer(spacing: 12) {
+            LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 12) {
+                ForEach(shuffledChoices, id: \.self) { choice in
+                    Button {
+                        guard selectedAnswer == nil else { return }
+                        handleAnswer(choice, for: item)
+                    } label: {
+                        Text(choice)
+                            .font(.system(size: scaled(17)))
+                            .frame(maxWidth: .infinity)
+                            .padding(.vertical, 14)
+                            .foregroundStyle(buttonForeground(for: choice))
+                            .contentShape(Rectangle())
+                            .glassEffect(buttonGlass(for: choice), in: .rect(cornerRadius: 14))
+                    }
+                    .buttonStyle(.plain)
+                    .disabled(selectedAnswer != nil)
+                    .animation(.easeInOut(duration: 0.2), value: selectedAnswer)
                 }
-                .disabled(selectedAnswer != nil)
-                .animation(.easeInOut(duration: 0.2), value: selectedAnswer)
             }
         }
         .padding(.horizontal)
@@ -345,16 +344,13 @@ struct ExerciseView: View {
                     Text(isSessionComplete ? "All Done" : "Next")
                         .font(.system(size: scaled(17), weight: .semibold))
                         .frame(maxWidth: .infinity)
-                        .padding(.vertical, 12)
-                        .background(Color.accentColor)
-                        .foregroundColor(.white)
-                        .cornerRadius(10)
+                        .padding(.vertical, 6)
                 }
+                .buttonStyle(.glassProminent)
                 .padding(.top, 4)
             }
             .padding()
-            .background(Color(.secondarySystemBackground))
-            .cornerRadius(16)
+            .glassEffect(.regular, in: .rect(cornerRadius: 20))
             .padding(.horizontal)
             .transition(.move(edge: .bottom))
             .id("explanation")
@@ -531,17 +527,19 @@ struct ExerciseView: View {
 
     // MARK: - Button Styling
 
-    private func buttonBackground(for choice: String) -> Color {
+    /// Glass variant per answer state: neutral interactive glass before answering,
+    /// green-tinted for the correct answer and red-tinted for a wrong selection after.
+    private func buttonGlass(for choice: String) -> Glass {
         guard let selected = selectedAnswer, let item = currentItem else {
-            return Color(.secondarySystemBackground)
+            return .regular.interactive()
         }
         if choice == item.blankTarget {
-            return Color.green.opacity(0.2)
+            return .regular.tint(.green.opacity(0.45))
         }
         if choice == selected && selected != item.blankTarget {
-            return Color.red.opacity(0.2)
+            return .regular.tint(.red.opacity(0.45))
         }
-        return Color(.secondarySystemBackground)
+        return .regular
     }
 
     private func buttonForeground(for choice: String) -> Color {
@@ -555,19 +553,6 @@ struct ExerciseView: View {
             return Color.red
         }
         return Color.primary
-    }
-
-    private func buttonBorder(for choice: String) -> Color {
-        guard let selected = selectedAnswer, let item = currentItem else {
-            return Color.secondary.opacity(0.3)
-        }
-        if choice == item.blankTarget {
-            return Color.green
-        }
-        if choice == selected && selected != item.blankTarget {
-            return Color.red
-        }
-        return Color.secondary.opacity(0.3)
     }
 
     // MARK: - Streak & SRS
@@ -744,19 +729,16 @@ private struct PatternIntroCard: View {
             }
             .frame(maxWidth: .infinity, alignment: .leading)
             .padding()
-            .background(Color(.secondarySystemBackground))
-            .cornerRadius(16)
+            .glassEffect(.regular, in: .rect(cornerRadius: 20))
             .padding(.horizontal)
 
             Button(action: onContinue) {
                 Text("Got It — Start Practicing")
                     .font(.system(size: scaled(17), weight: .semibold))
                     .frame(maxWidth: .infinity)
-                    .padding(.vertical, 14)
-                    .background(Color.accentColor)
-                    .foregroundColor(.white)
-                    .cornerRadius(12)
+                    .padding(.vertical, 8)
             }
+            .buttonStyle(.glassProminent)
             .padding(.horizontal)
         }
     }
@@ -1017,4 +999,27 @@ private struct SelectableText: UIViewRepresentable {
         let fittingSize = uiView.sizeThatFits(CGSize(width: width, height: .greatestFiniteMagnitude))
         return CGSize(width: width, height: fittingSize.height)
     }
+}
+
+#Preview {
+    NavigationStack {
+        ExerciseView(
+            sessionItems: [
+                SessionExercise(
+                    id: "n4_001_1",
+                    grammarId: "n4_001",
+                    pattern: "〜そうだ",
+                    meaning: "looks like; appears that",
+                    level: "N4",
+                    exampleSentence: "雨が降りそうだ。",
+                    translation: "It looks like it's going to rain.",
+                    blankTarget: "そうだ",
+                    wrongChoices: ["ようだ", "らしい", "みたいだ"],
+                    wrongChoiceExplanations: []
+                )
+            ],
+            exercisePool: [:]
+        )
+    }
+    .modelContainer(for: [SRSRecord.self, StudyLog.self], inMemory: true)
 }

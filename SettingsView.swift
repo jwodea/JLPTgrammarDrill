@@ -140,10 +140,8 @@ struct SettingsView: View {
                                 Image(systemName: "textformat.size.smaller")
                                     .font(.system(size: 18))
                                     .frame(width: 44, height: 44)
-                                    .background(Color(.secondarySystemBackground))
-                                    .cornerRadius(8)
                             }
-                            .buttonStyle(.borderless)
+                            .buttonStyle(.glass)
                             .disabled(fontScale <= FontSizeManager.minScale + 0.01)
 
                             Slider(
@@ -162,10 +160,8 @@ struct SettingsView: View {
                                 Image(systemName: "textformat.size.larger")
                                     .font(.system(size: 18))
                                     .frame(width: 44, height: 44)
-                                    .background(Color(.secondarySystemBackground))
-                                    .cornerRadius(8)
                             }
-                            .buttonStyle(.borderless)
+                            .buttonStyle(.glass)
                             .disabled(fontScale >= FontSizeManager.maxScale - 0.01)
                         }
 
@@ -223,6 +219,8 @@ struct SettingsView: View {
                     Text("This will erase all SRS data, streak, and study history. Grammar patterns will return to \"New\" status.")
                 }
             }
+            .scrollContentBackground(.hidden)
+            .background(GlassBackdrop().ignoresSafeArea())
             .navigationTitle("Settings")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
@@ -365,6 +363,7 @@ private struct HowItWorksView: View {
             .padding()
             .frame(maxWidth: .infinity, alignment: .leading)
         }
+        .background(GlassBackdrop().ignoresSafeArea())
         .navigationTitle("How it works")
         .navigationBarTitleDisplayMode(.inline)
     }
@@ -483,7 +482,14 @@ private struct HowReviewsWorkView: View {
             .padding()
             .frame(maxWidth: .infinity, alignment: .leading)
         }
+        .background(GlassBackdrop().ignoresSafeArea())
         .navigationTitle("Review schedule")
         .navigationBarTitleDisplayMode(.inline)
     }
+}
+
+#Preview {
+    SettingsView()
+        .modelContainer(for: [SRSRecord.self, StudyLog.self], inMemory: true)
+        .environment(StoreManager())
 }
