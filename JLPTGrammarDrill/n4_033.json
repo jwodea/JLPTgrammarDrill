@@ -31,7 +31,8 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "よてい"
+      "blank_target_reading": "よてい",
+      "register": "neutral"
     },
     {
       "id": "n4_033_2",
@@ -40,12 +41,12 @@
       "blank_target": "予定",
       "wrong_choices": [
         "つもり",
-        "こと",
+        "よう",
         "はず"
       ],
       "wrong_choice_explanations": [
         "つもり means 'intend to' for personal intentions — it doesn't fit here because meetings don't have intentions, and we're stating an official schedule.",
-        "ことになっている means 'it has been arranged / it is the rule that ...' and is used for established arrangements, rules, and group customs; for a specific meeting starting at 3 o'clock, 予定になっている is the natural choice because it points directly at the time slot on the calendar.",
+        "ようになっている describes a system or setup that has come to work a certain way, not a specific appointment; for a meeting fixed at 3 o'clock, 予定になっている points at the scheduled time slot.",
         "はず means 'should be/expected' based on reasoning — it doesn't fit here because we're stating a definite schedule, not an expectation."
       ],
       "hiragana_full": "かいぎはさんじからはじまるよていになっている",
@@ -60,7 +61,8 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "よてい"
+      "blank_target_reading": "よてい",
+      "register": "casual"
     },
     {
       "id": "n4_033_3",
@@ -89,7 +91,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "よてい"
+      "blank_target_reading": "よてい",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "出発",
+          "reading": "しゅっぱつ",
+          "meaning": "departure"
+        }
+      ]
     },
     {
       "id": "n4_033_4",
@@ -118,7 +128,8 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "よてい"
+      "blank_target_reading": "よてい",
+      "register": "casual"
     },
     {
       "id": "n4_033_5",
@@ -147,7 +158,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "よてい"
+      "blank_target_reading": "よてい",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "公開",
+          "reading": "こうかい",
+          "meaning": "release (to the public)"
+        }
+      ]
     },
     {
       "id": "n4_033_6",
@@ -176,7 +195,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "よてい"
+      "blank_target_reading": "よてい",
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "工事",
+          "reading": "こうじ",
+          "meaning": "construction"
+        },
+        {
+          "word": "完成",
+          "reading": "かんせい",
+          "meaning": "completion"
+        }
+      ]
     },
     {
       "id": "n4_033_7",
@@ -184,12 +216,12 @@
       "translation": "He is scheduled to get married next month.",
       "blank_target": "予定",
       "wrong_choices": [
-        "つもり",
+        "ところ",
         "らしい",
         "ようだ"
       ],
       "wrong_choice_explanations": [
-        "つもり frames the act as the subject's personal intention ('he means to / plans to'); 予定 frames it as a confirmed appointment on the calendar. For a wedding with a set date and arrangements already in place, 予定 is the natural choice — つもり would suggest the date is not yet locked in.",
+        "ところ (as 〜ところです) means 'about to / on the verge of' — 結婚するところです would say the wedding is happening any moment now, but the event is set for next month, which 予定 marks as a scheduled date.",
         "らしい means 'seems like/apparently' based on hearsay — it doesn't fit here because we're stating definite schedule information, not reporting rumors.",
         "ようだ means 'seems like' based on observation — it doesn't fit here because we're giving definite information about his wedding plans, not making observations."
       ],
@@ -205,7 +237,8 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "よてい"
+      "blank_target_reading": "よてい",
+      "register": "neutral"
     },
     {
       "id": "n4_033_8",
@@ -234,7 +267,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "よてい"
+      "blank_target_reading": "よてい",
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "開業",
+          "reading": "かいぎょう",
+          "meaning": "opening (for business)"
+        }
+      ]
     },
     {
       "id": "n4_033_9",
@@ -263,7 +304,25 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "よてい"
+      "blank_target_reading": "よてい",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "台風",
+          "reading": "たいふう",
+          "meaning": "typhoon"
+        },
+        {
+          "word": "影響",
+          "reading": "えいきょう",
+          "meaning": "influence"
+        },
+        {
+          "word": "中止",
+          "reading": "ちゅうし",
+          "meaning": "cancellation"
+        }
+      ]
     },
     {
       "id": "n4_033_10",
@@ -292,7 +351,8 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "よてい"
+      "blank_target_reading": "よてい",
+      "register": "casual"
     }
   ]
 }

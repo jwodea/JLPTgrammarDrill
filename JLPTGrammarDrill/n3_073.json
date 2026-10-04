@@ -31,7 +31,8 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "でかけたきり"
+      "blank_target_reading": "でかけたきり",
+      "register": "neutral"
     },
     {
       "id": "n3_073_2",
@@ -60,7 +61,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "あったきり"
+      "blank_target_reading": "あったきり",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "祖母",
+          "reading": "そぼ",
+          "meaning": "grandmother"
+        }
+      ]
     },
     {
       "id": "n3_073_3",
@@ -89,7 +98,8 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ふたりきり"
+      "blank_target_reading": "ふたりきり",
+      "register": "neutral"
     },
     {
       "id": "n3_073_4",
@@ -118,7 +128,8 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "おこったきり"
+      "blank_target_reading": "おこったきり",
+      "register": "neutral"
     },
     {
       "id": "n3_073_5",
@@ -147,7 +158,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "よんだきり"
+      "blank_target_reading": "よんだきり",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "本棚",
+          "reading": "ほんだな",
+          "meaning": "bookshelf"
+        }
+      ]
     },
     {
       "id": "n3_073_6",
@@ -176,7 +195,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ねたきり"
+      "blank_target_reading": "ねたきり",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "祖父",
+          "reading": "そふ",
+          "meaning": "grandfather"
+        },
+        {
+          "word": "介護",
+          "reading": "かいご",
+          "meaning": "nursing care"
+        }
+      ]
     },
     {
       "id": "n3_073_7",
@@ -205,7 +237,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "わかれたきり"
+      "blank_target_reading": "わかれたきり",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "連絡",
+          "reading": "れんらく",
+          "meaning": "contact"
+        }
+      ]
     },
     {
       "id": "n3_073_8",
@@ -233,7 +273,8 @@
           "hiragana_full": "これをさいごに、かれとはあわないときめた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n3_073_9",
@@ -262,7 +303,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ひとりきり"
+      "blank_target_reading": "ひとりきり",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "両親",
+          "reading": "りょうしん",
+          "meaning": "parents"
+        }
+      ]
     },
     {
       "id": "n3_073_10",
@@ -291,7 +340,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "たったきり"
+      "blank_target_reading": "たったきり",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "会議室",
+          "reading": "かいぎしつ",
+          "meaning": "meeting room"
+        }
+      ]
     }
   ]
 }

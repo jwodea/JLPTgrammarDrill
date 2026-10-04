@@ -6,170 +6,196 @@
   "exercises": [
     {
       "id": "n5_050_1",
-      "example_sentence": "映画を見に行きました。",
-      "translation": "I went to see a movie.",
-      "blank_target": "に",
+      "example_sentence": "日曜日に、友達と映画を見に行きました。",
+      "translation": "On Sunday I went to see a movie with a friend.",
+      "blank_target": "見に行きました",
       "wrong_choices": [
-        "を",
-        "で",
-        "から"
+        "見るに行きました",
+        "見てに行きました",
+        "見に行くました"
       ],
       "wrong_choice_explanations": [
-        "を marks direct objects — it doesn't connect the purpose of going with the verb 行く.",
-        "で indicates location or means — it doesn't express the purpose of going to do something.",
-        "から means 'from' or 'because' — it doesn't indicate the purpose of going."
+        "Purpose に attaches to the masu-stem 見, not the dictionary form 見る.",
+        "The te-form 見て cannot be followed by に; use the stem: 見に行く.",
+        "ました attaches to the stem 行き (行きました), not to 行く."
       ],
-      "hiragana_full": "えいがをみにいきました。",
+      "hiragana_full": "にちようびに、ともだちとえいがをみにいきました。",
       "audio_alternatives": [
         {
-          "kanji": "映画を見に行った。",
-          "hiragana_full": "えいがをみにいった。"
+          "kanji": "日曜日に、友達と映画を見に行った。",
+          "hiragana_full": "にちようびに、ともだちとえいがをみにいった。"
         },
         {
-          "kanji": "映画を観に行きました。",
-          "hiragana_full": "えいがをみにいきました。"
+          "kanji": "日曜日、友達と映画を観に行きました。",
+          "hiragana_full": "にちようび、ともだちとえいがをみにいきました。"
         }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
+        {
+          "word": "日曜日",
+          "reading": "にちようび",
+          "meaning": "Sunday"
+        },
         {
           "word": "映画",
           "reading": "えいが",
           "meaning": "movie"
         }
-      ]
+      ],
+      "blank_target_reading": "みにいきました"
     },
     {
       "id": "n5_050_2",
-      "example_sentence": "友だちが遊びに来ました。",
-      "translation": "My friend came to play.",
-      "blank_target": "に",
+      "example_sentence": "昨日、友達が私の家へ遊びに来ました。",
+      "translation": "Yesterday a friend came to my house to hang out.",
+      "blank_target": "遊びに来ました",
       "wrong_choices": [
-        "を",
-        "と",
-        "で"
+        "遊ぶに来ました",
+        "遊びに来ます",
+        "遊んでに来ました"
       ],
       "wrong_choice_explanations": [
-        "を marks direct objects — it doesn't express the purpose of coming.",
-        "と means 'with' or 'and' — it doesn't indicate the purpose of the friend's visit.",
-        "で indicates location or means — it doesn't express the purpose of coming to do something."
+        "Purpose に attaches to the masu-stem 遊び, not the dictionary form 遊ぶ.",
+        "来ます is non-past, but 昨日 ('yesterday') requires the past 来ました.",
+        "The te-form 遊んで cannot be followed by に."
       ],
-      "hiragana_full": "ともだちがあそびにきました。",
+      "hiragana_full": "きのう、ともだちがわたしのいえへあそびにきました。",
       "audio_alternatives": [
         {
-          "kanji": "友だちが遊びに来た。",
-          "hiragana_full": "ともだちがあそびにきた。"
+          "kanji": "昨日、友達がうちへ遊びに来た。",
+          "hiragana_full": "きのう、ともだちがうちへあそびにきた。"
         },
         {
-          "kanji": "友人が遊びに来ました。",
-          "hiragana_full": "ゆうじんがあそびにきました。"
+          "kanji": "昨日、友達が私の家に遊びに来ました。",
+          "hiragana_full": "きのう、ともだちがわたしのいえにあそびにきました。"
         }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
         {
-          "word": "友だち",
-          "reading": "ともだち",
-          "meaning": "friend"
+          "word": "昨日",
+          "reading": "きのう",
+          "meaning": "yesterday"
+        },
+        {
+          "word": "家",
+          "reading": "いえ",
+          "meaning": "house"
         }
-      ]
+      ],
+      "blank_target_reading": "あそびにきました"
     },
     {
       "id": "n5_050_3",
-      "example_sentence": "コンサートを聞きに行きます。",
-      "translation": "I'm going to listen to a concert.",
-      "blank_target": "に",
+      "example_sentence": "明日、姉とコンサートを聞きに行きます。",
+      "translation": "Tomorrow I'm going to a concert with my older sister.",
+      "blank_target": "聞きに行きます",
       "wrong_choices": [
-        "を",
-        "で",
-        "と"
+        "聞くに行きます",
+        "聞きに行きました",
+        "聞きを行きます"
       ],
       "wrong_choice_explanations": [
-        "を is already used with コンサートを — it doesn't connect purpose with going.",
-        "で indicates location or means — it doesn't express the purpose of going.",
-        "と means 'with' or 'and' — it doesn't indicate the purpose of going to do something."
+        "Purpose に attaches to the masu-stem 聞き, not the dictionary form 聞く.",
+        "行きました is past, but 明日 ('tomorrow') requires non-past.",
+        "を cannot mark the purpose of going; the pattern is stem＋に行く."
       ],
-      "hiragana_full": "こんさーとをききにいきます。",
+      "hiragana_full": "あした、あねとこんさーとをききにいきます。",
       "audio_alternatives": [
         {
-          "kanji": "コンサートを聞きに行く。",
-          "hiragana_full": "こんさーとをききにいく。"
+          "kanji": "明日、姉とコンサートを聞きに行く。",
+          "hiragana_full": "あした、あねとこんさーとをききにいく。"
         },
         {
-          "kanji": "コンサートを聴きに行きます。",
-          "hiragana_full": "こんさーとをききにいきます。"
-        }
-      ],
-      "audio_eligible": true,
-      "register": "neutral"
-    },
-    {
-      "id": "n5_050_4",
-      "example_sentence": "買い物に行ってきます。",
-      "translation": "I'm going shopping (and coming back).",
-      "blank_target": "に",
-      "wrong_choices": [
-        "を",
-        "で",
-        "へ"
-      ],
-      "wrong_choice_explanations": [
-        "を marks direct objects — it doesn't express the purpose of going.",
-        "で indicates location or means — it doesn't connect the purpose with the movement verb.",
-        "へ indicates direction — but it doesn't express going for the purpose of doing something."
-      ],
-      "hiragana_full": "かいものにいってきます。",
-      "audio_alternatives": [
-        {
-          "kanji": "買い物に行ってまいります。",
-          "hiragana_full": "かいものにいってまいります。"
-        },
-        {
-          "kanji": "ショッピングに行ってきます。",
-          "hiragana_full": "ショッピングにいってきます。"
+          "kanji": "明日、姉とコンサートを聴きに行きます。",
+          "hiragana_full": "あした、あねとこんさーとをききにいきます。"
         }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
+        {
+          "word": "明日",
+          "reading": "あした",
+          "meaning": "tomorrow"
+        },
+        {
+          "word": "姉",
+          "reading": "あね",
+          "meaning": "(my) older sister"
+        }
+      ],
+      "blank_target_reading": "ききにいきます"
+    },
+    {
+      "id": "n5_050_4",
+      "example_sentence": "先週、母とデパートへ買い物に行きました。",
+      "translation": "Last week I went shopping at a department store with my mother.",
+      "blank_target": "買い物に行きました",
+      "wrong_choices": [
+        "買い物を行きました",
+        "買い物に行きます",
+        "買い物するに行きました"
+      ],
+      "wrong_choice_explanations": [
+        "を cannot mark the purpose of going; an activity noun takes に: 買い物に行く.",
+        "行きます is non-past, but 先週 ('last week') requires the past.",
+        "With a する-verb use the noun or the stem (買い物に / 買い物しに); the dictionary form する cannot come before に."
+      ],
+      "hiragana_full": "せんしゅう、ははとでぱーとへかいものにいきました。",
+      "audio_alternatives": [
+        {
+          "kanji": "先週、母とデパートへ買い物に行った。",
+          "hiragana_full": "せんしゅう、ははとでぱーとへかいものにいった。"
+        },
+        {
+          "kanji": "先週、母とデパートに買い物をしに行きました。",
+          "hiragana_full": "せんしゅう、ははとでぱーとにかいものをしにいきました。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "先週",
+          "reading": "せんしゅう",
+          "meaning": "last week"
+        },
         {
           "word": "買い物",
           "reading": "かいもの",
           "meaning": "shopping"
-        },
-        {
-          "word": "行ってきます",
-          "reading": "いってきます",
-          "meaning": "go and come back"
         }
-      ]
+      ],
+      "blank_target_reading": "かいものにいきました"
     },
     {
       "id": "n5_050_5",
-      "example_sentence": "祖母が料理を作りに来てくれました。",
-      "translation": "My grandmother came to cook for us.",
-      "blank_target": "に",
+      "example_sentence": "日曜日に、祖母が料理を作りに来ました。",
+      "translation": "On Sunday my grandmother came over to cook for us.",
+      "blank_target": "作りに来ました",
       "wrong_choices": [
-        "を",
-        "が",
-        "と"
+        "作るに来ました",
+        "作ってに来ました",
+        "作りに来るました"
       ],
       "wrong_choice_explanations": [
-        "を is already used with 料理を — it doesn't express the purpose of coming.",
-        "が marks the subject — 祖母が is already using が, and it doesn't indicate purpose.",
-        "と means 'with' — it doesn't indicate the purpose of the grandmother's visit."
+        "Purpose に attaches to the masu-stem 作り, not the dictionary form 作る.",
+        "The te-form 作って cannot be followed by に.",
+        "ました attaches to the stem 来 (きました), not to 来る."
       ],
-      "hiragana_full": "そぼがりょうりをつくりにきてくれました。",
+      "hiragana_full": "にちようびに、そぼがりょうりをつくりにきました。",
       "audio_alternatives": [
         {
-          "kanji": "祖母が料理を作りに来てくれた。",
-          "hiragana_full": "そぼがりょうりをつくりにきてくれた。"
+          "kanji": "日曜日に、祖母が料理を作りに来た。",
+          "hiragana_full": "にちようびに、そぼがりょうりをつくりにきた。"
         },
         {
-          "kanji": "おばあさんが料理を作りに来てくれました。",
-          "hiragana_full": "おばあさんがりょうりをつくりにきてくれました。"
+          "kanji": "日曜日に、おばあさんが料理を作りに来ました。",
+          "hiragana_full": "にちようびに、おばあさんがりょうりをつくりにきました。"
         }
       ],
       "audio_eligible": true,
@@ -178,75 +204,82 @@
         {
           "word": "祖母",
           "reading": "そぼ",
-          "meaning": "grandmother"
+          "meaning": "(my) grandmother"
         },
         {
-          "word": "来てくれました",
-          "reading": "きてくれました",
-          "meaning": "came (for my benefit)"
+          "word": "料理",
+          "reading": "りょうり",
+          "meaning": "cooking, a dish"
         }
-      ]
+      ],
+      "blank_target_reading": "つくりにきました"
     },
     {
       "id": "n5_050_6",
-      "example_sentence": "海で泳ぎに行きませんか。",
-      "translation": "Won't you go swimming in the ocean?",
-      "blank_target": "に",
+      "example_sentence": "夏休みに、いっしょに海へ泳ぎに行きませんか。",
+      "translation": "Would you like to go swimming in the sea together during the summer vacation?",
+      "blank_target": "泳ぎに行きませんか",
       "wrong_choices": [
-        "を",
-        "で",
-        "へ"
+        "泳ぐに行きませんか",
+        "泳いでに行きませんか",
+        "泳ぎを行きませんか"
       ],
       "wrong_choice_explanations": [
-        "を marks direct objects — it doesn't connect the purpose of going with the verb.",
-        "で is already used for location (海で) — it doesn't express purpose of going.",
-        "へ indicates direction — but it doesn't express going for the purpose of doing something."
+        "Purpose に attaches to the masu-stem 泳ぎ, not the dictionary form 泳ぐ.",
+        "The te-form 泳いで cannot be followed by に.",
+        "を cannot mark the purpose of going; the pattern is stem＋に行く."
       ],
-      "hiragana_full": "うみでおよぎにいきませんか。",
+      "hiragana_full": "なつやすみに、いっしょにうみへおよぎにいきませんか。",
       "audio_alternatives": [
         {
-          "kanji": "海で泳ぎに行きましょうか。",
-          "hiragana_full": "うみでおよぎにいきましょうか。"
+          "kanji": "夏休みに、いっしょに海へ泳ぎに行かない？",
+          "hiragana_full": "なつやすみに、いっしょにうみへおよぎにいかない？"
         },
         {
-          "kanji": "海へ泳ぎに行きませんか。",
-          "hiragana_full": "うみへおよぎにいきませんか。"
+          "kanji": "夏休みに、いっしょに海に泳ぎに行きましょう。",
+          "hiragana_full": "なつやすみに、いっしょにうみにおよぎにいきましょう。"
         }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
         {
+          "word": "夏休み",
+          "reading": "なつやすみ",
+          "meaning": "summer vacation"
+        },
+        {
           "word": "海",
           "reading": "うみ",
-          "meaning": "ocean"
+          "meaning": "sea"
         }
-      ]
+      ],
+      "blank_target_reading": "およぎにいきませんか"
     },
     {
       "id": "n5_050_7",
-      "example_sentence": "病院へ検査を受けに行かなければなりません。",
-      "translation": "I have to go to the hospital to get an examination.",
-      "blank_target": "に",
+      "example_sentence": "かぜをひいたので、病院へ薬をもらいに行きます。",
+      "translation": "I caught a cold, so I'm going to the hospital to get some medicine.",
+      "blank_target": "もらいに行きます",
       "wrong_choices": [
-        "を",
-        "で",
-        "と"
+        "もらうに行きます",
+        "もらってに行きます",
+        "もらいで行きます"
       ],
       "wrong_choice_explanations": [
-        "を is already used with 検査を — it doesn't connect purpose with the movement verb.",
-        "で indicates location or means — it doesn't express the purpose of going.",
-        "と means 'with' or 'and' — it doesn't indicate the purpose of going to do something."
+        "Purpose に attaches to the masu-stem もらい, not the dictionary form もらう.",
+        "The te-form もらって cannot be followed by に.",
+        "で marks place or means; the purpose of going is marked with に."
       ],
-      "hiragana_full": "びょういんへけんさをうけにいかなければなりません。",
+      "hiragana_full": "かぜをひいたので、びょういんへくすりをもらいにいきます。",
       "audio_alternatives": [
         {
-          "kanji": "病院へ検査を受けに行かないといけません。",
-          "hiragana_full": "びょういんへけんさをうけにいかないといけません。"
+          "kanji": "かぜをひいたから、病院へ薬をもらいに行く。",
+          "hiragana_full": "かぜをひいたから、びょういんへくすりをもらいにいく。"
         },
         {
-          "kanji": "病院に検査を受けに行かなければなりません。",
-          "hiragana_full": "びょういんにけんさをうけにいかなければなりません。"
+          "kanji": "かぜをひいたので、病院に薬をもらいに行きます。",
+          "hiragana_full": "かぜをひいたので、びょういんにくすりをもらいにいきます。"
         }
       ],
       "audio_eligible": true,
@@ -258,82 +291,79 @@
           "meaning": "hospital"
         },
         {
-          "word": "検査",
-          "reading": "けんさ",
-          "meaning": "medical examination"
-        },
-        {
-          "word": "行かなければなりません",
-          "reading": "いかなければなりません",
-          "meaning": "must go"
+          "word": "薬",
+          "reading": "くすり",
+          "meaning": "medicine"
         }
-      ]
+      ],
+      "blank_target_reading": "もらいにいきます"
     },
     {
       "id": "n5_050_8",
-      "example_sentence": "弟が相談しに来ました。",
-      "translation": "My younger brother came to consult with me.",
-      "blank_target": "に",
+      "example_sentence": "明日、田中さんが私の家へ本を返しに来ます。",
+      "translation": "Tomorrow Mr. Tanaka is coming to my house to return a book.",
+      "blank_target": "返しに来ます",
       "wrong_choices": [
-        "を",
-        "が",
-        "から"
+        "返すに来ます",
+        "返しに来ました",
+        "返してに来ます"
       ],
       "wrong_choice_explanations": [
-        "を marks direct objects — it doesn't express the purpose of coming.",
-        "が marks the subject — 弟が is already using が, and it doesn't indicate purpose.",
-        "から means 'from' or 'because' — it doesn't indicate the purpose of the brother's visit."
+        "Purpose に attaches to the masu-stem 返し, not the dictionary form 返す.",
+        "来ました is past, but 明日 ('tomorrow') requires non-past.",
+        "The te-form 返して cannot be followed by に."
       ],
-      "hiragana_full": "おとうとがそうだんしにきました。",
+      "hiragana_full": "あした、たなかさんがわたしのいえへほんをかえしにきます。",
       "audio_alternatives": [
         {
-          "kanji": "弟が相談しに来た。",
-          "hiragana_full": "おとうとがそうだんしにきた。"
+          "kanji": "明日、田中さんがうちへ本を返しに来る。",
+          "hiragana_full": "あした、たなかさんがうちへほんをかえしにくる。"
         },
         {
-          "kanji": "弟は相談しに来ました。",
-          "hiragana_full": "おとうとはそうだんしにきました。"
+          "kanji": "明日、田中さんが私の家に本を返しに来ます。",
+          "hiragana_full": "あした、たなかさんがわたしのいえにほんをかえしにきます。"
         }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
         {
-          "word": "弟",
-          "reading": "おとうと",
-          "meaning": "younger brother"
+          "word": "明日",
+          "reading": "あした",
+          "meaning": "tomorrow"
         },
         {
-          "word": "相談",
-          "reading": "そうだん",
-          "meaning": "consultation; asking advice"
+          "word": "家",
+          "reading": "いえ",
+          "meaning": "house"
         }
-      ]
+      ],
+      "blank_target_reading": "かえしにきます"
     },
     {
       "id": "n5_050_9",
-      "example_sentence": "昼ご飯を食べに行きましょう。",
-      "translation": "Let's go eat lunch.",
-      "blank_target": "に",
+      "example_sentence": "十二時になりましたから、昼ご飯を食べに行きましょう。",
+      "translation": "It's twelve o'clock, so let's go eat lunch.",
+      "blank_target": "食べに行きましょう",
       "wrong_choices": [
-        "を",
-        "で",
-        "へ"
+        "食べるに行きましょう",
+        "食べてに行きましょう",
+        "食べに行くましょう"
       ],
       "wrong_choice_explanations": [
-        "を is already used with 昼ご飯を — it doesn't connect the purpose with going.",
-        "で indicates location or means — it doesn't express the purpose of going.",
-        "へ indicates direction — but it doesn't express going for the purpose of doing something."
+        "Purpose に attaches to the masu-stem 食べ, not the dictionary form 食べる.",
+        "The te-form 食べて cannot be followed by に.",
+        "ましょう attaches to the stem 行き (行きましょう), not to 行く."
       ],
-      "hiragana_full": "ひるごはんをたべにいきましょう。",
+      "hiragana_full": "じゅうにじになりましたから、ひるごはんをたべにいきましょう。",
       "audio_alternatives": [
         {
-          "kanji": "ランチを食べに行きましょう。",
-          "hiragana_full": "らんちをたべにいきましょう。"
+          "kanji": "十二時になったから、昼ご飯を食べに行こう。",
+          "hiragana_full": "じゅうにじになったから、ひるごはんをたべにいこう。"
         },
         {
-          "kanji": "昼ご飯を食べに行こう。",
-          "hiragana_full": "ひるごはんをたべにいこう。"
+          "kanji": "十二時になりましたので、お昼を食べに行きましょう。",
+          "hiragana_full": "じゅうにじになりましたので、おひるをたべにいきましょう。"
         }
       ],
       "audio_eligible": true,
@@ -344,43 +374,50 @@
           "reading": "ひるごはん",
           "meaning": "lunch"
         }
-      ]
+      ],
+      "blank_target_reading": "たべにいきましょう"
     },
     {
       "id": "n5_050_10",
-      "example_sentence": "公園でピクニックをしに来ませんか。",
-      "translation": "Won't you come have a picnic in the park?",
-      "blank_target": "に",
+      "example_sentence": "私は去年、日本へ日本語を勉強しに来ました。",
+      "translation": "I came to Japan last year to study Japanese.",
+      "blank_target": "勉強しに来ました",
       "wrong_choices": [
-        "を",
-        "と",
-        "から"
+        "勉強するに来ました",
+        "勉強しに来ます",
+        "勉強してに来ました"
       ],
       "wrong_choice_explanations": [
-        "を is already used with ピクニックを — it doesn't express the purpose of coming.",
-        "と means 'with' or 'and' — it doesn't indicate the purpose of coming to do something.",
-        "から means 'from' or 'because' — it doesn't indicate the purpose of coming."
+        "Purpose に attaches to the stem 勉強し, not the dictionary form 勉強する.",
+        "来ます is non-past, but 去年 ('last year') requires the past.",
+        "The te-form 勉強して cannot be followed by に."
       ],
-      "hiragana_full": "こうえんでぴくにっくをしにきませんか。",
+      "hiragana_full": "わたしはきょねん、にほんへにほんごをべんきょうしにきました。",
       "audio_alternatives": [
         {
-          "kanji": "公園でピクニックしませんか。",
-          "hiragana_full": "こうえんでぴくにっくしませんか。"
+          "kanji": "私は去年、日本語を勉強しに日本へ来た。",
+          "hiragana_full": "わたしはきょねん、にほんごをべんきょうしににほんへきた。"
         },
         {
-          "kanji": "公園にピクニックをしに来ませんか。",
-          "hiragana_full": "こうえんにぴくにっくをしにきませんか。"
+          "kanji": "私は去年、日本語の勉強に日本へ来ました。",
+          "hiragana_full": "わたしはきょねん、にほんごのべんきょうににほんへきました。"
         }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
         {
-          "word": "公園",
-          "reading": "こうえん",
-          "meaning": "park"
+          "word": "去年",
+          "reading": "きょねん",
+          "meaning": "last year"
+        },
+        {
+          "word": "勉強",
+          "reading": "べんきょう",
+          "meaning": "study"
         }
-      ]
+      ],
+      "blank_target_reading": "べんきょうしにきました"
     }
   ]
 }

@@ -30,7 +30,8 @@
           "hiragana_full": "もんだいだとしりながらも、なにもしなかった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n2_023_2",
@@ -58,7 +59,15 @@
           "hiragana_full": "きけんとわかっていながら、つづけた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "危険",
+          "reading": "きけん",
+          "meaning": "danger"
+        }
+      ]
     },
     {
       "id": "n2_023_3",
@@ -86,7 +95,8 @@
           "hiragana_full": "まちがいだとわかりながら、そのまますすめた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n2_023_4",
@@ -114,7 +124,15 @@
           "hiragana_full": "ねだんがたかいとしりながら、かってしまった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "高価",
+          "reading": "こうか",
+          "meaning": "expensive, high-priced"
+        }
+      ]
     },
     {
       "id": "n2_023_5",
@@ -142,7 +160,15 @@
           "hiragana_full": "つかれていても、しごとをつづけた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "疲れ",
+          "reading": "つかれ",
+          "meaning": "fatigue"
+        }
+      ]
     },
     {
       "id": "n2_023_6",
@@ -170,7 +196,20 @@
           "hiragana_full": "ふあんではあったが、あたらしいちょうせんにふみだした。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "不安",
+          "reading": "ふあん",
+          "meaning": "anxiety"
+        },
+        {
+          "word": "挑戦",
+          "reading": "ちょうせん",
+          "meaning": "challenge"
+        }
+      ]
     },
     {
       "id": "n2_023_7",
@@ -198,7 +237,20 @@
           "hiragana_full": "ふしんにおもいながらも、かれはちんもくをたもった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "疑問",
+          "reading": "ぎもん",
+          "meaning": "doubt, question"
+        },
+        {
+          "word": "沈黙",
+          "reading": "ちんもく",
+          "meaning": "silence"
+        }
+      ]
     },
     {
       "id": "n2_023_8",
@@ -226,7 +278,15 @@
           "hiragana_full": "まちがいだとしりながらも、かれはしゃざいしなかった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "自覚",
+          "reading": "じかく",
+          "meaning": "self-awareness"
+        }
+      ]
     },
     {
       "id": "n2_023_9",
@@ -254,7 +314,20 @@
           "hiragana_full": "はんたいいけんがあることをしょうちしつつ、けいかくをすすめた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "反対意見",
+          "reading": "はんたいいけん",
+          "meaning": "opposing opinion"
+        },
+        {
+          "word": "計画",
+          "reading": "けいかく",
+          "meaning": "plan"
+        }
+      ]
     },
     {
       "id": "n2_023_10",
@@ -282,7 +355,30 @@
           "hiragana_full": "ぎろんがあることをみとめつつも、そのりろんはいぜんとしてしじされている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "議論",
+          "reading": "ぎろん",
+          "meaning": "debate, argument"
+        },
+        {
+          "word": "認識",
+          "reading": "にんしき",
+          "meaning": "recognition, awareness"
+        },
+        {
+          "word": "理論",
+          "reading": "りろん",
+          "meaning": "theory"
+        },
+        {
+          "word": "支持",
+          "reading": "しじ",
+          "meaning": "support"
+        }
+      ]
     }
   ]
 }

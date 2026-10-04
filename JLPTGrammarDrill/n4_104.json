@@ -6,293 +6,433 @@
   "exercises": [
     {
       "id": "n4_104_1",
-      "example_sentence": "雨が降り出しました。",
-      "translation": "It started to rain.",
-      "blank_target": "出し",
+      "example_sentence": "帰り道で、急に雨が降り出して、困りました。",
+      "translation": "On my way home it suddenly started to rain, and I was in trouble.",
+      "blank_target": "出して",
       "wrong_choices": [
-        "終わり",
-        "続け",
-        "やめ"
+        "続けて",
+        "終わって",
+        "込んで"
       ],
       "wrong_choice_explanations": [
-        "終わり means 'finish/end' — it expresses completion rather than the beginning of rain.",
-        "続け means 'continue' — it indicates ongoing action rather than the start of rain.",
-        "やめ means 'stop/quit' — it expresses cessation rather than the beginning of rain."
+        "降り続ける means 'keep raining'; 急に marks a sudden change, which a continuing state can't be.",
+        "Rain ending is 雨がやむ, not 降り終わる, and rain stopping wouldn't leave you in trouble on the way home.",
+        "降り込む means rain blowing in through a window or door; on the walk home there is no indoors for it to blow into."
       ],
-      "hiragana_full": "あめがふりだしました。",
+      "hiragana_full": "かえりみちで、きゅうにあめがふりだして、こまりました。",
       "audio_alternatives": [
         {
-          "kanji": "雨が降り始めました。",
-          "hiragana_full": "あめがふりはじめました。"
+          "kanji": "帰り道で、急に雨が降ってきて、困りました。",
+          "hiragana_full": "かえりみちで、きゅうにあめがふってきて、こまりました。"
         },
         {
-          "kanji": "雨が降り出した。",
-          "hiragana_full": "あめがふりだした。"
+          "kanji": "帰る途中で突然雨が降り始めて、困った。",
+          "hiragana_full": "かえるとちゅうでとつぜんあめがふりはじめて、こまった。"
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "だし"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "帰り道",
+          "reading": "かえりみち",
+          "meaning": "the way home"
+        },
+        {
+          "word": "急に",
+          "reading": "きゅうに",
+          "meaning": "suddenly"
+        },
+        {
+          "word": "困りました",
+          "reading": "こまりました",
+          "meaning": "was in trouble"
+        }
+      ],
+      "blank_target_reading": "だして"
     },
     {
       "id": "n4_104_2",
-      "example_sentence": "彼は歌い出した。",
-      "translation": "He started singing.",
-      "blank_target": "出し",
+      "example_sentence": "それでは、今から問題を解き始めてください。",
+      "translation": "All right, please begin solving the problems now.",
+      "blank_target": "始めて",
       "wrong_choices": [
-        "込み",
-        "上げ",
-        "返し"
+        "出して",
+        "終わって",
+        "過ぎて"
       ],
       "wrong_choice_explanations": [
-        "込み means 'into/thoroughly' — it indicates intensity or depth of action, not the beginning of singing.",
-        "上げ means 'raise up' — it indicates upward movement or completion, not starting to sing.",
-        "返し means 'return/give back' — it indicates returning something, not beginning to sing."
+        "〜出す expresses a sudden or uncontrolled onset, so it can't be used in a request like 〜てください; a deliberate, instructed start needs 始める.",
+        "今から ('from now') marks a starting point, so asking people to finish solving makes no sense here.",
+        "解き過ぎる ('solve too much') is not something anyone would be asked to do; it makes no sense here."
       ],
-      "hiragana_full": "かれはうたいだした。",
+      "hiragana_full": "それでは、いまからもんだいをときはじめてください。",
       "audio_alternatives": [
         {
-          "kanji": "彼は歌い始めた。",
-          "hiragana_full": "かれはうたいはじめた。"
+          "kanji": "それでは、今から問題を解いてください。",
+          "hiragana_full": "それでは、いまからもんだいをといてください。"
         },
         {
-          "kanji": "彼は歌い出した。",
-          "hiragana_full": "かれはうたいだした。"
+          "kanji": "では、問題を解き始めましょう。",
+          "hiragana_full": "では、もんだいをときはじめましょう。"
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "だし"
+      "register": "formal",
+      "vocab": [
+        {
+          "word": "問題",
+          "reading": "もんだい",
+          "meaning": "question, problem"
+        },
+        {
+          "word": "解き",
+          "reading": "とき",
+          "meaning": "solve (stem of 解く)"
+        }
+      ],
+      "blank_target_reading": "はじめて"
     },
     {
       "id": "n4_104_3",
-      "example_sentence": "赤ちゃんが泣き出した。",
-      "translation": "The baby started crying.",
-      "blank_target": "出し",
+      "example_sentence": "母親の姿が見えなくなると、赤ちゃんが急に泣き出した。",
+      "translation": "As soon as its mother was out of sight, the baby suddenly burst out crying.",
+      "blank_target": "出した",
       "wrong_choices": [
-        "止み",
-        "直り",
-        "切り"
+        "終えた",
+        "疲れた",
+        "過ぎた"
       ],
       "wrong_choice_explanations": [
-        "止み means 'stop/cease' — it indicates ending rather than beginning to cry.",
-        "直り means 'be fixed/get better' — it indicates improvement, not starting to cry.",
-        "切り means 'cut/disconnect' — it indicates cutting or ending something, not starting to cry."
+        "泣き終える means 'finish crying'; the mother disappearing triggers crying, it doesn't end it.",
+        "泣き疲れる means 'tire oneself out crying', which takes a long time; it can't happen 急に the moment the mother leaves.",
+        "泣き過ぎる means 'cry too much'; that's a judgment about amount, not a sudden reaction, and doesn't fit 急に."
       ],
-      "hiragana_full": "あかちゃんがなきだした。",
+      "hiragana_full": "ははおやのすがたがみえなくなると、あかちゃんがきゅうになきだした。",
       "audio_alternatives": [
         {
-          "kanji": "赤ちゃんが泣き始めた。",
-          "hiragana_full": "あかちゃんがなきはじめた。"
+          "kanji": "母親が見えなくなると、赤ちゃんが急に泣き始めた。",
+          "hiragana_full": "ははおやがみえなくなると、あかちゃんがきゅうになきはじめた。"
         },
         {
-          "kanji": "赤ちゃんが泣き出した。",
-          "hiragana_full": "あかちゃんがなきだした。"
+          "kanji": "お母さんがいなくなったとたん、赤ちゃんが泣き出した。",
+          "hiragana_full": "おかあさんがいなくなったとたん、あかちゃんがなきだした。"
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "だし"
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "母親",
+          "reading": "ははおや",
+          "meaning": "mother"
+        },
+        {
+          "word": "姿",
+          "reading": "すがた",
+          "meaning": "figure, form"
+        },
+        {
+          "word": "急に",
+          "reading": "きゅうに",
+          "meaning": "suddenly"
+        }
+      ],
+      "blank_target_reading": "だした"
     },
     {
       "id": "n4_104_4",
-      "example_sentence": "学生たちが話し出しました。",
-      "translation": "The students started talking.",
-      "blank_target": "出し",
+      "example_sentence": "今日から毎晩、日記をつけ始めようと思います。",
+      "translation": "Starting today, I'm going to begin keeping a diary every night.",
+      "blank_target": "始めよう",
       "wrong_choices": [
-        "過ぎ",
-        "かけ",
-        "合い"
+        "出そう",
+        "忘れよう",
+        "過ぎよう"
       ],
       "wrong_choice_explanations": [
-        "過ぎ means 'too much/excessively' — it expresses excess rather than the beginning of talking.",
-        "かけ means 'about to do/halfway through' — it indicates an incomplete state, not the start of talking.",
-        "合い means 'together/mutually' — while students talking together makes sense, it doesn't express the beginning like 出し does."
+        "〜出す expresses a sudden or uncontrolled onset, so it can't be used with the volitional 〜よう for a planned new habit; a deliberate start needs 始める.",
+        "つけ忘れる means 'forget to write'; nobody plans to forget, so it can't take the volitional よう here.",
+        "つけ過ぎる ('write too much') makes no sense as a plan for a new nightly habit."
       ],
-      "hiragana_full": "がくせいたちがはなしだしました。",
+      "hiragana_full": "きょうからまいばん、にっきをつけはじめようとおもいます。",
       "audio_alternatives": [
         {
-          "kanji": "学生たちが話し始めました。",
-          "hiragana_full": "がくせいたちがはなしはじめました。"
+          "kanji": "今日から毎晩、日記を書こうと思います。",
+          "hiragana_full": "きょうからまいばん、にっきをかこうとおもいます。"
         },
         {
-          "kanji": "学生たちが話し出しました。",
-          "hiragana_full": "がくせいたちがはなしだしました。"
+          "kanji": "今日から毎日、日記をつけることにします。",
+          "hiragana_full": "きょうからまいにち、にっきをつけることにします。"
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "だし"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "毎晩",
+          "reading": "まいばん",
+          "meaning": "every night"
+        },
+        {
+          "word": "日記",
+          "reading": "にっき",
+          "meaning": "diary"
+        }
+      ],
+      "blank_target_reading": "はじめよう"
     },
     {
       "id": "n4_104_5",
-      "example_sentence": "花が咲き出しています。",
-      "translation": "The flowers are starting to bloom.",
-      "blank_target": "出し",
+      "example_sentence": "先生が変な顔をしたら、子供たちが急に笑い出しました。",
+      "translation": "When the teacher made a funny face, the children suddenly burst out laughing.",
+      "blank_target": "出しました",
       "wrong_choices": [
-        "終わり",
-        "散り",
-        "枯れ"
+        "終わりました",
+        "疲れました",
+        "飽きました"
       ],
       "wrong_choice_explanations": [
-        "終わり means 'finish/end' — it indicates completion of blooming rather than the start.",
-        "散り means 'scatter/fall' — it indicates petals falling, not flowers beginning to bloom.",
-        "枯れ means 'wither/die' — it indicates plants dying, not starting to bloom."
+        "笑い終わる means 'finish laughing'; the funny face sets off laughter rather than ending it.",
+        "笑い疲れる means 'tire oneself out laughing', which needs a long time of laughing, not an instant reaction.",
+        "笑い飽きる ('get tired of laughing') can't be an instant reaction to a funny face and doesn't fit 急に."
       ],
-      "hiragana_full": "はながさきだしています。",
+      "hiragana_full": "せんせいがへんなかおをしたら、こどもたちがきゅうにわらいだしました。",
       "audio_alternatives": [
         {
-          "kanji": "花が咲き始めています。",
-          "hiragana_full": "はながさきはじめています。"
+          "kanji": "先生が変な顔をしたら、子供たちが急に笑い始めました。",
+          "hiragana_full": "せんせいがへんなかおをしたら、こどもたちがきゅうにわらいはじめました。"
         },
         {
-          "kanji": "花が咲き出しています。",
-          "hiragana_full": "はながさきだしています。"
+          "kanji": "先生のおかしな顔を見て、子供たちがいっせいに笑いました。",
+          "hiragana_full": "せんせいのおかしなかおをみて、こどもたちがいっせいにわらいました。"
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "だし"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "変",
+          "reading": "へん",
+          "meaning": "strange, funny"
+        },
+        {
+          "word": "顔",
+          "reading": "かお",
+          "meaning": "face"
+        },
+        {
+          "word": "急に",
+          "reading": "きゅうに",
+          "meaning": "suddenly"
+        }
+      ],
+      "blank_target_reading": "だしました"
     },
     {
       "id": "n4_104_6",
-      "example_sentence": "犬が走り出した。",
-      "translation": "The dog started running.",
-      "blank_target": "出し",
+      "example_sentence": "冷めないうちに、みんなで食べ始めましょう。",
+      "translation": "Let's all start eating before it gets cold.",
+      "blank_target": "始めましょう",
       "wrong_choices": [
-        "回り",
-        "止まり",
-        "疲れ"
+        "出しましょう",
+        "忘れましょう",
+        "残しましょう"
       ],
       "wrong_choice_explanations": [
-        "回り means 'turn/go around' — it indicates circular movement, not starting to run.",
-        "止まり means 'stop/halt' — it indicates stopping rather than beginning to run.",
-        "疲れ means 'get tired' — it indicates fatigue, not starting to run."
+        "〜出す expresses a sudden or uncontrolled onset, so it can't be used with 〜ましょう to invite others; a deliberate start together needs 始める.",
+        "食べ忘れる means 'forget to eat'; you can't invite people to forget something.",
+        "食べ残す means 'leave food uneaten'; suggesting that before the food cools makes no sense."
       ],
-      "hiragana_full": "いぬがはしりだした。",
+      "hiragana_full": "さめないうちに、みんなでたべはじめましょう。",
       "audio_alternatives": [
         {
-          "kanji": "犬が走り始めた。",
-          "hiragana_full": "いぬがはしりはじめた。"
+          "kanji": "冷めないうちに、みんなで食べましょう。",
+          "hiragana_full": "さめないうちに、みんなでたべましょう。"
         },
         {
-          "kanji": "犬が走り出した。",
-          "hiragana_full": "いぬがはしりだした。"
+          "kanji": "温かいうちに、さあ食べ始めよう。",
+          "hiragana_full": "あたたかいうちに、さあたべはじめよう。"
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "だし"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "冷めない",
+          "reading": "さめない",
+          "meaning": "not get cold"
+        }
+      ],
+      "blank_target_reading": "はじめましょう"
     },
     {
       "id": "n4_104_7",
-      "example_sentence": "時計が動き出しました。",
-      "translation": "The clock started working.",
-      "blank_target": "出し",
+      "example_sentence": "猫を見ると、犬が急に走り出した。",
+      "translation": "When it saw the cat, the dog suddenly took off running.",
+      "blank_target": "出した",
       "wrong_choices": [
-        "止まり",
-        "壊れ",
-        "遅れ"
+        "終えた",
+        "疲れた",
+        "過ぎた"
       ],
       "wrong_choice_explanations": [
-        "止まり means 'stop' — it indicates the clock stopping rather than starting to work.",
-        "壊れ means 'break down' — it indicates the clock breaking, not starting to function.",
-        "遅れ means 'be late/slow' — it indicates the clock running slow, not beginning to work."
+        "走り終える means 'finish running'; seeing the cat starts the dog running, it doesn't end a run.",
+        "走り疲れる means 'tire oneself out running', which takes a long run; it can't happen 急に on sight of the cat.",
+        "走り過ぎる means 'run too much'; it's about amount, not a sudden reaction, and doesn't fit 急に."
       ],
-      "hiragana_full": "とけいがうごきだしました。",
+      "hiragana_full": "ねこをみると、いぬがきゅうにはしりだした。",
       "audio_alternatives": [
         {
-          "kanji": "時計が動き始めました。",
-          "hiragana_full": "とけいがうごきはじめました。"
+          "kanji": "猫を見たとたん、犬が走り始めた。",
+          "hiragana_full": "ねこをみたとたん、いぬがはしりはじめた。"
         },
         {
-          "kanji": "時計が動くようになりました。",
-          "hiragana_full": "とけいがうごくようになりました。"
+          "kanji": "猫に気づいて、犬が急に走っていった。",
+          "hiragana_full": "ねこにきづいて、いぬがきゅうにはしっていった。"
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "だし"
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "猫",
+          "reading": "ねこ",
+          "meaning": "cat"
+        },
+        {
+          "word": "急に",
+          "reading": "きゅうに",
+          "meaning": "suddenly"
+        }
+      ],
+      "blank_target_reading": "だした"
     },
     {
       "id": "n4_104_8",
-      "example_sentence": "風が吹き出しました。",
-      "translation": "The wind started blowing.",
-      "blank_target": "出し",
+      "example_sentence": "パーティーは七時からなので、六時ごろから料理を作り始めるつもりです。",
+      "translation": "The party starts at seven, so I plan to start cooking around six.",
+      "blank_target": "始める",
       "wrong_choices": [
-        "止み",
-        "強まり",
-        "弱まり"
+        "出す",
+        "終わる",
+        "過ぎる"
       ],
       "wrong_choice_explanations": [
-        "止み means 'stop/cease' — it indicates the wind stopping rather than starting to blow.",
-        "強まり means 'get stronger' — it indicates wind intensifying, not starting to blow.",
-        "弱まり means 'get weaker' — it indicates wind weakening, not beginning to blow."
+        "〜出す expresses a sudden or uncontrolled onset, so it can't be used for a planned start with つもり; a deliberate, scheduled start needs 始める.",
+        "六時ごろから marks a starting time, so 'finish cooking from six' contradicts から.",
+        "作り過ぎる means 'make too much'; nobody plans to do that, so it doesn't fit つもり here."
       ],
-      "hiragana_full": "かぜがふきだしました。",
+      "hiragana_full": "ぱーてぃーはしちじからなので、ろくじごろからりょうりをつくりはじめるつもりです。",
       "audio_alternatives": [
         {
-          "kanji": "風が吹き始めました。",
-          "hiragana_full": "かぜがふきはじめました。"
+          "kanji": "パーティーは七時からだから、六時ごろから料理を作ろうと思っています。",
+          "hiragana_full": "ぱーてぃーはしちじからだから、ろくじごろからりょうりをつくろうとおもっています。"
         },
         {
-          "kanji": "風が吹き出した。",
-          "hiragana_full": "かぜがふきだした。"
+          "kanji": "七時のパーティーのために、六時ごろ料理を始めるつもりです。",
+          "hiragana_full": "しちじのぱーてぃーのために、ろくじごろりょうりをはじめるつもりです。"
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "だし"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "料理",
+          "reading": "りょうり",
+          "meaning": "cooking, dish"
+        }
+      ],
+      "blank_target_reading": "はじめる"
     },
     {
       "id": "n4_104_9",
-      "example_sentence": "電話が鳴り出した。",
-      "translation": "The phone started ringing.",
-      "blank_target": "出し",
+      "example_sentence": "夜中に突然電話が鳴り出したので、目が覚めました。",
+      "translation": "The phone suddenly started ringing in the middle of the night, and it woke me up.",
+      "blank_target": "出した",
       "wrong_choices": [
-        "止み",
-        "切れ",
-        "壊れ"
+        "止んだ",
+        "終わった",
+        "疲れた"
       ],
       "wrong_choice_explanations": [
-        "止み means 'stop/cease' — it indicates the phone stopping rather than starting to ring.",
-        "切れ means 'be cut off/disconnected' — it indicates the phone line being cut, not starting to ring.",
-        "壊れ means 'break down' — it indicates the phone breaking, not beginning to ring."
+        "鳴り止む means 'stop ringing'; a phone falling silent wouldn't wake you up — the ringing starting did.",
+        "鳴り終わる means 'finish ringing'; the end of the sound isn't what woke the speaker, and it clashes with 突然.",
+        "鳴り疲れる ('tire oneself out ringing') makes no sense for a phone."
       ],
-      "hiragana_full": "でんわがなりだした。",
+      "hiragana_full": "よなかにとつぜんでんわがなりだしたので、めがさめました。",
       "audio_alternatives": [
         {
-          "kanji": "電話が鳴り始めた。",
-          "hiragana_full": "でんわがなりはじめた。"
+          "kanji": "夜中に急に電話が鳴ったので、目が覚めました。",
+          "hiragana_full": "よなかにきゅうにでんわがなったので、めがさめました。"
         },
         {
-          "kanji": "電話が鳴り出した。",
-          "hiragana_full": "でんわがなりだした。"
+          "kanji": "真夜中に電話が鳴り始めて、起きてしまいました。",
+          "hiragana_full": "まよなかにでんわがなりはじめて、おきてしまいました。"
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "だし"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "夜中",
+          "reading": "よなか",
+          "meaning": "middle of the night"
+        },
+        {
+          "word": "突然",
+          "reading": "とつぜん",
+          "meaning": "suddenly"
+        },
+        {
+          "word": "目が覚めました",
+          "reading": "めがさめました",
+          "meaning": "woke up"
+        }
+      ],
+      "blank_target_reading": "だした"
     },
     {
       "id": "n4_104_10",
-      "example_sentence": "子供が笑い出しました。",
-      "translation": "The child started laughing.",
-      "blank_target": "出し",
+      "example_sentence": "来月から、ピアノを習い始めたいです。",
+      "translation": "I'd like to start taking piano lessons from next month.",
+      "blank_target": "始めたい",
       "wrong_choices": [
-        "泣き",
-        "止み",
-        "疲れ"
+        "出したい",
+        "忘れたい",
+        "飽きたい"
       ],
       "wrong_choice_explanations": [
-        "泣き means 'cry' — it indicates crying rather than starting to laugh.",
-        "止み means 'stop/cease' — it indicates stopping rather than beginning to laugh.",
-        "疲れ means 'get tired' — it indicates fatigue, not starting to laugh."
+        "〜出す expresses a sudden or uncontrolled onset, so it can't be used with 〜たい to express a wish; a chosen, deliberate start needs 始める.",
+        "習い忘れる ('forget to learn') is not something anyone wishes for; it makes no sense with たい.",
+        "習い飽きる ('get tired of learning') can't be a wish starting next month — you haven't begun yet."
       ],
-      "hiragana_full": "こどもがわらいだしました。",
+      "hiragana_full": "らいげつから、ぴあのをならいはじめたいです。",
       "audio_alternatives": [
         {
-          "kanji": "子供が笑い始めました。",
-          "hiragana_full": "こどもがわらいはじめました。"
+          "kanji": "来月から、ピアノを習いたいと思っています。",
+          "hiragana_full": "らいげつから、ぴあのをならいたいとおもっています。"
         },
         {
-          "kanji": "子供が笑い出しました。",
-          "hiragana_full": "こどもがわらいだしました。"
+          "kanji": "来月からピアノを始めたいです。",
+          "hiragana_full": "らいげつからぴあのをはじめたいです。"
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "だし"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "来月",
+          "reading": "らいげつ",
+          "meaning": "next month"
+        },
+        {
+          "word": "習い",
+          "reading": "ならい",
+          "meaning": "learn (stem of 習う)"
+        }
+      ],
+      "blank_target_reading": "はじめたい"
     }
   ]
 }

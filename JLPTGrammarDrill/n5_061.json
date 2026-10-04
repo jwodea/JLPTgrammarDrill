@@ -30,7 +30,15 @@
           "hiragana_full": "りんごはみかんよりあまいです"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "甘い",
+          "reading": "あまい",
+          "meaning": "sweet"
+        }
+      ]
     },
     {
       "id": "n5_061_2",
@@ -38,13 +46,13 @@
       "translation": "Summer is hotter than winter.",
       "blank_target": "のほうが",
       "wrong_choices": [
-        "は",
-        "が",
+        "や",
+        "で",
         "を"
       ],
       "wrong_choice_explanations": [
-        "は marks the topic — it doesn't fit here because we need the comparative construction 'A no hou ga B yori'.",
-        "が marks the subject — it doesn't fit here because we need to show that summer is the preferred/superior option in comparison.",
+        "や lists example items — 夏や冬より would turn the comparison base into a list ('hotter than summer and winter') and leave the sentence with no subject; the item being compared needs のほうが.",
+        "で marks means or location — 夏で cannot serve as the subject being compared; the compared item needs のほうが.",
         "を marks the direct object — it doesn't fit here because summer is not the object being acted upon."
       ],
       "hiragana_full": "なつのほうがふゆよりあついです",
@@ -58,7 +66,25 @@
           "hiragana_full": "なつはふゆよりあついです"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "夏",
+          "reading": "なつ",
+          "meaning": "summer"
+        },
+        {
+          "word": "冬",
+          "reading": "ふゆ",
+          "meaning": "winter"
+        },
+        {
+          "word": "暑い",
+          "reading": "あつい",
+          "meaning": "hot"
+        }
+      ]
     },
     {
       "id": "n5_061_3",
@@ -86,7 +112,20 @@
           "hiragana_full": "でんしゃはばすよりはやいです"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "電車",
+          "reading": "でんしゃ",
+          "meaning": "train"
+        },
+        {
+          "word": "早い",
+          "reading": "はやい",
+          "meaning": "fast"
+        }
+      ]
     },
     {
       "id": "n5_061_4",
@@ -114,7 +153,20 @@
           "hiragana_full": "えいごよりにほんごのほうがむずかしいとおもいます"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "英語",
+          "reading": "えいご",
+          "meaning": "English (language)"
+        },
+        {
+          "word": "難しい",
+          "reading": "むずかしい",
+          "meaning": "difficult"
+        }
+      ]
     },
     {
       "id": "n5_061_5",
@@ -142,7 +194,20 @@
           "hiragana_full": "おちゃよりコーヒーがすきです"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "お茶",
+          "reading": "おちゃ",
+          "meaning": "tea"
+        },
+        {
+          "word": "好き",
+          "reading": "すき",
+          "meaning": "liked; favorite"
+        }
+      ]
     },
     {
       "id": "n5_061_6",
@@ -150,12 +215,12 @@
       "translation": "This store is cheaper than that store.",
       "blank_target": "のほうが",
       "wrong_choices": [
-        "なら",
+        "を",
         "でも",
         "だから"
       ],
       "wrong_choice_explanations": [
-        "なら means 'if/in the case of' — it doesn't fit here because we're making a definitive comparison, not a conditional statement.",
+        "を marks a direct object — 安い is an adjective, so この店を安いです is ungrammatical; the compared subject needs のほうが.",
         "でも means 'but/however' — it doesn't fit here because we're not contrasting, but comparing prices directly.",
         "だから means 'therefore/so' — it doesn't fit here because we're not expressing cause and effect, but comparison."
       ],
@@ -170,7 +235,20 @@
           "hiragana_full": "あのみせよりこのみせのほうがやすいです"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "店",
+          "reading": "みせ",
+          "meaning": "store"
+        },
+        {
+          "word": "安い",
+          "reading": "やすい",
+          "meaning": "cheap"
+        }
+      ]
     },
     {
       "id": "n5_061_7",
@@ -178,12 +256,12 @@
       "translation": "Movies are more interesting than books.",
       "blank_target": "のほうが",
       "wrong_choices": [
-        "って",
+        "に",
         "でも",
         "けど"
       ],
       "wrong_choice_explanations": [
-        "って is a casual form of と (quotation) — it doesn't fit here because we're making a comparison, not quoting.",
+        "に marks a destination or target — 映画に cannot be the subject of 面白い; the item being compared needs のほうが.",
         "でも means 'but/however' — it doesn't fit here because we're not contrasting, but comparing entertainment value.",
         "けど means 'but/although' — it doesn't fit here because we need the comparative structure, not contrast."
       ],
@@ -198,7 +276,20 @@
           "hiragana_full": "えいがはほんよりおもしろいです"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "映画",
+          "reading": "えいが",
+          "meaning": "movie"
+        },
+        {
+          "word": "面白い",
+          "reading": "おもしろい",
+          "meaning": "interesting"
+        }
+      ]
     },
     {
       "id": "n5_061_8",
@@ -206,12 +297,12 @@
       "translation": "Today is colder than yesterday, isn't it?",
       "blank_target": "のほうが",
       "wrong_choices": [
-        "って",
+        "へ",
         "では",
         "かな"
       ],
       "wrong_choice_explanations": [
-        "って means 'they say' or casual quotation — it doesn't fit here because we're comparing temperatures, not reporting hearsay.",
+        "へ indicates direction of movement — 今日へ makes no sense as the subject of a temperature comparison; the compared item needs のほうが.",
         "では marks a condition or location — it doesn't fit here because we need comparative structure, not conditional.",
         "かな expresses uncertainty — it doesn't fit here because we need the comparative particle, not a sentence-ending expression."
       ],
@@ -226,7 +317,15 @@
           "hiragana_full": "きのうよりきょうのほうがさむいですね"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "寒い",
+          "reading": "さむい",
+          "meaning": "cold"
+        }
+      ]
     },
     {
       "id": "n5_061_9",
@@ -254,7 +353,15 @@
           "hiragana_full": "いぬはねこよりにんきがあります"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "人気",
+          "reading": "にんき",
+          "meaning": "popularity"
+        }
+      ]
     },
     {
       "id": "n5_061_10",
@@ -282,7 +389,25 @@
           "hiragana_full": "にくはさかなよりたかいです"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "肉",
+          "reading": "にく",
+          "meaning": "meat"
+        },
+        {
+          "word": "魚",
+          "reading": "さかな",
+          "meaning": "fish"
+        },
+        {
+          "word": "高い",
+          "reading": "たかい",
+          "meaning": "expensive"
+        }
+      ]
     }
   ]
 }

@@ -165,47 +165,6 @@
     },
     {
       "id": "n5_004_5",
-      "example_sentence": "音楽が好きです。",
-      "translation": "I like music.",
-      "blank_target": "が",
-      "wrong_choices": [
-        "を",
-        "に",
-        "と"
-      ],
-      "wrong_choice_explanations": [
-        "を marks a direct object, but 好き takes が for the liked thing.",
-        "に marks a target or location, not the object of preference.",
-        "と means 'with' or 'and' and cannot mark the thing that is liked."
-      ],
-      "hiragana_full": "おんがくがすきです。",
-      "audio_alternatives": [
-        {
-          "kanji": "音楽が好きだ。",
-          "hiragana_full": "おんがくがすきだ。"
-        },
-        {
-          "kanji": "音楽は好きです。",
-          "hiragana_full": "おんがくはすきです。"
-        }
-      ],
-      "audio_eligible": true,
-      "register": "neutral",
-      "vocab": [
-        {
-          "word": "音楽",
-          "reading": "おんがく",
-          "meaning": "music"
-        },
-        {
-          "word": "好き",
-          "reading": "すき",
-          "meaning": "like"
-        }
-      ]
-    },
-    {
-      "id": "n5_004_6",
       "example_sentence": "頭が痛いです。",
       "translation": "My head hurts.",
       "blank_target": "が",
@@ -246,7 +205,7 @@
       ]
     },
     {
-      "id": "n5_004_7",
+      "id": "n5_004_6",
       "example_sentence": "時間がありません。",
       "translation": "There is no time.",
       "blank_target": "が",
@@ -282,7 +241,7 @@
       ]
     },
     {
-      "id": "n5_004_8",
+      "id": "n5_004_7",
       "example_sentence": "窓が開いています。",
       "translation": "The window is open.",
       "blank_target": "が",
@@ -323,48 +282,7 @@
       ]
     },
     {
-      "id": "n5_004_9",
-      "example_sentence": "英語ができます。",
-      "translation": "I can speak English.",
-      "blank_target": "が",
-      "wrong_choices": [
-        "を",
-        "に",
-        "から"
-      ],
-      "wrong_choice_explanations": [
-        "を marks a direct object, but できる specifically takes が for the ability complement.",
-        "に marks a target, not the thing one is able to do.",
-        "から means 'from' and does not mark the complement of できる."
-      ],
-      "hiragana_full": "えいごができます。",
-      "audio_alternatives": [
-        {
-          "kanji": "英語を話せます。",
-          "hiragana_full": "えいごをはなせます。"
-        },
-        {
-          "kanji": "英語が話せます。",
-          "hiragana_full": "えいごがはなせます。"
-        }
-      ],
-      "audio_eligible": true,
-      "register": "neutral",
-      "vocab": [
-        {
-          "word": "英語",
-          "reading": "えいご",
-          "meaning": "English"
-        },
-        {
-          "word": "できます",
-          "reading": "できます",
-          "meaning": "can do; be able"
-        }
-      ]
-    },
-    {
-      "id": "n5_004_10",
+      "id": "n5_004_8",
       "example_sentence": "花が咲いています。",
       "translation": "The flowers are blooming.",
       "blank_target": "が",
@@ -401,6 +319,88 @@
           "word": "咲いています",
           "reading": "さいています",
           "meaning": "is blooming"
+        }
+      ]
+    },
+    {
+      "id": "n5_004_9",
+      "example_sentence": "車が止まりました。",
+      "translation": "The car stopped.",
+      "blank_target": "が",
+      "wrong_choices": [
+        "から",
+        "を",
+        "に"
+      ],
+      "wrong_choice_explanations": [
+        "から means 'from' and marks a source or starting point; 車から止まりました ('stopped from the car') makes no sense — 車 is the subject that stopped, which takes が.",
+        "を marks direct objects — it doesn't fit here because 車 is the subject that stopped, not an object being acted upon.",
+        "に indicates direction, time, or location — it doesn't fit here because 車 is the subject performing the action, not a destination or time."
+      ],
+      "hiragana_full": "くるまがとまりました。",
+      "audio_alternatives": [
+        {
+          "kanji": "車は止まりました。",
+          "hiragana_full": "くるまはとまりました。"
+        },
+        {
+          "kanji": "車が止まった。",
+          "hiragana_full": "くるまがとまった。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "車",
+          "reading": "くるま",
+          "meaning": "car"
+        },
+        {
+          "word": "止まりました",
+          "reading": "とまりました",
+          "meaning": "stopped"
+        }
+      ]
+    },
+    {
+      "id": "n5_004_10",
+      "example_sentence": "宿題ができました。",
+      "translation": "I finished my homework.",
+      "blank_target": "が",
+      "wrong_choices": [
+        "から",
+        "を",
+        "に"
+      ],
+      "wrong_choice_explanations": [
+        "から means 'from' and marks a source or starting point (学校から帰る); 宿題からできました would mean something like 'it was made from the homework,' which is nonsense here — できる ('to get done') marks the completed thing with が.",
+        "を marks direct objects — it doesn't fit here because できる is an intransitive verb meaning 'to be completed/finished', not a transitive action.",
+        "に indicates direction, time, or location — it doesn't fit here because 宿題 is the subject that was completed, not a time or location."
+      ],
+      "hiragana_full": "しゅくだいができました",
+      "audio_alternatives": [
+        {
+          "kanji": "宿題を終えました。",
+          "hiragana_full": "しゅくだいをおえました"
+        },
+        {
+          "kanji": "宿題をやりました。",
+          "hiragana_full": "しゅくだいをやりました"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "宿題",
+          "reading": "しゅくだい",
+          "meaning": "homework"
+        },
+        {
+          "word": "できました",
+          "reading": "できました",
+          "meaning": "is done; finished"
         }
       ]
     }

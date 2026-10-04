@@ -6,6 +6,88 @@
   "exercises": [
     {
       "id": "n5_051_1",
+      "example_sentence": "忙しいから、手伝えません。",
+      "translation": "Because I'm busy, I can't help.",
+      "blank_target": "から",
+      "wrong_choices": [
+        "ても",
+        "ば",
+        "たら"
+      ],
+      "wrong_choice_explanations": [
+        "ても means 'even if/though' — it creates a concessive meaning rather than causal relationship.",
+        "ば indicates condition 'if' — it doesn't express the factual reason 'because' needed here.",
+        "たら means 'if/when' for conditions — it doesn't express the causal relationship like から does."
+      ],
+      "hiragana_full": "いそがしいから、てつだえません。",
+      "audio_alternatives": [
+        {
+          "kanji": "忙しいので、手伝えません。",
+          "hiragana_full": "いそがしいので、てつだえません。"
+        },
+        {
+          "kanji": "忙しいから、手伝うことができません。",
+          "hiragana_full": "いそがしいから、てつだうことができません。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "忙しい",
+          "reading": "いそがしい",
+          "meaning": "busy"
+        },
+        {
+          "word": "手伝えません",
+          "reading": "てつだえません",
+          "meaning": "can't help"
+        }
+      ]
+    },
+    {
+      "id": "n5_051_2",
+      "example_sentence": "お金がないから、買えません。",
+      "translation": "Because I don't have money, I can't buy it.",
+      "blank_target": "から",
+      "wrong_choices": [
+        "のに",
+        "しかし",
+        "それに"
+      ],
+      "wrong_choice_explanations": [
+        "のに means 'even though' and sets up a surprising contrast, but having no money and being unable to buy is not surprising, so のに doesn't fit; から states the reason.",
+        "しかし means 'however' — it indicates contrast rather than the cause-effect relationship needed.",
+        "それに means 'moreover/in addition' — it adds information rather than showing reason like から does."
+      ],
+      "hiragana_full": "おかねがないから、かえません。",
+      "audio_alternatives": [
+        {
+          "kanji": "お金がないので、買えません。",
+          "hiragana_full": "おかねがないので、かえません。"
+        },
+        {
+          "kanji": "お金がないから、買うことができません。",
+          "hiragana_full": "おかねがないから、かうことができません。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "お金",
+          "reading": "おかね",
+          "meaning": "money"
+        },
+        {
+          "word": "買えません",
+          "reading": "かえません",
+          "meaning": "can't buy"
+        }
+      ]
+    },
+    {
+      "id": "n5_051_3",
       "example_sentence": "雨が降っているから、傘を持って行きます。",
       "translation": "Because it's raining, I'll take an umbrella.",
       "blank_target": "から",
@@ -46,7 +128,7 @@
       ]
     },
     {
-      "id": "n5_051_2",
+      "id": "n5_051_4",
       "example_sentence": "時間がないから、急いでください。",
       "translation": "Because we don't have time, please hurry.",
       "blank_target": "から",
@@ -82,7 +164,7 @@
       ]
     },
     {
-      "id": "n5_051_3",
+      "id": "n5_051_5",
       "example_sentence": "疲れたから、早く寝ました。",
       "translation": "Because I was tired, I went to bed early.",
       "blank_target": "から",
@@ -118,43 +200,7 @@
       ]
     },
     {
-      "id": "n5_051_4",
-      "example_sentence": "お金がないから、買えません。",
-      "translation": "Because I don't have money, I can't buy it.",
-      "blank_target": "から",
-      "wrong_choices": [
-        "のに",
-        "でも",
-        "し"
-      ],
-      "wrong_choice_explanations": [
-        "のに means 'even though' — using it would say 'Even though I have no money, I can't buy it,' a contradiction (no money straightforwardly causes the inability).",
-        "でも means 'but' — it would create contradiction instead of explaining the reason for not buying.",
-        "し can list reasons but is less direct — から more clearly shows the single cause-effect relationship."
-      ],
-      "hiragana_full": "おかねがないから、かえません。",
-      "audio_alternatives": [
-        {
-          "kanji": "お金がないので、買えません。",
-          "hiragana_full": "おかねがないので、かえません。"
-        },
-        {
-          "kanji": "お金がないから、買うことができません。",
-          "hiragana_full": "おかねがないから、かうことができません。"
-        }
-      ],
-      "audio_eligible": true,
-      "register": "neutral",
-      "vocab": [
-        {
-          "word": "買えません",
-          "reading": "かえません",
-          "meaning": "can't buy"
-        }
-      ]
-    },
-    {
-      "id": "n5_051_5",
+      "id": "n5_051_6",
       "example_sentence": "明日は休みだから、ゆっくりできます。",
       "translation": "Because tomorrow is a holiday, I can relax.",
       "blank_target": "だから",
@@ -195,7 +241,7 @@
       ]
     },
     {
-      "id": "n5_051_6",
+      "id": "n5_051_7",
       "example_sentence": "寒いから、コートを着ました。",
       "translation": "Because it was cold, I put on a coat.",
       "blank_target": "から",
@@ -236,19 +282,19 @@
       ]
     },
     {
-      "id": "n5_051_7",
+      "id": "n5_051_8",
       "example_sentence": "宿題が多いから、今日は遊べません。",
       "translation": "Because I have a lot of homework, I can't play today.",
       "blank_target": "から",
       "wrong_choices": [
         "のに",
         "けど",
-        "し"
+        "と"
       ],
       "wrong_choice_explanations": [
         "のに means 'even though' — using it would say 'Even though I have lots of homework, I can't play,' contradicting the natural homework→no-play causation.",
         "けど means 'but' — it shows contrast, not the reason for being unable to play.",
-        "し can list reasons but is less direct — から more clearly shows the single cause-effect relationship."
+        "と is the conditional 'whenever/if' — 「宿題が多いと」 states a general rule ('whenever there's a lot of homework...'), which clashes with the specific 今日は ('today'). から gives today's actual reason."
       ],
       "hiragana_full": "しゅくだいがおおいから、きょうはあそべません。",
       "audio_alternatives": [
@@ -277,7 +323,7 @@
       ]
     },
     {
-      "id": "n5_051_8",
+      "id": "n5_051_9",
       "example_sentence": "日本語が好きだから、毎日勉強しています。",
       "translation": "Because I like Japanese, I study it every day.",
       "blank_target": "だから",
@@ -306,7 +352,7 @@
       "register": "neutral"
     },
     {
-      "id": "n5_051_9",
+      "id": "n5_051_10",
       "example_sentence": "お腹が空いたから、何か食べたいです。",
       "translation": "Because I'm hungry, I want to eat something.",
       "blank_target": "から",
@@ -343,47 +389,6 @@
           "word": "空いた",
           "reading": "すいた",
           "meaning": "got empty (hungry)"
-        }
-      ]
-    },
-    {
-      "id": "n5_051_10",
-      "example_sentence": "病気だから、学校を休みました。",
-      "translation": "Because I was sick, I took a day off from school.",
-      "blank_target": "だから",
-      "wrong_choices": [
-        "なのに",
-        "だけど",
-        "だが"
-      ],
-      "wrong_choice_explanations": [
-        "なのに means 'even though' — using it would say 'Even though I was sick, I took the day off,' contradicting the natural sickness→absence link.",
-        "だけど means 'but' — using it would say 'I was sick, but I took the day off,' wrongly framing the absence as surprising given the illness.",
-        "だが is the more formal 'but' — it expresses contrast rather than the causal explanation needed here."
-      ],
-      "hiragana_full": "びょうきだから、がっこうをやすみました。",
-      "audio_alternatives": [
-        {
-          "kanji": "病気だったので、学校を休みました。",
-          "hiragana_full": "びょうきだったので、がっこうをやすみました。"
-        },
-        {
-          "kanji": "病気で、学校を休みました。",
-          "hiragana_full": "びょうきで、がっこうをやすみました。"
-        }
-      ],
-      "audio_eligible": true,
-      "register": "neutral",
-      "vocab": [
-        {
-          "word": "病気",
-          "reading": "びょうき",
-          "meaning": "sick"
-        },
-        {
-          "word": "休みました",
-          "reading": "やすみました",
-          "meaning": "stayed home; was absent"
         }
       ]
     }

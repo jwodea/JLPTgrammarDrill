@@ -30,7 +30,15 @@
           "hiragana_full": "かんぜんではないにしても、じゅうぶんなけっかである。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "完璧",
+          "reading": "かんぺき",
+          "meaning": "perfection"
+        }
+      ]
     },
     {
       "id": "n1_018_2",
@@ -58,7 +66,20 @@
           "hiragana_full": "そのていあんはかんぺきとはいえないまでも、じつげんかのうなぷらんだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "理想的",
+          "reading": "りそうてき",
+          "meaning": "ideal"
+        },
+        {
+          "word": "実現可能",
+          "reading": "じつげんかのう",
+          "meaning": "feasible"
+        }
+      ]
     },
     {
       "id": "n1_018_3",
@@ -66,12 +87,12 @@
       "translation": "Even if his acting wasn't perfect, it captivated the audience.",
       "blank_target": "ないまでも",
       "wrong_choices": [
-        "ないにしても",
+        "ないかぎり",
         "ないばかりに",
         "ないどころか"
       ],
       "wrong_choice_explanations": [
-        "ないにしても means 'even supposing it's not' and is more hypothetical than the acknowledging concession of ないまでも.",
+        "ないかぎり sets up a condition ('as long as / unless it isn't perfect'), so the outcome would hinge on that condition; it cannot deliver ないまでも's concession that even short of perfection the acting still captivated.",
         "ないばかりに means 'just because it's not' and indicates cause-effect relationships rather than concessive acceptance.",
         "ないどころか means 'far from not being' and introduces contradiction rather than concessive acknowledgment."
       ],
@@ -86,7 +107,25 @@
           "hiragana_full": "かれのえんぎはかんぺきではなかったものの、かんきゃくをみりょうした。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "演技",
+          "reading": "えんぎ",
+          "meaning": "acting; performance"
+        },
+        {
+          "word": "観客",
+          "reading": "かんきゃく",
+          "meaning": "audience"
+        },
+        {
+          "word": "魅了",
+          "reading": "みりょう",
+          "meaning": "to captivate"
+        }
+      ]
     },
     {
       "id": "n1_018_4",
@@ -94,12 +133,12 @@
       "translation": "Even if not groundbreaking, that research contains valuable discoveries.",
       "blank_target": "ないまでも",
       "wrong_choices": [
-        "ないとしても",
+        "ないばかりに",
         "ないわけでは",
         "ないものの"
       ],
       "wrong_choice_explanations": [
-        "ないとしても means 'even assuming it's not' and is more hypothetical than the conceding acknowledgment of ないまでも.",
+        "ないばかりに pins an undesirable cause — 'merely because it isn't groundbreaking' — making the discoveries a result of that lack, whereas ないまでも concedes the shortfall while still crediting the research with valuable finds.",
         "ないわけでは means 'it's not that it's not' and is a double negative clarification rather than concessive acceptance.",
         "ないものの means 'although not ~' and fits here grammatically, but it is a flat concession; it lacks ないまでも's scalar sense of falling short of a high mark (groundbreaking) while still clearing a lower, acceptable one."
       ],
@@ -114,7 +153,20 @@
           "hiragana_full": "かっきてきではないとしても、そのけんきゅうはきちょうなはっけんをふくんでいる。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "画期的",
+          "reading": "かっきてき",
+          "meaning": "groundbreaking"
+        },
+        {
+          "word": "貴重",
+          "reading": "きちょう",
+          "meaning": "valuable"
+        }
+      ]
     },
     {
       "id": "n1_018_5",
@@ -142,7 +194,20 @@
           "hiragana_full": "こんかいのせいかはじゅうぶんではないとしても、つぎへのてがかりをあたえてくれる。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "成果",
+          "reading": "せいか",
+          "meaning": "result; achievement"
+        },
+        {
+          "word": "手がかり",
+          "reading": "てがかり",
+          "meaning": "clue; lead"
+        }
+      ]
     },
     {
       "id": "n1_018_6",
@@ -170,7 +235,25 @@
           "hiragana_full": "そのせいさくはかんぺきとはいえないが、げんじつてきなかいけつさくをていきょうしている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "政策",
+          "reading": "せいさく",
+          "meaning": "policy"
+        },
+        {
+          "word": "現実的",
+          "reading": "げんじつてき",
+          "meaning": "realistic"
+        },
+        {
+          "word": "解決策",
+          "reading": "かいけつさく",
+          "meaning": "solution"
+        }
+      ]
     },
     {
       "id": "n1_018_7",
@@ -178,12 +261,12 @@
       "translation": "Even if not complete environmental restoration, we must at least prevent the spread of pollution.",
       "blank_target": "ないまでも",
       "wrong_choices": [
-        "ないにせよ",
+        "ないから",
         "ないまま",
         "ないとて"
       ],
       "wrong_choice_explanations": [
-        "ないにせよ means 'whether or not' and presents alternatives rather than the concessive acceptance of ないまでも.",
+        "ないから gives a plain reason ('because it isn't complete restoration'), framing the second clause as a consequence; ないまでも instead concedes the goal falls short and pivots to the minimum that must at least be achieved.",
         "ないまま means 'while remaining not' and describes a continuing state rather than expressing concession.",
         "ないとて is an archaic form meaning 'even if not' but is too old-fashioned for modern Japanese."
       ],
@@ -198,7 +281,20 @@
           "hiragana_full": "かんきょうのかんぜんなふっこうはむずかしくても、せめておせんのかくだいをくいとめるひつようがある。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "復興",
+          "reading": "ふっこう",
+          "meaning": "restoration; recovery"
+        },
+        {
+          "word": "汚染",
+          "reading": "おせん",
+          "meaning": "pollution"
+        }
+      ]
     },
     {
       "id": "n1_018_8",
@@ -226,7 +322,20 @@
           "hiragana_full": "そのしょうせつはかんぜんではないものの、すぐれたぶんがくてきせいかをあげている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "卓越",
+          "reading": "たくえつ",
+          "meaning": "excellence; superiority"
+        },
+        {
+          "word": "文学的",
+          "reading": "ぶんがくてき",
+          "meaning": "literary"
+        }
+      ]
     },
     {
       "id": "n1_018_9",
@@ -254,7 +363,20 @@
           "hiragana_full": "そのきぎょうのかいかくはかんぺきではないにしても、いっていのぜんしんがあった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "改革",
+          "reading": "かいかく",
+          "meaning": "reform"
+        },
+        {
+          "word": "進歩",
+          "reading": "しんぽ",
+          "meaning": "progress"
+        }
+      ]
     },
     {
       "id": "n1_018_10",
@@ -282,7 +404,25 @@
           "hiragana_full": "かくしんてきではないにしても、そのいりょうぎじゅつはかんじゃにとってゆうえきである。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "医療技術",
+          "reading": "いりょうぎじゅつ",
+          "meaning": "medical technology"
+        },
+        {
+          "word": "革新的",
+          "reading": "かくしんてき",
+          "meaning": "innovative"
+        },
+        {
+          "word": "有益",
+          "reading": "ゆうえき",
+          "meaning": "beneficial"
+        }
+      ]
     }
   ]
 }

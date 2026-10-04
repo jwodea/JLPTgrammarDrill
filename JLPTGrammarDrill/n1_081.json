@@ -30,7 +30,8 @@
           "hiragana_full": "このじしょはさんぜんぺーじにもおよぶあつさだ"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n1_081_2",
@@ -38,12 +39,12 @@
       "translation": "I was surprised to hear his annual income is as much as ten million yen.",
       "blank_target": "からある",
       "wrong_choices": [
-        "にもなる",
+        "にすぎない",
         "ほどもある",
         "という"
       ],
       "wrong_choice_explanations": [
-        "にもなる indicates reaching a level but lacks the specific emphatic nuance of からある.",
+        "にすぎない means 'no more than / merely,' capping the amount as small — the opposite of からある, which stresses the figure as impressively large.",
         "ほどもある expresses extent but doesn't have the same impressive quantity emphasis.",
         "という is just a quotative marker and doesn't express the 'whopping amount' meaning."
       ],
@@ -58,7 +59,15 @@
           "hiragana_full": "かれのねんしゅうはいっせんまんえんにもなるときいておどろいた"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "年収",
+          "reading": "ねんしゅう",
+          "meaning": "annual income"
+        }
+      ]
     },
     {
       "id": "n1_081_3",
@@ -66,13 +75,13 @@
       "translation": "That building is a skyscraper with a height of as much as 500 meters.",
       "blank_target": "からある",
       "wrong_choices": [
-        "もある",
-        "にも及ぶ",
+        "に満たない",
+        "を超える",
         "という高さの"
       ],
       "wrong_choice_explanations": [
-        "もある expresses 'as much as' but lacks the specific emphatic tone of からある.",
-        "にも及ぶ means 'extending to' but doesn't emphasize the impressive largeness the same way.",
+        "に満たない means 'falls short of / less than,' placing the height below the figure — the opposite of からある, which asserts it as a large lower bound.",
+        "を超える means 'exceeds,' focusing on surpassing the number rather than presenting it as an impressively large amount as からある does.",
         "という高さの is descriptive but doesn't convey the emphatic 'whopping' sense."
       ],
       "hiragana_full": "そのたてものはたかさごひゃくメートルからあるというちょうこうそうビルだ。",
@@ -86,7 +95,15 @@
           "hiragana_full": "そのたてものはたかさごひゃくメートルにもおよぶちょうこうそうビルです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "超高層",
+          "reading": "ちょうこうそう",
+          "meaning": "super high-rise"
+        }
+      ]
     },
     {
       "id": "n1_081_4",
@@ -114,7 +131,8 @@
           "hiragana_full": "このけんきゅうはじゅうねんというながきにわたった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n1_081_5",
@@ -123,12 +141,12 @@
       "blank_target": "からある",
       "wrong_choices": [
         "はある",
-        "もある",
+        "を下回る",
         "ほどある"
       ],
       "wrong_choice_explanations": [
         "はある emphasizes existence but doesn't convey the impressive quantity meaning.",
-        "もある expresses 'as much as' but lacks the specific emphatic nuance of からある.",
+        "を下回る means 'falls below,' putting the amount under the figure — the opposite of からある, which presents it as a large amount at minimum.",
         "ほどある indicates extent but doesn't emphasize the impressive largeness the same way."
       ],
       "hiragana_full": "かのじょのちょきんはさんぜんまんえんからあるらしい",
@@ -142,7 +160,8 @@
           "hiragana_full": "かのじょのちょちくはさんぜんまんえんにもなるらしい"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n1_081_6",
@@ -170,7 +189,20 @@
           "hiragana_full": "このくにはこくみんそうせいさんがじゅっちょうえんにのぼるけいざいきぼをゆうしている"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "国民総生産",
+          "reading": "こくみんそうせいさん",
+          "meaning": "gross national product"
+        },
+        {
+          "word": "経済規模",
+          "reading": "けいざいきぼ",
+          "meaning": "economic scale"
+        }
+      ]
     },
     {
       "id": "n1_081_7",
@@ -198,7 +230,20 @@
           "hiragana_full": "このちいきはじんこうひゃくまんきぼのとしかをけいけんしつつある"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "都市化",
+          "reading": "としか",
+          "meaning": "urbanization"
+        },
+        {
+          "word": "規模",
+          "reading": "きぼ",
+          "meaning": "scale"
+        }
+      ]
     },
     {
       "id": "n1_081_8",
@@ -226,7 +271,20 @@
           "hiragana_full": "このぶんけんはせんぺーじからなるぼうだいなしりょうである"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "文献",
+          "reading": "ぶんけん",
+          "meaning": "document; literature"
+        },
+        {
+          "word": "膨大",
+          "reading": "ぼうだい",
+          "meaning": "enormous"
+        }
+      ]
     },
     {
       "id": "n1_081_9",
@@ -254,7 +312,25 @@
           "hiragana_full": "そのぎょうかいはすうちょうえんきぼのうりあげだかをほこるきょだいさんぎょうである"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "業界",
+          "reading": "ぎょうかい",
+          "meaning": "industry"
+        },
+        {
+          "word": "売上高",
+          "reading": "うりあげだか",
+          "meaning": "sales figures"
+        },
+        {
+          "word": "巨大",
+          "reading": "きょだい",
+          "meaning": "gigantic"
+        }
+      ]
     },
     {
       "id": "n1_081_10",
@@ -262,13 +338,13 @@
       "translation": "My grandfather's library holds a staggering ten thousand volumes or more.",
       "blank_target": "からある",
       "wrong_choices": [
-        "もある",
-        "にも及ぶ",
+        "に満たない",
+        "を数える",
         "ほどの"
       ],
       "wrong_choice_explanations": [
-        "もある (一万冊もある) expresses 'as many as,' similar in spirit to からある, but it conveys surprise at the figure itself; からある has a more written, almost catalogue-like tone that posits the number as a verified lower bound.",
-        "にも及ぶ means '(extending) all the way to' and highlights the reach of the count; からある instead asserts the quantity as a minimum — 'no fewer than ten thousand.'",
+        "に満たない means 'falls short of,' placing the count below ten thousand, which contradicts からある's assertion of the figure as a large minimum.",
+        "を数える means '(numbering) as many as,' describing the count neutrally without the emphatic 'no fewer than, and likely more' assertion that からある carries.",
         "ほどの indicates approximate extent ('about ten thousand'); からある, by contrast, claims the figure as a firm floor and often implies the actual count is even higher."
       ],
       "hiragana_full": "そふのぞうしょはいちまんさつからあるというきょういのりょうだ",
@@ -282,7 +358,20 @@
           "hiragana_full": "そふはいちまんさつもあるぞうしょをしょゆうしている"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "蔵書",
+          "reading": "ぞうしょ",
+          "meaning": "book collection"
+        },
+        {
+          "word": "驚異",
+          "reading": "きょうい",
+          "meaning": "marvel; wonder"
+        }
+      ]
     }
   ]
 }

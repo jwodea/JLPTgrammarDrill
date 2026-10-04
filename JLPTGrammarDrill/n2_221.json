@@ -1,0 +1,243 @@
+{
+  "id": "n2_221",
+  "pattern": "せいぜい",
+  "meaning": "at most; at best",
+  "level": "N2",
+  "exercises": [
+    {
+      "id": "n2_221_1",
+      "example_sentence": "時給が安いので、このアルバイトで稼げるのは月にせいぜい五万円くらいだ。",
+      "translation": "The hourly pay is low, so the most I can earn at this part-time job is about 50,000 yen a month.",
+      "blank_target": "せいぜい",
+      "wrong_choices": ["少なくとも", "せめて", "むしろ"],
+      "wrong_choice_explanations": [
+        "少なくとも sets a lower bound ('at least'), promising 50,000 yen or more — impossible to square with 時給が安い, which is given as the reason the figure is a ceiling.",
+        "せめて expresses a hoped-for minimum and wants a clause of desire or request (せめて五万円は欲しい); it cannot sit in a plain statement of how much one can earn.",
+        "むしろ corrects one alternative in favor of another ('rather'), but no first alternative has been proposed for it to push aside."
+      ],
+      "hiragana_full": "じきゅうがやすいので、このあるばいとでかせげるのはつきにせいぜいごまんえんくらいだ。",
+      "audio_alternatives": [
+        { "kanji": "時給が低いから、月に五万円稼げればいいほうだ。", "hiragana_full": "じきゅうがひくいから、つきにごまんえんかせげればいいほうだ。" },
+        { "kanji": "このバイトの月収は、せいぜい五万円といったところだ。", "hiragana_full": "このばいとのげっしゅうは、せいぜいごまんえんといったところだ。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "時給", "reading": "じきゅう", "meaning": "hourly wage" },
+        { "word": "稼ぐ", "reading": "かせぐ", "meaning": "to earn" }
+      ]
+    },
+    {
+      "id": "n2_221_2",
+      "example_sentence": "彼が反省しているといっても、できるのはせいぜい謝ることぐらいだろう。",
+      "translation": "Even if he is sorry, the best he can do is probably just apologize.",
+      "blank_target": "せいぜい",
+      "wrong_choices": ["せめて", "最低でも", "いっそ"],
+      "wrong_choice_explanations": [
+        "せめて frames a minimum one wishes for (せめて謝ってほしい 'I wish he'd at least apologize'). This sentence coolly estimates the upper limit of what he can do, with no wish expressed.",
+        "最低でも guarantees a floor ('at the very least he can...'), but といっても has just deflated expectations, and the minimizing ぐらいだろう caps his options rather than promising them.",
+        "いっそ proposes a bold alternative course ('might as well...') and belongs in suggestions like いっそ全部話したらどうだ; it cannot modify a resigned estimate of someone's limits."
+      ],
+      "hiragana_full": "かれがはんせいしているといっても、できるのはせいぜいあやまることぐらいだろう。",
+      "audio_alternatives": [
+        { "kanji": "反省しているといっても、彼にできるのは謝罪ぐらいのものだろう。", "hiragana_full": "はんせいしているといっても、かれにできるのはしゃざいぐらいのものだろう。" },
+        { "kanji": "彼はせいぜい口で謝るだけで、行動は変わらないだろう。", "hiragana_full": "かれはせいぜいくちであやまるだけで、こうどうはかわらないだろう。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "反省", "reading": "はんせい", "meaning": "remorse; self-reflection" },
+        { "word": "謝る", "reading": "あやまる", "meaning": "to apologize" }
+      ]
+    },
+    {
+      "id": "n2_221_3",
+      "example_sentence": "不動産屋の広告によると、この物件は駅まで歩いてもせいぜい十五分だそうだ。",
+      "translation": "According to the realtor's ad, the apartment is at most a fifteen-minute walk from the station.",
+      "blank_target": "せいぜい",
+      "wrong_choices": ["少なくとも", "せめて", "かえって"],
+      "wrong_choice_explanations": [
+        "少なくとも would have the ad admit the walk takes 'fifteen minutes at the very least' — the opposite of what an advertisement flaunting easy station access would print.",
+        "せめて voices a wish for a minimum (せめて十五分以内ならいいのに) and cannot appear inside a reported factual claim about the walking time.",
+        "かえって means 'contrary to expectation' and needs a comparison that gets reversed (歩いたほうがかえって早い). No such expectation has been set up — the ad is simply capping the time."
+      ],
+      "hiragana_full": "ふどうさんやのこうこくによると、このぶっけんはえきまであるいてもせいぜいじゅうごふんだそうだ。",
+      "audio_alternatives": [
+        { "kanji": "広告では、駅から徒歩十五分以内の物件だという。", "hiragana_full": "こうこくでは、えきからとほじゅうごふんいないのぶっけんだという。" },
+        { "kanji": "不動産屋いわく、歩いてもせいぜい十五分ほどらしい。", "hiragana_full": "ふどうさんやいわく、あるいてもせいぜいじゅうごふんほどらしい。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "不動産屋", "reading": "ふどうさんや", "meaning": "real-estate agent" },
+        { "word": "物件", "reading": "ぶっけん", "meaning": "property; listing" },
+        { "word": "広告", "reading": "こうこく", "meaning": "advertisement" }
+      ]
+    },
+    {
+      "id": "n2_221_4",
+      "example_sentence": "この中古車、査定に出してみたけど、売ってもせいぜい十万円にしかならないんだって。",
+      "translation": "I had this used car appraised — turns out even if I sell it, it'll only fetch 100,000 yen at most. (casual)",
+      "blank_target": "せいぜい",
+      "wrong_choices": ["少なくとも", "せめて", "いっそ"],
+      "wrong_choice_explanations": [
+        "少なくとも ('at least') promises a floor, but the sentence ends in にしかならない ('amounts to no more than'), which states a ceiling — the two point in opposite directions.",
+        "せめて belongs in wishes (せめて十万円にはなってほしい); inside the flat secondhand report 〜んだって there is no wish for it to attach to.",
+        "いっそ introduces a drastic suggestion (いっそ廃車にしたら？ 'why not just scrap it?'); it modifies a proposed action, never a sum of money."
+      ],
+      "hiragana_full": "このちゅうこしゃ、さていにだしてみたけど、うってもせいぜいじゅうまんえんにしかならないんだって。",
+      "audio_alternatives": [
+        { "kanji": "査定によると、この車は売っても十万円がいいところらしい。", "hiragana_full": "さていによると、このくるまはうってもじゅうまんえんがいいところらしい。" },
+        { "kanji": "この中古車、高く見積もってもせいぜい十万円だってさ。", "hiragana_full": "このちゅうこしゃ、たかくみつもってもせいぜいじゅうまんえんだってさ。" }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        { "word": "中古車", "reading": "ちゅうこしゃ", "meaning": "used car" },
+        { "word": "査定", "reading": "さてい", "meaning": "appraisal" }
+      ]
+    },
+    {
+      "id": "n2_221_5",
+      "example_sentence": "今回の制度改革による節約効果は、せいぜい数パーセントにすぎないと専門家は指摘している。",
+      "translation": "Experts point out that the savings from this policy reform will amount to no more than a few percent at best.",
+      "blank_target": "せいぜい",
+      "wrong_choices": ["少なくとも", "せめて", "むしろ"],
+      "wrong_choice_explanations": [
+        "少なくとも claims 'a few percent at minimum, possibly more', but にすぎない ('no more than') closes the ceiling — a lower bound cannot end in にすぎない.",
+        "せめて wishes for a minimum acceptable outcome and needs a hopeful clause (せめて数パーセントは削減したい); a detached expert assessment offers none.",
+        "むしろ replaces a rejected idea with a preferred one ('rather'), but the sentence never states a claim the experts are rejecting — they are simply capping the estimate."
+      ],
+      "hiragana_full": "こんかいのせいどかいかくによるせつやくこうかは、せいぜいすうぱーせんとにすぎないとせんもんかはしてきしている。",
+      "audio_alternatives": [
+        { "kanji": "専門家によれば、改革の節約効果は数パーセント程度にとどまるという。", "hiragana_full": "せんもんかによれば、かいかくのせつやくこうかはすうぱーせんとていどにとどまるという。" },
+        { "kanji": "制度改革で節約できるのは、せいぜい数パーセントだと見られている。", "hiragana_full": "せいどかいかくでせつやくできるのは、せいぜいすうぱーせんとだとみられている。" }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        { "word": "制度改革", "reading": "せいどかいかく", "meaning": "institutional reform" },
+        { "word": "節約", "reading": "せつやく", "meaning": "saving; economizing" },
+        { "word": "指摘", "reading": "してき", "meaning": "pointing out" }
+      ]
+    },
+    {
+      "id": "n2_221_6",
+      "example_sentence": "本日の打ち合わせは、長引いたとしてもせいぜい一時間程度で終わる見込みです。",
+      "translation": "Today's meeting should take an hour at most, even if it runs long. (business)",
+      "blank_target": "せいぜい",
+      "wrong_choices": ["最低でも", "せめて", "いっそ"],
+      "wrong_choice_explanations": [
+        "最低でも means 'at the very least' and would promise the meeting lasts an hour or more — clashing with 〜で終わる見込み, which reassures the listener about how soon it will end.",
+        "せめて hopes for a minimum concession (せめて一時間で終わってほしい); a briefing stating a schedule estimate contains no such plea.",
+        "いっそ launches a bold counter-proposal (いっそ中止にしましょう); it attaches to suggested actions, not to a projected meeting length."
+      ],
+      "hiragana_full": "ほんじつのうちあわせは、ながびいたとしてもせいぜいいちじかんていどでおわるみこみです。",
+      "audio_alternatives": [
+        { "kanji": "本日の打ち合わせは、長くても一時間ほどで終わる予定です。", "hiragana_full": "ほんじつのうちあわせは、ながくてもいちじかんほどでおわるよていです。" },
+        { "kanji": "会議が長引いても、せいぜい一時間で済むでしょう。", "hiragana_full": "かいぎがながびいても、せいぜいいちじかんですむでしょう。" }
+      ],
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        { "word": "打ち合わせ", "reading": "うちあわせ", "meaning": "meeting; briefing" },
+        { "word": "長引く", "reading": "ながびく", "meaning": "to drag on" },
+        { "word": "見込み", "reading": "みこみ", "meaning": "outlook; expectation" }
+      ]
+    },
+    {
+      "id": "n2_221_7",
+      "example_sentence": "彼は料理が得意だと言っているが、実際に作れるのはせいぜい卵焼きぐらいだ。",
+      "translation": "He says he's good at cooking, but in reality the most he can make is a rolled omelet.",
+      "blank_target": "せいぜい",
+      "wrong_choices": ["少なくとも", "せめて", "かえって"],
+      "wrong_choice_explanations": [
+        "少なくとも would concede he can make 'at least' tamagoyaki, leaving room for more — but the が clause exists to deflate his boast, and ぐらいだ marks the omelet as his upper limit, not his baseline.",
+        "せめて expresses what one wishes were the minimum (せめて卵焼きぐらい作ってほしい); this sentence is a dry assessment, not a plea.",
+        "かえって signals a result opposite to expectation and needs a comparison to reverse (教えたらかえって下手になった); a plain statement of his actual skill level has no reversal in it."
+      ],
+      "hiragana_full": "かれはりょうりがとくいだといっているが、じっさいにつくれるのはせいぜいたまごやきぐらいだ。",
+      "audio_alternatives": [
+        { "kanji": "料理自慢の彼だが、実際は卵焼きが精一杯だ。", "hiragana_full": "りょうりじまんのかれだが、じっさいはたまごやきがせいいっぱいだ。" },
+        { "kanji": "彼が作れる料理といえば、せいぜい卵焼きぐらいのものだ。", "hiragana_full": "かれがつくれるりょうりといえば、せいぜいたまごやきぐらいのものだ。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "得意", "reading": "とくい", "meaning": "good at" },
+        { "word": "卵焼き", "reading": "たまごやき", "meaning": "rolled omelet" },
+        { "word": "実際", "reading": "じっさい", "meaning": "in reality" }
+      ]
+    },
+    {
+      "id": "n2_221_8",
+      "example_sentence": "平日の昼間だから、講演会に来るのはせいぜい三十人ぐらいだろう。",
+      "translation": "It's a weekday afternoon, so thirty people at most will probably show up to the lecture.",
+      "blank_target": "せいぜい",
+      "wrong_choices": ["少なくとも", "せめて", "まさか"],
+      "wrong_choice_explanations": [
+        "少なくとも guarantees thirty or more, but 平日の昼間だから is given as a reason to expect few people — the logic runs toward a ceiling, not a floor.",
+        "せめて would turn the number into a wished-for minimum (せめて三十人は来てほしい); the sentence is a cool prediction, not a hope.",
+        "まさか expresses disbelief and pairs with negative or incredulous endings (まさか来ないだろう／まさか三十人も来るとは); it cannot simply mark an estimated quantity in a calm forecast."
+      ],
+      "hiragana_full": "へいじつのひるまだから、こうえんかいにくるのはせいぜいさんじゅうにんぐらいだろう。",
+      "audio_alternatives": [
+        { "kanji": "平日の昼だし、集まっても三十人程度だろう。", "hiragana_full": "へいじつのひるだし、あつまってもさんじゅうにんていどだろう。" },
+        { "kanji": "こんな時間の講演会では、聴衆はせいぜい三十人といったところだ。", "hiragana_full": "こんなじかんのこうえんかいでは、ちょうしゅうはせいぜいさんじゅうにんといったところだ。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "講演会", "reading": "こうえんかい", "meaning": "lecture; public talk" },
+        { "word": "平日", "reading": "へいじつ", "meaning": "weekday" },
+        { "word": "昼間", "reading": "ひるま", "meaning": "daytime" }
+      ]
+    },
+    {
+      "id": "n2_221_9",
+      "example_sentence": "うちの会社はケチで、ボーナスが出るとしてもせいぜい一か月分だ。",
+      "translation": "My company's stingy — even when a bonus does get paid, it's one month's salary at most. (casual)",
+      "blank_target": "せいぜい",
+      "wrong_choices": ["最低でも", "せめて", "かえって"],
+      "wrong_choice_explanations": [
+        "最低でも would mean bonuses never fall below a month's salary — a guarantee that contradicts ケチ ('stingy'), which the sentence gives as the reason the amount is capped.",
+        "せめて turns the amount into a wish (せめて一か月分は出してほしい); the plain 〜だ ending states a resigned fact, with no wish expressed.",
+        "かえって reports an outcome contrary to expectation and needs something reversed (頼んだらかえって減った); a stingy company paying little confirms expectations rather than overturning them."
+      ],
+      "hiragana_full": "うちのかいしゃはけちで、ぼーなすがでるとしてもせいぜいいっかげつぶんだ。",
+      "audio_alternatives": [
+        { "kanji": "うちの会社、ボーナスは出ても一か月分がいいところだよ。", "hiragana_full": "うちのかいしゃ、ぼーなすはでてもいっかげつぶんがいいところだよ。" },
+        { "kanji": "けちな会社だから、賞与はせいぜい一か月分しか出ない。", "hiragana_full": "けちなかいしゃだから、しょうよはせいぜいいっかげつぶんしかでない。" }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        { "word": "ケチ", "reading": "けち", "meaning": "stingy" },
+        { "word": "ボーナス", "reading": "ぼーなす", "meaning": "bonus" }
+      ]
+    },
+    {
+      "id": "n2_221_10",
+      "example_sentence": "私の体力では、山に登るといってもせいぜい高尾山ぐらいだ。",
+      "translation": "With my stamina, when it comes to climbing mountains, Mt. Takao is about my limit.",
+      "blank_target": "せいぜい",
+      "wrong_choices": ["少なくとも", "せめて", "とうてい"],
+      "wrong_choice_explanations": [
+        "少なくとも would claim Mt. Takao as a guaranteed minimum with harder climbs within reach — but 私の体力では sets up a limitation, and ぐらいだ marks Takao as the top of the range, not the bottom.",
+        "せめて frames a longed-for minimum (せめて高尾山ぐらいは登りたい); the sentence calmly reports a limit rather than wishing for one.",
+        "とうてい means 'by no means' and demands a negative predicate (とうてい登れない); in front of the affirmative 高尾山ぐらいだ it has nothing to negate."
+      ],
+      "hiragana_full": "わたしのたいりょくでは、やまにのぼるといってもせいぜいたかおさんぐらいだ。",
+      "audio_alternatives": [
+        { "kanji": "私の体力だと、登れるのは高尾山あたりが限界だ。", "hiragana_full": "わたしのたいりょくだと、のぼれるのはたかおさんあたりがげんかいだ。" },
+        { "kanji": "山登りといっても、私が行けるのはせいぜい日帰りの低い山だ。", "hiragana_full": "やまのぼりといっても、わたしがいけるのはせいぜいひがえりのひくいやまだ。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "体力", "reading": "たいりょく", "meaning": "physical stamina" },
+        { "word": "登る", "reading": "のぼる", "meaning": "to climb" }
+      ]
+    }
+  ]
+}

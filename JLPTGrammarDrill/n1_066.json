@@ -30,7 +30,8 @@
           "hiragana_full": "うちのむすこったら、しゅくだいもしないでまいにちゲームばかりしている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n1_066_2",
@@ -38,12 +39,12 @@
       "translation": "When it comes to that politician, he has never kept a promise.",
       "blank_target": "ときたら",
       "wrong_choices": [
-        "といえば",
+        "にかけては",
         "について",
         "に関して"
       ],
       "wrong_choice_explanations": [
-        "『といえば』 means 'speaking of' but is neutral, whereas 『ときたら』 expresses criticism and exasperation about the politician's unreliability.",
+        "『にかけては』 means 'when it comes to' but singles out an area of excellence or expertise; it clashes with the criticism here and lacks the exasperated tone that 『ときたら』 conveys about the politician.",
         "『について』 means 'about/concerning' but is neutral and doesn't convey the speaker's critical attitude toward the politician.",
         "『に関して』 means 'regarding/concerning' but lacks the emotional criticism and exasperation that 『ときたら』 expresses."
       ],
@@ -58,7 +59,15 @@
           "hiragana_full": "あのせいじかは、やくそくをまもったためしがない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "ためし",
+          "reading": "ためし",
+          "meaning": "instance; precedent (in ~たためしがない: never once)"
+        }
+      ]
     },
     {
       "id": "n1_066_3",
@@ -86,7 +95,20 @@
           "hiragana_full": "かれのじかんかんりにかんしては、いつもちこくしてばかりでほんとうにあたまがいたい。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "時間管理",
+          "reading": "じかんかんり",
+          "meaning": "time management"
+        },
+        {
+          "word": "遅刻",
+          "reading": "ちこく",
+          "meaning": "being late"
+        }
+      ]
     },
     {
       "id": "n1_066_4",
@@ -114,7 +136,15 @@
           "hiragana_full": "そのかいしゃのこきゃくサービスときたら、でんわしてもだれもおうとうしない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "顧客",
+          "reading": "こきゃく",
+          "meaning": "customer"
+        }
+      ]
     },
     {
       "id": "n1_066_5",
@@ -122,12 +152,12 @@
       "translation": "When it comes to my sister's cooking skills, she always burns everything and it's inedible.",
       "blank_target": "ときたら",
       "wrong_choices": [
-        "といったら",
+        "ともなると",
         "にかけては",
         "においては"
       ],
       "wrong_choice_explanations": [
-        "『といったら』 can express strong feelings but is more for emphasis or amazement, while 『ときたら』 specifically conveys criticism about her poor cooking.",
+        "『ともなると』 means 'once it comes to / when it reaches the point of' and sets up an expectation tied to a certain level, not the direct exasperated complaint that 『ときたら』 makes about her poor cooking.",
         "『にかけては』 means 'when it comes to' but typically highlights expertise or superiority, which contradicts the criticism of her poor cooking skills.",
         "『においては』 means 'in/regarding' and is formal and neutral, lacking the personal exasperation that 『ときたら』 expresses about her cooking."
       ],
@@ -142,7 +172,15 @@
           "hiragana_full": "あねのりょうりのうでまえったら、いつもこがしてばかりでたべられたものじゃない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "腕前",
+          "reading": "うでまえ",
+          "meaning": "skill; ability"
+        }
+      ]
     },
     {
       "id": "n1_066_6",
@@ -170,7 +208,15 @@
           "hiragana_full": "そのしどうしゃったら、こくみんのこえをまったくきこうとしない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "指導者",
+          "reading": "しどうしゃ",
+          "meaning": "leader"
+        }
+      ]
     },
     {
       "id": "n1_066_7",
@@ -198,7 +244,20 @@
           "hiragana_full": "そのきぎょうのかんきょうたいさくときたら、なばかりにすぎない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "名ばかり",
+          "reading": "なばかり",
+          "meaning": "in name only"
+        },
+        {
+          "word": "実態",
+          "reading": "じったい",
+          "meaning": "actual situation"
+        }
+      ]
     },
     {
       "id": "n1_066_8",
@@ -206,12 +265,12 @@
       "translation": "When it comes to that professor's classes, they're too boring with the same stories repeated every time.",
       "blank_target": "ときたら",
       "wrong_choices": [
-        "といえば",
+        "に対して",
         "に限って",
         "にあたって"
       ],
       "wrong_choice_explanations": [
-        "『といえば』 means 'speaking of' but is neutral, while 『ときたら』 expresses the speaker's criticism and frustration with the repetitive, boring classes.",
+        "『に対して』 means 'toward/against' and marks the target of an action or attitude, not a topic singled out for the exasperated criticism that 『ときたら』 expresses about the boring classes.",
         "『に限って』 means 'only when/in particular' and emphasizes specific circumstances, but doesn't convey the critical exasperation about the professor's teaching style.",
         "『にあたって』 means 'on the occasion of' and indicates timing for events, which doesn't fit this context of criticizing the professor's repetitive teaching."
       ],
@@ -226,7 +285,25 @@
           "hiragana_full": "そのきょうじゅのじゅぎょうは、まいかいおなじはなしのくりかえしでとてもたいくつだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "教授",
+          "reading": "きょうじゅ",
+          "meaning": "professor"
+        },
+        {
+          "word": "繰り返し",
+          "reading": "くりかえし",
+          "meaning": "repetition"
+        },
+        {
+          "word": "退屈",
+          "reading": "たいくつ",
+          "meaning": "boring; tedious"
+        }
+      ]
     },
     {
       "id": "n1_066_9",
@@ -254,7 +331,25 @@
           "hiragana_full": "そのけいえいじんといえば、すてーくほるだーのりえきをまったくかえりみていない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "経営陣",
+          "reading": "けいえいじん",
+          "meaning": "management; executives"
+        },
+        {
+          "word": "利益",
+          "reading": "りえき",
+          "meaning": "profit; interests"
+        },
+        {
+          "word": "考慮",
+          "reading": "こうりょ",
+          "meaning": "consideration"
+        }
+      ]
     },
     {
       "id": "n1_066_10",
@@ -282,7 +377,25 @@
           "hiragana_full": "そのいがくしゃはりんりてきはいりょをかんぜんにむししている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "倫理的",
+          "reading": "りんりてき",
+          "meaning": "ethical"
+        },
+        {
+          "word": "配慮",
+          "reading": "はいりょ",
+          "meaning": "consideration; care"
+        },
+        {
+          "word": "無視",
+          "reading": "むし",
+          "meaning": "to ignore"
+        }
+      ]
     }
   ]
 }

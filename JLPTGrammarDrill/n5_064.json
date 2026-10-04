@@ -11,12 +11,12 @@
       "blank_target": "が",
       "wrong_choices": [
         "を",
-        "は",
+        "へ",
         "に"
       ],
       "wrong_choice_explanations": [
         "を marks direct objects for action verbs — it doesn't fit here because ある is an existence verb that takes が, not を.",
-        "は marks the topic — it doesn't fit here because in existence sentences, the existing thing takes が, not は.",
+        "へ indicates direction of movement — 本へあります is ungrammatical; the existing thing takes が with ある.",
         "に indicates location or direction — it doesn't fit here because 'on the desk' already shows location; the book needs が as the subject."
       ],
       "hiragana_full": "つくえのうえにほんがあります。",
@@ -30,7 +30,15 @@
           "hiragana_full": "ほんはつくえのうえにあります。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "机",
+          "reading": "つくえ",
+          "meaning": "desk"
+        }
+      ]
     },
     {
       "id": "n5_064_2",
@@ -58,7 +66,15 @@
           "hiragana_full": "こどもたちはこうえんにいます。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "公園",
+          "reading": "こうえん",
+          "meaning": "park"
+        }
+      ]
     },
     {
       "id": "n5_064_3",
@@ -86,7 +102,15 @@
           "hiragana_full": "ジュースはれいぞうこにありますか。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "冷蔵庫",
+          "reading": "れいぞうこ",
+          "meaning": "refrigerator"
+        }
+      ]
     },
     {
       "id": "n5_064_4",
@@ -94,12 +118,12 @@
       "translation": "There is no teacher in the classroom.",
       "blank_target": "が",
       "wrong_choices": [
-        "は",
+        "を",
         "に",
         "から"
       ],
       "wrong_choice_explanations": [
-        "は marks the topic — it doesn't fit here because in existence sentences, the existing/non-existing entity takes が.",
+        "を marks direct objects of action verbs — いる expresses existence, so 先生をいません is ungrammatical; the person who exists (or doesn't) takes が.",
         "に indicates location — it doesn't fit here because 'in the classroom' already shows location; teacher needs が as the subject.",
         "から means 'from' — it doesn't fit here because teacher is not a source, but the subject of the existence verb."
       ],
@@ -114,7 +138,15 @@
           "hiragana_full": "せんせいはきょうしつにいません"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "教室",
+          "reading": "きょうしつ",
+          "meaning": "classroom"
+        }
+      ]
     },
     {
       "id": "n5_064_5",
@@ -142,7 +174,20 @@
           "hiragana_full": "にわにさんびきのねこがいます。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "庭",
+          "reading": "にわ",
+          "meaning": "garden; yard"
+        },
+        {
+          "word": "三匹",
+          "reading": "さんびき",
+          "meaning": "three (small animals)"
+        }
+      ]
     },
     {
       "id": "n5_064_6",
@@ -170,7 +215,20 @@
           "hiragana_full": "コンビニがえきのちかくにあります。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "駅",
+          "reading": "えき",
+          "meaning": "station"
+        },
+        {
+          "word": "近く",
+          "reading": "ちかく",
+          "meaning": "near; vicinity"
+        }
+      ]
     },
     {
       "id": "n5_064_7",
@@ -198,7 +256,20 @@
           "hiragana_full": "だれがへやにいますか"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "部屋",
+          "reading": "へや",
+          "meaning": "room"
+        },
+        {
+          "word": "誰",
+          "reading": "だれ",
+          "meaning": "who"
+        }
+      ]
     },
     {
       "id": "n5_064_8",
@@ -226,7 +297,20 @@
           "hiragana_full": "やまにたくさんのゆきがあります。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "山",
+          "reading": "やま",
+          "meaning": "mountain"
+        },
+        {
+          "word": "雪",
+          "reading": "ゆき",
+          "meaning": "snow"
+        }
+      ]
     },
     {
       "id": "n5_064_9",
@@ -254,7 +338,20 @@
           "hiragana_full": "このへんにびょういんはありますか"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "辺り",
+          "reading": "あたり",
+          "meaning": "area; vicinity"
+        },
+        {
+          "word": "病院",
+          "reading": "びょういん",
+          "meaning": "hospital"
+        }
+      ]
     },
     {
       "id": "n5_064_10",
@@ -282,7 +379,15 @@
           "hiragana_full": "いけにさかながいる。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "池",
+          "reading": "いけ",
+          "meaning": "pond"
+        }
+      ]
     }
   ]
 }

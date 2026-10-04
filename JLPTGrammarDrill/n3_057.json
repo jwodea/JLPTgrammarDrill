@@ -30,7 +30,20 @@
           "hiragana_full": "どりょくしたが、しけんにおちてしまった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "努力",
+          "reading": "どりょく",
+          "meaning": "effort"
+        },
+        {
+          "word": "試験",
+          "reading": "しけん",
+          "meaning": "exam"
+        }
+      ]
     },
     {
       "id": "n3_057_2",
@@ -58,7 +71,8 @@
           "hiragana_full": "たかいあたらしいふくをかったが、ほとんどきていない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n3_057_3",
@@ -86,7 +100,8 @@
           "hiragana_full": "ずっとまっていたけれど、バスはこなかった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n3_057_4",
@@ -114,38 +129,23 @@
           "hiragana_full": "こくはくしたが、へんじはもらえなかった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "告白",
+          "reading": "こくはく",
+          "meaning": "confession"
+        },
+        {
+          "word": "返事",
+          "reading": "へんじ",
+          "meaning": "reply"
+        }
+      ]
     },
     {
       "id": "n3_057_5",
-      "example_sentence": "安売りするものの、商品の品質は変わらない。",
-      "translation": "Although we sell at a discount, the product quality does not change.",
-      "blank_target": "るものの",
-      "wrong_choices": [
-        "るから",
-        "るために",
-        "るうえに"
-      ],
-      "wrong_choice_explanations": [
-        "〜から means 'because' and marks a cause; 安売りするから品質は変わらない would make the discount the reason quality stays the same, while ものの marks the contrast — discounting, yet quality is unchanged.",
-        "〜ために means 'in order to / because of' and marks purpose or cause; it would say quality is kept for the sake of discounting, whereas ものの marks an unexpected contrast.",
-        "〜うえに means 'on top of / in addition' and adds a second fact, but here the second clause contrasts with the first, which is why ものの (although) fits."
-      ],
-      "hiragana_full": "やすうりするものの、しょうひんのひんしつはかわらない。",
-      "audio_alternatives": [
-        {
-          "kanji": "安売りするけれど、商品の品質は変わらない。",
-          "hiragana_full": "やすうりするけれど、しょうひんのひんしつはかわらない。"
-        },
-        {
-          "kanji": "安売りしても、商品の品質は変わらない。",
-          "hiragana_full": "やすうりしても、しょうひんのひんしつはかわらない。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_057_6",
       "example_sentence": "優勝を目指したものの、準決勝で敗れた。",
       "translation": "Although I aimed for first place, I lost in the semifinals.",
       "blank_target": "たものの",
@@ -170,119 +170,186 @@
           "hiragana_full": "ゆうしょうしようとしたけれど、じゅんけっしょうでやぶれた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "優勝",
+          "reading": "ゆうしょう",
+          "meaning": "championship"
+        },
+        {
+          "word": "準決勝",
+          "reading": "じゅんけっしょう",
+          "meaning": "semifinal"
+        }
+      ]
+    },
+    {
+      "id": "n3_057_6",
+      "example_sentence": "高いものの、この時計はよく止まる。",
+      "translation": "Even though it's expensive, this watch often stops.",
+      "blank_target": "もの",
+      "wrong_choices": [
+        "から",
+        "ので",
+        "のに"
+      ],
+      "wrong_choice_explanations": [
+        "から means 'because' which would create a causal relationship, not the contrast needed here.",
+        "ので means 'because/since' which would suggest the price causes the stopping, which is illogical.",
+        "のに carries a similar 'although' meaning but adds a tone of frustration or unexpectedness from the speaker; ものの is more neutral and slightly literary, simply acknowledging the contrast. Either way, this slot needs もの to complete ものの."
+      ],
+      "hiragana_full": "たかいものの、このとけいはよくとまる。",
+      "audio_alternatives": [
+        {
+          "kanji": "高いけれど、この時計はよく止まる。",
+          "hiragana_full": "たかいけれど、このとけいはよくとまる。"
+        },
+        {
+          "kanji": "高いのに、この時計はよく止まる。",
+          "hiragana_full": "たかいのに、このとけいはよくとまる。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n3_057_7",
-      "example_sentence": "田舎に引っ越したものの、都市の生活が恋しくなった。",
-      "translation": "Although I moved to the countryside, I came to miss city life.",
-      "blank_target": "したものの",
+      "example_sentence": "約束したものの、彼は来なかった。",
+      "translation": "Although he promised, he didn't come.",
+      "blank_target": "もの",
       "wrong_choices": [
-        "したから",
-        "したあとで",
-        "したとたん"
+        "わけ",
+        "そう",
+        "よう"
       ],
       "wrong_choice_explanations": [
-        "〜から means 'because' and marks a cause; 引っ越したから恋しくなった states moving as the reason, while ものの marks the contrast — moved to the country, yet ended up missing the city.",
-        "〜あとで means 'after' and only orders the events in time; ものの instead marks the renewed longing as an unexpected reversal after the move.",
-        "〜とたん means 'the moment that' and marks immediate timing; ものの conveys the 'although' contrast between the move and the homesickness, not its timing."
+        "わけ means 'reason/conclusion' but doesn't express the contrasting relationship between promising and not coming.",
+        "そう indicates hearsay or appearance but doesn't create the concessive contrast needed here.",
+        "よう means 'like/seems' but doesn't provide the 'although' meaning contrasting promise with absence."
       ],
-      "hiragana_full": "いなかにひっこしたものの、としのせいかつがこいしくなった。",
+      "hiragana_full": "やくそくしたものの、かれはこなかった。",
       "audio_alternatives": [
         {
-          "kanji": "田舎に引っ越したけれど、都市の生活が恋しくなった。",
-          "hiragana_full": "いなかにひっこしたけれど、としのせいかつがこいしくなった。"
+          "kanji": "約束したけれど、彼は来なかった。",
+          "hiragana_full": "やくそくしたけれど、かれはこなかった。"
         },
         {
-          "kanji": "田舎に引っ越したが、都会の生活が恋しくなった。",
-          "hiragana_full": "いなかにひっこしたが、とかいのせいかつがこいしくなった。"
+          "kanji": "約束したのに、彼は来なかった。",
+          "hiragana_full": "やくそくしたのに、かれはこなかった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n3_057_8",
-      "example_sentence": "昇進したものの、仕事量が大幅に増えた。",
-      "translation": "Although I was promoted, my workload increased dramatically.",
-      "blank_target": "たものの",
+      "example_sentence": "薬を飲んだものの、熱が下がらない。",
+      "translation": "Even though I took medicine, my fever won't go down.",
+      "blank_target": "もの",
       "wrong_choices": [
-        "たので",
-        "たとたん",
-        "たうえに"
+        "ところ",
+        "まま",
+        "ばかり"
       ],
       "wrong_choice_explanations": [
-        "〜ので means 'because' and marks a reason; 昇進したので仕事量が増えた reads as a plain cause-and-effect, while ものの adds the bittersweet contrast — promoted, yet burdened with more work.",
-        "〜とたん means 'the moment that' and marks immediate timing, not the ironic 'although' relationship that ものの sets up here.",
-        "〜うえに means 'on top of / in addition' and simply adds a fact; ものの instead frames the heavier workload as an unwelcome contrast to the promotion."
+        "ところ means 'place/just about to' but doesn't express the concessive contrast between taking medicine and fever persisting.",
+        "まま means 'as it is/while' but doesn't create the 'although' relationship needed here.",
+        "ばかり means 'only/just' but doesn't provide the contrasting meaning between taking medicine and lack of improvement."
       ],
-      "hiragana_full": "しょうしんしたものの、しごとりょうがおおはばにふえた。",
+      "hiragana_full": "くすりをのんだものの、ねつがさがらない。",
       "audio_alternatives": [
         {
-          "kanji": "昇進したけれど、仕事量が大幅に増えた。",
-          "hiragana_full": "しょうしんしたけれど、しごとりょうがおおはばにふえた。"
+          "kanji": "薬を飲んだけど、熱が下がらない。",
+          "hiragana_full": "くすりをのんだけど、ねつがさがらない。"
         },
         {
-          "kanji": "昇進したが、仕事量が大幅に増えた。",
-          "hiragana_full": "しょうしんしたが、しごとりょうがおおはばにふえた。"
+          "kanji": "薬を飲んでも、熱が下がらない。",
+          "hiragana_full": "くすりをのんでも、ねつがさがらない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "熱",
+          "reading": "ねつ",
+          "meaning": "fever"
+        }
+      ]
     },
     {
       "id": "n3_057_9",
-      "example_sentence": "計画的に進めたものの、予想外の問題が発生した。",
-      "translation": "Although I proceeded systematically, unexpected problems arose.",
-      "blank_target": "たものの",
+      "example_sentence": "簡単だと言われたものの、実際は難しかった。",
+      "translation": "Although I was told it was easy, it was actually difficult.",
+      "blank_target": "もの",
       "wrong_choices": [
-        "たから",
-        "たせいで",
-        "たあとで"
+        "つもり",
+        "だけ",
+        "しか"
       ],
       "wrong_choice_explanations": [
-        "〜から means 'because' and marks a cause; 進めたから問題が発生した would make careful progress the reason for the trouble, while ものの marks the contrast — proceeded carefully, yet problems still arose.",
-        "〜せいで means 'because of' and blames the trouble on the action, but ものの presents the unexpected problems as running counter to the careful planning.",
-        "〜あとで means 'after' and only orders events in time; ものの marks that the problems contradicted the thorough preparation."
+        "つもり means 'intention/plan' but doesn't create the contrast between what was said and reality.",
+        "だけ means 'only' but doesn't express the concessive relationship between expectation and reality.",
+        "しか means 'only' and requires negative form, but doesn't provide the 'although' meaning needed here."
       ],
-      "hiragana_full": "けいかくてきにすすめたものの、よそうがいのもんだいがはっせいした。",
+      "hiragana_full": "かんたんだといわれたものの、じっさいはむずかしかった。",
       "audio_alternatives": [
         {
-          "kanji": "計画的に進めたが、予想外の問題が起きた。",
-          "hiragana_full": "けいかくてきにすすめたが、よそうがいのもんだいがおきた。"
+          "kanji": "簡単だと聞いたけど、実際は難しかった。",
+          "hiragana_full": "かんたんだときいたけど、じっさいはむずかしかった。"
         },
         {
-          "kanji": "計画通りに進めたけれど、思わぬ問題が発生した。",
-          "hiragana_full": "けいかくどおりにすすめたけれど、おもわぬもんだいがはっせいした。"
+          "kanji": "簡単だと言われたが、実際は難しかった。",
+          "hiragana_full": "かんたんだといわれたが、じっさいはむずかしかった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "実際",
+          "reading": "じっさい",
+          "meaning": "in reality, actually"
+        }
+      ]
     },
     {
       "id": "n3_057_10",
-      "example_sentence": "充分に準備したものの、想定外の事態が発生した。",
-      "translation": "Although I prepared thoroughly, an unexpected situation occurred.",
-      "blank_target": "たものの",
+      "example_sentence": "小さいものの、この犬はよく吠える。",
+      "translation": "Although it's small, this dog barks a lot.",
+      "blank_target": "もの",
       "wrong_choices": [
-        "たので",
-        "たせいで",
-        "たとたん"
+        "ほど",
+        "くらい",
+        "など"
       ],
       "wrong_choice_explanations": [
-        "〜ので means 'because' and marks a reason; 準備したので事態が発生した would illogically make preparing the cause of the incident, while ものの marks the contrast between preparing and the unexpected situation.",
-        "〜せいで means 'because of' and blames the incident on the preparation, but ものの presents the situation as an unforeseen result despite the preparation.",
-        "〜とたん means 'the moment that' and marks immediate timing, not the 'although' contrast that ものの conveys here."
+        "ほど means 'to the extent that' but doesn't express the contrasting relationship between size and barking behavior.",
+        "くらい means 'about/approximately' but doesn't create the concessive contrast needed here.",
+        "など means 'such as/and so on' which is grammatically incorrect in this contrasting context."
       ],
-      "hiragana_full": "じゅうぶんにじゅんびしたものの、そうていがいのじたいがはっせいした。",
+      "hiragana_full": "ちいさいものの、このいぬはよくほえる。",
       "audio_alternatives": [
         {
-          "kanji": "十分に準備したけれど、想定外の事態が起きた。",
-          "hiragana_full": "じゅうぶんにじゅんびしたけれど、そうていがいのじたいがおきた。"
+          "kanji": "小さいけれど、この犬はよく吠える。",
+          "hiragana_full": "ちいさいけれど、このいぬはよくほえる。"
         },
         {
-          "kanji": "しっかり準備したにもかかわらず、想定外の事態が発生した。",
-          "hiragana_full": "しっかりじゅんびしたにもかかわらず、そうていがいのじたいがはっせいした。"
+          "kanji": "小さいのに、この犬はよく吠える。",
+          "hiragana_full": "ちいさいのに、このいぬはよくほえる。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "吠える",
+          "reading": "ほえる",
+          "meaning": "to bark"
+        }
+      ]
     }
   ]
 }

@@ -31,7 +31,8 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ぼん"
+      "blank_target_reading": "ぼん",
+      "register": "neutral"
     },
     {
       "id": "n5_074_2",
@@ -41,12 +42,12 @@
       "wrong_choices": [
         "房",
         "枚",
-        "つ"
+        "台"
       ],
       "wrong_choice_explanations": [
         "房 counts a whole bunch of bananas; here we are counting individual bananas, each of which is 本.",
         "枚 counts flat, thin things like paper; a banana is rounded and long, not flat, so 本 is used.",
-        "つ is the generic counter for objects; a banana is long and cylindrical, so the specific counter 本 fits better."
+        "台 counts machines and vehicles like cars or computers — a banana is a piece of fruit, not a machine, so 台 cannot count it; long cylindrical things take 本."
       ],
       "hiragana_full": "ばななをにほんたべました。",
       "audio_alternatives": [
@@ -60,7 +61,8 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ほん"
+      "blank_target_reading": "ほん",
+      "register": "neutral"
     },
     {
       "id": "n5_074_3",
@@ -89,7 +91,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ほん"
+      "blank_target_reading": "ほん",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "鉛筆",
+          "reading": "えんぴつ",
+          "meaning": "pencil"
+        }
+      ]
     },
     {
       "id": "n5_074_4",
@@ -118,7 +128,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ぽん"
+      "blank_target_reading": "ぽん",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "花",
+          "reading": "はな",
+          "meaning": "flower"
+        }
+      ]
     },
     {
       "id": "n5_074_5",
@@ -147,7 +165,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ぽん"
+      "blank_target_reading": "ぽん",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "吸います",
+          "reading": "すいます",
+          "meaning": "smoke; inhale"
+        }
+      ]
     },
     {
       "id": "n5_074_6",
@@ -176,7 +202,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ほん"
+      "blank_target_reading": "ほん",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "ろうそく",
+          "reading": "ろうそく",
+          "meaning": "candle"
+        },
+        {
+          "word": "灯しました",
+          "reading": "ともしました",
+          "meaning": "lit"
+        }
+      ]
     },
     {
       "id": "n5_074_7",
@@ -205,7 +244,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ぽん"
+      "blank_target_reading": "ぽん",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "傘",
+          "reading": "かさ",
+          "meaning": "umbrella"
+        },
+        {
+          "word": "忘れました",
+          "reading": "わすれました",
+          "meaning": "forgot"
+        }
+      ]
     },
     {
       "id": "n5_074_8",
@@ -215,12 +267,12 @@
       "wrong_choices": [
         "つ",
         "個",
-        "株"
+        "冊"
       ],
       "wrong_choice_explanations": [
         "つ is a general counter — it doesn't fit here because trees are long cylindrical objects that use 本.",
         "個 is for small objects — it doesn't fit here because trees are long cylindrical objects that use 本.",
-        "株 is for plants with roots — while sometimes used for trees, 本 is more standard for tree trunks."
+        "冊 counts bound books and notebooks — a tree is not a printed volume, so 冊 cannot count it; long trunk-shaped things like trees take 本."
       ],
       "hiragana_full": "このきをにほんうえました。",
       "audio_alternatives": [
@@ -234,7 +286,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ほん"
+      "blank_target_reading": "ほん",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "木",
+          "reading": "き",
+          "meaning": "tree"
+        },
+        {
+          "word": "植えました",
+          "reading": "うえました",
+          "meaning": "planted"
+        }
+      ]
     },
     {
       "id": "n5_074_9",
@@ -263,7 +328,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ぼん"
+      "blank_target_reading": "ぼん",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "箸",
+          "reading": "はし",
+          "meaning": "chopsticks"
+        },
+        {
+          "word": "洗いました",
+          "reading": "あらいました",
+          "meaning": "washed"
+        }
+      ]
     },
     {
       "id": "n5_074_10",
@@ -292,7 +370,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ほん"
+      "blank_target_reading": "ほん",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "釘",
+          "reading": "くぎ",
+          "meaning": "nail (hardware)"
+        },
+        {
+          "word": "使いました",
+          "reading": "つかいました",
+          "meaning": "used"
+        }
+      ]
     }
   ]
 }

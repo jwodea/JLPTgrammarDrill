@@ -10,12 +10,12 @@
       "translation": "The worker who returned from the construction site was covered in mud.",
       "blank_target": "まみれ",
       "wrong_choices": [
-        "だらけ",
+        "交じり",
         "ずくめ",
         "がち"
       ],
       "wrong_choice_explanations": [
-        "だらけ means 'full of' but is used for things scattered throughout, not something one is covered in.",
+        "泥交じり means 'mixed with mud' or 'mud-mingled' and marks partial admixture, not the whole surface being coated in mud that まみれ conveys.",
         "ずくめ means 'entirely' or 'all' but is used with clothing or abstract concepts, not physical covering.",
         "がち means 'tend to' or 'prone to' and indicates tendency, not a state of being covered."
       ],
@@ -30,7 +30,25 @@
           "hiragana_full": "こうじげんばからかえってきたさぎょういんはどろまみれのじょうたいだった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "現場",
+          "reading": "げんば",
+          "meaning": "site; scene"
+        },
+        {
+          "word": "作業員",
+          "reading": "さぎょういん",
+          "meaning": "worker; laborer"
+        },
+        {
+          "word": "泥",
+          "reading": "どろ",
+          "meaning": "mud"
+        }
+      ]
     },
     {
       "id": "n1_056_2",
@@ -38,12 +56,12 @@
       "translation": "The children came home covered in sand after playing in the park.",
       "blank_target": "まみれ",
       "wrong_choices": [
-        "だらけ",
+        "交じり",
         "ばかり",
         "っぽい"
       ],
       "wrong_choice_explanations": [
-        "だらけ indicates something is full of scattered objects, not a covering state like sand on the body.",
+        "砂交じり means 'mixed with sand' and marks partial admixture, not the state of being covered all over in sand that まみれ conveys.",
         "ばかり means 'only' or 'just' and doesn't express being physically covered in something.",
         "っぽい means 'seems like' or 'resembles' but doesn't indicate actually being covered in sand."
       ],
@@ -58,7 +76,15 @@
           "hiragana_full": "こうえんであそんできたこどもたちはすなまみれできたくした。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "砂",
+          "reading": "すな",
+          "meaning": "sand"
+        }
+      ]
     },
     {
       "id": "n1_056_3",
@@ -66,12 +92,12 @@
       "translation": "That politician resigned over a scandal riddled with corruption.",
       "blank_target": "まみれ",
       "wrong_choices": [
-        "だらけ",
+        "ばかり",
         "がち",
         "めいた"
       ],
       "wrong_choice_explanations": [
-        "だらけ means 'full of' but suggests multiple separate instances, not the thorough covering that まみれ implies.",
+        "ばかり means 'only' or 'nothing but' and simply limits the range; it does not convey the scandal being thoroughly steeped in corruption that まみれ implies.",
         "がち means 'tend to' and indicates a tendency or habit, not a state of being thoroughly tainted.",
         "めいた means 'seeming like' or 'having the air of' but doesn't convey the complete saturation of corruption."
       ],
@@ -86,7 +112,20 @@
           "hiragana_full": "おしょくにまみれたすきゃんだるにより、そのせいじかはじしょくした。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "汚職",
+          "reading": "おしょく",
+          "meaning": "corruption; graft"
+        },
+        {
+          "word": "辞職",
+          "reading": "じしょく",
+          "meaning": "resignation"
+        }
+      ]
     },
     {
       "id": "n1_056_4",
@@ -94,12 +133,12 @@
       "translation": "The chef came out of the kitchen covered in flour.",
       "blank_target": "まみれ",
       "wrong_choices": [
-        "だらけ",
+        "交じり",
         "ずくめ",
         "らしい"
       ],
       "wrong_choice_explanations": [
-        "だらけ indicates something is scattered throughout but doesn't express the state of being covered on one's body.",
+        "小麦粉交じり means 'mixed with flour' and marks partial admixture, not the chef being coated all over in flour that まみれ conveys.",
         "ずくめ means 'entirely' but is typically used with clothing or colors, not substances covering the body.",
         "らしい means 'seems like' or 'typical of' but doesn't indicate actually being covered in flour."
       ],
@@ -114,7 +153,20 @@
           "hiragana_full": "りょうりにんはこむぎこをぜんしんにつけてちゅうぼうからでてきた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "小麦粉",
+          "reading": "こむぎこ",
+          "meaning": "flour"
+        },
+        {
+          "word": "厨房",
+          "reading": "ちゅうぼう",
+          "meaning": "kitchen (of a restaurant)"
+        }
+      ]
     },
     {
       "id": "n1_056_5",
@@ -122,12 +174,12 @@
       "translation": "That company was on the verge of bankruptcy, covered in debt.",
       "blank_target": "まみれ",
       "wrong_choices": [
-        "だらけ",
+        "ずくめ",
         "ばかり",
         "がち"
       ],
       "wrong_choice_explanations": [
-        "だらけ means 'full of' but suggests multiple separate debts rather than being thoroughly overwhelmed by debt.",
+        "ずくめ means 'nothing but' for a uniform set of features (黒ずくめ, いいことずくめ); it does not convey being buried in debt that まみれ conveys.",
         "ばかり means 'only' or 'just' and doesn't express the overwhelming state of being covered in problems.",
         "がち means 'tend to' and indicates tendency, not the current state of being overwhelmed by debt."
       ],
@@ -142,7 +194,25 @@
           "hiragana_full": "そのかいしゃはしゃっきんだらけでとうさんのせとぎわだった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "借金",
+          "reading": "しゃっきん",
+          "meaning": "debt"
+        },
+        {
+          "word": "倒産",
+          "reading": "とうさん",
+          "meaning": "bankruptcy"
+        },
+        {
+          "word": "寸前",
+          "reading": "すんぜん",
+          "meaning": "on the verge of"
+        }
+      ]
     },
     {
       "id": "n1_056_6",
@@ -150,12 +220,12 @@
       "translation": "The people in that region spend their days mired in poverty and violence.",
       "blank_target": "まみれ",
       "wrong_choices": [
-        "だらけ",
+        "がち",
         "めいた",
         "っぽい"
       ],
       "wrong_choice_explanations": [
-        "だらけ suggests scattered instances of problems rather than being completely overwhelmed by them.",
+        "がち means 'tends to' or 'prone to' and marks a tendency, not days thoroughly steeped in poverty and violence that まみれ conveys.",
         "めいた means 'having the appearance of' but doesn't convey actually living in such harsh conditions.",
         "っぽい means 'seems like' or 'resembles' but doesn't indicate actually experiencing such hardships."
       ],
@@ -170,7 +240,20 @@
           "hiragana_full": "そのちいきのじゅうみんはひんこんとぼうりょくにまみれたせいかつをおくっている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "貧困",
+          "reading": "ひんこん",
+          "meaning": "poverty"
+        },
+        {
+          "word": "暴力",
+          "reading": "ぼうりょく",
+          "meaning": "violence"
+        }
+      ]
     },
     {
       "id": "n1_056_7",
@@ -178,12 +261,12 @@
       "translation": "This region has begun its path out of a pollution-choked state.",
       "blank_target": "まみれ",
       "wrong_choices": [
-        "だらけ",
+        "ばかり",
         "ずくめ",
         "めいた"
       ],
       "wrong_choice_explanations": [
-        "だらけ indicates multiple scattered sources of pollution rather than comprehensive contamination.",
+        "ばかり means 'only' or 'nothing but' and simply limits the range; it does not convey the state of being thoroughly polluted that まみれ conveys.",
         "ずくめ means 'entirely' but is used with clothing or abstract concepts, not environmental contamination.",
         "めいた means 'having the air of' but doesn't convey the actual state of being thoroughly polluted."
       ],
@@ -198,7 +281,20 @@
           "hiragana_full": "このちいきはおせんにみちたじょうたいからのだっきゃくへとあゆみはじめた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "汚染",
+          "reading": "おせん",
+          "meaning": "pollution"
+        },
+        {
+          "word": "脱却",
+          "reading": "だっきゃく",
+          "meaning": "breaking away; escaping"
+        }
+      ]
     },
     {
       "id": "n1_056_8",
@@ -206,12 +302,12 @@
       "translation": "The literature of that era overflowed with expressions saturated in violence and chaos.",
       "blank_target": "まみれ",
       "wrong_choices": [
-        "だらけ",
+        "ずくめ",
         "がち",
         "らしい"
       ],
       "wrong_choice_explanations": [
-        "だらけ suggests scattered elements of violence rather than expressions thoroughly permeated with it.",
+        "ずくめ means 'nothing but' for a uniform set of features (記録ずくめ, いいことずくめ); it does not convey expressions saturated with violence and chaos that まみれ conveys.",
         "がち means 'tend to' and indicates tendency, not the actual state of being saturated with violent content.",
         "らしい means 'seems like' or 'typical of' but doesn't convey expressions actually filled with violence."
       ],
@@ -226,7 +322,20 @@
           "hiragana_full": "あのじだいのぶんがくにはぼうりょくとこんらんまみれのひょうげんがみちあふれていた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "混乱",
+          "reading": "こんらん",
+          "meaning": "chaos; confusion"
+        },
+        {
+          "word": "溢れていた",
+          "reading": "あふれていた",
+          "meaning": "was overflowing"
+        }
+      ]
     },
     {
       "id": "n1_056_9",
@@ -234,12 +343,12 @@
       "translation": "That industry is working to escape a structure riddled with misconduct.",
       "blank_target": "まみれ",
       "wrong_choices": [
-        "だらけ",
+        "ばかり",
         "めいた",
         "っぽい"
       ],
       "wrong_choice_explanations": [
-        "だらけ suggests multiple separate instances of misconduct rather than systematic corruption throughout.",
+        "ばかり means 'only' or 'nothing but' and simply limits the range; it does not convey a structure riddled throughout with misconduct that まみれ implies.",
         "めいた means 'having the appearance of' but doesn't convey structures actually permeated with misconduct.",
         "っぽい means 'seems like' but doesn't indicate structures actually filled with corrupt practices."
       ],
@@ -254,7 +363,25 @@
           "hiragana_full": "そのぎょうかいはふせいまみれのこうぞうからのだっきゃくにつとめている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "業界",
+          "reading": "ぎょうかい",
+          "meaning": "industry; the trade"
+        },
+        {
+          "word": "不正",
+          "reading": "ふせい",
+          "meaning": "injustice; fraud"
+        },
+        {
+          "word": "脱却",
+          "reading": "だっきゃく",
+          "meaning": "breaking away; escaping"
+        }
+      ]
     },
     {
       "id": "n1_056_10",
@@ -262,12 +389,12 @@
       "translation": "That patient was brought to the hospital pumped full of drugs.",
       "blank_target": "まみれ",
       "wrong_choices": [
-        "だらけ",
+        "のみ",
         "ずくめ",
         "がち"
       ],
       "wrong_choice_explanations": [
-        "だらけ indicates multiple scattered problems rather than a state of being overwhelmed by substances.",
+        "のみ means 'only' and simply limits the range; it does not convey the state of being pumped full of drugs that まみれ conveys.",
         "ずくめ means 'entirely' but is typically used with clothing or colors, not substance intoxication.",
         "がち means 'tend to' and indicates tendency toward drug use, not the current state of intoxication."
       ],
@@ -282,7 +409,20 @@
           "hiragana_full": "そのかんじゃはくすりづけのじょうたいでびょういんにはこばれた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "薬物",
+          "reading": "やくぶつ",
+          "meaning": "drugs; narcotics"
+        },
+        {
+          "word": "患者",
+          "reading": "かんじゃ",
+          "meaning": "patient"
+        }
+      ]
     }
   ]
 }

@@ -1,33 +1,33 @@
 {
   "id": "n5_034",
-  "pattern": "～てもいいですか",
-  "meaning": "May I ~? / Is it okay to ~?",
+  "pattern": "〜てもいい（ですか）",
+  "meaning": "May I ~? / it's okay to ~ (permission)",
   "level": "N5",
   "exercises": [
     {
       "id": "n5_034_1",
-      "example_sentence": "ここに座ってもいいですか。",
-      "translation": "May I sit here?",
-      "blank_target": "て",
+      "example_sentence": "ここで写真を撮ってもいいです。",
+      "translation": "You may take photos here.",
+      "blank_target": "てもいいです",
       "wrong_choices": [
-        "で",
-        "に",
-        "を"
+        "てはいけません",
+        "てください",
+        "ています"
       ],
       "wrong_choice_explanations": [
-        "で is the te-form connector, but only for verbs ending in ぬ・ぶ・む・ぐ (読んで, 泳いで); 座る forms its te-form as 座って with て, so で doesn't fit here.",
-        "に is a particle for direction or time and does not form the te-form needed to attach もいいですか.",
-        "を is the direct-object particle and does not form the te-form required for a permission request."
+        "てはいけません means 'must not'; the opposite of permission.",
+        "てください is a request ('please do'), not granting permission.",
+        "ています expresses an ongoing action, not permission."
       ],
-      "hiragana_full": "ここにすわってもいいですか。",
+      "hiragana_full": "ここでしゃしんをとってもいいです。",
       "audio_alternatives": [
         {
-          "kanji": "ここに座っていいですか。",
-          "hiragana_full": "ここにすわっていいですか。"
+          "kanji": "ここで写真を撮っていいですよ。",
+          "hiragana_full": "ここでしゃしんをとっていいですよ。"
         },
         {
-          "kanji": "ここに座れますか。",
-          "hiragana_full": "ここにすわれますか。"
+          "kanji": "ここで写真を撮ることができます。",
+          "hiragana_full": "ここでしゃしんをとることができます。"
         }
       ],
       "audio_eligible": true,
@@ -35,136 +35,221 @@
     },
     {
       "id": "n5_034_2",
-      "example_sentence": "写真を撮ってもいいですか。",
-      "translation": "Is it okay to take photos?",
-      "blank_target": "て",
+      "example_sentence": "この本を借りてもいいですか。",
+      "translation": "May I borrow this book?",
+      "blank_target": "てもいいですか",
       "wrong_choices": [
-        "た",
-        "ない",
-        "ます"
+        "てはいけません",
+        "てください",
+        "たいです"
       ],
       "wrong_choice_explanations": [
-        "た is the past tense form — it doesn't work with もいいですか for permission requests.",
-        "ない is the negative form — it would make the sentence grammatically incorrect here.",
-        "ます is the polite present form — it cannot connect directly to もいいですか."
+        "てはいけません means 'must not'; it's a prohibition, not a question.",
+        "てください is a request, not asking for permission.",
+        "たいです expresses desire ('I want to'), not asking permission."
       ],
-      "hiragana_full": "しゃしんをとってもいいですか。",
+      "hiragana_full": "このほんをかりてもいいですか。",
       "audio_alternatives": [
         {
-          "kanji": "写真を撮っていいですか。",
-          "hiragana_full": "しゃしんをとっていいですか。"
+          "kanji": "この本を借りていいですか。",
+          "hiragana_full": "このほんをかりていいですか。"
         },
         {
-          "kanji": "写真を撮ってもかまいませんか。",
-          "hiragana_full": "しゃしんをとってもかまいませんか。"
+          "kanji": "この本を借りることができますか。",
+          "hiragana_full": "このほんをかりることができますか。"
         }
       ],
       "audio_eligible": true,
-      "register": "neutral",
-      "vocab": [
-        {
-          "word": "写真",
-          "reading": "しゃしん",
-          "meaning": "photo"
-        }
-      ]
+      "register": "neutral"
     },
     {
       "id": "n5_034_3",
-      "example_sentence": "窓を開けてもいいですか。",
-      "translation": "May I open the window?",
-      "blank_target": "て",
+      "example_sentence": "宿題をしなくてもいいです。",
+      "translation": "It's okay not to do homework.",
+      "blank_target": "てもいいです",
       "wrong_choices": [
-        "ば",
-        "と",
-        "から"
+        "てはいけません",
+        "ちゃいけません",
+        "なります"
       ],
       "wrong_choice_explanations": [
-        "ば creates conditional sentences ('if') — it doesn't form permission requests with もいいですか.",
-        "と means 'when' or 'if' in conditionals — it's not used for asking permission.",
-        "から means 'because' or 'from' — it cannot connect verbs to permission expressions."
+        "しなくてはいけません means 'you must do your homework' — the obligation that is the exact opposite of しなくてもいい ('you don't have to').",
+        "しなくちゃいけません is the casual form of that same 'must do it' obligation; it still says homework is required, not that skipping it is okay.",
+        "しなくなります means you come to stop doing homework (a change of habit); it describes a change of state, not permission to skip it."
       ],
-      "hiragana_full": "まどをあけてもいいですか。",
+      "hiragana_full": "しゅくだいをしなくてもいいです。",
       "audio_alternatives": [
         {
-          "kanji": "窓を開けていいですか。",
-          "hiragana_full": "まどをあけていいですか。"
+          "kanji": "宿題をしなくても大丈夫です。",
+          "hiragana_full": "しゅくだいをしなくてもだいじょうぶです。"
         },
         {
-          "kanji": "窓を開けてもかまいませんか。",
-          "hiragana_full": "まどをあけてもかまいませんか。"
+          "kanji": "宿題はしなくていいです。",
+          "hiragana_full": "しゅくだいはしなくていいです。"
         }
       ],
       "audio_eligible": true,
-      "register": "neutral",
-      "vocab": [
-        {
-          "word": "窓",
-          "reading": "まど",
-          "meaning": "window"
-        }
-      ]
+      "register": "neutral"
     },
     {
       "id": "n5_034_4",
-      "example_sentence": "先に帰ってもいいですか。",
-      "translation": "Is it okay if I go home first?",
-      "blank_target": "て",
+      "example_sentence": "明日学校を休んでもいいですか。",
+      "translation": "May I be absent from school tomorrow?",
+      "blank_target": "でもいいですか",
       "wrong_choices": [
-        "ので",
-        "けれど",
-        "のに"
+        "ではいけません",
+        "だことがあります",
+        "でしょう"
       ],
       "wrong_choice_explanations": [
-        "ので means 'because' or 'since' — it's used for giving reasons, not asking permission.",
-        "けれど means 'but' or 'however' — it shows contrast, not permission requests.",
-        "のに means 'despite' or 'although' — it expresses contradiction, not permission."
+        "ではいけません prohibits the action; not asking permission.",
+        "だことがあります means 'have been absent before'; expresses experience, not permission.",
+        "でしょう expresses probability ('probably will be absent'), not asking permission."
       ],
-      "hiragana_full": "さきにかえってもいいですか。",
+      "hiragana_full": "あしたがっこうをやすんでもいいですか。",
       "audio_alternatives": [
         {
-          "kanji": "先に帰ってもかまいませんか。",
-          "hiragana_full": "さきにかえってもかまいませんか。"
+          "kanji": "明日学校を休んでいいですか。",
+          "hiragana_full": "あしたがっこうをやすんでいいですか。"
         },
         {
-          "kanji": "先に帰っていいですか。",
-          "hiragana_full": "さきにかえっていいですか。"
+          "kanji": "明日学校を休んでもよろしいですか。",
+          "hiragana_full": "あしたがっこうをやすんでもよろしいですか。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral"
+    },
+    {
+      "id": "n5_034_5",
+      "example_sentence": "お先に失礼してもいいですか。",
+      "translation": "May I excuse myself first?",
+      "blank_target": "てもいいですか",
+      "wrong_choices": [
+        "てはいけません",
+        "てみます",
+        "てあります"
+      ],
+      "wrong_choice_explanations": [
+        "てはいけません means 'must not leave'; a prohibition.",
+        "てみます means 'try to excuse myself'; expressing attempt, not permission.",
+        "てあります describes a state resulting from an action, not asking permission."
+      ],
+      "hiragana_full": "おさきにしつれいしてもいいですか。",
+      "audio_alternatives": [
+        {
+          "kanji": "先に帰ってもいいですか。",
+          "hiragana_full": "さきにかえってもいいですか。"
+        },
+        {
+          "kanji": "お先に失礼してよろしいですか。",
+          "hiragana_full": "おさきにしつれいしてよろしいですか。"
         }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
         {
-          "word": "先に",
-          "reading": "さきに",
-          "meaning": "first; ahead (of others)"
+          "word": "お先に",
+          "reading": "おさきに",
+          "meaning": "before you, ahead (of you)"
+        },
+        {
+          "word": "失礼",
+          "reading": "しつれい",
+          "meaning": "excusing oneself (leaving)"
         }
       ]
     },
     {
-      "id": "n5_034_5",
-      "example_sentence": "質問してもいいですか。",
-      "translation": "May I ask a question?",
-      "blank_target": "て",
+      "id": "n5_034_6",
+      "example_sentence": "エアコンをつけてもいいですか。",
+      "translation": "May I turn on the air conditioning?",
+      "blank_target": "てもいいですか",
       "wrong_choices": [
-        "たら",
-        "ながら",
-        "まで"
+        "てはいけません",
+        "てください",
+        "てしまいます"
       ],
       "wrong_choice_explanations": [
-        "たら creates conditional sentences ('if/when') — it doesn't work with もいいですか for permission.",
-        "ながら means 'while doing' — it expresses simultaneous actions, not permission requests.",
-        "まで means 'until' — it indicates time limits, not permission."
+        "てはいけません means 'must not turn on'; opposite of permission.",
+        "てください is 'please turn on'; a request, not a permission question.",
+        "てしまいます means 'will end up turning on'; expresses completion or regret, not asking permission."
       ],
-      "hiragana_full": "しつもんしてもいいですか。",
+      "hiragana_full": "えあこんをつけてもいいですか。",
       "audio_alternatives": [
         {
-          "kanji": "聞いてもいいですか。",
-          "hiragana_full": "きいてもいいですか。"
+          "kanji": "エアコンをつけてもよいですか。",
+          "hiragana_full": "えあこんをつけてもよいですか。"
         },
         {
-          "kanji": "質問してもいいですか？",
-          "hiragana_full": "しつもんしてもいいですか？"
+          "kanji": "エアコンをつけていいですか。",
+          "hiragana_full": "えあこんをつけていいですか。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral"
+    },
+    {
+      "id": "n5_034_7",
+      "example_sentence": "辞書を使ってもいいです。",
+      "translation": "It's okay to use a dictionary.",
+      "blank_target": "てもいいです",
+      "wrong_choices": [
+        "てはいけません",
+        "てあげます",
+        "てきます"
+      ],
+      "wrong_choice_explanations": [
+        "てはいけません means 'must not use'; a prohibition.",
+        "てあげます means 'use (a dictionary) for someone'; giving a favor, not permission.",
+        "てきます means 'go and use'; indicates movement away, not permission."
+      ],
+      "hiragana_full": "じしょをつかってもいいです。",
+      "audio_alternatives": [
+        {
+          "kanji": "辞書を使っても構いません。",
+          "hiragana_full": "じしょをつかってもかまいません。"
+        },
+        {
+          "kanji": "辞書を使っていいよ。",
+          "hiragana_full": "じしょをつかっていいよ。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "辞書",
+          "reading": "じしょ",
+          "meaning": "dictionary"
+        }
+      ]
+    },
+    {
+      "id": "n5_034_8",
+      "example_sentence": "質問があるんですが、聞いてもいいですか。",
+      "translation": "I have a question - may I ask it?",
+      "blank_target": "てもいいですか",
+      "wrong_choices": [
+        "てはいけません",
+        "てくれます",
+        "ておきます"
+      ],
+      "wrong_choice_explanations": [
+        "てはいけません means 'must not ask'; a prohibition.",
+        "てくれます means 'ask for me'; receiving a favor, not asking permission.",
+        "ておきます means 'ask in advance'; preparation, not asking permission."
+      ],
+      "hiragana_full": "しつもんがあるんですが、きいてもいいですか。",
+      "audio_alternatives": [
+        {
+          "kanji": "質問してもいいですか。",
+          "hiragana_full": "しつもんしてもいいですか。"
+        },
+        {
+          "kanji": "聞きたいことがあるんですが、いいですか。",
+          "hiragana_full": "ききたいことがあるんですが、いいですか。"
         }
       ],
       "audio_eligible": true,
@@ -178,130 +263,29 @@
       ]
     },
     {
-      "id": "n5_034_6",
-      "example_sentence": "お手洗いに行ってもいいですか。",
-      "translation": "May I go to the restroom?",
-      "blank_target": "て",
-      "wrong_choices": [
-        "だけ",
-        "しか",
-        "ほど"
-      ],
-      "wrong_choice_explanations": [
-        "だけ means 'only' — it's a limiting particle that cannot connect verbs to もいいですか.",
-        "しか means 'only' (with negative) — it doesn't form the connection needed for permission requests.",
-        "ほど means 'to the extent of' — it cannot link verbs to permission expressions."
-      ],
-      "hiragana_full": "おてあらいにいってもいいですか。",
-      "audio_alternatives": [
-        {
-          "kanji": "トイレに行ってもいいですか。",
-          "hiragana_full": "トイレにいってもいいですか。"
-        },
-        {
-          "kanji": "トイレに行っていいですか。",
-          "hiragana_full": "トイレにいっていいですか。"
-        }
-      ],
-      "audio_eligible": true,
-      "register": "neutral",
-      "vocab": [
-        {
-          "word": "お手洗い",
-          "reading": "おてあらい",
-          "meaning": "restroom"
-        }
-      ]
-    },
-    {
-      "id": "n5_034_7",
-      "example_sentence": "早く食べてもいいですか。",
-      "translation": "Is it okay to eat quickly?",
-      "blank_target": "て",
-      "wrong_choices": [
-        "よう",
-        "そう",
-        "みたい"
-      ],
-      "wrong_choice_explanations": [
-        "よう indicates appearance or intention — it doesn't connect verbs to permission requests.",
-        "そう indicates hearsay or appearance — it cannot form permission expressions with もいいですか.",
-        "みたい means 'seems like' — it expresses similarity, not permission requests."
-      ],
-      "hiragana_full": "はやくたべてもいいですか。",
-      "audio_alternatives": [
-        {
-          "kanji": "早く食べていいですか。",
-          "hiragana_full": "はやくたべていいですか。"
-        },
-        {
-          "kanji": "早く食べてもかまいませんか。",
-          "hiragana_full": "はやくたべてもかまいませんか。"
-        }
-      ],
-      "audio_eligible": true,
-      "register": "neutral",
-      "vocab": [
-        {
-          "word": "早く",
-          "reading": "はやく",
-          "meaning": "quickly"
-        }
-      ]
-    },
-    {
-      "id": "n5_034_8",
-      "example_sentence": "ペンを借りてもいいですか。",
-      "translation": "May I borrow a pen?",
-      "blank_target": "て",
-      "wrong_choices": [
-        "る",
-        "た",
-        "ます"
-      ],
-      "wrong_choice_explanations": [
-        "る is the dictionary form — it cannot connect directly to もいいですか for permission requests.",
-        "た is the past tense form — it doesn't work with もいいですか for permission requests.",
-        "ます is the polite present form — it cannot connect directly to もいいですか."
-      ],
-      "hiragana_full": "ぺんをかりてもいいですか。",
-      "audio_alternatives": [
-        {
-          "kanji": "ペンを貸してもらえますか。",
-          "hiragana_full": "ぺんをかしてもらえますか。"
-        },
-        {
-          "kanji": "ペンを使ってもいいですか。",
-          "hiragana_full": "ぺんをつかってもいいですか。"
-        }
-      ],
-      "audio_eligible": true,
-      "register": "neutral"
-    },
-    {
       "id": "n5_034_9",
-      "example_sentence": "ここで待ってもいいですか。",
-      "translation": "Is it okay to wait here?",
-      "blank_target": "て",
+      "example_sentence": "コーヒーを飲んでもいいです。",
+      "translation": "It's okay to drink coffee.",
+      "blank_target": "でもいいです",
       "wrong_choices": [
-        "で",
-        "た",
-        "ば"
+        "ではいけません",
+        "でいたいです",
+        "でいます"
       ],
       "wrong_choice_explanations": [
-        "で is the te-form connector only for verbs ending in ぬ・ぶ・む・ぐ; 待つ forms its te-form as 待って with て, so で doesn't fit.",
-        "た is the plain past-tense ending; 待った means 'waited,' which doesn't combine with もいいですか to ask permission.",
-        "ば makes a conditional ('if ...') and does not form the te-form that もいいですか attaches to."
+        "ではいけません means 'must not drink'; prohibition.",
+        "でいたいです means 'want to be in the state of having drunk'; expresses desire for a state, not permission.",
+        "でいます expresses ongoing state after completing an action, not permission."
       ],
-      "hiragana_full": "ここでまってもいいですか。",
+      "hiragana_full": "コーヒーをのんでもいいです。",
       "audio_alternatives": [
         {
-          "kanji": "ここで待っていいですか。",
-          "hiragana_full": "ここでまっていいですか。"
+          "kanji": "コーヒーを飲んでも構いません。",
+          "hiragana_full": "コーヒーをのんでもかまいません。"
         },
         {
-          "kanji": "ここで待ってもかまいませんか。",
-          "hiragana_full": "ここでまってもかまいませんか。"
+          "kanji": "コーヒーを飲んでもいいよ。",
+          "hiragana_full": "コーヒーをのんでもいいよ。"
         }
       ],
       "audio_eligible": true,
@@ -309,37 +293,42 @@
     },
     {
       "id": "n5_034_10",
-      "example_sentence": "もう一度言ってもいいですか。",
-      "translation": "May I say it one more time?",
-      "blank_target": "て",
+      "example_sentence": "もし質問があれば、何度聞いてもいいです。",
+      "translation": "If you have questions, you can ask as many times as you like.",
+      "blank_target": "てもいいです",
       "wrong_choices": [
-        "ては",
-        "ても",
-        "では"
+        "てはいけません",
+        "なければならないです",
+        "ないでください"
       ],
       "wrong_choice_explanations": [
-        "ては often creates conditional or repetitive meanings — it doesn't form simple permission requests like てもいいですか.",
-        "ても means 'even if' — while it contains て, it changes the meaning to concessive rather than permission.",
-        "では is a topic particle or conditional — it cannot connect verbs to いいですか for permission."
+        "てはいけません expresses prohibition; the sentence grants permission to ask multiple times.",
+        "なければならないです expresses obligation; the sentence permits asking, not requires it.",
+        "ないでください is a polite request not to do something; the sentence grants permission to ask."
       ],
-      "hiragana_full": "もういちどいってもいいですか。",
+      "hiragana_full": "もししつもんがあれば、なんどきいてもいいです。",
       "audio_alternatives": [
         {
-          "kanji": "もう一度言っていいですか。",
-          "hiragana_full": "もういちどいっていいですか。"
+          "kanji": "質問があったら、何回聞いてもかまいません。",
+          "hiragana_full": "しつもんがあったら、なんかいきいてもかまいません。"
         },
         {
-          "kanji": "もう一度言ってもかまいませんか。",
-          "hiragana_full": "もういちどいってもかまいませんか。"
+          "kanji": "もし質問があるなら、何度でも聞いていいですよ。",
+          "hiragana_full": "もししつもんがあるなら、なんどでもきいていいですよ。"
         }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
         {
-          "word": "もう一度",
-          "reading": "もういちど",
-          "meaning": "one more time"
+          "word": "質問",
+          "reading": "しつもん",
+          "meaning": "question"
+        },
+        {
+          "word": "何度",
+          "reading": "なんど",
+          "meaning": "how many times / repeatedly"
         }
       ]
     }

@@ -6,35 +6,6 @@
   "exercises": [
     {
       "id": "n2_093_1",
-      "example_sentence": "企画段階から実行に至るまで、多くの議論がありました。",
-      "translation": "From the planning stage all the way to implementation, there were many discussions.",
-      "blank_target": "に至るまで",
-      "wrong_choices": [
-        "に至って",
-        "にわたって",
-        "をはじめ"
-      ],
-      "wrong_choice_explanations": [
-        "に至って means 'at the point of reaching' and is used for a single point in time, not a range ending point like this sentence requires.",
-        "にわたって means 'over/throughout' and indicates duration or scope, but doesn't emphasize the extent of a range like に至るまで does.",
-        "をはじめ frames 実行 as the first or representative item in a set ('starting with implementation, and so on'), whereas に至るまで marks 実行 as the far endpoint of the range beginning at 企画段階 — the emphasis on covering everything right up to that point is what would be lost."
-      ],
-      "hiragana_full": "きかくだんかいからじっこうにいたるまで、おおくのぎろんがありました。",
-      "audio_alternatives": [
-        {
-          "kanji": "企画段階から実行まで、多くの議論がありました。",
-          "hiragana_full": "きかくだんかいからじっこうまで、おおくのぎろんがありました。"
-        },
-        {
-          "kanji": "企画段階から実行に至るまで、多くの議論がなされました。",
-          "hiragana_full": "きかくだんかいからじっこうにいたるまで、おおくのぎろんがなされました。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "にいたるまで"
-    },
-    {
-      "id": "n2_093_2",
       "example_sentence": "細部に至るまで、慎重に計画した。",
       "translation": "We planned meticulously down to the smallest details.",
       "blank_target": "に至るまで",
@@ -60,68 +31,23 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "にいたるまで"
-    },
-    {
-      "id": "n2_093_3",
-      "example_sentence": "基本的なルールから複雑な戦略に至るまで、すべて教えます。",
-      "translation": "From basic rules all the way to complex strategies, I'll teach you everything.",
-      "blank_target": "に至るまで",
-      "wrong_choices": [
-        "にかけて",
-        "を通して",
-        "にわたって"
-      ],
-      "wrong_choice_explanations": [
-        "にかけて means 'from...to' but implies a gradual process or transition, not the comprehensive range emphasis of に至るまで.",
-        "を通して means 'through/throughout' and indicates method or duration, not the extent of a range.",
-        "にわたって means 'over/throughout' but doesn't emphasize reaching the furthest extent like に至るまで does."
-      ],
-      "hiragana_full": "きほんてきなるーるからふくざつなせんりゃくにいたるまで、すべておしえます。",
-      "audio_alternatives": [
+      "blank_target_reading": "にいたるまで",
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "基本的なルールから複雑な戦略まで、何でも教えます。",
-          "hiragana_full": "きほんてきなるーるからふくざつなせんりゃくまで、なんでもおしえます。"
+          "word": "細部",
+          "reading": "さいぶ",
+          "meaning": "details"
         },
         {
-          "kanji": "基本的なルールから複雑な戦略に至るまで、すべてお教えします。",
-          "hiragana_full": "きほんてきなるーるからふくざつなせんりゃくにいたるまで、すべておおしえします。"
+          "word": "慎重",
+          "reading": "しんちょう",
+          "meaning": "careful, cautious"
         }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "にいたるまで"
+      ]
     },
     {
-      "id": "n2_093_4",
-      "example_sentence": "予算申請から承認に至るまで、厳格な手続きがある。",
-      "translation": "From budget application all the way to approval, there are strict procedures.",
-      "blank_target": "に至るまで",
-      "wrong_choices": [
-        "に至って",
-        "までに",
-        "に対して"
-      ],
-      "wrong_choice_explanations": [
-        "に至って means 'upon reaching' and indicates a single point, not the full process range that に至るまで emphasizes.",
-        "までに means 'by (deadline)' and indicates a time limit, not the extent of a procedural range.",
-        "に対して means 'toward/against' and indicates direction or opposition, not a range of procedures."
-      ],
-      "hiragana_full": "よさんしんせいからしょうにんにいたるまで、げんかくなてつづきがある。",
-      "audio_alternatives": [
-        {
-          "kanji": "予算申請から承認までの間、厳格な手続きが存在する。",
-          "hiragana_full": "よさんしんせいからしょうにんまでのあいだ、げんかくなてつづきがそんざいする。"
-        },
-        {
-          "kanji": "予算の申請から承認に至るまで、厳しい手続きがある。",
-          "hiragana_full": "よさんのしんせいからしょうにんにいたるまで、きびしいてつづきがある。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "にいたるまで"
-    },
-    {
-      "id": "n2_093_5",
+      "id": "n2_093_2",
       "example_sentence": "子供から大人に至るまで、誰でも楽しめる映画です。",
       "translation": "It's a movie that anyone from children all the way to adults can enjoy.",
       "blank_target": "に至るまで",
@@ -147,10 +73,11 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "にいたるまで"
+      "blank_target_reading": "にいたるまで",
+      "register": "neutral"
     },
     {
-      "id": "n2_093_6",
+      "id": "n2_093_3",
       "example_sentence": "初心者から専門家に至るまで、この本は役立ちます。",
       "translation": "From beginners all the way to experts, this book is useful.",
       "blank_target": "に至るまで",
@@ -176,39 +103,28 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "にいたるまで"
-    },
-    {
-      "id": "n2_093_7",
-      "example_sentence": "基礎研究から実用化に至るまで、長い時間がかかった。",
-      "translation": "From basic research all the way to practical application, it took a long time.",
-      "blank_target": "に至るまで",
-      "wrong_choices": [
-        "に至って",
-        "を通じて",
-        "にかけて"
-      ],
-      "wrong_choice_explanations": [
-        "に至って means 'upon reaching' and indicates arrival at a specific point, not the full developmental range.",
-        "を通じて means 'through/via' and indicates method or means, not the extent of a developmental process.",
-        "にかけて means 'from...to' but suggests a span or period, lacking the emphasis on reaching the furthest extent."
-      ],
-      "hiragana_full": "きそけんきゅうからじつようかにいたるまで、ながいじかんがかかった。",
-      "audio_alternatives": [
+      "blank_target_reading": "にいたるまで",
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "基礎研究から実用化になるまで、長い時間がかかった。",
-          "hiragana_full": "きそけんきゅうからじつようかになるまで、ながいじかんがかかった。"
+          "word": "初心者",
+          "reading": "しょしんしゃ",
+          "meaning": "beginner"
         },
         {
-          "kanji": "基礎研究から実用化に至るまでに、多くの時間を要した。",
-          "hiragana_full": "きそけんきゅうからじつようかにいたるまでに、おおくのじかんをようした。"
+          "word": "専門家",
+          "reading": "せんもんか",
+          "meaning": "expert"
+        },
+        {
+          "word": "役立ちます",
+          "reading": "やくだちます",
+          "meaning": "is useful"
         }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "にいたるまで"
+      ]
     },
     {
-      "id": "n2_093_8",
+      "id": "n2_093_4",
       "example_sentence": "準備から本番に至るまで、気を抜けない。",
       "translation": "From preparation all the way to the actual performance, we can't let our guard down.",
       "blank_target": "に至るまで",
@@ -234,10 +150,23 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "にいたるまで"
+      "blank_target_reading": "にいたるまで",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "本番",
+          "reading": "ほんばん",
+          "meaning": "the real thing, performance"
+        },
+        {
+          "word": "気を抜けない",
+          "reading": "きをぬけない",
+          "meaning": "cannot let one's guard down"
+        }
+      ]
     },
     {
-      "id": "n2_093_9",
+      "id": "n2_093_5",
       "example_sentence": "商品開発から販売に至るまで、チーム一丸となって取り組んだ。",
       "translation": "From product development all the way to sales, the team worked together as one.",
       "blank_target": "に至るまで",
@@ -263,10 +192,28 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "にいたるまで"
+      "blank_target_reading": "にいたるまで",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "販売",
+          "reading": "はんばい",
+          "meaning": "sales"
+        },
+        {
+          "word": "一丸",
+          "reading": "いちがん",
+          "meaning": "as one, united"
+        },
+        {
+          "word": "取り組んだ",
+          "reading": "とりくんだ",
+          "meaning": "tackled, worked on"
+        }
+      ]
     },
     {
-      "id": "n2_093_10",
+      "id": "n2_093_6",
       "example_sentence": "若手社員からベテランに至るまで、全員が参加しました。",
       "translation": "From young employees all the way to veterans, everyone participated.",
       "blank_target": "に至るまで",
@@ -292,7 +239,203 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "にいたるまで"
+      "blank_target_reading": "にいたるまで",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "若手",
+          "reading": "わかて",
+          "meaning": "young, junior"
+        },
+        {
+          "word": "全員",
+          "reading": "ぜんいん",
+          "meaning": "everyone"
+        }
+      ]
+    },
+    {
+      "id": "n2_093_7",
+      "example_sentence": "末端の従業員に至るまで、情報が共有された。",
+      "translation": "Information was shared even down to the lowest-level employees.",
+      "blank_target": "に至るまで",
+      "wrong_choices": [
+        "に至って",
+        "にかけて",
+        "において"
+      ],
+      "wrong_choice_explanations": [
+        "に至って means 'when it comes to' but doesn't emphasize the complete range from top to bottom like に至るまで does.",
+        "にかけて indicates a span of time or area but doesn't emphasize reaching the furthest extent of the hierarchy.",
+        "において means 'in/at' a location or situation but doesn't express the range concept needed here."
+      ],
+      "hiragana_full": "まったんのじゅうぎょういんにいたるまで、じょうほうがきょうゆうされた。",
+      "audio_alternatives": [
+        {
+          "kanji": "末端の従業員まで、情報が共有された。",
+          "hiragana_full": "まったんのじゅうぎょういんまで、じょうほうがきょうゆうされた。"
+        },
+        {
+          "kanji": "最も下位の従業員にまで、情報が共有された。",
+          "hiragana_full": "もっともかいのじゅうぎょういんにまで、じょうほうがきょうゆうされた。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "にいたるまで",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "末端",
+          "reading": "まったん",
+          "meaning": "the lowest level / extremity"
+        },
+        {
+          "word": "従業員",
+          "reading": "じゅうぎょういん",
+          "meaning": "employee"
+        },
+        {
+          "word": "共有",
+          "reading": "きょうゆう",
+          "meaning": "sharing"
+        }
+      ]
+    },
+    {
+      "id": "n2_093_8",
+      "example_sentence": "料理の味付けから盛り付けに至るまで、完璧だった。",
+      "translation": "Everything was perfect, from the seasoning of the food right down to the presentation.",
+      "blank_target": "に至るまで",
+      "wrong_choices": [
+        "に至って",
+        "をはじめ",
+        "を通じて"
+      ],
+      "wrong_choice_explanations": [
+        "に至って means 'when it comes to' but doesn't emphasize covering the complete range of aspects like に至るまで does.",
+        "をはじめ means 'starting with' but doesn't convey the sense of reaching the furthest extent of details.",
+        "を通じて means 'through/by means of' but doesn't express the comprehensive range concept needed here."
+      ],
+      "hiragana_full": "りょうりのあじつけからもりつけにいたるまで、かんぺきだった。",
+      "audio_alternatives": [
+        {
+          "kanji": "料理の味付けから盛り付けまで、すべて完璧だった。",
+          "hiragana_full": "りょうりのあじつけからもりつけまで、すべてかんぺきだった。"
+        },
+        {
+          "kanji": "味付けから盛り付けに至るまで、料理は完璧でした。",
+          "hiragana_full": "あじつけからもりつけにいたるまで、りょうりはかんぺきでした。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "にいたるまで",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "味付け",
+          "reading": "あじつけ",
+          "meaning": "seasoning"
+        },
+        {
+          "word": "盛り付け",
+          "reading": "もりつけ",
+          "meaning": "plating / presentation"
+        },
+        {
+          "word": "完璧",
+          "reading": "かんぺき",
+          "meaning": "perfect"
+        }
+      ]
+    },
+    {
+      "id": "n2_093_9",
+      "example_sentence": "地方の小さな町に至るまで、その影響が及んでいる。",
+      "translation": "The impact has spread even to small towns in rural areas.",
+      "blank_target": "に至るまで",
+      "wrong_choices": [
+        "にかけて",
+        "にとって",
+        "に関して"
+      ],
+      "wrong_choice_explanations": [
+        "にかけて indicates a span but doesn't emphasize reaching the most remote or extreme places like に至るまで does.",
+        "にとって means 'for/to someone' but doesn't express the geographical extent concept needed here.",
+        "に関して means 'regarding/concerning' but doesn't convey the idea of influence spreading to the furthest places."
+      ],
+      "hiragana_full": "ちほうのちいさなまちにいたるまで、そのえいきょうがおよんでいる。",
+      "audio_alternatives": [
+        {
+          "kanji": "地方の小さな町にまで、その影響が広がっている。",
+          "hiragana_full": "ちほうのちいさなまちにまで、そのえいきょうがひろがっている。"
+        },
+        {
+          "kanji": "地方の小さな町にまで影響が及んでいる。",
+          "hiragana_full": "ちほうのちいさなまちにまでえいきょうがおよんでいる。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "にいたるまで",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "影響",
+          "reading": "えいきょう",
+          "meaning": "influence / effect"
+        },
+        {
+          "word": "及ぶ",
+          "reading": "およぶ",
+          "meaning": "to extend / reach"
+        }
+      ]
+    },
+    {
+      "id": "n2_093_10",
+      "example_sentence": "朝の挨拶から夜の見回りに至るまで、管理人の仕事は多岐にわたる。",
+      "translation": "The caretaker's work is diverse, from morning greetings all the way to evening rounds.",
+      "blank_target": "に至るまで",
+      "wrong_choices": [
+        "を含む",
+        "に関する",
+        "による"
+      ],
+      "wrong_choice_explanations": [
+        "を含む means 'including' but doesn't emphasize the complete range of daily responsibilities like に至るまで does.",
+        "に関する means 'related to' but doesn't express the span from first to last duties of the day.",
+        "による means 'by means of/due to' but doesn't convey the comprehensive scope of work activities."
+      ],
+      "hiragana_full": "あさのあいさつからよるのみまわりにいたるまで、かんりにんのしごとはたきにわたる。",
+      "audio_alternatives": [
+        {
+          "kanji": "朝の挨拶から夜の見回りまで、管理人の仕事は多岐にわたる。",
+          "hiragana_full": "あさのあいさつからよるのみまわりまで、かんりにんのしごとはたきにわたる。"
+        },
+        {
+          "kanji": "管理人の仕事は、朝の挨拶から夜の見回りに至るまで多岐にわたる。",
+          "hiragana_full": "かんりにんのしごとは、あさのあいさつからよるのみまわりにいたるまでたきにわたる。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "にいたるまで",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "見回り",
+          "reading": "みまわり",
+          "meaning": "patrol / rounds"
+        },
+        {
+          "word": "管理人",
+          "reading": "かんりにん",
+          "meaning": "caretaker / manager"
+        },
+        {
+          "word": "多岐にわたる",
+          "reading": "たきにわたる",
+          "meaning": "to span many areas"
+        }
+      ]
     }
   ]
 }

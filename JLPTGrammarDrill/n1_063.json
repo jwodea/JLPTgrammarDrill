@@ -11,12 +11,12 @@
       "blank_target": "こととて",
       "wrong_choices": [
         "ことから",
-        "ために",
+        "折に",
         "によって"
       ],
       "wrong_choice_explanations": [
         "ことから means 'from the fact that' but lacks the apologetic nuance of こととて in this context.",
-        "ために means 'for the purpose of' or 'because of' but is less formal and doesn't convey the apologetic tone.",
+        "折に (おりに) means 'on the occasion of' and marks the timing of an event; it does not give the sudden request as the reason for the shortfall, which is what こととて does.",
         "によって means 'by means of' or 'due to' but doesn't express the formal apologetic reasoning of こととて."
       ],
       "hiragana_full": "きゅうないらいのこととて、じゅうぶんなじゅんびができませんでした。",
@@ -30,7 +30,15 @@
           "hiragana_full": "とつぜんのいらいゆえに、じゅうぶんなじゅんびができませんでした。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        {
+          "word": "依頼",
+          "reading": "いらい",
+          "meaning": "request"
+        }
+      ]
     },
     {
       "id": "n1_063_2",
@@ -58,7 +66,20 @@
           "hiragana_full": "はじめてのかいがいしゅっちょうゆえ、ふなれなてんがおおくごめいわくをおかけしてしまいました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        {
+          "word": "不慣れ",
+          "reading": "ふなれ",
+          "meaning": "unfamiliar; inexperienced"
+        },
+        {
+          "word": "出張",
+          "reading": "しゅっちょう",
+          "meaning": "business trip"
+        }
+      ]
     },
     {
       "id": "n1_063_3",
@@ -86,7 +107,15 @@
           "hiragana_full": "じゅうようなこくさいかいぎのけんゆえ、しょうさいなじょうほうをおつたえできないてんをおゆるしいただけますようおねがいもうしあげます。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        {
+          "word": "詳細",
+          "reading": "しょうさい",
+          "meaning": "details"
+        }
+      ]
     },
     {
       "id": "n1_063_4",
@@ -114,7 +143,20 @@
           "hiragana_full": "かぞくのびょうきというじじょうにより、こんかいのしゅっせきをじたいさせていただきます。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        {
+          "word": "出席",
+          "reading": "しゅっせき",
+          "meaning": "attendance"
+        },
+        {
+          "word": "見合わせて",
+          "reading": "みあわせて",
+          "meaning": "to postpone; to hold off on"
+        }
+      ]
     },
     {
       "id": "n1_063_5",
@@ -142,7 +184,25 @@
           "hiragana_full": "かいしゃのきみつじこうにあたるため、かいとうできないぶぶんがあることをごりかいください。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        {
+          "word": "機密",
+          "reading": "きみつ",
+          "meaning": "confidential; secret"
+        },
+        {
+          "word": "事項",
+          "reading": "じこう",
+          "meaning": "matter; item"
+        },
+        {
+          "word": "了承",
+          "reading": "りょうしょう",
+          "meaning": "consent; acknowledgement"
+        }
+      ]
     },
     {
       "id": "n1_063_6",
@@ -170,7 +230,25 @@
           "hiragana_full": "がいこうじょうのきみつにかかわることがらゆえ、しょうさいをあきらかにすることはできかねますのでごりょうしょうください。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        {
+          "word": "外交",
+          "reading": "がいこう",
+          "meaning": "diplomacy"
+        },
+        {
+          "word": "機密",
+          "reading": "きみつ",
+          "meaning": "confidential; secret"
+        },
+        {
+          "word": "明かせない",
+          "reading": "あかせない",
+          "meaning": "cannot reveal"
+        }
+      ]
     },
     {
       "id": "n1_063_7",
@@ -179,12 +257,12 @@
       "blank_target": "こととて",
       "wrong_choices": [
         "ことからして",
-        "ゆえに",
+        "のもとで",
         "として"
       ],
       "wrong_choice_explanations": [
         "ことからして means 'judging from the fact that' but doesn't express the formal apologetic reasoning of こととて.",
-        "ゆえに means 'therefore' but is more conclusive and lacks the apologetic nuance of こととて in this context.",
+        "のもとで means 'under (the conditions/auspices of)' and marks the situation an event unfolds within; it frames the crisis as a backdrop rather than giving it as the reason, which is what こととて does.",
         "として means 'as' or 'in the capacity of' but doesn't convey the causal apologetic meaning needed here."
       ],
       "hiragana_full": "こっかてきなききのこととて、ことなるたちばのひとびともきょうりょくをよぎなくされている。",
@@ -198,7 +276,20 @@
           "hiragana_full": "こっかてきなききゆえに、たちばのことなるひとびともきょうりょくをしいられている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "危機",
+          "reading": "きき",
+          "meaning": "crisis"
+        },
+        {
+          "word": "余儀なくされている",
+          "reading": "よぎなくされている",
+          "meaning": "to be forced (into)"
+        }
+      ]
     },
     {
       "id": "n1_063_8",
@@ -226,7 +317,15 @@
           "hiragana_full": "がくじゅつけんきゅうのせいしつじょう、いっぱんのかたにとってりかいしにくいないようがおおくふくまれています。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        {
+          "word": "学術",
+          "reading": "がくじゅつ",
+          "meaning": "academic; scholarship"
+        }
+      ]
     },
     {
       "id": "n1_063_9",
@@ -254,7 +353,20 @@
           "hiragana_full": "じゅうようなけいえいはんだんのことがらであるから、そのぜんようをはあくすることはこんなんだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "全容",
+          "reading": "ぜんよう",
+          "meaning": "the whole picture"
+        },
+        {
+          "word": "判断",
+          "reading": "はんだん",
+          "meaning": "judgment; decision"
+        }
+      ]
     },
     {
       "id": "n1_063_10",
@@ -282,7 +394,20 @@
           "hiragana_full": "せんもんてきないりょうはんだんがからむことゆえ、かんじゃさまにごふあんをおかけしていることとぞんじます。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        {
+          "word": "専門的",
+          "reading": "せんもんてき",
+          "meaning": "specialized; technical"
+        },
+        {
+          "word": "存じます",
+          "reading": "ぞんじます",
+          "meaning": "to know; to think (humble)"
+        }
+      ]
     }
   ]
 }

@@ -31,7 +31,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "とはかぎらない"
+      "blank_target_reading": "とはかぎらない",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "作品",
+          "reading": "さくひん",
+          "meaning": "work"
+        },
+        {
+          "word": "常に",
+          "reading": "つねに",
+          "meaning": "always"
+        }
+      ]
     },
     {
       "id": "n2_047_2",
@@ -60,7 +73,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "とはかぎらない"
+      "blank_target_reading": "とはかぎらない",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "見た目",
+          "reading": "みため",
+          "meaning": "appearance"
+        },
+        {
+          "word": "品質",
+          "reading": "ひんしつ",
+          "meaning": "quality"
+        }
+      ]
     },
     {
       "id": "n2_047_3",
@@ -89,97 +115,28 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "とはかぎらない"
+      "blank_target_reading": "とはかぎらない",
+      "register": "written",
+      "vocab": [
+        {
+          "word": "技術",
+          "reading": "ぎじゅつ",
+          "meaning": "technology"
+        },
+        {
+          "word": "必ずしも",
+          "reading": "かならずしも",
+          "meaning": "not necessarily"
+        },
+        {
+          "word": "効果的",
+          "reading": "こうかてき",
+          "meaning": "effective"
+        }
+      ]
     },
     {
       "id": "n2_047_4",
-      "example_sentence": "大規模企業が成功するとは限らない。",
-      "translation": "Large corporations don't necessarily succeed.",
-      "blank_target": "とは限らない",
-      "wrong_choices": [
-        "に決まっている",
-        "と思われる",
-        "ことが多い"
-      ],
-      "wrong_choice_explanations": [
-        "に決まっている asserts certain success for large corporations, the opposite stance from とは限らない, which denies that such success universally follows from being large.",
-        "と思われる offers the speaker's tentative opinion that they will succeed; the sentence needs とは限らない to deny the generalization rather than express a personal impression.",
-        "ことが多い is a frequency claim ('they often succeed') but the sentence asserts that being large doesn't always guarantee success — exactly what とは限らない conveys."
-      ],
-      "hiragana_full": "だいきぼきぎょうがせいこうするとはかぎらない。",
-      "audio_alternatives": [
-        {
-          "kanji": "大企業が必ずしも成功するわけではない。",
-          "hiragana_full": "だいきぎょうがかならずしもせいこうするわけではない。"
-        },
-        {
-          "kanji": "大規模な企業が成功するとは限らない。",
-          "hiragana_full": "だいきぼなきぎょうがせいこうするとはかぎらない。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "とはかぎらない"
-    },
-    {
-      "id": "n2_047_5",
-      "example_sentence": "古い研究が常に間違っているとは限らない。",
-      "translation": "Old research is not necessarily always incorrect.",
-      "blank_target": "とは限らない",
-      "wrong_choices": [
-        "はずがない",
-        "ことではない",
-        "ものではない"
-      ],
-      "wrong_choice_explanations": [
-        "はずがない means 'cannot be' or 'it's impossible that' and expresses strong denial based on logic, but here とは限らない is needed to show that old research isn't necessarily always wrong.",
-        "ことではない means 'it's not a matter of' and indicates something is not the issue, but this context requires とは限らない to express that being old doesn't necessarily mean being incorrect.",
-        "ものではない means 'it's not something that' and denies the nature of something, but here とは限らない is needed to show that age doesn't necessarily determine correctness."
-      ],
-      "hiragana_full": "ふるいけんきゅうがつねにまちがっているとはかぎらない。",
-      "audio_alternatives": [
-        {
-          "kanji": "古い研究が必ずしも間違っているわけではない。",
-          "hiragana_full": "ふるいけんきゅうがかならずしもまちがっているわけではない。"
-        },
-        {
-          "kanji": "古い研究が常に誤りだとは限らない。",
-          "hiragana_full": "ふるいけんきゅうがつねにあやまりだとはかぎらない。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "とはかぎらない"
-    },
-    {
-      "id": "n2_047_6",
-      "example_sentence": "有名な大学を出た人が優秀だとは限らない。",
-      "translation": "People who graduated from famous universities are not necessarily excellent.",
-      "blank_target": "とは限らない",
-      "wrong_choices": [
-        "とは思えない",
-        "に違いない",
-        "に決まっている"
-      ],
-      "wrong_choice_explanations": [
-        "とは思えない means 'I don't think that' and expresses personal doubt, but here とは限らない is needed to objectively state that graduating from a famous university doesn't necessarily guarantee excellence.",
-        "に違いない means 'must be' or 'definitely' and expresses strong certainty, which is the opposite of what this sentence needs - とは限らない expresses uncertainty.",
-        "に決まっている means 'definitely' or 'of course' and expresses certainty, but here とは限らない is needed to show that famous university graduation doesn't necessarily guarantee excellence."
-      ],
-      "hiragana_full": "ゆうめいなだいがくをでたひとがゆうしゅうだとはかぎらない。",
-      "audio_alternatives": [
-        {
-          "kanji": "有名な大学を卒業した人が必ずしも優秀とは言えない。",
-          "hiragana_full": "ゆうめいなだいがくをそつぎょうしたひとがかならずしもゆうしゅうとはいえない。"
-        },
-        {
-          "kanji": "名門大学を出たからといって、必ずしも優秀とは限らない。",
-          "hiragana_full": "めいもんだいがくをでたからといって、かならずしもゆうしゅうとはかぎらない。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "とはかぎらない"
-    },
-    {
-      "id": "n2_047_7",
       "example_sentence": "お金持ちが幸せだとは限らない。",
       "translation": "Rich people are not necessarily happy.",
       "blank_target": "とは限らない",
@@ -205,10 +162,18 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "とはかぎらない"
+      "blank_target_reading": "とはかぎらない",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "お金持ち",
+          "reading": "おかねもち",
+          "meaning": "rich person"
+        }
+      ]
     },
     {
-      "id": "n2_047_8",
+      "id": "n2_047_5",
       "example_sentence": "高い商品が良い商品だとは限らない。",
       "translation": "Expensive products are not necessarily good products.",
       "blank_target": "とは限らない",
@@ -234,10 +199,18 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "とはかぎらない"
+      "blank_target_reading": "とはかぎらない",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "商品",
+          "reading": "しょうひん",
+          "meaning": "product"
+        }
+      ]
     },
     {
-      "id": "n2_047_9",
+      "id": "n2_047_6",
       "example_sentence": "年上の人が経験豊富だとは限らない。",
       "translation": "Older people are not necessarily more experienced.",
       "blank_target": "とは限らない",
@@ -263,10 +236,23 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "とはかぎらない"
+      "blank_target_reading": "とはかぎらない",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "年上",
+          "reading": "としうえ",
+          "meaning": "older"
+        },
+        {
+          "word": "豊富",
+          "reading": "ほうふ",
+          "meaning": "abundant"
+        }
+      ]
     },
     {
-      "id": "n2_047_10",
+      "id": "n2_047_7",
       "example_sentence": "最新の方法が最も効率的だとは限らない。",
       "translation": "The newest methods are not necessarily the most efficient.",
       "blank_target": "とは限らない",
@@ -292,7 +278,134 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "とはかぎらない"
+      "blank_target_reading": "とはかぎらない",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "最新",
+          "reading": "さいしん",
+          "meaning": "latest"
+        },
+        {
+          "word": "効率的",
+          "reading": "こうりつてき",
+          "meaning": "efficient"
+        }
+      ]
+    },
+    {
+      "id": "n2_047_8",
+      "example_sentence": "大学を出たからといって、成功するとは限らない。",
+      "translation": "Just because you graduated from university doesn't mean you'll necessarily succeed.",
+      "blank_target": "とは限らない",
+      "wrong_choices": [
+        "ものではない",
+        "べきではない",
+        "はずがない"
+      ],
+      "wrong_choice_explanations": [
+        "ものではない means 'it's not something you should do' and gives advice, but here we need とは限らない to express that graduation doesn't guarantee success.",
+        "べきではない means 'shouldn't' and expresses obligation, but here we need とは限らない to show the uncertain relationship between graduation and success.",
+        "はずがない means 'there's no way' and expresses strong certainty, but here we need とは限らない to express uncertainty about outcomes."
+      ],
+      "hiragana_full": "だいがくをでたからといって、せいこうするとはかぎらない。",
+      "audio_alternatives": [
+        {
+          "kanji": "大学を卒業したからといって、成功するとは限らない。",
+          "hiragana_full": "だいがくをそつぎょうしたからといって、せいこうするとはかぎらない。"
+        },
+        {
+          "kanji": "大学を出たからといって、必ず成功するわけではない。",
+          "hiragana_full": "だいがくをでたからといって、かならずせいこうするわけではない。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "とはかぎらない",
+      "register": "neutral"
+    },
+    {
+      "id": "n2_047_9",
+      "example_sentence": "天気予報が当たるとは限らない。",
+      "translation": "Weather forecasts are not necessarily accurate.",
+      "blank_target": "とは限らない",
+      "wrong_choices": [
+        "わけがない",
+        "に違いない",
+        "場合が多い"
+      ],
+      "wrong_choice_explanations": [
+        "わけがない would claim it is impossible for the forecast to be right, but とは限らない makes the milder point that it simply isn't always accurate.",
+        "に違いない expresses the speaker's conviction that the forecast must be right, the opposite of the doubt that とは限らない conveys.",
+        "場合が多い says forecasts are accurate in many cases, leaning positive, whereas とは限らない withholds that guarantee by stressing they aren't always right."
+      ],
+      "hiragana_full": "てんきよほうがあたるとはかぎらない。",
+      "audio_alternatives": [
+        {
+          "kanji": "天気予報が必ずしも当たるわけではない。",
+          "hiragana_full": "てんきよほうがかならずしもあたるわけではない。"
+        },
+        {
+          "kanji": "天気予報が常に正確とは言えない。",
+          "hiragana_full": "てんきよほうがつねにせいかくとはいえない。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "とはかぎらない",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "天気予報",
+          "reading": "てんきよほう",
+          "meaning": "weather forecast"
+        },
+        {
+          "word": "当たる",
+          "reading": "あたる",
+          "meaning": "to come true / hit the mark"
+        }
+      ]
+    },
+    {
+      "id": "n2_047_10",
+      "example_sentence": "早起きが健康に良いとは限らない。",
+      "translation": "Getting up early is not necessarily good for your health.",
+      "blank_target": "とは限らない",
+      "wrong_choices": [
+        "だろう",
+        "かもしれない",
+        "とされている"
+      ],
+      "wrong_choice_explanations": [
+        "だろう merely guesses that early rising is probably good for your health, but とは限らない instead denies that it is always beneficial.",
+        "かもしれない raises the possibility that it might be good for you, whereas とは限らない makes the general point that it isn't necessarily so.",
+        "とされている reports it as the commonly accepted view that early rising is healthy, but とは限らない pushes back, noting that received wisdom doesn't always hold."
+      ],
+      "hiragana_full": "はやおきがけんこうによいとはかぎらない。",
+      "audio_alternatives": [
+        {
+          "kanji": "早起きが健康に良いとは言えない。",
+          "hiragana_full": "はやおきがけんこうによいとはいえない。"
+        },
+        {
+          "kanji": "早起きが必ずしも健康に良いわけではない。",
+          "hiragana_full": "はやおきがかならずしもけんこうによいわけではない。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "とはかぎらない",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "早起き",
+          "reading": "はやおき",
+          "meaning": "early rising"
+        },
+        {
+          "word": "健康",
+          "reading": "けんこう",
+          "meaning": "health"
+        }
+      ]
     }
   ]
 }

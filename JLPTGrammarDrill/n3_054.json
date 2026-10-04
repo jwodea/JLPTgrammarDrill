@@ -30,7 +30,8 @@
           "hiragana_full": "やくそくしたから、いかなければならない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n3_054_2",
@@ -58,49 +59,34 @@
           "hiragana_full": "しごとにほうこくしないで、ぷろじぇくとをしゅうりょうすることはできない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "報告",
+          "reading": "ほうこく",
+          "meaning": "report"
+        },
+        {
+          "word": "終了",
+          "reading": "しゅうりょう",
+          "meaning": "termination"
+        }
+      ]
     },
     {
       "id": "n3_054_3",
-      "example_sentence": "親の健康のことを無視するわけにはいかない。",
-      "translation": "I cannot ignore my parents' health.",
-      "blank_target": "わけにはいかない",
-      "wrong_choices": [
-        "べきではない",
-        "ざるを得ない",
-        "わけがない"
-      ],
-      "wrong_choice_explanations": [
-        "べきではない means 'should not,' expressing what's advisable, but わけにはいかない emphasizes a duty that cannot be shirked.",
-        "ざるを得ない means 'have no choice but to,' similar in obligation but less focused on the impossibility of doing otherwise.",
-        "わけがない means 'there's no way,' denying possibility, but the sentence expresses moral obligation to take action."
-      ],
-      "hiragana_full": "おやのけんこうのことをむしするわけにはいかない。",
-      "audio_alternatives": [
-        {
-          "kanji": "親の健康を無視するわけにはいかない。",
-          "hiragana_full": "おやのけんこうをむしするわけにはいかない。"
-        },
-        {
-          "kanji": "親の健康のことを無視できない。",
-          "hiragana_full": "おやのけんこうのことをむしできない。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_054_4",
       "example_sentence": "家族の大事な決定に、意見を述べないわけにはいかない。",
       "translation": "I cannot refrain from expressing my opinion on important family decisions.",
       "blank_target": "わけにはいかない",
       "wrong_choices": [
         "てはいけない",
-        "ことはできない",
+        "わけがない",
         "べきではない"
       ],
       "wrong_choice_explanations": [
         "てはいけない means 'must not,' a prohibition, but the sentence expresses a family duty to participate, not a prohibition.",
-        "ことはできない means 'cannot do,' but わけにはいかない emphasizes the social/family obligation making it impossible to stay silent.",
+        "〜わけがない denies that something is possible ('there's no way I wouldn't speak up'), a claim about likelihood; but the sentence expresses a family duty that makes staying silent unacceptable — an obligation-driven 'cannot,' which is わけにはいかない's role.",
         "べきではない means 'should not,' but わけにはいかない expresses a stronger sense of obligation and necessity."
       ],
       "hiragana_full": "かぞくのだいじなけっていに、いけんをのべないわけにはいかない。",
@@ -114,10 +100,23 @@
           "hiragana_full": "かぞくのじゅうようなけっていにたいして、いけんをのべずにはいられない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "決定",
+          "reading": "けってい",
+          "meaning": "decision"
+        },
+        {
+          "word": "大事",
+          "reading": "だいじ",
+          "meaning": "important"
+        }
+      ]
     },
     {
-      "id": "n3_054_5",
+      "id": "n3_054_4",
       "example_sentence": "助けを求めている人を見て、無関心でいるわけにはいかない。",
       "translation": "I cannot remain indifferent when I see someone asking for help.",
       "blank_target": "わけにはいかない",
@@ -142,147 +141,225 @@
           "hiragana_full": "たすけをひつようとしているひとをみて、むかんしんではいられない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "求めて",
+          "reading": "もとめて",
+          "meaning": "seeking"
+        },
+        {
+          "word": "無関心",
+          "reading": "むかんしん",
+          "meaning": "indifferent"
+        }
+      ]
+    },
+    {
+      "id": "n3_054_5",
+      "example_sentence": "他の人が働いているのに、私だけ休むわけにはいかない。",
+      "translation": "While others are working, I can't very well rest alone.",
+      "blank_target": "わけ",
+      "wrong_choices": [
+        "もの",
+        "こと",
+        "の"
+      ],
+      "wrong_choice_explanations": [
+        "もの creates emphasis or explanation — it doesn't express the social constraint that わけにはいかない provides.",
+        "こと nominalizes the verb — it doesn't create the meaning of social impossibility that this context requires.",
+        "の is a nominalizing particle — it doesn't convey the sense of social obligation or constraint."
+      ],
+      "hiragana_full": "ほかのひとがはたらいているのに、わたしだけやすむわけにはいかない。",
+      "audio_alternatives": [
+        {
+          "kanji": "他の人が働いているのに、私だけ休むことはできない。",
+          "hiragana_full": "ほかのひとがはたらいているのに、わたしだけやすむことはできない。"
+        },
+        {
+          "kanji": "みんなが働いているのに、私だけ休むわけにはいかない。",
+          "hiragana_full": "みんながはたらいているのに、わたしだけやすむわけにはいかない。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n3_054_6",
-      "example_sentence": "親に相談せずに、決定するわけにはいかない。",
-      "translation": "I cannot make a decision without consulting my parents.",
-      "blank_target": "わけにはいかない",
+      "example_sentence": "お客様の前で、そんなことを言うわけにはいきません。",
+      "translation": "I can't very well say such things in front of customers.",
+      "blank_target": "わけ",
       "wrong_choices": [
-        "わけがない",
-        "てはいけない",
-        "べきではない"
+        "ため",
+        "ので",
+        "から"
       ],
       "wrong_choice_explanations": [
-        "'わけがない' means 'impossible'; '〜わけにはいかない' is needed for 'cannot due to social reasons'.",
-        "'てはいけない' expresses prohibition; '〜わけにはいかない' implies obligation.",
-        "'べきではない' expresses negative obligation; '〜わけにはいかない' is about necessity."
+        "ため means 'for' or 'because of' — it shows purpose or reason rather than social impossibility.",
+        "ので means 'because' — it expresses causation rather than the social constraint of わけにはいかない.",
+        "から means 'because' — it shows reason or cause, not the social obligation or impossibility."
       ],
-      "hiragana_full": "おやにそうだんせずに、けっていするわけにはいかない。",
+      "hiragana_full": "おきゃくさまのまえで、そんなことをいうわけにはいきません。",
       "audio_alternatives": [
         {
-          "kanji": "親に相談しないで、決定することはできない。",
-          "hiragana_full": "おやにそうだんしないで、けっていすることはできない。"
+          "kanji": "お客様の前で、そんなことは言えません。",
+          "hiragana_full": "おきゃくさまのまえで、そんなことはいえません。"
         },
         {
-          "kanji": "親に相談せずに決めるわけにはいかない。",
-          "hiragana_full": "おやにそうだんせずにきめるわけにはいかない。"
+          "kanji": "お客様の前で、そんなことを言うことはできません。",
+          "hiragana_full": "おきゃくさまのまえで、そんなことをいうことはできません。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "お客様",
+          "reading": "おきゃくさま",
+          "meaning": "customer (honorific)"
+        }
+      ]
     },
     {
       "id": "n3_054_7",
-      "example_sentence": "チームメンバーを裏切るわけにはいかない。",
-      "translation": "I cannot betray my team members.",
-      "blank_target": "わけにはいかない",
+      "example_sentence": "彼に嘘をついた以上、謝らないわけにはいかない。",
+      "translation": "Since I lied to him, I can't very well not apologize.",
+      "blank_target": "わけ",
       "wrong_choices": [
-        "わけがない",
-        "てはいけない",
-        "べきではない"
+        "ところ",
+        "まま",
+        "ばかり"
       ],
       "wrong_choice_explanations": [
-        "〜わけがない means 'impossible', but 〜わけにはいかない means 'cannot because of duty or morality'",
-        "〜てはいけない expresses prohibition, but 〜わけにはいかない emphasizes duty or obligation",
-        "〜べきではない expresses what should not be done, less emphatic than the impossibility of 〜わけにはいかない"
+        "ところ means 'place' or 'point' — it doesn't create the meaning of social obligation that わけにはいかない expresses.",
+        "まま means 'as is' or 'remaining' — it shows unchanged state rather than social impossibility.",
+        "ばかり means 'only' or 'just' — it shows limitation rather than the social constraint meaning needed here."
       ],
-      "hiragana_full": "ちーむめんばーをうらぎるわけにはいかない。",
+      "hiragana_full": "かれにうそをついたいじょう、あやまらないわけにはいかない。",
       "audio_alternatives": [
         {
-          "kanji": "チームメンバーを裏切ることはできない。",
-          "hiragana_full": "ちーむめんばーをうらぎることはできない。"
+          "kanji": "彼に嘘をついたから、謝らなければならない。",
+          "hiragana_full": "かれにうそをついたから、あやまらなければならない。"
         },
         {
-          "kanji": "チームメンバーを裏切るつもりはない。",
-          "hiragana_full": "ちーむめんばーをうらぎるつもりはない。"
+          "kanji": "彼に嘘をついたので、謝らないといけない。",
+          "hiragana_full": "かれにうそをついたので、あやまらないといけない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "嘘",
+          "reading": "うそ",
+          "meaning": "lie"
+        }
+      ]
     },
     {
       "id": "n3_054_8",
-      "example_sentence": "ステークホルダーを無視するわけにはいかない。",
-      "translation": "I cannot ignore our stakeholders.",
-      "blank_target": "わけにはいかない",
+      "example_sentence": "借りたお金を返さないわけにはいかない。",
+      "translation": "I can't very well not return the money I borrowed.",
+      "blank_target": "わけ",
       "wrong_choices": [
-        "わけがない",
-        "てはいけない",
-        "べきではない"
+        "限り",
+        "以上",
+        "うちに"
       ],
       "wrong_choice_explanations": [
-        "わけがない means 'there is no way', but the sentence emphasizes social/moral necessity.",
-        "てはいけない means 'must not', but わけにはいかない emphasizes the impossibility due to circumstances.",
-        "べきではない means 'should not', but わけにはいかない emphasizes that it is impossible to do."
+        "限り means 'as long as' — it creates conditional meaning rather than expressing social obligation.",
+        "以上 means 'since' or 'now that' — it shows reasoning from a fact rather than social impossibility.",
+        "うちに means 'while' — it indicates time period rather than the social constraint of わけにはいかない."
       ],
-      "hiragana_full": "すてーくほるだーをむしするわけにはいかない。",
+      "hiragana_full": "かりたおかねをかえさないわけにはいかない。",
       "audio_alternatives": [
         {
-          "kanji": "ステークホルダーを無視することはできない。",
-          "hiragana_full": "すてーくほるだーをむしすることはできない。"
+          "kanji": "借りたお金は返さなければならない。",
+          "hiragana_full": "かりたおかねはかえさなければならない。"
         },
         {
-          "kanji": "ステークホルダーを無視するわけにはいきません。",
-          "hiragana_full": "すてーくほるだーをむしするわけにはいきません。"
+          "kanji": "借りたお金を返さないといけない。",
+          "hiragana_full": "かりたおかねをかえさないといけない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n3_054_9",
-      "example_sentence": "公開討論の約束を破るわけにはいかない。",
-      "translation": "I cannot break my commitment to the public debate.",
-      "blank_target": "わけにはいかない",
+      "example_sentence": "先生の前で、携帯電話を使うわけにはいかない。",
+      "translation": "I can't very well use my phone in front of the teacher.",
+      "blank_target": "わけ",
       "wrong_choices": [
-        "ざるを得ない",
-        "つもりはない",
-        "わけがない"
+        "ようだ",
+        "そうだ",
+        "らしい"
       ],
       "wrong_choice_explanations": [
-        "ざるを得ない means 'cannot help but do' / 'am forced to do' — the wrong polarity here, since the sentence is about being unable to break the commitment, not being forced to break it.",
-        "破るつもりはない means 'I don't intend to break it' and reports the speaker's volition. The sentence is stronger: not 'I won't,' but 'I can't very well,' an obligation-driven impossibility that's わけにはいかない's territory.",
-        "わけがない means 'there's no way,' denying logical possibility, but a public commitment is perfectly possible to break — the speaker is constrained by duty, not by impossibility, which is what わけにはいかない captures."
+        "ようだ means 'seems like' — it expresses appearance or resemblance rather than social constraint.",
+        "そうだ means 'seems' or 'I heard' — it expresses appearance or hearsay rather than social impossibility.",
+        "らしい means 'seems like' — it expresses appearance or hearsay rather than the social obligation meaning."
       ],
-      "hiragana_full": "こうかいとうろんのやくそくをやぶるわけにはいかない。",
+      "hiragana_full": "せんせいのまえで、けいたいでんわをつかうわけにはいかない。",
       "audio_alternatives": [
         {
-          "kanji": "公開討論の約束を破ることはできない。",
-          "hiragana_full": "こうかいとうろんのやくそくをやぶることはできない。"
+          "kanji": "先生の前で、携帯電話を使うことはできない。",
+          "hiragana_full": "せんせいのまえで、けいたいでんわをつかうことはできない。"
         },
         {
-          "kanji": "公開討論への約束を破るわけにはいかない。",
-          "hiragana_full": "こうかいとうろんへのやくそくをやぶるわけにはいかない。"
+          "kanji": "先生の前で、スマホを使うわけにはいかない。",
+          "hiragana_full": "せんせいのまえで、すまほをつかうわけにはいかない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n3_054_10",
-      "example_sentence": "顧客との信頼関係を損なうようなことをするわけにはいかない。",
-      "translation": "I cannot do anything that would damage the trust relationship with our clients.",
-      "blank_target": "わけにはいかない",
+      "example_sentence": "チームの一員として、責任を放棄するわけにはいかない。",
+      "translation": "As a team member, I can't very well abandon my responsibilities.",
+      "blank_target": "わけ",
       "wrong_choices": [
-        "ものではない",
-        "てはいけない",
-        "わけがない"
+        "かもしれない",
+        "に違いない",
+        "だろう"
       ],
       "wrong_choice_explanations": [
-        "信頼関係を損なうようなことはするものではない means 'this isn't the sort of thing one does' — a generic moral norm. The sentence is more specific to the speaker's situation: in their position, with this established trust, they cannot do it. That obligation-driven impossibility is what わけにはいかない marks.",
-        "てはいけない is a flat prohibition 'must not,' as if reciting a rule. The sentence isn't quoting a rule against damaging trust — it's the speaker recognizing they can't, given the relationship, which is what わけにはいかない conveys.",
-        "わけがない means 'there's no way,' denying that something is possible. Damaging the trust IS possible — the speaker is constrained by professional duty, not by impossibility, and that distinction is わけにはいかない's job."
+        "かもしれない means 'might' or 'maybe' — it expresses possibility rather than social constraint.",
+        "に違いない means 'must be' — it expresses strong certainty rather than the social impossibility of わけにはいかない.",
+        "だろう means 'probably' — it expresses probability rather than the social obligation or constraint meaning."
       ],
-      "hiragana_full": "こきゃくとのしんらいかんけいをそこなうようなことをするわけにはいかない。",
+      "hiragana_full": "ちーむのいちいんとして、せきにんをほうきするわけにはいかない。",
       "audio_alternatives": [
         {
-          "kanji": "顧客との信頼関係を傷つけるようなことはできない。",
-          "hiragana_full": "こきゃくとのしんらいかんけいをきずつけるようなことはできない。"
+          "kanji": "チームの一員として、責任を捨てるわけにはいかない。",
+          "hiragana_full": "ちーむのいちいんとして、せきにんをすてるわけにはいかない。"
         },
         {
-          "kanji": "お客様との信頼関係を損なうようなことはするべきではない。",
-          "hiragana_full": "おきゃくさまとのしんらいかんけいをそこなうようなことはするべきではない。"
+          "kanji": "チームの一員だから、責任を放棄することはできない。",
+          "hiragana_full": "ちーむのいちいんだから、せきにんをほうきすることはできない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "一員",
+          "reading": "いちいん",
+          "meaning": "a member"
+        },
+        {
+          "word": "責任",
+          "reading": "せきにん",
+          "meaning": "responsibility"
+        },
+        {
+          "word": "放棄",
+          "reading": "ほうき",
+          "meaning": "abandoning"
+        }
+      ]
     }
   ]
 }

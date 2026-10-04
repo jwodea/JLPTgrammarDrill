@@ -10,13 +10,13 @@
       "translation": "I heard it will snow tomorrow. They said so on the weather forecast.",
       "blank_target": "そう",
       "wrong_choices": [
-        "らしい",
-        "ようだ",
+        "べき",
+        "ふり",
         "でしょう"
       ],
       "wrong_choice_explanations": [
-        "らしい indicates general impression or hearsay, but そうだ is more direct for reporting what was specifically heard.",
-        "ようだ indicates inference from evidence, but here we're directly reporting what was said on the forecast.",
+        "べき states what ought to happen — the weather has no obligations, so 降るべきです is nonsense; relaying the forecast's words takes hearsay そうだ.",
+        "ふり means pretending — snow cannot pretend, so 降るふりです is nonsense; reporting what the weather forecast said needs そうです.",
         "でしょう expresses probability or conjecture, but そうだ specifically indicates information received from others."
       ],
       "hiragana_full": "あしたはゆきがふるそうです。てんきよほうでいっていました。",
@@ -30,7 +30,15 @@
           "hiragana_full": "あしたはゆきがふるそうです。てんきよほうによると。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "天気予報",
+          "reading": "てんきよほう",
+          "meaning": "weather forecast"
+        }
+      ]
     },
     {
       "id": "n4_028_2",
@@ -38,14 +46,14 @@
       "translation": "I heard Tanaka-san is changing jobs. He told me himself.",
       "blank_target": "そう",
       "wrong_choices": [
-        "つもり",
-        "ようだ",
-        "はず"
+        "ふり",
+        "べき",
+        "まま"
       ],
       "wrong_choice_explanations": [
-        "つもり indicates the person's own intention, but we're reporting what we heard, not his personal plan.",
-        "ようだ indicates inference from evidence, but this is direct reported speech, not inference.",
-        "はず means 'should be' based on expectation, but そうだ indicates information directly received from someone."
+        "ふり means pretending — 転職するふりだ would say he is faking the job change, contradicting that he himself told you it is real; reporting his words takes そうだ.",
+        "べき states what ought to happen (転職するべきだ = 'he should change jobs'), a personal opinion, but the sentence passes on what Tanaka himself said, which needs そうだ.",
+        "まま marks an unchanged state (着たまま); 転職するままだ is ungrammatical and can't report what Tanaka told you. Hearsay takes そうだ."
       ],
       "hiragana_full": "たなかさんはてんしょくするそうだ。ほんにんからきいた。",
       "audio_alternatives": [
@@ -58,7 +66,20 @@
           "hiragana_full": "たなかさんがてんしょくするときいた。ほんにんからちょくせつきいた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "転職",
+          "reading": "てんしょく",
+          "meaning": "changing jobs"
+        },
+        {
+          "word": "本人",
+          "reading": "ほんにん",
+          "meaning": "the person himself"
+        }
+      ]
     },
     {
       "id": "n4_028_3",
@@ -66,14 +87,14 @@
       "translation": "I heard the new movie is interesting. My friend told me.",
       "blank_target": "そう",
       "wrong_choices": [
-        "かもしれない",
-        "ようだ",
-        "みたい"
+        "気",
+        "ふり",
+        "べき"
       ],
       "wrong_choice_explanations": [
-        "かもしれない expresses uncertainty or possibility, but そうだ reports definite information received from someone.",
-        "ようだ indicates personal inference, but this is clearly reported information, not personal observation.",
-        "みたい expresses similarity or personal impression, not information received from others."
+        "気だ expresses a person's intention (行く気だ) and doesn't attach to an adjective, so 面白い気です is ungrammatical; what your friend told you is reported with そうです.",
+        "ふり means pretending — a movie cannot pretend to be interesting, so 面白いふりです is nonsense; what your friend told you is reported with そうです.",
+        "べき attaches to verbs to express obligation, so 面白いべきです is ungrammatical; the friend's report needs そうです."
       ],
       "hiragana_full": "あたらしいえいがはおもしろいそうです。ともだちがおしえてくれました。",
       "audio_alternatives": [
@@ -86,7 +107,8 @@
           "hiragana_full": "ともだちにきいたんですが、あたらしいえいがはおもしろいそうです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n4_028_4",
@@ -94,13 +116,13 @@
       "translation": "I heard bus fares will go up from next month. I heard it on the news.",
       "blank_target": "そう",
       "wrong_choices": [
-        "予定",
-        "ようだ",
+        "気",
+        "ふり",
         "べき"
       ],
       "wrong_choice_explanations": [
-        "予定 indicates a scheduled plan, but そうだ is used for reporting what was heard, not stating schedules.",
-        "ようだ indicates inference from evidence, but this is direct reporting of news, not personal inference.",
+        "気だ attributes an intention (行く気だ) — fares are inanimate and intend nothing; reporting the news item takes そうだ.",
+        "ふり means pretending — fares cannot pretend to rise, so 上がるふりだ is nonsense; news you heard is reported with そうだ.",
         "べき expresses obligation or what should be done, but そうだ reports heard information without judgment."
       ],
       "hiragana_full": "らいげつからバスのりょうきんがあがるそうだ。ニュースできいた。",
@@ -114,7 +136,15 @@
           "hiragana_full": "ニュースで、らいげつからバスのりょうきんがあがるときいた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "料金",
+          "reading": "りょうきん",
+          "meaning": "fare, fee"
+        }
+      ]
     },
     {
       "id": "n4_028_5",
@@ -122,14 +152,14 @@
       "translation": "I heard he's taking time off due to illness. A colleague mentioned it.",
       "blank_target": "そう",
       "wrong_choices": [
-        "に違いない",
-        "ようだ",
-        "みたい"
+        "気",
+        "べき",
+        "つもり"
       ],
       "wrong_choice_explanations": [
-        "に違いない expresses strong conviction or certainty, but そうだ simply reports what was heard without expressing personal conviction.",
-        "ようだ indicates inference from evidence, but this is reported information, not personal observation.",
-        "みたい expresses appearance or similarity, not information heard from others."
+        "気だ attributes an intention (行く気だ); 休んでいる気です is ungrammatical and doesn't relay what the colleague said. Reported information needs そうです.",
+        "べき states obligation (休んでいるべきです = 'he ought to be resting'), the speaker's opinion, not the colleague's report that そうです passes on.",
+        "つもり expresses intention; 病気で休んでいるつもりです would say he intends to be off sick, which doesn't relay what the colleague said. Reported information needs そうです."
       ],
       "hiragana_full": "かれはびょうきでやすんでいるそうです。どうりょうがいっていました。",
       "audio_alternatives": [
@@ -142,7 +172,15 @@
           "hiragana_full": "びょうきでやすんでいるとどうりょうからききました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "同僚",
+          "reading": "どうりょう",
+          "meaning": "colleague"
+        }
+      ]
     },
     {
       "id": "n4_028_6",
@@ -150,13 +188,13 @@
       "translation": "I heard a big shopping center will be built in front of the station. There was an announcement at city hall.",
       "blank_target": "そう",
       "wrong_choices": [
-        "計画",
-        "ようだ",
+        "つもり",
+        "べき",
         "でしょう"
       ],
       "wrong_choice_explanations": [
-        "計画 means 'plan' as a noun, but そうだ is needed to report what was heard about the plan.",
-        "ようだ indicates inference from evidence, but this is direct reporting of an official announcement.",
+        "つもり marks someone's intention — a shopping center cannot intend to come into being; reporting the announcement takes そうだ.",
+        "べき states what ought to happen, a personal opinion; the city hall announcement is information heard from others, which needs そうだ.",
         "でしょう expresses probability, but そうだ specifically indicates information received from an official source."
       ],
       "hiragana_full": "えきまえにおおきなショッピングセンターができるそうだ。しやくしょではっぴょうがあった。",
@@ -170,7 +208,20 @@
           "hiragana_full": "えきまえにおおきなショッピングセンターができるそうです。しやくしょではっぴょうがありました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "市役所",
+          "reading": "しやくしょ",
+          "meaning": "city hall"
+        },
+        {
+          "word": "発表",
+          "reading": "はっぴょう",
+          "meaning": "announcement"
+        }
+      ]
     },
     {
       "id": "n4_028_7",
@@ -178,14 +229,14 @@
       "translation": "I heard the upcoming exam will be difficult. The teacher was talking about it.",
       "blank_target": "いそう",
       "wrong_choices": [
-        "いらしい",
-        "いようだ",
-        "いはず"
+        "いつもり",
+        "いふり",
+        "いべき"
       ],
       "wrong_choice_explanations": [
-        "いらしい suggests general impression, but いそうだ is more direct for information specifically heard from the teacher.",
-        "いようだ indicates inference from evidence, but this is direct reporting of what the teacher said.",
-        "いはず means 'should be' based on expectation, but いそうだ indicates information directly heard from the teacher."
+        "つもり would claim the exam itself intends to be difficult, which is nonsense; reporting what the teacher said takes hearsay そうだ (難しいそうです).",
+        "ふり would claim the exam is pretending to be difficult, which is nonsense; reporting what the teacher said needs そうです.",
+        "べき attaches to verbs, not adjectives, so 難しいべきです is ungrammatical; what the teacher said is reported with そうです."
       ],
       "hiragana_full": "こんどのしけんはむずかしいそうです。せんせいがはなしていました。",
       "audio_alternatives": [
@@ -198,7 +249,8 @@
           "hiragana_full": "つぎのしけんはむずかしいそうです。せんせいがはなしていました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n4_028_8",
@@ -206,13 +258,13 @@
       "translation": "I heard she's getting married. Her mother was talking about it happily.",
       "blank_target": "そう",
       "wrong_choices": [
-        "つもり",
-        "ようだ",
+        "ふり",
+        "べき",
         "かもしれない"
       ],
       "wrong_choice_explanations": [
-        "つもり indicates personal intention, but そうだ reports what we heard from the mother, not the daughter's personal plan.",
-        "ようだ indicates inference from evidence, but this is direct reporting of what the mother said.",
+        "ふり means pretense — 結婚するふりだ would say she is faking the marriage, clashing with her mother happily spreading the real news; reporting it takes そうだ.",
+        "べき states what ought to happen (結婚するべきだ = 'she should get married'), an opinion, but the sentence relays news from her mother, which needs そうだ.",
         "かもしれない expresses possibility or uncertainty, but そうだ reports definite information heard from someone."
       ],
       "hiragana_full": "かのじょはけっこんするそうだ。おかあさんがうれしそうにはなしていた。",
@@ -226,7 +278,9 @@
           "hiragana_full": "かのじょがけっこんするってきいた。おかあさんがうれしそうにはなしていたよ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "blank_occurrence": 1
     },
     {
       "id": "n4_028_9",
@@ -234,14 +288,14 @@
       "translation": "I heard this restaurant's food is delicious. A neighbor recommended it to me.",
       "blank_target": "いそう",
       "wrong_choices": [
-        "いらしい",
-        "いようだ",
-        "いに違いない"
+        "いふり",
+        "いべき",
+        "いつもり"
       ],
       "wrong_choice_explanations": [
-        "いらしい suggests general reputation, but いそうだ is better for specific information from a neighbor's recommendation.",
-        "いようだ indicates inference from evidence, but this is direct information received from a neighbor.",
-        "いに違いない expresses strong personal conviction, but いそうだ simply reports what was heard without adding personal judgment."
+        "ふり would say the food merely pretends to be delicious — nonsense for food, and it contradicts the neighbor's sincere recommendation; reporting it takes そうだ (美味しいそうです).",
+        "べき attaches to verbs, not adjectives, so 美味しいべきです is ungrammatical; the neighbor's recommendation is reported with そうです.",
+        "つもり marks a person's intention or belief; food can't intend to be delicious, so 美味しいつもりです is nonsense; the neighbor's recommendation is reported with そうです."
       ],
       "hiragana_full": "このみせのりょうりはおいしいそうです。きんじょのひとがすすめてくれました。",
       "audio_alternatives": [
@@ -254,7 +308,20 @@
           "hiragana_full": "このれすとらんのりょうりはおいしいそうです。きんじょのひとにすすめられました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "近所",
+          "reading": "きんじょ",
+          "meaning": "neighborhood"
+        },
+        {
+          "word": "勧めて",
+          "reading": "すすめて",
+          "meaning": "recommend"
+        }
+      ]
     },
     {
       "id": "n4_028_10",
@@ -263,12 +330,12 @@
       "blank_target": "そう",
       "wrong_choices": [
         "だろう",
-        "ようだ",
+        "ふり",
         "べき"
       ],
       "wrong_choice_explanations": [
         "だろう expresses personal speculation or probability, but そうだ reports specific information heard on the radio.",
-        "ようだ indicates inference from evidence, but this is direct reporting of what was said on the radio.",
+        "ふり means pretending — gasoline cannot pretend to get cheaper, so 安くなるふりだ is nonsense; what was said on the radio is reported with そうだ.",
         "べき expresses what should happen or obligation, but そうだ simply reports heard information without value judgment."
       ],
       "hiragana_full": "らいねんからガソリンがやすくなるそうだ。ラジオでいっていた。",
@@ -282,7 +349,8 @@
           "hiragana_full": "らいねんからガソリンがやすくなるそうです。ラジオでいっていました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     }
   ]
 }

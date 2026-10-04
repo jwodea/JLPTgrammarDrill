@@ -6,34 +6,6 @@
   "exercises": [
     {
       "id": "n2_048_1",
-      "example_sentence": "美しいからといって、芸術的価値があるわけではない。",
-      "translation": "Just because something is beautiful doesn't mean it has artistic value.",
-      "blank_target": "からといって",
-      "wrong_choices": [
-        "ばかりに",
-        "ので",
-        "のに"
-      ],
-      "wrong_choice_explanations": [
-        "ばかりに means 'simply/precisely because' and treats the reason as an actually decisive cause of a (usually unfortunate) result; からといって instead casts doubt on that very inference, denying that beauty alone justifies the conclusion.",
-        "ので simply indicates cause and reason and would assert that beauty does lead to artistic value; からといって is the opposite move, refusing that inference.",
-        "のに expresses 'despite/although', but this sentence is not contrasting outcomes — it's saying that the proposed reason (beauty) is insufficient grounds for assuming artistic value, which is what からといって does."
-      ],
-      "hiragana_full": "うつくしいからといって、げいじゅつてきかちがあるわけではない。",
-      "audio_alternatives": [
-        {
-          "kanji": "美しいからといって、芸術的な価値があるとは限らない。",
-          "hiragana_full": "うつくしいからといって、げいじゅつてきなかちがあるとはかぎらない。"
-        },
-        {
-          "kanji": "美しいだけで、芸術的価値があるとは言えない。",
-          "hiragana_full": "うつくしいだけで、げいじゅつてきかちがあるとはいえない。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_048_2",
       "example_sentence": "専門家だからといって、すべてを知っているわけではない。",
       "translation": "Just because someone is an expert doesn't mean they know everything.",
       "blank_target": "からといって",
@@ -58,178 +30,18 @@
           "hiragana_full": "せんもんかだからといって、なんでもしっているわけではない。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_048_3",
-      "example_sentence": "富があるからといって、幸福が得られるわけではない。",
-      "translation": "Just because you have wealth doesn't mean you can obtain happiness.",
-      "blank_target": "からといって",
-      "wrong_choices": [
-        "だからといって",
-        "ので",
-        "けれど"
-      ],
-      "wrong_choice_explanations": [
-        "だからといって refers to a reason mentioned earlier, but this sentence needs からといって to connect directly to having wealth in the same clause.",
-        "ので simply shows cause and effect, but doesn't convey that wealth alone is insufficient justification for expecting happiness.",
-        "けれど means 'but/however' and shows simple contrast, not the specific meaning that wealth is inadequate grounds for assuming happiness."
-      ],
-      "hiragana_full": "とみがあるからといって、こうふくがえられるわけではない。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "お金があるからといって、幸せになれるわけではない。",
-          "hiragana_full": "おかねがあるからといって、しあわせになれるわけではない。"
-        },
-        {
-          "kanji": "富を持っているからといって、幸福を手に入れられるとは限らない。",
-          "hiragana_full": "とみをもっているからといって、こうふくをてにいれられるとはかぎらない。"
+          "word": "専門家",
+          "reading": "せんもんか",
+          "meaning": "expert"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n2_048_4",
-      "example_sentence": "学歴が高いからといって、仕事で成功するわけではない。",
-      "translation": "Just because you have a high education level doesn't mean you'll succeed at work.",
-      "blank_target": "からといって",
-      "wrong_choices": [
-        "からこそ",
-        "ので",
-        "ものの"
-      ],
-      "wrong_choice_explanations": [
-        "からこそ means 'precisely because' and emphasizes the reason as the decisive cause; here we want the opposite move — からといって denies that a high education on its own justifies the conclusion of success.",
-        "ので indicates straightforward cause and reason and would affirm that high education leads to success; からといって rejects that inference rather than asserting it.",
-        "ものの means 'although/while' and contrasts two real states of affairs; this sentence isn't contrasting facts, it's saying high education is insufficient grounds for assuming work success."
-      ],
-      "hiragana_full": "がくれきがたかいからといって、しごとでせいこうするわけではない。",
-      "audio_alternatives": [
-        {
-          "kanji": "学歴が高いからといって、仕事で成功できるとは限らない。",
-          "hiragana_full": "がくれきがたかいからといって、しごとでせいこうできるとはかぎらない。"
-        },
-        {
-          "kanji": "学歴が高くても、必ずしも仕事で成功するわけではない。",
-          "hiragana_full": "がくれきがたかくても、かならずしもしごとでせいこうするわけではない。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_048_5",
-      "example_sentence": "有名な大学を卒業したからといって、優秀な人材というわけではない。",
-      "translation": "Just because someone graduated from a famous university doesn't mean they're talented personnel.",
-      "blank_target": "からといって",
-      "wrong_choices": [
-        "だからといって",
-        "ため",
-        "のに"
-      ],
-      "wrong_choice_explanations": [
-        "だからといって refers to reasons stated previously, but this sentence needs からといって to connect directly to graduating from a famous university.",
-        "ため indicates purpose or cause, but doesn't convey that graduating from a prestigious school alone doesn't justify considering someone talented.",
-        "のに expresses contrast meaning 'despite', but this sentence needs からといって to show that university prestige is insufficient grounds for assuming talent."
-      ],
-      "hiragana_full": "ゆうめいなだいがくをそつぎょうしたからといって、ゆうしゅうなじんざいというわけではない。",
-      "audio_alternatives": [
-        {
-          "kanji": "有名な大学を出たからといって、優秀な人材とは限らない。",
-          "hiragana_full": "ゆうめいなだいがくをでたからといって、ゆうしゅうなじんざいとはかぎらない。"
-        },
-        {
-          "kanji": "名門大学を卒業したからといって、必ずしも優秀な人材というわけではない。",
-          "hiragana_full": "めいもんだいがくをそつぎょうしたからといって、かならずしもゆうしゅうなじんざいというわけではない。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_048_6",
-      "example_sentence": "年上だからといって、経験豊富だとは限らない。",
-      "translation": "Just because someone is older doesn't necessarily mean they're experienced.",
-      "blank_target": "からといって",
-      "wrong_choices": [
-        "だからといって",
-        "ので",
-        "が"
-      ],
-      "wrong_choice_explanations": [
-        "だからといって refers back to previously mentioned reasons, but here we need からといって to connect directly to being older.",
-        "ので shows simple cause and effect, but doesn't express that age alone is insufficient justification for assuming experience.",
-        "が means 'but' and shows contrast, but lacks the specific dismissive meaning that age doesn't adequately support conclusions about experience."
-      ],
-      "hiragana_full": "としうえだからといって、けいけんほうふだとはかぎらない。",
-      "audio_alternatives": [
-        {
-          "kanji": "年上であるからといって、経験が豊富とは限らない。",
-          "hiragana_full": "としうえであるからといって、けいけんがほうふとはかぎらない。"
-        },
-        {
-          "kanji": "年上だからといって、必ずしも経験豊富とは言えない。",
-          "hiragana_full": "としうえだからといって、かならずしもけいけんほうふとはいえない。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_048_7",
-      "example_sentence": "価格が安いからといって、品質が悪いわけではない。",
-      "translation": "Just because the price is cheap doesn't mean the quality is poor.",
-      "blank_target": "からといって",
-      "wrong_choices": [
-        "にしても",
-        "ので",
-        "ものの"
-      ],
-      "wrong_choice_explanations": [
-        "にしても means 'even if/granting that', conceding the cheap price and moving on to a related point; からといって specifically rejects the inference 'cheap → poor quality', which にしても doesn't do.",
-        "ので simply states causation and would assert that the cheap price causes poor quality; からといって denies exactly that inference.",
-        "ものの means 'although/while' and contrasts two established facts; here we're not contrasting facts, we're refusing the leap from cheap price to poor quality, which is からといって's job."
-      ],
-      "hiragana_full": "かかくがやすいからといって、ひんしつがわるいわけではない。",
-      "audio_alternatives": [
-        {
-          "kanji": "値段が安いからといって、品質が悪いとは限らない。",
-          "hiragana_full": "ねだんがやすいからといって、ひんしつがわるいとはかぎらない。"
-        },
-        {
-          "kanji": "価格が低いからといって、品質が悪いというわけではない。",
-          "hiragana_full": "かかくがひくいからといって、ひんしつがわるいというわけではない。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_048_8",
-      "example_sentence": "外国人だからといって、日本語が下手だとは限らない。",
-      "translation": "Just because someone is a foreigner doesn't necessarily mean their Japanese is poor.",
-      "blank_target": "からといって",
-      "wrong_choices": [
-        "だからといって",
-        "けれど",
-        "のに"
-      ],
-      "wrong_choice_explanations": [
-        "だからといって refers back to previously stated information, but here we need からといって to connect directly to being a foreigner.",
-        "けれど means 'but/however' and shows simple contrast, not the specific dismissive meaning that foreign status doesn't support assumptions about Japanese ability.",
-        "のに expresses 'despite/although' but this sentence needs からといって to show that being foreign is insufficient grounds for assuming poor Japanese."
-      ],
-      "hiragana_full": "がいこくじんだからといって、にほんごがへただとはかぎらない。",
-      "audio_alternatives": [
-        {
-          "kanji": "外国人だからといって、必ずしも日本語が下手というわけではない。",
-          "hiragana_full": "がいこくじんだからといって、かならずしもにほんごがへたというわけではない。"
-        },
-        {
-          "kanji": "外国人だからといって、日本語が下手とは言い切れない。",
-          "hiragana_full": "がいこくじんだからといって、にほんごがへたとはいいきれない。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_048_9",
+      "id": "n2_048_2",
       "example_sentence": "忙しいからといって、手抜きをしてもいいわけではない。",
       "translation": "Just because you're busy doesn't mean it's okay to cut corners.",
       "blank_target": "からといって",
@@ -254,35 +66,336 @@
           "hiragana_full": "いそがしいからといって、てぬきがゆるされるわけではない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "手抜き",
+          "reading": "てぬき",
+          "meaning": "cutting corners"
+        }
+      ]
+    },
+    {
+      "id": "n2_048_3",
+      "example_sentence": "お金があるからといって、幸せになれるとは限らない。",
+      "translation": "Just because you have money doesn't necessarily mean you'll be happy.",
+      "blank_target": "からといって",
+      "wrong_choices": [
+        "おかげで",
+        "せいで",
+        "ために"
+      ],
+      "wrong_choice_explanations": [
+        "おかげで means 'thanks to' and indicates positive results from having money, which contradicts the message that money doesn't guarantee happiness.",
+        "せいで means 'because of' with negative connotations, but doesn't convey the warning against assuming money leads to happiness.",
+        "ために means 'for the purpose of' or 'in order to', which doesn't fit the context of warning against false assumptions about money."
+      ],
+      "hiragana_full": "おかねがあるからといって、しあわせになれるとはかぎらない。",
+      "audio_alternatives": [
+        {
+          "kanji": "お金があるからといって、必ずしも幸せになれるわけではない。",
+          "hiragana_full": "おかねがあるからといって、かならずしもしあわせになれるわけではない。"
+        },
+        {
+          "kanji": "お金があるだけで、幸せになれるとは限らない。",
+          "hiragana_full": "おかねがあるだけで、しあわせになれるとはかぎらない。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral"
+    },
+    {
+      "id": "n2_048_4",
+      "example_sentence": "経験があるからといって、必ずしも正しい判断ができるわけではない。",
+      "translation": "Just because you have experience doesn't necessarily mean you can make correct judgments.",
+      "blank_target": "からといって",
+      "wrong_choices": [
+        "につれて",
+        "に従って",
+        "とともに"
+      ],
+      "wrong_choice_explanations": [
+        "につれて means 'as/in proportion to', suggesting judgment ability increases with experience, which contradicts the intended warning.",
+        "に従って means 'according to/following', which would suggest following experience leads to correct judgment, opposite of the intended meaning.",
+        "とともに means 'together with/along with', implying experience and good judgment go hand in hand, contrary to the cautionary message."
+      ],
+      "hiragana_full": "けいけんがあるからといって、かならずしもただしいはんだんができるわけではない。",
+      "audio_alternatives": [
+        {
+          "kanji": "経験があるからといって、必ずしも正しい判断ができるとは限らない。",
+          "hiragana_full": "けいけんがあるからといって、かならずしもただしいはんだんができるとはかぎらない。"
+        },
+        {
+          "kanji": "経験があるからといって、必ずしも正しい判断ができるわけではありません。",
+          "hiragana_full": "けいけんがあるからといって、かならずしもただしいはんだんができるわけではありません。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "必ずしも",
+          "reading": "かならずしも",
+          "meaning": "not necessarily"
+        },
+        {
+          "word": "判断",
+          "reading": "はんだん",
+          "meaning": "judgment"
+        }
+      ]
+    },
+    {
+      "id": "n2_048_5",
+      "example_sentence": "日本に長く住んでいるからといって、敬語が使いこなせるとは限らない。",
+      "translation": "Just because someone has lived in Japan a long time doesn't mean they can use keigo properly.",
+      "blank_target": "からといって",
+      "wrong_choices": [
+        "からには",
+        "ことから",
+        "おかげで"
+      ],
+      "wrong_choice_explanations": [
+        "からには means 'now that / since ~' and sets up a natural expectation or obligation (住んでいるからには税金を払うべきだ); it clashes with とは限らない, which denies that the expectation holds.",
+        "ことから presents evidence that supports a conclusion (坂が多いことから「坂の町」と呼ばれる); this sentence rejects the inference instead of drawing it, so an evidence marker doesn't fit.",
+        "おかげで credits a cause for a good result; the sentence is denying that long residence guarantees keigo skill, not thanking residence for it."
+      ],
+      "hiragana_full": "にほんにながくすんでいるからといって、けいごがつかいこなせるとはかぎらない。",
+      "audio_alternatives": [
+        {
+          "kanji": "長く日本にいても、敬語が苦手な人は多い。",
+          "hiragana_full": "ながくにほんにいても、けいごがにがてなひとはおおい。"
+        },
+        {
+          "kanji": "日本に長く住んでいるからといって、正しい敬語が話せるわけではない。",
+          "hiragana_full": "にほんにながくすんでいるからといって、ただしいけいごがはなせるわけではない。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "敬語",
+          "reading": "けいご",
+          "meaning": "honorific language"
+        },
+        {
+          "word": "使いこなす",
+          "reading": "つかいこなす",
+          "meaning": "to use skillfully, master"
+        }
+      ]
+    },
+    {
+      "id": "n2_048_6",
+      "example_sentence": "熱があるからといって、連絡もせずに仕事を休むべきではない。",
+      "translation": "Even if you have a fever, you shouldn't skip work without even calling in.",
+      "blank_target": "からといって",
+      "wrong_choices": [
+        "からには",
+        "あまり",
+        "せいで"
+      ],
+      "wrong_choice_explanations": [
+        "からには ('now that you have a fever') would set up advice that follows naturally from the fever, such as 休むべきだ; the sentence instead denies that the fever licenses skipping work unannounced.",
+        "あまり expresses an extreme degree causing an unusual result (心配のあまり眠れなかった); having a fever is not an extreme degree, and べきではない is a judgment, not a result.",
+        "せいで blames a cause for a bad outcome that already happened; here nothing has happened — the speaker is rejecting a justification, which is からといって's job."
+      ],
+      "hiragana_full": "ねつがあるからといって、れんらくもせずにしごとをやすむべきではない。",
+      "audio_alternatives": [
+        {
+          "kanji": "熱があっても、休む前に一本連絡を入れるべきだ。",
+          "hiragana_full": "ねつがあっても、やすむまえにいっぽんれんらくをいれるべきだ。"
+        },
+        {
+          "kanji": "体調が悪いからといって、黙って休んでいいわけではない。",
+          "hiragana_full": "たいちょうがわるいからといって、だまってやすんでいいわけではない。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "熱",
+          "reading": "ねつ",
+          "meaning": "fever"
+        },
+        {
+          "word": "連絡",
+          "reading": "れんらく",
+          "meaning": "contact, notice"
+        }
+      ]
+    },
+    {
+      "id": "n2_048_7",
+      "example_sentence": "ダイエット中だからといって、甘い物を全部我慢する必要はないよ。",
+      "translation": "Just because you're on a diet doesn't mean you have to give up sweets entirely.",
+      "blank_target": "からといって",
+      "wrong_choices": [
+        "からには",
+        "ものだから",
+        "というより"
+      ],
+      "wrong_choice_explanations": [
+        "からには ('now that you're dieting') leads naturally to advice to stick with the restriction (我慢すべきだ); pairing it with 必要はない reverses the expectation it creates.",
+        "ものだから offers the diet as an excuse for something that happened; the sentence isn't excusing anything — it's denying that the diet requires total abstinence.",
+        "というより re-labels something as more accurately something else ('not so much on a diet as...'); nothing in the sentence is being re-described."
+      ],
+      "hiragana_full": "だいえっとちゅうだからといって、あまいものをぜんぶがまんするひつようはないよ。",
+      "audio_alternatives": [
+        {
+          "kanji": "ダイエット中でも、たまには甘い物を食べていいんだよ。",
+          "hiragana_full": "だいえっとちゅうでも、たまにはあまいものをたべていいんだよ。"
+        },
+        {
+          "kanji": "やせたいからといって、好きな物を全部やめることはないよ。",
+          "hiragana_full": "やせたいからといって、すきなものをぜんぶやめることはないよ。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "我慢する",
+          "reading": "がまんする",
+          "meaning": "to hold back, do without"
+        },
+        {
+          "word": "甘い物",
+          "reading": "あまいもの",
+          "meaning": "sweets"
+        }
+      ]
+    },
+    {
+      "id": "n2_048_8",
+      "example_sentence": "年を取ったからといって、新しいことが覚えられないとは限らない。",
+      "translation": "Just because you've gotten older doesn't mean you can't learn new things.",
+      "blank_target": "からといって",
+      "wrong_choices": [
+        "以上は",
+        "あまり",
+        "ことだし"
+      ],
+      "wrong_choice_explanations": [
+        "以上は ('now that / since ~') turns the fact into grounds for a firm conclusion or resolution (年を取った以上は健康に気をつけよう); the sentence blocks the inference instead of building on it.",
+        "あまり marks an extreme degree that produces an abnormal result (悲しみのあまり); simply aging is not an extreme, and what follows denies a claim rather than reporting a result.",
+        "ことだし adds a light supporting reason for a suggestion (天気もいいことだし、散歩しよう); no suggestion follows here, only the rejection of a stereotype."
+      ],
+      "hiragana_full": "としをとったからといって、あたらしいことがおぼえられないとはかぎらない。",
+      "audio_alternatives": [
+        {
+          "kanji": "年を取っても、新しいことは十分覚えられる。",
+          "hiragana_full": "としをとっても、あたらしいことはじゅうぶんおぼえられる。"
+        },
+        {
+          "kanji": "年齢を理由に、学ぶことをあきらめる必要はない。",
+          "hiragana_full": "ねんれいをりゆうに、まなぶことをあきらめるひつようはない。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "年を取る",
+          "reading": "としをとる",
+          "meaning": "to grow old"
+        },
+        {
+          "word": "覚える",
+          "reading": "おぼえる",
+          "meaning": "to learn, memorize"
+        }
+      ]
+    },
+    {
+      "id": "n2_048_9",
+      "example_sentence": "安かったからといって、使いもしない雑貨をこんなに買い込むべきではなかった。",
+      "translation": "Even if they were cheap, I shouldn't have stocked up on this many knickknacks I'll never use.",
+      "blank_target": "からといって",
+      "wrong_choices": [
+        "だけに",
+        "せいで",
+        "ものだから"
+      ],
+      "wrong_choice_explanations": [
+        "だけに ('precisely because ~') intensifies a natural consequence (安かっただけによく売れた); it affirms the link between cheapness and the outcome, while the speaker is rejecting cheapness as a justification.",
+        "せいで reports the low price as the factual cause of a bad outcome (安かったせいで買いすぎた); the sentence is a self-reproach about justification (べきではなかった), not a causal report.",
+        "ものだから presents the price as an excuse for what one did; combined with べきではなかった, the sentence would excuse and condemn the purchase at the same time."
+      ],
+      "hiragana_full": "やすかったからといって、つかいもしないざっかをこんなにかいこむべきではなかった。",
+      "audio_alternatives": [
+        {
+          "kanji": "安さにつられて、いらない物まで買ってしまった。",
+          "hiragana_full": "やすさにつられて、いらないものまでかってしまった。"
+        },
+        {
+          "kanji": "セールだからといって、あんなに買うんじゃなかったよ。",
+          "hiragana_full": "せーるだからといって、あんなにかうんじゃなかったよ。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "雑貨",
+          "reading": "ざっか",
+          "meaning": "sundries, knickknacks"
+        },
+        {
+          "word": "買い込む",
+          "reading": "かいこむ",
+          "meaning": "to buy up, stock up on"
+        }
+      ]
     },
     {
       "id": "n2_048_10",
-      "example_sentence": "テストの点数がよかったからといって、本当に理解しているとは限らない。",
-      "translation": "Just because test scores were good doesn't necessarily mean there's real understanding.",
+      "example_sentence": "景気が回復したからといって、すぐに給料が上がるわけではない。",
+      "translation": "Just because the economy has recovered doesn't mean salaries will rise right away.",
       "blank_target": "からといって",
       "wrong_choices": [
-        "とはいえ",
-        "ので",
-        "ものの"
+        "以上は",
+        "ことから",
+        "とすれば"
       ],
       "wrong_choice_explanations": [
-        "とはいえ means 'even so/that said' and concedes the good test scores as a fact while qualifying it; からといって goes further and refuses the inference itself — good scores aren't grounds for concluding real understanding.",
-        "ので simply states causation and would affirm that good scores lead to real understanding; からといって denies that inference.",
-        "ものの means 'although/while' and acknowledges a contrast between two facts; here we're not contrasting facts, we're rejecting the leap from test scores to comprehension."
+        "以上は turns the recovery into grounds for a firm conclusion or resolution (回復した以上は投資を増やすべきだ); the sentence blocks that inference rather than drawing it.",
+        "ことから cites the recovery as evidence for a conclusion (このことから〜がわかる); what follows here denies the conclusion, so an evidence marker contradicts the second half.",
+        "とすれば treats the recovery as a mere supposition ('if we suppose it recovered'), but 回復した is presented as accepted fact whose implications are being limited."
       ],
-      "hiragana_full": "てすとのてんすうがよかったからといって、ほんとうにりかいしているとはかぎらない。",
+      "hiragana_full": "けいきがかいふくしたからといって、すぐにきゅうりょうがあがるわけではない。",
       "audio_alternatives": [
         {
-          "kanji": "テストの点数が良かったからといって、本当に理解できているわけではない。",
-          "hiragana_full": "てすとのてんすうがよかったからといって、ほんとうにりかいできているわけではない。"
+          "kanji": "景気がよくなっても、賃金への影響はすぐには出ない。",
+          "hiragana_full": "けいきがよくなっても、ちんぎんへのえいきょうはすぐにはでない。"
         },
         {
-          "kanji": "テストの点数が良くても、本当に理解しているとは限らない。",
-          "hiragana_full": "てすとのてんすうがよくても、ほんとうにりかいしているとはかぎらない。"
+          "kanji": "経済が上向いたからといって、生活が楽になるとは限らない。",
+          "hiragana_full": "けいざいがうわむいたからといって、せいかつがらくになるとはかぎらない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "景気",
+          "reading": "けいき",
+          "meaning": "economic conditions"
+        },
+        {
+          "word": "回復",
+          "reading": "かいふく",
+          "meaning": "recovery"
+        },
+        {
+          "word": "給料",
+          "reading": "きゅうりょう",
+          "meaning": "salary"
+        }
+      ]
     }
   ]
 }

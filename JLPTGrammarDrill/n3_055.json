@@ -1,39 +1,11 @@
 {
   "id": "n3_055",
   "pattern": "〜ものだ",
-  "meaning": "it is natural that / that is how things are (general truth or emotion)",
+  "meaning": "it is natural that / that is how things are (general truth or emotion); used to ~ (nostalgic recollection)",
   "level": "N3",
   "exercises": [
     {
       "id": "n3_055_1",
-      "example_sentence": "子どもは元気に遊ぶものだ。",
-      "translation": "Children are meant to play energetically.",
-      "blank_target": "ものだ",
-      "wrong_choices": [
-        "ことだ",
-        "はずだ",
-        "べきだ"
-      ],
-      "wrong_choice_explanations": [
-        "ことだ gives specific advice ('you should...'), but the sentence expresses a general truth about children's nature, not advice directed at someone.",
-        "はずだ means 'should be' (logical expectation), but the sentence is about a universal truth about how children naturally are, not a prediction.",
-        "べきだ means 'ought to' (moral obligation), but ものだ conveys inevitability and natural law rather than duty."
-      ],
-      "hiragana_full": "こどもはげんきにあそぶものだ",
-      "audio_alternatives": [
-        {
-          "kanji": "子どもは元気よく遊ぶものだ。",
-          "hiragana_full": "こどもはげんきよくあそぶものだ"
-        },
-        {
-          "kanji": "子どもとは元気に遊ぶものだ。",
-          "hiragana_full": "こどもとはげんきにあそぶものだ"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_055_2",
       "example_sentence": "社会人は責任を持って仕事をするものだ。",
       "translation": "Working adults are supposed to work responsibly.",
       "blank_target": "ものだ",
@@ -58,38 +30,23 @@
           "hiragana_full": "しゃかいじんはせきにんをもってしごとをするべきです"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_055_3",
-      "example_sentence": "昔遊んだあの場所を思い出すものだ。",
-      "translation": "That's what happens—you remember the places where you used to play.",
-      "blank_target": "ものだ",
-      "wrong_choices": [
-        "わけだ",
-        "のだ",
-        "ことがある"
-      ],
-      "wrong_choice_explanations": [
-        "わけだ explains the reason or consequence, but ものだ expresses an emotional or nostalgic inevitability.",
-        "のだ asks for explanation, but ものだ expresses an emotional truth without need for explanation.",
-        "ことがある suggests occasional occurrence, but ものだ emphasizes the emotional inevitability of remembering."
-      ],
-      "hiragana_full": "むかしあそんだあのばしょをおもいだすものだ",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "昔遊んだあの場所が思い出される。",
-          "hiragana_full": "むかしあそんだあのばしょがおもいだされる"
+          "word": "社会人",
+          "reading": "しゃかいじん",
+          "meaning": "working adult"
         },
         {
-          "kanji": "子どもの頃に遊んだ場所を思い出すものだ。",
-          "hiragana_full": "こどものころにあそんだばしょをおもいだすものだ"
+          "word": "責任",
+          "reading": "せきにん",
+          "meaning": "responsibility"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n3_055_4",
+      "id": "n3_055_2",
       "example_sentence": "春になると、人は新しいことに挑戦したくなるものだ。",
       "translation": "When spring comes, people naturally feel like challenging themselves with new things.",
       "blank_target": "ものだ",
@@ -114,38 +71,18 @@
           "hiragana_full": "はるがくると、ひとはあたらしいことにちょうせんしたくなるものだ。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_055_5",
-      "example_sentence": "職場では年功序列を尊重するものだ。",
-      "translation": "In the workplace, seniority-based hierarchy is naturally respected, that is how it is.",
-      "blank_target": "ものだ",
-      "wrong_choices": [
-        "ことだ",
-        "わけだ",
-        "べきだ"
-      ],
-      "wrong_choice_explanations": [
-        "ことだ refers to an action or task, but ものだ expresses a cultural or social principle as universal truth.",
-        "わけだ introduces reasoning or explanation, but ものだ states what is naturally and traditionally true.",
-        "べきだ imposes obligation, but ものだ describes what naturally exists in workplace culture."
-      ],
-      "hiragana_full": "しょくばではねんこうじょれつをそんちょうするものだ",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "職場では年功序列が尊重されるものだ。",
-          "hiragana_full": "しょくばではねんこうじょれつがそんちょうされるものだ"
-        },
-        {
-          "kanji": "職場では年功序列を大切にするものだ。",
-          "hiragana_full": "しょくばではねんこうじょれつをたいせつにするものだ"
+          "word": "挑戦",
+          "reading": "ちょうせん",
+          "meaning": "challenge"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n3_055_6",
+      "id": "n3_055_3",
       "example_sentence": "人は誰でも失敗するものだ。",
       "translation": "Everyone makes mistakes, that is how things are.",
       "blank_target": "ものだ",
@@ -170,10 +107,11 @@
           "hiragana_full": "だれもがしっぱいするものです"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
-      "id": "n3_055_7",
+      "id": "n3_055_4",
       "example_sentence": "人間は皆、弱い部分を持つものだ。",
       "translation": "All humans have weaknesses, that is how things are.",
       "blank_target": "ものだ",
@@ -198,91 +136,251 @@
           "hiragana_full": "だれもがよわいぶぶんをもっているものだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "人間",
+          "reading": "にんげん",
+          "meaning": "human being"
+        },
+        {
+          "word": "部分",
+          "reading": "ぶぶん",
+          "meaning": "part"
+        }
+      ]
+    },
+    {
+      "id": "n3_055_5",
+      "example_sentence": "人生とはそういうものだ。",
+      "translation": "That's just how life is.",
+      "blank_target": "もの",
+      "wrong_choices": [
+        "わけ",
+        "つもり",
+        "ため"
+      ],
+      "wrong_choice_explanations": [
+        "わけ means 'reason/conclusion' but doesn't express the general truth about life's nature.",
+        "つもり means 'intention/plan' which doesn't fit when describing life's inherent characteristics.",
+        "ため means 'for the purpose of' which is grammatically incorrect in this context about life's nature."
+      ],
+      "hiragana_full": "じんせいとはそういうものだ。",
+      "audio_alternatives": [
+        {
+          "kanji": "人生とはこういうものだ。",
+          "hiragana_full": "じんせいとはこういうものだ。"
+        },
+        {
+          "kanji": "人生ってそういうものだ。",
+          "hiragana_full": "じんせいってそういうものだ。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "人生",
+          "reading": "じんせい",
+          "meaning": "life"
+        }
+      ]
+    },
+    {
+      "id": "n3_055_6",
+      "example_sentence": "昔はよく祖母の家に泊まったものだ。",
+      "translation": "I used to often stay at my grandmother's house.",
+      "blank_target": "もの",
+      "wrong_choices": [
+        "ところ",
+        "ばかり",
+        "まま"
+      ],
+      "wrong_choice_explanations": [
+        "ところ means 'place/just about to' but doesn't express the nostalgic 'used to' meaning.",
+        "ばかり means 'only/just' which doesn't convey the habitual past action meaning needed here.",
+        "まま means 'as it is/while' which doesn't fit the context of describing past regular habits."
+      ],
+      "hiragana_full": "むかしはよくそぼのいえにとまったものだ。",
+      "audio_alternatives": [
+        {
+          "kanji": "昔はよく祖母の家に泊まっていた。",
+          "hiragana_full": "むかしはよくそぼのいえにとまっていた。"
+        },
+        {
+          "kanji": "子どもの頃はよくおばあちゃんの家に泊まったものだ。",
+          "hiragana_full": "こどものころはよくおばあちゃんのいえにとまったものだ。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "祖母",
+          "reading": "そぼ",
+          "meaning": "grandmother"
+        },
+        {
+          "word": "泊まった",
+          "reading": "とまった",
+          "meaning": "stayed over"
+        }
+      ]
+    },
+    {
+      "id": "n3_055_7",
+      "example_sentence": "年を取ると忘れっぽくなるものだ。",
+      "translation": "That's how it is - you become forgetful as you get older.",
+      "blank_target": "もの",
+      "wrong_choices": [
+        "そう",
+        "よう",
+        "らしい"
+      ],
+      "wrong_choice_explanations": [
+        "そう indicates hearsay or appearance but doesn't express the general truth about aging.",
+        "よう means 'like/seems' but doesn't convey the accepted fact about natural aging processes.",
+        "らしい means 'seems like/apparently' but doesn't express the definitive nature of this life truth."
+      ],
+      "hiragana_full": "としをとるとわすれっぽくなるものだ。",
+      "audio_alternatives": [
+        {
+          "kanji": "年を取ると物忘れしやすくなるものだ。",
+          "hiragana_full": "としをとるとものわすれしやすくなるものだ。"
+        },
+        {
+          "kanji": "歳を重ねると忘れっぽくなるものですね。",
+          "hiragana_full": "さいをかさねるとわすれっぽくなるものですね。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "年を取る",
+          "reading": "としをとる",
+          "meaning": "to grow old"
+        },
+        {
+          "word": "忘れっぽく",
+          "reading": "わすれっぽく",
+          "meaning": "forgetful"
+        }
+      ]
     },
     {
       "id": "n3_055_8",
-      "example_sentence": "技術は時代とともに進化するものだ。",
-      "translation": "Technology evolves with the times, that is how it is.",
-      "blank_target": "ものだ",
+      "example_sentence": "学生時代はよく夜中まで勉強したものだった。",
+      "translation": "During my student days, I used to study until midnight often.",
+      "blank_target": "もの",
       "wrong_choices": [
-        "ことだ",
-        "のだ",
-        "わけだ"
+        "とき",
+        "ところ",
+        "こと"
       ],
       "wrong_choice_explanations": [
-        "ことだ delivers advice or imperatives, but the sentence is making a generalization about how technology naturally behaves over time, not telling anyone what to do.",
-        "のだ provides an explanation for a specific situation ('it's that technology is evolving'), whereas ものだ generalizes — it asserts that ongoing evolution is the inherent nature of technology, not just an explanation of the current state.",
-        "わけだ draws a conclusion 'so that's why…' from preceding context; ものだ doesn't tie evolution to a specific cause — it simply states it as a universal truth."
+        "とき means 'when/time' but doesn't express the nostalgic recollection of habitual past actions.",
+        "ところ means 'place/just about to' but doesn't convey the 'used to' meaning for past habits.",
+        "こと nominalizes actions but lacks the nostalgic, habitual nuance that ものだった provides."
       ],
-      "hiragana_full": "ぎじゅつはじだいとともにしんかするものだ",
+      "hiragana_full": "がくせいじだいはよくよなかまでべんきょうしたものだった。",
       "audio_alternatives": [
         {
-          "kanji": "技術は時代と共に発展していくものだ。",
-          "hiragana_full": "ぎじゅつはじだいとともにはってんしていくものだ"
+          "kanji": "学生の頃はよく夜中まで勉強していた。",
+          "hiragana_full": "がくせいのころはよくよなかまでべんきょうしていた。"
         },
         {
-          "kanji": "時代とともに技術は進化していくものです。",
-          "hiragana_full": "じだいとともにぎじゅつはしんかしていくものです"
+          "kanji": "学生時代にはよく夜中まで勉強したものだ。",
+          "hiragana_full": "がくせいじだいにはよくよなかまでべんきょうしたものだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "学生時代",
+          "reading": "がくせいじだい",
+          "meaning": "student days"
+        },
+        {
+          "word": "夜中",
+          "reading": "よなか",
+          "meaning": "middle of the night"
+        }
+      ]
     },
     {
       "id": "n3_055_9",
-      "example_sentence": "成功には、犠牲が伴うものだ。",
-      "translation": "Success comes with sacrifice, that is how it is.",
-      "blank_target": "ものだ",
+      "example_sentence": "恋人同士はよくけんかするものだ。",
+      "translation": "That's how it is - couples often fight.",
+      "blank_target": "もの",
       "wrong_choices": [
-        "ことだ",
-        "はずだ",
-        "わけだ"
+        "から",
+        "ので",
+        "のに"
       ],
       "wrong_choice_explanations": [
-        "ことだ delivers advice ('the thing to do is bring sacrifice'), but the sentence is a maxim about how success and sacrifice naturally pair, not a piece of guidance.",
-        "はずだ predicts a specific outcome based on evidence; ものだ instead generalizes that sacrifice is inherent to success across cases, not just an expectation in one situation.",
-        "わけだ explains a conclusion drawn from preceding context ('so that's why sacrifice follows'); ものだ asserts the link as a free-standing general truth without depending on prior reasoning."
+        "から means 'because' but this sentence is stating a general truth, not giving a reason.",
+        "ので means 'because/since' but doesn't fit when expressing a general fact about relationships.",
+        "のに means 'despite/although' which would create a contradiction that doesn't exist in this statement."
       ],
-      "hiragana_full": "せいこうには、ぎせいがともなうものだ。",
+      "hiragana_full": "こいびとどうしはよくけんかするものだ。",
       "audio_alternatives": [
         {
-          "kanji": "成功するには、犠牲が必要なものだ。",
-          "hiragana_full": "せいこうするには、ぎせいがひつようなものだ。"
+          "kanji": "カップルはよくけんかするものだ。",
+          "hiragana_full": "かっぷるはよくけんかするものだ。"
         },
         {
-          "kanji": "成功には犠牲がつきものだ。",
-          "hiragana_full": "せいこうにはぎせいがつきものだ。"
+          "kanji": "恋人同士はよくけんかをするものだ。",
+          "hiragana_full": "こいびとどうしはよくけんかをするものだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "恋人同士",
+          "reading": "こいびとどうし",
+          "meaning": "couples (in love)"
+        }
+      ]
     },
     {
       "id": "n3_055_10",
-      "example_sentence": "ビジネスはリスク管理が重要なものだ。",
-      "translation": "In business, risk management is essential, that is how it is.",
-      "blank_target": "ものだ",
+      "example_sentence": "時間が経つのは早いものだ。",
+      "translation": "That's how it is - time passes quickly.",
+      "blank_target": "もの",
       "wrong_choices": [
-        "ことだ",
-        "はずだ",
-        "ものではない"
+        "わけ",
+        "など",
+        "ばかり"
       ],
       "wrong_choice_explanations": [
-        "ことだ means 'the thing to do is' and gives directive advice; the sentence is stating a general truth about business — that risk management is inherently important — not advising anyone on a single action.",
-        "はずだ predicts a specific situation based on evidence; ものだ asserts that risk management's importance is a general, taken-for-granted feature of business, not a prediction.",
-        "ものではない is the negative form and would deny that risk management is important, contradicting the intended meaning that it is a natural priority."
+        "わけ means 'reason/conclusion' but doesn't express the general truth about time's nature.",
+        "など means 'such as/and so on' which is grammatically incorrect in this context.",
+        "ばかり means 'only/just' but doesn't convey the universal truth about time passing."
       ],
-      "hiragana_full": "びじねすはりすくかんりがじゅうようなものだ",
+      "hiragana_full": "じかんがたつのははやいものだ。",
       "audio_alternatives": [
         {
-          "kanji": "ビジネスにおいてリスク管理は重要だ。",
-          "hiragana_full": "びじねすにおいてりすくかんりはじゅうようだ"
+          "kanji": "時間が経つのは早いですね。",
+          "hiragana_full": "じかんがたつのははやいですね。"
         },
         {
-          "kanji": "ビジネスではリスク管理がとても大切なのだ。",
-          "hiragana_full": "びじねすではりすくかんりがとてもたいせつなのだ"
+          "kanji": "時間はあっという間に過ぎるものだ。",
+          "hiragana_full": "じかんはあっというまにすぎるものだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "経つ",
+          "reading": "たつ",
+          "meaning": "(time) passes"
+        }
+      ]
     }
   ]
 }

@@ -9,22 +9,40 @@
       "example_sentence": "この番組は子ども向けに作られているので、言葉がやさしい。",
       "translation": "This program is made for children, so the language is simple.",
       "blank_target": "向け",
-      "wrong_choices": ["向き", "だらけ", "的"],
+      "wrong_choices": [
+        "同士",
+        "だらけ",
+        "的"
+      ],
       "wrong_choice_explanations": [
-        "〜向き means naturally suited for (夏向きの料理). With 作られている ('is made'), the sentence states deliberate design for children, which takes 向け.",
+        "同士 means 'fellow ~ / among ~' (友達同士 'among friends'); 子ども同士 doesn't fit here. 向け marks 子ども as the intended target.",
         "〜だらけ means 'covered in; full of (something bad)' (泥だらけ). 子どもだらけ would mean 'full of children,' and it can't connect with に作られている.",
         "〜的 means '-like' (子ども的な発想 'a childlike idea'). It describes character, not the intended audience of a program."
       ],
       "hiragana_full": "このばんぐみはこどもむけにつくられているので、ことばがやさしい。",
       "audio_alternatives": [
-        { "kanji": "子ども向けの番組だから、やさしい言葉で話している。", "hiragana_full": "こどもむけのばんぐみだから、やさしいことばではなしている。" },
-        { "kanji": "この番組は子どものために作られているので、言葉が簡単だ。", "hiragana_full": "このばんぐみはこどものためにつくられているので、ことばがかんたんだ。" }
+        {
+          "kanji": "子ども向けの番組だから、やさしい言葉で話している。",
+          "hiragana_full": "こどもむけのばんぐみだから、やさしいことばではなしている。"
+        },
+        {
+          "kanji": "この番組は子どものために作られているので、言葉が簡単だ。",
+          "hiragana_full": "このばんぐみはこどものためにつくられているので、ことばがかんたんだ。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "番組", "reading": "ばんぐみ", "meaning": "(TV/radio) program" },
-        { "word": "やさしい", "reading": "やさしい", "meaning": "simple; easy (language)" }
+        {
+          "word": "番組",
+          "reading": "ばんぐみ",
+          "meaning": "(TV/radio) program"
+        },
+        {
+          "word": "やさしい",
+          "reading": "やさしい",
+          "meaning": "simple; easy (language)"
+        }
       ],
       "blank_target_reading": "むけ"
     },
@@ -33,23 +51,45 @@
       "example_sentence": "当社は今後、海外向けの輸出をさらに強化していく方針だ。",
       "translation": "Our company plans to further strengthen exports aimed at overseas markets.",
       "blank_target": "向け",
-      "wrong_choices": ["向き", "発", "まで"],
+      "wrong_choices": [
+        "気味",
+        "発",
+        "まで"
+      ],
       "wrong_choice_explanations": [
-        "〜向き means naturally suited for. Exports have a deliberately chosen destination market, marked with 向け; 海外向き would oddly claim the exports just happen to 'suit' overseas.",
+        "気味 means 'a touch of / slightly' (風邪気味 'a bit of a cold'); 海外気味 makes no sense here. 向け marks 海外 as the intended target.",
         "〜発 marks a point of origin (東京発の列車 'a train departing from Tokyo'). 海外発 would reverse the direction — goods coming from overseas.",
         "まで means 'as far as; until.' 海外までの輸出 would describe how far the goods travel, not the market they are aimed at."
       ],
       "hiragana_full": "とうしゃはこんご、かいがいむけのゆしゅつをさらにきょうかしていくほうしんだ。",
       "audio_alternatives": [
-        { "kanji": "今後は海外向けの製品販売にさらに力を入れていく。", "hiragana_full": "こんごはかいがいむけのせいひんはんばいにさらにちからをいれていく。" },
-        { "kanji": "わが社は今後も海外市場への輸出を強化していく予定です。", "hiragana_full": "わがしゃはこんごもかいがいしじょうへのゆしゅつをきょうかしていくよていです。" }
+        {
+          "kanji": "今後は海外向けの製品販売にさらに力を入れていく。",
+          "hiragana_full": "こんごはかいがいむけのせいひんはんばいにさらにちからをいれていく。"
+        },
+        {
+          "kanji": "わが社は今後も海外市場への輸出を強化していく予定です。",
+          "hiragana_full": "わがしゃはこんごもかいがいしじょうへのゆしゅつをきょうかしていくよていです。"
+        }
       ],
       "audio_eligible": true,
       "register": "written",
       "vocab": [
-        { "word": "輸出", "reading": "ゆしゅつ", "meaning": "export" },
-        { "word": "強化", "reading": "きょうか", "meaning": "strengthening; reinforcement" },
-        { "word": "方針", "reading": "ほうしん", "meaning": "policy; course of action" }
+        {
+          "word": "輸出",
+          "reading": "ゆしゅつ",
+          "meaning": "export"
+        },
+        {
+          "word": "強化",
+          "reading": "きょうか",
+          "meaning": "strengthening; reinforcement"
+        },
+        {
+          "word": "方針",
+          "reading": "ほうしん",
+          "meaning": "policy; course of action"
+        }
       ],
       "blank_target_reading": "むけ"
     },
@@ -58,22 +98,40 @@
       "example_sentence": "この映画館には、学生向けの割引制度があります。",
       "translation": "This movie theater has a discount program aimed at students.",
       "blank_target": "向け",
-      "wrong_choices": ["向き", "用", "付き"],
+      "wrong_choices": [
+        "同士",
+        "だらけ",
+        "付き"
+      ],
       "wrong_choice_explanations": [
-        "〜向き expresses natural suitability (初心者向きの山). A discount is deliberately set up to target students, so it takes 向け.",
-        "〜用 attaches to physical items prepared for someone's use (学生用の机 'desks for students'). A discount system isn't an object being used, so 学生用の割引 is unnatural.",
+        "同士 means 'fellow ~ / among ~' (友達同士 'among friends'); 学生同士 doesn't fit here. 向け marks 学生 as the intended target.",
+        "だらけ means 'full of / covered in' (泥だらけ 'covered in mud'); 学生だらけ doesn't describe suitability or a target. 向け marks 学生 as the intended target.",
         "〜付き means 'comes with ~' (朝食付きのプラン 'a plan with breakfast included'). 学生付き would absurdly mean 'with students included.'"
       ],
       "hiragana_full": "このえいがかんには、がくせいむけのわりびきせいどがあります。",
       "audio_alternatives": [
-        { "kanji": "ここには学生向けの安いチケットがあります。", "hiragana_full": "ここにはがくせいむけのやすいちけっとがあります。" },
-        { "kanji": "この映画館では学生の割引が受けられます。", "hiragana_full": "このえいがかんではがくせいのわりびきがうけられます。" }
+        {
+          "kanji": "ここには学生向けの安いチケットがあります。",
+          "hiragana_full": "ここにはがくせいむけのやすいちけっとがあります。"
+        },
+        {
+          "kanji": "この映画館では学生の割引が受けられます。",
+          "hiragana_full": "このえいがかんではがくせいのわりびきがうけられます。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "割引", "reading": "わりびき", "meaning": "discount" },
-        { "word": "制度", "reading": "せいど", "meaning": "system; program" }
+        {
+          "word": "割引",
+          "reading": "わりびき",
+          "meaning": "discount"
+        },
+        {
+          "word": "制度",
+          "reading": "せいど",
+          "meaning": "system; program"
+        }
       ],
       "blank_target_reading": "むけ"
     },
@@ -82,22 +140,40 @@
       "example_sentence": "姉は女性向けのファッション雑誌を編集している。",
       "translation": "My sister edits a fashion magazine aimed at women.",
       "blank_target": "向け",
-      "wrong_choices": ["用", "らしい", "同士"],
+      "wrong_choices": [
+        "だらけ",
+        "付き",
+        "同士"
+      ],
       "wrong_choice_explanations": [
-        "〜用 means 'for the use of' and fits objects like 女性用の靴 ('women's shoes'). A magazine targets a readership rather than being 'used,' so its audience is marked with 向け.",
-        "〜らしい means 'typical of' (女性らしいデザイン 'a feminine design'). It would describe the magazine's style, not who it is published for.",
+        "だらけ means 'full of / covered in' (泥だらけ 'covered in mud'); 女性だらけ doesn't describe suitability or a target. 向け marks 女性 as the intended target.",
+        "付き means 'comes with' (朝食付き 'breakfast included'); 女性付き makes no sense here. 向け marks women as the intended readers.",
         "〜同士 means 'between fellow ~' (女性同士の会話 'a conversation between women'). It expresses a mutual relationship, not a target audience."
       ],
       "hiragana_full": "あねはじょせいむけのふぁっしょんざっしをへんしゅうしている。",
       "audio_alternatives": [
-        { "kanji": "姉の仕事は、女性向け雑誌の編集だ。", "hiragana_full": "あねのしごとは、じょせいむけざっしのへんしゅうだ。" },
-        { "kanji": "姉は女性をターゲットにしたファッション誌を作っている。", "hiragana_full": "あねはじょせいをたーげっとにしたふぁっしょんしをつくっている。" }
+        {
+          "kanji": "姉の仕事は、女性向け雑誌の編集だ。",
+          "hiragana_full": "あねのしごとは、じょせいむけざっしのへんしゅうだ。"
+        },
+        {
+          "kanji": "姉は女性をターゲットにしたファッション誌を作っている。",
+          "hiragana_full": "あねはじょせいをたーげっとにしたふぁっしょんしをつくっている。"
+        }
       ],
       "audio_eligible": true,
       "register": "casual",
       "vocab": [
-        { "word": "雑誌", "reading": "ざっし", "meaning": "magazine" },
-        { "word": "編集", "reading": "へんしゅう", "meaning": "editing" }
+        {
+          "word": "雑誌",
+          "reading": "ざっし",
+          "meaning": "magazine"
+        },
+        {
+          "word": "編集",
+          "reading": "へんしゅう",
+          "meaning": "editing"
+        }
       ],
       "blank_target_reading": "むけ"
     },
@@ -106,22 +182,40 @@
       "example_sentence": "その会社は、高齢者向けの弁当配達サービスを始めた。",
       "translation": "The company launched a boxed-lunch delivery service designed for elderly customers.",
       "blank_target": "向け",
-      "wrong_choices": ["向き", "気味", "がち"],
+      "wrong_choices": [
+        "済み",
+        "気味",
+        "がち"
+      ],
       "wrong_choice_explanations": [
-        "〜向き would say the service merely happens to suit the elderly. The company designed and launched it specifically targeting them, so the intended-audience marker 向け is needed.",
+        "済み means 'already done' (支払い済み 'paid'); 高齢者済み makes no sense here. 向け marks 高齢者 as the intended target.",
         "〜気味 means 'slightly; a touch of' (疲れ気味). 高齢者気味 is not a word.",
         "〜がち means 'prone to' (忘れがち). It expresses a tendency, not a service's target customers."
       ],
       "hiragana_full": "そのかいしゃは、こうれいしゃむけのべんとうはいたつさーびすをはじめた。",
       "audio_alternatives": [
-        { "kanji": "高齢者向けのお弁当を届けるサービスが始まった。", "hiragana_full": "こうれいしゃむけのおべんとうをとどけるさーびすがはじまった。" },
-        { "kanji": "その会社はお年寄りのための弁当宅配サービスを開始した。", "hiragana_full": "そのかいしゃはおとしよりのためのべんとうたくはいさーびすをかいしした。" }
+        {
+          "kanji": "高齢者向けのお弁当を届けるサービスが始まった。",
+          "hiragana_full": "こうれいしゃむけのおべんとうをとどけるさーびすがはじまった。"
+        },
+        {
+          "kanji": "その会社はお年寄りのための弁当宅配サービスを開始した。",
+          "hiragana_full": "そのかいしゃはおとしよりのためのべんとうたくはいさーびすをかいしした。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "高齢者", "reading": "こうれいしゃ", "meaning": "elderly person" },
-        { "word": "配達", "reading": "はいたつ", "meaning": "delivery" }
+        {
+          "word": "高齢者",
+          "reading": "こうれいしゃ",
+          "meaning": "elderly person"
+        },
+        {
+          "word": "配達",
+          "reading": "はいたつ",
+          "meaning": "delivery"
+        }
       ],
       "blank_target_reading": "むけ"
     },
@@ -130,22 +224,40 @@
       "example_sentence": "市は外国人向けに、やさしい日本語で書かれた防災パンフレットを作成した。",
       "translation": "The city produced a disaster-preparedness pamphlet written in simple Japanese for foreign residents.",
       "blank_target": "向け",
-      "wrong_choices": ["向き", "済み", "同士"],
+      "wrong_choices": [
+        "だらけ",
+        "済み",
+        "同士"
+      ],
       "wrong_choice_explanations": [
-        "〜向き means naturally suited for and resists this adverbial 'aimed at' use; when something is deliberately created for a group, the pattern is 向けに + 作成する.",
+        "だらけ means 'full of / covered in' (泥だらけ 'covered in mud'); 外国人だらけ doesn't describe suitability or a target. 向け marks 外国人 as the intended target.",
         "〜済み means 'already completed' (確認済み 'checked'). It attaches to actions, not people, and 外国人済み makes no sense.",
         "〜同士 means 'among fellow ~.' 外国人同士 would mean 'between foreigners,' not that the city made the pamphlet for them."
       ],
       "hiragana_full": "しはがいこくじんむけに、やさしいにほんごでかかれたぼうさいぱんふれっとをさくせいした。",
       "audio_alternatives": [
-        { "kanji": "外国人向けの防災案内が、やさしい日本語で作成された。", "hiragana_full": "がいこくじんむけのぼうさいあんないが、やさしいにほんごでさくせいされた。" },
-        { "kanji": "市は外国人住民のために、やさしい日本語の防災パンフレットを作った。", "hiragana_full": "しはがいこくじんじゅうみんのために、やさしいにほんごのぼうさいぱんふれっとをつくった。" }
+        {
+          "kanji": "外国人向けの防災案内が、やさしい日本語で作成された。",
+          "hiragana_full": "がいこくじんむけのぼうさいあんないが、やさしいにほんごでさくせいされた。"
+        },
+        {
+          "kanji": "市は外国人住民のために、やさしい日本語の防災パンフレットを作った。",
+          "hiragana_full": "しはがいこくじんじゅうみんのために、やさしいにほんごのぼうさいぱんふれっとをつくった。"
+        }
       ],
       "audio_eligible": true,
       "register": "written",
       "vocab": [
-        { "word": "防災", "reading": "ぼうさい", "meaning": "disaster preparedness" },
-        { "word": "作成", "reading": "さくせい", "meaning": "drawing up; producing" }
+        {
+          "word": "防災",
+          "reading": "ぼうさい",
+          "meaning": "disaster preparedness"
+        },
+        {
+          "word": "作成",
+          "reading": "さくせい",
+          "meaning": "drawing up; producing"
+        }
       ],
       "blank_target_reading": "むけ"
     },
@@ -154,23 +266,45 @@
       "example_sentence": "このソフトウェアは、主に企業向けに開発されました。",
       "translation": "This software was developed mainly for corporate customers.",
       "blank_target": "向け",
-      "wrong_choices": ["向き", "的", "風"],
+      "wrong_choices": [
+        "同士",
+        "的",
+        "風"
+      ],
       "wrong_choice_explanations": [
-        "〜向き expresses natural suitability and doesn't combine with 開発される ('be developed'), which implies a deliberate target — that's 向けに.",
+        "同士 means 'fellow ~ / among ~' (友達同士 'among friends'); 企業同士 doesn't fit here. 向け marks 企業 as the intended target.",
         "〜的に makes adverbs meaning 'in a ~ manner' (企業的に 'in a corporate way'). It would describe how it was developed, not for whom.",
         "〜風 means 'in the style of' (和風). 企業風に開発された would mean 'developed corporate-style,' saying nothing about the intended users."
       ],
       "hiragana_full": "このそふとうぇあは、おもにきぎょうむけにかいはつされました。",
       "audio_alternatives": [
-        { "kanji": "企業向けに作られたソフトウェアですが、個人でも使えます。", "hiragana_full": "きぎょうむけにつくられたそふとうぇあですが、こじんでもつかえます。" },
-        { "kanji": "このソフトは主に法人のお客様のために開発されたものです。", "hiragana_full": "このそふとはおもにほうじんのおきゃくさまのためにかいはつされたものです。" }
+        {
+          "kanji": "企業向けに作られたソフトウェアですが、個人でも使えます。",
+          "hiragana_full": "きぎょうむけにつくられたそふとうぇあですが、こじんでもつかえます。"
+        },
+        {
+          "kanji": "このソフトは主に法人のお客様のために開発されたものです。",
+          "hiragana_full": "このそふとはおもにほうじんのおきゃくさまのためにかいはつされたものです。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "企業", "reading": "きぎょう", "meaning": "company; corporation" },
-        { "word": "開発", "reading": "かいはつ", "meaning": "development" },
-        { "word": "主に", "reading": "おもに", "meaning": "mainly" }
+        {
+          "word": "企業",
+          "reading": "きぎょう",
+          "meaning": "company; corporation"
+        },
+        {
+          "word": "開発",
+          "reading": "かいはつ",
+          "meaning": "development"
+        },
+        {
+          "word": "主に",
+          "reading": "おもに",
+          "meaning": "mainly"
+        }
       ],
       "blank_target_reading": "むけ"
     },
@@ -179,7 +313,11 @@
       "example_sentence": "この英会話教室には、旅行者向けの短期コースもある。",
       "translation": "This English conversation school also offers short courses designed for travelers.",
       "blank_target": "向け",
-      "wrong_choices": ["済み", "付き", "中"],
+      "wrong_choices": [
+        "済み",
+        "付き",
+        "中"
+      ],
       "wrong_choice_explanations": [
         "〜済み means 'already done' (支払い済み 'paid'). 旅行者済み makes no sense.",
         "〜付き means 'comes with ~' (保証付き 'with a warranty'). 旅行者付きのコース would absurdly mean a course that comes with travelers included.",
@@ -187,14 +325,28 @@
       ],
       "hiragana_full": "このえいかいわきょうしつには、りょこうしゃむけのたんきこーすもある。",
       "audio_alternatives": [
-        { "kanji": "旅行者向けの短期レッスンも受けられます。", "hiragana_full": "りょこうしゃむけのたんきれっすんもうけられます。" },
-        { "kanji": "この教室には旅行する人のための短いコースも用意されている。", "hiragana_full": "このきょうしつにはりょこうするひとのためのみじかいこーすもよういされている。" }
+        {
+          "kanji": "旅行者向けの短期レッスンも受けられます。",
+          "hiragana_full": "りょこうしゃむけのたんきれっすんもうけられます。"
+        },
+        {
+          "kanji": "この教室には旅行する人のための短いコースも用意されている。",
+          "hiragana_full": "このきょうしつにはりょこうするひとのためのみじかいこーすもよういされている。"
+        }
       ],
       "audio_eligible": true,
       "register": "casual",
       "vocab": [
-        { "word": "英会話", "reading": "えいかいわ", "meaning": "English conversation" },
-        { "word": "短期", "reading": "たんき", "meaning": "short-term" }
+        {
+          "word": "英会話",
+          "reading": "えいかいわ",
+          "meaning": "English conversation"
+        },
+        {
+          "word": "短期",
+          "reading": "たんき",
+          "meaning": "short-term"
+        }
       ],
       "blank_target_reading": "むけ"
     },
@@ -203,22 +355,40 @@
       "example_sentence": "本日の説明会は、保護者向けの内容となっております。",
       "translation": "(Announcement) Today's information session is intended for parents and guardians.",
       "blank_target": "向け",
-      "wrong_choices": ["向き", "用", "同士"],
+      "wrong_choices": [
+        "だらけ",
+        "付き",
+        "同士"
+      ],
       "wrong_choice_explanations": [
-        "〜向き would say the content merely happens to suit parents; the session was prepared specifically for them, and formal notices mark that audience with 向け.",
-        "〜用 attaches to facilities and items for a group's use (保護者用の受付 'reception desk for parents'); it doesn't describe the intended audience of content.",
+        "だらけ means 'full of / covered in' (泥だらけ 'covered in mud'); 保護者だらけ doesn't describe suitability or a target. 向け marks 保護者 as the intended target.",
+        "付き means 'comes with' (朝食付き 'breakfast included'); 保護者付き makes no sense here. 向け marks 保護者 as the intended target.",
         "〜同士 means 'among fellows' (親同士の交流 'interaction between parents'). 保護者同士の内容 would mean content about parents interacting, not content addressed to them."
       ],
       "hiragana_full": "ほんじつのせつめいかいは、ほごしゃむけのないようとなっております。",
       "audio_alternatives": [
-        { "kanji": "本日の説明会は、保護者の方を対象としております。", "hiragana_full": "ほんじつのせつめいかいは、ほごしゃのかたをたいしょうとしております。" },
-        { "kanji": "今日の説明会の内容は保護者向けです。", "hiragana_full": "きょうのせつめいかいのないようはほごしゃむけです。" }
+        {
+          "kanji": "本日の説明会は、保護者の方を対象としております。",
+          "hiragana_full": "ほんじつのせつめいかいは、ほごしゃのかたをたいしょうとしております。"
+        },
+        {
+          "kanji": "今日の説明会の内容は保護者向けです。",
+          "hiragana_full": "きょうのせつめいかいのないようはほごしゃむけです。"
+        }
       ],
       "audio_eligible": true,
       "register": "formal",
       "vocab": [
-        { "word": "保護者", "reading": "ほごしゃ", "meaning": "parent; guardian" },
-        { "word": "説明会", "reading": "せつめいかい", "meaning": "information session" }
+        {
+          "word": "保護者",
+          "reading": "ほごしゃ",
+          "meaning": "parent; guardian"
+        },
+        {
+          "word": "説明会",
+          "reading": "せつめいかい",
+          "meaning": "information session"
+        }
       ],
       "blank_target_reading": "むけ"
     },
@@ -227,22 +397,40 @@
       "example_sentence": "各メーカーは、健康志向の消費者向けの商品開発を進めている。",
       "translation": "Manufacturers are pressing ahead with product development aimed at health-conscious consumers.",
       "blank_target": "向け",
-      "wrong_choices": ["向き", "用", "中"],
+      "wrong_choices": [
+        "同士",
+        "済み",
+        "中"
+      ],
       "wrong_choice_explanations": [
-        "〜向き means naturally suited for. Product development deliberately targets a customer segment, so the audience is marked with 向け.",
-        "〜用 means 'for the use of' particular users (業務用の冷蔵庫 'a commercial-use refrigerator'). The point here is the marketing target, not who operates the product.",
+        "同士 means 'fellow ~ / among ~' (友達同士 'among friends'); 消費者同士 doesn't fit here. 向け marks 消費者 as the intended target.",
+        "済み means 'already done' (支払い済み 'paid'); 消費者済み makes no sense here. 向け marks 消費者 as the intended target.",
         "〜中 means 'in the middle of' (開発中 'under development'). 消費者中 is not a word."
       ],
       "hiragana_full": "かくめーかーは、けんこうしこうのしょうひしゃむけのしょうひんかいはつをすすめている。",
       "audio_alternatives": [
-        { "kanji": "各社は健康に関心の高い消費者に向けた商品の開発を進めています。", "hiragana_full": "かくしゃはけんこうにかんしんのたかいしょうひしゃにむけたしょうひんのかいはつをすすめています。" },
-        { "kanji": "健康志向の客をねらった新商品の開発が各社で進んでいる。", "hiragana_full": "けんこうしこうのきゃくをねらったしんしょうひんのかいはつがかくしゃですすんでいる。" }
+        {
+          "kanji": "各社は健康に関心の高い消費者に向けた商品の開発を進めています。",
+          "hiragana_full": "かくしゃはけんこうにかんしんのたかいしょうひしゃにむけたしょうひんのかいはつをすすめています。"
+        },
+        {
+          "kanji": "健康志向の客をねらった新商品の開発が各社で進んでいる。",
+          "hiragana_full": "けんこうしこうのきゃくをねらったしんしょうひんのかいはつがかくしゃですすんでいる。"
+        }
       ],
       "audio_eligible": true,
       "register": "written",
       "vocab": [
-        { "word": "志向", "reading": "しこう", "meaning": "-consciousness; orientation" },
-        { "word": "消費者", "reading": "しょうひしゃ", "meaning": "consumer" }
+        {
+          "word": "志向",
+          "reading": "しこう",
+          "meaning": "-consciousness; orientation"
+        },
+        {
+          "word": "消費者",
+          "reading": "しょうひしゃ",
+          "meaning": "consumer"
+        }
       ],
       "blank_target_reading": "むけ"
     }

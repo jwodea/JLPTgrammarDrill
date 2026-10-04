@@ -6,62 +6,6 @@
   "exercises": [
     {
       "id": "n2_032_1",
-      "example_sentence": "契約に署名した者は、すべての条件に同意したものとする。",
-      "translation": "Those who sign the contract shall be deemed to have agreed to all conditions.",
-      "blank_target": "ものとする",
-      "wrong_choices": [
-        "ことにする",
-        "ものとして",
-        "とみなす"
-      ],
-      "wrong_choice_explanations": [
-        "ことにする means 'to decide to do' and is used for personal decisions, but this formal stipulation requires ものとする.",
-        "ものとして means 'as/treating as' and is used for assumptions, but this sentence needs the formal stipulation meaning of ものとする.",
-        "とみなす means 'to regard as' but is less formal than ものとする, which is required for official contractual language."
-      ],
-      "hiragana_full": "けいやくにしょめいしたものは、すべてのじょうけんにどういしたものとする。",
-      "audio_alternatives": [
-        {
-          "kanji": "契約に署名した人は、すべての条件に同意したとみなす。",
-          "hiragana_full": "けいやくにしょめいしたひとは、すべてのじょうけんにどういしたとみなす。"
-        },
-        {
-          "kanji": "契約に署名した者は、全条件に同意したものとみなされる。",
-          "hiragana_full": "けいやくにしょめいしたものは、ぜんじょうけんにどういしたものとみなされる。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_032_2",
-      "example_sentence": "この規則は本日から有効となったものとする。",
-      "translation": "This rule shall be deemed to have taken effect from today.",
-      "blank_target": "ものとする",
-      "wrong_choices": [
-        "はずである",
-        "べきである",
-        "ことになる"
-      ],
-      "wrong_choice_explanations": [
-        "はずである expresses expectation or probability, but this sentence requires the formal stipulation of ものとする.",
-        "べきである expresses obligation or duty, but this context needs the formal declaration meaning of ものとする.",
-        "ことになる indicates a decision or outcome, but lacks the formal stipulation nuance required here."
-      ],
-      "hiragana_full": "このきそくはほんじつからゆうこうとなったものとする",
-      "audio_alternatives": [
-        {
-          "kanji": "この規則は本日より有効になったものとみなす。",
-          "hiragana_full": "このきそくはほんじつよりゆうこうになったものとみなす"
-        },
-        {
-          "kanji": "本日からこの規則は有効となったものとする。",
-          "hiragana_full": "ほんじつからこのきそくはゆうこうとなったものとする"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_032_3",
       "example_sentence": "遅刻した学生は欠席したものとする。",
       "translation": "Students who are late shall be regarded as absent.",
       "blank_target": "ものとする",
@@ -86,10 +30,23 @@
           "hiragana_full": "ちこくしたがくせいはけっせきとみなす"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "遅刻",
+          "reading": "ちこく",
+          "meaning": "lateness"
+        },
+        {
+          "word": "欠席",
+          "reading": "けっせき",
+          "meaning": "absence"
+        }
+      ]
     },
     {
-      "id": "n2_032_4",
+      "id": "n2_032_2",
       "example_sentence": "申請書を提出しなかった者は、参加を辞退したものとする。",
       "translation": "Those who did not submit applications shall be deemed to have declined participation.",
       "blank_target": "ものとする",
@@ -114,10 +71,28 @@
           "hiragana_full": "しんせいしょをださなかったものは、さんかをじたいしたものとみなされる。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "申請書",
+          "reading": "しんせいしょ",
+          "meaning": "application form"
+        },
+        {
+          "word": "提出",
+          "reading": "ていしゅつ",
+          "meaning": "submission"
+        },
+        {
+          "word": "辞退",
+          "reading": "じたい",
+          "meaning": "declining, withdrawal"
+        }
+      ]
     },
     {
-      "id": "n2_032_5",
+      "id": "n2_032_3",
       "example_sentence": "会費を滞納した会員は退会したものとする。",
       "translation": "Members who are delinquent in dues shall be regarded as having withdrawn.",
       "blank_target": "ものとする",
@@ -142,38 +117,28 @@
           "hiragana_full": "かいひをたいのうしているかいいんはたいかいしたものとみなされる"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_032_6",
-      "example_sentence": "試験に合格した者は資格を取得したものとする。",
-      "translation": "Those who pass the exam shall be deemed to have obtained the qualification.",
-      "blank_target": "ものとする",
-      "wrong_choices": [
-        "ということだ",
-        "そうである",
-        "のである"
-      ],
-      "wrong_choice_explanations": [
-        "ということだ indicates hearsay or summary, but this certification rule requires the formal declaration of ものとする.",
-        "そうである expresses hearsay or appearance, which is inappropriate for this official qualification standard.",
-        "のである provides explanation or emphasis, but lacks the stipulative force needed in this regulatory context."
-      ],
-      "hiragana_full": "しけんにごうかくしたものはしかくをしゅとくしたものとする",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
         {
-          "kanji": "試験に合格した人は資格を取得したとみなす。",
-          "hiragana_full": "しけんにごうかくしたひとはしかくをしゅとくしたとみなす"
+          "word": "会費",
+          "reading": "かいひ",
+          "meaning": "membership fee"
         },
         {
-          "kanji": "試験に合格した者は資格を取得したとみなされる。",
-          "hiragana_full": "しけんにごうかくしたものはしかくをしゅとくしたとみなされる"
+          "word": "滞納",
+          "reading": "たいのう",
+          "meaning": "nonpayment, arrears"
+        },
+        {
+          "word": "退会",
+          "reading": "たいかい",
+          "meaning": "withdrawal (from a group)"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n2_032_7",
+      "id": "n2_032_4",
       "example_sentence": "この協定は両国が批准した時点で発効したものとする。",
       "translation": "This agreement shall be deemed to have taken effect when both countries ratified it.",
       "blank_target": "ものとする",
@@ -198,10 +163,28 @@
           "hiragana_full": "りょうこくがひじゅんしたじてんで、このきょうていははっこうしたものとされる"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "協定",
+          "reading": "きょうてい",
+          "meaning": "agreement, pact"
+        },
+        {
+          "word": "批准",
+          "reading": "ひじゅん",
+          "meaning": "ratification"
+        },
+        {
+          "word": "発効",
+          "reading": "はっこう",
+          "meaning": "coming into effect"
+        }
+      ]
     },
     {
-      "id": "n2_032_8",
+      "id": "n2_032_5",
       "example_sentence": "定刻までに到着しなかった参加者は棄権したものとする。",
       "translation": "Participants who do not arrive by the scheduled time shall be deemed to have forfeited.",
       "blank_target": "ものとする",
@@ -226,10 +209,23 @@
           "hiragana_full": "ていこくにまにあわなかったさんかしゃはきけんしたとみなされる。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "定刻",
+          "reading": "ていこく",
+          "meaning": "scheduled time"
+        },
+        {
+          "word": "棄権",
+          "reading": "きけん",
+          "meaning": "abstention, withdrawal"
+        }
+      ]
     },
     {
-      "id": "n2_032_9",
+      "id": "n2_032_6",
       "example_sentence": "研修を修了した職員は必要な技能を習得したものとする。",
       "translation": "Employees who complete the training shall be regarded as having acquired the necessary skills.",
       "blank_target": "ものとする",
@@ -254,35 +250,209 @@
           "hiragana_full": "けんしゅうをおえたしょくいんはひつようなぎのうをみにつけたものとする"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "研修",
+          "reading": "けんしゅう",
+          "meaning": "training"
+        },
+        {
+          "word": "修了",
+          "reading": "しゅうりょう",
+          "meaning": "completion (of a course)"
+        },
+        {
+          "word": "技能",
+          "reading": "ぎのう",
+          "meaning": "skill"
+        }
+      ]
+    },
+    {
+      "id": "n2_032_7",
+      "example_sentence": "契約書に署名した者は条件に同意したものとする。",
+      "translation": "Those who signed the contract shall be deemed to have agreed to the terms.",
+      "blank_target": "たものとする",
+      "wrong_choices": [
+        "たことがある",
+        "たはずだ",
+        "たようだ"
+      ],
+      "wrong_choice_explanations": [
+        "〜たことがある means 'have the experience of'; it doesn't create a legal stipulation.",
+        "〜たはずだ expresses logical expectation; it lacks the formal regulatory meaning needed here.",
+        "〜たようだ indicates appearance or hearsay; it's too uncertain for a contractual context."
+      ],
+      "hiragana_full": "けいやくしょにしょめいしたものはじょうけんにどういしたものとする。",
+      "audio_alternatives": [
+        {
+          "kanji": "契約書にサインした者は条件に同意したとみなす。",
+          "hiragana_full": "けいやくしょにさいんしたものはじょうけんにどういしたとみなす。"
+        },
+        {
+          "kanji": "契約書に署名した人は条件に同意したとみなされる。",
+          "hiragana_full": "けいやくしょにしょめいしたひとはじょうけんにどういしたとみなされる。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "契約書",
+          "reading": "けいやくしょ",
+          "meaning": "contract (document)"
+        },
+        {
+          "word": "署名",
+          "reading": "しょめい",
+          "meaning": "signature"
+        },
+        {
+          "word": "条件",
+          "reading": "じょうけん",
+          "meaning": "terms; conditions"
+        }
+      ]
+    },
+    {
+      "id": "n2_032_8",
+      "example_sentence": "会議を欠席した委員は議案に賛成したものとする。",
+      "translation": "Committee members who were absent from the meeting shall be deemed to have agreed to the proposal.",
+      "blank_target": "したものとする",
+      "wrong_choices": [
+        "したと思う",
+        "したそうだ",
+        "したかもしれない"
+      ],
+      "wrong_choice_explanations": [
+        "〜したと思う expresses personal opinion; it doesn't create a binding rule or regulation.",
+        "〜したそうだ indicates hearsay or appearance; it's inappropriate for formal stipulations.",
+        "〜したかもしれない expresses possibility; it's too uncertain for regulatory contexts."
+      ],
+      "hiragana_full": "かいぎをけっせきしたいいんはぎあんにさんせいしたものとする。",
+      "audio_alternatives": [
+        {
+          "kanji": "会議を欠席した委員は議案に同意したとみなす。",
+          "hiragana_full": "かいぎをけっせきしたいいんはぎあんにどういしたとみなす。"
+        },
+        {
+          "kanji": "欠席した委員は議案に賛成したとみなされる。",
+          "hiragana_full": "けっせきしたいいんはぎあんにさんせいしたとみなされる。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "欠席",
+          "reading": "けっせき",
+          "meaning": "absence"
+        },
+        {
+          "word": "委員",
+          "reading": "いいん",
+          "meaning": "committee member"
+        },
+        {
+          "word": "議案",
+          "reading": "ぎあん",
+          "meaning": "motion; bill"
+        }
+      ]
+    },
+    {
+      "id": "n2_032_9",
+      "example_sentence": "この証明書を持参した者は資格を取得したものとする。",
+      "translation": "Those who bring this certificate shall be deemed to have obtained the qualification.",
+      "blank_target": "したものとする",
+      "wrong_choices": [
+        "するべきだ",
+        "するだろう",
+        "するに決まっている"
+      ],
+      "wrong_choice_explanations": [
+        "〜するべきだ expresses obligation; it doesn't establish what is formally stipulated.",
+        "〜するだろう expresses probability; it lacks the definitive nature of formal rules.",
+        "〜するに決まっている expresses certainty; it doesn't convey formal stipulation or regulation."
+      ],
+      "hiragana_full": "このしょうめいしょをじさんしたものはしかくをしゅとくしたものとする。",
+      "audio_alternatives": [
+        {
+          "kanji": "この証明書を持参した者は資格を取得したとみなす。",
+          "hiragana_full": "このしょうめいしょをじさんしたものはしかくをしゅとくしたとみなす。"
+        },
+        {
+          "kanji": "この証明書を持ってきた者は資格を取得したものとする。",
+          "hiragana_full": "このしょうめいしょをもってきたものはしかくをしゅとくしたものとする。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "持参",
+          "reading": "じさん",
+          "meaning": "to bring (with oneself)"
+        },
+        {
+          "word": "資格",
+          "reading": "しかく",
+          "meaning": "qualification"
+        },
+        {
+          "word": "取得",
+          "reading": "しゅとく",
+          "meaning": "to obtain"
+        }
+      ]
     },
     {
       "id": "n2_032_10",
-      "example_sentence": "期限内に報告書を提出した者は義務を履行したものとする。",
-      "translation": "Those who submit reports within the deadline shall be deemed to have fulfilled their obligations.",
-      "blank_target": "ものとする",
+      "example_sentence": "申込書を提出した時点で承諾したものとする。",
+      "translation": "You shall be deemed to have given consent at the time of submitting the application form.",
+      "blank_target": "したものとする",
       "wrong_choices": [
-        "ことになっている",
-        "べきものである",
-        "はずになっている"
+        "したと言える",
+        "したばかりだ",
+        "したところだ"
       ],
       "wrong_choice_explanations": [
-        "ことになっている indicates established arrangement or rule, but this formal regulation requires the stipulative force of ものとする.",
-        "べきものである expresses what ought to be, but lacks the declarative authority needed in this official context.",
-        "はずになっている indicates expectation based on arrangement, but this formal rule requires the stipulation of ものとする."
+        "〜したと言える means 'it can be said that'; it expresses judgment, not formal stipulation.",
+        "〜したばかりだ means 'just did'; it indicates recent completion, not regulatory status.",
+        "〜したところだ means 'just did'; it indicates timing, not the formal deeming required here."
       ],
-      "hiragana_full": "きげんないにほうこくしょをていしゅつしたものはぎむをりこうしたものとする。",
+      "hiragana_full": "もうしこみしょをていしゅつしたじてんでしょうだくしたものとする。",
       "audio_alternatives": [
         {
-          "kanji": "期限内に報告書を提出した人は義務を果たしたとみなす。",
-          "hiragana_full": "きげんないにほうこくしょをていしゅつしたひとはぎむをはたしたとみなす。"
+          "kanji": "申込書を提出した時点で、同意したものとみなす。",
+          "hiragana_full": "もうしこみしょをていしゅつしたじてんで、どういしたものとみなす。"
         },
         {
-          "kanji": "締め切り内に報告書を提出した者は義務を履行したとみなされる。",
-          "hiragana_full": "しめきりないにほうこくしょをていしゅつしたものはぎむをりこうしたとみなされる。"
+          "kanji": "申込書を提出した時点において承諾したものとみなされる。",
+          "hiragana_full": "もうしこみしょをていしゅつしたじてんにおいてしょうだくしたものとみなされる。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "申込書",
+          "reading": "もうしこみしょ",
+          "meaning": "application form"
+        },
+        {
+          "word": "時点",
+          "reading": "じてん",
+          "meaning": "point in time"
+        },
+        {
+          "word": "承諾",
+          "reading": "しょうだく",
+          "meaning": "consent; acceptance"
+        }
+      ]
     }
   ]
 }

@@ -6,6 +6,117 @@
   "exercises": [
     {
       "id": "n4_038_1",
+      "example_sentence": "新しいスポーツジムに入ってみることにしました。",
+      "translation": "I decided to try joining a new sports gym.",
+      "blank_target": "ってみることに",
+      "wrong_choices": [
+        "っておくことに",
+        "ってしまうことに",
+        "ってきたことに"
+      ],
+      "wrong_choice_explanations": [
+        "〜ておく means 'to do in advance,' but the sentence is about deciding to try something new, not preparing beforehand.",
+        "〜てしまう implies an unfortunate or complete result, but deciding to join a gym is a positive, intentional decision to try.",
+        "〜てきた means 'have been doing,' but ことにした requires a volitional base form—the sentence is about a new decision, not a past ongoing action."
+      ],
+      "hiragana_full": "あたらしいすぽーつじむにはいってみることにしました。",
+      "audio_alternatives": [
+        {
+          "kanji": "新しいスポーツジムに入会してみることにしました。",
+          "hiragana_full": "あたらしいすぽーつじむににゅうかいしてみることにしました。"
+        },
+        {
+          "kanji": "新しいスポーツジムに入ってみようと決めました。",
+          "hiragana_full": "あたらしいすぽーつじむにはいってみようときめました。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral"
+    },
+    {
+      "id": "n4_038_2",
+      "example_sentence": "この新しいソフトウェアを試してみたいです。",
+      "translation": "I would like to try this new software.",
+      "blank_target": "てみたい",
+      "wrong_choices": [
+        "ておきたい",
+        "てしまいたい",
+        "てきたい"
+      ],
+      "wrong_choice_explanations": [
+        "ておきたい means 'want to do in advance,' focused on preparation, but the speaker wants to try out the software, not get it ready beforehand.",
+        "てしまいたい means 'want to finish it off,' stressing completion, but the speaker wants to try the software, not be done with it.",
+        "てきたい means 'want to go and try it (then come back),' adding a sense of going elsewhere, but the sentence is simply about wanting to try the software."
+      ],
+      "hiragana_full": "このあたらしいソフトウェアをためしてみたいです。",
+      "audio_alternatives": [
+        {
+          "kanji": "この新しいソフトウェアを試してみたいと思います。",
+          "hiragana_full": "このあたらしいソフトウェアをためしてみたいとおもいます。"
+        },
+        {
+          "kanji": "この新しいソフトウェアを使ってみたいです。",
+          "hiragana_full": "このあたらしいソフトウェアをつかってみたいです。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "試して",
+          "reading": "ためして",
+          "meaning": "trying"
+        }
+      ]
+    },
+    {
+      "id": "n4_038_3",
+      "example_sentence": "一度、日本のお寺に泊まってみたいです。",
+      "translation": "I'd like to try staying at a Japanese temple once.",
+      "blank_target": "てみたい",
+      "wrong_choices": [
+        "てあげたい",
+        "てしまいたい",
+        "ていたい"
+      ],
+      "wrong_choice_explanations": [
+        "てあげたい means 'want to stay for someone's sake', which makes no sense for staying at a temple yourself; trying a new experience needs てみたい.",
+        "てしまいたい means 'want to get it over with', stressing completion, but the speaker wants to try a new experience, not be done with it.",
+        "ていたい means 'want to keep staying', which clashes with 一度 (once); trying something once needs てみたい."
+      ],
+      "hiragana_full": "いちど、にほんのおてらにとまってみたいです。",
+      "audio_alternatives": [
+        {
+          "kanji": "一度、日本のお寺に泊まってみたいと思っています。",
+          "hiragana_full": "いちど、にほんのおてらにとまってみたいとおもっています。"
+        },
+        {
+          "kanji": "一度、日本のお寺に泊まってみたい。",
+          "hiragana_full": "いちど、にほんのおてらにとまってみたい。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "一度",
+          "reading": "いちど",
+          "meaning": "once"
+        },
+        {
+          "word": "お寺",
+          "reading": "おてら",
+          "meaning": "temple"
+        },
+        {
+          "word": "泊まって",
+          "reading": "とまって",
+          "meaning": "staying overnight"
+        }
+      ]
+    },
+    {
+      "id": "n4_038_4",
       "example_sentence": "日本語で話してみました。",
       "translation": "I tried speaking in Japanese.",
       "blank_target": "て",
@@ -30,38 +141,11 @@
           "hiragana_full": "にほんごをつかってはなしてみました"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
-      "id": "n4_038_2",
-      "example_sentence": "この料理を作ってみたいです。",
-      "translation": "I want to try making this dish.",
-      "blank_target": "て",
-      "wrong_choices": [
-        "から",
-        "ので",
-        "けれど"
-      ],
-      "wrong_choice_explanations": [
-        "から means 'because/from' — it doesn't fit here because it indicates reason or starting point, not attempting something.",
-        "ので means 'because' — it doesn't fit here because it indicates reason, not the trial action pattern.",
-        "けれど means 'but/however' — it doesn't fit here because it indicates contrast, not trying something out."
-      ],
-      "hiragana_full": "このりょうりをつくってみたいです",
-      "audio_alternatives": [
-        {
-          "kanji": "この料理を作ってみたい。",
-          "hiragana_full": "このりょうりをつくってみたい"
-        },
-        {
-          "kanji": "この料理を試しに作りたいです。",
-          "hiragana_full": "このりょうりをためしにつくりたいです"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_038_3",
+      "id": "n4_038_5",
       "example_sentence": "新しい道を歩いてみましょう。",
       "translation": "Let's try walking on the new road.",
       "blank_target": "て",
@@ -86,10 +170,11 @@
           "hiragana_full": "あたらしいみちをためしにあるきましょう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
-      "id": "n4_038_4",
+      "id": "n4_038_6",
       "example_sentence": "その本を読んでみてください。",
       "translation": "Please try reading that book.",
       "blank_target": "で",
@@ -114,10 +199,11 @@
           "hiragana_full": "そのほんをよんでみてくれますか"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
-      "id": "n4_038_5",
+      "id": "n4_038_7",
       "example_sentence": "一度やってみます。",
       "translation": "I'll try doing it once.",
       "blank_target": "て",
@@ -142,38 +228,11 @@
           "hiragana_full": "いっかいやってみます。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
-      "id": "n4_038_6",
-      "example_sentence": "違う方法で考えてみた。",
-      "translation": "I tried thinking with a different method.",
-      "blank_target": "て",
-      "wrong_choices": [
-        "たり",
-        "ば",
-        "ても"
-      ],
-      "wrong_choice_explanations": [
-        "たり is the 'doing things like' connector — 考えたりみた would not make sense; the sentence reports a single trial attempt, not a listing of activities.",
-        "ば is a conditional — 考えればみた breaks grammatically, and even reading it as a hypothetical loses the 'I gave it a try' nuance of 〜てみる.",
-        "ても means 'even if' — 考えてもみた is a real expression but means 'I even tried thinking,' shifting emphasis from the trial itself to surprise at having considered it at all."
-      ],
-      "hiragana_full": "ちがうほうほうでかんがえてみた",
-      "audio_alternatives": [
-        {
-          "kanji": "別の方法で考えてみた。",
-          "hiragana_full": "べつのほうほうでかんがえてみた"
-        },
-        {
-          "kanji": "違うやり方で考えてみた。",
-          "hiragana_full": "ちがうやりかたでかんがえてみた"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_038_7",
+      "id": "n4_038_8",
       "example_sentence": "もう一度説明してみてもいいですか。",
       "translation": "May I try explaining once more?",
       "blank_target": "て",
@@ -198,10 +257,19 @@
           "hiragana_full": "もういちどせつめいをこころみてもいいですか"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "説明",
+          "reading": "せつめい",
+          "meaning": "explanation"
+        }
+      ],
+      "blank_occurrence": 1
     },
     {
-      "id": "n4_038_8",
+      "id": "n4_038_9",
       "example_sentence": "今度の日曜日に山に登ってみようと思います。",
       "translation": "I'm thinking of trying to climb a mountain this Sunday.",
       "blank_target": "て",
@@ -226,10 +294,11 @@
           "hiragana_full": "こんしゅうのにちようびにやまにのぼってみようとおもっています"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
-      "id": "n4_038_9",
+      "id": "n4_038_10",
       "example_sentence": "彼に電話をかけてみたけど、出なかった。",
       "translation": "I tried calling him, but he didn't answer.",
       "blank_target": "て",
@@ -254,35 +323,15 @@
           "hiragana_full": "かれにでんわをかけてみたが、でなかった。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_038_10",
-      "example_sentence": "新しいアプリを使ってみませんか。",
-      "translation": "Won't you try using the new app?",
-      "blank_target": "て",
-      "wrong_choices": [
-        "ながら",
-        "から",
-        "ても"
-      ],
-      "wrong_choice_explanations": [
-        "ながら means 'while doing' — 使いながら would describe using the app simultaneously with another action, not inviting the listener to try it as an experiment.",
-        "から means 'after/because' — 使ってから would set up 'after using the app, [something happens],' losing the trial-and-see nuance of 〜てみる.",
-        "ても means 'even if' — 使っても would frame app use as a concession ('even if you use it...'), not the gentle invitation to try it that 〜てみませんか conveys."
-      ],
-      "hiragana_full": "あたらしいアプリをつかってみませんか。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
         {
-          "kanji": "新しいアプリを試してみませんか。",
-          "hiragana_full": "あたらしいアプリをためしてみませんか。"
-        },
-        {
-          "kanji": "新しいアプリを使ってみてはどうですか。",
-          "hiragana_full": "あたらしいアプリをつかってみてはどうですか。"
+          "word": "出なかった",
+          "reading": "でなかった",
+          "meaning": "did not answer (the phone)"
         }
-      ],
-      "audio_eligible": true
+      ]
     }
   ]
 }

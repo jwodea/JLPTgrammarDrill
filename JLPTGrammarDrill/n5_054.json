@@ -6,35 +6,6 @@
   "exercises": [
     {
       "id": "n5_054_1",
-      "example_sentence": "安いし、美味しいので、このレストランが好きです。",
-      "translation": "It's cheap and delicious, so I like this restaurant.",
-      "blank_target": "し",
-      "wrong_choices": [
-        "けど",
-        "が",
-        "のに"
-      ],
-      "wrong_choice_explanations": [
-        "けど means 'but' — it shows contrast, but here we're listing positive reasons that support each other.",
-        "が means 'but' — it indicates contrast, not the additive relationship of multiple supporting reasons.",
-        "のに means 'despite / even though' — it shows contrast with unexpected results, not additional supporting reasons."
-      ],
-      "hiragana_full": "やすいし、おいしいので、このれすとらんがすきです。",
-      "audio_alternatives": [
-        {
-          "kanji": "このレストランは安くて美味しいから、好きです。",
-          "hiragana_full": "このれすとらんはやすくておいしいから、すきです。"
-        },
-        {
-          "kanji": "このレストランが好きです。安いし、美味しいから。",
-          "hiragana_full": "このれすとらんがすきです。やすいし、おいしいから。"
-        }
-      ],
-      "audio_eligible": true,
-      "register": "neutral"
-    },
-    {
-      "id": "n5_054_2",
       "example_sentence": "雨は降っているし、風も強いので、外に出ません。",
       "translation": "It's raining and the wind is strong too, so I won't go outside.",
       "blank_target": "し",
@@ -75,7 +46,7 @@
       ]
     },
     {
-      "id": "n5_054_3",
+      "id": "n5_054_2",
       "example_sentence": "日本語は面白いし、役に立つので、勉強しています。",
       "translation": "Japanese is interesting and useful, so I'm studying it.",
       "blank_target": "し",
@@ -108,10 +79,11 @@
           "reading": "やくにたつ",
           "meaning": "useful"
         }
-      ]
+      ],
+      "blank_occurrence": 1
     },
     {
-      "id": "n5_054_4",
+      "id": "n5_054_3",
       "example_sentence": "近いし、静かなので、この場所が気に入っています。",
       "translation": "It's close and quiet, so I like this place.",
       "blank_target": "し",
@@ -157,7 +129,7 @@
       ]
     },
     {
-      "id": "n5_054_5",
+      "id": "n5_054_4",
       "example_sentence": "時間もあるし、お金もあるので、映画を見に行きましょう。",
       "translation": "I have time and money too, so let's go see a movie.",
       "blank_target": "し",
@@ -183,12 +155,13 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "blank_occurrence": 1
     },
     {
-      "id": "n5_054_6",
-      "example_sentence": "値段も安いし、品質もいいので、この店で買い物をします。",
-      "translation": "The prices are cheap and the quality is good too, so I shop at this store.",
+      "id": "n5_054_5",
+      "example_sentence": "値段も安いし、品物もいいので、この店で買い物をします。",
+      "translation": "The prices are low and the goods are good too, so I shop at this store.",
       "blank_target": "し",
       "wrong_choices": [
         "という",
@@ -200,15 +173,15 @@
         "として means 'as / in the capacity of' — it shows role or function, not multiple reasons for choosing a store.",
         "によって means 'by means of / depending on' — it shows method or variation, not listing favorable qualities."
       ],
-      "hiragana_full": "ねだんもやすいし、ひんしつもいいので、このみせでかいものをします。",
+      "hiragana_full": "ねだんもやすいし、しなものもいいので、このみせでかいものをします。",
       "audio_alternatives": [
         {
-          "kanji": "値段が安くて、品質もいいから、この店で買い物をします。",
-          "hiragana_full": "ねだんがやすくて、ひんしつもいいから、このみせでかいものをします。"
+          "kanji": "値段が安くて、品物もいいから、この店で買い物をします。",
+          "hiragana_full": "ねだんがやすくて、しなものもいいから、このみせでかいものをします。"
         },
         {
-          "kanji": "この店は値段も安いし、品質もいいので、買い物をします。",
-          "hiragana_full": "このみせはねだんもやすいし、ひんしつもいいので、かいものをします。"
+          "kanji": "この店は値段も安いし、品物もいいので、ここで買い物をします。",
+          "hiragana_full": "このみせはねだんもやすいし、しなものもいいので、ここでかいものをします。"
         }
       ],
       "audio_eligible": true,
@@ -220,14 +193,15 @@
           "meaning": "price"
         },
         {
-          "word": "品質",
-          "reading": "ひんしつ",
-          "meaning": "quality"
+          "word": "品物",
+          "reading": "しなもの",
+          "meaning": "goods"
         }
-      ]
+      ],
+      "blank_occurrence": 1
     },
     {
-      "id": "n5_054_7",
+      "id": "n5_054_6",
       "example_sentence": "新しいし、きれいなので、この服を買いました。",
       "translation": "It's new and pretty, so I bought these clothes.",
       "blank_target": "し",
@@ -260,10 +234,11 @@
           "reading": "ふく",
           "meaning": "clothes"
         }
-      ]
+      ],
+      "blank_occurrence": 2
     },
     {
-      "id": "n5_054_8",
+      "id": "n5_054_7",
       "example_sentence": "暖かいし、晴れているので、散歩しませんか。",
       "translation": "It's warm and sunny, so shall we take a walk?",
       "blank_target": "し",
@@ -301,10 +276,11 @@
           "reading": "はれている",
           "meaning": "is sunny"
         }
-      ]
+      ],
+      "blank_occurrence": 1
     },
     {
-      "id": "n5_054_9",
+      "id": "n5_054_8",
       "example_sentence": "健康にいいし、美味しいので、野菜をたくさん食べます。",
       "translation": "It's good for health and delicious, so I eat lots of vegetables.",
       "blank_target": "し",
@@ -342,10 +318,11 @@
           "reading": "やさい",
           "meaning": "vegetables"
         }
-      ]
+      ],
+      "blank_occurrence": 1
     },
     {
-      "id": "n5_054_10",
+      "id": "n5_054_9",
       "example_sentence": "友達も来るし、料理も美味しいので、パーティーが楽しみです。",
       "translation": "Friends are coming and the food is delicious too, so I'm looking forward to the party.",
       "blank_target": "し",
@@ -377,6 +354,43 @@
           "word": "料理",
           "reading": "りょうり",
           "meaning": "food; cooking"
+        }
+      ],
+      "blank_occurrence": 1
+    },
+    {
+      "id": "n5_054_10",
+      "example_sentence": "この本は面白いし、ためになるし、最高だ。",
+      "translation": "This book is interesting, educational, and the best.",
+      "blank_target": "いし、ためになるし",
+      "wrong_choices": [
+        "かったり、ためになったり",
+        "くも、ためになるくも",
+        "いか、ためになるか"
+      ],
+      "wrong_choice_explanations": [
+        "面白かったり is itself a valid form, so the issue isn't grammar — 〜たり〜たり picks representative examples and suggests alternation, whereas し〜し piles up fixed qualities as reasons for the conclusion.",
+        "ためになるくも is not a real construction (a verb can't take 〜くも), so it cannot coordinate the qualities; し〜し is the pattern that does.",
+        "〜か lists alternatives or poses a question, but the speaker is asserting the book's merits, which し〜し ties together as reasons."
+      ],
+      "hiragana_full": "このほんはおもしろいし、ためになるし、さいこうだ。",
+      "audio_alternatives": [
+        {
+          "kanji": "この本は面白くて、ためになって、最高です。",
+          "hiragana_full": "このほんはおもしろくて、ためになって、さいこうです。"
+        },
+        {
+          "kanji": "この本は面白いし、勉強になるし、最高だ。",
+          "hiragana_full": "このほんはおもしろいし、べんきょうになるし、さいこうだ。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "最高",
+          "reading": "さいこう",
+          "meaning": "the best, superb"
         }
       ]
     }

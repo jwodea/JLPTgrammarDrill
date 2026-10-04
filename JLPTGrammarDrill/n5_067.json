@@ -30,38 +30,18 @@
           "hiragana_full": "あめがふるかも。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "降る",
+          "reading": "ふる",
+          "meaning": "fall (rain)"
+        }
+      ]
     },
     {
       "id": "n5_067_2",
-      "example_sentence": "田中さんは来ないかもしれない。",
-      "translation": "Tanaka might not come.",
-      "blank_target": "かもしれない",
-      "wrong_choices": [
-        "だろう",
-        "そうだ",
-        "らしい"
-      ],
-      "wrong_choice_explanations": [
-        "来ないだろう expresses a fairly confident prediction ('he probably won't come'); かもしれない is needed here to convey that his absence is only a possibility.",
-        "来ないそうだ reports hearsay ('I hear he isn't coming'), so it presents the absence as information from someone else rather than the speaker's own guess that かもしれない expresses.",
-        "来ないらしい also marks information picked up from others ('it seems he isn't coming, from what I've heard'); it doesn't capture the speaker's personal uncertainty that かもしれない conveys."
-      ],
-      "hiragana_full": "たなかさんはこないかもしれない。",
-      "audio_alternatives": [
-        {
-          "kanji": "田中さんは来ないかもしれません。",
-          "hiragana_full": "たなかさんはこないかもしれません。"
-        },
-        {
-          "kanji": "田中さんは来ないかも。",
-          "hiragana_full": "たなかさんはこないかも。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n5_067_3",
       "example_sentence": "この映画は面白いかもしれない。",
       "translation": "This movie might be interesting.",
       "blank_target": "かもしれない",
@@ -86,38 +66,18 @@
           "hiragana_full": "このえいがはおもしろいかもしれません。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n5_067_4",
-      "example_sentence": "彼は病気かもしれない。",
-      "translation": "He might be sick.",
-      "blank_target": "かもしれない",
-      "wrong_choices": [
-        "だろう",
-        "みたいだ",
-        "に違いない"
-      ],
-      "wrong_choice_explanations": [
-        "だろう expresses probability — while similar, it's more confident than かもしれない and doesn't fit the level of uncertainty here.",
-        "みたいだ expresses resemblance or appearance — it doesn't fit here because it suggests the person looks sick rather than expressing uncertainty about their condition.",
-        "に違いない expresses strong certainty — it doesn't fit here because it's the opposite of expressing uncertainty about his condition."
-      ],
-      "hiragana_full": "かれはびょうきかもしれない。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
         {
-          "kanji": "彼は病気でしょう。",
-          "hiragana_full": "かれはびょうきでしょう。"
-        },
-        {
-          "kanji": "彼は病気かな。",
-          "hiragana_full": "かれはびょうきかな。"
+          "word": "面白い",
+          "reading": "おもしろい",
+          "meaning": "interesting"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n5_067_5",
+      "id": "n5_067_3",
       "example_sentence": "バスが遅れるかもしれない。",
       "translation": "The bus might be delayed.",
       "blank_target": "かもしれない",
@@ -142,94 +102,18 @@
           "hiragana_full": "ばすはおくれるかもしれない。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n5_067_6",
-      "example_sentence": "お母さんは怒るかもしれない。",
-      "translation": "Mom might get angry.",
-      "blank_target": "かもしれない",
-      "wrong_choices": [
-        "でしょう",
-        "つもりだ",
-        "ところだ"
-      ],
-      "wrong_choice_explanations": [
-        "怒るでしょう leans toward a confident prediction ('she's probably going to get angry'); かもしれない is needed to express the speaker's genuine uncertainty about whether she will.",
-        "つもりだ marks the subject's own intention, so 怒るつもりだ would mean Mom plans to get angry on purpose — not the uncertainty about her reaction that かもしれない conveys.",
-        "ところだ describes being right at the moment of an action ('she's about to get angry'); it pins down timing rather than expressing whether she will get angry at all, which is what かもしれない does."
-      ],
-      "hiragana_full": "おかあさんはおこるかもしれない。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
         {
-          "kanji": "お母さんは怒るかもしれません。",
-          "hiragana_full": "おかあさんはおこるかもしれません。"
-        },
-        {
-          "kanji": "母は怒るかもしれない。",
-          "hiragana_full": "はははおこるかもしれない。"
+          "word": "遅れる",
+          "reading": "おくれる",
+          "meaning": "be delayed; be late"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n5_067_7",
-      "example_sentence": "あの店はもう閉まっているかもしれない。",
-      "translation": "That store might already be closed.",
-      "blank_target": "かもしれない",
-      "wrong_choices": [
-        "そうだ",
-        "ようだ",
-        "に違いない"
-      ],
-      "wrong_choice_explanations": [
-        "閉まっているそうだ would report hearsay ('I heard the store is closed'); the speaker here is making a private guess, which is what かもしれない expresses.",
-        "閉まっているようだ would mean the speaker can see signs that the store is closed ('it looks closed from here'); かもしれない instead voices a possibility without that visual evidence.",
-        "閉まっているに違いない expresses near-certainty ('it must be closed'); かもしれない is needed because the speaker is only guessing, not concluding."
-      ],
-      "hiragana_full": "あのみせはもうしまっているかもしれない。",
-      "audio_alternatives": [
-        {
-          "kanji": "あの店はもう閉まっているかもしれません。",
-          "hiragana_full": "あのみせはもうしまっているかもしれません。"
-        },
-        {
-          "kanji": "あの店はもう閉まっているかも。",
-          "hiragana_full": "あのみせはもうしまっているかも。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n5_067_8",
-      "example_sentence": "今日は暑いかもしれない。",
-      "translation": "It might be hot today.",
-      "blank_target": "かもしれない",
-      "wrong_choices": [
-        "だろう",
-        "ことがある",
-        "はずだ"
-      ],
-      "wrong_choice_explanations": [
-        "だろう expresses probability — while similar in meaning, it's more confident than かもしれない and doesn't fit the level of uncertainty expressed here.",
-        "ことがある means 'there are times when …' (occasional occurrence), so 暑いことがある would describe weather that is sometimes hot in general, not a guess about today specifically, which is what かもしれない conveys.",
-        "はずだ expresses strong expectation — it doesn't fit here because it conveys certainty based on evidence, not uncertainty."
-      ],
-      "hiragana_full": "きょうはあついかもしれない。",
-      "audio_alternatives": [
-        {
-          "kanji": "今日は暑いかもしれません。",
-          "hiragana_full": "きょうはあついかもしれません。"
-        },
-        {
-          "kanji": "今日は暑いかも。",
-          "hiragana_full": "きょうはあついかも。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n5_067_9",
+      "id": "n5_067_4",
       "example_sentence": "財布を忘れたかもしれない。",
       "translation": "I might have forgotten my wallet.",
       "blank_target": "かもしれない",
@@ -254,10 +138,23 @@
           "hiragana_full": "さいふをわすれたかもしれません。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "財布",
+          "reading": "さいふ",
+          "meaning": "wallet"
+        },
+        {
+          "word": "忘れた",
+          "reading": "わすれた",
+          "meaning": "forgot"
+        }
+      ]
     },
     {
-      "id": "n5_067_10",
+      "id": "n5_067_5",
       "example_sentence": "彼女は来年結婚するかもしれない。",
       "translation": "She might get married next year.",
       "blank_target": "かもしれない",
@@ -282,7 +179,193 @@
           "hiragana_full": "らいねん、かのじょはけっこんするかもしれない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "来年",
+          "reading": "らいねん",
+          "meaning": "next year"
+        },
+        {
+          "word": "結婚する",
+          "reading": "けっこんする",
+          "meaning": "get married"
+        }
+      ]
+    },
+    {
+      "id": "n5_067_6",
+      "example_sentence": "今年の冬は雪が多く降るかもしれません。",
+      "translation": "It might snow a lot this winter.",
+      "blank_target": "かもしれません",
+      "wrong_choices": [
+        "ようです",
+        "に違いありません",
+        "ことになっています"
+      ],
+      "wrong_choice_explanations": [
+        "〜ようです suggests appearance or what seems to be based on observation, but this sentence is about a tentative prediction about an uncertain future event.",
+        "に違いありません expresses strong certainty ('it must be'), the polar opposite of the weak possibility that かもしれない conveys about uncertain winter weather.",
+        "ことになっています describes an established arrangement or result, not the speculative 'might' needed for an uncertain weather prediction."
+      ],
+      "hiragana_full": "ことしのふゆはゆきがおおくふるかもしれません",
+      "audio_alternatives": [
+        {
+          "kanji": "今年の冬はたくさん雪が降るかもしれない。",
+          "hiragana_full": "ことしのふゆはたくさんゆきがふるかもしれない"
+        },
+        {
+          "kanji": "今冬は雪が多く降るかもしれません。",
+          "hiragana_full": "こんとうはゆきがおおくふるかもしれません"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral"
+    },
+    {
+      "id": "n5_067_7",
+      "example_sentence": "明日の試合は雨でなくなるかもしれません。",
+      "translation": "Tomorrow's game might be called off because of rain.",
+      "blank_target": "かもしれません",
+      "wrong_choices": [
+        "つもりです",
+        "ものです",
+        "ことです"
+      ],
+      "wrong_choice_explanations": [
+        "つもりです expresses a person's intention; a game cannot intend anything, so なくなるつもりです is nonsensical. The speaker is guessing at a possibility.",
+        "ものです expresses a general truth or habitual occurrence, not the speaker's guess about whether one particular game will be called off.",
+        "ことです turns the clause into a noun ('the fact of being called off'), which cannot serve as the predicate here; a possibility needs かもしれません."
+      ],
+      "hiragana_full": "あしたのしあいはあめでなくなるかもしれません。",
+      "audio_alternatives": [
+        {
+          "kanji": "明日の試合は雨でなくなるかもしれない。",
+          "hiragana_full": "あしたのしあいはあめでなくなるかもしれない。"
+        },
+        {
+          "kanji": "明日の試合は、雨だったらなくなるかもしれません。",
+          "hiragana_full": "あしたのしあいは、あめだったらなくなるかもしれません。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "試合",
+          "reading": "しあい",
+          "meaning": "game, match"
+        }
+      ]
+    },
+    {
+      "id": "n5_067_8",
+      "example_sentence": "この地図は古いかもしれません。",
+      "translation": "This map might be out of date.",
+      "blank_target": "かもしれません",
+      "wrong_choices": [
+        "つもりです",
+        "ことです",
+        "ばかりです"
+      ],
+      "wrong_choice_explanations": [
+        "つもりです expresses a person's intention; a map cannot intend anything, so 古いつもりです is nonsensical. The sentence expresses uncertainty.",
+        "ことです turns the clause into a noun ('the fact of being old'), which cannot serve as the predicate describing the map; a possibility needs かもしれません.",
+        "ばかりです means 'nothing but / only'; 'this map is nothing but old' is not what the speaker means — they are only suggesting a possibility, which かもしれません expresses."
+      ],
+      "hiragana_full": "このちずはふるいかもしれません。",
+      "audio_alternatives": [
+        {
+          "kanji": "この地図は古いかもしれない。",
+          "hiragana_full": "このちずはふるいかもしれない。"
+        },
+        {
+          "kanji": "この地図はもう古いかもしれません。",
+          "hiragana_full": "このちずはもうふるいかもしれません。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "地図",
+          "reading": "ちず",
+          "meaning": "map"
+        }
+      ]
+    },
+    {
+      "id": "n5_067_9",
+      "example_sentence": "今夜は会議が長くなるかもしれません。",
+      "translation": "The meeting tonight might run late.",
+      "blank_target": "かもしれません",
+      "wrong_choices": [
+        "ことになっています",
+        "ものです",
+        "らしいです"
+      ],
+      "wrong_choice_explanations": [
+        "ことになっています describes something that has been arranged or determined to happen, implying a decided outcome—but the sentence expresses genuine uncertainty about whether the meeting will actually run long.",
+        "ものです expresses a general characteristic or habitual tendency, not the specific uncertainty about what might happen at tonight's particular meeting.",
+        "らしいです indicates hearsay or appearance ('reportedly', 'apparently'), suggesting information from others, not the speaker's own assessment of tentative possibility about the meeting duration."
+      ],
+      "hiragana_full": "こんやはかいぎがながくなるかもしれません",
+      "audio_alternatives": [
+        {
+          "kanji": "今夜の会議は長引くかもしれません。",
+          "hiragana_full": "こんやのかいぎはながびくかもしれません"
+        },
+        {
+          "kanji": "今晩は会議が長くなるかもしれない。",
+          "hiragana_full": "こんばんはかいぎがながくなるかもしれない"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "会議",
+          "reading": "かいぎ",
+          "meaning": "meeting"
+        }
+      ]
+    },
+    {
+      "id": "n5_067_10",
+      "example_sentence": "あの店はもう閉まっているかもしれない。",
+      "translation": "That store might already be closed.",
+      "blank_target": "かもしれない",
+      "wrong_choices": [
+        "そうだ",
+        "ようだ",
+        "に違いない"
+      ],
+      "wrong_choice_explanations": [
+        "閉まっているそうだ would report hearsay ('I heard the store is closed'); the speaker here is making a private guess, which is what かもしれない expresses.",
+        "閉まっているようだ would mean the speaker can see signs that the store is closed ('it looks closed from here'); かもしれない instead voices a possibility without that visual evidence.",
+        "閉まっているに違いない expresses near-certainty ('it must be closed'); かもしれない is needed because the speaker is only guessing, not concluding."
+      ],
+      "hiragana_full": "あのみせはもうしまっているかもしれない。",
+      "audio_alternatives": [
+        {
+          "kanji": "あの店はもう閉まっているかもしれません。",
+          "hiragana_full": "あのみせはもうしまっているかもしれません。"
+        },
+        {
+          "kanji": "あの店はもう閉まっているかも。",
+          "hiragana_full": "あのみせはもうしまっているかも。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "閉まっている",
+          "reading": "しまっている",
+          "meaning": "is closed"
+        }
+      ]
     }
   ]
 }

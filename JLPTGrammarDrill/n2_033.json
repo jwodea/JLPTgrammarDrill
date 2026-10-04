@@ -6,90 +6,6 @@
   "exercises": [
     {
       "id": "n2_033_1",
-      "example_sentence": "貸出申請が認可されたものとして、日程を確保します。",
-      "translation": "Assuming the loan application is approved, we will reserve the dates.",
-      "blank_target": "ものとして",
-      "wrong_choices": [
-        "ものとする",
-        "とすれば",
-        "からには"
-      ],
-      "wrong_choice_explanations": [
-        "ものとする means 'to decide/regard as' and is used for making decisions, but this sentence needs ものとして to express proceeding on an assumption.",
-        "とすれば means 'if we assume' and creates a conditional (we will reserve the dates only if approved), but ものとして commits to reserving them now on the assumption of approval.",
-        "からには means 'now that / since (it is settled),' treating the approval as an established fact; ものとして treats it only as an unconfirmed assumption to plan around, not as something already decided."
-      ],
-      "hiragana_full": "かしだししんせいがにんかされたものとして、にっていをかくほします。",
-      "audio_alternatives": [
-        {
-          "kanji": "貸出申請が認可されたと仮定して、日程を確保します。",
-          "hiragana_full": "かしだししんせいがにんかされたとかていして、にっていをかくほします。"
-        },
-        {
-          "kanji": "貸出申請が承認されたものとして、スケジュールを確保します。",
-          "hiragana_full": "かしだししんせいがしょうにんされたものとして、すけじゅーるをかくほします。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_033_2",
-      "example_sentence": "彼が参加するものとして、予算を計上しましょう。",
-      "translation": "Let's allocate the budget on the assumption that he will participate.",
-      "blank_target": "ものとして",
-      "wrong_choices": [
-        "ものとみて",
-        "ことにして",
-        "以上"
-      ],
-      "wrong_choice_explanations": [
-        "ものとみて means 'considering/viewing as' and expresses a judgment drawn from evidence, but this sentence needs ものとして to express proceeding on a stated assumption.",
-        "ことにして means 'deciding/treating it as so (even if not really)' and expresses making something the case, but ものとして expresses planning around a premise that may still turn out otherwise.",
-        "以上 means 'now that / since (it is the case)' and acts on something already established as true, but ものとして plans around his participation as an assumption that isn't yet confirmed."
-      ],
-      "hiragana_full": "かれがさんかするものとして、よさんをけいじょうしましょう。",
-      "audio_alternatives": [
-        {
-          "kanji": "彼が参加することを前提に、予算を計上しましょう。",
-          "hiragana_full": "かれがさんかすることをぜんていに、よさんをけいじょうしましょう。"
-        },
-        {
-          "kanji": "彼が参加するという前提で、予算を計上しましょう。",
-          "hiragana_full": "かれがさんかするというぜんていで、よさんをけいじょうしましょう。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_033_3",
-      "example_sentence": "来年度の予算が承認されたものとして、計画を進めます。",
-      "translation": "We will proceed with the plan on the assumption that next year's budget is approved.",
-      "blank_target": "ものとして",
-      "wrong_choices": [
-        "ということで",
-        "ものなら",
-        "ばかりに"
-      ],
-      "wrong_choice_explanations": [
-        "ということで means 'so/therefore' and indicates a conclusion or reason, but this sentence needs ものとして to express proceeding on a hypothetical premise.",
-        "ものなら means 'if only' and expresses a wish or challenge, but this sentence needs ものとして to express an assumption for planning purposes.",
-        "ばかりに means 'just because' and indicates an undesirable result from a cause, but this sentence needs ものとして to express a hypothetical premise."
-      ],
-      "hiragana_full": "らいねんどのよさんがしょうにんされたものとして、けいかくをすすめます。",
-      "audio_alternatives": [
-        {
-          "kanji": "来年度の予算が承認されたと仮定して、計画を進めます。",
-          "hiragana_full": "らいねんどのよさんがしょうにんされたとかていして、けいかくをすすめます。"
-        },
-        {
-          "kanji": "来年度の予算が承認されることを前提に、計画を進めます。",
-          "hiragana_full": "らいねんどのよさんがしょうにんされることをぜんていに、けいかくをすすめます。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_033_4",
       "example_sentence": "プロジェクトが予定通り進むものとして、スケジュールを組みます。",
       "translation": "We will create the schedule on the assumption that the project proceeds as planned.",
       "blank_target": "ものとして",
@@ -114,10 +30,18 @@
           "hiragana_full": "ぷろじぇくとがよていどおりすすむことをぜんていに、すけじゅーるをくみます。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "予定通り",
+          "reading": "よていどおり",
+          "meaning": "as scheduled"
+        }
+      ]
     },
     {
-      "id": "n2_033_5",
+      "id": "n2_033_2",
       "example_sentence": "提案が受理されたものとして、実施計画を作成します。",
       "translation": "We will create the implementation plan on the assumption that the proposal is accepted.",
       "blank_target": "ものとして",
@@ -142,10 +66,28 @@
           "hiragana_full": "ていあんがじゅりされることをぜんていに、じっしけいかくをさくせいします。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "提案",
+          "reading": "ていあん",
+          "meaning": "proposal"
+        },
+        {
+          "word": "受理",
+          "reading": "じゅり",
+          "meaning": "acceptance (of a document)"
+        },
+        {
+          "word": "実施",
+          "reading": "じっし",
+          "meaning": "implementation"
+        }
+      ]
     },
     {
-      "id": "n2_033_6",
+      "id": "n2_033_3",
       "example_sentence": "試験に合格したものとして、次の準備を始めよう。",
       "translation": "Let's start preparing for the next step on the assumption that we passed the exam.",
       "blank_target": "ものとして",
@@ -170,66 +112,11 @@
           "hiragana_full": "しけんにごうかくしたつもりで、つぎのじゅんびをはじめましょう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
-      "id": "n2_033_7",
-      "example_sentence": "会議が延期されたものとして、他の予定を入れましょう。",
-      "translation": "Let's schedule other appointments on the assumption that the meeting has been postponed.",
-      "blank_target": "ものとして",
-      "wrong_choices": [
-        "ことから",
-        "ためか",
-        "せいで"
-      ],
-      "wrong_choice_explanations": [
-        "ことから means 'from the fact that' and indicates reasoning from evidence, but this sentence needs ものとして to express proceeding on an assumption.",
-        "ためか means 'perhaps because' and expresses uncertain reasoning, but this sentence needs ものとして to express a hypothetical premise.",
-        "せいで means 'because of/due to' and indicates a negative cause, but this sentence needs ものとして to express proceeding on an assumption."
-      ],
-      "hiragana_full": "かいぎがえんきされたものとして、ほかのよていをいれましょう。",
-      "audio_alternatives": [
-        {
-          "kanji": "会議が延期されたと仮定して、他の予定を入れましょう。",
-          "hiragana_full": "かいぎがえんきされたとかていして、ほかのよていをいれましょう。"
-        },
-        {
-          "kanji": "会議は延期されたものとして、別の予定を入れましょう。",
-          "hiragana_full": "かいぎはえんきされたものとして、べつのよていをいれましょう。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_033_8",
-      "example_sentence": "雨が降らないものとして、屋外イベントの準備を続けます。",
-      "translation": "We will continue preparing for the outdoor event on the assumption that it won't rain.",
-      "blank_target": "ものとして",
-      "wrong_choices": [
-        "限り",
-        "以上",
-        "からには"
-      ],
-      "wrong_choice_explanations": [
-        "限り means 'as long as' and expresses a condition that continues, but this sentence needs ものとして to express proceeding on a hypothetical assumption.",
-        "以上 means 'since/now that' and indicates acting based on established facts, but this sentence needs ものとして to express proceeding on an assumption.",
-        "からには means 'since/now that' and expresses obligation based on circumstances, but this sentence needs ものとして to express a hypothetical premise."
-      ],
-      "hiragana_full": "あめがふらないものとして、おくがいいべんとのじゅんびをつづけます。",
-      "audio_alternatives": [
-        {
-          "kanji": "雨が降らないという前提で、屋外イベントの準備を進めます。",
-          "hiragana_full": "あめがふらないというぜんていで、おくがいいべんとのじゅんびをすすめます。"
-        },
-        {
-          "kanji": "雨は降らないものとして、屋外イベントの準備を続けていきます。",
-          "hiragana_full": "あめはふらないものとして、おくがいいべんとのじゅんびをつづけていきます。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_033_9",
+      "id": "n2_033_4",
       "example_sentence": "システムが正常に動作するものとして、テストを実行します。",
       "translation": "We will run the test on the assumption that the system operates normally.",
       "blank_target": "ものとして",
@@ -254,10 +141,28 @@
           "hiragana_full": "システムがせいじょうにどうさするとかていして、テストをおこないます。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "正常",
+          "reading": "せいじょう",
+          "meaning": "normal"
+        },
+        {
+          "word": "動作",
+          "reading": "どうさ",
+          "meaning": "operation, functioning"
+        },
+        {
+          "word": "実行",
+          "reading": "じっこう",
+          "meaning": "execution"
+        }
+      ]
     },
     {
-      "id": "n2_033_10",
+      "id": "n2_033_5",
       "example_sentence": "契約が更新されるものとして、来期の計画を立てています。",
       "translation": "We are making plans for next term on the assumption that the contract will be renewed.",
       "blank_target": "ものとして",
@@ -282,7 +187,245 @@
           "hiragana_full": "けいやくがこうしんされることをぜんていに、らいきのけいかくをたてています。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "更新",
+          "reading": "こうしん",
+          "meaning": "renewal"
+        },
+        {
+          "word": "来期",
+          "reading": "らいき",
+          "meaning": "next term/period"
+        },
+        {
+          "word": "契約",
+          "reading": "けいやく",
+          "meaning": "contract"
+        }
+      ]
+    },
+    {
+      "id": "n2_033_6",
+      "example_sentence": "全員が同意するものとして、決定を下した。",
+      "translation": "I made the decision on the assumption that everyone agrees.",
+      "blank_target": "ものとして",
+      "wrong_choices": [
+        "はずで",
+        "だろうと",
+        "に違いないと"
+      ],
+      "wrong_choice_explanations": [
+        "はずで expresses expectation based on reasoning, not the hypothetical premise needed for decision-making.",
+        "だろうと indicates probability or conjecture, lacking the firm assumption basis required here.",
+        "に違いないと expresses strong conviction/certainty, not the hypothetical assumption framework of ものとして."
+      ],
+      "hiragana_full": "ぜんいんがどういするものとして、けっていをくだした。",
+      "audio_alternatives": [
+        {
+          "kanji": "全員が同意するという前提で、決定を下した。",
+          "hiragana_full": "ぜんいんがどういするというぜんていで、けっていをくだした。"
+        },
+        {
+          "kanji": "全員が同意するものとみなして、決定を下した。",
+          "hiragana_full": "ぜんいんがどういするものとみなして、けっていをくだした。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "同意",
+          "reading": "どうい",
+          "meaning": "consent"
+        },
+        {
+          "word": "決定",
+          "reading": "けってい",
+          "meaning": "decision"
+        },
+        {
+          "word": "下した",
+          "reading": "くだした",
+          "meaning": "made (a decision)"
+        }
+      ]
+    },
+    {
+      "id": "n2_033_7",
+      "example_sentence": "来年も同じ条件で続けられるものとして、契約を結んだ。",
+      "translation": "We signed the contract on the assumption that we can continue under the same conditions next year.",
+      "blank_target": "ものとして",
+      "wrong_choices": [
+        "べきだと",
+        "かもしれないと",
+        "に決まって"
+      ],
+      "wrong_choice_explanations": [
+        "べきだと expresses obligation or what should be done, not the assumption basis for contract decisions.",
+        "かもしれないと indicates possibility/uncertainty, contradicting the firm assumption needed for contracts.",
+        "に決まって implies certainty or established pattern, not the hypothetical premise of ものとして."
+      ],
+      "hiragana_full": "らいねんもおなじじょうけんでつづけられるものとして、けいやくをむすんだ。",
+      "audio_alternatives": [
+        {
+          "kanji": "来年も同じ条件で続けられると仮定して、契約を結んだ。",
+          "hiragana_full": "らいねんもおなじじょうけんでつづけられるとかていして、けいやくをむすんだ。"
+        },
+        {
+          "kanji": "来年も同じ条件で継続できるという前提で、契約を締結した。",
+          "hiragana_full": "らいねんもおなじじょうけんでけいぞくできるというぜんていで、けいやくをていけつした。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "条件",
+          "reading": "じょうけん",
+          "meaning": "conditions"
+        },
+        {
+          "word": "契約",
+          "reading": "けいやく",
+          "meaning": "contract"
+        },
+        {
+          "word": "結んだ",
+          "reading": "むすんだ",
+          "meaning": "concluded (a contract)"
+        }
+      ]
+    },
+    {
+      "id": "n2_033_8",
+      "example_sentence": "彼女が責任者を続けるものとして、新しいプロジェクトを立ち上げた。",
+      "translation": "We launched the new project on the assumption that she will continue as the person in charge.",
+      "blank_target": "ものとして",
+      "wrong_choices": [
+        "以上は",
+        "限りは",
+        "上では"
+      ],
+      "wrong_choice_explanations": [
+        "以上は means 'as long as/since' and indicates actual conditions, not the hypothetical premise of ものとして.",
+        "限りは means 'as long as' and expresses conditional continuation, not assumption-based planning.",
+        "上では means 'from the standpoint of' but doesn't capture the hypothetical assumption nuance needed here."
+      ],
+      "hiragana_full": "かのじょがせきにんしゃをつづけるものとして、あたらしいぷろじぇくとをたちあげた。",
+      "audio_alternatives": [
+        {
+          "kanji": "彼女が責任者を続けるという前提で、新しいプロジェクトを立ち上げた。",
+          "hiragana_full": "かのじょがせきにんしゃをつづけるというぜんていで、あたらしいぷろじぇくとをたちあげた。"
+        },
+        {
+          "kanji": "彼女が引き続き責任者であることを前提として、新しいプロジェクトを立ち上げた。",
+          "hiragana_full": "かのじょがひきつづきせきにんしゃであることをぜんていとして、あたらしいぷろじぇくとをたちあげた。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "責任者",
+          "reading": "せきにんしゃ",
+          "meaning": "person in charge"
+        },
+        {
+          "word": "立ち上げた",
+          "reading": "たちあげた",
+          "meaning": "launched"
+        }
+      ]
+    },
+    {
+      "id": "n2_033_9",
+      "example_sentence": "法律が改正されないものとして、来年度の方針を決定した。",
+      "translation": "We decided next year's policy on the assumption that the law will not be revised.",
+      "blank_target": "ものとして",
+      "wrong_choices": [
+        "わけで",
+        "せいで",
+        "おかげで"
+      ],
+      "wrong_choice_explanations": [
+        "わけで means 'for the reason that' and indicates actual reasons, not hypothetical assumptions for policy-making.",
+        "せいで indicates negative cause/blame, which doesn't fit the neutral assumption context here.",
+        "おかげで expresses positive cause/thanks to, inappropriate for assumption-based decision making."
+      ],
+      "hiragana_full": "ほうりつがかいせいされないものとして、らいねんどのほうしんをけっていした。",
+      "audio_alternatives": [
+        {
+          "kanji": "法律が改正されないことを前提に、来年度の方針を決定した。",
+          "hiragana_full": "ほうりつがかいせいされないことをぜんていに、らいねんどのほうしんをけっていした。"
+        },
+        {
+          "kanji": "法律は改正されないという前提で、来年度の方針を決めた。",
+          "hiragana_full": "ほうりつはかいせいされないというぜんていで、らいねんどのほうしんをきめた。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "改正",
+          "reading": "かいせい",
+          "meaning": "revision (of a law)"
+        },
+        {
+          "word": "来年度",
+          "reading": "らいねんど",
+          "meaning": "next fiscal year"
+        },
+        {
+          "word": "方針",
+          "reading": "ほうしん",
+          "meaning": "policy"
+        }
+      ]
+    },
+    {
+      "id": "n2_033_10",
+      "example_sentence": "全ての許可が下りるものとして、建設スケジュールを組んだ。",
+      "translation": "We set the construction schedule on the assumption that all permits will be approved.",
+      "blank_target": "ものとして",
+      "wrong_choices": [
+        "ものなら",
+        "だけに",
+        "ばかりに"
+      ],
+      "wrong_choice_explanations": [
+        "ものなら means 'if (by some chance) one could' and sets up a hard-to-realize condition, usually followed by a wish or warning, not the working assumption needed for scheduling.",
+        "だけに means 'precisely because' and emphasizes actual reasons, not assumption-based planning.",
+        "ばかりに means 'just because of' and indicates regrettable causes, inappropriate for neutral scheduling assumptions."
+      ],
+      "hiragana_full": "すべてのきょかがおりるものとして、けんせつスケジュールをくんだ。",
+      "audio_alternatives": [
+        {
+          "kanji": "全ての許可が下りることを前提に、建設スケジュールを組んだ。",
+          "hiragana_full": "すべてのきょかがおりることをぜんていに、けんせつスケジュールをくんだ。"
+        },
+        {
+          "kanji": "全ての許可が承認されるという前提で、建設スケジュールを立てた。",
+          "hiragana_full": "すべてのきょかがしょうにんされるというぜんていで、けんせつスケジュールをたてた。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "許可",
+          "reading": "きょか",
+          "meaning": "permission"
+        },
+        {
+          "word": "建設",
+          "reading": "けんせつ",
+          "meaning": "construction"
+        }
+      ]
     }
   ]
 }

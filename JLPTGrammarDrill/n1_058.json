@@ -10,12 +10,12 @@
       "translation": "This luxury hotel was complete with the latest facilities and was very comfortable.",
       "blank_target": "づくし",
       "wrong_choices": [
-        "ばかり",
+        "ずくめ",
         "だらけ",
         "まみれ"
       ],
       "wrong_choice_explanations": [
-        "ばかり means 'only/just' and doesn't convey the positive sense of being complete with something.",
+        "ずくめ attaches to a quality or condition (黒ずくめ, 規則ずくめ), not concrete facilities; 設備ずくめ is unnatural, whereas 設備づくし frames the hotel as furnished with a full set.",
         "だらけ means 'full of' but with negative connotations, unlike the positive meaning of づくし.",
         "まみれ means 'covered with' in a messy or negative way, not the positive completeness of づくし."
       ],
@@ -30,7 +30,20 @@
           "hiragana_full": "このこうきゅうホテルはさいしんのせつびがじゅうじつしていて、ひじょうにかいてきだった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "設備",
+          "reading": "せつび",
+          "meaning": "facilities; equipment"
+        },
+        {
+          "word": "快適",
+          "reading": "かいてき",
+          "meaning": "comfortable"
+        }
+      ]
     },
     {
       "id": "n1_058_2",
@@ -58,7 +71,8 @@
           "hiragana_full": "かのじょのけっこんしきはうつくしいはなばなでかざりたてられていた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n1_058_3",
@@ -86,7 +100,15 @@
           "hiragana_full": "あたらしくたてられたまんしょんはえこきのうがほうふでかんきょうにやさしい。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "新築",
+          "reading": "しんちく",
+          "meaning": "newly built"
+        }
+      ]
     },
     {
       "id": "n1_058_4",
@@ -114,7 +136,8 @@
           "hiragana_full": "このりょうりばんぐみはまいかいゆうめいシェフがそろっていてたのしみにしている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n1_058_5",
@@ -142,7 +165,25 @@
           "hiragana_full": "このびじゅつかんのとくべつてんらんかいはめいさくぞろいでみごたえがある。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "展示",
+          "reading": "てんじ",
+          "meaning": "exhibition; display"
+        },
+        {
+          "word": "名作",
+          "reading": "めいさく",
+          "meaning": "masterpiece"
+        },
+        {
+          "word": "見応え",
+          "reading": "みごたえ",
+          "meaning": "worth seeing"
+        }
+      ]
     },
     {
       "id": "n1_058_6",
@@ -152,12 +193,12 @@
       "wrong_choices": [
         "ずくめ",
         "まみれ",
-        "ばかり"
+        "一色"
       ],
       "wrong_choice_explanations": [
         "ずくめ attaches to a quality (規則ずくめ, いいことずくめ), not concrete equipment; 設備ずくめ is unnatural, whereas 設備づくし frames the embassy as outfitted with a full set.",
         "まみれ means physically coated with a substance (泥まみれ); security equipment isn't a coating, so it can't express being fully equipped.",
-        "ばかり means 'nothing but' (restrictive), implying an exclusionary excess of equipment rather than the positive completeness 設備づくし conveys."
+        "一色 means dominated by a single mood or color (歓迎一色); it describes a uniform atmosphere, not an embassy outfitted with a full range of security equipment, which is what づくし conveys."
       ],
       "hiragana_full": "このあたらしいたいしかんはさいしんのあんぜんせつびづくしでけんせつされている。",
       "audio_alternatives": [
@@ -170,7 +211,25 @@
           "hiragana_full": "このあたらしいたいしかんはさいしんのあんぜんせつびをすべてそなえたかたちでけんせつされている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "大使館",
+          "reading": "たいしかん",
+          "meaning": "embassy"
+        },
+        {
+          "word": "設備",
+          "reading": "せつび",
+          "meaning": "facilities; equipment"
+        },
+        {
+          "word": "建設",
+          "reading": "けんせつ",
+          "meaning": "construction"
+        }
+      ]
     },
     {
       "id": "n1_058_7",
@@ -198,7 +257,20 @@
           "hiragana_full": "あらたなかんきょうしせつはさいせんたんぎじゅつをそうどういんしてけんせつされている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "施設",
+          "reading": "しせつ",
+          "meaning": "facility"
+        },
+        {
+          "word": "建設",
+          "reading": "けんせつ",
+          "meaning": "construction"
+        }
+      ]
     },
     {
       "id": "n1_058_8",
@@ -226,7 +298,15 @@
           "hiragana_full": "あたらしいとしょかんはさいしんのきかいせつびをそろえてけんせつされている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "設備",
+          "reading": "せつび",
+          "meaning": "facilities; equipment"
+        }
+      ]
     },
     {
       "id": "n1_058_9",
@@ -254,7 +334,20 @@
           "hiragana_full": "しんほんしゃビルはさいしんえいのシステムせつびをそろえてけんせつちゅうだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "本社",
+          "reading": "ほんしゃ",
+          "meaning": "head office"
+        },
+        {
+          "word": "設備",
+          "reading": "せつび",
+          "meaning": "facilities; equipment"
+        }
+      ]
     },
     {
       "id": "n1_058_10",
@@ -282,7 +375,20 @@
           "hiragana_full": "あたらしいいりょうせんたーはさいしんのいりょうききをかんびし、かんじゃにあんしんかんをあたえている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "機器",
+          "reading": "きき",
+          "meaning": "equipment; device"
+        },
+        {
+          "word": "患者",
+          "reading": "かんじゃ",
+          "meaning": "patient"
+        }
+      ]
     }
   ]
 }

@@ -12,12 +12,12 @@
       "wrong_choices": [
         "ほかならぬ",
         "までも",
-        "すら"
+        "のみ"
       ],
       "wrong_choice_explanations": [
         "ほかならぬ means 'nothing but' or 'none other than,' used to identify something specific. The sentence needs たりとも to deny even the smallest amount, not to identify what something is.",
         "までも means 'even to the extent of' and adds inclusive emphasis, but たりとも specifically negates the existence of even the smallest unit in combination with a negative verb.",
-        "すら means 'even' and expresses surprise that something applies, but たりとも pairs with a counter and negative verb to express absolute denial of even one unit."
+        "「のみ」 means 'only' (restriction), so 「一銭のみ無駄にしてはならない」 would forbid wasting only one sen while allowing other amounts; 「たりとも」 denies even the smallest amount together with the negative verb."
       ],
       "hiragana_full": "いっせんたりともむだにしてはならない",
       "audio_alternatives": [
@@ -30,7 +30,20 @@
           "hiragana_full": "いっせんたりともむだにしてはいけない"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "一銭",
+          "reading": "いっせん",
+          "meaning": "one sen; a single cent"
+        },
+        {
+          "word": "無駄",
+          "reading": "むだ",
+          "meaning": "waste"
+        }
+      ]
     },
     {
       "id": "n1_006_2",
@@ -39,12 +52,12 @@
       "blank_target": "たりとも",
       "wrong_choices": [
         "だけでも",
-        "さえも",
+        "ずつ",
         "ばかり"
       ],
       "wrong_choice_explanations": [
         "だけでも means 'even just' and is used when requesting or permitting a minimal amount. The sentence requires たりとも to absolutely deny even one second of carelessness.",
-        "さえも means 'even' with emphasis, but it doesn't form the fixed pattern with a counter and negative verb that たりとも requires to express absolute negation.",
+        "「ずつ」 means 'each' or 'at a time', giving 'one second at a time', which does not fit here; 「たりとも」 pairs with the counter and a negative verb to deny even a single second of carelessness.",
         "ばかり means 'only' or 'nothing but' and describes a state of excess. The sentence needs たりとも to deny even the smallest duration, not to describe doing only one thing."
       ],
       "hiragana_full": "いちびょうたりともゆだんしてはいけない",
@@ -58,7 +71,15 @@
           "hiragana_full": "いちびょうたりともきをぬいてはいけない"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "油断",
+          "reading": "ゆだん",
+          "meaning": "carelessness; letting one's guard down"
+        }
+      ]
     },
     {
       "id": "n1_006_3",
@@ -66,13 +87,13 @@
       "translation": "We cannot allow even a single casualty.",
       "blank_target": "たりとも",
       "wrong_choices": [
-        "でさえ",
-        "だって",
+        "のみ",
+        "ずつ",
         "にしても"
       ],
       "wrong_choice_explanations": [
-        "でさえ means 'even' and highlights an extreme example, but it doesn't form the emphatic absolute negation pattern with a counter word that たりとも creates.",
-        "だって is a colloquial form of 'even' or 'because,' far too informal for this serious context. たりとも is the formal pattern for emphatically negating even one unit.",
+        "「のみ」 means 'only' and merely restricts to one, so 「一人のみ犠牲者を出すわけにはいかない」 reads as 'we cannot allow only one casualty'; 「たりとも」 denies that even a single person becomes a casualty.",
+        "「ずつ」 means 'each / one at a time', giving 'one casualty at a time', which makes no sense here; 「たりとも」 pairs with the counter and a negative verb to deny even one casualty.",
         "にしても means 'even if' and introduces a concessive condition. The sentence needs たりとも to absolutely deny that even one person becomes a casualty."
       ],
       "hiragana_full": "ひとりたりともぎせいしゃをだすわけにはいかない",
@@ -86,7 +107,15 @@
           "hiragana_full": "だれひとりたりともぎせいにするわけにはいかない"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "犠牲者",
+          "reading": "ぎせいしゃ",
+          "meaning": "victim; casualty"
+        }
+      ]
     },
     {
       "id": "n1_006_4",
@@ -95,12 +124,12 @@
       "blank_target": "たりとも",
       "wrong_choices": [
         "ほども",
-        "すら",
+        "ばかり",
         "など"
       ],
       "wrong_choice_explanations": [
         "ほども means 'to the extent of' and describes degree, but たりとも is the specific pattern that pairs with a counter to emphatically deny even the smallest amount.",
-        "すら means 'even' and adds surprise, but it doesn't combine with a counter and negative verb in the fixed emphatic pattern that たりとも forms.",
+        "「ばかり」 means 'only about / just', so 「一歩ばかり退くつもりはない」 suggests retreating just about one step; 「たりとも」 emphatically denies even a single step of retreat.",
         "など means 'such as' or can be dismissive. The sentence needs たりとも to express firm resolve that not even a single step of retreat will happen."
       ],
       "hiragana_full": "いっぽたりともしりぞくつもりはない",
@@ -114,7 +143,15 @@
           "hiragana_full": "いっぽたりともこうたいするきはない"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "退く",
+          "reading": "しりぞく",
+          "meaning": "to retreat; step back"
+        }
+      ]
     },
     {
       "id": "n1_006_5",
@@ -142,7 +179,8 @@
           "hiragana_full": "たったいちにちもれんしゅうをやすむことはゆるされない"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n1_006_6",
@@ -170,7 +208,20 @@
           "hiragana_full": "こっかあんぜんほしょうにかんするもんだいにおいて、いっさいのじょうほはみとめられない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "安全保障",
+          "reading": "あんぜんほしょう",
+          "meaning": "security"
+        },
+        {
+          "word": "譲歩",
+          "reading": "じょうほ",
+          "meaning": "concession"
+        }
+      ]
     },
     {
       "id": "n1_006_7",
@@ -178,12 +229,12 @@
       "translation": "There are regions where not even a single drop of water should be wasted.",
       "blank_target": "たりとも",
       "wrong_choices": [
-        "でさえ",
+        "のみ",
         "だけでも",
         "ばかりか"
       ],
       "wrong_choice_explanations": [
-        "でさえ means 'even' and highlights an extreme case, but it doesn't form the emphatic counter + negation pattern that たりとも creates with 一滴.",
+        "「のみ」 means 'only' and restricts to one, so 「一滴のみ水を無駄にしてはならない」 would forbid wasting only one drop; 「たりとも」 pairs with 一滴 and a negative verb to deny even the smallest amount.",
         "だけでも means 'even just' and is used when permitting or requesting a small amount. The sentence uses たりとも to absolutely deny wasting even the smallest amount.",
         "ばかりか means 'not only... but also' and adds information. The sentence requires たりとも to pair with the counter 一滴 and a negative verb to express total prohibition."
       ],
@@ -198,7 +249,20 @@
           "hiragana_full": "みずをいってきたりともむだにしてはならないちいきがそんざいする。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "一滴",
+          "reading": "いってき",
+          "meaning": "a single drop"
+        },
+        {
+          "word": "地域",
+          "reading": "ちいき",
+          "meaning": "region; area"
+        }
+      ]
     },
     {
       "id": "n1_006_8",
@@ -208,12 +272,12 @@
       "wrong_choices": [
         "なりとも",
         "にしろ",
-        "すら"
+        "ずつ"
       ],
       "wrong_choice_explanations": [
         "なりとも means 'even if only' and expresses willingness to accept a minimum, which is the opposite nuance. たりとも emphatically denies even the smallest amount.",
         "にしろ means 'even if' and introduces a concessive condition. The sentence needs たりとも to pair with 一瞬 and a negative verb to deny even a moment's lapse.",
-        "すら means 'even' and can emphasize an extreme example, but it doesn't form the specific counter + たりとも + negative pattern needed to express absolute denial of even one instant."
+        "「ずつ」 means 'each / at a time', giving 'one instant at a time', which does not fit; 「たりとも」 pairs with 一瞬 and a negative verb to deny even a single moment's lapse."
       ],
       "hiragana_full": "しけんちゅうはいっしゅんたりともきをぬいてはいけない",
       "audio_alternatives": [
@@ -226,7 +290,20 @@
           "hiragana_full": "しけんちゅうはすこしもきをぬくことはゆるされない"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "一瞬",
+          "reading": "いっしゅん",
+          "meaning": "an instant; a moment"
+        },
+        {
+          "word": "気を抜いて",
+          "reading": "きをぬいて",
+          "meaning": "to let one's guard down"
+        }
+      ]
     },
     {
       "id": "n1_006_9",
@@ -254,7 +331,20 @@
           "hiragana_full": "きふきんをいちえんたりともおうりょうしてはならない"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "寄付金",
+          "reading": "きふきん",
+          "meaning": "donation money"
+        },
+        {
+          "word": "横領",
+          "reading": "おうりょう",
+          "meaning": "embezzlement"
+        }
+      ]
     },
     {
       "id": "n1_006_10",
@@ -282,7 +372,15 @@
           "hiragana_full": "かんじゃのあんぜんにかんするかぎり、いっさいのだきょうはみとめられない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "妥協",
+          "reading": "だきょう",
+          "meaning": "compromise"
+        }
+      ]
     }
   ]
 }

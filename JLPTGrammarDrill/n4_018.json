@@ -30,7 +30,15 @@
           "hiragana_full": "あめでも、しあいはつづけます。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "試合",
+          "reading": "しあい",
+          "meaning": "match; game"
+        }
+      ]
     },
     {
       "id": "n4_018_2",
@@ -58,38 +66,23 @@
           "hiragana_full": "おかねがなくても、しあわせにせいかつしています。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "幸せ",
+          "reading": "しあわせ",
+          "meaning": "happiness; happy"
+        },
+        {
+          "word": "暮らして",
+          "reading": "くらして",
+          "meaning": "live; get by (te-form of 暮らす)"
+        }
+      ]
     },
     {
       "id": "n4_018_3",
-      "example_sentence": "一生懸命勉強しても、試験に落ちました。",
-      "translation": "Even though I studied hard, I failed the exam.",
-      "blank_target": "ても",
-      "wrong_choices": [
-        "たら",
-        "ば",
-        "のに"
-      ],
-      "wrong_choice_explanations": [
-        "たら means 'if/when (completed condition)' — it doesn't fit here because we're expressing an unexpected result despite effort.",
-        "ば means 'if' — it doesn't fit here because we're talking about something that already happened with an unexpected outcome.",
-        "のに also means 'even though,' but it attaches to the plain form (勉強した のに / 勉強する のに), not the stem 勉強し that ても follows here, so it can't fill this blank."
-      ],
-      "hiragana_full": "いっしょうけんめいべんきょうしても、しけんにおちました。",
-      "audio_alternatives": [
-        {
-          "kanji": "一生懸命勉強したのに、試験に落ちました。",
-          "hiragana_full": "いっしょうけんめいべんきょうしたのに、しけんにおちました。"
-        },
-        {
-          "kanji": "頑張って勉強しても、試験に落ちました。",
-          "hiragana_full": "がんばってべんきょうしても、しけんにおちました。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_018_4",
       "example_sentence": "時間がかかっても、最後まで頑張ります。",
       "translation": "Even if it takes time, I'll do my best until the end.",
       "blank_target": "ても",
@@ -114,38 +107,11 @@
           "hiragana_full": "じかんがかかっても、ゴールまでがんばります。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
-      "id": "n4_018_5",
-      "example_sentence": "疲れても、仕事を続けなければなりません。",
-      "translation": "Even if I'm tired, I have to continue working.",
-      "blank_target": "ても",
-      "wrong_choices": [
-        "でも",
-        "なら",
-        "と"
-      ],
-      "wrong_choice_explanations": [
-        "でも means 'but/however' and is a conjunction — it doesn't grammatically connect with the verb form here.",
-        "なら means 'if (given that)' and is used for assumptions — it doesn't fit here because we're expressing obligation despite fatigue.",
-        "と means 'when/if (natural consequence)' — it doesn't fit here because continuing to work despite tiredness is not a natural consequence."
-      ],
-      "hiragana_full": "つかれても、しごとをつづけなければなりません。",
-      "audio_alternatives": [
-        {
-          "kanji": "疲れていても、仕事を続けなければなりません。",
-          "hiragana_full": "つかれていても、しごとをつづけなければなりません。"
-        },
-        {
-          "kanji": "疲れても、仕事を続けないといけません。",
-          "hiragana_full": "つかれても、しごとをつづけないといけません。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_018_6",
+      "id": "n4_018_4",
       "example_sentence": "何度読み返しても、この本の意味が分かりません。",
       "translation": "No matter how many times I reread it, I can't understand the meaning of this book.",
       "blank_target": "ても",
@@ -170,40 +136,20 @@
           "hiragana_full": "なんどよんでも、このほんのいみがりかいできません。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_018_7",
-      "example_sentence": "病気であっても、学校に行かなければなりません。",
-      "translation": "Even if I'm sick, I have to go to school.",
-      "blank_target": "ても",
-      "wrong_choices": [
-        "のに",
-        "から",
-        "ので"
-      ],
-      "wrong_choice_explanations": [
-        "のに also means 'even though,' but it attaches to the plain form (病気な のに / 病気である のに), not the であって-form that ても follows here, so it can't fill this blank.",
-        "から means 'because/since' and expresses cause — it doesn't fit here because being sick is presented as an obstacle, not a reason to go to school.",
-        "ので means 'because/since' and expresses cause — it doesn't fit here because we're expressing obligation despite illness."
-      ],
-      "hiragana_full": "びょうきであっても、がっこうにいかなければなりません。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "病気でも、学校に行かなければなりません。",
-          "hiragana_full": "びょうきでも、がっこうにいかなければなりません。"
-        },
-        {
-          "kanji": "病気であっても、学校に行かないといけません。",
-          "hiragana_full": "びょうきであっても、がっこうにいかないといけません。"
+          "word": "読み返し",
+          "reading": "よみかえし",
+          "meaning": "rereading (stem of 読み返す)"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n4_018_8",
-      "example_sentence": "安くても、品質が良くない商品は買いません。",
-      "translation": "Even if it's cheap, I won't buy products with poor quality.",
+      "id": "n4_018_5",
+      "example_sentence": "安くても、すぐ壊れる物は買いません。",
+      "translation": "Even if it's cheap, I won't buy things that break easily.",
       "blank_target": "ても",
       "wrong_choices": [
         "なら",
@@ -211,25 +157,33 @@
         "と"
       ],
       "wrong_choice_explanations": [
-        "なら means 'if (given that)' and is used for assumptions — it doesn't fit here because we're emphasizing that cheapness won't overcome poor quality.",
+        "なら means 'if (given that)' and is used for assumptions — it doesn't fit here because we're emphasizing that cheapness won't make up for something breaking easily.",
         "から means 'because' and gives a reason — it doesn't fit here because the low price is something the speaker refuses to be swayed by, not the reason for the decision.",
-        "と means 'when/if (natural consequence)' — it doesn't fit here because not buying poor quality items despite low price is a personal choice, not natural consequence."
+        "と means 'when/if (natural consequence)' — it doesn't fit here because not buying fragile things despite a low price is a personal choice, not a natural consequence."
       ],
-      "hiragana_full": "やすくても、ひんしつがよくないしょうひんはかいません。",
+      "hiragana_full": "やすくても、すぐこわれるものはかいません。",
       "audio_alternatives": [
         {
-          "kanji": "安くても、品質が悪い商品は買いません。",
-          "hiragana_full": "やすくても、ひんしつがわるいしょうひんはかいません。"
+          "kanji": "安くても、すぐに壊れる物は買いません。",
+          "hiragana_full": "やすくても、すぐにこわれるものはかいません。"
         },
         {
-          "kanji": "安くても、品質の悪い商品は買わない。",
-          "hiragana_full": "やすくても、ひんしつのわるいしょうひんはかわない。"
+          "kanji": "安くても、すぐ壊れる物は買わない。",
+          "hiragana_full": "やすくても、すぐこわれるものはかわない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "壊れる",
+          "reading": "こわれる",
+          "meaning": "to break"
+        }
+      ]
     },
     {
-      "id": "n4_018_9",
+      "id": "n4_018_6",
       "example_sentence": "友達が反対しても、私は留学します。",
       "translation": "Even if my friends oppose it, I will study abroad.",
       "blank_target": "ても",
@@ -254,22 +208,35 @@
           "hiragana_full": "ともだちにはんたいされても、わたしはりゅうがくします。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "反対",
+          "reading": "はんたい",
+          "meaning": "opposition; objecting"
+        },
+        {
+          "word": "留学",
+          "reading": "りゅうがく",
+          "meaning": "studying abroad"
+        }
+      ]
     },
     {
-      "id": "n4_018_10",
+      "id": "n4_018_7",
       "example_sentence": "説明を聞いても、よく理解できませんでした。",
       "translation": "Even though I listened to the explanation, I couldn't understand it well.",
       "blank_target": "ても",
       "wrong_choices": [
         "から",
         "ので",
-        "たら"
+        "ながら"
       ],
       "wrong_choice_explanations": [
         "から means 'because/since' and expresses cause — it doesn't fit here because listening to the explanation contrasts with not understanding.",
         "ので means 'because/since' and expresses cause — it doesn't fit here because we're expressing an unexpected result despite listening.",
-        "たら means 'if/when (completed condition)' — it doesn't fit here because we're expressing disappointment despite making an effort to listen."
+        "ながら means 'while' and attaches to the masu-stem (聞きながら, never 聞いながら), and it would make listening and not understanding simultaneous rather than contrastive; 'even though I listened' needs 聞いても."
       ],
       "hiragana_full": "せつめいをきいても、よくりかいできませんでした。",
       "audio_alternatives": [
@@ -282,7 +249,128 @@
           "hiragana_full": "せつめいをきいたのに、よくりかいできませんでした。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "説明",
+          "reading": "せつめい",
+          "meaning": "explanation"
+        },
+        {
+          "word": "理解",
+          "reading": "りかい",
+          "meaning": "understanding; comprehension"
+        }
+      ]
+    },
+    {
+      "id": "n4_018_8",
+      "example_sentence": "病気でも、頑張って仕事に行った。",
+      "translation": "Even though I was sick, I went to work with determination.",
+      "blank_target": "でも",
+      "wrong_choices": [
+        "だから",
+        "なら",
+        "ために"
+      ],
+      "wrong_choice_explanations": [
+        "だから means 'therefore/so' and states a reason leading to an expected result, but here the result (going to work) contradicts the condition (being sick).",
+        "なら poses a hypothetical condition ('if you're sick'), but the sentence states a real situation and goes to work in spite of it, which calls for the concessive でも.",
+        "ために means 'in order to' or 'because of,' but the sentence expresses doing something despite an adverse condition, not purpose or cause."
+      ],
+      "hiragana_full": "びょうきでも、がんばってしごとにいった。",
+      "audio_alternatives": [
+        {
+          "kanji": "体調が悪くても、頑張って仕事に行った。",
+          "hiragana_full": "たいちょうがわるくても、がんばってしごとにいった。"
+        },
+        {
+          "kanji": "病気だったけど、頑張って仕事に行った。",
+          "hiragana_full": "びょうきだったけど、がんばってしごとにいった。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "頑張って",
+          "reading": "がんばって",
+          "meaning": "doing one's best"
+        }
+      ]
+    },
+    {
+      "id": "n4_018_9",
+      "example_sentence": "肉が苦手でも、このカレーならおいしく食べられます。",
+      "translation": "Even though I do not like meat, I can eat this curry deliciously.",
+      "blank_target": "でも",
+      "wrong_choices": [
+        "だから",
+        "で",
+        "ために"
+      ],
+      "wrong_choice_explanations": [
+        "だから means 'therefore/so' expressing a result or cause-effect relationship, but here we need a concessive form showing 'even if' despite something.",
+        "で simply links the clauses ('I dislike meat, and...'), giving a plain reason or sequence without the 'even though' concession that makes eating the curry surprising.",
+        "ために means 'in order to' expressing purpose, but this sentence expresses a conditional concession 'even though' rather than purposeful action."
+      ],
+      "hiragana_full": "にくがにがてでも、このかれーならおいしくたべられます。",
+      "audio_alternatives": [
+        {
+          "kanji": "肉が苦手でも、このカレーはおいしく食べられます。",
+          "hiragana_full": "にくがにがてでも、このかれーはおいしくたべられます。"
+        },
+        {
+          "kanji": "肉が得意じゃなくても、このカレーならおいしく食べられる。",
+          "hiragana_full": "にくがとくいじゃなくても、このかれーならおいしくたべられる。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "苦手",
+          "reading": "にがて",
+          "meaning": "not good at, dislike"
+        }
+      ]
+    },
+    {
+      "id": "n4_018_10",
+      "example_sentence": "どんなに走っても、電車には間に合わなかった。",
+      "translation": "No matter how hard I ran, I couldn't make the train.",
+      "blank_target": "ても",
+      "wrong_choices": [
+        "たら",
+        "と",
+        "ながら"
+      ],
+      "wrong_choice_explanations": [
+        "たら sets up a one-time condition ('once I run'), but the sentence stresses that the outcome held no matter how hard I ran, which needs the concessive ても.",
+        "と expresses an automatic, general result ('whenever you run, X follows'), but here running did NOT produce the hoped-for result, so the concessive ても is required.",
+        "ながら links two simultaneous actions ('while running'), but the sentence contrasts the effort with a contrary outcome, which calls for the concessive ても."
+      ],
+      "hiragana_full": "どんなにはしっても、でんしゃにはまにあわなかった。",
+      "audio_alternatives": [
+        {
+          "kanji": "どれだけ走っても、電車には間に合わなかった。",
+          "hiragana_full": "どれだけはしっても、でんしゃにはまにあわなかった。"
+        },
+        {
+          "kanji": "いくら走っても、電車に間に合わなかった。",
+          "hiragana_full": "いくらはしっても、でんしゃにまにあわなかった。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "間に合わなかった",
+          "reading": "まにあわなかった",
+          "meaning": "did not make it in time"
+        }
+      ]
     }
   ]
 }

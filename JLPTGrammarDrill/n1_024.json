@@ -31,6 +31,24 @@
         }
       ],
       "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "自己中心的",
+          "reading": "じこちゅうしんてき",
+          "meaning": "self-centered"
+        },
+        {
+          "word": "態度",
+          "reading": "たいど",
+          "meaning": "attitude"
+        },
+        {
+          "word": "身勝手",
+          "reading": "みがって",
+          "meaning": "selfish"
+        }
+      ],
       "blank_target_reading": "きわまりない"
     },
     {
@@ -60,6 +78,24 @@
         }
       ],
       "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "汚職",
+          "reading": "おしょく",
+          "meaning": "corruption/graft"
+        },
+        {
+          "word": "卑劣",
+          "reading": "ひれつ",
+          "meaning": "despicable/mean"
+        },
+        {
+          "word": "政治家",
+          "reading": "せいじか",
+          "meaning": "politician"
+        }
+      ],
       "blank_target_reading": "きわまりない"
     },
     {
@@ -89,6 +125,24 @@
         }
       ],
       "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "経営陣",
+          "reading": "けいえいじん",
+          "meaning": "management/executives"
+        },
+        {
+          "word": "無責任",
+          "reading": "むせきにん",
+          "meaning": "irresponsibility"
+        },
+        {
+          "word": "愚劣",
+          "reading": "ぐれつ",
+          "meaning": "stupid/foolish"
+        }
+      ],
       "blank_target_reading": "きわまりない"
     },
     {
@@ -118,39 +172,28 @@
         }
       ],
       "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "偏見",
+          "reading": "へんけん",
+          "meaning": "prejudice/bias"
+        },
+        {
+          "word": "論文",
+          "reading": "ろんぶん",
+          "meaning": "paper/thesis"
+        },
+        {
+          "word": "浅薄",
+          "reading": "せんぱく",
+          "meaning": "shallow/superficial"
+        }
+      ],
       "blank_target_reading": "きわまりない"
     },
     {
       "id": "n1_024_5",
-      "example_sentence": "彼女の嫉妬深い性格は醜悪極まりない。",
-      "translation": "Her jealous personality is extremely ugly.",
-      "blank_target": "極まりない",
-      "wrong_choices": [
-        "並々ならぬ",
-        "かなり",
-        "ずいぶん"
-      ],
-      "wrong_choice_explanations": [
-        "並々ならぬ means 'extraordinary' and is a pre-nominal modifier (並々ならぬ努力); it doesn't form the predicate the way 醜悪極まりない does, and it lacks the exclusively negative coloring of 極まりない.",
-        "かなり is an adverb meaning 'quite/fairly' that's far weaker than 極まりない and goes before the adjective (かなり醜悪だ) rather than attaching to its stem.",
-        "ずいぶん is a colloquial adverb meaning 'quite' that lacks both the formal register and the stem-suffix grammar of 極まりない."
-      ],
-      "hiragana_full": "かのじょのしっとぶかいせいかくはしゅうあくきわまりない",
-      "audio_alternatives": [
-        {
-          "kanji": "彼女の嫉妬深い性格はこの上なく醜悪だ。",
-          "hiragana_full": "かのじょのしっとぶかいせいかくはこのうえなくしゅうあくだ"
-        },
-        {
-          "kanji": "彼女の嫉妬深い性格は醜悪この上ない。",
-          "hiragana_full": "かのじょのしっとぶかいせいかくはしゅうあくこのうえない"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "きわまりない"
-    },
-    {
-      "id": "n1_024_6",
       "example_sentence": "その独裁者の人権侵害は残酷極まりない。",
       "translation": "That dictator's human rights violations are extremely cruel.",
       "blank_target": "極まりない",
@@ -176,10 +219,28 @@
         }
       ],
       "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "独裁者",
+          "reading": "どくさいしゃ",
+          "meaning": "dictator"
+        },
+        {
+          "word": "侵害",
+          "reading": "しんがい",
+          "meaning": "violation/infringement"
+        },
+        {
+          "word": "残酷",
+          "reading": "ざんこく",
+          "meaning": "cruel"
+        }
+      ],
       "blank_target_reading": "きわまりない"
     },
     {
-      "id": "n1_024_7",
+      "id": "n1_024_6",
       "example_sentence": "その企業の環境破壊行為は悪質極まりない。",
       "translation": "That company's environmental destruction is extremely malicious.",
       "blank_target": "極まりない",
@@ -205,10 +266,28 @@
         }
       ],
       "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "企業",
+          "reading": "きぎょう",
+          "meaning": "company/corporation"
+        },
+        {
+          "word": "破壊",
+          "reading": "はかい",
+          "meaning": "destruction"
+        },
+        {
+          "word": "悪質",
+          "reading": "あくしつ",
+          "meaning": "malicious/vicious"
+        }
+      ],
       "blank_target_reading": "きわまりない"
     },
     {
-      "id": "n1_024_8",
+      "id": "n1_024_7",
       "example_sentence": "その詐欺師の手口は巧妙極まりない。",
       "translation": "That swindler's methods are extremely cunning.",
       "blank_target": "極まりない",
@@ -234,64 +313,165 @@
         }
       ],
       "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "詐欺師",
+          "reading": "さぎし",
+          "meaning": "con artist/swindler"
+        },
+        {
+          "word": "手口",
+          "reading": "てぐち",
+          "meaning": "modus operandi/method"
+        },
+        {
+          "word": "巧妙",
+          "reading": "こうみょう",
+          "meaning": "cunning/skillful"
+        }
+      ],
+      "blank_target_reading": "きわまりない"
+    },
+    {
+      "id": "n1_024_8",
+      "example_sentence": "会議の最中に居眠りするとは、失礼極まりない。",
+      "translation": "To doze off in the middle of a meeting is utterly rude.",
+      "blank_target": "極まりない",
+      "wrong_choices": [
+        "限りだ",
+        "のようだ",
+        "ではない"
+      ],
+      "wrong_choice_explanations": [
+        "〜限りだ also expresses an extreme degree, but it attaches to emotion adjectives (嬉しい限りだ) to voice the speaker's own feeling; it cannot sit on the na-adjective 失礼 to condemn the act of dozing off.",
+        "失礼のようだ means 'seems rude,' presenting the behavior as a mere impression, whereas 極まりない declares the rudeness absolute and beyond question.",
+        "失礼ではない means 'is not rude,' the exact opposite of the strong condemnation the sentence makes."
+      ],
+      "hiragana_full": "かいぎのさいちゅうにいねむりするとは、しつれいきわまりない。",
+      "audio_alternatives": [
+        {
+          "kanji": "打ち合わせ中に居眠りするなど、無礼極まりない。",
+          "hiragana_full": "うちあわせちゅうにいねむりするなど、ぶれいきわまりない。"
+        },
+        {
+          "kanji": "会議で寝てしまうとは、まったく失礼な話だ。",
+          "hiragana_full": "かいぎでねてしまうとは、まったくしつれいなはなしだ。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "最中",
+          "reading": "さいちゅう",
+          "meaning": "the middle; the midst of"
+        },
+        {
+          "word": "居眠り",
+          "reading": "いねむり",
+          "meaning": "dozing off"
+        },
+        {
+          "word": "会議",
+          "reading": "かいぎ",
+          "meaning": "meeting"
+        }
+      ],
       "blank_target_reading": "きわまりない"
     },
     {
       "id": "n1_024_9",
-      "example_sentence": "その官僚の汚職事件は醜聞極まりない。",
-      "translation": "That bureaucrat's corruption scandal is an extremely disgraceful affair.",
+      "example_sentence": "そんな侮辱を黙って受け入れろとは、理不尽極まりない。",
+      "translation": "To be told to silently accept such an insult is utterly unreasonable.",
       "blank_target": "極まりない",
       "wrong_choices": [
-        "とんでもない",
-        "あり得ない",
-        "信じられない"
+        "かもしれない",
+        "のようだ",
+        "ではない"
       ],
       "wrong_choice_explanations": [
-        "とんでもない means 'outrageous/ridiculous' but expresses indignation rather than the objective assessment of ultimate degree that 極まりない provides.",
-        "あり得ない means 'impossible/unbelievable' and expresses disbelief rather than the attributive description of extreme degree that 極まりない gives.",
-        "信じられない means 'unbelievable' and focuses on incredulity rather than the evaluation of reaching an extreme level that 極まりない conveys."
+        "理不尽かもしれない means 'might be unreasonable,' a tentative possibility far weaker than the absolute degree 極まりない expresses.",
+        "理不尽のようだ means 'seems unreasonable,' a mere impression of the demand, not an outright condemnation.",
+        "理不尽ではない means 'is not unreasonable,' the opposite of what the speaker is protesting."
       ],
-      "hiragana_full": "そのかんりょうのおしょくじけんはしゅうぶんきわまりない",
+      "hiragana_full": "そんなぶじょくをだまってうけいれろとは、りふじんきわまりない。",
       "audio_alternatives": [
         {
-          "kanji": "その官僚の汚職事件は非常に恥ずべきものだ。",
-          "hiragana_full": "そのかんりょうのおしょくじけんはひじょうにはずべきものだ"
+          "kanji": "侮辱を我慢しろというのは、理不尽極まる要求だ。",
+          "hiragana_full": "ぶじょくをがまんしろというのは、りふじんきわまるようきゅうだ。"
         },
         {
-          "kanji": "その官僚の汚職スキャンダルはこの上なく不名誉だ。",
-          "hiragana_full": "そのかんりょうのおしょくすきゃんだるはこのうえなくふめいよだ"
+          "kanji": "そんな要求は、まったく筋が通らない。",
+          "hiragana_full": "そんなようきゅうは、まったくすじがとおらない。"
         }
       ],
       "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "侮辱",
+          "reading": "ぶじょく",
+          "meaning": "insult"
+        },
+        {
+          "word": "理不尽",
+          "reading": "りふじん",
+          "meaning": "unreasonable; unjust"
+        },
+        {
+          "word": "受け入れる",
+          "reading": "うけいれる",
+          "meaning": "to accept"
+        }
+      ],
       "blank_target_reading": "きわまりない"
     },
     {
       "id": "n1_024_10",
-      "example_sentence": "その評論家の偏見に基づく批評は浅慮極まりない。",
-      "translation": "That critic's prejudice-based review is extremely shallow-minded.",
+      "example_sentence": "避難訓練もせずに営業を続けるとは、無責任極まりない。",
+      "translation": "To keep operating without even holding evacuation drills is utterly irresponsible.",
       "blank_target": "極まりない",
       "wrong_choices": [
-        "言語道断",
-        "もってのほか",
-        "けしからん"
+        "のようだ",
+        "かもしれない",
+        "ではない"
       ],
       "wrong_choice_explanations": [
-        "言語道断 is a fixed expression meaning 'outrageous/unpardonable' that stands alone as a predicate (言語道断だ); it doesn't suffix onto a na-adjective stem the way 極まりない does.",
-        "もってのほか means 'outrageous/unthinkable' but is a fixed predicate phrase (もってのほかだ); it doesn't attach to a na-adjective stem to intensify it the way 極まりない does.",
-        "けしからん is a stand-alone adjective meaning 'outrageous/improper'; it can't combine with another na-adjective stem the way 極まりない does in 浅慮極まりない."
+        "無責任のようだ means 'seems irresponsible,' a mere impression, while 極まりない brands the conduct extremely irresponsible as fact.",
+        "無責任かもしれない means 'might be irresponsible,' a hedge far weaker than the extreme judgment intended.",
+        "無責任ではない means 'is not irresponsible,' the opposite of what the sentence condemns."
       ],
-      "hiragana_full": "そのひょうろんかのへんけんにもとづくひひょうはせんりょきわまりない",
+      "hiragana_full": "ひなんくんれんもせずにえいぎょうをつづけるとは、むせきにんきわまりない。",
       "audio_alternatives": [
         {
-          "kanji": "その評論家の偏見に基づいた批評は浅慮極まりない。",
-          "hiragana_full": "そのひょうろんかのへんけんにもとづいたひひょうはせんりょきわまりない"
+          "kanji": "訓練を怠って営業するなど、無責任極まる。",
+          "hiragana_full": "くんれんをおこたってえいぎょうするなど、むせきにんきわまる。"
         },
         {
-          "kanji": "その評論家の偏見に基づく批評は極めて浅慮だ。",
-          "hiragana_full": "そのひょうろんかのへんけんにもとづくひひょうはきわめてせんりょだ"
+          "kanji": "防災対策を無視するとは、あまりに責任感がない。",
+          "hiragana_full": "ぼうさいたいさくをむしするとは、あまりにせきにんかんがない。"
         }
       ],
       "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "避難訓練",
+          "reading": "ひなんくんれん",
+          "meaning": "evacuation drill"
+        },
+        {
+          "word": "営業",
+          "reading": "えいぎょう",
+          "meaning": "business operation"
+        },
+        {
+          "word": "無責任",
+          "reading": "むせきにん",
+          "meaning": "irresponsible"
+        }
+      ],
       "blank_target_reading": "きわまりない"
     }
   ]

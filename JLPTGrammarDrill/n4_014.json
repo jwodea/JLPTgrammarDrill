@@ -30,7 +30,8 @@
           "hiragana_full": "わたしはははにやさいをたべさせられたのです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n4_014_2",
@@ -58,7 +59,8 @@
           "hiragana_full": "せんせいはがくせいにしゅくだいをやらせた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n4_014_3",
@@ -86,7 +88,8 @@
           "hiragana_full": "こどもたちははやくねさせられています。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n4_014_4",
@@ -114,7 +117,20 @@
           "hiragana_full": "じょうしはしゃいんにざんぎょうさせている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "上司",
+          "reading": "じょうし",
+          "meaning": "boss; superior"
+        },
+        {
+          "word": "残業",
+          "reading": "ざんぎょう",
+          "meaning": "overtime work"
+        }
+      ]
     },
     {
       "id": "n4_014_5",
@@ -142,7 +158,8 @@
           "hiragana_full": "ちちはおとうとにくすりをのませました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n4_014_6",
@@ -170,7 +187,15 @@
           "hiragana_full": "わたしたちはずっとまたされた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "長時間",
+          "reading": "ちょうじかん",
+          "meaning": "(for) a long time"
+        }
+      ]
     },
     {
       "id": "n4_014_7",
@@ -198,7 +223,15 @@
           "hiragana_full": "せんしゅはこーちにまいにちはしらされている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "選手",
+          "reading": "せんしゅ",
+          "meaning": "athlete; player"
+        }
+      ]
     },
     {
       "id": "n4_014_8",
@@ -226,7 +259,25 @@
           "hiragana_full": "せんぱいはしんじんにしょるいをつくらせた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "新人",
+          "reading": "しんじん",
+          "meaning": "newcomer; new employee"
+        },
+        {
+          "word": "先輩",
+          "reading": "せんぱい",
+          "meaning": "senior (at school/work)"
+        },
+        {
+          "word": "書類",
+          "reading": "しょるい",
+          "meaning": "documents; papers"
+        }
+      ]
     },
     {
       "id": "n4_014_9",
@@ -254,7 +305,25 @@
           "hiragana_full": "ぶちょうはぶかをかいぎにでさせています。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "部下",
+          "reading": "ぶか",
+          "meaning": "subordinate"
+        },
+        {
+          "word": "部長",
+          "reading": "ぶちょう",
+          "meaning": "department manager"
+        },
+        {
+          "word": "会議",
+          "reading": "かいぎ",
+          "meaning": "meeting"
+        }
+      ]
     },
     {
       "id": "n4_014_10",
@@ -282,7 +351,15 @@
           "hiragana_full": "ははおやはむすこにへやをかたづけさせた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "片付け",
+          "reading": "かたづけ",
+          "meaning": "tidying up (stem of 片付ける)"
+        }
+      ]
     }
   ]
 }

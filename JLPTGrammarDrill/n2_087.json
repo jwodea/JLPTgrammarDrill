@@ -6,62 +6,6 @@
   "exercises": [
     {
       "id": "n2_087_1",
-      "example_sentence": "その映画には、人の心を動かすものがある。",
-      "translation": "That movie has something that moves people's hearts.",
-      "blank_target": "ものがある",
-      "wrong_choices": [
-        "ものだ",
-        "ことがある",
-        "はずだ"
-      ],
-      "wrong_choice_explanations": [
-        "ものだ is used to express general truths or strong assertions, not to indicate the existence of an intangible quality like this sentence requires.",
-        "ことがある indicates occasional occurrence or experience, but this sentence is describing an inherent quality that exists, not something that sometimes happens.",
-        "はずだ expresses logical expectation or assumption, which doesn't fit the context of describing an existing intangible quality."
-      ],
-      "hiragana_full": "そのえいがには、ひとのこころをうごかすものがある。",
-      "audio_alternatives": [
-        {
-          "kanji": "その映画は、人の心を動かす何かがある。",
-          "hiragana_full": "そのえいがは、ひとのこころをうごかすなにかがある。"
-        },
-        {
-          "kanji": "あの映画には、人の心を動かすものがある。",
-          "hiragana_full": "あのえいがには、ひとのこころをうごかすものがある。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_087_2",
-      "example_sentence": "その詩には、心を打つものがある。",
-      "translation": "That poem has something that strikes the heart.",
-      "blank_target": "ものがある",
-      "wrong_choices": [
-        "ところがある",
-        "わけがある",
-        "べきだ"
-      ],
-      "wrong_choice_explanations": [
-        "ところがある indicates having a particular aspect or characteristic, but doesn't convey the sense of an intangible, moving quality like ものがある does.",
-        "わけがある means 'there is a reason,' which doesn't fit the context of describing the poem's emotional impact.",
-        "べきだ expresses obligation or duty, which is completely unrelated to describing the poem's inherent quality."
-      ],
-      "hiragana_full": "そのしには、こころをうつものがある。",
-      "audio_alternatives": [
-        {
-          "kanji": "その詩は、心に響くものがある。",
-          "hiragana_full": "そのしは、こころにひびくものがある。"
-        },
-        {
-          "kanji": "その詩には、胸を打つものがある。",
-          "hiragana_full": "そのしには、むねをうつものがある。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_087_3",
       "example_sentence": "この小説には、読者を引きつけるものがある。",
       "translation": "This novel has something that attracts readers.",
       "blank_target": "ものがある",
@@ -86,10 +30,28 @@
           "hiragana_full": "このしょうせつには、どくしゃをみりょうするものがある。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "小説",
+          "reading": "しょうせつ",
+          "meaning": "novel"
+        },
+        {
+          "word": "読者",
+          "reading": "どくしゃ",
+          "meaning": "reader"
+        },
+        {
+          "word": "引きつける",
+          "reading": "ひきつける",
+          "meaning": "attract, draw in"
+        }
+      ]
     },
     {
-      "id": "n2_087_4",
+      "id": "n2_087_2",
       "example_sentence": "その音楽には、人々の心を揺さぶるものがある。",
       "translation": "That music has something that shakes people's hearts.",
       "blank_target": "ものがある",
@@ -114,10 +76,18 @@
           "hiragana_full": "あのおんがくには、ひとのこころをゆさぶるものがある。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "揺さぶる",
+          "reading": "ゆさぶる",
+          "meaning": "shake, stir"
+        }
+      ]
     },
     {
-      "id": "n2_087_5",
+      "id": "n2_087_3",
       "example_sentence": "その絵には、見る人を魅了するものがある。",
       "translation": "That painting has something that fascinates viewers.",
       "blank_target": "ものがある",
@@ -142,10 +112,18 @@
           "hiragana_full": "そのえには、みるひとをひきつけるなにかがある。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "魅了する",
+          "reading": "みりょうする",
+          "meaning": "fascinate, captivate"
+        }
+      ]
     },
     {
-      "id": "n2_087_6",
+      "id": "n2_087_4",
       "example_sentence": "その商品には、消費者を惹きつけるものがある。",
       "translation": "That product has something that attracts consumers.",
       "blank_target": "ものがある",
@@ -170,62 +148,28 @@
           "hiragana_full": "そのせいひんには、しょうひしゃをひきつけるみりょくがある。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_087_7",
-      "example_sentence": "その理論には、直感的な妥当性のようなものがある。",
-      "translation": "That theory has something like intuitive validity.",
-      "blank_target": "ものがある",
-      "wrong_choices": [
-        "ものを",
-        "ともなく",
-        "ところがある"
-      ],
-      "wrong_choice_explanations": [
-        "ものを expresses regret or dissatisfaction, often 'if only,' which doesn't fit the neutral assessment of a theory's intuitive validity.",
-        "ともなく means 'without knowing / unconsciously' and attaches to verbs (見るともなく etc.), not to a のような noun phrase — the form is broken in this slot.",
-        "ところがある means 'has aspects of' and is the closest cohort cousin — 直感的な妥当性のようなところがある would read as 'has features resembling intuitive validity,' an itemizable trait. ものがある instead conveys that the theory carries something — an intangible quality you sense rather than catalog."
-      ],
-      "hiragana_full": "そのりろんには、ちょっかんてきなだとうせいのようなものがある。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "その理論は、直感的な妥当性を持っているようだ。",
-          "hiragana_full": "そのりろんは、ちょっかんてきなだとうせいをもっているようだ。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_087_8",
-      "example_sentence": "その演技には、観客を感動させるものがある。",
-      "translation": "That performance has something that moves the audience.",
-      "blank_target": "ものがある",
-      "wrong_choices": [
-        "というもの",
-        "ところがある",
-        "きらいがある"
-      ],
-      "wrong_choice_explanations": [
-        "というもの is used to introduce a definition or a topic for emphasis ('what is called X'), not to assert the existence of an intangible quality in something — that's ものがある's role.",
-        "観客を感動させるところがある means 'has aspects that move the audience' — a near-cohort cousin that identifies a feature you could point to. ものがある is felt rather than itemized: there's something in the performance that moves people, without saying exactly what.",
-        "感動させるきらいがある means 'has a tendency to move the audience' — but きらいがある typically carries a negative valence ('has a tendency to do something undesirable'). The sentence is praising the performance, so the positive ものがある fits where きらいがある clashes."
-      ],
-      "hiragana_full": "そのえんぎには、かんきゃくをかんどうさせるものがある。",
-      "audio_alternatives": [
-        {
-          "kanji": "その演技は、観客を感動させる何かがある。",
-          "hiragana_full": "そのえんぎは、かんきゃくをかんどうさせるなにかがある。"
+          "word": "商品",
+          "reading": "しょうひん",
+          "meaning": "product"
         },
         {
-          "kanji": "その演技には、観客を感動させる力がある。",
-          "hiragana_full": "そのえんぎには、かんきゃくをかんどうさせるちからがある。"
+          "word": "消費者",
+          "reading": "しょうひしゃ",
+          "meaning": "consumer"
+        },
+        {
+          "word": "惹きつける",
+          "reading": "ひきつける",
+          "meaning": "attract"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n2_087_9",
+      "id": "n2_087_5",
       "example_sentence": "その建築には、時代を超越するものがある。",
       "translation": "That architecture has something that transcends time.",
       "blank_target": "ものがある",
@@ -250,10 +194,23 @@
           "hiragana_full": "あのけんちくには、じだいをちょうえつするものがある。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "建築",
+          "reading": "けんちく",
+          "meaning": "architecture"
+        },
+        {
+          "word": "超越する",
+          "reading": "ちょうえつする",
+          "meaning": "transcend"
+        }
+      ]
     },
     {
-      "id": "n2_087_10",
+      "id": "n2_087_6",
       "example_sentence": "その作品には、見る者を魅了する力のようなものがある。",
       "translation": "That artwork has something like a power that captivates viewers.",
       "blank_target": "ものがある",
@@ -278,7 +235,169 @@
           "hiragana_full": "そのさくひんは、みるものをみりょうするようなちからをもっている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "作品",
+          "reading": "さくひん",
+          "meaning": "work (of art)"
+        },
+        {
+          "word": "魅了する",
+          "reading": "みりょうする",
+          "meaning": "captivate"
+        }
+      ]
+    },
+    {
+      "id": "n2_087_7",
+      "example_sentence": "その小説には、考えさせるものがある。",
+      "translation": "That novel has something thought-provoking about it.",
+      "blank_target": "ものがある",
+      "wrong_choices": [
+        "ものだ",
+        "わけがある",
+        "必要がある"
+      ],
+      "wrong_choice_explanations": [
+        "ものだ expresses general truths or obligations but doesn't capture the intrinsic thought-provoking quality of the novel.",
+        "わけがある means 'there's a reason' but doesn't express the inherent quality that makes something thought-provoking.",
+        "必要がある means 'there is a need to' make people think, an obligation, rather than ものがある's sense that the novel inherently possesses a thought-provoking quality."
+      ],
+      "hiragana_full": "そのしょうせつには、かんがえさせるものがある。",
+      "audio_alternatives": [
+        {
+          "kanji": "その小説は、考えさせられるものがある。",
+          "hiragana_full": "そのしょうせつは、かんがえさせられるものがある。"
+        },
+        {
+          "kanji": "その小説には、深く考えさせるものがある。",
+          "hiragana_full": "そのしょうせつには、ふかくかんがえさせるものがある。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "小説",
+          "reading": "しょうせつ",
+          "meaning": "novel"
+        }
+      ]
+    },
+    {
+      "id": "n2_087_8",
+      "example_sentence": "この映画には、心に響くものがある。",
+      "translation": "This movie has something that touches the heart.",
+      "blank_target": "ものがある",
+      "wrong_choices": [
+        "ことになる",
+        "ものでもない",
+        "ものではない"
+      ],
+      "wrong_choice_explanations": [
+        "ことになる means 'it turns out that' but doesn't express the inherent emotional quality of the movie.",
+        "ものでもない means 'it's not really' (dismissive) which contradicts the positive quality being described.",
+        "ものではない means 'it's not something that' which negates the quality rather than affirming it."
+      ],
+      "hiragana_full": "このえいがには、こころにひびくものがある。",
+      "audio_alternatives": [
+        {
+          "kanji": "この映画は、心に響くものがある。",
+          "hiragana_full": "このえいがは、こころにひびくものがある。"
+        },
+        {
+          "kanji": "この映画には、胸に響くものがある。",
+          "hiragana_full": "このえいがには、むねにひびくものがある。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "響く",
+          "reading": "ひびく",
+          "meaning": "to resonate / strike a chord"
+        }
+      ]
+    },
+    {
+      "id": "n2_087_9",
+      "example_sentence": "その料理には、故郷を思い出させるものがある。",
+      "translation": "That dish has something that reminds one of home.",
+      "blank_target": "ものがある",
+      "wrong_choices": [
+        "というものだ",
+        "わけがある",
+        "といったもの"
+      ],
+      "wrong_choice_explanations": [
+        "というものだ means 'that's what... is' but doesn't express the nostalgic quality that evokes memories of home.",
+        "わけがある means 'there is a reason' the dish reminds one of home, pointing to a cause, whereas ものがある expresses an intangible, evocative quality the dish inherently holds.",
+        "といったもの means 'something like' but doesn't capture the specific nostalgic quality being described."
+      ],
+      "hiragana_full": "そのりょうりには、こきょうをおもいださせるものがある。",
+      "audio_alternatives": [
+        {
+          "kanji": "その料理は、故郷を思い出させる何かがある。",
+          "hiragana_full": "そのりょうりは、こきょうをおもいださせるなにかがある。"
+        },
+        {
+          "kanji": "その料理を食べると、故郷を思い出す。",
+          "hiragana_full": "そのりょうりをたべると、こきょうをおもいだす。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "故郷",
+          "reading": "こきょう",
+          "meaning": "hometown"
+        },
+        {
+          "word": "思い出す",
+          "reading": "おもいだす",
+          "meaning": "to recall"
+        }
+      ]
+    },
+    {
+      "id": "n2_087_10",
+      "example_sentence": "この音楽には、聞く人を癒すものがある。",
+      "translation": "This music has something that heals the listener.",
+      "blank_target": "ものがある",
+      "wrong_choices": [
+        "ものにする",
+        "ものとする",
+        "ものになる"
+      ],
+      "wrong_choice_explanations": [
+        "ものにする means 'to make one's own/master' but doesn't express the healing quality inherent in the music.",
+        "ものとする means 'to regard as' but doesn't convey the therapeutic effect the music has on listeners.",
+        "ものになる means 'to become something worthwhile' but doesn't express the healing quality described."
+      ],
+      "hiragana_full": "このおんがくには、きくひとをいやすものがある。",
+      "audio_alternatives": [
+        {
+          "kanji": "この音楽には、聴く人を癒す何かがある。",
+          "hiragana_full": "このおんがくには、きくひとをいやすなにかがある。"
+        },
+        {
+          "kanji": "この音楽は、聞く人を癒す力がある。",
+          "hiragana_full": "このおんがくは、きくひとをいやすちからがある。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "癒す",
+          "reading": "いやす",
+          "meaning": "to heal / soothe"
+        }
+      ]
     }
   ]
 }

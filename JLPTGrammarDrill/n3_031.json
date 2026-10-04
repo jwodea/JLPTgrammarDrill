@@ -30,49 +30,34 @@
           "hiragana_full": "がくせいにとって、ていきテストはたいせつなチャンスだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "定期",
+          "reading": "ていき",
+          "meaning": "regular, periodic"
+        },
+        {
+          "word": "重要",
+          "reading": "じゅうよう",
+          "meaning": "important"
+        }
+      ]
     },
     {
       "id": "n3_031_2",
-      "example_sentence": "フリーランスにとって、健康保険の加入は大きな課題です。",
-      "translation": "For freelancers, health insurance enrollment is a major issue.",
-      "blank_target": "にとって",
-      "wrong_choices": [
-        "にしたら",
-        "によって",
-        "として"
-      ],
-      "wrong_choice_explanations": [
-        "にしたら can mean 'for one's perspective,' but it carries a conditional tone ('if we say...'); にとって is more objective about perspective.",
-        "によって means 'by means of' or 'depending on,' but the sentence expresses how something affects a specific group.",
-        "として means 'as / in the role of,' but the sentence expresses what matters from a group's standpoint, not their role."
-      ],
-      "hiragana_full": "ふりーらんすにとって、けんこうほけんのかにゅうはおおきなかだいです。",
-      "audio_alternatives": [
-        {
-          "kanji": "フリーランサーにとって、健康保険への加入は大きな問題です。",
-          "hiragana_full": "ふりーらんさーにとって、けんこうほけんへのかにゅうはおおきなもんだいです。"
-        },
-        {
-          "kanji": "フリーランスの人には、健康保険の加入が大きな課題となっています。",
-          "hiragana_full": "ふりーらんすのひとには、けんこうほけんのかにゅうがおおきなかだいとなっています。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_031_3",
       "example_sentence": "アスリートにとって、怪我の予防は重要です。",
       "translation": "For athletes, injury prevention is important.",
       "blank_target": "にとって",
       "wrong_choices": [
         "に対して",
-        "からすると",
+        "によって",
         "について"
       ],
       "wrong_choice_explanations": [
         "に対して means 'toward,' indicating direction of action, but the sentence shows what is important from an athlete's perspective.",
-        "からすると means 'from the perspective of,' which is similar, but it emphasizes judgment or interpretation more than the neutral perspective that にとって conveys.",
+        "によって means 'depending on / by means of,' marking variation or agent; the sentence states what injury prevention means FOR athletes, which にとって marks, not something that varies by athlete.",
         "について means 'about or concerning,' but the sentence expresses what matters from an athlete's standpoint, not a discussion topic."
       ],
       "hiragana_full": "あすりーとにとって、けがのよぼうはじゅうようです。",
@@ -86,48 +71,38 @@
           "hiragana_full": "すぽーつせんしゅにとって、けがのよぼうはじゅうようです。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_031_4",
-      "example_sentence": "親にとって、子どもの幸福が最優先です。",
-      "translation": "For parents, their children's happiness is the top priority.",
-      "blank_target": "にとって",
-      "wrong_choices": [
-        "にしては",
-        "によって",
-        "として"
-      ],
-      "wrong_choice_explanations": [
-        "にしては means 'for / considering that,' implying a judgment against expectations, but にとって is more straightforward about priority.",
-        "によって means 'depending on / by means of,' but the sentence expresses what is important from a particular group's viewpoint.",
-        "として means 'as,' describing a role, but the sentence expresses what matters from parents' perspective."
-      ],
-      "hiragana_full": "おやにとって、こどものこうふくがさいゆうせんです。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "親にとって、子どもの幸せが一番大切です。",
-          "hiragana_full": "おやにとって、こどものしあわせがいちばんたいせつです。"
+          "word": "怪我",
+          "reading": "けが",
+          "meaning": "injury"
         },
         {
-          "kanji": "親にとって、子どもの幸福が一番重要です。",
-          "hiragana_full": "おやにとって、こどものこうふくがいちばんじゅうようです。"
+          "word": "予防",
+          "reading": "よぼう",
+          "meaning": "prevention"
+        },
+        {
+          "word": "重要",
+          "reading": "じゅうよう",
+          "meaning": "important"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n3_031_5",
+      "id": "n3_031_3",
       "example_sentence": "買い手にとって、価格は重要な要素です。",
       "translation": "For buyers, price is an important factor.",
       "blank_target": "にとって",
       "wrong_choices": [
-        "からすれば",
+        "によって",
         "に対して",
         "については"
       ],
       "wrong_choice_explanations": [
-        "からすれば means 'from one's standpoint,' but it implies conditional or interpretive framing; にとって is more neutral about perspective.",
+        "によって means 'depending on / by means of,' but the sentence expresses what price means FOR buyers — a perspective marked by にとって — not a variable or method.",
         "に対して means 'toward,' but the sentence expresses what is important from the buyer's perspective.",
         "については means 'as for / regarding,' shifting the focus to topics, not perspective."
       ],
@@ -142,20 +117,38 @@
           "hiragana_full": "こうにゅうしゃにとって、かかくはじゅうようなようそです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "買い手",
+          "reading": "かいて",
+          "meaning": "buyer"
+        },
+        {
+          "word": "価格",
+          "reading": "かかく",
+          "meaning": "price"
+        },
+        {
+          "word": "要素",
+          "reading": "ようそ",
+          "meaning": "factor, element"
+        }
+      ]
     },
     {
-      "id": "n3_031_6",
+      "id": "n3_031_4",
       "example_sentence": "先生にとって、学生の成長を見ることが喜びです。",
       "translation": "For a teacher, seeing students grow is a joy.",
       "blank_target": "にとって",
       "wrong_choices": [
-        "にしてみれば",
+        "について",
         "によって",
         "に関して"
       ],
       "wrong_choice_explanations": [
-        "にしてみれば means 'trying from one's perspective,' implying hypothetical framing; にとって is more direct about perspective.",
+        "について means 'about / concerning,' introducing a discussion topic; the sentence expresses what brings joy FROM a teacher's standpoint, which にとって marks, not a topic being discussed.",
         "によって means 'by means of' or 'depending on,' but the sentence expresses what brings joy from a teacher's standpoint.",
         "に関して means 'regarding,' but the sentence expresses the emotional significance from a teacher's viewpoint."
       ],
@@ -170,76 +163,33 @@
           "hiragana_full": "せんせいにとって、がくせいのせいちょうをみることはよろこびだ。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_031_7",
-      "example_sentence": "起業家にとって、失敗は学びの機会です。",
-      "translation": "For entrepreneurs, failure is a learning opportunity.",
-      "blank_target": "にとって",
-      "wrong_choices": [
-        "に対して",
-        "からすると",
-        "として"
-      ],
-      "wrong_choice_explanations": [
-        "に対して means 'toward' or 'against', but the sentence indicates perspective or benefit for entrepreneurs.",
-        "からすると means 'from the view of,' but it emphasizes interpretive judgment more than the perspective that にとって conveys.",
-        "として means 'as,' describing role or function, but にとって shows what something means from a particular group's standpoint."
-      ],
-      "hiragana_full": "きぎょうかにとって、しっぱいはまなびのきかいです。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "起業家にとって、失敗は学習の機会です。",
-          "hiragana_full": "きぎょうかにとって、しっぱいはがくしゅうのきかいです。"
+          "word": "成長",
+          "reading": "せいちょう",
+          "meaning": "growth"
         },
         {
-          "kanji": "起業家には、失敗が学びの機会になります。",
-          "hiragana_full": "きぎょうかには、しっぱいがまなびのきかいになります。"
+          "word": "喜び",
+          "reading": "よろこび",
+          "meaning": "joy"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n3_031_8",
-      "example_sentence": "移民にとって、言語の習得は大変な課題です。",
-      "translation": "For immigrants, language acquisition is a major challenge.",
-      "blank_target": "にとって",
-      "wrong_choices": [
-        "にしては",
-        "によって",
-        "に関わる"
-      ],
-      "wrong_choice_explanations": [
-        "にしては means 'for someone, considering that...,' implying a counter-expectation judgment, but にとって simply expresses perspective.",
-        "によって means 'by' or 'depending on', but the sentence describes a challenge faced by immigrants from their perspective.",
-        "に関わる means 'be involved with / relate to,' but the sentence describes a challenge faced by a specific group, not relational involvement."
-      ],
-      "hiragana_full": "いみんにとって、げんごのしゅうとくはたいへんなかだいです。",
-      "audio_alternatives": [
-        {
-          "kanji": "移民にとって、言語を習得することは大きな課題です。",
-          "hiragana_full": "いみんにとって、げんごをしゅうとくすることはおおきなかだいです。"
-        },
-        {
-          "kanji": "移民にとって、言葉を覚えることはとても難しい課題です。",
-          "hiragana_full": "いみんにとって、ことばをおぼえることはとてもむずかしいかだいです。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_031_9",
+      "id": "n3_031_5",
       "example_sentence": "消費者にとって、商品の品質が信頼の基本です。",
       "translation": "For consumers, product quality is the foundation of trust.",
       "blank_target": "にとって",
       "wrong_choices": [
-        "からすれば",
+        "に対して",
         "によって",
         "について"
       ],
       "wrong_choice_explanations": [
-        "からすれば means 'from one's standpoint,' but it emphasizes interpretation; にとって is more objective about what matters to someone.",
+        "に対して means 'toward / directed at'; the sentence states what quality means FOR consumers — a perspective marked by にとって — not the target of a directed action.",
         "によって means 'by means of' or 'due to,' but the sentence expresses what is foundational from a consumer's perspective.",
         "について means 'about,' introducing a discussion topic, but the sentence expresses what is important for consumers."
       ],
@@ -254,35 +204,223 @@
           "hiragana_full": "しょうひしゃにとって、ひんしつがしんらいのどだいとなります。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "消費者",
+          "reading": "しょうひしゃ",
+          "meaning": "consumer"
+        },
+        {
+          "word": "品質",
+          "reading": "ひんしつ",
+          "meaning": "quality"
+        },
+        {
+          "word": "信頼",
+          "reading": "しんらい",
+          "meaning": "trust"
+        }
+      ]
     },
     {
-      "id": "n3_031_10",
-      "example_sentence": "投資家にとって、長期的リターンが重要です。",
-      "translation": "For investors, long-term returns are important.",
+      "id": "n3_031_6",
+      "example_sentence": "私にとって日本語の勉強は大変です。",
+      "translation": "For me, studying Japanese is difficult.",
       "blank_target": "にとって",
       "wrong_choices": [
-        "にしてみれば",
-        "によって",
+        "に比べて",
+        "について",
         "として"
       ],
       "wrong_choice_explanations": [
-        "にしてみれば carries a hypothetical 'if one considers...,' implying conditional thinking, but にとって directly expresses perspective.",
-        "によって means 'by means of' or 'depending on,' but the sentence expresses importance from an investor's standpoint.",
-        "として means 'as / in the capacity of,' but にとって shows what matters from a particular group's perspective."
+        "に比べて means 'compared to' — it doesn't fit here because we're not making comparisons but expressing personal experience.",
+        "について means 'about/regarding' — it doesn't fit here because we're not discussing a topic but personal perspective.",
+        "として means 'as/in the capacity of' — it doesn't fit here because we're not talking about roles but personal experience."
       ],
-      "hiragana_full": "とうしかにとって、ちょうきてきリターンがじゅうようです。",
+      "hiragana_full": "わたしにとってにほんごのべんきょうはたいへんです。",
       "audio_alternatives": [
         {
-          "kanji": "投資家には、長期的なリターンが大切です。",
-          "hiragana_full": "とうしかには、ちょうきてきなリターンがたいせつです。"
+          "kanji": "私には日本語の勉強が大変です。",
+          "hiragana_full": "わたしにはにほんごのべんきょうがたいへんです。"
         },
         {
-          "kanji": "投資家にとって、長期的なリターンは重要だ。",
-          "hiragana_full": "とうしかにとって、ちょうきてきなリターンはじゅうようだ。"
+          "kanji": "日本語を勉強することは私にとって難しいです。",
+          "hiragana_full": "にほんごをべんきょうすることはわたしにとってむずかしいです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
+    },
+    {
+      "id": "n3_031_7",
+      "example_sentence": "医者にとって患者の命を救うことが使命です。",
+      "translation": "For doctors, saving patients' lives is their mission.",
+      "blank_target": "にとって",
+      "wrong_choices": [
+        "において",
+        "によって",
+        "に従って"
+      ],
+      "wrong_choice_explanations": [
+        "において means 'in/at' — it doesn't fit here because we're not describing location or situation but doctors' perspective.",
+        "によって means 'by means of/depending on' — it doesn't fit here because we're not describing method or dependence but perspective.",
+        "に従って means 'according to/following' — it doesn't fit here because we're not describing compliance but doctors' viewpoint."
+      ],
+      "hiragana_full": "いしゃにとってかんじゃのいのちをすくうことがしめいです。",
+      "audio_alternatives": [
+        {
+          "kanji": "医者の使命は患者の命を救うことです。",
+          "hiragana_full": "いしゃのしめいはかんじゃのいのちをすくうことです。"
+        },
+        {
+          "kanji": "患者の命を救うことが医者の使命です。",
+          "hiragana_full": "かんじゃのいのちをすくうことがいしゃのしめいです。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "患者",
+          "reading": "かんじゃ",
+          "meaning": "patient"
+        },
+        {
+          "word": "命",
+          "reading": "いのち",
+          "meaning": "life"
+        },
+        {
+          "word": "救う",
+          "reading": "すくう",
+          "meaning": "to save"
+        },
+        {
+          "word": "使命",
+          "reading": "しめい",
+          "meaning": "mission, calling"
+        }
+      ]
+    },
+    {
+      "id": "n3_031_8",
+      "example_sentence": "高齢者にとってこの階段は危険です。",
+      "translation": "For elderly people, these stairs are dangerous.",
+      "blank_target": "にとって",
+      "wrong_choices": [
+        "に比べて",
+        "について",
+        "として"
+      ],
+      "wrong_choice_explanations": [
+        "に比べて means 'compared to' and sets up a comparison; the sentence states the stairs' danger from the elderly's standpoint, not a comparison, so にとって is needed.",
+        "について means 'about/regarding' and marks a topic; 高齢者について would make the elderly the subject being discussed, not the people for whom the stairs are dangerous.",
+        "として means 'as/in the capacity of' and assigns a role, so 高齢者として would mean 'speaking as an elderly person' rather than judging the danger from their standpoint, which にとって expresses."
+      ],
+      "hiragana_full": "こうれいしゃにとってこのかいだんはきけんです。",
+      "audio_alternatives": [
+        {
+          "kanji": "お年寄りにとってこの階段は危険です。",
+          "hiragana_full": "おとしよりにとってこのかいだんはきけんです。"
+        },
+        {
+          "kanji": "高齢者にとってこの階段は危ないです。",
+          "hiragana_full": "こうれいしゃにとってこのかいだんはあぶないです。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "高齢者",
+          "reading": "こうれいしゃ",
+          "meaning": "elderly person"
+        },
+        {
+          "word": "危険",
+          "reading": "きけん",
+          "meaning": "dangerous"
+        }
+      ]
+    },
+    {
+      "id": "n3_031_9",
+      "example_sentence": "彼女にとって今の仕事は天職だそうです。",
+      "translation": "For her, her current job is apparently her calling.",
+      "blank_target": "にとって",
+      "wrong_choices": [
+        "に対して",
+        "について",
+        "として"
+      ],
+      "wrong_choice_explanations": [
+        "に対して means 'toward/against (a target)' and marks the direction of an action; 彼女に対して would aim something at her, not report how the job feels from her point of view, which にとって conveys.",
+        "について means 'about/regarding' and marks a topic; 彼女について would make her the subject being discussed, not the person for whom the job is a calling.",
+        "として means 'as/in the capacity of' and assigns a role; 彼女として would mean 'in her role,' not 'from her standpoint,' which にとって expresses."
+      ],
+      "hiragana_full": "かのじょにとっていまのしごとはてんしょくだそうです。",
+      "audio_alternatives": [
+        {
+          "kanji": "彼女にとって今の仕事は天職らしいです。",
+          "hiragana_full": "かのじょにとっていまのしごとはてんしょくらしいです。"
+        },
+        {
+          "kanji": "彼女の今の仕事は天職だそうです。",
+          "hiragana_full": "かのじょのいまのしごとはてんしょくだそうです。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "天職",
+          "reading": "てんしょく",
+          "meaning": "true calling, ideal job"
+        }
+      ]
+    },
+    {
+      "id": "n3_031_10",
+      "example_sentence": "アーティストにとって創作活動は人生そのものです。",
+      "translation": "For artists, creative activity is life itself.",
+      "blank_target": "にとって",
+      "wrong_choices": [
+        "について",
+        "に比べて",
+        "に向かって"
+      ],
+      "wrong_choice_explanations": [
+        "について means 'about/regarding' and marks a topic; 芸術家について would make artists the subject being discussed, not the people from whose standpoint creation is life itself, which にとって marks.",
+        "に比べて means 'compared to' and sets up a comparison with something else, but the sentence states what creative work means to artists, not how they compare, so にとって is needed.",
+        "に向かって means 'toward/facing (a direction)' and points at a destination; it cannot mark the people for whom creative work is life itself the way にとって does."
+      ],
+      "hiragana_full": "あーてぃすとにとってそうさくかつどうはじんせいそのものです。",
+      "audio_alternatives": [
+        {
+          "kanji": "アーティストにとって、創作活動は人生そのものだ。",
+          "hiragana_full": "あーてぃすとにとってそうさくかつどうはじんせいそのものだ。"
+        },
+        {
+          "kanji": "芸術家にとって創作活動は人生そのものです。",
+          "hiragana_full": "げいじゅつかにとってそうさくかつどうはじんせいそのものです。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "創作活動",
+          "reading": "そうさくかつどう",
+          "meaning": "creative work"
+        },
+        {
+          "word": "人生",
+          "reading": "じんせい",
+          "meaning": "life"
+        }
+      ]
     }
   ]
 }

@@ -47,42 +47,6 @@
     },
     {
       "id": "n5_037_2",
-      "example_sentence": "テレビを見ながら、夕飯を食べました。",
-      "translation": "I ate dinner while watching TV.",
-      "blank_target": "ながら",
-      "wrong_choices": [
-        "て",
-        "たら",
-        "ば"
-      ],
-      "wrong_choice_explanations": [
-        "て (テレビを見て、夕飯を食べました) can connect actions, but in this casual context it reads as sequential — 'I watched TV, then ate dinner' — not 'while watching.'",
-        "たら sets up 'when/if' — テレビを見たら、夕飯を食べました reads as 'when I watched TV, I ate dinner,' a one-after-another trigger (and an awkward one in the past tense), not the overlap of two actions that 'while watching' requires.",
-        "ば makes conditionals — テレビを見れば夕飯を食べました reads as 'if/when I watch TV, I ate dinner,' which describes a condition, not two actions happening at the same time."
-      ],
-      "hiragana_full": "テレビをみながら、ゆうはんをたべました。",
-      "audio_alternatives": [
-        {
-          "kanji": "テレビを見ながら、晩ごはんを食べました。",
-          "hiragana_full": "テレビをみながら、ばんごはんをたべました。"
-        },
-        {
-          "kanji": "夕飯を食べながら、テレビを見ました。",
-          "hiragana_full": "ゆうはんをたべながら、テレビをみました。"
-        }
-      ],
-      "audio_eligible": true,
-      "register": "neutral",
-      "vocab": [
-        {
-          "word": "夕飯",
-          "reading": "ゆうはん",
-          "meaning": "dinner; evening meal"
-        }
-      ]
-    },
-    {
-      "id": "n5_037_3",
       "example_sentence": "歩きながら、話をしました。",
       "translation": "We talked while walking.",
       "blank_target": "ながら",
@@ -118,7 +82,7 @@
       ]
     },
     {
-      "id": "n5_037_4",
+      "id": "n5_037_3",
       "example_sentence": "働きながら、大学に通っています。",
       "translation": "I'm attending university while working.",
       "blank_target": "ながら",
@@ -159,7 +123,7 @@
       ]
     },
     {
-      "id": "n5_037_5",
+      "id": "n5_037_4",
       "example_sentence": "笑いながら、写真を撮りました。",
       "translation": "We took photos while laughing.",
       "blank_target": "ながら",
@@ -200,7 +164,7 @@
       ]
     },
     {
-      "id": "n5_037_6",
+      "id": "n5_037_5",
       "example_sentence": "お茶を飲みながら、本を読みます。",
       "translation": "I read books while drinking tea.",
       "blank_target": "ながら",
@@ -236,7 +200,7 @@
       ]
     },
     {
-      "id": "n5_037_7",
+      "id": "n5_037_6",
       "example_sentence": "運転しながら、電話をしてはいけません。",
       "translation": "You must not talk on the phone while driving.",
       "blank_target": "ながら",
@@ -277,122 +241,134 @@
       ]
     },
     {
-      "id": "n5_037_8",
-      "example_sentence": "料理しながら、歌を歌いました。",
-      "translation": "I sang songs while cooking.",
+      "id": "n5_037_7",
+      "example_sentence": "友達と話しながら、レストランで食事をしました。",
+      "translation": "I had a meal at a restaurant while chatting with a friend.",
       "blank_target": "ながら",
       "wrong_choices": [
-        "ないで",
-        "がてら",
-        "かたがた"
+        "たり",
+        "たまま",
+        "ついでに"
       ],
       "wrong_choice_explanations": [
-        "ないで makes the first action not happen — 料理しないで歌を歌いました means 'I sang without cooking,' the opposite of the translation, where the cooking and the singing happen together.",
-        "がてら means 'while taking the opportunity to' and frames one action as a side-task done in the course of another (散歩がてら買い物 = shopping during a walk); singing while cooking isn't really an errand-on-the-way framing.",
-        "かたがた is a very formal 'while also' used in greetings or set phrases (お礼かたがた = 'as a thank-you, and also...'); it would sound oddly business-formal in this everyday kitchen scene."
+        "〜たり needs a paired 〜たり…する (話したり食べたりする); 話したり、レストランで食事をしました is incomplete and doesn't show two actions happening at the same time like ながら.",
+        "〜まま describes leaving something in an unchanged state, but here two actions—talking and eating—are being performed at the same time.",
+        "ついでに means 'while you're at it,' implying one task is added on the side, but here chatting and eating are equally part of the meal."
       ],
-      "hiragana_full": "りょうりしながら、うたをうたいました。",
+      "hiragana_full": "ともだちとはなしながら、れすとらんでしょくじをしました。",
       "audio_alternatives": [
         {
-          "kanji": "料理をしながら、歌を歌いました。",
-          "hiragana_full": "りょうりをしながら、うたをうたいました。"
+          "kanji": "友達とおしゃべりしながら、レストランでご飯を食べました。",
+          "hiragana_full": "ともだちとおしゃべりしながら、れすとらんでごはんをたべました。"
         },
         {
-          "kanji": "料理しながら、歌いました。",
-          "hiragana_full": "りょうりしながら、うたいました。"
+          "kanji": "友達と話をしながら、レストランで食事をした。",
+          "hiragana_full": "ともだちとはなしをしながら、れすとらんでしょくじをした。"
         }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
         {
-          "word": "料理",
-          "reading": "りょうり",
-          "meaning": "cooking"
-        },
-        {
-          "word": "歌",
-          "reading": "うた",
-          "meaning": "song"
+          "word": "食事",
+          "reading": "しょくじ",
+          "meaning": "meal"
         }
       ]
     },
     {
-      "id": "n5_037_9",
-      "example_sentence": "泣きながら、謝りました。",
-      "translation": "I apologized while crying.",
+      "id": "n5_037_8",
+      "example_sentence": "音楽を聴きながら、買い物をするのは好きです。",
+      "translation": "I like shopping while listening to music.",
       "blank_target": "ながら",
       "wrong_choices": [
-        "そうに",
-        "みたいに",
-        "ように"
+        "ときに",
+        "あとで",
+        "ついでに"
       ],
       "wrong_choice_explanations": [
-        "そうに on a verb stem signals appearance — 泣きそうに謝りました would say 'I apologized looking like I was about to cry,' which doesn't actually mean tears were flowing.",
-        "みたいに ('as if/like') invites comparison — 泣くみたいに謝りました suggests apologizing in a manner resembling crying, not actually crying while doing so.",
-        "ように has uses like 'so that' or 'in the manner of'; 泣くように謝りました reads as 'I apologized as if crying,' again giving an impression rather than two actions happening at the same time."
+        "〜ときに means 'at the time when,' pointing to an occasion, but ながら stresses doing both at once — music as the continuous accompaniment to shopping, not merely the moment it happens.",
+        "あとで means 'afterwards,' implying the two actions happen in sequence, but listening to music is the steady soundtrack to shopping, not something done first.",
+        "ついでに means 'while you're at it,' implying one task is opportunistic, but here listening to music isn't an errand added on—it's what makes the shopping enjoyable."
       ],
-      "hiragana_full": "なきながら、あやまりました。",
+      "hiragana_full": "おんがくをききながら、かいものをするのはすきです。",
       "audio_alternatives": [
         {
-          "kanji": "泣きながら謝った。",
-          "hiragana_full": "なきながらあやまった。"
+          "kanji": "音楽を聴きながら買い物するのが好きです。",
+          "hiragana_full": "おんがくをききながらかいものするのがすきです。"
         },
         {
-          "kanji": "泣いて謝りました。",
-          "hiragana_full": "ないてあやまりました。"
+          "kanji": "音楽を聴きながら、ショッピングするのは好きです。",
+          "hiragana_full": "おんがくをききながら、しょっぴんぐするのはすきです。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral"
+    },
+    {
+      "id": "n5_037_9",
+      "example_sentence": "歩きながら、スマホを使うのは危ないです。",
+      "translation": "Using your smartphone while walking is dangerous.",
+      "blank_target": "ながら",
+      "wrong_choices": [
+        "てから",
+        "ついでに",
+        "たまま"
+      ],
+      "wrong_choice_explanations": [
+        "〜てから means 'after doing,' implying you finish walking first, but the danger is in using the phone while still walking, which ながら conveys.",
+        "ついでに means 'while you're at it,' implying you add a secondary task, but the sentence warns about doing two things simultaneously, not about convenience.",
+        "〜まま describes leaving something in an unchanged state (e.g., 'with shoes on'), not performing two actions at the same time."
+      ],
+      "hiragana_full": "あるきながら、すまほをつかうのはあぶないです。",
+      "audio_alternatives": [
+        {
+          "kanji": "歩きながら、スマホを使うのは危険です。",
+          "hiragana_full": "あるきながら、すまほをつかうのはきけんです。"
+        },
+        {
+          "kanji": "歩きながら、スマホを見るのは危ないです。",
+          "hiragana_full": "あるきながら、すまほをみるのはあぶないです。"
         }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
         {
-          "word": "謝りました",
-          "reading": "あやまりました",
-          "meaning": "apologized"
+          "word": "危ない",
+          "reading": "あぶない",
+          "meaning": "dangerous"
         }
       ]
     },
     {
       "id": "n5_037_10",
-      "example_sentence": "考えながら、答えを書きました。",
-      "translation": "I wrote the answer while thinking.",
+      "example_sentence": "電車に乗りながら、本を読んでいます。",
+      "translation": "I read books while riding the train.",
       "blank_target": "ながら",
       "wrong_choices": [
-        "てみて",
-        "てしまい",
-        "る前に"
+        "まえに",
+        "ついでに",
+        "ても"
       ],
       "wrong_choice_explanations": [
-        "てみて ('try and see') — 考えてみて答えを書きました would mean 'I tried thinking, then wrote the answer,' a tentative attempt followed by writing rather than simultaneous thinking-while-writing.",
-        "てしまい signals completion or regret — 考えてしまい答えを書きました reads as 'I ended up thinking, then wrote the answer,' putting the thinking before the writing instead of alongside it.",
-        "る前に reverses the order — 考える前に答えを書きました means 'I wrote the answer before thinking,' but the translation says the thinking accompanied the writing, which is exactly what ながら expresses."
+        "〜まえに means 'before doing,' which would place the reading before boarding, but the sentence describes reading while on the train, expressed by ながら.",
+        "ついでに means 'while you're at it,' implying reading is a side errand, but here reading and being on the train are continuous activities done in parallel.",
+        "ても means 'even if,' expressing concession, but the sentence pairs two simultaneous activities rather than a hypothetical."
       ],
-      "hiragana_full": "かんがえながら、こたえをかきました。",
+      "hiragana_full": "でんしゃにのりながら、ほんをよんでいます。",
       "audio_alternatives": [
         {
-          "kanji": "思いながら、答えを書きました。",
-          "hiragana_full": "おもいながら、こたえをかきました。"
+          "kanji": "電車に乗りながら、本を読む。",
+          "hiragana_full": "でんしゃにのりながら、ほんをよむ。"
         },
         {
-          "kanji": "考えながら、答えを書いた。",
-          "hiragana_full": "かんがえながら、こたえをかいた。"
+          "kanji": "電車の中で本を読んでいます。",
+          "hiragana_full": "でんしゃのなかでほんをよんでいます。"
         }
       ],
       "audio_eligible": true,
-      "register": "neutral",
-      "vocab": [
-        {
-          "word": "答え",
-          "reading": "こたえ",
-          "meaning": "answer"
-        },
-        {
-          "word": "書きました",
-          "reading": "かきました",
-          "meaning": "wrote"
-        }
-      ]
+      "register": "neutral"
     }
   ]
 }

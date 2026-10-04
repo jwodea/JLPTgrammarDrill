@@ -6,34 +6,220 @@
   "exercises": [
     {
       "id": "n4_034_1",
-      "example_sentence": "今日から毎日運動することにしました。",
-      "translation": "I decided to exercise every day starting today.",
-      "blank_target": "こと",
+      "example_sentence": "来年から、毎月一冊本を読むことにしました。",
+      "translation": "I decided to read one book every month starting next year.",
+      "blank_target": "ことにしました",
       "wrong_choices": [
-        "つもり",
-        "予定",
-        "はず"
+        "ところでした",
+        "ことがありました",
+        "ばかりでした"
       ],
       "wrong_choice_explanations": [
-        "つもり means 'intend to' — it doesn't fit here because ことにする specifically expresses making a decision.",
-        "予定 means 'scheduled' — it doesn't fit here because we're expressing personal decision, not official scheduling.",
-        "はず means 'should be/expected' — it doesn't fit here because we're stating a decision we made, not expectation."
+        "ところでした means 'was just about to ~', a single past moment that clashes with 来年から; it cannot express the speaker's decision as ことにしました does.",
+        "ことがある means 'there are times when,' describing occasional events, but the sentence is about making a firm personal decision.",
+        "ばかりでした ('did nothing but ~') describes a past state of doing only one thing; it cannot express a personal decision about a habit starting 来年から, which ことにしました does."
       ],
-      "hiragana_full": "きょうからまいにちうんどうすることにしました。",
+      "hiragana_full": "らいねんから、まいつきいっさつほんをよむことにしました。",
       "audio_alternatives": [
         {
-          "kanji": "今日から毎日運動すると決めました。",
-          "hiragana_full": "きょうからまいにちうんどうするときめました。"
+          "kanji": "来年から、毎月本を一冊読むことに決めました。",
+          "hiragana_full": "らいねんから、まいつきほんをいっさつよむことにきめました。"
         },
         {
-          "kanji": "今日から毎日運動しようと決めました。",
-          "hiragana_full": "きょうからまいにちうんどうしようときめました。"
+          "kanji": "来年から毎月一冊、本を読もうと決めました。",
+          "hiragana_full": "らいねんからまいつきいっさつ、ほんをよもうときめました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "一冊",
+          "reading": "いっさつ",
+          "meaning": "one volume"
+        }
+      ]
     },
     {
       "id": "n4_034_2",
+      "example_sentence": "来年から、英語のクラスに参加することにしました。",
+      "translation": "I decided to join an English class starting next year.",
+      "blank_target": "することにしました",
+      "wrong_choices": [
+        "することがありました",
+        "つもりでした",
+        "するようにしました"
+      ],
+      "wrong_choice_explanations": [
+        "することがありました means 'there were times when I joined', describing past occasional events, which clashes with 来年から (from next year).",
+        "つもりでした means 'I had intended to', implying the plan fell through, but the sentence announces a firm decision already made, which ことにした expresses.",
+        "するようにしました means 'made an effort to (habitually)', but the sentence expresses a one-time decision, not a habit or effort."
+      ],
+      "hiragana_full": "らいねんから、えいごのくらすにさんかすることにしました。",
+      "audio_alternatives": [
+        {
+          "kanji": "来年から、英語のクラスに参加しようと決めました。",
+          "hiragana_full": "らいねんから、えいごのくらすにさんかしようときめました。"
+        },
+        {
+          "kanji": "来年から英語のクラスに入ることにしました。",
+          "hiragana_full": "らいねんからえいごのくらすにはいることにしました。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "参加",
+          "reading": "さんか",
+          "meaning": "participation"
+        }
+      ]
+    },
+    {
+      "id": "n4_034_3",
+      "example_sentence": "毎月、両親に電話することにしました。",
+      "translation": "I decided to call my parents every month.",
+      "blank_target": "ることにしました",
+      "wrong_choices": [
+        "るところでした",
+        "はずでした",
+        "るばかりでした"
+      ],
+      "wrong_choice_explanations": [
+        "電話するところでした means 'I was just about to call', a single past moment that clashes with 毎月; it cannot express a personal decision as ることにしました does.",
+        "はずでした means 'was supposed to' or 'should have,' expressing expectation based on logic or reason, but ることにした expresses active personal determination.",
+        "電話するばかりでした means 'did nothing but call', describing a past state, not the speaker's personal decision to start calling every month."
+      ],
+      "hiragana_full": "まいつき、りょうしんにでんわすることにしました。",
+      "audio_alternatives": [
+        {
+          "kanji": "毎月、両親に電話すると決めました。",
+          "hiragana_full": "まいつき、りょうしんにでんわするときめました。"
+        },
+        {
+          "kanji": "毎月、両親に電話しようと思うことにしました。",
+          "hiragana_full": "まいつき、りょうしんにでんわしようとおもうことにしました。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "両親",
+          "reading": "りょうしん",
+          "meaning": "parents"
+        }
+      ]
+    },
+    {
+      "id": "n4_034_4",
+      "example_sentence": "来年、留学することにしました。",
+      "translation": "I decided to study abroad next year.",
+      "blank_target": "ることにしました",
+      "wrong_choices": [
+        "ることになりました",
+        "ることがありました",
+        "るようにしました"
+      ],
+      "wrong_choice_explanations": [
+        "ることになりました means 'it was decided by circumstances or external forces' (passive voice implication), implying the decision was made for you, not by your own will. The sentence requires active personal decision-making.",
+        "ることがありました means 'there were times when I did' or 'I have experienced,' describing past occasional events, not a deliberate personal commitment to do something. The sentence describes a single resolved decision.",
+        "るようにしました means 'I worked to make sure' or 'I made an effort toward,' suggesting a gradual habit-building process rather than the decisive moment. This sentence expresses the moment of resolve itself."
+      ],
+      "hiragana_full": "らいねん、りゅうがくすることにしました。",
+      "audio_alternatives": [
+        {
+          "kanji": "来年、留学すると決めました。",
+          "hiragana_full": "らいねん、りゅうがくするときめました。"
+        },
+        {
+          "kanji": "来年に留学することを決意しました。",
+          "hiragana_full": "らいねんに、りゅうがくすることをけついしました。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "留学",
+          "reading": "りゅうがく",
+          "meaning": "studying abroad"
+        }
+      ]
+    },
+    {
+      "id": "n4_034_5",
+      "example_sentence": "毎週金曜日に映画を見ることにしました。",
+      "translation": "I decided to watch a movie every Friday.",
+      "blank_target": "ることにしました",
+      "wrong_choices": [
+        "るところでした",
+        "ものでした",
+        "るばかりでした"
+      ],
+      "wrong_choice_explanations": [
+        "見るところでした means 'was just about to watch', a single past moment that clashes with 毎週金曜日に; the sentence states a personal decision, which needs ることにしました.",
+        "ものでした means 'it is the case that' or 'is a thing that,' used to state a fact or characteristic about something, but ることにした expresses a conscious personal choice.",
+        "見るばかりでした means 'did nothing but watch', describing a past state rather than the speaker's decision to make Friday movies a habit."
+      ],
+      "hiragana_full": "まいしゅうきんようびにえいがをみることにしました。",
+      "audio_alternatives": [
+        {
+          "kanji": "毎週金曜日に映画を見ると決めました。",
+          "hiragana_full": "まいしゅうきんようびにえいがをみるときめました。"
+        },
+        {
+          "kanji": "毎週金曜日に映画を見ることに決めました。",
+          "hiragana_full": "まいしゅうきんようびにえいがをみることにきめました。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral"
+    },
+    {
+      "id": "n4_034_6",
+      "example_sentence": "よく考えて、今年は仕事を変えることにしました。",
+      "translation": "After thinking it over carefully, I decided to change jobs this year.",
+      "blank_target": "ることにしました",
+      "wrong_choices": [
+        "ることになりました",
+        "るばかりでした",
+        "るようにしました"
+      ],
+      "wrong_choice_explanations": [
+        "ることになりました means 'it was decided (by circumstances)', but よく考えて shows the speaker made the choice personally, which needs ことにしました.",
+        "るばかりでした means 'did nothing but change', which makes no sense for a single job change; the speaker is reporting a decision.",
+        "るようにしました means 'made an effort to (habitually)', but changing jobs is a one-time decision, not a habit."
+      ],
+      "hiragana_full": "よくかんがえて、ことしはしごとをかえることにしました。",
+      "audio_alternatives": [
+        {
+          "kanji": "よく考えて、今年は仕事を変えようと決めました。",
+          "hiragana_full": "よくかんがえて、ことしはしごとをかえようときめました。"
+        },
+        {
+          "kanji": "よく考えて、今年は仕事を変えることにした。",
+          "hiragana_full": "よくかんがえて、ことしはしごとをかえることにした。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "考えて",
+          "reading": "かんがえて",
+          "meaning": "thinking it over"
+        },
+        {
+          "word": "仕事",
+          "reading": "しごと",
+          "meaning": "job"
+        }
+      ]
+    },
+    {
+      "id": "n4_034_7",
       "example_sentence": "たばこをやめることにした。",
       "translation": "I decided to quit smoking.",
       "blank_target": "こと",
@@ -58,21 +244,29 @@
           "hiragana_full": "きつえんをやめることにしました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "やめる",
+          "reading": "やめる",
+          "meaning": "to quit"
+        }
+      ]
     },
     {
-      "id": "n4_034_3",
+      "id": "n4_034_8",
       "example_sentence": "この問題については何も言わないことにしよう。",
       "translation": "Let's decide not to say anything about this problem.",
       "blank_target": "こと",
       "wrong_choices": [
         "の",
-        "ように",
+        "ため",
         "べき"
       ],
       "wrong_choice_explanations": [
         "の means nominalizer — it doesn't fit here because we need ことにする for expressing decisions.",
-        "ように means 'so that' — it doesn't fit here because we're making a decision, not expressing purpose.",
+        "ため expresses purpose or cause; 言わないためにしよう is ungrammatical and does not express the joint decision that ことにしよう makes.",
         "べき means 'should/ought to' expressing obligation — it doesn't fit here because we're making a decision, not stating obligation."
       ],
       "hiragana_full": "このもんだいについてはなにもいわないことにしよう。",
@@ -86,94 +280,11 @@
           "hiragana_full": "このもんだいのことはなにもいわないことにしよう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
-      "id": "n4_034_4",
-      "example_sentence": "今度の旅行は電車で行くことにしました。",
-      "translation": "I decided to go on the next trip by train.",
-      "blank_target": "こと",
-      "wrong_choices": [
-        "つもり",
-        "ところ",
-        "ばかり"
-      ],
-      "wrong_choice_explanations": [
-        "つもり means 'intend to' — it doesn't fit here because ことにする is more definitive than つもり for expressing decisions.",
-        "ところ means 'about to/place' — it doesn't fit here because we're talking about a decision, not immediate action.",
-        "ばかり means 'just did' — it doesn't fit here because we're expressing a decision about future action, not recent action."
-      ],
-      "hiragana_full": "こんどのりょこうはでんしゃでいくことにしました。",
-      "audio_alternatives": [
-        {
-          "kanji": "次の旅行は電車で行くことにしました。",
-          "hiragana_full": "つぎのりょこうはでんしゃでいくことにしました。"
-        },
-        {
-          "kanji": "今度の旅行は電車で行くと決めました。",
-          "hiragana_full": "こんどのりょこうはでんしゃでいくときめました。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_034_5",
-      "example_sentence": "彼女とは友達でいることにした。",
-      "translation": "I decided to remain friends with her.",
-      "blank_target": "こと",
-      "wrong_choices": [
-        "まま",
-        "ように",
-        "もの"
-      ],
-      "wrong_choice_explanations": [
-        "まま means 'remains in state' — it doesn't fit here because we need ことにする to express the decision-making process.",
-        "ように means 'so that/in order to' — it doesn't fit here because we're expressing a decision, not purpose or method.",
-        "もの means 'thing/because' — it doesn't fit here because we need ことにする to express decision-making."
-      ],
-      "hiragana_full": "かのじょとはともだちでいることにした。",
-      "audio_alternatives": [
-        {
-          "kanji": "彼女とは友達のままでいることにした。",
-          "hiragana_full": "かのじょとはともだちのままでいることにした。"
-        },
-        {
-          "kanji": "彼女と友達でいることに決めた。",
-          "hiragana_full": "かのじょとともだちでいることにきめた。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_034_6",
-      "example_sentence": "会社を辞めて、大学院に入ることにしました。",
-      "translation": "I decided to quit my job and enter graduate school.",
-      "blank_target": "こと",
-      "wrong_choices": [
-        "予定",
-        "はず",
-        "ことになる"
-      ],
-      "wrong_choice_explanations": [
-        "予定 means 'scheduled' — it doesn't fit here because we're expressing personal decision, not official scheduling.",
-        "はず means 'should be/expected' — it doesn't fit here because we're stating our decision, not expectation.",
-        "ことになる means 'it has been decided' — it doesn't fit here because ことにする expresses personal decision, while ことになる expresses external decision."
-      ],
-      "hiragana_full": "かいしゃをやめて、だいがくいんにはいることにしました。",
-      "audio_alternatives": [
-        {
-          "kanji": "仕事を辞めて、大学院に進むことにしました。",
-          "hiragana_full": "しごとをやめて、だいがくいんにすすむことにしました。"
-        },
-        {
-          "kanji": "会社を辞めて、大学院に入ると決めました。",
-          "hiragana_full": "かいしゃをやめて、だいがくいんにはいるときめました。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_034_7",
+      "id": "n4_034_9",
       "example_sentence": "お酒は飲まないことにしている。",
       "translation": "I have decided not to drink alcohol (and am maintaining this decision).",
       "blank_target": "こと",
@@ -198,10 +309,11 @@
           "hiragana_full": "あるこーるはのまないことにしている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
-      "id": "n4_034_8",
+      "id": "n4_034_10",
       "example_sentence": "今年は海外旅行に行くことにしよう。",
       "translation": "Let's decide to go on an overseas trip this year.",
       "blank_target": "こと",
@@ -226,63 +338,15 @@
           "hiragana_full": "ことしこそかいがいりょこうにいくことにしよう。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_034_9",
-      "example_sentence": "この件は忘れることにしましょう。",
-      "translation": "Let's decide to forget about this matter.",
-      "blank_target": "こと",
-      "wrong_choices": [
-        "ように",
-        "ために",
-        "ので"
-      ],
-      "wrong_choice_explanations": [
-        "ように means 'so that' — it doesn't fit here because we're making a decision, not expressing purpose or method.",
-        "ために means 'for the purpose of' — it doesn't fit here because we need ことにする to express decision-making.",
-        "ので means 'because' — it doesn't fit here because we're making a decision, not giving reasons."
-      ],
-      "hiragana_full": "このけんはわすれることにしましょう。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
         {
-          "kanji": "この件は忘れましょう。",
-          "hiragana_full": "このけんはわすれましょう。"
-        },
-        {
-          "kanji": "この件のことは忘れることにしましょう。",
-          "hiragana_full": "このけんのことはわすれることにしましょう。"
+          "word": "海外旅行",
+          "reading": "かいがいりょこう",
+          "meaning": "overseas trip"
         }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_034_10",
-      "example_sentence": "早く寝て、早く起きることにした。",
-      "translation": "I decided to go to bed early and wake up early.",
-      "blank_target": "こと",
-      "wrong_choices": [
-        "ようになる",
-        "習慣",
-        "ことになる"
-      ],
-      "wrong_choice_explanations": [
-        "ようになる means 'come to be/become' — it doesn't fit here because we're expressing a conscious decision, not gradual change.",
-        "習慣 means 'habit' — it doesn't fit here because we need ことにする to express the decision-making process.",
-        "ことになる means 'it has been decided' — it doesn't fit here because we're expressing our own decision, not external decision."
-      ],
-      "hiragana_full": "はやくねて、はやくおきることにした。",
-      "audio_alternatives": [
-        {
-          "kanji": "早く寝て、早く起きるようにした。",
-          "hiragana_full": "はやくねて、はやくおきるようにした。"
-        },
-        {
-          "kanji": "早寝早起きをすることにした。",
-          "hiragana_full": "はやねはやおきをすることにした。"
-        }
-      ],
-      "audio_eligible": true
+      ]
     }
   ]
 }

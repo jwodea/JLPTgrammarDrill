@@ -10,12 +10,12 @@
       "translation": "I took notes so that I wouldn't forget.",
       "blank_target": "ように",
       "wrong_choices": [
-        "ために",
+        "かわりに",
         "ので",
         "から"
       ],
       "wrong_choice_explanations": [
-        "〜ために pairs with a volitional action you can deliberately perform (合格するために勉強する = 'study in order to pass'), but '忘れない' is a state the speaker hopes to maintain, not an action — so ように is what fits.",
+        "かわりに means 'in exchange / instead of' — 忘れないかわりに would present the notes as a substitute for not forgetting, reversing the logic; ように states not-forgetting as the aimed-for result of taking notes.",
         "〜ので introduces a cause for what follows (メモを取ったので忘れなかった = 'because I took notes, I didn't forget'), but the sentence states a purpose for taking notes, not the cause of something.",
         "〜から also marks reason or cause, but the sentence describes the goal that motivated taking notes; purpose belongs to ように/ために, not から."
       ],
@@ -30,7 +30,8 @@
           "hiragana_full": "わすれないように、のーとをとった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n4_024_2",
@@ -58,7 +59,20 @@
           "hiragana_full": "かれがこられるよう、はやめにしらせた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "早めに",
+          "reading": "はやめに",
+          "meaning": "early, in advance"
+        },
+        {
+          "word": "連絡",
+          "reading": "れんらく",
+          "meaning": "contact"
+        }
+      ]
     },
     {
       "id": "n4_024_3",
@@ -86,7 +100,8 @@
           "hiragana_full": "みんながりかいできるように、ゆっくりはなした。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n4_024_4",
@@ -114,38 +129,18 @@
           "hiragana_full": "あめにぬれないために、かさをもっていった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "濡れない",
+          "reading": "ぬれない",
+          "meaning": "not get wet"
+        }
+      ]
     },
     {
       "id": "n4_024_5",
-      "example_sentence": "上手になるように、毎日練習している。",
-      "translation": "I practice every day so that I'll become good.",
-      "blank_target": "ように",
-      "wrong_choices": [
-        "ために",
-        "だけ",
-        "ばかり"
-      ],
-      "wrong_choice_explanations": [
-        "〜ために takes a volitional action as its goal, but 上手になる is a change of state the speaker hopes will happen through practice — not something they can directly do — so ように is what fits.",
-        "〜だけ means 'only,' a limiting particle that doesn't express purpose at all, so it can't link the goal of getting better to the daily practice.",
-        "〜ばかり means 'only' or 'just,' marking limitation or recent completion, not the forward-looking purpose that ように conveys here."
-      ],
-      "hiragana_full": "じょうずになるように、まいにちれんしゅうしている。",
-      "audio_alternatives": [
-        {
-          "kanji": "上手になるために、毎日練習している。",
-          "hiragana_full": "じょうずになるために、まいにちれんしゅうしている。"
-        },
-        {
-          "kanji": "毎日練習して、上手になろうとしている。",
-          "hiragana_full": "まいにちれんしゅうして、じょうずになろうとしている。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_024_6",
       "example_sentence": "早く治るように、薬を飲んでいる。",
       "translation": "I'm taking medicine so that I'll recover quickly.",
       "blank_target": "ように",
@@ -170,38 +165,18 @@
           "hiragana_full": "くすりをのんでいるのは、はやくなおるためだ。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_024_7",
-      "example_sentence": "試験に受かるように、一生懸命勉強している。",
-      "translation": "I'm studying hard so that I'll pass the exam.",
-      "blank_target": "ように",
-      "wrong_choices": [
-        "つもりで",
-        "はずで",
-        "せいで"
-      ],
-      "wrong_choice_explanations": [
-        "〜つもりで means 'with the intention of' (受かるつもりで勉強する = 'studying meaning to pass'); but passing the exam isn't an action the speaker can directly perform, so ように — which states the hoped-for result — is what fits.",
-        "〜はずで means 'should be the case that' and marks logical expectation, not the speaker's hope; the sentence is about studying hard toward an uncertain goal, not asserting that passing is guaranteed.",
-        "〜せいで means 'because of (something bad),' attributing a negative outcome to a cause, but the sentence frames the studying as aimed at a positive goal — not blaming anything."
-      ],
-      "hiragana_full": "しけんにうかるように、いっしょうけんめいべんきょうしている。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
         {
-          "kanji": "試験に合格するために、一生懸命勉強している。",
-          "hiragana_full": "しけんにごうかくするために、いっしょうけんめいべんきょうしている。"
-        },
-        {
-          "kanji": "試験に受かるために、頑張って勉強しています。",
-          "hiragana_full": "しけんにうかるために、がんばってべんきょうしています。"
+          "word": "治る",
+          "reading": "なおる",
+          "meaning": "recover, heal"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n4_024_8",
+      "id": "n4_024_6",
       "example_sentence": "子供が寝られるように、部屋を暗くした。",
       "translation": "I darkened the room so that the child could sleep.",
       "blank_target": "ように",
@@ -226,10 +201,11 @@
           "hiragana_full": "こどもがねられるように、へやのでんきをけした。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
-      "id": "n4_024_9",
+      "id": "n4_024_7",
       "example_sentence": "母が心配しないように、毎日電話をかけている。",
       "translation": "I call every day so that my mother won't worry.",
       "blank_target": "ように",
@@ -254,20 +230,21 @@
           "hiragana_full": "おかあさんがしんぱいしないように、まいにちでんわをかけている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
-      "id": "n4_024_10",
+      "id": "n4_024_8",
       "example_sentence": "間に合うように、急いで支度をした。",
       "translation": "I hurried to get ready so that I would make it in time.",
       "blank_target": "ように",
       "wrong_choices": [
-        "ため",
+        "なら",
         "こと",
         "もの"
       ],
       "wrong_choice_explanations": [
-        "ため (without に) is incomplete — it needs ために to express purpose, but ように is more natural for uncertain outcomes.",
+        "なら frames a supposition whose main clause gives a judgment or plan ('if X, then do Y'); here the main clause reports a completed action (急いで支度をした), so purposive ように — hurrying so as to be in time — is what fits.",
         "こと forms nominalizations — it doesn't work here because we need to express purpose, not create a noun phrase.",
         "もの is used for general statements or emphasis — it doesn't fit because we're expressing specific purpose about this situation."
       ],
@@ -282,7 +259,85 @@
           "hiragana_full": "おくれないように、いそいでしたくをした。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "間に合う",
+          "reading": "まにあう",
+          "meaning": "be in time"
+        },
+        {
+          "word": "支度",
+          "reading": "したく",
+          "meaning": "preparations"
+        }
+      ]
+    },
+    {
+      "id": "n4_024_9",
+      "example_sentence": "風邪をひかないように、暖かく寝てください。",
+      "translation": "Please sleep warmly so that you do not catch a cold.",
+      "blank_target": "ように",
+      "wrong_choices": [
+        "のに",
+        "ので",
+        "ことに"
+      ],
+      "wrong_choice_explanations": [
+        "のに means 'even though / despite,' marking concession: 風邪をひかないのに、暖かく寝てください says 'even though you won't catch a cold, sleep warmly,' which contradicts the sentence's aim. ように marks the preventive purpose (so that you don't catch a cold).",
+        "ので means 'because,' explaining a reason, but the sentence expresses a goal (not catching a cold), not a cause.",
+        "ことに does not form a natural purpose clause here—ことにする means 'to decide to' and doesn't fit this preventive-goal context."
+      ],
+      "hiragana_full": "かぜをひかないように、あたたかくねてください。",
+      "audio_alternatives": [
+        {
+          "kanji": "風邪をひかないよう、暖かくして寝てください。",
+          "hiragana_full": "かぜをひかないよう、あたたかくしてねてください。"
+        },
+        {
+          "kanji": "風邪をひかないために、暖かくして寝てください。",
+          "hiragana_full": "かぜをひかないために、あたたかくしてねてください。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral"
+    },
+    {
+      "id": "n4_024_10",
+      "example_sentence": "後ろの席まで聞こえるように、もう少し大きな声で話してください。",
+      "translation": "Please speak a little louder so that you can be heard all the way in the back seats.",
+      "blank_target": "ように",
+      "wrong_choices": [
+        "ために",
+        "ので",
+        "ことに"
+      ],
+      "wrong_choice_explanations": [
+        "ために pairs with volitional actions, but 聞こえる ('be audible') is a non-volitional potential verb — when the goal is a state happening on its own, ように is the form to use.",
+        "ので means 'because,' expressing a cause; the sentence states a purpose (speak louder in order that you can be heard), not a reason.",
+        "ことに ('to one's surprise / what's more') doesn't form a purpose clause and would leave the audibility unlinked to the request to speak louder."
+      ],
+      "hiragana_full": "うしろのせきまできこえるように、もうすこしおおきなこえではなしてください。",
+      "audio_alternatives": [
+        {
+          "kanji": "後ろの席まで聞こえるよう、もう少し大きな声でお願いします。",
+          "hiragana_full": "うしろのせきまできこえるよう、もうすこしおおきなこえでおねがいします。"
+        },
+        {
+          "kanji": "後ろの席の人にも聞こえるように、もう少し声を大きくしてください。",
+          "hiragana_full": "うしろのせきのひとにもきこえるように、もうすこしこえをおおきくしてください。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "聞こえる",
+          "reading": "きこえる",
+          "meaning": "to be audible"
+        }
+      ]
     }
   ]
 }

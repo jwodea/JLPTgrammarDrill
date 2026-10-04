@@ -9,7 +9,11 @@
       "example_sentence": "このカフェは少し高い。だけど、味は最高だ。",
       "translation": "This café is a little expensive. But the taste is the best.",
       "blank_target": "だけど",
-      "wrong_choices": ["だから", "それに", "つまり"],
+      "wrong_choices": [
+        "だから",
+        "それに",
+        "つまり"
+      ],
       "wrong_choice_explanations": [
         "「だから」は前の文を理由に結果を導く順接で、『高い→だから味がいい』では筋が通らない。前後が対立しているので逆接の「だけど」が正しい。",
         "「それに」は前の内容に情報を付け加える添加の接続詞で、『高い』と『味は最高』という対立する関係をつなげない。",
@@ -17,17 +21,35 @@
       ],
       "hiragana_full": "このかふぇはすこしたかい。だけど、あじはさいこうだ。",
       "audio_alternatives": [
-        { "kanji": "このカフェは値段は高めだ。だけど、味は文句なしだ。", "hiragana_full": "このかふぇはねだんはたかめだ。だけど、あじはもんくなしだ。" },
-        { "kanji": "このカフェは少し高いが、味は本当においしい。", "hiragana_full": "このかふぇはすこしたかいが、あじはほんとうにおいしい。" }
+        {
+          "kanji": "このカフェは値段は高めだ。だけど、味は文句なしだ。",
+          "hiragana_full": "このかふぇはねだんはたかめだ。だけど、あじはもんくなしだ。"
+        },
+        {
+          "kanji": "このカフェは少し高いが、味は本当においしい。",
+          "hiragana_full": "このかふぇはすこしたかいが、あじはほんとうにおいしい。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "最高",
+          "reading": "さいこう",
+          "meaning": "the best"
+        }
+      ]
     },
     {
       "id": "n3_085_2",
       "example_sentence": "一生懸命勉強した。だけど、試験には合格できなかった。",
       "translation": "I studied as hard as I could. But I couldn't pass the exam.",
       "blank_target": "だけど",
-      "wrong_choices": ["だから", "それで", "そして"],
+      "wrong_choices": [
+        "だから",
+        "それで",
+        "そして"
+      ],
       "wrong_choice_explanations": [
         "「だから」は理由から結果を導く順接で、『努力した→だから落ちた』では意味が逆になる。期待に反する結果なので逆接の「だけど」が適切。",
         "「それで」は前の事柄を受けて成り行きの結果を述べる順接で、努力と不合格という対立をつなげない。",
@@ -35,17 +57,40 @@
       ],
       "hiragana_full": "いっしょうけんめいべんきょうした。だけど、しけんにはごうかくできなかった。",
       "audio_alternatives": [
-        { "kanji": "必死に勉強した。だけど、合格には届かなかった。", "hiragana_full": "ひっしにべんきょうした。だけど、ごうかくにはとどかなかった。" },
-        { "kanji": "一生懸命勉強したのに、試験に落ちてしまった。", "hiragana_full": "いっしょうけんめいべんきょうしたのに、しけんにおちてしまった。" }
+        {
+          "kanji": "必死に勉強した。だけど、合格には届かなかった。",
+          "hiragana_full": "ひっしにべんきょうした。だけど、ごうかくにはとどかなかった。"
+        },
+        {
+          "kanji": "一生懸命勉強したのに、試験に落ちてしまった。",
+          "hiragana_full": "いっしょうけんめいべんきょうしたのに、しけんにおちてしまった。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "一生懸命",
+          "reading": "いっしょうけんめい",
+          "meaning": "with all one's might"
+        },
+        {
+          "word": "合格",
+          "reading": "ごうかく",
+          "meaning": "passing (an exam)"
+        }
+      ]
     },
     {
       "id": "n3_085_3",
       "example_sentence": "彼は必ず来ると約束した。だけど、結局来なかった。",
       "translation": "He promised he would definitely come. But in the end he didn't show up.",
       "blank_target": "だけど",
-      "wrong_choices": ["だから", "それで", "だって"],
+      "wrong_choices": [
+        "だから",
+        "それで",
+        "だって"
+      ],
       "wrong_choice_explanations": [
         "「だから」は前を理由に結果を導く順接で、『約束した→だから来なかった』では論理が合わない。約束と結果が食い違うので逆接の「だけど」が正しい。",
         "「それで」は前を受けて結果や成り行きを述べる順接で、約束を破ったという対立する展開をつなげない。",
@@ -53,17 +98,35 @@
       ],
       "hiragana_full": "かれはかならずくるとやくそくした。だけど、けっきょくこなかった。",
       "audio_alternatives": [
-        { "kanji": "彼は必ず行くと言った。だけど、最後まで現れなかった。", "hiragana_full": "かれはかならずいくといった。だけど、さいごまであらわれなかった。" },
-        { "kanji": "来ると約束したのに、彼は結局来なかった。", "hiragana_full": "くるとやくそくしたのに、かれはけっきょくこなかった。" }
+        {
+          "kanji": "彼は必ず行くと言った。だけど、最後まで現れなかった。",
+          "hiragana_full": "かれはかならずいくといった。だけど、さいごまであらわれなかった。"
+        },
+        {
+          "kanji": "来ると約束したのに、彼は結局来なかった。",
+          "hiragana_full": "くるとやくそくしたのに、かれはけっきょくこなかった。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "結局",
+          "reading": "けっきょく",
+          "meaning": "in the end; after all"
+        }
+      ]
     },
     {
       "id": "n3_085_4",
       "example_sentence": "雨が降っていた。だけど、彼は傘をささずに歩いていた。",
       "translation": "It was raining. But he was walking without an umbrella.",
       "blank_target": "だけど",
-      "wrong_choices": ["だから", "それで", "それに"],
+      "wrong_choices": [
+        "だから",
+        "それで",
+        "それに"
+      ],
       "wrong_choice_explanations": [
         "「だから」は理由から結果を導く順接で、『雨だ→だから傘をささない』では筋が通らない。予想に反する行動なので逆接の「だけど」が合う。",
         "「それで」は前の事柄を受けて結果を述べる順接で、雨なのに傘をささないという対立する内容をつなげない。",
@@ -71,17 +134,28 @@
       ],
       "hiragana_full": "あめがふっていた。だけど、かれはかさをささずにあるいていた。",
       "audio_alternatives": [
-        { "kanji": "雨が降っていた。だけど、彼は傘を差さなかった。", "hiragana_full": "あめがふっていた。だけど、かれはかさをささなかった。" },
-        { "kanji": "雨の中、彼は傘もささずに歩いていた。", "hiragana_full": "あめのなか、かれはかさもささずにあるいていた。" }
+        {
+          "kanji": "雨が降っていた。だけど、彼は傘を差さなかった。",
+          "hiragana_full": "あめがふっていた。だけど、かれはかさをささなかった。"
+        },
+        {
+          "kanji": "雨の中、彼は傘もささずに歩いていた。",
+          "hiragana_full": "あめのなか、かれはかさもささずにあるいていた。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n3_085_5",
       "example_sentence": "この服はデザインが気に入った。だけど、サイズが合わなかった。",
       "translation": "I liked the design of this outfit. But the size didn't fit.",
       "blank_target": "だけど",
-      "wrong_choices": ["だから", "それに", "つまり"],
+      "wrong_choices": [
+        "だから",
+        "それに",
+        "つまり"
+      ],
       "wrong_choice_explanations": [
         "「だから」は理由から結果を導く順接で、『気に入った→だからサイズが合わない』では意味が通らない。良い点と悪い点が対立するので逆接の「だけど」が適切。",
         "「それに」は前の内容に良い点などを付け加える添加の接続詞で、長所と短所が対立するこの文には合わない。",
@@ -89,17 +163,28 @@
       ],
       "hiragana_full": "このふくはでざいんがきにいった。だけど、さいずがあわなかった。",
       "audio_alternatives": [
-        { "kanji": "この服はデザインは好みだ。だけど、サイズが合わなかった。", "hiragana_full": "このふくはでざいんはこのみだ。だけど、さいずがあわなかった。" },
-        { "kanji": "デザインは気に入ったものの、サイズが合わなかった。", "hiragana_full": "でざいんはきにいったものの、さいずがあわなかった。" }
+        {
+          "kanji": "この服はデザインは好みだ。だけど、サイズが合わなかった。",
+          "hiragana_full": "このふくはでざいんはこのみだ。だけど、さいずがあわなかった。"
+        },
+        {
+          "kanji": "デザインは気に入ったものの、サイズが合わなかった。",
+          "hiragana_full": "でざいんはきにいったものの、さいずがあわなかった。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n3_085_6",
       "example_sentence": "何度も電話した。だけど、彼女は出てくれなかった。",
       "translation": "I called many times. But she didn't pick up.",
       "blank_target": "だけど",
-      "wrong_choices": ["だから", "それで", "だって"],
+      "wrong_choices": [
+        "だから",
+        "それで",
+        "だって"
+      ],
       "wrong_choice_explanations": [
         "「だから」は前を理由に結果を導く順接で、『何度もかけた→だから出なかった』では論理が合わない。努力と結果が食い違うので逆接の「だけど」が正しい。",
         "「それで」は前を受けて成り行きの結果を述べる順接で、何度もかけたのに出ないという対立する内容をつなげない。",
@@ -107,17 +192,28 @@
       ],
       "hiragana_full": "なんどもでんわした。だけど、かのじょはでてくれなかった。",
       "audio_alternatives": [
-        { "kanji": "何度も電話した。だけど、彼女は一度も出なかった。", "hiragana_full": "なんどもでんわした。だけど、かのじょはいちどもでなかった。" },
-        { "kanji": "何回も電話したのに、彼女は出てくれなかった。", "hiragana_full": "なんかいもでんわしたのに、かのじょはでてくれなかった。" }
+        {
+          "kanji": "何度も電話した。だけど、彼女は一度も出なかった。",
+          "hiragana_full": "なんどもでんわした。だけど、かのじょはいちどもでなかった。"
+        },
+        {
+          "kanji": "何回も電話したのに、彼女は出てくれなかった。",
+          "hiragana_full": "なんかいもでんわしたのに、かのじょはでてくれなかった。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n3_085_7",
       "example_sentence": "計画は完璧だった。だけど、当日は大雨で中止になった。",
       "translation": "The plan was perfect. But on the day it was cancelled because of heavy rain.",
       "blank_target": "だけど",
-      "wrong_choices": ["だから", "つまり", "それに"],
+      "wrong_choices": [
+        "だから",
+        "つまり",
+        "それに"
+      ],
       "wrong_choice_explanations": [
         "「だから」は理由から結果を導く順接で、『完璧だった→だから中止になった』では筋が通らない。期待と結果が対立するので逆接の「だけど」が合う。",
         "「つまり」は前の内容を要約・言い換えする接続詞で、相反する展開を結ぶこの文には合わない。",
@@ -125,17 +221,45 @@
       ],
       "hiragana_full": "けいかくはかんぺきだった。だけど、とうじつはおおあめでちゅうしになった。",
       "audio_alternatives": [
-        { "kanji": "計画は完璧だった。だけど、当日は悪天候で流れた。", "hiragana_full": "けいかくはかんぺきだった。だけど、とうじつはあくてんこうでながれた。" },
-        { "kanji": "完璧な計画だったが、大雨のせいで中止になった。", "hiragana_full": "かんぺきなけいかくだったが、おおあめのせいでちゅうしになった。" }
+        {
+          "kanji": "計画は完璧だった。だけど、当日は悪天候で流れた。",
+          "hiragana_full": "けいかくはかんぺきだった。だけど、とうじつはあくてんこうでながれた。"
+        },
+        {
+          "kanji": "完璧な計画だったが、大雨のせいで中止になった。",
+          "hiragana_full": "かんぺきなけいかくだったが、おおあめのせいでちゅうしになった。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "完璧",
+          "reading": "かんぺき",
+          "meaning": "perfect"
+        },
+        {
+          "word": "当日",
+          "reading": "とうじつ",
+          "meaning": "that (very) day"
+        },
+        {
+          "word": "中止",
+          "reading": "ちゅうし",
+          "meaning": "cancellation"
+        }
+      ]
     },
     {
       "id": "n3_085_8",
       "example_sentence": "彼の言うことも分かる。だけど、私はやっぱり賛成できない。",
       "translation": "I understand what he is saying too. But I still can't agree.",
       "blank_target": "だけど",
-      "wrong_choices": ["だから", "だって", "それで"],
+      "wrong_choices": [
+        "だから",
+        "だって",
+        "それで"
+      ],
       "wrong_choice_explanations": [
         "「だから」は理由から結果を導く順接で、『理解できる→だから賛成できない』では論理が逆になる。理解と不賛成が対立するので逆接の「だけど」が正しい。",
         "「だって」は理由や言い訳を述べる接続詞で、相手の意見を認めつつ反対する逆接の文脈には合わない。",
@@ -143,17 +267,40 @@
       ],
       "hiragana_full": "かれのいうこともわかる。だけど、わたしはやっぱりさんせいできない。",
       "audio_alternatives": [
-        { "kanji": "彼の意見も理解できる。だけど、どうしても賛成できない。", "hiragana_full": "かれのいけんもりかいできる。だけど、どうしてもさんせいできない。" },
-        { "kanji": "言い分は分かるけれど、それでも賛成はできない。", "hiragana_full": "いいぶんはわかるけれど、それでもさんせいはできない。" }
+        {
+          "kanji": "彼の意見も理解できる。だけど、どうしても賛成できない。",
+          "hiragana_full": "かれのいけんもりかいできる。だけど、どうしてもさんせいできない。"
+        },
+        {
+          "kanji": "言い分は分かるけれど、それでも賛成はできない。",
+          "hiragana_full": "いいぶんはわかるけれど、それでもさんせいはできない。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "やっぱり",
+          "reading": "やっぱり",
+          "meaning": "after all; as I thought"
+        },
+        {
+          "word": "賛成",
+          "reading": "さんせい",
+          "meaning": "agreement; approval"
+        }
+      ]
     },
     {
       "id": "n3_085_9",
       "example_sentence": "新しい仕事は給料がいい。だけど、残業がとても多い。",
       "translation": "The new job pays well. But there is a lot of overtime.",
       "blank_target": "だけど",
-      "wrong_choices": ["だから", "それに", "つまり"],
+      "wrong_choices": [
+        "だから",
+        "それに",
+        "つまり"
+      ],
       "wrong_choice_explanations": [
         "「だから」は理由から結果を導く順接で、『給料がいい→だから残業が多い』では筋が通らない。良い面と悪い面が対立するので逆接の「だけど」が適切。",
         "「それに」は前に良い点を付け加える添加の接続詞で、長所と短所が対立するこの文には合わない。",
@@ -161,17 +308,40 @@
       ],
       "hiragana_full": "あたらしいしごとはきゅうりょうがいい。だけど、ざんぎょうがとてもおおい。",
       "audio_alternatives": [
-        { "kanji": "新しい職場は給料はいい。だけど、残業がかなり多い。", "hiragana_full": "あたらしいしょくばはきゅうりょうはいい。だけど、ざんぎょうがかなりおおい。" },
-        { "kanji": "給料はいいが、その分残業がとても多い職場だ。", "hiragana_full": "きゅうりょうはいいが、そのぶんざんぎょうがとてもおおいしょくばだ。" }
+        {
+          "kanji": "新しい職場は給料はいい。だけど、残業がかなり多い。",
+          "hiragana_full": "あたらしいしょくばはきゅうりょうはいい。だけど、ざんぎょうがかなりおおい。"
+        },
+        {
+          "kanji": "給料はいいが、その分残業がとても多い職場だ。",
+          "hiragana_full": "きゅうりょうはいいが、そのぶんざんぎょうがとてもおおいしょくばだ。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "給料",
+          "reading": "きゅうりょう",
+          "meaning": "salary; pay"
+        },
+        {
+          "word": "残業",
+          "reading": "ざんぎょう",
+          "meaning": "overtime"
+        }
+      ]
     },
     {
       "id": "n3_085_10",
       "example_sentence": "彼女はまだ若い。だけど、考え方はとても大人だ。",
       "translation": "She is still young. But her way of thinking is very mature.",
       "blank_target": "だけど",
-      "wrong_choices": ["だから", "それで", "つまり"],
+      "wrong_choices": [
+        "だから",
+        "それで",
+        "つまり"
+      ],
       "wrong_choice_explanations": [
         "「だから」は理由から結果を導く順接で、『若い→だから考え方が大人だ』では筋が通らない。年齢と中身が対照的なので逆接の「だけど」が合う。",
         "「それで」は前を受けて結果を述べる順接で、若さと成熟という対立する内容をつなげない。",
@@ -179,10 +349,24 @@
       ],
       "hiragana_full": "かのじょはまだわかい。だけど、かんがえかたはとてもおとなだ。",
       "audio_alternatives": [
-        { "kanji": "彼女はまだ若い。だけど、その考え方は大人顔負けだ。", "hiragana_full": "かのじょはまだわかい。だけど、そのかんがえかたはおとなかおまけだ。" },
-        { "kanji": "若いのに、彼女の考え方はとても大人びている。", "hiragana_full": "わかいのに、かのじょのかんがえかたはとてもおとなびている。" }
+        {
+          "kanji": "彼女はまだ若い。だけど、その考え方は大人顔負けだ。",
+          "hiragana_full": "かのじょはまだわかい。だけど、そのかんがえかたはおとなかおまけだ。"
+        },
+        {
+          "kanji": "若いのに、彼女の考え方はとても大人びている。",
+          "hiragana_full": "わかいのに、かのじょのかんがえかたはとてもおとなびている。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "考え方",
+          "reading": "かんがえかた",
+          "meaning": "way of thinking"
+        }
+      ]
     }
   ]
 }

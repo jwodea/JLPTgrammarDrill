@@ -30,7 +30,15 @@
           "hiragana_full": "かれのしんいをりかいするのはむずかしい。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "真意",
+          "reading": "しんい",
+          "meaning": "true intention"
+        }
+      ]
     },
     {
       "id": "n1_098_2",
@@ -58,7 +66,8 @@
           "hiragana_full": "こうしたじじつはしんじがたい。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n1_098_3",
@@ -86,7 +95,20 @@
           "hiragana_full": "そのていあんのないようはうけいれがたい。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "提案",
+          "reading": "ていあん",
+          "meaning": "proposal"
+        },
+        {
+          "word": "内容",
+          "reading": "ないよう",
+          "meaning": "content"
+        }
+      ]
     },
     {
       "id": "n1_098_4",
@@ -114,7 +136,15 @@
           "hiragana_full": "かのじょのふるまいはとうていゆるしがたいものだった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "行動",
+          "reading": "こうどう",
+          "meaning": "behavior; conduct"
+        }
+      ]
     },
     {
       "id": "n1_098_5",
@@ -142,7 +172,8 @@
           "hiragana_full": "このにゅーすはしんじがたいはなしだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n1_098_6",
@@ -170,7 +201,20 @@
           "hiragana_full": "このげんしょうはせつめいしがたいじしょうである。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "現象",
+          "reading": "げんしょう",
+          "meaning": "phenomenon"
+        },
+        {
+          "word": "事柄",
+          "reading": "ことがら",
+          "meaning": "matter; affair"
+        }
+      ]
     },
     {
       "id": "n1_098_7",
@@ -198,7 +242,15 @@
           "hiragana_full": "そんなはつげんはききづらいものだった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "発言",
+          "reading": "はつげん",
+          "meaning": "remark; statement"
+        }
+      ]
     },
     {
       "id": "n1_098_8",
@@ -206,12 +258,12 @@
       "translation": "His decision was a choice that was difficult to understand.",
       "blank_target": "がたい",
       "wrong_choices": [
-        "かねる",
+        "うる",
         "あぐねる",
         "わずらう"
       ],
       "wrong_choice_explanations": [
-        "かねる does attach to the stem here, but it expresses the speaker's polite inability or reluctance ('I cannot quite accept it'); がたい instead describes the choice as inherently hard to understand, whoever is judging.",
+        "うる (as in 理解しうる) marks that understanding is possible — 'a choice that could be understood.' It is the opposite of がたい, which states that grasping the choice is inherently hard.",
         "あぐねる means to keep trying yet stay stuck ('be at a loss while attempting'); it stresses a stalled effort, whereas がたい simply states the act is difficult.",
         "わずらう adds the sense of fretting or agonizing over an action; it foregrounds mental distress, not the plain difficulty of the act that がたい conveys."
       ],
@@ -226,7 +278,20 @@
           "hiragana_full": "かれのはんだんはりかいしかねるせんたくだった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "決断",
+          "reading": "けつだん",
+          "meaning": "decision"
+        },
+        {
+          "word": "選択",
+          "reading": "せんたく",
+          "meaning": "choice"
+        }
+      ]
     },
     {
       "id": "n1_098_9",
@@ -254,7 +319,15 @@
           "hiragana_full": "このあじはふかいいんしょうをのこした。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "印象",
+          "reading": "いんしょう",
+          "meaning": "impression"
+        }
+      ]
     },
     {
       "id": "n1_098_10",
@@ -282,7 +355,25 @@
           "hiragana_full": "かかるいりょうせいさくてんかんはりかいしにくいはんだんである。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "医療",
+          "reading": "いりょう",
+          "meaning": "medical care"
+        },
+        {
+          "word": "転換",
+          "reading": "てんかん",
+          "meaning": "shift; conversion"
+        },
+        {
+          "word": "判断",
+          "reading": "はんだん",
+          "meaning": "judgment"
+        }
+      ]
     }
   ]
 }

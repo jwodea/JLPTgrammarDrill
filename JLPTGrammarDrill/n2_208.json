@@ -1,0 +1,250 @@
+{
+  "id": "n2_208",
+  "pattern": "〜かと思ったら",
+  "meaning": "no sooner had ~ than; just when (sudden change)",
+  "level": "N2",
+  "exercises": [
+    {
+      "id": "n2_208_1",
+      "example_sentence": "赤ちゃんは大声で泣いたかと思ったら、もうけろっと笑っている。",
+      "translation": "The baby was bawling one moment, and the next she's laughing as if nothing happened.",
+      "blank_target": "かと思ったら",
+      "wrong_choices": ["きり", "以上", "かのように"],
+      "wrong_choice_explanations": [
+        "〜たきり means the action was the last thing that happened, with nothing changing since (泣いたきり黙ってしまった); it contradicts the immediate new event もう笑っている.",
+        "〜た以上 means 'now that ~' and leads to obligation or determination (泣いた以上〜すべきだ); it cannot link to a simple observation of what happened the next moment.",
+        "〜かのように means 'as if ~ (though not actually so)'; the baby really did cry, so an as-if comparison contradicts the sentence, which needs the sudden-change meaning of かと思ったら."
+      ],
+      "hiragana_full": "あかちゃんはおおごえでないたかとおもったら、もうけろっとわらっている。",
+      "audio_alternatives": [
+        { "kanji": "赤ちゃんはさっきまで泣いていたのに、もうにこにこしている。", "hiragana_full": "あかちゃんはさっきまでないていたのに、もうにこにこしている。" },
+        { "kanji": "泣いたかと思ったら、すぐ笑い出すのが赤ちゃんだ。", "hiragana_full": "ないたかとおもったら、すぐわらいだすのがあかちゃんだ。" }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        { "word": "大声", "reading": "おおごえ", "meaning": "loud voice" },
+        { "word": "けろっと", "reading": "けろっと", "meaning": "as if nothing had happened" }
+      ],
+      "blank_target_reading": "かとおもったら"
+    },
+    {
+      "id": "n2_208_2",
+      "example_sentence": "空が急に暗くなったかと思ったら、雷とともに大粒の雨が降ってきた。",
+      "translation": "The sky suddenly went dark, and the next thing I knew, huge raindrops came down with thunder.",
+      "blank_target": "かと思ったら",
+      "wrong_choices": ["きり", "かのように", "ものの"],
+      "wrong_choice_explanations": [
+        "〜たきり would mean the sky darkened and nothing else followed (暗くなったきり明るくならない-type); the rain that came right after contradicts it.",
+        "〜かのように ('as if it had darkened') implies it didn't really darken, but the sentence reports an actual change in the sky.",
+        "〜ものの means 'although ~' and needs a contrast between the clauses; sudden rain is the natural continuation of a darkening sky, not a contrary development — and the sentence's point is how fast one followed the other."
+      ],
+      "hiragana_full": "そらがきゅうにくらくなったかとおもったら、かみなりとともにおおつぶのあめがふってきた。",
+      "audio_alternatives": [
+        { "kanji": "暗くなったかと思ったら、あっという間に土砂降りになった。", "hiragana_full": "くらくなったかとおもったら、あっというまにどしゃぶりになった。" },
+        { "kanji": "空が急に暗くなって、すぐに大雨が降り出しました。", "hiragana_full": "そらがきゅうにくらくなって、すぐにおおあめがふりだしました。" }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        { "word": "雷", "reading": "かみなり", "meaning": "thunder" },
+        { "word": "大粒", "reading": "おおつぶ", "meaning": "large drops" }
+      ],
+      "blank_target_reading": "かとおもったら"
+    },
+    {
+      "id": "n2_208_3",
+      "example_sentence": "息子は帰ってきたかと思ったら、ランドセルを放り出して遊びに出かけた。",
+      "translation": "My son had barely gotten home before he tossed his backpack aside and went out to play.",
+      "blank_target": "かと思ったら",
+      "wrong_choices": ["以上", "せいで", "おかげで"],
+      "wrong_choice_explanations": [
+        "帰ってきた以上 would mean 'now that he's home, (he should…)'; 〜た以上 introduces obligation or resolve, not the surprising next action.",
+        "〜たせいで means 'because of ~ (with a negative result)'; coming home didn't cause him to go out, and the sentence is about immediacy, not blame.",
+        "〜たおかげで means 'thanks to ~' and requires a favorable cause-effect link; dashing out to play is not a benefit brought about by coming home."
+      ],
+      "hiragana_full": "むすこはかえってきたかとおもったら、らんどせるをほうりだしてあそびにでかけた。",
+      "audio_alternatives": [
+        { "kanji": "息子はただいまを言ったかと思ったら、もう外に飛び出していた。", "hiragana_full": "むすこはただいまをいったかとおもったら、もうそとにとびだしていた。" },
+        { "kanji": "帰宅したと思ったら、すぐにまた出て行きました。", "hiragana_full": "きたくしたとおもったら、すぐにまたでていきました。" }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        { "word": "ランドセル", "reading": "らんどせる", "meaning": "school backpack" },
+        { "word": "放り出す", "reading": "ほうりだす", "meaning": "to fling down, toss aside" }
+      ],
+      "blank_target_reading": "かとおもったら"
+    },
+    {
+      "id": "n2_208_4",
+      "example_sentence": "桜は咲いたかと思うと、あっという間に散ってしまう。",
+      "translation": "No sooner do cherry blossoms bloom than they scatter in the blink of an eye.",
+      "blank_target": "かと思うと",
+      "wrong_choices": ["せいで", "どころか", "かのように"],
+      "wrong_choice_explanations": [
+        "〜たせいで assigns negative cause ('because they bloomed, regrettably…'); the sentence isn't blaming the blooming for the scattering — it's marveling at how quickly one follows the other.",
+        "どころか denies the first clause to assert something stronger ('far from blooming…'); the blossoms genuinely bloom every year, so the denial contradicts the sentence.",
+        "〜かのように means 'as if they had bloomed', implying they didn't — but the blooming is real, and what's needed is the 'no sooner ~ than' meaning."
+      ],
+      "hiragana_full": "さくらはさいたかとおもうと、あっというまにちってしまう。",
+      "audio_alternatives": [
+        { "kanji": "桜は咲いたかと思ったら、もう散り始めている。", "hiragana_full": "さくらはさいたかとおもったら、もうちりはじめている。" },
+        { "kanji": "桜の花はあっという間に咲いて、あっという間に散る。", "hiragana_full": "さくらのはなはあっというまにさいて、あっというまにちる。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "咲く", "reading": "さく", "meaning": "to bloom" },
+        { "word": "散る", "reading": "ちる", "meaning": "to fall, scatter (petals)" },
+        { "word": "あっという間", "reading": "あっというま", "meaning": "in the blink of an eye" }
+      ],
+      "blank_target_reading": "かとおもうと"
+    },
+    {
+      "id": "n2_208_5",
+      "example_sentence": "例の新人は、入社したかと思ったら、一週間で辞めてしまいました。",
+      "translation": "That new hire had barely joined the company before quitting a week later.",
+      "blank_target": "かと思ったら",
+      "wrong_choices": ["ばかりに", "まま", "以上"],
+      "wrong_choice_explanations": [
+        "入社したばかりに looks like 入社したばかり ('just joined'), but 〜たばかりに means 'precisely because ~, something bad happened'; joining is not presented as the cause of quitting, and the sentence needs the 'no sooner ~ than' meaning.",
+        "〜たまま means remaining in an unchanged state (座ったまま); staying in the 'joined' state contradicts quitting a week later, and まま describes ongoing conditions, not a quick succession of events.",
+        "〜た以上 means 'now that one has ~, (obligation or resolve follows)', e.g. 入社した以上頑張るべきだ; a report that he quit is neither an obligation nor a determination."
+      ],
+      "hiragana_full": "れいのしんじんは、にゅうしゃしたかとおもったら、いっしゅうかんでやめてしまいました。",
+      "audio_alternatives": [
+        { "kanji": "あの新人は入ってきたかと思ったら、あっという間に辞めてしまった。", "hiragana_full": "あのしんじんははいってきたかとおもったら、あっというまにやめてしまった。" },
+        { "kanji": "例の新人は、入社してわずか一週間で退職しました。", "hiragana_full": "れいのしんじんは、にゅうしゃしてわずかいっしゅうかんでたいしょくしました。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "入社", "reading": "にゅうしゃ", "meaning": "joining a company" },
+        { "word": "辞める", "reading": "やめる", "meaning": "to quit (a job)" },
+        { "word": "例の", "reading": "れいの", "meaning": "that ~ (previously mentioned)" }
+      ],
+      "blank_target_reading": "かとおもったら"
+    },
+    {
+      "id": "n2_208_6",
+      "example_sentence": "電車は信号トラブルで止まったかと思ったら、すぐにまた動き出した。",
+      "translation": "The train stopped because of a signal problem, but no sooner had it stopped than it started moving again.",
+      "blank_target": "かと思ったら",
+      "wrong_choices": ["きり", "まま", "おかげで"],
+      "wrong_choice_explanations": [
+        "止まったきり would mean the train stopped and never moved again (止まったきり動かない); it is contradicted by すぐにまた動き出した.",
+        "止まったまま keeps the stopped state unchanged (止まったまま動かない); starting to move again breaks that state, so まま cannot connect these clauses.",
+        "〜たおかげで means 'thanks to ~' and needs a positive causal link; stopping didn't cause the restart, and the sentence expresses immediate succession, not gratitude."
+      ],
+      "hiragana_full": "でんしゃはしんごうとらぶるでとまったかとおもったら、すぐにまたうごきだした。",
+      "audio_alternatives": [
+        { "kanji": "電車は一度止まったが、すぐに運転を再開した。", "hiragana_full": "でんしゃはいちどとまったが、すぐにうんてんをさいかいした。" },
+        { "kanji": "止まったかと思ったら、もう走り出していた。", "hiragana_full": "とまったかとおもったら、もうはしりだしていた。" }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        { "word": "信号", "reading": "しんごう", "meaning": "signal" },
+        { "word": "動き出す", "reading": "うごきだす", "meaning": "to start moving" }
+      ],
+      "blank_target_reading": "かとおもったら"
+    },
+    {
+      "id": "n2_208_7",
+      "example_sentence": "部長は怒鳴ったかと思ったら、次の瞬間には笑っていた。",
+      "translation": "The department head was yelling one moment, and the very next he was laughing.",
+      "blank_target": "かと思ったら",
+      "wrong_choices": ["ばかりに", "どころか", "まま"],
+      "wrong_choice_explanations": [
+        "怒鳴ったばかりに resembles 怒鳴ったばかり ('just yelled'), but the connector 〜たばかりに means 'precisely because ~, something bad resulted'; laughing the next moment is not a misfortune caused by the yelling.",
+        "どころか means 'far from ~' and would deny that he yelled, yet 次の瞬間には ('the very next moment') presupposes the yelling actually happened.",
+        "怒鳴ったまま would mean he was still in a yelling state while laughing, which is contradictory; the sentence describes one state replacing another in an instant."
+      ],
+      "hiragana_full": "ぶちょうはどなったかとおもったら、つぎのしゅんかんにはわらっていた。",
+      "audio_alternatives": [
+        { "kanji": "部長は怒っていたかと思ったら、もう機嫌が直っていた。", "hiragana_full": "ぶちょうはおこっていたかとおもったら、もうきげんがなおっていた。" },
+        { "kanji": "さっきまで怒鳴っていたのに、部長は急に笑い出した。", "hiragana_full": "さっきまでどなっていたのに、ぶちょうはきゅうにわらいだした。" }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        { "word": "怒鳴る", "reading": "どなる", "meaning": "to yell, shout angrily" },
+        { "word": "瞬間", "reading": "しゅんかん", "meaning": "moment, instant" }
+      ],
+      "blank_target_reading": "かとおもったら"
+    },
+    {
+      "id": "n2_208_8",
+      "example_sentence": "春が来たかと思ったら、もう真夏のような暑さだ。",
+      "translation": "Spring had barely arrived, and it's already as hot as midsummer.",
+      "blank_target": "かと思ったら",
+      "wrong_choices": ["ばかりに", "せいで", "かのように"],
+      "wrong_choice_explanations": [
+        "春が来たばかりに looks like 来たばかり ('spring just came'), but 〜たばかりに means 'precisely because ~, something bad happened'; the heat is not a misfortune caused by spring's arrival — the point is how fast the season changed.",
+        "〜たせいで blames a negative cause; spring arriving doesn't cause midsummer heat, and the sentence expresses a startlingly quick transition rather than causation.",
+        "〜かのように would mean 'as if spring had come (but it hadn't)'; spring really did arrive, so the as-if reading contradicts the sentence."
+      ],
+      "hiragana_full": "はるがきたかとおもったら、もうまなつのようなあつさだ。",
+      "audio_alternatives": [
+        { "kanji": "春になったかと思ったら、もう夏みたいに暑い。", "hiragana_full": "はるになったかとおもったら、もうなつみたいにあつい。" },
+        { "kanji": "つい先週春が来たばかりなのに、もう真夏並みの暑さです。", "hiragana_full": "ついせんしゅうはるがきたばかりなのに、もうまなつなみのあつさです。" }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        { "word": "真夏", "reading": "まなつ", "meaning": "midsummer" },
+        { "word": "暑さ", "reading": "あつさ", "meaning": "heat" }
+      ],
+      "blank_target_reading": "かとおもったら"
+    },
+    {
+      "id": "n2_208_9",
+      "example_sentence": "会議が始まったかと思ったら、資料の不備で五分で終わってしまいました。",
+      "translation": "The meeting had barely started before it ended in five minutes because the materials were incomplete.",
+      "blank_target": "かと思ったら",
+      "wrong_choices": ["きり", "上で", "おかげで"],
+      "wrong_choice_explanations": [
+        "〜たきり implies nothing happened afterward (始まったきり終わらない is the typical use); the meeting ending five minutes later contradicts it.",
+        "〜た上で marks a deliberate step followed by a planned action (資料を確認した上で議論する); the abrupt ending was not a planned sequel to the meeting's start.",
+        "〜たおかげで means 'thanks to ~' and credits a favorable cause; the start didn't cause the ending, and being cut short over faulty materials is hardly a benefit."
+      ],
+      "hiragana_full": "かいぎがはじまったかとおもったら、しりょうのふびでごふんでおわってしまいました。",
+      "audio_alternatives": [
+        { "kanji": "会議は始まったかと思ったら、あっという間に打ち切られました。", "hiragana_full": "かいぎははじまったかとおもったら、あっというまにうちきられました。" },
+        { "kanji": "会議が始まってすぐ、資料の問題で中止になりました。", "hiragana_full": "かいぎがはじまってすぐ、しりょうのもんだいでちゅうしになりました。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "資料", "reading": "しりょう", "meaning": "materials, documents" },
+        { "word": "不備", "reading": "ふび", "meaning": "deficiency, incompleteness" }
+      ],
+      "blank_target_reading": "かとおもったら"
+    },
+    {
+      "id": "n2_208_10",
+      "example_sentence": "弟はさっきまで夢中でゲームをしていたかと思ったら、いつの間にかソファで寝ていた。",
+      "translation": "My little brother was absorbed in a video game just a minute ago, and now he's somehow fast asleep on the sofa.",
+      "blank_target": "かと思ったら",
+      "wrong_choices": ["ばかりに", "以上", "上で"],
+      "wrong_choice_explanations": [
+        "〜たばかりに means 'precisely because ~ (with a bad result)'; falling asleep is not presented as a misfortune caused by gaming — the point is how suddenly the scene changed.",
+        "〜た以上 means 'now that / since ~' and introduces obligation or resolve (していた以上、責任を取るべきだ-type); it cannot simply report the next thing the speaker noticed.",
+        "〜た上で means 'after ~ (as a deliberate step)', e.g. 確認した上で契約する; getting absorbed in a game and then dozing off is not a planned two-step procedure."
+      ],
+      "hiragana_full": "おとうとはさっきまでむちゅうでげーむをしていたかとおもったら、いつのまにかそふぁでねていた。",
+      "audio_alternatives": [
+        { "kanji": "弟はゲームをしていたかと思ったら、もう眠っていた。", "hiragana_full": "おとうとはげーむをしていたかとおもったら、もうねむっていた。" },
+        { "kanji": "さっきまでゲームに夢中だったのに、弟はいつの間にか寝ていました。", "hiragana_full": "さっきまでげーむにむちゅうだったのに、おとうとはいつのまにかねていました。" }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        { "word": "夢中", "reading": "むちゅう", "meaning": "absorbed, engrossed" },
+        { "word": "いつの間にか", "reading": "いつのまにか", "meaning": "before one knows it" }
+      ],
+      "blank_target_reading": "かとおもったら"
+    }
+  ]
+}

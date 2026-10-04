@@ -12,12 +12,12 @@
       "wrong_choices": [
         "ため",
         "せいで",
-        "末に"
+        "たびに"
       ],
       "wrong_choice_explanations": [
         "ため indicates purpose or reason, but doesn't convey the sense of a final result after prolonged effort like あげく does.",
         "せいで expresses blame or negative causation, but lacks the nuance of reaching a conclusion after extended process.",
-        "末に also means 'in the end', but あげく specifically emphasizes the often disappointing result after much effort or time."
+        "たびに means 'each time / every time'; it marks a repeated, habitual occurrence, whereas あげく presents a single drawn-out process culminating in its (often disappointing) result."
       ],
       "hiragana_full": "ちょうじかんのぎろんのあげく、なにもきまらなかった。",
       "audio_alternatives": [
@@ -30,7 +30,15 @@
           "hiragana_full": "ながいぎろんのけっか、なにもけっていされなかった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "議論",
+          "reading": "ぎろん",
+          "meaning": "debate/discussion"
+        }
+      ]
     },
     {
       "id": "n1_096_2",
@@ -38,12 +46,12 @@
       "translation": "After being thoroughly confused, we ended up going back to the original plan.",
       "blank_target": "あげく",
       "wrong_choices": [
-        "結果",
+        "ばかりに",
         "次第",
         "ところ"
       ],
       "wrong_choice_explanations": [
-        "結果 simply means 'result' but doesn't capture the sense of frustration and wasted effort that あげく implies.",
+        "ばかりに means 'simply/only because'; it pins a regrettable result on one specific cause, rather than presenting the outcome as the end of a long, drawn-out process the way あげく does.",
         "次第 means 'depending on' or 'as soon as', which doesn't fit the context of reaching a conclusion after struggle.",
         "ところ in this context would mean 'just when', but doesn't express the culmination of effort like あげく does."
       ],
@@ -58,7 +66,20 @@
           "hiragana_full": "ながいまよいのすえ、けっきょくもとのあんにもどることとなった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "散々",
+          "reading": "さんざん",
+          "meaning": "thoroughly; terribly"
+        },
+        {
+          "word": "案",
+          "reading": "あん",
+          "meaning": "plan; proposal"
+        }
+      ]
     },
     {
       "id": "n1_096_3",
@@ -86,7 +107,15 @@
           "hiragana_full": "なんねんもかけてかんがえぬいたけっか、かれはかいしゃをやめることにした。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "考え抜いた",
+          "reading": "かんがえぬいた",
+          "meaning": "thought through exhaustively"
+        }
+      ]
     },
     {
       "id": "n1_096_4",
@@ -114,7 +143,20 @@
           "hiragana_full": "かぞくとくりかえしはなしあったけっか、りゅうがくをだんねんするにいたった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "重ねた",
+          "reading": "かさねた",
+          "meaning": "repeated; piled up"
+        },
+        {
+          "word": "断念",
+          "reading": "だんねん",
+          "meaning": "giving up; abandoning"
+        }
+      ]
     },
     {
       "id": "n1_096_5",
@@ -142,7 +184,20 @@
           "hiragana_full": "ひっしにさがしまわったが、けっきょくかぎはみつからなかった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "必死",
+          "reading": "ひっし",
+          "meaning": "desperate(ly)"
+        },
+        {
+          "word": "探し回った",
+          "reading": "さがしまわった",
+          "meaning": "searched all around"
+        }
+      ]
     },
     {
       "id": "n1_096_6",
@@ -170,7 +225,25 @@
           "hiragana_full": "ながねんにわたるこうしょうにもかかわらず、しんてんがないままたいりつはふかまった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "交渉",
+          "reading": "こうしょう",
+          "meaning": "negotiation"
+        },
+        {
+          "word": "進展",
+          "reading": "しんてん",
+          "meaning": "progress"
+        },
+        {
+          "word": "対立",
+          "reading": "たいりつ",
+          "meaning": "conflict; confrontation"
+        }
+      ]
     },
     {
       "id": "n1_096_7",
@@ -198,7 +271,15 @@
           "hiragana_full": "なんどもいしにそうだんしたすえ、しゅじゅつをやめるけつだんをした。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "手術",
+          "reading": "しゅじゅつ",
+          "meaning": "surgery"
+        }
+      ]
     },
     {
       "id": "n1_096_8",
@@ -226,7 +307,20 @@
           "hiragana_full": "ながねんにわたるけんきゅうのけっか、そのかせつがまちがいであることがはんめいした。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "仮説",
+          "reading": "かせつ",
+          "meaning": "hypothesis"
+        },
+        {
+          "word": "判明",
+          "reading": "はんめい",
+          "meaning": "became clear"
+        }
+      ]
     },
     {
       "id": "n1_096_9",
@@ -254,7 +348,25 @@
           "hiragana_full": "しゃないでのぎろんをかさねたけっか、そのきかくははくしにもどされた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "尽くした",
+          "reading": "つくした",
+          "meaning": "exhausted; did fully"
+        },
+        {
+          "word": "企画",
+          "reading": "きかく",
+          "meaning": "project; plan"
+        },
+        {
+          "word": "白紙",
+          "reading": "はくし",
+          "meaning": "blank slate; scrapping"
+        }
+      ]
     },
     {
       "id": "n1_096_10",
@@ -282,7 +394,25 @@
           "hiragana_full": "ちょうきにわたるちりょうにもかかわらず、びょうじょうはかいぜんしなかった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "治療",
+          "reading": "ちりょう",
+          "meaning": "treatment"
+        },
+        {
+          "word": "病状",
+          "reading": "びょうじょう",
+          "meaning": "condition of illness"
+        },
+        {
+          "word": "改善",
+          "reading": "かいぜん",
+          "meaning": "improvement"
+        }
+      ]
     }
   ]
 }

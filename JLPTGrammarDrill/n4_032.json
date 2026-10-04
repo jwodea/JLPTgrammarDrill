@@ -11,12 +11,12 @@
       "blank_target": "つもり",
       "wrong_choices": [
         "はず",
-        "予定",
+        "気",
         "ところ"
       ],
       "wrong_choice_explanations": [
         "はず means 'should be/expected to' — 留学するはずです would imply an outside expectation that the speaker will study abroad, but つもり conveys the speaker's own personal intention.",
-        "予定 means 'scheduled/planned' and implies an arranged or fixed plan — 留学する予定です sounds like the studies abroad are already booked, while つもり expresses a personal intent not yet finalized into a schedule.",
+        "気 (as 〜気です) means 'feel inclined to' — 留学する気です would express only a vague inclination toward studying abroad, while つもり conveys the speaker's settled intention to do so.",
         "ところ means 'about to / on the verge of' — 留学するところです would suggest the studies abroad are happening any moment now, but つもり is about a still-distant intention."
       ],
       "hiragana_full": "らいねん、にほんにりゅうがくするつもりです。",
@@ -30,7 +30,15 @@
           "hiragana_full": "らいねん、にほんへりゅうがくするつもりです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "留学",
+          "reading": "りゅうがく",
+          "meaning": "studying abroad"
+        }
+      ]
     },
     {
       "id": "n4_032_2",
@@ -58,7 +66,8 @@
           "hiragana_full": "つぎのやすみにえいがをみるよていだ"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n4_032_3",
@@ -86,7 +95,15 @@
           "hiragana_full": "かれはかいしゃをやめるようだ"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "辞める",
+          "reading": "やめる",
+          "meaning": "quit"
+        }
+      ]
     },
     {
       "id": "n4_032_4",
@@ -114,7 +131,8 @@
           "hiragana_full": "きょうははやめにねるつもりです"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n4_032_5",
@@ -142,7 +160,8 @@
           "hiragana_full": "このほんをおわりまでよむつもりだった"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n4_032_6",
@@ -170,7 +189,15 @@
           "hiragana_full": "おかねをためてから、あたらしいくるまをかうつもりです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "貯めて",
+          "reading": "ためて",
+          "meaning": "saving up"
+        }
+      ]
     },
     {
       "id": "n4_032_7",
@@ -198,7 +225,20 @@
           "hiragana_full": "これからはぜったいにうそをつかないつもりです"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "二度と",
+          "reading": "にどと",
+          "meaning": "never again"
+        },
+        {
+          "word": "嘘",
+          "reading": "うそ",
+          "meaning": "lie"
+        }
+      ]
     },
     {
       "id": "n4_032_8",
@@ -226,7 +266,8 @@
           "hiragana_full": "かのじょはいしゃになろうとおもってべんきょうしています"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n4_032_9",
@@ -254,7 +295,8 @@
           "hiragana_full": "あしたからまいにちうんどうしようとおもっています"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n4_032_10",
@@ -282,7 +324,8 @@
           "hiragana_full": "つぎのてすとではひゃくてんをとるつもりだ"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     }
   ]
 }

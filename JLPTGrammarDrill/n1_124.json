@@ -1,0 +1,252 @@
+{
+  "id": "n1_124",
+  "pattern": "〜たら〜たで",
+  "meaning": "if/when X does turn out to be the case, that too brings its own (different) situation",
+  "level": "N1",
+  "exercises": [
+    {
+      "id": "n1_124_1",
+      "example_sentence": "お金がないのも不安だが、あったらあったで、使い道に悩むものだ。",
+      "translation": "Having no money is unsettling, but if you do have it, that in turn brings its own worry — you agonize over how to spend it.",
+      "blank_target": "あったで",
+      "wrong_choices": ["あっただけ", "あったきり", "あったから"],
+      "wrong_choice_explanations": [
+        "「あったらあっただけ」は『あればある分だけ（比例して）悩む』という比例の意味になり、『ある場合はある場合で別の問題がある』という〜たら〜たでの対比の含みとは異なる。",
+        "「あったらあったきり」は『一度あって、それきりなくなる』という〜きりの意で、文がつながらず不自然。",
+        "「あったらあったから」は『あるので』という理由づけになり、『ないのも困るが、ある場合もある場合で』という対比の構文にならない。"
+      ],
+      "hiragana_full": "おかねがないのもふあんだが、あったらあったで、つかいみちになやむものだ。",
+      "audio_alternatives": [
+        { "kanji": "お金は、ないのも困るが、あったらあったで悩みの種になる。", "hiragana_full": "おかねは、ないのもこまるが、あったらあったでなやみのたねになる。" },
+        { "kanji": "お金があればあったで、その使い道に頭を悩ませることになる。", "hiragana_full": "おかねがあればあったで、そのつかいみちにあたまをなやませることになる。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "不安", "reading": "ふあん", "meaning": "anxiety; uneasiness" },
+        { "word": "使い道", "reading": "つかいみち", "meaning": "use; way to spend" },
+        { "word": "悩む", "reading": "なやむ", "meaning": "to agonize; to be troubled" }
+      ]
+    },
+    {
+      "id": "n1_124_2",
+      "example_sentence": "試験に受かったら受かったで、今度は学費の心配が始まる。",
+      "translation": "If you pass the exam, then that in turn brings a new worry — this time it's tuition.",
+      "blank_target": "受かったで",
+      "wrong_choices": ["受かったところで", "受かったなり", "受かったから"],
+      "wrong_choice_explanations": [
+        "「受かったところで」は『受かったとしても（無駄だ）』という逆接・無益の含みで、後ろに否定的・徒労の結果を要求する。学費という次の課題が『始まる』という展開にはつながらない。",
+        "「受かったなり」は『受かった状態のまま』『受かるやいなや』の意で、『受かったら受かったで』の対比の型を作らず、文意に合わない。",
+        "「受かったから」は『受かったので』という確定した理由で、『受かった場合は受かった場合で』という仮定的な対比のニュアンスを失う。"
+      ],
+      "hiragana_full": "しけんにうかったらうかったで、こんどはがくひのしんぱいがはじまる。",
+      "audio_alternatives": [
+        { "kanji": "試験に受かったら受かったで、学費という次の問題が待っている。", "hiragana_full": "しけんにうかったらうかったで、がくひというつぎのもんだいがまっている。" },
+        { "kanji": "無事合格しても、今度は学費の心配が出てくる。", "hiragana_full": "ぶじごうかくしても、こんどはがくひのしんぱいがでてくる。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "試験", "reading": "しけん", "meaning": "exam" },
+        { "word": "学費", "reading": "がくひ", "meaning": "school fees; tuition" },
+        { "word": "心配", "reading": "しんぱい", "meaning": "worry; concern" }
+      ],
+      "blank_target_reading": "うかったで"
+    },
+    {
+      "id": "n1_124_3",
+      "example_sentence": "子どもが小さいうちは大変だが、大きくなったらなったで、別の悩みが出てくる。",
+      "translation": "Raising kids is hard while they're small, but once they grow up, that stage in turn brings a different set of worries.",
+      "blank_target": "なったで",
+      "wrong_choices": ["なっただけ", "なったきり", "なったところで"],
+      "wrong_choice_explanations": [
+        "「大きくなっただけ」は『大きくなった分だけ』という比例の意で、『成長したらしたで別の悩みが出る』という段階ごとの対比の含みにはならない。",
+        "「大きくなったきり」は『大きくなって、それきり（変化がない）』という〜きりの意で、後続の『別の悩みが出てくる』とつながらない。",
+        "「大きくなったところで」は『大きくなったとしても（無駄だ）』という逆接・無益の含みで、悩みが新たに生じるという展開に合わない。"
+      ],
+      "hiragana_full": "こどもがちいさいうちはたいへんだが、おおきくなったらなったで、べつのなやみがでてくる。",
+      "audio_alternatives": [
+        { "kanji": "子どもは小さいうちも大変だが、大きくなったらなったで手がかかる。", "hiragana_full": "こどもはちいさいうちもたいへんだが、おおきくなったらなったでてがかかる。" },
+        { "kanji": "子育ては、どの時期にもそれぞれの悩みがあるものだ。", "hiragana_full": "こそだては、どのじきにもそれぞれのなやみがあるものだ。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "大変", "reading": "たいへん", "meaning": "tough; hard going" },
+        { "word": "悩み", "reading": "なやみ", "meaning": "worry; trouble" }
+      ]
+    },
+    {
+      "id": "n1_124_4",
+      "example_sentence": "暇なのも退屈だけれど、忙しかったら忙しかったで、休む間もなくてつらい。",
+      "translation": "Being idle is boring, sure, but when you're busy, that's rough in its own way — you don't even get a moment to rest.",
+      "blank_target": "忙しかったで",
+      "wrong_choices": ["忙しかったところで", "忙しかったなり", "忙しかったから"],
+      "wrong_choice_explanations": [
+        "「忙しかったところで」は『忙しかったとしても（無駄だ）』という逆接・無益の意で、後ろに徒労の結果を求める。『休む間もなくてつらい』という実感の描写にはつながらない。",
+        "「忙しかったなり」は『忙しかった状態のまま』の意で、『暇でも忙しくてもそれぞれつらい』という対比の型を作らない。",
+        "「忙しかったから」は『忙しかったので』という確定理由で、仮定的に対比する『〜たら〜たで』のニュアンスが消える。"
+      ],
+      "hiragana_full": "ひまなのもたいくつだけれど、いそがしかったらいそがしかったで、やすむまもなくてつらい。",
+      "audio_alternatives": [
+        { "kanji": "暇でも退屈だし、忙しかったら忙しかったで大変だ。", "hiragana_full": "ひまでもたいくつだし、いそがしかったらいそがしかったでたいへんだ。" },
+        { "kanji": "忙しければ忙しいで、休む暇もなくて参ってしまう。", "hiragana_full": "いそがしければいそがしいで、やすむひまもなくてまいってしまう。" }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        { "word": "暇", "reading": "ひま", "meaning": "free time; being idle" },
+        { "word": "退屈", "reading": "たいくつ", "meaning": "boredom" }
+      ],
+      "blank_target_reading": "いそがしかったで"
+    },
+    {
+      "id": "n1_124_5",
+      "example_sentence": "雨が降ったら降ったで、家でゆっくり読書ができる。",
+      "translation": "If it rains, well, that's fine too in its own way — I can settle in and read at home.",
+      "blank_target": "降ったで",
+      "wrong_choices": ["降っただけ", "降ったところで", "降ったなり"],
+      "wrong_choice_explanations": [
+        "「降っただけ」は『降った分だけ』という比例・数量の意で、『雨なら雨で家の楽しみがある』という対比の含みにはならない。",
+        "「降ったところで」は『降ったとしても（どうにもならない）』という逆接・無益の意で、『家で読書ができる』という前向きな結論と噛み合わない。",
+        "「降ったなり」は『降った状態のまま』『降るやいなや』の意で、『〜たら〜たで』の対比の型を成さない。"
+      ],
+      "hiragana_full": "あめがふったらふったで、いえでゆっくりどくしょができる。",
+      "audio_alternatives": [
+        { "kanji": "雨が降ったら降ったで、それはそれで家で楽しめる。", "hiragana_full": "あめがふったらふったで、それはそれでいえでたのしめる。" },
+        { "kanji": "たとえ雨になっても、家でのんびり本が読めるからいい。", "hiragana_full": "たとえあめになっても、いえでのんびりほんがよめるからいい。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "読書", "reading": "どくしょ", "meaning": "reading (books)" },
+        { "word": "降った", "reading": "ふった", "meaning": "fell (of rain)" }
+      ],
+      "blank_target_reading": "ふったで"
+    },
+    {
+      "id": "n1_124_6",
+      "example_sentence": "優勝できなかったらできなかったで、来年への課題が見えてくる。",
+      "translation": "If we don't win the title, well, even that has its upside — the tasks to work on for next year become clear.",
+      "blank_target": "できなかったで",
+      "wrong_choices": ["できなかったから", "できなかったところで", "できなかったなり"],
+      "wrong_choice_explanations": [
+        "「できなかったから」は『できなかったので』という確定理由で、『優勝できなければできないで』という仮定的な対比のニュアンスにならない。",
+        "「できなかったところで」は『できなかったとしても（無駄だ）』という逆接・無益の意で、『課題が見えてくる』という前向きな帰結に合わない。",
+        "「できなかったなり」は『できなかった状態のまま』の意で、『〜たら〜たで』の対比構文を作らない。"
+      ],
+      "hiragana_full": "ゆうしょうできなかったらできなかったで、らいねんへのかだいがみえてくる。",
+      "audio_alternatives": [
+        { "kanji": "優勝できなかったらできなかったで、次に向けた反省点が見つかる。", "hiragana_full": "ゆうしょうできなかったらできなかったで、つぎにむけたはんせいてんがみつかる。" },
+        { "kanji": "仮に優勝を逃しても、来年への課題がはっきりする。", "hiragana_full": "かりにゆうしょうをのがしても、らいねんへのかだいがはっきりする。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "優勝", "reading": "ゆうしょう", "meaning": "winning the championship" },
+        { "word": "課題", "reading": "かだい", "meaning": "issue; task to work on" },
+        { "word": "来年", "reading": "らいねん", "meaning": "next year" }
+      ]
+    },
+    {
+      "id": "n1_124_7",
+      "example_sentence": "給料が上がったら上がったで、その分だけ税金も増えるんだよね。",
+      "translation": "When your salary goes up, that in turn has its catch, you know — your taxes go up by just as much.",
+      "blank_target": "上がったで",
+      "wrong_choices": ["上がっただけ", "上がったきり", "上がったから"],
+      "wrong_choice_explanations": [
+        "「上がっただけ」は『上がった分だけ』という比例の意で、この文では『その分だけ税金も増える』と役割が重複してしまい、『上がれば上がったで別の面倒がある』という対比の含みにならない。",
+        "「上がったきり」は『一度上がって、それきり（そのまま）』という〜きりの意で、後続とつながらず不自然。",
+        "「上がったから」は『上がったので』という確定理由で、『〜たら〜たで』の仮定的な対比のニュアンスを失う。"
+      ],
+      "hiragana_full": "きゅうりょうがあがったらあがったで、そのぶんだけぜいきんもふえるんだよね。",
+      "audio_alternatives": [
+        { "kanji": "給料が上がったら上がったで、税金も増えていくものだ。", "hiragana_full": "きゅうりょうがあがったらあがったで、ぜいきんもふえていくものだ。" },
+        { "kanji": "収入が増えれば増えたで、その分手取りは思ったより伸びない。", "hiragana_full": "しゅうにゅうがふえればふえたで、そのぶんてどりはおもったよりのびない。" }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        { "word": "給料", "reading": "きゅうりょう", "meaning": "salary; pay" },
+        { "word": "税金", "reading": "ぜいきん", "meaning": "tax" },
+        { "word": "増える", "reading": "ふえる", "meaning": "to increase" }
+      ],
+      "blank_target_reading": "あがったで"
+    },
+    {
+      "id": "n1_124_8",
+      "example_sentence": "田舎暮らしは不便だが、都会に住んだら住んだで、家賃の高さに驚くことになる。",
+      "translation": "Country life is inconvenient, but move to the city and that has its own shock — you're taken aback by how high the rent is.",
+      "blank_target": "住んだで",
+      "wrong_choices": ["住んだところで", "住んだなり", "住んだから"],
+      "wrong_choice_explanations": [
+        "「住んだところで」は『住んだとしても（意味がない）』という逆接・無益の意で、後ろに徒労の結果を求める。『家賃の高さに驚く』という展開にはつながらない。",
+        "「住んだなり」は『住んだ状態のまま』『住むやいなや』の意で、『田舎も不便、都会も都会で大変』という対比の型を作らない。",
+        "「住んだから」は『住んだので』という確定理由で、『〜たら〜たで』の仮定的な対比のニュアンスにならない。"
+      ],
+      "hiragana_full": "いなかぐらしはふべんだが、とかいにすんだらすんだで、やちんのたかさにおどろくことになる。",
+      "audio_alternatives": [
+        { "kanji": "田舎は不便だが、都会に住んだら住んだで家賃に驚かされる。", "hiragana_full": "いなかはふべんだが、とかいにすんだらすんだでやちんにおどろかされる。" },
+        { "kanji": "都会暮らしを始めると、今度は家賃の高さに悩まされる。", "hiragana_full": "とかいぐらしをはじめると、こんどはやちんのたかさになやまされる。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "田舎", "reading": "いなか", "meaning": "countryside; rural area" },
+        { "word": "都会", "reading": "とかい", "meaning": "city; urban area" },
+        { "word": "家賃", "reading": "やちん", "meaning": "rent" },
+        { "word": "不便", "reading": "ふべん", "meaning": "inconvenient" }
+      ],
+      "blank_target_reading": "すんだで"
+    },
+    {
+      "id": "n1_124_9",
+      "example_sentence": "彼に断られたら断られたで、また別の人に頼めばいいだけの話だ。",
+      "translation": "If he turns me down, then he turns me down — it just means I ask someone else, that's all.",
+      "blank_target": "断られたで",
+      "wrong_choices": ["断られたところで", "断られたなり", "断られたから"],
+      "wrong_choice_explanations": [
+        "「断られたところで」は『断られたとしても（どうということはない）』という逆接・無益寄りの意で近く感じるが、『断られた場合は断られた場合で対処すればよい』という〜たら〜たでの割り切りの型とはずれる。",
+        "「断られたなり」は『断られた状態のまま』の意で、後続の『別の人に頼めばいい』という対応の話につながらない。",
+        "「断られたから」は『断られたので』という確定理由で、まだ起きていない事態を仮定して割り切る『〜たら〜たで』の含みを失う。"
+      ],
+      "hiragana_full": "かれにことわられたらことわられたで、またべつのひとにたのめばいいだけのはなしだ。",
+      "audio_alternatives": [
+        { "kanji": "彼に断られたら断られたで、他の人に頼めばいいだけだ。", "hiragana_full": "かれにことわられたらことわられたで、ほかのひとにたのめばいいだけだ。" },
+        { "kanji": "もし彼が引き受けてくれなくても、別の人を当たれば済む。", "hiragana_full": "もしかれがひきうけてくれなくても、べつのひとをあたればすむ。" }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        { "word": "頼めば", "reading": "たのめば", "meaning": "if one asks/requests" },
+        { "word": "別", "reading": "べつ", "meaning": "another; different" }
+      ],
+      "blank_target_reading": "ことわられたで"
+    },
+    {
+      "id": "n1_124_10",
+      "example_sentence": "資料が多すぎるのも困るが、少なかったら少なかったで、説得力に欠けてしまう。",
+      "translation": "Too much material is a problem, but if there's too little, that fails in its own way — the argument ends up unconvincing.",
+      "blank_target": "少なかったで",
+      "wrong_choices": ["少なかっただけ", "少なかったところで", "少なかったなり"],
+      "wrong_choice_explanations": [
+        "「少なかっただけ」は『少なかった分だけ』という比例の意で、『多すぎても困るが少なければ少ないで別の難がある』という対比の含みにはならない。",
+        "「少なかったところで」は『少なかったとしても（意味がない）』という逆接・無益の意で、『説得力に欠けてしまう』という因果的な帰結と噛み合わない。",
+        "「少なかったなり」は『少なかった状態のまま』の意で、『〜たら〜たで』の対比の型を作らない。"
+      ],
+      "hiragana_full": "しりょうがおおすぎるのもこまるが、すくなかったらすくなかったで、せっとくりょくにかけてしまう。",
+      "audio_alternatives": [
+        { "kanji": "資料は多すぎても困るが、少なかったら少なかったで説得力を欠く。", "hiragana_full": "しりょうはおおすぎてもこまるが、すくなかったらすくなかったでせっとくりょくをかく。" },
+        { "kanji": "データが乏しければ乏しいで、主張の裏付けが弱くなってしまう。", "hiragana_full": "でーたがとぼしければとぼしいで、しゅちょうのうらづけがよわくなってしまう。" }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        { "word": "資料", "reading": "しりょう", "meaning": "materials; documents; data" },
+        { "word": "説得力", "reading": "せっとくりょく", "meaning": "persuasiveness" },
+        { "word": "欠けて", "reading": "かけて", "meaning": "to lack; to be missing" }
+      ],
+      "blank_target_reading": "すくなかったで"
+    }
+  ]
+}

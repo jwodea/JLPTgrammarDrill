@@ -26,6 +26,8 @@ struct JLPTGrammarDrillApp: App {
                 fatalError("Failed to create ModelContainer after store reset: \(error)")
             }
         }
+        // One-time re-keying of saved progress after the 2026-10 corpus merge.
+        IDMigration.runIfNeeded(container: modelContainer)
     }
 
     var body: some Scene {

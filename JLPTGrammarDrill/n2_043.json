@@ -30,38 +30,18 @@
           "hiragana_full": "かれのことばはじょうだんにすぎません"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "冗談",
+          "reading": "じょうだん",
+          "meaning": "joke"
+        }
+      ]
     },
     {
       "id": "n2_043_2",
-      "example_sentence": "この結果は偶然にすぎず、実力ではない。",
-      "translation": "This result is merely coincidence, not skill.",
-      "blank_target": "にすぎず",
-      "wrong_choices": [
-        "ばかりで",
-        "だけで",
-        "に違いなく"
-      ],
-      "wrong_choice_explanations": [
-        "ばかりで indicates doing nothing but one thing continuously, which doesn't fit the context of dismissing a result as 'mere coincidence.'",
-        "だけで simply means 'only with' or 'just by' but lacks the dismissive nuance that にすぎない provides in this context.",
-        "に違いなく means 'surely' or 'without doubt' which expresses certainty, completely opposite to the dismissive tone needed here."
-      ],
-      "hiragana_full": "このけっかはぐうぜんにすぎず、じつりょくではない。",
-      "audio_alternatives": [
-        {
-          "kanji": "この結果は偶然に過ぎず、実力によるものではない。",
-          "hiragana_full": "このけっかはぐうぜんにすぎず、じつりょくによるものではない。"
-        },
-        {
-          "kanji": "この結果は単なる偶然であり、実力ではない。",
-          "hiragana_full": "このけっかはたんなるぐうぜんであり、じつりょくではない。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_043_3",
       "example_sentence": "彼女の成功は運にすぎないと思う。",
       "translation": "I think her success is nothing more than luck.",
       "blank_target": "にすぎない",
@@ -86,10 +66,23 @@
           "hiragana_full": "かのじょのせいこうはただのうんにすぎないとおもう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "運",
+          "reading": "うん",
+          "meaning": "luck"
+        },
+        {
+          "word": "成功",
+          "reading": "せいこう",
+          "meaning": "success"
+        }
+      ]
     },
     {
-      "id": "n2_043_4",
+      "id": "n2_043_3",
       "example_sentence": "今回のテストは練習にすぎず、本番ではない。",
       "translation": "Today's test is merely practice, not the real thing.",
       "blank_target": "にすぎず",
@@ -114,10 +107,18 @@
           "hiragana_full": "こんかいのテストはただのれんしゅうで、ほんばんではない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "本番",
+          "reading": "ほんばん",
+          "meaning": "the real thing"
+        }
+      ]
     },
     {
-      "id": "n2_043_5",
+      "id": "n2_043_4",
       "example_sentence": "それは推測にすぎず、事実は分からない。",
       "translation": "That's merely speculation; the facts are unknown.",
       "blank_target": "にすぎず",
@@ -142,10 +143,23 @@
           "hiragana_full": "それはすいそくにすぎず、しんじつはふめいである。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "推測",
+          "reading": "すいそく",
+          "meaning": "speculation"
+        },
+        {
+          "word": "事実",
+          "reading": "じじつ",
+          "meaning": "fact"
+        }
+      ]
     },
     {
-      "id": "n2_043_6",
+      "id": "n2_043_5",
       "example_sentence": "この映画は娯楽にすぎず、芸術作品ではない。",
       "translation": "This movie is merely entertainment, not a work of art.",
       "blank_target": "にすぎず",
@@ -170,10 +184,28 @@
           "hiragana_full": "このえいがはたんなるごらくであり、げいじゅつさくひんではない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "娯楽",
+          "reading": "ごらく",
+          "meaning": "entertainment"
+        },
+        {
+          "word": "芸術",
+          "reading": "げいじゅつ",
+          "meaning": "art"
+        },
+        {
+          "word": "作品",
+          "reading": "さくひん",
+          "meaning": "work"
+        }
+      ]
     },
     {
-      "id": "n2_043_7",
+      "id": "n2_043_6",
       "example_sentence": "彼の提案は理想論にすぎない。",
       "translation": "His proposal is nothing more than idealism.",
       "blank_target": "にすぎない",
@@ -198,10 +230,23 @@
           "hiragana_full": "かれのていあんはたんなるりそうろんだ"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "提案",
+          "reading": "ていあん",
+          "meaning": "proposal"
+        },
+        {
+          "word": "理想論",
+          "reading": "りそうろん",
+          "meaning": "idealistic argument"
+        }
+      ]
     },
     {
-      "id": "n2_043_8",
+      "id": "n2_043_7",
       "example_sentence": "この程度の雨は小雨にすぎない。",
       "translation": "This level of rain is merely a light shower.",
       "blank_target": "にすぎない",
@@ -226,10 +271,23 @@
           "hiragana_full": "このあめはこさめにすぎない"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "程度",
+          "reading": "ていど",
+          "meaning": "degree/extent"
+        },
+        {
+          "word": "小雨",
+          "reading": "こさめ",
+          "meaning": "light rain"
+        }
+      ]
     },
     {
-      "id": "n2_043_9",
+      "id": "n2_043_8",
       "example_sentence": "これは一時的な現象にすぎず、永続的ではない。",
       "translation": "This is merely a temporary phenomenon, not permanent.",
       "blank_target": "にすぎず",
@@ -254,10 +312,28 @@
           "hiragana_full": "これはたんなるいちじてきなげんしょうであり、えいぞくてきなものではない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "一時的",
+          "reading": "いちじてき",
+          "meaning": "temporary"
+        },
+        {
+          "word": "現象",
+          "reading": "げんしょう",
+          "meaning": "phenomenon"
+        },
+        {
+          "word": "永続的",
+          "reading": "えいぞくてき",
+          "meaning": "permanent/lasting"
+        }
+      ]
     },
     {
-      "id": "n2_043_10",
+      "id": "n2_043_9",
       "example_sentence": "私の意見は個人的な感想にすぎません。",
       "translation": "My opinion is nothing more than a personal impression.",
       "blank_target": "にすぎません",
@@ -282,7 +358,56 @@
           "hiragana_full": "わたしのいけんはこじんてきなかんそうにすぎないです"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "個人的",
+          "reading": "こじんてき",
+          "meaning": "personal"
+        },
+        {
+          "word": "感想",
+          "reading": "かんそう",
+          "meaning": "impression/thoughts"
+        }
+      ]
+    },
+    {
+      "id": "n2_043_10",
+      "example_sentence": "これは一つの可能性にすぎない。",
+      "translation": "This is merely one possibility.",
+      "blank_target": "にすぎない",
+      "wrong_choices": [
+        "にちがいない",
+        "ばかりだ",
+        "にほかならない"
+      ],
+      "wrong_choice_explanations": [
+        "にちがいない means 'must be/certainly' which expresses certainty, not the modest dismissal that にすぎない conveys here.",
+        "ばかりだ means 'nothing but/keep doing' and doesn't grammatically fit with 可能性 in this context.",
+        "にほかならない emphasizes that something IS exactly what is stated, contradicting the modest tone needed here."
+      ],
+      "hiragana_full": "これはひとつのかのうせいにすぎない",
+      "audio_alternatives": [
+        {
+          "kanji": "これは一つの可能性に過ぎない。",
+          "hiragana_full": "これはひとつのかのうせいにすぎない"
+        },
+        {
+          "kanji": "これは単なる一つの可能性だ。",
+          "hiragana_full": "これはたんなるひとつのかのうせいだ"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "可能性",
+          "reading": "かのうせい",
+          "meaning": "possibility"
+        }
+      ]
     }
   ]
 }

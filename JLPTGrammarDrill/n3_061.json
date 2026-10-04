@@ -30,35 +30,20 @@
           "hiragana_full": "せんぱいのおかげで、ないていがもらえました。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_061_10",
-      "example_sentence": "チーム全体のサポートのおかげで、目標達成できました。",
-      "translation": "Thanks to the entire team's support, we achieved our goal.",
-      "blank_target": "のおかげで",
-      "wrong_choices": [
-        "のせいで",
-        "のために",
-        "によって"
-      ],
-      "wrong_choice_explanations": [
-        "のせいで blames a cause for a bad result, but reaching the goal is positive—おかげで credits the whole team's support gratefully.",
-        "のために reads as 'for the purpose of' the team's support, but the sentence credits that support as the reason the goal was reached, which おかげで conveys.",
-        "によって gives a neutral 'by means of' the support; it's grammatical but loses the gratitude that おかげで adds to the team's help."
-      ],
-      "hiragana_full": "チームぜんたいのサポートのおかげで、もくひょうたっせいできました。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "チーム全体のサポートがあったおかげで、目標を達成することができました。",
-          "hiragana_full": "チームぜんたいのサポートがあったおかげで、もくひょうをたっせいすることができました。"
+          "word": "先輩",
+          "reading": "せんぱい",
+          "meaning": "senior colleague"
         },
         {
-          "kanji": "チーム全体に支えてもらったおかげで、目標を達成できました。",
-          "hiragana_full": "チームぜんたいにささえてもらったおかげで、もくひょうをたっせいできました。"
+          "word": "内定",
+          "reading": "ないてい",
+          "meaning": "informal job offer"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
       "id": "n3_061_2",
@@ -86,7 +71,20 @@
           "hiragana_full": "じょうしのあどばいすがあったので、だいしっぱいをふせぐことができました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "上司",
+          "reading": "じょうし",
+          "meaning": "boss"
+        },
+        {
+          "word": "防ぐ",
+          "reading": "ふせぐ",
+          "meaning": "to prevent"
+        }
+      ]
     },
     {
       "id": "n3_061_3",
@@ -114,7 +112,20 @@
           "hiragana_full": "ともだちのおかげで、すてきなたびができました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "素晴らしい",
+          "reading": "すばらしい",
+          "meaning": "wonderful"
+        },
+        {
+          "word": "旅",
+          "reading": "たび",
+          "meaning": "journey"
+        }
+      ]
     },
     {
       "id": "n3_061_4",
@@ -142,7 +153,20 @@
           "hiragana_full": "かれのおかげで、こうふくなじんせいがおくれました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "幸せ",
+          "reading": "しあわせ",
+          "meaning": "happy"
+        },
+        {
+          "word": "人生",
+          "reading": "じんせい",
+          "meaning": "life"
+        }
+      ]
     },
     {
       "id": "n3_061_5",
@@ -170,7 +194,20 @@
           "hiragana_full": "りっちがよいので、みせははんじょうしています。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "立地",
+          "reading": "りっち",
+          "meaning": "location"
+        },
+        {
+          "word": "繁盛",
+          "reading": "はんじょう",
+          "meaning": "thriving"
+        }
+      ]
     },
     {
       "id": "n3_061_6",
@@ -198,7 +235,8 @@
           "hiragana_full": "ひびのれんしゅうのおかげで、しあいでかつことができた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n3_061_7",
@@ -226,7 +264,20 @@
           "hiragana_full": "しょうがくきんのおかげで、りゅうがくできました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "奨学金",
+          "reading": "しょうがくきん",
+          "meaning": "scholarship"
+        },
+        {
+          "word": "留学",
+          "reading": "りゅうがく",
+          "meaning": "studying abroad"
+        }
+      ]
     },
     {
       "id": "n3_061_8",
@@ -254,7 +305,20 @@
           "hiragana_full": "すたっふがきょうりょくしてくれたおかげで、ぷろじぇくとはせいこうしました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "協力",
+          "reading": "きょうりょく",
+          "meaning": "cooperation"
+        },
+        {
+          "word": "成功",
+          "reading": "せいこう",
+          "meaning": "success"
+        }
+      ]
     },
     {
       "id": "n3_061_9",
@@ -282,7 +346,61 @@
           "hiragana_full": "めんたーのさぽーとのおかげで、せいちょうすることができた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "成長",
+          "reading": "せいちょう",
+          "meaning": "growth"
+        }
+      ]
+    },
+    {
+      "id": "n3_061_10",
+      "example_sentence": "チーム全体のサポートのおかげで、目標達成できました。",
+      "translation": "Thanks to the entire team's support, we achieved our goal.",
+      "blank_target": "のおかげで",
+      "wrong_choices": [
+        "のせいで",
+        "のために",
+        "によって"
+      ],
+      "wrong_choice_explanations": [
+        "のせいで blames a cause for a bad result, but reaching the goal is positive—おかげで credits the whole team's support gratefully.",
+        "のために reads as 'for the purpose of' the team's support, but the sentence credits that support as the reason the goal was reached, which おかげで conveys.",
+        "によって gives a neutral 'by means of' the support; it's grammatical but loses the gratitude that おかげで adds to the team's help."
+      ],
+      "hiragana_full": "チームぜんたいのサポートのおかげで、もくひょうたっせいできました。",
+      "audio_alternatives": [
+        {
+          "kanji": "チーム全体のサポートがあったおかげで、目標を達成することができました。",
+          "hiragana_full": "チームぜんたいのサポートがあったおかげで、もくひょうをたっせいすることができました。"
+        },
+        {
+          "kanji": "チーム全体に支えてもらったおかげで、目標を達成できました。",
+          "hiragana_full": "チームぜんたいにささえてもらったおかげで、もくひょうをたっせいできました。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "全体",
+          "reading": "ぜんたい",
+          "meaning": "whole"
+        },
+        {
+          "word": "目標",
+          "reading": "もくひょう",
+          "meaning": "goal"
+        },
+        {
+          "word": "達成",
+          "reading": "たっせい",
+          "meaning": "achievement"
+        }
+      ]
     }
   ]
 }

@@ -30,7 +30,20 @@
           "hiragana_full": "となりのへやからへんなおとがきこえる。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "隣",
+          "reading": "となり",
+          "meaning": "next door"
+        },
+        {
+          "word": "変な",
+          "reading": "へんな",
+          "meaning": "strange"
+        }
+      ]
     },
     {
       "id": "n4_115_2",
@@ -58,7 +71,20 @@
           "hiragana_full": "このすーぷ、こげたようなかんじがする。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "焦げた",
+          "reading": "こげた",
+          "meaning": "burnt"
+        },
+        {
+          "word": "味",
+          "reading": "あじ",
+          "meaning": "taste"
+        }
+      ]
     },
     {
       "id": "n4_115_3",
@@ -86,7 +112,20 @@
           "hiragana_full": "だいどころからなんだかいいにおいがしてくる。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "台所",
+          "reading": "だいどころ",
+          "meaning": "kitchen"
+        },
+        {
+          "word": "匂い",
+          "reading": "におい",
+          "meaning": "smell"
+        }
+      ]
     },
     {
       "id": "n4_115_4",
@@ -95,12 +134,12 @@
       "blank_target": "がする",
       "wrong_choices": [
         "をする",
-        "がある",
+        "がでる",
         "になる"
       ],
       "wrong_choice_explanations": [
         "をする would mean the speaker is actively performing a premonition; premonitions arise, they aren't deliberately done.",
-        "がある simply asserts the existence of a premonition; がする conveys the speaker actually sensing it now.",
+        "がでる describes something physically emerging from a source (a leaking sound or smell); a premonition arises within the speaker and is sensed, so 予感が出る is not said, while がする expresses intuiting it now.",
         "になる describes becoming a premonition, which doesn't match the speaker's current intuition rising in her."
       ],
       "hiragana_full": "なんだかいやなよかんがする。",
@@ -114,7 +153,25 @@
           "hiragana_full": "なんだかいいよかんはしない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "予感",
+          "reading": "よかん",
+          "meaning": "premonition; feeling"
+        },
+        {
+          "word": "嫌な",
+          "reading": "いやな",
+          "meaning": "unpleasant"
+        },
+        {
+          "word": "なんだか",
+          "reading": "なんだか",
+          "meaning": "somehow"
+        }
+      ]
     },
     {
       "id": "n4_115_5",
@@ -142,7 +199,15 @@
           "hiragana_full": "けさからからだがひえるようなかんじがする。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "寒気",
+          "reading": "さむけ",
+          "meaning": "chill; shivers"
+        }
+      ]
     },
     {
       "id": "n4_115_6",
@@ -170,7 +235,20 @@
           "hiragana_full": "このはな、あまいにおいがしてくる。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "甘い",
+          "reading": "あまい",
+          "meaning": "sweet"
+        },
+        {
+          "word": "香り",
+          "reading": "かおり",
+          "meaning": "fragrance"
+        }
+      ]
     },
     {
       "id": "n4_115_7",
@@ -198,7 +276,15 @@
           "hiragana_full": "しせんをかんじるきがする。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "見られている",
+          "reading": "みられている",
+          "meaning": "being watched"
+        }
+      ]
     },
     {
       "id": "n4_115_8",
@@ -226,7 +312,15 @@
           "hiragana_full": "このおちゃ、いつもよりにがいあじがする。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "苦い",
+          "reading": "にがい",
+          "meaning": "bitter"
+        }
+      ]
     },
     {
       "id": "n4_115_9",
@@ -254,7 +348,20 @@
           "hiragana_full": "なにかこげているようなにおいがしない？"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "焦げた",
+          "reading": "こげた",
+          "meaning": "burnt"
+        },
+        {
+          "word": "匂い",
+          "reading": "におい",
+          "meaning": "smell"
+        }
+      ]
     },
     {
       "id": "n4_115_10",
@@ -263,12 +370,12 @@
       "blank_target": "がする",
       "wrong_choices": [
         "をする",
-        "がある",
+        "が治る",
         "になる"
       ],
       "wrong_choice_explanations": [
         "をする would mean the speaker is performing the headache; pain is sensed, not actively done.",
-        "がある simply states a headache exists; がする emphasizes the speaker's present experience of the pain.",
+        "が治る means the headache heals and goes away — the opposite of the speaker currently suffering one; がする reports the present sensation of pain.",
         "になる suggests becoming a headache as a transition, rather than the active perception of one now."
       ],
       "hiragana_full": "かぜをひいたみたいで、ずつうがする。",
@@ -282,7 +389,20 @@
           "hiragana_full": "かぜぎみで、ちょっとずつうがしている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "風邪",
+          "reading": "かぜ",
+          "meaning": "cold (illness)"
+        },
+        {
+          "word": "頭痛",
+          "reading": "ずつう",
+          "meaning": "headache"
+        }
+      ]
     }
   ]
 }

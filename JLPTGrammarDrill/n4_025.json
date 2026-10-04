@@ -10,12 +10,12 @@
       "translation": "I want to decide after thinking it over carefully.",
       "blank_target": "上で",
       "wrong_choices": [
-        "あとで",
+        "かわりに",
         "ときに",
         "間に"
       ],
       "wrong_choice_explanations": [
-        "あとで means 'after' in a simple temporal sense — 上で emphasizes that the thinking is a necessary step before deciding.",
+        "かわりに would mean the deciding is offered in place of the thinking — but the thinking is the basis the decision rests on, which is what 上で marks.",
         "ときに means 'when' — it doesn't fit because we're emphasizing the process of thinking as preparation, not just timing.",
         "間に means 'during' or 'while' — it doesn't work because we want to decide after thinking is complete, not during the thinking process."
       ],
@@ -31,79 +31,22 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "うえで"
+      "blank_target_reading": "うえで",
+      "register": "neutral"
     },
     {
       "id": "n4_025_2",
-      "example_sentence": "医者と相談した上で、手術を受けることにした。",
-      "translation": "After consulting with the doctor, I decided to have surgery.",
-      "blank_target": "上で",
-      "wrong_choices": [
-        "結果",
-        "ために",
-        "ので"
-      ],
-      "wrong_choice_explanations": [
-        "結果 means 'result' — it doesn't form the correct grammar pattern and doesn't emphasize the consultation as a necessary step.",
-        "ために means 'for the purpose of' — it doesn't fit because we're describing sequential actions, not stating the purpose of consulting.",
-        "ので indicates reason — while the consultation influenced the decision, 上で better emphasizes the proper procedure of consulting first."
-      ],
-      "hiragana_full": "いしゃとそうだんしたうえで、しゅじゅつをうけることにした。",
-      "audio_alternatives": [
-        {
-          "kanji": "医者に相談してから、手術を受けることにした。",
-          "hiragana_full": "いしゃにそうだんしてから、しゅじゅつをうけることにした。"
-        },
-        {
-          "kanji": "医者と話し合った後で、手術を受けることに決めた。",
-          "hiragana_full": "いしゃとはなしあったあとで、しゅじゅつをうけることにきめた。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "うえで"
-    },
-    {
-      "id": "n4_025_3",
-      "example_sentence": "資料を調べた上で、レポートを書いた。",
-      "translation": "After researching the materials, I wrote the report.",
-      "blank_target": "上で",
-      "wrong_choices": [
-        "ところ",
-        "ばかり",
-        "ついでに"
-      ],
-      "wrong_choice_explanations": [
-        "ところ means 'place' or 'just did' — it doesn't emphasize the research as a necessary foundation for writing like 上で does.",
-        "ばかり means 'just did' or 'only' — it doesn't fit because we're emphasizing proper sequence, not recency or exclusivity.",
-        "ついでに means 'while at it' — it doesn't work because researching and writing are separate sequential steps, not simultaneous actions."
-      ],
-      "hiragana_full": "しりょうをしらべたうえで、れぽーとをかいた。",
-      "audio_alternatives": [
-        {
-          "kanji": "資料を調べてから、レポートを書いた。",
-          "hiragana_full": "しりょうをしらべてから、れぽーとをかいた。"
-        },
-        {
-          "kanji": "資料を調べた後で、レポートを書いた。",
-          "hiragana_full": "しりょうをしらべたあとで、れぽーとをかいた。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "うえで"
-    },
-    {
-      "id": "n4_025_4",
       "example_sentence": "家族と話し合った上で、引っ越すことにした。",
       "translation": "After discussing with my family, I decided to move.",
       "blank_target": "上で",
       "wrong_choices": [
-        "末に",
-        "際に",
+        "くせに",
+        "まま",
         "途中で"
       ],
       "wrong_choice_explanations": [
-        "末に means 'at the end of' — while similar, 上で better emphasizes the discussion as a proper step in decision-making.",
-        "際に means 'on the occasion of' — it doesn't fit because we're emphasizing the discussion as preparation, not just timing.",
+        "くせに means 'even though' with reproach and expects an outcome that betrays the first clause; deciding to move after a family discussion is the natural continuation, not a betrayal — 上で marks the discussion as its basis.",
+        "まま carries a state unchanged into the next action (靴を履いたまま) — 話し合ったまま would oddly freeze the discussion as a lingering state; 上で presents it as a completed step the decision builds on.",
         "途中で means 'in the middle of' — it doesn't work because the decision came after the discussion was complete, not during it."
       ],
       "hiragana_full": "かぞくとはなしあったうえで、ひっこすことにした。",
@@ -118,69 +61,66 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "うえで"
-    },
-    {
-      "id": "n4_025_5",
-      "example_sentence": "彼の意見を聞いた上で、計画を変更した。",
-      "translation": "After hearing his opinion, I changed the plan.",
-      "blank_target": "上で",
-      "wrong_choices": [
-        "ことで",
-        "おかげで",
-        "ところ"
-      ],
-      "wrong_choice_explanations": [
-        "ことで indicates means or method — it doesn't emphasize the proper sequence of listening before changing like 上で does.",
-        "おかげで means 'thanks to' — while his opinion helped, 上で better shows the procedural aspect of listening first.",
-        "ところ (聞いたところ) means 'upon hearing his opinion, …' — it marks the change as an immediate response to hearing, not a decision made deliberately on the basis of it, which is what 上で conveys."
-      ],
-      "hiragana_full": "かれのいけんをきいたうえで、けいかくをへんこうした。",
-      "audio_alternatives": [
+      "blank_target_reading": "うえで",
+      "register": "casual",
+      "vocab": [
         {
-          "kanji": "彼の意見を聞いてから、計画を変更した。",
-          "hiragana_full": "かれのいけんをきいてから、けいかくをへんこうした。"
+          "word": "話し合った",
+          "reading": "はなしあった",
+          "meaning": "discussed"
         },
         {
-          "kanji": "彼の意見を聞いた後で、計画を変更した。",
-          "hiragana_full": "かれのいけんをきいたあとで、けいかくをへんこうした。"
+          "word": "引っ越す",
+          "reading": "ひっこす",
+          "meaning": "move (house)"
         }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "うえで"
+      ]
     },
     {
-      "id": "n4_025_6",
-      "example_sentence": "十分練習した上で、発表に臨んだ。",
-      "translation": "After practicing sufficiently, I faced the presentation.",
+      "id": "n4_025_3",
+      "example_sentence": "十分練習した上で、発表をした。",
+      "translation": "After practicing thoroughly, I gave the presentation.",
       "blank_target": "上で",
       "wrong_choices": [
-        "あと",
-        "から",
+        "せいで",
+        "わりに",
         "まま"
       ],
       "wrong_choice_explanations": [
-        "あと means 'after' but lacks the emphasis on proper procedure that 上で provides in this context.",
-        "から means 'from' or 'since' — it doesn't fit because we need to show completed preparation before the presentation.",
-        "まま means 'as is' or 'while' — it doesn't work because we're showing completion of practice before facing the presentation."
+        "せいで blames a cause for a bad result — practicing thoroughly is not a fault, and giving the presentation is not a misfortune; 上で marks the practice as completed preparation.",
+        "わりに means 'considering / for' and needs a mismatch between degree and outcome (安いわりにおいしい); practicing and then presenting is a planned sequence, not a contrast.",
+        "まま means 'as is' or 'while (unchanged)' — it can't show that the practice was finished as a step before the presentation."
       ],
-      "hiragana_full": "じゅうぶんれんしゅうしたうえで、はっぴょうにのぞんだ。",
+      "hiragana_full": "じゅうぶんれんしゅうしたうえで、はっぴょうをした。",
       "audio_alternatives": [
         {
-          "kanji": "十分練習してから、発表に臨んだ。",
-          "hiragana_full": "じゅうぶんれんしゅうしてから、はっぴょうにのぞんだ。"
+          "kanji": "十分練習してから、発表をした。",
+          "hiragana_full": "じゅうぶんれんしゅうしてから、はっぴょうをした。"
         },
         {
-          "kanji": "十分練習した後で、発表に臨んだ。",
-          "hiragana_full": "じゅうぶんれんしゅうしたあとで、はっぴょうにのぞんだ。"
+          "kanji": "十分練習した後で、発表をした。",
+          "hiragana_full": "じゅうぶんれんしゅうしたあとで、はっぴょうをした。"
         }
       ],
       "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "十分",
+          "reading": "じゅうぶん",
+          "meaning": "sufficiently, thoroughly"
+        },
+        {
+          "word": "発表",
+          "reading": "はっぴょう",
+          "meaning": "presentation"
+        }
+      ],
       "blank_target_reading": "うえで"
     },
     {
-      "id": "n4_025_7",
-      "example_sentence": "価格を比較した上で、この商品を選んだ。",
+      "id": "n4_025_4",
+      "example_sentence": "値段を比べた上で、この商品を選んだ。",
       "translation": "After comparing prices, I chose this product.",
       "blank_target": "上で",
       "wrong_choices": [
@@ -189,109 +129,297 @@
         "なら"
       ],
       "wrong_choice_explanations": [
-        "せいで means 'because of' (negative) — it doesn't fit because price comparison is a positive step, not a problem.",
-        "わりに means 'considering' or 'for' — it doesn't emphasize the sequential nature of comparing then choosing.",
-        "なら means 'if' — it doesn't work because we're describing completed actions, not hypothetical conditions."
+        "せいで means 'because of' (something bad) — comparing prices is a sensible step, not a problem that caused a bad result.",
+        "わりに means 'considering' and needs a mismatch (高いわりに…); here comparing prices is simply the step done before choosing.",
+        "なら means 'if' — it can't follow a completed action like 比べた to describe what was actually done before choosing."
       ],
-      "hiragana_full": "かかくをひかくしたうえで、このしょうひんをえらんだ。",
+      "hiragana_full": "ねだんをくらべたうえで、このしょうひんをえらんだ。",
       "audio_alternatives": [
         {
-          "kanji": "価格を比べてから、この商品を選んだ。",
-          "hiragana_full": "かかくをくらべてから、このしょうひんをえらんだ。"
+          "kanji": "値段を比べてから、この商品を選んだ。",
+          "hiragana_full": "ねだんをくらべてから、このしょうひんをえらんだ。"
         },
         {
-          "kanji": "値段を比較した後で、この商品を選びました。",
-          "hiragana_full": "ねだんをひかくしたあとで、このしょうひんをえらびました。"
+          "kanji": "値段を比べた後で、この商品を選びました。",
+          "hiragana_full": "ねだんをくらべたあとで、このしょうひんをえらびました。"
         }
       ],
       "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "値段",
+          "reading": "ねだん",
+          "meaning": "price"
+        },
+        {
+          "word": "比べた",
+          "reading": "くらべた",
+          "meaning": "compared"
+        },
+        {
+          "word": "商品",
+          "reading": "しょうひん",
+          "meaning": "product, goods"
+        }
+      ],
+      "blank_target_reading": "うえで"
+    },
+    {
+      "id": "n4_025_5",
+      "example_sentence": "みんなの都合を聞いた上で、パーティーの日を決めた。",
+      "translation": "After asking everyone when they were free, I decided the day of the party.",
+      "blank_target": "上で",
+      "wrong_choices": [
+        "くせに",
+        "わりに",
+        "せいで"
+      ],
+      "wrong_choice_explanations": [
+        "くせに criticizes someone for acting against what is expected ('even though…'); asking everyone first and then deciding is not something to blame.",
+        "わりに means 'considering / for' and needs a mismatch of degree; asking and then deciding is a sequence, not a contrast.",
+        "せいで blames a cause for a bad result; deciding the party day is not a misfortune caused by asking."
+      ],
+      "hiragana_full": "みんなのつごうをきいたうえで、パーティーのひをきめた。",
+      "audio_alternatives": [
+        {
+          "kanji": "みんなの都合を聞いてから、パーティーの日を決めた。",
+          "hiragana_full": "みんなのつごうをきいてから、パーティーのひをきめた。"
+        },
+        {
+          "kanji": "みんなの都合を聞いた後で、パーティーの日を決めた。",
+          "hiragana_full": "みんなのつごうをきいたあとで、パーティーのひをきめた。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "都合",
+          "reading": "つごう",
+          "meaning": "convenience, availability"
+        },
+        {
+          "word": "決めた",
+          "reading": "きめた",
+          "meaning": "decided"
+        }
+      ],
+      "blank_target_reading": "うえで"
+    },
+    {
+      "id": "n4_025_6",
+      "example_sentence": "先生に相談した上で、留学を決めた。",
+      "translation": "After consulting my teacher, I decided to study abroad.",
+      "blank_target": "上で",
+      "wrong_choices": [
+        "くせに",
+        "かわりに",
+        "わりに"
+      ],
+      "wrong_choice_explanations": [
+        "くせに criticizes ('even though…'); consulting a teacher before deciding is sensible, not something to blame.",
+        "かわりに means 'instead of / in exchange for'; consulting is not a substitute for deciding — it is the step done first.",
+        "わりに needs a mismatch between degree and result; here consulting simply comes before the decision."
+      ],
+      "hiragana_full": "せんせいにそうだんしたうえで、りゅうがくをきめた。",
+      "audio_alternatives": [
+        {
+          "kanji": "先生に相談してから、留学を決めた。",
+          "hiragana_full": "せんせいにそうだんしてから、りゅうがくをきめた。"
+        },
+        {
+          "kanji": "先生に相談した後で、留学することにした。",
+          "hiragana_full": "せんせいにそうだんしたあとで、りゅうがくすることにした。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "相談した",
+          "reading": "そうだんした",
+          "meaning": "consulted"
+        },
+        {
+          "word": "留学",
+          "reading": "りゅうがく",
+          "meaning": "studying abroad"
+        }
+      ],
+      "blank_target_reading": "うえで"
+    },
+    {
+      "id": "n4_025_7",
+      "example_sentence": "説明をよく読んだ上で、申し込んでください。",
+      "translation": "Please apply after reading the explanation carefully.",
+      "blank_target": "上で",
+      "wrong_choices": [
+        "ために",
+        "くせに",
+        "かわりに"
+      ],
+      "wrong_choice_explanations": [
+        "ために gives a purpose or cause; reading the explanation is not the reason for applying but the step required first.",
+        "くせに criticizes someone ('even though…') and can't be used in a polite request like 申し込んでください.",
+        "かわりに means 'instead of'; reading the explanation is not a substitute for applying."
+      ],
+      "hiragana_full": "せつめいをよくよんだうえで、もうしこんでください。",
+      "audio_alternatives": [
+        {
+          "kanji": "説明をよく読んでから、申し込んでください。",
+          "hiragana_full": "せつめいをよくよんでから、もうしこんでください。"
+        },
+        {
+          "kanji": "説明をよく読んだ後で、申し込んでください。",
+          "hiragana_full": "せつめいをよくよんだあとで、もうしこんでください。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "説明",
+          "reading": "せつめい",
+          "meaning": "explanation"
+        },
+        {
+          "word": "申し込んで",
+          "reading": "もうしこんで",
+          "meaning": "apply (te-form of 申し込む)"
+        }
+      ],
       "blank_target_reading": "うえで"
     },
     {
       "id": "n4_025_8",
-      "example_sentence": "アンケートを実施した上で、結果を分析した。",
-      "translation": "After conducting the survey, I analyzed the results.",
-      "blank_target": "上で",
+      "example_sentence": "先輩の意見を聞いた上で、判断する。",
+      "translation": "I will judge after hearing my senior's opinion.",
+      "blank_target": "いた上で",
       "wrong_choices": [
-        "だけで",
-        "ばかりで",
-        "ほど"
+        "いたくせに",
+        "いた上に",
+        "いたきり"
       ],
       "wrong_choice_explanations": [
-        "だけで means 'just by' — it doesn't show the proper sequential relationship between conducting and analyzing.",
-        "ばかりで means 'just by' or 'only' — it doesn't emphasize the methodical sequence that 上で expresses.",
-        "ほど means 'to the extent that' — it doesn't fit because we're showing procedural steps, not degree or extent."
+        "いたくせに expresses reproach ('even though (you) heard...'), implying the judgment betrays the hearing, but the sentence presents hearing the senior's opinion as the proper basis for judging.",
+        "〜た上に means 'on top of / in addition to hearing,' presenting two separate facts; it doesn't convey that the senior's opinion is the basis for the judgment, which is what 上で does.",
+        "〜たきり means 'and then nothing further since' (出かけたきり帰らない) and needs a following negative or unchanged state; 聞いたきり、判断する contradicts itself, whereas 上で marks hearing the opinion as the step before judging."
       ],
-      "hiragana_full": "あんけーとをじっしたうえで、けっかをぶんせきした。",
+      "hiragana_full": "せんぱいのいけんをきいたうえで、はんだんする。",
       "audio_alternatives": [
         {
-          "kanji": "アンケートを行った後で、結果を分析した。",
-          "hiragana_full": "あんけーとをおこなったあとで、けっかをぶんせきした。"
+          "kanji": "先輩の意見を聞いてから、判断する。",
+          "hiragana_full": "せんぱいのいけんをきいてから、はんだんする。"
         },
         {
-          "kanji": "アンケートをしてから、結果を分析した。",
-          "hiragana_full": "あんけーとをしてから、けっかをぶんせきした。"
+          "kanji": "先輩の意見を聞いた後で、判断します。",
+          "hiragana_full": "せんぱいのいけんをきいたあとで、はんだんします。"
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "うえで"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "意見",
+          "reading": "いけん",
+          "meaning": "opinion"
+        },
+        {
+          "word": "判断",
+          "reading": "はんだん",
+          "meaning": "judgment"
+        }
+      ],
+      "blank_target_reading": "いたうえで"
     },
     {
       "id": "n4_025_9",
-      "example_sentence": "専門家の助言を求めた上で、問題を解決した。",
-      "translation": "After seeking expert advice, I solved the problem.",
-      "blank_target": "上で",
+      "example_sentence": "予算を確認した上で、計画を進めましょう。",
+      "translation": "Let's proceed with the plan after confirming the budget.",
+      "blank_target": "した上で",
       "wrong_choices": [
-        "かわりに",
-        "とおりに",
-        "くせに"
+        "したくせに",
+        "したばかりに",
+        "した末に"
       ],
       "wrong_choice_explanations": [
-        "かわりに means 'instead of' — it doesn't fit because seeking advice and solving are sequential, not alternative actions.",
-        "とおりに means 'according to' — it doesn't emphasize the proper sequence of seeking advice before solving like 上で does.",
-        "くせに means 'despite' or 'even though' — it shows contrast, not the positive sequential relationship expressed by 上で."
+        "したくせに expresses reproach ('even though (someone) confirmed...'), which clashes with the cooperative suggestion ましょう; 上で presents the budget check as the necessary first step.",
+        "したばかりに means 'just because (someone) confirmed it, something bad happened'; it needs an unwanted result and cannot lead into a suggestion like 進めましょう.",
+        "〜した末に means 'after a prolonged, difficult process, finally'; confirming a budget carries no such struggle — 上で just marks it as the groundwork for proceeding."
       ],
-      "hiragana_full": "せんもんかのじょげんをもとめたうえで、もんだいをかいけつした。",
+      "hiragana_full": "よさんをかくにんしたうえで、けいかくをすすめましょう。",
       "audio_alternatives": [
         {
-          "kanji": "専門家のアドバイスを求めてから、問題を解決した。",
-          "hiragana_full": "せんもんかのあどばいすをもとめてから、もんだいをかいけつした。"
+          "kanji": "予算を確認してから、計画を進めましょう。",
+          "hiragana_full": "よさんをかくにんしてから、けいかくをすすめましょう。"
         },
         {
-          "kanji": "専門家に助言をもらった後で、問題を解決しました。",
-          "hiragana_full": "せんもんかにじょげんをもらったあとで、もんだいをかいけつしました。"
+          "kanji": "予算を確認した後で、計画を進めましょう。",
+          "hiragana_full": "よさんをかくにんしたあとで、けいかくをすすめましょう。"
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "うえで"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "予算",
+          "reading": "よさん",
+          "meaning": "budget"
+        },
+        {
+          "word": "確認",
+          "reading": "かくにん",
+          "meaning": "confirmation"
+        },
+        {
+          "word": "計画",
+          "reading": "けいかく",
+          "meaning": "plan"
+        }
+      ],
+      "blank_target_reading": "したうえで"
     },
     {
       "id": "n4_025_10",
-      "example_sentence": "契約内容を確認した上で、署名した。",
-      "translation": "After checking the contract details, I signed.",
+      "example_sentence": "両親の許可をもらった上で、アルバイトを始めます。",
+      "translation": "I will start a part-time job after getting my parents' permission.",
       "blank_target": "上で",
       "wrong_choices": [
-        "末に",
-        "ときに",
-        "結果"
+        "くせに",
+        "上に",
+        "ばかりに"
       ],
       "wrong_choice_explanations": [
-        "末に (確認した末に) means 'after a long, drawn-out process, finally'; it stresses the effort of checking, whereas 上で simply marks checking as the proper basis for signing.",
-        "ときに means 'at the time when' — it just marks the moment of checking, not that checking was a completed prerequisite before signing, which is what 上で expresses.",
-        "結果 (確認した結果) reports signing as the result of checking; 上で instead frames checking as the deliberate step taken before going ahead and signing."
+        "くせに criticizes someone ('even though…') and doesn't fit a plan stated about oneself; 上で marks getting permission as the step done first.",
+        "上に means 'on top of / besides', adding a second fact; it doesn't mark getting permission as the necessary first step.",
+        "ばかりに means 'just because (with a bad result)'; starting a job is not a misfortune caused by getting permission."
       ],
-      "hiragana_full": "けいやくないようをかくにんしたうえで、しょめいした。",
+      "hiragana_full": "りょうしんのきょかをもらったうえで、アルバイトをはじめます。",
       "audio_alternatives": [
         {
-          "kanji": "契約内容を確認してから、署名した。",
-          "hiragana_full": "けいやくないようをかくにんしてから、しょめいした。"
+          "kanji": "両親の許可をもらってから、アルバイトを始めます。",
+          "hiragana_full": "りょうしんのきょかをもらってから、アルバイトをはじめます。"
         },
         {
-          "kanji": "契約内容を確認した後で、署名した。",
-          "hiragana_full": "けいやくないようをかくにんしたあとで、しょめいした。"
+          "kanji": "両親の許可をもらった後で、アルバイトを始めます。",
+          "hiragana_full": "りょうしんのきょかをもらったあとで、アルバイトをはじめます。"
         }
       ],
       "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "両親",
+          "reading": "りょうしん",
+          "meaning": "parents"
+        },
+        {
+          "word": "許可",
+          "reading": "きょか",
+          "meaning": "permission"
+        }
+      ],
       "blank_target_reading": "うえで"
     }
   ]

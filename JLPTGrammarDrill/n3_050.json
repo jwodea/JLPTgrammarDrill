@@ -6,72 +6,16 @@
   "exercises": [
     {
       "id": "n3_050_1",
-      "example_sentence": "私は二日おきに、ヨガ教室に通っています。",
-      "translation": "I attend yoga classes every three days.",
-      "blank_target": "おきに",
-      "wrong_choices": [
-        "ごとに",
-        "たびに",
-        "ずつ"
-      ],
-      "wrong_choice_explanations": [
-        "ごとに means 'every,' so 二日ごとに would mean 'every 2 days' (days 2, 4, 6...), while おきに means 'with 2-day gaps' (every 3rd day)—a subtle but real difference.",
-        "たびに means 'every time something happens,' triggered by events, but the sentence is about a fixed interval schedule, not event-based repetition.",
-        "ずつ means 'each / at a time,' expressing portions or distribution, not recurring time intervals."
-      ],
-      "hiragana_full": "わたしはふつかおきに、ヨガきょうしつにかよっています。",
-      "audio_alternatives": [
-        {
-          "kanji": "私は一日置きに、ヨガ教室へ通っています。",
-          "hiragana_full": "わたしはいちにちおきに、ヨガきょうしつへかよっています。"
-        },
-        {
-          "kanji": "二日おきにヨガ教室に通っています。",
-          "hiragana_full": "ふつかおきにヨガきょうしつにかよっています。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_050_2",
-      "example_sentence": "彼は三日おきに、支社を視察しています。",
-      "translation": "He inspects the branch every three days.",
-      "blank_target": "おきに",
-      "wrong_choices": [
-        "ごとに",
-        "たびに",
-        "につき"
-      ],
-      "wrong_choice_explanations": [
-        "ごとに means 'every/each', but おきに is specific for 'at intervals with gaps' (every three days means visiting on days 1, 4, 7, etc.).",
-        "たびに means 'every time', expressing frequency at each occurrence, but the sentence indicates fixed intervals.",
-        "につき means 'per' (as in pricing), not the interval meaning of おきに."
-      ],
-      "hiragana_full": "かれはみっかおきに、ししゃをしさつしています。",
-      "audio_alternatives": [
-        {
-          "kanji": "彼は三日ごとに、支社を視察しています。",
-          "hiragana_full": "かれはみっかごとに、ししゃをしさつしています。"
-        },
-        {
-          "kanji": "彼は三日おきに支社を視察する。",
-          "hiragana_full": "かれはみっかおきにししゃをしさつする。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_050_3",
       "example_sentence": "五メートルおきに、街灯が設置されています。",
       "translation": "Streetlights are installed every five meters.",
       "blank_target": "おきに",
       "wrong_choices": [
-        "ごとに",
+        "まで",
         "ずつ",
         "たびに"
       ],
       "wrong_choice_explanations": [
-        "ごとに means 'every,' so 五メートルごとに would mean 'at every 5-meter mark,' while おきに emphasizes the gap/interval of 5 meters between each streetlight.",
+        "まで means 'up to / as far as,' marking an endpoint (streetlights only up to the 5-meter point), whereas おきに marks the repeating 5-meter spacing between each streetlight.",
         "ずつ means 'each / at a time,' expressing portions or distribution (e.g., 五メートルずつ = '5 meters at a time'), not the spacing pattern between fixed objects.",
         "たびに means 'every time something happens,' triggered by events, but streetlight placement is about fixed spatial intervals, not event-based repetition."
       ],
@@ -86,20 +30,33 @@
           "hiragana_full": "がいとうはごめーとるおきにせっちされています。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "街灯",
+          "reading": "がいとう",
+          "meaning": "street light"
+        },
+        {
+          "word": "設置",
+          "reading": "せっち",
+          "meaning": "installation"
+        }
+      ]
     },
     {
-      "id": "n3_050_4",
+      "id": "n3_050_2",
       "example_sentence": "彼は二週間おきに、実家に帰省しています。",
       "translation": "He goes home to visit his family every two weeks.",
       "blank_target": "おきに",
       "wrong_choices": [
-        "ごとに",
+        "までに",
         "たびに",
         "につき"
       ],
       "wrong_choice_explanations": [
-        "ごとに means 'every / each' with no gap implication. 二週間ごとに would mark every two weeks straight; おきに inserts a two-week interval between each visit, which is the standard JLPT distinction this drill is testing.",
+        "までに marks a deadline ('by ~'); 二週間までに would mean 'by (within) two weeks', a one-off time limit, not the repeated interval of visits that おきに expresses.",
         "たびに means 'every time something happens' and is triggered by events (会うたびに, 見るたびに), not by a fixed schedule. The sentence describes a regular interval-based routine, which is おきに's territory.",
         "につき means 'per' in a ratio or rate sense (二週間につき一万円 = '10,000 yen per two weeks'). The sentence isn't quoting a rate — it describes when the visits occur, which calls for the interval marker おきに."
       ],
@@ -114,10 +71,23 @@
           "hiragana_full": "かれはにしゅうかんおきに、じっかにもどっています。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "実家",
+          "reading": "じっか",
+          "meaning": "parents' home"
+        },
+        {
+          "word": "帰省",
+          "reading": "きせい",
+          "meaning": "returning home"
+        }
+      ]
     },
     {
-      "id": "n3_050_5",
+      "id": "n3_050_3",
       "example_sentence": "この医院は一週間おきに、休診日があります。",
       "translation": "This clinic has days off once every two weeks.",
       "blank_target": "おきに",
@@ -142,38 +112,23 @@
           "hiragana_full": "このいいんはかくしゅうできゅうしんびがあります。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_050_6",
-      "example_sentence": "三日おきに、美容院に行くのは贅沢ですね。",
-      "translation": "Going to the beauty salon every three days is extravagant, isn't it.",
-      "blank_target": "おきに",
-      "wrong_choices": [
-        "ごとに",
-        "たびに",
-        "におきに"
-      ],
-      "wrong_choice_explanations": [
-        "ごとに marks regular intervals; おきに is specifically for 'every other'.",
-        "たびに means 'every time'; おきに is for 'at intervals of'.",
-        "におきに creates a double particle and is awkward; おきに alone is the correct form."
-      ],
-      "hiragana_full": "みっかおきに、びよういんにいくのはぜいたくですね。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "三日おきに美容院へ行くのは贅沢ですね。",
-          "hiragana_full": "みっかおきにびよういんへいくのはぜいたくですね。"
+          "word": "医院",
+          "reading": "いいん",
+          "meaning": "clinic"
         },
         {
-          "kanji": "三日おきに美容院に行くのは贅沢だよね。",
-          "hiragana_full": "みっかおきにびよういんにいくのはぜいたくだよね。"
+          "word": "休診日",
+          "reading": "きゅうしんび",
+          "meaning": "clinic-closed day"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n3_050_7",
+      "id": "n3_050_4",
       "example_sentence": "一日おきに、メールをチェックします。",
       "translation": "I check emails every other day.",
       "blank_target": "おきに",
@@ -198,10 +153,11 @@
           "hiragana_full": "いちにちおきに、めーるをかくにんします。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
-      "id": "n3_050_8",
+      "id": "n3_050_5",
       "example_sentence": "一ヶ月おきに、定期検査を受けています。",
       "translation": "I have periodic checkups every other month.",
       "blank_target": "おきに",
@@ -226,48 +182,28 @@
           "hiragana_full": "いっかげつおきに、ていきけんしんをうけています。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_050_9",
-      "example_sentence": "二週間おきに、定例会議を開いています。",
-      "translation": "I hold regular meetings every two weeks.",
-      "blank_target": "おきに",
-      "wrong_choices": [
-        "ごとに",
-        "たびに",
-        "につき"
-      ],
-      "wrong_choice_explanations": [
-        "ごとに means 'every,' but the sentence specifically describes every other week, requiring the 'interval' sense of おきに.",
-        "たびに means 'every time,' but the sentence describes fixed intervals, not event-triggered occurrences.",
-        "につき means 'per week' (pricing/ratio), not the temporal pattern meaning of おきに."
-      ],
-      "hiragana_full": "にしゅうかんおきに、ていれいかいぎをひらいています。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "二週間ごとに、定例会議を開いています。",
-          "hiragana_full": "にしゅうかんごとに、ていれいかいぎをひらいています。"
-        },
-        {
-          "kanji": "二週間に一度、定例会議を開いています。",
-          "hiragana_full": "にしゅうかんにいちど、ていれいかいぎをひらいています。"
+          "word": "定期検査",
+          "reading": "ていきけんさ",
+          "meaning": "regular examination"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n3_050_10",
+      "id": "n3_050_6",
       "example_sentence": "三ヶ月おきに、監査を実施しています。",
       "translation": "I conduct audits every three months.",
       "blank_target": "おきに",
       "wrong_choices": [
-        "ごとに",
+        "までに",
         "たびに",
         "ずつ"
       ],
       "wrong_choice_explanations": [
-        "ごとに means 'every', but おきに specifically marks alternating or spaced intervals.",
+        "までに marks a deadline ('by ~'); 三ヶ月までに would set a one-time limit, not the recurring interval between audits that おきに expresses.",
         "たびに means 'every time', not the fixed interval sense of おきに.",
         "ずつ means 'each/per', not the sense of intervals or alternation."
       ],
@@ -282,7 +218,162 @@
           "hiragana_full": "さんかげつにいちど、かんさをじっししています。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "監査",
+          "reading": "かんさ",
+          "meaning": "audit"
+        },
+        {
+          "word": "実施",
+          "reading": "じっし",
+          "meaning": "to conduct / carry out"
+        }
+      ]
+    },
+    {
+      "id": "n3_050_7",
+      "example_sentence": "一日おきに病院に通っている。",
+      "translation": "I go to the hospital every other day.",
+      "blank_target": "おき",
+      "wrong_choices": [
+        "ごと",
+        "たび",
+        "ずつ"
+      ],
+      "wrong_choice_explanations": [
+        "ごとに means 'every ~' without gaps — it would mean going every single day, but we want to skip days between visits.",
+        "たびに means 'each time when' — it requires a specific trigger event, not a time interval pattern.",
+        "ずつ means 'each/apiece' for quantities — it doesn't work with time intervals like days."
+      ],
+      "hiragana_full": "いちにちおきにびょういんにかよっている",
+      "audio_alternatives": [
+        {
+          "kanji": "二日に一度病院に行っている。",
+          "hiragana_full": "ふつかにいちどびょういんにいっている"
+        },
+        {
+          "kanji": "一日置きに病院へ通っている。",
+          "hiragana_full": "いちにちおきにびょういんへかよっている"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "通う",
+          "reading": "かよう",
+          "meaning": "to commute / attend regularly"
+        }
+      ]
+    },
+    {
+      "id": "n3_050_8",
+      "example_sentence": "一列おきに座席が空いている。",
+      "translation": "Seats are vacant every other row.",
+      "blank_target": "おき",
+      "wrong_choices": [
+        "ごと",
+        "なか",
+        "あいだ"
+      ],
+      "wrong_choice_explanations": [
+        "ごとに means 'every ~' without gaps — it would mean all consecutive rows are vacant, but some rows are occupied here.",
+        "なかに means 'inside/among' — it expresses location within something, not intervals between rows.",
+        "あいだに means 'between' — it expresses location between specific things, not a recurring pattern."
+      ],
+      "hiragana_full": "いちれつおきにざせきがあいている",
+      "audio_alternatives": [
+        {
+          "kanji": "一列おきに席が空いている。",
+          "hiragana_full": "いちれつおきにせきがあいている"
+        },
+        {
+          "kanji": "座席は一列おきに空いている。",
+          "hiragana_full": "ざせきはいちれつおきにあいている"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "座席",
+          "reading": "ざせき",
+          "meaning": "seat"
+        },
+        {
+          "word": "空く",
+          "reading": "あく",
+          "meaning": "to be vacant / empty"
+        }
+      ]
+    },
+    {
+      "id": "n3_050_9",
+      "example_sentence": "五分おきに電車が来る。",
+      "translation": "Trains come every five minutes.",
+      "blank_target": "おき",
+      "wrong_choices": [
+        "ほど",
+        "たび",
+        "とき"
+      ],
+      "wrong_choice_explanations": [
+        "ほど means 'about / to the extent of' — 五分ほどに is ungrammatical and cannot express trains arriving at regular intervals the way おきに does.",
+        "たびに means 'each time when' — it requires a specific trigger event, not regular time intervals.",
+        "ときに means 'when/at the time of' — it expresses timing of events, not regular intervals."
+      ],
+      "hiragana_full": "ごふんおきにでんしゃがくる。",
+      "audio_alternatives": [
+        {
+          "kanji": "五分ごとに電車が来る。",
+          "hiragana_full": "ごふんごとにでんしゃがくる。"
+        },
+        {
+          "kanji": "電車は五分おきに来ます。",
+          "hiragana_full": "でんしゃはごふんおきにきます。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral"
+    },
+    {
+      "id": "n3_050_10",
+      "example_sentence": "一つおきに電灯がついている。",
+      "translation": "Every other light is on.",
+      "blank_target": "おき",
+      "wrong_choices": [
+        "ごと",
+        "ずつ",
+        "ばかり"
+      ],
+      "wrong_choice_explanations": [
+        "ごとに means 'every ~' without gaps — it would mean all consecutive lights are on, but this is an alternating pattern.",
+        "ずつ means 'each/apiece' for quantities — it doesn't work for expressing intervals between items.",
+        "ばかり means 'only/just' — it expresses exclusivity or emphasis, not interval patterns."
+      ],
+      "hiragana_full": "ひとつおきにでんとうがついている",
+      "audio_alternatives": [
+        {
+          "kanji": "一つおきに電気がついている。",
+          "hiragana_full": "ひとつおきにでんきがついている"
+        },
+        {
+          "kanji": "一つおきにライトがついている。",
+          "hiragana_full": "ひとつおきにライトがついている"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "電灯",
+          "reading": "でんとう",
+          "meaning": "electric light"
+        }
+      ]
     }
   ]
 }

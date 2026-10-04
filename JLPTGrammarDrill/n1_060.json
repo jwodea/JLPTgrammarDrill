@@ -10,12 +10,12 @@
       "translation": "While shopping, I dropped by my friend's house.",
       "blank_target": "がてら",
       "wrong_choices": [
-        "ついでに",
+        "のあとで",
         "最中に",
         "をかねて"
       ],
       "wrong_choice_explanations": [
-        "ついでに means 'while at it' but is used when adding another task, not for doing two things simultaneously as がてら implies.",
+        "のあとで means 'after,' presenting the two actions in sequence (shopping first, then the visit); がてら instead frames the visit as done in the course of the same shopping outing.",
         "最中に means 'in the middle of' and refers to interruption during an action, not doing two actions together.",
         "をかねて means 'serving as both' but requires を particle and is more formal than がてら."
       ],
@@ -30,7 +30,15 @@
           "hiragana_full": "かいものをしながら、ゆうじんのいえによった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "立ち寄った",
+          "reading": "たちよった",
+          "meaning": "dropped by"
+        }
+      ]
     },
     {
       "id": "n1_060_2",
@@ -58,7 +66,8 @@
           "hiragana_full": "さんぽしながら、きんじょのコンビニでおべんとうをかってきた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n1_060_3",
@@ -86,7 +95,8 @@
           "hiragana_full": "としょかんへいきがてら、ゆうびんきょくでてがみをだした。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n1_060_4",
@@ -114,7 +124,20 @@
           "hiragana_full": "りょこうのついでに、かくちのほうげんをちょうさしている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "各地",
+          "reading": "かくち",
+          "meaning": "various places"
+        },
+        {
+          "word": "方言",
+          "reading": "ほうげん",
+          "meaning": "dialect"
+        }
+      ]
     },
     {
       "id": "n1_060_5",
@@ -142,7 +165,20 @@
           "hiragana_full": "しごとのしゅっちょうがてら、ひさびさにじっかをおとずれた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "出張",
+          "reading": "しゅっちょう",
+          "meaning": "business trip"
+        },
+        {
+          "word": "実家",
+          "reading": "じっか",
+          "meaning": "one's parents' home"
+        }
+      ]
     },
     {
       "id": "n1_060_6",
@@ -170,7 +206,20 @@
           "hiragana_full": "かっこくのたいしはこくれんかいぎへのしゅっせきをきに、にこくかんのたいわのきかいをさぐっている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "大使",
+          "reading": "たいし",
+          "meaning": "ambassador"
+        },
+        {
+          "word": "対話",
+          "reading": "たいわ",
+          "meaning": "dialogue"
+        }
+      ]
     },
     {
       "id": "n1_060_7",
@@ -198,7 +247,20 @@
           "hiragana_full": "がっかいへのさんかをかねて、かくちのかんきょうもんだいについてのじょうほうをあつめている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "学会",
+          "reading": "がっかい",
+          "meaning": "academic conference"
+        },
+        {
+          "word": "収集",
+          "reading": "しゅうしゅう",
+          "meaning": "collection; gathering"
+        }
+      ]
     },
     {
       "id": "n1_060_8",
@@ -226,7 +288,20 @@
           "hiragana_full": "びじゅつかんのしさつをかねて、げんちのぶんかについてもまなんでいる。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "視察",
+          "reading": "しさつ",
+          "meaning": "inspection tour; observation"
+        },
+        {
+          "word": "現地",
+          "reading": "げんち",
+          "meaning": "the site; on-site; local"
+        }
+      ]
     },
     {
       "id": "n1_060_9",
@@ -254,7 +329,20 @@
           "hiragana_full": "こくさいかいぎへのさんかをかねて、ふくすうのきぎょうとこうしょうをすすめている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "企業",
+          "reading": "きぎょう",
+          "meaning": "enterprise; company"
+        },
+        {
+          "word": "交渉",
+          "reading": "こうしょう",
+          "meaning": "negotiation"
+        }
+      ]
     },
     {
       "id": "n1_060_10",
@@ -282,7 +370,20 @@
           "hiragana_full": "かいぎのじゅんびのついでに、かんれんしりょうのせいりもすませておこう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "関連",
+          "reading": "かんれん",
+          "meaning": "related; connection"
+        },
+        {
+          "word": "資料",
+          "reading": "しりょう",
+          "meaning": "materials; documents"
+        }
+      ]
     }
   ]
 }

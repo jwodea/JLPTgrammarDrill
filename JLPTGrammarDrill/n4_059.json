@@ -30,7 +30,15 @@
           "hiragana_full": "このくすりはきくといわれている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "効果",
+          "reading": "こうか",
+          "meaning": "effect, efficacy"
+        }
+      ]
     },
     {
       "id": "n4_059_2",
@@ -58,7 +66,15 @@
           "hiragana_full": "かれはてんさいだといわれています。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "天才",
+          "reading": "てんさい",
+          "meaning": "genius"
+        }
+      ]
     },
     {
       "id": "n4_059_3",
@@ -68,12 +84,12 @@
       "wrong_choices": [
         "と見られている",
         "と感じられている",
-        "ということだ"
+        "と決まっている"
       ],
       "wrong_choice_explanations": [
         "と見られている means 'is viewed as' which is more about perception than reported information.",
         "と感じられている means 'is felt that' which expresses sensory or emotional perception.",
-        "ということだ means 'I heard that' but doesn't have the ongoing passive nuance of といわれている."
+        "と決まっている means 'it is decided/settled that' and refers to fixed rules or arrangements; a region's earthquake frequency isn't settled by decision — といわれている is what reports the widely-circulating claim."
       ],
       "hiragana_full": "このちいきはじしんがおおいといわれている。",
       "audio_alternatives": [
@@ -86,7 +102,20 @@
           "hiragana_full": "このちいきはじしんがおおいそうだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "地域",
+          "reading": "ちいき",
+          "meaning": "area, region"
+        },
+        {
+          "word": "地震",
+          "reading": "じしん",
+          "meaning": "earthquake"
+        }
+      ]
     },
     {
       "id": "n4_059_4",
@@ -114,7 +143,8 @@
           "hiragana_full": "あのレストランのりょうりはおいしいといわれている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n4_059_5",
@@ -142,7 +172,15 @@
           "hiragana_full": "らいねんからぜいきんがあがるそうだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "税金",
+          "reading": "ぜいきん",
+          "meaning": "tax"
+        }
+      ]
     },
     {
       "id": "n4_059_6",
@@ -170,7 +208,8 @@
           "hiragana_full": "このあたらしいげーむはむずかしいときいている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n4_059_7",
@@ -180,12 +219,12 @@
       "wrong_choices": [
         "と報告されている",
         "と発表されている",
-        "という話だ"
+        "と予想されている"
       ],
       "wrong_choice_explanations": [
         "と報告されている means 'is reported that' which is more formal than casual hearsay.",
         "と発表されている means 'is announced that' which indicates official announcements, not rumors.",
-        "という話だ means 'there's talk that' but lacks the passive ongoing nuance of といわれている."
+        "と予想されている means 'is predicted/forecast that,' framing the retirement as an analytical projection; といわれている instead reports what people in general are saying, with no forecasting implied."
       ],
       "hiragana_full": "たなかせんせいはらいげつたいしょくするといわれている。",
       "audio_alternatives": [
@@ -198,7 +237,15 @@
           "hiragana_full": "たなかせんせいはらいげつたいしょくするそうだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "退職",
+          "reading": "たいしょく",
+          "meaning": "retiring (from a job)"
+        }
+      ]
     },
     {
       "id": "n4_059_8",
@@ -226,7 +273,20 @@
           "hiragana_full": "このやまにたからものがうまっているそうだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "宝物",
+          "reading": "たからもの",
+          "meaning": "treasure"
+        },
+        {
+          "word": "埋まっている",
+          "reading": "うまっている",
+          "meaning": "is buried"
+        }
+      ]
     },
     {
       "id": "n4_059_9",
@@ -235,12 +295,12 @@
       "blank_target": "といわれている",
       "wrong_choices": [
         "と噂されている",
-        "と聞いている",
+        "と発表されている",
         "だろう"
       ],
       "wrong_choice_explanations": [
         "と噂されている means 'is rumored that' which specifically emphasizes gossip rather than general hearsay.",
-        "と聞いている means 'I hear that' which is personal hearing rather than general public talk.",
+        "と発表されている means 'is (officially) announced that,' implying a formal announcement; といわれている reports informal, general talk rather than an official statement.",
         "だろう expresses speaker's conjecture or probability, not what other people are saying."
       ],
       "hiragana_full": "あのかしゅはいんたいするといわれている。",
@@ -254,7 +314,20 @@
           "hiragana_full": "あのかしゅはいんたいするそうだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "歌手",
+          "reading": "かしゅ",
+          "meaning": "singer"
+        },
+        {
+          "word": "引退",
+          "reading": "いんたい",
+          "meaning": "retirement (from a career)"
+        }
+      ]
     },
     {
       "id": "n4_059_10",
@@ -282,7 +355,25 @@
           "hiragana_full": "このたてものはえどじだいにたてられたといわれています。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "建物",
+          "reading": "たてもの",
+          "meaning": "building"
+        },
+        {
+          "word": "江戸時代",
+          "reading": "えどじだい",
+          "meaning": "Edo period (1603-1868)"
+        },
+        {
+          "word": "建てられた",
+          "reading": "たてられた",
+          "meaning": "was built"
+        }
+      ]
     }
   ]
 }

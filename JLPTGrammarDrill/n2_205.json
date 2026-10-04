@@ -1,0 +1,241 @@
+{
+  "id": "n2_205",
+  "pattern": "おまけに",
+  "meaning": "on top of that; to make matters worse; what's more",
+  "level": "N2",
+  "exercises": [
+    {
+      "id": "n2_205_1",
+      "example_sentence": "終電を逃してしまった。おまけに、財布まで落としたことに気づいた。",
+      "translation": "I missed the last train. To make matters worse, I realized I'd dropped my wallet, too.",
+      "blank_target": "おまけに",
+      "wrong_choices": ["ところが", "そのかわり", "つまり"],
+      "wrong_choice_explanations": [
+        "ところが marks an unexpected reversal ('however'), but dropping the wallet continues the same run of bad luck as missing the train — まで signals piling on, not a turn of events.",
+        "そのかわり ('in exchange; to make up for it') introduces compensation for the first clause; losing a wallet compensates nothing about missing the last train.",
+        "つまり rephrases or summarizes what was just said ('in other words'); the lost wallet is a new additional misfortune, not a restatement of the missed train."
+      ],
+      "hiragana_full": "しゅうでんをのがしてしまった。おまけに、さいふまでおとしたことにきづいた。",
+      "audio_alternatives": [
+        { "kanji": "終電を逃した。おまけに雨まで降ってきた。", "hiragana_full": "しゅうでんをのがした。おまけにあめまでふってきた。" },
+        { "kanji": "終電に乗り遅れたうえ、財布までなくしてしまった。", "hiragana_full": "しゅうでんにのりおくれたうえ、さいふまでなくしてしまった。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "終電", "reading": "しゅうでん", "meaning": "last train" },
+        { "word": "逃す", "reading": "のがす", "meaning": "to miss (a chance, a train)" },
+        { "word": "財布", "reading": "さいふ", "meaning": "wallet" }
+      ]
+    },
+    {
+      "id": "n2_205_2",
+      "example_sentence": "あの店は値段が高い。おまけに、店員の態度も悪いので、二度と行きたくない。",
+      "translation": "That place is expensive. What's more, the staff are rude too, so I never want to go back.",
+      "blank_target": "おまけに",
+      "wrong_choices": ["それなのに", "むしろ", "ただし"],
+      "wrong_choice_explanations": [
+        "それなのに ('and yet') requires the second clause to defy an expectation set by the first; rude staff runs in the same negative direction as high prices, so there is no defiance — も confirms addition.",
+        "むしろ ('rather') corrects a statement toward a better-fitting alternative; the speaker is stacking a second complaint, not replacing the first one.",
+        "ただし ('however; provided that') attaches a proviso or exception that limits the preceding statement; the staff's attitude is another independent complaint, not a condition on the prices."
+      ],
+      "hiragana_full": "あのみせはねだんがたかい。おまけに、てんいんのたいどもわるいので、にどといきたくない。",
+      "audio_alternatives": [
+        { "kanji": "あの店は高いし、おまけに接客もひどい。", "hiragana_full": "あのみせはたかいし、おまけにせっきゃくもひどい。" },
+        { "kanji": "あの店は値段が高いうえに、店員も無愛想だ。", "hiragana_full": "あのみせはねだんがたかいうえに、てんいんもぶあいそうだ。" }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        { "word": "店員", "reading": "てんいん", "meaning": "shop staff" },
+        { "word": "態度", "reading": "たいど", "meaning": "attitude" },
+        { "word": "二度と", "reading": "にどと", "meaning": "never again (with negative)" }
+      ]
+    },
+    {
+      "id": "n2_205_3",
+      "example_sentence": "新しいアルバイトは時給がいいし、おまけに家から歩いて五分の場所にある。",
+      "translation": "My new part-time job pays well, and on top of that, it's only a five-minute walk from home.",
+      "blank_target": "おまけに",
+      "wrong_choices": ["そのかわり", "ところが", "要するに"],
+      "wrong_choice_explanations": [
+        "そのかわり ('in exchange') implies the second clause is a trade-off paid for the first (good pay but some sacrifice); the location is a second advantage, not a price paid.",
+        "ところが signals that what follows overturns the expectation just built up; a convenient location doesn't contradict good hourly pay — し already frames the clauses as stacked positives.",
+        "要するに ('in short') introduces a summary of everything said so far; being five minutes from home is a new separate merit, not a distillation of the pay."
+      ],
+      "hiragana_full": "あたらしいあるばいとはじきゅうがいいし、おまけにいえからあるいてごふんのばしょにある。",
+      "audio_alternatives": [
+        { "kanji": "今度のバイトは時給が高く、おまけに通勤も楽だ。", "hiragana_full": "こんどのばいとはじきゅうがたかく、おまけにつうきんもらくだ。" },
+        { "kanji": "新しいアルバイト先は給料もよくて、家からも近い。", "hiragana_full": "あたらしいあるばいとさきはきゅうりょうもよくて、いえからもちかい。" }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        { "word": "時給", "reading": "じきゅう", "meaning": "hourly wage" },
+        { "word": "アルバイト", "reading": "あるばいと", "meaning": "part-time job" }
+      ]
+    },
+    {
+      "id": "n2_205_4",
+      "example_sentence": "台風で電車が止まり、おまけに停電まで起きて、街は大混乱だった。",
+      "translation": "The typhoon stopped the trains, and on top of that a blackout hit, throwing the city into chaos.",
+      "blank_target": "おまけに",
+      "wrong_choices": ["したがって", "それでも", "つまり"],
+      "wrong_choice_explanations": [
+        "したがって ('therefore') presents the second clause as a logical consequence of the first, but the blackout wasn't caused by the trains stopping — both were parallel results of the typhoon.",
+        "それでも ('even so') concedes the first clause and asserts something in spite of it; the blackout doesn't push back against the stopped trains, it adds to the damage, as まで shows.",
+        "つまり restates the previous clause in other words; a power outage is a distinct additional event, not another way of saying the trains stopped."
+      ],
+      "hiragana_full": "たいふうででんしゃがとまり、おまけにていでんまでおきて、まちはだいこんらんだった。",
+      "audio_alternatives": [
+        { "kanji": "台風で交通が乱れ、おまけに停電も重なった。", "hiragana_full": "たいふうでこうつうがみだれ、おまけにていでんもかさなった。" },
+        { "kanji": "台風の影響で電車が止まり、そのうえ停電まで発生した。", "hiragana_full": "たいふうのえいきょうででんしゃがとまり、そのうえていでんまではっせいした。" }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        { "word": "停電", "reading": "ていでん", "meaning": "power outage" },
+        { "word": "大混乱", "reading": "だいこんらん", "meaning": "great chaos" }
+      ]
+    },
+    {
+      "id": "n2_205_5",
+      "example_sentence": "課長には残業を頼まれ、おまけに休日出勤までさせられた。",
+      "translation": "My boss asked me to work overtime, and to top it off I was even made to come in on my day off.",
+      "blank_target": "おまけに",
+      "wrong_choices": ["そのかわり", "むしろ", "ただし"],
+      "wrong_choice_explanations": [
+        "そのかわり would mean the holiday shift was offered as compensation for the overtime; まで makes clear it was a further imposition piled on top, not a trade.",
+        "むしろ ('rather') replaces a less accurate statement with a more accurate one; the speaker isn't correcting the overtime complaint, they're adding a worse one.",
+        "ただし introduces a limiting condition or exception to what was just said; forced holiday work is a second grievance, not a proviso attached to the overtime."
+      ],
+      "hiragana_full": "かちょうにはざんぎょうをたのまれ、おまけにきゅうじつしゅっきんまでさせられた。",
+      "audio_alternatives": [
+        { "kanji": "残業を頼まれ、おまけに休日まで出勤する羽目になった。", "hiragana_full": "ざんぎょうをたのまれ、おまけにきゅうじつまでしゅっきんするはめになった。" },
+        { "kanji": "課長に残業させられたうえ、休日出勤まで命じられた。", "hiragana_full": "かちょうにざんぎょうさせられたうえ、きゅうじつしゅっきんまでめいじられた。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "残業", "reading": "ざんぎょう", "meaning": "overtime work" },
+        { "word": "休日出勤", "reading": "きゅうじつしゅっきん", "meaning": "working on one's day off" }
+      ]
+    },
+    {
+      "id": "n2_205_6",
+      "example_sentence": "朝からめまいがする。おまけに、熱も出てきたようだ。",
+      "translation": "I've been dizzy since this morning. On top of that, I seem to be running a fever now.",
+      "blank_target": "おまけに",
+      "wrong_choices": ["ところが", "せめて", "それとも"],
+      "wrong_choice_explanations": [
+        "ところが introduces an outcome that betrays the expectation of the first sentence; a fever arriving on top of dizziness is more of the same trouble, which も marks as addition.",
+        "せめて ('at least') expresses a minimal wish and needs a desiderative or request form (せめて熱がなければいいのに); the flat observation 出てきたようだ carries no wish for it to attach to.",
+        "それとも presents an alternative and is used only in questions (AかそれともBか); it cannot link two declarative statements of fact like these."
+      ],
+      "hiragana_full": "あさからめまいがする。おまけに、ねつもでてきたようだ。",
+      "audio_alternatives": [
+        { "kanji": "朝からめまいがして、おまけに熱っぽい。", "hiragana_full": "あさからめまいがして、おまけにねつっぽい。" },
+        { "kanji": "今日はめまいがするうえに、熱まで出てきたみたいだ。", "hiragana_full": "きょうはめまいがするうえに、ねつまででてきたみたいだ。" }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        { "word": "めまい", "reading": "めまい", "meaning": "dizziness" },
+        { "word": "熱", "reading": "ねつ", "meaning": "fever" }
+      ]
+    },
+    {
+      "id": "n2_205_7",
+      "example_sentence": "この部屋は日当たりがよく、おまけに家賃も手ごろだ。",
+      "translation": "This room gets great sunlight, and what's more, the rent is reasonable.",
+      "blank_target": "おまけに",
+      "wrong_choices": ["それなのに", "かえって", "ただし"],
+      "wrong_choice_explanations": [
+        "それなのに ('and yet') needs the second clause to clash with what the first leads you to expect; reasonable rent doesn't contradict good sunlight — も stacks the two merits.",
+        "かえって ('on the contrary; if anything') marks a result opposite to what was expected; nothing here reverses an expectation, the sentence simply lists a second advantage.",
+        "ただし attaches a limiting proviso, typically a drawback (ただし家賃は高い); 手ごろ is a plus, so a restriction marker contradicts the sentence's direction."
+      ],
+      "hiragana_full": "このへやはひあたりがよく、おまけにやちんもてごろだ。",
+      "audio_alternatives": [
+        { "kanji": "この部屋は明るくて、おまけに駅からも近い。", "hiragana_full": "このへやはあかるくて、おまけにえきからもちかい。" },
+        { "kanji": "この部屋は日当たりがよいうえ、家賃も安い。", "hiragana_full": "このへやはひあたりがよいうえ、やちんもやすい。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "日当たり", "reading": "ひあたり", "meaning": "exposure to sunlight" },
+        { "word": "家賃", "reading": "やちん", "meaning": "rent" },
+        { "word": "手ごろ", "reading": "てごろ", "meaning": "reasonable; affordable" }
+      ]
+    },
+    {
+      "id": "n2_205_8",
+      "example_sentence": "面接に遅刻し、おまけに履歴書まで忘れてしまった。",
+      "translation": "I was late for the interview, and to make matters worse, I even forgot my résumé.",
+      "blank_target": "おまけに",
+      "wrong_choices": ["そのかわり", "したがって", "むしろ"],
+      "wrong_choice_explanations": [
+        "そのかわり presents the second clause as compensation balancing the first; forgetting the résumé makes up for nothing — まで marks it as a further blunder piled on.",
+        "したがって ('therefore') would claim the forgotten résumé followed logically from being late, but the two failures are independent mishaps, not cause and result.",
+        "むしろ ('rather') swaps the preceding statement for a more apt one; the speaker isn't correcting 'I was late', they're confessing an additional failure."
+      ],
+      "hiragana_full": "めんせつにちこくし、おまけにりれきしょまでわすれてしまった。",
+      "audio_alternatives": [
+        { "kanji": "面接に遅れ、おまけに大事な書類まで忘れた。", "hiragana_full": "めんせつにおくれ、おまけにだいじなしょるいまでわすれた。" },
+        { "kanji": "面接に遅刻したうえに、履歴書も持って行くのを忘れてしまった。", "hiragana_full": "めんせつにちこくしたうえに、りれきしょももっていくのをわすれてしまった。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "遅刻", "reading": "ちこく", "meaning": "being late" },
+        { "word": "履歴書", "reading": "りれきしょ", "meaning": "résumé" }
+      ]
+    },
+    {
+      "id": "n2_205_9",
+      "example_sentence": "祖父は九十歳を過ぎても畑仕事をしているし、おまけに毎朝五キロも歩いている。",
+      "translation": "My grandfather still works his fields even past ninety, and what's more, he walks a good five kilometers every morning.",
+      "blank_target": "おまけに",
+      "wrong_choices": ["それなのに", "ところが", "要するに"],
+      "wrong_choice_explanations": [
+        "それなのに ('and yet') would make the morning walks contradict the farm work, but both clauses point the same way — they stack up evidence of how vigorous he is.",
+        "ところが marks an unexpected turn; the five-kilometer walks reinforce rather than overturn the impression built by 畑仕事をしている.",
+        "要するに ('in short') introduces a summary of the foregoing; the daily walks are an additional concrete fact, not a boiled-down restatement of the farming."
+      ],
+      "hiragana_full": "そふはきゅうじゅっさいをすぎてもはたけしごとをしているし、おまけにまいあさごきろもあるいている。",
+      "audio_alternatives": [
+        { "kanji": "祖父は今も畑に出るし、おまけに散歩も欠かさない。", "hiragana_full": "そふはいまもはたけにでるし、おまけにさんぽもかかさない。" },
+        { "kanji": "九十歳を過ぎた祖父は、毎朝五キロの散歩を日課にしている。", "hiragana_full": "きゅうじゅっさいをすぎたそふは、まいあさごきろのさんぽをにっかにしている。" }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        { "word": "畑仕事", "reading": "はたけしごと", "meaning": "farm work" }
+      ]
+    },
+    {
+      "id": "n2_205_10",
+      "example_sentence": "発表用の資料が完成しないうちにパソコンが故障し、おまけにバックアップも取っていなかった。",
+      "translation": "My computer broke down before I finished the presentation materials — and to make matters worse, I hadn't backed anything up.",
+      "blank_target": "おまけに",
+      "wrong_choices": ["それでも", "つまり", "せめて"],
+      "wrong_choice_explanations": [
+        "それでも ('even so') asserts something in defiance of the preceding clause; having no backup doesn't push back against the breakdown, it deepens the disaster — も marks the pile-on.",
+        "つまり signals a restatement or conclusion drawn from what precedes; the missing backup is a separate additional problem, not the breakdown said in other words.",
+        "せめて ('at least') voices a minimal wish and needs a hope or request to complete it (せめてバックアップがあれば); the plain factual 取っていなかった offers no such construction."
+      ],
+      "hiragana_full": "はっぴょうようのしりょうがかんせいしないうちにぱそこんがこしょうし、おまけにばっくあっぷもとっていなかった。",
+      "audio_alternatives": [
+        { "kanji": "資料が終わらないうちにパソコンが壊れ、おまけにバックアップもなかった。", "hiragana_full": "しりょうがおわらないうちにぱそこんがこわれ、おまけにばっくあっぷもなかった。" },
+        { "kanji": "発表の直前にパソコンが故障し、データも残っていなかった。", "hiragana_full": "はっぴょうのちょくぜんにぱそこんがこしょうし、でーたものこっていなかった。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "故障", "reading": "こしょう", "meaning": "breakdown; malfunction" },
+        { "word": "資料", "reading": "しりょう", "meaning": "materials; documents" },
+        { "word": "バックアップ", "reading": "ばっくあっぷ", "meaning": "backup" }
+      ]
+    }
+  ]
+}

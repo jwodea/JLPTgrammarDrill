@@ -10,13 +10,13 @@
       "translation": "The child left the room door open carelessly.",
       "blank_target": "っぱなしに",
       "wrong_choices": [
-        "たままに",
-        "たきりに",
+        "たことに",
+        "たついでに",
         "たところに"
       ],
       "wrong_choice_explanations": [
-        "〜まま means 'as-is / unchanged,' but it lacks the nuance of negligence or carelessness that っぱなし conveys about the child leaving the door open.",
-        "〜きり means 'since then / only,' suggesting nothing else happened, but the sentence is about negligently leaving something in an undesirable state.",
+        "たことにする means 'to treat something as done / pretend it happened' (開けたことにする = 'pretend to have opened it'), not 'leave it open'. っぱなし means the door was carelessly left open.",
+        "ついで means 'while at it / on the occasion of' (出かけたついでに買い物する); it introduces a second action and says nothing about the door being left open. っぱなし means it was carelessly left open.",
         "〜たところに means 'just when,' referring to timing, not the state of leaving something open."
       ],
       "hiragana_full": "こどもはへやのどあをあけっぱなしにしてしまいました。",
@@ -30,7 +30,8 @@
           "hiragana_full": "こどもがへやのどあをあけっぱなしにしてしまった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n3_027_2",
@@ -38,13 +39,13 @@
       "translation": "Please do not leave the computer switch on.",
       "blank_target": "っぱなしに",
       "wrong_choices": [
-        "たままに",
-        "たきりに",
+        "たことに",
+        "たついでに",
         "たところに"
       ],
       "wrong_choice_explanations": [
-        "たままに means 'left in a state', but っぱなし emphasizes negligently leaving something on/open, fitting the warning context better.",
-        "たきりに is not a standard form; きり means 'only' or 'just'.",
+        "たことにする means 'to treat something as done / pretend it happened' (入れたことにする = 'pretend to have switched it on'), not 'leave it on'. っぱなし means the switch was carelessly left on.",
+        "ついで means 'while at it / on the occasion of' (出かけたついでに買い物する); it introduces a second action and says nothing about the switch being left on. っぱなし means it was carelessly left on.",
         "たところに is not a standard form for this meaning; ところ means 'place' or 'moment'."
       ],
       "hiragana_full": "ぱそこんのすいっちをいれっぱなしにしないでください。",
@@ -58,7 +59,8 @@
           "hiragana_full": "ぱそこんのすいっちをいれたままにしないでください。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n3_027_3",
@@ -66,13 +68,13 @@
       "translation": "I felt cold with the door left open.",
       "blank_target": "っぱなしで",
       "wrong_choices": [
-        "たままで",
-        "たきりで",
+        "たはずで",
+        "たついでで",
         "たところで"
       ],
       "wrong_choice_explanations": [
-        "たままで means 'in the state of being open,' but っぱなし emphasizes leaving something open with negligence or carelessness.",
-        "たきりで means 'left in the state,' but っぱなし better conveys the nuance of negligently leaving something open.",
+        "はず expresses expectation ('it should have been opened'), which doesn't explain what happened here. っぱなし means the door was carelessly left open.",
+        "ついで means 'while at it / on the occasion of' (出かけたついでに買い物する); it introduces a second action and says nothing about the door being left open. っぱなし means it was carelessly left open.",
         "たところで means 'once something is done,' but the sentence describes leaving a door open, not completing an action."
       ],
       "hiragana_full": "どあをあけっぱなしで、さむいおもいをしました。",
@@ -86,7 +88,8 @@
           "hiragana_full": "どあがあけっぱなしだったので、さむかったです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n3_027_4",
@@ -94,13 +97,13 @@
       "translation": "I fell asleep with the room lights left on.",
       "blank_target": "っぱなしで",
       "wrong_choices": [
-        "たままで",
-        "たきりで",
+        "たはずで",
+        "たついでで",
         "たところで"
       ],
       "wrong_choice_explanations": [
-        "ままで means leaving something in the same state, but this sentence describes lights left on carelessly, which requires 'っぱなし'.",
-        "きり means doing once and stopping, but this sentence describes a negligently left state, not just a stopped action.",
+        "はず expresses expectation ('it should have been turned on'), which doesn't explain what happened here. っぱなし means the light was carelessly left on.",
+        "ついで means 'while at it / on the occasion of' (出かけたついでに買い物する); it introduces a second action and says nothing about the light being left on. っぱなし means it was carelessly left on.",
         "ところで means 'just after doing', but this sentence requires 'っぱなし' for lights left on carelessly."
       ],
       "hiragana_full": "へやのでんきをつけっぱなしで、ねてしまった。",
@@ -114,35 +117,49 @@
           "hiragana_full": "でんきをつけっぱなしにして、ねてしまった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n3_027_5",
-      "example_sentence": "レジを開けっぱなしで、営業を始めてしまった。",
-      "translation": "They started business with the register left open.",
+      "example_sentence": "窓を開けっぱなしで出かけたら、雨が入ってしまった。",
+      "translation": "I went out with the window left open, and the rain got in.",
       "blank_target": "っぱなしで",
       "wrong_choices": [
-        "たままで",
-        "たきりで",
+        "たはずで",
+        "たついでで",
         "たところで"
       ],
       "wrong_choice_explanations": [
-        "たままで means 'remaining in the state,' but っぱなしで adds the sense of careless abandonment.",
-        "たきりで means 'after doing and nothing more,' but っぱなしで specifically conveys negligent leaving open.",
-        "たところで means 'just when' or 'having just done,' not the sense of leaving something unfinished."
+        "はず expresses expectation ('it should have been opened'), which doesn't explain what happened here. っぱなし means the window was carelessly left open.",
+        "ついで means 'while at it / on the occasion of' (出かけたついでに買い物する); it introduces a second action and says nothing about the window being left open. っぱなし means it was carelessly left open.",
+        "〜たところで means 'just as / at the moment of' (or 'even if'); 開けたところで出かけたら doesn't describe the window's state while you were out. っぱなし means it was carelessly left open."
       ],
-      "hiragana_full": "れじをあけっぱなしで、えいぎょうをはじめてしまった。",
+      "hiragana_full": "まどをあけっぱなしででかけたら、あめがはいってしまった。",
       "audio_alternatives": [
         {
-          "kanji": "レジを開けたまま、営業を始めてしまった。",
-          "hiragana_full": "れじをあけたまま、えいぎょうをはじめてしまった。"
+          "kanji": "窓を開けたまま出かけたら、雨が吹き込んでしまった。",
+          "hiragana_full": "まどをあけたままでかけたら、あめがふきこんでしまった。"
         },
         {
-          "kanji": "レジを開けっぱなしにして、営業を始めてしまった。",
-          "hiragana_full": "れじをあけっぱなしにして、えいぎょうをはじめてしまった。"
+          "kanji": "窓を開けっぱなしにして出かけたので、部屋に雨が入った。",
+          "hiragana_full": "まどをあけっぱなしにしてでかけたので、へやにあめがはいった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "窓",
+          "reading": "まど",
+          "meaning": "window"
+        },
+        {
+          "word": "出かけたら",
+          "reading": "でかけたら",
+          "meaning": "when I went out"
+        }
+      ]
     },
     {
       "id": "n3_027_6",
@@ -150,13 +167,13 @@
       "translation": "Please do not sleep with your computer left on.",
       "blank_target": "っぱなし",
       "wrong_choices": [
-        "たまま",
-        "たきり",
+        "たこと",
+        "たついで",
         "たところ"
       ],
       "wrong_choice_explanations": [
-        "つけたまま is grammatical and describes the computer being on as a neutral, unchanged state. っぱなし adds the careless-and-wasteful nuance the warning relies on — leaving a machine running unattended overnight.",
-        "つけたきり means 'turned it on and nothing further happened' — emphasizing that no follow-up action occurred. The sentence isn't about absence of follow-up; it's about negligently leaving the machine in a running state, which is what っぱなし conveys.",
+        "たことにする means 'to treat something as done / pretend it happened' (つけたことにする = 'pretend to have turned it on'), not 'leave it on'. っぱなし means the computer was carelessly left on.",
+        "ついで means 'while at it / on the occasion of' (出かけたついでに買い物する); it introduces a second action and says nothing about the computer being left on. っぱなし means it was carelessly left on.",
         "つけたところ means 'just turned it on,' marking the moment of action. The warning is about the sustained on-state while you sleep, not the instant of switching it on — that ongoing neglect is what っぱなし captures."
       ],
       "hiragana_full": "ぱそこんをつけっぱなしにしてねないでください。",
@@ -170,7 +187,8 @@
           "hiragana_full": "ぱそこんをつけっぱなしでねないでください。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n3_027_7",
@@ -178,13 +196,13 @@
       "translation": "I ended up going out with the air conditioner still on.",
       "blank_target": "っぱなし",
       "wrong_choices": [
-        "たまま",
-        "たきり",
+        "たこと",
+        "たついで",
         "たところ"
       ],
       "wrong_choice_explanations": [
-        "つけたまま is grammatical and means simply 'with it left on' — a neutral state. っぱなし adds the wasted-electricity, careless-abandonment nuance that fits 'went out and forgot about it.'",
-        "つけたきり means 'turned it on and that was the end of it,' marking a one-time action with no follow-up. The sentence isn't about doing-and-stopping; it's about the AC running unattended while you're out, which is what っぱなし conveys.",
+        "たことにする means 'to treat something as done / pretend it happened' (つけたことにする = 'pretend to have turned it on'), not 'leave it running'. っぱなし means the air conditioner was carelessly left running.",
+        "ついで means 'while at it / on the occasion of' (出かけたついでに買い物する); it introduces a second action and says nothing about the air conditioner being left running. っぱなし means it was carelessly left running.",
         "つけたところ means 'just turned it on,' a snapshot of the moment of action. The sentence describes the appliance still running after you've left — a sustained, neglected on-state, which is っぱなし's territory."
       ],
       "hiragana_full": "えあこんをつけっぱなしにして、でかけてしまった。",
@@ -198,7 +216,8 @@
           "hiragana_full": "えあこんをつけっぱなしで、でかけてしまった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n3_027_8",
@@ -206,13 +225,13 @@
       "translation": "I left the light on and my electricity bill ended up going up.",
       "blank_target": "っぱなし",
       "wrong_choices": [
-        "たまま",
-        "たきり",
+        "たはず",
+        "たついで",
         "たところ"
       ],
       "wrong_choice_explanations": [
-        "つけたまま is grammatical and describes the light staying on as a neutral, unchanged state. っぱなし adds the careless-and-wasteful layer that motivates the second clause — wasted electricity drove the bill up.",
-        "つけたきり means 'turned it on and that was the last of it,' emphasizing that nothing else happened afterward. The sentence isn't about absence of follow-up actions; it's about the light burning unattended for so long that the bill climbed, which is っぱなし's careless-continuation sense.",
+        "はず expresses expectation ('it should have been turned on'), which doesn't explain what happened here. っぱなし means the light was carelessly left on.",
+        "ついで means 'while at it / on the occasion of' (出かけたついでに買い物する); it introduces a second action and says nothing about the light being left on. っぱなし means it was carelessly left on.",
         "つけたところ means 'the moment I turned it on' — a point in time. The sentence is about the prolonged on-state that drove the bill up, not the instant of switching the light on, so っぱなし fits."
       ],
       "hiragana_full": "らいとをつけっぱなしで、でんきだいがたかくなりました。",
@@ -226,7 +245,15 @@
           "hiragana_full": "でんきをつけっぱなしにしたので、でんきだいがたかくなりました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "電気代",
+          "reading": "でんきだい",
+          "meaning": "electricity bill"
+        }
+      ]
     },
     {
       "id": "n3_027_9",
@@ -234,13 +261,13 @@
       "translation": "The TV was left on and nobody was watching it.",
       "blank_target": "っぱなし",
       "wrong_choices": [
-        "たまま",
-        "たきり",
+        "たはず",
+        "たついで",
         "たところ"
       ],
       "wrong_choice_explanations": [
-        "〜まま describes an unchanged state neutrally, but っぱなし conveys the wastefulness and negligence of leaving the TV on with no one watching.",
-        "〜きり means 'since then / only,' suggesting nothing further happened, but the focus here is on the ongoing neglected state of the TV being on.",
+        "はず expresses expectation ('it should have been turned on'), which doesn't explain what happened here. っぱなし means the TV was carelessly left on.",
+        "ついで means 'while at it / on the occasion of' (出かけたついでに買い物する); it introduces a second action and says nothing about the TV being left on. っぱなし means it was carelessly left on.",
         "〜たところ means 'just when' or 'having just done,' describing timing, not the negligent state of leaving something running."
       ],
       "hiragana_full": "てれびをつけっぱなしで、だれもみていなかった。",
@@ -254,7 +281,8 @@
           "hiragana_full": "だれもてれびをみていなかったのに、つけっぱなしだった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n3_027_10",
@@ -262,13 +290,13 @@
       "translation": "I left the water running and the water bill went up.",
       "blank_target": "っぱなし",
       "wrong_choices": [
-        "たまま",
-        "たきり",
+        "たこと",
+        "たついで",
         "たところ"
       ],
       "wrong_choice_explanations": [
-        "〜まま means 'as-is,' describing an unchanged state neutrally, but っぱなし specifically implies careless neglect—fitting the consequence of a high bill.",
-        "〜きり means 'since then / nothing but,' suggesting nothing else happened, not the ongoing negligent state that caused the expense.",
+        "たことにする means 'to treat something as done / pretend it happened' (出したことにする = 'pretend to have turned it on'), not 'leave it running'. っぱなし means the water was carelessly left running.",
+        "ついで means 'while at it / on the occasion of' (出かけたついでに買い物する); it introduces a second action and says nothing about the water being left running. っぱなし means it was carelessly left running.",
         "〜たところ means 'just when / having just done,' referring to timing, not the careless leaving of water running."
       ],
       "hiragana_full": "みずをだしっぱなしにして、すいどうだいがたかくなった。",
@@ -282,7 +310,15 @@
           "hiragana_full": "みずをだしっぱなしにしていたら、すいどうだいがたかくなってしまった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "水道代",
+          "reading": "すいどうだい",
+          "meaning": "water bill"
+        }
+      ]
     }
   ]
 }

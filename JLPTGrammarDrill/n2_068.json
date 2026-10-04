@@ -1,7 +1,7 @@
 {
   "id": "n2_068",
-  "pattern": "〜にわたって",
-  "meaning": "spanning / over / throughout (a range of time or space)",
+  "pattern": "〜にわたって／にわたる",
+  "meaning": "spanning / over / throughout (a range of time or space; にわたる modifies a noun)",
   "level": "N2",
   "exercises": [
     {
@@ -30,234 +30,23 @@
           "hiragana_full": "ごねんにわたり、そのさっかのさくひんをあつめつづけた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "作家",
+          "reading": "さっか",
+          "meaning": "author/writer"
+        },
+        {
+          "word": "集める",
+          "reading": "あつめる",
+          "meaning": "to collect"
+        }
+      ]
     },
     {
       "id": "n2_068_2",
-      "example_sentence": "三ヶ月にわたって、この地域で調査が行われた。",
-      "translation": "Research was conducted in this region over three months.",
-      "blank_target": "にわたって",
-      "wrong_choices": [
-        "のあいだに",
-        "以内に",
-        "ぶりに"
-      ],
-      "wrong_choice_explanations": [
-        "三ヶ月のあいだに means 'at some point within the three months' and points to a single moment inside the period, whereas にわたって stresses that the research continued across the entire three months.",
-        "三ヶ月以内に sets a deadline ('within three months'), marking a limit by which something happens, not the continuous duration across the period that にわたって expresses.",
-        "三ヶ月ぶりに means 'for the first time in three months' and looks back at the gap since it last happened, the opposite of にわたって's sense of continuing throughout."
-      ],
-      "hiragana_full": "さんかげつにわたって、このちいきでちょうさがおこなわれた。",
-      "audio_alternatives": [
-        {
-          "kanji": "三ヶ月間、この地域で調査が実施された。",
-          "hiragana_full": "さんかげつかん、このちいきでちょうさがじっしされた。"
-        },
-        {
-          "kanji": "この地域では、三ヶ月にわたり調査が行われた。",
-          "hiragana_full": "このちいきでは、さんかげつにわたりちょうさがおこなわれた。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_068_3",
-      "example_sentence": "二年にわたって、彼は病院で治療を受けた。",
-      "translation": "He received treatment at the hospital over two years.",
-      "blank_target": "にわたって",
-      "wrong_choices": [
-        "のうちに",
-        "ごとに",
-        "にかけて"
-      ],
-      "wrong_choice_explanations": [
-        "二年のうちに means 'within two years (before the time runs out)' and suggests acting while there is still time, not receiving treatment across the whole two years as にわたって does.",
-        "二年ごとに would mean 'every two years', a repeating interval rather than continuous treatment spanning the entire period, which にわたって expresses.",
-        "にかけて marks movement toward an end point and usually needs a starting point (Xから…にかけて); alone it can't show treatment spanning the full two years that にわたって conveys."
-      ],
-      "hiragana_full": "にねんにわたって、かれはびょういんでちりょうをうけた。",
-      "audio_alternatives": [
-        {
-          "kanji": "二年間、彼は病院で治療を受けた。",
-          "hiragana_full": "にねんかん、かれはびょういんでちりょうをうけた。"
-        },
-        {
-          "kanji": "彼は二年にわたり、病院で治療を受けた。",
-          "hiragana_full": "かれはにねんにわたり、びょういんでちりょうをうけた。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_068_4",
-      "example_sentence": "十年にわたって、海外赴任を経験した。",
-      "translation": "I experienced overseas assignments over ten years.",
-      "blank_target": "にわたって",
-      "wrong_choices": [
-        "ぶりに",
-        "のあいだに",
-        "おきに"
-      ],
-      "wrong_choice_explanations": [
-        "十年ぶりに means 'for the first time in ten years', emphasizing the gap since the last time, whereas にわたって describes overseas postings continuing across the whole ten years.",
-        "十年のあいだに means 'at some point within the ten years' and points to a single occasion inside the span, not experience extending across the entire decade as にわたって does.",
-        "十年おきに means 'at ten-year intervals, with gaps in between'; it describes something recurring with breaks, not the continuous span that にわたって expresses."
-      ],
-      "hiragana_full": "じゅうねんにわたって、かいがいふにんをけいけんした。",
-      "audio_alternatives": [
-        {
-          "kanji": "十年間、海外赴任を経験した。",
-          "hiragana_full": "じゅうねんかん、かいがいふにんをけいけんした。"
-        },
-        {
-          "kanji": "十年にわたり、海外赴任を経験しました。",
-          "hiragana_full": "じゅうねんにわたり、かいがいふにんをけいけんしました。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_068_5",
-      "example_sentence": "四年にわたって、フィールド調査が続けられた。",
-      "translation": "Field research was continued over four years.",
-      "blank_target": "にわたって",
-      "wrong_choices": [
-        "ごとに",
-        "おきに",
-        "のあいだに"
-      ],
-      "wrong_choice_explanations": [
-        "四年ごとに would mean 'every four years', a recurring interval, not research that continued unbroken across the whole period, which にわたって conveys.",
-        "四年おきに means 'at four-year intervals, with a gap each time'; it implies the research stopped and restarted, unlike the continuous span of にわたって.",
-        "四年のあいだに means 'at some point within the four years' and marks a single moment inside the period, whereas にわたって stresses it continued throughout."
-      ],
-      "hiragana_full": "よねんにわたって、フィールドちょうさがつづけられた。",
-      "audio_alternatives": [
-        {
-          "kanji": "四年間、フィールド調査が続けられた。",
-          "hiragana_full": "よねんかん、フィールドちょうさがつづけられた。"
-        },
-        {
-          "kanji": "四年にわたり、フィールド調査が続けられた。",
-          "hiragana_full": "よねんにわたり、フィールドちょうさがつづけられた。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_068_6",
-      "example_sentence": "全国にわたって、この商品の販売が開始された。",
-      "translation": "Sales of this product began throughout the entire country.",
-      "blank_target": "にわたって",
-      "wrong_choices": [
-        "に対して",
-        "をめぐって",
-        "にかけて"
-      ],
-      "wrong_choice_explanations": [
-        "に対して marks a target or opponent ('toward/against'); it doesn't express sales spreading across an area, which is what にわたって does for 全国.",
-        "をめぐって means 'concerning / centered on (an issue)'; it frames a matter of dispute, not coverage extending across the whole country as にわたって conveys.",
-        "にかけて needs two end points (Xから…にかけて) to mark a stretch; 全国にかけて alone can't express coverage spanning the entire country the way 全国にわたって does."
-      ],
-      "hiragana_full": "ぜんこくにわたって、このしょうひんのはんばいがかいしされた。",
-      "audio_alternatives": [
-        {
-          "kanji": "全国で、この商品の販売が始まった。",
-          "hiragana_full": "ぜんこくで、このしょうひんのはんばいがはじまった。"
-        },
-        {
-          "kanji": "この商品は全国で販売が開始された。",
-          "hiragana_full": "このしょうひんはぜんこくではんばいがかいしされた。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_068_7",
-      "example_sentence": "六ヶ月にわたって、新製品の開発が進められた。",
-      "translation": "New product development was advanced over six months.",
-      "blank_target": "にわたって",
-      "wrong_choices": [
-        "以内に",
-        "のうちに",
-        "にかけて"
-      ],
-      "wrong_choice_explanations": [
-        "六ヶ月以内に sets a deadline ('within six months'), marking a cutoff rather than the continuous span across the period that にわたって expresses.",
-        "六ヶ月のうちに means 'within six months (before time runs out)', suggesting completion while there is still time, not development continuing across the whole period as にわたって does.",
-        "にかけて marks movement toward an end point and usually needs a starting point (Xから…にかけて); on its own it can't express development spanning the full six months that にわたって conveys."
-      ],
-      "hiragana_full": "ろっかげつにわたって、しんせいひんのかいはつがすすめられた。",
-      "audio_alternatives": [
-        {
-          "kanji": "六ヶ月をかけて、新製品の開発が進められた。",
-          "hiragana_full": "ろっかげつをかけて、しんせいひんのかいはつがすすめられた。"
-        },
-        {
-          "kanji": "六ヶ月間にわたり、新製品の開発が進められた。",
-          "hiragana_full": "ろっかげつかんにわたり、しんせいひんのかいはつがすすめられた。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_068_8",
-      "example_sentence": "一週間にわたって、集中的な訓練が行われた。",
-      "translation": "Intensive training was conducted over one week.",
-      "blank_target": "にわたって",
-      "wrong_choices": [
-        "のあいだに",
-        "以内に",
-        "ごとに"
-      ],
-      "wrong_choice_explanations": [
-        "一週間のあいだに means 'at some point during the week' and points to a single moment inside it, whereas にわたって stresses the training continued across the entire week.",
-        "一週間以内に sets a deadline ('within a week'), marking a limit by which something happens, not the continuous span across the week that にわたって expresses.",
-        "一週間ごとに would mean 'every week', a repeating interval, rather than intensive training continuing throughout the one week, which にわたって conveys."
-      ],
-      "hiragana_full": "いっしゅうかんにわたって、しゅうちゅうてきなくんれんがおこなわれた。",
-      "audio_alternatives": [
-        {
-          "kanji": "一週間を通じて、集中的な訓練が実施された。",
-          "hiragana_full": "いっしゅうかんをつうじて、しゅうちゅうてきなくんれんがじっしされた。"
-        },
-        {
-          "kanji": "一週間かけて、集中的な訓練が行われた。",
-          "hiragana_full": "いっしゅうかんかけて、しゅうちゅうてきなくんれんがおこなわれた。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_068_9",
-      "example_sentence": "八時間にわたって、会議が続いた。",
-      "translation": "The meeting continued over eight hours.",
-      "blank_target": "にわたって",
-      "wrong_choices": [
-        "ごとに",
-        "おきに",
-        "のうちに"
-      ],
-      "wrong_choice_explanations": [
-        "八時間ごとに would mean 'every eight hours', a recurring interval, not a single meeting lasting continuously across eight hours, which にわたって expresses.",
-        "八時間おきに means 'at eight-hour intervals, with gaps in between'; it implies repeated separate meetings, not one meeting spanning eight hours as にわたって conveys.",
-        "八時間のうちに means 'within eight hours (before time is up)', suggesting something done while there is still time, not the meeting continuing across the whole eight hours as にわたって does."
-      ],
-      "hiragana_full": "はちじかんにわたって、かいぎがつづいた。",
-      "audio_alternatives": [
-        {
-          "kanji": "会議は八時間以上続いた。",
-          "hiragana_full": "かいぎははちじかんいじょうつづいた。"
-        },
-        {
-          "kanji": "会議が八時間にわたり続いた。",
-          "hiragana_full": "かいぎがはちじかんにわたりつづいた。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_068_10",
       "example_sentence": "複数の県にわたって、台風の被害が報告された。",
       "translation": "Typhoon damage was reported across multiple prefectures.",
       "blank_target": "にわたって",
@@ -282,7 +71,353 @@
           "hiragana_full": "ふくすうのけんにまたがり、たいふうによるひがいがほうこくされた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "複数",
+          "reading": "ふくすう",
+          "meaning": "multiple"
+        },
+        {
+          "word": "台風",
+          "reading": "たいふう",
+          "meaning": "typhoon"
+        },
+        {
+          "word": "被害",
+          "reading": "ひがい",
+          "meaning": "damage"
+        }
+      ]
+    },
+    {
+      "id": "n2_068_3",
+      "example_sentence": "三日間にわたって、祭りが行われる。",
+      "translation": "The festival will be held over three days.",
+      "blank_target": "にわたって",
+      "wrong_choices": [
+        "の後で",
+        "をめぐって",
+        "に基づいて"
+      ],
+      "wrong_choice_explanations": [
+        "の後で means 'after' and indicates sequence, not the duration that the festival spans.",
+        "をめぐって means 'around/concerning' and is used for topics of discussion or debate, not time spans.",
+        "に基づいて means 'based on' and indicates foundation or basis, not duration."
+      ],
+      "hiragana_full": "みっかかんにわたって、まつりがおこなわれる。",
+      "audio_alternatives": [
+        {
+          "kanji": "三日間にわたり、祭りが行われる。",
+          "hiragana_full": "みっかかんにわたり、まつりがおこなわれる。"
+        },
+        {
+          "kanji": "祭りは三日間にわたって行われる。",
+          "hiragana_full": "まつりはみっかかんにわたっておこなわれる。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "行われる",
+          "reading": "おこなわれる",
+          "meaning": "is held, takes place"
+        }
+      ]
+    },
+    {
+      "id": "n2_068_4",
+      "example_sentence": "アジア全体にわたって、この文化は広がっている。",
+      "translation": "This culture has spread throughout all of Asia.",
+      "blank_target": "にわたって",
+      "wrong_choices": [
+        "に沿って",
+        "に比べて",
+        "に応じて"
+      ],
+      "wrong_choice_explanations": [
+        "に沿って means 'along/following' and is used for linear paths or adherence to guidelines, not broad geographical coverage.",
+        "に比べて means 'compared to' and is used for making comparisons, not indicating geographical span.",
+        "に応じて means 'according to/depending on' and indicates response or adaptation, not spatial coverage."
+      ],
+      "hiragana_full": "あじあぜんたいにわたって、このぶんかはひろがっている。",
+      "audio_alternatives": [
+        {
+          "kanji": "アジア全体を通じて、この文化は広まっている。",
+          "hiragana_full": "あじあぜんたいをつうじて、このぶんかはひろまっている。"
+        },
+        {
+          "kanji": "この文化はアジア全体に広がっている。",
+          "hiragana_full": "このぶんかはあじあぜんたいにひろがっている。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "全体",
+          "reading": "ぜんたい",
+          "meaning": "the whole, entirety"
+        },
+        {
+          "word": "広がっている",
+          "reading": "ひろがっている",
+          "meaning": "is spreading"
+        }
+      ]
+    },
+    {
+      "id": "n2_068_5",
+      "example_sentence": "数ヶ月にわたって、その問題について議論された。",
+      "translation": "The issue was discussed over several months.",
+      "blank_target": "にわたって",
+      "wrong_choices": [
+        "に先立って",
+        "に加えて",
+        "に反して"
+      ],
+      "wrong_choice_explanations": [
+        "に先立って means 'prior to/before' and indicates something happening before another event, not duration.",
+        "に加えて means 'in addition to' and indicates adding something extra, not time span.",
+        "に反して means 'contrary to/against' and indicates opposition or contradiction, not duration of discussion."
+      ],
+      "hiragana_full": "すうかげつにわたって、そのもんだいについてぎろんされた。",
+      "audio_alternatives": [
+        {
+          "kanji": "数ヶ月間、その問題が議論された。",
+          "hiragana_full": "すうかげつかん、そのもんだいがぎろんされた。"
+        },
+        {
+          "kanji": "その問題は数ヶ月にわたって議論された。",
+          "hiragana_full": "そのもんだいはすうかげつにわたってぎろんされた。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "議論",
+          "reading": "ぎろん",
+          "meaning": "discussion, argument"
+        }
+      ]
+    },
+    {
+      "id": "n2_068_6",
+      "example_sentence": "十年にわたる継続研究の成果が集大成された。",
+      "translation": "The results of continuous research spanning ten years were compiled.",
+      "blank_target": "にわたる",
+      "wrong_choices": [
+        "にかけての",
+        "間での",
+        "による"
+      ],
+      "wrong_choice_explanations": [
+        "にかけての indicates 'toward/leading up to' but doesn't express the continuous duration that にわたる conveys.",
+        "間での means 'during/within' but lacks the sense of continuous spanning that にわたる provides.",
+        "による means 'by means of/due to' and indicates causation or method, not duration over time."
+      ],
+      "hiragana_full": "じゅうねんにわたるけいぞくけんきゅうのせいかがしゅうたいせいされた。",
+      "audio_alternatives": [
+        {
+          "kanji": "十年間の継続研究の成果がまとめられた。",
+          "hiragana_full": "じゅうねんかんのけいぞくけんきゅうのせいかがまとめられた。"
+        },
+        {
+          "kanji": "十年にわたる研究の成果が集約された。",
+          "hiragana_full": "じゅうねんにわたるけんきゅうのせいかがしゅうやくされた。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "継続",
+          "reading": "けいぞく",
+          "meaning": "continuation"
+        },
+        {
+          "word": "集大成",
+          "reading": "しゅうたいせい",
+          "meaning": "culmination, compilation"
+        }
+      ]
+    },
+    {
+      "id": "n2_068_7",
+      "example_sentence": "長期にわたる計画が成功した。",
+      "translation": "The plan, which spanned a long period, succeeded.",
+      "blank_target": "にわたる",
+      "wrong_choices": [
+        "による",
+        "での",
+        "からの"
+      ],
+      "wrong_choice_explanations": [
+        "による indicates means or cause ('by means of'), which doesn't fit the context of describing a plan's duration.",
+        "での indicates location or method ('at/in'), but doesn't express the temporal spanning meaning needed here.",
+        "からの means 'from' and indicates a starting point, but doesn't convey the continuous extension over time like にわたる."
+      ],
+      "hiragana_full": "ちょうきにわたるけいかくがせいこうした",
+      "audio_alternatives": [
+        {
+          "kanji": "長期にわたる計画がうまくいった。",
+          "hiragana_full": "ちょうきにわたるけいかくがうまくいった"
+        },
+        {
+          "kanji": "長期的な計画が成功した。",
+          "hiragana_full": "ちょうきてきなけいかくがせいこうした"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "長期",
+          "reading": "ちょうき",
+          "meaning": "long term"
+        },
+        {
+          "word": "計画",
+          "reading": "けいかく",
+          "meaning": "plan"
+        },
+        {
+          "word": "成功",
+          "reading": "せいこう",
+          "meaning": "success"
+        }
+      ]
+    },
+    {
+      "id": "n2_068_8",
+      "example_sentence": "数か月にわたる治療を受けた。",
+      "translation": "I received treatment spanning several months.",
+      "blank_target": "にわたる",
+      "wrong_choices": [
+        "ごとの",
+        "毎の",
+        "おきの"
+      ],
+      "wrong_choice_explanations": [
+        "ごとの means 'every' or 'each', indicating intervals rather than continuous spanning duration like にわたる.",
+        "毎の means 'every', suggesting regular intervals rather than the continuous treatment period that にわたる describes.",
+        "おきの means 'every other' or at intervals, which contradicts the continuous spanning meaning of にわたる."
+      ],
+      "hiragana_full": "すうかげつにわたるちりょうをうけた",
+      "audio_alternatives": [
+        {
+          "kanji": "数か月間の治療を受けた。",
+          "hiragana_full": "すうかげつかんのちりょうをうけた"
+        },
+        {
+          "kanji": "数か月にわたる治療を受けました。",
+          "hiragana_full": "すうかげつにわたるちりょうをうけました"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "治療",
+          "reading": "ちりょう",
+          "meaning": "(medical) treatment"
+        }
+      ]
+    },
+    {
+      "id": "n2_068_9",
+      "example_sentence": "数世代にわたる伝統が受け継がれている。",
+      "translation": "Traditions spanning several generations are being passed down.",
+      "blank_target": "にわたる",
+      "wrong_choices": [
+        "に限った",
+        "の中での",
+        "によって"
+      ],
+      "wrong_choice_explanations": [
+        "「に限った」 means 'limited to (only) several generations', a restriction. 「にわたる」 says the tradition spans several generations.",
+        "の中での means 'within' or 'during', but doesn't emphasize the continuous spanning across generations like にわたる.",
+        "によって means 'by' or 'through', indicating means or agent, but doesn't express the temporal spanning meaning needed here."
+      ],
+      "hiragana_full": "すうせだいにわたるでんとうがうけつがれている",
+      "audio_alternatives": [
+        {
+          "kanji": "数世代にまたがる伝統が継承されている。",
+          "hiragana_full": "すうせだいにまたがるでんとうがけいしょうされている"
+        },
+        {
+          "kanji": "何世代にもわたる伝統が受け継がれてきた。",
+          "hiragana_full": "なんせだいにもわたるでんとうがうけつがれてきた"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "世代",
+          "reading": "せだい",
+          "meaning": "generation"
+        },
+        {
+          "word": "伝統",
+          "reading": "でんとう",
+          "meaning": "tradition"
+        },
+        {
+          "word": "受け継がれている",
+          "reading": "うけつがれている",
+          "meaning": "is handed down"
+        }
+      ]
+    },
+    {
+      "id": "n2_068_10",
+      "example_sentence": "各地にわたる支店を統合する予定だ。",
+      "translation": "We plan to integrate branches spanning various locations.",
+      "blank_target": "にわたる",
+      "wrong_choices": [
+        "にかけた",
+        "を中心とした",
+        "に基づく"
+      ],
+      "wrong_choice_explanations": [
+        "にかけた means 'spent on' or 'devoted to', but doesn't describe geographical distribution like にわたる does.",
+        "を中心とした means 'centered on', indicating a focal point rather than the widespread distribution that にわたる expresses.",
+        "に基づく means 'based on', indicating foundation or basis, which doesn't fit the context of describing branch locations."
+      ],
+      "hiragana_full": "かくちにわたるしてんをとうごうするよていだ",
+      "audio_alternatives": [
+        {
+          "kanji": "各地の支店を一つにまとめる予定だ。",
+          "hiragana_full": "かくちのしてんをひとつにまとめるよていだ"
+        },
+        {
+          "kanji": "各地に広がる支店を統合する計画だ。",
+          "hiragana_full": "かくちにひろがるしてんをとうごうするけいかくだ"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "各地",
+          "reading": "かくち",
+          "meaning": "various regions"
+        },
+        {
+          "word": "支店",
+          "reading": "してん",
+          "meaning": "branch office"
+        },
+        {
+          "word": "統合",
+          "reading": "とうごう",
+          "meaning": "integration, merger"
+        }
+      ]
     }
   ]
 }

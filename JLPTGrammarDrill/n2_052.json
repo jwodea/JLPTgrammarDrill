@@ -10,14 +10,14 @@
       "translation": "If we assume that theory is correct, we need to reconsider the definition of art.",
       "blank_target": "とすれば",
       "wrong_choices": [
-        "とすると",
-        "としたら",
-        "なら"
+        "としても",
+        "限り",
+        "以上"
       ],
       "wrong_choice_explanations": [
-        "とすると implies a more immediate logical consequence, but this sentence needs とすれば to express hypothetical reasoning about assuming the theory's correctness.",
-        "としたら suggests a more conditional 'what if' scenario, but this context requires とすれば to express the formal assumption of the theory's validity.",
-        "なら is a simple conditional that doesn't convey the hypothetical reasoning nuance needed here; とすれば specifically indicates we're supposing something for the sake of argument."
+        "「としても」 means 'even if' — it concedes the point and the main clause holds regardless, whereas 「とすれば」 makes the conclusion follow FROM the hypothetical premise.",
+        "「限り」 means 'as long as / so long as,' a durative scope condition, not the one-off supposition 'if we assume' that 「とすれば」 sets up.",
+        "「以上」 means 'since / now that' and treats the premise as an established fact, whereas 「とすれば」 only supposes it hypothetically."
       ],
       "hiragana_full": "そのりろんがただしいとすれば、びじゅつのていぎをみなおすひつようがある。",
       "audio_alternatives": [
@@ -30,7 +30,25 @@
           "hiragana_full": "そのりろんがただしいとしたら、びじゅつのていぎをみなおすひつようがある。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "理論",
+          "reading": "りろん",
+          "meaning": "theory"
+        },
+        {
+          "word": "定義",
+          "reading": "ていぎ",
+          "meaning": "definition"
+        },
+        {
+          "word": "見直す",
+          "reading": "みなおす",
+          "meaning": "to review/reconsider"
+        }
+      ]
     },
     {
       "id": "n2_052_2",
@@ -38,14 +56,14 @@
       "translation": "Supposing he really does resign, what will we do about a successor?",
       "blank_target": "とすれば",
       "wrong_choices": [
-        "とすると",
+        "としても",
         "だとしたら",
-        "なら"
+        "とは"
       ],
       "wrong_choice_explanations": [
-        "とすると would imply a more direct logical consequence, but this sentence needs とすれば to express the hypothetical consideration of his potential resignation.",
+        "「としても」 means 'even if' — it concedes the point and the main clause holds regardless, whereas 「とすれば」 makes the conclusion follow FROM the hypothetical premise.",
         "だとしたら is used for assumptions about states or conditions, but とすれば is needed here to express hypothetical reasoning about his action of resigning.",
-        "なら would make this a simple conditional, but the context requires とすれば to convey the meaning of 'supposing' or 'assuming for argument's sake.'"
+        "「とは」 marks exclamatory surprise ('to think that…'), not a hypothetical premise; the sentence needs 「とすれば」 ('if we assume')."
       ],
       "hiragana_full": "かれがほんとうにじしょくするとすれば、あとつぎをどうするのか。",
       "audio_alternatives": [
@@ -58,7 +76,20 @@
           "hiragana_full": "かれがほんとうにじしょくするなら、こうけいしゃをどうするのか。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "辞職",
+          "reading": "じしょく",
+          "meaning": "resignation"
+        },
+        {
+          "word": "跡継ぎ",
+          "reading": "あとつぎ",
+          "meaning": "successor"
+        }
+      ]
     },
     {
       "id": "n2_052_3",
@@ -66,12 +97,12 @@
       "translation": "If we assume his claim is correct, we need to change our response measures.",
       "blank_target": "とすれば",
       "wrong_choices": [
-        "とすると",
+        "からには",
         "としても",
         "以上"
       ],
       "wrong_choice_explanations": [
-        "とすると suggests a more immediate logical result, but this sentence needs とすれば to express the hypothetical assumption of his claim's validity.",
+        "「からには」 means 'now that / since,' presupposing the premise is actually true, unlike the hypothetical 「とすれば」 ('if we assume').",
         "としても means 'even if' and would contradict the sentence's logic; とすれば is needed to express supposing his claim for the sake of argument.",
         "〜以上 asserts the premise as a known, established fact ('given that his claim IS correct'), but this sentence is hypothesizing — とすれば leaves the claim's correctness as a supposition rather than treating it as already true."
       ],
@@ -86,7 +117,25 @@
           "hiragana_full": "かれのしゅちょうがただしいならば、たいおうさくをへんこうしなければならない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "主張",
+          "reading": "しゅちょう",
+          "meaning": "claim/assertion"
+        },
+        {
+          "word": "対応策",
+          "reading": "たいおうさく",
+          "meaning": "countermeasure"
+        },
+        {
+          "word": "変更",
+          "reading": "へんこう",
+          "meaning": "change"
+        }
+      ]
     },
     {
       "id": "n2_052_4",
@@ -94,13 +143,13 @@
       "translation": "If we assume this new business becomes profitable, when would that be?",
       "blank_target": "とすれば",
       "wrong_choices": [
-        "とすると",
-        "としたら",
+        "ものの",
+        "以上",
         "ものなら"
       ],
       "wrong_choice_explanations": [
-        "とすると would suggest a more direct logical consequence, but this sentence needs とすれば to express hypothetical reasoning about the business's potential profitability.",
-        "としたら is more casual and suggests a 'what if' scenario, but とすれば is needed here for the formal tone of supposing the business outcome.",
+        "「ものの」 means 'although' and concedes an established fact before a contrast, but whether the business becomes profitable is only being supposed here, so a concessive clause does not fit before the question.",
+        "「以上」 means 'since / now that' and treats the premise as an established fact, whereas 「とすれば」 only supposes it hypothetically.",
         "ものなら implies an impossible or very difficult condition, but とすれば is appropriate here for reasonable hypothetical assumptions about business success."
       ],
       "hiragana_full": "このしんきじぎょうがくろじかするとすれば、いつごろだろうか。",
@@ -114,49 +163,39 @@
           "hiragana_full": "このしんきじぎょうがくろじかするとかていすれば、いつごろだろうか。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "新規",
+          "reading": "しんき",
+          "meaning": "new"
+        },
+        {
+          "word": "事業",
+          "reading": "じぎょう",
+          "meaning": "business/venture"
+        },
+        {
+          "word": "黒字化",
+          "reading": "くろじか",
+          "meaning": "turning profitable"
+        }
+      ]
     },
     {
       "id": "n2_052_5",
-      "example_sentence": "その理論が正しいとすれば、今後どのような展開が予想されるだろうか。",
-      "translation": "Supposing that theory is correct, what kind of developments can we expect in the future?",
-      "blank_target": "とすれば",
-      "wrong_choices": [
-        "とすると",
-        "だとしたら",
-        "として"
-      ],
-      "wrong_choice_explanations": [
-        "とすると would imply a more immediate logical result, but this sentence needs とすれば to express hypothetical reasoning about assuming the theory's correctness.",
-        "だとしたら is used for assumptions about states, but とすれば is needed here to express the formal supposition of the theory for analytical purposes.",
-        "として means 'as' or 'in the capacity of' and doesn't create a conditional meaning; とすれば is required to express the hypothetical assumption."
-      ],
-      "hiragana_full": "そのりろんがただしいとすれば、こんごどのようなてんかいがよそうされるだろうか。",
-      "audio_alternatives": [
-        {
-          "kanji": "その理論が正しいとしたら、今後どんな展開が予想されるだろうか。",
-          "hiragana_full": "そのりろんがただしいとしたら、こんごどんなてんかいがよそうされるだろうか。"
-        },
-        {
-          "kanji": "その理論が正しいならば、今後どのような展開が期待されるだろうか。",
-          "hiragana_full": "そのりろんがただしいならば、こんごどのようなてんかいがきたいされるだろうか。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_052_6",
       "example_sentence": "経済が回復するとすれば、雇用状況も改善されるはずだ。",
       "translation": "If we assume the economy recovers, the employment situation should improve as well.",
       "blank_target": "とすれば",
       "wrong_choices": [
-        "とすると",
-        "なら",
+        "としても",
+        "からには",
         "限り"
       ],
       "wrong_choice_explanations": [
-        "とすると suggests a more direct cause-and-effect relationship, but とすれば is needed here to express the hypothetical reasoning about economic recovery.",
-        "なら creates a simple conditional that lacks the nuance of hypothetical assumption; とすれば specifically conveys supposing the economic recovery as a premise.",
+        "「としても」 means 'even if' — it concedes the point and the main clause holds regardless, whereas 「とすれば」 makes the conclusion follow FROM the hypothetical premise.",
+        "「からには」 means 'now that / since,' presupposing the premise is actually true, unlike the hypothetical 「とすれば」 ('if we assume').",
         "〜限り marks an ongoing precondition ('as long as the economy keeps recovering'), but this sentence is supposing recovery as a one-time hypothetical for inferential reasoning — that is what とすれば conveys."
       ],
       "hiragana_full": "けいざいがかいふくするとすれば、こようじょうきょうもかいぜんされるはずだ。",
@@ -170,48 +209,43 @@
           "hiragana_full": "けいざいがかいふくするとかていすれば、こようじょうきょうもかいぜんされるだろう。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_052_7",
-      "example_sentence": "この計画が実現するとすれば、相当な資金が必要になる。",
-      "translation": "If we assume this plan is realized, considerable funding will be needed.",
-      "blank_target": "とすれば",
-      "wrong_choices": [
-        "とすると",
-        "としたら",
-        "とは"
-      ],
-      "wrong_choice_explanations": [
-        "とすると would imply a more immediate logical consequence, but とすれば is needed to express hypothetical reasoning about the plan's realization.",
-        "としたら suggests a more casual 'what if' scenario, but とすれば is appropriate for the formal tone of supposing the plan's implementation.",
-        "とは is used for definitions or explanations, not conditionals; とすれば is required to create the hypothetical assumption about the plan."
-      ],
-      "hiragana_full": "このけいかくがじつげんするとすれば、そうとうなしきんがひつようになる。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "この計画が実現するとしたら、相当な資金が必要になる。",
-          "hiragana_full": "このけいかくがじつげんするとしたら、そうとうなしきんがひつようになる。"
+          "word": "回復",
+          "reading": "かいふく",
+          "meaning": "recovery"
         },
         {
-          "kanji": "この計画が実現すると仮定すれば、相当な資金が必要になるだろう。",
-          "hiragana_full": "このけいかくがじつげんするとかていすれば、そうとうなしきんがひつようになるだろう。"
+          "word": "雇用",
+          "reading": "こよう",
+          "meaning": "employment"
+        },
+        {
+          "word": "状況",
+          "reading": "じょうきょう",
+          "meaning": "situation"
+        },
+        {
+          "word": "改善",
+          "reading": "かいぜん",
+          "meaning": "improvement"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n2_052_8",
+      "id": "n2_052_6",
       "example_sentence": "彼女の診断が間違っているとすれば、治療方針を見直さなければならない。",
       "translation": "Supposing her diagnosis is wrong, we would have to reconsider the treatment plan.",
       "blank_target": "とすれば",
       "wrong_choices": [
-        "とすると",
+        "としても",
         "だとしても",
         "かもしれない"
       ],
       "wrong_choice_explanations": [
-        "とすると would suggest a more direct logical result, but とすれば is needed to express the hypothetical consideration of the diagnosis being incorrect.",
+        "「としても」 means 'even if' — it concedes the point and the main clause holds regardless, whereas 「とすれば」 makes the conclusion follow FROM the hypothetical premise.",
         "だとしても means 'even if' and would change the sentence's meaning; とすれば is required to express supposing the diagnosis error as a premise.",
         "かもしれない expresses possibility, not a conditional; とすれば is needed to create the hypothetical assumption about the diagnosis being wrong."
       ],
@@ -226,48 +260,38 @@
           "hiragana_full": "かのじょのしんだんがあやまりであれば、ちりょうほうしんをみなおすひつようがある。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_052_9",
-      "example_sentence": "この薬が効果的だとすれば、副作用についても調べる必要がある。",
-      "translation": "If we assume this medicine is effective, we also need to investigate side effects.",
-      "blank_target": "とすれば",
-      "wrong_choices": [
-        "とすると",
-        "とはいえ",
-        "にしても"
-      ],
-      "wrong_choice_explanations": [
-        "とすると implies a more immediate logical consequence, but とすれば is needed to express hypothetical reasoning about assuming the medicine's effectiveness.",
-        "とはいえ means 'even so' or 'nevertheless' and doesn't create a conditional; とすれば is required to express the hypothetical assumption.",
-        "にしても means 'even if' or 'whether' and changes the sentence logic; とすれば is needed to express supposing the medicine's effectiveness for analysis."
-      ],
-      "hiragana_full": "このくすりがこうかてきだとすれば、ふくさようについてもしらべるひつようがある。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "この薬が効果的であるとすれば、副作用についても調査する必要がある。",
-          "hiragana_full": "このくすりがこうかてきであるとすれば、ふくさようについてもちょうさするひつようがある。"
+          "word": "診断",
+          "reading": "しんだん",
+          "meaning": "diagnosis"
         },
         {
-          "kanji": "この薬が効果的だとしたら、副作用についても調べなければならない。",
-          "hiragana_full": "このくすりがこうかてきだとしたら、ふくさようについてもしらべなければならない。"
+          "word": "治療",
+          "reading": "ちりょう",
+          "meaning": "treatment"
+        },
+        {
+          "word": "方針",
+          "reading": "ほうしん",
+          "meaning": "plan/policy"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n2_052_10",
+      "id": "n2_052_7",
       "example_sentence": "この政策が成功するとすれば、他の地域でも導入を検討すべきだろう。",
       "translation": "Supposing this policy succeeds, we should consider implementing it in other regions too.",
       "blank_target": "とすれば",
       "wrong_choices": [
-        "とすると",
+        "限り",
         "としても",
         "について"
       ],
       "wrong_choice_explanations": [
-        "とすると would suggest a more direct logical result, but とすれば is needed to express hypothetical reasoning about the policy's potential success.",
+        "「限り」 means 'as long as / so long as,' a durative scope condition, not the one-off supposition 'if we assume' that 「とすれば」 sets up.",
         "としても means 'even if' and would contradict the sentence's positive logic; とすれば is required to express supposing the policy's success as a premise.",
         "について means 'about' or 'regarding' and doesn't create a conditional meaning; とすれば is needed to express the hypothetical assumption about policy success."
       ],
@@ -282,7 +306,131 @@
           "hiragana_full": "このせいさくがせいこうすれば、ほかのちいきへのどうにゅうもけんとうすべきだろう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "政策",
+          "reading": "せいさく",
+          "meaning": "policy"
+        },
+        {
+          "word": "導入",
+          "reading": "どうにゅう",
+          "meaning": "introduction"
+        },
+        {
+          "word": "検討",
+          "reading": "けんとう",
+          "meaning": "consideration"
+        }
+      ]
+    },
+    {
+      "id": "n2_052_8",
+      "example_sentence": "彼が来るとすれば、何時頃になるだろう。",
+      "translation": "If we suppose he is coming, what time would it be?",
+      "blank_target": "とすれば",
+      "wrong_choices": [
+        "から",
+        "のに",
+        "たびに"
+      ],
+      "wrong_choice_explanations": [
+        "から presents 来る as an actual reason ('because he comes'), asserting it as fact, whereas とすれば posits his coming as an unconfirmed assumption you reason from.",
+        "のに is concessive ('even though he comes'), setting up a contrast rather than the supposition-to-question the sentence needs.",
+        "たびに means 'every time he comes', describing a recurring event, not the single uncertain arrival the sentence supposes."
+      ],
+      "hiragana_full": "かれがくるとすれば、なんじごろになるだろう。",
+      "audio_alternatives": [
+        {
+          "kanji": "彼が来るとしたら、何時頃になるだろう。",
+          "hiragana_full": "かれがくるとしたら、なんじごろになるだろう。"
+        },
+        {
+          "kanji": "彼が来ると仮定すれば、何時頃になるだろう。",
+          "hiragana_full": "かれがくるとかていすれば、なんじごろになるだろう。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral"
+    },
+    {
+      "id": "n2_052_9",
+      "example_sentence": "天気が持つとすれば、野外イベントは開催できる。",
+      "translation": "If we assume the weather holds, we can hold the outdoor event.",
+      "blank_target": "とすれば",
+      "wrong_choices": [
+        "ものの",
+        "とたん",
+        "ことがあれば"
+      ],
+      "wrong_choice_explanations": [
+        "ものの means 'although' and presents 持つ as an established fact followed by a contrast, but the sentence supposes the weather holds and draws a positive consequence, so no contrast exists.",
+        "とたん requires a past-tense verb (持ったとたん) and means 'the instant that,' marking sudden timing rather than a hypothetical premise for holding the event.",
+        "ことがあれば means 'if there are times when' but implies occasional occurrence rather than the single hypothetical assumption needed."
+      ],
+      "hiragana_full": "てんきがもつとすれば、やがいいべんとはかいさいできる。",
+      "audio_alternatives": [
+        {
+          "kanji": "天気が持つと仮定すれば、野外イベントは開催できる。",
+          "hiragana_full": "てんきがもつとかていすれば、やがいいべんとはかいさいできる。"
+        },
+        {
+          "kanji": "天気が持つなら、野外イベントを開催することができる。",
+          "hiragana_full": "てんきがもつなら、やがいいべんとをかいさいすることができる。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "野外",
+          "reading": "やがい",
+          "meaning": "outdoor"
+        },
+        {
+          "word": "開催",
+          "reading": "かいさい",
+          "meaning": "holding (an event)"
+        }
+      ]
+    },
+    {
+      "id": "n2_052_10",
+      "example_sentence": "試験に合格するとすれば、来月から新しい仕事が始まる。",
+      "translation": "If we assume I pass the exam, the new job will start next month.",
+      "blank_target": "とすれば",
+      "wrong_choices": [
+        "のに",
+        "たびに",
+        "どころか"
+      ],
+      "wrong_choice_explanations": [
+        "のに means 'even though' and implies an unexpected result, but starting a new job after passing the exam is the expected consequence, not a contrast; とすれば supposes the pass hypothetically.",
+        "たびに means 'each time you pass', implying repetition, but passing this exam is a single hypothetical event.",
+        "どころか means 'far from ~ / let alone' and needs a contrasting or stronger follow-up (合格するどころか受験もできない); passing leading to a new job is not a contrast, so it cannot replace the hypothetical premise とすれば sets up."
+      ],
+      "hiragana_full": "しけんにごうかくするとすれば、らいげつからあたらしいしごとがはじまる。",
+      "audio_alternatives": [
+        {
+          "kanji": "試験に合格するとしたら、来月から新しい仕事が始まる。",
+          "hiragana_full": "しけんにごうかくするとしたら、らいげつからあたらしいしごとがはじまる。"
+        },
+        {
+          "kanji": "試験に合格すると仮定すれば、来月から新しい仕事が始まります。",
+          "hiragana_full": "しけんにごうかくするとかていすれば、らいげつからあたらしいしごとがはじまります。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "合格",
+          "reading": "ごうかく",
+          "meaning": "passing (an exam)"
+        }
+      ]
     }
   ]
 }

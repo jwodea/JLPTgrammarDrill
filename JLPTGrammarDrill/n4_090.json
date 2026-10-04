@@ -1,23 +1,223 @@
 {
   "id": "n4_090",
-  "pattern": "～をとおして",
-  "meaning": "Through ~ / throughout ~",
+  "pattern": "〜を通じて／を通して",
+  "meaning": "Through ~ / via ~ / throughout ~",
   "level": "N4",
   "exercises": [
     {
       "id": "n4_090_1",
-      "example_sentence": "この経験をとおして、たくさんのことが学べた。",
-      "translation": "Through this experience, I was able to learn a lot.",
-      "blank_target": "を",
+      "example_sentence": "SNSを通じて、多くの人と繋がれる。",
+      "translation": "Through social media, I can connect with many people.",
+      "blank_target": "を通じて",
       "wrong_choices": [
-        "に",
-        "で",
-        "から"
+        "をめぐって",
+        "を中心に",
+        "をもとに"
       ],
       "wrong_choice_explanations": [
-        "に marks a destination or a point in time; it never combines with とおして, and 経験にとおして is not a possible form — 〜をとおして always takes を.",
-        "で would mark the experience as a plain means ('by this experience'), which exists only as 経験で on its own; でとおして is ungrammatical, so the set phrase needs を.",
-        "から means 'from' and marks a starting point; 経験からとおして is not valid, because 〜をとおして ('through, by way of') is fixed with を, not から."
+        "をめぐって means 'concerning / surrounding (an issue)', framing SNS as a topic people discuss or dispute, but here SNS is the channel through which people connect, which needs を通じて.",
+        "を中心に means 'centered on/around', focusing on something as a hub, but here SNS is a connecting medium, not a central point.",
+        "をもとに means 'based on', using something as a foundation for judgment or action, but SNS isn't a basis—it's a connecting medium."
+      ],
+      "hiragana_full": "えすえぬえすをつうじて、おおくのひととつながれる。",
+      "audio_alternatives": [
+        {
+          "kanji": "SNSを介して、多くの人と繋がることができる。",
+          "hiragana_full": "えすえぬえすをかいして、おおくのひととつながることができる。"
+        },
+        {
+          "kanji": "SNSによって、多くの人と繋がれる。",
+          "hiragana_full": "えすえぬえすによって、おおくのひととつながれる。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "をつうじて",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "繋がれる",
+          "reading": "つながれる",
+          "meaning": "can connect"
+        }
+      ]
+    },
+    {
+      "id": "n4_090_2",
+      "example_sentence": "本を通して、新しい知識を得た。",
+      "translation": "Through books, I gained new knowledge.",
+      "blank_target": "を通して",
+      "wrong_choices": [
+        "について",
+        "に関して",
+        "に対して"
+      ],
+      "wrong_choice_explanations": [
+        "について means 'about/concerning', used for topics of discussion, but books are the medium through which knowledge is gained.",
+        "に関して means 'regarding/concerning', similar to について but more formal, yet books aren't the topic but the means of gaining knowledge.",
+        "に対して means 'toward/against', showing direction or stance, but doesn't express books as a medium for gaining knowledge."
+      ],
+      "hiragana_full": "ほんをとおして、あたらしいちしきをえた。",
+      "audio_alternatives": [
+        {
+          "kanji": "読書を通じて、新しい知識を得た。",
+          "hiragana_full": "どくしょをつうじて、あたらしいちしきをえた。"
+        },
+        {
+          "kanji": "本から新しい知識を得ることができた。",
+          "hiragana_full": "ほんからあたらしいちしきをえることができた。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "をとおして",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "知識",
+          "reading": "ちしき",
+          "meaning": "knowledge"
+        },
+        {
+          "word": "得た",
+          "reading": "えた",
+          "meaning": "gained"
+        }
+      ]
+    },
+    {
+      "id": "n4_090_3",
+      "example_sentence": "会議を通じて、いろいろな意見が聞けた。",
+      "translation": "Through the meeting, I was able to hear various opinions.",
+      "blank_target": "を通じて",
+      "wrong_choices": [
+        "に比べて",
+        "に反して",
+        "にとって"
+      ],
+      "wrong_choice_explanations": [
+        "に比べて means 'compared with', but nothing is being compared — the meeting is the medium through which opinions were heard.",
+        "に反して means 'contrary to'; hearing opinions doesn't go against the meeting.",
+        "にとって means 'for / from the standpoint of'; the meeting has no viewpoint — it is the means."
+      ],
+      "hiragana_full": "かいぎをつうじて、いろいろないけんがきけた。",
+      "audio_alternatives": [
+        {
+          "kanji": "会議を通して、いろいろな意見が聞けた。",
+          "hiragana_full": "かいぎをとおして、いろいろないけんがきけた。"
+        },
+        {
+          "kanji": "会議で、いろいろな意見を聞くことができた。",
+          "hiragana_full": "かいぎで、いろいろないけんをきくことができた。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "会議",
+          "reading": "かいぎ",
+          "meaning": "meeting"
+        },
+        {
+          "word": "意見",
+          "reading": "いけん",
+          "meaning": "opinion"
+        }
+      ],
+      "blank_target_reading": "をつうじて"
+    },
+    {
+      "id": "n4_090_4",
+      "example_sentence": "インターネットを通じて、世界の情報にアクセスできる。",
+      "translation": "Through the internet, we can access information from around the world.",
+      "blank_target": "を通じて",
+      "wrong_choices": [
+        "について",
+        "に基づいて",
+        "をもって"
+      ],
+      "wrong_choice_explanations": [
+        "について means 'about/regarding', marking the internet as a topic of discussion, but here it is the medium through which information is accessed, which needs を通じて.",
+        "に基づいて means 'based on', treating the internet as a foundation, but the internet is the channel through which the information is reached, not the basis of a judgment.",
+        "をもって means 'by means of (a formal, discrete method)' or 'as of (a deadline)', and it doesn't suit a continuous channel like the internet, which is expressed with を通じて."
+      ],
+      "hiragana_full": "インターネットをつうじて、せかいのじょうほうにアクセスできる。",
+      "audio_alternatives": [
+        {
+          "kanji": "インターネットを介して、世界の情報にアクセスできる。",
+          "hiragana_full": "インターネットをかいして、せかいのじょうほうにアクセスできる。"
+        },
+        {
+          "kanji": "インターネットを使えば、世界中の情報にアクセスすることができる。",
+          "hiragana_full": "インターネットをつかえば、せかいじゅうのじょうほうにアクセスすることができる。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "をつうじて",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "情報",
+          "reading": "じょうほう",
+          "meaning": "information"
+        }
+      ]
+    },
+    {
+      "id": "n4_090_5",
+      "example_sentence": "友人を通じて、良い仕事を紹介してもらった。",
+      "translation": "Through a friend, I was introduced to a good job.",
+      "blank_target": "を通じて",
+      "wrong_choices": [
+        "に反して",
+        "のせいで",
+        "によると"
+      ],
+      "wrong_choice_explanations": [
+        "に反して means 'contrary to/against', which makes no sense here — the friend is the intermediary through whom the job was introduced.",
+        "のせいで means 'because of/due to', used for negative results or blame, which is inappropriate for a positive job introduction.",
+        "によると means 'according to', used for reporting information sources, but the friend isn't providing information—they're facilitating connection."
+      ],
+      "hiragana_full": "ゆうじんをつうじて、よいしごとをしょうかいしてもらった。",
+      "audio_alternatives": [
+        {
+          "kanji": "友人を通して、良い仕事を紹介してもらった。",
+          "hiragana_full": "ゆうじんをとおして、よいしごとをしょうかいしてもらった。"
+        },
+        {
+          "kanji": "友人の紹介で、良い仕事をもらった。",
+          "hiragana_full": "ゆうじんのしょうかいで、よいしごとをもらった。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "をつうじて",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "友人",
+          "reading": "ゆうじん",
+          "meaning": "friend"
+        },
+        {
+          "word": "紹介して",
+          "reading": "しょうかいして",
+          "meaning": "introduce and"
+        }
+      ]
+    },
+    {
+      "id": "n4_090_6",
+      "example_sentence": "この経験をとおして、たくさんのことが学べた。",
+      "translation": "Through this experience, I was able to learn a lot.",
+      "blank_target": "をとおして",
+      "wrong_choices": [
+        "に反して",
+        "に比べて",
+        "をよそに"
+      ],
+      "wrong_choice_explanations": [
+        "に反して means 'contrary to' (予想に反して); この経験に反して makes no sense here. をとおして means 'through this experience'.",
+        "に比べて means 'compared with'; この経験に比べて leaves nothing being compared. をとおして means 'through this experience'.",
+        "をよそに means 'ignoring / in disregard of'; この経験をよそに would mean learning while ignoring the experience. をとおして means 'through this experience'."
       ],
       "hiragana_full": "このけいけんをとおして、たくさんのことがまなべた。",
       "audio_alternatives": [
@@ -30,190 +230,112 @@
           "hiragana_full": "このけいけんで、たくさんのことをまなびました。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_090_2",
-      "example_sentence": "友人をとおして、その情報が手に入りました。",
-      "translation": "I obtained that information through a friend.",
-      "blank_target": "を",
-      "wrong_choices": [
-        "に",
-        "で",
-        "の"
-      ],
-      "wrong_choice_explanations": [
-        "に marks a target or recipient; here you need the intermediary pattern 友人をとおして ('through a friend'), and 友人にとおして does not exist.",
-        "で would treat the friend as a mere tool ('by means of a friend'), which sounds wrong for a person, and でとおして is not a real form; the intermediary sense requires をとおして.",
-        "の is the possessive/linking particle ('a friend's'); 友人のとおして is meaningless, since 〜をとおして needs を to mark what you go through."
-      ],
-      "hiragana_full": "ゆうじんをとおして、そのじょうほうがてにはいりました。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "友人を通じて、その情報を知りました。",
-          "hiragana_full": "ゆうじんをつうじて、そのじょうほうをしりました。"
-        },
-        {
-          "kanji": "友達を通して、その情報を知りました。",
-          "hiragana_full": "ともだちをとおして、そのじょうほうをしりました。"
+          "word": "経験",
+          "reading": "けいけん",
+          "meaning": "experience"
         }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_090_3",
-      "example_sentence": "一年をとおして、桜が咲いている地域もある。",
-      "translation": "There are regions where cherry blossoms bloom throughout the year.",
-      "blank_target": "を",
-      "wrong_choices": [
-        "に",
-        "で",
-        "の"
-      ],
-      "wrong_choice_explanations": [
-        "に points to a single moment ('at one year'); the sentence means 'throughout the whole year,' which is 一年をとおして — に cannot express that span.",
-        "で can mark a frame in which something is completed ('within a year'), but でとおして is not valid; continuous duration across the period uses をとおして.",
-        "の merely links nouns ('of a year'); 一年のとおして is not a pattern — 'throughout the year' requires 一年をとおして."
-      ],
-      "hiragana_full": "いちねんをとおして、さくらがさいているちいきもある。",
-      "audio_alternatives": [
-        {
-          "kanji": "一年中、桜が咲いている地域もある。",
-          "hiragana_full": "いちねんじゅう、さくらがさいているちいきもある。"
-        },
-        {
-          "kanji": "桜が一年をとおして咲いている地域もある。",
-          "hiragana_full": "さくらがいちねんをとおしてさいているちいきもある。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_090_4",
-      "example_sentence": "インターネットをとおして、世界中の人と話せる。",
-      "translation": "Through the internet, you can talk with people all over the world.",
-      "blank_target": "を",
-      "wrong_choices": [
-        "で",
-        "に",
-        "から"
-      ],
-      "wrong_choice_explanations": [
-        "で would mark the internet as a plain means ('on the internet'), which works alone as インターネットで but not with とおして; the 'by way of' sense here is をとおして.",
-        "に marks a destination or a location of existence; インターネットにとおして is impossible, and the medium pattern is をとおして.",
-        "から means 'from' a source; the internet here is the channel you communicate through, not where things come from, so をとおして is needed, not から."
-      ],
-      "hiragana_full": "インターネットをとおして、せかいじゅうのひととはなせる。",
-      "audio_alternatives": [
-        {
-          "kanji": "インターネットで、世界中の人と話すことができる。",
-          "hiragana_full": "インターネットで、せかいじゅうのひととはなすことができる。"
-        },
-        {
-          "kanji": "インターネットを使って、世界中の人と話せる。",
-          "hiragana_full": "インターネットをつかって、せかいじゅうのひととはなせる。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_090_5",
-      "example_sentence": "読書をとおして、語彙力が向上した。",
-      "translation": "Through reading, my vocabulary improved.",
-      "blank_target": "を",
-      "wrong_choices": [
-        "で",
-        "に",
-        "の"
-      ],
-      "wrong_choice_explanations": [
-        "で would mark reading as a simple means ('by reading'), fine as 読書で alone, but でとおして is ungrammatical; the 'through the process of' sense uses をとおして.",
-        "に would suggest a purpose or target; it cannot attach to とおして, and 読書にとおして is not a form — the activity-medium pattern is をとおして.",
-        "の only links nouns possessively; 読書のとおして has no meaning, whereas 読書をとおして means 'through reading.'"
-      ],
-      "hiragana_full": "どくしょをとおして、ごいりょくがこうじょうした。",
-      "audio_alternatives": [
-        {
-          "kanji": "本を読むことで、語彙力が上がった。",
-          "hiragana_full": "ほんをよむことで、ごいりょくがあがった。"
-        },
-        {
-          "kanji": "読書によって、語彙力が増えた。",
-          "hiragana_full": "どくしょによって、ごいりょくがふえた。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_090_6",
-      "example_sentence": "旅行をとおして、異文化が理解できた。",
-      "translation": "Through travel, I was able to understand different cultures.",
-      "blank_target": "を",
-      "wrong_choices": [
-        "で",
-        "に",
-        "から"
-      ],
-      "wrong_choice_explanations": [
-        "で would mark travel as a plain means ('by traveling'), usable as 旅行で but not with とおして; the experiential 'through' sense is をとおして.",
-        "に marks a destination or a time, not a medium; 旅行にとおして is impossible, so をとおして is required.",
-        "から means 'from' a starting point; travel is the experience you gain understanding through, not a source, so the pattern is 旅行をとおして, not から."
-      ],
-      "hiragana_full": "りょこうをとおして、いぶんかがりかいできた。",
-      "audio_alternatives": [
-        {
-          "kanji": "旅行を通じて、異文化を理解できた。",
-          "hiragana_full": "りょこうをつうじて、いぶんかをりかいできた。"
-        },
-        {
-          "kanji": "旅行のおかげで、異文化が理解できた。",
-          "hiragana_full": "りょこうのおかげで、いぶんかがりかいできた。"
-        }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
       "id": "n4_090_7",
-      "example_sentence": "練習をとおして、技術が身についた。",
-      "translation": "Through practice, I acquired skills.",
-      "blank_target": "を",
+      "example_sentence": "一年をとおして暖かい地域もある。",
+      "translation": "Some regions are warm all year round.",
+      "blank_target": "をとおして",
       "wrong_choices": [
-        "で",
-        "に",
-        "の"
+        "に比べて",
+        "について",
+        "に対して"
       ],
       "wrong_choice_explanations": [
-        "で would mark practice as a simple means ('by practicing'), fine as 練習で but not before とおして; the continuous 'through' sense needs をとおして.",
-        "に would mark a purpose or target and cannot combine with とおして; 練習にとおして is not a valid form.",
-        "の only links nouns; 練習のとおして is meaningless, while 練習をとおして means 'through practice.'"
+        "に比べて means 'compared with'; 一年に比べて leaves nothing being compared. をとおして means 'throughout the whole year'.",
+        "について means 'about / concerning'; 一年について doesn't fit this sentence. をとおして means 'throughout the whole year'.",
+        "に対して means 'toward / in contrast to'; 一年に対して doesn't fit this sentence. をとおして means 'throughout the whole year'."
       ],
-      "hiragana_full": "れんしゅうをとおして、ぎじゅつがみについた。",
+      "hiragana_full": "いちねんをとおしてあたたかいちいきもある。",
       "audio_alternatives": [
         {
-          "kanji": "練習によって、技術を身につけた。",
-          "hiragana_full": "れんしゅうによって、ぎじゅつをみにつけた。"
+          "kanji": "一年中、暖かい地域もある。",
+          "hiragana_full": "いちねんじゅう、あたたかいちいきもある。"
         },
         {
-          "kanji": "練習で、技術を身につけることができた。",
-          "hiragana_full": "れんしゅうで、ぎじゅつをみにつけることができた。"
+          "kanji": "一年を通じて、ずっと暖かい地域もある。",
+          "hiragana_full": "いちねんをつうじて、ずっとあたたかいちいきもある。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "暖かい",
+          "reading": "あたたかい",
+          "meaning": "warm"
+        },
+        {
+          "word": "地域",
+          "reading": "ちいき",
+          "meaning": "region"
+        }
+      ]
     },
     {
       "id": "n4_090_8",
-      "example_sentence": "夏をとおして、毎日泳いでいた。",
-      "translation": "Throughout the summer, I swam every day.",
-      "blank_target": "を",
+      "example_sentence": "旅行をとおして、その国の文化を知ることができた。",
+      "translation": "Through traveling, I was able to learn about that country's culture.",
+      "blank_target": "をとおして",
       "wrong_choices": [
-        "に",
-        "で",
-        "の"
+        "に比べて",
+        "にとって",
+        "に反して"
       ],
       "wrong_choice_explanations": [
-        "に marks one point in time ('in summer'); the sentence means 'all summer long,' which is 夏をとおして — に cannot show that continuous span.",
-        "で can mark a deadline or frame ('by summer'), but でとおして is not valid; 'throughout the season' uses をとおして.",
-        "の just links nouns ('of summer'); 夏のとおして is not a pattern, so 'throughout the summer' requires 夏をとおして."
+        "に比べて means 'compared with'; the trip isn't compared with anything — it is how I learned about the culture.",
+        "にとって means 'for / from the standpoint of'; the trip has no viewpoint — it is the means.",
+        "に反して means 'contrary to'; learning about the culture doesn't go against the trip."
+      ],
+      "hiragana_full": "りょこうをとおして、そのくにのぶんかをしることができた。",
+      "audio_alternatives": [
+        {
+          "kanji": "旅行を通じて、その国の文化を知ることができた。",
+          "hiragana_full": "りょこうをつうじて、そのくにのぶんかをしることができた。"
+        },
+        {
+          "kanji": "旅行で、その国の文化を知ることができた。",
+          "hiragana_full": "りょこうで、そのくにのぶんかをしることができた。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "旅行",
+          "reading": "りょこう",
+          "meaning": "travel, trip"
+        },
+        {
+          "word": "文化",
+          "reading": "ぶんか",
+          "meaning": "culture"
+        }
+      ]
+    },
+    {
+      "id": "n4_090_9",
+      "example_sentence": "夏をとおして、毎日泳いでいた。",
+      "translation": "Throughout the summer, I swam every day.",
+      "blank_target": "をとおして",
+      "wrong_choices": [
+        "に対して",
+        "について",
+        "に反して"
+      ],
+      "wrong_choice_explanations": [
+        "に対して means 'toward / in contrast to'; 夏に対して doesn't fit this sentence. をとおして means 'all through the summer'.",
+        "について means 'about / concerning'; 夏について doesn't fit this sentence. をとおして means 'all through the summer'.",
+        "に反して means 'contrary to' (予想に反して); 夏に反して makes no sense here. をとおして means 'all through the summer'."
       ],
       "hiragana_full": "なつをとおして、まいにちおよいでいた。",
       "audio_alternatives": [
@@ -226,22 +348,23 @@
           "hiragana_full": "なつじゅう、まいにちおよいでいた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
-      "id": "n4_090_9",
+      "id": "n4_090_10",
       "example_sentence": "スポーツをとおして、友情が深まった。",
       "translation": "Through sports, our friendship deepened.",
-      "blank_target": "を",
+      "blank_target": "をとおして",
       "wrong_choices": [
-        "で",
-        "に",
-        "から"
+        "に反して",
+        "に比べて",
+        "について"
       ],
       "wrong_choice_explanations": [
-        "で would mark sports as a plain means ('with sports'), usable alone as スポーツで but not with とおして; the bonding-through sense is をとおして.",
-        "に marks a target or a location, not a medium; スポーツにとおして is impossible, so をとおして is needed.",
-        "から means 'from' a source; sports is the shared activity you bond through, not a starting point, so the pattern is スポーツをとおして, not から."
+        "に反して means 'contrary to' (予想に反して); スポーツに反して makes no sense here. をとおして means 'through sports'.",
+        "に比べて means 'compared with'; スポーツに比べて leaves nothing being compared. をとおして means 'through sports'.",
+        "について means 'about / concerning'; スポーツについて doesn't fit this sentence. をとおして means 'through sports'."
       ],
       "hiragana_full": "スポーツをとおして、ゆうじょうがふかまった。",
       "audio_alternatives": [
@@ -254,35 +377,20 @@
           "hiragana_full": "スポーツのおかげで、ゆうじょうがふかまった。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_090_10",
-      "example_sentence": "テレビをとおして、世界のニュースがよく分かります。",
-      "translation": "Through television, I understand world news well.",
-      "blank_target": "を",
-      "wrong_choices": [
-        "で",
-        "に",
-        "から"
-      ],
-      "wrong_choice_explanations": [
-        "で would mark TV as a simple means ('on TV'), fine as テレビで but not with とおして; 'by way of television' is テレビをとおして.",
-        "に marks a destination or a location, not a channel; テレビにとおして is impossible, so the medium pattern is をとおして.",
-        "から means 'from' a source; television is the medium the news reaches you through, not where it originates, so をとおして is required, not から."
-      ],
-      "hiragana_full": "テレビをとおして、せかいのニュースがよくわかります。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "テレビを通じて、世界のニュースがよく分かります。",
-          "hiragana_full": "テレビをつうじて、せかいのニュースがよくわかります。"
+          "word": "友情",
+          "reading": "ゆうじょう",
+          "meaning": "friendship"
         },
         {
-          "kanji": "テレビで、世界のニュースがよく分かります。",
-          "hiragana_full": "テレビで、せかいのニュースがよくわかります。"
+          "word": "深まった",
+          "reading": "ふかまった",
+          "meaning": "deepened"
         }
-      ],
-      "audio_eligible": true
+      ]
     }
   ]
 }

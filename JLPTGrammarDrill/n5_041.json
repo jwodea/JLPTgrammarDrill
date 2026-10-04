@@ -8,16 +8,16 @@
       "id": "n5_041_1",
       "example_sentence": "新しい車がほしいです。",
       "translation": "I want a new car.",
-      "blank_target": "が",
+      "blank_target": "がほしいです",
       "wrong_choices": [
-        "を",
-        "に",
-        "で"
+        "がほしいます",
+        "がほしいだ",
+        "がたいです"
       ],
       "wrong_choice_explanations": [
-        "を is the direct object particle — it doesn't work with ほしい which requires が for the desired item.",
-        "に indicates direction, time, or target — it doesn't mark the desired object with ほしい.",
-        "で indicates means, location, or material — it doesn't mark what you want with ほしい."
+        "ほしい is an い-adjective, not a verb, so it can't take ます; 'want a car' is がほしいです.",
+        "ほしいだ is wrong: an い-adjective can't be followed by だ (新しい車がほしいだ ✗); the polite form is がほしいです.",
+        "たい attaches to verb stems (飲みたい), not to nouns; with a noun you need がほしい (車がたいです ✗)."
       ],
       "hiragana_full": "あたらしいくるまがほしいです。",
       "audio_alternatives": [
@@ -49,16 +49,16 @@
       "id": "n5_041_2",
       "example_sentence": "今、水がほしい。",
       "translation": "I want water right now.",
-      "blank_target": "が",
+      "blank_target": "がほしい",
       "wrong_choices": [
-        "は",
-        "も",
-        "と"
+        "がほしいだ",
+        "がたい",
+        "がほしく"
       ],
       "wrong_choice_explanations": [
-        "今、水はほしい would mark water contrastively ('water, at least, I want') and is grammatical, but it shifts the nuance toward comparison; が simply presents water as the thing wanted, which is the neutral choice here.",
-        "も means 'also/too' — it doesn't properly mark the desired object in this context.",
-        "と means 'and/with' — it doesn't mark what you want with ほしい."
+        "ほしいだ is wrong: an い-adjective can't be followed by だ; plain 'I want water' is just 水がほしい.",
+        "たい attaches to verb stems (飲みたい), not to nouns; with a noun you need がほしい; 水がたい is ungrammatical.",
+        "ほしく is the form used before ない/なる (ほしくない); it can't end a sentence on its own."
       ],
       "hiragana_full": "いま、みずがほしい。",
       "audio_alternatives": [
@@ -85,16 +85,16 @@
       "id": "n5_041_3",
       "example_sentence": "お金がほしいんです。",
       "translation": "I want money.",
-      "blank_target": "が",
+      "blank_target": "がほしい",
       "wrong_choices": [
-        "へ",
-        "から",
-        "まで"
+        "がほしく",
+        "がたい",
+        "がほしいだ"
       ],
       "wrong_choice_explanations": [
-        "へ indicates direction 'towards' — it doesn't mark the desired object with ほしい.",
-        "から means 'from/because' — it doesn't mark what you want with ほしい.",
-        "まで means 'until/up to' — it doesn't mark the desired object with ほしい."
+        "ほしく is the form used before ない/なる; お金がほしくんです is ungrammatical. んです follows the full form ほしい.",
+        "たい attaches to verb stems (飲みたい), not to nouns; with a noun you need がほしい; お金がたいんです is ungrammatical.",
+        "ほしいだ is wrong: an い-adjective can't be followed by だ; ほしいだんです is ungrammatical — んです attaches straight to ほしい."
       ],
       "hiragana_full": "おかねがほしいんです。",
       "audio_alternatives": [
@@ -121,16 +121,16 @@
       "id": "n5_041_4",
       "example_sentence": "子供の時、犬がほしかった。",
       "translation": "When I was a child, I wanted a dog.",
-      "blank_target": "が",
+      "blank_target": "がほしかった",
       "wrong_choices": [
-        "の",
-        "や",
-        "か"
+        "がほしいだった",
+        "がほしいかった",
+        "がたかった"
       ],
       "wrong_choice_explanations": [
-        "の is the possessive particle — it doesn't mark the desired object with ほしい.",
-        "や means 'and' (for incomplete lists) — it doesn't mark what you want with ほしい.",
-        "か indicates questions or alternatives — it doesn't mark the desired object with ほしい."
+        "ほしいだった is wrong: い-adjectives make the past by changing い to かった, not by adding だった.",
+        "ほしいかった keeps the い; the past of ほしい is ほしかった (drop い, add かった).",
+        "たい attaches to verb stems (飲みたい), not to nouns; with a noun you need がほしい; 犬がたかった is ungrammatical."
       ],
       "hiragana_full": "こどものとき、いぬがほしかった。",
       "audio_alternatives": [
@@ -162,16 +162,16 @@
       "id": "n5_041_5",
       "example_sentence": "今度の誕生日には本がほしいです。",
       "translation": "For my next birthday, I want books.",
-      "blank_target": "が",
+      "blank_target": "がほしいです",
       "wrong_choices": [
-        "ばかり",
-        "だけ",
-        "しか"
+        "がほしいでした",
+        "がほしいます",
+        "がたいです"
       ],
       "wrong_choice_explanations": [
-        "本ばかりほしいです would mean wanting nothing but books (exclusive focus); it is grammatical but changes the meaning, whereas が simply marks books as the thing wanted.",
-        "本だけほしいです would mean wanting only books (exclusivity); it is grammatical but adds a limiting nuance, while が neutrally marks books as what is desired.",
-        "しか means 'only' and must pair with a negative predicate (本しかほしくない); in this affirmative sentence it cannot mark the desired object, so が is needed."
+        "ほしいでした is not a correct past form (that would be ほしかったです), and 今度の誕生日 is in the future, so past tense doesn't fit anyway.",
+        "ほしい is an い-adjective, not a verb, so it can't take ます; 本がほしいます is ungrammatical.",
+        "たい attaches to verb stems (飲みたい), not to nouns; with a noun you need がほしい (本がたいです ✗)."
       ],
       "hiragana_full": "こんどのたんじょうびにはほんがほしいです。",
       "audio_alternatives": [
@@ -196,107 +196,129 @@
     },
     {
       "id": "n5_041_6",
-      "example_sentence": "コーヒーはほしくありません。",
-      "translation": "I don't want coffee.",
-      "blank_target": "は",
+      "example_sentence": "友達の新しいゲームを見て、私もそのゲームがほしくなりました。",
+      "translation": "When I saw my friend's new game, I started wanting it too.",
+      "blank_target": "がほしく",
       "wrong_choices": [
-        "が",
-        "を",
-        "に"
+        "がほしい",
+        "がほしかった",
+        "がたく"
       ],
       "wrong_choice_explanations": [
-        "が normally marks the desired object with ほしい, but は is preferred in negative sentences for emphasis.",
-        "を marks direct objects — it doesn't work with ほしい which requires は or が.",
-        "に indicates direction or target — it doesn't mark the unwanted object with ほしい."
+        "Before なる an い-adjective changes い to く; ほしいなりました is ungrammatical.",
+        "ほしかった is already past and can't be followed by なりました; the form before なる is ほしく.",
+        "たい attaches to verb stems (飲みたい), not to nouns; with a noun you need がほしい; ゲームがたくなりました is ungrammatical."
       ],
-      "hiragana_full": "コーヒーはほしくありません。",
+      "hiragana_full": "ともだちのあたらしいげーむをみて、わたしもそのげーむがほしくなりました。",
       "audio_alternatives": [
         {
-          "kanji": "コーヒーはほしくないです。",
-          "hiragana_full": "コーヒーはほしくないです。"
+          "kanji": "友達の新しいゲームを見て、私もほしくなりました。",
+          "hiragana_full": "ともだちのあたらしいげーむをみて、わたしもほしくなりました。"
         },
         {
-          "kanji": "コーヒーはいりません。",
-          "hiragana_full": "コーヒーはいりません。"
-        }
-      ],
-      "audio_eligible": true,
-      "register": "neutral"
-    },
-    {
-      "id": "n5_041_7",
-      "example_sentence": "プレゼントは何がほしいですか。",
-      "translation": "What do you want as a present?",
-      "blank_target": "は",
-      "wrong_choices": [
-        "が",
-        "を",
-        "で"
-      ],
-      "wrong_choice_explanations": [
-        "が marks the desired item, but は marks the topic 'as for presents' in this context.",
-        "を marks direct objects — it doesn't work with ほしい or for marking topics.",
-        "で indicates means or location — it doesn't mark the topic in this question structure."
-      ],
-      "hiragana_full": "ぷれぜんとはなにがほしいですか。",
-      "audio_alternatives": [
-        {
-          "kanji": "プレゼントは何がいいですか。",
-          "hiragana_full": "ぷれぜんとはなにがいいですか。"
-        },
-        {
-          "kanji": "何のプレゼントがほしいですか。",
-          "hiragana_full": "なにのぷれぜんとがほしいですか。"
+          "kanji": "友達の新しいゲームを見たら、私もそれがほしくなった。",
+          "hiragana_full": "ともだちのあたらしいげーむをみたら、わたしもそれがほしくなった。"
         }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
         {
-          "word": "プレゼント",
-          "reading": "ぷれぜんと",
-          "meaning": "present; gift"
+          "word": "友達",
+          "reading": "ともだち",
+          "meaning": "friend"
+        },
+        {
+          "word": "新しい",
+          "reading": "あたらしい",
+          "meaning": "new"
+        },
+        {
+          "word": "ゲーム",
+          "reading": "げーむ",
+          "meaning": "game"
+        }
+      ]
+    },
+    {
+      "id": "n5_041_7",
+      "example_sentence": "クリスマスには何がほしいですか。",
+      "translation": "What do you want for Christmas?",
+      "blank_target": "がほしいです",
+      "wrong_choices": [
+        "がほしいます",
+        "がたいです",
+        "がほしくです"
+      ],
+      "wrong_choice_explanations": [
+        "ほしい is an い-adjective, not a verb, so it can't take ます; 何がほしいますか is ungrammatical.",
+        "たい attaches to verb stems (飲みたい), not to nouns; with a noun you need がほしい; 何がたいですか is ungrammatical.",
+        "ほしく is only used before ない/なる; ほしくです is ungrammatical. The polite form is ほしいです."
+      ],
+      "hiragana_full": "くりすますにはなにがほしいですか。",
+      "audio_alternatives": [
+        {
+          "kanji": "クリスマスには何がほしい？",
+          "hiragana_full": "くりすますにはなにがほしい？"
+        },
+        {
+          "kanji": "クリスマスプレゼントは何がいいですか。",
+          "hiragana_full": "くりすますぷれぜんとはなにがいいですか。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "クリスマス",
+          "reading": "くりすます",
+          "meaning": "Christmas"
+        },
+        {
+          "word": "何",
+          "reading": "なに",
+          "meaning": "what"
         }
       ]
     },
     {
       "id": "n5_041_8",
-      "example_sentence": "彼女は新しい服をほしがっている。",
-      "translation": "She wants new clothes.",
-      "blank_target": "を",
+      "example_sentence": "弟は新しい自転車がほしいと言っています。",
+      "translation": "My younger brother says he wants a new bicycle.",
+      "blank_target": "がほしい",
       "wrong_choices": [
-        "が",
-        "に",
-        "で"
+        "がほしいだ",
+        "がたい",
+        "がほしく"
       ],
       "wrong_choice_explanations": [
-        "が works with ほしい for first person, but third person ほしがる requires を for the desired object.",
-        "に indicates direction or target — it doesn't mark the desired object with ほしがる.",
-        "で indicates means or location — it doesn't mark what someone wants with ほしがる."
+        "ほしいだ is wrong: an い-adjective can't be followed by だ; the quoted thought is simply 自転車がほしい before と.",
+        "たい attaches to verb stems (飲みたい), not to nouns; with a noun you need がほしい; 自転車がたい is ungrammatical.",
+        "ほしく is only used before ない/なる; ほしくと言っています is ungrammatical."
       ],
-      "hiragana_full": "かのじょはあたらしいふくをほしがっている。",
+      "hiragana_full": "おとうとはあたらしいじてんしゃがほしいといっています。",
       "audio_alternatives": [
         {
-          "kanji": "彼女は新しい服がほしい。",
-          "hiragana_full": "かのじょはあたらしいふくがほしい。"
+          "kanji": "弟は新しい自転車がほしいと言っている。",
+          "hiragana_full": "おとうとはあたらしいじてんしゃがほしいといっている。"
         },
         {
-          "kanji": "彼女は新しい洋服をほしがっている。",
-          "hiragana_full": "かのじょはあたらしいようふくをほしがっている。"
+          "kanji": "弟は新しい自転車をほしがっています。",
+          "hiragana_full": "おとうとはあたらしいじてんしゃをほしがっています。"
         }
       ],
       "audio_eligible": true,
-      "register": "casual",
+      "register": "neutral",
       "vocab": [
         {
-          "word": "彼女",
-          "reading": "かのじょ",
-          "meaning": "she"
+          "word": "弟",
+          "reading": "おとうと",
+          "meaning": "younger brother"
         },
         {
-          "word": "服",
-          "reading": "ふく",
-          "meaning": "clothes"
+          "word": "自転車",
+          "reading": "じてんしゃ",
+          "meaning": "bicycle"
         }
       ]
     },
@@ -304,16 +326,16 @@
       "id": "n5_041_9",
       "example_sentence": "もっと時間がほしいなあ。",
       "translation": "I wish I had more time.",
-      "blank_target": "が",
+      "blank_target": "がほしい",
       "wrong_choices": [
-        "を",
-        "に",
-        "で"
+        "がほしいだ",
+        "がたい",
+        "がほしく"
       ],
       "wrong_choice_explanations": [
-        "を marks direct objects — it doesn't work with ほしい which requires が for the desired item.",
-        "に indicates direction or target — it doesn't mark the desired object with ほしい.",
-        "で indicates means or location — it doesn't mark what you want with ほしい."
+        "ほしいだ is wrong: an い-adjective can't be followed by だ; ほしいだなあ is ungrammatical — なあ attaches straight to ほしい.",
+        "たい attaches to verb stems (飲みたい), not to nouns; with a noun you need がほしい; 時間がたいなあ is ungrammatical.",
+        "ほしく is only used before ない/なる; ほしくなあ is ungrammatical."
       ],
       "hiragana_full": "もっとじかんがほしいなあ。",
       "audio_alternatives": [
@@ -338,42 +360,47 @@
     },
     {
       "id": "n5_041_10",
-      "example_sentence": "静かな場所がほしいです。",
-      "translation": "I want a quiet place.",
-      "blank_target": "が",
+      "example_sentence": "きのうは暑かったので、冷たい飲み物がほしかったです。",
+      "translation": "It was hot yesterday, so I wanted a cold drink.",
+      "blank_target": "がほしかったです",
       "wrong_choices": [
-        "を",
-        "に",
-        "は"
+        "がほしいでした",
+        "がほしかったでした",
+        "がたかったです"
       ],
       "wrong_choice_explanations": [
-        "を marks direct objects — it doesn't work with ほしい which requires が for the desired item.",
-        "に indicates direction or target — it doesn't mark the desired object with ほしい.",
-        "静かな場所はほしいです would mark the quiet place contrastively ('a quiet place, that I do want') and is grammatical, but it adds a comparative nuance; が neutrally marks the quiet place as what is wanted."
+        "ほしいでした is wrong: the past of an い-adjective is made with かった (ほしかったです), not でした.",
+        "ほしかったでした marks the past twice; かった already shows past, so only です follows.",
+        "たい attaches to verb stems (飲みたい), not to nouns; with a noun you need がほしい; 飲み物がたかったです is ungrammatical."
       ],
-      "hiragana_full": "しずかなばしょがほしいです。",
+      "hiragana_full": "きのうはあつかったので、つめたいのみものがほしかったです。",
       "audio_alternatives": [
         {
-          "kanji": "静かな場所がほしい。",
-          "hiragana_full": "しずかなばしょがほしい。"
+          "kanji": "きのうは暑かったから、冷たい飲み物がほしかった。",
+          "hiragana_full": "きのうはあつかったから、つめたいのみものがほしかった。"
         },
         {
-          "kanji": "静かなところがほしいです。",
-          "hiragana_full": "しずかなところがほしいです。"
+          "kanji": "きのうは暑くて、冷たいものが飲みたかったです。",
+          "hiragana_full": "きのうはあつくて、つめたいものがのみたかったです。"
         }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
         {
-          "word": "静かな",
-          "reading": "しずかな",
-          "meaning": "quiet"
+          "word": "暑かった",
+          "reading": "あつかった",
+          "meaning": "was hot"
         },
         {
-          "word": "場所",
-          "reading": "ばしょ",
-          "meaning": "place"
+          "word": "冷たい",
+          "reading": "つめたい",
+          "meaning": "cold"
+        },
+        {
+          "word": "飲み物",
+          "reading": "のみもの",
+          "meaning": "drink"
         }
       ]
     }

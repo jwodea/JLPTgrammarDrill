@@ -31,6 +31,19 @@
         }
       ],
       "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "入館料",
+          "reading": "にゅうかんりょう",
+          "meaning": "admission fee"
+        },
+        {
+          "word": "半額",
+          "reading": "はんがく",
+          "meaning": "half price"
+        }
+      ],
       "blank_target_reading": "にかぎり"
     },
     {
@@ -60,6 +73,24 @@
         }
       ],
       "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "持参",
+          "reading": "じさん",
+          "meaning": "bringing along"
+        },
+        {
+          "word": "割引",
+          "reading": "わりびき",
+          "meaning": "discount"
+        },
+        {
+          "word": "適用",
+          "reading": "てきよう",
+          "meaning": "application (of a rule)"
+        }
+      ],
       "blank_target_reading": "にかぎり"
     },
     {
@@ -89,39 +120,18 @@
         }
       ],
       "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        {
+          "word": "開催",
+          "reading": "かいさい",
+          "meaning": "holding (an event)"
+        }
+      ],
       "blank_target_reading": "にかぎり"
     },
     {
       "id": "n2_038_4",
-      "example_sentence": "本日に限り、このサービスを無料で提供します。",
-      "translation": "We offer this service free of charge only today.",
-      "blank_target": "に限り",
-      "wrong_choices": [
-        "以降",
-        "まで",
-        "から"
-      ],
-      "wrong_choice_explanations": [
-        "以降 means 'from now on/after' but doesn't indicate the single-day limitation that に限り expresses.",
-        "まで means 'until' but suggests a continuous period rather than the exclusive single-day offer that に限り indicates.",
-        "から means 'from' but indicates a starting point rather than the exclusive limitation that に限り conveys."
-      ],
-      "hiragana_full": "ほんじつにかぎり、このサービスをむりょうでていきょうします。",
-      "audio_alternatives": [
-        {
-          "kanji": "本日だけ、このサービスを無料で提供します。",
-          "hiragana_full": "ほんじつだけ、このサービスをむりょうでていきょうします。"
-        },
-        {
-          "kanji": "今日に限り、このサービスを無料で提供いたします。",
-          "hiragana_full": "きょうにかぎり、このサービスをむりょうでていきょういたします。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "にかぎり"
-    },
-    {
-      "id": "n2_038_5",
       "example_sentence": "今年度に限り、会員登録費は無料となっております。",
       "translation": "Membership registration fees are free only for this fiscal year.",
       "blank_target": "に限り",
@@ -147,10 +157,23 @@
         }
       ],
       "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        {
+          "word": "今年度",
+          "reading": "こんねんど",
+          "meaning": "this fiscal year"
+        },
+        {
+          "word": "登録",
+          "reading": "とうろく",
+          "meaning": "registration"
+        }
+      ],
       "blank_target_reading": "にかぎり"
     },
     {
-      "id": "n2_038_6",
+      "id": "n2_038_5",
       "example_sentence": "新規会員の方に限り、初回相談は無料です。",
       "translation": "Initial consultations are free only for new members.",
       "blank_target": "に限り",
@@ -176,97 +199,23 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "にかぎり"
-    },
-    {
-      "id": "n2_038_7",
-      "example_sentence": "開店記念として、先着100名様に限り特別価格で販売します。",
-      "translation": "As a store opening commemoration, we sell at special prices only to the first 100 customers.",
-      "blank_target": "に限り",
-      "wrong_choices": [
-        "に向けて",
-        "に対し",
-        "について"
-      ],
-      "wrong_choice_explanations": [
-        "に向けて means 'toward/for' but doesn't express the numerical limitation that に限り conveys.",
-        "に対し means 'toward/against' but doesn't indicate the exclusive quantitative restriction needed here.",
-        "について means 'about/concerning' but doesn't express the limiting condition that に限り indicates."
-      ],
-      "hiragana_full": "かいてんきねんとして、せんちゃくひゃくめいさまにかぎりとくべつかかくではんばいします。",
-      "audio_alternatives": [
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "開店記念として、先着100名様のみ特別価格で販売いたします。",
-          "hiragana_full": "かいてんきねんとして、せんちゃくひゃくめいさまのみとくべつかかくではんばいいたします。"
+          "word": "新規",
+          "reading": "しんき",
+          "meaning": "new, first-time"
         },
         {
-          "kanji": "開店を記念して、先着100名様に限り特別価格でお売りします。",
-          "hiragana_full": "かいてんをきねんして、せんちゃくひゃくめいさまにかぎりとくべつかかくでおうりします。"
+          "word": "初回",
+          "reading": "しょかい",
+          "meaning": "first time, first session"
         }
       ],
-      "audio_eligible": true,
       "blank_target_reading": "にかぎり"
     },
     {
-      "id": "n2_038_8",
-      "example_sentence": "雨天時に限り、イベントは屋内で開催されます。",
-      "translation": "Only in case of rain, the event will be held indoors.",
-      "blank_target": "に限り",
-      "wrong_choices": [
-        "の場合",
-        "のとき",
-        "であれば"
-      ],
-      "wrong_choice_explanations": [
-        "の場合 means 'in the case of' but doesn't emphasize the exclusive condition that に限り expresses.",
-        "のとき means 'when/at the time of' but doesn't convey the restrictive, exceptional condition that に限り indicates.",
-        "であれば means 'if' but doesn't express the specific limiting condition that に限り conveys."
-      ],
-      "hiragana_full": "うてんじにかぎり、イベントはおくないでかいさいされます。",
-      "audio_alternatives": [
-        {
-          "kanji": "雨天の場合に限り、イベントは屋内で開催されます。",
-          "hiragana_full": "うてんのばあいにかぎり、イベントはおくないでかいさいされます。"
-        },
-        {
-          "kanji": "雨天時のみ、イベントは屋内で開催されます。",
-          "hiragana_full": "うてんじのみ、イベントはおくないでかいさいされます。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "にかぎり"
-    },
-    {
-      "id": "n2_038_9",
-      "example_sentence": "平日に限り、駐車場は無料でご利用いただけます。",
-      "translation": "The parking lot can be used free of charge only on weekdays.",
-      "blank_target": "に限り",
-      "wrong_choices": [
-        "の間",
-        "中は",
-        "なら"
-      ],
-      "wrong_choice_explanations": [
-        "の間 means 'during/between' but doesn't emphasize the exclusive limitation that に限り expresses.",
-        "中は means 'during' but doesn't convey the restrictive condition that に限り indicates for formal policies.",
-        "なら means 'if' but doesn't express the specific limiting condition with the formal tone that に限り carries."
-      ],
-      "hiragana_full": "へいじつにかぎり、ちゅうしゃじょうはむりょうでごりよういただけます。",
-      "audio_alternatives": [
-        {
-          "kanji": "平日のみ、駐車場を無料でご利用いただけます。",
-          "hiragana_full": "へいじつのみ、ちゅうしゃじょうをむりょうでごりよういただけます。"
-        },
-        {
-          "kanji": "駐車場は平日に限り、無料でご利用になれます。",
-          "hiragana_full": "ちゅうしゃじょうはへいじつにかぎり、むりょうでごりようになれます。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "にかぎり"
-    },
-    {
-      "id": "n2_038_10",
+      "id": "n2_038_6",
       "example_sentence": "ゴールド会員の方に限り、年会費が免除されます。",
       "translation": "Annual fees are waived only for Gold members.",
       "blank_target": "に限り",
@@ -292,7 +241,193 @@
         }
       ],
       "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "年会費",
+          "reading": "ねんかいひ",
+          "meaning": "annual membership fee"
+        },
+        {
+          "word": "免除",
+          "reading": "めんじょ",
+          "meaning": "exemption, waiver"
+        }
+      ],
       "blank_target_reading": "にかぎり"
+    },
+    {
+      "id": "n2_038_7",
+      "example_sentence": "本日に限り、全品20%引きです。",
+      "translation": "Only for today, all items are 20% off.",
+      "blank_target": "に限り",
+      "wrong_choices": [
+        "に限らず",
+        "をもって",
+        "において"
+      ],
+      "wrong_choice_explanations": [
+        "に限らず means 'not only / not limited to,' which broadens the scope — the opposite of に限り, which singles today out as the sole day the discount applies.",
+        "をもって means 'as of / effective (a date)' and marks a cutoff or conclusion (e.g. 本日をもって終了). に限り marks today as the one day the offer is valid, not a boundary date.",
+        "において means 'on / at (a time)' as a neutral point in time; it states when something happens but not that today is the only day, which is the exclusivity に限り adds."
+      ],
+      "hiragana_full": "ほんじつにかぎり、ぜんぴんにじゅっぱーせんとびきです。",
+      "audio_alternatives": [
+        {
+          "kanji": "今日だけ、全品が20%引きです。",
+          "hiragana_full": "きょうだけ、ぜんぴんがにじゅっぱーせんとびきです。"
+        },
+        {
+          "kanji": "本日のみ、全商品が20%オフです。",
+          "hiragana_full": "ほんじつのみ、ぜんしょうひんがにじゅっぱーせんとおふです。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "にかぎり",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "本日",
+          "reading": "ほんじつ",
+          "meaning": "today"
+        },
+        {
+          "word": "全品",
+          "reading": "ぜんぴん",
+          "meaning": "all items"
+        }
+      ]
+    },
+    {
+      "id": "n2_038_8",
+      "example_sentence": "学生に限り、この施設を利用できます。",
+      "translation": "Only students can use this facility.",
+      "blank_target": "に限り",
+      "wrong_choices": [
+        "を問わず",
+        "はもちろん",
+        "のほか"
+      ],
+      "wrong_choice_explanations": [
+        "を問わず means 'regardless of (being a student),' removing any restriction; に限り does the reverse by confining eligibility to students alone.",
+        "はもちろん means 'students, of course (and others as well),' which includes non-students too — the opposite of the student-only limit に限り sets.",
+        "のほか means 'besides / other than students,' which would extend use to non-students, contrary to the exclusive restriction に限り expresses."
+      ],
+      "hiragana_full": "がくせいにかぎり、このしせつをりようできます。",
+      "audio_alternatives": [
+        {
+          "kanji": "学生だけがこの施設を利用できます。",
+          "hiragana_full": "がくせいだけがこのしせつをりようできます。"
+        },
+        {
+          "kanji": "学生のみこの施設を利用することができます。",
+          "hiragana_full": "がくせいのみこのしせつをりようすることができます。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "にかぎり",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "施設",
+          "reading": "しせつ",
+          "meaning": "facility"
+        },
+        {
+          "word": "利用",
+          "reading": "りよう",
+          "meaning": "to use"
+        }
+      ]
+    },
+    {
+      "id": "n2_038_9",
+      "example_sentence": "平日に限り、駐車場は1時間無料です。",
+      "translation": "Parking is free for one hour only on weekdays.",
+      "blank_target": "に限り",
+      "wrong_choices": [
+        "を通じて",
+        "ばかり",
+        "ほど"
+      ],
+      "wrong_choice_explanations": [
+        "を通じて means 'throughout / all through the weekdays,' describing the whole span as the duration of free parking, not 'weekdays only.' に限り restricts the free hour to weekdays as an exception.",
+        "ばかり means 'nothing but,' expressing that something happens constantly or in a quantitative sense (平日ばかり = 'weekday after weekday'), not the conditional exception 'on weekdays only' that に限り marks.",
+        "ほど means 'to the extent of / about,' expressing degree or comparison, and does not convey limitation at all."
+      ],
+      "hiragana_full": "へいじつにかぎり、ちゅうしゃじょうはいちじかんむりょうです。",
+      "audio_alternatives": [
+        {
+          "kanji": "平日に限って、駐車場は1時間無料です。",
+          "hiragana_full": "へいじつにかぎって、ちゅうしゃじょうはいちじかんむりょうです。"
+        },
+        {
+          "kanji": "駐車場は平日に限り1時間無料です。",
+          "hiragana_full": "ちゅうしゃじょうはへいじつにかぎりいちじかんむりょうです。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "にかぎり",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "平日",
+          "reading": "へいじつ",
+          "meaning": "weekday"
+        },
+        {
+          "word": "駐車場",
+          "reading": "ちゅうしゃじょう",
+          "meaning": "parking lot"
+        }
+      ]
+    },
+    {
+      "id": "n2_038_10",
+      "example_sentence": "予約者に限り、早期入場が可能です。",
+      "translation": "Early entry is possible only for those with reservations.",
+      "blank_target": "に限り",
+      "wrong_choices": [
+        "に際して",
+        "をもって",
+        "によって"
+      ],
+      "wrong_choice_explanations": [
+        "に際して means 'on the occasion of' and doesn't express the exclusive restriction",
+        "をもって means 'by means of/with' and is grammatically incorrect in this context",
+        "によって means 'by/through' and doesn't convey the limiting condition meaning"
+      ],
+      "hiragana_full": "よやくしゃにかぎり、そうきにゅうじょうがかのうです。",
+      "audio_alternatives": [
+        {
+          "kanji": "予約した方のみ、早めに入場できます。",
+          "hiragana_full": "よやくしたかたのみ、はやめににゅうじょうできます。"
+        },
+        {
+          "kanji": "予約者のみ、早期入場が許可されています。",
+          "hiragana_full": "よやくしゃのみ、そうきにゅうじょうがきょかされています。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "にかぎり",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "予約者",
+          "reading": "よやくしゃ",
+          "meaning": "people with reservations"
+        },
+        {
+          "word": "早期",
+          "reading": "そうき",
+          "meaning": "early"
+        },
+        {
+          "word": "入場",
+          "reading": "にゅうじょう",
+          "meaning": "entry; admission"
+        }
+      ]
     }
   ]
 }

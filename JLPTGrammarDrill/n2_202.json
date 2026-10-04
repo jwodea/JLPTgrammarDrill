@@ -1,0 +1,240 @@
+{
+  "id": "n2_202",
+  "pattern": "いきなり",
+  "meaning": "abruptly; suddenly; without warning",
+  "level": "N2",
+  "exercises": [
+    {
+      "id": "n2_202_1",
+      "example_sentence": "部長に呼ばれて、いきなり来月から大阪へ転勤だと言われた。",
+      "translation": "I was called in by my manager and told out of the blue that I'm being transferred to Osaka starting next month.",
+      "blank_target": "いきなり",
+      "wrong_choices": ["徐々に", "とっくに", "そろそろ"],
+      "wrong_choice_explanations": [
+        "徐々に means 'gradually' and describes slow continuous change; being told something (言われた) is a one-shot event that cannot happen gradually.",
+        "とっくに means 'long ago; already' and needs a long-completed state; the て-sequence 呼ばれて…言われた describes something that has just happened, so 'long ago' is incoherent.",
+        "そろそろ ('soon; about time to') points at an action about to happen and pairs with non-past forms; it cannot modify the past punctual 言われた."
+      ],
+      "hiragana_full": "ぶちょうによばれて、いきなりらいげつからおおさかへてんきんだといわれた。",
+      "audio_alternatives": [
+        { "kanji": "部長に呼ばれて、突然大阪への転勤を命じられた。", "hiragana_full": "ぶちょうによばれて、とつぜんおおさかへのてんきんをめいじられた。" },
+        { "kanji": "部長からいきなり、来月大阪へ転勤するように言われた。", "hiragana_full": "ぶちょうからいきなり、らいげつおおさかへてんきんするようにいわれた。" }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        { "word": "転勤", "reading": "てんきん", "meaning": "job transfer" },
+        { "word": "部長", "reading": "ぶちょう", "meaning": "department manager" }
+      ]
+    },
+    {
+      "id": "n2_202_2",
+      "example_sentence": "空が暗くなったと思ったら、いきなり大粒の雨が降り出した。",
+      "translation": "Just as I noticed the sky darkening, big drops of rain suddenly came pouring down.",
+      "blank_target": "いきなり",
+      "wrong_choices": ["わざと", "だんだん", "いまにも"],
+      "wrong_choice_explanations": [
+        "わざと means 'deliberately, on purpose' and requires a volitional agent; rain falling is not something anyone does intentionally.",
+        "だんだん describes gradual change and pairs with expressions like 強くなってきた; the inceptive 降り出した marks a single sudden onset, which clashes with gradualness.",
+        "いまにも means 'at any moment now' and must be completed by an appearance expression like 降り出しそうだ; it cannot modify the actual past event 降り出した."
+      ],
+      "hiragana_full": "そらがくらくなったとおもったら、いきなりおおつぶのあめがふりだした。",
+      "audio_alternatives": [
+        { "kanji": "空が暗くなったかと思うと、いきなり激しい雨が降ってきた。", "hiragana_full": "そらがくらくなったかとおもうと、いきなりはげしいあめがふってきた。" },
+        { "kanji": "急に空が暗くなって、大粒の雨が降り出した。", "hiragana_full": "きゅうにそらがくらくなって、おおつぶのあめがふりだした。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "大粒", "reading": "おおつぶ", "meaning": "large drops" },
+        { "word": "降り出す", "reading": "ふりだす", "meaning": "to start raining" }
+      ]
+    },
+    {
+      "id": "n2_202_3",
+      "example_sentence": "彼は挨拶もせずに、いきなり本題に入った。",
+      "translation": "Without so much as a greeting, he launched straight into the main topic.",
+      "blank_target": "いきなり",
+      "wrong_choices": ["ようやく", "一斉に", "めったに"],
+      "wrong_choice_explanations": [
+        "ようやく means 'finally, after a long process'; 挨拶もせずに shows he started immediately with no lead-up, the opposite of a long-awaited action.",
+        "一斉に means 'all at once, in unison' and needs multiple actors doing something simultaneously; the subject here is just 彼, a single person.",
+        "めったに ('rarely') must be completed by a negative like 入らない; it cannot modify the affirmative past 入った."
+      ],
+      "hiragana_full": "かれはあいさつもせずに、いきなりほんだいにはいった。",
+      "audio_alternatives": [
+        { "kanji": "彼は挨拶抜きで、いきなり用件を話し始めた。", "hiragana_full": "かれはあいさつぬきで、いきなりようけんをはなしはじめた。" },
+        { "kanji": "彼は名乗りもせず、突然本題に入った。", "hiragana_full": "かれはなのりもせず、とつぜんほんだいにはいった。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "本題", "reading": "ほんだい", "meaning": "main topic" },
+        { "word": "挨拶", "reading": "あいさつ", "meaning": "greeting" }
+      ]
+    },
+    {
+      "id": "n2_202_4",
+      "example_sentence": "初心者がいきなり難しい曲に挑戦しても、うまくいかないことが多い。",
+      "translation": "When beginners jump straight into difficult pieces without working up to them, it often doesn't go well.",
+      "blank_target": "いきなり",
+      "wrong_choices": ["徐々に", "とっくに", "二度と"],
+      "wrong_choice_explanations": [
+        "徐々に ('gradually') describes the recommended step-by-step approach, which contradicts the claim うまくいかない; the translation's 'jump straight into' shows the point is skipping those steps.",
+        "とっくに ('long since') marks something already completed well in the past; it cannot sit inside the hypothetical 挑戦しても about what beginners might attempt.",
+        "二度と ('never again') requires a negative or prohibition like 挑戦しない; with the affirmative conditional 挑戦しても the sentence breaks down."
+      ],
+      "hiragana_full": "しょしんしゃがいきなりむずかしいきょくにちょうせんしても、うまくいかないことがおおい。",
+      "audio_alternatives": [
+        { "kanji": "初心者がいきなり上級者向けの曲を弾くのは難しい。", "hiragana_full": "しょしんしゃがいきなりじょうきゅうしゃむけのきょくをひくのはむずかしい。" },
+        { "kanji": "基礎を飛ばして難しい曲に挑戦しても、なかなかうまくいかない。", "hiragana_full": "きそをとばしてむずかしいきょくにちょうせんしても、なかなかうまくいかない。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "初心者", "reading": "しょしんしゃ", "meaning": "beginner" },
+        { "word": "挑戦", "reading": "ちょうせん", "meaning": "attempt; challenge" },
+        { "word": "曲", "reading": "きょく", "meaning": "piece of music" }
+      ]
+    },
+    {
+      "id": "n2_202_5",
+      "example_sentence": "面接でいきなり将来の夢を聞かれて、言葉に詰まってしまった。",
+      "translation": "At the interview I was asked about my dreams for the future out of nowhere, and I got stuck for words.",
+      "blank_target": "いきなり",
+      "wrong_choices": ["そろそろ", "いまにも", "やっと"],
+      "wrong_choice_explanations": [
+        "そろそろ ('soon; about time to') anticipates an upcoming action and takes non-past forms; it cannot modify the past punctual 聞かれて.",
+        "いまにも ('at any moment') must be followed by an appearance form like 聞かれそうだ; attached directly to the actual event 聞かれて it is ungrammatical.",
+        "やっと means 'finally, after waiting'; being caught off guard and freezing up (言葉に詰まって) shows the question was not something long awaited."
+      ],
+      "hiragana_full": "めんせつでいきなりしょうらいのゆめをきかれて、ことばにつまってしまった。",
+      "audio_alternatives": [
+        { "kanji": "面接でいきなり予想外の質問をされて、頭が真っ白になった。", "hiragana_full": "めんせつでいきなりよそうがいのしつもんをされて、あたまがまっしろになった。" },
+        { "kanji": "面接の最初に突然夢を聞かれて、うまく答えられなかった。", "hiragana_full": "めんせつのさいしょにとつぜんゆめをきかれて、うまくこたえられなかった。" }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        { "word": "面接", "reading": "めんせつ", "meaning": "interview" },
+        { "word": "詰まる", "reading": "つまる", "meaning": "to get stuck" }
+      ]
+    },
+    {
+      "id": "n2_202_6",
+      "example_sentence": "何の前触れもなく、システムがいきなり停止した。",
+      "translation": "Without any warning, the system suddenly shut down.",
+      "blank_target": "いきなり",
+      "wrong_choices": ["わざと", "二度と", "いまにも"],
+      "wrong_choice_explanations": [
+        "わざと ('on purpose') needs an intentional agent; a system stopping is a malfunction, not a deliberate act by the system.",
+        "二度と ('never again') requires a negative predicate such as 停止しない; the affirmative past 停止した leaves it with nothing to negate.",
+        "いまにも ('at any moment now') pairs with 停止しそうだ to describe an imminent appearance; it cannot modify the completed event 停止した."
+      ],
+      "hiragana_full": "なんのまえぶれもなく、しすてむがいきなりていしした。",
+      "audio_alternatives": [
+        { "kanji": "何の前触れもなく、機械がいきなり動かなくなった。", "hiragana_full": "なんのまえぶれもなく、きかいがいきなりうごかなくなった。" },
+        { "kanji": "システムが突然止まって、作業ができなくなった。", "hiragana_full": "しすてむがとつぜんとまって、さぎょうができなくなった。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "前触れ", "reading": "まえぶれ", "meaning": "advance warning; sign" },
+        { "word": "停止", "reading": "ていし", "meaning": "stop; shutdown" }
+      ]
+    },
+    {
+      "id": "n2_202_7",
+      "example_sentence": "昨日さ、駅で昔の同級生にいきなり声をかけられてびっくりしたよ。",
+      "translation": "Yesterday at the station an old classmate came up and spoke to me out of nowhere — I was so surprised. (chatting with a friend)",
+      "blank_target": "いきなり",
+      "wrong_choices": ["一斉に", "そろそろ", "相変わらず"],
+      "wrong_choice_explanations": [
+        "一斉に ('all at once, in unison') requires multiple people acting simultaneously; here only one classmate spoke to me.",
+        "そろそろ anticipates something about to happen and takes non-past forms; it cannot modify the past punctual 声をかけられて.",
+        "相変わらず means 'the same as always' and describes an unchanged habitual state; びっくりした shows this was a one-off surprise, not a familiar routine."
+      ],
+      "hiragana_full": "きのうさ、えきでむかしのどうきゅうせいにいきなりこえをかけられてびっくりしたよ。",
+      "audio_alternatives": [
+        { "kanji": "昨日、駅で昔の友達にいきなり話しかけられてびっくりした。", "hiragana_full": "きのう、えきでむかしのともだちにいきなりはなしかけられてびっくりした。" },
+        { "kanji": "昨日駅で、突然昔の同級生に声をかけられたんだ。", "hiragana_full": "きのうえきで、とつぜんむかしのどうきゅうせいにこえをかけられたんだ。" }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        { "word": "同級生", "reading": "どうきゅうせい", "meaning": "classmate" },
+        { "word": "声をかける", "reading": "こえをかける", "meaning": "to call out to someone" }
+      ]
+    },
+    {
+      "id": "n2_202_8",
+      "example_sentence": "新入社員にいきなり大きな仕事を任せるのは、リスクが高い。",
+      "translation": "Handing a big job to a new employee right off the bat is highly risky.",
+      "blank_target": "いきなり",
+      "wrong_choices": ["とっくに", "いまにも", "徐々に"],
+      "wrong_choice_explanations": [
+        "とっくに ('long since') marks something completed far in the past; it cannot modify the general non-past statement 任せるのは about a practice.",
+        "いまにも ('at any moment') needs an appearance expression like 任せそうだ; it cannot attach to the plain dictionary form 任せる used as a topic.",
+        "徐々に ('gradually') describes handing over responsibility step by step — the safe approach — which contradicts リスクが高い; the translation's 'right off the bat' shows the point is skipping that buildup."
+      ],
+      "hiragana_full": "しんにゅうしゃいんにいきなりおおきなしごとをまかせるのは、りすくがたかい。",
+      "audio_alternatives": [
+        { "kanji": "経験の浅い社員にいきなり重要な案件を任せるのは危険だ。", "hiragana_full": "けいけんのあさいしゃいんにいきなりじゅうようなあんけんをまかせるのはきけんだ。" },
+        { "kanji": "新人に最初から大きな仕事を任せると、失敗するおそれがある。", "hiragana_full": "しんじんにさいしょからおおきなしごとをまかせると、しっぱいするおそれがある。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "新入社員", "reading": "しんにゅうしゃいん", "meaning": "new employee" },
+        { "word": "任せる", "reading": "まかせる", "meaning": "to entrust" }
+      ]
+    },
+    {
+      "id": "n2_202_9",
+      "example_sentence": "会議中、社長がいきなり立ち上がって、全員を驚かせた。",
+      "translation": "In the middle of the meeting, the president abruptly stood up, startling everyone.",
+      "blank_target": "いきなり",
+      "wrong_choices": ["そろそろ", "めったに", "ようやく"],
+      "wrong_choice_explanations": [
+        "そろそろ ('about time to') anticipates an action and pairs with non-past or volitional forms; it cannot modify the past punctual 立ち上がって.",
+        "めったに ('rarely') requires a negative like 立ち上がらない; with the affirmative 立ち上がって it has nothing to negate.",
+        "ようやく means 'at long last' and implies everyone had been waiting for him to stand; that contradicts 全員を驚かせた — an awaited action startles no one."
+      ],
+      "hiragana_full": "かいぎちゅう、しゃちょうがいきなりたちあがって、ぜんいんをおどろかせた。",
+      "audio_alternatives": [
+        { "kanji": "会議の途中で、社長がいきなり席を立って驚いた。", "hiragana_full": "かいぎのとちゅうで、しゃちょうがいきなりせきをたっておどろいた。" },
+        { "kanji": "社長が突然立ち上がったので、みんなびっくりした。", "hiragana_full": "しゃちょうがとつぜんたちあがったので、みんなびっくりした。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "立ち上がる", "reading": "たちあがる", "meaning": "to stand up" },
+        { "word": "驚かせる", "reading": "おどろかせる", "meaning": "to startle" }
+      ]
+    },
+    {
+      "id": "n2_202_10",
+      "example_sentence": "運動不足の人がいきなり激しい運動をすると、体を痛めるおそれがある。",
+      "translation": "If someone out of shape suddenly does intense exercise, they risk injuring themselves.",
+      "blank_target": "いきなり",
+      "wrong_choices": ["徐々に", "二度と", "とっくに"],
+      "wrong_choice_explanations": [
+        "徐々に ('gradually') is precisely the safe way to build up exercise, so it contradicts the warning 体を痛めるおそれがある; the translation's 'suddenly' marks the dangerous opposite.",
+        "二度と ('never again') needs a negative such as しない; inside the affirmative conditional 運動をすると it is ungrammatical.",
+        "とっくに ('long since') refers to something already done well in the past and cannot sit inside a general conditional about what happens when people start exercising."
+      ],
+      "hiragana_full": "うんどうぶそくのひとがいきなりはげしいうんどうをすると、からだをいためるおそれがある。",
+      "audio_alternatives": [
+        { "kanji": "準備運動をせずにいきなり激しい運動をするのは危険だ。", "hiragana_full": "じゅんびうんどうをせずにいきなりはげしいうんどうをするのはきけんだ。" },
+        { "kanji": "運動に慣れていない人が急に体を動かすと、けがをしやすい。", "hiragana_full": "うんどうになれていないひとがきゅうにからだをうごかすと、けがをしやすい。" }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        { "word": "運動不足", "reading": "うんどうぶそく", "meaning": "lack of exercise" },
+        { "word": "痛める", "reading": "いためる", "meaning": "to hurt; to injure" },
+        { "word": "おそれ", "reading": "おそれ", "meaning": "risk; danger" }
+      ]
+    }
+  ]
+}

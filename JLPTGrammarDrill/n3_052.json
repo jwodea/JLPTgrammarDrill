@@ -30,7 +30,20 @@
           "hiragana_full": "おんらいんじゅぎょうがきらいなわけじゃないけど、たいめんのほうがすきです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "対面",
+          "reading": "たいめん",
+          "meaning": "face-to-face"
+        },
+        {
+          "word": "授業",
+          "reading": "じゅぎょう",
+          "meaning": "class/lesson"
+        }
+      ]
     },
     {
       "id": "n3_052_2",
@@ -58,7 +71,20 @@
           "hiragana_full": "はんたいしているわけではないが、もっとけんとうするひつようがある。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "反対",
+          "reading": "はんたい",
+          "meaning": "opposition"
+        },
+        {
+          "word": "検討",
+          "reading": "けんとう",
+          "meaning": "consideration"
+        }
+      ]
     },
     {
       "id": "n3_052_3",
@@ -66,13 +92,13 @@
       "translation": "It is not that this job is easy, but it is rewarding.",
       "blank_target": "わけではありませんが",
       "wrong_choices": [
-        "わけがありませんが",
-        "のではありませんが",
+        "そうではありませんが",
+        "せいではありませんが",
         "ようではありませんが"
       ],
       "wrong_choice_explanations": [
-        "わけがない expresses impossibility or strong denial, but わけではない provides a softer negation that allows for nuance.",
-        "のではない can negate, but doesn't carry the same meaning of 'it doesn't mean that'; it's used more for explanation.",
+        "Hearsay そうだ attaches to plain forms (簡単だそうだ) and has no negative form, so 簡単なそうではありませんが is ungrammatical; わけではない denies the inference that the job is easy.",
+        "せいではない means 'it's not the fault of / not because of (something bad)', so 簡単なせいではありませんが makes no sense; わけではない denies the inference that the job is easy.",
         "ようではない would say the job 'doesn't appear/seem easy' (a judgment from outward signs), but わけではない denies the inference that it is easy, not how it looks."
       ],
       "hiragana_full": "このしごとがかんたんなわけではありませんが、やりがいがあります。",
@@ -86,7 +112,20 @@
           "hiragana_full": "このしごとはかんたんなわけではありませんが、やりがいがあります。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "やり甲斐",
+          "reading": "やりがい",
+          "meaning": "sense of fulfillment"
+        },
+        {
+          "word": "簡単",
+          "reading": "かんたん",
+          "meaning": "easy/simple"
+        }
+      ]
     },
     {
       "id": "n3_052_4",
@@ -114,7 +153,15 @@
           "hiragana_full": "かれがきらいというわけではありませんが、あいしょうがあわないのです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "相性",
+          "reading": "あいしょう",
+          "meaning": "compatibility"
+        }
+      ]
     },
     {
       "id": "n3_052_5",
@@ -142,66 +189,28 @@
           "hiragana_full": "たかいからといってひんしつがよいわけじゃないけど、このしょうひんはれいがいだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "高価",
+          "reading": "こうか",
+          "meaning": "expensive"
+        },
+        {
+          "word": "品質",
+          "reading": "ひんしつ",
+          "meaning": "quality"
+        },
+        {
+          "word": "例外",
+          "reading": "れいがい",
+          "meaning": "exception"
+        }
+      ]
     },
     {
       "id": "n3_052_6",
-      "example_sentence": "給料が安いわけではないが、やりがいが欲しい。",
-      "translation": "It is not that the salary is low, but I want more fulfillment.",
-      "blank_target": "わけではない",
-      "wrong_choices": [
-        "わけがない",
-        "のではない",
-        "ということではない"
-      ],
-      "wrong_choice_explanations": [
-        "わけがない means 'there's no way,' a categorical impossibility, but わけではない is the correct form for this nuanced negation.",
-        "のではない is used for explanations or contrasts, but doesn't carry the same meaning as わけではない.",
-        "ということではない denies a specific statement or interpretation ('that's not what I'm saying'), which overlaps but is more metalinguistic; わけではない denies the conclusion the situation might imply."
-      ],
-      "hiragana_full": "きゅうりょうがやすいわけではないが、やりがいがほしい。",
-      "audio_alternatives": [
-        {
-          "kanji": "給料が低いわけじゃないけど、やりがいが欲しい。",
-          "hiragana_full": "きゅうりょうがひくいわけじゃないけど、やりがいがほしい。"
-        },
-        {
-          "kanji": "給料が安いというわけではないが、充実感が欲しい。",
-          "hiragana_full": "きゅうりょうがやすいというわけではないが、じゅうじつかんがほしい。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_052_7",
-      "example_sentence": "学位がないわけではないが、経験が不足している。",
-      "translation": "It is not that I lack a degree, but I lack experience.",
-      "blank_target": "わけではない",
-      "wrong_choices": [
-        "わけがない",
-        "はずではない",
-        "とは言えない"
-      ],
-      "wrong_choice_explanations": [
-        "わけがない expresses impossibility, not the negation of a premise that わけではない provides.",
-        "はずではない negates expectations, but doesn't address the logical implication that わけではない negates.",
-        "とは言えない means 'cannot say,' which is different from the direct negation that わけではない conveys."
-      ],
-      "hiragana_full": "がくいがないわけではないが、けいけんがふそくしている。",
-      "audio_alternatives": [
-        {
-          "kanji": "学位がないというわけではないが、経験が足りない。",
-          "hiragana_full": "がくいがないというわけではないが、けいけんがたりない。"
-        },
-        {
-          "kanji": "学位はあるけれど、経験が不足している。",
-          "hiragana_full": "がくいはあるけれど、けいけんがふそくしている。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_052_8",
       "example_sentence": "私たちの提案が完璧なわけではないが、実行可能です。",
       "translation": "It is not that our proposal is perfect, but it is feasible.",
       "blank_target": "わけではない",
@@ -226,21 +235,39 @@
           "hiragana_full": "われわれのていあんはかんぺきではないが、じっこうできます。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "提案",
+          "reading": "ていあん",
+          "meaning": "proposal"
+        },
+        {
+          "word": "完璧",
+          "reading": "かんぺき",
+          "meaning": "perfect"
+        },
+        {
+          "word": "実行可能",
+          "reading": "じっこうかのう",
+          "meaning": "feasible"
+        }
+      ]
     },
     {
-      "id": "n3_052_9",
+      "id": "n3_052_7",
       "example_sentence": "天才だからといって成功するわけではない。努力も必要だ。",
       "translation": "It is not that being a genius necessarily means success. Effort is also necessary.",
       "blank_target": "わけではない",
       "wrong_choices": [
         "わけがない",
-        "のではない",
+        "せいではない",
         "ようではない"
       ],
       "wrong_choice_explanations": [
         "わけがない expresses impossibility or strong denial, but わけではない is needed for this logical negation of consequence.",
-        "のではない is used for explanations, not for negating logical implications the way わけではない does.",
+        "せいではない means 'it's not the fault of / not caused by (something bad)', which cannot follow 成功する here; わけではない is needed to deny that genius guarantees success.",
         "ようではない would mean 'doesn't appear to succeed' (a judgment from signs), but わけではない denies the inference that genius guarantees success, not the appearance of succeeding."
       ],
       "hiragana_full": "てんさいだからといってせいこうするわけではない。どりょくもひつようだ。",
@@ -254,35 +281,119 @@
           "hiragana_full": "てんさいだからといって、かならずせいこうするわけじゃない。どりょくもたいせつだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "天才",
+          "reading": "てんさい",
+          "meaning": "genius"
+        },
+        {
+          "word": "成功",
+          "reading": "せいこう",
+          "meaning": "success"
+        },
+        {
+          "word": "努力",
+          "reading": "どりょく",
+          "meaning": "effort"
+        }
+      ]
+    },
+    {
+      "id": "n3_052_8",
+      "example_sentence": "毎日運動をしているわけではない。週に二回ぐらいです。",
+      "translation": "It doesn't mean I exercise every day. It's about twice a week.",
+      "blank_target": "わけ",
+      "wrong_choices": [
+        "ところ",
+        "ばかり",
+        "まま"
+      ],
+      "wrong_choice_explanations": [
+        "ところ means 'place' or 'moment' — it doesn't create the meaning of denying an assumption about frequency.",
+        "ばかり means 'only' or 'just' — it emphasizes exclusivity rather than denying an assumption like わけではない.",
+        "まま means 'as is' or 'while remaining' — it shows unchanged state, not denial of an assumption."
+      ],
+      "hiragana_full": "まいにちうんどうをしているわけではない。しゅうににかいぐらいです。",
+      "audio_alternatives": [
+        {
+          "kanji": "毎日運動しているわけじゃない。週に二回ぐらいです。",
+          "hiragana_full": "まいにちうんどうしているわけじゃない。しゅうににかいぐらいです。"
+        },
+        {
+          "kanji": "毎日運動をしているというわけではありません。週に二回ほどです。",
+          "hiragana_full": "まいにちうんどうをしているというわけではありません。しゅうににかいほどです。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral"
+    },
+    {
+      "id": "n3_052_9",
+      "example_sentence": "全部理解したわけではありませんが、だいたい分かりました。",
+      "translation": "It doesn't mean I understood everything, but I got the gist of it.",
+      "blank_target": "わけ",
+      "wrong_choices": [
+        "つもり",
+        "はず",
+        "べき"
+      ],
+      "wrong_choice_explanations": [
+        "つもり means 'intention' — it would suggest intention to understand everything, not denial of complete understanding.",
+        "はず means 'should' or 'expected to' — it expresses expectation rather than denying complete understanding.",
+        "べき means 'should' or 'ought to' — it expresses obligation or duty, not denial of an assumption."
+      ],
+      "hiragana_full": "ぜんぶりかいしたわけではありませんが、だいたいわかりました。",
+      "audio_alternatives": [
+        {
+          "kanji": "全部理解したわけじゃないけど、だいたい分かった。",
+          "hiragana_full": "ぜんぶりかいしたわけじゃないけど、だいたいわかった。"
+        },
+        {
+          "kanji": "全部は分かりませんでしたが、だいたい理解できました。",
+          "hiragana_full": "ぜんぶはわかりませんでしたが、だいたいりかいできました。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "理解",
+          "reading": "りかい",
+          "meaning": "understanding"
+        }
+      ]
     },
     {
       "id": "n3_052_10",
-      "example_sentence": "売上が減少しているわけではないが、伸びも鈍い。",
-      "translation": "It is not that sales are declining, but growth is sluggish.",
-      "blank_target": "わけではない",
+      "example_sentence": "お酒を飲まないわけではないが、あまり好きではない。",
+      "translation": "It's not that I don't drink alcohol, but I don't really like it.",
+      "blank_target": "わけ",
       "wrong_choices": [
-        "わけがない",
-        "はずではない",
-        "とは言えない"
+        "限り",
+        "以上",
+        "うち"
       ],
       "wrong_choice_explanations": [
-        "わけがない means 'there's no way,' expressing impossibility, not the nuanced negation that わけではない provides.",
-        "はずではない negates expectation, but doesn't directly negate the logical implication as わけではない does.",
-        "とは言えない means 'cannot be said,' which is softer than わけではない's direct negation of what a situation implies."
+        "限り means 'as long as' or 'while' — it creates a conditional meaning rather than denying an assumption.",
+        "以上 means 'since' or 'now that' — it shows reasoning from a fact, not denial of an assumption.",
+        "うち means 'while' or 'during' — it indicates time period, not the denial of an assumption that わけではない expresses."
       ],
-      "hiragana_full": "うりあげがげんしょうしているわけではないが、のびもにぶい。",
+      "hiragana_full": "おさけをのまないわけではないが、あまりすきではない。",
       "audio_alternatives": [
         {
-          "kanji": "売上が減っているわけではないが、成長も遅い。",
-          "hiragana_full": "うりあげがへっているわけではないが、せいちょうもおそい。"
+          "kanji": "お酒を飲まないことはないが、あまり好きじゃない。",
+          "hiragana_full": "おさけをのまないことはないが、あまりすきじゃない。"
         },
         {
-          "kanji": "売上が落ちているわけではないが、伸びも遅い。",
-          "hiragana_full": "うりあげがおちているわけではないが、のびもおそい。"
+          "kanji": "お酒は飲めるけど、あまり好きではない。",
+          "hiragana_full": "おさけはのめるけど、あまりすきではない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     }
   ]
 }

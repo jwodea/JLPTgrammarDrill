@@ -12,12 +12,12 @@
       "wrong_choices": [
         "したにしても",
         "したとしては",
-        "したわりに"
+        "しただけあって"
       ],
       "wrong_choice_explanations": [
         "にしても means 'even if / even considering,' making a concession, but にしては specifically expresses that the result is unexpected for the given condition.",
         "としては means 'as / in the role of,' which frames identity or role, not the unexpected-result-given-condition meaning needed here.",
-        "わりに means 'for / considering,' also expressing discrepancy, but にしては better fits the specific comparison of 'for someone who just did X for the first time.'"
+        "だけあって means 'just as you'd expect from,' crediting the good cooking to the attempt itself; that runs opposite to にしては, which marks the good result as surprising for a first attempt."
       ],
       "hiragana_full": "はじめてりょうりしたにしては、じょうずだね。",
       "audio_alternatives": [
@@ -30,35 +30,8 @@
           "hiragana_full": "はじめてりょうりしたわりには、じょうずだね。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_066_10",
-      "example_sentence": "新興企業にしては、組織が整備されていますね。",
-      "translation": "For a startup, your organization is well-structured.",
-      "blank_target": "にしては",
-      "wrong_choices": [
-        "にしても",
-        "としては",
-        "わりに"
-      ],
-      "wrong_choice_explanations": [
-        "にしても means 'even if/even though', not the 'considering' sense.",
-        "としては is similar but more formal for roles or capacities.",
-        "わりに expresses discrepancy, but にしては is more natural here."
-      ],
-      "hiragana_full": "しんこうきぎょうにしては、そしきがせいびされていますね。",
-      "audio_alternatives": [
-        {
-          "kanji": "スタートアップにしては、組織がよく整っていますね。",
-          "hiragana_full": "スタートアップにしては、そしきがよくととのっていますね。"
-        },
-        {
-          "kanji": "新興企業の割に、組織がしっかりしていますね。",
-          "hiragana_full": "しんこうきぎょうのわりに、そしきがしっかりしていますね。"
-        }
-      ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n3_066_2",
@@ -68,12 +41,12 @@
       "wrong_choices": [
         "にしても",
         "としては",
-        "わりに"
+        "だけに"
       ],
       "wrong_choice_explanations": [
         "にしても means 'even if' or 'even considering,' making a concession, but にしては specifically expresses that the result is unexpectedly good for a first presentation.",
         "としては means 'as / in the role of,' framing identity or capacity, but the sentence evaluates the result against expectations, not someone's role.",
-        "わりに means 'for / considering,' also expressing discrepancy, but にしては better fits the specific surprise of doing well on one's very first presentation."
+        "だけに means 'precisely because,' framing the good presentation as the natural result of it being the first one, but にしては instead marks that result as unexpected for a first presentation."
       ],
       "hiragana_full": "はじめてのぷれぜんにしては、うまくはっぴょうできましたね。",
       "audio_alternatives": [
@@ -86,7 +59,15 @@
           "hiragana_full": "さいしょのぷれぜんにしては、うまくはっぴょうできましたね。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "発表",
+          "reading": "はっぴょう",
+          "meaning": "presentation"
+        }
+      ]
     },
     {
       "id": "n3_066_3",
@@ -94,12 +75,12 @@
       "translation": "For being cheap, this restaurant's food is very delicious.",
       "blank_target": "にしては",
       "wrong_choices": [
-        "のわりに",
+        "だけあって",
         "としては",
         "にしても"
       ],
       "wrong_choice_explanations": [
-        "のわりに means 'for / considering,' expressing discrepancy between expectation and reality, but にしては more strongly emphasizes the surprise of the food being delicious despite low prices.",
+        "だけあって means 'just as you'd expect from,' which would credit the delicious food to the low price — the reverse of にしては, which presents the quality as surprising given how cheap it is.",
         "としては means 'as / in the capacity of,' framing a role or category, but the sentence evaluates quality against price expectations, not a restaurant's role.",
         "にしても means 'even if,' making a concession, but にしては specifically expresses that the quality is unexpectedly high given the low price."
       ],
@@ -114,7 +95,8 @@
           "hiragana_full": "このれすとらんはねだんがやすいにしては、りょうりがとてもおいしい。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n3_066_4",
@@ -142,7 +124,8 @@
           "hiragana_full": "ななじゅっさいにしては、すごくげんきですね。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n3_066_5",
@@ -152,12 +135,12 @@
       "wrong_choices": [
         "にしても",
         "としては",
-        "わりに"
+        "だけに"
       ],
       "wrong_choice_explanations": [
         "にしても means 'even if / even considering,' making a general concession, but にしては specifically expresses that the result was unexpectedly good for a first business.",
         "としては means 'as / in the role of,' framing identity or role, but the sentence is about an unexpected outcome given the condition, not about someone's role.",
-        "わりに means 'for / considering,' expressing discrepancy, but にしては better fits the specific surprise of succeeding on one's very first attempt."
+        "だけに means 'precisely because,' treating the success as the natural consequence of it being a first venture, but にしては marks that success as unexpected for a first business."
       ],
       "hiragana_full": "はじめてのびじねすにしては、せいこうしましたね。",
       "audio_alternatives": [
@@ -170,7 +153,15 @@
           "hiragana_full": "さいしょのびじねすにしては、せいこうしましたね。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "成功",
+          "reading": "せいこう",
+          "meaning": "success"
+        }
+      ]
     },
     {
       "id": "n3_066_6",
@@ -198,7 +189,15 @@
           "hiragana_full": "しょしんしゃとはおもえないほど、じょうずです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "初心者",
+          "reading": "しょしんしゃ",
+          "meaning": "beginner"
+        }
+      ]
     },
     {
       "id": "n3_066_7",
@@ -206,12 +205,12 @@
       "translation": "For an amateur, you repaired it quite well.",
       "blank_target": "にしては",
       "wrong_choices": [
-        "のわりに",
+        "だけあって",
         "にしても",
         "としては"
       ],
       "wrong_choice_explanations": [
-        "のわりに means 'for / considering,' expressing a gap between expectation and reality, but にしては more directly conveys the surprise that an amateur repaired something so well.",
+        "だけあって means 'as one would expect from,' which would credit the skilled repair to the person being an amateur — backwards; にしては presents the skill as surprising for an amateur.",
         "にしても means 'even if,' making a general concession, but にしては specifically expresses that the repair quality was unexpectedly high for a non-professional.",
         "としては means 'as / in the capacity of,' framing identity, but the sentence evaluates repair quality against the expectation for amateurs."
       ],
@@ -226,7 +225,20 @@
           "hiragana_full": "しろうとにしては、なかなかうまくしゅうりできましたね。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "素人",
+          "reading": "しろうと",
+          "meaning": "amateur"
+        },
+        {
+          "word": "修理",
+          "reading": "しゅうり",
+          "meaning": "repair"
+        }
+      ]
     },
     {
       "id": "n3_066_8",
@@ -254,7 +266,15 @@
           "hiragana_full": "すたーとあっぷにしては、おおきなおふぃすですね。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "大規模",
+          "reading": "だいきぼ",
+          "meaning": "large-scale"
+        }
+      ]
     },
     {
       "id": "n3_066_9",
@@ -262,12 +282,12 @@
       "translation": "For an SME, global expansion is quite advanced.",
       "blank_target": "にしては",
       "wrong_choices": [
-        "のわりに",
+        "だけに",
         "としては",
         "にしても"
       ],
       "wrong_choice_explanations": [
-        "のわりに means 'for / considering,' expressing discrepancy, but にしては more emphatically highlights the surprise that an SME has advanced global operations.",
+        "だけに means 'precisely because,' treating the advanced global expansion as the natural result of being an SME, but にしては frames it as surprising for an SME.",
         "としては means 'as,' framing a category, but the sentence expresses surprised evaluation, not category membership.",
         "にしても means 'even if,' making a general concession, but にしては specifically evaluates global expansion as unexpectedly advanced for an SME."
       ],
@@ -282,7 +302,66 @@
           "hiragana_full": "ちゅうしょうきぎょうにしては、グローバルてんかいがかなりすすんでいる。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "中小企業",
+          "reading": "ちゅうしょうきぎょう",
+          "meaning": "small-to-medium business"
+        },
+        {
+          "word": "展開",
+          "reading": "てんかい",
+          "meaning": "expansion"
+        }
+      ]
+    },
+    {
+      "id": "n3_066_10",
+      "example_sentence": "新興企業にしては、組織が整備されていますね。",
+      "translation": "For a startup, your organization is well-structured.",
+      "blank_target": "にしては",
+      "wrong_choices": [
+        "にしても",
+        "としては",
+        "わりに"
+      ],
+      "wrong_choice_explanations": [
+        "にしても means 'even if/even though', not the 'considering' sense.",
+        "としては is similar but more formal for roles or capacities.",
+        "わりに expresses discrepancy, but にしては is more natural here."
+      ],
+      "hiragana_full": "しんこうきぎょうにしては、そしきがせいびされていますね。",
+      "audio_alternatives": [
+        {
+          "kanji": "スタートアップにしては、組織がよく整っていますね。",
+          "hiragana_full": "スタートアップにしては、そしきがよくととのっていますね。"
+        },
+        {
+          "kanji": "新興企業の割に、組織がしっかりしていますね。",
+          "hiragana_full": "しんこうきぎょうのわりに、そしきがしっかりしていますね。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "新興企業",
+          "reading": "しんこうきぎょう",
+          "meaning": "emerging company"
+        },
+        {
+          "word": "組織",
+          "reading": "そしき",
+          "meaning": "organization"
+        },
+        {
+          "word": "整備",
+          "reading": "せいび",
+          "meaning": "well-organized"
+        }
+      ]
     }
   ]
 }

@@ -31,68 +31,23 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "からみると"
+      "blank_target_reading": "からみると",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "観点",
+          "reading": "かんてん",
+          "meaning": "viewpoint"
+        },
+        {
+          "word": "革新的",
+          "reading": "かくしんてき",
+          "meaning": "innovative"
+        }
+      ]
     },
     {
       "id": "n2_076_2",
-      "example_sentence": "客の立場から見ると、このサービスは不十分だ。",
-      "translation": "From a customer's perspective, this service is insufficient.",
-      "blank_target": "から見ると",
-      "wrong_choices": [
-        "について",
-        "に対して",
-        "として"
-      ],
-      "wrong_choice_explanations": [
-        "について means 'about/regarding' and introduces a topic rather than expressing a perspective.",
-        "に対して means 'toward/against' and indicates direction or opposition rather than a viewpoint.",
-        "として means 'as' and indicates a role or capacity rather than expressing a perspective."
-      ],
-      "hiragana_full": "きゃくのたちばからみると、このサービスはふじゅうぶんだ。",
-      "audio_alternatives": [
-        {
-          "kanji": "顧客の視点から見れば、このサービスは不十分だ。",
-          "hiragana_full": "こきゃくのしてんからみれば、このサービスはふじゅうぶんだ。"
-        },
-        {
-          "kanji": "客の立場から考えると、このサービスは不十分です。",
-          "hiragana_full": "きゃくのたちばからかんがえると、このサービスはふじゅうぶんです。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "からみると"
-    },
-    {
-      "id": "n2_076_3",
-      "example_sentence": "高齢者の視点から見ると、この政策は不十分だ。",
-      "translation": "From the elderly's perspective, this policy is insufficient.",
-      "blank_target": "から見ると",
-      "wrong_choices": [
-        "からして",
-        "をもとに",
-        "によると"
-      ],
-      "wrong_choice_explanations": [
-        "からして means 'judging from/starting from' and emphasizes the starting point rather than expressing a perspective.",
-        "をもとに means 'based on' and indicates using something as a foundation rather than expressing a viewpoint.",
-        "によると means 'according to' and indicates information source rather than expressing one's own perspective."
-      ],
-      "hiragana_full": "こうれいしゃのしてんからみると、このせいさくはふじゅうぶんだ。",
-      "audio_alternatives": [
-        {
-          "kanji": "高齢者の観点から見れば、この政策は不十分です。",
-          "hiragana_full": "こうれいしゃのかんてんからみれば、このせいさくはふじゅうぶんです。"
-        },
-        {
-          "kanji": "高齢者の立場から見ると、この政策は不十分だ。",
-          "hiragana_full": "こうれいしゃのたちばからみると、このせいさくはふじゅうぶんだ。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "からみると"
-    },
-    {
-      "id": "n2_076_4",
       "example_sentence": "経営陣の立場から見ると、この決定は必然的だ。",
       "translation": "From management's perspective, this decision was inevitable.",
       "blank_target": "から見ると",
@@ -118,68 +73,23 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "からみると"
-    },
-    {
-      "id": "n2_076_5",
-      "example_sentence": "歴史的な観点から見ると、その現象は必然的だった。",
-      "translation": "From a historical perspective, that phenomenon was inevitable.",
-      "blank_target": "から見ると",
-      "wrong_choices": [
-        "にとって",
-        "を通して",
-        "に基づいて"
-      ],
-      "wrong_choice_explanations": [
-        "〜にとって means 'for (an interested party),' marking whom something matters to, not the vantage point of observation expressed by 〜から見ると.",
-        "を通して means 'through' and indicates a medium or method rather than expressing a viewpoint.",
-        "に基づいて means 'based on' and indicates relying on information rather than expressing one's perspective."
-      ],
-      "hiragana_full": "れきしてきなかんてんからみると、そのげんしょうはひつぜんてきだった。",
-      "audio_alternatives": [
+      "blank_target_reading": "からみると",
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "歴史的な視点から見れば、その現象は必然的だった。",
-          "hiragana_full": "れきしてきなしてんからみれば、そのげんしょうはひつぜんてきだった。"
+          "word": "経営陣",
+          "reading": "けいえいじん",
+          "meaning": "management"
         },
         {
-          "kanji": "歴史的な観点から考えると、その現象は避けられなかった。",
-          "hiragana_full": "れきしてきなかんてんからかんがえると、そのげんしょうはさけられなかった。"
+          "word": "必然的",
+          "reading": "ひつぜんてき",
+          "meaning": "inevitable"
         }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "からみると"
+      ]
     },
     {
-      "id": "n2_076_6",
-      "example_sentence": "医者の視点から見れば、この症状は深刻だ。",
-      "translation": "From a doctor's perspective, this symptom is serious.",
-      "blank_target": "から見れば",
-      "wrong_choices": [
-        "に対しては",
-        "においては",
-        "に関しては"
-      ],
-      "wrong_choice_explanations": [
-        "〜に対しては marks a target ('toward ~'), not the viewpoint from which the symptom is judged — that role belongs to 〜から見れば.",
-        "においては means 'in/when it comes to' and indicates a specific context rather than expressing a viewpoint.",
-        "に関しては means 'as for/regarding' and introduces a topic rather than expressing a perspective."
-      ],
-      "hiragana_full": "いしゃのしてんからみれば、このしょうじょうはしんこくだ。",
-      "audio_alternatives": [
-        {
-          "kanji": "医者の観点から言えば、この症状は深刻だ。",
-          "hiragana_full": "いしゃのかんてんからいえば、このしょうじょうはしんこくだ。"
-        },
-        {
-          "kanji": "医者の立場から見ると、この症状は深刻です。",
-          "hiragana_full": "いしゃのたちばからみると、このしょうじょうはしんこくです。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "からみれば"
-    },
-    {
-      "id": "n2_076_7",
+      "id": "n2_076_3",
       "example_sentence": "親の目から見ると、子供の成長は早い。",
       "translation": "In a parent's eyes, children grow up quickly.",
       "blank_target": "から見ると",
@@ -205,39 +115,18 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "からみると"
-    },
-    {
-      "id": "n2_076_8",
-      "example_sentence": "学生の立場から見れば、この制度は厳しすぎる。",
-      "translation": "From students' standpoint, this system is too strict.",
-      "blank_target": "から見れば",
-      "wrong_choices": [
-        "にあたって",
-        "に際して",
-        "を前にして"
-      ],
-      "wrong_choice_explanations": [
-        "にあたって means 'on the occasion of' and indicates timing rather than expressing a perspective.",
-        "に際して means 'on the occasion of' and indicates specific timing rather than expressing a viewpoint.",
-        "を前にして means 'faced with' and indicates confronting something rather than expressing a perspective."
-      ],
-      "hiragana_full": "がくせいのたちばからみれば、このせいどはきびしすぎる。",
-      "audio_alternatives": [
+      "blank_target_reading": "からみると",
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "学生の観点から見ると、この制度は厳しすぎる。",
-          "hiragana_full": "がくせいのかんてんからみると、このせいどはきびしすぎる。"
-        },
-        {
-          "kanji": "学生の立場から言えば、この制度は厳しすぎます。",
-          "hiragana_full": "がくせいのたちばからいえば、このせいどはきびしすぎます。"
+          "word": "成長",
+          "reading": "せいちょう",
+          "meaning": "growth"
         }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "からみれば"
+      ]
     },
     {
-      "id": "n2_076_9",
+      "id": "n2_076_4",
       "example_sentence": "外国人の目から見ると、この習慣は興味深い。",
       "translation": "In the eyes of foreigners, this custom is interesting.",
       "blank_target": "から見ると",
@@ -263,10 +152,144 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "からみると"
+      "blank_target_reading": "からみると",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "習慣",
+          "reading": "しゅうかん",
+          "meaning": "custom"
+        },
+        {
+          "word": "興味深い",
+          "reading": "きょうみぶかい",
+          "meaning": "deeply interesting"
+        }
+      ]
     },
     {
-      "id": "n2_076_10",
+      "id": "n2_076_5",
+      "example_sentence": "環境保護の立場から見ると、この計画は問題が多い。",
+      "translation": "From an environmental protection standpoint, this plan has many problems.",
+      "blank_target": "から見ると",
+      "wrong_choices": [
+        "に関連して",
+        "に関わらず",
+        "に対応して"
+      ],
+      "wrong_choice_explanations": [
+        "に関連して means 'in connection with' and indicates relationship or association, not the observational perspective of から見ると.",
+        "に関わらず means 'regardless of' and indicates independence from conditions, opposite to the perspective-dependent meaning of から見ると.",
+        "に対応して means 'in response to' and indicates reaction or adaptation, but doesn't convey the viewing standpoint that から見ると expresses."
+      ],
+      "hiragana_full": "かんきょうほごのたちばからみると、このけいかくはもんだいがおおい。",
+      "audio_alternatives": [
+        {
+          "kanji": "環境保護の観点から見れば、この計画は問題が多い。",
+          "hiragana_full": "かんきょうほごのかんてんからみれば、このけいかくはもんだいがおおい。"
+        },
+        {
+          "kanji": "環境保護の立場から考えると、この計画には問題が多い。",
+          "hiragana_full": "かんきょうほごのたちばからかんがえると、このけいかくにはもんだいがおおい。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "からみると",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "環境保護",
+          "reading": "かんきょうほご",
+          "meaning": "environmental protection"
+        },
+        {
+          "word": "立場",
+          "reading": "たちば",
+          "meaning": "standpoint / position"
+        }
+      ]
+    },
+    {
+      "id": "n2_076_6",
+      "example_sentence": "医者の視点から見れば、この症状は深刻だ。",
+      "translation": "From a doctor's perspective, this symptom is serious.",
+      "blank_target": "から見れば",
+      "wrong_choices": [
+        "に対しては",
+        "にわたっては",
+        "に関しては"
+      ],
+      "wrong_choice_explanations": [
+        "〜に対しては marks a target ('toward ~'), not the viewpoint from which the symptom is judged — that role belongs to 〜から見れば.",
+        "〜にわたっては means 'spanning / extending over (a range)' and needs a span of time or space, not a viewpoint — the doctor's perspective is the vantage point from which the symptom is judged.",
+        "に関しては means 'as for/regarding' and introduces a topic rather than expressing a perspective."
+      ],
+      "hiragana_full": "いしゃのしてんからみれば、このしょうじょうはしんこくだ。",
+      "audio_alternatives": [
+        {
+          "kanji": "医者の観点から言えば、この症状は深刻だ。",
+          "hiragana_full": "いしゃのかんてんからいえば、このしょうじょうはしんこくだ。"
+        },
+        {
+          "kanji": "医者の立場から見ると、この症状は深刻です。",
+          "hiragana_full": "いしゃのたちばからみると、このしょうじょうはしんこくです。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "からみれば",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "症状",
+          "reading": "しょうじょう",
+          "meaning": "symptoms"
+        },
+        {
+          "word": "深刻",
+          "reading": "しんこく",
+          "meaning": "serious, grave"
+        }
+      ]
+    },
+    {
+      "id": "n2_076_7",
+      "example_sentence": "学生の立場から見れば、この制度は厳しすぎる。",
+      "translation": "From students' standpoint, this system is too strict.",
+      "blank_target": "から見れば",
+      "wrong_choices": [
+        "にあたって",
+        "に際して",
+        "を前にして"
+      ],
+      "wrong_choice_explanations": [
+        "にあたって means 'on the occasion of' and indicates timing rather than expressing a perspective.",
+        "に際して means 'on the occasion of' and indicates specific timing rather than expressing a viewpoint.",
+        "を前にして means 'faced with' and indicates confronting something rather than expressing a perspective."
+      ],
+      "hiragana_full": "がくせいのたちばからみれば、このせいどはきびしすぎる。",
+      "audio_alternatives": [
+        {
+          "kanji": "学生の観点から見ると、この制度は厳しすぎる。",
+          "hiragana_full": "がくせいのかんてんからみると、このせいどはきびしすぎる。"
+        },
+        {
+          "kanji": "学生の立場から言えば、この制度は厳しすぎます。",
+          "hiragana_full": "がくせいのたちばからいえば、このせいどはきびしすぎます。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "からみれば",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "制度",
+          "reading": "せいど",
+          "meaning": "system"
+        }
+      ]
+    },
+    {
+      "id": "n2_076_8",
       "example_sentence": "専門家の立場から見れば、この技術は画期的だ。",
       "translation": "From an expert's standpoint, this technology is groundbreaking.",
       "blank_target": "から見れば",
@@ -292,7 +315,87 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "からみれば"
+      "blank_target_reading": "からみれば",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "画期的",
+          "reading": "かっきてき",
+          "meaning": "groundbreaking"
+        }
+      ]
+    },
+    {
+      "id": "n2_076_9",
+      "example_sentence": "子どもから見れば、親は絶対的な存在だ。",
+      "translation": "From a child's perspective, parents are absolute beings.",
+      "blank_target": "から見れば",
+      "wrong_choices": [
+        "にしては",
+        "をめぐって",
+        "について"
+      ],
+      "wrong_choice_explanations": [
+        "にしては means 'for / considering (a child)' and sets up a contrast with expectations; 子どもにしては cannot mark children as the vantage point from which parents are seen, which is what から見れば does.",
+        "をめぐって means 'concerning / over (a disputed issue)' and would make children the subject of a controversy, but から見れば marks children as the perspective from which parents seem absolute.",
+        "について means 'about/regarding' and would treat children as a topic of discussion; から見れば instead positions them as the vantage point on parents."
+      ],
+      "hiragana_full": "こどもからみれば、おやはぜったいてきなそんざいだ。",
+      "audio_alternatives": [
+        {
+          "kanji": "子どもの視点から見ると、親は絶対的な存在だ。",
+          "hiragana_full": "こどものしてんからみると、おやはぜったいてきなそんざいだ。"
+        },
+        {
+          "kanji": "子どもにとって、親は絶対的な存在である。",
+          "hiragana_full": "こどもにとって、おやはぜったいてきなそんざいである。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "からみれば",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "絶対的",
+          "reading": "ぜったいてき",
+          "meaning": "absolute"
+        },
+        {
+          "word": "存在",
+          "reading": "そんざい",
+          "meaning": "existence / presence"
+        }
+      ]
+    },
+    {
+      "id": "n2_076_10",
+      "example_sentence": "学生から見れば、この授業は難しすぎる。",
+      "translation": "From students' perspective, this class is too difficult.",
+      "blank_target": "から見れば",
+      "wrong_choices": [
+        "にしては",
+        "わりには",
+        "として"
+      ],
+      "wrong_choice_explanations": [
+        "にしては means 'for/considering being' and would set up a contrast against expectation (e.g. surprisingly difficult/easy for a student), while から見れば simply takes the students' viewpoint without comparing against a norm.",
+        "わりには means 'considering/for' and signals a proportional contrast (difficult relative to what would be expected of students); から見れば instead gives the students' own perspective on the class.",
+        "として means 'as/in the capacity of' and would assert that the speaker is a student speaking in that role; から見れば instead views the class from the students' external perspective."
+      ],
+      "hiragana_full": "がくせいからみれば、このじゅぎょうはむずかしすぎる。",
+      "audio_alternatives": [
+        {
+          "kanji": "学生の立場からすると、この授業は難しすぎる。",
+          "hiragana_full": "がくせいのたちばからすると、このじゅぎょうはむずかしすぎる。"
+        },
+        {
+          "kanji": "学生にとって、この授業は難しすぎる。",
+          "hiragana_full": "がくせいにとって、このじゅぎょうはむずかしすぎる。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "からみれば",
+      "register": "neutral"
     }
   ]
 }

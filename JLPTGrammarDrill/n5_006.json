@@ -6,42 +6,42 @@
   "exercises": [
     {
       "id": "n5_006_1",
-      "example_sentence": "私は学生です。",
-      "translation": "I am a student.",
+      "example_sentence": "私の部屋は二階です。",
+      "translation": "My room is on the second floor.",
       "blank_target": "は",
       "wrong_choices": [
-        "が",
         "を",
-        "に"
+        "に",
+        "で"
       ],
       "wrong_choice_explanations": [
-        "が is a subject marker for new information or emphasis — it doesn't fit here because we're simply stating what the topic (私) is.",
-        "を marks direct objects of verbs — it doesn't fit here because 学生 is not an object being acted upon.",
-        "に indicates direction, time, or indirect location — it doesn't fit here because we're not expressing movement or time."
+        "を marks direct objects — there is no action verb here, so 部屋を二階です is ungrammatical.",
+        "に marks a location or time point (二階に部屋があります), but here 部屋 is the topic being described, so it needs は.",
+        "で marks where an action happens or means — 部屋で二階です is ungrammatical because nothing is being done in the room."
       ],
-      "hiragana_full": "わたしはがくせいです。",
+      "hiragana_full": "わたしのへやはにかいです。",
       "audio_alternatives": [
         {
-          "kanji": "私は学生だ。",
-          "hiragana_full": "わたしはがくせいだ。"
+          "kanji": "私の部屋は二階にあります。",
+          "hiragana_full": "わたしのへやはにかいにあります。"
         },
         {
-          "kanji": "僕は学生です。",
-          "hiragana_full": "ぼくはがくせいです。"
+          "kanji": "僕の部屋は二階です。",
+          "hiragana_full": "ぼくのへやはにかいです。"
         }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
         {
-          "word": "私",
-          "reading": "わたし",
-          "meaning": "I"
+          "word": "部屋",
+          "reading": "へや",
+          "meaning": "room"
         },
         {
-          "word": "学生",
-          "reading": "がくせい",
-          "meaning": "student"
+          "word": "二階",
+          "reading": "にかい",
+          "meaning": "second floor"
         }
       ]
     },
@@ -92,12 +92,12 @@
       "translation": "This book is interesting.",
       "blank_target": "は",
       "wrong_choices": [
-        "が",
+        "の",
         "を",
         "と"
       ],
       "wrong_choice_explanations": [
-        "が marks the subject for emphasis or new information — it doesn't fit here because we're commenting on この本 as the topic.",
+        "の links nouns ('this book's ...'); この本の面白いです is ungrammatical because nothing follows の — 本 is the topic and needs は.",
         "を marks direct objects of transitive verbs — it doesn't fit here because 面白い is an adjective, not a transitive verb.",
         "と means 'with' or 'and' — it doesn't fit here because we're not expressing accompaniment or listing."
       ],
@@ -129,37 +129,42 @@
     },
     {
       "id": "n5_006_4",
-      "example_sentence": "田中さんは先生です。",
-      "translation": "Mr. Tanaka is a teacher.",
+      "example_sentence": "父は会社員です。",
+      "translation": "My father is an office worker.",
       "blank_target": "は",
       "wrong_choices": [
-        "が",
-        "に",
-        "から"
+        "を",
+        "で",
+        "へ"
       ],
       "wrong_choice_explanations": [
-        "が emphasizes the subject as new or surprising information — it doesn't fit here because we're simply identifying what Tanaka-san is.",
-        "に indicates direction, time, or location — it doesn't fit here because we're not expressing movement or position.",
-        "から means 'from' or 'because' — it doesn't fit here because we're not indicating origin or reason."
+        "を marks direct objects — 父 is not being acted on by a verb, so 父を会社員です is ungrammatical.",
+        "で marks place or means — 父で会社員です is ungrammatical; 父 is the topic being described.",
+        "へ marks direction of movement (学校へ行く) — there is no movement here, so 父へ会社員です is ungrammatical."
       ],
-      "hiragana_full": "たなかさんはせんせいです。",
+      "hiragana_full": "ちちはかいしゃいんです。",
       "audio_alternatives": [
         {
-          "kanji": "田中さんは先生だ。",
-          "hiragana_full": "たなかさんはせんせいだ。"
+          "kanji": "父は会社で働いています。",
+          "hiragana_full": "ちちはかいしゃではたらいています。"
         },
         {
-          "kanji": "田中さんは教師です。",
-          "hiragana_full": "たなかさんはきょうしです。"
+          "kanji": "うちの父は会社員です。",
+          "hiragana_full": "うちのちちはかいしゃいんです。"
         }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
         {
-          "word": "先生",
-          "reading": "せんせい",
-          "meaning": "teacher"
+          "word": "父",
+          "reading": "ちち",
+          "meaning": "(my) father"
+        },
+        {
+          "word": "会社員",
+          "reading": "かいしゃいん",
+          "meaning": "office worker"
         }
       ]
     },
@@ -169,12 +174,12 @@
       "translation": "Dogs are big.",
       "blank_target": "は",
       "wrong_choices": [
-        "が",
+        "に",
         "を",
         "の"
       ],
       "wrong_choice_explanations": [
-        "が marks the subject as new or exhaustive information ('it is the dog that is big'), but here 犬 is the general topic being described, so the topic marker は fits.",
+        "に marks a place, time, or target (公園に行く); 犬に大きいです is ungrammatical — 犬 is the topic being described, which needs は.",
         "を marks the direct object of a transitive verb—it doesn't fit here because 大きい is an adjective, not a verb acting on 犬.",
         "の links nouns or shows possession ('the dog's...'), but here we simply mark 犬 as the topic, which requires は."
       ],
@@ -210,12 +215,12 @@
       "translation": "Cats are cute.",
       "blank_target": "は",
       "wrong_choices": [
-        "が",
+        "の",
         "を",
         "で"
       ],
       "wrong_choice_explanations": [
-        "が emphasizes the subject — it doesn't fit here because we're making a general statement about cats as a topic.",
+        "の links nouns ('the cat's ...'); 猫のかわいいです is ungrammatical because nothing follows の — 猫 is the topic, which needs は.",
         "を marks direct objects of verbs — it doesn't fit here because かわいい is an adjective, not a transitive verb.",
         "で indicates location of action or means — it doesn't fit here because we're describing a quality, not an action or method."
       ],
@@ -251,12 +256,12 @@
       "translation": "Japanese is difficult.",
       "blank_target": "は",
       "wrong_choices": [
-        "が",
+        "へ",
         "に",
         "と"
       ],
       "wrong_choice_explanations": [
-        "が marks the subject for emphasis — it doesn't fit here because we're commenting on Japanese as a general topic.",
+        "へ marks direction of movement (学校へ行く); 日本語へ難しいです is ungrammatical — nothing is moving, and 日本語 is the topic, which needs は.",
         "に indicates direction, time, or location — it doesn't fit here because we're describing a characteristic, not position or time.",
         "と means 'with' or 'and' — it doesn't fit here because we're not expressing accompaniment or listing items."
       ],
@@ -288,42 +293,47 @@
     },
     {
       "id": "n5_006_8",
-      "example_sentence": "明日は休みです。",
-      "translation": "Tomorrow is a holiday.",
+      "example_sentence": "東京は大きい町です。",
+      "translation": "Tokyo is a big city.",
       "blank_target": "は",
       "wrong_choices": [
-        "が",
         "を",
-        "から"
+        "に",
+        "へ"
       ],
       "wrong_choice_explanations": [
-        "が emphasizes new information about the subject — it doesn't fit here because we're stating what tomorrow is as a topic.",
-        "を marks direct objects — it doesn't fit here because 休み is not being acted upon by a verb.",
-        "から means 'from' or 'because' — it doesn't fit here because we're not indicating origin or starting point."
+        "を marks direct objects — 東京を大きい町です is ungrammatical because there is no action verb.",
+        "に marks a location or destination (東京に住む) — but here 東京 is the topic being described, which needs は.",
+        "へ marks direction of movement (東京へ行く) — nothing is moving here, so 東京へ大きい町です is ungrammatical."
       ],
-      "hiragana_full": "あしたはやすみです。",
+      "hiragana_full": "とうきょうはおおきいまちです。",
       "audio_alternatives": [
         {
-          "kanji": "明日は休日です。",
-          "hiragana_full": "あしたはきゅうじつです。"
+          "kanji": "東京は大きな町です。",
+          "hiragana_full": "とうきょうはおおきなまちです。"
         },
         {
-          "kanji": "あしたはおやすみです。",
-          "hiragana_full": "あしたはおやすみです。"
+          "kanji": "東京はとても大きい町です。",
+          "hiragana_full": "とうきょうはとてもおおきいまちです。"
         }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
         {
-          "word": "明日",
-          "reading": "あした",
-          "meaning": "tomorrow"
+          "word": "東京",
+          "reading": "とうきょう",
+          "meaning": "Tokyo"
         },
         {
-          "word": "休み",
-          "reading": "やすみ",
-          "meaning": "day off"
+          "word": "大きい",
+          "reading": "おおきい",
+          "meaning": "big"
+        },
+        {
+          "word": "町",
+          "reading": "まち",
+          "meaning": "town, city"
         }
       ]
     },
@@ -333,12 +343,12 @@
       "translation": "The coffee is hot.",
       "blank_target": "は",
       "wrong_choices": [
-        "が",
+        "に",
         "を",
         "で"
       ],
       "wrong_choice_explanations": [
-        "が emphasizes the subject — it doesn't fit here because we're describing the coffee as a topic we're commenting on.",
+        "に marks a place, time, or target; コーヒーに熱いです is ungrammatical — コーヒー is the topic being described, which needs は.",
         "を marks direct objects of transitive verbs — it doesn't fit here because 熱い is an adjective, not a transitive verb.",
         "で indicates location of action or means — it doesn't fit here because we're describing temperature, not where an action occurs."
       ],
@@ -369,12 +379,12 @@
       "translation": "My mother is good at cooking.",
       "blank_target": "は",
       "wrong_choices": [
-        "が",
+        "へ",
         "を",
         "に"
       ],
       "wrong_choice_explanations": [
-        "が marks the subject — it doesn't fit here because 母 is the topic we're commenting about, not the subject being emphasized.",
+        "へ marks direction of movement (学校へ行く); 母へ料理が上手です is ungrammatical — 母 is the topic, and 料理が上手 describes her.",
         "を marks direct objects — it doesn't fit here because 母 is not being acted upon by a verb.",
         "に indicates direction or location — it doesn't fit here because we're not expressing movement toward or position of the mother."
       ],

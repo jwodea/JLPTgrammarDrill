@@ -30,7 +30,15 @@
           "hiragana_full": "しごとのいそがしさにかまけ、かぞくとのじかんをおろそかにしてしまった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "忙しさ",
+          "reading": "いそがしさ",
+          "meaning": "busyness"
+        }
+      ]
     },
     {
       "id": "n1_078_2",
@@ -38,12 +46,12 @@
       "translation": "Being preoccupied with the new game, students were neglecting their studies.",
       "blank_target": "にかまけて",
       "wrong_choices": [
-        "に熱中して",
+        "を口実に",
         "に興味を持って",
         "をやりながら"
       ],
       "wrong_choice_explanations": [
-        "に熱中して means 'being enthusiastic about' but doesn't specifically convey the neglect of other duties.",
+        "を口実に means 'using X as an excuse,' implying the game was a deliberate pretext to skip studying, whereas にかまけて describes genuinely losing oneself in it and letting studies slide.",
         "に興味を持って means 'having interest in' but is too mild and doesn't suggest neglecting other responsibilities.",
         "をやりながら means 'while doing' but doesn't capture the sense of being so preoccupied that other things are neglected."
       ],
@@ -58,7 +66,15 @@
           "hiragana_full": "がくせいはあたらしいげーむにかまけて、べんきょうをなおざりにしていた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "おろそか",
+          "reading": "おろそか",
+          "meaning": "negligent; neglectful"
+        }
+      ]
     },
     {
       "id": "n1_078_3",
@@ -86,7 +102,20 @@
           "hiragana_full": "めさきのりえきをおうあまり、そのかいしゃはしょうらいのりすくをみすごした。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "目先",
+          "reading": "めさき",
+          "meaning": "immediate; short-term"
+        },
+        {
+          "word": "利益",
+          "reading": "りえき",
+          "meaning": "profit"
+        }
+      ]
     },
     {
       "id": "n1_078_4",
@@ -94,14 +123,14 @@
       "translation": "Being preoccupied with romance, she ended up neglecting her friendships.",
       "blank_target": "にかまけて",
       "wrong_choices": [
-        "に夢中で",
+        "を優先して",
         "のことで",
-        "に気を取られて"
+        "にかこつけて"
       ],
       "wrong_choice_explanations": [
-        "に夢中で means 'crazy about' but doesn't specifically imply the neglect of other relationships or duties.",
+        "を優先して means 'giving priority to,' a deliberate ranking of romance over friends, whereas にかまけて is being so absorbed in it that friendships slip without a conscious choice.",
         "のことで is too vague and doesn't capture the specific meaning of being so absorbed that you neglect other things.",
-        "に気を取られて means 'having one's attention caught by' but is more passive and doesn't convey the active preoccupation."
+        "にかこつけて means 'using X as a pretext,' framing romance as a deliberate excuse, not the genuine absorption にかまけて conveys."
       ],
       "hiragana_full": "れんあいにかまけて、かのじょはゆうじんかんけいをないがしろにしてしまった。",
       "audio_alternatives": [
@@ -114,7 +143,20 @@
           "hiragana_full": "れんあいばかりにきをとられて、かのじょはゆうじんかんけいをおろそかにした。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "恋愛",
+          "reading": "れんあい",
+          "meaning": "romance"
+        },
+        {
+          "word": "ないがしろ",
+          "reading": "ないがしろ",
+          "meaning": "to neglect; slight"
+        }
+      ]
     },
     {
       "id": "n1_078_5",
@@ -142,7 +184,20 @@
           "hiragana_full": "わかものはえすえぬえすのこうしんにかまけて、りあるのにんげんかんけいをかろんじている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "更新",
+          "reading": "こうしん",
+          "meaning": "update"
+        },
+        {
+          "word": "軽視",
+          "reading": "けいし",
+          "meaning": "to disregard; belittle"
+        }
+      ]
     },
     {
       "id": "n1_078_6",
@@ -170,7 +225,20 @@
           "hiragana_full": "けいざいせいちょうばかりにちゅうりょくするあまり、そのくにはかんきょうほぜんをけいしていた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "経済成長",
+          "reading": "けいざいせいちょう",
+          "meaning": "economic growth"
+        },
+        {
+          "word": "環境保全",
+          "reading": "かんきょうほぜん",
+          "meaning": "environmental conservation"
+        }
+      ]
     },
     {
       "id": "n1_078_7",
@@ -180,12 +248,12 @@
       "wrong_choices": [
         "にかこつけて",
         "に追われて",
-        "に夢中になって"
+        "を優先して"
       ],
       "wrong_choice_explanations": [
         "にかこつけて means 'using X as a pretext/excuse'; it would suggest he deliberately used his job as an excuse to skip studying, but にかまけて describes genuinely losing himself in the job and letting his studies slide as a result.",
         "に追われて means 'being run ragged by / pressed by'; it casts the part-time job as an external pressure bearing down on him, whereas にかまけて pins the neglect on his own absorption in it.",
-        "に夢中になって means 'becoming engrossed in'; it captures the absorption but not the resulting neglect of duties that にかまけて builds in."
+        "を優先して means 'giving priority to,' presenting a deliberate ranking of the job over study, whereas にかまけて pins the lost credits on his getting genuinely caught up in the work."
       ],
       "hiragana_full": "あにはあるばいとにかまけて、そつぎょうにひつようなたんいをおとしてしまった。",
       "audio_alternatives": [
@@ -198,7 +266,20 @@
           "hiragana_full": "あにはあるばいとばかりにかまけ、そつぎょうにひつようなたんいをおとしてしまった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "単位",
+          "reading": "たんい",
+          "meaning": "credit; unit"
+        },
+        {
+          "word": "落として",
+          "reading": "おとして",
+          "meaning": "to fail; drop"
+        }
+      ]
     },
     {
       "id": "n1_078_8",
@@ -226,7 +307,25 @@
           "hiragana_full": "こじんのじゆうをゆうせんするあまり、しゃかいはきょうどうたいのきずなをみうしなっている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "共同体",
+          "reading": "きょうどうたい",
+          "meaning": "community"
+        },
+        {
+          "word": "絆",
+          "reading": "きずな",
+          "meaning": "bond; ties"
+        },
+        {
+          "word": "見失って",
+          "reading": "みうしなって",
+          "meaning": "to lose sight of"
+        }
+      ]
     },
     {
       "id": "n1_078_9",
@@ -254,7 +353,20 @@
           "hiragana_full": "てすとのてんすうばかりにきをとられ、がっこうはせいとのそうぞうせいをのばすことをわすれがちだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "創造性",
+          "reading": "そうぞうせい",
+          "meaning": "creativity"
+        },
+        {
+          "word": "点数",
+          "reading": "てんすう",
+          "meaning": "score; marks"
+        }
+      ]
     },
     {
       "id": "n1_078_10",
@@ -282,7 +394,20 @@
           "hiragana_full": "げんだいじんはがいけんのうつくしさにかまけ、ないめんのせいちょうをけいしがちだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "外見",
+          "reading": "がいけん",
+          "meaning": "outward appearance"
+        },
+        {
+          "word": "内面",
+          "reading": "ないめん",
+          "meaning": "inner self"
+        }
+      ]
     }
   ]
 }

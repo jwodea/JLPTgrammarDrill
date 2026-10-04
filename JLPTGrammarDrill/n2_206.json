@@ -1,0 +1,252 @@
+{
+  "id": "n2_206",
+  "pattern": "お〜願う",
+  "meaning": "please do ~; may I ask you to ~ (very formal request)",
+  "level": "N2",
+  "exercises": [
+    {
+      "id": "n2_206_1",
+      "example_sentence": "恐れ入りますが、こちらの席で少々お待ち願います。",
+      "translation": "I'm terribly sorry, but may I ask you to wait here in this seat for a moment?",
+      "blank_target": "願います",
+      "wrong_choices": ["いたします", "になります", "申し上げます"],
+      "wrong_choice_explanations": [
+        "お〜いたします is a humble form describing the speaker's own action, so お待ちいたします means 'I will wait'; 恐れ入りますが shows the speaker is imposing on the listener, who is the one being asked to wait.",
+        "お〜になります is an honorific that states the listener's action as a fact ('you will wait'); it describes rather than requests, so it cannot ask the guest to take a seat and wait.",
+        "お待ち申し上げます is a humble expression meaning 'I humbly await you' (as in letters); it reverses who waits, while this sentence needs to request waiting from the listener."
+      ],
+      "hiragana_full": "おそれいりますが、こちらのせきでしょうしょうおまちねがいます。",
+      "audio_alternatives": [
+        { "kanji": "お呼びするまで、こちらでお待ち願えますか。", "hiragana_full": "およびするまで、こちらでおまちねがえますか。" },
+        { "kanji": "お呼びしますので、こちらの席でお待ちください。", "hiragana_full": "およびしますので、こちらのせきでおまちください。" }
+      ],
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        { "word": "恐れ入る", "reading": "おそれいる", "meaning": "to be terribly sorry (to trouble someone)" },
+        { "word": "少々", "reading": "しょうしょう", "meaning": "a little while; a moment" }
+      ],
+      "blank_target_reading": "ねがいます"
+    },
+    {
+      "id": "n2_206_2",
+      "example_sentence": "お手数ですが、こちらの用紙にご記入願えますか。",
+      "translation": "Sorry for the trouble, but could I ask you to fill in this form?",
+      "blank_target": "願えますか",
+      "wrong_choices": ["なさいますか", "いたしますか", "できますか"],
+      "wrong_choice_explanations": [
+        "ご記入なさいますか is an honorific question about the listener's plans ('will you be filling it in?'); after the apology お手数ですが the clerk needs to request the action, not survey their intentions.",
+        "ご記入いたしますか uses the humble いたす for the speaker's own action, turning the sentence into an offer ('shall I fill it in?'); the form is being handed to the customer to complete.",
+        "お/ご〜できます is the humble potential for the speaker's own action; asking a customer ご記入できますか questions their ability and is incorrect keigo directed at the listener."
+      ],
+      "hiragana_full": "おてすうですが、こちらのようしにごきにゅうねがえますか。",
+      "audio_alternatives": [
+        { "kanji": "お手数ですが、この用紙にご記入願います。", "hiragana_full": "おてすうですが、このようしにごきにゅうねがいます。" },
+        { "kanji": "恐れ入りますが、必要事項をご記入いただけますか。", "hiragana_full": "おそれいりますが、ひつようじこうをごきにゅういただけますか。" }
+      ],
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        { "word": "手数", "reading": "てすう", "meaning": "trouble; bother" },
+        { "word": "記入", "reading": "きにゅう", "meaning": "filling in (a form)" },
+        { "word": "用紙", "reading": "ようし", "meaning": "form; sheet" }
+      ],
+      "blank_target_reading": "ねがえますか"
+    },
+    {
+      "id": "n2_206_3",
+      "example_sentence": "開演中は、携帯電話の電源をお切り願います。",
+      "translation": "During the performance, we ask that you please switch off your mobile phones. (theater announcement)",
+      "blank_target": "願います",
+      "wrong_choices": ["になります", "いたします", "もらいます"],
+      "wrong_choice_explanations": [
+        "お切りになります is an honorific statement of fact about the audience's action ('you will switch off'); an announcement needs a request form, not a description.",
+        "お切りいたします is humble and would mean the theater staff themselves will switch the phones off; the announcement asks each audience member to do it.",
+        "もらう attaches to the て-form (切ってもらいます), not to お + the masu-stem; and even then it states that the speaker receives the favor rather than requesting it."
+      ],
+      "hiragana_full": "かいえんちゅうは、けいたいでんわのでんげんをおきりねがいます。",
+      "audio_alternatives": [
+        { "kanji": "開演の前に、携帯電話の電源をお切り願えますか。", "hiragana_full": "かいえんのまえに、けいたいでんわのでんげんをおきりねがえますか。" },
+        { "kanji": "開演中は、携帯電話の電源をお切りください。", "hiragana_full": "かいえんちゅうは、けいたいでんわのでんげんをおきりください。" }
+      ],
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        { "word": "開演", "reading": "かいえん", "meaning": "start of a performance" },
+        { "word": "電源", "reading": "でんげん", "meaning": "power (switch)" }
+      ],
+      "blank_target_reading": "ねがいます"
+    },
+    {
+      "id": "n2_206_4",
+      "example_sentence": "恐縮ですが、明日までにご返信願えませんか。",
+      "translation": "I'm sorry to press you, but could you possibly reply by tomorrow?",
+      "blank_target": "願えませんか",
+      "wrong_choices": ["なさいませんか", "いたしませんか", "できませんか"],
+      "wrong_choice_explanations": [
+        "ご返信なさいませんか is an honorific invitation ('won't you reply?') framed for the listener's benefit; a request made for the speaker's own benefit needs 願えませんか or いただけませんか.",
+        "ご返信いたしませんか uses humble いたす for the speaker's side, producing 'shall we/I not reply?' — an offer or proposal, not a request for the addressee to answer.",
+        "ご返信できませんか questions the listener's ability with a form (お/ご〜できる) reserved for humbly describing the speaker's own actions; it reads as doubting they are capable of replying."
+      ],
+      "hiragana_full": "きょうしゅくですが、あしたまでにごへんしんねがえませんか。",
+      "audio_alternatives": [
+        { "kanji": "お忙しいところ恐縮ですが、明日までにご返信願います。", "hiragana_full": "おいそがしいところきょうしゅくですが、あしたまでにごへんしんねがいます。" },
+        { "kanji": "恐れ入りますが、明日までにお返事をいただけないでしょうか。", "hiragana_full": "おそれいりますが、あしたまでにおへんじをいただけないでしょうか。" }
+      ],
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        { "word": "恐縮", "reading": "きょうしゅく", "meaning": "feeling sorry for troubling someone" },
+        { "word": "返信", "reading": "へんしん", "meaning": "reply (to a message)" }
+      ],
+      "blank_target_reading": "ねがえませんか"
+    },
+    {
+      "id": "n2_206_5",
+      "example_sentence": "順番にご案内しますので、番号札を取ってお掛け願います。",
+      "translation": "We will see you in turn, so please take a numbered ticket and have a seat.",
+      "blank_target": "願います",
+      "wrong_choices": ["いたします", "なさいます", "申し上げます"],
+      "wrong_choice_explanations": [
+        "お掛けいたします is humble and would mean the staff member sits down; the instruction is for the visitor holding the 番号札 to take a seat.",
+        "お掛けなさいます is an honorific declarative describing the listener's sitting as a fact; it makes no request, and stating what a customer 'will do' sounds presumptuous in service language.",
+        "申し上げる is a humble verb for the speaker's own acts toward a superior (お礼を申し上げます); お掛け申し上げます would absurdly have the staff humbly sitting for the customer."
+      ],
+      "hiragana_full": "じゅんばんにごあんないしますので、ばんごうふだをとっておかけねがいます。",
+      "audio_alternatives": [
+        { "kanji": "番号札をお取りになって、お掛け願えますか。", "hiragana_full": "ばんごうふだをおとりになって、おかけねがえますか。" },
+        { "kanji": "順番にお呼びしますので、お掛けになってお待ちください。", "hiragana_full": "じゅんばんにおよびしますので、おかけになっておまちください。" }
+      ],
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        { "word": "順番", "reading": "じゅんばん", "meaning": "turn; order" },
+        { "word": "番号札", "reading": "ばんごうふだ", "meaning": "numbered ticket" }
+      ],
+      "blank_target_reading": "ねがいます"
+    },
+    {
+      "id": "n2_206_6",
+      "example_sentence": "社内の備品を持ち出す際は、必ず総務部までご連絡願います。",
+      "translation": "When taking company equipment out of the office, please be sure to notify the General Affairs Department.",
+      "blank_target": "願います",
+      "wrong_choices": ["いたします", "になります", "差し上げます"],
+      "wrong_choice_explanations": [
+        "ご連絡いたします is the humble 'we will contact you'; since this notice is written by the administration to instruct employees, it must request contact from the reader, not promise it.",
+        "ご連絡になります is an honorific statement reporting that someone contacts; a workplace rule needs a directive form, and flatly declaring what employees 'will do' isn't a request.",
+        "ご連絡差し上げます means 'I/we will contact you' — a humble offer going the wrong direction; here the employee reading the notice is the one who must contact 総務部."
+      ],
+      "hiragana_full": "しゃないのびひんをもちだすさいは、かならずそうむぶまでごれんらくねがいます。",
+      "audio_alternatives": [
+        { "kanji": "備品を持ち出すときは、総務部へご連絡願います。", "hiragana_full": "びひんをもちだすときは、そうむぶへごれんらくねがいます。" },
+        { "kanji": "社内の備品を持ち出す場合は、必ず総務部に連絡してください。", "hiragana_full": "しゃないのびひんをもちだすばあいは、かならずそうむぶにれんらくしてください。" }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        { "word": "備品", "reading": "びひん", "meaning": "equipment; office supplies" },
+        { "word": "持ち出す", "reading": "もちだす", "meaning": "to take out; to carry out" },
+        { "word": "総務部", "reading": "そうむぶ", "meaning": "General Affairs Department" }
+      ],
+      "blank_target_reading": "ねがいます"
+    },
+    {
+      "id": "n2_206_7",
+      "example_sentence": "ご不明な点がございましたら、受付までお申し出願います。",
+      "translation": "If anything is unclear, please let the reception desk know.",
+      "blank_target": "願います",
+      "wrong_choices": ["なさいます", "いたします", "になります"],
+      "wrong_choice_explanations": [
+        "お申し出なさいます honorifically states that the listener reports something; a notice must request the action, and a bare honorific declarative cannot carry that directive force.",
+        "お申し出いたします is humble, so the staff would be the ones reporting to reception — backwards, since the visitors with unclear points are being asked to come forward.",
+        "お申し出になります describes the listener's action as a plain honorific fact ('you will report'); like なさいます it informs rather than asks, so the request reading is lost."
+      ],
+      "hiragana_full": "ごふめいなてんがございましたら、うけつけまでおもうしでねがいます。",
+      "audio_alternatives": [
+        { "kanji": "ご質問がありましたら、受付までお申し出願えますか。", "hiragana_full": "ごしつもんがありましたら、うけつけまでおもうしでねがえますか。" },
+        { "kanji": "不明な点は、係の者までお知らせください。", "hiragana_full": "ふめいなてんは、かかりのものまでおしらせください。" }
+      ],
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        { "word": "不明", "reading": "ふめい", "meaning": "unclear; unknown" },
+        { "word": "受付", "reading": "うけつけ", "meaning": "reception desk" },
+        { "word": "申し出る", "reading": "もうしでる", "meaning": "to come forward and tell; to report" }
+      ],
+      "blank_target_reading": "ねがいます"
+    },
+    {
+      "id": "n2_206_8",
+      "example_sentence": "エレベーターが点検中のため、恐れ入りますが階段をご利用願います。",
+      "translation": "The elevator is under inspection; we apologize for the inconvenience and ask that you use the stairs.",
+      "blank_target": "願います",
+      "wrong_choices": ["いたします", "申し上げます", "できます"],
+      "wrong_choice_explanations": [
+        "ご利用いたします is humble and would announce that the building staff themselves will use the stairs; the notice needs to ask visitors to do so.",
+        "申し上げる humbly presents the speaker's own act to a superior; ご利用申し上げます would again make the staff the stair-users instead of requesting it of the reader.",
+        "ご利用できます states availability ('you can use') and moreover misuses お/ご〜できる, the humble potential for the speaker's side; the correct availability form is ご利用いただけます, and in any case 恐れ入りますが signals a request, not information."
+      ],
+      "hiragana_full": "えれべーたーがてんけんちゅうのため、おそれいりますがかいだんをごりようねがいます。",
+      "audio_alternatives": [
+        { "kanji": "エレベーター点検中のため、階段をご利用願えますか。", "hiragana_full": "えれべーたーてんけんちゅうのため、かいだんをごりようねがえますか。" },
+        { "kanji": "点検が終わるまで、階段をご利用ください。", "hiragana_full": "てんけんがおわるまで、かいだんをごりようください。" }
+      ],
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        { "word": "点検", "reading": "てんけん", "meaning": "inspection; checkup" },
+        { "word": "利用", "reading": "りよう", "meaning": "use; utilization" }
+      ],
+      "blank_target_reading": "ねがいます"
+    },
+    {
+      "id": "n2_206_9",
+      "example_sentence": "アンケートにご協力願えますか。お時間は五分ほどです。",
+      "translation": "Could we ask for your cooperation with a survey? It only takes about five minutes.",
+      "blank_target": "願えますか",
+      "wrong_choices": ["なさいますか", "いたしますか", "できますか"],
+      "wrong_choice_explanations": [
+        "ご協力なさいますか politely asks whether the listener intends to cooperate — a neutral inquiry about their plans, not the appeal for a favor that the follow-up お時間は五分ほどです supports.",
+        "ご協力いたしますか puts the humble いたす on the speaker's side, yielding 'shall I cooperate?'; the surveyor is seeking help, not offering it.",
+        "ご協力できますか applies お/ご〜できる, the humble potential for one's own actions, to the listener; it ends up questioning the passerby's ability to cooperate, which is both rude and incorrect keigo."
+      ],
+      "hiragana_full": "あんけーとにごきょうりょくねがえますか。おじかんはごふんほどです。",
+      "audio_alternatives": [
+        { "kanji": "五分ほどのアンケートに、ご協力願います。", "hiragana_full": "ごふんほどのあんけーとに、ごきょうりょくねがいます。" },
+        { "kanji": "短いアンケートですので、ご協力いただけませんか。", "hiragana_full": "みじかいあんけーとですので、ごきょうりょくいただけませんか。" }
+      ],
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        { "word": "協力", "reading": "きょうりょく", "meaning": "cooperation" },
+        { "word": "アンケート", "reading": "あんけーと", "meaning": "survey; questionnaire" }
+      ],
+      "blank_target_reading": "ねがえますか"
+    },
+    {
+      "id": "n2_206_10",
+      "example_sentence": "ホテルに到着されましたら、フロントまでお声がけ願います。",
+      "translation": "When you arrive at the hotel, please let the front desk know.",
+      "blank_target": "願います",
+      "wrong_choices": ["いたします", "なさいます", "差し上げます"],
+      "wrong_choice_explanations": [
+        "お声がけいたします is the humble 'we will call on you'; combined with フロントまで ('to the front desk') it makes no sense, since the guest is the one who must approach the desk.",
+        "お声がけなさいます is an honorific declarative about the guest's action; it reports rather than requests, so the instruction to speak to the front desk never gets made.",
+        "お声がけ差し上げます means 'we will reach out to you' — a humble offer in the wrong direction, clashing with 到着されましたら, which sets up an action for the arriving guest to take."
+      ],
+      "hiragana_full": "ほてるにとうちゃくされましたら、ふろんとまでおこえがけねがいます。",
+      "audio_alternatives": [
+        { "kanji": "お着きになりましたら、フロントまでお声がけ願えますか。", "hiragana_full": "おつきになりましたら、ふろんとまでおこえがけねがえますか。" },
+        { "kanji": "到着されたら、フロントの係員にお知らせください。", "hiragana_full": "とうちゃくされたら、ふろんとのかかりいんにおしらせください。" }
+      ],
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        { "word": "到着", "reading": "とうちゃく", "meaning": "arrival" },
+        { "word": "声がけ", "reading": "こえがけ", "meaning": "calling out; letting someone know" },
+        { "word": "フロント", "reading": "ふろんと", "meaning": "front desk" }
+      ],
+      "blank_target_reading": "ねがいます"
+    }
+  ]
+}

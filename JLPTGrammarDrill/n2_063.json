@@ -10,14 +10,14 @@
       "translation": "With this earthquake as a turning point, disaster preparedness awareness increased.",
       "blank_target": "を契機に",
       "wrong_choices": [
-        "に対して",
+        "を除いて",
         "において",
-        "によって"
+        "をよそに"
       ],
       "wrong_choice_explanations": [
-        "に対して means 'toward / in response to' and marks the object of an action or attitude, not the event that sets a later change in motion the way を契機に does.",
+        "を除いて means 'except for / excluding' and removes something from consideration, so it cannot frame the earthquake as the catalyst that prompted heightened awareness.",
         "において means 'in / at / during' and marks a setting or domain, so it cannot frame the earthquake as the catalyst that prompted heightened awareness.",
-        "によって indicates direct causation, but this sentence emphasizes the earthquake as a catalyst for change, requiring を契機に."
+        "をよそに means 'ignoring / paying no heed to' and marks indifference, which contradicts the earthquake being the trigger that raised disaster-preparedness awareness."
       ],
       "hiragana_full": "このしんさいをけいきに、ぼうさいいしきがたかまった。",
       "audio_alternatives": [
@@ -31,7 +31,25 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "をけいきに"
+      "blank_target_reading": "をけいきに",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "震災",
+          "reading": "しんさい",
+          "meaning": "earthquake disaster"
+        },
+        {
+          "word": "防災",
+          "reading": "ぼうさい",
+          "meaning": "disaster prevention"
+        },
+        {
+          "word": "意識",
+          "reading": "いしき",
+          "meaning": "awareness"
+        }
+      ]
     },
     {
       "id": "n2_063_2",
@@ -39,14 +57,14 @@
       "translation": "With this scandal as a catalyst, discussions about political reform became more active.",
       "blank_target": "を契機に",
       "wrong_choices": [
-        "を背景に",
-        "を通じて",
-        "に関して"
+        "をものともせず",
+        "を除いて",
+        "に反して"
       ],
       "wrong_choice_explanations": [
-        "を背景に means 'against the backdrop of' and treats the scandal as ongoing context, whereas を契機に singles it out as the specific trigger that sparked the reform debate.",
-        "を通じて means 'through' or 'via' but doesn't convey the catalyst meaning that を契機に expresses here.",
-        "に関して means 'regarding' or 'about', which doesn't fit this sentence structure about the scandal triggering reform discussions."
+        "をものともせず means 'undaunted by / in defiance of' an obstacle, so it cannot present the scandal as the catalyst that energized the reform debate.",
+        "を除いて means 'except for / excluding' and removes something from consideration, not the scandal as the trigger for the reform discussion.",
+        "に反して means 'contrary to' an expectation or wish; the reform debate did not go against the scandal — を契機に marks the scandal as the trigger for it."
       ],
       "hiragana_full": "このすきゃんだるをけいきに、せいじかいかくのぎろんがかっぱつになった。",
       "audio_alternatives": [
@@ -60,213 +78,28 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "をけいきに"
+      "blank_target_reading": "をけいきに",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "改革",
+          "reading": "かいかく",
+          "meaning": "reform"
+        },
+        {
+          "word": "議論",
+          "reading": "ぎろん",
+          "meaning": "debate"
+        },
+        {
+          "word": "活発",
+          "reading": "かっぱつ",
+          "meaning": "active/lively"
+        }
+      ]
     },
     {
       "id": "n2_063_3",
-      "example_sentence": "このテロ事件を契機に、セキュリティ対策が大幅に見直された。",
-      "translation": "With this terrorist incident as a turning point, security measures were significantly reviewed.",
-      "blank_target": "を契機に",
-      "wrong_choices": [
-        "を原因に",
-        "を理由に",
-        "のせいで"
-      ],
-      "wrong_choice_explanations": [
-        "を原因に focuses on blame or fault, but を契機に emphasizes the incident as an opportunity for positive change.",
-        "を理由に means 'for the reason of' but doesn't capture the formal, transformative nuance of を契機に in this context.",
-        "のせいで implies blame or negative causation, while を契機に presents the incident as a catalyst for improvement."
-      ],
-      "hiragana_full": "このてろじけんをけいきに、せきゅりてぃたいさくがおおはばにみなおされた。",
-      "audio_alternatives": [
-        {
-          "kanji": "このテロ事件をきっかけに、セキュリティ対策が大幅に見直された。",
-          "hiragana_full": "このてろじけんをきっかけに、せきゅりてぃたいさくがおおはばにみなおされた。"
-        },
-        {
-          "kanji": "このテロ事件を機に、セキュリティ対策が大幅に見直された。",
-          "hiragana_full": "このてろじけんをきに、せきゅりてぃたいさくがおおはばにみなおされた。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "をけいきに"
-    },
-    {
-      "id": "n2_063_4",
-      "example_sentence": "この研究成果を契機に、医療技術が飛躍的に進歩した。",
-      "translation": "With this research achievement as a catalyst, medical technology made dramatic progress.",
-      "blank_target": "を契機に",
-      "wrong_choices": [
-        "をもとに",
-        "に基づいて",
-        "を参考に"
-      ],
-      "wrong_choice_explanations": [
-        "をもとに means 'based on' but doesn't convey the transformative trigger meaning that を契機に expresses here.",
-        "に基づいて means 'based on' or 'according to', focusing on foundation rather than the catalyst meaning of を契機に.",
-        "を参考に means 'for reference' or 'referring to', which is too weak compared to the transformative impact expressed by を契機に."
-      ],
-      "hiragana_full": "このけんきゅうせいかをけいきに、いりょうぎじゅつがひやくてきにしんぽした。",
-      "audio_alternatives": [
-        {
-          "kanji": "この研究成果をきっかけに、医療技術が飛躍的に進歩した。",
-          "hiragana_full": "このけんきゅうせいかをきっかけに、いりょうぎじゅつがひやくてきにしんぽした。"
-        },
-        {
-          "kanji": "この研究成果により、医療技術が飛躍的に発展した。",
-          "hiragana_full": "このけんきゅうせいかにより、いりょうぎじゅつがひやくてきにはってんした。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "をけいきに"
-    },
-    {
-      "id": "n2_063_5",
-      "example_sentence": "このコロナ禍を契機に、働き方改革が急速に進んだ。",
-      "translation": "With the COVID pandemic as a catalyst, work style reforms progressed rapidly.",
-      "blank_target": "を契機に",
-      "wrong_choices": [
-        "のおかげで",
-        "のために",
-        "を中心に"
-      ],
-      "wrong_choice_explanations": [
-        "のおかげで implies gratitude or positive attribution, but the pandemic isn't something to be grateful for - を契機に is neutral about the trigger itself.",
-        "のために means 'for the purpose of', but the pandemic wasn't intentionally created for reform - を契機に shows it became an opportunity.",
-        "を中心に means 'centered around', focusing on the core rather than the catalyst meaning that を契機に conveys."
-      ],
-      "hiragana_full": "このころなかをけいきに、はたらきかたかいかくがきゅうそくにすすんだ。",
-      "audio_alternatives": [
-        {
-          "kanji": "このコロナ禍をきっかけに、働き方改革が急速に進んだ。",
-          "hiragana_full": "このころなかをきっかけに、はたらきかたかいかくがきゅうそくにすすんだ。"
-        },
-        {
-          "kanji": "コロナ禍を契機として、働き方改革が急速に進んだ。",
-          "hiragana_full": "ころなかをけいきとして、はたらきかたかいかくがきゅうそくにすすんだ。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "をけいきに"
-    },
-    {
-      "id": "n2_063_6",
-      "example_sentence": "この国際会議を契機に、両国の関係が改善された。",
-      "translation": "With this international conference as an opportunity, relations between the two countries improved.",
-      "blank_target": "を契機に",
-      "wrong_choices": [
-        "において",
-        "に際して",
-        "について"
-      ],
-      "wrong_choice_explanations": [
-        "において means 'in' or 'at' (location/context) but doesn't express the catalyst meaning that を契機に conveys here.",
-        "に際して means 'on the occasion of' but lacks the transformative trigger nuance that を契機に provides in this context.",
-        "について means 'about' or 'concerning', which doesn't fit this sentence structure about the conference catalyzing relationship improvement."
-      ],
-      "hiragana_full": "このこくさいかいぎをけいきに、りょうこくのかんけいがかいぜんされた。",
-      "audio_alternatives": [
-        {
-          "kanji": "この国際会議をきっかけに、両国の関係が改善された。",
-          "hiragana_full": "このこくさいかいぎをきっかけに、りょうこくのかんけいがかいぜんされた。"
-        },
-        {
-          "kanji": "この国際会議により、両国の関係が改善された。",
-          "hiragana_full": "このこくさいかいぎにより、りょうこくのかんけいがかいぜんされた。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "をけいきに"
-    },
-    {
-      "id": "n2_063_7",
-      "example_sentence": "この法案の可決を契機に、社会保障制度が大きく変わった。",
-      "translation": "With the passage of this bill as a turning point, the social security system changed significantly.",
-      "blank_target": "を契機に",
-      "wrong_choices": [
-        "と共に",
-        "に伴って",
-        "によると"
-      ],
-      "wrong_choice_explanations": [
-        "と共に means 'together with' or 'along with' but doesn't emphasize the bill as a catalyst like を契機に does.",
-        "に伴って means 'accompanying' or 'in accordance with', suggesting simultaneous change rather than the bill triggering change as を契機に implies.",
-        "によると means 'according to' and is used for citing sources, not for expressing causal relationships like を契機に."
-      ],
-      "hiragana_full": "このほうあんのかけつをけいきに、しゃかいほしょうせいどがおおきくかわった。",
-      "audio_alternatives": [
-        {
-          "kanji": "この法案が可決されたのを機に、社会保障制度が大きく変わった。",
-          "hiragana_full": "このほうあんがかけつされたのをきに、しゃかいほしょうせいどがおおきくかわった。"
-        },
-        {
-          "kanji": "この法案の可決をきっかけに、社会保障制度が大きく変わった。",
-          "hiragana_full": "このほうあんのかけつをきっかけに、しゃかいほしょうせいどがおおきくかわった。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "をけいきに"
-    },
-    {
-      "id": "n2_063_8",
-      "example_sentence": "この事故を契機に、安全管理体制の見直しが始まった。",
-      "translation": "With this accident as a catalyst, a review of the safety management system began.",
-      "blank_target": "を契機に",
-      "wrong_choices": [
-        "の結果",
-        "の影響で",
-        "のあとで"
-      ],
-      "wrong_choice_explanations": [
-        "の結果 means 'as a result of' but focuses on consequence rather than the accident serving as a catalyst for positive change like を契機に.",
-        "の影響で means 'due to the influence of' but doesn't capture the formal, transformative opportunity meaning of を契機に.",
-        "のあとで simply means 'after' and indicates sequence, not the causal catalyst relationship that を契機に expresses."
-      ],
-      "hiragana_full": "このじこをけいきに、あんぜんかんりたいせいのみなおしがはじまった。",
-      "audio_alternatives": [
-        {
-          "kanji": "この事故をきっかけに、安全管理体制の見直しが始まった。",
-          "hiragana_full": "このじこをきっかけに、あんぜんかんりたいせいのみなおしがはじまった。"
-        },
-        {
-          "kanji": "この事故を機に、安全管理体制の見直しが行われた。",
-          "hiragana_full": "このじこをきに、あんぜんかんりたいせいのみなおしがおこなわれた。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "をけいきに"
-    },
-    {
-      "id": "n2_063_9",
-      "example_sentence": "この技術革新を契機に、産業構造が根本的に変化した。",
-      "translation": "With this technological innovation as a turning point, the industrial structure changed fundamentally.",
-      "blank_target": "を契機に",
-      "wrong_choices": [
-        "を背景に",
-        "を受けて",
-        "に関連して"
-      ],
-      "wrong_choice_explanations": [
-        "を背景に means 'with... as background' but suggests context rather than the direct catalyst meaning that を契機に expresses.",
-        "を受けて means 'in response to' but lacks the formal, transformative opportunity nuance that を契機に provides.",
-        "に関連して means 'in relation to' but doesn't convey the strong causal catalyst meaning that を契機に expresses in this context."
-      ],
-      "hiragana_full": "このぎじゅつかくしんをけいきに、さんぎょうこうぞうがこんぽんてきにへんかした。",
-      "audio_alternatives": [
-        {
-          "kanji": "この技術革新をきっかけに、産業構造が根本的に変化した。",
-          "hiragana_full": "このぎじゅつかくしんをきっかけに、さんぎょうこうぞうがこんぽんてきにへんかした。"
-        },
-        {
-          "kanji": "この技術革新により、産業構造が根本的に変わった。",
-          "hiragana_full": "このぎじゅつかくしんにより、さんぎょうこうぞうがこんぽんてきにかわった。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "をけいきに"
-    },
-    {
-      "id": "n2_063_10",
       "example_sentence": "この合併を契機に、企業文化の統合が進められた。",
       "translation": "With this merger as an opportunity, the integration of corporate cultures was promoted.",
       "blank_target": "を契機に",
@@ -292,7 +125,324 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "をけいきに"
+      "blank_target_reading": "をけいきに",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "合併",
+          "reading": "がっぺい",
+          "meaning": "merger"
+        },
+        {
+          "word": "企業文化",
+          "reading": "きぎょうぶんか",
+          "meaning": "corporate culture"
+        },
+        {
+          "word": "統合",
+          "reading": "とうごう",
+          "meaning": "integration"
+        }
+      ]
+    },
+    {
+      "id": "n2_063_4",
+      "example_sentence": "その危機を契機に、体制改革が実施された。",
+      "translation": "Prompted by that crisis, structural reforms were implemented.",
+      "blank_target": "を契機に",
+      "wrong_choices": [
+        "をめぐって",
+        "に先立って",
+        "を除いて"
+      ],
+      "wrong_choice_explanations": [
+        "をめぐって means 'concerning / over' and marks the topic of a dispute or discussion; を契機に instead marks the crisis as the trigger that prompted the reforms.",
+        "「に先立って」 means 'prior to / before', which would place the reforms before the crisis and reverse the causal order. 「を契機に」 marks the crisis as the trigger that prompted the reforms.",
+        "を除いて means 'except for'; を契機に marks the crisis as the trigger for implementing reform, not something excluded from consideration."
+      ],
+      "hiragana_full": "そのききをけいきに、たいせいかいかくがじっしされた。",
+      "audio_alternatives": [
+        {
+          "kanji": "その危機をきっかけに、体制改革が実施された。",
+          "hiragana_full": "そのききをきっかけに、たいせいかいかくがじっしされた。"
+        },
+        {
+          "kanji": "その危機を受けて、体制改革が実施された。",
+          "hiragana_full": "そのききをうけて、たいせいかいかくがじっしされた。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "をけいきに",
+      "register": "written",
+      "vocab": [
+        {
+          "word": "危機",
+          "reading": "きき",
+          "meaning": "crisis"
+        },
+        {
+          "word": "体制",
+          "reading": "たいせい",
+          "meaning": "system, regime"
+        },
+        {
+          "word": "実施",
+          "reading": "じっし",
+          "meaning": "implementation"
+        }
+      ]
+    },
+    {
+      "id": "n2_063_5",
+      "example_sentence": "その成功を契機に、展開が全国に広がった。",
+      "translation": "That success became the catalyst for nationwide expansion.",
+      "blank_target": "を契機に",
+      "wrong_choices": [
+        "に向けて",
+        "につれて",
+        "を中心に"
+      ],
+      "wrong_choice_explanations": [
+        "に向けて means 'toward / aiming at' a goal; を契機に marks the success as the past trigger from which the expansion spread, not something aimed for.",
+        "につれて means 'as / along with' and describes gradual, parallel change; を契機に points to a single catalyst event, not a continuous process.",
+        "を中心に means 'centered on'; を契機に marks the success as the trigger for the expansion, not the hub it was organized around."
+      ],
+      "hiragana_full": "そのせいこうをけいきに、てんかいがぜんこくにひろがった。",
+      "audio_alternatives": [
+        {
+          "kanji": "その成功をきっかけに、展開が全国に広がった。",
+          "hiragana_full": "そのせいこうをきっかけに、てんかいがぜんこくにひろがった。"
+        },
+        {
+          "kanji": "その成功が契機となり、全国への展開が広がった。",
+          "hiragana_full": "そのせいこうがけいきとなり、ぜんこくへのてんかいがひろがった。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "をけいきに",
+      "register": "written",
+      "vocab": [
+        {
+          "word": "展開",
+          "reading": "てんかい",
+          "meaning": "development, rollout"
+        },
+        {
+          "word": "全国",
+          "reading": "ぜんこく",
+          "meaning": "nationwide"
+        }
+      ]
+    },
+    {
+      "id": "n2_063_6",
+      "example_sentence": "あの事故を契機に、安全基準が強化された。",
+      "translation": "That accident prompted the strengthening of safety standards.",
+      "blank_target": "を契機に",
+      "wrong_choices": [
+        "にちなんで",
+        "に反して",
+        "をよそに"
+      ],
+      "wrong_choice_explanations": [
+        "にちなんで means 'named after / in connection with' and is used for names or commemorations; を契機に marks the accident as the catalyst that prompted the tighter standards.",
+        "に反して means 'contrary to'; を契機に marks the accident as the trigger that prompted stronger safety standards, not something they ran counter to.",
+        "「をよそに」 means 'ignoring / in disregard of', saying the standards were strengthened while paying no heed to the accident — the opposite of the intended meaning. 「を契機に」 marks the accident as the catalyst."
+      ],
+      "hiragana_full": "あのじこをけいきに、あんぜんきじゅんがきょうかされた。",
+      "audio_alternatives": [
+        {
+          "kanji": "あの事故をきっかけに、安全基準が強化された。",
+          "hiragana_full": "あのじこをきっかけに、あんぜんきじゅんがきょうかされた。"
+        },
+        {
+          "kanji": "あの事故により、安全基準が強化された。",
+          "hiragana_full": "あのじこにより、あんぜんきじゅんがきょうかされた。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "をけいきに",
+      "register": "written",
+      "vocab": [
+        {
+          "word": "基準",
+          "reading": "きじゅん",
+          "meaning": "standard, criterion"
+        },
+        {
+          "word": "強化",
+          "reading": "きょうか",
+          "meaning": "strengthening"
+        }
+      ]
+    },
+    {
+      "id": "n2_063_7",
+      "example_sentence": "法改正を契機に、社会全体の意識が変わった。",
+      "translation": "The legal reform served as a catalyst for changing society's overall awareness.",
+      "blank_target": "を契機に",
+      "wrong_choices": [
+        "をめぐって",
+        "を中心に",
+        "に関して"
+      ],
+      "wrong_choice_explanations": [
+        "をめぐって means 'concerning'; を契機に marks the legal reform as the trigger that changed awareness, not the topic under discussion.",
+        "を中心に means 'centered on'; を契機に marks the reform as the catalyst for the change, not the focal point it revolved around.",
+        "に関して means 'regarding / concerning' a topic; を契機に marks the reform as the triggering event for the shift in awareness."
+      ],
+      "hiragana_full": "ほうかいせいをけいきに、しゃかいぜんたいのいしきがかわった。",
+      "audio_alternatives": [
+        {
+          "kanji": "法改正がきっかけで、社会全体の意識が変わった。",
+          "hiragana_full": "ほうかいせいがきっかけで、しゃかいぜんたいのいしきがかわった。"
+        },
+        {
+          "kanji": "法改正をきっかけに、社会全体の意識が変化した。",
+          "hiragana_full": "ほうかいせいをきっかけに、しゃかいぜんたいのいしきがへんかした。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "をけいきに",
+      "register": "written",
+      "vocab": [
+        {
+          "word": "改正",
+          "reading": "かいせい",
+          "meaning": "revision, amendment"
+        },
+        {
+          "word": "全体",
+          "reading": "ぜんたい",
+          "meaning": "the whole"
+        },
+        {
+          "word": "意識",
+          "reading": "いしき",
+          "meaning": "awareness, consciousness"
+        }
+      ]
+    },
+    {
+      "id": "n2_063_8",
+      "example_sentence": "経済危機を契機に、新たな政策が導入された。",
+      "translation": "The economic crisis prompted the introduction of new policies.",
+      "blank_target": "を契機に",
+      "wrong_choices": [
+        "に先立って",
+        "にちなんで",
+        "を問わず"
+      ],
+      "wrong_choice_explanations": [
+        "に先立って means 'prior to'; を契機に marks the crisis as the trigger the new policy followed, not something that preceded it.",
+        "にちなんで means 'named after / in connection with' and is used for names or commemorations; を契機に marks the crisis as the catalyst that prompted the new policy.",
+        "を問わず means 'regardless of'; を契機に marks the crisis as the trigger for introducing new policy, not a factor dismissed as irrelevant."
+      ],
+      "hiragana_full": "けいざいききをけいきに、あらたなせいさくがどうにゅうされた。",
+      "audio_alternatives": [
+        {
+          "kanji": "経済危機をきっかけに、新たな政策が導入された。",
+          "hiragana_full": "けいざいききをきっかけに、あらたなせいさくがどうにゅうされた。"
+        },
+        {
+          "kanji": "経済危機により、新しい政策が導入された。",
+          "hiragana_full": "けいざいききにより、あたらしいせいさくがどうにゅうされた。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "をけいきに",
+      "register": "written",
+      "vocab": [
+        {
+          "word": "危機",
+          "reading": "きき",
+          "meaning": "crisis"
+        },
+        {
+          "word": "政策",
+          "reading": "せいさく",
+          "meaning": "policy"
+        },
+        {
+          "word": "導入",
+          "reading": "どうにゅう",
+          "meaning": "introduction, adoption"
+        }
+      ]
+    },
+    {
+      "id": "n2_063_9",
+      "example_sentence": "その革命を契機に、新しい時代が始まった。",
+      "translation": "That revolution marked the beginning of a new era.",
+      "blank_target": "を契機に",
+      "wrong_choices": [
+        "から始まって",
+        "にもかかわらず",
+        "に応じて"
+      ],
+      "wrong_choice_explanations": [
+        "から始まって means 'starting from'; を契機に marks the revolution as the catalyst that opened the new era, stressing its triggering role over a mere starting point.",
+        "にもかかわらず means 'despite'; を契機に marks the revolution as the catalyst that opened the new era, not something the era began in spite of.",
+        "に応じて means 'in accordance with'; を契機に marks the revolution as the single catalyst from which the new era began."
+      ],
+      "hiragana_full": "そのかくめいをけいきに、あたらしいじだいがはじまった。",
+      "audio_alternatives": [
+        {
+          "kanji": "その革命をきっかけに、新しい時代が始まった。",
+          "hiragana_full": "そのかくめいをきっかけに、あたらしいじだいがはじまった。"
+        },
+        {
+          "kanji": "その革命により、新たな時代が幕を開けた。",
+          "hiragana_full": "そのかくめいにより、あらたなじだいがまくをあけた。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "をけいきに",
+      "register": "written",
+      "vocab": [
+        {
+          "word": "革命",
+          "reading": "かくめい",
+          "meaning": "revolution"
+        }
+      ]
+    },
+    {
+      "id": "n2_063_10",
+      "example_sentence": "国際会議を契機に、協力関係が強化された。",
+      "translation": "The international conference served as a catalyst for strengthening cooperative relations.",
+      "blank_target": "を契機に",
+      "wrong_choices": [
+        "のために",
+        "を中心として",
+        "に伴って"
+      ],
+      "wrong_choice_explanations": [
+        "のために means 'for the purpose of'; を契機に marks the conference as the trigger that prompted stronger ties, not a goal they served.",
+        "を中心として means 'centered around'; を契機に marks the conference as the catalyst for strengthening ties, not the hub they revolved around.",
+        "に伴って means 'accompanying / along with'; を契機に marks the conference as the triggering event, not a simultaneous occurrence."
+      ],
+      "hiragana_full": "こくさいかいぎをけいきに、きょうりょくかんけいがきょうかされた。",
+      "audio_alternatives": [
+        {
+          "kanji": "国際会議をきっかけに、協力関係が強化された。",
+          "hiragana_full": "こくさいかいぎをきっかけに、きょうりょくかんけいがきょうかされた。"
+        },
+        {
+          "kanji": "国際会議により、協力関係が強化された。",
+          "hiragana_full": "こくさいかいぎにより、きょうりょくかんけいがきょうかされた。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "をけいきに",
+      "register": "written",
+      "vocab": [
+        {
+          "word": "強化",
+          "reading": "きょうか",
+          "meaning": "strengthening"
+        }
+      ]
     }
   ]
 }

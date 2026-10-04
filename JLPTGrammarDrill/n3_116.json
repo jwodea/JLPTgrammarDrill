@@ -10,12 +10,12 @@
       "translation": "You shouldn't say such cruel words while ignoring the other person's feelings.",
       "blank_target": "べきではない",
       "wrong_choices": [
-        "ものではない",
+        "べきだ",
         "わけにはいかない",
         "はずがない"
       ],
       "wrong_choice_explanations": [
-        "「ものではない」は「一般に～するものではない」と世間の常識・道理として戒める表現で近いが、この文は目の前の相手への具体的な言動を戒めており、社会一般の道理を述べる響きとはややずれる。",
+        "「べきだ」 is the affirmative \"ought to\" (\"should say such cruel words\"), the exact opposite of べきではない. The sentence forbids saying cruel words, so the affirmative べきだ reverses the intended meaning and cannot be correct.",
         "「わけにはいかない」は「事情があって～できない」という意味なので、「口にするわけにはいかない」だと『言えない事情がある』となり、言ってはいけないという道義的な戒めとは意味が変わる。",
         "「はずがない」は可能性を強く否定するので、「口にするはずがない」だと『言うはずがない』という推量になり、言うべきでないという禁止・助言とは意味が全く異なる。"
       ],
@@ -30,7 +30,20 @@
           "hiragana_full": "ひとをきずつけることばは、くちにださないほうがいい。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "無視",
+          "reading": "むし",
+          "meaning": "ignoring; disregard"
+        },
+        {
+          "word": "口にする",
+          "reading": "くちにする",
+          "meaning": "to say; utter"
+        }
+      ]
     },
     {
       "id": "n3_116_2",
@@ -58,7 +71,20 @@
           "hiragana_full": "したしいあいだがらでも、ひとのすまほをこっそりみるのはよくない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "親しく",
+          "reading": "したしく",
+          "meaning": "close; intimate"
+        },
+        {
+          "word": "勝手に",
+          "reading": "かってに",
+          "meaning": "without permission; as one pleases"
+        }
+      ]
     },
     {
       "id": "n3_116_3",
@@ -86,7 +112,20 @@
           "hiragana_full": "ひどくねむいときは、くるまのうんてんをひかえたほうがいい。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "眠気",
+          "reading": "ねむけ",
+          "meaning": "drowsiness"
+        },
+        {
+          "word": "無理",
+          "reading": "むり",
+          "meaning": "forcing oneself"
+        }
+      ]
     },
     {
       "id": "n3_116_4",
@@ -114,7 +153,20 @@
           "hiragana_full": "うわさだけをたよりにじゅうようなけつだんをくだすのはよくない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "確かめ",
+          "reading": "たしかめ",
+          "meaning": "to verify; check"
+        },
+        {
+          "word": "うわさ",
+          "reading": "うわさ",
+          "meaning": "rumor"
+        }
+      ]
     },
     {
       "id": "n3_116_5",
@@ -122,12 +174,12 @@
       "translation": "You shouldn't scold a child that harshly over a small mistake.",
       "blank_target": "べきではない",
       "wrong_choices": [
-        "ものではない",
+        "べきだ",
         "わけがない",
         "つもりはない"
       ],
       "wrong_choice_explanations": [
-        "「ものではない」は「一般に～するものではない」と常識として戒める表現で近いが、この文はこの場面での叱り方を具体的に戒めており、世間一般の道理を語る響きとはややずれる。",
+        "「べきだ」 is the affirmative \"ought to\" (\"should scold the child that harshly\"), the opposite of べきではない. The sentence warns against over-scolding, so the affirmative べきだ reverses the meaning and cannot be correct.",
         "「わけがない」は可能性の否定を表すので、「叱るわけがない」だと『叱るはずがない』という推量になり、叱りすぎを戒めるこの文とは意味が正反対になる。",
         "「つもりはない」は話し手の意志を表すので、「叱るつもりはない」だと『私は叱る気はない』となり、一般的な助言を述べるこの文とは主語も意味も合わない。"
       ],
@@ -142,7 +194,20 @@
           "hiragana_full": "ちょっとしたしっぱいくらいで、こどもをつよくせめないほうがいい。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "厳しく",
+          "reading": "きびしく",
+          "meaning": "harshly; strictly"
+        },
+        {
+          "word": "叱る",
+          "reading": "しかる",
+          "meaning": "to scold"
+        }
+      ]
     },
     {
       "id": "n3_116_6",
@@ -170,7 +235,25 @@
           "hiragana_full": "じゅうしょやでんわばんごうを、うかつにねっとにかきこまないほうがいい。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "個人情報",
+          "reading": "こじんじょうほう",
+          "meaning": "personal information"
+        },
+        {
+          "word": "軽々しく",
+          "reading": "かるがるしく",
+          "meaning": "carelessly; thoughtlessly"
+        },
+        {
+          "word": "載せる",
+          "reading": "のせる",
+          "meaning": "to post; put up"
+        }
+      ]
     },
     {
       "id": "n3_116_7",
@@ -179,12 +262,12 @@
       "blank_target": "べきではない",
       "wrong_choices": [
         "べきだ",
-        "ものではない",
+        "ものだ",
         "はずがない"
       ],
       "wrong_choice_explanations": [
         "「べきだ」は行為を勧める肯定形なので、「抜くべきだ」だと『朝食を抜くべきだ』と正反対の意味になり、朝食を抜くのはよくないというこの文の主旨と矛盾する。",
-        "「ものではない」は「一般に～するものではない」と常識として戒める表現で近いが、この文は健康という具体的な理由から助言しており、世間一般の道理を述べる響きとはややずれる。",
+        "「ものだ」 is the affirmative \"one (naturally) does\" (\"people skip breakfast as a matter of course\"), the opposite of the intended べきではない. The sentence advises against skipping breakfast, so the affirmative ものだ reverses the meaning and cannot be correct.",
         "「はずがない」は可能性の否定を表すので、「抜くはずがない」だと『抜くわけがない』という推量になり、朝食を抜くべきでないという助言とは意味が異なる。"
       ],
       "hiragana_full": "けんこうのためにも、まいあさ、ちょうしょくをぬくべきではない。",
@@ -198,7 +281,20 @@
           "hiragana_full": "けんこうのためにも、ちょうしょくはまいにちきちんととったほうがいい。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "朝食",
+          "reading": "ちょうしょく",
+          "meaning": "breakfast"
+        },
+        {
+          "word": "抜く",
+          "reading": "ぬく",
+          "meaning": "to skip; leave out"
+        }
+      ]
     },
     {
       "id": "n3_116_8",
@@ -226,7 +322,20 @@
           "hiragana_full": "ひとのはなしのとちゅうで、よこからくちだしをしないほうがいい。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "真剣",
+          "reading": "しんけん",
+          "meaning": "serious; earnest"
+        },
+        {
+          "word": "口を挟む",
+          "reading": "くちをはさむ",
+          "meaning": "to butt in; interrupt"
+        }
+      ]
     },
     {
       "id": "n3_116_9",
@@ -234,12 +343,12 @@
       "translation": "You shouldn't sign a contract without carefully reading its contents.",
       "blank_target": "べきではない",
       "wrong_choices": [
-        "ものではない",
+        "つもりはない",
         "はずがない",
         "べきだ"
       ],
       "wrong_choice_explanations": [
-        "「ものではない」は「一般に～するものではない」と常識として戒める表現で近いが、この文は契約という具体的な場面での慎重さを求めており、世間一般の道理を述べる響きとはややずれる。",
+        "「つもりはない」 states the speaker’s own intention (\"I have no intention of signing\"), a statement about oneself, whereas べきではない gives a general warning that one should not sign without reading. The sentence is advice for anyone, not the speaker’s personal plan, so つもりはない does not fit.",
         "「はずがない」は可能性の否定を表すので、「サインするはずがない」だと『サインするわけがない』という推量になり、読まずに署名すべきでないという戒めとは意味が異なる。",
         "「べきだ」は行為を勧める肯定形なので、「サインするべきだ」だと『読まずに署名すべきだ』と正反対の意味になり、慎重に確認せよというこの文の主旨と矛盾する。"
       ],
@@ -254,7 +363,20 @@
           "hiragana_full": "なかみをよくよまずにしょるいにさいんするのはきけんだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "内容",
+          "reading": "ないよう",
+          "meaning": "contents"
+        },
+        {
+          "word": "契約書",
+          "reading": "けいやくしょ",
+          "meaning": "contract (document)"
+        }
+      ]
     },
     {
       "id": "n3_116_10",
@@ -282,7 +404,25 @@
           "hiragana_full": "たにんとじぶんをあまりひかくしすぎないほうがいい。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "他人",
+          "reading": "たにん",
+          "meaning": "others; other people"
+        },
+        {
+          "word": "必要以上",
+          "reading": "ひつよういじょう",
+          "meaning": "more than necessary"
+        },
+        {
+          "word": "比べる",
+          "reading": "くらべる",
+          "meaning": "to compare"
+        }
+      ]
     }
   ]
 }

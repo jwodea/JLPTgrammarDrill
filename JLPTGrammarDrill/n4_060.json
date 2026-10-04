@@ -11,12 +11,12 @@
       "blank_target": "ということ",
       "wrong_choices": [
         "のこと",
-        "こと",
+        "わけ",
         "はず"
       ],
       "wrong_choice_explanations": [
         "のこと means 'about' or refers to someone/something but doesn't nominalize reported speech.",
-        "こと nominalizes a fact (彼が来ないことがわかった is also grammatical), but ということ frames the content as reported or learned-of information — better suited here, where the speaker has come to understand something about someone else.",
+        "わけ means 'reason' — 彼が来ないわけがわかった says 'I understood the reason he won't come,' about WHY; ということ marks the content itself ('the fact THAT he won't come'), which is what was understood here.",
         "はず expresses expectation ('should/supposed to') which doesn't fit this context of understanding information."
       ],
       "hiragana_full": "かれがこないということがわかった。",
@@ -30,7 +30,8 @@
           "hiragana_full": "かれがこないことがわかった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n4_060_2",
@@ -58,7 +59,8 @@
           "hiragana_full": "あしたはやすみだということをわすれてしまっていた"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n4_060_3",
@@ -86,7 +88,15 @@
           "hiragana_full": "しけんがえんきになったというはなしをきいた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "延期",
+          "reading": "えんき",
+          "meaning": "postponement"
+        }
+      ]
     },
     {
       "id": "n4_060_4",
@@ -114,7 +124,15 @@
           "hiragana_full": "かのじょがいしゃだときいておどろいた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "驚いた",
+          "reading": "おどろいた",
+          "meaning": "was surprised"
+        }
+      ]
     },
     {
       "id": "n4_060_5",
@@ -142,7 +160,15 @@
           "hiragana_full": "あめがやんだのでうれしい。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "止んだ",
+          "reading": "やんだ",
+          "meaning": "stopped (of rain)"
+        }
+      ]
     },
     {
       "id": "n4_060_6",
@@ -152,12 +178,12 @@
       "wrong_choices": [
         "と",
         "ことを",
-        "の"
+        "わけ"
       ],
       "wrong_choice_explanations": [
         "と is a quotation particle but needs こと after it to create a proper noun phrase for を知らなかった.",
         "ことを would create a grammatically incorrect double を particle in the sentence.",
-        "の can nominalize but doesn't properly convey the reported information nuance like ということ does."
+        "わけ means 'reason' — 遅れているわけを知らなかった says 'I didn't know the reason it's delayed'; ということ marks the reported fact itself ('that the train is delayed'), which is what the speaker didn't know."
       ],
       "hiragana_full": "でんしゃがおくれているということをしらなかった。",
       "audio_alternatives": [
@@ -170,7 +196,15 @@
           "hiragana_full": "でんしゃがちえんしているとはしらなかった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "遅れている",
+          "reading": "おくれている",
+          "meaning": "is delayed"
+        }
+      ]
     },
     {
       "id": "n4_060_7",
@@ -178,13 +212,13 @@
       "translation": "Is it true that he changed jobs?",
       "blank_target": "ということ",
       "wrong_choices": [
-        "の",
-        "こと",
+        "わけ",
+        "ところ",
         "もの"
       ],
       "wrong_choice_explanations": [
-        "の can nominalize but doesn't carry the reporting nuance needed for 'is it true that...'",
-        "こと nominalizes a fact, but ということ specifically marks the content as secondhand news — appropriate here, since the speaker is asking whether a report about him is true.",
+        "わけ means 'reason' — 転職したわけは本当ですか asks 'is the reason he changed jobs true?'; ということ marks the reported fact ('that he changed jobs'), which is what's being questioned here.",
+        "ところ marks a point in time ('just now changed jobs') or a place; 転職したところは本当ですか doesn't work as 'is it true that…' — ということ packages the report as a piece of information to confirm.",
         "もの means 'thing' but is inappropriate for nominalizing reported information in this context."
       ],
       "hiragana_full": "かれがてんしょくしたということはほんとうですか",
@@ -198,7 +232,15 @@
           "hiragana_full": "かれがてんしょくしたってほんとうですか"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "転職した",
+          "reading": "てんしょくした",
+          "meaning": "changed jobs"
+        }
+      ]
     },
     {
       "id": "n4_060_8",
@@ -226,7 +268,20 @@
           "hiragana_full": "かいぎがちゅうしになることをしらされた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "中止",
+          "reading": "ちゅうし",
+          "meaning": "cancellation"
+        },
+        {
+          "word": "会議",
+          "reading": "かいぎ",
+          "meaning": "meeting"
+        }
+      ]
     },
     {
       "id": "n4_060_9",
@@ -254,7 +309,25 @@
           "hiragana_full": "りょうしんにむすこのけっこんをほうこくした"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "息子",
+          "reading": "むすこ",
+          "meaning": "son"
+        },
+        {
+          "word": "両親",
+          "reading": "りょうしん",
+          "meaning": "parents"
+        },
+        {
+          "word": "報告した",
+          "reading": "ほうこくした",
+          "meaning": "reported"
+        }
+      ]
     },
     {
       "id": "n4_060_10",
@@ -282,7 +355,15 @@
           "hiragana_full": "にほんごがじょうずになったことにきづいている"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "実感",
+          "reading": "じっかん",
+          "meaning": "real sense (of it)"
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,251 @@
+{
+  "id": "n3_147",
+  "pattern": "〜途中で",
+  "meaning": "on the way to ~; partway through ~ (V-dict / Nの + 途中で)",
+  "level": "N3",
+  "exercises": [
+    {
+      "id": "n3_147_1",
+      "example_sentence": "今朝、学校へ行く途中で財布を落としてしまった。",
+      "translation": "This morning I dropped my wallet on the way to school.",
+      "blank_target": "途中で",
+      "wrong_choices": ["最中に", "たびに", "うちに"],
+      "wrong_choice_explanations": [
+        "最中に means 'right in the middle of doing' and attaches to 〜ている or Nの (食べている最中に); it cannot follow the dictionary form 行く. 途中で is the form that attaches directly to 行く and means 'somewhere along the way.'",
+        "たびに means 'every time ~', but 今朝 fixes this as a single event this morning, so a habitual marker contradicts the sentence.",
+        "うちに means 'while a state lasts, before it changes' (明るいうちに); 学校へ行く is movement toward a goal, not a continuing state, so うちに doesn't fit here."
+      ],
+      "hiragana_full": "けさ、がっこうへいくとちゅうでさいふをおとしてしまった。",
+      "audio_alternatives": [
+        { "kanji": "今朝、通学の途中で財布をなくしてしまった。", "hiragana_full": "けさ、つうがくのとちゅうでさいふをなくしてしまった。" },
+        { "kanji": "今朝、学校へ行く道で財布を落としました。", "hiragana_full": "けさ、がっこうへいくみちでさいふをおとしました。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "財布", "reading": "さいふ", "meaning": "wallet" },
+        { "word": "落とす", "reading": "おとす", "meaning": "to drop, to lose" }
+      ],
+      "blank_target_reading": "とちゅうで"
+    },
+    {
+      "id": "n3_147_2",
+      "example_sentence": "昨日は残業で疲れていて、映画の途中で眠ってしまった。",
+      "translation": "I was worn out from overtime yesterday and fell asleep partway through the movie.",
+      "blank_target": "途中で",
+      "wrong_choices": ["たびに", "うちに", "末に"],
+      "wrong_choice_explanations": [
+        "たびに means 'every time there's a movie'; 昨日 marks this as one particular evening, so the habitual reading is impossible.",
+        "うちに attaches to durative states or clauses like 若いうちに・明るいうちに; 映画のうちに is not a natural combination for a point during an event.",
+        "末に means 'after ~ finally concluded' following a long, effortful process (議論の末に); it would mean falling asleep AFTER the movie ended, and watching a film is not the kind of struggle 末に describes."
+      ],
+      "hiragana_full": "きのうはざんぎょうでつかれていて、えいがのとちゅうでねむってしまった。",
+      "audio_alternatives": [
+        { "kanji": "疲れていたせいか、映画の途中で眠り込んでしまった。", "hiragana_full": "つかれていたせいか、えいがのとちゅうでねむりこんでしまった。" },
+        { "kanji": "昨日は疲れていて、映画を最後まで見られなかった。", "hiragana_full": "きのうはつかれていて、えいがをさいごまでみられなかった。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "残業", "reading": "ざんぎょう", "meaning": "overtime work" },
+        { "word": "眠る", "reading": "ねむる", "meaning": "to sleep, to fall asleep" }
+      ],
+      "blank_target_reading": "とちゅうで"
+    },
+    {
+      "id": "n3_147_3",
+      "example_sentence": "傘を持っていなかったのに、家へ帰る途中で夕立にあった。",
+      "translation": "Even though I didn't have an umbrella, I got caught in a sudden shower on my way home.",
+      "blank_target": "途中で",
+      "wrong_choices": ["ついでに", "とたんに", "最中に"],
+      "wrong_choice_explanations": [
+        "ついでに means doing something extra while conveniently at it (買い物のついでに); being caught in the rain is not an errand you choose to add on.",
+        "とたんに attaches to the た-form (帰ったとたんに) and marks the instant something happened; 帰るとたんに is ungrammatical, and the shower caught him somewhere along the way, not at one instant.",
+        "最中に needs 〜ている or Nの (帰っている最中に); it cannot follow the dictionary form 帰る the way 途中で can."
+      ],
+      "hiragana_full": "かさをもっていなかったのに、いえへかえるとちゅうでゆうだちにあった。",
+      "audio_alternatives": [
+        { "kanji": "帰り道の途中で、急な夕立にあってしまった。", "hiragana_full": "かえりみちのとちゅうで、きゅうなゆうだちにあってしまった。" },
+        { "kanji": "家に帰るとき、傘がないのに雨に降られた。", "hiragana_full": "いえにかえるとき、かさがないのにあめにふられた。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "傘", "reading": "かさ", "meaning": "umbrella" },
+        { "word": "夕立", "reading": "ゆうだち", "meaning": "sudden (evening) shower" }
+      ],
+      "blank_target_reading": "とちゅうで"
+    },
+    {
+      "id": "n3_147_4",
+      "example_sentence": "人の話の途中で口をはさむのは失礼ですよ。",
+      "translation": "It's rude to interrupt someone in the middle of what they're saying.",
+      "blank_target": "途中で",
+      "wrong_choices": ["末に", "上で", "おかげで"],
+      "wrong_choice_explanations": [
+        "末に means 'at the end, after a long process'; 口をはさむ (to cut in) requires the talk to still be going on — once it has ended there is nothing to cut into.",
+        "上で means 'upon/after doing ~' as a deliberate step (確認の上で); interrupting is not a planned step taken after the talk finishes.",
+        "おかげで credits something as a favorable cause; the sentence is a warning about rudeness, not about a benefit gained thanks to the talk."
+      ],
+      "hiragana_full": "ひとのはなしのとちゅうでくちをはさむのはしつれいですよ。",
+      "audio_alternatives": [
+        { "kanji": "人が話している途中で口を出すのは、よくありませんよ。", "hiragana_full": "ひとがはなしているとちゅうでくちをだすのは、よくありませんよ。" },
+        { "kanji": "相手の話をさえぎるのは失礼にあたります。", "hiragana_full": "あいてのはなしをさえぎるのはしつれいにあたります。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "口をはさむ", "reading": "くちをはさむ", "meaning": "to interrupt, to butt in" },
+        { "word": "失礼", "reading": "しつれい", "meaning": "rude, impolite" }
+      ],
+      "blank_target_reading": "とちゅうで"
+    },
+    {
+      "id": "n3_147_5",
+      "example_sentence": "足の痛みを我慢できず、彼はマラソンの途中で棄権した。",
+      "translation": "(news report) Unable to bear the pain in his leg, he withdrew partway through the marathon.",
+      "blank_target": "途中で",
+      "wrong_choices": ["末に", "せいで", "うちに"],
+      "wrong_choice_explanations": [
+        "末に would mean he quit after the whole race had run its course; 棄権 is precisely withdrawing BEFORE the end, so the two clash.",
+        "せいで blames a cause — 'because of the marathon he withdrew from the marathon' is circular, and the stated cause of quitting is the leg pain.",
+        "うちに means 'while a state still lasts'; マラソンのうちに is unnatural — うちに doesn't mark a point partway along an event like this."
+      ],
+      "hiragana_full": "あしのいたみをがまんできず、かれはまらそんのとちゅうできけんした。",
+      "audio_alternatives": [
+        { "kanji": "彼は足を痛めて、レースなかばで棄権した。", "hiragana_full": "かれはあしをいためて、れーすなかばできけんした。" },
+        { "kanji": "足の痛みにたえられず、彼はマラソンの途中であきらめた。", "hiragana_full": "あしのいたみにたえられず、かれはまらそんのとちゅうであきらめた。" }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        { "word": "我慢", "reading": "がまん", "meaning": "endurance, putting up with" },
+        { "word": "棄権", "reading": "きけん", "meaning": "withdrawal (from a race), abstention" },
+        { "word": "痛み", "reading": "いたみ", "meaning": "pain" }
+      ],
+      "blank_target_reading": "とちゅうで"
+    },
+    {
+      "id": "n3_147_6",
+      "example_sentence": "夕食を食べている途中で、携帯が鳴った。",
+      "translation": "My phone rang while I was partway through dinner.",
+      "blank_target": "途中で",
+      "wrong_choices": ["とたんに", "末に", "せいで"],
+      "wrong_choice_explanations": [
+        "とたんに needs the た-form and an instantaneous reading (食べたとたんに = the moment I ate); the call came at some point during the ongoing meal.",
+        "末に marks the conclusion of a long, effortful process (悩んだ末に); eating dinner is not such a process, and the phone rang mid-meal, not after it.",
+        "せいで assigns blame for a bad result; eating dinner did not cause the phone to ring."
+      ],
+      "hiragana_full": "ゆうしょくをたべているとちゅうで、けいたいがなった。",
+      "audio_alternatives": [
+        { "kanji": "夕食の途中で、携帯に電話がかかってきた。", "hiragana_full": "ゆうしょくのとちゅうで、けいたいにでんわがかかってきた。" },
+        { "kanji": "ご飯を食べていたら、携帯が鳴り出した。", "hiragana_full": "ごはんをたべていたら、けいたいがなりだした。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "夕食", "reading": "ゆうしょく", "meaning": "dinner" },
+        { "word": "携帯", "reading": "けいたい", "meaning": "mobile phone" },
+        { "word": "鳴る", "reading": "なる", "meaning": "to ring, to sound" }
+      ],
+      "blank_target_reading": "とちゅうで"
+    },
+    {
+      "id": "n3_147_7",
+      "example_sentence": "兄は習い事を始めても、いつも途中でやめてしまう。",
+      "translation": "Whenever my brother takes up a new lesson, he always quits partway through.",
+      "blank_target": "途中で",
+      "wrong_choices": ["最後に", "いまにも", "とっくに"],
+      "wrong_choice_explanations": [
+        "最後に would mean he quits 'at the end' — but reaching the end means he finished, which contradicts the complaint that he never sees things through.",
+        "いまにも means 'at any moment now' and needs an appearance expression like 〜そうだ (いまにも泣きそうだ); it can't modify the habitual やめてしまう directly.",
+        "とっくに means 'long ago already' and requires a completed past (とっくにやめてしまった); it clashes with the habitual non-past 〜てしまう."
+      ],
+      "hiragana_full": "あにはならいごとをはじめても、いつもとちゅうでやめてしまう。",
+      "audio_alternatives": [
+        { "kanji": "兄は何を始めても、途中で投げ出してしまう。", "hiragana_full": "あにはなにをはじめても、とちゅうでなげだしてしまう。" },
+        { "kanji": "兄は習い事が長続きしない。", "hiragana_full": "あにはならいごとがながつづきしない。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "習い事", "reading": "ならいごと", "meaning": "lessons, hobby classes" },
+        { "word": "やめる", "reading": "やめる", "meaning": "to quit, to stop" }
+      ],
+      "blank_target_reading": "とちゅうで"
+    },
+    {
+      "id": "n3_147_8",
+      "example_sentence": "夕方、駅へ向かう途中で、昔の同僚にばったり会った。",
+      "translation": "In the evening, on my way to the station, I ran into an old coworker.",
+      "blank_target": "途中で",
+      "wrong_choices": ["ついでに", "たびに", "上で"],
+      "wrong_choice_explanations": [
+        "ついでに marks an extra errand done intentionally while you're at it; ばったり (purely by chance) rules out a planned add-on action.",
+        "たびに means 'every time I head to the station', but 夕方 and the single past event 会った describe one particular encounter.",
+        "上で means 'in the deliberate process of / upon doing ~' (準備する上で大切なこと); a chance meeting is neither a required step nor a considered process."
+      ],
+      "hiragana_full": "ゆうがた、えきへむかうとちゅうで、むかしのどうりょうにばったりあった。",
+      "audio_alternatives": [
+        { "kanji": "夕方、駅に向かう道で、昔の同僚に偶然会った。", "hiragana_full": "ゆうがた、えきにむかうみちで、むかしのどうりょうにぐうぜんあった。" },
+        { "kanji": "駅へ行く途中で、なつかしい顔にばったり出会った。", "hiragana_full": "えきへいくとちゅうで、なつかしいかおにばったりであった。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "同僚", "reading": "どうりょう", "meaning": "colleague, coworker" },
+        { "word": "ばったり", "reading": "ばったり", "meaning": "unexpectedly, by chance" },
+        { "word": "向かう", "reading": "むかう", "meaning": "to head toward" }
+      ],
+      "blank_target_reading": "とちゅうで"
+    },
+    {
+      "id": "n3_147_9",
+      "example_sentence": "飛行機は、離陸する途中で引き返すことができない。",
+      "translation": "A plane cannot turn back partway through its takeoff.",
+      "blank_target": "途中で",
+      "wrong_choices": ["最中に", "とたんに", "うちに"],
+      "wrong_choice_explanations": [
+        "最中に attaches to 〜ている or Nの (離陸している最中に); it cannot follow the dictionary form 離陸する, while 途中で attaches there naturally.",
+        "とたんに needs the た-form and marks one instant (離陸したとたんに); the sentence is about the ongoing takeoff process, not a single moment after it.",
+        "うちに means 'while a state lasts, before it changes' (明るいうちに); 離陸する is a goal-directed process, not a lasting state, so うちに doesn't attach naturally."
+      ],
+      "hiragana_full": "ひこうきは、りりくするとちゅうでひきかえすことができない。",
+      "audio_alternatives": [
+        { "kanji": "飛行機は、いったん離陸を始めると引き返せない。", "hiragana_full": "ひこうきは、いったんりりくをはじめるとひきかえせない。" },
+        { "kanji": "離陸の途中で、飛行機は戻ることができない。", "hiragana_full": "りりくのとちゅうで、ひこうきはもどることができない。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "離陸", "reading": "りりく", "meaning": "takeoff" },
+        { "word": "引き返す", "reading": "ひきかえす", "meaning": "to turn back" }
+      ],
+      "blank_target_reading": "とちゅうで"
+    },
+    {
+      "id": "n3_147_10",
+      "example_sentence": "宿題やってる途中で、いつのまにか寝ちゃったんだ。",
+      "translation": "(to a friend) I was in the middle of doing my homework and somehow just fell asleep.",
+      "blank_target": "途中で",
+      "wrong_choices": ["とたんに", "たびに", "おかげで"],
+      "wrong_choice_explanations": [
+        "とたんに needs the た-form and an instant event (やったとたんに); falling asleep crept up gradually during the homework, and やってるとたんに is ungrammatical.",
+        "たびに means 'every time I do homework', but んだ and いつのまにか report what happened on one particular night; たび also attaches to the dictionary form (やるたびに), not やってる.",
+        "おかげで presents something as a favorable cause; accidentally falling asleep mid-homework is a mishap, not a benefit the homework kindly provided."
+      ],
+      "hiragana_full": "しゅくだいやってるとちゅうで、いつのまにかねちゃったんだ。",
+      "audio_alternatives": [
+        { "kanji": "宿題の途中で、気づいたら眠っちゃってたんだよね。", "hiragana_full": "しゅくだいのとちゅうで、きづいたらねむっちゃってたんだよね。" },
+        { "kanji": "宿題をやりながら、いつのまにか寝てしまった。", "hiragana_full": "しゅくだいをやりながら、いつのまにかねてしまった。" }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        { "word": "宿題", "reading": "しゅくだい", "meaning": "homework" },
+        { "word": "いつのまにか", "reading": "いつのまにか", "meaning": "before one knows it" }
+      ],
+      "blank_target_reading": "とちゅうで"
+    }
+  ]
+}

@@ -31,7 +31,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "まい"
+      "blank_target_reading": "まい",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "紙",
+          "reading": "かみ",
+          "meaning": "paper"
+        }
+      ]
     },
     {
       "id": "n5_075_2",
@@ -60,7 +68,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "まい"
+      "blank_target_reading": "まい",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "写真",
+          "reading": "しゃしん",
+          "meaning": "photograph"
+        },
+        {
+          "word": "撮りました",
+          "reading": "とりました",
+          "meaning": "took (photos)"
+        }
+      ]
     },
     {
       "id": "n5_075_3",
@@ -70,12 +91,12 @@
       "wrong_choices": [
         "つ",
         "個",
-        "着"
+        "冊"
       ],
       "wrong_choice_explanations": [
         "つ is a general counter, but T-shirts as flat clothing items specifically use 枚.",
         "個 is for small objects, but clothing items like T-shirts are counted with 枚.",
-        "着 is for complete outfits or sets of clothes, but individual clothing pieces like T-shirts use 枚."
+        "冊 counts bound books and magazines — a T-shirt is not a bound volume, so 冊 cannot count it; thin flat clothing takes 枚."
       ],
       "hiragana_full": "ティーシャツをにまいかいました",
       "audio_alternatives": [
@@ -89,7 +110,8 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "まい"
+      "blank_target_reading": "まい",
+      "register": "neutral"
     },
     {
       "id": "n5_075_4",
@@ -118,7 +140,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "まい"
+      "blank_target_reading": "まい",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "お皿",
+          "reading": "おさら",
+          "meaning": "plate; dish"
+        },
+        {
+          "word": "洗いました",
+          "reading": "あらいました",
+          "meaning": "washed"
+        }
+      ]
     },
     {
       "id": "n5_075_5",
@@ -147,7 +182,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "まい"
+      "blank_target_reading": "まい",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "切手",
+          "reading": "きって",
+          "meaning": "postage stamp"
+        },
+        {
+          "word": "貼りました",
+          "reading": "はりました",
+          "meaning": "stuck on; affixed"
+        }
+      ]
     },
     {
       "id": "n5_075_6",
@@ -176,7 +224,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "まい"
+      "blank_target_reading": "まい",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "借りました",
+          "reading": "かりました",
+          "meaning": "borrowed"
+        }
+      ]
     },
     {
       "id": "n5_075_7",
@@ -205,7 +261,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "まい"
+      "blank_target_reading": "まい",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "落としました",
+          "reading": "おとしました",
+          "meaning": "dropped"
+        }
+      ]
     },
     {
       "id": "n5_075_8",
@@ -234,7 +298,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "まい"
+      "blank_target_reading": "まい",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "畳",
+          "reading": "たたみ",
+          "meaning": "tatami mat"
+        }
+      ]
     },
     {
       "id": "n5_075_9",
@@ -263,7 +335,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "まい"
+      "blank_target_reading": "まい",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "集めました",
+          "reading": "あつめました",
+          "meaning": "collected"
+        }
+      ]
     },
     {
       "id": "n5_075_10",
@@ -292,7 +372,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "まい"
+      "blank_target_reading": "まい",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "予約しました",
+          "reading": "よやくしました",
+          "meaning": "reserved"
+        }
+      ]
     }
   ]
 }

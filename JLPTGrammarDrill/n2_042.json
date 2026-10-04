@@ -30,7 +30,30 @@
           "hiragana_full": "とうようびじゅつのみならず、せいようびじゅつもてんじされている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "東洋",
+          "reading": "とうよう",
+          "meaning": "the East/Orient"
+        },
+        {
+          "word": "西洋",
+          "reading": "せいよう",
+          "meaning": "the West"
+        },
+        {
+          "word": "美術",
+          "reading": "びじゅつ",
+          "meaning": "art"
+        },
+        {
+          "word": "展示",
+          "reading": "てんじ",
+          "meaning": "exhibition"
+        }
+      ]
     },
     {
       "id": "n2_042_2",
@@ -58,7 +81,25 @@
           "hiragana_full": "にくたいのけんこうのみならず、せいしんてきじゅうじつもじゅうようだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "肉体",
+          "reading": "にくたい",
+          "meaning": "the body/physical"
+        },
+        {
+          "word": "精神的",
+          "reading": "せいしんてき",
+          "meaning": "mental/spiritual"
+        },
+        {
+          "word": "充実",
+          "reading": "じゅうじつ",
+          "meaning": "fulfillment"
+        }
+      ]
     },
     {
       "id": "n2_042_3",
@@ -86,7 +127,25 @@
           "hiragana_full": "きほんてきなよみかきのみならず、ひはんてきしこうりょくもひつようです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "読み書き",
+          "reading": "よみかき",
+          "meaning": "reading and writing"
+        },
+        {
+          "word": "批判的",
+          "reading": "ひはんてき",
+          "meaning": "critical"
+        },
+        {
+          "word": "思考力",
+          "reading": "しこうりょく",
+          "meaning": "thinking ability"
+        }
+      ]
     },
     {
       "id": "n2_042_4",
@@ -114,7 +173,25 @@
           "hiragana_full": "がくれきのみならず、じつむけいけんもおもんじている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "学位",
+          "reading": "がくい",
+          "meaning": "academic degree"
+        },
+        {
+          "word": "実務",
+          "reading": "じつむ",
+          "meaning": "practical work"
+        },
+        {
+          "word": "重視",
+          "reading": "じゅうし",
+          "meaning": "emphasis"
+        }
+      ]
     },
     {
       "id": "n2_042_5",
@@ -142,7 +219,25 @@
           "hiragana_full": "がくぶせいのみならずだいがくいんせいにもにんきがあるこうぎだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "学部生",
+          "reading": "がくぶせい",
+          "meaning": "undergraduate"
+        },
+        {
+          "word": "大学院生",
+          "reading": "だいがくいんせい",
+          "meaning": "graduate student"
+        },
+        {
+          "word": "講義",
+          "reading": "こうぎ",
+          "meaning": "lecture"
+        }
+      ]
     },
     {
       "id": "n2_042_6",
@@ -170,7 +265,20 @@
           "hiragana_full": "こくないりょこうはもちろん、かいがいりょこうのごよやくもうけたまわっております。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        {
+          "word": "承って",
+          "reading": "うけたまわって",
+          "meaning": "to accept (humble)"
+        },
+        {
+          "word": "予約",
+          "reading": "よやく",
+          "meaning": "reservation"
+        }
+      ]
     },
     {
       "id": "n2_042_7",
@@ -198,38 +306,23 @@
           "hiragana_full": "にほんごのみならずえいごもはなせるゆうしゅうなじんざいをぼしゅうしています。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "優秀",
+          "reading": "ゆうしゅう",
+          "meaning": "excellent"
+        },
+        {
+          "word": "人材",
+          "reading": "じんざい",
+          "meaning": "talented personnel"
+        }
+      ]
     },
     {
       "id": "n2_042_8",
-      "example_sentence": "理論はもとより、実践的な応用力も身につけてほしい。",
-      "translation": "I want you to acquire not only theory but also practical application skills.",
-      "blank_target": "はもとより",
-      "wrong_choices": [
-        "にもかかわらず",
-        "をめぐって",
-        "に応じて"
-      ],
-      "wrong_choice_explanations": [
-        "にもかかわらず means 'despite', a concession, but here theory and practical skills are simply both wanted, which needs はもとより.",
-        "をめぐって means 'concerning (an issue)', framing theory as a topic of dispute, not one of two things to acquire.",
-        "に応じて means 'according to / depending on', a correspondence relation, not the additive meaning the 〜も calls for."
-      ],
-      "hiragana_full": "りろんはもとより、じっせんてきなおうようりょくもみにつけてほしい。",
-      "audio_alternatives": [
-        {
-          "kanji": "理論だけでなく、実践的な応用力も身につけてほしい。",
-          "hiragana_full": "りろんだけでなく、じっせんてきなおうようりょくもみにつけてほしい。"
-        },
-        {
-          "kanji": "理論のみならず、実践的な応用力も習得してほしい。",
-          "hiragana_full": "りろんのみならず、じっせんてきなおうようりょくもしゅうとくしてほしい。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_042_9",
       "example_sentence": "品質はもとより、価格の面でも競争力がある。",
       "translation": "We are competitive not only in terms of quality but also price.",
       "blank_target": "はもとより",
@@ -254,10 +347,28 @@
           "hiragana_full": "ひんしつのみならず、かかくにおいてもきょうそうりょくがある。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "品質",
+          "reading": "ひんしつ",
+          "meaning": "quality"
+        },
+        {
+          "word": "価格",
+          "reading": "かかく",
+          "meaning": "price"
+        },
+        {
+          "word": "競争力",
+          "reading": "きょうそうりょく",
+          "meaning": "competitiveness"
+        }
+      ]
     },
     {
-      "id": "n2_042_10",
+      "id": "n2_042_9",
       "example_sentence": "専門知識はもとより、コミュニケーション能力も重要視される。",
       "translation": "Not only specialized knowledge but also communication skills are valued highly.",
       "blank_target": "はもとより",
@@ -282,7 +393,61 @@
           "hiragana_full": "せんもんちしきのみならず、こみゅにけーしょんのうりょくもじゅうようとされる。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "専門知識",
+          "reading": "せんもんちしき",
+          "meaning": "specialized knowledge"
+        },
+        {
+          "word": "重要視",
+          "reading": "じゅうようし",
+          "meaning": "regarding as important"
+        }
+      ]
+    },
+    {
+      "id": "n2_042_10",
+      "example_sentence": "理論はもとより、実際の経験も重要である。",
+      "translation": "Actual experience is important, not to mention theory.",
+      "blank_target": "はもとより",
+      "wrong_choices": [
+        "に際して",
+        "に対して",
+        "に関わらず"
+      ],
+      "wrong_choice_explanations": [
+        "に際して means 'on the occasion of,' marking theory as a moment in time when something is done, not the first of two things both called important.",
+        "に対して means 'toward / in contrast to' and would set theory against experience rather than presenting theory as a given and adding experience as also important.",
+        "に関わらず means 'regardless of' and implies theory doesn't matter, which contradicts はもとより's sense that theory is obviously important."
+      ],
+      "hiragana_full": "りろんはもとより、じっさいのけいけんもじゅうようである。",
+      "audio_alternatives": [
+        {
+          "kanji": "理論はもちろん、実際の経験も大切だ。",
+          "hiragana_full": "りろんはもちろん、じっさいのけいけんもたいせつだ。"
+        },
+        {
+          "kanji": "理論だけでなく、実際の経験も重要だ。",
+          "hiragana_full": "りろんだけでなく、じっさいのけいけんもじゅうようだ。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "理論",
+          "reading": "りろん",
+          "meaning": "theory"
+        },
+        {
+          "word": "実際",
+          "reading": "じっさい",
+          "meaning": "actual; real"
+        }
+      ]
     }
   ]
 }

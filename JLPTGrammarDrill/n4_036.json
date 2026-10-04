@@ -30,7 +30,8 @@
           "hiragana_full": "まいあさろくじにおきるときめている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n4_036_2",
@@ -58,7 +59,15 @@
           "hiragana_full": "からだのためにやさいをたべることにしています。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "健康",
+          "reading": "けんこう",
+          "meaning": "health"
+        }
+      ]
     },
     {
       "id": "n4_036_3",
@@ -67,12 +76,12 @@
       "blank_target": "こと",
       "wrong_choices": [
         "の",
-        "よう",
+        "だけ",
         "ばかり"
       ],
       "wrong_choice_explanations": [
         "の is a nominalizer — it doesn't fit here because it doesn't create the meaning of establishing a rule.",
-        "よう means 'way/manner' or 'so that' — it doesn't fit here because it doesn't form the pattern for making something a rule.",
+        "だけ (as 〜だけにしている) means 'I keep it to only ~' — 読むだけにしている would say reading is all I do on weekends, a limitation, not the habitual rule that ことにしている establishes.",
         "ばかり means 'only/just' — it doesn't fit here because it indicates exclusivity, not a habitual rule."
       ],
       "hiragana_full": "しゅうまつはほんをよむことにしている。",
@@ -86,7 +95,8 @@
           "hiragana_full": "しゅうまつにほんをよむことをしゅうかんにしている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n4_036_4",
@@ -114,7 +124,8 @@
           "hiragana_full": "よるおそくテレビをみないことにしています。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n4_036_5",
@@ -142,7 +153,20 @@
           "hiragana_full": "うんどうぶそくにならないようにまいにちさんぽするようにしています。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "運動不足",
+          "reading": "うんどうぶそく",
+          "meaning": "lack of exercise"
+        },
+        {
+          "word": "散歩",
+          "reading": "さんぽ",
+          "meaning": "a walk"
+        }
+      ]
     },
     {
       "id": "n4_036_6",
@@ -170,7 +194,15 @@
           "hiragana_full": "まいにちかならずにっきをかくことにしています。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "日記",
+          "reading": "にっき",
+          "meaning": "diary"
+        }
+      ]
     },
     {
       "id": "n4_036_7",
@@ -198,7 +230,20 @@
           "hiragana_full": "でんしゃのなかでせきをゆずることにしています。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "席",
+          "reading": "せき",
+          "meaning": "seat"
+        },
+        {
+          "word": "譲る",
+          "reading": "ゆずる",
+          "meaning": "to give up, yield"
+        }
+      ]
     },
     {
       "id": "n4_036_8",
@@ -226,7 +271,15 @@
           "hiragana_full": "ごはんのまえにてをあらうことにしています。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "食事",
+          "reading": "しょくじ",
+          "meaning": "meal"
+        }
+      ]
     },
     {
       "id": "n4_036_9",
@@ -254,7 +307,20 @@
           "hiragana_full": "ともだちときめたじかんよりはやくつくようにしている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "約束",
+          "reading": "やくそく",
+          "meaning": "promise, appointment"
+        },
+        {
+          "word": "着く",
+          "reading": "つく",
+          "meaning": "to arrive"
+        }
+      ]
     },
     {
       "id": "n4_036_10",
@@ -282,7 +348,20 @@
           "hiragana_full": "こまっているひとがいたらたすけることにしています。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "見かけたら",
+          "reading": "みかけたら",
+          "meaning": "when (I) happen to see"
+        },
+        {
+          "word": "助ける",
+          "reading": "たすける",
+          "meaning": "to help"
+        }
+      ]
     }
   ]
 }

@@ -31,7 +31,8 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ばん"
+      "blank_target_reading": "ばん",
+      "register": "neutral"
     },
     {
       "id": "n5_080_2",
@@ -60,7 +61,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ばん"
+      "blank_target_reading": "ばん",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "電車",
+          "reading": "でんしゃ",
+          "meaning": "train"
+        },
+        {
+          "word": "乗ります",
+          "reading": "のります",
+          "meaning": "ride; take"
+        }
+      ]
     },
     {
       "id": "n5_080_3",
@@ -69,12 +83,12 @@
       "blank_target": "番",
       "wrong_choices": [
         "台",
-        "個",
+        "枚",
         "軒"
       ],
       "wrong_choice_explanations": [
         "台 counts machines and vehicles (二台目 = the second vehicle); it can't mark a station's position in the route, so 番目 is what gives the ordinal here.",
-        "個 is a general counter for objects — it doesn't fit here because this is about ordinal position, not counting objects.",
+        "枚 counts flat objects, so 二枚目 would mean 'the second sheet/plate' — a station is not a flat object, and ～枚目 cannot mark a stop's position on a route; 番目 gives the ordinal.",
         "軒 is used for houses/buildings — it doesn't fit here because this is about station sequence, not counting buildings."
       ],
       "hiragana_full": "にばんめのえきでおります。",
@@ -89,7 +103,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ばん"
+      "blank_target_reading": "ばん",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "駅",
+          "reading": "えき",
+          "meaning": "station"
+        },
+        {
+          "word": "降ります",
+          "reading": "おります",
+          "meaning": "get off"
+        }
+      ]
     },
     {
       "id": "n5_080_4",
@@ -118,7 +145,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ばん"
+      "blank_target_reading": "ばん",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "部屋",
+          "reading": "へや",
+          "meaning": "room"
+        },
+        {
+          "word": "入って",
+          "reading": "はいって",
+          "meaning": "enter"
+        }
+      ]
     },
     {
       "id": "n5_080_5",
@@ -128,12 +168,12 @@
       "wrong_choices": [
         "本",
         "つ",
-        "号"
+        "台"
       ],
       "wrong_choice_explanations": [
         "本 is used for long thin objects — it doesn't fit here because this is about train line numbers, not counting objects.",
         "つ is a general counter — it doesn't fit here because this is about line numbering, not counting lines.",
-        "号 can indicate numbers but is typically used for issues/editions — it doesn't fit here for train line numbering."
+        "台 counts machines and vehicles — 四台線 is not a word; platform and track numbers at a station are formed with 番線."
       ],
       "hiragana_full": "よんばんせんのほーむはどこですか。",
       "audio_alternatives": [
@@ -147,7 +187,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ばん"
+      "blank_target_reading": "ばん",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "ホーム",
+          "reading": "ほーむ",
+          "meaning": "platform"
+        }
+      ]
     },
     {
       "id": "n5_080_6",
@@ -176,7 +224,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ばん"
+      "blank_target_reading": "ばん",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "ロッカー",
+          "reading": "ろっかー",
+          "meaning": "locker"
+        },
+        {
+          "word": "使います",
+          "reading": "つかいます",
+          "meaning": "use"
+        }
+      ]
     },
     {
       "id": "n5_080_7",
@@ -205,7 +266,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ばん"
+      "blank_target_reading": "ばん",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "出口",
+          "reading": "でぐち",
+          "meaning": "exit"
+        }
+      ]
     },
     {
       "id": "n5_080_8",
@@ -234,7 +303,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ばん"
+      "blank_target_reading": "ばん",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "問題",
+          "reading": "もんだい",
+          "meaning": "problem; question"
+        },
+        {
+          "word": "難しい",
+          "reading": "むずかしい",
+          "meaning": "difficult"
+        }
+      ]
     },
     {
       "id": "n5_080_9",
@@ -263,7 +345,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ばん"
+      "blank_target_reading": "ばん",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "チャンネル",
+          "reading": "ちゃんねる",
+          "meaning": "channel"
+        }
+      ]
     },
     {
       "id": "n5_080_10",
@@ -292,7 +382,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ばん"
+      "blank_target_reading": "ばん",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "ゲート",
+          "reading": "げーと",
+          "meaning": "gate"
+        }
+      ]
     }
   ]
 }

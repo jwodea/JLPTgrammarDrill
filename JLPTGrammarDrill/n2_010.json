@@ -10,13 +10,13 @@
       "translation": "We will proceed with the project in line with the plan.",
       "blank_target": "に沿って",
       "wrong_choices": [
-        "に従って",
-        "に基づいて",
+        "に反して",
+        "をよそに",
         "について"
       ],
       "wrong_choice_explanations": [
-        "に従って means 'in accordance with/obeying' and implies strict compliance with orders or rules, but this context needs alignment with a plan rather than obedience.",
-        "に基づいて means 'based on' and emphasizes using something as a foundation, but here we need to show following along a planned course.",
+        "に反して means 'contrary to / against'; 計画に反して進めます would mean proceeding against the plan, the opposite of に沿って, which means moving forward in line with it.",
+        "をよそに means 'ignoring / disregarding'; 計画をよそに would mean proceeding while paying the plan no heed, the reverse of に沿って, which means keeping to the planned course.",
         "について means 'about/concerning' and is used for topics of discussion, which doesn't fit this context of following a plan."
       ],
       "hiragana_full": "けいかくにそって、ぷろじぇくとをすすめます。",
@@ -31,6 +31,14 @@
         }
       ],
       "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "計画",
+          "reading": "けいかく",
+          "meaning": "plan"
+        }
+      ],
       "blank_target_reading": "にそって"
     },
     {
@@ -60,6 +68,14 @@
         }
       ],
       "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "散歩道",
+          "reading": "さんぽみち",
+          "meaning": "walking path"
+        }
+      ],
       "blank_target_reading": "にそって"
     },
     {
@@ -69,12 +85,12 @@
       "blank_target": "に沿って",
       "wrong_choices": [
         "に対して",
-        "に基づいて",
+        "に反して",
         "によると"
       ],
       "wrong_choice_explanations": [
         "に対して means 'toward/against' and shows direction or opposition, but this sentence needs to show alignment with policy guidelines.",
-        "に基づいて means 'based on' and emphasizes using something as a foundation or source, but here we need alignment with policy direction rather than derivation from it.",
+        "に反して means 'contrary to'; 方針に反して would mean the measures defied the government's policy, the opposite of に沿って, which marks them as implemented in line with it.",
         "によると means 'according to' and is used for reporting information sources, not for implementing measures in alignment with policy."
       ],
       "hiragana_full": "せいふのほうしんにそって、しさくがじっしされた。",
@@ -89,6 +105,24 @@
         }
       ],
       "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "方針",
+          "reading": "ほうしん",
+          "meaning": "policy"
+        },
+        {
+          "word": "施策",
+          "reading": "しさく",
+          "meaning": "measure, policy"
+        },
+        {
+          "word": "実施",
+          "reading": "じっし",
+          "meaning": "to implement"
+        }
+      ],
       "blank_target_reading": "にそって"
     },
     {
@@ -97,12 +131,12 @@
       "translation": "I proceeded with the procedure following the manual.",
       "blank_target": "に沿って",
       "wrong_choices": [
-        "に従って",
+        "に反して",
         "について",
         "に対して"
       ],
       "wrong_choice_explanations": [
-        "に従って means 'in accordance with' and implies obedience to authority, but following a manual is more about alignment with guidelines than strict obedience.",
+        "に反して means 'in violation of'; マニュアルに反して would mean the steps went against the manual, the opposite of に沿って, which means following it.",
         "について means 'about/concerning' and is used for topics of discussion, not for following procedural steps.",
         "に対して means 'toward/against' and shows direction or stance, which doesn't fit the context of following manual procedures."
       ],
@@ -118,6 +152,14 @@
         }
       ],
       "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "手順",
+          "reading": "てじゅん",
+          "meaning": "procedure, steps"
+        }
+      ],
       "blank_target_reading": "にそって"
     },
     {
@@ -147,6 +189,14 @@
         }
       ],
       "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "海岸線",
+          "reading": "かいがんせん",
+          "meaning": "coastline"
+        }
+      ],
       "blank_target_reading": "にそって"
     },
     {
@@ -155,12 +205,12 @@
       "translation": "Learning is proceeding along the educational curriculum.",
       "blank_target": "に沿って",
       "wrong_choices": [
-        "に従って",
+        "をよそに",
         "によって",
         "に対して"
       ],
       "wrong_choice_explanations": [
-        "に従って emphasizes obedience to rules or orders, but following a curriculum is more about alignment with educational guidelines than strict obedience.",
+        "をよそに means 'disregarding'; 教育課程をよそに would mean learning proceeds while ignoring the curriculum, the reverse of に沿って, which means keeping in step with it.",
         "によって means 'by means of/due to' and shows method or cause, but this context needs to show progression alongside curriculum structure.",
         "に対して means 'toward/against' and shows direction or opposition, which doesn't fit the context of following educational progression."
       ],
@@ -176,6 +226,19 @@
         }
       ],
       "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "教育課程",
+          "reading": "きょういくかてい",
+          "meaning": "curriculum"
+        },
+        {
+          "word": "学習",
+          "reading": "がくしゅう",
+          "meaning": "learning, study"
+        }
+      ],
       "blank_target_reading": "にそって"
     },
     {
@@ -184,12 +247,12 @@
       "translation": "Each department sets targets in line with the company's management policy.",
       "blank_target": "に沿って",
       "wrong_choices": [
-        "に基づいて",
+        "に反して",
         "について",
         "に対して"
       ],
       "wrong_choice_explanations": [
-        "に基づいて means 'based on' and emphasizes using something as a foundation, but here departments are aligning with policy direction rather than deriving targets from it.",
+        "に反して means 'contrary to'; 経営方針に反して would mean departments set goals that defy company policy, the opposite of に沿って, which aligns their goals with it.",
         "について means 'about/concerning' and is used for topics of discussion, not for setting targets in alignment with policy.",
         "に対して means 'toward/against' and shows direction or stance, which doesn't fit the context of aligning departmental goals with company policy."
       ],
@@ -205,6 +268,29 @@
         }
       ],
       "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "経営方針",
+          "reading": "けいえいほうしん",
+          "meaning": "management policy"
+        },
+        {
+          "word": "各部門",
+          "reading": "かくぶもん",
+          "meaning": "each department"
+        },
+        {
+          "word": "目標",
+          "reading": "もくひょう",
+          "meaning": "goal"
+        },
+        {
+          "word": "設定",
+          "reading": "せってい",
+          "meaning": "to set"
+        }
+      ],
       "blank_target_reading": "にそって"
     },
     {
@@ -213,12 +299,12 @@
       "translation": "The system was designed in line with constitutional principles.",
       "blank_target": "に沿って",
       "wrong_choices": [
-        "に従って",
+        "をよそに",
         "によると",
         "に関して"
       ],
       "wrong_choice_explanations": [
-        "に従って means 'in accordance with' and implies strict compliance, but designing systems in alignment with constitutional ideals is more about following spirit than strict obedience.",
+        "をよそに means 'ignoring / in disregard of'; 憲法の理念をよそに would mean the system was designed paying no heed to constitutional ideals, the opposite of に沿って, which designs it in keeping with them.",
         "によると means 'according to' and is used for reporting information sources, not for designing systems in alignment with principles.",
         "に関して means 'regarding/concerning' and is used for topics, not for designing systems that align with constitutional principles."
       ],
@@ -234,6 +320,29 @@
         }
       ],
       "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "憲法",
+          "reading": "けんぽう",
+          "meaning": "constitution"
+        },
+        {
+          "word": "理念",
+          "reading": "りねん",
+          "meaning": "principle, philosophy"
+        },
+        {
+          "word": "制度",
+          "reading": "せいど",
+          "meaning": "system"
+        },
+        {
+          "word": "設計",
+          "reading": "せっけい",
+          "meaning": "to design"
+        }
+      ],
       "blank_target_reading": "にそって"
     },
     {
@@ -263,6 +372,14 @@
         }
       ],
       "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "線路",
+          "reading": "せんろ",
+          "meaning": "railway track"
+        }
+      ],
       "blank_target_reading": "にそって"
     },
     {
@@ -271,12 +388,12 @@
       "translation": "Experiments are being conducted step by step in line with the research plan.",
       "blank_target": "に沿って",
       "wrong_choices": [
-        "に基づいて",
+        "に先立って",
         "に対して",
         "によると"
       ],
       "wrong_choice_explanations": [
-        "に基づいて means 'based on' and emphasizes using something as a foundation, but here experiments are following the planned sequence rather than being derived from it.",
+        "に先立って means 'prior to / ahead of'; 研究計画に先立って would put the experiments before the research plan existed, reversing the order, whereas に沿って means the experiments follow the plan's stages.",
         "に対して means 'toward/against' and shows direction or stance, which doesn't fit the context of conducting experiments according to a planned sequence.",
         "によると means 'according to' and is used for reporting information sources, not for conducting experiments in alignment with a research plan."
       ],
@@ -292,6 +409,24 @@
         }
       ],
       "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "研究計画",
+          "reading": "けんきゅうけいかく",
+          "meaning": "research plan"
+        },
+        {
+          "word": "段階的",
+          "reading": "だんかいてき",
+          "meaning": "step by step, gradual"
+        },
+        {
+          "word": "実施",
+          "reading": "じっし",
+          "meaning": "to implement"
+        }
+      ],
       "blank_target_reading": "にそって"
     }
   ]

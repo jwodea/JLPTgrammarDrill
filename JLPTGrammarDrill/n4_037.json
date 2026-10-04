@@ -6,90 +6,206 @@
   "exercises": [
     {
       "id": "n4_037_1",
-      "example_sentence": "宿題を忘れてしまいました。",
-      "translation": "I ended up forgetting my homework.",
-      "blank_target": "て",
+      "example_sentence": "会議の途中で、コーヒーをこぼしてしまった。",
+      "translation": "I accidentally spilled coffee in the middle of the meeting.",
+      "blank_target": "ぼしてしまった",
       "wrong_choices": [
-        "ながら",
-        "ために",
-        "ので"
+        "ぼしてみた",
+        "ぼしておいた",
+        "ぼしてきた"
       ],
       "wrong_choice_explanations": [
-        "ながら means 'while doing' — it doesn't fit here because it indicates simultaneous actions, not completion or regret.",
-        "ために means 'for the purpose of' — it doesn't fit here because it indicates purpose, not the completion of an unfortunate action.",
-        "ので means 'because' — it doesn't fit here because it indicates reason, not the completion with regret."
+        "〜てみた means 'tried doing,' implying intentional trial, but spilling coffee was clearly accidental.",
+        "〜ておいた means 'did in advance for later,' but no one spills coffee on purpose as preparation.",
+        "〜てきた means 'has been doing' or 'went and did,' but the sentence emphasizes an unfortunate accident, not a gradual process or going somewhere to act."
       ],
-      "hiragana_full": "しゅくだいをわすれてしまいました。",
+      "hiragana_full": "かいぎのとちゅうで、コーヒーをこぼしてしまった。",
       "audio_alternatives": [
         {
-          "kanji": "宿題を忘れてしまった。",
-          "hiragana_full": "しゅくだいをわすれてしまった。"
+          "kanji": "会議の最中に、コーヒーをこぼしてしまった。",
+          "hiragana_full": "かいぎのさいちゅうに、コーヒーをこぼしてしまった。"
         },
         {
-          "kanji": "宿題を忘れちゃいました。",
-          "hiragana_full": "しゅくだいをわすれちゃいました。"
+          "kanji": "会議の途中で、うっかりコーヒーをこぼした。",
+          "hiragana_full": "かいぎのとちゅうで、うっかりコーヒーをこぼした。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "会議",
+          "reading": "かいぎ",
+          "meaning": "meeting"
+        },
+        {
+          "word": "途中",
+          "reading": "とちゅう",
+          "meaning": "midway"
+        }
+      ]
     },
     {
       "id": "n4_037_2",
-      "example_sentence": "大切な本を無くしてしまった。",
-      "translation": "I ended up losing an important book.",
-      "blank_target": "て",
+      "example_sentence": "レポートを印刷し忘れてしまいました。",
+      "translation": "I forgot to print my report.",
+      "blank_target": "れてしまいました",
       "wrong_choices": [
-        "から",
-        "けど",
-        "ばかり"
+        "れてみました",
+        "れておきました",
+        "れていきました"
       ],
       "wrong_choice_explanations": [
-        "から means 'because/from' — it doesn't fit here because it indicates reason or starting point, not completion with regret.",
-        "けど means 'but/however' — it doesn't fit here because it indicates contrast, not the unfortunate completion of an action.",
-        "ばかり means 'just/only' — it doesn't fit here because it indicates recent completion without the nuance of regret."
+        "れてみました means 'tried forgetting', but forgetting is not something you attempt; the sentence expresses an unintended mistake, which needs 〜てしまう.",
+        "れておきました means 'forgot in advance (on purpose)', but forgetting cannot be done as preparation; the sentence reports an accident with regret.",
+        "れていきました means 'forgot and went' or a gradual change, but this sentence describes a single regrettable lapse, which 〜てしまう conveys."
       ],
-      "hiragana_full": "たいせつなほんをなくしてしまった。",
+      "hiragana_full": "れぽーとをいんさつしわすれてしまいました。",
       "audio_alternatives": [
         {
-          "kanji": "大事な本を失くしてしまった。",
-          "hiragana_full": "だいじなほんをなくしてしまった。"
+          "kanji": "レポートを印刷するのを忘れてしまいました。",
+          "hiragana_full": "れぽーとをいんさつするのをわすれてしまいました。"
         },
         {
-          "kanji": "大切な本をなくしてしまいました。",
-          "hiragana_full": "たいせつなほんをなくしてしまいました。"
+          "kanji": "レポートを印刷し忘れちゃいました。",
+          "hiragana_full": "れぽーとをいんさつしわすれちゃいました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "印刷",
+          "reading": "いんさつ",
+          "meaning": "printing"
+        }
+      ]
     },
     {
       "id": "n4_037_3",
-      "example_sentence": "全部食べてしまいました。",
-      "translation": "I ended up eating everything.",
-      "blank_target": "て",
+      "example_sentence": "まちがえて、大事なメールを消してしまいました。",
+      "translation": "I accidentally deleted an important email.",
+      "blank_target": "してしまいました",
       "wrong_choices": [
-        "みたい",
-        "らしい",
-        "ようだ"
+        "してみました",
+        "しておきました",
+        "してあげました"
       ],
       "wrong_choice_explanations": [
-        "みたい means 'like/seems' — it doesn't fit here because it indicates similarity or appearance, not completion.",
-        "らしい means 'apparently/seems' — it doesn't fit here because it indicates hearsay or likelihood, not actual completion.",
-        "ようだ means 'seems like' — it doesn't fit here because it indicates appearance or conjecture, not definite completion."
+        "〜てみる means 'to try', implying intentional experimentation, but まちがえて shows the deletion was unintended.",
+        "〜ておく means 'to do in advance on purpose', which contradicts まちがえて (by mistake).",
+        "〜てあげる means doing something as a favor for someone, which is deliberate and contradicts まちがえて; an accident with regret needs 〜てしまう."
       ],
-      "hiragana_full": "ぜんぶたべてしまいました。",
+      "hiragana_full": "まちがえて、だいじなめーるをけしてしまいました。",
       "audio_alternatives": [
         {
-          "kanji": "全部食べてしまった。",
-          "hiragana_full": "ぜんぶたべてしまった。"
+          "kanji": "間違えて、大切なメールを消してしまいました。",
+          "hiragana_full": "まちがえて、たいせつなめーるをけしてしまいました。"
         },
         {
-          "kanji": "全部食べちゃいました。",
-          "hiragana_full": "ぜんぶたべちゃいました。"
+          "kanji": "まちがえて、大事なメールを消しちゃいました。",
+          "hiragana_full": "まちがえて、だいじなめーるをけしちゃいました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "大事",
+          "reading": "だいじ",
+          "meaning": "important"
+        },
+        {
+          "word": "消して",
+          "reading": "けして",
+          "meaning": "deleting / erasing"
+        }
+      ]
     },
     {
       "id": "n4_037_4",
+      "example_sentence": "もう今月のお小遣いを全部使ってしまいました。どうしよう。",
+      "translation": "I've already spent all of this month's allowance. What should I do?",
+      "blank_target": "ってしまいました",
+      "wrong_choices": [
+        "ってみました",
+        "っておきました",
+        "ってあげました"
+      ],
+      "wrong_choice_explanations": [
+        "てみる means 'to try doing', but どうしよう shows the speaker regrets the spending, not that they experimented.",
+        "ておく means 'to do in advance' on purpose, but the speaker's worry (どうしよう) shows the spending was not a plan.",
+        "てあげる means doing something as a favor for someone else; spending one's own allowance is not a favor, and どうしよう shows regret, which needs 〜てしまう."
+      ],
+      "hiragana_full": "もうこんげつのおこづかいをぜんぶつかってしまいました。どうしよう。",
+      "audio_alternatives": [
+        {
+          "kanji": "もう今月のお小遣いを全部使い切ってしまいました。どうしよう。",
+          "hiragana_full": "もうこんげつのおこづかいをぜんぶつかいきってしまいました。どうしよう。"
+        },
+        {
+          "kanji": "もう今月のお小遣いを全部使っちゃった。どうしよう。",
+          "hiragana_full": "もうこんげつのおこづかいをぜんぶつかっちゃった。どうしよう。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "お小遣い",
+          "reading": "おこづかい",
+          "meaning": "pocket money / allowance"
+        },
+        {
+          "word": "全部",
+          "reading": "ぜんぶ",
+          "meaning": "all"
+        }
+      ]
+    },
+    {
+      "id": "n4_037_5",
+      "example_sentence": "寝坊して、バスに乗り遅れてしまいました。",
+      "translation": "I overslept and missed the bus.",
+      "blank_target": "れてしまいました",
+      "wrong_choices": [
+        "れてみました",
+        "れておきました",
+        "れてあげました"
+      ],
+      "wrong_choice_explanations": [
+        "れてみました means 'tried missing', but nobody misses a bus as an experiment; the sentence reports an unwanted result, which needs 〜てしまう.",
+        "れておきました means 'missed it in advance on purpose', which makes no sense after oversleeping.",
+        "れてあげました means 'missed it as a favor for someone', which is nonsensical; oversleeping caused an unwanted result, expressed with 〜てしまう."
+      ],
+      "hiragana_full": "ねぼうして、ばすにのりおくれてしまいました。",
+      "audio_alternatives": [
+        {
+          "kanji": "寝坊して、バスに間に合いませんでした。",
+          "hiragana_full": "ねぼうして、ばすにまにあいませんでした。"
+        },
+        {
+          "kanji": "寝坊して、バスに乗り遅れちゃった。",
+          "hiragana_full": "ねぼうして、ばすにのりおくれちゃった。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "寝坊",
+          "reading": "ねぼう",
+          "meaning": "oversleeping"
+        },
+        {
+          "word": "乗り遅れて",
+          "reading": "のりおくれて",
+          "meaning": "missing (a vehicle)"
+        }
+      ]
+    },
+    {
+      "id": "n4_037_6",
       "example_sentence": "電車で寝てしまって、駅を通り過ぎた。",
       "translation": "I ended up falling asleep on the train and passed my station.",
       "blank_target": "て",
@@ -114,10 +230,19 @@
           "hiragana_full": "でんしゃのなかでねむってしまって、えきをのりすごした。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "通り過ぎた",
+          "reading": "とおりすぎた",
+          "meaning": "passed by, went past"
+        }
+      ],
+      "blank_occurrence": 1
     },
     {
-      "id": "n4_037_5",
+      "id": "n4_037_7",
       "example_sentence": "秘密を言ってしまった。",
       "translation": "I ended up telling the secret.",
       "blank_target": "て",
@@ -142,10 +267,18 @@
           "hiragana_full": "ひみつをあかしてしまった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "秘密",
+          "reading": "ひみつ",
+          "meaning": "secret"
+        }
+      ]
     },
     {
-      "id": "n4_037_6",
+      "id": "n4_037_8",
       "example_sentence": "約束の時間に遅れてしまいそうです。",
       "translation": "It looks like I'm going to end up being late for our appointment.",
       "blank_target": "て",
@@ -170,38 +303,18 @@
           "hiragana_full": "まちあわせのじかんにおくれてしまいそうです。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_037_7",
-      "example_sentence": "お金を使い過ぎてしまいました。",
-      "translation": "I ended up spending too much money.",
-      "blank_target": "て",
-      "wrong_choices": [
-        "はず",
-        "つもり",
-        "もの"
-      ],
-      "wrong_choice_explanations": [
-        "はず means 'should be/expected' — it doesn't fit here because it indicates expectation, not actual completion with regret.",
-        "つもり means 'intention/plan' — it doesn't fit here because it indicates intention, not the unintended completion of an action.",
-        "もの means 'thing' or indicates naturalness — it doesn't fit here because it doesn't create the meaning of unfortunate completion."
-      ],
-      "hiragana_full": "おかねをつかいすぎてしまいました。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "お金を使い過ぎてしまった。",
-          "hiragana_full": "おかねをつかいすぎてしまった。"
-        },
-        {
-          "kanji": "お金を使い過ぎました。",
-          "hiragana_full": "おかねをつかいすぎました。"
+          "word": "約束",
+          "reading": "やくそく",
+          "meaning": "appointment, promise"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n4_037_8",
+      "id": "n4_037_9",
       "example_sentence": "怒ってしまって、ごめんなさい。",
       "translation": "I'm sorry for ending up getting angry.",
       "blank_target": "て",
@@ -226,35 +339,9 @@
           "hiragana_full": "おこってしまったこと、ごめんなさい。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_037_9",
-      "example_sentence": "テストの答えを間違えてしまった。",
-      "translation": "I ended up getting the test answer wrong.",
-      "blank_target": "て",
-      "wrong_choices": [
-        "かな",
-        "でしょう",
-        "だろう"
-      ],
-      "wrong_choice_explanations": [
-        "かな means 'I wonder' — it doesn't fit here because it expresses wondering, not the completion of an unfortunate action.",
-        "でしょう means 'probably' (polite) — it doesn't fit here because it indicates probability, not definite completion.",
-        "だろう means 'probably' (casual) — it doesn't fit here because it indicates conjecture, not actual unfortunate completion."
-      ],
-      "hiragana_full": "てすとのこたえをまちがえてしまった。",
-      "audio_alternatives": [
-        {
-          "kanji": "テストの答えを間違えた。",
-          "hiragana_full": "てすとのこたえをまちがえた。"
-        },
-        {
-          "kanji": "テストで答えを間違えてしまった。",
-          "hiragana_full": "てすとでこたえをまちがえてしまった。"
-        }
-      ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "blank_occurrence": 1
     },
     {
       "id": "n4_037_10",
@@ -282,7 +369,21 @@
           "hiragana_full": "かびんをわってしまったので、ははにおこられた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "花瓶",
+          "reading": "かびん",
+          "meaning": "vase"
+        },
+        {
+          "word": "怒られた",
+          "reading": "おこられた",
+          "meaning": "got scolded"
+        }
+      ],
+      "blank_occurrence": 1
     }
   ]
 }

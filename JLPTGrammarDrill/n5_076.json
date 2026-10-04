@@ -31,7 +31,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "さつ"
+      "blank_target_reading": "さつ",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "本",
+          "reading": "ほん",
+          "meaning": "book"
+        },
+        {
+          "word": "借りました",
+          "reading": "かりました",
+          "meaning": "borrowed"
+        }
+      ]
     },
     {
       "id": "n5_076_2",
@@ -60,7 +73,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "さつ"
+      "blank_target_reading": "さつ",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "辞書",
+          "reading": "じしょ",
+          "meaning": "dictionary"
+        },
+        {
+          "word": "持っています",
+          "reading": "もっています",
+          "meaning": "have; own"
+        }
+      ]
     },
     {
       "id": "n5_076_3",
@@ -70,12 +96,12 @@
       "wrong_choices": [
         "つ",
         "枚",
-        "部"
+        "台"
       ],
       "wrong_choice_explanations": [
         "つ is a general counter that doesn't fit here because magazines are bound publications that specifically use 冊.",
         "枚 is for flat thin objects like single sheets of paper, not bound magazines which use 冊.",
-        "部 is for copies of documents or newspapers, but magazines use the counter 冊."
+        "台 counts machines and vehicles — magazines are printed publications, not machines, so 台 cannot count them; bound publications take 冊."
       ],
       "hiragana_full": "ざっしをごさつかいました。",
       "audio_alternatives": [
@@ -89,7 +115,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "さつ"
+      "blank_target_reading": "さつ",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "雑誌",
+          "reading": "ざっし",
+          "meaning": "magazine"
+        },
+        {
+          "word": "買いました",
+          "reading": "かいました",
+          "meaning": "bought"
+        }
+      ]
     },
     {
       "id": "n5_076_4",
@@ -118,7 +157,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "さつ"
+      "blank_target_reading": "さつ",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "ノート",
+          "reading": "のーと",
+          "meaning": "notebook"
+        },
+        {
+          "word": "使いました",
+          "reading": "つかいました",
+          "meaning": "used"
+        }
+      ]
     },
     {
       "id": "n5_076_5",
@@ -147,7 +199,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "さつ"
+      "blank_target_reading": "さつ",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "漫画",
+          "reading": "まんが",
+          "meaning": "manga; comic book"
+        },
+        {
+          "word": "読みました",
+          "reading": "よみました",
+          "meaning": "read"
+        }
+      ]
     },
     {
       "id": "n5_076_6",
@@ -176,7 +241,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "さつ"
+      "blank_target_reading": "さつ",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "教科書",
+          "reading": "きょうかしょ",
+          "meaning": "textbook"
+        }
+      ]
     },
     {
       "id": "n5_076_7",
@@ -205,7 +278,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "さつ"
+      "blank_target_reading": "さつ",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "小説",
+          "reading": "しょうせつ",
+          "meaning": "novel"
+        },
+        {
+          "word": "プレゼントしました",
+          "reading": "ぷれぜんとしました",
+          "meaning": "gave as a present"
+        }
+      ]
     },
     {
       "id": "n5_076_8",
@@ -234,7 +320,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "さつ"
+      "blank_target_reading": "さつ",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "図鑑",
+          "reading": "ずかん",
+          "meaning": "illustrated reference book"
+        },
+        {
+          "word": "注文しました",
+          "reading": "ちゅうもんしました",
+          "meaning": "ordered"
+        }
+      ]
     },
     {
       "id": "n5_076_9",
@@ -263,7 +362,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "さつ"
+      "blank_target_reading": "さつ",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "料理本",
+          "reading": "りょうりほん",
+          "meaning": "cookbook"
+        },
+        {
+          "word": "もらいました",
+          "reading": "もらいました",
+          "meaning": "received"
+        }
+      ]
     },
     {
       "id": "n5_076_10",
@@ -292,7 +404,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "さつ"
+      "blank_target_reading": "さつ",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "手帳",
+          "reading": "てちょう",
+          "meaning": "planner; pocket notebook"
+        },
+        {
+          "word": "落としました",
+          "reading": "おとしました",
+          "meaning": "dropped"
+        }
+      ]
     }
   ]
 }

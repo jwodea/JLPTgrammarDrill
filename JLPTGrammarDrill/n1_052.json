@@ -12,12 +12,12 @@
       "wrong_choices": [
         "しか",
         "だけ",
-        "も"
+        "こそ"
       ],
       "wrong_choice_explanations": [
         "しか pairs with the negative 書けない to mean 'only' ('he could write nothing but his name'), the opposite of すら, which says he couldn't manage even that.",
         "だけ means 'only' and singles the name out, rather than scaling to 'not even his name' the way すら does.",
-        "も means 'also/too,' merely adding the name to a list; it lacks the surprised 'even this most basic thing' emphasis of すら."
+        "こそ singles something out as 'precisely this one' (名前こそ = 'it is his own name, of all things, that…'); it doesn't express 'even'. すら marks his own name as the extreme case: even his own name."
       ],
       "hiragana_full": "かれはじぶんのなまえすらかけないほどじゅうしょうだった。",
       "audio_alternatives": [
@@ -30,7 +30,15 @@
           "hiragana_full": "かれはじゅうしょうで、じぶんのなまえすらかくことができなかった"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "重傷",
+          "reading": "じゅうしょう",
+          "meaning": "serious injury"
+        }
+      ]
     },
     {
       "id": "n1_052_2",
@@ -40,12 +48,12 @@
       "wrong_choices": [
         "だけ",
         "しか",
-        "まで"
+        "こそ"
       ],
       "wrong_choice_explanations": [
         "だけ means 'only' and would say merely the experts (and no one else) failed, not the 'even the experts' surprise that すら conveys.",
         "しか with a negative means 'only' ('only the experts could solve it'), reversing the meaning; すら instead stresses that even they could not.",
-        "まで marks reach 'up to / as far as,' an extent nuance, not the 'even the experts (couldn't)' surprise that すら expresses."
+        "こそ singles something out as 'precisely this one' (専門家こそ = 'it is experts, of all things, that…'); it doesn't express 'even'. すら marks experts as the extreme case: even experts."
       ],
       "hiragana_full": "せんもんかすらそのもんだいのかいけつさくをみつけることができなかった。",
       "audio_alternatives": [
@@ -58,7 +66,20 @@
           "hiragana_full": "せんもんかですらそのもんだいのかいけつさくをみつけることができなかった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "専門家",
+          "reading": "せんもんか",
+          "meaning": "expert"
+        },
+        {
+          "word": "解決策",
+          "reading": "かいけつさく",
+          "meaning": "solution"
+        }
+      ]
     },
     {
       "id": "n1_052_3",
@@ -67,13 +88,13 @@
       "blank_target": "すら",
       "wrong_choices": [
         "だけ",
-        "まで",
-        "も"
+        "ばかり",
+        "こそ"
       ],
       "wrong_choice_explanations": [
         "だけ means 'only' — 'executed only his relatives' — limiting the victims, not the shocking 'even his own relatives' escalation of すら.",
-        "まで means 'even (going so far as),' close in feel but emphasizing how far the cruelty reached rather than the surprise that すら places on relatives being included.",
-        "も means 'also/too' and simply adds relatives to those executed, without the emphatic surprise that すら carries."
+        "ばかり means 'nothing but / only' (親族ばかり = 'only his own relatives'), which changes what the sentence says. すら means 'even his own relatives'.",
+        "こそ singles something out as 'precisely this one' (親族こそ = 'it is his own relatives, of all things, that…'); it doesn't express 'even'. すら marks his own relatives as the extreme case: even his own relatives."
       ],
       "hiragana_full": "そのぼうくんはしんぞくすらようしゃなくしょけいした。",
       "audio_alternatives": [
@@ -86,7 +107,30 @@
           "hiragana_full": "そのぼうくんはにくしんすらなけようしゃなくしょけいした"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "暴君",
+          "reading": "ぼうくん",
+          "meaning": "tyrant"
+        },
+        {
+          "word": "親族",
+          "reading": "しんぞく",
+          "meaning": "relatives"
+        },
+        {
+          "word": "容赦なく",
+          "reading": "ようしゃなく",
+          "meaning": "mercilessly"
+        },
+        {
+          "word": "処刑",
+          "reading": "しょけい",
+          "meaning": "execution"
+        }
+      ]
     },
     {
       "id": "n1_052_4",
@@ -114,7 +158,20 @@
           "hiragana_full": "かのじょはなにもいわないままたちさった"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "発する",
+          "reading": "はっする",
+          "meaning": "to utter"
+        },
+        {
+          "word": "立ち去った",
+          "reading": "たちさった",
+          "meaning": "left; walked away"
+        }
+      ]
     },
     {
       "id": "n1_052_5",
@@ -123,13 +180,13 @@
       "blank_target": "すら",
       "wrong_choices": [
         "しか",
-        "まで",
-        "も"
+        "だけ",
+        "こそ"
       ],
       "wrong_choice_explanations": [
         "しか with the negative 知らない means 'only' ('only the family knew'), the opposite of すら, which stresses that not even the family knew.",
-        "まで marks extent 'up to / as far as' and does not convey the surprising 'even the family didn't know' emphasis of すら.",
-        "も means 'also/too' and merely adds family to those unaware, lacking すら's emphatic surprise."
+        "だけ means 'only': 家族だけ知らない = 'only the family doesn't know', a different statement. すら means not even the family knows.",
+        "こそ singles something out as 'precisely this one' (家族こそ = 'it is the family, of all things, that…'); it doesn't express 'even'. すら marks the family as the extreme case: even the family."
       ],
       "hiragana_full": "そのひみつはかぞくすらしらないごくひじこうだった。",
       "audio_alternatives": [
@@ -142,7 +199,20 @@
           "hiragana_full": "そのひみつはかぞくにもしられていないごくひじこうだった"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "極秘",
+          "reading": "ごくひ",
+          "meaning": "top secret"
+        },
+        {
+          "word": "事項",
+          "reading": "じこう",
+          "meaning": "matter; item"
+        }
+      ]
     },
     {
       "id": "n1_052_6",
@@ -152,21 +222,48 @@
       "wrong_choices": [
         "しか",
         "だけ",
-        "まで"
+        "こそ"
       ],
       "wrong_choice_explanations": [
         "しか with the negative means 'only' ('only allied nations support it'), reversing the sense; すら stresses that not even allies support it.",
         "だけ means 'only' and would limit the supporters, not deliver the 'even allied nations (don't)' surprise that すら conveys.",
-        "まで marks reach 'as far as / up to,' an extent nuance rather than the surprising 'even allies' emphasis of すら."
+        "こそ singles something out as 'precisely this one' (同盟国こそ = 'it is allies, of all things, that…'); it doesn't express 'even'. すら marks allies as the extreme case: even allies."
       ],
       "hiragana_full": "どうめいこくすらしじしていないせいさくを、どくだんでおしすすめるのはけんめいではない。",
       "audio_alternatives": [
         {
           "kanji": "同盟国すら支持しない政策を独断で推し進めることは賢明ではない。",
           "hiragana_full": "どうめいこくすらしじしないせいさくをどくだんでおしすすめることはけんめいではない。"
+        },
+        {
+          "kanji": "同盟国でさえ支持していない政策を、独断で進めるのは賢明ではない。",
+          "hiragana_full": "どうめいこくでさえしじしていないせいさくを、どくだんですすめるのはけんめいではない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "同盟国",
+          "reading": "どうめいこく",
+          "meaning": "allied nation"
+        },
+        {
+          "word": "独断",
+          "reading": "どくだん",
+          "meaning": "arbitrary decision"
+        },
+        {
+          "word": "推し進める",
+          "reading": "おしすすめる",
+          "meaning": "to push forward"
+        },
+        {
+          "word": "賢明",
+          "reading": "けんめい",
+          "meaning": "wise; prudent"
+        }
+      ]
     },
     {
       "id": "n1_052_7",
@@ -175,13 +272,13 @@
       "blank_target": "すら",
       "wrong_choices": [
         "だけ",
-        "まで",
-        "も"
+        "ばかり",
+        "こそ"
       ],
       "wrong_choice_explanations": [
         "だけ means 'only' — 'only advanced nations struggle' — which contradicts the point; すら stresses that even advanced nations struggle.",
-        "まで means 'even (going so far as),' similar but emphasizing the reach of the difficulty rather than the surprise that すら places on advanced nations.",
-        "も means 'also/too' and just adds advanced nations to those struggling, without すら's emphatic 'even.'"
+        "ばかり means 'nothing but / only' (先進国ばかり = 'only developed countries'), which changes what the sentence says. すら means 'even developed countries'.",
+        "こそ singles something out as 'precisely this one' (先進国こそ = 'it is developed countries, of all things, that…'); it doesn't express 'even'. すら marks developed countries as the extreme case: even developed countries."
       ],
       "hiragana_full": "せんしんこくすらかんきょうきじゅんのたっせいにくろうしており、はってんとじょうこくのかだいはいっそうおおきい。",
       "audio_alternatives": [
@@ -194,35 +291,71 @@
           "hiragana_full": "せんしんこくですらかんきょうきじゅんをたっせいするのにくろうしており、はってんとじょうこくがかかえるかだいはいっそうおおきなものとなっている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "先進国",
+          "reading": "せんしんこく",
+          "meaning": "developed nation"
+        },
+        {
+          "word": "達成",
+          "reading": "たっせい",
+          "meaning": "achievement"
+        },
+        {
+          "word": "発展途上国",
+          "reading": "はってんとじょうこく",
+          "meaning": "developing country"
+        }
+      ]
     },
     {
       "id": "n1_052_8",
-      "example_sentence": "その大儒学者すら認めざるを得なかった、その著作の価値は普遍的である。",
-      "translation": "Even that great Confucian scholar had to acknowledge it; the value of that work is universal.",
+      "example_sentence": "あの大儒学者すら認めざるを得なかったほど、その著作の価値は普遍的である。",
+      "translation": "The value of that work is so universal that even that great Confucian scholar had to acknowledge it.",
       "blank_target": "すら",
       "wrong_choices": [
         "しか",
         "だけ",
-        "も"
+        "こそ"
       ],
       "wrong_choice_explanations": [
         "しか with the negative ざるを得なかった yields 'only the great scholar had to acknowledge it,' limiting who conceded, not the 'even such a scholar' force of すら.",
         "だけ means 'only' and would single out the scholar, not convey the surprise that even he had to acknowledge it, which すら expresses.",
-        "も means 'also/too,' merely adding the scholar to those who agreed, lacking the emphatic 'even' of すら."
+        "こそ singles something out as 'precisely this one' (大儒学者こそ = 'it is the great Confucian scholar, of all things, that…'); it doesn't express 'even'. すら marks the great Confucian scholar as the extreme case: even the great Confucian scholar."
       ],
-      "hiragana_full": "そのだいじゅがくしゃすらみとめざるをえなかった、そのちょさくのかちはふへんてきである。",
+      "hiragana_full": "あのだいじゅがくしゃすらみとめざるをえなかったほど、そのちょさくのかちはふへんてきである。",
       "audio_alternatives": [
         {
-          "kanji": "あの大儒学者でさえ認めざるを得なかった、その著作の価値は普遍的だ。",
-          "hiragana_full": "あのだいじゅがくしゃでさえみとめざるをえなかった、そのちょさくのかちはふへんてきだ。"
+          "kanji": "あの大儒学者でさえ認めざるを得なかったほど、その著作の価値は普遍的だ。",
+          "hiragana_full": "あのだいじゅがくしゃでさえみとめざるをえなかったほど、そのちょさくのかちはふへんてきだ。"
         },
         {
           "kanji": "その大儒学者でさえも認めざるを得なかったほど、その著作の価値は普遍的である。",
           "hiragana_full": "そのだいじゅがくしゃでさえもみとめざるをえなかったほど、そのちょさくのかちはふへんてきである。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "大儒学者",
+          "reading": "だいじゅがくしゃ",
+          "meaning": "great Confucian scholar"
+        },
+        {
+          "word": "著作",
+          "reading": "ちょさく",
+          "meaning": "literary work"
+        },
+        {
+          "word": "普遍的",
+          "reading": "ふへんてき",
+          "meaning": "universal"
+        }
+      ]
     },
     {
       "id": "n1_052_9",
@@ -232,12 +365,12 @@
       "wrong_choices": [
         "しか",
         "のみ",
-        "も"
+        "ばかり"
       ],
       "wrong_choice_explanations": [
         "しか with the negative 理解していない means 'only' ('only management understands it'), the reverse of すら, which stresses that not even management understands it.",
         "のみ is a formal 'only,' limiting rather than scaling; it cannot deliver the surprising 'even management doesn't understand' that すら conveys.",
-        "も means 'also/too' and just adds management to those who don't understand, without すら's emphatic surprise."
+        "ばかり means 'nothing but / only' (経営陣ばかり = 'only management'), which changes what the sentence says. すら means 'even management'."
       ],
       "hiragana_full": "けいえいじんすらりかいしていないふくざつなざいむこうぞうをゆうしている。",
       "audio_alternatives": [
@@ -250,7 +383,25 @@
           "hiragana_full": "けいえいじんすらはあくしていないふくざつなざいむこうぞうをゆうする。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "経営陣",
+          "reading": "けいえいじん",
+          "meaning": "management; executives"
+        },
+        {
+          "word": "財務",
+          "reading": "ざいむ",
+          "meaning": "financial affairs"
+        },
+        {
+          "word": "有している",
+          "reading": "ゆうしている",
+          "meaning": "to possess"
+        }
+      ]
     },
     {
       "id": "n1_052_10",
@@ -258,14 +409,14 @@
       "translation": "The current situation is such that even medical workers feel anxious about the risk of infection.",
       "blank_target": "すら",
       "wrong_choices": [
-        "まで",
+        "しか",
         "だけ",
-        "も"
+        "ばかり"
       ],
       "wrong_choice_explanations": [
-        "まで means 'even (as far as),' close in feel but stressing how far the anxiety has reached rather than the surprise that すら places on medical workers.",
+        "しか must be followed by a negative verb, so 医療従事者しか…感じている is ungrammatical. すら means 'even healthcare workers'.",
         "だけ means 'only' — 'only medical workers feel anxious' — which narrows the scope instead of the 'even medical workers' emphasis of すら.",
-        "も means 'also/too,' simply adding medical workers to the anxious, lacking すら's emphatic 'even.'"
+        "ばかり means 'nothing but / only' (医療従事者ばかり = 'only healthcare workers'), which changes what the sentence says. すら means 'even healthcare workers'."
       ],
       "hiragana_full": "いりょうじゅうじしゃすらかんせんのきけんせいにふあんをかんじているげんじょうだ。",
       "audio_alternatives": [
@@ -278,7 +429,25 @@
           "hiragana_full": "いりょうじゅうじしゃまでもがかんせんのきけんせいにふあんをおぼえているのがげんじょうである。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "感染",
+          "reading": "かんせん",
+          "meaning": "infection"
+        },
+        {
+          "word": "危険性",
+          "reading": "きけんせい",
+          "meaning": "riskiness; danger"
+        },
+        {
+          "word": "現状",
+          "reading": "げんじょう",
+          "meaning": "present situation"
+        }
+      ]
     }
   ]
 }

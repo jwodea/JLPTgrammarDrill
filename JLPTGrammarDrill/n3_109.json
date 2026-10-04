@@ -11,12 +11,12 @@
       "blank_target": "で有名",
       "wrong_choices": [
         "として有名",
-        "が有名",
+        "より有名",
         "で人気"
       ],
       "wrong_choice_explanations": [
         "「として有名」は「〜という立場・資格で有名」の意味。京都自体が寺なのではなく、寺があることで名高いので「で有名」が正しい。",
-        "「が有名」は「お寺が有名」と主語を変えてしまい、「京都は〜で有名だ」と京都が何で名高いかを述べる形にならない。",
+        "「より」is the comparison particle 'than', so 「古いお寺より有名」reads 'more famous than old temples' — an odd comparison of Kyoto against its own temples. The sentence needs 「で有名」to state what Kyoto is famous for.",
         "「で人気」は「人気がある」という評価で、広く知られている「有名」とは意味がずれ、ここでは「で有名」がふさわしい。"
       ],
       "hiragana_full": "きょうとはふるいおてらでゆうめいだ。",
@@ -31,7 +31,8 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "でゆうめい"
+      "blank_target_reading": "でゆうめい",
+      "register": "neutral"
     },
     {
       "id": "n3_109_2",
@@ -40,12 +41,12 @@
       "blank_target": "で有名",
       "wrong_choices": [
         "として有名",
-        "が有名",
+        "より有名",
         "で評判"
       ],
       "wrong_choice_explanations": [
         "「として有名」は「温泉という立場で有名」となって不自然で、町が温泉で名高いという意味にはならない。",
-        "「が有名」は「温泉が有名」と主語を温泉に変え、「この町は〜で有名」という文の構造を崩す。",
+        "「より」means 'than', giving 「温泉より有名」= 'more famous than hot springs', which compares the town to hot springs instead of naming what it is famous for. 「で有名」is required.",
         "「で評判」は「評判だ（うわさになっている）」という意味で、広く知られている「有名」とは語が異なる。"
       ],
       "hiragana_full": "このまちはおんせんでゆうめいです。",
@@ -60,7 +61,8 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "でゆうめい"
+      "blank_target_reading": "でゆうめい",
+      "register": "neutral"
     },
     {
       "id": "n3_109_3",
@@ -69,12 +71,12 @@
       "blank_target": "で有名",
       "wrong_choices": [
         "として有名",
-        "が有名",
+        "より有名",
         "でおなじみ"
       ],
       "wrong_choice_explanations": [
         "「として有名」は「親切なことという立場で有名」となり、理由を示す「で有名」とは形が合わない。",
-        "「が有名」は「親切なことが有名」と主語を変え、彼が何で名高いかを述べる文にならない。",
+        "「より」marks comparison, so 「親切なことより有名」= 'more famous than being kind' — a meaningless comparison. To say he is famous FOR his kindness, use 「で有名」.",
         "「でおなじみ」は「よく知られて親しまれている」という意味で、ここで言いたい「広く名高い」とはニュアンスが異なる。"
       ],
       "hiragana_full": "かれはしんせつなことでゆうめいだ。",
@@ -89,7 +91,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "でゆうめい"
+      "blank_target_reading": "でゆうめい",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "親切",
+          "reading": "しんせつ",
+          "meaning": "kind; kindness"
+        }
+      ]
     },
     {
       "id": "n3_109_4",
@@ -98,12 +108,12 @@
       "blank_target": "で有名",
       "wrong_choices": [
         "として有名",
-        "が有名",
+        "より有名",
         "で人気"
       ],
       "wrong_choice_explanations": [
         "「として有名」は「〜という立場で有名」を表し、大学がレベルの高さで名高いという意味にはならない。",
-        "「が有名」は「レベルの高さが有名」と主語をずらし、「大学は〜で有名」という言い方を崩す。",
+        "「より」= 'than', so 「レベルの高さより有名」means 'more famous than the high level', comparing the university to the attribute rather than citing it as the reason. 「で有名」is needed.",
         "「で人気」は「人気がある」と好まれている度合いを表し、広く名が知られる「有名」とは意味が異なる。"
       ],
       "hiragana_full": "あのだいがくはけんきゅうのれべるのたかさでゆうめいだ。",
@@ -118,7 +128,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "でゆうめい"
+      "blank_target_reading": "でゆうめい",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "研究",
+          "reading": "けんきゅう",
+          "meaning": "research"
+        }
+      ]
     },
     {
       "id": "n3_109_5",
@@ -127,12 +145,12 @@
       "blank_target": "で有名",
       "wrong_choices": [
         "として有名",
-        "が有名",
+        "より有名",
         "で評判"
       ],
       "wrong_choice_explanations": [
         "「として有名」は「新鮮な魚という立場で有名」となり、店が魚で名高いという意味は表せない。",
-        "「が有名」は「魚が有名」と主語を魚にしてしまい、店について述べる「で有名」の形にならない。",
+        "「より」is 'than'; 「新鮮な魚より有名」= 'more famous than fresh fish' compares the restaurant to fish. The reason-marking 「で有名」is correct here.",
         "「で評判」は「評判だ」とうわさ・世評を表し、広く知られている「有名」とは語が異なる。"
       ],
       "hiragana_full": "このれすとらんはしんせんなさかなでゆうめいです。",
@@ -147,7 +165,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "でゆうめい"
+      "blank_target_reading": "でゆうめい",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "新鮮",
+          "reading": "しんせん",
+          "meaning": "fresh"
+        }
+      ]
     },
     {
       "id": "n3_109_6",
@@ -156,12 +182,12 @@
       "blank_target": "で有名",
       "wrong_choices": [
         "として有名",
-        "が有名",
+        "より有名",
         "でおなじみ"
       ],
       "wrong_choice_explanations": [
         "「として有名」は「雪まつりという立場で有名」となり、北海道が祭りで名高いという意味にはならない。",
-        "「が有名」は「雪まつりが有名」と主語を変え、「北海道は〜で有名」という構造を崩す。",
+        "「より」means 'than', so 「雪まつりより有名」= 'more famous than the snow festival' — a nonsensical comparison. Use 「で有名」to name what Hokkaido is famous for.",
         "「でおなじみ」は「親しまれてよく知られる」という意味で、ここで言いたい「広く名高い」とはニュアンスが違う。"
       ],
       "hiragana_full": "ほっかいどうはゆきまつりでゆうめいだ。",
@@ -176,7 +202,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "でゆうめい"
+      "blank_target_reading": "でゆうめい",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "雪まつり",
+          "reading": "ゆきまつり",
+          "meaning": "snow festival"
+        }
+      ]
     },
     {
       "id": "n3_109_7",
@@ -185,12 +219,12 @@
       "blank_target": "で有名",
       "wrong_choices": [
         "として有名",
-        "が有名",
+        "より有名",
         "で人気"
       ],
       "wrong_choice_explanations": [
         "「として有名」は「美しい歌声という立場で有名」となり、歌声で名高いという理由の意味にはならない。",
-        "「が有名」は「歌声が有名」と主語をずらし、「彼女は〜で有名な歌手だ」という形を崩す。",
+        "「より」= 'than', giving 「美しい歌声より有名な歌手」= 'a singer more famous than a beautiful voice', which compares her to the voice. 「で有名」is required.",
         "「で人気」は「人気の歌手」と好まれている意味で、広く知られる「有名」とは意味がずれる。"
       ],
       "hiragana_full": "かのじょはうつくしいうたごえでゆうめいなかしゅだ。",
@@ -205,7 +239,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "でゆうめい"
+      "blank_target_reading": "でゆうめい",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "歌声",
+          "reading": "うたごえ",
+          "meaning": "singing voice"
+        },
+        {
+          "word": "歌手",
+          "reading": "かしゅ",
+          "meaning": "singer"
+        }
+      ]
     },
     {
       "id": "n3_109_8",
@@ -214,12 +261,12 @@
       "blank_target": "で有名",
       "wrong_choices": [
         "として有名",
-        "が有名",
+        "より有名",
         "で評判"
       ],
       "wrong_choice_explanations": [
         "「として有名」は「お茶という立場で有名」となり、地方がお茶で名高いという意味にはならない。",
-        "「が有名」は「お茶が有名」と主語をお茶に変え、「この地方は〜で有名」という形を崩す。",
+        "「より」marks comparison, so 「質のいいお茶より有名」= 'more famous than high-quality tea' rather than famous for it. 「で有名」is correct.",
         "「で評判」は「評判だ」と世間のうわさを表し、広く知られている「有名」とは語が異なる。"
       ],
       "hiragana_full": "このちほうはしつのいいおちゃでゆうめいだ。",
@@ -234,7 +281,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "でゆうめい"
+      "blank_target_reading": "でゆうめい",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "地方",
+          "reading": "ちほう",
+          "meaning": "region; locality"
+        },
+        {
+          "word": "質",
+          "reading": "しつ",
+          "meaning": "quality"
+        }
+      ]
     },
     {
       "id": "n3_109_9",
@@ -243,12 +303,12 @@
       "blank_target": "で有名",
       "wrong_choices": [
         "として有名",
-        "が有名",
+        "より有名",
         "でおなじみ"
       ],
       "wrong_choice_explanations": [
         "「として有名」は「〜という立場で有名」を表し、社員を大切にすることで名高いという理由の意味にはならない。",
-        "「が有名」は「社員を大切にすることが有名」と主語をずらし、「その会社は〜で有名」という形を崩す。",
+        "「より」= 'than', so 「社員を大切にすることより有名」= 'more famous than valuing employees' — a meaningless comparison. To give the reason, use 「で有名」.",
         "「でおなじみ」は「親しまれてよく知られる」という意味で、ここで言いたい「広く名高い」とはニュアンスが違う。"
       ],
       "hiragana_full": "そのかいしゃはしゃいんをたいせつにすることでゆうめいだ。",
@@ -263,7 +323,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "でゆうめい"
+      "blank_target_reading": "でゆうめい",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "社員",
+          "reading": "しゃいん",
+          "meaning": "employee(s)"
+        }
+      ]
     },
     {
       "id": "n3_109_10",
@@ -272,12 +340,12 @@
       "blank_target": "で有名",
       "wrong_choices": [
         "として有名",
-        "が有名",
+        "より有名",
         "で人気"
       ],
       "wrong_choice_explanations": [
         "「として有名」は「美しい姿という立場で有名」となり、姿で名高いという理由の意味にはならない。",
-        "「が有名」は「姿が有名」と主語をずらし、「富士山は〜で有名」という言い方を崩す。",
+        "「より」means 'than'; 「美しい姿より有名」= 'more famous than its beautiful form' compares Fuji to its own form. The reason-marking 「で有名」is needed.",
         "「で人気」は「人気がある」と好まれている意味で、広く名が知られる「有名」とは意味がずれる。"
       ],
       "hiragana_full": "ふじさんはうつくしいすがたでゆうめいです。",
@@ -292,7 +360,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "でゆうめい"
+      "blank_target_reading": "でゆうめい",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "姿",
+          "reading": "すがた",
+          "meaning": "figure; appearance"
+        },
+        {
+          "word": "美しい",
+          "reading": "うつくしい",
+          "meaning": "beautiful"
+        }
+      ]
     }
   ]
 }

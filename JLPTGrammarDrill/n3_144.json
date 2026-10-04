@@ -1,0 +1,253 @@
+{
+  "id": "n3_144",
+  "pattern": "結局",
+  "meaning": "in the end; after all; ultimately",
+  "level": "N3",
+  "exercises": [
+    {
+      "id": "n3_144_1",
+      "example_sentence": "さんざん迷ったが、結局同じ物を買ってしまった。",
+      "translation": "After agonizing over it forever, in the end I bought the same thing anyway.",
+      "blank_target": "結局",
+      "wrong_choices": ["やっと", "わざと", "まさか"],
+      "wrong_choice_explanations": [
+        "やっと means 'finally' in the sense of relief at attaining something long-awaited; it clashes with 〜てしまった, which expresses regret — the speaker is not relieved to have bought the same thing again.",
+        "わざと means 'on purpose, deliberately'; さんざん迷った shows the speaker did not intend this outcome, so a deliberateness adverb contradicts the sentence.",
+        "まさか expresses disbelief and needs a conjectural or exclamatory ending (まさか〜とは); it cannot simply modify the plain past 買ってしまった."
+      ],
+      "hiragana_full": "さんざんまよったが、けっきょくおなじものをかってしまった。",
+      "audio_alternatives": [
+        { "kanji": "いろいろ迷った末に、いつもと同じ物を買った。", "hiragana_full": "いろいろまよったすえに、いつもとおなじものをかった。" },
+        { "kanji": "結局、いつもと同じのを買っちゃったよ。", "hiragana_full": "けっきょく、いつもとおなじのをかっちゃったよ。" }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        { "word": "さんざん", "reading": "さんざん", "meaning": "thoroughly, a great deal" },
+        { "word": "迷う", "reading": "まよう", "meaning": "to waver, to be unable to decide" }
+      ],
+      "blank_target_reading": "けっきょく"
+    },
+    {
+      "id": "n3_144_2",
+      "example_sentence": "会議は3時間も続いたが、結局何も決まらなかった。",
+      "translation": "The meeting went on for a full three hours, but in the end nothing was decided.",
+      "blank_target": "結局",
+      "wrong_choices": ["やっと", "せっかく", "必ずしも"],
+      "wrong_choice_explanations": [
+        "やっと expresses relief at finally attaining something desired (やっと決まった); it cannot modify the negative outcome 何も決まらなかった.",
+        "せっかく marks an effort or opportunity that deserves to be used well and modifies that effort itself (せっかく集まったのに); placed directly before 何も決まらなかった it makes no sense.",
+        "必ずしも means 'not necessarily' and pairs with partial negation like 〜とは限らない; it cannot stack with the total negation 何も〜なかった."
+      ],
+      "hiragana_full": "かいぎはさんじかんもつづいたが、けっきょくなにもきまらなかった。",
+      "audio_alternatives": [
+        { "kanji": "3時間話し合ったのに、結局結論は出なかった。", "hiragana_full": "さんじかんはなしあったのに、けっきょくけつろんはでなかった。" },
+        { "kanji": "長い会議だったけど、何も決まらなかったんだ。", "hiragana_full": "ながいかいぎだったけど、なにもきまらなかったんだ。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "会議", "reading": "かいぎ", "meaning": "meeting" },
+        { "word": "続く", "reading": "つづく", "meaning": "to continue" },
+        { "word": "決まる", "reading": "きまる", "meaning": "to be decided" }
+      ],
+      "blank_target_reading": "けっきょく"
+    },
+    {
+      "id": "n3_144_3",
+      "example_sentence": "ダイエットを始めても、結局いつも三日坊主で終わる。",
+      "translation": "Even when I start a diet, I always end up quitting after a few days.",
+      "blank_target": "結局",
+      "wrong_choices": ["たまたま", "やっと", "いよいよ"],
+      "wrong_choice_explanations": [
+        "たまたま means 'by chance, happen to'; it contradicts いつも, which says this is the regular, predictable outcome, not a coincidence.",
+        "やっと expresses relief at finally achieving something hoped for; ending as a 三日坊主 is a failure, so a relief adverb doesn't fit.",
+        "いよいよ means 'at last, finally (something anticipated is about to happen)' and points to an imminent event (いよいよ明日出発だ); it cannot describe how attempts habitually turn out."
+      ],
+      "hiragana_full": "だいえっとをはじめても、けっきょくいつもみっかぼうずでおわる。",
+      "audio_alternatives": [
+        { "kanji": "ダイエットしても、結局長続きしないんだよね。", "hiragana_full": "だいえっとしても、けっきょくながつづきしないんだよね。" },
+        { "kanji": "何度ダイエットを始めても、すぐにやめてしまう。", "hiragana_full": "なんどだいえっとをはじめても、すぐにやめてしまう。" }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        { "word": "三日坊主", "reading": "みっかぼうず", "meaning": "person who gives up after a few days" },
+        { "word": "終わる", "reading": "おわる", "meaning": "to end (up)" }
+      ],
+      "blank_target_reading": "けっきょく"
+    },
+    {
+      "id": "n3_144_4",
+      "example_sentence": "いろいろな店を見て回ったが、結局最初の店で買った。",
+      "translation": "I browsed around a bunch of shops, but in the end I bought it at the first one.",
+      "blank_target": "結局",
+      "wrong_choices": ["むしろ", "かえって", "わざわざ"],
+      "wrong_choice_explanations": [
+        "むしろ means 'rather' and corrects a comparison between two stated alternatives (AというよりむしろB); here no alternative is being weighed against another in the second clause — it simply reports the final outcome.",
+        "かえって means 'contrary to expectation, with the opposite (usually worse) effect' (急いだらかえって遅くなった); buying at the first shop is not a backfired result of looking around, just the eventual conclusion.",
+        "わざわざ means 'going out of one's way (to do something unnecessary)'; returning to the first, already-visited shop involves no special extra trouble, so わざわざ contradicts the situation."
+      ],
+      "hiragana_full": "いろいろなみせをみてまわったが、けっきょくさいしょのみせでかった。",
+      "audio_alternatives": [
+        { "kanji": "あちこち見たけど、結局最初の店のが一番よかった。", "hiragana_full": "あちこちみたけど、けっきょくさいしょのみせのがいちばんよかった。" },
+        { "kanji": "さんざん見比べて、結局元の店に戻って買ったんだ。", "hiragana_full": "さんざんみくらべて、けっきょくもとのみせにもどってかったんだ。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "見て回る", "reading": "みてまわる", "meaning": "to browse around" },
+        { "word": "最初", "reading": "さいしょ", "meaning": "first, the beginning" }
+      ],
+      "blank_target_reading": "けっきょく"
+    },
+    {
+      "id": "n3_144_5",
+      "example_sentence": "兄に相談してみたが、結局自分で決めるしかなかった。",
+      "translation": "I tried asking my brother for advice, but in the end I just had to decide for myself.",
+      "blank_target": "結局",
+      "wrong_choices": ["せっかく", "たまたま", "かえって"],
+      "wrong_choice_explanations": [
+        "せっかく attaches to the valuable effort or opportunity itself (せっかく相談したのに); placed before 自分で決めるしかなかった it modifies the wrong clause and makes no sense.",
+        "たまたま means 'by coincidence'; being left to decide for yourself after asking is the eventual outcome of the situation, not a chance event.",
+        "かえって marks an outcome that is the opposite of what the action aimed at, typically a worsening (相談したらかえって迷ってしまった); simply ending up deciding alone is not a backfired, intensified opposite — 結局 neutrally reports the final result."
+      ],
+      "hiragana_full": "あににそうだんしてみたが、けっきょくじぶんできめるしかなかった。",
+      "audio_alternatives": [
+        { "kanji": "兄に聞いてみたけど、結局は自分で決めることになった。", "hiragana_full": "あににきいてみたけど、けっきょくはじぶんできめることになった。" },
+        { "kanji": "相談はしたものの、最後は自分で決めた。", "hiragana_full": "そうだんはしたものの、さいごはじぶんできめた。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "相談", "reading": "そうだん", "meaning": "consultation, asking for advice" },
+        { "word": "決める", "reading": "きめる", "meaning": "to decide" }
+      ],
+      "blank_target_reading": "けっきょく"
+    },
+    {
+      "id": "n3_144_6",
+      "example_sentence": "長年の交渉の末、両国は結局合意に至らなかった。",
+      "translation": "After years of negotiations, the two countries ultimately failed to reach an agreement.",
+      "blank_target": "結局",
+      "wrong_choices": ["やっと", "必ずしも", "いよいよ"],
+      "wrong_choice_explanations": [
+        "やっと expresses relief at finally attaining a hoped-for result and requires an affirmative attainment (やっと合意に至った); it cannot modify the negative 至らなかった.",
+        "必ずしも means 'not necessarily' and pairs with partial negation (必ずしも〜とは限らない); saying the countries 'did not necessarily reach agreement' contradicts the sentence's report of a definite failure.",
+        "いよいよ means 'at last (an anticipated event is here/imminent)' (いよいよ調印式だ); it announces an arriving event and cannot frame a final non-result."
+      ],
+      "hiragana_full": "ながねんのこうしょうのすえ、りょうこくはけっきょくごういにいたらなかった。",
+      "audio_alternatives": [
+        { "kanji": "何年も交渉を重ねたが、両国の合意は実現しなかった。", "hiragana_full": "なんねんもこうしょうをかさねたが、りょうこくのごういはじつげんしなかった。" },
+        { "kanji": "交渉は長く続いたものの、結局まとまらなかった。", "hiragana_full": "こうしょうはながくつづいたものの、けっきょくまとまらなかった。" }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        { "word": "交渉", "reading": "こうしょう", "meaning": "negotiations" },
+        { "word": "合意", "reading": "ごうい", "meaning": "agreement, consensus" },
+        { "word": "至る", "reading": "いたる", "meaning": "to reach, to arrive at" }
+      ],
+      "blank_target_reading": "けっきょく"
+    },
+    {
+      "id": "n3_144_7",
+      "example_sentence": "台風で電車が止まって、結局会社まで歩くことになった。",
+      "translation": "The trains stopped because of the typhoon, so I ended up walking all the way to the office.",
+      "blank_target": "結局",
+      "wrong_choices": ["わざわざ", "たまたま", "やっと"],
+      "wrong_choice_explanations": [
+        "わざわざ implies the speaker chose to take extra trouble they didn't have to (わざわざ歩いて来てくれた); 〜ことになった shows the walking was forced by circumstances, not chosen.",
+        "たまたま means 'by chance'; walking was the unavoidable consequence of the trains stopping, not a coincidence.",
+        "やっと expresses relief at finally managing something desired (やっと会社に着いた); it doesn't fit being stuck with the unwelcome outcome of having to walk."
+      ],
+      "hiragana_full": "たいふうででんしゃがとまって、けっきょくかいしゃまであるくことになった。",
+      "audio_alternatives": [
+        { "kanji": "電車が動かなくて、結局歩いて会社に行ったんだ。", "hiragana_full": "でんしゃがうごかなくて、けっきょくあるいてかいしゃにいったんだ。" },
+        { "kanji": "台風の影響で電車が止まり、会社まで歩く羽目になった。", "hiragana_full": "たいふうのえいきょうででんしゃがとまり、かいしゃまであるくはめになった。" }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        { "word": "台風", "reading": "たいふう", "meaning": "typhoon" },
+        { "word": "止まる", "reading": "とまる", "meaning": "to stop" }
+      ],
+      "blank_target_reading": "けっきょく"
+    },
+    {
+      "id": "n3_144_8",
+      "example_sentence": "「いろいろ試しましたが、結局元のやり方に戻しました。」",
+      "translation": "\"I tried various approaches, but in the end I went back to the original method.\"",
+      "blank_target": "結局",
+      "wrong_choices": ["まさか", "要するに", "せっかく"],
+      "wrong_choice_explanations": [
+        "まさか expresses disbelief at an unexpected possibility and needs a conjectural or exclamatory ending (まさか戻すとは); it cannot modify the speaker's own plain report 戻しました.",
+        "要するに means 'in short' and introduces a rephrased summary of what was just said (要するに、失敗だったということです); here the clause narrates the final action taken, not a restatement.",
+        "せっかく marks a valued effort or opportunity, usually with のに/から (せっかく試したのに); placed before 元のやり方に戻しました it would treat reverting itself as the cherished effort, which makes no sense."
+      ],
+      "hiragana_full": "「いろいろためしましたが、けっきょくもとのやりかたにもどしました。」",
+      "audio_alternatives": [
+        { "kanji": "色々やってみたけど、結局前の方法に戻したよ。", "hiragana_full": "いろいろやってみたけど、けっきょくまえのほうほうにもどしたよ。" },
+        { "kanji": "試行錯誤しましたが、最終的に最初の方法に戻すことにしました。", "hiragana_full": "しこうさくごしましたが、さいしゅうてきにさいしょのほうほうにもどすことにしました。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "試す", "reading": "ためす", "meaning": "to try out" },
+        { "word": "元", "reading": "もと", "meaning": "original, former" },
+        { "word": "戻す", "reading": "もどす", "meaning": "to put back, to revert" }
+      ],
+      "blank_target_reading": "けっきょく"
+    },
+    {
+      "id": "n3_144_9",
+      "example_sentence": "宿題を後回しにすると、結局夜中にやる羽目になるよ。",
+      "translation": "If you keep putting off your homework, you'll just end up doing it in the middle of the night.",
+      "blank_target": "結局",
+      "wrong_choices": ["うっかり", "わざと", "ようやく"],
+      "wrong_choice_explanations": [
+        "うっかり means 'carelessly, by an absent-minded slip' and modifies momentary accidental actions (うっかり忘れた); ending up working at midnight is the predictable consequence of procrastinating, not a slip.",
+        "わざと means 'deliberately'; 羽目になる describes being cornered into an unwanted situation, which by definition is not something done on purpose.",
+        "ようやく expresses relief that something long-awaited finally happens; doing homework at midnight is an unwelcome outcome, so a relief adverb contradicts 羽目になる."
+      ],
+      "hiragana_full": "しゅくだいをあとまわしにすると、けっきょくよなかにやるはめになるよ。",
+      "audio_alternatives": [
+        { "kanji": "宿題を先延ばしにすると、結局徹夜することになるよ。", "hiragana_full": "しゅくだいをさきのばしにすると、けっきょくてつやすることになるよ。" },
+        { "kanji": "早くやらないと、夜中に慌ててやることになるんだから。", "hiragana_full": "はやくやらないと、よなかにあわててやることになるんだから。" }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        { "word": "後回し", "reading": "あとまわし", "meaning": "putting off, postponing" },
+        { "word": "夜中", "reading": "よなか", "meaning": "middle of the night" },
+        { "word": "羽目になる", "reading": "はめになる", "meaning": "to end up in a (bad) situation" }
+      ],
+      "blank_target_reading": "けっきょく"
+    },
+    {
+      "id": "n3_144_10",
+      "example_sentence": "どんな道を選んだとしても、結局は本人の努力次第である。",
+      "translation": "Whatever path one chooses, in the end it comes down to one's own effort.",
+      "blank_target": "結局",
+      "wrong_choices": ["必ずしも", "まさか", "せめて"],
+      "wrong_choice_explanations": [
+        "必ずしも means 'not necessarily' and must pair with a negative such as 〜とは限らない; the predicate 努力次第である is affirmative, so 必ずしも cannot stand here.",
+        "まさか expresses disbelief and requires a conjectural or exclamatory ending; it cannot modify a calm, general assertion like 努力次第である.",
+        "せめて expresses a minimum wish ('at least': せめて努力だけはしたい) and pairs with desires or requests, not with a declarative statement about what things depend on."
+      ],
+      "hiragana_full": "どんなみちをえらんだとしても、けっきょくはほんにんのどりょくしだいである。",
+      "audio_alternatives": [
+        { "kanji": "どの道を選んでも、最後は自分の努力がすべてを決める。", "hiragana_full": "どのみちをえらんでも、さいごはじぶんのどりょくがすべてをきめる。" },
+        { "kanji": "結局、成功するかどうかは本人の努力にかかっている。", "hiragana_full": "けっきょく、せいこうするかどうかはほんにんのどりょくにかかっている。" }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        { "word": "選ぶ", "reading": "えらぶ", "meaning": "to choose" },
+        { "word": "本人", "reading": "ほんにん", "meaning": "the person themselves" },
+        { "word": "努力", "reading": "どりょく", "meaning": "effort" }
+      ],
+      "blank_target_reading": "けっきょく"
+    }
+  ]
+}

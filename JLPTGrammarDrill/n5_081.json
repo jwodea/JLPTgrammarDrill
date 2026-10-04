@@ -31,7 +31,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "め"
+      "blank_target_reading": "め",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "質問",
+          "reading": "しつもん",
+          "meaning": "question"
+        },
+        {
+          "word": "答えて",
+          "reading": "こたえて",
+          "meaning": "answer"
+        }
+      ]
     },
     {
       "id": "n5_081_2",
@@ -60,7 +73,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "め"
+      "blank_target_reading": "め",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "角",
+          "reading": "かど",
+          "meaning": "corner"
+        },
+        {
+          "word": "曲がります",
+          "reading": "まがります",
+          "meaning": "turn"
+        }
+      ]
     },
     {
       "id": "n5_081_3",
@@ -89,7 +115,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "め"
+      "blank_target_reading": "め",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "信号",
+          "reading": "しんごう",
+          "meaning": "traffic light"
+        },
+        {
+          "word": "止まって",
+          "reading": "とまって",
+          "meaning": "stop"
+        }
+      ]
     },
     {
       "id": "n5_081_4",
@@ -118,7 +157,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "め"
+      "blank_target_reading": "め",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "ドア",
+          "reading": "どあ",
+          "meaning": "door"
+        },
+        {
+          "word": "開けました",
+          "reading": "あけました",
+          "meaning": "opened"
+        }
+      ]
     },
     {
       "id": "n5_081_5",
@@ -147,7 +199,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "め"
+      "blank_target_reading": "め",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "建物",
+          "reading": "たてもの",
+          "meaning": "building"
+        }
+      ]
     },
     {
       "id": "n5_081_6",
@@ -155,12 +215,12 @@
       "translation": "I will get off the train at the sixth station.",
       "blank_target": "目",
       "wrong_choices": [
-        "先",
+        "番",
         "後",
         "前"
       ],
       "wrong_choice_explanations": [
-        "先 means 'ahead/future' - 六つ先 would mean 'six stations ahead' which is different from the ordinal 'sixth station'.",
+        "番 attaches to bare numbers to make ordinals (六番目の駅), but it cannot follow the native counter つ — 六つ番 is invalid; after 六つ the ordinal is formed with 目.",
         "後 means 'after/later' - it doesn't combine with つ to form ordinals and changes the meaning incorrectly.",
         "前 means 'before/ago' - 六つ前 would mean 'six stations ago' which is the opposite of what's needed here."
       ],
@@ -176,7 +236,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "め"
+      "blank_target_reading": "め",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "駅",
+          "reading": "えき",
+          "meaning": "station"
+        },
+        {
+          "word": "降ります",
+          "reading": "おります",
+          "meaning": "get off"
+        }
+      ]
     },
     {
       "id": "n5_081_7",
@@ -205,7 +278,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "め"
+      "blank_target_reading": "め",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "問題",
+          "reading": "もんだい",
+          "meaning": "problem"
+        },
+        {
+          "word": "難しい",
+          "reading": "むずかしい",
+          "meaning": "difficult"
+        }
+      ]
     },
     {
       "id": "n5_081_8",
@@ -234,7 +320,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "め"
+      "blank_target_reading": "め",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "部屋",
+          "reading": "へや",
+          "meaning": "room"
+        },
+        {
+          "word": "入りました",
+          "reading": "はいりました",
+          "meaning": "entered"
+        }
+      ]
     },
     {
       "id": "n5_081_9",
@@ -263,7 +362,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "め"
+      "blank_target_reading": "め",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "店",
+          "reading": "みせ",
+          "meaning": "store"
+        },
+        {
+          "word": "買い物しました",
+          "reading": "かいものしました",
+          "meaning": "went shopping"
+        }
+      ]
     },
     {
       "id": "n5_081_10",
@@ -292,7 +404,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "め"
+      "blank_target_reading": "め",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "階段",
+          "reading": "かいだん",
+          "meaning": "stairs"
+        },
+        {
+          "word": "上りました",
+          "reading": "のぼりました",
+          "meaning": "climbed"
+        }
+      ]
     }
   ]
 }

@@ -67,7 +67,8 @@
           "reading": "でかけます",
           "meaning": "go out"
         }
-      ]
+      ],
+      "blank_occurrence": 2
     },
     {
       "id": "n5_053_3",
@@ -77,12 +78,12 @@
       "wrong_choices": [
         "し",
         "て",
-        "ながら"
+        "ので"
       ],
       "wrong_choice_explanations": [
         "し lists reasons or adds information — it doesn't show the contrast between expense and purchase.",
         "て connects actions sequentially — it doesn't express the contrasting relationship needed here.",
-        "ながら means 'while doing' — it shows simultaneous actions, not contrast between expensive and buying."
+        "ので means 'because' — 「高いので、買いました」 would say 'Because it was expensive, I bought it,' making the high price the reason for buying, which contradicts the intended contrast ('expensive, BUT I bought it')."
       ],
       "hiragana_full": "たかいけど、かいました。",
       "audio_alternatives": [
@@ -190,7 +191,8 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "blank_occurrence": 2
     },
     {
       "id": "n5_053_7",
@@ -272,12 +274,12 @@
       "wrong_choices": [
         "し",
         "て",
-        "ながら"
+        "から"
       ],
       "wrong_choice_explanations": [
         "し lists reasons — it would suggest being new as a reason for breaking, which is illogical.",
         "て connects actions sequentially — it doesn't express the contrast between newness and breaking.",
-        "ながら means 'while doing' — it shows simultaneous states, not the contrasting relationship needed here."
+        "から means 'because' — 「新しいから、壊れました」 would say 'It broke because it was new,' which is illogical; the sentence needs contrast between being new and breaking, which けど provides."
       ],
       "hiragana_full": "あたらしいけど、こわれました。",
       "audio_alternatives": [
@@ -334,7 +336,8 @@
           "reading": "りょこう",
           "meaning": "trip"
         }
-      ]
+      ],
+      "blank_occurrence": 2
     }
   ]
 }

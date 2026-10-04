@@ -343,42 +343,42 @@
     },
     {
       "id": "n5_005_10",
-      "example_sentence": "宿題をしてから、遊びます。",
-      "translation": "After doing homework, I play.",
+      "example_sentence": "写真を撮って友達に送りました。",
+      "translation": "I took a photo and sent it to my friend.",
       "blank_target": "て",
       "wrong_choices": [
         "た",
-        "ない",
-        "たり"
+        "たり",
+        "ても"
       ],
       "wrong_choice_explanations": [
-        "た + から means 'because I did' (したから), which changes the meaning from 'after doing' to 'because I did.'",
-        "ない + から means 'because I don't' (しないから), which negates the action and changes the meaning.",
-        "たり is for listing actions and cannot precede から in this sequential pattern."
+        "撮った is the plain past ('took a photo'); it closes the clause instead of linking to sending it, so the te-form 撮って connects the two actions.",
+        "撮ったり means 'do things like taking photos' and needs another 〜たり; it doesn't link two specific actions the way 撮って does.",
+        "撮っても means 'even if I take a photo'; it concedes a point rather than connecting taking and sending, which 撮って does."
       ],
-      "hiragana_full": "しゅくだいをしてから、あそびます。",
+      "hiragana_full": "しゃしんをとってともだちにおくりました。",
       "audio_alternatives": [
         {
-          "kanji": "宿題をした後で、遊びます。",
-          "hiragana_full": "しゅくだいをしたあとで、あそびます。"
+          "kanji": "写真を撮り、友達に送りました。",
+          "hiragana_full": "しゃしんをとり、ともだちにおくりました。"
         },
         {
-          "kanji": "宿題をしてから、遊ぶ。",
-          "hiragana_full": "しゅくだいをしてから、あそぶ。"
+          "kanji": "写真を撮って友達に送った。",
+          "hiragana_full": "しゃしんをとってともだちにおくった。"
         }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
         {
-          "word": "宿題",
-          "reading": "しゅくだい",
-          "meaning": "homework"
+          "word": "写真",
+          "reading": "しゃしん",
+          "meaning": "photo"
         },
         {
-          "word": "遊びます",
-          "reading": "あそびます",
-          "meaning": "play; hang out"
+          "word": "友達",
+          "reading": "ともだち",
+          "meaning": "friend"
         }
       ]
     }

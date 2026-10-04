@@ -9,7 +9,11 @@
       "example_sentence": "もしかしたら、明日の試合は雨で中止になるかもしれない。",
       "translation": "The match tomorrow might possibly be called off because of rain.",
       "blank_target": "もしかしたら",
-      "wrong_choices": ["きっと", "まさか", "かならず"],
+      "wrong_choices": [
+        "きっと",
+        "まさか",
+        "かならず"
+      ],
       "wrong_choice_explanations": [
         "「きっと」は「高い確率でそうなるだろう」という強い確信を表す。低い可能性を控えめに推し量る「〜かもしれない」との組み合わせでは意味がちぐはぐになる。",
         "「まさか」は「そんなはずはない」という強い意外性を表し、「まさか〜ないだろう」の形で使うのが普通。「中止になるかもしれない」という肯定の推量には合わない。",
@@ -17,17 +21,40 @@
       ],
       "hiragana_full": "もしかしたら、あしたのしあいはあめでちゅうしになるかもしれない。",
       "audio_alternatives": [
-        { "kanji": "もしかすると、明日の試合は中止になる可能性がある。", "hiragana_full": "もしかすると、あしたのしあいはちゅうしになるかのうせいがある。" },
-        { "kanji": "雨だと、明日の試合はなくなるかもしれないね。", "hiragana_full": "あめだと、あしたのしあいはなくなるかもしれないね。" }
+        {
+          "kanji": "もしかすると、明日の試合は中止になる可能性がある。",
+          "hiragana_full": "もしかすると、あしたのしあいはちゅうしになるかのうせいがある。"
+        },
+        {
+          "kanji": "雨だと、明日の試合はなくなるかもしれないね。",
+          "hiragana_full": "あめだと、あしたのしあいはなくなるかもしれないね。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "試合",
+          "reading": "しあい",
+          "meaning": "match; game"
+        },
+        {
+          "word": "中止",
+          "reading": "ちゅうし",
+          "meaning": "cancellation"
+        }
+      ]
     },
     {
       "id": "n3_121_2",
       "example_sentence": "もしかしたら、彼はもうその話を聞いているのかもしれない。",
       "translation": "He may perhaps have already heard about it.",
       "blank_target": "もしかしたら",
-      "wrong_choices": ["たとえ", "さすがに", "ぜひ"],
+      "wrong_choices": [
+        "たとえ",
+        "さすがに",
+        "ぜひ"
+      ],
       "wrong_choice_explanations": [
         "「たとえ」は「たとえ〜ても」の形で仮定の逆接を作る副詞。「〜かもしれない」という推量とは呼応しない。",
         "「さすがに」は「期待どおり・いくらなんでも」という評価を表す。可能性を推し量るこの文には合わない。",
@@ -35,17 +62,28 @@
       ],
       "hiragana_full": "もしかしたら、かれはもうそのはなしをきいているのかもしれない。",
       "audio_alternatives": [
-        { "kanji": "もしかしたら、彼はすでに知っているかもしれない。", "hiragana_full": "もしかしたら、かれはすでにしっているかもしれない。" },
-        { "kanji": "彼の耳にもう入っている可能性もある。", "hiragana_full": "かれのみみにもうはいっているかのうせいもある。" }
+        {
+          "kanji": "もしかしたら、彼はすでに知っているかもしれない。",
+          "hiragana_full": "もしかしたら、かれはすでにしっているかもしれない。"
+        },
+        {
+          "kanji": "彼の耳にもう入っている可能性もある。",
+          "hiragana_full": "かれのみみにもうはいっているかのうせいもある。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n3_121_3",
       "example_sentence": "鍵が見つからない。もしかしたら、電車の中に落としたのかもしれない。",
       "translation": "I can't find my key. Maybe I dropped it on the train.",
       "blank_target": "もしかしたら",
-      "wrong_choices": ["どうか", "てっきり", "まんいち"],
+      "wrong_choices": [
+        "どうか",
+        "てっきり",
+        "まんいち"
+      ],
       "wrong_choice_explanations": [
         "「どうか」は「どうかお願いします」のように丁寧な依頼を強める言葉。過去の出来事を推量するこの文には合わない。",
         "「てっきり」は「〜と思い込んでいたが実は違った」という誤解に使い、「てっきり落としたと思った」のような形をとる。まだ確信のないこの推量には合わない。",
@@ -53,17 +91,28 @@
       ],
       "hiragana_full": "かぎがみつからない。もしかしたら、でんしゃのなかにおとしたのかもしれない。",
       "audio_alternatives": [
-        { "kanji": "もしかすると、電車に置き忘れたのかもしれない。", "hiragana_full": "もしかすると、でんしゃにおきわすれたのかもしれない。" },
-        { "kanji": "鍵、電車で落とした可能性があるな。", "hiragana_full": "かぎ、でんしゃでおとしたかのうせいがあるな。" }
+        {
+          "kanji": "もしかすると、電車に置き忘れたのかもしれない。",
+          "hiragana_full": "もしかすると、でんしゃにおきわすれたのかもしれない。"
+        },
+        {
+          "kanji": "鍵、電車で落とした可能性があるな。",
+          "hiragana_full": "かぎ、でんしゃでおとしたかのうせいがあるな。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n3_121_4",
       "example_sentence": "もしかしたら、来年大阪に転勤になるかもしれません。",
       "translation": "I might possibly be transferred to Osaka next year.",
       "blank_target": "もしかしたら",
-      "wrong_choices": ["いよいよ", "けっして", "ぜったいに"],
+      "wrong_choices": [
+        "いよいよ",
+        "けっして",
+        "ぜったいに"
+      ],
       "wrong_choice_explanations": [
         "「いよいよ」は「ついにその時が来た」という切迫や確定を表す。まだ不確かな可能性を述べる「〜かもしれません」とは合わない。",
         "「決して」は「決して〜ない」と否定表現と呼応する副詞。肯定の推量文には置けない。",
@@ -71,17 +120,35 @@
       ],
       "hiragana_full": "もしかしたら、らいねんおおさかにてんきんになるかもしれません。",
       "audio_alternatives": [
-        { "kanji": "もしかすると来年、大阪勤務になる可能性があります。", "hiragana_full": "もしかするとらいねん、おおさかきんむになるかのうせいがあります。" },
-        { "kanji": "来年は大阪へ異動するかもしれないんです。", "hiragana_full": "らいねんはおおさかへいどうするかもしれないんです。" }
+        {
+          "kanji": "もしかすると来年、大阪勤務になる可能性があります。",
+          "hiragana_full": "もしかするとらいねん、おおさかきんむになるかのうせいがあります。"
+        },
+        {
+          "kanji": "来年は大阪へ異動するかもしれないんです。",
+          "hiragana_full": "らいねんはおおさかへいどうするかもしれないんです。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "転勤",
+          "reading": "てんきん",
+          "meaning": "job transfer"
+        }
+      ]
     },
     {
       "id": "n3_121_5",
       "example_sentence": "あの二人、もしかしたら付き合っているのかもしれないね。",
       "translation": "Those two might just be dating, you know.",
       "blank_target": "もしかしたら",
-      "wrong_choices": ["そういえば", "なにしろ", "やっと"],
+      "wrong_choices": [
+        "そういえば",
+        "なにしろ",
+        "やっと"
+      ],
       "wrong_choice_explanations": [
         "「そういえば」は「その話で思い出したが」と話題を切り出す言葉。可能性を推し量る「〜かもしれない」を導く働きはない。",
         "「なにしろ」は「なんといっても」と理由や事情を強調する。推量の「〜かもしれない」とは呼応しない。",
@@ -89,17 +156,35 @@
       ],
       "hiragana_full": "あのふたり、もしかしたらつきあっているのかもしれないね。",
       "audio_alternatives": [
-        { "kanji": "あの二人、もしかしたら恋人同士かもね。", "hiragana_full": "あのふたり、もしかしたらこいびとどうしかもね。" },
-        { "kanji": "あの二人は付き合っている可能性があると思う。", "hiragana_full": "あのふたりはつきあっているかのうせいがあるとおもう。" }
+        {
+          "kanji": "あの二人、もしかしたら恋人同士かもね。",
+          "hiragana_full": "あのふたり、もしかしたらこいびとどうしかもね。"
+        },
+        {
+          "kanji": "あの二人は付き合っている可能性があると思う。",
+          "hiragana_full": "あのふたりはつきあっているかのうせいがあるとおもう。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "付き合って",
+          "reading": "つきあって",
+          "meaning": "to go out; be dating"
+        }
+      ]
     },
     {
       "id": "n3_121_6",
       "example_sentence": "頭が痛い。もしかしたら、風邪をひいたのかもしれない。",
       "translation": "I have a headache. Maybe I've caught a cold.",
       "blank_target": "もしかしたら",
-      "wrong_choices": ["おかげで", "いまにも", "どうせ"],
+      "wrong_choices": [
+        "おかげで",
+        "いまにも",
+        "どうせ"
+      ],
       "wrong_choice_explanations": [
         "「おかげで」は「〜のおかげで」と恩恵の原因を表す表現。可能性の推量を導く副詞ではない。",
         "「いまにも」は「今すぐにも〜しそうだ」と目前に迫った様子に使い、「いまにも倒れそうだ」のような形をとる。すでに起きたかもしれないことの推量には合わない。",
@@ -107,17 +192,28 @@
       ],
       "hiragana_full": "あたまがいたい。もしかしたら、かぜをひいたのかもしれない。",
       "audio_alternatives": [
-        { "kanji": "もしかすると風邪かもしれない。", "hiragana_full": "もしかするとかぜかもしれない。" },
-        { "kanji": "頭痛がするから、風邪の引きはじめかもしれない。", "hiragana_full": "ずつうがするから、かぜのひきはじめかもしれない。" }
+        {
+          "kanji": "もしかすると風邪かもしれない。",
+          "hiragana_full": "もしかするとかぜかもしれない。"
+        },
+        {
+          "kanji": "頭痛がするから、風邪の引きはじめかもしれない。",
+          "hiragana_full": "ずつうがするから、かぜのひきはじめかもしれない。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n3_121_7",
       "example_sentence": "もしかしたら、私の説明が間違っていたのかもしれません。すみません。",
       "translation": "Perhaps my explanation was wrong. I'm sorry.",
       "blank_target": "もしかしたら",
-      "wrong_choices": ["あえて", "まるで", "かえって"],
+      "wrong_choices": [
+        "あえて",
+        "まるで",
+        "かえって"
+      ],
       "wrong_choice_explanations": [
         "「あえて」は「しなくてもいいことを意図的にする」という意味（あえて言えば、など）。自分の間違いの可能性を認めるこの文には合わない。",
         "「まるで」は「まるで〜のようだ」と比喩表現と呼応する副詞。推量の「〜かもしれません」とは結びつかない。",
@@ -125,17 +221,28 @@
       ],
       "hiragana_full": "もしかしたら、わたしのせつめいがまちがっていたのかもしれません。すみません。",
       "audio_alternatives": [
-        { "kanji": "もしかすると、私の説明に誤りがあったかもしれません。", "hiragana_full": "もしかすると、わたしのせつめいにあやまりがあったかもしれません。" },
-        { "kanji": "私の説明が分かりにくかったようで、すみません。", "hiragana_full": "わたしのせつめいがわかりにくかったようで、すみません。" }
+        {
+          "kanji": "もしかすると、私の説明に誤りがあったかもしれません。",
+          "hiragana_full": "もしかすると、わたしのせつめいにあやまりがあったかもしれません。"
+        },
+        {
+          "kanji": "私の説明が分かりにくかったようで、すみません。",
+          "hiragana_full": "わたしのせつめいがわかりにくかったようで、すみません。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n3_121_8",
       "example_sentence": "この写真の人、もしかしたら中学のときの同級生かもしれない。",
       "translation": "The person in this photo might possibly be a classmate of mine from junior high school.",
       "blank_target": "もしかしたら",
-      "wrong_choices": ["たしか", "まさしく", "ようするに"],
+      "wrong_choices": [
+        "たしか",
+        "まさしく",
+        "ようするに"
+      ],
       "wrong_choice_explanations": [
         "「たしか」は「記憶が正しければ〜だ」と記憶に基づくあいまいな判断を表し、「たしか同級生だったと思う」のような形で使う。記憶ではなく可能性を推し量る「〜かもしれない」の文では「もしかしたら」が適切。",
         "「まさしく」は「間違いなくそのとおり」と断定を強める言葉なので、「かもしれない」という不確かな表現と矛盾する。",
@@ -143,17 +250,35 @@
       ],
       "hiragana_full": "このしゃしんのひと、もしかしたらちゅうがくのときのどうきゅうせいかもしれない。",
       "audio_alternatives": [
-        { "kanji": "この人、もしかしたら中学の同級生じゃないかな。", "hiragana_full": "このひと、もしかしたらちゅうがくのどうきゅうせいじゃないかな。" },
-        { "kanji": "写真の人は昔の同級生のような気がする。", "hiragana_full": "しゃしんのひとはむかしのどうきゅうせいのようなきがする。" }
+        {
+          "kanji": "この人、もしかしたら中学の同級生じゃないかな。",
+          "hiragana_full": "このひと、もしかしたらちゅうがくのどうきゅうせいじゃないかな。"
+        },
+        {
+          "kanji": "写真の人は昔の同級生のような気がする。",
+          "hiragana_full": "しゃしんのひとはむかしのどうきゅうせいのようなきがする。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "同級生",
+          "reading": "どうきゅうせい",
+          "meaning": "classmate"
+        }
+      ]
     },
     {
       "id": "n3_121_9",
       "example_sentence": "もしかしたら、停電の原因は昨夜の台風かもしれない。",
       "translation": "The power outage may perhaps have been caused by last night's typhoon.",
       "blank_target": "もしかしたら",
-      "wrong_choices": ["なぜなら", "いったい", "せめて"],
+      "wrong_choices": [
+        "なぜなら",
+        "いったい",
+        "せめて"
+      ],
       "wrong_choice_explanations": [
         "「なぜなら」は「その理由は〜だからだ」と理由の説明を導く接続詞で、文末は「〜からだ」の形になる。「〜かもしれない」という推量文には合わない。",
         "「いったい」は「いったい誰が？」のように疑問の気持ちを強める副詞。疑問文ではないこの文には置けない。",
@@ -161,17 +286,45 @@
       ],
       "hiragana_full": "もしかしたら、ていでんのげんいんはさくやのたいふうかもしれない。",
       "audio_alternatives": [
-        { "kanji": "もしかすると、台風のせいで停電したのかもしれない。", "hiragana_full": "もしかすると、たいふうのせいでていでんしたのかもしれない。" },
-        { "kanji": "停電は昨夜の台風が原因という可能性もある。", "hiragana_full": "ていでんはさくやのたいふうがげんいんというかのうせいもある。" }
+        {
+          "kanji": "もしかすると、台風のせいで停電したのかもしれない。",
+          "hiragana_full": "もしかすると、たいふうのせいでていでんしたのかもしれない。"
+        },
+        {
+          "kanji": "停電は昨夜の台風が原因という可能性もある。",
+          "hiragana_full": "ていでんはさくやのたいふうがげんいんというかのうせいもある。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "停電",
+          "reading": "ていでん",
+          "meaning": "power outage"
+        },
+        {
+          "word": "原因",
+          "reading": "げんいん",
+          "meaning": "cause"
+        },
+        {
+          "word": "昨夜",
+          "reading": "さくや",
+          "meaning": "last night"
+        }
+      ]
     },
     {
       "id": "n3_121_10",
       "example_sentence": "もしかしたら、この店はもう閉店してしまったのかもしれない。",
       "translation": "This shop may perhaps have already closed down for good.",
       "blank_target": "もしかしたら",
-      "wrong_choices": ["いまさら", "ろくに", "ずいぶん"],
+      "wrong_choices": [
+        "いまさら",
+        "ろくに",
+        "ずいぶん"
+      ],
       "wrong_choice_explanations": [
         "「いまさら」は「今となっては遅い」という意味で、「いまさら言っても仕方ない」のように使う。閉店した可能性を推量するこの文には合わない。",
         "「ろくに」は「ろくに〜ない」の形で否定と呼応し、「十分に〜ない」という意味を表す。推量の肯定文には置けない。",
@@ -179,10 +332,24 @@
       ],
       "hiragana_full": "もしかしたら、このみせはもうへいてんしてしまったのかもしれない。",
       "audio_alternatives": [
-        { "kanji": "もしかしたら、あの店はもうやっていないのかもしれない。", "hiragana_full": "もしかしたら、あのみせはもうやっていないのかもしれない。" },
-        { "kanji": "店が閉まったままだから、閉店した可能性がある。", "hiragana_full": "みせがしまったままだから、へいてんしたかのうせいがある。" }
+        {
+          "kanji": "もしかしたら、あの店はもうやっていないのかもしれない。",
+          "hiragana_full": "もしかしたら、あのみせはもうやっていないのかもしれない。"
+        },
+        {
+          "kanji": "店が閉まったままだから、閉店した可能性がある。",
+          "hiragana_full": "みせがしまったままだから、へいてんしたかのうせいがある。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "閉店",
+          "reading": "へいてん",
+          "meaning": "closing (of a shop)"
+        }
+      ]
     }
   ]
 }

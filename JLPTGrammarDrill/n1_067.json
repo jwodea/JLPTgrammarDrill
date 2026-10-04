@@ -1,7 +1,7 @@
 {
   "id": "n1_067",
   "pattern": "〜にして",
-  "meaning": "even for; despite being; being both A and B",
+  "meaning": "even for; despite being; being both A and B; at (a remarkable age)",
   "level": "N1",
   "exercises": [
     {
@@ -30,7 +30,15 @@
           "hiragana_full": "かれはがくせいのみでありながら、すでにきぎょうかとしてもかつやくしている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "起業家",
+          "reading": "きぎょうか",
+          "meaning": "entrepreneur"
+        }
+      ]
     },
     {
       "id": "n1_067_2",
@@ -39,12 +47,12 @@
       "blank_target": "にして",
       "wrong_choices": [
         "にしては",
-        "ともあろう者が",
+        "にあって",
         "たるもの"
       ],
       "wrong_choice_explanations": [
         "にしては would frame the doctor as the standard the failure is being measured against ('for a doctor, that's pathetic') — a comparative yardstick. 〜にして here doesn't compare against expectations; it flags the disappointing failure of someone of that very status.",
-        "ともあろう者が ('one who should be of all people') needs the 者が tail to complete the construction (医師ともあろう者が…) and emphasizes the prestige of the role. The slot here is just 医師＿、 with no 者が — the construction doesn't close, so it can't fill the blank cleanly.",
+        "にあって is a formal locative ('being in / under the circumstances of'), describing a setting rather than the pointed 'even a doctor of all people' evaluation にして delivers here.",
         "たるもの ('one who is X') needs a が-marked main-clause subject identifying that role ('医師たるもの…すべきだ') and almost always sets up an obligation, not a current failing. Drop it into this sentence and the structure dangles."
       ],
       "hiragana_full": "いしにして、かんじゃのきもちをりかいできないとはなさけない。",
@@ -58,50 +66,35 @@
           "hiragana_full": "いしのくせに、かんじゃのきもちをりかいできないとはなさけない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "患者",
+          "reading": "かんじゃ",
+          "meaning": "patient"
+        },
+        {
+          "word": "情けない",
+          "reading": "なさけない",
+          "meaning": "pathetic; shameful"
+        }
+      ]
     },
     {
       "id": "n1_067_3",
-      "example_sentence": "先進国にして、貧困問題が解決されていない現実がある。",
-      "translation": "Even for developed countries, there is the reality that poverty issues remain unresolved.",
-      "blank_target": "にして",
-      "wrong_choices": [
-        "にしては",
-        "にあって",
-        "において"
-      ],
-      "wrong_choice_explanations": [
-        "にしては would frame the developed-country status as a benchmark the situation falls short of ('for a developed country, that's bad'). 〜にして here isn't measuring against an external yardstick — it states that the disappointing reality persists in countries that should know better.",
-        "にあって is a formal locative/temporal ('being in / under conditions of'): 先進国にあって = 'in (the situation of being) a developed country', which describes circumstances rather than asserting the status itself ironically. The sentence calls for にして's pointed evaluative framing.",
-        "において is a topical/contextual 'in/within' marker — '先進国において' sounds neutral, almost technical, like a setting tag. The sentence carries a critical edge that にして delivers and において would flatten."
-      ],
-      "hiragana_full": "せんしんこくにして、ひんこんもんだいがかいけつされていないげんじつがある。",
-      "audio_alternatives": [
-        {
-          "kanji": "先進国であっても、貧困問題が解決されていない現実がある。",
-          "hiragana_full": "せんしんこくであっても、ひんこんもんだいがかいけつされていないげんじつがある。"
-        },
-        {
-          "kanji": "先進国でさえ、貧困問題が未解決のままである現実がある。",
-          "hiragana_full": "せんしんこくでさえ、ひんこんもんだいがみかいけつのままであるげんじつがある。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n1_067_4",
       "example_sentence": "プロの料理人にして、この味を再現できないとは驚きだ。",
       "translation": "Even for a professional chef, not being able to reproduce this flavor is surprising.",
       "blank_target": "にして",
       "wrong_choices": [
         "にしては",
         "をしても",
-        "ともあろう者が"
+        "として"
       ],
       "wrong_choice_explanations": [
         "にしては would shift the framing to a yardstick comparison ('for a pro chef, surprising'); にして here states the dishearteningly literal failure of someone of that very stature, without the implicit measurement against typical pros.",
         "をしても is a literary construction often paired with verbs of capability/causation (悲しみをしても癒せない 'cannot heal even with sadness') — it doesn't slot in after a profession noun to mean 'even for'. The grammatical home is different.",
-        "ともあろう者が needs the 者が tail ('プロの料理人ともあろう者が…再現できないとは') to complete the construction. The bare 'ともあろう者が' as a substitute for にして leaves the structure incomplete in this sentence's slot."
+        "として ('as / in the capacity of') frames him acting in one role ('as a professional chef'), not the concessive 'even a pro chef' evaluation にして carries here."
       ],
       "hiragana_full": "ぷろのりょうりにんにして、このあじをさいげんできないとはおどろきだ。",
       "audio_alternatives": [
@@ -114,10 +107,23 @@
           "hiragana_full": "ぷろのりょうりにんであっても、このあじをさいげんできないとはおどろきだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "料理人",
+          "reading": "りょうりにん",
+          "meaning": "chef; cook"
+        },
+        {
+          "word": "再現",
+          "reading": "さいげん",
+          "meaning": "reproduction"
+        }
+      ]
     },
     {
-      "id": "n1_067_5",
+      "id": "n1_067_4",
       "example_sentence": "彼女は研究者にして芸術家でもあるという稀有な存在だ。",
       "translation": "She is a rare existence, being both a researcher and an artist.",
       "blank_target": "にして",
@@ -142,10 +148,28 @@
           "hiragana_full": "かのじょはけんきゅうしゃでありながらげいじゅつかでもあるというめずらしいそんざいだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "稀有",
+          "reading": "けう",
+          "meaning": "rare; uncommon"
+        },
+        {
+          "word": "存在",
+          "reading": "そんざい",
+          "meaning": "existence; being"
+        },
+        {
+          "word": "芸術家",
+          "reading": "げいじゅつか",
+          "meaning": "artist"
+        }
+      ]
     },
     {
-      "id": "n1_067_6",
+      "id": "n1_067_5",
       "example_sentence": "民主主義国家にして、この程度の人権侵害が行われている。",
       "translation": "Even for a democratic nation, such human rights violations are occurring.",
       "blank_target": "にして",
@@ -170,10 +194,23 @@
           "hiragana_full": "みんしゅしゅぎこっかであるにもかかわらず、このていどのじんけんしんがいがおきている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "民主主義",
+          "reading": "みんしゅしゅぎ",
+          "meaning": "democracy"
+        },
+        {
+          "word": "人権侵害",
+          "reading": "じんけんしんがい",
+          "meaning": "human rights violation"
+        }
+      ]
     },
     {
-      "id": "n1_067_7",
+      "id": "n1_067_6",
       "example_sentence": "祖父は七十歳にして大学院に入学し、家族を驚かせた。",
       "translation": "At the age of seventy, my grandfather entered graduate school and astonished the family.",
       "blank_target": "にして",
@@ -198,10 +235,11 @@
           "hiragana_full": "そふはななじゅっさいになってだいがくいんににゅうがくし、かぞくをおどろかせた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
-      "id": "n1_067_8",
+      "id": "n1_067_7",
       "example_sentence": "文学部の研究者にして、この程度の知識すら欠いている。",
       "translation": "Even for a literature faculty researcher, this level of knowledge is lacking.",
       "blank_target": "にして",
@@ -226,50 +264,35 @@
           "hiragana_full": "ぶんがくぶのけんきゅうしゃともあろうものが、このていどのちしきすらかいている。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n1_067_9",
-      "example_sentence": "多国籍企業にして、労働基準を満たしていないという状況である。",
-      "translation": "Even for a multinational corporation, it is not meeting labor standards.",
-      "blank_target": "にして",
-      "wrong_choices": [
-        "ともなると",
-        "となれば",
-        "であれば"
-      ],
-      "wrong_choice_explanations": [
-        "ともなると means 'when it comes to being X / once you reach X' and sets up an EXPECTATION about consequences ('多国籍企業ともなると、基準も厳しいだろう' = 'as a multinational, standards are presumably stricter'). The sentence here flags an unmet standard, not a derived expectation — にして's evaluative-concessive slot.",
-        "となれば ('if it comes to / when it becomes') frames a conditional ('if it's a multinational, then…'). The sentence states an existing failure, not a hypothetical consequence.",
-        "であれば is a plain conditional ('if it is'). The sentence asserts a present problematic fact about multinationals, not a hypothetical — にして carries the 'even being one' critical evaluation."
-      ],
-      "hiragana_full": "たこくせききぎょうにして、ろうどうきじゅんをみたしていないというじょうきょうである。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
         {
-          "kanji": "多国籍企業でさえ、労働基準を満たしていない状況だ。",
-          "hiragana_full": "たこくせききぎょうでさえ、ろうどうきじゅんをみたしていないじょうきょうだ。"
+          "word": "文学部",
+          "reading": "ぶんがくぶ",
+          "meaning": "literature department"
         },
         {
-          "kanji": "多国籍企業であっても、労働基準を満たしていないという実態がある。",
-          "hiragana_full": "たこくせききぎょうであっても、ろうどうきじゅんをみたしていないというじったいがある。"
+          "word": "欠いて",
+          "reading": "かいて",
+          "meaning": "to lack"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n1_067_10",
+      "id": "n1_067_8",
       "example_sentence": "作家にして評論家でもある彼の多面的な才能に驚かされる。",
       "translation": "I am amazed by his multifaceted talent as someone who is both a writer and a critic.",
       "blank_target": "にして",
       "wrong_choices": [
         "にしては",
         "として",
-        "兼"
+        "ならでは"
       ],
       "wrong_choice_explanations": [
         "にしては would set up a yardstick comparison ('for a writer, he is also a critic'), framing one role as the standard the other deviates from. 〜にして here presents the dual identity as a joint defining feature, not a measured deviation.",
         "として ('as / in the capacity of') would frame writer-status as a perspective and critic-status as something happening within it, rather than two simultaneous facets of his identity. にして equates the two as parallel.",
-        "兼 ('combining roles') is attached as a compound morpheme between two role-nouns (作家兼評論家 = 'writer-cum-critic') — it doesn't sit alone as a free particle between two repeated noun phrases the way the にして slot demands."
+        "ならでは means 'unique to' and must be followed by の and a noun; 作家ならでは評論家でもある is ungrammatical, whereas にして links writer and critic as two roles held at once."
       ],
       "hiragana_full": "さっかにしてひょうろんかでもあるかれのためんてきなさいのうにおどろかされる。",
       "audio_alternatives": [
@@ -282,7 +305,107 @@
           "hiragana_full": "かれはさっかにしてひょうろんかでもあり、そのためんてきなさいのうにおどろかされる。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "評論家",
+          "reading": "ひょうろんか",
+          "meaning": "critic"
+        },
+        {
+          "word": "多面的",
+          "reading": "ためんてき",
+          "meaning": "multifaceted"
+        },
+        {
+          "word": "才能",
+          "reading": "さいのう",
+          "meaning": "talent"
+        }
+      ]
+    },
+    {
+      "id": "n1_067_9",
+      "example_sentence": "彼は医学博士にして、有名な作家でもある。",
+      "translation": "He is both a medical doctor and a famous writer.",
+      "blank_target": "にして",
+      "wrong_choices": [
+        "として",
+        "ではなく",
+        "にしては"
+      ],
+      "wrong_choice_explanations": [
+        "として ('in the capacity of a medical doctor') would make being a doctor the role in which he is a famous writer, which is incoherent; にして joins the two identities he holds at the same time.",
+        "ではなく means 'not X but Y,' which would deny that he is a medical doctor. にして asserts he is both a medical doctor and a famous writer.",
+        "にしては means 'for a ~ (contrary to expectation)' and needs a judgment that departs from the norm; it can't simply join medical doctor and famous writer as two roles the way にして does."
+      ],
+      "hiragana_full": "かれはいがくはかせにして、ゆうめいなさっかでもある。",
+      "audio_alternatives": [
+        {
+          "kanji": "彼は医学博士であり、有名な作家でもある。",
+          "hiragana_full": "かれはいがくはかせであり、ゆうめいなさっかでもある。"
+        },
+        {
+          "kanji": "彼は医学博士でもあり、有名な作家でもある。",
+          "hiragana_full": "かれはいがくはかせでもあり、ゆうめいなさっかでもある。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "医学博士",
+          "reading": "いがくはかせ",
+          "meaning": "doctor of medicine"
+        },
+        {
+          "word": "作家",
+          "reading": "さっか",
+          "meaning": "author"
+        }
+      ]
+    },
+    {
+      "id": "n1_067_10",
+      "example_sentence": "松田選手は16歳にしてオリンピックの金メダルを獲得し、日本中を驚かせた。",
+      "translation": "At just 16, Matsuda won Olympic gold and astonished all of Japan.",
+      "blank_target": "にして",
+      "wrong_choices": [
+        "をもって",
+        "において",
+        "にかけて"
+      ],
+      "wrong_choice_explanations": [
+        "をもって marks a means or an official cutoff ('as of'); 16歳をもって doesn't express the emphatic 'already at 16!' that にして gives the age.",
+        "において is a formal locational/temporal 'at/in', usually paired with abstract domains or events; here it would read stiff and, more importantly, would not carry the astonishment built into にして.",
+        "にかけて marks a span ('from ~ through ~') and needs a range; 16歳にかけて is ill-formed here, whereas にして stresses how young he was."
+      ],
+      "hiragana_full": "まつだせんしゅはじゅうろくさいにしておりんぴっくのきんめだるをかくとくし、にほんじゅうをおどろかせた。",
+      "audio_alternatives": [
+        {
+          "kanji": "松田選手は16歳という若さでオリンピックの金メダルを獲得した。",
+          "hiragana_full": "まつだせんしゅはじゅうろくさいというわかさでおりんぴっくのきんめだるをかくとくした。"
+        },
+        {
+          "kanji": "松田選手はたった16歳でオリンピックの金メダルを獲得し、日本中を驚かせた。",
+          "hiragana_full": "まつだせんしゅはたったじゅうろくさいでおりんぴっくのきんめだるをかくとくし、にほんじゅうをおどろかせた。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "選手",
+          "reading": "せんしゅ",
+          "meaning": "athlete"
+        },
+        {
+          "word": "獲得",
+          "reading": "かくとく",
+          "meaning": "to win; acquire"
+        }
+      ]
     }
   ]
 }

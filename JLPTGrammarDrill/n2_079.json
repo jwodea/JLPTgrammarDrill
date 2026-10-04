@@ -10,12 +10,12 @@
       "translation": "In terms of technology, several issues can be observed.",
       "blank_target": "面で",
       "wrong_choices": [
-        "点で",
+        "理由で",
         "からいうと",
         "において"
       ],
       "wrong_choice_explanations": [
-        "点で focuses on specific points rather than broad aspects, and doesn't convey the comprehensive dimensional meaning needed here.",
+        "「〜理由で」 means 'for the reason of X,' marking a cause; the sentence locates the issues within the technical aspect, not attributing them to a technical cause, which is what 面で expresses.",
         "からいうと means 'from the perspective of' and is used for expressing viewpoints, not for discussing aspects or dimensions like 面で.",
         "において is formal and indicates location or context, but doesn't specifically express the dimensional aspect that 面で conveys."
       ],
@@ -31,68 +31,18 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "めんで"
+      "blank_target_reading": "めんで",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "課題",
+          "reading": "かだい",
+          "meaning": "issue, challenge"
+        }
+      ]
     },
     {
       "id": "n2_079_2",
-      "example_sentence": "法律面で、まだ解決すべき問題が多い。",
-      "translation": "In terms of law, there are still many problems to be resolved.",
-      "blank_target": "面で",
-      "wrong_choices": [
-        "側で",
-        "次第で",
-        "について"
-      ],
-      "wrong_choice_explanations": [
-        "側で means 'on the side of' in terms of physical position or group affiliation, not for discussing aspects or dimensions.",
-        "次第で means 'depending on (a variable)'; it makes the outcome conditional on the law rather than naming law as the aspect under discussion—面で marks the legal side as the dimension where problems remain.",
-        "について means 'about/concerning' and introduces topics, but doesn't convey the specific dimensional aspect that 面で expresses."
-      ],
-      "hiragana_full": "ほうりつめんで、まだかいけつすべきもんだいがおおい。",
-      "audio_alternatives": [
-        {
-          "kanji": "法律的に、まだ解決すべき問題が多い。",
-          "hiragana_full": "ほうりつてきに、まだかいけつすべきもんだいがおおい。"
-        },
-        {
-          "kanji": "法律の面では、まだ解決されていない問題が多い。",
-          "hiragana_full": "ほうりつのめんでは、まだかいけつされていないもんだいがおおい。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "めんで"
-    },
-    {
-      "id": "n2_079_3",
-      "example_sentence": "文化面で、アジアの重要性はますます高まっている。",
-      "translation": "In terms of culture, Asia's importance is increasingly growing.",
-      "blank_target": "面で",
-      "wrong_choices": [
-        "的に",
-        "に関して",
-        "としては"
-      ],
-      "wrong_choice_explanations": [
-        "的に is an adverbial suffix meaning 'in a ... manner' but doesn't create the dimensional aspect expression needed here.",
-        "に関して means 'regarding/concerning' and introduces topics, but lacks the specific dimensional nuance of 面で.",
-        "としては means 'as' or 'in the capacity of' and indicates roles or positions, not dimensional aspects."
-      ],
-      "hiragana_full": "ぶんかめんで、あじあのじゅうようせいはますますたかまっている。",
-      "audio_alternatives": [
-        {
-          "kanji": "文化的な面において、アジアの重要性はますます増している。",
-          "hiragana_full": "ぶんかてきなめんにおいて、あじあのじゅうようせいはますますましている。"
-        },
-        {
-          "kanji": "文化の観点から、アジアの重要性はどんどん高まっている。",
-          "hiragana_full": "ぶんかのかんてんから、あじあのじゅうようせいはどんどんたかまっている。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "めんで"
-    },
-    {
-      "id": "n2_079_4",
       "example_sentence": "財政面で、この政策は効果的だった。",
       "translation": "In terms of finances, this policy was effective.",
       "blank_target": "面で",
@@ -118,10 +68,28 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "めんで"
+      "blank_target_reading": "めんで",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "財政",
+          "reading": "ざいせい",
+          "meaning": "finances, fiscal"
+        },
+        {
+          "word": "政策",
+          "reading": "せいさく",
+          "meaning": "policy"
+        },
+        {
+          "word": "効果的",
+          "reading": "こうかてき",
+          "meaning": "effective"
+        }
+      ]
     },
     {
-      "id": "n2_079_5",
+      "id": "n2_079_3",
       "example_sentence": "教育面で、地域格差が問題となっている。",
       "translation": "In terms of education, regional disparities are becoming a problem.",
       "blank_target": "面で",
@@ -147,79 +115,34 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "めんで"
-    },
-    {
-      "id": "n2_079_6",
-      "example_sentence": "安全面で、新しいシステムが導入された。",
-      "translation": "In terms of safety, a new system was introduced.",
-      "blank_target": "面で",
-      "wrong_choices": [
-        "として",
-        "点で",
-        "上で"
-      ],
-      "wrong_choice_explanations": [
-        "として marks a role or capacity ('as ~'); safety isn't a role being played here, whereas 面で marks safety as the aspect prompting the new system.",
-        "点で focuses on specific points or aspects rather than broad dimensional considerations like 面で.",
-        "上で means 'upon' or 'in the process of' and indicates basis or foundation, not dimensional aspects."
-      ],
-      "hiragana_full": "あんぜんめんで、あたらしいしすてむがどうにゅうされた。",
-      "audio_alternatives": [
+      "blank_target_reading": "めんで",
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "安全の面から、新しいシステムが導入された。",
-          "hiragana_full": "あんぜんのめんから、あたらしいしすてむがどうにゅうされた。"
+          "word": "地域",
+          "reading": "ちいき",
+          "meaning": "region"
         },
         {
-          "kanji": "安全面において、新しいシステムが導入されました。",
-          "hiragana_full": "あんぜんめんにおいて、あたらしいしすてむがどうにゅうされました。"
+          "word": "格差",
+          "reading": "かくさ",
+          "meaning": "disparity, gap"
         }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "めんで"
+      ]
     },
     {
-      "id": "n2_079_7",
-      "example_sentence": "環境面で、この工場は問題がある。",
-      "translation": "In terms of the environment, this factory has problems.",
-      "blank_target": "面で",
-      "wrong_choices": [
-        "的には",
-        "にとって",
-        "に対して"
-      ],
-      "wrong_choice_explanations": [
-        "的には means 'in terms of' but is more colloquial and doesn't have the formal dimensional meaning of 面で.",
-        "にとって means 'for/to someone' and indicates the person affected, not dimensional aspects being discussed.",
-        "に対して means 'toward/against' and indicates direction or opposition, not dimensional considerations."
-      ],
-      "hiragana_full": "かんきょうめんで、このこうじょうはもんだいがある。",
-      "audio_alternatives": [
-        {
-          "kanji": "環境の面では、この工場に問題がある。",
-          "hiragana_full": "かんきょうのめんでは、このこうじょうにもんだいがある。"
-        },
-        {
-          "kanji": "この工場は環境面で問題を抱えている。",
-          "hiragana_full": "このこうじょうはかんきょうめんでもんだいをかかえている。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "めんで"
-    },
-    {
-      "id": "n2_079_8",
+      "id": "n2_079_4",
       "example_sentence": "経済面で、この地域は発展している。",
       "translation": "In terms of the economy, this region is developing.",
       "blank_target": "面で",
       "wrong_choices": [
         "に対して",
-        "において",
+        "として",
         "に関して"
       ],
       "wrong_choice_explanations": [
         "に対して marks a target or object of opposition ('toward/against'); the region isn't developing 'toward' the economy, whereas 面で names the economy as the aspect in which it develops.",
-        "において is formal and indicates location or context, but doesn't specifically express the dimensional aspect that 面で conveys.",
+        "「〜として」 means 'as / in the capacity of X'; 経済として would cast the region itself as an economy, whereas 面で names the economic dimension in which it is developing.",
         "に関して means 'regarding/concerning' and introduces topics generally, but lacks the specific dimensional nuance of 面で."
       ],
       "hiragana_full": "けいざいめんで、このちいきははってんしている。",
@@ -234,65 +157,272 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "めんで"
+      "blank_target_reading": "めんで",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "地域",
+          "reading": "ちいき",
+          "meaning": "region"
+        },
+        {
+          "word": "発展",
+          "reading": "はってん",
+          "meaning": "development"
+        }
+      ]
+    },
+    {
+      "id": "n2_079_5",
+      "example_sentence": "経済面で、課題が多く残っている。",
+      "translation": "In terms of economics, many challenges remain.",
+      "blank_target": "面で",
+      "wrong_choices": [
+        "点で",
+        "によって",
+        "のため"
+      ],
+      "wrong_choice_explanations": [
+        "〜点で highlights one specific point or respect and normally pairs with その/という (e.g. その点で, 〜という点で); it doesn't attach to a bare domain noun the way 面で does to mark a whole aspect like 'the economic side.'",
+        "〜によって means 'depending on' or 'by means of'; 経済によって would make the economy the cause or variable, not the dimension being discussed, which is 面で's job.",
+        "〜のため means 'for the sake of' or 'because of'; it marks purpose or cause, not the aspect ('the economic side') that 面で picks out."
+      ],
+      "hiragana_full": "けいざいめんで、かだいがおおくのこっている。",
+      "audio_alternatives": [
+        {
+          "kanji": "経済的に、多くの課題が残っている。",
+          "hiragana_full": "けいざいてきに、おおくのかだいがのこっている。"
+        },
+        {
+          "kanji": "経済の面では、課題がたくさん残っている。",
+          "hiragana_full": "けいざいのめんでは、かだいがたくさんのこっている。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "めんで",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "課題",
+          "reading": "かだい",
+          "meaning": "challenge / task"
+        },
+        {
+          "word": "経済",
+          "reading": "けいざい",
+          "meaning": "economy"
+        }
+      ]
+    },
+    {
+      "id": "n2_079_6",
+      "example_sentence": "社会面で、大きな変化が起こっている。",
+      "translation": "In terms of society, major changes are occurring.",
+      "blank_target": "面で",
+      "wrong_choices": [
+        "という点で",
+        "次第で",
+        "として"
+      ],
+      "wrong_choice_explanations": [
+        "〜という点で means 'in the respect that ~' and characterizes something by a particular feature; 社会という点で ('in the respect that it is society') doesn't fit, whereas 面で simply names the social dimension.",
+        "〜次第で means 'depending on'; 社会次第で would make society a deciding variable, not the dimension in which the changes occur, which is what 面で marks.",
+        "〜として means 'as / in the capacity of'; 社会として ('as a society') assigns a role, not the aspect being discussed that 面で expresses."
+      ],
+      "hiragana_full": "しゃかいめんで、おおきなへんかがおこっている。",
+      "audio_alternatives": [
+        {
+          "kanji": "社会的に、大きな変化が生じている。",
+          "hiragana_full": "しゃかいてきに、おおきなへんかがしょうじている。"
+        },
+        {
+          "kanji": "社会の面では、大きな変化が起きている。",
+          "hiragana_full": "しゃかいのめんでは、おおきなへんかがおきている。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "めんで",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "変化",
+          "reading": "へんか",
+          "meaning": "change"
+        }
+      ]
+    },
+    {
+      "id": "n2_079_7",
+      "example_sentence": "人材面で、採用が困難になっている。",
+      "translation": "In terms of personnel, recruitment is becoming difficult.",
+      "blank_target": "面で",
+      "wrong_choices": [
+        "にとって",
+        "として",
+        "の分野で"
+      ],
+      "wrong_choice_explanations": [
+        "〜にとって means 'for/to someone' and indicates who is affected, not which aspect is being discussed.",
+        "〜として means 'as' and indicates role or capacity, not the aspect being considered.",
+        "〜の分野で means 'in the field of' and focuses on professional areas rather than aspects or dimensions."
+      ],
+      "hiragana_full": "じんざいめんで、さいようがこんなんになっている。",
+      "audio_alternatives": [
+        {
+          "kanji": "人材の面では、採用が難しくなっている。",
+          "hiragana_full": "じんざいのめんでは、さいようがむずかしくなっている。"
+        },
+        {
+          "kanji": "人材確保の観点から、採用が困難になっている。",
+          "hiragana_full": "じんざいかくほのかんてんから、さいようがこんなんになっている。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "めんで",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "人材",
+          "reading": "じんざい",
+          "meaning": "human resources / talent"
+        },
+        {
+          "word": "採用",
+          "reading": "さいよう",
+          "meaning": "hiring / recruitment"
+        },
+        {
+          "word": "困難",
+          "reading": "こんなん",
+          "meaning": "difficulty"
+        }
+      ]
+    },
+    {
+      "id": "n2_079_8",
+      "example_sentence": "環境面で、対策が急務だ。",
+      "translation": "In terms of environment, countermeasures are urgent.",
+      "blank_target": "面で",
+      "wrong_choices": [
+        "問題で",
+        "のことで",
+        "によって"
+      ],
+      "wrong_choice_explanations": [
+        "〜問題で reads as 'due to the ~ problem' and turns 環境問題 into a cause; that changes the meaning, whereas 面で marks the environmental dimension in which action is urgent.",
+        "〜のことで means 'about the matter of'; it points to a specific issue under discussion, not the broad aspect ('the environmental side') that 面で picks out.",
+        "〜によって means 'depending on / by means of'; 環境によって would treat the environment as a cause or variable, not the dimension being addressed, which is 面で's role."
+      ],
+      "hiragana_full": "かんきょうめんで、たいさくがきゅうむだ。",
+      "audio_alternatives": [
+        {
+          "kanji": "環境面において、対策が急務です。",
+          "hiragana_full": "かんきょうめんにおいて、たいさくがきゅうむです。"
+        },
+        {
+          "kanji": "環境の面から見て、対策が急がれる。",
+          "hiragana_full": "かんきょうのめんからみて、たいさくがいそがれる。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "めんで",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "対策",
+          "reading": "たいさく",
+          "meaning": "countermeasure"
+        },
+        {
+          "word": "急務",
+          "reading": "きゅうむ",
+          "meaning": "urgent task"
+        }
+      ]
     },
     {
       "id": "n2_079_9",
-      "example_sentence": "健康面で、生活習慣を見直すべきだ。",
-      "translation": "In terms of health, we should reconsider our lifestyle habits.",
+      "example_sentence": "コスト面で、削減が求められている。",
+      "translation": "In terms of cost, reduction is being demanded.",
       "blank_target": "面で",
       "wrong_choices": [
-        "によって",
-        "方面で",
-        "関係で"
+        "部分で",
+        "方向で",
+        "なので"
       ],
       "wrong_choice_explanations": [
-        "によって marks a means, cause, or agent ('by/through'); health isn't the means of reviewing one's habits, whereas 面で marks health as the aspect that calls for the review.",
-        "方面で means 'in the direction/area of' and indicates general fields or directions, not specific dimensional aspects.",
-        "関係で means 'due to/because of' and indicates causal relationships, not dimensional considerations."
+        "〜部分で means 'in the part of' and refers to physical or specific portions, not aspects or dimensions.",
+        "〜方向で means 'in the direction of' and indicates directional movement, not aspects being considered.",
+        "〜なので means 'because of' and indicates reason or cause, completely changing the sentence structure."
       ],
-      "hiragana_full": "けんこうめんで、せいかつしゅうかんをみなおすべきだ。",
+      "hiragana_full": "こすとめんで、さくげんがもとめられている。",
       "audio_alternatives": [
         {
-          "kanji": "健康の面から、生活習慣を見直すべきだ。",
-          "hiragana_full": "けんこうのめんから、せいかつしゅうかんをみなおすべきだ。"
+          "kanji": "コスト面において、削減が求められている。",
+          "hiragana_full": "こすとめんにおいて、さくげんがもとめられている。"
         },
         {
-          "kanji": "健康面で、生活習慣を見直す必要がある。",
-          "hiragana_full": "けんこうめんで、せいかつしゅうかんをみなおすひつようがある。"
+          "kanji": "費用の面で、削減が求められている。",
+          "hiragana_full": "ひようのめんで、さくげんがもとめられている。"
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "めんで"
+      "blank_target_reading": "めんで",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "削減",
+          "reading": "さくげん",
+          "meaning": "reduction / cut"
+        },
+        {
+          "word": "求める",
+          "reading": "もとめる",
+          "meaning": "to demand / require"
+        }
+      ]
     },
     {
       "id": "n2_079_10",
-      "example_sentence": "技術面で、まだ改善の余地がある。",
-      "translation": "In terms of technology, there is still room for improvement.",
+      "example_sentence": "品質面で、競合他社に負けていない。",
+      "translation": "In terms of quality, we are not losing to competitors.",
       "blank_target": "面で",
       "wrong_choices": [
-        "次第で",
-        "観点から",
-        "立場で"
+        "に比べて",
+        "のせいで",
+        "次第で"
       ],
       "wrong_choice_explanations": [
-        "次第で means 'depending on (a variable)'; it makes improvement conditional on technology rather than naming the technical side as the dimension with room to improve, which is what 面で marks.",
-        "観点から means 'from the viewpoint/perspective of' and emphasizes subjective viewpoints rather than objective dimensional aspects.",
-        "立場で means 'in the position/capacity of' and indicates roles or status, not dimensional aspects being considered."
+        "〜に比べて means 'compared to' and sets up a direct comparison; 品質に比べて would compare against quality itself, whereas 面で marks quality as the dimension in which the company holds its own.",
+        "〜のせいで assigns blame ('because of'); it makes quality a negative cause, not the aspect being evaluated that 面で conveys.",
+        "〜次第で means 'depending on'; 品質次第で would make quality a deciding variable, not the dimension in which the firm is not losing, which is what 面で marks."
       ],
-      "hiragana_full": "ぎじゅつめんで、まだかいぜんのよちがある。",
+      "hiragana_full": "ひんしつめんで、きょうごうたしゃにまけていない。",
       "audio_alternatives": [
         {
-          "kanji": "技術的に、まだ改善の余地がある。",
-          "hiragana_full": "ぎじゅつてきに、まだかいぜんのよちがある。"
+          "kanji": "品質の面では、競合他社に引けを取らない。",
+          "hiragana_full": "ひんしつのめんでは、きょうごうたしゃにひけをとらない。"
         },
         {
-          "kanji": "技術の面では、まだ改善の余地がある。",
-          "hiragana_full": "ぎじゅつのめんでは、まだかいぜんのよちがある。"
+          "kanji": "品質において、競合他社に劣っていない。",
+          "hiragana_full": "ひんしつにおいて、きょうごうたしゃにおとっていない。"
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "めんで"
+      "blank_target_reading": "めんで",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "品質",
+          "reading": "ひんしつ",
+          "meaning": "quality"
+        },
+        {
+          "word": "競合他社",
+          "reading": "きょうごうたしゃ",
+          "meaning": "competitors"
+        }
+      ]
     }
   ]
 }

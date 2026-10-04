@@ -10,12 +10,12 @@
       "translation": "I cannot avoid apologizing for this failure.",
       "blank_target": "ずにはすまない",
       "wrong_choices": [
-        "ずにはいられない",
+        "ずに済む",
         "ないではいられない",
         "にもかかわらず"
       ],
       "wrong_choice_explanations": [
-        "ずにはいられない emphasizes inability to resist an urge, while ずにはすまない expresses unavoidable obligation or responsibility.",
+        "ずに済む says the action can be gotten out of ('I can get by without apologizing'), the direct opposite of ずにはすまない's claim that apologizing is unavoidable.",
         "ないではいられない conveys irresistible compulsion, but doesn't capture the sense of moral obligation that ずにはすまない implies.",
         "にもかかわらず means 'despite' and expresses contrast or concession, not compulsion or necessity to act."
       ],
@@ -30,7 +30,20 @@
           "hiragana_full": "このしっぱいについてあやまらずにはいられない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "失敗",
+          "reading": "しっぱい",
+          "meaning": "failure"
+        },
+        {
+          "word": "謝罪",
+          "reading": "しゃざい",
+          "meaning": "apology"
+        }
+      ]
     },
     {
       "id": "n1_019_2",
@@ -58,7 +71,25 @@
           "hiragana_full": "いりょうえーあいのあんぜんせいについては、げんみつなけんしょうをじっしせずにはおかない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "安全性",
+          "reading": "あんぜんせい",
+          "meaning": "safety"
+        },
+        {
+          "word": "厳密",
+          "reading": "げんみつ",
+          "meaning": "rigorous; strict"
+        },
+        {
+          "word": "検証",
+          "reading": "けんしょう",
+          "meaning": "verification"
+        }
+      ]
     },
     {
       "id": "n1_019_3",
@@ -66,12 +97,12 @@
       "translation": "To protect citizens' lives, the government must take measures.",
       "blank_target": "ずにはすまない",
       "wrong_choices": [
-        "なければならない",
+        "てはならない",
         "るはずがない",
         "するほかない"
       ],
       "wrong_choice_explanations": [
-        "なければならない expresses general obligation, but ずにはすまない implies a deeper sense of moral compulsion or inevitability.",
+        "てはならない forbids the action ('the government must not take measures'), the reverse of ずにはすまない, which says the measures cannot be left untaken.",
         "るはずがない asserts that the action is impossible or unthinkable, the opposite of ずにはすまない's claim that the action is unavoidable.",
         "するほかない means 'have no choice but to do,' emphasizing lack of alternatives rather than the inherent necessity expressed by ずにはすまない."
       ],
@@ -86,7 +117,20 @@
           "hiragana_full": "こくみんのいのちをまもるため、せいふはたいさくをとらざるをえない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "生命",
+          "reading": "せいめい",
+          "meaning": "life"
+        },
+        {
+          "word": "対策",
+          "reading": "たいさく",
+          "meaning": "countermeasure"
+        }
+      ]
     },
     {
       "id": "n1_019_4",
@@ -114,7 +158,20 @@
           "hiragana_full": "このふせいをしったからには、こくはつせざるをえない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "不正",
+          "reading": "ふせい",
+          "meaning": "wrongdoing; fraud"
+        },
+        {
+          "word": "告発",
+          "reading": "こくはつ",
+          "meaning": "to accuse; expose"
+        }
+      ]
     },
     {
       "id": "n1_019_5",
@@ -142,7 +199,20 @@
           "hiragana_full": "おんしにかんしゃのきもちをつたえないわけにはいかない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "恩師",
+          "reading": "おんし",
+          "meaning": "one's former teacher; mentor"
+        },
+        {
+          "word": "感謝",
+          "reading": "かんしゃ",
+          "meaning": "gratitude"
+        }
+      ]
     },
     {
       "id": "n1_019_6",
@@ -170,7 +240,20 @@
           "hiragana_full": "このかんきょうはかいのしんこくさにちょくめんして、きぎょうもこうどうをおこさなければならない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "環境破壊",
+          "reading": "かんきょうはかい",
+          "meaning": "environmental destruction"
+        },
+        {
+          "word": "深刻さ",
+          "reading": "しんこくさ",
+          "meaning": "seriousness"
+        }
+      ]
     },
     {
       "id": "n1_019_7",
@@ -198,7 +281,20 @@
           "hiragana_full": "こどもたちのしょうらいのため、きょういくかいかくをすすめないわけにはいかない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "将来",
+          "reading": "しょうらい",
+          "meaning": "future"
+        },
+        {
+          "word": "教育改革",
+          "reading": "きょういくかいかく",
+          "meaning": "educational reform"
+        }
+      ]
     },
     {
       "id": "n1_019_8",
@@ -226,7 +322,20 @@
           "hiragana_full": "かれのけんしんてきなどりょくをひょうかしないわけにはいかない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "献身的",
+          "reading": "けんしんてき",
+          "meaning": "devoted; dedicated"
+        },
+        {
+          "word": "評価",
+          "reading": "ひょうか",
+          "meaning": "to appreciate; evaluate"
+        }
+      ]
     },
     {
       "id": "n1_019_9",
@@ -254,7 +363,25 @@
           "hiragana_full": "かんとくとして、チームのはいぼくのせきにんをとらざるをえない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "敗北",
+          "reading": "はいぼく",
+          "meaning": "defeat"
+        },
+        {
+          "word": "監督",
+          "reading": "かんとく",
+          "meaning": "coach; manager"
+        },
+        {
+          "word": "責任",
+          "reading": "せきにん",
+          "meaning": "responsibility"
+        }
+      ]
     },
     {
       "id": "n1_019_10",
@@ -282,7 +409,20 @@
           "hiragana_full": "かんじゃのいのちをあずかるいしとして、さいぜんをつくさなければならない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "預かる",
+          "reading": "あずかる",
+          "meaning": "to be entrusted with"
+        },
+        {
+          "word": "最善",
+          "reading": "さいぜん",
+          "meaning": "one's best"
+        }
+      ]
     }
   ]
 }

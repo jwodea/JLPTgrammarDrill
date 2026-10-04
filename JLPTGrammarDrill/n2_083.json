@@ -10,12 +10,12 @@
       "translation": "While listening to the explanation of the artwork, the young students had interested expressions on their faces.",
       "blank_target": "げな",
       "wrong_choices": [
-        "そうな",
+        "ぶった",
         "っぽい",
         "らしい"
       ],
       "wrong_choice_explanations": [
-        "そうな indicates likelihood based on appearance or hearsay, but doesn't express the visible emotional state that げ conveys.",
+        "ぶった (from ぶる, 'put on airs of', e.g. 偉ぶった) does not attach to 興味深い, and would suggest pretence rather than the visible interest that げな conveys.",
         "っぽい means 'having the tendency of' or 'like', but lacks the specific nuance of visible emotional expression that げ provides.",
         "らしい expresses hearsay or typical characteristics, but doesn't capture the direct observation of emotional state that げ indicates."
       ],
@@ -30,38 +30,23 @@
           "hiragana_full": "わかいがくせいたちはびじゅつひんのせつめいをききながら、きょうみぶかげなひょうじょうをうかべていた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "美術品",
+          "reading": "びじゅつひん",
+          "meaning": "artwork"
+        },
+        {
+          "word": "表情",
+          "reading": "ひょうじょう",
+          "meaning": "facial expression"
+        }
+      ]
     },
     {
       "id": "n2_083_2",
-      "example_sentence": "彼は非常に悲しげな表情をしていた。",
-      "translation": "He had a deeply sad expression on his face.",
-      "blank_target": "げな",
-      "wrong_choices": [
-        "そうな",
-        "がちな",
-        "みたいな"
-      ],
-      "wrong_choice_explanations": [
-        "そうな (悲しそうな) is closest in meaning, but it merely reports how things look right now from outside — げな adds the literary, observed-from-the-inside emotional tone.",
-        "がちな means 'tending to' or 'prone to' a recurring state — describing a single observed expression of sadness, you want げな, not a tendency marker.",
-        "みたいな means 'like' or 'similar to', but it draws a comparison rather than describing the visible emotional state that げな captures."
-      ],
-      "hiragana_full": "かれはひじょうにかなしげなひょうじょうをしていた",
-      "audio_alternatives": [
-        {
-          "kanji": "彼はとても悲しそうな顔をしていた。",
-          "hiragana_full": "かれはとてもかなしそうなかおをしていた"
-        },
-        {
-          "kanji": "彼は非常に悲しげな表情を浮かべていた。",
-          "hiragana_full": "かれはひじょうにかなしげなひょうじょうをうかべていた"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_083_3",
       "example_sentence": "夕焼けを見ながら、彼女は寂しげな表情をしていた。",
       "translation": "While watching the sunset, she had a lonely-looking expression on her face.",
       "blank_target": "げな",
@@ -86,20 +71,33 @@
           "hiragana_full": "ゆうやけをみつめながら、かのじょはさびしげなかおをしていた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "夕焼け",
+          "reading": "ゆうやけ",
+          "meaning": "sunset glow"
+        },
+        {
+          "word": "表情",
+          "reading": "ひょうじょう",
+          "meaning": "facial expression"
+        }
+      ]
     },
     {
-      "id": "n2_083_4",
+      "id": "n2_083_3",
       "example_sentence": "彼は決算結果を見ながら、不満げな表情をしていた。",
       "translation": "While looking at the financial results, he had a dissatisfied expression on his face.",
       "blank_target": "げな",
       "wrong_choices": [
-        "そうな",
+        "がちな",
         "的な",
         "風な"
       ],
       "wrong_choice_explanations": [
-        "そうな (不満そうな) is grammatical and close in meaning, but it reports surface likelihood — げな adds the literary observed-emotion register more suited to written prose.",
+        "がちな marks a habitual tendency attached to verb stems (忘れがちな); 不満がちな is not idiomatic and can't describe the dissatisfaction visible on his face at that moment, which げな expresses.",
         "的な attaches to nouns to form general descriptive adjectives ('philosophical', 'economic') — 不満的 isn't an established word, and the slot here calls for an emotion-marker like げな.",
         "風な means 'in the style of' and works for stylistic resemblance (学者風な口調), but doesn't describe the visible emotional state on someone's face."
       ],
@@ -114,76 +112,28 @@
           "hiragana_full": "かれはけっさんけっかをながめながら、ふまんげなかおつきをしていた。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_083_5",
-      "example_sentence": "教授は学生からの質問を受けながら、満足げな表情をしていた。",
-      "translation": "While receiving questions from students, the professor had a satisfied expression on his face.",
-      "blank_target": "げな",
-      "wrong_choices": [
-        "そうな",
-        "ばかりの",
-        "みたいな"
-      ],
-      "wrong_choice_explanations": [
-        "そうな (満足そうな) is grammatical, but it describes how the expression appears from outside — げな is the literary, observed-emotion form that suits the descriptive prose here.",
-        "ばかりの means 'just (now)' and typically follows verbs (始まったばかりの) — it can't combine with 満足 to mark a visible emotional state.",
-        "みたいな means 'like' and draws a comparison, but the slot here needs the direct emotional-expression marker that げな supplies."
-      ],
-      "hiragana_full": "きょうじゅはがくせいからのしつもんをうけながら、まんぞくげなひょうじょうをしていた。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "教授は学生からの質問を聞きつつ、満足そうな表情を浮かべていた。",
-          "hiragana_full": "きょうじゅはがくせいからのしつもんをききつつ、まんぞくそうなひょうじょうをうかべていた。"
-        },
-        {
-          "kanji": "学生からの質問を受けながら、教授は満足げな顔をしていた。",
-          "hiragana_full": "がくせいからのしつもんをうけながら、きょうじゅはまんぞくげなかおをしていた。"
+          "word": "決算",
+          "reading": "けっさん",
+          "meaning": "financial results"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n2_083_6",
-      "example_sentence": "子供たちは新しいおもちゃを見て、嬉しげな笑顔を見せた。",
-      "translation": "The children showed happy expressions when they saw the new toys.",
-      "blank_target": "げな",
-      "wrong_choices": [
-        "そうな",
-        "っぽい",
-        "らしい"
-      ],
-      "wrong_choice_explanations": [
-        "そうな indicates probability or hearsay, but doesn't express the visible happy emotional state.",
-        "っぽい means 'having the tendency of', but doesn't convey the immediate visible joy that げ indicates.",
-        "らしい expresses what is typical or heard, but doesn't capture the direct observation of happy expression."
-      ],
-      "hiragana_full": "こどもたちはあたらしいおもちゃをみて、うれしげなえがおをみせた。",
-      "audio_alternatives": [
-        {
-          "kanji": "子供たちは新しいおもちゃを見て、嬉しそうな表情を見せた。",
-          "hiragana_full": "こどもたちはあたらしいおもちゃをみて、うれしそうなひょうじょうをみせた。"
-        },
-        {
-          "kanji": "新しいおもちゃを見た子供たちは、嬉しげな笑顔を浮かべた。",
-          "hiragana_full": "あたらしいおもちゃをみたこどもたちは、うれしげなえがおをうかべた。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_083_7",
+      "id": "n2_083_4",
       "example_sentence": "彼女は恋人からの手紙を読んで、恥ずかしげに微笑んだ。",
       "translation": "She smiled shyly after reading the letter from her boyfriend.",
       "blank_target": "げに",
       "wrong_choices": [
-        "そうに",
+        "ぶって",
         "っぽく",
         "らしく"
       ],
       "wrong_choice_explanations": [
-        "そうに suggests appearance or likelihood, but doesn't express the visible shy emotional state that げに conveys.",
+        "ぶって (from ぶる, 'put on airs', e.g. 偉ぶって) does not attach to 恥ずかしい and would suggest pretence, not the visible shy emotional state that げに conveys.",
         "っぽく means 'in a way that has the tendency of', but lacks the emotional nuance that げに provides.",
         "らしく means 'in a typical way', but doesn't capture the visible shy emotional expression."
       ],
@@ -198,10 +148,18 @@
           "hiragana_full": "こいびとからのてがみをよんで、かのじょははずかしそうにほほえんだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "恋人",
+          "reading": "こいびと",
+          "meaning": "lover, partner"
+        }
+      ]
     },
     {
-      "id": "n2_083_8",
+      "id": "n2_083_5",
       "example_sentence": "試験の結果を待つ間、学生たちは不安げな様子だった。",
       "translation": "While waiting for the exam results, the students looked anxious.",
       "blank_target": "げな",
@@ -226,20 +184,28 @@
           "hiragana_full": "しけんのけっかをまつあいだ、がくせいたちはふあんなようすをみせていた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "様子",
+          "reading": "ようす",
+          "meaning": "appearance, state"
+        }
+      ]
     },
     {
-      "id": "n2_083_9",
+      "id": "n2_083_6",
       "example_sentence": "母親は息子の成長を見守りながら、誇らしげに微笑んでいた。",
       "translation": "The mother smiled proudly while watching her son's growth.",
       "blank_target": "げに",
       "wrong_choices": [
-        "そうに",
+        "ぶって",
         "風に",
         "みたいに"
       ],
       "wrong_choice_explanations": [
-        "そうに suggests appearance or likelihood, but doesn't express the visible proud emotional state that げに conveys.",
+        "ぶって (from ぶる, 'put on airs', e.g. 偉ぶって) suggests pretending and does not attach to 誇らしい, so it can't express the visible proud emotional state that げに conveys.",
         "風に means 'in the manner of', but lacks the emotional nuance and visibility that げに provides.",
         "みたいに means 'like', but doesn't capture the specific visible emotional expression that げに indicates."
       ],
@@ -254,20 +220,28 @@
           "hiragana_full": "ははおやはほこらしげにほほえみながら、むすこのせいちょうをみまもっていた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "成長",
+          "reading": "せいちょう",
+          "meaning": "growth"
+        }
+      ]
     },
     {
-      "id": "n2_083_10",
+      "id": "n2_083_7",
       "example_sentence": "彼は失敗を知らされて、悔しげな表情を浮かべた。",
       "translation": "When he was told about the failure, he showed a frustrated expression.",
       "blank_target": "げな",
       "wrong_choices": [
-        "そうな",
+        "がちな",
         "っぽい",
         "らしい"
       ],
       "wrong_choice_explanations": [
-        "そうな indicates probability or hearsay, but doesn't express the visible frustrated emotional state.",
+        "がちな marks a habitual tendency attached to verb stems, but 悔しがちな is not a natural form and doesn't convey the immediate visible frustration that げな indicates.",
         "っぽい means 'having the tendency of', but doesn't convey the immediate visible frustration that げ indicates.",
         "らしい expresses what is typical or heard, but doesn't capture the direct observation of frustrated expression."
       ],
@@ -282,7 +256,114 @@
           "hiragana_full": "しっぱいをしらされたかれは、くやしげなかおつきをみせた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "表情",
+          "reading": "ひょうじょう",
+          "meaning": "facial expression"
+        }
+      ]
+    },
+    {
+      "id": "n2_083_8",
+      "example_sentence": "彼女は何か言いたげな顔をしていた。",
+      "translation": "She had a look as if she wanted to say something.",
+      "blank_target": "げな",
+      "wrong_choices": [
+        "がちな",
+        "っぽい",
+        "らしい"
+      ],
+      "wrong_choice_explanations": [
+        "がちな attaches to verb stems to mark a habitual tendency (言いがちな = 'apt to say'); it cannot follow the たい-stem 言いた, and it would describe a habit rather than the feeling visible on her face that げな portrays.",
+        "っぽい attaches to nouns to mean 'tending toward / having a feel of' (子供っぽい, 嘘っぽい); it doesn't combine with 言いたい to portray a momentary emotion showing on her face — the collocation is off.",
+        "らしい would shift the source to hearsay or typicality ('apparently she wanted to say something' / 'in the manner of someone wanting to say something') rather than the speaker reporting what they directly saw — げな marks the visible emotion."
+      ],
+      "hiragana_full": "かのじょはなにかいいたげなかおをしていた。",
+      "audio_alternatives": [
+        {
+          "kanji": "彼女は何か言いたそうな顔をしていた。",
+          "hiragana_full": "かのじょはなにかいいたそうなかおをしていた。"
+        },
+        {
+          "kanji": "彼女は何か言いたげな様子だった。",
+          "hiragana_full": "かのじょはなにかいいたげなようすだった。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral"
+    },
+    {
+      "id": "n2_083_9",
+      "example_sentence": "子供たちは楽しげに遊んでいる。",
+      "translation": "The children are playing with joyful expressions.",
+      "blank_target": "げに",
+      "wrong_choices": [
+        "がちに",
+        "っぽく",
+        "らしく"
+      ],
+      "wrong_choice_explanations": [
+        "がちに marks a habitual tendency on verb stems (遅れがちに); 楽しがちに is ungrammatical and can't describe the joy visible in the children's play, which げに expresses.",
+        "っぽく attaches to nouns or some adj stems for tendency or resemblance (子供っぽく), but 楽しっぽく isn't a natural collocation — っぽく doesn't combine with emotional i-adj stems to express a visible state.",
+        "らしく means 'in a manner typical of' (子供らしく = 'in a typically childlike way'). The sentence reports the children's own joy showing in their play, not that the play was typical of joy — げに is the form."
+      ],
+      "hiragana_full": "こどもたちはたのしげにあそんでいる。",
+      "audio_alternatives": [
+        {
+          "kanji": "子供たちは嬉しそうに遊んでいる。",
+          "hiragana_full": "こどもたちはうれしそうにあそんでいる。"
+        },
+        {
+          "kanji": "子供たちは楽しそうに遊んでいます。",
+          "hiragana_full": "こどもたちはたのしそうにあそんでいます。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral"
+    },
+    {
+      "id": "n2_083_10",
+      "example_sentence": "学生は自信なさげな表情で質問に答えた。",
+      "translation": "The student answered the question with an unsure expression.",
+      "blank_target": "げな",
+      "wrong_choices": [
+        "めいた",
+        "っぽい",
+        "みたいな"
+      ],
+      "wrong_choice_explanations": [
+        "めいた (from めく, 'show signs of', e.g. 春めいた) attaches to a limited set of nouns; 自信なさめいた is ungrammatical and can't depict the uncertainty showing on the student's face the way げな does.",
+        "っぽい attaches to nouns to mean 'tending toward' (子供っぽい); it does not combine with 自信なさ to portray a momentary expression, so the collocation is wrong here.",
+        "みたいな means 'like / similar to' and would compare the student to something else, rather than capture the uncertainty showing on their face the way げな does."
+      ],
+      "hiragana_full": "がくせいはじしんなさげなひょうじょうでしつもんにこたえた。",
+      "audio_alternatives": [
+        {
+          "kanji": "学生は自信なさそうな表情で質問に答えた。",
+          "hiragana_full": "がくせいはじしんなさそうなひょうじょうでしつもんにこたえた。"
+        },
+        {
+          "kanji": "学生は不安げな様子で質問に答えました。",
+          "hiragana_full": "がくせいはふあんげなようすでしつもんにこたえました。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "自信",
+          "reading": "じしん",
+          "meaning": "confidence"
+        },
+        {
+          "word": "表情",
+          "reading": "ひょうじょう",
+          "meaning": "expression"
+        }
+      ]
     }
   ]
 }

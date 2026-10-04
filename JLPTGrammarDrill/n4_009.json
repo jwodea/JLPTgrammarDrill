@@ -6,102 +6,146 @@
   "exercises": [
     {
       "id": "n4_009_1",
-      "example_sentence": "友達にプレゼントをあげた。",
-      "translation": "I gave a present to my friend.",
-      "blank_target": "に",
+      "example_sentence": "私は友達に誕生日のプレゼントをあげた。",
+      "translation": "I gave my friend a birthday present.",
+      "blank_target": "あげた",
       "wrong_choices": [
-        "で",
-        "と",
-        "から"
+        "くれた",
+        "くださった",
+        "あがった"
       ],
       "wrong_choice_explanations": [
-        "で marks a location or means (家で, バスで), never the person who receives something; the recipient of あげる takes に.",
-        "と means 'together with' (友達と遊ぶ), describing a companion, not the one who gets the present — that role is marked by に.",
-        "から marks a source, 'from' (友達からもらう = receive from a friend), the opposite direction of giving; the present goes to the friend, so に is needed."
+        "くれた describes giving TO the speaker's side; with 私は as the giver, a くれる form is impossible.",
+        "くださった is the respectful くれる, used when someone gives TO the speaker; here the speaker is the giver.",
+        "あがった is the intransitive 'went up'; it can't take プレゼントを as an object and doesn't mean 'give'."
       ],
-      "hiragana_full": "ともだちにぷれぜんとをあげた。",
+      "hiragana_full": "わたしはともだちにたんじょうびのぷれぜんとをあげた。",
       "audio_alternatives": [
         {
-          "kanji": "友達にプレゼントをあげました。",
-          "hiragana_full": "ともだちにぷれぜんとをあげました。"
+          "kanji": "友達に誕生日のプレゼントをあげました。",
+          "hiragana_full": "ともだちにたんじょうびのぷれぜんとをあげました。"
         },
         {
-          "kanji": "友達へプレゼントをあげた。",
-          "hiragana_full": "ともだちへぷれぜんとをあげた。"
+          "kanji": "私は友達に誕生日プレゼントをあげたよ。",
+          "hiragana_full": "わたしはともだちにたんじょうびぷれぜんとをあげたよ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "友達",
+          "reading": "ともだち",
+          "meaning": "friend"
+        },
+        {
+          "word": "誕生日",
+          "reading": "たんじょうび",
+          "meaning": "birthday"
+        }
+      ]
     },
     {
       "id": "n4_009_2",
-      "example_sentence": "妹に手作りのクッキーをあげました。",
+      "example_sentence": "私は妹に手作りのクッキーをあげました。",
       "translation": "I gave homemade cookies to my younger sister.",
-      "blank_target": "に",
+      "blank_target": "あげました",
       "wrong_choices": [
-        "を",
-        "から",
-        "と"
+        "くれました",
+        "さしあげました",
+        "あがりました"
       ],
       "wrong_choice_explanations": [
-        "を marks the direct object, which here is クッキー; 妹を would wrongly cast your sister as the thing handed over. The recipient takes に.",
-        "から means 'from' (妹からもらう), marking the source; but the cookies go to your sister, not from her, so the giving direction calls for に.",
-        "と means 'with' (妹と作る = make together with her), a companion reading; the person who receives the cookies is marked by に."
+        "くれました would mean someone gave TO the speaker's side; with 私は as the giver, a くれる form is impossible.",
+        "さしあげました is the humble 'give' used toward people you must show respect to; it is not used for your own younger sister.",
+        "あがりました is the intransitive 'went up'; it can't take クッキーを as an object and doesn't mean 'give'."
       ],
-      "hiragana_full": "いもうとにてづくりのくっきーをあげました",
+      "hiragana_full": "わたしはいもうとにてづくりのくっきーをあげました。",
       "audio_alternatives": [
         {
-          "kanji": "妹に手作りのクッキーをあげた。",
-          "hiragana_full": "いもうとにてづくりのくっきーをあげた"
+          "kanji": "私は妹に手作りのクッキーをあげた。",
+          "hiragana_full": "わたしはいもうとにてづくりのくっきーをあげた。"
         },
         {
           "kanji": "手作りのクッキーを妹にあげました。",
-          "hiragana_full": "てづくりのくっきーをいもうとにあげました"
+          "hiragana_full": "てづくりのくっきーをいもうとにあげました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "妹",
+          "reading": "いもうと",
+          "meaning": "younger sister"
+        },
+        {
+          "word": "手作り",
+          "reading": "てづくり",
+          "meaning": "handmade"
+        }
+      ]
     },
     {
       "id": "n4_009_3",
-      "example_sentence": "恋人にバラの花をあげる予定です。",
-      "translation": "I plan to give roses to my girlfriend.",
-      "blank_target": "に",
+      "example_sentence": "記念日に、恋人にバラの花をあげるつもりです。",
+      "translation": "I intend to give my partner roses on our anniversary.",
+      "blank_target": "あげる",
       "wrong_choices": [
-        "と",
-        "から",
-        "まで"
+        "くれる",
+        "くださる",
+        "あがる"
       ],
       "wrong_choice_explanations": [
-        "と means 'together with' (恋人と出かける); it describes accompaniment, not the person receiving the roses, which に marks.",
-        "から marks a source, 'from' (恋人からもらう); the roses go to your partner, the reverse direction, so あげる takes に.",
-        "まで means 'as far as / even' (駅まで, 恋人まで = 'even my partner'), an endpoint or extreme, not the plain recipient of a gift, which is に."
+        "つもり shows the speaker's own plan, so the speaker is the giver; くれる can only describe giving toward the speaker's side.",
+        "くださる is the respectful くれる, used when someone gives TO the speaker; it can't describe the speaker's own plan to give.",
+        "あがる is intransitive ('go up'); it can't take バラの花を as an object and doesn't mean 'give'."
       ],
-      "hiragana_full": "こいびとにばらのはなをあげるよていです",
+      "hiragana_full": "きねんびに、こいびとにばらのはなをあげるつもりです。",
       "audio_alternatives": [
         {
-          "kanji": "恋人にバラの花をあげるつもりです。",
-          "hiragana_full": "こいびとにばらのはなをあげるつもりです"
+          "kanji": "記念日に、恋人にバラの花をあげようと思っています。",
+          "hiragana_full": "きねんびに、こいびとにばらのはなをあげようとおもっています。"
         },
         {
-          "kanji": "彼女にバラの花をあげる予定です。",
-          "hiragana_full": "かのじょにばらのはなをあげるよていです"
+          "kanji": "記念日には恋人にバラをあげるつもりだ。",
+          "hiragana_full": "きねんびにはこいびとにばらをあげるつもりだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "記念日",
+          "reading": "きねんび",
+          "meaning": "anniversary"
+        },
+        {
+          "word": "恋人",
+          "reading": "こいびと",
+          "meaning": "boyfriend/girlfriend"
+        },
+        {
+          "word": "バラ",
+          "reading": "ばら",
+          "meaning": "rose"
+        }
+      ]
     },
     {
       "id": "n4_009_4",
       "example_sentence": "息子に新しいゲームをあげよう。",
       "translation": "Let's give our son a new game.",
-      "blank_target": "に",
+      "blank_target": "あげよう",
       "wrong_choices": [
-        "を",
-        "から",
-        "で"
+        "さしあげよう",
+        "いただこう",
+        "あがろう"
       ],
       "wrong_choice_explanations": [
-        "を marks the direct object (here ゲーム); 息子を would make your son the thing being given. The recipient is marked by に.",
-        "から means 'from' (息子からもらう = receive from your son); the game goes to him, so the giving direction needs に.",
-        "で marks means or location (店で買う); it can't mark the person who receives the game, which takes に."
+        "さしあげよう is the humble 'give' used toward people of higher status; parents don't use it toward their own son.",
+        "いただこう means humbly 'receive'; it reverses the direction (the parents are giving) and is far too humble toward one's own son.",
+        "あがろう is the intransitive 'let's go up'; it can't take ゲームを as an object and doesn't mean 'give'."
       ],
       "hiragana_full": "むすこにあたらしいげーむをあげよう。",
       "audio_alternatives": [
@@ -110,26 +154,39 @@
           "hiragana_full": "むすこにあたらしいげーむをあげましょう。"
         },
         {
-          "kanji": "息子へ新しいゲームをあげよう。",
-          "hiragana_full": "むすこへあたらしいげーむをあげよう。"
+          "kanji": "息子へ新しいゲームを買ってあげよう。",
+          "hiragana_full": "むすこへあたらしいげーむをかってあげよう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "息子",
+          "reading": "むすこ",
+          "meaning": "son"
+        },
+        {
+          "word": "新しい",
+          "reading": "あたらしい",
+          "meaning": "new"
+        }
+      ]
     },
     {
       "id": "n4_009_5",
       "example_sentence": "犬に新しいおもちゃをあげた。",
-      "translation": "I gave a new toy to the dog.",
-      "blank_target": "に",
+      "translation": "I gave the dog a new toy.",
+      "blank_target": "あげた",
       "wrong_choices": [
-        "と",
-        "を",
-        "から"
+        "もらった",
+        "さしあげた",
+        "あがった"
       ],
       "wrong_choice_explanations": [
-        "と means 'together with' (犬と散歩する); it reads as a companion, not the recipient of the toy, which に marks.",
-        "を marks the direct object (おもちゃ); 犬を would make the dog the thing handed over. The recipient takes に.",
-        "から means 'from' (犬から離れる); the toy goes to the dog, the opposite direction, so あげる needs に."
+        "もらった would mean the toy was received FROM the dog, but a dog can't give anyone a toy; the toy went to the dog.",
+        "さしあげた is the humble 'give' used toward people of higher status; it is never used toward an animal.",
+        "あがった is the intransitive 'went up'; it can't take おもちゃを as an object and doesn't mean 'give'."
       ],
       "hiragana_full": "いぬにあたらしいおもちゃをあげた。",
       "audio_alternatives": [
@@ -142,147 +199,230 @@
           "hiragana_full": "あたらしいおもちゃをいぬにあげた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "犬",
+          "reading": "いぬ",
+          "meaning": "dog"
+        },
+        {
+          "word": "おもちゃ",
+          "reading": "おもちゃ",
+          "meaning": "toy"
+        }
+      ]
     },
     {
       "id": "n4_009_6",
-      "example_sentence": "祖父に写真をあげます。",
-      "translation": "I will give photos to grandfather.",
-      "blank_target": "に",
+      "example_sentence": "私は祖父に旅行の写真をあげました。",
+      "translation": "I gave my grandfather the photos from my trip.",
+      "blank_target": "あげました",
       "wrong_choices": [
-        "で",
-        "から",
-        "まで"
+        "くれました",
+        "くださいました",
+        "あがりました"
       ],
       "wrong_choice_explanations": [
-        "で marks location or means (家で, メールで); it never marks the person receiving the photos, which takes に.",
-        "から means 'from' (祖父からもらう); the photos go to your grandfather, so the giving direction calls for に.",
-        "まで means 'as far as / even' (祖父まで = 'even grandfather'), an endpoint or extreme; the plain recipient of あげる is marked by に."
+        "くれました describes giving TO the speaker's side; with 私は as the giver, a くれる form is impossible.",
+        "くださいました is the respectful くれる, for someone giving TO the speaker; here the speaker is the giver.",
+        "あがりました is the intransitive 'went up'; it can't take 写真を as an object and doesn't mean 'give'."
       ],
-      "hiragana_full": "そふにしゃしんをあげます",
+      "hiragana_full": "わたしはそふにりょこうのしゃしんをあげました。",
       "audio_alternatives": [
         {
-          "kanji": "祖父に写真をあげる。",
-          "hiragana_full": "そふにしゃしんをあげる"
+          "kanji": "私は祖父に旅行の写真をあげた。",
+          "hiragana_full": "わたしはそふにりょこうのしゃしんをあげた。"
         },
         {
-          "kanji": "おじいさんに写真をあげます。",
-          "hiragana_full": "おじいさんにしゃしんをあげます"
+          "kanji": "旅行の写真をおじいさんにあげました。",
+          "hiragana_full": "りょこうのしゃしんをおじいさんにあげました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "祖父",
+          "reading": "そふ",
+          "meaning": "(my) grandfather"
+        },
+        {
+          "word": "旅行",
+          "reading": "りょこう",
+          "meaning": "trip"
+        },
+        {
+          "word": "写真",
+          "reading": "しゃしん",
+          "meaning": "photo"
+        }
+      ]
     },
     {
       "id": "n4_009_7",
-      "example_sentence": "近所の子供たちにお菓子をあげました。",
-      "translation": "I gave sweets to the neighborhood children.",
-      "blank_target": "に",
+      "example_sentence": "私は近所の子供たちに絵本を読んであげました。",
+      "translation": "I read picture books to the neighborhood children.",
+      "blank_target": "あげました",
       "wrong_choices": [
-        "を",
-        "で",
-        "と"
+        "くれました",
+        "さしあげました",
+        "くださいました"
       ],
       "wrong_choice_explanations": [
-        "を marks the direct object (お菓子); 子供たちを would make the children the thing given away. The recipient takes に.",
-        "で marks location or means (公園で); it can't mark the people who receive the sweets, which takes に.",
-        "と means 'together with' (子供たちと遊ぶ); a companion reading, not the recipients of the sweets, which に marks."
+        "読んでくれました would mean someone read FOR the speaker's side; with 私は as the reader, a くれる form is impossible.",
+        "読んでさしあげました is the humble 'do for' used toward people of higher status; it is not used toward small children.",
+        "読んでくださいました is the respectful くれる, for someone doing something FOR the speaker; here the speaker is the one reading."
       ],
-      "hiragana_full": "きんじょのこどもたちにおかしをあげました",
+      "hiragana_full": "わたしはきんじょのこどもたちにえほんをよんであげました。",
       "audio_alternatives": [
         {
-          "kanji": "近所の子供たちにお菓子をあげた。",
-          "hiragana_full": "きんじょのこどもたちにおかしをあげた"
+          "kanji": "私は近所の子供たちに絵本を読んであげた。",
+          "hiragana_full": "わたしはきんじょのこどもたちにえほんをよんであげた。"
         },
         {
-          "kanji": "近所の子供たちにお菓子をわたしました。",
-          "hiragana_full": "きんじょのこどもたちにおかしをわたしました"
+          "kanji": "近所の子供たちのために絵本を読みました。",
+          "hiragana_full": "きんじょのこどもたちのためにえほんをよみました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "近所",
+          "reading": "きんじょ",
+          "meaning": "neighborhood"
+        },
+        {
+          "word": "絵本",
+          "reading": "えほん",
+          "meaning": "picture book"
+        }
+      ]
     },
     {
       "id": "n4_009_8",
       "example_sentence": "同級生に辞書をあげたい。",
       "translation": "I want to give a dictionary to my classmate.",
-      "blank_target": "に",
+      "blank_target": "あげたい",
       "wrong_choices": [
-        "から",
-        "と",
-        "を"
+        "くれたい",
+        "くださりたい",
+        "あがりたい"
       ],
       "wrong_choice_explanations": [
-        "から means 'from' (同級生からもらう); the dictionary goes to your classmate, the reverse direction, so あげる needs に.",
-        "と means 'together with' (同級生と勉強する); it describes a study partner, not the person receiving the dictionary, which takes に.",
-        "を marks the direct object (辞書); 同級生を would make your classmate the thing given. The recipient is marked by に."
+        "たい shows the speaker's own wish, so the speaker is the giver; くれる only describes giving toward the speaker, so くれたい is impossible.",
+        "くださる is the respectful くれる (giving TO the speaker) and is never used with the speaker's own たい wish.",
+        "あがりたい is the intransitive 'want to go up'; it can't take 辞書を as an object and doesn't mean 'give'."
       ],
       "hiragana_full": "どうきゅうせいにじしょをあげたい。",
       "audio_alternatives": [
         {
           "kanji": "クラスメートに辞書をあげたい。",
-          "hiragana_full": "クラスメートにじしょをあげたい。"
+          "hiragana_full": "くらすめーとにじしょをあげたい。"
         },
         {
           "kanji": "同級生に辞書をあげたいです。",
           "hiragana_full": "どうきゅうせいにじしょをあげたいです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "同級生",
+          "reading": "どうきゅうせい",
+          "meaning": "classmate"
+        },
+        {
+          "word": "辞書",
+          "reading": "じしょ",
+          "meaning": "dictionary"
+        }
+      ]
     },
     {
       "id": "n4_009_9",
-      "example_sentence": "後輩にアドバイスをあげる。",
-      "translation": "I give advice to my junior.",
-      "blank_target": "に",
+      "example_sentence": "私は後輩に仕事のやり方を教えてあげた。",
+      "translation": "I taught my junior colleague how to do the job.",
+      "blank_target": "てあげた",
       "wrong_choices": [
-        "で",
-        "から",
-        "と"
+        "てくれた",
+        "てさしあげた",
+        "てくださった"
       ],
       "wrong_choice_explanations": [
-        "で marks means or location (会議で); it can't mark the person who receives the advice, which takes に.",
-        "から means 'from' (後輩からもらう = get advice from your junior); here the advice goes to the junior, so the giving direction needs に.",
-        "と means 'together with' (後輩と話す); a companion reading, not the recipient of the advice, which に marks."
+        "てくれた means someone did something FOR the speaker's side; with 私は as the one teaching, it is impossible.",
+        "てさしあげた is the humble 'do for' used toward people above you; you don't use it toward a junior (後輩).",
+        "てくださった is the respectful てくれた, for someone doing something FOR the speaker; here the speaker is the one teaching."
       ],
-      "hiragana_full": "こうはいにあどばいすをあげる。",
+      "hiragana_full": "わたしはこうはいにしごとのやりかたをおしえてあげた。",
       "audio_alternatives": [
         {
-          "kanji": "後輩にアドバイスをする。",
-          "hiragana_full": "こうはいにあどばいすをする。"
+          "kanji": "私は後輩に仕事のやり方を教えてあげました。",
+          "hiragana_full": "わたしはこうはいにしごとのやりかたをおしえてあげました。"
         },
         {
-          "kanji": "後輩にアドバイスをあげます。",
-          "hiragana_full": "こうはいにあどばいすをあげます。"
+          "kanji": "後輩に仕事のやり方を教えた。",
+          "hiragana_full": "こうはいにしごとのやりかたをおしえた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "後輩",
+          "reading": "こうはい",
+          "meaning": "junior (at school/work)"
+        },
+        {
+          "word": "やり方",
+          "reading": "やりかた",
+          "meaning": "way of doing"
+        }
+      ]
     },
     {
       "id": "n4_009_10",
-      "example_sentence": "弟にお小遣いをあげた。",
-      "translation": "I gave pocket money to my younger brother.",
-      "blank_target": "に",
+      "example_sentence": "私は弟にお小遣いをあげた。",
+      "translation": "I gave my younger brother some pocket money.",
+      "blank_target": "あげた",
       "wrong_choices": [
-        "を",
-        "から",
-        "だけ"
+        "くれた",
+        "さしあげた",
+        "あがった"
       ],
       "wrong_choice_explanations": [
-        "を marks the direct object (お小遣い); 弟を would make your brother the thing handed over. The recipient takes に.",
-        "から means 'from' (弟からもらう); the allowance goes to your brother, the opposite direction, so あげる needs に.",
-        "だけ means 'only' (弟だけ = 'only my brother'); it limits a noun but doesn't fill the recipient role, which still requires に (弟だけにあげた keeps the に)."
+        "くれた describes giving TO the speaker's side; with 私は as the giver, a くれる form is impossible.",
+        "さしあげた is the humble 'give' used toward people of higher status; it isn't used toward your own younger brother.",
+        "あがった is the intransitive 'went up'; it can't take お小遣いを as an object and doesn't mean 'give'."
       ],
-      "hiragana_full": "おとうとにおこづかいをあげた。",
+      "hiragana_full": "わたしはおとうとにおこづかいをあげた。",
       "audio_alternatives": [
+        {
+          "kanji": "私は弟にお小遣いをあげました。",
+          "hiragana_full": "わたしはおとうとにおこづかいをあげました。"
+        },
         {
           "kanji": "弟にお小遣いをやった。",
           "hiragana_full": "おとうとにおこづかいをやった。"
-        },
-        {
-          "kanji": "弟へお小遣いをあげた。",
-          "hiragana_full": "おとうとへおこづかいをあげた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "弟",
+          "reading": "おとうと",
+          "meaning": "younger brother"
+        },
+        {
+          "word": "お小遣い",
+          "reading": "おこづかい",
+          "meaning": "pocket money; allowance"
+        }
+      ]
     }
   ]
 }

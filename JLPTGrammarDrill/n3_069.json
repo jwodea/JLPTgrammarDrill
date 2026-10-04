@@ -30,35 +30,20 @@
           "hiragana_full": "とくいとはいえ、まだまだれんしゅうがひつようなだんかいです。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_069_10",
-      "example_sentence": "成長といっても、基盤がまだ脆弱です。",
-      "translation": "Even though I call it growth, the foundation is still fragile.",
-      "blank_target": "といっても",
-      "wrong_choices": [
-        "といえば",
-        "にしても",
-        "としても"
-      ],
-      "wrong_choice_explanations": [
-        "といえば means 'speaking of (growth)', used to introduce a topic, but the sentence qualifies the term 'growth' rather than introducing it, so といっても fits.",
-        "にしても means 'even granting it is growth', conceding the term broadly, but といっても qualifies the word 'growth', admitting the foundation is still fragile.",
-        "としても means 'even supposing it is growth', a hypothetical concession, but the speaker is qualifying a real assessment, so といっても fits."
-      ],
-      "hiragana_full": "せいちょうといっても、きばんがまだぜいじゃくです。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "成長とは言え、基盤がまだ脆弱です。",
-          "hiragana_full": "せいちょうとはいえ、きばんがまだぜいじゃくです。"
+          "word": "得意",
+          "reading": "とくい",
+          "meaning": "good at, one's strength"
         },
         {
-          "kanji": "成長と言っても、基盤はまだ弱いです。",
-          "hiragana_full": "せいちょうといっても、きばんはまだよわいです。"
+          "word": "段階",
+          "reading": "だんかい",
+          "meaning": "stage, phase"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
       "id": "n3_069_2",
@@ -86,7 +71,8 @@
           "hiragana_full": "プロジェクトマネージャーでも、さいしょはほとんどなにもできません。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n3_069_3",
@@ -114,7 +100,15 @@
           "hiragana_full": "りゅうがくといっても、たったさんかげつでした。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "留学",
+          "reading": "りゅうがく",
+          "meaning": "studying abroad"
+        }
+      ]
     },
     {
       "id": "n3_069_4",
@@ -142,7 +136,15 @@
           "hiragana_full": "すきだといっても、それほどしゅうちゃくしているわけではありません。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "執着",
+          "reading": "しゅうちゃく",
+          "meaning": "attachment, fixation"
+        }
+      ]
     },
     {
       "id": "n3_069_5",
@@ -170,7 +172,20 @@
           "hiragana_full": "にほんごができるとはいえ、にちじょうかいわれべるにすぎません。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "日常会話",
+          "reading": "にちじょうかいわ",
+          "meaning": "everyday conversation"
+        },
+        {
+          "word": "程度",
+          "reading": "ていど",
+          "meaning": "level, degree"
+        }
+      ]
     },
     {
       "id": "n3_069_6",
@@ -198,7 +213,20 @@
           "hiragana_full": "せんもんかだからといって、かんぺきではありません。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "専門家",
+          "reading": "せんもんか",
+          "meaning": "expert, specialist"
+        },
+        {
+          "word": "完璧",
+          "reading": "かんぺき",
+          "meaning": "perfect"
+        }
+      ]
     },
     {
       "id": "n3_069_7",
@@ -226,7 +254,8 @@
           "hiragana_full": "かんたんとはいえ、コツがひつようです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n3_069_8",
@@ -254,7 +283,25 @@
           "hiragana_full": "せいこうといっても、ながいめでみるとかだいがある。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "成功",
+          "reading": "せいこう",
+          "meaning": "success"
+        },
+        {
+          "word": "長期的",
+          "reading": "ちょうきてき",
+          "meaning": "long-term"
+        },
+        {
+          "word": "課題",
+          "reading": "かだい",
+          "meaning": "challenge, issue"
+        }
+      ]
     },
     {
       "id": "n3_069_9",
@@ -282,7 +329,71 @@
           "hiragana_full": "かいぜんとはいえ、こんぽんてきなかいけつではありません。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "改善",
+          "reading": "かいぜん",
+          "meaning": "improvement"
+        },
+        {
+          "word": "根本的",
+          "reading": "こんぽんてき",
+          "meaning": "fundamental"
+        },
+        {
+          "word": "解決",
+          "reading": "かいけつ",
+          "meaning": "solution, resolution"
+        }
+      ]
+    },
+    {
+      "id": "n3_069_10",
+      "example_sentence": "成長といっても、基盤がまだ脆弱です。",
+      "translation": "Even though I call it growth, the foundation is still fragile.",
+      "blank_target": "といっても",
+      "wrong_choices": [
+        "といえば",
+        "にしても",
+        "としても"
+      ],
+      "wrong_choice_explanations": [
+        "といえば means 'speaking of (growth)', used to introduce a topic, but the sentence qualifies the term 'growth' rather than introducing it, so といっても fits.",
+        "にしても means 'even granting it is growth', conceding the term broadly, but といっても qualifies the word 'growth', admitting the foundation is still fragile.",
+        "としても means 'even supposing it is growth', a hypothetical concession, but the speaker is qualifying a real assessment, so といっても fits."
+      ],
+      "hiragana_full": "せいちょうといっても、きばんがまだぜいじゃくです。",
+      "audio_alternatives": [
+        {
+          "kanji": "成長とは言え、基盤がまだ脆弱です。",
+          "hiragana_full": "せいちょうとはいえ、きばんがまだぜいじゃくです。"
+        },
+        {
+          "kanji": "成長と言っても、基盤はまだ弱いです。",
+          "hiragana_full": "せいちょうといっても、きばんはまだよわいです。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "成長",
+          "reading": "せいちょう",
+          "meaning": "growth"
+        },
+        {
+          "word": "基盤",
+          "reading": "きばん",
+          "meaning": "foundation, base"
+        },
+        {
+          "word": "脆弱",
+          "reading": "ぜいじゃく",
+          "meaning": "fragile, weak"
+        }
+      ]
     }
   ]
 }

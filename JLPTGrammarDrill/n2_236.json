@@ -1,0 +1,243 @@
+{
+  "id": "n2_236",
+  "pattern": "ちなみに",
+  "meaning": "by the way; incidentally; for your information (adding related supplementary info)",
+  "level": "N2",
+  "exercises": [
+    {
+      "id": "n2_236_1",
+      "example_sentence": "会議は三時から始まります。ちなみに、場所はいつもの会議室です。",
+      "translation": "The meeting starts at three. Incidentally, it's in the usual meeting room.",
+      "blank_target": "ちなみに",
+      "wrong_choices": ["ところで", "なぜなら", "つまり"],
+      "wrong_choice_explanations": [
+        "ところで means 'by the way' as a shift to a new, unrelated topic, but here the second sentence adds a detail about the same meeting, which is exactly what ちなみに is for.",
+        "なぜなら means 'because', introducing a reason, yet the location isn't the reason for the start time — it's a supplementary detail.",
+        "つまり means 'in other words', restating the previous point, but the room is new information, not a rephrasing of the start time."
+      ],
+      "hiragana_full": "かいぎはさんじからはじまります。ちなみに、ばしょはいつものかいぎしつです。",
+      "audio_alternatives": [
+        { "kanji": "会議は三時開始です。なお、会場はいつもの部屋です。", "hiragana_full": "かいぎはさんじかいしです。なお、かいじょうはいつものへやです。" },
+        { "kanji": "三時から会議があります。ちなみに、部屋は前回と同じです。", "hiragana_full": "さんじからかいぎがあります。ちなみに、へやはぜんかいとおなじです。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "会議", "reading": "かいぎ", "meaning": "meeting" },
+        { "word": "場所", "reading": "ばしょ", "meaning": "place; location" },
+        { "word": "会議室", "reading": "かいぎしつ", "meaning": "meeting room" }
+      ]
+    },
+    {
+      "id": "n2_236_2",
+      "example_sentence": "この料理はとても人気があります。ちなみに、レシピは店のサイトで公開されています。",
+      "translation": "This dish is very popular. Incidentally, the recipe is available on the restaurant's website.",
+      "blank_target": "ちなみに",
+      "wrong_choices": ["したがって", "ただし", "一方"],
+      "wrong_choice_explanations": [
+        "したがって means 'therefore', drawing a logical conclusion, but the recipe being online isn't a consequence of the dish's popularity — it's an added aside.",
+        "ただし means 'however; provided that', introducing a condition or exception, whereas the second sentence adds friendly extra information, not a caveat.",
+        "一方 means 'on the other hand', signaling a contrast, yet there is no contrasting point here — just a related detail."
+      ],
+      "hiragana_full": "このりょうりはとてもにんきがあります。ちなみに、れしぴはみせのさいとでこうかいされています。",
+      "audio_alternatives": [
+        { "kanji": "この料理は大変好評です。なお、作り方は当店のサイトに載せてあります。", "hiragana_full": "このりょうりはたいへんこうひょうです。なお、つくりかたはとうてんのさいとにのせてあります。" },
+        { "kanji": "この一品は人気です。ちなみに、レシピはネットで見られますよ。", "hiragana_full": "このいっぴんはにんきです。ちなみに、れしぴはねっとでみられますよ。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "人気", "reading": "にんき", "meaning": "popularity" },
+        { "word": "公開", "reading": "こうかい", "meaning": "making public; releasing" }
+      ]
+    },
+    {
+      "id": "n2_236_3",
+      "example_sentence": "駅前に新しいカフェができた。ちなみに、開店記念で今週は全品半額らしいよ。",
+      "translation": "A new café opened in front of the station. By the way, everything's apparently half price this week for the opening.",
+      "blank_target": "ちなみに",
+      "wrong_choices": ["ところで", "だから", "とはいえ"],
+      "wrong_choice_explanations": [
+        "ところで shifts to a new, unrelated topic, but the half-price detail is still about the same new café, so ちなみに fits and ところで doesn't.",
+        "だから means 'so; therefore', marking a result, yet the discount isn't a consequence of the café opening — it's an extra piece of news.",
+        "とはいえ means 'that said; even so', introducing a concession, but there's nothing being conceded here — just a bonus detail."
+      ],
+      "hiragana_full": "えきまえにあたらしいかふぇができた。ちなみに、かいてんきねんでこんしゅうはぜんぴんはんがくらしいよ。",
+      "audio_alternatives": [
+        { "kanji": "駅前にカフェがオープンしたんだ。ちなみに、今週はどれも半額なんだって。", "hiragana_full": "えきまえにかふぇがおーぷんしたんだ。ちなみに、こんしゅうはどれもはんがくなんだって。" },
+        { "kanji": "駅の前に新しい喫茶店ができたよ。しかも記念セールで安いらしい。", "hiragana_full": "えきのまえにあたらしいきっさてんができたよ。しかもきねんせーるでやすいらしい。" }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        { "word": "駅前", "reading": "えきまえ", "meaning": "in front of the station" },
+        { "word": "開店", "reading": "かいてん", "meaning": "opening (of a shop)" },
+        { "word": "半額", "reading": "はんがく", "meaning": "half price" }
+      ]
+    },
+    {
+      "id": "n2_236_4",
+      "example_sentence": "弊社の営業時間は九時から六時までです。ちなみに、土日祝は休業となっております。",
+      "translation": "Our business hours are nine to six. For your information, we are closed on weekends and holidays.",
+      "blank_target": "ちなみに",
+      "wrong_choices": ["なぜなら", "つまり", "したがって"],
+      "wrong_choice_explanations": [
+        "なぜなら means 'because', giving a reason, but the weekend closure isn't the reason for the weekday hours — it's additional information for the customer.",
+        "つまり means 'in other words', restating the point, whereas the closed days are new information, not a rephrasing of the hours.",
+        "したがって means 'therefore', drawing a conclusion, yet being closed on weekends doesn't logically follow from the stated hours."
+      ],
+      "hiragana_full": "へいしゃのえいぎょうじかんはくじからろくじまでです。ちなみに、どにちしゅくはきゅうぎょうとなっております。",
+      "audio_alternatives": [
+        { "kanji": "営業は九時から十八時までです。なお、週末および祝日は休業いたします。", "hiragana_full": "えいぎょうはくじからじゅうはちじまでです。なお、しゅうまつおよびしゅくじつはきゅうぎょういたします。" },
+        { "kanji": "当社は九時から六時まで営業しております。ちなみに、土日祝日はお休みです。", "hiragana_full": "とうしゃはくじからろくじまでえいぎょうしております。ちなみに、どにちしゅくじつはおやすみです。" }
+      ],
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        { "word": "弊社", "reading": "へいしゃ", "meaning": "our company (humble)" },
+        { "word": "営業時間", "reading": "えいぎょうじかん", "meaning": "business hours" },
+        { "word": "休業", "reading": "きゅうぎょう", "meaning": "closed for business" }
+      ]
+    },
+    {
+      "id": "n2_236_5",
+      "example_sentence": "新作は来月発売される。ちなみに、著者は前作も手がけた人物である。",
+      "translation": "The new work goes on sale next month. Incidentally, the author is the same person who wrote the previous one.",
+      "blank_target": "ちなみに",
+      "wrong_choices": ["一方", "ただし", "そのため"],
+      "wrong_choice_explanations": [
+        "一方 means 'on the other hand', setting up a contrast, but the author's identity isn't contrasted with the release date — it's a supplementary note.",
+        "ただし means 'however; provided that', flagging an exception, whereas this sentence simply adds background about the author.",
+        "そのため means 'for that reason', linking cause and effect, yet the author being the same isn't a result of the release date."
+      ],
+      "hiragana_full": "しんさくはらいげつはつばいされる。ちなみに、ちょしゃはぜんさくもてがけたじんぶつである。",
+      "audio_alternatives": [
+        { "kanji": "新刊は来月出る。なお、作者は前作と同じ人だ。", "hiragana_full": "しんかんはらいげつでる。なお、さくしゃはぜんさくとおなじひとだ。" },
+        { "kanji": "新作は翌月に発売となる。ちなみに、書き手は前作の作者と同一である。", "hiragana_full": "しんさくはよくげつにはつばいとなる。ちなみに、かきてはぜんさくのさくしゃとどういつである。" }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        { "word": "新作", "reading": "しんさく", "meaning": "new work" },
+        { "word": "著者", "reading": "ちょしゃ", "meaning": "author" },
+        { "word": "手がける", "reading": "てがける", "meaning": "to work on; to be responsible for" }
+      ]
+    },
+    {
+      "id": "n2_236_6",
+      "example_sentence": "明日は健康診断があります。ちなみに、当日の朝は何も食べずに来てください。",
+      "translation": "There's a health checkup tomorrow. Incidentally, please come without having eaten anything that morning.",
+      "blank_target": "ちなみに",
+      "wrong_choices": ["ところで", "つまり", "だから"],
+      "wrong_choice_explanations": [
+        "ところで shifts to an unrelated topic, but the instruction about fasting is directly about the same checkup, so ちなみに is the right fit.",
+        "つまり means 'in other words', restating the previous sentence, whereas the fasting instruction is new information, not a rephrasing.",
+        "だから means 'so; therefore', marking a result, but 'don't eat' isn't a logical consequence of there being a checkup — it's an added instruction."
+      ],
+      "hiragana_full": "あしたはけんこうしんだんがあります。ちなみに、とうじつのあさはなにもたべずにきてください。",
+      "audio_alternatives": [
+        { "kanji": "明日は健診の日です。なお、当日の朝食は抜いてきてください。", "hiragana_full": "あしたはけんしんのひです。なお、とうじつのちょうしょくはぬいてきてください。" },
+        { "kanji": "明日、健康診断を行います。ちなみに、朝ごはんは食べずに来てくださいね。", "hiragana_full": "あした、けんこうしんだんをおこないます。ちなみに、あさごはんはたべずにきてくださいね。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "健康診断", "reading": "けんこうしんだん", "meaning": "health checkup" },
+        { "word": "当日", "reading": "とうじつ", "meaning": "the day (in question)" }
+      ]
+    },
+    {
+      "id": "n2_236_7",
+      "example_sentence": "富士山の標高は3776メートルだ。ちなみに、日本で二番目に高いのは北岳である。",
+      "translation": "Mount Fuji is 3,776 meters high. Incidentally, the second-highest mountain in Japan is Mount Kita.",
+      "blank_target": "ちなみに",
+      "wrong_choices": ["なぜなら", "したがって", "つまり"],
+      "wrong_choice_explanations": [
+        "なぜなら means 'because', introducing a reason, but the second-highest mountain isn't the reason for Fuji's height — it's a related trivia note.",
+        "したがって means 'therefore', drawing a conclusion, yet naming Mount Kita doesn't follow logically from Fuji's elevation.",
+        "つまり means 'in other words', restating the point, whereas this is a separate fact added alongside, not a rephrasing."
+      ],
+      "hiragana_full": "ふじさんのひょうこうはさんぜんななひゃくななじゅうろくめーとるだ。ちなみに、にほんでにばんめにたかいのはきただけである。",
+      "audio_alternatives": [
+        { "kanji": "富士山は標高3776メートルである。なお、国内で二番目に高い山は北岳だ。", "hiragana_full": "ふじさんはひょうこうさんぜんななひゃくななじゅうろくめーとるである。なお、こくないでにばんめにたかいやまはきただけだ。" },
+        { "kanji": "富士山の高さは3776メートルだ。ちなみに、二番目は北岳という山だ。", "hiragana_full": "ふじさんのたかさはさんぜんななひゃくななじゅうろくめーとるだ。ちなみに、にばんめはきただけというやまだ。" }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        { "word": "標高", "reading": "ひょうこう", "meaning": "elevation; altitude" },
+        { "word": "二番目", "reading": "にばんめ", "meaning": "second (in order)" }
+      ]
+    },
+    {
+      "id": "n2_236_8",
+      "example_sentence": "チケットはすでに完売しました。ちなみに、次回公演は来年の春を予定しております。",
+      "translation": "The tickets have already sold out. For your information, the next performance is scheduled for next spring.",
+      "blank_target": "ちなみに",
+      "wrong_choices": ["ところで", "そのため", "とはいえ"],
+      "wrong_choice_explanations": [
+        "ところで shifts to a new, unrelated topic, but the next performance is still about the same show, which is precisely what ちなみに introduces.",
+        "そのため means 'for that reason', linking cause to effect, yet the next performance's date isn't caused by the sellout — it's an added note.",
+        "とはいえ means 'that said; even so', introducing a concession, but nothing is being conceded here, only extra information offered."
+      ],
+      "hiragana_full": "ちけっとはすでにかんばいしました。ちなみに、じかいこうえんはらいねんのはるをよていしております。",
+      "audio_alternatives": [
+        { "kanji": "チケットは完売いたしました。なお、次の公演は来春を予定しております。", "hiragana_full": "ちけっとはかんばいいたしました。なお、つぎのこうえんはらいしゅんをよていしております。" },
+        { "kanji": "券はもう売り切れました。ちなみに、次回は来年の春に行う予定です。", "hiragana_full": "けんはもううりきれました。ちなみに、じかいはらいねんのはるにおこなうよていです。" }
+      ],
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        { "word": "完売", "reading": "かんばい", "meaning": "selling out" },
+        { "word": "公演", "reading": "こうえん", "meaning": "performance; show" }
+      ]
+    },
+    {
+      "id": "n2_236_9",
+      "example_sentence": "彼は英語もフランス語も話せる。ちなみに、どちらも独学で身につけたそうだ。",
+      "translation": "He can speak both English and French. By the way, apparently he taught himself both.",
+      "blank_target": "ちなみに",
+      "wrong_choices": ["一方", "ただし", "だから"],
+      "wrong_choice_explanations": [
+        "一方 means 'on the other hand', marking a contrast, but learning them by himself isn't contrasted with his ability — it's a supplementary detail.",
+        "ただし means 'however; provided that', flagging a condition or exception, whereas here the second sentence just adds background.",
+        "だから means 'so; therefore', marking a result, yet 'self-taught' isn't a consequence of his being able to speak the languages."
+      ],
+      "hiragana_full": "かれはえいごもふらんすごもはなせる。ちなみに、どちらもどくがくでみにつけたそうだ。",
+      "audio_alternatives": [
+        { "kanji": "彼は英仏どちらもいける。ちなみに、両方とも独学なんだって。", "hiragana_full": "かれはえいふつどちらもいける。ちなみに、りょうほうともどくがくなんだって。" },
+        { "kanji": "彼は英語もフランス語も操る。なお、いずれも独学だという。", "hiragana_full": "かれはえいごもふらんすごもあやつる。なお、いずれもどくがくだという。" }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        { "word": "独学", "reading": "どくがく", "meaning": "self-study" },
+        { "word": "身につける", "reading": "みにつける", "meaning": "to acquire (a skill)" }
+      ]
+    },
+    {
+      "id": "n2_236_10",
+      "example_sentence": "レポートの提出期限は今週の金曜日です。ちなみに、一日でも遅れると減点の対象になります。",
+      "translation": "The deadline for the report is this Friday. Incidentally, being even a day late will result in a penalty.",
+      "blank_target": "ちなみに",
+      "wrong_choices": ["つまり", "なぜなら", "ところで"],
+      "wrong_choice_explanations": [
+        "つまり means 'in other words', restating the previous point, but the late-penalty rule is new information, not a rephrasing of the deadline.",
+        "なぜなら means 'because', giving a reason, yet the penalty isn't the reason for the deadline — it's an added warning.",
+        "ところで shifts to an unrelated topic, but the penalty is directly about the same report deadline, so ちなみに is the natural choice."
+      ],
+      "hiragana_full": "れぽーとのていしゅつきげんはこんしゅうのきんようびです。ちなみに、いちにちでもおくれるとげんてんのたいしょうになります。",
+      "audio_alternatives": [
+        { "kanji": "レポートの締め切りは今週金曜です。なお、遅れると減点されます。", "hiragana_full": "れぽーとのしめきりはこんしゅうきんようです。なお、おくれるとげんてんされます。" },
+        { "kanji": "課題の提出は金曜までです。ちなみに、遅れた場合は点が引かれます。", "hiragana_full": "かだいのていしゅつはきんようまでです。ちなみに、おくれたばあいはてんがひかれます。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "提出期限", "reading": "ていしゅつきげん", "meaning": "submission deadline" },
+        { "word": "減点", "reading": "げんてん", "meaning": "deduction of points" },
+        { "word": "対象", "reading": "たいしょう", "meaning": "target; subject (of)" }
+      ]
+    }
+  ]
+}

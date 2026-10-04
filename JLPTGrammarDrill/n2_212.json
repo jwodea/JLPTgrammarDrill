@@ -1,0 +1,250 @@
+{
+  "id": "n2_212",
+  "pattern": "〜か何か",
+  "meaning": "~ or something (like that)",
+  "level": "N2",
+  "exercises": [
+    {
+      "id": "n2_212_1",
+      "example_sentence": "はっきり見えなかったけど、屋根の上にカラスか何かがとまっていたよ。",
+      "translation": "I couldn't see it clearly, but a crow or something was perched on the roof.",
+      "blank_target": "か何か",
+      "wrong_choices": ["ばかり", "かどうか", "こそ"],
+      "wrong_choice_explanations": [
+        "ばかり means 'nothing but' (カラスばかり = only crows, lots of them); the speaker glimpsed one unidentified bird, not a roof crowded exclusively with crows.",
+        "かどうか means 'whether or not' and embeds a yes-no question before verbs like わかる (カラスかどうかわからない); it can't simply mark the subject of とまっていた.",
+        "こそ emphasizes 'that very thing' with confidence (これこそ); such certainty contradicts はっきり見えなかった."
+      ],
+      "hiragana_full": "はっきりみえなかったけど、やねのうえにからすかなにかがとまっていたよ。",
+      "audio_alternatives": [
+        { "kanji": "よく見えなかったけど、屋根に黒い鳥がいたよ。", "hiragana_full": "よくみえなかったけど、やねにくろいとりがいたよ。" },
+        { "kanji": "屋根の上に、カラスか何かの大きな鳥がとまってたよ。", "hiragana_full": "やねのうえに、からすかなにかのおおきなとりがとまってたよ。" }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        { "word": "屋根", "reading": "やね", "meaning": "roof" },
+        { "word": "とまる", "reading": "とまる", "meaning": "to perch, alight" }
+      ],
+      "blank_target_reading": "かなにか"
+    },
+    {
+      "id": "n2_212_2",
+      "example_sentence": "のどが渇いたね。コンビニでお茶か何かを買ってこようか。",
+      "translation": "I'm thirsty. Shall I go buy some tea or something at the convenience store?",
+      "blank_target": "か何か",
+      "wrong_choices": ["ばかり", "まで", "かどうか"],
+      "wrong_choice_explanations": [
+        "ばかり would mean buying 'nothing but tea,' an odd claim of exclusivity for a casual offer to grab one drink.",
+        "まで means 'even ~, on top of everything' (お茶まで implies tea is a surprising addition to other purchases); nothing else is being bought here.",
+        "かどうか embeds 'whether it's tea' and needs a verb of knowing or checking; it can't stand before 買ってこようか as the object of the shopping trip."
+      ],
+      "hiragana_full": "のどがかわいたね。こんびにでおちゃかなにかをかってこようか。",
+      "audio_alternatives": [
+        { "kanji": "飲み物でも買ってこようか。", "hiragana_full": "のみものでもかってこようか。" },
+        { "kanji": "のど渇いたね。何か飲む物、買ってくるよ。", "hiragana_full": "のどかわいたね。なにかのむもの、かってくるよ。" }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        { "word": "のどが渇く", "reading": "のどがかわく", "meaning": "to be thirsty" },
+        { "word": "買ってくる", "reading": "かってくる", "meaning": "to go buy (and bring back)" }
+      ],
+      "blank_target_reading": "かなにか"
+    },
+    {
+      "id": "n2_212_3",
+      "example_sentence": "田中さんのお姉さんは、看護師か何かだと聞いた覚えがあるよ。",
+      "translation": "I vaguely remember hearing that Tanaka's older sister is a nurse or something.",
+      "blank_target": "か何か",
+      "wrong_choices": ["かどうか", "どころか", "さえ"],
+      "wrong_choice_explanations": [
+        "かどうか ('whether she's a nurse') must feed a verb like 確かめる or わからない; 看護師かどうかだ doesn't form a valid predicate.",
+        "どころか means 'far from ~' and must be followed by a contrasting correction (看護師どころか医者だ); no correction follows here.",
+        "さえ means 'even ~' (看護師さえ知らない); calling her 'even a nurse' as a predicate makes no sense — the speaker is just recalling her occupation vaguely."
+      ],
+      "hiragana_full": "たなかさんのおねえさんは、かんごしかなにかだときいたおぼえがあるよ。",
+      "audio_alternatives": [
+        { "kanji": "田中さんのお姉さん、確か医療関係の仕事だって聞いたよ。", "hiragana_full": "たなかさんのおねえさん、たしかいりょうかんけいのしごとだってきいたよ。" },
+        { "kanji": "お姉さんは看護師か何かをしていると聞いた気がする。", "hiragana_full": "おねえさんはかんごしかなにかをしているときいたきがする。" }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        { "word": "看護師", "reading": "かんごし", "meaning": "nurse" },
+        { "word": "覚え", "reading": "おぼえ", "meaning": "recollection, memory" }
+      ],
+      "blank_target_reading": "かなにか"
+    },
+    {
+      "id": "n2_212_4",
+      "example_sentence": "引き出しの奥から、古い硬貨か何かが一枚出てきた。",
+      "translation": "An old coin or something came out from the back of the drawer.",
+      "blank_target": "か何か",
+      "wrong_choices": ["ばかり", "こそ", "どころか"],
+      "wrong_choice_explanations": [
+        "ばかり ('nothing but old coins') clashes with 一枚 — only a single unidentified object turned up, not a drawer full of coins.",
+        "こそ asserts 'this precisely is the thing' with confidence; the speaker can't even tell exactly what the object is.",
+        "どころか requires a correction to follow ('far from a coin, it was ~'); the sentence ends without correcting anything."
+      ],
+      "hiragana_full": "ひきだしのおくから、ふるいこうかかなにかがいちまいでてきた。",
+      "audio_alternatives": [
+        { "kanji": "引き出しの奥に、古いコインのような物が一枚あった。", "hiragana_full": "ひきだしのおくに、ふるいこいんのようなものがいちまいあった。" },
+        { "kanji": "机を整理していたら、古い硬貨か何かが見つかった。", "hiragana_full": "つくえをせいりしていたら、ふるいこうかかなにかがみつかった。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "引き出し", "reading": "ひきだし", "meaning": "drawer" },
+        { "word": "硬貨", "reading": "こうか", "meaning": "coin" },
+        { "word": "奥", "reading": "おく", "meaning": "the back, depths" }
+      ],
+      "blank_target_reading": "かなにか"
+    },
+    {
+      "id": "n2_212_5",
+      "example_sentence": "郵便受けにチラシか何かが入っていたから、後で確認しておいて。",
+      "translation": "There was a flyer or something in the mailbox, so check it later, okay?",
+      "blank_target": "か何か",
+      "wrong_choices": ["こそ", "どころか", "まで"],
+      "wrong_choice_explanations": [
+        "こそ would insist 'the flyer, that very thing,' an emphasis that contradicts the speaker's vagueness about what the item is.",
+        "どころか ('far from a flyer') needs a clause that corrects the description; none follows.",
+        "まで ('even a flyer') implies the flyer is a surprising addition to other arrivals; the speaker mentions just one unidentified item."
+      ],
+      "hiragana_full": "ゆうびんうけにちらしかなにかがはいっていたから、あとでかくにんしておいて。",
+      "audio_alternatives": [
+        { "kanji": "郵便受けに何か入ってたから、見といてね。", "hiragana_full": "ゆうびんうけになにかはいってたから、みといてね。" },
+        { "kanji": "ポストにチラシか何かが届いていたよ。", "hiragana_full": "ぽすとにちらしかなにかがとどいていたよ。" }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        { "word": "郵便受け", "reading": "ゆうびんうけ", "meaning": "mailbox" },
+        { "word": "チラシ", "reading": "ちらし", "meaning": "flyer, leaflet" },
+        { "word": "確認", "reading": "かくにん", "meaning": "checking, confirmation" }
+      ],
+      "blank_target_reading": "かなにか"
+    },
+    {
+      "id": "n2_212_6",
+      "example_sentence": "申し訳ありませんが、ペンか何かお借りできますか。会議のメモを取りたいので。",
+      "translation": "I'm terribly sorry, but could I borrow a pen or something? I'd like to take notes during the meeting. (politely, to a colleague)",
+      "blank_target": "か何か",
+      "wrong_choices": ["さえ", "ばかり", "か否か"],
+      "wrong_choice_explanations": [
+        "さえ ('even a pen') presents the pen as a surprising minimal item (ペンさえ持っていない); the speaker just wants any writing tool, with no 'even' nuance.",
+        "ばかり ('nothing but pens') describes exclusivity among many items and cannot soften a request for one unspecified object.",
+        "か否か is a stiff written 'whether or not' used before deciding verbs (出席するか否か); it cannot list a vague alternative inside a spoken request."
+      ],
+      "hiragana_full": "もうしわけありませんが、ぺんかなにかおかりできますか。かいぎのめもをとりたいので。",
+      "audio_alternatives": [
+        { "kanji": "何か書く物をお借りできますか。", "hiragana_full": "なにかかくものをおかりできますか。" },
+        { "kanji": "すみません、ボールペンでもかまわないので貸していただけますか。", "hiragana_full": "すみません、ぼーるぺんでもかまわないのでかしていただけますか。" }
+      ],
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        { "word": "お借りする", "reading": "おかりする", "meaning": "to borrow (humble)" },
+        { "word": "メモを取る", "reading": "めもをとる", "meaning": "to take notes" }
+      ],
+      "blank_target_reading": "かなにか"
+    },
+    {
+      "id": "n2_212_7",
+      "example_sentence": "踏切で事故か何かがあったらしく、電車がなかなか来ない。",
+      "translation": "There seems to have been an accident or something at the railroad crossing, and the train just isn't coming.",
+      "blank_target": "か何か",
+      "wrong_choices": ["かどうか", "こそ", "やら何やら"],
+      "wrong_choice_explanations": [
+        "かどうか ('whether it was an accident') must feed a verb like 確かめる; it cannot serve as the subject of あった.",
+        "こそ confidently singles out 'an accident, that very thing,' clashing with the guesswork signaled by らしい.",
+        "やら何やら means '~ and all sorts of things' and implies a jumble of several items (仕事やら何やらで忙しい); the speaker suspects one unidentified incident, not an assortment."
+      ],
+      "hiragana_full": "ふみきりでじこかなにかがあったらしく、でんしゃがなかなかこない。",
+      "audio_alternatives": [
+        { "kanji": "踏切でトラブルがあったみたいで、電車が止まっている。", "hiragana_full": "ふみきりでとらぶるがあったみたいで、でんしゃがとまっている。" },
+        { "kanji": "事故か何かの影響で、電車が遅れているようだ。", "hiragana_full": "じこかなにかのえいきょうで、でんしゃがおくれているようだ。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "踏切", "reading": "ふみきり", "meaning": "railroad crossing" },
+        { "word": "事故", "reading": "じこ", "meaning": "accident" }
+      ],
+      "blank_target_reading": "かなにか"
+    },
+    {
+      "id": "n2_212_8",
+      "example_sentence": "部長はただ今、打ち合わせか何かがあって、席を外しております。",
+      "translation": "The department manager is away from his desk right now — he has a meeting or something. (answering the phone at work)",
+      "blank_target": "か何か",
+      "wrong_choices": ["か否か", "ばかり", "まで"],
+      "wrong_choice_explanations": [
+        "か否か is a stiff 'whether or not' that must precede a verb of deciding or knowing (出席するか否か); it can't present a vague possibility as the subject of あって.",
+        "ばかり ('nothing but meetings') would turn a polite, vague explanation of one absence into a complaint about his entire schedule.",
+        "まで ('even a meeting, on top of everything') implies other obligations were already listed; none were mentioned."
+      ],
+      "hiragana_full": "ぶちょうはただいま、うちあわせかなにかがあって、せきをはずしております。",
+      "audio_alternatives": [
+        { "kanji": "部長はただ今、席を外しております。戻り次第、お電話いたします。", "hiragana_full": "ぶちょうはただいま、せきをはずしております。もどりしだい、おでんわいたします。" },
+        { "kanji": "部長は打ち合わせに出ておりまして、夕方には戻る予定です。", "hiragana_full": "ぶちょうはうちあわせにでておりまして、ゆうがたにはもどるよていです。" }
+      ],
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        { "word": "打ち合わせ", "reading": "うちあわせ", "meaning": "meeting, briefing" },
+        { "word": "席を外す", "reading": "せきをはずす", "meaning": "to be away from one's desk" }
+      ],
+      "blank_target_reading": "かなにか"
+    },
+    {
+      "id": "n2_212_9",
+      "example_sentence": "頭が痛いなら、市販の頭痛薬か何かを飲んだほうがいいよ。",
+      "translation": "If your head hurts, you should take an over-the-counter painkiller or something.",
+      "blank_target": "か何か",
+      "wrong_choices": ["やら何やら", "ばかり", "まで"],
+      "wrong_choice_explanations": [
+        "やら何やら ('painkillers and all sorts of stuff') implies swallowing a whole assortment; the advice is to take one suitable medicine.",
+        "ばかり ('nothing but painkillers') turns simple advice into a strange claim about taking painkillers exclusively.",
+        "まで ('even a painkiller') implies the medicine is a surprising addition to other measures already taken; no other measures appear in the sentence."
+      ],
+      "hiragana_full": "あたまがいたいなら、しはんのずつうやくかなにかをのんだほうがいいよ。",
+      "audio_alternatives": [
+        { "kanji": "頭痛がひどいなら、薬を飲んで早く寝なよ。", "hiragana_full": "ずつうがひどいなら、くすりをのんではやくねなよ。" },
+        { "kanji": "頭が痛いなら、痛み止めか何かを飲んだら？", "hiragana_full": "あたまがいたいなら、いたみどめかなにかをのんだら？" }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        { "word": "市販", "reading": "しはん", "meaning": "commercially available, over-the-counter" },
+        { "word": "頭痛薬", "reading": "ずつうやく", "meaning": "headache medicine" }
+      ],
+      "blank_target_reading": "かなにか"
+    },
+    {
+      "id": "n2_212_10",
+      "example_sentence": "彼は学生の頃、ギターか何かを習っていたと聞いた気がする。",
+      "translation": "I have a feeling I heard he took guitar lessons or something back in his student days.",
+      "blank_target": "か何か",
+      "wrong_choices": ["か否か", "こそ", "どころか"],
+      "wrong_choice_explanations": [
+        "か否か ('whether or not it was a guitar') is formal written style that needs a verb of determining; it cannot mark the object of 習っていた.",
+        "こそ ('the guitar, that very thing') adds confident emphasis that contradicts the hazy 気がする.",
+        "どころか ('far from a guitar') demands a correction afterward (ギターどころかピアノだ); the sentence never corrects anything."
+      ],
+      "hiragana_full": "かれはがくせいのころ、ぎたーかなにかをならっていたときいたきがする。",
+      "audio_alternatives": [
+        { "kanji": "彼は昔、何か楽器を習っていたらしい。", "hiragana_full": "かれはむかし、なにかがっきをならっていたらしい。" },
+        { "kanji": "学生時代、ギターか何かをやっていたと本人が言っていた気がする。", "hiragana_full": "がくせいじだい、ぎたーかなにかをやっていたとほんにんがいっていたきがする。" }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        { "word": "習う", "reading": "ならう", "meaning": "to take lessons in" },
+        { "word": "気がする", "reading": "きがする", "meaning": "to have a feeling (that)" }
+      ],
+      "blank_target_reading": "かなにか"
+    }
+  ]
+}

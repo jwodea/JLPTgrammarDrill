@@ -30,7 +30,20 @@
           "hiragana_full": "かのじょのうたごえのうつくしさにかんどうしてならない"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "歌声",
+          "reading": "うたごえ",
+          "meaning": "singing voice"
+        },
+        {
+          "word": "感動",
+          "reading": "かんどう",
+          "meaning": "being deeply moved"
+        }
+      ]
     },
     {
       "id": "n1_046_2",
@@ -58,7 +71,20 @@
           "hiragana_full": "むすこのせいちょうをほこらしくおもわずにはいられない"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "誇らしく",
+          "reading": "ほこらしく",
+          "meaning": "proudly"
+        },
+        {
+          "word": "成長",
+          "reading": "せいちょう",
+          "meaning": "growth"
+        }
+      ]
     },
     {
       "id": "n1_046_3",
@@ -86,7 +112,15 @@
           "hiragana_full": "かがくぎじゅつのしんぽをきたいしてやまない"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "発展",
+          "reading": "はってん",
+          "meaning": "development/progress"
+        }
+      ]
     },
     {
       "id": "n1_046_4",
@@ -114,7 +148,8 @@
           "hiragana_full": "せんせいのごしどうにかんしゃしてやまない"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written"
     },
     {
       "id": "n1_046_5",
@@ -142,7 +177,20 @@
           "hiragana_full": "そこくのはってんをひたすらねがいつづける。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "祖国",
+          "reading": "そこく",
+          "meaning": "homeland/fatherland"
+        },
+        {
+          "word": "発展",
+          "reading": "はってん",
+          "meaning": "development"
+        }
+      ]
     },
     {
       "id": "n1_046_6",
@@ -170,38 +218,23 @@
           "hiragana_full": "われわれはへいわのおとずれをこころよりせつにねがってやまない"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "到来",
+          "reading": "とうらい",
+          "meaning": "arrival/advent"
+        },
+        {
+          "word": "我々",
+          "reading": "われわれ",
+          "meaning": "we"
+        }
+      ]
     },
     {
       "id": "n1_046_7",
-      "example_sentence": "環境保護の重要性を訴えてやまない。",
-      "translation": "I never stop advocating for the importance of environmental protection.",
-      "blank_target": "てやまない",
-      "wrong_choices": [
-        "ずにはいられない",
-        "ないではいられない",
-        "てはならない"
-      ],
-      "wrong_choice_explanations": [
-        "ずにはいられない means 'cannot help but do' and expresses compulsion or inability to resist, different from the voluntary continuous action of てやまない.",
-        "ないではいられない means 'cannot help but feel/do' and shows involuntary emotional response, unlike the deliberate continuous advocacy expressed by てやまない.",
-        "てはならない means 'must not do' and is a prohibition, completely opposite to the positive continuous action encouraged by てやまない."
-      ],
-      "hiragana_full": "かんきょうほごのじゅうようせいをうったえてやまない",
-      "audio_alternatives": [
-        {
-          "kanji": "環境保護の重要性を訴え続けてやまない。",
-          "hiragana_full": "かんきょうほごのじゅうようせいをうったえつづけてやまない"
-        },
-        {
-          "kanji": "環境保護の大切さを訴えてやまない。",
-          "hiragana_full": "かんきょうほごのたいせつさをうったえてやまない"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n1_046_8",
       "example_sentence": "この文化遺産の保存を心から願ってやまない。",
       "translation": "We sincerely never stop wishing for the preservation of this cultural heritage.",
       "blank_target": "てやまない",
@@ -226,10 +259,23 @@
           "hiragana_full": "このぶんかいさんがほぞんされることをこころからねがってやまない"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "文化遺産",
+          "reading": "ぶんかいさん",
+          "meaning": "cultural heritage"
+        },
+        {
+          "word": "保存",
+          "reading": "ほぞん",
+          "meaning": "preservation"
+        }
+      ]
     },
     {
-      "id": "n1_046_9",
+      "id": "n1_046_8",
       "example_sentence": "子どもたちの幸せを祈ってやまない。",
       "translation": "I never stop praying for children's happiness.",
       "blank_target": "てやまない",
@@ -254,35 +300,90 @@
           "hiragana_full": "こどもたちのこうふくをいのってやまない"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written"
+    },
+    {
+      "id": "n1_046_9",
+      "example_sentence": "後進の育成を願ってやまない。",
+      "translation": "I continuously wish to nurture younger talent.",
+      "blank_target": "ってやまない",
+      "wrong_choices": [
+        "ってばかりいる",
+        "ってほしい",
+        "ってもらいたい"
+      ],
+      "wrong_choice_explanations": [
+        "〜ってばかりいる means 'always doing' but lacks the formal, deep sentiment that 〜てやまない conveys.",
+        "〜ってほしい means 'want someone to do' which changes the meaning completely from expressing one's own continuous wish.",
+        "〜ってもらいたい means 'want to receive/have done' which doesn't fit the context of expressing one's own continuous desire."
+      ],
+      "hiragana_full": "こうしんのいくせいをねがってやまない。",
+      "audio_alternatives": [
+        {
+          "kanji": "後進を育てることを強く望んでいる。",
+          "hiragana_full": "こうしんをそだてることをつよくのぞんでいる。"
+        },
+        {
+          "kanji": "後進の育成を心から願い続けている。",
+          "hiragana_full": "こうしんのいくせいをこころからねがいつづけている。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "後進",
+          "reading": "こうしん",
+          "meaning": "younger generation, juniors"
+        },
+        {
+          "word": "育成",
+          "reading": "いくせい",
+          "meaning": "fostering, training"
+        }
+      ]
     },
     {
       "id": "n1_046_10",
-      "example_sentence": "我々は倫理的で公平な医療の実現を心から願ってやまない。",
-      "translation": "We sincerely never stop wishing for the realization of ethical and fair medicine.",
-      "blank_target": "てやまない",
+      "example_sentence": "彼女の幸福を心から望んでやまない。",
+      "translation": "I deeply and continuously wish for her happiness from my heart.",
+      "blank_target": "でやまない",
       "wrong_choices": [
-        "てしまう",
-        "ておく",
-        "てはいられない"
+        "でならない",
+        "でたまらない",
+        "でしかたない"
       ],
       "wrong_choice_explanations": [
-        "〜てしまう（願ってしまう）marks a one-off act, 'end up wishing,' not the unceasing wish of てやまない.",
-        "〜ておく（願っておく）means wishing in advance or as preparation, nonsensical for an ongoing heartfelt wish.",
-        "〜てはいられない（願ってはいられない）says one can't just keep wishing and must act, the reverse of dwelling on the wish endlessly."
+        "〜でならない expresses 'can't help but feel' which is less formal and doesn't convey the continuous nature that 〜てやまない does.",
+        "〜でたまらない expresses unbearable intensity of feeling, often with negative connotations, unlike the formal positive sentiment here.",
+        "〜でしかたない expresses helplessness or resignation, which contradicts the active, hopeful sentiment expressed in this sentence."
       ],
-      "hiragana_full": "われわれはりんりてきでこうへいないりょうのじつげんをこころからねがってやまない。",
+      "hiragana_full": "かのじょのこうふくをこころからのぞんでやまない",
       "audio_alternatives": [
         {
-          "kanji": "私たちは倫理的で公平な医療の実現を心より強く望んでやまない。",
-          "hiragana_full": "わたしたちはりんりてきでこうへいないりょうのじつげんをこころよりつよくのぞんでやまない"
+          "kanji": "彼女の幸せを心から願ってやまない。",
+          "hiragana_full": "かのじょのしあわせをこころからねがってやまない"
         },
         {
-          "kanji": "我々は公平で倫理的な医療の実現を切に願い続けている。",
-          "hiragana_full": "われわれはこうへいでりんりてきないりょうのじつげんをせつにねがいつづけている"
+          "kanji": "彼女の幸福を心の底から強く望んでいる。",
+          "hiragana_full": "かのじょのこうふくをこころのそこからつよくのぞんでいる"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "幸福",
+          "reading": "こうふく",
+          "meaning": "happiness"
+        },
+        {
+          "word": "望む",
+          "reading": "のぞむ",
+          "meaning": "to hope for, to desire"
+        }
+      ]
     }
   ]
 }

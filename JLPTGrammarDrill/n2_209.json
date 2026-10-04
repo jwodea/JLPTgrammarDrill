@@ -1,0 +1,241 @@
+{
+  "id": "n2_209",
+  "pattern": "〜からして",
+  "meaning": "even ~ (to begin with); judging from ~",
+  "level": "N2",
+  "exercises": [
+    {
+      "id": "n2_209_1",
+      "example_sentence": "あの店は名前からして怪しいので、入るのをためらってしまう。",
+      "translation": "That shop seems sketchy starting with its very name, so I hesitate to go inside.",
+      "blank_target": "からして",
+      "wrong_choices": ["にしては", "によると", "として"],
+      "wrong_choice_explanations": [
+        "にしては means 'for a ~ / considering', measuring something against what its label leads you to expect (新人にしては上手だ); あの店は名前にしては怪しい doesn't parse — the shop isn't being measured against a 'name' standard.",
+        "によると marks an information source such as a forecast or a person's account (天気予報によると); a shop's name is not reported information, and the sentence cites the name as the first of many suspicious things — からして's job.",
+        "として means 'in the capacity of ~'; it would say the shop is suspicious 'as a name', mismatching the subject あの店."
+      ],
+      "hiragana_full": "あのみせはなまえからしてあやしいので、はいるのをためらってしまう。",
+      "audio_alternatives": [
+        { "kanji": "あの店、名前からして入りにくい雰囲気だよね。", "hiragana_full": "あのみせ、なまえからしてはいりにくいふんいきだよね。" },
+        { "kanji": "店名だけでも怪しいから、入る気がしないよ。", "hiragana_full": "てんめいだけでもあやしいから、はいるきがしないよ。" }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        { "word": "怪しい", "reading": "あやしい", "meaning": "suspicious, sketchy" },
+        { "word": "ためらう", "reading": "ためらう", "meaning": "to hesitate" }
+      ]
+    },
+    {
+      "id": "n2_209_2",
+      "example_sentence": "話し方からして、あの人は関西の出身でしょう。",
+      "translation": "Judging from the way he talks, he's probably from Kansai.",
+      "blank_target": "からして",
+      "wrong_choices": ["によると", "のわりに", "に基づいて"],
+      "wrong_choice_explanations": [
+        "によると cites an information source like a report or someone's statement (ニュースによると); the way someone talks is direct evidence you observe yourself, not reported information — judging from observed evidence is からして.",
+        "のわりに means 'considering ~ / for ~' and sets up an evaluation that goes against expectation (年のわりに若い); the guess about his hometown isn't measured against his speech, it's inferred from it.",
+        "に基づいて means 'based on ~' as a formal foundation and modifies deliberate acts like 判断する or 作成する (データに基づいて判断する); it doesn't attach directly to a casual conjecture ending in でしょう."
+      ],
+      "hiragana_full": "はなしかたからして、あのひとはかんさいのしゅっしんでしょう。",
+      "audio_alternatives": [
+        { "kanji": "あのイントネーションを聞くかぎり、関西の方でしょうね。", "hiragana_full": "あのいんとねーしょんをきくかぎり、かんさいのかたでしょうね。" },
+        { "kanji": "話し方からして、関西で育った人だと思いますよ。", "hiragana_full": "はなしかたからして、かんさいでそだったひとだとおもいますよ。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "話し方", "reading": "はなしかた", "meaning": "way of speaking" },
+        { "word": "出身", "reading": "しゅっしん", "meaning": "hometown, origin" }
+      ]
+    },
+    {
+      "id": "n2_209_3",
+      "example_sentence": "この会社は面接からして他社とは違っていて、驚きました。",
+      "translation": "This company was different from others starting with the interview itself — I was surprised.",
+      "blank_target": "からして",
+      "wrong_choices": ["に反して", "として", "ばかりか"],
+      "wrong_choice_explanations": [
+        "に反して means 'contrary to ~' and takes expectations, rules, or predictions (予想に反して); the interview isn't something the company went against — it's the first example of how the company differs.",
+        "として ('in the capacity of ~') would make the company itself an interview (この会社は面接として…), which doesn't parse.",
+        "ばかりか means 'not only ~ but also' and needs a second, greater item added (面接ばかりか筆記試験も); nothing is added here, so the additive structure is left dangling."
+      ],
+      "hiragana_full": "このかいしゃはめんせつからしてたしゃとはちがっていて、おどろきました。",
+      "audio_alternatives": [
+        { "kanji": "この会社は面接のやり方からして独特で、びっくりしました。", "hiragana_full": "このかいしゃはめんせつのやりかたからしてどくとくで、びっくりしました。" },
+        { "kanji": "面接の段階から、他の会社とは全然違いました。", "hiragana_full": "めんせつのだんかいから、ほかのかいしゃとはぜんぜんちがいました。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "面接", "reading": "めんせつ", "meaning": "interview" },
+        { "word": "他社", "reading": "たしゃ", "meaning": "other companies" },
+        { "word": "驚く", "reading": "おどろく", "meaning": "to be surprised" }
+      ]
+    },
+    {
+      "id": "n2_209_4",
+      "example_sentence": "あの慌てぶりからして、彼はまだ準備ができていないに違いない。",
+      "translation": "Judging from how flustered he is, he can't possibly be ready yet.",
+      "blank_target": "からして",
+      "wrong_choices": ["次第で", "に反して", "だけあって"],
+      "wrong_choice_explanations": [
+        "次第で means 'depending on ~' (結果次第で決まる); the conclusion doesn't vary with his flusteredness — it's inferred from it.",
+        "に反して means 'contrary to ~'; his flustered look points toward being unprepared, so the two clauses aren't in opposition.",
+        "だけあって means 'true to ~ / as you'd expect from ~' and states an actual, confirmed outcome befitting a quality (ベテランだけあって手際がいい); it doesn't combine with the conjecture に違いない, which guesses at something unconfirmed."
+      ],
+      "hiragana_full": "あのあわてぶりからして、かれはまだじゅんびができていないにちがいない。",
+      "audio_alternatives": [
+        { "kanji": "あの慌てようだと、まだ準備が終わっていないんだろう。", "hiragana_full": "あのあわてようだと、まだじゅんびがおわっていないんだろう。" },
+        { "kanji": "様子からして、彼は準備不足に違いないよ。", "hiragana_full": "ようすからして、かれはじゅんびぶそくにちがいないよ。" }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        { "word": "慌てぶり", "reading": "あわてぶり", "meaning": "flustered manner" },
+        { "word": "準備", "reading": "じゅんび", "meaning": "preparation" }
+      ]
+    },
+    {
+      "id": "n2_209_5",
+      "example_sentence": "この小説は冒頭の一文からして読者を引きつける力がある。",
+      "translation": "This novel has the power to draw readers in, starting with its very first sentence.",
+      "blank_target": "からして",
+      "wrong_choices": ["にとって", "として", "に基づいて"],
+      "wrong_choice_explanations": [
+        "にとって means 'for / from the standpoint of' and takes a person or organization whose viewpoint is described (読者にとって); an opening sentence isn't a viewpoint holder, and the needed meaning is 'even the first line already shows it'.",
+        "として ('in the capacity of ~') would say the novel has appeal 'as an opening sentence', mismatching the subject この小説.",
+        "に基づいて means 'based on ~' and marks a formal foundation for acts like 判断・作成 (資料に基づいて作成する); the opening line isn't a basis the novel acts on — it's the first piece of evidence of its appeal."
+      ],
+      "hiragana_full": "このしょうせつはぼうとうのいちぶんからしてどくしゃをひきつけるちからがある。",
+      "audio_alternatives": [
+        { "kanji": "この小説は書き出しからして魅力的だ。", "hiragana_full": "このしょうせつはかきだしからしてみりょくてきだ。" },
+        { "kanji": "最初の一文を読んだだけで、この小説には引き込まれる。", "hiragana_full": "さいしょのいちぶんをよんだだけで、このしょうせつにはひきこまれる。" }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        { "word": "冒頭", "reading": "ぼうとう", "meaning": "opening (of a text)" },
+        { "word": "読者", "reading": "どくしゃ", "meaning": "reader" },
+        { "word": "引きつける", "reading": "ひきつける", "meaning": "to attract, draw in" }
+      ]
+    },
+    {
+      "id": "n2_209_6",
+      "example_sentence": "あの新人は、電話の受け答えからして丁寧で感心するよ。",
+      "translation": "That new hire is impressive — even the way he handles phone calls is polite.",
+      "blank_target": "からして",
+      "wrong_choices": ["にしては", "だけあって", "のわりに"],
+      "wrong_choice_explanations": [
+        "にしては means 'for a ~', evaluating against an expected standard (新人にしては); the phone manner is the first example of his politeness, not a standard being defied.",
+        "だけあって means 'as you'd expect from ~' and takes a credential or quality that explains the outcome (一流ホテルだけあって); 電話の受け答え is not a credential explaining the politeness — it's where the politeness shows.",
+        "のわりに means 'considering ~' and implies a mismatch between the two clauses (値段のわりにおいしい); there is no mismatch — the polite phone manner and the good impression point the same way."
+      ],
+      "hiragana_full": "あのしんじんは、でんわのうけこたえからしてていねいでかんしんするよ。",
+      "audio_alternatives": [
+        { "kanji": "あの新人、電話の対応からしてしっかりしているね。", "hiragana_full": "あのしんじん、でんわのたいおうからしてしっかりしているね。" },
+        { "kanji": "電話の受け答え一つとっても、あの新人は丁寧だよ。", "hiragana_full": "でんわのうけこたえひとつとっても、あのしんじんはていねいだよ。" }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        { "word": "受け答え", "reading": "うけこたえ", "meaning": "(verbal) responses, replies" },
+        { "word": "丁寧", "reading": "ていねい", "meaning": "polite, careful" },
+        { "word": "感心する", "reading": "かんしんする", "meaning": "to be impressed" }
+      ]
+    },
+    {
+      "id": "n2_209_7",
+      "example_sentence": "足音からして、田中さんが戻ってきたようです。",
+      "translation": "Judging from the footsteps, it sounds like Tanaka-san is back.",
+      "blank_target": "からして",
+      "wrong_choices": ["によると", "をもとに", "に反して"],
+      "wrong_choice_explanations": [
+        "によると introduces reported information (本人によると); footsteps are direct sensory evidence, not a report — inferring from them is からして.",
+        "をもとに means 'using ~ as material or basis' and modifies acts of creating or deciding (資料をもとに作る); it can't attach bare to the conjecture 戻ってきたようです without a verb like 判断すると.",
+        "に反して means 'contrary to ~'; the footsteps support the guess rather than contradict it."
+      ],
+      "hiragana_full": "あしおとからして、たなかさんがもどってきたようです。",
+      "audio_alternatives": [
+        { "kanji": "この足音は、たぶん田中さんでしょう。", "hiragana_full": "このあしおとは、たぶんたなかさんでしょう。" },
+        { "kanji": "足音からして、戻ってきたのは田中さんみたいですね。", "hiragana_full": "あしおとからして、もどってきたのはたなかさんみたいですね。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "足音", "reading": "あしおと", "meaning": "footsteps" },
+        { "word": "戻る", "reading": "もどる", "meaning": "to return, come back" }
+      ]
+    },
+    {
+      "id": "n2_209_8",
+      "example_sentence": "今日の部長は、朝の挨拶からして機嫌が悪そうだった。",
+      "translation": "The boss seemed in a bad mood today — you could tell from his morning greeting alone.",
+      "blank_target": "からして",
+      "wrong_choices": ["次第で", "ばかりか", "にしては"],
+      "wrong_choice_explanations": [
+        "次第で means 'depending on ~' and requires the outcome to vary with the noun (天気次第で変わる); the boss's mood didn't depend on the greeting — the greeting revealed it.",
+        "ばかりか means 'not only ~ but also' and needs a second item stacked on the first (挨拶ばかりか口のきき方も); nothing more is listed, so the addition is incomplete.",
+        "にしては means 'for a ~ / considering', flagging something unexpected relative to a standard (月曜にしては機嫌がいい); the greeting isn't a standard the mood defies — it's the first sign of the bad mood, which is what からして expresses."
+      ],
+      "hiragana_full": "きょうのぶちょうは、あさのあいさつからしてきげんがわるそうだった。",
+      "audio_alternatives": [
+        { "kanji": "今朝の部長は、挨拶の声からして不機嫌そうだった。", "hiragana_full": "けさのぶちょうは、あいさつのこえからしてふきげんそうだった。" },
+        { "kanji": "部長の機嫌が悪いのは、朝の挨拶だけでも分かった。", "hiragana_full": "ぶちょうのきげんがわるいのは、あさのあいさつだけでもわかった。" }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        { "word": "挨拶", "reading": "あいさつ", "meaning": "greeting" },
+        { "word": "機嫌", "reading": "きげん", "meaning": "mood, humor" }
+      ]
+    },
+    {
+      "id": "n2_209_9",
+      "example_sentence": "乱れた筆跡からして、このメモは急いで書かれたものと思われる。",
+      "translation": "Judging from the disordered handwriting, this note appears to have been written in a hurry.",
+      "blank_target": "からして",
+      "wrong_choices": ["に基づいて", "に沿って", "をもとに"],
+      "wrong_choice_explanations": [
+        "に基づいて marks a formal basis for deliberate acts (規則に基づいて処理する) and needs a verb of judging or acting; it cannot attach directly to the conjecture 書かれたものと思われる.",
+        "に沿って means 'along / in line with ~' (方針に沿って進める); handwriting is not a guideline the note follows — it's evidence about how the note was written.",
+        "をもとに means 'using ~ as raw material' for creating something (実話をもとに作られた映画); the handwriting wasn't material used to produce the memo — it's the clue for the inference."
+      ],
+      "hiragana_full": "みだれたひっせきからして、このめもはいそいでかかれたものとおもわれる。",
+      "audio_alternatives": [
+        { "kanji": "字の乱れからして、このメモは慌てて書かれたようだ。", "hiragana_full": "じのみだれからして、このめもはあわててかかれたようだ。" },
+        { "kanji": "筆跡を見るかぎり、急いで書いたメモだろう。", "hiragana_full": "ひっせきをみるかぎり、いそいでかいためもだろう。" }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        { "word": "筆跡", "reading": "ひっせき", "meaning": "handwriting" },
+        { "word": "乱れる", "reading": "みだれる", "meaning": "to be disordered, messy" }
+      ]
+    },
+    {
+      "id": "n2_209_10",
+      "example_sentence": "今度の相手チームは、体格からして私たちとは全然違う。",
+      "translation": "The team we're up against this time is on another level — you can tell just from their build.",
+      "blank_target": "からして",
+      "wrong_choices": ["のわりに", "次第で", "にとって"],
+      "wrong_choice_explanations": [
+        "のわりに means 'considering ~' and needs an expectation-versus-reality gap tied to 体格 (体格のわりに素早い 'quick for their size'); here the physique isn't a standard being defied — it's the first obvious difference.",
+        "次第で means 'depending on ~'; how different the teams are doesn't fluctuate according to physique — the physique itself is the evidence.",
+        "にとって gives the viewpoint of a person or group (私たちにとって); a build can't hold a viewpoint, and the sentence needs 'even their build already shows it'."
+      ],
+      "hiragana_full": "こんどのあいてちーむは、たいかくからしてわたしたちとはぜんぜんちがう。",
+      "audio_alternatives": [
+        { "kanji": "相手チームは体つきからして強そうだ。", "hiragana_full": "あいてちーむはからだつきからしてつよそうだ。" },
+        { "kanji": "体格を見ただけで、今度の相手は格が違うと分かる。", "hiragana_full": "たいかくをみただけで、こんどのあいてはかくがちがうとわかる。" }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        { "word": "体格", "reading": "たいかく", "meaning": "build, physique" },
+        { "word": "相手", "reading": "あいて", "meaning": "opponent" }
+      ]
+    }
+  ]
+}

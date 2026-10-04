@@ -1,7 +1,7 @@
 {
   "id": "n4_147",
-  "pattern": "〜みたいだ",
-  "meaning": "seems like; looks like (conjecture from what one sees or hears)",
+  "pattern": "〜みたいだ／みたいな／みたいに",
+  "meaning": "seems like; looks like (conjecture from what one sees or hears); like ~ (みたいな + noun, みたいに + verb/adjective)",
   "level": "N4",
   "exercises": [
     {
@@ -9,7 +9,11 @@
       "example_sentence": "空がとても暗い。今夜は雨が降るみたいだ。",
       "translation": "The sky is really dark. It looks like it's going to rain tonight.",
       "blank_target": "みたいだ",
-      "wrong_choices": ["そうだ", "はずだ", "みたいに"],
+      "wrong_choices": [
+        "そうだ",
+        "はずだ",
+        "みたいに"
+      ],
       "wrong_choice_explanations": [
         "After a plain verb like 降る, そうだ reports hearsay ('I heard it will rain'). The speaker is guessing from the dark sky they can see, not repeating what someone said, so the appearance-based みたいだ fits.",
         "はずだ expresses a confident expectation based on prior knowledge ('it should rain, according to the forecast'). Here the speaker is making a guess from the look of the sky, so みたいだ is the right conjecture.",
@@ -17,53 +21,81 @@
       ],
       "hiragana_full": "そらがとてもくらい。こんやはあめがふるみたいだ。",
       "audio_alternatives": [
-        { "kanji": "空が暗いから、今夜は雨になるみたいだ。", "hiragana_full": "そらがくらいから、こんやはあめになるみたいだ。" },
-        { "kanji": "今夜は雨が降りそうだ。空がとても暗い。", "hiragana_full": "こんやはあめがふりそうだ。そらがとてもくらい。" }
+        {
+          "kanji": "空が暗いから、今夜は雨になるみたいだ。",
+          "hiragana_full": "そらがくらいから、こんやはあめになるみたいだ。"
+        },
+        {
+          "kanji": "今夜は雨が降りそうだ。空がとても暗い。",
+          "hiragana_full": "こんやはあめがふりそうだ。そらがとてもくらい。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "暗い",
+          "reading": "くらい",
+          "meaning": "dark"
+        },
+        {
+          "word": "今夜",
+          "reading": "こんや",
+          "meaning": "tonight"
+        }
+      ]
     },
     {
       "id": "n4_147_2",
-      "example_sentence": "田中さんは今日は来ないみたいです。かばんがありません。",
-      "translation": "It seems Mr. Tanaka isn't coming today. His bag isn't here.",
-      "blank_target": "みたいです",
-      "wrong_choices": ["そうです", "はずです", "らしいです"],
-      "wrong_choice_explanations": [
-        "来ないそうです would mean 'I heard he isn't coming' — hearsay. The speaker is inferring this themselves from the missing bag, so みたいです is correct.",
-        "はずです states what should logically be true based on a schedule or promise. The speaker has no such knowledge — only the clue that the bag is gone — so the evidence-based みたいです fits.",
-        "らしいです marks information picked up secondhand. Here the speaker is drawing their own conclusion from かばんがありません, which calls for みたいです."
-      ],
-      "hiragana_full": "たなかさんはきょうはこないみたいです。かばんがありません。",
-      "audio_alternatives": [
-        { "kanji": "かばんがないので、田中さんは今日は休みみたいです。", "hiragana_full": "かばんがないので、たなかさんはきょうはやすみみたいです。" },
-        { "kanji": "田中さんのかばんがない。今日は来ないのだろう。", "hiragana_full": "たなかさんのかばんがない。きょうはこないのだろう。" }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_147_3",
       "example_sentence": "弟は熱がある。風邪みたいだ。",
       "translation": "My little brother has a fever. It looks like a cold.",
       "blank_target": "みたいだ",
-      "wrong_choices": ["ようだ", "そうだ", "らしい"],
+      "wrong_choices": [
+        "ようだ",
+        "そうだ",
+        "ためだ"
+      ],
       "wrong_choice_explanations": [
         "ようだ has the same meaning, but after a noun it needs の: 風邪のようだ. Directly after 風邪, only みたいだ attaches.",
         "Appearance-そうだ attaches to adjective and verb stems (おいしそう), not directly to nouns — 風邪そうだ is ungrammatical.",
-        "風邪らしい usually reports what one heard from others. The speaker is judging directly from the brother's fever (熱がある), so みたいだ fits better."
+        "ためだ gives a cause or purpose and needs の after a noun (風邪のためだ); it doesn't express the speaker's guess from the fever, which みたいだ does."
       ],
       "hiragana_full": "おとうとはねつがある。かぜみたいだ。",
       "audio_alternatives": [
-        { "kanji": "弟は熱があって、風邪をひいたみたいだ。", "hiragana_full": "おとうとはねつがあって、かぜをひいたみたいだ。" },
-        { "kanji": "熱があるから、弟はたぶん風邪だろう。", "hiragana_full": "ねつがあるから、おとうとはたぶんかぜだろう。" }
+        {
+          "kanji": "弟は熱があって、風邪をひいたみたいだ。",
+          "hiragana_full": "おとうとはねつがあって、かぜをひいたみたいだ。"
+        },
+        {
+          "kanji": "熱があるから、弟はたぶん風邪だろう。",
+          "hiragana_full": "ねつがあるから、おとうとはたぶんかぜだろう。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "熱",
+          "reading": "ねつ",
+          "meaning": "fever"
+        },
+        {
+          "word": "風邪",
+          "reading": "かぜ",
+          "meaning": "a cold"
+        }
+      ]
     },
     {
-      "id": "n4_147_4",
+      "id": "n4_147_3",
       "example_sentence": "クラスのみんなは疲れているみたいだ。誰も話していない。",
       "translation": "Everyone in class seems tired. No one is talking.",
       "blank_target": "みたいだ",
-      "wrong_choices": ["そうだ", "はずだ", "みたいで"],
+      "wrong_choices": [
+        "そうだ",
+        "はずだ",
+        "みたいで"
+      ],
       "wrong_choice_explanations": [
         "After 疲れている, そうだ becomes hearsay ('I heard they are tired'). The speaker sees that no one is talking and guesses from that, so みたいだ is right.",
         "はずだ would mean 'they must be tired (it stands to reason)' from known facts like a long exam. This is an observation-based guess from 誰も話していない, so みたいだ fits.",
@@ -71,89 +103,35 @@
       ],
       "hiragana_full": "くらすのみんなはつかれているみたいだ。だれもはなしていない。",
       "audio_alternatives": [
-        { "kanji": "誰も話していないから、みんな疲れているみたいだ。", "hiragana_full": "だれもはなしていないから、みんなつかれているみたいだ。" },
-        { "kanji": "教室がとても静かだ。みんな疲れているのだろう。", "hiragana_full": "きょうしつがとてもしずかだ。みんなつかれているのだろう。" }
+        {
+          "kanji": "誰も話していないから、みんな疲れているみたいだ。",
+          "hiragana_full": "だれもはなしていないから、みんなつかれているみたいだ。"
+        },
+        {
+          "kanji": "教室がとても静かだ。みんな疲れているのだろう。",
+          "hiragana_full": "きょうしつがとてもしずかだ。みんなつかれているのだろう。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "疲れて",
+          "reading": "つかれて",
+          "meaning": "tired"
+        }
+      ]
     },
     {
-      "id": "n4_147_5",
-      "example_sentence": "あの人は学生みたいですね。制服を着ています。",
-      "translation": "That person seems to be a student. They're wearing a uniform.",
-      "blank_target": "みたいです",
-      "wrong_choices": ["ようです", "そうです", "らしいです"],
-      "wrong_choice_explanations": [
-        "よう expresses the same guess but needs の after a noun: 学生のようです. Right after 学生, use みたいです.",
-        "Appearance-そう cannot follow a noun directly — 学生そうです is ungrammatical. そう attaches to stems like 強そう or 降りそう.",
-        "学生らしい means 'student-like, just as a student should be' and describes typical qualities. Here the speaker is guessing the person's identity from the 制服, so みたいです is correct."
-      ],
-      "hiragana_full": "あのひとはがくせいみたいですね。せいふくをきています。",
-      "audio_alternatives": [
-        { "kanji": "制服を着ているから、あの人は学生みたいだ。", "hiragana_full": "せいふくをきているから、あのひとはがくせいみたいだ。" },
-        { "kanji": "あの人はたぶん学生でしょう。制服を着ていますから。", "hiragana_full": "あのひとはたぶんがくせいでしょう。せいふくをきていますから。" }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_147_6",
-      "example_sentence": "隣の部屋に誰かいるみたいだ。声が聞こえる。",
-      "translation": "It seems someone is in the next room. I can hear a voice.",
-      "blank_target": "みたいだ",
-      "wrong_choices": ["はずだ", "みたいな", "らしい"],
-      "wrong_choice_explanations": [
-        "いるはずだ means 'someone should be there' based on prior knowledge like a schedule. The speaker is judging from the voice they hear right now, so みたいだ fits.",
-        "みたいな is the form used before a noun (子供みたいな人). At the end of a sentence the predicate form みたいだ is required.",
-        "いるらしい suggests the speaker heard this from someone else. Since they can hear the voice themselves (声が聞こえる), the direct-evidence みたいだ is the natural choice."
-      ],
-      "hiragana_full": "となりのへやにだれかいるみたいだ。こえがきこえる。",
-      "audio_alternatives": [
-        { "kanji": "声が聞こえるから、隣の部屋に誰かいるみたいだ。", "hiragana_full": "こえがきこえるから、となりのへやにだれかいるみたいだ。" },
-        { "kanji": "隣の部屋から声がする。誰かいるのだろう。", "hiragana_full": "となりのへやからこえがする。だれかいるのだろう。" }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_147_7",
-      "example_sentence": "あのレストランはいつも人が多い。料理がおいしいみたいだ。",
-      "translation": "That restaurant is always crowded. The food seems to be good.",
-      "blank_target": "みたいだ",
-      "wrong_choices": ["そうだ", "らしい", "みたいに"],
-      "wrong_choice_explanations": [
-        "おいしいそうだ means 'I hear the food is good' — hearsay. The speaker is inferring it from the crowd they see, so みたいだ fits. (おいしそうだ, with the stem, would be appearance, but that is a different form.)",
-        "らしい marks information learned from others. The guess here comes from the speaker's own observation that the restaurant is always full, so みたいだ is better.",
-        "みたいに describes the manner of an action (プロみたいに作る). It cannot serve as the sentence-final conjecture; that requires みたいだ."
-      ],
-      "hiragana_full": "あのれすとらんはいつもひとがおおい。りょうりがおいしいみたいだ。",
-      "audio_alternatives": [
-        { "kanji": "いつも人が多いから、あの店の料理はおいしいみたいだ。", "hiragana_full": "いつもひとがおおいから、あのみせのりょうりはおいしいみたいだ。" },
-        { "kanji": "あのレストランの料理はおいしいのだろう。いつも客が多い。", "hiragana_full": "あのれすとらんのりょうりはおいしいのだろう。いつもきゃくがおおい。" }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_147_8",
-      "example_sentence": "鈴木さんは犬が好きみたいです。いつも犬の写真を見ています。",
-      "translation": "Ms. Suzuki seems to like dogs. She's always looking at photos of dogs.",
-      "blank_target": "みたいです",
-      "wrong_choices": ["だそうです", "らしいです", "のようです"],
-      "wrong_choice_explanations": [
-        "好きだそうです means 'I heard she likes dogs.' The speaker is concluding this from watching her look at dog photos, so みたいです is correct.",
-        "らしいです reports secondhand information. The evidence here is the speaker's own observation (いつも…見ています), which calls for みたいです.",
-        "よう attaches to な-adjectives with な, not の: 好きなようです. 好きのようです is ungrammatical, so のようです cannot replace みたいです here."
-      ],
-      "hiragana_full": "すずきさんはいぬがすきみたいです。いつもいぬのしゃしんをみています。",
-      "audio_alternatives": [
-        { "kanji": "いつも犬の写真を見ているから、鈴木さんは犬が好きみたいです。", "hiragana_full": "いつもいぬのしゃしんをみているから、すずきさんはいぬがすきみたいです。" },
-        { "kanji": "鈴木さんはきっと犬が好きなのでしょう。", "hiragana_full": "すずきさんはきっといぬがすきなのでしょう。" }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_147_9",
+      "id": "n4_147_4",
       "example_sentence": "教室の電気が消えている。みんなもう帰ったみたいだ。",
       "translation": "The classroom lights are off. It looks like everyone has already gone home.",
       "blank_target": "みたいだ",
-      "wrong_choices": ["そうだ", "はずだ", "みたいに"],
+      "wrong_choices": [
+        "そうだ",
+        "はずだ",
+        "みたいに"
+      ],
       "wrong_choice_explanations": [
         "帰ったそうだ means 'I heard everyone went home.' The speaker is inferring it from the lights being off, so みたいだ fits.",
         "はずだ expresses 'they must have gone home' as a logical conclusion from known plans. This sentence is a guess from what the speaker sees (電気が消えている), so みたいだ is right.",
@@ -161,28 +139,265 @@
       ],
       "hiragana_full": "きょうしつのでんきがきえている。みんなもうかえったみたいだ。",
       "audio_alternatives": [
-        { "kanji": "電気が消えているから、みんなもう帰ったみたいだ。", "hiragana_full": "でんきがきえているから、みんなもうかえったみたいだ。" },
-        { "kanji": "教室は暗い。みんなもう帰ったのだろう。", "hiragana_full": "きょうしつはくらい。みんなもうかえったのだろう。" }
+        {
+          "kanji": "電気が消えているから、みんなもう帰ったみたいだ。",
+          "hiragana_full": "でんきがきえているから、みんなもうかえったみたいだ。"
+        },
+        {
+          "kanji": "教室は暗い。みんなもう帰ったのだろう。",
+          "hiragana_full": "きょうしつはくらい。みんなもうかえったのだろう。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "電気",
+          "reading": "でんき",
+          "meaning": "light"
+        },
+        {
+          "word": "消えて",
+          "reading": "きえて",
+          "meaning": "turned off"
+        }
+      ]
+    },
+    {
+      "id": "n4_147_5",
+      "example_sentence": "それは夢みたいな話ですね。本当ですか。",
+      "translation": "That's like something out of a dream. Is it really true?",
+      "blank_target": "みたいな",
+      "wrong_choices": [
+        "みたいに",
+        "みたいだ",
+        "ような"
+      ],
+      "wrong_choice_explanations": [
+        "みたいに is adverbial and must modify a verb or adjective (夢みたいに楽しい). Before the noun 話, the noun-modifying form みたいな is required.",
+        "みたいだ is the sentence-ending predicate form (その話は夢みたいだ). To modify the noun 話 directly, みたいな is needed.",
+        "ような means the same thing, but after a noun it requires の: 夢のような話. Directly after 夢, only みたいな works."
+      ],
+      "hiragana_full": "それはゆめみたいなはなしですね。ほんとうですか。",
+      "audio_alternatives": [
+        {
+          "kanji": "信じられない。夢みたいな話だ。",
+          "hiragana_full": "しんじられない。ゆめみたいなはなしだ。"
+        },
+        {
+          "kanji": "本当ですか。まるで夢のような話ですね。",
+          "hiragana_full": "ほんとうですか。まるでゆめのようなはなしですね。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "夢",
+          "reading": "ゆめ",
+          "meaning": "dream"
+        }
+      ]
+    },
+    {
+      "id": "n4_147_6",
+      "example_sentence": "旅行でお城みたいなホテルに泊まりました。",
+      "translation": "On our trip, we stayed at a hotel that looked like a castle.",
+      "blank_target": "みたいな",
+      "wrong_choices": [
+        "ような",
+        "みたいに",
+        "そうな"
+      ],
+      "wrong_choice_explanations": [
+        "ような must follow a noun with の: お城のようなホテル. Without の, みたいな is the only option.",
+        "みたいに is the adverbial form (お城みたいに大きい). It cannot directly modify the noun ホテル.",
+        "そうな attaches to adjective or verb stems (高そうなホテル) to mean 'looking ~'. It cannot follow the noun お城."
+      ],
+      "hiragana_full": "りょこうでおしろみたいなほてるにとまりました。",
+      "audio_alternatives": [
+        {
+          "kanji": "旅行で、お城みたいなきれいなホテルに泊まった。",
+          "hiragana_full": "りょこうで、おしろみたいなきれいなほてるにとまった。"
+        },
+        {
+          "kanji": "泊まったホテルは、まるでお城のようでした。",
+          "hiragana_full": "とまったほてるは、まるでおしろのようでした。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "お城",
+          "reading": "おしろ",
+          "meaning": "castle"
+        },
+        {
+          "word": "泊まり",
+          "reading": "とまり",
+          "meaning": "to stay overnight"
+        }
+      ]
+    },
+    {
+      "id": "n4_147_7",
+      "example_sentence": "ソフトクリームみたいな雲が空に浮かんでいる。",
+      "translation": "Clouds like soft-serve ice cream are floating in the sky.",
+      "blank_target": "みたいな",
+      "wrong_choices": [
+        "ような",
+        "そうな",
+        "みたいだ"
+      ],
+      "wrong_choice_explanations": [
+        "ような needs の after the noun: ソフトクリームのような雲. Without の, みたいな is the correct form.",
+        "そうな means 'looking ~' and attaches to adjective or verb stems (おいしそうなクリーム), never directly to a noun like ソフトクリーム.",
+        "みたいだ is used at the end of a sentence (あの雲はソフトクリームみたいだ). To modify 雲 inside the sentence, みたいな is needed."
+      ],
+      "hiragana_full": "そふとくりーむみたいなくもがそらにうかんでいる。",
+      "audio_alternatives": [
+        {
+          "kanji": "空にソフトクリームみたいな雲がある。",
+          "hiragana_full": "そらにそふとくりーむみたいなくもがある。"
+        },
+        {
+          "kanji": "ソフトクリームのような白い雲が浮かんでいる。",
+          "hiragana_full": "そふとくりーむのようなしろいくもがうかんでいる。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "雲",
+          "reading": "くも",
+          "meaning": "cloud"
+        },
+        {
+          "word": "浮かんで",
+          "reading": "うかんで",
+          "meaning": "floating"
+        }
+      ]
+    },
+    {
+      "id": "n4_147_8",
+      "example_sentence": "兄はもう大人なのに、子供みたいに遊んでいる。",
+      "translation": "Even though he's already an adult, my big brother plays like a child.",
+      "blank_target": "みたいに",
+      "wrong_choices": [
+        "らしく",
+        "みたいな",
+        "ように"
+      ],
+      "wrong_choice_explanations": [
+        "子供らしく would mean 'as a child properly should', said of actual children. The brother is an adult (もう大人なのに), so the comparison みたいに fits.",
+        "みたいな is the noun-modifying form (子供みたいな人). To modify the verb 遊んでいる, みたいに is needed.",
+        "ように requires の after the noun: 子供のように. Without の, use みたいに."
+      ],
+      "hiragana_full": "あにはもうおとななのに、こどもみたいにあそんでいる。",
+      "audio_alternatives": [
+        {
+          "kanji": "兄は大人なのに、子供みたいにゲームで遊ぶ。",
+          "hiragana_full": "あにはおとななのに、こどもみたいにげーむであそぶ。"
+        },
+        {
+          "kanji": "兄はまるで子供のように遊んでいる。",
+          "hiragana_full": "あにはまるでこどものようにあそんでいる。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "大人",
+          "reading": "おとな",
+          "meaning": "adult"
+        },
+        {
+          "word": "遊んで",
+          "reading": "あそんで",
+          "meaning": "playing"
+        }
+      ]
+    },
+    {
+      "id": "n4_147_9",
+      "example_sentence": "彼は毎朝ロボットみたいに同じ時間に起きる。",
+      "translation": "He gets up at the same time every morning, like a robot.",
+      "blank_target": "みたいに",
+      "wrong_choices": [
+        "みたいな",
+        "ように",
+        "みたいで"
+      ],
+      "wrong_choice_explanations": [
+        "みたいな modifies nouns (ロボットみたいな動き). Here the comparison applies to the action 起きる, so the adverbial みたいに is needed.",
+        "ように needs の: ロボットのように. Directly after ロボット, only みたいに attaches.",
+        "みたいで is the て-form used to link clauses (ロボットみたいで、おもしろい). It cannot modify the following verb phrase."
+      ],
+      "hiragana_full": "かれはまいあさろぼっとみたいにおなじじかんにおきる。",
+      "audio_alternatives": [
+        {
+          "kanji": "彼は毎朝ロボットみたいに同じことをする。",
+          "hiragana_full": "かれはまいあさろぼっとみたいにおなじことをする。"
+        },
+        {
+          "kanji": "彼の朝は、まるでロボットのように決まっている。",
+          "hiragana_full": "かれのあさは、まるでろぼっとのようにきまっている。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "毎朝",
+          "reading": "まいあさ",
+          "meaning": "every morning"
+        }
+      ]
     },
     {
       "id": "n4_147_10",
-      "example_sentence": "このゲームは無料みたいだよ。お金のマークがないから。",
-      "translation": "This game seems to be free. There's no money icon.",
-      "blank_target": "みたいだ",
-      "wrong_choices": ["ようだ", "そうだ", "らしい"],
+      "example_sentence": "プールの水が氷みたいに冷たかった。",
+      "translation": "The pool water was as cold as ice.",
+      "blank_target": "みたいに",
+      "wrong_choices": [
+        "みたいな",
+        "ように",
+        "そうに"
+      ],
       "wrong_choice_explanations": [
-        "After the noun 無料, よう needs の: 無料のようだ. Without の, only みたいだ can attach directly.",
-        "Appearance-そう cannot attach directly to a noun — 無料そうだ is ungrammatical.",
-        "無料らしいよ would suggest the speaker heard it from someone. They are judging from what they see (お金のマークがない), so みたいだ fits better."
+        "みたいな must precede a noun (氷みたいな水). Before the adjective 冷たかった, the adverbial みたいに is required.",
+        "ように requires の: 氷のように冷たい. Without の, use みたいに.",
+        "そうに follows adjective or verb stems (冷たそうに). It cannot attach to the noun 氷."
       ],
-      "hiragana_full": "このげーむはむりょうみたいだよ。おかねのまーくがないから。",
+      "hiragana_full": "ぷーるのみずがこおりみたいにつめたかった。",
       "audio_alternatives": [
-        { "kanji": "お金のマークがないから、このゲームは無料みたいだ。", "hiragana_full": "おかねのまーくがないから、このげーむはむりょうみたいだ。" },
-        { "kanji": "このゲームはたぶん無料だと思うよ。", "hiragana_full": "このげーむはたぶんむりょうだとおもうよ。" }
+        {
+          "kanji": "プールの水は氷みたいだった。",
+          "hiragana_full": "ぷーるのみずはこおりみたいだった。"
+        },
+        {
+          "kanji": "プールの水が氷のように冷たかった。",
+          "hiragana_full": "ぷーるのみずがこおりのようにつめたかった。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "氷",
+          "reading": "こおり",
+          "meaning": "ice"
+        },
+        {
+          "word": "冷たかった",
+          "reading": "つめたかった",
+          "meaning": "was cold"
+        }
+      ]
     }
   ]
 }

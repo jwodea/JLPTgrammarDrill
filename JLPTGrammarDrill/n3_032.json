@@ -1,69 +1,11 @@
 {
   "id": "n3_032",
-  "pattern": "〜に関して",
-  "meaning": "regarding / concerning / about",
+  "pattern": "〜に関して／に関する",
+  "meaning": "regarding / concerning / about (に関する: before a noun)",
   "level": "N3",
   "exercises": [
     {
       "id": "n3_032_1",
-      "example_sentence": "今後の計画に関して、皆で相談しましょう。",
-      "translation": "Regarding future plans, let us discuss together.",
-      "blank_target": "に関して",
-      "wrong_choices": [
-        "をめぐって",
-        "によって",
-        "にかけて"
-      ],
-      "wrong_choice_explanations": [
-        "をめぐって means 'surrounding / over,' implying debate or contention about the plans; but the sentence just proposes discussing them together, with no sense of dispute.",
-        "によって means 'by means of' or 'depending on'; the sentence is about the topic of discussion, not a method or a variable factor.",
-        "にかけて marks a range from one point to another (春から夏にかけて); it expresses extent, not the subject being discussed."
-      ],
-      "hiragana_full": "こんごのけいかくにかんして、みんなでそうだんしましょう。",
-      "audio_alternatives": [
-        {
-          "kanji": "今後の計画について、皆で話し合いましょう。",
-          "hiragana_full": "こんごのけいかくについて、みんなではなしあいましょう。"
-        },
-        {
-          "kanji": "将来の計画に関して、みんなで相談しましょう。",
-          "hiragana_full": "しょうらいのけいかくにかんして、みんなでそうだんしましょう。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "にかんして"
-    },
-    {
-      "id": "n3_032_2",
-      "example_sentence": "この改革案に関して、皆の意見を聞きたいと思います。",
-      "translation": "Regarding this reform proposal, I would like to hear everyone's opinions.",
-      "blank_target": "に関して",
-      "wrong_choices": [
-        "をめぐって",
-        "に対して",
-        "によって"
-      ],
-      "wrong_choice_explanations": [
-        "をめぐって means 'surrounding,' implying controversy around the proposal; but here you simply want to hear opinions on it.",
-        "に対して means 'toward / in response to,' marking a target of action or a contrast; it doesn't introduce the subject opinions are about.",
-        "によって means 'by means of'; the sentence concerns the topic of the opinions, not how they are produced."
-      ],
-      "hiragana_full": "このかいかくあんにかんして、みなのいけんをききたいとおもいます。",
-      "audio_alternatives": [
-        {
-          "kanji": "この改革案について、皆の意見を聞きたいと思います。",
-          "hiragana_full": "このかいかくあんについて、みなのいけんをききたいとおもいます。"
-        },
-        {
-          "kanji": "この改革案に関して、皆さんの意見を聞きたいです。",
-          "hiragana_full": "このかいかくあんにかんして、みなさんのいけんをききたいです。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "にかんして"
-    },
-    {
-      "id": "n3_032_3",
       "example_sentence": "スポーツ科学に関して、新しい研究が発表された。",
       "translation": "New research was published regarding sports science.",
       "blank_target": "に関して",
@@ -89,10 +31,28 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "にかんして"
+      "blank_target_reading": "にかんして",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "科学",
+          "reading": "かがく",
+          "meaning": "science"
+        },
+        {
+          "word": "研究",
+          "reading": "けんきゅう",
+          "meaning": "research"
+        },
+        {
+          "word": "発表",
+          "reading": "はっぴょう",
+          "meaning": "announcement, presentation"
+        }
+      ]
     },
     {
-      "id": "n3_032_4",
+      "id": "n3_032_2",
       "example_sentence": "私たちの関係に関して、何も言うことがありません。",
       "translation": "Regarding our relationship, I have nothing to say.",
       "blank_target": "に関して",
@@ -118,181 +78,356 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "にかんして"
+      "blank_target_reading": "にかんして",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "関係",
+          "reading": "かんけい",
+          "meaning": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "n3_032_3",
+      "example_sentence": "この件に関して詳細は後日お知らせします。",
+      "translation": "Regarding this matter, we will notify you of the details later.",
+      "blank_target": "に関して",
+      "wrong_choices": [
+        "に比べて",
+        "として",
+        "にとって"
+      ],
+      "wrong_choice_explanations": [
+        "に比べて means 'compared to' and sets up a comparison — this matter isn't being compared with anything, so に関して is needed to mark it as the topic being addressed.",
+        "として means 'as/in the capacity of' — it doesn't fit here because we're not discussing roles or positions.",
+        "にとって means 'for/from the perspective of' — it doesn't fit here because we're not focusing on someone's viewpoint."
+      ],
+      "hiragana_full": "このけんにかんしてしょうさいはごじつおしらせします。",
+      "audio_alternatives": [
+        {
+          "kanji": "この件について詳しくは後でお知らせします。",
+          "hiragana_full": "このけんについてくわしくはあとでおしらせします。"
+        },
+        {
+          "kanji": "この件の詳細は後日ご連絡します。",
+          "hiragana_full": "このけんのしょうさいはごじつごれんらくします。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "にかんして",
+      "register": "formal",
+      "vocab": [
+        {
+          "word": "件",
+          "reading": "けん",
+          "meaning": "matter"
+        },
+        {
+          "word": "詳細",
+          "reading": "しょうさい",
+          "meaning": "details"
+        },
+        {
+          "word": "後日",
+          "reading": "ごじつ",
+          "meaning": "at a later date"
+        }
+      ]
+    },
+    {
+      "id": "n3_032_4",
+      "example_sentence": "契約に関して不明な点がございましたら、お尋ねください。",
+      "translation": "If you have any unclear points regarding the contract, please ask.",
+      "blank_target": "に関して",
+      "wrong_choices": [
+        "にとって",
+        "によって",
+        "として"
+      ],
+      "wrong_choice_explanations": [
+        "にとって means 'for/from the perspective of' — it doesn't fit here because we're not discussing viewpoints.",
+        "によって means 'by/depending on' and marks a means or cause — the contract isn't a cause here, so に関して is needed to introduce it as the topic in question.",
+        "として means 'as/in the capacity of' — it doesn't fit here because we're not talking about roles or positions."
+      ],
+      "hiragana_full": "けいやくにかんしてふめいなてんがございましたら、おたずねください。",
+      "audio_alternatives": [
+        {
+          "kanji": "契約について分からないことがあれば、聞いてください。",
+          "hiragana_full": "けいやくについてわからないことがあれば、きいてください。"
+        },
+        {
+          "kanji": "契約に関して不明な点があれば、お聞きください。",
+          "hiragana_full": "けいやくにかんしてふめいなてんがあれば、おききください。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "にかんして",
+      "register": "formal",
+      "vocab": [
+        {
+          "word": "契約",
+          "reading": "けいやく",
+          "meaning": "contract"
+        },
+        {
+          "word": "不明",
+          "reading": "ふめい",
+          "meaning": "unclear"
+        }
+      ]
     },
     {
       "id": "n3_032_5",
-      "example_sentence": "オンラインショッピングに関して、疑問があります。",
-      "translation": "I have questions regarding online shopping.",
+      "example_sentence": "個人情報の取り扱いに関して注意事項があります。",
+      "translation": "There are precautions regarding the handling of personal information.",
       "blank_target": "に関して",
       "wrong_choices": [
-        "にわたって",
-        "に対して",
+        "に比べて",
+        "にとって",
         "によって"
       ],
       "wrong_choice_explanations": [
-        "にわたって marks a span of time or space; it expresses extent, not the topic your questions concern.",
-        "に対して means 'toward / against'; it marks a target or a contrast, not the subject of your questions.",
-        "によって means 'depending on / by means of'; it doesn't introduce the matter the questions are about."
+        "に比べて means 'compared to' — it doesn't fit here because we're not making comparisons.",
+        "にとって means 'for/from the perspective of' — it doesn't fit here because we're not focusing on someone's viewpoint.",
+        "によって means 'by/depending on' and marks a cause or means — handling personal information isn't a cause here, so に関して is needed to mark it as the topic of the precautions."
       ],
-      "hiragana_full": "おんらいんしょっぴんぐにかんして、ぎもんがあります。",
+      "hiragana_full": "こじんじょうほうのとりあつかいにかんしてちゅういじこうがあります。",
       "audio_alternatives": [
         {
-          "kanji": "オンラインショッピングについて、質問があります。",
-          "hiragana_full": "おんらいんしょっぴんぐについて、しつもんがあります。"
+          "kanji": "個人情報の取り扱いについて注意事項があります。",
+          "hiragana_full": "こじんじょうほうのとりあつかいについてちゅういじこうがあります。"
         },
         {
-          "kanji": "オンラインショッピングのことで、疑問があります。",
-          "hiragana_full": "おんらいんしょっぴんぐのことで、ぎもんがあります。"
+          "kanji": "個人情報の扱いに関して注意事項があります。",
+          "hiragana_full": "こじんじょうほうのあつかいにかんしてちゅういじこうがあります。"
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "にかんして"
+      "blank_target_reading": "にかんして",
+      "register": "formal",
+      "vocab": [
+        {
+          "word": "個人情報",
+          "reading": "こじんじょうほう",
+          "meaning": "personal information"
+        },
+        {
+          "word": "取り扱い",
+          "reading": "とりあつかい",
+          "meaning": "handling"
+        },
+        {
+          "word": "注意事項",
+          "reading": "ちゅういじこう",
+          "meaning": "points of caution"
+        }
+      ]
     },
     {
       "id": "n3_032_6",
-      "example_sentence": "契約条件に関して、専門家と相談しました。",
-      "translation": "I consulted with an expert regarding the contract terms.",
-      "blank_target": "に関して",
+      "example_sentence": "環境汚染に関する研究報告が発表された。",
+      "translation": "A research report on environmental pollution was published.",
+      "blank_target": "に関する",
       "wrong_choices": [
-        "をめぐって",
-        "にかけて",
-        "につき"
+        "による",
+        "に向けた",
+        "に基づく"
       ],
       "wrong_choice_explanations": [
-        "をめぐって means 'surrounding,' implying a dispute over the contract terms; but the sentence simply describes consulting an expert about them.",
-        "にかけて marks a range from one point to another; it can't mark the subject of a consultation.",
-        "につき means 'per' or 'owing to'; it expresses rate or cause, not the topic consulted on."
+        "による indicates the agent or means 'by/due to', but this sentence needs to show what topic the report covers, not who wrote it.",
+        "に向けた means 'aimed at/directed toward' and suggests purpose or direction, but the report is about pollution, not aimed at it.",
+        "に基づく means 'based on' and would suggest the report is based on pollution rather than being about pollution as a topic."
       ],
-      "hiragana_full": "けいやくじょうけんにかんして、せんもんかとそうだんしました。",
+      "hiragana_full": "かんきょうおせんにかんするけんきゅうほうこくがはっぴょうされた。",
       "audio_alternatives": [
         {
-          "kanji": "契約条件について、専門家と相談しました。",
-          "hiragana_full": "けいやくじょうけんについて、せんもんかとそうだんしました。"
+          "kanji": "環境汚染についての研究報告が発表された。",
+          "hiragana_full": "かんきょうおせんについてのけんきゅうほうこくがはっぴょうされた。"
         },
         {
-          "kanji": "専門家に契約条件のことを相談しました。",
-          "hiragana_full": "せんもんかにけいやくじょうけんのことをそうだんしました。"
+          "kanji": "環境汚染に関する研究報告が発表されました。",
+          "hiragana_full": "かんきょうおせんにかんするけんきゅうほうこくがはっぴょうされました。"
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "にかんして"
+      "blank_target_reading": "にかんする",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "汚染",
+          "reading": "おせん",
+          "meaning": "pollution"
+        },
+        {
+          "word": "報告",
+          "reading": "ほうこく",
+          "meaning": "report"
+        }
+      ]
     },
     {
       "id": "n3_032_7",
-      "example_sentence": "その出来事に関して、詳しく説明してください。",
-      "translation": "Please explain that event in detail.",
-      "blank_target": "に関して",
+      "example_sentence": "環境問題に関する本を読んでいる。",
+      "translation": "I am reading a book related to environmental issues.",
+      "blank_target": "に関する",
       "wrong_choices": [
-        "につき",
-        "に対して",
-        "によって"
+        "に対する",
+        "のための",
+        "による"
       ],
       "wrong_choice_explanations": [
-        "につき means 'per / for each' (or 'owing to'); it can't introduce the event you want explained.",
-        "に対して means 'toward / against'; it marks a target or a contrast, not the topic of the explanation.",
-        "によって means 'depending on / by'; the sentence specifies what to explain, not a method or variable."
+        "に対する is also an attributive form, but it means 'directed toward / in response to' (e.g. 環境問題に対する取り組み, 'efforts toward environmental issues'), so 環境問題に対する本 would imply a book that takes a stance against the issues rather than one simply about them.",
+        "のための means 'for the sake of / in order to,' so 環境問題のための本 would be a book meant to help solve environmental issues, not a book on the subject, which is what に関する marks.",
+        "による marks cause or means ('brought about by / by means of'), so 環境問題による本 reads as a book caused by environmental issues, not a book on the subject of them, which に関する marks."
       ],
-      "hiragana_full": "そのできごとにかんして、くわしくせつめいしてください。",
+      "hiragana_full": "かんきょうもんだいにかんするほんをよんでいる。",
       "audio_alternatives": [
         {
-          "kanji": "その出来事について、詳しく説明してください。",
-          "hiragana_full": "そのできごとについて、くわしくせつめいしてください。"
+          "kanji": "環境問題についての本を読んでいる。",
+          "hiragana_full": "かんきょうもんだいについてのほんをよんでいる。"
         },
         {
-          "kanji": "その出来事を詳しく説明してもらえますか。",
-          "hiragana_full": "そのできごとをくわしくせつめいしてもらえますか。"
+          "kanji": "環境問題に関する本を読んでいます。",
+          "hiragana_full": "かんきょうもんだいにかんするほんをよんでいます。"
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "にかんして"
+      "blank_target_reading": "にかんする",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "環境問題",
+          "reading": "かんきょうもんだい",
+          "meaning": "environmental issues"
+        }
+      ]
     },
     {
       "id": "n3_032_8",
-      "example_sentence": "セキュリティに関して、最新の対策を講じています。",
-      "translation": "Regarding security, we are taking the latest measures.",
-      "blank_target": "に関して",
+      "example_sentence": "健康に関する最新情報を得たい。",
+      "translation": "I want to get the latest information about health.",
+      "blank_target": "に関する",
       "wrong_choices": [
-        "にわたって",
-        "をめぐって",
-        "によって"
+        "に対する",
+        "による",
+        "からの"
       ],
       "wrong_choice_explanations": [
-        "にわたって marks a span of time or space; it expresses extent, not the concern the measures address.",
-        "をめぐって means 'surrounding,' implying controversy over security; but the sentence neutrally states what is being addressed.",
-        "によって means 'by means of / depending on'; it doesn't mark the topic the measures concern."
+        "に対する is attributive but means 'toward / in response to' (e.g. 健康に対する意識, 'awareness about health'), so 健康に対する最新情報 frames the information as a reaction directed at health rather than information on the topic of health.",
+        "による marks a cause or agent ('by means of / due to'), so 健康による最新情報 would mean information produced by health itself, not information about health.",
+        "からの means 'from,' pointing to a source, so 健康からの最新情報 suggests information coming from 'health' as an origin rather than information on the subject of health."
       ],
-      "hiragana_full": "セキュリティにかんして、さいしんのたいさくをこうじています。",
+      "hiragana_full": "けんこうにかんするさいしんじょうほうをえたい。",
       "audio_alternatives": [
         {
-          "kanji": "セキュリティについて、最新の対策を取っています。",
-          "hiragana_full": "セキュリティについて、さいしんのたいさくをとっています。"
+          "kanji": "健康についての最新情報を得たい。",
+          "hiragana_full": "けんこうについてのさいしんじょうほうをえたい。"
         },
         {
-          "kanji": "セキュリティに関して、最新の措置を講じています。",
-          "hiragana_full": "セキュリティにかんして、さいしんのそちをこうじています。"
+          "kanji": "健康に関する最新の情報を手に入れたい。",
+          "hiragana_full": "けんこうにかんするさいしんのじょうほうをてにいれたい。"
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "にかんして"
+      "blank_target_reading": "にかんする",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "最新情報",
+          "reading": "さいしんじょうほう",
+          "meaning": "the latest information"
+        },
+        {
+          "word": "得る",
+          "reading": "える",
+          "meaning": "to obtain"
+        }
+      ]
     },
     {
       "id": "n3_032_9",
-      "example_sentence": "経営戦略に関して、専門家の意見を求めています。",
-      "translation": "Regarding business strategy, I am seeking expert opinions.",
-      "blank_target": "に関して",
+      "example_sentence": "経済に関するデータを分析する。",
+      "translation": "I am analyzing data related to economics.",
+      "blank_target": "に関する",
       "wrong_choices": [
-        "をめぐって",
-        "に対して",
-        "につき"
+        "による",
+        "のための",
+        "からの"
       ],
       "wrong_choice_explanations": [
-        "をめぐって means 'surrounding,' implying contention over the strategy; but you are simply seeking opinions about it.",
-        "に対して means 'toward / against'; it marks a target or a contrast, not the subject of the opinions.",
-        "につき means 'per' or 'owing to'; it expresses rate or cause, not the topic opinions are sought on."
+        "による marks cause or means, so 経済によるデータ reads as data brought about by the economy, not data on the subject of economics.",
+        "のための means 'for the purpose of,' so 経済のためのデータ would be data gathered to benefit the economy, not data about the field of economics, which に関する marks.",
+        "からの means 'from,' so 経済からのデータ points to the economy as the source the data came from rather than as its subject matter."
       ],
-      "hiragana_full": "けいえいせんりゃくにかんして、せんもんかのいけんをもとめています。",
+      "hiragana_full": "けいざいにかんするでーたをぶんせきする。",
       "audio_alternatives": [
         {
-          "kanji": "経営戦略について、専門家の意見を求めています。",
-          "hiragana_full": "けいえいせんりゃくについて、せんもんかのいけんをもとめています。"
+          "kanji": "経済に関連したデータを分析する。",
+          "hiragana_full": "けいざいにかんれんしたでーたをぶんせきする。"
         },
         {
-          "kanji": "経営戦略に関する専門家の意見を求めています。",
-          "hiragana_full": "けいえいせんりゃくにかんするせんもんかのいけんをもとめています。"
+          "kanji": "経済についてのデータを分析している。",
+          "hiragana_full": "けいざいについてのでーたをぶんせきしている。"
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "にかんして"
+      "blank_target_reading": "にかんする",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "経済",
+          "reading": "けいざい",
+          "meaning": "economics / the economy"
+        },
+        {
+          "word": "分析",
+          "reading": "ぶんせき",
+          "meaning": "analysis"
+        }
+      ]
     },
     {
       "id": "n3_032_10",
-      "example_sentence": "知的財産権に関して、法的相談が必要です。",
-      "translation": "Regarding intellectual property rights, legal consultation is needed.",
-      "blank_target": "に関して",
+      "example_sentence": "国際問題に関する会議が開催される。",
+      "translation": "A conference concerning international issues will be held.",
+      "blank_target": "に関する",
       "wrong_choices": [
-        "につき",
-        "に対して",
-        "にわたって"
+        "による",
+        "に対する",
+        "での"
       ],
       "wrong_choice_explanations": [
-        "につき means 'per / for each,' used for rates and allocations; it can't mark the subject requiring legal consultation.",
-        "に対して means 'toward / against'; it marks a target or a contrast, not the topic of the consultation.",
-        "にわたって marks a span of time or space; it expresses extent, not the matter consulted on."
+        "による means 'caused by,' so 国際問題による会議 would mean a conference brought about by international issues rather than one on the topic of them.",
+        "に対する is attributive but means 'toward / in response to,' so 国際問題に対する会議 would suggest a conference set against international issues rather than one about them.",
+        "での marks a location ('at / in'), so 国際問題での会議 fails as a topic marker — での needs an actual place (e.g. 東京での会議), not a subject."
       ],
-      "hiragana_full": "ちてきざいさんけんにかんして、ほうてきそうだんがひつようです。",
+      "hiragana_full": "こくさいもんだいにかんするかいぎがかいさいされる。",
       "audio_alternatives": [
         {
-          "kanji": "知的財産権について、法的相談が必要です。",
-          "hiragana_full": "ちてきざいさんけんについて、ほうてきそうだんがひつようです。"
+          "kanji": "国際問題に関する会議が開かれる。",
+          "hiragana_full": "こくさいもんだいにかんするかいぎがひらかれる。"
         },
         {
-          "kanji": "知的財産権に関する法的相談が必要です。",
-          "hiragana_full": "ちてきざいさんけんにかんするほうてきそうだんがひつようです。"
+          "kanji": "国際関係に関する会議が開催される。",
+          "hiragana_full": "こくさいかんけいにかんするかいぎがかいさいされる。"
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "にかんして"
+      "blank_target_reading": "にかんする",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "国際問題",
+          "reading": "こくさいもんだい",
+          "meaning": "international issues"
+        },
+        {
+          "word": "開催",
+          "reading": "かいさい",
+          "meaning": "holding (an event)"
+        }
+      ]
     }
   ]
 }

@@ -10,13 +10,13 @@
       "translation": "Only by seeing it in person can you truly understand its magnificence.",
       "blank_target": "てはじめて",
       "wrong_choices": [
-        "てこそ",
-        "てから",
+        "たついでに",
+        "たきり",
         "ても"
       ],
       "wrong_choice_explanations": [
-        "てこそ emphasizes 'precisely because of doing' rather than the temporal sequence of realization that てはじめて expresses.",
-        "てから simply indicates 'after doing' but lacks the nuance that understanding/realization only becomes possible after the action.",
+        "たついでに means 'while (doing it) anyway, also…' and adds an incidental second action; understanding the work's greatness is not a side errand, so it cannot express the 'only after seeing' realization of てはじめて.",
+        "たきり means 'having seen it once and nothing since,' describing an action left hanging, not the realization that only comes after seeing it in person.",
         "ても means 'even if' and creates a contradictory meaning rather than the sequential realization expressed by てはじめて."
       ],
       "hiragana_full": "じっさいにみてはじめて、そのさくひんのすばらしさがわかる。",
@@ -30,7 +30,15 @@
           "hiragana_full": "ちょくせつみてみてはじめて、そのさくひんのすばらしさがわかる。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "素晴らしさ",
+          "reading": "すばらしさ",
+          "meaning": "splendor"
+        }
+      ]
     },
     {
       "id": "n2_060_2",
@@ -39,12 +47,12 @@
       "blank_target": "てはじめて",
       "wrong_choices": [
         "ないと",
-        "てから",
+        "ておいて",
         "ても"
       ],
       "wrong_choice_explanations": [
         "ないと means 'if you don't do' which creates a negative conditional, not the positive realization sequence of てはじめて.",
-        "〜てから simply means 'after doing,' marking a plain time sequence without the 'not until / only then' realization that てはじめて adds.",
+        "ておいて means 'doing something in advance' or 'despite having done,' so it cannot express that the town's appeal becomes clear only after living there.",
         "〜ても means 'even if,' setting up a concession — the opposite of てはじめて's 'only after doing does it become possible.'"
       ],
       "hiragana_full": "じっさいにすんでみてはじめて、そのまちのよさがわかる。",
@@ -58,7 +66,15 @@
           "hiragana_full": "じっさいにくらしてみてはじめて、そのまちのよさがりかいできる。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "実際",
+          "reading": "じっさい",
+          "meaning": "actually/in reality"
+        }
+      ]
     },
     {
       "id": "n2_060_3",
@@ -67,12 +83,12 @@
       "blank_target": "てはじめて",
       "wrong_choices": [
         "てしまうと",
-        "ながら",
+        "ておいて",
         "たところで"
       ],
       "wrong_choice_explanations": [
         "てしまうと emphasizes completion with regret/finality, not the gradual realization that てはじめて expresses.",
-        "ながら indicates simultaneous actions, but understanding parent's struggles doesn't happen while raising children - it comes after experience.",
+        "ておいて means 'doing something in advance' or 'despite having done,' which does not express that a parent's hardships are understood only after raising children.",
         "〜たところで means 'even if you do (it would be pointless),' implying the result won't come — opposite to てはじめて, where the result only follows the action."
       ],
       "hiragana_full": "こどもをそだててはじめて、おやのくろうがわかる。",
@@ -86,7 +102,20 @@
           "hiragana_full": "こどもをそだてることではじめて、おやのくろうがりかいできる。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "育てる",
+          "reading": "そだてる",
+          "meaning": "to raise/bring up"
+        },
+        {
+          "word": "苦労",
+          "reading": "くろう",
+          "meaning": "hardship"
+        }
+      ]
     },
     {
       "id": "n2_060_4",
@@ -95,12 +124,12 @@
       "blank_target": "てはじめて",
       "wrong_choices": [
         "ておいて",
-        "てみれば",
+        "たきり",
         "たところで"
       ],
       "wrong_choice_explanations": [
         "ておいて means 'do in advance' which implies preparation, not the discovery of problems that てはじめて expresses.",
-        "てみれば means 'if you try' but lacks the emphasis that problems only become apparent after actual operation.",
+        "たきり means 'having operated it once and nothing since,' describing an abandoned action, not the point after which system problems first come into view.",
         "たところで means 'even if you do' and suggests futility, opposite to the productive discovery that てはじめて conveys."
       ],
       "hiragana_full": "じっさいにうんようしてはじめて、システムのもんだいがみえてくる。",
@@ -114,78 +143,30 @@
           "hiragana_full": "じっさいにうごかしてみてはじめて、システムのもんだいがみえてくる。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "運用",
+          "reading": "うんよう",
+          "meaning": "operation/running"
+        }
+      ]
     },
     {
       "id": "n2_060_5",
-      "example_sentence": "実際に調査してみてはじめて、データの意味がわかった。",
-      "translation": "Only by actually conducting research could I understand the meaning of the data.",
-      "blank_target": "てはじめて",
-      "wrong_choices": [
-        "たうえで",
-        "てばかり",
-        "ながら"
-      ],
-      "wrong_choice_explanations": [
-        "たうえで means 'after doing' but implies a planned sequence, not the sudden realization that てはじめて emphasizes.",
-        "てばかり means 'only doing' and suggests repetitive action without the realization aspect of てはじめて.",
-        "〜ながら means 'while doing,' two actions at once — but the understanding comes only after the action, not during it, which is what てはじめて conveys."
-      ],
-      "hiragana_full": "じっさいにちょうさしてみてはじめて、でーたのいみがわかった。",
-      "audio_alternatives": [
-        {
-          "kanji": "実際に調査してみて初めて、データの意味が理解できた。",
-          "hiragana_full": "じっさいにちょうさしてみてはじめて、でーたのいみがりかいできた。"
-        },
-        {
-          "kanji": "実際に調べてみて初めて、データの意味がわかった。",
-          "hiragana_full": "じっさいにしらべてみてはじめて、でーたのいみがわかった。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_060_6",
-      "example_sentence": "海外で生活してはじめて、日本の良さを実感した。",
-      "translation": "Only after living abroad did I truly appreciate Japan's good qualities.",
-      "blank_target": "てはじめて",
-      "wrong_choices": [
-        "たあとで",
-        "ながら",
-        "てしまうと"
-      ],
-      "wrong_choice_explanations": [
-        "〜たあとで means 'after doing,' a plain time sequence, lacking the 'not until then' emphasis of てはじめて.",
-        "〜ながら means 'while doing,' two actions at once — but the understanding comes only after the action, not during it, which is what てはじめて conveys.",
-        "〜てしまうと means 'once you completely do,' often with an unwanted or regretted result, not the first-time realization てはじめて expresses."
-      ],
-      "hiragana_full": "かいがいでせいかつしてはじめて、にほんのよさをじっかんした。",
-      "audio_alternatives": [
-        {
-          "kanji": "海外で暮らしてはじめて、日本の良さを実感した。",
-          "hiragana_full": "かいがいでくらしてはじめて、にほんのよさをじっかんした。"
-        },
-        {
-          "kanji": "海外生活をして初めて、日本の素晴らしさを実感した。",
-          "hiragana_full": "かいがいせいかつをしてはじめて、にほんのすばらしさをじっかんした。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_060_7",
       "example_sentence": "病気になってはじめて、健康の大切さを知った。",
       "translation": "Only after becoming sick did I learn the importance of health.",
       "blank_target": "てはじめて",
       "wrong_choices": [
         "たところで",
         "ても",
-        "たあとで"
+        "たきり"
       ],
       "wrong_choice_explanations": [
         "〜たところで means 'even if you do (it would be pointless),' implying the result won't come — opposite to てはじめて, where the result only follows the action.",
         "〜ても means 'even if,' setting up a concession — the opposite of てはじめて's 'only after doing does it become possible.'",
-        "〜たあとで means 'after doing,' a plain time sequence, lacking the 'not until then' emphasis of てはじめて."
+        "〜たきり means 'ever since (and nothing further)' and describes a state left unchanged, not the 'not until then' realization that てはじめて expresses."
       ],
       "hiragana_full": "びょうきになってはじめて、けんこうのたいせつさをしった。",
       "audio_alternatives": [
@@ -198,21 +179,29 @@
           "hiragana_full": "びょうきになるまで、けんこうのたいせつさにきづかなかった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "健康",
+          "reading": "けんこう",
+          "meaning": "health"
+        }
+      ]
     },
     {
-      "id": "n2_060_8",
+      "id": "n2_060_6",
       "example_sentence": "実際に働いてはじめて、社会の厳しさがわかる。",
       "translation": "Only after actually working do you understand society's harshness.",
       "blank_target": "てはじめて",
       "wrong_choices": [
-        "たとたん",
-        "てから",
+        "たついでに",
+        "ておいて",
         "てしまうと"
       ],
       "wrong_choice_explanations": [
-        "たとたん means 'the moment that' and indicates immediate action, not the gradual understanding that てはじめて expresses.",
-        "〜てから simply means 'after doing,' marking a plain time sequence without the 'not until / only then' realization that てはじめて adds.",
+        "たついでに means 'while (doing it) anyway, also…' and adds an incidental second action; understanding society's harshness is not a side errand, so it cannot express the 'only after working' realization of てはじめて.",
+        "ておいて means 'doing something in advance' or 'despite having done,' so it cannot express that society's harshness is understood only after actually working.",
         "〜てしまうと means 'once you completely do,' often with an unwanted or regretted result, not the first-time realization てはじめて expresses."
       ],
       "hiragana_full": "じっさいにはたらいてはじめて、しゃかいのきびしさがわかる。",
@@ -226,63 +215,162 @@
           "hiragana_full": "ほんとうにはたらいてみてはじめて、しゃかいのきびしさがわかる。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "社会",
+          "reading": "しゃかい",
+          "meaning": "society"
+        },
+        {
+          "word": "厳しさ",
+          "reading": "きびしさ",
+          "meaning": "harshness"
+        }
+      ]
+    },
+    {
+      "id": "n2_060_7",
+      "example_sentence": "失敗を経験してはじめて、成功の難しさが分かる。",
+      "translation": "Only after experiencing failure do you understand how difficult success is.",
+      "blank_target": "てはじめて",
+      "wrong_choices": [
+        "てまで",
+        "ておいて",
+        "たきり"
+      ],
+      "wrong_choice_explanations": [
+        "てまで means 'going so far as to do' and needs a deliberate, effortful action followed by a judgement about it (徹夜してまで); it cannot mark the experience after which understanding finally comes, as てはじめて does.",
+        "ておいて means 'do in advance' and emphasizes preparation, which is conceptually opposite to てはじめて's meaning of realization coming only after an experience.",
+        "たきり means 'having experienced it once and nothing since,' describing an action left hanging, not the realization that comes only after experiencing failure."
+      ],
+      "hiragana_full": "しっぱいをけいけんしてはじめて、せいこうのむずかしさがわかる。",
+      "audio_alternatives": [
+        {
+          "kanji": "失敗を経験して初めて、成功がいかに難しいかが分かる。",
+          "hiragana_full": "しっぱいをけいけんしてはじめて、せいこうがいかにむずかしいかがわかる。"
+        },
+        {
+          "kanji": "失敗を経験してこそ、成功の難しさが理解できる。",
+          "hiragana_full": "しっぱいをけいけんしてこそ、せいこうのむずかしさがりかいできる。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "成功",
+          "reading": "せいこう",
+          "meaning": "success"
+        }
+      ]
+    },
+    {
+      "id": "n2_060_8",
+      "example_sentence": "仕事を失ってはじめて、働くことの意味を考えるようになった。",
+      "translation": "Only after losing my job did I begin to think about the meaning of work.",
+      "blank_target": "ってはじめて",
+      "wrong_choices": [
+        "っておきながら",
+        "ったきり",
+        "ったばかりに"
+      ],
+      "wrong_choice_explanations": [
+        "っておきながら means 'despite having lost my job' with a reproachful nuance, which needs a contrasting result rather than the new reflection that only began after the job loss.",
+        "ったきり means 'did it once and then nothing more' and must be followed by a negative or unchanged state (行ったきり帰らない); it cannot introduce the new reflection that only began after losing the job.",
+        "ったばかりに means 'just because' and often implies regret, but doesn't express the temporal aspect that understanding only emerges after the experience."
+      ],
+      "hiragana_full": "しごとをうしなってはじめて、はたらくことのいみをかんがえるようになった。",
+      "audio_alternatives": [
+        {
+          "kanji": "仕事を失って初めて、労働の意味を考えるようになった。",
+          "hiragana_full": "しごとをうしなってはじめて、ろうどうのいみをかんがえるようになった。"
+        },
+        {
+          "kanji": "職を失ってはじめて、働くことの意味について考えるようになった。",
+          "hiragana_full": "しょくをうしなってはじめて、はたらくことのいみについてかんがえるようになった。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n2_060_9",
-      "example_sentence": "実際に経営してはじめて、ビジネスの難しさを痛感した。",
-      "translation": "Only through actually managing a business did I keenly feel the difficulty of business.",
+      "example_sentence": "結婚してはじめて、一人でいることの自由を懐かしく思った。",
+      "translation": "Only after getting married did I nostalgically think about the freedom of being alone.",
       "blank_target": "てはじめて",
       "wrong_choices": [
-        "たうえで",
-        "ておいて",
-        "たところで"
+        "てしまうと",
+        "ていれば",
+        "てばかり"
       ],
       "wrong_choice_explanations": [
-        "〜たうえで means 'after doing, as a deliberate basis,' a planned sequence, not the spontaneous 'only then did it become clear' of てはじめて.",
-        "〜ておいて means 'do in advance / for later,' marking preparation, not the realization that arises only after the experience.",
-        "〜たところで means 'even if you do (it would be pointless),' implying the result won't come — opposite to てはじめて, where the result only follows the action."
+        "てしまうと means 'once you end up doing' and emphasizes completion with regret, but doesn't express that nostalgia only comes after the experience like てはじめて does.",
+        "ていれば means 'if you are doing' and indicates condition, but doesn't convey the temporal exclusivity that reflection only becomes possible after the experience.",
+        "てばかり means 'only doing' and indicates repetition or excess, but doesn't express that realization comes only after completing the action like てはじめて does."
       ],
-      "hiragana_full": "じっさいにけいえいしてはじめて、びじねすのむずかしさをつうかんした。",
+      "hiragana_full": "けっこんしてはじめて、ひとりでいることのじゆうをなつかしくおもった。",
       "audio_alternatives": [
         {
-          "kanji": "実際に経営してみて初めて、ビジネスの難しさを痛感した。",
-          "hiragana_full": "じっさいにけいえいしてみてはじめて、びじねすのむずかしさをつうかんした。"
+          "kanji": "結婚して初めて、一人でいる自由が懐かしくなった。",
+          "hiragana_full": "けっこんしてはじめて、ひとりでいるじゆうがなつかしくなった。"
         },
         {
-          "kanji": "実際に経営して初めて、ビジネスの厳しさを痛感した。",
-          "hiragana_full": "じっさいにけいえいしてはじめて、びじねすのきびしさをつうかんした。"
+          "kanji": "結婚してからはじめて、一人でいることの自由を懐かしいと思った。",
+          "hiragana_full": "けっこんしてからはじめて、ひとりでいることのじゆうをなつかしいとおもった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "懐かしく",
+          "reading": "なつかしく",
+          "meaning": "fondly, nostalgically"
+        }
+      ]
     },
     {
       "id": "n2_060_10",
-      "example_sentence": "結婚してはじめて、一人の時間の貴重さがわかった。",
-      "translation": "Only after getting married did I understand the preciousness of time alone.",
+      "example_sentence": "困難を乗り越えてはじめて、本当の強さが身につく。",
+      "translation": "Only after overcoming difficulties do you acquire true strength.",
       "blank_target": "てはじめて",
       "wrong_choices": [
-        "てから",
-        "ても",
-        "たあとで"
+        "るどころか",
+        "ることなしに",
+        "ることなく"
       ],
       "wrong_choice_explanations": [
-        "〜てから simply means 'after doing,' marking a plain time sequence without the 'not until / only then' realization that てはじめて adds.",
-        "〜ても means 'even if,' setting up a concession — the opposite of てはじめて's 'only after doing does it become possible.'",
-        "〜たあとで means 'after doing,' a plain time sequence, lacking the 'not until then' emphasis of てはじめて."
+        "るどころか means 'far from overcoming difficulties' and introduces a stronger contrary point, which contradicts acquiring true strength; てはじめて marks overcoming as the threshold for gaining it.",
+        "ることなしに means 'without overcoming' difficulties — the opposite situation — whereas てはじめて requires that the experience actually happen first.",
+        "ることなく also means 'without overcoming,' suggesting the action never occurs, directly contradicting てはじめて's 'only after doing.'"
       ],
-      "hiragana_full": "けっこんしてはじめて、ひとりのじかんのきちょうさがわかった。",
+      "hiragana_full": "こんなんをのりこえてはじめて、ほんとうのつよさがみにつく。",
       "audio_alternatives": [
         {
-          "kanji": "結婚して初めて、一人の時間がどれほど貴重かわかった。",
-          "hiragana_full": "けっこんしてはじめて、ひとりのじかんがどれほどきちょうかわかった。"
+          "kanji": "困難を乗り越えて初めて、本当の強さが身に付く。",
+          "hiragana_full": "こんなんをのりこえてはじめて、ほんとうのつよさがみにつく。"
         },
         {
-          "kanji": "結婚するまで、一人の時間の貴重さに気づかなかった。",
-          "hiragana_full": "けっこんするまで、ひとりのじかんのきちょうさにきづかなかった。"
+          "kanji": "困難を克服してこそ、本当の強さが身につく。",
+          "hiragana_full": "こんなんをこくふくしてこそ、ほんとうのつよさがみにつく。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "困難",
+          "reading": "こんなん",
+          "meaning": "difficulty, hardship"
+        },
+        {
+          "word": "身につく",
+          "reading": "みにつく",
+          "meaning": "to acquire, master"
+        }
+      ]
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "n2_050",
-  "pattern": "〜以上は",
-  "meaning": "now that / since (once something is the case, obligation follows — formal)",
+  "pattern": "〜以上は／上は",
+  "meaning": "now that / since (once something is the case, obligation or resolve naturally follows — formal)",
   "level": "N2",
   "exercises": [
     {
@@ -31,126 +31,28 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "であるいじょうは"
+      "blank_target_reading": "であるいじょうは",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "職員",
+          "reading": "しょくいん",
+          "meaning": "staff member"
+        },
+        {
+          "word": "扱い",
+          "reading": "あつかい",
+          "meaning": "handling"
+        },
+        {
+          "word": "細心",
+          "reading": "さいしん",
+          "meaning": "utmost care"
+        }
+      ]
     },
     {
       "id": "n2_050_2",
-      "example_sentence": "社員である以上は、会社の規則に従うべきだ。",
-      "translation": "Now that you are an employee, you should follow company rules.",
-      "blank_target": "である以上は",
-      "wrong_choices": [
-        "であるなら",
-        "であるので",
-        "であっても"
-      ],
-      "wrong_choice_explanations": [
-        "であるなら is a conditional 'if' that suggests possibility, but this sentence states a definite obligation that comes with being an employee.",
-        "であるので simply means 'because' without the nuance of formal obligation that 以上は carries in this context.",
-        "であっても means 'even if' and suggests contrast or concession, which doesn't fit the straightforward obligation being expressed."
-      ],
-      "hiragana_full": "しゃいんであるいじょうは、かいしゃのきそくにしたがうべきだ。",
-      "audio_alternatives": [
-        {
-          "kanji": "社員である限り、会社の規則に従わなければならない。",
-          "hiragana_full": "しゃいんであるかぎり、かいしゃのきそくにしたがわなければならない。"
-        },
-        {
-          "kanji": "社員なのだから、会社の規則に従うべきです。",
-          "hiragana_full": "しゃいんなのだから、かいしゃのきそくにしたがうべきです。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "であるいじょうは"
-    },
-    {
-      "id": "n2_050_3",
-      "example_sentence": "学生である以上は、学業に専念すべきだ。",
-      "translation": "Now that you are a student, you should focus on your studies.",
-      "blank_target": "である以上は",
-      "wrong_choices": [
-        "であるため",
-        "であるとしても",
-        "であるにも関わらず"
-      ],
-      "wrong_choice_explanations": [
-        "であるため means 'because' or 'for the reason that' but lacks the formal obligation nuance that 以上は conveys.",
-        "であるとしても means 'even supposing that' and introduces a hypothetical, not the definite obligation expressed here.",
-        "であるにも関わらず means 'despite being' and indicates contrast, which is opposite to the supportive obligation being stated."
-      ],
-      "hiragana_full": "がくせいであるいじょうは、がくぎょうにせんねんすべきだ。",
-      "audio_alternatives": [
-        {
-          "kanji": "学生である限り、学業に専念すべきだ。",
-          "hiragana_full": "がくせいであるかぎり、がくぎょうにせんねんすべきだ。"
-        },
-        {
-          "kanji": "学生なのだから、学業に専念すべきだ。",
-          "hiragana_full": "がくせいなのだから、がくぎょうにせんねんすべきだ。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "であるいじょうは"
-    },
-    {
-      "id": "n2_050_4",
-      "example_sentence": "正社員である以上は、責任を持って仕事に取り組まなければならない。",
-      "translation": "Now that you are a full-time employee, you must approach your work with responsibility.",
-      "blank_target": "である以上は",
-      "wrong_choices": [
-        "であるからこそ",
-        "であるにしても",
-        "であるばかりに"
-      ],
-      "wrong_choice_explanations": [
-        "であるからこそ means 'precisely because' and emphasizes a specific reason, but doesn't carry the formal obligation sense of 以上は.",
-        "であるにしても means 'even though' and suggests concession, not the clear obligation being expressed here.",
-        "であるばかりに means 'just because' with a negative connotation, often implying unfortunate consequences, which doesn't match this positive obligation."
-      ],
-      "hiragana_full": "せいしゃいんであるいじょうは、せきにんをもってしごとにとりくまなければならない。",
-      "audio_alternatives": [
-        {
-          "kanji": "正社員である限り、責任を持って仕事に取り組まなければならない。",
-          "hiragana_full": "せいしゃいんであるかぎり、せきにんをもってしごとにとりくまなければならない。"
-        },
-        {
-          "kanji": "正社員になった以上は、責任を持って仕事に臨まなければならない。",
-          "hiragana_full": "せいしゃいんになったいじょうは、せきにんをもってしごとにのぞまなければならない。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "であるいじょうは"
-    },
-    {
-      "id": "n2_050_5",
-      "example_sentence": "研究者である以上は、客観的で誠実な姿勢を保つべきだ。",
-      "translation": "Now that you are a researcher, you should maintain an objective and honest attitude.",
-      "blank_target": "である以上は",
-      "wrong_choices": [
-        "であることから",
-        "であるにつれて",
-        "であるまでは"
-      ],
-      "wrong_choice_explanations": [
-        "であることから means 'from the fact that' and is more explanatory than prescriptive, lacking the obligation nuance of 以上は.",
-        "であるにつれて means 'as one becomes more' and indicates gradual change, not the immediate obligation expressed here.",
-        "であるまでは means 'until one becomes' and indicates a time limit, which doesn't fit the ongoing obligation being stated."
-      ],
-      "hiragana_full": "けんきゅうしゃであるいじょうは、きゃっかんてきでせいじつなしせいをたもつべきだ。",
-      "audio_alternatives": [
-        {
-          "kanji": "研究者である以上、客観的で誠実な姿勢を保たなければならない。",
-          "hiragana_full": "けんきゅうしゃであるいじょう、きゃっかんてきでせいじつなしせいをたもたなければならない。"
-        },
-        {
-          "kanji": "研究者としては、客観的で誠実な姿勢を保つべきだ。",
-          "hiragana_full": "けんきゅうしゃとしては、きゃっかんてきでせいじつなしせいをたもつべきだ。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "であるいじょうは"
-    },
-    {
-      "id": "n2_050_6",
       "example_sentence": "医師である以上は、患者の生命を最優先に考えなければならない。",
       "translation": "Now that you are a doctor, you must prioritize patients' lives above all else.",
       "blank_target": "である以上は",
@@ -176,68 +78,28 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "であるいじょうは"
-    },
-    {
-      "id": "n2_050_7",
-      "example_sentence": "チームリーダーである以上は、メンバーの成長を支援する責任がある。",
-      "translation": "Now that you are a team leader, you have the responsibility to support members' growth.",
-      "blank_target": "である以上は",
-      "wrong_choices": [
-        "であるとしても",
-        "であるわけで",
-        "であるせいで"
-      ],
-      "wrong_choice_explanations": [
-        "〜であるとしても means 'even supposing you are' and grants the leadership role only hypothetically while downplaying it; である以上は takes the role as given and derives the responsibility from it.",
-        "であるわけで means 'being that' or 'since' in an explanatory way, but lacks the formal obligation nuance of 以上は.",
-        "であるせいで means 'because of being' with negative connotations, implying blame rather than the positive professional duty expressed here."
-      ],
-      "hiragana_full": "ちーむりーだーであるいじょうは、めんばーのせいちょうをしえんするせきにんがある。",
-      "audio_alternatives": [
+      "blank_target_reading": "であるいじょうは",
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "チームリーダーである以上、メンバーの成長を支援する責任がある。",
-          "hiragana_full": "ちーむりーだーであるいじょう、めんばーのせいちょうをしえんするせきにんがある。"
+          "word": "患者",
+          "reading": "かんじゃ",
+          "meaning": "patient"
         },
         {
-          "kanji": "チームリーダーとして、メンバーの成長を支援する責任があります。",
-          "hiragana_full": "ちーむりーだーとして、めんばーのせいちょうをしえんするせきにんがあります。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "であるいじょうは"
-    },
-    {
-      "id": "n2_050_8",
-      "example_sentence": "教師である以上は、生徒の将来を真剣に考えるべきだ。",
-      "translation": "Now that you are a teacher, you should seriously consider your students' future.",
-      "blank_target": "である以上は",
-      "wrong_choices": [
-        "であるものの",
-        "であるだけに",
-        "であるとおり"
-      ],
-      "wrong_choice_explanations": [
-        "であるものの means 'although being' and introduces contrast or concession, which contradicts the supportive obligation being expressed.",
-        "であるだけに means 'precisely because' and emphasizes a specific quality, but doesn't convey the formal duty aspect of 以上は.",
-        "であるとおり means 'just as one is' and indicates conformity or similarity, not the obligation that comes with professional status."
-      ],
-      "hiragana_full": "きょうしであるいじょうは、せいとのしょうらいをしんけんにかんがえるべきだ。",
-      "audio_alternatives": [
-        {
-          "kanji": "教師である以上、生徒の将来を真剣に考えなければならない。",
-          "hiragana_full": "きょうしであるいじょう、せいとのしょうらいをしんけんにかんがえなければならない。"
+          "word": "生命",
+          "reading": "せいめい",
+          "meaning": "life"
         },
         {
-          "kanji": "先生である以上は、生徒の将来を真剣に考えるべきだ。",
-          "hiragana_full": "せんせいであるいじょうは、せいとのしょうらいをしんけんにかんがえるべきだ。"
+          "word": "最優先",
+          "reading": "さいゆうせん",
+          "meaning": "top priority"
         }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "であるいじょうは"
+      ]
     },
     {
-      "id": "n2_050_9",
+      "id": "n2_050_3",
       "example_sentence": "親である以上は、子どもに良い手本を示さなければならない。",
       "translation": "Now that you are a parent, you must set a good example for your children.",
       "blank_target": "である以上は",
@@ -263,10 +125,18 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "であるいじょうは"
+      "blank_target_reading": "であるいじょうは",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "手本",
+          "reading": "てほん",
+          "meaning": "example/model"
+        }
+      ]
     },
     {
-      "id": "n2_050_10",
+      "id": "n2_050_4",
       "example_sentence": "国民である以上は、社会の発展に貢献する義務がある。",
       "translation": "Now that you are a citizen, you have the duty to contribute to society's development.",
       "blank_target": "である以上は",
@@ -292,7 +162,280 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "であるいじょうは"
+      "blank_target_reading": "であるいじょうは",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "国民",
+          "reading": "こくみん",
+          "meaning": "citizen"
+        },
+        {
+          "word": "発展",
+          "reading": "はってん",
+          "meaning": "development"
+        },
+        {
+          "word": "貢献",
+          "reading": "こうけん",
+          "meaning": "contribution"
+        },
+        {
+          "word": "義務",
+          "reading": "ぎむ",
+          "meaning": "duty/obligation"
+        }
+      ]
+    },
+    {
+      "id": "n2_050_5",
+      "example_sentence": "約束をした以上は、必ず守らなければならない。",
+      "translation": "Now that I've made a promise, I must definitely keep it.",
+      "blank_target": "をした以上は",
+      "wrong_choices": [
+        "をしたのに",
+        "をしたきり",
+        "をしても"
+      ],
+      "wrong_choice_explanations": [
+        "をしたのに means 'even though I made a promise' and expresses frustration or contrast, which clashes with the firm commitment to keep the promise that 以上は expresses.",
+        "をしたきり means 'made the promise and then nothing since' (約束をしたきり連絡がない); it can't lead into 必ず守らなければならない, whereas 以上は states the obligation that follows from having promised.",
+        "をしても means 'even if I promise' and suggests potential difficulty, not the binding commitment that 以上は establishes."
+      ],
+      "hiragana_full": "やくそくをしたいじょうは、かならずまもらなければならない。",
+      "audio_alternatives": [
+        {
+          "kanji": "約束をしたからには、必ず守らなければならない。",
+          "hiragana_full": "やくそくをしたからには、かならずまもらなければならない。"
+        },
+        {
+          "kanji": "約束をした以上、必ず守らないといけない。",
+          "hiragana_full": "やくそくをしたいじょう、かならずまもらないといけない。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "をしたいじょうは",
+      "register": "neutral"
+    },
+    {
+      "id": "n2_050_6",
+      "example_sentence": "この道を選んだ以上は、後悔しないよう頑張ろう。",
+      "translation": "Now that I've chosen this path, I'll work hard so I won't have regrets.",
+      "blank_target": "選んだ以上は",
+      "wrong_choices": [
+        "選んだけど",
+        "選んだのに",
+        "選んでから"
+      ],
+      "wrong_choice_explanations": [
+        "選んだけど means 'I chose, but' and suggests contrast or reservation, not the commitment to one's decision that 以上は expresses.",
+        "選んだのに means 'despite choosing' and introduces a contradictory result, opposite to the determination that 以上は conveys.",
+        "選んでから means 'after choosing' and focuses on timing but doesn't emphasize the resolve and commitment that follows from one's choice as 以上は does."
+      ],
+      "hiragana_full": "このみちをえらんだいじょうは、こうかいしないようがんばろう。",
+      "audio_alternatives": [
+        {
+          "kanji": "この道を選んだからには、後悔しないよう努力しよう。",
+          "hiragana_full": "このみちをえらんだからには、こうかいしないようどりょくしよう。"
+        },
+        {
+          "kanji": "この道を選んだ以上、悔いが残らないよう頑張ろう。",
+          "hiragana_full": "このみちをえらんだいじょう、くいがのこらないようがんばろう。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "えらんだいじょうは",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "後悔",
+          "reading": "こうかい",
+          "meaning": "regret"
+        }
+      ]
+    },
+    {
+      "id": "n2_050_7",
+      "example_sentence": "留学を決意した上は、どんな困難も乗り越えていく覚悟だ。",
+      "translation": "Now that I've resolved to study abroad, I'm prepared to overcome any hardship.",
+      "blank_target": "上は",
+      "wrong_choices": [
+        "上で",
+        "末に",
+        "上に"
+      ],
+      "wrong_choice_explanations": [
+        "「上で（うえで）」は前提・手順を示す語で、留学を決めてから何かをする土台の意になり、決意ゆえの覚悟を述べる本文には合わない。",
+        "「末に（すえに）」は長い経過の結果を表し「悩んだ末に決めた」のように使うが、決意を前提に当然の覚悟を述べるこの文型とは異なる。",
+        "「上に（うえに）」は追加を表し、決意に別の事柄が加わる意になって、この文には合わない。"
+      ],
+      "hiragana_full": "りゅうがくをけついしたうえは、どんなこんなんものりこえていくかくごだ。",
+      "audio_alternatives": [
+        {
+          "kanji": "留学すると決めた上は、どんな苦労もいとわない。",
+          "hiragana_full": "りゅうがくするときめたうえは、どんなくろうもいとわない。"
+        },
+        {
+          "kanji": "留学を決めたからには、多少の困難は覚悟している。",
+          "hiragana_full": "りゅうがくをきめたからには、たしょうのこんなんはかくごしている。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "決意",
+          "reading": "けつい",
+          "meaning": "determination; resolve"
+        },
+        {
+          "word": "乗り越える",
+          "reading": "のりこえる",
+          "meaning": "to overcome"
+        },
+        {
+          "word": "覚悟",
+          "reading": "かくご",
+          "meaning": "resolve; readiness"
+        }
+      ],
+      "blank_target_reading": "うえは"
+    },
+    {
+      "id": "n2_050_8",
+      "example_sentence": "会社を辞めると宣言した上は、後戻りはできない。",
+      "translation": "Having declared that I'm quitting the company, there's no turning back.",
+      "blank_target": "上は",
+      "wrong_choices": [
+        "上で",
+        "上に",
+        "反面"
+      ],
+      "wrong_choice_explanations": [
+        "「上で（うえで）」は手順・前提を表し、宣言してから次の行動をとる土台の意になり、宣言した以上引き返せないという含意にはならない。",
+        "「上に（うえに）」は追加を表し、宣言に別の事柄が加わる意になって、この文には合わない。",
+        "「反面（はんめん）」は相反する側面を示す語で、二つの面を対比するのに使い、決断の帰結を述べるこの文型とは異なる。"
+      ],
+      "hiragana_full": "かいしゃをやめるとせんげんしたうえは、あともどりはできない。",
+      "audio_alternatives": [
+        {
+          "kanji": "辞めると口にした上は、今さら引き返せない。",
+          "hiragana_full": "やめるとくちにしたうえは、いまさらひきかえせない。"
+        },
+        {
+          "kanji": "退職すると言った以上、もう後には引けない。",
+          "hiragana_full": "たいしょくするといったいじょう、もうあとにはひけない。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "宣言",
+          "reading": "せんげん",
+          "meaning": "declaration"
+        },
+        {
+          "word": "後戻り",
+          "reading": "あともどり",
+          "meaning": "turning back; going back"
+        }
+      ],
+      "blank_target_reading": "うえは"
+    },
+    {
+      "id": "n2_050_9",
+      "example_sentence": "契約書にサインした上は、条件を守る義務がある。",
+      "translation": "Now that you've signed the contract, you have an obligation to keep to its terms.",
+      "blank_target": "上は",
+      "wrong_choices": [
+        "上で",
+        "上に",
+        "末に"
+      ],
+      "wrong_choice_explanations": [
+        "「上で（うえで）」は前提・手順を表し、サインしたうえで交渉するなどの土台の意になり、署名した以上守る義務があるという含意にはならない。",
+        "「上に（うえに）」は追加を表し、サインに別の事柄が加わる意になって、この文には合わない。",
+        "「末に（すえに）」は長い経過の末の結果を表し「交渉の末に」のように使うが、署名を前提に義務を述べる文型とは異なる。"
+      ],
+      "hiragana_full": "けいやくしょにさいんしたうえは、じょうけんをまもるぎむがある。",
+      "audio_alternatives": [
+        {
+          "kanji": "契約書に署名した上は、取り決めを守らねばならない。",
+          "hiragana_full": "けいやくしょにしょめいしたうえは、とりきめをまもらねばならない。"
+        },
+        {
+          "kanji": "契約に同意した以上、条件に従う責任がある。",
+          "hiragana_full": "けいやくにどういしたいじょう、じょうけんにしたがうせきにんがある。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "契約書",
+          "reading": "けいやくしょ",
+          "meaning": "contract (document)"
+        },
+        {
+          "word": "条件",
+          "reading": "じょうけん",
+          "meaning": "terms; conditions"
+        },
+        {
+          "word": "義務",
+          "reading": "ぎむ",
+          "meaning": "obligation; duty"
+        }
+      ],
+      "blank_target_reading": "うえは"
+    },
+    {
+      "id": "n2_050_10",
+      "example_sentence": "選手として代表に選ばれた上は、国の期待に応えたい。",
+      "translation": "Now that I've been chosen for the national team, I want to live up to the country's expectations.",
+      "blank_target": "上は",
+      "wrong_choices": [
+        "上で",
+        "上に",
+        "反面"
+      ],
+      "wrong_choice_explanations": [
+        "「上で（うえで）」は前提・手順を示し、選ばれたうえで何かを検討する土台の意になり、選ばれた以上応えたいという決意には合わない。",
+        "「上に（うえに）」は追加を表し、選出に別の事柄が加わる意になって、この文には合わない。",
+        "「反面（はんめん）」は相反する側面を対比する語で、二面性を述べるのに使い、期待に応える決意を導く文型とは異なる。"
+      ],
+      "hiragana_full": "せんしゅとしてだいひょうにえらばれたうえは、くにのきたいにこたえたい。",
+      "audio_alternatives": [
+        {
+          "kanji": "代表に選ばれた上は、みんなの期待に応えたい。",
+          "hiragana_full": "だいひょうにえらばれたうえは、みんなのきたいにこたえたい。"
+        },
+        {
+          "kanji": "代表に選出されたからには、その期待に応える覚悟だ。",
+          "hiragana_full": "だいひょうにせんしゅつされたからには、そのきたいにこたえるかくごだ。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "選手",
+          "reading": "せんしゅ",
+          "meaning": "player; athlete"
+        },
+        {
+          "word": "代表",
+          "reading": "だいひょう",
+          "meaning": "representative (team)"
+        },
+        {
+          "word": "期待",
+          "reading": "きたい",
+          "meaning": "expectation"
+        }
+      ],
+      "blank_target_reading": "うえは"
     }
   ]
 }

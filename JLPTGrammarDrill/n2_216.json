@@ -1,0 +1,242 @@
+{
+  "id": "n2_216",
+  "pattern": "〜ことなく",
+  "meaning": "without doing; without ever once doing (formal)",
+  "level": "N2",
+  "exercises": [
+    {
+      "id": "n2_216_1",
+      "example_sentence": "マラソン選手は最後まで一度も歩くことなく、四十二キロを走り抜いた。",
+      "translation": "The marathon runner ran the full 42 kilometers without walking even once.",
+      "blank_target": "ことなく",
+      "wrong_choices": ["ことか", "ことには", "ことだから"],
+      "wrong_choice_explanations": [
+        "ことか is the exclamation 'how ~ it was!' and pairs with どんなに or 何度 (何度あきらめかけたことか). Nothing is being exclaimed — the sentence needs 'without walking'.",
+        "ことには forms 〜ないことには 'unless' after a negative verb and must end in a negative outcome. Here 歩く is affirmative and the main clause reports a success, not an impossibility.",
+        "ことだから attaches to a familiar person with の to predict their behavior (あの選手のことだから). It cannot follow the bare verb 歩く to mean 'without walking'."
+      ],
+      "hiragana_full": "まらそんせんしゅはさいごまでいちどもあるくことなく、よんじゅうにきろをはしりぬいた。",
+      "audio_alternatives": [
+        { "kanji": "マラソン選手は一度も歩かずに、四十二キロを最後まで走り切った。", "hiragana_full": "まらそんせんしゅはいちどもあるかずに、よんじゅうにきろをさいごまではしりきった。" },
+        { "kanji": "その選手は立ち止まることなく、ゴールまで走り続けた。", "hiragana_full": "そのせんしゅはたちどまることなく、ごーるまではしりつづけた。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "選手", "reading": "せんしゅ", "meaning": "athlete" },
+        { "word": "走り抜く", "reading": "はしりぬく", "meaning": "to run the whole distance" }
+      ]
+    },
+    {
+      "id": "n2_216_2",
+      "example_sentence": "会議は一度も中断されることなく、予定どおり進行した。",
+      "translation": "The meeting proceeded on schedule without being interrupted even once.",
+      "blank_target": "ことなく",
+      "wrong_choices": ["たびに", "ことから", "ものなら"],
+      "wrong_choice_explanations": [
+        "たびに means 'every time ~ happens' and requires a repeated event, which clashes with 一度も ('not even once') — the meeting was never interrupted at all.",
+        "ことから presents a fact as the basis for a name or conclusion (〜ことから判断した). 予定どおり進行した is a plain report of how things went, not a conclusion drawn from evidence.",
+        "ものなら is the hypothetical 'if it could ever be ~' and must be followed by a dire consequence (中断されようものなら大問題だ), not by a report that everything went smoothly."
+      ],
+      "hiragana_full": "かいぎはいちどもちゅうだんされることなく、よていどおりしんこうした。",
+      "audio_alternatives": [
+        { "kanji": "会議は途中で止まることなく、最後までスムーズに進んだ。", "hiragana_full": "かいぎはとちゅうでとまることなく、さいごまですむーずにすすんだ。" },
+        { "kanji": "会議は一度も中断されずに、予定どおりに終わった。", "hiragana_full": "かいぎはいちどもちゅうだんされずに、よていどおりにおわった。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "中断", "reading": "ちゅうだん", "meaning": "interruption; suspension" },
+        { "word": "進行する", "reading": "しんこうする", "meaning": "to proceed; go forward" }
+      ]
+    },
+    {
+      "id": "n2_216_3",
+      "example_sentence": "彼女は誰にも相談することなく、会社を辞めて留学を決めてしまった。",
+      "translation": "She quit her job and decided to study abroad without consulting anyone.",
+      "blank_target": "ことなく",
+      "wrong_choices": ["ことにして", "ことだから", "うちに"],
+      "wrong_choice_explanations": [
+        "ことにして states the subject's own decision to do something (相談することにした). That would make the clause affirmative — 'deciding to consult' — which clashes with 誰にも, a phrase that demands a negative, and her decision was the 留学, not the consulting.",
+        "ことだから predicts a familiar person's behavior and needs Nの before it (彼女のことだから). It cannot attach to 相談する to mean 'without consulting'.",
+        "うちに means 'while ~' and would claim she decided during consultations — but 誰にも requires that no consulting happened at all."
+      ],
+      "hiragana_full": "かのじょはだれにもそうだんすることなく、かいしゃをやめてりゅうがくをきめてしまった。",
+      "audio_alternatives": [
+        { "kanji": "彼女は誰にも相談せずに、留学することを決めてしまった。", "hiragana_full": "かのじょはだれにもそうだんせずに、りゅうがくすることをきめてしまった。" },
+        { "kanji": "誰の意見も聞くことなく、彼女は留学を決意した。", "hiragana_full": "だれのいけんもきくことなく、かのじょはりゅうがくをけついした。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "相談する", "reading": "そうだんする", "meaning": "to consult; ask for advice" },
+        { "word": "留学", "reading": "りゅうがく", "meaning": "studying abroad" }
+      ]
+    },
+    {
+      "id": "n2_216_4",
+      "example_sentence": "この工場の生産ラインは、二十四時間止まることなく稼働している。",
+      "translation": "This factory's production line operates around the clock without stopping.",
+      "blank_target": "ことなく",
+      "wrong_choices": ["一方で", "ものか", "ことから"],
+      "wrong_choice_explanations": [
+        "一方で contrasts two coexisting aspects of the same subject (安い一方で壊れやすい). A line cannot be stopping and operating at once — the sentence needs 'without stopping', not 'while stopping'.",
+        "ものか is an emphatic sentence-final denial ('as if it would ever stop!'). It ends an utterance and cannot link 止まる to 稼働している in mid-sentence.",
+        "ことから introduces evidence for a conclusion or a name's origin. 稼働している is a plain description, not a conclusion drawn from the fact of stopping."
+      ],
+      "hiragana_full": "このこうじょうのせいさんらいんは、にじゅうよじかんとまることなくかどうしている。",
+      "audio_alternatives": [
+        { "kanji": "この工場の生産ラインは、休むことなく二十四時間動き続けている。", "hiragana_full": "このこうじょうのせいさんらいんは、やすむことなくにじゅうよじかんうごきつづけている。" },
+        { "kanji": "この工場では、生産ラインが昼も夜も止まらずに動いている。", "hiragana_full": "このこうじょうでは、せいさんらいんがひるもよるもとまらずにうごいている。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "生産", "reading": "せいさん", "meaning": "production" },
+        { "word": "稼働する", "reading": "かどうする", "meaning": "to be in operation (machinery)" }
+      ]
+    },
+    {
+      "id": "n2_216_5",
+      "example_sentence": "初心を忘れることなく、これからも精進してまいります。",
+      "translation": "I will keep devoting myself to my work without ever forgetting my original resolve. (in an acceptance speech)",
+      "blank_target": "ことなく",
+      "wrong_choices": ["ものか", "ことには", "ことだから"],
+      "wrong_choice_explanations": [
+        "ものか is the defiant refusal 'as if I'd ever forget!' — it closes a sentence with rising emphasis and cannot connect to the following これからも精進してまいります.",
+        "ことには works only as ないことには 'unless' (見ないことには分からない) and must end in a negative outcome; here 忘れる is affirmative and the speaker is making a positive pledge.",
+        "ことだから takes a person plus の to predict their behavior (先生のことだから). 初心 is not a person, and the speaker is vowing, not predicting."
+      ],
+      "hiragana_full": "しょしんをわすれることなく、これからもしょうじんしてまいります。",
+      "audio_alternatives": [
+        { "kanji": "初心を忘れずに、今後も努力を続けていく所存です。", "hiragana_full": "しょしんをわすれずに、こんごもどりょくをつづけていくしょぞんです。" },
+        { "kanji": "これからも初心を忘れることなく、頑張っていきたいと思います。", "hiragana_full": "これからもしょしんをわすれることなく、がんばっていきたいとおもいます。" }
+      ],
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        { "word": "初心", "reading": "しょしん", "meaning": "one's original resolve" },
+        { "word": "精進する", "reading": "しょうじんする", "meaning": "to devote oneself; keep striving" }
+      ]
+    },
+    {
+      "id": "n2_216_6",
+      "example_sentence": "彼は言い訳をすることなく、自分のミスを素直に認めた。",
+      "translation": "He admitted his mistake frankly, without making excuses.",
+      "blank_target": "ことなく",
+      "wrong_choices": ["あまり", "ふりをして", "ことか"],
+      "wrong_choice_explanations": [
+        "あまり means 'so much ~ that…' and must lead to a result caused by the excess (言い訳をするあまり信用を失った). Frank admission is the opposite of excessive excuse-making, not its result.",
+        "ふりをして means 'pretending to' — he would be faking excuses while honestly admitting the mistake, which contradicts 素直に.",
+        "ことか is the exclamation 'how much ~!' with どんなに or 何度. The sentence calmly reports his behavior; nothing is exclaimed."
+      ],
+      "hiragana_full": "かれはいいわけをすることなく、じぶんのみすをすなおにみとめた。",
+      "audio_alternatives": [
+        { "kanji": "彼は言い訳を一切せずに、自分の間違いを認めた。", "hiragana_full": "かれはいいわけをいっさいせずに、じぶんのまちがいをみとめた。" },
+        { "kanji": "彼は弁解することなく、ミスを認めて謝った。", "hiragana_full": "かれはべんかいすることなく、みすをみとめてあやまった。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "言い訳", "reading": "いいわけ", "meaning": "excuse" },
+        { "word": "素直に", "reading": "すなおに", "meaning": "frankly; honestly" },
+        { "word": "認める", "reading": "みとめる", "meaning": "to admit" }
+      ]
+    },
+    {
+      "id": "n2_216_7",
+      "example_sentence": "借りた本は、返却期限に遅れることなく図書館にお返しください。",
+      "translation": "Please return borrowed books to the library without missing the due date. (library notice)",
+      "blank_target": "ことなく",
+      "wrong_choices": ["ように", "うちに", "ことには"],
+      "wrong_choice_explanations": [
+        "ように expresses purpose, but 遅れるように would mean 'so that you ARE late'. Learners reach for it because 遅れないように is the everyday phrasing — without ない the meaning flips to the opposite.",
+        "うちに means 'while / before a change' (暗くならないうちに). 遅れるうちに sets up no valid time window — being late is the very thing to avoid, not a period to act within.",
+        "ことには requires a preceding ない (〜ないことには) and a negative conclusion such as 'cannot ~'; here the verb is affirmative and the main clause is a polite request."
+      ],
+      "hiragana_full": "かりたほんは、へんきゃくきげんにおくれることなくとしょかんにおかえしください。",
+      "audio_alternatives": [
+        { "kanji": "本は返却期限までに、必ず図書館へお返しください。", "hiragana_full": "ほんはへんきゃくきげんまでに、かならずとしょかんへおかえしください。" },
+        { "kanji": "借りた本は期限に遅れずに返してください。", "hiragana_full": "かりたほんはきげんにおくれずにかえしてください。" }
+      ],
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        { "word": "返却", "reading": "へんきゃく", "meaning": "returning (a borrowed item)" },
+        { "word": "期限", "reading": "きげん", "meaning": "deadline; due date" }
+      ]
+    },
+    {
+      "id": "n2_216_8",
+      "example_sentence": "祖父は生涯、故郷を離れることなく、農業ひとすじに生きた。",
+      "translation": "My grandfather lived his whole life devoted to farming, never leaving his hometown.",
+      "blank_target": "ことなく",
+      "wrong_choices": ["うえに", "ことから", "たびに"],
+      "wrong_choice_explanations": [
+        "うえに piles up an additional fact in the same direction ('on top of leaving'). That would make him actually leave home, contradicting 生涯…ひとすじに生きた.",
+        "ことから gives the basis for a name or conclusion. His farming life is not a conclusion inferred from the fact of leaving — the sentence needs 'without leaving'.",
+        "たびに means 'every time ~' and needs a repeated event with a recurring result; the point is that leaving never happened even once, and 生きた is not a recurring event."
+      ],
+      "hiragana_full": "そふはしょうがい、こきょうをはなれることなく、のうぎょうひとすじにいきた。",
+      "audio_alternatives": [
+        { "kanji": "祖父は死ぬまで故郷を離れず、農業ひとすじに生きた。", "hiragana_full": "そふはしぬまでこきょうをはなれず、のうぎょうひとすじにいきた。" },
+        { "kanji": "祖父は一度も故郷を出ることなく、生涯農業を続けた。", "hiragana_full": "そふはいちどもこきょうをでることなく、しょうがいのうぎょうをつづけた。" }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        { "word": "生涯", "reading": "しょうがい", "meaning": "one's whole life" },
+        { "word": "故郷", "reading": "こきょう", "meaning": "hometown" },
+        { "word": "ひとすじ", "reading": "ひとすじ", "meaning": "single-minded devotion" }
+      ]
+    },
+    {
+      "id": "n2_216_9",
+      "example_sentence": "面接では緊張することなく、落ち着いて質問に答えることができた。",
+      "translation": "In the interview I was able to answer the questions calmly, without getting nervous.",
+      "blank_target": "ことなく",
+      "wrong_choices": ["せいで", "ことには", "あまり"],
+      "wrong_choice_explanations": [
+        "せいで blames a bad outcome on its cause (緊張したせいで失敗した). Here the outcome is a success, and nervousness could not be the cause of calm answers anyway.",
+        "ことには only works as ないことには 'unless' with a negative conclusion; 緊張する is affirmative and the main clause reports what the speaker did manage to do.",
+        "あまり means 'so ~ that…' and the result must flow from the excess (緊張するあまり頭が真っ白になった). Calm, composed answers cannot result from excessive nervousness."
+      ],
+      "hiragana_full": "めんせつではきんちょうすることなく、おちついてしつもんにこたえることができた。",
+      "audio_alternatives": [
+        { "kanji": "面接では緊張せずに、落ち着いて受け答えができた。", "hiragana_full": "めんせつではきんちょうせずに、おちついてうけこたえができた。" },
+        { "kanji": "本番では少しも緊張することなく、はきはきと答えられた。", "hiragana_full": "ほんばんではすこしもきんちょうすることなく、はきはきとこたえられた。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "面接", "reading": "めんせつ", "meaning": "job interview" },
+        { "word": "緊張する", "reading": "きんちょうする", "meaning": "to get nervous" },
+        { "word": "落ち着く", "reading": "おちつく", "meaning": "to stay calm" }
+      ]
+    },
+    {
+      "id": "n2_216_10",
+      "example_sentence": "その古文書は誰にも知られることなく、蔵の中で長い間眠っていた。",
+      "translation": "The old manuscript lay dormant in the storehouse for many years, unknown to anyone.",
+      "blank_target": "ことなく",
+      "wrong_choices": ["ものの", "かぎり", "ことから"],
+      "wrong_choice_explanations": [
+        "ものの means 'although' and would assert that the manuscript WAS known — but 誰にも demands a negative, and the sentence's point is that nobody knew of it.",
+        "かぎり means 'as long as ~' and makes the main clause conditional on the ~ clause; 誰にも知られるかぎり is broken because 誰にも needs a negative, and the sleeping was not conditional on being known.",
+        "ことから presents evidence for a conclusion or name. 眠っていた is a plain description of the manuscript's state, not a conclusion drawn from its being known."
+      ],
+      "hiragana_full": "そのこもんじょはだれにもしられることなく、くらのなかでながいあいだねむっていた。",
+      "audio_alternatives": [
+        { "kanji": "その古文書は誰にも発見されずに、長年蔵の中に保管されていた。", "hiragana_full": "そのこもんじょはだれにもはっけんされずに、ながねんくらのなかにほかんされていた。" },
+        { "kanji": "長い間、その古文書の存在は誰にも知られることなく、蔵に眠っていた。", "hiragana_full": "ながいあいだ、そのこもんじょのそんざいはだれにもしられることなく、くらにねむっていた。" }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        { "word": "古文書", "reading": "こもんじょ", "meaning": "old document; manuscript" },
+        { "word": "蔵", "reading": "くら", "meaning": "storehouse" },
+        { "word": "眠る", "reading": "ねむる", "meaning": "to lie dormant" }
+      ]
+    }
+  ]
+}

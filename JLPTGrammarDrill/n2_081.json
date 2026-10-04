@@ -6,62 +6,191 @@
   "exercises": [
     {
       "id": "n2_081_1",
-      "example_sentence": "新人学芸員は作品の取り扱いを間違いがちなので訓練が必要だ。",
-      "translation": "New curators tend to make mistakes in handling artworks, so training is necessary.",
+      "example_sentence": "この季節は雨が降りがちなので傘を持ち歩く。",
+      "translation": "Since it tends to rain this season, I carry an umbrella.",
       "blank_target": "がちなので",
       "wrong_choices": [
-        "にくいので",
-        "そうなので",
-        "かねないので"
+        "ばかりなので",
+        "だらけなので",
+        "づくめなので"
       ],
       "wrong_choice_explanations": [
-        "〜にくい means something is hard to do or unlikely to happen — the opposite of the proneness がち expresses.",
-        "〜そう (looks about to) describes how things appear in the moment, not the recurring habitual tendency marked by がち.",
-        "〜かねない warns that an undesirable result could occur, but がち states an established, repeated tendency."
+        "ばかり means 'only' or 'just' but doesn't express the tendency to rain frequently that がち conveys.",
+        "だらけ means 'full of' or 'covered with' but doesn't fit with weather patterns or express tendency.",
+        "づくめ means 'entirely' or 'completely' but doesn't express the frequent tendency that がち conveys for weather."
       ],
-      "hiragana_full": "しんじんがくげいいんはさくひんのとりあつかいをまちがいがちなのでくんれんがひつようだ",
+      "hiragana_full": "このきせつはあめがふりがちなのでかさをもちあるく。",
       "audio_alternatives": [
         {
-          "kanji": "新人学芸員は作品の取り扱いを間違えやすいため、訓練が必要だ。",
-          "hiragana_full": "しんじんがくげいいんはさくひんのとりあつかいをまちがえやすいため、くんれんがひつようだ"
+          "kanji": "この季節は雨が降りやすいので傘を持ち歩く。",
+          "hiragana_full": "このきせつはあめがふりやすいのでかさをもちあるく。"
         },
         {
-          "kanji": "新人学芸員は作品の扱いを誤りがちなので、訓練が必要です。",
-          "hiragana_full": "しんじんがくげいいんはさくひんのあつかいをあやまりがちなので、くんれんがひつようです"
+          "kanji": "この時期は雨が降りがちなので傘を携帯する。",
+          "hiragana_full": "このじきはあめがふりがちなのでかさをけいたいする。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "持ち歩く",
+          "reading": "もちあるく",
+          "meaning": "to carry around"
+        }
+      ]
     },
     {
       "id": "n2_081_2",
-      "example_sentence": "彼は約束を忘れがちなので、毎回確認が必要だ。",
-      "translation": "He tends to forget promises, so confirmation is necessary each time.",
-      "blank_target": "がちなので",
+      "example_sentence": "新入社員は間違えがちだ。",
+      "translation": "New employees tend to make mistakes.",
+      "blank_target": "がちだ",
       "wrong_choices": [
-        "づらいので",
-        "気味なので",
-        "かねないので"
+        "気味だ",
+        "ものだ",
+        "べきだ"
       ],
       "wrong_choice_explanations": [
-        "〜づらい means something is hard or awkward to do, the opposite of the habitual tendency がち conveys.",
-        "〜気味 marks a slight current sign of a condition ('a touch of'), not the established habit がち expresses.",
-        "〜かねない warns a single undesirable outcome might occur, whereas がち describes a recurring tendency."
+        "気味 suggests a slight degree or concerning sign but doesn't convey the habitual tendency that がち expresses.",
+        "ものだ expresses a general truth or characteristic but lacks the specific tendency meaning that がち provides.",
+        "べきだ expresses obligation or duty, which is completely inappropriate for describing a natural tendency to make mistakes."
       ],
-      "hiragana_full": "かれはやくそくをわすれがちなので、まいかいかくにんがひつようだ。",
+      "hiragana_full": "しんにゅうしゃいんはまちがえがちだ。",
       "audio_alternatives": [
         {
-          "kanji": "彼は約束を忘れやすいので、毎回確認する必要がある。",
-          "hiragana_full": "かれはやくそくをわすれやすいので、まいかいかくにんするひつようがある。"
+          "kanji": "新入社員はミスをしがちだ。",
+          "hiragana_full": "しんにゅうしゃいんはみすをしがちだ。"
         },
         {
-          "kanji": "彼は約束を忘れがちだから、毎回確認が必要です。",
-          "hiragana_full": "かれはやくそくをわすれがちだから、まいかいかくにんがひつようです。"
+          "kanji": "新入社員は間違いを犯しやすい。",
+          "hiragana_full": "しんにゅうしゃいんはまちがいをおかしやすい。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "新入社員",
+          "reading": "しんにゅうしゃいん",
+          "meaning": "new employee"
+        }
+      ]
     },
     {
       "id": "n2_081_3",
+      "example_sentence": "人間は楽な方に流れがちなものだ。",
+      "translation": "Humans tend to take the easy way.",
+      "blank_target": "がちな",
+      "wrong_choices": [
+        "にくい",
+        "そうな",
+        "らしい"
+      ],
+      "wrong_choice_explanations": [
+        "〜にくい means 'hard to / not readily,' so 流れにくい reverses the sense to 'humans do not easily drift toward ease,' the opposite of the tendency がち expresses here.",
+        "そうな expresses appearance or likelihood but doesn't capture the ingrained tendency that がち conveys about human nature.",
+        "らしい means 'seems like' or 'typical of' but doesn't express the inevitable tendency that がち conveys here."
+      ],
+      "hiragana_full": "にんげんはらくなほうにながれがちなものだ。",
+      "audio_alternatives": [
+        {
+          "kanji": "人間は楽な方向に流れやすいものだ。",
+          "hiragana_full": "にんげんはらくなほうこうにながれやすいものだ。"
+        },
+        {
+          "kanji": "人は楽な方を選びがちなものだ。",
+          "hiragana_full": "ひとはらくなほうをえらびがちなものだ。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "楽",
+          "reading": "らく",
+          "meaning": "ease / comfort"
+        },
+        {
+          "word": "流れる",
+          "reading": "ながれる",
+          "meaning": "to drift / go with the flow"
+        }
+      ]
+    },
+    {
+      "id": "n2_081_4",
+      "example_sentence": "学生は夜更かしをしがちになる。",
+      "translation": "Students tend to stay up late.",
+      "blank_target": "がちになる",
+      "wrong_choices": [
+        "にくくなる",
+        "そうになる",
+        "ものになる"
+      ],
+      "wrong_choice_explanations": [
+        "〜にくくなる means 'becomes harder / less likely to,' the opposite of developing a tendency toward staying up late, which がちになる expresses.",
+        "そうになる means 'looks like it will' but doesn't express the habitual tendency that がち conveys for late nights.",
+        "ものになる means 'becomes something worthwhile' which doesn't fit the context of developing bad sleep habits."
+      ],
+      "hiragana_full": "がくせいはよふかしをしがちになる。",
+      "audio_alternatives": [
+        {
+          "kanji": "学生は夜更かしをしやすい。",
+          "hiragana_full": "がくせいはよふかしをしやすい。"
+        },
+        {
+          "kanji": "学生は夜遅くまで起きていがちだ。",
+          "hiragana_full": "がくせいはよるおそくまでおきていがちだ。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "夜更かし",
+          "reading": "よふかし",
+          "meaning": "staying up late"
+        }
+      ]
+    },
+    {
+      "id": "n2_081_5",
+      "example_sentence": "会議では同じ人が発言しがちである。",
+      "translation": "In meetings, the same people tend to speak up.",
+      "blank_target": "がちである",
+      "wrong_choices": [
+        "ものである",
+        "べきである",
+        "はずである"
+      ],
+      "wrong_choice_explanations": [
+        "ものである expresses a general truth but doesn't convey the specific tendency pattern that がち expresses about meeting dynamics.",
+        "べきである expresses obligation or what should happen, which contradicts the observed tendency that がち describes.",
+        "はずである expresses expectation based on logic but doesn't convey the observed tendency that がち expresses."
+      ],
+      "hiragana_full": "かいぎではおなじひとがはつげんしがちである。",
+      "audio_alternatives": [
+        {
+          "kanji": "会議では同じ人が発言しがちだ。",
+          "hiragana_full": "かいぎではおなじひとがはつげんしがちだ。"
+        },
+        {
+          "kanji": "会議において同じ人が発言しがちである。",
+          "hiragana_full": "かいぎにおいておなじひとがはつげんしがちである。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "発言",
+          "reading": "はつげん",
+          "meaning": "remark / speaking up"
+        }
+      ]
+    },
+    {
+      "id": "n2_081_6",
       "example_sentence": "高齢者は転倒しがちなので、階段に手すりが必要だ。",
       "translation": "Elderly people tend to fall, so handrails are necessary on stairs.",
       "blank_target": "がちなので",
@@ -86,20 +215,38 @@
           "hiragana_full": "おとしよりはてんとうしがちだから、かいだんにはてすりがひつようだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "高齢者",
+          "reading": "こうれいしゃ",
+          "meaning": "the elderly"
+        },
+        {
+          "word": "転倒",
+          "reading": "てんとう",
+          "meaning": "falling over"
+        },
+        {
+          "word": "手すり",
+          "reading": "てすり",
+          "meaning": "handrail"
+        }
+      ]
     },
     {
-      "id": "n2_081_4",
+      "id": "n2_081_7",
       "example_sentence": "営業担当者は納期を見落としがちなので注意が必要だ。",
       "translation": "Sales staff tend to overlook deadlines, so caution is necessary.",
       "blank_target": "がちなので",
       "wrong_choices": [
-        "かねないので",
+        "っこないので",
         "にくいので",
         "づらいので"
       ],
       "wrong_choice_explanations": [
-        "〜かねない warns that overlooking might happen once with bad results, but がち marks a habitual tendency.",
+        "〜っこない is a casual 'there's no way ~' (見落としっこない = they'd never overlook it), which contradicts the need for caution; がち marks the habitual tendency.",
         "〜にくい means something is hard to do or unlikely — the opposite of the proneness がち expresses.",
         "〜づらい means something is awkward or hard to do, contrary to the recurring tendency がち conveys."
       ],
@@ -114,10 +261,115 @@
           "hiragana_full": "えいぎょうたんとうしゃはのうきをみおとしやすいので、きをつけるひつようがある。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "担当者",
+          "reading": "たんとうしゃ",
+          "meaning": "person in charge"
+        },
+        {
+          "word": "納期",
+          "reading": "のうき",
+          "meaning": "delivery deadline"
+        }
+      ]
     },
     {
-      "id": "n2_081_5",
+      "id": "n2_081_8",
+      "example_sentence": "彼女は人前で緊張しがちなので慣れが必要だ。",
+      "translation": "She tends to get nervous in front of people, so she needs to get used to it.",
+      "blank_target": "がちなので",
+      "wrong_choices": [
+        "がたいので",
+        "にくいので",
+        "っこないので"
+      ],
+      "wrong_choice_explanations": [
+        "〜がたい means 'hard to bring oneself to'; 緊張しがたい is not idiomatic and would suggest she hardly gets nervous — the reverse of the proneness がち conveys.",
+        "〜にくい means getting nervous is hard or unlikely — the reverse of the proneness がち conveys.",
+        "〜っこない is a casual 'there's no way ~' (緊張しっこない = she'd never get nervous), which contradicts her needing to get used to it; がち marks the habitual tendency."
+      ],
+      "hiragana_full": "かのじょはひとまえできんちょうしがちなのでなれがひつようだ",
+      "audio_alternatives": [
+        {
+          "kanji": "彼女は人前で緊張しやすいので慣れが必要だ。",
+          "hiragana_full": "かのじょはひとまえできんちょうしやすいのでなれがひつようだ"
+        },
+        {
+          "kanji": "彼女は人前で緊張しがちだから、慣れる必要がある。",
+          "hiragana_full": "かのじょはひとまえできんちょうしがちだから、なれるひつようがある"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "人前",
+          "reading": "ひとまえ",
+          "meaning": "in public"
+        },
+        {
+          "word": "緊張",
+          "reading": "きんちょう",
+          "meaning": "nervousness"
+        }
+      ]
+    },
+    {
+      "id": "n2_081_9",
+      "example_sentence": "新入社員は残業しがちなので効率の改善が必要だ。",
+      "translation": "New employees tend to work overtime, so efficiency improvement is necessary.",
+      "blank_target": "がちなので",
+      "wrong_choices": [
+        "たてなので",
+        "っこないので",
+        "次第なので"
+      ],
+      "wrong_choice_explanations": [
+        "〜たて means 'freshly done' and attaches to verbs like 焼く or 入社する (焼きたてのパン); 残業したて is nonsense and says nothing about a recurring tendency, which がち expresses.",
+        "〜っこない is a casual 'there's no way ~', which would deny the overtime outright, whereas がち marks an established, repeated tendency.",
+        "Stem + 次第 means 'as soon as ~' and needs a following action (終わり次第連絡します); 残業し次第なので is ungrammatical and expresses no tendency, unlike がち."
+      ],
+      "hiragana_full": "しんにゅうしゃいんはざんぎょうしがちなのでこうりつのかいぜんがひつようだ",
+      "audio_alternatives": [
+        {
+          "kanji": "新入社員は残業しがちだから、効率の改善が必要です。",
+          "hiragana_full": "しんにゅうしゃいんはざんぎょうしがちだから、こうりつのかいぜんがひつようです"
+        },
+        {
+          "kanji": "新入社員は残業する傾向があるので、効率の改善が必要だ。",
+          "hiragana_full": "しんにゅうしゃいんはざんぎょうするけいこうがあるので、こうりつのかいぜんがひつようだ"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "新入社員",
+          "reading": "しんにゅうしゃいん",
+          "meaning": "new employee"
+        },
+        {
+          "word": "残業",
+          "reading": "ざんぎょう",
+          "meaning": "overtime"
+        },
+        {
+          "word": "効率",
+          "reading": "こうりつ",
+          "meaning": "efficiency"
+        },
+        {
+          "word": "改善",
+          "reading": "かいぜん",
+          "meaning": "improvement"
+        }
+      ]
+    },
+    {
+      "id": "n2_081_10",
       "example_sentence": "若い研究者は理論を軽視しがちなので指導が必要だ。",
       "translation": "Young researchers tend to undervalue theory, so guidance is necessary.",
       "blank_target": "がちなので",
@@ -142,147 +394,25 @@
           "hiragana_full": "わかいけんきゅうしゃはりろんをかろんじがちなので、しどうがひつようです"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_081_6",
-      "example_sentence": "子供は野菜を残しがちなので工夫が必要だ。",
-      "translation": "Children tend to leave vegetables uneaten, so creativity is needed.",
-      "blank_target": "がちなので",
-      "wrong_choices": [
-        "づらいので",
-        "そうなので",
-        "かねないので"
-      ],
-      "wrong_choice_explanations": [
-        "〜づらい means something is hard or awkward to do, the opposite of the tendency がち conveys.",
-        "〜そう describes an imminent appearance, not the recurring habitual tendency marked by がち.",
-        "〜かねない warns of a possible undesirable result, but がち states an established, repeated tendency."
-      ],
-      "hiragana_full": "こどもはやさいをのこしがちなのでくふうがひつようだ",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "子供は野菜を残しがちだから、工夫が必要です。",
-          "hiragana_full": "こどもはやさいをのこしがちだから、くふうがひつようです"
+          "word": "理論",
+          "reading": "りろん",
+          "meaning": "theory"
         },
         {
-          "kanji": "子供たちは野菜を食べ残しがちなので、工夫が必要だ。",
-          "hiragana_full": "こどもたちはやさいをたべのこしがちなので、くふうがひつようだ"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_081_7",
-      "example_sentence": "彼女は人前で緊張しがちなので慣れが必要だ。",
-      "translation": "She tends to get nervous in front of people, so she needs to get used to it.",
-      "blank_target": "がちなので",
-      "wrong_choices": [
-        "気味なので",
-        "にくいので",
-        "そうなので"
-      ],
-      "wrong_choice_explanations": [
-        "〜気味 marks a slight, momentary sign of nervousness, not the recurring tendency that がち expresses.",
-        "〜にくい means getting nervous is hard or unlikely — the reverse of the proneness がち conveys.",
-        "〜そう describes how she looks in the moment ('seems about to'), not her habitual tendency, which がち expresses."
-      ],
-      "hiragana_full": "かのじょはひとまえできんちょうしがちなのでなれがひつようだ",
-      "audio_alternatives": [
-        {
-          "kanji": "彼女は人前で緊張しやすいので慣れが必要だ。",
-          "hiragana_full": "かのじょはひとまえできんちょうしやすいのでなれがひつようだ"
+          "word": "軽視",
+          "reading": "けいし",
+          "meaning": "disregard"
         },
         {
-          "kanji": "彼女は人前で緊張しがちだから、慣れる必要がある。",
-          "hiragana_full": "かのじょはひとまえできんちょうしがちだから、なれるひつようがある"
+          "word": "指導",
+          "reading": "しどう",
+          "meaning": "guidance"
         }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_081_8",
-      "example_sentence": "学生は締切を忘れがちなので管理が大切だ。",
-      "translation": "Students tend to forget deadlines, so management is important.",
-      "blank_target": "がちなので",
-      "wrong_choices": [
-        "にくいので",
-        "気味なので",
-        "づらいので"
-      ],
-      "wrong_choice_explanations": [
-        "〜にくい means something is hard or unlikely to happen, the opposite of the proneness がち expresses.",
-        "〜気味 marks a slight present sign of a condition, not the established habit conveyed by がち.",
-        "〜づらい means something is awkward or hard to do, contrary to the recurring tendency がち conveys."
-      ],
-      "hiragana_full": "がくせいはしめきりをわすれがちなのでかんりがたいせつだ",
-      "audio_alternatives": [
-        {
-          "kanji": "学生は締切を忘れやすいので管理が大切です。",
-          "hiragana_full": "がくせいはしめきりをわすれやすいのでかんりがたいせつです"
-        },
-        {
-          "kanji": "学生は締め切りを忘れがちだから、管理することが重要だ。",
-          "hiragana_full": "がくせいはしめきりをわすれがちだから、かんりすることがじゅうようだ"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_081_9",
-      "example_sentence": "忙しい時期は食事を抜きがちなので健康に注意が必要だ。",
-      "translation": "During busy periods, people tend to skip meals, so attention to health is necessary.",
-      "blank_target": "がちなので",
-      "wrong_choices": [
-        "そうなので",
-        "かねないので",
-        "にくいので"
-      ],
-      "wrong_choice_explanations": [
-        "〜そう describes an imminent appearance, not the repeated habitual tendency marked by がち.",
-        "〜かねない warns a single undesirable outcome could occur, but がち states a recurring tendency.",
-        "〜にくい means skipping meals is hard or unlikely — the opposite of the proneness がち expresses."
-      ],
-      "hiragana_full": "いそがしいじきはしょくじをぬきがちなのでけんこうにちゅういがひつようだ",
-      "audio_alternatives": [
-        {
-          "kanji": "忙しい時期は食事を抜きがちだから、健康管理に気をつける必要がある。",
-          "hiragana_full": "いそがしいじきはしょくじをぬきがちだから、けんこうかんりにきをつけるひつようがある"
-        },
-        {
-          "kanji": "繁忙期には食事を抜きやすいため、健康に注意が必要です。",
-          "hiragana_full": "はんぼうきにはしょくじをぬきやすいため、けんこうにちゅういがひつようです"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_081_10",
-      "example_sentence": "新入社員は残業しがちなので効率の改善が必要だ。",
-      "translation": "New employees tend to work overtime, so efficiency improvement is necessary.",
-      "blank_target": "がちなので",
-      "wrong_choices": [
-        "づらいので",
-        "かねないので",
-        "気味なので"
-      ],
-      "wrong_choice_explanations": [
-        "〜づらい means something is hard or awkward to do, the opposite of the habitual tendency がち conveys.",
-        "〜かねない warns of a possible undesirable result, whereas がち marks an established, repeated tendency.",
-        "〜気味 marks a slight current sign of a condition, not the recurring habit that がち expresses."
-      ],
-      "hiragana_full": "しんにゅうしゃいんはざんぎょうしがちなのでこうりつのかいぜんがひつようだ",
-      "audio_alternatives": [
-        {
-          "kanji": "新入社員は残業しがちだから、効率の改善が必要です。",
-          "hiragana_full": "しんにゅうしゃいんはざんぎょうしがちだから、こうりつのかいぜんがひつようです"
-        },
-        {
-          "kanji": "新入社員は残業する傾向があるので、効率の改善が必要だ。",
-          "hiragana_full": "しんにゅうしゃいんはざんぎょうするけいこうがあるので、こうりつのかいぜんがひつようだ"
-        }
-      ],
-      "audio_eligible": true
+      ]
     }
   ]
 }

@@ -30,66 +30,18 @@
           "hiragana_full": "にほんのあきといったら、こうようがゆうめいですね。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_068_10",
-      "example_sentence": "イノベーションといえば、失敗はつきものです。",
-      "translation": "When it comes to innovation, failure is inevitable.",
-      "blank_target": "といえば",
-      "wrong_choices": [
-        "といっても",
-        "とすれば",
-        "というなら"
-      ],
-      "wrong_choice_explanations": [
-        "といっても means 'even though one says innovation,' a concession, but the sentence introduces innovation and states what comes with it, so the topic-marking といえば is needed.",
-        "とすれば means 'if we suppose it's innovation,' a hypothesis, but the sentence states a general truth about the topic, so といえば ('when it comes to') fits.",
-        "というなら means 'if you're saying ~,' a conditional reply, but the speaker brings up innovation directly, so the topic-introducing といえば is required."
-      ],
-      "hiragana_full": "いのべーしょんといえば、しっぱいはつきものです。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "イノベーションには失敗がつきものです。",
-          "hiragana_full": "いのべーしょんにはしっぱいがつきものです。"
-        },
-        {
-          "kanji": "イノベーションにおいて、失敗は避けられないものです。",
-          "hiragana_full": "いのべーしょんにおいて、しっぱいはさけられないものです。"
+          "word": "紅葉",
+          "reading": "こうよう",
+          "meaning": "autumn leaves"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
       "id": "n3_068_2",
-      "example_sentence": "組織文化といえば、会社の理念と社員の態度が重要ですね。",
-      "translation": "When it comes to organizational culture, the company mission and employee attitude are important.",
-      "blank_target": "といえば",
-      "wrong_choices": [
-        "といっても",
-        "とすれば",
-        "というなら"
-      ],
-      "wrong_choice_explanations": [
-        "といっても means 'even though one says ~,' a concession, but the sentence introduces organizational culture and states what matters in it, so the topic-marking といえば is needed.",
-        "とすれば means 'if we suppose ~,' setting up a hypothesis, but the sentence makes a direct topic association, so といえば ('when it comes to') is required.",
-        "というなら means 'if you're saying ~,' a conditional reply, but the sentence simply brings up the topic, so the topic-introducing といえば fits."
-      ],
-      "hiragana_full": "そしきぶんかといえば、かいしゃのりねんとしゃいんのたいどがじゅうようですね。",
-      "audio_alternatives": [
-        {
-          "kanji": "組織文化について言えば、会社の理念と社員の態度が大切ですね。",
-          "hiragana_full": "そしきぶんかについていえば、かいしゃのりねんとしゃいんのたいどがたいせつですね。"
-        },
-        {
-          "kanji": "組織文化においては、会社の理念と社員の態度が重要です。",
-          "hiragana_full": "そしきぶんかにおいては、かいしゃのりねんとしゃいんのたいどがじゅうようです。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_068_3",
       "example_sentence": "北海道といえば、ラーメンとジンギスカンが思い浮かぶ。",
       "translation": "When it comes to Hokkaido, ramen and Genghis Khan lamb come to mind.",
       "blank_target": "といえば",
@@ -114,10 +66,23 @@
           "hiragana_full": "ほっかいどうのことをかんがえると、らーめんとじんぎすかんがあたまにうかぶ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "思い浮かぶ",
+          "reading": "おもいうかぶ",
+          "meaning": "to come to mind"
+        },
+        {
+          "word": "ジンギスカン",
+          "reading": "じんぎすかん",
+          "meaning": "grilled mutton dish"
+        }
+      ]
     },
     {
-      "id": "n3_068_4",
+      "id": "n3_068_3",
       "example_sentence": "バレンタインデーといえば、チョコレートですね。",
       "translation": "When it comes to Valentine's Day, it is chocolate.",
       "blank_target": "といえば",
@@ -142,147 +107,287 @@
           "hiragana_full": "ばれんたいんでーといったらちょこれーとですね。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
+    },
+    {
+      "id": "n3_068_4",
+      "example_sentence": "日本の山と言えば、やはり富士山が真っ先に思い浮かぶ。",
+      "translation": "Speaking of Japanese mountains, Mount Fuji is the first to come to mind.",
+      "blank_target": "と言えば",
+      "wrong_choices": [
+        "にとって",
+        "と言っても",
+        "にしては"
+      ],
+      "wrong_choice_explanations": [
+        "「にとって」は「〜の立場から見て」を表し、話題から代表例を挙げるこの文には合わない。",
+        "「と言っても」は「とはいえ」という逆接で、代表的な山を挙げるこの文意には合わない。",
+        "「にしては」は「割には」と予想との差を表し、連想を述べるこの文には合わない。"
+      ],
+      "hiragana_full": "にほんのやまといえば、やはりふじさんがまっさきにおもいうかぶ。",
+      "audio_alternatives": [
+        {
+          "kanji": "日本を代表する山は、何と言っても富士山だ。",
+          "hiragana_full": "にほんをだいひょうするやまは、なんといってもふじさんだ。"
+        },
+        {
+          "kanji": "日本の山で連想するのは、まず富士山だろう。",
+          "hiragana_full": "にほんのやまでれんそうするのは、まずふじさんだろう。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "といえば",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "真っ先",
+          "reading": "まっさき",
+          "meaning": "first of all; foremost"
+        },
+        {
+          "word": "思い浮かぶ",
+          "reading": "おもいうかぶ",
+          "meaning": "to come to mind"
+        }
+      ]
     },
     {
       "id": "n3_068_5",
-      "example_sentence": "着物といえば、日本の伝統衣装ですね。",
-      "translation": "When it comes to kimonos, they are Japanese traditional clothes.",
-      "blank_target": "といえば",
+      "example_sentence": "和食と言えば、寿司や天ぷらが海外でも人気だ。",
+      "translation": "Speaking of Japanese cuisine, sushi and tempura are popular abroad too.",
+      "blank_target": "と言えば",
       "wrong_choices": [
-        "というなら",
-        "としたら",
-        "といっても"
+        "といっても",
+        "によると",
+        "からといって"
       ],
       "wrong_choice_explanations": [
-        "というなら means 'if you're saying it's a kimono,' adding a conditional, but the sentence naturally introduces what kimonos are, so the topic-marking といえば fits.",
-        "としたら means 'supposing it's a kimono,' a hypothesis, but the sentence states a well-known fact, so といえば ('speaking of') is needed.",
-        "といっても means 'even though one calls it a kimono,' a concession, but the sentence simply associates kimonos with Japanese tradition, so the topic-introducing といえば is required."
+        "「といっても」は逆接で、和食の代表料理を挙げるこの文意には合わない。",
+        "「によると」は伝聞の出所を示し、後に伝え聞いた内容が続く表現で、連想を述べるこの文には合わない。",
+        "「からといって」は「〜という理由だけで」を表し、後に否定が続く表現で、この文には合わない。"
       ],
-      "hiragana_full": "きものといえば、にほんのでんとういしょうですね。",
+      "hiragana_full": "わしょくといえば、すしやてんぷらがかいがいでもにんきだ。",
       "audio_alternatives": [
         {
-          "kanji": "着物は日本の伝統的な衣装ですね。",
-          "hiragana_full": "きものはにほんのでんとうてきないしょうですね。"
+          "kanji": "和食を代表する料理と言えば、寿司と天ぷらだ。",
+          "hiragana_full": "わしょくをだいひょうするりょうりといえば、すしとてんぷらだ。"
         },
         {
-          "kanji": "着物というのは、日本の伝統的な服装ですね。",
-          "hiragana_full": "きものというのは、にほんのでんとうてきなふくそうですね。"
+          "kanji": "海外で人気の和食と言うと、寿司や天ぷらが挙げられる。",
+          "hiragana_full": "かいがいでにんきのわしょくというと、すしやてんぷらがあげられる。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "blank_target_reading": "といえば",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "和食",
+          "reading": "わしょく",
+          "meaning": "Japanese cuisine"
+        },
+        {
+          "word": "海外",
+          "reading": "かいがい",
+          "meaning": "overseas; abroad"
+        }
+      ]
     },
     {
       "id": "n3_068_6",
-      "example_sentence": "春といえば、桜の季節ですね。",
-      "translation": "When it comes to spring, it is cherry blossom season.",
-      "blank_target": "といえば",
+      "example_sentence": "留学と言えば、君も来年アメリカに行くんだったね。",
+      "translation": "Speaking of studying abroad, you're going to America next year too, right?",
+      "blank_target": "と言えば",
       "wrong_choices": [
-        "といっても",
-        "とすれば",
-        "というなら"
+        "と言っても",
+        "にしては",
+        "どころか"
       ],
       "wrong_choice_explanations": [
-        "といっても means 'even though one says spring,' a concession, but the sentence simply links spring with cherry-blossom season, so the topic-marking といえば is needed.",
-        "とすれば means 'if we suppose it's spring,' a hypothesis, but the cherry-blossom association is stated as a given, so といえば ('speaking of') fits.",
-        "というなら means 'if you're saying it's spring,' a conditional reply, but the speaker spontaneously brings up spring, so といえば is required."
+        "「と言っても」は逆接で、話題に関連して思い出したことを述べるこの文には合わない。",
+        "「にしては」は「割には」で予想との差を表し、関連して思い出すこの文意には合わない。",
+        "「どころか」は予想を覆す強調で、話題から連想して尋ねるこの文には合わない。"
       ],
-      "hiragana_full": "はるといえば、さくらのきせつですね。",
+      "hiragana_full": "りゅうがくといえば、きみもらいねんあめりかにいくんだったね。",
       "audio_alternatives": [
         {
-          "kanji": "春と言ったら、桜の季節ですね。",
-          "hiragana_full": "はるといったら、さくらのきせつですね。"
+          "kanji": "そう言えば、君も来年アメリカに留学するんだったね。",
+          "hiragana_full": "そういえば、きみもらいねんあめりかにりゅうがくするんだったね。"
         },
         {
-          "kanji": "春は桜の季節ですね。",
-          "hiragana_full": "はるはさくらのきせつですね。"
+          "kanji": "留学の話と言えば、君も渡米予定だったよね。",
+          "hiragana_full": "りゅうがくのはなしといえば、きみもとべいよていだったよね。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "blank_target_reading": "といえば",
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "留学",
+          "reading": "りゅうがく",
+          "meaning": "studying abroad"
+        }
+      ]
     },
     {
       "id": "n3_068_7",
-      "example_sentence": "音楽といえば、クラシックが好きです。",
-      "translation": "When it comes to music, I like classical.",
-      "blank_target": "といえば",
+      "example_sentence": "サッカー日本代表と言えば、彼を抜きには語れない。",
+      "translation": "Speaking of the Japanese national soccer team, you can't talk about it without him.",
+      "blank_target": "と言えば",
       "wrong_choices": [
-        "というなら",
-        "としたら",
-        "といっても"
+        "といっても",
+        "にかけては",
+        "からして"
       ],
       "wrong_choice_explanations": [
-        "というなら means 'if you're saying music,' a conditional response, but the speaker volunteers a personal association with music, so the topic-introducing といえば fits.",
-        "としたら means 'supposing it's music,' a hypothesis, but the sentence calmly states a preference tied to the topic, so といえば ('when it comes to') is needed.",
-        "といっても means 'even though one says music,' a concession, but the sentence simply introduces music and a preference, so the topic-marking といえば is required."
+        "「といっても」は逆接で、代表チームの象徴的な存在を挙げるこの文意には合わない。",
+        "「にかけては」は「〜の能力に関しては一番だ」を表し、話題提示のこの文の構造には合わない。",
+        "「からして」は「〜からすると」「〜でさえ」を表し、連想を述べるこの文には合わない。"
       ],
-      "hiragana_full": "おんがくといえば、くらしっくがすきです。",
+      "hiragana_full": "さっかーにほんだいひょうといえば、かれをぬきにはかたれない。",
       "audio_alternatives": [
         {
-          "kanji": "音楽について言えば、クラシックが好きです。",
-          "hiragana_full": "おんがくについていえば、くらしっくがすきです。"
+          "kanji": "サッカー日本代表を語るなら、彼の存在は欠かせない。",
+          "hiragana_full": "さっかーにほんだいひょうをかたるなら、かれのそんざいはかかせない。"
         },
         {
-          "kanji": "音楽ならクラシックが好きです。",
-          "hiragana_full": "おんがくならくらしっくがすきです。"
+          "kanji": "日本代表と言うと、まず彼の名前が挙がる。",
+          "hiragana_full": "にほんだいひょうというと、まずかれのなまえがあがる。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "blank_target_reading": "といえば",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "代表",
+          "reading": "だいひょう",
+          "meaning": "representative; national team"
+        },
+        {
+          "word": "語れない",
+          "reading": "かたれない",
+          "meaning": "cannot speak of"
+        }
+      ]
     },
     {
       "id": "n3_068_8",
-      "example_sentence": "医療といえば、信頼が最も重要です。",
-      "translation": "When it comes to healthcare, trust is most important.",
-      "blank_target": "といえば",
+      "example_sentence": "クリスマスと言えば、街がイルミネーションで華やかになる季節だ。",
+      "translation": "Speaking of Christmas, it's the season when the city becomes gorgeous with illuminations.",
+      "blank_target": "と言えば",
       "wrong_choices": [
+        "にあたって",
         "といっても",
-        "としたら",
-        "というなら"
+        "をめぐって"
       ],
       "wrong_choice_explanations": [
-        "といっても means 'even though one says ~,' a concession, but the sentence introduces healthcare and states what matters most in it, so the topic-marking といえば is needed.",
-        "としたら means 'supposing it's ~,' a hypothesis, but the sentence asserts a point about the topic as fact, so といえば ('when it comes to') fits.",
-        "というなら means 'if you're saying ~,' a conditional reply, but the sentence raises the topic directly, so the topic-introducing といえば is required."
+        "「にあたって」は「〜の機会に際して」を表し、話題から連想する情景を述べるこの文には合わない。",
+        "「といっても」は逆接で、クリスマスから思い浮かぶ情景を述べるこの文意には合わない。",
+        "「をめぐって」は「〜を中心に争う・議論する」を表し、連想を述べるこの文には合わない。"
       ],
-      "hiragana_full": "いりょうといえば、しんらいがもっともじゅうようです。",
+      "hiragana_full": "くりすますといえば、まちがいるみねーしょんではなやかになるきせつだ。",
       "audio_alternatives": [
         {
-          "kanji": "医療に関しては、信頼が一番大切です。",
-          "hiragana_full": "いりょうにかんしては、しんらいがいちばんたいせつです。"
+          "kanji": "クリスマスと言うと、イルミネーションで彩られた街が浮かぶ。",
+          "hiragana_full": "くりすますというと、いるみねーしょんでいろどられたまちがうかぶ。"
         },
         {
-          "kanji": "医療において、信頼が最も大切だ。",
-          "hiragana_full": "いりょうにおいて、しんらいがもっともたいせつだ。"
+          "kanji": "年末の風物詩と言えば、華やかなクリスマスの飾りつけだ。",
+          "hiragana_full": "ねんまつのふうぶつしといえば、はなやかなくりすますのかざりつけだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "blank_target_reading": "といえば",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "華やか",
+          "reading": "はなやか",
+          "meaning": "gorgeous; showy"
+        }
+      ]
     },
     {
       "id": "n3_068_9",
-      "example_sentence": "サステナビリティといえば、環境問題が中心です。",
-      "translation": "When it comes to sustainability, environmental issues are central.",
-      "blank_target": "といえば",
+      "example_sentence": "日本の文豪と言えば、夏目漱石の名がまず挙がるだろう。",
+      "translation": "Speaking of Japan's great writers, the name Natsume Soseki comes up first.",
+      "blank_target": "と言えば",
       "wrong_choices": [
-        "というなら",
-        "としたら",
-        "といっても"
+        "ともなれば",
+        "といっても",
+        "にしては"
       ],
       "wrong_choice_explanations": [
-        "というなら means 'if you're saying ~,' adding a conditional, but the sentence presents the sustainability–environment link as a widely accepted fact, so the topic-marking といえば fits.",
-        "としたら means 'supposing it's ~,' a hypothesis, but the association is stated as established, so といえば ('speaking of') is needed.",
-        "といっても means 'even though one says ~,' a concession, but the sentence simply introduces sustainability and its central issue, so the topic-introducing といえば is required."
+        "「ともなれば」は「〜ともなると」と立場・段階を表し、文豪の代表を挙げるこの文には合わない。",
+        "「といっても」は逆接で、代表的な作家を挙げるこの文意には合わない。",
+        "「にしては」は「割には」で予想との差を表し、連想を述べるこの文には合わない。"
       ],
-      "hiragana_full": "サステナビリティといえば、かんきょうもんだいがちゅうしんです。",
+      "hiragana_full": "にほんのぶんごうといえば、なつめそうせきのながまずあがるだろう。",
       "audio_alternatives": [
         {
-          "kanji": "サステナビリティの話といえば、環境問題が主です。",
-          "hiragana_full": "サステナビリティのはなしといえば、かんきょうもんだいがおもです。"
+          "kanji": "日本を代表する文豪と言えば、まず夏目漱石だ。",
+          "hiragana_full": "にほんをだいひょうするぶんごうといえば、まずなつめそうせきだ。"
         },
         {
-          "kanji": "サステナビリティについては、環境問題が中心になります。",
-          "hiragana_full": "サステナビリティについては、かんきょうもんだいがちゅうしんになります。"
+          "kanji": "文豪と聞いて思い浮かぶのは、やはり夏目漱石だ。",
+          "hiragana_full": "ぶんごうときいておもいうかぶのは、やはりなつめそうせきだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "blank_target_reading": "といえば",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "文豪",
+          "reading": "ぶんごう",
+          "meaning": "great writer; literary master"
+        },
+        {
+          "word": "挙がる",
+          "reading": "あがる",
+          "meaning": "to come up; be raised"
+        }
+      ]
+    },
+    {
+      "id": "n3_068_10",
+      "example_sentence": "お祭りと言えば、来週の花火大会のチケットはもう買った？",
+      "translation": "Speaking of festivals, did you already buy tickets for next week's fireworks show?",
+      "blank_target": "と言えば",
+      "wrong_choices": [
+        "と言っても",
+        "のことだから",
+        "につけ"
+      ],
+      "wrong_choice_explanations": [
+        "「と言っても」は逆接で、話題に関連して思い出して尋ねるこの文には合わない。",
+        "「のことだから」は人の性格・事情から当然の結果を述べる表現で、話題から連想して尋ねるこの文には合わない。",
+        "「につけ」は「〜するたびに」と感情を導く表現で、「お祭りにつけ」とは言えず、この文には合わない。"
+      ],
+      "hiragana_full": "おまつりといえば、らいしゅうのはなびたいかいのちけっとはもうかった？",
+      "audio_alternatives": [
+        {
+          "kanji": "そう言えば、来週の花火大会のチケットはもう取った？",
+          "hiragana_full": "そういえば、らいしゅうのはなびたいかいのちけっとはもうとった？"
+        },
+        {
+          "kanji": "お祭りの話と言えば、花火大会のチケットの件はどうなった？",
+          "hiragana_full": "おまつりのはなしといえば、はなびたいかいのちけっとのけんはどうなった？"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "といえば",
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "花火大会",
+          "reading": "はなびたいかい",
+          "meaning": "fireworks festival"
+        }
+      ]
     }
   ]
 }

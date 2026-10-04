@@ -11,13 +11,13 @@
       "blank_target": "たとしても",
       "wrong_choices": [
         "たとしたら",
-        "たって",
-        "ても"
+        "た末に",
+        "たばかりに"
       ],
       "wrong_choice_explanations": [
         "たとしたら expresses a hypothetical condition 'if', but this sentence needs the stronger concessive meaning of としても that acknowledges the action while maintaining the conclusion remains unchanged.",
-        "たって is a casual form meaning 'even if' but lacks the formal nuance and specific concessive force that としても provides in this context about technical impossibility.",
-        "ても expresses simple contrast 'even if/though' but としても is needed here to emphasize that despite the exceptional quality of techniques, the conclusion about impossibility still stands."
+        "〜た末に means 'after finally doing using the best techniques, in the end...' and presents using the best techniques as a completed process that leads to the outcome; the sentence merely concedes using the best techniques ('even if using the best techniques') without narrating such a sequence, which is what としても does.",
+        "〜たばかりに means 'merely because using the best techniques,' blaming using the best techniques as the cause of an unwanted result; としても instead grants using the best techniques and denies it any bearing on the conclusion, not treating it as a cause."
       ],
       "hiragana_full": "さいこうのしゅうふくぎじゅつをもちいたとしても、かんぜんなふくげんはふかのうだ。",
       "audio_alternatives": [
@@ -30,77 +30,39 @@
           "hiragana_full": "どんなにすぐれたしゅうふくぎじゅつをもちいても、かんぜんなふくげんはふかのうだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "修復",
+          "reading": "しゅうふく",
+          "meaning": "restoration"
+        },
+        {
+          "word": "復元",
+          "reading": "ふくげん",
+          "meaning": "reconstruction"
+        },
+        {
+          "word": "用いる",
+          "reading": "もちいる",
+          "meaning": "to use/employ"
+        }
+      ]
     },
     {
       "id": "n2_055_2",
-      "example_sentence": "百歳まで生きたとしても、人生は短い。",
-      "translation": "Even if you live to be a hundred, life is short.",
-      "blank_target": "たとしても",
-      "wrong_choices": [
-        "たとしたら",
-        "たところで",
-        "ても"
-      ],
-      "wrong_choice_explanations": [
-        "たとしたら suggests a hypothetical 'if' scenario, but this sentence needs としても to express that even granting the extreme case of living to 100, the fundamental truth about life's brevity remains.",
-        "たところで means 'even if' with a nuance of futility, but this sentence requires としても to make a philosophical concession about longevity while maintaining the perspective on life's shortness.",
-        "ても shows simple contrast, but としても is needed to emphasize the concessive nature—acknowledging the long lifespan while the conclusion about life's brevity doesn't change."
-      ],
-      "hiragana_full": "ひゃくさいまでいきたとしても、じんせいはみじかい。",
-      "audio_alternatives": [
-        {
-          "kanji": "百歳まで生きたとしても、人生は短いものだ。",
-          "hiragana_full": "ひゃくさいまでいきたとしても、じんせいはみじかいものだ。"
-        },
-        {
-          "kanji": "百年生きても、人生は短い。",
-          "hiragana_full": "ひゃくねんいきても、じんせいはみじかい。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_055_3",
-      "example_sentence": "全力を尽くしたとしても、すべてが成功するとは限らない。",
-      "translation": "Even if you give your all, everything won't necessarily succeed.",
-      "blank_target": "たとしても",
-      "wrong_choices": [
-        "たって",
-        "たとしたら",
-        "たところで"
-      ],
-      "wrong_choice_explanations": [
-        "たって is a casual form meaning 'even if' but doesn't provide the formal concessive nuance that としても gives when acknowledging maximum effort while maintaining realistic expectations.",
-        "たとしたら expresses a hypothetical condition, but this sentence needs としても to concede the premise of giving maximum effort while the conclusion about uncertain outcomes remains firm.",
-        "たところで means 'even if' with a strong implication that the action is futile; としても is more neutral, simply granting the premise without prejudging the effort as useless."
-      ],
-      "hiragana_full": "ぜんりょくをつくしたとしても、すべてがせいこうするとはかぎらない。",
-      "audio_alternatives": [
-        {
-          "kanji": "全力を尽くしても、すべてが成功するとは限らない。",
-          "hiragana_full": "ぜんりょくをつくしても、すべてがせいこうするとはかぎらない。"
-        },
-        {
-          "kanji": "全力を尽くしたとしても、すべてがうまくいくとは限らない。",
-          "hiragana_full": "ぜんりょくをつくしたとしても、すべてがうまくいくとはかぎらない。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_055_4",
       "example_sentence": "最善を尽くしたとしても、予期しない障害が発生するかもしれない。",
       "translation": "Even if we do our best, unexpected obstacles may occur.",
       "blank_target": "たとしても",
       "wrong_choices": [
-        "ても",
-        "たって",
+        "たあげく",
+        "たがために",
         "たとしたら"
       ],
       "wrong_choice_explanations": [
-        "ても expresses simple contrast and just states that doing one's best won't prevent obstacles; としても adds the supposition layer 'even if we grant that we do our best', which is the framing this sentence wants.",
-        "たって is casual for 'even if' but lacks the formal concessive strength of としても needed when discussing professional situations involving best efforts and potential obstacles.",
+        "〜たあげく means 'after all the trouble of doing your best, it ended up...,' framing doing your best as a drawn-out process with a (usually bad) result; としても simply concedes doing your best without such a narrative of consequence.",
+        "〜たがために is a formal causal 'because doing your best'; it makes doing your best the reason for what follows, whereas としても grants doing your best yet treats it as no reason to change the conclusion.",
         "たとしたら presents a hypothetical condition, but this sentence requires としても to grant the premise of doing one's best while maintaining the realistic conclusion about unexpected obstacles."
       ],
       "hiragana_full": "さいぜんをつくしたとしても、よきしないしょうがいがはっせいするかもしれない。",
@@ -114,50 +76,40 @@
           "hiragana_full": "さいぜんをつくしても、おもいがけないしょうがいがはっせいするかもしれない。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_055_5",
-      "example_sentence": "最大限努力したとしても、確実な成果が得られるとは限らない。",
-      "translation": "Even with maximum effort, certain results are not guaranteed.",
-      "blank_target": "たとしても",
-      "wrong_choices": [
-        "たとしたら",
-        "たところで",
-        "ても"
-      ],
-      "wrong_choice_explanations": [
-        "たとしたら expresses a hypothetical 'if' condition, but this sentence needs としても to concede maximum effort as a given while the conclusion about uncertain results remains constant.",
-        "たところで means 'even if' but carries a strong nuance that the effort is wasted; としても is more neutral, granting the effort without pre-judging it as futile.",
-        "ても shows basic contrast and simply concedes the effort; としても adds the supposition layer 'even granting maximum effort', which is the framing this sentence calls for."
-      ],
-      "hiragana_full": "さいだいげんどりょくしたとしても、かくじつなせいかがえられるとはかぎらない。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "全力を尽くしても、確実な成果が得られるとは限らない。",
-          "hiragana_full": "ぜんりょくをつくしても、かくじつなせいかがえられるとはかぎらない。"
+          "word": "最善",
+          "reading": "さいぜん",
+          "meaning": "one's best"
         },
         {
-          "kanji": "最大限の努力をしても、必ず成果が得られるわけではない。",
-          "hiragana_full": "さいだいげんのどりょくをしても、かならずせいかがえられるわけではない。"
+          "word": "予期",
+          "reading": "よき",
+          "meaning": "anticipation"
+        },
+        {
+          "word": "障害",
+          "reading": "しょうがい",
+          "meaning": "obstacle"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n2_055_6",
+      "id": "n2_055_3",
       "example_sentence": "有名な大学を卒業したとしても、就職が保証されるわけではない。",
       "translation": "Even if you graduate from a famous university, employment is not guaranteed.",
       "blank_target": "したとしても",
       "wrong_choices": [
-        "したって",
+        "した末に",
         "したとしたら",
-        "しても"
+        "したばかりに"
       ],
       "wrong_choice_explanations": [
-        "したって is a casual form meaning 'even if' but doesn't provide the formal concessive nuance needed when discussing serious topics like university education and employment prospects.",
+        "〜た末に means 'after finally doing graduating, in the end...' and presents graduating as a completed process that leads to the outcome; the sentence merely concedes graduating ('even if graduating') without narrating such a sequence, which is what としても does.",
         "したとしたら presents a hypothetical scenario, but this sentence requires したとしても to acknowledge graduating from a prestigious university while maintaining the reality about employment uncertainty.",
-        "しても expresses simple contrast, but したとしても is needed to emphasize the concessive nature—granting the prestigious education while the conclusion about job security remains unchanged."
+        "〜たばかりに means 'merely because graduating,' blaming graduating as the cause of an unwanted result; としても instead grants graduating and denies it any bearing on the conclusion, not treating it as a cause."
       ],
       "hiragana_full": "ゆうめいなだいがくをそつぎょうしたとしても、しゅうしょくがほしょうされるわけではない。",
       "audio_alternatives": [
@@ -170,78 +122,40 @@
           "hiragana_full": "たとえゆうめいなだいがくをそつぎょうしたとしても、しゅうしょくがほしょうされるわけではない。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_055_7",
-      "example_sentence": "高価な薬を使ったとしても、病気が完全に治るとは限らない。",
-      "translation": "Even if expensive medicine is used, the illness won't necessarily be completely cured.",
-      "blank_target": "ったとしても",
-      "wrong_choices": [
-        "ったって",
-        "ったとしたら",
-        "っても"
-      ],
-      "wrong_choice_explanations": [
-        "ったって is casual for 'even if' but lacks the formal gravity needed when discussing medical treatments and their limitations in serious health contexts.",
-        "ったとしたら suggests a hypothetical condition, but this sentence needs ったとしても to concede using expensive medicine while the medical reality about cure uncertainty remains firm.",
-        "っても shows basic contrast, but ったとしても is required to formally acknowledge the expensive treatment as a concession while the conclusion about cure limitations doesn't change."
-      ],
-      "hiragana_full": "こうかなくすりをつかったとしても、びょうきがかんぜんになおるとはかぎらない。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "高価な薬を使っても、病気が完全に治るとは限らない。",
-          "hiragana_full": "こうかなくすりをつかっても、びょうきがかんぜんになおるとはかぎらない。"
+          "word": "卒業",
+          "reading": "そつぎょう",
+          "meaning": "graduation"
         },
         {
-          "kanji": "高価な薬を用いたとしても、病気が完全に治るとは限らない。",
-          "hiragana_full": "こうかなくすりをもちいたとしても、びょうきがかんぜんになおるとはかぎらない。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_055_8",
-      "example_sentence": "完璧な計画を立てたとしても、実行段階で問題が生じることがある。",
-      "translation": "Even if you make a perfect plan, problems can arise during implementation.",
-      "blank_target": "たとしても",
-      "wrong_choices": [
-        "たところで",
-        "たとしたら",
-        "ても"
-      ],
-      "wrong_choice_explanations": [
-        "たところで means 'even if' with futility nuance, but this sentence needs たとしても to acknowledge perfect planning as a concession while maintaining the reality about implementation challenges.",
-        "たとしたら expresses a hypothetical 'if' condition, but としても is required to concede the premise of perfect planning while the conclusion about potential problems remains unchanged.",
-        "ても shows simple contrast, but たとしても is needed to emphasize that even granting the ideal of perfect planning, the fundamental truth about implementation difficulties still holds."
-      ],
-      "hiragana_full": "かんぺきなけいかくをたてたとしても、じっこうだんかいでもんだいがしょうじることがある。",
-      "audio_alternatives": [
-        {
-          "kanji": "完璧な計画を立てても、実行段階で問題が起こることがある。",
-          "hiragana_full": "かんぺきなけいかくをたてても、じっこうだんかいでもんだいがおこることがある。"
+          "word": "就職",
+          "reading": "しゅうしょく",
+          "meaning": "getting a job"
         },
         {
-          "kanji": "どんなに完璧な計画を立てても、実行の段階で問題が生じることがある。",
-          "hiragana_full": "どんなにかんぺきなけいかくをたてても、じっこうのだんかいでもんだいがしょうじることがある。"
+          "word": "保証",
+          "reading": "ほしょう",
+          "meaning": "guarantee"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n2_055_9",
+      "id": "n2_055_4",
       "example_sentence": "世界中を旅したとしても、故郷の良さは忘れられない。",
       "translation": "Even if you travel around the world, you can't forget the goodness of your hometown.",
       "blank_target": "したとしても",
       "wrong_choices": [
-        "したって",
+        "した末に",
         "したとしたら",
-        "しても"
+        "したがために"
       ],
       "wrong_choice_explanations": [
-        "したって is casual for 'even if' but doesn't capture the emotional and reflective nuance that したとしても provides when discussing personal experiences and homeland attachment.",
+        "〜た末に means 'after finally doing traveling the world, in the end...' and presents traveling the world as a completed process that leads to the outcome; the sentence merely concedes traveling the world ('even if traveling the world') without narrating such a sequence, which is what としても does.",
         "したとしたら presents a hypothetical scenario, but this sentence requires したとしても to acknowledge extensive travel as a concession while the emotional truth about hometown attachment remains constant.",
-        "しても expresses basic contrast, but したとしても is needed to emphasize the concessive nature—granting world travel experiences while the deep connection to one's hometown doesn't change."
+        "〜たがために is a formal causal 'because traveling the world'; it makes traveling the world the reason for what follows, whereas としても grants traveling the world yet treats it as no reason to change the conclusion."
       ],
       "hiragana_full": "せかいじゅうをたびしたとしても、こきょうのよさはわすれられない。",
       "audio_alternatives": [
@@ -254,35 +168,215 @@
           "hiragana_full": "せかいじゅうをたびしても、こきょうのよさはわすれられない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "故郷",
+          "reading": "こきょう",
+          "meaning": "hometown"
+        }
+      ]
+    },
+    {
+      "id": "n2_055_5",
+      "example_sentence": "お金があったとしても、それは買わない。",
+      "translation": "Even if I had the money, I would not buy that.",
+      "blank_target": "たとしても",
+      "wrong_choices": [
+        "たら",
+        "たとしたら",
+        "たから"
+      ],
+      "wrong_choice_explanations": [
+        "「〜たら」 is a conditional ('if/when ...'), so it sets up a real condition rather than the 'even if' concession that 〜としても expresses.",
+        "「〜たとしたら」 is hypothetical 'supposing that ...,' leading to what would follow, whereas 〜としても grants the supposition yet the result is unchanged.",
+        "たから makes having money an actual cause ('because I had money'); たとしても concedes it hypothetically ('even if I had money')."
+      ],
+      "hiragana_full": "おかねがあったとしても、それはかわない。",
+      "audio_alternatives": [
+        {
+          "kanji": "お金があるとしても、それは買わない。",
+          "hiragana_full": "おかねがあるとしても、それはかわない。"
+        },
+        {
+          "kanji": "お金があったとしても、それを買うことはしない。",
+          "hiragana_full": "おかねがあったとしても、それをかうことはしない。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral"
+    },
+    {
+      "id": "n2_055_6",
+      "example_sentence": "彼が謝ったとしても、許さない。",
+      "translation": "Even if he apologized, I would not forgive him.",
+      "blank_target": "たとしても",
+      "wrong_choices": [
+        "たとしたら",
+        "たなら",
+        "たから"
+      ],
+      "wrong_choice_explanations": [
+        "「〜たとしたら」 is hypothetical 'if/supposing,' pointing to a consequence, whereas 〜としても grants the supposition while denying it changes anything.",
+        "「〜たなら」 is conditional ('if it were that ...'), expecting a result to follow, not the 'even if' concession of 〜としても.",
+        "たから treats his apology as fact and cause ('because he apologized'); たとしても concedes it hypothetically ('even if he apologized')."
+      ],
+      "hiragana_full": "かれがあやまったとしても、ゆるさない。",
+      "audio_alternatives": [
+        {
+          "kanji": "彼が謝っても、許さない。",
+          "hiragana_full": "かれがあやまっても、ゆるさない。"
+        },
+        {
+          "kanji": "たとえ彼が謝ったとしても、許すつもりはない。",
+          "hiragana_full": "たとえかれがあやまったとしても、ゆるすつもりはない。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "謝った",
+          "reading": "あやまった",
+          "meaning": "apologized"
+        },
+        {
+          "word": "許さない",
+          "reading": "ゆるさない",
+          "meaning": "to not forgive"
+        }
+      ]
+    },
+    {
+      "id": "n2_055_7",
+      "example_sentence": "説得されたとしても、考えは変わらない。",
+      "translation": "Even if convinced, my opinion would not change.",
+      "blank_target": "たとしても",
+      "wrong_choices": [
+        "たなら",
+        "たとしたら",
+        "たので"
+      ],
+      "wrong_choice_explanations": [
+        "「〜たなら」 is conditional ('if it were that ...'), expecting a result, not the concessive 'even if' of 〜としても.",
+        "「〜たとしたら」 is hypothetical 'supposing that,' pointing to a consequence, whereas 〜としても concedes the supposition while the result holds.",
+        "たので makes being persuaded a real cause ('because I was persuaded'); たとしても concedes it ('even if persuaded')."
+      ],
+      "hiragana_full": "せっとくされたとしても、かんがえはかわらない。",
+      "audio_alternatives": [
+        {
+          "kanji": "説得されても、考えは変わらない。",
+          "hiragana_full": "せっとくされても、かんがえはかわらない。"
+        },
+        {
+          "kanji": "たとえ説得されたとしても、意見は変わらない。",
+          "hiragana_full": "たとえせっとくされたとしても、いけんはかわらない。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "説得",
+          "reading": "せっとく",
+          "meaning": "persuasion"
+        }
+      ]
+    },
+    {
+      "id": "n2_055_8",
+      "example_sentence": "失敗したとしても、諦めるつもりはない。",
+      "translation": "Even if I fail, I don't intend to give up.",
+      "blank_target": "したとしても",
+      "wrong_choices": [
+        "すれば",
+        "したら",
+        "したから"
+      ],
+      "wrong_choice_explanations": [
+        "「〜すれば」 is a plain conditional ('if I ...'), pointing to what follows, whereas 〜としても concedes it happens yet the resolve is unchanged.",
+        "「〜したら」 is conditional ('if/when I ...'), setting up a condition rather than the 'even if' concession of 〜としても.",
+        "したから makes failing a real cause ('because I failed'); したとしても concedes it ('even if I fail')."
+      ],
+      "hiragana_full": "しっぱいしたとしても、あきらめるつもりはない。",
+      "audio_alternatives": [
+        {
+          "kanji": "失敗しても、諦めるつもりはない。",
+          "hiragana_full": "しっぱいしても、あきらめるつもりはない。"
+        },
+        {
+          "kanji": "たとえ失敗したとしても、諦める気はない。",
+          "hiragana_full": "たとえしっぱいしたとしても、あきらめるきはない。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "諦める",
+          "reading": "あきらめる",
+          "meaning": "to give up"
+        }
+      ]
+    },
+    {
+      "id": "n2_055_9",
+      "example_sentence": "病気になったとしても、仕事を続ける。",
+      "translation": "Even if I get sick, I will continue working.",
+      "blank_target": "たとしても",
+      "wrong_choices": [
+        "たとき",
+        "たら",
+        "たとしたら"
+      ],
+      "wrong_choice_explanations": [
+        "たとき means 'when I got sick', a temporal frame, not the concession 'even if I got sick' that たとしても expresses.",
+        "「〜たら」 is conditional ('if/when I get sick'), not the concessive 'even if' of 〜としても.",
+        "「〜たとしたら」 is hypothetical 'supposing that,' leading to a consequence, whereas 〜としても grants it while the determination holds."
+      ],
+      "hiragana_full": "びょうきになったとしても、しごとをつづける。",
+      "audio_alternatives": [
+        {
+          "kanji": "病気になっても、仕事を続ける。",
+          "hiragana_full": "びょうきになっても、しごとをつづける。"
+        },
+        {
+          "kanji": "たとえ病気になっても、仕事を続けるつもりだ。",
+          "hiragana_full": "たとえびょうきになっても、しごとをつづけるつもりだ。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n2_055_10",
-      "example_sentence": "何度説明したとしても、彼には理解してもらえないだろう。",
-      "translation": "Even if I explain many times, he probably won't understand.",
-      "blank_target": "したとしても",
+      "example_sentence": "値段が下がったとしても、今は買えない。",
+      "translation": "Even if the price drops, I can't buy it now.",
+      "blank_target": "たとしても",
       "wrong_choices": [
-        "したって",
-        "したところで",
-        "しても"
+        "たなら",
+        "たとしたら",
+        "たので"
       ],
       "wrong_choice_explanations": [
-        "したって is casual for 'even if' but doesn't provide the formal resignation that したとしても expresses when acknowledging repeated efforts while accepting likely failure.",
-        "したところで means 'even if' with futility, but this sentence needs したとしても to make a concession about explaining repeatedly while maintaining the conclusion about his lack of understanding.",
-        "しても shows simple contrast, but したとしても is required to emphasize that even granting multiple explanation attempts, the fundamental assessment of his comprehension ability remains unchanged."
+        "「〜たなら」 is conditional ('if it were that the price dropped'), expecting a result, not the 'even if' concession of 〜としても.",
+        "「〜たとしたら」 is hypothetical 'supposing that,' pointing to a consequence, whereas 〜としても concedes it yet nothing changes.",
+        "たので makes the price drop a real cause ('because the price dropped'); たとしても concedes it ('even if the price dropped')."
       ],
-      "hiragana_full": "なんどせつめいしたとしても、かれにはりかいしてもらえないだろう。",
+      "hiragana_full": "ねだんがさがったとしても、いまはかえない。",
       "audio_alternatives": [
         {
-          "kanji": "何度説明しても、彼には理解してもらえないだろう。",
-          "hiragana_full": "なんどせつめいしても、かれにはりかいしてもらえないだろう。"
+          "kanji": "値段が下がっても、今は買えない。",
+          "hiragana_full": "ねだんがさがっても、いまはかえない。"
         },
         {
-          "kanji": "いくら説明したとしても、彼には理解してもらえないだろう。",
-          "hiragana_full": "いくらせつめいしたとしても、かれにはりかいしてもらえないだろう。"
+          "kanji": "価格が下がったとしても、今は購入できない。",
+          "hiragana_full": "かかくがさがったとしても、いまはこうにゅうできない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     }
   ]
 }

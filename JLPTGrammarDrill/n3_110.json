@@ -31,7 +31,8 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "きけばいい"
+      "blank_target_reading": "きけばいい",
+      "register": "neutral"
     },
     {
       "id": "n3_110_2",
@@ -60,7 +61,8 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "かえばいい"
+      "blank_target_reading": "かえばいい",
+      "register": "neutral"
     },
     {
       "id": "n3_110_3",
@@ -89,7 +91,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "もどればいい"
+      "blank_target_reading": "もどればいい",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "迷ったら",
+          "reading": "まよったら",
+          "meaning": "if (one) gets lost"
+        }
+      ]
     },
     {
       "id": "n3_110_4",
@@ -118,7 +128,8 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ねればいい"
+      "blank_target_reading": "ねればいい",
+      "register": "neutral"
     },
     {
       "id": "n3_110_5",
@@ -147,7 +158,8 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "いえばいい"
+      "blank_target_reading": "いえばいい",
+      "register": "neutral"
     },
     {
       "id": "n3_110_6",
@@ -176,7 +188,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "たせばいい"
+      "blank_target_reading": "たせばいい",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "薄ければ",
+          "reading": "うすければ",
+          "meaning": "if (the flavor) is weak/thin"
+        },
+        {
+          "word": "塩",
+          "reading": "しお",
+          "meaning": "salt"
+        }
+      ]
     },
     {
       "id": "n3_110_7",
@@ -205,7 +230,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "よめばいい"
+      "blank_target_reading": "よめばいい",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "説明書",
+          "reading": "せつめいしょ",
+          "meaning": "instruction manual"
+        }
+      ]
     },
     {
       "id": "n3_110_8",
@@ -234,7 +267,8 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "のればいい"
+      "blank_target_reading": "のればいい",
+      "register": "neutral"
     },
     {
       "id": "n3_110_9",
@@ -263,7 +297,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "さんかすればいい"
+      "blank_target_reading": "さんかすればいい",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "興味",
+          "reading": "きょうみ",
+          "meaning": "interest"
+        },
+        {
+          "word": "参加",
+          "reading": "さんか",
+          "meaning": "participation"
+        }
+      ]
     },
     {
       "id": "n3_110_10",
@@ -292,7 +339,8 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "あければいい"
+      "blank_target_reading": "あければいい",
+      "register": "neutral"
     }
   ]
 }

@@ -11,12 +11,12 @@
       "blank_target": "きらいがある",
       "wrong_choices": [
         "ところがある",
-        "傾向がある",
+        "わけがない",
         "面がある"
       ],
       "wrong_choice_explanations": [
         "ところがある expresses general characteristics but lacks the negative nuance that きらいがある specifically conveys about undesirable tendencies.",
-        "傾向がある is neutral and doesn't carry the critical or negative implication that きらいがある specifically expresses.",
+        "「複雑すぎるわけがない」 means 'there is no way it is too complicated' — a flat denial. きらいがある asserts a tendency the writer criticizes, so わけがない reverses the point.",
         "面がある simply refers to having an aspect or side, without the negative tendency meaning required here."
       ],
       "hiragana_full": "かれのせつめいには、ふくざつすぎるきらいがある。",
@@ -30,7 +30,8 @@
           "hiragana_full": "かれのせつめいはどうもふくざつすぎるきらいがある。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n1_086_2",
@@ -58,7 +59,15 @@
           "hiragana_full": "このちいきのかいはつけいかくには、かんきょうをないがしろにするきらいがある。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "軽視",
+          "reading": "けいし",
+          "meaning": "disregard; making light of"
+        }
+      ]
     },
     {
       "id": "n1_086_3",
@@ -86,7 +95,20 @@
           "hiragana_full": "そのかいしゃのえいぎょうほうしんは、たんきてきなりえきをゆうせんしがちだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "方針",
+          "reading": "ほうしん",
+          "meaning": "policy"
+        },
+        {
+          "word": "重視",
+          "reading": "じゅうし",
+          "meaning": "emphasis; regard"
+        }
+      ]
     },
     {
       "id": "n1_086_4",
@@ -114,7 +136,20 @@
           "hiragana_full": "そのせいさくには、げんじつからかいりしているきらいがある。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "政策",
+          "reading": "せいさく",
+          "meaning": "policy"
+        },
+        {
+          "word": "現実離れ",
+          "reading": "げんじつばなれ",
+          "meaning": "being out of touch with reality"
+        }
+      ]
     },
     {
       "id": "n1_086_5",
@@ -142,7 +177,25 @@
           "hiragana_full": "そのがくしゃのりろんはちゅうしょうてきすぎるきらいがある。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "学者",
+          "reading": "がくしゃ",
+          "meaning": "scholar"
+        },
+        {
+          "word": "理論",
+          "reading": "りろん",
+          "meaning": "theory"
+        },
+        {
+          "word": "抽象的",
+          "reading": "ちゅうしょうてき",
+          "meaning": "abstract"
+        }
+      ]
     },
     {
       "id": "n1_086_6",
@@ -150,12 +203,12 @@
       "translation": "That country's foreign policy has a tendency toward disregarding reality.",
       "blank_target": "きらいがある",
       "wrong_choices": [
-        "傾向がある",
+        "疑いがある",
         "感がある",
         "風潮がある"
       ],
       "wrong_choice_explanations": [
-        "傾向がある expresses a neutral statistical tendency, while きらいがある adds the critical undertone that flags this pattern of behavior as undesirable.",
+        "「現実軽視の疑いがある」 means 'there is a suspicion of disregarding reality' — an unproven allegation. きらいがある states an observed, habitual tendency, not a suspicion.",
         "感がある conveys a subjective 'feeling like' impression, whereas きらいがある is a more evaluative judgment about an observed pattern rather than a felt impression.",
         "風潮がある refers to a broader social trend or atmosphere, while きらいがある locates the negative tendency inside a specific subject — here, the country's foreign policy itself."
       ],
@@ -170,7 +223,20 @@
           "hiragana_full": "そのくにのがいこうせいさくには、げんじつをむししがちなけいこうがみられる。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "外交",
+          "reading": "がいこう",
+          "meaning": "diplomacy"
+        },
+        {
+          "word": "軽視",
+          "reading": "けいし",
+          "meaning": "disregard"
+        }
+      ]
     },
     {
       "id": "n1_086_7",
@@ -198,7 +264,15 @@
           "hiragana_full": "そのかいしゃのかんきょうほうこくには、らっかんしのきらいがある。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "楽観視",
+          "reading": "らっかんし",
+          "meaning": "optimistic view"
+        }
+      ]
     },
     {
       "id": "n1_086_8",
@@ -226,7 +300,25 @@
           "hiragana_full": "そのちょしゃのぎろんには、ろんりてきなひやくがおおいきらいがある。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "著者",
+          "reading": "ちょしゃ",
+          "meaning": "author"
+        },
+        {
+          "word": "議論",
+          "reading": "ぎろん",
+          "meaning": "argument"
+        },
+        {
+          "word": "飛躍",
+          "reading": "ひやく",
+          "meaning": "leap (in logic)"
+        }
+      ]
     },
     {
       "id": "n1_086_9",
@@ -254,7 +346,20 @@
           "hiragana_full": "そのけいえいたいしつには、へんかへのたいおうができないかたむきがある。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "体質",
+          "reading": "たいしつ",
+          "meaning": "constitution; makeup"
+        },
+        {
+          "word": "対応",
+          "reading": "たいおう",
+          "meaning": "response; adaptation"
+        }
+      ]
     },
     {
       "id": "n1_086_10",
@@ -282,7 +387,25 @@
           "hiragana_full": "そのけんきゅうしゅほうでは、データかいしゃくがしゅかんてきになるけいこうがある。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "手法",
+          "reading": "しゅほう",
+          "meaning": "method; technique"
+        },
+        {
+          "word": "解釈",
+          "reading": "かいしゃく",
+          "meaning": "interpretation"
+        },
+        {
+          "word": "主観的",
+          "reading": "しゅかんてき",
+          "meaning": "subjective"
+        }
+      ]
     }
   ]
 }

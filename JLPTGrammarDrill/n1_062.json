@@ -10,12 +10,12 @@
       "translation": "Since it's already late, let's call it a day here.",
       "blank_target": "ことだし",
       "wrong_choices": [
-        "ので",
+        "のに",
         "から",
         "ため"
       ],
       "wrong_choice_explanations": [
-        "ので is more formal and doesn't convey the casual, conversational tone that ことだし expresses.",
+        "のに marks concession ('even though it's late'), pitting the clause against the conclusion; ことだし instead offers the late hour as a casual reason for stopping, not a fact the conclusion runs counter to.",
         "から is direct causation but lacks the nuanced, somewhat casual reasoning that ことだし provides.",
         "ため indicates purpose or formal reason, not the casual, explanatory reasoning expressed by ことだし."
       ],
@@ -30,7 +30,8 @@
           "hiragana_full": "もうこんなじかんだし、きょうはここできりあげよう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n1_062_2",
@@ -58,7 +59,15 @@
           "hiragana_full": "あしたがしゅくじつなので、こんやはすこしよふかししてもだいじょうぶだろう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "祝日",
+          "reading": "しゅくじつ",
+          "meaning": "national holiday"
+        }
+      ]
     },
     {
       "id": "n1_062_3",
@@ -86,7 +95,20 @@
           "hiragana_full": "かれはけいけんほうふだから、このしごとをまかせてもかまわない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "豊富",
+          "reading": "ほうふ",
+          "meaning": "abundant; plentiful"
+        },
+        {
+          "word": "任せても",
+          "reading": "まかせても",
+          "meaning": "even if (one) entrusts"
+        }
+      ]
     },
     {
       "id": "n1_062_4",
@@ -114,7 +136,20 @@
           "hiragana_full": "あめもふっているから、きょうのがいしゅつはやめておこう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "外出",
+          "reading": "がいしゅつ",
+          "meaning": "going out"
+        },
+        {
+          "word": "控えよう",
+          "reading": "ひかえよう",
+          "meaning": "let's refrain from"
+        }
+      ]
     },
     {
       "id": "n1_062_5",
@@ -142,7 +177,15 @@
           "hiragana_full": "おかねもないので、こんかいのりょこうをあきらめることにした。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "諦める",
+          "reading": "あきらめる",
+          "meaning": "to give up"
+        }
+      ]
     },
     {
       "id": "n1_062_6",
@@ -170,7 +213,25 @@
           "hiragana_full": "こっかあんぜんほしょうがからんでいるいじょう、さいだいげんのぼうえいたいせいをととのえなければならない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "国家",
+          "reading": "こっか",
+          "meaning": "state; nation"
+        },
+        {
+          "word": "防御",
+          "reading": "ぼうぎょ",
+          "meaning": "defense"
+        },
+        {
+          "word": "体制",
+          "reading": "たいせい",
+          "meaning": "system; structure"
+        }
+      ]
     },
     {
       "id": "n1_062_7",
@@ -198,7 +259,20 @@
           "hiragana_full": "こうはいもごうりゅうするから、にじかいのみせはもっとひろいところをよやくしなおそう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "合流",
+          "reading": "ごうりゅう",
+          "meaning": "joining up; merging"
+        },
+        {
+          "word": "二次会",
+          "reading": "にじかい",
+          "meaning": "after-party"
+        }
+      ]
     },
     {
       "id": "n1_062_8",
@@ -226,7 +300,20 @@
           "hiragana_full": "そろそろつゆあけだから、ベランダをそうじしておこうかな。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "梅雨",
+          "reading": "つゆ",
+          "meaning": "rainy season"
+        },
+        {
+          "word": "明ける",
+          "reading": "あける",
+          "meaning": "(season) to end; to break"
+        }
+      ]
     },
     {
       "id": "n1_062_9",
@@ -254,7 +341,8 @@
           "hiragana_full": "せっかくたなかさんがじょうきょうするから、みんなでのみにいこう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n1_062_10",
@@ -282,7 +370,8 @@
           "hiragana_full": "ボーナスがはいったし、ひさしぶりにかぞくでおんせんりょこうにいこう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     }
   ]
 }

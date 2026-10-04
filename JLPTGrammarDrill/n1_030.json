@@ -30,7 +30,25 @@
           "hiragana_full": "しゅういのけねんをよそに、かれはきけんなとざんをだんこうした。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "周囲",
+          "reading": "しゅうい",
+          "meaning": "those around/surroundings"
+        },
+        {
+          "word": "登山",
+          "reading": "とざん",
+          "meaning": "mountain climbing"
+        },
+        {
+          "word": "決行",
+          "reading": "けっこう",
+          "meaning": "carrying out (despite)"
+        }
+      ]
     },
     {
       "id": "n1_030_2",
@@ -58,7 +76,25 @@
           "hiragana_full": "いしのあどばいすをよそに、かんじゃはちりょうをうけいれることをきょひしつづけた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "忠告",
+          "reading": "ちゅうこく",
+          "meaning": "advice/warning"
+        },
+        {
+          "word": "患者",
+          "reading": "かんじゃ",
+          "meaning": "patient"
+        },
+        {
+          "word": "拒否",
+          "reading": "きょひ",
+          "meaning": "refusal"
+        }
+      ]
     },
     {
       "id": "n1_030_3",
@@ -86,7 +122,20 @@
           "hiragana_full": "おやのはんたいにもかかわらず、かのじょはげいじゅつのみちをあゆんだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "反対",
+          "reading": "はんたい",
+          "meaning": "opposition"
+        },
+        {
+          "word": "芸術",
+          "reading": "げいじゅつ",
+          "meaning": "art"
+        }
+      ]
     },
     {
       "id": "n1_030_4",
@@ -114,7 +163,25 @@
           "hiragana_full": "せいふはよろんのひはんをよそに、ほうあんをきょうこうさいけつした。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "世論",
+          "reading": "よろん",
+          "meaning": "public opinion"
+        },
+        {
+          "word": "法案",
+          "reading": "ほうあん",
+          "meaning": "bill (legislation)"
+        },
+        {
+          "word": "強行採決",
+          "reading": "きょうこうさいけつ",
+          "meaning": "forced/railroaded vote"
+        }
+      ]
     },
     {
       "id": "n1_030_5",
@@ -142,7 +209,25 @@
           "hiragana_full": "けいざいがあっかしているにもかかわらず、ふゆうそうはぜいたくなくらしをつづけている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "悪化",
+          "reading": "あっか",
+          "meaning": "worsening"
+        },
+        {
+          "word": "富裕層",
+          "reading": "ふゆうそう",
+          "meaning": "the wealthy/affluent class"
+        },
+        {
+          "word": "贅沢",
+          "reading": "ぜいたく",
+          "meaning": "luxurious"
+        }
+      ]
     },
     {
       "id": "n1_030_6",
@@ -170,7 +255,25 @@
           "hiragana_full": "こくさいしゃかいのけねんにもかかわらず、そのせいけんはきょうこうなせいさくをすすめている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "懸念",
+          "reading": "けねん",
+          "meaning": "concern/apprehension"
+        },
+        {
+          "word": "政権",
+          "reading": "せいけん",
+          "meaning": "government/administration"
+        },
+        {
+          "word": "強硬",
+          "reading": "きょうこう",
+          "meaning": "hardline/uncompromising"
+        }
+      ]
     },
     {
       "id": "n1_030_7",
@@ -198,38 +301,28 @@
           "hiragana_full": "こくさいてきなかんきょうきせいをものともせず、いちぶのくにはさんぎょうはってんをゆうせんしている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "規制",
+          "reading": "きせい",
+          "meaning": "regulation"
+        },
+        {
+          "word": "産業",
+          "reading": "さんぎょう",
+          "meaning": "industry"
+        },
+        {
+          "word": "優先",
+          "reading": "ゆうせん",
+          "meaning": "priority"
+        }
+      ]
     },
     {
       "id": "n1_030_8",
-      "example_sentence": "学術的厳密性をよそに、その論文は感情的な主張に終始していた。",
-      "translation": "Ignoring academic rigor, that paper was filled with emotional arguments from start to finish.",
-      "blank_target": "をよそに",
-      "wrong_choices": [
-        "に基づいて",
-        "を踏まえて",
-        "をもとに"
-      ],
-      "wrong_choice_explanations": [
-        "に基づいて means 'based on'; をよそに is the opposite — the paper disregarded academic rigor and was full of emotional argument.",
-        "を踏まえて means 'taking ... into account'; をよそに means the paper paid no heed to rigor rather than building on it.",
-        "をもとに means 'on the basis of'; をよそに means the paper ignored rigor, not that it was grounded in it."
-      ],
-      "hiragana_full": "がくじゅつてきげんみつせいをよそに、そのろんぶんはかんじょうてきなしゅちょうにしゅうしていた。",
-      "audio_alternatives": [
-        {
-          "kanji": "学術的な厳密性を無視して、その論文は感情的な主張一色だった。",
-          "hiragana_full": "がくじゅつてきなげんみつせいをむしして、そのろんぶんはかんじょうてきなしゅちょういっしょくだった。"
-        },
-        {
-          "kanji": "学術的厳密性をないがしろにして、その論文は終始感情的な主張に満ちていた。",
-          "hiragana_full": "がくじゅつてきげんみつせいをないがしろにして、そのろんぶんはしゅうしかんじょうてきなしゅちょうにみちていた。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n1_030_9",
       "example_sentence": "法的な制約をよそに、企業は独自の判断で事業を展開した。",
       "translation": "Ignoring legal constraints, the company expanded its business based on its own judgment.",
       "blank_target": "をよそに",
@@ -254,10 +347,28 @@
           "hiragana_full": "ほうてきせいやくをよそに、そのきぎょうはどくだんでじぎょうをかくだいした。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "制約",
+          "reading": "せいやく",
+          "meaning": "constraint/restriction"
+        },
+        {
+          "word": "独自",
+          "reading": "どくじ",
+          "meaning": "one's own/independent"
+        },
+        {
+          "word": "事業",
+          "reading": "じぎょう",
+          "meaning": "business/enterprise"
+        }
+      ]
     },
     {
-      "id": "n1_030_10",
+      "id": "n1_030_9",
       "example_sentence": "国民の不安をよそに、政府は計画を強行した。",
       "translation": "Ignoring the public's anxiety, the government forced the plan through.",
       "blank_target": "をよそに",
@@ -282,7 +393,66 @@
           "hiragana_full": "こくみんのけねんをよそに、せいふはけいかくをおしとおした。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "国民",
+          "reading": "こくみん",
+          "meaning": "the people/nation"
+        },
+        {
+          "word": "政府",
+          "reading": "せいふ",
+          "meaning": "government"
+        },
+        {
+          "word": "強行",
+          "reading": "きょうこう",
+          "meaning": "forcing through"
+        }
+      ]
+    },
+    {
+      "id": "n1_030_10",
+      "example_sentence": "家族の反対をよそに、彼は独立することを決めた。",
+      "translation": "Ignoring his family's opposition, he decided to become independent.",
+      "blank_target": "をよそに",
+      "wrong_choices": [
+        "に応じて",
+        "に従って",
+        "をめぐって"
+      ],
+      "wrong_choice_explanations": [
+        "に応じて means 'in response to / in accordance with' and would say he shaped his decision to match the family's opposition — をよそに says the opposite, that he set their opposition aside and proceeded on his own.",
+        "に従って means 'following / in accordance with'; deciding to go independent 'in accordance with' the family's opposition is contradictory, whereas をよそに says he disregarded it.",
+        "をめぐって means 'concerning / over (a matter of dispute),' making the family's opposition the topic being discussed. をよそに instead says he set that opposition aside and went ahead with his own decision."
+      ],
+      "hiragana_full": "かぞくのはんたいをよそに、かれはどくりつすることをきめた。",
+      "audio_alternatives": [
+        {
+          "kanji": "家族の反対を無視して、彼は独立することを決めた。",
+          "hiragana_full": "かぞくのはんたいをむしして、かれはどくりつすることをきめた。"
+        },
+        {
+          "kanji": "家族の反対にもかかわらず、彼は独立する決断をした。",
+          "hiragana_full": "かぞくのはんたいにもかかわらず、かれはどくりつするけつだんをした。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "反対",
+          "reading": "はんたい",
+          "meaning": "opposition"
+        },
+        {
+          "word": "独立",
+          "reading": "どくりつ",
+          "meaning": "independence"
+        }
+      ]
     }
   ]
 }

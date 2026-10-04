@@ -30,7 +30,20 @@
           "hiragana_full": "かれのいかりのりゆうをりかいするのはむずかしくない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "怒り",
+          "reading": "いかり",
+          "meaning": "anger"
+        },
+        {
+          "word": "理解",
+          "reading": "りかい",
+          "meaning": "understanding"
+        }
+      ]
     },
     {
       "id": "n1_031_2",
@@ -58,7 +71,20 @@
           "hiragana_full": "このじこのげんいんはよういにすいそくできる。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "原因",
+          "reading": "げんいん",
+          "meaning": "cause"
+        },
+        {
+          "word": "推測",
+          "reading": "すいそく",
+          "meaning": "conjecture/guess"
+        }
+      ]
     },
     {
       "id": "n1_031_3",
@@ -86,38 +112,23 @@
           "hiragana_full": "かのじょがせいこうすることはよういによそうできる。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "成功",
+          "reading": "せいこう",
+          "meaning": "success"
+        },
+        {
+          "word": "予想",
+          "reading": "よそう",
+          "meaning": "prediction/expectation"
+        }
+      ]
     },
     {
       "id": "n1_031_4",
-      "example_sentence": "この結果は想像にかたくない。",
-      "translation": "This result is not hard to imagine.",
-      "blank_target": "にかたくない",
-      "wrong_choices": [
-        "において",
-        "にすぎない",
-        "に値する"
-      ],
-      "wrong_choice_explanations": [
-        "において means 'in' or 'at' (location/situation) and doesn't express ease of imagination.",
-        "にすぎない means 'nothing more than' or 'merely' which changes the meaning to limitation rather than ease.",
-        "〜に値する means 'is worth (doing)' (注目に値する); 想像に値する would say the result is worth imagining, not that it is easy to imagine, so it misses the 'not hard to' meaning."
-      ],
-      "hiragana_full": "このけっかはそうぞうにかたくない。",
-      "audio_alternatives": [
-        {
-          "kanji": "この結果は想像するのは難しくない。",
-          "hiragana_full": "このけっかはそうぞうするのはむずかしくない。"
-        },
-        {
-          "kanji": "この結果は容易に想像できる。",
-          "hiragana_full": "このけっかはよういにそうぞうできる。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n1_031_5",
       "example_sentence": "彼の失敗の理由は察するにかたくない。",
       "translation": "It is not hard to guess the reason for his failure.",
       "blank_target": "にかたくない",
@@ -142,10 +153,23 @@
           "hiragana_full": "かれのしっぱいのげんいんをさっするのはむずかしくない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "失敗",
+          "reading": "しっぱい",
+          "meaning": "failure"
+        },
+        {
+          "word": "察する",
+          "reading": "さっする",
+          "meaning": "to guess/surmise"
+        }
+      ]
     },
     {
-      "id": "n1_031_6",
+      "id": "n1_031_5",
       "example_sentence": "このままでは経済的危機が訪れることは想像にかたくない。",
       "translation": "It is not difficult to imagine that an economic crisis will come at this rate.",
       "blank_target": "にかたくない",
@@ -170,119 +194,260 @@
           "hiragana_full": "このままではけいざいききがおとずれるとそうぞうするのはむずかしくない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "危機",
+          "reading": "きき",
+          "meaning": "crisis"
+        },
+        {
+          "word": "訪れる",
+          "reading": "おとずれる",
+          "meaning": "to come/arrive"
+        },
+        {
+          "word": "想像",
+          "reading": "そうぞう",
+          "meaning": "imagination"
+        }
+      ]
+    },
+    {
+      "id": "n1_031_6",
+      "example_sentence": "不合格を知った彼の落胆は、想像に難くない。",
+      "translation": "It's easy to imagine his disappointment on learning he had failed.",
+      "blank_target": "に難くない",
+      "wrong_choices": [
+        "に難い",
+        "を禁じ得ない",
+        "に足りない"
+      ],
+      "wrong_choice_explanations": [
+        "「に難い」は「〜しにくい」意で、「想像に難い」だと想像しにくいとなり、容易に想像できるという文意と正反対になる。",
+        "「を禁じ得ない」は「〜せずにはいられない」意で、「想像を禁じ得ない」だと想像せざるを得ないという衝動を表し、容易さを述べる文意と異なる。",
+        "「に足りない」は「〜する価値がない」意で、「想像に足りない」だと想像する価値がないとなり、たやすく想像できるという意味とは異なる。"
+      ],
+      "hiragana_full": "ふごうかくをしったかれのらくたんは、そうぞうにかたくない。",
+      "audio_alternatives": [
+        {
+          "kanji": "彼がどれほど落胆したかは、想像に難くない。",
+          "hiragana_full": "かれがどれほどらくたんしたかは、そうぞうにかたくない。"
+        },
+        {
+          "kanji": "不合格を知った彼の落胆ぶりは、容易に想像できる。",
+          "hiragana_full": "ふごうかくをしったかれのらくたんぶりは、よういにそうぞうできる。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "不合格",
+          "reading": "ふごうかく",
+          "meaning": "failing (an exam)"
+        },
+        {
+          "word": "落胆",
+          "reading": "らくたん",
+          "meaning": "disappointment, dejection"
+        },
+        {
+          "word": "想像",
+          "reading": "そうぞう",
+          "meaning": "imagination"
+        }
+      ],
+      "blank_target_reading": "にかたくない"
     },
     {
       "id": "n1_031_7",
-      "example_sentence": "生態系の機能を失わせることの深刻性は、想像にかたくない。",
-      "translation": "It is not difficult to imagine the severity of losing ecosystem functions.",
-      "blank_target": "にかたくない",
+      "example_sentence": "息子を亡くした母親の心情は、察するに難くない。",
+      "translation": "It isn't hard to imagine how the mother who lost her son must feel.",
+      "blank_target": "に難くない",
       "wrong_choices": [
-        "に関わらず",
-        "にもかかわらず",
-        "をよそに"
+        "べくもない",
+        "に足りない",
+        "に堪えない"
       ],
       "wrong_choice_explanations": [
-        "に関わらず means 'regardless of' and expresses independence from conditions, not ease of imagination.",
-        "にもかかわらず means 'despite' or 'in spite of' and expresses contrast, not ease of mental activity.",
-        "をよそに means 'ignoring' or 'disregarding' and doesn't grammatically fit with 想像 or express ease."
+        "「べくもない」は「〜できるはずもない」意で、「察するべくもない」だと推し量ることなどできないとなり、容易に察せられるという文意と逆になる。",
+        "「に足りない」は「〜する価値がない」意で、「察するに足りない」だと察する価値がないという別の評価になり、容易さを述べる文意と合わない。",
+        "「に堪えない」は「耐えられない」意で、「察するに堪えない」は慣用的でなく、たやすく察せられるという意味を表さない。"
       ],
-      "hiragana_full": "せいたいけいのきのうをうしなわせることのしんこくせいは、そうぞうにかたくない。",
+      "hiragana_full": "むすこをなくしたははおやのしんじょうは、さっするにかたくない。",
       "audio_alternatives": [
         {
-          "kanji": "生態系の機能を失うことの深刻さは、想像に難くない。",
-          "hiragana_full": "せいたいけいのきのうをうしなうことのしんこくさは、そうぞうにかたくない。"
+          "kanji": "息子を亡くした母親の気持ちは、察するに難くない。",
+          "hiragana_full": "むすこをなくしたははおやのきもちは、さっするにかたくない。"
         },
         {
-          "kanji": "生態系の機能が失われることの深刻性は、容易に想像できる。",
-          "hiragana_full": "せいたいけいのきのうがうしなわれることのしんこくせいは、よういにそうぞうできる。"
+          "kanji": "息子を亡くした母親の心情は、容易に察せられる。",
+          "hiragana_full": "むすこをなくしたははおやのしんじょうは、よういにさっせられる。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "息子",
+          "reading": "むすこ",
+          "meaning": "son"
+        },
+        {
+          "word": "心情",
+          "reading": "しんじょう",
+          "meaning": "feelings, state of mind"
+        },
+        {
+          "word": "察する",
+          "reading": "さっする",
+          "meaning": "to surmise, to sense"
+        }
+      ],
+      "blank_target_reading": "にかたくない"
     },
     {
       "id": "n1_031_8",
-      "example_sentence": "この古典に対する執筆者の深い洞察力は、想像にかたくない。",
-      "translation": "It is not difficult to imagine the author's deep insight into this classic.",
-      "blank_target": "にかたくない",
+      "example_sentence": "事故の一報を受けた家族の不安は、推察するに難くない。",
+      "translation": "One can easily guess the anxiety of the family who received word of the accident.",
+      "blank_target": "に難くない",
       "wrong_choices": [
-        "にとって",
-        "として",
-        "による"
+        "べくもない",
+        "に足りない",
+        "に堪えない"
       ],
       "wrong_choice_explanations": [
-        "にとって means 'for' or 'to' (someone) and expresses perspective, not ease of imagination.",
-        "として means 'as' and expresses role or capacity, which doesn't fit with expressing ease of mental activity.",
-        "による means 'by' or 'due to' and expresses cause or method, not ease of imagination."
+        "「べくもない」は「〜できるはずもない」意で、「推察するべくもない」だと推し量ることなどできないとなり、容易に推察できるという文意と逆になる。",
+        "「に足りない」は「〜する価値がない」意で、「推察するに足りない」だと推察する価値がないとなり、容易さを述べる文意と合わない。",
+        "「に堪えない」は「耐えられない」意で、「推察するに堪えない」は慣用的でなく、たやすく推し量れるという意味を表さない。"
       ],
-      "hiragana_full": "このこてんにたいするしっぴつしゃのふかいどうさつりょくは、そうぞうにかたくない。",
+      "hiragana_full": "じこのいっぽうをうけたかぞくのふあんは、すいさつするにかたくない。",
       "audio_alternatives": [
         {
-          "kanji": "この古典に対する執筆者の深い洞察力は、想像に難くない。",
-          "hiragana_full": "このこてんにたいするしっぴつしゃのふかいどうさつりょくは、そうぞうにかたくない。"
+          "kanji": "事故の知らせを受けた家族の不安は、推察するに難くない。",
+          "hiragana_full": "じこのしらせをうけたかぞくのふあんは、すいさつするにかたくない。"
         },
         {
-          "kanji": "この古典への執筆者の深い洞察力は、容易に想像できる。",
-          "hiragana_full": "このこてんへのしっぴつしゃのふかいどうさつりょくは、よういにそうぞうできる。"
+          "kanji": "事故の一報を受けた家族の不安は、容易に推し量れる。",
+          "hiragana_full": "じこのいっぽうをうけたかぞくのふあんは、よういにおしはかれる。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "一報",
+          "reading": "いっぽう",
+          "meaning": "first report, word"
+        },
+        {
+          "word": "不安",
+          "reading": "ふあん",
+          "meaning": "anxiety"
+        },
+        {
+          "word": "推察する",
+          "reading": "すいさつする",
+          "meaning": "to surmise, to guess"
+        }
+      ],
+      "blank_target_reading": "にかたくない"
     },
     {
       "id": "n1_031_9",
-      "example_sentence": "経営の透明性が必要となることは、想像にかたくない。",
-      "translation": "It is not difficult to imagine that management transparency is necessary.",
-      "blank_target": "にかたくない",
+      "example_sentence": "彼が会社を辞めた理由は、理解するに難くない。",
+      "translation": "It isn't hard to understand why he quit the company.",
+      "blank_target": "に難くない",
       "wrong_choices": [
-        "に先立って",
-        "を通じて",
-        "を通して"
+        "べくもない",
+        "に足りない",
+        "に及ばない"
       ],
       "wrong_choice_explanations": [
-        "に先立って means 'prior to' or 'before' and expresses temporal sequence, not ease of imagination.",
-        "を通じて means 'through' or 'via' and expresses means or method, which doesn't fit with 想像.",
-        "を通して means 'through' and also expresses means, but doesn't work grammatically with 想像 in this context."
+        "「べくもない」は「〜できるはずもない」意で、「理解するべくもない」だと理解できるはずもないとなり、容易に理解できるという文意と逆になる。",
+        "「に足りない」は「〜する価値がない」意で、「理解するに足りない」だと理解する価値がないという別の評価になり、容易さを述べる文意と合わない。",
+        "「に及ばない」は「〜する必要がない」意で、「理解するに及ばない」だと理解する必要がないとなり、たやすく理解できるという意味とは異なる。"
       ],
-      "hiragana_full": "けいえいのとうめいせいがひつようとなることは、そうぞうにかたくない。",
+      "hiragana_full": "かれがかいしゃをやめたりゆうは、りかいするにかたくない。",
       "audio_alternatives": [
         {
-          "kanji": "経営の透明性が必要になることは、想像に難くない。",
-          "hiragana_full": "けいえいのとうめいせいがひつようになることは、そうぞうにかたくない。"
+          "kanji": "彼が退職を決めた理由は、理解するに難くない。",
+          "hiragana_full": "かれがたいしょくをきめたりゆうは、りかいするにかたくない。"
         },
         {
-          "kanji": "経営における透明性が必要となることは、容易に想像できる。",
-          "hiragana_full": "けいえいにおけるとうめいせいがひつようとなることは、よういにそうぞうできる。"
+          "kanji": "彼が会社を辞めた理由は、容易に理解できる。",
+          "hiragana_full": "かれがかいしゃをやめたりゆうは、よういにりかいできる。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "辞める",
+          "reading": "やめる",
+          "meaning": "to quit"
+        },
+        {
+          "word": "理由",
+          "reading": "りゆう",
+          "meaning": "reason"
+        },
+        {
+          "word": "理解する",
+          "reading": "りかいする",
+          "meaning": "to understand"
+        }
+      ],
+      "blank_target_reading": "にかたくない"
     },
     {
       "id": "n1_031_10",
-      "example_sentence": "医療ロボットの倫理的問題がどの程度深刻かは、想像にかたくない。",
-      "translation": "It is not difficult to imagine how serious the ethical issues with medical robots are.",
-      "blank_target": "にかたくない",
+      "example_sentence": "これまでの経緯から、今後の展開は推測するに難くない。",
+      "translation": "From how things have gone so far, it isn't hard to guess how they'll unfold.",
+      "blank_target": "に難くない",
       "wrong_choices": [
-        "にひきかえ",
-        "に反して",
-        "とはいえ"
+        "べくもない",
+        "に足りない",
+        "に及ばない"
       ],
       "wrong_choice_explanations": [
-        "にひきかえ means 'in contrast to' and expresses comparison, not ease of imagination.",
-        "に反して means 'contrary to' or 'against' and expresses opposition, not ease of mental activity.",
-        "とはいえ means 'although' or 'even so' and expresses concession, which doesn't fit grammatically here."
+        "「べくもない」は「〜できるはずもない」意で、「推測するべくもない」だと推測できるはずもないとなり、容易に推測できるという文意と逆になる。",
+        "「に足りない」は「〜する価値がない」意で、「推測するに足りない」だと推測する価値がないとなり、容易さを述べる文意と合わない。",
+        "「に及ばない」は「〜する必要がない」意で、「推測するに及ばない」だと推測する必要がないとなり、たやすく推測できるという意味とは異なる。"
       ],
-      "hiragana_full": "いりょうろぼっとのりんりてきもんだいがどのていどしんこくかは、そうぞうにかたくない。",
+      "hiragana_full": "これまでのけいいから、こんごのてんかいはすいそくするにかたくない。",
       "audio_alternatives": [
         {
-          "kanji": "医療ロボットの倫理的問題がどれほど深刻かは、想像に難くない。",
-          "hiragana_full": "いりょうろぼっとのりんりてきもんだいがどれほどしんこくかは、そうぞうにかたくない。"
+          "kanji": "これまでの経緯を踏まえれば、今後の展開は推測するに難くない。",
+          "hiragana_full": "これまでのけいいをふまえれば、こんごのてんかいはすいそくするにかたくない。"
         },
         {
-          "kanji": "医療ロボットに関する倫理的問題の深刻さは、容易に想像できる。",
-          "hiragana_full": "いりょうろぼっとにかんするりんりてきもんだいのしんこくさは、よういにそうぞうできる。"
+          "kanji": "これまでの経緯から、今後の展開は容易に予想がつく。",
+          "hiragana_full": "これまでのけいいから、こんごのてんかいはよういによそうがつく。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "経緯",
+          "reading": "けいい",
+          "meaning": "course of events, details"
+        },
+        {
+          "word": "展開",
+          "reading": "てんかい",
+          "meaning": "development, unfolding"
+        },
+        {
+          "word": "推測する",
+          "reading": "すいそくする",
+          "meaning": "to guess, to infer"
+        }
+      ],
+      "blank_target_reading": "にかたくない"
     }
   ]
 }

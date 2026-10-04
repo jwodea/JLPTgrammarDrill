@@ -6,102 +6,18 @@
   "exercises": [
     {
       "id": "n3_036_1",
-      "example_sentence": "お金さえあれば、好きなことができるでしょう。",
-      "translation": "If only you had money, you could do whatever you like.",
-      "blank_target": "さえあれば",
-      "wrong_choices": [
-        "があれば",
-        "があったら",
-        "さえあったら"
-      ],
-      "wrong_choice_explanations": [
-        "があれば means 'if there is' as a simple conditional, but it lacks さえ's emphasis on 'if only this one thing' being sufficient.",
-        "があったら is another conditional ('if there were'), but it misses the emphatic 'just/only' nuance that さえ provides.",
-        "さえあったら has the right さえ emphasis but uses たら instead of ば—the set phrase さえ〜ば specifically requires the ば conditional form."
-      ],
-      "hiragana_full": "おかねさえあれば、すきなことができるでしょう。",
-      "audio_alternatives": [
-        {
-          "kanji": "お金があれば、好きなことができるでしょう。",
-          "hiragana_full": "おかねがあれば、すきなことができるでしょう。"
-        },
-        {
-          "kanji": "お金さえあれば、好きなことができるはずです。",
-          "hiragana_full": "おかねさえあれば、すきなことができるはずです。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_036_2",
-      "example_sentence": "予算さえあれば、もっと高度な機器を導入できるのに。",
-      "translation": "If only we had a budget, we could introduce more advanced equipment.",
-      "blank_target": "さえあれば",
-      "wrong_choices": [
-        "だけあれば",
-        "があったとしても",
-        "があるなら"
-      ],
-      "wrong_choice_explanations": [
-        "だけあれば means 'just because there is' but doesn't emphasize the 'if only this is sufficient' meaning the way さえあれば does.",
-        "があったとしても means 'even if there were,' which suggests concession rather than the conditional 'if only' needed here.",
-        "があるなら is a conditional form but suggests 'in the case that it exists' rather than 'if only this condition is met.'"
-      ],
-      "hiragana_full": "よさんさえあれば、もっとこうどなききをどうにゅうできるのに。",
-      "audio_alternatives": [
-        {
-          "kanji": "予算があれば、もっと高度な機器を導入できるのに。",
-          "hiragana_full": "よさんがあれば、もっとこうどなききをどうにゅうできるのに。"
-        },
-        {
-          "kanji": "予算さえあれば、より高度な機器を導入できるのに。",
-          "hiragana_full": "よさんさえあれば、よりこうどなききをどうにゅうできるのに。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_036_3",
-      "example_sentence": "道具さえあれば、ハイキングに行けるのに。",
-      "translation": "If only I had the equipment, I could go hiking.",
-      "blank_target": "さえあれば",
-      "wrong_choices": [
-        "さえあったなら",
-        "でもあれば",
-        "があったら"
-      ],
-      "wrong_choice_explanations": [
-        "さえあったなら uses たら instead of ば; さえ〜ば is the correct paired structure for expressing 'if only.'",
-        "でもあれば mixes particles incorrectly and changes the meaning to something like 'even if there is,' not 'if only there is.'",
-        "があったら is a conditional but loses the emphatic 'only' nuance that さえ provides."
-      ],
-      "hiragana_full": "どうぐさえあれば、はいきんぐにいけるのに。",
-      "audio_alternatives": [
-        {
-          "kanji": "道具があれば、ハイキングに行けるのに。",
-          "hiragana_full": "どうぐがあれば、はいきんぐにいけるのに。"
-        },
-        {
-          "kanji": "道具さえあったら、ハイキングに行けるのに。",
-          "hiragana_full": "どうぐさえあったら、はいきんぐにいけるのに。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_036_4",
       "example_sentence": "勇気さえあれば、告白できるのに。",
       "translation": "If only I had courage, I could confess.",
       "blank_target": "さえあれば",
       "wrong_choices": [
         "があったとしても",
-        "だけあったら",
-        "さえあったら"
+        "もなくて",
+        "がなければ"
       ],
       "wrong_choice_explanations": [
         "があったとしても implies 'even if it existed,' which expresses concession, not the conditional requirement of 'if only.'",
-        "だけあったら means 'if there's just...' but uses たら instead of ば, and だけ is weaker than さえ's emphasis on sufficiency.",
-        "さえあったら has the right さえ but uses たら instead of ば—the pattern さえ〜ば requires the ば conditional."
+        "もなくて means 'not even having (courage), and so...', a negative cause that contradicts the hopeful のに clause; さえあれば sets up 'if only I had courage.'",
+        "がなければ means 'if you don't have,' the opposite polarity ('if you had no courage'), whereas さえあれば means 'if only you HAD courage.'"
       ],
       "hiragana_full": "ゆうきさえあれば、こくはくできるのに。",
       "audio_alternatives": [
@@ -114,175 +30,375 @@
           "hiragana_full": "ゆうきさえあったら、こくはくできるのに。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "勇気",
+          "reading": "ゆうき",
+          "meaning": "courage"
+        },
+        {
+          "word": "告白",
+          "reading": "こくはく",
+          "meaning": "confession"
+        }
+      ]
+    },
+    {
+      "id": "n3_036_2",
+      "example_sentence": "天気さえよければ、明日は山の上から富士山が見えるはずだ。",
+      "translation": "As long as the weather is good, we should be able to see Mt. Fuji from the mountaintop tomorrow.",
+      "blank_target": "さえよければ",
+      "wrong_choices": [
+        "さえよくても",
+        "しかよければ",
+        "さえ悪ければ"
+      ],
+      "wrong_choice_explanations": [
+        "さえよくても ('even if the weather is good') sets up a concession, which clashes with the confident 見えるはずだ.",
+        "しか must be followed by a negative (しか～ない); it cannot stand before a positive conditional.",
+        "さえ悪ければ ('as long as the weather is bad') makes no sense as the condition for seeing Mt. Fuji."
+      ],
+      "hiragana_full": "てんきさえよければ、あしたはやまのうえからふじさんがみえるはずだ。",
+      "audio_alternatives": [
+        {
+          "kanji": "天気がよければ、明日は山の上から富士山が見えるはずだ。",
+          "hiragana_full": "てんきがよければ、あしたはやまのうえからふじさんがみえるはずだ。"
+        },
+        {
+          "kanji": "天気さえよかったら、明日は山頂から富士山が見えるはずです。",
+          "hiragana_full": "てんきさえよかったら、あしたはさんちょうからふじさんがみえるはずです。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "富士山",
+          "reading": "ふじさん",
+          "meaning": "Mt. Fuji"
+        },
+        {
+          "word": "はず",
+          "reading": "はず",
+          "meaning": "should, is expected to"
+        }
+      ]
+    },
+    {
+      "id": "n3_036_3",
+      "example_sentence": "彼女が来さえすれば、パーティーはきっと盛り上がるでしょう。",
+      "translation": "As long as she comes, the party will surely liven up.",
+      "blank_target": "来さえすれば",
+      "wrong_choices": [
+        "来るさえすれば",
+        "来しかすれば",
+        "来さえしても"
+      ],
+      "wrong_choice_explanations": [
+        "With verbs, さえ follows the masu-stem (来＝き) and then すれば; the dictionary form 来る cannot come before さえ.",
+        "しか needs a following negative; しかすれば is ungrammatical.",
+        "来さえしても ('even if she just comes') is concessive and contradicts the confident きっと盛り上がる."
+      ],
+      "hiragana_full": "かのじょがきさえすれば、ぱーてぃーはきっともりあがるでしょう。",
+      "audio_alternatives": [
+        {
+          "kanji": "彼女が来れば、パーティーはきっと盛り上がるでしょう。",
+          "hiragana_full": "かのじょがくれば、ぱーてぃーはきっともりあがるでしょう。"
+        },
+        {
+          "kanji": "彼女さえ来てくれたら、パーティーはきっと盛り上がるよ。",
+          "hiragana_full": "かのじょさえきてくれたら、ぱーてぃーはきっともりあがるよ。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "盛り上がる",
+          "reading": "もりあがる",
+          "meaning": "to liven up"
+        }
+      ],
+      "blank_target_reading": "きさえすれば"
+    },
+    {
+      "id": "n3_036_4",
+      "example_sentence": "雨が止みさえすれば、散歩に行こう。",
+      "translation": "As long as the rain stops, let's go for a walk.",
+      "blank_target": "止みさえすれば",
+      "wrong_choices": [
+        "止むさえすれば",
+        "止みさえしても",
+        "止みさえしなければ"
+      ],
+      "wrong_choice_explanations": [
+        "さえ attaches to the masu-stem 止み; the dictionary form 止む cannot precede さえ.",
+        "止みさえしても ('even if it just stops') is concessive and doesn't give a condition for going out.",
+        "止みさえしなければ ('as long as the rain doesn't stop') is the opposite of what makes a walk possible."
+      ],
+      "hiragana_full": "あめがやみさえすれば、さんぽにいこう。",
+      "audio_alternatives": [
+        {
+          "kanji": "雨が止んだら、散歩に行こう。",
+          "hiragana_full": "あめがやんだら、さんぽにいこう。"
+        },
+        {
+          "kanji": "雨が止めば、散歩に行きましょう。",
+          "hiragana_full": "あめがやめば、さんぽにいきましょう。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "散歩",
+          "reading": "さんぽ",
+          "meaning": "a walk"
+        }
+      ],
+      "blank_target_reading": "やみさえすれば"
     },
     {
       "id": "n3_036_5",
-      "example_sentence": "運さえあれば、バーゲンセールで掘り出し物を見つけられるのに。",
-      "translation": "If only I had luck, I could find a bargain at the sale.",
-      "blank_target": "さえあれば",
+      "example_sentence": "健康でさえあれば、ほかには何もいらない。",
+      "translation": "As long as I'm healthy, I don't need anything else.",
+      "blank_target": "でさえあれば",
       "wrong_choices": [
-        "があれば",
-        "があったら",
-        "だけあったら"
+        "でさえなければ",
+        "でしかあれば",
+        "でさえあっても"
       ],
       "wrong_choice_explanations": [
-        "があれば is a simple conditional that removes the emphasis on luck alone being the key condition.",
-        "があったら is a past conditional and doesn't emphasize 'if only this one thing is sufficient' the way さえあれば does.",
-        "だけあったら uses だけ (just/only) but pairs it with たら instead of ば, losing the correct さえ〜ば structure."
+        "でさえなければ ('as long as I'm NOT healthy') makes no sense as the one thing that is enough.",
+        "しか requires a negative after it; でしかあれば is ungrammatical.",
+        "でさえあっても ('even if I'm healthy') is concessive and does not express 'that alone is enough'."
       ],
-      "hiragana_full": "うんさえあれば、バーゲンセールでほりだしものをみつけられるのに。",
+      "hiragana_full": "けんこうでさえあれば、ほかにはなにもいらない。",
       "audio_alternatives": [
         {
-          "kanji": "運があれば、バーゲンセールで掘り出し物を見つけられるのに。",
-          "hiragana_full": "うんがあれば、バーゲンセールでほりだしものをみつけられるのに。"
+          "kanji": "健康でありさえすれば、ほかには何もいらない。",
+          "hiragana_full": "けんこうでありさえすれば、ほかにはなにもいらない。"
         },
         {
-          "kanji": "もし運があれば、バーゲンセールでお買い得品を見つけられるのに。",
-          "hiragana_full": "もしうんがあれば、バーゲンセールでおかいどくひんをみつけられるのに。"
+          "kanji": "元気でさえいれば、他には何もいりません。",
+          "hiragana_full": "げんきでさえいれば、ほかにはなにもいりません。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "健康",
+          "reading": "けんこう",
+          "meaning": "health"
+        }
+      ]
     },
     {
       "id": "n3_036_6",
-      "example_sentence": "健康さえあれば、他は要りません。",
-      "translation": "As long as you have health, you don't need anything else.",
-      "blank_target": "さえあれば",
+      "example_sentence": "この薬を飲みさえすれば、熱はすぐ下がりますよ。",
+      "translation": "As long as you take this medicine, your fever will go down quickly.",
+      "blank_target": "飲みさえすれば",
       "wrong_choices": [
-        "さえあったなら",
-        "があるなら",
-        "でもあれば"
+        "飲むさえすれば",
+        "飲みさえしなければ",
+        "飲みしかすれば"
       ],
       "wrong_choice_explanations": [
-        "さえあったなら pairs さえ with なら instead of the correct ば conditional form needed for the さえ〜ば pattern.",
-        "があるなら is a conditional but lacks さえ's emphasis on 'health alone is sufficient' and doesn't fit the set phrase.",
-        "でもあれば mixes particles incorrectly; it doesn't express the meaning of さえ〜ば."
+        "さえ attaches to the masu-stem 飲み; the dictionary form 飲む cannot come before さえ.",
+        "飲みさえしなければ ('as long as you don't take it') contradicts recommending the medicine.",
+        "しか needs a negative after it; しかすれば is ungrammatical."
       ],
-      "hiragana_full": "けんこうさえあれば、ほかはいりません。",
+      "hiragana_full": "このくすりをのみさえすれば、ねつはすぐさがりますよ。",
       "audio_alternatives": [
         {
-          "kanji": "健康さえあれば、何も要りません。",
-          "hiragana_full": "けんこうさえあれば、なにもいりません。"
+          "kanji": "この薬を飲めば、熱はすぐ下がりますよ。",
+          "hiragana_full": "このくすりをのめば、ねつはすぐさがりますよ。"
         },
         {
-          "kanji": "健康があれば、他は必要ありません。",
-          "hiragana_full": "けんこうがあれば、ほかはひつようありません。"
+          "kanji": "この薬さえ飲めば、熱はすぐに下がりますよ。",
+          "hiragana_full": "このくすりさえのめば、ねつはすぐにさがりますよ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "熱",
+          "reading": "ねつ",
+          "meaning": "fever"
+        },
+        {
+          "word": "下がります",
+          "reading": "さがります",
+          "meaning": "goes down"
+        }
+      ],
+      "blank_target_reading": "のみさえすれば"
     },
     {
       "id": "n3_036_7",
-      "example_sentence": "時間さえあれば、旅行に行きたい。",
-      "translation": "If only I had time, I would like to travel.",
-      "blank_target": "さえあれば",
+      "example_sentence": "君がそばにいてさえくれれば、怖いものはない。",
+      "translation": "As long as you're by my side, I'm not afraid of anything.",
+      "blank_target": "いてさえくれれば",
       "wrong_choices": [
-        "があったら",
-        "さえあったら",
-        "だけあれば"
+        "いてさえくれても",
+        "いるさえくれれば",
+        "いてしかくれれば"
       ],
       "wrong_choice_explanations": [
-        "があったら is a past conditional lacking the 'if only' emphasis of さえあれば.",
-        "さえあったら has さえ but uses たら instead of the required ば form in the さえ〜ば structure.",
-        "だけあれば uses だけ instead of さえ, which is less emphatic about the sufficiency of time alone."
+        "くれても ('even if you're by my side') is concessive and cannot lead to 'nothing to fear'.",
+        "In the te-form pattern さえ follows いて; the dictionary form いる cannot precede さえ.",
+        "しか requires a negative; しかくれれば is ungrammatical."
       ],
-      "hiragana_full": "じかんさえあれば、りょこうにいきたい。",
+      "hiragana_full": "きみがそばにいてさえくれれば、こわいものはない。",
       "audio_alternatives": [
         {
-          "kanji": "時間があれば、旅行に行きたい。",
-          "hiragana_full": "じかんがあれば、りょこうにいきたい。"
+          "kanji": "君がそばにいてくれれば、怖いものはない。",
+          "hiragana_full": "きみがそばにいてくれれば、こわいものはない。"
         },
         {
-          "kanji": "時間があったら、旅行に行きたいです。",
-          "hiragana_full": "じかんがあったら、りょこうにいきたいです。"
+          "kanji": "君さえそばにいてくれたら、何も怖くない。",
+          "hiragana_full": "きみさえそばにいてくれたら、なにもこわくない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "怖い",
+          "reading": "こわい",
+          "meaning": "scary, frightening"
+        }
+      ]
     },
     {
       "id": "n3_036_8",
-      "example_sentence": "努力さえすれば、誰でも成功できます。",
-      "translation": "As long as you make the effort, anyone can succeed.",
-      "blank_target": "さえすれば",
+      "example_sentence": "電車が動きさえすれば、会議に間に合うはずです。",
+      "translation": "As long as the trains start running, I should make it to the meeting in time.",
+      "blank_target": "動きさえすれば",
       "wrong_choices": [
-        "があれば",
-        "したら",
-        "だけすれば"
+        "動くさえすれば",
+        "動きさえしても",
+        "動きしかすれば"
       ],
       "wrong_choice_explanations": [
-        "があれば uses あ (to have) instead of する (to do), changing the meaning and losing the emphasis.",
-        "したら uses たら instead of ば, breaking the さえ〜ば set phrase structure.",
-        "だけすれば uses だけ instead of さえ; while close, さえ more strongly emphasizes 'effort alone is sufficient.'"
+        "さえ attaches to the masu-stem 動き; the dictionary form 動く cannot precede さえ.",
+        "動きさえしても ('even if the trains just run') is concessive and clashes with 間に合うはずです.",
+        "しか must be followed by a negative; しかすれば is ungrammatical."
       ],
-      "hiragana_full": "どりょくさえすれば、だれでもせいこうできます。",
+      "hiragana_full": "でんしゃがうごきさえすれば、かいぎにまにあうはずです。",
       "audio_alternatives": [
         {
-          "kanji": "努力しさえすれば、誰でも成功できる。",
-          "hiragana_full": "どりょくしさえすれば、だれでもせいこうできる。"
+          "kanji": "電車が動けば、会議に間に合うはずです。",
+          "hiragana_full": "でんしゃがうごけば、かいぎにまにあうはずです。"
         },
         {
-          "kanji": "努力すれば、誰でも成功することができます。",
-          "hiragana_full": "どりょくすれば、だれでもせいこうすることができます。"
+          "kanji": "電車さえ動いたら、会議には間に合うと思います。",
+          "hiragana_full": "でんしゃさえうごいたら、かいぎにはまにあうとおもいます。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "動き",
+          "reading": "うごき",
+          "meaning": "running, moving (stem of 動く)"
+        },
+        {
+          "word": "間に合う",
+          "reading": "まにあう",
+          "meaning": "to be in time"
+        }
+      ],
+      "blank_target_reading": "うごきさえすれば"
     },
     {
       "id": "n3_036_9",
-      "example_sentence": "ビジョンさえあれば、実現は可能です。",
-      "translation": "As long as you have a vision, realization is possible.",
-      "blank_target": "さえあれば",
+      "example_sentence": "毎日練習しさえすれば、誰でも上手になれる。",
+      "translation": "As long as you practice every day, anyone can get good at it.",
+      "blank_target": "練習しさえすれば",
       "wrong_choices": [
-        "さえあったら",
-        "があるなら",
-        "だけあったら"
+        "練習するさえすれば",
+        "練習しさえしなければ",
+        "練習しさえしても"
       ],
       "wrong_choice_explanations": [
-        "さえあったら correctly pairs さえ with ある but uses たら instead of ば, violating the さえ〜ば structure.",
-        "があるなら is a conditional but lacks さえ's emphasis on 'vision alone being sufficient' for realization.",
-        "だけあったら uses だけ and たら, losing both the さえ particle and the correct ば conditional form."
+        "With する-verbs the pattern is 練習し＋さえ＋すれば; the dictionary form 練習する cannot precede さえ.",
+        "練習しさえしなければ ('as long as you don't practice') contradicts getting better.",
+        "練習しさえしても ('even if you just practice') is concessive and does not state the sufficient condition."
       ],
-      "hiragana_full": "びじょんさえあれば、じつげんはかのうです。",
+      "hiragana_full": "まいにちれんしゅうしさえすれば、だれでもじょうずになれる。",
       "audio_alternatives": [
         {
-          "kanji": "ビジョンがあれば、実現できます。",
-          "hiragana_full": "びじょんがあれば、じつげんできます。"
+          "kanji": "毎日練習すれば、誰でも上手になれる。",
+          "hiragana_full": "まいにちれんしゅうすれば、だれでもじょうずになれる。"
         },
         {
-          "kanji": "ビジョンさえあれば、実現することができます。",
-          "hiragana_full": "びじょんさえあれば、じつげんすることができます。"
+          "kanji": "毎日練習さえすれば、誰だって上手になれます。",
+          "hiragana_full": "まいにちれんしゅうさえすれば、だれだってじょうずになれます。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "練習",
+          "reading": "れんしゅう",
+          "meaning": "practice"
+        }
+      ],
+      "blank_target_reading": "れんしゅうしさえすれば"
     },
     {
       "id": "n3_036_10",
-      "example_sentence": "クリエイティビティさえあれば、革新は可能です。",
-      "translation": "As long as you have creativity, innovation is possible.",
-      "blank_target": "さえあれば",
+      "example_sentence": "希望を捨てさえしなければ、道は必ず開ける。",
+      "translation": "As long as you don't give up hope, a way will surely open up.",
+      "blank_target": "捨てさえしなければ",
       "wrong_choices": [
-        "があったら",
-        "さえあったなら",
-        "だけあれば"
+        "捨てさえすれば",
+        "捨てるさえしなければ",
+        "捨てしかしなければ"
       ],
       "wrong_choice_explanations": [
-        "があったら is a simple past conditional; it misses さえ's emphasis on 'if only creativity is present.'",
-        "さえあったなら pairs さえ with なら (a different conditional form) instead of the required ば form.",
-        "だけあれば uses だけ (just) instead of さえ; both suggest 'enough' but さえ emphasizes the minimal condition more strongly."
+        "捨てさえすれば ('as long as you throw away hope') is the opposite of the encouragement intended.",
+        "さえ attaches to the masu-stem 捨て; the dictionary form 捨てる cannot precede さえ.",
+        "しかしなければ is not a grammatical pattern; 'only' with a negative cannot form this condition."
       ],
-      "hiragana_full": "くりえいてぃびてぃさえあれば、かくしんはかのうです。",
+      "hiragana_full": "きぼうをすてさえしなければ、みちはかならずひらける。",
       "audio_alternatives": [
         {
-          "kanji": "創造力さえあれば、革新は可能です。",
-          "hiragana_full": "そうぞうりょくさえあれば、かくしんはかのうです。"
+          "kanji": "希望を捨てなければ、道は必ず開ける。",
+          "hiragana_full": "きぼうをすてなければ、みちはかならずひらける。"
         },
         {
-          "kanji": "クリエイティビティがあれば、革新は可能です。",
-          "hiragana_full": "くりえいてぃびてぃがあれば、かくしんはかのうです。"
+          "kanji": "希望さえ捨てなければ、必ず道は開けます。",
+          "hiragana_full": "きぼうさえすてなければ、かならずみちはひらけます。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "希望",
+          "reading": "きぼう",
+          "meaning": "hope"
+        },
+        {
+          "word": "捨て",
+          "reading": "すて",
+          "meaning": "throw away (stem of 捨てる)"
+        },
+        {
+          "word": "開ける",
+          "reading": "ひらける",
+          "meaning": "to open up"
+        }
+      ],
+      "blank_target_reading": "すてさえしなければ"
     }
   ]
 }

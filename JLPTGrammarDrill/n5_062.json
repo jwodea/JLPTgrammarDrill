@@ -30,7 +30,15 @@
           "hiragana_full": "やさいがきらいです"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "野菜",
+          "reading": "やさい",
+          "meaning": "vegetables"
+        }
+      ]
     },
     {
       "id": "n5_062_2",
@@ -38,12 +46,12 @@
       "translation": "Does Tanaka-san like music?",
       "blank_target": "が",
       "wrong_choices": [
-        "は",
+        "へ",
         "を",
         "の"
       ],
       "wrong_choice_explanations": [
-        "は marks the topic of the sentence — it doesn't fit here because music is the subject of liking, not the topic being discussed.",
+        "へ indicates direction toward a place — 音楽へ好きですか is ungrammatical; the object of 好き takes が.",
         "を marks direct objects for actions — it doesn't fit here because 好き is an adjective describing a state, not an action.",
         "の shows possession or connection — it doesn't fit here because we're not showing ownership of music."
       ],
@@ -58,7 +66,15 @@
           "hiragana_full": "たなかさんはおんがくがすきか"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "音楽",
+          "reading": "おんがく",
+          "meaning": "music"
+        }
+      ]
     },
     {
       "id": "n5_062_3",
@@ -86,7 +102,15 @@
           "hiragana_full": "こどもたちはゲームをとてもすきです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "大好き",
+          "reading": "だいすき",
+          "meaning": "love; really like"
+        }
+      ]
     },
     {
       "id": "n5_062_4",
@@ -114,7 +138,15 @@
           "hiragana_full": "ぼくはコーヒーがきらいではない"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "僕",
+          "reading": "ぼく",
+          "meaning": "I (male, informal)"
+        }
+      ]
     },
     {
       "id": "n5_062_5",
@@ -142,7 +174,8 @@
           "hiragana_full": "あなたはなにがすきなの"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n5_062_6",
@@ -170,7 +203,15 @@
           "hiragana_full": "たくさんのひとがいぬをすきです"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "多い",
+          "reading": "おおい",
+          "meaning": "many; numerous"
+        }
+      ]
     },
     {
       "id": "n5_062_7",
@@ -198,7 +239,9 @@
           "hiragana_full": "さかながすきではないこがいます"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "blank_occurrence": 1
     },
     {
       "id": "n5_062_8",
@@ -206,12 +249,12 @@
       "translation": "My mother really hates alcohol.",
       "blank_target": "が",
       "wrong_choices": [
-        "は",
+        "で",
         "も",
         "だけ"
       ],
       "wrong_choice_explanations": [
-        "は marks the topic — it doesn't fit here because alcohol is the subject of dislike, while mother is already the topic.",
+        "で marks means or location — お酒で大嫌いです is ungrammatical; the object of 嫌い takes が.",
         "も means 'also' — it doesn't fit here because we need the subject marker, not an additional item marker.",
         "だけ means 'only' — it doesn't fit here because we're not limiting to alcohol alone, but expressing strong dislike of it."
       ],
@@ -226,7 +269,20 @@
           "hiragana_full": "はははおさけがきらいです"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "お酒",
+          "reading": "おさけ",
+          "meaning": "alcohol; sake"
+        },
+        {
+          "word": "大嫌い",
+          "reading": "だいきらい",
+          "meaning": "hate; detest"
+        }
+      ]
     },
     {
       "id": "n5_062_9",
@@ -254,7 +310,8 @@
           "hiragana_full": "えいががだいすきになりました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n5_062_10",
@@ -282,7 +339,20 @@
           "hiragana_full": "からいたべものはきらいです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "辛い",
+          "reading": "からい",
+          "meaning": "spicy"
+        },
+        {
+          "word": "食べ物",
+          "reading": "たべもの",
+          "meaning": "food"
+        }
+      ]
     }
   ]
 }

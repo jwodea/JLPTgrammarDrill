@@ -11,12 +11,12 @@
       "blank_target": "はず",
       "wrong_choices": [
         "つもり",
-        "予定",
+        "もの",
         "ところ"
       ],
       "wrong_choice_explanations": [
         "つもり means 'intend to' and is used for personal intentions — it doesn't fit here because trains don't have intentions.",
-        "予定 means 'plan/schedule' but requires different grammar (予定だ) — はずだ is the natural expression for expectations based on timetables.",
+        "もの (as ものだ) states a general truth — 'trains are the sort of thing that come' — but this sentence is a specific timetable-based expectation about one train, which はずだ expresses.",
         "ところ means 'place/point in time' and doesn't express expectation — we need はずだ to show logical expectation."
       ],
       "hiragana_full": "でんしゃはごふんごにくるはずだ",
@@ -30,76 +30,21 @@
           "hiragana_full": "でんしゃはごふんでくるはずだ"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n4_031_2",
-      "example_sentence": "彼女はもう帰ったはずです。",
-      "translation": "She should have gone home already.",
-      "blank_target": "はず",
-      "wrong_choices": [
-        "ばかり",
-        "ところ",
-        "もの"
-      ],
-      "wrong_choice_explanations": [
-        "ばかり means 'just did' and states a recent action as fact — it doesn't fit here because we're expressing expectation, not certainty.",
-        "ところ means 'in the process of' and indicates ongoing action — it doesn't fit here because we're talking about an expected completed action.",
-        "もの means 'thing/because' and explains reasons — it doesn't fit here because we need an expression of logical expectation."
-      ],
-      "hiragana_full": "かのじょはもうかえったはずです",
-      "audio_alternatives": [
-        {
-          "kanji": "彼女はもう帰ったと思います。",
-          "hiragana_full": "かのじょはもうかえったとおもいます"
-        },
-        {
-          "kanji": "彼女はもう家に帰ったはずです。",
-          "hiragana_full": "かのじょはもううちにかえったはずです"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_031_3",
-      "example_sentence": "この薬を飲めば、明日には治るはずだ。",
-      "translation": "If you take this medicine, you should be better by tomorrow.",
-      "blank_target": "はず",
-      "wrong_choices": [
-        "べき",
-        "だろう",
-        "そう"
-      ],
-      "wrong_choice_explanations": [
-        "べき means 'should/ought to' expressing moral obligation — it doesn't fit here because we're expressing expectation based on medicine's effectiveness.",
-        "だろう means 'probably' and expresses uncertainty — it doesn't fit here because はずだ shows stronger logical expectation based on the medicine.",
-        "そう means 'looks like/seems' based on appearance — it doesn't fit here because we're expressing expectation based on logic, not visual signs."
-      ],
-      "hiragana_full": "このくすりをのめば、あしたにはなおるはずだ。",
-      "audio_alternatives": [
-        {
-          "kanji": "この薬を飲んだら、明日には治るはずです。",
-          "hiragana_full": "このくすりをのんだら、あしたにはなおるはずです。"
-        },
-        {
-          "kanji": "この薬を飲めば、明日には良くなるはずだ。",
-          "hiragana_full": "このくすりをのめば、あしたにはよくなるはずだ。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_031_4",
       "example_sentence": "田中さんは日本人だから、日本語ができるはずだ。",
       "translation": "Since Tanaka-san is Japanese, he should be able to speak Japanese.",
       "blank_target": "はず",
       "wrong_choices": [
-        "わけ",
+        "ばかり",
         "もの",
         "こと"
       ],
       "wrong_choice_explanations": [
-        "わけ means 'reason/it follows that' and states logical conclusions as fact — it doesn't fit here because はずだ is more natural for expectations about abilities.",
+        "ばかり means 'nothing but / just' — できるばかりだ is ungrammatical here and doesn't express an expectation drawn from Tanaka being Japanese, which はず does.",
         "もの means 'thing/it's natural that' and expresses natural consequences — it doesn't fit here because we need an expression of expectation, not natural law.",
         "こと means 'thing/fact' and doesn't express expectation — we need はずだ to show logical expectation based on nationality."
       ],
@@ -114,38 +59,11 @@
           "hiragana_full": "たなかさんはにほんじんだから、にほんごがはなせるはずだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
-      "id": "n4_031_5",
-      "example_sentence": "宿題をしたから、先生に褒められるはずだ。",
-      "translation": "Since I did my homework, I should be praised by the teacher.",
-      "blank_target": "はず",
-      "wrong_choices": [
-        "かもしれない",
-        "に違いない",
-        "でしょう"
-      ],
-      "wrong_choice_explanations": [
-        "かもしれない means 'might/maybe' and expresses possibility — it doesn't fit here because we're expressing logical expectation based on doing homework.",
-        "に違いない means 'must be/surely' and expresses strong certainty — it doesn't fit here because はずだ is more appropriate for this level of expectation.",
-        "でしょう means 'probably' and expresses general probability — it doesn't fit here because はずだ better shows expectation based on specific evidence."
-      ],
-      "hiragana_full": "しゅくだいをしたから、せんせいにほめられるはずだ。",
-      "audio_alternatives": [
-        {
-          "kanji": "宿題をしたので、先生に褒められるはずです。",
-          "hiragana_full": "しゅくだいをしたので、せんせいにほめられるはずです。"
-        },
-        {
-          "kanji": "宿題をやったから、先生に褒められるはずだ。",
-          "hiragana_full": "しゅくだいをやったから、せんせいにほめられるはずだ。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_031_6",
+      "id": "n4_031_3",
       "example_sentence": "このボタンを押すと、エレベーターが来るはずです。",
       "translation": "When you press this button, the elevator should come.",
       "blank_target": "はず",
@@ -170,38 +88,11 @@
           "hiragana_full": "このぼたんをおしたら、えれべーたーがくるはずです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
-      "id": "n4_031_7",
-      "example_sentence": "彼は約束したから、必ず来るはずだ。",
-      "translation": "Since he promised, he should definitely come.",
-      "blank_target": "はず",
-      "wrong_choices": [
-        "つもり",
-        "べきだ",
-        "わけだ"
-      ],
-      "wrong_choice_explanations": [
-        "つもり means 'intend to' and expresses the speaker's own intentions — it doesn't fit here because we're talking about someone else's expected action.",
-        "べきだ means 'should/ought to' expressing moral obligation — it doesn't fit here because we're expressing expectation based on a promise, not moral duty.",
-        "わけだ means 'it follows that' and states logical conclusions — it doesn't fit here because はずだ is more natural for expectations about promises."
-      ],
-      "hiragana_full": "かれはやくそくしたから、かならずくるはずだ。",
-      "audio_alternatives": [
-        {
-          "kanji": "彼は約束したので、必ず来るはずです。",
-          "hiragana_full": "かれはやくそくしたので、かならずくるはずです。"
-        },
-        {
-          "kanji": "約束したから、彼は必ず来るだろう。",
-          "hiragana_full": "やくそくしたから、かれはかならずくるだろう。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_031_8",
+      "id": "n4_031_4",
       "example_sentence": "今日は土曜日だから、銀行は閉まっているはずだ。",
       "translation": "Since today is Saturday, the bank should be closed.",
       "blank_target": "はず",
@@ -226,10 +117,11 @@
           "hiragana_full": "きょうはどようびだから、ぎんこうはしまっているでしょう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
-      "id": "n4_031_9",
+      "id": "n4_031_5",
       "example_sentence": "一生懸命勉強したから、試験に合格するはずだ。",
       "translation": "Since I studied hard, I should pass the exam.",
       "blank_target": "はず",
@@ -254,35 +146,188 @@
           "hiragana_full": "がんばってべんきょうしたから、しけんにごうかくするはずだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "合格",
+          "reading": "ごうかく",
+          "meaning": "passing (an exam)"
+        }
+      ]
+    },
+    {
+      "id": "n4_031_6",
+      "example_sentence": "田中さんはもう会社に着いているはずです。",
+      "translation": "Tanaka should have already arrived at the company.",
+      "blank_target": "はずです",
+      "wrong_choices": [
+        "ようです",
+        "らしいです",
+        "べきです"
+      ],
+      "wrong_choice_explanations": [
+        "ようです means 'it seems' based on the speaker's own observation, but here the speaker is stating a logical expectation, not reporting what something looks like.",
+        "らしいです means 'apparently/I heard,' conveying secondhand information, but the speaker is expressing a personal, confident expectation.",
+        "べきです means 'should' in the sense of moral obligation, but the sentence is about expecting something to be true, not about what someone ought to do."
+      ],
+      "hiragana_full": "たなかさんはもうかいしゃについているはずです。",
+      "audio_alternatives": [
+        {
+          "kanji": "田中さんはもう会社に到着しているはずです。",
+          "hiragana_full": "たなかさんはもうかいしゃにとうちゃくしているはずです。"
+        },
+        {
+          "kanji": "田中さんはもう会社に着いたはずです。",
+          "hiragana_full": "たなかさんはもうかいしゃについたはずです。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "着いて",
+          "reading": "ついて",
+          "meaning": "having arrived"
+        }
+      ]
+    },
+    {
+      "id": "n4_031_7",
+      "example_sentence": "彼は今、家にいるはずです。",
+      "translation": "He should be at home right now.",
+      "blank_target": "はずです",
+      "wrong_choices": [
+        "ようです",
+        "らしいです",
+        "みたいです"
+      ],
+      "wrong_choice_explanations": [
+        "ようです means 'it seems' based on the speaker's own observation, but the speaker isn't looking at him — it's a logical expectation about where he should be at this hour.",
+        "らしいです means 'apparently/I heard that' based on hearsay, but the sentence states the speaker's own expectation rather than relaying information from someone else.",
+        "みたいです means 'it looks like' as a casual observation, but the speaker is reasoning about where he should be, not describing how things appear."
+      ],
+      "hiragana_full": "かれはいま、いえにいるはずです。",
+      "audio_alternatives": [
+        {
+          "kanji": "彼は今、家にいるでしょう。",
+          "hiragana_full": "かれはいま、いえにいるでしょう。"
+        },
+        {
+          "kanji": "今、彼は家にいるはずです。",
+          "hiragana_full": "いま、かれはいえにいるはずです。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral"
+    },
+    {
+      "id": "n4_031_8",
+      "example_sentence": "セール中だから、今日はその商品が安いはずです。",
+      "translation": "Since there is a sale, that product should be cheap today.",
+      "blank_target": "はずです",
+      "wrong_choices": [
+        "かもしれません",
+        "ようです",
+        "らしいです"
+      ],
+      "wrong_choice_explanations": [
+        "かもしれません means 'might be,' expressing uncertainty, but the speaker knows there is a sale and therefore has a strong logical expectation, not just a vague possibility.",
+        "ようです means 'it seems' based on direct observation, but the speaker hasn't seen the price yet — they're reasoning logically from the fact that there's a sale.",
+        "らしいです means 'apparently / I heard,' conveying secondhand information, but the speaker is making their own logical deduction, not reporting hearsay."
+      ],
+      "hiragana_full": "せーるちゅうだから、きょうはそのしょうひんがやすいはずです。",
+      "audio_alternatives": [
+        {
+          "kanji": "セール中なので、今日はその商品が安いはずです。",
+          "hiragana_full": "せーるちゅうなので、きょうはそのしょうひんがやすいはずです。"
+        },
+        {
+          "kanji": "セール中だから、今日はその商品は安いはずだ。",
+          "hiragana_full": "せーるちゅうだから、きょうはそのしょうひんはやすいはずだ。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "商品",
+          "reading": "しょうひん",
+          "meaning": "product"
+        }
+      ]
+    },
+    {
+      "id": "n4_031_9",
+      "example_sentence": "メールはもう届いているはずです。",
+      "translation": "The email should have already arrived.",
+      "blank_target": "はずです",
+      "wrong_choices": [
+        "べきです",
+        "ようです",
+        "みたいです"
+      ],
+      "wrong_choice_explanations": [
+        "べきです means 'should/ought to' in the moral or normative sense, but the sentence is predicting whether the email has arrived, not stating what it morally should do.",
+        "ようです means 'it seems' based on direct observation, but the speaker hasn't checked the inbox — they're reasoning logically that the email has gone through.",
+        "みたいです means 'it looks like' as a casual observation, but はずです here states the speaker's confident expectation that the email arrived based on knowing it was sent."
+      ],
+      "hiragana_full": "めーるはもうとどいているはずです。",
+      "audio_alternatives": [
+        {
+          "kanji": "メールはもう着いているはずです。",
+          "hiragana_full": "めーるはもうついているはずです。"
+        },
+        {
+          "kanji": "メールはすでに届いているはずです。",
+          "hiragana_full": "めーるはすでにとどいているはずです。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "届いて",
+          "reading": "とどいて",
+          "meaning": "having arrived (mail)"
+        }
+      ]
     },
     {
       "id": "n4_031_10",
-      "example_sentence": "地図によると、ここにコンビニがあるはずだ。",
-      "translation": "According to the map, there should be a convenience store here.",
-      "blank_target": "はず",
+      "example_sentence": "この問題は簡単に解決するはずです。",
+      "translation": "This problem should be easily solved.",
+      "blank_target": "はずです",
       "wrong_choices": [
-        "らしい",
-        "ということ",
-        "そうだ"
+        "べきです",
+        "かもしれません",
+        "みたいです"
       ],
       "wrong_choice_explanations": [
-        "らしい means 'apparently/seems like' and shows less certain information — it doesn't fit here because maps are reliable sources that justify はずだ.",
-        "ということ means 'the fact that/it means that' and states information — it doesn't fit here because we need an expression of expectation based on the map.",
-        "そうだ means 'I heard/looks like' for hearsay or appearance — it doesn't fit here because はずだ better expresses expectation based on written information."
+        "べきです means 'should' in the sense of moral obligation or recommendation, but the sentence predicts an outcome based on logic, not what someone ought to do.",
+        "かもしれません means 'might be,' expressing uncertainty, but the speaker has confidence based on reasoning that the problem is easy to solve.",
+        "みたいです means 'it looks like / seems like' based on casual observation, but the sentence states a logical expectation about the outcome, not a visual impression."
       ],
-      "hiragana_full": "ちずによると、ここにコンビニがあるはずだ。",
+      "hiragana_full": "このもんだいはかんたんにかいけつするはずです。",
       "audio_alternatives": [
         {
-          "kanji": "地図を見ると、ここにコンビニがあるはずです。",
-          "hiragana_full": "ちずをみると、ここにコンビニがあるはずです。"
+          "kanji": "この問題は簡単に解けるはずです。",
+          "hiragana_full": "このもんだいはかんたんにとけるはずです。"
         },
         {
-          "kanji": "地図では、ここにコンビニがあるはずだ。",
-          "hiragana_full": "ちずでは、ここにコンビニがあるはずだ。"
+          "kanji": "この問題は簡単に解決できるはずです。",
+          "hiragana_full": "このもんだいはかんたんにかいけつできるはずです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "解決",
+          "reading": "かいけつ",
+          "meaning": "resolution"
+        }
+      ]
     }
   ]
 }

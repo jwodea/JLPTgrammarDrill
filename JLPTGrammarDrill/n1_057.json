@@ -10,13 +10,13 @@
       "translation": "His life is nothing but failures, and nothing goes well no matter what he does.",
       "blank_target": "ずくめ",
       "wrong_choices": [
-        "ばかり",
-        "だらけ",
+        "のせい",
+        "そのもの",
         "まみれ"
       ],
       "wrong_choice_explanations": [
-        "ばかり gives 'nothing but failures' too, but ずくめ packages the whole life as marked by failure as a single defining feature, while ばかり is closer to 'mostly/repeatedly' — slightly weaker as a totalizing label.",
-        "だらけ ('riddled with') typically pictures stray instances scattered through something (傷だらけ = covered in wounds); 失敗だらけ works in some contexts, but ずくめ is what flags 'composed entirely of' rather than 'scattered with.'",
+        "のせい marks cause ('because of failure'); 失敗のせいで would explain why nothing works out, not describe his life as consisting entirely of failure, which is what ずくめ asserts.",
+        "そのもの ('itself / the very thing') equates his life with failure as a single essence; ずくめ instead frames it as made up, through and through, of repeated failures.",
         "まみれ ('smeared with') requires a physical or quasi-physical sense of being coated (血まみれ, 泥まみれ); it doesn't fit abstract states like 失敗 the way ずくめ does."
       ],
       "hiragana_full": "かれのじんせいはしっぱいずくめで、なにをやってもうまくいかない。",
@@ -30,7 +30,15 @@
           "hiragana_full": "かれのじんせいはしっぱいばかりで、なにをやってもうまくいかない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "人生",
+          "reading": "じんせい",
+          "meaning": "life"
+        }
+      ]
     },
     {
       "id": "n1_057_2",
@@ -38,12 +46,12 @@
       "translation": "That company's new products are nothing but defects, with recalls happening one after another.",
       "blank_target": "ずくめ",
       "wrong_choices": [
-        "だらけ",
+        "のせい",
         "がちだ",
         "の連続"
       ],
       "wrong_choice_explanations": [
-        "だらけ ('riddled with') is the closest competitor — 欠陥だらけ is natural — but ずくめ frames the products as defined by defects from top to bottom, a stronger 'consisting entirely of' nuance than scattered flaws.",
+        "のせい marks cause ('because of the defects'); 欠陥のせいでリコールが相次ぐ explains why recalls happen, not that the products consist entirely of defects, which is what ずくめ asserts.",
         "がちだ on a stem (欠陥がち) reads as 'prone to defects,' a tendency rather than the saturated, finished state that drives the recall.",
         "の連続 ('a string of') needs to follow a noun that names an event, and 欠陥の連続 awkwardly turns the defect itself into a series; ずくめ packages all the defects into a single judgment about the line."
       ],
@@ -58,7 +66,20 @@
           "hiragana_full": "そのかいしゃのしんせいひんにはけっかんがおおく、リコールがぞくしゅつしている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "欠陥",
+          "reading": "けっかん",
+          "meaning": "defect; flaw"
+        },
+        {
+          "word": "相次いでいる",
+          "reading": "あいついでいる",
+          "meaning": "to occur one after another"
+        }
+      ]
     },
     {
       "id": "n1_057_3",
@@ -86,7 +107,20 @@
           "hiragana_full": "あのせいじかのことばはうそばかりで、だれもしんらいしていない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "発言",
+          "reading": "はつげん",
+          "meaning": "statement; remark"
+        },
+        {
+          "word": "信用",
+          "reading": "しんよう",
+          "meaning": "trust; credit"
+        }
+      ]
     },
     {
       "id": "n1_057_4",
@@ -114,7 +148,20 @@
           "hiragana_full": "このえいがはしつぼうのれんぞくで、きたいをもっていたかんきゃくをがっかりさせた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "失望",
+          "reading": "しつぼう",
+          "meaning": "disappointment"
+        },
+        {
+          "word": "観客",
+          "reading": "かんきゃく",
+          "meaning": "audience; spectators"
+        }
+      ]
     },
     {
       "id": "n1_057_5",
@@ -122,12 +169,12 @@
       "translation": "This year has been nothing but good things — a promotion, getting married, my child's birth — making it an unforgettable year.",
       "blank_target": "ずくめ",
       "wrong_choices": [
-        "ばかり",
+        "のおかげ",
         "だらけ",
         "続き"
       ],
       "wrong_choice_explanations": [
-        "ばかり works grammatically (いいことばかり) and is a near competitor, but it stresses that only good things keep happening; ずくめ packages the year itself as the 'all-good-things' kind, which fits the totalizing summary the speaker is giving.",
+        "のおかげ marks a positive cause ('thanks to good things'); いいことのおかげで explains why the year was memorable, not that the year consisted entirely of good things, which is what ずくめ asserts.",
         "だらけ carries a negative coloring — 傷だらけ, 借金だらけ — so いいことだらけ jars against how だらけ pictures scattered, unwelcome instances; only ずくめ comfortably takes a positive-marker noun like いいこと.",
         "続き ('a run of') depicts one good thing after another in sequence (いいこと続き); ずくめ steps back and labels the whole year as composed of good things, rather than tracking them as a chronological streak."
       ],
@@ -142,7 +189,15 @@
           "hiragana_full": "ことしはしょうしん、けっこん、しゅっさんといいことばかりで、ほんとうにしあわせないちねんだった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "昇進",
+          "reading": "しょうしん",
+          "meaning": "promotion"
+        }
+      ]
     },
     {
       "id": "n1_057_6",
@@ -170,7 +225,25 @@
           "hiragana_full": "そのくにのしはいかいきゅうはふはいにまみれており、こくみんからのしんらいをかんぜんにうしなっている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "支配層",
+          "reading": "しはいそう",
+          "meaning": "ruling class"
+        },
+        {
+          "word": "腐敗",
+          "reading": "ふはい",
+          "meaning": "corruption; decay"
+        },
+        {
+          "word": "信頼",
+          "reading": "しんらい",
+          "meaning": "trust; confidence"
+        }
+      ]
     },
     {
       "id": "n1_057_7",
@@ -198,7 +271,20 @@
           "hiragana_full": "そのくにのかんきょうせいさくはしっぱいばかりで、こくみんのけんこうががいされている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "失策",
+          "reading": "しっさく",
+          "meaning": "blunder; misstep"
+        },
+        {
+          "word": "損なわれている",
+          "reading": "そこなわれている",
+          "meaning": "is being harmed; impaired"
+        }
+      ]
     },
     {
       "id": "n1_057_8",
@@ -226,7 +312,25 @@
           "hiragana_full": "そのがくはのりろんはむじゅんばかりで、がくじゅつてきかちをもたない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "学派",
+          "reading": "がくは",
+          "meaning": "school (of thought)"
+        },
+        {
+          "word": "矛盾",
+          "reading": "むじゅん",
+          "meaning": "contradiction"
+        },
+        {
+          "word": "学術的",
+          "reading": "がくじゅつてき",
+          "meaning": "academic; scholarly"
+        }
+      ]
     },
     {
       "id": "n1_057_9",
@@ -254,7 +358,25 @@
           "hiragana_full": "そうぎにはぜんしんくろのふくそうでさんれつするのがれいぎである。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "葬儀",
+          "reading": "そうぎ",
+          "meaning": "funeral"
+        },
+        {
+          "word": "服装",
+          "reading": "ふくそう",
+          "meaning": "attire; dress"
+        },
+        {
+          "word": "参列",
+          "reading": "さんれつ",
+          "meaning": "attendance (at a ceremony)"
+        }
+      ]
     },
     {
       "id": "n1_057_10",
@@ -282,7 +404,25 @@
           "hiragana_full": "そのいりょうきかんのたいおうはしっぱいずくめであり、かんじゃからのしんらいをしんこくにそこなっている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "喪失",
+          "reading": "そうしつ",
+          "meaning": "loss"
+        },
+        {
+          "word": "深刻",
+          "reading": "しんこく",
+          "meaning": "serious; grave"
+        },
+        {
+          "word": "対応",
+          "reading": "たいおう",
+          "meaning": "response; handling"
+        }
+      ]
     }
   ]
 }

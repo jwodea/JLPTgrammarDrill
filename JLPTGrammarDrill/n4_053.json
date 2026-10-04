@@ -10,12 +10,12 @@
       "translation": "This summer is not as hot as last year.",
       "blank_target": "ほど",
       "wrong_choices": [
-        "より",
+        "でも",
         "から",
         "まで"
       ],
       "wrong_choice_explanations": [
-        "より means 'than' and pairs with positive comparisons — 今年の夏は去年より暑い means 'hotter than last year.' For the negative 'not as ~ as' framing here, ほど is required.",
+        "でも means 'even'; 去年でも暑くない would say 'even last year it wasn't hot,' an inclusion sense, not the comparison 〜ほど〜ない makes ('not as hot as last year').",
         "から means 'from/because' and expresses starting points or reasons; 去年からあつくない would read as 'hasn't been hot since last year,' not 'not as hot as last year.'",
         "まで means 'until/up to' and expresses limits or endpoints; 去年まであつくない would mean 'wasn't hot until last year,' not the degree comparison this sentence calls for."
       ],
@@ -30,7 +30,8 @@
           "hiragana_full": "ことしのなつはきょねんほどあつくありません"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n4_053_2",
@@ -38,12 +39,12 @@
       "translation": "This problem is not as difficult as I thought.",
       "blank_target": "ほど",
       "wrong_choices": [
-        "くらい",
+        "から",
         "だけ",
         "しか"
       ],
       "wrong_choice_explanations": [
-        "くらい means 'about/approximately' and expresses rough estimates, not the comparative 'not as ~ as' structure needed here.",
+        "から means 'because'; 思っていたから難しくない would give a reason ('because I was thinking so, it's not hard'), not the 'not as ~ as I thought' degree comparison 〜ほど〜ない expresses.",
         "だけ means 'only/just' and expresses limitation, but doesn't create the proper comparison with the negative adjective.",
         "しか means 'only' (with negative) and expresses exclusive limitation, not the comparative degree required here."
       ],
@@ -58,38 +59,11 @@
           "hiragana_full": "このもんだいはそれほどむずかしくないとおもう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n4_053_3",
-      "example_sentence": "彼は噂で聞いていたほどかっこよくない。",
-      "translation": "He's not as handsome as I heard in the rumors.",
-      "blank_target": "ほど",
-      "wrong_choices": [
-        "ように",
-        "みたい",
-        "らしく"
-      ],
-      "wrong_choice_explanations": [
-        "ように means 'like/as' for manner or purpose, but doesn't form the 'not as ~ as' comparison structure with negative adjectives.",
-        "みたい means 'like/similar to' for resemblance, but cannot be used in this comparative pattern with かっこよくない.",
-        "らしく means 'like/typical of' but doesn't create the proper degree comparison needed in this sentence."
-      ],
-      "hiragana_full": "かれはうわさできいていたほどかっこよくない",
-      "audio_alternatives": [
-        {
-          "kanji": "彼は噂で聞いたほどかっこよくない。",
-          "hiragana_full": "かれはうわさできいたほどかっこよくない"
-        },
-        {
-          "kanji": "噂で聞いていたほど彼はかっこよくない。",
-          "hiragana_full": "うわさできいていたほどかれはかっこよくない"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_053_4",
       "example_sentence": "東京は想像していたほど人が多くない。",
       "translation": "Tokyo doesn't have as many people as I imagined.",
       "blank_target": "ほど",
@@ -114,10 +88,18 @@
           "hiragana_full": "とうきょうはそうぞうしたよりひとがすくない"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "想像",
+          "reading": "そうぞう",
+          "meaning": "imagination"
+        }
+      ]
     },
     {
-      "id": "n4_053_5",
+      "id": "n4_053_4",
       "example_sentence": "この料理は見た目ほどおいしくない。",
       "translation": "This dish is not as delicious as it looks.",
       "blank_target": "ほど",
@@ -142,38 +124,18 @@
           "hiragana_full": "このりょうりはみかけほどおいしくない"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_053_6",
-      "example_sentence": "新しい仕事は前の仕事ほど大変じゃない。",
-      "translation": "The new job is not as tough as the previous job.",
-      "blank_target": "ほど",
-      "wrong_choices": [
-        "などは",
-        "なんか",
-        "なんて"
-      ],
-      "wrong_choice_explanations": [
-        "などは means 'things like ~ (topic)' for introducing examples as topics, not for degree comparisons between jobs.",
-        "なんか means 'something like/kind of' for vagueness, but doesn't create the comparative structure with 大変じゃない.",
-        "なんて means 'something like/such as' for examples or surprise, not for the 'not as ~ as' comparison needed here."
-      ],
-      "hiragana_full": "あたらしいしごとはまえのしごとほどたいへんじゃない",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
         {
-          "kanji": "新しい仕事は前の仕事ほど大変ではない。",
-          "hiragana_full": "あたらしいしごとはまえのしごとほどたいへんではない"
-        },
-        {
-          "kanji": "新しい仕事は前の仕事ほど大変じゃありません。",
-          "hiragana_full": "あたらしいしごとはまえのしごとほどたいへんじゃありません"
+          "word": "見た目",
+          "reading": "みため",
+          "meaning": "appearance, looks"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n4_053_7",
+      "id": "n4_053_5",
       "example_sentence": "今日は昨日ほど寒くない。",
       "translation": "Today is not as cold as yesterday.",
       "blank_target": "ほど",
@@ -198,10 +160,11 @@
           "hiragana_full": "きょうはきのうほどさむくないです"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
-      "id": "n4_053_8",
+      "id": "n4_053_6",
       "example_sentence": "この映画は評判ほど面白くなかった。",
       "translation": "This movie was not as interesting as its reputation.",
       "blank_target": "ほど",
@@ -226,22 +189,148 @@
           "hiragana_full": "このえいがはひょうばんほどよくなかった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "評判",
+          "reading": "ひょうばん",
+          "meaning": "reputation, buzz"
+        }
+      ]
+    },
+    {
+      "id": "n4_053_7",
+      "example_sentence": "彼は噂で聞いていたほどかっこよくない。",
+      "translation": "He's not as handsome as I heard in the rumors.",
+      "blank_target": "ほど",
+      "wrong_choices": [
+        "まで",
+        "みたい",
+        "らしく"
+      ],
+      "wrong_choice_explanations": [
+        "まで means 'until/even' and marks a limit, but it cannot set up the comparison standard before かっこよくない; only ほど forms 'not as ~ as'.",
+        "みたい means 'like/similar to' for resemblance, but cannot be used in this comparative pattern with かっこよくない.",
+        "らしく means 'like/typical of' but doesn't create the proper degree comparison needed in this sentence."
+      ],
+      "hiragana_full": "かれはうわさできいていたほどかっこよくない",
+      "audio_alternatives": [
+        {
+          "kanji": "彼は噂で聞いたほどかっこよくない。",
+          "hiragana_full": "かれはうわさできいたほどかっこよくない"
+        },
+        {
+          "kanji": "噂で聞いていたほど彼はかっこよくない。",
+          "hiragana_full": "うわさできいていたほどかれはかっこよくない"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "噂",
+          "reading": "うわさ",
+          "meaning": "rumor"
+        }
+      ]
+    },
+    {
+      "id": "n4_053_8",
+      "example_sentence": "期待したほど、結果は良くありませんでした。",
+      "translation": "The results were not as good as I expected.",
+      "blank_target": "したほど",
+      "wrong_choices": [
+        "したとおり",
+        "したみたいに",
+        "したばかり"
+      ],
+      "wrong_choice_explanations": [
+        "〜とおり means 'exactly as expected,' implying the expectation was met; but the results fell short of expectations, so ほど〜ない ('not as good as') is needed.",
+        "〜みたいに means 'like / seemingly,' resemblance not degree; ほど is the comparative 'not as ~ as' form.",
+        "〜たばかり means 'just did,' marking a recently completed action, not a standard of comparison; the negative 'not as good as expected' requires ほど."
+      ],
+      "hiragana_full": "きたいしたほど、けっかはよくありませんでした。",
+      "audio_alternatives": [
+        {
+          "kanji": "期待していたほど、結果は良くなかった。",
+          "hiragana_full": "きたいしていたほど、けっかはよくなかった。"
+        },
+        {
+          "kanji": "思ったより、結果は良くありませんでした。",
+          "hiragana_full": "おもったより、けっかはよくありませんでした。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "期待",
+          "reading": "きたい",
+          "meaning": "expectation"
+        },
+        {
+          "word": "結果",
+          "reading": "けっか",
+          "meaning": "result"
+        }
+      ]
     },
     {
       "id": "n4_053_9",
+      "example_sentence": "この山登りは想像したほど難しくありませんでした。",
+      "translation": "Mountain climbing was not as difficult as I imagined.",
+      "blank_target": "したほど",
+      "wrong_choices": [
+        "したばかり",
+        "したきり",
+        "したはず"
+      ],
+      "wrong_choice_explanations": [
+        "〜たばかり means 'just did,' marking a recently completed action; it cannot serve as the comparison standard, so ほど〜ない is required.",
+        "〜たきり means 'and then never again / since doing,' describing an action left unchanged, not a comparison of degree; ほど is needed for 'not as ~ as.'",
+        "〜たはず means 'should have / supposedly did,' expressing expectation, and cannot be followed directly by an adjective as a comparison standard; ほど is required."
+      ],
+      "hiragana_full": "このやまのぼりはそうぞうしたほどむずかしくありませんでした。",
+      "audio_alternatives": [
+        {
+          "kanji": "この山登りは想像していたほど難しくなかったです。",
+          "hiragana_full": "このやまのぼりはそうぞうしていたほどむずかしくなかったです。"
+        },
+        {
+          "kanji": "この山登りは思ったより難しくありませんでした。",
+          "hiragana_full": "このやまのぼりはおもったよりむずかしくありませんでした。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "山登り",
+          "reading": "やまのぼり",
+          "meaning": "mountain climbing"
+        },
+        {
+          "word": "想像",
+          "reading": "そうぞう",
+          "meaning": "imagination"
+        }
+      ]
+    },
+    {
+      "id": "n4_053_10",
       "example_sentence": "息子は父親ほど背が高くない。",
       "translation": "The son is not as tall as his father.",
       "blank_target": "ほど",
       "wrong_choices": [
-        "こそ",
-        "さえ",
-        "すら"
+        "から",
+        "ので",
+        "ために"
       ],
       "wrong_choice_explanations": [
-        "こそ means 'indeed/precisely' for emphasis, but doesn't create the height comparison between father and son.",
-        "さえ means 'even/as long as' for inclusion or minimum conditions, not for the comparative degree needed here.",
-        "すら means 'even' (literary) for emphasis, but cannot form the 'not as ~ as' structure with 背が高くない."
+        "から means 'from/because' and cannot mark 父親 as the standard of comparison for 背が高くない; only ほど forms 'not as tall as'.",
+        "ので means 'because' and attaches to clauses, not directly to a noun like 父親; it cannot create the height comparison that ほど does.",
+        "ために means 'for/in order to' and needs の after a noun; it doesn't create the 'not as ~ as' comparison between son and father."
       ],
       "hiragana_full": "むすこはちちおやほどせがたかくない",
       "audio_alternatives": [
@@ -254,35 +343,15 @@
           "hiragana_full": "むすこのせはちちおやほどたかくない"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_053_10",
-      "example_sentence": "この本は期待していたほど役に立たない。",
-      "translation": "This book is not as useful as I expected.",
-      "blank_target": "ほど",
-      "wrong_choices": [
-        "わりに",
-        "のに",
-        "ものの"
-      ],
-      "wrong_choice_explanations": [
-        "わりに means 'considering/for' for proportion or consideration, but doesn't create the comparison between expectation and reality.",
-        "のに means 'although/despite' for contrast, but cannot form the 'not as ~ as' structure needed here.",
-        "ものの means 'although/but' for contrast, not for the specific degree comparison required in this sentence."
-      ],
-      "hiragana_full": "このほんはきたいしていたほどやくにたたない",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
         {
-          "kanji": "この本は思っていたほど役に立たない。",
-          "hiragana_full": "このほんはおもっていたほどやくにたたない"
-        },
-        {
-          "kanji": "この本は期待したほど役に立ちません。",
-          "hiragana_full": "このほんはきたいしたほどやくにたちません"
+          "word": "父親",
+          "reading": "ちちおや",
+          "meaning": "father"
         }
-      ],
-      "audio_eligible": true
+      ]
     }
   ]
 }

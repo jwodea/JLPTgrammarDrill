@@ -30,7 +30,8 @@
           "hiragana_full": "しゅくだいをぜんぶやりおえた"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n4_046_2",
@@ -38,12 +39,12 @@
       "translation": "I read this book completely in one day.",
       "blank_target": "き",
       "wrong_choices": [
-        "おわ",
+        "はじめ",
         "なが",
         "かけ"
       ],
       "wrong_choice_explanations": [
-        "おわ creates 'read and finish' but doesn't emphasize the completeness like きる does.",
+        "はじめ (from 読み始める 'begin reading') marks the start of the action — the opposite of the completion 〜きる expresses — and it can't fuse with the っ of 読みきった (you would need 読み始めた). The sentence stresses reading the whole book through, so a 'begin' verb is wrong.",
         "なが means 'while doing' — it doesn't fit here because we need a verb ending that shows completion.",
         "かけ means 'begin to' or 'halfway' — it doesn't fit here because we're expressing complete reading, not partial."
       ],
@@ -58,7 +59,8 @@
           "hiragana_full": "いちにちでこのほんをぜんぶよんだ"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n4_046_3",
@@ -86,7 +88,8 @@
           "hiragana_full": "じゅっきろのまらそんをはしりとおした"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n4_046_4",
@@ -114,7 +117,8 @@
           "hiragana_full": "ぜんぶのたべものをたべきった"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n4_046_5",
@@ -142,7 +146,8 @@
           "hiragana_full": "あめにかんぜんにぬれてしまった"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n4_046_6",
@@ -170,7 +175,8 @@
           "hiragana_full": "ともだちのことをわすれてしまわないでください"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n4_046_7",
@@ -198,7 +204,20 @@
           "hiragana_full": "おかねをつかいはたしてさいふがからになった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "お財布",
+          "reading": "おさいふ",
+          "meaning": "wallet"
+        },
+        {
+          "word": "空",
+          "reading": "から",
+          "meaning": "empty"
+        }
+      ]
     },
     {
       "id": "n4_046_8",
@@ -226,7 +245,15 @@
           "hiragana_full": "つかれはててうごけない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "動けない",
+          "reading": "うごけない",
+          "meaning": "cannot move"
+        }
+      ]
     },
     {
       "id": "n4_046_9",
@@ -254,7 +281,9 @@
           "hiragana_full": "はなしをぜんぶきくことができなかった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "blank_occurrence": 2
     },
     {
       "id": "n4_046_10",
@@ -282,7 +311,8 @@
           "hiragana_full": "えいがをさいごまでちゃんとみた"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     }
   ]
 }

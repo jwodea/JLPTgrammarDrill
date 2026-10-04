@@ -6,34 +6,6 @@
   "exercises": [
     {
       "id": "n2_044_1",
-      "example_sentence": "彼の成功は、毎日の努力の積み重ねにほかならない。",
-      "translation": "His success is nothing other than the accumulation of daily efforts.",
-      "blank_target": "にほかならない",
-      "wrong_choices": [
-        "にすぎない",
-        "にちがいない",
-        "ばかりだ"
-      ],
-      "wrong_choice_explanations": [
-        "にすぎない means 'merely/only' and would downplay the importance, but here we want to emphasize that success IS precisely the result of effort.",
-        "にちがいない expresses strong probability/certainty about a conclusion, but here we're making a definitive statement about what something IS.",
-        "ばかりだ means 'only/just' and suggests limitation, but the sentence emphasizes the positive identification of the cause."
-      ],
-      "hiragana_full": "かれのせいこうは、まいにちのどりょくのつみかさねにほかならない。",
-      "audio_alternatives": [
-        {
-          "kanji": "彼の成功は、毎日の努力を積み重ねた結果に過ぎない。",
-          "hiragana_full": "かれのせいこうは、まいにちのどりょくをつみかさねたけっかにすぎない。"
-        },
-        {
-          "kanji": "彼の成功は、日々の努力の積み重ねによるものにほかならない。",
-          "hiragana_full": "かれのせいこうは、ひびのどりょくのつみかさねによるものにほかならない。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_044_2",
       "example_sentence": "この問題の原因は、コミュニケーション不足にほかならない。",
       "translation": "The cause of this problem is precisely a lack of communication.",
       "blank_target": "にほかならない",
@@ -58,10 +30,23 @@
           "hiragana_full": "このもんだいのげんいんはまさにこみゅにけーしょんぶそくだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "原因",
+          "reading": "げんいん",
+          "meaning": "cause"
+        },
+        {
+          "word": "不足",
+          "reading": "ぶそく",
+          "meaning": "shortage/lack"
+        }
+      ]
     },
     {
-      "id": "n2_044_3",
+      "id": "n2_044_2",
       "example_sentence": "その美しさは、職人の技と想像力の結晶にほかならない。",
       "translation": "That beauty is nothing other than the crystallization of the craftsman's skill and imagination.",
       "blank_target": "にほかならない",
@@ -86,38 +71,33 @@
           "hiragana_full": "そのうつくしさこそ、しょくにんのわざとそうぞうりょくのけっしょうにほかならない。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_044_4",
-      "example_sentence": "彼女の怒りは、深い失望の表れにほかならない。",
-      "translation": "Her anger is nothing other than a manifestation of deep disappointment.",
-      "blank_target": "にほかならない",
-      "wrong_choices": [
-        "にちがいない",
-        "のことだ",
-        "だけのことだ"
-      ],
-      "wrong_choice_explanations": [
-        "にちがいない expresses strong inference/deduction, but here the speaker states with certainty what the anger truly represents.",
-        "のことだ is used for explanations or references, but lacks the emphatic assertion quality of にほかならない.",
-        "だけのことだ suggests something is 'just that simple,' minimizing importance, contrary to the speaker's emphasis."
-      ],
-      "hiragana_full": "かのじょのいかりは、ふかいしつぼうのあらわれにほかならない。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "彼女の怒りは、深い失望の表れに過ぎない。",
-          "hiragana_full": "かのじょのいかりは、ふかいしつぼうのあらわれにすぎない。"
+          "word": "職人",
+          "reading": "しょくにん",
+          "meaning": "craftsman"
         },
         {
-          "kanji": "彼女の怒りは、深い失望の表れでしかない。",
-          "hiragana_full": "かのじょのいかりは、ふかいしつぼうのあらわれでしかない。"
+          "word": "技",
+          "reading": "わざ",
+          "meaning": "skill/technique"
+        },
+        {
+          "word": "想像力",
+          "reading": "そうぞうりょく",
+          "meaning": "imagination"
+        },
+        {
+          "word": "結晶",
+          "reading": "けっしょう",
+          "meaning": "crystallization/fruit"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n2_044_5",
+      "id": "n2_044_3",
       "example_sentence": "この災害は、人間の自然への過度な干渉の結果にほかならない。",
       "translation": "This disaster is precisely the result of excessive human interference with nature.",
       "blank_target": "にほかならない",
@@ -142,21 +122,39 @@
           "hiragana_full": "このさいがいこそ、にんげんのしぜんへのかどなかんしょうがもたらしたけっかだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "災害",
+          "reading": "さいがい",
+          "meaning": "disaster"
+        },
+        {
+          "word": "過度",
+          "reading": "かど",
+          "meaning": "excessive"
+        },
+        {
+          "word": "干渉",
+          "reading": "かんしょう",
+          "meaning": "interference"
+        }
+      ]
     },
     {
-      "id": "n2_044_6",
+      "id": "n2_044_4",
       "example_sentence": "その行動は、純粋な善意からのものにほかならない。",
       "translation": "That action stems from nothing other than pure goodwill.",
       "blank_target": "にほかならない",
       "wrong_choices": [
-        "に決まっている",
-        "というべきだ",
+        "に越したことはない",
+        "とは限らない",
         "にすぎない"
       ],
       "wrong_choice_explanations": [
-        "に決まっている expresses strong certainty based on obvious evidence, but doesn't carry the emphatic identification meaning of にほかならない.",
-        "というべきだ expresses what should be said/considered, but the speaker is stating what something definitively IS, not what it should be called.",
+        "に越したことはない means 'nothing is better than / it is best to' and gives a recommendation; it cannot identify what the action stems from, which にほかならない does.",
+        "とは限らない means 'is not necessarily' and hedges the claim, the opposite of the categorical assertion that にほかならない makes here.",
         "にすぎない would downplay the action as 'merely' from goodwill, but the speaker emphasizes goodwill as the precise source."
       ],
       "hiragana_full": "そのこうどうは、じゅんすいなぜんいからのものにほかならない。",
@@ -170,49 +168,39 @@
           "hiragana_full": "そのこうどうは、じゅんすいなぜんいいがいのなにものでもない。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_044_7",
-      "example_sentence": "その決定は、全員の意見を尊重した結果にほかならない。",
-      "translation": "That decision is nothing other than the result of respecting everyone's opinions.",
-      "blank_target": "にほかならない",
-      "wrong_choices": [
-        "はずだ",
-        "ものだ",
-        "と言ってもよい"
-      ],
-      "wrong_choice_explanations": [
-        "はずだ expresses what should logically be the case, but the speaker is definitively stating what the decision IS.",
-        "ものだ is used for general truths or emotional emphasis, but doesn't provide the specific emphatic identification of にほかならない.",
-        "と言ってもよい hedges the claim as 'one could say' — a permission to characterize it that way; にほかならない skips the hedge and asserts it as precisely that."
-      ],
-      "hiragana_full": "そのけっていは、ぜんいんのいけんをそんちょうしたけっかにほかならない。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "その決定は、全員の意見を尊重した結果に過ぎない。",
-          "hiragana_full": "そのけっていは、ぜんいんのいけんをそんちょうしたけっかにすぎない。"
+          "word": "純粋",
+          "reading": "じゅんすい",
+          "meaning": "pure"
         },
         {
-          "kanji": "その決定こそ、全員の意見を尊重した結果である。",
-          "hiragana_full": "そのけっていこそ、ぜんいんのいけんをそんちょうしたけっかである。"
+          "word": "善意",
+          "reading": "ぜんい",
+          "meaning": "goodwill"
+        },
+        {
+          "word": "行動",
+          "reading": "こうどう",
+          "meaning": "action"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n2_044_8",
+      "id": "n2_044_5",
       "example_sentence": "この製品の品質は、開発者の情熱とこだわりにほかならない。",
       "translation": "This product's quality is precisely the developer's passion and dedication.",
       "blank_target": "にほかならない",
       "wrong_choices": [
-        "によるものだ",
-        "というべきだ",
+        "とは限らない",
+        "に越したことはない",
         "らしい"
       ],
       "wrong_choice_explanations": [
-        "によるものだ simply indicates causation, but doesn't carry the emphatic 'nothing other than' assertion of にほかならない.",
-        "というべきだ says 'should be called' — a normative judgment about how to label the quality; にほかならない skips the recommendation and asserts that it simply IS that.",
+        "とは限らない means 'is not necessarily' and would cast doubt on the link between quality and the developer's passion, whereas the speaker asserts it categorically.",
+        "に越したことはない means 'nothing is better than / it is best to' and gives a recommendation; it cannot identify what the product's quality is.",
         "らしい expresses hearsay or appearance, but the speaker is making a definitive statement about what the quality truly represents."
       ],
       "hiragana_full": "このせいひんのひんしつは、かいはつしゃのじょうねつとこだわりにほかならない。",
@@ -226,10 +214,28 @@
           "hiragana_full": "このせいひんのひんしつこそ、かいはつしゃのじょうねつとこだわりのけっかにほかならない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "開発者",
+          "reading": "かいはつしゃ",
+          "meaning": "developer"
+        },
+        {
+          "word": "情熱",
+          "reading": "じょうねつ",
+          "meaning": "passion"
+        },
+        {
+          "word": "こだわり",
+          "reading": "こだわり",
+          "meaning": "commitment/particularity"
+        }
+      ]
     },
     {
-      "id": "n2_044_9",
+      "id": "n2_044_6",
       "example_sentence": "彼の発言は、心からの謝罪にほかならない。",
       "translation": "His statement is nothing other than a heartfelt apology.",
       "blank_target": "にほかならない",
@@ -254,10 +260,23 @@
           "hiragana_full": "かれのことばは、こころからのしゃざいにほかならない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "発言",
+          "reading": "はつげん",
+          "meaning": "remark/statement"
+        },
+        {
+          "word": "謝罪",
+          "reading": "しゃざい",
+          "meaning": "apology"
+        }
+      ]
     },
     {
-      "id": "n2_044_10",
+      "id": "n2_044_7",
       "example_sentence": "その成果は、チーム全体の協力なしには生まれなかったものにほかならない。",
       "translation": "That achievement is nothing other than something that could not have been born without the cooperation of the entire team.",
       "blank_target": "にほかならない",
@@ -282,7 +301,143 @@
           "hiragana_full": "そのせいかは、まさにちーむぜんたいのきょうりょくなしにはうまれなかったものだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "成果",
+          "reading": "せいか",
+          "meaning": "result/achievement"
+        },
+        {
+          "word": "協力",
+          "reading": "きょうりょく",
+          "meaning": "cooperation"
+        }
+      ]
+    },
+    {
+      "id": "n2_044_8",
+      "example_sentence": "この事故は運転手の不注意にほかならない。",
+      "translation": "This accident is nothing other than the driver's carelessness.",
+      "blank_target": "にほかならない",
+      "wrong_choices": [
+        "ずにはいられない",
+        "にすぎない",
+        "かもしれない"
+      ],
+      "wrong_choice_explanations": [
+        "ずにはいられない means 'can't help doing' and attaches to a verb's negative stem; it can't follow a noun like 不注意 or identify what the accident is, which にほかならない does.",
+        "にすぎない means 'merely/only' and would downplay the significance, while にほかならない emphasizes that carelessness is exactly what the accident represents.",
+        "かもしれない expresses possibility/uncertainty, but the speaker is making a definitive assertion that the accident is precisely the driver's carelessness."
+      ],
+      "hiragana_full": "このじこはうんてんしゅのふちゅういにほかならない。",
+      "audio_alternatives": [
+        {
+          "kanji": "この事故は運転手の不注意によるものだ。",
+          "hiragana_full": "このじこはうんてんしゅのふちゅういによるものだ。"
+        },
+        {
+          "kanji": "この事故は運転手の不注意が原因にほかならない。",
+          "hiragana_full": "このじこはうんてんしゅのふちゅういがげんいんにほかならない。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "不注意",
+          "reading": "ふちゅうい",
+          "meaning": "carelessness"
+        },
+        {
+          "word": "運転手",
+          "reading": "うんてんしゅ",
+          "meaning": "driver"
+        }
+      ]
+    },
+    {
+      "id": "n2_044_9",
+      "example_sentence": "その問題の原因は管理体制の不備にほかならない。",
+      "translation": "The cause of that problem is nothing other than deficient management systems.",
+      "blank_target": "にほかならない",
+      "wrong_choices": [
+        "とは限らない",
+        "にすぎない",
+        "に越したことはない"
+      ],
+      "wrong_choice_explanations": [
+        "とは限らない means 'is not necessarily' and hedges the claim, but the speaker emphatically identifies the deficient management system as the cause.",
+        "にすぎない means 'merely/only' and downplays the cause, whereas the sentence emphatically identifies the deficient management system as the one true cause.",
+        "に越したことはない means 'nothing is better than / it is best to' and gives a recommendation; it cannot identify the cause of the problem, which にほかならない does emphatically."
+      ],
+      "hiragana_full": "そのもんだいのげんいんはかんりたいせいのふびにほかならない。",
+      "audio_alternatives": [
+        {
+          "kanji": "その問題の原因は管理体制の不備以外の何物でもない。",
+          "hiragana_full": "そのもんだいのげんいんはかんりたいせいのふびいがいのなにものでもない。"
+        },
+        {
+          "kanji": "その問題の原因こそ管理体制の不備だ。",
+          "hiragana_full": "そのもんだいのげんいんこそかんりたいせいのふびだ。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "管理体制",
+          "reading": "かんりたいせい",
+          "meaning": "management system"
+        },
+        {
+          "word": "不備",
+          "reading": "ふび",
+          "meaning": "deficiency / defect"
+        }
+      ]
+    },
+    {
+      "id": "n2_044_10",
+      "example_sentence": "彼女の優秀さは天性の才能にほかならない。",
+      "translation": "Her excellence is nothing other than natural talent.",
+      "blank_target": "にほかならない",
+      "wrong_choices": [
+        "に恵まれている",
+        "を持っている",
+        "に限らない"
+      ],
+      "wrong_choice_explanations": [
+        "に恵まれている means 'blessed with' and describes possession of talent, but にほかならない definitively states what her excellence actually is.",
+        "を持っている simply means 'has/possesses' talent, while にほかならない makes an emphatic assertion about the nature of her excellence.",
+        "に限らない means 'is not limited to' and would say her excellence goes beyond natural talent, undercutting the emphatic identification that にほかならない makes."
+      ],
+      "hiragana_full": "かのじょのゆうしゅうさはてんせいのさいのうにほかならない。",
+      "audio_alternatives": [
+        {
+          "kanji": "彼女の優秀さは天性の才能に他ならない。",
+          "hiragana_full": "かのじょのゆうしゅうさはてんせいのさいのうにほかならない。"
+        },
+        {
+          "kanji": "彼女の優秀さはまさに天性の才能だ。",
+          "hiragana_full": "かのじょのゆうしゅうさはまさにてんせいのさいのうだ。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "天性",
+          "reading": "てんせい",
+          "meaning": "innate / natural"
+        },
+        {
+          "word": "才能",
+          "reading": "さいのう",
+          "meaning": "talent"
+        }
+      ]
     }
   ]
 }

@@ -6,6 +6,153 @@
   "exercises": [
     {
       "id": "n4_066_1",
+      "example_sentence": "今、朝食を作っているところなので、少しお待ちください。",
+      "translation": "I am right in the middle of making breakfast, so please wait a moment.",
+      "blank_target": "ているところなので",
+      "wrong_choices": [
+        "たところなので",
+        "たばかりなので",
+        "ていました"
+      ],
+      "wrong_choice_explanations": [
+        "たところ means 'just finished doing,' but the speaker is still making breakfast right now, not done with it.",
+        "たばかり means '(I) just recently finished making it,' a completed action, but the speaker is still in the middle of cooking, which needs ているところ.",
+        "ていました means 'was doing' (past progressive), but the speaker is currently in the process—present tense ているところ is needed."
+      ],
+      "hiragana_full": "いま、ちょうしょくをつくっているところなので、すこしおまちください。",
+      "audio_alternatives": [
+        {
+          "kanji": "今、朝ごはんを作っているところなので、少しお待ちください。",
+          "hiragana_full": "いま、あさごはんをつくっているところなので、すこしおまちください。"
+        },
+        {
+          "kanji": "今、朝食を作っている最中なので、少しお待ちください。",
+          "hiragana_full": "いま、ちょうしょくをつくっているさいちゅうなので、すこしおまちください。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "朝食",
+          "reading": "ちょうしょく",
+          "meaning": "breakfast"
+        }
+      ]
+    },
+    {
+      "id": "n4_066_2",
+      "example_sentence": "今、母と電話をしているところです。",
+      "translation": "I'm in the middle of a phone call with my mother right now.",
+      "blank_target": "しているところです",
+      "wrong_choices": [
+        "していることです",
+        "しているうちです",
+        "しているあいだです"
+      ],
+      "wrong_choice_explanations": [
+        "こと turns the action into a fact or 'thing'; 今、母と電話をしていることです doesn't make sense as a description of the present moment — ところです says you are in the middle of it.",
+        "うち ('while') sets a time frame for another event (電話をしているうちに寝てしまった) and needs a following clause; it can't end the sentence with です.",
+        "あいだ ('while/during') also needs a following clause (電話をしているあいだ、待っていてください); it can't close the sentence to describe what you are doing right now."
+      ],
+      "hiragana_full": "いま、ははとでんわをしているところです。",
+      "audio_alternatives": [
+        {
+          "kanji": "今、母と電話中です。",
+          "hiragana_full": "いま、ははとでんわちゅうです。"
+        },
+        {
+          "kanji": "今、母と電話しているところだ。",
+          "hiragana_full": "いま、ははとでんわしているところだ。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "電話",
+          "reading": "でんわ",
+          "meaning": "telephone call"
+        }
+      ]
+    },
+    {
+      "id": "n4_066_3",
+      "example_sentence": "今、テニスをしているところです。",
+      "translation": "I am right in the middle of playing tennis.",
+      "blank_target": "しているところです",
+      "wrong_choices": [
+        "したばかりです",
+        "するところです",
+        "していたところです"
+      ],
+      "wrong_choice_explanations": [
+        "したばかりです means 'just finished,' but the sentence describes an action in progress, not something recently completed.",
+        "するところです means 'about to do,' but the sentence describes an action currently happening, not about to happen.",
+        "していたところです means 'was in the process of', but the sentence requires the present ているところ, not the past form."
+      ],
+      "hiragana_full": "いま、テニスをしているところです。",
+      "audio_alternatives": [
+        {
+          "kanji": "今、テニスをしている最中です。",
+          "hiragana_full": "いま、テニスをしているさいちゅうです。"
+        },
+        {
+          "kanji": "今、ちょうどテニスをしているところです。",
+          "hiragana_full": "いま、ちょうどテニスをしているところです。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral"
+    },
+    {
+      "id": "n4_066_4",
+      "example_sentence": "今、店の商品を並べているところなので、手伝ってください。",
+      "translation": "I'm in the middle of putting out the store's goods, so please help me.",
+      "blank_target": "べているところなので",
+      "wrong_choices": [
+        "べたところなので",
+        "べてしまったので",
+        "べていたので"
+      ],
+      "wrong_choice_explanations": [
+        "べたところなので means 'because I've just finished arranging them', which makes asking for help pointless.",
+        "べてしまったので means 'because I've finished arranging them', so there would be nothing left to help with.",
+        "べていたので means 'because I was arranging them', a past action, which clashes with 今 (right now) and the request for help."
+      ],
+      "hiragana_full": "いま、みせのしょうひんをならべているところなので、てつだってください。",
+      "audio_alternatives": [
+        {
+          "kanji": "今、店の商品を並べている最中なので、手伝ってください。",
+          "hiragana_full": "いま、みせのしょうひんをならべているさいちゅうなので、てつだってください。"
+        },
+        {
+          "kanji": "今、店の商品を並べているところだから、手伝って。",
+          "hiragana_full": "いま、みせのしょうひんをならべているところだから、てつだって。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "商品",
+          "reading": "しょうひん",
+          "meaning": "goods"
+        },
+        {
+          "word": "並べて",
+          "reading": "ならべて",
+          "meaning": "arranging, lining up"
+        },
+        {
+          "word": "手伝って",
+          "reading": "てつだって",
+          "meaning": "helping"
+        }
+      ]
+    },
+    {
+      "id": "n4_066_5",
       "example_sentence": "今、宿題をしているところです。",
       "translation": "I'm in the middle of doing homework right now.",
       "blank_target": "ている",
@@ -30,10 +177,11 @@
           "hiragana_full": "ただいましゅくだいをしているところです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
-      "id": "n4_066_2",
+      "id": "n4_066_6",
       "example_sentence": "電話をかけたとき、彼は料理を作っているところだった。",
       "translation": "When I called him, he was in the middle of cooking.",
       "blank_target": "ている",
@@ -58,38 +206,11 @@
           "hiragana_full": "でんわをかけたとき、かれはりょうりのさいちゅうだった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
-      "id": "n4_066_3",
-      "example_sentence": "すみません、今会議をしているところなので、後で連絡します。",
-      "translation": "Sorry, I'm in the middle of a meeting right now, so I'll contact you later.",
-      "blank_target": "ている",
-      "wrong_choices": [
-        "た",
-        "ようとしている",
-        "ていた"
-      ],
-      "wrong_choice_explanations": [
-        "た would yield 会議をしたところなので ('since I just finished a meeting'), but the excuse for the delay is that the meeting is happening right now — ているところ is required.",
-        "ようとしている would yield 会議をしようとしているところ ('I'm about to start a meeting'), placing the meeting before it has begun; the speaker is already inside it.",
-        "ていた would yield 会議をしていたところ ('I was in the middle of a meeting'), shifting the action to the past; 今 demands the present-progressive ているところ."
-      ],
-      "hiragana_full": "すみません、いまかいぎをしているところなので、あとでれんらくします。",
-      "audio_alternatives": [
-        {
-          "kanji": "申し訳ありません、ただいま会議中ですので、後ほどご連絡いたします。",
-          "hiragana_full": "もうしわけありません、ただいまかいぎちゅうですので、のちほどごれんらくいたします。"
-        },
-        {
-          "kanji": "ごめんなさい、今会議の最中なので、後で連絡しますね。",
-          "hiragana_full": "ごめんなさい、いまかいぎのさいちゅうなので、あとでれんらくしますね。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_066_4",
+      "id": "n4_066_7",
       "example_sentence": "母が帰ってきたとき、私は本を読んでいるところでした。",
       "translation": "When my mother came home, I was in the middle of reading a book.",
       "blank_target": "でいる",
@@ -114,66 +235,11 @@
           "hiragana_full": "おかあさんがかえってきたとき、わたしはほんをよんでいるところでした。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
-      "id": "n4_066_5",
-      "example_sentence": "子供たちは公園で遊んでいるところです。",
-      "translation": "The children are in the middle of playing at the park.",
-      "blank_target": "でいる",
-      "wrong_choices": [
-        "だ",
-        "でいた",
-        "でみる"
-      ],
-      "wrong_choice_explanations": [
-        "だ would yield 遊んだところです ('they just finished playing'), but the sentence describes the kids currently playing — でいるところ is needed.",
-        "でいた would yield 遊んでいたところ ('they were in the middle of playing'), placing the action in the past; the sentence is present-tense.",
-        "でみる would yield 遊んでみるところ ('they're about to try playing'), still pre-action; the kids are already mid-play."
-      ],
-      "hiragana_full": "こどもたちはこうえんであそんでいるところです。",
-      "audio_alternatives": [
-        {
-          "kanji": "子供たちは公園で遊んでいます。",
-          "hiragana_full": "こどもたちはこうえんであそんでいます。"
-        },
-        {
-          "kanji": "子供たちは今、公園で遊んでいるところだ。",
-          "hiragana_full": "こどもたちはいま、こうえんであそんでいるところだ。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_066_6",
-      "example_sentence": "お風呂に入っているところなので、もう少し待ってください。",
-      "translation": "I'm in the middle of taking a bath, so please wait a little longer.",
-      "blank_target": "ている",
-      "wrong_choices": [
-        "た",
-        "る",
-        "ていた"
-      ],
-      "wrong_choice_explanations": [
-        "た would yield お風呂に入ったところ ('I just got into the bath'), but the speaker is asking to be waited for while in the bath — ているところ shows the ongoing state.",
-        "る would yield お風呂に入るところ ('I'm about to get in the bath'), describing the moment before entry; here the speaker is already in.",
-        "ていた would yield お風呂に入っていたところ ('I was in the bath'), implying the bath is over; the request only makes sense while still bathing."
-      ],
-      "hiragana_full": "おふろにはいっているところなので、もうすこしまってください。",
-      "audio_alternatives": [
-        {
-          "kanji": "お風呂に入っている最中なので、もう少し待ってください。",
-          "hiragana_full": "おふろにはいっているさいちゅうなので、もうすこしまってください。"
-        },
-        {
-          "kanji": "今お風呂に入っているので、少し待ってもらえますか。",
-          "hiragana_full": "いまおふろにはいっているので、すこしまってもらえますか。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_066_7",
+      "id": "n4_066_8",
       "example_sentence": "先生が教室に入ったとき、学生たちは試験を受けているところだった。",
       "translation": "When the teacher entered the classroom, the students were in the middle of taking an exam.",
       "blank_target": "ている",
@@ -198,10 +264,11 @@
           "hiragana_full": "せんせいがきょうしつにはいったとき、がくせいたちはしけんをうけていた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
-      "id": "n4_066_8",
+      "id": "n4_066_9",
       "example_sentence": "今、荷物を片付けているところですから、部屋が散らかっています。",
       "translation": "I'm in the middle of organizing my luggage right now, so the room is messy.",
       "blank_target": "ている",
@@ -226,40 +293,25 @@
           "hiragana_full": "ただいまにもつをかたづけているところなので、へやがちらかっています。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_066_9",
-      "example_sentence": "彼は今、新しい車を洗っているところです。",
-      "translation": "He is in the middle of washing his new car right now.",
-      "blank_target": "ている",
-      "wrong_choices": [
-        "た",
-        "る",
-        "ていた"
-      ],
-      "wrong_choice_explanations": [
-        "た would yield 車を洗ったところ ('he just finished washing the car'), but with 今 he is still scrubbing away — ているところ is required.",
-        "る would yield 車を洗うところ ('he's about to wash the car'), placing him before the action; the sentence catches him mid-wash.",
-        "ていた would yield 洗っていたところ ('he was washing the car'), shifting to the past; 今 forces the present-progressive ているところ."
-      ],
-      "hiragana_full": "かれはいま、あたらしいくるまをあらっているところです。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "彼は今、新しい車を洗っています。",
-          "hiragana_full": "かれはいま、あたらしいくるまをあらっています。"
+          "word": "荷物",
+          "reading": "にもつ",
+          "meaning": "luggage, belongings"
         },
         {
-          "kanji": "彼は今ちょうど、新しい車を洗っているところだ。",
-          "hiragana_full": "かれはいまちょうど、あたらしいくるまをあらっているところだ。"
+          "word": "散らかっています",
+          "reading": "ちらかっています",
+          "meaning": "is messy, scattered about"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
       "id": "n4_066_10",
-      "example_sentence": "申し訳ありませんが、今お客様と打ち合わせをしているところです。",
-      "translation": "I'm sorry, but I'm in the middle of a meeting with a client right now.",
+      "example_sentence": "申し訳ありませんが、田中は今お客様と話しているところです。",
+      "translation": "I'm sorry, but Tanaka is speaking with a customer right now.",
       "blank_target": "ている",
       "wrong_choices": [
         "た",
@@ -267,22 +319,35 @@
         "ようとしている"
       ],
       "wrong_choice_explanations": [
-        "た would yield 打ち合わせをしたところです ('I just finished a meeting with the client'), but the apology only makes sense if the meeting is still going — ているところ is needed.",
-        "る would yield 打ち合わせをするところです ('I'm about to start a meeting'), placing the speaker before the meeting; here it has already started.",
-        "ようとしている would yield しようとしているところ ('I'm on the verge of starting'), still pre-action; the speaker is excusing themselves because the meeting is currently under way."
+        "た would yield 話したところです ('has just finished speaking with the customer'), but the apology only makes sense if the conversation is still going — ているところ is needed.",
+        "る would give 話しるところです, which is ungrammatical — the stem 話し cannot take る ('about to speak' would be 話すところ). The conversation is already under way, so ている is needed.",
+        "ようとしている cannot follow the stem 話し (話しようとしている is ungrammatical); the speaker is excusing Tanaka because the conversation is under way."
       ],
-      "hiragana_full": "もうしわけありませんが、いまおきゃくさまとうちあわせをしているところです。",
+      "hiragana_full": "もうしわけありませんが、たなかはいまおきゃくさまとはなしているところです。",
       "audio_alternatives": [
         {
-          "kanji": "すみませんが、今お客様と打ち合わせ中です。",
-          "hiragana_full": "すみませんが、いまおきゃくさまとうちあわせちゅうです。"
+          "kanji": "すみませんが、田中は今お客様と話している最中です。",
+          "hiragana_full": "すみませんが、たなかはいまおきゃくさまとはなしているさいちゅうです。"
         },
         {
-          "kanji": "申し訳ないのですが、ただ今お客様と打ち合わせをしております。",
-          "hiragana_full": "もうしわけないのですが、ただいまおきゃくさまとうちあわせをしております。"
+          "kanji": "申し訳ありませんが、田中はただ今お客様とお話ししております。",
+          "hiragana_full": "もうしわけありませんが、たなかはただいまおきゃくさまとおはなししております。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        {
+          "word": "申し訳ありません",
+          "reading": "もうしわけありません",
+          "meaning": "I'm sorry"
+        },
+        {
+          "word": "お客様",
+          "reading": "おきゃくさま",
+          "meaning": "customer (honorific)"
+        }
+      ]
     }
   ]
 }

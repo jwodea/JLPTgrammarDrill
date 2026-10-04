@@ -10,13 +10,13 @@
       "translation": "In this era of cultural diversification, unique works are being sought after.",
       "blank_target": "にあって",
       "wrong_choices": [
-        "において",
-        "の中で",
+        "をめぐって",
+        "に反して",
         "にとって"
       ],
       "wrong_choice_explanations": [
-        "において is formal but indicates location/context, not the special circumstances that にあって emphasizes.",
-        "の中で means 'within/inside' but lacks the formal tone and nuance of being in special circumstances that にあって provides.",
+        "をめぐって means 'concerning / centered on (a dispute or topic),' framing the era of diversification as the subject under discussion. にあって instead places the seeking of unique works within that era as the surrounding situation.",
+        "に反して means 'contrary to / against,' which would set the era of diversification in opposition to the demand for unique works. にあって carries no such opposition — it frames the demand as arising within that era.",
         "にとって means 'for/from the perspective of' which changes the meaning completely from describing circumstances to indicating viewpoint."
       ],
       "hiragana_full": "ぶんかのたようかのじだいにあって、こせいてきなさくひんがもとめられている。",
@@ -30,49 +30,34 @@
           "hiragana_full": "ぶんかのたようかがすすむじだいに、こせいてきなさくひんがもとめられている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "多様化",
+          "reading": "たようか",
+          "meaning": "diversification"
+        },
+        {
+          "word": "個性的",
+          "reading": "こせいてき",
+          "meaning": "individualistic, unique"
+        }
+      ]
     },
     {
       "id": "n2_095_2",
-      "example_sentence": "急速な経済成長の時代にあって、伝統は失われていった。",
-      "translation": "In this era of rapid economic growth, tradition was being lost.",
-      "blank_target": "にあって",
-      "wrong_choices": [
-        "において",
-        "とあって",
-        "に対して"
-      ],
-      "wrong_choice_explanations": [
-        "において indicates formal context but doesn't emphasize the challenging nature of the circumstances like にあって does.",
-        "とあって means 'given that / since' — it would frame the era as the *reason* for the result, rather than describing what unfolds *within* those circumstances as にあって does.",
-        "に対して means 'toward/against' which completely changes the sentence meaning from describing circumstances to indicating direction or opposition."
-      ],
-      "hiragana_full": "きゅうそくなけいざいせいちょうのじだいにあって、でんとうはうしなわれていった。",
-      "audio_alternatives": [
-        {
-          "kanji": "急速な経済成長の時代において、伝統は失われていった。",
-          "hiragana_full": "きゅうそくなけいざいせいちょうのじだいにおいて、でんとうはうしなわれていった。"
-        },
-        {
-          "kanji": "急速な経済成長の時代の中で、伝統は失われていった。",
-          "hiragana_full": "きゅうそくなけいざいせいちょうのじだいのなかで、でんとうはうしなわれていった。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_095_3",
       "example_sentence": "激動の時代にあって、指導者には強い信念が必要だ。",
       "translation": "In these turbulent times, leaders need strong convictions.",
       "blank_target": "にあって",
       "wrong_choices": [
-        "において",
-        "の中で",
+        "を機に",
+        "をよそに",
         "にとって"
       ],
       "wrong_choice_explanations": [
-        "において is formal but doesn't capture the sense of facing challenging circumstances that にあって emphasizes.",
-        "の中で means 'within' but is less formal and doesn't convey the gravity of the situation that にあって implies.",
+        "を機に means 'taking … as an opportunity / turning point,' framing the turbulent era as a trigger seized for some action. にあって instead describes leaders' need for conviction as a condition of being situated within those times.",
+        "をよそに means 'ignoring / paying no heed to,' which would say leaders disregard the turbulent era. にあって instead frames the era as the surrounding circumstance in which strong conviction is required.",
         "にとって means 'for/from the perspective of' which would shift the focus to the leaders' viewpoint rather than describing the circumstances."
       ],
       "hiragana_full": "げきどうのじだいにあって、しどうしゃにはつよいしんねんがひつようだ。",
@@ -86,106 +71,40 @@
           "hiragana_full": "げきどうのじだいだからこそ、しどうしゃはつよいしんねんをもつひつようがある。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_095_4",
-      "example_sentence": "経済危機の最中にあって、企業は生存戦略を模索している。",
-      "translation": "Amid economic crisis, companies are seeking survival strategies.",
-      "blank_target": "にあって",
-      "wrong_choices": [
-        "において",
-        "の中で",
-        "による"
-      ],
-      "wrong_choice_explanations": [
-        "において indicates formal context but doesn't emphasize being in the midst of difficult circumstances like にあって does.",
-        "の中で means 'within' but lacks the formal tone and the nuance of facing challenging situations that にあって provides.",
-        "による means 'by means of/due to' which indicates cause or method rather than describing the circumstances companies find themselves in."
-      ],
-      "hiragana_full": "けいざいききのさなかにあって、きぎょうはせいぞんせんりゃくをもさくしている。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "経済危機の中で、企業は生存戦略を模索している。",
-          "hiragana_full": "けいざいききのなかで、きぎょうはせいぞんせんりゃくをもさくしている。"
+          "word": "激動",
+          "reading": "げきどう",
+          "meaning": "upheaval, turbulence"
         },
         {
-          "kanji": "経済危機に直面して、企業は生存戦略を探っている。",
-          "hiragana_full": "けいざいききにちょくめんして、きぎょうはせいぞんせんりゃくをさぐっている。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_095_5",
-      "example_sentence": "学問の多様化の時代にあって、統一的な理論は求めにくい。",
-      "translation": "In this era of academic diversification, unified theories are hard to find.",
-      "blank_target": "にあって",
-      "wrong_choices": [
-        "にしては",
-        "の中で",
-        "に関して"
-      ],
-      "wrong_choice_explanations": [
-        "にしては means 'considering / for' — it would set up a contrast with expectations ('for an era of academic diversification, unified theories are unexpectedly hard to find') rather than simply describing the situation.",
-        "の中で means 'within' but is less formal and doesn't convey the complexity of the situation that にあって implies.",
-        "に関して means 'regarding/concerning' which changes the sentence to be about the topic rather than describing the circumstances."
-      ],
-      "hiragana_full": "がくもんのたようかのじだいにあって、とういつてきなりろんはもとめにくい。",
-      "audio_alternatives": [
-        {
-          "kanji": "学問が多様化している時代において、統一的な理論は見つけにくい。",
-          "hiragana_full": "がくもんがたようかしているじだいにおいて、とういつてきなりろんはみつけにくい。"
+          "word": "指導者",
+          "reading": "しどうしゃ",
+          "meaning": "leader"
         },
         {
-          "kanji": "学問の多様化が進む時代では、統一的な理論を求めるのは難しい。",
-          "hiragana_full": "がくもんのたようかがすすむじだいでは、とういつてきなりろんをもとめるのはむずかしい。"
+          "word": "信念",
+          "reading": "しんねん",
+          "meaning": "conviction, belief"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n2_095_6",
-      "example_sentence": "国際化の進展にあって、語学力の重要性が高まっている。",
-      "translation": "With the advancement of internationalization, the importance of language skills is increasing.",
-      "blank_target": "にあって",
-      "wrong_choices": [
-        "において",
-        "によって",
-        "を背景に"
-      ],
-      "wrong_choice_explanations": [
-        "において indicates formal context but doesn't emphasize the dynamic nature of the changing circumstances that にあって captures.",
-        "によって means 'by means of/due to' indicating cause, but the sentence describes circumstances rather than causation.",
-        "を背景に means 'against the backdrop of' — it frames internationalization as a static backdrop, but にあって stresses being situated within the dynamic circumstances it creates."
-      ],
-      "hiragana_full": "こくさいかのしんてんにあって、ごがくりょくのじゅうようせいがたかまっている。",
-      "audio_alternatives": [
-        {
-          "kanji": "グローバル化が進む中で、語学力の重要性が増している。",
-          "hiragana_full": "グローバルかがすすむなかで、ごがくりょくのじゅうようせいがましている。"
-        },
-        {
-          "kanji": "国際化が進むにつれて、語学力の重要性が高まっている。",
-          "hiragana_full": "こくさいかがすすむにつれて、ごがくりょくのじゅうようせいがたかまっている。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_095_7",
+      "id": "n2_095_3",
       "example_sentence": "技術革新の波にあって、従来の方法は見直しを迫られている。",
       "translation": "In the wave of technological innovation, conventional methods are being forced to be reconsidered.",
       "blank_target": "にあって",
       "wrong_choices": [
-        "において",
+        "にかけて",
         "に対して",
-        "の中で"
+        "をめぐって"
       ],
       "wrong_choice_explanations": [
-        "において is formal but doesn't capture the dynamic, challenging nature of the circumstances that にあって emphasizes.",
+        "にかけて marks a span of time or place (e.g. 夏から秋にかけて) and can't describe being situated within the wave of innovation, which is what にあって emphasizes.",
         "に対して means 'toward/against' which would change the meaning to indicate opposition rather than describing circumstances.",
-        "の中で means 'within' but is less formal and doesn't convey the pressure of the situation that にあって implies."
+        "をめぐって means 'concerning / surrounding (an issue),' making the wave of innovation the topic of debate. にあって instead frames the pressure to reconsider methods as occurring within that wave."
       ],
       "hiragana_full": "ぎじゅつかくしんのなみにあって、じゅうらいのほうほうはみなおしをせまられている。",
       "audio_alternatives": [
@@ -198,20 +117,38 @@
           "hiragana_full": "ぎじゅつかくしんのちょうりゅうのなかで、じゅうらいのほうほうはみなおしをよぎなくされている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "技術革新",
+          "reading": "ぎじゅつかくしん",
+          "meaning": "technological innovation"
+        },
+        {
+          "word": "従来",
+          "reading": "じゅうらい",
+          "meaning": "conventional, existing"
+        },
+        {
+          "word": "見直し",
+          "reading": "みなおし",
+          "meaning": "review, reappraisal"
+        }
+      ]
     },
     {
-      "id": "n2_095_8",
+      "id": "n2_095_4",
       "example_sentence": "社会の変革期にあって、教育制度の改革が議論されている。",
       "translation": "In this period of social transformation, educational system reform is being discussed.",
       "blank_target": "にあって",
       "wrong_choices": [
-        "において",
+        "をよそに",
         "を踏まえ",
         "につれて"
       ],
       "wrong_choice_explanations": [
-        "において indicates formal context but doesn't emphasize the transitional nature of the circumstances that にあって highlights.",
+        "をよそに means 'ignoring / disregarding,' which would say the reform discussion pays no attention to the transformation. にあって instead frames the discussion as taking place within that period of social transformation.",
         "を踏まえ means 'in light of / taking into account' — it would frame the transformation period as a consideration informing the discussion, not as the surrounding circumstance the discussion takes place within.",
         "につれて means 'as/along with' indicating parallel change, but the sentence describes circumstances rather than simultaneous progression."
       ],
@@ -226,63 +163,286 @@
           "hiragana_full": "しゃかいがへんかくきをむかえるなか、きょういくせいどのかいかくについてぎろんがおこなわれている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "変革期",
+          "reading": "へんかくき",
+          "meaning": "period of change"
+        },
+        {
+          "word": "制度",
+          "reading": "せいど",
+          "meaning": "system"
+        },
+        {
+          "word": "改革",
+          "reading": "かいかく",
+          "meaning": "reform"
+        }
+      ]
+    },
+    {
+      "id": "n2_095_5",
+      "example_sentence": "逆境にあって、希望を失わなかった。",
+      "translation": "Being in adversity, he did not lose hope.",
+      "blank_target": "にあって",
+      "wrong_choices": [
+        "の下で",
+        "にしたがって",
+        "によって"
+      ],
+      "wrong_choice_explanations": [
+        "の下で means 'under (authority/conditions)' and implies being controlled by something, not simply being in circumstances.",
+        "にしたがって means 'according to/following' and indicates compliance or sequence, not circumstantial state.",
+        "によって indicates means, cause, or agent, which doesn't match the meaning of being situated in circumstances."
+      ],
+      "hiragana_full": "ぎゃっきょうにあって、きぼうをうしなわなかった。",
+      "audio_alternatives": [
+        {
+          "kanji": "逆境の中でも、希望を失わなかった。",
+          "hiragana_full": "ぎゃっきょうのなかでも、きぼうをうしなわなかった。"
+        },
+        {
+          "kanji": "逆境に置かれても、希望を捨てなかった。",
+          "hiragana_full": "ぎゃっきょうにおかれても、きぼうをすてなかった。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "逆境",
+          "reading": "ぎゃっきょう",
+          "meaning": "adversity"
+        },
+        {
+          "word": "失う",
+          "reading": "うしなう",
+          "meaning": "to lose"
+        }
+      ]
+    },
+    {
+      "id": "n2_095_6",
+      "example_sentence": "厳しい経済情勢にあって、新規投資を決定した。",
+      "translation": "Being in severe economic conditions, they decided on new investments.",
+      "blank_target": "にあって",
+      "wrong_choices": [
+        "に関して",
+        "について",
+        "に向けて"
+      ],
+      "wrong_choice_explanations": [
+        "に関して means 'regarding/concerning' and indicates topic or subject matter, not circumstantial state.",
+        "について means 'about/concerning' and indicates the topic being discussed, not being situated in circumstances.",
+        "に向けて means 'toward/heading for' and indicates direction or goal, not the current circumstantial state."
+      ],
+      "hiragana_full": "きびしいけいざいじょうせいにあって、しんきとうしをけっていした。",
+      "audio_alternatives": [
+        {
+          "kanji": "厳しい経済状況の中で、新規投資を決定した。",
+          "hiragana_full": "きびしいけいざいじょうきょうのなかで、しんきとうしをけっていした。"
+        },
+        {
+          "kanji": "厳しい経済情勢のもとで、新規投資を決めた。",
+          "hiragana_full": "きびしいけいざいじょうせいのもとで、しんきとうしをきめた。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "情勢",
+          "reading": "じょうせい",
+          "meaning": "conditions / situation"
+        },
+        {
+          "word": "新規",
+          "reading": "しんき",
+          "meaning": "new"
+        },
+        {
+          "word": "投資",
+          "reading": "とうし",
+          "meaning": "investment"
+        }
+      ]
+    },
+    {
+      "id": "n2_095_7",
+      "example_sentence": "緊急事態にあって、冷静な判断が求められる。",
+      "translation": "Being in an emergency situation, calm judgment is required.",
+      "blank_target": "にあって",
+      "wrong_choices": [
+        "として",
+        "に基づいて",
+        "にとって"
+      ],
+      "wrong_choice_explanations": [
+        "として means 'as/in the capacity of,' so 緊急事態として would treat the emergency as a role or category rather than the situation one is acting within, which にあって expresses.",
+        "に基づいて means 'based on/grounded in' and marks something used as the basis for a decision; it cannot mark the surrounding circumstances themselves the way にあって does.",
+        "にとって means 'for (someone)' and marks the party something matters to; an emergency is not a perspective-holder, so it cannot be the one 'for whom' calm judgment is required."
+      ],
+      "hiragana_full": "きんきゅうじたいにあって、れいせいなはんだんがもとめられる。",
+      "audio_alternatives": [
+        {
+          "kanji": "緊急事態においては、冷静な判断が必要だ。",
+          "hiragana_full": "きんきゅうじたいにおいては、れいせいなはんだんがひつようだ。"
+        },
+        {
+          "kanji": "緊急事態では、冷静な判断が求められる。",
+          "hiragana_full": "きんきゅうじたいでは、れいせいなはんだんがもとめられる。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "緊急",
+          "reading": "きんきゅう",
+          "meaning": "emergency"
+        },
+        {
+          "word": "事態",
+          "reading": "じたい",
+          "meaning": "situation"
+        },
+        {
+          "word": "判断",
+          "reading": "はんだん",
+          "meaning": "judgment"
+        }
+      ]
+    },
+    {
+      "id": "n2_095_8",
+      "example_sentence": "変革期にあって、伝統を守り続けた。",
+      "translation": "Being in a period of change, they continued to preserve tradition.",
+      "blank_target": "にあって",
+      "wrong_choices": [
+        "の間に",
+        "にかけて",
+        "に際して"
+      ],
+      "wrong_choice_explanations": [
+        "の間に means 'during/between' and emphasizes temporal duration rather than being situated in circumstances.",
+        "にかけて means 'over/throughout' and indicates span of time or range, not circumstantial state.",
+        "に際して means 'on the occasion of' and emphasizes timing or opportunity, not the ongoing circumstantial state."
+      ],
+      "hiragana_full": "へんかくきにあって、でんとうをまもりつづけた。",
+      "audio_alternatives": [
+        {
+          "kanji": "変革の時代にあって、伝統を守り続けた。",
+          "hiragana_full": "へんかくのじだいにあって、でんとうをまもりつづけた。"
+        },
+        {
+          "kanji": "変革期において、伝統を守り続けた。",
+          "hiragana_full": "へんかくきにおいて、でんとうをまもりつづけた。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "変革",
+          "reading": "へんかく",
+          "meaning": "reform / transformation"
+        },
+        {
+          "word": "伝統",
+          "reading": "でんとう",
+          "meaning": "tradition"
+        }
+      ]
     },
     {
       "id": "n2_095_9",
-      "example_sentence": "地球温暖化問題の深刻化にあって、環境対策が急務となっている。",
-      "translation": "With the worsening of global warming issues, environmental measures have become urgent.",
+      "example_sentence": "戦時下にあって、平和への願いを抱き続けた。",
+      "translation": "Being in wartime conditions, they continued to harbor hopes for peace.",
       "blank_target": "にあって",
       "wrong_choices": [
-        "において",
-        "に伴って",
-        "を受けて"
+        "に対して",
+        "に面して",
+        "を前にして"
       ],
       "wrong_choice_explanations": [
-        "において is formal but doesn't emphasize the urgency and gravity of the circumstances that にあって conveys.",
-        "に伴って means 'accompanying/along with' indicating something that happens together, but the sentence describes circumstances rather than accompaniment.",
-        "を受けて means 'in response to / following' — it would frame measures as a reaction triggered by the worsening, while にあって describes being situated within those serious circumstances."
+        "に対して means 'toward/against (a target)' and marks what an action is aimed at, so it would cast wartime as an opponent being confronted rather than the circumstances one perseveres within.",
+        "に面して means 'facing/confronting' and emphasizes direct confrontation with something, not the ongoing state of being situated in wartime that にあって conveys.",
+        "を前にして means 'with ~ looming ahead' and presents the thing as still imminent, contradicting 戦時下 which describes circumstances one is already in."
       ],
-      "hiragana_full": "ちきゅうおんだんかもんだいのしんこくかにあって、かんきょうたいさくがきゅうむとなっている。",
+      "hiragana_full": "せんじかにあって、へいわへのねがいをいだきつづけた。",
       "audio_alternatives": [
         {
-          "kanji": "地球温暖化問題が深刻化する中で、環境対策が急務となっている。",
-          "hiragana_full": "ちきゅうおんだんかもんだいがしんこくかするなかで、かんきょうたいさくがきゅうむとなっている。"
+          "kanji": "戦時中にあって、平和への願いを抱き続けた。",
+          "hiragana_full": "せんじちゅうにあって、へいわへのねがいをいだきつづけた。"
         },
         {
-          "kanji": "地球温暖化問題の深刻化に伴い、環境対策が急務となっている。",
-          "hiragana_full": "ちきゅうおんだんかもんだいのしんこくかにともない、かんきょうたいさくがきゅうむとなっている。"
+          "kanji": "戦時下において、平和への願いを抱き続けた。",
+          "hiragana_full": "せんじかにおいて、へいわへのねがいをいだきつづけた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "戦時下",
+          "reading": "せんじか",
+          "meaning": "in wartime"
+        },
+        {
+          "word": "抱く",
+          "reading": "いだく",
+          "meaning": "to harbor / hold (a feeling)"
+        }
+      ]
     },
     {
       "id": "n2_095_10",
-      "example_sentence": "少子高齢化の進行にあって、労働力不足が深刻な問題となっている。",
-      "translation": "With the progression of declining birthrates and aging population, labor shortage has become a serious problem.",
+      "example_sentence": "競争の激しい業界にあって、独自の戦略を展開した。",
+      "translation": "Being in a highly competitive industry, they developed a unique strategy.",
       "blank_target": "にあって",
       "wrong_choices": [
-        "において",
-        "の中で",
-        "に応じて"
+        "に対応して",
+        "に基づいて",
+        "に関連して"
       ],
       "wrong_choice_explanations": [
-        "において is formal but doesn't emphasize the challenging demographic circumstances that にあって highlights.",
-        "の中で means 'within' but lacks the formal register and doesn't convey the gravity of the demographic situation.",
-        "に応じて means 'according to/in response to' which indicates adaptation or correspondence rather than describing circumstances."
+        "に対応して means 'in response to/corresponding to' and emphasizes reactive action rather than being situated in circumstances.",
+        "に基づいて means 'based on' and indicates foundation or grounds for action, not circumstantial state.",
+        "に関連して means 'in relation to/connected with' and indicates association or connection, not being in circumstances."
       ],
-      "hiragana_full": "しょうしこうれいかのしんこうにあって、ろうどうりょくぶそくがしんこくなもんだいとなっている。",
+      "hiragana_full": "きょうそうのはげしいぎょうかいにあって、どくじのせんりゃくをてんかいした。",
       "audio_alternatives": [
         {
-          "kanji": "少子高齢化が進む中で、労働力不足が深刻な問題になっている。",
-          "hiragana_full": "しょうしこうれいかがすすむなかで、ろうどうりょくぶそくがしんこくなもんだいになっている。"
+          "kanji": "競争が激しい業界において、独自の戦略を展開した。",
+          "hiragana_full": "きょうそうがはげしいぎょうかいにおいて、どくじのせんりゃくをてんかいした。"
         },
         {
-          "kanji": "少子高齢化の進展により、労働力不足が深刻な問題となっている。",
-          "hiragana_full": "しょうしこうれいかのしんてんにより、ろうどうりょくぶそくがしんこくなもんだいとなっている。"
+          "kanji": "競争の激しい業界の中で、独自の戦略を展開した。",
+          "hiragana_full": "きょうそうのはげしいぎょうかいのなかで、どくじのせんりゃくをてんかいした。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "業界",
+          "reading": "ぎょうかい",
+          "meaning": "industry"
+        },
+        {
+          "word": "独自",
+          "reading": "どくじ",
+          "meaning": "original / unique"
+        },
+        {
+          "word": "戦略",
+          "reading": "せんりゃく",
+          "meaning": "strategy"
+        }
+      ]
     }
   ]
 }

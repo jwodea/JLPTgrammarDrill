@@ -10,13 +10,13 @@
       "translation": "Recently, I've been feeling a bit tired, so I'm trying to rest early.",
       "blank_target": "気味",
       "wrong_choices": [
-        "がち",
-        "っぽい",
+        "だらけ",
+        "向け",
         "らしい"
       ],
       "wrong_choice_explanations": [
-        "がち means 'tends to' but implies a stronger habitual tendency, not the slight condition that 気味 expresses here.",
-        "っぽい means 'seems like' or '-ish' but doesn't convey the slight negative condition that 気味 indicates.",
+        "だらけ means 'full of' or 'covered with' something, but is used for physical abundance or many faults, not the slight condition that 気味 expresses here.",
+        "向け means 'intended for / aimed at' (e.g. 子供向け) and marks a target audience, not the slight tiredness that 気味 describes.",
         "らしい means 'seems' or 'apparently' but is used for hearsay or conjecture, not describing one's own slight condition."
       ],
       "hiragana_full": "さいきん、つかれぎみなのではやめにやすむようにしている。",
@@ -31,7 +31,8 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ぎみ"
+      "blank_target_reading": "ぎみ",
+      "register": "neutral"
     },
     {
       "id": "n2_080_2",
@@ -41,12 +42,12 @@
       "wrong_choices": [
         "だらけ",
         "ばかり",
-        "みたい"
+        "向け"
       ],
       "wrong_choice_explanations": [
         "だらけ means 'full of' or 'covered with' something negative, but doesn't indicate a slight condition like 気味.",
         "ばかり means 'only' or 'just' but doesn't express the nuance of a developing condition that 気味 conveys.",
-        "みたい means 'like' or 'similar to' but is used for comparisons, not to describe slight symptoms."
+        "向け means 'intended for' or 'aimed at' (e.g. 子供向け) and marks a target audience, not a slight symptom like 気味."
       ],
       "hiragana_full": "かぜぎみなのできょうはかいぎをけっせきさせてもらいます",
       "audio_alternatives": [
@@ -60,39 +61,18 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ぎみ"
+      "blank_target_reading": "ぎみ",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "欠席",
+          "reading": "けっせき",
+          "meaning": "absence"
+        }
+      ]
     },
     {
       "id": "n2_080_3",
-      "example_sentence": "最近、太り気味なのでジムに通い始めた。",
-      "translation": "I've been gaining weight lately, so I started going to the gym.",
-      "blank_target": "気味",
-      "wrong_choices": [
-        "すぎる",
-        "がち",
-        "そう"
-      ],
-      "wrong_choice_explanations": [
-        "すぎる means 'too much' and indicates excess, not the gradual tendency that 気味 expresses.",
-        "がち means 'tends to' but implies a stronger habitual pattern rather than the slight condition 気味 describes.",
-        "そう means 'seems' or 'looks like' but is used for appearance or likelihood, not self-assessment of a slight condition."
-      ],
-      "hiragana_full": "さいきん、ふとりぎみなのでじむにかよいはじめた。",
-      "audio_alternatives": [
-        {
-          "kanji": "最近、太り気味だからジムに通い始めた。",
-          "hiragana_full": "さいきん、ふとりぎみだからじむにかよいはじめた。"
-        },
-        {
-          "kanji": "最近太り気味なので、ジムに行き始めた。",
-          "hiragana_full": "さいきん、ふとりぎみなので、じむにいきはじめた。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "ぎみ"
-    },
-    {
-      "id": "n2_080_4",
       "example_sentence": "仕事が忙しくて、睡眠不足気味になっている。",
       "translation": "Work has been busy, and I'm becoming a bit sleep-deprived.",
       "blank_target": "気味",
@@ -118,10 +98,18 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ぎみ"
+      "blank_target_reading": "ぎみ",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "睡眠不足",
+          "reading": "すいみんぶそく",
+          "meaning": "lack of sleep"
+        }
+      ]
     },
     {
-      "id": "n2_080_5",
+      "id": "n2_080_4",
       "example_sentence": "ストレス過多で、胃が痛み気味だ。",
       "translation": "Due to too much stress, my stomach has been aching a bit.",
       "blank_target": "気味",
@@ -147,97 +135,28 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ぎみ"
-    },
-    {
-      "id": "n2_080_6",
-      "example_sentence": "パソコンの調子が悪く、動作が遅れ気味だ。",
-      "translation": "My computer isn't running well, and its responses tend to lag a bit.",
-      "blank_target": "気味",
-      "wrong_choices": [
-        "がち",
-        "げ",
-        "そう"
-      ],
-      "wrong_choice_explanations": [
-        "〜がち describes a habitual, recurring tendency (休みがち, 遅れがち as a chronic trait); here the computer is acting up right now and only somewhat lagging, the current slight-degree sense that 〜気味 conveys.",
-        "〜げ attaches to emotion words to mean 'looking ~' (嬉しげ, 不安げ) and describes a person's visible mood; it can't attach to 遅れ or describe a machine's performance.",
-        "〜そう (様態) means 'looks about to' (遅れそう = about to be delayed), a prediction from appearance; the sentence reports an ongoing mild condition, not an impending one, so 〜気味 fits."
-      ],
-      "hiragana_full": "ぱそこんのちょうしがわるく、どうさがおくれぎみだ。",
-      "audio_alternatives": [
+      "blank_target_reading": "ぎみ",
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "パソコンの調子が悪くて、動作が少し遅れる。",
-          "hiragana_full": "ぱそこんのちょうしがわるくて、どうさがすこしおくれる。"
+          "word": "過多",
+          "reading": "かた",
+          "meaning": "excess"
         },
         {
-          "kanji": "パソコンの具合が悪く、動きが遅れ気味だ。",
-          "hiragana_full": "ぱそこんのぐあいがわるく、うごきがおくれぎみだ。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "ぎみ"
-    },
-    {
-      "id": "n2_080_7",
-      "example_sentence": "最近、物忘れが多く、認知症気味かもしれない。",
-      "translation": "I've been forgetting things a lot lately; I might be showing slight signs of dementia.",
-      "blank_target": "気味",
-      "wrong_choices": [
-        "みたい",
-        "っぽい",
-        "だらけ"
-      ],
-      "wrong_choice_explanations": [
-        "みたい means 'like' or 'similar to' but is used for comparisons, not for describing potential symptoms.",
-        "〜っぽい attaches to a noun to mean 'resembles' or 'gives the impression of' (子供っぽい); 認知症っぽい would bluntly liken the speaker to a dementia patient, whereas 〜気味 hedges it as a slight, incipient tendency — the milder, more accurate nuance here.",
-        "だらけ means 'full of' something negative but doesn't indicate the gradual development of symptoms like 気味."
-      ],
-      "hiragana_full": "さいきん、ものわすれがおおく、にんちしょうぎみかもしれない。",
-      "audio_alternatives": [
-        {
-          "kanji": "最近、物忘れが多くて、認知症気味かもしれない。",
-          "hiragana_full": "さいきん、ものわすれがおおくて、にんちしょうぎみかもしれない。"
+          "word": "胃",
+          "reading": "い",
+          "meaning": "stomach"
         },
         {
-          "kanji": "最近、物忘れがひどくて、認知症気味かもしれない。",
-          "hiragana_full": "さいきん、ものわすれがひどくて、にんちしょうぎみかもしれない。"
+          "word": "痛み",
+          "reading": "いたみ",
+          "meaning": "pain"
         }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "ぎみ"
+      ]
     },
     {
-      "id": "n2_080_8",
-      "example_sentence": "エアコンが故障して、室温が上がり気味だ。",
-      "translation": "The air conditioner broke down, and the room temperature has been creeping up a bit.",
-      "blank_target": "気味",
-      "wrong_choices": [
-        "すぎる",
-        "そう",
-        "がち"
-      ],
-      "wrong_choice_explanations": [
-        "〜すぎる means 'too much' and marks excess (上がりすぎる = rises too high); the room is only edging upward, not overheating, so the slight-degree 〜気味 is correct.",
-        "〜そう (様態) means 'looks about to' (上がりそう = about to rise), predicting from appearance; here the temperature is already gradually rising, an ongoing mild change that 〜気味 expresses.",
-        "〜がち marks a habitual, recurring tendency (夏は室温が上がりがち as a general pattern); this sentence is about the temperature right now after the breakdown, a current slight rise, so 〜気味 fits better."
-      ],
-      "hiragana_full": "えあこんがこしょうして、しつおんがあがりぎみだ。",
-      "audio_alternatives": [
-        {
-          "kanji": "エアコンが壊れて、室温が少しずつ上がってきた。",
-          "hiragana_full": "えあこんがこわれて、しつおんがすこしずつあがってきた。"
-        },
-        {
-          "kanji": "エアコンが故障したせいで、室温が上がり気味になっている。",
-          "hiragana_full": "えあこんがこしょうしたせいで、しつおんがあがりぎみになっている。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "ぎみ"
-    },
-    {
-      "id": "n2_080_9",
+      "id": "n2_080_5",
       "example_sentence": "会社の業績が悪化気味で、社員みんなが不安になっている。",
       "translation": "The company's performance is declining slightly, and all employees are becoming anxious.",
       "blank_target": "気味",
@@ -263,10 +182,28 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ぎみ"
+      "blank_target_reading": "ぎみ",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "業績",
+          "reading": "ぎょうせき",
+          "meaning": "business performance"
+        },
+        {
+          "word": "悪化",
+          "reading": "あっか",
+          "meaning": "deterioration"
+        },
+        {
+          "word": "不安",
+          "reading": "ふあん",
+          "meaning": "anxiety"
+        }
+      ]
     },
     {
-      "id": "n2_080_10",
+      "id": "n2_080_6",
       "example_sentence": "運動不足で、体重が増加気味になっている。",
       "translation": "Due to lack of exercise, my weight is increasing slightly.",
       "blank_target": "気味",
@@ -292,7 +229,183 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ぎみ"
+      "blank_target_reading": "ぎみ",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "運動不足",
+          "reading": "うんどうぶそく",
+          "meaning": "lack of exercise"
+        },
+        {
+          "word": "体重",
+          "reading": "たいじゅう",
+          "meaning": "body weight"
+        },
+        {
+          "word": "増加",
+          "reading": "ぞうか",
+          "meaning": "increase"
+        }
+      ]
+    },
+    {
+      "id": "n2_080_7",
+      "example_sentence": "今日は頭痛気味で集中できない。",
+      "translation": "I have a slight headache today and can't concentrate.",
+      "blank_target": "気味",
+      "wrong_choices": [
+        "ばかり",
+        "だらけ",
+        "がち"
+      ],
+      "wrong_choice_explanations": [
+        "ばかり means 'only' or 'just' and doesn't express the slight condition meaning needed here.",
+        "だらけ means 'full of' or 'covered with' and is used for undesirable things covering something, not for slight conditions.",
+        "がち expresses a strong tendency, but here we need the gentler nuance of a slight headache."
+      ],
+      "hiragana_full": "きょうはずつうぎみでしゅうちゅうできない。",
+      "audio_alternatives": [
+        {
+          "kanji": "今日は少し頭が痛くて集中できない。",
+          "hiragana_full": "きょうはすこしあたまがいたくてしゅうちゅうできない。"
+        },
+        {
+          "kanji": "今日は頭痛気味で集中できません。",
+          "hiragana_full": "きょうはずつうぎみでしゅうちゅうできません。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "ぎみ",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "頭痛",
+          "reading": "ずつう",
+          "meaning": "headache"
+        },
+        {
+          "word": "集中",
+          "reading": "しゅうちゅう",
+          "meaning": "concentration"
+        }
+      ]
+    },
+    {
+      "id": "n2_080_8",
+      "example_sentence": "季節の変わり目は疲れ気味になることが多い。",
+      "translation": "I tend to feel slightly tired during seasonal transitions.",
+      "blank_target": "気味",
+      "wrong_choices": [
+        "っぽい",
+        "そう",
+        "みたい"
+      ],
+      "wrong_choice_explanations": [
+        "っぽい is colloquial and suggests resemblance, but doesn't convey the slight condition nuance of 気味.",
+        "そう indicates appearance or hearsay, but here we need 気味 to express a slight internal feeling.",
+        "みたい means 'like' or 'similar to' and doesn't fit the context of describing a slight physical condition."
+      ],
+      "hiragana_full": "きせつのかわりめはつかれぎみになることがおおい。",
+      "audio_alternatives": [
+        {
+          "kanji": "季節の変わり目には疲れやすい。",
+          "hiragana_full": "きせつのかわりめにはつかれやすい。"
+        },
+        {
+          "kanji": "季節の変わり目になると、少し疲れ気味になりがちだ。",
+          "hiragana_full": "きせつのかわりめになると、すこしつかれぎみになりがちだ。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "ぎみ",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "変わり目",
+          "reading": "かわりめ",
+          "meaning": "seasonal transition / turning point"
+        }
+      ]
+    },
+    {
+      "id": "n2_080_9",
+      "example_sentence": "ストレスで肌荒れ気味になってしまった。",
+      "translation": "My skin has become slightly rough due to stress.",
+      "blank_target": "気味",
+      "wrong_choices": [
+        "らしい",
+        "そう",
+        "みたい"
+      ],
+      "wrong_choice_explanations": [
+        "らしい expresses hearsay or typical characteristics, but here we need 気味 to describe an actual slight condition.",
+        "そう indicates appearance from external observation, but 気味 better expresses the speaker's awareness of their own condition.",
+        "みたい means 'like' or 'similar to' but doesn't convey the actual slight physical condition that 気味 expresses."
+      ],
+      "hiragana_full": "すとれすではだあれぎみになってしまった。",
+      "audio_alternatives": [
+        {
+          "kanji": "ストレスのせいで肌が荒れ気味になってしまった。",
+          "hiragana_full": "すとれすのせいではだがあれぎみになってしまった。"
+        },
+        {
+          "kanji": "ストレスで肌が少し荒れてしまった。",
+          "hiragana_full": "すとれすではだがすこしあれてしまった。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "ぎみ",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "肌荒れ",
+          "reading": "はだあれ",
+          "meaning": "rough / dry skin"
+        }
+      ]
+    },
+    {
+      "id": "n2_080_10",
+      "example_sentence": "締切が近くて焦り気味になっている。",
+      "translation": "With the deadline approaching, I'm becoming slightly anxious.",
+      "blank_target": "気味",
+      "wrong_choices": [
+        "がち",
+        "方",
+        "様子"
+      ],
+      "wrong_choice_explanations": [
+        "がち indicates a strong habitual tendency, but here we need the gentler nuance of a slight emerging feeling.",
+        "方 means 'direction' or 'side' and doesn't express the slight emotional state that 気味 conveys.",
+        "様子 means 'appearance' or 'situation' but doesn't convey the slight condition nuance that 気味 expresses."
+      ],
+      "hiragana_full": "しめきりがちかくてあせりぎみになっている。",
+      "audio_alternatives": [
+        {
+          "kanji": "締切が迫っていて少し焦り始めている。",
+          "hiragana_full": "しめきりがせまっていてすこしあせりはじめている。"
+        },
+        {
+          "kanji": "締め切りが近づいていて焦り気味だ。",
+          "hiragana_full": "しめきりがちかづいていてあせりぎみだ。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "ぎみ",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "締切",
+          "reading": "しめきり",
+          "meaning": "deadline"
+        },
+        {
+          "word": "焦る",
+          "reading": "あせる",
+          "meaning": "to feel rushed / anxious"
+        }
+      ]
     }
   ]
 }

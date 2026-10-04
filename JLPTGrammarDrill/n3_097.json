@@ -1,7 +1,7 @@
 {
   "id": "n3_097",
-  "pattern": "〜と共に",
-  "meaning": "together with; along with; at the same time as",
+  "pattern": "〜とともに（と共に）",
+  "meaning": "together with; along with; at the same time as; as ... changes",
   "level": "N3",
   "exercises": [
     {
@@ -31,7 +31,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "とともに"
+      "blank_target_reading": "とともに",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "体力",
+          "reading": "たいりょく",
+          "meaning": "stamina; physical strength"
+        },
+        {
+          "word": "衰えて",
+          "reading": "おとろえて",
+          "meaning": "to decline; weaken"
+        }
+      ]
     },
     {
       "id": "n3_097_2",
@@ -60,7 +73,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "とともに"
+      "blank_target_reading": "とともに",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "進歩",
+          "reading": "しんぽ",
+          "meaning": "progress; advance"
+        },
+        {
+          "word": "科学技術",
+          "reading": "かがくぎじゅつ",
+          "meaning": "science and technology"
+        }
+      ]
     },
     {
       "id": "n3_097_3",
@@ -89,7 +115,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "とともに"
+      "blank_target_reading": "とともに",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "迎えた",
+          "reading": "むかえた",
+          "meaning": "welcomed; greeted (the new year)"
+        }
+      ]
     },
     {
       "id": "n3_097_4",
@@ -118,7 +152,25 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "とともに"
+      "blank_target_reading": "とともに",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "故郷",
+          "reading": "こきょう",
+          "meaning": "hometown"
+        },
+        {
+          "word": "都会",
+          "reading": "とかい",
+          "meaning": "city; urban area"
+        },
+        {
+          "word": "離れて",
+          "reading": "はなれて",
+          "meaning": "to leave; part from"
+        }
+      ]
     },
     {
       "id": "n3_097_5",
@@ -147,68 +199,28 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "とともに"
+      "blank_target_reading": "とともに",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "気温",
+          "reading": "きおん",
+          "meaning": "air temperature"
+        },
+        {
+          "word": "木々",
+          "reading": "きぎ",
+          "meaning": "trees"
+        },
+        {
+          "word": "色づき",
+          "reading": "いろづき",
+          "meaning": "taking on (autumn) color"
+        }
+      ]
     },
     {
       "id": "n3_097_6",
-      "example_sentence": "社長は社員と共に、会社の発展に力を尽くした。",
-      "translation": "The president, together with the employees, devoted himself to the company's growth.",
-      "blank_target": "と共に",
-      "wrong_choices": [
-        "につれて",
-        "に対して",
-        "をめぐって"
-      ],
-      "wrong_choice_explanations": [
-        "「につれて」は変化の進行に伴う意味で、名詞「社員」に付いて「一緒に」という付帯は表せない。",
-        "「に対して」は対象・対比を示し、社員と一緒に努める付帯の意味にはならない。",
-        "「をめぐって」は「〜を中心に争う・話し合う」で、共に努力するこの文意には合わない。"
-      ],
-      "hiragana_full": "しゃちょうはしゃいんとともに、かいしゃのはってんにちからをつくした。",
-      "audio_alternatives": [
-        {
-          "kanji": "社長は社員と一丸となって、会社を支えた。",
-          "hiragana_full": "しゃちょうはしゃいんといちがんとなって、かいしゃをささえた。"
-        },
-        {
-          "kanji": "経営陣は社員と共に努力を重ねた。",
-          "hiragana_full": "けいえいじんはしゃいんとともにどりょくをかさねた。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "とともに"
-    },
-    {
-      "id": "n3_097_7",
-      "example_sentence": "経済の成長と共に、都市の人口は急激に増えた。",
-      "translation": "Along with economic growth, the city's population increased rapidly.",
-      "blank_target": "と共に",
-      "wrong_choices": [
-        "に反して",
-        "のかわりに",
-        "にもかかわらず"
-      ],
-      "wrong_choice_explanations": [
-        "「に反して」は逆接で予想に反する意味になり、成長と並行して増える付帯のこの文に合わない。",
-        "「のかわりに」は代理を表し、共に進む・並行する意味とは異なる。",
-        "「にもかかわらず」は逆接「〜なのに」で、成長と同時に増えるこの文意とは異なる。"
-      ],
-      "hiragana_full": "けいざいのせいちょうとともに、としのじんこうはきゅうげきにふえた。",
-      "audio_alternatives": [
-        {
-          "kanji": "経済が発展すると共に、人口が増加した。",
-          "hiragana_full": "けいざいがはってんするとともに、じんこうがぞうかした。"
-        },
-        {
-          "kanji": "経済成長とともに、街はにぎわっていった。",
-          "hiragana_full": "けいざいせいちょうとともに、まちはにぎわっていった。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "とともに"
-    },
-    {
-      "id": "n3_097_8",
       "example_sentence": "大きな雷の音と共に、激しい雨が降り出した。",
       "translation": "Along with a loud clap of thunder, heavy rain began to fall.",
       "blank_target": "と共に",
@@ -234,39 +246,23 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "とともに"
-    },
-    {
-      "id": "n3_097_9",
-      "example_sentence": "時代の変化と共に、人々の価値観も大きく変わってきた。",
-      "translation": "As the times change, people's values have also changed greatly.",
-      "blank_target": "と共に",
-      "wrong_choices": [
-        "に反して",
-        "のわりに",
-        "に比べて"
-      ],
-      "wrong_choice_explanations": [
-        "「に反して」は逆接で予想に反する意味になり、時代の変化と並行するこの文意に合わない。",
-        "「のわりに」は予想との不釣り合いを表し、並行した変化を述べるこの文には合わない。",
-        "「に比べて」は比較を表し、「変化と同時に」という並行の意味にはならない。"
-      ],
-      "hiragana_full": "じだいのへんかとともに、ひとびとのかちかんもおおきくかわってきた。",
-      "audio_alternatives": [
+      "blank_target_reading": "とともに",
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "時代が変わると共に、考え方も変化した。",
-          "hiragana_full": "じだいがかわるとともに、かんがえかたもへんかした。"
+          "word": "雷",
+          "reading": "かみなり",
+          "meaning": "thunder"
         },
         {
-          "kanji": "社会の変化とともに、価値観も移り変わる。",
-          "hiragana_full": "しゃかいのへんかとともに、かちかんもうつりかわる。"
+          "word": "激しい",
+          "reading": "はげしい",
+          "meaning": "intense; violent"
         }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "とともに"
+      ]
     },
     {
-      "id": "n3_097_10",
+      "id": "n3_097_7",
       "example_sentence": "仲間と共に力を合わせて、私たちは困難を乗り越えた。",
       "translation": "Together with my comrades, we joined forces and overcame the hardship.",
       "blank_target": "と共に",
@@ -292,7 +288,153 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "とともに"
+      "blank_target_reading": "とともに",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "仲間",
+          "reading": "なかま",
+          "meaning": "companions; comrades"
+        },
+        {
+          "word": "困難",
+          "reading": "こんなん",
+          "meaning": "hardship; difficulty"
+        },
+        {
+          "word": "乗り越えた",
+          "reading": "のりこえた",
+          "meaning": "overcame"
+        }
+      ]
+    },
+    {
+      "id": "n3_097_8",
+      "example_sentence": "企業の成長とともに、従業員数も増えた。",
+      "translation": "Along with the company's growth, the number of employees also increased.",
+      "blank_target": "とともに",
+      "wrong_choices": [
+        "に比べて",
+        "にかかわらず",
+        "にもかかわらず"
+      ],
+      "wrong_choice_explanations": [
+        "に比べて means 'compared to' and is used for comparisons, not for expressing simultaneous change as needed here.",
+        "にかかわらず means 'regardless of' and indicates that something happens despite another factor, opposite to the simultaneous relationship shown here.",
+        "にもかかわらず means 'despite/in spite of' and shows contrast, but this sentence shows positive correlation, not contrast."
+      ],
+      "hiragana_full": "きぎょうのせいちょうとともに、じゅうぎょういんすうもふえた。",
+      "audio_alternatives": [
+        {
+          "kanji": "会社の成長に伴い、従業員数も増加した。",
+          "hiragana_full": "かいしゃのせいちょうにともない、じゅうぎょういんすうもぞうかした。"
+        },
+        {
+          "kanji": "企業が成長するにつれて、従業員の数も増えた。",
+          "hiragana_full": "きぎょうがせいちょうするにつれて、じゅうぎょういんのかずもふえた。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "企業",
+          "reading": "きぎょう",
+          "meaning": "corporation"
+        },
+        {
+          "word": "成長",
+          "reading": "せいちょう",
+          "meaning": "growth"
+        },
+        {
+          "word": "従業員数",
+          "reading": "じゅうぎょういんすう",
+          "meaning": "number of employees"
+        }
+      ]
+    },
+    {
+      "id": "n3_097_9",
+      "example_sentence": "グローバル化とともに、多様性が重視されるようになった。",
+      "translation": "Along with globalization, diversity has come to be valued.",
+      "blank_target": "とともに",
+      "wrong_choices": [
+        "に反して",
+        "に先立って",
+        "において"
+      ],
+      "wrong_choice_explanations": [
+        "に反して means 'contrary to/against' and indicates opposition, but this sentence shows globalization and valuing diversity happening together, not in opposition.",
+        "に先立って means 'prior to/before' and indicates something happening before another event, not simultaneous occurrence.",
+        "において means 'in/at' (place or situation) and indicates location or circumstances, not the temporal simultaneity expressed here."
+      ],
+      "hiragana_full": "ぐろーばるかとともに、たようせいがじゅうしされるようになった。",
+      "audio_alternatives": [
+        {
+          "kanji": "グローバル化に伴い、多様性が重視されるようになった。",
+          "hiragana_full": "ぐろーばるかにともない、たようせいがじゅうしされるようになった。"
+        },
+        {
+          "kanji": "グローバル化の進展とともに、多様性が尊重されるようになった。",
+          "hiragana_full": "ぐろーばるかのしんてんとともに、たようせいがそんちょうされるようになった。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "多様性",
+          "reading": "たようせい",
+          "meaning": "diversity"
+        },
+        {
+          "word": "重視",
+          "reading": "じゅうし",
+          "meaning": "to value, emphasize"
+        }
+      ]
+    },
+    {
+      "id": "n3_097_10",
+      "example_sentence": "子どもの成長とともに、親としての責任感も強くなる。",
+      "translation": "Along with a child's growth, one's sense of responsibility as a parent also becomes stronger.",
+      "blank_target": "とともに",
+      "wrong_choices": [
+        "に向けて",
+        "をもとに",
+        "に基づいて"
+      ],
+      "wrong_choice_explanations": [
+        "に向けて means 'toward / aiming at,' framing the child's growth as a future goal rather than an ongoing change that the parent's sense of responsibility develops alongside, which is what とともに expresses.",
+        "をもとに means 'based on' and indicates using something as a foundation, which doesn't fit the context of simultaneous emotional and situational change.",
+        "に基づいて means 'based on' and indicates following principles or standards, not the natural parallel development shown in this sentence."
+      ],
+      "hiragana_full": "こどものせいちょうとともに、おやとしてのせきにんかんもつよくなる。",
+      "audio_alternatives": [
+        {
+          "kanji": "子どもが成長するにつれて、親の責任感も強くなる。",
+          "hiragana_full": "こどもがせいちょうするにつれて、おやのせきにんかんもつよくなる。"
+        },
+        {
+          "kanji": "子どもの成長に伴い、親としての責任感も増す。",
+          "hiragana_full": "こどものせいちょうにともない、おやとしてのせきにんかんもます。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "成長",
+          "reading": "せいちょう",
+          "meaning": "growth"
+        },
+        {
+          "word": "責任感",
+          "reading": "せきにんかん",
+          "meaning": "sense of responsibility"
+        }
+      ]
     }
   ]
 }

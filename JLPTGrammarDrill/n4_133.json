@@ -9,7 +9,11 @@
       "example_sentence": "こちらが本日の新メニューでございます。",
       "translation": "This is today's new menu item.",
       "blank_target": "でございます",
-      "wrong_choices": ["でいらっしゃいます", "です", "である"],
+      "wrong_choices": [
+        "でいらっしゃいます",
+        "です",
+        "である"
+      ],
       "wrong_choice_explanations": [
         "でいらっしゃいます is the honorific (sonkeigo) copula reserved for elevating a person you respect — お客様, 先生, etc.; a menu item isn't a person, so sonkeigo doesn't apply to it.",
         "です is grammatically polite, but a restaurant server presenting a dish to a customer uses the maximally polite-humble でございます to project hospitality.",
@@ -17,17 +21,40 @@
       ],
       "hiragana_full": "こちらがほんじつのしんめにゅーでございます。",
       "audio_alternatives": [
-        { "kanji": "こちらは当店自慢の新メニューでございます。", "hiragana_full": "こちらはとうてんじまんのしんめにゅーでございます。" },
-        { "kanji": "本日より販売開始の新商品となっております。", "hiragana_full": "ほんじつよりはんばいかいしのしんしょうひんとなっております。" }
+        {
+          "kanji": "こちらは当店自慢の新メニューでございます。",
+          "hiragana_full": "こちらはとうてんじまんのしんめにゅーでございます。"
+        },
+        {
+          "kanji": "本日より販売開始の新商品となっております。",
+          "hiragana_full": "ほんじつよりはんばいかいしのしんしょうひんとなっております。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        {
+          "word": "本日",
+          "reading": "ほんじつ",
+          "meaning": "today"
+        },
+        {
+          "word": "新メニュー",
+          "reading": "しんめにゅー",
+          "meaning": "new menu"
+        }
+      ]
     },
     {
       "id": "n4_133_2",
       "example_sentence": "次の停車駅は東京でございます。",
       "translation": "The next stop is Tokyo.",
       "blank_target": "でございます",
-      "wrong_choices": ["でいらっしゃいます", "です", "だ"],
+      "wrong_choices": [
+        "でいらっしゃいます",
+        "です",
+        "だ"
+      ],
       "wrong_choice_explanations": [
         "でいらっしゃいます elevates a person worthy of respect — a station name isn't a person, so honoring it with sonkeigo is incoherent.",
         "です is polite but Japanese train announcements consistently use the higher-courtesy customer-facing register でございます to address all passengers formally.",
@@ -35,17 +62,35 @@
       ],
       "hiragana_full": "つぎのていしゃえきはとうきょうでございます。",
       "audio_alternatives": [
-        { "kanji": "まもなく東京、東京に到着でございます。", "hiragana_full": "まもなくとうきょう、とうきょうにとうちゃくでございます。" },
-        { "kanji": "次は東京駅、お忘れ物のないようご注意ください。", "hiragana_full": "つぎはとうきょうえき、おわすれもののないようごちゅういください。" }
+        {
+          "kanji": "まもなく東京、東京に到着でございます。",
+          "hiragana_full": "まもなくとうきょう、とうきょうにとうちゃくでございます。"
+        },
+        {
+          "kanji": "次は東京駅、お忘れ物のないようご注意ください。",
+          "hiragana_full": "つぎはとうきょうえき、おわすれもののないようごちゅういください。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        {
+          "word": "停車駅",
+          "reading": "ていしゃえき",
+          "meaning": "stop / station"
+        }
+      ]
     },
     {
       "id": "n4_133_3",
       "example_sentence": "はい、株式会社さくら、田中でございます。",
       "translation": "Hello, this is Tanaka of Sakura Inc.",
       "blank_target": "でございます",
-      "wrong_choices": ["でいらっしゃいます", "です", "だ"],
+      "wrong_choices": [
+        "でいらっしゃいます",
+        "です",
+        "だ"
+      ],
       "wrong_choice_explanations": [
         "でいらっしゃいます is sonkeigo for OTHERS — the speaker can't elevate themselves, so when self-identifying on a business call the humble でございます is required.",
         "です is polite but a business receptionist answering an external call uses the higher-courtesy でございます to greet the caller with full formality.",
@@ -53,17 +98,35 @@
       ],
       "hiragana_full": "はい、かぶしきがいしゃさくら、たなかでございます。",
       "audio_alternatives": [
-        { "kanji": "お電話ありがとうございます、株式会社さくらの田中でございます。", "hiragana_full": "おでんわありがとうございます、かぶしきがいしゃさくらのたなかでございます。" },
-        { "kanji": "はい、さくらの田中が承ります。", "hiragana_full": "はい、さくらのたなかがうけたまわります。" }
+        {
+          "kanji": "お電話ありがとうございます、株式会社さくらの田中でございます。",
+          "hiragana_full": "おでんわありがとうございます、かぶしきがいしゃさくらのたなかでございます。"
+        },
+        {
+          "kanji": "はい、さくらの田中が承ります。",
+          "hiragana_full": "はい、さくらのたなかがうけたまわります。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        {
+          "word": "株式会社",
+          "reading": "かぶしきがいしゃ",
+          "meaning": "corporation"
+        }
+      ]
     },
     {
       "id": "n4_133_4",
       "example_sentence": "ただ今、4階の婦人服売り場でございます。",
       "translation": "We are now on the 4th floor, the women's clothing department.",
       "blank_target": "でございます",
-      "wrong_choices": ["でいらっしゃいます", "です", "でおります"],
+      "wrong_choices": [
+        "でいらっしゃいます",
+        "です",
+        "でおります"
+      ],
       "wrong_choice_explanations": [
         "でいらっしゃいます elevates an esteemed person — a sales floor isn't a person, so sonkeigo can't be applied to it.",
         "です is polite but department-store elevator announcements use customer-facing でございます to address shoppers with the highest courtesy.",
@@ -71,17 +134,40 @@
       ],
       "hiragana_full": "ただいま、よんかいのふじんふくうりばでございます。",
       "audio_alternatives": [
-        { "kanji": "ここは4階、婦人服売り場でございます。", "hiragana_full": "ここはよんかい、ふじんふくうりばでございます。" },
-        { "kanji": "ただ今、4階レディースのフロアにご案内中です。", "hiragana_full": "ただいま、よんかいれでぃーすのふろあにごあんないちゅうです。" }
+        {
+          "kanji": "ここは4階、婦人服売り場でございます。",
+          "hiragana_full": "ここはよんかい、ふじんふくうりばでございます。"
+        },
+        {
+          "kanji": "ただ今、4階レディースのフロアにご案内中です。",
+          "hiragana_full": "ただいま、よんかいれでぃーすのふろあにごあんないちゅうです。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        {
+          "word": "婦人服",
+          "reading": "ふじんふく",
+          "meaning": "women's clothing"
+        },
+        {
+          "word": "売り場",
+          "reading": "うりば",
+          "meaning": "sales floor"
+        }
+      ]
     },
     {
       "id": "n4_133_5",
       "example_sentence": "お会計は3,200円でございます。",
       "translation": "Your total comes to 3,200 yen.",
       "blank_target": "でございます",
-      "wrong_choices": ["でいらっしゃいます", "です", "である"],
+      "wrong_choices": [
+        "でいらっしゃいます",
+        "です",
+        "である"
+      ],
       "wrong_choice_explanations": [
         "でいらっしゃいます would elevate the bill amount as if it were a person worthy of respect — money is not a person and sonkeigo doesn't apply.",
         "です is grammatically polite but cashiers in formal stores consistently use でございます to address customers with maximal courtesy.",
@@ -89,17 +175,35 @@
       ],
       "hiragana_full": "おかいけいはさんぜんにひゃくえんでございます。",
       "audio_alternatives": [
-        { "kanji": "お会計、合計3,200円でございます。", "hiragana_full": "おかいけい、ごうけいさんぜんにひゃくえんでございます。" },
-        { "kanji": "本日のお買い上げ金額は3,200円となります。", "hiragana_full": "ほんじつのおかいあげきんがくはさんぜんにひゃくえんとなります。" }
+        {
+          "kanji": "お会計、合計3,200円でございます。",
+          "hiragana_full": "おかいけい、ごうけいさんぜんにひゃくえんでございます。"
+        },
+        {
+          "kanji": "本日のお買い上げ金額は3,200円となります。",
+          "hiragana_full": "ほんじつのおかいあげきんがくはさんぜんにひゃくえんとなります。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        {
+          "word": "会計",
+          "reading": "かいけい",
+          "meaning": "bill / check"
+        }
+      ]
     },
     {
       "id": "n4_133_6",
       "example_sentence": "お部屋の鍵はこちらでございます。",
       "translation": "Here is your room key.",
       "blank_target": "でございます",
-      "wrong_choices": ["でいらっしゃいます", "です", "だ"],
+      "wrong_choices": [
+        "でいらっしゃいます",
+        "です",
+        "だ"
+      ],
       "wrong_choice_explanations": [
         "でいらっしゃいます elevates a respected person — a key (and a location like こちら) isn't a person, so sonkeigo doesn't fit.",
         "です is polite but a hotel concierge handing over a key to a guest uses the higher-courtesy でございます to deliver the service formally.",
@@ -107,17 +211,35 @@
       ],
       "hiragana_full": "おへやのかぎはこちらでございます。",
       "audio_alternatives": [
-        { "kanji": "お部屋のキーをこちらにご用意してございます。", "hiragana_full": "おへやのきーをこちらにごよういしてございます。" },
-        { "kanji": "こちらが鍵でございますので、どうぞお持ちください。", "hiragana_full": "こちらがかぎでございますので、どうぞおもちください。" }
+        {
+          "kanji": "お部屋のキーをこちらにご用意してございます。",
+          "hiragana_full": "おへやのきーをこちらにごよういしてございます。"
+        },
+        {
+          "kanji": "こちらが鍵でございますので、どうぞお持ちください。",
+          "hiragana_full": "こちらがかぎでございますので、どうぞおもちください。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        {
+          "word": "鍵",
+          "reading": "かぎ",
+          "meaning": "key"
+        }
+      ]
     },
     {
       "id": "n4_133_7",
       "example_sentence": "本日の司会を務めます山田でございます。",
       "translation": "I'm Yamada, who will be serving as today's emcee.",
       "blank_target": "でございます",
-      "wrong_choices": ["でいらっしゃいます", "です", "である"],
+      "wrong_choices": [
+        "でいらっしゃいます",
+        "です",
+        "である"
+      ],
       "wrong_choice_explanations": [
         "でいらっしゃいます would elevate the speaker himself, which clashes with the humble 務めます self-reference; one introduces oneself with the humble でございます, not sonkeigo.",
         "です is polite but a formal MC self-introducing in front of an audience uses the highest-courtesy register でございます.",
@@ -125,17 +247,40 @@
       ],
       "hiragana_full": "ほんじつのしかいをつとめますやまだでございます。",
       "audio_alternatives": [
-        { "kanji": "本日司会を務めさせていただきます、山田でございます。", "hiragana_full": "ほんじつしかいをつとめさせていただきます、やまだでございます。" },
-        { "kanji": "皆様、こんばんは。司会の山田と申します。", "hiragana_full": "みなさま、こんばんは。しかいのやまだともうします。" }
+        {
+          "kanji": "本日司会を務めさせていただきます、山田でございます。",
+          "hiragana_full": "ほんじつしかいをつとめさせていただきます、やまだでございます。"
+        },
+        {
+          "kanji": "皆様、こんばんは。司会の山田と申します。",
+          "hiragana_full": "みなさま、こんばんは。しかいのやまだともうします。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        {
+          "word": "司会",
+          "reading": "しかい",
+          "meaning": "master of ceremonies"
+        },
+        {
+          "word": "務めます",
+          "reading": "つとめます",
+          "meaning": "to serve as"
+        }
+      ]
     },
     {
       "id": "n4_133_8",
       "example_sentence": "お手洗いはあちらでございます。",
       "translation": "The restroom is over that way.",
       "blank_target": "でございます",
-      "wrong_choices": ["でいらっしゃいます", "です", "だ"],
+      "wrong_choices": [
+        "でいらっしゃいます",
+        "です",
+        "だ"
+      ],
       "wrong_choice_explanations": [
         "でいらっしゃいます is sonkeigo for an esteemed person; a restroom location isn't a person, so honoring it that way is incoherent.",
         "です is polite but staff guiding a customer or guest uses the higher-courtesy でございます as the standard hospitality register.",
@@ -143,17 +288,35 @@
       ],
       "hiragana_full": "おてあらいはあちらでございます。",
       "audio_alternatives": [
-        { "kanji": "お手洗いはあちらにございます。", "hiragana_full": "おてあらいはあちらにございます。" },
-        { "kanji": "化粧室はこの先、突き当たりでございます。", "hiragana_full": "けしょうしつはこのさき、つきあたりでございます。" }
+        {
+          "kanji": "お手洗いはあちらにございます。",
+          "hiragana_full": "おてあらいはあちらにございます。"
+        },
+        {
+          "kanji": "化粧室はこの先、突き当たりでございます。",
+          "hiragana_full": "けしょうしつはこのさき、つきあたりでございます。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        {
+          "word": "お手洗い",
+          "reading": "おてあらい",
+          "meaning": "restroom"
+        }
+      ]
     },
     {
       "id": "n4_133_9",
       "example_sentence": "当店一番の人気商品でございます。",
       "translation": "This is our shop's most popular product.",
       "blank_target": "でございます",
-      "wrong_choices": ["でいらっしゃいます", "です", "でおります"],
+      "wrong_choices": [
+        "でいらっしゃいます",
+        "です",
+        "でおります"
+      ],
       "wrong_choice_explanations": [
         "でいらっしゃいます elevates a respected person — a product isn't a person, so sonkeigo doesn't apply.",
         "です is polite but shop staff promoting a flagship product to a customer uses the higher-courtesy でございます to address them formally.",
@@ -161,17 +324,40 @@
       ],
       "hiragana_full": "とうてんいちばんのにんきしょうひんでございます。",
       "audio_alternatives": [
-        { "kanji": "こちらが当店で一番人気の商品でございます。", "hiragana_full": "こちらがとうてんでいちばんにんきのしょうひんでございます。" },
-        { "kanji": "ただ今、店内ナンバーワンの売れ筋商品となっております。", "hiragana_full": "ただいま、てんないなんばーわんのうれすじしょうひんとなっております。" }
+        {
+          "kanji": "こちらが当店で一番人気の商品でございます。",
+          "hiragana_full": "こちらがとうてんでいちばんにんきのしょうひんでございます。"
+        },
+        {
+          "kanji": "ただ今、店内ナンバーワンの売れ筋商品となっております。",
+          "hiragana_full": "ただいま、てんないなんばーわんのうれすじしょうひんとなっております。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        {
+          "word": "当店",
+          "reading": "とうてん",
+          "meaning": "our store"
+        },
+        {
+          "word": "人気商品",
+          "reading": "にんきしょうひん",
+          "meaning": "popular product"
+        }
+      ]
     },
     {
       "id": "n4_133_10",
       "example_sentence": "ご紹介します、弊社社長の佐藤でございます。",
       "translation": "Let me introduce our company president, Sato.",
       "blank_target": "でございます",
-      "wrong_choices": ["でいらっしゃいます", "です", "である"],
+      "wrong_choices": [
+        "でいらっしゃいます",
+        "です",
+        "である"
+      ],
       "wrong_choice_explanations": [
         "でいらっしゃいます is the right choice for introducing someone else's superior, but the president here belongs to the speaker's OWN company (弊社 marks the uchi group); within one's own group the humble でございます is the only appropriate copula.",
         "です is polite but introducing one's own company's leader to an outside party uses the maximally humble でございます.",
@@ -179,10 +365,34 @@
       ],
       "hiragana_full": "ごしょうかいします、へいしゃしゃちょうのさとうでございます。",
       "audio_alternatives": [
-        { "kanji": "ご紹介いたします、当社代表取締役の佐藤でございます。", "hiragana_full": "ごしょうかいいたします、とうしゃだいひょうとりしまりやくのさとうでございます。" },
-        { "kanji": "こちら、弊社社長の佐藤と申します。", "hiragana_full": "こちら、へいしゃしゃちょうのさとうともうします。" }
+        {
+          "kanji": "ご紹介いたします、当社代表取締役の佐藤でございます。",
+          "hiragana_full": "ごしょうかいいたします、とうしゃだいひょうとりしまりやくのさとうでございます。"
+        },
+        {
+          "kanji": "こちら、弊社社長の佐藤と申します。",
+          "hiragana_full": "こちら、へいしゃしゃちょうのさとうともうします。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        {
+          "word": "紹介",
+          "reading": "しょうかい",
+          "meaning": "to introduce"
+        },
+        {
+          "word": "弊社",
+          "reading": "へいしゃ",
+          "meaning": "our company (humble)"
+        },
+        {
+          "word": "社長",
+          "reading": "しゃちょう",
+          "meaning": "company president"
+        }
+      ]
     }
   ]
 }

@@ -6,158 +6,18 @@
   "exercises": [
     {
       "id": "n2_057_1",
-      "example_sentence": "実物を見ないことには、真の価値は判断できない。",
-      "translation": "Unless you see the real thing, you cannot judge its true value.",
-      "blank_target": "ないことには",
-      "wrong_choices": [
-        "ても",
-        "ないから",
-        "ない以上"
-      ],
-      "wrong_choice_explanations": [
-        "ても is concessive ('even if you see the real thing'), implying you still cannot judge — the opposite of ないことには, which makes seeing the prerequisite without which judging is impossible.",
-        "ないから states not-seeing as a flat reason ('because you don't see it'), a causal claim rather than the conditional 'unless you see it' that ないことには sets up.",
-        "ない以上 treats not-seeing as a settled fact and reasons from it ('now that you don't see it'), whereas ないことには presents seeing as the condition that must first be met."
-      ],
-      "hiragana_full": "じつぶつをみないことには、しんのかちははんだんできない。",
-      "audio_alternatives": [
-        {
-          "kanji": "実物を見なければ、真の価値は判断できない。",
-          "hiragana_full": "じつぶつをみなければ、しんのかちははんだんできない。"
-        },
-        {
-          "kanji": "実物を見ない限り、本当の価値は判断できない。",
-          "hiragana_full": "じつぶつをみないかぎり、ほんとうのかちははんだんできない。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_057_2",
-      "example_sentence": "実際に試してみないことには、その効果は分からない。",
-      "translation": "Unless we actually try it, we won't know its effectiveness.",
-      "blank_target": "ないことには",
-      "wrong_choices": [
-        "ても",
-        "ないので",
-        "ない以上"
-      ],
-      "wrong_choice_explanations": [
-        "ても is concessive ('even if you try it'), suggesting the effect stays unclear anyway, the reverse of ないことには's point that only by trying can you know.",
-        "ないので gives not-trying as a stated cause ('since you don't try it'), not the conditional prerequisite expressed by ないことには.",
-        "ない以上 treats not-trying as established and draws a consequence ('now that you don't try it'), unlike ないことには, which makes trying the condition."
-      ],
-      "hiragana_full": "じっさいにためしてみないことには、そのこうかはわからない。",
-      "audio_alternatives": [
-        {
-          "kanji": "実際にやってみなければ、その効果は分からない。",
-          "hiragana_full": "じっさいにやってみなければ、そのこうかはわからない。"
-        },
-        {
-          "kanji": "実際に試さない限り、その効果は分からない。",
-          "hiragana_full": "じっさいにためさないかぎり、そのこうかはわからない。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_057_3",
-      "example_sentence": "実績を示さないことには、信頼を得られない。",
-      "translation": "Unless you show results, you cannot gain trust.",
-      "blank_target": "ないことには",
-      "wrong_choices": [
-        "ない以上",
-        "なしには",
-        "ないせいで"
-      ],
-      "wrong_choice_explanations": [
-        "ない以上 treats not-showing-results as a settled fact and reasons from it ('since you don't show results'), whereas ないことには presents showing them as the condition that must first be met.",
-        "なしには means 'without ~' but attaches to a noun (e.g. 努力なしには), so it cannot follow the verb stem 示さ the way ないことには does.",
-        "ないせいで blames the bad outcome on not-showing-results ('because of not showing them'), a causal claim rather than the prerequisite condition ないことには expresses."
-      ],
-      "hiragana_full": "じっせきをしめさないことには、しんらいをえられない。",
-      "audio_alternatives": [
-        {
-          "kanji": "結果を見せなければ、信頼を得ることはできない。",
-          "hiragana_full": "けっかをみせなければ、しんらいをえることはできない。"
-        },
-        {
-          "kanji": "成果を示さない限り、信頼は得られない。",
-          "hiragana_full": "せいかをしめさないかぎり、しんらいはえられない。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_057_4",
-      "example_sentence": "データを分析しないことには、原因は特定できない。",
-      "translation": "Unless we analyze the data, we cannot identify the cause.",
-      "blank_target": "ないことには",
-      "wrong_choices": [
-        "ないから",
-        "ても",
-        "たら"
-      ],
-      "wrong_choice_explanations": [
-        "ないから states not-analyzing as a flat reason ('because you don't analyze it'), a causal claim rather than the conditional 'unless you analyze it' that ないことには sets up.",
-        "ても is concessive ('even if you analyze it'), implying the cause stays unidentified anyway, the opposite of ないことには's prerequisite reading.",
-        "たら is a positive conditional ('if/when you analyze it'), which clashes with the negative result 特定できない; ないことには pairs the negated condition with the negative outcome."
-      ],
-      "hiragana_full": "データをぶんせきしないことには、げんいんはとくていできない。",
-      "audio_alternatives": [
-        {
-          "kanji": "データを分析しなければ、原因は特定できない。",
-          "hiragana_full": "データをぶんせきしなければ、げんいんはとくていできない。"
-        },
-        {
-          "kanji": "データを分析しない限り、原因は特定できない。",
-          "hiragana_full": "データをぶんせきしないかぎり、げんいんはとくていできない。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_057_5",
-      "example_sentence": "実験を繰り返さないことには、再現性は確認できない。",
-      "translation": "Unless we repeat the experiments, we cannot confirm reproducibility.",
-      "blank_target": "ないことには",
-      "wrong_choices": [
-        "ないから",
-        "ない以上",
-        "ないせいで"
-      ],
-      "wrong_choice_explanations": [
-        "ないから states not-repeating the experiments as a flat reason ('because you don't repeat them'), not the conditional 'unless you repeat them' of ないことには.",
-        "ない以上 treats not-repeating as a settled fact and reasons from it ('since you don't repeat them'), unlike the condition ないことには sets.",
-        "ないせいで blames the failure on not-repeating ('because of not repeating them'), a causal claim rather than the prerequisite condition ないことには expresses."
-      ],
-      "hiragana_full": "じっけんをくりかえさないことには、さいげんせいはかくにんできない。",
-      "audio_alternatives": [
-        {
-          "kanji": "実験を繰り返さなければ、再現性は確認できない。",
-          "hiragana_full": "じっけんをくりかえさなければ、さいげんせいはかくにんできない。"
-        },
-        {
-          "kanji": "実験を繰り返さない限り、再現性を確認することはできない。",
-          "hiragana_full": "じっけんをくりかえさないかぎり、さいげんせいをかくにんすることはできない。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_057_6",
       "example_sentence": "本人に会わないことには、真意は分からない。",
       "translation": "Unless you meet the person directly, you cannot understand their true intentions.",
       "blank_target": "ないことには",
       "wrong_choices": [
-        "ないので",
+        "ないうちに",
         "ないだけで",
-        "ないせいで"
+        "ないくせに"
       ],
       "wrong_choice_explanations": [
-        "ないので gives not-meeting them as a stated cause ('since you don't meet them'), not the conditional prerequisite expressed by ないことには.",
+        "ないうちに means 'before (doing)' and marks a window of time in which something happens, not the prerequisite 'unless you meet them' that ないことには expresses.",
         "ないだけで means 'merely by not meeting them' and points to insufficiency, not the conditional prerequisite that ないことには expresses.",
-        "ないせいで blames the outcome on not-meeting them ('because of not meeting them'), a causal claim rather than the prerequisite condition ないことには expresses."
+        "ないくせに means 'despite not meeting them' with a reproachful tone and needs a contrasting result, whereas the sentence states that meeting the person is a prerequisite for knowing their true intentions."
       ],
       "hiragana_full": "ほんにんにあわないことには、しんいはわからない。",
       "audio_alternatives": [
@@ -170,49 +30,34 @@
           "hiragana_full": "ほんにんとあわないかぎり、しんいはわからない。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_057_7",
-      "example_sentence": "詳しく調べないことには、問題の根本は見えてこない。",
-      "translation": "Unless we investigate thoroughly, the root of the problem won't become clear.",
-      "blank_target": "ないことには",
-      "wrong_choices": [
-        "ても",
-        "ないせいで",
-        "ない以上"
-      ],
-      "wrong_choice_explanations": [
-        "ても is concessive ('even if you investigate thoroughly'), implying the root still won't surface, the reverse of ないことには's prerequisite reading.",
-        "ないせいで blames the result on not-investigating ('because of not investigating'), a causal claim rather than the prerequisite condition ないことには expresses.",
-        "ない以上 treats not-investigating as a settled fact and reasons from it ('since you don't investigate'), unlike the condition set by ないことには."
-      ],
-      "hiragana_full": "くわしくしらべないことには、もんだいのこんぽんはみえてこない。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "詳しく調査しないことには、問題の根本は見えてこない。",
-          "hiragana_full": "くわしくちょうさしないことには、もんだいのこんぽんはみえてこない。"
+          "word": "本人",
+          "reading": "ほんにん",
+          "meaning": "the person themselves"
         },
         {
-          "kanji": "徹底的に調べなければ、問題の根本は明らかにならない。",
-          "hiragana_full": "てっていてきにしらべなければ、もんだいのこんぽんはあきらかにならない。"
+          "word": "真意",
+          "reading": "しんい",
+          "meaning": "true intention"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n2_057_8",
+      "id": "n2_057_2",
       "example_sentence": "専門家に相談しないことには、正しい判断はできない。",
       "translation": "Unless you consult with experts, you cannot make correct judgments.",
       "blank_target": "ないことには",
       "wrong_choices": [
-        "ても",
-        "ないので",
+        "ないものの",
+        "ないくせに",
         "ないだけで"
       ],
       "wrong_choice_explanations": [
-        "ても is concessive ('even if you consult experts'), suggesting you still can't judge correctly, the opposite of ないことには's point that consulting is the prerequisite.",
-        "ないので gives not-consulting as a stated cause ('since you don't consult them'), not the conditional prerequisite expressed by ないことには.",
+        "ないものの means 'although we don't consult' and concedes a fact before a contrast, but there is no contrast here—consulting experts is the required condition for a correct judgment.",
+        "ないくせに means 'despite not consulting' with a reproachful tone and needs a contrasting result, whereas the sentence states that consulting experts is a prerequisite for a correct judgment.",
         "ないだけで means 'merely by not consulting them' and points to insufficiency, not the conditional prerequisite that ないことには expresses."
       ],
       "hiragana_full": "せんもんかにそうだんしないことには、ただしいはんだんはできない。",
@@ -226,22 +71,35 @@
           "hiragana_full": "せんもんかにそうだんせずには、ただしいはんだんはできない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "専門家",
+          "reading": "せんもんか",
+          "meaning": "expert"
+        },
+        {
+          "word": "判断",
+          "reading": "はんだん",
+          "meaning": "judgment"
+        }
+      ]
     },
     {
-      "id": "n2_057_9",
+      "id": "n2_057_3",
       "example_sentence": "現場を確認しないことには、対策は立てられない。",
       "translation": "Unless we check the actual site, we cannot formulate countermeasures.",
       "blank_target": "ないことには",
       "wrong_choices": [
-        "ても",
-        "ないから",
-        "ないからには"
+        "ないだけで",
+        "ないくせに",
+        "ないものの"
       ],
       "wrong_choice_explanations": [
-        "ても is concessive ('even if you check the site'), implying you still cannot draw up countermeasures, the reverse of ないことには's prerequisite reading.",
-        "ないから states not-checking the site as a flat reason ('because you don't check it'), not the conditional 'unless you check it' of ないことには.",
-        "ないからには ('given that you won't check it') expects a resolve-or-obligation consequence, which sits awkwardly with the 'cannot' result and differs from the plain prerequisite of ないことには."
+        "ないだけで means 'merely by not checking the site' and points to insufficiency, not the conditional prerequisite that ないことには expresses.",
+        "ないくせに means 'despite not checking' with a critical tone and requires a contrasting outcome, but the sentence states that checking the site is a precondition for drawing up countermeasures.",
+        "ないものの means 'although we don't check' and concedes a fact before a contrast, but there is no contrast here—checking the site is the required condition for countermeasures."
       ],
       "hiragana_full": "げんばをかくにんしないことには、たいさくはたてられない。",
       "audio_alternatives": [
@@ -254,22 +112,35 @@
           "hiragana_full": "げんばをかくにんしないかぎり、たいさくはたてられない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "現場",
+          "reading": "げんば",
+          "meaning": "site/scene"
+        },
+        {
+          "word": "対策",
+          "reading": "たいさく",
+          "meaning": "countermeasure"
+        }
+      ]
     },
     {
-      "id": "n2_057_10",
+      "id": "n2_057_4",
       "example_sentence": "直接話し合わないことには、誤解は解けない。",
       "translation": "Unless we discuss it directly, the misunderstanding won't be resolved.",
       "blank_target": "ないことには",
       "wrong_choices": [
-        "ないから",
+        "ないくせに",
         "ないだけで",
-        "ない以上"
+        "ないものの"
       ],
       "wrong_choice_explanations": [
-        "ないから states not-discussing it directly as a flat reason ('because you don't talk it out'), not the conditional 'unless you talk it out' of ないことには.",
+        "ないくせに means 'despite not talking it over' with a reproachful tone and needs a contrasting result, whereas the sentence states that direct discussion is a prerequisite for clearing up the misunderstanding.",
         "ないだけで means 'merely by not talking it out' and points to insufficiency, not the conditional prerequisite that ないことには expresses.",
-        "ない以上 treats not-discussing it as a settled fact and reasons from it ('since you don't talk it out'), unlike the condition ないことには sets."
+        "ないものの means 'although we don't talk' and concedes a fact before a contrast, but the sentence presents direct discussion as the necessary condition for resolving the misunderstanding."
       ],
       "hiragana_full": "ちょくせつはなしあわないことには、ごかいはとけない。",
       "audio_alternatives": [
@@ -282,7 +153,251 @@
           "hiragana_full": "ちょくせつはなしあわないかぎり、ごかいはかいしょうされない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "話し合う",
+          "reading": "はなしあう",
+          "meaning": "to discuss"
+        },
+        {
+          "word": "誤解",
+          "reading": "ごかい",
+          "meaning": "misunderstanding"
+        }
+      ]
+    },
+    {
+      "id": "n2_057_5",
+      "example_sentence": "試してみないことには、うまくいくかどうか分からない。",
+      "translation": "Unless we try it, we won't know whether it will go well.",
+      "blank_target": "ないことには",
+      "wrong_choices": [
+        "ないばかりか",
+        "ないとき",
+        "ないものの"
+      ],
+      "wrong_choice_explanations": [
+        "〜ないばかりか means 'not only do we not try, but also…' and adds a further point, rather than setting trying as the prerequisite for knowing whether it will work.",
+        "〜ないとき frames a moment in time ('at times when we don't try'), so the sentence becomes a generic observation about idle moments instead of saying that trying is the condition required to find out.",
+        "〜ないものの means 'although we don't try' and concedes a fact before a contrast, but there is no contrast here—trying is the required step to know whether it will work."
+      ],
+      "hiragana_full": "ためしてみないことには、うまくいくかどうかわからない。",
+      "audio_alternatives": [
+        {
+          "kanji": "やってみなければ、うまくいくかどうか分からない。",
+          "hiragana_full": "やってみなければ、うまくいくかどうかわからない。"
+        },
+        {
+          "kanji": "試してみなければ、成功するかどうか分からない。",
+          "hiragana_full": "ためしてみなければ、せいこうするかどうかわからない。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "試して",
+          "reading": "ためして",
+          "meaning": "try (and see)"
+        }
+      ]
+    },
+    {
+      "id": "n2_057_6",
+      "example_sentence": "医者に診てもらわないことには、病気は治らない。",
+      "translation": "Unless you see a doctor, the illness won't be cured.",
+      "blank_target": "ないことには",
+      "wrong_choices": [
+        "ないくせに",
+        "ないとき",
+        "ないものの"
+      ],
+      "wrong_choice_explanations": [
+        "〜ないくせに means 'despite not seeing a doctor' with a reproachful tone and needs a contrasting result, whereas the sentence states that seeing a doctor is a precondition for recovery.",
+        "〜ないとき marks a time-window ('at times when we don't see a doctor'), turning the sentence into a general observation about untreated periods instead of the prerequisite framing ないことには provides.",
+        "〜ないものの means 'although we don't see a doctor' and concedes a fact before a contrast, but there is no contrast here—seeing a doctor is the required condition for recovery."
+      ],
+      "hiragana_full": "いしゃにみてもらわないことには、びょうきはなおらない。",
+      "audio_alternatives": [
+        {
+          "kanji": "医者に診てもらわなければ、病気は治らない。",
+          "hiragana_full": "いしゃにみてもらわなければ、びょうきはなおらない。"
+        },
+        {
+          "kanji": "医者に診てもらわない限り、病気は治らない。",
+          "hiragana_full": "いしゃにみてもらわないかぎり、びょうきはなおらない。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "診て",
+          "reading": "みて",
+          "meaning": "to examine (medically)"
+        }
+      ]
+    },
+    {
+      "id": "n2_057_7",
+      "example_sentence": "練習しないことには、上達は期待できない。",
+      "translation": "Unless you practice, you can't expect to improve.",
+      "blank_target": "ないことには",
+      "wrong_choices": [
+        "ないとき",
+        "ないまま",
+        "ないもの"
+      ],
+      "wrong_choice_explanations": [
+        "〜ないとき means 'when not doing' and refers to timing rather than expressing a necessary condition.",
+        "〜ないまま means 'remaining in a state of not doing' which doesn't create the conditional meaning needed here.",
+        "〜ないもの is a noun phrase meaning 'thing that doesn't' and grammatically doesn't fit this sentence structure."
+      ],
+      "hiragana_full": "れんしゅうしないことには、じょうたつはきたいできない。",
+      "audio_alternatives": [
+        {
+          "kanji": "練習しなければ、上達は望めない。",
+          "hiragana_full": "れんしゅうしなければ、じょうたつはのぞめない。"
+        },
+        {
+          "kanji": "練習しない限り、上達は期待できない。",
+          "hiragana_full": "れんしゅうしないかぎり、じょうたつはきたいできない。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "上達",
+          "reading": "じょうたつ",
+          "meaning": "improvement (in skill)"
+        },
+        {
+          "word": "期待",
+          "reading": "きたい",
+          "meaning": "expectation"
+        }
+      ]
+    },
+    {
+      "id": "n2_057_8",
+      "example_sentence": "経験しないことには、その仕事の大変さは理解できない。",
+      "translation": "Unless you experience it, you can't understand how difficult that job is.",
+      "blank_target": "ないことには",
+      "wrong_choices": [
+        "ないくせに",
+        "ないものの",
+        "ないだけで"
+      ],
+      "wrong_choice_explanations": [
+        "〜ないくせに means 'despite not having experienced it' with a reproachful tone and needs a contrasting result, but the sentence states that experience is a prerequisite for understanding the job's difficulty.",
+        "〜ないものの means 'although we don't experience it' and concedes a fact before a contrast, but there is no contrast here—experience is the required condition for understanding the job's difficulty.",
+        "〜ないだけで means 'merely by not experiencing it' and points to insufficiency, not the conditional prerequisite that ないことには expresses."
+      ],
+      "hiragana_full": "けいけんしないことには、そのしごとのたいへんさはりかいできない。",
+      "audio_alternatives": [
+        {
+          "kanji": "経験してみないと、その仕事の大変さは分からない。",
+          "hiragana_full": "けいけんしてみないと、そのしごとのたいへんさはわからない。"
+        },
+        {
+          "kanji": "実際に経験しなければ、その仕事の大変さは理解できない。",
+          "hiragana_full": "じっさいにけいけんしなければ、そのしごとのたいへんさはりかいできない。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "大変さ",
+          "reading": "たいへんさ",
+          "meaning": "difficulty / hardship"
+        },
+        {
+          "word": "理解",
+          "reading": "りかい",
+          "meaning": "understanding"
+        }
+      ]
+    },
+    {
+      "id": "n2_057_9",
+      "example_sentence": "調査しないことには、原因は特定できない。",
+      "translation": "Unless we investigate, we can't identify the cause.",
+      "blank_target": "ないことには",
+      "wrong_choices": [
+        "ないうち",
+        "ないけど",
+        "ないわけ"
+      ],
+      "wrong_choice_explanations": [
+        "〜ないうち means 'while not doing' and refers to a time period rather than expressing a necessary condition.",
+        "〜ないけど means 'don't do, but' and creates a contradictory meaning that doesn't logically connect the clauses.",
+        "〜ないわけ means 'it's not that...' and is used for denial/explanation, not for expressing necessary conditions."
+      ],
+      "hiragana_full": "ちょうさしないことには、げんいんはとくていできない。",
+      "audio_alternatives": [
+        {
+          "kanji": "調査しなければ、原因は特定できない。",
+          "hiragana_full": "ちょうさしなければ、げんいんはとくていできない。"
+        },
+        {
+          "kanji": "調査しない限り、原因は特定できない。",
+          "hiragana_full": "ちょうさしないかぎり、げんいんはとくていできない。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "調査",
+          "reading": "ちょうさ",
+          "meaning": "investigation"
+        },
+        {
+          "word": "特定",
+          "reading": "とくてい",
+          "meaning": "identifying / pinpointing"
+        }
+      ]
+    },
+    {
+      "id": "n2_057_10",
+      "example_sentence": "現地に行かないことには、本当の文化は学べない。",
+      "translation": "Unless you go to the actual place, you can't learn the real culture.",
+      "blank_target": "ないことには",
+      "wrong_choices": [
+        "ないにも",
+        "ないとも",
+        "ないほど"
+      ],
+      "wrong_choice_explanations": [
+        "〜ないにも is not a standard grammar pattern and would make the sentence grammatically incorrect.",
+        "〜ないとも could mean 'even if not' but doesn't fit grammatically in this sentence structure.",
+        "〜ないほど means 'to the extent of not' and expresses degree rather than the conditional necessity required."
+      ],
+      "hiragana_full": "げんちにいかないことには、ほんとうのぶんかはまなべない。",
+      "audio_alternatives": [
+        {
+          "kanji": "現地に行かなければ、本当の文化は学べない。",
+          "hiragana_full": "げんちにいかなければ、ほんとうのぶんかはまなべない。"
+        },
+        {
+          "kanji": "実際の場所に行かない限り、本当の文化は学べない。",
+          "hiragana_full": "じっさいのばしょにいかないかぎり、ほんとうのぶんかはまなべない。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "現地",
+          "reading": "げんち",
+          "meaning": "the actual place / on-site"
+        }
+      ]
     }
   ]
 }

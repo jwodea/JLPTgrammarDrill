@@ -6,6 +6,148 @@
   "exercises": [
     {
       "id": "n5_035_1",
+      "example_sentence": "公園の中で、野球をしてはいけません。",
+      "translation": "You must not play baseball in the park.",
+      "blank_target": "てはいけません",
+      "wrong_choices": [
+        "てもかまいません",
+        "なければならない",
+        "なくてもいい"
+      ],
+      "wrong_choice_explanations": [
+        "てもかまいません means 'it's okay if you do,' which contradicts the prohibition that てはいけません expresses.",
+        "なければならない means 'must do,' which is a positive obligation, the opposite of the prohibition here.",
+        "〜なくてもいい means 'you don't have to play,' merely removing any requirement; the park sign actively forbids baseball, so the flat prohibition 〜てはいけません is what's needed."
+      ],
+      "hiragana_full": "こうえんのなかで、やきゅうをしてはいけません。",
+      "audio_alternatives": [
+        {
+          "kanji": "公園で野球をしてはいけません。",
+          "hiragana_full": "こうえんでやきゅうをしてはいけません。"
+        },
+        {
+          "kanji": "公園の中で、野球をすることは禁止されています。",
+          "hiragana_full": "こうえんのなかで、やきゅうをすることはきんしされています。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral"
+    },
+    {
+      "id": "n5_035_2",
+      "example_sentence": "友達の悪口を言ってはいけません。",
+      "translation": "You must not say bad things about your friends.",
+      "blank_target": "てはいけません",
+      "wrong_choices": [
+        "なければならない",
+        "てもいい",
+        "ばよい"
+      ],
+      "wrong_choice_explanations": [
+        "なければならない means 'must do,' which is a positive obligation; the sentence is a prohibition against speaking badly.",
+        "てもいい means 'it's okay to,' which is the opposite of the prohibition meaning required.",
+        "ばよい means 'it's good if,' which suggests a recommendation, not prohibition."
+      ],
+      "hiragana_full": "ともだちのわるぐちをいってはいけません。",
+      "audio_alternatives": [
+        {
+          "kanji": "友達の悪口を言ってはだめです。",
+          "hiragana_full": "ともだちのわるぐちをいってはだめです。"
+        },
+        {
+          "kanji": "友達のことを悪く言ってはいけません。",
+          "hiragana_full": "ともだちのことをわるくいってはいけません。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "悪口",
+          "reading": "わるぐち",
+          "meaning": "bad-mouthing"
+        }
+      ]
+    },
+    {
+      "id": "n5_035_3",
+      "example_sentence": "このお店で、品物を壊してはいけません。",
+      "translation": "You must not break the goods in this store.",
+      "blank_target": "てはいけません",
+      "wrong_choices": [
+        "なくてはいけない",
+        "てもかまいません",
+        "なければいけない"
+      ],
+      "wrong_choice_explanations": [
+        "なくてはいけない means 'must (do)', which would order customers to break the goods; the sentence is a prohibition.",
+        "てもかまいません means 'it's okay if you,' which reverses the prohibition to permission.",
+        "なければいけない means 'must do' (positive obligation); the sentence requires a prohibition against breaking things."
+      ],
+      "hiragana_full": "このおみせで、しなものをこわしてはいけません。",
+      "audio_alternatives": [
+        {
+          "kanji": "このお店では、品物を壊さないでください。",
+          "hiragana_full": "このおみせでは、しなものをこわさないでください。"
+        },
+        {
+          "kanji": "このお店で、品物を壊してはだめです。",
+          "hiragana_full": "このおみせで、しなものをこわしてはだめです。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "品物",
+          "reading": "しなもの",
+          "meaning": "goods"
+        },
+        {
+          "word": "壊して",
+          "reading": "こわして",
+          "meaning": "breaking"
+        }
+      ]
+    },
+    {
+      "id": "n5_035_4",
+      "example_sentence": "運転中にスマートフォンを使ってはいけません。",
+      "translation": "You must not use your smartphone while driving.",
+      "blank_target": "ってはいけません",
+      "wrong_choices": [
+        "わなければならない",
+        "ってもいい",
+        "わなくてもいい"
+      ],
+      "wrong_choice_explanations": [
+        "わなければならない means 'must do,' expressing positive obligation, not the prohibition against smartphone use while driving.",
+        "ってもいい means 'it's okay to use,' which reverses the prohibition to permission.",
+        "〜わなくてもいい means 'you don't have to use it,' lifting any obligation — far too permissive for a sentence that flatly bans phone use while driving, which calls for 〜てはいけません."
+      ],
+      "hiragana_full": "うんてんちゅうにすまーとふぉんをつかってはいけません",
+      "audio_alternatives": [
+        {
+          "kanji": "運転中にスマートフォンを使うことは禁止されています。",
+          "hiragana_full": "うんてんちゅうにすまーとふぉんをつかうことはきんしされています"
+        },
+        {
+          "kanji": "運転しながらスマートフォンを使ってはいけません。",
+          "hiragana_full": "うんてんしながらすまーとふぉんをつかってはいけません"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "運転中",
+          "reading": "うんてんちゅう",
+          "meaning": "while driving"
+        }
+      ]
+    },
+    {
+      "id": "n5_035_5",
       "example_sentence": "ここでタバコを吸ってはいけない。",
       "translation": "You must not smoke here.",
       "blank_target": "て",
@@ -41,7 +183,7 @@
       ]
     },
     {
-      "id": "n5_035_2",
+      "id": "n5_035_6",
       "example_sentence": "授業中に話してはいけません。",
       "translation": "You must not talk during class.",
       "blank_target": "て",
@@ -77,7 +219,7 @@
       ]
     },
     {
-      "id": "n5_035_3",
+      "id": "n5_035_7",
       "example_sentence": "夜遅く帰ってはいけない。",
       "translation": "You must not come home late at night.",
       "blank_target": "て",
@@ -113,7 +255,7 @@
       ]
     },
     {
-      "id": "n5_035_4",
+      "id": "n5_035_8",
       "example_sentence": "宿題を忘れてはいけません。",
       "translation": "You must not forget your homework.",
       "blank_target": "て",
@@ -149,45 +291,9 @@
       ]
     },
     {
-      "id": "n5_035_5",
-      "example_sentence": "人の悪口を言ってはいけない。",
-      "translation": "You must not speak ill of others.",
-      "blank_target": "て",
-      "wrong_choices": [
-        "ので",
-        "けれど",
-        "のに"
-      ],
-      "wrong_choice_explanations": [
-        "ので means 'because' — it's used for giving reasons, not expressing prohibition.",
-        "けれど means 'but' — it shows contrast, not prohibition.",
-        "のに means 'despite' — it expresses contradiction, not prohibition."
-      ],
-      "hiragana_full": "ひとのわるぐちをいってはいけない。",
-      "audio_alternatives": [
-        {
-          "kanji": "人の悪口を言わないでください。",
-          "hiragana_full": "ひとのわるぐちをいわないでください。"
-        },
-        {
-          "kanji": "他人の悪口を言うな。",
-          "hiragana_full": "たにんのわるぐちをいうな。"
-        }
-      ],
-      "audio_eligible": true,
-      "register": "casual",
-      "vocab": [
-        {
-          "word": "悪口",
-          "reading": "わるぐち",
-          "meaning": "speaking ill (of someone)"
-        }
-      ]
-    },
-    {
-      "id": "n5_035_6",
-      "example_sentence": "図書館で大声を出してはいけません。",
-      "translation": "You must not make loud noises in the library.",
+      "id": "n5_035_9",
+      "example_sentence": "図書館で大きい声を出してはいけません。",
+      "translation": "You must not speak loudly in the library.",
       "blank_target": "て",
       "wrong_choices": [
         "で",
@@ -199,15 +305,15 @@
         "を is an object particle — it cannot connect verbs to はいけません.",
         "に is a directional particle — it doesn't form prohibition expressions with はいけません."
       ],
-      "hiragana_full": "としょかんでおおごえをだしてはいけません。",
+      "hiragana_full": "としょかんでおおきいこえをだしてはいけません。",
       "audio_alternatives": [
         {
-          "kanji": "図書館で騒いではいけません。",
-          "hiragana_full": "としょかんでさわいではいけません。"
+          "kanji": "図書館で大きい声を出さないでください。",
+          "hiragana_full": "としょかんでおおきいこえをださないでください。"
         },
         {
-          "kanji": "図書館で騒がないでください。",
-          "hiragana_full": "としょかんでさわがないでください。"
+          "kanji": "図書館で大きな声を出してはだめです。",
+          "hiragana_full": "としょかんでおおきなこえをだしてはだめです。"
         }
       ],
       "audio_eligible": true,
@@ -219,98 +325,16 @@
           "meaning": "library"
         },
         {
-          "word": "大声",
-          "reading": "おおごえ",
-          "meaning": "loud voice"
+          "word": "声",
+          "reading": "こえ",
+          "meaning": "voice"
         }
       ]
     },
     {
-      "id": "n5_035_7",
-      "example_sentence": "試験中にカンニングしてはいけない。",
-      "translation": "You must not cheat during exams.",
-      "blank_target": "て",
-      "wrong_choices": [
-        "よう",
-        "そう",
-        "らしい"
-      ],
-      "wrong_choice_explanations": [
-        "よう indicates appearance or intention — it doesn't connect to はいけない for prohibition.",
-        "そう indicates hearsay or appearance — it cannot form prohibition expressions.",
-        "らしい means 'seems like' — it expresses supposition, not prohibition."
-      ],
-      "hiragana_full": "しけんちゅうにかんにんぐしてはいけない。",
-      "audio_alternatives": [
-        {
-          "kanji": "試験中にカンニングしてはだめだ。",
-          "hiragana_full": "しけんちゅうにかんにんぐしてはだめだ。"
-        },
-        {
-          "kanji": "試験のときにカンニングしてはいけない。",
-          "hiragana_full": "しけんのときにかんにんぐしてはいけない。"
-        }
-      ],
-      "audio_eligible": true,
-      "register": "casual",
-      "vocab": [
-        {
-          "word": "試験中",
-          "reading": "しけんちゅう",
-          "meaning": "during the exam"
-        },
-        {
-          "word": "カンニング",
-          "reading": "かんにんぐ",
-          "meaning": "cheating (on a test)"
-        }
-      ]
-    },
-    {
-      "id": "n5_035_8",
-      "example_sentence": "電車の中で電話してはいけません。",
-      "translation": "You must not talk on the phone in the train.",
-      "blank_target": "て",
-      "wrong_choices": [
-        "ている",
-        "てある",
-        "ておく"
-      ],
-      "wrong_choice_explanations": [
-        "ている indicates ongoing actions — combined with はいけません, it would prohibit continuing a state rather than starting an action.",
-        "てある indicates completed actions with lasting results — it doesn't fit the prohibition context here.",
-        "ておく means doing something in preparation — it changes the meaning from simple prohibition to prohibiting preparatory action."
-      ],
-      "hiragana_full": "でんしゃのなかででんわしてはいけません。",
-      "audio_alternatives": [
-        {
-          "kanji": "電車の中で電話はだめです。",
-          "hiragana_full": "でんしゃのなかででんわはだめです。"
-        },
-        {
-          "kanji": "電車の中で電話しないでください。",
-          "hiragana_full": "でんしゃのなかででんわしないでください。"
-        }
-      ],
-      "audio_eligible": true,
-      "register": "neutral",
-      "vocab": [
-        {
-          "word": "電車",
-          "reading": "でんしゃ",
-          "meaning": "train"
-        },
-        {
-          "word": "電話",
-          "reading": "でんわ",
-          "meaning": "phone call"
-        }
-      ]
-    },
-    {
-      "id": "n5_035_9",
-      "example_sentence": "友達の秘密を話してはいけない。",
-      "translation": "You must not tell your friend's secrets.",
+      "id": "n5_035_10",
+      "example_sentence": "テストの答えを友達に見せてはいけない。",
+      "translation": "You must not show your test answers to your friends.",
       "blank_target": "て",
       "wrong_choices": [
         "として",
@@ -322,65 +346,29 @@
         "について means 'about' or 'concerning' — it cannot link verbs to はいけない.",
         "に対して means 'toward' or 'against' — it doesn't form prohibition expressions."
       ],
-      "hiragana_full": "ともだちのひみつをはなしてはいけない。",
+      "hiragana_full": "てすとのこたえをともだちにみせてはいけない。",
       "audio_alternatives": [
         {
-          "kanji": "友達の秘密を言ってはいけない。",
-          "hiragana_full": "ともだちのひみつをいってはいけない。"
+          "kanji": "テストの答えを友達に見せてはだめだ。",
+          "hiragana_full": "てすとのこたえをともだちにみせてはだめだ。"
         },
         {
-          "kanji": "友達の秘密を話してはだめだ。",
-          "hiragana_full": "ともだちのひみつをはなしてはだめだ。"
+          "kanji": "テストの答えを友達に見せちゃいけない。",
+          "hiragana_full": "てすとのこたえをともだちにみせちゃいけない。"
         }
       ],
       "audio_eligible": true,
       "register": "casual",
       "vocab": [
         {
-          "word": "秘密",
-          "reading": "ひみつ",
-          "meaning": "secret"
-        }
-      ]
-    },
-    {
-      "id": "n5_035_10",
-      "example_sentence": "お店の商品を触ってはいけません。",
-      "translation": "You must not touch the merchandise in the store.",
-      "blank_target": "て",
-      "wrong_choices": [
-        "では",
-        "でも",
-        "とは"
-      ],
-      "wrong_choice_explanations": [
-        "では is a topic particle or conditional — it cannot connect verbs to はいけません for prohibition.",
-        "でも means 'but' or 'even' — it doesn't form the connection needed for prohibition expressions.",
-        "とは is used for definitions or emphasis — it cannot link verbs to prohibition expressions."
-      ],
-      "hiragana_full": "おみせのしょうひんをさわってはいけません。",
-      "audio_alternatives": [
-        {
-          "kanji": "お店の商品に触れてはいけません。",
-          "hiragana_full": "おみせのしょうひんにふれてはいけません。"
+          "word": "答え",
+          "reading": "こたえ",
+          "meaning": "answer"
         },
         {
-          "kanji": "店の商品を触ってはだめです。",
-          "hiragana_full": "みせのしょうひんをさわってはだめです。"
-        }
-      ],
-      "audio_eligible": true,
-      "register": "neutral",
-      "vocab": [
-        {
-          "word": "お店",
-          "reading": "おみせ",
-          "meaning": "store"
-        },
-        {
-          "word": "商品",
-          "reading": "しょうひん",
-          "meaning": "merchandise; goods"
+          "word": "見せて",
+          "reading": "みせて",
+          "meaning": "showing"
         }
       ]
     }

@@ -30,7 +30,8 @@
           "hiragana_full": "かれがそんなわるいことをするとはかんがえられない"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n3_053_2",
@@ -40,12 +41,12 @@
       "wrong_choices": [
         "わけではない",
         "とは限らない",
-        "ものか"
+        "ことか"
       ],
       "wrong_choice_explanations": [
         "〜わけではない softens to 'it's not that they'll pass,' still admitting some chance; わけがない denies any chance at all.",
         "〜とは限らない means 'they won't necessarily pass,' which leaves the possibility open; わけがない rules passing out completely.",
-        "〜ものか is a defiant 'as if they'd pass!' — an emotional exclamation; わけがない is a plainer statement that passing is impossible."
+        "〜ことか is an exclamation of degree ('how very much ~!'), used with words like どんなに; it cannot express that passing is impossible, which is what わけがない states."
       ],
       "hiragana_full": "がくせいがこのレベルのしけんにうかるわけがない",
       "audio_alternatives": [
@@ -58,35 +59,61 @@
           "hiragana_full": "このレベルのしけんにがくせいがうかるわけがない"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "試験",
+          "reading": "しけん",
+          "meaning": "exam"
+        },
+        {
+          "word": "受かる",
+          "reading": "うかる",
+          "meaning": "to pass (an exam)"
+        }
+      ]
     },
     {
       "id": "n3_053_3",
-      "example_sentence": "そのレストランが1ツ星ミシュランを獲得するわけがない。",
-      "translation": "There is no way that restaurant could earn a one-star Michelin rating.",
+      "example_sentence": "そのレストランがミシュランの星を取るわけがない。",
+      "translation": "There is no way that restaurant could get a Michelin star.",
       "blank_target": "わけがない",
       "wrong_choices": [
         "わけではない",
-        "どころではない",
-        "ものか"
+        "ばかりだ",
+        "ことか"
       ],
       "wrong_choice_explanations": [
         "〜わけではない means 'it's not that it'll earn one,' still leaving room; わけがない denies the possibility outright.",
-        "〜どころではない means 'far from earning a star' — it reframes how far off the restaurant is, rather than flatly denying possibility, which is what わけがない does.",
-        "〜ものか is a scornful 'as if it could earn a star!'; わけがない is the plainer factual claim that it can't."
+        "〜ばかりだ means 'only keeps ~ing / all that's left is to ~'; it does not deny anything, so it cannot express that getting a star is out of the question, which わけがない does.",
+        "〜ことか is an exclamation of degree ('how very much ~!'); it cannot deny the possibility of earning a star the way わけがない does."
       ],
-      "hiragana_full": "そのれすとらんがひとつぼしみしゅらんをかくとくするわけがない",
+      "hiragana_full": "そのれすとらんがみしゅらんのほしをとるわけがない。",
       "audio_alternatives": [
         {
-          "kanji": "そのレストランが1ツ星ミシュランを獲得できるはずがない。",
-          "hiragana_full": "そのれすとらんがひとつぼしみしゅらんをかくとくできるはずがない"
+          "kanji": "そのレストランがミシュランの星を取れるはずがない。",
+          "hiragana_full": "そのれすとらんがみしゅらんのほしをとれるはずがない。"
         },
         {
-          "kanji": "そのレストランがミシュラン1ツ星を取れるわけがない。",
-          "hiragana_full": "そのれすとらんがみしゅらんひとつぼしをとれるわけがない"
+          "kanji": "あのレストランがミシュランの星を取るなんてありえない。",
+          "hiragana_full": "あのれすとらんがみしゅらんのほしをとるなんてありえない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "星",
+          "reading": "ほし",
+          "meaning": "star (rating)"
+        },
+        {
+          "word": "取る",
+          "reading": "とる",
+          "meaning": "to get/win"
+        }
+      ]
     },
     {
       "id": "n3_053_4",
@@ -114,38 +141,18 @@
           "hiragana_full": "そのかいしゃがことしくろじかするとはおもえない"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "黒字化",
+          "reading": "くろじか",
+          "meaning": "to turn a profit"
+        }
+      ]
     },
     {
       "id": "n3_053_5",
-      "example_sentence": "明日の天気が晴れるわけがない。",
-      "translation": "There is no way tomorrow's weather could be sunny.",
-      "blank_target": "わけがない",
-      "wrong_choices": [
-        "とは限らない",
-        "どころではない",
-        "ものか"
-      ],
-      "wrong_choice_explanations": [
-        "〜とは限らない means 'it won't necessarily be sunny,' which still allows sun; わけがない rules sun out completely.",
-        "〜どころではない means 'far from sunny' — reframing how bad the weather is — rather than denying the possibility, which is what わけがない does.",
-        "〜ものか is a defiant 'as if it'll be sunny!'; わけがない is a plainer factual denial that it could be sunny."
-      ],
-      "hiragana_full": "あしたのてんきがはれるわけがない",
-      "audio_alternatives": [
-        {
-          "kanji": "明日の天気が晴れるはずがない。",
-          "hiragana_full": "あしたのてんきがはれるはずがない"
-        },
-        {
-          "kanji": "明日晴れるわけがない。",
-          "hiragana_full": "あしたはれるわけがない"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_053_6",
       "example_sentence": "5歳の子どもが数学の複雑な方程式を解くわけがない。",
       "translation": "There is no way a 5-year-old child could solve a complex math equation.",
       "blank_target": "わけがない",
@@ -170,22 +177,40 @@
           "hiragana_full": "ごさいのこどもにはすうがくのふくざつなほうていしきはとけないはずだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "方程式",
+          "reading": "ほうていしき",
+          "meaning": "equation"
+        },
+        {
+          "word": "複雑",
+          "reading": "ふくざつ",
+          "meaning": "complex"
+        },
+        {
+          "word": "解く",
+          "reading": "とく",
+          "meaning": "to solve"
+        }
+      ]
     },
     {
-      "id": "n3_053_7",
+      "id": "n3_053_6",
       "example_sentence": "そんな高い山に登るわけがない。",
       "translation": "There is no way I would climb such a high mountain.",
       "blank_target": "わけがない",
       "wrong_choices": [
         "わけではない",
-        "ものか",
-        "わけにはいかない"
+        "ことか",
+        "ところだ"
       ],
       "wrong_choice_explanations": [
         "〜わけではない means 'it's not that I'd climb it,' a partial denial; わけがない flatly says there's no way I would.",
-        "〜ものか is a defiant 'as if I'd climb such a mountain!' — an emphatic refusal; わけがない states more plainly that it won't happen.",
-        "〜わけにはいかない means 'I can't, because circumstances won't let me,' not that it's impossible in itself; わけがない denies the possibility outright."
+        "〜ことか is an exclamation of degree ('how very much ~!'), not a denial; わけがない flatly says there's no way I would climb it.",
+        "〜ところだ means 'be just about to ~' and reports an imminent action; it cannot express the flat 'there's no way I would' that わけがない states."
       ],
       "hiragana_full": "そんなたかいやまにのぼるわけがない。",
       "audio_alternatives": [
@@ -198,10 +223,11 @@
           "hiragana_full": "そんなたかいやまにのぼるなんてありえない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
-      "id": "n3_053_8",
+      "id": "n3_053_7",
       "example_sentence": "初心者が大会で優勝するわけがない。",
       "translation": "There is no way a beginner would win the tournament.",
       "blank_target": "わけがない",
@@ -226,63 +252,131 @@
           "hiragana_full": "しょしんしゃがたいかいでゆうしょうするはずはない"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "初心者",
+          "reading": "しょしんしゃ",
+          "meaning": "beginner"
+        },
+        {
+          "word": "大会",
+          "reading": "たいかい",
+          "meaning": "tournament"
+        },
+        {
+          "word": "優勝",
+          "reading": "ゆうしょう",
+          "meaning": "winning the championship"
+        }
+      ]
+    },
+    {
+      "id": "n3_053_8",
+      "example_sentence": "猫が人間の言葉を話すわけがない。",
+      "translation": "There's no way a cat can speak human language.",
+      "blank_target": "わけ",
+      "wrong_choices": [
+        "こと",
+        "もの",
+        "必要"
+      ],
+      "wrong_choice_explanations": [
+        "〜ことがない states that something never happens (猫が話すことがない, 'cats never speak'); it's about frequency, not the impossibility わけがない asserts.",
+        "もの doesn't combine with がない to deny possibility; 〜ものだ states a general truth, a different function from わけがない.",
+        "〜必要がない means 'there's no need to' (話す必要がない); it denies necessity, not the possibility of a cat speaking."
+      ],
+      "hiragana_full": "ねこがにんげんのことばをはなすわけがない。",
+      "audio_alternatives": [
+        {
+          "kanji": "猫が人間の言葉を話せるはずがない。",
+          "hiragana_full": "ねこがにんげんのことばをはなせるはずがない。"
+        },
+        {
+          "kanji": "猫は人間の言葉を話すことができない。",
+          "hiragana_full": "ねこはにんげんのことばをはなすことができない。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "人間",
+          "reading": "にんげん",
+          "meaning": "human"
+        },
+        {
+          "word": "言葉",
+          "reading": "ことば",
+          "meaning": "words / language"
+        }
+      ]
     },
     {
       "id": "n3_053_9",
-      "example_sentence": "素人がプロのアスリートに勝つわけがない。",
-      "translation": "There is no way an amateur could beat a professional athlete.",
-      "blank_target": "わけがない",
+      "example_sentence": "子供がお酒を飲むわけがない。",
+      "translation": "There's no way a child would drink alcohol.",
+      "blank_target": "わけ",
       "wrong_choices": [
-        "どころではない",
-        "ものか",
-        "わけにはいかない"
+        "必要",
+        "つもり",
+        "気"
       ],
       "wrong_choice_explanations": [
-        "〜どころではない means 'far from beating a pro' — reframing the gap in skill; わけがない simply states it can't happen.",
-        "〜ものか is a scornful 'as if an amateur could win!'; わけがない is the plainer claim that it's impossible.",
-        "〜わけにはいかない means 'cannot, due to obligation or circumstance,' but the sentence is about a gap in skill, not social constraint; わけがない denies the possibility itself."
+        "〜必要がない means 'there's no need to' (飲む必要がない); it denies necessity, not the possibility that a child would drink.",
+        "〜つもりがない means 'has no intention to' (飲むつもりがない); it describes intent, whereas わけがない denies that it could happen at all.",
+        "〜気がない means 'has no inclination to' (飲む気がない); it's about the will to act, not the impossibility わけがない asserts."
       ],
-      "hiragana_full": "しろうとがぷろのあすりーとにかつわけがない。",
+      "hiragana_full": "こどもがおさけをのむわけがない。",
       "audio_alternatives": [
         {
-          "kanji": "素人がプロのアスリートに勝てるはずがない。",
-          "hiragana_full": "しろうとがぷろのあすりーとにかてるはずがない。"
+          "kanji": "子供がお酒を飲むはずがない。",
+          "hiragana_full": "こどもがおさけをのむはずがない。"
         },
         {
-          "kanji": "アマチュアがプロのアスリートに勝つわけがない。",
-          "hiragana_full": "あまちゅあがぷろのあすりーとにかつわけがない。"
+          "kanji": "子供がお酒を飲むことはありえない。",
+          "hiragana_full": "こどもがおさけをのむことはありえない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "お酒",
+          "reading": "おさけ",
+          "meaning": "alcohol"
+        }
+      ]
     },
     {
       "id": "n3_053_10",
-      "example_sentence": "初期段階で黒字化するわけがない。",
-      "translation": "There is no way we would be profitable in the early stage.",
-      "blank_target": "わけがない",
+      "example_sentence": "魚が空を飛ぶわけがない。",
+      "translation": "There's no way fish can fly in the sky.",
+      "blank_target": "わけ",
       "wrong_choices": [
-        "わけではない",
-        "どころではない",
-        "わけにはいかない"
+        "必要",
+        "こと",
+        "もの"
       ],
       "wrong_choice_explanations": [
-        "〜わけではない means 'it's not that we'd be profitable,' still admitting a chance; わけがない denies it entirely.",
-        "〜どころではない means 'far from profitable' — reframing how far off profit is — rather than denying the possibility, which is what わけがない does.",
-        "〜わけにはいかない means 'we can't, because circumstances won't allow it,' not that profit is impossible; わけがない denies the possibility based on the early-stage situation itself."
+        "〜必要がない means 'there's no need to' (飛ぶ必要がない); it denies necessity, not the impossibility of fish flying.",
+        "〜ことがない states that something never happens (魚が飛ぶことがない); it's about frequency, not the impossibility わけがない asserts.",
+        "もの doesn't combine with がない to deny possibility; 〜ものだ states a general truth, unlike わけがない."
       ],
-      "hiragana_full": "しょきだんかいでくろじかするわけがない",
+      "hiragana_full": "さかながそらをとぶわけがない。",
       "audio_alternatives": [
         {
-          "kanji": "初期段階で黒字になるはずがない。",
-          "hiragana_full": "しょきだんかいでくろじになるはずがない"
+          "kanji": "魚が空を飛べるはずがない。",
+          "hiragana_full": "さかながそらをとべるはずがない。"
         },
         {
-          "kanji": "初期の段階で黒字化できるわけがない。",
-          "hiragana_full": "しょきのだんかいでくろじかできるわけがない"
+          "kanji": "魚が空を飛ぶことはできない。",
+          "hiragana_full": "さかながそらをとぶことはできない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     }
   ]
 }

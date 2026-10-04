@@ -10,14 +10,14 @@
       "translation": "It seems like it rained. The road is wet.",
       "blank_target": "よう",
       "wrong_choices": [
-        "らしい",
-        "そう",
-        "はず"
+        "まま",
+        "つもり",
+        "こと"
       ],
       "wrong_choice_explanations": [
-        "らしい would suggest hearsay or general impression ('I hear it rained / apparently it rained'), but here we have direct evidence — the wet road we're looking at — and we're drawing the conclusion ourselves. That's ようだ's job: inference from evidence we observe.",
-        "そう as conjectural attaches to a verb stem to express 'looks like it's about to' (降りそう = 'looks like it'll rain'). It can't form 降ったそう meaning 'looks like it rained'; for an inference about a past event from current evidence, ようだ is the standard form.",
-        "はず would form 降ったはず ('rain should have fallen'), which fits when the speaker had prior reason to expect rain — a forecast, the look of the sky earlier. Here the speaker is inferring backward from observed wet ground with no prior expectation cited, which is precisely the slot ようだ fills."
+        "まま means 'remaining as is' (降ったまま = 'still in the state of having rained'), which doesn't make sense with rain; the wet road calls for ようです to infer that it rained.",
+        "つもり expresses a person's intention; rain cannot intend anything, so 雨が降ったつもりです is nonsensical. The speaker is inferring from the wet road, which needs ようです.",
+        "こと turns the clause into a noun ('the matter of having rained'), so 雨が降ったことです cannot serve as an inference; the wet road calls for ようです."
       ],
       "hiragana_full": "あめがふったようです。みちがぬれています。",
       "audio_alternatives": [
@@ -30,7 +30,8 @@
           "hiragana_full": "あめがふったようですね。みちがぬれていますね。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n4_026_2",
@@ -38,14 +39,14 @@
       "translation": "Tanaka-san seems busy. He's always running around.",
       "blank_target": "いよう",
       "wrong_choices": [
-        "そう",
+        "さ",
         "らしく",
-        "げ"
+        "がる"
       ],
       "wrong_choice_explanations": [
-        "そう (conjectural) attaches to the i-adj stem to mean 'looks about to' as a visual snapshot (忙しそう = 'looks busy from his appearance right now'). The sentence calls for the broader inference from his consistent running-around pattern — ようだ's slot, not a single visible snapshot.",
+        "さ nominalizes the adjective (忙しさ = 'busyness'), so 忙しさだ would equate Tanaka with busyness itself rather than describe him; the inference from his constant running around is 忙しいようだ.",
         "らしく is the adverbial form of らしい, but the sentence needs an adnominal/sentence-final modal (modifying 田中さん as the subject of seeming busy). Beyond that, らしい would shift the source to hearsay ('apparently he's busy'); the speaker here is concluding from their own observations.",
-        "げ creates 忙しげ ('looking busy in expression/manner'), which describes a visible bearing. But this sentence reasons from a behavior pattern (always running), not a momentary look — ようだ marks that kind of evidence-based inference."
+        "がる attaches to the adjective stem to describe someone showing a feeling (寒がる), and 忙しがるだ is ungrammatical; the speaker is inferring Tanaka's busyness from his running around, which needs ようだ."
       ],
       "hiragana_full": "たなかさんはいそがしいようだ。いつもはしっている。",
       "audio_alternatives": [
@@ -58,7 +59,8 @@
           "hiragana_full": "たなかさんはいそがしいみたいだ。いつもはしっている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n4_026_3",
@@ -66,14 +68,14 @@
       "translation": "Since the lights are on, it seems someone is there.",
       "blank_target": "よう",
       "wrong_choices": [
-        "らしい",
-        "はず",
-        "だろう"
+        "つもり",
+        "ばかり",
+        "まま"
       ],
       "wrong_choice_explanations": [
-        "らしい would mark the conclusion as hearsay ('I hear someone's there'), but here the speaker is reasoning from the lit window themselves; ようだ is the standard form for that self-grounded inference.",
-        "はず would form 誰かいるはず ('there should be someone'), fitting when the speaker had prior reason to expect someone — an appointment, a promise. The sentence gives the lit lights as fresh evidence rather than expectation; ようだ is the fit.",
-        "だろう forms 誰かいるだろう ('there's probably someone'), a hedged guess without grounding. ようだ specifically presents the inference as evidence-backed, which the と following the lit-lights clause cues."
+        "つもり expresses one's own intention (だれかいるつもり = 'intend that someone is there'), which makes no sense here; the lights being on is evidence for the inference ようです.",
+        "ばかり means 'nothing but / only', and だれかいるばかりです is ungrammatical; the sentence draws an inference from the lights, which needs ようです.",
+        "まま means 'remaining in the same state', and だれかいるままです expresses no inference; the lights being on is evidence for the inference ようです."
       ],
       "hiragana_full": "でんきがついているので、だれかいるようです。",
       "audio_alternatives": [
@@ -86,7 +88,8 @@
           "hiragana_full": "でんきがついているので、だれかいるみたいです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n4_026_4",
@@ -94,14 +97,14 @@
       "translation": "It seems she was crying. Her eyes are red.",
       "blank_target": "よう",
       "wrong_choices": [
-        "らしい",
-        "そう",
-        "に違いない"
+        "まま",
+        "つもり",
+        "こと"
       ],
       "wrong_choice_explanations": [
-        "らしい would form 泣いていたらしい ('I hear she was crying') — a hearsay reading. The speaker is looking at red eyes themselves; ようだ marks the conclusion drawn from that direct evidence.",
-        "そう as conjectural attaches to a stem ('about to cry' = 泣きそう); it can't attach to 泣いていた to mean 'looks like she was crying'. For inferring a past event from current evidence, ようだ is the standard form.",
-        "に違いない would form 泣いていたに違いない ('she must have been crying'), expressing strong certainty. ようだ presents the same conclusion more tentatively — 'it seems' — which the gentler red-eyes evidence here invites."
+        "まま means 'remaining in the same state'; 泣いていたままだ doesn't form a natural sentence and would not express an inference. Her red eyes are evidence, so ようだ is needed.",
+        "つもり expresses intention or belief about oneself (泣いていたつもりだ = 'thought she was crying'), which doesn't fit; the speaker infers from her red eyes, which needs ようだ.",
+        "こと turns the clause into a noun ('the matter of having been crying'), so 泣いていたことだ does not express an inference; her red eyes are evidence, so ようだ is needed."
       ],
       "hiragana_full": "かのじょはないていたようだ。めがあかい。",
       "audio_alternatives": [
@@ -114,7 +117,8 @@
           "hiragana_full": "かのじょはないていたようです。めがあかいです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n4_026_5",
@@ -122,14 +126,14 @@
       "translation": "The library seems quiet. I don't hear anyone's voice.",
       "blank_target": "なよう",
       "wrong_choices": [
-        "そう",
-        "らしい",
-        "みたい"
+        "ばかり",
+        "まま",
+        "さ"
       ],
       "wrong_choice_explanations": [
-        "そう as conjectural attaches to the bare na-adjective stem (静か → 静かそう = 'looks quiet'), expressing a direct visual snapshot. Here we're inferring quietness from the auditory evidence of not hearing voices — an indirect inference, which is what ようだ marks. Note also the attachment difference: そう drops な, ようだ requires it (静か → 静かなよう).",
-        "らしい would form 静からしい, which is not the natural na-adjective attachment in this register (the cleaner form would be 静かであるらしい). Beyond morphology, らしい would imply hearsay rather than the speaker's own evidence-based inference.",
-        "みたい would form 静かみたいです, the casual equivalent of なようです and grammatically fine. The contrast here is register: ようです fits the more polished/observational tone of describing a library scene; みたい is more conversational."
+        "ばかり means 'nothing but / only', and 静かばかりです is ungrammatical; hearing no voices is evidence for the inference 静かなようです.",
+        "まま means 'remaining unchanged' and needs な after a na-adjective (静かなまま), so 静かままです is ungrammatical and expresses no inference; hearing no voices calls for 静かなようです.",
+        "さ turns the adjective into a noun (静かさ = 'quietness'), so 静かさです would call the library 'quietness' itself; the evidence-based 'seems quiet' is 静かなようです."
       ],
       "hiragana_full": "としょかんはしずかなようです。だれのこえもきこえません。",
       "audio_alternatives": [
@@ -142,77 +146,22 @@
           "hiragana_full": "としょかんはしずかなようですね。だれもいないみたいですね。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n4_026_6",
-      "example_sentence": "会議は終わったようです。みんな出てきました。",
-      "translation": "The meeting seems to have ended. Everyone came out.",
-      "blank_target": "よう",
-      "wrong_choices": [
-        "らしい",
-        "そう",
-        "はず"
-      ],
-      "wrong_choice_explanations": [
-        "らしい would frame it as hearsay ('I hear the meeting ended'); the speaker is inferring directly from seeing people come out, which is ようだ's job.",
-        "そう as conjectural attaches to a stem ('about to end' = 終わりそう); it can't attach to 終わった to mean 'looks like it ended'. ようだ is what marks inference about a past event from currently visible evidence.",
-        "はず would form 終わったはず ('should have ended'), fitting when there's a prior reason — a scheduled end time, a planned agenda. ようだ instead derives the conclusion from the freshly observed evidence (people exiting), without relying on prior expectation."
-      ],
-      "hiragana_full": "かいぎはおわったようです。みんなでてきました。",
-      "audio_alternatives": [
-        {
-          "kanji": "会議は終わったみたいです。みんな出てきました。",
-          "hiragana_full": "かいぎはおわったみたいです。みんなでてきました。"
-        },
-        {
-          "kanji": "会議が終わったようです。みんな出てきました。",
-          "hiragana_full": "かいぎがおわったようです。みんなでてきました。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_026_7",
-      "example_sentence": "あの人は新入社員のようです。みんなが説明しています。",
-      "translation": "That person seems to be a new employee. Everyone is explaining things to them.",
-      "blank_target": "のよう",
-      "wrong_choices": [
-        "みたい",
-        "らしい",
-        "っぽい"
-      ],
-      "wrong_choice_explanations": [
-        "みたい would form 新入社員みたいです, the casual equivalent of のようです and semantically very close. The contrast is register: のようです fits the polite, observational tone of describing a scene at work; みたい is more conversational and direct.",
-        "らしい has two senses — hearsay ('I hear they're a new employee') and typicality ('behaves like a typical new employee'). Neither matches the speaker's evidence-based inference from observing others explaining things; のようだ marks that specific kind of conclusion.",
-        "っぽい is colloquial and means 'seems like / has the vibe of', often with a casual or slightly judgmental tone. It's too informal for this neutral inference and lacks the analytical quality of ようだ."
-      ],
-      "hiragana_full": "あのひとはしんにゅうしゃいんのようです。みんながせつめいしています。",
-      "audio_alternatives": [
-        {
-          "kanji": "あの人は新入社員のようだ。先輩たちが教えている。",
-          "hiragana_full": "あのひとはしんにゅうしゃいんのようだ。せんぱいたちがおしえている。"
-        },
-        {
-          "kanji": "あの人、新入社員のようですね。質問が多いです。",
-          "hiragana_full": "あのひと、しんにゅうしゃいんのようですね。しつもんがおおいです。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_026_8",
       "example_sentence": "風邪をひいたようだ。頭が痛いし、熱もある。",
       "translation": "It seems I've caught a cold. My head hurts and I have a fever.",
       "blank_target": "よう",
       "wrong_choices": [
         "そう",
-        "みたい",
+        "つもり",
         "かもしれない"
       ],
       "wrong_choice_explanations": [
         "そう would form 風邪をひきそう — 'looks like I'm about to catch a cold' — a prediction from visible early signs (sneezing, feeling chilly). Here the cold has already arrived; the speaker is inferring from current symptoms, which is ようだ's slot.",
-        "みたい works as the casual equivalent (風邪をひいたみたい) and is fine in conversation. ようだ is the more neutral form and is what you'd write or say to a doctor; the contrast is mostly register.",
+        "つもり marks an intention or self-assumption — catching a cold is involuntary, so 風邪をひいたつもりだ ('I mean to have caught a cold') makes no sense; ようだ marks the symptom-based inference.",
         "かもしれない would form 風邪をひいたかもしれない — 'might have caught a cold', a hedged possibility. ようだ expresses a firmer evidence-based conclusion: given the headache and fever, the speaker is reasonably confident, not merely guessing."
       ],
       "hiragana_full": "かぜをひいたようだ。あたまがいたいし、ねつもある。",
@@ -226,20 +175,21 @@
           "hiragana_full": "どうもかぜをひいたようだ。からだがだるい。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
-      "id": "n4_026_9",
+      "id": "n4_026_7",
       "example_sentence": "新しい先生は厳しいようです。学生たちが緊張しています。",
       "translation": "The new teacher seems strict. The students are nervous.",
       "blank_target": "いよう",
       "wrong_choices": [
-        "そう",
+        "さ",
         "らしい",
         "げ"
       ],
       "wrong_choice_explanations": [
-        "そう would form 厳しそう (i-adj stem + そう = 'looks strict at a glance'), reading the teacher's appearance directly. The sentence here infers strictness from the students' nervousness — an indirect cue — which is ようだ's slot.",
+        "さ nominalizes (厳しさ = 'strictness'), so 厳しさです would equate the teacher with strictness itself; the inference from the students' nerves is 厳しいようです.",
         "らしい would shift the source to hearsay or reputation ('apparently the new teacher is strict'). The speaker is making the inference from their own observation of student behavior; ようだ marks that.",
         "げ creates 厳しげ ('looking strict' as a bearing/expression), describing the teacher's visible manner. But this sentence reasons from another party's behavior (the students' nerves), not from the teacher's look — ようだ is the right form for evidence at a remove."
       ],
@@ -254,35 +204,136 @@
           "hiragana_full": "あたらしいせんせいはきびしいみたいです。せいとたちがきんちょうしています。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "厳しい",
+          "reading": "きびしい",
+          "meaning": "strict"
+        },
+        {
+          "word": "緊張",
+          "reading": "きんちょう",
+          "meaning": "nervousness"
+        }
+      ]
+    },
+    {
+      "id": "n4_026_8",
+      "example_sentence": "二人の関係は上手くいっているようです。",
+      "translation": "It seems the two of them are getting along well.",
+      "blank_target": "ようです",
+      "wrong_choices": [
+        "つもりです",
+        "ばかりです",
+        "べきです"
+      ],
+      "wrong_choice_explanations": [
+        "つもりです (intends to / plans to) expresses intention or plan, not observation of how things currently appear to be.",
+        "ばかりです (nothing but / just) after いっている would mean 'it is only going well' or 'just went', which doesn't express an observation-based impression the way ようです does.",
+        "べきです (should / ought to) expresses obligation or what is appropriate, not what actually appears to be happening in their relationship."
+      ],
+      "hiragana_full": "ふたりのかんけいはうまくいっているようです。",
+      "audio_alternatives": [
+        {
+          "kanji": "二人の関係はうまくいっているみたいです。",
+          "hiragana_full": "ふたりのかんけいはうまくいっているみたいです。"
+        },
+        {
+          "kanji": "二人はうまくやっているようです。",
+          "hiragana_full": "ふたりはうまくやっているようです。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "関係",
+          "reading": "かんけい",
+          "meaning": "relationship"
+        },
+        {
+          "word": "上手く",
+          "reading": "うまく",
+          "meaning": "well/smoothly"
+        }
+      ]
+    },
+    {
+      "id": "n4_026_9",
+      "example_sentence": "その古い建物は、長い歴史があるようです。",
+      "translation": "That old building seems to have a long history.",
+      "blank_target": "ようです",
+      "wrong_choices": [
+        "ことです",
+        "ばかりです",
+        "ずに"
+      ],
+      "wrong_choice_explanations": [
+        "ことです (the thing is / the fact is) is used to emphasize a point as a topic of discussion, not to express appearance or observation.",
+        "ばかりです (nothing but / only) does not attach naturally to ある; 歴史があるばかりです is ungrammatical and expresses no inference from the building's appearance.",
+        "ずに (without) is a grammatical particle indicating the absence of an action, completely unrelated to describing appearance or observation."
+      ],
+      "hiragana_full": "そのふるいたてものは、ながいれきしがあるようです。",
+      "audio_alternatives": [
+        {
+          "kanji": "その古い建物には、長い歴史があるみたいです。",
+          "hiragana_full": "そのふるいたてものには、ながいれきしがあるみたいです。"
+        },
+        {
+          "kanji": "あの古い建物は、長い歴史を持っているようです。",
+          "hiragana_full": "あのふるいたてものは、ながいれきしをもっているようです。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n4_026_10",
-      "example_sentence": "雨は降らなかったようだ。地面が乾いている。",
-      "translation": "It seems it didn't rain. The ground is dry.",
-      "blank_target": "よう",
+      "example_sentence": "この薬はよく効くようです。もう熱が下がりました。",
+      "translation": "This medicine seems to work well. My fever has already gone down.",
+      "blank_target": "ようです",
       "wrong_choices": [
-        "らしい",
-        "そう",
-        "はず"
+        "つもりです",
+        "ばかりです",
+        "ことです"
       ],
       "wrong_choice_explanations": [
-        "らしい would form 降らなかったらしい, indicating hearsay ('I hear it didn't rain') rather than inference from direct observation. Here the speaker is looking at dry ground first-hand and drawing the conclusion — exactly the slot ようだ fills.",
-        "そう as conjectural attaches to bare verb stems (降りそう = 'looks like it'll rain'); it can't directly attach to 降らなかった to mean 'looks like it didn't rain'. ようだ is the standard way to mark inference about a non-event from observed evidence.",
-        "はず would form 降らなかったはずだ ('shouldn't have rained, based on expectation') — fits when there's a prior reason (a forecast, a typical pattern) to expect no rain. ようだ marks inference from currently observed evidence (the dry ground itself), with no prior expectation needed."
+        "つもりです expresses a person's intention; medicine cannot intend anything, so 効くつもりです is nonsensical. The speaker is inferring from the lowered fever, which needs ようです.",
+        "ばかりです means 'nothing but / only', and 効くばかりです does not express an inference; the evidence of the lowered fever calls for ようです.",
+        "ことです turns the clause into a noun ('the matter of working well'), which cannot serve as the predicate here; inferring from the fever needs ようです."
       ],
-      "hiragana_full": "あめはふらなかったようだ。じめんがかわいている。",
+      "hiragana_full": "このくすりはよくきくようです。もうねつがさがりました。",
       "audio_alternatives": [
         {
-          "kanji": "雨は降らなかったようです。地面が乾いていますね。",
-          "hiragana_full": "あめはふらなかったようです。じめんがかわいていますね。"
+          "kanji": "この薬はよく効くみたいです。もう熱が下がりました。",
+          "hiragana_full": "このくすりはよくきくみたいです。もうねつがさがりました。"
         },
         {
-          "kanji": "昨晩は雨が降らなかったようだ。芝生が乾いている。",
-          "hiragana_full": "さくばんはあめがふらなかったようだ。しばふがかわいている。"
+          "kanji": "この薬はよく効くようだ。もう熱が下がった。",
+          "hiragana_full": "このくすりはよくきくようだ。もうねつがさがった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "薬",
+          "reading": "くすり",
+          "meaning": "medicine"
+        },
+        {
+          "word": "効く",
+          "reading": "きく",
+          "meaning": "to be effective"
+        },
+        {
+          "word": "熱",
+          "reading": "ねつ",
+          "meaning": "fever"
+        }
+      ]
     }
   ]
 }

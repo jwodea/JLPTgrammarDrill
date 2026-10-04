@@ -6,93 +6,206 @@
   "exercises": [
     {
       "id": "n4_094_1",
-      "example_sentence": "雨が降る場合は、試合を中止します。",
-      "translation": "In the case that it rains, we will cancel the match.",
-      "blank_target": "場合",
+      "example_sentence": "雨が降った場合は、試合は中止します。",
+      "translation": "In the event of rain, the match will be cancelled.",
+      "blank_target": "場合は",
       "wrong_choices": [
-        "こと",
-        "間",
-        "頃"
+        "うちは",
+        "あいだは",
+        "ところは"
       ],
       "wrong_choice_explanations": [
-        "こと nominalizes the clause into 'the fact that it rains' and cannot introduce the conditional 'in the event that' that 場合 sets up before the main clause.",
-        "間 means 'while/during' for duration, not for conditional situations that may or may not happen.",
-        "頃 means 'around/about' for approximate time, not for conditional circumstances."
+        "うちは means 'while a state continues' (明るいうちは). It expresses an ongoing period, not a one-time conditional event, so 場合は is needed.",
+        "あいだは means 'during the time that' and needs a continuous situation. A single conditional event takes 場合は, not あいだは.",
+        "ところ marks a place or the exact moment of an action (出かけるところ); it cannot state a condition such as 'if X happens', so 場合は is required."
       ],
-      "hiragana_full": "あめがふるばあいは、しあいをちゅうしします。",
+      "hiragana_full": "あめがふったばあいは、しあいはちゅうしします。",
       "audio_alternatives": [
         {
-          "kanji": "雨が降ったら、試合を中止します。",
-          "hiragana_full": "あめがふったら、しあいをちゅうしします。"
+          "kanji": "雨が降った場合は、試合を中止します。",
+          "hiragana_full": "あめがふったばあいは、しあいをちゅうしします。"
         },
         {
-          "kanji": "雨が降れば、試合を中止します。",
-          "hiragana_full": "あめがふれば、しあいをちゅうしします。"
+          "kanji": "雨天の場合は試合は行いません。",
+          "hiragana_full": "うてんのばあいはしあいはおこないません。"
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ばあい"
+      "blank_target_reading": "ばあいは",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "試合",
+          "reading": "しあい",
+          "meaning": "match, game"
+        },
+        {
+          "word": "中止",
+          "reading": "ちゅうし",
+          "meaning": "cancellation"
+        }
+      ]
     },
     {
       "id": "n4_094_2",
-      "example_sentence": "病気の場合は、早めに帰ってください。",
-      "translation": "In the case of illness, please go home early.",
-      "blank_target": "場合",
+      "example_sentence": "体調が悪い場合は、無理をしないでください。",
+      "translation": "If you feel unwell, please don't push yourself.",
+      "blank_target": "場合は",
       "wrong_choices": [
-        "こと",
-        "もの",
-        "の"
+        "うちは",
+        "ところは",
+        "あいだは"
       ],
       "wrong_choice_explanations": [
-        "こと nominalizes actions but doesn't express conditional situations like 場合 does.",
-        "もの refers to things or people but cannot express hypothetical conditions.",
-        "の is a particle that cannot create conditional expressions like 場合 can."
+        "うちは means 'while a state continues' (明るいうちは). It expresses an ongoing period, not a one-time conditional event, so 場合は is needed.",
+        "ところ marks a place or the exact moment of an action (出かけるところ); it cannot state a condition such as 'if X happens', so 場合は is required.",
+        "あいだは means 'during the time that' and needs a continuous situation. A single conditional event takes 場合は, not あいだは."
       ],
-      "hiragana_full": "びょうきのばあいは、はやめにかえってください。",
+      "hiragana_full": "たいちょうがわるいばあいは、むりをしないでください。",
       "audio_alternatives": [
         {
-          "kanji": "具合が悪い時は、早めに帰ってください。",
-          "hiragana_full": "ぐあいがわるいときは、はやめにかえってください。"
+          "kanji": "体調が悪い場合は、無理をせず休んでください。",
+          "hiragana_full": "たいちょうがわるいばあいは、むりをせずやすんでください。"
         },
         {
-          "kanji": "病気の時は、早く帰ってください。",
-          "hiragana_full": "びょうきのときは、はやくかえってください。"
+          "kanji": "気分が悪いときは、無理をしないでください。",
+          "hiragana_full": "きぶんがわるいときは、むりをしないでください。"
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ばあい"
+      "blank_target_reading": "ばあいは",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "体調",
+          "reading": "たいちょう",
+          "meaning": "physical condition"
+        },
+        {
+          "word": "無理",
+          "reading": "むり",
+          "meaning": "overexertion"
+        }
+      ]
     },
     {
       "id": "n4_094_3",
-      "example_sentence": "火事の場合は、このボタンを押してください。",
-      "translation": "In the case of fire, please press this button.",
-      "blank_target": "場合",
+      "example_sentence": "子供と一緒に来る場合は、前もって教えてください。",
+      "translation": "If you're coming with children, please let us know in advance.",
+      "blank_target": "場合は",
       "wrong_choices": [
-        "理由",
-        "予定",
-        "ところ"
+        "あいだは",
+        "ところは",
+        "うちは"
       ],
       "wrong_choice_explanations": [
-        "理由 means 'reason,' so it would turn the phrase into 'the reason for the fire,' not the conditional 'in the event of fire' that 場合 expresses before an instruction.",
-        "予定 means 'a plan or schedule,' but a fire is an unforeseen contingency, so 予定 cannot mark the hypothetical situation that 場合 introduces.",
-        "ところ means 'place' or 'just when' but doesn't express conditional emergency situations."
+        "あいだは means 'during the time that' and needs a continuous situation. A single conditional event takes 場合は, not あいだは.",
+        "ところ marks a place or the exact moment of an action (出かけるところ); it cannot state a condition such as 'if X happens', so 場合は is required.",
+        "うちは means 'while a state continues' (明るいうちは). It expresses an ongoing period, not a one-time conditional event, so 場合は is needed."
       ],
-      "hiragana_full": "かじのばあいは、このぼたんをおしてください。",
+      "hiragana_full": "こどもといっしょにくるばあいは、まえもっておしえてください。",
       "audio_alternatives": [
         {
-          "kanji": "火事の時は、このボタンを押してください。",
-          "hiragana_full": "かじのときは、このぼたんをおしてください。"
+          "kanji": "お子様と一緒に来る場合は、前もってお知らせください。",
+          "hiragana_full": "おこさまといっしょにくるばあいは、まえもっておしらせください。"
         },
         {
-          "kanji": "火事が起きたら、このボタンを押してください。",
-          "hiragana_full": "かじがおきたら、このぼたんをおしてください。"
+          "kanji": "子供を連れて来る場合は、事前に教えてください。",
+          "hiragana_full": "こどもをつれてくるばあいは、じぜんにおしえてください。"
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ばあい"
+      "blank_target_reading": "ばあいは",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "前もって",
+          "reading": "まえもって",
+          "meaning": "in advance"
+        }
+      ]
     },
     {
       "id": "n4_094_4",
+      "example_sentence": "商品に問題があった場合は、返品できます。",
+      "translation": "In the case of a defective product, you can return it.",
+      "blank_target": "場合は",
+      "wrong_choices": [
+        "うちは",
+        "あいだは",
+        "ところは"
+      ],
+      "wrong_choice_explanations": [
+        "うちは means 'while a state continues' (明るいうちは). It expresses an ongoing period, not a one-time conditional event, so 場合は is needed.",
+        "あいだは means 'during the time that' and needs a continuous situation. A single conditional event takes 場合は, not あいだは.",
+        "ところ marks a place or the exact moment of an action (出かけるところ); it cannot state a condition such as 'if X happens', so 場合は is required."
+      ],
+      "hiragana_full": "しょうひんにもんだいがあったばあいは、へんぴんできます。",
+      "audio_alternatives": [
+        {
+          "kanji": "商品に問題があった場合は、返品が可能です。",
+          "hiragana_full": "しょうひんにもんだいがあったばあいは、へんぴんがかのうです。"
+        },
+        {
+          "kanji": "不良品の場合は、返品を受け付けます。",
+          "hiragana_full": "ふりょうひんのばあいは、へんぴんをうけつけます。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "ばあいは",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "商品",
+          "reading": "しょうひん",
+          "meaning": "product"
+        },
+        {
+          "word": "返品",
+          "reading": "へんぴん",
+          "meaning": "returning goods"
+        }
+      ]
+    },
+    {
+      "id": "n4_094_5",
+      "example_sentence": "火事の場合は、エレベーターを使わないでください。",
+      "translation": "In case of fire, please do not use the elevator.",
+      "blank_target": "場合は",
+      "wrong_choices": [
+        "たびに",
+        "ところは",
+        "うちは"
+      ],
+      "wrong_choice_explanations": [
+        "たびに means 'every time X happens' and describes habitual repetition (火事のたびに = each time a fire occurs); the sentence states a single hypothetical situation, which the conditional 場合は expresses.",
+        "ところ marks a place or the exact moment of an action (出かけるところ); it cannot state a condition such as 'if X happens', so 場合は is required.",
+        "うちは means 'while a state continues' (明るいうちは). It expresses an ongoing period, not a one-time conditional event, so 場合は is needed."
+      ],
+      "hiragana_full": "かじのばあいは、えれべーたーをつかわないでください。",
+      "audio_alternatives": [
+        {
+          "kanji": "火事の場合は、階段を使ってください。",
+          "hiragana_full": "かじのばあいは、かいだんをつかってください。"
+        },
+        {
+          "kanji": "火事が起きた場合は、エレベーターを使わないでください。",
+          "hiragana_full": "かじがおきたばあいは、えれべーたーをつかわないでください。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "ばあいは",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "火事",
+          "reading": "かじ",
+          "meaning": "fire"
+        }
+      ]
+    },
+    {
+      "id": "n4_094_6",
       "example_sentence": "分からない場合は、先生に聞いてください。",
       "translation": "In the case that you don't understand, please ask the teacher.",
       "blank_target": "場合",
@@ -118,39 +231,11 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ばあい"
+      "blank_target_reading": "ばあい",
+      "register": "neutral"
     },
     {
-      "id": "n4_094_5",
-      "example_sentence": "地震が起きた場合は、机の下に隠れなさい。",
-      "translation": "In the case that an earthquake occurs, hide under a desk.",
-      "blank_target": "場合",
-      "wrong_choices": [
-        "瞬間",
-        "直後",
-        "最中"
-      ],
-      "wrong_choice_explanations": [
-        "瞬間 means 'moment/instant' for very brief time periods, not for conditional instructions.",
-        "直後 means 'immediately after' for sequence, not for conditional emergency procedures.",
-        "最中 means 'in the middle of' for ongoing actions, not for conditional preparedness."
-      ],
-      "hiragana_full": "じしんがおきたばあいは、つくえのしたにかくれなさい。",
-      "audio_alternatives": [
-        {
-          "kanji": "地震が起きたら、机の下に隠れなさい。",
-          "hiragana_full": "じしんがおきたら、つくえのしたにかくれなさい。"
-        },
-        {
-          "kanji": "地震が起きた時は、机の下に隠れてください。",
-          "hiragana_full": "じしんがおきたときは、つくえのしたにかくれてください。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "ばあい"
-    },
-    {
-      "id": "n4_094_6",
+      "id": "n4_094_7",
       "example_sentence": "お客様が来る場合は、部屋をきれいにしておこう。",
       "translation": "In the case that customers come, let's keep the room clean.",
       "blank_target": "場合",
@@ -176,10 +261,11 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ばあい"
+      "blank_target_reading": "ばあい",
+      "register": "casual"
     },
     {
-      "id": "n4_094_7",
+      "id": "n4_094_8",
       "example_sentence": "電話がつながらない場合は、メールを送ります。",
       "translation": "In the case that the phone doesn't connect, I'll send an email.",
       "blank_target": "場合",
@@ -205,10 +291,11 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ばあい"
+      "blank_target_reading": "ばあい",
+      "register": "neutral"
     },
     {
-      "id": "n4_094_8",
+      "id": "n4_094_9",
       "example_sentence": "パスポートを忘れた場合は、旅行に行けません。",
       "translation": "In the case that you forget your passport, you can't go on the trip.",
       "blank_target": "場合",
@@ -234,10 +321,11 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ばあい"
+      "blank_target_reading": "ばあい",
+      "register": "neutral"
     },
     {
-      "id": "n4_094_9",
+      "id": "n4_094_10",
       "example_sentence": "値段が高い場合は、買わないことにします。",
       "translation": "In the case that the price is high, I've decided not to buy it.",
       "blank_target": "場合",
@@ -263,36 +351,8 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ばあい"
-    },
-    {
-      "id": "n4_094_10",
-      "example_sentence": "試験に合格した場合は、お祝いをしましょう。",
-      "translation": "In the case that you pass the exam, let's celebrate.",
-      "blank_target": "場合",
-      "wrong_choices": [
-        "機会",
-        "チャンス",
-        "きっかけ"
-      ],
-      "wrong_choice_explanations": [
-        "機会 means 'opportunity' for chances to do things, not for conditional celebrations.",
-        "チャンス means 'chance' for opportunities, not for conditional future situations.",
-        "きっかけ means 'trigger/opportunity' for starting points, not for conditional outcomes."
-      ],
-      "hiragana_full": "しけんにごうかくしたばあいは、おいわいをしましょう。",
-      "audio_alternatives": [
-        {
-          "kanji": "試験に合格したら、お祝いをしましょう。",
-          "hiragana_full": "しけんにごうかくしたら、おいわいをしましょう。"
-        },
-        {
-          "kanji": "試験に受かった場合は、お祝いをしましょう。",
-          "hiragana_full": "しけんにうかったばあいは、おいわいをしましょう。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "ばあい"
+      "blank_target_reading": "ばあい",
+      "register": "neutral"
     }
   ]
 }

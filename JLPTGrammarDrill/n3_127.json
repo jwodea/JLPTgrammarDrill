@@ -9,7 +9,11 @@
       "example_sentence": "田中さん、来月結婚するんだって。同僚から聞いたよ。",
       "translation": "I hear Tanaka-san is getting married next month. A coworker told me.",
       "blank_target": "んだって",
-      "wrong_choices": ["んだっけ", "んじゃない", "のかな"],
+      "wrong_choices": [
+        "んだっけ",
+        "んじゃない",
+        "のかな"
+      ],
       "wrong_choice_explanations": [
         "「んだっけ」は自分の記憶があいまいで確認するときの言い方。同僚から聞いた情報をそのまま伝えているので、記憶の確認ではない。",
         "「んじゃない」は「〜だと思うよ」という推測や確認を表す。「同僚から聞いた」という伝聞の根拠と合わない。",
@@ -17,17 +21,35 @@
       ],
       "hiragana_full": "たなかさん、らいげつけっこんするんだって。どうりょうからきいたよ。",
       "audio_alternatives": [
-        { "kanji": "田中さん、来月結婚するらしいよ。", "hiragana_full": "たなかさん、らいげつけっこんするらしいよ。" },
-        { "kanji": "同僚の話だと、田中さんは来月結婚するんだって。", "hiragana_full": "どうりょうのはなしだと、たなかさんはらいげつけっこんするんだって。" }
+        {
+          "kanji": "田中さん、来月結婚するらしいよ。",
+          "hiragana_full": "たなかさん、らいげつけっこんするらしいよ。"
+        },
+        {
+          "kanji": "同僚の話だと、田中さんは来月結婚するんだって。",
+          "hiragana_full": "どうりょうのはなしだと、たなかさんはらいげつけっこんするんだって。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "同僚",
+          "reading": "どうりょう",
+          "meaning": "colleague"
+        }
+      ]
     },
     {
       "id": "n3_127_2",
       "example_sentence": "あの店のカレー、すごく辛いんだって。食べた人が言ってた。",
       "translation": "I hear the curry at that place is really spicy. Someone who ate there said so.",
       "blank_target": "んだって",
-      "wrong_choices": ["かもね", "ものだ", "んだっけ"],
+      "wrong_choices": [
+        "かもね",
+        "ものだ",
+        "んだっけ"
+      ],
       "wrong_choice_explanations": [
         "「かもね」は自分の推測を表す。実際に食べた人から聞いた情報なので、推測ではなく伝聞で伝えるのが自然。",
         "「ものだ」は一般的な性質や真理を述べる表現。特定の店のカレーについてのうわさを伝えるこの文には合わない。",
@@ -35,53 +57,112 @@
       ],
       "hiragana_full": "あのみせのかれー、すごくからいんだって。たべたひとがいってた。",
       "audio_alternatives": [
-        { "kanji": "あの店のカレーはかなり辛いと聞いたよ。", "hiragana_full": "あのみせのかれーはかなりからいときいたよ。" },
-        { "kanji": "食べた人によると、あの店のカレーはすごく辛いんだって。", "hiragana_full": "たべたひとによると、あのみせのかれーはすごくからいんだって。" }
+        {
+          "kanji": "あの店のカレーはかなり辛いと聞いたよ。",
+          "hiragana_full": "あのみせのかれーはかなりからいときいたよ。"
+        },
+        {
+          "kanji": "食べた人によると、あの店のカレーはすごく辛いんだって。",
+          "hiragana_full": "たべたひとによると、あのみせのかれーはすごくからいんだって。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "辛い",
+          "reading": "からい",
+          "meaning": "spicy"
+        }
+      ]
     },
     {
       "id": "n3_127_3",
       "example_sentence": "明日の遠足、雨で中止になったんだって。先生が言ってたよ。",
       "translation": "I hear tomorrow's field trip got canceled because of the rain. The teacher said so.",
       "blank_target": "んだって",
-      "wrong_choices": ["んじゃない", "のかな", "はずだよ"],
+      "wrong_choices": [
+        "っこない",
+        "のかな",
+        "ものか"
+      ],
       "wrong_choice_explanations": [
-        "「んじゃない」は推測や軽い確認を表す。先生から聞いた確定した情報を伝えているので、推測の形は不自然。",
+        "「っこない」は動詞のます形について「〜するはずがない」と強く否定する形（なりっこない）で、「なったっこない」とは言えない。先生から聞いた中止の知らせを伝える文にも合わない。",
         "「のかな」は自分の疑問を表す。中止はすでに決まったこととして報告しているので、疑問形は合わない。",
-        "「はずだよ」は自分の知識から当然そうだと推論する言い方。ここでは自分で判断したのではなく、先生の話をそのまま伝えている。"
+        "「ものか」は「〜ものか（絶対に〜ない）」という強い否定・反発を表す。先生から聞いた中止の情報をそのまま伝えている文脈には合わない。"
       ],
       "hiragana_full": "あしたのえんそく、あめでちゅうしになったんだって。せんせいがいってたよ。",
       "audio_alternatives": [
-        { "kanji": "先生の話では、明日の遠足は中止になったそうだよ。", "hiragana_full": "せんせいのはなしでは、あしたのえんそくはちゅうしになったそうだよ。" },
-        { "kanji": "雨だから、明日の遠足は中止になったんだって。", "hiragana_full": "あめだから、あしたのえんそくはちゅうしになったんだって。" }
+        {
+          "kanji": "先生の話では、明日の遠足は中止になったそうだよ。",
+          "hiragana_full": "せんせいのはなしでは、あしたのえんそくはちゅうしになったそうだよ。"
+        },
+        {
+          "kanji": "雨だから、明日の遠足は中止になったんだって。",
+          "hiragana_full": "あめだから、あしたのえんそくはちゅうしになったんだって。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "遠足",
+          "reading": "えんそく",
+          "meaning": "school excursion"
+        },
+        {
+          "word": "中止",
+          "reading": "ちゅうし",
+          "meaning": "cancellation"
+        }
+      ]
     },
     {
       "id": "n3_127_4",
       "example_sentence": "佐藤くん、来年アメリカに留学するんだって。びっくりだね。",
       "translation": "I hear Sato is going to study abroad in America next year. Surprising, right?",
       "blank_target": "んだって",
-      "wrong_choices": ["んだっけ", "つもりだよ", "のかもね"],
+      "wrong_choices": [
+        "んだっけ",
+        "わけがない",
+        "のかもね"
+      ],
       "wrong_choice_explanations": [
         "「んだっけ」は記憶を確認する形。「びっくりだね」と新しい情報として驚いているので、思い出そうとしているのではない。",
-        "「つもりだよ」は基本的に話し手自身の意志を表す。佐藤くんの予定を第三者として伝えるこの文には合わない。",
+        "「わけがない」は「絶対に〜ない」と強く否定する言い方。「びっくりだね」と聞いた話に驚いているので、否定する形は文意に合わない。",
         "「のかもね」はあいまいな推測を表す。驚くほど確かな話として伝えているので、推測では文の勢いと合わない。"
       ],
       "hiragana_full": "さとうくん、らいねんあめりかにりゅうがくするんだって。びっくりだね。",
       "audio_alternatives": [
-        { "kanji": "佐藤くんは来年、アメリカへ留学するらしいよ。", "hiragana_full": "さとうくんはらいねん、あめりかへりゅうがくするらしいよ。" },
-        { "kanji": "聞いた？佐藤くん、留学するんだって。", "hiragana_full": "きいた？さとうくん、りゅうがくするんだって。" }
+        {
+          "kanji": "佐藤くんは来年、アメリカへ留学するらしいよ。",
+          "hiragana_full": "さとうくんはらいねん、あめりかへりゅうがくするらしいよ。"
+        },
+        {
+          "kanji": "聞いた？佐藤くん、留学するんだって。",
+          "hiragana_full": "きいた？さとうくん、りゅうがくするんだって。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "留学",
+          "reading": "りゅうがく",
+          "meaning": "studying abroad"
+        }
+      ]
     },
     {
       "id": "n3_127_5",
       "example_sentence": "この辺り、昔は海だったんだって。おじいちゃんが教えてくれた。",
       "translation": "I hear this area used to be the sea a long time ago. My grandpa told me.",
       "blank_target": "んだって",
-      "wrong_choices": ["んじゃない", "んだっけ", "ものだ"],
+      "wrong_choices": [
+        "んじゃない",
+        "んだっけ",
+        "ものだ"
+      ],
       "wrong_choice_explanations": [
         "「んじゃない」なら自分の推測になるが、おじいちゃんから聞いた話として伝えているので伝聞の形が合う。",
         "「んだっけ」は自分の記憶を確認する形。教えてもらった話を紹介しているので、確認ではない。",
@@ -89,35 +170,81 @@
       ],
       "hiragana_full": "このあたり、むかしはうみだったんだって。おじいちゃんがおしえてくれた。",
       "audio_alternatives": [
-        { "kanji": "おじいちゃんによると、この辺りは昔、海だったそうだ。", "hiragana_full": "おじいちゃんによると、このあたりはむかし、うみだったそうだ。" },
-        { "kanji": "昔、この辺りは海だったんだって。信じられる？", "hiragana_full": "むかし、このあたりはうみだったんだって。しんじられる？" }
+        {
+          "kanji": "おじいちゃんによると、この辺りは昔、海だったそうだ。",
+          "hiragana_full": "おじいちゃんによると、このあたりはむかし、うみだったそうだ。"
+        },
+        {
+          "kanji": "昔、この辺りは海だったんだって。信じられる？",
+          "hiragana_full": "むかし、このあたりはうみだったんだって。しんじられる？"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "辺り",
+          "reading": "あたり",
+          "meaning": "area, vicinity"
+        }
+      ]
     },
     {
       "id": "n3_127_6",
       "example_sentence": "秘書さんに聞いたんだけど、部長、来週から一週間出張でいないんだって。",
       "translation": "I heard from the secretary that the department head will be away on a business trip for a week starting next week.",
       "blank_target": "んだって",
-      "wrong_choices": ["はずだよ", "のかな", "わけだ"],
+      "wrong_choices": [
+        "わけがない",
+        "のかな",
+        "ものか"
+      ],
       "wrong_choice_explanations": [
-        "「はずだよ」は自分の持っている情報から推論する言い方。「秘書さんに聞いた」と明言している通り、自分の推論ではなく人の話の伝達である。",
+        "「わけがない」は可能性を強く否定する言い方。「秘書さんに聞いた」と人の話をそのまま伝えているので、否定する形は合わない。",
         "「のかな」は疑問を表す。秘書から聞いてすでに知っている情報なので、疑問に思っているわけではない。",
-        "「わけだ」は「なるほど、だから〜なのだ」という納得や結論を表す。単に聞いた情報を伝える文脈では不自然。"
+        "「ものか」は「〜ものか（絶対に〜ない）」という強い否定・反発を表す。秘書さんから聞いた出張の情報をそのまま伝えている文脈には合わない。"
       ],
       "hiragana_full": "ひしょさんにきいたんだけど、ぶちょう、らいしゅうからいっしゅうかんしゅっちょうでいないんだって。",
       "audio_alternatives": [
-        { "kanji": "秘書さんの話だと、部長は来週から出張だそうです。", "hiragana_full": "ひしょさんのはなしだと、ぶちょうはらいしゅうからしゅっちょうだそうです。" },
-        { "kanji": "部長は来週、一週間ずっと出張なんだって。", "hiragana_full": "ぶちょうはらいしゅう、いっしゅうかんずっとしゅっちょうなんだって。" }
+        {
+          "kanji": "秘書さんの話だと、部長は来週から出張だそうです。",
+          "hiragana_full": "ひしょさんのはなしだと、ぶちょうはらいしゅうからしゅっちょうだそうです。"
+        },
+        {
+          "kanji": "部長は来週、一週間ずっと出張なんだって。",
+          "hiragana_full": "ぶちょうはらいしゅう、いっしゅうかんずっとしゅっちょうなんだって。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "秘書",
+          "reading": "ひしょ",
+          "meaning": "secretary"
+        },
+        {
+          "word": "部長",
+          "reading": "ぶちょう",
+          "meaning": "department head"
+        },
+        {
+          "word": "出張",
+          "reading": "しゅっちょう",
+          "meaning": "business trip"
+        }
+      ]
     },
     {
       "id": "n3_127_7",
       "example_sentence": "あの映画、見た人はみんな泣くんだって。評判になってるよ。",
       "translation": "They say everyone who sees that movie ends up crying. It's getting a lot of buzz.",
       "blank_target": "んだって",
-      "wrong_choices": ["んだっけ", "んじゃない", "ことだ"],
+      "wrong_choices": [
+        "んだっけ",
+        "んじゃない",
+        "ことだ"
+      ],
       "wrong_choice_explanations": [
         "「んだっけ」は忘れかけた記憶を確認する形。評判として聞いた話をこれから相手に伝えているので合わない。",
         "「んじゃない」は自分の予想を表す。みんなが泣くというのは自分の予想ではなく、広まっている評判である。",
@@ -125,17 +252,35 @@
       ],
       "hiragana_full": "あのえいが、みたひとはみんななくんだって。ひょうばんになってるよ。",
       "audio_alternatives": [
-        { "kanji": "あの映画は泣けるって、みんな言ってるよ。", "hiragana_full": "あのえいがはなけるって、みんないってるよ。" },
-        { "kanji": "評判では、あの映画を見た人はみんな泣くんだって。", "hiragana_full": "ひょうばんでは、あのえいがをみたひとはみんななくんだって。" }
+        {
+          "kanji": "あの映画は泣けるって、みんな言ってるよ。",
+          "hiragana_full": "あのえいがはなけるって、みんないってるよ。"
+        },
+        {
+          "kanji": "評判では、あの映画を見た人はみんな泣くんだって。",
+          "hiragana_full": "ひょうばんでは、あのえいがをみたひとはみんななくんだって。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "評判",
+          "reading": "ひょうばん",
+          "meaning": "reputation"
+        }
+      ]
     },
     {
       "id": "n3_127_8",
       "example_sentence": "隣のクラスの先生、宿題をすごくたくさん出すんだって。大変そう。",
       "translation": "I hear the teacher in the next class assigns a ton of homework. Sounds rough.",
       "blank_target": "んだって",
-      "wrong_choices": ["のかな", "んだっけ", "べきだ"],
+      "wrong_choices": [
+        "のかな",
+        "んだっけ",
+        "べきだ"
+      ],
       "wrong_choice_explanations": [
         "「のかな」は疑問を表す。「大変そう」と反応している通り、すでに聞いて知っている情報を伝えている。",
         "「んだっけ」は記憶の確認。相手に新しい情報として教えている場面なので合わない。",
@@ -143,17 +288,28 @@
       ],
       "hiragana_full": "となりのくらすのせんせい、しゅくだいをすごくたくさんだすんだって。たいへんそう。",
       "audio_alternatives": [
-        { "kanji": "隣のクラスは宿題が多いらしいよ。", "hiragana_full": "となりのくらすはしゅくだいがおおいらしいよ。" },
-        { "kanji": "隣のクラスの先生、宿題が多いことで有名なんだって。", "hiragana_full": "となりのくらすのせんせい、しゅくだいがおおいことでゆうめいなんだって。" }
+        {
+          "kanji": "隣のクラスは宿題が多いらしいよ。",
+          "hiragana_full": "となりのくらすはしゅくだいがおおいらしいよ。"
+        },
+        {
+          "kanji": "隣のクラスの先生、宿題が多いことで有名なんだって。",
+          "hiragana_full": "となりのくらすのせんせい、しゅくだいがおおいことでゆうめいなんだって。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n3_127_9",
       "example_sentence": "駅前に新しいカフェができるんだって。楽しみだね。",
       "translation": "I hear a new café is opening in front of the station. Something to look forward to, huh?",
       "blank_target": "んだって",
-      "wrong_choices": ["んじゃない", "んだっけ", "ところだ"],
+      "wrong_choices": [
+        "んじゃない",
+        "んだっけ",
+        "ところだ"
+      ],
       "wrong_choice_explanations": [
         "「んじゃない」は推測・確認の形。「楽しみだね」と続けており、確かな話として伝えているので推測では弱い。",
         "「んだっけ」は記憶があいまいなときの確認で、新しい話題を相手に教えるこの場面には合わない。",
@@ -161,17 +317,28 @@
       ],
       "hiragana_full": "えきまえにあたらしいかふぇができるんだって。たのしみだね。",
       "audio_alternatives": [
-        { "kanji": "駅前に新しいカフェがオープンするらしいよ。", "hiragana_full": "えきまえにあたらしいかふぇがおーぷんするらしいよ。" },
-        { "kanji": "聞いた？駅前にカフェができるんだって。", "hiragana_full": "きいた？えきまえにかふぇができるんだって。" }
+        {
+          "kanji": "駅前に新しいカフェがオープンするらしいよ。",
+          "hiragana_full": "えきまえにあたらしいかふぇがおーぷんするらしいよ。"
+        },
+        {
+          "kanji": "聞いた？駅前にカフェができるんだって。",
+          "hiragana_full": "きいた？えきまえにかふぇができるんだって。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n3_127_10",
       "example_sentence": "彼、子どものころピアノを習っていたんだって。意外だね。",
       "translation": "I hear he took piano lessons as a kid. Surprising, isn't it?",
       "blank_target": "んだって",
-      "wrong_choices": ["んだっけ", "はずだよ", "ものだ"],
+      "wrong_choices": [
+        "んだっけ",
+        "はずだよ",
+        "ものだ"
+      ],
       "wrong_choice_explanations": [
         "「んだっけ」は記憶の確認。「意外だね」と初めて聞いた驚きを示しているので、思い出そうとしているのではない。",
         "「はずだよ」は根拠からの自分の推論を表す。ここでは人から聞いた話をそのまま伝えている場面である。",
@@ -179,10 +346,24 @@
       ],
       "hiragana_full": "かれ、こどものころぴあのをならっていたんだって。いがいだね。",
       "audio_alternatives": [
-        { "kanji": "彼は子どものころ、ピアノを習っていたらしいよ。", "hiragana_full": "かれはこどものころ、ぴあのをならっていたらしいよ。" },
-        { "kanji": "彼、昔ピアノをやってたんだって。知ってた？", "hiragana_full": "かれ、むかしぴあのをやってたんだって。しってた？" }
+        {
+          "kanji": "彼は子どものころ、ピアノを習っていたらしいよ。",
+          "hiragana_full": "かれはこどものころ、ぴあのをならっていたらしいよ。"
+        },
+        {
+          "kanji": "彼、昔ピアノをやってたんだって。知ってた？",
+          "hiragana_full": "かれ、むかしぴあのをやってたんだって。しってた？"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "意外",
+          "reading": "いがい",
+          "meaning": "unexpected, surprising"
+        }
+      ]
     }
   ]
 }

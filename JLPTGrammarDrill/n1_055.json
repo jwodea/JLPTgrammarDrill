@@ -30,7 +30,15 @@
           "hiragana_full": "かれはいつもがくしゃぶって、なんかいなことばばかりつかっている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "知識人",
+          "reading": "ちしきじん",
+          "meaning": "intellectual"
+        }
+      ]
     },
     {
       "id": "n1_055_2",
@@ -58,7 +66,20 @@
           "hiragana_full": "あのじょゆうはせいじゅんそうにふるまっているが、ぷらいべーとではぜんぜんちがう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "女優",
+          "reading": "じょゆう",
+          "meaning": "actress"
+        },
+        {
+          "word": "清純派",
+          "reading": "せいじゅんは",
+          "meaning": "the wholesome type"
+        }
+      ]
     },
     {
       "id": "n1_055_3",
@@ -86,7 +107,15 @@
           "hiragana_full": "かのじょはおとなびたたいどをみせるが、まだおさないところがある。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "態度",
+          "reading": "たいど",
+          "meaning": "attitude; manner"
+        }
+      ]
     },
     {
       "id": "n1_055_4",
@@ -114,7 +143,20 @@
           "hiragana_full": "しんにゅうしゃいんがせんぱいぶってあどばいすをするのをみて、みんなはにがわらいした。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "新入社員",
+          "reading": "しんにゅうしゃいん",
+          "meaning": "new employee"
+        },
+        {
+          "word": "苦笑い",
+          "reading": "にがわらい",
+          "meaning": "wry smile"
+        }
+      ]
     },
     {
       "id": "n1_055_5",
@@ -142,7 +184,20 @@
           "hiragana_full": "かれはせんもんかをきどってせつめいしているが、ほんとうはよくわからないぶんやだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "専門家",
+          "reading": "せんもんか",
+          "meaning": "expert"
+        },
+        {
+          "word": "分野",
+          "reading": "ぶんや",
+          "meaning": "field; area"
+        }
+      ]
     },
     {
       "id": "n1_055_6",
@@ -170,7 +225,20 @@
           "hiragana_full": "たいこくぶるしょうこくのがいこうせいさくは、こくさいかんけいをふくざつかさせるだけにすぎない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "外交",
+          "reading": "がいこう",
+          "meaning": "diplomacy"
+        },
+        {
+          "word": "政策",
+          "reading": "せいさく",
+          "meaning": "policy"
+        }
+      ]
     },
     {
       "id": "n1_055_7",
@@ -198,7 +266,20 @@
           "hiragana_full": "いちぶのせいじかはかんきょうしゅぎしゃをよそおいながら、じっさいにはさんぎょうりえきをゆうせんしている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "産業",
+          "reading": "さんぎょう",
+          "meaning": "industry"
+        },
+        {
+          "word": "優先",
+          "reading": "ゆうせん",
+          "meaning": "priority"
+        }
+      ]
     },
     {
       "id": "n1_055_8",
@@ -226,7 +307,20 @@
           "hiragana_full": "いちぶのひょうろんかはがくしゃぶっているが、じっさいにはせんにゅうかんでぎろんをてんかいしている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "評論家",
+          "reading": "ひょうろんか",
+          "meaning": "critic; commentator"
+        },
+        {
+          "word": "思い込み",
+          "reading": "おもいこみ",
+          "meaning": "preconception; assumption"
+        }
+      ]
     },
     {
       "id": "n1_055_9",
@@ -234,14 +328,14 @@
       "translation": "Some managers pretend to be reformers, but actually want to maintain the status quo.",
       "blank_target": "ぶるが",
       "wrong_choices": [
-        "気取り",
-        "面して",
-        "振りで"
+        "のようだが",
+        "と呼ばれるが",
+        "になろうとするが"
       ],
       "wrong_choice_explanations": [
-        "気取り means 'putting on airs' but is a noun form that doesn't fit the grammatical structure here.",
-        "面して means 'facing' or 'confronting' but doesn't convey the pretending meaning needed.",
-        "振りで means 'pretending' but lacks the critical nuance and grammatical pattern of ぶる."
+        "改革者のようだが expresses resemblance or appearance ('seem like a reformer'), describing how they come across rather than the deliberate pretense that ぶる conveys.",
+        "改革者と呼ばれるが means 'are called reformers (by others),' a label applied from outside rather than the self-directed posing that ぶる expresses.",
+        "改革者になろうとするが means 'try to become reformers,' expressing a genuine attempt to change rather than merely pretending to be one."
       ],
       "hiragana_full": "いちぶのけいえいしゃはかいかくしゃぶるが、じっさいにはげんじょういじをのぞんでいる。",
       "audio_alternatives": [
@@ -254,7 +348,20 @@
           "hiragana_full": "いちぶのけいえいしゃはかいかくしゃをよそおうが、じっさいのところげんじょういじをのぞんでいる。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "経営者",
+          "reading": "けいえいしゃ",
+          "meaning": "manager; executive"
+        },
+        {
+          "word": "現状維持",
+          "reading": "げんじょういじ",
+          "meaning": "maintaining the status quo"
+        }
+      ]
     },
     {
       "id": "n1_055_10",
@@ -282,7 +389,20 @@
           "hiragana_full": "いちぶのけんきゅうしゃはりんりしゅぎしゃをきどっているが、じつのところりえきをゆうせんしている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "倫理",
+          "reading": "りんり",
+          "meaning": "ethics"
+        },
+        {
+          "word": "優先",
+          "reading": "ゆうせん",
+          "meaning": "priority"
+        }
+      ]
     }
   ]
 }

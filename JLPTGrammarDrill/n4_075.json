@@ -30,7 +30,9 @@
           "hiragana_full": "にほんごをはなせないことはないけど、まだへたです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "blank_occurrence": 1
     },
     {
       "id": "n4_075_2",
@@ -58,7 +60,9 @@
           "hiragana_full": "りょうりができないことはないですが、あまりじょうずではありません。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "blank_occurrence": 1
     },
     {
       "id": "n4_075_3",
@@ -86,7 +90,9 @@
           "hiragana_full": "きょうはえいがをみにいけないことはないけど、つかれているのでいえにいたい。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "blank_occurrence": 1
     },
     {
       "id": "n4_075_4",
@@ -114,7 +120,9 @@
           "hiragana_full": "かんじがよめないことはないけど、じかんがかかる。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "blank_occurrence": 1
     },
     {
       "id": "n4_075_5",
@@ -142,7 +150,16 @@
           "hiragana_full": "おかねがはらえないことはないけど、こんげつはせつやくしたい。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "節約",
+          "reading": "せつやく",
+          "meaning": "saving money"
+        }
+      ],
+      "blank_occurrence": 1
     },
     {
       "id": "n4_075_6",
@@ -170,7 +187,21 @@
           "hiragana_full": "うたえないことはないですが、ひとまえではずかしいです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "人前",
+          "reading": "ひとまえ",
+          "meaning": "in front of others"
+        },
+        {
+          "word": "恥ずかしい",
+          "reading": "はずかしい",
+          "meaning": "embarrassed"
+        }
+      ],
+      "blank_occurrence": 1
     },
     {
       "id": "n4_075_7",
@@ -198,7 +229,16 @@
           "hiragana_full": "えいごがはなせないことはないけど、じしんがありません。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "自信",
+          "reading": "じしん",
+          "meaning": "confidence"
+        }
+      ],
+      "blank_occurrence": 1
     },
     {
       "id": "n4_075_8",
@@ -226,7 +266,9 @@
           "hiragana_full": "ぴあのがひけないことはないけど、もっとれんしゅうがひつようです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "blank_occurrence": 1
     },
     {
       "id": "n4_075_9",
@@ -254,7 +296,16 @@
           "hiragana_full": "すうがくのもんだいがとけないということはないが、けいさんがおそい。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "計算",
+          "reading": "けいさん",
+          "meaning": "calculation"
+        }
+      ],
+      "blank_occurrence": 1
     },
     {
       "id": "n4_075_10",
@@ -282,7 +333,16 @@
           "hiragana_full": "えはかけるが、げいじゅつてきなセンスがない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "芸術的",
+          "reading": "げいじゅつてき",
+          "meaning": "artistic"
+        }
+      ],
+      "blank_occurrence": 1
     }
   ]
 }

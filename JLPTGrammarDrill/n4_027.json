@@ -10,14 +10,14 @@
       "translation": "I hear that Tanaka-san is getting married next month.",
       "blank_target": "らしい",
       "wrong_choices": [
-        "ようだ",
-        "はずだ",
-        "みたい"
+        "ことだ",
+        "ためだ",
+        "がちだ"
       ],
       "wrong_choice_explanations": [
-        "ようだ indicates inference from direct evidence, but here we're expressing information heard from others.",
-        "はずだ means 'is supposed to / should be' based on logic or expectation, not information passed on from others as らしい conveys.",
-        "みたい means 'seems like' based on appearance or feeling, not information heard from others."
+        "ことだ gives advice ('one should ~') or restates a fact as a noun clause; 結婚することだ would not report something you heard about Tanaka's plans.",
+        "ためだ states a purpose or cause ('it is for / because of ~'); 田中さんは来月結婚するためだ cannot stand alone and does not report something you heard.",
+        "がちだ attaches to the masu-stem (忘れがち) and means 'tend to ~'; 結婚するがちだ is ungrammatical and cannot report news about Tanaka."
       ],
       "hiragana_full": "たなかさんはらいげつけっこんするらしい。",
       "audio_alternatives": [
@@ -30,7 +30,8 @@
           "hiragana_full": "たなかさんはらいげつけっこんするみたいだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n4_027_2",
@@ -39,13 +40,13 @@
       "blank_target": "いらしい",
       "wrong_choices": [
         "そうだ",
-        "いようだ",
-        "いみたいだ"
+        "いつもりだ",
+        "さだ"
       ],
       "wrong_choice_explanations": [
         "そうだ here gives おいしそう, 'it looks delicious' from appearance, but the basis is what your friend told you.",
-        "ようだ would express your own inference from evidence you observed, but the deliciousness is something your friend told you, so it's secondhand.",
-        "みたいだ expresses your own impression or a resemblance, not information you received from your friend."
+        "つもり expresses a person's intention; a restaurant cannot intend anything, so おいしいつもりだ is nonsense. The friend's report calls for らしい.",
+        "さ nominalizes the adjective (おいしさ = 'deliciousness'), so おいしさだよ would equate the restaurant with a quality and doesn't report what your friend said."
       ],
       "hiragana_full": "あたらしいれすとらんはおいしいらしいよ。ともだちがいっていた。",
       "audio_alternatives": [
@@ -58,7 +59,8 @@
           "hiragana_full": "ともだちによると、あたらしいれすとらんはおいしいらしい。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n4_027_3",
@@ -66,14 +68,14 @@
       "translation": "It seems it will rain tomorrow (I heard).",
       "blank_target": "らしい",
       "wrong_choices": [
-        "よう",
-        "みたい",
-        "かもしれない"
+        "つもり",
+        "べき",
+        "ところ"
       ],
       "wrong_choice_explanations": [
-        "ようだ (降るようです) expresses your own inference from evidence you can see, but a forecast is information you heard, which is what らしい conveys.",
-        "みたいだ (降るみたいです) expresses your own impression, not information passed on from a forecast.",
-        "かもしれない means 'might' and is your own guess about the possibility, not information drawn from a forecast as らしい conveys."
+        "つもり marks an intention — rain has no intentions, so 降るつもりです is nonsense; the forecast-based report needs らしい.",
+        "べき expresses obligation ('should'); rain cannot be obliged to fall, so 降るべきです is nonsense here. The forecast-based report needs らしい.",
+        "ところです after the dictionary form means 'about to ~ right now', which clashes with 明日; it cannot pass on a forecast as らしい does."
       ],
       "hiragana_full": "あしたはあめがふるらしいです",
       "audio_alternatives": [
@@ -86,7 +88,8 @@
           "hiragana_full": "あしたはあめらしいです"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n4_027_4",
@@ -94,14 +97,14 @@
       "translation": "He seems smart. Everyone says so.",
       "blank_target": "いらしい",
       "wrong_choices": [
-        "いみたいだ",
-        "いようだ",
-        "いはずだ"
+        "いふりだ",
+        "いさだ",
+        "いべきだ"
       ],
       "wrong_choice_explanations": [
-        "みたいだ expresses your own impression, but his being smart is what everyone is saying, i.e. general reputation.",
-        "ようだ expresses your own inference from evidence, but here the basis is what people say, not your own observation.",
-        "はずだ means 'should be' from logic or expectation, not the general reputation that らしい reports."
+        "ふり means deliberate pretense — 頭がいいふりだ would say he only acts smart, contradicting the reputation らしい reports: everyone says he really is smart.",
+        "頭がいいさだ is ungrammatical — さ attaches to the adjective stem (よさ), not to the full form いい, and a noun of degree would not report what everyone says. The reputation calls for らしい.",
+        "べき does not attach to an i-adjective (頭がいいべきだ is ungrammatical), and it expresses obligation, not the reputation everyone reports, which needs らしい."
       ],
       "hiragana_full": "かれはあたまがいいらしいね。みんなそういっている。",
       "audio_alternatives": [
@@ -114,7 +117,8 @@
           "hiragana_full": "かれはあたまがいいみたいだね。みんなそういっている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n4_027_5",
@@ -122,14 +126,14 @@
       "translation": "This movie seems interesting. It has good reviews.",
       "blank_target": "いらしい",
       "wrong_choices": [
-        "そうだ",
-        "いようだ",
-        "いかもしれない"
+        "がりだ",
+        "さだ",
+        "いつもりだ"
       ],
       "wrong_choice_explanations": [
-        "そうだ here gives 面白そうだ, 'it looks interesting' from appearance, but the basis is the film's reviews and reputation, which らしい conveys.",
-        "ようだ expresses your own inference from evidence, but here the basis is the movie's reputation, not your own observation.",
-        "かもしれない means 'might be' and expresses possibility, whereas らしい reports what its reviews and reputation actually say."
+        "がり names a person prone to a feeling (寒がり, 怖がり) — a movie cannot be an 'easily amused person'; the reputation-based 'seems interesting' is 面白いらしい.",
+        "さ nominalizes the adjective (面白さ = 'interestingness'), so 面白さだ would equate the movie with a quality rather than pass on its reputation.",
+        "つもり expresses a person's intention; a movie cannot intend anything, so 面白いつもりだ is nonsense. Its reputation calls for らしい."
       ],
       "hiragana_full": "このえいがはおもしろいらしい。ひょうばんがいいから。",
       "audio_alternatives": [
@@ -142,7 +146,15 @@
           "hiragana_full": "このえいがはおもしろいみたいだ。ひょうばんがいいので。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "評判",
+          "reading": "ひょうばん",
+          "meaning": "reputation"
+        }
+      ]
     },
     {
       "id": "n4_027_6",
@@ -150,14 +162,14 @@
       "translation": "I hear a new shop opened near the station.",
       "blank_target": "らしい",
       "wrong_choices": [
-        "ようだ",
-        "みたいだ",
-        "はずだ"
+        "ことだ",
+        "つもりだ",
+        "べきだ"
       ],
       "wrong_choice_explanations": [
-        "ようだ indicates inference from direct evidence, but here we're expressing information heard from others.",
-        "みたいだ means 'seems like' based on appearance or personal impression, not information heard about an event.",
-        "はずだ means 'should be' based on expectation or logic, not hearsay about something that happened."
+        "ことだ gives advice or turns the clause into a plain statement of a fact as a noun; 店ができたことだ does not pass on news you heard.",
+        "つもり expresses a person's intention; a shop cannot intend to open itself, so できたつもりだ is nonsense. The sentence reports news heard from others, which needs らしい.",
+        "べき does not attach to a past-tense verb (できたべきだ is ungrammatical), and it expresses obligation rather than passing on news you heard, which needs らしい."
       ],
       "hiragana_full": "えきのちかくにあたらしいみせができたらしい。",
       "audio_alternatives": [
@@ -170,7 +182,8 @@
           "hiragana_full": "えきのちかくにあたらしいみせができたときいた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n4_027_7",
@@ -178,14 +191,14 @@
       "translation": "I hear taxes will go up from next year. I saw it on the news.",
       "blank_target": "らしい",
       "wrong_choices": [
-        "よう",
-        "はず",
-        "みたい"
+        "つもり",
+        "ため",
+        "べき"
       ],
       "wrong_choice_explanations": [
-        "ようだ (上がるようです) expresses your own inference from evidence, but this comes from the news, i.e. reported information, which らしい conveys.",
-        "はずだ (上がるはずです) means 'should / is supposed to' from logic or expectation, not information reported by the news.",
-        "みたいだ (上がるみたいです) expresses your own impression, not the news report that らしい is conveying."
+        "つもり expresses a person's intention; taxes cannot intend to rise, so 上がるつもりです is nonsense. Something seen on the news is reported with らしい.",
+        "ためです ('it is because of / for ~') cannot stand alone here — 上がるためです gives a reason for nothing; news you saw is reported with らしい.",
+        "べき expresses what ought to happen ('taxes should rise'), a personal opinion, not information you saw on the news, which needs らしい."
       ],
       "hiragana_full": "らいねんからぜいきんがあがるらしいです。にゅーすでみました。",
       "audio_alternatives": [
@@ -198,49 +211,29 @@
           "hiragana_full": "らいねんからぜいきんがあがるらしい。にゅーすでみた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "税金",
+          "reading": "ぜいきん",
+          "meaning": "taxes"
+        }
+      ]
     },
     {
       "id": "n4_027_8",
-      "example_sentence": "山田先生は厳しいらしい先生だ。学生たちがよく話している。",
-      "translation": "Yamada-sensei seems to be a strict teacher. Students often talk about it.",
-      "blank_target": "いらしい",
-      "wrong_choices": [
-        "そうな",
-        "いような",
-        "いみたいな"
-      ],
-      "wrong_choice_explanations": [
-        "そうな indicates visual appearance or immediate hearsay, but らしい better expresses general reputation among students.",
-        "ようだ expresses your own inference from evidence, but the basis here is what students say, i.e. reputation.",
-        "みたいだ expresses your own impression of the teacher, not the general reputation among students that らしい conveys."
-      ],
-      "hiragana_full": "やまだせんせいはきびしいらしいせんせいだ。がくせいたちがよくはなしている。",
-      "audio_alternatives": [
-        {
-          "kanji": "山田先生は厳しい先生らしい。学生たちがよく話している。",
-          "hiragana_full": "やまだせんせいはきびしいせんせいらしい。がくせいたちがよくはなしている。"
-        },
-        {
-          "kanji": "山田先生は厳しいらしいです。学生たちがよく話しています。",
-          "hiragana_full": "やまだせんせいはきびしいらしいです。がくせいたちがよくはなしています。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_027_9",
       "example_sentence": "彼女は忙しいらしい。最近全然会えない。",
       "translation": "She seems busy (I hear). I haven't been able to meet her at all lately.",
       "blank_target": "いらしい",
       "wrong_choices": [
         "そうだ",
-        "いようだ",
+        "さだ",
         "いに違いない"
       ],
       "wrong_choice_explanations": [
         "そうだ indicates visual appearance, but we haven't seen her, so this is based on inference or hearsay.",
-        "ようだ expresses your own inference from evidence, but not being able to meet her is indirect, closer to hearsay than direct observation.",
+        "さ nominalizes the adjective (忙しさ = 'busyness'), so 忙しさだ would equate her with busyness itself; the indirect 'I gather she's busy' is 忙しいらしい.",
         "に違いない expresses your own strong certainty, but らしい conveys that the information is indirect and not fully certain."
       ],
       "hiragana_full": "かのじょはいそがしいらしい。さいきんぜんぜんあえない。",
@@ -254,22 +247,23 @@
           "hiragana_full": "かのじょはいそがしいようだ。さいきんまったくあえない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
-      "id": "n4_027_10",
+      "id": "n4_027_9",
       "example_sentence": "この問題は簡単らしいよ。先生がそう言っていた。",
       "translation": "This problem seems easy. The teacher said so.",
       "blank_target": "らしい",
       "wrong_choices": [
         "そうだ",
-        "なようだ",
-        "かもしれない"
+        "ばかりだ",
+        "べきだ"
       ],
       "wrong_choice_explanations": [
         "そうだ here gives 簡単そうだ, 'it looks easy' from appearance, but the basis is what the teacher said, which らしい reports.",
-        "ようだ (簡単なようだ) expresses your own inference from evidence, but here the basis is explicitly what the teacher said.",
-        "かもしれない means 'might be' expressing possibility, but らしい better indicates information received from the teacher."
+        "ばかり means 'nothing but / only', and 簡単ばかりだ is ungrammatical; the teacher's statement is passed on with らしい.",
+        "べき attaches to verbs, not to the na-adjective 簡単 (簡単べきだ is ungrammatical); the teacher's statement is passed on with らしい."
       ],
       "hiragana_full": "このもんだいはかんたんらしいよ。せんせいがそういっていた。",
       "audio_alternatives": [
@@ -282,7 +276,49 @@
           "hiragana_full": "このもんだいはかんたんだそうだよ。せんせいがそういっていた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
+    },
+    {
+      "id": "n4_027_10",
+      "example_sentence": "あの町は夜になると危ないらしいですね。",
+      "translation": "I hear that town is dangerous at night.",
+      "blank_target": "らしいですね",
+      "wrong_choices": [
+        "つもりですね",
+        "べきですね",
+        "ことですね"
+      ],
+      "wrong_choice_explanations": [
+        "つもりですね expresses someone's intention or plan, but a town cannot intend anything; the sentence reports hearsay about its safety, which needs らしい.",
+        "べきですね means 'should', and 危ないべき is ungrammatical (べき attaches to verbs, not to i-adjectives); hearsay calls for らしい.",
+        "ことですね turns the clause into a noun ('the matter of being dangerous'), which cannot describe the town here; reporting what you heard needs らしい."
+      ],
+      "hiragana_full": "あのまちはよるになるとあぶないらしいですね。",
+      "audio_alternatives": [
+        {
+          "kanji": "あの町は夜になると危ないそうですね。",
+          "hiragana_full": "あのまちはよるになるとあぶないそうですね。"
+        },
+        {
+          "kanji": "あの町は夜は危ないらしいですね。",
+          "hiragana_full": "あのまちはよるはあぶないらしいですね。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "町",
+          "reading": "まち",
+          "meaning": "town"
+        },
+        {
+          "word": "危ない",
+          "reading": "あぶない",
+          "meaning": "dangerous"
+        }
+      ]
     }
   ]
 }

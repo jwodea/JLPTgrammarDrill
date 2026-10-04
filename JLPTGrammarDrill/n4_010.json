@@ -12,12 +12,12 @@
       "wrong_choices": [
         "もらった",
         "あげた",
-        "いた"
+        "させた"
       ],
       "wrong_choice_explanations": [
-        "〜てもらう puts the person who receives the favor in the subject slot (私が友達に買ってもらった = I had my friend buy it for me); here 友達 is the giver marked by が, so the giver-as-subject form 〜てくれる fits.",
-        "〜てあげる means doing something for someone else (友達が誰かに買ってあげた = the friend bought it for another person); here the friend does it for me, so the inward-direction 〜てくれる is needed.",
-        "いた is just the past tense of いる (to exist) and doesn't express receiving a favor from someone."
+        "〜てもらう puts the person who receives the favor in the subject slot (私が友達に買ってもらった = I had my friend buy it for me); here 友達 is the giver marked by が, so the giver-as-subject form 〜てくれる fits. The translation's \"me\" makes the speaker the receiver, which only くれた expresses with this subject.",
+        "〜てあげる means doing something for someone else (友達が誰かに買ってあげた = the friend bought it for another person); here the friend does it for me, so the inward-direction 〜てくれる is needed. The translation's \"me\" makes the speaker the receiver, which only くれた expresses with this subject.",
+        "させた is the causative ending and cannot follow a te-form (買ってさせた is ungrammatical); the sentence needs くれた to show the action was done as a favor for the speaker."
       ],
       "hiragana_full": "ともだちがぷれぜんとをかってくれた。",
       "audio_alternatives": [
@@ -30,78 +30,23 @@
           "hiragana_full": "ともだちがわたしにぷれぜんとをかってくれた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n4_010_2",
-      "example_sentence": "母がお菓子を作ってくれました。",
-      "translation": "My mother made sweets for me.",
-      "blank_target": "くれました",
-      "wrong_choices": [
-        "あげました",
-        "もらいました",
-        "いました"
-      ],
-      "wrong_choice_explanations": [
-        "あげました is used when giving to others, not when someone does something for you.",
-        "〜てもらう is a real pattern, but it makes the beneficiary the subject (私が母に作ってもらった = I had my mother make them); here 母が is the one making the sweets, so 〜てくれる is needed.",
-        "いました is just the polite past form of いる and doesn't express receiving a favor."
-      ],
-      "hiragana_full": "ははがおかしをつくってくれました。",
-      "audio_alternatives": [
-        {
-          "kanji": "母はお菓子を作ってくれました。",
-          "hiragana_full": "はははおかしをつくってくれました"
-        },
-        {
-          "kanji": "お母さんがお菓子を作ってくれました。",
-          "hiragana_full": "おかあさんがおかしをつくってくれました"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_010_3",
-      "example_sentence": "祖父がお金をくれて、とても助かった。",
-      "translation": "My grandfather gave me money, which was very helpful.",
-      "blank_target": "くれて",
-      "wrong_choices": [
-        "あげて",
-        "もらって",
-        "渡して"
-      ],
-      "wrong_choice_explanations": [
-        "あげて is used when giving to others, not when receiving from someone who does you a favor.",
-        "もらう means 'receive,' so 祖父がお金をもらって would make the grandfather the one receiving the money; the sentence has him giving it to me, which is exactly what くれる expresses.",
-        "渡す simply means to hand something over; お金を渡して describes a neutral transfer without the 'gave it to me, for my benefit' direction that くれる carries."
-      ],
-      "hiragana_full": "そふがおかねをくれて、とてもたすかった。",
-      "audio_alternatives": [
-        {
-          "kanji": "祖父がお金をくれたので、とても助かった。",
-          "hiragana_full": "そふがおかねをくれたので、とてもたすかった。"
-        },
-        {
-          "kanji": "おじいさんがお金をくれて、とても助かった。",
-          "hiragana_full": "おじいさんがおかねをくれて、とてもたすかった。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_010_4",
       "example_sentence": "先生が宿題を手伝ってくれた。",
       "translation": "The teacher helped me with my homework.",
       "blank_target": "くれた",
       "wrong_choices": [
         "あげた",
         "もらった",
-        "みた"
+        "させた"
       ],
       "wrong_choice_explanations": [
-        "あげた is used when the teacher gives to someone else, not when doing a favor for the speaker.",
-        "〜てもらう would make the speaker the subject (私が先生に手伝ってもらった = I got the teacher to help me); here 先生が is the helper, so the giver-as-subject 〜てくれる is correct.",
-        "〜てみる means to try doing something (手伝ってみた = tried helping); it expresses an attempt, not that the help was given to the speaker."
+        "あげた is used when the teacher gives to someone else, not when doing a favor for the speaker. The translation's \"me\" makes the speaker the receiver, which only くれた expresses with this subject.",
+        "〜てもらう would make the speaker the subject (私が先生に手伝ってもらった = I got the teacher to help me); here 先生が is the helper, so the giver-as-subject 〜てくれる is correct. The translation's \"me\" makes the speaker the receiver, which only くれた expresses with this subject.",
+        "させた is the causative ending and cannot follow a te-form (手伝ってさせた is ungrammatical); the sentence needs くれた to show the action was done as a favor for the speaker."
       ],
       "hiragana_full": "せんせいがしゅくだいをてつだってくれた。",
       "audio_alternatives": [
@@ -114,78 +59,23 @@
           "hiragana_full": "せんせいにしゅくだいをてつだってもらった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
-      "id": "n4_010_5",
-      "example_sentence": "姉が服を選んでくれました。",
-      "translation": "My older sister chose clothes for me.",
-      "blank_target": "くれました",
-      "wrong_choices": [
-        "あげました",
-        "いました",
-        "みました"
-      ],
-      "wrong_choice_explanations": [
-        "あげました is used when giving to others, not when receiving a favor from someone.",
-        "いました is just the past form of いる and doesn't express receiving a favor.",
-        "〜てみる means to try doing something (選んでみました = tried choosing); it expresses attempting an action, not doing it as a favor for the speaker."
-      ],
-      "hiragana_full": "あねがふくをえらんでくれました。",
-      "audio_alternatives": [
-        {
-          "kanji": "姉は服を選んでくれました。",
-          "hiragana_full": "あねはふくをえらんでくれました"
-        },
-        {
-          "kanji": "姉が服を選んでくれた。",
-          "hiragana_full": "あねがふくをえらんでくれた"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_010_6",
-      "example_sentence": "彼が駅まで送ってくれる予定です。",
-      "translation": "He plans to take me to the station.",
-      "blank_target": "くれる",
-      "wrong_choices": [
-        "あげる",
-        "もらう",
-        "いく"
-      ],
-      "wrong_choice_explanations": [
-        "あげる is used when doing something for others, not when receiving a favor from someone.",
-        "〜てもらう makes the beneficiary the subject (私が彼に送ってもらう = I'll have him drive me); here 彼が is the one driving, so 〜てくれる fits.",
-        "いく means 'go' but doesn't express that the action is done as a favor for the speaker."
-      ],
-      "hiragana_full": "かれがえきまでおくってくれるよていです。",
-      "audio_alternatives": [
-        {
-          "kanji": "彼が駅まで送ってくれるつもりです。",
-          "hiragana_full": "かれがえきまでおくってくれるつもりです"
-        },
-        {
-          "kanji": "彼は駅まで送ってくれる予定です。",
-          "hiragana_full": "かれはえきまでおくってくれるよていです"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_010_7",
+      "id": "n4_010_3",
       "example_sentence": "近所の人が野菜を持って来てくれた。",
       "translation": "My neighbor brought me vegetables.",
       "blank_target": "くれた",
       "wrong_choices": [
         "あげた",
         "もらった",
-        "おいた"
+        "させた"
       ],
       "wrong_choice_explanations": [
-        "あげた is used when giving to others, not when receiving a favor from someone.",
-        "〜てもらう would put the receiver in the subject slot (私が持って来てもらった); here 近所の人が is the one bringing the vegetables, so the giver-subject 〜てくれる is correct.",
-        "〜ておく means to do something in advance or in preparation; it doesn't express that bringing the vegetables was a favor done for the speaker."
+        "あげた is used when giving to others, not when receiving a favor from someone. The translation's \"me\" makes the speaker the receiver, which only くれた expresses with this subject.",
+        "〜てもらう would put the receiver in the subject slot (私が持って来てもらった); here 近所の人が is the one bringing the vegetables, so the giver-subject 〜てくれる is correct. The translation's \"me\" makes the speaker the receiver, which only くれた expresses with this subject.",
+        "させた is the causative ending and cannot follow a te-form (持って来てさせた is ungrammatical); the sentence needs くれた to show the action was done as a favor for the speaker."
       ],
       "hiragana_full": "きんじょのひとがやさいをもってきてくれた。",
       "audio_alternatives": [
@@ -198,22 +88,30 @@
           "hiragana_full": "となりのひとがやさいをもってきてくれた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "近所",
+          "reading": "きんじょ",
+          "meaning": "neighborhood"
+        }
+      ]
     },
     {
-      "id": "n4_010_8",
+      "id": "n4_010_4",
       "example_sentence": "弟がゲームを貸してくれた。",
       "translation": "My younger brother lent me a game.",
       "blank_target": "くれた",
       "wrong_choices": [
         "あげた",
         "もらった",
-        "いた"
+        "させた"
       ],
       "wrong_choice_explanations": [
-        "あげた is used when lending to others, not when receiving the favor of being lent something.",
-        "〜てもらう is grammatical but makes the borrower the subject (私が弟に貸してもらった = I borrowed it from my brother); here 弟が is the lender, so the lender-as-subject 〜てくれる fits.",
-        "〜ていた is the past progressive (貸していた = was lending / had lent); it describes the state of the action, not that it was done as a favor for the speaker."
+        "あげた is used when lending to others, not when receiving the favor of being lent something. The translation's \"me\" makes the speaker the receiver, which only くれた expresses with this subject.",
+        "〜てもらう is grammatical but makes the borrower the subject (私が弟に貸してもらった = I borrowed it from my brother); here 弟が is the lender, so the lender-as-subject 〜てくれる fits. The translation's \"me\" makes the speaker the receiver, which only くれた expresses with this subject.",
+        "させた is the causative ending and cannot follow a te-form (貸してさせた is ungrammatical); the sentence needs くれた to show the action was done as a favor for the speaker."
       ],
       "hiragana_full": "おとうとがげーむをかしてくれた。",
       "audio_alternatives": [
@@ -226,50 +124,30 @@
           "hiragana_full": "おとうとがげーむをかしてくれました。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_010_9",
-      "example_sentence": "父が時計を直してくれます。",
-      "translation": "My father fixed my watch for me.",
-      "blank_target": "くれます",
-      "wrong_choices": [
-        "あげます",
-        "もらいます",
-        "います"
-      ],
-      "wrong_choice_explanations": [
-        "あげます is used when doing something for others, not when receiving a favor.",
-        "〜てもらう makes the beneficiary the subject (私が父に直してもらう = I'll have my father fix it); here 父が is the one fixing it, so 〜てくれる is needed.",
-        "います is just the polite form of いる and doesn't express receiving a favor."
-      ],
-      "hiragana_full": "ちちがとけいをなおしてくれます。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
         {
-          "kanji": "父が時計を直してくれました。",
-          "hiragana_full": "ちちがとけいをなおしてくれました"
-        },
-        {
-          "kanji": "お父さんが時計を直してくれました。",
-          "hiragana_full": "おとうさんがとけいをなおしてくれました"
+          "word": "貸して",
+          "reading": "かして",
+          "meaning": "lend (te-form of 貸す)"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n4_010_10",
+      "id": "n4_010_5",
       "example_sentence": "同僚がチケットを取ってくれた。",
       "translation": "My colleague got tickets for me.",
       "blank_target": "くれた",
       "wrong_choices": [
         "あげた",
         "もらった",
-        "しまった"
+        "させた"
       ],
       "wrong_choice_explanations": [
-        "あげた is used when giving to others, not when receiving a favor from someone.",
-        "〜てもらう would make the speaker the subject (私が同僚に取ってもらった); here 同僚が is the one getting the tickets, so the giver-subject 〜てくれる fits.",
-        "〜てしまう expresses completion or regret (取ってしまった = ended up getting them); it doesn't convey that getting the tickets was a favor for the speaker."
+        "あげた is used when giving to others, not when receiving a favor from someone. The translation's \"me\" makes the speaker the receiver, which only くれた expresses with this subject.",
+        "〜てもらう would make the speaker the subject (私が同僚に取ってもらった); here 同僚が is the one getting the tickets, so the giver-subject 〜てくれる fits. The translation's \"me\" makes the speaker the receiver, which only くれた expresses with this subject.",
+        "させた is the causative ending and cannot follow a te-form (取ってさせた is ungrammatical); the sentence needs くれた to show the action was done as a favor for the speaker."
       ],
       "hiragana_full": "どうりょうがちけっとをとってくれた。",
       "audio_alternatives": [
@@ -282,7 +160,186 @@
           "hiragana_full": "どうりょうがちけっとをかってくれた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "同僚",
+          "reading": "どうりょう",
+          "meaning": "coworker"
+        }
+      ]
+    },
+    {
+      "id": "n4_010_6",
+      "example_sentence": "母が美味しい夕食を作ってくれました。",
+      "translation": "My mother made a delicious dinner for me.",
+      "blank_target": "て",
+      "wrong_choices": [
+        "ながら",
+        "ので",
+        "から"
+      ],
+      "wrong_choice_explanations": [
+        "ながら means 'while doing simultaneously' — it doesn't express receiving beneficial actions from someone.",
+        "ので means 'because/since' — it shows cause and effect, not receiving favors from others.",
+        "から means 'because/from' — it expresses reason or starting point, not beneficial actions received."
+      ],
+      "hiragana_full": "はははおいしいゆうしょくをつくってくれました",
+      "audio_alternatives": [
+        {
+          "kanji": "母が美味しい夕ご飯を作ってくれました。",
+          "hiragana_full": "ははがおいしいゆうごはんをつくってくれました"
+        },
+        {
+          "kanji": "母が美味しい夕食を作ってくれた。",
+          "hiragana_full": "ははがおいしいゆうしょくをつくってくれた"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "夕食",
+          "reading": "ゆうしょく",
+          "meaning": "dinner"
+        }
+      ]
+    },
+    {
+      "id": "n4_010_7",
+      "example_sentence": "彼が重い荷物を運んでくれた。",
+      "translation": "He carried the heavy luggage for me.",
+      "blank_target": "で",
+      "wrong_choices": [
+        "を",
+        "に",
+        "が"
+      ],
+      "wrong_choice_explanations": [
+        "を marks direct objects — it doesn't connect verbs to form the てくれる pattern for receiving favors.",
+        "に indicates direction or indirect object — it doesn't connect verbs to くれる for receiving benefits.",
+        "が marks subjects — it doesn't connect verbs to express receiving beneficial actions."
+      ],
+      "hiragana_full": "かれがおもいにもつをはこんでくれた。",
+      "audio_alternatives": [
+        {
+          "kanji": "彼は重い荷物を運んでくれた。",
+          "hiragana_full": "かれはおもいにもつをはこんでくれた。"
+        },
+        {
+          "kanji": "彼が重い荷物を持って運んでくれた。",
+          "hiragana_full": "かれがおもいにもつをもってはこんでくれた。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "casual"
+    },
+    {
+      "id": "n4_010_8",
+      "example_sentence": "姉が駅まで送ってくれます。",
+      "translation": "My sister will take me to the station.",
+      "blank_target": "て",
+      "wrong_choices": [
+        "ては",
+        "でも",
+        "だけ"
+      ],
+      "wrong_choice_explanations": [
+        "ては can mean 'if you do' or indicate repeated action — it doesn't create the benefactive てくれる pattern.",
+        "でも means 'but/even' — it shows contrast, not the pattern for receiving help from others.",
+        "だけ means 'only/just' — it shows limitation, not receiving beneficial actions from someone."
+      ],
+      "hiragana_full": "あねがえきまでおくってくれます。",
+      "audio_alternatives": [
+        {
+          "kanji": "姉が駅まで送ってくれる。",
+          "hiragana_full": "あねがえきまでおくってくれる。"
+        },
+        {
+          "kanji": "姉は駅まで送ってくれます。",
+          "hiragana_full": "あねはえきまでおくってくれます。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral"
+    },
+    {
+      "id": "n4_010_9",
+      "example_sentence": "医者が親切に診察してくれました。",
+      "translation": "The doctor kindly examined me.",
+      "blank_target": "て",
+      "wrong_choices": [
+        "とき",
+        "うち",
+        "間"
+      ],
+      "wrong_choice_explanations": [
+        "とき means 'when/time' — it indicates timing, not receiving beneficial actions from someone.",
+        "うち means 'while/during' — it shows time periods, not the pattern for receiving favors.",
+        "間 means 'between/during' — it indicates duration or intervals, not beneficial actions received."
+      ],
+      "hiragana_full": "いしゃがしんせつにしんさつしてくれました",
+      "audio_alternatives": [
+        {
+          "kanji": "医者が親切に診てくれました。",
+          "hiragana_full": "いしゃがしんせつにみてくれました"
+        },
+        {
+          "kanji": "医者は親切に診察してくれました。",
+          "hiragana_full": "いしゃはしんせつにしんさつしてくれました"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "診察",
+          "reading": "しんさつ",
+          "meaning": "medical examination"
+        },
+        {
+          "word": "親切に",
+          "reading": "しんせつに",
+          "meaning": "kindly"
+        }
+      ]
+    },
+    {
+      "id": "n4_010_10",
+      "example_sentence": "祖父が昔の話を聞かせてくれます。",
+      "translation": "My grandfather tells me old stories.",
+      "blank_target": "て",
+      "wrong_choices": [
+        "たり",
+        "なり",
+        "そう"
+      ],
+      "wrong_choice_explanations": [
+        "たり is used to list examples of actions — it doesn't create the benefactive pattern for receiving favors.",
+        "なり means 'or/as soon as' — it shows alternatives or sequence, not the pattern for receiving help.",
+        "そう means 'seems/looks like' — it expresses appearance or hearsay, not beneficial actions received."
+      ],
+      "hiragana_full": "そふがむかしのはなしをきかせてくれます",
+      "audio_alternatives": [
+        {
+          "kanji": "祖父は昔の話を聞かせてくれます。",
+          "hiragana_full": "そふはむかしのはなしをきかせてくれます"
+        },
+        {
+          "kanji": "おじいさんが昔の話を聞かせてくれます。",
+          "hiragana_full": "おじいさんがむかしのはなしをきかせてくれます"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "祖父",
+          "reading": "そふ",
+          "meaning": "(my) grandfather"
+        }
+      ]
     }
   ]
 }

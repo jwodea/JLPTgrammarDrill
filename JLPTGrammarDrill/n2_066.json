@@ -10,14 +10,14 @@
       "translation": "The Renaissance corresponds to the most important period in art history.",
       "blank_target": "にあたる",
       "wrong_choices": [
-        "に相当する",
+        "に基づく",
         "にあたって",
-        "に該当する"
+        "に応じる"
       ],
       "wrong_choice_explanations": [
-        "に相当する means 'is equivalent to' but has a more quantitative nuance, while this sentence needs にあたる to express a qualitative correspondence to a historical period.",
+        "に基づく means 'is based on / grounded in'; it would make the Renaissance rest on the period as a foundation, not constitute that period itself, which にあたる (identification/correspondence) expresses.",
         "にあたって means 'when/at the time of (preparation)' and is used for important occasions requiring effort, but this sentence describes what something corresponds to, not timing.",
-        "に該当する means 'applies to/falls under' and is used for categories or conditions, but this sentence expresses what period the Renaissance represents in history."
+        "に応じる means 'responds to / adapts in accordance with' and needs a request or a changing factor; a historical era cannot respond to a period, whereas にあたる identifies the Renaissance as that period."
       ],
       "hiragana_full": "るねさんすは、びじゅつしじょうもっともじゅうようなじきにあたる。",
       "audio_alternatives": [
@@ -30,50 +30,35 @@
           "hiragana_full": "るねさんすは、びじゅつしじょうでもっともじゅうようなじきにあたります。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "美術史",
+          "reading": "びじゅつし",
+          "meaning": "art history"
+        },
+        {
+          "word": "時期",
+          "reading": "じき",
+          "meaning": "period/time"
+        }
+      ]
     },
     {
       "id": "n2_066_2",
-      "example_sentence": "12月25日は、クリスマスにあたる。",
-      "translation": "December 25th corresponds to Christmas.",
-      "blank_target": "にあたる",
-      "wrong_choices": [
-        "に相当する",
-        "になる",
-        "に該当する"
-      ],
-      "wrong_choice_explanations": [
-        "に相当する implies equivalence in value or amount, but this sentence simply states what date corresponds to which holiday.",
-        "になる means 'becomes' and indicates change or transformation, but this sentence describes a fixed correspondence between a date and holiday.",
-        "に該当する means 'falls under a category' but this sentence expresses direct correspondence between a specific date and event."
-      ],
-      "hiragana_full": "じゅうにがつにじゅうごにちは、くりすますにあたる。",
-      "audio_alternatives": [
-        {
-          "kanji": "12月25日は、クリスマスである。",
-          "hiragana_full": "じゅうにがつにじゅうごにちは、くりすますである。"
-        },
-        {
-          "kanji": "12月25日はクリスマスに相当する。",
-          "hiragana_full": "じゅうにがつにじゅうごにちはくりすますにそうとうする。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_066_3",
       "example_sentence": "7月4日は、アメリカの独立記念日にあたる。",
       "translation": "July 4th corresponds to America's Independence Day.",
       "blank_target": "にあたる",
       "wrong_choices": [
         "に当てる",
         "にあたって",
-        "に相当する"
+        "にすぎない"
       ],
       "wrong_choice_explanations": [
         "に当てる means 'to apply/allocate to' and requires an active subject doing the applying, but this sentence describes what a date corresponds to.",
         "にあたって means 'when/at the time of' and is used for occasions requiring preparation, but this sentence describes correspondence, not timing.",
-        "に相当する implies quantitative equivalence, but this sentence describes the correspondence between a specific date and national holiday."
+        "にすぎない means 'is nothing more than', dismissively downplaying the date, whereas にあたる neutrally states that July 4 corresponds to Independence Day."
       ],
       "hiragana_full": "しちがつよっかは、あめりかのどくりつきねんびにあたる。",
       "audio_alternatives": [
@@ -86,94 +71,18 @@
           "hiragana_full": "しちがつよっかはあめりかのどくりつきねんびにあたります。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_066_4",
-      "example_sentence": "4月1日は、新会計年度の開始にあたる。",
-      "translation": "April 1st corresponds to the start of the new fiscal year.",
-      "blank_target": "にあたる",
-      "wrong_choices": [
-        "にあたって",
-        "に該当する",
-        "になる"
-      ],
-      "wrong_choice_explanations": [
-        "にあたって means 'when/at the time of' and emphasizes preparation for an event, but this sentence describes what date corresponds to the fiscal year start.",
-        "に該当する means 'falls under/applies to' and is used for categories or conditions, but this sentence expresses direct correspondence to a specific point in time.",
-        "になる means 'becomes' and indicates transformation, but this sentence describes a fixed correspondence between date and fiscal calendar."
-      ],
-      "hiragana_full": "しがつついたちは、しんかいけいねんどのかいしにあたる。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "4月1日は、新会計年度の始まりにあたる。",
-          "hiragana_full": "しがつついたちは、しんかいけいねんどのはじまりにあたる。"
-        },
-        {
-          "kanji": "4月1日は、新会計年度の開始に相当する。",
-          "hiragana_full": "しがつついたちは、しんかいけいねんどのかいしにそうとうする。"
+          "word": "独立記念日",
+          "reading": "どくりつきねんび",
+          "meaning": "Independence Day"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n2_066_5",
-      "example_sentence": "ノーベル賞の受賞は、学者のキャリアの最高峰にあたる。",
-      "translation": "Winning the Nobel Prize corresponds to the pinnacle of a scholar's career.",
-      "blank_target": "にあたる",
-      "wrong_choices": [
-        "にあたって",
-        "に該当する",
-        "になる"
-      ],
-      "wrong_choice_explanations": [
-        "にあたって is the homophone meaning 'on the occasion of / when'; it introduces a circumstance and cannot stand as the sentence-final predicate here, so '最高峰にあたって' is left dangling.",
-        "に該当する means 'falls under a category', but a career's pinnacle is not a category one qualifies for — this sentence states what winning the prize amounts to.",
-        "になる means 'becomes' and indicates change, but this sentence describes what the Nobel Prize represents, not a transformation into the pinnacle."
-      ],
-      "hiragana_full": "のーべるしょうのじゅしょうは、がくしゃのきゃりあのさいこうほうにあたる。",
-      "audio_alternatives": [
-        {
-          "kanji": "ノーベル賞を受賞することは、学者のキャリアの頂点にあたる。",
-          "hiragana_full": "のーべるしょうをじゅしょうすることは、がくしゃのきゃりあのちょうてんにあたる。"
-        },
-        {
-          "kanji": "ノーベル賞の受賞は、学者のキャリアにおける最高峰と言える。",
-          "hiragana_full": "のーべるしょうのじゅしょうは、がくしゃのきゃりあにおけるさいこうほうといえる。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_066_6",
-      "example_sentence": "今年の売上高は、去年の2倍にあたる。",
-      "translation": "This year's sales correspond to twice last year's amount.",
-      "blank_target": "にあたる",
-      "wrong_choices": [
-        "に当てる",
-        "になる",
-        "に該当する"
-      ],
-      "wrong_choice_explanations": [
-        "に当てる is the transitive verb 'to allocate / apply (something) to'; it needs an actor assigning something, so it cannot say that this year's sales simply amount to twice last year's — that static comparison is にあたる's role.",
-        "になる means 'becomes' and indicates a change over time, but this sentence compares this year's figure to twice last year's, a static correspondence.",
-        "に該当する means 'falls under' and is used for categories, but this sentence expresses numerical correspondence between different time periods."
-      ],
-      "hiragana_full": "ことしのうりあげだかは、きょねんのにばいにあたる。",
-      "audio_alternatives": [
-        {
-          "kanji": "今年の売上高は去年の2倍に相当する。",
-          "hiragana_full": "ことしのうりあげだかはきょねんのにばいにそうとうする。"
-        },
-        {
-          "kanji": "今年の売上高は、去年の2倍にあたります。",
-          "hiragana_full": "ことしのうりあげだかは、きょねんのにばいにあたります。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_066_7",
+      "id": "n2_066_3",
       "example_sentence": "彼の行為は、背信行為にあたる。",
       "translation": "His actions correspond to an act of betrayal.",
       "blank_target": "にあたる",
@@ -198,49 +107,34 @@
           "hiragana_full": "かれのこうどうははいしんこういといえる。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_066_8",
-      "example_sentence": "この問題は、緊急事態にあたる。",
-      "translation": "This problem corresponds to an emergency situation.",
-      "blank_target": "にあたる",
-      "wrong_choices": [
-        "に基づく",
-        "にあたって",
-        "になる"
-      ],
-      "wrong_choice_explanations": [
-        "に基づく means 'is based on / stems from'; 'この問題は緊急事態に基づく' would say the problem arises out of an emergency, but にあたる instead identifies the problem itself as amounting to an emergency.",
-        "にあたって means 'when / at the time of' and is used for timing with preparation, but this sentence describes what the problem corresponds to, not timing.",
-        "になる means 'becomes' and indicates a future change, but this sentence describes what the current problem already amounts to, not a transformation."
-      ],
-      "hiragana_full": "このもんだいは、きんきゅうじたいにあたる。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "この問題は、緊急事態に相当する。",
-          "hiragana_full": "このもんだいは、きんきゅうじたいにそうとうする。"
+          "word": "行為",
+          "reading": "こうい",
+          "meaning": "act/conduct"
         },
         {
-          "kanji": "この問題は、緊急事態と言える。",
-          "hiragana_full": "このもんだいは、きんきゅうじたいといえる。"
+          "word": "背信行為",
+          "reading": "はいしんこうい",
+          "meaning": "act of betrayal"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n2_066_9",
+      "id": "n2_066_4",
       "example_sentence": "この地域は、東京の中心部にあたる。",
       "translation": "This area corresponds to central Tokyo.",
       "blank_target": "にあたる",
       "wrong_choices": [
-        "に相当する",
-        "に該当する",
+        "に面する",
+        "に向ける",
         "に当てる"
       ],
       "wrong_choice_explanations": [
-        "に相当する implies equivalence in value or scale, but this sentence describes geographical correspondence rather than quantitative equivalence.",
-        "に該当する means 'falls under' and is used for categories or conditions, but this sentence expresses what area corresponds to geographically.",
+        "に面する means 'faces / borders'; it would place the area adjacent to central Tokyo, not identify it AS central Tokyo, which にあたる expresses.",
+        "に向ける is the transitive verb 'to direct / point (something) toward' and needs an object and an actor; it cannot state that the area is central Tokyo, which にあたる does.",
         "に当てる means 'to apply/allocate' and requires an active subject, but this sentence describes what area corresponds to a location."
       ],
       "hiragana_full": "このちいきは、とうきょうのちゅうしんぶにあたる。",
@@ -254,35 +148,271 @@
           "hiragana_full": "このちいきは、とうきょうのちゅうしんぶにいちする。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "地域",
+          "reading": "ちいき",
+          "meaning": "area/region"
+        },
+        {
+          "word": "中心部",
+          "reading": "ちゅうしんぶ",
+          "meaning": "central area"
+        }
+      ]
+    },
+    {
+      "id": "n2_066_5",
+      "example_sentence": "その期限は来月の末日にあたる。",
+      "translation": "The deadline falls on the last day of next month.",
+      "blank_target": "にあたる",
+      "wrong_choices": [
+        "に応じる",
+        "を過ぎている",
+        "に関して"
+      ],
+      "wrong_choice_explanations": [
+        "に応じる means 'responds to / complies with' and needs a request or changing condition, so it cannot say the deadline falls on the last day of next month as にあたる does.",
+        "「を過ぎている」 means 'has passed the last day', giving the wrong time relationship. 「にあたる」 says the deadline falls on the last day.",
+        "に関して means 'regarding' or 'concerning' but doesn't express that the deadline corresponds to that specific date."
+      ],
+      "hiragana_full": "そのきげんはらいげつのまつじつにあたる。",
+      "audio_alternatives": [
+        {
+          "kanji": "その締め切りは来月の最終日に当たる。",
+          "hiragana_full": "そのしめきりはらいげつのさいしゅうびにあたる。"
+        },
+        {
+          "kanji": "その期限は来月末に当たります。",
+          "hiragana_full": "そのきげんはらいげつまつにあたります。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "期限",
+          "reading": "きげん",
+          "meaning": "deadline, time limit"
+        },
+        {
+          "word": "末日",
+          "reading": "まつじつ",
+          "meaning": "last day (of the month)"
+        }
+      ]
+    },
+    {
+      "id": "n2_066_6",
+      "example_sentence": "鈴木さんは私の母の兄で、私には伯父にあたる。",
+      "translation": "Mr. Suzuki is my mother's older brother, which makes him my uncle.",
+      "blank_target": "にあたる",
+      "wrong_choices": [
+        "に当てる",
+        "みたいだ",
+        "に代わる"
+      ],
+      "wrong_choice_explanations": [
+        "に当てる is the transitive verb 'to allocate / apply (something) to' and needs an actor assigning something; it cannot describe a kinship relation the way にあたる does.",
+        "みたいだ means 'is like / seems like'; it expresses resemblance or casual conjecture, not the definite family-tree relationship that にあたる pins down.",
+        "に代わる means 'replaces / takes the place of'; it would say Mr. Suzuki substitutes for my uncle, whereas にあたる states that he is my uncle by relation."
+      ],
+      "hiragana_full": "すずきさんはわたしのははのあにで、わたしにはおじにあたる。",
+      "audio_alternatives": [
+        {
+          "kanji": "鈴木さんは私の母の兄で、私の伯父だ。",
+          "hiragana_full": "すずきさんはわたしのははのあにで、わたしのおじだ。"
+        },
+        {
+          "kanji": "鈴木さんは母の兄なので、私には伯父にあたる。",
+          "hiragana_full": "すずきさんはははのあになので、わたしにはおじにあたる。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "伯父",
+          "reading": "おじ",
+          "meaning": "uncle (older than one's parent)"
+        }
+      ]
+    },
+    {
+      "id": "n2_066_7",
+      "example_sentence": "その価格は市場価値にあたる。",
+      "translation": "That price corresponds to the market value.",
+      "blank_target": "にあたる",
+      "wrong_choices": [
+        "を上回る",
+        "に比べて",
+        "について"
+      ],
+      "wrong_choice_explanations": [
+        "「を上回る」 means 'exceeds the market value', not equal to it. 「にあたる」 says the price corresponds to the market value.",
+        "に比べて means 'compared to' and is used for comparisons, not for expressing equivalence or correspondence.",
+        "について means 'about' or 'concerning' but doesn't express the relationship of correspondence between price and value."
+      ],
+      "hiragana_full": "そのかかくはしじょうかちにあたる。",
+      "audio_alternatives": [
+        {
+          "kanji": "その価格は市場価値に相当する。",
+          "hiragana_full": "そのかかくはしじょうかちにそうとうする。"
+        },
+        {
+          "kanji": "その価格は市場価値と一致する。",
+          "hiragana_full": "そのかかくはしじょうかちといっちする。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "価格",
+          "reading": "かかく",
+          "meaning": "price"
+        },
+        {
+          "word": "市場",
+          "reading": "しじょう",
+          "meaning": "market"
+        },
+        {
+          "word": "価値",
+          "reading": "かち",
+          "meaning": "value"
+        }
+      ]
+    },
+    {
+      "id": "n2_066_8",
+      "example_sentence": "その役割はマネージャーの職にあたる。",
+      "translation": "That role corresponds to the manager's position.",
+      "blank_target": "にあたる",
+      "wrong_choices": [
+        "に次ぐ",
+        "のような",
+        "に関する"
+      ],
+      "wrong_choice_explanations": [
+        "「に次ぐ」 means 'ranks just below / second only to the manager's position', not equivalent to it. 「にあたる」 says the role corresponds to the manager's position.",
+        "のような means 'like' or 'similar to' and indicates resemblance rather than exact correspondence or equivalence.",
+        "に関する means 'related to' or 'concerning' but doesn't express that the role corresponds to or is equivalent to the position."
+      ],
+      "hiragana_full": "そのやくわりはまねーじゃーのしょくにあたる。",
+      "audio_alternatives": [
+        {
+          "kanji": "その役割はマネージャーの職に相当する。",
+          "hiragana_full": "そのやくわりはまねーじゃーのしょくにそうとうする。"
+        },
+        {
+          "kanji": "その役割はマネージャーのポストに当たる。",
+          "hiragana_full": "そのやくわりはまねーじゃーのぽすとにあたる。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "役割",
+          "reading": "やくわり",
+          "meaning": "role"
+        },
+        {
+          "word": "職",
+          "reading": "しょく",
+          "meaning": "post, position"
+        }
+      ]
+    },
+    {
+      "id": "n2_066_9",
+      "example_sentence": "この建物の建設費用は市の年間予算の10%にあたる。",
+      "translation": "The construction cost of this building corresponds to 10% of the city's annual budget.",
+      "blank_target": "にあたる",
+      "wrong_choices": [
+        "に占める",
+        "を超える",
+        "と比較して"
+      ],
+      "wrong_choice_explanations": [
+        "に占める means 'accounts for' or 'takes up' but doesn't express the direct correspondence between the cost and the percentage.",
+        "を超える means 'exceeds' and indicates the cost is more than 10%, which contradicts the intended meaning.",
+        "と比較して means 'compared with' and is used for comparisons, not for expressing equivalence or correspondence."
+      ],
+      "hiragana_full": "このたてもののけんせつひようはしのねんかんよさんのじゅっパーセントにあたる。",
+      "audio_alternatives": [
+        {
+          "kanji": "この建物の建設費用は、市の年間予算の10%に相当する。",
+          "hiragana_full": "このたてもののけんせつひようは、しのねんかんよさんのじゅっパーセントにそうとうする。"
+        },
+        {
+          "kanji": "この建物の建設費は市の年間予算の10%にあたります。",
+          "hiragana_full": "このたてもののけんせつひはしのねんかんよさんのじゅっパーセントにあたります。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "建設",
+          "reading": "けんせつ",
+          "meaning": "construction"
+        },
+        {
+          "word": "費用",
+          "reading": "ひよう",
+          "meaning": "cost, expense"
+        },
+        {
+          "word": "予算",
+          "reading": "よさん",
+          "meaning": "budget"
+        }
+      ]
     },
     {
       "id": "n2_066_10",
-      "example_sentence": "今回の会議は、年次総会にあたる。",
-      "translation": "This meeting corresponds to the annual general meeting.",
+      "example_sentence": "その距離は東京から大阪までの道のりにあたる。",
+      "translation": "That distance corresponds to the journey from Tokyo to Osaka.",
       "blank_target": "にあたる",
       "wrong_choices": [
-        "に該当する",
-        "にあたって",
-        "に相当する"
+        "と同様",
+        "に満たない",
+        "のようだ"
       ],
       "wrong_choice_explanations": [
-        "に該当する means 'falls under/applies to' and focuses on meeting criteria, while にあたる expresses what this meeting corresponds to or represents.",
-        "にあたって means 'when/at the time of' and is used for timing with preparation, but this sentence describes what the meeting corresponds to, not timing.",
-        "に相当する suggests equivalence in value or importance, but にあたる is more natural for expressing what event this meeting represents."
+        "と同様 means 'similarly' or 'in the same way' but doesn't express direct correspondence between two specific distances.",
+        "「に満たない」 means 'falls short of the Tokyo–Osaka distance', the opposite of matching it. 「にあたる」 says the distance corresponds to that journey.",
+        "のようだ means 'seems like' or 'appears to be' and expresses uncertainty, not the definite correspondence that にあたる conveys."
       ],
-      "hiragana_full": "こんかいのかいぎは、ねんじそうかいにあたる。",
+      "hiragana_full": "そのきょりはとうきょうからおおさかまでのみちのりにあたる。",
       "audio_alternatives": [
         {
-          "kanji": "今回の会議は、年次総会に相当する。",
-          "hiragana_full": "こんかいのかいぎは、ねんじそうかいにそうとうする。"
+          "kanji": "その距離は東京から大阪までの道のりと同じだ。",
+          "hiragana_full": "そのきょりはとうきょうからおおさかまでのみちのりとおなじだ。"
         },
         {
-          "kanji": "今回の会議は、年次総会にあたります。",
-          "hiragana_full": "こんかいのかいぎは、ねんじそうかいにあたります。"
+          "kanji": "その距離は東京から大阪までの道のりに相当する。",
+          "hiragana_full": "そのきょりはとうきょうからおおさかまでのみちのりにそうとうする。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "距離",
+          "reading": "きょり",
+          "meaning": "distance"
+        },
+        {
+          "word": "道のり",
+          "reading": "みちのり",
+          "meaning": "distance, journey"
+        }
+      ]
     }
   ]
 }

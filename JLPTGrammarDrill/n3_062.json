@@ -10,13 +10,13 @@
       "translation": "Despite being sick, he continued working.",
       "blank_target": "あるにもかかわらず",
       "wrong_choices": [
-        "あるのに",
-        "あるものの",
+        "あるため",
+        "あるうえに",
         "あるくせに"
       ],
       "wrong_choice_explanations": [
-        "のに expresses 'even though' with mild disappointment, but the sentence's formal tone about persevering despite illness calls for the stronger にもかかわらず.",
-        "ものの means 'although' with a literary quality, but にもかかわらず more emphatically stresses the contradiction between illness and continuing to work.",
+        "〜ため means 'because,' giving illness as the reason he worked; にもかかわらず instead means 'despite,' marking that he kept working in spite of being sick, not because of it.",
+        "〜うえに means 'on top of / in addition to,' adding the illness as a further point; にもかかわらず instead sets the illness in opposition, meaning he continued despite it.",
         "くせに means 'even though' with blame or reproach, but the sentence doesn't blame the person—it simply states a fact about their determination."
       ],
       "hiragana_full": "びょうきであるにもかかわらず、かれはしごとをつづけた。",
@@ -30,35 +30,8 @@
           "hiragana_full": "びょうきにもかかわらず、かれはしごとをつづけました。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_062_10",
-      "example_sentence": "激しい競争にもかかわらず、市場シェアを増加させた。",
-      "translation": "Despite fierce competition, we increased market share.",
-      "blank_target": "にもかかわらず",
-      "wrong_choices": [
-        "であるものの",
-        "にしては",
-        "なのに"
-      ],
-      "wrong_choice_explanations": [
-        "であるものの means 'although it is fierce competition,' a literary concession before a contrast; にもかかわらず makes the contrast more emphatic, stressing that share grew in spite of the competition.",
-        "にしては means 'considering / for,' judging the gain against expectation—'good growth, for such fierce competition'; にもかかわらず instead simply says share grew in spite of the competition, with no comparative judgment.",
-        "なのに (激しい競争なのに) means 'even though,' but carries a conversational, complaining tone; にもかかわらず states the same 'despite' contrast neutrally, as fits a business result."
-      ],
-      "hiragana_full": "はげしいきょうそうにもかかわらず、しじょうしぇあをぞうかさせた。",
-      "audio_alternatives": [
-        {
-          "kanji": "激しい競争があったけれど、市場シェアを増やした。",
-          "hiragana_full": "はげしいきょうそうがあったけれど、しじょうしぇあをふやした。"
-        },
-        {
-          "kanji": "厳しい競争にもかかわらず、市場シェアを伸ばした。",
-          "hiragana_full": "きびしいきょうそうにもかかわらず、しじょうしぇあをのばした。"
-        }
-      ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n3_062_2",
@@ -66,13 +39,13 @@
       "translation": "Despite the difficult task, the deadline was short.",
       "blank_target": "あるにもかかわらず",
       "wrong_choices": [
-        "あるのに",
-        "あるものの",
+        "あるうえに",
+        "あるから",
         "あるくせに"
       ],
       "wrong_choice_explanations": [
-        "あるのに means 'even though', but にもかかわらず is more formal and emphasizes the paradoxical nature of the contrast.",
-        "あるものの means 'although', but にもかかわらず is more emphatic about the contrast between difficulty and short deadline.",
+        "〜うえに means 'on top of / in addition to,' adding the difficulty as a further point; にもかかわらず instead opposes the difficulty to the short deadline, meaning it was short despite the difficulty.",
+        "〜から means 'because,' giving the difficulty as the reason for the short deadline; にもかかわらず instead means the deadline was short despite the task being difficult.",
         "あるくせに means 'and yet' with blame, but にもかかわらず is neutral about the contradiction without implied reproach."
       ],
       "hiragana_full": "むずかしいあんけんであるにもかかわらず、しめきりはみじかかった。",
@@ -86,7 +59,20 @@
           "hiragana_full": "むずかしいあんけんなのに、しめきりはみじかかった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "案件",
+          "reading": "あんけん",
+          "meaning": "matter/case"
+        },
+        {
+          "word": "締め切り",
+          "reading": "しめきり",
+          "meaning": "deadline"
+        }
+      ]
     },
     {
       "id": "n3_062_3",
@@ -94,13 +80,13 @@
       "translation": "Despite being scared, I did bungee jumping.",
       "blank_target": "いにもかかわらず",
       "wrong_choices": [
-        "いのに",
-        "いものの",
+        "いために",
+        "いうえに",
         "いくせに"
       ],
       "wrong_choice_explanations": [
-        "のに means 'even though' with mild disappointment, but にもかかわらず is more formal and emphatically stresses the contrast between fear and action.",
-        "ものの means 'although,' acknowledging a fact, but にもかかわらず more strongly emphasizes overcoming the fear to do something extreme like bungee jumping.",
+        "〜ために means 'because,' giving fear as the reason for bungee jumping — backwards; にもかかわらず means she jumped despite being scared.",
+        "〜うえに means 'on top of / in addition to,' adding the fear as a further point; にもかかわらず instead opposes the fear to the action, meaning she jumped in spite of it.",
         "くせに means 'even though' with blame, as if the person shouldn't have been scared, but the sentence neutrally describes courage despite fear."
       ],
       "hiragana_full": "こわいにもかかわらず、バンジージャンプをしました。",
@@ -114,7 +100,8 @@
           "hiragana_full": "こわいのに、バンジージャンプをしました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n3_062_4",
@@ -122,13 +109,13 @@
       "translation": "Despite being far apart, our love does not change.",
       "blank_target": "ているにもかかわらず",
       "wrong_choices": [
-        "ているのに",
-        "ているとはいえ",
+        "ているため",
+        "ているうえに",
         "ているくせに"
       ],
       "wrong_choice_explanations": [
-        "のに means 'even though' with emotional undertone, but にもかかわらず is more formal and emphatically states the contradiction between distance and unchanging love.",
-        "とはいえ means 'although / that said,' softly acknowledging a fact before contrasting, but にもかかわらず more forcefully emphasizes persistence despite the obstacle of distance.",
+        "〜ため means 'because,' giving the distance as the reason love does not change — illogical here; にもかかわらず means the love holds despite the distance.",
+        "〜うえに means 'on top of / in addition to,' adding the distance as a further point; にもかかわらず instead opposes the distance to the unchanging love.",
         "くせに implies blame or reproach, as if being far apart is someone's fault, but the sentence romantically and neutrally states that love endures despite distance."
       ],
       "hiragana_full": "とおくはなれているにもかかわらず、あいじょうはかわりません。",
@@ -142,7 +129,20 @@
           "hiragana_full": "とおくはなれているけれど、あいじょうはかわらない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "愛情",
+          "reading": "あいじょう",
+          "meaning": "affection"
+        },
+        {
+          "word": "離れて",
+          "reading": "はなれて",
+          "meaning": "to be apart"
+        }
+      ]
     },
     {
       "id": "n3_062_5",
@@ -150,13 +150,13 @@
       "translation": "Despite failing many times, she did not give up.",
       "blank_target": "したにもかかわらず",
       "wrong_choices": [
-        "したのに",
-        "したものの",
+        "したため",
+        "したうえに",
         "したくせに"
       ],
       "wrong_choice_explanations": [
-        "のに means 'even though' with mild disappointment, but にもかかわらず is more formal and emphatically stresses her persistence despite repeated failure.",
-        "ものの means 'although,' acknowledging a fact before introducing a contrast, but にもかかわらず more powerfully emphasizes overcoming the obstacle of multiple failures.",
+        "〜ため means 'because,' giving repeated failure as the reason she did not give up — backwards; にもかかわらず means she persisted despite failing many times.",
+        "〜うえに means 'on top of / in addition to,' adding the failures as a further point; にもかかわらず instead opposes the failures to her persistence.",
         "くせに means 'even though' with blame or criticism, implying she should have stopped, but the sentence admiringly describes her determination."
       ],
       "hiragana_full": "なんどもしっぱいしたにもかかわらず、かのじょはあきらめなかった。",
@@ -170,7 +170,8 @@
           "hiragana_full": "なんかいもしっぱいしたにもかかわらず、かのじょはあきらめなかった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n3_062_6",
@@ -178,13 +179,13 @@
       "translation": "Despite many obstacles, the project was successful.",
       "blank_target": "にもかかわらず",
       "wrong_choices": [
-        "なのに",
-        "であるものの",
+        "のため",
+        "のうえに",
         "にしては"
       ],
       "wrong_choice_explanations": [
-        "なのに (多くの障害なのに) means 'even though' and is grammatical here, but it sounds conversational and faintly aggrieved; にもかかわらず gives the same 'despite' meaning in the neutral, formal register suited to reporting a project's success.",
-        "であるものの means 'although it is,' conceding the obstacles in a literary tone before a contrast; にもかかわらず makes the same concession but more forcefully foregrounds that success came in spite of them.",
+        "〜のため means 'because of,' giving the obstacles as the reason for success — illogical; にもかかわらず means the project succeeded despite the many obstacles.",
+        "〜のうえに means 'on top of / in addition to,' adding the obstacles as a further point; にもかかわらず instead opposes the obstacles to the success.",
         "にしては means 'considering / for,' judging the result against expectation—'successful, for that many obstacles'; にもかかわらず instead simply states the success happened in spite of the obstacles, making no comparative judgment."
       ],
       "hiragana_full": "おおくのしょうがいにもかかわらず、ぷろじぇくとはせいこうした。",
@@ -198,7 +199,20 @@
           "hiragana_full": "おおくのしょうがいにもかかわらず、ぷろじぇくとはうまくいった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "障害",
+          "reading": "しょうがい",
+          "meaning": "obstacle"
+        },
+        {
+          "word": "成功",
+          "reading": "せいこう",
+          "meaning": "success"
+        }
+      ]
     },
     {
       "id": "n3_062_7",
@@ -206,14 +220,14 @@
       "translation": "Despite harsh criticism, he continued.",
       "blank_target": "にもかかわらず",
       "wrong_choices": [
-        "なのに",
-        "とはいえ",
-        "であるものの"
+        "のせいで",
+        "のうえに",
+        "によって"
       ],
       "wrong_choice_explanations": [
-        "なのに (厳しい批判なのに) means 'even though,' but its tone is personal and slightly reproachful; にもかかわらず conveys the same contrast in a composed, formal style that fits describing his perseverance.",
-        "とはいえ means 'that said / even so,' conceding a point and then qualifying it (厳しい批判とはいえ, 'though it is harsh criticism'); にもかかわらず instead sets the criticism in direct opposition to his continuing, without the softer 'granted, but…' framing.",
-        "であるものの means 'although it is (harsh criticism),' a literary concession; にもかかわらず makes the contrast more emphatic, stressing that he kept going in spite of the criticism."
+        "〜のせいで means 'because of (blaming),' attributing his continuing to the criticism as its cause; にもかかわらず instead means he continued despite the harsh criticism.",
+        "〜のうえに means 'on top of / in addition to,' adding the criticism as a further point; にもかかわらず instead opposes the criticism to his continuing.",
+        "〜によって means 'by means of / due to,' treating the criticism as the cause of his continuing; にもかかわらず instead means he continued despite it."
       ],
       "hiragana_full": "きびしいひはんにもかかわらず、かれはつづけた。",
       "audio_alternatives": [
@@ -226,7 +240,20 @@
           "hiragana_full": "きびしいひはんにもかかわらず、かれはつづけました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "厳しい",
+          "reading": "きびしい",
+          "meaning": "harsh"
+        },
+        {
+          "word": "批判",
+          "reading": "ひはん",
+          "meaning": "criticism"
+        }
+      ]
     },
     {
       "id": "n3_062_8",
@@ -235,13 +262,13 @@
       "blank_target": "にもかかわらず",
       "wrong_choices": [
         "であっても",
-        "であるものの",
-        "なのに"
+        "のうえに",
+        "のせいで"
       ],
       "wrong_choice_explanations": [
         "であっても means 'even if it were,' entertaining the hardship as a hypothetical case; にもかかわらず instead states a real, existing hardship that was overcome, marking an actual rather than imagined contrast.",
-        "であるものの means 'although it is hardship,' softly acknowledging the fact before a contrast; にもかかわらず more emphatically stresses continuing the research in spite of the economic difficulty.",
-        "なのに means 'even though' with a note of surprise or complaint; にもかかわらず is more formal and better suits the serious context of persevering through financial hardship."
+        "〜のうえに means 'on top of / in addition to,' adding the hardship as a further point; にもかかわらず instead opposes the hardship to the continued research.",
+        "〜のせいで means 'because of (blaming),' giving the hardship as the reason research continued — backwards; にもかかわらず means it continued despite the hardship."
       ],
       "hiragana_full": "けいざいてきこんなんにもかかわらず、けんきゅうをつづけました。",
       "audio_alternatives": [
@@ -254,7 +281,20 @@
           "hiragana_full": "けいざいてきこんなんがあっても、けんきゅうをつづけました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "経済的",
+          "reading": "けいざいてき",
+          "meaning": "financial"
+        },
+        {
+          "word": "困難",
+          "reading": "こんなん",
+          "meaning": "hardship"
+        }
+      ]
     },
     {
       "id": "n3_062_9",
@@ -262,14 +302,14 @@
       "translation": "Despite economic downturns, companies continued investing.",
       "blank_target": "にもかかわらず",
       "wrong_choices": [
-        "なのに",
+        "のため",
         "であっても",
-        "とはいえ"
+        "のうえに"
       ],
       "wrong_choice_explanations": [
-        "なのに (景気悪化なのに) means 'even though,' but is conversational and faintly reproachful; にもかかわらず conveys the same contrast in the neutral, formal style expected in business writing.",
+        "〜のため means 'because of,' giving the downturn as the reason firms invested — illogical; にもかかわらず means they kept investing despite the downturn.",
         "であっても means 'even if there were a downturn,' framing it as hypothetical; here the downturn was real and investment continued anyway, which にもかかわらず marks as an actual contrast.",
-        "とはいえ means 'that said,' easing into a qualification rather than a sharp contrast; にもかかわらず more directly opposes the real downturn to the companies' continued investment."
+        "〜のうえに means 'on top of / in addition to,' adding the downturn as a further point; にもかかわらず instead opposes the downturn to the continued investment."
       ],
       "hiragana_full": "けいきあっかにもかかわらず、きぎょうはとうしをつづけた。",
       "audio_alternatives": [
@@ -282,7 +322,71 @@
           "hiragana_full": "けいきあっかにもかかわらず、きぎょうはとうしつづけた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "悪化",
+          "reading": "あっか",
+          "meaning": "deterioration"
+        },
+        {
+          "word": "企業",
+          "reading": "きぎょう",
+          "meaning": "corporation"
+        },
+        {
+          "word": "投資",
+          "reading": "とうし",
+          "meaning": "investment"
+        }
+      ]
+    },
+    {
+      "id": "n3_062_10",
+      "example_sentence": "激しい競争にもかかわらず、市場シェアを増加させた。",
+      "translation": "Despite fierce competition, we increased market share.",
+      "blank_target": "にもかかわらず",
+      "wrong_choices": [
+        "によって",
+        "にしては",
+        "のうえに"
+      ],
+      "wrong_choice_explanations": [
+        "〜によって means 'by means of / due to,' treating the fierce competition as the cause of the gain; にもかかわらず instead means share grew despite the competition.",
+        "にしては means 'considering / for,' judging the gain against expectation—'good growth, for such fierce competition'; にもかかわらず instead simply says share grew in spite of the competition, with no comparative judgment.",
+        "〜のうえに means 'on top of / in addition to,' adding the competition as a further point; にもかかわらず instead opposes the competition to the market-share gain."
+      ],
+      "hiragana_full": "はげしいきょうそうにもかかわらず、しじょうしぇあをぞうかさせた。",
+      "audio_alternatives": [
+        {
+          "kanji": "激しい競争があったけれど、市場シェアを増やした。",
+          "hiragana_full": "はげしいきょうそうがあったけれど、しじょうしぇあをふやした。"
+        },
+        {
+          "kanji": "厳しい競争にもかかわらず、市場シェアを伸ばした。",
+          "hiragana_full": "きびしいきょうそうにもかかわらず、しじょうしぇあをのばした。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "競争",
+          "reading": "きょうそう",
+          "meaning": "competition"
+        },
+        {
+          "word": "市場",
+          "reading": "しじょう",
+          "meaning": "market"
+        },
+        {
+          "word": "増加",
+          "reading": "ぞうか",
+          "meaning": "increase"
+        }
+      ]
     }
   ]
 }

@@ -6,288 +6,374 @@
   "exercises": [
     {
       "id": "n3_067_1",
-      "example_sentence": "値段が高いわりに、品質があまり良くない。",
-      "translation": "For the price, the quality is not very good.",
-      "blank_target": "わりに",
-      "wrong_choices": [
-        "のわりに",
-        "にもかかわらず",
-        "ものの"
-      ],
-      "wrong_choice_explanations": [
-        "After the い-adjective 高い, 割に attaches directly (高い割に); adding の is ungrammatical — の-form 〜のわりに is only used after a noun (値段のわりに).",
-        "〜にもかかわらず means 'despite,' a strong, formal concession; わりに is milder and specifically says the quality is out of proportion to how high the price is.",
-        "〜ものの means 'although,' simply conceding one fact before a contrasting one; it lacks わりに's sense that the result is disproportionate to the price."
-      ],
-      "hiragana_full": "ねだんがたかいわりに、ひんしつがあまりよくない。",
-      "audio_alternatives": [
-        {
-          "kanji": "値段のわりに、品質があまり良くない。",
-          "hiragana_full": "ねだんのわりに、ひんしつがあまりよくない。"
-        },
-        {
-          "kanji": "値段が高い割には、品質がそれほど良くない。",
-          "hiragana_full": "ねだんがたかいわりには、ひんしつがそれほどよくない。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_067_10",
-      "example_sentence": "投資額が大きい割に、リターンが低いです。",
-      "translation": "For how large the investment is, the returns are low.",
+      "example_sentence": "このレストランは値段の割においしい。",
+      "translation": "This restaurant is good for the price.",
       "blank_target": "割に",
       "wrong_choices": [
-        "のわりに",
-        "にもかかわらず",
-        "とはいえ"
-      ],
-      "wrong_choice_explanations": [
-        "After the い-adjective 大きい, 割に attaches directly (大きい割に); the の-form 〜のわりに is only for nouns (投資額のわりに), so 大きいのわりに is wrong.",
-        "〜にもかかわらず means 'despite,' a strong, formal concession; わりに more gently frames the low return as out of proportion to the large investment.",
-        "〜とはいえ means 'that said / even so,' conceding a point; it lacks わりに's meaning that the return is disproportionate to the investment."
-      ],
-      "hiragana_full": "とうしがくがおおきいわりに、リターンがひくいです。",
-      "audio_alternatives": [
-        {
-          "kanji": "投資額が大きい割には、リターンが低いです。",
-          "hiragana_full": "とうしがくがおおきいわりには、リターンがひくいです。"
-        },
-        {
-          "kanji": "これだけ投資したのに、リターンが低いです。",
-          "hiragana_full": "これだけとうししたのに、リターンがひくいです。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "わりに"
-    },
-    {
-      "id": "n3_067_2",
-      "example_sentence": "給料が高いわりに、福利厚生が充実していない。",
-      "translation": "For the salary, the benefits are not very good.",
-      "blank_target": "わりに",
-      "wrong_choices": [
-        "のわりに",
-        "のに",
+        "にしては",
+        "だけに",
         "くせに"
       ],
       "wrong_choice_explanations": [
-        "After the い-adjective 高い, 割に attaches directly (高い割に); the の-form 〜のわりに is only correct after a noun (給料のわりに).",
-        "〜のに means 'even though,' a flat concession carrying surprise or dissatisfaction; わりに instead frames the benefits as disproportionate to the high salary.",
-        "〜くせに means 'even though,' but with a reproachful, critical tone toward the subject; わりに is a neutral observation about proportion, without that contempt."
+        "にしては expresses a similar 'for...' judgment but attaches directly to the noun (値段にしては); it cannot follow the の in 値段の, so it doesn't fit this blank.",
+        "だけに means 'precisely because,' implying the result matches expectations; here the taste is better than the price would lead you to expect.",
+        "くせに criticizes a person for acting inconsistently with what they are; it sounds accusatory and isn't used for evaluating a restaurant's price."
       ],
-      "hiragana_full": "きゅうりょうがたかいわりに、ふくりこうせいがじゅうじつしていない。",
+      "hiragana_full": "このれすとらんはねだんのわりにおいしい。",
       "audio_alternatives": [
         {
-          "kanji": "給料が高い割には、福利厚生が充実していない。",
-          "hiragana_full": "きゅうりょうがたかいわりには、ふくりこうせいがじゅうじつしていない。"
+          "kanji": "この店は値段の割に味がいいですね。",
+          "hiragana_full": "このみせはねだんのわりにあじがいいですね。"
         },
         {
-          "kanji": "給料が高いのに比べて、福利厚生が充実していない。",
-          "hiragana_full": "きゅうりょうがたかいのにくらべて、ふくりこうせいがじゅうじつしていない。"
+          "kanji": "安いのに、とてもおいしいレストランだ。",
+          "hiragana_full": "やすいのに、とてもおいしいれすとらんだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "blank_target_reading": "わりに",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "値段",
+          "reading": "ねだん",
+          "meaning": "price"
+        }
+      ]
+    },
+    {
+      "id": "n3_067_2",
+      "example_sentence": "彼は年の割に若く見える。",
+      "translation": "He looks young for his age.",
+      "blank_target": "割に",
+      "wrong_choices": [
+        "ために",
+        "だけに",
+        "くせに"
+      ],
+      "wrong_choice_explanations": [
+        "ために expresses purpose or cause; 年のために若く見える would absurdly mean his age causes him to look young.",
+        "だけに would mean 'precisely because of his age,' predicting he looks old; the sentence says he looks the opposite of what his age suggests.",
+        "年のくせに is a rude jab ('even though he's old, he acts...'); the sentence is a neutral, even complimentary observation."
+      ],
+      "hiragana_full": "かれはとしのわりにわかくみえる。",
+      "audio_alternatives": [
+        {
+          "kanji": "彼は年齢の割に若々しい。",
+          "hiragana_full": "かれはねんれいのわりにわかわかしい。"
+        },
+        {
+          "kanji": "実際の年より、ずっと若く見えますね。",
+          "hiragana_full": "じっさいのとしより、ずっとわかくみえますね。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "わりに",
+      "register": "neutral"
     },
     {
       "id": "n3_067_3",
-      "example_sentence": "安いわりに、品質が良いです。",
-      "translation": "For the price, the quality is good.",
-      "blank_target": "わりに",
+      "example_sentence": "この仕事は大変な割に給料が安い。",
+      "translation": "This job pays poorly considering how demanding it is.",
+      "blank_target": "割に",
       "wrong_choices": [
-        "のわりに",
-        "にもかかわらず",
-        "のに"
+        "にしては",
+        "ばかりに",
+        "だけに"
       ],
       "wrong_choice_explanations": [
-        "After the い-adjective 安い, 割に attaches directly (安い割に); の is added only after a noun (値段のわりに), so 安いのわりに is wrong.",
-        "〜にもかかわらず means 'despite,' a strong, formal concession; わりに more gently says the quality is good in proportion to how cheap it is.",
-        "〜のに means 'even though,' expressing surprise or contrast; わりに instead notes that the quality is disproportionately good for the low price."
+        "にしては attaches to nouns and plain verbs (プロにしては); it cannot follow the な of a な-adjective like 大変な, so it is ungrammatical here.",
+        "ばかりに means 'just because,' tracing a bad outcome to that single cause; the sentence contrasts effort with reward, it doesn't say the hardness causes the low pay.",
+        "だけに predicts a result in line with the premise — a demanding job should pay well; the low salary betrays that expectation, which is what 割に marks."
       ],
-      "hiragana_full": "やすいわりに、ひんしつがよいです。",
+      "hiragana_full": "このしごとはたいへんなわりにきゅうりょうがやすい。",
       "audio_alternatives": [
         {
-          "kanji": "値段のわりに、品質が良いです。",
-          "hiragana_full": "ねだんのわりに、ひんしつがよいです。"
+          "kanji": "大変な仕事の割に、給料は高くありません。",
+          "hiragana_full": "たいへんなしごとのわりに、きゅうりょうはたかくありません。"
         },
         {
-          "kanji": "安い割には、品質がいいです。",
-          "hiragana_full": "やすいわりには、ひんしつがいいです。"
+          "kanji": "仕事はきついのに、給料が安い。",
+          "hiragana_full": "しごとはきついのに、きゅうりょうがやすい。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "blank_target_reading": "わりに",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "給料",
+          "reading": "きゅうりょう",
+          "meaning": "salary"
+        }
+      ]
     },
     {
       "id": "n3_067_4",
-      "example_sentence": "経験が少ないわりに、堂々とプレゼンしていた。",
-      "translation": "For someone with little experience, they presented confidently.",
-      "blank_target": "わりに",
+      "example_sentence": "あまり勉強しなかった割に、テストの点はよかった。",
+      "translation": "My test score was good considering how little I studied.",
+      "blank_target": "割に",
       "wrong_choices": [
-        "のわりに",
-        "のに",
-        "ものの"
+        "くせに",
+        "せいで",
+        "だけに"
       ],
       "wrong_choice_explanations": [
-        "After the い-adjective 少ない, 割に attaches directly (少ない割に); the の-form is only for nouns (経験のわりに), so 少ないのわりに is ungrammatical.",
-        "〜のに means 'even though,' a flat concession with a note of surprise; わりに instead frames the confident delivery as out of proportion to the limited experience.",
-        "〜ものの means 'although,' conceding the little experience before the contrast; it lacks わりに's nuance of a proportional mismatch."
+        "くせに carries blame or contempt, usually toward someone else ('even though you didn't study!'); it clashes with the speaker's pleasant surprise at their own result.",
+        "せいで blames a cause for a bad result; here the result (a good score) is positive and unexpected, not a harm caused by not studying.",
+        "だけに would mean the result fits the premise — little study, so a bad score would follow; the sentence reports the opposite, an unexpectedly good score."
       ],
-      "hiragana_full": "けいけんがすくないわりに、どうどうとぷれぜんしていた。",
+      "hiragana_full": "あまりべんきょうしなかったわりに、てすとのてんはよかった。",
       "audio_alternatives": [
         {
-          "kanji": "経験が少ないにしては、堂々とプレゼンしていた。",
-          "hiragana_full": "けいけんがすくないにしては、どうどうとぷれぜんしていた。"
+          "kanji": "勉強しなかった割に、いい点が取れた。",
+          "hiragana_full": "べんきょうしなかったわりに、いいてんがとれた。"
         },
         {
-          "kanji": "経験が少ないわりには、自信を持ってプレゼンしていた。",
-          "hiragana_full": "けいけんがすくないわりには、じしんをもってぷれぜんしていた。"
+          "kanji": "ほとんど勉強しなかったのに、テストの結果はよかった。",
+          "hiragana_full": "ほとんどべんきょうしなかったのに、てすとのけっかはよかった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "blank_target_reading": "わりに",
+      "register": "neutral"
     },
     {
       "id": "n3_067_5",
-      "example_sentence": "勉強時間が短いわりに、テストの成績がいい。",
-      "translation": "For the short study time, the test scores are good.",
-      "blank_target": "わりに",
+      "example_sentence": "この辺りは都心の割に家賃が安い。",
+      "translation": "Rent around here is cheap considering it's the city center.",
+      "blank_target": "割に",
       "wrong_choices": [
-        "にもかかわらず",
-        "のに",
-        "ものの"
+        "だけに",
+        "せいで",
+        "ばかりに"
       ],
       "wrong_choice_explanations": [
-        "〜にもかかわらず means 'despite,' a strong, formal concession; わりに more gently says the scores are good relative to the short study time.",
-        "〜のに means 'even though,' with surprise or disappointment; わりに neutrally notes the result is disproportionate to the study time.",
-        "〜ものの means 'although,' conceding the short study time before the contrast; it lacks わりに's sense of proportion between effort and result."
+        "だけに would follow expectations — precisely because it's the city center, rent should be high; the sentence notes rent is unexpectedly cheap, so だけに contradicts 安い.",
+        "せいで presents a cause with a bad result; cheap rent is a benefit, and the sentence is contrasting expectation with reality, not assigning blame.",
+        "ばかりに means 'simply because,' introducing an unfortunate consequence (都心に住んだばかりに…); it doesn't express 'cheap for the location.'"
       ],
-      "hiragana_full": "べんきょうじかんがみじかいわりに、テストのせいせきがいい。",
+      "hiragana_full": "このあたりはとしんのわりにやちんがやすい。",
       "audio_alternatives": [
         {
-          "kanji": "勉強時間が短いにしては、テストの成績がいい。",
-          "hiragana_full": "べんきょうじかんがみじかいにしては、テストのせいせきがいい。"
+          "kanji": "この地域は都心の割に家賃が高くない。",
+          "hiragana_full": "このちいきはとしんのわりにやちんがたかくない。"
         },
         {
-          "kanji": "勉強時間が短い割に、テストの点数がいい。",
-          "hiragana_full": "べんきょうじかんがみじかいわりに、テストのてんすうがいい。"
+          "kanji": "都心なのに、このあたりの家賃は安い。",
+          "hiragana_full": "としんなのに、このあたりのやちんはやすい。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "blank_target_reading": "わりに",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "都心",
+          "reading": "としん",
+          "meaning": "city center"
+        },
+        {
+          "word": "家賃",
+          "reading": "やちん",
+          "meaning": "rent"
+        }
+      ]
     },
     {
       "id": "n3_067_6",
-      "example_sentence": "名前が立派な割に、味は普通ですね。",
-      "translation": "For such a fine name, the taste is rather ordinary, isn't it.",
+      "example_sentence": "彼女は初めての割に、上手にスキーを滑っていた。",
+      "translation": "She was skiing well for a first-timer.",
       "blank_target": "割に",
       "wrong_choices": [
-        "のわりに",
-        "くせに",
-        "ものの"
+        "だけに",
+        "ために",
+        "くせに"
       ],
       "wrong_choice_explanations": [
-        "After the な-adjective 立派, 割に attaches with な (立派な割に); the の-form 〜のわりに is only for nouns (名前のわりに), so 立派なのわりに is wrong.",
-        "〜くせに means 'even though,' but with a mocking, critical tone; わりに is a neutral remark about the gap between the grand name and the ordinary taste.",
-        "〜ものの means 'although,' conceding the fine name before the contrast; it lacks わりに's nuance that the taste is disproportionate to the name."
+        "だけに sets up a result that matches the premise — a first-timer should struggle; her skiing well goes against that expectation, which 割に expresses.",
+        "ために marks purpose or cause; 初めてのために would claim being a beginner caused her skill, which is illogical.",
+        "くせに mocks someone for not acting their status ('even though she's a beginner...!'); the sentence is admiring, not sarcastic."
       ],
-      "hiragana_full": "なまえがりっぱなわりに、あじはふつうですね。",
+      "hiragana_full": "かのじょははじめてのわりに、じょうずにすきーをすべっていた。",
       "audio_alternatives": [
         {
-          "kanji": "名前が立派な割には、味は平凡ですね。",
-          "hiragana_full": "なまえがりっぱなわりには、あじはへいぼんですね。"
+          "kanji": "初心者の割に、滑り方がきれいでした。",
+          "hiragana_full": "しょしんしゃのわりに、すべりかたがきれいでした。"
         },
         {
-          "kanji": "こんなに立派な名前なのに、味は普通ですね。",
-          "hiragana_full": "こんなにりっぱななまえなのに、あじはふつうですね。"
+          "kanji": "初めてとは思えないほど、スキーが上手だった。",
+          "hiragana_full": "はじめてとはおもえないほど、すきーがじょうずだった。"
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "わりに"
+      "blank_target_reading": "わりに",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "滑って",
+          "reading": "すべって",
+          "meaning": "to ski, glide"
+        }
+      ]
     },
     {
       "id": "n3_067_7",
-      "example_sentence": "人口が多い割に、緑が豊かな街ですね。",
-      "translation": "For its large population, it's a city with abundant greenery.",
+      "example_sentence": "この映画は話題になっている割に、内容は普通だった。",
+      "translation": "For all the buzz, the movie's content was pretty ordinary.",
       "blank_target": "割に",
       "wrong_choices": [
-        "のわりに",
-        "のに",
-        "とはいえ"
+        "だけに",
+        "おかげで",
+        "ばかりに"
       ],
       "wrong_choice_explanations": [
-        "After the い-adjective 多い, 割に attaches directly (多い割に); の appears only after a noun (人口のわりに), so 多いのわりに is ungrammatical.",
-        "〜のに means 'even though,' expressing surprise; わりに instead frames the greenery as out of proportion to the large population.",
-        "〜とはいえ means 'that said / even so,' conceding a point; it doesn't carry わりに's meaning that the result is disproportionate to the population size."
+        "だけに would predict the movie lives up to the buzz ('precisely because it's talked about, it's great'); the sentence reports it fell short of expectations.",
+        "おかげで credits a cause for a good result; ordinary content is a letdown, not a benefit of the buzz.",
+        "ばかりに blames one fact for a misfortune (話題になったばかりに…); the sentence contrasts reputation with reality rather than tracing a consequence."
       ],
-      "hiragana_full": "じんこうがおおいわりに、みどりがゆたかなまちですね。",
+      "hiragana_full": "このえいがはわだいになっているわりに、ないようはふつうだった。",
       "audio_alternatives": [
         {
-          "kanji": "人口が多い割には、緑が豊かな街ですね。",
-          "hiragana_full": "じんこうがおおいわりには、みどりがゆたかなまちですね。"
+          "kanji": "話題の映画の割に、中身は平凡だった。",
+          "hiragana_full": "わだいのえいがのわりに、なかみはへいぼんだった。"
         },
         {
-          "kanji": "これだけ人口が多くても、緑が豊かな街ですね。",
-          "hiragana_full": "これだけじんこうがおおくても、みどりがゆたかなまちですね。"
+          "kanji": "評判ほど面白い映画ではなかった。",
+          "hiragana_full": "ひょうばんほどおもしろいえいがではなかった。"
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "わりに"
+      "blank_target_reading": "わりに",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "話題",
+          "reading": "わだい",
+          "meaning": "topic, talk of the town"
+        },
+        {
+          "word": "内容",
+          "reading": "ないよう",
+          "meaning": "content"
+        }
+      ]
     },
     {
       "id": "n3_067_8",
-      "example_sentence": "値段が安い割に、品質が高いです。",
-      "translation": "For how cheap it is, the quality is high.",
+      "example_sentence": "練習時間が短い割に、彼のピアノは上達が早い。",
+      "translation": "His piano is improving quickly considering how little he practices.",
       "blank_target": "割に",
       "wrong_choices": [
-        "のわりに",
-        "ものの",
-        "とはいえ"
+        "せいで",
+        "くせに",
+        "だけに"
       ],
       "wrong_choice_explanations": [
-        "After the い-adjective 安い, 割に attaches directly (安い割に); the の-form is for nouns (値段のわりに), so 安いのわりに is wrong.",
-        "〜ものの means 'although,' conceding the low price before the contrast; it lacks わりに's sense that the quality is disproportionately high for the price.",
-        "〜とはいえ means 'that said / even so,' a concession; it doesn't express わりに's idea that the quality is out of proportion to the price."
+        "せいで attributes a bad outcome to a cause; fast improvement is a good result, so blaming the short practice time makes no sense.",
+        "くせに would sneer at him ('even though he barely practices...!'); the sentence is straightforward praise for an unexpected result.",
+        "だけに expects the outcome to follow from the premise — little practice should mean slow progress; his quick improvement runs against that."
       ],
-      "hiragana_full": "ねだんがやすいわりに、ひんしつがたかいです。",
+      "hiragana_full": "れんしゅうじかんがみじかいわりに、かれのぴあのはじょうたつがはやい。",
       "audio_alternatives": [
         {
-          "kanji": "値段が安い割には、品質が高いです。",
-          "hiragana_full": "ねだんがやすいわりには、ひんしつがたかいです。"
+          "kanji": "あまり練習していない割に、ピアノがどんどん上手になっている。",
+          "hiragana_full": "あまりれんしゅうしていないわりに、ぴあのがどんどんじょうずになっている。"
         },
         {
-          "kanji": "値段が安いのに、品質がいいです。",
-          "hiragana_full": "ねだんがやすいのに、ひんしつがいいです。"
+          "kanji": "短い練習でも、彼はすぐに弾けるようになる。",
+          "hiragana_full": "みじかいれんしゅうでも、かれはすぐにひけるようになる。"
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "わりに"
+      "blank_target_reading": "わりに",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "上達",
+          "reading": "じょうたつ",
+          "meaning": "improvement (of skill)"
+        }
+      ]
     },
     {
       "id": "n3_067_9",
-      "example_sentence": "宣伝費が高い割に、認知度が低いですね。",
-      "translation": "For how high the advertising budget is, the recognition is low.",
+      "example_sentence": "台風の割に被害は少なかった。",
+      "translation": "The damage was light for a typhoon.",
       "blank_target": "割に",
       "wrong_choices": [
-        "のわりに",
-        "くせに",
-        "にもかかわらず"
+        "ばかりに",
+        "せいで",
+        "おかげで"
       ],
       "wrong_choice_explanations": [
-        "After the い-adjective 高い, 割に attaches directly (高い割に); の is used only after a noun (宣伝費のわりに), so 高いのわりに is ungrammatical.",
-        "〜くせに means 'even though,' with a critical, reproachful tone; わりに is a neutral observation that recognition is low relative to the ad spend.",
-        "〜にもかかわらず means 'despite,' a strong, formal concession; わりに more mildly notes the disproportion between the high ad spend and the low recognition."
+        "ばかりに would present the typhoon as the sole cause of a misfortune, but the point is that the damage was smaller than a typhoon would lead you to expect.",
+        "せいで blames a cause for harm (台風のせいで被害が出た is natural), yet here the damage being 少なかった is the surprising good news, not the harm.",
+        "おかげで thanks a cause for a good result; the typhoon didn't produce the light damage — the damage was light despite the typhoon."
       ],
-      "hiragana_full": "せんでんひがたかいわりに、にんちどがひくいですね。",
+      "hiragana_full": "たいふうのわりにひがいはすくなかった。",
       "audio_alternatives": [
         {
-          "kanji": "宣伝費が高い割には、認知度が低いですね。",
-          "hiragana_full": "せんでんひがたかいわりには、にんちどがひくいですね。"
+          "kanji": "大きな台風だった割に、被害はわずかだった。",
+          "hiragana_full": "おおきなたいふうだったわりに、ひがいはわずかだった。"
         },
         {
-          "kanji": "あれだけ宣伝費をかけたのに、認知度が低いですね。",
-          "hiragana_full": "あれだけせんでんひをかけたのに、にんちどがひくいですね。"
+          "kanji": "台風のニュースほど、被害はひどくなかった。",
+          "hiragana_full": "たいふうのにゅーすほど、ひがいはひどくなかった。"
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "わりに"
+      "blank_target_reading": "わりに",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "台風",
+          "reading": "たいふう",
+          "meaning": "typhoon"
+        },
+        {
+          "word": "被害",
+          "reading": "ひがい",
+          "meaning": "damage"
+        }
+      ]
+    },
+    {
+      "id": "n3_067_10",
+      "example_sentence": "彼はよく食べる割に、全然太らない。",
+      "translation": "He never gains weight, considering how much he eats.",
+      "blank_target": "割に",
+      "wrong_choices": [
+        "だけに",
+        "ばかりに",
+        "ように"
+      ],
+      "wrong_choice_explanations": [
+        "だけに would predict a matching result — someone who eats a lot getting heavier; not gaining weight is exactly the mismatch that 割に flags.",
+        "ばかりに introduces a regrettable consequence of one fact (食べすぎたばかりにお腹を壊した); staying slim is not a misfortune caused by eating.",
+        "ように expresses manner or similarity ('as / like'); よく食べるように太らない doesn't form a meaningful comparison here."
+      ],
+      "hiragana_full": "かれはよくたべるわりに、ぜんぜんふとらない。",
+      "audio_alternatives": [
+        {
+          "kanji": "あんなに食べる割に、彼は少しも太りませんね。",
+          "hiragana_full": "あんなにたべるわりに、かれはすこしもふとりませんね。"
+        },
+        {
+          "kanji": "彼はたくさん食べても体型が変わらない。",
+          "hiragana_full": "かれはたくさんたべてもたいけいがかわらない。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "わりに",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "太らない",
+          "reading": "ふとらない",
+          "meaning": "to not gain weight"
+        }
+      ]
     }
   ]
 }

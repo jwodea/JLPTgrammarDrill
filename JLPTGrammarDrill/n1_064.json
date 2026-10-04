@@ -30,7 +30,20 @@
           "hiragana_full": "かれがゆうしゅうなのはたしかだが、けいけんぶそくはいなめない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "優秀",
+          "reading": "ゆうしゅう",
+          "meaning": "excellent; talented"
+        },
+        {
+          "word": "否めない",
+          "reading": "いなめない",
+          "meaning": "cannot be denied"
+        }
+      ]
     },
     {
       "id": "n1_064_2",
@@ -38,14 +51,14 @@
       "translation": "Although this medicine is effective, there are concerns about side effects.",
       "blank_target": "とはいうものの",
       "wrong_choices": [
-        "とはいえ",
+        "であっても",
         "けれども",
-        "だが"
+        "にせよ"
       ],
       "wrong_choice_explanations": [
-        "とはいえ is similar but more casual and doesn't carry the formal acknowledgment that とはいうものの provides in this medical context.",
+        "であっても means 'even if it is' and frames the effectiveness as hypothetical; とはいうものの instead accepts the effectiveness as an established fact before raising the drawback.",
         "けれども is a simple 'but/however' without the nuance of acknowledging the truth of the first statement that とはいうものの conveys.",
-        "だが is an informal 'but' that doesn't acknowledge the validity of the previous statement like とはいうものの does."
+        "にせよ means 'even if / whether or not' and grants the effectiveness only as a supposition; とはいうものの affirms it as true, then contrasts."
       ],
       "hiragana_full": "このくすりはこうかてきとはいうものの、ふくさようのしんぱいがある。",
       "audio_alternatives": [
@@ -58,7 +71,20 @@
           "hiragana_full": "このくすりはこうかてきとはいえ、ふくさようのしんぱいがある。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "効果的",
+          "reading": "こうかてき",
+          "meaning": "effective"
+        },
+        {
+          "word": "副作用",
+          "reading": "ふくさよう",
+          "meaning": "side effect"
+        }
+      ]
     },
     {
       "id": "n1_064_3",
@@ -67,12 +93,12 @@
       "blank_target": "とはいうものの",
       "wrong_choices": [
         "ものの",
-        "とは言え",
+        "であっても",
         "しかし"
       ],
       "wrong_choice_explanations": [
         "ものの alone lacks the explicit acknowledgment ('having said that') that とはいうものの provides when contrasting statements.",
-        "とは言え is less formal and doesn't emphasize the acknowledgment of the first statement as strongly as とはいうものの does.",
+        "であっても means 'even if it is' and treats the smooth progress as hypothetical; とはいうものの grants that the plan IS going smoothly, then flags the budget concern.",
         "しかし is a simple 'however' without the specific nuance of acknowledging the truth of what was just stated."
       ],
       "hiragana_full": "けいかくはじゅんちょうとはいうものの、よさんちょうかがけねんされる。",
@@ -86,7 +112,25 @@
           "hiragana_full": "けいかくはじゅんちょうにすすんでいるものの、よさんちょうかがしんぱいされる。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "順調",
+          "reading": "じゅんちょう",
+          "meaning": "smooth; going well"
+        },
+        {
+          "word": "超過",
+          "reading": "ちょうか",
+          "meaning": "excess; exceeding"
+        },
+        {
+          "word": "懸念",
+          "reading": "けねん",
+          "meaning": "concern; apprehension"
+        }
+      ]
     },
     {
       "id": "n1_064_4",
@@ -94,14 +138,14 @@
       "translation": "Although her proposal is innovative, its feasibility is questionable.",
       "blank_target": "とはいうものの",
       "wrong_choices": [
-        "とはいっても",
-        "といっても",
-        "ながらも"
+        "であっても",
+        "だから",
+        "にせよ"
       ],
       "wrong_choice_explanations": [
-        "とはいっても is more casual and doesn't carry the formal weight of acknowledgment that とはいうものの provides in this professional context.",
-        "といっても means 'even if you say' but lacks the specific structure and formality of とはいうものの for acknowledging then contrasting.",
-        "ながらも means 'while/although' but doesn't explicitly acknowledge the validity of the first statement before contrasting like とはいうものの does."
+        "であっても means 'even if it is' and treats the innovativeness as hypothetical; とはいうものの grants that the proposal IS innovative before doubting its feasibility.",
+        "だから marks cause ('because it's innovative'); the sentence needs a concessive that acknowledges the innovation yet raises doubt, not a reason for it.",
+        "にせよ means 'even if / whether or not' and grants the innovativeness only as a supposition; とはいうものの affirms it as fact, then contrasts."
       ],
       "hiragana_full": "かのじょのていあんはかくしんてきとはいうものの、じつげんかのうせいにぎもんがある。",
       "audio_alternatives": [
@@ -114,7 +158,20 @@
           "hiragana_full": "かのじょのていあんはかくしんてきであるいっぽう、じつげんかのうせいにぎもんがのこる。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "革新的",
+          "reading": "かくしんてき",
+          "meaning": "innovative"
+        },
+        {
+          "word": "実現",
+          "reading": "じつげん",
+          "meaning": "realization"
+        }
+      ]
     },
     {
       "id": "n1_064_5",
@@ -142,7 +199,20 @@
           "hiragana_full": "このぎじゅつはかっきてきであるものの、ひろまるにはじかんがかかるだろう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "画期的",
+          "reading": "かっきてき",
+          "meaning": "groundbreaking; epoch-making"
+        },
+        {
+          "word": "普及",
+          "reading": "ふきゅう",
+          "meaning": "spread; diffusion"
+        }
+      ]
     },
     {
       "id": "n1_064_6",
@@ -150,14 +220,14 @@
       "translation": "Although the two nations signed a peace agreement, the fundamental conflict remains unresolved.",
       "blank_target": "とはいうものの",
       "wrong_choices": [
-        "にも関わらず",
+        "としても",
         "だけれども",
-        "とはいえ"
+        "から"
       ],
       "wrong_choice_explanations": [
-        "にも関わらず means 'despite' but doesn't acknowledge that signing the agreement was indeed a positive step before noting the remaining issues.",
+        "としても means 'even if they had signed' and treats the signing as a supposition; とはいうものの accepts that they DID sign, then contrasts with the unresolved conflict.",
         "だけれども is a casual 'but' that doesn't provide the formal acknowledgment of the peace agreement's significance that とはいうものの does.",
-        "とはいえ is less formal and doesn't carry the weight of acknowledging the importance of the peace agreement before contrasting it."
+        "から marks cause ('because they signed'); the sentence needs a concessive contrasting the signing with the persisting conflict, not a reason for it."
       ],
       "hiragana_full": "りょうこくはわへいきょうていをむすんだとはいうものの、こんぽんてきなたいりつはかいしょうされていない。",
       "audio_alternatives": [
@@ -170,7 +240,25 @@
           "hiragana_full": "りょうこくがわへいきょうていをむすんだにもかかわらず、こんぽんてきなたいりつはいぜんとしてかいしょうされていない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "協定",
+          "reading": "きょうてい",
+          "meaning": "agreement; pact"
+        },
+        {
+          "word": "根本的",
+          "reading": "こんぽんてき",
+          "meaning": "fundamental"
+        },
+        {
+          "word": "解消",
+          "reading": "かいしょう",
+          "meaning": "resolution; dissolution"
+        }
+      ]
     },
     {
       "id": "n1_064_7",
@@ -198,7 +286,20 @@
           "hiragana_full": "かんきょうかいぜんのじゅうようせいはみとめつつも、じっしにはおおくのかだいがある。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "実施",
+          "reading": "じっし",
+          "meaning": "implementation"
+        },
+        {
+          "word": "課題",
+          "reading": "かだい",
+          "meaning": "task; challenge"
+        }
+      ]
     },
     {
       "id": "n1_064_8",
@@ -226,7 +327,20 @@
           "hiragana_full": "そのぶんがくりゅうはがじゅうようであることはみとめるが、じっさいのえいきょうりょくはげんていてきである。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "流派",
+          "reading": "りゅうは",
+          "meaning": "school; style"
+        },
+        {
+          "word": "限定的",
+          "reading": "げんていてき",
+          "meaning": "limited"
+        }
+      ]
     },
     {
       "id": "n1_064_9",
@@ -234,14 +348,14 @@
       "translation": "Although that company's growth is remarkable, its sustainability is questionable.",
       "blank_target": "とはいうものの",
       "wrong_choices": [
-        "と言っても",
+        "としても",
         "しかし",
-        "だが"
+        "から"
       ],
       "wrong_choice_explanations": [
-        "と言っても means 'even if you say' but doesn't provide the formal acknowledgment of the company's remarkable growth that とはいうものの does.",
+        "としても means 'even if it were remarkable' and treats the growth as a supposition; とはいうものの affirms the growth as real, then questions its sustainability.",
         "しかし is a simple 'however' that doesn't acknowledge the truth of the remarkable growth before presenting the concern about sustainability.",
-        "だが is an informal 'but' that lacks the acknowledgment aspect that makes とはいうものの appropriate for recognizing the growth while noting concerns."
+        "から marks cause ('because the growth is remarkable'); the sentence needs a concessive contrasting the growth with doubts about sustainability, not a reason."
       ],
       "hiragana_full": "そのきぎょうのせいちょうはめざましいとはいうものの、じぞくせいがうたがわしい。",
       "audio_alternatives": [
@@ -254,7 +368,20 @@
           "hiragana_full": "そのきぎょうのせいちょうはいちじるしいとはいえ、じぞくせいがうたがわしい。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "目覚ましい",
+          "reading": "めざましい",
+          "meaning": "remarkable; striking"
+        },
+        {
+          "word": "持続性",
+          "reading": "じぞくせい",
+          "meaning": "sustainability; persistence"
+        }
+      ]
     },
     {
       "id": "n1_064_10",
@@ -263,13 +390,13 @@
       "blank_target": "とはいうものの",
       "wrong_choices": [
         "ながら",
-        "ものの",
-        "けれども"
+        "としても",
+        "から"
       ],
       "wrong_choice_explanations": [
         "ながら means 'while' but doesn't provide the acknowledgment that the system is indeed improving before noting the persistent problems.",
-        "ものの alone lacks the explicit 'having said that' acknowledgment that とはいうものの provides when contrasting the improvement with remaining issues.",
-        "けれども is a standard 'but/however' that doesn't acknowledge the positive aspect of improvement before presenting the contrasting information."
+        "としても means 'even if it is improving' and treats the improvement as a supposition; とはいうものの grants that the system IS improving, then notes the persisting problems.",
+        "から marks cause ('because it is improving'); the sentence needs a concessive contrasting the improvement with the remaining problems, not a reason for them."
       ],
       "hiragana_full": "そのいりょうせいどはかいぜんけいこうにあるとはいうものの、こんぽんてきなもんだいはざんそんしている。",
       "audio_alternatives": [
@@ -282,7 +409,25 @@
           "hiragana_full": "そのいりょうせいどがかいぜんけいこうにあるものの、こんぽんてきなもんだいはいぜんとしてそんざいする。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "傾向",
+          "reading": "けいこう",
+          "meaning": "tendency; trend"
+        },
+        {
+          "word": "根本的",
+          "reading": "こんぽんてき",
+          "meaning": "fundamental"
+        },
+        {
+          "word": "残存",
+          "reading": "ざんそん",
+          "meaning": "remaining; surviving"
+        }
+      ]
     }
   ]
 }

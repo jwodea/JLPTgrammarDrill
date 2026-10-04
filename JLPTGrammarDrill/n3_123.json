@@ -9,7 +9,11 @@
       "example_sentence": "ちょうど家を出ようとしたとき、電話が鳴った。",
       "translation": "Just as I was about to leave the house, the phone rang.",
       "blank_target": "ようとした",
-      "wrong_choices": ["るようにした", "ることにした", "たがっていた"],
+      "wrong_choices": [
+        "るようにした",
+        "ることにした",
+        "たがっていた"
+      ],
       "wrong_choice_explanations": [
         "「るようにした」は「出るように心がけた」という習慣的な努力を表す。「ちょうど〜とき、電話が鳴った」という一瞬の出来事の描写には使えない。",
         "「ることにした」は「出ることに決めた」という決定を表す。ここは決めた瞬間ではなく、まさに出かける直前だったことを言いたい文である。",
@@ -17,17 +21,28 @@
       ],
       "hiragana_full": "ちょうどいえをでようとしたとき、でんわがなった。",
       "audio_alternatives": [
-        { "kanji": "家を出ようとしたちょうどそのとき、電話がかかってきた。", "hiragana_full": "いえをでようとしたちょうどそのとき、でんわがかかってきた。" },
-        { "kanji": "出かける直前に、電話が鳴った。", "hiragana_full": "でかけるちょくぜんに、でんわがなった。" }
+        {
+          "kanji": "家を出ようとしたちょうどそのとき、電話がかかってきた。",
+          "hiragana_full": "いえをでようとしたちょうどそのとき、でんわがかかってきた。"
+        },
+        {
+          "kanji": "出かける直前に、電話が鳴った。",
+          "hiragana_full": "でかけるちょくぜんに、でんわがなった。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n3_123_2",
       "example_sentence": "犯人は窓から逃げようとして、警察に捕まった。",
       "translation": "The culprit tried to escape through the window and was caught by the police.",
       "blank_target": "ようとして",
-      "wrong_choices": ["るようにして", "ることにして", "ないようにして"],
+      "wrong_choices": [
+        "るようにして",
+        "ることにして",
+        "ないようにして"
+      ],
       "wrong_choice_explanations": [
         "「るようにして」は「逃げるように心がけて」という習慣・努力目標を表し、目の前の一回の逃走の試みを描写できない。「ようとする」と「ようにする」の混同に注意。",
         "「ることにして」は「逃げることに決めて」という決定の表現。捕まったのは決定の瞬間ではなく、実際に逃げようと動いたときである。",
@@ -35,17 +50,40 @@
       ],
       "hiragana_full": "はんにんはまどからにげようとして、けいさつにつかまった。",
       "audio_alternatives": [
-        { "kanji": "犯人は窓から逃げようとしたところを、警察に取り押さえられた。", "hiragana_full": "はんにんはまどからにげようとしたところを、けいさつにとりおさえられた。" },
-        { "kanji": "窓から逃げかけた犯人は、その場で捕まった。", "hiragana_full": "まどからにげかけたはんにんは、そのばでつかまった。" }
+        {
+          "kanji": "犯人は窓から逃げようとしたところを、警察に取り押さえられた。",
+          "hiragana_full": "はんにんはまどからにげようとしたところを、けいさつにとりおさえられた。"
+        },
+        {
+          "kanji": "窓から逃げかけた犯人は、その場で捕まった。",
+          "hiragana_full": "まどからにげかけたはんにんは、そのばでつかまった。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "犯人",
+          "reading": "はんにん",
+          "meaning": "culprit; criminal"
+        },
+        {
+          "word": "捕まった",
+          "reading": "つかまった",
+          "meaning": "was caught"
+        }
+      ]
     },
     {
       "id": "n3_123_3",
       "example_sentence": "気がつくと、ろうそくの火が消えようとしていた。",
       "translation": "When I looked over, the candle flame was about to go out.",
       "blank_target": "ようとしていた",
-      "wrong_choices": ["たばかりだった", "そうもなかった", "るようになっていた"],
+      "wrong_choices": [
+        "たばかりだった",
+        "そうもなかった",
+        "るようになっていた"
+      ],
       "wrong_choice_explanations": [
         "「たばかりだった」は「消えたばかりだった＝すでに消えて間もない」という意味。まだかろうじて燃えていて、今にも消えそうだという場面と矛盾する。",
         "「そうもなかった」は「消えそうもなかった＝消える様子が全くなかった」という意味で、消える寸前という描写と正反対。",
@@ -53,17 +91,35 @@
       ],
       "hiragana_full": "きがつくと、ろうそくのひがきえようとしていた。",
       "audio_alternatives": [
-        { "kanji": "ふと見ると、ろうそくの火が今にも消えようとしていた。", "hiragana_full": "ふとみると、ろうそくのひがいまにもきえようとしていた。" },
-        { "kanji": "気がつくと、ろうそくの火は消えかかっていた。", "hiragana_full": "きがつくと、ろうそくのひはきえかかっていた。" }
+        {
+          "kanji": "ふと見ると、ろうそくの火が今にも消えようとしていた。",
+          "hiragana_full": "ふとみると、ろうそくのひがいまにもきえようとしていた。"
+        },
+        {
+          "kanji": "気がつくと、ろうそくの火は消えかかっていた。",
+          "hiragana_full": "きがつくと、ろうそくのひはきえかかっていた。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "ろうそく",
+          "reading": "ろうそく",
+          "meaning": "candle"
+        }
+      ]
     },
     {
       "id": "n3_123_4",
       "example_sentence": "赤ちゃんが椅子から落ちようとしたので、とっさに手を伸ばした。",
       "translation": "The baby was about to fall off the chair, so I instinctively reached out my hand.",
       "blank_target": "ようとした",
-      "wrong_choices": ["ないようにした", "そうもなかった", "たあとだった"],
+      "wrong_choices": [
+        "ないようにした",
+        "そうもなかった",
+        "たあとだった"
+      ],
       "wrong_choice_explanations": [
         "「ないようにした」は「落ちないように気をつけた」という本人の意識的な努力を表す。赤ちゃんが自分で注意したことになり、「とっさに手を伸ばした」理由にならない。",
         "「そうもなかった」は「落ちる様子が全くなかった」という意味。危なくないのにあわてて手を伸ばすのは不自然で、文の前後がつながらない。",
@@ -71,17 +127,40 @@
       ],
       "hiragana_full": "あかちゃんがいすからおちようとしたので、とっさにてをのばした。",
       "audio_alternatives": [
-        { "kanji": "椅子から落ちようとしている赤ちゃんを見て、とっさに手を伸ばした。", "hiragana_full": "いすからおちようとしているあかちゃんをみて、とっさにてをのばした。" },
-        { "kanji": "赤ちゃんが椅子から落ちそうになったので、急いで支えた。", "hiragana_full": "あかちゃんがいすからおちそうになったので、いそいでささえた。" }
+        {
+          "kanji": "椅子から落ちようとしている赤ちゃんを見て、とっさに手を伸ばした。",
+          "hiragana_full": "いすからおちようとしているあかちゃんをみて、とっさにてをのばした。"
+        },
+        {
+          "kanji": "赤ちゃんが椅子から落ちそうになったので、急いで支えた。",
+          "hiragana_full": "あかちゃんがいすからおちそうになったので、いそいでささえた。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "とっさに",
+          "reading": "とっさに",
+          "meaning": "reflexively; in an instant"
+        },
+        {
+          "word": "伸ばした",
+          "reading": "のばした",
+          "meaning": "reached out; extended"
+        }
+      ]
     },
     {
       "id": "n3_123_5",
       "example_sentence": "彼は嫌なことを忘れようとして、お酒を飲んだ。",
       "translation": "He drank, trying to forget the things that were bothering him.",
       "blank_target": "ようとして",
-      "wrong_choices": ["ないようにして", "たつもりで", "たとたんに"],
+      "wrong_choices": [
+        "ないようにして",
+        "たつもりで",
+        "たとたんに"
+      ],
       "wrong_choice_explanations": [
         "「ないようにして」は「忘れないように努めて」という意味になり、嫌なことをわざわざ記憶にとどめようとすることになって不自然。",
         "「たつもりで」は「もう忘れたと自分に思い込ませて」という意味。ここはまだ忘れられず、これから忘れようと努力している場面である。",
@@ -89,17 +168,28 @@
       ],
       "hiragana_full": "かれはいやなことをわすれようとして、おさけをのんだ。",
       "audio_alternatives": [
-        { "kanji": "嫌なことを忘れようとして、彼は酒に頼った。", "hiragana_full": "いやなことをわすれようとして、かれはさけにたよった。" },
-        { "kanji": "彼は嫌な記憶を消したくて、お酒を飲んだ。", "hiragana_full": "かれはいやなきおくをけしたくて、おさけをのんだ。" }
+        {
+          "kanji": "嫌なことを忘れようとして、彼は酒に頼った。",
+          "hiragana_full": "いやなことをわすれようとして、かれはさけにたよった。"
+        },
+        {
+          "kanji": "彼は嫌な記憶を消したくて、お酒を飲んだ。",
+          "hiragana_full": "かれはいやなきおくをけしたくて、おさけをのんだ。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n3_123_6",
       "example_sentence": "会議で質問しようとしたが、時間がなくて聞けなかった。",
       "translation": "I was about to ask a question in the meeting, but there wasn't time and I couldn't.",
       "blank_target": "ようとした",
-      "wrong_choices": ["たばかりだった", "ないことにした", "ようがなかった"],
+      "wrong_choices": [
+        "たばかりだった",
+        "ないことにした",
+        "ようがなかった"
+      ],
       "wrong_choice_explanations": [
         "「たばかりだった」は「質問した直後だった」という意味で、すでに質問できたことになる。「聞けなかった」という結果と矛盾する。",
         "「ないことにした」は「質問しないと決めた」という自分の決定を表す。自分で決めてやめたのなら、「時間がなくて聞けなかった」という残念な理由づけと合わない。",
@@ -107,17 +197,28 @@
       ],
       "hiragana_full": "かいぎでしつもんしようとしたが、じかんがなくてきけなかった。",
       "audio_alternatives": [
-        { "kanji": "会議で手を挙げて質問しようとしたが、時間切れになってしまった。", "hiragana_full": "かいぎでてをあげてしつもんしようとしたが、じかんぎれになってしまった。" },
-        { "kanji": "質問したかったのに、会議の時間が足りなくて聞けなかった。", "hiragana_full": "しつもんしたかったのに、かいぎのじかんがたりなくてきけなかった。" }
+        {
+          "kanji": "会議で手を挙げて質問しようとしたが、時間切れになってしまった。",
+          "hiragana_full": "かいぎでてをあげてしつもんしようとしたが、じかんぎれになってしまった。"
+        },
+        {
+          "kanji": "質問したかったのに、会議の時間が足りなくて聞けなかった。",
+          "hiragana_full": "しつもんしたかったのに、かいぎのじかんがたりなくてきけなかった。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n3_123_7",
       "example_sentence": "ドアには誰かが鍵を開けようとした跡が残っていた。",
       "translation": "There were marks on the door where someone had tried to force the lock open.",
       "blank_target": "ようとした",
-      "wrong_choices": ["られた", "るようにした", "そうになった"],
+      "wrong_choices": [
+        "られた",
+        "るようにした",
+        "そうになった"
+      ],
       "wrong_choice_explanations": [
         "「られた」は受身で「開けられた跡＝実際に開けられた跡」という意味になる。ここは開けるのに失敗した試みの跡を言いたいので、成功したことになる受身では意味が変わる。",
         "「るようにした」は「開けるように心がけた」という習慣的な努力の表現で、一回の侵入の試みを表すこの文脈には合わない。",
@@ -125,17 +226,35 @@
       ],
       "hiragana_full": "どあにはだれかがかぎをあけようとしたあとがのこっていた。",
       "audio_alternatives": [
-        { "kanji": "ドアには、鍵を無理に開けようとした跡があった。", "hiragana_full": "どあには、かぎをむりにあけようとしたあとがあった。" },
-        { "kanji": "ドアの鍵の部分に、こじ開けられそうになった傷が残っていた。", "hiragana_full": "どあのかぎのぶぶんに、こじあけられそうになったきずがのこっていた。" }
+        {
+          "kanji": "ドアには、鍵を無理に開けようとした跡があった。",
+          "hiragana_full": "どあには、かぎをむりにあけようとしたあとがあった。"
+        },
+        {
+          "kanji": "ドアの鍵の部分に、こじ開けられそうになった傷が残っていた。",
+          "hiragana_full": "どあのかぎのぶぶんに、こじあけられそうになったきずがのこっていた。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "跡",
+          "reading": "あと",
+          "meaning": "trace; mark"
+        }
+      ]
     },
     {
       "id": "n3_123_8",
       "example_sentence": "妹は発表の内容を一晩でまとめようとして、徹夜してしまった。",
       "translation": "My sister tried to put together her whole presentation in one night and ended up staying up until morning.",
       "blank_target": "ようとして",
-      "wrong_choices": ["るようにして", "ることにして", "ないようにして"],
+      "wrong_choices": [
+        "るようにして",
+        "ることにして",
+        "ないようにして"
+      ],
       "wrong_choice_explanations": [
         "「るようにして」は「まとめるように日ごろから心がけて」という習慣的な努力を表す。「一晩で」という一回きりの無茶な試みの描写には合わない。",
         "「ることにして」は「まとめることに決めて」という決定だけを表す。徹夜という結果を生んだのは決定そのものではなく、実際にまとめようと奮闘したことである。",
@@ -143,17 +262,40 @@
       ],
       "hiragana_full": "いもうとははっぴょうのないようをひとばんでまとめようとして、てつやしてしまった。",
       "audio_alternatives": [
-        { "kanji": "妹は発表の準備を一晩で終わらせようとして、徹夜になってしまった。", "hiragana_full": "いもうとははっぴょうのじゅんびをひとばんでおわらせようとして、てつやになってしまった。" },
-        { "kanji": "妹は一晩で発表の内容をまとめるために、徹夜した。", "hiragana_full": "いもうとはひとばんではっぴょうのないようをまとめるために、てつやした。" }
+        {
+          "kanji": "妹は発表の準備を一晩で終わらせようとして、徹夜になってしまった。",
+          "hiragana_full": "いもうとははっぴょうのじゅんびをひとばんでおわらせようとして、てつやになってしまった。"
+        },
+        {
+          "kanji": "妹は一晩で発表の内容をまとめるために、徹夜した。",
+          "hiragana_full": "いもうとはひとばんではっぴょうのないようをまとめるために、てつやした。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "一晩",
+          "reading": "ひとばん",
+          "meaning": "one night"
+        },
+        {
+          "word": "徹夜",
+          "reading": "てつや",
+          "meaning": "staying up all night"
+        }
+      ]
     },
     {
       "id": "n3_123_9",
       "example_sentence": "夜が明けようとしていたころ、ようやく仕事が終わった。",
       "translation": "Around the time dawn was about to break, I finally finished my work.",
       "blank_target": "ようとしていた",
-      "wrong_choices": ["たばかりだった", "そうもなかった", "るようになっていた"],
+      "wrong_choices": [
+        "たばかりだった",
+        "そうもなかった",
+        "るようになっていた"
+      ],
       "wrong_choice_explanations": [
         "「たばかりだった」は「明けたばかり＝もう朝になって間もない」という意味。夜明け直前という「まだ夜」の時間を指したいこの文とは時点がずれる。",
         "「そうもなかった」は「明ける気配が全くなかった＝まだ真夜中」という意味で、夜明けが近いという描写と正反対。",
@@ -161,17 +303,35 @@
       ],
       "hiragana_full": "よがあけようとしていたころ、ようやくしごとがおわった。",
       "audio_alternatives": [
-        { "kanji": "夜が明けようとするころ、やっと仕事が片づいた。", "hiragana_full": "よがあけようとするころ、やっとしごとがかたづいた。" },
-        { "kanji": "空が明るくなり始めたころ、ようやく仕事が終わった。", "hiragana_full": "そらがあかるくなりはじめたころ、ようやくしごとがおわった。" }
+        {
+          "kanji": "夜が明けようとするころ、やっと仕事が片づいた。",
+          "hiragana_full": "よがあけようとするころ、やっとしごとがかたづいた。"
+        },
+        {
+          "kanji": "空が明るくなり始めたころ、ようやく仕事が終わった。",
+          "hiragana_full": "そらがあかるくなりはじめたころ、ようやくしごとがおわった。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "ようやく",
+          "reading": "ようやく",
+          "meaning": "finally; at last"
+        }
+      ]
     },
     {
       "id": "n3_123_10",
       "example_sentence": "私が答えようとしたとき、ほかの人が先に話し始めた。",
       "translation": "Just as I was about to answer, someone else started talking first.",
       "blank_target": "ようとした",
-      "wrong_choices": ["ることにした", "ないことにした", "るようにした"],
+      "wrong_choices": [
+        "ることにした",
+        "ないことにした",
+        "るようにした"
+      ],
       "wrong_choice_explanations": [
         "「ることにした」は「答えることに決めた」という決定を表す。ここは決心の瞬間ではなく、口を開こうとしたまさにその瞬間を言いたい文である。",
         "「ないことにした」は「答えないと決めた」という意味。自分から答えるのをやめたのなら、他の人に先を越されたという残念なニュアンスが成り立たない。",
@@ -179,10 +339,17 @@
       ],
       "hiragana_full": "わたしがこたえようとしたとき、ほかのひとがさきにはなしはじめた。",
       "audio_alternatives": [
-        { "kanji": "私が答えようとした瞬間、隣の人が先に発言した。", "hiragana_full": "わたしがこたえようとしたしゅんかん、となりのひとがさきにはつげんした。" },
-        { "kanji": "私が口を開く前に、ほかの人が話し始めた。", "hiragana_full": "わたしがくちをひらくまえに、ほかのひとがはなしはじめた。" }
+        {
+          "kanji": "私が答えようとした瞬間、隣の人が先に発言した。",
+          "hiragana_full": "わたしがこたえようとしたしゅんかん、となりのひとがさきにはつげんした。"
+        },
+        {
+          "kanji": "私が口を開く前に、ほかの人が話し始めた。",
+          "hiragana_full": "わたしがくちをひらくまえに、ほかのひとがはなしはじめた。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "n4_063",
-  "pattern": "～とか",
-  "meaning": "Things like ~ / Something like ~ / I heard that ~",
+  "pattern": "〜とか（〜とか）",
+  "meaning": "Things like ~ (and ~) / Something like ~ / I heard that ~",
   "level": "N4",
   "exercises": [
     {
@@ -30,66 +30,11 @@
           "hiragana_full": "えいがかんしょうやどくしょがすきです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n4_063_2",
-      "example_sentence": "今日は雨が降るとか言ってたよ。",
-      "translation": "They were saying it might rain today or something.",
-      "blank_target": "とか",
-      "wrong_choices": [
-        "って",
-        "と",
-        "から"
-      ],
-      "wrong_choice_explanations": [
-        "って is direct casual quotation — とか makes the information sound more uncertain or approximate",
-        "と is formal quotation — とか adds a casual, less definitive nuance to the reported information",
-        "から means 'because' — it creates a reason rather than uncertain hearsay"
-      ],
-      "hiragana_full": "きょうはあめがふるとかいってたよ",
-      "audio_alternatives": [
-        {
-          "kanji": "今日は雨が降るって言ってたよ。",
-          "hiragana_full": "きょうはあめがふるっていってたよ"
-        },
-        {
-          "kanji": "今日は雨が降るかもって言ってたよ。",
-          "hiragana_full": "きょうはあめがふるかもっていってたよ"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_063_3",
-      "example_sentence": "寿司とか天ぷらを食べに行こう。",
-      "translation": "Let's go eat sushi, tempura, and things like that.",
-      "blank_target": "とか",
-      "wrong_choices": [
-        "と",
-        "また",
-        "それに"
-      ],
-      "wrong_choice_explanations": [
-        "と links 寿司 and 天ぷら as a complete, exhaustive pair (just those two), whereas とか presents them as examples, implying other foods too.",
-        "また means 'again/also' — it doesn't create the inclusive listing that とか provides",
-        "それに means 'furthermore/besides' — it adds information rather than listing similar examples"
-      ],
-      "hiragana_full": "すしとかてんぷらをたべにいこう",
-      "audio_alternatives": [
-        {
-          "kanji": "寿司や天ぷらを食べに行こう。",
-          "hiragana_full": "すしやてんぷらをたべにいこう"
-        },
-        {
-          "kanji": "寿司とか天ぷらとかを食べに行きましょう。",
-          "hiragana_full": "すしとかてんぷらとかをたべにいきましょう"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_063_4",
       "example_sentence": "彼は忙しいとかで、なかなか会えない。",
       "translation": "He's busy or something, so we can't meet easily.",
       "blank_target": "とか",
@@ -114,50 +59,23 @@
           "hiragana_full": "かれはいそがしいそうで、なかなかあえない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
-      "id": "n4_063_5",
-      "example_sentence": "コーヒーとか紅茶はいかがですか。",
-      "translation": "How about coffee, tea, or something like that?",
-      "blank_target": "とか",
-      "wrong_choices": [
-        "か",
-        "または",
-        "あるいは"
-      ],
-      "wrong_choice_explanations": [
-        "か creates either/or choice — とか is more inclusive and suggests other similar options",
-        "または means 'or' formally — とか is more casual and implies additional similar choices",
-        "あるいは means 'or perhaps' — it's more formal than the casual, inclusive nature of とか"
-      ],
-      "hiragana_full": "コーヒーとかこうちゃはいかがですか。",
-      "audio_alternatives": [
-        {
-          "kanji": "コーヒーや紅茶はいかがですか。",
-          "hiragana_full": "コーヒーやこうちゃはいかがですか。"
-        },
-        {
-          "kanji": "コーヒーか紅茶などはどうですか。",
-          "hiragana_full": "コーヒーかこうちゃなどはどうですか。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_063_6",
+      "id": "n4_063_3",
       "example_sentence": "新しい店ができたとか聞いた。",
       "translation": "I heard something about a new store opening.",
       "blank_target": "とか",
       "wrong_choices": [
-        "って",
+        "まで",
         "という",
         "だと"
       ],
       "wrong_choice_explanations": [
-        "って is direct casual hearsay — とか makes the information sound more uncertain or vague",
-        "という is formal reporting — とか adds casualness and uncertainty to the hearsay",
-        "だと is formal quotation — とか makes the reported information sound less definite"
+        "まで means 'until/even' — it can't follow a clause as a quotation marker before 聞いた, so it doesn't report what was heard the way とか does",
+        "という must be followed by a noun (〜という話を聞いた); 新しい店ができたという聞いた is ungrammatical. とか loosely quotes the rumor before 聞いた.",
+        "だと can't follow a past-tense verb (できただと is ungrammatical); とか is what quotes the vaguely remembered news before 聞いた."
       ],
       "hiragana_full": "あたらしいみせができたとかきいた。",
       "audio_alternatives": [
@@ -170,119 +88,285 @@
           "hiragana_full": "あたらしいおみせができたってきいた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
+    },
+    {
+      "id": "n4_063_4",
+      "example_sentence": "朝ご飯はパンとかヨーグルトとかを食べることが多いです。",
+      "translation": "For breakfast I often eat things like bread and yogurt.",
+      "blank_target": "とか",
+      "wrong_choices": [
+        "やら",
+        "なり",
+        "を"
+      ],
+      "wrong_choice_explanations": [
+        "やら (パンやらヨーグルトやら) lists items with a nuance of a vague jumble or mild exasperation; here it's just a typical pair of foods, so the casual とか…とか fits.",
+        "なり (パンなりヨーグルトなり) means 'either bread or yogurt, whichever,' presenting options to choose from; the speaker is describing what they actually eat, not offering a choice.",
+        "を (パンをヨーグルトとかを) would mark パン as a separate direct object, leaving two を-phrases with no link; it can't list examples the way とか…とか does."
+      ],
+      "hiragana_full": "あさごはんはぱんとかよーぐるととかをたべることがおおいです。",
+      "audio_alternatives": [
+        {
+          "kanji": "朝はトーストとかヨーグルトとかで軽くすませます。",
+          "hiragana_full": "あさはとーすととかよーぐるととかでかるくすませます。"
+        },
+        {
+          "kanji": "朝食はパンやヨーグルトを食べる日が多いです。",
+          "hiragana_full": "ちょうしょくはぱんやよーぐるとをたべるひがおおいです。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "ヨーグルト",
+          "reading": "よーぐると",
+          "meaning": "yogurt"
+        }
+      ]
+    },
+    {
+      "id": "n4_063_5",
+      "example_sentence": "旅行先では、お寺とか神社とかをよく見に行きます。",
+      "translation": "When I travel, I often go to see temples, shrines, and the like.",
+      "blank_target": "とか",
+      "wrong_choices": [
+        "も",
+        "だの",
+        "を"
+      ],
+      "wrong_choice_explanations": [
+        "も (お寺も神社も) emphasizes 'both temples and shrines'; the sentence just lists representative sights without that 'both' stress.",
+        "だの (お寺だの神社だの) adds a dismissive, grumbling tone toward the places; nothing suggests the speaker finds them tiresome.",
+        "を (お寺を神社とかを) would give 見に行く two separate objects with nothing joining them; とか…とか is needed to list representative sights."
+      ],
+      "hiragana_full": "りょこうさきでは、おてらとかじんじゃとかをよくみにいきます。",
+      "audio_alternatives": [
+        {
+          "kanji": "旅行に行くと、神社とか古いお寺とかを見て回ります。",
+          "hiragana_full": "りょこうにいくと、じんじゃとかふるいおてらとかをみてまわります。"
+        },
+        {
+          "kanji": "旅先では歴史的な建物をよく見学します。",
+          "hiragana_full": "たびさきではれきしてきなたてものをよくけんがくします。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "旅行先",
+          "reading": "りょこうさき",
+          "meaning": "travel destination"
+        },
+        {
+          "word": "お寺",
+          "reading": "おてら",
+          "meaning": "temple"
+        },
+        {
+          "word": "神社",
+          "reading": "じんじゃ",
+          "meaning": "shrine"
+        }
+      ]
+    },
+    {
+      "id": "n4_063_6",
+      "example_sentence": "田中さんとか鈴木さんとか、何人かに聞いてみたら?",
+      "translation": "Why don't you ask a few people, like Tanaka, Suzuki, and others?",
+      "blank_target": "とか",
+      "wrong_choices": [
+        "を",
+        "だの",
+        "で"
+      ],
+      "wrong_choice_explanations": [
+        "を (田中さんを) marks a direct object, but 聞く takes に for the person asked, and を can't link the two names as examples the way とか…とか does.",
+        "だの (田中さんだの鈴木さんだの) names them with an annoyed, dismissive tone; the suggestion here is neutral and helpful.",
+        "で (田中さんで) marks a place or means, not a list item; it can't present Tanaka and Suzuki as examples of people to ask."
+      ],
+      "hiragana_full": "たなかさんとかすずきさんとか、なんにんかにきいてみたら?",
+      "audio_alternatives": [
+        {
+          "kanji": "山田さんとか佐藤さんとか、詳しそうな人に相談してみたら?",
+          "hiragana_full": "やまださんとかさとうさんとか、くわしそうなひとにそうだんしてみたら?"
+        },
+        {
+          "kanji": "田中さんや鈴木さんなど、何人かに聞いてみるといいよ。",
+          "hiragana_full": "たなかさんやすずきさんなど、なんにんかにきいてみるといいよ。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "何人か",
+          "reading": "なんにんか",
+          "meaning": "a few people"
+        }
+      ]
     },
     {
       "id": "n4_063_7",
-      "example_sentence": "野球とかサッカーをするのはどう？",
-      "translation": "How about doing baseball, soccer, or things like that?",
+      "example_sentence": "この店はケーキとかクッキーとか、甘い物が人気です。",
+      "translation": "At this shop, sweets like cake and cookies are popular.",
       "blank_target": "とか",
       "wrong_choices": [
-        "と",
-        "それとも",
-        "もしくは"
+        "も",
+        "を",
+        "やら"
       ],
       "wrong_choice_explanations": [
-        "と links 野球 and サッカー as a complete pair, whereas とか offers them as examples among other possible activities.",
-        "それとも means 'or' but creates either/or choice — とか suggests multiple possibilities",
-        "もしくは means 'or alternatively' — とか is more inclusive and casual than this formal alternative"
+        "も (ケーキもクッキーも) means 'both cake and cookies,' stressing each; the sentence introduces them as examples of popular sweets, not emphasizing 'both.'",
+        "を (ケーキをクッキーとか) would mark ケーキ as an object, but there's no verb for it here; the sentence needs とか…とか to list examples of popular sweets.",
+        "やら (ケーキやらクッキーやら) implies a cluttered, miscellaneous assortment with a hint of exasperation; here it's an appealing pair of examples."
       ],
-      "hiragana_full": "やきゅうとかサッカーをするのはどう？",
+      "hiragana_full": "このみせはけーきとかくっきーとか、あまいものがにんきです。",
       "audio_alternatives": [
         {
-          "kanji": "野球とかサッカーなどをするのはどうですか？",
-          "hiragana_full": "やきゅうとかサッカーなどをするのはどうですか？"
+          "kanji": "ここはケーキとか焼き菓子とか、デザートがおいしいんだ。",
+          "hiragana_full": "ここはけーきとかやきがしとか、でざーとがおいしいんだ。"
         },
         {
-          "kanji": "野球やサッカーをするのはどうでしょう？",
-          "hiragana_full": "やきゅうやサッカーをするのはどうでしょう？"
+          "kanji": "この店ではケーキやクッキーなどの甘い物がよく売れます。",
+          "hiragana_full": "このみせではけーきやくっきーなどのあまいものがよくうれます。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "クッキー",
+          "reading": "くっきー",
+          "meaning": "cookies"
+        }
+      ]
     },
     {
       "id": "n4_063_8",
-      "example_sentence": "頭が痛いとかで、今日は休みたい。",
-      "translation": "I have a headache or something, so I want to rest today.",
+      "example_sentence": "休みの日は、掃除とか洗濯とかで終わってしまう。",
+      "translation": "My days off end up being taken up by things like cleaning and laundry.",
       "blank_target": "とか",
       "wrong_choices": [
-        "ので",
-        "だから",
-        "ため"
+        "を",
+        "も",
+        "が"
       ],
       "wrong_choice_explanations": [
-        "ので means 'because' — とか makes the reason sound less definite and more casual",
-        "だから means 'therefore' — とか adds uncertainty to the stated reason",
-        "ため means 'for the purpose of' — it doesn't express the uncertain reasoning that とか provides"
+        "を (掃除を洗濯とかで) marks a direct object with no verb to take it; the doubled とか is needed to list chores as examples.",
+        "も (掃除も洗濯も) means 'both cleaning and laundry,' emphasizing each; the sentence lists them as examples of how the day fills up.",
+        "が (掃除が洗濯とかで) would make 掃除 a subject with no predicate of its own; とか…とか is needed to list the chores as examples."
       ],
-      "hiragana_full": "あたまがいたいとかで、きょうはやすみたい。",
+      "hiragana_full": "やすみのひは、そうじとかせんたくとかでおわってしまう。",
       "audio_alternatives": [
         {
-          "kanji": "頭痛があるとかで、今日は休みたいです。",
-          "hiragana_full": "ずつうがあるとかで、きょうはやすみたいです。"
+          "kanji": "せっかくの休日も、掃除とか洗濯とかであっという間に過ぎる。",
+          "hiragana_full": "せっかくのきゅうじつも、そうじとかせんたくとかであっというまにすぎる。"
         },
         {
-          "kanji": "頭が痛いとかいって、今日は休みたがっている。",
-          "hiragana_full": "あたまがいたいとかいって、きょうはやすみたがっている。"
+          "kanji": "休みの日は家事に追われて終わってしまう。",
+          "hiragana_full": "やすみのひはかじにおわれておわってしまう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "掃除",
+          "reading": "そうじ",
+          "meaning": "cleaning"
+        },
+        {
+          "word": "洗濯",
+          "reading": "せんたく",
+          "meaning": "laundry"
+        }
+      ]
     },
     {
       "id": "n4_063_9",
-      "example_sentence": "スマホとかパソコンを買い替えたい。",
-      "translation": "I want to replace my smartphone, computer, and such.",
+      "example_sentence": "子供の頃は、虫とか魚とかをよく捕まえていました。",
+      "translation": "As a child, I often caught things like insects and fish.",
       "blank_target": "とか",
       "wrong_choices": [
-        "か",
-        "と",
+        "を",
+        "やら",
         "も"
       ],
       "wrong_choice_explanations": [
-        "か frames スマホ and パソコン as an either/or choice (one or the other), whereas とか lists them as examples of things you'd replace.",
-        "と implies a complete list — とか suggests there might be other devices to replace",
-        "も means 'also' — it doesn't create the inclusive listing of similar items that とか provides"
+        "を (虫を魚とかを) would give 捕まえる two separate objects with no link between them; the doubled とか lists them as examples of what was caught.",
+        "やら (虫やら魚やら) suggests a messy, miscellaneous jumble, often with a tinge of exasperation; here it's a fond, simple pair of examples.",
+        "も (虫も魚も) means 'both insects and fish,' emphasizing each category; the sentence offers them as examples of what was caught."
       ],
-      "hiragana_full": "すまほとかぱそこんをかいかえたい。",
+      "hiragana_full": "こどものころは、むしとかさかなとかをよくつかまえていました。",
       "audio_alternatives": [
         {
-          "kanji": "スマホやパソコンを買い替えたい。",
-          "hiragana_full": "すまほやぱそこんをかいかえたい。"
+          "kanji": "小さい頃は、セミとかザリガニとかを捕まえて遊んだ。",
+          "hiragana_full": "ちいさいころは、せみとかざりがにとかをつかまえてあそんだ。"
         },
         {
-          "kanji": "スマホとかパソコンなどを買い替えたいです。",
-          "hiragana_full": "すまほとかぱそこんなどをかいかえたいです。"
+          "kanji": "子供のときは虫や魚を捕まえるのが好きでした。",
+          "hiragana_full": "こどものときはむしやさかなをつかまえるのがすきでした。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "虫",
+          "reading": "むし",
+          "meaning": "insects"
+        },
+        {
+          "word": "捕まえて",
+          "reading": "つかまえて",
+          "meaning": "to catch"
+        }
+      ]
     },
     {
       "id": "n4_063_10",
-      "example_sentence": "明日は暇とかだから、遊びに行こう。",
-      "translation": "I'm free tomorrow or something, so let's go out.",
+      "example_sentence": "週末はテニスとかジョギングとか、体を動かすのが好きです。",
+      "translation": "On weekends I like being active, doing things like tennis and jogging.",
       "blank_target": "とか",
       "wrong_choices": [
-        "だ",
-        "みたい",
-        "らしい"
+        "を",
+        "なり",
+        "も"
       ],
       "wrong_choice_explanations": [
-        "だ is a definite copula — とか makes the statement sound more tentative and casual",
-        "みたい means 'seems like' — とか creates different nuance of casual uncertainty",
-        "らしい means 'apparently' — とか expresses casual approximation rather than hearsay"
+        "を (テニスをジョギングとか) marks a direct object with no verb to take it; とか…とか is needed to list examples of activities.",
+        "なり (テニスなりジョギングなり) means 'either tennis or jogging, whichever,' offering a choice; the speaker is just naming examples of activities they enjoy.",
+        "も (テニスもジョギングも) means 'both tennis and jogging,' emphasizing each; here they're loose examples of staying active."
       ],
-      "hiragana_full": "あしたはひまとかだから、あそびにいこう。",
+      "hiragana_full": "しゅうまつはてにすとかじょぎんぐとか、からだをうごかすのがすきです。",
       "audio_alternatives": [
         {
-          "kanji": "明日は暇だから、遊びに行こう。",
-          "hiragana_full": "あしたはひまだから、あそびにいこう。"
+          "kanji": "休日はテニスとか水泳とか、スポーツをして汗を流す。",
+          "hiragana_full": "きゅうじつはてにすとかすいえいとか、すぽーつをしてあせをながす。"
         },
         {
-          "kanji": "明日は時間があるから、出かけよう。",
-          "hiragana_full": "あしたはじかんがあるから、でかけよう。"
+          "kanji": "週末はテニスやジョギングなどで体を動かしています。",
+          "hiragana_full": "しゅうまつはてにすやじょぎんぐなどでからだをうごかしています。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "ジョギング",
+          "reading": "じょぎんぐ",
+          "meaning": "jogging"
+        },
+        {
+          "word": "体を動かす",
+          "reading": "からだをうごかす",
+          "meaning": "to be physically active"
+        }
+      ]
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "n4_030",
-  "pattern": "～によると",
-  "meaning": "According to ~",
+  "pattern": "〜によると／によれば",
+  "meaning": "According to ~ (citing a source of information)",
   "level": "N4",
   "exercises": [
     {
@@ -30,122 +30,18 @@
           "hiragana_full": "てんきよほうによれば、あしたはあめがふるそうです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "天気予報",
+          "reading": "てんきよほう",
+          "meaning": "weather forecast"
+        }
+      ]
     },
     {
       "id": "n4_030_2",
-      "example_sentence": "新聞によると、経済が良くなっているらしい。",
-      "translation": "According to the newspaper, the economy seems to be improving.",
-      "blank_target": "によると",
-      "wrong_choices": [
-        "として",
-        "から",
-        "で"
-      ],
-      "wrong_choice_explanations": [
-        "として means 'as / in the capacity of' (treating the newspaper as a role), not citing it as the source of the information, which によると does.",
-        "から marks an origin ('from the newspaper'); on its own it doesn't convey 'according to the newspaper's report,' which によると expresses before らしい.",
-        "で marks a means or location ('by/in the newspaper'); it can hint at where you read something, but によると is the set phrase for crediting a source."
-      ],
-      "hiragana_full": "しんぶんによると、けいざいがよくなっているらしい。",
-      "audio_alternatives": [
-        {
-          "kanji": "新聞によれば、経済が良くなっているようだ。",
-          "hiragana_full": "しんぶんによれば、けいざいがよくなっているようだ。"
-        },
-        {
-          "kanji": "新聞では、経済が良くなっているらしい。",
-          "hiragana_full": "しんぶんでは、けいざいがよくなっているらしい。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_030_3",
-      "example_sentence": "母の話によると、兄は来月帰ってくるそうだ。",
-      "translation": "According to my mother, my older brother will return next month.",
-      "blank_target": "によると",
-      "wrong_choices": [
-        "に基づいて",
-        "から",
-        "について"
-      ],
-      "wrong_choice_explanations": [
-        "に基づいて means 'based on,' using mother's account as grounds for a decision, rather than quoting what she said, which によると does.",
-        "から marks an origin ('from mother'); citing the content of what she said calls for によると, not a bare 'from.'",
-        "について means 'about/regarding,' making mother's story the topic, not the source being cited."
-      ],
-      "hiragana_full": "ははのはなしによると、あにはらいげつかえってくるそうだ。",
-      "audio_alternatives": [
-        {
-          "kanji": "母の話では、兄は来月帰ってくるそうだ。",
-          "hiragana_full": "ははのはなしでは、あにはらいげつかえってくるそうだ。"
-        },
-        {
-          "kanji": "母によると、兄は来月帰ってくるらしい。",
-          "hiragana_full": "ははによると、あにはらいげつかえってくるらしい。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_030_4",
-      "example_sentence": "医者によると、この薬を飲めば治るそうです。",
-      "translation": "According to the doctor, it will heal if I take this medicine.",
-      "blank_target": "によると",
-      "wrong_choices": [
-        "から",
-        "が",
-        "は"
-      ],
-      "wrong_choice_explanations": [
-        "から marks an origin ('from the doctor'); to report the content of the doctor's statement you need によると, not a bare 'from.'",
-        "が would make 医者 the grammatical subject ('the doctor heals…'), losing the 'according to the doctor' sense that によると supplies.",
-        "は would make 医者 the topic ('as for the doctor…'), not cite the doctor as the source of the report, which によると does."
-      ],
-      "hiragana_full": "いしゃによると、このくすりをのめばなおるそうです。",
-      "audio_alternatives": [
-        {
-          "kanji": "医者の話では、この薬を飲めば治るそうです。",
-          "hiragana_full": "いしゃのはなしでは、このくすりをのめばなおるそうです。"
-        },
-        {
-          "kanji": "医者によると、この薬を飲んだら治るそうです。",
-          "hiragana_full": "いしゃによると、このくすりをのんだらなおるそうです。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_030_5",
-      "example_sentence": "研究結果によると、この方法が一番効果的だ。",
-      "translation": "According to the research results, this method is most effective.",
-      "blank_target": "によると",
-      "wrong_choices": [
-        "に関して",
-        "から",
-        "で"
-      ],
-      "wrong_choice_explanations": [
-        "に関して means 'regarding/concerning,' presenting the results as a topic of discussion, not as the source of the claim, which によると credits.",
-        "から marks an origin ('from the results'); reporting what the data shows uses によると, not a bare 'from.'",
-        "で marks a means or location; it can say where a fact appears, but によると is the standard phrase for 'according to' the findings."
-      ],
-      "hiragana_full": "けんきゅうけっかによると、このほうほうがいちばんこうかてきだ。",
-      "audio_alternatives": [
-        {
-          "kanji": "研究結果によれば、この方法が一番効果的です。",
-          "hiragana_full": "けんきゅうけっかによれば、このほうほうがいちばんこうかてきです。"
-        },
-        {
-          "kanji": "研究結果によると、この方法が最も効果的だ。",
-          "hiragana_full": "けんきゅうけっかによると、このほうほうがもっともこうかてきだ。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_030_6",
       "example_sentence": "友達によると、あの店の料理はとてもおいしいらしい。",
       "translation": "According to my friend, the food at that restaurant is apparently very delicious.",
       "blank_target": "によると",
@@ -170,38 +66,11 @@
           "hiragana_full": "ともだちによれば、あのみせのりょうりはとてもおいしいらしい。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
-      "id": "n4_030_7",
-      "example_sentence": "ニュースによると、事故で電車が止まっているそうです。",
-      "translation": "According to the news, trains are stopped due to an accident.",
-      "blank_target": "によると",
-      "wrong_choices": [
-        "で",
-        "を見ると",
-        "として"
-      ],
-      "wrong_choice_explanations": [
-        "で marks a means or location ('by/in the news'); it can suggest where you heard something, but によると is the set phrase for crediting the news as the source.",
-        "を見ると means 'upon looking at the news,' focusing on your own act of watching, not citing the news as the source of a report, which によると does.",
-        "として means 'as / in the capacity of,' describing the news's role, not citing it as the source of the information."
-      ],
-      "hiragana_full": "にゅーすによると、じこででんしゃがとまっているそうです。",
-      "audio_alternatives": [
-        {
-          "kanji": "ニュースによれば、事故で電車が止まっているそうです。",
-          "hiragana_full": "にゅーすによれば、じこででんしゃがとまっているそうです。"
-        },
-        {
-          "kanji": "ニュースによると、事故のせいで電車が止まっているそうです。",
-          "hiragana_full": "にゅーすによると、じこのせいででんしゃがとまっているそうです。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_030_8",
+      "id": "n4_030_3",
       "example_sentence": "占いによると、今日は運がいい日だそうです。",
       "translation": "According to the fortune telling, today is supposed to be a lucky day.",
       "blank_target": "によると",
@@ -226,63 +95,292 @@
           "hiragana_full": "うらないによれば、きょうはうんがいいひだということです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "占い",
+          "reading": "うらない",
+          "meaning": "fortune-telling"
+        },
+        {
+          "word": "運",
+          "reading": "うん",
+          "meaning": "luck"
+        }
+      ]
+    },
+    {
+      "id": "n4_030_4",
+      "example_sentence": "ある調査によると、寝る時間が足りない人が多い。",
+      "translation": "According to a survey, many people don't get enough sleep.",
+      "blank_target": "によると",
+      "wrong_choices": [
+        "について",
+        "にして",
+        "に比べて"
+      ],
+      "wrong_choice_explanations": [
+        "について means 'about'; it would make the survey a topic, not the source being cited for the claim.",
+        "にして is not a way to cite a source; it can't connect 調査 to the reported information.",
+        "に比べて means 'compared with'; nothing is being compared with the survey — it is the source of the information."
+      ],
+      "hiragana_full": "あるちょうさによると、ねるじかんがたりないひとがおおい。",
+      "audio_alternatives": [
+        {
+          "kanji": "ある調査では、寝る時間が足りない人が多いそうだ。",
+          "hiragana_full": "あるちょうさでは、ねるじかんがたりないひとがおおいそうだ。"
+        },
+        {
+          "kanji": "ある調査によれば、寝る時間が足りない人が多いということだ。",
+          "hiragana_full": "あるちょうさによれば、ねるじかんがたりないひとがおおいということだ。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "調査",
+          "reading": "ちょうさ",
+          "meaning": "survey"
+        },
+        {
+          "word": "足りない",
+          "reading": "たりない",
+          "meaning": "not enough"
+        }
+      ]
+    },
+    {
+      "id": "n4_030_5",
+      "example_sentence": "会社の発表によると、来年新製品を発売するそうだ。",
+      "translation": "According to the company's announcement, they will release a new product next year.",
+      "blank_target": "によると",
+      "wrong_choices": [
+        "としては",
+        "について",
+        "にかけて"
+      ],
+      "wrong_choice_explanations": [
+        "としては means 'as for' or 'from the standpoint of', expressing perspective rather than citing sources",
+        "について means 'about / regarding' and introduces a topic, not a source being cited the way によると does.",
+        "にかけて means 'over' or 'throughout' (time/space), not for citing information sources"
+      ],
+      "hiragana_full": "かいしゃのはっぴょうによると、らいねんしんせいひんをはつばいするそうだ。",
+      "audio_alternatives": [
+        {
+          "kanji": "会社の発表によれば、来年新製品を発売するそうです。",
+          "hiragana_full": "かいしゃのはっぴょうによれば、らいねんしんせいひんをはつばいするそうです。"
+        },
+        {
+          "kanji": "会社の発表では、来年新製品を発売するとのことだ。",
+          "hiragana_full": "かいしゃのはっぴょうでは、らいねんしんせいひんをはつばいするとのことだ。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "発表",
+          "reading": "はっぴょう",
+          "meaning": "announcement"
+        },
+        {
+          "word": "新製品",
+          "reading": "しんせいひん",
+          "meaning": "new product"
+        },
+        {
+          "word": "発売",
+          "reading": "はつばい",
+          "meaning": "release (for sale)"
+        }
+      ]
+    },
+    {
+      "id": "n4_030_6",
+      "example_sentence": "新聞によれば、来月から電車の運賃が上がるそうだ。",
+      "translation": "According to the newspaper, train fares will increase from next month.",
+      "blank_target": "によれば",
+      "wrong_choices": [
+        "によって",
+        "として",
+        "からして"
+      ],
+      "wrong_choice_explanations": [
+        "によって indicates agent or means but doesn't cite information sources like によれば does",
+        "として means 'as' or 'in the capacity of', used for roles or capacities, not citing sources",
+        "からして means 'judging from' or 'starting with', but expresses inference rather than citing specific sources"
+      ],
+      "hiragana_full": "しんぶんによれば、らいげつからでんしゃのうんちんがあがるそうだ。",
+      "audio_alternatives": [
+        {
+          "kanji": "新聞によると、来月から電車の運賃が上がるそうだ。",
+          "hiragana_full": "しんぶんによると、らいげつからでんしゃのうんちんがあがるそうだ。"
+        },
+        {
+          "kanji": "新聞によれば、来月から電車の運賃が上がるらしい。",
+          "hiragana_full": "しんぶんによれば、らいげつからでんしゃのうんちんがあがるらしい。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "運賃",
+          "reading": "うんちん",
+          "meaning": "fare"
+        }
+      ]
+    },
+    {
+      "id": "n4_030_7",
+      "example_sentence": "ニュースによれば、来週大きな台風が来るらしい。",
+      "translation": "According to the news, a big typhoon is coming next week.",
+      "blank_target": "によれば",
+      "wrong_choices": [
+        "として",
+        "に関して",
+        "にとって"
+      ],
+      "wrong_choice_explanations": [
+        "として means 'as (a role)'; the news is not playing a role here — it is the source of the report.",
+        "に関して means 'regarding'; it makes the news a topic rather than the source cited before らしい.",
+        "にとって means 'for / from the standpoint of'; the news has no viewpoint here — it is where the information comes from."
+      ],
+      "hiragana_full": "ニュースによれば、らいしゅうおおきなたいふうがくるらしい。",
+      "audio_alternatives": [
+        {
+          "kanji": "ニュースによると、来週大きな台風が来るそうだ。",
+          "hiragana_full": "ニュースによると、らいしゅうおおきなたいふうがくるそうだ。"
+        },
+        {
+          "kanji": "ニュースでは、来週大きな台風が来ると言っていた。",
+          "hiragana_full": "ニュースでは、らいしゅうおおきなたいふうがくるといっていた。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "台風",
+          "reading": "たいふう",
+          "meaning": "typhoon"
+        }
+      ]
+    },
+    {
+      "id": "n4_030_8",
+      "example_sentence": "姉の話によれば、駅前のスーパーが来月なくなるそうだ。",
+      "translation": "According to my older sister, the supermarket in front of the station is closing down next month.",
+      "blank_target": "によれば",
+      "wrong_choices": [
+        "に対して",
+        "に関して",
+        "として"
+      ],
+      "wrong_choice_explanations": [
+        "に対して means 'toward / in contrast to'; it doesn't mark my sister's story as the source of the hearsay.",
+        "に関して means 'regarding'; it makes my sister's story the topic instead of the source cited before そうだ.",
+        "として means 'as (a role)'; it can't mark where the information came from."
+      ],
+      "hiragana_full": "あねのはなしによれば、えきまえのスーパーがらいげつなくなるそうだ。",
+      "audio_alternatives": [
+        {
+          "kanji": "姉の話によると、駅前のスーパーが来月なくなるらしい。",
+          "hiragana_full": "あねのはなしによると、えきまえのスーパーがらいげつなくなるらしい。"
+        },
+        {
+          "kanji": "姉の話では、駅前のスーパーが来月なくなるそうだ。",
+          "hiragana_full": "あねのはなしでは、えきまえのスーパーがらいげつなくなるそうだ。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "駅前",
+          "reading": "えきまえ",
+          "meaning": "in front of the station"
+        }
+      ]
     },
     {
       "id": "n4_030_9",
-      "example_sentence": "統計によると、若い人の読書量が減っているらしい。",
-      "translation": "According to statistics, young people's reading habits seem to be declining.",
-      "blank_target": "によると",
+      "example_sentence": "母の手紙によれば、田舎はもう雪が降っているそうだ。",
+      "translation": "According to my mother's letter, it is already snowing back home in the countryside.",
+      "blank_target": "によれば",
       "wrong_choices": [
-        "を見れば",
+        "について",
         "として",
-        "について"
+        "に比べて"
       ],
       "wrong_choice_explanations": [
-        "を見れば means 'if you look at the statistics,' a conditional about observing them, not citing what they report, which によると does.",
-        "として means 'as / in the capacity of,' describing the statistics' role, not citing them as the source.",
-        "について means 'about/regarding,' making the statistics the topic rather than the source being cited."
+        "について means 'about'; it makes the letter a topic, not the source of the reported news.",
+        "として means 'as (a role)'; the letter isn't acting in a role — it is the source of the information.",
+        "に比べて means 'compared with'; nothing is being compared with the letter."
       ],
-      "hiragana_full": "とうけいによると、わかいひとのどくしょりょうがへっているらしい。",
+      "hiragana_full": "ははのてがみによれば、いなかはもうゆきがふっているそうだ。",
       "audio_alternatives": [
         {
-          "kanji": "統計によれば、若い人の読書量が減っているらしい。",
-          "hiragana_full": "とうけいによれば、わかいひとのどくしょりょうがへっているらしい。"
+          "kanji": "母の手紙によると、田舎はもう雪が降っているらしい。",
+          "hiragana_full": "ははのてがみによると、いなかはもうゆきがふっているらしい。"
         },
         {
-          "kanji": "統計によると、若者の読書量が減っているようだ。",
-          "hiragana_full": "とうけいによると、わかもののどくしょりょうがへっているようだ。"
+          "kanji": "母の手紙では、田舎はもう雪が降っているそうだ。",
+          "hiragana_full": "ははのてがみでは、いなかはもうゆきがふっているそうだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "田舎",
+          "reading": "いなか",
+          "meaning": "countryside, hometown"
+        }
+      ]
     },
     {
       "id": "n4_030_10",
-      "example_sentence": "アンケート調査によると、多くの人がこの商品に満足しているらしい。",
-      "translation": "According to the survey, many people seem to be satisfied with this product.",
-      "blank_target": "によると",
+      "example_sentence": "店の人によれば、この時計は修理できないそうだ。",
+      "translation": "According to the store clerk, this watch can't be repaired.",
+      "blank_target": "によれば",
       "wrong_choices": [
-        "からすると",
-        "に基づいて",
-        "を通して"
+        "の中で",
+        "について",
+        "に比べて"
       ],
       "wrong_choice_explanations": [
-        "からすると means 'judging from,' drawing an inference from the survey; によると instead reports what the survey directly states.",
-        "に基づいて means 'based on,' using the survey as a foundation for action, rather than citing its findings, which によると does.",
-        "を通して means 'through/via,' emphasizing the survey as a method or channel, not as the source of the reported result."
+        "の中で means 'among / inside'; it doesn't cite the clerk as the person the information came from.",
+        "について means 'about'; it makes the clerk a topic instead of the source of the hearsay before そうだ.",
+        "に比べて means 'compared with'; the clerk isn't being compared with the watch."
       ],
-      "hiragana_full": "あんけーとちょうさによると、おおくのひとがこのしょうひんにまんぞくしているらしい。",
+      "hiragana_full": "みせのひとによれば、このとけいはしゅうりできないそうだ。",
       "audio_alternatives": [
         {
-          "kanji": "アンケート調査によれば、多くの人がこの商品に満足しているようだ。",
-          "hiragana_full": "あんけーとちょうさによれば、おおくのひとがこのしょうひんにまんぞくしているようだ。"
+          "kanji": "店の人によると、この時計は直せないらしい。",
+          "hiragana_full": "みせのひとによると、このとけいはなおせないらしい。"
         },
         {
-          "kanji": "アンケート調査によると、この商品に満足している人が多いらしい。",
-          "hiragana_full": "あんけーとちょうさによると、このしょうひんにまんぞくしているひとがおおいらしい。"
+          "kanji": "店の人の話では、この時計は修理できないそうだ。",
+          "hiragana_full": "みせのひとのはなしでは、このとけいはしゅうりできないそうだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "時計",
+          "reading": "とけい",
+          "meaning": "watch, clock"
+        },
+        {
+          "word": "修理",
+          "reading": "しゅうり",
+          "meaning": "repair"
+        }
+      ]
     }
   ]
 }

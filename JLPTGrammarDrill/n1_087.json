@@ -10,12 +10,12 @@
       "translation": "The sight of children suffering in poverty is too painful for me to bear watching.",
       "blank_target": "に忍びない",
       "wrong_choices": [
-        "に堪えない",
+        "わけにはいかない",
         "に値しない",
         "に当たらない"
       ],
       "wrong_choice_explanations": [
-        "に堪えない (見るに堪えない) means it is too revolting or unpleasant to keep watching — the focus is on disgust and the limit of one's endurance. に忍びない here expresses compassionate pity: the heart aches for the children, so one cannot bear to look.",
+        "「見るわけにはいかない」 means 'I mustn't / can't afford to watch' for some external reason, not that it is too painful to bear. に忍びない expresses compassionate inability, which わけにはいかない does not.",
         "に値しない (見るに値しない) means 'not worth watching,' dismissing the scene as unworthy of attention. に忍びない is the opposite — the scene is so pitiable that watching it is painful.",
         "に当たらない (見るに当たらない) means 'there is no need to watch.' に忍びない expresses painful reluctance to watch, not the absence of any need to."
       ],
@@ -31,7 +31,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "にしのびない"
+      "blank_target_reading": "にしのびない",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "貧困",
+          "reading": "ひんこん",
+          "meaning": "poverty"
+        }
+      ]
     },
     {
       "id": "n1_087_2",
@@ -39,12 +47,12 @@
       "translation": "I cannot bear to sit beside an elderly person with no family and listen as they pour out their loneliness.",
       "blank_target": "に忍びない",
       "wrong_choices": [
-        "に堪えない",
+        "に足る",
         "に及ばない",
         "に値しない"
       ],
       "wrong_choice_explanations": [
-        "に堪えない (聞くに堪えない) means the words are too unpleasant or offensive to keep listening to, stressing revulsion. に忍びない expresses compassion — it is too pitiable to listen to, not too distasteful.",
+        "「聞くに足る」 means 'worth listening to' — a positive judgment of value. に忍びない says the opposite: it is too painful to bring oneself to listen.",
         "に及ばない (聞くに及ばない) means 'there is no need to even ask or listen.' に忍びない expresses painful reluctance, not the absence of necessity.",
         "に値しない (聞くに値しない) means 'not worth listening to,' treating the words as unworthy. に忍びない means the opposite: the words are so moving that hearing them is painful."
       ],
@@ -60,7 +68,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "にしのびない"
+      "blank_target_reading": "にしのびない",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "身寄り",
+          "reading": "みより",
+          "meaning": "kin; relatives"
+        },
+        {
+          "word": "訴える",
+          "reading": "うったえる",
+          "meaning": "to appeal; complain"
+        }
+      ]
     },
     {
       "id": "n1_087_3",
@@ -68,12 +89,12 @@
       "translation": "The memoirs of people who lost their families in the war are so harrowing that I cannot bear to read them.",
       "blank_target": "に忍びない",
       "wrong_choices": [
-        "に堪えない",
+        "べきではない",
         "に値しない",
         "に足る"
       ],
       "wrong_choice_explanations": [
-        "に堪えない (読むに堪えない) means too poorly written or too distasteful to keep reading, stressing quality or revulsion. に忍びない means too heartbreaking to read out of compassion.",
+        "「読むべきではない」 means 'ought not to read' — a normative prohibition. に忍びない conveys emotional inability to bear reading, not a judgment that one should not.",
         "に値しない (読むに値しない) means 'not worth reading,' dismissing the text as without merit. に忍びない is the opposite — it is deeply moving yet painful to read.",
         "に足る (読むに足る) is the affirmative 'worth reading,' a positive evaluation. に忍びない expresses that the text is too painful to read, the opposite assessment."
       ],
@@ -89,7 +110,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "にしのびない"
+      "blank_target_reading": "にしのびない",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "手記",
+          "reading": "しゅき",
+          "meaning": "memoir; personal account"
+        }
+      ]
     },
     {
       "id": "n1_087_4",
@@ -97,12 +126,12 @@
       "translation": "Footage of animals being abused is too painful for me to watch.",
       "blank_target": "に忍びない",
       "wrong_choices": [
-        "に堪えない",
+        "に及ばない",
         "に当たらない",
         "に堪える"
       ],
       "wrong_choice_explanations": [
-        "に堪えない (見るに堪えない) means it is too revolting or infuriating to keep watching — the focus is on disgust. に忍びない here expresses compassionate pain for the suffering animals, not distaste.",
+        "「見るに及ばない」 means 'there is no need to / not worth watching' — dismissal. に忍びない means the opposite: it is too painful to bear watching.",
         "に当たらない (見るに当たらない) means 'there is no need to watch.' に忍びない expresses painful reluctance to watch, not the absence of any need to.",
         "に堪える (見るに堪える) is the affirmative 'bearable / able to watch,' which would mean one can stand the footage. に忍びない is the opposite — it is too painful to watch."
       ],
@@ -118,7 +147,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "にしのびない"
+      "blank_target_reading": "にしのびない",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "虐待",
+          "reading": "ぎゃくたい",
+          "meaning": "abuse"
+        },
+        {
+          "word": "映像",
+          "reading": "えいぞう",
+          "meaning": "footage; images"
+        }
+      ]
     },
     {
       "id": "n1_087_5",
@@ -126,12 +168,12 @@
       "translation": "The sight of people who lost their homes in the disaster is too painful to look at directly.",
       "blank_target": "に忍びない",
       "wrong_choices": [
-        "に堪えない",
+        "に当たらない",
         "に値しない",
         "に及ばない"
       ],
       "wrong_choice_explanations": [
-        "に堪えない (直視するに堪えない) means it is too unpleasant to keep facing — emphasis on revulsion and endurance. に忍びない expresses compassionate pity that makes it too painful to look at directly.",
+        "「直視するに当たらない」 means 'it does not warrant looking at directly.' に忍びない says one cannot bear to look because it is too painful, not that it fails to merit attention.",
         "に値しない (直視するに値しない) means 'not worth facing,' dismissing the scene as unworthy of attention. に忍びない is the opposite — the scene is too pitiable to face.",
         "に及ばない (直視するに及ばない) means 'there is no need to go so far as to face it.' に忍びない expresses painful reluctance, not a lack of necessity."
       ],
@@ -147,7 +189,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "にしのびない"
+      "blank_target_reading": "にしのびない",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "災害",
+          "reading": "さいがい",
+          "meaning": "disaster"
+        },
+        {
+          "word": "直視",
+          "reading": "ちょくし",
+          "meaning": "looking straight at"
+        }
+      ]
     },
     {
       "id": "n1_087_6",
@@ -176,7 +231,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "にしのびない"
+      "blank_target_reading": "にしのびない",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "必死",
+          "reading": "ひっし",
+          "meaning": "desperate"
+        },
+        {
+          "word": "見捨てる",
+          "reading": "みすてる",
+          "meaning": "to abandon"
+        }
+      ]
     },
     {
       "id": "n1_087_7",
@@ -184,12 +252,12 @@
       "translation": "The conditions the children in the refugee camp are placed in are too painful to hear about.",
       "blank_target": "に忍びない",
       "wrong_choices": [
-        "に堪えない",
+        "わけにはいかない",
         "に及ばない",
         "に足る"
       ],
       "wrong_choice_explanations": [
-        "に堪えない (聞くに堪えない) means it is too unpleasant or offensive to keep listening to, stressing revulsion. に忍びない expresses that it is too pitiable to hear, not too distasteful.",
+        "「聞くわけにはいかない」 means 'I mustn't / can't afford to listen' for some circumstantial reason. に忍びない expresses that it is too painful to bear hearing, not an external constraint.",
         "に及ばない (聞くに及ばない) means 'there is no need to even ask or hear.' に忍びない expresses painful reluctance, not a lack of necessity.",
         "に足る (聞くに足る) is the affirmative 'worth hearing,' a positive evaluation. に忍びない is the opposite — it is too painful to hear."
       ],
@@ -205,7 +273,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "にしのびない"
+      "blank_target_reading": "にしのびない",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "難民",
+          "reading": "なんみん",
+          "meaning": "refugee"
+        }
+      ]
     },
     {
       "id": "n1_087_8",
@@ -234,7 +310,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "にしのびない"
+      "blank_target_reading": "にしのびない",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "苦楽",
+          "reading": "くらく",
+          "meaning": "joys and sorrows"
+        }
+      ]
     },
     {
       "id": "n1_087_9",
@@ -263,7 +347,25 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "にしのびない"
+      "blank_target_reading": "にしのびない",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "部下",
+          "reading": "ぶか",
+          "meaning": "subordinate"
+        },
+        {
+          "word": "解雇",
+          "reading": "かいこ",
+          "meaning": "dismissal"
+        },
+        {
+          "word": "長年",
+          "reading": "ながねん",
+          "meaning": "many years"
+        }
+      ]
     },
     {
       "id": "n1_087_10",
@@ -292,7 +394,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "にしのびない"
+      "blank_target_reading": "にしのびない",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "患者",
+          "reading": "かんじゃ",
+          "meaning": "patient"
+        },
+        {
+          "word": "人権",
+          "reading": "じんけん",
+          "meaning": "human rights"
+        }
+      ]
     }
   ]
 }

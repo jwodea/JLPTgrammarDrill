@@ -9,7 +9,11 @@
       "example_sentence": "彼が試験に落ちるなんて、思ってもみなかった。",
       "translation": "I never even imagined that he would fail the exam.",
       "blank_target": "なんて",
-      "wrong_choices": ["なんと", "とか", "くらい"],
+      "wrong_choices": [
+        "なんと",
+        "とか",
+        "くらい"
+      ],
       "wrong_choice_explanations": [
         "なんと is an exclamatory adverb ('how…!/what…!') that comes before the clause it modifies (なんと〜ことか); it can't sit after 落ちる to mark this disbelief.",
         "とか means 'or something like that,' vaguely listing possibilities, so it weakens the statement rather than expressing the shock of his failing.",
@@ -17,17 +21,35 @@
       ],
       "hiragana_full": "かれがしけんにおちるなんて、おもってもみなかった。",
       "audio_alternatives": [
-        { "kanji": "彼が試験に落ちるなんて、想像もしなかった。", "hiragana_full": "かれがしけんにおちるなんて、そうぞうもしなかった。" },
-        { "kanji": "あの彼が不合格になるとは驚きだ。", "hiragana_full": "あのかれがふごうかくになるとはおどろきだ。" }
+        {
+          "kanji": "彼が試験に落ちるなんて、想像もしなかった。",
+          "hiragana_full": "かれがしけんにおちるなんて、そうぞうもしなかった。"
+        },
+        {
+          "kanji": "あの彼が不合格になるとは驚きだ。",
+          "hiragana_full": "あのかれがふごうかくになるとはおどろきだ。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "落ちる",
+          "reading": "おちる",
+          "meaning": "to fail (an exam)"
+        }
+      ]
     },
     {
       "id": "n3_106_2",
       "example_sentence": "宿題なんて、やりたくない。",
       "translation": "Homework? I don't want to do stuff like that.",
       "blank_target": "なんて",
-      "wrong_choices": ["ばかり", "だけ", "まで"],
+      "wrong_choices": [
+        "ばかり",
+        "だけ",
+        "まで"
+      ],
       "wrong_choice_explanations": [
         "ばかり means 'nothing but/only,' implying an excess of homework, not the dismissive tone toward it that なんて gives.",
         "だけ means 'only,' restricting to homework, which would change the sense to 'I don't want to do only homework.'",
@@ -35,17 +57,28 @@
       ],
       "hiragana_full": "しゅくだいなんて、やりたくない。",
       "audio_alternatives": [
-        { "kanji": "宿題なんて、ちっともやる気が出ない。", "hiragana_full": "しゅくだいなんて、ちっともやるきがでない。" },
-        { "kanji": "こんな宿題、やる気にならないよ。", "hiragana_full": "こんなしゅくだい、やるきにならないよ。" }
+        {
+          "kanji": "宿題なんて、ちっともやる気が出ない。",
+          "hiragana_full": "しゅくだいなんて、ちっともやるきがでない。"
+        },
+        {
+          "kanji": "こんな宿題、やる気にならないよ。",
+          "hiragana_full": "こんなしゅくだい、やるきにならないよ。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n3_106_3",
       "example_sentence": "私の料理なんて、お口に合うかどうか分かりませんが。",
       "translation": "My humble cooking — I'm not sure it'll suit your taste, but…",
       "blank_target": "なんて",
-      "wrong_choices": ["こそ", "さえ", "ばかり"],
+      "wrong_choices": [
+        "こそ",
+        "さえ",
+        "ばかり"
+      ],
       "wrong_choice_explanations": [
         "こそ emphasizes 'precisely/exactly this,' elevating my cooking, the opposite of the self-deprecating downplay なんて gives.",
         "さえ means 'even,' singling out an extreme example, not humbly dismissing one's own cooking.",
@@ -53,17 +86,28 @@
       ],
       "hiragana_full": "わたしのりょうりなんて、おくちにあうかどうかわかりませんが。",
       "audio_alternatives": [
-        { "kanji": "私の料理なんて、お口に合うか自信がありませんが。", "hiragana_full": "わたしのりょうりなんて、おくちにあうかじしんがありませんが。" },
-        { "kanji": "つたない料理ですが、お口に合えば嬉しいです。", "hiragana_full": "つたないりょうりですが、おくちにあえばうれしいです。" }
+        {
+          "kanji": "私の料理なんて、お口に合うか自信がありませんが。",
+          "hiragana_full": "わたしのりょうりなんて、おくちにあうかじしんがありませんが。"
+        },
+        {
+          "kanji": "つたない料理ですが、お口に合えば嬉しいです。",
+          "hiragana_full": "つたないりょうりですが、おくちにあえばうれしいです。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n3_106_4",
       "example_sentence": "こんなに早く終わるなんて、思わなかった。",
       "translation": "I didn't think it would finish this quickly.",
       "blank_target": "なんて",
-      "wrong_choices": ["なんと", "ように", "ばかり"],
+      "wrong_choices": [
+        "なんと",
+        "ように",
+        "ばかり"
+      ],
       "wrong_choice_explanations": [
         "なんと is exclamatory and precedes the phrase (なんと早く…), so it can't follow 終わる to express this unexpectedness.",
         "ように means 'so that/as if,' indicating manner or purpose, not surprise at a fact.",
@@ -71,17 +115,28 @@
       ],
       "hiragana_full": "こんなにはやくおわるなんて、おもわなかった。",
       "audio_alternatives": [
-        { "kanji": "こんなに早く片付くなんて、予想外だった。", "hiragana_full": "こんなにはやくかたづくなんて、よそうがいだった。" },
-        { "kanji": "作業がこんなに早く終わるとは思わなかった。", "hiragana_full": "さぎょうがこんなにはやくおわるとはおもわなかった。" }
+        {
+          "kanji": "こんなに早く片付くなんて、予想外だった。",
+          "hiragana_full": "こんなにはやくかたづくなんて、よそうがいだった。"
+        },
+        {
+          "kanji": "作業がこんなに早く終わるとは思わなかった。",
+          "hiragana_full": "さぎょうがこんなにはやくおわるとはおもわなかった。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n3_106_5",
       "example_sentence": "疲れたときは、温泉なんかどう?",
       "translation": "When you're tired, how about something like a hot spring?",
       "blank_target": "なんか",
-      "wrong_choices": ["ばかり", "しか", "だけ"],
+      "wrong_choices": [
+        "ばかり",
+        "しか",
+        "だけ"
+      ],
       "wrong_choice_explanations": [
         "ばかり means 'only/nothing but,' which would oddly limit the suggestion to hot springs, losing the casual 'something like' nuance.",
         "しか means 'only' and requires a negative predicate, so it can't pair with the affirmative どう suggestion.",
@@ -89,17 +144,28 @@
       ],
       "hiragana_full": "つかれたときは、おんせんなんかどう?",
       "audio_alternatives": [
-        { "kanji": "疲れたときは、温泉なんかいいんじゃない?", "hiragana_full": "つかれたときは、おんせんなんかいいんじゃない?" },
-        { "kanji": "疲れているなら、温泉にでも行ってみたら?", "hiragana_full": "つかれているなら、おんせんにでもいってみたら?" }
+        {
+          "kanji": "疲れたときは、温泉なんかいいんじゃない?",
+          "hiragana_full": "つかれたときは、おんせんなんかいいんじゃない?"
+        },
+        {
+          "kanji": "疲れているなら、温泉にでも行ってみたら?",
+          "hiragana_full": "つかれているなら、おんせんにでもいってみたら?"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n3_106_6",
       "example_sentence": "嘘をつくなんて、ひどい人だ。",
       "translation": "To tell a lie like that — what an awful person.",
       "blank_target": "なんて",
-      "wrong_choices": ["ように", "ながら", "など"],
+      "wrong_choices": [
+        "ように",
+        "ながら",
+        "など"
+      ],
       "wrong_choice_explanations": [
         "ように indicates manner or purpose ('so as to lie'), not condemnation of the act itself.",
         "ながら means 'while doing,' marking simultaneous actions, which doesn't fit expressing disapproval.",
@@ -107,17 +173,35 @@
       ],
       "hiragana_full": "うそをつくなんて、ひどいひとだ。",
       "audio_alternatives": [
-        { "kanji": "平気で嘘をつくなんて、ひどい人だ。", "hiragana_full": "へいきでうそをつくなんて、ひどいひとだ。" },
-        { "kanji": "嘘をつくとは、本当にひどい人だ。", "hiragana_full": "うそをつくとは、ほんとうにひどいひとだ。" }
+        {
+          "kanji": "平気で嘘をつくなんて、ひどい人だ。",
+          "hiragana_full": "へいきでうそをつくなんて、ひどいひとだ。"
+        },
+        {
+          "kanji": "嘘をつくとは、本当にひどい人だ。",
+          "hiragana_full": "うそをつくとは、ほんとうにひどいひとだ。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "嘘",
+          "reading": "うそ",
+          "meaning": "a lie"
+        }
+      ]
     },
     {
       "id": "n3_106_7",
       "example_sentence": "私になんて、できるはずがない。",
       "translation": "There's no way someone like me could do it.",
       "blank_target": "なんて",
-      "wrong_choices": ["こそ", "さえ", "だけ"],
+      "wrong_choices": [
+        "こそ",
+        "さえ",
+        "だけ"
+      ],
       "wrong_choice_explanations": [
         "こそ emphasizes 'me precisely,' asserting that I am the very one, the opposite of the self-doubt なんて expresses.",
         "さえ means 'even,' singling out an extreme, not humbly dismissing oneself.",
@@ -125,17 +209,28 @@
       ],
       "hiragana_full": "わたしになんて、できるはずがない。",
       "audio_alternatives": [
-        { "kanji": "私になんて、とても無理だ。", "hiragana_full": "わたしになんて、とてもむりだ。" },
-        { "kanji": "こんな大役、私には務まらない。", "hiragana_full": "こんなたいやく、わたしにはつとまらない。" }
+        {
+          "kanji": "私になんて、とても無理だ。",
+          "hiragana_full": "わたしになんて、とてもむりだ。"
+        },
+        {
+          "kanji": "こんな大役、私には務まらない。",
+          "hiragana_full": "こんなたいやく、わたしにはつとまらない。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n3_106_8",
       "example_sentence": "まさか君が犯人だったなんて。",
       "translation": "To think that you, of all people, were the culprit.",
       "blank_target": "なんて",
-      "wrong_choices": ["とか", "なんで", "ばかり"],
+      "wrong_choices": [
+        "とか",
+        "なんで",
+        "ばかり"
+      ],
       "wrong_choice_explanations": [
         "とか means 'or something,' vaguely hedging, which undercuts the shock of the revelation.",
         "なんで means 'why,' asking a reason, not expressing astonishment at the fact.",
@@ -143,17 +238,35 @@
       ],
       "hiragana_full": "まさかきみがはんにんだったなんて。",
       "audio_alternatives": [
-        { "kanji": "まさか君が犯人だったなんて、信じられない。", "hiragana_full": "まさかきみがはんにんだったなんて、しんじられない。" },
-        { "kanji": "君が犯人だったとは、夢にも思わなかった。", "hiragana_full": "きみがはんにんだったとは、ゆめにもおもわなかった。" }
+        {
+          "kanji": "まさか君が犯人だったなんて、信じられない。",
+          "hiragana_full": "まさかきみがはんにんだったなんて、しんじられない。"
+        },
+        {
+          "kanji": "君が犯人だったとは、夢にも思わなかった。",
+          "hiragana_full": "きみがはんにんだったとは、ゆめにもおもわなかった。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "犯人",
+          "reading": "はんにん",
+          "meaning": "culprit; perpetrator"
+        }
+      ]
     },
     {
       "id": "n3_106_9",
       "example_sentence": "映画なんて、もう何年も見ていない。",
       "translation": "Movies? I haven't seen one in years.",
       "blank_target": "なんて",
-      "wrong_choices": ["だけ", "ほど", "きり"],
+      "wrong_choices": [
+        "だけ",
+        "ほど",
+        "きり"
+      ],
       "wrong_choice_explanations": [
         "だけ means 'only,' which would say 'only movies,' not the dismissive 'things like movies.'",
         "ほど means 'to the extent of/about,' indicating degree, unrelated to the offhand dismissal.",
@@ -161,17 +274,28 @@
       ],
       "hiragana_full": "えいがなんて、もうなんねんもみていない。",
       "audio_alternatives": [
-        { "kanji": "映画なんて、ここ何年も見ていない。", "hiragana_full": "えいがなんて、ここなんねんもみていない。" },
-        { "kanji": "最近は映画館にすっかり行かなくなった。", "hiragana_full": "さいきんはえいがかんにすっかりいかなくなった。" }
+        {
+          "kanji": "映画なんて、ここ何年も見ていない。",
+          "hiragana_full": "えいがなんて、ここなんねんもみていない。"
+        },
+        {
+          "kanji": "最近は映画館にすっかり行かなくなった。",
+          "hiragana_full": "さいきんはえいがかんにすっかりいかなくなった。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n3_106_10",
       "example_sentence": "あんな人に負けるなんて、悔しい。",
       "translation": "To lose to someone like that — how frustrating.",
       "blank_target": "なんて",
-      "wrong_choices": ["ようで", "ものの", "など"],
+      "wrong_choices": [
+        "ようで",
+        "ものの",
+        "など"
+      ],
       "wrong_choice_explanations": [
         "ようで means 'seeming like,' describing appearance, not the speaker's chagrin at the fact of losing.",
         "ものの means 'although,' conceding a contrast, which doesn't fit expressing frustration at losing.",
@@ -179,10 +303,29 @@
       ],
       "hiragana_full": "あんなひとにまけるなんて、くやしい。",
       "audio_alternatives": [
-        { "kanji": "あんな相手に負けるなんて、本当に悔しい。", "hiragana_full": "あんなあいてにまけるなんて、ほんとうにくやしい。" },
-        { "kanji": "あんな人に負けてしまい、悔しくてたまらない。", "hiragana_full": "あんなひとにまけてしまい、くやしくてたまらない。" }
+        {
+          "kanji": "あんな相手に負けるなんて、本当に悔しい。",
+          "hiragana_full": "あんなあいてにまけるなんて、ほんとうにくやしい。"
+        },
+        {
+          "kanji": "あんな人に負けてしまい、悔しくてたまらない。",
+          "hiragana_full": "あんなひとにまけてしまい、くやしくてたまらない。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "悔しい",
+          "reading": "くやしい",
+          "meaning": "frustrating; vexing"
+        },
+        {
+          "word": "負ける",
+          "reading": "まける",
+          "meaning": "to lose"
+        }
+      ]
     }
   ]
 }

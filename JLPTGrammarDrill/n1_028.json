@@ -30,7 +30,20 @@
           "hiragana_full": "きょうのせいこうは、かぞくのささえあってこそえられたけっかだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "成功",
+          "reading": "せいこう",
+          "meaning": "success"
+        },
+        {
+          "word": "支え",
+          "reading": "ささえ",
+          "meaning": "support"
+        }
+      ]
     },
     {
       "id": "n1_028_2",
@@ -58,7 +71,25 @@
           "hiragana_full": "じゅうぎょういんのけんしんてきなどりょくがあるからこそ、このかいしゃははってんできているとおもう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "発展",
+          "reading": "はってん",
+          "meaning": "development/growth"
+        },
+        {
+          "word": "従業員",
+          "reading": "じゅうぎょういん",
+          "meaning": "employee"
+        },
+        {
+          "word": "献身的",
+          "reading": "けんしんてき",
+          "meaning": "devoted/dedicated"
+        }
+      ]
     },
     {
       "id": "n1_028_3",
@@ -86,7 +117,20 @@
           "hiragana_full": "おおくのひとびとのぎせいによってへいわなにちじょうがあることを、わすれてはいけない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "日常",
+          "reading": "にちじょう",
+          "meaning": "daily life"
+        },
+        {
+          "word": "犠牲",
+          "reading": "ぎせい",
+          "meaning": "sacrifice"
+        }
+      ]
     },
     {
       "id": "n1_028_4",
@@ -114,7 +158,25 @@
           "hiragana_full": "こんにちのいがくのしんぽは、かこのけんきゅうしゃたちのどりょくあってこそのけっかである。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "進歩",
+          "reading": "しんぽ",
+          "meaning": "progress/advance"
+        },
+        {
+          "word": "研究者",
+          "reading": "けんきゅうしゃ",
+          "meaning": "researcher"
+        },
+        {
+          "word": "成果",
+          "reading": "せいか",
+          "meaning": "result/fruit"
+        }
+      ]
     },
     {
       "id": "n1_028_5",
@@ -142,7 +204,25 @@
           "hiragana_full": "こどものけんぜんなせいちょうは、おやのあいじょうあってのものだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "健やか",
+          "reading": "すこやか",
+          "meaning": "healthy/wholesome"
+        },
+        {
+          "word": "成長",
+          "reading": "せいちょう",
+          "meaning": "growth"
+        },
+        {
+          "word": "愛情",
+          "reading": "あいじょう",
+          "meaning": "love/affection"
+        }
+      ]
     },
     {
       "id": "n1_028_6",
@@ -170,7 +250,25 @@
           "hiragana_full": "このうつくしいけしきは、しぜんかんきょうのほごがあってこそうまれたたまものだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "保護",
+          "reading": "ほご",
+          "meaning": "protection"
+        },
+        {
+          "word": "賜物",
+          "reading": "たまもの",
+          "meaning": "gift/fruit (of)"
+        },
+        {
+          "word": "環境",
+          "reading": "かんきょう",
+          "meaning": "environment"
+        }
+      ]
     },
     {
       "id": "n1_028_7",
@@ -198,7 +296,25 @@
           "hiragana_full": "ちーむのしょうりは、かんとくのてきかくなしどうあってこそのけっかだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "勝利",
+          "reading": "しょうり",
+          "meaning": "victory"
+        },
+        {
+          "word": "的確",
+          "reading": "てきかく",
+          "meaning": "precise/accurate"
+        },
+        {
+          "word": "指導",
+          "reading": "しどう",
+          "meaning": "guidance/coaching"
+        }
+      ]
     },
     {
       "id": "n1_028_8",
@@ -207,12 +323,12 @@
       "blank_target": "あっての",
       "wrong_choices": [
         "による恩恵",
-        "があっての恩恵",
+        "とは無縁の",
         "のせいでの"
       ],
       "wrong_choice_explanations": [
         "による恩恵 means 'a benefit caused by'; it would create the redundant '苦労による恩恵恩恵だ' here, since 恩恵 already appears as the head noun the blank modifies.",
-        "があっての is conventionally written without the が when the preceding noun is the foundational element; the established idiom is 'Xあっての Y', so inserting が here sounds non-native even though logically close.",
+        "とは無縁の means 'unrelated to / having nothing to do with'; 「先人たちの苦労とは無縁の恩恵」 would describe a benefit independent of the ancestors' hardships — the exact opposite of あって's 'exists only because of it'.",
         "のせいでの marks negative causation ('because of'), which clashes with the positive evaluation 恩恵 ('blessing/benefit')."
       ],
       "hiragana_full": "いまのゆたかなせいかつは、せんじんたちのくろうあってのおんけいだ。",
@@ -226,7 +342,25 @@
           "hiragana_full": "きょうのゆたかなくらしは、せんじんたちのくろうあってこそのたまものだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "先人",
+          "reading": "せんじん",
+          "meaning": "predecessors/forebears"
+        },
+        {
+          "word": "苦労",
+          "reading": "くろう",
+          "meaning": "hardship/toil"
+        },
+        {
+          "word": "恩恵",
+          "reading": "おんけい",
+          "meaning": "benefit/blessing"
+        }
+      ]
     },
     {
       "id": "n1_028_9",
@@ -254,7 +388,25 @@
           "hiragana_full": "わかいせだいのかんしんあってこそ、ぶんかのけいしょうというかだいがそんざいする。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "継承",
+          "reading": "けいしょう",
+          "meaning": "succession/inheritance"
+        },
+        {
+          "word": "世代",
+          "reading": "せだい",
+          "meaning": "generation"
+        },
+        {
+          "word": "関心",
+          "reading": "かんしん",
+          "meaning": "interest/concern"
+        }
+      ]
     },
     {
       "id": "n1_028_10",
@@ -282,7 +434,25 @@
           "hiragana_full": "げんざいのへいわは、せんそうをけいけんしたせだいのきょうくんあってこそのざいさんです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "教訓",
+          "reading": "きょうくん",
+          "meaning": "lesson/moral"
+        },
+        {
+          "word": "宝物",
+          "reading": "たからもの",
+          "meaning": "treasure"
+        },
+        {
+          "word": "体験",
+          "reading": "たいけん",
+          "meaning": "experience"
+        }
+      ]
     }
   ]
 }

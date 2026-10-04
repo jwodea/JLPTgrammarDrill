@@ -10,12 +10,12 @@
       "translation": "I heard it will rain tomorrow.",
       "blank_target": "と",
       "wrong_choices": [
-        "って",
+        "に",
         "から",
         "ので"
       ],
       "wrong_choice_explanations": [
-        "って is a casual quotation marker — it's too informal for this reporting structure",
+        "に marks a direction or target and can't join a clause to いう; the quotative と is what turns 雨が降る into the reported content before いうことだ.",
         "から means 'because/from' — it doesn't create the indirect quotation needed here",
         "ので means 'because/so' — it creates a causal relationship rather than reporting information"
       ],
@@ -30,7 +30,9 @@
           "hiragana_full": "あしたはあめがふるときいた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "blank_occurrence": 1
     },
     {
       "id": "n4_061_2",
@@ -38,13 +40,13 @@
       "translation": "I heard that Tanaka-san is getting married next month.",
       "blank_target": "だ",
       "wrong_choices": [
-        "である",
-        "です",
+        "ね",
+        "だろう",
         "かも"
       ],
       "wrong_choice_explanations": [
-        "である is overly formal for this conversational reporting structure",
-        "です would be more polite but changes the casual tone of this hearsay expression",
+        "ね seeks the listener's confirmation ('…right?'); it doesn't state the hearsay as settled information the way the plain copula だ does in ということだ.",
+        "だろう adds the speaker's own conjecture ('it probably means…'); ということだ instead reports the information as received hearsay, without guessing.",
         "かも means 'maybe' — it adds uncertainty when the speaker is reporting definite information"
       ],
       "hiragana_full": "たなかさんはらいげつけっこんするということだ。",
@@ -58,7 +60,8 @@
           "hiragana_full": "たなかさんはらいげつけっこんするらしい。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n4_061_3",
@@ -86,7 +89,9 @@
           "hiragana_full": "このみせがおいしいとききました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "blank_occurrence": 1
     },
     {
       "id": "n4_061_4",
@@ -114,7 +119,15 @@
           "hiragana_full": "でんしゃがおくれているとききました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "遅れている",
+          "reading": "おくれている",
+          "meaning": "is delayed"
+        }
+      ]
     },
     {
       "id": "n4_061_5",
@@ -142,7 +155,9 @@
           "hiragana_full": "かれがびょうきだそうだった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "blank_occurrence": 1
     },
     {
       "id": "n4_061_6",
@@ -170,7 +185,9 @@
           "hiragana_full": "あたらしいせんせいがくるってしっていますか。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "blank_occurrence": 1
     },
     {
       "id": "n4_061_7",
@@ -198,7 +215,15 @@
           "hiragana_full": "かいぎがちゅうしになったときいた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "中止",
+          "reading": "ちゅうし",
+          "meaning": "cancellation"
+        }
+      ]
     },
     {
       "id": "n4_061_8",
@@ -226,7 +251,16 @@
           "hiragana_full": "ことしのふゆはあたたかくなるそうです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "暖かい",
+          "reading": "あたたかい",
+          "meaning": "warm"
+        }
+      ],
+      "blank_occurrence": 1
     },
     {
       "id": "n4_061_9",
@@ -254,7 +288,16 @@
           "hiragana_full": "かのじょがかいがいにすんでいるそうだった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "海外",
+          "reading": "かいがい",
+          "meaning": "overseas"
+        }
+      ],
+      "blank_occurrence": 1
     },
     {
       "id": "n4_061_10",
@@ -282,7 +325,15 @@
           "hiragana_full": "ねだんがやすくなるってほんとうですか。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "値段",
+          "reading": "ねだん",
+          "meaning": "price"
+        }
+      ]
     }
   ]
 }

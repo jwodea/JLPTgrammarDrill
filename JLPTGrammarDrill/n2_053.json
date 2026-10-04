@@ -30,7 +30,25 @@
           "hiragana_full": "よさんがさくげんされたばあい、どのようなたいおうがひつようになるだろうか。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "予算",
+          "reading": "よさん",
+          "meaning": "budget"
+        },
+        {
+          "word": "削減",
+          "reading": "さくげん",
+          "meaning": "reduction"
+        },
+        {
+          "word": "対応",
+          "reading": "たいおう",
+          "meaning": "response"
+        }
+      ]
     },
     {
       "id": "n2_053_2",
@@ -58,7 +76,20 @@
           "hiragana_full": "もしあめがふったばあい、うんどうかいはえんきになるだろう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "運動会",
+          "reading": "うんどうかい",
+          "meaning": "sports day"
+        },
+        {
+          "word": "延期",
+          "reading": "えんき",
+          "meaning": "postponement"
+        }
+      ]
     },
     {
       "id": "n2_053_3",
@@ -66,14 +97,14 @@
       "translation": "Assuming the market contracts, we must consider new strategies.",
       "blank_target": "とすると",
       "wrong_choices": [
-        "からには",
+        "どころか",
         "に応じて",
-        "際に"
+        "にしては"
       ],
       "wrong_choice_explanations": [
-        "からには treats market contraction as a settled fact ('now that the market is shrinking'); とすると instead supposes it hypothetically before drawing a conclusion.",
+        "どころか means 'far from ~' and denies the preceding clause; 'far from the market shrinking, we must consider new strategies' makes no sense, whereas とすると supposes contraction as the premise.",
         "に応じて means 'in accordance with / depending on' actual conditions; the sentence assumes a hypothetical scenario, which calls for とすると.",
-        "際に marks the actual occasion of an event; とすると is needed because the contraction is being assumed hypothetically, not timed as a real occurrence."
+        "にしては means 'for / considering that' and sets up a contrast with expectations ('for a shrinking market…'); the sentence instead supposes contraction as a premise for needing new strategies."
       ],
       "hiragana_full": "しじょうがしゅくしょうするとすると、しんせんりゃくをかんがえなければならない。",
       "audio_alternatives": [
@@ -86,94 +117,28 @@
           "hiragana_full": "しじょうがしゅくしょうするならば、あたらしいせんりゃくをかんがえなければなりません。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "市場",
+          "reading": "しじょう",
+          "meaning": "market"
+        },
+        {
+          "word": "縮小",
+          "reading": "しゅくしょう",
+          "meaning": "shrinking"
+        },
+        {
+          "word": "戦略",
+          "reading": "せんりゃく",
+          "meaning": "strategy"
+        }
+      ]
     },
     {
       "id": "n2_053_4",
-      "example_sentence": "景気が悪化するとしたら、対応策を用意する必要がある。",
-      "translation": "If the economy were to worsen, we need to prepare countermeasures.",
-      "blank_target": "としたら",
-      "wrong_choices": [
-        "につれて",
-        "にしては",
-        "わりには"
-      ],
-      "wrong_choice_explanations": [
-        "につれて expresses proportional change ('as the economy worsens'); the sentence states a single hypothetical 'if,' so としたら is required, not gradual co-variation.",
-        "にしては means 'for / considering' and contrasts with an expectation; it doesn't introduce the hypothetical supposition that としたら provides.",
-        "わりには means 'despite / considering' and sets up a contrary-to-expectation contrast, not the plain 'supposing the economy worsens' that としたら conveys."
-      ],
-      "hiragana_full": "けいきがあっかするとしたら、たいおうさくをよういするひつようがある。",
-      "audio_alternatives": [
-        {
-          "kanji": "景気が悪化するなら、対応策を準備する必要がある。",
-          "hiragana_full": "けいきがあっかするなら、たいおうさくをじゅんびするひつようがある。"
-        },
-        {
-          "kanji": "景気が悪化した場合、対応策を用意しなければならない。",
-          "hiragana_full": "けいきがあっかしたばあい、たいおうさくをよういしなければならない。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_053_5",
-      "example_sentence": "仮説が実証されないとしたら、新しいアプローチが必要だ。",
-      "translation": "If the hypothesis were not to be proven, a new approach would be needed.",
-      "blank_target": "としたら",
-      "wrong_choices": [
-        "にしても",
-        "ばかりに",
-        "からには"
-      ],
-      "wrong_choice_explanations": [
-        "にしても means 'even if the hypothesis isn't proven'; it concedes the point rather than supposing it as a starting premise, which is what としたら does.",
-        "ばかりに means 'simply because' and blames an unfortunate cause; としたら instead merely supposes the hypothesis fails, without assigning blame.",
-        "からには treats the failure to prove it as a settled fact ('now that it isn't proven'); としたら supposes it only hypothetically."
-      ],
-      "hiragana_full": "かせつがじっしょうされないとしたら、あたらしいあぷろーちがひつようだ。",
-      "audio_alternatives": [
-        {
-          "kanji": "仮説が実証されなければ、新しいアプローチが必要になる。",
-          "hiragana_full": "かせつがじっしょうされなければ、あたらしいあぷろーちがひつようになる。"
-        },
-        {
-          "kanji": "仮説が証明されないとすれば、新たなアプローチが求められる。",
-          "hiragana_full": "かせつがしょうめいされないとすれば、あらたなあぷろーちがもとめられる。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_053_6",
-      "example_sentence": "彼が辞職するとすると、後任を探さなければならない。",
-      "translation": "Assuming he resigns, we'll have to find a replacement.",
-      "blank_target": "とすると",
-      "wrong_choices": [
-        "にあたって",
-        "際に",
-        "上で"
-      ],
-      "wrong_choice_explanations": [
-        "にあたって marks the occasion of actually undertaking something ('on the occasion of his resignation'); とすると instead supposes his resignation hypothetically.",
-        "際に points to the actual time an event occurs ('when he resigns'); the sentence assumes resignation as a hypothesis, which とすると provides, not a real timing.",
-        "上で means 'in the course of / after doing' and presupposes the action actually takes place, whereas とすると only supposes it."
-      ],
-      "hiragana_full": "かれがじしょくするとすると、こうにんをさがさなければならない。",
-      "audio_alternatives": [
-        {
-          "kanji": "彼が辞職すると仮定すると、後任を探さなければならない。",
-          "hiragana_full": "かれがじしょくするとかていすると、こうにんをさがさなければならない。"
-        },
-        {
-          "kanji": "彼が辞職した場合、後任を探さなければならない。",
-          "hiragana_full": "かれがじしょくしたばあい、こうにんをさがさなければならない。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_053_7",
       "example_sentence": "プロジェクトが失敗するとしたら、責任は誰が取るのか。",
       "translation": "If the project were to fail, who would take responsibility?",
       "blank_target": "としたら",
@@ -198,38 +163,69 @@
           "hiragana_full": "もしぷろじぇくとがしっぱいすれば、せきにんはだれがおうのか。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "失敗",
+          "reading": "しっぱい",
+          "meaning": "failure"
+        },
+        {
+          "word": "責任",
+          "reading": "せきにん",
+          "meaning": "responsibility"
+        }
+      ]
     },
     {
-      "id": "n2_053_8",
-      "example_sentence": "この薬の副作用があるとすると、使用を中止すべきだ。",
+      "id": "n2_053_5",
+      "example_sentence": "この薬に副作用があるとすると、使用を中止すべきだ。",
       "translation": "Assuming this medicine has side effects, we should discontinue its use.",
       "blank_target": "とすると",
       "wrong_choices": [
-        "からには",
+        "にしても",
         "にしては",
         "わりには"
       ],
       "wrong_choice_explanations": [
-        "からには treats the side effects as an established fact ('now that there are side effects'); とすると instead supposes their existence hypothetically before recommending discontinuation.",
+        "にしても means 'even if there are side effects' and concedes the point while dismissing it, which contradicts the conclusion that use should be stopped; とすると supposes the side effects as the premise for stopping.",
         "にしては means 'for / considering' and contrasts with an expectation rather than supposing the side effects, which is what とすると does.",
         "わりには means 'despite / considering' and sets up a contrary-to-expectation contrast, not the hypothetical 'assuming there are side effects' that とすると conveys."
       ],
-      "hiragana_full": "このくすりのふくさようがあるとすると、しようをちゅうしすべきだ。",
+      "hiragana_full": "このくすりにふくさようがあるとすると、しようをちゅうしすべきだ。",
       "audio_alternatives": [
         {
           "kanji": "この薬に副作用があるとすれば、使用を中止すべきだ。",
           "hiragana_full": "このくすりにふくさようがあるとすれば、しようをちゅうしすべきだ。"
         },
         {
-          "kanji": "この薬の副作用があると仮定すると、使用を中止すべきだ。",
-          "hiragana_full": "このくすりのふくさようがあるとかていすると、しようをちゅうしすべきだ。"
+          "kanji": "この薬に副作用があると仮定すると、使用を中止すべきだ。",
+          "hiragana_full": "このくすりにふくさようがあるとかていすると、しようをちゅうしすべきだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "副作用",
+          "reading": "ふくさよう",
+          "meaning": "side effect"
+        },
+        {
+          "word": "使用",
+          "reading": "しよう",
+          "meaning": "use"
+        },
+        {
+          "word": "中止",
+          "reading": "ちゅうし",
+          "meaning": "discontinuation"
+        }
+      ]
     },
     {
-      "id": "n2_053_9",
+      "id": "n2_053_6",
       "example_sentence": "地震が起きるとしたら、避難計画を確認しておこう。",
       "translation": "If an earthquake were to occur, let's check our evacuation plan.",
       "blank_target": "としたら",
@@ -254,35 +250,174 @@
           "hiragana_full": "じしんがおきるなら、ひなんけいかくをかくにんしておきましょう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "避難",
+          "reading": "ひなん",
+          "meaning": "evacuation"
+        },
+        {
+          "word": "計画",
+          "reading": "けいかく",
+          "meaning": "plan"
+        },
+        {
+          "word": "確認",
+          "reading": "かくにん",
+          "meaning": "confirmation"
+        }
+      ]
+    },
+    {
+      "id": "n2_053_7",
+      "example_sentence": "彼が不参加だとすると、代わりを探さなければならない。",
+      "translation": "If it turns out he won't participate, we need to find a replacement.",
+      "blank_target": "とすると",
+      "wrong_choices": [
+        "というのに",
+        "からといって",
+        "としても"
+      ],
+      "wrong_choice_explanations": [
+        "〜というのに means 'even though (he isn't participating),' voicing contrast or complaint about a fact; とすると instead treats his absence as a supposition from which a consequence is drawn.",
+        "〜だからといって means 'just because he isn't participating' and requires a denied conclusion ('doesn't mean…'), but here his absence is supposed as the premise for needing a replacement.",
+        "〜としても means 'even if he isn't participating' and concedes the premise, but a replacement is needed only because he is absent; とすると treats his absence as the premise leading to the conclusion."
+      ],
+      "hiragana_full": "かれがふさんかだとすると、かわりをさがさなければならない。",
+      "audio_alternatives": [
+        {
+          "kanji": "彼が不参加なら、代わりを見つけなければならない。",
+          "hiragana_full": "かれがふさんかなら、かわりをみつけなければならない。"
+        },
+        {
+          "kanji": "彼が参加しないとすれば、代わりを探す必要がある。",
+          "hiragana_full": "かれがさんかしないとすれば、かわりをさがすひつようがある。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "不参加",
+          "reading": "ふさんか",
+          "meaning": "non-participation"
+        }
+      ]
+    },
+    {
+      "id": "n2_053_8",
+      "example_sentence": "天気が悪くなるとしたら、イベントは中止になるかもしれない。",
+      "translation": "If the weather turns bad, the event might be cancelled.",
+      "blank_target": "としたら",
+      "wrong_choices": [
+        "ものなら",
+        "くらいなら",
+        "かぎり"
+      ],
+      "wrong_choice_explanations": [
+        "ものなら implies 'if only it were possible' but doesn't fit with the negative possibility being discussed.",
+        "くらいなら means 'if to that extent' and is used for comparisons, not hypothetical weather scenarios.",
+        "かぎり means 'as long as' but indicates duration or extent, not the hypothetical assumption needed here."
+      ],
+      "hiragana_full": "てんきがわるくなるとしたら、いべんとはちゅうしになるかもしれない。",
+      "audio_alternatives": [
+        {
+          "kanji": "天気が悪くなれば、イベントは中止になるかもしれない。",
+          "hiragana_full": "てんきがわるくなれば、いべんとはちゅうしになるかもしれない。"
+        },
+        {
+          "kanji": "天気が悪化した場合、イベントは中止になるかもしれない。",
+          "hiragana_full": "てんきがあっかしたばあい、いべんとはちゅうしになるかもしれない。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "中止",
+          "reading": "ちゅうし",
+          "meaning": "cancellation"
+        }
+      ]
+    },
+    {
+      "id": "n2_053_9",
+      "example_sentence": "彼女が転職するとすると、新しい担当者を雇わなければならない。",
+      "translation": "If it turns out she changes jobs, we'll have to hire a new person in charge.",
+      "blank_target": "とすると",
+      "wrong_choices": [
+        "とみえて",
+        "にしては",
+        "わりには"
+      ],
+      "wrong_choice_explanations": [
+        "とみえて means 'it appears that' and expresses observation, not the hypothetical assumption that とすると provides.",
+        "にしては means 'for/considering' and is used for comparisons, not hypothetical job change scenarios.",
+        "わりには means 'considering/for' and expresses contrast, not the hypothetical reasoning needed in this context."
+      ],
+      "hiragana_full": "かのじょがてんしょくするとすると、あたらしいたんとうしゃをやとわなければならない。",
+      "audio_alternatives": [
+        {
+          "kanji": "彼女が転職した場合、新しい担当者を雇わなければならない。",
+          "hiragana_full": "かのじょがてんしょくしたばあい、あたらしいたんとうしゃをやとわなければならない。"
+        },
+        {
+          "kanji": "彼女が転職するなら、新しい担当者を雇う必要がある。",
+          "hiragana_full": "かのじょがてんしょくするなら、あたらしいたんとうしゃをやとうひつようがある。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "転職",
+          "reading": "てんしょく",
+          "meaning": "changing jobs"
+        },
+        {
+          "word": "担当者",
+          "reading": "たんとうしゃ",
+          "meaning": "person in charge"
+        }
+      ]
     },
     {
       "id": "n2_053_10",
-      "example_sentence": "来年の売上が減少するとすると、経費を見直す必要がある。",
-      "translation": "Assuming next year's sales decrease, we need to review our expenses.",
-      "blank_target": "とすると",
+      "example_sentence": "電車が遅れるとしたら、約束の時間に間に合わない。",
+      "translation": "If the train is delayed, I won't make it to the appointment on time.",
+      "blank_target": "としたら",
       "wrong_choices": [
-        "につれて",
-        "に応じて",
-        "に伴って"
+        "につけ",
+        "にせよ",
+        "ものの"
       ],
       "wrong_choice_explanations": [
-        "につれて expresses proportional change ('as sales decline'); the sentence supposes a hypothetical decline as a premise, which とすると provides, not gradual co-variation.",
-        "に応じて means 'in accordance with / depending on' actual conditions; とすると is needed because the decline is being assumed hypothetically.",
-        "に伴って means 'accompanying' an actual change; the sentence sets up a hypothetical assumption, which calls for とすると."
+        "につけ means 'whenever/in any case' but doesn't express the hypothetical condition that としたら provides.",
+        "にせよ means 'whether... or' and is used for contrasting options, not single hypothetical scenarios.",
+        "ものの means 'although' and presents the delay as a fact followed by a contrasting result, but being late is the natural consequence of a delay, so there is no contrast; としたら supposes the delay hypothetically."
       ],
-      "hiragana_full": "らいねんのうりあげがげんしょうするとすると、けいひをみなおすひつようがある。",
+      "hiragana_full": "でんしゃがおくれるとしたら、やくそくのじかんにまにあわない。",
       "audio_alternatives": [
         {
-          "kanji": "来年の売上が減少すると仮定すると、経費を見直す必要がある。",
-          "hiragana_full": "らいねんのうりあげがげんしょうするとかていすると、けいひをみなおすひつようがある。"
+          "kanji": "電車が遅れた場合、約束の時間に間に合わない。",
+          "hiragana_full": "でんしゃがおくれたばあい、やくそくのじかんにまにあわない。"
         },
         {
-          "kanji": "来年の売上が減少した場合、経費を見直す必要がある。",
-          "hiragana_full": "らいねんのうりあげがげんしょうしたばあい、けいひをみなおすひつようがある。"
+          "kanji": "電車が遅れれば、約束の時間に間に合わないだろう。",
+          "hiragana_full": "でんしゃがおくれれば、やくそくのじかんにまにあわないだろう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "間に合わない",
+          "reading": "まにあわない",
+          "meaning": "to not make it in time"
+        }
+      ]
     }
   ]
 }

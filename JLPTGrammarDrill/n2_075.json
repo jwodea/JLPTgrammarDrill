@@ -30,66 +30,18 @@
           "hiragana_full": "かれのひょうじょうからはんだんすると、しけんのけっかはよくなかったようです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "表情",
+          "reading": "ひょうじょう",
+          "meaning": "facial expression"
+        }
+      ]
     },
     {
       "id": "n2_075_2",
-      "example_sentence": "この統計データからすれば、経済は回復傾向にある。",
-      "translation": "Given this statistical data, the economy is on a recovery trend.",
-      "blank_target": "からすれば",
-      "wrong_choices": [
-        "において",
-        "に関して",
-        "を見ると"
-      ],
-      "wrong_choice_explanations": [
-        "において marks a domain or setting ('within the data'); it doesn't express using the data as the grounds for a judgment, which is what からすれば conveys.",
-        "に関して means 'regarding/concerning' and doesn't express making a judgment based on the data.",
-        "を見ると means 'when looking at' but doesn't carry the nuance of making a reasoned judgment that からすれば does."
-      ],
-      "hiragana_full": "このとうけいでーたからすれば、けいざいはかいふくけいこうにある。",
-      "audio_alternatives": [
-        {
-          "kanji": "この統計データによれば、経済は回復傾向にある。",
-          "hiragana_full": "このとうけいでーたによれば、けいざいはかいふくけいこうにある。"
-        },
-        {
-          "kanji": "この統計データを見ると、経済は回復傾向にある。",
-          "hiragana_full": "このとうけいでーたをみると、けいざいはかいふくけいこうにある。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_075_3",
-      "example_sentence": "天気予報からすると、明日は雨が降りそうだ。",
-      "translation": "Judging from the weather forecast, it looks like it will rain tomorrow.",
-      "blank_target": "からすると",
-      "wrong_choices": [
-        "を見ると",
-        "について",
-        "に基づいて"
-      ],
-      "wrong_choice_explanations": [
-        "を見ると means 'when one looks at' and focuses on the act of viewing the forecast; からすると expresses interpreting the forecast to reach a conclusion.",
-        "について means 'about/regarding' and merely names a topic; it doesn't carry the sense of drawing an inference from the forecast that からすると provides.",
-        "に基づいて means 'based on' but is more formal and doesn't carry the interpretive nuance of からすると."
-      ],
-      "hiragana_full": "てんきよほうからすると、あしたはあめがふりそうだ。",
-      "audio_alternatives": [
-        {
-          "kanji": "天気予報によると、明日は雨が降りそうだ。",
-          "hiragana_full": "てんきよほうによると、あしたはあめがふりそうだ。"
-        },
-        {
-          "kanji": "天気予報から判断すると、明日は雨が降りそうだ。",
-          "hiragana_full": "てんきよほうからはんだんすると、あしたはあめがふりそうだ。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_075_4",
       "example_sentence": "彼女の態度からすると、この提案には反対のようだ。",
       "translation": "Judging from her attitude, she seems to be against this proposal.",
       "blank_target": "からすると",
@@ -114,10 +66,180 @@
           "hiragana_full": "かのじょのたいどをみると、このていあんにはんたいしているようだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "態度",
+          "reading": "たいど",
+          "meaning": "attitude"
+        },
+        {
+          "word": "提案",
+          "reading": "ていあん",
+          "meaning": "proposal"
+        }
+      ]
+    },
+    {
+      "id": "n2_075_3",
+      "example_sentence": "彼の経験からすると、この仕事は思っているより難しいだろう。",
+      "translation": "Judging from his experience, this job will probably be more difficult than expected.",
+      "blank_target": "からすると",
+      "wrong_choices": [
+        "にかかわらず",
+        "について",
+        "を通じて"
+      ],
+      "wrong_choice_explanations": [
+        "「〜にかかわらず」 means 'regardless of X,' saying his experience makes no difference; からすると does the opposite — it uses his experience as the very basis for the judgment.",
+        "について means 'about/regarding' and only marks a topic; it doesn't convey drawing a conclusion from his experience, which is what からすると expresses.",
+        "を通じて means 'through' and indicates a medium or method but doesn't convey making an interpretive judgment from experience."
+      ],
+      "hiragana_full": "かれのけいけんからすると、このしごとはおもっているよりむずかしいだろう。",
+      "audio_alternatives": [
+        {
+          "kanji": "彼の経験から判断すると、この仕事は思ったより難しいだろう。",
+          "hiragana_full": "かれのけいけんからはんだんすると、このしごとはおもったよりむずかしいだろう。"
+        },
+        {
+          "kanji": "彼の経験からすれば、この仕事は思っているより難しいでしょう。",
+          "hiragana_full": "かれのけいけんからすれば、このしごとはおもっているよりむずかしいでしょう。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral"
+    },
+    {
+      "id": "n2_075_4",
+      "example_sentence": "彼の行動からすると、もう諦めているのかもしれない。",
+      "translation": "Judging from his behavior, he might have already given up.",
+      "blank_target": "からすると",
+      "wrong_choices": [
+        "のために",
+        "に関して",
+        "といえば"
+      ],
+      "wrong_choice_explanations": [
+        "のために means 'for the sake of/in order to' and indicates purpose, completely different from the inference meaning of からすると.",
+        "に関して means 'concerning/regarding' and introduces a topic, not a basis for making judgments like からすると.",
+        "といえば means 'speaking of/when it comes to' and introduces a topic shift, not the evaluative judgment that からすると expresses."
+      ],
+      "hiragana_full": "かれのこうどうからすると、もうあきらめているのかもしれない。",
+      "audio_alternatives": [
+        {
+          "kanji": "彼の行動から見ると、もう諦めているのかもしれない。",
+          "hiragana_full": "かれのこうどうからみると、もうあきらめているのかもしれない。"
+        },
+        {
+          "kanji": "彼の行動から判断すると、もう諦めているのかもしれない。",
+          "hiragana_full": "かれのこうどうからはんだんすると、もうあきらめているのかもしれない。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "行動",
+          "reading": "こうどう",
+          "meaning": "behavior"
+        },
+        {
+          "word": "諦める",
+          "reading": "あきらめる",
+          "meaning": "to give up"
+        }
+      ]
     },
     {
       "id": "n2_075_5",
+      "example_sentence": "医師の診断からすると、手術が必要になるだろう。",
+      "translation": "Judging from the doctor's diagnosis, surgery will probably be necessary.",
+      "blank_target": "からすると",
+      "wrong_choices": [
+        "のもとで",
+        "をきっかけに",
+        "にかけて"
+      ],
+      "wrong_choice_explanations": [
+        "のもとで means 'under/with' and indicates circumstances or supervision, not the basis for judgment like からすると.",
+        "をきっかけに means 'triggered by/taking the opportunity' and indicates a starting point for action, different from the inference meaning of からすると.",
+        "にかけて means 'toward/over a period' and indicates direction or duration, completely unrelated to the judgment meaning of からすると."
+      ],
+      "hiragana_full": "いしのしんだんからすると、しゅじゅつがひつようになるだろう。",
+      "audio_alternatives": [
+        {
+          "kanji": "医師の診断によると、手術が必要になるだろう。",
+          "hiragana_full": "いしのしんだんによると、しゅじゅつがひつようになるだろう。"
+        },
+        {
+          "kanji": "医師の診断から判断すると、手術が必要になるだろう。",
+          "hiragana_full": "いしのしんだんからはんだんすると、しゅじゅつがひつようになるだろう。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "診断",
+          "reading": "しんだん",
+          "meaning": "diagnosis"
+        },
+        {
+          "word": "手術",
+          "reading": "しゅじゅつ",
+          "meaning": "surgery"
+        }
+      ]
+    },
+    {
+      "id": "n2_075_6",
+      "example_sentence": "この統計データからすれば、経済は回復傾向にある。",
+      "translation": "Given this statistical data, the economy is on a recovery trend.",
+      "blank_target": "からすれば",
+      "wrong_choices": [
+        "において",
+        "に関して",
+        "に反して"
+      ],
+      "wrong_choice_explanations": [
+        "において marks a domain or setting ('within the data'); it doesn't express using the data as the grounds for a judgment, which is what からすれば conveys.",
+        "に関して means 'regarding/concerning' and doesn't express making a judgment based on the data.",
+        "「〜に反して」 means 'contrary to X'; it sets the statistics as something the situation goes against, whereas からすれば uses the data as the grounds for the judgment — opposite relations."
+      ],
+      "hiragana_full": "このとうけいでーたからすれば、けいざいはかいふくけいこうにある。",
+      "audio_alternatives": [
+        {
+          "kanji": "この統計データによれば、経済は回復傾向にある。",
+          "hiragana_full": "このとうけいでーたによれば、けいざいはかいふくけいこうにある。"
+        },
+        {
+          "kanji": "この統計データを見ると、経済は回復傾向にある。",
+          "hiragana_full": "このとうけいでーたをみると、けいざいはかいふくけいこうにある。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "統計",
+          "reading": "とうけい",
+          "meaning": "statistics"
+        },
+        {
+          "word": "回復",
+          "reading": "かいふく",
+          "meaning": "recovery"
+        },
+        {
+          "word": "傾向",
+          "reading": "けいこう",
+          "meaning": "tendency, trend"
+        }
+      ]
+    },
+    {
+      "id": "n2_075_7",
       "example_sentence": "現在の技術水準からすれば、この計画は実現可能だ。",
       "translation": "From the perspective of current technological standards, this plan is feasible.",
       "blank_target": "からすれば",
@@ -142,147 +264,143 @@
           "hiragana_full": "げんざいのぎじゅつすいじゅんにてらせば、このけいかくはじつげんかのうです。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_075_6",
-      "example_sentence": "医師の診断からすると、手術が必要かもしれない。",
-      "translation": "Judging from the doctor's diagnosis, surgery might be necessary.",
-      "blank_target": "からすると",
-      "wrong_choices": [
-        "を見て",
-        "を受けて",
-        "の結果"
-      ],
-      "wrong_choice_explanations": [
-        "を見て means 'upon looking at' and refers to the act of viewing the diagnosis; からすると expresses interpreting the diagnosis to infer that surgery may be needed.",
-        "を受けて means 'in response to' and indicates reaction rather than making a judgment based on the diagnosis.",
-        "の結果 means 'as a result of' and shows consequence rather than interpretive judgment based on the diagnosis."
-      ],
-      "hiragana_full": "いしのしんだんからすると、しゅじゅつがひつようかもしれない。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "医師の診断によると、手術が必要かもしれない。",
-          "hiragana_full": "いしのしんだんによると、しゅじゅつがひつようかもしれない。"
+          "word": "水準",
+          "reading": "すいじゅん",
+          "meaning": "level, standard"
         },
         {
-          "kanji": "医師の診断から判断すると、手術が必要になるかもしれない。",
-          "hiragana_full": "いしのしんだんからはんだんすると、しゅじゅつがひつようになるかもしれない。"
+          "word": "実現",
+          "reading": "じつげん",
+          "meaning": "realization"
         }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_075_7",
-      "example_sentence": "事件現場の状況からすると、犯人は内部の人間に違いない。",
-      "translation": "Judging from the crime scene situation, the perpetrator must be an insider.",
-      "blank_target": "からすると",
-      "wrong_choices": [
-        "を調べると",
-        "において",
-        "に関して"
-      ],
-      "wrong_choice_explanations": [
-        "を調べると means 'when investigating' and focuses on the action of investigation rather than making a judgment from evidence.",
-        "において marks a setting or domain ('in the situation'); it doesn't express deducing from the scene, which is the inferential judgment からすると carries.",
-        "に関して means 'regarding' and simply indicates a topic without conveying the inferential judgment aspect of からすると."
-      ],
-      "hiragana_full": "じけんげんばのじょうきょうからすると、はんにんはないぶのにんげんにちがいない。",
-      "audio_alternatives": [
-        {
-          "kanji": "事件現場の状況から判断すると、犯人は内部の人間に違いない。",
-          "hiragana_full": "じけんげんばのじょうきょうからはんだんすると、はんにんはないぶのにんげんにちがいない。"
-        },
-        {
-          "kanji": "事件現場の状況を見ると、犯人は内部の人間に違いない。",
-          "hiragana_full": "じけんげんばのじょうきょうをみると、はんにんはないぶのにんげんにちがいない。"
-        }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
       "id": "n2_075_8",
-      "example_sentence": "株価の動きからすると、投資家の心理が不安定になっている。",
-      "translation": "Judging from stock price movements, investor psychology is becoming unstable.",
-      "blank_target": "からすると",
+      "example_sentence": "天気予報からすれば、明日は雨になりそうだ。",
+      "translation": "Given the weather forecast, it looks like it will rain tomorrow.",
+      "blank_target": "からすれば",
       "wrong_choices": [
-        "によって",
-        "を見る限り",
-        "に応じて"
+        "に関して",
+        "として",
+        "において"
       ],
       "wrong_choice_explanations": [
-        "によって means 'by means of' and indicates method or cause rather than making a judgment based on observable patterns.",
-        "を見る限り means 'as far as one can see' but is more about observation limits rather than making interpretive judgments.",
-        "に応じて means 'in response to' and indicates adaptation or correspondence rather than making judgments from evidence."
+        "に関して means 'concerning / regarding', marking the forecast as a topic, not the basis one reasons from to predict rain, which からすれば expresses.",
+        "として means 'as / in the capacity of' and indicates role or status, completely different from the inference meaning of からすれば.",
+        "において means 'in / at' and indicates location or situation, not the basis for making judgments like からすれば."
       ],
-      "hiragana_full": "かぶかのうごきからすると、とうしかのしんりがふあんていになっている。",
+      "hiragana_full": "てんきよほうからすれば、あしたはあめになりそうだ。",
       "audio_alternatives": [
         {
-          "kanji": "株価の動きを見ると、投資家の心理が不安定になっている。",
-          "hiragana_full": "かぶかのうごきをみると、とうしかのしんりがふあんていになっている。"
+          "kanji": "天気予報によれば、明日は雨が降りそうだ。",
+          "hiragana_full": "てんきよほうによれば、あしたはあめがふりそうだ。"
         },
         {
-          "kanji": "株価の動きに基づくと、投資家の心理が不安定になってきている。",
-          "hiragana_full": "かぶかのうごきにもとづくと、とうしかのしんりがふあんていになってきている。"
+          "kanji": "天気予報を見ると、明日は雨になりそうです。",
+          "hiragana_full": "てんきよほうをみると、あしたはあめになりそうです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "天気予報",
+          "reading": "てんきよほう",
+          "meaning": "weather forecast"
+        }
+      ]
     },
     {
       "id": "n2_075_9",
-      "example_sentence": "その論文の内容からすれば、研究はまだ初期段階にある。",
-      "translation": "Given the content of that paper, the research is still in its early stages.",
+      "example_sentence": "会社の業績からすれば、ボーナスは期待できない。",
+      "translation": "Given the company's performance, we can't expect bonuses.",
       "blank_target": "からすれば",
       "wrong_choices": [
-        "を読むと",
-        "について",
-        "に基づけば"
+        "にしては",
+        "わりには",
+        "に対して"
       ],
       "wrong_choice_explanations": [
-        "を読むと means 'when reading' and focuses on the action of reading rather than making a judgment from the content.",
-        "について means 'about/concerning' and indicates a topic but doesn't convey making an evaluative judgment.",
-        "に基づけば means 'if based on' and while similar, it's more about using something as a foundation rather than making a judgment from evidence."
+        "にしては means 'for/considering' and expresses unexpectedness, different from the straightforward judgment that からすれば provides.",
+        "わりには means 'considering/for' and implies contrast with expectations, not the direct inference that からすれば expresses.",
+        "に対して means 'toward/against' and shows direction or response, completely different from the judgment basis that からすれば indicates."
       ],
-      "hiragana_full": "そのろんぶんのないようからすれば、けんきゅうはまだしょきだんかいにある。",
+      "hiragana_full": "かいしゃのぎょうせきからすれば、ボーナスはきたいできない。",
       "audio_alternatives": [
         {
-          "kanji": "その論文の内容から見ると、研究はまだ初期段階にある。",
-          "hiragana_full": "そのろんぶんのないようからみると、けんきゅうはまだしょきだんかいにある。"
+          "kanji": "会社の業績を考えると、ボーナスは期待できない。",
+          "hiragana_full": "かいしゃのぎょうせきをかんがえると、ボーナスはきたいできない。"
         },
         {
-          "kanji": "その論文の内容に基づけば、研究はまだ初期段階にある。",
-          "hiragana_full": "そのろんぶんのないようにもとづけば、けんきゅうはまだしょきだんかいにある。"
+          "kanji": "会社の業績に照らせば、ボーナスは見込めない。",
+          "hiragana_full": "かいしゃのぎょうせきにてらせば、ボーナスはみこめない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "業績",
+          "reading": "ぎょうせき",
+          "meaning": "business performance"
+        },
+        {
+          "word": "期待",
+          "reading": "きたい",
+          "meaning": "expectation"
+        }
+      ]
     },
     {
       "id": "n2_075_10",
-      "example_sentence": "彼の経験からすると、この仕事は思っているより難しいだろう。",
-      "translation": "Judging from his experience, this job will probably be more difficult than expected.",
-      "blank_target": "からすると",
+      "example_sentence": "子供の成長からすれば、栄養状態は良好だと思う。",
+      "translation": "From the child's growth, I think their nutritional condition is good.",
+      "blank_target": "からすれば",
       "wrong_choices": [
-        "を考えると",
-        "について",
-        "を通じて"
+        "にとって",
+        "をめぐって",
+        "にあたって"
       ],
       "wrong_choice_explanations": [
-        "を考えると means 'when thinking about' and focuses on the mental process rather than making a judgment based on specific evidence.",
-        "について means 'about/regarding' and only marks a topic; it doesn't convey drawing a conclusion from his experience, which is what からすると expresses.",
-        "を通じて means 'through' and indicates a medium or method but doesn't convey making an interpretive judgment from experience."
+        "にとって means 'for/to someone' and indicates personal relevance or benefit, not the basis for making judgments like からすれば.",
+        "をめぐって means 'concerning/around' and indicates the focus of discussion or conflict, different from the inference meaning of からすれば.",
+        "にあたって means 'on the occasion of/when' and indicates timing for action, completely different from the judgment basis that からすれば provides."
       ],
-      "hiragana_full": "かれのけいけんからすると、このしごとはおもっているよりむずかしいだろう。",
+      "hiragana_full": "こどものせいちょうからすれば、えいようじょうたいはりょうこうだとおもう。",
       "audio_alternatives": [
         {
-          "kanji": "彼の経験から判断すると、この仕事は思ったより難しいだろう。",
-          "hiragana_full": "かれのけいけんからはんだんすると、このしごとはおもったよりむずかしいだろう。"
+          "kanji": "子供の成長から見れば、栄養状態は良好だと思う。",
+          "hiragana_full": "こどものせいちょうからみれば、えいようじょうたいはりょうこうだとおもう。"
         },
         {
-          "kanji": "彼の経験からすれば、この仕事は思っているより難しいでしょう。",
-          "hiragana_full": "かれのけいけんからすれば、このしごとはおもっているよりむずかしいでしょう。"
+          "kanji": "子供の成長を考えると、栄養状態は良好だと思います。",
+          "hiragana_full": "こどものせいちょうをかんがえると、えいようじょうたいはりょうこうだとおもいます。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "成長",
+          "reading": "せいちょう",
+          "meaning": "growth"
+        },
+        {
+          "word": "栄養",
+          "reading": "えいよう",
+          "meaning": "nutrition"
+        },
+        {
+          "word": "良好",
+          "reading": "りょうこう",
+          "meaning": "good / favorable"
+        }
+      ]
     }
   ]
 }

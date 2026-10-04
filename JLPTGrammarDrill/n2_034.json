@@ -31,6 +31,24 @@
         }
       ],
       "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "経歴",
+          "reading": "けいれき",
+          "meaning": "background, career history"
+        },
+        {
+          "word": "優秀",
+          "reading": "ゆうしゅう",
+          "meaning": "excellent"
+        },
+        {
+          "word": "募集",
+          "reading": "ぼしゅう",
+          "meaning": "recruitment"
+        }
+      ],
       "blank_target_reading": "をとわず"
     },
     {
@@ -60,39 +78,23 @@
         }
       ],
       "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "性別",
+          "reading": "せいべつ",
+          "meaning": "gender"
+        },
+        {
+          "word": "応募",
+          "reading": "おうぼ",
+          "meaning": "application, applying"
+        }
+      ],
       "blank_target_reading": "をとわず"
     },
     {
       "id": "n2_034_3",
-      "example_sentence": "学歴を問わず、適性のある人材を採用する。",
-      "translation": "We hire suitable personnel regardless of educational background.",
-      "blank_target": "を問わず",
-      "wrong_choices": [
-        "を優先して",
-        "を除いて",
-        "に応じて"
-      ],
-      "wrong_choice_explanations": [
-        "「を優先して」 means 'giving priority to ~'; it would make educational background the leading factor in hiring, the reverse of を問わず's 'regardless of'.",
-        "を除いて means 'excluding' which would mean hiring people while excluding those with educational backgrounds - opposite of the intended meaning.",
-        "に応じて means 'according to' or 'depending on' which would suggest educational background determines hiring, contrary to the intended meaning of disregarding it."
-      ],
-      "hiragana_full": "がくれきをとわず、てきせいのあるじんざいをさいようする。",
-      "audio_alternatives": [
-        {
-          "kanji": "学歴に関わらず、適性のある人材を採用します。",
-          "hiragana_full": "がくれきにかかわらず、てきせいのあるじんざいをさいようします。"
-        },
-        {
-          "kanji": "学歴を問わず、適切な人材を雇用する。",
-          "hiragana_full": "がくれきをとわず、てきせつなじんざいをこようする。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "をとわず"
-    },
-    {
-      "id": "n2_034_4",
       "example_sentence": "経験を問わず、やる気のある人材を募集しています。",
       "translation": "We recruit motivated people regardless of experience level.",
       "blank_target": "を問わず",
@@ -118,20 +120,38 @@
         }
       ],
       "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "やる気",
+          "reading": "やるき",
+          "meaning": "motivation, drive"
+        },
+        {
+          "word": "人材",
+          "reading": "じんざい",
+          "meaning": "talent, personnel"
+        },
+        {
+          "word": "募集",
+          "reading": "ぼしゅう",
+          "meaning": "recruitment"
+        }
+      ],
       "blank_target_reading": "をとわず"
     },
     {
-      "id": "n2_034_5",
+      "id": "n2_034_4",
       "example_sentence": "専門を問わず、多くの学部の学生が参加している。",
       "translation": "Students from many departments participate regardless of their major.",
       "blank_target": "を問わず",
       "wrong_choices": [
-        "に限らず",
+        "をめぐって",
         "を中心に",
         "に従って"
       ],
       "wrong_choice_explanations": [
-        "に限らず means 'not limited to' which implies there are additional options beyond what's mentioned, but this sentence needs を問わず to show that major is irrelevant to participation.",
+        "をめぐって means 'over / concerning (an issue under dispute)'; it would make the major a point of contention, but the sentence says students take part with no distinction by major.",
         "を中心に means 'centering on' which would suggest the activity focuses on specific majors, opposite of the intended meaning of welcoming all majors.",
         "に従って means 'according to' or 'following' which doesn't make sense when talking about students participating according to their major."
       ],
@@ -147,10 +167,23 @@
         }
       ],
       "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "専門",
+          "reading": "せんもん",
+          "meaning": "specialty, major"
+        },
+        {
+          "word": "学部",
+          "reading": "がくぶ",
+          "meaning": "faculty, department"
+        }
+      ],
       "blank_target_reading": "をとわず"
     },
     {
-      "id": "n2_034_6",
+      "id": "n2_034_5",
       "example_sentence": "年齢を問わず、このスポーツを楽しむことができます。",
       "translation": "You can enjoy this sport regardless of age.",
       "blank_target": "を問わず",
@@ -176,10 +209,18 @@
         }
       ],
       "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "年齢",
+          "reading": "ねんれい",
+          "meaning": "age"
+        }
+      ],
       "blank_target_reading": "をとわず"
     },
     {
-      "id": "n2_034_7",
+      "id": "n2_034_6",
       "example_sentence": "国籍を問わず、優秀な研究者を歓迎します。",
       "translation": "We welcome excellent researchers regardless of nationality.",
       "blank_target": "を問わず",
@@ -205,10 +246,28 @@
         }
       ],
       "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "国籍",
+          "reading": "こくせき",
+          "meaning": "nationality"
+        },
+        {
+          "word": "優秀",
+          "reading": "ゆうしゅう",
+          "meaning": "excellent"
+        },
+        {
+          "word": "歓迎",
+          "reading": "かんげい",
+          "meaning": "welcome"
+        }
+      ],
       "blank_target_reading": "をとわず"
     },
     {
-      "id": "n2_034_8",
+      "id": "n2_034_7",
       "example_sentence": "時間を問わず、いつでもお電話ください。",
       "translation": "Please call anytime regardless of the time.",
       "blank_target": "を問わず",
@@ -234,10 +293,11 @@
         }
       ],
       "audio_eligible": true,
+      "register": "neutral",
       "blank_target_reading": "をとわず"
     },
     {
-      "id": "n2_034_9",
+      "id": "n2_034_8",
       "example_sentence": "職業を問わず、すべての人に平等な医療を提供する。",
       "translation": "We provide equal medical care to everyone regardless of occupation.",
       "blank_target": "を問わず",
@@ -263,10 +323,28 @@
         }
       ],
       "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "職業",
+          "reading": "しょくぎょう",
+          "meaning": "occupation"
+        },
+        {
+          "word": "平等",
+          "reading": "びょうどう",
+          "meaning": "equality"
+        },
+        {
+          "word": "医療",
+          "reading": "いりょう",
+          "meaning": "medical care"
+        }
+      ],
       "blank_target_reading": "をとわず"
     },
     {
-      "id": "n2_034_10",
+      "id": "n2_034_9",
       "example_sentence": "地域を問わず、全国どこでも配送いたします。",
       "translation": "We deliver nationwide regardless of region.",
       "blank_target": "を問わず",
@@ -292,7 +370,67 @@
         }
       ],
       "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        {
+          "word": "地域",
+          "reading": "ちいき",
+          "meaning": "region"
+        },
+        {
+          "word": "配送",
+          "reading": "はいそう",
+          "meaning": "delivery, shipping"
+        }
+      ],
       "blank_target_reading": "をとわず"
+    },
+    {
+      "id": "n2_034_10",
+      "example_sentence": "性別を問わず、同じ給料が支給される。",
+      "translation": "The same salary is paid regardless of gender.",
+      "blank_target": "を問わず",
+      "wrong_choices": [
+        "によって",
+        "に応じて",
+        "を除いて"
+      ],
+      "wrong_choice_explanations": [
+        "によって would mean 'depending on gender' — implying pay that varies by sex — which directly contradicts 同じ給料 (the same salary) the sentence says is paid.",
+        "に応じて means 'in accordance with gender,' implying salary that scales with sex — the opposite of the equal-pay policy this sentence describes.",
+        "を除いて means 'except for' which would exclude rather than include all genders equally."
+      ],
+      "hiragana_full": "せいべつをとわず、おなじきゅうりょうがしきゅうされる。",
+      "audio_alternatives": [
+        {
+          "kanji": "性別に関係なく、同じ給料が支払われる。",
+          "hiragana_full": "せいべつにかんけいなく、おなじきゅうりょうがしはらわれる。"
+        },
+        {
+          "kanji": "性別を問わず、同じ賃金が支給される。",
+          "hiragana_full": "せいべつをとわず、おなじちんぎんがしきゅうされる。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "をとわず",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "性別",
+          "reading": "せいべつ",
+          "meaning": "gender"
+        },
+        {
+          "word": "給料",
+          "reading": "きゅうりょう",
+          "meaning": "salary"
+        },
+        {
+          "word": "支給",
+          "reading": "しきゅう",
+          "meaning": "to pay; provide"
+        }
+      ]
     }
   ]
 }

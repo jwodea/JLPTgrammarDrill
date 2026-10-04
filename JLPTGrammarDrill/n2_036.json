@@ -31,6 +31,14 @@
         }
       ],
       "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "社会人",
+          "reading": "しゃかいじん",
+          "meaning": "working adult, member of society"
+        }
+      ],
       "blank_target_reading": "にかぎらず"
     },
     {
@@ -60,6 +68,24 @@
         }
       ],
       "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "地方都市",
+          "reading": "ちほうとし",
+          "meaning": "regional/provincial city"
+        },
+        {
+          "word": "減少",
+          "reading": "げんしょう",
+          "meaning": "decrease"
+        },
+        {
+          "word": "深刻",
+          "reading": "しんこく",
+          "meaning": "serious, grave"
+        }
+      ],
       "blank_target_reading": "にかぎらず"
     },
     {
@@ -89,6 +115,24 @@
         }
       ],
       "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "看護師",
+          "reading": "かんごし",
+          "meaning": "nurse"
+        },
+        {
+          "word": "薬剤師",
+          "reading": "やくざいし",
+          "meaning": "pharmacist"
+        },
+        {
+          "word": "役割",
+          "reading": "やくわり",
+          "meaning": "role"
+        }
+      ],
       "blank_target_reading": "にかぎらず"
     },
     {
@@ -118,6 +162,14 @@
         }
       ],
       "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "各国",
+          "reading": "かっこく",
+          "meaning": "each/various countries"
+        }
+      ],
       "blank_target_reading": "にかぎらず"
     },
     {
@@ -147,6 +199,7 @@
         }
       ],
       "audio_eligible": true,
+      "register": "neutral",
       "blank_target_reading": "にかぎらず"
     },
     {
@@ -176,68 +229,23 @@
         }
       ],
       "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "平日",
+          "reading": "へいじつ",
+          "meaning": "weekday"
+        },
+        {
+          "word": "混雑",
+          "reading": "こんざつ",
+          "meaning": "congestion, crowding"
+        }
+      ],
       "blank_target_reading": "にかぎらず"
     },
     {
       "id": "n2_036_7",
-      "example_sentence": "新入社員に限らず、ベテランも研修に参加する必要がある。",
-      "translation": "Not just new employees, but veterans also need to participate in training.",
-      "blank_target": "に限らず",
-      "wrong_choices": [
-        "に比べて",
-        "に関わらず",
-        "によって"
-      ],
-      "wrong_choice_explanations": [
-        "に比べて means 'compared to' and makes comparisons, but に限らず is needed to show training necessity extends beyond new employees.",
-        "に関わらず means 'regardless of' and indicates something happens despite conditions, but に限らず is required to show the requirement isn't limited to new employees.",
-        "によって means 'by/depending on' and indicates means or variation, but this sentence needs に限らず to show the requirement goes beyond new employees."
-      ],
-      "hiragana_full": "しんにゅうしゃいんにかぎらず、ベテランもけんしゅうにさんかするひつようがある。",
-      "audio_alternatives": [
-        {
-          "kanji": "新入社員だけでなく、ベテランも研修に参加する必要がある。",
-          "hiragana_full": "しんにゅうしゃいんだけでなく、ベテランもけんしゅうにさんかするひつようがある。"
-        },
-        {
-          "kanji": "新入社員のみならず、ベテランも研修への参加が必要だ。",
-          "hiragana_full": "しんにゅうしゃいんのみならず、ベテランもけんしゅうへのさんかがひつようだ。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "にかぎらず"
-    },
-    {
-      "id": "n2_036_8",
-      "example_sentence": "都市部に限らず、農村地域でも高齢化が進んでいる。",
-      "translation": "Not limited to urban areas, aging is also progressing in rural regions.",
-      "blank_target": "に限らず",
-      "wrong_choices": [
-        "において",
-        "に向けて",
-        "に沿って"
-      ],
-      "wrong_choice_explanations": [
-        "において means 'in/at' and simply indicates location, but に限らず is needed to show aging extends beyond urban areas.",
-        "に向けて means 'toward/heading for' and indicates direction, but this sentence requires に限らず to show aging isn't limited to cities.",
-        "に沿って means 'along/in accordance with' and indicates following something, but に限らず is needed to express that aging goes beyond urban areas."
-      ],
-      "hiragana_full": "としぶにかぎらず、のうそんちいきでもこうれいかがすすんでいる。",
-      "audio_alternatives": [
-        {
-          "kanji": "都市部だけでなく、農村地域でも高齢化が進んでいる。",
-          "hiragana_full": "としぶだけでなく、のうそんちいきでもこうれいかがすすんでいる。"
-        },
-        {
-          "kanji": "都市部のみならず、農村部でも高齢化が進んでいる。",
-          "hiragana_full": "としぶのみならず、のうそんぶでもこうれいかがすすんでいる。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "にかぎらず"
-    },
-    {
-      "id": "n2_036_9",
       "example_sentence": "英語に限らず、複数の外国語を学ぶことが重要だ。",
       "translation": "Not just English, but learning multiple foreign languages is important.",
       "blank_target": "に限らず",
@@ -263,10 +271,18 @@
         }
       ],
       "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "複数",
+          "reading": "ふくすう",
+          "meaning": "multiple, plural"
+        }
+      ],
       "blank_target_reading": "にかぎらず"
     },
     {
-      "id": "n2_036_10",
+      "id": "n2_036_8",
       "example_sentence": "この問題は日本に限らず、アジア全体で見られる現象だ。",
       "translation": "This problem is not limited to Japan, but is a phenomenon seen throughout Asia.",
       "blank_target": "に限らず",
@@ -292,7 +308,99 @@
         }
       ],
       "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "現象",
+          "reading": "げんしょう",
+          "meaning": "phenomenon"
+        },
+        {
+          "word": "全体",
+          "reading": "ぜんたい",
+          "meaning": "whole, entirety"
+        }
+      ],
       "blank_target_reading": "にかぎらず"
+    },
+    {
+      "id": "n2_036_9",
+      "example_sentence": "若い世代に限らず、高齢者も技術を学んでいる。",
+      "translation": "Not just young people but elderly people are also learning technology.",
+      "blank_target": "に限らず",
+      "wrong_choices": [
+        "に関して",
+        "に対して",
+        "について"
+      ],
+      "wrong_choice_explanations": [
+        "〜に関して means 'regarding/concerning' and doesn't express the meaning of extending beyond young people to include elderly as well.",
+        "〜に対して means 'toward/against' and doesn't fit this context where we need to show technology learning isn't limited to young people.",
+        "〜について means 'about/concerning' and cannot express the nuance of に限らず showing the activity extends beyond the mentioned group."
+      ],
+      "hiragana_full": "わかいせだいにかぎらず、こうれいしゃもぎじゅつをまなんでいる。",
+      "audio_alternatives": [
+        {
+          "kanji": "若い世代だけでなく、高齢者も技術を学んでいる。",
+          "hiragana_full": "わかいせだいだけでなく、こうれいしゃもぎじゅつをまなんでいる。"
+        },
+        {
+          "kanji": "若者に限らず、お年寄りも技術を学んでいます。",
+          "hiragana_full": "わかものにかぎらず、おとしよりもぎじゅつをまなんでいます。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "にかぎらず",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "世代",
+          "reading": "せだい",
+          "meaning": "generation"
+        },
+        {
+          "word": "高齢者",
+          "reading": "こうれいしゃ",
+          "meaning": "the elderly"
+        }
+      ]
+    },
+    {
+      "id": "n2_036_10",
+      "example_sentence": "男性に限らず、女性も管理職になっている。",
+      "translation": "Not just men but women are also becoming managers.",
+      "blank_target": "に限らず",
+      "wrong_choices": [
+        "に応じて",
+        "に沿って",
+        "に基づいて"
+      ],
+      "wrong_choice_explanations": [
+        "〜に応じて means 'according to/depending on' and doesn't fit this context about management positions extending beyond men.",
+        "〜に沿って means 'along with/in accordance with' and doesn't express the meaning of に限らず showing extension beyond men to include women.",
+        "〜に基づいて means 'based on' and doesn't convey the nuance needed here of management roles not being limited to men."
+      ],
+      "hiragana_full": "だんせいにかぎらず、じょせいもかんりしょくになっている。",
+      "audio_alternatives": [
+        {
+          "kanji": "男性だけでなく、女性も管理職に就いている。",
+          "hiragana_full": "だんせいだけでなく、じょせいもかんりしょくについている。"
+        },
+        {
+          "kanji": "男性のみならず、女性も管理職に就くようになっている。",
+          "hiragana_full": "だんせいのみならず、じょせいもかんりしょくにつくようになっている。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "にかぎらず",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "管理職",
+          "reading": "かんりしょく",
+          "meaning": "management position"
+        }
+      ]
     }
   ]
 }

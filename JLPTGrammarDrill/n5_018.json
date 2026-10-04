@@ -10,14 +10,14 @@
       "translation": "I work until five o'clock.",
       "blank_target": "まで",
       "wrong_choices": [
-        "に",
-        "から",
-        "で"
+        "を",
+        "と",
+        "が"
       ],
       "wrong_choice_explanations": [
-        "に indicates a specific time point — it doesn't express duration 'until' like まで does.",
-        "から means 'from' — it indicates starting point, not the endpoint that まで expresses.",
-        "で can indicate time limits but doesn't express duration 'until' as clearly as まで does."
+        "を marks the object of an action; 五時 is not something you 'work', so 五時を働きます is ungrammatical. The end time takes まで.",
+        "と means 'and/with'; 五時と働きます would treat five o'clock like a coworker. The end of the working time needs まで.",
+        "が marks the subject; 五時 can't be the one who works. まで is needed to show 'until five'."
       ],
       "hiragana_full": "ごじまではたらきます。",
       "audio_alternatives": [
@@ -47,13 +47,13 @@
       "blank_target": "まで",
       "wrong_choices": [
         "で",
-        "より",
-        "を"
+        "と",
+        "が"
       ],
       "wrong_choice_explanations": [
         "で marks where an action happens (駅で = 'at the station'), but with 歩いて行きました the sentence needs the goal that is reached, which is what まで marks.",
-        "より mainly marks a comparison ('than') or a stiff, literary starting point, so 駅より does not express the destination 'to the station' that まで does.",
-        "を with a motion verb marks a route passed through (駅を歩く = 'walk through the station'), not the destination that まで expresses here."
+        "と means 'with' (友達と歩く); the station is not a walking companion, so 駅と歩いて行きました makes no sense. The goal 'as far as the station' is まで.",
+        "が marks the subject; the station can't be the one walking. まで shows how far you walked."
       ],
       "hiragana_full": "えきまであるいていきました。",
       "audio_alternatives": [
@@ -85,16 +85,16 @@
       "id": "n5_018_3",
       "example_sentence": "月曜日から日曜日まで忙しいです。",
       "translation": "I'm busy from Monday until Sunday.",
-      "blank_target": "から",
+      "blank_target": "まで",
       "wrong_choices": [
         "に",
-        "と",
-        "で"
+        "を",
+        "と"
       ],
       "wrong_choice_explanations": [
-        "に indicates specific time points — it doesn't show the starting point 'from' needed with まで.",
-        "と means 'and' — it doesn't indicate the time range from Monday that extends until Sunday.",
-        "で marks a means or a cut-off point — it cannot open a time range paired with まで, so 月曜日で日曜日まで doesn't work; から is needed for 'from Monday'."
+        "に marks a single point in time (日曜日に); after 月曜日から the sentence needs the end of the period, 'until Sunday', which is まで.",
+        "を marks a direct object; 日曜日 is not an object of 忙しい, so 日曜日を忙しい is ungrammatical.",
+        "と means 'and' (月曜日と日曜日 = Monday and Sunday); it can't follow 〜から to close a 'from … until' range."
       ],
       "hiragana_full": "げつようびからにちようびまでいそがしいです。",
       "audio_alternatives": [
@@ -175,78 +175,88 @@
     },
     {
       "id": "n5_018_5",
-      "example_sentence": "ここからあそこまで走りました。",
-      "translation": "I ran from here to there.",
-      "blank_target": "から",
+      "example_sentence": "図書館は夜八時まで開いています。",
+      "translation": "The library is open until eight at night.",
+      "blank_target": "まで",
       "wrong_choices": [
-        "を",
         "で",
-        "に"
+        "を",
+        "と"
       ],
       "wrong_choice_explanations": [
-        "を can mark routes but doesn't clearly show the starting point 'from here' needed with まで.",
-        "で indicates location of action — it doesn't express the starting point 'from' like から does.",
-        "に indicates destination — it doesn't show the starting point needed to pair with まで."
+        "で can mark when something ends with 終わる/閉まる (八時で閉まる), but with 開いています ('is open') it can't show how long; that is まで.",
+        "を marks a direct object; 八時 is not an object of 開いています, so 八時を開いています is ungrammatical.",
+        "と means 'and/with'; 夜八時と開いています makes no sense. The closing time 'until eight' is まで."
       ],
-      "hiragana_full": "ここからあそこまではしりました。",
+      "hiragana_full": "としょかんはよるはちじまであいています。",
       "audio_alternatives": [
         {
-          "kanji": "ここからあそこまで走った。",
-          "hiragana_full": "ここからあそこまではしった。"
+          "kanji": "図書館は夜八時まで開いている。",
+          "hiragana_full": "としょかんはよるはちじまであいている。"
         },
         {
-          "kanji": "あそこまでここから走りました。",
-          "hiragana_full": "あそこまでここからはしりました。"
+          "kanji": "図書館は夜の八時までやっています。",
+          "hiragana_full": "としょかんはよるのはちじまでやっています。"
         }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
         {
-          "word": "走りました",
-          "reading": "はしりました",
-          "meaning": "ran"
+          "word": "図書館",
+          "reading": "としょかん",
+          "meaning": "library"
+        },
+        {
+          "word": "夜",
+          "reading": "よる",
+          "meaning": "night"
+        },
+        {
+          "word": "開いています",
+          "reading": "あいています",
+          "meaning": "is open"
         }
       ]
     },
     {
       "id": "n5_018_6",
-      "example_sentence": "授業は九時から始まります。",
-      "translation": "Classes start at nine o'clock.",
-      "blank_target": "から",
+      "example_sentence": "夏休みは八月三十一日までです。",
+      "translation": "Summer vacation lasts until August 31st.",
+      "blank_target": "まで",
       "wrong_choices": [
-        "まで",
-        "ごろ",
-        "で"
+        "に",
+        "で",
+        "を"
       ],
       "wrong_choice_explanations": [
-        "まで would mean classes go on 'until' nine, but the sentence marks nine as the point they begin from, which is から.",
-        "ごろ means 'around' (九時ごろ = 'around nine'), giving an approximate time rather than the definite starting point から expresses.",
-        "で marks a means or a cut-off, not the time a class starts from; から is needed to mark nine as the start."
+        "に marks the time when something happens (八月三十一日に行きます); it can't be followed directly by です to say how long the vacation lasts.",
+        "で marks place or means; 八月三十一日でです is ungrammatical. The last day of the vacation is shown with まで.",
+        "を marks a direct object and can't come before です; 八月三十一日をです is ungrammatical."
       ],
-      "hiragana_full": "じゅぎょうはくじからはじまります。",
+      "hiragana_full": "なつやすみははちがつさんじゅういちにちまでです。",
       "audio_alternatives": [
         {
-          "kanji": "授業は九時に始まります。",
-          "hiragana_full": "じゅぎょうはくじにはじまります。"
+          "kanji": "夏休みは八月三十一日までだ。",
+          "hiragana_full": "なつやすみははちがつさんじゅういちにちまでだ。"
         },
         {
-          "kanji": "九時から授業が始まります。",
-          "hiragana_full": "くじからじゅぎょうがはじまります。"
+          "kanji": "夏休みは八月の終わりまでです。",
+          "hiragana_full": "なつやすみははちがつのおわりまでです。"
         }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
         {
-          "word": "授業",
-          "reading": "じゅぎょう",
-          "meaning": "class"
+          "word": "夏休み",
+          "reading": "なつやすみ",
+          "meaning": "summer vacation"
         },
         {
-          "word": "始まります",
-          "reading": "はじまります",
-          "meaning": "starts"
+          "word": "八月",
+          "reading": "はちがつ",
+          "meaning": "August"
         }
       ]
     },
@@ -254,16 +264,16 @@
       "id": "n5_018_7",
       "example_sentence": "一時から三時まで昼休みです。",
       "translation": "Lunch break is from one to three o'clock.",
-      "blank_target": "から",
+      "blank_target": "まで",
       "wrong_choices": [
+        "に",
         "で",
-        "と",
-        "に"
+        "を"
       ],
       "wrong_choice_explanations": [
-        "で indicates location or means — it doesn't express the starting time 'from one' needed with まで.",
-        "と means 'and' — it doesn't indicate the time range starting from one o'clock.",
-        "に marks a single point in time — 一時に cannot open the span that 三時まで closes, so the sentence doesn't hold together; から is required."
+        "に marks a single point in time (三時に); after 一時から the sentence needs the end of the break, 'until three', which is まで.",
+        "で marks place or means; 三時で昼休みです doesn't express the end of a time range. Use まで.",
+        "を marks a direct object; 三時 is not an object here, so 三時を昼休みです is ungrammatical."
       ],
       "hiragana_full": "いちじからさんじまでひるやすみです。",
       "audio_alternatives": [
@@ -339,13 +349,13 @@
       "blank_target": "まで",
       "wrong_choices": [
         "で",
-        "から",
+        "と",
         "を"
       ],
       "wrong_choice_explanations": [
         "で marks where an action happens (病院で = 'at the hospital'), but with 行きました the sentence needs the destination reached, which まで marks.",
-        "から marks a starting point (病院から = 'from the hospital'), the opposite of the destination 'to the hospital' that まで expresses.",
-        "を with a motion verb marks a route (病院を通る), not the goal; まで marks going all the way to the hospital."
+        "と means 'with' (友達と行く); the hospital is not a companion, so 病院とお見舞いに行きました makes no sense. The destination takes まで.",
+        "を doesn't mark the destination of 行きます; 病院をお見舞いに行きました is ungrammatical. まで shows where you went."
       ],
       "hiragana_full": "びょういんまでおみまいにいきました。",
       "audio_alternatives": [
@@ -379,14 +389,14 @@
       "translation": "I stayed awake until twelve o'clock.",
       "blank_target": "まで",
       "wrong_choices": [
-        "ごろ",
-        "から",
-        "に"
+        "を",
+        "で",
+        "と"
       ],
       "wrong_choice_explanations": [
-        "ごろ means 'around' (十二時ごろ = 'around twelve'), an approximate time, not the endpoint 'until twelve' that まで marks.",
-        "から marks a starting point (十二時から = 'from twelve'), the opposite of the endpoint up to which you stayed awake.",
-        "に marks a point in time (十二時に = 'at twelve'), but the sentence describes staying awake for a duration up to twelve, which まで expresses."
+        "を marks a direct object; 十二時 is not an object of 起きていました, so 十二時を起きていました is ungrammatical.",
+        "で marks place or means; 十二時で起きていました doesn't say how long you stayed up. The end point 'until twelve' is まで.",
+        "と means 'and/with'; 十二時と起きていました makes no sense. Use まで for 'until twelve'."
       ],
       "hiragana_full": "じゅうにじまでおきていました。",
       "audio_alternatives": [

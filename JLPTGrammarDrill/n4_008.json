@@ -30,38 +30,11 @@
           "hiragana_full": "ともだちがしゅくだいをてつだってくれた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n4_008_2",
-      "example_sentence": "先生に質問に答えてもらいます。",
-      "translation": "I will have the teacher answer my questions.",
-      "blank_target": "て",
-      "wrong_choices": [
-        "ながら",
-        "ので",
-        "けれど"
-      ],
-      "wrong_choice_explanations": [
-        "ながら means 'while doing simultaneously' — it doesn't express having someone perform an action for you.",
-        "ので means 'because/since' — it shows cause and effect, not having others do things for you.",
-        "けれど means 'but/however' — it contrasts ideas rather than expressing received services."
-      ],
-      "hiragana_full": "せんせいにしつもんにこたえてもらいます。",
-      "audio_alternatives": [
-        {
-          "kanji": "先生に質問を答えてもらいます。",
-          "hiragana_full": "せんせいにしつもんをこたえてもらいます。"
-        },
-        {
-          "kanji": "先生に質問に答えてもらう。",
-          "hiragana_full": "せんせいにしつもんにこたえてもらう。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_008_3",
       "example_sentence": "母に薬を買ってもらった。",
       "translation": "I had my mother buy medicine for me.",
       "blank_target": "て",
@@ -86,38 +59,11 @@
           "hiragana_full": "おかあさんにくすりをかってもらった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
-      "id": "n4_008_4",
-      "example_sentence": "医者に病気を診てもらいました。",
-      "translation": "I had the doctor examine my illness.",
-      "blank_target": "て",
-      "wrong_choices": [
-        "ても",
-        "ては",
-        "とも"
-      ],
-      "wrong_choice_explanations": [
-        "ても means 'even if' — it expresses concession, not having someone perform a service for you.",
-        "ては can mean 'if you do' or indicate repeated action — it doesn't create the benefactive てもらう pattern.",
-        "とも means 'even/both' — it shows inclusion or emphasis, not having others do things for you."
-      ],
-      "hiragana_full": "いしゃにびょうきをみてもらいました。",
-      "audio_alternatives": [
-        {
-          "kanji": "医者に病気を診察してもらいました。",
-          "hiragana_full": "いしゃにびょうきをしんさつしてもらいました。"
-        },
-        {
-          "kanji": "医者に病気を見てもらいました。",
-          "hiragana_full": "いしゃにびょうきをみてもらいました。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_008_5",
+      "id": "n4_008_3",
       "example_sentence": "専門家に車を修理してもらう予定です。",
       "translation": "I plan to have an expert repair my car.",
       "blank_target": "て",
@@ -142,10 +88,23 @@
           "hiragana_full": "せんもんかにくるまをしゅうりしてもらうつもりです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "専門家",
+          "reading": "せんもんか",
+          "meaning": "specialist; expert"
+        },
+        {
+          "word": "修理",
+          "reading": "しゅうり",
+          "meaning": "repair"
+        }
+      ]
     },
     {
-      "id": "n4_008_6",
+      "id": "n4_008_4",
       "example_sentence": "弟に部屋を掃除してもらいたい。",
       "translation": "I want to have my younger brother clean the room.",
       "blank_target": "て",
@@ -170,10 +129,11 @@
           "hiragana_full": "おとうとにへやをきれいにしてもらいたい。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
-      "id": "n4_008_7",
+      "id": "n4_008_5",
       "example_sentence": "美容師に髪を切ってもらった。",
       "translation": "I had the hairdresser cut my hair.",
       "blank_target": "て",
@@ -198,38 +158,23 @@
           "hiragana_full": "びようしさんにかみをきってもらった。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_008_8",
-      "example_sentence": "同僚に資料を準備してもらいます。",
-      "translation": "I will have my colleague prepare the materials.",
-      "blank_target": "て",
-      "wrong_choices": [
-        "みたい",
-        "らしい",
-        "そうだ"
-      ],
-      "wrong_choice_explanations": [
-        "みたい means 'like/seems' — it shows resemblance, not having someone perform actions for you.",
-        "らしい means 'seems/apparently' — it expresses hearsay, not the pattern for receiving services.",
-        "そうだ means 'seems/I heard' — it shows appearance or hearsay, not having others do things for you."
-      ],
-      "hiragana_full": "どうりょうにしりょうをじゅんびしてもらいます。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
         {
-          "kanji": "同僚に資料を用意してもらいます。",
-          "hiragana_full": "どうりょうにしりょうをよういしてもらいます。"
+          "word": "美容師",
+          "reading": "びようし",
+          "meaning": "hairdresser"
         },
         {
-          "kanji": "同僚が資料を準備してくれます。",
-          "hiragana_full": "どうりょうがしりょうをじゅんびしてくれます。"
+          "word": "髪",
+          "reading": "かみ",
+          "meaning": "hair"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n4_008_9",
+      "id": "n4_008_6",
       "example_sentence": "父に空港まで送ってもらった。",
       "translation": "I had my father take me to the airport.",
       "blank_target": "て",
@@ -254,35 +199,161 @@
           "hiragana_full": "ちちにくうこうまでおくってもらいました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "空港",
+          "reading": "くうこう",
+          "meaning": "airport"
+        }
+      ]
+    },
+    {
+      "id": "n4_008_7",
+      "example_sentence": "友達に荷物を運んでもらった。",
+      "translation": "I had my friend carry my luggage.",
+      "blank_target": "で",
+      "wrong_choices": [
+        "て",
+        "に",
+        "を"
+      ],
+      "wrong_choice_explanations": [
+        "運ぶ ends in ぶ, so its te-form is voiced to 運んで; the unvoiced 運んて is not a valid form, which is why で (not て) links the verb to もらう here.",
+        "に is a particle that marks the person doing the favor (友達に), not a verb ending; もらう must attach to the te-form 運んで, so で belongs in the blank.",
+        "を marks the direct object (荷物を); it cannot join a verb to もらう, which requires the te-form 運んで, so で is correct."
+      ],
+      "hiragana_full": "ともだちににもつをはこんでもらった。",
+      "audio_alternatives": [
+        {
+          "kanji": "友達が荷物を運んでくれた。",
+          "hiragana_full": "ともだちがにもつをはこんでくれた。"
+        },
+        {
+          "kanji": "友達に荷物を持ってもらった。",
+          "hiragana_full": "ともだちににもつをもってもらった。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "casual"
+    },
+    {
+      "id": "n4_008_8",
+      "example_sentence": "兄に英語を教えてもらっています。",
+      "translation": "I'm having my older brother teach me English.",
+      "blank_target": "て",
+      "wrong_choices": [
+        "られ",
+        "させ",
+        "れ"
+      ],
+      "wrong_choice_explanations": [
+        "られ is part of the passive/potential (教えられる); it does not build the favor construction, which needs the te-form 教えて.",
+        "させ is part of the causative (教えさせる) 'make/let teach'; もらう attaches to the te-form 教えて, so て is correct.",
+        "れ is a passive/potential fragment, not a connective; receiving a favor with もらう requires the te-form 教えて."
+      ],
+      "hiragana_full": "あににえいごをおしえてもらっています。",
+      "audio_alternatives": [
+        {
+          "kanji": "兄が英語を教えてくれています。",
+          "hiragana_full": "あにがえいごをおしえてくれています。"
+        },
+        {
+          "kanji": "兄に英語を教えてもらっている。",
+          "hiragana_full": "あににえいごをおしえてもらっている。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "blank_occurrence": 1
+    },
+    {
+      "id": "n4_008_9",
+      "example_sentence": "祖母に昔話を聞かせてもらいました。",
+      "translation": "I had my grandmother tell me old stories.",
+      "blank_target": "て",
+      "wrong_choices": [
+        "ない",
+        "ぬ",
+        "ん"
+      ],
+      "wrong_choice_explanations": [
+        "ない is the negative ending (聞かせない); a negative cannot attach to もらう, which needs the affirmative te-form 聞かせて.",
+        "ぬ is an archaic negative; it does not form the modern favor construction, which requires the te-form 聞かせて.",
+        "ん is a contraction of ない (negative); it cannot link the verb to もらう, which needs the te-form 聞かせて."
+      ],
+      "hiragana_full": "そぼにむかしばなしをきかせてもらいました。",
+      "audio_alternatives": [
+        {
+          "kanji": "おばあさんに昔話を聞かせてもらいました。",
+          "hiragana_full": "おばあさんにむかしばなしをきかせてもらいました。"
+        },
+        {
+          "kanji": "祖母に昔話を話してもらいました。",
+          "hiragana_full": "そぼにむかしばなしをはなしてもらいました。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "祖母",
+          "reading": "そぼ",
+          "meaning": "(my) grandmother"
+        },
+        {
+          "word": "昔話",
+          "reading": "むかしばなし",
+          "meaning": "old story; folk tale"
+        }
+      ]
     },
     {
       "id": "n4_008_10",
-      "example_sentence": "プロに写真を撮ってもらいました。",
-      "translation": "I had a professional take my photos.",
+      "example_sentence": "同僚に資料を翻訳してもらった。",
+      "translation": "I had my colleague translate the documents.",
       "blank_target": "て",
       "wrong_choices": [
-        "ところ",
-        "はず",
-        "わけ"
+        "など",
+        "とか",
+        "やら"
       ],
       "wrong_choice_explanations": [
-        "ところ means 'place/point in time' — it indicates location or timing, not having someone do something for you.",
-        "はず means 'should/supposed to' — it expresses expectation, not the pattern for receiving services.",
-        "わけ means 'reason/meaning' — it shows explanation or reason, not having others perform actions for you."
+        "など means 'and so on / such as' and lists examples; it cannot join a verb to もらう, which requires the te-form 翻訳して.",
+        "とか means 'things like / or'; it lists items rather than connecting a verb to もらう, which needs the te-form 翻訳して.",
+        "やら lists examples ('and / or'); it does not form the favor construction, which requires the te-form 翻訳して."
       ],
-      "hiragana_full": "ぷろにしゃしんをとってもらいました。",
+      "hiragana_full": "どうりょうにしりょうをほんやくしてもらった。",
       "audio_alternatives": [
         {
-          "kanji": "プロに写真を撮影してもらいました。",
-          "hiragana_full": "ぷろにしゃしんをさつえいしてもらいました。"
+          "kanji": "同僚に資料を翻訳してもらいました。",
+          "hiragana_full": "どうりょうにしりょうをほんやくしてもらいました。"
         },
         {
-          "kanji": "プロカメラマンに写真を撮ってもらいました。",
-          "hiragana_full": "ぷろかめらまんにしゃしんをとってもらいました。"
+          "kanji": "同僚が資料を翻訳してくれた。",
+          "hiragana_full": "どうりょうがしりょうをほんやくしてくれた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "同僚",
+          "reading": "どうりょう",
+          "meaning": "coworker"
+        },
+        {
+          "word": "資料",
+          "reading": "しりょう",
+          "meaning": "materials; documents"
+        },
+        {
+          "word": "翻訳",
+          "reading": "ほんやく",
+          "meaning": "translation"
+        }
+      ]
     }
   ]
 }

@@ -6,34 +6,6 @@
   "exercises": [
     {
       "id": "n4_081_1",
-      "example_sentence": "明日の会議について話し合いましょう。",
-      "translation": "Let's talk about tomorrow's meeting.",
-      "blank_target": "について",
-      "wrong_choices": [
-        "に向けて",
-        "として",
-        "にとって"
-      ],
-      "wrong_choice_explanations": [
-        "に向けて means 'toward/aimed at (a goal or event)' — it suggests preparing for the meeting, not discussing the topic of it, which is what について marks.",
-        "として means 'as/in the capacity of' — it doesn't fit here because we're not discussing roles or positions.",
-        "にとって means 'for/from the perspective of' — it doesn't fit here because we're not talking about someone's viewpoint."
-      ],
-      "hiragana_full": "あしたのかいぎについてはなしあいましょう",
-      "audio_alternatives": [
-        {
-          "kanji": "明日の会議について話しましょう。",
-          "hiragana_full": "あしたのかいぎについてはなしましょう"
-        },
-        {
-          "kanji": "明日の会議のことを話し合いましょう。",
-          "hiragana_full": "あしたのかいぎのことをはなしあいましょう"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_081_2",
       "example_sentence": "この本は日本の文化について書かれています。",
       "translation": "This book is written about Japanese culture.",
       "blank_target": "について",
@@ -58,10 +30,18 @@
           "hiragana_full": "このほんはにほんのぶんかのことをかいています"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "文化",
+          "reading": "ぶんか",
+          "meaning": "culture"
+        }
+      ]
     },
     {
-      "id": "n4_081_3",
+      "id": "n4_081_2",
       "example_sentence": "先生は宿題について説明してくれました。",
       "translation": "The teacher explained about the homework.",
       "blank_target": "について",
@@ -86,10 +66,11 @@
           "hiragana_full": "せんせいがしゅくだいについてせつめいしてくれました"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
-      "id": "n4_081_4",
+      "id": "n4_081_3",
       "example_sentence": "環境問題についてみんなで考えませんか。",
       "translation": "Shall we all think about environmental issues?",
       "blank_target": "について",
@@ -114,10 +95,18 @@
           "hiragana_full": "みんなでかんきょうもんだいをかんがえませんか。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "環境問題",
+          "reading": "かんきょうもんだい",
+          "meaning": "environmental problems"
+        }
+      ]
     },
     {
-      "id": "n4_081_5",
+      "id": "n4_081_4",
       "example_sentence": "彼女は映画についてよく知っています。",
       "translation": "She knows a lot about movies.",
       "blank_target": "について",
@@ -142,10 +131,11 @@
           "hiragana_full": "かのじょはえいがについてよくしっている"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
-      "id": "n4_081_6",
+      "id": "n4_081_5",
       "example_sentence": "映画の感想について友達と話しました。",
       "translation": "I talked with my friend about my impressions of the movie.",
       "blank_target": "について",
@@ -170,38 +160,11 @@
           "hiragana_full": "えいがのかんそうをともだちとはなしました"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
-      "id": "n4_081_7",
-      "example_sentence": "新しいプロジェクトについて質問があります。",
-      "translation": "I have questions about the new project.",
-      "blank_target": "について",
-      "wrong_choices": [
-        "にとって",
-        "に対して",
-        "に比べて"
-      ],
-      "wrong_choice_explanations": [
-        "にとって means 'for/from the perspective of' — it doesn't fit here because we're not discussing viewpoints.",
-        "に対して means 'toward/against' — it doesn't fit here because we're not expressing direction or opposition.",
-        "に比べて means 'compared to' — it sets up a comparison with the project, not questions about it, which is what について expresses."
-      ],
-      "hiragana_full": "あたらしいぷろじぇくとについてしつもんがあります。",
-      "audio_alternatives": [
-        {
-          "kanji": "新しいプロジェクトに関して質問があります。",
-          "hiragana_full": "あたらしいぷろじぇくとにかんしてしつもんがあります。"
-        },
-        {
-          "kanji": "新しいプロジェクトのことで質問があります。",
-          "hiragana_full": "あたらしいぷろじぇくとのことでしつもんがあります。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_081_8",
+      "id": "n4_081_6",
       "example_sentence": "料理について母に教えてもらいました。",
       "translation": "I was taught about cooking by my mother.",
       "blank_target": "について",
@@ -226,63 +189,162 @@
           "hiragana_full": "ははからりょうりをおしえてもらいました"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
-      "id": "n4_081_9",
-      "example_sentence": "今度の旅行について計画を立てています。",
-      "translation": "I'm making plans about the upcoming trip.",
-      "blank_target": "について",
-      "wrong_choices": [
-        "として",
-        "に向けて",
-        "に比べて"
-      ],
-      "wrong_choice_explanations": [
-        "として means 'as/in the capacity of' — it doesn't fit here because we're not talking about roles or functions.",
-        "に向けて means 'toward/aimed at' — it doesn't fit here because we're not expressing direction or goals.",
-        "に比べて means 'compared to' — it doesn't fit here because we're not making comparisons with other trips."
-      ],
-      "hiragana_full": "こんどのりょこうについてけいかくをたてています",
-      "audio_alternatives": [
-        {
-          "kanji": "今度の旅行の計画を立てています。",
-          "hiragana_full": "こんどのりょこうのけいかくをたてています"
-        },
-        {
-          "kanji": "今度の旅行の計画を作っています。",
-          "hiragana_full": "こんどのりょこうのけいかくをつくっています"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_081_10",
-      "example_sentence": "健康について気をつけるようになりました。",
-      "translation": "I've started to be careful about my health.",
+      "id": "n4_081_7",
+      "example_sentence": "日本の歴史について、レポートを書きました。",
+      "translation": "I wrote a report about Japanese history.",
       "blank_target": "について",
       "wrong_choices": [
         "にとって",
         "に対して",
+        "として"
+      ],
+      "wrong_choice_explanations": [
+        "にとって means 'for / from the standpoint of,' so 歴史にとって would treat history as a perspective-holder — but here history is the subject the report covers, which について marks.",
+        "に対して means 'toward / directed at,' suited to actions aimed at a target; you write a report について (about) a subject, not 対して (against) it.",
+        "として means 'as / in the capacity of,' so 歴史として would mean 'as history' — it can't introduce the topic the report is on, which について does."
+      ],
+      "hiragana_full": "にほんのれきしについて、れぽーとをかきました。",
+      "audio_alternatives": [
+        {
+          "kanji": "日本の歴史に関するレポートを書きました。",
+          "hiragana_full": "にほんのれきしにかんするれぽーとをかきました。"
+        },
+        {
+          "kanji": "日本の歴史についてのレポートを書きました。",
+          "hiragana_full": "にほんのれきしについてのれぽーとをかきました。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "歴史",
+          "reading": "れきし",
+          "meaning": "history"
+        }
+      ]
+    },
+    {
+      "id": "n4_081_8",
+      "example_sentence": "日本の文学について、授業があります。",
+      "translation": "There is a class about Japanese literature.",
+      "blank_target": "について",
+      "wrong_choices": [
+        "に比べて",
+        "にわたって",
         "によって"
       ],
       "wrong_choice_explanations": [
-        "にとって means 'for/from the perspective of' — it doesn't fit here because we're not discussing viewpoints.",
-        "に対して means 'toward/against' — it doesn't fit here because we're not expressing direction or opposition.",
-        "によって means 'by means of/due to' — it points to a cause or method, not the topic 'about my health' that について marks."
+        "に比べて means 'compared with,' but nothing is being compared here — the sentence simply names the subject of the class, which について marks.",
+        "にわたって means 'spanning / over a range' of time or space, while literature is a single topic, not a span, so について is correct.",
+        "によって means 'by means of / depending on,' marking a cause or variable — the class is about literature, not produced by it, so について fits."
       ],
-      "hiragana_full": "けんこうについてきをつけるようになりました",
+      "hiragana_full": "にほんのぶんがくについて、じゅぎょうがあります。",
       "audio_alternatives": [
         {
-          "kanji": "健康に気をつけるようになりました。",
-          "hiragana_full": "けんこうにきをつけるようになりました"
+          "kanji": "日本の文学の授業があります。",
+          "hiragana_full": "にほんのぶんがくのじゅぎょうがあります。"
         },
         {
-          "kanji": "健康のことを気にするようになりました。",
-          "hiragana_full": "けんこうのことをきにするようになりました"
+          "kanji": "日本の文学についての授業があります。",
+          "hiragana_full": "にほんのぶんがくについてのじゅぎょうがあります。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "文学",
+          "reading": "ぶんがく",
+          "meaning": "literature"
+        },
+        {
+          "word": "授業",
+          "reading": "じゅぎょう",
+          "meaning": "class"
+        }
+      ]
+    },
+    {
+      "id": "n4_081_9",
+      "example_sentence": "世界のニュースについて、もっと知りたいです。",
+      "translation": "I want to know more about world news.",
+      "blank_target": "について",
+      "wrong_choices": [
+        "にとって",
+        "に対して",
+        "にわたって"
+      ],
+      "wrong_choice_explanations": [
+        "にとって means 'for / from the standpoint of,' but the news is what you want to learn about, not a viewpoint — について marks that topic.",
+        "に対して means 'toward / directed at'; wanting to know is aimed at a topic, marked by について, not 対して.",
+        "にわたって means 'spanning a range,' but the news is a subject, not an extent of time or area, so について is right."
+      ],
+      "hiragana_full": "せかいのにゅーすについて、もっとしりたいです。",
+      "audio_alternatives": [
+        {
+          "kanji": "世界のニュースについてもっと知りたいと思います。",
+          "hiragana_full": "せかいのにゅーすについてもっとしりたいとおもいます。"
+        },
+        {
+          "kanji": "世界のニュースのことをもっと知りたいです。",
+          "hiragana_full": "せかいのにゅーすのことをもっとしりたいです。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "世界",
+          "reading": "せかい",
+          "meaning": "world"
+        }
+      ]
+    },
+    {
+      "id": "n4_081_10",
+      "example_sentence": "スポーツの健康効果について、研究があります。",
+      "translation": "There is research about the health benefits of sports.",
+      "blank_target": "について",
+      "wrong_choices": [
+        "にとって",
+        "にわたって",
+        "として"
+      ],
+      "wrong_choice_explanations": [
+        "にとって means 'for / from the standpoint of'; the health benefits are the subject of the research, not a viewpoint, so について marks them.",
+        "にわたって means 'spanning a range' of time or area, while the health benefits are a single research topic, so について fits.",
+        "として means 'as / in the role of,' so 効果として would mean 'as the benefits' — it can't mark what the research is about, which について does."
+      ],
+      "hiragana_full": "すぽーつのけんこうこうかについて、けんきゅうがあります。",
+      "audio_alternatives": [
+        {
+          "kanji": "スポーツの健康効果に関する研究があります。",
+          "hiragana_full": "すぽーつのけんこうこうかにかんするけんきゅうがあります。"
+        },
+        {
+          "kanji": "スポーツが健康に与える効果についての研究があります。",
+          "hiragana_full": "すぽーつがけんこうにあたえるこうかについてのけんきゅうがあります。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "効果",
+          "reading": "こうか",
+          "meaning": "effect, benefit"
+        },
+        {
+          "word": "研究",
+          "reading": "けんきゅう",
+          "meaning": "research"
+        }
+      ]
     }
   ]
 }

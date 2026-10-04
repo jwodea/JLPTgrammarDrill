@@ -30,38 +30,28 @@
           "hiragana_full": "ひょうろんのさんぴをとわず、そのさくひんにはれきしてきかちがある。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "評論",
+          "reading": "ひょうろん",
+          "meaning": "critique, review"
+        },
+        {
+          "word": "賛否",
+          "reading": "さんぴ",
+          "meaning": "approval or disapproval"
+        },
+        {
+          "word": "価値",
+          "reading": "かち",
+          "meaning": "value"
+        }
+      ]
     },
     {
       "id": "n2_035_2",
-      "example_sentence": "能力にかかわらず、すべての社員は公平に扱われる。",
-      "translation": "All employees are treated equally regardless of ability.",
-      "blank_target": "にかかわらず",
-      "wrong_choices": [
-        "に基づいて",
-        "に限って",
-        "によって"
-      ],
-      "wrong_choice_explanations": [
-        "に基づいて means 'based on', which would make treatment depend on ability—the opposite of the equal treatment described, which needs にかかわらず.",
-        "に限って means 'only when' or 'specifically' and indicates limitation to certain conditions, opposite to the inclusive meaning needed here.",
-        "によって means 'depending on' and indicates that treatment changes based on ability, contradicting the sentence's meaning of equal treatment."
-      ],
-      "hiragana_full": "のうりょくにかかわらず、すべてのしゃいんはこうへいにあつかわれる。",
-      "audio_alternatives": [
-        {
-          "kanji": "能力に関係なく、すべての社員は公平に扱われる。",
-          "hiragana_full": "のうりょくにかんけいなく、すべてのしゃいんはこうへいにあつかわれる。"
-        },
-        {
-          "kanji": "能力を問わず、全社員は公平に扱われる。",
-          "hiragana_full": "のうりょくをとわず、ぜんしゃいんはこうへいにあつかわれる。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_035_3",
       "example_sentence": "結果の良し悪しにかかわらず、挑戦は続ける。",
       "translation": "Regardless of whether outcomes are good or bad, I will continue the challenge.",
       "blank_target": "にかかわらず",
@@ -86,10 +76,23 @@
           "hiragana_full": "けっかのよしあしにかかわらず、ちょうせんをつづけます。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "良し悪し",
+          "reading": "よしあし",
+          "meaning": "good or bad, merits and demerits"
+        },
+        {
+          "word": "挑戦",
+          "reading": "ちょうせん",
+          "meaning": "challenge"
+        }
+      ]
     },
     {
-      "id": "n2_035_4",
+      "id": "n2_035_3",
       "example_sentence": "売上の増減にかかわらず、給与は変わらない。",
       "translation": "Salaries do not change regardless of increases or decreases in sales.",
       "blank_target": "にかかわらず",
@@ -114,10 +117,28 @@
           "hiragana_full": "うりあげのぞうげんにかかわらず、きゅうりょうはかわらない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "売上",
+          "reading": "うりあげ",
+          "meaning": "sales, revenue"
+        },
+        {
+          "word": "増減",
+          "reading": "ぞうげん",
+          "meaning": "increase or decrease"
+        },
+        {
+          "word": "給与",
+          "reading": "きゅうよ",
+          "meaning": "salary"
+        }
+      ]
     },
     {
-      "id": "n2_035_5",
+      "id": "n2_035_4",
       "example_sentence": "成果の有無にかかわらず、研究費は配分される。",
       "translation": "Research funding is allocated regardless of whether there are results or not.",
       "blank_target": "にかかわらず",
@@ -142,147 +163,291 @@
           "hiragana_full": "せいかのうむにかかわらず、けんきゅうひはぶんぱいされる。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "成果",
+          "reading": "せいか",
+          "meaning": "result, outcome"
+        },
+        {
+          "word": "有無",
+          "reading": "うむ",
+          "meaning": "presence or absence"
+        },
+        {
+          "word": "配分",
+          "reading": "はいぶん",
+          "meaning": "allocation"
+        }
+      ]
+    },
+    {
+      "id": "n2_035_5",
+      "example_sentence": "理由にかかわらず、遅刻は許されません。",
+      "translation": "Lateness is not allowed regardless of the reason.",
+      "blank_target": "にかかわらず",
+      "wrong_choices": [
+        "によっては",
+        "に限って",
+        "を除いて"
+      ],
+      "wrong_choice_explanations": [
+        "によっては means 'depending on' and would suggest some reasons might excuse lateness, contradicting the strict policy stated.",
+        "に限って means 'only when' or 'limited to' and doesn't convey the universal application needed here.",
+        "を除いて means 'except for' and would imply there are exceptions to the lateness rule, opposite of the intended strict policy."
+      ],
+      "hiragana_full": "りゆうにかかわらず、ちこくはゆるされません。",
+      "audio_alternatives": [
+        {
+          "kanji": "理由を問わず、遅刻は許されません。",
+          "hiragana_full": "りゆうをとわず、ちこくはゆるされません。"
+        },
+        {
+          "kanji": "どんな理由があっても、遅刻は許されません。",
+          "hiragana_full": "どんなりゆうがあっても、ちこくはゆるされません。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "遅刻",
+          "reading": "ちこく",
+          "meaning": "tardiness"
+        }
+      ]
     },
     {
       "id": "n2_035_6",
-      "example_sentence": "天候にかかわらず、試合は予定通り行われる。",
-      "translation": "The game will be held as scheduled regardless of weather.",
-      "blank_target": "にかかわらず",
+      "example_sentence": "天候に関わらず、イベントは予定通り行われる。",
+      "translation": "Regardless of the weather, the event will be held as scheduled.",
+      "blank_target": "に関わらず",
       "wrong_choices": [
-        "に応じて",
-        "によっては",
-        "に限らず"
-      ],
-      "wrong_choice_explanations": [
-        "に応じて means 'according to' and would suggest the game schedule changes based on weather, contradicting the firm commitment described.",
-        "によっては means 'depending on' and indicates conditional outcomes based on weather, opposite to the unconditional schedule described.",
-        "に限らず means 'not limited to', suggesting weather plus other factors, but the sentence says the game proceeds no matter the weather, which needs にかかわらず."
-      ],
-      "hiragana_full": "てんこうにかかわらず、しあいはよていどおりおこなわれる。",
-      "audio_alternatives": [
-        {
-          "kanji": "天気に関係なく、試合は予定通り開催される。",
-          "hiragana_full": "てんきにかんけいなく、しあいはよていどおりかいさいされる。"
-        },
-        {
-          "kanji": "天候を問わず、試合は予定通りに行われます。",
-          "hiragana_full": "てんこうをとわず、しあいはよていどおりにおこなわれます。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_035_7",
-      "example_sentence": "経験の多少にかかわらず、新人研修を受ける必要がある。",
-      "translation": "Regardless of how much experience you have, you need to attend new employee training.",
-      "blank_target": "にかかわらず",
-      "wrong_choices": [
-        "に限らず",
         "によって",
+        "次第で",
         "にもかかわらず"
       ],
       "wrong_choice_explanations": [
-        "に限らず means 'not limited to' and suggests including those with experience plus others, but this sentence requires mandatory training for everyone regardless of experience level.",
-        "によって means 'depending on', which would make the training requirement vary with experience—but training is required regardless of experience, which needs にかかわらず.",
-        "にもかかわらず means 'despite (a known fact)', but 経験の多少 is a variable (much or little), so the sentence needs 'regardless of' (にかかわらず)."
+        "「〜によって」は「天候によって」で天候しだいでの意になり、天候と無関係に予定通り行うという文意とは逆になる。",
+        "「〜次第で」は「天候次第で」で天候しだいでの意になり、天候に左右されず行うという文意と矛盾する。",
+        "「〜にもかかわらず」は「悪天候にもかかわらず」のように具体的な事実に逆らう意で使い、どんな天候でもという「関わらず」の意味にはならない。"
       ],
-      "hiragana_full": "けいけんのたしょうにかかわらず、しんじんけんしゅうをうけるひつようがある。",
+      "hiragana_full": "てんこうにかかわらず、いべんとはよていどおりおこなわれる。",
       "audio_alternatives": [
         {
-          "kanji": "経験の量に関係なく、新人研修を受ける必要がある。",
-          "hiragana_full": "けいけんのりょうにかんけいなく、しんじんけんしゅうをうけるひつようがある。"
+          "kanji": "天気がどうであれ、イベントは予定通り開催される。",
+          "hiragana_full": "てんきがどうであれ、いべんとはよていどおりかいさいされる。"
         },
         {
-          "kanji": "経験の多少を問わず、新人研修に参加しなければならない。",
-          "hiragana_full": "けいけんのたしょうをとわず、しんじんけんしゅうにさんかしなければならない。"
+          "kanji": "天候に関わらず、催しは予定通り実施される。",
+          "hiragana_full": "てんこうにかかわらず、もよおしはよていどおりじっしされる。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "天候",
+          "reading": "てんこう",
+          "meaning": "weather (conditions)"
+        },
+        {
+          "word": "予定通り",
+          "reading": "よていどおり",
+          "meaning": "as scheduled; as planned"
+        },
+        {
+          "word": "行う",
+          "reading": "おこなう",
+          "meaning": "to hold; to carry out"
+        }
+      ],
+      "blank_target_reading": "にかかわらず"
+    },
+    {
+      "id": "n2_035_7",
+      "example_sentence": "参加するしないに関わらず、必ず返信してください。",
+      "translation": "Regardless of whether you attend, please be sure to reply.",
+      "blank_target": "に関わらず",
+      "wrong_choices": [
+        "にもかかわらず",
+        "に応じて",
+        "につけ"
+      ],
+      "wrong_choice_explanations": [
+        "「〜にもかかわらず」は具体的な事実に逆らう逆接で、「参加するしない」という二つの選択肢を受けて『どちらでも』という意味にはならない。",
+        "「〜に応じて」は「参加するしないに応じて」で参加の有無に合わせての意になり、いつでも必ず返信するという文意と矛盾する。",
+        "「〜につけ」は「〜につけ〜につけ」や感情の自然な生起を表す表現で、参加の有無に関わらず返信を求めるという意味を表せない。"
+      ],
+      "hiragana_full": "さんかするしないにかかわらず、かならずへんしんしてください。",
+      "audio_alternatives": [
+        {
+          "kanji": "出席するかどうかに関わらず、必ず返事をください。",
+          "hiragana_full": "しゅっせきするかどうかにかかわらず、かならずへんじをください。"
+        },
+        {
+          "kanji": "参加の有無に関わらず、返信は必須です。",
+          "hiragana_full": "さんかのうむにかかわらず、へんしんはひっすです。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "必ず",
+          "reading": "かならず",
+          "meaning": "without fail; certainly"
+        },
+        {
+          "word": "返信",
+          "reading": "へんしん",
+          "meaning": "reply; response"
+        }
+      ],
+      "blank_target_reading": "にかかわらず"
     },
     {
       "id": "n2_035_8",
-      "example_sentence": "価格の高低にかかわらず、品質を重視して選ぶ。",
-      "translation": "I choose based on quality regardless of whether the price is high or low.",
-      "blank_target": "にかかわらず",
+      "example_sentence": "昼夜に関わらず、機械は動き続けている。",
+      "translation": "The machine keeps running, regardless of day or night.",
+      "blank_target": "に関わらず",
       "wrong_choices": [
+        "によって",
         "に応じて",
-        "に従って",
-        "に限らず"
+        "のみならず"
       ],
       "wrong_choice_explanations": [
-        "に応じて means 'according to' and would indicate choosing based on price level, contradicting the focus on quality over price.",
-        "に従って means 'according to' and indicates following price as a guide, contradicting the priority of quality over price considerations.",
-        "に限らず means 'not limited to', suggesting price plus other things, but the sentence says quality is prioritized no matter the price, which needs にかかわらず."
+        "「〜によって」は「昼夜によって」で昼か夜かによっての意になり、昼夜を問わず動き続けるという文意とは逆になる。",
+        "「〜に応じて」は「昼夜に応じて」で昼夜に合わせて変わるの意になり、昼夜に関係なく動き続けるという文意と矛盾する。",
+        "「〜のみならず」は「昼夜のみならず」で『昼夜だけでなく』の意になり、昼夜を問わず動き続けるという意味を表せない。"
       ],
-      "hiragana_full": "かかくのこうていにかかわらず、ひんしつをじゅうししてえらぶ。",
+      "hiragana_full": "ちゅうやにかかわらず、きかいはうごきつづけている。",
       "audio_alternatives": [
         {
-          "kanji": "値段が高くても安くても、品質を優先して選ぶ。",
-          "hiragana_full": "ねだんがたかくてもやすくても、ひんしつをゆうせんしてえらぶ。"
+          "kanji": "昼でも夜でも、機械は止まらずに動いている。",
+          "hiragana_full": "ひるでもよるでも、きかいはとまらずにうごいている。"
         },
         {
-          "kanji": "価格に関係なく、品質を重視して選びます。",
-          "hiragana_full": "かかくにかんけいなく、ひんしつをじゅうししてえらびます。"
+          "kanji": "昼夜に関わらず、機械は稼働し続けている。",
+          "hiragana_full": "ちゅうやにかかわらず、きかいはかどうしつづけている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "昼夜",
+          "reading": "ちゅうや",
+          "meaning": "day and night"
+        },
+        {
+          "word": "機械",
+          "reading": "きかい",
+          "meaning": "machine"
+        },
+        {
+          "word": "動き続ける",
+          "reading": "うごきつづける",
+          "meaning": "to keep running; to keep moving"
+        }
+      ],
+      "blank_target_reading": "にかかわらず"
     },
     {
       "id": "n2_035_9",
-      "example_sentence": "国籍にかかわらず、この制度を利用できる。",
-      "translation": "This system can be used regardless of nationality.",
-      "blank_target": "にかかわらず",
+      "example_sentence": "金額の多少に関わらず、寄付は大変ありがたい。",
+      "translation": "Regardless of the amount, a donation is very much appreciated.",
+      "blank_target": "に関わらず",
       "wrong_choices": [
-        "に基づいて",
+        "に応じて",
         "によって",
-        "に限って"
+        "に基づいて"
       ],
       "wrong_choice_explanations": [
-        "に基づいて means 'based on', which would make eligibility depend on nationality—contradicting the universal access described, which needs にかかわらず.",
-        "によって means 'depending on' and indicates that usage varies by nationality, contradicting the universal access described.",
-        "に限って means 'limited to' and indicates restriction to specific nationalities, opposite to the inclusive policy described."
+        "「〜に応じて」は「多少に応じて」で金額の大小に合わせての意になり、金額に関係なくありがたいという文意と矛盾する。",
+        "「〜によって」は「多少によって」で金額しだいでの意になり、金額の大小を問わないという文意とは逆になる。",
+        "「〜に基づいて」は「多少に基づいて」で金額を判断の根拠にする意になり、金額と無関係に感謝するという文意と合わない。"
       ],
-      "hiragana_full": "こくせきにかかわらず、このせいどをりようできる。",
+      "hiragana_full": "きんがくのたしょうにかかわらず、きふはたいへんありがたい。",
       "audio_alternatives": [
         {
-          "kanji": "国籍を問わず、この制度を利用できる。",
-          "hiragana_full": "こくせきをとわず、このせいどをりようできる。"
+          "kanji": "額の大きさに関係なく、寄付はとてもありがたい。",
+          "hiragana_full": "がくのおおきさにかんけいなく、きふはとてもありがたい。"
         },
         {
-          "kanji": "国籍に関係なく、この制度を利用することができる。",
-          "hiragana_full": "こくせきにかんけいなく、このせいどをりようすることができる。"
+          "kanji": "金額の多少に関わらず、ご寄付には心から感謝します。",
+          "hiragana_full": "きんがくのたしょうにかかわらず、ごきふにはこころからかんしゃします。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "金額",
+          "reading": "きんがく",
+          "meaning": "amount of money"
+        },
+        {
+          "word": "多少",
+          "reading": "たしょう",
+          "meaning": "amount; more or less"
+        },
+        {
+          "word": "寄付",
+          "reading": "きふ",
+          "meaning": "donation; contribution"
+        }
+      ],
+      "blank_target_reading": "にかかわらず"
     },
     {
       "id": "n2_035_10",
-      "example_sentence": "年齢にかかわらず、だれでも参加できるイベントです。",
-      "translation": "This is an event where anyone can participate regardless of age.",
-      "blank_target": "にかかわらず",
+      "example_sentence": "会員か非会員かに関わらず、料金は同じです。",
+      "translation": "The fee is the same regardless of whether you are a member or not.",
+      "blank_target": "に関わらず",
       "wrong_choices": [
-        "に限らず",
-        "に応じて",
-        "によっては"
+        "によって",
+        "次第で",
+        "にもかかわらず"
       ],
       "wrong_choice_explanations": [
-        "に限らず means 'not limited to' and suggests including specific age groups plus others, but this sentence emphasizes complete age independence.",
-        "に応じて means 'according to' and would indicate different participation rules based on age, contradicting the universal participation policy.",
-        "によっては means 'depending on (in some cases)', which would make participation vary by age in certain cases—but anyone can join regardless of age, which needs にかかわらず."
+        "「〜によって」は「会員か非会員かによって」で会員かどうかで料金が変わる意になり、どちらでも同じという文意とは逆になる。",
+        "「〜次第で」は「会員か非会員か次第で」で会員かどうかしだいでの意になり、料金が同じという文意と矛盾する。",
+        "「〜にもかかわらず」は具体的な事実に逆らう逆接で、「会員か非会員か」という二択を受けて『どちらでも』という意味にはならない。"
       ],
-      "hiragana_full": "ねんれいにかかわらず、だれでもさんかできるいべんとです。",
+      "hiragana_full": "かいいんかひかいいんかにかかわらず、りょうきんはおなじです。",
       "audio_alternatives": [
         {
-          "kanji": "年齢を問わず、だれでも参加できるイベントです。",
-          "hiragana_full": "ねんれいをとわず、だれでもさんかできるいべんとです。"
+          "kanji": "会員でも非会員でも、料金は変わりません。",
+          "hiragana_full": "かいいんでもひかいいんでも、りょうきんはかわりません。"
         },
         {
-          "kanji": "年齢に関係なく、だれでも参加できるイベントです。",
-          "hiragana_full": "ねんれいにかんけいなく、だれでもさんかできるいべんとです。"
+          "kanji": "会員か否かに関わらず、料金は一律です。",
+          "hiragana_full": "かいいんかいなかにかかわらず、りょうきんはいちりつです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "会員",
+          "reading": "かいいん",
+          "meaning": "member"
+        },
+        {
+          "word": "非会員",
+          "reading": "ひかいいん",
+          "meaning": "non-member"
+        },
+        {
+          "word": "料金",
+          "reading": "りょうきん",
+          "meaning": "fee; charge"
+        }
+      ],
+      "blank_target_reading": "にかかわらず"
     }
   ]
 }

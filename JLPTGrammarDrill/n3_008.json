@@ -6,292 +6,355 @@
   "exercises": [
     {
       "id": "n3_008_1",
-      "example_sentence": "あの人の親切さを見ると、良い人にちがいない。",
-      "translation": "Seeing how kind that person is, they must be a good person.",
-      "blank_target": "にちがいない",
+      "example_sentence": "電気がついているから、彼はもう家に帰っているに違いない。",
+      "translation": "The lights are on, so he must already be home.",
+      "blank_target": "に違いない",
       "wrong_choices": [
-        "かもしれません",
-        "はずです",
-        "らしいです"
+        "わけがない",
+        "ことだ",
+        "つもりだ"
       ],
       "wrong_choice_explanations": [
-        "かもしれません means 'might,' expressing mere possibility, but the speaker is drawing a strong, confident conclusion from evidence.",
-        "はずです means 'should be' based on logical reasoning, but にちがいない conveys even stronger personal conviction—'there's no doubt.'",
-        "らしいです means 'apparently/so I've heard,' but the speaker is making a direct observation and firm conclusion, not reporting what others say."
+        "「わけがない」は強い否定で、電気がついているから家にいると確信するこの文意と逆になる。",
+        "「ことだ」は「〜したほうがいい」という忠告や感嘆を表すので、「帰っていることだ」では根拠から推断する文として成り立たない。",
+        "「つもりだ」は話し手自身の意図を表すので、「彼はもう家に帰っているつもりだ」では根拠から推断する意味にならない。"
       ],
-      "hiragana_full": "あのひとのしんせつさをみると、よいひとにちがいない。",
+      "hiragana_full": "でんきがついているから、かれはもういえにかえっているにちがいない。",
       "audio_alternatives": [
         {
-          "kanji": "あの人の親切さを見れば、良い人に違いない。",
-          "hiragana_full": "あのひとのしんせつさをみれば、よいひとにちがいない。"
+          "kanji": "電気がついているし、彼はきっと帰宅しているだろう。",
+          "hiragana_full": "でんきがついているし、かれはきっときたくしているだろう。"
         },
         {
-          "kanji": "あの人がどれだけ親切かを見ると、良い人に違いない。",
-          "hiragana_full": "あのひとがどれだけしんせつかをみると、よいひとにちがいない。"
+          "kanji": "明かりがついているから、彼はもう家にいるに違いない。",
+          "hiragana_full": "あかりがついているから、かれはもういえにいるにちがいない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "blank_target_reading": "にちがいない",
+      "register": "neutral"
     },
     {
       "id": "n3_008_2",
-      "example_sentence": "彼の成績から見ると、一流大学に合格するに違いない。",
-      "translation": "Judging from his grades, he must get into a top-tier university.",
-      "blank_target": "に違いない",
-      "wrong_choices": [
-        "かもしれません",
-        "ようです",
-        "そうだ"
-      ],
-      "wrong_choice_explanations": [
-        "かもしれません means 'might' expressing uncertainty and possibility, but the sentence asserts a strong conclusion based on grades, not a tentative possibility.",
-        "ようです means 'seems' based on observation, but the sentence draws a logical conclusion from concrete grades, not from appearance or observation.",
-        "そうだ means 'it seems/appears,' but the sentence makes a definitive assertion from factual evidence, not a tentative impression."
-      ],
-      "hiragana_full": "かれのせいせきからみると、いちりゅうだいがくにごうかくするにちがいない。",
-      "audio_alternatives": [
-        {
-          "kanji": "彼の成績を見れば、一流大学に合格するに違いない。",
-          "hiragana_full": "かれのせいせきをみれば、いちりゅうだいがくにごうかくするにちがいない。"
-        },
-        {
-          "kanji": "彼の成績から判断すると、一流大学に合格するはずだ。",
-          "hiragana_full": "かれのせいせきからはんだんすると、いちりゅうだいがくにごうかくするはずだ。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "にちがいない"
-    },
-    {
-      "id": "n3_008_3",
-      "example_sentence": "あの山からの景色を見ると、絶景に違いない。",
-      "translation": "Seeing the view from that mountain, it must be breathtaking.",
-      "blank_target": "に違いない",
-      "wrong_choices": [
-        "かもしれません",
-        "だろう",
-        "わけだ"
-      ],
-      "wrong_choice_explanations": [
-        "かもしれません means 'might or possibly,' expressing uncertainty, but the sentence conveys certainty that the mountain view is breathtaking.",
-        "だろう expresses supposition or conjecture, but the sentence is based on direct observation and firm conclusion, not speculation.",
-        "わけだ means 'it stands to reason' or 'it makes sense that,' but it's used to explain reasons, not to assert definite certainty from observation."
-      ],
-      "hiragana_full": "あのやまからのけしきをみると、ぜっけいにちがいない。",
-      "audio_alternatives": [
-        {
-          "kanji": "あの山からの眺めは、絶景に違いない。",
-          "hiragana_full": "あのやまからのながめは、ぜっけいにちがいない。"
-        },
-        {
-          "kanji": "あの山からの景色は、きっと絶景だろう。",
-          "hiragana_full": "あのやまからのけしきは、きっとぜっけいだろう。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "にちがいない"
-    },
-    {
-      "id": "n3_008_4",
-      "example_sentence": "このアパートの値段の高さを見ると、最新式の設備に違いない。",
-      "translation": "Seeing how high the rent is on this apartment, it must have state-of-the-art facilities.",
-      "blank_target": "に違いない",
-      "wrong_choices": [
-        "はずです",
-        "つもりだ",
-        "ことだ"
-      ],
-      "wrong_choice_explanations": [
-        "はずです means 'should be' based on logical expectation, but this sentence requires にちがいない for a firm assertion based on direct evidence (the high rent).",
-        "つもりだ means 'one intends/plans to,' but this sentence draws a conclusion about existing facilities, not about intentions or plans.",
-        "ことだ is used to refer to things or events as objects, not to express conviction about something that must be true."
-      ],
-      "hiragana_full": "このアパートのねだんのたかさをみると、さいしんしきのせつびにちがいない。",
-      "audio_alternatives": [
-        {
-          "kanji": "このアパートの値段が高いのを見ると、最新式の設備があるに違いない。",
-          "hiragana_full": "このアパートのねだんがたかいのをみると、さいしんしきのせつびがあるにちがいない。"
-        },
-        {
-          "kanji": "このアパートの家賃の高さを見れば、最新式の設備に違いない。",
-          "hiragana_full": "このアパートのやちんのたかさをみれば、さいしんしきのせつびにちがいない。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "にちがいない"
-    },
-    {
-      "id": "n3_008_5",
-      "example_sentence": "彼の経験を見ると、専門家に違いない。",
-      "translation": "Seeing his experience, he must be an expert.",
-      "blank_target": "に違いない",
-      "wrong_choices": [
-        "かもしれません",
-        "のようだ",
-        "ものだ"
-      ],
-      "wrong_choice_explanations": [
-        "かもしれません expresses possibility or uncertainty, but the sentence conveys conviction based on observable evidence of experience.",
-        "のようだ means 'seems like' based on appearance or resemblance, but the sentence infers certainty from substantive evidence, not mere appearance.",
-        "ものだ describes habitual actions or general truths, but the sentence asserts a definite conclusion about this specific person's status."
-      ],
-      "hiragana_full": "かれのけいけんをみると、せんもんかにちがいない。",
-      "audio_alternatives": [
-        {
-          "kanji": "彼の経験から見て、専門家に違いない。",
-          "hiragana_full": "かれのけいけんからみて、せんもんかにちがいない。"
-        },
-        {
-          "kanji": "彼の経験を考えると、専門家のはずだ。",
-          "hiragana_full": "かれのけいけんをかんがえると、せんもんかのはずだ。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "にちがいない"
-    },
-    {
-      "id": "n3_008_6",
-      "example_sentence": "この料理の繊細な味わいと美しい盛り付けを見ると、有名なシェフが作ったに違いない。",
-      "translation": "Looking at this dish's delicate flavor and beautiful presentation, it must have been made by a famous chef.",
-      "blank_target": "に違いない",
-      "wrong_choices": [
-        "かもしれない",
-        "らしい",
-        "のはずだ"
-      ],
-      "wrong_choice_explanations": [
-        "かもしれない expresses possibility or uncertainty ('might be'), but this sentence makes a firm, definitive assertion from concrete sensory evidence (taste and presentation).",
-        "らしい means 'apparently/seemingly' based on hearsay or indirect information, but this sentence draws certainty from direct observation of the food itself.",
-        "のはずだ expresses logical expectation based on normal knowledge, but this sentence demands stronger assertion—absolute certainty inferred from the food's quality."
-      ],
-      "hiragana_full": "このりょうりのせんさいなあじわいとうつくしいもりつけをみると、ゆうめいなシェフがつくったにちがいない。",
-      "audio_alternatives": [
-        {
-          "kanji": "この料理の繊細な味わいと美しい盛り付けを見れば、有名なシェフが作ったに違いない。",
-          "hiragana_full": "このりょうりのせんさいなあじわいとうつくしいもりつけをみれば、ゆうめいなシェフがつくったにちがいない。"
-        },
-        {
-          "kanji": "この料理の美しい盛り付けと繊細な味わいから、有名なシェフが作ったに違いない。",
-          "hiragana_full": "このりょうりのうつくしいもりつけとせんさいなあじわいから、ゆうめいなシェフがつくったにちがいない。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "にちがいない"
-    },
-    {
-      "id": "n3_008_7",
-      "example_sentence": "この写真の色褪せ方と品質を見ると、ずっと昔に撮られたに違いない。",
-      "translation": "Looking at the faded color and quality of this photo, it must have been taken long ago.",
+      "example_sentence": "あんなに練習したのだから、彼女は試験に合格するに違いない。",
+      "translation": "She practiced so much, so she's bound to pass the exam.",
       "blank_target": "に違いない",
       "wrong_choices": [
         "かもしれない",
         "そうだ",
-        "ようだ"
+        "わけがない"
       ],
       "wrong_choice_explanations": [
-        "かもしれない means 'might,' expressing uncertainty, but the sentence strongly asserts that the photo's age is definite based on visible evidence.",
-        "そうだ means 'it seems/appears to be,' suggesting a tentative impression, but the sentence expresses firm logical certainty from physical evidence.",
-        "ようだ indicates appearance or seeming, but the sentence expresses definite logical certainty about the past based on deterioration, not just appearance."
+        "「かもしれない」は単なる可能性を示すだけで、あれだけ練習したという根拠からの強い確信を表せない。",
+        "「そうだ」は「合格しそうだ」と外見や様子からの予測を表すが、ここでの話し手の確信ほど強くはない。",
+        "「わけがない」は「〜はずがない」と強い否定で、合格を確信する文意とは正反対になる。"
       ],
-      "hiragana_full": "このしゃしんのいろあせかたとひんしつをみると、ずっとむかしにとられたにちがいない。",
+      "hiragana_full": "あんなにれんしゅうしたのだから、かのじょはしけんにごうかくするにちがいない。",
       "audio_alternatives": [
         {
-          "kanji": "この写真の色褪せ方と品質から見て、ずっと昔に撮られたに違いない。",
-          "hiragana_full": "このしゃしんのいろあせかたとひんしつからみて、ずっとむかしにとられたにちがいない。"
+          "kanji": "あれほど努力したのだから、彼女はきっと受かるだろう。",
+          "hiragana_full": "あれほどどりょくしたのだから、かのじょはきっとうかるだろう。"
         },
         {
-          "kanji": "この写真の色褪せ方と品質を見れば、ずっと昔に撮られたに違いない。",
-          "hiragana_full": "このしゃしんのいろあせかたとひんしつをみれば、ずっとむかしにとられたにちがいない。"
+          "kanji": "あれだけ頑張った彼女なら、合格するに違いない。",
+          "hiragana_full": "あれだけがんばったかのじょなら、ごうかくするにちがいない。"
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "にちがいない"
-    },
-    {
-      "id": "n3_008_8",
-      "example_sentence": "このシグナルは故意のものに違いない。",
-      "translation": "That signal must be intentional.",
-      "blank_target": "に違いない",
-      "wrong_choices": [
-        "かもしれない",
-        "つもりだ",
-        "のはずだ"
-      ],
-      "wrong_choice_explanations": [
-        "かもしれない means 'might' or 'possibly', but the sentence asserts strong certainty based on analysis of the signal's nature, not mere possibility.",
-        "つもりだ expresses intent or plans ('intends to'), but this sentence describes a deduced fact about an existing signal, not someone's intention.",
-        "のはずだ means 'is supposed to be' based on expectation, but the sentence expresses strong certainty based on evidence, not logical expectation."
-      ],
-      "hiragana_full": "このしぐなるはこいのものにちがいない。",
-      "audio_alternatives": [
+      "blank_target_reading": "にちがいない",
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "このシグナルは意図的なものに違いない。",
-          "hiragana_full": "このしぐなるはいとてきなものにちがいない。"
-        },
-        {
-          "kanji": "このシグナルは故意のはずだ。",
-          "hiragana_full": "このしぐなるはこいのはずだ。"
+          "word": "合格",
+          "reading": "ごうかく",
+          "meaning": "passing (an exam)"
         }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "にちがいない"
+      ]
     },
     {
-      "id": "n3_008_9",
-      "example_sentence": "その反応は本心に違いない。",
-      "translation": "That reaction must be his true feeling.",
+      "id": "n3_008_3",
+      "example_sentence": "この料理はとてもおいしい。きっと有名な店のものに違いない。",
+      "translation": "This dish is really delicious. It must be from a famous restaurant.",
       "blank_target": "に違いない",
       "wrong_choices": [
         "かもしれない",
-        "だろう",
+        "らしい",
         "のようだ"
       ],
       "wrong_choice_explanations": [
-        "かもしれない means 'might' or 'possibly,' expressing uncertainty, but the sentence asserts certainty that the reaction definitely reveals true feelings.",
-        "だろう expresses conjecture ('probably/I suppose'), but the speaker isn't speculating—they're drawing a firm conclusion that this reaction must be genuine.",
-        "のようだ means 'seems' based on observation, but the sentence makes a firm deduction about what the reaction truly represents, not just an apparent impression."
+        "「かもしれない」は弱い可能性にとどまり、「きっと」と確信する文脈に合わない。",
+        "「らしい」は伝聞や根拠の薄い推量で、味から自分で強く判断する「に違いない」より弱い。",
+        "「のようだ」は「〜みたいだ」と婉曲な推量を表し、断定的な確信のニュアンスは出ない。"
       ],
-      "hiragana_full": "そのはんのうはほんしんにちがいない。",
+      "hiragana_full": "このりょうりはとてもおいしい。きっとゆうめいなみせのものにちがいない。",
       "audio_alternatives": [
         {
-          "kanji": "その反応は本心のはずだ。",
-          "hiragana_full": "そのはんのうはほんしんのはずだ。"
+          "kanji": "こんなにおいしいなんて、きっと名店の料理だろう。",
+          "hiragana_full": "こんなにおいしいなんて、きっとめいてんのりょうりだろう。"
         },
         {
-          "kanji": "その反応はきっと本音だろう。",
-          "hiragana_full": "そのはんのうはきっとほんねだろう。"
+          "kanji": "この味なら、有名な店のものに違いない。",
+          "hiragana_full": "このあじなら、ゆうめいなみせのものにちがいない。"
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "にちがいない"
+      "blank_target_reading": "にちがいない",
+      "register": "neutral"
+    },
+    {
+      "id": "n3_008_4",
+      "example_sentence": "道がぬれている。昨夜、雨が降ったに違いない。",
+      "translation": "The road is wet. It must have rained last night.",
+      "blank_target": "に違いない",
+      "wrong_choices": [
+        "かもしれない",
+        "そうだ",
+        "はずがない"
+      ],
+      "wrong_choice_explanations": [
+        "「かもしれない」は可能性を示すだけで、ぬれた道という証拠からの強い推断には弱い。",
+        "「そうだ」は「降りそうだ」なら未来の予兆、「降ったそうだ」なら伝聞になり、目の前の証拠からの確信とずれる。",
+        "「はずがない」は強い否定で、雨が降ったと確信する文意と矛盾する。"
+      ],
+      "hiragana_full": "みちがぬれている。さくや、あめがふったにちがいない。",
+      "audio_alternatives": [
+        {
+          "kanji": "道がぬれているので、夜中に雨が降ったのだろう。",
+          "hiragana_full": "みちがぬれているので、よなかにあめがふったのだろう。"
+        },
+        {
+          "kanji": "地面がぬれている。ゆうべ雨が降ったに違いない。",
+          "hiragana_full": "じめんがぬれている。ゆうべあめがふったにちがいない。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "にちがいない",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "昨夜",
+          "reading": "さくや",
+          "meaning": "last night"
+        }
+      ]
+    },
+    {
+      "id": "n3_008_5",
+      "example_sentence": "彼は朝からずっと笑顔だ。きっといい知らせがあったに違いない。",
+      "translation": "He's been smiling all morning. He surely must have gotten good news.",
+      "blank_target": "に違いない",
+      "wrong_choices": [
+        "かもしれない",
+        "らしい",
+        "みたいだ"
+      ],
+      "wrong_choice_explanations": [
+        "「かもしれない」は単なる可能性で、「きっと」と確信する流れにそぐわない。",
+        "「らしい」は人から聞いた話などに基づく推量で、自分の判断としての強い確信を表す「に違いない」より弱い。",
+        "「みたいだ」は様子からの婉曲な推量で、断定的な確信のニュアンスにはならない。"
+      ],
+      "hiragana_full": "かれはあさからずっとえがおだ。きっといいしらせがあったにちがいない。",
+      "audio_alternatives": [
+        {
+          "kanji": "朝から上機嫌なのは、いい知らせがあったからだろう。",
+          "hiragana_full": "あさからじょうきげんなのは、いいしらせがあったからだろう。"
+        },
+        {
+          "kanji": "ずっとにこにこしている。きっといい知らせがあったに違いない。",
+          "hiragana_full": "ずっとにこにこしている。きっといいしらせがあったにちがいない。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "にちがいない",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "笑顔",
+          "reading": "えがお",
+          "meaning": "smile"
+        }
+      ]
+    },
+    {
+      "id": "n3_008_6",
+      "example_sentence": "部屋がこんなに散らかっている。子どもたちが遊んでいたに違いない。",
+      "translation": "The room is this messy. The kids must have been playing here.",
+      "blank_target": "に違いない",
+      "wrong_choices": [
+        "ことだ",
+        "つもりだ",
+        "わけがない"
+      ],
+      "wrong_choice_explanations": [
+        "「ことだ」は「〜したほうがいい」という忠告や感嘆を表すので、「遊んでいたことだ」では目の前の証拠から推断する文として成り立たない。",
+        "「つもりだ」は話し手自身の意図を表すので、「子どもたちが遊んでいたつもりだ」では目の前の証拠から推断する意味にならない。",
+        "「わけがない」は強い否定で、子どもが遊んでいたと確信する文意と逆になる。"
+      ],
+      "hiragana_full": "へやがこんなにちらかっている。こどもたちがあそんでいたにちがいない。",
+      "audio_alternatives": [
+        {
+          "kanji": "部屋がこんなに散らかっているのは、子どもが遊んだせいだろう。",
+          "hiragana_full": "へやがこんなにちらかっているのは、こどもがあそんだせいだろう。"
+        },
+        {
+          "kanji": "この散らかりよう、子どもたちが暴れていたに違いない。",
+          "hiragana_full": "このちらかりよう、こどもたちがあばれていたにちがいない。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "にちがいない",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "散らかって",
+          "reading": "ちらかって",
+          "meaning": "to be in disorder; scattered"
+        }
+      ]
+    },
+    {
+      "id": "n3_008_7",
+      "example_sentence": "彼女は何度も時計を見ている。誰かを待っているに違いない。",
+      "translation": "She keeps checking her watch. She must be waiting for someone.",
+      "blank_target": "に違いない",
+      "wrong_choices": [
+        "かもしれない",
+        "ようだ",
+        "とは限らない"
+      ],
+      "wrong_choice_explanations": [
+        "「かもしれない」は弱い可能性にとどまり、繰り返し時計を見るという根拠からの確信を表せない。",
+        "「ようだ」は様子からの控えめな推量で、話し手の強い確信ほどの断定力はない。",
+        "「とは限らない」は「必ずしも〜ではない」と部分否定で、待っていると確信する文意とは合わない。"
+      ],
+      "hiragana_full": "かのじょはなんどもとけいをみている。だれかをまっているにちがいない。",
+      "audio_alternatives": [
+        {
+          "kanji": "何度も時計を気にして、誰かを待っているのだろう。",
+          "hiragana_full": "なんどもとけいをきにして、だれかをまっているのだろう。"
+        },
+        {
+          "kanji": "しきりに時計を見ている。人を待っているに違いない。",
+          "hiragana_full": "しきりにとけいをみている。ひとをまっているにちがいない。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "にちがいない",
+      "register": "neutral"
+    },
+    {
+      "id": "n3_008_8",
+      "example_sentence": "これだけ証拠がそろえば、犯人は彼に違いない。",
+      "translation": "With this much evidence, the culprit must be him.",
+      "blank_target": "に違いない",
+      "wrong_choices": [
+        "かもしれない",
+        "らしい",
+        "のようだ"
+      ],
+      "wrong_choice_explanations": [
+        "「かもしれない」は可能性を示すだけで、証拠がそろったという前提からの強い断定には弱い。",
+        "「らしい」は伝聞や様子による推量で、証拠から自分で下す確信ほど強くない。",
+        "「のようだ」は婉曲な推量で、犯人だと断定する確信のニュアンスは出ない。"
+      ],
+      "hiragana_full": "これだけしょうこがそろえば、はんにんはかれにちがいない。",
+      "audio_alternatives": [
+        {
+          "kanji": "これだけ証拠がそろえば、犯人は彼で決まりだろう。",
+          "hiragana_full": "これだけしょうこがそろえば、はんにんはかれできまりだろう。"
+        },
+        {
+          "kanji": "ここまで証拠があるなら、彼が犯人に違いない。",
+          "hiragana_full": "ここまでしょうこがあるなら、かれがはんにんにちがいない。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "にちがいない",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "証拠",
+          "reading": "しょうこ",
+          "meaning": "evidence"
+        },
+        {
+          "word": "犯人",
+          "reading": "はんにん",
+          "meaning": "culprit; perpetrator"
+        }
+      ]
+    },
+    {
+      "id": "n3_008_9",
+      "example_sentence": "あの二人はいつも一緒にいる。仲がいいに違いない。",
+      "translation": "Those two are always together. They must get along well.",
+      "blank_target": "に違いない",
+      "wrong_choices": [
+        "かもしれない",
+        "そうだ",
+        "わけがない"
+      ],
+      "wrong_choice_explanations": [
+        "「かもしれない」は可能性にとどまり、いつも一緒という根拠からの確信を表せない。",
+        "「そうだ」は「よさそうだ」と外見からの予測になり、話し手の強い確信より弱い。",
+        "「わけがない」は強い否定で、仲がいいと確信する文意と正反対になる。"
+      ],
+      "hiragana_full": "あのふたりはいつもいっしょにいる。なかがいいにちがいない。",
+      "audio_alternatives": [
+        {
+          "kanji": "いつも行動を共にしているし、二人は仲がいいのだろう。",
+          "hiragana_full": "いつもこうどうをともにしているし、ふたりはなかがいいのだろう。"
+        },
+        {
+          "kanji": "あれだけ一緒にいるのだから、仲がいいに違いない。",
+          "hiragana_full": "あれだけいっしょにいるのだから、なかがいいにちがいない。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "にちがいない",
+      "register": "neutral"
     },
     {
       "id": "n3_008_10",
-      "example_sentence": "その戦術は計算されたものに違いない。",
-      "translation": "That tactic must be calculated.",
+      "example_sentence": "彼は顔色が悪い。どこか具合が悪いに違いない。",
+      "translation": "He looks pale. He must be feeling unwell somewhere.",
       "blank_target": "に違いない",
       "wrong_choices": [
-        "だろう",
+        "かもしれない",
         "らしい",
-        "わけだ"
+        "はずがない"
       ],
       "wrong_choice_explanations": [
-        "だろう expresses supposition or conjecture ('probably'), but the sentence asserts definite certainty about the tactic's intentional design based on evidence.",
-        "らしい means 'apparently/so I've heard,' suggesting indirect knowledge, but this sentence expresses firm conviction from direct observation of the tactic.",
-        "わけだ means 'it stands to reason' and is used to explain reasons, but the sentence asserts what something must be, not why something makes sense."
+        "「かもしれない」は弱い可能性で、悪い顔色という証拠からの強い推断には合わない。",
+        "「らしい」は伝聞・様子による推量で、自分の判断としての確信を表す「に違いない」より弱い。",
+        "「はずがない」は強い否定で、具合が悪いと確信する文意と矛盾する。"
       ],
-      "hiragana_full": "そのせんじゅつはけいさんされたものにちがいない。",
+      "hiragana_full": "かれはかおいろがわるい。どこかぐあいがわるいにちがいない。",
       "audio_alternatives": [
         {
-          "kanji": "その戦術は計算されたものであるはずだ。",
-          "hiragana_full": "そのせんじゅつはけいさんされたものであるはずだ。"
+          "kanji": "顔色がすぐれないので、どこか具合が悪いのだろう。",
+          "hiragana_full": "かおいろがすぐれないので、どこかぐあいがわるいのだろう。"
         },
         {
-          "kanji": "その戦術は計算されているに違いない。",
-          "hiragana_full": "そのせんじゅつはけいさんされているにちがいない。"
+          "kanji": "あの青い顔、体調を崩しているに違いない。",
+          "hiragana_full": "あのあおいかお、たいちょうをくずしているにちがいない。"
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "にちがいない"
+      "blank_target_reading": "にちがいない",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "顔色",
+          "reading": "かおいろ",
+          "meaning": "complexion"
+        },
+        {
+          "word": "具合",
+          "reading": "ぐあい",
+          "meaning": "condition; state of health"
+        }
+      ]
     }
   ]
 }

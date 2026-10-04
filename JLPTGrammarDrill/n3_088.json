@@ -9,7 +9,11 @@
       "example_sentence": "ダイエット中なのに、つい甘いものを食べすぎてしまった。",
       "translation": "Even though I'm on a diet, I ended up eating too many sweets without meaning to.",
       "blank_target": "つい",
-      "wrong_choices": ["わざと", "思わず", "すっかり"],
+      "wrong_choices": [
+        "わざと",
+        "思わず",
+        "すっかり"
+      ],
       "wrong_choice_explanations": [
         "「わざと」は「意図的に」の意味で、そのつもりがないのにしてしまう「つい」とは正反対。ダイエット中にわざと食べすぎたのでは文意に合わない。",
         "「思わず」はとっさの反射的な反応に使う語で、少しずつ食べすぎてしまう経過には合わない。誘惑に負けて度を越す場合は「つい」が自然。",
@@ -17,17 +21,28 @@
       ],
       "hiragana_full": "だいえっとちゅうなのに、ついあまいものをたべすぎてしまった。",
       "audio_alternatives": [
-        { "kanji": "我慢していたのに、つい甘いお菓子を食べすぎてしまった。", "hiragana_full": "がまんしていたのに、ついあまいおかしをたべすぎてしまった。" },
-        { "kanji": "ダイエット中だと分かっていながら、甘いものに手を出してしまった。", "hiragana_full": "だいえっとちゅうだとわかっていながら、あまいものにてをだしてしまった。" }
+        {
+          "kanji": "我慢していたのに、つい甘いお菓子を食べすぎてしまった。",
+          "hiragana_full": "がまんしていたのに、ついあまいおかしをたべすぎてしまった。"
+        },
+        {
+          "kanji": "ダイエット中だと分かっていながら、甘いものに手を出してしまった。",
+          "hiragana_full": "だいえっとちゅうだとわかっていながら、あまいものにてをだしてしまった。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n3_088_2",
       "example_sentence": "漫画が面白くて、つい夜更かししてしまった。",
       "translation": "The manga was so interesting that I ended up staying up late without meaning to.",
       "blank_target": "つい",
-      "wrong_choices": ["わざと", "思わず", "たまたま"],
+      "wrong_choices": [
+        "わざと",
+        "思わず",
+        "たまたま"
+      ],
       "wrong_choice_explanations": [
         "「わざと」は意図的に行う意味で、そのつもりがなかった「つい」とは正反対。夜更かしをわざとしたのでは文意に合わない。",
         "「思わず」はとっさの反射的な反応に使う語で、長時間起きていて夜更かしするという持続的な行動には合わない。",
@@ -35,17 +50,35 @@
       ],
       "hiragana_full": "まんががおもしろくて、ついよふかししてしまった。",
       "audio_alternatives": [
-        { "kanji": "漫画が面白すぎて、つい夜更かししてしまった。", "hiragana_full": "まんががおもしろすぎて、ついよふかししてしまった。" },
-        { "kanji": "面白くて、気づいたら夜遅くまで起きていた。", "hiragana_full": "おもしろくて、きづいたらよるおそくまでおきていた。" }
+        {
+          "kanji": "漫画が面白すぎて、つい夜更かししてしまった。",
+          "hiragana_full": "まんががおもしろすぎて、ついよふかししてしまった。"
+        },
+        {
+          "kanji": "面白くて、気づいたら夜遅くまで起きていた。",
+          "hiragana_full": "おもしろくて、きづいたらよるおそくまでおきていた。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "夜更かし",
+          "reading": "よふかし",
+          "meaning": "staying up late"
+        }
+      ]
     },
     {
       "id": "n3_088_3",
       "example_sentence": "彼の冗談がおかしくて、つい笑ってしまった。",
       "translation": "His joke was so funny that I couldn't help laughing.",
       "blank_target": "つい",
-      "wrong_choices": ["わざと", "うっかり", "なんとなく"],
+      "wrong_choices": [
+        "わざと",
+        "うっかり",
+        "なんとなく"
+      ],
       "wrong_choice_explanations": [
         "「わざと」は意図的に行う意味で、こらえきれず笑ってしまった「つい」とは正反対。",
         "「うっかり」は不注意やうっかり忘れによる失敗を表す語で、おかしくて思わず笑うという感情的な反応には合わない。",
@@ -53,17 +86,35 @@
       ],
       "hiragana_full": "かれのじょうだんがおかしくて、ついわらってしまった。",
       "audio_alternatives": [
-        { "kanji": "彼の冗談があまりにおかしくて、つい笑ってしまった。", "hiragana_full": "かれのじょうだんがあまりにおかしくて、ついわらってしまった。" },
-        { "kanji": "彼の冗談がおかしくて、笑いをこらえられなかった。", "hiragana_full": "かれのじょうだんがおかしくて、わらいをこらえられなかった。" }
+        {
+          "kanji": "彼の冗談があまりにおかしくて、つい笑ってしまった。",
+          "hiragana_full": "かれのじょうだんがあまりにおかしくて、ついわらってしまった。"
+        },
+        {
+          "kanji": "彼の冗談がおかしくて、笑いをこらえられなかった。",
+          "hiragana_full": "かれのじょうだんがおかしくて、わらいをこらえられなかった。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "冗談",
+          "reading": "じょうだん",
+          "meaning": "joke"
+        }
+      ]
     },
     {
       "id": "n3_088_4",
       "example_sentence": "緊張して、つい余計なことを言ってしまった。",
       "translation": "I was nervous and ended up saying something unnecessary without meaning to.",
       "blank_target": "つい",
-      "wrong_choices": ["わざと", "すっかり", "ぜひ"],
+      "wrong_choices": [
+        "わざと",
+        "すっかり",
+        "ぜひ"
+      ],
       "wrong_choice_explanations": [
         "「わざと」は意図的に言う意味で、言うつもりがなかった「つい」とは正反対。余計なことをわざと言ったのでは文意に合わない。",
         "「すっかり」は「完全に」と程度を表す副詞で、口を滑らせて言ってしまった経緯の『思わず』という意味は表さない。",
@@ -71,17 +122,40 @@
       ],
       "hiragana_full": "きんちょうして、ついよけいなことをいってしまった。",
       "audio_alternatives": [
-        { "kanji": "緊張のあまり、つい余計な一言を言ってしまった。", "hiragana_full": "きんちょうのあまり、ついよけいなひとことをいってしまった。" },
-        { "kanji": "緊張して、言わなくてもいいことまで口にしてしまった。", "hiragana_full": "きんちょうして、いわなくてもいいことまでくちにしてしまった。" }
+        {
+          "kanji": "緊張のあまり、つい余計な一言を言ってしまった。",
+          "hiragana_full": "きんちょうのあまり、ついよけいなひとことをいってしまった。"
+        },
+        {
+          "kanji": "緊張して、言わなくてもいいことまで口にしてしまった。",
+          "hiragana_full": "きんちょうして、いわなくてもいいことまでくちにしてしまった。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "緊張",
+          "reading": "きんちょう",
+          "meaning": "nervousness; tension"
+        },
+        {
+          "word": "余計",
+          "reading": "よけい",
+          "meaning": "unnecessary; uncalled-for"
+        }
+      ]
     },
     {
       "id": "n3_088_5",
       "example_sentence": "疲れていて、電車でつい眠ってしまった。",
       "translation": "I was tired and ended up dozing off on the train without meaning to.",
       "blank_target": "つい",
-      "wrong_choices": ["わざと", "やっと", "たまたま"],
+      "wrong_choices": [
+        "わざと",
+        "やっと",
+        "たまたま"
+      ],
       "wrong_choice_explanations": [
         "「わざと」は意図的に行う意味で、眠るつもりがなかった「つい」とは正反対。電車でわざと眠ったのでは文意に合わない。",
         "「やっと」は「ようやく・苦労の末に」と達成を表す副詞で、意図せず眠ってしまった「つい」とは無関係。",
@@ -89,17 +163,28 @@
       ],
       "hiragana_full": "つかれていて、でんしゃでついねむってしまった。",
       "audio_alternatives": [
-        { "kanji": "疲れていたので、電車でつい寝てしまった。", "hiragana_full": "つかれていたので、でんしゃでついねてしまった。" },
-        { "kanji": "疲れていて、電車の中で気づかないうちに眠っていた。", "hiragana_full": "つかれていて、でんしゃのなかできづかないうちにねむっていた。" }
+        {
+          "kanji": "疲れていたので、電車でつい寝てしまった。",
+          "hiragana_full": "つかれていたので、でんしゃでついねてしまった。"
+        },
+        {
+          "kanji": "疲れていて、電車の中で気づかないうちに眠っていた。",
+          "hiragana_full": "つかれていて、でんしゃのなかできづかないうちにねむっていた。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n3_088_6",
       "example_sentence": "安かったので、つい必要のない物まで買ってしまった。",
       "translation": "It was cheap, so I ended up buying even things I didn't need.",
       "blank_target": "つい",
-      "wrong_choices": ["わざと", "なんとなく", "すっかり"],
+      "wrong_choices": [
+        "わざと",
+        "なんとなく",
+        "すっかり"
+      ],
       "wrong_choice_explanations": [
         "「わざと」は意図的に行う意味で、買うつもりがなかった物まで買ってしまった「つい」とは正反対。",
         "「なんとなく」は「特に理由もなく」の意で、『安かったから』という明確なきっかけがあって買ったこの文には合わない。",
@@ -107,17 +192,28 @@
       ],
       "hiragana_full": "やすかったので、ついひつようのないものまでかってしまった。",
       "audio_alternatives": [
-        { "kanji": "安かったので、つい要らない物まで買ってしまった。", "hiragana_full": "やすかったので、ついいらないものまでかってしまった。" },
-        { "kanji": "値段が安くて、必要ない物まで買ってしまった。", "hiragana_full": "ねだんがやすくて、ひつようないものまでかってしまった。" }
+        {
+          "kanji": "安かったので、つい要らない物まで買ってしまった。",
+          "hiragana_full": "やすかったので、ついいらないものまでかってしまった。"
+        },
+        {
+          "kanji": "値段が安くて、必要ない物まで買ってしまった。",
+          "hiragana_full": "ねだんがやすくて、ひつようないものまでかってしまった。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n3_088_7",
       "example_sentence": "子供の寝顔を見ていると、つい頬がゆるんでしまう。",
       "translation": "When I look at my child's sleeping face, I can't help breaking into a smile.",
       "blank_target": "つい",
-      "wrong_choices": ["わざと", "うっかり", "ぜひ"],
+      "wrong_choices": [
+        "わざと",
+        "うっかり",
+        "ぜひ"
+      ],
       "wrong_choice_explanations": [
         "「わざと」は意図的にする意味で、自然とほほえんでしまう「つい」とは正反対。頬をわざとゆるめたのでは文意に合わない。",
         "「うっかり」は不注意やうっかり忘れによる失敗を表す語で、かわいさに思わずほほえむという感情的な反応には合わない。",
@@ -125,17 +221,45 @@
       ],
       "hiragana_full": "こどものねがおをみていると、ついほおがゆるんでしまう。",
       "audio_alternatives": [
-        { "kanji": "子供の寝顔を見ると、つい笑顔になってしまう。", "hiragana_full": "こどものねがおをみると、ついえがおになってしまう。" },
-        { "kanji": "子供の寝顔を見ていると、自然と頬がゆるんでくる。", "hiragana_full": "こどものねがおをみていると、しぜんとほおがゆるんでくる。" }
+        {
+          "kanji": "子供の寝顔を見ると、つい笑顔になってしまう。",
+          "hiragana_full": "こどものねがおをみると、ついえがおになってしまう。"
+        },
+        {
+          "kanji": "子供の寝顔を見ていると、自然と頬がゆるんでくる。",
+          "hiragana_full": "こどものねがおをみていると、しぜんとほおがゆるんでくる。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "寝顔",
+          "reading": "ねがお",
+          "meaning": "sleeping face"
+        },
+        {
+          "word": "頬",
+          "reading": "ほお",
+          "meaning": "cheek"
+        },
+        {
+          "word": "ゆるんで",
+          "reading": "ゆるんで",
+          "meaning": "loosen; relax (into a smile)"
+        }
+      ]
     },
     {
       "id": "n3_088_8",
       "example_sentence": "注意しようと思っていたのに、つい言いそびれてしまった。",
       "translation": "I'd meant to warn them, but I ended up missing my chance to say it.",
       "blank_target": "つい",
-      "wrong_choices": ["わざと", "たまたま", "どうしても"],
+      "wrong_choices": [
+        "わざと",
+        "たまたま",
+        "どうしても"
+      ],
       "wrong_choice_explanations": [
         "「わざと」は意図的に行う意味で、言うつもりだったのに結局言えなかった「つい」とは正反対。",
         "「たまたま」は「偶然」の意で、きっかけをのがして言いそびれた経過を「偶然」とは言えない。",
@@ -143,17 +267,35 @@
       ],
       "hiragana_full": "ちゅういしようとおもっていたのに、ついいいそびれてしまった。",
       "audio_alternatives": [
-        { "kanji": "注意するつもりだったのに、つい言いそびれてしまった。", "hiragana_full": "ちゅういするつもりだったのに、ついいいそびれてしまった。" },
-        { "kanji": "注意しようと思っていたが、結局言いそびれてしまった。", "hiragana_full": "ちゅういしようとおもっていたが、けっきょくいいそびれてしまった。" }
+        {
+          "kanji": "注意するつもりだったのに、つい言いそびれてしまった。",
+          "hiragana_full": "ちゅういするつもりだったのに、ついいいそびれてしまった。"
+        },
+        {
+          "kanji": "注意しようと思っていたが、結局言いそびれてしまった。",
+          "hiragana_full": "ちゅういしようとおもっていたが、けっきょくいいそびれてしまった。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "言いそびれて",
+          "reading": "いいそびれて",
+          "meaning": "miss the chance to say"
+        }
+      ]
     },
     {
       "id": "n3_088_9",
       "example_sentence": "久しぶりに会えてうれしくて、つい長電話してしまった。",
       "translation": "I was so happy to see them after a long time that I ended up talking on the phone for ages.",
       "blank_target": "つい",
-      "wrong_choices": ["わざと", "思わず", "すっかり"],
+      "wrong_choices": [
+        "わざと",
+        "思わず",
+        "すっかり"
+      ],
       "wrong_choice_explanations": [
         "「わざと」は意図的に行う意味で、長電話するつもりはなかった「つい」とは正反対。",
         "「思わず」はとっさの反射的な反応に使う語で、長い時間話し込むという持続的な行動には合わない。",
@@ -161,17 +303,35 @@
       ],
       "hiragana_full": "ひさしぶりにあえてうれしくて、ついながでんわしてしまった。",
       "audio_alternatives": [
-        { "kanji": "久しぶりの再会がうれしくて、つい長電話してしまった。", "hiragana_full": "ひさしぶりのさいかいがうれしくて、ついながでんわしてしまった。" },
-        { "kanji": "久しぶりに話せてうれしくて、長い時間電話してしまった。", "hiragana_full": "ひさしぶりにはなせてうれしくて、ながいじかんでんわしてしまった。" }
+        {
+          "kanji": "久しぶりの再会がうれしくて、つい長電話してしまった。",
+          "hiragana_full": "ひさしぶりのさいかいがうれしくて、ついながでんわしてしまった。"
+        },
+        {
+          "kanji": "久しぶりに話せてうれしくて、長い時間電話してしまった。",
+          "hiragana_full": "ひさしぶりにはなせてうれしくて、ながいじかんでんわしてしまった。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "長電話",
+          "reading": "ながでんわ",
+          "meaning": "a long phone call"
+        }
+      ]
     },
     {
       "id": "n3_088_10",
       "example_sentence": "静かにすべき場所で、つい大きな声を出してしまった。",
       "translation": "In a place where I should have been quiet, I ended up raising my voice without meaning to.",
       "blank_target": "つい",
-      "wrong_choices": ["わざと", "なんとなく", "やっと"],
+      "wrong_choices": [
+        "わざと",
+        "なんとなく",
+        "やっと"
+      ],
       "wrong_choice_explanations": [
         "「わざと」は意図的に行う意味で、大きな声を出すつもりがなかった「つい」とは正反対。静かな場所でわざと大声を出したのでは文意に合わない。",
         "「なんとなく」は「特に理由もなく」の意で、思わず声が大きくなってしまったという無意識の経過を表すには合わない。",
@@ -179,10 +339,17 @@
       ],
       "hiragana_full": "しずかにすべきばしょで、ついおおきなこえをだしてしまった。",
       "audio_alternatives": [
-        { "kanji": "静かにすべき場所で、つい声が大きくなってしまった。", "hiragana_full": "しずかにすべきばしょで、ついこえがおおきくなってしまった。" },
-        { "kanji": "静かにしなければいけない場所で、大きな声を出してしまった。", "hiragana_full": "しずかにしなければいけないばしょで、おおきなこえをだしてしまった。" }
+        {
+          "kanji": "静かにすべき場所で、つい声が大きくなってしまった。",
+          "hiragana_full": "しずかにすべきばしょで、ついこえがおおきくなってしまった。"
+        },
+        {
+          "kanji": "静かにしなければいけない場所で、大きな声を出してしまった。",
+          "hiragana_full": "しずかにしなければいけないばしょで、おおきなこえをだしてしまった。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     }
   ]
 }

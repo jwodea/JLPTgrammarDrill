@@ -6,34 +6,194 @@
   "exercises": [
     {
       "id": "n4_065_1",
-      "example_sentence": "家に帰ったところ、電話が鳴った。",
-      "translation": "Just as I got home, the phone rang.",
-      "blank_target": "た",
+      "example_sentence": "宝くじを買ったところ、一等が当たった。",
+      "translation": "When I tried buying a lottery ticket, I won the grand prize.",
+      "blank_target": "ったところ",
       "wrong_choices": [
-        "て",
-        "ている",
-        "る"
+        "っているところ",
+        "ってしまった",
+        "ったばかり"
       ],
       "wrong_choice_explanations": [
-        "て creates the te-form — but ところ requires past tense to show the timing of completion",
-        "ている shows ongoing state — ところ needs past tense to indicate the moment of completion",
-        "る creates present tense — ところ requires past tense to express 'just finished' timing"
+        "ているところ means 'in the middle of buying,' but the sentence is about what happened after the purchase, not during it.",
+        "ってしまった means 'ended up buying (regrettably)' and closes the clause, so it can't link the purchase to the surprising result the way たところ does.",
+        "たばかり means 'just did recently,' emphasizing recency, but the sentence emphasizes the surprising result that came from the action."
       ],
-      "hiragana_full": "いえにかえったところ、でんわがなった。",
+      "hiragana_full": "たからくじをかったところ、いっとうがあたった。",
       "audio_alternatives": [
         {
-          "kanji": "家に帰ったとき、電話が鳴った。",
-          "hiragana_full": "いえにかえったとき、でんわがなった。"
+          "kanji": "宝くじを買ってみたら、一等が当たった。",
+          "hiragana_full": "たからくじをかってみたら、いっとうがあたった。"
         },
         {
-          "kanji": "帰宅したとたん、電話が鳴った。",
-          "hiragana_full": "きたくしたとたん、でんわがなった。"
+          "kanji": "宝くじを買ってみると、一等が当たった。",
+          "hiragana_full": "たからくじをかってみると、いっとうがあたった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "宝くじ",
+          "reading": "たからくじ",
+          "meaning": "lottery"
+        },
+        {
+          "word": "一等",
+          "reading": "いっとう",
+          "meaning": "first prize"
+        }
+      ]
     },
     {
       "id": "n4_065_2",
+      "example_sentence": "その店に電話したところ、もう閉まっていた。",
+      "translation": "When I called the shop, it had already closed.",
+      "blank_target": "したところ",
+      "wrong_choices": [
+        "しているところ",
+        "してしまった",
+        "したばかり"
+      ],
+      "wrong_choice_explanations": [
+        "しているところ means 'in the middle of doing', but the sentence describes what was discovered as a result of calling, not being in the process of calling.",
+        "してしまった ends the clause ('ended up calling'), so it cannot link to the discovery that follows; たところ connects the action to what was found out.",
+        "したばかり means 'just did', and したばかり、もう閉まっていた is ungrammatical without a connector; the sentence reports a discovery, which たところ conveys."
+      ],
+      "hiragana_full": "そのみせにでんわしたところ、もうしまっていた。",
+      "audio_alternatives": [
+        {
+          "kanji": "その店に電話してみたら、もう閉まっていた。",
+          "hiragana_full": "そのみせにでんわしてみたら、もうしまっていた。"
+        },
+        {
+          "kanji": "その店に電話したら、もう閉まっていた。",
+          "hiragana_full": "そのみせにでんわしたら、もうしまっていた。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "閉まって",
+          "reading": "しまって",
+          "meaning": "being closed"
+        }
+      ]
+    },
+    {
+      "id": "n4_065_3",
+      "example_sentence": "海で泳いだところ、とても気持ちよかった。",
+      "translation": "When I tried swimming in the ocean, it felt wonderful.",
+      "blank_target": "いだところ",
+      "wrong_choices": [
+        "いでいるところ",
+        "いでしまった",
+        "いだばかり"
+      ],
+      "wrong_choice_explanations": [
+        "いでいるところ means 'in the process of,' but たところ expresses the result after trying something.",
+        "いでしまった means 'ended up swimming (completion/regret),' but the sentence is a neutral, positive report of how the swim felt, which たところ expresses as a discovery upon doing it.",
+        "いだばかり means 'just did,' but たところ emphasizes the outcome or finding after doing something."
+      ],
+      "hiragana_full": "うみでおよいだところ、とてもきもちよかった。",
+      "audio_alternatives": [
+        {
+          "kanji": "海で泳いでみたら、とても気持ちよかった。",
+          "hiragana_full": "うみでおよいでみたら、とてもきもちよかった。"
+        },
+        {
+          "kanji": "海で泳いでみると、とても気持ちがよかった。",
+          "hiragana_full": "うみでおよいでみると、とてもきもちがよかった。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "泳いだ",
+          "reading": "およいだ",
+          "meaning": "swam"
+        }
+      ]
+    },
+    {
+      "id": "n4_065_4",
+      "example_sentence": "デパートに行ったところ、セールをしていた。",
+      "translation": "I went to the department store and found they were having a sale.",
+      "blank_target": "ったところ",
+      "wrong_choices": [
+        "ってしまった",
+        "っているところ",
+        "ったあと"
+      ],
+      "wrong_choice_explanations": [
+        "ってしまった means 'ended up going (regrettably)', but the sentence is neutral about going; it's about the discovery at the store.",
+        "っているところ means 'in the middle of going', but the sentence describes what was found after arriving, not something during the trip.",
+        "ったあと means 'after going', which focuses on temporal sequence rather than the discovery that occurred."
+      ],
+      "hiragana_full": "でぱーとにいったところ、せーるをしていた。",
+      "audio_alternatives": [
+        {
+          "kanji": "デパートに行ったら、セールをしていた。",
+          "hiragana_full": "でぱーとにいったら、せーるをしていた。"
+        },
+        {
+          "kanji": "デパートに行くと、セールをしていた。",
+          "hiragana_full": "でぱーとにいくと、せーるをしていた。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral"
+    },
+    {
+      "id": "n4_065_5",
+      "example_sentence": "試しに連絡したところ、すぐに返事が来た。",
+      "translation": "When I tried contacting him, he replied immediately.",
+      "blank_target": "したところ",
+      "wrong_choices": [
+        "してしまったら",
+        "したばかりか",
+        "するところです"
+      ],
+      "wrong_choice_explanations": [
+        "してしまったら means 'when I ended up doing', which suggests something unintended, but the sentence is neutral about the contact itself.",
+        "したばかりか means 'not only did I contact…but also', adding a further point, not linking the action to the result it brought.",
+        "するところです means 'is about to do', but the sentence describes a completed action with its result, not a future intent."
+      ],
+      "hiragana_full": "ためしにれんらくしたところ、すぐにへんじがきた。",
+      "audio_alternatives": [
+        {
+          "kanji": "試しに連絡してみたら、すぐに返事が来た。",
+          "hiragana_full": "ためしにれんらくしてみたら、すぐにへんじがきた。"
+        },
+        {
+          "kanji": "連絡してみたところ、すぐに返事が来た。",
+          "hiragana_full": "れんらくしてみたところ、すぐにへんじがきた。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "試しに",
+          "reading": "ためしに",
+          "meaning": "as a trial"
+        },
+        {
+          "word": "連絡",
+          "reading": "れんらく",
+          "meaning": "to contact"
+        },
+        {
+          "word": "返事",
+          "reading": "へんじ",
+          "meaning": "reply"
+        }
+      ]
+    },
+    {
+      "id": "n4_065_6",
       "example_sentence": "宿題をしたところ、とても難しかった。",
       "translation": "When I did my homework, it was very difficult.",
       "blank_target": "た",
@@ -58,10 +218,12 @@
           "hiragana_full": "しゅくだいをすると、とてもむずかしかった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "blank_occurrence": 1
     },
     {
-      "id": "n4_065_3",
+      "id": "n4_065_7",
       "example_sentence": "映画を見たところです。",
       "translation": "I just finished watching the movie.",
       "blank_target": "た",
@@ -86,38 +248,11 @@
           "hiragana_full": "ちょうどえいがをみたところです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
-      "id": "n4_065_4",
-      "example_sentence": "本を読み終わったところで雨が降り始めた。",
-      "translation": "Just as I finished reading the book, it started to rain.",
-      "blank_target": "で",
-      "wrong_choices": [
-        "に",
-        "と",
-        "から"
-      ],
-      "wrong_choice_explanations": [
-        "に marks specific time points — で better connects the completed action to the simultaneous event",
-        "と means 'and' or 'with' — で shows the temporal connection more clearly",
-        "から means 'from/after' — で indicates the simultaneous timing better than から"
-      ],
-      "hiragana_full": "ほんをよみおわったところであめがふりはじめた。",
-      "audio_alternatives": [
-        {
-          "kanji": "本を読み終えたとたんに雨が降り始めた。",
-          "hiragana_full": "ほんをよみおえたとたんにあめがふりはじめた。"
-        },
-        {
-          "kanji": "本を読み終わったとき、雨が降り始めた。",
-          "hiragana_full": "ほんをよみおわったとき、あめがふりはじめた。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_065_5",
+      "id": "n4_065_8",
       "example_sentence": "駅に着いたところ、友達に会った。",
       "translation": "Just when I arrived at the station, I met a friend.",
       "blank_target": "た",
@@ -142,10 +277,12 @@
           "hiragana_full": "えきについたら、ともだちにあった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "blank_occurrence": 1
     },
     {
-      "id": "n4_065_6",
+      "id": "n4_065_9",
       "example_sentence": "レストランに入ったところ、満席だった。",
       "translation": "When I entered the restaurant, it was full.",
       "blank_target": "た",
@@ -170,66 +307,19 @@
           "hiragana_full": "れすとらんにはいったら、まんせきだった。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_065_7",
-      "example_sentence": "電話をかけたところ、留守番電話だった。",
-      "translation": "When I called, it was the answering machine.",
-      "blank_target": "た",
-      "wrong_choices": [
-        "て",
-        "ている",
-        "ます"
-      ],
-      "wrong_choice_explanations": [
-        "て creates the te-form — ところ requires past tense to show the action was completed",
-        "ている shows ongoing action — ところ needs past tense to indicate completion and result",
-        "ます is the polite present form — ところ needs past tense to show the completed action"
-      ],
-      "hiragana_full": "でんわをかけたところ、るすばんでんわだった。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
         {
-          "kanji": "電話したら、留守番電話だった。",
-          "hiragana_full": "でんわしたら、るすばんでんわだった。"
-        },
-        {
-          "kanji": "電話をかけると、留守番電話だった。",
-          "hiragana_full": "でんわをかけると、るすばんでんわだった。"
+          "word": "満席",
+          "reading": "まんせき",
+          "meaning": "full (no empty seats)"
         }
       ],
-      "audio_eligible": true
+      "blank_occurrence": 1
     },
     {
-      "id": "n4_065_8",
-      "example_sentence": "買い物に行ったところが、店が閉まっていた。",
-      "translation": "When I went shopping, the store was closed.",
-      "blank_target": "が",
-      "wrong_choices": [
-        "で",
-        "と",
-        "に"
-      ],
-      "wrong_choice_explanations": [
-        "で shows connection — が better expresses the contrast between expectation and reality",
-        "と means 'and' — が shows the unexpected result more clearly",
-        "に indicates direction — が is needed to show the contrasting outcome"
-      ],
-      "hiragana_full": "かいものにいったところが、みせがしまっていた。",
-      "audio_alternatives": [
-        {
-          "kanji": "買い物に行ったら、店が閉まっていた。",
-          "hiragana_full": "かいものにいったら、みせがしまっていた。"
-        },
-        {
-          "kanji": "買い物に行くと、店が閉まっていた。",
-          "hiragana_full": "かいものにいくと、みせがしまっていた。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_065_9",
+      "id": "n4_065_10",
       "example_sentence": "朝早く起きたところ、雪が降っていた。",
       "translation": "When I woke up early in the morning, it was snowing.",
       "blank_target": "た",
@@ -254,35 +344,9 @@
           "hiragana_full": "あさはやくめがさめたら、ゆきがふっていた。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_065_10",
-      "example_sentence": "窓を開けたところで、涼しい風が入ってきた。",
-      "translation": "When I opened the window, a cool breeze came in.",
-      "blank_target": "で",
-      "wrong_choices": [
-        "と",
-        "に",
-        "から"
-      ],
-      "wrong_choice_explanations": [
-        "と means 'and' or 'when' — で better shows the immediate result of the completed action",
-        "に indicates time/direction — で connects the action to its immediate consequence",
-        "から means 'from/after' — で shows the simultaneous result better than sequential から"
-      ],
-      "hiragana_full": "まどをあけたところで、すずしいかぜがはいってきた。",
-      "audio_alternatives": [
-        {
-          "kanji": "窓を開けると、涼しい風が入ってきた。",
-          "hiragana_full": "まどをあけると、すずしいかぜがはいってきた。"
-        },
-        {
-          "kanji": "窓を開けたら、涼しい風が入ってきた。",
-          "hiragana_full": "まどをあけたら、すずしいかぜがはいってきた。"
-        }
-      ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "blank_occurrence": 1
     }
   ]
 }

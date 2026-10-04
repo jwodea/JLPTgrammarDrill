@@ -1,69 +1,11 @@
 {
   "id": "n1_036",
-  "pattern": "〜ようが〜まいが",
-  "meaning": "whether one does or not; regardless of whether",
+  "pattern": "〜ようが〜まいが／〜ようが〜ようが",
+  "meaning": "whether one does or not / whether A or B; regardless of whether",
   "level": "N1",
   "exercises": [
     {
       "id": "n1_036_1",
-      "example_sentence": "雨が降ろうが降るまいが、明日の運動会は開催されます。",
-      "translation": "Whether it rains or not, tomorrow's sports festival will be held.",
-      "blank_target": "が降るまいが",
-      "wrong_choices": [
-        "とも",
-        "にせよ",
-        "たとしても"
-      ],
-      "wrong_choice_explanations": [
-        "とも means 'even if' but doesn't create the balanced 'whether or not' structure that ようが〜まいが provides.",
-        "にせよ means 'whether/even if' but is used differently and doesn't pair with ようが to create the complete pattern.",
-        "たとしても means 'even if' and expresses a hypothetical condition, not the neutral 'whether or not' meaning."
-      ],
-      "hiragana_full": "あめがふろうがふるまいが、あしたのうんどうかいはかいさいされます。",
-      "audio_alternatives": [
-        {
-          "kanji": "雨が降っても降らなくても、明日の運動会は開催されます。",
-          "hiragana_full": "あめがふってもふらなくても、あしたのうんどうかいはかいさいされます。"
-        },
-        {
-          "kanji": "雨が降るかどうかにかかわらず、明日の運動会は開催されます。",
-          "hiragana_full": "あめがふるかどうかにかかわらず、あしたのうんどうかいはかいさいされます。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "がふるまいが"
-    },
-    {
-      "id": "n1_036_2",
-      "example_sentence": "彼が来ようが来まいが、私たちは予定通り会議を始めましょう。",
-      "translation": "Whether he comes or not, let's start the meeting as scheduled.",
-      "blank_target": "が来まいが",
-      "wrong_choices": [
-        "が来るにせよ",
-        "が来ても",
-        "が来なくても"
-      ],
-      "wrong_choice_explanations": [
-        "が来るにせよ on its own only states one side ('whether he comes' as a concessive); to match the balanced 'whether or not' force of ようが〜まいが, you'd need the paired にせよ〜にせよ.",
-        "が来ても means 'even if he comes' but only covers one possibility, not the balanced 'whether or not' structure.",
-        "が来なくても means 'even if he doesn't come' but again only covers one side, lacking the parallel structure."
-      ],
-      "hiragana_full": "かれがこようがくるまいが、わたしたちはよていどおりかいぎをはじめましょう。",
-      "audio_alternatives": [
-        {
-          "kanji": "彼が来ても来なくても、予定通りに会議を始めましょう。",
-          "hiragana_full": "かれがきてもこなくても、よていどおりにかいぎをはじめましょう。"
-        },
-        {
-          "kanji": "彼が来るかどうかにかかわらず、私たちは予定通り会議を始めましょう。",
-          "hiragana_full": "かれがくるかどうかにかかわらず、わたしたちはよていどおりかいぎをはじめましょう。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "がくるまいが"
-    },
-    {
-      "id": "n1_036_3",
       "example_sentence": "試験に合格しようが合格しまいが、彼女は留学する決意を固めている。",
       "translation": "Whether she passes the exam or not, she has made up her mind to study abroad.",
       "blank_target": "が合格しまいが",
@@ -89,10 +31,23 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "がごうかくしまいが"
+      "blank_target_reading": "がごうかくしまいが",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "決意",
+          "reading": "けつい",
+          "meaning": "determination/resolve"
+        },
+        {
+          "word": "留学",
+          "reading": "りゅうがく",
+          "meaning": "studying abroad"
+        }
+      ]
     },
     {
-      "id": "n1_036_4",
+      "id": "n1_036_2",
       "example_sentence": "お金があろうがなかろうが、彼は質素な生活を続けている。",
       "translation": "Whether he has money or not, he continues to live a frugal life.",
       "blank_target": "がなかろうが",
@@ -117,68 +72,18 @@
           "hiragana_full": "おかねのうむにかかわらず、かれはしっそなせいかつをつづけている。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n1_036_5",
-      "example_sentence": "親が反対しようが反対しまいが、彼は自分の道を歩むつもりだ。",
-      "translation": "Whether his parents oppose it or not, he intends to go his own way.",
-      "blank_target": "が反対しまいが",
-      "wrong_choices": [
-        "とも",
-        "が反対でも",
-        "にかかわらず"
-      ],
-      "wrong_choice_explanations": [
-        "とも means 'even if' but doesn't complete the ようが〜まいが pattern that presents both possibilities equally.",
-        "が反対でも means 'even if they oppose' but only addresses one side, not the balanced 'whether or not' structure.",
-        "にかかわらず means 'regardless of' but is used with nouns, not in the verb-based ようが〜まいが construction."
-      ],
-      "hiragana_full": "おやがはんたいしようがはんたいしまいが、かれはじぶんのみちをあゆむつもりだ。",
-      "audio_alternatives": [
-        {
-          "kanji": "親が反対しようとしまいと、彼は自分の道を歩むつもりだ。",
-          "hiragana_full": "おやがはんたいしようとしまいと、かれはじぶんのみちをあゆむつもりだ。"
-        },
-        {
-          "kanji": "親の反対にかかわらず、彼は自分の道を歩むつもりだ。",
-          "hiragana_full": "おやのはんたいにかかわらず、かれはじぶんのみちをあゆむつもりだ。"
-        }
-      ],
       "audio_eligible": true,
-      "blank_target_reading": "がはんたいしまいが"
-    },
-    {
-      "id": "n1_036_6",
-      "example_sentence": "今日、彼女に会えようが会えまいが、私の気持ちは変わらない。",
-      "translation": "Whether I can meet her today or not, my feelings won't change.",
-      "blank_target": "が会えまいが",
-      "wrong_choices": [
-        "とはいえ",
-        "ばかりか",
-        "としても"
-      ],
-      "wrong_choice_explanations": [
-        "とはいえ means 'having said that / even so' and qualifies a prior statement with a concessive twist, but it doesn't pair with ようが to express that both outcomes are equally inconsequential.",
-        "ばかりか means 'not only...but also' and is used for adding information, not expressing alternatives.",
-        "としても means 'even if' and suggests a single hypothetical situation, not the neutral 'whether or not' meaning that ようが〜まいが requires."
-      ],
-      "hiragana_full": "きょう、かのじょにあえようがあえまいが、わたしのきもちはかわらない。",
-      "audio_alternatives": [
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "今日、彼女に会えるかどうかにかかわらず、私の気持ちは変わらない。",
-          "hiragana_full": "きょう、かのじょにあえるかどうかにかかわらず、わたしのきもちはかわらない。"
-        },
-        {
-          "kanji": "今日、彼女に会えても会えなくても、私の気持ちは変わらない。",
-          "hiragana_full": "きょう、かのじょにあえてもあえなくても、わたしのきもちはかわらない。"
+          "word": "質素",
+          "reading": "しっそ",
+          "meaning": "frugal/simple"
         }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "があえまいが"
+      ]
     },
     {
-      "id": "n1_036_7",
+      "id": "n1_036_3",
       "example_sentence": "部長が承認しようが承認しまいが、この企画は進めるべきではない。",
       "translation": "Whether the manager approves or not, we shouldn't proceed with this project.",
       "blank_target": "が承認しまいが",
@@ -204,10 +109,18 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "がしょうにんしまいが"
+      "blank_target_reading": "がしょうにんしまいが",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "企画",
+          "reading": "きかく",
+          "meaning": "project/plan"
+        }
+      ]
     },
     {
-      "id": "n1_036_8",
+      "id": "n1_036_4",
       "example_sentence": "医者が手術を勧めようが勧めまいが、最終的には患者が決めることだ。",
       "translation": "Whether the doctor recommends surgery or not, ultimately it's the patient's decision.",
       "blank_target": "が勧めまいが",
@@ -233,39 +146,23 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "がすすめまいが"
-    },
-    {
-      "id": "n1_036_9",
-      "example_sentence": "彼が謝ろうが謝るまいが、私は彼を許すつもりはない。",
-      "translation": "Whether he apologizes or not, I have no intention of forgiving him.",
-      "blank_target": "が謝るまいが",
-      "wrong_choices": [
-        "とも",
-        "ところで",
-        "にしても"
-      ],
-      "wrong_choice_explanations": [
-        "とも means 'even if' but doesn't create the complete ようが〜まいが pattern needed for this balanced expression.",
-        "ところで means 'by the way' and is used to change topics, completely unrelated to the conditional meaning needed here.",
-        "にしても means 'even if/whether' but is a different pattern that doesn't pair with ようが in this construction."
-      ],
-      "hiragana_full": "かれがあやまろうがあやまるまいが、わたしはかれをゆるすつもりはない。",
-      "audio_alternatives": [
+      "blank_target_reading": "がすすめまいが",
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "彼が謝っても謝らなくても、私は彼を許すつもりはない。",
-          "hiragana_full": "かれがあやまってもあやまらなくても、わたしはかれをゆるすつもりはない。"
+          "word": "手術",
+          "reading": "しゅじゅつ",
+          "meaning": "surgery"
         },
         {
-          "kanji": "彼が謝るかどうかにかかわらず、私は彼を許すつもりはない。",
-          "hiragana_full": "かれがあやまるかどうかにかかわらず、わたしはかれをゆるすつもりはない。"
+          "word": "患者",
+          "reading": "かんじゃ",
+          "meaning": "patient"
         }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "があやまるまいが"
+      ]
     },
     {
-      "id": "n1_036_10",
+      "id": "n1_036_5",
       "example_sentence": "電車が遅れようが遅れまいが、約束の時間には必ず到着します。",
       "translation": "Whether the train is delayed or not, I will definitely arrive on time for our appointment.",
       "blank_target": "が遅れまいが",
@@ -291,7 +188,222 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "がおくれまいが"
+      "blank_target_reading": "がおくれまいが",
+      "register": "neutral"
+    },
+    {
+      "id": "n1_036_6",
+      "example_sentence": "泣こうが喚こうが、決まったことはもう覆らない。",
+      "translation": "Cry or scream all you want—what's been decided won't be overturned now.",
+      "blank_target": "喚こうが",
+      "wrong_choices": [
+        "喚くなら",
+        "喚くやいなや",
+        "喚くばかりに"
+      ],
+      "wrong_choice_explanations": [
+        "「喚くなら」は「もし喚くのなら」という条件で、「泣こうが」と並べて『どうしても変わらない』と述べるこの並立の譲歩を成立させない。",
+        "「喚くやいなや」は「喚くとすぐに」という時間的な前後関係を示し、二つの行為を並べて結果は同じだと言うこの文脈に合わない。",
+        "「喚くばかりに」は「喚いたばかりに悪い結果になった」と原因を示す表現で、泣こうが喚こうが結果は変わらない、という並立の譲歩にはならない。"
+      ],
+      "hiragana_full": "なこうがわめこうが、きまったことはもうくつがえらない。",
+      "audio_alternatives": [
+        {
+          "kanji": "泣こうとわめこうと、一度下された判決は変わらない。",
+          "hiragana_full": "なこうとわめこうと、いちどくだされたはんけつはかわらない。"
+        },
+        {
+          "kanji": "いくら泣き叫んでも、もう決まったことは取り消せない。",
+          "hiragana_full": "いくらなきさけんでも、もうきまったことはとりけせない。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "覆る",
+          "reading": "くつがえる",
+          "meaning": "to be overturned; reversed"
+        },
+        {
+          "word": "決まる",
+          "reading": "きまる",
+          "meaning": "to be decided; settled"
+        }
+      ],
+      "blank_target_reading": "わめこうが"
+    },
+    {
+      "id": "n1_036_7",
+      "example_sentence": "雨が降ろうが雪が降ろうが、試合は決行されます。",
+      "translation": "Rain or snow, the match will be held as planned.",
+      "blank_target": "雪が降ろうが",
+      "wrong_choices": [
+        "雪が降るなら",
+        "雪が降るにつれ",
+        "雪が降ったので"
+      ],
+      "wrong_choice_explanations": [
+        "「雪が降るなら」は「もし雪が降るのなら」という条件で、「雨が降ろうが」と対にして『どんな天気でも』と述べるこの並立の譲歩を完成させない。",
+        "「雪が降るにつれ」は「雪が降るのに合わせて」と比例関係を示し、二つの天候を並べて結果は変わらないと言うこの構造に合わない。",
+        "「雪が降ったので」は「雪が降ったから」と理由を述べる表現で、どんな天気であっても決行するという譲歩の文脈とは逆に、原因を説明してしまう。"
+      ],
+      "hiragana_full": "あめがふろうがゆきがふろうが、しあいはけっこうされます。",
+      "audio_alternatives": [
+        {
+          "kanji": "雪が降ろうが嵐が来ようが、試合は予定通り行われます。",
+          "hiragana_full": "ゆきがふろうがあらしがこようが、しあいはよていどおりおこなわれます。"
+        },
+        {
+          "kanji": "たとえどんな悪天候でも、試合は中止せず実施いたします。",
+          "hiragana_full": "たとえどんなあくてんこうでも、しあいはちゅうしせずじっしいたします。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "試合",
+          "reading": "しあい",
+          "meaning": "match; game"
+        },
+        {
+          "word": "決行",
+          "reading": "けっこう",
+          "meaning": "carrying out as planned (despite conditions)"
+        }
+      ],
+      "blank_target_reading": "ゆきがふろうが"
+    },
+    {
+      "id": "n1_036_8",
+      "example_sentence": "成功しようと失敗しようと、挑戦したこと自体に意味がある。",
+      "translation": "Whether you succeed or fail, the very act of taking on the challenge has meaning.",
+      "blank_target": "失敗しようと",
+      "wrong_choices": [
+        "失敗するなら",
+        "失敗するどころか",
+        "失敗したがゆえに"
+      ],
+      "wrong_choice_explanations": [
+        "「失敗するなら」は「もし失敗するのなら」という条件で、「成功しようと」と対にして『どちらの結果でも』と述べるこの並立の譲歩を成立させない。",
+        "「失敗するどころか」は「失敗するどころか、むしろ成功した」と予想を打ち消す対比の表現で、二つの結果を並べるこの構文には合わない。",
+        "「失敗したがゆえに」は「失敗したことが原因で」と理由を示す表現で、成功でも失敗でも意味があるという並立の譲歩にはならない。"
+      ],
+      "hiragana_full": "せいこうしようとしっぱいしようと、ちょうせんしたことじたいにいみがある。",
+      "audio_alternatives": [
+        {
+          "kanji": "勝とうが負けようが、挑んだこと自体に価値がある。",
+          "hiragana_full": "かとうがまけようが、いどんだことじたいにかちがある。"
+        },
+        {
+          "kanji": "結果が成功でも失敗でも、挑戦した経験そのものに意味がある。",
+          "hiragana_full": "けっかがせいこうでもしっぱいでも、ちょうせんしたけいけんそのものにいみがある。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "成功",
+          "reading": "せいこう",
+          "meaning": "success"
+        },
+        {
+          "word": "挑戦",
+          "reading": "ちょうせん",
+          "meaning": "challenge; attempt"
+        },
+        {
+          "word": "自体",
+          "reading": "じたい",
+          "meaning": "itself; in itself"
+        }
+      ],
+      "blank_target_reading": "しっぱいしようと"
+    },
+    {
+      "id": "n1_036_9",
+      "example_sentence": "高かろうが安かろうが、本当に必要な物なら買う。",
+      "translation": "Expensive or cheap, if I truly need it I'll buy it.",
+      "blank_target": "安かろうが",
+      "wrong_choices": [
+        "安ければ",
+        "安いだけに",
+        "安いからには"
+      ],
+      "wrong_choice_explanations": [
+        "「安ければ」は「もし安いなら」という条件で、「高かろうが」と対にして『値段にかかわらず』と述べるこの並立の譲歩を完成させない。",
+        "「安いだけに」は「安いからこそ、なおさら」と理由を強調する表現で、高かろうが安かろうが関係ない、という譲歩の文脈に合わない。",
+        "「安いからには」は「安い以上は当然」と当然の帰結を示す表現で、値段の高低を問わず必要なら買う、という並立の譲歩にはならない。"
+      ],
+      "hiragana_full": "たかかろうがやすかろうが、ほんとうにひつようなものならかう。",
+      "audio_alternatives": [
+        {
+          "kanji": "値段が張ろうが安かろうが、必要なものは迷わず手に入れる。",
+          "hiragana_full": "ねだんがはろうがやすかろうが、ひつようなものはまよわずてにいれる。"
+        },
+        {
+          "kanji": "高い安いは関係なく、本当に要る物だけを買うようにしている。",
+          "hiragana_full": "たかいやすいはかんけいなく、ほんとうにいるものだけをかうようにしている。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "必要",
+          "reading": "ひつよう",
+          "meaning": "necessary; needed"
+        },
+        {
+          "word": "本当に",
+          "reading": "ほんとうに",
+          "meaning": "truly; really"
+        }
+      ],
+      "blank_target_reading": "やすかろうが"
+    },
+    {
+      "id": "n1_036_10",
+      "example_sentence": "どこへ行こうと何をしようと、君の自由だ。",
+      "translation": "Wherever you go and whatever you do, it's entirely up to you.",
+      "blank_target": "しようと",
+      "wrong_choices": [
+        "するなら",
+        "するにあたって",
+        "したが最後"
+      ],
+      "wrong_choice_explanations": [
+        "「するなら」は「もし何かをするのなら」という条件で、「行こうと」と対にして『何をしても』と述べるこの並立の譲歩を成立させない。",
+        "「するにあたって」は「何かをするに際して」と場面・段階を示す硬い表現で、どこで何をしようと自由だ、という譲歩の文脈に合わない。",
+        "「したが最後」は「一度したら最後、もう〜」という不可逆の結果を表し、行こうとしようと自由だ、という並立の譲歩にはならない。"
+      ],
+      "hiragana_full": "どこへいこうとなにをしようと、きみのじゆうだ。",
+      "audio_alternatives": [
+        {
+          "kanji": "どこで暮らそうと何を職業に選ぼうと、それは君次第だ。",
+          "hiragana_full": "どこでくらそうとなにをしょくぎょうにえらぼうと、それはきみしだいだ。"
+        },
+        {
+          "kanji": "進む道も生き方も、すべて君自身が自由に決めていい。",
+          "hiragana_full": "すすむみちもいきかたも、すべてきみじしんがじゆうにきめていい。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "自由",
+          "reading": "じゆう",
+          "meaning": "freedom; being up to oneself"
+        },
+        {
+          "word": "君",
+          "reading": "きみ",
+          "meaning": "you (familiar, to a peer or junior)"
+        }
+      ]
     }
   ]
 }

@@ -6,62 +6,136 @@
   "exercises": [
     {
       "id": "n4_035_1",
-      "example_sentence": "来月から新しい部署で働くことになりました。",
-      "translation": "It has been decided that I will work in a new department starting next month.",
-      "blank_target": "こと",
+      "example_sentence": "会社の新しいオフィスは、来月オープンすることになりました。",
+      "translation": "It's been decided that the company's new office will open next month.",
+      "blank_target": "ことになりました",
       "wrong_choices": [
-        "ことにする",
-        "予定",
-        "つもり"
+        "ことにしました",
+        "ものになりました",
+        "ようになりました"
       ],
       "wrong_choice_explanations": [
-        "ことにする means 'decide to' — it doesn't fit here because the decision was made by others, not by the speaker.",
-        "予定 means 'scheduled' — it doesn't fit here because ことになる emphasizes that the decision was made externally.",
-        "つもり means 'intend to' — it doesn't fit here because this expresses external decision, not personal intention."
+        "ことにした means 'I decided,' implying personal choice, but the office opening is an organizational decision, not the speaker's personal one.",
+        "ものになる means 'to turn into something worthwhile / come to fruition' and cannot follow a plain verb to report an arrangement; only ことになりました announces the decided opening.",
+        "ようになった means 'came to be able to,' describing a gradual change in ability or state, not an institutional decision."
       ],
-      "hiragana_full": "らいげつからあたらしいぶしょではたらくことになりました。",
+      "hiragana_full": "かいしゃのあたらしいオフィスは、らいげつオープンすることになりました。",
       "audio_alternatives": [
         {
-          "kanji": "来月から新しい部署で働くことになっています。",
-          "hiragana_full": "らいげつからあたらしいぶしょではたらくことになっています。"
+          "kanji": "会社の新しいオフィスは、来月開業することになりました。",
+          "hiragana_full": "かいしゃのあたらしいオフィスは、らいげつかいぎょうすることになりました。"
         },
         {
-          "kanji": "来月より新しい部署で勤めることになりました。",
-          "hiragana_full": "らいげつよりあたらしいぶしょでつとめることになりました。"
+          "kanji": "新しい会社のオフィスは、来月オープンすることになりました。",
+          "hiragana_full": "あたらしいかいしゃのオフィスは、らいげつオープンすることになりました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n4_035_2",
-      "example_sentence": "会議は中止することになった。",
-      "translation": "It has been decided that the meeting will be cancelled.",
-      "blank_target": "こと",
+      "example_sentence": "あの有名なシェフが新しいレストランをオープンすることになりました。",
+      "translation": "It has been decided that the famous chef will open a new restaurant.",
+      "blank_target": "ことになりました",
       "wrong_choices": [
-        "ことにする",
-        "はず",
-        "べき"
+        "つもりでした",
+        "ものになりました",
+        "ようになりました"
       ],
       "wrong_choice_explanations": [
-        "ことにする means 'decide to' — it doesn't fit here because ことになる indicates external decision, not personal choice.",
-        "はず means 'should be/expected' — it doesn't fit here because we're stating a definite decision, not expectation.",
-        "べき means 'should/ought to' expressing obligation — it doesn't fit here because we're stating what has been decided, not what should happen."
+        "つもりでした means 'intended to' and expresses personal intention, but the sentence describes an arrangement made by external circumstances.",
+        "ものになりました means 'became something worthwhile / came to fruition', which cannot follow オープンする to report an arrangement; ことになりました states that the opening was decided.",
+        "ようになりました means 'came to be able to' or 'reached the point where', but the sentence describes a planned arrangement, not an acquired ability."
       ],
-      "hiragana_full": "かいぎはちゅうしすることになった。",
+      "hiragana_full": "あのゆうめいなシェフがあたらしいレストランをオープンすることになりました。",
       "audio_alternatives": [
         {
-          "kanji": "会議は中止になった。",
-          "hiragana_full": "かいぎはちゅうしになった。"
+          "kanji": "あの有名なシェフが新しいレストランを開くことになりました。",
+          "hiragana_full": "あのゆうめいなシェフがあたらしいレストランをひらくことになりました。"
         },
         {
-          "kanji": "会議を中止することに決まった。",
-          "hiragana_full": "かいぎをちゅうしすることにきまった。"
+          "kanji": "あの有名なシェフが新しいレストランをオープンすることが決まりました。",
+          "hiragana_full": "あのゆうめいなシェフがあたらしいレストランをオープンすることがきまりました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n4_035_3",
+      "example_sentence": "二人は来春、結婚することになりました。",
+      "translation": "It's been settled that the two of them will marry next spring.",
+      "blank_target": "ることになりました",
+      "wrong_choices": [
+        "るわけでした",
+        "はずでした",
+        "るようになりました"
+      ],
+      "wrong_choice_explanations": [
+        "わけでした expresses an explanation or conclusion ('that is why'), but it cannot announce a newly settled arrangement; ることになりました reports that the marriage was decided.",
+        "はずでした means 'should have' or 'was supposed to', but it indicates an expectation or obligation, not a decision that was made.",
+        "ようになった means 'came to be able to do', describing gradual change, but this sentence describes a decided event."
+      ],
+      "hiragana_full": "ふたりはらいしゅん、けっこんすることになりました。",
+      "audio_alternatives": [
+        {
+          "kanji": "二人は来春、結婚する予定になりました。",
+          "hiragana_full": "ふたりはらいしゅん、けっこんするよていになりました。"
+        },
+        {
+          "kanji": "二人は来春に結婚することが決まりました。",
+          "hiragana_full": "ふたりはらいしゅんにけっこんすることがきまりました。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "来春",
+          "reading": "らいしゅん",
+          "meaning": "next spring"
+        }
+      ]
+    },
+    {
+      "id": "n4_035_4",
+      "example_sentence": "来月から、その新しいお菓子を店で売ることになりました。",
+      "translation": "It has been decided that the new sweets will be sold in the store from next month.",
+      "blank_target": "ることになりました",
+      "wrong_choices": [
+        "ることがありました",
+        "わけでした",
+        "るようになりました"
+      ],
+      "wrong_choice_explanations": [
+        "ることがありました means 'there were times when (we) sold it', describing past occasional events, which clashes with 来月から (from next month).",
+        "わけでした means 'that was the reason/conclusion', explaining something already known, not announcing an arrangement for next month.",
+        "るようになりました means 'came to (do)', describing a change that has already happened, which clashes with the future 来月から."
+      ],
+      "hiragana_full": "らいげつから、そのあたらしいおかしをみせでうることになりました。",
+      "audio_alternatives": [
+        {
+          "kanji": "来月から、その新しいお菓子を店で売ることに決まりました。",
+          "hiragana_full": "らいげつから、そのあたらしいおかしをみせでうることにきまりました。"
+        },
+        {
+          "kanji": "来月から、その新しいお菓子が店で売られることになりました。",
+          "hiragana_full": "らいげつから、そのあたらしいおかしがみせでうられることになりました。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "お菓子",
+          "reading": "おかし",
+          "meaning": "sweets"
+        }
+      ]
+    },
+    {
+      "id": "n4_035_5",
       "example_sentence": "今度の日曜日に友達と映画を見ることになった。",
       "translation": "It has been decided that I will watch a movie with my friend this Sunday.",
       "blank_target": "こと",
@@ -86,21 +160,22 @@
           "hiragana_full": "このにちようびにともだちとえいがをみることになった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
-      "id": "n4_035_4",
+      "id": "n4_035_6",
       "example_sentence": "彼は来年アメリカに転勤することになった。",
       "translation": "It has been decided that he will transfer to America next year.",
       "blank_target": "こと",
       "wrong_choices": [
         "ことにする",
-        "予定",
+        "よう",
         "らしい"
       ],
       "wrong_choice_explanations": [
         "ことにする means 'decide to' — it doesn't fit here because transfers are usually company decisions, not personal choices.",
-        "予定 means 'scheduled' — it doesn't fit here because ことになる better emphasizes the external decision-making.",
+        "ようになる signals a gradual change or new habit of transferring, not a one-off decision; 転勤することになった states the single decided transfer, which is what ことになる expresses.",
         "らしい means 'seems like/apparently' — it doesn't fit here because we're stating a definite decision, not hearsay."
       ],
       "hiragana_full": "かれはらいねんあめりかにてんきんすることになった。",
@@ -114,10 +189,18 @@
           "hiragana_full": "かれのらいねんのあめりかへのてんきんがきまった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "転勤",
+          "reading": "てんきん",
+          "meaning": "job transfer"
+        }
+      ]
     },
     {
-      "id": "n4_035_5",
+      "id": "n4_035_7",
       "example_sentence": "学校の規則で、携帯電話は使えないことになっている。",
       "translation": "According to school rules, it has been decided that mobile phones cannot be used.",
       "blank_target": "こと",
@@ -142,10 +225,23 @@
           "hiragana_full": "がっこうのルールで、けいたいでんわはつかえないことになっている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "規則",
+          "reading": "きそく",
+          "meaning": "rules"
+        },
+        {
+          "word": "携帯電話",
+          "reading": "けいたいでんわ",
+          "meaning": "mobile phone"
+        }
+      ]
     },
     {
-      "id": "n4_035_6",
+      "id": "n4_035_8",
       "example_sentence": "台風のため、試合は延期することになりました。",
       "translation": "It has been decided that the game will be postponed due to the typhoon.",
       "blank_target": "こと",
@@ -170,10 +266,28 @@
           "hiragana_full": "たいふうにより、しあいのえんきがきまりました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "台風",
+          "reading": "たいふう",
+          "meaning": "typhoon"
+        },
+        {
+          "word": "試合",
+          "reading": "しあい",
+          "meaning": "game, match"
+        },
+        {
+          "word": "延期",
+          "reading": "えんき",
+          "meaning": "postponement"
+        }
+      ]
     },
     {
-      "id": "n4_035_7",
+      "id": "n4_035_9",
       "example_sentence": "税金が上がることになるそうだ。",
       "translation": "I heard that it has been decided that taxes will go up.",
       "blank_target": "こと",
@@ -198,91 +312,56 @@
           "hiragana_full": "ぜいきんがあがるときまったそうだ。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_035_8",
-      "example_sentence": "健康のために、毎朝6時に起きることになった。",
-      "translation": "For my health, it has been decided that I wake up at 6 AM every morning.",
-      "blank_target": "こと",
-      "wrong_choices": [
-        "ことにした",
-        "習慣",
-        "ようになった"
-      ],
-      "wrong_choice_explanations": [
-        "ことにした means 'decided to' — it doesn't fit here because ことになる suggests the routine was established by circumstances or external factors.",
-        "習慣 means 'habit' — it doesn't fit here because we need ことになる to express how this routine came to be established.",
-        "ようになった means 'came to be/became' — it doesn't fit here because ことになる emphasizes that this routine was established/decided upon."
-      ],
-      "hiragana_full": "けんこうのために、まいあさろくじにおきることになった。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
         {
-          "kanji": "健康のために、毎朝6時に起きるようになった。",
-          "hiragana_full": "けんこうのために、まいあさろくじにおきるようになった。"
-        },
-        {
-          "kanji": "健康のため、毎朝6時に起きることになった。",
-          "hiragana_full": "けんこうのため、まいあさろくじにおきることになった。"
+          "word": "税金",
+          "reading": "ぜいきん",
+          "meaning": "taxes"
         }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_035_9",
-      "example_sentence": "急に新しいプロジェクトの担当をすることになった。",
-      "translation": "It has been suddenly decided that I will be in charge of the new project.",
-      "blank_target": "こと",
-      "wrong_choices": [
-        "ことにする",
-        "つもり",
-        "わけ"
-      ],
-      "wrong_choice_explanations": [
-        "ことにする means 'decide to' — it doesn't fit here because project assignments are usually decided by management, not self-decided.",
-        "つもり means 'intend to' — it doesn't fit here because this expresses external assignment, not personal intention.",
-        "わけ means 'reason/conclusion' — it doesn't fit here because we're stating an assignment decision, not explaining reasons."
-      ],
-      "hiragana_full": "きゅうにあたらしいぷろじぇくとのたんとうをすることになった。",
-      "audio_alternatives": [
-        {
-          "kanji": "急に新しいプロジェクトを担当することになった。",
-          "hiragana_full": "きゅうにあたらしいぷろじぇくとをたんとうすることになった。"
-        },
-        {
-          "kanji": "突然、新しいプロジェクトの担当をすることになった。",
-          "hiragana_full": "とつぜん、あたらしいぷろじぇくとのたんとうをすることになった。"
-        }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
       "id": "n4_035_10",
-      "example_sentence": "今日の会議で、新商品の価格が決まることになった。",
-      "translation": "It has been decided that the price of the new product will be determined in today's meeting.",
+      "example_sentence": "急に大阪へ出張することになった。",
+      "translation": "It was suddenly decided that I'll go on a business trip to Osaka.",
       "blank_target": "こと",
       "wrong_choices": [
-        "予定",
         "ことにする",
-        "はず"
+        "もの",
+        "わけ"
       ],
       "wrong_choice_explanations": [
-        "予定 means 'scheduled' — it doesn't fit here because ことになる better emphasizes the decision-making process.",
-        "ことにする means 'decide to' — it doesn't fit here because this is about organizational/meeting decision, not personal choice.",
-        "はず means 'should be/expected' — it doesn't fit here because we're stating what has been decided to happen, not what is expected."
+        "ことにする means 'decide to', and ことにするになった is ungrammatical; the trip was arranged for the speaker, which ことになった expresses.",
+        "もの + になった ('became a thing') does not attach to a verb like this; an arrangement is expressed with ことになった.",
+        "わけ means 'reason/conclusion', and わけになった is not a valid form; the sentence reports an arrangement, which needs ことになった."
       ],
-      "hiragana_full": "きょうのかいぎで、しんしょうひんのかかくがきまることになった。",
+      "hiragana_full": "きゅうにおおさかへしゅっちょうすることになった。",
       "audio_alternatives": [
         {
-          "kanji": "今日の会議で、新商品の価格を決めることになった。",
-          "hiragana_full": "きょうのかいぎで、しんしょうひんのかかくをきめることになった。"
+          "kanji": "急に大阪に出張することになった。",
+          "hiragana_full": "きゅうにおおさかにしゅっちょうすることになった。"
         },
         {
-          "kanji": "今日の会議で、新しい商品の値段が決まることになった。",
-          "hiragana_full": "きょうのかいぎで、あたらしいしょうひんのねだんがきまることになった。"
+          "kanji": "急に大阪へ出張することに決まった。",
+          "hiragana_full": "きゅうにおおさかへしゅっちょうすることにきまった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "急に",
+          "reading": "きゅうに",
+          "meaning": "suddenly"
+        },
+        {
+          "word": "出張",
+          "reading": "しゅっちょう",
+          "meaning": "business trip"
+        }
+      ]
     }
   ]
 }

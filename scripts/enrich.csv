@@ -59,3 +59,839 @@ n5_057,2026-07-11,10,0,10,,,,time-word sentences mostly basic; 紅葉/こうよ�
 n5_058,2026-07-11,5,0,10,,,,"ex1/2/4/5/9 vocab omitted (number+counter only); ex10 二十歳 read にじゅっさい in hiragana_full (not はたち) — followed HF, flagged"
 n5_059,2026-07-11,3,0,9,1,,,"ex6 casual (君…解けるよ); most sentences trivially basic, vocab omitted"
 n5_060,2026-07-11,6,0,10,,,,ex1/4/5/8/9 vocab omitted (basic); ヶ所 none
+n5_061,2026-07-12,19,0,10,,,,kana-only target; DEFECT NOTED not touched: ex3 早い used for 'faster' (速い expected); hiragana_full missing final 。 throughout (known class)
+n5_062,2026-07-12,9,0,7,3,,,ex3/4/6 casual (plain finals); 好き/嫌い never glossed (pattern) but 大好き/大嫌い glossed as distinct lexemes; ex5/7/9 vocab omitted (basic/pattern-only)
+n5_063,2026-07-12,8,0,8,2,,,"ex2/4 casual (plain finals); 上手/下手 never glossed (pattern); ex8 hiragana_full has てにす for テニス (noted, not touched)"
+n5_064,2026-07-12,15,0,10,,,,all neutral (polite existence sentences); ある/いる forms never glossed (pattern)
+n5_065,2026-07-12,14,0,10,,,,all polite んです → neutral; surface-form verb glosses (来なかった/遅れた etc.)
+n5_066,2026-07-12,12,0,7,3,,,ex2/5/10 casual (plain と思う); 思う never glossed (pattern); ex6 易しい best chip; ex1 vocab omitted (basic)
+n5_067,2026-07-12,12,0,,10,,,entire file plain-final かもしれない → all 10 casual per plain-form precedent
+n5_068,2026-07-12,11,0,9,1,,,ex9 casual (plain かかった); number+時間 units blank-excluded; btr pre-existing on all ex — 0 added
+n5_069,2026-07-12,17,0,10,,,,滞在/研修/入院 strong chips; btr pre-existing on all ex — 0 added
+n5_070,2026-07-12,13,0,10,,,,ex8 vocab omitted (katakana+basic); btr pre-existing — 0 added
+n5_071,2026-07-12,13,0,8,2,,,ex7/10 casual (plain finals); ex8 vocab omitted (basic); btr pre-existing — 0 added
+n5_072,2026-07-12,14,0,10,,,,words containing 間 blank-excluded; ex10 vocab omitted (basic); btr pre-existing — 0 added
+n5_073,2026-07-12,13,0,9,1,,,"ex3 casual (plain 降っていた); 〜中 compounds blank-excluded, standalone nouns (世界/営業) glossed; btr pre-existing incl ちゅう/じゅう split — 0 added"
+n5_074,2026-07-12,13,0,10,,,,ex1/2 vocab omitted (number+counter+basic only); 釘/灯す strong chips; btr pre-existing incl ぼん/ぽん sandhi — 0 added
+n5_075,2026-07-12,12,0,10,,,,ex3 vocab omitted (basic); btr pre-existing — 0 added
+n5_076,2026-07-13,19,0,10,,,,all neutral (masu); counters/numbers excluded as pattern
+n5_077,2026-07-13,19,0,10,,,,defect noted not touched: all hiragana_full lines lack trailing 。; ex8 audio-alt uses います for motorcycles
+n5_078,2026-07-13,17,0,10,,,,all neutral
+n5_079,2026-07-13,18,0,10,,,,ex3/6/9 reading exceptions untouched per enrich.md; ex10 semantics odd (8 drivers on one bus) — noted only
+n5_080,2026-07-13,14,0,10,,,,ex1 no lookup-worthy words — vocab omitted
+n5_081,2026-07-13,19,0,10,,,,all neutral
+n5_082,2026-07-13,5,0,9,1,,,"blank IS the adjective, so most sentences have nothing left to gloss; ex10 plain-form sentence tagged casual"
+n5_083,2026-07-13,12,0,10,,,,paired noun+か blanks excluded from vocab; ex10 決めかねる glossed (above-level but learner-visible)
+n5_084,2026-07-13,14,0,10,,,,しかし leans formal but sentences are plain です・ます content → neutral per judge-sentence-as-written
+n5_085,2026-07-13,7,0,,10,,,whole-file plain じゃない → all-casual per precedent
+n5_086,2026-07-13,17,0,,10,,,whole-file plain する → all-casual per plain-form precedent
+n5_087,2026-07-13,4,0,,10,,,"whole-file plain copula だ → all-casual; deliberately simple sentences, little to gloss"
+n5_088,2026-07-13,10,0,,10,,,whole-file plain だろう → all-casual per precedent
+n5_089,2026-07-13,15,0,,10,,,ちゃいけない spoken contraction → all-casual; verbs fused with blank (吸っ/触っ) not glossable in surface form
+n5_090,2026-07-13,14,0,,10,,,whole-file plain でも sentences → all-casual per precedent
+n5_091,2026-07-14,18,0,6,4,,,mixed polite/plain な-adj file; ex5/6/8/9 plain-form -> casual per precedent
+n5_092,2026-07-14,14,0,10,,,,all polite ないでください requests -> neutral
+n5_093,2026-07-14,15,0,,10,,,whole-file casual contraction なくちゃ -> all-casual per precedent; verb stems fused with blank (謝ら/急が etc.) not glossed
+n5_094,2026-07-14,21,0,3,7,,,plain-form ex2/3/4/6/7/8/10 -> casual per plain-form precedent
+n5_095,2026-07-14,17,0,5,5,,,plain 行く/行った ex1/3/4/8/10 -> casual; purpose-verb stems fused with blank not glossed; ex8 vocab omitted (all easy katakana/core words)
+n5_096,2026-07-14,13,0,5,5,,,alternating です/だ file; だ exercises (even nos.) -> casual; dictionary-form verbs before のが glossed
+n5_097,2026-07-14,14,0,9,1,,,ex9 plain 元気だ -> casual; ex6 vocab omitted (nothing lookup-worthy)
+n5_098,2026-07-14,13,0,6,4,,,plain+よ advice ex1/3 and bare plain ex5/8 -> casual; verbs fused with ほうがいい blank not glossed
+n5_099,2026-07-14,11,0,10,,,,all polite -> neutral; ex10 vocab omitted
+n5_100,2026-07-14,10,0,10,,,,"all polite -> neutral; ex5 blank もう is leading substring of もうすぐ — known blank-substring display defect class, noted not touched; ex7/8 vocab omitted"
+n5_101,2026-07-14,12,0,10,,,,all polite comparison file -> neutral; gloss-poor; ex7 vocab omitted
+n5_102,2026-07-14,7,0,10,,,,all polite -> neutral; gloss-poor (easy core nouns); ex3/4/6/7 vocab omitted
+n4_001,2026-07-14,4,0,10,,,,"N4 bar: content verbs fused with てもいい blank, vocab sparse; DEFECT noted not touched: ex9 hiragana_full contains unconverted katakana コーヒー; ex3 blank てもいいです carved from しなくてもいいです leaves しなく"
+n4_002,2026-07-14,8,0,10,,,,"plain なければならない is stiff obligation, not casual speech -> all neutral; DEFECT noted not touched: ex6 and ex9 hiragana_full missing trailing 。"
+n4_003,2026-07-14,6,0,10,,,,"all polite します/しました -> neutral; たり verbs fused with blank not glossed; pre-existing legacy failures: ex8 audio_alternatives != 2, ex8 hiragana_full missing trailing 。 — not touched"
+n4_004,2026-07-15,3,0,10,,,,"ex10 彼は疲れそうです semantically odd for visual conjecture (疲れていそう more natural) — noted, not touched; adjective-stem blanks gloss-poor; all neutral"
+n4_005,2026-07-15,11,0,10,,,,"most hiragana_full missing trailing 。 (known defect class) — noted, not touched; all neutral"
+n4_006,2026-07-15,3,0,4,6,,,"te-form blank (て/で) blocks glossing the host verb (手伝って etc.) — gloss-poor file; casual: 1,3,4,7,8,10"
+n4_007,2026-07-15,9,0,5,5,,,"ex2/3/7/8/10 hiragana_full missing trailing 。 — noted, not touched; casual: 1,3,4,6,9"
+n4_008,2026-07-15,8,0,5,5,,,"te-form blank blocks host-verb glosses (診て/撮って); casual: 1,3,6,7,9"
+n4_009,2026-07-15,9,0,4,6,,,"ex2/3/6/7 hiragana_full missing trailing 。 — noted, not touched; casual: 1,4,5,8,9,10"
+n4_010,2026-07-15,9,0,4,6,,,"casual: 1,3,4,7,8,10"
+n4_011,2026-07-15,10,0,7,3,,,"casual: 1,4,10"
+n4_012,2026-07-15,9,0,5,5,,,"ex7 寝させる grammatical but 寝かせる more natural — noted, not touched; casual: 2,4,6,8,10"
+n4_013,2026-07-15,6,0,6,4,,,"ex2-5/7-9 hiragana_full missing trailing 。 — noted, not touched; casual: 1,3,5,6"
+n4_014,2026-07-15,11,0,4,6,,,"textbook させられる full forms throughout; plain third-person narrative tagged casual per precedent; casual: 2,4,6,7,8,10"
+n4_015,2026-07-15,4,0,10,,,,all neutral
+n4_016,2026-07-15,5,0,9,1,,,ex1 止む un-glossable (blank だら adjacency/surface form); casual: 2
+n4_017,2026-07-15,3,0,10,,,,all neutral
+n4_018,2026-07-15,11,0,10,,,,all neutral
+n4_019,2026-07-16,12,0,10,,,,"all neutral (です・ます throughout); チャイム un-glossable (katakana kept in hiragana_full, reading not cross-checkable)"
+n4_020,2026-07-16,10,0,10,,,,all neutral
+n4_021,2026-07-16,9,0,,10,,,"whole-file plain first-person anecdotes -> all casual per precedent; ex8 hiragana_full reads 大渋滞 as おおじゅうたい (std だいじゅうたい) — glossed 渋滞 only, defect noted not fixed"
+n4_022,2026-07-16,12,0,2,7,1,,"casual: 1,3,4,6,7,9,10 (plain narrative/だろう); neutral: 2,5 (polite by-the-way); formal: 8 (お仕事は何をされていますか keigo)"
+n4_023,2026-07-16,14,0,1,9,,,ex7 なければならない -> neutral per run-7 precedent; rest plain narrative casual
+n4_024,2026-07-16,8,0,,10,,,whole-file plain narrative -> all casual
+n4_025,2026-07-16,24,0,1,9,,,ex1 polite neutral; 2-10 plain first-person narrative casual per precedent (report-flavored vocab noted but sentence form governs)
+n4_026,2026-07-16,6,0,6,4,,,"casual: 2,4,8,10 (plain だ + casual evidence clause); adjective-blank file gloss-poor per run-8 precedent"
+n4_027,2026-07-16,3,0,2,8,,,"casual: 1,2,4,5,6,8,9,10 (plain/よ/ね); neutral 3,7 (です); ex8 厳しいらしい先生だ odd prenominal hearsay らしい — defect noted not fixed; ex3 hiragana_full missing 。"
+n4_028,2026-07-16,9,0,5,5,,,"です/だ split: casual 2,4,6,8,10"
+n4_029,2026-07-16,10,0,4,6,,,"casual: 1,4,5,7,9,10; ex9 hiragana_full ふたりでこんでいる drops は of 運んで (should be ふたりではこんでいる) — DEFECT noted not fixed, 運んで left unglossed; ex8 人懐っこそう unglossed (contains blank そう)"
+n4_030,2026-07-16,12,0,4,6,,,"です/plain split: casual 2,3,5,6,9,10"
+n4_031,2026-07-16,3,0,2,8,,,"casual: 1,3,4,5,7,8,9,10 (plain はずだ); ex1/2 hiragana_full missing 。"
+n4_032,2026-07-16,5,0,4,6,,,"casual: 2,3,5,7,8,10; hiragana_full missing 。 in ex2-5,7-10 (known defect class, not fixed)"
+n4_033,2026-07-16,8,0,5,5,,,"casual: 2,4,6,8,10; btr pre-existing (よてい), pure-append of register/vocab only; hiragana_full missing 。 in ex2-8"
+n4_034,2026-07-17,7,0,4,6,,,ex2/3/5/7/8/10 casual (plain personal decisions)
+n4_035,2026-07-17,15,0,6,4,,,ex3/7/8/9 casual; reportive/expository plain (ex2/4/5/10) kept neutral
+n4_036,2026-07-17,11,0,5,5,,,"plain habit statements casual, しています polite neutral"
+n4_037,2026-07-17,5,0,4,6,,,te-blank blocks host-verb glosses (run-8 rule); ex8 ごめんなさい casual
+n4_038,2026-07-17,4,0,8,2,,,"mostly polite; hiragana_full missing 。 in ex1/2/4/6/7/8 (known defect class, untouched)"
+n4_039,2026-07-17,7,0,4,6,,,hiragana_full missing 。 ex1/2/5/8 (untouched)
+n4_040,2026-07-17,4,0,6,4,,,te-blank gloss-poor; plain descriptive ex1/4/5/6 casual
+n4_046,2026-07-17,3,0,1,9,,,whole plain file casual; DEFECT noted not fixed: ex6 忘れきらないでください unnatural; hiragana_full missing 。 ex1-6/10
+n4_047,2026-07-17,5,0,2,8,,,ex3 ようだ conjecture tagged neutral (stiff-plain precedent)
+n4_048,2026-07-17,4,0,1,9,,,"all-plain file, casual-heavy honest (run-9 precedent)"
+n4_049,2026-07-17,15,0,7,3,,,stiff-vocab plain (努力/心がけ/努め/配慮/工夫) neutral; ex1 blank_target ようにしている inconsistent w/ siblings (noted only)
+n4_050,2026-07-17,6,0,0,10,,,"all-casual plain observational; DEFECTS noted not fixed: ex6 眠がって (std 眠たがる), ex8 お腹すいたがって + ex10 疲れたがって ungrammatical がる attachment, ex7 嬉しがって questionable"
+n4_051,2026-07-17,10,0,0,10,,,all-plain narrative casual
+n4_052,2026-07-17,8,0,0,10,,,all-plain casual; hiragana_full missing 。 ex4/5/9 (untouched)
+n4_053,2026-07-17,7,0,0,10,,,all-plain casual; hiragana_full missing 。 ex1/3/4/5/6/7/9/10 (untouched)
+n4_054,2026-07-18,7,0,1,9,,,"plain personal speech throughout -> 9 casual; all blanks kana, no readings"
+n4_055,2026-07-18,8,0,3,7,,,aphoristic generic plain (ex1/5/6) -> neutral; ex8 心強い N2 gloss
+n4_056,2026-07-18,14,0,6,4,,,motivational aphorisms -> neutral; ex10 道は開ける glossed ひらける (reading trap)
+n4_057,2026-07-18,12,0,5,5,,,"person-comment plain -> casual vs impersonal report -> neutral, 5/5 split"
+n4_058,2026-07-18,8,0,5,5,,,ex9 アナウンス stays katakana in hiragana_full -> gloss skipped (run-9 precedent)
+n4_059,2026-07-18,13,0,10,,,,reportive といわれている plain -> neutral 10/10 (run-10 precedent)
+n4_060,2026-07-18,11,0,3,7,,,DEFECT (not touched): hiragana_full missing final 。 ex2/7/9/10; stiff-vocab plain ex9/10 -> neutral
+n4_061,2026-07-18,5,0,9,1,,,"reportive ということだ -> 9 neutral; single-particle blanks と/だ/を/は, no first-occurrence collisions"
+n4_062,2026-07-18,3,0,,10,,,"10/10 casual honest (casual-quotation pattern); DEFECTS (not touched): ex5 母 read おかあさん in hiragana_full, ex10 美味しく read うまく"
+n4_063,2026-07-18,4,0,2,8,,,"ex5 いかがですか -> neutral (polite offer, no keigo)"
+n4_064,2026-07-18,6,0,4,6,,,blank-overlap exclusions: 終わらせた/辞めた/作り終えた contain the blanked た
+n4_065,2026-07-18,7,0,1,9,,,first-person narrative plain -> 9 casual; 着いた excluded (contains blanked た)
+n4_066,2026-07-18,6,0,8,1,1,,ex10 keigo 申し訳ありません+お客様 -> formal; 受けている/片付けている excluded (contain blanked ている)
+n4_067,2026-07-18,6,0,7,3,,,閉まる dropped and 出発する trimmed to 出発 for blank-る overlap; ex10 teacher ください -> neutral (no keigo)
+n4_068,2026-07-18,7,0,3,7,,,volitional/advice plain -> casual; compound glosses 干そう/入れ替えよう
+n4_069,2026-07-19,9,0,5,5,,,"あいだに; plain-narrative exs -> casual (n4_065 precedent); kana blank, no readings"
+n4_070,2026-07-19,11,0,10,,,,たとき; all polite -> all neutral; blanked-た overlap excluded 撮った/引っ越した/読み終えた glosses
+n4_071,2026-07-19,7,0,7,3,,,てから; て/で blanks block host-verb + 出かけました glosses; ex10 volitional 作ろう -> casual
+n4_072,2026-07-19,3,0,,10,,,ずに; all first-person plain anecdotes -> all casual (whole-file precedent); ずに itself stiffish but sentences judged as written
+n4_073,2026-07-19,4,0,3,7,,,ないうちに; volitional/plain -> casual-heavy; ない-blank blocked 暮れない/悪くならない glosses
+n4_074,2026-07-19,7,0,6,4,,,"ないことには; plain advice -> casual, maxim ex10 -> neutral; ex3 blank い; 診て glossed instead of blocked 診てもらわない"
+n4_075,2026-07-19,6,0,,10,,,ないことはない; all plain self-assessment けど/が -> all casual; センス katakana blocks gloss
+n4_076,2026-07-19,10,0,3,7,,,"ずにはいられない (pattern arguably N2, level not touched); literary exs 9/10 + polite ex4 -> neutral; DEFECT ex2 hiragana_full missing 。"
+n4_077,2026-07-19,5,0,4,6,,,"わけではない; な-blanks (2/3/5/9) restrict glosses; ex4 register-mixed plain+です -> neutral, noted; DEFECT ex1 hiragana_full missing 。"
+n4_078,2026-07-19,7,0,2,8,,,"わけにはいかない; ex10 stiff-vocab plain -> neutral; DEFECTS: ex5 hiragana_full dropped particle が (みんなが頑張って -> みんながんばって), ex8 missing 。"
+n4_079,2026-07-19,20,0,7,,2,1,"において; announcement exs 1/3 -> formal, plain court-news ex6 -> written; stiff-vocab dense so 20 glosses justified; リード/フェアプレー katakana blocked"
+n4_080,2026-07-19,16,0,8,2,,,に対して; btr pre-existing (2026-07-09 pass) -> pure-append; ex8 workplace 文句 plain -> casual
+n4_081,2026-07-19,4,0,10,,,,"について; all polite -> all neutral; DEFECT: hiragana_full missing 。 in 8/10 exs (all but 4,7)"
+n4_082,2026-07-19,18,0,6,,4,,に関して; btr pre-existing -> pure-append; keigo ございましたら ex3 + announcements 1/2/8 -> formal; business-vocab dense
+n4_083,2026-07-19,9,0,10,,,,として; all polite -> all neutral; DEFECT: hiragana_full missing 。 in all 10 exs
+n4_084,2026-07-20,14,0,10,,,,にとって; all polite -> all neutral; kana target -> no btr
+n4_085,2026-07-20,7,0,10,,,,に比べて; btr pre-existing (2026-07-09 pass) -> pure-append; everyday comparisons gloss-light
+n4_086,2026-07-20,25,0,8,,,2,"に従って; report-prose exs 4/5 (電力消費量/住宅不足) -> written; essayistic exs 7/9 borderline kept neutral; blank=に single-particle -> substring-collision exposure (known app defect class, n5_053/054)"
+n4_087,2026-07-20,19,0,10,,,,によって; expository plain passives -> neutral (run-8 precedent); DEFECT: hiragana_full missing 。 in ex2; コンピューター katakana in HF ex4
+n4_088,2026-07-20,17,0,9,,,1,に反して; news ex7 (世論/法案可決) -> written; other plain narratives neutral (stiff pattern)
+n4_089,2026-07-20,14,0,10,,,,をはじめ; all neutral; ex8 gloss-free (all easy words); アジア/スポーツ katakana in HF exs 5/6
+n4_090,2026-07-20,14,0,10,,,,をとおして; essayistic plain -> all neutral; インターネット/スポーツ/テレビ katakana in HF exs 4/9/10
+n4_091,2026-07-20,10,0,10,,,,から～にかけて; all polite -> all neutral; DEFECT: hiragana_full missing 。 in 9/10 exs (all but ex1)
+n4_092,2026-07-20,4,0,3,7,,,上に; btr pre-existing -> pure-append; plain everyday complaints/gossip -> 7 casual (run-9 precedent); ex8 でもある + evaluative exs 1/6 neutral; gloss-poor everyday vocab
+n4_093,2026-07-20,14,0,10,,,,というのは; definitional essay style -> all neutral
+n4_094,2026-07-20,8,0,9,1,,,場合; btr pre-existing -> pure-append; ex6 plain volitional おこう -> casual; ex5 なさい instructional -> neutral; メール katakana in HF ex7
+n4_095,2026-07-20,20,0,8,,,2,"に対する; btr pre-existing -> pure-append; 尊敬の念を抱く ex3 + policy-prose ex7 -> written; DEFECT: HF ex9 用意 -> ようして (dropped い), blocks 用意 gloss"
+n4_096,2026-07-20,11,0,10,,,,ものだ; nostalgic + aphoristic plain -> all neutral (unsure->neutral; とは aphorisms written-leaning)
+n4_097,2026-07-20,9,0,6,4,,,"ものだから; spoken-excuse pattern: plain exs 1/2/3/7 -> casual (dangling て ex2 clearest), polite exs neutral"
+n4_098,2026-07-20,6,0,10,,,,"ものの; written-leaning concessive, plain narrative -> all neutral"
+n4_099,2026-07-23,18,0,,10,,,"plain わけだ finals -> all casual (n4_031 plain-はずだ precedent); kana target, no readings"
+n4_100,2026-07-23,13,0,,10,,,plain わけがない emphatic denial -> all casual; ex2/ex9 vocab omitted (all basic); kana target
+n4_101,2026-07-23,14,0,10,,,,ごとに; expository/routine descriptions incl plain finals -> all neutral (reportive-plain precedent); ex2/ex6 vocab omitted (basic); プレゼンテーション converts in HF so glossable; kana target
+n4_102,2026-07-23,10,0,10,,,,おきに; interval descriptions -> all neutral; ex6 vocab omitted (basic); kana target
+n4_103,2026-07-23,9,0,9,1,,,"てほしい; ex2 plain ほしかった -> casual, rest polite neutral; て-form host verbs (手伝って/来て/減らして) blank-excluded, standalone nouns glossed; kana(て) target"
+n4_104,2026-07-23,0,0,6,4,,,"始める/出す; gloss-poor (host verbs fused with blank 出し, nouns all basic) -> 0 vocab; plain narrative ex2/3/6/9 -> casual; btr pre-existing (0 added)"
+n4_105,2026-07-23,0,0,7,3,,,続ける; gloss-poor (fused host verbs + basic nouns) -> 0 vocab; plain finals ex2/4/8 -> casual; btr pre-existing (0 added)
+n4_106,2026-07-23,6,0,5,5,,,"終わる; object nouns glossed (host verbs fused with 終わり), trivial nouns skipped; even-numbered plain finals -> casual; btr pre-existing (0 added)"
+n4_107,2026-07-23,6,0,5,5,,,直す; object nouns glossed (host verbs fused with 直し); even-numbered plain finals -> casual; btr pre-existing (0 added)
+n4_108,2026-07-23,4,0,5,5,,,"あまり～ない; gloss-poor (basic vocab); plain/じゃない finals ex1/3/5/8/9 -> casual, polite ですます -> neutral; kana(あまり) target"
+n4_109,2026-07-23,10,0,,10,,,いらっしゃる keigo -> all formal; honorific-context nouns (社長/会長/部長/お客様) glossed; kana target
+n4_110,2026-07-23,11,0,,10,,,"お～ください honorific request/announcements -> all formal; announcement vocab (館内/写真撮影/控える/手すり) glossed; ex1-4 basic verbs, vocab omitted; kana(ください) target"
+n4_111,2026-07-23,14,0,,10,,,お～になる honorific -> all formal; subject/object nouns glossed (honorific verb IS the blank); btr pre-existing (0 added)
+n4_112,2026-07-23,9,0,,10,,,かい casual masculine question particle -> all casual; お前/君 casual-pronoun chips; ex4/ex8 vocab omitted (basic); kana target
+n4_113,2026-07-23,6,0,,10,,,かしら feminine self-musing -> all casual; ex1/2/3/7/9 vocab omitted (basic); kana target
+n4_114,2026-07-24,10,0,,10,,,かな casual self-musing particle -> all casual (かい/かしら precedent); kana target; several basic exs (2/3) vocab omitted
+n4_115,2026-07-24,18,0,8,2,,,"がする perception; ex8 ね + ex9 よ -> casual, bare plain perceptions -> neutral (unsure->neutral); 気がする/頭痛がする: 気/頭痛 separate from blank, glossed"
+n4_116,2026-07-24,18,0,10,,,,"がり dispositional trait descriptions, plain declarative no casual marker -> all neutral; 〜がり forms blank-excluded; ex9 vocab omitted (basic)"
+n4_117,2026-07-24,20,0,10,,,,"が必要; btr pre-existing (kanji target) -> pure-append order; objective requirement です/だ -> all neutral; ex8 プロジェクト basic, vocab omitted"
+n4_118,2026-07-24,20,0,10,,,,くする causative; intentional-action plain declaratives -> all neutral; 〜くする adj stems (小さく/明るく/難しく etc.) blank-excluded
+n4_119,2026-07-24,20,0,10,,,,こと nominalizer; expository/general mix です/plain -> all neutral; こと blank kana
+n4_120,2026-07-24,17,0,10,,,,さ nominalizer; measurement/abstract expository -> all neutral; all 〜さ forms overlap blank -> excluded; surface-form glosses 残っている/見とれていた/耐えながら
+n4_121,2026-07-24,21,0,10,,,,"さすが admiration; plain evaluative commentary, no casual particle -> all neutral (consistent w/ 116); rich vocab OK (evaluative content words)"
+n4_122,2026-07-24,11,0,,10,,,"じゃないか rhetorical/exhortation, spoken-familiar (君/僕/久しぶりだね) -> all casual; ex6 vocab omitted (basic)"
+n4_123,2026-07-24,12,0,10,,,,"そうに/そうな appearance; plain descriptive narration -> all neutral; all 〜そうに/そうな overlap blank -> excluded, glossed remaining nouns/verbs"
+n4_124,2026-07-24,18,0,10,,,,それでも concessive connector; plain narrative declaratives -> all neutral; 吸い続けている surface-form gloss
+n4_125,2026-07-24,11,0,4,6,,,"そんなに restraint/reassurance; よ exs 1/3/4/7/9 + て-command ex8 -> casual, plain/ください exs 2/5/6/10 -> neutral; conjugated-form glosses (甘くない/怒らないで) to keep word-as-appears"
+n4_126,2026-07-24,12,0,10,,,,"たがる 3rd-person desire; plain descriptive -> all neutral; たがる/たがって forms blank-excluded, glossed stems 習い/試し/働き/借り (free-stem precedent); ex2/3 basic vocab omitted"
+n4_127,2026-07-24,11,0,8,2,,,"たらいい(ですか) advice-seeking; ですか/でしょう -> neutral, ex3 かな + ex8 plain? -> casual; ex1/5 basic vocab omitted; 道に迷ったら surface-form gloss"
+n4_128,2026-07-24,13,0,4,6,,,"たらどう suggestion; plain? exs 1/3/5/6/7/8 -> casual, どうですか/でしょう exs 2/4/9/10 -> neutral; 片付け noun (avoids たらどう blank), 悩まないで surface-form"
+n4_129,2026-07-25,24,0,10,,,,"づらい difficulty-to-do; plain descriptive statements -> all neutral (run-9 precedent, not casual dialogue); conjugated forms 断り/頼み glossed as free stems; 一人=ひとり verified in HF"
+n4_130,2026-07-25,22,0,10,,,,ていく future-progression; plain narrative declaratives -> all neutral; te-form host glossed as free stem (頑張って/減って/変わって)
+n4_131,2026-07-25,21,0,10,,,,"てくる approach/onset toward speaker; plain declaratives -> all neutral; お腹が空いて surface-form gloss, 半年=はんとし verified in HF"
+n4_132,2026-07-25,18,0,1,9,,,"てよかった relief/glad-I-did; plain first-person reactions (感動した/速い/だ) -> casual, ex8 です-adjacent 素敵な式だった kept neutral (formal-occasion register); 予約しておいて surface gloss"
+n4_133,2026-07-25,16,0,,,10,,"でございます humble copula; customer-service/announcements -> all formal (keigo); 弊社 humble register vocab, 務めます surface-form gloss"
+n4_134,2026-07-25,14,0,4,6,,,"でも light-suggestion softener; volitional/tag-question invitations (しよう/行かない?/気分だ) -> casual, ませんか/ますか frames -> neutral (ex3/5/7/10)"
+n4_135,2026-07-25,17,0,8,2,,,"とか colloquial listing; です/plain-expository -> neutral, ex4 みたら? + ex6 しまう plain -> casual; とか is inherently colloquial but register judged on sentence ending"
+n4_136,2026-07-25,18,0,10,,,,とき temporal 'when'; です/ました endings -> all neutral; te-iru host 住んで glossed as stem
+n4_137,2026-07-25,15,0,,10,,,な prohibition; rough imperative (Vるな + 〜せ commands 出せ/話せ) -> all casual; 出せ glossed as imperative in-context
+n4_138,2026-07-25,20,0,10,,,,"なければいけない obligation; plain/ます obligation -> all neutral (なければならない precedent: obligation is stiff-neutral, NOT casual even in plain form); negative-stem hosts 出さ/払わ/返さ/かぶら glossed as free stems"
+n4_139,2026-07-25,19,0,10,,,,"なさい polite command (parent/teacher); instructional imperative -> all neutral (not casual slang, not keigo); masu-stem hosts 遊び/洗い/聞き/起き glossed as free stems, 片付け noun-form avoids nasai blank"
+n4_140,2026-07-25,19,0,,,10,,なさる 尊敬語 keigo; honorific spoken -> all formal; 弊社-tier register vocab (お客様/校長/社長)
+n4_141,2026-07-25,20,0,10,,,,など 'and so on' listing; や〜など expository -> all neutral; 過ごします/済ませます surface-form glosses
+n4_142,2026-07-25,17,0,10,,,,に見えます 'looks/appears'; です endings -> all neutral; blank_target_reading pre-existing (にみえます) LEFT UNTOUCHED per additive rule
+n4_143,2026-07-25,17,0,10,,,,に気がつきました 'noticed/realized'; ました endings -> all neutral; blank_target_reading pre-existing (kanji 気 target) LEFT UNTOUCHED; ta-form hosts 忘れた/落とした/切った glossed
+n4_144,2026-07-26,15,0,10,,,,"の中で; all polite -> all neutral; btr pre-existing (kanji 中 target) -> pure-append, 0 readings"
+n4_145,2026-07-26,18,0,2,8,,,"はずがない; plain emphatic-denial finals -> casual (n4_100/n4_031 precedent), polite ありません/信じています ex2/8 -> neutral; 解ける=とける reading trap; kana target"
+n4_146,2026-07-26,14,0,10,,,,までに deadline; all polite -> neutral; 二十日=はつか reading trap; ex2 vocab omitted (basic); kana target
+n4_147,2026-07-26,14,0,3,7,,,"みたいだ conjecture; plain だ finals -> casual, です endings ex2/5/8 -> neutral; ex2 vocab omitted; kana target"
+n4_148,2026-07-26,13,0,6,4,,,"みたいな simile; plain たい/ほしい first-person desires ex6-9 -> casual, descriptive/polite -> neutral; ex2/5 vocab omitted (basic); kana target"
+n4_149,2026-07-26,16,0,10,,,,"みたいに simile; plain descriptive similes, no casual marker -> all neutral (n4_123/124 precedent); kana target"
+n4_150,2026-07-26,8,0,10,,,,"passive drill; passive verb IS the blank -> gloss-poor; first-person suffering passives ex2/5/10 read casual-leaning but no casual marker -> all neutral (expository drill, run-8 precedent); ex8 しかられた kana -> no btr (correct); どろぼう kana in sentence"
+n4_151,2026-07-26,19,0,10,,,,場合は; all polite -> neutral; btr pre-existing -> pure-append
+n4_152,2026-07-26,13,0,10,,,,"急に; plain narrative past declaratives, no casual marker -> all neutral; btr pre-existing -> pure-append"
+n3_001,2026-07-26,17,0,10,,,,N3 ても; polite + plain-narrative -> all neutral; 説く=とく overlaps ても blank -> excluded (glossed 意見/何度 instead); N3 vocab bar higher; kana blanks
+n3_002,2026-07-26,12,0,10,,,,"てしまう; てしまう host verbs overlap partial mid-word blanks -> excluded, glossed free nouns only (ex4/6/9 vocab omitted); plain mishaps no marker -> neutral; DEFECTS not touched: ex1 HF keeps katakana コーヒー unconverted; HF missing final 。 ex2/3/4/7/8/9/10"
+n3_003,2026-07-26,14,0,10,,,,ておく; all polite -> neutral; ex3/4 btr pre-existing (partial kanji 意/濯 blanks) -> pure-append 0 readings; する-host + 置いて overlap blanks -> excluded; ex2/4 vocab omitted; パスポート/リストアップ katakana kept in HF (blocked); DEFECT: HF missing final 。 ex10
+n3_004,2026-07-26,10,0,10,,,,てみる; polite endings -> all neutral; ex1/4/6/7 vocab omitted (basic/katakana); kana target
+n3_005,2026-07-26,12,0,10,,,,はずだ; all polite です -> neutral; ex4 vocab omitted (basic); DEFECT not touched: ex10 温かい used for 気温 (暖かい expected); kana target
+n3_006,2026-07-26,18,0,10,,,,べきだ moral obligation; opinion statements plain/polite -> all neutral (ex8/10 真摯に/ステークホルダー lean written but kept neutral per unsure->neutral); DEFECTS not touched: HF missing final 。 ex2/3/6; kana target
+n3_007,2026-07-27,10,0,10,,,,かもしれません; all polite → neutral; kana target (no readings); basic-only sentences ex1/ex5 vocab omitted
+n3_008,2026-07-27,17,0,10,,,,"にちがいない; plain assertive deduction endings judged NEUTRAL not casual (analytical/written tone, no conversational markers); ex2-10 btr pre-existing (に違いない) → pure-append; ex1 にちがいない kana target"
+n3_009,2026-07-27,11,0,10,,,,らしい; polite らしいです(ね/よ) → neutral; kana target; ex1/ex3 basic vocab omitted
+n3_010,2026-07-27,14,0,10,,,,"ようだ; polite ようです → neutral; 容態 read ようたい to match HF (alt reading, not ようだい); kana target"
+n3_011,2026-07-27,8,0,9,1,,,そうだ様態; ex2 実現しそうだな → CASUAL (plain だな musing); rest そうです(ね) neutral; kana target
+n3_012,2026-07-27,13,0,10,,,,そうだ伝聞; polite そうです → neutral; kana target
+n3_013,2026-07-27,18,0,10,,,,ために; polite → neutral; kana target; 行って=おこなって cross-checked
+n3_014,2026-07-27,15,0,10,,,,ように; polite てください/ました → neutral; kana target; 扱って/失わない glossed as surface forms
+n3_015,2026-07-27,16,0,10,,,,ことができる; polite ます → neutral; kana target; ex1 basic vocab omitted
+n3_016,2026-07-27,14,0,10,,,,ことがある; polite → neutral; kana target; クレーム read くれーむ (HF converts katakana); ex5 basic omitted
+n3_017,2026-07-27,10,0,10,,,,ことにする; polite ました → neutral; ex5 btr pre-existing (訪問) → pure-append; kana targets otherwise; ex9 キャリアチェンジ katakana omitted
+n3_018,2026-07-27,13,0,10,,,,ことになる; polite ました + plain になった (ex8/10) both → neutral (plain declarative); kana target
+n3_019,2026-07-27,12,0,10,,,,ようになる; polite + plain になった (ex6/7/9) → neutral; kana target; 解ける=とける cross-checked
+n3_020,2026-07-27,6,0,10,,,,ようにする; polite ています + plain ている (ex4/5) habitual → neutral; kana target; many basic sentences → sparse vocab
+n3_021,2026-07-27,10,0,10,,,,ながら; polite → neutral; kana target; katakana-heavy basic sentences ex1/5/8 omitted
+n3_022,2026-07-28,14,0,10,,,,たり〜たりする; all polite ます→neutral; kana blank (たり)→0 readings; blank swallows 2nd/3rd clauses (意見/結論/対応/交換/野外/食事/お土産 excluded); ex3 basic omitted
+n3_023,2026-07-28,20,0,10,,,,"し〜し listing traits; plain evaluative だ/adj endings ex4/6/7/9/10 kept NEUTRAL per no-marker rule (lean casual-evaluative, noted not tagged); blank swallows 2nd trait (優しい/引用/食事/容姿/人格/財務/安全 excluded); ex1 basic omitted"
+n3_024,2026-07-28,13,0,10,,,,ば〜ほど; all polite→neutral; kana blank→0 readings; reduplicated verb sits in blank; ex3 basic omitted
+n3_025,2026-07-28,24,0,10,,,,につれて; all polite→neutral; kana blank→0 readings; surface gloss 美しく; 重ねる/増す appear pre-に (outside blank)
+n3_026,2026-07-28,12,0,10,,,,まま; plain mishap/narrative 〜てしまった→neutral per n3_002 precedent; kana blank→0 readings; surface verb glosses 浴びて/履いた/経って/積み重なって; ex3/6/7 basic omitted
+n3_027,2026-07-28,3,0,10,,,,"っぱなし; plain mishaps→neutral; kana blank→0 readings; near-identical つけっぱなし frames→sparse vocab, 7 exercises omitted (basic)"
+n3_028,2026-07-28,15,0,10,,,,とおりに; all polite ください/ました→neutral; btr pre-existing (通り)→pure-append 0 readings; ex1 指示 spans blank (示 in blank) excluded; ex4/5 basic omitted; surface gloss 組み立てて
+n3_029,2026-07-28,18,0,10,,,,によって; polite + plain expository ex8/10→neutral; kana blank→0 readings; ex1 basic omitted; surface gloss 倒れた
+n3_030,2026-07-28,23,0,10,,,,に対して; polite + plain narrative→neutral; btr pre-existing (対)→pure-append 0 readings
+n3_031,2026-07-28,27,0,10,,,,にとって; all polite です→neutral; kana blank→0 readings
+n3_032,2026-07-28,24,0,10,,,,に関して; polite→neutral; btr pre-existing (関)→pure-append 0 readings; surface glosses 詳しく/講じて
+n3_033,2026-07-28,22,0,10,,,,について; polite→neutral; kana blank→0 readings; 真摯(appears 真摯に) glossed
+n3_034,2026-07-28,19,0,10,,,,だけでなく〜も; polite ます/です→neutral; kana blank→0 readings; ex1 basic (languages) omitted; surface gloss 美しい/素晴らしい
+n3_035,2026-07-28,12,0,10,,,,ほど〜ない; all polite ありませんでした→neutral; kana blank→0 readings; ex4/5 basic omitted
+n3_036,2026-07-28,14,0,9,1,,,"さえ〜ば; ex7 旅行に行きたい plain desire→CASUAL (n4_148 precedent); のに-regret endings ex2-5 kept neutral (formal vocab, no explicit casual marker); kana blank→0 readings; ex1/7 basic omitted"
+n3_037,2026-07-29,23,0,10,,,,かどうか; all polite (います/ください/です)→neutral; kana blank→0 readings
+n3_038,2026-07-29,14,0,10,,,,"てはいけません; all polite→neutral; kana blank→0 readings; HF missing 。 on ex4/ex7/ex8/ex9/ex10 (defect, not touched); ex3/ex6 basic omitted"
+n3_039,2026-07-29,17,0,10,,,,なければならない; obligation→neutral even where plain (n4 precedent); host verbs after blank (受ける/満たす/応える/見分ける/終わらせる) not glossed (blank overlap); kana blank→0 readings
+n3_040,2026-07-29,15,0,10,,,,てもいい; permission requests→neutral; kana blank→0 readings; ex4/ex6 basic omitted; surface glosses 脱いで/撮って/連れて
+n3_041,2026-07-29,11,0,10,,,,"なくてもいい; ですよ/plain-declarative→neutral; kana blank→0 readings; ex5 basic omitted; ex10 HF/kanji MISMATCH 決定→きめ (defect, not touched, 決定 not glossed)"
+n3_042,2026-07-29,10,0,10,,,,ているところ; all polite→neutral; kana blank→0 readings; ex2/3/4/7 basic omitted
+n3_043,2026-07-29,17,0,10,,,,たところ (tried and found); plain past discovery narrative→neutral (expository precedent); host verbs before blank (買った etc) not glossed; ex5 basic omitted
+n3_044,2026-07-29,22,0,10,,,,たばかり; all polite です/ます→neutral; kana blank→0 readings; surface glosses 着いた/困って/慣れて
+n3_045,2026-07-29,14,0,10,,,,たとたん; plain past narrative→neutral (expository precedent); host verbs partially in blank (起きた/決まった/始まった/入った/開けた) not glossed
+n3_046,2026-07-29,12,0,10,,,,"うちに; plain regret ex1 おけばよかった + plain だ ex2 held NEUTRAL (no-marker/のに-regret precedent); ex5/ex7 basic omitted; ex10 HF DEFECT 競争優位→きょうそうゆう (dropped い), reading unverifiable→NOT glossed"
+n3_047,2026-07-29,16,0,10,,,,あいだに; plain past narrative→neutral; ex7/ex8 blank_target=間に PRE-EXISTING blank_target_reading (あいだに)→pure-append 0 readings; ex4 basic omitted
+n3_048,2026-07-29,15,0,10,,,,ごとに; all polite→neutral; kana blank→0 readings; ex7 basic omitted; 一月=ひとつき reading trap glossed
+n3_049,2026-07-29,19,0,10,,,,たびに; all polite→neutral; kana blank→0 readings; surface glosses 増えます/思い出します/諦めたい/増します
+n3_050,2026-07-29,16,0,10,,,,おきに; all polite→neutral; kana blank→0 readings; ex7 basic omitted; 二日=ふつか reading trap glossed
+n3_051,2026-07-29,15,0,,10,,,"わけだ (no wonder/that is why); ALL CASUAL per plain sentence-final modal precedent (n4 わけだ file all-casual, run 14); ex6 basic omitted"
+n3_052,2026-07-30,23,0,9,1,,,"わけではない; mostly polite→neutral, ex6 casual (plain ほしい desire); kana blank→0 readings"
+n3_053,2026-07-30,14,0,,10,,,"わけがない; ALL CASUAL (plain sentence-final denial modal; はずがない/わけだ precedent, runs 14/19); kana blank→0 readings; ex1/ex5/ex7 basic-only, vocab omitted"
+n3_054,2026-07-30,18,0,10,,,,"わけにはいかない; obligation connective, NOT a casual marker→neutral; kana blank→0 readings; ex1 約束 too basic, omitted"
+n3_055,2026-07-30,15,0,10,,,,"ものだ; gnomic general-truth→neutral; kana blank→0 readings; ex1/ex3/ex6 basic-only, vocab omitted"
+n3_056,2026-07-30,19,0,10,,,,ものではない; didactic admonition→neutral; kana blank→0 readings
+n3_057,2026-07-30,19,0,10,,,,ものの; plain-narrative concessive→neutral; kana blank→0 readings; ex2/ex3 basic-only; dropped conjugated 目指した/敗れた/恋しく in favor of noun glosses
+n3_058,2026-07-30,15,0,10,,,,"ことだ; instructional advice→neutral; kana blank→0 readings; ex8/ex9 basic-only, vocab omitted"
+n3_059,2026-07-30,15,0,1,9,,,くせに; colloquial reproach→casual per-item (俺/んだ/なんて/ケチ + plain reproach); ex8 でき…んですね polite→neutral; kana blank→0 readings; ex7/ex8 no lookup vocab
+n3_060,2026-07-30,20,0,10,,,,せいで; polite/plain narrative→neutral; kana blank→0 readings; ex4 uses surface 狂って gloss
+n3_061,2026-07-30,18,0,10,,,,"おかげで; neutral; kana blank→0 readings; ex6 basic-only. DEFECT (pre-existing, not touched): exercises stored _1,_10,_2… order → validator id-mismatch on new fields? NO—unrelated to enrich fields"
+n3_062,2026-07-30,16,0,10,,,,"にもかかわらず; kept neutral (formal but not literary; when-unsure-neutral); kana blank→0 readings; ex1/ex3/ex5 no lookup vocab (ex5 あきらめ only-conjugated, skipped). PRE-EXISTING id-order defect, not touched"
+n3_063,2026-07-30,5,0,10,,,,"さえ; neutral; kana blank→0 readings; many basic-vocab omits (さえ sentences use easy words). PRE-EXISTING id-order defect, not touched"
+n3_064,2026-07-30,17,0,10,,,,"ずに; neutral; kana blank→0 readings; ex4 surface 去って, ex8 dropped 進めました. PRE-EXISTING id-order defect, not touched"
+n3_065,2026-07-30,17,0,10,,,,"ほかない; resignation modal→neutral (used in neutral/written, not colloquial-specific); kana blank→0 readings; 行う=おこなう reading-trap glossed correctly (HF confirms). PRE-EXISTING id-order defect, not touched"
+n3_066,2026-07-30,11,0,9,1,,,"にしては; ex1 plain だね→casual, rest neutral; kana blank→0 readings. PRE-EXISTING id-order defect, not touched"
+n3_067,2026-07-31,17,0,10,,,,"わりに; plain declarative/です→all neutral; 割に blanks PRE-EXISTING readings, わりに kana blanks→0 readings"
+n3_068,2026-07-31,13,0,10,,,,"といえば; topic intro, polite/plain→neutral; kana blank→0 readings; ex4/ex7 loanword-only vocab omitted; ex9 サステナビリティ katakana-in-HF not glossable"
+n3_069,2026-07-31,17,0,10,,,,"といっても; polite→neutral; kana blank→0 readings; ex2 プロジェクトマネージャー & ex7 コツ katakana-in-HF not glossable, vocab omitted"
+n3_070,2026-07-31,19,0,10,,,,"として; polite→neutral; kana blank→0 readings; ex9 dropped conjugated 果たします→noun 責任 only. PRE-EXISTING id-order defect (validator id-mismatch), not touched"
+n3_071,2026-07-31,11,0,10,,,,あまりにも; plain narrative intensifier→neutral; kana blank→0 readings; conjugated verbs/adjs skipped (失った/あきらめた/怪しく); ex1/ex7/ex9 basic-only vocab omitted
+n3_072,2026-07-31,2,0,10,,,,"いくら〜ても; polite/plain→neutral; kanji blanks PRE-EXISTING readings→0 added; easy-vocab sentences, blank swallows verb, most vocab omitted"
+n3_073,2026-07-31,7,0,10,,,,"きり; plain narrative→neutral; kanji blanks PRE-EXISTING readings, kana blanks→0 readings; conjugated verbs skipped"
+n3_074,2026-07-31,11,0,7,2,1,,"こそ; ex1 plain たい & ex7 plain ほしい desire→casual (n3_052 precedent); ex2 お世話になっております keigo→formal; rest neutral; kana blanks→0 readings, kanji blanks PRE-EXISTING; ex10 平和=blank_target skipped"
+n3_075,2026-07-31,9,0,,,,10,"こと (sentence-final rule/directive)→ALL WRITTEN (regulation/notice form, never spoken); kanji verb+こと blanks PRE-EXISTING readings; ex5 提出=blank skipped; ex4/ex10 basic-only vocab omitted"
+n3_076,2026-07-31,19,0,10,,,,"ことから; expository inference, everyday→neutral (n3_062 formal-but-not-literary precedent); kana blank→0 readings; conjugated verbs skipped"
+n3_077,2026-07-31,6,0,9,1,,,"ことは〜が; ex1 好きじゃない colloquial contraction→casual; rest plain-form concession→neutral; kana blank→0 readings; conversational easy vocab, several omitted"
+n3_078,2026-07-31,16,0,10,,,,"さらに; additive connective, plain/news→kept neutral (when-unsure); kana blank→0 readings; conjugated verbs skipped"
+n3_079,2026-07-31,15,0,9,,1,,すでに; ex5 ご指摘...です keigo/business→formal; rest neutral; kana blank→0 readings; conjugated verbs skipped (ex3/ex9 vocab omitted)
+n3_080,2026-07-31,20,0,,,,10,"すなわち; formal/written expository connective (definitions/news/literary ざるを得ない, kanji-numeral years, 下落)→ALL WRITTEN; kana blank→0 readings; borderline vs neutral but sentences carry written markers"
+n3_081,2026-07-31,7,0,10,,,,ずつ; plain/です→neutral; kana blank→0 readings; conjugated verbs skipped (配った/貼って); ex1/ex2/ex10 basic-only vocab omitted
+n3_082,2026-08-01,15,0,10,,,,そうもない; plain declarative→all neutral; kana blank→0 readings; ex1/ex3/ex4 basic-only vocab omitted
+n3_083,2026-08-01,14,0,9,,1,,"たて; ex7 召し上がってください keigo→formal, rest neutral; kana blank→0 readings; ex2/ex6 basic-only vocab omitted"
+n3_084,2026-08-01,14,0,9,1,,,"たとえ〜ても; ex4 plain たい desire→casual (n3_074 precedent), rest neutral; kana blank→0 readings; ex2/ex6 basic-only omitted"
+n3_085,2026-08-01,12,0,,10,,,"だけど; inherently-casual contrastive conjunction, plain-form throughout→ALL CASUAL (cf n3_075/n3_080 whole-file precedents); kana blank→0 readings; ex4/ex5/ex6 basic/katakana omitted"
+n3_086,2026-08-01,20,0,10,,,,だらけ; plain narrative→neutral; kana blank→0 readings; host nouns before だらけ glossed
+n3_087,2026-08-01,5,0,,10,,,"っけ; casual recall/confirm sentence-ender→ALL CASUAL; kana blank→0 readings; many basic-only sentences, vocab omitted"
+n3_088,2026-08-01,9,0,10,,,,つい; plain 〜てしまった self-narration→neutral; kana blank→0 readings; conjugated hosts mostly skipped
+n3_089,2026-08-01,11,0,8,2,,,"ついでに; ex2 買ってきて te-request & ex4 出しておいてくれる？→casual, rest neutral; kana blank→0 readings"
+n3_090,2026-08-01,21,0,10,,,,"ついに; plain narrative culmination, kept neutral (when-unsure; no ゆえに/べく written markers); kana blank→0 readings"
+n3_091,2026-08-01,18,0,10,,,,つまり; expository restatement→neutral; kana blank→0 readings
+n3_092,2026-08-01,5,0,,10,,,"てごらん; familiar gentle directive (superior→inferior, よ particles)→ALL CASUAL; kana blank→0 readings; many basic-only sentences omitted"
+n3_093,2026-08-01,3,0,10,,,,"てもかまわない; permission, plain→neutral; kana blank→0 readings; very basic everyday vocab, most omitted"
+n3_094,2026-08-01,7,0,10,,,,"てもしょうがない; resignation, しょうがない colloquial-lean but kept neutral (ほかない precedent/when-unsure); kana blank→0 readings"
+n3_095,2026-08-01,14,0,10,,,,"ても始まらない; resignation→neutral; PRE-EXISTING blank_target_reading on kanji blank 始, not touched (0 added)"
+n3_096,2026-08-01,10,0,10,,,,"とても〜ない; strong impossibility, plain→neutral; kana blank→0 readings; きる-compounds (読み切れない/入りきらない/食べきれない) glossed"
+n3_097,2026-08-02,23,,10,,,,"と共に; plain narrative→all neutral; PRE-EXISTING blank_target_reading on kanji target, not touched (0 added); surface-form verbs glossed"
+n3_098,2026-08-02,17,,10,,,,"と言うと; topic-intro, plain/です・ます→all neutral; PRE-EXISTING btr, 0 added; ex2/ex6 basic-only vocab omitted"
+n3_099,2026-08-02,17,,8,2,,,"と言えば; ex4 (君...んだったね) & ex9 (plain-past question) casual conversation→casual, rest neutral; PRE-EXISTING btr, 0 added"
+n3_100,2026-08-02,14,,8,2,,,"どうしても; ex2 plain たい & ex6 plain ほしい desire→casual (n3_074/084 precedent), rest neutral; kana blank→0 readings; ex1/ex5 basic-only omitted"
+n3_101,2026-08-02,12,,10,,,,"どころか; contrastive, plain narrative→all neutral; kana blank→0 readings; ex3/ex6/ex9 basic-only omitted"
+n3_102,2026-08-02,11,,10,,,,どんなに〜ても; plain concession→all neutral; kana blank→0 readings; ex2/ex4/ex7 basic-only omitted
+n3_103,2026-08-02,14,,10,,,,なかなか〜ない; plain narrative→all neutral; kana blank→0 readings
+n3_104,2026-08-02,21,,9,,1,,"なぜなら〜から; ex7 決定いたしました keigo business announcement→formal, rest neutral; kana blank→0 readings; ex1 basic-only omitted"
+n3_105,2026-08-02,16,,9,,1,,"なるべく; ex8 ご不明/お問い合わせください customer-service keigo→formal, rest neutral; kana blank→0 readings; ex1 basic-only omitted"
+n3_106,2026-08-02,5,,1,9,,,"なんて; colloquial exclamation particle, plain emotive throughout→CASUAL except ex3 (polite modest ません→neutral); kana blank→0 readings; many basic-only sentences vocab omitted"
+n3_107,2026-08-02,24,,8,,2,,"にかわって; ex6 (伺います keigo) & ex9 (本日...ご説明いたします) formal spoken→formal, rest neutral; kana blank→0 readings"
+n3_108,2026-08-02,8,,10,,,,"に違いない; plain conjecture, no casual markers→all neutral (when-unsure); PRE-EXISTING btr, 0 added; ex1/ex3/ex7/ex9 basic-only omitted"
+n3_109,2026-08-02,11,,10,,,,"で有名; simple だ/です→all neutral; PRE-EXISTING btr, 0 added; ex1/ex2 basic-only omitted"
+n3_110,2026-08-02,6,,10,,,,"ばいい; plain advice, no casual marker→all neutral (when-unsure); PRE-EXISTING btr on kanji verb targets, 0 added; several basic-only omitted"
+n3_111,2026-08-02,19,,8,,,2,"ばかりでなく; ex8/ex9 である written copula→written, rest neutral; kana blank→0 readings"
+n3_112,2026-08-03,11,,,10,,,〜ば〜のに; whole-file CASUAL (plain-form counterfactual regret/reproach ending in 〜のに); kana blank→0 readings; ex5 basic-only omitted
+n3_113,2026-08-03,12,,,10,,,"〜ばよかった; whole-file CASUAL (plain-form self-regret); PRE-EXISTING btr on kanji targets, 0 added; ex4 basic-only omitted"
+n3_114,2026-08-03,15,,10,,,,ふと; plain narrative→all neutral; ふと=blank(kana)→0 readings; ex1 basic-only omitted
+n3_115,2026-08-03,20,,10,,,,べきだ; plain declarative obligation→all neutral; kana blank→0 readings
+n3_116,2026-08-03,22,,10,,,,べきではない; plain declarative→all neutral; kana blank→0 readings
+n3_117,2026-08-03,14,,,10,,,まさか; whole-file CASUAL (plain-form disbelief/exclamation: なんて/とは/だろうね/はずがない); kana blank→0 readings; ex1/ex8 basic-only omitted
+n3_118,2026-08-03,16,,10,,,,まるで; plain descriptive simile (〜ようだ)→all neutral; kana blank→0 readings
+n3_119,2026-08-03,14,,9,1,,,むしろ; mostly neutral opinion/comparison; ex7 CASUAL (plain 〜たい desire 読んでいたい); kana blank→0 readings; ex1/ex3 basic-only omitted
+n3_120,2026-08-03,11,,9,1,,,めったに〜ない; mostly neutral; ex4 CASUAL (colloquial よ + 〜ほうがいい advice); kana blank→0 readings; ex3/ex7 basic-only omitted
+n3_121,2026-08-03,9,,9,1,,,もしかしたら〜かもしれない; conjecture→neutral; ex5 CASUAL (colloquial ね); ex4/ex7 polite ます kept neutral; kana blank→0 readings; several basic-only omitted
+n3_122,2026-08-03,9,,10,,,,〜ようとしない; plain descriptive→all neutral; kana blank→0 readings; host verb (…ようとしない) not glossed to avoid pattern overlap; several basic-only omitted
+n3_123,2026-08-03,9,,10,,,,〜ようとする; plain narrative→all neutral; kana blank→0 readings; host verb not glossed (pattern overlap); several basic-only omitted
+n3_124,2026-08-03,8,,10,,,,"〜ような気がする; plain impression→all neutral; PRE-EXISTING btr (ようなきがする…), 0 added; several basic-only omitted"
+n3_125,2026-08-03,12,,9,1,,,わざと; plain narrative→neutral; ex9 CASUAL (なんて + ひどいと思う emotive); kana blank→0 readings; ex1/ex2 basic-only omitted
+n3_126,2026-08-03,11,,7,,3,,わざわざ; mostly neutral; ex1/ex3/ex6 FORMAL (keigo: お越しいただき / 来てくださった / 開けてくださった); kana blank→0 readings
+n3_127,2026-08-04,11,,,10,,,〜んだって; whole-file CASUAL (casual hearsay + よ/だね/contracted markers); kana blank→0 readings; ex8/ex9 basic-only omitted
+n3_128,2026-08-04,9,,9,1,,,"一体; conjecture/musing だろう kept neutral (precedent), ex10 CASUAL (frustrated んだ venting); PRE-EXISTING btr, 0 added; ex5/ex6 basic-only omitted"
+n3_129,2026-08-04,11,,10,,,,"一度に; plain declarative/polite→all neutral; PRE-EXISTING btr, 0 added; ex1/ex6 basic-only omitted"
+n3_130,2026-08-04,15,,10,,,,"〜一方だ; plain declarative/polite→all neutral (ですよ ex4 polite base kept neutral); PRE-EXISTING btr, 0 added; ex10 basic-only omitted"
+n3_131,2026-08-04,20,,10,,,,"〜一方で; contrast, plain declarative→all neutral (expository ex8/ex10 lack literary markers→neutral); PRE-EXISTING btr, 0 added"
+n3_132,2026-08-04,8,,10,,,,"〜上げる/上がる; plain narrative/polite→all neutral; host compound not glossed (pattern overlap); PRE-EXISTING btr, 0 added; several basic-only omitted"
+n3_133,2026-08-04,12,,10,,,,"〜切る; plain narrative/polite→all neutral; host compound not glossed; PRE-EXISTING btr, 0 added; ex1 basic-only omitted"
+n3_134,2026-08-04,11,,10,,,,"〜切れない; plain narrative/declarative→all neutral; host compound not glossed; PRE-EXISTING btr, 0 added; ex1/ex6 basic-only omitted"
+n3_135,2026-08-04,7,,5,5,,,"別に〜ない; colloquial dismissive—CASUAL on personal-dismissal/dialogue (ex1/3/7/9/10), neutral on plain declarative (ex2/4/5/6/8); PRE-EXISTING btr, 0 added"
+n3_136,2026-08-04,11,,10,,,,"〜割に; plain declarative comparison→all neutral; PRE-EXISTING btr, 0 added; ex2/ex4 basic-only omitted"
+n3_137,2026-08-04,22,,5,3,,2,"PRE-EXISTING enrichment found on disk, NOT produced by this run (orphaned—absent from csv, dict-form vocab); left untouched per additive rule. Register casual ex1/8/9, written ex5/7 — aggressive for plain 〜合う narrative. RECOMMEND HUMAN REVIEW"
+n3_138,2026-08-04,24,,2,6,,2,PRE-EXISTING enrichment (not this run); 6 casual + 2 written on plain descriptive 〜向き だ declaratives looks MISCALIBRATED; left untouched per additive rule. RECOMMEND HUMAN REVIEW
+n3_139,2026-08-04,22,,4,2,1,3,"PRE-EXISTING enrichment (not this run); register casual ex4/8, written ex2/6/10, formal ex9; left untouched per additive rule. RECOMMEND HUMAN REVIEW"
+n3_140,2026-08-04,25,,7,2,1,,"PRE-EXISTING enrichment (not this run); casual ex4/10, formal ex9; left untouched per additive rule. RECOMMEND HUMAN REVIEW"
+n3_141,2026-08-04,25,,4,1,2,3,"PRE-EXISTING enrichment (not this run); formal ex1/5, written ex6/8/10, casual ex7; left untouched per additive rule. RECOMMEND HUMAN REVIEW"
+n3_142,2026-08-05,26,,8,1,1,,"PRE-EXISTING enrichment found on disk (absent from csv, NOT this run); dict-form vocab tell (7 vocab not verbatim in sentence, e.g. する-verbs). Register looks WELL-calibrated (〜的: formal ex1 ていただけませんか, casual ex8 てるんだ, rest neutral). Left untouched per additive rule. RECOMMEND HUMAN REVIEW (why is it not in csv?)"
+n3_143,2026-08-05,25,,3,4,2,1,"PRE-EXISTING enrichment (NOT this run); 確かに; 7/10 non-neutral (casual ex3/4/5/7, formal ex2/8, written ex6) looks MISCALIBRATED per neutral-dominates rule; 6 dict-form vocab. Left untouched per additive rule. RECOMMEND HUMAN REVIEW"
+n3_144,2026-08-05,25,,4,4,,2,"PRE-EXISTING enrichment (NOT this run); 結局; 6/10 non-neutral (casual ex1/3/7/9, written ex6/10) borderline-aggressive; 9 dict-form vocab. Left untouched per additive rule. RECOMMEND HUMAN REVIEW"
+n3_145,2026-08-05,28,,5,1,1,3,"PRE-EXISTING enrichment (NOT this run); 〜結果; written ex4/8/10, formal ex6, casual ex9; 9 dict-form vocab. Left untouched per additive rule. RECOMMEND HUMAN REVIEW"
+n3_146,2026-08-05,21,,9,1,,,PRE-EXISTING enrichment (NOT this run); 〜込む; mostly neutral (casual ex10 only) looks reasonable; 6 dict-form vocab. Left untouched per additive rule. RECOMMEND HUMAN REVIEW (why not in csv?)
+n3_147,2026-08-05,23,,8,1,,1,"PRE-EXISTING enrichment (NOT this run); 〜途中で; mostly neutral (written ex5, casual ex10) reasonable; 4 dict-form vocab. Left untouched per additive rule. RECOMMEND HUMAN REVIEW"
+n3_148,2026-08-05,21,,8,1,,1,"PRE-EXISTING enrichment (NOT this run); 〜通す; mostly neutral (written ex4, casual ex8) reasonable; 2 dict-form vocab. Left untouched per additive rule. RECOMMEND HUMAN REVIEW"
+n2_002,2026-08-05,21,,10,,,,"〜に際して; formal-written pattern but sentences are plain factual narrative (past/passive)→all neutral; kanji blank btr PRE-EXISTING, 0 added; several basic-only omitted (ex2 only 親戚)"
+n2_001,2026-08-05,25,,9,,,1,〜において; plain declarative aphorisms→neutral; ex2 WRITTEN (である copula); kana blank→0 readings; スポーツ/アート katakana basics omitted
+n2_003,2026-08-05,26,,9,,,1,〜にあたって; plain narrative→neutral; ex7 WRITTEN (必要である); kana blank→0 readings; 招聘/読破 etc glossed as N2 lookup words
+n2_004,2026-08-05,22,,10,,,,"〜をはじめ; listing pattern, plain declarative→all neutral (ex6/ex7 news-ish but no である/literary marker→neutral, conservative); kana blank→0 readings; proper nouns omitted"
+n2_005,2026-08-05,20,,10,,,,"〜を中心に; expository plain ている→all neutral; kanji blank btr PRE-EXISTING, 0 added; ex1/ex3/ex4 single-verb vocab only (proper nouns omitted)"
+n2_006,2026-08-05,18,,10,,,,"〜を通じて/を通して; plain declarative→all neutral; kanji blank btr PRE-EXISTING, 0 added; ex6 (一年を通して日本語を勉強した) no N2 lookup word→vocab key omitted"
+n2_007,2026-08-05,25,,10,,,,〜をもとに; plain declarative/passive→all neutral; kana blank→0 readings; ex1 single vocab (実話); データ/カルテ/フィードバック katakana basics omitted
+n2_008,2026-08-05,23,,10,,,,"〜に基づいて; legal/official content but plain passive sentences (no である/keigo)→all neutral for consistency with parallel formal patterns; kanji blank btr PRE-EXISTING, 0 added"
+n2_009,2026-08-06,19,0,10,,,,"〜に従って; plain directive/narrative & passive→all neutral; kanji blank btr PRE-EXISTING, 0 added; ex3 (社会/生活 basics only)→vocab omitted"
+n2_010,2026-08-06,21,0,10,,,,"〜に沿って; plain expository/passive→all neutral; kanji blank btr PRE-EXISTING, 0 added"
+n2_011,2026-08-06,25,0,10,,,,"〜ざるを得ない; formal-content but plain declarative (no である/keigo)→all neutral; kanji blank(得) btr PRE-EXISTING, 0 added"
+n2_012,2026-08-06,27,0,10,,,,〜かねない; plain declarative warnings→all neutral; kana blank→0 readings
+n2_013,2026-08-06,21,0,7,,3,,〜かねる; formal ex2/4/6 (keigo: お答え/承る humble + ございません); rest plain polite ます→neutral; kana blank→0 readings
+n2_014,2026-08-06,23,0,10,,,,〜おそれがある; plain declarative risk statements→all neutral; kana blank→0 readings
+n2_015,2026-08-06,28,0,10,,,,"〜に反して; plain narrative past→all neutral; kanji blank(反) btr PRE-EXISTING, 0 added"
+n2_016,2026-08-06,25,0,8,,,2,〜にとどまらず; written ex4/9 (である copula: 深刻である/傾向である); rest plain ている→neutral; kana blank→0 readings
+n2_017,2026-08-06,25,0,10,,,,"〜のみならず; literary pattern but plain declarative sentences (でもある/passive, no bare である)→all neutral; kana blank→0 readings"
+n2_018,2026-08-06,22,0,7,,,3,〜ばかりか; written ex3/5/9 (である copula before ばかりか: 医者/効果的/感動的である); rest plain→neutral; kana blank→0; ex1 (料理/英語 basics)→vocab omitted
+n2_019,2026-08-06,16,0,10,,,,"〜に加えて; plain & polite ます→all neutral; kana blank→0. DEFECT NOTED (not fixed): ex3 hiragana_full renders 追加 as ついき (dropped か, should be ついか)→dropped 追加機能 from vocab; ex1/6/10 basics-only→vocab omitted"
+n2_020,2026-08-06,22,0,10,,,,〜とともに; plain expository→all neutral; kana blank→0 readings
+n2_021,2026-08-06,24,0,10,,,,"〜上で; plain & polite ます→all neutral; kanji blank(上) btr PRE-EXISTING, 0 added; ex1 (考える/決める basics)→vocab omitted"
+n2_022,2026-08-06,11,0,10,,,,"〜上に; plain grumble-narrative but no explicit casual marker→all neutral (conservative); kanji blank(上) btr PRE-EXISTING, 0 added; ex2/4/7/10 basics-only→vocab omitted"
+n2_023,2026-08-06,14,0,10,,,,〜つつ; literary conjunction but short plain narratives (no である/keigo)→all neutral; kana blank→0; ex1/3 basics-only→vocab omitted
+n2_024,2026-08-07,24,,9,,,1,〜つつも; literary conjunction on plain narrative→neutral; ex9 である copula→written; kana blank→0 readings
+n2_025,2026-08-07,18,,10,,,,〜ながらも; plain だ/だった descriptive→all neutral; kana blank→0; ex1 basics-only→vocab omitted
+n2_026,2026-08-07,10,,10,,,,"〜てならない; plain emotive, no explicit casual marker→all neutral (conservative, parallel to てたまらない); kana blank→0; ex2/6 basics-only→vocab omitted; hiragana_full missing 。 on ex2/3/5 NOTED-not-fixed"
+n2_027,2026-08-07,6,,10,,,,"〜てたまらない; colloquial-leaning incl plain たい desire (ex2/8/9/10) but no explicit casual particle→kept neutral, parallel to てならない; kana blank→0; ex1/3/6/8/9 basics-only→vocab omitted; several hiragana_full missing 。 NOTED-not-fixed"
+n2_028,2026-08-07,16,,,,,10,〜てやまない; literary set expression (elevated abstract nouns 育成/到来/実現)→all written; kana blank→0; ex1 basics-only→vocab omitted; several hiragana_full missing 。 NOTED-not-fixed
+n2_029,2026-08-07,16,,,,,10,〜に相違ない; formal-written assertion (documents/evidence)→all written; kanji blank(相違) btr PRE-EXISTING 0 added; ex2 basics-only→vocab omitted
+n2_030,2026-08-07,4,,,10,,,〜に決まっている; inherently colloquial conviction (dict-labeled 口語)→all casual; kanji blank(決) btr PRE-EXISTING 0 added; 6 items basics-only→vocab omitted
+n2_031,2026-08-07,22,,10,,,,"〜をはじめ; formal-listing connective on plain narrative, no explicit marker→all neutral (per run26 をはじめ does NOT auto-earn written); kana blank→0"
+n2_032,2026-08-07,27,,,,,10,〜ものとする; contractual/legal stipulation language→all written; kana blank→0
+n2_033,2026-08-07,20,,10,,,,〜ものとして; polite ます business-planning premise→all neutral; kana blank→0; ex6 basics-only→vocab omitted
+n2_034,2026-08-07,22,,9,,1,,〜を問わず; neutral recruitment/announcements; ex10 いたします(humble keigo)→formal; ex8 お電話ください(お〜ください) borderline→kept neutral; kanji blank(問) btr PRE-EXISTING 0 added; ex8 basics-only→vocab omitted
+n2_035,2026-08-07,25,,10,,,,"〜にかかわらず; neutral formal-ish statements, no explicit marker→all neutral; kana blank→0"
+n2_036,2026-08-07,18,,10,,,,〜に限らず; neutral expository→all neutral; kanji blank(限) btr PRE-EXISTING 0 added; ex5 basics-only→vocab omitted
+n2_037,2026-08-07,10,,10,,,,"〜に限って; colloquial-frustration flavor but plain generalizations w/o explicit casual marker→all neutral (contrast n2_030: sentence-final fixed colloquial expr→casual, vs colloquial-flavored connective→neutral); kanji blank(限) btr PRE-EXISTING 0 added; ex6/7/8 basics-only→vocab omitted"
+n2_038,2026-08-07,21,,6,,4,,〜に限り; customer-service announcements; keigo items→formal (ex3 いたします / ex5 となっております / ex7 名様honorific / ex9 ご利用いただけます); rest neutral; kanji blank(限) btr PRE-EXISTING 0 added
+n2_039,2026-08-08,27,,9,,1,,〜次第; ms-form business announcements→neutral; ex10 再開いたします(humble keigo)→formal; ex8 basics-mostly (判明 only)
+n2_040,2026-08-08,26,,10,,,,"〜次第で; plain-form expository declaratives, no explicit marker→all neutral; kana blank→0 btr"
+n2_041,2026-08-08,15,,10,,,,"〜はもちろん; mix です/plain だ, no casual marker→all neutral; ex1/ex9 basics-only→vocab omitted; kana blank"
+n2_042,2026-08-08,28,,9,,1,,〜はもとより; ex6 承っております(humble keigo)→formal; rest neutral (formal *pattern* alone doesn't earn written); kana blank
+n2_043,2026-08-08,20,,10,,,,"〜にすぎない; plain declarative assertions, formal-written pattern but no explicit marker→all neutral; kana blank"
+n2_044,2026-08-08,26,,10,,,,"〜にほかならない; emphatic plain だ assertions, formal-written pattern w/o explicit marker→all neutral; kana blank"
+n2_045,2026-08-08,27,,10,,,,"〜というものだ; aphoristic essay assertions, no である/literary marker→all neutral; PRE-EXISTING DEFECT: zero-padded ex ids (n2_045_01..) fail validator, not mine to fix; kana blank"
+n2_046,2026-08-08,16,,8,,,2,〜というものではない; ex1(傑作である)/ex6(効果的である) である copula CHOICE (だ grammatical)→written; rest neutral; ex2/ex5 basics-only→omitted; kana blank
+n2_047,2026-08-08,19,,9,,,1,"〜とは限らない; ex3(効果的である) である copula choice→written; rest neutral; kanji blank(限) btr PRE-EXISTING, 0 added"
+n2_048,2026-08-08,17,,10,,,,"〜からといって; plain わけではない/とは限らない, no marker→all neutral; kana blank"
+n2_049,2026-08-08,25,,10,,,,"〜からには; plain resolve (つもりだ/べきだ/なければ), no casual marker; plain たい/ほしい w/o explicit particle→neutral (run28 rule); kana blank"
+n2_050,2026-08-08,27,,10,,,,"〜以上は(である以上は); である REQUIRED by pattern (だ以上は ungrammatical)→NOT a register choice, formal-flavored but kept neutral per 'formal pattern doesn't auto-earn written'; kanji blank(以上) btr PRE-EXISTING, 0 added"
+n2_051,2026-08-08,21,,10,,,,"〜からこそ; causal emphasis, plain+のだ/のです explanatory→all neutral; kana blank"
+n2_052,2026-08-08,29,,10,,,,"〜とすれば; hypothetical reasoning, plain+だろうか/はずだ→all neutral; kana blank"
+n2_053,2026-08-08,27,,10,,,,"〜としたら/とすると; hypothetical, plain→all neutral; kana blank"
+n2_054,2026-08-09,20,,10,,,,"にしても concessive; plain declaratives/generalizations, plain たい w/o marker->neutral; kana blank"
+n2_055,2026-08-09,22,,10,,,,としても concession; plain + とは限らない/わけではない/だろう conjecture->all neutral; kana blank
+n2_056,2026-08-09,13,,7,3,,,"ものなら wistful/dare; ex6/ex7 casual (rough imperative てみろ), ex10 casual (ぞ final particle); plain もし...たい wish->neutral; kana blank"
+n2_057,2026-08-09,23,,10,,,,ないことには required-condition; plain declaratives できない/わからない->all neutral; kana blank
+n2_058,2026-08-09,23,,10,,,,"ない限り; plain declaratives->all neutral; kanji blank(限) btr PRE-EXISTING, 0 added"
+n2_059,2026-08-09,19,,10,,,,てこそ; plain generalizations->all neutral; kana blank(te-host)
+n2_060,2026-08-09,14,,10,,,,てはじめて; plain declarative + narrative past (わかった/実感した)->all neutral; kana blank
+n2_061,2026-08-09,17,,10,,,,をきっかけに; narrative past declaratives->all neutral; kana blank. PRE-EXISTING DEFECT: zero-padded ex ids (n2_061_01..10) fail validator id-mismatch (not my fields)
+n2_062,2026-08-09,21,,10,,,,"を機に (formal catalyst); plain narrative past, no である/keigo->neutral per formal-pattern-no-auto-written rule; kanji blank(機) btr PRE-EXISTING"
+n2_063,2026-08-09,26,,10,,,,"を契機に (formal social/historical); plain narrative past passives, news-flavored but no explicit marker->neutral (run26 rule); kanji blank(契機) btr PRE-EXISTING. コロナ禍 skipped as vocab (katakana+kanji mix)"
+n2_064,2026-08-09,26,,10,,,,のもとで; plain narrative declaratives/passives->all neutral; kana blank
+n2_065,2026-08-09,26,,10,,,,"のもとに (formal principle/authority); elevated diction (崇高な理念/断行) but plain passive, no である/keigo->neutral per formal-pattern rule; kana blank"
+n2_066,2026-08-09,14,,10,,,,にあたる corresponds-to; plain declaratives->all neutral; kana blank(te-host あたる)
+n2_067,2026-08-09,23,,10,,,,"に当たり (formal written variant); ceremony/announcement contexts w/ より ablative but plain declarative predicates, no keigo verb/である->kept neutral per formal-pattern rule; kanji blank(当) btr PRE-EXISTING"
+n2_068,2026-08-09,16,,10,,,,にわたって span; narrative past passives->all neutral; kana blank
+n2_069,2026-08-10,16,,9,,,1,"にかけて time-range; ex1 written(である copula CHOICE, run29 rule); rest plain declaratives->neutral; kana blank"
+n2_070,2026-08-10,25,,10,,,,"にわたる span; plain narrative-past passives->all neutral (formal-pattern no auto-written, run26); kana blank"
+n2_071,2026-08-10,25,,10,,,,をめぐって debate/controversy; news-flavored plain declaratives->all neutral; kana blank. PRE-EXISTING DEFECT: ex3 hiragana_full こっかいでは vs sentence 国会で (extra は)
+n2_072,2026-08-10,19,,10,,,,"に対する; plain declaratives->all neutral; kanji blank(対) btr PRE-EXISTING, 0 added"
+n2_073,2026-08-10,28,,10,,,,"に関する; plain declaratives->all neutral; kanji blank(関) btr PRE-EXISTING, 0 added"
+n2_074,2026-08-10,25,,8,,,2,によると/によれば cite-source; ex1/ex7 written(本物である/効果的である copula CHOICE); rest neutral; kana blank
+n2_075,2026-08-10,22,,10,,,,からすると/からすれば; conjecture ようだ/だろう/に違いない->all neutral; ex10 no vocab (only N4-below); kana blank
+n2_076,2026-08-10,18,,10,,,,から見ると/から見れば; plain declaratives->all neutral; kanji blank(見) btr PRE-EXISTING
+n2_077,2026-08-10,24,,9,,,1,からいうと; ex5 written(不完全である copula CHOICE); rest neutral; kana blank
+n2_078,2026-08-10,25,,10,,,,という点では; plain evaluative declaratives->all neutral; kanji blank(点) btr PRE-EXISTING
+n2_079,2026-08-10,16,,10,,,,面で; plain declaratives->all neutral; ex7 no lookup-worthy vocab; kanji blank(面) btr PRE-EXISTING
+n2_080,2026-08-10,17,,10,,,,"気味; personal-state plain declaratives, no explicit casual marker->neutral (run28 plain≠casual); ex1/ex3 no vocab; kanji blank(気味) btr PRE-EXISTING. DEFECT: ex2 hiragana_full missing 。"
+n2_081,2026-08-10,22,,10,,,,がち tendency; plain declaratives->all neutral; kana blank
+n2_082,2026-08-10,18,,10,,,,っぽい colloquial-flavored suffix but plain declaratives w/o explicit casual sentence-final marker->kept neutral (judge sentence not label); ex2 no vocab; kana blank
+n2_083,2026-08-10,12,,10,,,,げ seeming/emotive; plain narrative descriptions->all neutral; kana blank
+n2_084,2026-08-11,16,,10,,,,"かのように literary as-if; plain narrative declaratives, no explicit marker->all neutral; kana blank"
+n2_085,2026-08-11,10,,10,,,,"とは surprise/discovery; mixed plain & masu, no marker->all neutral; ex5/ex8/ex9 no lookup-worthy vocab; kana blank"
+n2_086,2026-08-11,23,,10,,,,"とはいえ concessive connective; plain declaratives, connective doesn't auto-earn written (run26)->all neutral; 経験不足=ぶそく rendaku; kana blank"
+n2_087,2026-08-11,19,,10,,,,ものがある intangible-quality; plain descriptive declaratives->all neutral; ex1 no vocab; kana blank
+n2_088,2026-08-11,22,,10,,,,にしろ~にしろ; plain expository opinion prose->all neutral; ex2/ex9 basic-only vocab; kana blank
+n2_089,2026-08-11,28,,10,,,,"であれ~であれ formal-variant pattern; plain declaratives, no である/keigo marker->all neutral; kana blank"
+n2_090,2026-08-11,21,,10,,,,ようがない/ようもない; plain ...ので...ない->all neutral; ex8 no lookup vocab; kana blank(しようがない)
+n2_091,2026-08-11,13,,10,,,,ずにはいられない strong impulse; plain emotive w/o explicit casual final particle->neutral (run28); ex2/ex10 no vocab; zero-padded ex ids (_01..) PRE-EXISTING
+n2_092,2026-08-11,14,,10,,,,ないではいられない (colloquial variant per meaning); plain emotive w/o casual final particle->neutral; ex2 no vocab; kana blank
+n2_093,2026-08-11,22,,10,,,,に至るまで extent-range; mixed plain & masu->all neutral; ex5 no vocab; btr にいたるまで added (kanji blank 至)
+n2_094,2026-08-11,26,,10,,,,"に至っては extreme-point; plain declaratives (serious topics, no である/keigo)->all neutral; btr にいたっては added (kanji blank 至)"
+n2_095,2026-08-11,29,,10,,,,"にあって formal circumstance; plain narrative/passive essay prose, no である/literary marker->neutral (run26); 最中=さなか; kana blank"
+n2_096,2026-08-11,25,,10,,,,をよそに disregarding; plain narrative->all neutral; kana blank
+n2_097,2026-08-11,23,,8,,2,,をもって means/deadline; ex2 & ex8 keigo announcements (いたします)->formal; rest です/plain->neutral; kana blank
+n2_098,2026-08-11,26,,10,,,,に先立って prior-to; plain passive report prose->all neutral; btr にさきだって added (kanji blank 先立)
+n2_099,2026-08-12,25,,10,,,,"もさることながら literary connective on plain evaluative prose->all neutral (run26 rule, no である/keigo); kana blank"
+n2_100,2026-08-12,24,,6,,,4,にして A-and-also-B; ex1/3/8/10 written (である継続形 であり = written-style copula choice); ex2/6 でもある kept neutral (common copula); ex5/9 plain narrative neutral; kana blank
+n2_101,2026-08-12,26,,10,,,,"とあって cause (news-reportage flavor) but plain past narrative, no である/keigo->neutral (run26/29); 三つ星=みっつぼし NOT みつぼし (rendaku+みっつ) trap caught; kana blank"
+n2_104,2026-08-12,23,,10,,,,"をはじめ inclusion listing; run26 explicit: does NOT auto-earn written, plain narrative->all neutral; フランス料理 kana+kanji mix skipped; kana blank"
+n2_131,2026-08-12,26,,,,,10,"ものとする legal stipulation = register-defining written (run28, per n2_032)->all 10 written; kana blank (たものとする etc)"
+n2_132,2026-08-12,24,,10,,,,"ものとして assumption/premise; plain narrative planning prose (提案を作成した etc), NOT legal-stipulation ものとする->all neutral; kana blank"
+n2_133,2026-08-12,20,,10,,,,を問わず regardless-of; です/plain declaratives->all neutral; ex6 no lookup-worthy N2 word (omit vocab); btr PRE-EXISTING (を問わず 問 covered); 
+n2_134,2026-08-12,20,,10,,,,"にかかわらず regardless-of; plain/です, べきだ present but not a register marker->all neutral; kana blank"
+n2_135,2026-08-12,14,,10,,,,に限らず not-limited-to; plain declaratives->all neutral; ex4/ex10 no N2 lookup word (omit vocab); btr PRE-EXISTING (限)
+n2_136,2026-08-12,11,,10,,,,に限って unlucky-coincidence colloquial connective on plain generalization->neutral (run28 rule); ex8 no lookup word (omit vocab); btr PRE-EXISTING (限)
+n2_137,2026-08-12,25,,9,,,1,に限り limited-to (promo announcements); ex8 formal (提供いたします keigo); rest です announcements neutral; シニア世代 kana+kanji mix skipped; btr PRE-EXISTING (限)
+n2_138,2026-08-12,16,,8,,,2,次第 as-soon-as/depending; ex2 (報告いたします) & ex4 (送付させていただきます) formal keigo; rest ます neutral; ex1/ex6 no N2 lookup word (omit vocab); btr PRE-EXISTING (次第)
+n2_139,2026-08-12,16,,10,,,,次第で depending-on; plain declaratives->all neutral; btr PRE-EXISTING (次第)
+n2_140,2026-08-12,14,,10,,,,はもちろん not-to-mention; plain declaratives->all neutral; ex1/3/4 only sub-level words (omit vocab); kana blank
+n2_141,2026-08-12,20,,9,,,1,はもとより not-only (formal-written flavor) but per run26 no auto-written; ex6 written (重要である copula choice); rest plain だ->neutral; ex4 sub-level only (omit vocab); kana blank
+n2_137,2026-08-12,25,,9,,1,,に限り limited-to (promo announcements); ex8 formal (提供いたします keigo); rest です announcements neutral; シニア世代 kana+kanji mix skipped; btr PRE-EXISTING (限). [corrects prior row: formal count]
+n2_138,2026-08-12,16,,8,,2,,次第 as-soon-as/depending; ex2 (報告いたします) & ex4 (送付させていただきます) formal keigo; rest ます neutral; ex1/ex6 no N2 lookup word (omit vocab); btr PRE-EXISTING (次第). [corrects prior row: formal count]
+n2_142,2026-08-13,16,,10,,,,にすぎない dismissive; plain declaratives->neutral (pattern does not auto-write per run26); ex9 取り越し苦労 idiom; kana blank
+n2_143,2026-08-13,18,,10,,,,にほかならない strong-assertion literary-flavored but plain nouns w/o である->neutral (run26); ぶそく rendaku (準備不足/情報不足); kana blank
+n2_144,2026-08-13,15,,10,,,,"というものだ aphoristic sentence-final, plain->neutral; kana blank"
+n2_145,2026-08-13,12,,10,,,,というものではない; ex1/ex2 only sub-level (幸せ/有名) so vocab omitted; kana blank
+n2_146,2026-08-13,12,,10,,,,"とは限らない; ex1/ex2 sub-level only, vocab omitted; btr PRE-EXISTING (限)"
+n2_147,2026-08-13,12,,10,,,,"からといって; ex6 sub-level only, vocab omitted; kana blank"
+n2_148,2026-08-13,16,,10,,,,たからには commitment; plain determination forms w/o casual particle->neutral; ex3 sub-level (約束/守る) omitted; kana blank
+n2_149,2026-08-13,16,,10,,,,"である以上は — である REQUIRED by pattern (だ ungrammatical)->neutral per run29, NOT written; ex5 sub-level omitted; btr PRE-EXISTING (以上)"
+n2_150,2026-08-13,13,,10,,,,"からこそ causal emphasis; ex4 only katakana/basic, vocab omitted; kana blank"
+n2_151,2026-08-13,18,,10,,,,とすれば hypothetical; だろう/はずだ plain conjecture->neutral (not casual modal); ex1 no lookup word omitted; kana blank
+n2_152,2026-08-13,16,,10,,,,としたら/とすると hypothetical; ex6 sub-level omitted; kana blank
+n2_153,2026-08-13,14,,10,,,,にしても concessive; はずだ plain expectation->neutral; ex5 sub-level omitted; kana blank
+n2_154,2026-08-13,9,,10,,,,としても concession; plain たい (行きたくない) NOT casual w/o particle (run28)->neutral; ex1/2/9/10 sub-level omitted; kana blank
+n2_155,2026-08-13,7,,7,3,,,"ものなら: ex6 casual (ぞ), ex8 casual (てみろ rough imperative), ex10 casual (てみなさい taunt command); 可能形+ものなら wistful ex1-5/7/9 neutral; mirrors n2_056; ex4/7/9/10 sub-level vocab omitted; kana blank"
+n2_156,2026-08-13,18,,10,,,,ないことには required-condition; plain->neutral; kana blank
+n2_157,2026-08-14,22,,10,,,,ない限り strong conditional; all plain declarative->neutral; kanji blank has btr already (no-op)
+n2_158,2026-08-14,19,,10,,,,"てこそ aphoristic maxims, plain general truths->neutral; kana blank; host verbs before こそ omitted from vocab"
+n2_159,2026-08-14,13,,10,,,,てはじめて realization; plain->neutral; kana blank; ex5/ex7 no lookup-worthy vocab (host verb/basics)
+n2_160,2026-08-14,14,,10,,,,をきっかけに personal narrative->neutral; kana blank; ex4 (失敗/ビジネス) & ex6 (言葉/勉強) no qualifying vocab
+n2_161,2026-08-14,24,,10,,,,を機に personal-decision narrative->neutral (pattern formal but sentences plain); 機 blank has btr already
+n2_162,2026-08-14,23,,,,,10,を契機に: ALL 10 written - uniformly news/institutional passive prose re social/historical events; 契機 blank has btr already
+n2_163,2026-08-14,25,,10,,,,"のもとで concrete conditions/guidance, plain narrative->neutral; kana blank"
+n2_164,2026-08-14,27,,5,,,5,のもとに: ex1-3/5/7 written (legal/civic principle prose: 法/憲法/民主主義/国際法/理念); ex4/6/8/9/10 neutral (organizational actions); kana blank
+n2_165,2026-08-14,17,,10,,,,"にあたる corresponds-to, plain factual->neutral; kana blank; ex1 (誕生日) & ex6 (合格点) no qualifying vocab"
+n2_166,2026-08-14,18,,,,10,,に当たり: ALL 10 formal - ceremonial/announcement keigo throughout (申し上げます/いただきます/いたします); 当 blank has btr already
+n2_167,2026-08-14,18,,10,,,,"にわたって span, plain report narrative->neutral; kana blank; ex1 (二時間/会議) no qualifying vocab"
+n2_168,2026-08-14,12,,10,,,,"にかけて gradual transition, everyday statements->neutral; kana blank; ex4 (今週/来週/会議) no qualifying vocab"
+n2_169,2026-08-14,20,,10,,,,"にわたる attributive span, plain->neutral; kana blank. DEFECT (not fixed): ex4-6,8-10 hiragana_full missing final 。"
+n2_170,2026-08-14,31,,10,,,,"をめぐって disputes/controversy, neutral reportage narrative (borderline written kept neutral per default); kana blank"
+n2_171,2026-08-14,27,,10,,,,"に対する attributive, plain declarative->neutral; kana blank"
+n2_172,2026-08-15,20,,10,,,,"に関する attributive topic marker; formal-topic nouns but plain declarative->neutral; btr pre-existing (にかんする), no-op"
+n2_173,2026-08-15,22,,10,,,,によると/によれば source-citing; report/news framing but neutral declarative->neutral; kana blank
+n2_174,2026-08-15,21,,10,,,,からすると/からすれば inference; neutral; kana blank
+n2_175,2026-08-15,18,,10,,,,から見ると/から見れば perspective; neutral; ex7 (学生/授業) no qualifying vocab; btr pre-existing
+n2_176,2026-08-15,19,,10,,,,からいうと standpoint; neutral; kana blank
+n2_177,2026-08-15,20,,10,,,,という点で(は) aspect; neutral (ex6/8/10 である evaluative prose kept neutral); btr pre-existing
+n2_178,2026-08-15,17,,10,,,,面で aspect; neutral; ex7 (健康/注意 basics) no qualifying vocab; btr pre-existing (めんで)
+n2_179,2026-08-15,18,,10,,,,気味 slight condition; first-person plain states->neutral; btr pre-existing (ぎみ)
+n2_180,2026-08-15,14,,10,,,,がち tendency; neutral; kana blank
+n2_181,2026-08-15,16,,10,,,,"っぽい colloquial suffix but plain declaratives w/o conversational markers->neutral; blank-overlap words (安っぽい等) excluded. DEFECT (not fixed): all 10 hiragana_full missing final 。; ungrammatical sentences ex3 子供っぽいな, ex7 官僚っぽいだった, ex8 素人っぽいな, ex9 嘘っぽいに, ex10 誇大広告っぽいだ"
+n2_182,2026-08-15,9,,10,,,,げ visible emotion; narrative->neutral; ex1/5/6 no qualifying vocab (host+げ / basics); ex7 思い出深い skipped (HF ふか vs dict ぶか mismatch)
+n2_183,2026-08-15,15,,10,,,,かのように simile; narrative->neutral; kana blank
+n2_184,2026-08-15,12,,9,1,,,とは reaction/definition; ex10 casual (君〜だね); rest neutral; ex1 (驚く basic) no vocab
+n2_185,2026-08-15,11,,10,,,,とはいえ concessive; neutral; ex1/4/7 no qualifying vocab (basics)
+n2_186,2026-08-15,17,,10,,,,ものがある intrinsic quality; appreciative prose->neutral; DEFECT (not fixed): ex6 hiragana_full missing 、 after には
+n2_187,2026-08-16,11,,10,,,,にしろ〜にしろ alternatives; plain です/ましょう -> neutral; kana blanks; DEFECT (not fixed): ex10 HF reads 余裕 as ゆとり (mismatch) so 余裕 not glossed
+n2_188,2026-08-16,16,,10,,,,"であれ〜であれ universal-principle plain だ -> neutral (であれ is required pattern, not a register choice); ex3 技術 excluded (sits inside blank_target)"
+n2_189,2026-08-16,8,,10,,,,ようがない/ようもない; plain -ので narrative -> neutral; all blanks kana
+n2_190,2026-08-16,17,,10,,,,ずにはいられない; emotional plain narrative -> neutral
+n2_191,2026-08-16,14,,10,,,,ないではいられない; plain narrative -> neutral
+n2_192,2026-08-16,20,,10,,,,に至るまで; plain narrative -> neutral; blank_target_reading already present
+n2_193,2026-08-16,25,,10,,,,に至っては; analytical plain だ -> neutral; blank_target_reading already present
+n2_194,2026-08-16,24,,10,,,,"にあって; literary/formal pattern but plain past narrative, no in-sentence keigo -> neutral (consistent with viewpoint-pattern rule)"
+n2_195,2026-08-16,16,,10,,,,をよそに; plain narrative -> neutral
+n2_196,2026-08-16,15,,8,,2,,"をもって; ex8 formal (終了いたします humble keigo), ex10 formal (退任される honorific); temporal-announcement ex1/2/4/6 use plain ます -> kept neutral"
+n2_197,2026-08-16,21,,10,,,,に先立って; passive event narrative -> neutral; blank_target_reading already present
+n2_198,2026-08-16,19,,10,,,,もさることながら; evaluative plain だ -> neutral; DEFECT (not fixed): ex8 HF mis-reads 立地 as たちち (should be りっち) so 立地 not glossed
+n2_199,2026-08-16,11,,10,,,,にして (dual role/degree); literary but plain だ declarative -> neutral
+n2_200,2026-08-16,18,,10,,,,とあって; reportage flavor but everyday-event plain narrative -> kept neutral (aligned with によると-style rule)
+n2_201,2026-08-16,25,,3,1,2,4,PRE-ENRICHED by prior unlogged process; left untouched (additive rule); logged from current file state
+n2_202,2026-08-17,22,,6,3,,1,"いきなり; PRE-ENRICHED by prior unlogged process, left untouched (additive rule), logged from current file state; validator clean on new fields"
+n2_203,2026-08-17,24,,2,2,2,4,"いよいよ; PRE-ENRICHED by prior unlogged process, left untouched (additive rule), logged from current file state; validator clean on new fields"
+n2_204,2026-08-17,25,,5,1,,4,"いわゆる; PRE-ENRICHED by prior unlogged process, left untouched (additive rule), logged from current file state; validator clean on new fields"
+n2_205,2026-08-17,23,,5,4,,1,"おまけに; PRE-ENRICHED by prior unlogged process, left untouched (additive rule), logged from current file state; validator clean on new fields"
+n2_206,2026-08-17,24,,,,9,1,"お〜願う; PRE-ENRICHED by prior unlogged process, left untouched (additive rule), logged from current file state; validator clean on new fields"
+n2_207,2026-08-17,26,,4,5,,1,"かえって; PRE-ENRICHED by prior unlogged process, left untouched (additive rule), logged from current file state; validator clean on new fields"
+n2_208,2026-08-17,22,,3,7,,,"〜かと思ったら; PRE-ENRICHED by prior unlogged process, left untouched (additive rule), logged from current file state; validator clean on new fields"
+n2_209,2026-08-17,23,,3,5,,2,"〜からして; PRE-ENRICHED by prior unlogged process, left untouched (additive rule), logged from current file state; validator clean on new fields"
+n2_210,2026-08-17,21,,7,2,,1,"〜からといって; PRE-ENRICHED by prior unlogged process, left untouched (additive rule), logged from current file state; validator clean on new fields"
+n2_211,2026-08-17,26,,5,1,2,2,"〜から言うと; PRE-ENRICHED by prior unlogged process, left untouched (additive rule), logged from current file state; validator clean on new fields"
+n2_212,2026-08-17,22,,2,6,2,,"〜か何か; PRE-ENRICHED by prior unlogged process, left untouched (additive rule), logged from current file state; validator clean on new fields"
+n2_213,2026-08-17,26,,7,1,,2,"〜がきっかけで; PRE-ENRICHED by prior unlogged process, left untouched (additive rule), logged from current file state; validator clean on new fields"
+n2_214,2026-08-17,21,,,10,,,"〜くせして; PRE-ENRICHED by prior unlogged process, left untouched (additive rule), logged from current file state; validator clean on new fields"
+n2_215,2026-08-17,25,,6,,,4,"〜ことから; PRE-ENRICHED by prior unlogged process, left untouched (additive rule), logged from current file state; validator clean on new fields"
+n2_216,2026-08-17,24,,6,,2,2,"〜ことなく; PRE-ENRICHED by prior unlogged process, left untouched (additive rule), logged from current file state; validator clean on new fields"
+n2_217,2026-08-18,21,,6,1,1,2,"〜ことにはならない; PRE-ENRICHED by prior unlogged process, left untouched (additive rule), logged from current file state; validator clean on new fields; DEFECT (not fixed): 8 vocab entries use dict/lemma form (e.g. 合格する) not sentence surface form — violates word-as-in-sentence rule"
+n2_218,2026-08-18,24,,6,1,1,2,"しかも; PRE-ENRICHED by prior unlogged process, left untouched (additive rule), logged from current file state; validator clean on new fields; DEFECT (not fixed): 4 vocab entries use dict/lemma form (e.g. 合格する) not sentence surface form — violates word-as-in-sentence rule"
+n2_219,2026-08-18,25,,6,2,1,1,"〜ずに済む; PRE-ENRICHED by prior unlogged process, left untouched (additive rule), logged from current file state; validator clean on new fields; DEFECT (not fixed): 7 vocab entries use dict/lemma form (e.g. 合格する) not sentence surface form — violates word-as-in-sentence rule"
+n2_220,2026-08-18,20,,7,2,,1,"〜せいか; PRE-ENRICHED by prior unlogged process, left untouched (additive rule), logged from current file state; validator clean on new fields; DEFECT (not fixed): 5 vocab entries use dict/lemma form (e.g. 合格する) not sentence surface form — violates word-as-in-sentence rule"
+n2_221,2026-08-18,25,,6,2,1,1,"せいぜい; PRE-ENRICHED by prior unlogged process, left untouched (additive rule), logged from current file state; validator clean on new fields; DEFECT (not fixed): 2 vocab entries use dict/lemma form (e.g. 合格する) not sentence surface form — violates word-as-in-sentence rule"
+n2_222,2026-08-18,30,,5,2,2,1,"せめて; PRE-ENRICHED by prior unlogged process, left untouched (additive rule), logged from current file state; validator clean on new fields; DEFECT (not fixed): 8 vocab entries use dict/lemma form (e.g. 合格する) not sentence surface form — violates word-as-in-sentence rule"
+n2_223,2026-08-18,31,,4,3,1,2,"そうすると; PRE-ENRICHED by prior unlogged process, left untouched (additive rule), logged from current file state; validator clean on new fields; DEFECT (not fixed): 7 vocab entries use dict/lemma form (e.g. 合格する) not sentence surface form — violates word-as-in-sentence rule"
+n2_224,2026-08-18,27,,3,6,1,,"そう言えば; PRE-ENRICHED by prior unlogged process, left untouched (additive rule), logged from current file state; validator clean on new fields; DEFECT (not fixed): 7 vocab entries use dict/lemma form (e.g. 合格する) not sentence surface form — violates word-as-in-sentence rule"
+n2_225,2026-08-18,33,,5,3,1,1,"その上; PRE-ENRICHED by prior unlogged process, left untouched (additive rule), logged from current file state; validator clean on new fields"
+n2_226,2026-08-18,27,,4,4,2,,"それとも; PRE-ENRICHED by prior unlogged process, left untouched (additive rule), logged from current file state; validator clean on new fields"
+n2_227,2026-08-18,29,,4,4,1,1,"それなのに; PRE-ENRICHED by prior unlogged process, left untouched (additive rule), logged from current file state; validator clean on new fields"
+n2_228,2026-08-18,27,,3,4,3,,"〜それなら; PRE-ENRICHED by prior unlogged process, left untouched (additive rule), logged from current file state; validator clean on new fields; DEFECT (not fixed): 6 vocab entries use dict/lemma form (e.g. 合格する) not sentence surface form — violates word-as-in-sentence rule"
+n2_229,2026-08-18,21,,,10,,,"〜たまえ; PRE-ENRICHED by prior unlogged process, left untouched (additive rule), logged from current file state; validator clean on new fields; DEFECT (not fixed): 11 vocab entries use dict/lemma form (e.g. 合格する) not sentence surface form — violates word-as-in-sentence rule"
+n2_230,2026-08-18,27,,9,,,1,"〜だけあって; PRE-ENRICHED by prior unlogged process, left untouched (additive rule), logged from current file state; validator clean on new fields; DEFECT (not fixed): 1 vocab entries use dict/lemma form (e.g. 合格する) not sentence surface form — violates word-as-in-sentence rule"
+n2_231,2026-08-18,29,,10,,,,"〜だけに; PRE-ENRICHED by prior unlogged process, left untouched (additive rule), logged from current file state; validator clean on new fields"
+n2_232,2026-08-19,27,,,10,,,"〜だけのことはある; PRE-ENRICHED by prior unlogged process, left untouched (additive rule), logged from current file state; validator clean on new fields; DEFECT (not fixed): 5 vocab entries use dict/lemma form not sentence surface form — violates word-as-in-sentence rule"
+n2_233,2026-08-19,27,,1,9,,,"〜だけは; PRE-ENRICHED by prior unlogged process, left untouched (additive rule), logged from current file state; validator clean on new fields; DEFECT (not fixed): 6 vocab entries use dict/lemma form not sentence surface form — violates word-as-in-sentence rule"
+n2_234,2026-08-19,21,,2,8,,,"〜だけましだ; PRE-ENRICHED by prior unlogged process, left untouched (additive rule), logged from current file state; validator clean on new fields; DEFECT (not fixed): 5 vocab entries use dict/lemma form not sentence surface form — violates word-as-in-sentence rule"
+n2_235,2026-08-19,23,,3,7,,,"ちっとも〜ない; PRE-ENRICHED by prior unlogged process, left untouched (additive rule), logged from current file state; validator clean on new fields; DEFECT (not fixed): 9 vocab entries use dict/lemma form not sentence surface form — violates word-as-in-sentence rule"
+n2_236,2026-08-19,25,,2,4,2,2,"ちなみに; PRE-ENRICHED by prior unlogged process, left untouched (additive rule), logged from current file state; validator clean on new fields; DEFECT (not fixed): 2 vocab entries use dict/lemma form not sentence surface form — violates word-as-in-sentence rule"
+n2_237,2026-08-19,24,,9,1,,,"〜っこない; PRE-ENRICHED by prior unlogged process, left untouched (additive rule), logged from current file state; validator clean on new fields"
+n2_238,2026-08-19,32,,,1,,9,"〜つつある; PRE-ENRICHED by prior unlogged process, left untouched (additive rule), logged from current file state; validator clean on new fields"
+n2_239,2026-08-19,24,,4,5,,1,"〜ていては; PRE-ENRICHED by prior unlogged process, left untouched (additive rule), logged from current file state; validator clean on new fields"
+n2_240,2026-08-19,29,,4,6,,,"〜てしょうがない; PRE-ENRICHED by prior unlogged process, left untouched (additive rule), logged from current file state; validator clean on new fields; DEFECT (not fixed): 10 vocab entries use dict/lemma form not sentence surface form — violates word-as-in-sentence rule"
+n2_241,2026-08-19,30,,4,1,1,4,"〜てでも; PRE-ENRICHED by prior unlogged process, left untouched (additive rule), logged from current file state; validator clean on new fields; DEFECT (not fixed): 14 vocab entries use dict/lemma form not sentence surface form — violates word-as-in-sentence rule"
+n2_242,2026-08-19,30,,,4,,6,"〜ては; PRE-ENRICHED by prior unlogged process, left untouched (additive rule), logged from current file state; validator clean on new fields; DEFECT (not fixed): 12 vocab entries use dict/lemma form not sentence surface form — violates word-as-in-sentence rule"
+n2_243,2026-08-19,26,,1,5,1,3,"〜てはいられない; PRE-ENRICHED by prior unlogged process, left untouched (additive rule), logged from current file state; validator clean on new fields; DEFECT (not fixed): 4 vocab entries use dict/lemma form not sentence surface form — violates word-as-in-sentence rule"
+n2_244,2026-08-19,29,,1,6,,3,"〜ては〜ては; PRE-ENRICHED by prior unlogged process, left untouched (additive rule), logged from current file state; validator clean on new fields; DEFECT (not fixed): 8 vocab entries use dict/lemma form not sentence surface form — violates word-as-in-sentence rule"
+n2_245,2026-08-19,31,,,,2,8,"〜てはならない; PRE-ENRICHED by prior unlogged process, left untouched (additive rule), logged from current file state; validator clean on new fields; DEFECT (not fixed): 5 vocab entries use dict/lemma form not sentence surface form — violates word-as-in-sentence rule"
+n2_246,2026-08-19,27,,2,7,,1,"〜てばかりはいられない; PRE-ENRICHED by prior unlogged process, left untouched (additive rule), logged from current file state; validator clean on new fields; DEFECT (not fixed): 6 vocab entries use dict/lemma form not sentence surface form — violates word-as-in-sentence rule"
+n2_247,2026-08-20,20,,4,3,1,2,"〜てまで; PRE-ENRICHED unlogged, left untouched (additive), logged from current state; validator clean on new fields; DEFECT (not fixed): 7 vocab entries use dict/lemma form not sentence surface form"
+n2_248,2026-08-20,22,,5,1,1,3,"〜て以来; PRE-ENRICHED unlogged, left untouched (additive), logged from current state; validator clean on new fields; DEFECT (not fixed): 5 vocab entries use dict/lemma form not sentence surface form"
+n2_249,2026-08-20,24,,7,1,1,1,"〜て当然だ; PRE-ENRICHED unlogged, left untouched (additive), logged from current state; validator clean on new fields; DEFECT (not fixed): 8 vocab entries use dict/lemma form not sentence surface form"
+n2_250,2026-08-20,31,,6,,,4,"〜といった; PRE-ENRICHED unlogged, left untouched (additive), logged from current state; validator clean on new fields; no surface-form defects"
+n2_251,2026-08-20,28,,10,,,,"〜ところだった; PRE-ENRICHED unlogged, left untouched (additive), logged from current state; validator clean on new fields; DEFECT (not fixed): 5 vocab entries use dict/lemma form not sentence surface form"
+n2_252,2026-08-20,20,,10,,,,"〜ところに・ところへ; PRE-ENRICHED unlogged, left untouched (additive), logged from current state; validator clean on new fields; DEFECT (not fixed): 11 vocab entries use dict/lemma form not sentence surface form"
+n2_253,2026-08-20,20,,10,,,,"〜ところを見ると; PRE-ENRICHED unlogged, left untouched (additive), logged from current state; validator clean on new fields; DEFECT (not fixed): 9 vocab entries use dict/lemma form not sentence surface form"
+n2_254,2026-08-20,20,,6,3,,1,"とっくに; PRE-ENRICHED unlogged, left untouched (additive), logged from current state; validator clean on new fields; DEFECT (not fixed): 4 vocab entries use dict/lemma form not sentence surface form"
+n2_255,2026-08-20,25,,4,,,6,"〜とも; PRE-ENRICHED unlogged, left untouched (additive), logged from current state; validator clean on new fields; DEFECT (not fixed): 9 vocab entries use dict/lemma form not sentence surface form"
+n2_256,2026-08-20,27,,4,,,6,"〜と同時に; PRE-ENRICHED unlogged, left untouched (additive), logged from current state; validator clean on new fields; DEFECT (not fixed): 7 vocab entries use dict/lemma form not sentence surface form"
+n2_257,2026-08-20,21,,7,3,,,"どうせ; PRE-ENRICHED unlogged, left untouched (additive), logged from current state; validator clean on new fields; DEFECT (not fixed): 5 vocab entries use dict/lemma form not sentence surface form"
+n2_258,2026-08-20,25,,6,2,2,,"どうやら; PRE-ENRICHED unlogged, left untouched (additive), logged from current state; validator clean on new fields; DEFECT (not fixed): 6 vocab entries use dict/lemma form not sentence surface form"
+n2_259,2026-08-20,27,,5,3,1,1,"〜どころではない; PRE-ENRICHED unlogged, left untouched (additive), logged from current state; validator clean on new fields; DEFECT (not fixed): 6 vocab entries use dict/lemma form not sentence surface form"
+n2_260,2026-08-20,30,,5,2,1,2,"〜ないものか; PRE-ENRICHED unlogged, left untouched (additive), logged from current state; validator clean on new fields; DEFECT (not fixed): 11 vocab entries use dict/lemma form not sentence surface form"
+n2_261,2026-08-20,30,,3,,3,4,"〜なお; PRE-ENRICHED unlogged, left untouched (additive), logged from current state; validator clean on new fields; DEFECT (not fixed): 4 vocab entries use dict/lemma form not sentence surface form"
+n2_262,2026-08-21,28,,8,1,1,,"〜なくて済む; PRE-ENRICHED unlogged, left untouched (additive), logged from current state; validator clean on new fields; DEFECT (not fixed): 8 vocab entries use dict/lemma form not sentence surface form"
+n2_263,2026-08-21,26,,8,2,,,"〜なくはない; PRE-ENRICHED unlogged, left untouched (additive), logged from current state; validator clean on new fields; DEFECT (not fixed): 10 vocab entries use dict/lemma form not sentence surface form"
+n2_264,2026-08-21,29,,7,2,,1,"〜にしたら; PRE-ENRICHED unlogged, left untouched (additive), logged from current state; validator clean on new fields; DEFECT (not fixed): 1 vocab entries use dict/lemma form not sentence surface form"
+n2_265,2026-08-21,33,,7,1,1,1,"〜にせよ; PRE-ENRICHED unlogged, left untouched (additive), logged from current state; validator clean on new fields; DEFECT (not fixed): 6 vocab entries use dict/lemma form not sentence surface form"
+n2_266,2026-08-21,32,,1,,9,,"〜につき; PRE-ENRICHED unlogged, left untouched (additive), logged from current state; validator clean on new fields; DEFECT (not fixed): 3 vocab entries use dict/lemma form not sentence surface form"
+n2_267,2026-08-21,37,,3,,,7,"〜につけ; PRE-ENRICHED unlogged, left untouched (additive), logged from current state; validator clean on new fields; DEFECT (not fixed): 1 vocab entries use dict/lemma form not sentence surface form"
+n2_268,2026-08-21,32,,,,8,2,"〜にて; PRE-ENRICHED unlogged, left untouched (additive), logged from current state; validator clean on new fields; DEFECT (not fixed): 3 vocab entries use dict/lemma form not sentence surface form"
+n2_269,2026-08-21,38,,4,,,6,"〜に伴って; PRE-ENRICHED unlogged, left untouched (additive), logged from current state; validator clean on new fields; DEFECT (not fixed): 3 vocab entries use dict/lemma form not sentence surface form"
+n2_270,2026-08-21,35,,10,,,,"〜に先立ち; PRE-ENRICHED unlogged, left untouched (additive), logged from current state; validator clean on new fields; DEFECT (not fixed): 4 vocab entries use dict/lemma form not sentence surface form"
+n2_271,2026-08-21,27,,10,,,,"〜に向かって; PRE-ENRICHED unlogged, left untouched (additive), logged from current state; validator clean on new fields; DEFECT (not fixed): 8 vocab entries use dict/lemma form not sentence surface form"
+n2_272,2026-08-21,36,,10,,,,"〜に応えて; PRE-ENRICHED unlogged, left untouched (additive), logged from current state; validator clean on new fields; DEFECT (not fixed): 4 vocab entries use dict/lemma form not sentence surface form"
+n2_273,2026-08-21,31,,8,,2,,"〜に応じて; PRE-ENRICHED unlogged, left untouched (additive), logged from current state; validator clean on new fields; DEFECT (not fixed): 1 vocab entries use dict/lemma form not sentence surface form"
+n2_274,2026-08-21,30,,10,,,,"〜に関わらず; PRE-ENRICHED unlogged, left untouched (additive), logged from current state; validator clean on new fields; DEFECT (not fixed): 3 vocab entries use dict/lemma form not sentence surface form"
+n2_275,2026-08-21,28,,10,,,,"〜に関わる; PRE-ENRICHED unlogged, left untouched (additive), logged from current state; validator clean on new fields; DEFECT (not fixed): 1 vocab entries use dict/lemma form not sentence surface form"
+n2_276,2026-08-21,23,,8,2,,,"〜に限る; PRE-ENRICHED unlogged, left untouched (additive), logged from current state; validator clean on new fields; DEFECT (not fixed): 3 vocab entries use dict/lemma form not sentence surface form"
+n2_277,2026-08-22,23,,,,,10,"〜ぬ; PRE-ENRICHED unlogged, left untouched (strictly additive), logged from current state; validator clean on new fields; SYSTEMIC DEFECT (not fixed): 6 vocab entries use dict/lemma form not sentence surface form"
+n2_278,2026-08-22,29,,,,,10,"〜ねばならない; PRE-ENRICHED unlogged, left untouched (strictly additive), logged from current state; validator clean on new fields; SYSTEMIC DEFECT (not fixed): 5 vocab entries use dict/lemma form not sentence surface form"
+n2_279,2026-08-22,22,,10,,,,"〜のももっともだ; PRE-ENRICHED unlogged, left untouched (strictly additive), logged from current state; validator clean on new fields; SYSTEMIC DEFECT (not fixed): 2 vocab entries use dict/lemma form not sentence surface form"
+n2_280,2026-08-22,25,,10,,,,"〜はともかく; PRE-ENRICHED unlogged, left untouched (strictly additive), logged from current state; validator clean on new fields; SYSTEMIC DEFECT (not fixed): 1 vocab entries use dict/lemma form not sentence surface form"
+n2_281,2026-08-22,26,,6,,,4,"〜ばかりだ; PRE-ENRICHED unlogged, left untouched (strictly additive), logged from current state; validator clean on new fields; SYSTEMIC DEFECT (not fixed): 3 vocab entries use dict/lemma form not sentence surface form"
+n2_282,2026-08-22,24,,,,,10,"〜まい; PRE-ENRICHED unlogged, left untouched (strictly additive), logged from current state; validator clean on new fields; SYSTEMIC DEFECT (not fixed): 4 vocab entries use dict/lemma form not sentence surface form"
+n2_283,2026-08-22,25,,7,1,,2,"〜ならまだしも; PRE-ENRICHED unlogged, left untouched (strictly additive), logged from current state; validator clean on new fields; SYSTEMIC DEFECT (not fixed): 2 vocab entries use dict/lemma form not sentence surface form"
+n2_284,2026-08-22,25,,10,,,,"もう少しで〜ところだった; PRE-ENRICHED unlogged, left untouched (strictly additive), logged from current state; validator clean on new fields; SYSTEMIC DEFECT (not fixed): 6 vocab entries use dict/lemma form not sentence surface form"
+n2_285,2026-08-22,25,,9,,,1,"〜も〜ば〜も; PRE-ENRICHED unlogged, left untouched (strictly additive), logged from current state; validator clean on new fields; SYSTEMIC DEFECT (not fixed): 0 vocab entries use dict/lemma form not sentence surface form"
+n2_286,2026-08-22,25,,10,,,,"〜も当然だ; PRE-ENRICHED unlogged, left untouched (strictly additive), logged from current state; validator clean on new fields; SYSTEMIC DEFECT (not fixed): 4 vocab entries use dict/lemma form not sentence surface form"
+n2_287,2026-08-22,24,,7,,,3,"〜やがて; PRE-ENRICHED unlogged, left untouched (strictly additive), logged from current state; validator clean on new fields; SYSTEMIC DEFECT (not fixed): 7 vocab entries use dict/lemma form not sentence surface form"
+n2_288,2026-08-22,30,,10,,,,"〜やら〜やら; PRE-ENRICHED unlogged, left untouched (strictly additive), logged from current state; validator clean on new fields; SYSTEMIC DEFECT (not fixed): 2 vocab entries use dict/lemma form not sentence surface form"
+n2_289,2026-08-22,26,,10,,,,"〜ようか〜まいか; PRE-ENRICHED unlogged, left untouched (strictly additive), logged from current state; validator clean on new fields; SYSTEMIC DEFECT (not fixed): 8 vocab entries use dict/lemma form not sentence surface form"
+n2_290,2026-08-22,21,,,,7,3,"〜ようではないか; PRE-ENRICHED unlogged, left untouched (strictly additive), logged from current state; validator clean on new fields; SYSTEMIC DEFECT (not fixed): 3 vocab entries use dict/lemma form not sentence surface form"
+n2_291,2026-08-22,22,,9,1,,,"よほど; PRE-ENRICHED unlogged, left untouched (strictly additive), logged from current state; validator clean on new fields; SYSTEMIC DEFECT (not fixed): 7 vocab entries use dict/lemma form not sentence surface form; n2_291_10 vocab 機嫌 absent from sentence entirely"
+n2_292,2026-08-23,23,,9,1,,,"ろくに〜ない; PRE-ENRICHED unlogged, left untouched (strictly additive), logged from current state; validator clean on new fields; SYSTEMIC DEFECT (not fixed): 7 vocab entries use dict/lemma form not sentence surface form"
+n2_293,2026-08-23,24,,6,,,4,"わずかに; PRE-ENRICHED unlogged, left untouched (strictly additive), logged from current state; validator clean on new fields; SYSTEMIC DEFECT (not fixed): 8 vocab entries use dict/lemma form not sentence surface form"
+n2_294,2026-08-23,24,,10,,,,"〜を除いて; PRE-ENRICHED unlogged, left untouched (strictly additive), logged from current state; validator clean on new fields; SYSTEMIC DEFECT (not fixed): 1 vocab entries use dict/lemma form not sentence surface form"
+n2_295,2026-08-23,23,,,10,,,"〜んだって; PRE-ENRICHED unlogged, left untouched (strictly additive), logged from current state; validator clean on new fields; SYSTEMIC DEFECT (not fixed): 1 vocab entries use dict/lemma form not sentence surface form"
+n2_296,2026-08-23,21,,9,1,,,"一応; PRE-ENRICHED unlogged, left untouched (strictly additive), logged from current state; validator clean on new fields; SYSTEMIC DEFECT (not fixed): 1 vocab entries use dict/lemma form not sentence surface form"
+n2_297,2026-08-23,27,,10,,,,"〜一気に; PRE-ENRICHED unlogged, left untouched (strictly additive), logged from current state; validator clean on new fields; SYSTEMIC DEFECT (not fixed): 8 vocab entries use dict/lemma form not sentence surface form"
+n2_298,2026-08-23,27,,10,,,,"〜上; PRE-ENRICHED unlogged, left untouched (strictly additive), logged from current state; validator clean on new fields; SYSTEMIC DEFECT (not fixed): 2 vocab entries use dict/lemma form not sentence surface form"
+n2_299,2026-08-23,28,,10,,,,"〜上は; PRE-ENRICHED unlogged, left untouched (strictly additive), logged from current state; validator clean on new fields; SYSTEMIC DEFECT (not fixed): 4 vocab entries use dict/lemma form not sentence surface form"
+n2_300,2026-08-23,32,,7,,1,2,"〜中を; PRE-ENRICHED unlogged, left untouched (strictly additive), logged from current state; validator clean on new fields; SYSTEMIC DEFECT (not fixed): 7 vocab entries use dict/lemma form not sentence surface form"
+n2_301,2026-08-23,28,,9,,,1,"〜以上に; PRE-ENRICHED unlogged, left untouched (strictly additive), logged from current state; validator clean on new fields; SYSTEMIC DEFECT (not fixed): 3 vocab entries use dict/lemma form not sentence surface form"
+n2_302,2026-08-23,24,10,10,,,,"何も〜ない; blank_target_reading ADDED (10 exs: 何も→なにも, kanji target lacked reading; cross-checked hiragana_full); register/vocab were PRE-ENRICHED unlogged, left untouched (strictly additive), logged from state; validator clean on new fields; SYSTEMIC DEFECT (not fixed): 9 vocab entries use dict/lemma form not sentence surface form"
+n2_303,2026-08-23,30,,3,,4,3,"〜及び〜; PRE-ENRICHED unlogged, left untouched (strictly additive), logged from current state; validator clean on new fields; SYSTEMIC DEFECT (not fixed): 0 vocab entries use dict/lemma form not sentence surface form"
+n2_304,2026-08-23,30,,9,,,1,"〜反面; PRE-ENRICHED unlogged, left untouched (strictly additive), logged from current state; validator clean on new fields; SYSTEMIC DEFECT (not fixed): 0 vocab entries use dict/lemma form not sentence surface form"
+n2_305,2026-08-23,21,,10,,,,"〜少しも〜ない; PRE-ENRICHED unlogged, left untouched (strictly additive), logged from current state; validator clean on new fields; SYSTEMIC DEFECT (not fixed): 6 vocab entries use dict/lemma form not sentence surface form"
+n2_306,2026-08-23,20,,10,,,,"〜少なくとも; PRE-ENRICHED unlogged, left untouched (strictly additive), logged from current state; validator clean on new fields; SYSTEMIC DEFECT (not fixed): 0 vocab entries use dict/lemma form not sentence surface form"
+n2_307,2026-08-24,20,,9,,1,,"〜ことに; PRE-ENRICHED unlogged, left untouched (strictly additive), logged from current state; validator clean on new fields; btr N/A (kana target ことに, correctly omitted); non-neutral: ex7 formal; SYSTEMIC DEFECT (not fixed): 2 vocab entries use dict/lemma form not sentence surface form"
+n2_308,2026-08-24,20,,9,,,1,"〜恐らく; PRE-ENRICHED unlogged, left untouched (strictly additive), logged from current state; validator clean on new fields; btr present (10); non-neutral: ex4 written; SYSTEMIC DEFECT (not fixed): 3 vocab entries use dict/lemma form not sentence surface form"
+n2_309,2026-08-24,23,,7,,,3,"〜抜く; PRE-ENRICHED unlogged, left untouched (strictly additive), logged from current state; validator clean on new fields; btr present (10); non-neutral: ex5 written; ex9 written; ex10 written; SYSTEMIC DEFECT (not fixed): 2 vocab entries use dict/lemma form not sentence surface form"
+n2_310,2026-08-24,21,,8,,,2,"〜末に; PRE-ENRICHED unlogged, left untouched (strictly additive), logged from current state; validator clean on new fields; btr present (10); non-neutral: ex5 written; ex10 written; SYSTEMIC DEFECT (not fixed): 5 vocab entries use dict/lemma form not sentence surface form"
+n2_311,2026-08-24,22,,9,,,1,"〜果たして; PRE-ENRICHED unlogged, left untouched (strictly additive), logged from current state; validator clean on new fields; btr present (10); non-neutral: ex9 written; SYSTEMIC DEFECT (not fixed): 2 vocab entries use dict/lemma form not sentence surface form"
+n2_312,2026-08-24,23,,7,,,3,"〜次第に; PRE-ENRICHED unlogged, left untouched (strictly additive), logged from current state; validator clean on new fields; btr present (10); non-neutral: ex4 written; ex6 written; ex9 written; SYSTEMIC DEFECT (not fixed): 5 vocab entries use dict/lemma form not sentence surface form"
+n2_313,2026-08-24,22,,1,,3,6,"〜直ちに; PRE-ENRICHED unlogged, left untouched (strictly additive), logged from current state; validator clean on new fields; btr present (10); non-neutral: ex1 formal; ex2 written; ex4 written; ex5 written; ex6 written; ex7 formal; ex8 written; ex9 written; ex10 formal; SYSTEMIC DEFECT (not fixed): 2 vocab entries use dict/lemma form not sentence surface form"
+n2_314,2026-08-24,22,,6,2,,2,"〜要するに; PRE-ENRICHED unlogged, left untouched (strictly additive), logged from current state; validator clean on new fields; btr present (10); non-neutral: ex2 written; ex3 casual; ex5 written; ex8 casual; SYSTEMIC DEFECT (not fixed): 3 vocab entries use dict/lemma form not sentence surface form"
+n2_315,2026-08-24,25,,8,1,1,,"逆に; PRE-ENRICHED unlogged, left untouched (strictly additive), logged from current state; validator clean on new fields; btr present (10); non-neutral: ex2 casual; ex7 formal; SYSTEMIC DEFECT (not fixed): 6 vocab entries use dict/lemma form not sentence surface form"
+n2_316,2026-08-24,26,,5,2,1,2,"〜限り; PRE-ENRICHED unlogged, left untouched (strictly additive), logged from current state; validator clean on new fields; btr present (10); non-neutral: ex1 casual; ex3 formal; ex6 written; ex9 written; ex10 casual; SYSTEMIC DEFECT (not fixed): 5 vocab entries use dict/lemma form not sentence surface form"
+n1_001,2026-08-24,12,,5,,,5,〜ともなると; enriched from scratch (real work); all blank_targets kana so no blank_target_reading; vocab uses sentence surface forms (0 dict-form defect); register: ex6 written; ex7 written; ex8 written; ex9 written; ex10 written
+n1_002,2026-08-24,22,,6,,,4,〜ともなれば; enriched from scratch (real work); all blank_targets kana so no blank_target_reading; vocab uses sentence surface forms (0 dict-form defect); register: ex2 written; ex3 written; ex4 written; ex9 written
+n1_003,2026-08-24,18,,,,,10,〜をものともせず; enriched from scratch (real work); all blank_targets kana so no blank_target_reading; vocab uses sentence surface forms (0 dict-form defect); register: ex1 written; ex2 written; ex3 written; ex4 written; ex5 written; ex6 written; ex7 written; ex8 written; ex9 written; ex10 written
+n1_004,2026-08-24,26,,,,,10,〜んがため; enriched from scratch (real work); all blank_targets kana so no blank_target_reading; vocab uses sentence surface forms (0 dict-form defect); register: ex1 written; ex2 written; ex3 written; ex4 written; ex5 written; ex6 written; ex7 written; ex8 written; ex9 written; ex10 written
+n1_005,2026-08-24,21,,,,,10,〜んばかりに; enriched from scratch (real work); all blank_targets kana so no blank_target_reading; vocab uses sentence surface forms (0 dict-form defect); register: ex1 written; ex2 written; ex3 written; ex4 written; ex5 written; ex6 written; ex7 written; ex8 written; ex9 written; ex10 written
+n1_006,2026-08-25,14,,5,,,5,〜たりとも; enriched from scratch (real work); all blank_targets kana so no blank_target_reading added; vocab uses sentence surface forms (0 dict-form defect); register: ex1 written; ex6 written; ex7 written; ex9 written; ex10 written
+n1_007,2026-08-25,18,,10,,,,〜ならでは; enriched from scratch (real work); all blank_targets kana so no blank_target_reading added; vocab uses sentence surface forms (0 dict-form defect); all neutral
+n1_008,2026-08-25,22,,8,,,2,〜にたえる(btr pre-set); partial PRE-ENRICH (blank_target_reading already present; added register+vocab additively); vocab uses sentence surface forms (0 dict-form defect); register: ex1 written; ex10 written
+n1_009,2026-08-25,17,,6,,2,2,〜にたえない; enriched from scratch (real work); all blank_targets kana so no blank_target_reading added; vocab uses sentence surface forms (0 dict-form defect); register: ex2 formal; ex5 written; ex6 written; ex9 formal
+n1_010,2026-08-25,22,,2,,,8,〜まじき; enriched from scratch (real work); all blank_targets kana so no blank_target_reading added; vocab uses sentence surface forms (0 dict-form defect); register: ex2 written; ex3 written; ex4 written; ex6 written; ex7 written; ex8 written; ex9 written; ex10 written
+n1_011,2026-08-25,21,,,,,10,〜べからず; enriched from scratch (real work); all blank_targets kana so no blank_target_reading added; vocab uses sentence surface forms (0 dict-form defect); register: ex1 written; ex2 written; ex3 written; ex4 written; ex5 written; ex6 written; ex7 written; ex8 written; ex9 written; ex10 written
+n1_012,2026-08-25,22,,,,,10,〜べからざる; enriched from scratch (real work); all blank_targets kana so no blank_target_reading added; vocab uses sentence surface forms (0 dict-form defect); register: ex1 written; ex2 written; ex3 written; ex4 written; ex5 written; ex6 written; ex7 written; ex8 written; ex9 written; ex10 written
+n1_013,2026-08-25,22,,10,,,,〜をおいて; enriched from scratch (real work); all blank_targets kana so no blank_target_reading added; vocab uses sentence surface forms (0 dict-form defect); all neutral
+n1_014,2026-08-25,24,,6,,,4,〜ならいざしらず; enriched from scratch (real work); all blank_targets kana so no blank_target_reading added; vocab uses sentence surface forms (0 dict-form defect); register: ex1 written; ex6 written; ex7 written; ex8 written
+n1_015,2026-08-25,20,,6,,,4,〜はおろか; enriched from scratch (real work); all blank_targets kana so no blank_target_reading added; vocab uses sentence surface forms (0 dict-form defect); register: ex6 written; ex7 written; ex9 written; ex10 written
+n1_016,2026-08-25,25,,6,,,4,〜もさることながら; enriched from scratch (real work); all blank_targets kana so no blank_target_reading added; vocab uses sentence surface forms (0 dict-form defect); register: ex6 written; ex7 written; ex8 written; ex9 written
+n1_017,2026-08-25,28,,7,,,3,〜に至っては(btr pre-set); partial PRE-ENRICH (blank_target_reading already present; added register+vocab additively); vocab uses sentence surface forms (0 dict-form defect); register: ex6 written; ex7 written; ex10 written
+n1_018,2026-08-25,22,,7,,,3,〜ないまでも; enriched from scratch (real work); all blank_targets kana so no blank_target_reading added; vocab uses sentence surface forms (0 dict-form defect); register: ex1 written; ex7 written; ex10 written
+n1_019,2026-08-25,22,,6,,,4,〜ずにはすまない; enriched from scratch (real work); all blank_targets kana so no blank_target_reading added; vocab uses sentence surface forms (0 dict-form defect); register: ex2 written; ex3 written; ex6 written; ex7 written
+n1_020,2026-08-25,7,,10,,,,〜ないものでもない; enriched from scratch (real work); all blank_targets kana so no blank_target_reading added; vocab uses sentence surface forms (0 dict-form defect); all neutral
+n1_021,2026-08-26,25,,8,,,2,〜てからというもの; enriched from scratch (real work); kana blank_target so no blank_target_reading; vocab uses sentence surface forms; register: ex6 written (medical/report prose); ex8 written (academic prose); rest neutral personal narrative
+n1_022,2026-08-26,29,,,,,10,〜を皮切りに; blank_target_reading pre-present (untouched); added register+vocab additively; whole batch written (business/news/ceremonial series-opening prose)
+n1_023,2026-08-26,28,,,,,10,〜を余儀なくされる; btr pre-present (untouched); all-10 written (formal により+passive report register: forced measures)
+n1_024,2026-08-26,29,,,,,10,"〜極まりない; btr pre-present (untouched); all-10 written (literary negative-evaluative intensifier, critique prose); DEFECT noted: all 10 hiragana_full lack final 。 (not fixed)"
+n1_025,2026-08-26,28,,,,,10,"〜の至り; btr pre-present (untouched); all-10 written (archaic set-phrase, literary emotional prose)"
+n1_026,2026-08-26,29,,,1,,9,〜の極み; btr pre-present (untouched); written 9 (literary superlative); casual 1 (ex8 なんて…だ colloquial); DEFECT noted: hiragana_full missing final 。 on ex1/3/5/6 (not fixed)
+n1_027,2026-08-26,29,,,,,10,〜たる; kana blank_target so no btr; all-10 written (bungo 〜たる者は…べき/ねばならない prescriptive-formal)
+n1_028,2026-08-26,28,,7,,,3,"〜あっての; kana blank_target so no btr; written 3 (ex4/9 である, ex7 に他ならない); rest neutral reflective statements"
+n1_029,2026-08-26,26,,8,,,2,"〜をいいことに; kana blank_target so no btr; written 2 (ex6 geopolitical, ex8 essay); rest neutral narrative"
+n1_030,2026-08-26,29,,3,,,7,〜をよそに; kana blank_target so no btr; written 7 (news/report: govt/opinion/regulation); neutral 3 (ex1-3 personal narrative)
+n1_031,2026-08-26,24,,5,,,5,〜にかたくない; kana blank_target so no btr; written 5 (ex6-10 analytical editorial prose); neutral 5 (ex1-5 short factual)
+n1_032,2026-08-26,30,,,,,10,〜にかこつけて; kana blank_target so no btr; all-10 written (journalistic institutional-misconduct report register)
+n1_033,2026-08-26,30,,3,,,7,〜いかんによらず; kana blank_target so no btr; written 7 (policy べきである/である/有する); neutral 3 (ex1/4/8 plain-form policy)
+n1_034,2026-08-26,29,,4,,,6,"〜いかんで; kana blank_target so no btr; written 6 (ex5-10, であろう literary future / 過言ではない); neutral 4 (ex1-4)"
+n1_035,2026-08-26,25,,7,,,3,〜たところで; kana blank_target so no btr; written 3 (ex7/9/10 容易には…ない / てはならない); neutral 7 (everyday futility conditionals)
+n1_036,2026-08-27,9,,10,,,,"〜ようが〜まいが; kana blank_target so no btr; all-10 neutral (spoken whether-or-not, plain narrative/masu)"
+n1_037,2026-08-27,19,,6,,,4,〜であれ; kana blank so no btr; written 4 (ex2/6/9/10: べきである/必要である/必須である essayistic である-copula); neutral 6 (plain だ/ている maxims)
+n1_038,2026-08-27,16,,10,,,,"〜なり; kana blank; all-10 neutral (narrative past した, incl. journalistic ex6-10 but no written marker)"
+n1_039,2026-08-27,25,,10,,,,〜が早いか; btr present (がはやいか); all-10 neutral (narrative past). ex7 温室効果ガス glossed おんしつこうかがす (HF converts katakana)
+n1_040,2026-08-27,24,,10,,,,〜や否や; btr present (やいなや); all-10 neutral (narrative past). ex7 サステナビリティ left ungloss
+n1_041,2026-08-27,22,,10,,,,"〜そばから; kana blank; all-10 neutral (present-tense repeated-frustration, plain). ex1 no vocab (all basic)"
+n1_042,2026-08-27,19,,10,,,,"〜なくして; kana blank; all-10 neutral (aphoristic plain negatives, no である marker). ex1 no vocab"
+n1_043,2026-08-27,24,,10,,,,"〜にひきかえ; kana blank; all-10 neutral (contrastive descriptive, plain da/past/ている)"
+n1_044,2026-08-27,18,,5,,,5,〜に即して; btr present (にそくして); written 5 (ex4/7/8/9/10 べきである); neutral 5 (ex3 べきだ spoken / plain)
+n1_045,2026-08-27,20,,8,,,2,〜にもまして; kana blank; written 2 (ex7/10 急務である); neutral 8
+n1_046,2026-08-27,16,,,,,10,"〜てやまない; kana blank; all-10 WRITTEN (literary set-form of enduring strong feeling, speeches/essays). ex4/ex9 no vocab. DEFECT: hiragana_full missing final 。 on ex1/ex3/ex4/ex7 — noted not fixed"
+n1_047,2026-08-27,24,,10,,,,"〜とあれば; kana blank; all-10 neutral (conditional, plain predicates incl ざるを得ない/余儀なくされる but no である)"
+n1_048,2026-08-27,25,,10,,,,"〜ものを; kana blank; all-10 neutral (regretful narrative past; ex6-10 により+passive formal-flavored but left neutral). ex5 no vocab (我慢/諦める N3, 2-below)"
+n1_049,2026-08-27,26,,10,,,,〜始末だ; btr present (しまつだ); all-10 neutral (exasperated plain だ complaint pattern)
+n1_050,2026-08-27,22,,10,,,,"〜手前; btr present (てまえ); all-10 neutral (social-obligation, plain/ません). ex10 no vocab. ex4 抑え surface-form glossed (おさえ)"
+n1_051,2026-08-28,21,,,,,10,〜だに; kana blank (btr no-op); all-10 WRITTEN (bungo literary emphatic 'even just'); ex6 である reinforces. ex1 恐ろしくて/震え borderline-basic kept
+n1_052,2026-08-28,27,,8,,,2,"〜すら; kana blank; mostly neutral, ex7 (〜ており written connective)/ex8 (である) written. More literary than さえ but sentences plain narrative"
+n1_053,2026-08-28,21,,10,,,,"〜とばかりに; kana blank; all-10 neutral (plain narrative attitude-description, no である). ex5 no vocab (all basics)"
+n1_054,2026-08-28,15,,5,,,5,〜めく; kana blank; 5 written (哀愁/古典/幻想/詩/郷愁 aesthetic-literary) /5 neutral. ex2 no vocab (春めく basics)
+n1_055,2026-08-28,18,,9,,,1,〜ぶる pretend; kana blank; neutral except ex6 (大国ぶる…である) written. ex7-10 plain essayistic generalizations kept neutral
+n1_056,2026-08-28,22,,10,,,,"〜まみれ; kana blank; all-10 neutral ('covered in X', everyday+institutional plain narrative)"
+n1_057,2026-08-28,22,,9,,,1,〜ずくめ; kana blank; neutral except ex10 (深刻である) written
+n1_058,2026-08-28,16,,10,,,,〜づくし; kana blank; all-10 neutral (descriptive 'full of X'). ex2/ex4 no vocab (all basics)
+n1_059,2026-08-28,22,,9,,,1,〜かたがた formal 'while also'; kana blank; neutral except ex6 (計画である) written. Business/report tone but plain sentences→neutral
+n1_060,2026-08-28,15,,10,,,,"〜がてら casual 'while doing'; kana blank; all-10 neutral (plain narrative, no strong casual final markers). ex2/ex3 no vocab"
+n1_061,2026-08-28,21,,7,,,3,〜ことなしに; kana blank; neutral except ex7/8/9 written (institutional/formal essay). ex1 no vocab (basics+katakana)
+n1_062,2026-08-28,13,,3,7,,,〜ことだし casual reason; kana blank; 7 casual (volitional しよう/かな/だろう planning) /3 neutral (ex3/5/6 plain). ex1/9/10 no vocab
+n1_063,2026-08-28,19,,1,,8,1,"〜こととて formal apologetic; kana blank; 8 formal (keigo おかけしました/ください/存じます), ex7 written (余儀なくされている no keigo), ex9 neutral (plain)"
+n1_064,2026-08-28,23,,9,,,1,〜とはいうものの; kana blank; neutral except ex8 (限定的である) written. Analytical/news tone but journalistic-plain (懸念される/残存している) kept neutral
+n1_065,2026-08-28,11,,10,,,,〜と思いきや; blank_target_reading already present (とおもいきや) untouched; all-10 neutral (plain reversal). ex1/4/6 no vocab (basics)
+n1_066,2026-08-29,17,,6,4,,,"〜ときたら colloquial-complaint topic; kana blank; casual ex1/3/5/8 (domestic/spoken grumble: うちの息子, 本当に困る, 姉の料理, 退屈すぎる), rest neutral (institutional plain complaints)"
+n1_067,2026-08-29,19,,1,,,9,"〜にして literary; kana blank; 9 written (concessive/coordination literary essay), ex7 neutral (plain personal anecdote 七十歳にして...入学し)"
+n1_068,2026-08-29,20,,,,,10,"〜にあるまじき bungo (まじき); kana blank; all-10 written (formal/literary condemnation, である-heavy)"
+n1_069,2026-08-29,19,,10,,,,"〜なりに; kana blank; all-10 neutral (plain analytical/narrative ている, no written markers)"
+n1_070,2026-08-29,20,,,,,10,"〜ごとく bungo; kana blank; all-10 written (similes + literary). DEFECT: HF missing final 。 ex1/2/3/5 (pre-existing, not fixed)"
+n1_071,2026-08-29,20,,9,1,,,"〜ならではの; kana blank; casual ex5 (plain desire 活用したい), rest neutral. ex2 no vocab (プロ/技術 basic). DEFECT: HF missing final 。 ex1/3/4/5 (pre-existing)"
+n1_072,2026-08-29,17,,5,2,,3,"〜はさておき discourse marker; kana blank; written ex6/7/8 (である), casual ex2/ex10 (plain てほしい/たい desire), rest neutral. ex3/ex4 no vocab (basics)"
+n1_073,2026-08-29,21,,,,,10,"〜に足る; blank_target_reading にたる already present, untouched; all-10 written (formal analytical に足る)"
+n1_074,2026-08-29,15,,5,5,,,"〜てはかなわない spoken exasperation; kana blank; casual ex1-5 (personal/domestic complaints), neutral ex6-10 (civic/institutional). ex2/ex4 no vocab"
+n1_075,2026-08-29,19,,9,,,1,"〜かたわら; kana blank; 9 neutral (plain biographical narrative, judge-sentence-not-label per かたがた precedent), ex9 written (である)"
+n1_076,2026-08-29,23,,,,,10,〜をもってしても literary concessive; kana blank; all-10 written (formal analytical; だろう ex4 kept written as essay conjecture not casual)
+n1_077,2026-08-29,23,,10,,,,"〜もかまわず; kana blank; all-10 neutral (plain narrative past/present, literary adverb but narrative)"
+n1_078,2026-08-29,19,,10,,,,"〜にかまけて; kana blank; all-10 neutral (plain narrative + essayistic social commentary, no written markers)"
+n1_079,2026-08-29,21,,,,,10,"〜を禁じ得ない; blank_target_reading をきんじえない already present, untouched; all-10 written (formal literary emotion expression)"
+n1_080,2026-08-29,20,,,,,10,〜てしかるべきだ formal prescriptive; kana blank; all-10 written (べき+しかる formal/written register)
+n1_081,2026-08-30,13,,8,,,2,"〜からある quantity emphasis; kana blank (no reading needed); written ex8/9 (である), rest neutral (plain descriptive). Blank swallows number+counter; vocab on economic/scale nouns. ex1/4/5 no vocab (basics)"
+n1_082,2026-08-30,20,,10,,,,"〜たが最後; blank_target_reading たがさいご already present, untouched; all-10 neutral (plain conditional-consequence, no である/keigo). Surface forms 引き受けた/広まって used for vocab. ex4 no vocab (怒り/触れる N3)"
+n1_083,2026-08-30,28,,10,,,,"〜とあいまって combined-with; kana blank; all-10 neutral (analytical/journalistic-plain kept neutral per precedent, no である). ex6 single vocab 困窮"
+n1_084,2026-08-30,13,,10,,,,〜ずじまい ended-up-not; kana blank; all-10 neutral (plain personal + institutional narrative). ex1/3/5 no vocab (basics: 約束/手紙/謝る/誕生日)
+n1_085,2026-08-30,22,,1,,,9,"〜かぎりだ extreme-emotion; kana blank; 9 written (literary Sino-Japanese emotion nouns 痛恨/慨嘆/哀切/悲痛, third-person literary description), ex8 neutral (first-person 悔しいかぎりだ everyday). Rich literary vocab"
+n1_086,2026-08-30,19,,10,,,,"〜きらいがある negative-tendency; kana blank; all-10 neutral (plain critical-analytical commentary, no である). ex1 no vocab (複雑 N3)"
+n1_087,2026-08-30,17,,10,,,,"〜に忍びない cannot-bear-to; blank_target_reading にしのびない already present, untouched; all-10 neutral (elevated pattern but plain descriptive sentences; judged sentence not pattern). Several single-vocab (貧困/難民/苦楽)"
+n1_088,2026-08-30,3,,10,,,,"〜ただ〜のみ nothing-but; blank_target_reading present for kanji targets (untouched), ex9 kana-only correctly absent; all-10 neutral (plain narrative, のみ literary but no である per すら precedent). Many no-vocab — blank_target swallows key noun (瓦礫/涙/焼け跡/残骸/努力/批判/一言)"
+n1_089,2026-08-30,8,,10,,,,"〜に越したことはない best-to; blank_target_reading にこしたことはない already present, untouched; all-10 neutral (plain general advice). ex1/3/4/5/7/9 no vocab (基本: 健康/合格/安全/解決/無駄/成長)"
+n1_090,2026-08-30,16,,7,,,3,"〜ようによっては depending-how; kana blank; written ex7/8/9 (であろう literary conjecture), rest neutral. ex1/3/4/5 no vocab (解決/料理/理解度/印象 basics)"
+n1_091,2026-08-30,27,,8,,1,1,〜をもって with/as-of; kana blank; neutral except ex9 written (であろう) + ex10 formal (keigo 閉店させていただきます business announcement). Official/institutional vocab throughout
+n1_092,2026-08-30,20,,6,4,,,"〜にもほどがある going-too-far; kana blank; casual ex1/2/3/10 (spoken/domestic grumble: なんて connived-tone, 連絡しない/甘やかし/残業/普段着), neutral ex4-9 (editorial/institutional indignation). Surface 煽る kept (dict-form in sentence)"
+n1_093,2026-08-30,26,,,,,10,"〜ゆえに because-of; kana blank; all-10 written (ゆえに = written connective per enrich.md examples; formal analytical/academic prose, である/急務である/余儀なくされている). Surface 著しい kept"
+n1_094,2026-08-30,18,,,,,10,〜とて even-though; kana blank; all-10 written (とて = written concessive per enrich.md examples; 何ら〜ないとて literary frame). 何ら glossed where content nouns thin
+n1_095,2026-08-30,14,,10,,,,"〜のあまり out-of-excess-emotion; kana blank; all-10 neutral (emotional narrative, plain past; 余儀なくされた in journalistic context kept neutral). Surface 余儀なくされた used for vocab. ex1/2/3/5 no vocab (基本感情 嬉しさ/恥ずかしさ/驚き/悲しみ)"
+n1_096,2026-08-31,20,,10,,,,"after-much/in-the-end; kana blank; all-10 neutral (plain narrative past, no である trigger; 判明した/白紙に戻された journalistic but plain). Real enrichment."
+n1_097,2026-08-31,11,,10,,,,"try-to-but-cannot; kana blank; all-10 neutral (plain declarative situations, no casual markers). ex3/7/10 no vocab (loanword/basic only). Real enrichment."
+n1_098,2026-08-31,13,,7,,,3,"hard-to-do; kana blank; ex3/6/10 written (である copula trigger), rest neutral (plain だ/だった assertions). Real enrichment."
+n1_099,2026-08-31,20,,10,,,,"previously/for-some-time; kana blank; all-10 neutral (polite ます / plain business narrative, no である). Real enrichment."
+n1_100,2026-08-31,19,,10,,,,looking/seeming; kana blank; all-10 neutral (plain narrative describing expressions; institutional ex6/7/8 still plain past). Host adj (嬉し/恥ずかし etc.) not glossed = blank-swallowed. Real enrichment.
+n1_101,2026-08-31,26,,3,2,1,4,"PRE-ENRICHED, unlogged — logged from state, left untouched (additive rule). ex2/6 casual, ex8 formal, ex4/5/7/9 written."
+n1_102,2026-08-31,24,,6,1,1,2,"PRE-ENRICHED, unlogged — logged from state, untouched. ex7 casual, ex8 formal, ex9/10 written."
+n1_103,2026-08-31,26,,1,,2,7,"PRE-ENRICHED, unlogged — logged from state, untouched. written-heavy (いかなる literary universal-quantifier); ex7/10 formal (keigo), 7 written, 1 neutral."
+n1_104,2026-08-31,25,,6,1,1,2,"PRE-ENRICHED, unlogged — logged from state, untouched. ex5 formal, ex7 casual, ex8/10 written."
+n1_105,2026-08-31,27,,3,1,1,5,"PRE-ENRICHED, unlogged — logged from state, untouched. written-heavy (およそ gnomic/literary); ex7 casual, ex9 formal."
+n1_106,2026-08-31,30,,3,1,1,5,"PRE-ENRICHED, unlogged — logged from state, untouched. ex7 formal, ex8 casual, 5 written."
+n1_107,2026-08-31,27,10,4,1,1,4,"PRE-ENRICHED, unlogged — logged from state, untouched. KANJI blanks (遅かれ早かれ等) → blank_target_reading present (10). ex7 casual, ex8 formal, 4 written."
+n1_108,2026-08-31,29,10,3,,2,5,"PRE-ENRICHED, unlogged — logged from state, untouched. KANJI blank (か否か) → blank_target_reading present (10). ex8/9 formal, 5 written."
+n1_109,2026-08-31,27,,5,1,1,3,"PRE-ENRICHED, unlogged — logged from state, untouched. kana blank; ex5 formal, ex10 casual, 3 written."
+n1_110,2026-08-31,29,,3,1,1,5,"PRE-ENRICHED, unlogged — logged from state, untouched. kana blank; ex7 formal, ex9 casual, 5 written."
+n1_111,2026-09-01,29,,4,1,1,4,"PRE-ENRICHED, unlogged (〜ぐるみ) — logged from state, untouched. kana blanks; ex6 formal, ex9 casual, 4 written."
+n1_112,2026-09-01,29,,3,2,,5,"PRE-ENRICHED, unlogged (〜こそ〜が) — logged from state, untouched. kana blanks; ex3/4 casual, 5 written."
+n1_113,2026-09-01,30,,,,,10,"PRE-ENRICHED, unlogged (〜こそあれ) — logged from state, untouched. kana blanks; ALL 10 written (bungo concessive, consistent w/ calibration)."
+n1_114,2026-09-01,29,,,,,10,"PRE-ENRICHED, unlogged (〜こそすれ) — logged from state, untouched. kana blanks; ALL 10 written (bungo concessive)."
+n1_115,2026-09-01,25,10,,,,10,"PRE-ENRICHED, unlogged (〜ことこの上ない) — logged from state, untouched. KANJI blank (上) → btr present (10). ALL 10 written."
+n1_116,2026-09-01,29,,8,,1,1,"PRE-ENRICHED, unlogged (〜こともあって) — logged from state, untouched. kana blanks; ex7 formal, ex6 written."
+n1_117,2026-09-01,25,,4,1,2,3,"PRE-ENRICHED, unlogged (さぞ) — logged from state, untouched. kana blanks; ex2/7 formal, ex8 casual, 3 written."
+n1_118,2026-09-01,29,,6,,,4,"PRE-ENRICHED, unlogged (さも) — logged from state, untouched. kana blanks; 4 written."
+n1_119,2026-09-01,26,,1,4,3,2,"PRE-ENRICHED, unlogged (さもないと) — logged from state, untouched. kana blanks; ex2/6/9 formal, 4 casual, 2 written."
+n1_120,2026-09-01,29,,5,2,,3,"PRE-ENRICHED, unlogged (〜じみた) — logged from state, untouched. kana blanks; ex3/5 casual, 3 written."
+n1_121,2026-09-01,24,,5,,,5,"PRE-ENRICHED, unlogged (〜ずとも) — logged from state, untouched. kana blanks; 5 written."
+n1_122,2026-09-01,24,,6,4,,,"PRE-ENRICHED, unlogged (〜そびれる) — logged from state, untouched. kana blanks; 4 casual (spoken missed-chance grumble)."
+n1_123,2026-09-01,22,,3,6,,1,"PRE-ENRICHED, unlogged (〜たためしがない) — logged from state, untouched. kana blanks; 6 casual (spoken complaint), 1 written."
+n1_124,2026-09-01,27,7,6,3,,1,"PRE-ENRICHED, unlogged (〜たら〜たで) — logged from state, untouched. KANJI blanks → btr present (7). 3 casual, 1 written."
+n1_125,2026-09-01,25,,6,4,,,"PRE-ENRICHED, unlogged (〜たら〜ところだった) — logged from state, untouched. kana blanks; 4 casual (near-miss anecdote)."
+n1_126,2026-09-02,31,10,5,3,,2,"PRE-ENRICHED (reg+vocab) unlogged; btr was MISSING despite kanji blank 最後 → added btr=たらさいご ×10 (additive). 3 casual, 2 written."
+n1_127,2026-09-02,28,,3,,,7,"PRE-ENRICHED (reg+vocab) unlogged; bt たるもの kana-only → no btr. Logged from state, untouched. 7 written (role-duty maxims)."
+n1_128,2026-09-02,31,10,2,8,,,PRE-ENRICHED (reg+vocab) unlogged; btr was MISSING despite kanji blank 弾 → added btr=はずみに ×10 (additive). 8 casual (spoken mishap anecdote).
+n1_129,2026-09-03,26,10,4,6,,,"PRE-ENRICHED (reg+vocab+btr) unlogged (〜た拍子に). btr ALREADY present ×10 (拍子に→ひょうしに, verified vs HF) — full no-op, logged from state, untouched. 6 casual (spoken mishap anecdotes), 4 neutral."
+n1_130,2026-09-03,26,,4,5,,1,"PRE-ENRICHED (reg+vocab) unlogged (〜だの〜だの). kana blank だの → no btr (correct). Logged from state, untouched. 5 casual (colloquial grumbling list), ex10 written (会議 essayistic)."
+n1_131,2026-09-03,28,,1,8,,1,"PRE-ENRICHED (reg+vocab) unlogged (〜だろうに). kana blank だろうに → no btr (correct). Logged from state, untouched. 8 casual (counterfactual reproach), ex10 written."
+n1_132,2026-09-04,23,,,10,,,"PRE-ENRICHED (reg+vocab) unlogged (〜ってば/〜ったら). All 10 kana blanks (ってば/ったら) → no btr (correct). Full no-op, logged from state, untouched. ALL 10 casual (exasperated spoken interjection). NOTE: vocab uses dict/lemma form (待つ/忘れる/聞く/分かる) vs conjugated surface in sentence — systemic pre-existing defect, additive pass cannot fix."
+n1_133,2026-09-04,26,,2,4,2,2,"PRE-ENRICHED (reg+vocab) unlogged (〜てみせる). All kana blanks (てみせる/てみせた/てみせます) → no btr (correct). Full no-op, logged from state, untouched. ex1/5/6/8 casual, ex2/10 formal (masu resolve-declaration), ex3/9 neutral, ex4/7 written. NOTE: some vocab dict-form (叶える/誓う/返す/浮かぶ/成り上がる/乗り越える) vs surface — systemic defect, not fixed."
+n1_134,2026-09-04,21,,4,3,,3,"PRE-ENRICHED (reg+vocab) unlogged (〜てもどうにもならない). All kana blanks (どうにもならない/どうにもならなかった) → no btr (correct). Full no-op, logged from state, untouched. ex1/4/5/8 neutral, ex2/3/7 casual, ex6/9/10 written (resignation maxims). NOTE: vocab dict-form (悩む/泣く/壊れる/慌てる etc.) vs surface — systemic defect, not fixed."
+n1_135,2026-09-05,28,10,3,,2,5,"PRE-ENRICHED (reg+vocab+btr) unlogged (〜ても差し支えない). All kanji blank 差し支えない → btr=さしつかえない ×10 ALREADY present (verified vs HF) — full no-op, logged from state, untouched. reg mix written/neutral/formal (formal-permission pattern). NOTE: vocab dict-form (行う/持ち帰る/恐れ入る/遅らせる/存じる/済ませる) vs conjugated surface — systemic defect, additive pass cannot fix."
+n1_136,2026-09-05,22,10,,10,,,"PRE-ENRICHED (reg+vocab+btr) unlogged (〜ても知らない). All kanji blank 知らない → btr=しらない ×10 ALREADY present — full no-op, logged from state, untouched. ALL 10 casual (spoken warning/threat 'don't blame me'). NOTE: vocab dict-form (太る/困る/過ぎる/乗り遅れる/怒る/消える) vs surface — systemic defect, not fixed."
+n1_137,2026-09-05,21,10,,10,,,"PRE-ENRICHED (reg+vocab+btr) unlogged (〜て敵わない). All kanji blank 敵わない → btr=かなわない ×10 ALREADY present — full no-op, logged from state, untouched. ALL 10 casual (spoken complaint 'can't stand it'). NOTE: some vocab dict-form (続く/蒸し暑い/忙しい/乾く) vs surface — systemic defect, not fixed."
+n1_138,2026-09-06,20,10,3,2,,5,"PRE-ENRICHED (reg+vocab+btr) unlogged (〜て済むことではない). KANJI blank 済むことではない → btr=すむことではない ×10 ALREADY present (verified vs HF) — full no-op, logged from state, untouched. reg 3 neutral/2 casual/5 written (accountability/apology maxims). NOTE: vocab dict-form (謝る/払う/頭を下げる/狂わせる/深い/傷つける/漏らす/辞める/迷惑をかける) vs conjugated surface — systemic defect, additive pass cannot fix."
+n1_139,2026-09-06,20,,,,,10,"PRE-ENRICHED (reg+vocab) unlogged (〜でなくてなんだろう). kana blank でなくてなんだろう → no btr (correct). Full no-op, logged from state, untouched. ALL 10 written (literary rhetorical emphatic — genuinely written-register pattern). NOTE: vocab dict-form (尽くす/顧みる/耳を貸す/叶う) vs surface — systemic defect, not fixed."
+n1_140,2026-09-06,20,,,,,10,"PRE-ENRICHED (reg+vocab) unlogged (〜ではあるまいか). kana blank ではあるまいか/のではあるまいか → no btr (correct). Full no-op, logged from state, untouched. ALL 10 written (bungo まい negative-conjecture, literary). NOTE: vocab dict-form (手を打つ/見落とす) vs surface — systemic defect, not fixed."
+n1_141,2026-09-07,24,,4,5,,1,"PRE-ENRICHED (reg+vocab) unlogged (〜ではあるまいし). kana blank ではあるまいし/のではあるまいし → no btr (correct). Full no-op, logged from state, untouched. 4 casual (colloquial rebuttal ""it is not as if""), 5 neutral, ex10 written. NOTE: vocab dict-form (気負う) vs surface — systemic defect, not fixed."
+n1_142,2026-09-07,27,10,1,3,2,4,"PRE-ENRICHED (reg+vocab+btr) unlogged (〜では済まない). KANJI blank では済まない → btr=ではすまない ×10 ALREADY present (verified vs HF) — full no-op, logged from state, untouched. reg 4 written/3 neutral/2 formal (accountability)/1 casual. NOTE: vocab dict-form (起こす/傷つける/裏切る/漏らす) vs conjugated surface — systemic defect, additive pass cannot fix."
+n1_143,2026-09-07,28,,,5,,5,"PRE-ENRICHED (reg+vocab) unlogged (〜でもあり〜でもある). kana blank でもある → no btr (correct). Full no-op, logged from state, untouched. 5 neutral, 5 written (dual-nature characterizations, essayistic). Vocab all surface-form — no dict-form defect this file."
+n1_144,2026-09-08,22,10,7,3,,,"PRE-ENRICHED (reg+vocab+btr) unlogged (でも何でもない). KANJI blank でも何でもない/なく (何) → btr でもなんでもない/でもなんでもなく ×10 ALREADY present (verified vs HF) — full no-op, logged from state, untouched. 7 neutral / 3 casual (ex2/5/8 quoted spoken reassurance/rebuttal). Vocab all surface-form — no dict-form defect."
+n1_145,2026-09-08,28,,9,,,1,"PRE-ENRICHED (reg+vocab) unlogged (〜といい〜といい). kana blank といい → no btr (correct). Full no-op, logged from state, untouched. 9 neutral / ex8 written (literary criticism 作品/構成/文体/完成度). NOTE: ex5 vocab 優れる dict-form vs surface 優れている — systemic defect, not fixed."
+n1_146,2026-09-08,23,,,,,10,"PRE-ENRICHED (reg+vocab) unlogged (〜といえども). kana blank といえども → no btr (correct). Full no-op, logged from state, untouched. ALL 10 written (bungo concessive, maxim-like すべきだ/許されない/わけにはいかない). NOTE: ex5 度を越す, ex9 誤る dict-form vs surface (越せば/誤れば) — systemic defect, not fixed."
+n1_147,2026-09-09,30,,1,6,,3,"PRE-ENRICHED (reg+vocab) unlogged (〜といったらない). All kana blanks (といったらない/なかった/ありはしない) → no btr (correct). Full no-op, logged from state, untouched. 6 casual (emotive exclamation of extreme degree), 3 written (literary recollection), ex7 neutral. NOTE: vocab dict-form (取り残す/慣れる/抱く) vs conjugated surface — systemic defect, not fixed."
+n1_148,2026-09-09,30,,3,3,,4,"PRE-ENRICHED (reg+vocab) unlogged (〜といわず〜といわず). All kana blanks (といわず ×2 per sentence, paired) → no btr (correct). Full no-op, logged from state, untouched. 4 written, 3 casual, 3 neutral. NOTE: vocab dict-form (鳴り響く/取り組む/知れ渡る) vs surface (…ている/…んだ) — systemic defect, not fixed."
+n1_149,2026-09-09,30,,3,2,4,1,"PRE-ENRICHED (reg+vocab) unlogged (〜ところを). All kana blanks (ところを) → no btr (correct). Full no-op, logged from state, untouched. 4 formal (keigo courtesy: お忙しい/お休み/ご多忙/お話し中のところを), 3 neutral + 2 casual (catching-in-the-act anecdotes), ex10 written (letter idiom). Register split by usage (catching-object vs courtesy) as expected. NOTE: vocab dict-form (逃げる/取り押さえる/サボる/抜け出す/言い争う etc.) vs conjugated surface — systemic defect, not fixed."
+n1_150,2026-09-10,31,,4,,,6,"PRE-ENRICHED (reg+vocab) unlogged (〜とされる). All kana blanks (とされる) → no btr (correct). Full no-op, logged from state, untouched. 6 written (impersonal citational: legend/legal/news/literary prose), 4 neutral (general-knowledge statements). Vocab all surface-form — no dict-form defect this file."
+n1_151,2026-09-10,25,,6,4,,,"PRE-ENRICHED (reg+vocab) unlogged (〜としたことが). All kana blanks (としたことが) → no btr (correct). Full no-op, logged from state, untouched. 4 casual (spoken self-reproach 私/君/私/姉としたことが), 6 neutral. NOTE: vocab dict-form (出かける/呼び間違える) vs conjugated surface — systemic defect, additive pass cannot fix."
+n1_152,2026-09-10,26,,8,2,,,"PRE-ENRICHED (reg+vocab) unlogged (〜とっさに). All kana blanks (とっさに) → no btr (correct). Full no-op, logged from state, untouched. 2 casual (ex3/6 spoken anecdote), 8 neutral (reflex-action narration). NOTE: vocab dict-form (飛び出す/踏む/転ぶ/伸ばす/支える/つく/もぐり込む/閉じる/振る/つかむ/盗む/切る) vs conjugated surface — systemic defect, not fixed."
+n1_153,2026-09-11,30,,8,,,2,"PRE-ENRICHED (reg+vocab+btr) unlogged (〜とは打って変わって). Kanji blank 打って変わって → btr=とはうってかわって present ×10, cross-checks HF. Full no-op, logged from state, untouched. 8 neutral / ex6 ex7 written (閉店間際 hush scene, journalistic 各紙一斉に政権批判). NOTE: vocab dict-form (広がる/仕切る/険しい/打ちまくる) vs conjugated surface — systemic defect, not fixed."
+n1_154,2026-09-11,27,,9,,,1,"PRE-ENRICHED (reg+vocab+btr) unlogged (〜とは比べものにならない). Kanji blank 比べものにならない → btr=くらべものにならない present ×10, cross-checks HF. Full no-op, logged from state, untouched. 9 neutral / ex7 written. NOTE: vocab dict-form (通う) vs surface (通っていた) — systemic defect, not fixed."
+n1_155,2026-09-11,28,,9,,,1,"PRE-ENRICHED (reg+vocab) unlogged (〜とみると). Kana blank とみると → no btr (correct). Full no-op, logged from state, untouched. 9 neutral / ex10 written. NOTE: vocab dict-form (迷う/ひるむ/攻め込む/落ち込む/呼び止める/泣きだす/飛びつく/仕掛ける) vs conjugated surface — systemic defect, not fixed."
+n1_156,2026-09-12,31,,3,,,7,"PRE-ENRICHED (reg+vocab) unlogged (〜ともあろうものが). Kana blank ともあろうものが → no btr (correct). Full no-op, logged from state, untouched. 7 written (institutional reproach prose 大臣/大手銀行/一流企業/警察官/代表/名門校/大学教授), 3 neutral. NOTE: some vocab dict-form (見逃す/怠る/読み違える) vs conjugated surface — systemic defect, not fixed."
+n1_157,2026-09-12,30,,6,,,4,"PRE-ENRICHED (reg+vocab) unlogged (〜ともすれば). Kana blank ともすれば → no btr (correct). Full no-op, logged from state, untouched. 4 written (aphoristic tendency prose ex4/5/6/9), 6 neutral. NOTE: vocab dict-form (かまける/慣れる/怠る/削る/責める) vs conjugated surface — systemic defect, not fixed."
+n1_158,2026-09-12,28,,5,,,5,"PRE-ENRICHED (reg+vocab+btr) unlogged (〜とも〜とも paired). Kanji first-half blanks → btr present ×9 (ex1 いくとも … ex10 じにんするとも), all cross-check HF; ex4 うんとも kana → no btr (correct). Full no-op, logged from state, untouched. 5 written / 5 neutral. NOTE: vocab dict-form (述べる/悲しむ/示す) vs conjugated surface — systemic defect, not fixed."
+n1_159,2026-09-13,21,,7,,,3,"PRE-ENRICHED (reg+vocab+btr) unlogged (〜ともなく／〜ともなしに). Kanji doubled-verb blanks (見るともなく…) → btr present ×9, all cross-check HF; ex9 どこからともなく kana → no btr (correct). Full no-op, logged from state, untouched. 7 neutral / 3 written (ex4/7/9 literary description). NOTE: vocab dict-form (眠る/よみがえる/現れる/物思いにふける/つぶやく/漂う) vs conjugated surface — systemic defect, not fixed."
+n1_160,2026-09-13,24,,7,,,3,"PRE-ENRICHED (reg+vocab) unlogged (〜とりわけ). Kana blank とりわけ ×10 → no btr (correct). Full no-op, logged from state, untouched. 7 neutral / 3 written (ex5/6/7). NOTE: vocab dict-form (厳しい/凍りつく/恵まれる/恋しい/注目を集める) vs conjugated surface — systemic defect, not fixed."
+n1_161,2026-09-13,30,,,,,10,"PRE-ENRICHED (reg+vocab+btr) unlogged (〜と相まって). Kanji blank と相まって → btr present ×10 = とあいまって, all cross-check HF. Full no-op, logged from state, untouched. All 10 written (formal reinforcing-factor prose). NOTE: vocab dict-form (上回る/培う/澄み切る) vs conjugated surface — systemic defect, not fixed."
+n1_162,2026-09-14,30,10,,,,10,"PRE-ENRICHED (reg+vocab+btr) unlogged (〜と見るや). Kanji blank 見る → btr=とみるや present ×10, cross-checks HF. Full no-op, logged from state, untouched. ALL 10 written (decisive-action literary narration: 泥棒/将軍/鷹/柔道選手 vignettes). NOTE: vocab dict-form (寝静まる/忍び込む/傾く/泣き出す/逃げ遅れる) vs conjugated surface — systemic defect, not fixed."
+n1_163,2026-09-14,30,10,2,1,,7,"PRE-ENRICHED (reg+vocab+btr) unlogged (〜と言えなくもない). Kanji blank 言え → btr=といえなくもない present ×10, cross-checks HF. Full no-op, logged from state, untouched. 7 written (hedged critical/analytical prose), 2 neutral (ex4/ex9 です polite), 1 casual (ex6 よ spoken reassurance). NOTE: vocab dict-form (支える/整う/怒る/妨げる) vs conjugated surface — systemic defect, not fixed."
+n1_164,2026-09-14,29,,9,,,1,"PRE-ENRICHED (reg+vocab) unlogged (どうにも〜ない). Kana blank どうにも → no btr (correct). Full no-op, logged from state, untouched. 9 neutral / ex3 written (もはや修復できなかった severed-relationship narration). ex10 has 2 vocab (味付け host near-blank), rest 3. NOTE: vocab dict-form (絞る/苦しい/こじれる/直す/断ち切る/抑える/前にする) vs conjugated surface — systemic defect, not fixed."
+n1_165,2026-09-15,22,10,5,,,5,"PRE-ENRICHED (reg+vocab+btr) unlogged (〜ないとも限らない). Kanji blank ないとも限らない → btr=ないともかぎらない present ×10, all cross-check HF. Full no-op, logged from state, untouched. 5 neutral / 5 written (hedged cautionary/aphoristic prose ex3/5/6/7/10). NOTE: vocab dict-form (患う/潜む) vs conjugated surface (患わない/潜んで) — systemic defect, not fixed."
+n1_166,2026-09-15,25,,5,,,5,"PRE-ENRICHED (reg+vocab) unlogged (〜ないものか). Kana blank ないものか → no btr (correct). Full no-op, logged from state, untouched. 5 neutral / 5 written (reflective/aspirational literary tone ex3/5/6/7/9). NOTE: vocab dict-form (失う/取り戻す/救う/活かす/減らす/悩ませる) vs conjugated surface — systemic defect, not fixed."
+n1_167,2026-09-15,24,,3,,2,5,"PRE-ENRICHED (reg+vocab) unlogged (〜なりとも). Kana blank なりとも → no btr (correct). Full no-op, logged from state, untouched. 5 written (elegiac/bungo-flavored ex1-5), 2 formal (ex6/ex10 keigo 幸いです/存じます), 3 neutral. NOTE: vocab dict-form (手向ける/応える) vs conjugated surface (手向けたい/応えられれば) — systemic defect, not fixed."
+n1_168,2026-09-16,24,9,9,,1,,"PRE-ENRICHED (reg+vocab+btr) unlogged (〜なり〜なり). Kanji 〜なり blanks → btr present ×9 (しらべるなり/でんわなり/うるなり/やすむなり/むすこなり/じょうしなり/おちゃなり/とうきょうなり/おやなり), all cross-check HF; ex7 メモするなり kana surface → no btr (correct). Full no-op, logged from state, untouched. 9 neutral / ex8 formal (召し上がってください hospitality keigo). NOTE: vocab dict-form (要る/片付ける/疲れる/継ぐ/残す/召し上がる/出る) vs conjugated surface — systemic defect, not fixed."
+n1_169,2026-09-16,30,,4,,,6,"PRE-ENRICHED (reg+vocab) unlogged (〜にかかっては). Kana blank にかかっては ×10 → no btr (correct). Full no-op, logged from state, untouched. 6 written (elevated 'in the hands of' vignettes ex1/3/4/6/8/10) / 4 neutral. NOTE: half non-neutral but genre-appropriate (literary narration, not miscalibration); vocab dict-form (折れる) vs conjugated surface — systemic defect, not fixed."
+n1_170,2026-09-16,30,10,6,,2,2,"PRE-ENRICHED (reg+vocab+btr) unlogged (〜には及ばない). Kanji blank には及ばない/及びません/及ばなかった → btr present ×10 (にはおよばない etc.), all cross-check HF. Full no-op, logged from state, untouched. 6 neutral / 2 formal (ex2/ex4 keigo 及びません・結構です business) / 2 written (ex7/ex10 aphoristic). NOTE: blank_target_reading sits after blank_target rather than at object end (pre-existing ordering, not touched); vocab dict-form (謝る/気にする/慌てる/迎える/帰る) vs conjugated surface — systemic defect, not fixed."
+n1_171,2026-09-17,30,10,7,1,1,1,"PRE-ENRICHED (reg+vocab+btr) unlogged (〜には当たらない). Kanji blank には当たらない/には当たりません → btr present ×10 (にはあたらない/にはあたりません), all cross-check HF. Full no-op, logged from state, untouched. 7 neutral / ex6 formal (手続きはこちらで済ませておきます customer-service ます) / ex8 written (業界周知・特筆する prose であり) / ex10 casual (怒るには当たらないよ, よ + plain からかう consoling). NOTE: vocab dict-form (厳しい ex2 / 済ませる ex6) vs conjugated surface (厳しく/済ませて) — systemic defect, not fixed; readings still cross-check HF."
+n1_172,2026-09-17,30,,6,,1,3,"PRE-ENRICHED (reg+vocab) unlogged (〜にまつわる). Kana blank にまつわる ×10 → no btr (correct). Full no-op, logged from state, untouched. 6 neutral / ex2 written (悲恋にまつわる伝説, legend prose) / ex6 written (逸話…語り継がれている) / ex7 written (不安の声…相次いで上がっている, news prose) / ex9 formal (お尋ねください keigo). All vocab verbatim + readings cross-check HF; no defects."
+n1_173,2026-09-17,30,10,7,,,3,"PRE-ENRICHED (reg+vocab+btr) unlogged (〜にも増して). Kanji blank にも増して → btr present ×10 (にもまして), all cross-check HF. Full no-op, logged from state, untouched. 7 neutral / ex3 written (優先すべきは…である) / ex6 written (災害を経て…意識を高めている, news) / ex9 written (円安…高騰している, news). NOTE: vocab dict-form (続く ex1 / 近づく ex2 / 強い ex5 / 駆けつける ex7 / 頼もしい ex10) vs conjugated surface — systemic defect, not fixed; readings cross-check HF."
+n1_174,2026-09-18,30,10,10,,,,"PRE-ENRICHED (reg+vocab+btr) unlogged (〜に〜を重ねて). Kanji blank 重ね/重ねて/重ねた → btr present x10 (かさね/かさねて/かさねた), all cross-check HF. Full no-op, logged from state, untouched. All 10 neutral (effort/achievement prose, です・ます-less narration but register-irrelevant). NOTE: vocab dict-form (立て直す ex2 / 果たす ex5 / 噛み合う ex6) vs conjugated surface (立て直した/果たした/噛み合わなかった) — systemic defect, not fixed; kanji-stem readings still cross-check HF."
+n1_175,2026-09-18,30,10,10,,,,"PRE-ENRICHED (reg+vocab+btr) unlogged (〜に値する). Kanji blank に値する → btr present x10 (にあたいする), all cross-check HF. Full no-op, logged from state, untouched. All 10 neutral (evaluative prose). NOTE: vocab dict-form (顧みる ex3 / 積み上げる ex9) vs conjugated surface (顧みず/積み上げて) — systemic defect, not fixed; kanji-stem readings still cross-check HF."
+n1_176,2026-09-18,30,10,9,,,1,"PRE-ENRICHED (reg+vocab+btr) unlogged (〜に先駆けて). Kanji blank に先駆けて → btr present x10 (にさきがけて), all cross-check HF. Full no-op, logged from state, untouched. 9 neutral / ex9 written (株主総会…下方修正を発表, corporate earnings news prose). NOTE: vocab dict-form (巡る ex6 / 取り組む ex10) vs conjugated surface (巡った/取り組んで) — systemic defect, not fixed; kanji-stem readings still cross-check HF."
+n1_177,2026-09-19,27,10,4,,2,4,"ANOMALY: found already fully enriched (register+vocab+blank_target_reading on all 10 ex) but absent from enrich.csv; logged for tracking consistency, JSON NOT modified this run. Counts reflect existing state. DEFECT noted not fixed: 177_3 vocab word 執り行う is dict-form, sentence has 執り行われた (word should match surface orthography)."
+n1_178,2026-09-19,30,10,9,,,1,"ANOMALY: found already fully enriched but absent from enrich.csv; logged for consistency, JSON NOT modified. DEFECT noted not fixed: 178_7 vocab よそよそしい/打ち解ける are dict-form, sentence has よそよそしさ/打ち解けてきた."
+n1_179,2026-09-19,29,10,5,,1,4,"ANOMALY: found already fully enriched but absent from enrich.csv; logged for consistency, JSON NOT modified. DEFECT noted not fixed: 179_5 退ける and 179_10 認める are dict-form, sentences have 退けた/認められない."
+n1_180,2026-09-20,32,10,5,,1,4,"found ALREADY fully enriched on disk (register/vocab/blank_target_reading present on all 10) but absent from tracker — no fields added this run, only recording state (strictly-additive pass, nothing to add); defect noted not fixed: vocab uses dictionary forms not surface forms (ex3 捉える vs 捉えた, ex4 備える vs 備えている, ex7 賜る vs 賜り)"
+n1_181,2026-09-20,29,10,10,,,,"found ALREADY fully enriched on disk but absent from tracker — no fields added this run, only recording state; defect noted not fixed: ex2 vocab 面白い listed in dict form vs 面白くない in sentence"
+n1_182,2026-09-20,31,10,7,,1,2,"found ALREADY fully enriched on disk but absent from tracker — no fields added this run, only recording state; defects noted not fixed: ex1 vocab 噂 written in kanji vs うわさ (kana) in sentence, ex5 乏しい vs 乏しく, ex7 言い放つ vs 言い放った (dict forms)"
+n1_183,2026-09-21,28,10,,,,10,"found ALREADY fully enriched on disk but absent from tracker — no fields added this run, only recording state; all 10 ex tagged written (〜に足りない is literary evaluative prose); readings verified against hiragana_full; defects noted not fixed: ex3 守る / ex7 比べる listed in dict form vs 守った/比べれば conjugated in sentence"
+n1_184,2026-09-21,26,10,4,,,6,"found ALREADY fully enriched on disk but absent from tracker — no fields added this run, only recording state; 6 written (essay/news topics: 少子化, 物価, 環境問題) + 4 neutral (everyday: 今日, 今回, 新人, ミス); defect noted not fixed: ex7 行う listed as dict form (reading おこなう correct, disambiguates 行く) vs 行われて in sentence"
+n1_185,2026-09-21,30,10,,,,10,"found ALREADY fully enriched on disk but absent from tracker — no fields added this run, only recording state; all 10 ex tagged written (〜に難くない is literary); readings verified against hiragana_full; defects noted not fixed: ex5 積む / ex6 辞める listed in dict form vs 積んだ/辞めた conjugated in sentence"
+n1_186,2026-09-22,30,,,10,,,"found ALREADY fully enriched on disk (register+vocab present on all 10) but absent from tracker — no fields added this run, strictly-additive no-op, only recording state. Kana blank のなんのって ×10 → no blank_target_reading (correct). All 10 casual — pattern-appropriate (〜のなんのって is colloquial spoken emphasis; plain-form + よ/っちゃった finals). Vocab readings cross-check hiragana_full. DEFECT noted not fixed: dict-form vs conjugated-surface vocab — 186_1 解く vs 解けなかった, 186_2 噴き出す vs 噴き出した, 186_6 震える vs 震えていた, 186_7 覆う vs 覆っちゃった (readings still cross-check HF)."
+n1_187,2026-09-22,30,,9,1,,,"found ALREADY fully enriched on disk but absent from tracker — no fields added this run, additive no-op, only recording state. Kana blank のやら/ものやら ×10 → no blank_target_reading (correct). 9 neutral / ex1 casual (息子…出やしない, plain-form colloquial). Vocab readings cross-check HF. DEFECT noted not fixed: dict-form vs surface vocab — 187_5 借りる vs 借りた, 187_7 連れ添う vs 連れ添った, 187_10 あきれる vs あきれ顔."
+n1_188,2026-09-22,30,9,9,1,,,"found ALREADY fully enriched on disk but absent from tracker — no fields added this run, additive no-op, only recording state. Kanji blanks → blank_target_reading present ×9 (all cross-check HF); 188_7 target のやらやめるのやら kana-only → btr correctly absent. 9 neutral / ex9 casual (息子…部活, plain-form). Vocab readings cross-check HF. DEFECT noted not fixed: dict-form vs surface vocab — 188_7 知らせる vs 知らされていない, 188_10 読み取る vs 読み取れなかった."
+n1_189,2026-09-23,,,8,,,2,"already fully enriched on arrival (30 vocab items, register tagged) but absent from enrich.csv — no keys added this pass (all blank_target kana-only, so no blank_target_reading); logging to mark tracked. DEFECTS (pre-existing, not touched): ex3 vocab lists 夢中 which is absent from example_sentence (appears only in an audio_alternative)."
+n1_190,2026-09-23,,,7,,,3,"already fully enriched on arrival (29 vocab items, register tagged) but absent from enrich.csv — no keys added this pass (all blank_target kana-only); logging to mark tracked. No new-field defects found."
+n1_191,2026-09-23,,,9,,,1,"already fully enriched on arrival (30 vocab items, register tagged) but absent from enrich.csv — no keys added this pass (all blank_target kana-only); logging to mark tracked. DEFECTS (pre-existing, not touched): ex2 vocab lists 蓄え which is absent from example_sentence (sentence uses 貯金/盗まれて)."
+n1_192,2026-09-24,0,0,6,,,4,"file arrived pre-enriched at creation (register+vocab already present, 30 vocab items); strictly-additive pass added nothing; all blank_targets kana-only (びた/びて/びる) so no blank_target_reading; validator clean"
+n1_193,2026-09-24,0,0,6,3,,1,"file arrived pre-enriched at creation (register+vocab already present, 29 vocab items); additive pass added nothing; blank_targets kana-only (ぶり/っぷり); validator clean"
+n1_194,2026-09-24,0,0,,,,10,"file arrived pre-enriched at creation (register+vocab already present, 30 vocab items); additive pass added nothing; blank_target べく kana-only; all 10 written (〜べく literary purpose construction); validator clean"
+n1_195,2026-09-24,0,0,6,1,,3,"file arrived pre-enriched at creation (register+vocab already present, 26 vocab items); strictly-additive pass added nothing; blank_target べくして kana-only so no blank_target_reading; vocab readings are dictionary-form (e.g. 結論づける→結論づけた in sentence), cross-checked OK; validator clean"
+n1_196,2026-09-24,0,0,6,,,4,"file arrived pre-enriched at creation (register+vocab already present, 29 vocab items); additive pass added nothing; blank_target べくもない kana-only; all readings verified against hiragana_full; validator clean"
+n1_197,2026-09-24,0,0,5,5,,,"file arrived pre-enriched at creation (register+vocab already present, 28 vocab items); additive pass added nothing; blank_target ほうがましだ kana-only; 5 casual (colloquial 'would rather' complaints, honestly inferable); vocab readings dictionary-form, cross-checked OK; validator clean"
+n1_198,2026-09-25,30,0,8,2,,,"already enriched in-file (register+vocab on all 10) by a prior run whose CSV rows never landed; this additive pass verified only — no JSON change (zero-diff); validator ✅; all 10 blank_targets kana-only, no readings; ex5/ex10 casual (plain-form finals ~よ/~ない), rest neutral"
+n1_199,2026-09-25,30,0,6,4,,,"already enriched in-file by a prior untracked run; additive-verify only, no JSON change (zero-diff); validator ✅; kana-only targets (まくった/まくって/まくる); ex1/2/8/10 casual (colloquial 〜まくる narration), rest neutral"
+n1_200,2026-09-25,29,0,8,,,2,"already enriched in-file by a prior untracked run; additive-verify only, no JSON change (zero-diff); validator ✅; kana-only targets (までもない系); ex2/ex5 written (言うまでもなく / 火を見るより明らか literary), rest neutral"
+n1_201,2026-09-26,0,0,7,3,,,"file arrived pre-enriched at creation (register+vocab on all 10, 25 vocab items); strictly-additive pass added nothing; blank_target まるっきり kana-only so no blank_target_reading; 3 casual (ex4 なんて興味がない / ex5 personal plain-form apology / ex7 みたいにはしゃぐ — colloquial), rest neutral plain narrative; all vocab readings cross-check hiragana_full; validator ✅"
+n1_202,2026-09-26,0,0,2,,6,2,"file arrived pre-enriched at creation (register+vocab on all 10, 30 vocab items); additive pass added nothing; blank_target もしくは kana-only so no blank_target_reading; register-heavy but honestly inferable (もしくは is inherently formal/written): ex3/4/6/7/9/10 formal keigo requests, ex2/5 written legal-document prose, ex1/8 neutral ます/てください; all vocab readings cross-check hiragana_full; validator ✅. DEFECT noted not fixed: some vocab given dict-form vs conjugated surface (ex4 問い合わせる vs お問い合わせ, ex6 支払う vs お支払い) — corpus convention, readings still cross-check."
+n1_203,2026-09-26,0,0,6,4,,,"file arrived pre-enriched at creation (register+vocab on all 10, 28 vocab items); additive pass added nothing; blank_target もしないで kana-only so no blank_target_reading; 4 casual (ex3/5/7/9 — domestic/colloquial plain narrative incl. modern 既読・ゲームばかり), rest neutral; all vocab readings cross-check hiragana_full; validator ✅. DEFECT noted not fixed: some vocab dict-form vs surface (ex3 辞める→辞めて, ex6 責め立てる→責め立てた, ex8 臨む→臨んだ) — corpus convention, readings cross-check."
+n1_204,2026-09-27,31,10,,,,10,"FOUND ALREADY FULLY ENRICHED — no content change this run (strict additivity); validated OK. All 10 written (formal ものと思われる inference/report register). DEFECT NOTED, not touched: 204_4 vocab 開く=ひらく and 204_5 作る=つくる use dictionary form; sentences conjugate them (開かれる/作られた) so the citation reading isn't a substring of hiragana_full — readings correct, surface-form mismatch only."
+n1_205,2026-09-27,27,,3,,,7,"FOUND ALREADY FULLY ENRICHED — no content change this run (strict additivity); validated OK. blank_target もはや is kana-only, no readings (correct). 7 written / 3 neutral (205_3/6/9). DEFECT NOTED, not touched: 205_1 止める=とめる, 205_3 使う=つかう, 205_8 経る=へる, 205_9 知る=しる are dictionary-form vocab vs conjugated sentence surface — reading not substring of hiragana_full; readings correct."
+n1_206,2026-09-27,32,10,7,,,3,"FOUND ALREADY FULLY ENRICHED — no content change this run (strict additivity); validated OK. 7 neutral / 3 written (206_4/6/10). DEFECT NOTED, not touched: 206_1 解く=とく, 206_3 決まる=きまる, 206_4 尽きる=つきる, 206_6 握る=にぎる are dictionary-form vocab vs conjugated sentence surface — reading not substring of hiragana_full; readings correct."
+n1_207,2026-09-28,39,10,6,,,4,"ALREADY ENRICHED by a prior run but absent from enrich.csv; recorded now. Strictly-additive pass made NO changes (all 3 fields already present & valid); validator clean on new fields. Defect noted, not touched: ex9 vocab word 泣く is dictionary form (sentence has 泣いた) — orthography mismatch vs 'word as it appears'."
+n1_208,2026-09-28,28,,,10,,,"ALREADY ENRICHED by a prior run but absent from enrich.csv; recorded now. No changes made; validator clean. blank_target_reading correctly omitted (target やしない is kana-only). Defects noted, not touched: ex6 vocab 呼ぶ (sentence 呼んだって) and ex9 vocab 泣く (sentence 泣き) given in dictionary form."
+n1_209,2026-09-28,33,,6,3,,1,ALREADY ENRICHED by a prior run but absent from enrich.csv; recorded now. No changes made; validator clean. blank_target_reading correctly omitted (target やれ is kana-only).

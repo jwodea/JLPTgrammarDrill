@@ -56,6 +56,10 @@ struct Exercise: Codable {
     let register: Register?
     let vocab: [VocabItem]
     let blankTargetReading: String?
+    /// 1-based occurrence of `blankTarget` to blank when it appears more than once in the
+    /// sentence (e.g. し in 面白いし、…勉強しています). Absent = blank every occurrence,
+    /// which is what paired patterns (〜といい〜といい, 〜とか〜とか) want.
+    let blankOccurrence: Int?
 
     enum CodingKeys: String, CodingKey {
         case id, translation, register, vocab
@@ -67,6 +71,7 @@ struct Exercise: Codable {
         case audioAlternatives = "audio_alternatives"
         case audioEligible = "audio_eligible"
         case blankTargetReading = "blank_target_reading"
+        case blankOccurrence = "blank_occurrence"
     }
 
     init(from decoder: Decoder) throws {
@@ -84,6 +89,7 @@ struct Exercise: Codable {
         register = (try? container.decodeIfPresent(Register.self, forKey: .register)) ?? nil
         vocab = try container.decodeIfPresent([VocabItem].self, forKey: .vocab) ?? []
         blankTargetReading = try container.decodeIfPresent(String.self, forKey: .blankTargetReading)
+        blankOccurrence = try container.decodeIfPresent(Int.self, forKey: .blankOccurrence)
     }
 
     /// True iff this exercise has audio data and is not opted out.
@@ -154,6 +160,7 @@ struct SessionExercise: Identifiable, Hashable {
     let register: Register?
     let vocab: [VocabItem]
     let blankTargetReading: String?
+    let blankOccurrence: Int?
 
     init(
         id: String,
@@ -168,7 +175,8 @@ struct SessionExercise: Identifiable, Hashable {
         wrongChoiceExplanations: [String],
         register: Register? = nil,
         vocab: [VocabItem] = [],
-        blankTargetReading: String? = nil
+        blankTargetReading: String? = nil,
+        blankOccurrence: Int? = nil
     ) {
         self.id = id
         self.grammarId = grammarId
@@ -183,5 +191,36 @@ struct SessionExercise: Identifiable, Hashable {
         self.register = register
         self.vocab = vocab
         self.blankTargetReading = blankTargetReading
+        self.blankOccurrence = blankOccurrence
+    }
+
+    /// Range of the blanked occurrence of `blankTarget` (the `blankOccurrence`-th, else the first).
+    var blankRange: Range<String.Index>? {
+        exampleSentence.rangeOfOccurrence(of: blankTarget, occurrence: blankOccurrence ?? 1)
+    }
+
+    /// The sentence with the target replaced by `blank` — only the chosen occurrence when
+    /// `blankOccurrence` is set, otherwise every occurrence.
+    func blanked(with blank: String) -> String {
+        guard let n = blankOccurrence,
+              let r = exampleSentence.rangeOfOccurrence(of: blankTarget, occurrence: n) else {
+            return exampleSentence.replacingOccurrences(of: blankTarget, with: blank)
+        }
+        return exampleSentence.replacingCharacters(in: r, with: blank)
+    }
+}
+
+extension String {
+    /// Range of the n-th (1-based) non-overlapping occurrence of `target`, or nil.
+    func rangeOfOccurrence(of target: String, occurrence n: Int) -> Range<String.Index>? {
+        guard n >= 1, !target.isEmpty else { return nil }
+        var searchStart = startIndex
+        var count = 0
+        while let r = range(of: target, range: searchStart..<endIndex) {
+            count += 1
+            if count == n { return r }
+            searchStart = r.upperBound
+        }
+        return nil
     }
 }

@@ -1,0 +1,243 @@
+{
+  "id": "n2_201",
+  "pattern": "あるいは",
+  "meaning": "or; alternatively; (or) perhaps",
+  "level": "N2",
+  "exercises": [
+    {
+      "id": "n2_201_1",
+      "example_sentence": "申込書は、郵送あるいはファックスで提出してください。",
+      "translation": "Please submit the application form by mail or by fax.",
+      "blank_target": "あるいは",
+      "wrong_choices": ["それとも", "および", "つまり"],
+      "wrong_choice_explanations": [
+        "それとも presents alternatives only in questions (コーヒーにしますか、それとも紅茶にしますか); this is a declarative instruction, so it cannot link 郵送 and ファックス here.",
+        "および is a formal 'and', which would require submitting by both mail and fax; the sentence offers a choice of one method, as the translation's 'or' shows.",
+        "つまり restates the previous expression in other words, but ファックス is not a rephrasing of 郵送 — they are two separate options."
+      ],
+      "hiragana_full": "もうしこみしょは、ゆうそうあるいはふぁっくすでていしゅつしてください。",
+      "audio_alternatives": [
+        { "kanji": "申込書は、郵送かファックスで出してください。", "hiragana_full": "もうしこみしょは、ゆうそうかふぁっくすでだしてください。" },
+        { "kanji": "申込書は、ファックスあるいは郵送で提出することができます。", "hiragana_full": "もうしこみしょは、ふぁっくすあるいはゆうそうでていしゅつすることができます。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "申込書", "reading": "もうしこみしょ", "meaning": "application form" },
+        { "word": "郵送", "reading": "ゆうそう", "meaning": "sending by mail" },
+        { "word": "提出", "reading": "ていしゅつ", "meaning": "submission" }
+      ]
+    },
+    {
+      "id": "n2_201_2",
+      "example_sentence": "彼は事情を知らないのかもしれないし、あるいは知っていて黙っているのかもしれない。",
+      "translation": "Maybe he doesn't know the situation, or perhaps he knows and is just keeping quiet.",
+      "blank_target": "あるいは",
+      "wrong_choices": ["必ず", "まさか", "決して"],
+      "wrong_choice_explanations": [
+        "必ず asserts certainty ('definitely'), which contradicts the conjecture かもしれない in the same clause — you cannot claim something is certain and merely possible at once.",
+        "まさか expresses shocked disbelief and pairs with patterns like 〜とは or 〜ないだろう; it cannot calmly introduce a second possibility the way this かもしれない clause does.",
+        "決して means 'by no means' and requires a negative predicate, but 知っていて黙っている in this clause is affirmative."
+      ],
+      "hiragana_full": "かれはじじょうをしらないのかもしれないし、あるいはしっていてだまっているのかもしれない。",
+      "audio_alternatives": [
+        { "kanji": "彼は事情を知らないのか、あるいは知らないふりをしているのかもしれない。", "hiragana_full": "かれはじじょうをしらないのか、あるいはしらないふりをしているのかもしれない。" },
+        { "kanji": "もしかすると、彼は知っていて黙っているのかもしれない。", "hiragana_full": "もしかすると、かれはしっていてだまっているのかもしれない。" }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        { "word": "事情", "reading": "じじょう", "meaning": "circumstances; the situation" },
+        { "word": "黙る", "reading": "だまる", "meaning": "to stay silent" }
+      ]
+    },
+    {
+      "id": "n2_201_3",
+      "example_sentence": "停電の原因は、落雷あるいは設備の老朽化だと考えられている。",
+      "translation": "The cause of the blackout is thought to be either a lightning strike or the aging of the equipment.",
+      "blank_target": "あるいは",
+      "wrong_choices": ["および", "それとも", "ちなみに"],
+      "wrong_choice_explanations": [
+        "および means 'and', which would assert that both lightning and aging equipment jointly caused the blackout; the translation's 'either ... or' shows these are competing possibilities.",
+        "それとも offers alternatives only in questions; this is a declarative report sentence, so it cannot connect the two suspected causes.",
+        "ちなみに means 'incidentally' and introduces a side remark at the start of a sentence; it cannot join two nouns in the middle of a clause."
+      ],
+      "hiragana_full": "ていでんのげんいんは、らくらいあるいはせつびのろうきゅうかだとかんがえられている。",
+      "audio_alternatives": [
+        { "kanji": "停電の原因は、落雷あるいは設備の故障だと見られている。", "hiragana_full": "ていでんのげんいんは、らくらいあるいはせつびのこしょうだとみられている。" },
+        { "kanji": "停電は、落雷か設備の老朽化が原因だと考えられている。", "hiragana_full": "ていでんは、らくらいかせつびのろうきゅうかがげんいんだとかんがえられている。" }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        { "word": "停電", "reading": "ていでん", "meaning": "power outage" },
+        { "word": "落雷", "reading": "らくらい", "meaning": "lightning strike" },
+        { "word": "老朽化", "reading": "ろうきゅうか", "meaning": "deterioration with age" }
+      ]
+    },
+    {
+      "id": "n2_201_4",
+      "example_sentence": "詳しい日程は、来週あるいは再来週に発表される予定だ。",
+      "translation": "The detailed schedule is set to be announced next week or the week after.",
+      "blank_target": "あるいは",
+      "wrong_choices": ["すなわち", "ならびに", "それとも"],
+      "wrong_choice_explanations": [
+        "すなわち means 'namely; that is' and equates the two expressions, but 再来週 is not another name for 来週 — they are different candidate weeks.",
+        "ならびに is a very formal 'and' used to add items in official lists; it would claim the announcement happens in both weeks, while the sentence gives one undecided timing.",
+        "それとも presents alternatives only in questions; this declarative sentence about a schedule cannot use it."
+      ],
+      "hiragana_full": "くわしいにっていは、らいしゅうあるいはさらいしゅうにはっぴょうされるよていだ。",
+      "audio_alternatives": [
+        { "kanji": "詳しい日程は、来週あるいは再来週に知らせがある予定だ。", "hiragana_full": "くわしいにっていは、らいしゅうあるいはさらいしゅうにしらせがあるよていだ。" },
+        { "kanji": "詳しい日程の発表は、来週か再来週になる見込みだ。", "hiragana_full": "くわしいにっていのはっぴょうは、らいしゅうかさらいしゅうになるみこみだ。" }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        { "word": "日程", "reading": "にってい", "meaning": "schedule; itinerary" },
+        { "word": "再来週", "reading": "さらいしゅう", "meaning": "the week after next" },
+        { "word": "発表", "reading": "はっぴょう", "meaning": "announcement" }
+      ]
+    },
+    {
+      "id": "n2_201_5",
+      "example_sentence": "あるいは、先方はこちらの提案に不満なのかもしれない。",
+      "translation": "Or perhaps the other party is dissatisfied with our proposal.",
+      "blank_target": "あるいは",
+      "wrong_choices": ["決して", "必ずしも", "まさか"],
+      "wrong_choice_explanations": [
+        "決して ('by no means') must be completed by a negative predicate, but 不満なのかもしれない is affirmative, so the sentence breaks down.",
+        "必ずしも ('not necessarily') also requires a negative like とは限らない; it cannot introduce an affirmative guess about the other party's feelings.",
+        "まさか conveys disbelief ('no way ...!') and pairs with 〜とは or negative conjecture; it clashes with this calm 'perhaps' reading of かもしれない."
+      ],
+      "hiragana_full": "あるいは、せんぽうはこちらのていあんにふまんなのかもしれない。",
+      "audio_alternatives": [
+        { "kanji": "あるいは、先方はこの提案に納得していないのかもしれない。", "hiragana_full": "あるいは、せんぽうはこのていあんになっとくしていないのかもしれない。" },
+        { "kanji": "もしかしたら、先方は提案に不満を持っているのかもしれない。", "hiragana_full": "もしかしたら、せんぽうはていあんにふまんをもっているのかもしれない。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "先方", "reading": "せんぽう", "meaning": "the other party" },
+        { "word": "提案", "reading": "ていあん", "meaning": "proposal" },
+        { "word": "不満", "reading": "ふまん", "meaning": "dissatisfaction" }
+      ]
+    },
+    {
+      "id": "n2_201_6",
+      "example_sentence": "週末は映画を見るか、あるいは家で読書をして過ごすことが多い。",
+      "translation": "On weekends I usually spend my time either watching a movie or reading at home.",
+      "blank_target": "あるいは",
+      "wrong_choices": ["むしろ", "および", "ちなみに"],
+      "wrong_choice_explanations": [
+        "むしろ means 'rather; if anything' and states a preference between two evaluations; after the alternative-marking 〜か it produces a broken structure, not a list of options.",
+        "および is a formal written 'and' that joins nouns; it cannot attach to the clause 映画を見るか, and it would also wrongly claim I do both every weekend.",
+        "ちなみに introduces an incidental aside at the start of a new sentence; it cannot connect the two weekend activities inside one clause."
+      ],
+      "hiragana_full": "しゅうまつはえいがをみるか、あるいはいえでどくしょをしてすごすことがおおい。",
+      "audio_alternatives": [
+        { "kanji": "週末は映画を見るか、あるいは音楽を聞いて過ごすことが多い。", "hiragana_full": "しゅうまつはえいがをみるか、あるいはおんがくをきいてすごすことがおおい。" },
+        { "kanji": "週末はたいてい、映画を見るか家で本を読んで過ごす。", "hiragana_full": "しゅうまつはたいてい、えいがをみるかいえでほんをよんですごす。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "読書", "reading": "どくしょ", "meaning": "reading (books)" },
+        { "word": "過ごす", "reading": "すごす", "meaning": "to spend (time)" }
+      ]
+    },
+    {
+      "id": "n2_201_7",
+      "example_sentence": "面接は、対面あるいはオンラインのどちらかをお選びいただけます。",
+      "translation": "For the interview, you may choose either in-person or online.",
+      "blank_target": "あるいは",
+      "wrong_choices": ["ならびに", "それとも", "むしろ"],
+      "wrong_choice_explanations": [
+        "ならびに is a stiff official 'and'; it conflicts with のどちらか ('one of the two'), which presupposes the two are alternatives, not a combined set.",
+        "それとも only offers alternatives in questions (対面にしますか、それともオンラインにしますか); it cannot join two nouns inside this declarative offer.",
+        "むしろ ('rather') compares and favors one option over another; it cannot serve as a neutral 'or' between 対面 and オンライン."
+      ],
+      "hiragana_full": "めんせつは、たいめんあるいはおんらいんのどちらかをおえらびいただけます。",
+      "audio_alternatives": [
+        { "kanji": "面接は、対面あるいはオンラインのいずれかで行います。", "hiragana_full": "めんせつは、たいめんあるいはおんらいんのいずれかでおこないます。" },
+        { "kanji": "面接は対面かオンラインか、どちらでも選べます。", "hiragana_full": "めんせつはたいめんかおんらいんか、どちらでもえらべます。" }
+      ],
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        { "word": "面接", "reading": "めんせつ", "meaning": "interview" },
+        { "word": "対面", "reading": "たいめん", "meaning": "face-to-face" }
+      ]
+    },
+    {
+      "id": "n2_201_8",
+      "example_sentence": "犯人は窓から侵入したのか、あるいは合鍵を持っていたのか、まだ分かっていない。",
+      "translation": "It is not yet known whether the culprit broke in through the window or perhaps had a duplicate key.",
+      "blank_target": "あるいは",
+      "wrong_choices": ["および", "すなわち", "ちなみに"],
+      "wrong_choice_explanations": [
+        "および joins nouns in formal writing ('A and B'); it cannot attach to the clause 侵入したのか, and 'and' would wrongly assert both scenarios happened together.",
+        "すなわち means 'namely' and rephrases what precedes it, but having a duplicate key is a different scenario from climbing in through the window, not a restatement of it.",
+        "ちなみに adds an incidental comment as a new sentence ('by the way'); it cannot link the two suspected methods of entry inside this embedded question."
+      ],
+      "hiragana_full": "はんにんはまどからしんにゅうしたのか、あるいはあいかぎをもっていたのか、まだわかっていない。",
+      "audio_alternatives": [
+        { "kanji": "犯人は窓から入ったのか、あるいは鍵を持っていたのか、不明のままだ。", "hiragana_full": "はんにんはまどからはいったのか、あるいはかぎをもっていたのか、ふめいのままだ。" },
+        { "kanji": "犯人がどうやって侵入したのかは、まだ分かっていない。", "hiragana_full": "はんにんがどうやってしんにゅうしたのかは、まだわかっていない。" }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        { "word": "犯人", "reading": "はんにん", "meaning": "culprit" },
+        { "word": "侵入", "reading": "しんにゅう", "meaning": "breaking in; intrusion" },
+        { "word": "合鍵", "reading": "あいかぎ", "meaning": "duplicate key" }
+      ]
+    },
+    {
+      "id": "n2_201_9",
+      "example_sentence": "この症状は、疲労あるいはストレスが原因で起こることがある。",
+      "translation": "This symptom can occur due to either fatigue or stress.",
+      "blank_target": "あるいは",
+      "wrong_choices": ["および", "つまり", "むしろ"],
+      "wrong_choice_explanations": [
+        "および ('and') would state that fatigue and stress together cause the symptom every time; the translation's 'either ... or' shows each one alone is a possible cause.",
+        "つまり rephrases the preceding word ('in other words'), but ストレス is not another way of saying 疲労 — they are separate possible causes.",
+        "むしろ ('rather') weighs one option as more appropriate than the other; between the two plain nouns 疲労 and ストレス it produces no grammatical connection."
+      ],
+      "hiragana_full": "このしょうじょうは、ひろうあるいはすとれすがげんいんでおこることがある。",
+      "audio_alternatives": [
+        { "kanji": "この症状は、疲労あるいは睡眠不足が原因で起こることがある。", "hiragana_full": "このしょうじょうは、ひろうあるいはすいみんぶそくがげんいんでおこることがある。" },
+        { "kanji": "疲労やストレスが、この症状を引き起こすことがある。", "hiragana_full": "ひろうやすとれすが、このしょうじょうをひきおこすことがある。" }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        { "word": "症状", "reading": "しょうじょう", "meaning": "symptom" },
+        { "word": "疲労", "reading": "ひろう", "meaning": "fatigue" }
+      ]
+    },
+    {
+      "id": "n2_201_10",
+      "example_sentence": "来月、あるいはもう少し先になるかもしれないが、必ず一度ご挨拶に伺います。",
+      "translation": "It may be next month, or perhaps a little later, but I will definitely come by once to pay my respects.",
+      "blank_target": "あるいは",
+      "wrong_choices": ["すなわち", "ならびに", "まさか"],
+      "wrong_choice_explanations": [
+        "すなわち ('namely') equates two expressions, but もう少し先 ('a little later') is an alternative timing, not another name for 来月.",
+        "ならびに is an official-document 'and' for listing items side by side; the sentence is choosing between two possible timings, not listing both.",
+        "まさか expresses disbelief at something unexpected; it cannot introduce a mild alternative possibility inside this polite promise to visit."
+      ],
+      "hiragana_full": "らいげつ、あるいはもうすこしさきになるかもしれないが、かならずいちどごあいさつにうかがいます。",
+      "audio_alternatives": [
+        { "kanji": "来月、あるいはもう少し遅くなるかもしれませんが、必ず伺います。", "hiragana_full": "らいげつ、あるいはもうすこしおそくなるかもしれませんが、かならずうかがいます。" },
+        { "kanji": "来月には一度、ご挨拶に伺うつもりです。", "hiragana_full": "らいげつにはいちど、ごあいさつにうかがうつもりです。" }
+      ],
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        { "word": "挨拶", "reading": "あいさつ", "meaning": "greeting; courtesy call" },
+        { "word": "伺う", "reading": "うかがう", "meaning": "to visit (humble)" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "id": "n3_146",
+  "pattern": "〜込む",
+  "meaning": "does ~ into; does ~ deeply or thoroughly (V-stem + 込む: 書き込む, 話し込む)",
+  "level": "N3",
+  "exercises": [
+    {
+      "id": "n3_146_1",
+      "example_sentence": "この用紙に名前と住所を書き込んでください。",
+      "translation": "Please fill in your name and address on this form.",
+      "blank_target": "込んで",
+      "wrong_choices": ["上げて", "かけて", "直して"],
+      "wrong_choice_explanations": [
+        "書き上げる means to finish writing a substantial piece of work such as a report or novel; entering your name and address on a form is not completing a work, and the sentence needs the 'write INTO the form' sense that 込む supplies.",
+        "書きかける means to start writing and leave it unfinished; asking someone to leave the form half-written (書きかけてください) makes no sense as an instruction.",
+        "書き直す means to rewrite something already written; nothing in the sentence says a first attempt exists, so 'please rewrite' doesn't fit."
+      ],
+      "hiragana_full": "このようしになまえとじゅうしょをかきこんでください。",
+      "audio_alternatives": [
+        { "kanji": "こちらの用紙に、お名前とご住所をご記入ください。", "hiragana_full": "こちらのようしに、おなまえとごじゅうしょをごきにゅうください。" },
+        { "kanji": "この紙に名前と住所を書き込んでね。", "hiragana_full": "このかみになまえとじゅうしょをかきこんでね。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "用紙", "reading": "ようし", "meaning": "form, sheet" },
+        { "word": "住所", "reading": "じゅうしょ", "meaning": "address" }
+      ],
+      "blank_target_reading": "こんで"
+    },
+    {
+      "id": "n3_146_2",
+      "example_sentence": "兄はドアの鍵をかけたと思い込んでいたが、実際は開いていた。",
+      "translation": "My brother was convinced he had locked the door, but it was actually open.",
+      "blank_target": "込んで",
+      "wrong_choices": ["出して", "ついて", "上がって"],
+      "wrong_choice_explanations": [
+        "思い出す means to recall a memory; 「かけたと思い出していた」 would mean he was in the middle of remembering, which clashes with the point that his belief was mistaken — 思い込む is precisely 'to believe firmly (and often wrongly).'",
+        "思いつく means an idea suddenly occurs to you and takes the idea with を (いい案を思いつく); it cannot attach to the quoted belief 「鍵をかけたと」.",
+        "思い上がる means to be conceited; it says nothing about believing something and doesn't take a と-clause."
+      ],
+      "hiragana_full": "あにはどあのかぎをかけたとおもいこんでいたが、じっさいはあいていた。",
+      "audio_alternatives": [
+        { "kanji": "兄はドアの鍵をかけたつもりだったが、実際は開いていた。", "hiragana_full": "あにはどあのかぎをかけたつもりだったが、じっさいはあいていた。" },
+        { "kanji": "鍵をかけたと思い込んでいた兄は、開いたドアを見て驚いた。", "hiragana_full": "かぎをかけたとおもいこんでいたあには、あいたどあをみておどろいた。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "鍵", "reading": "かぎ", "meaning": "key, lock" },
+        { "word": "実際", "reading": "じっさい", "meaning": "actually, in fact" }
+      ],
+      "blank_target_reading": "こんで"
+    },
+    {
+      "id": "n3_146_3",
+      "example_sentence": "肉がやわらかくなるまで、弱火で二時間ほど煮込みます。",
+      "translation": "Simmer it over low heat for about two hours, until the meat is tender.",
+      "blank_target": "込み",
+      "wrong_choices": ["出し", "過ぎ", "かけ"],
+      "wrong_choice_explanations": [
+        "煮出す means to boil something to extract its flavor into the liquid, as with tea or soup stock; here the goal is to soften the meat itself through long simmering, which is 煮込む.",
+        "煮過ぎる means to boil something too long by mistake; an instruction telling you to overcook 'until tender' contradicts itself.",
+        "煮かける would mean to start boiling and stop partway; that can't combine with 「やわらかくなるまで二時間」, which requires the full duration."
+      ],
+      "hiragana_full": "にくがやわらかくなるまで、よわびでにじかんほどにこみます。",
+      "audio_alternatives": [
+        { "kanji": "弱火でじっくり煮て、肉をやわらかくしてください。", "hiragana_full": "よわびでじっくりにて、にくをやわらかくしてください。" },
+        { "kanji": "肉がとろとろになるまで、じっくり煮込みましょう。", "hiragana_full": "にくがとろとろになるまで、じっくりにこみましょう。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "弱火", "reading": "よわび", "meaning": "low heat" },
+        { "word": "やわらかい", "reading": "やわらかい", "meaning": "soft, tender" }
+      ],
+      "blank_target_reading": "こみ"
+    },
+    {
+      "id": "n3_146_4",
+      "example_sentence": "久しぶりに会った友人と、店の前で一時間も話し込んでしまった。",
+      "translation": "I met a friend I hadn't seen in ages and ended up deep in conversation in front of the shop for a whole hour.",
+      "blank_target": "込んで",
+      "wrong_choices": ["出して", "かけて", "直して"],
+      "wrong_choice_explanations": [
+        "話し出す means to begin talking; 「一時間も」 measures how long the conversation lasted, so a verb that only marks the start doesn't fit.",
+        "話しかける means to address someone and takes the listener with に (友人に話しかける); here the partner is marked with と, and the point is the long, absorbed conversation.",
+        "話し直す means to say something over again from the beginning; nothing suggests a first telling that had to be redone."
+      ],
+      "hiragana_full": "ひさしぶりにあったゆうじんと、みせのまえでいちじかんもはなしこんでしまった。",
+      "audio_alternatives": [
+        { "kanji": "偶然会った友人と、つい長話をしてしまった。", "hiragana_full": "ぐうぜんあったゆうじんと、ついながばなしをしてしまった。" },
+        { "kanji": "久しぶりの友だちと、店先で一時間も話し込んじゃった。", "hiragana_full": "ひさしぶりのともだちと、みせさきでいちじかんもはなしこんじゃった。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "久しぶり", "reading": "ひさしぶり", "meaning": "after a long time" },
+        { "word": "友人", "reading": "ゆうじん", "meaning": "friend" }
+      ],
+      "blank_target_reading": "こんで"
+    },
+    {
+      "id": "n3_146_5",
+      "example_sentence": "少年は迷わず冷たい川に飛び込んだ。",
+      "translation": "The boy jumped into the cold river without hesitation.",
+      "blank_target": "込んだ",
+      "wrong_choices": ["上がった", "回った", "越えた"],
+      "wrong_choice_explanations": [
+        "飛び上がる means to jump upward, often in surprise or joy; the goal marked by 「川に」 is a place he enters, so the 'into' sense of 込む is required.",
+        "飛び回る means to fly or rush around from place to place and would need 「川を/川で」; a single decisive plunge into the water is the opposite of moving around.",
+        "飛び越える means to jump over something and takes を (川を飛び越える); with 「川に」 the boy is entering the river, not clearing it."
+      ],
+      "hiragana_full": "しょうねんはまよわずつめたいかわにとびこんだ。",
+      "audio_alternatives": [
+        { "kanji": "少年はためらうことなく、冷たい水の中へ飛び込んだ。", "hiragana_full": "しょうねんはためらうことなく、つめたいみずのなかへとびこんだ。" },
+        { "kanji": "少年は思い切って川へジャンプした。", "hiragana_full": "しょうねんはおもいきってかわへじゃんぷした。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "少年", "reading": "しょうねん", "meaning": "boy" },
+        { "word": "迷う", "reading": "まよう", "meaning": "to hesitate" }
+      ],
+      "blank_target_reading": "こんだ"
+    },
+    {
+      "id": "n3_146_6",
+      "example_sentence": "彼女は疲れて、道のはしに座り込んでしまった。",
+      "translation": "Exhausted, she sank down at the side of the road.",
+      "blank_target": "込んで",
+      "wrong_choices": ["かけて", "直して", "過ぎて"],
+      "wrong_choice_explanations": [
+        "座りかける means to be about to sit or to sit halfway; 「〜てしまった」 reports that she ended up fully down on the ground, so an incomplete action doesn't fit.",
+        "座り直す means to shift position and sit again properly, which presupposes she was already sitting; she was on her feet and then sank down.",
+        "座り過ぎる means to sit too long or too much; the sentence describes the moment she dropped down from exhaustion, not an excessive amount of sitting."
+      ],
+      "hiragana_full": "かのじょはつかれて、みちのはしにすわりこんでしまった。",
+      "audio_alternatives": [
+        { "kanji": "疲れ果てた彼女は、道ばたに座り込んでしまった。", "hiragana_full": "つかれはてたかのじょは、みちばたにすわりこんでしまった。" },
+        { "kanji": "彼女は疲れて、道のはしにしゃがんでしまった。", "hiragana_full": "かのじょはつかれて、みちのはしにしゃがんでしまった。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "疲れる", "reading": "つかれる", "meaning": "to get tired" },
+        { "word": "はし", "reading": "はし", "meaning": "edge, side" }
+      ],
+      "blank_target_reading": "こんで"
+    },
+    {
+      "id": "n3_146_7",
+      "example_sentence": "大学時代、彼は寝る間も惜しんで研究に打ち込んでいた。",
+      "translation": "In his university days, he threw himself into his research, begrudging even the time he spent sleeping.",
+      "blank_target": "込んで",
+      "wrong_choices": ["出して", "上げて", "合わせて"],
+      "wrong_choice_explanations": [
+        "打ち出す means to set forth a policy or idea and takes を (新方針を打ち出す); 「研究に」 marks what he immersed himself IN, which is exactly the 打ち込む pattern.",
+        "打ち上げる means to launch something into the sky (花火を打ち上げる) or to wrap up an event; devoting oneself to research is neither.",
+        "打ち合わせる means to confer and coordinate arrangements in advance; it describes a meeting between people, not pouring one's energy into an activity."
+      ],
+      "hiragana_full": "だいがくじだい、かれはねるまもおしんでけんきゅうにうちこんでいた。",
+      "audio_alternatives": [
+        { "kanji": "大学時代、彼は夢中で研究を続けていた。", "hiragana_full": "だいがくじだい、かれはむちゅうでけんきゅうをつづけていた。" },
+        { "kanji": "学生のころ、彼は研究に打ち込んでいたそうだ。", "hiragana_full": "がくせいのころ、かれはけんきゅうにうちこんでいたそうだ。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "惜しむ", "reading": "おしむ", "meaning": "to begrudge, to be sparing of" },
+        { "word": "研究", "reading": "けんきゅう", "meaning": "research" },
+        { "word": "時代", "reading": "じだい", "meaning": "period, (one's) days" }
+      ],
+      "blank_target_reading": "こんで"
+    },
+    {
+      "id": "n3_146_8",
+      "example_sentence": "彼はかばんが閉まらないほど、教科書を無理やり押し込んだ。",
+      "translation": "He forced so many textbooks into his bag that it wouldn't close.",
+      "blank_target": "込んだ",
+      "wrong_choices": ["出した", "かけた", "上げた"],
+      "wrong_choice_explanations": [
+        "押し出す means to push something OUT; stuffing textbooks until the bag won't close is movement inward, the exact opposite direction.",
+        "押しかける means to show up somewhere uninvited (家に押しかける); it doesn't take an object like 教科書を.",
+        "押し上げる means to push something upward (or drive numbers up); the sentence is about forcing things INTO a packed bag, not lifting them."
+      ],
+      "hiragana_full": "かれはかばんがしまらないほど、きょうかしょをむりやりおしこんだ。",
+      "audio_alternatives": [
+        { "kanji": "彼はかばんに教科書をぎゅうぎゅうに詰め込んだ。", "hiragana_full": "かれはかばんにきょうかしょをぎゅうぎゅうにつめこんだ。" },
+        { "kanji": "かばんが閉まらないのに、彼は無理に教科書を入れた。", "hiragana_full": "かばんがしまらないのに、かれはむりにきょうかしょをいれた。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "無理やり", "reading": "むりやり", "meaning": "forcibly" },
+        { "word": "教科書", "reading": "きょうかしょ", "meaning": "textbook" }
+      ],
+      "blank_target_reading": "こんだ"
+    },
+    {
+      "id": "n3_146_9",
+      "example_sentence": "発車のベルを聞いて、彼は急いで電車に駆け込んだ。",
+      "translation": "Hearing the departure bell, he rushed onto the train.",
+      "blank_target": "込んだ",
+      "wrong_choices": ["出した", "上がった", "回った"],
+      "wrong_choice_explanations": [
+        "駆け出す means to break into a run or dash out; 「電車に」 marks the space he rushed INTO, so the inward sense of 込む is needed.",
+        "駆け上がる means to run up stairs or a slope and takes を (階段を駆け上がる); you can't 'run up' into a train marked with に.",
+        "駆け回る means to run around here and there (公園を駆け回る); a single dash through the closing doors is not running around."
+      ],
+      "hiragana_full": "はっしゃのべるをきいて、かれはいそいででんしゃにかけこんだ。",
+      "audio_alternatives": [
+        { "kanji": "発車ベルが鳴り、彼は走って電車に飛び乗った。", "hiragana_full": "はっしゃべるがなり、かれははしってでんしゃにとびのった。" },
+        { "kanji": "ベルの音を聞いて、彼はあわてて電車に駆け込んだ。", "hiragana_full": "べるのおとをきいて、かれはあわててでんしゃにかけこんだ。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "発車", "reading": "はっしゃ", "meaning": "departure (of a train or bus)" },
+        { "word": "急ぐ", "reading": "いそぐ", "meaning": "to hurry" }
+      ],
+      "blank_target_reading": "こんだ"
+    },
+    {
+      "id": "n3_146_10",
+      "example_sentence": "レジに並んでたら、知らない人が列に割り込んできたんだよ。",
+      "translation": "(to a friend) I was standing in line at the register when a total stranger cut in!",
+      "blank_target": "込んで",
+      "wrong_choices": ["当てて", "切って", "引いて"],
+      "wrong_choice_explanations": [
+        "割り当てる means to allot or assign something (仕事を割り当てる); it can't describe a person forcing their way into a line.",
+        "割り切る means to accept something pragmatically without dwelling on it (割り切って考える); 「列に割り切ってきた」 is meaningless.",
+        "割り引く means to discount a price; it has nothing to do with pushing into a queue."
+      ],
+      "hiragana_full": "れじにならんでたら、しらないひとがれつにわりこんできたんだよ。",
+      "audio_alternatives": [
+        { "kanji": "レジで並んでいたら、知らない人が列に入ってきたんです。", "hiragana_full": "れじでならんでいたら、しらないひとがれつにはいってきたんです。" },
+        { "kanji": "順番を待ってたのに、変な人が割り込んできてさ。", "hiragana_full": "じゅんばんをまってたのに、へんなひとがわりこんできてさ。" }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        { "word": "列", "reading": "れつ", "meaning": "line, queue" },
+        { "word": "並ぶ", "reading": "ならぶ", "meaning": "to line up" }
+      ],
+      "blank_target_reading": "こんで"
+    }
+  ]
+}

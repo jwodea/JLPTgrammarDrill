@@ -6,118 +6,188 @@
   "exercises": [
     {
       "id": "n4_013_1",
-      "example_sentence": "犬に手を噛まれた。",
-      "translation": "I was bitten on the hand by a dog.",
-      "blank_target": "れ",
+      "example_sentence": "このビルは去年建てられた。",
+      "translation": "This building was built last year.",
+      "blank_target": "建てられた",
       "wrong_choices": [
-        "せ",
-        "て",
-        "し"
+        "建てた",
+        "建てさせた",
+        "建てられる"
       ],
       "wrong_choice_explanations": [
-        "せ would create 噛ませた (causative) meaning 'made someone bite' — we need the passive れ for 'was bitten'",
-        "て would create 噛まて which is grammatically incorrect — we need れ for the passive form 噛まれた",
-        "し would create 噛まし which is not a valid conjugation — we need れ for the passive form 噛まれた"
+        "建てた is the active past, 'built'. The building is the thing acted upon, not the actor, so the passive 建てられた is required.",
+        "建てさせた is the causative past, 'made someone build'. The sentence states only that the building was built, with no one being made to do it, so passive fits.",
+        "建てられる is non-past passive. 去年 marks past time, so the past passive 建てられた is needed."
       ],
-      "hiragana_full": "いぬにてをかまれた。",
+      "hiragana_full": "このびるはきょねんたてられた。",
       "audio_alternatives": [
         {
-          "kanji": "犬に手を噛まれました。",
-          "hiragana_full": "いぬにてをかまれました。"
+          "kanji": "このビルは去年新しく建てられた。",
+          "hiragana_full": "このびるはきょねんあたらしくたてられた。"
         },
         {
-          "kanji": "犬が私の手を噛んだ。",
-          "hiragana_full": "いぬがわたしのてをかんだ。"
+          "kanji": "去年このビルが建てられた。",
+          "hiragana_full": "きょねんこのびるがたてられた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "blank_target_reading": "たてられた",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "去年",
+          "reading": "きょねん",
+          "meaning": "last year"
+        }
+      ]
     },
     {
       "id": "n4_013_2",
-      "example_sentence": "この本は多くの人に読まれています。",
-      "translation": "This book is being read by many people.",
-      "blank_target": "れ",
+      "example_sentence": "会議は来週開かれる。",
+      "translation": "The meeting will be held next week.",
+      "blank_target": "開かれる",
       "wrong_choices": [
-        "せ",
-        "ね",
-        "み"
+        "開く",
+        "開かせる",
+        "開かれた"
       ],
       "wrong_choice_explanations": [
-        "せ would create 読ませています (causative) meaning 'making people read' — we need the passive れ for 'is being read'",
-        "ね would create 読まねています which is not grammatically correct — we need れ for the passive form 読まれています",
-        "み would create 読まみています which is not a valid conjugation — we need れ for the passive form 読まれています"
+        "開く is the active form, 'to open/hold'. The meeting is what gets held, not the one holding it, so the passive 開かれる is needed.",
+        "開かせる is the causative, 'make someone hold'. No one is being made to act here, so passive fits.",
+        "開かれた is past passive. 来週 marks future time, so the non-past passive 開かれる is correct."
       ],
-      "hiragana_full": "このほんはおおくのひとによまれています",
+      "hiragana_full": "かいぎはらいしゅうひらかれる。",
       "audio_alternatives": [
         {
-          "kanji": "この本はたくさんの人に読まれています。",
-          "hiragana_full": "このほんはたくさんのひとによまれています"
+          "kanji": "来週、大きな会議が開かれる。",
+          "hiragana_full": "らいしゅう、おおきなかいぎがひらかれる。"
         },
         {
-          "kanji": "多くの人がこの本を読んでいます。",
-          "hiragana_full": "おおくのひとがこのほんをよんでいます"
+          "kanji": "会議は来週行われる予定だ。",
+          "hiragana_full": "かいぎはらいしゅうおこなわれるよていだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "blank_target_reading": "ひらかれる",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "会議",
+          "reading": "かいぎ",
+          "meaning": "meeting"
+        }
+      ]
     },
     {
       "id": "n4_013_3",
-      "example_sentence": "私は友達に秘密を話された。",
-      "translation": "My friend went and told my secret.",
-      "blank_target": "さ",
+      "example_sentence": "雨に降られて困った。",
+      "translation": "I was troubled by being rained on.",
+      "blank_target": "降られて",
       "wrong_choices": [
-        "し",
-        "れ",
-        "せ"
+        "降って",
+        "降らせて",
+        "降られる"
       ],
       "wrong_choice_explanations": [
-        "し would create 話しれた which is grammatically incorrect — we need the passive stem さ for 話される",
-        "れ alone would create 話れた which is not valid — we need the full passive stem さ before れる",
-        "せ would create 話せれた which is not correct — we need the passive stem さ for 話される"
+        "降って is the active te-form, 'it rains and...'. The speaker is adversely affected by the rain (雨に), so the adversative passive 降られて is needed.",
+        "降らせて is the causative te-form, 'make it rain'. No one causes the rain here; the speaker suffers from it, so passive fits.",
+        "降られる is the non-past passive. The sentence continues with 困った (past), and the te-form 降られて is required to connect to it."
       ],
-      "hiragana_full": "わたしはともだちにひみつをはなされた",
+      "hiragana_full": "あめにふられてこまった。",
       "audio_alternatives": [
         {
-          "kanji": "友達に私の秘密を話された。",
-          "hiragana_full": "ともだちにわたしのひみつをはなされた"
+          "kanji": "帰り道で雨に降られた。",
+          "hiragana_full": "かえりみちであめにふられた。"
         },
         {
-          "kanji": "私は友達に秘密をばらされた。",
-          "hiragana_full": "わたしはともだちにひみつをばらされた"
+          "kanji": "突然雨に降られてぬれた。",
+          "hiragana_full": "とつぜんあめにふられてぬれた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "blank_target_reading": "ふられて",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "困った",
+          "reading": "こまった",
+          "meaning": "was troubled"
+        }
+      ]
     },
     {
       "id": "n4_013_4",
-      "example_sentence": "その建物は去年建てられました。",
-      "translation": "That building was built last year.",
-      "blank_target": "ら",
+      "example_sentence": "子供のとき、よく母にしかられた。",
+      "translation": "As a child, I was often scolded by my mother.",
+      "blank_target": "しかられた",
       "wrong_choices": [
-        "さ",
-        "な",
-        "て"
+        "しかった",
+        "しからせた",
+        "しかられる"
       ],
       "wrong_choice_explanations": [
-        "さ would create 建てされました which is not the correct passive form — we need ら for 建てられました",
-        "な would create 建てなれました which is grammatically incorrect — we need ら for the passive form 建てられました",
-        "て would create 建ててれました which is not valid — we need ら for the passive form 建てられました"
+        "しかった is the active past, 'scolded'. The speaker is the one scolded (母に), so the passive しかられた is needed.",
+        "しからせた is the causative past, 'made someone scold'. No one is made to scold here; the speaker received the scolding, so passive fits.",
+        "しかられる is non-past passive. 子供のとき marks past time, so the past passive しかられた is correct."
       ],
-      "hiragana_full": "そのたてものはきょねんたてられました",
+      "hiragana_full": "こどものとき、よくははにしかられた。",
       "audio_alternatives": [
         {
-          "kanji": "その建物は去年建設されました。",
-          "hiragana_full": "そのたてものはきょねんけんせつされました"
+          "kanji": "子供のころ、いたずらをして母にしかられた。",
+          "hiragana_full": "こどものころ、いたずらをしてははにしかられた。"
         },
         {
-          "kanji": "去年、その建物が建てられました。",
-          "hiragana_full": "きょねんそのたてものがたてられました"
+          "kanji": "母によくしかられたものだ。",
+          "hiragana_full": "ははによくしかられたものだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n4_013_5",
+      "example_sentence": "財布をどろぼうに盗まれた。",
+      "translation": "My wallet was stolen by a thief.",
+      "blank_target": "盗まれた",
+      "wrong_choices": [
+        "盗んだ",
+        "盗ませた",
+        "盗めた"
+      ],
+      "wrong_choice_explanations": [
+        "盗んだ is the active past, 'stole'. The speaker is the victim of the thief's action (どろぼうに), so the adversative passive 盗まれた is needed.",
+        "盗ませた is the causative past, 'made someone steal'. No one is made to steal here; the speaker had something stolen, so passive fits.",
+        "盗めた is the potential past ('was able to steal'); it makes the speaker the one stealing and cannot take どろぼうに as the agent, so it doesn't express being the victim of the theft."
+      ],
+      "hiragana_full": "さいふをどろぼうにぬすまれた。",
+      "audio_alternatives": [
+        {
+          "kanji": "電車の中で財布を盗まれた。",
+          "hiragana_full": "でんしゃのなかでさいふをぬすまれた。"
+        },
+        {
+          "kanji": "どろぼうに大切な財布を盗まれた。",
+          "hiragana_full": "どろぼうにたいせつなさいふをぬすまれた。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "ぬすまれた",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "財布",
+          "reading": "さいふ",
+          "meaning": "wallet"
+        },
+        {
+          "word": "どろぼう",
+          "reading": "どろぼう",
+          "meaning": "thief"
+        }
+      ]
+    },
+    {
+      "id": "n4_013_6",
       "example_sentence": "彼は皆に愛されている。",
       "translation": "He is loved by everyone.",
       "blank_target": "さ",
@@ -142,10 +212,11 @@
           "hiragana_full": "かれはみんなにあいされています"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
-      "id": "n4_013_6",
+      "id": "n4_013_7",
       "example_sentence": "手紙が風で飛ばされた。",
       "translation": "The letter was blown away by the wind.",
       "blank_target": "さ",
@@ -170,10 +241,11 @@
           "hiragana_full": "てがみはかぜにとばされた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
-      "id": "n4_013_7",
+      "id": "n4_013_8",
       "example_sentence": "その映画は世界中で見られている。",
       "translation": "That movie is being watched all over the world.",
       "blank_target": "ら",
@@ -198,10 +270,18 @@
           "hiragana_full": "そのえいがはせかいじゅうのひとにみられている"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "世界中",
+          "reading": "せかいじゅう",
+          "meaning": "all over the world"
+        }
+      ]
     },
     {
-      "id": "n4_013_8",
+      "id": "n4_013_9",
       "example_sentence": "新しい薬が開発されました。",
       "translation": "A new medicine was developed.",
       "blank_target": "さ",
@@ -226,35 +306,15 @@
           "hiragana_full": "あたらしいくすりがつくられました"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_013_9",
-      "example_sentence": "彼の提案は却下された。",
-      "translation": "His proposal was rejected.",
-      "blank_target": "さ",
-      "wrong_choices": [
-        "し",
-        "か",
-        "が"
-      ],
-      "wrong_choice_explanations": [
-        "し would create 却下しれた which is grammatically incorrect — we need the passive stem さ for 却下される",
-        "か would create 却下かれた which is not valid — we need the passive stem さ for 却下される",
-        "が would create 却下がれた which is not grammatically correct — we need the passive stem さ for 却下される"
-      ],
-      "hiragana_full": "かれのていあんはきゃっかされた",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "彼の提案は断られた。",
-          "hiragana_full": "かれのていあんはことわられた"
-        },
-        {
-          "kanji": "彼の提案は受け入れられなかった。",
-          "hiragana_full": "かれのていあんはうけいれられなかった"
+          "word": "開発",
+          "reading": "かいはつ",
+          "meaning": "development"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
       "id": "n4_013_10",
@@ -282,7 +342,8 @@
           "hiragana_full": "ふるいいえがとりこわされる"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     }
   ]
 }

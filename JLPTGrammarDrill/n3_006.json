@@ -30,38 +30,23 @@
           "hiragana_full": "いしゃにまいにちうんどうするべきだといわれた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "運動",
+          "reading": "うんどう",
+          "meaning": "exercise"
+        },
+        {
+          "word": "医者",
+          "reading": "いしゃ",
+          "meaning": "doctor"
+        }
+      ]
     },
     {
       "id": "n3_006_2",
-      "example_sentence": "学生は授業に遅刻すべきではありません。",
-      "translation": "Students ought not to be late for class.",
-      "blank_target": "すべきではありません",
-      "wrong_choices": [
-        "するはずではありません",
-        "するわけではありません",
-        "するものではありません"
-      ],
-      "wrong_choice_explanations": [
-        "するはずではありません means 'is not expected to' as a logical expectation, but the sentence uses 'ought not' to express a moral rule, not a prediction about what is likely.",
-        "するわけではありません means 'it doesn't mean should' or negates an implication, but the sentence directly states an obligation, not negating an implication about behavior.",
-        "するものではありません expresses a general prohibition or principle ('one does not do such a thing'), but this sentence specifically conveys an individual or institutional obligation against being late, not a universal principle."
-      ],
-      "hiragana_full": "がくせいはじゅぎょうにちこくすべきではありません",
-      "audio_alternatives": [
-        {
-          "kanji": "学生は授業に遅刻してはいけません。",
-          "hiragana_full": "がくせいはじゅぎょうにちこくしてはいけません"
-        },
-        {
-          "kanji": "学生は授業に遅れるべきではありません。",
-          "hiragana_full": "がくせいはじゅぎょうにおくれるべきではありません"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_006_3",
       "example_sentence": "健康的な生活をするべきだと誰もが思う。",
       "translation": "Everyone thinks they should live a healthy lifestyle.",
       "blank_target": "べきだと",
@@ -86,203 +71,348 @@
           "hiragana_full": "だれもがけんこうてきなくらしをすべきだとかんがえる"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "健康的",
+          "reading": "けんこうてき",
+          "meaning": "healthy"
+        },
+        {
+          "word": "生活",
+          "reading": "せいかつ",
+          "meaning": "life, living"
+        }
+      ]
+    },
+    {
+      "id": "n3_006_3",
+      "example_sentence": "一度した約束は、最後まで守るべきだ。",
+      "translation": "A promise once made ought to be kept to the end.",
+      "blank_target": "べきだ",
+      "wrong_choices": [
+        "はずだ",
+        "つもりだ",
+        "わけだ"
+      ],
+      "wrong_choice_explanations": [
+        "「はずだ」は「当然そうなるだろう」という話し手の推量・予測を表すので、「守るはずだ」だと『きっと守るだろう』という予想になり、道義的に『守るべきだ』という主張とは意味が変わる。",
+        "「つもりだ」 expresses the speaker’s own intention or plan (\"I intend to keep it\"), a statement about oneself, whereas べきだ asserts the general obligation that a promise ought to be kept. This sentence states a duty, not a personal plan, so つもりだ does not fit.",
+        "「わけだ」は「そういう事情・結論になる」と納得や説明を表すので、約束を守る義務を主張するこの文には合わない。"
+      ],
+      "hiragana_full": "いちどしたやくそくは、さいごまでまもるべきだ。",
+      "audio_alternatives": [
+        {
+          "kanji": "交わした約束は、きちんと果たすべきだ。",
+          "hiragana_full": "かわしたやくそくは、きちんとはたすべきだ。"
+        },
+        {
+          "kanji": "一度約束した以上、守るのが当然だ。",
+          "hiragana_full": "いちどやくそくしたいじょう、まもるのがとうぜんだ。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "約束",
+          "reading": "やくそく",
+          "meaning": "promise"
+        },
+        {
+          "word": "守る",
+          "reading": "まもる",
+          "meaning": "to keep; protect"
+        }
+      ]
     },
     {
       "id": "n3_006_4",
-      "example_sentence": "親孝行をするべきだと思う。",
-      "translation": "I think one ought to be filial.",
-      "blank_target": "べきだと",
+      "example_sentence": "体調が悪いなら、無理をせず休むべきだ。",
+      "translation": "If you're not feeling well, you should rest instead of pushing yourself.",
+      "blank_target": "べきだ",
       "wrong_choices": [
-        "はずだと",
-        "ほうがいいと",
-        "ものだと"
+        "はずだ",
+        "つもりだ",
+        "ところだ"
       ],
       "wrong_choice_explanations": [
-        "はずだ expresses logical expectation 'should be', but this sentence requires べきだ for moral obligation and what one ought to do.",
-        "ほうがいい suggests a preference or recommendation ('it would be better to'), but べきだ conveys a stronger sense of duty and moral obligation that one 'ought' to fulfill.",
-        "ものだと expresses a general principle or emotional truth ('things are such that...'), but this sentence specifically prescribes filial duty as a moral obligation."
+        "「はずだ」は「当然～だろう」という推量を表すので、「休むはずだ」だと『きっと休むだろう』という予想になり、相手に休むよう勧める助言の意味にならない。",
+        "「つもりだ」は話し手自身の意志・予定を表すので、相手に対する助言であるこの文（体調が悪いなら休むべきだ）とは主語も意味も合わない。",
+        "「ところだ」は「ちょうど～する場面だ」と動作の局面を表すので、休むことを勧めるこの文脈には合わない。"
       ],
-      "hiragana_full": "おやこうこうをするべきだとおもう。",
+      "hiragana_full": "たいちょうがわるいなら、むりをせずやすむべきだ。",
       "audio_alternatives": [
         {
-          "kanji": "親孝行をしなければならないと思う。",
-          "hiragana_full": "おやこうこうをしなければならないとおもう。"
+          "kanji": "具合が悪いときは、しっかり休養を取るべきだ。",
+          "hiragana_full": "ぐあいがわるいときは、しっかりきゅうようをとるべきだ。"
         },
         {
-          "kanji": "親孝行すべきだと思う。",
-          "hiragana_full": "おやこうこうすべきだとおもう。"
+          "kanji": "無理をしないで、休んだほうがいい。",
+          "hiragana_full": "むりをしないで、やすんだほうがいい。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "体調",
+          "reading": "たいちょう",
+          "meaning": "physical condition"
+        },
+        {
+          "word": "無理",
+          "reading": "むり",
+          "meaning": "overexertion; strain"
+        }
+      ]
     },
     {
       "id": "n3_006_5",
-      "example_sentence": "子どもに対しては、親が責任を持ってしっかり向き合うべきだ。",
-      "translation": "Parents ought to face their children seriously with a sense of responsibility.",
+      "example_sentence": "環境を守るために、一人一人が努力するべきだ。",
+      "translation": "To protect the environment, each and every person should make an effort.",
       "blank_target": "べきだ",
       "wrong_choices": [
-        "ことだ",
-        "わけがない",
+        "はずだ",
+        "ようだ",
         "つもりだ"
       ],
       "wrong_choice_explanations": [
-        "ことだ means 'it is a matter that...' or 'the thing is...', but this sentence expresses a moral obligation that parents should face their children seriously, not just a matter of fact.",
-        "わけがない means 'there's no way that...' (向き合うわけがない = 'there's no way they'd face them'), flatly negating the action and contradicting the affirmative duty the sentence asserts with べきだ.",
-        "つもりだ expresses intention or plan ('intend to'), but the sentence prescribes what parents ought to do as a moral duty, not what they personally intend to do."
+        "「はずだ」は推量を表すので、「努力するはずだ」だと『きっと努力するだろう』という予測になり、努力を促す主張とは意味が変わる。",
+        "Attached to the plain form, 「ようだ」 expresses an inference from appearances (\"everyone seems to be making an effort\") — a guess about reality, whereas べきだ urges that everyone ought to make an effort. The sentence is a call to action, not an observation, so ようだ does not fit.",
+        "「つもりだ」 states the speaker’s own intention (\"I intend to make an effort\"). This sentence urges each person to act (努力するべきだ), a general exhortation rather than a personal plan, so つもりだ does not fit."
       ],
-      "hiragana_full": "こどもにたいしては、おやがせきにんをもってしっかりむきあうべきだ。",
+      "hiragana_full": "かんきょうをまもるために、ひとりひとりがどりょくするべきだ。",
       "audio_alternatives": [
         {
-          "kanji": "子どもに対して、親は責任を持ってしっかり向き合うべきだ。",
-          "hiragana_full": "こどもにたいして、おやはせきにんをもってしっかりむきあうべきだ。"
+          "kanji": "環境保護には、私たち全員が取り組むべきだ。",
+          "hiragana_full": "かんきょうほごには、わたしたちぜんいんがとりくむべきだ。"
         },
         {
-          "kanji": "親は子どもに対してしっかり責任を持って向き合うべきだ。",
-          "hiragana_full": "おやはこどもにたいしてしっかりせきにんをもってむきあうべきだ。"
+          "kanji": "自然を守るため、誰もが行動を起こす必要がある。",
+          "hiragana_full": "しぜんをまもるため、だれもがこうどうをおこすひつようがある。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "環境",
+          "reading": "かんきょう",
+          "meaning": "environment"
+        },
+        {
+          "word": "努力",
+          "reading": "どりょく",
+          "meaning": "effort"
+        }
+      ]
     },
     {
       "id": "n3_006_6",
-      "example_sentence": "医者の指示に従うべきだと思います。",
-      "translation": "I think you should follow the doctor's instructions.",
+      "example_sentence": "この問題は先延ばしにせず、早く解決すべきだ。",
+      "translation": "This problem shouldn't be put off; it should be resolved quickly.",
       "blank_target": "べきだ",
       "wrong_choices": [
+        "そうだ",
         "はずだ",
-        "ことだ",
-        "しかないだろう"
+        "わけだ"
       ],
       "wrong_choice_explanations": [
-        "はずだ expresses expectation ('should be the case'), but this sentence emphasizes moral obligation and duty to follow medical advice, not a logical expectation about what will happen.",
-        "ことだ expresses a matter or fact ('it's a matter that...'), but the speaker is prescribing what one should do as an obligation, not stating a simple fact.",
-        "しかないだろう means 'there is no choice but to...' or 'one must...', which implies constraint or inevitability rather than the normative obligation that べきだ conveys."
+        "「そうだ」は「～しそうだ／～だそうだ」と様態や伝聞を表すので、「解決しそうだ」だと『解決しそうな様子だ』となり、早く解決すべきだという主張にはならない。",
+        "「はずだ」は当然の推量を表すので、「解決するはずだ」だと『きっと解決するだろう』という予想になり、行動を促す意味が失われる。",
+        "「わけだ」は納得・説明を表すので、問題を早く解決すべきだと主張するこの文脈には合わない。"
       ],
-      "hiragana_full": "いしゃのしじにしたがうべきだとおもいます",
+      "hiragana_full": "このもんだいはさきのばしにせず、はやくかいけつすべきだ。",
       "audio_alternatives": [
         {
-          "kanji": "医者の指示に従った方がいいと思います。",
-          "hiragana_full": "いしゃのしじにしたがったほうがいいとおもいます"
+          "kanji": "この件は放置せず、速やかに対処すべきだ。",
+          "hiragana_full": "このけんはほうちせず、すみやかにたいしょすべきだ。"
         },
         {
-          "kanji": "医者の指示を守るべきだと思います。",
-          "hiragana_full": "いしゃのしじをまもるべきだとおもいます"
+          "kanji": "問題を後回しにせず、すぐ片付けたほうがいい。",
+          "hiragana_full": "もんだいをあとまわしにせず、すぐかたづけたほうがいい。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "先延ばし",
+          "reading": "さきのばし",
+          "meaning": "postponement"
+        },
+        {
+          "word": "解決",
+          "reading": "かいけつ",
+          "meaning": "resolution"
+        }
+      ]
     },
     {
       "id": "n3_006_7",
-      "example_sentence": "人を判断する前に、よく聞くべきだ。",
-      "translation": "You ought to listen well before judging someone.",
-      "blank_target": "べきだ",
-      "wrong_choices": [
-        "わけだ",
-        "ほうがいい",
-        "ものだ"
-      ],
-      "wrong_choice_explanations": [
-        "わけだ means 'that explains why' or 'no wonder,' providing a logical explanation after a consequence, but this sentence prescribes what one should do morally before acting.",
-        "ほうがいい suggests a preference or recommendation ('it would be better to'), but べきだ conveys a stronger ethical obligation that one 'ought' to fulfill based on principle.",
-        "ものだ expresses natural truths or emotional statements, but this sentence specifically prescribes a moral obligation about proper conduct before judgment."
-      ],
-      "hiragana_full": "ひとをはんだんするまえに、よくきくべきだ。",
-      "audio_alternatives": [
-        {
-          "kanji": "人を判断する前に、よく聞くべきです。",
-          "hiragana_full": "ひとをはんだんするまえに、よくきくべきです。"
-        },
-        {
-          "kanji": "人を判断する前に、ちゃんと聞くべきだ。",
-          "hiragana_full": "ひとをはんだんするまえに、ちゃんときくべきだ。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_006_8",
-      "example_sentence": "環境問題に対して、真摯に取り組むべきだ。",
-      "translation": "We ought to tackle environmental issues seriously.",
+      "example_sentence": "困っている人がいたら、進んで助けるべきだ。",
+      "translation": "If someone is in trouble, you should help them willingly.",
       "blank_target": "べきだ",
       "wrong_choices": [
         "はずだ",
-        "ことだ",
+        "そうだ",
         "つもりだ"
       ],
       "wrong_choice_explanations": [
-        "はずだ means 'should be' based on expectation or logic, but this sentence emphasizes responsibility and obligation to tackle environmental issues, not a logical expectation.",
-        "ことだ means 'it is a matter that...' or expresses something as a factual proposition, but the sentence conveys moral duty and responsibility, not a neutral statement of fact.",
-        "つもりだ expresses intention or personal plan ('intend to'), but the sentence prescribes what society should do as a collective moral obligation."
+        "「はずだ」は推量を表すので、「助けるはずだ」だと『きっと助けるだろう』という予想になり、助けるよう促す主張とは意味が異なる。",
+        "Attached to the plain form, 「そうだ」 reports hearsay (\"I hear that people help\"), passing on secondhand information, whereas べきだ asserts that one ought to help. The sentence gives moral guidance, not reported news, so そうだ does not fit.",
+        "「つもりだ」は話し手の意志を表すので、一般的な行動指針を述べるこの文（困っている人がいたら助けるべきだ）とは主語も意味も合わない。"
       ],
-      "hiragana_full": "かんきょうもんだいにたいして、しんしにとりくむべきだ。",
+      "hiragana_full": "こまっているひとがいたら、すすんでたすけるべきだ。",
       "audio_alternatives": [
         {
-          "kanji": "環境問題に真剣に取り組むべきだ。",
-          "hiragana_full": "かんきょうもんだいにしんけんにとりくむべきだ。"
+          "kanji": "誰かが困っていたら、率先して手を貸すべきだ。",
+          "hiragana_full": "だれかがこまっていたら、そっせんしててをかすべきだ。"
         },
         {
-          "kanji": "環境問題に対して、真剣に向き合うべきだ。",
-          "hiragana_full": "かんきょうもんだいにたいして、しんけんにむきあうべきだ。"
+          "kanji": "困っている人を見たら、放っておかず助けよう。",
+          "hiragana_full": "こまっているひとをみたら、ほうっておかずたすけよう。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_006_9",
-      "example_sentence": "社会に貢献することは、みんなが実行するべきだと言えます。",
-      "translation": "It can be said that contributing to society is something everyone should do.",
-      "blank_target": "べきだ",
-      "wrong_choices": [
-        "ほうがいい",
-        "ものだ",
-        "しかない"
-      ],
-      "wrong_choice_explanations": [
-        "ほうがいい recommends one option over another ('it'd be better to carry it out'), a softer suggestion than べきだ, which frames contributing to society as a duty everyone is obligated to fulfill.",
-        "ものだ would describe contributing as something people naturally or habitually do, a general tendency rather than the moral obligation べきだ asserts.",
-        "しかない means 'there's no choice but to...', stressing unavoidable constraint, whereas べきだ asserts a normative obligation grounded in principle, not inevitability."
-      ],
-      "hiragana_full": "しゃかいにこうけんすることは、みんながじっこうするべきだといえます。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "社会に貢献することは、みんなが実行すべきだと言えます。",
-          "hiragana_full": "しゃかいにこうけんすることは、みんながじっこうすべきだといえます。"
+          "word": "進んで",
+          "reading": "すすんで",
+          "meaning": "willingly; proactively"
         },
         {
-          "kanji": "社会への貢献は、みんなが実行するべきだと言えます。",
-          "hiragana_full": "しゃかいへのこうけんは、みんながじっこうするべきだといえます。"
+          "word": "助ける",
+          "reading": "たすける",
+          "meaning": "to help"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n3_006_10",
-      "example_sentence": "ステークホルダーの利益を優先するべきだ。",
-      "translation": "We ought to prioritize stakeholder interests.",
+      "id": "n3_006_8",
+      "example_sentence": "決める前に、親の意見も一度は聞くべきだ。",
+      "translation": "Before deciding, you should at least listen to your parents' opinion once too.",
       "blank_target": "べきだ",
       "wrong_choices": [
         "はずだ",
-        "ことだ",
-        "ほうがいい"
+        "つもりだ",
+        "だろう"
       ],
       "wrong_choice_explanations": [
-        "はずだ is a logical expectation ('should be the case'), but the sentence expresses a moral obligation or prescriptive duty to prioritize stakeholder interests.",
-        "ことだ expresses something as a matter or fact, but this sentence prescribes what one 'should' do as an obligation, not a neutral factual statement.",
-        "ほうがいい means 'it would be better to...', suggesting a preference, but べきだ carries the stronger sense of normative obligation and responsibility that the business context demands."
+        "「はずだ」は推量を表すので、「聞くはずだ」だと『きっと聞くだろう』という予想になり、親の意見を聞くよう勧める主張とは意味が変わる。",
+        "「つもりだ」 expresses the speaker’s own intention (\"I intend to ask\"). This sentence advises that one ought to consult one’s parents (聞くべきだ), general guidance rather than a personal plan, so つもりだ does not fit.",
+        "「だろう」 expresses conjecture (\"(someone) will probably ask\"), a guess about what will happen, whereas べきだ urges that one ought to ask. The sentence gives advice, not a prediction, so だろう does not fit."
       ],
-      "hiragana_full": "すてーくほるだーのりえきをゆうせんするべきだ。",
+      "hiragana_full": "きめるまえに、おやのいけんもいちどはきくべきだ。",
       "audio_alternatives": [
         {
-          "kanji": "ステークホルダーの利益を優先するべきだ。",
-          "hiragana_full": "すてーくほるだーのりえきをゆうせんするべきだ。"
+          "kanji": "結論を出す前に、両親の考えも確かめるべきだ。",
+          "hiragana_full": "けつろんをだすまえに、りょうしんのかんがえもたしかめるべきだ。"
         },
         {
-          "kanji": "ステークホルダーの利益を優先しなければならない。",
-          "hiragana_full": "すてーくほるだーのりえきをゆうせんしなければならない。"
+          "kanji": "自分だけで決めず、親にも相談したほうがいい。",
+          "hiragana_full": "じぶんだけできめず、おやにもそうだんしたほうがいい。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "意見",
+          "reading": "いけん",
+          "meaning": "opinion"
+        }
+      ]
+    },
+    {
+      "id": "n3_006_9",
+      "example_sentence": "共有スペースで使ったものは、元の場所に戻すべきだ。",
+      "translation": "Things you've used in a shared space should be put back where they were.",
+      "blank_target": "べきだ",
+      "wrong_choices": [
+        "はずだ",
+        "ところだ",
+        "そうだ"
+      ],
+      "wrong_choice_explanations": [
+        "「はずだ」は推量を表すので、「戻すはずだ」だと『きっと戻すだろう』という予想になり、片付けるよう求めるこの文の主張にはならない。",
+        "「ところだ」 marks the phase of an action (\"I’m just about to put it back\"), describing timing, whereas べきだ asserts that used items ought to be returned. The sentence states etiquette, not what one is on the verge of doing, so ところだ does not fit.",
+        "「そうだ」は様態・伝聞を表すので、「戻しそうだ／戻すそうだ」となり、物を元に戻すべきだという義務の主張とは意味が全く異なる。"
+      ],
+      "hiragana_full": "きょうゆうすぺーすでつかったものは、もとのばしょにもどすべきだ。",
+      "audio_alternatives": [
+        {
+          "kanji": "みんなで使う場所では、道具を元通りに片付けるべきだ。",
+          "hiragana_full": "みんなでつかうばしょでは、どうぐをもとどおりにかたづけるべきだ。"
+        },
+        {
+          "kanji": "使ったら元の位置に戻すのがマナーだ。",
+          "hiragana_full": "つかったらもとのいちにもどすのがまなーだ。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "共有",
+          "reading": "きょうゆう",
+          "meaning": "sharing; shared"
+        },
+        {
+          "word": "戻す",
+          "reading": "もどす",
+          "meaning": "to put back"
+        }
+      ]
+    },
+    {
+      "id": "n3_006_10",
+      "example_sentence": "他人の失敗を、そんなに責めるべきではない。",
+      "translation": "You shouldn't blame others so much for their mistakes.",
+      "blank_target": "べきではない",
+      "wrong_choices": [
+        "がたい",
+        "かねない",
+        "ところではない"
+      ],
+      "wrong_choice_explanations": [
+        "「がたい」は動詞のます形（責め）につく形で「責めがたい」とは言えても「責めるがたい」とは言えない。また「〜するのが難しい」という意味で、責めてはいけないと戒めるこの文とは合わない。",
+        "「かねない」も動詞のます形につき（責めかねない）、「責めるかねない」とは言えない。意味も「〜するおそれがある」で、他人を責めてはいけないという助言・禁止にはならない。",
+        "「ところではない」は「〜している場合ではない・〜どころではない」に近い言い方になり、「責めるところではない」では意味が通らず、他人を責めてはいけないと戒めるこの文には合わない。"
+      ],
+      "hiragana_full": "たにんのしっぱいを、そんなにせめるべきではない。",
+      "audio_alternatives": [
+        {
+          "kanji": "人のミスを、そこまで厳しく責めるべきではない。",
+          "hiragana_full": "ひとのみすを、そこまできびしくせめるべきではない。"
+        },
+        {
+          "kanji": "他人の過ちを、必要以上に非難するのはよくない。",
+          "hiragana_full": "たにんのあやまちを、ひつよういじょうにひなんするのはよくない。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "他人",
+          "reading": "たにん",
+          "meaning": "others; other people"
+        },
+        {
+          "word": "失敗",
+          "reading": "しっぱい",
+          "meaning": "mistake; failure"
+        },
+        {
+          "word": "責める",
+          "reading": "せめる",
+          "meaning": "to blame"
+        }
+      ]
     }
   ]
 }

@@ -59,6 +59,11 @@ def main():
                         if isinstance(v, dict) and 'word' in v and 'blank_target' in ex:
                             check(v['word'] != ex['blank_target'],
                                   f"ex {i} vocab {j}: vocab word equals blank_target")
+                if 'blank_occurrence' in ex:
+                    bo = ex['blank_occurrence']
+                    cnt = ex.get('example_sentence','').count(ex.get('blank_target','\0'))
+                    check(isinstance(bo, int) and not isinstance(bo, bool) and 1 <= bo <= cnt,
+                          f"ex {i}: blank_occurrence {bo} out of range (target occurs {cnt}x)")
                 if 'blank_target_reading' in ex:
                     btr = ex['blank_target_reading']
                     # 、 allowed: some (miscut) multi-clause targets contain commas

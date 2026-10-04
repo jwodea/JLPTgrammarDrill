@@ -6,131 +6,191 @@
   "exercises": [
     {
       "id": "n5_044_1",
-      "example_sentence": "日本語を話すことができます。",
-      "translation": "I can speak Japanese.",
-      "blank_target": "こと",
+      "example_sentence": "私は日本語を少し話すことができます。",
+      "translation": "I can speak a little Japanese.",
+      "blank_target": "話すことができます",
       "wrong_choices": [
-        "もの",
-        "ところ",
-        "とき"
+        "話しことができます",
+        "話すことにできます",
+        "話すことができるます"
       ],
       "wrong_choice_explanations": [
-        "もの means 'thing' (concrete) — it doesn't fit here because we need こと to nominalize the verb for expressing ability.",
-        "ところ means 'place' or indicates timing — it doesn't fit here because we need the nominalizer こと with できる.",
-        "とき means 'time/when' — it doesn't fit here because we need こと to create the pattern ことができる for ability."
+        "こと follows the dictionary form 話す, not the masu-stem 話し.",
+        "Ability is ことが できる; に cannot replace が here.",
+        "ます attaches to the stem でき (できます), not to できる."
       ],
-      "hiragana_full": "にほんごをはなすことができます",
+      "hiragana_full": "わたしはにほんごをすこしはなすことができます。",
       "audio_alternatives": [
         {
-          "kanji": "日本語が話せます。",
-          "hiragana_full": "にほんごがはなせます"
+          "kanji": "私は日本語が少し話せます。",
+          "hiragana_full": "わたしはにほんごがすこしはなせます。"
         },
         {
-          "kanji": "日本語を話せます。",
-          "hiragana_full": "にほんごをはなせます"
+          "kanji": "私は日本語を少し話すことができる。",
+          "hiragana_full": "わたしはにほんごをすこしはなすことができる。"
         }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
         {
-          "word": "話す",
-          "reading": "はなす",
-          "meaning": "to speak"
+          "word": "日本語",
+          "reading": "にほんご",
+          "meaning": "Japanese language"
+        },
+        {
+          "word": "少し",
+          "reading": "すこし",
+          "meaning": "a little"
         }
-      ]
+      ],
+      "blank_target_reading": "はなすことができます"
     },
     {
       "id": "n5_044_2",
-      "example_sentence": "泳ぐことができません。",
-      "translation": "I can't swim.",
-      "blank_target": "こと",
+      "example_sentence": "足が痛いので、今日は走ることができません。",
+      "translation": "My leg hurts, so I can't run today.",
+      "blank_target": "走ることができません",
       "wrong_choices": [
-        "はず",
-        "つもり",
-        "よう"
+        "走ることができます",
+        "走りことができません",
+        "走ったことができません"
       ],
       "wrong_choice_explanations": [
-        "はず means 'should be/expected' — it doesn't fit here because we need こと to form the ability expression with できる.",
-        "つもり means 'intention/plan' — it doesn't fit here because we're expressing inability, not intention.",
-        "よう means 'way' or 'seems like' — it doesn't fit here because we need こと for the standard ability pattern."
+        "走ることができます ('I can run') contradicts the reason 足が痛いので.",
+        "こと follows the dictionary form 走る, not the masu-stem 走り.",
+        "Ability uses the dictionary form; 走ったこと refers to past experience and cannot combine with できません."
       ],
-      "hiragana_full": "およぐことができません",
+      "hiragana_full": "あしがいたいので、きょうははしることができません。",
       "audio_alternatives": [
         {
-          "kanji": "泳げません。",
-          "hiragana_full": "およげません"
+          "kanji": "足が痛いから、今日は走れません。",
+          "hiragana_full": "あしがいたいから、きょうははしれません。"
         },
         {
-          "kanji": "泳ぐのが苦手です。",
-          "hiragana_full": "およぐのがにがてです"
+          "kanji": "足が痛いので、今日は走ることができない。",
+          "hiragana_full": "あしがいたいので、きょうははしることができない。"
         }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
+        {
+          "word": "足",
+          "reading": "あし",
+          "meaning": "leg, foot"
+        },
+        {
+          "word": "痛い",
+          "reading": "いたい",
+          "meaning": "painful"
+        },
+        {
+          "word": "走る",
+          "reading": "はしる",
+          "meaning": "to run"
+        }
+      ],
+      "blank_target_reading": "はしることができません"
+    },
+    {
+      "id": "n5_044_3",
+      "example_sentence": "この図書館では、本を三冊まで借りることができます。",
+      "translation": "At this library you can borrow up to three books.",
+      "blank_target": "借りることができます",
+      "wrong_choices": [
+        "借りてことができます",
+        "借りることがします",
+        "借りるのことができます"
+      ],
+      "wrong_choice_explanations": [
+        "こと follows the dictionary form 借りる, not the te-form 借りて.",
+        "The ability pattern needs できます; ことがします is not Japanese.",
+        "の and こと cannot be stacked; the pattern is 借りる＋ことができます."
+      ],
+      "hiragana_full": "このとしょかんでは、ほんをさんさつまでかりることができます。",
+      "audio_alternatives": [
+        {
+          "kanji": "この図書館では、本が三冊まで借りられます。",
+          "hiragana_full": "このとしょかんでは、ほんがさんさつまでかりられます。"
+        },
+        {
+          "kanji": "この図書館では、三冊まで本を借りることができる。",
+          "hiragana_full": "このとしょかんでは、さんさつまでほんをかりることができる。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "図書館",
+          "reading": "としょかん",
+          "meaning": "library"
+        },
+        {
+          "word": "借りる",
+          "reading": "かりる",
+          "meaning": "to borrow"
+        }
+      ],
+      "blank_target_reading": "かりることができます"
+    },
+    {
+      "id": "n5_044_4",
+      "example_sentence": "弟はまだ五歳なので、一人で泳ぐことができません。",
+      "translation": "My little brother is only five, so he can't swim on his own.",
+      "blank_target": "泳ぐことができません",
+      "wrong_choices": [
+        "泳ぐことができました",
+        "泳ぎことができません",
+        "泳ぐことにできません"
+      ],
+      "wrong_choice_explanations": [
+        "泳ぐことができました ('he could swim') doesn't follow from 'he's still only five' (まだ…ので).",
+        "こと follows the dictionary form 泳ぐ, not the masu-stem 泳ぎ.",
+        "Ability is ことが できる; ことに cannot be used here."
+      ],
+      "hiragana_full": "おとうとはまだごさいなので、ひとりでおよぐことができません。",
+      "audio_alternatives": [
+        {
+          "kanji": "弟はまだ五歳だから、一人で泳げません。",
+          "hiragana_full": "おとうとはまだごさいだから、ひとりでおよげません。"
+        },
+        {
+          "kanji": "弟はまだ五歳なので、一人で泳ぐことができない。",
+          "hiragana_full": "おとうとはまだごさいなので、ひとりでおよぐことができない。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "弟",
+          "reading": "おとうと",
+          "meaning": "younger brother"
+        },
         {
           "word": "泳ぐ",
           "reading": "およぐ",
           "meaning": "to swim"
         }
-      ]
+      ],
+      "blank_target_reading": "およぐことができません"
     },
     {
-      "id": "n5_044_3",
-      "example_sentence": "漢字を読むことができるようになりました。",
-      "translation": "I became able to read kanji.",
-      "blank_target": "こと",
-      "wrong_choices": [
-        "まま",
-        "だけ",
-        "ほど"
-      ],
-      "wrong_choice_explanations": [
-        "まま means 'as it is/remains' — it doesn't fit here because we need こと to nominalize the verb in the ability expression.",
-        "だけ means 'only' — it doesn't fit here because we need the nominalizer こと for ことができる pattern.",
-        "ほど means 'extent/degree' — it doesn't fit here because we need こと to form the ability expression."
-      ],
-      "hiragana_full": "かんじをよむことができるようになりました",
-      "audio_alternatives": [
-        {
-          "kanji": "漢字が読めるようになりました。",
-          "hiragana_full": "かんじがよめるようになりました"
-        },
-        {
-          "kanji": "漢字を読めるようになりました。",
-          "hiragana_full": "かんじをよめるようになりました"
-        }
-      ],
-      "audio_eligible": true,
-      "register": "neutral",
-      "vocab": [
-        {
-          "word": "漢字",
-          "reading": "かんじ",
-          "meaning": "kanji"
-        },
-        {
-          "word": "読む",
-          "reading": "よむ",
-          "meaning": "to read"
-        }
-      ]
-    },
-    {
-      "id": "n5_044_4",
+      "id": "n5_044_5",
       "example_sentence": "ピアノを弾くことができたらいいですね。",
-      "translation": "It would be nice if I could play piano.",
-      "blank_target": "こと",
+      "translation": "It would be nice if I could play the piano.",
+      "blank_target": "弾くことができたら",
       "wrong_choices": [
-        "ため",
-        "ように",
-        "ばかり"
+        "弾くことができなかったら",
+        "弾きことができたら",
+        "弾くことができるたら"
       ],
       "wrong_choice_explanations": [
-        "ため means 'for/in order to' — it doesn't fit here because we need こと to nominalize the verb for the ability expression.",
-        "ように means 'so that/like' — it doesn't fit here because we need こと for the ことができる pattern.",
-        "ばかり means 'only/just' — it doesn't fit here because we need the nominalizer こと to express ability."
+        "'It would be nice if I couldn't play' makes no sense with いいですね.",
+        "こと follows the dictionary form 弾く, not the masu-stem 弾き.",
+        "たら attaches to the ta-form できた, not to できる."
       ],
       "hiragana_full": "ぴあのをひくことができたらいいですね。",
       "audio_alternatives": [
@@ -139,8 +199,8 @@
           "hiragana_full": "ぴあのがひけたらいいですね。"
         },
         {
-          "kanji": "ピアノを弾けるといいですね。",
-          "hiragana_full": "ぴあのをひけるといいですね。"
+          "kanji": "ピアノを弾くことができたらいいな。",
+          "hiragana_full": "ぴあのをひくことができたらいいな。"
         }
       ],
       "audio_eligible": true,
@@ -151,233 +211,223 @@
           "reading": "ひく",
           "meaning": "to play (an instrument)"
         }
-      ]
+      ],
+      "blank_target_reading": "ひくことができたら"
     },
     {
-      "id": "n5_044_5",
-      "example_sentence": "車を運転することができますか。",
-      "translation": "Can you drive a car?",
-      "blank_target": "こと",
+      "id": "n5_044_6",
+      "example_sentence": "父は車を運転することができます。",
+      "translation": "My father can drive a car.",
+      "blank_target": "運転することができます",
       "wrong_choices": [
-        "わけ",
-        "せい",
-        "おかげ"
+        "運転しことができます",
+        "運転することでできます",
+        "運転することにできます"
       ],
       "wrong_choice_explanations": [
-        "わけ means 'reason/meaning' — it doesn't fit here because we need こと to form the ability question with できる.",
-        "せい means 'fault/because of' — it doesn't fit here because we're asking about ability, not blame or causation.",
-        "おかげ means 'thanks to' — it doesn't fit here because we need こと to nominalize the verb in the ability pattern."
+        "こと follows the dictionary form する, not the stem し.",
+        "で marks means or place; the ability pattern needs ことが できる.",
+        "ことに cannot express ability; the pattern is ことが できる."
       ],
-      "hiragana_full": "くるまをうんてんすることができますか",
+      "hiragana_full": "ちちはくるまをうんてんすることができます。",
       "audio_alternatives": [
         {
-          "kanji": "車を運転できますか。",
-          "hiragana_full": "くるまをうんてんできますか"
+          "kanji": "父は車が運転できます。",
+          "hiragana_full": "ちちはくるまがうんてんできます。"
         },
         {
-          "kanji": "車の運転ができますか。",
-          "hiragana_full": "くるまのうんてんができますか"
+          "kanji": "父は車を運転することができる。",
+          "hiragana_full": "ちちはくるまをうんてんすることができる。"
         }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
+        {
+          "word": "父",
+          "reading": "ちち",
+          "meaning": "(my) father"
+        },
         {
           "word": "運転",
           "reading": "うんてん",
           "meaning": "driving"
         }
-      ]
-    },
-    {
-      "id": "n5_044_6",
-      "example_sentence": "早く走ることができません。",
-      "translation": "I can't run fast.",
-      "blank_target": "こと",
-      "wrong_choices": [
-        "ほう",
-        "まで",
-        "から"
       ],
-      "wrong_choice_explanations": [
-        "ほう means 'direction/side' — it doesn't fit here because we need こと to nominalize the verb for expressing inability.",
-        "まで means 'until/to' — it doesn't fit here because we need the nominalizer こと for the ability expression.",
-        "から means 'from/because' — it doesn't fit here because we need こと to form ことができる pattern."
-      ],
-      "hiragana_full": "はやくはしることができません",
-      "audio_alternatives": [
-        {
-          "kanji": "速く走れません。",
-          "hiragana_full": "はやくはしれません"
-        },
-        {
-          "kanji": "私は早く走ることができません。",
-          "hiragana_full": "わたしははやくはしることができません"
-        }
-      ],
-      "audio_eligible": true,
-      "register": "neutral",
-      "vocab": [
-        {
-          "word": "走る",
-          "reading": "はしる",
-          "meaning": "to run"
-        }
-      ]
+      "blank_target_reading": "うんてんすることができます"
     },
     {
       "id": "n5_044_7",
-      "example_sentence": "料理を作ることができる人を探しています。",
-      "translation": "I'm looking for someone who can cook.",
-      "blank_target": "こと",
+      "example_sentence": "今日は雨なので、外で遊ぶことができません。",
+      "translation": "It's raining today, so we can't play outside.",
+      "blank_target": "遊ぶことができません",
       "wrong_choices": [
-        "の",
-        "な",
-        "という"
+        "遊ぶことができます",
+        "遊びことができません",
+        "遊んでことができません"
       ],
       "wrong_choice_explanations": [
-        "の can act as a nominalizer too, but ことができる is a set pattern — のができる is not standard, so こと is the form required here.",
-        "な is used with na-adjectives — it doesn't fit here because we need こと for the ことができる pattern.",
-        "という means 'called/that' — it doesn't fit here because we need the nominalizer こと to express ability."
+        "遊ぶことができます ('we can play outside') contradicts 雨なので.",
+        "こと follows the dictionary form 遊ぶ, not the masu-stem 遊び.",
+        "こと follows the dictionary form, not the te-form 遊んで."
       ],
-      "hiragana_full": "りょうりをつくることができるひとをさがしています",
+      "hiragana_full": "きょうはあめなので、そとであそぶことができません。",
       "audio_alternatives": [
         {
-          "kanji": "料理できる人を探しています。",
-          "hiragana_full": "りょうりできるひとをさがしています"
+          "kanji": "今日は雨だから、外で遊べません。",
+          "hiragana_full": "きょうはあめだから、そとであそべません。"
         },
         {
-          "kanji": "料理を作れる人を探しています。",
-          "hiragana_full": "りょうりをつくれるひとをさがしています"
+          "kanji": "今日は雨なので、外で遊ぶことができない。",
+          "hiragana_full": "きょうはあめなので、そとであそぶことができない。"
         }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
         {
-          "word": "作る",
-          "reading": "つくる",
-          "meaning": "to make"
+          "word": "外",
+          "reading": "そと",
+          "meaning": "outside"
         },
         {
-          "word": "探しています",
-          "reading": "さがしています",
-          "meaning": "be looking for"
+          "word": "遊ぶ",
+          "reading": "あそぶ",
+          "meaning": "to play"
         }
-      ]
+      ],
+      "blank_target_reading": "あそぶことができません"
     },
     {
       "id": "n5_044_8",
-      "example_sentence": "英語を教えることができます。",
-      "translation": "I can teach English.",
-      "blank_target": "こと",
+      "example_sentence": "姉は料理が上手で、おいしいケーキを作ることができます。",
+      "translation": "My older sister is a good cook and can make delicious cakes.",
+      "blank_target": "作ることができます",
       "wrong_choices": [
-        "そう",
-        "らしい",
-        "みたい"
+        "作ることができません",
+        "作りことができます",
+        "作ることがします"
       ],
       "wrong_choice_explanations": [
-        "そう means 'seems like' or 'I heard' — it doesn't fit here because we need こと to form the ability expression, not hearsay.",
-        "らしい means 'seems like/apparently' — it doesn't fit here because we're stating ability, not speculation.",
-        "みたい means 'like/seems like' — it doesn't fit here because we need こと to nominalize the verb for ことができる."
+        "'She's a good cook but can't make cakes' contradicts 上手で, which introduces a matching ability.",
+        "こと follows the dictionary form 作る, not the masu-stem 作り.",
+        "The pattern needs できます; ことがします is not Japanese."
       ],
-      "hiragana_full": "えいごをおしえることができます",
+      "hiragana_full": "あねはりょうりがじょうずで、おいしいけーきをつくることができます。",
       "audio_alternatives": [
         {
-          "kanji": "英語を教えられます。",
-          "hiragana_full": "えいごをおしえられます"
+          "kanji": "姉は料理が上手で、おいしいケーキが作れます。",
+          "hiragana_full": "あねはりょうりがじょうずで、おいしいけーきがつくれます。"
         },
         {
-          "kanji": "英語が教えられます。",
-          "hiragana_full": "えいごがおしえられます"
+          "kanji": "姉は料理が得意で、おいしいケーキを作ることができる。",
+          "hiragana_full": "あねはりょうりがとくいで、おいしいけーきをつくることができる。"
         }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
         {
-          "word": "英語",
-          "reading": "えいご",
-          "meaning": "English (language)"
+          "word": "姉",
+          "reading": "あね",
+          "meaning": "(my) older sister"
         },
         {
-          "word": "教える",
-          "reading": "おしえる",
-          "meaning": "to teach"
+          "word": "料理",
+          "reading": "りょうり",
+          "meaning": "cooking"
+        },
+        {
+          "word": "上手",
+          "reading": "じょうず",
+          "meaning": "skillful"
         }
-      ]
+      ],
+      "blank_target_reading": "つくることができます"
     },
     {
       "id": "n5_044_9",
-      "example_sentence": "友達と話すことができてうれしいです。",
-      "translation": "I'm happy that I can talk with my friend.",
-      "blank_target": "こと",
+      "example_sentence": "久しぶりに友達に会うことができて、うれしかったです。",
+      "translation": "I was happy that I could see my friend after a long time.",
+      "blank_target": "会うことができて",
       "wrong_choices": [
-        "もの",
-        "ばあい",
-        "の"
+        "会うことができなくて",
+        "会いことができて",
+        "会うことにできて"
       ],
       "wrong_choice_explanations": [
-        "もの means 'thing' (concrete/tangible) — it doesn't fit here because we need こと to nominalize abstract actions like 'talking'.",
-        "ばあい means 'case/situation' — it doesn't fit here because we need こと to create the ability expression with できる.",
-        "の is another nominalizer, but the fixed pattern is ことができる — のができて is not standard, so こと is needed."
+        "会うことができなくて ('I couldn't see them') doesn't fit with うれしかった ('I was happy').",
+        "こと follows the dictionary form 会う, not the masu-stem 会い.",
+        "Ability is ことが できる; ことに is wrong here."
       ],
-      "hiragana_full": "ともだちとはなすことができてうれしいです",
+      "hiragana_full": "ひさしぶりにともだちにあうことができて、うれしかったです。",
       "audio_alternatives": [
         {
-          "kanji": "友達と話せてうれしいです。",
-          "hiragana_full": "ともだちとはなせてうれしいです"
+          "kanji": "久しぶりに友達に会えて、うれしかったです。",
+          "hiragana_full": "ひさしぶりにともだちにあえて、うれしかったです。"
         },
         {
-          "kanji": "友達と話すことができてよかったです。",
-          "hiragana_full": "ともだちとはなすことができてよかったです"
+          "kanji": "久しぶりに友達に会うことができて、うれしかった。",
+          "hiragana_full": "ひさしぶりにともだちにあうことができて、うれしかった。"
         }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
         {
-          "word": "うれしい",
-          "reading": "うれしい",
-          "meaning": "happy; glad"
+          "word": "友達",
+          "reading": "ともだち",
+          "meaning": "friend"
         }
-      ]
+      ],
+      "blank_target_reading": "あうことができて"
     },
     {
       "id": "n5_044_10",
-      "example_sentence": "漢字を読むことができれば、メニューがわかります。",
-      "translation": "If you can read kanji, you can understand menus.",
-      "blank_target": "こと",
+      "example_sentence": "この部屋の窓から、きれいな山を見ることができます。",
+      "translation": "You can see a beautiful mountain from the window of this room.",
+      "blank_target": "見ることができます",
       "wrong_choices": [
-        "とき",
-        "ところ",
-        "もの"
+        "見てことができます",
+        "見ることでできます",
+        "見ることにできます"
       ],
       "wrong_choice_explanations": [
-        "とき means 'time/when' — it sets up a time clause, but here we need こと to nominalize the verb inside ことができる.",
-        "ところ means 'place' or 'just at the point of doing' — neither fits the ability pattern that requires こと.",
-        "もの means 'thing' in the concrete sense — こと is the abstract-action nominalizer required by ことができる."
+        "こと follows the dictionary form 見る, not the te-form 見て.",
+        "で marks means or place; ability needs ことが できる.",
+        "ことに cannot express ability; the pattern is ことが できる."
       ],
-      "hiragana_full": "かんじをよむことができれば、めにゅーがわかります。",
+      "hiragana_full": "このへやのまどから、きれいなやまをみることができます。",
       "audio_alternatives": [
         {
-          "kanji": "漢字が読めれば、メニューがわかります。",
-          "hiragana_full": "かんじがよめれば、めにゅーがわかります。"
+          "kanji": "この部屋の窓から、きれいな山が見えます。",
+          "hiragana_full": "このへやのまどから、きれいなやまがみえます。"
         },
         {
-          "kanji": "漢字を読むことができたら、メニューがわかります。",
-          "hiragana_full": "かんじをよむことができたら、めにゅーがわかります。"
+          "kanji": "この部屋の窓から、きれいな山を見ることができる。",
+          "hiragana_full": "このへやのまどから、きれいなやまをみることができる。"
         }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
         {
-          "word": "漢字",
-          "reading": "かんじ",
-          "meaning": "kanji"
+          "word": "部屋",
+          "reading": "へや",
+          "meaning": "room"
+        },
+        {
+          "word": "窓",
+          "reading": "まど",
+          "meaning": "window"
+        },
+        {
+          "word": "山",
+          "reading": "やま",
+          "meaning": "mountain"
         }
-      ]
+      ],
+      "blank_target_reading": "みることができます"
     }
   ]
 }

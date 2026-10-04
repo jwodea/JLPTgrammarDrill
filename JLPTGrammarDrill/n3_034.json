@@ -10,14 +10,14 @@
       "translation": "Tanaka can speak not only English but also Chinese.",
       "blank_target": "だけでなく",
       "wrong_choices": [
-        "ばかりか",
+        "ばかり",
         "より",
-        "も"
+        "だけ"
       ],
       "wrong_choice_explanations": [
-        "ばかりか also means 'not only,' but it carries a stronger emphatic tone and typically implies something more surprising—だけでなく is the standard N3 form here.",
+        "ばかり means 'nothing but / only,' so 英語ばかり limits it to just English, contradicting the 'not only English but also Chinese' meaning of だけでなく〜も.",
         "より means 'more than / compared to,' making a comparison, but the sentence lists two things someone can do, not a comparison between them.",
-        "も alone means 'also,' but without the 'not only' framing of だけでなく, the sentence loses its contrastive structure."
+        "だけ means 'only,' so 英語だけ would mean 'only English,' contradicting the additive 'not only...but also' that だけでなく〜も expresses."
       ],
       "hiragana_full": "たなかさんは、えいごだけでなく、ちゅうごくごもはなせます。",
       "audio_alternatives": [
@@ -30,48 +30,21 @@
           "hiragana_full": "たなかさんはえいごだけじゃなくて、ちゅうごくごもはなすことができます。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n3_034_2",
-      "example_sentence": "このアプリは、価格が安いだけでなく、使いやすいことも利点です。",
-      "translation": "This app is not only inexpensive but also easy to use.",
-      "blank_target": "だけでなく",
-      "wrong_choices": [
-        "のみならず",
-        "より",
-        "も"
-      ],
-      "wrong_choice_explanations": [
-        "のみならず means 'not only...but also,' similar to だけでなく, but is more formal and archaic; だけでなく is more standard for contemporary N3 usage.",
-        "より means 'more than' for comparison, but the sentence lists two positive qualities together, not compares one to another.",
-        "も means 'also', but the sentence requires the parallel structure of だけでなく〜も for the 'not only...but also' pattern."
-      ],
-      "hiragana_full": "このアプリは、かかくがやすいだけでなく、つかいやすいこともりてんです。",
-      "audio_alternatives": [
-        {
-          "kanji": "このアプリは安いだけでなく、使いやすいという利点もあります。",
-          "hiragana_full": "このアプリはやすいだけでなく、つかいやすいというりてんもあります。"
-        },
-        {
-          "kanji": "このアプリは価格が安いし、使いやすいです。",
-          "hiragana_full": "このアプリはかかくがやすいし、つかいやすいです。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_034_3",
       "example_sentence": "このホテルは、景色が良いだけでなく、サービスも素晴らしいです。",
       "translation": "This hotel not only has a good view but also excellent service.",
       "blank_target": "だけでなく",
       "wrong_choices": [
-        "ばかりか",
+        "だけ",
         "はもちろん",
         "も"
       ],
       "wrong_choice_explanations": [
-        "ばかりか means 'not only... but even,' which is similar, but だけでなく〜も is more commonly used.",
+        "だけ means 'only,' so 良いだけ would mean 'only the view is good,' contradicting だけでなく〜も, which adds the service as a second strength.",
         "はもちろん means 'of course / not to mention,' but it requires different sentence structure and emphasis.",
         "Using も alone doesn't capture the full meaning of listing one thing plus an additional thing."
       ],
@@ -86,10 +59,23 @@
           "hiragana_full": "このほてるはけしきがよいだけじゃなく、さーびすもすばらしい。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "景色",
+          "reading": "けしき",
+          "meaning": "scenery"
+        },
+        {
+          "word": "素晴らしい",
+          "reading": "すばらしい",
+          "meaning": "wonderful"
+        }
+      ]
     },
     {
-      "id": "n3_034_4",
+      "id": "n3_034_3",
       "example_sentence": "この料理は、味が良いだけでなく、見た目も美しいです。",
       "translation": "This dish not only tastes good but also looks beautiful.",
       "blank_target": "だけでなく",
@@ -114,50 +100,35 @@
           "hiragana_full": "このりょうりは、あじがよいばかりでなく、みためもうつくしい。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_034_5",
-      "example_sentence": "このお店は、商品が豊富なだけでなく、値段も安いです。",
-      "translation": "This store not only has abundant products but also cheap prices.",
-      "blank_target": "だけでなく",
-      "wrong_choices": [
-        "ばかりか",
-        "より",
-        "に限らず"
-      ],
-      "wrong_choice_explanations": [
-        "ばかりか can also mean 'not only,' but だけでなく is more common for balanced contrast.",
-        "より means 'more than' or 'rather than,' not the 'not only...but also' structure.",
-        "に限らず means 'not limited to,' but the sentence requires the paired structure だけでなく〜も."
-      ],
-      "hiragana_full": "このおみせは、しょうひんがほうふなだけでなく、ねだんもやすいです。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "このお店は、商品が豊富なだけでなく、値段も安い。",
-          "hiragana_full": "このおみせは、しょうひんがほうふなだけでなく、ねだんもやすい。"
+          "word": "見た目",
+          "reading": "みため",
+          "meaning": "appearance, looks"
         },
         {
-          "kanji": "このお店は、商品が豊富なうえに、値段も安いです。",
-          "hiragana_full": "このおみせは、しょうひんがほうふなうえに、ねだんもやすいです。"
+          "word": "美しい",
+          "reading": "うつくしい",
+          "meaning": "beautiful"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n3_034_6",
+      "id": "n3_034_4",
       "example_sentence": "日本だけでなく、韓国にも旅行したいです。",
       "translation": "I want to travel not only to Japan but also to Korea.",
       "blank_target": "だけでなく",
       "wrong_choices": [
-        "のみならず",
+        "こそ",
         "より",
-        "も"
+        "など"
       ],
       "wrong_choice_explanations": [
-        "のみならず means 'not only...but', but it's more formal and literary; だけでなく is standard for contemporary usage.",
+        "こそ emphasizes 'Japan precisely / of all places,' singling one out rather than adding Korea as a second destination, which だけでなく〜も does.",
         "より marks comparison; it's not used for the 'not only...but also' structure.",
-        "も alone is incomplete; the full structure だけでなく〜も is needed."
+        "など means 'and the like,' making Japan a vague example, not the 'not only Japan but also Korea' addition of だけでなく〜も."
       ],
       "hiragana_full": "にほんだけでなく、かんこくにもりょこうしたいです。",
       "audio_alternatives": [
@@ -170,22 +141,30 @@
           "hiragana_full": "にほんのみならず、かんこくにもりょこうしたいです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "韓国",
+          "reading": "かんこく",
+          "meaning": "South Korea"
+        }
+      ]
     },
     {
-      "id": "n3_034_7",
+      "id": "n3_034_5",
       "example_sentence": "学業だけでなく、スポーツも頑張っています。",
       "translation": "I am working hard not only on academics but also on sports.",
       "blank_target": "だけでなく",
       "wrong_choices": [
-        "に限らず",
+        "ばかり",
         "より",
-        "も"
+        "こそ"
       ],
       "wrong_choice_explanations": [
-        "に限らず means 'not limited to / not only,' but emphasizes broader scope; the sentence uses だけでなく for listing specific paired items.",
+        "ばかり means 'nothing but,' so 学業ばかり would mean 'nothing but studies,' the opposite of adding sports; だけでなく〜も lists both.",
         "より means 'than', indicating comparison, not the structure of listing multiple items with equal emphasis.",
-        "も alone indicates 'also', but lacks the 'not only' contrast in the first clause."
+        "こそ emphasizes 'academics precisely,' singling it out rather than adding sports as a second effort, which だけでなく〜も does."
       ],
       "hiragana_full": "がくぎょうだけでなく、すぽーつもがんばっています。",
       "audio_alternatives": [
@@ -198,91 +177,200 @@
           "hiragana_full": "がくぎょうのみならず、すぽーつもがんばっています。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "学業",
+          "reading": "がくぎょう",
+          "meaning": "studies, schoolwork"
+        }
+      ]
+    },
+    {
+      "id": "n3_034_6",
+      "example_sentence": "彼女は美しいだけでなく、頭もいい。",
+      "translation": "She is not only beautiful but also smart.",
+      "blank_target": "だけでなく",
+      "wrong_choices": [
+        "そして",
+        "また",
+        "それに"
+      ],
+      "wrong_choice_explanations": [
+        "そして is a sentence-initial conjunction ('and then'); it can't follow 美しい directly the way a clause-final particle does — it needs to start the next clause.",
+        "また also begins a new clause ('also, ...') and can't slot in between 美しい and the comma to bind the two qualities together.",
+        "それに means 'besides' and likewise opens a new clause; it doesn't take the place of だけでなく, which links the two adjectives within one sentence."
+      ],
+      "hiragana_full": "かのじょはうつくしいだけでなく、あたまもいい。",
+      "audio_alternatives": [
+        {
+          "kanji": "彼女は美しいばかりでなく、頭もいい。",
+          "hiragana_full": "かのじょはうつくしいばかりでなく、あたまもいい。"
+        },
+        {
+          "kanji": "彼女は美しいし、頭もいい。",
+          "hiragana_full": "かのじょはうつくしいし、あたまもいい。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "美しい",
+          "reading": "うつくしい",
+          "meaning": "beautiful"
+        }
+      ]
+    },
+    {
+      "id": "n3_034_7",
+      "example_sentence": "今日は宿題だけでなく、掃除もしなければならない。",
+      "translation": "Today I have to do not only homework but also cleaning.",
+      "blank_target": "だけでなく",
+      "wrong_choices": [
+        "を",
+        "で",
+        "まで"
+      ],
+      "wrong_choice_explanations": [
+        "を is the direct object particle but doesn't create the 'not only but also' meaning needed for listing obligations.",
+        "で indicates means or location but doesn't fit the grammar pattern for emphasizing multiple tasks.",
+        "まで means 'until/even' but doesn't create the proper additive structure required here."
+      ],
+      "hiragana_full": "きょうはしゅくだいだけでなく、そうじもしなければならない。",
+      "audio_alternatives": [
+        {
+          "kanji": "今日は宿題だけじゃなく、掃除もしなければならない。",
+          "hiragana_full": "きょうはしゅくだいだけじゃなく、そうじもしなければならない。"
+        },
+        {
+          "kanji": "今日は宿題だけでなく、掃除もしなければいけない。",
+          "hiragana_full": "きょうはしゅくだいだけでなく、そうじもしなければいけない。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "掃除",
+          "reading": "そうじ",
+          "meaning": "cleaning"
+        }
+      ]
     },
     {
       "id": "n3_034_8",
-      "example_sentence": "都市だけでなく、農村地域にも投資が必要です。",
-      "translation": "Investment is needed not only in cities but also in rural areas.",
+      "example_sentence": "この映画は面白いだけでなく、感動的でもある。",
+      "translation": "This movie is not only interesting but also moving.",
       "blank_target": "だけでなく",
       "wrong_choices": [
-        "ばかりか",
-        "はもちろん",
-        "も"
+        "どころか",
+        "ばかり",
+        "ほど"
       ],
       "wrong_choice_explanations": [
-        "ばかりか means 'not only...but', similar meaning but different structure and emphasis.",
-        "はもちろん means 'of course / needless to say,' but requires different sentence construction.",
-        "も means 'also', but we need the full だけでなく~も structure to express both categories."
+        "どころか means 'far from' and creates a contrasting meaning, opposite to the additive one needed here.",
+        "ばかり means 'only/nothing but' and doesn't allow for the addition of another quality like 感動的.",
+        "ほど means 'to the extent of' for degree but doesn't create the 'not only but also' structure."
       ],
-      "hiragana_full": "としだけでなく、のうそんちいきにもとうしがひつようです。",
+      "hiragana_full": "このえいがはおもしろいだけでなく、かんどうてきでもある。",
       "audio_alternatives": [
         {
-          "kanji": "都市のみならず、農村地域にも投資が必要だ。",
-          "hiragana_full": "としのみならず、のうそんちいきにもとうしがひつようだ。"
+          "kanji": "この映画は面白いだけじゃなく、感動的でもある。",
+          "hiragana_full": "このえいがはおもしろいだけじゃなく、かんどうてきでもある。"
         },
         {
-          "kanji": "農村地域だけでなく、都市にも投資が必要です。",
-          "hiragana_full": "のうそんちいきだけでなく、としにもとうしがひつようです。"
+          "kanji": "この映画は面白いし、感動的でもある。",
+          "hiragana_full": "このえいがはおもしろいし、かんどうてきでもある。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "感動的",
+          "reading": "かんどうてき",
+          "meaning": "moving, touching"
+        }
+      ]
     },
     {
       "id": "n3_034_9",
-      "example_sentence": "オンラインだけでなく、オフラインでも営業活動をしています。",
-      "translation": "We conduct sales activities not only online but also offline.",
+      "example_sentence": "この本は子供だけでなく、大人にも人気がある。",
+      "translation": "This book is popular not only with children but also with adults.",
       "blank_target": "だけでなく",
       "wrong_choices": [
-        "のみならず",
-        "より",
-        "も"
+        "には",
+        "でも",
+        "なら"
       ],
       "wrong_choice_explanations": [
-        "のみならず means 'not only...but also,' but it's more formal and less commonly used in modern N3 contexts than だけでなく.",
-        "より means 'more than,' expressing comparison, but the sentence requires listing both online and offline activities.",
-        "も alone means 'also,' but the paired pattern だけでなく〜も is required to properly express the inclusive meaning."
+        "には is a topic particle but doesn't create the emphatic 'not only but also' meaning needed here.",
+        "でも means 'even' or 'but' and doesn't form the proper additive structure for describing popularity.",
+        "なら means 'if' for conditional situations but doesn't fit the context of describing who likes the book."
       ],
-      "hiragana_full": "おんらいんだけでなく、おふらいんでもえいぎょうかつどうをしています。",
+      "hiragana_full": "このほんはこどもだけでなく、おとなにもにんきがある。",
       "audio_alternatives": [
         {
-          "kanji": "オンラインだけでなく、オフラインでも営業活動を行っています。",
-          "hiragana_full": "おんらいんだけでなく、おふらいんでもえいぎょうかつどうをおこなっています。"
+          "kanji": "この本は子供だけではなく、大人にも人気がある。",
+          "hiragana_full": "このほんはこどもだけではなく、おとなにもにんきがある。"
         },
         {
-          "kanji": "オンラインのみならず、オフラインでも営業活動をしています。",
-          "hiragana_full": "おんらいんのみならず、おふらいんでもえいぎょうかつどうをしています。"
+          "kanji": "この本は大人だけでなく、子供にも人気がある。",
+          "hiragana_full": "このほんはおとなだけでなく、こどもにもにんきがある。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "人気",
+          "reading": "にんき",
+          "meaning": "popularity"
+        }
+      ]
     },
     {
       "id": "n3_034_10",
-      "example_sentence": "品質だけでなく、納期も重視しています。",
-      "translation": "We emphasize not only quality but also deadlines.",
+      "example_sentence": "彼女は歌だけでなく、踊りもプロ級だ。",
+      "translation": "She is professional level not only in singing but also in dancing.",
       "blank_target": "だけでなく",
       "wrong_choices": [
-        "に限らず",
-        "より",
-        "も"
+        "だけで",
+        "ばかり",
+        "しか"
       ],
       "wrong_choice_explanations": [
-        "に限らず means 'not limited to,' implying broader scope rather than specific paired items.",
-        "より means 'more than/rather than', expressing comparison, not 'not only...but also'.",
-        "も alone doesn't work; だけでなく〜も is the required structure."
+        "だけで means 'just by singing' and would lead into a result clause ('she earns a living just by singing'), not a parallel skill in dance.",
+        "ばかり would say she does 'nothing but sing,' which directly contradicts the rest of the sentence praising her dancing too.",
+        "しか requires a negative predicate (e.g., 歌しか…ない), so it can't pair with the affirmative プロ級だ that praises both skills."
       ],
-      "hiragana_full": "ひんしつだけでなく、のうきもじゅうししています。",
+      "hiragana_full": "かのじょはうただけでなく、おどりもぷろきゅうだ。",
       "audio_alternatives": [
         {
-          "kanji": "品質だけでなく、納期も大切にしています。",
-          "hiragana_full": "ひんしつだけでなく、のうきもたいせつにしています。"
+          "kanji": "彼女は歌だけじゃなく、踊りもプロ級だ。",
+          "hiragana_full": "かのじょはうただけじゃなく、おどりもぷろきゅうだ。"
         },
         {
-          "kanji": "品質のみならず、納期も重視しています。",
-          "hiragana_full": "ひんしつのみならず、のうきもじゅうししています。"
+          "kanji": "彼女は歌だけでなく、踊りもプロ級です。",
+          "hiragana_full": "かのじょはうただけでなく、おどりもぷろきゅうです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "プロ級",
+          "reading": "ぷろきゅう",
+          "meaning": "professional level"
+        },
+        {
+          "word": "踊り",
+          "reading": "おどり",
+          "meaning": "dance, dancing"
+        }
+      ]
     }
   ]
 }

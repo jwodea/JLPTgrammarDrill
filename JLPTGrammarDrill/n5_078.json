@@ -31,7 +31,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "びき"
+      "blank_target_reading": "びき",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "猫",
+          "reading": "ねこ",
+          "meaning": "cat"
+        }
+      ]
     },
     {
       "id": "n5_078_2",
@@ -39,12 +47,12 @@
       "translation": "I have two dogs.",
       "blank_target": "匹",
       "wrong_choices": [
-        "頭",
+        "冊",
         "台",
         "枚"
       ],
       "wrong_choice_explanations": [
-        "頭 is used for large animals like horses and cows — it doesn't fit here because dogs are considered small animals and use 匹.",
+        "冊 counts bound books and notebooks — a dog is a living animal, not a printed volume, so 冊 cannot count it; small-to-medium animals take 匹.",
         "台 is used for machines and vehicles — it doesn't fit here because dogs are animals, not machines.",
         "枚 is used for flat thin objects — it doesn't fit here because dogs are animals, not flat objects."
       ],
@@ -60,7 +68,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ひき"
+      "blank_target_reading": "ひき",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "犬",
+          "reading": "いぬ",
+          "meaning": "dog"
+        },
+        {
+          "word": "飼っています",
+          "reading": "かっています",
+          "meaning": "keep (a pet)"
+        }
+      ]
     },
     {
       "id": "n5_078_3",
@@ -89,7 +110,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ひき"
+      "blank_target_reading": "ひき",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "金魚",
+          "reading": "きんぎょ",
+          "meaning": "goldfish"
+        },
+        {
+          "word": "泳いでいます",
+          "reading": "およいでいます",
+          "meaning": "are swimming"
+        }
+      ]
     },
     {
       "id": "n5_078_4",
@@ -97,12 +131,12 @@
       "translation": "I bought one rabbit.",
       "blank_target": "匹",
       "wrong_choices": [
-        "羽",
+        "枚",
         "個",
         "人"
       ],
       "wrong_choice_explanations": [
-        "羽 is the counter for birds, and is also traditionally used for rabbits in older or formal Japanese; in modern everyday speech, however, 匹 is the standard counter for rabbits and the expected answer here.",
+        "枚 counts flat, thin objects like paper or plates — a rabbit is a living animal, not a flat object, so 枚 cannot count it; small animals take 匹.",
         "個 is a general counter for objects — it doesn't fit here because rabbits are living animals, not inanimate objects.",
         "人 is used for counting people — it doesn't fit here because rabbits are animals, not humans."
       ],
@@ -118,7 +152,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ぴき"
+      "blank_target_reading": "ぴき",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "うさぎ",
+          "reading": "うさぎ",
+          "meaning": "rabbit"
+        },
+        {
+          "word": "買いました",
+          "reading": "かいました",
+          "meaning": "bought"
+        }
+      ]
     },
     {
       "id": "n5_078_5",
@@ -147,7 +194,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ひき"
+      "blank_target_reading": "ひき",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "ハムスター",
+          "reading": "はむすたー",
+          "meaning": "hamster"
+        },
+        {
+          "word": "かご",
+          "reading": "かご",
+          "meaning": "cage; basket"
+        }
+      ]
     },
     {
       "id": "n5_078_6",
@@ -176,7 +236,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ぴき"
+      "blank_target_reading": "ぴき",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "リス",
+          "reading": "りす",
+          "meaning": "squirrel"
+        },
+        {
+          "word": "遊んでいます",
+          "reading": "あそんでいます",
+          "meaning": "are playing"
+        }
+      ]
     },
     {
       "id": "n5_078_7",
@@ -205,7 +278,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ひき"
+      "blank_target_reading": "ひき",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "カエル",
+          "reading": "かえる",
+          "meaning": "frog"
+        },
+        {
+          "word": "捕まえました",
+          "reading": "つかまえました",
+          "meaning": "caught"
+        }
+      ]
     },
     {
       "id": "n5_078_8",
@@ -234,7 +320,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "びき"
+      "blank_target_reading": "びき",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "蝶",
+          "reading": "ちょう",
+          "meaning": "butterfly"
+        },
+        {
+          "word": "とまっています",
+          "reading": "とまっています",
+          "meaning": "are perched"
+        }
+      ]
     },
     {
       "id": "n5_078_9",
@@ -263,7 +362,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ぴき"
+      "blank_target_reading": "ぴき",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "カブトムシ",
+          "reading": "かぶとむし",
+          "meaning": "rhinoceros beetle"
+        }
+      ]
     },
     {
       "id": "n5_078_10",
@@ -292,7 +399,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ひき"
+      "blank_target_reading": "ひき",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "ネズミ",
+          "reading": "ねずみ",
+          "meaning": "mouse; rat"
+        }
+      ]
     }
   ]
 }

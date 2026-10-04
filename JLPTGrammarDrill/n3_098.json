@@ -31,7 +31,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "というと"
+      "blank_target_reading": "というと",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "庭園",
+          "reading": "ていえん",
+          "meaning": "garden"
+        },
+        {
+          "word": "思い浮かべる",
+          "reading": "おもいうかべる",
+          "meaning": "to call to mind; picture"
+        }
+      ]
     },
     {
       "id": "n3_098_2",
@@ -60,7 +73,8 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "というと"
+      "blank_target_reading": "というと",
+      "register": "neutral"
     },
     {
       "id": "n3_098_3",
@@ -89,7 +103,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "というと"
+      "blank_target_reading": "というと",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "辞める",
+          "reading": "やめる",
+          "meaning": "to quit; resign"
+        }
+      ]
     },
     {
       "id": "n3_098_4",
@@ -118,7 +140,25 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "というと"
+      "blank_target_reading": "というと",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "大自然",
+          "reading": "だいしぜん",
+          "meaning": "vast/great nature"
+        },
+        {
+          "word": "海の幸",
+          "reading": "うみのさち",
+          "meaning": "seafood; bounty of the sea"
+        },
+        {
+          "word": "新鮮",
+          "reading": "しんせん",
+          "meaning": "fresh"
+        }
+      ]
     },
     {
       "id": "n3_098_5",
@@ -147,7 +187,25 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "というと"
+      "blank_target_reading": "というと",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "伝統文化",
+          "reading": "でんとうぶんか",
+          "meaning": "traditional culture"
+        },
+        {
+          "word": "茶道",
+          "reading": "さどう",
+          "meaning": "tea ceremony"
+        },
+        {
+          "word": "生け花",
+          "reading": "いけばな",
+          "meaning": "flower arranging"
+        }
+      ]
     },
     {
       "id": "n3_098_6",
@@ -176,7 +234,8 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "というと"
+      "blank_target_reading": "というと",
+      "register": "neutral"
     },
     {
       "id": "n3_098_7",
@@ -205,7 +264,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "というと"
+      "blank_target_reading": "というと",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "担任",
+          "reading": "たんにん",
+          "meaning": "homeroom teacher"
+        }
+      ]
     },
     {
       "id": "n3_098_8",
@@ -234,7 +301,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "というと"
+      "blank_target_reading": "というと",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "おせち料理",
+          "reading": "おせちりょうり",
+          "meaning": "osechi (New Year's cuisine)"
+        },
+        {
+          "word": "家庭",
+          "reading": "かてい",
+          "meaning": "household; family"
+        }
+      ]
     },
     {
       "id": "n3_098_9",
@@ -263,7 +343,25 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "というと"
+      "blank_target_reading": "というと",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "環境問題",
+          "reading": "かんきょうもんだい",
+          "meaning": "environmental issues"
+        },
+        {
+          "word": "地球温暖化",
+          "reading": "ちきゅうおんだんか",
+          "meaning": "global warming"
+        },
+        {
+          "word": "話題",
+          "reading": "わだい",
+          "meaning": "topic"
+        }
+      ]
     },
     {
       "id": "n3_098_10",
@@ -271,12 +369,12 @@
       "translation": "Saying \"I passed\" sounds good, but it was actually a waitlist acceptance.",
       "blank_target": "と言うと",
       "wrong_choices": [
-        "と言っても",
+        "によると",
         "というより",
         "にしても"
       ],
       "wrong_choice_explanations": [
-        "「と言っても」は逆接で、「言うと聞こえはいいが」という言葉の響きを前置きする慣用には合わない。",
+        "「によると」 marks an information source and normally leads to a reported statement (〜そうだ/という), so 「合格によると」 is ungrammatical here — nothing is being cited; the speaker is only reframing the word 「合格」.",
         "「というより」は対比・訂正を表し、ここでの「言葉にすると」という前置きの意味にはならない。",
         "「にしても」は「〜だとしても」という逆接的仮定で、言葉の響きを前置きするこの文には合わない。"
       ],
@@ -292,7 +390,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "というと"
+      "blank_target_reading": "というと",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "補欠合格",
+          "reading": "ほけつごうかく",
+          "meaning": "wait-list/alternate acceptance"
+        },
+        {
+          "word": "合格",
+          "reading": "ごうかく",
+          "meaning": "passing (an exam)"
+        }
+      ]
     }
   ]
 }

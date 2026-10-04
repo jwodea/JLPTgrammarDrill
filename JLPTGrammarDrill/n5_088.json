@@ -30,7 +30,8 @@
           "hiragana_full": "あしたはあめがふります。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n5_088_2",
@@ -39,12 +40,12 @@
       "blank_target": "だろう",
       "wrong_choices": [
         "そうだ",
-        "はずだ",
+        "ばかりだ",
         "ね"
       ],
       "wrong_choice_explanations": [
         "そうだ here would mean 'I heard he went home' (hearsay), but the speaker is making a guess, not reporting what someone said.",
-        "はずだ means 'he should have gone home' based on a definite reason or evidence; だろう is a softer, intuitive guess.",
+        "ばかりだ (帰ったばかりだ) states as a fact that he *just* got home, but the speaker isn't with him and is only inferring — the guess ('probably') needs だろう.",
         "ね seeks the listener's agreement about shared knowledge, but the speaker is independently inferring that he has gone home."
       ],
       "hiragana_full": "かれはもういえにかえっただろう。",
@@ -58,7 +59,8 @@
           "hiragana_full": "かれはもういえにいるかもしれない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n5_088_3",
@@ -86,7 +88,8 @@
           "hiragana_full": "このえいがはほんとうにおもしろいとおもうだろう？"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n5_088_4",
@@ -95,12 +98,12 @@
       "blank_target": "だろう",
       "wrong_choices": [
         "かもしれない",
-        "はずだ",
+        "だ",
         "になる"
       ],
       "wrong_choice_explanations": [
         "かもしれない means 'might be hard,' expressing weaker probability; だろう asserts the guess with more confidence.",
-        "はずだ means 'should be hard' based on a definite expectation (e.g., the teacher warned us); だろう is a casual prediction.",
+        "だ cannot attach to an i-adjective — 難しいだ is ungrammatical; だろう, by contrast, follows i-adjectives directly to add the speaker's guess.",
         "になる means 'becomes hard,' but the sentence guesses what the test is, not a change of state."
       ],
       "hiragana_full": "こんどのしけんはむずかしいだろう。",
@@ -114,7 +117,20 @@
           "hiragana_full": "つぎのてすとはむずかしいとおもう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "今度",
+          "reading": "こんど",
+          "meaning": "upcoming; next"
+        },
+        {
+          "word": "試験",
+          "reading": "しけん",
+          "meaning": "exam"
+        }
+      ]
     },
     {
       "id": "n5_088_5",
@@ -142,7 +158,8 @@
           "hiragana_full": "きょうもかのじょはやすむとおもう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n5_088_6",
@@ -150,12 +167,12 @@
       "translation": "That shop by the station is probably already closed.",
       "blank_target": "だろう",
       "wrong_choices": [
-        "はずだ",
+        "だ",
         "らしい",
         "そうだ"
       ],
       "wrong_choice_explanations": [
-        "はずだ would mean 'it should be closed' based on a known schedule or rule; だろう is a casual guess from the late hour.",
+        "だ cannot follow a verb form like 閉まっている — 閉まっているだ is ungrammatical; だろう attaches directly to verbs to mark conjecture.",
         "らしい means 'apparently is closed,' implying the speaker heard it from someone; here the speaker is inferring on their own.",
         "そうだ would mean 'I hear it's closed' (hearsay) or 'looks closed' (visual), but the speaker is just guessing without seeing it."
       ],
@@ -170,7 +187,20 @@
           "hiragana_full": "あのみせはもうしまっているとおもう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "駅前",
+          "reading": "えきまえ",
+          "meaning": "in front of the station"
+        },
+        {
+          "word": "閉まっている",
+          "reading": "しまっている",
+          "meaning": "is closed"
+        }
+      ]
     },
     {
       "id": "n5_088_7",
@@ -179,12 +209,12 @@
       "blank_target": "だろう",
       "wrong_choices": [
         "そうだ",
-        "はずだ",
+        "でした",
         "かもしれない"
       ],
       "wrong_choice_explanations": [
         "そうだ would mean 'I heard they are sleeping,' but the speaker is inferring from the time, not reporting hearsay.",
-        "はずだ would mean 'they should be asleep' based on a strict rule or schedule; だろう is a softer guess from the situation.",
+        "でした is the polite past copula and cannot attach to 寝ている — 寝ているでした is ungrammatical; a guess about right now is expressed with だろう.",
         "かもしれない means 'might be asleep,' implying real uncertainty; the late hour makes the speaker confident enough to use だろう."
       ],
       "hiragana_full": "もうよるおそいから、こどもはねているだろう。",
@@ -198,7 +228,20 @@
           "hiragana_full": "もうおそいからこどもはねたとおもう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "夜遅い",
+          "reading": "よるおそい",
+          "meaning": "late at night"
+        },
+        {
+          "word": "寝ている",
+          "reading": "ねている",
+          "meaning": "is sleeping"
+        }
+      ]
     },
     {
       "id": "n5_088_8",
@@ -226,7 +269,15 @@
           "hiragana_full": "たなかさんはいまもげんきだとおもう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "きっと",
+          "reading": "きっと",
+          "meaning": "surely"
+        }
+      ]
     },
     {
       "id": "n5_088_9",
@@ -254,7 +305,20 @@
           "hiragana_full": "このもんだいはこどもでもすぐとける。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "計算",
+          "reading": "けいさん",
+          "meaning": "calculation"
+        },
+        {
+          "word": "簡単",
+          "reading": "かんたん",
+          "meaning": "easy; simple"
+        }
+      ]
     },
     {
       "id": "n5_088_10",
@@ -263,12 +327,12 @@
       "blank_target": "だろう",
       "wrong_choices": [
         "かもしれない",
-        "はずだ",
+        "そうだ",
         "ね"
       ],
       "wrong_choice_explanations": [
         "かもしれない means 'might run short,' less certain than だろう, which expresses the speaker's confident prediction based on past months.",
-        "はずだ would mean 'we definitely should be short' based on a precise calculation; だろう is more of an intuitive forecast.",
+        "そうだ after 足りない is hearsay ('I hear the money won't be enough'), but the speaker is making their own prediction from past months, not reporting what someone said.",
         "ね seeks shared agreement, but the speaker is voicing their own resigned guess about the month ahead."
       ],
       "hiragana_full": "こんげつもおかねがたりないだろう。",
@@ -282,7 +346,15 @@
           "hiragana_full": "こんげつもせいかつひがたりないとおもう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "足りない",
+          "reading": "たりない",
+          "meaning": "not enough"
+        }
+      ]
     }
   ]
 }

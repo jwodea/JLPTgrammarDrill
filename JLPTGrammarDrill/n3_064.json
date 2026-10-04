@@ -30,35 +30,15 @@
           "hiragana_full": "ちょうしょくをとらずに、がっこうへいってしまった。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_064_10",
-      "example_sentence": "徹底的に検討せずに、決定を急ぎました。",
-      "translation": "I rushed to decide without thorough examination.",
-      "blank_target": "ずに",
-      "wrong_choices": [
-        "ないで",
-        "なくて",
-        "なしで"
-      ],
-      "wrong_choice_explanations": [
-        "する's negative-without form uses the し-stem (検討しないで); 検討せないで is ungrammatical, so the せ-stem shown here takes ずに.",
-        "〜なくて marks a cause ('because we didn't examine it') and needs the し-stem (検討しなくて); after the せ-stem it doesn't attach, and ずに's 'without examining' manner fits.",
-        "〜なしで needs a noun (検討なしで, 'without examination'); it can't follow the verb stem 検討せ, so the verbal ずに is required."
-      ],
-      "hiragana_full": "てっていてきにけんとうせずに、けっていをいそぎました。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "十分に検討しないで、決定を急ぎました。",
-          "hiragana_full": "じゅうぶんにけんとうしないで、けっていをいそぎました。"
-        },
-        {
-          "kanji": "よく考えずに、決定を急ぎました。",
-          "hiragana_full": "よくかんがえずに、けっていをいそぎました。"
+          "word": "朝食",
+          "reading": "ちょうしょく",
+          "meaning": "breakfast"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
       "id": "n3_064_2",
@@ -86,7 +66,25 @@
           "hiragana_full": "じょうしにそうだんせずに、じぶんでかってにはんだんしてしまった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "上司",
+          "reading": "じょうし",
+          "meaning": "boss"
+        },
+        {
+          "word": "独断",
+          "reading": "どくだん",
+          "meaning": "one's own discretion"
+        },
+        {
+          "word": "判断",
+          "reading": "はんだん",
+          "meaning": "judgment"
+        }
+      ]
     },
     {
       "id": "n3_064_3",
@@ -114,7 +112,20 @@
           "hiragana_full": "ちずをかくにんしないまま、みしらぬみちをあるいてしまった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "地図",
+          "reading": "ちず",
+          "meaning": "map"
+        },
+        {
+          "word": "確認",
+          "reading": "かくにん",
+          "meaning": "confirmation"
+        }
+      ]
     },
     {
       "id": "n3_064_4",
@@ -142,7 +153,15 @@
           "hiragana_full": "なにもいわずに、いなくなってしまった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "去って",
+          "reading": "さって",
+          "meaning": "to leave/depart"
+        }
+      ]
     },
     {
       "id": "n3_064_5",
@@ -170,7 +189,15 @@
           "hiragana_full": "まにゅあるをよまずに、つかってみました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "取扱説明書",
+          "reading": "とりあつかいせつめいしょ",
+          "meaning": "instruction manual"
+        }
+      ]
     },
     {
       "id": "n3_064_6",
@@ -198,7 +225,15 @@
           "hiragana_full": "きゅうけいをとらないで、はちじかんはたらきました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "休憩",
+          "reading": "きゅうけい",
+          "meaning": "break/rest"
+        }
+      ]
     },
     {
       "id": "n3_064_7",
@@ -206,12 +241,12 @@
       "translation": "I kept it a secret without telling anyone.",
       "blank_target": "ずに",
       "wrong_choices": [
-        "ないまま",
+        "ずとも",
         "なくて",
         "なしで"
       ],
       "wrong_choice_explanations": [
-        "ないまま means 'while still not having done,' describing an ongoing state, but ずに simply means 'without doing' as a one-time action.",
+        "〜ずとも means 'even without doing,' implying it's acceptable not to (言わずとも分かる); the sentence simply reports keeping the secret by not telling anyone, so ずに is needed.",
         "なくて means 'not doing and...' connecting a cause/reason, but the sentence describes keeping a secret without telling anyone—a manner, not a cause.",
         "なしで means 'without (a thing),' but the sentence requires a verbal form 'without telling,' which ずに provides."
       ],
@@ -226,7 +261,15 @@
           "hiragana_full": "だれにもいわないで、ひみつにしました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "秘密",
+          "reading": "ひみつ",
+          "meaning": "secret"
+        }
+      ]
     },
     {
       "id": "n3_064_8",
@@ -254,35 +297,90 @@
           "hiragana_full": "へんとうをまたずに、どくだんですすめました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "返答",
+          "reading": "へんとう",
+          "meaning": "response"
+        },
+        {
+          "word": "勝手に",
+          "reading": "かってに",
+          "meaning": "on one's own"
+        }
+      ]
     },
     {
       "id": "n3_064_9",
-      "example_sentence": "事前協議せずに、決定を下しました。",
-      "translation": "I made a decision without prior consultation.",
+      "example_sentence": "徹底的に検討せずに、決定を急ぎました。",
+      "translation": "I rushed to decide without thorough examination.",
       "blank_target": "ずに",
       "wrong_choices": [
+        "ないで",
         "なくて",
-        "ずとも",
-        "ないで"
+        "なしで"
       ],
       "wrong_choice_explanations": [
-        "〜なくて marks a cause and needs the し-stem (協議しなくて); after the せ-stem it doesn't attach, and ずに's 'without consulting' manner is what fits.",
-        "〜ずとも means 'even without doing' (協議せずとも); it attaches to the same せ-stem but adds an 'even if you don't' nuance, while the sentence simply states deciding without consultation.",
-        "する's negative-without form uses the し-stem (協議しないで); 協議せないで is ungrammatical, so the せ-stem here takes ずに."
+        "する's negative-without form uses the し-stem (検討しないで); 検討せないで is ungrammatical, so the せ-stem shown here takes ずに.",
+        "〜なくて marks a cause ('because we didn't examine it') and needs the し-stem (検討しなくて); after the せ-stem it doesn't attach, and ずに's 'without examining' manner fits.",
+        "〜なしで needs a noun (検討なしで, 'without examination'); it can't follow the verb stem 検討せ, so the verbal ずに is required."
       ],
-      "hiragana_full": "じぜんきょうぎせずに、けっていをくだしました。",
+      "hiragana_full": "てっていてきにけんとうせずに、けっていをいそぎました。",
       "audio_alternatives": [
         {
-          "kanji": "事前に相談せずに、決定しました。",
-          "hiragana_full": "じぜんにそうだんせずに、けっていしました。"
+          "kanji": "十分に検討しないで、決定を急ぎました。",
+          "hiragana_full": "じゅうぶんにけんとうしないで、けっていをいそぎました。"
         },
         {
-          "kanji": "前もって協議しないで、決定を下しました。",
-          "hiragana_full": "まえもってきょうぎしないで、けっていをくだしました。"
+          "kanji": "よく考えずに、決定を急ぎました。",
+          "hiragana_full": "よくかんがえずに、けっていをいそぎました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "徹底的",
+          "reading": "てっていてき",
+          "meaning": "thorough"
+        },
+        {
+          "word": "検討",
+          "reading": "けんとう",
+          "meaning": "examination"
+        }
+      ]
+    },
+    {
+      "id": "n3_064_10",
+      "example_sentence": "手を洗わずにご飯を食べた。",
+      "translation": "I ate without washing my hands.",
+      "blank_target": "ず",
+      "wrong_choices": [
+        "ないで",
+        "なく",
+        "れず"
+      ],
+      "wrong_choice_explanations": [
+        "ないで would work semantically but doesn't fit the ～ずに pattern being tested.",
+        "なく is the adverbial form of ない which cannot take に directly.",
+        "れず would create 洗われずに (passive), meaning 'without being washed by someone'."
+      ],
+      "hiragana_full": "てをあらわずにごはんをたべた。",
+      "audio_alternatives": [
+        {
+          "kanji": "手を洗わないでご飯を食べた。",
+          "hiragana_full": "てをあらわないでごはんをたべた。"
+        },
+        {
+          "kanji": "手を洗わずにご飯を食べました。",
+          "hiragana_full": "てをあらわずにごはんをたべました。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "casual"
     }
   ]
 }

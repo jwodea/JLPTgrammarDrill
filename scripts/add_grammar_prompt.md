@@ -38,6 +38,7 @@ Each exercise object (in this key order, matching existing files):
 - `audio_eligible` — `true` (boolean)
 - `register` — one of `"casual"` (plain-form speech among friends/family), `"neutral"` (です・ます default or register-irrelevant), `"formal"` (formal spoken: keigo, business, announcements), `"written"` (literary/written: essays, news, contracts). Always assess; `"neutral"` is the common case. A non-neutral tag is shown to the learner as a chip before answering, so the sentence — and ideally the translation, e.g. "(to your boss)" — must actually carry that register.
 - `vocab` — array of **2–4** objects `{ "word": ..., "reading": ..., "meaning": ... }`: the significant words a learner at this JLPT level would plausibly look up. `reading` is full hiragana; `meaning` is a short English gloss matching this sentence's usage. Never include `blank_target` or the grammar pattern itself.
+- `blank_occurrence` — optional int, 1-based. Only when `blank_target` also occurs elsewhere in the sentence (し in 面白いし…勉強しています, が in 雨が降っているが): names which occurrence is the blank. Without it the app blanks EVERY occurrence, which only paired patterns (〜とか〜とか, 〜といい〜といい) want. Prefer rewording so the target occurs once.
 - `blank_target_reading` — full hiragana reading of `blank_target`, **only when it contains kanji** (rendered as furigana when the answer is revealed). Omit the key entirely for kana-only targets.
 
 ### Content quality rules

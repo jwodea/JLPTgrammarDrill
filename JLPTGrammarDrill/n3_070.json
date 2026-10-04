@@ -6,62 +6,6 @@
   "exercises": [
     {
       "id": "n3_070_1",
-      "example_sentence": "教師として、生徒の成長を応援することが大事です。",
-      "translation": "As a teacher, it is important to support students' growth.",
-      "blank_target": "として",
-      "wrong_choices": [
-        "に対して",
-        "にとって",
-        "において"
-      ],
-      "wrong_choice_explanations": [
-        "に対して means 'toward / against,' directing action at a target, but the sentence is about acting in one's role, not directing behavior at someone.",
-        "にとって means 'for / from the standpoint of,' expressing perspective, but the sentence is about fulfilling the role of teacher, not their viewpoint.",
-        "において means 'in / at (a place or field),' marking a context or location, but the sentence is about one's capacity/role, not a setting."
-      ],
-      "hiragana_full": "きょうしとして、せいとのせいちょうをおうえんすることがだいじです。",
-      "audio_alternatives": [
-        {
-          "kanji": "先生として、生徒の成長を支援することが大切です。",
-          "hiragana_full": "せんせいとして、せいとのせいちょうをしえんすることがたいせつです。"
-        },
-        {
-          "kanji": "教師として、生徒の成長を応援するのは大事です。",
-          "hiragana_full": "きょうしとして、せいとのせいちょうをおうえんするのはだいじです。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_070_10",
-      "example_sentence": "ビジネスリーダーとして、責任感を持つべきです。",
-      "translation": "As a business leader, you should have a sense of responsibility.",
-      "blank_target": "として",
-      "wrong_choices": [
-        "に対して",
-        "にとって",
-        "において"
-      ],
-      "wrong_choice_explanations": [
-        "に対して means 'toward / against,' directing action at a target, but the sentence is about the conduct expected in the role of a business leader, not action aimed at someone.",
-        "にとって means 'for / from one's standpoint,' marking perspective, but として expresses the capacity — being a leader — that the obligation follows from.",
-        "において means 'in / at (a setting or field),' marking where something occurs, but the sentence specifies the role one holds, not a place."
-      ],
-      "hiragana_full": "びじねすりーだーとして、せきにんかんをもつべきです。",
-      "audio_alternatives": [
-        {
-          "kanji": "ビジネスリーダーとして、責任感を持たなければなりません。",
-          "hiragana_full": "びじねすりーだーとして、せきにんかんをもたなければなりません。"
-        },
-        {
-          "kanji": "ビジネスリーダーとして、責任感を持つことが大切です。",
-          "hiragana_full": "びじねすりーだーとして、せきにんかんをもつことがたいせつです。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_070_2",
       "example_sentence": "経営者として、社員の幸福を最優先にしたいと考えています。",
       "translation": "As a manager, I want to prioritize the happiness of my employees.",
       "blank_target": "として",
@@ -86,10 +30,28 @@
           "hiragana_full": "かんりしゃとして、じゅうぎょういんのこうふくをもっともじゅうしたいとかんがえています。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "経営者",
+          "reading": "けいえいしゃ",
+          "meaning": "manager, executive"
+        },
+        {
+          "word": "幸福",
+          "reading": "こうふく",
+          "meaning": "happiness, welfare"
+        },
+        {
+          "word": "最優先",
+          "reading": "さいゆうせん",
+          "meaning": "top priority"
+        }
+      ]
     },
     {
-      "id": "n3_070_3",
+      "id": "n3_070_2",
       "example_sentence": "ガイドとして、安全を最優先にしています。",
       "translation": "As a guide, I prioritize safety above all else.",
       "blank_target": "として",
@@ -114,10 +76,18 @@
           "hiragana_full": "がいどとして、なによりあんぜんをたいせつにしています。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "最優先",
+          "reading": "さいゆうせん",
+          "meaning": "top priority"
+        }
+      ]
     },
     {
-      "id": "n3_070_4",
+      "id": "n3_070_3",
       "example_sentence": "日本人として、この伝統を守っていきたいです。",
       "translation": "As a Japanese person, I want to preserve this tradition.",
       "blank_target": "として",
@@ -142,66 +112,18 @@
           "hiragana_full": "にほんじんとして、このでんとうをうけついでいきたいとおもいます。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_070_5",
-      "example_sentence": "営業マンとして、顧客の満足が第一です。",
-      "translation": "As a salesman, customer satisfaction comes first.",
-      "blank_target": "として",
-      "wrong_choices": [
-        "に対して",
-        "にとって",
-        "において"
-      ],
-      "wrong_choice_explanations": [
-        "に対して means 'toward / against,' aiming an action at a target, but the sentence states a priority held in the role of salesman, not an action directed at the customer.",
-        "にとって means 'for / from the standpoint of,' marking whose viewpoint applies, but として is what expresses acting in the capacity of a salesman.",
-        "において means 'in / at (a setting or field),' marking where something occurs, but the sentence specifies the role one holds, not a location."
-      ],
-      "hiragana_full": "えいぎょうまんとして、こきゃくのまんぞくがだいいちです。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "セールスマンとして、顧客の満足が一番大切です。",
-          "hiragana_full": "せーるすまんとして、こきゃくのまんぞくがいちばんたいせつです。"
-        },
-        {
-          "kanji": "営業マンとして、お客様の満足を最優先にしています。",
-          "hiragana_full": "えいぎょうまんとして、おきゃくさまのまんぞくをさいゆうせんにしています。"
+          "word": "伝統",
+          "reading": "でんとう",
+          "meaning": "tradition"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n3_070_6",
-      "example_sentence": "母として、子どもの安全が第一です。",
-      "translation": "As a mother, my children's safety comes first.",
-      "blank_target": "として",
-      "wrong_choices": [
-        "にとって",
-        "について",
-        "に対して"
-      ],
-      "wrong_choice_explanations": [
-        "にとって means 'for someone,' expressing perspective, but として describes the role of being a mother, not just her viewpoint.",
-        "について means 'about/concerning,' introducing a topic, but the sentence is about acting in one's capacity as a mother.",
-        "に対して means 'toward,' directing action, but the sentence describes a mother's role-based priority, not action directed at someone."
-      ],
-      "hiragana_full": "ははとして、こどものあんぜんがだいいちです。",
-      "audio_alternatives": [
-        {
-          "kanji": "母親として、子どもの安全が最優先です。",
-          "hiragana_full": "ははおやとして、こどものあんぜんがさいゆうせんです。"
-        },
-        {
-          "kanji": "母として、子どもの安全を一番に考えます。",
-          "hiragana_full": "ははとして、こどものあんぜんをいちばんにかんがえます。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_070_7",
+      "id": "n3_070_4",
       "example_sentence": "エンジニアとして、品質を重視します。",
       "translation": "As an engineer, I prioritize quality.",
       "blank_target": "として",
@@ -226,40 +148,25 @@
           "hiragana_full": "えんじにあなので、ひんしつをじゅうしします。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_070_8",
-      "example_sentence": "研究者として、真実を追求することが責務です。",
-      "translation": "As a researcher, it is my duty to pursue truth.",
-      "blank_target": "として",
-      "wrong_choices": [
-        "について",
-        "にとって",
-        "に対して"
-      ],
-      "wrong_choice_explanations": [
-        "について means 'about / concerning,' introducing a topic for discussion, but the sentence is about a researcher's role-based duty, not a topic.",
-        "にとって means 'for someone,' expressing perspective, but として emphasizes acting in the capacity of a researcher, not just their viewpoint.",
-        "に対して means 'toward / against,' directing action at a target, but the sentence describes what a researcher's role requires."
-      ],
-      "hiragana_full": "けんきゅうしゃとして、しんじつをついきゅうすることがせきむです。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "研究者として、真実を追求するのが責任です。",
-          "hiragana_full": "けんきゅうしゃとして、しんじつをついきゅうするのがせきにんです。"
+          "word": "品質",
+          "reading": "ひんしつ",
+          "meaning": "quality"
         },
         {
-          "kanji": "研究者として、真実を求めることが義務です。",
-          "hiragana_full": "けんきゅうしゃとして、しんじつをもとめることがぎむです。"
+          "word": "重視",
+          "reading": "じゅうし",
+          "meaning": "to place importance on"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n3_070_9",
-      "example_sentence": "プロダクトマネージャーとして、責任を果たします。",
-      "translation": "As a product manager, I fulfill my responsibilities.",
+      "id": "n3_070_5",
+      "example_sentence": "ビジネスリーダーとして、責任感を持つべきです。",
+      "translation": "As a business leader, you should have a sense of responsibility.",
       "blank_target": "として",
       "wrong_choices": [
         "に対して",
@@ -267,22 +174,208 @@
         "において"
       ],
       "wrong_choice_explanations": [
-        "に対して means 'toward,' but the sentence describes a role or capacity, which として expresses.",
-        "にとって means 'for someone's perspective,' but the sentence describes taking a role, not evaluating from a viewpoint.",
-        "において means 'in' or 'at,' but として better conveys 'in the capacity of' or 'as a PM.'"
+        "に対して means 'toward / against,' directing action at a target, but the sentence is about the conduct expected in the role of a business leader, not action aimed at someone.",
+        "にとって means 'for / from one's standpoint,' marking perspective, but として expresses the capacity — being a leader — that the obligation follows from.",
+        "において means 'in / at (a setting or field),' marking where something occurs, but the sentence specifies the role one holds, not a place."
       ],
-      "hiragana_full": "プロダクトマネージャーとして、せきにんをはたします。",
+      "hiragana_full": "びじねすりーだーとして、せきにんかんをもつべきです。",
       "audio_alternatives": [
         {
-          "kanji": "プロダクトマネージャーとして、責任を全うします。",
-          "hiragana_full": "プロダクトマネージャーとして、せきにんをまっとうします。"
+          "kanji": "ビジネスリーダーとして、責任感を持たなければなりません。",
+          "hiragana_full": "びじねすりーだーとして、せきにんかんをもたなければなりません。"
         },
         {
-          "kanji": "プロダクトマネージャーとして、役割を果たします。",
-          "hiragana_full": "プロダクトマネージャーとして、やくわりをはたします。"
+          "kanji": "ビジネスリーダーとして、責任感を持つことが大切です。",
+          "hiragana_full": "びじねすりーだーとして、せきにんかんをもつことがたいせつです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "責任感",
+          "reading": "せきにんかん",
+          "meaning": "sense of responsibility"
+        }
+      ]
+    },
+    {
+      "id": "n3_070_6",
+      "example_sentence": "彼は医者として働いています。",
+      "translation": "He works as a doctor.",
+      "blank_target": "として",
+      "wrong_choices": [
+        "について",
+        "に関して",
+        "にとって"
+      ],
+      "wrong_choice_explanations": [
+        "について means 'about/regarding' — it doesn't fit here because we're not discussing a topic but rather his role.",
+        "に関して means 'regarding/concerning' — it doesn't fit here because we're not talking about a subject matter but his profession.",
+        "にとって means 'for/from the perspective of' — it doesn't fit here because we're not discussing viewpoints but his job role."
+      ],
+      "hiragana_full": "かれはいしゃとしてはたらいています",
+      "audio_alternatives": [
+        {
+          "kanji": "彼は医者の仕事をしています。",
+          "hiragana_full": "かれはいしゃのしごとをしています"
+        },
+        {
+          "kanji": "彼は医者として勤めています。",
+          "hiragana_full": "かれはいしゃとしてつとめています"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral"
+    },
+    {
+      "id": "n3_070_7",
+      "example_sentence": "この問題は重要な課題として考えられています。",
+      "translation": "This problem is considered as an important issue.",
+      "blank_target": "として",
+      "wrong_choices": [
+        "らしい",
+        "みたい",
+        "ような"
+      ],
+      "wrong_choice_explanations": [
+        "らしい means 'seems like/apparently' — it doesn't fit here because we're not showing appearance but classification.",
+        "みたい means 'like/similar to' — it doesn't fit here because we're not making comparisons but stating categorization.",
+        "ような means 'like/such as' — it doesn't fit here because we're not showing similarity but how the problem is viewed."
+      ],
+      "hiragana_full": "このもんだいはじゅうようなかだいとしてかんがえられています",
+      "audio_alternatives": [
+        {
+          "kanji": "この問題は重要な課題だと思われています。",
+          "hiragana_full": "このもんだいはじゅうようなかだいだとおもわれています"
+        },
+        {
+          "kanji": "この問題は大切な課題と考えられています。",
+          "hiragana_full": "このもんだいはたいせつなかだいとかんがえられています"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "課題",
+          "reading": "かだい",
+          "meaning": "issue, task"
+        }
+      ]
+    },
+    {
+      "id": "n3_070_8",
+      "example_sentence": "彼は学生代表として選ばれました。",
+      "translation": "He was chosen as the student representative.",
+      "blank_target": "として",
+      "wrong_choices": [
+        "なので",
+        "だから",
+        "ため"
+      ],
+      "wrong_choice_explanations": [
+        "なので means 'because/so' — it doesn't fit here because we're not showing cause-effect but his appointed role.",
+        "だから means 'therefore/so' — it doesn't fit here because we're not showing conclusion but his position.",
+        "ため means 'for the sake of/because of' — it doesn't fit here because we're not showing purpose or reason but his role."
+      ],
+      "hiragana_full": "かれはがくせいだいひょうとしてえらばれました",
+      "audio_alternatives": [
+        {
+          "kanji": "彼は学生の代表に選ばれました。",
+          "hiragana_full": "かれはがくせいのだいひょうにえらばれました"
+        },
+        {
+          "kanji": "彼が学生代表として選ばれました。",
+          "hiragana_full": "かれががくせいだいひょうとしてえらばれました"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "代表",
+          "reading": "だいひょう",
+          "meaning": "representative"
+        }
+      ]
+    },
+    {
+      "id": "n3_070_9",
+      "example_sentence": "彼は優秀な選手として有名です。",
+      "translation": "He is famous as an excellent player.",
+      "blank_target": "として",
+      "wrong_choices": [
+        "しか",
+        "こそ",
+        "など"
+      ],
+      "wrong_choice_explanations": [
+        "しか means 'only' (with negative) — it doesn't fit here because we're not limiting but describing his role.",
+        "こそ means 'precisely/exactly' — it doesn't fit here because we're not emphasizing but stating his capacity as a player.",
+        "など means 'such as/and so on' — it doesn't fit here because we're not giving examples but describing his reputation."
+      ],
+      "hiragana_full": "かれはゆうしゅうなせんしゅとしてゆうめいです",
+      "audio_alternatives": [
+        {
+          "kanji": "彼は優秀な選手で有名です。",
+          "hiragana_full": "かれはゆうしゅうなせんしゅでゆうめいです"
+        },
+        {
+          "kanji": "彼は優れた選手として知られています。",
+          "hiragana_full": "かれはすぐれたせんしゅとしてしられています"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "優秀",
+          "reading": "ゆうしゅう",
+          "meaning": "excellent"
+        },
+        {
+          "word": "選手",
+          "reading": "せんしゅ",
+          "meaning": "athlete, player"
+        }
+      ]
+    },
+    {
+      "id": "n3_070_10",
+      "example_sentence": "この薬は風邪の治療薬として開発されました。",
+      "translation": "This medicine was developed as a treatment for colds.",
+      "blank_target": "として",
+      "wrong_choices": [
+        "ばかり",
+        "すら",
+        "やら"
+      ],
+      "wrong_choice_explanations": [
+        "ばかり means 'only/just' — it doesn't fit here because we're not limiting but describing the medicine's purpose.",
+        "すら means 'even' — it doesn't fit here because we're not showing unexpectedness but the medicine's function.",
+        "やら means 'or/and such' — it doesn't fit here because we're not listing alternatives but stating the medicine's intended use."
+      ],
+      "hiragana_full": "このくすりはかぜのちりょうやくとしてかいはつされました",
+      "audio_alternatives": [
+        {
+          "kanji": "この薬は風邪の治療のために開発されました。",
+          "hiragana_full": "このくすりはかぜのちりょうのためにかいはつされました"
+        },
+        {
+          "kanji": "この薬は風邪を治すために開発されました。",
+          "hiragana_full": "このくすりはかぜをなおすためにかいはつされました"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "治療薬",
+          "reading": "ちりょうやく",
+          "meaning": "remedy, therapeutic drug"
+        }
+      ]
     }
   ]
 }

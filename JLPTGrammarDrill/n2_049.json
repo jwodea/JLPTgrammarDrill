@@ -30,7 +30,20 @@
           "hiragana_full": "このきかくをひきうけたからには、せいこうさせるつもりです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "企画",
+          "reading": "きかく",
+          "meaning": "plan/project"
+        },
+        {
+          "word": "引き受けた",
+          "reading": "ひきうけた",
+          "meaning": "took on"
+        }
+      ]
     },
     {
       "id": "n2_049_2",
@@ -58,7 +71,20 @@
           "hiragana_full": "いしゃになったからは、かんじゃのためにぜんりょくをつくしたい。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "患者",
+          "reading": "かんじゃ",
+          "meaning": "patient"
+        },
+        {
+          "word": "尽くしたい",
+          "reading": "つくしたい",
+          "meaning": "want to devote oneself"
+        }
+      ]
     },
     {
       "id": "n2_049_3",
@@ -86,7 +112,25 @@
           "hiragana_full": "ちーむのきゃぷてんをひきうけたからには、みんなをまとめるせきにんがあります。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "引き受けた",
+          "reading": "ひきうけた",
+          "meaning": "took on"
+        },
+        {
+          "word": "まとめる",
+          "reading": "まとめる",
+          "meaning": "to lead/pull together"
+        },
+        {
+          "word": "責任",
+          "reading": "せきにん",
+          "meaning": "responsibility"
+        }
+      ]
     },
     {
       "id": "n2_049_4",
@@ -114,7 +158,25 @@
           "hiragana_full": "りゅうがくすることをきめたいじょう、ごがくりょくをあげなければならない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "留学",
+          "reading": "りゅうがく",
+          "meaning": "study abroad"
+        },
+        {
+          "word": "語学力",
+          "reading": "ごがくりょく",
+          "meaning": "language ability"
+        },
+        {
+          "word": "向上",
+          "reading": "こうじょう",
+          "meaning": "improvement"
+        }
+      ]
     },
     {
       "id": "n2_049_5",
@@ -142,122 +204,23 @@
           "hiragana_full": "おやになったからには、こどものしょうらいについてしんけんにかんがえるべきだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "将来",
+          "reading": "しょうらい",
+          "meaning": "future"
+        },
+        {
+          "word": "真剣",
+          "reading": "しんけん",
+          "meaning": "serious"
+        }
+      ]
     },
     {
       "id": "n2_049_6",
-      "example_sentence": "この仕事を引き受けたからには、全力を尽くすつもりだ。",
-      "translation": "Now that I have accepted this job, I intend to give it my all.",
-      "blank_target": "たからには",
-      "wrong_choices": [
-        "たところで",
-        "たものの",
-        "たばかりに"
-      ],
-      "wrong_choice_explanations": [
-        "〜たところで means 'even if' and suggests the action would be pointless; that contradicts the determination to give it one's all expressed here.",
-        "たものの means 'although' and introduces contrast, but this sentence expresses commitment without contradiction.",
-        "たばかりに means 'just because' and often implies regret or negative consequences, which contradicts the positive determination here."
-      ],
-      "hiragana_full": "このしごとをひきうけたからには、ぜんりょくをつくすつもりだ。",
-      "audio_alternatives": [
-        {
-          "kanji": "この仕事を引き受けた以上、全力を尽くすつもりだ。",
-          "hiragana_full": "このしごとをひきうけたいじょう、ぜんりょくをつくすつもりだ。"
-        },
-        {
-          "kanji": "この仕事を引き受けたからには、全力を尽くすつもりです。",
-          "hiragana_full": "このしごとをひきうけたからには、ぜんりょくをつくすつもりです。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_049_7",
-      "example_sentence": "このプロジェクトの責任者となったからには、最後まで責任を持つ。",
-      "translation": "Now that I've become the project manager, I will take responsibility until the end.",
-      "blank_target": "たからには",
-      "wrong_choices": [
-        "たせいで",
-        "たおかげで",
-        "たために"
-      ],
-      "wrong_choice_explanations": [
-        "たせいで means 'because of' and implies blame or negative causation, which doesn't match the positive acceptance of responsibility here.",
-        "たおかげで means 'thanks to' and expresses gratitude for positive results, but doesn't convey the sense of obligation that からには expresses.",
-        "たために means 'because of' or 'in order to' and shows cause or purpose, but lacks the commitment nuance that からには provides."
-      ],
-      "hiragana_full": "このぷろじぇくとのせきにんしゃとなったからには、さいごまでせきにんをもつ。",
-      "audio_alternatives": [
-        {
-          "kanji": "このプロジェクトの責任者になった以上、最後まで責任を持つ。",
-          "hiragana_full": "このぷろじぇくとのせきにんしゃになったいじょう、さいごまでせきにんをもつ。"
-        },
-        {
-          "kanji": "このプロジェクトの責任者となったからには、最後まで責任を持ちます。",
-          "hiragana_full": "このぷろじぇくとのせきにんしゃとなったからには、さいごまでせきにんをもちます。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_049_8",
-      "example_sentence": "リーダーの立場を引き受けたからには、決断の責任をとる。",
-      "translation": "Now that I've accepted the leadership position, I take responsibility for decisions.",
-      "blank_target": "たからには",
-      "wrong_choices": [
-        "たかと思うと",
-        "たとしても",
-        "たところが"
-      ],
-      "wrong_choice_explanations": [
-        "たかと思うと means 'no sooner than' and indicates immediate sequence, but doesn't express the ongoing commitment that からには conveys.",
-        "たとしても means 'even if' and expresses hypothetical situations, which contradicts the actual commitment expressed here.",
-        "たところが means 'but' or 'however' and introduces unexpected contrasts, which doesn't fit the straightforward commitment in this sentence."
-      ],
-      "hiragana_full": "りーだーのたちばをひきうけたからには、けつだんのせきにんをとる。",
-      "audio_alternatives": [
-        {
-          "kanji": "リーダーの立場を引き受けた以上、決断の責任をとる。",
-          "hiragana_full": "りーだーのたちばをひきうけたいじょう、けつだんのせきにんをとる。"
-        },
-        {
-          "kanji": "リーダーの立場を引き受けたからには、決断に対する責任をとります。",
-          "hiragana_full": "りーだーのたちばをひきうけたからには、けつだんにたいするせきにんをとります。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_049_9",
-      "example_sentence": "この研究テーマに取り組むからには、最後までやり遂げるつもりだ。",
-      "translation": "Now that I'm undertaking this research topic, I intend to see it through to the end.",
-      "blank_target": "からには",
-      "wrong_choices": [
-        "からといって",
-        "にあたって",
-        "たびに"
-      ],
-      "wrong_choice_explanations": [
-        "〜からといって means 'just because' and is used to deny an expected inference; it doesn't express the commitment to follow through that からには conveys.",
-        "〜にあたって means 'on the occasion of / when undertaking' and marks the timing of starting something; it lacks the 'now that I've taken it on, I must finish' obligation of からには.",
-        "〜たびに means 'every time' and expresses repeated occurrence; it doesn't carry the one-time commitment-after-deciding sense of からには."
-      ],
-      "hiragana_full": "このけんきゅうテーマにとりくむからには、さいごまでやりとげるつもりだ。",
-      "audio_alternatives": [
-        {
-          "kanji": "この研究テーマに取り組む以上、最後までやり遂げるつもりだ。",
-          "hiragana_full": "このけんきゅうテーマにとりくむいじょう、さいごまでやりとげるつもりだ。"
-        },
-        {
-          "kanji": "この研究テーマに取り組むからには、最後までやり遂げるつもりです。",
-          "hiragana_full": "このけんきゅうテーマにとりくむからには、さいごまでやりとげるつもりです。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_049_10",
       "example_sentence": "教師の道を選んだからには、生徒たちのために努力し続ける。",
       "translation": "Now that I've chosen the path of teaching, I will continue to work hard for my students.",
       "blank_target": "からには",
@@ -282,7 +245,184 @@
           "hiragana_full": "きょうしのみちをえらんだからには、せいとたちのためにがんばりつづけます。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "教師",
+          "reading": "きょうし",
+          "meaning": "teacher"
+        },
+        {
+          "word": "生徒",
+          "reading": "せいと",
+          "meaning": "student"
+        },
+        {
+          "word": "努力",
+          "reading": "どりょく",
+          "meaning": "effort"
+        }
+      ]
+    },
+    {
+      "id": "n2_049_7",
+      "example_sentence": "挑戦することに決めたからには、成功させてみせる。",
+      "translation": "Now that I have decided to take on the challenge, I will make it succeed.",
+      "blank_target": "たからには",
+      "wrong_choices": [
+        "たばかりに",
+        "たとたん",
+        "たきり"
+      ],
+      "wrong_choice_explanations": [
+        "〜たばかりに indicates negative consequences 'just because of', which contradicts the positive determination expressed here.",
+        "〜たとたん means 'as soon as' and indicates immediate timing, not the commitment-based reasoning needed in this context.",
+        "〜たきり means 'ever since' or 'and then never again', expressing a continuous state rather than commitment reasoning."
+      ],
+      "hiragana_full": "ちょうせんすることにきめたからには、せいこうさせてみせる。",
+      "audio_alternatives": [
+        {
+          "kanji": "挑戦すると決めた以上、成功させてみせる。",
+          "hiragana_full": "ちょうせんするときめたいじょう、せいこうさせてみせる。"
+        },
+        {
+          "kanji": "挑戦することに決めた以上は、必ず成功させる。",
+          "hiragana_full": "ちょうせんすることにきめたいじょうは、かならずせいこうさせる。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "挑戦",
+          "reading": "ちょうせん",
+          "meaning": "challenge"
+        }
+      ]
+    },
+    {
+      "id": "n2_049_8",
+      "example_sentence": "コンクールに出場したからには、優勝を目指すしかない。",
+      "translation": "Now that I have entered the competition, I have no choice but to aim for victory.",
+      "blank_target": "たからには",
+      "wrong_choices": [
+        "たものだから",
+        "たはずだ",
+        "たらしい"
+      ],
+      "wrong_choice_explanations": [
+        "〜たものだから is a casual explanation 'so that's why' but lacks the strong commitment obligation of からには.",
+        "〜たはずだ expresses expectation 'should have' based on logic, not the commitment-based reasoning needed here.",
+        "〜たらしい means 'apparently/seems' and expresses hearsay or appearance, completely different from the commitment shown."
+      ],
+      "hiragana_full": "こんくーるにしゅつじょうしたからには、ゆうしょうをめざすしかない。",
+      "audio_alternatives": [
+        {
+          "kanji": "コンクールに出場した以上、優勝を目指すしかない。",
+          "hiragana_full": "こんくーるにしゅつじょうしたいじょう、ゆうしょうをめざすしかない。"
+        },
+        {
+          "kanji": "コンクールに出場したからには、優勝を狙うほかない。",
+          "hiragana_full": "こんくーるにしゅつじょうしたからには、ゆうしょうをねらうほかない。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "出場",
+          "reading": "しゅつじょう",
+          "meaning": "participation (in a contest)"
+        },
+        {
+          "word": "優勝",
+          "reading": "ゆうしょう",
+          "meaning": "victory / championship"
+        },
+        {
+          "word": "目指す",
+          "reading": "めざす",
+          "meaning": "to aim for"
+        }
+      ]
+    },
+    {
+      "id": "n2_049_9",
+      "example_sentence": "この会社で働くと決めたからには、会社の発展に貢献したい。",
+      "translation": "Now that I have decided to work at this company, I want to contribute to the company's development.",
+      "blank_target": "たからには",
+      "wrong_choices": [
+        "たものの",
+        "たかぎり",
+        "たところ"
+      ],
+      "wrong_choice_explanations": [
+        "〜たものの means 'although/even though' and sets up a contrast with what follows, signaling a reversal rather than the resolve to follow through on a decision that からには expresses.",
+        "〜たかぎり means 'as long as' and sets a stative condition for duration, not the resolve-after-a-decision reasoning that からには conveys here.",
+        "〜たところ means 'just when/just after' and marks a point in time or a situation, not the resolved commitment expressed here."
+      ],
+      "hiragana_full": "このかいしゃではたらくときめたからには、かいしゃのはってんにこうけんしたい。",
+      "audio_alternatives": [
+        {
+          "kanji": "この会社で働くことに決めた以上、会社の発展に貢献したい。",
+          "hiragana_full": "このかいしゃではたらくことにきめたいじょう、かいしゃのはってんにこうけんしたい。"
+        },
+        {
+          "kanji": "この会社で働くと決めた以上は、会社の発展に貢献したいと思う。",
+          "hiragana_full": "このかいしゃではたらくときめたいじょうは、かいしゃのはってんにこうけんしたいとおもう。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "発展",
+          "reading": "はってん",
+          "meaning": "development"
+        },
+        {
+          "word": "貢献",
+          "reading": "こうけん",
+          "meaning": "contribution"
+        }
+      ]
+    },
+    {
+      "id": "n2_049_10",
+      "example_sentence": "料理教室を開いたからには、生徒さんに美味しい料理を教えなければ。",
+      "translation": "Now that I have opened a cooking school, I must teach students to make delicious food.",
+      "blank_target": "たからには",
+      "wrong_choices": [
+        "たなり",
+        "たまま",
+        "たのち"
+      ],
+      "wrong_choice_explanations": [
+        "〜たなり means 'as soon as' with abandonment, suggesting leaving things undone, opposite to the commitment shown.",
+        "〜たまま means 'while remaining' and describes continuing states, not the obligation-based reasoning needed here.",
+        "〜たのち means 'after doing' and indicates temporal sequence, not the commitment-driven logic expressed by からには."
+      ],
+      "hiragana_full": "りょうりきょうしつをひらいたからには、せいとさんにおいしいりょうりをおしえなければ。",
+      "audio_alternatives": [
+        {
+          "kanji": "料理教室を開いた以上、生徒さんに美味しい料理を教えなければならない。",
+          "hiragana_full": "りょうりきょうしつをひらいたいじょう、せいとさんにおいしいりょうりをおしえなければならない。"
+        },
+        {
+          "kanji": "料理教室を始めたからには、生徒さんに美味しい料理を教えなくてはいけない。",
+          "hiragana_full": "りょうりきょうしつをはじめたからには、せいとさんにおいしいりょうりをおしえなくてはいけない。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "生徒",
+          "reading": "せいと",
+          "meaning": "student / pupil"
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,256 @@
+{
+  "id": "n3_145",
+  "pattern": "〜結果",
+  "meaning": "as a result of ~; following ~ (attaches to V-た or Nの; states the outcome of an action)",
+  "level": "N3",
+  "exercises": [
+    {
+      "id": "n3_145_1",
+      "example_sentence": "話し合った結果、旅行は中止することになった。",
+      "translation": "After talking it over, we decided to cancel the trip.",
+      "blank_target": "結果",
+      "wrong_choices": ["とたん", "ばかりに", "おかげで"],
+      "wrong_choice_explanations": [
+        "〜たとたん means 'the very moment ~ happened' and requires an instantaneous, often surprising event right after; a decision reached through discussion is a considered conclusion, not something that occurred the instant the talk finished.",
+        "〜たばかりに means 'just because ~ (regrettably)' and blames the preceding action for a bad outcome the speaker resents; the sentence neutrally reports the conclusion of the discussion, not a regretted cause.",
+        "〜たおかげで credits the preceding action for a favorable result; cancelling the trip is not being presented as a benefit gained thanks to the discussion."
+      ],
+      "hiragana_full": "はなしあったけっか、りょこうはちゅうしすることになった。",
+      "audio_alternatives": [
+        { "kanji": "話し合いの末、旅行は取りやめになった。", "hiragana_full": "はなしあいのすえ、りょこうはとりやめになった。" },
+        { "kanji": "みんなで話し合って、旅行は中止と決まったんだ。", "hiragana_full": "みんなではなしあって、りょこうはちゅうしときまったんだ。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "話し合う", "reading": "はなしあう", "meaning": "to discuss, to talk over" },
+        { "word": "中止", "reading": "ちゅうし", "meaning": "cancellation" }
+      ],
+      "blank_target_reading": "けっか"
+    },
+    {
+      "id": "n3_145_2",
+      "example_sentence": "検査の結果、どこにも異常は見つからなかった。",
+      "translation": "The examination found no abnormalities anywhere.",
+      "blank_target": "結果",
+      "wrong_choices": ["ため", "あげく", "上"],
+      "wrong_choice_explanations": [
+        "Nのため expresses purpose or cause ('for/because of the examination'); saying nothing was found 'because of the examination' reverses the logic — the examination is what produced the finding, which is exactly what 結果 expresses.",
+        "Nのあげく means 'after all that ~' and requires a long, draining process ending in a (usually bad) outcome; a routine examination with a clean result fits neither the drawn-out process nor the negative outcome あげく demands.",
+        "Nの上（うえ） in the sense 'upon/after N' (書類審査の上、ご連絡します) sets up a deliberate next step the agent takes; 見つからなかった is a finding, not a planned follow-up action."
+      ],
+      "hiragana_full": "けんさのけっか、どこにもいじょうはみつからなかった。",
+      "audio_alternatives": [
+        { "kanji": "検査では、異常は一つも見つかりませんでした。", "hiragana_full": "けんさでは、いじょうはひとつもみつかりませんでした。" },
+        { "kanji": "調べてもらった結果、どこも悪くないと分かった。", "hiragana_full": "しらべてもらったけっか、どこもわるくないとわかった。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "検査", "reading": "けんさ", "meaning": "examination, medical test" },
+        { "word": "異常", "reading": "いじょう", "meaning": "abnormality" },
+        { "word": "見つかる", "reading": "みつかる", "meaning": "to be found" }
+      ],
+      "blank_target_reading": "けっか"
+    },
+    {
+      "id": "n3_145_3",
+      "example_sentence": "毎日練習を続けた結果、マラソン大会で優勝できた。",
+      "translation": "As a result of practicing every day, I was able to win the marathon.",
+      "blank_target": "結果",
+      "wrong_choices": ["あげく", "せいで", "とたん"],
+      "wrong_choice_explanations": [
+        "〜たあげく means 'after all that ~' and must lead to an unwelcome outcome (悩んだあげく、あきらめた); winning the marathon is a happy result, so あげく is impossible here.",
+        "〜たせいで blames the preceding action for a bad result (夜更かししたせいで遅刻した); it cannot introduce the positive outcome 優勝できた.",
+        "〜たとたん means 'the instant ~ happened'; winning came after long-term accumulated practice, not at the moment the practice ended."
+      ],
+      "hiragana_full": "まいにちれんしゅうをつづけたけっか、まらそんたいかいでゆうしょうできた。",
+      "audio_alternatives": [
+        { "kanji": "毎日練習を重ねて、マラソン大会で優勝した。", "hiragana_full": "まいにちれんしゅうをかさねて、まらそんたいかいでゆうしょうした。" },
+        { "kanji": "こつこつ練習した結果、大会で一位になれたんだ。", "hiragana_full": "こつこつれんしゅうしたけっか、たいかいでいちいになれたんだ。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "優勝", "reading": "ゆうしょう", "meaning": "winning first place" },
+        { "word": "続ける", "reading": "つづける", "meaning": "to continue" },
+        { "word": "大会", "reading": "たいかい", "meaning": "tournament, competition" }
+      ],
+      "blank_target_reading": "けっか"
+    },
+    {
+      "id": "n3_145_4",
+      "example_sentence": "何度も実験を繰り返した結果、新しい事実が明らかになった。",
+      "translation": "Through repeated experiments, a new fact came to light.",
+      "blank_target": "結果",
+      "wrong_choices": ["とたん", "ばかりに", "うちに"],
+      "wrong_choice_explanations": [
+        "〜たとたん marks something that happened the very instant the action finished; a discovery produced by many repeated experiments is a cumulative outcome, not an instantaneous reaction.",
+        "〜たばかりに means 'just because ~ (to my regret)' and requires a bad outcome the speaker laments; discovering a new fact is an achievement, not a regretted consequence.",
+        "うちに ('while, in the course of') attaches to the dictionary or 〜ている form (繰り返すうちに), not to the plain past 繰り返した — and even then it highlights a change arising mid-process rather than stating the concluded result."
+      ],
+      "hiragana_full": "なんどもじっけんをくりかえしたけっか、あたらしいじじつがあきらかになった。",
+      "audio_alternatives": [
+        { "kanji": "実験を重ねた結果、新事実が判明した。", "hiragana_full": "じっけんをかさねたけっか、しんじじつがはんめいした。" },
+        { "kanji": "何度も実験して、新しいことが分かったんだ。", "hiragana_full": "なんどもじっけんして、あたらしいことがわかったんだ。" }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        { "word": "実験", "reading": "じっけん", "meaning": "experiment" },
+        { "word": "繰り返す", "reading": "くりかえす", "meaning": "to repeat" },
+        { "word": "明らか", "reading": "あきらか", "meaning": "clear, evident" }
+      ],
+      "blank_target_reading": "けっか"
+    },
+    {
+      "id": "n3_145_5",
+      "example_sentence": "詳しく調べた結果、その話はうわさにすぎないと分かった。",
+      "translation": "After looking into it closely, I found that the story was nothing more than a rumor.",
+      "blank_target": "結果",
+      "wrong_choices": ["上で", "うちに", "ところで"],
+      "wrong_choice_explanations": [
+        "〜た上で means 'after first doing ~ (and then deliberately taking the next step)' and the second clause must be a volitional action (調べた上で決める); 分かった is a realization that happened to the speaker, not a planned action.",
+        "うちに attaches to the dictionary or 〜ている form (調べているうちに) and means a change arose 'while' doing something; the form 調べたうちに is ungrammatical, and the sentence states the conclusion of the investigation, not a mid-process change.",
+        "〜たところで means 'even if ~ (it would be useless)' and requires a negative or dismissive conjecture (調べたところで分からないだろう); it cannot be followed by the affirmative factual result 分かった."
+      ],
+      "hiragana_full": "くわしくしらべたけっか、そのはなしはうわさにすぎないとわかった。",
+      "audio_alternatives": [
+        { "kanji": "よく調べてみたら、ただのうわさだと分かった。", "hiragana_full": "よくしらべてみたら、ただのうわさだとわかった。" },
+        { "kanji": "調査の結果、その話に根拠はないことが分かった。", "hiragana_full": "ちょうさのけっか、そのはなしにこんきょはないことがわかった。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "詳しい", "reading": "くわしい", "meaning": "detailed, thorough" },
+        { "word": "調べる", "reading": "しらべる", "meaning": "to investigate, to look into" },
+        { "word": "うわさ", "reading": "うわさ", "meaning": "rumor" }
+      ],
+      "blank_target_reading": "けっか"
+    },
+    {
+      "id": "n3_145_6",
+      "example_sentence": "投票の結果、新しい会長には田中さんが選ばれました。",
+      "translation": "As a result of the vote, Tanaka-san was elected as the new president. (announcement)",
+      "blank_target": "結果",
+      "wrong_choices": ["ため", "途中", "あげく"],
+      "wrong_choice_explanations": [
+        "Nのため means 'for the purpose of / because of N'; saying Tanaka was elected 'for the sake of the vote' reverses the relationship — the vote is what produced the election result.",
+        "Nの途中 means 'in the middle of N'; someone cannot already be elected while the voting is still under way, so 途中 contradicts the completed outcome 選ばれました.",
+        "Nのあげく requires a long, exhausting process ending badly (口論のあげく); a vote producing its normal outcome is neither drawn-out suffering nor a negative result."
+      ],
+      "hiragana_full": "とうひょうのけっか、あたらしいかいちょうにはたなかさんがえらばれました。",
+      "audio_alternatives": [
+        { "kanji": "投票の結果を発表します。新会長は田中さんです。", "hiragana_full": "とうひょうのけっかをはっぴょうします。しんかいちょうはたなかさんです。" },
+        { "kanji": "みんなの投票で、田中さんが新しい会長に決まりました。", "hiragana_full": "みんなのとうひょうで、たなかさんがあたらしいかいちょうにきまりました。" }
+      ],
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        { "word": "投票", "reading": "とうひょう", "meaning": "vote, voting" },
+        { "word": "会長", "reading": "かいちょう", "meaning": "president, chairperson" },
+        { "word": "選ぶ", "reading": "えらぶ", "meaning": "to choose, to elect" }
+      ],
+      "blank_target_reading": "けっか"
+    },
+    {
+      "id": "n3_145_7",
+      "example_sentence": "引っ越しについて家族と相談した結果、今の家に住み続けることにした。",
+      "translation": "After discussing the move with my family, we decided to stay in our current house.",
+      "blank_target": "結果",
+      "wrong_choices": ["あげく", "うちに", "せいで"],
+      "wrong_choice_explanations": [
+        "〜たあげく needs a long, wearying process that ends in an unwelcome outcome; calmly deciding to stay put is a neutral, settled conclusion, not the bad end あげく implies.",
+        "うちに attaches to the dictionary or 〜ている form (相談しているうちに) and marks a change that arises mid-process; 相談したうちに is ungrammatical, and the sentence reports the conclusion the family reached, not something that happened along the way.",
+        "〜たせいで blames the preceding action for a harmful result (相談したせいでけんかになった); deciding to keep living in the current house is not presented as damage caused by the discussion."
+      ],
+      "hiragana_full": "ひっこしについてかぞくとそうだんしたけっか、いまのいえにすみつづけることにした。",
+      "audio_alternatives": [
+        { "kanji": "家族と話し合って、今の家にいることに決めた。", "hiragana_full": "かぞくとはなしあって、いまのいえにいることにきめた。" },
+        { "kanji": "相談の結果、引っ越しはやめることにしたんだ。", "hiragana_full": "そうだんのけっか、ひっこしはやめることにしたんだ。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "引っ越し", "reading": "ひっこし", "meaning": "moving house" },
+        { "word": "住み続ける", "reading": "すみつづける", "meaning": "to keep living (somewhere)" }
+      ],
+      "blank_target_reading": "けっか"
+    },
+    {
+      "id": "n3_145_8",
+      "example_sentence": "円安が続いた結果、輸入品の値段が大きく上がった。",
+      "translation": "As the weak yen persisted, prices of imported goods rose sharply.",
+      "blank_target": "結果",
+      "wrong_choices": ["とたん", "うちに", "上で"],
+      "wrong_choice_explanations": [
+        "〜たとたん means something happened the very instant the preceding event occurred; 続いた describes a prolonged state, which is incompatible with とたん's requirement of an instantaneous trigger.",
+        "うちに would need the form 続くうちに ('while it continues'), not 続いたうちに — and it would frame the price rise as arising mid-way, whereas the sentence states the accumulated outcome of the whole period.",
+        "〜た上で means 'after first doing ~ (as a deliberate step)' and requires a volitional agent planning a next action; 円安が続いた is not an intentional action, and 値段が上がった is not a planned step."
+      ],
+      "hiragana_full": "えんやすがつづいたけっか、ゆにゅうひんのねだんがおおきくあがった。",
+      "audio_alternatives": [
+        { "kanji": "円安の影響で、輸入品の価格が大幅に上昇した。", "hiragana_full": "えんやすのえいきょうで、ゆにゅうひんのかかくがおおはばにじょうしょうした。" },
+        { "kanji": "円安が続き、輸入品がずいぶん高くなった。", "hiragana_full": "えんやすがつづき、ゆにゅうひんがずいぶんたかくなった。" }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        { "word": "円安", "reading": "えんやす", "meaning": "weak yen" },
+        { "word": "輸入品", "reading": "ゆにゅうひん", "meaning": "imported goods" },
+        { "word": "上がる", "reading": "あがる", "meaning": "to rise, to go up" }
+      ],
+      "blank_target_reading": "けっか"
+    },
+    {
+      "id": "n3_145_9",
+      "example_sentence": "徹夜でゲームをした結果、次の日の試験で全然頭が働かなかった。",
+      "translation": "I stayed up all night gaming, and as a result my brain totally refused to work during the next day's exam.",
+      "blank_target": "結果",
+      "wrong_choices": ["とたん", "まま", "どころか"],
+      "wrong_choice_explanations": [
+        "〜たとたん means 'the instant ~ happened'; the effect appeared the next day during the exam, not at the moment the gaming ended, so the immediacy とたん requires is missing.",
+        "〜たまま means 'with the state of ~ left unchanged' (電気をつけたまま寝た) and must describe a continuing state carried into the next action; it does not express that the all-nighter caused the poor performance.",
+        "〜たどころか means 'far from ~' and introduces a reversal of expectation about the preceding clause itself (勉強したどころか一度も開かなかった); here the first clause really did happen, and the second clause is its consequence, not its denial."
+      ],
+      "hiragana_full": "てつやでげーむをしたけっか、つぎのひのしけんでぜんぜんあたまがはたらかなかった。",
+      "audio_alternatives": [
+        { "kanji": "夜中までゲームをしていたせいで、試験中ずっとぼんやりしていた。", "hiragana_full": "よなかまでげーむをしていたせいで、しけんちゅうずっとぼんやりしていた。" },
+        { "kanji": "徹夜でゲームなんかした結果、試験はさんざんだったよ。", "hiragana_full": "てつやでげーむなんかしたけっか、しけんはさんざんだったよ。" }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        { "word": "徹夜", "reading": "てつや", "meaning": "staying up all night" },
+        { "word": "試験", "reading": "しけん", "meaning": "exam" },
+        { "word": "働く", "reading": "はたらく", "meaning": "to work, to function" }
+      ],
+      "blank_target_reading": "けっか"
+    },
+    {
+      "id": "n3_145_10",
+      "example_sentence": "長年の研究の結果、この薬はついに実用化された。",
+      "translation": "As the fruit of many years of research, the drug was finally put into practical use.",
+      "blank_target": "結果",
+      "wrong_choices": ["ため", "途中", "あげく"],
+      "wrong_choice_explanations": [
+        "Nのため would mean the drug was commercialized 'for the purpose of research' or 'because of the research' as a reason; the sentence presents commercialization as the outcome the research produced, which is 結果's job.",
+        "Nの途中 means 'in the middle of N'; ついに ('at long last') makes clear the research process had run its full course, contradicting a mid-process reading.",
+        "Nのあげく requires a draining process that ends in an unwelcome outcome (長い口論のあげく); successful commercialization is a positive achievement, so あげく cannot introduce it."
+      ],
+      "hiragana_full": "ながねんのけんきゅうのけっか、このくすりはついにじつようかされた。",
+      "audio_alternatives": [
+        { "kanji": "何年にもわたる研究が実を結び、この薬が実用化された。", "hiragana_full": "なんねんにもわたるけんきゅうがみをむすび、このくすりがじつようかされた。" },
+        { "kanji": "長い研究の結果、薬として使えるようになったのだ。", "hiragana_full": "ながいけんきゅうのけっか、くすりとしてつかえるようになったのだ。" }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        { "word": "研究", "reading": "けんきゅう", "meaning": "research" },
+        { "word": "実用化", "reading": "じつようか", "meaning": "putting into practical use" },
+        { "word": "薬", "reading": "くすり", "meaning": "medicine, drug" }
+      ],
+      "blank_target_reading": "けっか"
+    }
+  ]
+}

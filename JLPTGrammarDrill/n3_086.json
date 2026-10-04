@@ -9,7 +9,11 @@
       "example_sentence": "公園で一日中遊んだ子供は、泥だらけになって帰ってきた。",
       "translation": "The child who played in the park all day came home covered in mud.",
       "blank_target": "だらけ",
-      "wrong_choices": ["ばかり", "っぽい", "ぎみ"],
+      "wrong_choices": [
+        "ばかり",
+        "っぽい",
+        "ぎみ"
+      ],
       "wrong_choice_explanations": [
         "「〜ばかり」は「〜だけで他がない」という限定を表す副助詞で、「泥ばかり」では『泥しかない』の意味になり、体や服の一面に泥がついた様子は表せない。",
         "「泥っぽい」は「いかにも泥のような感じだ」と性質・印象を述べる言い方で、全身が泥で覆われた状態そのものは表さない。",
@@ -17,17 +21,40 @@
       ],
       "hiragana_full": "こうえんでいちにちじゅうあそんだこどもは、どろだらけになってかえってきた。",
       "audio_alternatives": [
-        { "kanji": "一日中外で遊んだ息子は、靴も服も泥だらけだった。", "hiragana_full": "いちにちじゅうそとであそんだむすこは、くつもふくもどろだらけだった。" },
-        { "kanji": "公園で遊んだ子供は、全身泥まみれで帰ってきた。", "hiragana_full": "こうえんであそんだこどもは、ぜんしんどろまみれでかえってきた。" }
+        {
+          "kanji": "一日中外で遊んだ息子は、靴も服も泥だらけだった。",
+          "hiragana_full": "いちにちじゅうそとであそんだむすこは、くつもふくもどろだらけだった。"
+        },
+        {
+          "kanji": "公園で遊んだ子供は、全身泥まみれで帰ってきた。",
+          "hiragana_full": "こうえんであそんだこどもは、ぜんしんどろまみれでかえってきた。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "泥",
+          "reading": "どろ",
+          "meaning": "mud"
+        },
+        {
+          "word": "一日中",
+          "reading": "いちにちじゅう",
+          "meaning": "all day long"
+        }
+      ]
     },
     {
       "id": "n3_086_2",
       "example_sentence": "この作文は文法の間違いだらけで、先生に全部直された。",
       "translation": "This essay was full of grammatical mistakes, so the teacher corrected them all.",
       "blank_target": "だらけ",
-      "wrong_choices": ["まみれ", "がち", "っぽい"],
+      "wrong_choices": [
+        "まみれ",
+        "がち",
+        "っぽい"
+      ],
       "wrong_choice_explanations": [
         "「〜まみれ」は泥・汗・血など液体や粉が表面に一面につく場合に使う語で、「間違い」のような抽象的なものには結びつかない。",
         "「〜がち」は「〜することが多い／〜の傾向がある」と頻度・傾向を表し、文章中に多くの誤りが存在する状態は表せない。",
@@ -35,17 +62,40 @@
       ],
       "hiragana_full": "このさくぶんはぶんぽうのまちがいだらけで、せんせいにぜんぶなおされた。",
       "audio_alternatives": [
-        { "kanji": "彼のレポートは間違いだらけで、読むのに苦労した。", "hiragana_full": "かれのれぽーとはまちがいだらけで、よむのにくろうした。" },
-        { "kanji": "この作文はミスがとても多く、先生に全部直された。", "hiragana_full": "このさくぶんはみすがとてもおおく、せんせいにぜんぶなおされた。" }
+        {
+          "kanji": "彼のレポートは間違いだらけで、読むのに苦労した。",
+          "hiragana_full": "かれのれぽーとはまちがいだらけで、よむのにくろうした。"
+        },
+        {
+          "kanji": "この作文はミスがとても多く、先生に全部直された。",
+          "hiragana_full": "このさくぶんはみすがとてもおおく、せんせいにぜんぶなおされた。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "作文",
+          "reading": "さくぶん",
+          "meaning": "composition; essay"
+        },
+        {
+          "word": "文法",
+          "reading": "ぶんぽう",
+          "meaning": "grammar"
+        }
+      ]
     },
     {
       "id": "n3_086_3",
       "example_sentence": "事業に失敗して、彼は今や借金だらけの生活を送っている。",
       "translation": "After his business failed, he now lives a life full of debt.",
       "blank_target": "だらけ",
-      "wrong_choices": ["っぽい", "がち", "ぎみ"],
+      "wrong_choices": [
+        "っぽい",
+        "がち",
+        "ぎみ"
+      ],
       "wrong_choice_explanations": [
         "「〜っぽい」は「いかにも〜のようだ」と性質や印象を表す接尾語で、「借金っぽい」とは言えず、あちこちに借金を抱えた状態は表せない。",
         "「〜がち」は「〜の傾向がある」と頻度・傾向を表す語で、名詞「借金」に付けて『借金が多くある』状態を表す用法はない。",
@@ -53,17 +103,45 @@
       ],
       "hiragana_full": "じぎょうにしっぱいして、かれはいまやしゃっきんだらけのせいかつをおくっている。",
       "audio_alternatives": [
-        { "kanji": "若い頃の浪費がたたって、彼は借金だらけになった。", "hiragana_full": "わかいころのろうひがたたって、かれはしゃっきんだらけになった。" },
-        { "kanji": "事業に失敗し、彼は今あちこちに借金を抱えて暮らしている。", "hiragana_full": "じぎょうにしっぱいし、かれはいまあちこちにしゃっきんをかかえてくらしている。" }
+        {
+          "kanji": "若い頃の浪費がたたって、彼は借金だらけになった。",
+          "hiragana_full": "わかいころのろうひがたたって、かれはしゃっきんだらけになった。"
+        },
+        {
+          "kanji": "事業に失敗し、彼は今あちこちに借金を抱えて暮らしている。",
+          "hiragana_full": "じぎょうにしっぱいし、かれはいまあちこちにしゃっきんをかかえてくらしている。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "事業",
+          "reading": "じぎょう",
+          "meaning": "business; enterprise"
+        },
+        {
+          "word": "借金",
+          "reading": "しゃっきん",
+          "meaning": "debt"
+        },
+        {
+          "word": "今や",
+          "reading": "いまや",
+          "meaning": "now; at this point"
+        }
+      ]
     },
     {
       "id": "n3_086_4",
       "example_sentence": "坂を転がり落ちたので、足が傷だらけになってしまった。",
       "translation": "I rolled down the slope, so my legs ended up covered in scratches.",
       "blank_target": "だらけ",
-      "wrong_choices": ["まみれ", "っぽい", "ぎみ"],
+      "wrong_choices": [
+        "まみれ",
+        "っぽい",
+        "ぎみ"
+      ],
       "wrong_choice_explanations": [
         "「〜まみれ」は泥や血など液体・粉が表面につく場合に使う語で、「傷」のような体にできた跡を数える表現には使わない。",
         "「傷っぽい」は「傷のように見える」と印象を述べる言い方で、足のあちこちに実際に傷ができた状態は表せない。",
@@ -71,17 +149,40 @@
       ],
       "hiragana_full": "さかをころがりおちたので、あしがきずだらけになってしまった。",
       "audio_alternatives": [
-        { "kanji": "猫とじゃれていたら、腕が傷だらけになってしまった。", "hiragana_full": "ねことじゃれていたら、うでがきずだらけになってしまった。" },
-        { "kanji": "坂を転がり落ちて、足じゅうに傷ができた。", "hiragana_full": "さかをころがりおちて、あしじゅうにきずができた。" }
+        {
+          "kanji": "猫とじゃれていたら、腕が傷だらけになってしまった。",
+          "hiragana_full": "ねことじゃれていたら、うでがきずだらけになってしまった。"
+        },
+        {
+          "kanji": "坂を転がり落ちて、足じゅうに傷ができた。",
+          "hiragana_full": "さかをころがりおちて、あしじゅうにきずができた。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "転がり落ちた",
+          "reading": "ころがりおちた",
+          "meaning": "tumbled down"
+        },
+        {
+          "word": "傷",
+          "reading": "きず",
+          "meaning": "wound; cut"
+        }
+      ]
     },
     {
       "id": "n3_086_5",
       "example_sentence": "何年も使っていない物置は、ほこりだらけだった。",
       "translation": "The storeroom that hadn't been used for years was covered in dust.",
       "blank_target": "だらけ",
-      "wrong_choices": ["ばかり", "がち", "ぎみ"],
+      "wrong_choices": [
+        "ばかり",
+        "がち",
+        "ぎみ"
+      ],
       "wrong_choice_explanations": [
         "「〜ばかり」は「〜だけで他がない」と限定を表す副助詞で、「ほこりばかり」では『ほこりしかない』の意になり、一面にほこりが積もった状態は表せない。",
         "「〜がち」は「〜の傾向がある」と頻度・傾向を表す語で、物置がほこりで覆われているという状態を表す用法はない。",
@@ -89,17 +190,40 @@
       ],
       "hiragana_full": "なんねんもつかっていないものおきは、ほこりだらけだった。",
       "audio_alternatives": [
-        { "kanji": "久しぶりに開けた箱の中は、ほこりだらけだった。", "hiragana_full": "ひさしぶりにあけたはこのなかは、ほこりだらけだった。" },
-        { "kanji": "何年も放っておいた物置は、ほこりで真っ白だった。", "hiragana_full": "なんねんもほうっておいたものおきは、ほこりでまっしろだった。" }
+        {
+          "kanji": "久しぶりに開けた箱の中は、ほこりだらけだった。",
+          "hiragana_full": "ひさしぶりにあけたはこのなかは、ほこりだらけだった。"
+        },
+        {
+          "kanji": "何年も放っておいた物置は、ほこりで真っ白だった。",
+          "hiragana_full": "なんねんもほうっておいたものおきは、ほこりでまっしろだった。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "物置",
+          "reading": "ものおき",
+          "meaning": "storage shed; storeroom"
+        },
+        {
+          "word": "ほこり",
+          "reading": "ほこり",
+          "meaning": "dust"
+        }
+      ]
     },
     {
       "id": "n3_086_6",
       "example_sentence": "彼の説明は矛盾だらけで、誰も信用しなかった。",
       "translation": "His explanation was full of contradictions, so no one trusted it.",
       "blank_target": "だらけ",
-      "wrong_choices": ["まみれ", "がち", "っぽい"],
+      "wrong_choices": [
+        "まみれ",
+        "がち",
+        "っぽい"
+      ],
       "wrong_choice_explanations": [
         "「〜まみれ」は泥や汗など具体的な物質が表面につく場合に使う語で、「矛盾」のような抽象的な内容には使えない。",
         "「〜がち」は「〜の傾向がある」と頻度・傾向を表す語で、説明の中に多くの矛盾がある状態は表せない。",
@@ -107,17 +231,40 @@
       ],
       "hiragana_full": "かれのせつめいはむじゅんだらけで、だれもしんようしなかった。",
       "audio_alternatives": [
-        { "kanji": "その計画は矛盾だらけで、すぐに却下された。", "hiragana_full": "そのけいかくはむじゅんだらけで、すぐにきゃっかされた。" },
-        { "kanji": "彼の話はつじつまが合わない点が多く、誰も信じなかった。", "hiragana_full": "かれのはなしはつじつまがあわないてんがおおく、だれもしんじなかった。" }
+        {
+          "kanji": "その計画は矛盾だらけで、すぐに却下された。",
+          "hiragana_full": "そのけいかくはむじゅんだらけで、すぐにきゃっかされた。"
+        },
+        {
+          "kanji": "彼の話はつじつまが合わない点が多く、誰も信じなかった。",
+          "hiragana_full": "かれのはなしはつじつまがあわないてんがおおく、だれもしんじなかった。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "矛盾",
+          "reading": "むじゅん",
+          "meaning": "contradiction"
+        },
+        {
+          "word": "信用",
+          "reading": "しんよう",
+          "meaning": "trust"
+        }
+      ]
     },
     {
       "id": "n3_086_7",
       "example_sentence": "古い靴下は、もう穴だらけで履けない。",
       "translation": "The old socks are already full of holes and can't be worn anymore.",
       "blank_target": "だらけ",
-      "wrong_choices": ["まみれ", "っぽい", "ぎみ"],
+      "wrong_choices": [
+        "まみれ",
+        "っぽい",
+        "ぎみ"
+      ],
       "wrong_choice_explanations": [
         "「〜まみれ」は泥や血など物質が表面につく場合に使う語で、「穴」のような開いた箇所を数える表現には使わない。",
         "「穴っぽい」は「穴のように見える」と印象を述べる言い方で、靴下のあちこちに実際に穴が開いた状態は表せない。",
@@ -125,17 +272,35 @@
       ],
       "hiragana_full": "ふるいくつしたは、もうあなだらけではけない。",
       "audio_alternatives": [
-        { "kanji": "この道路は穴だらけで、車で通るのが怖い。", "hiragana_full": "このどうろはあなだらけで、くるまでとおるのがこわい。" },
-        { "kanji": "古い靴下はあちこちに穴が開いて、もう履けない。", "hiragana_full": "ふるいくつしたはあちこちにあながあいて、もうはけない。" }
+        {
+          "kanji": "この道路は穴だらけで、車で通るのが怖い。",
+          "hiragana_full": "このどうろはあなだらけで、くるまでとおるのがこわい。"
+        },
+        {
+          "kanji": "古い靴下はあちこちに穴が開いて、もう履けない。",
+          "hiragana_full": "ふるいくつしたはあちこちにあながあいて、もうはけない。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "穴",
+          "reading": "あな",
+          "meaning": "hole"
+        }
+      ]
     },
     {
       "id": "n3_086_8",
       "example_sentence": "事故現場に駆けつけると、彼は血だらけで倒れていた。",
       "translation": "When I rushed to the accident scene, he was lying there covered in blood.",
       "blank_target": "だらけ",
-      "wrong_choices": ["ばかり", "がち", "ぎみ"],
+      "wrong_choices": [
+        "ばかり",
+        "がち",
+        "ぎみ"
+      ],
       "wrong_choice_explanations": [
         "「〜ばかり」は「〜だけで他がない」と限定を表す副助詞で、「血ばかり」では『血しかない』の意になり、体じゅうが血で覆われた様子は表せない。",
         "「〜がち」は「〜の傾向がある」と頻度・傾向を表す語で、体が血で覆われた一回限りの状態を表す用法はない。",
@@ -143,17 +308,40 @@
       ],
       "hiragana_full": "じこげんばにかけつけると、かれはちだらけでたおれていた。",
       "audio_alternatives": [
-        { "kanji": "鼻血が止まらず、シャツが血だらけになった。", "hiragana_full": "はなぢがとまらず、しゃつがちだらけになった。" },
-        { "kanji": "事故現場で、彼は血まみれになって倒れていた。", "hiragana_full": "じこげんばで、かれはちまみれになってたおれていた。" }
+        {
+          "kanji": "鼻血が止まらず、シャツが血だらけになった。",
+          "hiragana_full": "はなぢがとまらず、しゃつがちだらけになった。"
+        },
+        {
+          "kanji": "事故現場で、彼は血まみれになって倒れていた。",
+          "hiragana_full": "じこげんばで、かれはちまみれになってたおれていた。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "現場",
+          "reading": "げんば",
+          "meaning": "scene; site"
+        },
+        {
+          "word": "駆けつける",
+          "reading": "かけつける",
+          "meaning": "rush (to a place)"
+        }
+      ]
     },
     {
       "id": "n3_086_9",
       "example_sentence": "パーティーの翌朝、部屋はごみだらけだった。",
       "translation": "The morning after the party, the room was full of trash.",
       "blank_target": "だらけ",
-      "wrong_choices": ["っぽい", "がち", "ぎみ"],
+      "wrong_choices": [
+        "っぽい",
+        "がち",
+        "ぎみ"
+      ],
       "wrong_choice_explanations": [
         "「〜っぽい」は「いかにも〜のようだ」と性質・印象を表す接尾語で、「ごみっぽい」とは言いにくく、部屋一面にごみが散らかった状態は表せない。",
         "「〜がち」は「〜の傾向がある」と頻度・傾向を表す語で、部屋がごみで埋まっている状態を表す用法はない。",
@@ -161,17 +349,35 @@
       ],
       "hiragana_full": "ぱーてぃーのよくあさ、へやはごみだらけだった。",
       "audio_alternatives": [
-        { "kanji": "掃除をさぼっていたら、机の上が紙くずだらけになった。", "hiragana_full": "そうじをさぼっていたら、つくえのうえがかみくずだらけになった。" },
-        { "kanji": "パーティーの翌朝、部屋中にごみが散らかっていた。", "hiragana_full": "ぱーてぃーのよくあさ、へやじゅうにごみがちらかっていた。" }
+        {
+          "kanji": "掃除をさぼっていたら、机の上が紙くずだらけになった。",
+          "hiragana_full": "そうじをさぼっていたら、つくえのうえがかみくずだらけになった。"
+        },
+        {
+          "kanji": "パーティーの翌朝、部屋中にごみが散らかっていた。",
+          "hiragana_full": "ぱーてぃーのよくあさ、へやじゅうにごみがちらかっていた。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "翌朝",
+          "reading": "よくあさ",
+          "meaning": "the next morning"
+        }
+      ]
     },
     {
       "id": "n3_086_10",
       "example_sentence": "祖母の手は、長年の苦労を物語るようにしわだらけだった。",
       "translation": "My grandmother's hands were covered in wrinkles, as if telling of her years of hardship.",
       "blank_target": "だらけ",
-      "wrong_choices": ["まみれ", "っぽい", "ぎみ"],
+      "wrong_choices": [
+        "まみれ",
+        "っぽい",
+        "ぎみ"
+      ],
       "wrong_choice_explanations": [
         "「〜まみれ」は泥や汗など物質が表面につく場合に使う語で、「しわ」のような肌に刻まれた線を数える表現には使わない。",
         "「しわっぽい」は「しわのように見える」と印象を述べる言い方で、手一面に深いしわが刻まれた状態そのものは表せない。",
@@ -179,10 +385,34 @@
       ],
       "hiragana_full": "そぼのては、ながねんのくろうをものがたるようにしわだらけだった。",
       "audio_alternatives": [
-        { "kanji": "久しぶりに着たシャツは、しわだらけだった。", "hiragana_full": "ひさしぶりにきたしゃつは、しわだらけだった。" },
-        { "kanji": "祖母の手には、長年の苦労を示す深いしわが刻まれていた。", "hiragana_full": "そぼのてには、ながねんのくろうをしめすふかいしわがきざまれていた。" }
+        {
+          "kanji": "久しぶりに着たシャツは、しわだらけだった。",
+          "hiragana_full": "ひさしぶりにきたしゃつは、しわだらけだった。"
+        },
+        {
+          "kanji": "祖母の手には、長年の苦労を示す深いしわが刻まれていた。",
+          "hiragana_full": "そぼのてには、ながねんのくろうをしめすふかいしわがきざまれていた。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "長年",
+          "reading": "ながねん",
+          "meaning": "many years; a long time"
+        },
+        {
+          "word": "苦労",
+          "reading": "くろう",
+          "meaning": "hardship; toil"
+        },
+        {
+          "word": "物語る",
+          "reading": "ものがたる",
+          "meaning": "tell of; be testament to"
+        }
+      ]
     }
   ]
 }

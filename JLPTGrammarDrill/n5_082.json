@@ -31,7 +31,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "たかい"
+      "blank_target_reading": "たかい",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "時計",
+          "reading": "とけい",
+          "meaning": "watch; clock"
+        }
+      ]
     },
     {
       "id": "n5_082_2",
@@ -60,7 +68,8 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "さむかった"
+      "blank_target_reading": "さむかった",
+      "register": "neutral"
     },
     {
       "id": "n5_082_3",
@@ -89,7 +98,8 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "やすくない"
+      "blank_target_reading": "やすくない",
+      "register": "neutral"
     },
     {
       "id": "n5_082_4",
@@ -118,7 +128,8 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "おいしくて"
+      "blank_target_reading": "おいしくて",
+      "register": "neutral"
     },
     {
       "id": "n5_082_5",
@@ -147,7 +158,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "はやく"
+      "blank_target_reading": "はやく",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "電車",
+          "reading": "でんしゃ",
+          "meaning": "train"
+        },
+        {
+          "word": "着きました",
+          "reading": "つきました",
+          "meaning": "arrived"
+        }
+      ]
     },
     {
       "id": "n5_082_6",
@@ -176,7 +200,8 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "あつくなかった"
+      "blank_target_reading": "あつくなかった",
+      "register": "neutral"
     },
     {
       "id": "n5_082_7",
@@ -186,12 +211,12 @@
       "wrong_choices": [
         "新しな",
         "新しの",
-        "新しく"
+        "新しくて"
       ],
       "wrong_choice_explanations": [
         "新しな borrows the な-adjective attributive pattern, but 新しい is an i-adjective and modifies a noun directly with its dictionary い form.",
         "新しの uses the genitive の as if linking nouns; i-adjectives modify nouns without の, just by keeping the い ending.",
-        "新しく is the adverbial form used before verbs, not before nouns; to modify 車 you need the dictionary form 新しい."
+        "新しくて is the te-form, which links clauses (新しくて安い); it cannot sit directly before a noun — to modify 車, an i-adjective uses its dictionary form 新しい."
       ],
       "hiragana_full": "あたらしいくるまをかいました。",
       "audio_alternatives": [
@@ -205,7 +230,8 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "あたらしい"
+      "blank_target_reading": "あたらしい",
+      "register": "neutral"
     },
     {
       "id": "n5_082_8",
@@ -234,7 +260,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "おおきく"
+      "blank_target_reading": "おおきく",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "なりました",
+          "reading": "なりました",
+          "meaning": "became"
+        }
+      ]
     },
     {
       "id": "n5_082_9",
@@ -263,7 +297,8 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "たのしそう"
+      "blank_target_reading": "たのしそう",
+      "register": "neutral"
     },
     {
       "id": "n5_082_10",
@@ -292,7 +327,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "むずかしすぎる"
+      "blank_target_reading": "むずかしすぎる",
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "問題",
+          "reading": "もんだい",
+          "meaning": "problem"
+        }
+      ]
     }
   ]
 }

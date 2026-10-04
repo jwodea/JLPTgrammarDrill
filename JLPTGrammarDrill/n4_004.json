@@ -1,288 +1,381 @@
 {
   "id": "n4_004",
-  "pattern": "〜そうだ (様態)",
-  "meaning": "looks like / appears to (visual conjecture)",
+  "pattern": "〜そうだ（様態）／そうな／そうに",
+  "meaning": "looks like / appears to (visual conjecture); ~そうな + noun, ~そうに + verb",
   "level": "N4",
   "exercises": [
     {
       "id": "n4_004_1",
-      "example_sentence": "このケーキはおいしそうです。",
-      "translation": "This cake looks delicious.",
-      "blank_target": "そうです",
+      "example_sentence": "彼女は嬉しそうに笑った。",
+      "translation": "She laughed with a happy look on her face.",
+      "blank_target": "そうに",
       "wrong_choices": [
-        "いです",
-        "かったです",
-        "らしいです"
+        "がって",
+        "らしく",
+        "ように"
       ],
       "wrong_choice_explanations": [
-        "いです is the plain polite form ('is delicious'), not a conjecture about appearance.",
-        "かったです is past tense ('was delicious'), not about how it looks now.",
-        "らしいです means 'seems like' based on hearsay, not visual appearance."
+        "嬉しがって笑った uses the がる construction to assert that she IS feeling joy from the inside; it removes the speaker's outside observation 'appears happy' that そうに conveys.",
+        "らしく attaches to the plain form (嬉しいらしく) and reports an inference ('apparently happy'); on the bare stem it is ungrammatical, and either way it misses the direct visual read そうに gives.",
+        "嬉しいように笑った reads as 'laughed as if it were a happy occasion' — a hypothetical comparison rather than a direct read of her visible mood."
       ],
-      "hiragana_full": "このけーきはおいしそうです。",
+      "hiragana_full": "かのじょはうれしそうにわらった。",
       "audio_alternatives": [
         {
-          "kanji": "このケーキはおいしそうだ。",
-          "hiragana_full": "このけーきはおいしそうだ。"
+          "kanji": "彼女は嬉しそうな顔で笑っていた。",
+          "hiragana_full": "かのじょはうれしそうなかおでわらっていた。"
         },
         {
-          "kanji": "このケーキはおいしく見えます。",
-          "hiragana_full": "このけーきはおいしくみえます。"
+          "kanji": "彼女は心から楽しそうに笑った。",
+          "hiragana_full": "かのじょはこころからたのしそうにわらった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "笑った",
+          "reading": "わらった",
+          "meaning": "laughed"
+        }
+      ]
     },
     {
       "id": "n4_004_2",
-      "example_sentence": "雨が降りそうです。",
-      "translation": "It looks like it's going to rain.",
-      "blank_target": "そうです",
+      "example_sentence": "子供たちは楽しそうに公園で遊んでいる。",
+      "translation": "The children are playing in the park, looking like they're really enjoying themselves.",
+      "blank_target": "そうに",
       "wrong_choices": [
-        "ます",
-        "ました",
-        "そうでした"
+        "がって",
+        "らしく",
+        "ように"
       ],
       "wrong_choice_explanations": [
-        "ます states a fact ('it rains'), not a visual conjecture.",
-        "ました is past tense ('it rained'), not about current appearance.",
-        "そうでした is past tense of そうだ ('it looked like'), not appropriate for current observation."
+        "楽しがって遊んでいる asserts via がる that they ARE having fun internally; it loses the observational 'appearing to enjoy themselves' nuance そうに gives.",
+        "楽しいらしく遊んでいる ('apparently enjoying themselves, they are playing') reports the speaker's inference rather than capturing the visible appearance of children at play.",
+        "楽しいように遊んでいる reads as 'plays as if it were fun' — a hypothetical comparison, not the direct observation of visible enjoyment そうに conveys."
       ],
-      "hiragana_full": "あめがふりそうです。",
+      "hiragana_full": "こどもたちはたのしそうにこうえんであそんでいる。",
       "audio_alternatives": [
         {
-          "kanji": "雨が降りそうだ。",
-          "hiragana_full": "あめがふりそうだ。"
+          "kanji": "公園で子供たちが嬉しそうに走り回っている。",
+          "hiragana_full": "こうえんでこどもたちがうれしそうにはしりまわっている。"
         },
         {
-          "kanji": "雨が降るようです。",
-          "hiragana_full": "あめがふるようです。"
+          "kanji": "子供たちは大はしゃぎで公園を駆け回っている。",
+          "hiragana_full": "こどもたちはおおはしゃぎでこうえんをかけまわっている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "公園",
+          "reading": "こうえん",
+          "meaning": "park"
+        }
+      ]
     },
     {
       "id": "n4_004_3",
-      "example_sentence": "この荷物は重そうです。",
-      "translation": "This luggage looks heavy.",
-      "blank_target": "そうです",
+      "example_sentence": "彼は眠そうに目をこすった。",
+      "translation": "He rubbed his eyes sleepily.",
+      "blank_target": "そうに",
       "wrong_choices": [
-        "いです",
-        "かったです",
-        "ようです"
+        "がって",
+        "らしく",
+        "ように"
       ],
       "wrong_choice_explanations": [
-        "いです states a fact ('is heavy'), not how it appears.",
-        "かったです is past tense ('was heavy'), not about current appearance.",
-        "ようです expresses inference but is not specifically for visual conjecture about physical qualities."
+        "眠がって目をこすった uses がる to claim he IS feeling sleepy from the inside; it states the inner state rather than the visible behavior そうに captures.",
+        "眠いらしく目をこすった ('apparently sleepy, he rubbed his eyes') is grammatical but downplays the immediate visual cue into a logical inference, missing the directness of そうに.",
+        "眠いように目をこすった means 'rubbed his eyes as if sleepy', which suggests he might be acting; そうに is the genuine on-sight observation."
       ],
-      "hiragana_full": "このにもつはおもそうです。",
+      "hiragana_full": "かれはねむそうにめをこすった。",
       "audio_alternatives": [
         {
-          "kanji": "この荷物は重そうだ。",
-          "hiragana_full": "このにもつはおもそうだ。"
+          "kanji": "彼はいかにも眠そうな顔で目をこすった。",
+          "hiragana_full": "かれはいかにもねむそうなかおでめをこすった。"
         },
         {
-          "kanji": "この荷物は重いように見えます。",
-          "hiragana_full": "このにもつはおもいようにみえます。"
+          "kanji": "彼はあくびをしながら目をこすっていた。",
+          "hiragana_full": "かれはあくびをしながらめをこすっていた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "こすった",
+          "reading": "こすった",
+          "meaning": "rubbed"
+        }
+      ]
     },
     {
       "id": "n4_004_4",
-      "example_sentence": "彼女は元気そうです。",
-      "translation": "She looks well / healthy.",
-      "blank_target": "そうです",
+      "example_sentence": "妹は寒そうにコートを羽織った。",
+      "translation": "My little sister put on her coat, looking cold.",
+      "blank_target": "そうに",
       "wrong_choices": [
-        "です",
-        "でした",
-        "になりそうです"
+        "ければ",
+        "ように",
+        "らしく"
       ],
       "wrong_choice_explanations": [
-        "です states a fact ('is well'), not an observation about appearance.",
-        "でした is past tense ('was well'), not about her current appearance.",
-        "になりそうです means 'looks like she will become healthy', not that she currently looks healthy."
+        "寒ければコートを羽織った sets up a hypothetical condition ('if it were cold'), which clashes with the completed past action and loses the visible 'looking cold' description that そうに provides.",
+        "寒いようにコートを羽織った means 'put on the coat as if she were cold' — a performative comparison suggesting acting, while そうに captures genuine visible chill.",
+        "寒いらしくコートを羽織った ('apparently cold, she put on the coat') reports the speaker's inference rather than the immediate visual cue of cold."
       ],
-      "hiragana_full": "かのじょはげんきそうです。",
+      "hiragana_full": "いもうとはさむそうにこーとをはおった。",
       "audio_alternatives": [
         {
-          "kanji": "彼女は元気そうに見えます。",
-          "hiragana_full": "かのじょはげんきそうにみえます。"
+          "kanji": "妹はぶるぶる震えながら寒そうにマフラーを巻いた。",
+          "hiragana_full": "いもうとはぶるぶるふるえながらさむそうにまふらーをまいた。"
         },
         {
-          "kanji": "彼女は元気そうだ。",
-          "hiragana_full": "かのじょはげんきそうだ。"
+          "kanji": "妹は身震いしながらコートを着込んだ。",
+          "hiragana_full": "いもうとはみぶるいしながらこーとをきこんだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "羽織った",
+          "reading": "はおった",
+          "meaning": "threw on (over the shoulders)"
+        }
+      ]
     },
     {
       "id": "n4_004_5",
-      "example_sentence": "この問題は難しそうです。",
-      "translation": "This problem looks difficult.",
-      "blank_target": "そうです",
+      "example_sentence": "弟は美味しそうな顔でケーキを食べている。",
+      "translation": "My little brother is eating the cake with a look that says it's delicious.",
+      "blank_target": "そうな",
       "wrong_choices": [
-        "いです",
-        "かったです",
-        "はずです"
+        "ような",
+        "らしい",
+        "みたいな"
       ],
       "wrong_choice_explanations": [
-        "いです states it factually ('is difficult'), not how it appears.",
-        "かったです is past tense ('was difficult'), not about current appearance.",
-        "はずです means 'should be' based on expectations, not visual assessment."
+        "美味しいような顔 means 'a face like (someone who finds it) delicious' — a vague simile rather than the direct visual judgment of his expression that そうな delivers.",
+        "美味しいらしい顔 is unnatural; らしい reports inference about facts ('apparently delicious'), not the visible look on a person's face mid-bite.",
+        "美味しいみたいな顔 is colloquial simile ('a face like deliciousness') and expresses vague resemblance, lacking the appearance-based assessment そうな carries."
       ],
-      "hiragana_full": "このもんだいはむずかしそうです。",
+      "hiragana_full": "おとうとはおいしそうなかおでけーきをたべている。",
       "audio_alternatives": [
         {
-          "kanji": "この問題は難しそうだ。",
-          "hiragana_full": "このもんだいはむずかしそうだ。"
+          "kanji": "弟はケーキを美味しそうに頬張っている。",
+          "hiragana_full": "おとうとはけーきをおいしそうにほおばっている。"
         },
         {
-          "kanji": "この問題は難しく見えます。",
-          "hiragana_full": "このもんだいはむずかしくみえます。"
+          "kanji": "弟は満足そうな表情でケーキを食べている。",
+          "hiragana_full": "おとうとはまんぞくそうなひょうじょうでけーきをたべている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "弟",
+          "reading": "おとうと",
+          "meaning": "younger brother"
+        }
+      ]
     },
     {
       "id": "n4_004_6",
-      "example_sentence": "子供たちは楽しそうです。",
-      "translation": "The children look like they're having fun.",
-      "blank_target": "そうです",
+      "example_sentence": "雨が降りそうな空ですね。",
+      "translation": "The sky looks like it's about to rain, doesn't it.",
+      "blank_target": "そうな",
       "wrong_choices": [
-        "いです",
-        "んでいます",
-        "みたいです"
+        "ような",
+        "らしい",
+        "みたいな"
       ],
       "wrong_choice_explanations": [
-        "いです states a fact ('are having fun'), not a visual observation.",
-        "んでいます is the progressive form ('are enjoying'), stating fact rather than visual conjecture.",
-        "みたいです draws an inference that something seems to be the case ('it seems they're enjoying themselves'); そうです instead reports the impression you get directly from how they look right now."
+        "雨が降るような空 ('a sky as if it would rain') is metaphorical comparison and feels more abstract; そうな conveys the imminent likelihood read straight from how the sky looks now.",
+        "雨が降るらしい空 is unnatural — らしい states inference based on hearsay or outside evidence and would attach to the plain form 降る, not pair with 空 to describe the visible sky.",
+        "雨が降るみたいな空 is conversational 'a sky like it'll rain' — informal resemblance, lacking the appearance-judgment focus そうな gives a sky about to break."
       ],
-      "hiragana_full": "こどもたちはたのしそうです。",
+      "hiragana_full": "あめがふりそうなそらですね。",
       "audio_alternatives": [
         {
-          "kanji": "子供たちは楽しそうに見えます。",
-          "hiragana_full": "こどもたちはたのしそうにみえます。"
+          "kanji": "今にも雨が降りそうな雲行きですね。",
+          "hiragana_full": "いまにもあめがふりそうなくもゆきですね。"
         },
         {
-          "kanji": "子どもたちは楽しそうだ。",
-          "hiragana_full": "こどもたちはたのしそうだ。"
+          "kanji": "空が暗くなってきて、もうすぐ雨が来そうですよ。",
+          "hiragana_full": "そらがくらくなってきて、もうすぐあめがきそうですよ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "空",
+          "reading": "そら",
+          "meaning": "sky"
+        }
+      ]
     },
     {
       "id": "n4_004_7",
-      "example_sentence": "この花は枯れそうです。",
-      "translation": "This flower looks like it's going to wither.",
-      "blank_target": "そうです",
+      "example_sentence": "お父さんは重そうな荷物を運んでいた。",
+      "translation": "Dad was carrying what looked like a heavy load.",
+      "blank_target": "そうな",
       "wrong_choices": [
-        "ます",
-        "ました",
-        "るでしょう"
+        "ような",
+        "らしい",
+        "っぽい"
       ],
       "wrong_choice_explanations": [
-        "ます states a fact ('it withers'), not visual conjecture.",
-        "ました is past tense ('it withered'), not about future appearance.",
-        "るでしょう expresses probability but not specifically based on visual evidence of the flower's current state."
+        "重いような荷物 ('luggage that's like heavy') is a vague simile; そうな gives the speaker's direct visual estimate of the bag's weight.",
+        "重いらしい荷物 means 'luggage that is apparently heavy' based on hearsay or outside information, rather than the way the bag visibly strains the carrier.",
+        "重っぽい荷物 isn't a natural compound; っぽい attaches to nouns or some adjectives to mean '-ish/tendency', and tagging 重い this way undercuts the on-sight assessment そうな conveys."
       ],
-      "hiragana_full": "このはなはかれそうです。",
+      "hiragana_full": "おとうさんはおもそうなにもつをはこんでいた。",
       "audio_alternatives": [
         {
-          "kanji": "この花は枯れそうだ。",
-          "hiragana_full": "このはなはかれそうだ。"
+          "kanji": "父はずっしりと重そうな段ボールを抱えていた。",
+          "hiragana_full": "ちちはずっしりとおもそうなだんぼーるをかかえていた。"
         },
         {
-          "kanji": "この花は枯れかけています。",
-          "hiragana_full": "このはなはかれかけています。"
+          "kanji": "お父さんは見るからにずっしりした荷物を運んでいた。",
+          "hiragana_full": "おとうさんはみるからにずっしりしたにもつをはこんでいた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "荷物",
+          "reading": "にもつ",
+          "meaning": "luggage; load"
+        },
+        {
+          "word": "運んで",
+          "reading": "はこんで",
+          "meaning": "carrying"
+        }
+      ]
     },
     {
       "id": "n4_004_8",
-      "example_sentence": "あの人は優しそうです。",
-      "translation": "That person looks kind.",
-      "blank_target": "そうです",
+      "example_sentence": "彼は疲れていそうですね。顔が青い。",
+      "translation": "He looks tired. His face is pale.",
+      "blank_target": "そう",
       "wrong_choices": [
-        "いです",
-        "そうでした",
-        "らしいです"
+        "らしい",
+        "ようだ",
+        "みたい"
       ],
       "wrong_choice_explanations": [
-        "いです states a fact ('is kind'), not a visual impression.",
-        "そうでした is past tense ('looked kind'), not appropriate for current observation.",
-        "らしいです is based on hearsay or reputation, not visual appearance."
+        "らしい reports hearsay — 'I hear he's tired' — but the speaker is making the call themselves from his pale face, not relaying second-hand information.",
+        "ようだ draws an inference from accumulated evidence and feels more deliberative. The pale-face cue here is a direct on-the-spot read, which is そう's home turf.",
+        "みたい is the casual version of ようだ — also more inferential than spot-impression. The sentence is the speaker's snap visual judgment, which appearance そう delivers most cleanly."
       ],
-      "hiragana_full": "あのひとはやさしそうです。",
+      "hiragana_full": "かれはつかれていそうですね。かおがあおい。",
       "audio_alternatives": [
         {
-          "kanji": "あの人は優しそうに見えます。",
-          "hiragana_full": "あのひとはやさしそうにみえます。"
+          "kanji": "彼は疲れているみたいですね。顔が青い。",
+          "hiragana_full": "かれはつかれているみたいですね。かおがあおい。"
         },
         {
-          "kanji": "あの人は優しい感じがします。",
-          "hiragana_full": "あのひとはやさしいかんじがします。"
+          "kanji": "彼は疲れているようですね。顔が青いです。",
+          "hiragana_full": "かれはつかれているようですね。かおがあおいです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n4_004_9",
-      "example_sentence": "このスープは熱そうです。",
-      "translation": "This soup looks hot.",
-      "blank_target": "そうです",
+      "example_sentence": "この車は高そうだ。ブランドロゴが金色で光っている。",
+      "translation": "This car looks expensive. The brand logo is shining in gold.",
+      "blank_target": "そう",
       "wrong_choices": [
-        "いです",
-        "そうでした",
-        "でしょう"
+        "らしい",
+        "ようだ",
+        "だろう"
       ],
       "wrong_choice_explanations": [
-        "いです states a fact ('is hot'), not visual appearance.",
-        "そうでした is past tense ('looked hot'), not for current visual observation.",
-        "でしょう expresses probability but not specifically based on visual evidence like steam rising from the soup."
+        "らしい suggests hearsay or reputation, but we're judging based on the visual luxury details.",
+        "ようだ indicates inference from evidence, but そうだ is more direct for immediate visual assessment of value.",
+        "だろう expresses supposition, but そうだ specifically indicates visual signs of expensiveness."
       ],
-      "hiragana_full": "このすーぷはあつそうです。",
+      "hiragana_full": "このくるまはたかそうだ。ブランドロゴがきんいろでひかっている。",
       "audio_alternatives": [
         {
-          "kanji": "このスープは熱そうだ。",
-          "hiragana_full": "このすーぷはあつそうだ。"
+          "kanji": "この車は高そうです。ブランドロゴが金色で光っています。",
+          "hiragana_full": "このくるまはたかそうです。ブランドロゴがきんいろでひかっています。"
         },
         {
-          "kanji": "このスープは熱いように見えます。",
-          "hiragana_full": "このすーぷはあついようにみえます。"
+          "kanji": "この車は高そうだ。ブランドのロゴが金色に輝いている。",
+          "hiragana_full": "このくるまはたかそうだ。ブランドのロゴがきんいろにかがやいている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "金色",
+          "reading": "きんいろ",
+          "meaning": "gold color"
+        },
+        {
+          "word": "光って",
+          "reading": "ひかって",
+          "meaning": "shining"
+        }
+      ]
     },
     {
       "id": "n4_004_10",
-      "example_sentence": "彼は疲れそうです。",
-      "translation": "He looks like he's about to drop from exhaustion.",
-      "blank_target": "そうです",
+      "example_sentence": "このリンゴは新鮮そうだ。皮がつやつやしている。",
+      "translation": "This apple looks fresh. The skin is shiny.",
+      "blank_target": "そう",
       "wrong_choices": [
-        "ています",
-        "ました",
-        "ているようです"
+        "らしい",
+        "ようだ",
+        "はず"
       ],
       "wrong_choice_explanations": [
-        "ています states the current state ('is tired'), not a visual impression.",
-        "ました is past tense ('got tired'), not about how he currently looks.",
-        "ているようです expresses inference about his state but is not the specific pattern for visual conjecture about appearance."
+        "らしい suggests general reputation, but we're judging freshness based on the apple's shiny appearance.",
+        "ようだ indicates logical inference, but そうだ better expresses immediate visual assessment of freshness.",
+        "はず means 'should be' based on expectation, but そうだ indicates visual signs of the apple's fresh condition."
       ],
-      "hiragana_full": "かれはつかれそうです。",
+      "hiragana_full": "このりんごはしんせんそうだ。かわがつやつやしている。",
       "audio_alternatives": [
         {
-          "kanji": "彼は疲れているようです。",
-          "hiragana_full": "かれはつかれているようです。"
+          "kanji": "このリンゴは新鮮そうです。皮がつやつやしています。",
+          "hiragana_full": "このりんごはしんせんそうです。かわがつやつやしています。"
         },
         {
-          "kanji": "彼は疲れた様子です。",
-          "hiragana_full": "かれはつかれたようすです。"
+          "kanji": "このリンゴは新鮮に見える。皮がつやつやしている。",
+          "hiragana_full": "このりんごはしんせんにみえる。かわがつやつやしている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "新鮮",
+          "reading": "しんせん",
+          "meaning": "fresh"
+        },
+        {
+          "word": "皮",
+          "reading": "かわ",
+          "meaning": "skin, peel"
+        },
+        {
+          "word": "つやつや",
+          "reading": "つやつや",
+          "meaning": "shiny, glossy"
+        }
+      ]
     }
   ]
 }

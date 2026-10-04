@@ -30,7 +30,8 @@
           "hiragana_full": "それはぼくのほんではない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n5_085_2",
@@ -58,7 +59,8 @@
           "hiragana_full": "かれはがくせいじゃない、せんせいだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n5_085_3",
@@ -86,7 +88,15 @@
           "hiragana_full": "きょうはしごとがあるから、やすみじゃない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "休み",
+          "reading": "やすみ",
+          "meaning": "day off"
+        }
+      ]
     },
     {
       "id": "n5_085_4",
@@ -95,12 +105,12 @@
       "blank_target": "じゃない",
       "wrong_choices": [
         "だ",
-        "ない",
+        "くない",
         "ある"
       ],
       "wrong_choice_explanations": [
         "だ would say Tanaka IS well, the opposite of the intended meaning.",
-        "ない alone is the negative ending for verbs and i-adjectives; 元気 is a na-adjective and requires じゃない.",
+        "くない (元気くない) conjugates 元気 like an i-adjective, but 元気 is a na-adjective — its plain negative is formed with the copula, giving 元気じゃない.",
         "ある means 'to exist' for inanimate things and cannot serve as the negative predicate for 元気 here."
       ],
       "hiragana_full": "たなかさんはげんきじゃない。",
@@ -114,7 +124,8 @@
           "hiragana_full": "きょう、たなかさんはげんきじゃない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n5_085_5",
@@ -142,7 +153,15 @@
           "hiragana_full": "それはわたしのかさではない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "傘",
+          "reading": "かさ",
+          "meaning": "umbrella"
+        }
+      ]
     },
     {
       "id": "n5_085_6",
@@ -170,7 +189,15 @@
           "hiragana_full": "かれのいえはいつもうるさくてしずかじゃない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "静か",
+          "reading": "しずか",
+          "meaning": "quiet"
+        }
+      ]
     },
     {
       "id": "n5_085_7",
@@ -198,7 +225,15 @@
           "hiragana_full": "このえきはすこしふべんで、べんりじゃない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "便利",
+          "reading": "べんり",
+          "meaning": "convenient"
+        }
+      ]
     },
     {
       "id": "n5_085_8",
@@ -226,7 +261,20 @@
           "hiragana_full": "すうがくはわたしのせんもんじゃない、ぶつりだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "専門",
+          "reading": "せんもん",
+          "meaning": "specialty; major"
+        },
+        {
+          "word": "数学",
+          "reading": "すうがく",
+          "meaning": "mathematics"
+        }
+      ]
     },
     {
       "id": "n5_085_9",
@@ -254,7 +302,8 @@
           "hiragana_full": "いまはくもりで、あめじゃない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n5_085_10",
@@ -282,7 +331,15 @@
           "hiragana_full": "ここはほんやで、としょかんじゃない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "図書館",
+          "reading": "としょかん",
+          "meaning": "library"
+        }
+      ]
     }
   ]
 }

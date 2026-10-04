@@ -10,14 +10,14 @@
       "translation": "Exhibitions are held under the principle of artistic freedom.",
       "blank_target": "のもとに",
       "wrong_choices": [
-        "のもとで",
+        "に反して",
         "において",
-        "に基づいて"
+        "をよそに"
       ],
       "wrong_choice_explanations": [
-        "のもとで focuses on the conditions or environment of an action, but this sentence requires のもとに to express being guided by a principle or authority.",
+        "に反して means 'contrary to / against', the opposite of holding exhibitions in keeping with the principle; のもとに frames the principle as the banner under which they take place.",
         "において indicates a formal location or context but lacks the nuance of being under the guidance or authority of a principle that のもとに provides.",
-        "に基づいて means 'based on' but emphasizes using something as a foundation for decision-making, while のもとに expresses operating under the guidance of an ideal or principle."
+        "をよそに means 'ignoring / in disregard of', which reverses the sense — the exhibitions are held UNDER the principle, not in defiance of it, which のもとに (the principle as guiding aegis) expresses."
       ],
       "hiragana_full": "びじゅつのじゆうというげんそくのもとに、てんじがおこなわれる。",
       "audio_alternatives": [
@@ -30,7 +30,20 @@
           "hiragana_full": "びじゅつのじゆうというげんそくのもとで、てんじがかいさいされる。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "原則",
+          "reading": "げんそく",
+          "meaning": "principle"
+        },
+        {
+          "word": "展示",
+          "reading": "てんじ",
+          "meaning": "exhibition"
+        }
+      ]
     },
     {
       "id": "n2_065_2",
@@ -58,38 +71,28 @@
           "hiragana_full": "こくみんはきょうわこくのりそうのもとにだんけつした。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "共和国",
+          "reading": "きょうわこく",
+          "meaning": "republic"
+        },
+        {
+          "word": "理想",
+          "reading": "りそう",
+          "meaning": "ideal"
+        },
+        {
+          "word": "団結",
+          "reading": "だんけつ",
+          "meaning": "unity/solidarity"
+        }
+      ]
     },
     {
       "id": "n2_065_3",
-      "example_sentence": "民主主義の原則のもとに、すべての政策が立案される。",
-      "translation": "All policies are formulated under the principles of democracy.",
-      "blank_target": "のもとに",
-      "wrong_choices": [
-        "に従って",
-        "に関して",
-        "について"
-      ],
-      "wrong_choice_explanations": [
-        "に従って means 'according to' or 'following' specific rules or instructions, but のもとに expresses operating under the broader guidance of principles or authority.",
-        "に関して means 'regarding' or 'concerning' and indicates the topic of discussion, not the guiding authority under which actions are taken.",
-        "について also means 'about' or 'concerning' and indicates the subject matter, not the authoritative framework expressed by のもとに."
-      ],
-      "hiragana_full": "みんしゅしゅぎのげんそくのもとに、すべてのせいさくがりつあんされる。",
-      "audio_alternatives": [
-        {
-          "kanji": "民主主義の原則に基づいて、すべての政策が立案される。",
-          "hiragana_full": "みんしゅしゅぎのげんそくにもとづいて、すべてのせいさくがりつあんされる。"
-        },
-        {
-          "kanji": "すべての政策は民主主義の原則のもとに立案される。",
-          "hiragana_full": "すべてのせいさくはみんしゅしゅぎのげんそくのもとにりつあんされる。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_065_4",
       "example_sentence": "会社の経営理念のもとに、全社員が団結している。",
       "translation": "All employees are united under the company's management philosophy.",
       "blank_target": "のもとに",
@@ -114,20 +117,33 @@
           "hiragana_full": "ぜんしゃいんがかいしゃのけいえいりねんのもとにだんけつしています。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "経営理念",
+          "reading": "けいえいりねん",
+          "meaning": "management philosophy"
+        },
+        {
+          "word": "団結",
+          "reading": "だんけつ",
+          "meaning": "unity"
+        }
+      ]
     },
     {
-      "id": "n2_065_5",
+      "id": "n2_065_4",
       "example_sentence": "厳しい守秘義務のもとに、社内不正の内部調査が進められている。",
       "translation": "Under a strict duty of confidentiality, the in-house investigation of misconduct is moving forward.",
       "blank_target": "のもとに",
       "wrong_choices": [
-        "のもとで",
+        "にもかかわらず",
         "を踏まえて",
         "に伴って"
       ],
       "wrong_choice_explanations": [
-        "のもとで is a very close near-synonym, but it tends to describe a physical or situational setting (太陽のもとで, 監督のもとで); のもとに is the idiomatic choice when the head noun is an obligation or principle being invoked as the umbrella of the action.",
+        "にもかかわらず means 'despite / in spite of', which would cast the investigation as proceeding against the obstacle of the duty, not under its aegis as のもとに indicates.",
         "を踏まえて means 'taking (X) into account / on the basis of having weighed X' — it frames the obligation as a preliminary consideration, whereas のもとに treats it as the active aegis under which the investigation proceeds.",
         "に伴って means 'along with / accompanying' and would parallel the obligation and the investigation as two simultaneous processes; のもとに subordinates the investigation to the obligation rather than placing them side by side."
       ],
@@ -142,66 +158,28 @@
           "hiragana_full": "げんかくなしゅひぎむのもとに、しゃないふせいのちょうさがおこなわれている。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_065_6",
-      "example_sentence": "憲法の精神のもとに、新しい法律が制定された。",
-      "translation": "New laws were enacted under the spirit of the constitution.",
-      "blank_target": "のもとに",
-      "wrong_choices": [
-        "に沿って",
-        "に対応して",
-        "に関連して"
-      ],
-      "wrong_choice_explanations": [
-        "に沿って means 'along with' or 'in line with' and suggests following something closely, but のもとに expresses operating under the authority or guidance of something greater.",
-        "に対応して means 'in response to' and indicates a reaction to circumstances, not the concept of being guided by constitutional spirit.",
-        "に関連して means 'in relation to' and indicates connection or association, not the authoritative guidance expressed by のもとに."
-      ],
-      "hiragana_full": "けんぽうのせいしんのもとに、あたらしいほうりつがせいていされた。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "憲法の精神に基づいて、新しい法律が制定された。",
-          "hiragana_full": "けんぽうのせいしんにもとづいて、あたらしいほうりつがせいていされた。"
+          "word": "守秘義務",
+          "reading": "しゅひぎむ",
+          "meaning": "confidentiality obligation"
         },
         {
-          "kanji": "憲法の精神のもとで、新しい法律が制定された。",
-          "hiragana_full": "けんぽうのせいしんのもとで、あたらしいほうりつがせいていされた。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_065_7",
-      "example_sentence": "平和という崇高な理念のもとに、国際協力が推進されている。",
-      "translation": "International cooperation is being promoted under the noble ideal of peace.",
-      "blank_target": "のもとに",
-      "wrong_choices": [
-        "を目指して",
-        "に向けて",
-        "をもって"
-      ],
-      "wrong_choice_explanations": [
-        "を目指して means 'aiming for' and indicates a goal to be achieved, but のもとに expresses operating under the guidance of an already established ideal.",
-        "に向けて means 'toward' and indicates direction or goal, not the concept of being guided by a noble ideal in current actions.",
-        "をもって means 'with' or 'by means of' and indicates using something as a tool or method, not operating under the authority of an ideal."
-      ],
-      "hiragana_full": "へいわというすうこうなりねんのもとに、こくさいきょうりょくがすいしんされている。",
-      "audio_alternatives": [
-        {
-          "kanji": "平和という崇高な理念に基づき、国際協力が推進されている。",
-          "hiragana_full": "へいわというすうこうなりねんにもとづき、こくさいきょうりょくがすいしんされている。"
+          "word": "不正",
+          "reading": "ふせい",
+          "meaning": "misconduct"
         },
         {
-          "kanji": "崇高な平和の理念のもとで、国際協力が推進されている。",
-          "hiragana_full": "すうこうなへいわのりねんのもとで、こくさいきょうりょくがすいしんされている。"
+          "word": "内部調査",
+          "reading": "ないぶちょうさ",
+          "meaning": "internal investigation"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n2_065_8",
+      "id": "n2_065_5",
       "example_sentence": "人道主義の旗のもとに、救援活動が展開された。",
       "translation": "Relief activities were deployed under the banner of humanitarianism.",
       "blank_target": "のもとに",
@@ -226,10 +204,23 @@
           "hiragana_full": "じんどうしゅぎのなのもとに、きゅうえんかつどうがてんかいされた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "人道主義",
+          "reading": "じんどうしゅぎ",
+          "meaning": "humanitarianism"
+        },
+        {
+          "word": "救援活動",
+          "reading": "きゅうえんかつどう",
+          "meaning": "relief activity"
+        }
+      ]
     },
     {
-      "id": "n2_065_9",
+      "id": "n2_065_6",
       "example_sentence": "正義の名のもとに、改革が断行された。",
       "translation": "Reforms were carried out under the name of justice.",
       "blank_target": "のもとに",
@@ -254,10 +245,23 @@
           "hiragana_full": "せいぎのなのもとで、かいかくがじっこうされた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "正義",
+          "reading": "せいぎ",
+          "meaning": "justice"
+        },
+        {
+          "word": "断行",
+          "reading": "だんこう",
+          "meaning": "to carry out resolutely"
+        }
+      ]
     },
     {
-      "id": "n2_065_10",
+      "id": "n2_065_7",
       "example_sentence": "師匠の教えのもとに、弟子たちは修行を続けている。",
       "translation": "The disciples continue their training under their master's teachings.",
       "blank_target": "のもとに",
@@ -282,7 +286,158 @@
           "hiragana_full": "ししょうのしどうのもとで、でしたちはしゅぎょうをつづけている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "師匠",
+          "reading": "ししょう",
+          "meaning": "master"
+        },
+        {
+          "word": "弟子",
+          "reading": "でし",
+          "meaning": "disciple"
+        },
+        {
+          "word": "修行",
+          "reading": "しゅぎょう",
+          "meaning": "training/discipline"
+        }
+      ]
+    },
+    {
+      "id": "n2_065_8",
+      "example_sentence": "法のもとに、すべての人は平等だ。",
+      "translation": "Under the law, all people are equal.",
+      "blank_target": "のもとに",
+      "wrong_choices": [
+        "に反して",
+        "において",
+        "に基づいて"
+      ],
+      "wrong_choice_explanations": [
+        "「に反して」 means 'against / contrary to the law', contradicting the point that everyone is equal under the law. 「のもとに」 marks the law as the governing basis.",
+        "において means 'in' or 'at' (formal context), but doesn't convey the foundational authority that law provides in this context.",
+        "に基づいて means 'based on' but emphasizes following or conforming to something, rather than the authoritative foundation that のもとに expresses."
+      ],
+      "hiragana_full": "ほうのもとに、すべてのひとはびょうどうだ。",
+      "audio_alternatives": [
+        {
+          "kanji": "法の下では、すべての人が平等だ。",
+          "hiragana_full": "ほうのもとでは、すべてのひとがびょうどうだ。"
+        },
+        {
+          "kanji": "法律の下で、すべての人は平等である。",
+          "hiragana_full": "ほうりつのもとで、すべてのひとはびょうどうである。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "法",
+          "reading": "ほう",
+          "meaning": "law"
+        },
+        {
+          "word": "平等",
+          "reading": "びょうどう",
+          "meaning": "equality"
+        }
+      ]
+    },
+    {
+      "id": "n2_065_9",
+      "example_sentence": "憲法のもとに、国家が成り立っている。",
+      "translation": "The nation is founded under the Constitution.",
+      "blank_target": "のもとに",
+      "wrong_choices": [
+        "にもかかわらず",
+        "を無視して",
+        "に比べて"
+      ],
+      "wrong_choice_explanations": [
+        "「にもかかわらず」 is concessive ('despite the constitution'), which makes no sense here. 「のもとに」 marks the constitution as the foundation on which the nation stands.",
+        "「を無視して」 means 'ignoring the Constitution', the opposite of a nation founded on it. 「のもとに」 marks the Constitution as the authority under which the nation is established.",
+        "「に比べて」 means 'compared with'; nothing is being compared with the Constitution. 「のもとに」 marks it as the authority under which the nation stands."
+      ],
+      "hiragana_full": "けんぽうのもとに、こっかがなりたっている。",
+      "audio_alternatives": [
+        {
+          "kanji": "憲法に基づいて、国家が成り立っている。",
+          "hiragana_full": "けんぽうにもとづいて、こっかがなりたっている。"
+        },
+        {
+          "kanji": "憲法の下で、国家は成立している。",
+          "hiragana_full": "けんぽうのもとで、こっかはせいりつしている。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "憲法",
+          "reading": "けんぽう",
+          "meaning": "constitution"
+        },
+        {
+          "word": "国家",
+          "reading": "こっか",
+          "meaning": "state, nation"
+        },
+        {
+          "word": "成り立っている",
+          "reading": "なりたっている",
+          "meaning": "is constituted, holds together"
+        }
+      ]
+    },
+    {
+      "id": "n2_065_10",
+      "example_sentence": "民主主義の原則のもとに、投票が行われる。",
+      "translation": "Voting is conducted under the principles of democracy.",
+      "blank_target": "のもとに",
+      "wrong_choices": [
+        "に逆らって",
+        "を通じて",
+        "において"
+      ],
+      "wrong_choice_explanations": [
+        "「に逆らって」 means 'going against' the principles of democracy, the opposite of voting conducted under them. 「のもとに」 marks those principles as the governing framework.",
+        "を通じて means 'through' or 'by means of', but doesn't convey the foundational authority that democratic principles provide in this context.",
+        "において means 'in' or 'at' (formal), but lacks the sense of foundational authority that のもとに provides for democratic principles."
+      ],
+      "hiragana_full": "みんしゅしゅぎのげんそくのもとに、とうひょうがおこなわれる。",
+      "audio_alternatives": [
+        {
+          "kanji": "民主主義の原則に基づいて、投票が行われる。",
+          "hiragana_full": "みんしゅしゅぎのげんそくにもとづいて、とうひょうがおこなわれる。"
+        },
+        {
+          "kanji": "民主主義の原則のもとで、投票が実施される。",
+          "hiragana_full": "みんしゅしゅぎのげんそくのもとで、とうひょうがじっしされる。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "民主主義",
+          "reading": "みんしゅしゅぎ",
+          "meaning": "democracy"
+        },
+        {
+          "word": "原則",
+          "reading": "げんそく",
+          "meaning": "principle"
+        },
+        {
+          "word": "投票",
+          "reading": "とうひょう",
+          "meaning": "voting"
+        }
+      ]
     }
   ]
 }

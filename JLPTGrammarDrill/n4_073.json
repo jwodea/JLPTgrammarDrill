@@ -30,7 +30,8 @@
           "hiragana_full": "あめがふらないうちにいえにかえろう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n4_073_2",
@@ -58,7 +59,8 @@
           "hiragana_full": "わすれないうちに、かきとめておこう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n4_073_3",
@@ -86,7 +88,15 @@
           "hiragana_full": "くらくなるまえに、さんぽしませんか。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "散歩",
+          "reading": "さんぽ",
+          "meaning": "a walk"
+        }
+      ]
     },
     {
       "id": "n4_073_4",
@@ -114,7 +124,15 @@
           "hiragana_full": "でんしゃがくるまえに、チケットをかった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "切符",
+          "reading": "きっぷ",
+          "meaning": "ticket"
+        }
+      ]
     },
     {
       "id": "n4_073_5",
@@ -142,7 +160,8 @@
           "hiragana_full": "みせがしまらないうちに、かいものへいこう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n4_073_6",
@@ -170,7 +189,8 @@
           "hiragana_full": "ははがめをさますまえに、ちょうしょくをつくった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n4_073_7",
@@ -198,7 +218,8 @@
           "hiragana_full": "たべものがわるくなるまえに、たべましょう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n4_073_8",
@@ -226,7 +247,20 @@
           "hiragana_full": "えいががはじまるまえに、せきをみつけよう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "席",
+          "reading": "せき",
+          "meaning": "seat"
+        },
+        {
+          "word": "探そう",
+          "reading": "さがそう",
+          "meaning": "let's look for"
+        }
+      ]
     },
     {
       "id": "n4_073_9",
@@ -254,7 +288,8 @@
           "hiragana_full": "さむくならないうちに、こーとをきましょう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n4_073_10",
@@ -282,7 +317,8 @@
           "hiragana_full": "ともだちがかえるまえに、しゃしんをとりました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     }
   ]
 }

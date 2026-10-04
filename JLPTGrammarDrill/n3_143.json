@@ -1,0 +1,253 @@
+{
+  "id": "n3_143",
+  "pattern": "確かに",
+  "meaning": "certainly; it's true that ~ (acknowledging a point or confirming a fact)",
+  "level": "N3",
+  "exercises": [
+    {
+      "id": "n3_143_1",
+      "example_sentence": "確かに彼の意見にも一理あるが、全部には賛成できない。",
+      "translation": "It's true that his opinion has a point, but I can't agree with all of it.",
+      "blank_target": "確かに",
+      "wrong_choices": ["まさか", "決して", "ぜひ"],
+      "wrong_choice_explanations": [
+        "まさか expresses disbelief ('no way, surely not') and pairs with conjectures like 〜ないだろう or 〜とは; it cannot introduce an acknowledgment that something 一理ある (has a point).",
+        "決して means 'never / by no means' and must be completed by a negative in the same clause (決して〜ない); here the clause 一理ある is affirmative.",
+        "ぜひ expresses a strong wish or request (ぜひ来てください) and modifies volitional expressions, not a statement of fact like 一理ある."
+      ],
+      "hiragana_full": "たしかにかれのいけんにもいちりあるが、ぜんぶにはさんせいできない。",
+      "audio_alternatives": [
+        { "kanji": "確かに彼の言うことにも一理あるけど、全部は賛成できないよ。", "hiragana_full": "たしかにかれのいうことにもいちりあるけど、ぜんぶはさんせいできないよ。" },
+        { "kanji": "彼の意見にも良い点はあるが、すべてに同意はできない。", "hiragana_full": "かれのいけんにもよいてんはあるが、すべてにどういはできない。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "一理", "reading": "いちり", "meaning": "a point; some truth" },
+        { "word": "意見", "reading": "いけん", "meaning": "opinion" },
+        { "word": "賛成", "reading": "さんせい", "meaning": "agreement, approval" }
+      ],
+      "blank_target_reading": "たしかに"
+    },
+    {
+      "id": "n3_143_2",
+      "example_sentence": "ご注文の商品、確かに受け取りました。",
+      "translation": "I have duly received the item I ordered. (confirming to the shop)",
+      "blank_target": "確かに",
+      "wrong_choices": ["きっと", "必ず", "確か"],
+      "wrong_choice_explanations": [
+        "きっと expresses the speaker's conjecture about something not directly known (きっと来るだろう); you cannot use it to confirm your own completed action of receiving the package.",
+        "必ず means 'without fail' and describes future actions, promises, or habits (必ず連絡します); it does not assert certainty about a single past event.",
+        "確か (without に) means 'if I remember correctly' and marks a hazy memory (確か3時だったと思う); it would undermine the whole point of this message, which is to firmly confirm receipt."
+      ],
+      "hiragana_full": "ごちゅうもんのしょうひん、たしかにうけとりました。",
+      "audio_alternatives": [
+        { "kanji": "ご注文いただいた品物は、確かに受領いたしました。", "hiragana_full": "ごちゅうもんいただいたしなものは、たしかにじゅりょういたしました。" },
+        { "kanji": "商品は間違いなく受け取りました。", "hiragana_full": "しょうひんはまちがいなくうけとりました。" }
+      ],
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        { "word": "注文", "reading": "ちゅうもん", "meaning": "order (for goods)" },
+        { "word": "商品", "reading": "しょうひん", "meaning": "goods, item" },
+        { "word": "受け取る", "reading": "うけとる", "meaning": "to receive" }
+      ],
+      "blank_target_reading": "たしかに"
+    },
+    {
+      "id": "n3_143_3",
+      "example_sentence": "鍵は確かにこのかばんに入れたはずなのに、どこにもない。",
+      "translation": "I definitely put the key in this bag, but it's nowhere to be found.",
+      "blank_target": "確かに",
+      "wrong_choices": ["まさか", "決して", "ぜひ"],
+      "wrong_choice_explanations": [
+        "まさか marks disbelief at an unexpected possibility (まさか失くしたんじゃ…) and needs a conjectural or exclamatory ending; it cannot strengthen the speaker's certainty about their own memory of 入れた.",
+        "決して requires a negative in the clause it modifies (決して忘れない); 入れたはず is affirmative, so it cannot follow 決して.",
+        "ぜひ expresses an eager wish or request and goes with volitional forms like 〜たい or 〜てください; it cannot modify a memory of a past action like 入れたはず."
+      ],
+      "hiragana_full": "かぎはたしかにこのかばんにいれたはずなのに、どこにもない。",
+      "audio_alternatives": [
+        { "kanji": "確かにかばんに鍵をしまったのに、見つからない。", "hiragana_full": "たしかにかばんにかぎをしまったのに、みつからない。" },
+        { "kanji": "鍵は間違いなくこのかばんの中に入れたんだけど、ないんだ。", "hiragana_full": "かぎはまちがいなくこのかばんのなかにいれたんだけど、ないんだ。" }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        { "word": "鍵", "reading": "かぎ", "meaning": "key" },
+        { "word": "入れる", "reading": "いれる", "meaning": "to put in" }
+      ],
+      "blank_target_reading": "たしかに"
+    },
+    {
+      "id": "n3_143_4",
+      "example_sentence": "「確かに、君の言う通りかもしれないね。」",
+      "translation": "\"True, you might be right about that.\"",
+      "blank_target": "確かに",
+      "wrong_choices": ["一体", "まさか", "せめて"],
+      "wrong_choice_explanations": [
+        "一体 intensifies questions ('what on earth': 一体どうしたの?); this sentence is a statement of agreement, not a question, so 一体 has nothing to intensify.",
+        "まさか as an interjection expresses shock or denial ('no way!'), which contradicts the rest of the sentence — the speaker is conceding that the listener may be right, not rejecting it.",
+        "せめて means 'at least (as a minimum)' and pairs with wishes or requests (せめて一度は行きたい); it cannot stand alone to signal agreement with 君の言う通り."
+      ],
+      "hiragana_full": "「たしかに、きみのいうとおりかもしれないね。」",
+      "audio_alternatives": [
+        { "kanji": "確かに、あなたの言う通りかもしれません。", "hiragana_full": "たしかに、あなたのいうとおりかもしれません。" },
+        { "kanji": "そうだね、君が正しいのかもね。", "hiragana_full": "そうだね、きみがただしいのかもね。" }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        { "word": "君", "reading": "きみ", "meaning": "you (casual)" },
+        { "word": "言う通り", "reading": "いうとおり", "meaning": "just as (someone) says" }
+      ],
+      "blank_target_reading": "たしかに"
+    },
+    {
+      "id": "n3_143_5",
+      "example_sentence": "このスマホは確かに便利だけど、値段が高すぎるよ。",
+      "translation": "This phone sure is handy, but it costs way too much.",
+      "blank_target": "確かに",
+      "wrong_choices": ["決して", "必ず", "まさか"],
+      "wrong_choice_explanations": [
+        "決して must be completed by a negative (決して安くない); the clause 便利だ is affirmative, so 決して cannot modify it.",
+        "必ず means 'without fail' and describes things that reliably happen (必ず勝つ); it cannot modify a state description like 便利だ to concede that something is true.",
+        "まさか expresses disbelief at something unexpected and needs a conjectural ending (まさか〜ないよね); it cannot introduce the speaker's own concession that the phone is convenient."
+      ],
+      "hiragana_full": "このすまほはたしかにべんりだけど、ねだんがたかすぎるよ。",
+      "audio_alternatives": [
+        { "kanji": "このスマホ、便利なのは確かだけど、高すぎるよ。", "hiragana_full": "このすまほ、べんりなのはたしかだけど、たかすぎるよ。" },
+        { "kanji": "確かに使いやすいスマホですが、価格が高すぎます。", "hiragana_full": "たしかにつかいやすいすまほですが、かかくがたかすぎます。" }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        { "word": "値段", "reading": "ねだん", "meaning": "price" },
+        { "word": "便利", "reading": "べんり", "meaning": "convenient, handy" }
+      ],
+      "blank_target_reading": "たしかに"
+    },
+    {
+      "id": "n3_143_6",
+      "example_sentence": "調査によれば、若者の読書離れは確かに進んでいるようだ。",
+      "translation": "According to the survey, young people's drift away from reading does indeed seem to be advancing.",
+      "blank_target": "確かに",
+      "wrong_choices": ["必ずしも", "さっぱり", "どうか"],
+      "wrong_choice_explanations": [
+        "必ずしも means 'not necessarily' and must pair with a negative like 〜とは限らない or 〜わけではない; the predicate 進んでいるようだ is affirmative, so 必ずしも cannot stand here.",
+        "さっぱり in adverbial use requires a negative (さっぱり分からない, 'not at all'); it cannot modify the affirmative 進んでいる.",
+        "どうか is used in pleas (どうかお願いします) or embedded whether-questions (〜かどうか); it cannot modify a reported observation about a trend."
+      ],
+      "hiragana_full": "ちょうさによれば、わかもののどくしょばなれはたしかにすすんでいるようだ。",
+      "audio_alternatives": [
+        { "kanji": "データを見るかぎり、若者が本を読まなくなっているのは確かなようだ。", "hiragana_full": "でーたをみるかぎり、わかものがほんをよまなくなっているのはたしかなようだ。" },
+        { "kanji": "調査の数字からも、若い人の本離れが進んでいることがうかがえる。", "hiragana_full": "ちょうさのすうじからも、わかいひとのほんばなれがすすんでいることがうかがえる。" }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        { "word": "調査", "reading": "ちょうさ", "meaning": "survey, investigation" },
+        { "word": "読書離れ", "reading": "どくしょばなれ", "meaning": "drift away from reading" },
+        { "word": "進む", "reading": "すすむ", "meaning": "to advance, to progress" }
+      ],
+      "blank_target_reading": "たしかに"
+    },
+    {
+      "id": "n3_143_7",
+      "example_sentence": "確かにあの店のラーメンはうまい。でも、いつも行列がすごいんだよ。",
+      "translation": "Yeah, that place's ramen is great — but the line is always crazy.",
+      "blank_target": "確かに",
+      "wrong_choices": ["決して", "めったに", "せめて"],
+      "wrong_choice_explanations": [
+        "決して needs a following negative (決してうまくない); here うまい is affirmative, so 決して is impossible.",
+        "めったに means 'rarely' and also requires a negative predicate (めったに食べない); it cannot modify the affirmative うまい.",
+        "せめて expresses a minimum wish ('at least': せめて一口食べたい) and goes with desires or requests, not with a plain statement conceding that the ramen is good."
+      ],
+      "hiragana_full": "たしかにあのみせのらーめんはうまい。でも、いつもぎょうれつがすごいんだよ。",
+      "audio_alternatives": [
+        { "kanji": "あの店のラーメンがうまいのは確かだよ。ただ、行列がね。", "hiragana_full": "あのみせのらーめんがうまいのはたしかだよ。ただ、ぎょうれつがね。" },
+        { "kanji": "確かにあそこのラーメンはおいしいけど、並ぶのが大変なんだ。", "hiragana_full": "たしかにあそこのらーめんはおいしいけど、ならぶのがたいへんなんだ。" }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        { "word": "行列", "reading": "ぎょうれつ", "meaning": "line, queue" },
+        { "word": "うまい", "reading": "うまい", "meaning": "tasty (casual)" }
+      ],
+      "blank_target_reading": "たしかに"
+    },
+    {
+      "id": "n3_143_8",
+      "example_sentence": "お客様のお名前は、確かに予約リストに載っております。",
+      "translation": "Your name is indeed on the reservation list, sir. (hotel staff)",
+      "blank_target": "確かに",
+      "wrong_choices": ["確か", "きっと", "まさか"],
+      "wrong_choice_explanations": [
+        "確か (without に) means 'if I remember correctly' and signals an unsure memory; the staff member is looking right at the list, so a hedge would be both inaccurate and rude here — 確かに asserts verified certainty.",
+        "きっと is a conjecture about something the speaker hasn't confirmed (きっと大丈夫でしょう); it clashes with 載っております, which reports a fact the speaker has just checked.",
+        "まさか expresses disbelief ('surely not…') and pairs with conjectural or exclamatory endings; it cannot be used to politely confirm a fact to a customer."
+      ],
+      "hiragana_full": "おきゃくさまのおなまえは、たしかによやくりすとにのっております。",
+      "audio_alternatives": [
+        { "kanji": "お名前は間違いなくリストにございます。", "hiragana_full": "おなまえはまちがいなくりすとにございます。" },
+        { "kanji": "確かにご予約を承っております。", "hiragana_full": "たしかにごよやくをうけたまわっております。" }
+      ],
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        { "word": "予約", "reading": "よやく", "meaning": "reservation" },
+        { "word": "載る", "reading": "のる", "meaning": "to be listed, to appear (on a list)" },
+        { "word": "お客様", "reading": "おきゃくさま", "meaning": "customer, guest" }
+      ],
+      "blank_target_reading": "たしかに"
+    },
+    {
+      "id": "n3_143_9",
+      "example_sentence": "確かに練習はつらいが、そのぶん上達も早い。",
+      "translation": "Practice is tough, to be sure, but you improve that much faster.",
+      "blank_target": "確かに",
+      "wrong_choices": ["めったに", "ようやく", "わざわざ"],
+      "wrong_choice_explanations": [
+        "めったに means 'rarely' and requires a negative predicate (めったにない); つらい here is affirmative, so it cannot follow めったに.",
+        "ようやく means 'finally, at long last' and describes something arriving after a long wait (ようやく春が来た); it cannot introduce a concession that practice is hard.",
+        "わざわざ means 'going out of one's way to do something' and modifies deliberate actions (わざわざ来てくれた); it cannot modify the state description 練習はつらい."
+      ],
+      "hiragana_full": "たしかにれんしゅうはつらいが、そのぶんじょうたつもはやい。",
+      "audio_alternatives": [
+        { "kanji": "練習が大変なのは確かだが、その分早く上手になる。", "hiragana_full": "れんしゅうがたいへんなのはたしかだが、そのぶんはやくじょうずになる。" },
+        { "kanji": "確かにトレーニングはきついけど、上達は早いよ。", "hiragana_full": "たしかにとれーにんぐはきついけど、じょうたつははやいよ。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "練習", "reading": "れんしゅう", "meaning": "practice" },
+        { "word": "上達", "reading": "じょうたつ", "meaning": "improvement (in a skill)" },
+        { "word": "つらい", "reading": "つらい", "meaning": "tough, hard (to endure)" }
+      ],
+      "blank_target_reading": "たしかに"
+    },
+    {
+      "id": "n3_143_10",
+      "example_sentence": "「昨日、確かにメールを送りましたが、届いていませんか。」",
+      "translation": "\"I definitely sent the email yesterday — has it not arrived?\"",
+      "blank_target": "確かに",
+      "wrong_choices": ["きっと", "つい", "まさか"],
+      "wrong_choice_explanations": [
+        "きっと expresses conjecture about something uncertain (きっと届くでしょう); the speaker performed 送りました themselves, so there is nothing to conjecture about — they are asserting certainty.",
+        "つい means 'accidentally, without meaning to' (つい笑ってしまった) and implies the sending was an unintended slip, which contradicts a speaker who is confirming they properly sent the email.",
+        "まさか expresses disbelief and needs a conjectural ending (まさか消えたんじゃ…); it cannot modify the speaker's own confirmed past action 送りました."
+      ],
+      "hiragana_full": "「きのう、たしかにめーるをおくりましたが、とどいていませんか。」",
+      "audio_alternatives": [
+        { "kanji": "昨日、間違いなくメールをお送りしました。", "hiragana_full": "きのう、まちがいなくめーるをおおくりしました。" },
+        { "kanji": "確かに昨日メールしたんだけど、届いてない?", "hiragana_full": "たしかにきのうめーるしたんだけど、とどいてない?" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "届く", "reading": "とどく", "meaning": "to arrive, to be delivered" },
+        { "word": "送る", "reading": "おくる", "meaning": "to send" }
+      ],
+      "blank_target_reading": "たしかに"
+    }
+  ]
+}

@@ -30,38 +30,23 @@
           "hiragana_full": "いかなるひひょうがあったとしても、そのさくひんはれきしにのこるだろう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "批評",
+          "reading": "ひひょう",
+          "meaning": "criticism"
+        },
+        {
+          "word": "作品",
+          "reading": "さくひん",
+          "meaning": "work/piece"
+        }
+      ]
     },
     {
       "id": "n2_054_2",
-      "example_sentence": "どんなに忙しいにしても、家族との時間は大切にすべきだ。",
-      "translation": "No matter how busy one may be, family time should be valued.",
-      "blank_target": "にしても",
-      "wrong_choices": [
-        "といっても",
-        "にしては",
-        "としたら"
-      ],
-      "wrong_choice_explanations": [
-        "といっても means 'even though/although' but doesn't convey the dismissive nuance that にしても has in acknowledging busyness while prioritizing family time.",
-        "にしては means 'for/considering' and is used for evaluation, not for dismissing a condition like busyness in favor of something more important.",
-        "としたら means 'if/supposing that' and presents a hypothetical condition, but this sentence acknowledges actual busyness while dismissing its importance."
-      ],
-      "hiragana_full": "どんなにいそがしいにしても、かぞくとのじかんはたいせつにすべきだ。",
-      "audio_alternatives": [
-        {
-          "kanji": "どれほど忙しくても、家族との時間を大切にするべきだ。",
-          "hiragana_full": "どれほどいそがしくても、かぞくとのじかんをたいせつにするべきだ。"
-        },
-        {
-          "kanji": "いくら忙しくても、家族との時間は大切にしなければならない。",
-          "hiragana_full": "いくらいそがしくても、かぞくとのじかんはたいせつにしなければならない。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_054_3",
       "example_sentence": "理由が何であるにしても、その行動は許されない。",
       "translation": "Whatever the reason may be, that behavior is unacceptable.",
       "blank_target": "にしても",
@@ -86,38 +71,23 @@
           "hiragana_full": "どんなりゆうがあっても、そのこうどうはゆるされない。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_054_4",
-      "example_sentence": "どのような理由があるにしても、ルール違反は許されない。",
-      "translation": "Whatever reasons there may be, rule violations are not acceptable.",
-      "blank_target": "にしても",
-      "wrong_choices": [
-        "としたら",
-        "にしては",
-        "からには"
-      ],
-      "wrong_choice_explanations": [
-        "としたら poses a hypothesis—'if there are reasons'; にしても concedes that reasons do exist and dismisses them as no justification for breaking the rule.",
-        "にしては weighs something against an expectation ('lenient, considering there are reasons'); にしても instead waves the reasons aside as irrelevant to the rule.",
-        "からには means 'since there are reasons'—treating them as grounds for a consequence; にしても treats them as no grounds at all."
-      ],
-      "hiragana_full": "どのようなりゆうがあるにしても、るーるいはんはゆるされない。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "いかなる理由があるにせよ、ルール違反は許されない。",
-          "hiragana_full": "いかなるりゆうがあるにせよ、るーるいはんはゆるされない。"
+          "word": "行動",
+          "reading": "こうどう",
+          "meaning": "action/conduct"
         },
         {
-          "kanji": "どんな理由があっても、ルール違反は認められない。",
-          "hiragana_full": "どんなりゆうがあっても、るーるいはんはみとめられない。"
+          "word": "許す",
+          "reading": "ゆるす",
+          "meaning": "to permit/forgive"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n2_054_5",
+      "id": "n2_054_3",
       "example_sentence": "どのような結論が得られるにしても、プロセスが重要だ。",
       "translation": "Whatever conclusions may be reached, the process is important.",
       "blank_target": "にしても",
@@ -142,66 +112,28 @@
           "hiragana_full": "いかなるけつろんがでるとしても、プロセスがじゅうようです。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_054_6",
-      "example_sentence": "成績が悪いにしても、努力している姿勢は評価したい。",
-      "translation": "Even if the grades are poor, I want to acknowledge the effort being made.",
-      "blank_target": "にしても",
-      "wrong_choices": [
-        "からには",
-        "にしては",
-        "といっても"
-      ],
-      "wrong_choice_explanations": [
-        "からには means 'since the grades are bad'—making the bad result a reason for what follows; にしても instead concedes the bad grades while still wanting to praise the effort.",
-        "にしては means 'considering the grades are bad'—judging something as surprising relative to them; にしても sets the grades aside to value the effort regardless.",
-        "といっても means 'even if you say the grades are bad (they're not so bad)'—it softens the claim itself; にしても accepts the bad grades and still credits the effort."
-      ],
-      "hiragana_full": "せいせきがわるいにしても、どりょくしているしせいはひょうかしたい。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "成績が悪くても、努力している姿勢は認めたい。",
-          "hiragana_full": "せいせきがわるくても、どりょくしているしせいはみとめたい。"
+          "word": "結論",
+          "reading": "けつろん",
+          "meaning": "conclusion"
         },
         {
-          "kanji": "たとえ成績が悪くても、努力している姿勢は評価したい。",
-          "hiragana_full": "たとえせいせきがわるくても、どりょくしているしせいはひょうかしたい。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_054_7",
-      "example_sentence": "経験が少ないにしても、やる気があれば大丈夫だ。",
-      "translation": "Even if experience is limited, it's fine as long as there's motivation.",
-      "blank_target": "にしても",
-      "wrong_choices": [
-        "にしては",
-        "とすれば",
-        "からといって"
-      ],
-      "wrong_choice_explanations": [
-        "にしては means 'considering the experience is limited'—measuring performance against that low bar; にしても instead dismisses the lack of experience as no obstacle given motivation.",
-        "とすれば means 'supposing experience is limited'—a hypothesis to reason from; にしても concedes the limited experience and waves it aside.",
-        "からといって means 'just because experience is limited'—it would block a conclusion drawn from that; にしても grants the limited experience yet says motivation carries the day."
-      ],
-      "hiragana_full": "けいけんがすくないにしても、やるきがあればだいじょうぶだ。",
-      "audio_alternatives": [
-        {
-          "kanji": "経験が少なくても、やる気があれば問題ない。",
-          "hiragana_full": "けいけんがすくなくても、やるきがあればもんだいない。"
+          "word": "得る",
+          "reading": "える",
+          "meaning": "to obtain"
         },
         {
-          "kanji": "経験が乏しくても、意欲があれば大丈夫です。",
-          "hiragana_full": "けいけんがとぼしくても、いよくがあればだいじょうぶです。"
+          "word": "重要",
+          "reading": "じゅうよう",
+          "meaning": "important"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n2_054_8",
+      "id": "n2_054_4",
       "example_sentence": "天気が悪いにしても、予定通り出発します。",
       "translation": "Even if the weather is bad, we will depart as scheduled.",
       "blank_target": "にしても",
@@ -226,38 +158,23 @@
           "hiragana_full": "てんきがわるいとしても、よていどおりにしゅっぱつします。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_054_9",
-      "example_sentence": "どんなに高価であるにしても、必要なものは買わなければならない。",
-      "translation": "No matter how expensive it may be, necessary things must be bought.",
-      "blank_target": "にしても",
-      "wrong_choices": [
-        "ばかりか",
-        "からといって",
-        "といっても"
-      ],
-      "wrong_choice_explanations": [
-        "ばかりか means 'not only is it expensive, but also…'—it piles on a further point; the sentence instead concedes the price and overrides it, which needs にしても.",
-        "からといって means 'just because it is expensive'—it would deny a conclusion drawn from the price; にしても grants the high price yet says necessity overrides it.",
-        "といっても means 'even if you call it expensive (it's not so bad)'—it downplays the price; にしても fully accepts the high price and buys the necessity anyway."
-      ],
-      "hiragana_full": "どんなにこうかであるにしても、ひつようなものはかわなければならない。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "どれほど高価でも、必要なものは買わなければならない。",
-          "hiragana_full": "どれほどこうかでも、ひつようなものはかわなければならない。"
+          "word": "予定",
+          "reading": "よてい",
+          "meaning": "plan/schedule"
         },
         {
-          "kanji": "いくら高価であっても、必要なものは買わざるを得ない。",
-          "hiragana_full": "いくらこうかであっても、ひつようなものはかわざるをえない。"
+          "word": "出発",
+          "reading": "しゅっぱつ",
+          "meaning": "departure"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n2_054_10",
+      "id": "n2_054_5",
       "example_sentence": "時間がかかるにしても、正確な作業を心がけたい。",
       "translation": "Even if it takes time, I want to focus on accurate work.",
       "blank_target": "にしても",
@@ -282,7 +199,220 @@
           "hiragana_full": "じかんがかかるとしても、せいかくなさぎょうをこころがけたい。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "正確",
+          "reading": "せいかく",
+          "meaning": "accurate"
+        },
+        {
+          "word": "作業",
+          "reading": "さぎょう",
+          "meaning": "work/task"
+        },
+        {
+          "word": "心がける",
+          "reading": "こころがける",
+          "meaning": "to strive for/keep in mind"
+        }
+      ]
+    },
+    {
+      "id": "n2_054_6",
+      "example_sentence": "忙しいにしても、連絡くらいできるはずだ。",
+      "translation": "Even if you are busy, you should at least be able to get in touch.",
+      "blank_target": "にしても",
+      "wrong_choices": [
+        "から",
+        "にしては",
+        "だとしても"
+      ],
+      "wrong_choice_explanations": [
+        "忙しいから makes being busy a straightforward cause ('because he is busy'), removing the concessive 'even if' force にしても carries here.",
+        "にしては means 'for/considering' and would suggest the speaker is evaluating the situation based on being busy, not dismissing it.",
+        "だとしても is used for hypothetical situations and doesn't convey the acknowledgment-but-dismissal meaning needed here."
+      ],
+      "hiragana_full": "いそがしいにしても、れんらくくらいできるはずだ。",
+      "audio_alternatives": [
+        {
+          "kanji": "忙しいとしても、連絡くらいできるはずだ。",
+          "hiragana_full": "いそがしいとしても、れんらくくらいできるはずだ。"
+        },
+        {
+          "kanji": "忙しくても、連絡くらいはできるはずだ。",
+          "hiragana_full": "いそがしくても、れんらくくらいはできるはずだ。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "連絡",
+          "reading": "れんらく",
+          "meaning": "contact / getting in touch"
+        }
+      ]
+    },
+    {
+      "id": "n2_054_7",
+      "example_sentence": "雨にしても雪にしても、試合は開催される。",
+      "translation": "Whether it rains or snows, the game will be held.",
+      "blank_target": "にしても",
+      "wrong_choices": [
+        "について",
+        "にとって",
+        "といっても"
+      ],
+      "wrong_choice_explanations": [
+        "雨について means 'regarding rain', a topic marker that cannot form the 'whether rain or snow' correlative the sentence sets up with 雪にしても.",
+        "雨にとって means 'for rain / from rain's standpoint', which does not fit the 'whether X or Y' correlative pairing.",
+        "といっても means 'although/even though' but lacks the pattern structure needed for listing alternative conditions."
+      ],
+      "hiragana_full": "あめにしてもゆきにしても、しあいはかいさいされる。",
+      "audio_alternatives": [
+        {
+          "kanji": "雨であれ雪であれ、試合は開催される。",
+          "hiragana_full": "あめであれゆきであれ、しあいはかいさいされる。"
+        },
+        {
+          "kanji": "雨でも雪でも、試合は開催されます。",
+          "hiragana_full": "あめでもゆきでも、しあいはかいさいされます。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "試合",
+          "reading": "しあい",
+          "meaning": "match / game"
+        },
+        {
+          "word": "開催",
+          "reading": "かいさい",
+          "meaning": "holding (an event)"
+        }
+      ]
+    },
+    {
+      "id": "n2_054_8",
+      "example_sentence": "新人にしても、この程度のミスは避けられるはずだ。",
+      "translation": "Even if you're a newcomer, this kind of mistake should be avoidable.",
+      "blank_target": "にしても",
+      "wrong_choices": [
+        "だからといって",
+        "だから",
+        "にとって"
+      ],
+      "wrong_choice_explanations": [
+        "だからといって means 'just because' and introduces a reason why something doesn't follow, but doesn't acknowledge and dismiss the condition.",
+        "新人だから makes being a newcomer a cause ('because he is a newcomer'); にしても grants it concessively ('even for a newcomer'). Note: にしたって is the casual twin of にしても.",
+        "新人にとって means 'for a newcomer / from a newcomer's standpoint', a perspective marker, not the concession にしても supplies."
+      ],
+      "hiragana_full": "しんじんにしても、このていどのミスはさけられるはずだ。",
+      "audio_alternatives": [
+        {
+          "kanji": "新人であっても、この程度のミスは避けられるはずだ。",
+          "hiragana_full": "しんじんであっても、このていどのミスはさけられるはずだ。"
+        },
+        {
+          "kanji": "新人でも、この程度のミスは避けられるはずです。",
+          "hiragana_full": "しんじんでも、このていどのミスはさけられるはずです。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "新人",
+          "reading": "しんじん",
+          "meaning": "newcomer"
+        },
+        {
+          "word": "避けられる",
+          "reading": "さけられる",
+          "meaning": "to be avoidable"
+        }
+      ]
+    },
+    {
+      "id": "n2_054_9",
+      "example_sentence": "給料が安いにしても、この仕事にはやりがいがある。",
+      "translation": "Even if the salary is low, this job is rewarding.",
+      "blank_target": "にしても",
+      "wrong_choices": [
+        "から",
+        "なら",
+        "とき"
+      ],
+      "wrong_choice_explanations": [
+        "給料が安いから makes the low salary a cause ('because the pay is low'), losing the concessive contrast にしても sets up.",
+        "給料が安いなら supposes the low pay conditionally ('if the pay is low'), not the concession that it IS low.",
+        "給料が安いとき means 'when the pay is low', a temporal frame rather than the concession the sentence expresses."
+      ],
+      "hiragana_full": "きゅうりょうがやすいにしても、このしごとにはやりがいがある。",
+      "audio_alternatives": [
+        {
+          "kanji": "給料が安いとしても、この仕事にはやりがいがある。",
+          "hiragana_full": "きゅうりょうがやすいとしても、このしごとにはやりがいがある。"
+        },
+        {
+          "kanji": "給料が低くても、この仕事にはやりがいがある。",
+          "hiragana_full": "きゅうりょうがひくくても、このしごとにはやりがいがある。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "給料",
+          "reading": "きゅうりょう",
+          "meaning": "salary"
+        },
+        {
+          "word": "やりがい",
+          "reading": "やりがい",
+          "meaning": "sense of fulfillment"
+        }
+      ]
+    },
+    {
+      "id": "n2_054_10",
+      "example_sentence": "若いにしても、責任感は十分にある。",
+      "translation": "Even if he's young, he has plenty of responsibility.",
+      "blank_target": "にしても",
+      "wrong_choices": [
+        "からして",
+        "において",
+        "にあたって"
+      ],
+      "wrong_choice_explanations": [
+        "からして means 'starting from/judging from' and indicates using something as a basis for judgment, not acknowledging and dismissing it.",
+        "において means 'in/at/on' and indicates location or circumstances, not concession or acknowledgment-dismissal.",
+        "にあたって means 'on the occasion of/when doing' and indicates timing or circumstances, not concessive acknowledgment-dismissal."
+      ],
+      "hiragana_full": "わかいにしても、せきにんかんはじゅうぶんにある。",
+      "audio_alternatives": [
+        {
+          "kanji": "若くても、責任感は十分にある。",
+          "hiragana_full": "わかくても、せきにんかんはじゅうぶんにある。"
+        },
+        {
+          "kanji": "若いとはいえ、責任感は十分にある。",
+          "hiragana_full": "わかいとはいえ、せきにんかんはじゅうぶんにある。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "責任感",
+          "reading": "せきにんかん",
+          "meaning": "sense of responsibility"
+        }
+      ]
     }
   ]
 }

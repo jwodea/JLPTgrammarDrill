@@ -30,7 +30,15 @@
           "hiragana_full": "かれのはなしかたはひにくをおびている"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "皮肉",
+          "reading": "ひにく",
+          "meaning": "irony; sarcasm"
+        }
+      ]
     },
     {
       "id": "n1_054_2",
@@ -58,7 +66,8 @@
           "hiragana_full": "このところはるめいたひがつづいている"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n1_054_3",
@@ -86,7 +95,15 @@
           "hiragana_full": "かのじょのえがおにはなにかなぞめいたものがある"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "謎",
+          "reading": "なぞ",
+          "meaning": "mystery; enigma"
+        }
+      ]
     },
     {
       "id": "n1_054_4",
@@ -94,12 +111,12 @@
       "translation": "This old building has a dignity that seems steeped in history.",
       "blank_target": "めく",
       "wrong_choices": [
-        "的な",
+        "のような",
         "に富む",
         "を感じる"
       ],
       "wrong_choice_explanations": [
-        "的な means 'characteristic of' but is too direct and doesn't capture the atmospheric quality of めく.",
+        "のような is a direct simile ('like history itself'), comparing the gravity to history rather than expressing the building gradually taking on a historical air, which 歴史めく conveys.",
         "に富む means 'rich in' but expresses abundance rather than the subtle manifestation of qualities.",
         "を感じる means 'to feel' but changes the grammatical structure and meaning entirely."
       ],
@@ -114,7 +131,15 @@
           "hiragana_full": "このふるいたてものはれきしのおもみをかんじるふうかくがある"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "重厚さ",
+          "reading": "じゅうこうさ",
+          "meaning": "dignity; massiveness"
+        }
+      ]
     },
     {
       "id": "n1_054_5",
@@ -142,7 +167,20 @@
           "hiragana_full": "あきのゆうぐれはあいしゅうをおびたふんいきにつつまれている"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "哀愁",
+          "reading": "あいしゅう",
+          "meaning": "pathos; melancholy"
+        },
+        {
+          "word": "夕暮れ",
+          "reading": "ゆうぐれ",
+          "meaning": "dusk; twilight"
+        }
+      ]
     },
     {
       "id": "n1_054_6",
@@ -170,7 +208,15 @@
           "hiragana_full": "かれのたいどはどこかちょうはつてきだった"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "挑戦",
+          "reading": "ちょうせん",
+          "meaning": "challenge; defiance"
+        }
+      ]
     },
     {
       "id": "n1_054_7",
@@ -178,12 +224,12 @@
       "translation": "This work has a dignified quality that seems classical.",
       "blank_target": "めく",
       "wrong_choices": [
-        "的な",
+        "みたいな",
         "に見える",
         "らしい"
       ],
       "wrong_choice_explanations": [
-        "的な means 'characteristic of' but is too direct and lacks the subtle atmospheric quality of めく.",
+        "みたいな is a casual 'like,' drawing a direct comparison to a classic rather than expressing the work naturally taking on a classical air, which 古典めく conveys.",
         "に見える means 'appears to be' but focuses on visual appearance rather than inherent quality.",
         "らしい means 'typical of' but doesn't capture the sense of embodying classical dignity."
       ],
@@ -198,7 +244,20 @@
           "hiragana_full": "このさくひんはこてんをおもわせるひんかくがある"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "古典",
+          "reading": "こてん",
+          "meaning": "classic"
+        },
+        {
+          "word": "格調",
+          "reading": "かくちょう",
+          "meaning": "dignity; refinement of style"
+        }
+      ]
     },
     {
       "id": "n1_054_8",
@@ -226,7 +285,25 @@
           "hiragana_full": "しんやのまちかどはげんそうをおもわせるうつくしさをもっていた"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "夜更け",
+          "reading": "よふけ",
+          "meaning": "late at night"
+        },
+        {
+          "word": "街角",
+          "reading": "まちかど",
+          "meaning": "street corner"
+        },
+        {
+          "word": "幻想",
+          "reading": "げんそう",
+          "meaning": "fantasy; illusion"
+        }
+      ]
     },
     {
       "id": "n1_054_9",
@@ -235,12 +312,12 @@
       "blank_target": "めく",
       "wrong_choices": [
         "らしい",
-        "的な",
+        "に似た",
         "風の"
       ],
       "wrong_choice_explanations": [
         "らしい means 'typical of' but doesn't convey the subtle emergence of poetic quality.",
-        "的な means 'characteristic of' but is too direct and lacks the atmospheric nuance of めく.",
+        "に似た means 'resembling / similar to,' drawing a comparison to poetry rather than expressing words that intrinsically take on a poetic air, which 詩めく conveys.",
         "風の means 'style of' but doesn't express the natural manifestation of poetic qualities."
       ],
       "hiragana_full": "かのじょのことばにはしめくひびきがある",
@@ -254,7 +331,20 @@
           "hiragana_full": "かのじょのことばはしのようなひびきをもっている"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "詩",
+          "reading": "し",
+          "meaning": "poetry"
+        },
+        {
+          "word": "響き",
+          "reading": "ひびき",
+          "meaning": "resonance; ring"
+        }
+      ]
     },
     {
       "id": "n1_054_10",
@@ -282,7 +372,20 @@
           "hiragana_full": "このふるいしゃしんはきょうしゅうをただよわせるみりょくをもっている"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "郷愁",
+          "reading": "きょうしゅう",
+          "meaning": "nostalgia"
+        },
+        {
+          "word": "魅力",
+          "reading": "みりょく",
+          "meaning": "charm; appeal"
+        }
+      ]
     }
   ]
 }

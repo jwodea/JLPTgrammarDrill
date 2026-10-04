@@ -1,0 +1,463 @@
+{
+  "id": "n2_242",
+  "pattern": "〜ては（〜ては）",
+  "meaning": "repeatedly ~ (and then); over and over; whenever",
+  "level": "N2",
+  "exercises": [
+    {
+      "id": "n2_242_1",
+      "example_sentence": "赤ん坊は泣いては眠り、また泣いて眠るのを繰り返した。",
+      "translation": "The baby cried and slept, cried and slept, over and over.",
+      "blank_target": "ては",
+      "wrong_choices": [
+        "ても",
+        "たり",
+        "てばかり"
+      ],
+      "wrong_choice_explanations": [
+        "ても means 'even if it cries, it sleeps', a concession, not the crying-then-sleeping cycle the sentence describes.",
+        "たり lists sample actions and requires a paired 〜たり (泣いたり眠ったり); alone it doesn't give the alternating rhythm of 泣いては眠り.",
+        "てばかり 'does nothing but cry' focuses on one repeated action to excess and clashes with 眠り, so it can't express the two-action alternation."
+      ],
+      "hiragana_full": "あかんぼうはないてはねむり、またないてねむるのをくりかえした。",
+      "audio_alternatives": [
+        {
+          "kanji": "赤ん坊は泣いたり眠ったりを何度も繰り返した。",
+          "hiragana_full": "あかんぼうはないたりねむったりをなんどもくりかえした。"
+        },
+        {
+          "kanji": "赤ん坊は泣いては眠り、泣いては眠りしていた。",
+          "hiragana_full": "あかんぼうはないてはねむり、ないてはねむりしていた。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "赤ん坊",
+          "reading": "あかんぼう",
+          "meaning": "baby"
+        },
+        {
+          "word": "眠る",
+          "reading": "ねむる",
+          "meaning": "to sleep"
+        },
+        {
+          "word": "繰り返す",
+          "reading": "くりかえす",
+          "meaning": "to repeat"
+        }
+      ]
+    },
+    {
+      "id": "n2_242_2",
+      "example_sentence": "ダイエット中なのに、食べては後悔して、また食べて後悔…もう嫌になる。",
+      "translation": "Even though I'm on a diet, I eat and regret it, eat and regret it again — I'm so sick of it.",
+      "blank_target": "ては",
+      "wrong_choices": [
+        "ても",
+        "たり",
+        "てばかり"
+      ],
+      "wrong_choice_explanations": [
+        "ても means 'even if I eat, I regret', conceding the eating rather than showing the eat-then-regret loop that また食べて後悔 makes clear.",
+        "たり lists representative acts and needs a paired 〜たり (食べたり後悔したり); alone it loses the repeated cycle ては gives.",
+        "てばかり 'do nothing but eat' emphasizes one action's excess and doesn't pair with 後悔 to form the alternation the sentence needs."
+      ],
+      "hiragana_full": "だいえっとちゅうなのに、たべてはこうかいして、またたべてこうかい…もういやになる。",
+      "audio_alternatives": [
+        {
+          "kanji": "ダイエット中なのに、つい食べては後悔するの繰り返しだ。",
+          "hiragana_full": "だいえっとちゅうなのに、ついたべてはこうかいするのくりかえしだ。"
+        },
+        {
+          "kanji": "食べちゃ後悔、食べちゃ後悔で、全然痩せない。",
+          "hiragana_full": "たべちゃこうかい、たべちゃこうかいで、ぜんぜんやせない。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "後悔",
+          "reading": "こうかい",
+          "meaning": "regret"
+        },
+        {
+          "word": "嫌",
+          "reading": "いや",
+          "meaning": "disagreeable; fed up"
+        }
+      ]
+    },
+    {
+      "id": "n2_242_3",
+      "example_sentence": "梅雨の時期は、雨が降っては止み、はっきりしない天気が続いた。",
+      "translation": "During the rainy season, it rained and stopped, rained and stopped, and the unsettled weather went on.",
+      "blank_target": "ては",
+      "wrong_choices": [
+        "ても",
+        "たり",
+        "てばかり"
+      ],
+      "wrong_choice_explanations": [
+        "ても means 'even if it rains, it stops', a concession, not the rain-then-stop cycle that はっきりしない天気が続いた implies.",
+        "たり lists representative states and needs a paired 〜たり (降ったり止んだり); alone it loses the alternating rhythm of 降っては止み.",
+        "てばかり 'does nothing but rain' stresses continuous rain and contradicts 止み, so it can't express the on-off alternation."
+      ],
+      "hiragana_full": "つゆのじきは、あめがふってはやみ、はっきりしないてんきがつづいた。",
+      "audio_alternatives": [
+        {
+          "kanji": "梅雨の間は、降ったり止んだりの安定しない天気だった。",
+          "hiragana_full": "つゆのあいだは、ふったりやんだりのあんていしないてんきだった。"
+        },
+        {
+          "kanji": "雨が降っては止み、降っては止みして、すっきりしない日が続いた。",
+          "hiragana_full": "あめがふってはやみ、ふってはやみして、すっきりしないひがつづいた。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "梅雨",
+          "reading": "つゆ",
+          "meaning": "rainy season"
+        },
+        {
+          "word": "時期",
+          "reading": "じき",
+          "meaning": "period; season"
+        },
+        {
+          "word": "止む",
+          "reading": "やむ",
+          "meaning": "to stop (of rain)"
+        }
+      ]
+    },
+    {
+      "id": "n2_242_4",
+      "example_sentence": "岸に波が寄せては返すのを、いつまでも眺めていた。",
+      "translation": "I gazed endlessly at the waves surging in and rolling back out.",
+      "blank_target": "ては",
+      "wrong_choices": [
+        "たり",
+        "ても",
+        "てまで"
+      ],
+      "wrong_choice_explanations": [
+        "たり lists surging as one representative action among others (…たり…たりする); it doesn't capture the steady back-and-forth rhythm of 寄せては返す that ては conveys.",
+        "ても means 'even though the waves surge in', conceding it, not expressing the repeated cycle of surging in and rolling back.",
+        "てまで means 'go so far as to ~' (e.g. 借金してまで買う), marking an extreme means; it doesn't express the endless alternation of 寄せては返す that ては describes."
+      ],
+      "hiragana_full": "きしになみがよせてはかえすのを、いつまでもながめていた。",
+      "audio_alternatives": [
+        {
+          "kanji": "岸に打ち寄せては引いていく波を、ずっと見ていた。",
+          "hiragana_full": "きしにうちよせてはひいていくなみを、ずっとみていた。"
+        },
+        {
+          "kanji": "波が寄せたり返したりするのを、飽きずに眺めた。",
+          "hiragana_full": "なみがよせたりかえしたりするのを、あきずにながめた。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "岸",
+          "reading": "きし",
+          "meaning": "shore; bank"
+        },
+        {
+          "word": "波",
+          "reading": "なみ",
+          "meaning": "wave"
+        },
+        {
+          "word": "返す",
+          "reading": "かえす",
+          "meaning": "to recede; to roll back"
+        }
+      ]
+    },
+    {
+      "id": "n2_242_5",
+      "example_sentence": "子供は砂の山を作っては壊し、飽きずに遊んでいる。",
+      "translation": "The child builds sand mounds and knocks them down, playing without ever getting bored.",
+      "blank_target": "ては",
+      "wrong_choices": [
+        "ても",
+        "たり",
+        "てまで"
+      ],
+      "wrong_choice_explanations": [
+        "ても means 'even though he builds it', conceding the action, not expressing the repeated build-and-destroy cycle of ては.",
+        "たり lists building as one representative action (…たり…たりする); it doesn't convey the rhythmic 'build, then knock down, again and again' of ては.",
+        "てまで means 'go so far as to ~' (e.g. 借金してまで買う), marking an extreme means; it doesn't express the rhythmic build-and-destroy cycle that ては describes."
+      ],
+      "hiragana_full": "こどもはすなのやまをつくってはこわし、あきずにあそんでいる。",
+      "audio_alternatives": [
+        {
+          "kanji": "子供は砂の山を作っては壊し、何度も繰り返して遊んでいる。",
+          "hiragana_full": "こどもはすなのやまをつくってはこわし、なんどもくりかえしてあそんでいる。"
+        },
+        {
+          "kanji": "子供は砂で山を作ったり壊したりして、楽しそうだ。",
+          "hiragana_full": "こどもはすなでやまをつくったりこわしたりして、たのしそうだ。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "砂",
+          "reading": "すな",
+          "meaning": "sand"
+        },
+        {
+          "word": "壊す",
+          "reading": "こわす",
+          "meaning": "to break; to knock down"
+        },
+        {
+          "word": "飽きる",
+          "reading": "あきる",
+          "meaning": "to get tired of; to grow bored"
+        }
+      ]
+    },
+    {
+      "id": "n2_242_6",
+      "example_sentence": "空を見上げては、遠くの故郷のことを思う。",
+      "translation": "Whenever I look up at the sky, I think of my faraway hometown.",
+      "blank_target": "ては",
+      "wrong_choices": [
+        "ても",
+        "ておいて",
+        "たり"
+      ],
+      "wrong_choice_explanations": [
+        "ても means 'even though I look up', conceding the action, not the recurring 'each time I look up' sense that ては gives.",
+        "ておいて means 'having done ~ in advance (for later)'; looking up at the sky isn't preparation, and it doesn't give the recurring 'each time I look up' sense that ては expresses.",
+        "たり lists looking up as one representative action (…たり…たりする); it doesn't convey the repeated 'whenever I look up' pattern of ては."
+      ],
+      "hiragana_full": "そらをみあげては、とおくのこきょうのことをおもう。",
+      "audio_alternatives": [
+        {
+          "kanji": "空を見上げては、遠い故郷を懐かしく思い出す。",
+          "hiragana_full": "そらをみあげては、とおいこきょうをなつかしくおもいだす。"
+        },
+        {
+          "kanji": "ふと空を見上げるたびに、故郷のことが思い浮かぶ。",
+          "hiragana_full": "ふとそらをみあげるたびに、こきょうのことがおもいうかぶ。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "空",
+          "reading": "そら",
+          "meaning": "sky"
+        },
+        {
+          "word": "故郷",
+          "reading": "こきょう",
+          "meaning": "hometown"
+        },
+        {
+          "word": "遠く",
+          "reading": "とおく",
+          "meaning": "far away; distant"
+        }
+      ]
+    },
+    {
+      "id": "n2_242_7",
+      "example_sentence": "その職人は、少し彫っては手を止め、じっくりと作品を仕上げた。",
+      "translation": "The craftsman would carve a little, pause, and slowly brought the piece to completion.",
+      "blank_target": "ては",
+      "wrong_choices": [
+        "たり",
+        "ても",
+        "てまで"
+      ],
+      "wrong_choice_explanations": [
+        "たり lists carving as one representative action (…たり…たりする); it doesn't convey the measured 'carve a bit, then pause, repeatedly' rhythm of ては.",
+        "ても means 'even though he carves a little', conceding the action, not the repeated carve-and-pause cycle ては expresses.",
+        "てまで means 'go so far as to ~' (e.g. 借金してまで買う), marking an extreme means; it doesn't express the measured carve-and-pause repetition that ては describes."
+      ],
+      "hiragana_full": "そのしょくにんは、すこしほってはてをとめ、じっくりとさくひんをしあげた。",
+      "audio_alternatives": [
+        {
+          "kanji": "その職人は、少し彫っては手を止めて確かめ、慎重に仕上げた。",
+          "hiragana_full": "そのしょくにんは、すこしほってはてをとめてたしかめ、しんちょうにしあげた。"
+        },
+        {
+          "kanji": "その職人は、少しずつ彫り進めながら、丁寧に作品を仕上げた。",
+          "hiragana_full": "そのしょくにんは、すこしずつほりすすめながら、ていねいにさくひんをしあげた。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "職人",
+          "reading": "しょくにん",
+          "meaning": "craftsman; artisan"
+        },
+        {
+          "word": "手を止める",
+          "reading": "てをとめる",
+          "meaning": "to pause one's work"
+        },
+        {
+          "word": "仕上げる",
+          "reading": "しあげる",
+          "meaning": "to finish; to complete"
+        }
+      ]
+    },
+    {
+      "id": "n2_242_8",
+      "example_sentence": "彼は落ち着かない様子で、立っては座り、そわそわしていた。",
+      "translation": "He kept standing up and sitting down, fidgeting restlessly.",
+      "blank_target": "ては",
+      "wrong_choices": [
+        "ても",
+        "てまで",
+        "たり"
+      ],
+      "wrong_choice_explanations": [
+        "ても means 'even if he stands, he sits', a concession, not the stand-then-sit repetition his restlessness produces.",
+        "てまで means 'go so far as to ~' (e.g. 借金してまで買う), marking an extreme means; it doesn't express the stand-then-sit repetition his restlessness produces, which ては conveys.",
+        "たり lists sample actions and needs a paired 〜たり (立ったり座ったり); alone it doesn't give the alternating rhythm here."
+      ],
+      "hiragana_full": "かれはおちつかないようすで、たってはすわり、そわそわしていた。",
+      "audio_alternatives": [
+        {
+          "kanji": "彼は立ったり座ったりして、落ち着かない様子だった。",
+          "hiragana_full": "かれはたったりすわったりして、おちつかないようすだった。"
+        },
+        {
+          "kanji": "彼は立っては座り、立っては座りを繰り返していた。",
+          "hiragana_full": "かれはたってはすわり、たってはすわりをくりかえしていた。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "落ち着く",
+          "reading": "おちつく",
+          "meaning": "to calm down; to settle"
+        },
+        {
+          "word": "様子",
+          "reading": "ようす",
+          "meaning": "appearance; manner"
+        },
+        {
+          "word": "そわそわ",
+          "reading": "そわそわ",
+          "meaning": "restlessly; fidgeting"
+        }
+      ]
+    },
+    {
+      "id": "n2_242_9",
+      "example_sentence": "株価は上がっては下がり、なかなか安定しなかった。",
+      "translation": "Stock prices rose and fell, rose and fell, and just wouldn't stabilize.",
+      "blank_target": "ては",
+      "wrong_choices": [
+        "ても",
+        "てまで",
+        "たり"
+      ],
+      "wrong_choice_explanations": [
+        "ても means 'even if they rise, they fall', a concession, not the repeated rise-then-fall movement the sentence describes.",
+        "てまで means 'go so far as to ~' (e.g. 借金してまで買う), marking an extreme means; it doesn't express the recurring rise-then-fall swing shown by なかなか安定しなかった, which ては conveys.",
+        "たり lists sample movements and needs a paired 〜たり (上がったり下がったり); alone it doesn't give the alternation here."
+      ],
+      "hiragana_full": "かぶかはあがってはさがり、なかなかあんていしなかった。",
+      "audio_alternatives": [
+        {
+          "kanji": "株価は上下を繰り返し、なかなか落ち着かなかった。",
+          "hiragana_full": "かぶかはじょうげをくりかえし、なかなかおちつかなかった。"
+        },
+        {
+          "kanji": "相場は上がっては下がり、上がっては下がりで安定しない。",
+          "hiragana_full": "そうばはあがってはさがり、あがってはさがりであんていしない。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "株価",
+          "reading": "かぶか",
+          "meaning": "stock price"
+        },
+        {
+          "word": "安定",
+          "reading": "あんてい",
+          "meaning": "stability"
+        },
+        {
+          "word": "なかなか",
+          "reading": "なかなか",
+          "meaning": "(not) easily; by no means"
+        }
+      ]
+    },
+    {
+      "id": "n2_242_10",
+      "example_sentence": "受験生の弟は、参考書を開いては閉じ、集中できないでいた。",
+      "translation": "My brother, studying for exams, kept opening and closing his reference book, unable to concentrate.",
+      "blank_target": "ては",
+      "wrong_choices": [
+        "ても",
+        "たり",
+        "てまで"
+      ],
+      "wrong_choice_explanations": [
+        "ても means 'even if he opens it, he closes it', a concession, not the open-then-close repetition his lack of focus produces.",
+        "たり lists sample actions and needs a paired 〜たり (開いたり閉じたり); alone it loses the alternating rhythm of 開いては閉じ.",
+        "てまで means 'go so far as to ~' (e.g. 借金してまで買う), marking an extreme means; it doesn't express the fidgety open-then-close cycle shown by 集中できないでいた, which ては conveys."
+      ],
+      "hiragana_full": "じゅけんせいのおとうとは、さんこうしょをひらいてはとじ、しゅうちゅうできないでいた。",
+      "audio_alternatives": [
+        {
+          "kanji": "弟は参考書を開けたり閉じたりして、集中できずにいた。",
+          "hiragana_full": "おとうとはさんこうしょをあけたりとじたりして、しゅうちゅうできずにいた。"
+        },
+        {
+          "kanji": "弟は参考書を開いては閉じ、開いては閉じで、ちっとも進まなかった。",
+          "hiragana_full": "おとうとはさんこうしょをひらいてはとじ、ひらいてはとじで、ちっともすすまなかった。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "受験生",
+          "reading": "じゅけんせい",
+          "meaning": "student preparing for exams"
+        },
+        {
+          "word": "参考書",
+          "reading": "さんこうしょ",
+          "meaning": "reference book; study guide"
+        },
+        {
+          "word": "集中",
+          "reading": "しゅうちゅう",
+          "meaning": "concentration"
+        }
+      ]
+    }
+  ]
+}

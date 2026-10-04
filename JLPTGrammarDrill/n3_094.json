@@ -1,7 +1,7 @@
 {
   "id": "n3_094",
-  "pattern": "〜てもしょうがない",
-  "meaning": "there's no use ~ing; it's no good even if ~ (resignation)",
+  "pattern": "〜てもしょうがない／ても始まらない",
+  "meaning": "there's no use ~ing; it's no good even if ~; nothing will come of ~ing (resignation)",
   "level": "N3",
   "exercises": [
     {
@@ -10,14 +10,14 @@
       "translation": "There's no use regretting what's already done.",
       "blank_target": "てもしょうがない",
       "wrong_choices": [
-        "てもいい",
+        "てある",
         "たほうがいい",
-        "てはいけない"
+        "ておく"
       ],
       "wrong_choice_explanations": [
-        "「てもいい」は許可で「後悔してよい」という意味になり、後悔しても無駄だというこの文意と異なる。",
+        "「てある」は他動詞について意図的に行った結果の状態を表すので「後悔してある」は成り立たず、後悔しても無駄だというこの文意と異なる。",
         "「たほうがいい」は「後悔したほうがよい」と勧める意味になり、無益さを述べるこの文と逆。",
-        "「てはいけない」は禁止で「後悔してはいけない」となり、「しても仕方がない」という諦めの含意とは別物。"
+        "「ておく」は事前の準備や放置を表し「後悔しておく」は不自然で、後悔しても無駄だというこの文意と異なる。"
       ],
       "hiragana_full": "おわったことをこうかいしてもしょうがない。",
       "audio_alternatives": [
@@ -30,7 +30,15 @@
           "hiragana_full": "いまさらくやんでもしかたがない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "後悔",
+          "reading": "こうかい",
+          "meaning": "regret"
+        }
+      ]
     },
     {
       "id": "n3_094_2",
@@ -58,66 +66,23 @@
           "hiragana_full": "あわてたところでなにもかわらない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "今さら",
+          "reading": "いまさら",
+          "meaning": "now (when it's too late)"
+        },
+        {
+          "word": "慌てて",
+          "reading": "あわてて",
+          "meaning": "panicking; rushing"
+        }
+      ]
     },
     {
       "id": "n3_094_3",
-      "example_sentence": "過ぎたことを気にしてもしょうがない。",
-      "translation": "There's no point worrying about what's passed.",
-      "blank_target": "てもしょうがない",
-      "wrong_choices": [
-        "てもいい",
-        "たほうがいい",
-        "てはいけない"
-      ],
-      "wrong_choice_explanations": [
-        "「てもいい」は許可で「気にしてよい」となり、気にしても無駄だというこの文意と異なる。",
-        "「たほうがいい」は「気にしたほうがよい」と勧める意味で、無益さを述べるこの文と逆。",
-        "「てはいけない」は禁止で、「しても仕方がない」という諦めのニュアンスとは別。"
-      ],
-      "hiragana_full": "すぎたことをきにしてもしょうがない。",
-      "audio_alternatives": [
-        {
-          "kanji": "終わったことを気にしてもしょうがない。",
-          "hiragana_full": "おわったことをきにしてもしょうがない。"
-        },
-        {
-          "kanji": "昔のことを気にしても始まらない。",
-          "hiragana_full": "むかしのことをきにしてもはじまらない。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_094_4",
-      "example_sentence": "そんなに文句を言ってもしょうがない。",
-      "translation": "There's no use complaining so much.",
-      "blank_target": "てもしょうがない",
-      "wrong_choices": [
-        "てもいい",
-        "たほうがいい",
-        "てはいけない"
-      ],
-      "wrong_choice_explanations": [
-        "「てもいい」は許可で「文句を言ってよい」となり、言っても無駄だというこの文と異なる。",
-        "「たほうがいい」は「言ったほうがよい」と勧める意味で、無益さを表す文意と逆。",
-        "「てはいけない」は禁止で、「言っても仕方がない」という諦めとは意味が違う。"
-      ],
-      "hiragana_full": "そんなにもんくをいってもしょうがない。",
-      "audio_alternatives": [
-        {
-          "kanji": "いくら文句を言ってもしょうがないよ。",
-          "hiragana_full": "いくらもんくをいってもしょうがないよ。"
-        },
-        {
-          "kanji": "不満を言ったって何も解決しない。",
-          "hiragana_full": "ふまんをいったってなにもかいけつしない。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_094_5",
       "example_sentence": "電車が来ないなら、ここで待ってもしょうがない。",
       "translation": "If the train isn't coming, there's no use waiting here.",
       "blank_target": "てもしょうがない",
@@ -142,10 +107,11 @@
           "hiragana_full": "いくらまってもでんしゃはこないだろう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
-      "id": "n3_094_6",
+      "id": "n3_094_4",
       "example_sentence": "今さら泣いてもしょうがない。",
       "translation": "There's no use crying now.",
       "blank_target": "てもしょうがない",
@@ -170,106 +136,30 @@
           "hiragana_full": "ないたってかこはかえられない。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_094_7",
-      "example_sentence": "相手に怒ってもしょうがない。",
-      "translation": "There's no use getting angry at the other person.",
-      "blank_target": "てもしょうがない",
-      "wrong_choices": [
-        "てもいい",
-        "たほうがいい",
-        "てはいけない"
-      ],
-      "wrong_choice_explanations": [
-        "「てもいい」は許可で「怒ってよい」となり、怒っても無駄だというこの文意と異なる。",
-        "「たほうがいい」は「怒ったほうがよい」と勧める意味で、無益さを述べるこの文と逆。",
-        "「てはいけない」は禁止で、「怒っても仕方がない」という諦めとは別物。"
-      ],
-      "hiragana_full": "あいてにおこってもしょうがない。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "怒ってもしょうがないので、冷静に話そう。",
-          "hiragana_full": "おこってもしょうがないので、れいせいにはなそう。"
-        },
-        {
-          "kanji": "腹を立てても何も始まらない。",
-          "hiragana_full": "はらをたててもなにもはじまらない。"
+          "word": "今さら",
+          "reading": "いまさら",
+          "meaning": "now (when it's too late)"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n3_094_8",
-      "example_sentence": "時間はあるのだから、焦ってもしょうがない。",
-      "translation": "Since there's time, there's no use rushing.",
-      "blank_target": "てもしょうがない",
-      "wrong_choices": [
-        "てもいい",
-        "たほうがいい",
-        "てたまらない"
-      ],
-      "wrong_choice_explanations": [
-        "「てもいい」は許可で「焦ってよい」となり、焦っても無駄だというこの文意に合わない。",
-        "「たほうがいい」は「焦ったほうがよい」と勧める意味で、無益さを表すこの文と逆。",
-        "「てたまらない」は感情が抑えきれない意味で、焦りの無益さを述べるこの文には合わない。"
-      ],
-      "hiragana_full": "じかんはあるのだから、あせってもしょうがない。",
-      "audio_alternatives": [
-        {
-          "kanji": "まだ時間があるから、焦ってもしょうがない。",
-          "hiragana_full": "まだじかんがあるから、あせってもしょうがない。"
-        },
-        {
-          "kanji": "焦ったところでいい結果は出ない。",
-          "hiragana_full": "あせったところでいいけっかはでない。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_094_9",
-      "example_sentence": "起きてしまったことを心配してもしょうがない。",
-      "translation": "There's no use worrying about what's already happened.",
-      "blank_target": "てもしょうがない",
-      "wrong_choices": [
-        "てもいい",
-        "たほうがいい",
-        "てはいけない"
-      ],
-      "wrong_choice_explanations": [
-        "「てもいい」は許可で「心配してよい」となり、心配しても無駄だというこの文と異なる。",
-        "「たほうがいい」は「心配したほうがよい」と勧める意味で、無益さを述べる文意と逆。",
-        "「てはいけない」は禁止で、「心配しても仕方がない」という諦めとは意味が違う。"
-      ],
-      "hiragana_full": "おきてしまったことをしんぱいしてもしょうがない。",
-      "audio_alternatives": [
-        {
-          "kanji": "今さら心配してもしょうがないよ。",
-          "hiragana_full": "いまさらしんぱいしてもしょうがないよ。"
-        },
-        {
-          "kanji": "心配したって状況は変わらない。",
-          "hiragana_full": "しんぱいしたってじょうきょうはかわらない。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_094_10",
+      "id": "n3_094_5",
       "example_sentence": "人と比べてもしょうがない。",
       "translation": "There's no use comparing yourself with others.",
       "blank_target": "てもしょうがない",
       "wrong_choices": [
-        "てもいい",
-        "たほうがいい",
-        "てはいけない"
+        "てある",
+        "て以来",
+        "てたまらない"
       ],
       "wrong_choice_explanations": [
-        "「てもいい」は許可で「比べてよい」となり、比べても無駄だというこの文意と異なる。",
-        "「たほうがいい」は「比べたほうがよい」と勧める意味で、無益さを表す文と逆。",
-        "「てはいけない」は禁止で、「比べても仕方がない」という諦めの含意とは別。"
+        "「てある」は意図的に行った結果の状態を表し「人と比べてある」は不自然で、比べても無駄だというこの文意と異なる。",
+        "「て以来」は「〜してからずっと」の意味で後に続く文が必要なので、文末の「人と比べて以来。」は成り立たない。",
+        "「てたまらない」は感情・感覚が抑えられないことを表し「比べてたまらない」は不自然で、比べても無駄だというこの文意と異なる。"
       ],
       "hiragana_full": "ひととくらべてもしょうがない。",
       "audio_alternatives": [
@@ -282,7 +172,201 @@
           "hiragana_full": "だれかとくらべたっていみがない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
+    },
+    {
+      "id": "n3_094_6",
+      "example_sentence": "いつまでも迷っても始まらないので、決めてしまおう。",
+      "translation": "There's no use hesitating forever, so let's just decide.",
+      "blank_target": "ても始まらない",
+      "wrong_choices": [
+        "ておく",
+        "てもかまわない",
+        "てたまらない"
+      ],
+      "wrong_choice_explanations": [
+        "「ておく」は事前の準備を表し「迷っておく」は不自然で、迷っても無駄だという諦めを述べるこの文意とは異なる。",
+        "「てもかまわない」は許容「迷ってもかまわない」で、行為を認める意味になり、無駄だというこの文に合わない。",
+        "「てたまらない」は感情・感覚が抑えられないことを表し「迷ってたまらない」は不自然で、無益さを述べるこの文意とは異なる。"
+      ],
+      "hiragana_full": "いつまでもまよってもはじまらないので、きめてしまおう。",
+      "audio_alternatives": [
+        {
+          "kanji": "これ以上迷っても始まらないよ。",
+          "hiragana_full": "これいじょうまよってもはじまらないよ。"
+        },
+        {
+          "kanji": "いくら迷ったって結論は出ない。",
+          "hiragana_full": "いくらまよったってけつろんはでない。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "てもはじまらない",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "迷って",
+          "reading": "まよって",
+          "meaning": "wavering; unable to decide"
+        }
+      ]
+    },
+    {
+      "id": "n3_094_7",
+      "example_sentence": "ここで文句を言っても始まらない。",
+      "translation": "There's no use complaining here.",
+      "blank_target": "ても始まらない",
+      "wrong_choices": [
+        "て以来",
+        "てたまらない",
+        "てやまない"
+      ],
+      "wrong_choice_explanations": [
+        "「て以来」は「〜してからずっと」の意味で後に続く文が必要なので、文末の「文句を言って以来。」は成り立たない。",
+        "「てたまらない」は感情・感覚が抑えられないことを表し「文句を言ってたまらない」は不自然で、無益さを表すこの文と異なる。",
+        "「てやまない」は「願ってやまない」のように願いや気持ちが強く続くことを表す硬い表現で、「文句を言ってやまない」は不自然で、無益さを表すこの文と異なる。"
+      ],
+      "hiragana_full": "ここでもんくをいってもはじまらない。",
+      "audio_alternatives": [
+        {
+          "kanji": "ここで文句を言っても何も解決しない。",
+          "hiragana_full": "ここでもんくをいってもなにもかいけつしない。"
+        },
+        {
+          "kanji": "不満を言ったところで状況は変わらない。",
+          "hiragana_full": "ふまんをいったところでじょうきょうはかわらない。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "てもはじまらない",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "文句",
+          "reading": "もんく",
+          "meaning": "complaint"
+        }
+      ]
+    },
+    {
+      "id": "n3_094_8",
+      "example_sentence": "終わったことで部下を責めても始まらない。",
+      "translation": "There's no use blaming your subordinate for something that's already over.",
+      "blank_target": "ても始まらない",
+      "wrong_choices": [
+        "てたまらない",
+        "てある",
+        "ておく"
+      ],
+      "wrong_choice_explanations": [
+        "「てたまらない」は感情・感覚が抑えられないことを表し「部下を責めてたまらない」は不自然で、無益さを述べるこの文意とは異なる。",
+        "「てある」は意図的に行った結果の状態を表し「部下を責めてある」は不自然で、無益さを述べるこの文意とは異なる。",
+        "「ておく」は事前の準備を表し「部下を責めておく」は不自然で、無益さを述べるこの文意とは異なる。"
+      ],
+      "hiragana_full": "おわったことでぶかをせめてもはじまらない。",
+      "audio_alternatives": [
+        {
+          "kanji": "今さら部下を責めても始まらないよ。",
+          "hiragana_full": "いまさらぶかをせめてもはじまらないよ。"
+        },
+        {
+          "kanji": "人を責めたって問題は解決しない。",
+          "hiragana_full": "ひとをせめたってもんだいはかいけつしない。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "てもはじまらない",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "部下",
+          "reading": "ぶか",
+          "meaning": "subordinate"
+        },
+        {
+          "word": "責めて",
+          "reading": "せめて",
+          "meaning": "blame; criticize"
+        }
+      ]
+    },
+    {
+      "id": "n3_094_9",
+      "example_sentence": "答えの出ない問題をいくら考えても始まらない。",
+      "translation": "There's no use endlessly thinking about a problem with no answer.",
+      "blank_target": "ても始まらない",
+      "wrong_choices": [
+        "てもいい",
+        "てはいけない",
+        "てしまう"
+      ],
+      "wrong_choice_explanations": [
+        "「てもいい」は許可「考えてもよい」で、無益さを述べるこの文に合わない。",
+        "「てはいけない」は禁止「考えてはいけない」で、考えることを禁じる意味になり別。",
+        "「てしまう」は「考えてしまう」とつい〜する・完了を表し、「考えても無駄だ」という意味にはならない。"
+      ],
+      "hiragana_full": "こたえのでないもんだいをいくらかんがえてもはじまらない。",
+      "audio_alternatives": [
+        {
+          "kanji": "答えのない問題を考えても始まらない。",
+          "hiragana_full": "こたえのないもんだいをかんがえてもはじまらない。"
+        },
+        {
+          "kanji": "いくら考えたって答えは見つからない。",
+          "hiragana_full": "いくらかんがえたってこたえはみつからない。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "てもはじまらない",
+      "register": "neutral"
+    },
+    {
+      "id": "n3_094_10",
+      "example_sentence": "相手に怒っても始まらないので、冷静に話し合った。",
+      "translation": "There was no use getting angry at the other party, so we discussed it calmly.",
+      "blank_target": "ても始まらない",
+      "wrong_choices": [
+        "てたまらない",
+        "てもいい",
+        "てやまない"
+      ],
+      "wrong_choice_explanations": [
+        "「てたまらない」は感情・感覚が抑えられないことを表し「相手に怒ってたまらない」は不自然で、無益さを述べるこの文意とは異なる。",
+        "「てもいい」は許可「怒ってもよい」で、行為を認める意味になり合わない。",
+        "「てやまない」は「願ってやまない」のように願いや気持ちが強く続くことを表す硬い表現で、「相手に怒ってやまない」は不自然で、無益さを述べるこの文とは別。"
+      ],
+      "hiragana_full": "あいてにおこってもはじまらないので、れいせいにはなしあった。",
+      "audio_alternatives": [
+        {
+          "kanji": "相手に怒っても何も始まらない。",
+          "hiragana_full": "あいてにおこってもなにもはじまらない。"
+        },
+        {
+          "kanji": "腹を立てたところで解決しない。",
+          "hiragana_full": "はらをたてたところでかいけつしない。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "てもはじまらない",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "相手",
+          "reading": "あいて",
+          "meaning": "the other party"
+        },
+        {
+          "word": "冷静",
+          "reading": "れいせい",
+          "meaning": "calm; composed"
+        },
+        {
+          "word": "話し合った",
+          "reading": "はなしあった",
+          "meaning": "talked it over; discussed"
+        }
+      ]
     }
   ]
 }

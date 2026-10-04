@@ -6,62 +6,6 @@
   "exercises": [
     {
       "id": "n4_023_1",
-      "example_sentence": "日本語を覚えるために、毎日勉強している。",
-      "translation": "I study every day in order to learn Japanese.",
-      "blank_target": "ために",
-      "wrong_choices": [
-        "ように",
-        "ので",
-        "から"
-      ],
-      "wrong_choice_explanations": [
-        "ように also means 'in order to' but is used with potential forms or expressions of hope — ために is correct here for stating a clear purpose.",
-        "ので indicates reason or cause for something that happened — it doesn't fit because we're expressing purpose, not explaining a cause.",
-        "から means 'because' — it explains reasons for past events, not stating purposes for ongoing actions like ために does."
-      ],
-      "hiragana_full": "にほんごをおぼえるために、まいにちべんきょうしている。",
-      "audio_alternatives": [
-        {
-          "kanji": "日本語を学ぶために、毎日勉強しています。",
-          "hiragana_full": "にほんごをまなぶために、まいにちべんきょうしています。"
-        },
-        {
-          "kanji": "毎日勉強しているのは、日本語を覚えるためだ。",
-          "hiragana_full": "まいにちべんきょうしているのは、にほんごをおぼえるためだ。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_023_2",
-      "example_sentence": "雨のために、試合が中止になった。",
-      "translation": "Because of the rain, the game was canceled.",
-      "blank_target": "ために",
-      "wrong_choices": [
-        "せいで",
-        "おかげで",
-        "によって"
-      ],
-      "wrong_choice_explanations": [
-        "せいで indicates negative blame — while rain causing cancellation could be seen negatively, ために is more neutral for stating cause.",
-        "おかげで indicates positive results — it doesn't fit because game cancellation is typically not viewed as positive.",
-        "によって means 'by means of' or 'due to' — while possible, ために is more natural for stating direct causes like weather."
-      ],
-      "hiragana_full": "あめのために、しあいがちゅうしになった。",
-      "audio_alternatives": [
-        {
-          "kanji": "雨で、試合が中止になった。",
-          "hiragana_full": "あめで、しあいがちゅうしになった。"
-        },
-        {
-          "kanji": "雨のせいで、試合が中止になった。",
-          "hiragana_full": "あめのせいで、しあいがちゅうしになった。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_023_3",
       "example_sentence": "健康のために、運動を始めた。",
       "translation": "For the sake of my health, I started exercising.",
       "blank_target": "のために",
@@ -86,20 +30,33 @@
           "hiragana_full": "からだのために、うんどうをはじめた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "健康",
+          "reading": "けんこう",
+          "meaning": "health"
+        },
+        {
+          "word": "運動",
+          "reading": "うんどう",
+          "meaning": "exercise"
+        }
+      ]
     },
     {
-      "id": "n4_023_4",
+      "id": "n4_023_2",
       "example_sentence": "お金を貯めるために、アルバイトを始めた。",
       "translation": "I started a part-time job in order to save money.",
       "blank_target": "ために",
       "wrong_choices": [
-        "つもりで",
+        "まえに",
         "はずで",
         "わけで"
       ],
       "wrong_choice_explanations": [
-        "つもりで means 'with the intention of' — while related to purpose, ために is more direct for expressing clear goals.",
+        "まえに means 'before' — 貯めるまえに would make the job merely earlier in time than any saving; the sentence states the job was taken in order to save, which ために expresses.",
         "はずで means 'should be' or 'is supposed to be' — it doesn't fit because we're stating purpose, not expectation.",
         "わけで means 'the reason is' — it explains reasons rather than stating purposes like ために does."
       ],
@@ -114,10 +71,18 @@
           "hiragana_full": "おかねをためようと、アルバイトをはじめました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "貯める",
+          "reading": "ためる",
+          "meaning": "save up (money)"
+        }
+      ]
     },
     {
-      "id": "n4_023_5",
+      "id": "n4_023_3",
       "example_sentence": "友達の病気のために、お見舞いに行った。",
       "translation": "Because of my friend's illness, I went to visit them.",
       "blank_target": "ために",
@@ -142,10 +107,18 @@
           "hiragana_full": "ともだちのびょうきのために、おみまいにいきました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "お見舞い",
+          "reading": "おみまい",
+          "meaning": "visit to a sick person"
+        }
+      ]
     },
     {
-      "id": "n4_023_6",
+      "id": "n4_023_4",
       "example_sentence": "試験に合格するために、夜遅くまで勉強した。",
       "translation": "I studied until late at night in order to pass the exam.",
       "blank_target": "ために",
@@ -170,48 +143,28 @@
           "hiragana_full": "しけんにごうかくするために、しんやまでべんきょうしました。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_023_7",
-      "example_sentence": "母の心配のために、早く帰らなければならない。",
-      "translation": "Because of my mother's worry, I have to go home early.",
-      "blank_target": "のために",
-      "wrong_choices": [
-        "に関して",
-        "のせいで",
-        "について"
-      ],
-      "wrong_choice_explanations": [
-        "に関して means 'regarding' or 'concerning' — it doesn't fit because we're explaining cause, not discussing a topic.",
-        "のせいで also marks a cause, but it assigns blame for an unwanted result; the neutral のために simply states the reason the speaker must head home, without casting the worry as something to blame.",
-        "について means 'about' or 'concerning' — it doesn't work because we're expressing cause, not discussing a topic."
-      ],
-      "hiragana_full": "ははのしんぱいのために、はやくかえらなければならない。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
         {
-          "kanji": "母が心配しているから、早く帰らなければならない。",
-          "hiragana_full": "ははがしんぱいしているから、はやくかえらなければならない。"
-        },
-        {
-          "kanji": "母の心配のせいで、早く家に帰らないといけない。",
-          "hiragana_full": "ははのしんぱいのせいで、はやくいえにかえらないといけない。"
+          "word": "合格",
+          "reading": "ごうかく",
+          "meaning": "passing (an exam)"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n4_023_8",
+      "id": "n4_023_5",
       "example_sentence": "子供の将来のために、貯金している。",
       "translation": "I'm saving money for my child's future.",
       "blank_target": "のために",
       "wrong_choices": [
-        "に向けて",
+        "と違って",
         "にとって",
         "に関して"
       ],
       "wrong_choice_explanations": [
-        "に向けて means 'toward' or 'aimed at' — while similar, のために is more natural for expressing dedication to someone's benefit.",
+        "と違って means 'unlike' — 将来と違って would contrast the saving with the child's future, which makes no sense; のために marks the future as what the saving is for.",
         "にとって means 'for' or 'to' (from someone's perspective) — it doesn't fit because we're expressing purpose, not viewpoint.",
         "に関して means 'regarding' or 'about' — it doesn't work because we're stating purpose, not discussing a topic."
       ],
@@ -226,10 +179,23 @@
           "hiragana_full": "こどものしょうらいのため、ちょきんをしている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "将来",
+          "reading": "しょうらい",
+          "meaning": "future"
+        },
+        {
+          "word": "貯金",
+          "reading": "ちょきん",
+          "meaning": "saving money"
+        }
+      ]
     },
     {
-      "id": "n4_023_9",
+      "id": "n4_023_6",
       "example_sentence": "会議の準備を手伝うために、会社に来た。",
       "translation": "I came to the company in order to help prepare for the meeting.",
       "blank_target": "ために",
@@ -254,10 +220,23 @@
           "hiragana_full": "かいぎのじゅんびをてつだいに、かいしゃにきた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "準備",
+          "reading": "じゅんび",
+          "meaning": "preparation"
+        },
+        {
+          "word": "手伝う",
+          "reading": "てつだう",
+          "meaning": "help"
+        }
+      ]
     },
     {
-      "id": "n4_023_10",
+      "id": "n4_023_7",
       "example_sentence": "交通事故のために、電車が遅れた。",
       "translation": "Because of a traffic accident, the train was delayed.",
       "blank_target": "ために",
@@ -282,7 +261,133 @@
           "hiragana_full": "こうつうじこがあったので、でんしゃがおくれた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "交通事故",
+          "reading": "こうつうじこ",
+          "meaning": "traffic accident"
+        },
+        {
+          "word": "遅れた",
+          "reading": "おくれた",
+          "meaning": "was delayed"
+        }
+      ]
+    },
+    {
+      "id": "n4_023_8",
+      "example_sentence": "元気に暮らすために、毎日の食事は大切です。",
+      "translation": "In order to live in good health, your daily meals are important.",
+      "blank_target": "ために",
+      "wrong_choices": [
+        "おかげで",
+        "ので",
+        "から"
+      ],
+      "wrong_choice_explanations": [
+        "おかげで means 'thanks to', crediting a cause for a good result, not stating the goal that the meals serve.",
+        "ので expresses cause or reason 'because', but this sentence expresses purpose 'in order to', not a causal relationship.",
+        "から means 'because' expressing cause and reason, but this sentence requires the purpose-expressing form 'ために'."
+      ],
+      "hiragana_full": "げんきにくらすために、まいにちのしょくじはたいせつです。",
+      "audio_alternatives": [
+        {
+          "kanji": "元気に生活するために、毎日の食事は大切です。",
+          "hiragana_full": "げんきにせいかつするために、まいにちのしょくじはたいせつです。"
+        },
+        {
+          "kanji": "元気に暮らすには、毎日の食事が大切です。",
+          "hiragana_full": "げんきにくらすには、まいにちのしょくじがたいせつです。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "暮らす",
+          "reading": "くらす",
+          "meaning": "to live"
+        },
+        {
+          "word": "食事",
+          "reading": "しょくじ",
+          "meaning": "meal"
+        }
+      ]
+    },
+    {
+      "id": "n4_023_9",
+      "example_sentence": "日本文化を理解するために、歴史を勉強しています。",
+      "translation": "I am studying history in order to understand Japanese culture.",
+      "blank_target": "ために",
+      "wrong_choices": [
+        "せいで",
+        "ので",
+        "から"
+      ],
+      "wrong_choice_explanations": [
+        "せいで means 'because of' or 'due to', typically expressing negative consequences, not the intentional purpose of an action.",
+        "ので indicates a causal relationship or reason, not the intended purpose or goal of an action.",
+        "から means 'because' showing cause, but ために shows purpose or the goal toward which an action aims."
+      ],
+      "hiragana_full": "にほんぶんかをりかいするために、れきしをべんきょうしています。",
+      "audio_alternatives": [
+        {
+          "kanji": "日本文化を理解するため、歴史を勉強しています。",
+          "hiragana_full": "にほんぶんかをりかいするため、れきしをべんきょうしています。"
+        },
+        {
+          "kanji": "日本の文化を理解するために、歴史を学んでいます。",
+          "hiragana_full": "にほんのぶんかをりかいするために、れきしをまなんでいます。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "理解",
+          "reading": "りかい",
+          "meaning": "understanding"
+        }
+      ]
+    },
+    {
+      "id": "n4_023_10",
+      "example_sentence": "友達を作るために、大学のサークルに参加しています。",
+      "translation": "I am participating in a university club in order to make friends.",
+      "blank_target": "ために",
+      "wrong_choices": [
+        "として",
+        "ので",
+        "ことに"
+      ],
+      "wrong_choice_explanations": [
+        "として means 'as' or 'in the capacity of', describing a role or position, not the purpose of joining a club.",
+        "ので indicates the reason or cause for an action, but the sentence expresses the purpose or goal of participation.",
+        "ことに means 'to one's surprise' or 'fortunately', but the sentence describes the purpose of an action."
+      ],
+      "hiragana_full": "ともだちをつくるために、だいがくのサークルにさんかしています。",
+      "audio_alternatives": [
+        {
+          "kanji": "友達を作ろうと、大学のサークルに入っています。",
+          "hiragana_full": "ともだちをつくろうと、だいがくのサークルにはいっています。"
+        },
+        {
+          "kanji": "友達ができるように、大学のサークルに参加しています。",
+          "hiragana_full": "ともだちができるように、だいがくのサークルにさんかしています。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "参加",
+          "reading": "さんか",
+          "meaning": "participation"
+        }
+      ]
     }
   ]
 }

@@ -70,7 +70,8 @@ class GrammarLoader {
                     wrongChoiceExplanations: exercise.wrongChoiceExplanations,
                     register: exercise.register,
                     vocab: exercise.vocab,
-                    blankTargetReading: exercise.blankTargetReading
+                    blankTargetReading: exercise.blankTargetReading,
+                    blankOccurrence: exercise.blankOccurrence
                 )
             }
         }

@@ -6,8 +6,80 @@
   "exercises": [
     {
       "id": "n4_092_1",
-      "example_sentence": "彼は優秀な上に、人柄もいい。",
-      "translation": "He is excellent, and on top of that, he has a good personality.",
+      "example_sentence": "遅刻した上に、忘れ物もした。",
+      "translation": "On top of being late, I also forgot something.",
+      "blank_target": "た上に",
+      "wrong_choices": [
+        "た上で",
+        "に加えて",
+        "た末に"
+      ],
+      "wrong_choice_explanations": [
+        "た上で indicates a prerequisite or basis for action, not cumulative addition of negative events.",
+        "に加えて is neutral addition and doesn't convey the compounding negativity that 〜上に expresses.",
+        "〜た末に means 'after a long, drawn-out process, one finally…'; 遅刻した末に、忘れ物もした would present forgetting as the eventual outcome of being late, whereas 〜上に simply stacks the forgotten item on top of the lateness as a second, separate mishap."
+      ],
+      "hiragana_full": "ちこくしたうえに、わすれものもした。",
+      "audio_alternatives": [
+        {
+          "kanji": "遅刻しただけでなく、忘れ物もした。",
+          "hiragana_full": "ちこくしただけでなく、わすれものもした。"
+        },
+        {
+          "kanji": "遅刻したばかりか、忘れ物もしてしまった。",
+          "hiragana_full": "ちこくしたばかりか、わすれものもしてしまった。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "遅刻",
+          "reading": "ちこく",
+          "meaning": "being late"
+        },
+        {
+          "word": "忘れ物",
+          "reading": "わすれもの",
+          "meaning": "forgotten item"
+        }
+      ],
+      "blank_target_reading": "たうえに"
+    },
+    {
+      "id": "n4_092_2",
+      "example_sentence": "ケガをした上に、病気にもなってしまった。",
+      "translation": "On top of getting injured, I also became ill.",
+      "blank_target": "た上に",
+      "wrong_choices": [
+        "た上で",
+        "たところで",
+        "に加えて"
+      ],
+      "wrong_choice_explanations": [
+        "た上で indicates doing something after completing another action, not expressing cumulative misfortune.",
+        "たところで means 'even if (one does),' setting up a futile concession ('even if I got injured...'); 〜上に instead simply stacks the illness on top of the injury as an added misfortune, with no sense of 'even if.'",
+        "に加えて is neutral addition and doesn't convey the sense of mounting problems that 〜上に expresses."
+      ],
+      "hiragana_full": "けがをしたうえに、びょうきにもなってしまった。",
+      "audio_alternatives": [
+        {
+          "kanji": "ケガをしただけでなく、病気にもなってしまった。",
+          "hiragana_full": "けがをしただけでなく、びょうきにもなってしまった。"
+        },
+        {
+          "kanji": "ケガをした挙句、病気にまでなってしまった。",
+          "hiragana_full": "けがをしたあげく、びょうきにまでなってしまった。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "blank_target_reading": "たうえに"
+    },
+    {
+      "id": "n4_092_3",
+      "example_sentence": "彼は頭がいい上に、性格もいい。",
+      "translation": "He is smart, and on top of that, he has a good personality.",
       "blank_target": "上に",
       "wrong_choices": [
         "ので",
@@ -15,26 +87,39 @@
         "ため"
       ],
       "wrong_choice_explanations": [
-        "ので gives a reason (優秀なので = 'because he is excellent'), but the two clauses just stack good points, which 上に ('on top of that') joins.",
-        "のに means 'even though' (優秀なのに), setting up a contrast, but both clauses are positive and additive, so 上に fits.",
-        "ため gives a cause or purpose (優秀なため = 'because he is excellent'), but the sentence adds a second merit rather than explaining a result, which 上に does."
+        "ので gives a reason ('because he is smart'), but being smart doesn't cause a good personality; the clauses just stack good points.",
+        "のに means 'even though', setting up a contrast, but both clauses are positive and additive, so 上に fits.",
+        "ため gives a cause ('because he is smart'), but the sentence adds a second merit rather than explaining a result."
       ],
-      "hiragana_full": "かれはゆうしゅうなうえに、ひとがらもいい。",
+      "hiragana_full": "かれはあたまがいいうえに、せいかくもいい。",
       "audio_alternatives": [
         {
-          "kanji": "彼は優秀で、しかも人柄もいい。",
-          "hiragana_full": "かれはゆうしゅうで、しかもひとがらもいい。"
+          "kanji": "彼は頭がよくて、しかも性格もいい。",
+          "hiragana_full": "かれはあたまがよくて、しかもせいかくもいい。"
         },
         {
-          "kanji": "彼は優秀なだけでなく、人柄もいい。",
-          "hiragana_full": "かれはゆうしゅうなだけでなく、ひとがらもいい。"
+          "kanji": "彼は頭がいいだけでなく、性格もいい。",
+          "hiragana_full": "かれはあたまがいいだけでなく、せいかくもいい。"
         }
       ],
       "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "頭がいい",
+          "reading": "あたまがいい",
+          "meaning": "smart"
+        },
+        {
+          "word": "性格",
+          "reading": "せいかく",
+          "meaning": "personality"
+        }
+      ],
       "blank_target_reading": "うえに"
     },
     {
-      "id": "n4_092_2",
+      "id": "n4_092_4",
       "example_sentence": "雨が降っている上に、風も強い。",
       "translation": "It's raining, and on top of that, the wind is strong too.",
       "blank_target": "上に",
@@ -60,10 +145,11 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "うえに"
+      "blank_target_reading": "うえに",
+      "register": "casual"
     },
     {
-      "id": "n4_092_3",
+      "id": "n4_092_5",
       "example_sentence": "この店は料理がおいしい上に、値段も安い。",
       "translation": "This restaurant has delicious food, and on top of that, the prices are cheap.",
       "blank_target": "上に",
@@ -89,39 +175,11 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "うえに"
+      "blank_target_reading": "うえに",
+      "register": "casual"
     },
     {
-      "id": "n4_092_4",
-      "example_sentence": "今日は忙しい上に、頭も痛い。",
-      "translation": "Today I'm busy, and on top of that, I have a headache too.",
-      "blank_target": "上に",
-      "wrong_choices": [
-        "から",
-        "のに",
-        "ため"
-      ],
-      "wrong_choice_explanations": [
-        "から gives a reason (忙しいから = 'because I'm busy'), but a headache is a second problem added on, not a result, which 上に marks.",
-        "のに means 'even though' (忙しいのに), a contrast, but both are troubles piling up in the same direction, so 上に fits.",
-        "ため gives a cause (忙しいため = 'because I'm busy'), whereas 上に adds another hardship on top of the first."
-      ],
-      "hiragana_full": "きょうはいそがしいうえに、あたまもいたい。",
-      "audio_alternatives": [
-        {
-          "kanji": "今日は忙しいし、頭も痛い。",
-          "hiragana_full": "きょうはいそがしいし、あたまもいたい。"
-        },
-        {
-          "kanji": "今日は忙しくて、頭も痛い。",
-          "hiragana_full": "きょうはいそがしくて、あたまもいたい。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "うえに"
-    },
-    {
-      "id": "n4_092_5",
+      "id": "n4_092_6",
       "example_sentence": "彼女は歌が上手な上に、踊りもできる。",
       "translation": "She's good at singing, and on top of that, she can dance too.",
       "blank_target": "上に",
@@ -147,20 +205,21 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "うえに"
+      "blank_target_reading": "うえに",
+      "register": "casual"
     },
     {
-      "id": "n4_092_6",
+      "id": "n4_092_7",
       "example_sentence": "この問題は難しい上に、時間もかかる。",
       "translation": "This problem is difficult, and on top of that, it takes time too.",
       "blank_target": "上に",
       "wrong_choices": [
-        "から",
+        "ように",
         "けれど",
         "が"
       ],
       "wrong_choice_explanations": [
-        "から gives a reason (難しいから = 'because it's hard'), but taking time is a second drawback added on, not a result, which 上に marks.",
+        "ように means 'so that / like' (難しいように), which can't link two drawbacks; taking time is a second drawback added on top, which 上に expresses.",
         "けれど means 'although' (難しいけれど), a contrast, but both drawbacks pile up together, so 上に fits.",
         "が here means 'but' (難しいが), a contrast, whereas 上に stacks the second drawback onto the first."
       ],
@@ -176,10 +235,11 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "うえに"
+      "blank_target_reading": "うえに",
+      "register": "neutral"
     },
     {
-      "id": "n4_092_7",
+      "id": "n4_092_8",
       "example_sentence": "電車が遅れた上に、雨まで降ってきた。",
       "translation": "The train was delayed, and on top of that, it started raining too.",
       "blank_target": "上に",
@@ -205,10 +265,11 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "うえに"
+      "blank_target_reading": "うえに",
+      "register": "casual"
     },
     {
-      "id": "n4_092_8",
+      "id": "n4_092_9",
       "example_sentence": "彼は背が高い上に、ハンサムでもある。",
       "translation": "He is tall, and on top of that, he's handsome too.",
       "blank_target": "上に",
@@ -234,36 +295,8 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "うえに"
-    },
-    {
-      "id": "n4_092_9",
-      "example_sentence": "今月は残業が多い上に、休日出勤もある。",
-      "translation": "This month I have a lot of overtime, and on top of that, I have to work on holidays too.",
-      "blank_target": "上に",
-      "wrong_choices": [
-        "ので",
-        "のに",
-        "せいで"
-      ],
-      "wrong_choice_explanations": [
-        "ので gives a reason (多いので = 'because there's a lot'), but holiday work is a second burden added on, not a result, which 上に marks.",
-        "のに means 'even though' (多いのに), a contrast, but both burdens pile up together, so 上に fits.",
-        "せいで blames a cause (多いせいで = 'because of all the overtime'), whereas 上に simply adds a second burden on top."
-      ],
-      "hiragana_full": "こんげつはざんぎょうがおおいうえに、きゅうじつしゅっきんもある。",
-      "audio_alternatives": [
-        {
-          "kanji": "今月は残業が多くて、休日出勤もある。",
-          "hiragana_full": "こんげつはざんぎょうがおおくて、きゅうじつしゅっきんもある。"
-        },
-        {
-          "kanji": "今月は残業も多いし、休日出勤もある。",
-          "hiragana_full": "こんげつはざんぎょうもおおいし、きゅうじつしゅっきんもある。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "うえに"
+      "blank_target_reading": "うえに",
+      "register": "neutral"
     },
     {
       "id": "n4_092_10",
@@ -292,7 +325,8 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "うえに"
+      "blank_target_reading": "うえに",
+      "register": "casual"
     }
   ]
 }

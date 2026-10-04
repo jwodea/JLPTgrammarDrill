@@ -6,205 +6,340 @@
   "exercises": [
     {
       "id": "n4_086_1",
-      "example_sentence": "時代に従って、人々の考え方も変わっている。",
-      "translation": "As times progress, people's way of thinking is also changing.",
-      "blank_target": "に",
+      "example_sentence": "規則に従って、行動してください。",
+      "translation": "Please act in accordance with the rules.",
+      "blank_target": "に従って",
       "wrong_choices": [
-        "を",
-        "で",
-        "と"
+        "にとって",
+        "によって",
+        "に反して"
       ],
       "wrong_choice_explanations": [
-        "を marks the direct object — it doesn't fit here because 時代 is not being acted upon directly.",
-        "で indicates location or means — it doesn't fit here because we're not showing where or how something happens.",
-        "と means 'with' or 'and' — it doesn't fit here because we're not showing accompaniment or addition."
+        "にとって means 'for / from the standpoint of', which treats the rules as someone whose viewpoint matters — it can't express acting in compliance with them as に従って does.",
+        "によって means 'by means of' or 'depending on', pointing to cause or method — not the act of complying with the rules.",
+        "に反して means 'contrary to', i.e. acting against the rules — the opposite of following them as に従って does."
       ],
-      "hiragana_full": "じだいにしたがって、ひとびとのかんがえかたもかわっている。",
+      "hiragana_full": "きそくにしたがって、こうどうしてください。",
       "audio_alternatives": [
         {
-          "kanji": "時代とともに、人々の考え方も変わっている。",
-          "hiragana_full": "じだいとともに、ひとびとのかんがえかたもかわっている。"
+          "kanji": "規則に沿って、行動してください。",
+          "hiragana_full": "きそくにそって、こうどうしてください。"
         },
         {
-          "kanji": "時代が変わるにつれて、人々の考え方も変わっている。",
-          "hiragana_full": "じだいがかわるにつれて、ひとびとのかんがえかたもかわっている。"
+          "kanji": "ルールに従って行動してください。",
+          "hiragana_full": "ルールにしたがってこうどうしてください。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "規則",
+          "reading": "きそく",
+          "meaning": "rules, regulations"
+        },
+        {
+          "word": "行動",
+          "reading": "こうどう",
+          "meaning": "to act, behavior"
+        }
+      ],
+      "blank_target_reading": "にしたがって"
     },
     {
       "id": "n4_086_2",
-      "example_sentence": "先生の指示に従って、宿題を提出しました。",
-      "translation": "I submitted my homework according to the teacher's instructions.",
-      "blank_target": "に",
+      "example_sentence": "医者の指示に従って、薬を飲んでいる。",
+      "translation": "I am taking medicine in accordance with the doctor's instructions.",
+      "blank_target": "に従って",
       "wrong_choices": [
-        "から",
-        "より",
-        "まで"
+        "にとって",
+        "に比べて",
+        "について"
       ],
       "wrong_choice_explanations": [
-        "から means 'from' or 'because' — it doesn't fit here because we're not showing origin or reason.",
-        "より means 'from' or 'than' — it doesn't fit here because we're not making comparisons or showing starting points.",
-        "まで means 'until' or 'up to' — it doesn't fit here because we're not indicating limits or endpoints."
+        "にとって means 'for / from the standpoint of', treating the instructions as a viewpoint-holder — it can't express taking the medicine in compliance with them.",
+        "に比べて means 'compared with', but nothing is being compared — the sentence is about following the doctor's instructions.",
+        "について means 'about / concerning'; it would make the instructions a mere topic, not the guide the speaker follows in taking the medicine."
       ],
-      "hiragana_full": "せんせいのしじにしたがって、しゅくだいをていしゅつしました。",
+      "hiragana_full": "いしゃのしじにしたがって、くすりをのんでいる。",
       "audio_alternatives": [
         {
-          "kanji": "先生の指示どおりに、宿題を提出しました。",
-          "hiragana_full": "せんせいのしじどおりに、しゅくだいをていしゅつしました。"
+          "kanji": "医者の指示通りに、薬を飲んでいる。",
+          "hiragana_full": "いしゃのしじどおりに、くすりをのんでいる。"
         },
         {
-          "kanji": "先生に言われたとおりに、宿題を出しました。",
-          "hiragana_full": "せんせいにいわれたとおりに、しゅくだいをだしました。"
+          "kanji": "医者の指示に従って、薬を服用している。",
+          "hiragana_full": "いしゃのしじにしたがって、くすりをふくようしている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "指示",
+          "reading": "しじ",
+          "meaning": "instructions, directions"
+        }
+      ],
+      "blank_target_reading": "にしたがって"
     },
     {
       "id": "n4_086_3",
-      "example_sentence": "会社の規則に従って行動してください。",
-      "translation": "Please act according to the company rules.",
-      "blank_target": "に",
+      "example_sentence": "案内に従って、会場に入ってください。",
+      "translation": "Please enter the venue following the directions.",
+      "blank_target": "に従って",
       "wrong_choices": [
-        "の",
-        "では",
-        "による"
+        "によると",
+        "にとって",
+        "に比べて"
       ],
       "wrong_choice_explanations": [
-        "の is a possessive particle — it doesn't fit here because we need a particle to connect with 従って.",
-        "では means 'in' or 'at' — it doesn't fit here because we're not indicating location or situation.",
-        "による means 'by' or 'due to' — it doesn't fit here because we need the に従って pattern for 'according to'."
+        "によると means 'according to (a source)' and is for relaying information, not for following instructions.",
+        "にとって means 'for / from the standpoint of'; it doesn't express acting in line with the directions.",
+        "に比べて means 'compared with'; nothing is being compared with the directions."
       ],
-      "hiragana_full": "かいしゃのきそくにしたがってこうどうしてください。",
+      "hiragana_full": "あんないにしたがって、かいじょうにはいってください。",
       "audio_alternatives": [
         {
-          "kanji": "会社のルールに従って行動してください。",
-          "hiragana_full": "かいしゃのルールにしたがってこうどうしてください。"
+          "kanji": "案内のとおりに、会場に入ってください。",
+          "hiragana_full": "あんないのとおりに、かいじょうにはいってください。"
         },
         {
-          "kanji": "会社の規則を守って行動してください。",
-          "hiragana_full": "かいしゃのきそくをまもってこうどうしてください。"
+          "kanji": "案内どおりに、会場に入ってください。",
+          "hiragana_full": "あんないどおりに、かいじょうにはいってください。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "案内",
+          "reading": "あんない",
+          "meaning": "guidance, directions"
+        },
+        {
+          "word": "会場",
+          "reading": "かいじょう",
+          "meaning": "venue"
+        }
+      ],
+      "blank_target_reading": "にしたがって"
     },
     {
       "id": "n4_086_4",
-      "example_sentence": "気温の上昇に従って、電力消費量も増加している。",
-      "translation": "As the temperature rises, power consumption is also increasing.",
-      "blank_target": "に",
+      "example_sentence": "時代の変化に従って、働き方も変わってきた。",
+      "translation": "Work styles have changed following changes in the times.",
+      "blank_target": "に従って",
       "wrong_choices": [
-        "によって",
+        "に関して",
+        "にもかかわらず",
+        "を問わず"
+      ],
+      "wrong_choice_explanations": [
+        "に関して means 'regarding' or 'concerning', which doesn't capture work styles changing along with the times.",
+        "にもかかわらず means 'despite' the changes, which contradicts a sentence where work styles changed because of them.",
+        "を問わず means 'regardless of' the changes, but the sentence says work styles changed precisely as the times did."
+      ],
+      "hiragana_full": "じだいのへんかにしたがって、はたらきかたもかわってきた。",
+      "audio_alternatives": [
+        {
+          "kanji": "時代の変化とともに、働き方も変わってきた。",
+          "hiragana_full": "じだいのへんかとともに、はたらきかたもかわってきた。"
+        },
+        {
+          "kanji": "時代が変わるにつれて、働き方も変化してきた。",
+          "hiragana_full": "じだいがかわるにつれて、はたらきかたもへんかしてきた。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "時代",
+          "reading": "じだい",
+          "meaning": "era, times"
+        },
+        {
+          "word": "変化",
+          "reading": "へんか",
+          "meaning": "change"
+        }
+      ],
+      "blank_target_reading": "にしたがって"
+    },
+    {
+      "id": "n4_086_5",
+      "example_sentence": "交通規則に従って、安全に運転するべきだ。",
+      "translation": "One should drive safely in accordance with traffic rules.",
+      "blank_target": "に従って",
+      "wrong_choices": [
+        "について",
+        "を通じて",
+        "に逆らって"
+      ],
+      "wrong_choice_explanations": [
+        "について means 'about / concerning', which would make the traffic rules a mere topic, not the standard one drives in compliance with as に従って expresses.",
+        "を通じて means 'through' or 'by way of', which makes no sense as the manner of driving safely in relation to traffic rules.",
+        "に逆らって means 'going against' the traffic rules — that contradicts 安全に運転するべきだ."
+      ],
+      "hiragana_full": "こうつうきそくにしたがって、あんぜんにうんてんするべきだ。",
+      "audio_alternatives": [
+        {
+          "kanji": "交通規則を守って、安全に運転するべきだ。",
+          "hiragana_full": "こうつうきそくをまもって、あんぜんにうんてんするべきだ。"
+        },
+        {
+          "kanji": "交通規則のとおりに、安全に運転するべきだ。",
+          "hiragana_full": "こうつうきそくのとおりに、あんぜんにうんてんするべきだ。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "交通規則",
+          "reading": "こうつうきそく",
+          "meaning": "traffic rules"
+        },
+        {
+          "word": "安全",
+          "reading": "あんぜん",
+          "meaning": "safe"
+        },
+        {
+          "word": "運転",
+          "reading": "うんてん",
+          "meaning": "driving"
+        }
+      ],
+      "blank_target_reading": "にしたがって"
+    },
+    {
+      "id": "n4_086_6",
+      "example_sentence": "日本語が上手になるに従って、日本の生活が楽しくなった。",
+      "translation": "As my Japanese improved, life in Japan became more enjoyable.",
+      "blank_target": "に従って",
+      "wrong_choices": [
+        "にとって",
+        "に比べて",
+        "に対して"
+      ],
+      "wrong_choice_explanations": [
+        "にとって attaches to nouns ('for X') and can't follow the verb なる; it doesn't express change progressing together.",
+        "に比べて means 'compared with' and can't follow a plain verb like なる here; nothing is being compared.",
+        "に対して means 'toward / in contrast to'; it doesn't show one change advancing along with another."
+      ],
+      "hiragana_full": "にほんごがじょうずになるにしたがって、にほんのせいかつがたのしくなった。",
+      "audio_alternatives": [
+        {
+          "kanji": "日本語が上手になるにつれて、日本の生活が楽しくなった。",
+          "hiragana_full": "にほんごがじょうずになるにつれて、にほんのせいかつがたのしくなった。"
+        },
+        {
+          "kanji": "日本語が上手になるとともに、日本の生活が楽しくなってきた。",
+          "hiragana_full": "にほんごがじょうずになるとともに、にほんのせいかつがたのしくなってきた。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "上手",
+          "reading": "じょうず",
+          "meaning": "skillful, good at"
+        },
+        {
+          "word": "生活",
+          "reading": "せいかつ",
+          "meaning": "life, daily living"
+        }
+      ],
+      "blank_target_reading": "にしたがって"
+    },
+    {
+      "id": "n4_086_7",
+      "example_sentence": "山を登るに従って、気温が下がっていく。",
+      "translation": "As you climb the mountain, the temperature drops.",
+      "blank_target": "に従って",
+      "wrong_choices": [
+        "に対して",
         "について",
         "として"
       ],
       "wrong_choice_explanations": [
-        "によって means 'by means of' or 'depending on' — it doesn't fit here because we need to show progression, not causation or dependency.",
-        "について means 'about' or 'regarding' — it doesn't fit here because we're not discussing the topic of temperature rise.",
-        "として means 'as' in the sense of role or capacity — it doesn't fit here because temperature rise is not taking on a role."
+        "に対して means 'toward / in contrast to'; it doesn't show the temperature changing as the climb goes on.",
+        "について means 'about' and attaches to nouns; it can't link climbing to a gradual change.",
+        "として means 'as (a role)'; it can't follow 登る to express proportional change."
       ],
-      "hiragana_full": "きおんのじょうしょうにしたがって、でんりょくしょうひりょうもぞうかしている。",
+      "hiragana_full": "やまをのぼるにしたがって、きおんがさがっていく。",
       "audio_alternatives": [
         {
-          "kanji": "気温が上がるにつれて、電力消費量も増えている。",
-          "hiragana_full": "きおんがあがるにつれて、でんりょくしょうひりょうもふえている。"
+          "kanji": "山を登るにつれて、気温が下がっていく。",
+          "hiragana_full": "やまをのぼるにつれて、きおんがさがっていく。"
         },
         {
-          "kanji": "気温が上がると、電力消費量も増加している。",
-          "hiragana_full": "きおんがあがると、でんりょくしょうひりょうもぞうかしている。"
+          "kanji": "山を登れば登るほど、気温が下がっていく。",
+          "hiragana_full": "やまをのぼればのぼるほど、きおんがさがっていく。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_086_5",
-      "example_sentence": "人口の増加に従って、住宅不足が深刻になっている。",
-      "translation": "As the population increases, housing shortage is becoming serious.",
-      "blank_target": "に",
-      "wrong_choices": [
-        "に対して",
-        "に関して",
-        "において"
-      ],
-      "wrong_choice_explanations": [
-        "に対して means 'toward' or 'against' — it doesn't fit here because we're not showing opposition or direction.",
-        "に関して means 'regarding' or 'concerning' — it doesn't fit here because we're not discussing the topic of population increase.",
-        "において means 'in' or 'at' — it doesn't fit here because we're not indicating a specific location or context."
-      ],
-      "hiragana_full": "じんこうのぞうかにしたがって、じゅうたくぶそくがしんこくになっている。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "人口が増えるにつれて、住宅不足が深刻になっている。",
-          "hiragana_full": "じんこうがふえるにつれて、じゅうたくぶそくがしんこくになっている。"
+          "word": "登る",
+          "reading": "のぼる",
+          "meaning": "to climb"
         },
         {
-          "kanji": "人口が増加するにともなって、住宅不足が深刻になっている。",
-          "hiragana_full": "じんこうがぞうかするにともなって、じゅうたくぶそくがしんこくになっている。"
+          "word": "気温",
+          "reading": "きおん",
+          "meaning": "air temperature"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_086_6",
-      "example_sentence": "医者の診断に従って、薬を服用しています。",
-      "translation": "I am taking medicine according to the doctor's diagnosis.",
-      "blank_target": "に",
-      "wrong_choices": [
-        "を通じて",
-        "に基づいて",
-        "に関連して"
-      ],
-      "wrong_choice_explanations": [
-        "を通じて means 'through' — it doesn't fit here because we're not showing a medium or channel.",
-        "に基づいて means 'based on' — while similar, it doesn't fit the に従って pattern which emphasizes following or progression.",
-        "に関連して means 'in connection with' — it doesn't fit here because we're not showing relationship or association."
-      ],
-      "hiragana_full": "いしゃのしんだんにしたがって、くすりをふくようしています。",
-      "audio_alternatives": [
-        {
-          "kanji": "医者の診断通りに、薬を飲んでいます。",
-          "hiragana_full": "いしゃのしんだんどおりに、くすりをのんでいます。"
-        },
-        {
-          "kanji": "医者の診断に従い、薬を服用しています。",
-          "hiragana_full": "いしゃのしんだんにしたがい、くすりをふくようしています。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_086_7",
-      "example_sentence": "経験の蓄積に従って、技術も向上していく。",
-      "translation": "As experience accumulates, skills also improve.",
-      "blank_target": "に",
-      "wrong_choices": [
-        "に応じて",
-        "に際して",
-        "に沿って"
-      ],
-      "wrong_choice_explanations": [
-        "に応じて means 'according to' or 'in response to' — while close, it emphasizes response rather than progression.",
-        "に際して means 'on the occasion of' — it doesn't fit here because we're not talking about a specific occasion or timing.",
-        "に沿って means 'along' or 'in line with' — it doesn't fit here because we're not following a path or guideline."
-      ],
-      "hiragana_full": "けいけんのちくせきにしたがって、ぎじゅつもこうじょうしていく。",
-      "audio_alternatives": [
-        {
-          "kanji": "経験が積み重なるにつれて、技術も上がっていく。",
-          "hiragana_full": "けいけんがつみかさなるにつれて、ぎじゅつもあがっていく。"
-        },
-        {
-          "kanji": "経験を積むにつれて、技術も向上していく。",
-          "hiragana_full": "けいけんをつむにつれて、ぎじゅつもこうじょうしていく。"
-        }
-      ],
-      "audio_eligible": true
+      "blank_target_reading": "にしたがって"
     },
     {
       "id": "n4_086_8",
+      "example_sentence": "年をとるに従って、朝早く起きるようになった。",
+      "translation": "As I've gotten older, I've started waking up early.",
+      "blank_target": "に従って",
+      "wrong_choices": [
+        "に関して",
+        "にとって",
+        "に対して"
+      ],
+      "wrong_choice_explanations": [
+        "に関して means 'regarding' and attaches to nouns; it can't express change that comes with growing older.",
+        "にとって means 'for / from the standpoint of' and can't follow the verb とる.",
+        "に対して means 'toward / in contrast to'; it doesn't show a habit changing along with age."
+      ],
+      "hiragana_full": "としをとるにしたがって、あさはやくおきるようになった。",
+      "audio_alternatives": [
+        {
+          "kanji": "年をとるにつれて、朝早く起きるようになった。",
+          "hiragana_full": "としをとるにつれて、あさはやくおきるようになった。"
+        },
+        {
+          "kanji": "年をとるとともに、朝早く起きるようになった。",
+          "hiragana_full": "としをとるとともに、あさはやくおきるようになった。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "年をとる",
+          "reading": "としをとる",
+          "meaning": "to grow older"
+        }
+      ],
+      "blank_target_reading": "にしたがって"
+    },
+    {
+      "id": "n4_086_9",
       "example_sentence": "計画に従って、プロジェクトを進めています。",
       "translation": "We are proceeding with the project according to the plan.",
-      "blank_target": "に",
+      "blank_target": "に従って",
       "wrong_choices": [
         "に向かって",
         "に続いて",
@@ -226,50 +361,36 @@
           "hiragana_full": "けいかくにそって、ぷろじぇくとをすすめています。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_086_9",
-      "example_sentence": "年齢に従って、記憶力も衰えていく。",
-      "translation": "As age progresses, memory also declines.",
-      "blank_target": "に",
-      "wrong_choices": [
-        "に比べて",
-        "に対比して",
-        "に相当して"
-      ],
-      "wrong_choice_explanations": [
-        "に比べて means 'compared to' — it doesn't fit here because we're not making comparisons.",
-        "に対比して means 'in contrast to' — it doesn't fit here because we're not showing contrast or opposition.",
-        "に相当して means 'corresponding to' — it doesn't fit here because we're not showing equivalence or correspondence."
-      ],
-      "hiragana_full": "ねんれいにしたがって、きおくりょくもおとろえていく。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "年を取るにつれて、記憶力も衰えていく。",
-          "hiragana_full": "としをとるにつれて、きおくりょくもおとろえていく。"
+          "word": "計画",
+          "reading": "けいかく",
+          "meaning": "plan"
         },
         {
-          "kanji": "歳を重ねると、記憶力も衰えていく。",
-          "hiragana_full": "さいをかさねると、きおくりょくもおとろえていく。"
+          "word": "進めています",
+          "reading": "すすめています",
+          "meaning": "moving (it) forward"
         }
       ],
-      "audio_eligible": true
+      "blank_target_reading": "にしたがって"
     },
     {
       "id": "n4_086_10",
       "example_sentence": "マニュアルに従って、機械を操作してください。",
       "translation": "Please operate the machine according to the manual.",
-      "blank_target": "に",
+      "blank_target": "に従って",
       "wrong_choices": [
-        "による",
-        "での",
-        "への"
+        "に反して",
+        "に比べて",
+        "について"
       ],
       "wrong_choice_explanations": [
-        "による means 'by' or 'due to' — it doesn't fit here because we need the に従って pattern for 'according to'.",
-        "での means 'at' or 'in' — it doesn't fit here because we're not indicating location or means.",
-        "への means 'to' or 'toward' — it doesn't fit here because we're not showing direction or destination."
+        "に反して means 'contrary to'; マニュアルに反して would tell you to operate the machine against the manual. に従って means 'following / in accordance with' the manual.",
+        "に比べて means 'compared with'; マニュアルに比べて leaves nothing being compared. に従って means 'following' the manual.",
+        "について means 'about'; マニュアルについて操作する doesn't make sense. に従って means 'in accordance with' the manual."
       ],
       "hiragana_full": "まにゅあるにしたがって、きかいをそうさしてください。",
       "audio_alternatives": [
@@ -282,7 +403,21 @@
           "hiragana_full": "まにゅあるにしたがって、きかいをうごかしてください。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "操作",
+          "reading": "そうさ",
+          "meaning": "operation, handling"
+        },
+        {
+          "word": "機械",
+          "reading": "きかい",
+          "meaning": "machine"
+        }
+      ],
+      "blank_target_reading": "にしたがって"
     }
   ]
 }

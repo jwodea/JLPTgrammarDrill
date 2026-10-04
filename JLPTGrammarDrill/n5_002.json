@@ -47,47 +47,6 @@
     },
     {
       "id": "n5_002_2",
-      "example_sentence": "水を飲みます。",
-      "translation": "I drink water.",
-      "blank_target": "を",
-      "wrong_choices": [
-        "が",
-        "へ",
-        "から"
-      ],
-      "wrong_choice_explanations": [
-        "が marks the subject, not what is being drunk.",
-        "へ marks a direction you move toward, so 水へ would point toward water rather than mark it as what you drink.",
-        "から means 'from,' so 水から would mean 'from the water,' not the water you drink; を marks the drink as the direct object."
-      ],
-      "hiragana_full": "みずをのみます。",
-      "audio_alternatives": [
-        {
-          "kanji": "水を飲む。",
-          "hiragana_full": "みずをのむ。"
-        },
-        {
-          "kanji": "お水を飲みます。",
-          "hiragana_full": "おみずをのみます。"
-        }
-      ],
-      "audio_eligible": true,
-      "register": "neutral",
-      "vocab": [
-        {
-          "word": "水",
-          "reading": "みず",
-          "meaning": "water"
-        },
-        {
-          "word": "飲みます",
-          "reading": "のみます",
-          "meaning": "drink"
-        }
-      ]
-    },
-    {
-      "id": "n5_002_3",
       "example_sentence": "本を読みます。",
       "translation": "I read a book.",
       "blank_target": "を",
@@ -128,7 +87,7 @@
       ]
     },
     {
-      "id": "n5_002_4",
+      "id": "n5_002_3",
       "example_sentence": "テレビを見ます。",
       "translation": "I watch television.",
       "blank_target": "を",
@@ -164,7 +123,7 @@
       ]
     },
     {
-      "id": "n5_002_5",
+      "id": "n5_002_4",
       "example_sentence": "日本語を勉強します。",
       "translation": "I study Japanese.",
       "blank_target": "を",
@@ -205,89 +164,7 @@
       ]
     },
     {
-      "id": "n5_002_6",
-      "example_sentence": "手紙を書きます。",
-      "translation": "I write a letter.",
-      "blank_target": "を",
-      "wrong_choices": [
-        "に",
-        "で",
-        "と"
-      ],
-      "wrong_choice_explanations": [
-        "に marks the recipient, not the thing being written.",
-        "で marks the instrument or place, not the direct object.",
-        "と means 'with' or 'and'; 手紙と書きます is grammatically incorrect."
-      ],
-      "hiragana_full": "てがみをかきます。",
-      "audio_alternatives": [
-        {
-          "kanji": "手紙を書く。",
-          "hiragana_full": "てがみをかく。"
-        },
-        {
-          "kanji": "私は手紙を書きます。",
-          "hiragana_full": "わたしはてがみをかきます。"
-        }
-      ],
-      "audio_eligible": true,
-      "register": "neutral",
-      "vocab": [
-        {
-          "word": "手紙",
-          "reading": "てがみ",
-          "meaning": "letter"
-        },
-        {
-          "word": "書きます",
-          "reading": "かきます",
-          "meaning": "write"
-        }
-      ]
-    },
-    {
-      "id": "n5_002_7",
-      "example_sentence": "音楽を聞きます。",
-      "translation": "I listen to music.",
-      "blank_target": "を",
-      "wrong_choices": [
-        "が",
-        "は",
-        "から"
-      ],
-      "wrong_choice_explanations": [
-        "が marks the subject; 音楽 is the object of listening, not the listener.",
-        "は marks the topic ('as for music…'), whereas を marks 音楽 as the direct object of 聞きます.",
-        "から means 'from,' so 音楽から would mean 'from the music,' not the music you listen to; を marks it as the object."
-      ],
-      "hiragana_full": "おんがくをききます。",
-      "audio_alternatives": [
-        {
-          "kanji": "音楽を聞く。",
-          "hiragana_full": "おんがくをきく。"
-        },
-        {
-          "kanji": "音楽を聴きます。",
-          "hiragana_full": "おんがくをききます。"
-        }
-      ],
-      "audio_eligible": true,
-      "register": "neutral",
-      "vocab": [
-        {
-          "word": "音楽",
-          "reading": "おんがく",
-          "meaning": "music"
-        },
-        {
-          "word": "聞きます",
-          "reading": "ききます",
-          "meaning": "listen to"
-        }
-      ]
-    },
-    {
-      "id": "n5_002_8",
+      "id": "n5_002_5",
       "example_sentence": "写真を撮ります。",
       "translation": "I take a photo.",
       "blank_target": "を",
@@ -328,7 +205,7 @@
       ]
     },
     {
-      "id": "n5_002_9",
+      "id": "n5_002_6",
       "example_sentence": "コーヒーを注文します。",
       "translation": "I order coffee.",
       "blank_target": "を",
@@ -364,7 +241,7 @@
       ]
     },
     {
-      "id": "n5_002_10",
+      "id": "n5_002_7",
       "example_sentence": "宿題をします。",
       "translation": "I do my homework.",
       "blank_target": "を",
@@ -396,6 +273,129 @@
           "word": "宿題",
           "reading": "しゅくだい",
           "meaning": "homework"
+        }
+      ]
+    },
+    {
+      "id": "n5_002_8",
+      "example_sentence": "音楽を聞きます。",
+      "translation": "I listen to music.",
+      "blank_target": "を",
+      "wrong_choices": [
+        "が",
+        "は",
+        "と"
+      ],
+      "wrong_choice_explanations": [
+        "が marks subjects or can indicate what is heard with 聞こえる — it doesn't fit here because with 聞く (active listening), 音楽 is the direct object.",
+        "は marks topics — it doesn't fit here because 音楽 is the specific object being listened to, not a topic for general comment.",
+        "と means 'with' or 'and' — it doesn't fit here because 音楽 is what is being listened to, not something accompanying the listener."
+      ],
+      "hiragana_full": "おんがくをききます。",
+      "audio_alternatives": [
+        {
+          "kanji": "音楽を聞く。",
+          "hiragana_full": "おんがくをきく。"
+        },
+        {
+          "kanji": "音楽を聴きます。",
+          "hiragana_full": "おんがくをききます。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "音楽",
+          "reading": "おんがく",
+          "meaning": "music"
+        },
+        {
+          "word": "聞きます",
+          "reading": "ききます",
+          "meaning": "listen to"
+        }
+      ]
+    },
+    {
+      "id": "n5_002_9",
+      "example_sentence": "窓を開けます。",
+      "translation": "I open the window.",
+      "blank_target": "を",
+      "wrong_choices": [
+        "が",
+        "に",
+        "で"
+      ],
+      "wrong_choice_explanations": [
+        "が marks subjects — it doesn't fit here because 窓 is the direct object being opened, not the subject doing the opening.",
+        "に indicates direction or location — it doesn't fit here because 窓 is what is being opened, not a destination or position.",
+        "で indicates location of action or means — it doesn't fit here because 窓 is the object being acted upon, not the location or tool for the action."
+      ],
+      "hiragana_full": "まどをあけます。",
+      "audio_alternatives": [
+        {
+          "kanji": "窓を開ける。",
+          "hiragana_full": "まどをあける。"
+        },
+        {
+          "kanji": "窓を開けています。",
+          "hiragana_full": "まどをあけています。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "窓",
+          "reading": "まど",
+          "meaning": "window"
+        },
+        {
+          "word": "開けます",
+          "reading": "あけます",
+          "meaning": "open"
+        }
+      ]
+    },
+    {
+      "id": "n5_002_10",
+      "example_sentence": "車を運転します。",
+      "translation": "I drive a car.",
+      "blank_target": "を",
+      "wrong_choices": [
+        "が",
+        "で",
+        "に"
+      ],
+      "wrong_choice_explanations": [
+        "が marks subjects — it doesn't fit here because 車 is the direct object being driven, not the subject doing the driving.",
+        "で can indicate means of transportation — it doesn't fit here because we're talking about driving the car as an action, not using it as transportation means.",
+        "に indicates direction or location — it doesn't fit here because 車 is the vehicle being operated, not a destination."
+      ],
+      "hiragana_full": "くるまをうんてんします。",
+      "audio_alternatives": [
+        {
+          "kanji": "車を運転する。",
+          "hiragana_full": "くるまをうんてんする。"
+        },
+        {
+          "kanji": "車を運転しています。",
+          "hiragana_full": "くるまをうんてんしています。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "車",
+          "reading": "くるま",
+          "meaning": "car"
+        },
+        {
+          "word": "運転します",
+          "reading": "うんてんします",
+          "meaning": "drive"
         }
       ]
     }

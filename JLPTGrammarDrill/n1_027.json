@@ -1,7 +1,7 @@
 {
   "id": "n1_027",
-  "pattern": "〜たる",
-  "meaning": "as (a person of status) / being (formal)",
+  "pattern": "〜たる（もの）",
+  "meaning": "as (a person of status) / being (formal); one who is X (ought to ...)",
   "level": "N1",
   "exercises": [
     {
@@ -10,12 +10,12 @@
       "translation": "A person who is a leader should be a model for their subordinates.",
       "blank_target": "たる",
       "wrong_choices": [
-        "である",
+        "のような",
         "としての",
         "らしい"
       ],
       "wrong_choice_explanations": [
-        "である is a simple copula meaning 'is', but lacks the formal, dignified quality that たる provides in this context.",
+        "のような means 'like/resembling a leader' — it describes someone who merely looks the part, whereas 〜たる者 asserts actually holding the position of leader, the source of the obligation to be a model.",
         "としての means 'as/in the capacity of' but requires different sentence structure and doesn't carry the formal status nuance.",
         "らしい means 'seems like/typical of' and expresses appearance or conjecture, not the formal identification of status."
       ],
@@ -30,7 +30,25 @@
           "hiragana_full": "しどうしゃはぶかのもはんであるべきだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "指導者",
+          "reading": "しどうしゃ",
+          "meaning": "leader"
+        },
+        {
+          "word": "部下",
+          "reading": "ぶか",
+          "meaning": "subordinate"
+        },
+        {
+          "word": "模範",
+          "reading": "もはん",
+          "meaning": "model/example"
+        }
+      ]
     },
     {
       "id": "n1_027_2",
@@ -38,12 +56,12 @@
       "translation": "A person who is a teacher must continue learning constantly.",
       "blank_target": "たる",
       "wrong_choices": [
-        "である",
+        "らしい",
         "のような",
         "として"
       ],
       "wrong_choice_explanations": [
-        "である simply means 'is' but doesn't convey the formal, dignified sense of duty that たる expresses.",
+        "らしい means 'seems like / typical of a teacher' — an impression or typicality, not the actual standing as a teacher from which the duty to keep learning flows, which 〜たる者 asserts.",
         "のような means 'like a' and would describe someone who merely resembles a teacher, not someone whose actual standing as a teacher carries the obligations たる invokes.",
         "として means 'as' but is used differently structurally and lacks the formal, attributive quality of たる."
       ],
@@ -58,7 +76,20 @@
           "hiragana_full": "きょうしとしては、たえずまなびつづけなければならない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "教師",
+          "reading": "きょうし",
+          "meaning": "teacher"
+        },
+        {
+          "word": "常に",
+          "reading": "つねに",
+          "meaning": "always/constantly"
+        }
+      ]
     },
     {
       "id": "n1_027_3",
@@ -66,12 +97,12 @@
       "translation": "A person who is a scientist should maintain an objective viewpoint.",
       "blank_target": "たる",
       "wrong_choices": [
-        "である",
+        "のごとき",
         "のような",
         "であれば"
       ],
       "wrong_choice_explanations": [
-        "である is a basic copula but doesn't carry the formal, dignified implications of たる in professional contexts.",
+        "のごとき is a literary 'like/as if a scientist' — a simile of resemblance, not the assertion of genuinely being one that 〜たる者 makes.",
         "のような means 'like/such as' and expresses similarity or example, not the formal identification of status.",
         "であれば is a conditional form meaning 'if (one) is' and changes the meaning from obligation to condition."
       ],
@@ -86,77 +117,39 @@
           "hiragana_full": "かがくしゃとしては、きゃっかんてきなしてんをいじすべきだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "客観的",
+          "reading": "きゃっかんてき",
+          "meaning": "objective"
+        },
+        {
+          "word": "視点",
+          "reading": "してん",
+          "meaning": "viewpoint"
+        },
+        {
+          "word": "保つ",
+          "reading": "たもつ",
+          "meaning": "to maintain/keep"
+        }
+      ]
     },
     {
       "id": "n1_027_4",
-      "example_sentence": "医師たる者は、患者の生命を最優先に考えるべきである。",
-      "translation": "A person who is a doctor should consider the patient's life as the highest priority.",
-      "blank_target": "たる",
-      "wrong_choices": [
-        "である",
-        "という",
-        "のような"
-      ],
-      "wrong_choice_explanations": [
-        "である simply states 'is' but lacks the formal, professional dignity that たる conveys in this medical context.",
-        "という is a quotative particle meaning 'called/named' and doesn't express the formal status identification.",
-        "のような means 'like a,' suggesting someone who merely resembles a doctor; たる asserts the actual professional standing from which the obligation flows."
-      ],
-      "hiragana_full": "いしたるものは、かんじゃのせいめいをさいゆうせんにかんがえるべきである。",
-      "audio_alternatives": [
-        {
-          "kanji": "医師である者は、患者の命を最も優先して考えるべきだ。",
-          "hiragana_full": "いしであるものは、かんじゃのいのちをもっともゆうせんしてかんがえるべきだ。"
-        },
-        {
-          "kanji": "医者たる者は、患者の生命を第一に考えなければならない。",
-          "hiragana_full": "いしゃたるものは、かんじゃのせいめいをだいいちにかんがえなければならない。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n1_027_5",
-      "example_sentence": "政治家たる者は、国民の利益を第一に考えなければならない。",
-      "translation": "A person who is a politician must put the people's interests first.",
-      "blank_target": "たる",
-      "wrong_choices": [
-        "である",
-        "ならば",
-        "のような"
-      ],
-      "wrong_choice_explanations": [
-        "である is a simple copula meaning 'is' but doesn't convey the formal responsibility and dignity that たる implies.",
-        "ならば is a conditional meaning 'if' and changes the sentence from a statement of duty to a hypothetical condition.",
-        "のような means 'like a' and would describe a politician-like figure rather than asserting actual standing as a politician, which is what triggers the duty たる names."
-      ],
-      "hiragana_full": "せいじかたるものは、こくみんのりえきをだいいちにかんがえなければならない。",
-      "audio_alternatives": [
-        {
-          "kanji": "政治家である者は、国民の利益を第一に考えなければならない。",
-          "hiragana_full": "せいじかであるものは、こくみんのりえきをだいいちにかんがえなければならない。"
-        },
-        {
-          "kanji": "政治家は、国民の利益を最優先に考えなければならない。",
-          "hiragana_full": "せいじかは、こくみんのりえきをさいゆうせんにかんがえなければならない。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n1_027_6",
       "example_sentence": "国連事務総長たる者は、あらゆる国家に対して中立を保たねばならない。",
       "translation": "A person serving as UN Secretary-General must maintain neutrality toward all nations.",
       "blank_target": "たる",
       "wrong_choices": [
         "としての",
-        "である",
+        "のような",
         "において"
       ],
       "wrong_choice_explanations": [
         "としての means 'as/in the capacity of' but requires different grammatical structure and lacks the formal dignity of たる.",
-        "である is a basic copula meaning 'is' but doesn't carry the weighty, formal sense of high office that たる provides.",
+        "のような ('like/resembling a Secretary-General') describes similarity, not the actual holding of the office that 〜たる者 asserts as the basis for the duty of neutrality.",
         "において means 'in/at' and indicates location or context, not the formal identification of high status."
       ],
       "hiragana_full": "こくれんじむそうちょうたるものは、あらゆるこっかにたいしてちゅうりつをたもたねばならない。",
@@ -170,48 +163,38 @@
           "hiragana_full": "こくれんじむそうちょうたるじんぶつは、すべてのこっかにたいしてちゅうりつをたもたなければならない。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n1_027_7",
-      "example_sentence": "環境問題に取り組む国家たる者は、長期的視点を持たねばならない。",
-      "translation": "A nation that addresses environmental issues must maintain a long-term perspective.",
-      "blank_target": "たる",
-      "wrong_choices": [
-        "である",
-        "として",
-        "らしい"
-      ],
-      "wrong_choice_explanations": [
-        "である simply means 'is' but lacks the formal, dignified sense of responsibility that たる conveys for nations.",
-        "として means 'as' but is used differently structurally and doesn't carry the formal weight of たる.",
-        "らしい means 'seeming like / typical of' and would say a nation behaves like a nation should, not that its standing as a nation imposes the obligation, which is what たる asserts."
-      ],
-      "hiragana_full": "かんきょうもんだいにとりくむこっかたるものは、ちょうきてきしてんをもたねばならない。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
         {
-          "kanji": "環境問題に取り組む国家は、長期的な視点を持たなければならない。",
-          "hiragana_full": "かんきょうもんだいにとりくむこっかは、ちょうきてきなしてんをもたなければならない。"
+          "word": "事務総長",
+          "reading": "じむそうちょう",
+          "meaning": "secretary-general"
         },
         {
-          "kanji": "環境問題に対処する国は、長期的視点を維持しなければならない。",
-          "hiragana_full": "かんきょうもんだいにたいしょするくには、ちょうきてきしてんをいじしなければならない。"
+          "word": "国家",
+          "reading": "こっか",
+          "meaning": "state/nation"
+        },
+        {
+          "word": "中立",
+          "reading": "ちゅうりつ",
+          "meaning": "neutrality"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n1_027_8",
+      "id": "n1_027_5",
       "example_sentence": "文学批評家たる者は、偏見を排除しなければならない。",
       "translation": "A person serving as a literary critic must eliminate bias.",
       "blank_target": "たる",
       "wrong_choices": [
-        "である",
+        "のごとき",
         "らしく",
         "にとって"
       ],
       "wrong_choice_explanations": [
-        "である is a basic copula meaning 'is' but doesn't convey the professional dignity and formal responsibility that たる implies.",
+        "のごとき is a literary 'like/as if a literary critic' — a simile of resemblance, not the assertion of actually being one that 〜たる者 makes.",
         "らしく means 'like/in a manner befitting' and expresses behavior typical of a role, but lacks the formal identification aspect.",
         "にとって means 'for/to' and indicates perspective, not the formal identification of professional status."
       ],
@@ -226,63 +209,250 @@
           "hiragana_full": "ぶんがくひひょうかはへんけんをはいじょしなければならない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "批評家",
+          "reading": "ひひょうか",
+          "meaning": "critic"
+        },
+        {
+          "word": "偏見",
+          "reading": "へんけん",
+          "meaning": "prejudice/bias"
+        },
+        {
+          "word": "排除",
+          "reading": "はいじょ",
+          "meaning": "exclusion/elimination"
+        }
+      ]
+    },
+    {
+      "id": "n1_027_6",
+      "example_sentence": "医師たるもの、患者の命を第一に考えるべきだ。",
+      "translation": "One who is a doctor should put the patient's life first.",
+      "blank_target": "たるもの",
+      "wrong_choices": [
+        "ともあろうもの",
+        "ならではの",
+        "にとって"
+      ],
+      "wrong_choice_explanations": [
+        "「医師ともあろうもの」は『医師ほどの立場の人が（意外にも良くない振る舞いをする）』という驚き・非難を導く言い方で、医師のあるべき義務を述べるこの文には合わない。",
+        "「医師ならではの」は『医師だけに見られる、医師特有の』という独自性を表し、後ろに名詞が必要で、『医師である以上〜すべきだ』という義務の意味にはならない。",
+        "「医師にとって」は『医師の立場から見れば』という観点を示すだけで、『医師である者は当然〜すべきだ』というあるべき姿・義務を述べる用法ではない。"
+      ],
+      "hiragana_full": "いしたるもの、かんじゃのいのちをだいいちにかんがえるべきだ。",
+      "audio_alternatives": [
+        {
+          "kanji": "医師たる者、何よりも患者の命を優先すべきだ。",
+          "hiragana_full": "いしたるもの、なによりもかんじゃのいのちをゆうせんすべきだ。"
+        },
+        {
+          "kanji": "医師である以上、患者の命を第一に考えねばならない。",
+          "hiragana_full": "いしであるいじょう、かんじゃのいのちをだいいちにかんがえねばならない。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "医師",
+          "reading": "いし",
+          "meaning": "doctor; physician"
+        },
+        {
+          "word": "患者",
+          "reading": "かんじゃ",
+          "meaning": "patient"
+        },
+        {
+          "word": "命",
+          "reading": "いのち",
+          "meaning": "life"
+        }
+      ]
+    },
+    {
+      "id": "n1_027_7",
+      "example_sentence": "政治家たるもの、国民に対して誠実であるべきだ。",
+      "translation": "One who is a politician should be sincere toward the people.",
+      "blank_target": "たるもの",
+      "wrong_choices": [
+        "ともあろうもの",
+        "なりに",
+        "ならではの"
+      ],
+      "wrong_choice_explanations": [
+        "「政治家ともあろうもの」は『政治家ほどの立場の人が（意外にも良くない振る舞いをする）』という驚き・非難を導き、政治家のあるべき姿を説くこの文には合わない。",
+        "「政治家なりに」は『政治家なりのやり方で、政治家相応に』と限られた範囲での努力を表し、『政治家である以上当然〜すべきだ』という義務の含みを持たない。",
+        "「政治家ならではの」は『政治家だけに見られる、政治家特有の』という独自性を表し、後ろに名詞が必要で、義務を述べる『たるもの』の意味にはならない。"
+      ],
+      "hiragana_full": "せいじかたるもの、こくみんにたいしてせいじつであるべきだ。",
+      "audio_alternatives": [
+        {
+          "kanji": "政治家たる者、国民に対して常に誠実でなければならない。",
+          "hiragana_full": "せいじかたるもの、こくみんにたいしてつねにせいじつでなければならない。"
+        },
+        {
+          "kanji": "政治家である以上、国民に誠実に向き合うべきだ。",
+          "hiragana_full": "せいじかであるいじょう、こくみんにせいじつにむきあうべきだ。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "政治家",
+          "reading": "せいじか",
+          "meaning": "politician"
+        },
+        {
+          "word": "国民",
+          "reading": "こくみん",
+          "meaning": "the people; citizens"
+        },
+        {
+          "word": "誠実",
+          "reading": "せいじつ",
+          "meaning": "sincere; honest"
+        }
+      ]
+    },
+    {
+      "id": "n1_027_8",
+      "example_sentence": "武士たるもの、恥を知らねばならない。",
+      "translation": "One who is a samurai must have a sense of shame (of honor).",
+      "blank_target": "たるもの",
+      "wrong_choices": [
+        "ともあろうもの",
+        "ならではの",
+        "なりに"
+      ],
+      "wrong_choice_explanations": [
+        "「武士ともあろうもの」は『武士ほどの立場の者が（意外にも良くない振る舞いをする）』という驚き・非難を導き、武士のあるべき姿を説くこの文には合わない。",
+        "「武士ならではの」は『武士だけに見られる、武士特有の』という独自性を表し、後ろに名詞が必要で、『武士である以上〜すべきだ』という義務の意味にはならない。",
+        "「武士なりに」は『武士なりのやり方で、武士相応に』と限られた範囲での努力を表し、『武士である以上当然〜すべきだ』という含みを持たない。"
+      ],
+      "hiragana_full": "ぶしたるもの、はじをしらねばならない。",
+      "audio_alternatives": [
+        {
+          "kanji": "武士たる者、恥を知るべきである。",
+          "hiragana_full": "ぶしたるもの、はじをしるべきである。"
+        },
+        {
+          "kanji": "武士である以上、恥を知らねばならぬ。",
+          "hiragana_full": "ぶしであるいじょう、はじをしらねばならぬ。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "武士",
+          "reading": "ぶし",
+          "meaning": "samurai; warrior"
+        },
+        {
+          "word": "恥",
+          "reading": "はじ",
+          "meaning": "shame; disgrace"
+        }
+      ]
     },
     {
       "id": "n1_027_9",
-      "example_sentence": "経営者たる者は、従業員の福祉を考慮すべきである。",
-      "translation": "A person who is a business executive should consider employee welfare.",
-      "blank_target": "たる",
+      "example_sentence": "親たるもの、子の前では簡単に弱音を吐けない。",
+      "translation": "One who is a parent can't easily show weakness in front of their child.",
+      "blank_target": "たるもの",
       "wrong_choices": [
-        "である",
-        "として",
-        "らしい"
+        "ともあろうもの",
+        "ならではの",
+        "なりに"
       ],
       "wrong_choice_explanations": [
-        "である simply means 'is' but lacks the formal sense of leadership responsibility that たる provides in business contexts.",
-        "として means 'as' but has different grammatical usage and doesn't carry the weighty, formal implications of たる.",
-        "らしい would only describe someone who acts in an executive-like manner; たる asserts the actual standing from which the duty to consider employee welfare arises."
+        "「親ともあろうもの」は『親ほどの立場の者が（意外にも良くない振る舞いをする）』という驚き・非難を導き、親のあるべき姿を述べるこの文には合わない。",
+        "「親ならではの」は『親だけに見られる、親特有の』という独自性を表し、後ろに名詞が必要で、『親である以上〜だ』というあるべき姿の意味にはならない。",
+        "「親なりに」は『親なりのやり方で、親相応に』と限られた範囲での努力を表し、『親である以上当然そうする』という含みを持たない。"
       ],
-      "hiragana_full": "けいえいしゃたるものは、じゅうぎょういんのふくしをこうりょすべきである。",
+      "hiragana_full": "おやたるもの、このまえではかんたんによわねをはけない。",
       "audio_alternatives": [
         {
-          "kanji": "経営者として、従業員の福祉を考慮しなければならない。",
-          "hiragana_full": "けいえいしゃとして、じゅうぎょういんのふくしをこうりょしなければならない。"
+          "kanji": "親たる者、子の前でそう簡単に弱音は吐けないものだ。",
+          "hiragana_full": "おやたるもの、このまえでそうかんたんによわねははけないものだ。"
         },
         {
-          "kanji": "経営者は従業員の福祉を考慮する義務がある。",
-          "hiragana_full": "けいえいしゃはじゅうぎょういんのふくしをこうりょするぎむがある。"
+          "kanji": "親である以上、子の前で軽々しく弱音は吐けない。",
+          "hiragana_full": "おやであるいじょう、このまえでかるがるしくよわねははけない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "親",
+          "reading": "おや",
+          "meaning": "parent"
+        },
+        {
+          "word": "弱音",
+          "reading": "よわね",
+          "meaning": "complaint; whining"
+        },
+        {
+          "word": "吐く",
+          "reading": "はく",
+          "meaning": "to utter; to spit out"
+        }
+      ]
     },
     {
       "id": "n1_027_10",
-      "example_sentence": "医学研究者たる者は、倫理的配慮を持たねばならない。",
-      "translation": "A person serving as a medical researcher must have ethical consideration.",
-      "blank_target": "たる",
+      "example_sentence": "プロたるもの、結果が全てで、言い訳は許されない。",
+      "translation": "One who is a professional — results are everything, and excuses aren't allowed.",
+      "blank_target": "たるもの",
       "wrong_choices": [
-        "である",
-        "としての",
-        "のような"
+        "ともあろうもの",
+        "ならではの",
+        "なりに"
       ],
       "wrong_choice_explanations": [
-        "である is a simple copula meaning 'is' but doesn't convey the formal professional responsibility that たる implies.",
-        "としての means 'as/in the capacity of' but requires different sentence structure and lacks the formal dignity of たる.",
-        "のような means 'like a' and would describe someone resembling a medical researcher; たる asserts the actual professional standing from which the ethical obligation flows."
+        "「プロともあろうもの」は『プロほどの者が（意外にも良くない振る舞いをする）』という驚き・非難を導き、プロのあるべき姿を述べるこの文には合わない。",
+        "「プロならではの」は『プロだけに見られる、プロ特有の』という独自性を表し、後ろに名詞が必要で、『プロである以上〜だ』というあるべき姿の意味にはならない。",
+        "「プロなりに」は『プロなりのやり方で、プロ相応に』と限られた範囲での努力を表し、『プロである以上当然そうだ』という含みを持たない。"
       ],
-      "hiragana_full": "いがくけんきゅうしゃたるものは、りんりてきはいりょをもたねばならない。",
+      "hiragana_full": "ぷろたるもの、けっかがすべてで、いいわけはゆるされない。",
       "audio_alternatives": [
         {
-          "kanji": "医学研究者である以上、倫理的配慮を持たなければならない。",
-          "hiragana_full": "いがくけんきゅうしゃであるいじょう、りんりてきはいりょをもたなければならない。"
+          "kanji": "プロたる者、結果が全てであり、言い訳は通用しない。",
+          "hiragana_full": "ぷろたるもの、けっかがすべてであり、いいわけはつうようしない。"
         },
         {
-          "kanji": "医学研究者として、倫理的配慮を持つことが求められる。",
-          "hiragana_full": "いがくけんきゅうしゃとして、りんりてきはいりょをもつことがもとめられる。"
+          "kanji": "プロである以上、いかなる言い訳も許されない。",
+          "hiragana_full": "ぷろであるいじょう、いかなるいいわけもゆるされない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "結果",
+          "reading": "けっか",
+          "meaning": "result"
+        },
+        {
+          "word": "言い訳",
+          "reading": "いいわけ",
+          "meaning": "excuse"
+        },
+        {
+          "word": "許す",
+          "reading": "ゆるす",
+          "meaning": "to allow; to forgive"
+        }
+      ]
     }
   ]
 }

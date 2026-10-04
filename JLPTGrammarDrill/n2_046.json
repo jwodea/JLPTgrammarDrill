@@ -30,7 +30,20 @@
           "hiragana_full": "ゆうめいなさくひんがみんなけっさくであるわけではない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "傑作",
+          "reading": "けっさく",
+          "meaning": "masterpiece"
+        },
+        {
+          "word": "作品",
+          "reading": "さくひん",
+          "meaning": "work"
+        }
+      ]
     },
     {
       "id": "n2_046_2",
@@ -40,12 +53,12 @@
       "wrong_choices": [
         "というものだ",
         "べきではない",
-        "ものではない"
+        "はずだ"
       ],
       "wrong_choice_explanations": [
         "というものだ would affirm the statement, meaning 'that's how it is', but we need the negative to reject this assumption.",
         "べきではない means 'should not', which expresses moral obligation rather than rejecting a logical assumption like というものではない does.",
-        "ものではない alone lacks the と quotative particle, making it grammatically incomplete for this context where we're rejecting a quoted statement."
+        "「はずだ」 asserts the positive expectation that a large number should be good, the opposite of 「というものではない」, which denies that more is necessarily better."
       ],
       "hiragana_full": "かずがおおければよいというものではない。",
       "audio_alternatives": [
@@ -58,7 +71,8 @@
           "hiragana_full": "おおければいいというわけではない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n2_046_3",
@@ -86,38 +100,23 @@
           "hiragana_full": "よいせいせきがあればよいじんせいがほしょうされるというわけではない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "成績",
+          "reading": "せいせき",
+          "meaning": "grades"
+        },
+        {
+          "word": "保証",
+          "reading": "ほしょう",
+          "meaning": "guarantee"
+        }
+      ]
     },
     {
       "id": "n2_046_4",
-      "example_sentence": "高い地位が高い給与を保証するというものではない。",
-      "translation": "It is not necessarily the case that high position guarantees high salary.",
-      "blank_target": "というものではない",
-      "wrong_choices": [
-        "わけがない",
-        "ことではない",
-        "ばかりではない"
-      ],
-      "wrong_choice_explanations": [
-        "わけがない means 'there's no way' and expresses impossibility, but this sentence needs というものではない to reject an assumed logical connection.",
-        "ことではない means 'it's not a matter of', which changes the meaning entirely from rejecting an assumption to discussing what something is about.",
-        "ばかりではない means 'not only' or 'not always', but というものではない is needed to specifically reject the logical assumption being made."
-      ],
-      "hiragana_full": "たかいちいがたかいきゅうよをほしょうするというものではない。",
-      "audio_alternatives": [
-        {
-          "kanji": "高い地位が必ずしも高い給与を保証するとは限らない。",
-          "hiragana_full": "たかいちいがかならずしもたかいきゅうよをほしょうするとはかぎらない。"
-        },
-        {
-          "kanji": "地位が高いからといって給与も高いとは限らない。",
-          "hiragana_full": "ちいがたかいからといってきゅうよもたかいとはかぎらない。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_046_5",
       "example_sentence": "お金があれば幸せになれるというものではない。",
       "translation": "It does not follow that having money makes you happy.",
       "blank_target": "というものではない",
@@ -142,21 +141,22 @@
           "hiragana_full": "おかねがあるからといってしあわせになれるとはかぎらない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
-      "id": "n2_046_6",
+      "id": "n2_046_5",
       "example_sentence": "新しい技術が常に効果的であるというものではない。",
       "translation": "It is not necessarily the case that new technology is always effective.",
       "blank_target": "というものではない",
       "wrong_choices": [
         "に違いない",
-        "ものではない",
+        "はずだ",
         "というわけだ"
       ],
       "wrong_choice_explanations": [
         "に違いない means 'must surely be,' asserting that the technology is certainly effective—the opposite of denying that it is always so.",
-        "ものではない without the quotative という reads as 'is not a (proper) thing,' a normative judgment, rather than rejecting the proposition the way というものではない does.",
+        "「はずだ」 expresses the affirmative expectation that new technology should be effective, contradicting the partial negation 「というものではない」 ('not necessarily effective').",
         "というわけだ means 'so that means / that's why,' drawing an affirmative conclusion, whereas というものではない rejects rather than confirms the claim."
       ],
       "hiragana_full": "あたらしいぎじゅつがつねにこうかてきであるというものではない。",
@@ -170,38 +170,28 @@
           "hiragana_full": "しんぎじゅつがつねにゆうこうであるとはいえない。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_046_7",
-      "example_sentence": "努力すれば必ず報われるというものではない。",
-      "translation": "It does not follow that effort is always rewarded.",
-      "blank_target": "というものではない",
-      "wrong_choices": [
-        "というものだ",
-        "ことにはならない",
-        "わけがない"
-      ],
-      "wrong_choice_explanations": [
-        "というものだ would affirm that effort is always rewarded, but the sentence needs the negative to reject that assumption.",
-        "ことにはならない means 'it doesn't end up that…,' focusing on whether an outcome follows, rather than denying a stated generalization the way というものではない does.",
-        "わけがない means 'there's no way' (flat impossibility), but the sentence doesn't claim effort can never be rewarded—only that reward isn't guaranteed."
-      ],
-      "hiragana_full": "どりょくすればかならずむくわれるというものではない。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
         {
-          "kanji": "努力したからといって必ず報われるわけではない。",
-          "hiragana_full": "どりょくしたからといってかならずむくわれるわけではない。"
+          "word": "技術",
+          "reading": "ぎじゅつ",
+          "meaning": "technology"
         },
         {
-          "kanji": "努力すれば必ず報われるとは限らない。",
-          "hiragana_full": "どりょくすればかならずむくわれるとはかぎらない。"
+          "word": "常に",
+          "reading": "つねに",
+          "meaning": "always"
+        },
+        {
+          "word": "効果的",
+          "reading": "こうかてき",
+          "meaning": "effective"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n2_046_8",
+      "id": "n2_046_6",
       "example_sentence": "価格が高いほど品質がよいというものではない。",
       "translation": "It is not necessarily the case that higher price means better quality.",
       "blank_target": "というものではない",
@@ -226,10 +216,23 @@
           "hiragana_full": "ねだんがたかいほどひんしつがよいとはいえない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "価格",
+          "reading": "かかく",
+          "meaning": "price"
+        },
+        {
+          "word": "品質",
+          "reading": "ひんしつ",
+          "meaning": "quality"
+        }
+      ]
     },
     {
-      "id": "n2_046_9",
+      "id": "n2_046_7",
       "example_sentence": "経験が豊富だからといって、必ず良い結果が出るというものではない。",
       "translation": "Just because someone has a lot of experience, it does not follow that they will necessarily produce good results.",
       "blank_target": "というものではない",
@@ -254,10 +257,18 @@
           "hiragana_full": "けいけんがほうふであるからといって、かならずよいけっかがでるわけではない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "豊富",
+          "reading": "ほうふ",
+          "meaning": "abundant"
+        }
+      ]
     },
     {
-      "id": "n2_046_10",
+      "id": "n2_046_8",
       "example_sentence": "大学を出たからといって、すぐに就職できるというものではない。",
       "translation": "Just because you graduated from university, it does not follow that you can immediately find employment.",
       "blank_target": "というものではない",
@@ -282,7 +293,87 @@
           "hiragana_full": "だいがくをでたからといって、かならずしもすぐにしゅうしょくできるわけではない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "就職",
+          "reading": "しゅうしょく",
+          "meaning": "getting a job"
+        }
+      ]
+    },
+    {
+      "id": "n2_046_9",
+      "example_sentence": "年を取ったからといって保守的になるというものではない。",
+      "translation": "Getting older does not necessarily mean becoming conservative.",
+      "blank_target": "というものではない",
+      "wrong_choices": [
+        "ものだ",
+        "はずではない",
+        "べきものではない"
+      ],
+      "wrong_choice_explanations": [
+        "ものだ affirms that something is natural or expected, opposite to the denial expressed by というものではない.",
+        "はずではない means 'shouldn't be expected to' but doesn't deny natural connections like というものではない does.",
+        "べきものではない expresses moral judgment about what shouldn't be, not denial of natural relationships."
+      ],
+      "hiragana_full": "としをとったからといってほしゅてきになるというものではない。",
+      "audio_alternatives": [
+        {
+          "kanji": "年を重ねたからといって保守的になるわけではない。",
+          "hiragana_full": "としをかさねたからといってほしゅてきになるわけではない。"
+        },
+        {
+          "kanji": "歳を取ったからといって必ずしも保守的になるとは限らない。",
+          "hiragana_full": "さいをとったからといってかならずしもほしゅてきになるとはかぎらない。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "保守的",
+          "reading": "ほしゅてき",
+          "meaning": "conservative"
+        }
+      ]
+    },
+    {
+      "id": "n2_046_10",
+      "example_sentence": "本をたくさん読めば賢くなるというものではない。",
+      "translation": "Reading many books does not necessarily make you smart.",
+      "blank_target": "というものではない",
+      "wrong_choices": [
+        "ものがない",
+        "に決まっている",
+        "べきものではない"
+      ],
+      "wrong_choice_explanations": [
+        "ものがない means 'there is nothing' and doesn't fit the grammatical context of denying logical relationships.",
+        "に決まっている asserts that reading surely makes you smart — the confident affirmation that というものではない denies.",
+        "べきものではない expresses moral judgment about what shouldn't be, not denial of cause-and-effect relationships."
+      ],
+      "hiragana_full": "ほんをたくさんよめばかしこくなるというものではない。",
+      "audio_alternatives": [
+        {
+          "kanji": "本をたくさん読んだからといって賢くなるわけではない。",
+          "hiragana_full": "ほんをたくさんよんだからといってかしこくなるわけではない。"
+        },
+        {
+          "kanji": "たくさん本を読めば必ず賢くなるとは限らない。",
+          "hiragana_full": "たくさんほんをよめばかならずかしこくなるとはかぎらない。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "賢く",
+          "reading": "かしこく",
+          "meaning": "wisely / cleverly"
+        }
+      ]
     }
   ]
 }

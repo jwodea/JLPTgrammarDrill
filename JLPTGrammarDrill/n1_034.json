@@ -10,12 +10,12 @@
       "translation": "My promotion will be determined depending on how well the presentation goes.",
       "blank_target": "いかんで",
       "wrong_choices": [
-        "によって",
+        "を問わず",
         "に関して",
         "について"
       ],
       "wrong_choice_explanations": [
-        "によって expresses simple causation but lacks the nuanced 'depending on the manner/quality' meaning of いかんで.",
+        "を問わず means 'regardless of'; 「出来を問わず、昇進が決まる」 would mean the promotion is decided irrespective of how the presentation goes — the opposite of いかんで, where the outcome hinges on it.",
         "に関して means 'regarding/concerning' and introduces a topic, not a dependency relationship.",
         "について means 'about/concerning' and indicates a topic of discussion, not conditional dependency."
       ],
@@ -30,7 +30,20 @@
           "hiragana_full": "こんどのぷれぜんてーしょんがうまくいくかどうかで、しょうしんがきまる。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "出来",
+          "reading": "でき",
+          "meaning": "result/performance"
+        },
+        {
+          "word": "昇進",
+          "reading": "しょうしん",
+          "meaning": "promotion"
+        }
+      ]
     },
     {
       "id": "n1_034_2",
@@ -58,7 +71,25 @@
           "hiragana_full": "こうしょうをどうすすめるかによって、けいやくがせいりつするかどうかがきまるだろう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "交渉",
+          "reading": "こうしょう",
+          "meaning": "negotiation"
+        },
+        {
+          "word": "契約",
+          "reading": "けいやく",
+          "meaning": "contract"
+        },
+        {
+          "word": "成立",
+          "reading": "せいりつ",
+          "meaning": "conclusion/reaching (a deal)"
+        }
+      ]
     },
     {
       "id": "n1_034_3",
@@ -86,7 +117,25 @@
           "hiragana_full": "こんかいのせんきょのけっかによっては、くにのしょうらいのほうこうせいがかわるかのうせいがある。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "選挙",
+          "reading": "せんきょ",
+          "meaning": "election"
+        },
+        {
+          "word": "方向性",
+          "reading": "ほうこうせい",
+          "meaning": "direction/orientation"
+        },
+        {
+          "word": "可能性",
+          "reading": "かのうせい",
+          "meaning": "possibility"
+        }
+      ]
     },
     {
       "id": "n1_034_4",
@@ -114,7 +163,25 @@
           "hiragana_full": "このくすりのこうかによって、しゅじゅつがひつようかどうかがはんだんされる。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "効果",
+          "reading": "こうか",
+          "meaning": "effect/efficacy"
+        },
+        {
+          "word": "手術",
+          "reading": "しゅじゅつ",
+          "meaning": "surgery"
+        },
+        {
+          "word": "判断",
+          "reading": "はんだん",
+          "meaning": "judgment/decision"
+        }
+      ]
     },
     {
       "id": "n1_034_5",
@@ -142,7 +209,25 @@
           "hiragana_full": "このかいしゃのそんぞくは、けいえいじんのはんだんいかんにかかっているといってもかごんではない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "経営陣",
+          "reading": "けいえいじん",
+          "meaning": "management/executives"
+        },
+        {
+          "word": "存続",
+          "reading": "そんぞく",
+          "meaning": "survival/continuation"
+        },
+        {
+          "word": "過言",
+          "reading": "かごん",
+          "meaning": "overstatement"
+        }
+      ]
     },
     {
       "id": "n1_034_6",
@@ -170,7 +255,25 @@
           "hiragana_full": "がいこうこうしょうのこんごのてんかいはしゅのうかいだんにおけるごういいかんにかかっている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "外交",
+          "reading": "がいこう",
+          "meaning": "diplomacy"
+        },
+        {
+          "word": "首脳会談",
+          "reading": "しゅのうかいだん",
+          "meaning": "summit meeting"
+        },
+        {
+          "word": "合意",
+          "reading": "ごうい",
+          "meaning": "agreement"
+        }
+      ]
     },
     {
       "id": "n1_034_7",
@@ -198,7 +301,25 @@
           "hiragana_full": "かんきょうかいぜんのせいひはこんご、せいふがどのようなせいじてきけつだんをくだすかにかかっているであろう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "改善",
+          "reading": "かいぜん",
+          "meaning": "improvement"
+        },
+        {
+          "word": "成否",
+          "reading": "せいひ",
+          "meaning": "success or failure"
+        },
+        {
+          "word": "決断",
+          "reading": "けつだん",
+          "meaning": "decision/resolve"
+        }
+      ]
     },
     {
       "id": "n1_034_8",
@@ -226,7 +347,25 @@
           "hiragana_full": "このさくひんのかいしゃくしだいで、ぜんたいのりかいはおおきくことなるであろう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "作品",
+          "reading": "さくひん",
+          "meaning": "work (of art)"
+        },
+        {
+          "word": "解釈",
+          "reading": "かいしゃく",
+          "meaning": "interpretation"
+        },
+        {
+          "word": "異なって",
+          "reading": "ことなって",
+          "meaning": "differing"
+        }
+      ]
     },
     {
       "id": "n1_034_9",
@@ -254,7 +393,25 @@
           "hiragana_full": "こんごのきぎょうせいちょういかんによって、ぎょうかいぜんたいのほうこうせいがけっていされるであろう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "企業",
+          "reading": "きぎょう",
+          "meaning": "company/corporation"
+        },
+        {
+          "word": "業界",
+          "reading": "ぎょうかい",
+          "meaning": "industry"
+        },
+        {
+          "word": "動向",
+          "reading": "どうこう",
+          "meaning": "trend/movement"
+        }
+      ]
     },
     {
       "id": "n1_034_10",
@@ -282,7 +439,25 @@
           "hiragana_full": "こんごえーあいをどのようにきせいするかによって、いりょうのみらいがさゆうされるであろう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "規制",
+          "reading": "きせい",
+          "meaning": "regulation"
+        },
+        {
+          "word": "あり方",
+          "reading": "ありかた",
+          "meaning": "the way it should be"
+        },
+        {
+          "word": "医療",
+          "reading": "いりょう",
+          "meaning": "medical care"
+        }
+      ]
     }
   ]
 }

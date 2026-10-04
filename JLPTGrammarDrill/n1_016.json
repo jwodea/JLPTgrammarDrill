@@ -6,100 +6,16 @@
   "exercises": [
     {
       "id": "n1_016_1",
-      "example_sentence": "結果もさることながら、過程が重要だ。",
-      "translation": "Not only the result but the process is important (even more so).",
-      "blank_target": "もさることながら",
-      "wrong_choices": [
-        "に対して",
-        "はさておき",
-        "にもかかわらず"
-      ],
-      "wrong_choice_explanations": [
-        "に対して sets the result up as a contrast or target ('in contrast to the result'), whereas もさることながら grants the result its due and then adds the process as even more important.",
-        "はさておき means 'setting the result aside,' brushing the first item off, while もさることながら keeps the result in view as significant before highlighting the process.",
-        "にもかかわらず means 'despite the result,' framing a concession, not the 'the result matters, and the process even more so' acknowledgment that もさることながら expresses."
-      ],
-      "hiragana_full": "けっかもさることながら、かていがじゅうようだ。",
-      "audio_alternatives": [
-        {
-          "kanji": "結果だけでなく、過程こそが重要だ。",
-          "hiragana_full": "けっかだけでなく、かていこそがじゅうようだ。"
-        },
-        {
-          "kanji": "結果はもちろん、過程も重要である。",
-          "hiragana_full": "けっかはもちろん、かていもじゅうようである。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n1_016_2",
-      "example_sentence": "彼の学歴もさることながら、その実力こそが評価されるべきだ。",
-      "translation": "His educational background is notable, but his actual ability is what should be evaluated (even more so).",
-      "blank_target": "もさることながら",
-      "wrong_choices": [
-        "を問わず",
-        "はともかく",
-        "について"
-      ],
-      "wrong_choice_explanations": [
-        "を問わず means 'regardless of his background,' dismissing it as irrelevant, whereas もさることながら treats the background as genuinely notable before stressing his ability.",
-        "はともかく means 'leaving his background aside,' setting it apart, while もさることながら keeps it in play as something that of course matters.",
-        "について merely names the background as a topic ('regarding his background'); it lacks the 'this matters, and that even more' ranking that もさることながら builds."
-      ],
-      "hiragana_full": "かれのがくれきもさることながら、そのじつりょくこそがひょうかされるべきだ。",
-      "audio_alternatives": [
-        {
-          "kanji": "彼の学歴は言うまでもなく、その実力こそが評価されるべきだ。",
-          "hiragana_full": "かれのがくれきはいうまでもなく、そのじつりょくこそがひょうかされるべきだ。"
-        },
-        {
-          "kanji": "彼の学歴も大切だが、何より実力こそが評価されるべきだろう。",
-          "hiragana_full": "かれのがくれきもたいせつだが、なによりじつりょくこそがひょうかされるべきだろう。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n1_016_3",
-      "example_sentence": "料理の味もさることながら、店主の人柄に魅力を感じる。",
-      "translation": "The taste of the food is good, but I'm drawn to the owner's personality (even more so).",
-      "blank_target": "もさることながら",
-      "wrong_choices": [
-        "と比べて",
-        "はさておき",
-        "というより"
-      ],
-      "wrong_choice_explanations": [
-        "と比べて makes a straight comparison ('compared with the taste'), whereas もさることながら does not weigh one against the other but grants the taste its due and then adds the personality.",
-        "はさておき brushes the taste aside ('setting the taste aside'), while もさることながら keeps the taste in view as a real draw before emphasizing the personality.",
-        "というより means 'rather than the taste,' replacing the first item, whereas もさることながら affirms the taste and then layers the personality on top."
-      ],
-      "hiragana_full": "りょうりのあじもさることながら、てんしゅのひとがらにみりょくをかんじる。",
-      "audio_alternatives": [
-        {
-          "kanji": "料理の味もそうだが、それ以上に店主の人柄に魅力を感じる。",
-          "hiragana_full": "りょうりのあじもそうだが、それいじょうにてんしゅのひとがらにみりょくをかんじる。"
-        },
-        {
-          "kanji": "料理の美味しさもあるが、何より店主の人柄が魅力的だ。",
-          "hiragana_full": "りょうりのおいしさもあるが、なによりてんしゅのひとがらがみりょくてきだ。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n1_016_4",
       "example_sentence": "この小説の文体もさることながら、その深いテーマ性が印象的だ。",
       "translation": "The writing style of this novel is noteworthy, but its profound thematic content is impressive (even more so).",
       "blank_target": "もさることながら",
       "wrong_choices": [
-        "と相まって",
+        "をめぐって",
         "において",
         "にしても"
       ],
       "wrong_choice_explanations": [
-        "と相まって means the style and the theme 'work together' to produce one effect, whereas もさることながら ranks them, granting the style its due and then stressing the theme.",
+        "をめぐって means 'concerning / surrounding (a dispute)'; この小説の文体をめぐって would frame the style as a point of controversy, not acknowledge it before highlighting the theme as もさることながら does.",
         "において marks the style as a domain ('in terms of style'); it doesn't build the 'the style is notable, the theme even more so' acknowledgment that もさることながら expresses.",
         "にしても reads as a concessive 'even as for the style,' rather than acknowledging the style as notable and then emphasizing the theme as もさることながら does."
       ],
@@ -114,10 +30,23 @@
           "hiragana_full": "このしょうせつはぶんたいもさることながら、ふかいテーマせいにおいてもいんしょうてきだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "文体",
+          "reading": "ぶんたい",
+          "meaning": "writing style"
+        },
+        {
+          "word": "印象的",
+          "reading": "いんしょうてき",
+          "meaning": "impressive"
+        }
+      ]
     },
     {
-      "id": "n1_016_5",
+      "id": "n1_016_2",
       "example_sentence": "彼女の演技力もさることながら、その努力家な姿勢が素晴らしい。",
       "translation": "Her acting ability is notable, but her hardworking attitude is wonderful (even more so).",
       "blank_target": "もさることながら",
@@ -142,38 +71,28 @@
           "hiragana_full": "かのじょはえんぎりょくもさることながら、どりょくかなしせいがなによりすばらしい。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n1_016_6",
-      "example_sentence": "地政学的な利害もさることながら、人道的責任はより重要である。",
-      "translation": "Geopolitical interests are important, but humanitarian responsibility is even more so.",
-      "blank_target": "もさることながら",
-      "wrong_choices": [
-        "を抜きにして",
-        "を度外視して",
-        "はさておき"
-      ],
-      "wrong_choice_explanations": [
-        "を抜きにして means 'leaving out' and completely dismisses the first item rather than acknowledging it.",
-        "を度外視して means 'disregarding' and ignores the first item rather than acknowledging its importance.",
-        "はさておき means 'setting aside' and dismisses the first item rather than acknowledging it as notable."
-      ],
-      "hiragana_full": "ちせいがくてきなりがいもさることながら、じんどうてきせきにんはよりじゅうようである。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "地政学的な利害は重要だが、人道的責任はさらに重要だ。",
-          "hiragana_full": "ちせいがくてきなりがいはじゅうようだが、じんどうてきせきにんはさらにじゅうようだ。"
+          "word": "演技力",
+          "reading": "えんぎりょく",
+          "meaning": "acting ability"
         },
         {
-          "kanji": "地政学的利害もさりながら、人道的な責任こそより重視すべきである。",
-          "hiragana_full": "ちせいがくてきりがいもさりながら、じんどうてきなせきにんこそよりじゅうしすべきである。"
+          "word": "努力家",
+          "reading": "どりょくか",
+          "meaning": "hard worker"
+        },
+        {
+          "word": "姿勢",
+          "reading": "しせい",
+          "meaning": "attitude; stance"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n1_016_7",
+      "id": "n1_016_3",
       "example_sentence": "森林破壊の深刻さもさることながら、海洋汚染もまた急速に悪化している。",
       "translation": "The severity of deforestation is notable, but marine pollution is also rapidly worsening (equally concerning).",
       "blank_target": "もさることながら",
@@ -198,10 +117,28 @@
           "hiragana_full": "しんりんはかいのしんこくさもさることながら、かいようおせんもまたきゅうげきにあっかしつつある。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "森林破壊",
+          "reading": "しんりんはかい",
+          "meaning": "deforestation"
+        },
+        {
+          "word": "海洋汚染",
+          "reading": "かいようおせん",
+          "meaning": "marine pollution"
+        },
+        {
+          "word": "悪化",
+          "reading": "あっか",
+          "meaning": "deterioration"
+        }
+      ]
     },
     {
-      "id": "n1_016_8",
+      "id": "n1_016_4",
       "example_sentence": "その文献の学術的価値もさることながら、文化的重要性もまた高い。",
       "translation": "The academic value of that document is noteworthy, but its cultural importance is also high (equally significant).",
       "blank_target": "もさることながら",
@@ -226,10 +163,28 @@
           "hiragana_full": "そのぶんけんのがくじゅつてきかちはもちろん、ぶんかてきなじゅうようせいもたかくひょうかされる。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "文献",
+          "reading": "ぶんけん",
+          "meaning": "literature; document"
+        },
+        {
+          "word": "学術的",
+          "reading": "がくじゅつてき",
+          "meaning": "academic"
+        },
+        {
+          "word": "重要性",
+          "reading": "じゅうようせい",
+          "meaning": "importance"
+        }
+      ]
     },
     {
-      "id": "n1_016_9",
+      "id": "n1_016_5",
       "example_sentence": "その企業の市場支配力もさることながら、その社会的影響力もまた大きい。",
       "translation": "That company's market dominance is notable, but its social influence is also significant (equally important).",
       "blank_target": "もさることながら",
@@ -254,10 +209,23 @@
           "hiragana_full": "そのきぎょうのしじょうしはいりょくはいうまでもなく、しゃかいてきえいきょうりょくもまたおおきい。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "支配力",
+          "reading": "しはいりょく",
+          "meaning": "dominance; control"
+        },
+        {
+          "word": "影響力",
+          "reading": "えいきょうりょく",
+          "meaning": "influence"
+        }
+      ]
     },
     {
-      "id": "n1_016_10",
+      "id": "n1_016_6",
       "example_sentence": "この技術の革新性もさることながら、その実用性こそが注目すべき点だ。",
       "translation": "The innovativeness of this technology is noteworthy, but its practicality is what we should pay attention to (even more so).",
       "blank_target": "もさることながら",
@@ -282,7 +250,184 @@
           "hiragana_full": "このぎじゅつのかくしんせいもさることながら、そのじつようせいこそがちゃくもくすべきてんである。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "革新性",
+          "reading": "かくしんせい",
+          "meaning": "innovativeness"
+        },
+        {
+          "word": "実用性",
+          "reading": "じつようせい",
+          "meaning": "practicality"
+        }
+      ]
+    },
+    {
+      "id": "n1_016_7",
+      "example_sentence": "歌唱力もさることながら、彼女の表現力は素晴らしい。",
+      "translation": "Not only is her singing ability excellent, but her expressive power is wonderful.",
+      "blank_target": "もさることながら",
+      "wrong_choices": [
+        "については",
+        "によって",
+        "に対して"
+      ],
+      "wrong_choice_explanations": [
+        "については means 'about/concerning' and would make the sentence about singing ability rather than comparing it with expressive power.",
+        "によって marks a means or cause ('by means of singing ability'), which doesn't fit; もさることながら acknowledges the singing before raising her expressiveness above it.",
+        "に対して means 'toward/against' and would create a comparison or opposition that doesn't fit the context of praising both qualities."
+      ],
+      "hiragana_full": "かしょうりょくもさることながら、かのじょのひょうげんりょくはすばらしい。",
+      "audio_alternatives": [
+        {
+          "kanji": "歌唱力はもちろん、彼女の表現力も素晴らしい。",
+          "hiragana_full": "かしょうりょくはもちろん、かのじょのひょうげんりょくもすばらしい。"
+        },
+        {
+          "kanji": "歌唱力だけでなく、彼女の表現力も素晴らしい。",
+          "hiragana_full": "かしょうりょくだけでなく、かのじょのひょうげんりょくもすばらしい。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "歌唱力",
+          "reading": "かしょうりょく",
+          "meaning": "singing ability"
+        },
+        {
+          "word": "表現力",
+          "reading": "ひょうげんりょく",
+          "meaning": "expressiveness"
+        }
+      ]
+    },
+    {
+      "id": "n1_016_8",
+      "example_sentence": "立地もさることながら、建物のデザインが印象的だ。",
+      "translation": "Not only is the location excellent, but the building's design is impressive.",
+      "blank_target": "もさることながら",
+      "wrong_choices": [
+        "について",
+        "に応じて",
+        "における"
+      ],
+      "wrong_choice_explanations": [
+        "について means 'about/regarding' and would make the sentence about the location rather than comparing location and design quality.",
+        "に応じて means 'in accordance with / depending on'; it would make the design vary with the location, which does not fit a statement that the design is impressive.",
+        "における means 'in/at' and doesn't make grammatical sense in this context where we need to connect two praised qualities."
+      ],
+      "hiragana_full": "たちちもさることながら、たてもののでざいんがいんしょうてきだ。",
+      "audio_alternatives": [
+        {
+          "kanji": "立地もさることながら、建物のデザインも印象的だ。",
+          "hiragana_full": "たちちもさることながら、たてもののでざいんもいんしょうてきだ。"
+        },
+        {
+          "kanji": "場所もさることながら、建物のデザインが印象的だ。",
+          "hiragana_full": "ばしょもさることながら、たてもののでざいんがいんしょうてきだ。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "印象的",
+          "reading": "いんしょうてき",
+          "meaning": "impressive / striking"
+        }
+      ]
+    },
+    {
+      "id": "n1_016_9",
+      "example_sentence": "経験もさることながら、創造性こそが求められる。",
+      "translation": "Not only is experience valuable, but creativity is what is truly sought after.",
+      "blank_target": "もさることながら",
+      "wrong_choices": [
+        "に反して",
+        "だけでは",
+        "としても"
+      ],
+      "wrong_choice_explanations": [
+        "に反して means 'contrary to' and would set creativity against experience as opposites; もさることながら grants experience its value and then ranks creativity above it.",
+        "だけでは ('with experience alone') needs a predicate such as 足りない or 不十分だ to complete it; 経験だけでは、創造性こそが求められる leaves the clause hanging, whereas もさることながら grants experience its value and then ranks creativity above it.",
+        "としても means 'even as/even if' and creates a hypothetical situation rather than the affirmative acknowledgment that もさることながら provides."
+      ],
+      "hiragana_full": "けいけんもさることながら、そうぞうせいこそがもとめられる。",
+      "audio_alternatives": [
+        {
+          "kanji": "経験も大切だが、何より創造性が求められる。",
+          "hiragana_full": "けいけんもたいせつだが、なによりそうぞうせいがもとめられる。"
+        },
+        {
+          "kanji": "経験はもちろんのこと、創造性こそが必要とされる。",
+          "hiragana_full": "けいけんはもちろんのこと、そうぞうせいこそがひつようとされる。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "創造性",
+          "reading": "そうぞうせい",
+          "meaning": "creativity"
+        }
+      ]
+    },
+    {
+      "id": "n1_016_10",
+      "example_sentence": "その建物の外観もさることながら、内部の設計も見事だ。",
+      "translation": "Not only is that building's exterior impressive, but its interior design is also magnificent.",
+      "blank_target": "もさることながら",
+      "wrong_choices": [
+        "に対して",
+        "を通じて",
+        "によって"
+      ],
+      "wrong_choice_explanations": [
+        "に対して contrasts or targets ('as opposed to the exterior'), which clashes with も in 内部の設計も; もさることながら acknowledges the exterior and adds that the interior is impressive too.",
+        "を通じて means 'through / via'; 外観を通じて would make the exterior a channel to the interior design, not the first impressive item that もさることながら acknowledges.",
+        "によって marks a means, cause or 'depending on'; 外観によって would make the exterior the cause of the interior design being splendid, which makes no sense; もさることながら acknowledges the exterior and adds that the interior is also impressive."
+      ],
+      "hiragana_full": "そのたてもののがいかんもさることながら、ないぶのせっけいもみごとだ。",
+      "audio_alternatives": [
+        {
+          "kanji": "その建物の外観だけでなく、内部の設計も素晴らしい。",
+          "hiragana_full": "そのたてもののがいかんだけでなく、ないぶのせっけいもすばらしい。"
+        },
+        {
+          "kanji": "その建物は外観はもちろん、内部の設計も見事だ。",
+          "hiragana_full": "そのたてものはがいかんはもちろん、ないぶのせっけいもみごとだ。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "外観",
+          "reading": "がいかん",
+          "meaning": "external appearance"
+        },
+        {
+          "word": "内部",
+          "reading": "ないぶ",
+          "meaning": "interior"
+        },
+        {
+          "word": "設計",
+          "reading": "せっけい",
+          "meaning": "design"
+        },
+        {
+          "word": "見事",
+          "reading": "みごと",
+          "meaning": "splendid"
+        }
+      ]
     }
   ]
 }

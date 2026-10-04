@@ -11,12 +11,12 @@
       "blank_target": "ん",
       "wrong_choices": [
         "と",
-        "から",
+        "つもり",
         "ので"
       ],
       "wrong_choice_explanations": [
         "と is a quotation marker or conditional — it doesn't fit here because we need the explanatory んです, not a quote or condition.",
-        "から means 'because' — it doesn't fit here because we're giving an explanation using んです, not stating a reason with から.",
+        "つもり expresses intention or self-belief — 忙しいつもりです would mean 'I intend to be busy' or 'I consider myself busy,' not an explanation of the situation; the explanatory tone needs んです.",
         "ので means 'because/since' — it doesn't fit here because we need the explanatory ending んです, not a reason clause."
       ],
       "hiragana_full": "きょうはいそがしいんです。",
@@ -30,7 +30,15 @@
           "hiragana_full": "きょうはとてもいそがしいです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "忙しい",
+          "reading": "いそがしい",
+          "meaning": "busy"
+        }
+      ]
     },
     {
       "id": "n5_065_2",
@@ -58,7 +66,15 @@
           "hiragana_full": "どうしてこなかったですか。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "来なかった",
+          "reading": "こなかった",
+          "meaning": "didn't come"
+        }
+      ]
     },
     {
       "id": "n5_065_3",
@@ -86,7 +102,20 @@
           "hiragana_full": "いがいたいんです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "お腹",
+          "reading": "おなか",
+          "meaning": "stomach; belly"
+        },
+        {
+          "word": "痛い",
+          "reading": "いたい",
+          "meaning": "painful; hurts"
+        }
+      ]
     },
     {
       "id": "n5_065_4",
@@ -114,7 +143,8 @@
           "hiragana_full": "なにをしていますか。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n5_065_5",
@@ -142,7 +172,20 @@
           "hiragana_full": "でんしゃがおくれたです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "電車",
+          "reading": "でんしゃ",
+          "meaning": "train"
+        },
+        {
+          "word": "遅れた",
+          "reading": "おくれた",
+          "meaning": "was delayed"
+        }
+      ]
     },
     {
       "id": "n5_065_6",
@@ -170,7 +213,8 @@
           "hiragana_full": "どこにいきますか。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n5_065_7",
@@ -198,7 +242,20 @@
           "hiragana_full": "しゅくだいをわすれました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "宿題",
+          "reading": "しゅくだい",
+          "meaning": "homework"
+        },
+        {
+          "word": "忘れた",
+          "reading": "わすれた",
+          "meaning": "forgot"
+        }
+      ]
     },
     {
       "id": "n5_065_8",
@@ -226,7 +283,20 @@
           "hiragana_full": "ぐあいがわるいんです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "気分",
+          "reading": "きぶん",
+          "meaning": "feeling; mood"
+        },
+        {
+          "word": "悪い",
+          "reading": "わるい",
+          "meaning": "bad; unwell"
+        }
+      ]
     },
     {
       "id": "n5_065_9",
@@ -254,7 +324,15 @@
           "hiragana_full": "なぜないていますか。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "泣いている",
+          "reading": "ないている",
+          "meaning": "is crying"
+        }
+      ]
     },
     {
       "id": "n5_065_10",
@@ -282,7 +360,25 @@
           "hiragana_full": "あたまがいたいんですけど、だいじょうぶです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "頭",
+          "reading": "あたま",
+          "meaning": "head"
+        },
+        {
+          "word": "痛い",
+          "reading": "いたい",
+          "meaning": "painful; hurts"
+        },
+        {
+          "word": "大丈夫",
+          "reading": "だいじょうぶ",
+          "meaning": "okay; fine"
+        }
+      ]
     }
   ]
 }

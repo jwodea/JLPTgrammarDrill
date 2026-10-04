@@ -6,35 +6,6 @@
   "exercises": [
     {
       "id": "n2_039_1",
-      "example_sentence": "修復作業が完了し次第、展示を再開します。",
-      "translation": "We will resume exhibitions as soon as restoration work is complete.",
-      "blank_target": "次第",
-      "wrong_choices": [
-        "たら",
-        "てから",
-        "ところで"
-      ],
-      "wrong_choice_explanations": [
-        "たら is a conditional 'if/when' that suggests possibility, but 次第 expresses immediate action upon completion of a definite event.",
-        "てから means 'after doing' and indicates a sequence, but 次第 emphasizes immediate action without delay.",
-        "ところで means 'by the way' or 'incidentally' and is completely unrelated to temporal sequences."
-      ],
-      "hiragana_full": "しゅうふくさぎょうがかんりょうしだい、てんじをさいかいします。",
-      "audio_alternatives": [
-        {
-          "kanji": "修復作業が完了し次第、展示を再開いたします。",
-          "hiragana_full": "しゅうふくさぎょうがかんりょうしだい、てんじをさいかいいたします。"
-        },
-        {
-          "kanji": "修復作業が終わり次第、展示を再開します。",
-          "hiragana_full": "しゅうふくさぎょうがおわりしだい、てんじをさいかいします。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "だい"
-    },
-    {
-      "id": "n2_039_2",
       "example_sentence": "書類の準備ができ次第、審査が始まります。",
       "translation": "The review will begin as soon as the documents are ready.",
       "blank_target": "次第",
@@ -60,10 +31,23 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "しだい"
+      "blank_target_reading": "しだい",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "書類",
+          "reading": "しょるい",
+          "meaning": "documents"
+        },
+        {
+          "word": "審査",
+          "reading": "しんさ",
+          "meaning": "screening/review"
+        }
+      ]
     },
     {
-      "id": "n2_039_3",
+      "id": "n2_039_2",
       "example_sentence": "医師の許可が下り次第、退院できます。",
       "translation": "You can be discharged as soon as the doctor gives permission.",
       "blank_target": "次第",
@@ -89,10 +73,28 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "しだい"
+      "blank_target_reading": "しだい",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "医師",
+          "reading": "いし",
+          "meaning": "doctor"
+        },
+        {
+          "word": "許可",
+          "reading": "きょか",
+          "meaning": "permission"
+        },
+        {
+          "word": "退院",
+          "reading": "たいいん",
+          "meaning": "discharge from hospital"
+        }
+      ]
     },
     {
-      "id": "n2_039_4",
+      "id": "n2_039_3",
       "example_sentence": "審査が完了し次第、合否を通知します。",
       "translation": "We will notify you of the results as soon as the review is complete.",
       "blank_target": "次第",
@@ -118,39 +120,28 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "だい"
-    },
-    {
-      "id": "n2_039_5",
-      "example_sentence": "査読が完了し次第、著者に通知します。",
-      "translation": "We will notify the author as soon as peer review is complete.",
-      "blank_target": "次第",
-      "wrong_choices": [
-        "に対して",
-        "に関して",
-        "にとって"
-      ],
-      "wrong_choice_explanations": [
-        "に対して means 'toward/in response to' for direction or reaction, not temporal immediacy like 次第.",
-        "に関して means 'regarding/concerning' for topics, but 次第 indicates immediate temporal action.",
-        "にとって means 'for/from the perspective of' and expresses viewpoints, not temporal sequences like 次第."
-      ],
-      "hiragana_full": "さどくがかんりょうしだい、ちょしゃにつうちします。",
-      "audio_alternatives": [
+      "blank_target_reading": "だい",
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "査読が終わり次第、著者に連絡します。",
-          "hiragana_full": "さどくがおわりしだい、ちょしゃにれんらくします。"
+          "word": "合否",
+          "reading": "ごうひ",
+          "meaning": "pass/fail result"
         },
         {
-          "kanji": "査読が完了したら、著者に通知します。",
-          "hiragana_full": "さどくがかんりょうしたら、ちょしゃにつうちします。"
+          "word": "通知",
+          "reading": "つうち",
+          "meaning": "notification"
+        },
+        {
+          "word": "審査",
+          "reading": "しんさ",
+          "meaning": "review"
         }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "だい"
+      ]
     },
     {
-      "id": "n2_039_6",
+      "id": "n2_039_4",
       "example_sentence": "会議が終了し次第、報告書を作成します。",
       "translation": "I will create the report as soon as the meeting ends.",
       "blank_target": "次第",
@@ -176,10 +167,28 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "だい"
+      "blank_target_reading": "だい",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "終了",
+          "reading": "しゅうりょう",
+          "meaning": "ending"
+        },
+        {
+          "word": "報告書",
+          "reading": "ほうこくしょ",
+          "meaning": "report"
+        },
+        {
+          "word": "作成",
+          "reading": "さくせい",
+          "meaning": "drafting"
+        }
+      ]
     },
     {
-      "id": "n2_039_7",
+      "id": "n2_039_5",
       "example_sentence": "材料が届き次第、製造を開始します。",
       "translation": "We will start manufacturing as soon as the materials arrive.",
       "blank_target": "次第",
@@ -205,10 +214,28 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "しだい"
+      "blank_target_reading": "しだい",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "材料",
+          "reading": "ざいりょう",
+          "meaning": "materials"
+        },
+        {
+          "word": "製造",
+          "reading": "せいぞう",
+          "meaning": "manufacturing"
+        },
+        {
+          "word": "開始",
+          "reading": "かいし",
+          "meaning": "start"
+        }
+      ]
     },
     {
-      "id": "n2_039_8",
+      "id": "n2_039_6",
       "example_sentence": "結果が判明し次第、お知らせします。",
       "translation": "We will inform you as soon as the results become clear.",
       "blank_target": "次第",
@@ -234,10 +261,18 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "だい"
+      "blank_target_reading": "だい",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "判明",
+          "reading": "はんめい",
+          "meaning": "becoming clear"
+        }
+      ]
     },
     {
-      "id": "n2_039_9",
+      "id": "n2_039_7",
       "example_sentence": "承認が得られ次第、プロジェクトを開始します。",
       "translation": "We will start the project as soon as we get approval.",
       "blank_target": "次第",
@@ -263,10 +298,23 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "しだい"
+      "blank_target_reading": "しだい",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "承認",
+          "reading": "しょうにん",
+          "meaning": "approval"
+        },
+        {
+          "word": "開始",
+          "reading": "かいし",
+          "meaning": "start"
+        }
+      ]
     },
     {
-      "id": "n2_039_10",
+      "id": "n2_039_8",
       "example_sentence": "システムの復旧が完了し次第、サービスを再開いたします。",
       "translation": "We will resume service as soon as system recovery is complete.",
       "blank_target": "次第",
@@ -292,7 +340,109 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "だい"
+      "blank_target_reading": "だい",
+      "register": "formal",
+      "vocab": [
+        {
+          "word": "復旧",
+          "reading": "ふっきゅう",
+          "meaning": "recovery/restoration"
+        },
+        {
+          "word": "完了",
+          "reading": "かんりょう",
+          "meaning": "completion"
+        },
+        {
+          "word": "再開",
+          "reading": "さいかい",
+          "meaning": "resumption"
+        }
+      ]
+    },
+    {
+      "id": "n2_039_9",
+      "example_sentence": "確認でき次第、返信します。",
+      "translation": "I will reply as soon as I can confirm.",
+      "blank_target": "次第",
+      "wrong_choices": [
+        "ただけ",
+        "たまま",
+        "たきり"
+      ],
+      "wrong_choice_explanations": [
+        "〜ただけ means 'only did / merely did' and emphasizes limitation, not the immediate follow-up action that 〜次第 conveys.",
+        "〜たまま means 'leaving something as it is / in an unchanged state' and doesn't express acting as soon as something is done.",
+        "〜たきり means 'did X and nothing since' and stresses a state continuing from a past point, not the immediacy of 〜次第."
+      ],
+      "hiragana_full": "かくにんできしだい、へんしんします。",
+      "audio_alternatives": [
+        {
+          "kanji": "確認し次第、返信します。",
+          "hiragana_full": "かくにんししだい、へんしんします。"
+        },
+        {
+          "kanji": "確認できたらすぐに、返信します。",
+          "hiragana_full": "かくにんできたらすぐに、へんしんします。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "しだい",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "確認",
+          "reading": "かくにん",
+          "meaning": "confirmation"
+        },
+        {
+          "word": "返信",
+          "reading": "へんしん",
+          "meaning": "reply"
+        }
+      ]
+    },
+    {
+      "id": "n2_039_10",
+      "example_sentence": "審査が通り次第、契約書を送ります。",
+      "translation": "I will send the contract as soon as the screening passes.",
+      "blank_target": "次第",
+      "wrong_choices": [
+        "以上",
+        "からには",
+        "上で"
+      ],
+      "wrong_choice_explanations": [
+        "〜以上 means 'since/now that' and expresses consequence based on established facts, not immediate future action.",
+        "〜からには means 'since/now that' and emphasizes obligation or determination, not the immediacy of 〜次第.",
+        "〜上で means 'after doing/upon' and is more formal, but doesn't convey the same immediacy as 〜次第."
+      ],
+      "hiragana_full": "しんさがとおりしだい、けいやくしょをおくります。",
+      "audio_alternatives": [
+        {
+          "kanji": "審査が通ったら、すぐに契約書を送ります。",
+          "hiragana_full": "しんさがとおったら、すぐにけいやくしょをおくります。"
+        },
+        {
+          "kanji": "審査が通り次第、契約書をお送りします。",
+          "hiragana_full": "しんさがとおりしだい、けいやくしょをおおくりします。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "しだい",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "審査",
+          "reading": "しんさ",
+          "meaning": "screening; review"
+        },
+        {
+          "word": "契約書",
+          "reading": "けいやくしょ",
+          "meaning": "contract (document)"
+        }
+      ]
     }
   ]
 }

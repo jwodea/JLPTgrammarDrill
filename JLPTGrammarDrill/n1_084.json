@@ -10,12 +10,12 @@
       "translation": "I thought about writing the promised letter, but ended up not writing it.",
       "blank_target": "ずじまい",
       "wrong_choices": [
-        "ないまま",
+        "ないつもり",
         "ことなく",
         "わけにはいかない"
       ],
       "wrong_choice_explanations": [
-        "ないまま means 'without doing' but doesn't express the sense of ending up in an undesired state that ずじまい conveys.",
+        "ないつもり means 'intend not to do it,' a deliberate prior intention that both clashes with 書こうと思った ('thought about writing') and differs from ずじまい, where one means to act but never gets around to it.",
         "ことなく means 'without doing' but lacks the regretful nuance of ずじまい about something that should have been done.",
         "わけにはいかない means 'cannot do' and expresses impossibility, not the idea of ending up not doing something."
       ],
@@ -30,7 +30,8 @@
           "hiragana_full": "やくそくのてがみをかこうとおもったけれど、けっきょくかかないままになってしまった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n1_084_2",
@@ -58,7 +59,20 @@
           "hiragana_full": "あたらしいぷろじぇくとはけいかくだんかいのまま、じっこうされずじまいとなった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "段階",
+          "reading": "だんかい",
+          "meaning": "stage; phase"
+        },
+        {
+          "word": "実行",
+          "reading": "じっこう",
+          "meaning": "execution; carrying out"
+        }
+      ]
     },
     {
       "id": "n1_084_3",
@@ -86,7 +100,8 @@
           "hiragana_full": "なんどもゆうじんにあやまろうとおもったものの、はずかしくてこえをかけずじまいだった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n1_084_4",
@@ -114,7 +129,15 @@
           "hiragana_full": "そつぎょうまえにうちあけようとおもっていたのに、けっきょくゆうきがでずになにもいえなかった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "告白",
+          "reading": "こくはく",
+          "meaning": "confession"
+        }
+      ]
     },
     {
       "id": "n1_084_5",
@@ -142,7 +165,8 @@
           "hiragana_full": "ははのたんじょうびぷれぜんとをじゅんびするつもりだったのに、いそがしくてかいにいきそびれてしまった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n1_084_6",
@@ -170,7 +194,15 @@
           "hiragana_full": "へいわこうしょうはしっぱいにおわり、けっきょくもんだいをかいけつしないままだった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "交渉",
+          "reading": "こうしょう",
+          "meaning": "negotiation"
+        }
+      ]
     },
     {
       "id": "n1_084_7",
@@ -198,7 +230,15 @@
           "hiragana_full": "そのくにはかいかくをすすめるどりょくをすることなく、もんだいがみかいけつのままだった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "改革",
+          "reading": "かいかく",
+          "meaning": "reform"
+        }
+      ]
     },
     {
       "id": "n1_084_8",
@@ -226,7 +266,25 @@
           "hiragana_full": "そのりろんはかんせいにいたらず、むしろむじゅんがあらわになった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "理論",
+          "reading": "りろん",
+          "meaning": "theory"
+        },
+        {
+          "word": "矛盾",
+          "reading": "むじゅん",
+          "meaning": "contradiction"
+        },
+        {
+          "word": "露出",
+          "reading": "ろしゅつ",
+          "meaning": "exposure"
+        }
+      ]
     },
     {
       "id": "n1_084_9",
@@ -254,7 +312,25 @@
           "hiragana_full": "そのかいしゃはかいかくにとりくむどころか、じょうきょうをかいぜんできずじまいだった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "企業",
+          "reading": "きぎょう",
+          "meaning": "company"
+        },
+        {
+          "word": "改革",
+          "reading": "かいかく",
+          "meaning": "reform"
+        },
+        {
+          "word": "改善",
+          "reading": "かいぜん",
+          "meaning": "improvement"
+        }
+      ]
     },
     {
       "id": "n1_084_10",
@@ -282,7 +358,20 @@
           "hiragana_full": "そのいりょうきかんはかいかくにつとめるどころか、もんだいをかいけつできずじまいだった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "医療機関",
+          "reading": "いりょうきかん",
+          "meaning": "medical institution"
+        },
+        {
+          "word": "改革",
+          "reading": "かいかく",
+          "meaning": "reform"
+        }
+      ]
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "n5_019",
-  "pattern": "～より",
-  "meaning": "Than (comparison)",
+  "pattern": "〜より（〜より〜のほうが）",
+  "meaning": "Than (comparison); B より A のほうが = A is more ~ than B",
   "level": "N5",
   "exercises": [
     {
@@ -252,47 +252,6 @@
     },
     {
       "id": "n5_019_7",
-      "example_sentence": "夏より冬のほうが好きです。",
-      "translation": "I like winter better than summer.",
-      "blank_target": "より",
-      "wrong_choices": [
-        "と",
-        "か",
-        "ね"
-      ],
-      "wrong_choice_explanations": [
-        "と means 'and'; 夏と冬のほうが好き groups summer and winter together as both liked, instead of choosing winter over summer.",
-        "か means 'or' (or marks a question); 夏か冬のほうが好き reads as 'I like either summer or winter,' an alternative rather than a comparison.",
-        "ね is a sentence-final particle seeking agreement; it can't sit between two nouns the way より does to mark the comparison standard."
-      ],
-      "hiragana_full": "なつよりふゆのほうがすきです。",
-      "audio_alternatives": [
-        {
-          "kanji": "冬のほうが夏より好きです。",
-          "hiragana_full": "ふゆのほうがなつよりすきです。"
-        },
-        {
-          "kanji": "夏より冬が好きです。",
-          "hiragana_full": "なつよりふゆがすきです。"
-        }
-      ],
-      "audio_eligible": true,
-      "register": "neutral",
-      "vocab": [
-        {
-          "word": "夏",
-          "reading": "なつ",
-          "meaning": "summer"
-        },
-        {
-          "word": "冬",
-          "reading": "ふゆ",
-          "meaning": "winter"
-        }
-      ]
-    },
-    {
-      "id": "n5_019_8",
       "example_sentence": "漢字よりひらがなのほうが易しいです。",
       "translation": "Hiragana is easier than kanji.",
       "blank_target": "より",
@@ -333,48 +292,7 @@
       ]
     },
     {
-      "id": "n5_019_9",
-      "example_sentence": "車より自転車のほうが環境にいいです。",
-      "translation": "Bicycles are better for the environment than cars.",
-      "blank_target": "より",
-      "wrong_choices": [
-        "でも",
-        "ばかり",
-        "ほど"
-      ],
-      "wrong_choice_explanations": [
-        "でも means 'even/but'; 車でも自転車のほうが would read 'even the car — bicycles are better,' losing the head-to-head comparison.",
-        "ばかり means 'only/nothing but'; 車ばかり自転車のほう makes no comparative sense — it just emphasizes 'cars and cars' as the only thing.",
-        "ほど expresses 'to the extent of' (and typically appears with a negative for comparisons like '〜ほど〜ない'); a plain positive comparison takes より, not ほど."
-      ],
-      "hiragana_full": "くるまよりじてんしゃのほうがかんきょうにいいです。",
-      "audio_alternatives": [
-        {
-          "kanji": "自転車は車より環境にいいです。",
-          "hiragana_full": "じてんしゃはくるまよりかんきょうにいいです。"
-        },
-        {
-          "kanji": "車より自転車のほうが環境にいいと思います。",
-          "hiragana_full": "くるまよりじてんしゃのほうがかんきょうにいいとおもいます。"
-        }
-      ],
-      "audio_eligible": true,
-      "register": "neutral",
-      "vocab": [
-        {
-          "word": "自転車",
-          "reading": "じてんしゃ",
-          "meaning": "bicycle"
-        },
-        {
-          "word": "環境",
-          "reading": "かんきょう",
-          "meaning": "environment"
-        }
-      ]
-    },
-    {
-      "id": "n5_019_10",
+      "id": "n5_019_8",
       "example_sentence": "映画より本のほうが面白かったです。",
       "translation": "The book was more interesting than the movie.",
       "blank_target": "より",
@@ -411,6 +329,78 @@
           "word": "面白かった",
           "reading": "おもしろかった",
           "meaning": "was interesting"
+        }
+      ]
+    },
+    {
+      "id": "n5_019_9",
+      "example_sentence": "朝より夜のほうがにぎやかです。",
+      "translation": "It's livelier at night than in the morning.",
+      "blank_target": "より",
+      "wrong_choices": [
+        "と",
+        "でも",
+        "に"
+      ],
+      "wrong_choice_explanations": [
+        "と means 'and,' so '朝と夜のほうがにぎやか' would lump morning and night together as the lively time. The sentence is contrasting them, picking night as the busier one.",
+        "でも means 'but / even,' so '朝でも夜のほうがにぎやか' would oddly say 'even in the morning, night is livelier' — a sentence about morning that ends up about night.",
+        "に marks a point in time, so '朝に夜のほうがにぎやか' would awkwardly state 'in the morning, night is livelier,' leaving 朝 as a stranded time marker. より is what sets up the comparison."
+      ],
+      "hiragana_full": "あさよりよるのほうがにぎやかです。",
+      "audio_alternatives": [
+        {
+          "kanji": "夜のほうが朝よりにぎやかだ。",
+          "hiragana_full": "よるのほうがあさよりにぎやかだ。"
+        },
+        {
+          "kanji": "この町は夜になると人が多くなります。",
+          "hiragana_full": "このまちはよるになるとひとがおおくなります。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "にぎやか",
+          "reading": "にぎやか",
+          "meaning": "lively, bustling"
+        }
+      ]
+    },
+    {
+      "id": "n5_019_10",
+      "example_sentence": "犬より猫のほうが静かです。",
+      "translation": "Cats are quieter than dogs.",
+      "blank_target": "より",
+      "wrong_choices": [
+        "と",
+        "でも",
+        "に"
+      ],
+      "wrong_choice_explanations": [
+        "と means 'and,' so '犬と猫のほうが静か' would lump dogs and cats together as the quiet group. The sentence is comparing them, ranking cats as quieter.",
+        "でも means 'but / even,' so '犬でも猫のほうが静か' would say 'even with dogs in the mix, cats are quieter,' which doesn't form a direct comparison the way より does.",
+        "に marks direction or location, so '犬に猫のほうが静か' would treat 犬 as a target ('to dogs'). The sentence needs より to set dogs as the standard being compared against."
+      ],
+      "hiragana_full": "いぬよりねこのほうがしずかです。",
+      "audio_alternatives": [
+        {
+          "kanji": "猫のほうが犬より静かだ。",
+          "hiragana_full": "ねこのほうがいぬよりしずかだ。"
+        },
+        {
+          "kanji": "犬はよくほえるけれど、猫はあまり鳴きません。",
+          "hiragana_full": "いぬはよくほえるけれど、ねこはあまりなきません。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "静か",
+          "reading": "しずか",
+          "meaning": "quiet"
         }
       ]
     }

@@ -30,7 +30,8 @@
           "hiragana_full": "にほんにいくなら、きょうとがみたいです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n4_017_2",
@@ -58,7 +59,15 @@
           "hiragana_full": "がくせいだったら、がくわりがつかえますよ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "学割",
+          "reading": "がくわり",
+          "meaning": "student discount"
+        }
+      ]
     },
     {
       "id": "n4_017_3",
@@ -68,12 +77,12 @@
       "wrong_choices": [
         "たら",
         "ても",
-        "から"
+        "のに"
       ],
       "wrong_choice_explanations": [
         "たら would need the form なかったら and frames it as 'once it turns out we have no time'; なら responds to the present supposition of being short on time, which fits proposing a taxi now.",
         "ても is 'even if' (form なくても): 'even without time, let's take a taxi' makes no sense as a reason; なら gives the condition under which the taxi is the solution.",
-        "から means 'because' and states it as a fact ('since we have no time'); the sentence proposes the taxi as a response to a supposed condition, which is なら's role, not a stated cause."
+        "のに means 'even though' and sets up a contradiction (時間がないのに = 'even though we have no time'); but being short on time is exactly why the taxi is proposed, not a contrast to it — the supposition 'if we have no time' is expressed by なら."
       ],
       "hiragana_full": "じかんがないなら、たくしーでいきましょう。",
       "audio_alternatives": [
@@ -86,7 +95,8 @@
           "hiragana_full": "じかんがないから、たくしーでいきましょう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n4_017_4",
@@ -114,7 +124,8 @@
           "hiragana_full": "りょうりがすきなひとには、このほんがおすすめです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n4_017_5",
@@ -122,12 +133,12 @@
       "translation": "If it's him, he'll surely help us.",
       "blank_target": "なら",
       "wrong_choices": [
-        "だと",
+        "なのに",
         "でも",
         "から"
       ],
       "wrong_choice_explanations": [
-        "だと just states 'in his case' as a neutral automatic outcome; なら singles him out as the basis for confidence ('if it's him, of all people'), which is the trust this sentence expresses.",
+        "なのに means 'even though it's him' and expects a letdown to follow — 彼なのに…助けてくれる would cast his helping as surprising; the sentence instead grounds its confidence in it being him, and that supposition ('if it's him') is なら.",
         "でも is 'even him' — a concession ('even he would help') implying surprise; the sentence voices confidence, not surprise, so なら fits.",
         "から means 'because it's him,' stating it as a settled reason; なら supposes the case ('if it's him'), which is what carries the confident prediction."
       ],
@@ -142,7 +153,8 @@
           "hiragana_full": "かれなら、きっとたすけてくれるはずです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n4_017_6",
@@ -170,7 +182,15 @@
           "hiragana_full": "いそがしいなら、てつだえませんが、じかんができたられんらくします。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "連絡",
+          "reading": "れんらく",
+          "meaning": "contact; getting in touch"
+        }
+      ]
     },
     {
       "id": "n4_017_7",
@@ -198,7 +218,8 @@
           "hiragana_full": "あしたあめがふれば、ぴくにっくはちゅうしにしましょう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n4_017_8",
@@ -226,7 +247,8 @@
           "hiragana_full": "わからないことは、なんでもきいてください。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n4_017_9",
@@ -234,12 +256,12 @@
       "translation": "If it's the next holiday, I plan to return to my hometown.",
       "blank_target": "なら",
       "wrong_choices": [
-        "には",
+        "までに",
         "でも",
         "なのに"
       ],
       "wrong_choice_explanations": [
-        "には marks a time ('on the next holiday'), simply stating when, not setting up the supposition ('if it's the next holiday, then…') that なら gives the plan.",
+        "までに means 'by (no later than)' — 今度の休みまでに would mean getting back home before the holiday arrives; the sentence takes the holiday itself as the supposed occasion ('if it's the next holiday'), which is なら's role.",
         "でも is 'even ~' — 'even on the next holiday' is a concession; なら frames the holiday as the condition under which the plan holds.",
         "なのに means 'even though it's the next holiday,' expecting a contrast; there's none here, just a condition, so なら fits."
       ],
@@ -254,7 +276,15 @@
           "hiragana_full": "こんどのやすみに、じっかへかえるつもりです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "実家",
+          "reading": "じっか",
+          "meaning": "parents' home; family home"
+        }
+      ]
     },
     {
       "id": "n4_017_10",
@@ -282,7 +312,8 @@
           "hiragana_full": "ぱーてぃーなら、なにかおてつだいしましょうか。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     }
   ]
 }

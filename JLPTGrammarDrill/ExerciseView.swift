@@ -84,7 +84,7 @@ struct ExerciseView: View {
                 options: .regularExpression
             )
         }
-        return item.exampleSentence.replacingOccurrences(of: item.blankTarget, with: blank)
+        return item.blanked(with: blank)
     }
 
     private var filledSentence: String {
@@ -419,8 +419,17 @@ struct ExerciseView: View {
             let newStreak = (streaks[item.grammarId] ?? 0) + 1
             streaks[item.grammarId] = newStreak
             let hasFailed = failedPatterns.contains(item.grammarId)
-            // First-try correct: immediately complete. After a mistake: need requiredStreak in a row.
-            if !hasFailed || newStreak >= requiredStreak(for: item.grammarId) {
+            let isNewPattern = newPatternIds.contains(item.grammarId)
+            // Review patterns: first-try correct completes immediately; after a mistake
+            // they need requiredStreak in a row. New patterns always need the full
+            // requiredStreak of passes before they're dismissed this session.
+            if isNewPattern || hasFailed {
+                if newStreak >= requiredStreak(for: item.grammarId) {
+                    completedPatterns.insert(item.grammarId)
+                } else if isNewPattern {
+                    ensureUpcomingExercise(for: item)
+                }
+            } else {
                 completedPatterns.insert(item.grammarId)
             }
         } else {
@@ -465,6 +474,19 @@ struct ExerciseView: View {
         withAnimation(.easeInOut(duration: 0.2)) {
             showExplanation = true
         }
+    }
+
+    /// Guarantee an incomplete new pattern has at least one more question queued,
+    /// so it can always reach its required streak even when the session builder
+    /// queued fewer sentences than needed (e.g. a pattern with a tiny pool).
+    private func ensureUpcomingExercise(for item: SessionExercise) {
+        guard !queue.dropFirst().contains(where: { $0.grammarId == item.grammarId }) else { return }
+        let alternatives = (exercisePool[item.grammarId] ?? []).filter { $0.id != item.id }
+        let next = alternatives.randomElement() ?? item
+        // Same minimum gap as the retry path so the pattern isn't re-tested
+        // immediately after its answer was just shown.
+        let pos = min(4, queue.count)
+        queue.insert(next, at: pos)
     }
 
     // MARK: - Navigation
@@ -663,7 +685,13 @@ private struct PatternIntroCard: View {
             filled = exercise.exampleSentence
         }
         var attributed = AttributedString(filled)
-        if let range = attributed.range(of: exercise.blankTarget) {
+        var highlight = attributed.range(of: exercise.blankTarget)
+        if filled == exercise.exampleSentence, let r = exercise.blankRange {
+            let lower = AttributedString.Index(r.lowerBound, within: attributed)
+            let upper = AttributedString.Index(r.upperBound, within: attributed)
+            if let lower, let upper { highlight = lower..<upper }
+        }
+        if let range = highlight {
             attributed[range].foregroundColor = .accentColor
             attributed[range].font = .system(size: scaled(18), weight: .bold)
         }

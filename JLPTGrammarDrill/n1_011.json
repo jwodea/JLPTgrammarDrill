@@ -1,7 +1,7 @@
 {
   "id": "n1_011",
-  "pattern": "〜べからず",
-  "meaning": "must not / shall not (prohibitive, literary)",
+  "pattern": "〜べからず／べからざる",
+  "meaning": "must not / shall not (prohibitive, literary); (attributive べからざる) that must not be ~ / indispensable",
   "level": "N1",
   "exercises": [
     {
@@ -10,13 +10,13 @@
       "translation": "One must not lie.",
       "blank_target": "べからず",
       "wrong_choices": [
+        "べく",
         "べからざる",
-        "まい",
         "ことだ"
       ],
       "wrong_choice_explanations": [
-        "べからざる is the attributive form used to modify nouns (e.g. べからざる行為), so it cannot close a sentence as べからず does here.",
-        "まい expresses the speaker's own negative volition ('I won't lie') or a negative guess, not an external prohibition imposed on the reader.",
+        "べく is the continuative form meaning 'in order to ~'; it links to a following clause and cannot close the sentence as a prohibition the way べからず does.",
+        "べからざる is the attributive form and must modify a following noun (許すべからざる行為); it cannot end the sentence, whereas the sentence-final prohibition is べからず.",
         "ことだ is a positive admonition ('the thing to do is to lie') — opposite polarity from the prohibition required here."
       ],
       "hiragana_full": "うそをつくべからず。",
@@ -30,94 +30,18 @@
           "hiragana_full": "うそをついてはいけません。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "嘘",
+          "reading": "うそ",
+          "meaning": "lie"
+        }
+      ]
     },
     {
       "id": "n1_011_2",
-      "example_sentence": "患者の知る権利を軽視すべからず。",
-      "translation": "One must not neglect patients' right to know.",
-      "blank_target": "べからず",
-      "wrong_choices": [
-        "できない",
-        "べきだ",
-        "わけがない"
-      ],
-      "wrong_choice_explanations": [
-        "できない expresses inability ('cannot neglect'), not the imposed prohibition the medical-ethics context requires.",
-        "べきだ is positive obligation ('one should neglect') — opposite polarity from the prohibition required here.",
-        "わけがない expresses impossibility ('there's no way one would neglect'), asserting the action won't happen rather than forbidding it."
-      ],
-      "hiragana_full": "かんじゃのしるけんりをけいしすべからず。",
-      "audio_alternatives": [
-        {
-          "kanji": "患者の知る権利を軽んじるべからず。",
-          "hiragana_full": "かんじゃのしるけんりをかろんじるべからず。"
-        },
-        {
-          "kanji": "患者の知る権利をないがしろにすべからず。",
-          "hiragana_full": "かんじゃのしるけんりをないがしろにすべからず。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n1_011_3",
-      "example_sentence": "国際条約に署名した国は、その義務を破るべからず。",
-      "translation": "Nations that have signed international treaties must not violate their obligations.",
-      "blank_target": "べからず",
-      "wrong_choices": [
-        "わけにはいかない",
-        "ばかりだ",
-        "はずがない"
-      ],
-      "wrong_choice_explanations": [
-        "わけにはいかない expresses inability driven by personal circumstances or duty ('I can't bring myself to violate'), not an authoritative external prohibition.",
-        "ばかりだ means 'do nothing but / keep on' — describes ongoing action ('keeps violating'), not a ban on doing it.",
-        "はずがない expresses impossibility ('there's no way they would violate'), predicting the action won't happen rather than forbidding it."
-      ],
-      "hiragana_full": "こくさいじょうやくにしょめいしたくには、そのぎむをやぶるべからず。",
-      "audio_alternatives": [
-        {
-          "kanji": "国際条約に署名した国は、その義務を違反してはならない。",
-          "hiragana_full": "こくさいじょうやくにしょめいしたくには、そのぎむをいはんしてはならない。"
-        },
-        {
-          "kanji": "国際条約を締結した国は、その義務を果たさなければならない。",
-          "hiragana_full": "こくさいじょうやくをていけつしたくには、そのぎむをはたさなければならない。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n1_011_4",
-      "example_sentence": "学問の道において、偏見を持つべからず。",
-      "translation": "In the path of learning, one must not hold prejudices.",
-      "blank_target": "べからず",
-      "wrong_choices": [
-        "べからざる",
-        "まい",
-        "にちがいない"
-      ],
-      "wrong_choice_explanations": [
-        "べからざる is the attributive form used to modify nouns, so it cannot close the sentence as the predicative べからず does.",
-        "まい expresses negative volition or a negative guess ('won't hold' / 'probably doesn't hold'), not an imposed prohibition.",
-        "にちがいない expresses certainty ('must surely hold prejudices') — opposite polarity, asserting the action rather than forbidding it."
-      ],
-      "hiragana_full": "がくもんのみちにおいて、へんけんをもつべからず。",
-      "audio_alternatives": [
-        {
-          "kanji": "学問の道では、偏見を持ってはならない。",
-          "hiragana_full": "がくもんのみちでは、へんけんをもってはならない。"
-        },
-        {
-          "kanji": "学びの道において、偏見を抱くべきではない。",
-          "hiragana_full": "まなびのみちにおいて、へんけんをいだくべきではない。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n1_011_5",
       "example_sentence": "温室効果ガスの排出削減への努力を怠るべからず。",
       "translation": "One must not neglect efforts toward reducing greenhouse gas emissions.",
       "blank_target": "べからず",
@@ -142,38 +66,28 @@
           "hiragana_full": "おんしつこうかがすのはいしゅつさくげんへのとりくみをおろそかにしてはいけない。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n1_011_6",
-      "example_sentence": "文学の教育的価値を無視すべからず。",
-      "translation": "One must not ignore the educational value of literature.",
-      "blank_target": "べからず",
-      "wrong_choices": [
-        "ばかりだ",
-        "ことだ",
-        "のではない"
-      ],
-      "wrong_choice_explanations": [
-        "ばかりだ means 'do nothing but / keep on ignoring' — describes ongoing action, not a ban on the action.",
-        "ことだ is a positive admonition ('the thing to do is to ignore'), opposite polarity from the prohibition needed here.",
-        "のではない is used for explanation or contrastive denial ('it's not that we ignore...'), not for issuing a prohibition."
-      ],
-      "hiragana_full": "ぶんがくのきょういくてきかちをむしすべからず。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
         {
-          "kanji": "文学の教育的価値を無視してはならない。",
-          "hiragana_full": "ぶんがくのきょういくてきかちをむししてはならない。"
+          "word": "排出",
+          "reading": "はいしゅつ",
+          "meaning": "emission"
         },
         {
-          "kanji": "文学の教育的価値を看過すべきではない。",
-          "hiragana_full": "ぶんがくのきょういくてきかちをかんかすべきではない。"
+          "word": "削減",
+          "reading": "さくげん",
+          "meaning": "reduction"
+        },
+        {
+          "word": "怠る",
+          "reading": "おこたる",
+          "meaning": "to neglect"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n1_011_7",
+      "id": "n1_011_3",
       "example_sentence": "医師は患者の秘密を漏らすべからず。",
       "translation": "Doctors must not divulge patients' secrets.",
       "blank_target": "べからず",
@@ -198,38 +112,28 @@
           "hiragana_full": "いしはかんじゃのひみつをもらすことはゆるされない。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n1_011_8",
-      "example_sentence": "コンプライアンスを軽視すべからず。",
-      "translation": "One must not neglect compliance.",
-      "blank_target": "べからず",
-      "wrong_choices": [
-        "するものか",
-        "ことか",
-        "ものか"
-      ],
-      "wrong_choice_explanations": [
-        "するものか expresses strong refusal or rhetorical denial, not the formal prohibition of べからず.",
-        "ことか is used in rhetorical questions expressing emotion, not for prohibition statements.",
-        "ものか expresses strong denial or refusal, different from the authoritative prohibition べからず."
-      ],
-      "hiragana_full": "コンプライアンスをけいしすべからず。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
         {
-          "kanji": "コンプライアンスを軽視してはならない。",
-          "hiragana_full": "コンプライアンスをけいしてはならない。"
+          "word": "医師",
+          "reading": "いし",
+          "meaning": "doctor"
         },
         {
-          "kanji": "コンプライアンスを軽んじてはいけない。",
-          "hiragana_full": "コンプライアンスをかろんじてはいけない。"
+          "word": "秘密",
+          "reading": "ひみつ",
+          "meaning": "secret"
+        },
+        {
+          "word": "漏らす",
+          "reading": "もらす",
+          "meaning": "to leak"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n1_011_9",
+      "id": "n1_011_4",
       "example_sentence": "人の尊厳を踏みにじるべからず。",
       "translation": "One must not trample on human dignity.",
       "blank_target": "べからず",
@@ -254,10 +158,23 @@
           "hiragana_full": "にんげんのそんげんをおかしてはいけない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "尊厳",
+          "reading": "そんげん",
+          "meaning": "dignity"
+        },
+        {
+          "word": "踏みにじる",
+          "reading": "ふみにじる",
+          "meaning": "to trample on"
+        }
+      ]
     },
     {
-      "id": "n1_011_10",
+      "id": "n1_011_5",
       "example_sentence": "伝統文化の継承を軽んずべからず。",
       "translation": "One must not make light of the inheritance of traditional culture.",
       "blank_target": "べからず",
@@ -282,7 +199,230 @@
           "hiragana_full": "でんとうぶんかのけいしょうをないがしろにすべきではない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "継承",
+          "reading": "けいしょう",
+          "meaning": "succession; inheritance"
+        },
+        {
+          "word": "軽んず",
+          "reading": "かろんず",
+          "meaning": "to make light of"
+        }
+      ]
+    },
+    {
+      "id": "n1_011_6",
+      "example_sentence": "この時代の精神性の理解は、文化研究において欠くべからざる要素である。",
+      "translation": "Understanding the spirituality of this era is an indispensable element in cultural studies.",
+      "blank_target": "べからざる",
+      "wrong_choices": [
+        "てはならない",
+        "ではいけない",
+        "はずではない"
+      ],
+      "wrong_choice_explanations": [
+        "てはならない means 'must not' but is used for prohibiting actions, not describing essential qualities of things.",
+        "ではいけない means 'must not' or 'is not good' but doesn't fit the grammatical structure as a noun modifier.",
+        "はずではない means 'should not be' but expresses expectation rather than indispensability."
+      ],
+      "hiragana_full": "このじだいのせいしんせいのりかいは、ぶんかけんきゅうにおいてかくべからざるようそである。",
+      "audio_alternatives": [
+        {
+          "kanji": "この時代の精神性を理解することは、文化研究において不可欠な要素である。",
+          "hiragana_full": "このじだいのせいしんせいをりかいすることは、ぶんかけんきゅうにおいてふかけつなようそである。"
+        },
+        {
+          "kanji": "この時代の精神性の理解は、文化研究において不可欠の要素だ。",
+          "hiragana_full": "このじだいのせいしんせいのりかいは、ぶんかけんきゅうにおいてふかけつのようそだ。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "精神性",
+          "reading": "せいしんせい",
+          "meaning": "spirituality"
+        },
+        {
+          "word": "要素",
+          "reading": "ようそ",
+          "meaning": "element; factor"
+        }
+      ]
+    },
+    {
+      "id": "n1_011_7",
+      "example_sentence": "学者としての客観性は、研究活動において失うべからざる資質である。",
+      "translation": "Objectivity as a scholar is an indispensable quality in research activities.",
+      "blank_target": "べからざる",
+      "wrong_choices": [
+        "ことはない",
+        "ものではない",
+        "までもない"
+      ],
+      "wrong_choice_explanations": [
+        "ことはない means 'there is no need to' but doesn't express indispensability in the formal literary sense.",
+        "ものではない means 'is not something to' but lacks the emphatic indispensable meaning of べからざる.",
+        "までもない means 'there is no need to go as far as' and doesn't fit the context of describing essential qualities."
+      ],
+      "hiragana_full": "がくしゃとしてのきゃっかんせいは、けんきゅうかつどうにおいてうしなうべからざるししつである。",
+      "audio_alternatives": [
+        {
+          "kanji": "研究活動において、学者としての客観性は欠くべからざる資質だ。",
+          "hiragana_full": "けんきゅうかつどうにおいて、がくしゃとしてのきゃっかんせいはかくべからざるししつだ。"
+        },
+        {
+          "kanji": "学者にとって、客観性は研究活動に不可欠な資質である。",
+          "hiragana_full": "がくしゃにとって、きゃっかんせいはけんきゅうかつどうにふかけつなししつである。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "客観性",
+          "reading": "きゃっかんせい",
+          "meaning": "objectivity"
+        },
+        {
+          "word": "資質",
+          "reading": "ししつ",
+          "meaning": "qualities; disposition"
+        }
+      ]
+    },
+    {
+      "id": "n1_011_8",
+      "example_sentence": "民主主義における自由は、侵すべからざる権利として保護されている。",
+      "translation": "Freedom in democracy is protected as an inviolable right.",
+      "blank_target": "べからざる",
+      "wrong_choices": [
+        "べき",
+        "わけではない",
+        "ものでもない"
+      ],
+      "wrong_choice_explanations": [
+        "「べき」 marks positive obligation ('a right that should be violated'), the opposite of the intended sense; 「べからざる」 says the right must never be violated — it is inviolable.",
+        "わけではない means 'it's not that' and is used for partial negation, not for describing sacred or inviolable qualities.",
+        "ものでもない means 'it's not particularly' and minimizes rather than emphasizes the importance."
+      ],
+      "hiragana_full": "みんしゅしゅぎにおけるじゆうは、おかすべからざるけんりとしてほごされている。",
+      "audio_alternatives": [
+        {
+          "kanji": "民主主義における自由は、侵犯できない権利として守られている。",
+          "hiragana_full": "みんしゅしゅぎにおけるじゆうは、しんぱんできないけんりとしてまもられている。"
+        },
+        {
+          "kanji": "民主主義の自由は、侵すことのできない権利として保護されている。",
+          "hiragana_full": "みんしゅしゅぎのじゆうは、おかすことのできないけんりとしてほごされている。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "民主主義",
+          "reading": "みんしゅしゅぎ",
+          "meaning": "democracy"
+        },
+        {
+          "word": "侵す",
+          "reading": "おかす",
+          "meaning": "to violate; infringe"
+        },
+        {
+          "word": "権利",
+          "reading": "けんり",
+          "meaning": "right"
+        }
+      ]
+    },
+    {
+      "id": "n1_011_9",
+      "example_sentence": "芸術作品の独創性は、創作活動において譲るべからざる価値である。",
+      "translation": "The originality of artistic works is an indispensable value in creative activities.",
+      "blank_target": "べからざる",
+      "wrong_choices": [
+        "というわけでもない",
+        "とは限らない",
+        "ばかりでもない"
+      ],
+      "wrong_choice_explanations": [
+        "というわけでもない means 'it's not necessarily the case' and weakens the assertion rather than emphasizing indispensability.",
+        "とは限らない means 'is not necessarily' and introduces doubt rather than expressing absolute necessity.",
+        "ばかりでもない means 'not only' or 'not necessarily' and doesn't convey the emphatic indispensable meaning."
+      ],
+      "hiragana_full": "げいじゅつさくひんのどくそうせいは、そうさくかつどうにおいてゆずるべからざるかちである。",
+      "audio_alternatives": [
+        {
+          "kanji": "芸術作品の独創性は、創作活動において不可欠な価値である。",
+          "hiragana_full": "げいじゅつさくひんのどくそうせいは、そうさくかつどうにおいてふかけつなかちである。"
+        },
+        {
+          "kanji": "創作活動において、芸術作品の独創性は欠くことのできない価値だ。",
+          "hiragana_full": "そうさくかつどうにおいて、げいじゅつさくひんのどくそうせいはかくことのできないかちだ。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "独創性",
+          "reading": "どくそうせい",
+          "meaning": "originality"
+        },
+        {
+          "word": "譲る",
+          "reading": "ゆずる",
+          "meaning": "to yield; concede"
+        }
+      ]
+    },
+    {
+      "id": "n1_011_10",
+      "example_sentence": "国家の安全保障は、国民の生活において軽視すべからざる問題である。",
+      "translation": "National security is an issue that must not be taken lightly in citizens' lives.",
+      "blank_target": "べからざる",
+      "wrong_choices": [
+        "というほどでもない",
+        "ほどのことはない",
+        "までのことはない"
+      ],
+      "wrong_choice_explanations": [
+        "というほどでもない means 'not to that extent' and minimizes importance rather than emphasizing it.",
+        "ほどのことはない means 'it's not such a big deal' and contradicts the serious nature being expressed.",
+        "までのことはない means 'there's no need to go that far' and weakens the emphasis on importance."
+      ],
+      "hiragana_full": "こっかのあんぜんほしょうは、こくみんのせいかつにおいてけいしすべからざるもんだいである。",
+      "audio_alternatives": [
+        {
+          "kanji": "国家安全保障は、国民の生活の中で軽んじてはならない問題だ。",
+          "hiragana_full": "こっかあんぜんほしょうは、こくみんのせいかつのなかでかろんじてはならないもんだいだ。"
+        },
+        {
+          "kanji": "国家の安全保障は、国民生活において疎かにできない問題である。",
+          "hiragana_full": "こっかのあんぜんほしょうは、こくみんせいかつにおいておろそかにできないもんだいである。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "安全保障",
+          "reading": "あんぜんほしょう",
+          "meaning": "security"
+        },
+        {
+          "word": "軽視",
+          "reading": "けいし",
+          "meaning": "to disregard"
+        }
+      ]
     }
   ]
 }

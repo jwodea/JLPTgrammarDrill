@@ -1,7 +1,7 @@
 {
   "id": "n5_063",
-  "pattern": "～が上手／下手",
-  "meaning": "Good / bad at ~",
+  "pattern": "〜が上手／下手（のが下手）",
+  "meaning": "Good / bad at ~ (Nが上手／下手; Vのが下手)",
   "level": "N5",
   "exercises": [
     {
@@ -30,7 +30,15 @@
           "hiragana_full": "りょうりがじょうずです"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "料理",
+          "reading": "りょうり",
+          "meaning": "cooking"
+        }
+      ]
     },
     {
       "id": "n5_063_2",
@@ -38,12 +46,12 @@
       "translation": "He is bad at English.",
       "blank_target": "が",
       "wrong_choices": [
-        "は",
+        "を",
         "の",
         "と"
       ],
       "wrong_choice_explanations": [
-        "は marks the topic — it doesn't fit here because English is the subject of skill level, while 'he' is already the topic.",
+        "を marks direct objects of action verbs — 下手 is a na-adjective, not a verb, so 英語を下手だ is ungrammatical; the skill takes が.",
         "の shows possession or connection — it doesn't fit here because we're not showing ownership of English, but skill level.",
         "と means 'with' or 'and' — it doesn't fit here because English is not a companion, but the subject of ability."
       ],
@@ -58,105 +66,22 @@
           "hiragana_full": "かれはえいごがじょうずではない"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n5_063_3",
-      "example_sentence": "田中さんはダンスがとても上手です。",
-      "translation": "Tanaka-san is very good at dancing.",
-      "blank_target": "が",
-      "wrong_choices": [
-        "も",
-        "だけ",
-        "から"
-      ],
-      "wrong_choice_explanations": [
-        "も means 'also/too' — it doesn't fit here because we need the subject marker, not an additional item marker.",
-        "だけ means 'only' — it doesn't fit here because we're describing skill level, not limiting to dancing alone.",
-        "から means 'from' — it doesn't fit here because dancing is not a source or starting point, but the subject of skill."
-      ],
-      "hiragana_full": "たなかさんはダンスがとてもじょうずです",
-      "audio_alternatives": [
-        {
-          "kanji": "田中さんはダンスがとても得意です。",
-          "hiragana_full": "たなかさんはダンスがとてもとくいです"
-        },
-        {
-          "kanji": "田中さんはダンスがすごく上手です。",
-          "hiragana_full": "たなかさんはダンスがすごくじょうずです"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n5_063_4",
-      "example_sentence": "子どもたちは歌が上手になった。",
-      "translation": "The children became good at singing.",
-      "blank_target": "が",
-      "wrong_choices": [
-        "を",
-        "に",
-        "へ"
-      ],
-      "wrong_choice_explanations": [
-        "を marks direct objects for actions — it doesn't fit here because singing is the subject of skill improvement, not an object being acted upon.",
-        "に indicates direction or purpose — it doesn't fit here because singing is the subject of ability, not a destination.",
-        "へ shows direction toward something — it doesn't fit here because we're describing skill level, not movement."
-      ],
-      "hiragana_full": "こどもたちはうたがじょうずになった",
-      "audio_alternatives": [
-        {
-          "kanji": "子どもたちは歌が得意になった。",
-          "hiragana_full": "こどもたちはうたがとくいになった"
-        },
-        {
-          "kanji": "子どもたちは歌うのが上手になった。",
-          "hiragana_full": "こどもたちはうたうのがじょうずになった"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n5_063_5",
-      "example_sentence": "山田さんは絵が下手じゃありません。",
-      "translation": "Yamada-san is not bad at drawing.",
-      "blank_target": "が",
-      "wrong_choices": [
-        "で",
-        "と",
-        "まで"
-      ],
-      "wrong_choice_explanations": [
-        "で indicates means or location — it doesn't fit here because drawing is the subject of skill, not a tool or place.",
-        "と means 'with' or 'and' — it doesn't fit here because drawing is not a companion, but the subject of ability.",
-        "まで means 'until' — it doesn't fit here because drawing is not a time or place limit, but the subject of skill."
-      ],
-      "hiragana_full": "やまださんはえがへたじゃありません",
-      "audio_alternatives": [
-        {
-          "kanji": "山田さんは絵が下手ではありません。",
-          "hiragana_full": "やまださんはえがへたではありません"
-        },
-        {
-          "kanji": "山田さんは絵が下手じゃないです。",
-          "hiragana_full": "やまださんはえがへたじゃないです"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n5_063_6",
       "example_sentence": "あの人はピアノが上手ですね。",
       "translation": "That person is good at piano, isn't he/she?",
       "blank_target": "が",
       "wrong_choices": [
         "の",
-        "は",
+        "に",
         "を"
       ],
       "wrong_choice_explanations": [
         "の shows possession or modification — it doesn't fit here because piano is the subject of skill, not something being possessed or modified.",
-        "は marks the topic — it doesn't fit here because piano is the subject of ability, while 'that person' is the topic.",
+        "に marks targets or destinations — ピアノに上手 is ungrammatical; the skill someone is good at takes が.",
         "を marks direct objects for verbs — it doesn't fit here because 上手 is an adjective, not a verb requiring a direct object."
       ],
       "hiragana_full": "あのひとはピアノがじょうずですね",
@@ -170,10 +95,11 @@
           "hiragana_full": "あのかたはピアノがじょうずですね"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
-      "id": "n5_063_7",
+      "id": "n5_063_4",
       "example_sentence": "僕は数学が下手なんです。",
       "translation": "I'm bad at math.",
       "blank_target": "が",
@@ -198,66 +124,18 @@
           "hiragana_full": "ぼくはすうがくがへたです"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n5_063_8",
-      "example_sentence": "姉はテニスが上手です。",
-      "translation": "My older sister is good at tennis.",
-      "blank_target": "が",
-      "wrong_choices": [
-        "も",
-        "だけ",
-        "から"
-      ],
-      "wrong_choice_explanations": [
-        "も means 'also/too' — it doesn't fit here because we need the subject marker to show tennis is the subject of skill.",
-        "だけ means 'only' — it doesn't fit here because we're describing skill level in tennis, not limiting to tennis alone.",
-        "から means 'from' — it doesn't fit here because tennis is not a source or starting point, but the subject of skill."
-      ],
-      "hiragana_full": "あねはてにすがじょうずです",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "姉はテニスが得意です。",
-          "hiragana_full": "あねはてにすがとくいです"
-        },
-        {
-          "kanji": "お姉さんはテニスが上手です。",
-          "hiragana_full": "おねえさんはてにすがじょうずです"
+          "word": "数学",
+          "reading": "すうがく",
+          "meaning": "mathematics"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n5_063_9",
-      "example_sentence": "運転が下手な人は危険です。",
-      "translation": "People who are bad at driving are dangerous.",
-      "blank_target": "が",
-      "wrong_choices": [
-        "を",
-        "に",
-        "へ"
-      ],
-      "wrong_choice_explanations": [
-        "を marks direct objects for actions — it doesn't fit here because driving is the subject of poor skill, not an object being acted upon.",
-        "に indicates direction or targets — it doesn't fit here because driving is the subject of ability, not a destination.",
-        "へ shows direction toward something — it doesn't fit here because we're describing skill level, not movement."
-      ],
-      "hiragana_full": "うんてんがへたなひとはきけんです",
-      "audio_alternatives": [
-        {
-          "kanji": "運転が下手な人は危ない。",
-          "hiragana_full": "うんてんがへたなひとはあぶない"
-        },
-        {
-          "kanji": "運転が上手くない人は危険です。",
-          "hiragana_full": "うんてんがうまくないひとはきけんです"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n5_063_10",
+      "id": "n5_063_5",
       "example_sentence": "何が一番上手ですか。",
       "translation": "What are you best at?",
       "blank_target": "が",
@@ -282,7 +160,193 @@
           "hiragana_full": "どれがいちばんじょうずですか"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "一番",
+          "reading": "いちばん",
+          "meaning": "the most; number one"
+        }
+      ]
+    },
+    {
+      "id": "n5_063_6",
+      "example_sentence": "私は歌うのが下手です。",
+      "translation": "I'm bad at singing.",
+      "blank_target": "のが下手",
+      "wrong_choices": [
+        "のが上手",
+        "のが好き",
+        "のが嫌い"
+      ],
+      "wrong_choice_explanations": [
+        "のが上手 means 'good at doing'; this is the opposite of what the sentence says about the speaker's singing ability.",
+        "のが好き means 'like doing,' which is about preference, not skill — the sentence is specifically about how well the speaker sings.",
+        "のが嫌い means 'dislike doing'; again this is about preference, not ability, so it doesn't fit a statement about skill."
+      ],
+      "hiragana_full": "わたしはうたうのがへたです。",
+      "audio_alternatives": [
+        {
+          "kanji": "私は歌が下手です。",
+          "hiragana_full": "わたしはうたがへたです。"
+        },
+        {
+          "kanji": "歌を歌うのは、あまり上手じゃありません。",
+          "hiragana_full": "うたをうたうのは、あまりじょうずじゃありません。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "のがへた",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "歌う",
+          "reading": "うたう",
+          "meaning": "to sing"
+        }
+      ]
+    },
+    {
+      "id": "n5_063_7",
+      "example_sentence": "母は車を運転するのが下手です。",
+      "translation": "My mom is bad at driving a car.",
+      "blank_target": "のが下手",
+      "wrong_choices": [
+        "のが上手",
+        "のが好き",
+        "のが怖い"
+      ],
+      "wrong_choice_explanations": [
+        "のが上手 means 'good at doing,' the opposite of what the sentence says about her driving ability.",
+        "のが好き means 'like doing,' a statement of preference, not skill.",
+        "のが怖い means 'scary to do' — it would describe her fear of driving, not how skilled she is at it."
+      ],
+      "hiragana_full": "はははくるまをうんてんするのがへたです。",
+      "audio_alternatives": [
+        {
+          "kanji": "母は運転が下手です。",
+          "hiragana_full": "はははうんてんがへたです。"
+        },
+        {
+          "kanji": "母は車の運転があまり上手じゃありません。",
+          "hiragana_full": "はははくるまのうんてんがあまりじょうずじゃありません。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "のがへた",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "運転",
+          "reading": "うんてん",
+          "meaning": "driving"
+        }
+      ]
+    },
+    {
+      "id": "n5_063_8",
+      "example_sentence": "妹は絵をかくのが下手です。",
+      "translation": "My little sister is bad at drawing.",
+      "blank_target": "のが下手",
+      "wrong_choices": [
+        "のが上手",
+        "のが大好き",
+        "のが楽しい"
+      ],
+      "wrong_choice_explanations": [
+        "のが上手 means 'good at doing'; the sentence describes the opposite about her drawing.",
+        "のが大好き means 'love doing,' which is about how much she enjoys it — it doesn't say anything about her skill.",
+        "のが楽しい means 'fun to do'; that's a statement of enjoyment, not a statement about her ability."
+      ],
+      "hiragana_full": "いもうとはえをかくのがへたです。",
+      "audio_alternatives": [
+        {
+          "kanji": "妹は絵が下手です。",
+          "hiragana_full": "いもうとはえがへたです。"
+        },
+        {
+          "kanji": "妹は絵をかくのがあまり上手じゃありません。",
+          "hiragana_full": "いもうとはえをかくのがあまりじょうずじゃありません。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "のがへた",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "絵",
+          "reading": "え",
+          "meaning": "picture, drawing"
+        }
+      ]
+    },
+    {
+      "id": "n5_063_9",
+      "example_sentence": "父は泳ぐのが下手だ。",
+      "translation": "My dad is bad at swimming.",
+      "blank_target": "のが下手",
+      "wrong_choices": [
+        "のが上手",
+        "のが好き",
+        "のが嫌い"
+      ],
+      "wrong_choice_explanations": [
+        "のが上手 means 'good at doing,' which is the opposite of what the sentence says about his swimming.",
+        "のが好き means 'like doing'; that's about preference, not how skilled he is in the water.",
+        "のが嫌い means 'dislike doing'; that talks about his feelings toward swimming, not his actual skill."
+      ],
+      "hiragana_full": "ちちはおよぐのがへただ。",
+      "audio_alternatives": [
+        {
+          "kanji": "父は水泳が下手だ。",
+          "hiragana_full": "ちちはすいえいがへただ。"
+        },
+        {
+          "kanji": "父は泳ぐのがあまり上手じゃない。",
+          "hiragana_full": "ちちはおよぐのがあまりじょうずじゃない。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "のがへた",
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "泳ぐ",
+          "reading": "およぐ",
+          "meaning": "to swim"
+        }
+      ]
+    },
+    {
+      "id": "n5_063_10",
+      "example_sentence": "私は漢字を読むのが下手です。",
+      "translation": "I'm bad at reading kanji.",
+      "blank_target": "のが下手",
+      "wrong_choices": [
+        "のが上手",
+        "が下手",
+        "のを下手"
+      ],
+      "wrong_choice_explanations": [
+        "のが上手 means 'good at doing'; this would say the opposite about the speaker's kanji reading.",
+        "が下手 attaches directly to the verb, but a verb must first be turned into a noun with の (読むのが下手); 読むが下手 is ungrammatical.",
+        "下手 is not a verb and cannot take an object with を; the skill must be marked with が (読むのが下手), so 読むのを下手です is ungrammatical."
+      ],
+      "hiragana_full": "わたしはかんじをよむのがへたです。",
+      "audio_alternatives": [
+        {
+          "kanji": "私は漢字の読み方が下手です。",
+          "hiragana_full": "わたしはかんじのよみかたがへたです。"
+        },
+        {
+          "kanji": "漢字を読むのは、あまり得意ではありません。",
+          "hiragana_full": "かんじをよむのは、あまりとくいではありません。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "のがへた",
+      "register": "neutral"
     }
   ]
 }

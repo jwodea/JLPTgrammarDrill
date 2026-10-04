@@ -6,72 +6,16 @@
   "exercises": [
     {
       "id": "n2_077_1",
-      "example_sentence": "芸術的価値からいうと、この作品は高く評価される。",
-      "translation": "In terms of artistic value, this work is highly regarded.",
-      "blank_target": "からいうと",
-      "wrong_choices": [
-        "からすると",
-        "から見ると",
-        "の点から"
-      ],
-      "wrong_choice_explanations": [
-        "からすると frames the basis as *evidence for an inference* (e.g. 顔色からするとXだ — 'judging from his complexion, X'); this sentence isn't drawing an inference from artistic value, it's making an evaluation viewed *through the lens of* artistic value, which is what からいうと marks.",
-        "から見ると frames a perceptual viewpoint, typically that of a particular observer ('looking at it from a child's perspective'); からいうと instead names the abstract standpoint or criterion of evaluation, not a perceiver's vantage point.",
-        "の点から is closely related and the typical full form is actually の点から言うと — so の点から alone reads as truncated in this position; the complete からいうと directly slots the criterion into the evaluative-standpoint frame the sentence needs."
-      ],
-      "hiragana_full": "げいじゅつてきかちからいうと、このさくひんはたかくひょうかされる。",
-      "audio_alternatives": [
-        {
-          "kanji": "芸術的価値の観点から見ると、この作品は高く評価される。",
-          "hiragana_full": "げいじゅつてきかちのかんてんからみると、このさくひんはたかくひょうかされる。"
-        },
-        {
-          "kanji": "芸術的価値という点では、この作品は高く評価されている。",
-          "hiragana_full": "げいじゅつてきかちというてんでは、このさくひんはたかくひょうかされている。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_077_2",
-      "example_sentence": "経営効率からいうと、この方法は優れている。",
-      "translation": "In terms of operational efficiency, this method is superior.",
-      "blank_target": "からいうと",
-      "wrong_choices": [
-        "によると",
-        "について",
-        "に関して"
-      ],
-      "wrong_choice_explanations": [
-        "によると means 'according to' and indicates information source, but this sentence needs からいうと to express evaluation from the perspective of operational efficiency.",
-        "について means 'about/regarding' and is used to introduce a topic, while からいうと is needed to express judgment from a specific standpoint.",
-        "に関して means 'concerning/regarding' and introduces a topic, but からいうと is required to show evaluation from the perspective of operational efficiency."
-      ],
-      "hiragana_full": "けいえいこうりつからいうと、このほうほうはすぐれている。",
-      "audio_alternatives": [
-        {
-          "kanji": "経営効率の観点から見ると、この方法は優れている。",
-          "hiragana_full": "けいえいこうりつのかんてんからみると、このほうほうはすぐれている。"
-        },
-        {
-          "kanji": "経営効率という点では、この方法が優れている。",
-          "hiragana_full": "けいえいこうりつというてんでは、このほうほうがすぐれている。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_077_3",
       "example_sentence": "技術革新からいうと、このAIは画期的だ。",
       "translation": "In terms of technological innovation, this AI is groundbreaking.",
       "blank_target": "からいうと",
       "wrong_choices": [
-        "の面で",
+        "に反して",
         "として",
         "における"
       ],
       "wrong_choice_explanations": [
-        "の面で means 'in the aspect of' and describes the area being discussed, but からいうと is needed to express evaluation from the standpoint of technological innovation.",
+        "「〜に反して」 means 'contrary to X'; it makes technological innovation something the AI runs against, not the criterion the AI is judged by, which is からいうと.",
         "として means 'as' and indicates role or capacity, while からいうと is required to show judgment from the perspective of technological innovation.",
         "における means 'in/at' and shows location or situation, but this sentence needs からいうと to express evaluation from the technological innovation perspective."
       ],
@@ -86,38 +30,23 @@
           "hiragana_full": "ぎじゅつかくしんというてんでは、このえーあいはかっきてきです。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_077_4",
-      "example_sentence": "利益性からいうと、このビジネスモデルは成功している。",
-      "translation": "In terms of profitability, this business model is successful.",
-      "blank_target": "からいうと",
-      "wrong_choices": [
-        "にしては",
-        "をもとに",
-        "を通じて"
-      ],
-      "wrong_choice_explanations": [
-        "にしては means 'for/considering' and expresses unexpectedness, while からいうと is needed to evaluate from the perspective of profitability.",
-        "をもとに means 'based on' and indicates foundation for action, but this sentence requires からいうと to express judgment from the profitability standpoint.",
-        "を通じて means 'through/via' and shows method or means, while からいうと is needed to express evaluation from the profitability perspective."
-      ],
-      "hiragana_full": "りえきせいからいうと、このびじねすもでるはせいこうしている。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "収益性の観点から見ると、このビジネスモデルは成功している。",
-          "hiragana_full": "しゅうえきせいのかんてんからみると、このびじねすもでるはせいこうしている。"
+          "word": "革新",
+          "reading": "かくしん",
+          "meaning": "innovation"
         },
         {
-          "kanji": "利益性の面では、このビジネスモデルは成功している。",
-          "hiragana_full": "りえきせいのめんでは、このびじねすもでるはせいこうしている。"
+          "word": "画期的",
+          "reading": "かっきてき",
+          "meaning": "groundbreaking"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n2_077_5",
+      "id": "n2_077_2",
       "example_sentence": "学術的厳密性からいうと、その議論は不完全である。",
       "translation": "In terms of academic rigor, the argument is incomplete.",
       "blank_target": "からいうと",
@@ -142,22 +71,40 @@
           "hiragana_full": "がくもんてきなげんみつせいというてんでは、そのぎろんはふかんぜんである。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "学術的",
+          "reading": "がくじゅつてき",
+          "meaning": "academic"
+        },
+        {
+          "word": "厳密性",
+          "reading": "げんみつせい",
+          "meaning": "rigor, strictness"
+        },
+        {
+          "word": "不完全",
+          "reading": "ふかんぜん",
+          "meaning": "incomplete"
+        }
+      ]
     },
     {
-      "id": "n2_077_6",
+      "id": "n2_077_3",
       "example_sentence": "コストからいうと、この案は採用できない。",
       "translation": "In terms of cost, this proposal cannot be adopted.",
       "blank_target": "からいうと",
       "wrong_choices": [
-        "からすると",
-        "から見ると",
-        "の点で"
+        "によって",
+        "をめぐって",
+        "に反して"
       ],
       "wrong_choice_explanations": [
-        "からすると marks evidence-based inference ('judging from the cost figures, we infer X'); the sentence isn't drawing an inference from cost data, it's stating an evaluative verdict viewed *from the standpoint of* cost — that's からいうと's job.",
-        "から見ると frames a perceptual viewpoint, often a person's vantage ('from a buyer's perspective'); からいうと names an abstract evaluative criterion (cost itself), not someone's line of sight.",
-        "の点で is a near-synonym meaning 'in the X aspect' and would also be acceptable, but からいうと more strongly foregrounds the standpoint of evaluation, while の点で simply locates the assessment within the cost dimension."
+        "「〜によって」 means 'depending on / by means of X,' marking cost as a variable the outcome hinges on; からいうと instead states a verdict from the standpoint of cost.",
+        "「〜をめぐって」 means 'over / concerning a disputed matter X,' implying a dispute about cost; the sentence just evaluates the plan in terms of cost, which is からいうと.",
+        "「〜に反して」 means 'contrary to X'; it makes cost something the decision goes against, not the criterion the plan is assessed by."
       ],
       "hiragana_full": "こすとからいうと、このあんはさいようできない。",
       "audio_alternatives": [
@@ -170,94 +117,23 @@
           "hiragana_full": "こすとをかんがえると、このあんはさいようできない。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_077_7",
-      "example_sentence": "安全性からいうと、この製品には問題がある。",
-      "translation": "In terms of safety, there are problems with this product.",
-      "blank_target": "からいうと",
-      "wrong_choices": [
-        "からして",
-        "を考えると",
-        "に基づいて"
-      ],
-      "wrong_choice_explanations": [
-        "からして picks one telling exemplar to ground a sweeping judgment (e.g. 名前からして外国人だ — 'even from the name, you can tell he's a foreigner'); the sentence isn't pointing to safety as a tell-tale clue, it's evaluating the product from the standpoint of safety, which is からいうと's role.",
-        "を考えると marks deliberative reasoning ('when one thinks about it'); the sentence isn't presenting a thought process — it's stating an evaluation from a particular angle, which からいうと frames directly.",
-        "に基づいて marks an objective basis or source document for action ('based on the safety report'); からいうと instead names a perspective for evaluation, without implying the assessment derives from a specific source."
-      ],
-      "hiragana_full": "あんぜんせいからいうと、このせいひんにはもんだいがある。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "安全性の面では、この製品に問題がある。",
-          "hiragana_full": "あんぜんせいのめんでは、このせいひんにもんだいがある。"
+          "word": "案",
+          "reading": "あん",
+          "meaning": "plan, proposal"
         },
         {
-          "kanji": "安全性という点で、この製品には問題がある。",
-          "hiragana_full": "あんぜんせいというてんで、このせいひんにはもんだいがある。"
+          "word": "採用",
+          "reading": "さいよう",
+          "meaning": "adoption"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n2_077_8",
-      "example_sentence": "環境への影響からいうと、この政策は支持される。",
-      "translation": "In terms of environmental impact, this policy is supported.",
-      "blank_target": "からいうと",
-      "wrong_choices": [
-        "と比べて",
-        "に沿って",
-        "と関連して"
-      ],
-      "wrong_choice_explanations": [
-        "と比べて means 'compared to' and shows comparison, while からいうと is needed to express evaluation from the environmental impact perspective.",
-        "に沿って means 'along with/following' and indicates conformity, but this sentence requires からいうと to show judgment from the environmental impact standpoint.",
-        "と関連して means 'in relation to' and shows connection, while からいうと is needed to express evaluation from the environmental impact perspective."
-      ],
-      "hiragana_full": "かんきょうへのえいきょうからいうと、このせいさくはしじされる。",
-      "audio_alternatives": [
-        {
-          "kanji": "環境への影響の観点から、この政策は支持される。",
-          "hiragana_full": "かんきょうへのえいきょうのかんてんから、このせいさくはしじされる。"
-        },
-        {
-          "kanji": "環境への影響を考えると、この政策は支持される。",
-          "hiragana_full": "かんきょうへのえいきょうをかんがえると、このせいさくはしじされる。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_077_9",
-      "example_sentence": "品質からいうと、この商品は他社より劣る。",
-      "translation": "In terms of quality, this product is inferior to others.",
-      "blank_target": "からいうと",
-      "wrong_choices": [
-        "にもかかわらず",
-        "にとって",
-        "によって"
-      ],
-      "wrong_choice_explanations": [
-        "にもかかわらず means 'despite/although' and shows contrast, while からいうと is needed to express evaluation from the quality perspective.",
-        "にとって means 'for/to' and indicates the person affected, but this sentence requires からいうと to show judgment from the quality standpoint.",
-        "によって means 'by/through' and shows means or agent, while からいうと is needed to express evaluation from the quality perspective."
-      ],
-      "hiragana_full": "ひんしつからいうと、このしょうひんはたしゃよりおとる。",
-      "audio_alternatives": [
-        {
-          "kanji": "品質の面では、この商品は他社より劣っている。",
-          "hiragana_full": "ひんしつのめんでは、このしょうひんはたしゃよりおとっている。"
-        },
-        {
-          "kanji": "品質に関しては、この商品は他社に劣る。",
-          "hiragana_full": "ひんしつにかんしては、このしょうひんはたしゃにおとる。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_077_10",
+      "id": "n2_077_4",
       "example_sentence": "将来性からいうと、この分野は有望だ。",
       "translation": "In terms of future prospects, this field is promising.",
       "blank_target": "からいうと",
@@ -282,7 +158,291 @@
           "hiragana_full": "しょうらいせいからかんがえると、このぶんやはゆうぼうです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "将来性",
+          "reading": "しょうらいせい",
+          "meaning": "future potential"
+        },
+        {
+          "word": "分野",
+          "reading": "ぶんや",
+          "meaning": "field, area"
+        },
+        {
+          "word": "有望",
+          "reading": "ゆうぼう",
+          "meaning": "promising"
+        }
+      ]
+    },
+    {
+      "id": "n2_077_5",
+      "example_sentence": "利便性からいうと、その製品は最高だ。",
+      "translation": "In terms of convenience, that product is the best.",
+      "blank_target": "からいうと",
+      "wrong_choices": [
+        "にとって",
+        "のために",
+        "に対して"
+      ],
+      "wrong_choice_explanations": [
+        "にとって marks an agent's perspective ('for X'), but 利便性 (convenience itself) is not an agent — the dimension can't 'have' a viewpoint.",
+        "のために means 'for the sake of / in order to' and marks convenience as a purpose, not the evaluative dimension along which the product is judged, which からいうと expresses.",
+        "に対して means 'toward/against' and would mark the product as the target of an action directed at convenience, not the evaluative standpoint."
+      ],
+      "hiragana_full": "りべんせいからいうと、そのせいひんはさいこうだ。",
+      "audio_alternatives": [
+        {
+          "kanji": "便利さの点では、その製品は一番だ。",
+          "hiragana_full": "べんりさのてんでは、そのせいひんはいちばんだ。"
+        },
+        {
+          "kanji": "利便性という面では、その製品は最高です。",
+          "hiragana_full": "りべんせいというめんでは、そのせいひんはさいこうです。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "利便性",
+          "reading": "りべんせい",
+          "meaning": "convenience"
+        },
+        {
+          "word": "製品",
+          "reading": "せいひん",
+          "meaning": "product"
+        }
+      ]
+    },
+    {
+      "id": "n2_077_6",
+      "example_sentence": "結論からいうと、新製品の発売は来年に延期になりました。",
+      "translation": "To get straight to the conclusion: the launch of the new product has been postponed until next year. (reporting at a meeting)",
+      "blank_target": "からいうと",
+      "wrong_choices": [
+        "にとって",
+        "に反して",
+        "に限って"
+      ],
+      "wrong_choice_explanations": [
+        "にとって marks the party affected by a judgment (会社にとって痛手だ); 結論 is the standpoint the speaker starts from, not someone affected by the postponement.",
+        "に反して means 'contrary to ~' (予想に反して); the conclusion isn't being contradicted — it's the very thing being announced first.",
+        "に限って means 'only ~ / ~ of all things' (今日に限って雨だ); the speaker isn't singling the conclusion out as an exception but presenting the news from it."
+      ],
+      "hiragana_full": "けつろんからいうと、しんせいひんのはつばいはらいねんにえんきになりました。",
+      "audio_alternatives": [
+        {
+          "kanji": "先に結論を申し上げますと、発売は来年に延びました。",
+          "hiragana_full": "さきにけつろんをもうしあげますと、はつばいはらいねんにのびました。"
+        },
+        {
+          "kanji": "結論からいうと、新製品は予定どおりには出せません。",
+          "hiragana_full": "けつろんからいうと、しんせいひんはよていどおりにはだせません。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        {
+          "word": "結論",
+          "reading": "けつろん",
+          "meaning": "conclusion"
+        },
+        {
+          "word": "発売",
+          "reading": "はつばい",
+          "meaning": "release, launch"
+        },
+        {
+          "word": "延期",
+          "reading": "えんき",
+          "meaning": "postponement"
+        }
+      ]
+    },
+    {
+      "id": "n2_077_7",
+      "example_sentence": "私の経験からいうと、この山に初心者が一人で登るのは危険すぎる。",
+      "translation": "Speaking from my experience, it's far too dangerous for a beginner to climb this mountain alone.",
+      "blank_target": "からいうと",
+      "wrong_choices": [
+        "にとって",
+        "にしては",
+        "はもとより"
+      ],
+      "wrong_choice_explanations": [
+        "にとって would make 経験 the party affected ('for my experience'); the experience is the basis the speaker judges from, not something the danger affects.",
+        "にしては means 'for a ~ / considering' and points out a mismatch with an expectation (初心者にしては上手だ); nothing here is being measured against the experience.",
+        "はもとより means 'not to mention ~' and adds items to a list (経験はもとより知識も); no second item is added in this sentence."
+      ],
+      "hiragana_full": "わたしのけいけんからいうと、このやまにしょしんしゃがひとりでのぼるのはきけんすぎる。",
+      "audio_alternatives": [
+        {
+          "kanji": "今までの経験からいうと、ここは初心者向きの山ではない。",
+          "hiragana_full": "いままでのけいけんからいうと、ここはしょしんしゃむきのやまではない。"
+        },
+        {
+          "kanji": "長年登山をしてきた私に言わせれば、一人で登るのはすすめられない。",
+          "hiragana_full": "ながねんとざんをしてきたわたしにいわせれば、ひとりでのぼるのはすすめられない。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "経験",
+          "reading": "けいけん",
+          "meaning": "experience"
+        },
+        {
+          "word": "初心者",
+          "reading": "しょしんしゃ",
+          "meaning": "beginner"
+        },
+        {
+          "word": "危険",
+          "reading": "きけん",
+          "meaning": "dangerous"
+        }
+      ]
+    },
+    {
+      "id": "n2_077_8",
+      "example_sentence": "健康の面からいうと、夜中のラーメンは避けたほうがいい。",
+      "translation": "Health-wise, you'd better avoid late-night ramen.",
+      "blank_target": "からいうと",
+      "wrong_choices": [
+        "にかけては",
+        "を問わず",
+        "に応じて"
+      ],
+      "wrong_choice_explanations": [
+        "にかけては means 'when it comes to ~' and must be followed by praise of an ability (料理にかけては一流だ); the sentence gives cautious advice, not praise.",
+        "を問わず means 'regardless of ~' (年齢を問わず); the sentence is judging precisely from the health angle, not saying that angle doesn't matter.",
+        "に応じて means 'in accordance with ~' and needs something that varies with it (収入に応じて); the advice doesn't change according to the health aspect — it is based on it."
+      ],
+      "hiragana_full": "けんこうのめんからいうと、よなかのらーめんはさけたほうがいい。",
+      "audio_alternatives": [
+        {
+          "kanji": "健康のことを考えると、深夜に食べるラーメンはよくないよ。",
+          "hiragana_full": "けんこうのことをかんがえると、しんやにたべるらーめんはよくないよ。"
+        },
+        {
+          "kanji": "体のためには、夜遅くのラーメンはやめておいたほうがいい。",
+          "hiragana_full": "からだのためには、よるおそくのらーめんはやめておいたほうがいい。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "健康",
+          "reading": "けんこう",
+          "meaning": "health"
+        },
+        {
+          "word": "夜中",
+          "reading": "よなか",
+          "meaning": "middle of the night"
+        },
+        {
+          "word": "避けた",
+          "reading": "さけた",
+          "meaning": "to avoid"
+        }
+      ]
+    },
+    {
+      "id": "n2_077_9",
+      "example_sentence": "味からいうと、この店のパンは有名店のものに負けていないと思うよ。",
+      "translation": "Taste-wise, I think this shop's bread holds its own against the famous bakeries.",
+      "blank_target": "からいうと",
+      "wrong_choices": [
+        "に比べて",
+        "にしては",
+        "に反して"
+      ],
+      "wrong_choice_explanations": [
+        "に比べて compares two things (有名店に比べて); the taste is the criterion of the judgment, not the thing being compared against.",
+        "にしては ('for a ~') needs a mismatch with an expectation (安いパンにしてはおいしい); 味にしては fails because the taste is the standard itself, not the thing being evaluated.",
+        "に反して means 'contrary to ~' and follows expectations or predictions (予想に反して); the taste is not an expectation being overturned."
+      ],
+      "hiragana_full": "あじからいうと、このみせのぱんはゆうめいてんのものにまけていないとおもうよ。",
+      "audio_alternatives": [
+        {
+          "kanji": "味だけなら、ここのパンは有名店にも負けてないと思う。",
+          "hiragana_full": "あじだけなら、ここのぱんはゆうめいてんにもまけてないとおもう。"
+        },
+        {
+          "kanji": "ここのパン、味からいえば有名店レベルだよね。",
+          "hiragana_full": "ここのぱん、あじからいえばゆうめいてんれべるだよね。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "有名店",
+          "reading": "ゆうめいてん",
+          "meaning": "famous shop"
+        },
+        {
+          "word": "負けて",
+          "reading": "まけて",
+          "meaning": "to lose to, be inferior to"
+        }
+      ]
+    },
+    {
+      "id": "n2_077_10",
+      "example_sentence": "彼の実力からいうと、今回の予選落ちは意外な結果だった。",
+      "translation": "Given his ability, getting knocked out in the qualifiers this time was a surprising result.",
+      "blank_target": "からいうと",
+      "wrong_choices": [
+        "に限って",
+        "を問わず",
+        "はもとより"
+      ],
+      "wrong_choice_explanations": [
+        "に限って attaches to a person or thing you insist is an exception (彼に限ってそんなミスはしない); attaching it to 実力 misplaces it — the sentence judges from his ability rather than defending him.",
+        "を問わず means 'regardless of ~' (年齢を問わず); the surprise arises precisely because of his ability, not regardless of it.",
+        "はもとより ('not to mention') needs a list that continues (実力はもとより人気も); no addition follows here."
+      ],
+      "hiragana_full": "かれのじつりょくからいうと、こんかいのよせんおちはいがいなけっかだった。",
+      "audio_alternatives": [
+        {
+          "kanji": "彼の力なら、予選で敗れるとはだれも思わなかった。",
+          "hiragana_full": "かれのちからなら、よせんでやぶれるとはだれもおもわなかった。"
+        },
+        {
+          "kanji": "実力からいえば、彼が決勝に進めないのは不思議だ。",
+          "hiragana_full": "じつりょくからいえば、かれがけっしょうにすすめないのはふしぎだ。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "実力",
+          "reading": "じつりょく",
+          "meaning": "real ability"
+        },
+        {
+          "word": "予選",
+          "reading": "よせん",
+          "meaning": "qualifying round"
+        },
+        {
+          "word": "意外",
+          "reading": "いがい",
+          "meaning": "unexpected"
+        }
+      ]
     }
   ]
 }

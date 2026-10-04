@@ -1,39 +1,298 @@
 {
   "id": "n4_070",
-  "pattern": "～たとき",
-  "meaning": "When ~ happened (past)",
+  "pattern": "〜とき（〜たとき）",
+  "meaning": "When ~ / at the time that ~ (たとき: when ~ happened)",
   "level": "N4",
   "exercises": [
     {
       "id": "n4_070_1",
-      "example_sentence": "日本に来たとき、日本語が全然話せませんでした。",
-      "translation": "When I came to Japan, I couldn't speak Japanese at all.",
-      "blank_target": "た",
+      "example_sentence": "子供のとき、よく公園で遊びました。",
+      "translation": "When I was a child, I often played in the park.",
+      "blank_target": "とき",
       "wrong_choices": [
-        "る",
-        "ている",
-        "て"
+        "ばあい",
+        "まえ",
+        "ごろ"
       ],
       "wrong_choice_explanations": [
-        "る means dictionary form — it doesn't fit here because we need the past tense form to match the past time reference and past tense main clause.",
-        "ている means ongoing action — it doesn't fit here because we need to express a completed past action, not an ongoing state.",
-        "て means te-form — it doesn't fit here because we need the past tense form たとき, not a connective form."
+        "ばあい (子供の場合) frames it as 'in the case of children,' a conditional or categorical statement; the sentence recalls an actual period in the speaker's past, which calls for とき.",
+        "まえ (子供のまえ) means 'in front of the child' or 'before the child' and can't label a life stage; 'when I was a child' needs とき.",
+        "ごろ (子供のごろ) is wrong because ごろ marks an approximate clock time or date (e.g. 3時ごろ) and can't label a life stage; 'when I was a child' needs とき."
       ],
-      "hiragana_full": "にほんにきたとき、にほんごがぜんぜんはなせませんでした。",
+      "hiragana_full": "こどものとき、よくこうえんであそびました。",
       "audio_alternatives": [
         {
-          "kanji": "日本に来たとき、日本語が全然できませんでした。",
-          "hiragana_full": "にほんにきたとき、にほんごがぜんぜんできませんでした。"
+          "kanji": "小さいとき、近所の公園でよく遊んだものだ。",
+          "hiragana_full": "ちいさいとき、きんじょのこうえんでよくあそんだものだ。"
         },
         {
-          "kanji": "日本に来たとき、日本語を全然話せませんでした。",
-          "hiragana_full": "にほんにきたとき、にほんごをぜんぜんはなせませんでした。"
+          "kanji": "幼い頃は、公園で遊ぶのが日課だった。",
+          "hiragana_full": "おさないころは、こうえんであそぶのがにっかだった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "子供",
+          "reading": "こども",
+          "meaning": "child"
+        }
+      ]
     },
     {
       "id": "n4_070_2",
+      "example_sentence": "日本に住んでいたとき、毎日漢字を勉強しました。",
+      "translation": "When I was living in Japan, I studied kanji every day.",
+      "blank_target": "とき",
+      "wrong_choices": [
+        "ごろ",
+        "ばあい",
+        "まえに"
+      ],
+      "wrong_choice_explanations": [
+        "ごろ (住んでいたごろ) is wrong because ごろ marks approximate clock times or dates, not a span of residence; 'when I lived in Japan' needs とき.",
+        "ばあい (住んでいた場合) reads as 'in the case that I had lived in Japan,' a hypothetical; the speaker is recalling a real period, so とき fits.",
+        "まえに (住んでいたまえに) is off in both form and meaning — まえに ('before') attaches to the dictionary form (住む前に) and would mean 'before living there'; the studying happened during residence, marked by とき."
+      ],
+      "hiragana_full": "にほんにすんでいたとき、まいにちかんじをべんきょうしました。",
+      "audio_alternatives": [
+        {
+          "kanji": "日本で暮らしていたとき、漢字を毎日覚えていた。",
+          "hiragana_full": "にほんでくらしていたとき、かんじをまいにちおぼえていた。"
+        },
+        {
+          "kanji": "日本に滞在していた頃は、毎日のように漢字を勉強した。",
+          "hiragana_full": "にほんにたいざいしていたころは、まいにちのようにかんじをべんきょうした。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "住んで",
+          "reading": "すんで",
+          "meaning": "to live"
+        },
+        {
+          "word": "漢字",
+          "reading": "かんじ",
+          "meaning": "kanji"
+        }
+      ]
+    },
+    {
+      "id": "n4_070_3",
+      "example_sentence": "写真を撮るとき、笑ってください。",
+      "translation": "When I take the photo, please smile.",
+      "blank_target": "とき",
+      "wrong_choices": [
+        "まえに",
+        "あとで",
+        "ところ"
+      ],
+      "wrong_choice_explanations": [
+        "まえに (撮る前に) means 'before taking the photo'; but smiling should happen at the moment of the shot, not beforehand, so とき is right.",
+        "あとで (撮ったあとで) means 'after taking it,' when the smile is no longer needed; とき marks the simultaneous instant.",
+        "ところ (撮るところ) means 'just about to take it / on the verge,' describing the photographer's action stage rather than instructing when to smile; とき cleanly sets the timing."
+      ],
+      "hiragana_full": "しゃしんをとるとき、わらってください。",
+      "audio_alternatives": [
+        {
+          "kanji": "シャッターを押すとき、笑顔をお願いします。",
+          "hiragana_full": "しゃったーをおすとき、えがおをおねがいします。"
+        },
+        {
+          "kanji": "撮影の瞬間は、自然な笑顔を作ってください。",
+          "hiragana_full": "さつえいのしゅんかんは、しぜんなえがおをつくってください。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "撮る",
+          "reading": "とる",
+          "meaning": "to take (a photo)"
+        },
+        {
+          "word": "笑って",
+          "reading": "わらって",
+          "meaning": "to smile"
+        }
+      ]
+    },
+    {
+      "id": "n4_070_4",
+      "example_sentence": "困ったとき、いつも友達が助けてくれます。",
+      "translation": "When I'm in trouble, my friends always help me.",
+      "blank_target": "とき",
+      "wrong_choices": [
+        "まえ",
+        "あいだ",
+        "ところ"
+      ],
+      "wrong_choice_explanations": [
+        "まえ (困ったまえ) is ungrammatical, because まえ follows the dictionary form, not the past form; and the sentence describes the occasions of trouble themselves, which とき expresses.",
+        "あいだ (困っている間) stresses 'for the whole duration of being troubled'; the sentence highlights the occasions of trouble as triggers for help, which とき expresses.",
+        "ところ (困ったところ) means 'just when I got into trouble, right then,' a one-time vivid moment; with いつも ('always'), a repeated 'whenever' reading is needed, which とき gives."
+      ],
+      "hiragana_full": "こまったとき、いつもともだちがたすけてくれます。",
+      "audio_alternatives": [
+        {
+          "kanji": "ピンチのとき、友達はいつも力になってくれる。",
+          "hiragana_full": "ぴんちのとき、ともだちはいつもちからになってくれる。"
+        },
+        {
+          "kanji": "私が困っていると、友人がいつも手を貸してくれます。",
+          "hiragana_full": "わたしがこまっていると、ゆうじんがいつもてをかしてくれます。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "困った",
+          "reading": "こまった",
+          "meaning": "troubled"
+        },
+        {
+          "word": "助けて",
+          "reading": "たすけて",
+          "meaning": "to help"
+        }
+      ]
+    },
+    {
+      "id": "n4_070_5",
+      "example_sentence": "道がわからなかったとき、駅員さんに聞きました。",
+      "translation": "When I didn't know the way, I asked a station attendant.",
+      "blank_target": "とき",
+      "wrong_choices": [
+        "ばあい",
+        "まえに",
+        "うちに"
+      ],
+      "wrong_choice_explanations": [
+        "ばあい (わからなかった場合) reads as a hypothetical 'in case I didn't know'; this is a real past event, so とき is correct.",
+        "まえに (わからない前に) is odd in both form and meaning ('before not knowing'); the asking happened at the moment of being lost, marked by とき.",
+        "うちに (わからないうちに) means 'while still not understanding, before it becomes clear'; the sentence reports a specific past occasion of asking, which とき marks."
+      ],
+      "hiragana_full": "みちがわからなかったとき、えきいんさんにききました。",
+      "audio_alternatives": [
+        {
+          "kanji": "道に迷ったとき、駅の人に道順を尋ねた。",
+          "hiragana_full": "みちにまよったとき、えきのひとにみちじゅんをたずねた。"
+        },
+        {
+          "kanji": "行き方が分からず、駅員さんに教えてもらいました。",
+          "hiragana_full": "いきかたがわからず、えきいんさんにおしえてもらいました。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "駅員",
+          "reading": "えきいん",
+          "meaning": "station staff"
+        }
+      ]
+    },
+    {
+      "id": "n4_070_6",
+      "example_sentence": "引っ越しをするとき、たくさんの荷物を運びました。",
+      "translation": "When I moved house, I carried a lot of luggage.",
+      "blank_target": "とき",
+      "wrong_choices": [
+        "あとで",
+        "ところ",
+        "ばあい"
+      ],
+      "wrong_choice_explanations": [
+        "あとで (した後で) means 'after moving,' but the carrying is part of the move itself, not something done afterward; とき marks the occasion of moving.",
+        "ところ (するところ) means 'just about to move,' a stage before the action; the sentence describes what happened during the move, so とき fits.",
+        "ばあい (する場合) makes it conditional 'in the event of moving,' like advice; the speaker recounts a real past move, which とき expresses."
+      ],
+      "hiragana_full": "ひっこしをするとき、たくさんのにもつをはこびました。",
+      "audio_alternatives": [
+        {
+          "kanji": "引っ越しのとき、重い荷物をいくつも運んだ。",
+          "hiragana_full": "ひっこしのとき、おもいにもつをいくつもはこんだ。"
+        },
+        {
+          "kanji": "家を移る際は、大量の荷物を運搬することになった。",
+          "hiragana_full": "いえをうつるさいは、たいりょうのにもつをうんぱんすることになった。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "引っ越し",
+          "reading": "ひっこし",
+          "meaning": "moving house"
+        },
+        {
+          "word": "荷物",
+          "reading": "にもつ",
+          "meaning": "luggage"
+        },
+        {
+          "word": "運びました",
+          "reading": "はこびました",
+          "meaning": "carried"
+        }
+      ]
+    },
+    {
+      "id": "n4_070_7",
+      "example_sentence": "試験の結果が出たとき、とても緊張しました。",
+      "translation": "When the exam results came out, I was very nervous.",
+      "blank_target": "とき",
+      "wrong_choices": [
+        "あいだ",
+        "ばあい",
+        "まえ"
+      ],
+      "wrong_choice_explanations": [
+        "あいだ (出た間) is ungrammatical here; あいだ needs a continuous state, not a one-time event like results being released. The single moment calls for とき.",
+        "ばあい (出た場合) turns it into 'in the event the results came out,' a hypothetical; this really happened, so とき is right.",
+        "まえ (出た前) is the wrong form and meaning — 'before' attaches to the dictionary form (出る前) and would place the nervousness before the results; the tension struck at the moment they appeared, marked by とき."
+      ],
+      "hiragana_full": "しけんのけっかがでたとき、とてもきんちょうしました。",
+      "audio_alternatives": [
+        {
+          "kanji": "合否が分かったとき、心臓がどきどきした。",
+          "hiragana_full": "ごうひがわかったとき、しんぞうがどきどきした。"
+        },
+        {
+          "kanji": "テストの結果が発表された瞬間、ひどく緊張した。",
+          "hiragana_full": "てすとのけっかがはっぴょうされたしゅんかん、ひどくきんちょうした。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "試験",
+          "reading": "しけん",
+          "meaning": "exam"
+        },
+        {
+          "word": "結果",
+          "reading": "けっか",
+          "meaning": "result"
+        },
+        {
+          "word": "緊張",
+          "reading": "きんちょう",
+          "meaning": "nervous"
+        }
+      ]
+    },
+    {
+      "id": "n4_070_8",
       "example_sentence": "大学を卒業したとき、両親がお祝いをしてくれました。",
       "translation": "When I graduated from university, my parents celebrated for me.",
       "blank_target": "た",
@@ -58,38 +317,24 @@
           "hiragana_full": "だいがくをそつぎょうしたとき、ちちとははがおいわいをしてくれました。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_070_3",
-      "example_sentence": "彼に初めて会ったとき、とても緊張しました。",
-      "translation": "When I first met him, I was very nervous.",
-      "blank_target": "た",
-      "wrong_choices": [
-        "る",
-        "ている",
-        "たら"
-      ],
-      "wrong_choice_explanations": [
-        "る means dictionary form — it doesn't fit here because we need the past tense to express the completed meeting that caused nervousness.",
-        "ている means ongoing state — it doesn't fit here because meeting someone is typically a completed event, not an ongoing state.",
-        "たら means conditional 'if/when' — it doesn't fit here because we need たとき to express a specific past time, not a conditional situation."
-      ],
-      "hiragana_full": "かれにはじめてあったとき、とてもきんちょうしました。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "彼と初めて会ったとき、とても緊張しました。",
-          "hiragana_full": "かれとはじめてあったとき、とてもきんちょうしました。"
+          "word": "卒業",
+          "reading": "そつぎょう",
+          "meaning": "graduation"
         },
         {
-          "kanji": "彼に初めて会ったとき、すごく緊張しました。",
-          "hiragana_full": "かれにはじめてあったとき、すごくきんちょうしました。"
+          "word": "お祝い",
+          "reading": "おいわい",
+          "meaning": "celebration"
         }
       ],
-      "audio_eligible": true
+      "blank_occurrence": 1
     },
     {
-      "id": "n4_070_4",
+      "id": "n4_070_9",
       "example_sentence": "この写真を撮ったとき、まだ学生でした。",
       "translation": "When I took this photo, I was still a student.",
       "blank_target": "た",
@@ -114,122 +359,12 @@
           "hiragana_full": "このしゃしんをとったじてんでは、まだがくせいでした。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "blank_occurrence": 1
     },
     {
-      "id": "n4_070_5",
-      "example_sentence": "結婚したとき、たくさんの友達が来てくれました。",
-      "translation": "When I got married, many friends came for me.",
-      "blank_target": "た",
-      "wrong_choices": [
-        "る",
-        "ている",
-        "と"
-      ],
-      "wrong_choice_explanations": [
-        "る means dictionary form — it doesn't fit here because we need the past tense to express the completed marriage ceremony.",
-        "ている means ongoing state — it doesn't fit here because getting married refers to the ceremony event, not the ongoing married state.",
-        "と means conditional 'when/if' — it doesn't fit here because we need たとき to express a specific past time, not a general conditional."
-      ],
-      "hiragana_full": "けっこんしたとき、たくさんのともだちがきてくれました。",
-      "audio_alternatives": [
-        {
-          "kanji": "結婚した時、多くの友人が来てくれました。",
-          "hiragana_full": "けっこんしたとき、おおくのゆうじんがきてくれました。"
-        },
-        {
-          "kanji": "結婚したとき、友達がたくさん来てくれました。",
-          "hiragana_full": "けっこんしたとき、ともだちがたくさんきてくれました。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_070_6",
-      "example_sentence": "子供の頃、母が病気になったとき、とても心配でした。",
-      "translation": "When I was a child and my mother became ill, I was very worried.",
-      "blank_target": "た",
-      "wrong_choices": [
-        "る",
-        "ている",
-        "れば"
-      ],
-      "wrong_choice_explanations": [
-        "る means dictionary form — it doesn't fit here because we need the past tense to express when the illness occurred in the past.",
-        "ている means ongoing state — it doesn't fit here because we need to focus on when she became ill, not the state of being ill.",
-        "れば means conditional 'if' — it doesn't fit here because we need たとき to express when something actually happened, not a hypothetical condition."
-      ],
-      "hiragana_full": "こどものころ、ははがびょうきになったとき、とてもしんぱいでした。",
-      "audio_alternatives": [
-        {
-          "kanji": "子供の頃、お母さんが病気になったとき、とても心配でした。",
-          "hiragana_full": "こどものころ、おかあさんがびょうきになったとき、とてもしんぱいでした。"
-        },
-        {
-          "kanji": "小さい頃、母が病気になったとき、とても心配でした。",
-          "hiragana_full": "ちいさいころ、ははがびょうきになったとき、とてもしんぱいでした。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_070_7",
-      "example_sentence": "新しい家に引っ越したとき、近所の人が挨拶に来ました。",
-      "translation": "When I moved to a new house, the neighbors came to greet me.",
-      "blank_target": "た",
-      "wrong_choices": [
-        "る",
-        "ている",
-        "ても"
-      ],
-      "wrong_choice_explanations": [
-        "る means dictionary form — it doesn't fit here because we need the past tense to express the completed move that prompted the neighbors' visit.",
-        "ている means ongoing state — it doesn't fit here because moving is a completed action that triggers other events.",
-        "ても means 'even if' — it doesn't fit here because we need たとき to express when something actually happened, not a concessive meaning."
-      ],
-      "hiragana_full": "あたらしいいえにひっこしたとき、きんじょのひとがあいさつにきました。",
-      "audio_alternatives": [
-        {
-          "kanji": "新しい家に引っ越した時、近所の人が挨拶に来てくれました。",
-          "hiragana_full": "あたらしいいえにひっこしたとき、きんじょのひとがあいさつにきてくれました。"
-        },
-        {
-          "kanji": "新しい家に引っ越した時、近所の方々が挨拶に来ました。",
-          "hiragana_full": "あたらしいいえにひっこしたとき、きんじょのかたがたがあいさつにきました。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_070_8",
-      "example_sentence": "この本を読み終えたとき、深く感動しました。",
-      "translation": "When I finished reading this book, I was deeply moved.",
-      "blank_target": "た",
-      "wrong_choices": [
-        "る",
-        "ている",
-        "ながら"
-      ],
-      "wrong_choice_explanations": [
-        "る means dictionary form — it doesn't fit here because we need the past tense to express the completed reading that led to being moved.",
-        "ている means ongoing action — it doesn't fit here because finishing reading is a completed action, not an ongoing process.",
-        "ながら means 'while doing simultaneously' — it doesn't fit here because we need たとき to express the specific moment of completion."
-      ],
-      "hiragana_full": "このほんをよみおえたとき、ふかくかんどうしました。",
-      "audio_alternatives": [
-        {
-          "kanji": "この本を読み終えたら、深く感動しました。",
-          "hiragana_full": "このほんをよみおえたら、ふかくかんどうしました。"
-        },
-        {
-          "kanji": "この本を読み終えたとき、とても感動しました。",
-          "hiragana_full": "このほんをよみおえたとき、とてもかんどうしました。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_070_9",
+      "id": "n4_070_10",
       "example_sentence": "事故が起こったとき、私は家にいました。",
       "translation": "When the accident happened, I was at home.",
       "blank_target": "た",
@@ -254,35 +389,16 @@
           "hiragana_full": "じこがあったとき、わたしはいえにいました。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_070_10",
-      "example_sentence": "試験に合格したとき、家族がとても喜んでくれました。",
-      "translation": "When I passed the exam, my family was very happy for me.",
-      "blank_target": "た",
-      "wrong_choices": [
-        "る",
-        "ている",
-        "たら"
-      ],
-      "wrong_choice_explanations": [
-        "る means dictionary form — it doesn't fit here because we need the past tense to express the completed passing that caused the family's joy.",
-        "ている means ongoing state — it doesn't fit here because passing an exam is a completed achievement, not an ongoing process.",
-        "たら means conditional 'if/when' — it doesn't fit here because we need たとき to express a specific past time when something actually happened."
-      ],
-      "hiragana_full": "しけんにごうかくしたとき、かぞくがとてもよろこんでくれました。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "試験に合格したとき、家族はとても喜んでくれました。",
-          "hiragana_full": "しけんにごうかくしたとき、かぞくはとてもよろこんでくれました。"
-        },
-        {
-          "kanji": "試験に受かったとき、家族がとても喜んでくれました。",
-          "hiragana_full": "しけんにうかったとき、かぞくがとてもよろこんでくれました。"
+          "word": "事故",
+          "reading": "じこ",
+          "meaning": "accident"
         }
       ],
-      "audio_eligible": true
+      "blank_occurrence": 1
     }
   ]
 }

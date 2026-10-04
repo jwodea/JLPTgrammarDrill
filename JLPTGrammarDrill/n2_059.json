@@ -6,18 +6,54 @@
   "exercises": [
     {
       "id": "n2_059_1",
+      "example_sentence": "経験を積んでこそ、真のプロになれる。",
+      "translation": "Only by accumulating experience can you become a true professional.",
+      "blank_target": "でこそ",
+      "wrong_choices": [
+        "でも",
+        "だけで",
+        "によって"
+      ],
+      "wrong_choice_explanations": [
+        "でも means 'even by accumulating experience' but doesn't convey that experience is essential for becoming a true professional.",
+        "だけで means 'just by accumulating experience' but lacks the strong emphasis on necessity that でこそ provides.",
+        "によって means 'through accumulating experience' but is neutral causation without the essential condition nuance of でこそ."
+      ],
+      "hiragana_full": "けいけんをつんでこそ、しんのぷろになれる。",
+      "audio_alternatives": [
+        {
+          "kanji": "経験を重ねてこそ、真のプロになれる。",
+          "hiragana_full": "けいけんをかさねてこそ、しんのぷろになれる。"
+        },
+        {
+          "kanji": "経験を積むことによってのみ、本当のプロになれる。",
+          "hiragana_full": "けいけんをつむことによってのみ、ほんとうのぷろになれる。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "真",
+          "reading": "しん",
+          "meaning": "true, genuine"
+        }
+      ]
+    },
+    {
+      "id": "n2_059_2",
       "example_sentence": "困難な修復に取り組んでこそ、職人の技術が磨かれる。",
       "translation": "Only by tackling difficult restoration work can a craftsman's skills be refined.",
       "blank_target": "でこそ",
       "wrong_choices": [
-        "だから",
+        "だところで",
         "でも",
         "だけで"
       ],
       "wrong_choice_explanations": [
-        "だから means 'because/therefore', which shows cause and effect rather than the essential condition emphasized by てこそ.",
+        "だところで (取り組んだところで) means 'even if one tackles it' and predicts a futile result, which contradicts the claim that tackling difficult work is what refines a craftsman's skills.",
         "でも means 'but/even if', which indicates contrast rather than the necessary condition for achieving the result.",
-        "だけで means 'just by/only with', which is weaker than てこそ and doesn't emphasize that this condition is absolutely essential."
+        "だけで would give 取り組んだけで, which is not a valid form (it would need 取り組むだけで); only でこそ fits here and marks tackling difficult work as the essential condition."
       ],
       "hiragana_full": "こんなんなしゅうふくにとりくんでこそ、しょくにんのぎじゅつがみがかれる。",
       "audio_alternatives": [
@@ -30,78 +66,40 @@
           "hiragana_full": "こんなんなしゅうふくさぎょうにとりくむことで、しょくにんのぎじゅつはみがかれる。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_059_2",
-      "example_sentence": "親切にしてこそ、友人関係は成り立つ。",
-      "translation": "Only by being kind can friendships truly be established.",
-      "blank_target": "してこそ",
-      "wrong_choices": [
-        "すれば",
-        "しても",
-        "したら"
-      ],
-      "wrong_choice_explanations": [
-        "すれば means 'if you do', which is a simple conditional that doesn't emphasize the essential nature of the action like てこそ does.",
-        "しても means 'even if you do', which suggests the action might not be enough, contradicting the meaning of てこそ.",
-        "したら means 'if/when you do', which is a general conditional without the emphasis on necessity that てこそ provides."
-      ],
-      "hiragana_full": "しんせつにしてこそ、ゆうじんかんけいはなりたつ。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "親切にすることで初めて、友人関係は成り立つ。",
-          "hiragana_full": "しんせつにすることではじめて、ゆうじんかんけいはなりたつ。"
+          "word": "職人",
+          "reading": "しょくにん",
+          "meaning": "craftsman"
         },
         {
-          "kanji": "親切にしてこそ、友達との関係は築ける。",
-          "hiragana_full": "しんせつにしてこそ、ともだちとのかんけいはきずける。"
+          "word": "取り組む",
+          "reading": "とりくむ",
+          "meaning": "to tackle/work on"
+        },
+        {
+          "word": "磨く",
+          "reading": "みがく",
+          "meaning": "to hone/polish"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
       "id": "n2_059_3",
-      "example_sentence": "毎日練習してこそ、試合で実力が発揮できる。",
-      "translation": "Only by practicing every day can you show your true ability in a match.",
-      "blank_target": "してこそ",
-      "wrong_choices": [
-        "するから",
-        "しながら",
-        "すると"
-      ],
-      "wrong_choice_explanations": [
-        "するから ('because you practice') states a cause, but てこそ makes the stronger claim that daily practice is the indispensable condition without which you simply cannot perform.",
-        "しながら ('while practicing') describes doing two things at once; it cannot express that practice is the prerequisite for performing well, which is what てこそ conveys.",
-        "すると ('when/once you practice') merely marks a trigger or sequence, whereas てこそ insists the result is reachable only through that practice."
-      ],
-      "hiragana_full": "まいにちれんしゅうしてこそ、しあいでじつりょくがはっきできる。",
-      "audio_alternatives": [
-        {
-          "kanji": "毎日練習することでこそ、試合で実力が発揮できる。",
-          "hiragana_full": "まいにちれんしゅうすることでこそ、しあいでじつりょくがはっきできる。"
-        },
-        {
-          "kanji": "毎日練習して初めて、試合で実力が出せる。",
-          "hiragana_full": "まいにちれんしゅうしてはじめて、しあいでじつりょくがだせる。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_059_4",
       "example_sentence": "チームワークがあってこそ、大きなプロジェクトは成功する。",
       "translation": "Great projects succeed only through teamwork.",
       "blank_target": "あってこそ",
       "wrong_choices": [
-        "あるから",
+        "あるのに",
         "あっても",
-        "あると"
+        "あるくせに"
       ],
       "wrong_choice_explanations": [
-        "あるから means 'because there is', which shows causation but doesn't emphasize that teamwork is the essential condition like てこそ does.",
+        "あるのに means 'even though there is teamwork' and implies an unexpected result, but project success is the natural outcome of teamwork, so no contrast exists.",
         "あっても means 'even if there is', which suggests teamwork might not be sufficient, contradicting the meaning of てこそ.",
-        "あると means 'when there is', which is a simple conditional that lacks the emphasis on absolute necessity that てこそ provides."
+        "あるくせに means 'despite having teamwork' with a reproachful tone, which clashes with the positive statement that teamwork is essential for success."
       ],
       "hiragana_full": "ちーむわーくがあってこそ、おおきなぷろじぇくとはせいこうする。",
       "audio_alternatives": [
@@ -114,134 +112,30 @@
           "hiragana_full": "ちーむわーくなしには、おおきなぷろじぇくとはせいこうしない。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_059_5",
-      "example_sentence": "複数の視点から検討してこそ、バランスの取れた結論が出される。",
-      "translation": "Only by examining from multiple perspectives can balanced conclusions be reached.",
-      "blank_target": "してこそ",
-      "wrong_choices": [
-        "してから",
-        "した後で",
-        "すれば"
-      ],
-      "wrong_choice_explanations": [
-        "してから means 'after doing', which indicates sequence but doesn't emphasize that multiple perspectives are essential for balanced conclusions.",
-        "した後で means 'after having done', which focuses on timing rather than the necessary condition emphasized by てこそ.",
-        "すれば means 'if you do', which is a simple conditional that lacks the emphasis on absolute necessity that てこそ conveys."
-      ],
-      "hiragana_full": "ふくすうのしてんからけんとうしてこそ、ばらんすのとれたけつろんがだされる。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "複数の視点から検討して初めて、バランスの取れた結論が得られる。",
-          "hiragana_full": "ふくすうのしてんからけんとうしてはじめて、ばらんすのとれたけつろんがえられる。"
-        },
-        {
-          "kanji": "多角的な視点から検討することで、バランスの取れた結論に至ることができる。",
-          "hiragana_full": "たかくてきなしてんからけんとうすることで、ばらんすのとれたけつろんにいたることができる。"
+          "word": "成功",
+          "reading": "せいこう",
+          "meaning": "success"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n2_059_6",
-      "example_sentence": "苦労してこそ、本当の喜びが分かる。",
-      "translation": "Only through hardship can you understand true joy.",
-      "blank_target": "してこそ",
-      "wrong_choices": [
-        "した後",
-        "するなら",
-        "しただけ"
-      ],
-      "wrong_choice_explanations": [
-        "した後 means 'after doing', which indicates timing but doesn't emphasize that hardship is essential for understanding joy.",
-        "するなら means 'if you're going to do', which is a conditional that lacks the emphasis on necessity that てこそ provides.",
-        "しただけ means 'just by doing', which is weaker than てこそ and doesn't emphasize the essential nature of experiencing hardship."
-      ],
-      "hiragana_full": "くろうしてこそ、ほんとうのよろこびがわかる。",
-      "audio_alternatives": [
-        {
-          "kanji": "苦労を経験してこそ、真の喜びが理解できる。",
-          "hiragana_full": "くろうをけいけんしてこそ、しんのよろこびがりかいできる。"
-        },
-        {
-          "kanji": "苦しんでこそ、本当の喜びが分かるものだ。",
-          "hiragana_full": "くるしんでこそ、ほんとうのよろこびがわかるものだ。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_059_7",
-      "example_sentence": "実際に見てこそ、その美術品の素晴らしさが理解できる。",
-      "translation": "Only by seeing it in person can one understand how wonderful the artwork is.",
-      "blank_target": "てこそ",
-      "wrong_choices": [
-        "てから",
-        "ても",
-        "たら"
-      ],
-      "wrong_choice_explanations": [
-        "てから means 'after doing', which indicates sequence but doesn't emphasize that seeing in person is essential for understanding the artwork.",
-        "ても means 'even if', which suggests seeing might not be enough, contradicting the meaning of てこそ.",
-        "たら means 'if/when', which is a general conditional that lacks the emphasis on absolute necessity that てこそ provides."
-      ],
-      "hiragana_full": "じっさいにみてこそ、そのびじゅつひんのすばらしさがりかいできる。",
-      "audio_alternatives": [
-        {
-          "kanji": "実際に見て初めて、その美術品の素晴らしさが理解できる。",
-          "hiragana_full": "じっさいにみてはじめて、そのびじゅつひんのすばらしさがりかいできる。"
-        },
-        {
-          "kanji": "実物を見てこそ、その美術品の素晴らしさが分かる。",
-          "hiragana_full": "じつぶつをみてこそ、そのびじゅつひんのすばらしさがわかる。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_059_8",
-      "example_sentence": "努力してこそ、夢は実現する。",
-      "translation": "Dreams come true only through effort.",
-      "blank_target": "してこそ",
-      "wrong_choices": [
-        "すると",
-        "するなら",
-        "しても"
-      ],
-      "wrong_choice_explanations": [
-        "すると means 'when you do/then', which indicates consequence but doesn't emphasize that effort is the essential condition like てこそ does.",
-        "するなら means 'if you're going to do', which is a conditional that lacks the strong emphasis on necessity that てこそ conveys.",
-        "しても means 'even if you do', which suggests effort might not be sufficient, contradicting the meaning of てこそ."
-      ],
-      "hiragana_full": "どりょくしてこそ、ゆめはじつげんする。",
-      "audio_alternatives": [
-        {
-          "kanji": "努力があってこそ、夢は叶う。",
-          "hiragana_full": "どりょくがあってこそ、ゆめはかなう。"
-        },
-        {
-          "kanji": "努力することで初めて、夢は実現できる。",
-          "hiragana_full": "どりょくすることではじめて、ゆめはじつげんできる。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_059_9",
+      "id": "n2_059_4",
       "example_sentence": "相手の立場に立ってこそ、真のコミュニケーションが生まれる。",
       "translation": "True communication emerges only by putting yourself in the other person's position.",
       "blank_target": "ってこそ",
       "wrong_choices": [
-        "って",
+        "ったところで",
         "っても",
-        "ったら"
+        "ったきり"
       ],
       "wrong_choice_explanations": [
-        "って here is just the bare te-form of 立つ (= 立って), linking the clauses as 'by putting yourself in their position…'; it states the action but lacks the 'only by doing this' emphasis that こそ adds.",
+        "ったところで (立ったところで) means 'even if you put yourself in their position' and predicts that it would be pointless, the opposite of saying it is essential for true communication.",
         "っても means 'even if', which suggests putting yourself in their position might not be enough, contradicting the meaning of てこそ.",
-        "ったら means 'if/when', which is a general conditional that lacks the emphasis on absolute necessity that てこそ provides."
+        "ったきり means 'having done it once and nothing since' and describes an action left hanging, not the essential condition for true communication."
       ],
       "hiragana_full": "あいてのたちばにたってこそ、しんのコミュニケーションがうまれる。",
       "audio_alternatives": [
@@ -254,21 +148,111 @@
           "hiragana_full": "あいてのきもちになってこそ、ほんとうのコミュニケーションがうまれる。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "立場",
+          "reading": "たちば",
+          "meaning": "standpoint/position"
+        }
+      ]
     },
     {
-      "id": "n2_059_10",
+      "id": "n2_059_5",
+      "example_sentence": "実際に見てこそ、その美術品の素晴らしさが理解できる。",
+      "translation": "Only by seeing it in person can one understand how wonderful the artwork is.",
+      "blank_target": "てこそ",
+      "wrong_choices": [
+        "たところで",
+        "ても",
+        "たきり"
+      ],
+      "wrong_choice_explanations": [
+        "たところで (見たところで) means 'even if you see it' and predicts a futile result, contradicting the claim that seeing it in person is what lets you appreciate it.",
+        "ても means 'even if', which suggests seeing might not be enough, contradicting the meaning of てこそ.",
+        "たきり means 'having seen it once and nothing since' and describes an action left unfinished, not the essential condition for understanding the artwork."
+      ],
+      "hiragana_full": "じっさいにみてこそ、そのびじゅつひんのすばらしさがりかいできる。",
+      "audio_alternatives": [
+        {
+          "kanji": "実際に見て初めて、その美術品の素晴らしさが理解できる。",
+          "hiragana_full": "じっさいにみてはじめて、そのびじゅつひんのすばらしさがりかいできる。"
+        },
+        {
+          "kanji": "実物を見てこそ、その美術品の素晴らしさが分かる。",
+          "hiragana_full": "じつぶつをみてこそ、そのびじゅつひんのすばらしさがわかる。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "美術品",
+          "reading": "びじゅつひん",
+          "meaning": "artwork"
+        },
+        {
+          "word": "素晴らしさ",
+          "reading": "すばらしさ",
+          "meaning": "splendor"
+        }
+      ]
+    },
+    {
+      "id": "n2_059_6",
+      "example_sentence": "困難を乗り越えてこそ、本当の自信が生まれる。",
+      "translation": "Only by overcoming difficulties can true confidence be born.",
+      "blank_target": "てこそ",
+      "wrong_choices": [
+        "たきり",
+        "たところで",
+        "ば"
+      ],
+      "wrong_choice_explanations": [
+        "たきり means 'having overcome them once and nothing since' and describes an action left hanging, not the essential condition for true confidence to emerge.",
+        "たところで means 'even if you overcome difficulties' and predicts a futile outcome, which contradicts the idea that overcoming them is what gives rise to confidence.",
+        "ば would give 乗り越えば, which is not a valid conditional form (it would need 乗り越えれば); only てこそ fits after 乗り越え and marks the essential condition for true confidence."
+      ],
+      "hiragana_full": "こんなんをのりこえてこそ、ほんとうのじしんがうまれる。",
+      "audio_alternatives": [
+        {
+          "kanji": "困難を乗り越えることで初めて、本当の自信が生まれる。",
+          "hiragana_full": "こんなんをのりこえることではじめて、ほんとうのじしんがうまれる。"
+        },
+        {
+          "kanji": "困難を乗り越えてこそ、真の自信が生まれる。",
+          "hiragana_full": "こんなんをのりこえてこそ、しんのじしんがうまれる。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "困難",
+          "reading": "こんなん",
+          "meaning": "difficulty, hardship"
+        },
+        {
+          "word": "自信",
+          "reading": "じしん",
+          "meaning": "confidence"
+        }
+      ]
+    },
+    {
+      "id": "n2_059_7",
       "example_sentence": "失敗を経験してこそ、人は成長する。",
       "translation": "People grow only by experiencing failure.",
       "blank_target": "してこそ",
       "wrong_choices": [
-        "した結果",
-        "するため",
+        "したところで",
+        "するくせに",
         "してても"
       ],
       "wrong_choice_explanations": [
-        "した結果 means 'as a result of doing', which shows consequence but doesn't emphasize that failure is the essential condition for growth.",
-        "するため means 'in order to do', which indicates purpose rather than the necessary condition emphasized by てこそ.",
+        "したところで means 'even if one experiences failure' and predicts that it would be pointless, the opposite of the claim that failure is essential to growth.",
+        "するくせに means 'despite experiencing failure' with a reproachful tone and needs a contrasting result, whereas growth is presented as the outcome that failure makes possible.",
         "してても means 'even while doing', which is grammatically awkward here and doesn't convey the meaning of essential condition like てこそ."
       ],
       "hiragana_full": "しっぱいをけいけんしてこそ、ひとはせいちょうする。",
@@ -282,7 +266,148 @@
           "hiragana_full": "しっぱいをけいけんしてこそ、ひとはせいちょうできる。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "失敗",
+          "reading": "しっぱい",
+          "meaning": "failure"
+        },
+        {
+          "word": "成長",
+          "reading": "せいちょう",
+          "meaning": "growth"
+        }
+      ]
+    },
+    {
+      "id": "n2_059_8",
+      "example_sentence": "海外で生活してこそ、本当の国際感覚が身につく。",
+      "translation": "Only by living abroad can you develop a true international perspective.",
+      "blank_target": "してこそ",
+      "wrong_choices": [
+        "しなければ",
+        "したところで",
+        "しているくせに"
+      ],
+      "wrong_choice_explanations": [
+        "しなければ means 'if you don't live abroad' but is negative and doesn't match the positive emphasis of してこそ in this context.",
+        "したところで means 'even if you live abroad' and predicts a futile result, contradicting the claim that living abroad is what builds a true international outlook.",
+        "しているくせに means 'despite living abroad' with a critical tone and needs a contrasting result, but gaining an international outlook is presented as the expected outcome."
+      ],
+      "hiragana_full": "かいがいでせいかつしてこそ、ほんとうのこくさいかんかくがみにつく。",
+      "audio_alternatives": [
+        {
+          "kanji": "海外で暮らしてこそ、本当の国際感覚が身につく。",
+          "hiragana_full": "かいがいでくらしてこそ、ほんとうのこくさいかんかくがみにつく。"
+        },
+        {
+          "kanji": "海外生活をしてこそ、真の国際感覚が身につく。",
+          "hiragana_full": "かいがいせいかつをしてこそ、しんのこくさいかんかくがみにつく。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "海外",
+          "reading": "かいがい",
+          "meaning": "overseas"
+        },
+        {
+          "word": "感覚",
+          "reading": "かんかく",
+          "meaning": "sense, feel"
+        },
+        {
+          "word": "身につく",
+          "reading": "みにつく",
+          "meaning": "to acquire, become second nature"
+        }
+      ]
+    },
+    {
+      "id": "n2_059_9",
+      "example_sentence": "厳しい練習を重ねてこそ、本番で力を発揮できる。",
+      "translation": "Only by repeating strict practice can you demonstrate your ability in the real situation.",
+      "blank_target": "てこそ",
+      "wrong_choices": [
+        "ては",
+        "ても",
+        "たところで"
+      ],
+      "wrong_choice_explanations": [
+        "ては creates a conditional pattern but doesn't emphasize that strict practice is essential for performance like てこそ does.",
+        "ても means 'even if repeating strict practice' but lacks the strong necessity nuance that てこそ conveys.",
+        "たところで (重ねたところで) means 'even if you repeat strict practice' and predicts a futile result, the opposite of saying such practice is essential for performing well."
+      ],
+      "hiragana_full": "きびしいれんしゅうをかさねてこそ、ほんばんでちからをはっきできる。",
+      "audio_alternatives": [
+        {
+          "kanji": "厳しい練習を積み重ねてこそ、本番で実力を発揮できる。",
+          "hiragana_full": "きびしいれんしゅうをつみかさねてこそ、ほんばんでじつりょくをはっきできる。"
+        },
+        {
+          "kanji": "厳しい練習を繰り返してこそ、本番で力を発揮できる。",
+          "hiragana_full": "きびしいれんしゅうをくりかえしてこそ、ほんばんでちからをはっきできる。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "本番",
+          "reading": "ほんばん",
+          "meaning": "the real performance"
+        },
+        {
+          "word": "発揮",
+          "reading": "はっき",
+          "meaning": "display, bring out"
+        }
+      ]
+    },
+    {
+      "id": "n2_059_10",
+      "example_sentence": "努力してこそ、夢を実現できる。",
+      "translation": "Only through effort can you realize your dreams.",
+      "blank_target": "してこそ",
+      "wrong_choices": [
+        "しても",
+        "したって",
+        "するどころか"
+      ],
+      "wrong_choice_explanations": [
+        "しても means 'even if you make an effort' but doesn't emphasize that effort is essential for realizing dreams like してこそ does.",
+        "したって is casual for 'even if you make an effort' but lacks the strong necessity nuance that してこそ conveys.",
+        "するどころか means 'far from making an effort' and introduces a stronger contrary point, which cannot lead to 'you can realize your dream'; てこそ makes effort the essential condition."
+      ],
+      "hiragana_full": "どりょくしてこそ、ゆめをじつげんできる。",
+      "audio_alternatives": [
+        {
+          "kanji": "努力があってこそ、夢を叶えられる。",
+          "hiragana_full": "どりょくがあってこそ、ゆめをかなえられる。"
+        },
+        {
+          "kanji": "努力することで初めて、夢を実現できる。",
+          "hiragana_full": "どりょくすることで、はじめて、ゆめをじつげんできる。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "努力",
+          "reading": "どりょく",
+          "meaning": "effort"
+        },
+        {
+          "word": "実現",
+          "reading": "じつげん",
+          "meaning": "realization, achieve"
+        }
+      ]
     }
   ]
 }

@@ -30,7 +30,20 @@
           "hiragana_full": "てんきがわるかったので、うんどうかいはえんきになった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "運動会",
+          "reading": "うんどうかい",
+          "meaning": "sports day"
+        },
+        {
+          "word": "延期",
+          "reading": "えんき",
+          "meaning": "postponement"
+        }
+      ]
     },
     {
       "id": "n3_060_2",
@@ -40,12 +53,12 @@
       "wrong_choices": [
         "のおかげで",
         "のために",
-        "によって"
+        "について"
       ],
       "wrong_choice_explanations": [
         "のおかげで means 'thanks to,' expressing gratitude for positive results, but this sentence blames the malfunction for a negative outcome.",
         "のために means 'for the purpose of,' indicating intention rather than causal blame.",
-        "によって indicates neutral causation, but せいで specifically assigns blame for an undesired result."
+        "について marks a topic ('regarding the malfunction'), not a cause; せいで pins the inability to do sales on the malfunction as its negative cause."
       ],
       "hiragana_full": "システムのしょうがいのせいで、えいぎょうができませんでした。",
       "audio_alternatives": [
@@ -58,7 +71,20 @@
           "hiragana_full": "システムのしょうがいがあったため、えいぎょうができませんでした。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "障害",
+          "reading": "しょうがい",
+          "meaning": "malfunction"
+        },
+        {
+          "word": "営業",
+          "reading": "えいぎょう",
+          "meaning": "business operations"
+        }
+      ]
     },
     {
       "id": "n3_060_3",
@@ -86,7 +112,20 @@
           "hiragana_full": "かれがしっぱいしたせいで、みんながせきにんをとらなければならなかった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "責任",
+          "reading": "せきにん",
+          "meaning": "responsibility"
+        },
+        {
+          "word": "全員",
+          "reading": "ぜんいん",
+          "meaning": "everyone"
+        }
+      ]
     },
     {
       "id": "n3_060_4",
@@ -114,7 +153,20 @@
           "hiragana_full": "かのじょがげんいんで、じんせいがだいなしになってしまった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "人生",
+          "reading": "じんせい",
+          "meaning": "one's life"
+        },
+        {
+          "word": "狂って",
+          "reading": "くるって",
+          "meaning": "to go awry"
+        }
+      ]
     },
     {
       "id": "n3_060_5",
@@ -123,12 +175,12 @@
       "blank_target": "せいで",
       "wrong_choices": [
         "おかげで",
-        "ために",
+        "たびに",
         "によって"
       ],
       "wrong_choice_explanations": [
         "おかげで means 'thanks to,' expressing gratitude for positive outcomes, opposite to せいで's blaming sense.",
-        "ために indicates purpose or neutral reason, but せいで specifically carries blame for a negative result.",
+        "〜たびに means 'every time / whenever' and marks a recurring occasion; the sentence blames one particular downturn for the poor business — a single negative cause that せいで expresses.",
         "によって is a neutral causal marker, but せいで emphasizes fault and assigns responsibility."
       ],
       "hiragana_full": "ふきょうのせいで、しょうばいがうまくいきませんでした。",
@@ -142,7 +194,20 @@
           "hiragana_full": "ふきょうで、びじねすがうまくいきませんでした。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "不況",
+          "reading": "ふきょう",
+          "meaning": "recession"
+        },
+        {
+          "word": "商売",
+          "reading": "しょうばい",
+          "meaning": "business"
+        }
+      ]
     },
     {
       "id": "n3_060_6",
@@ -151,12 +216,12 @@
       "blank_target": "のせいで",
       "wrong_choices": [
         "のおかげで",
-        "のために",
+        "について",
         "によって"
       ],
       "wrong_choice_explanations": [
         "のおかげで means 'thanks to' (positive); せいで is for negative results and blame.",
-        "のために means 'for the purpose of,' indicating intention, not causation of a negative result.",
+        "について marks a topic ('regarding the traffic jam'), not a cause; せいで blames the traffic jam for making the speaker late.",
         "によって is a neutral causal marker, lacking the blame that せいで conveys."
       ],
       "hiragana_full": "こうつうじゅうたいのせいで、かいぎにちこくしてしまった。",
@@ -170,7 +235,20 @@
           "hiragana_full": "じゅうたいのために、かいぎにちこくした。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "渋滞",
+          "reading": "じゅうたい",
+          "meaning": "traffic jam"
+        },
+        {
+          "word": "遅刻",
+          "reading": "ちこく",
+          "meaning": "being late"
+        }
+      ]
     },
     {
       "id": "n3_060_7",
@@ -198,7 +276,20 @@
           "hiragana_full": "おとなりのそうおんのせいで、ねむれませんでした。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "隣人",
+          "reading": "りんじん",
+          "meaning": "neighbor"
+        },
+        {
+          "word": "騒音",
+          "reading": "そうおん",
+          "meaning": "noise"
+        }
+      ]
     },
     {
       "id": "n3_060_8",
@@ -226,7 +317,20 @@
           "hiragana_full": "ねぶそくだから、しゅうちゅうりょくがおちている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "寝不足",
+          "reading": "ねぶそく",
+          "meaning": "lack of sleep"
+        },
+        {
+          "word": "集中力",
+          "reading": "しゅうちゅうりょく",
+          "meaning": "concentration"
+        }
+      ]
     },
     {
       "id": "n3_060_9",
@@ -254,7 +358,15 @@
           "hiragana_full": "わたしがごかいしたせいで、もんだいがおきてしまった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "誤解",
+          "reading": "ごかい",
+          "meaning": "misunderstanding"
+        }
+      ]
     },
     {
       "id": "n3_060_10",
@@ -264,12 +376,12 @@
       "wrong_choices": [
         "のおかげで",
         "のために",
-        "によって"
+        "にもかかわらず"
       ],
       "wrong_choice_explanations": [
         "のおかげで means 'thanks to,' implying positive results, but the sentence assigns blame for project delays.",
         "のために means 'for the purpose of,' indicating intention, not causal blame.",
-        "によって expresses neutral causation, but せいで specifically emphasizes blame for the negative consequence."
+        "〜にもかかわらず means 'despite' and marks concession (you would expect the opposite result); here the budget cuts caused the delay, so せいで's blaming cause is needed, not concession."
       ],
       "hiragana_full": "よさんさくげんのせいで、ぷろじぇくとがちえんした。",
       "audio_alternatives": [
@@ -282,7 +394,25 @@
           "hiragana_full": "よさんがさくげんされたため、ぷろじぇくとがおくれた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "予算",
+          "reading": "よさん",
+          "meaning": "budget"
+        },
+        {
+          "word": "削減",
+          "reading": "さくげん",
+          "meaning": "cutback"
+        },
+        {
+          "word": "遅延",
+          "reading": "ちえん",
+          "meaning": "delay"
+        }
+      ]
     }
   ]
 }

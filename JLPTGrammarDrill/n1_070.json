@@ -30,7 +30,15 @@
           "hiragana_full": "かのじょはてんしのごとくうつくしいうたごえをひろうした"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "天使",
+          "reading": "てんし",
+          "meaning": "angel"
+        }
+      ]
     },
     {
       "id": "n1_070_2",
@@ -58,7 +66,20 @@
           "hiragana_full": "そのおとこはししのごとくゆうもうにたたかった"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "獅子",
+          "reading": "しし",
+          "meaning": "lion"
+        },
+        {
+          "word": "勇敢",
+          "reading": "ゆうかん",
+          "meaning": "brave"
+        }
+      ]
     },
     {
       "id": "n1_070_3",
@@ -86,7 +107,20 @@
           "hiragana_full": "あらしははげしくもうじゅうのごとくまちをおそった"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "猛獣",
+          "reading": "もうじゅう",
+          "meaning": "wild beast"
+        },
+        {
+          "word": "激しく",
+          "reading": "はげしく",
+          "meaning": "violently; fiercely"
+        }
+      ]
     },
     {
       "id": "n1_070_4",
@@ -114,7 +148,20 @@
           "hiragana_full": "ときはながれるみずのごとくさっていく。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "流水",
+          "reading": "りゅうすい",
+          "meaning": "flowing water"
+        },
+        {
+          "word": "過ぎ去って",
+          "reading": "すぎさって",
+          "meaning": "to pass by"
+        }
+      ]
     },
     {
       "id": "n1_070_5",
@@ -142,35 +189,66 @@
           "hiragana_full": "かれのことばはかみなりのごとくなりひびいた"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "雷",
+          "reading": "かみなり",
+          "meaning": "thunder"
+        },
+        {
+          "word": "響いた",
+          "reading": "ひびいた",
+          "meaning": "to resound"
+        }
+      ]
     },
     {
       "id": "n1_070_6",
-      "example_sentence": "その国は自由と民主主義を標榜するごとく、言論統制を実施している。",
-      "translation": "That nation implements censorship even as it advocates freedom and democracy.",
+      "example_sentence": "彼は水を得た魚のごとく、新しい職場で生き生きと働いている。",
+      "translation": "Like a fish back in water, he is working with real energy at his new job.",
       "blank_target": "ごとく",
       "wrong_choices": [
-        "一方で",
+        "ために",
         "くせに",
-        "にも関わらず"
+        "おかげで"
       ],
       "wrong_choice_explanations": [
-        "一方で means 'on the other hand' but doesn't convey the ironic comparison that ごとく provides.",
-        "くせに expresses criticism for contradiction but lacks the literary formality of ごとく.",
-        "にも関わらず means 'despite' but doesn't create the same comparative irony as ごとく."
+        "ために gives a cause or purpose ('because of / for the sake of the fish'), which makes no sense; ごとく draws the simile 'like a fish back in water.'",
+        "くせに criticizes someone for acting against what they are ('even though he is a fish'), which is absurd here; ごとく compares him to a fish in its element.",
+        "おかげで credits a cause for a good result ('thanks to the fish'), not a likeness; ごとく is the literary 'like / as if' the idiom needs."
       ],
-      "hiragana_full": "そのくにはじゆうとみんしゅしゅぎをひょうぼうするごとく、げんろんとうせいをじっしている。",
+      "hiragana_full": "かれはみずをえたさかなのごとく、あたらしいしょくばでいきいきとはたらいている。",
       "audio_alternatives": [
         {
-          "kanji": "その国は自由と民主主義を標榜しながら、言論統制を実施している。",
-          "hiragana_full": "そのくにはじゆうとみんしゅしゅぎをひょうぼうしながら、げんろんとうせいをじっしている。"
+          "kanji": "彼は水を得た魚のように、新しい職場で生き生きと働いている。",
+          "hiragana_full": "かれはみずをえたさかなのように、あたらしいしょくばでいきいきとはたらいている。"
         },
         {
-          "kanji": "自由と民主主義を掲げるその国は、言論統制を行っている。",
-          "hiragana_full": "じゆうとみんしゅしゅぎをかかげるそのくには、げんろんとうせいをおこなっている。"
+          "kanji": "新しい職場で、彼はまるで水を得た魚のように生き生きしている。",
+          "hiragana_full": "あたらしいしょくばで、かれはまるでみずをえたさかなのようにいきいきしている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "水を得た魚",
+          "reading": "みずをえたさかな",
+          "meaning": "a fish back in water (in one's element)"
+        },
+        {
+          "word": "職場",
+          "reading": "しょくば",
+          "meaning": "workplace"
+        },
+        {
+          "word": "生き生きと",
+          "reading": "いきいきと",
+          "meaning": "lively; full of energy"
+        }
+      ]
     },
     {
       "id": "n1_070_7",
@@ -198,7 +276,20 @@
           "hiragana_full": "そのこういはかんきょうはかいにひとしくみえるが、じつはべつのもくてきがあった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "環境破壊",
+          "reading": "かんきょうはかい",
+          "meaning": "environmental destruction"
+        },
+        {
+          "word": "異なる",
+          "reading": "ことなる",
+          "meaning": "to differ"
+        }
+      ]
     },
     {
       "id": "n1_070_8",
@@ -226,7 +317,25 @@
           "hiragana_full": "そのじだいをしはいしたしそうのえいきょうは、ぶんかぜんたいにひろがっている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "支配的",
+          "reading": "しはいてき",
+          "meaning": "dominant"
+        },
+        {
+          "word": "思想",
+          "reading": "しそう",
+          "meaning": "thought; ideology"
+        },
+        {
+          "word": "及ぶ",
+          "reading": "およぶ",
+          "meaning": "to extend; reach"
+        }
+      ]
     },
     {
       "id": "n1_070_9",
@@ -254,7 +363,20 @@
           "hiragana_full": "そのきぎょうのせんりゃくはだいきぎょうににているが、じつのところけんじつである。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "戦略",
+          "reading": "せんりゃく",
+          "meaning": "strategy"
+        },
+        {
+          "word": "堅実",
+          "reading": "けんじつ",
+          "meaning": "steady; solid"
+        }
+      ]
     },
     {
       "id": "n1_070_10",
@@ -262,12 +384,12 @@
       "translation": "As is widely known, global warming has become a serious problem.",
       "blank_target": "ごとく",
       "wrong_choices": [
-        "通り",
+        "わりに",
         "ように",
         "ばかり"
       ],
       "wrong_choice_explanations": [
-        "通り also means 'as' and 周知の通り is a very common set phrase, but it sits in a colloquial register and lacks the literary, written-prose feel that 周知のごとく brings.",
+        "わりに means 'considering / for' and sets up a contrast against expectation ('for something so well known…'); it doesn't carry the 'as is (well) known' citational meaning that 周知のごとく expresses.",
         "ように would be grammatical here ('as is known'), but it is the neutral, everyday word — it doesn't carry the formal academic tone that ごとく lends to written and editorial Japanese.",
         "ばかり means 'just / nothing but' and cannot form an 'as ~' phrase; it would simply break the sentence's meaning."
       ],
@@ -282,7 +404,20 @@
           "hiragana_full": "ごぞんじのごとく、ちきゅうおんだんかはしんこくなもんだいだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "周知",
+          "reading": "しゅうち",
+          "meaning": "common knowledge"
+        },
+        {
+          "word": "深刻",
+          "reading": "しんこく",
+          "meaning": "serious; grave"
+        }
+      ]
     }
   ]
 }

@@ -9,7 +9,11 @@
       "example_sentence": "遠いところをわざわざお越しいただき、ありがとうございます。",
       "translation": "Thank you for taking the trouble to come all this way.",
       "blank_target": "わざわざ",
-      "wrong_choices": ["わざと", "ついでに", "たまたま"],
+      "wrong_choices": [
+        "わざと",
+        "ついでに",
+        "たまたま"
+      ],
       "wrong_choice_explanations": [
         "「わざと」は意図的に（しばしば悪意やいたずらで）何かをする様子。相手の好意的な労力に感謝する場面では「わざとお越しいただき」は失礼な響きになる。",
         "「ついでに」だと他の用事のついでに来たという意味になり、私のために労力をかけてくれたことへの感謝の気持ちが消えてしまう。",
@@ -17,17 +21,35 @@
       ],
       "hiragana_full": "とおいところをわざわざおこしいただき、ありがとうございます。",
       "audio_alternatives": [
-        { "kanji": "本日は遠くからわざわざ来てくださって、ありがとうございます。", "hiragana_full": "ほんじつはとおくからわざわざきてくださって、ありがとうございます。" },
-        { "kanji": "遠いのに来てくれて、本当にありがとう。", "hiragana_full": "とおいのにきてくれて、ほんとうにありがとう。" }
+        {
+          "kanji": "本日は遠くからわざわざ来てくださって、ありがとうございます。",
+          "hiragana_full": "ほんじつはとおくからわざわざきてくださって、ありがとうございます。"
+        },
+        {
+          "kanji": "遠いのに来てくれて、本当にありがとう。",
+          "hiragana_full": "とおいのにきてくれて、ほんとうにありがとう。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        {
+          "word": "お越し",
+          "reading": "おこし",
+          "meaning": "coming (honorific)"
+        }
+      ]
     },
     {
       "id": "n3_126_2",
       "example_sentence": "メールで済む用件なのに、彼はわざわざ電話をかけてきた。",
       "translation": "Even though an email would have been enough, he went to the trouble of calling me.",
       "blank_target": "わざわざ",
-      "wrong_choices": ["わざと", "つい", "どうせ"],
+      "wrong_choices": [
+        "わざと",
+        "つい",
+        "どうせ"
+      ],
       "wrong_choice_explanations": [
         "「わざと」だと嫌がらせなど悪い意図で電話してきたように聞こえる。ここは「しなくてもいい労力をかけた」という意味なので「わざわざ」が合う。",
         "「つい」は無意識・衝動的にしてしまう様子。「メールで済むのに」とあえて手間をかけたことを述べる文の流れに合わない。",
@@ -35,17 +57,40 @@
       ],
       "hiragana_full": "めーるですむようけんなのに、かれはわざわざでんわをかけてきた。",
       "audio_alternatives": [
-        { "kanji": "メールでいいのに、彼はわざわざ電話してきたんだよ。", "hiragana_full": "めーるでいいのに、かれはわざわざでんわしてきたんだよ。" },
-        { "kanji": "その用件なら、電話までしなくてもよかったのに。", "hiragana_full": "そのようけんなら、でんわまでしなくてもよかったのに。" }
+        {
+          "kanji": "メールでいいのに、彼はわざわざ電話してきたんだよ。",
+          "hiragana_full": "めーるでいいのに、かれはわざわざでんわしてきたんだよ。"
+        },
+        {
+          "kanji": "その用件なら、電話までしなくてもよかったのに。",
+          "hiragana_full": "そのようけんなら、でんわまでしなくてもよかったのに。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "済む",
+          "reading": "すむ",
+          "meaning": "to be settled; suffice"
+        },
+        {
+          "word": "用件",
+          "reading": "ようけん",
+          "meaning": "matter; business"
+        }
+      ]
     },
     {
       "id": "n3_126_3",
       "example_sentence": "部長はわざわざ空港まで私を迎えに来てくださった。",
       "translation": "The department head went out of his way to come all the way to the airport to pick me up.",
       "blank_target": "わざわざ",
-      "wrong_choices": ["わざと", "たまたま", "ついでに"],
+      "wrong_choices": [
+        "わざと",
+        "たまたま",
+        "ついでに"
+      ],
       "wrong_choice_explanations": [
         "「わざと」は悪意やいたずらの意図を連想させるので、目上の人の親切な行動の描写には合わない。",
         "「たまたま」だと偶然空港にいて会ったという意味になり、「迎えに来てくださった」という目的のある行動と矛盾する。",
@@ -53,17 +98,40 @@
       ],
       "hiragana_full": "ぶちょうはわざわざくうこうまでわたしをむかえにきてくださった。",
       "audio_alternatives": [
-        { "kanji": "部長がわざわざ空港まで迎えに来てくれて、恐縮した。", "hiragana_full": "ぶちょうがわざわざくうこうまでむかえにきてくれて、きょうしゅくした。" },
-        { "kanji": "私を迎えるためだけに、部長は空港まで足を運んでくださった。", "hiragana_full": "わたしをむかえるためだけに、ぶちょうはくうこうまであしをはこんでくださった。" }
+        {
+          "kanji": "部長がわざわざ空港まで迎えに来てくれて、恐縮した。",
+          "hiragana_full": "ぶちょうがわざわざくうこうまでむかえにきてくれて、きょうしゅくした。"
+        },
+        {
+          "kanji": "私を迎えるためだけに、部長は空港まで足を運んでくださった。",
+          "hiragana_full": "わたしをむかえるためだけに、ぶちょうはくうこうまであしをはこんでくださった。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        {
+          "word": "空港",
+          "reading": "くうこう",
+          "meaning": "airport"
+        },
+        {
+          "word": "迎えに",
+          "reading": "むかえに",
+          "meaning": "to go to meet"
+        }
+      ]
     },
     {
       "id": "n3_126_4",
       "example_sentence": "わざわざ店まで行かなくても、ネットで注文できますよ。",
       "translation": "You don't have to go all the way to the store—you can order online.",
       "blank_target": "わざわざ",
-      "wrong_choices": ["わざと", "せっかく", "つい"],
+      "wrong_choices": [
+        "わざと",
+        "せっかく",
+        "つい"
+      ],
       "wrong_choice_explanations": [
         "「わざと」は悪意やいたずらなどの意図を強調する副詞で、「行かなくてもいい」という手間・労力の話には合わない。",
         "「せっかく」は「せっかく来たのに」のように、実現した機会が無駄になるのを惜しむ形で使う。「せっかく行かなくても」という形では使えない。",
@@ -71,17 +139,28 @@
       ],
       "hiragana_full": "わざわざみせまでいかなくても、ねっとでちゅうもんできますよ。",
       "audio_alternatives": [
-        { "kanji": "わざわざ出かけなくても、家から注文すればいいですよ。", "hiragana_full": "わざわざでかけなくても、いえからちゅうもんすればいいですよ。" },
-        { "kanji": "店に行かなくても、ネットで簡単に注文できますよ。", "hiragana_full": "みせにいかなくても、ねっとでかんたんにちゅうもんできますよ。" }
+        {
+          "kanji": "わざわざ出かけなくても、家から注文すればいいですよ。",
+          "hiragana_full": "わざわざでかけなくても、いえからちゅうもんすればいいですよ。"
+        },
+        {
+          "kanji": "店に行かなくても、ネットで簡単に注文できますよ。",
+          "hiragana_full": "みせにいかなくても、ねっとでかんたんにちゅうもんできますよ。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n3_126_5",
       "example_sentence": "忙しい中、わざわざ時間を作って相談にのってくれた。",
       "translation": "Even though she was busy, she took the trouble to make time and hear me out.",
       "blank_target": "わざわざ",
-      "wrong_choices": ["わざと", "たまたま", "仕方なく"],
+      "wrong_choices": [
+        "わざと",
+        "たまたま",
+        "仕方なく"
+      ],
       "wrong_choice_explanations": [
         "「わざと」は悪い意図を含む行動に使うことが多く、親切への感謝を表すこの文脈では不自然。",
         "「たまたま」だと偶然時間ができたことになり、忙しいのに私のためにあえて時間を割いてくれたというニュアンスが失われる。",
@@ -89,17 +168,28 @@
       ],
       "hiragana_full": "いそがしいなか、わざわざじかんをつくってそうだんにのってくれた。",
       "audio_alternatives": [
-        { "kanji": "忙しいのに、わざわざ私のために時間を取ってくれた。", "hiragana_full": "いそがしいのに、わざわざわたしのためにじかんをとってくれた。" },
-        { "kanji": "彼女は忙しい仕事の合間に、相談にのってくれた。", "hiragana_full": "かのじょはいそがしいしごとのあいまに、そうだんにのってくれた。" }
+        {
+          "kanji": "忙しいのに、わざわざ私のために時間を取ってくれた。",
+          "hiragana_full": "いそがしいのに、わざわざわたしのためにじかんをとってくれた。"
+        },
+        {
+          "kanji": "彼女は忙しい仕事の合間に、相談にのってくれた。",
+          "hiragana_full": "かのじょはいそがしいしごとのあいまに、そうだんにのってくれた。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n3_126_6",
       "example_sentence": "教授は休みの日に、わざわざ研究室を開けてくださった。",
       "translation": "The professor went to the trouble of opening the lab for us on his day off.",
       "blank_target": "わざわざ",
-      "wrong_choices": ["わざと", "どうせ", "ついでに"],
+      "wrong_choices": [
+        "わざと",
+        "どうせ",
+        "ついでに"
+      ],
       "wrong_choice_explanations": [
         "「わざと」はいたずらや悪意を連想させる。学生のために労力をかけてくれた行動には「わざわざ」がふさわしい。",
         "「どうせ」は「どうせ〜だろう」のような投げやりな推量や諦めを導く副詞で、具体的な行動の描写の位置には使えない。",
@@ -107,17 +197,40 @@
       ],
       "hiragana_full": "きょうじゅはやすみのひに、わざわざけんきゅうしつをあけてくださった。",
       "audio_alternatives": [
-        { "kanji": "休みの日なのに、教授はわざわざ大学まで来てくださった。", "hiragana_full": "やすみのひなのに、きょうじゅはわざわざだいがくまできてくださった。" },
-        { "kanji": "教授は私たちのために、休日に研究室を開けてくれた。", "hiragana_full": "きょうじゅはわたしたちのために、きゅうじつにけんきゅうしつをあけてくれた。" }
+        {
+          "kanji": "休みの日なのに、教授はわざわざ大学まで来てくださった。",
+          "hiragana_full": "やすみのひなのに、きょうじゅはわざわざだいがくまできてくださった。"
+        },
+        {
+          "kanji": "教授は私たちのために、休日に研究室を開けてくれた。",
+          "hiragana_full": "きょうじゅはわたしたちのために、きゅうじつにけんきゅうしつをあけてくれた。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        {
+          "word": "教授",
+          "reading": "きょうじゅ",
+          "meaning": "professor"
+        },
+        {
+          "word": "研究室",
+          "reading": "けんきゅうしつ",
+          "meaning": "lab; (professor's) office"
+        }
+      ]
     },
     {
       "id": "n3_126_7",
       "example_sentence": "そんな小さなことのために、わざわざ会議を開く必要はないだろう。",
       "translation": "There's no need to go to the trouble of holding a meeting over such a small matter.",
       "blank_target": "わざわざ",
-      "wrong_choices": ["わざと", "たまたま", "思わず"],
+      "wrong_choices": [
+        "わざと",
+        "たまたま",
+        "思わず"
+      ],
       "wrong_choice_explanations": [
         "「わざと」は悪意による意図を暗示するため、「開く必要はない」という手間・労力についての判断とずれる。",
         "「たまたま」だと会議が偶然開かれるという意味になり、開くかどうかを判断しているこの文に合わない。",
@@ -125,17 +238,28 @@
       ],
       "hiragana_full": "そんなちいさなことのために、わざわざかいぎをひらくひつようはないだろう。",
       "audio_alternatives": [
-        { "kanji": "こんな小さな問題で、わざわざ集まらなくてもいいと思う。", "hiragana_full": "こんなちいさなもんだいで、わざわざあつまらなくてもいいとおもう。" },
-        { "kanji": "その程度のことなら、メールで共有すれば十分だろう。", "hiragana_full": "そのていどのことなら、めーるできょうゆうすればじゅうぶんだろう。" }
+        {
+          "kanji": "こんな小さな問題で、わざわざ集まらなくてもいいと思う。",
+          "hiragana_full": "こんなちいさなもんだいで、わざわざあつまらなくてもいいとおもう。"
+        },
+        {
+          "kanji": "その程度のことなら、メールで共有すれば十分だろう。",
+          "hiragana_full": "そのていどのことなら、めーるできょうゆうすればじゅうぶんだろう。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n3_126_8",
       "example_sentence": "彼女は雨の中、わざわざ私の忘れ物を届けに来てくれた。",
       "translation": "She went out of her way to bring me the thing I'd forgotten, even in the rain.",
       "blank_target": "わざわざ",
-      "wrong_choices": ["わざと", "ついでに", "うっかり"],
+      "wrong_choices": [
+        "わざと",
+        "ついでに",
+        "うっかり"
+      ],
       "wrong_choice_explanations": [
         "「わざと」は悪意的な意図を表すことが多く、親切な行動の描写には不自然。労力をかけてくれたことを表す「わざわざ」が合う。",
         "「ついでに」だと何かのついでに届けたことになり、雨の中をそのためだけに来てくれたという労力のニュアンスが失われる。",
@@ -143,17 +267,40 @@
       ],
       "hiragana_full": "かのじょはあめのなか、わざわざわたしのわすれものをとどけにきてくれた。",
       "audio_alternatives": [
-        { "kanji": "雨なのに、彼女はわざわざ忘れ物を届けに来てくれたんだ。", "hiragana_full": "あめなのに、かのじょはわざわざわすれものをとどけにきてくれたんだ。" },
-        { "kanji": "彼女は雨の中を、私の忘れ物を持って来てくれた。", "hiragana_full": "かのじょはあめのなかを、わたしのわすれものをもってきてくれた。" }
+        {
+          "kanji": "雨なのに、彼女はわざわざ忘れ物を届けに来てくれたんだ。",
+          "hiragana_full": "あめなのに、かのじょはわざわざわすれものをとどけにきてくれたんだ。"
+        },
+        {
+          "kanji": "彼女は雨の中を、私の忘れ物を持って来てくれた。",
+          "hiragana_full": "かのじょはあめのなかを、わたしのわすれものをもってきてくれた。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "忘れ物",
+          "reading": "わすれもの",
+          "meaning": "forgotten item"
+        },
+        {
+          "word": "届けに",
+          "reading": "とどけに",
+          "meaning": "to deliver"
+        }
+      ]
     },
     {
       "id": "n3_126_9",
       "example_sentence": "この菓子のためだけに、わざわざ京都まで行く人もいるらしい。",
       "translation": "Apparently some people travel all the way to Kyoto just for these sweets.",
       "blank_target": "わざわざ",
-      "wrong_choices": ["わざと", "たまたま", "つい"],
+      "wrong_choices": [
+        "わざと",
+        "たまたま",
+        "つい"
+      ],
       "wrong_choice_explanations": [
         "「わざと」だと何か悪い意図があって京都に行くような響きになり不自然。かける労力を強調する「わざわざ」が正しい。",
         "「たまたま」は偶然を表し、「このためだけに」という目的の強調と矛盾する。",
@@ -161,17 +308,35 @@
       ],
       "hiragana_full": "このかしのためだけに、わざわざきょうとまでいくひともいるらしい。",
       "audio_alternatives": [
-        { "kanji": "そのお菓子を買うためだけに、わざわざ京都を訪れるファンもいるそうだ。", "hiragana_full": "そのおかしをかうためだけに、わざわざきょうとをおとずれるふぁんもいるそうだ。" },
-        { "kanji": "お菓子ひとつのために京都まで行くなんて、すごい情熱だ。", "hiragana_full": "おかしひとつのためにきょうとまでいくなんて、すごいじょうねつだ。" }
+        {
+          "kanji": "そのお菓子を買うためだけに、わざわざ京都を訪れるファンもいるそうだ。",
+          "hiragana_full": "そのおかしをかうためだけに、わざわざきょうとをおとずれるふぁんもいるそうだ。"
+        },
+        {
+          "kanji": "お菓子ひとつのために京都まで行くなんて、すごい情熱だ。",
+          "hiragana_full": "おかしひとつのためにきょうとまでいくなんて、すごいじょうねつだ。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "菓子",
+          "reading": "かし",
+          "meaning": "sweets; confection"
+        }
+      ]
     },
     {
       "id": "n3_126_10",
       "example_sentence": "彼はお礼を言うためだけに、わざわざうちまで訪ねて来てくれた。",
       "translation": "He came all the way to my house just to say thank you.",
       "blank_target": "わざわざ",
-      "wrong_choices": ["わざと", "どうせ", "たまたま"],
+      "wrong_choices": [
+        "わざと",
+        "どうせ",
+        "たまたま"
+      ],
       "wrong_choice_explanations": [
         "「わざと」は悪意やいたずらのニュアンスがあり、感謝を伝えに来るという好意的な行動に合わない。",
         "「どうせ」は諦めや投げやりな気持ちで結果を予想する副詞で、行動にかけた労力を強調する位置には置けない。",
@@ -179,10 +344,24 @@
       ],
       "hiragana_full": "かれはおれいをいうためだけに、わざわざうちまでたずねてきてくれた。",
       "audio_alternatives": [
-        { "kanji": "お礼のためだけに、彼はわざわざ家まで来てくれた。", "hiragana_full": "おれいのためだけに、かれはわざわざいえまできてくれた。" },
-        { "kanji": "彼がうちまで来たのは、直接お礼を言いたかったからだ。", "hiragana_full": "かれがうちまできたのは、ちょくせつおれいをいいたかったからだ。" }
+        {
+          "kanji": "お礼のためだけに、彼はわざわざ家まで来てくれた。",
+          "hiragana_full": "おれいのためだけに、かれはわざわざいえまできてくれた。"
+        },
+        {
+          "kanji": "彼がうちまで来たのは、直接お礼を言いたかったからだ。",
+          "hiragana_full": "かれがうちまできたのは、ちょくせつおれいをいいたかったからだ。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "訪ねて",
+          "reading": "たずねて",
+          "meaning": "to visit; call on"
+        }
+      ]
     }
   ]
 }

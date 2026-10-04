@@ -30,7 +30,8 @@
           "hiragana_full": "えいごはもちろん、ちゅうごくごもはなすことができます。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n2_041_2",
@@ -58,7 +59,15 @@
           "hiragana_full": "にほんしょくはもちろん、せかいかっこくのりょうりもつくれる。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "各国",
+          "reading": "かっこく",
+          "meaning": "each country"
+        }
+      ]
     },
     {
       "id": "n2_041_3",
@@ -86,7 +95,30 @@
           "hiragana_full": "きほんてきなそうさだけでなく、こうどなきのうもつかいこなすことができる。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "操作",
+          "reading": "そうさ",
+          "meaning": "operation"
+        },
+        {
+          "word": "高度",
+          "reading": "こうど",
+          "meaning": "advanced/high-level"
+        },
+        {
+          "word": "機能",
+          "reading": "きのう",
+          "meaning": "function"
+        },
+        {
+          "word": "使いこなせる",
+          "reading": "つかいこなせる",
+          "meaning": "can master/use skillfully"
+        }
+      ]
     },
     {
       "id": "n2_041_4",
@@ -114,38 +146,18 @@
           "hiragana_full": "よむことはもちろん、かくこともじょうずだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "得意",
+          "reading": "とくい",
+          "meaning": "good at"
+        }
+      ]
     },
     {
       "id": "n2_041_5",
-      "example_sentence": "平日はもちろん、週末も働いている。",
-      "translation": "I work not only on weekdays but of course on weekends too.",
-      "blank_target": "はもちろん",
-      "wrong_choices": [
-        "に限って",
-        "について",
-        "に対して"
-      ],
-      "wrong_choice_explanations": [
-        "に限って means 'only/limited to weekdays,' which would EXCLUDE weekends — the opposite of はもちろん, which treats weekdays as obvious and adds weekends.",
-        "について means 'about/concerning weekdays,' a topic marker that doesn't build the 'weekdays of course, and weekends too' addition.",
-        "に対して means 'toward/in contrast to,' not the additive 'A as expected, B as well' relation the も in 週末も calls for."
-      ],
-      "hiragana_full": "へいじつはもちろんしゅうまつもはたらいている。",
-      "audio_alternatives": [
-        {
-          "kanji": "平日だけでなく、週末も当然働いている。",
-          "hiragana_full": "へいじつだけでなくしゅうまつもとうぜんはたらいている。"
-        },
-        {
-          "kanji": "週末はもちろん、平日も働いています。",
-          "hiragana_full": "しゅうまつはもちろんへいじつもはたらいています。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_041_6",
       "example_sentence": "大学生はもちろん、高校生も参加できる。",
       "translation": "Not only university students but of course high school students can also participate.",
       "blank_target": "はもちろん",
@@ -170,10 +182,18 @@
           "hiragana_full": "だいがくせいはもちろんのことこうこうせいもさんかできる。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "参加",
+          "reading": "さんか",
+          "meaning": "participation"
+        }
+      ]
     },
     {
-      "id": "n2_041_7",
+      "id": "n2_041_6",
       "example_sentence": "技術はもちろん、コミュニケーション能力も必要だ。",
       "translation": "Not only technical skills but of course communication abilities are also necessary.",
       "blank_target": "はもちろん",
@@ -198,10 +218,23 @@
           "hiragana_full": "ぎじゅつはもちろんこみゅにけーしょんのうりょくもひつようです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "技術",
+          "reading": "ぎじゅつ",
+          "meaning": "skill/technology"
+        },
+        {
+          "word": "能力",
+          "reading": "のうりょく",
+          "meaning": "ability"
+        }
+      ]
     },
     {
-      "id": "n2_041_8",
+      "id": "n2_041_7",
       "example_sentence": "国内はもちろん、海外でも有名な歌手だ。",
       "translation": "She's a famous singer not only domestically but of course internationally as well.",
       "blank_target": "はもちろん",
@@ -226,10 +259,23 @@
           "hiragana_full": "こくないはもちろん、かいがいでもゆうめいなかしゅです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "国内",
+          "reading": "こくない",
+          "meaning": "domestic"
+        },
+        {
+          "word": "歌手",
+          "reading": "かしゅ",
+          "meaning": "singer"
+        }
+      ]
     },
     {
-      "id": "n2_041_9",
+      "id": "n2_041_8",
       "example_sentence": "子供はもちろん、大人も楽しめる映画だ。",
       "translation": "It's a movie that not only children but of course adults can enjoy too.",
       "blank_target": "はもちろん",
@@ -254,10 +300,11 @@
           "hiragana_full": "こどもはもちろん、おとなもたのしめるえいがです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
-      "id": "n2_041_10",
+      "id": "n2_041_9",
       "example_sentence": "理論はもちろん、実践経験も重要だ。",
       "translation": "Not only theory but of course practical experience is also important.",
       "blank_target": "はもちろん",
@@ -282,7 +329,66 @@
           "hiragana_full": "りろんのみならず、じっせんけいけんもたいせつだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "理論",
+          "reading": "りろん",
+          "meaning": "theory"
+        },
+        {
+          "word": "実践",
+          "reading": "じっせん",
+          "meaning": "practice"
+        }
+      ]
+    },
+    {
+      "id": "n2_041_10",
+      "example_sentence": "部長はもちろん、課長にも報告が必要だ。",
+      "translation": "Of course you need to report to the department head, not to mention the section chief.",
+      "blank_target": "はもちろん",
+      "wrong_choices": [
+        "に対して",
+        "について",
+        "に限って"
+      ],
+      "wrong_choice_explanations": [
+        "に対して marks a target or contrast ('toward the department head'), not the 'department head of course, and the section chief too' addition that はもちろん expresses.",
+        "について introduces a topic ('about the department head'), so it can't present reporting to the head as the obvious case before adding the section chief.",
+        "に限って means 'only/just the department head', restricting rather than expanding — the opposite of はもちろん adding the section chief on top."
+      ],
+      "hiragana_full": "ぶちょうはもちろん、かちょうにもほうこくがひつようだ。",
+      "audio_alternatives": [
+        {
+          "kanji": "部長はもちろん、課長にも報告しなければならない。",
+          "hiragana_full": "ぶちょうはもちろん、かちょうにもほうこくしなければならない。"
+        },
+        {
+          "kanji": "部長だけでなく、課長にも報告が必要だ。",
+          "hiragana_full": "ぶちょうだけでなく、かちょうにもほうこくがひつようだ。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "部長",
+          "reading": "ぶちょう",
+          "meaning": "department head"
+        },
+        {
+          "word": "課長",
+          "reading": "かちょう",
+          "meaning": "section chief"
+        },
+        {
+          "word": "報告",
+          "reading": "ほうこく",
+          "meaning": "report"
+        }
+      ]
     }
   ]
 }

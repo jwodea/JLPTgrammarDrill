@@ -1,7 +1,7 @@
 {
   "id": "n2_003",
-  "pattern": "〜にあたって",
-  "meaning": "when / at the time of (important occasion requiring careful preparation)",
+  "pattern": "〜にあたって／に当たり",
+  "meaning": "when / on the occasion of / at the time of (important occasion requiring careful preparation; に当たり is the more formal written variant)",
   "level": "N2",
   "exercises": [
     {
@@ -30,7 +30,20 @@
           "hiragana_full": "そつぎょうにあたって、せんせいへのかんしゃをつたえた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "感謝",
+          "reading": "かんしゃ",
+          "meaning": "gratitude"
+        },
+        {
+          "word": "卒業",
+          "reading": "そつぎょう",
+          "meaning": "graduation"
+        }
+      ]
     },
     {
       "id": "n2_003_2",
@@ -58,94 +71,23 @@
           "hiragana_full": "しんねんにあたり、もくひょうをたてた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "新年",
+          "reading": "しんねん",
+          "meaning": "new year"
+        },
+        {
+          "word": "目標",
+          "reading": "もくひょう",
+          "meaning": "goal"
+        }
+      ]
     },
     {
       "id": "n2_003_3",
-      "example_sentence": "昇進にあたって、責任が増えた。",
-      "translation": "Upon promotion, my responsibilities increased.",
-      "blank_target": "にあたって",
-      "wrong_choices": [
-        "について",
-        "をめぐって",
-        "にわたって"
-      ],
-      "wrong_choice_explanations": [
-        "について marks a topic ('about the promotion'); responsibilities did not increase *about* the promotion — they increased *upon* it, the occasion にあたって marks.",
-        "をめぐって means 'surrounding (a contested matter)'; the promotion is not being debated here — にあたって simply marks the moment it took effect.",
-        "にわたって means 'spanning' a range or period; a promotion is a single transition, not a stretch over which responsibilities extend."
-      ],
-      "hiragana_full": "しょうしんにあたって、せきにんがふえた。",
-      "audio_alternatives": [
-        {
-          "kanji": "昇進するにつれて、責任が増えた。",
-          "hiragana_full": "しょうしんするにつれて、せきにんがふえた。"
-        },
-        {
-          "kanji": "昇進を機に、責任が増えた。",
-          "hiragana_full": "しょうしんをきに、せきにんがふえた。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_003_4",
-      "example_sentence": "成人にあたって、社会的な義務を理解した。",
-      "translation": "Upon becoming an adult, I understood social responsibilities.",
-      "blank_target": "にあたって",
-      "wrong_choices": [
-        "に関して",
-        "に対して",
-        "をめぐって"
-      ],
-      "wrong_choice_explanations": [
-        "に関して means 'regarding'; the duties were not understood *about* coming of age — they were grasped *on reaching* it, the occasion marked by にあたって.",
-        "に対して means 'toward / in response to'; it would make adulthood the target of an action, but にあたって marks it as the occasion that prompted the realization.",
-        "をめぐって means 'surrounding (a disputed matter)'; coming of age is not a contested issue here — にあたって simply marks the life stage one reaches."
-      ],
-      "hiragana_full": "せいじんにあたって、しゃかいてきなぎむをりかいした。",
-      "audio_alternatives": [
-        {
-          "kanji": "大人になるにあたって、社会的な義務を理解した。",
-          "hiragana_full": "おとなになるにあたって、しゃかいてきなぎむをりかいした。"
-        },
-        {
-          "kanji": "成人を迎えて、社会的な義務を理解した。",
-          "hiragana_full": "せいじんをむかえて、しゃかいてきなぎむをりかいした。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_003_5",
-      "example_sentence": "最終審査にあたって、厳格な基準が適用された。",
-      "translation": "In the final examination, strict standards were applied.",
-      "blank_target": "にあたって",
-      "wrong_choices": [
-        "について",
-        "をめぐって",
-        "に対して"
-      ],
-      "wrong_choice_explanations": [
-        "について marks a topic ('about the final review'); the standards were not applied *about* it — they were applied *at* the review, the occasion にあたって marks.",
-        "をめぐって means 'surrounding (a contested matter)'; the review itself is not in dispute — にあたって simply marks the occasion on which strict standards took effect.",
-        "に対して means 'toward / against'; it would make the review the target of the standards, but にあたって marks it as the occasion at which they were applied."
-      ],
-      "hiragana_full": "さいしゅうしんさにあたって、げんかくなきじゅんがてきようされた。",
-      "audio_alternatives": [
-        {
-          "kanji": "最終審査において、厳格な基準が適用された。",
-          "hiragana_full": "さいしゅうしんさにおいて、げんかくなきじゅんがてきようされた。"
-        },
-        {
-          "kanji": "最終審査では、厳しい基準が適用された。",
-          "hiragana_full": "さいしゅうしんさでは、きびしいきじゅんがてきようされた。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_003_6",
       "example_sentence": "プロジェクト開始にあたって、全員で目標を確認した。",
       "translation": "When starting the project, all team members confirmed the goals together.",
       "blank_target": "にあたって",
@@ -170,10 +112,23 @@
           "hiragana_full": "ぷろじぇくとのかいしにさいして、ぜんいんでもくひょうをかくにんした。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "全員",
+          "reading": "ぜんいん",
+          "meaning": "everyone"
+        },
+        {
+          "word": "確認した",
+          "reading": "かくにんした",
+          "meaning": "confirmed"
+        }
+      ]
     },
     {
-      "id": "n2_003_7",
+      "id": "n2_003_4",
       "example_sentence": "起業にあたって、十分な資金計画が必要である。",
       "translation": "When starting a new business, adequate financial planning is necessary.",
       "blank_target": "にあたって",
@@ -198,38 +153,28 @@
           "hiragana_full": "きぎょうするにあたり、じゅうぶんなしきんけいかくがひつようです。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_003_8",
-      "example_sentence": "新しい課題への取り組みにあたって、チーム編成を変更した。",
-      "translation": "When taking on the new challenge, we changed the team's composition.",
-      "blank_target": "にあたって",
-      "wrong_choices": [
-        "について",
-        "に対して",
-        "によって"
-      ],
-      "wrong_choice_explanations": [
-        "について marks a topic ('about the undertaking'); the composition was not changed *about* it — it was changed *in undertaking* the new challenge, the occasion にあたって marks.",
-        "に対して means 'toward / in response to'; it would make the undertaking a target, but にあたって marks it as the occasion that prompted reorganizing the team.",
-        "によって means 'by means of / due to'; it treats the undertaking as a cause, but the team change was made *on the occasion of* taking it on, which にあたって conveys."
-      ],
-      "hiragana_full": "あたらしいかだいへのとりくみにあたって、チームへんせいをへんこうした。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
         {
-          "kanji": "新しい課題に取り組む際に、チーム編成を変更した。",
-          "hiragana_full": "あたらしいかだいにとりくむさいに、チームへんせいをへんこうした。"
+          "word": "起業",
+          "reading": "きぎょう",
+          "meaning": "starting a business"
         },
         {
-          "kanji": "新しい課題に取り組むにあたり、チーム編成を変更した。",
-          "hiragana_full": "あたらしいかだいにとりくむにあたり、チームへんせいをへんこうした。"
+          "word": "資金",
+          "reading": "しきん",
+          "meaning": "funds"
+        },
+        {
+          "word": "計画",
+          "reading": "けいかく",
+          "meaning": "plan"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n2_003_9",
+      "id": "n2_003_5",
       "example_sentence": "論文執筆にあたって、膨大な文献を読破した。",
       "translation": "When writing the thesis, I read through a vast amount of literature.",
       "blank_target": "にあたって",
@@ -254,35 +199,240 @@
           "hiragana_full": "ろんぶんしっぴつのさいに、ぼうだいなぶんけんをどくはした。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "執筆",
+          "reading": "しっぴつ",
+          "meaning": "writing (of a work)"
+        },
+        {
+          "word": "膨大",
+          "reading": "ぼうだい",
+          "meaning": "enormous"
+        },
+        {
+          "word": "文献",
+          "reading": "ぶんけん",
+          "meaning": "references; literature"
+        },
+        {
+          "word": "読破した",
+          "reading": "どくはした",
+          "meaning": "read through"
+        }
+      ]
+    },
+    {
+      "id": "n2_003_6",
+      "example_sentence": "新事業の開始に当たり、社長より挨拶がある。",
+      "translation": "On the occasion of starting the new business, there will be greetings from the president.",
+      "blank_target": "に当たり",
+      "wrong_choices": [
+        "に関して",
+        "について",
+        "に対して"
+      ],
+      "wrong_choice_explanations": [
+        "に関して means 'regarding/concerning' but doesn't express the temporal aspect of 'on the occasion of'.",
+        "「について」 means 'about / concerning'; the greetings would be a talk about the new business, not remarks delivered on the occasion of its launch, which に当たり marks.",
+        "に対して means 'toward/against' and doesn't fit the context of marking an occasion."
+      ],
+      "hiragana_full": "しんじぎょうのかいしにあたり、しゃちょうよりあいさつがある。",
+      "audio_alternatives": [
+        {
+          "kanji": "新事業を開始するにあたって、社長から挨拶がある。",
+          "hiragana_full": "しんじぎょうをかいしするにあたって、しゃちょうからあいさつがある。"
+        },
+        {
+          "kanji": "新事業の開始に際して、社長より挨拶がございます。",
+          "hiragana_full": "しんじぎょうのかいしにさいして、しゃちょうよりあいさつがございます。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "にあたり",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "事業",
+          "reading": "じぎょう",
+          "meaning": "business/venture"
+        },
+        {
+          "word": "挨拶",
+          "reading": "あいさつ",
+          "meaning": "greeting/address"
+        }
+      ]
+    },
+    {
+      "id": "n2_003_7",
+      "example_sentence": "新学期開始に当たり、シラバスの確認が行われる。",
+      "translation": "On the occasion of the new semester beginning, syllabus confirmation takes place.",
+      "blank_target": "に当たり",
+      "wrong_choices": [
+        "に基づいて",
+        "によって",
+        "を通じて"
+      ],
+      "wrong_choice_explanations": [
+        "に基づいて means 'based on' which doesn't express the temporal occasion meaning.",
+        "によって means 'by means of/through' but doesn't mark the timing of an occasion.",
+        "を通じて means 'through/via' but doesn't express the meaning of 'on the occasion of'."
+      ],
+      "hiragana_full": "しんがっきかいしにあたり、しらばすのかくにんがおこなわれる。",
+      "audio_alternatives": [
+        {
+          "kanji": "新学期の始まりに際して、シラバスの確認が行われる。",
+          "hiragana_full": "しんがっきのはじまりにさいして、しらばすのかくにんがおこなわれる。"
+        },
+        {
+          "kanji": "新学期が始まるにあたって、シラバスの確認が行われる。",
+          "hiragana_full": "しんがっきがはじまるにあたって、しらばすのかくにんがおこなわれる。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "にあたり",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "学期",
+          "reading": "がっき",
+          "meaning": "semester/term"
+        }
+      ]
+    },
+    {
+      "id": "n2_003_8",
+      "example_sentence": "国際会議開催に当たり、各国から専門家が参集した。",
+      "translation": "On the occasion of holding the international conference, experts gathered from various countries.",
+      "blank_target": "に当たり",
+      "wrong_choices": [
+        "に対して",
+        "について",
+        "に応じて"
+      ],
+      "wrong_choice_explanations": [
+        "に対して means 'toward/against' but doesn't express the meaning of marking an occasion.",
+        "について means 'about/concerning' but lacks the formal ceremonial timing aspect.",
+        "に応じて means 'according to/depending on' but doesn't mark the specific occasion."
+      ],
+      "hiragana_full": "こくさいかいぎかいさいにあたり、かっこくからせんもんかがさんしゅうした。",
+      "audio_alternatives": [
+        {
+          "kanji": "国際会議の開催に際して、各国から専門家が集まった。",
+          "hiragana_full": "こくさいかいぎのかいさいにさいして、かっこくからせんもんかがあつまった。"
+        },
+        {
+          "kanji": "国際会議を開催するにあたって、各国の専門家が参集した。",
+          "hiragana_full": "こくさいかいぎをかいさいするにあたって、かっこくのせんもんかがさんしゅうした。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "にあたり",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "開催",
+          "reading": "かいさい",
+          "meaning": "holding (an event)"
+        },
+        {
+          "word": "専門家",
+          "reading": "せんもんか",
+          "meaning": "expert"
+        },
+        {
+          "word": "参集",
+          "reading": "さんしゅう",
+          "meaning": "to gather/assemble"
+        }
+      ]
+    },
+    {
+      "id": "n2_003_9",
+      "example_sentence": "開会に当たり、一言ご挨拶申し上げます。",
+      "translation": "On the occasion of the opening, I would like to say a few words of greeting.",
+      "blank_target": "に当たり",
+      "wrong_choices": [
+        "にわたって",
+        "をもとに",
+        "に関して"
+      ],
+      "wrong_choice_explanations": [
+        "にわたって means 'over/throughout (a span of time or space)'; the opening is a single moment, not a stretch, so 開会にわたって makes no sense — に当たり marks the occasion of the opening itself.",
+        "をもとに means 'based on / using as material'; the opening is not the basis or source of the greeting, so 開会をもとに does not fit.",
+        "に関して means 'regarding/concerning' and indicates topic, not the temporal occasion of an event."
+      ],
+      "hiragana_full": "かいかいにあたり、ひとことごあいさつもうしあげます。",
+      "audio_alternatives": [
+        {
+          "kanji": "開会にあたって、一言ご挨拶申し上げます。",
+          "hiragana_full": "かいかいにあたって、ひとことごあいさつもうしあげます。"
+        },
+        {
+          "kanji": "開会に際し、一言ご挨拶申し上げます。",
+          "hiragana_full": "かいかいにさいし、ひとことごあいさつもうしあげます。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "にあたり",
+      "register": "formal",
+      "vocab": [
+        {
+          "word": "開会",
+          "reading": "かいかい",
+          "meaning": "opening (of a meeting/ceremony)"
+        },
+        {
+          "word": "一言",
+          "reading": "ひとこと",
+          "meaning": "a word, a brief remark"
+        }
+      ]
     },
     {
       "id": "n2_003_10",
-      "example_sentence": "新しい美術館の建設にあたって、著名な建築家が招聘された。",
-      "translation": "When building the new museum, a renowned architect was invited.",
-      "blank_target": "にあたって",
+      "example_sentence": "就任に当たり、決意を述べさせていただきます。",
+      "translation": "Upon taking office, I would like to state my resolve.",
+      "blank_target": "に当たり",
       "wrong_choices": [
-        "について",
-        "に関して",
-        "をめぐって"
+        "に伴って",
+        "に対して",
+        "について"
       ],
       "wrong_choice_explanations": [
-        "について marks a topic ('about the construction'); the architect was not invited *about* it — he was invited *for* the construction project, the occasion marked by にあたって.",
-        "に関して means 'regarding'; it frames the museum as a subject of discussion, but にあたって marks the construction as the undertaking the architect was invited for.",
-        "をめぐって means 'surrounding (a contested matter)'; the construction is not a dispute here — にあたって simply marks the occasion of launching the project."
+        "に伴って means 'accompanying/as a consequence,' framing the resolve as a side effect of taking office rather than words offered on the occasion of it, which に当たり expresses.",
+        "に対して means 'toward/against' and indicates direction or target, not a temporal occasion.",
+        "について means 'about/concerning' and indicates topic, not the specific timing of taking office."
       ],
-      "hiragana_full": "あたらしいびじゅつかんのけんせつにあたって、ちょめいなけんちくかがしょうへいされた。",
+      "hiragana_full": "しゅうにんにあたり、けついをのべさせていただきます。",
       "audio_alternatives": [
         {
-          "kanji": "新しい美術館の建設に際して、著名な建築家が招聘された。",
-          "hiragana_full": "あたらしいびじゅつかんのけんせつにさいして、ちょめいなけんちくかがしょうへいされた。"
+          "kanji": "就任するにあたって、決意を申し上げます。",
+          "hiragana_full": "しゅうにんするにあたって、けついをもうしあげます。"
         },
         {
-          "kanji": "新しい美術館を建設するにあたり、著名な建築家が招聘された。",
-          "hiragana_full": "あたらしいびじゅつかんをけんせつするにあたり、ちょめいなけんちくかがしょうへいされた。"
+          "kanji": "就任に際し、決意を述べたいと思います。",
+          "hiragana_full": "しゅうにんにさいし、けついをのべたいとおもいます。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "blank_target_reading": "にあたり",
+      "register": "formal",
+      "vocab": [
+        {
+          "word": "就任",
+          "reading": "しゅうにん",
+          "meaning": "assuming office"
+        },
+        {
+          "word": "決意",
+          "reading": "けつい",
+          "meaning": "resolve, determination"
+        }
+      ]
     }
   ]
 }

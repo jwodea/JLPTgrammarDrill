@@ -10,13 +10,13 @@
       "translation": "Debate continues among experts concerning the authorship of that artwork.",
       "blank_target": "をめぐって",
       "wrong_choices": [
-        "について",
-        "に関して",
+        "に基づいて",
+        "によると",
         "をめぐる"
       ],
       "wrong_choice_explanations": [
-        "について means 'about/concerning' but is neutral and doesn't imply controversy or debate like をめぐって does in this context.",
-        "に関して means 'regarding/concerning' but lacks the nuance of dispute or controversy that をめぐって conveys here.",
+        "に基づいて means 'based on / grounded in', which would make the debate rest on the authorship as its premise, not treat the authorship as the disputed matter the debate surrounds, which をめぐって marks.",
+        "によると means 'according to (a source)' and attributes information to something; 作者帰属によると is nonsensical here, whereas をめぐって marks the authorship as the contested topic the debate centers on.",
         "をめぐる is the attributive form that modifies nouns, but this sentence needs をめぐって to connect the topic to the main clause."
       ],
       "hiragana_full": "そのさくひんのさくしゃきぞくをめぐって、せんもんかのあいだでぎろんがつづいている。",
@@ -30,7 +30,25 @@
           "hiragana_full": "そのさくひんのさくしゃきぞくをめぐり、せんもんかのあいだでぎろんがつづいている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "帰属",
+          "reading": "きぞく",
+          "meaning": "attribution"
+        },
+        {
+          "word": "専門家",
+          "reading": "せんもんか",
+          "meaning": "experts"
+        },
+        {
+          "word": "議論",
+          "reading": "ぎろん",
+          "meaning": "debate"
+        }
+      ]
     },
     {
       "id": "n2_071_2",
@@ -58,7 +76,25 @@
           "hiragana_full": "がくしゃたちはそのこふんのきげんをめぐってはげしくろんそうしている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "古墳",
+          "reading": "こふん",
+          "meaning": "ancient burial mound"
+        },
+        {
+          "word": "起源",
+          "reading": "きげん",
+          "meaning": "origin"
+        },
+        {
+          "word": "論争",
+          "reading": "ろんそう",
+          "meaning": "dispute"
+        }
+      ]
     },
     {
       "id": "n2_071_3",
@@ -86,7 +122,20 @@
           "hiragana_full": "こっかいではあたらしいほうりつあんをめぐり、はげしいぎろんがかわされた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "法律案",
+          "reading": "ほうりつあん",
+          "meaning": "bill, draft law"
+        },
+        {
+          "word": "国会",
+          "reading": "こっかい",
+          "meaning": "the Diet, parliament"
+        }
+      ]
     },
     {
       "id": "n2_071_4",
@@ -114,77 +163,34 @@
           "hiragana_full": "しんせいひんをいつはっぴょうするかをめぐって、けいえいじんのあいだでいけんがわれている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "発表",
+          "reading": "はっぴょう",
+          "meaning": "announcement"
+        },
+        {
+          "word": "経営陣",
+          "reading": "けいえいじん",
+          "meaning": "management, executives"
+        }
+      ]
     },
     {
       "id": "n2_071_5",
-      "example_sentence": "その解釈をめぐって、学者たちの間で論争が続いている。",
-      "translation": "Controversy continues among scholars concerning that interpretation.",
-      "blank_target": "をめぐって",
-      "wrong_choices": [
-        "において",
-        "に応じて",
-        "に関連して"
-      ],
-      "wrong_choice_explanations": [
-        "において means 'in/at' and indicates location or field, not the topic of controversy or debate.",
-        "に応じて means 'in response to/according to' and indicates adaptation or correspondence, not debate around a topic.",
-        "に関連して means 'in connection with' and indicates mere relation, lacking the confrontational nuance of をめぐって."
-      ],
-      "hiragana_full": "そのかいしゃくをめぐって、がくしゃたちのあいだでろんそうがつづいている。",
-      "audio_alternatives": [
-        {
-          "kanji": "その解釈について、学者たちの間で論争が続いている。",
-          "hiragana_full": "そのかいしゃくについて、がくしゃたちのあいだでろんそうがつづいている。"
-        },
-        {
-          "kanji": "その解釈をめぐり、学者たちの間で論争が続いている。",
-          "hiragana_full": "そのかいしゃくをめぐり、がくしゃたちのあいだでろんそうがつづいている。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_071_6",
-      "example_sentence": "環境問題をめぐって、政府と市民団体が対立している。",
-      "translation": "The government and citizen groups are in conflict over environmental issues.",
-      "blank_target": "をめぐって",
-      "wrong_choices": [
-        "を中心に",
-        "に向けて",
-        "をめぐる"
-      ],
-      "wrong_choice_explanations": [
-        "を中心に means 'centering on / with X at the center' and frames a topic as the focal point of activity, but it doesn't carry the confrontational nuance — 'centering on environmental issues' would suggest joint focus, not opposing camps.",
-        "に向けて means 'directed toward / heading for' and would frame environmental issues as the goal of the conflict; をめぐって instead frames them as the contested matter the two sides are clashing over.",
-        "をめぐる is the noun-modifying attributive form (e.g. 環境問題をめぐる議論); to connect to a main clause with a verb (対立している) the て-form をめぐって is required."
-      ],
-      "hiragana_full": "かんきょうもんだいをめぐって、せいふとしみんだんたいがたいりつしている。",
-      "audio_alternatives": [
-        {
-          "kanji": "環境問題について、政府と市民団体が対立している。",
-          "hiragana_full": "かんきょうもんだいについて、せいふとしみんだんたいがたいりつしている。"
-        },
-        {
-          "kanji": "政府と市民団体は環境問題をめぐって対立している。",
-          "hiragana_full": "せいふとしみんだんたいはかんきょうもんだいをめぐってたいりつしている。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_071_7",
       "example_sentence": "遺産相続をめぐって、兄弟間で裁判沙汰になった。",
       "translation": "The siblings ended up in court over the inheritance dispute.",
       "blank_target": "をめぐって",
       "wrong_choices": [
-        "のために",
-        "のせいで",
+        "を問わず",
+        "に沿って",
         "のおかげで"
       ],
       "wrong_choice_explanations": [
-        "のために means 'for the sake of/in order to' and indicates purpose, not the subject of a dispute.",
-        "のせいで means 'because of/due to' and indicates blame or negative causation, but doesn't express debate around a topic.",
+        "を問わず means 'regardless of' and dismisses something as irrelevant, so it cannot mark the inheritance as the issue the siblings fought over in court.",
+        "に沿って means 'in line with / along' and indicates following a plan or guideline, not the contested issue at the center of a dispute.",
         "のおかげで means 'thanks to' and indicates positive causation or gratitude, which is inappropriate for a court dispute."
       ],
       "hiragana_full": "いさんそうぞくをめぐって、きょうだいかんでさいばんざたになった。",
@@ -198,10 +204,28 @@
           "hiragana_full": "いさんそうぞくをめぐるあらそいで、きょうだいかんでさいばんざたとなった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "遺産",
+          "reading": "いさん",
+          "meaning": "inheritance, estate"
+        },
+        {
+          "word": "相続",
+          "reading": "そうぞく",
+          "meaning": "succession, inheritance"
+        },
+        {
+          "word": "裁判沙汰",
+          "reading": "さいばんざた",
+          "meaning": "legal battle, lawsuit"
+        }
+      ]
     },
     {
-      "id": "n2_071_8",
+      "id": "n2_071_6",
       "example_sentence": "選手の移籍問題をめぐって、ファンの間で議論が沸騰している。",
       "translation": "Debate is heating up among fans concerning the player's transfer issue.",
       "blank_target": "をめぐって",
@@ -226,50 +250,35 @@
           "hiragana_full": "せんしゅのいせきをめぐり、ふぁんのあいだではげしいぎろんがおきている。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_071_9",
-      "example_sentence": "教育改革をめぐって、保護者と教師の意見が対立している。",
-      "translation": "Parents and teachers are divided in opinion over educational reform.",
-      "blank_target": "をめぐって",
-      "wrong_choices": [
-        "に対して",
-        "について",
-        "に関して"
-      ],
-      "wrong_choice_explanations": [
-        "に対して means 'toward/against' and indicates direction of attitude or action, not the topic around which opinions clash.",
-        "について means 'about/concerning' but is neutral and doesn't capture the confrontational aspect that をめぐって conveys.",
-        "に関して means 'regarding/concerning' but lacks the implication of opposing views or controversy that をめぐって suggests."
-      ],
-      "hiragana_full": "きょういくかいかくをめぐって、ほごしゃときょうしのいけんがたいりつしている。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "教育改革について、保護者と教師の意見が対立している。",
-          "hiragana_full": "きょういくかいかくについて、ほごしゃときょうしのいけんがたいりつしている。"
+          "word": "移籍",
+          "reading": "いせき",
+          "meaning": "transfer (of a player)"
         },
         {
-          "kanji": "教育改革をめぐり、保護者と教師の意見が対立しています。",
-          "hiragana_full": "きょういくかいかくをめぐり、ほごしゃときょうしのいけんがたいりつしています。"
+          "word": "沸騰",
+          "reading": "ふっとう",
+          "meaning": "boiling over, heating up"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n2_071_10",
+      "id": "n2_071_7",
       "example_sentence": "新しい条約の締結をめぐって、各国で賛否両論が起こっている。",
       "translation": "Both pros and cons are emerging in various countries concerning the conclusion of the new treaty.",
       "blank_target": "をめぐって",
       "wrong_choices": [
-        "を契機に",
+        "をもって",
         "を前提に",
-        "を機に"
+        "に沿って"
       ],
       "wrong_choice_explanations": [
-        "を契機に means 'triggered by/taking the opportunity of' and indicates using something as a starting point, not debating about it.",
+        "をもって means 'by means of / as of' and marks a method or a cutoff point, not the treaty as the contested topic around which arguments for and against arise.",
         "を前提に means 'on the premise of/assuming' and indicates taking something as a given condition, not as a controversial topic.",
-        "を機に means 'taking the opportunity of' and indicates using an occasion for action, not expressing debate around a topic."
+        "に沿って means 'in line with / following' a plan or rule; the treaty's conclusion is not a guideline anything follows, and 賛否両論 needs the contested topic that をめぐって marks."
       ],
       "hiragana_full": "あたらしいじょうやくのていけつをめぐって、かっこくでさんぴりょうろんがおこっている。",
       "audio_alternatives": [
@@ -282,7 +291,168 @@
           "hiragana_full": "しんじょうやくのていけつをめぐり、かっこくでさんぴりょうろんがおきている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "条約",
+          "reading": "じょうやく",
+          "meaning": "treaty"
+        },
+        {
+          "word": "締結",
+          "reading": "ていけつ",
+          "meaning": "conclusion (of a treaty)"
+        },
+        {
+          "word": "賛否両論",
+          "reading": "さんぴりょうろん",
+          "meaning": "divided opinion, pros and cons"
+        }
+      ]
+    },
+    {
+      "id": "n2_071_8",
+      "example_sentence": "土地の所有権をめぐって、争いが起きた。",
+      "translation": "A dispute arose over the land ownership.",
+      "blank_target": "をめぐって",
+      "wrong_choices": [
+        "に先立って",
+        "において",
+        "にかかわらず"
+      ],
+      "wrong_choice_explanations": [
+        "に先立って means 'prior to' and marks something occurring before an event, but land ownership is the contested issue the dispute arose over, not an event preceding it.",
+        "において means 'in / at / within' and marks a domain or setting, but it doesn't convey that land ownership is the disputed point the conflict revolves around.",
+        "「にかかわらず」 means 'regardless of ownership', which does not fit a dispute about ownership. 「をめぐって」 marks ownership as the contested subject. (「をめぐる」 is the noun-modifying form of the same pattern.)"
+      ],
+      "hiragana_full": "とちのしょゆうけんをめぐって、あらそいがおきた。",
+      "audio_alternatives": [
+        {
+          "kanji": "土地の所有権に関して、争いが生じた。",
+          "hiragana_full": "とちのしょゆうけんにかんして、あらそいがしょうじた。"
+        },
+        {
+          "kanji": "土地の所有権をめぐり、紛争が起きた。",
+          "hiragana_full": "とちのしょゆうけんをめぐり、ふんそうがおきた。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "土地",
+          "reading": "とち",
+          "meaning": "land"
+        },
+        {
+          "word": "所有権",
+          "reading": "しょゆうけん",
+          "meaning": "ownership rights"
+        },
+        {
+          "word": "争い",
+          "reading": "あらそい",
+          "meaning": "dispute, conflict"
+        }
+      ]
+    },
+    {
+      "id": "n2_071_9",
+      "example_sentence": "教育制度改革をめぐって、専門家の意見が分かれている。",
+      "translation": "Experts' opinions are divided concerning educational system reform.",
+      "blank_target": "をめぐって",
+      "wrong_choices": [
+        "に反して",
+        "に応じて",
+        "を問わず"
+      ],
+      "wrong_choice_explanations": [
+        "に反して means 'contrary to' and indicates going against something, but the experts' opinions are divided about the reform, not running counter to it.",
+        "に応じて means 'according to/depending on' and indicates correspondence or adaptation, not that reform is generating debate among experts.",
+        "を問わず means 'regardless of' and dismisses something as irrelevant, so it cannot mark the reform as the issue the experts are divided over."
+      ],
+      "hiragana_full": "きょういくせいどかいかくをめぐって、せんもんかのいけんがわかれている。",
+      "audio_alternatives": [
+        {
+          "kanji": "教育制度改革に関して、専門家の意見が分かれている。",
+          "hiragana_full": "きょういくせいどかいかくにかんして、せんもんかのいけんがわかれている。"
+        },
+        {
+          "kanji": "教育制度の改革について、専門家の見解が分かれている。",
+          "hiragana_full": "きょういくせいどのかいかくについて、せんもんかのけんかいがわかれている。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "制度",
+          "reading": "せいど",
+          "meaning": "system"
+        },
+        {
+          "word": "改革",
+          "reading": "かいかく",
+          "meaning": "reform"
+        },
+        {
+          "word": "専門家",
+          "reading": "せんもんか",
+          "meaning": "expert, specialist"
+        }
+      ]
+    },
+    {
+      "id": "n2_071_10",
+      "example_sentence": "核廃棄物の処理方法をめぐって、住民と政府が対話を続けた。",
+      "translation": "Residents and the government continued dialogue concerning nuclear waste disposal methods.",
+      "blank_target": "をめぐって",
+      "wrong_choices": [
+        "に沿って",
+        "をきっかけに",
+        "に伴って"
+      ],
+      "wrong_choice_explanations": [
+        "に沿って means 'along/in accordance with' and indicates following or conforming, not that disposal methods are the controversial topic requiring dialogue.",
+        "をきっかけに means 'triggered by' and indicates a starting point or opportunity, but doesn't express ongoing debate surrounding waste disposal methods.",
+        "に伴って means 'accompanying' and indicates something happening together, but doesn't convey that disposal methods are the contentious issue requiring continued discussion."
+      ],
+      "hiragana_full": "かくはいきぶつのしょりほうほうをめぐって、じゅうみんとせいふがたいわをつづけた。",
+      "audio_alternatives": [
+        {
+          "kanji": "核廃棄物の処理方法について、住民と政府が対話を続けた。",
+          "hiragana_full": "かくはいきぶつのしょりほうほうについて、じゅうみんとせいふがたいわをつづけた。"
+        },
+        {
+          "kanji": "住民と政府は核廃棄物の処理方法をめぐって対話を続けた。",
+          "hiragana_full": "じゅうみんとせいふはかくはいきぶつのしょりほうほうをめぐってたいわをつづけた。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "廃棄物",
+          "reading": "はいきぶつ",
+          "meaning": "waste (material)"
+        },
+        {
+          "word": "処理",
+          "reading": "しょり",
+          "meaning": "handling, disposal"
+        },
+        {
+          "word": "住民",
+          "reading": "じゅうみん",
+          "meaning": "residents"
+        },
+        {
+          "word": "対話",
+          "reading": "たいわ",
+          "meaning": "dialogue"
+        }
+      ]
     }
   ]
 }

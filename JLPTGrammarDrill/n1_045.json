@@ -30,7 +30,20 @@
           "hiragana_full": "こきょうをあいするきもちにもまして、かぞくへのおもいはふかい。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "故郷",
+          "reading": "こきょう",
+          "meaning": "hometown"
+        },
+        {
+          "word": "愛情",
+          "reading": "あいじょう",
+          "meaning": "affection/love"
+        }
+      ]
     },
     {
       "id": "n1_045_2",
@@ -58,94 +71,18 @@
           "hiragana_full": "しけんのなんいどにもまして、ごうかくにたいするふあんのほうがつよかった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "不安",
+          "reading": "ふあん",
+          "meaning": "anxiety/unease"
+        }
+      ]
     },
     {
       "id": "n1_045_3",
-      "example_sentence": "勉強の大変さにもまして、アルバイトとの両立が困難だった。",
-      "translation": "Even more than the difficulty of studying, balancing it with part-time work was challenging.",
-      "blank_target": "にもまして",
-      "wrong_choices": [
-        "のせいで",
-        "のために",
-        "によって"
-      ],
-      "wrong_choice_explanations": [
-        "のせいで indicates blame or negative cause, not a comparative relationship of degree.",
-        "のために indicates purpose or reason, not the comparative meaning of 'even more than'.",
-        "によって indicates means or agent, not the escalating comparison expressed by にもまして."
-      ],
-      "hiragana_full": "べんきょうのたいへんさにもまして、アルバイトとのりょうりつがこんなんだった。",
-      "audio_alternatives": [
-        {
-          "kanji": "勉強の大変さ以上に、アルバイトとの両立が困難だった。",
-          "hiragana_full": "べんきょうのたいへんさいじょうに、アルバイトとのりょうりつがこんなんだった。"
-        },
-        {
-          "kanji": "勉強の辛さにも増して、アルバイトとの両立は難しかった。",
-          "hiragana_full": "べんきょうのつらさにもまして、アルバイトとのりょうりつはむずかしかった。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n1_045_4",
-      "example_sentence": "技術の進歩にもまして、人材育成の重要性が高まっている。",
-      "translation": "Even more than technological progress, the importance of human resource development is increasing.",
-      "blank_target": "にもまして",
-      "wrong_choices": [
-        "とともに",
-        "に伴って",
-        "に連れて"
-      ],
-      "wrong_choice_explanations": [
-        "とともに means 'together with' and shows accompaniment, not comparative intensity.",
-        "に伴って means 'accompanying/along with' and shows parallel change, not degree comparison.",
-        "に連れて means 'as/in proportion to' and shows proportional change, not the escalating comparison of にもまして."
-      ],
-      "hiragana_full": "ぎじゅつのしんぽにもまして、じんざいいくせいのじゅうようせいがたかまっている。",
-      "audio_alternatives": [
-        {
-          "kanji": "技術の進歩以上に、人材育成の重要性が増している。",
-          "hiragana_full": "ぎじゅつのしんぽいじょうに、じんざいいくせいのじゅうようせいがましている。"
-        },
-        {
-          "kanji": "技術進歩にもまして、人材育成の重要性はますます高まっている。",
-          "hiragana_full": "ぎじゅつしんぽにもまして、じんざいいくせいのじゅうようせいはますますたかまっている。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n1_045_5",
-      "example_sentence": "個人の利益にもまして、チーム全体の成功を優先すべきだ。",
-      "translation": "Even more than individual profit, we should prioritize the success of the entire team.",
-      "blank_target": "にもまして",
-      "wrong_choices": [
-        "を通じて",
-        "を介して",
-        "を経て"
-      ],
-      "wrong_choice_explanations": [
-        "を通じて means 'through/via' and indicates a medium or method, not comparative degree.",
-        "を介して means 'through/by way of' and shows an intermediary, not the comparative meaning needed here.",
-        "を経て means 'through/by way of' and indicates a process or route, not degree comparison."
-      ],
-      "hiragana_full": "こじんのりえきにもまして、チームぜんたいのせいこうをゆうせんすべきだ。",
-      "audio_alternatives": [
-        {
-          "kanji": "個人の利益よりも、チーム全体の成功を優先すべきだ。",
-          "hiragana_full": "こじんのりえきよりも、チームぜんたいのせいこうをゆうせんすべきだ。"
-        },
-        {
-          "kanji": "個人の利益に増して、チーム全体の成功を優先するべきだ。",
-          "hiragana_full": "こじんのりえきにまして、チームぜんたいのせいこうをゆうせんするべきだ。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n1_045_6",
       "example_sentence": "その国の内政問題にもまして、国外との関係が悪化している。",
       "translation": "Even more than that country's domestic issues, its relations with foreign nations are deteriorating.",
       "blank_target": "にもまして",
@@ -170,38 +107,23 @@
           "hiragana_full": "そのくにのないせいもんだいにもまして、たいがいかんけいがあっかしている。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n1_045_7",
-      "example_sentence": "経済成長の重要性にもまして、環境保全は急務である。",
-      "translation": "Even more than the importance of economic growth, environmental conservation is urgent.",
-      "blank_target": "にもまして",
-      "wrong_choices": [
-        "に加えて",
-        "に続いて",
-        "に先立って"
-      ],
-      "wrong_choice_explanations": [
-        "に加えて means 'in addition to' and shows addition, not comparative degree or priority.",
-        "に続いて means 'following/after' and shows sequence, not the escalating comparison of にもまして.",
-        "に先立って means 'prior to/before' and shows temporal precedence, not degree comparison."
-      ],
-      "hiragana_full": "けいざいせいちょうのじゅうようせいにもまして、かんきょうほぜんはきゅうむである。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "経済成長の重要性を上回るほど、環境保全は急を要する。",
-          "hiragana_full": "けいざいせいちょうのじゅうようせいをうわまわるほど、かんきょうほぜんはきゅうをようする。"
+          "word": "内政",
+          "reading": "ないせい",
+          "meaning": "domestic/internal affairs"
         },
         {
-          "kanji": "経済成長の重要性にも増して、環境保全こそ急務だ。",
-          "hiragana_full": "けいざいせいちょうのじゅうようせいにもまして、かんきょうほぜんこそきゅうむだ。"
+          "word": "悪化",
+          "reading": "あっか",
+          "meaning": "deterioration/worsening"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n1_045_8",
+      "id": "n1_045_4",
       "example_sentence": "その作品の複雑さにもまして、その解釈の難しさは計り知れない。",
       "translation": "Even more than the work's complexity, the difficulty of its interpretation is immeasurable.",
       "blank_target": "にもまして",
@@ -226,10 +148,23 @@
           "hiragana_full": "そのさくひんのふくざつさにもまして、そのかいしゃくのこんなんさははかりしれない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "解釈",
+          "reading": "かいしゃく",
+          "meaning": "interpretation"
+        },
+        {
+          "word": "計り知れない",
+          "reading": "はかりしれない",
+          "meaning": "immeasurable/beyond estimation"
+        }
+      ]
     },
     {
-      "id": "n1_045_9",
+      "id": "n1_045_5",
       "example_sentence": "息子の進学にもまして、娘の就職活動の方が気がかりだ。",
       "translation": "Even more than my son's school admission, my daughter's job hunt is what worries me.",
       "blank_target": "にもまして",
@@ -254,35 +189,255 @@
           "hiragana_full": "むすこのしんがくにもまして、むすめのしゅうしょくかつどうがしんぱいだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "就職活動",
+          "reading": "しゅうしょくかつどう",
+          "meaning": "job hunting"
+        },
+        {
+          "word": "気がかり",
+          "reading": "きがかり",
+          "meaning": "worry/concern"
+        }
+      ]
+    },
+    {
+      "id": "n1_045_6",
+      "example_sentence": "今年の夏は去年にも増して暑く、連日猛暑日が続いている。",
+      "translation": "This summer is even hotter than last year, with scorching days continuing day after day.",
+      "blank_target": "にも増して",
+      "blank_target_reading": "にもまして",
+      "wrong_choices": [
+        "に限って",
+        "に加えて",
+        "にもかかわらず"
+      ],
+      "wrong_choice_explanations": [
+        "「〜に限って」は「〜だけは特別に」と対象を限定する言い方。去年だけ暑い、という意味になり、去年を上回って暑いという本文とは異なる。",
+        "「〜に加えて」は「〜の上にさらに」と付け加える意。去年に付け足して、では文がつながらず、「去年より一段と暑い」という本文の意味にはならない。",
+        "「〜にもかかわらず」は「〜なのに」と逆接を表す。去年なのに暑い、では意味が通らず、比較を表す本文には合わない。"
+      ],
+      "hiragana_full": "ことしのなつはきょねんにもましてあつく、れんじつもうしょびがつづいている。",
+      "audio_alternatives": [
+        {
+          "kanji": "今年の夏は昨年にも増して暑さが厳しい。",
+          "hiragana_full": "ことしのなつはさくねんにもましてあつさがきびしい。"
+        },
+        {
+          "kanji": "今年の夏は去年よりずっと暑く、猛暑日が続いている。",
+          "hiragana_full": "ことしのなつはきょねんよりずっとあつく、もうしょびがつづいている。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "連日",
+          "reading": "れんじつ",
+          "meaning": "day after day, for days on end"
+        },
+        {
+          "word": "猛暑日",
+          "reading": "もうしょび",
+          "meaning": "extremely hot day (35°C or above)"
+        },
+        {
+          "word": "続く",
+          "reading": "つづく",
+          "meaning": "to continue"
+        }
+      ]
+    },
+    {
+      "id": "n1_045_7",
+      "example_sentence": "試験が近づき、彼は以前にも増して熱心に勉強するようになった。",
+      "translation": "With the exam approaching, he came to study even more earnestly than before.",
+      "blank_target": "にも増して",
+      "blank_target_reading": "にもまして",
+      "wrong_choices": [
+        "に限って",
+        "に加えて",
+        "をもって"
+      ],
+      "wrong_choice_explanations": [
+        "「〜に限って」は「〜だけは特別に」と限定する意。以前だけ熱心、という意味になり、以前を上回って熱心という本文とは異なる。",
+        "「〜に加えて」は「〜の上にさらに」と付け加える意で、以前に付け足して、では文がつながらず、本文の比較の意味にはならない。",
+        "「〜をもって」は「〜によって・〜を限りに」の意で、手段や区切りを表す。以前をもって、では意味が通らず、「以前より一層」という本文には合わない。"
+      ],
+      "hiragana_full": "しけんがちかづき、かれはいぜんにもましてねっしんにべんきょうするようになった。",
+      "audio_alternatives": [
+        {
+          "kanji": "試験を控え、彼は今まで以上に熱心に勉強し始めた。",
+          "hiragana_full": "しけんをひかえ、かれはいままでいじょうにねっしんにべんきょうしはじめた。"
+        },
+        {
+          "kanji": "試験が近づくと、彼は以前にも増して真剣に机に向かった。",
+          "hiragana_full": "しけんがちかづくと、かれはいぜんにもましてしんけんにつくえにむかった。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "近づく",
+          "reading": "ちかづく",
+          "meaning": "to approach, draw near"
+        },
+        {
+          "word": "以前",
+          "reading": "いぜん",
+          "meaning": "before, previously"
+        },
+        {
+          "word": "熱心",
+          "reading": "ねっしん",
+          "meaning": "earnest, eager"
+        }
+      ]
+    },
+    {
+      "id": "n1_045_8",
+      "example_sentence": "何にも増して優先すべきは、利用者の安全である。",
+      "translation": "What must be prioritized above all else is the safety of the users.",
+      "blank_target": "にも増して",
+      "blank_target_reading": "にもまして",
+      "wrong_choices": [
+        "に限って",
+        "はもとより",
+        "をもって"
+      ],
+      "wrong_choice_explanations": [
+        "「〜に限って」は「〜だけは特別に」と限定する意。何かに限って、では「何よりも」という強調の意味にはならず、本文には合わない。",
+        "「〜はもとより」は「〜は言うまでもなく」と当然の前提を示す。何はもとより、では意味が通らず、「何よりも優先する」という本文とは異なる。",
+        "「〜をもって」は「〜によって・〜を限りに」の意で手段や区切りを表す。何をもって、では意味がずれ、「何にも増して（何より）」という本文の意味にはならない。"
+      ],
+      "hiragana_full": "なににもましてゆうせんすべきは、りようしゃのあんぜんである。",
+      "audio_alternatives": [
+        {
+          "kanji": "何よりも優先すべきなのは、利用者の安全だ。",
+          "hiragana_full": "なによりもゆうせんすべきなのは、りようしゃのあんぜんだ。"
+        },
+        {
+          "kanji": "利用者の安全こそ、何にも増して重んじられるべきである。",
+          "hiragana_full": "りようしゃのあんぜんこそ、なににもましておもんじられるべきである。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "優先",
+          "reading": "ゆうせん",
+          "meaning": "priority, precedence"
+        },
+        {
+          "word": "利用者",
+          "reading": "りようしゃ",
+          "meaning": "user"
+        },
+        {
+          "word": "安全",
+          "reading": "あんぜん",
+          "meaning": "safety"
+        }
+      ]
+    },
+    {
+      "id": "n1_045_9",
+      "example_sentence": "決勝の舞台で、選手たちは練習にも増して見事な集中力を発揮した。",
+      "translation": "On the final stage, the athletes displayed even greater concentration than in practice.",
+      "blank_target": "にも増して",
+      "blank_target_reading": "にもまして",
+      "wrong_choices": [
+        "に限って",
+        "に加えて",
+        "をもって"
+      ],
+      "wrong_choice_explanations": [
+        "「〜に限って」は「〜だけは特別に」と限定する意。練習だけ集中する、という意味になり、練習を上回る集中という本文とは異なる。",
+        "「〜に加えて」は「〜の上にさらに」と付け加える意で、練習に付け足して、では文がつながらず、本文の比較の意味にはならない。",
+        "「〜をもって」は「〜によって・〜を限りに」の意で手段や区切りを表す。練習をもって、では意味がずれ、「練習以上に」という本文には合わない。"
+      ],
+      "hiragana_full": "けっしょうのぶたいで、せんしゅたちはれんしゅうにもましてみごとなしゅうちゅうりょくをはっきした。",
+      "audio_alternatives": [
+        {
+          "kanji": "決勝の舞台で、選手たちは練習時をはるかに超える集中力を見せた。",
+          "hiragana_full": "けっしょうのぶたいで、せんしゅたちはれんしゅうじをはるかにこえるしゅうちゅうりょくをみせた。"
+        },
+        {
+          "kanji": "決勝では、選手たちは普段の練習にも増して集中していた。",
+          "hiragana_full": "けっしょうでは、せんしゅたちはふだんのれんしゅうにもましてしゅうちゅうしていた。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "決勝",
+          "reading": "けっしょう",
+          "meaning": "final, championship match"
+        },
+        {
+          "word": "選手",
+          "reading": "せんしゅ",
+          "meaning": "athlete, player"
+        },
+        {
+          "word": "集中力",
+          "reading": "しゅうちゅうりょく",
+          "meaning": "concentration, focus"
+        }
+      ]
     },
     {
       "id": "n1_045_10",
-      "example_sentence": "医療の質の向上の重要性にもまして、患者プライバシーの保護は急務である。",
-      "translation": "Even more than the importance of improving healthcare quality, protecting patient privacy is urgent.",
-      "blank_target": "にもまして",
+      "example_sentence": "留学から戻った弟は、出発前にも増して頼もしくなっていた。",
+      "translation": "My younger brother, back from studying abroad, had become even more dependable than before he left.",
+      "blank_target": "にも増して",
+      "blank_target_reading": "にもまして",
       "wrong_choices": [
-        "にちなんで",
-        "にかけて",
-        "にわたって"
+        "に限って",
+        "に加えて",
+        "をもって"
       ],
       "wrong_choice_explanations": [
-        "にちなんで means 'named after/in honor of' and shows naming origin, not comparative degree.",
-        "にかけて means 'over/spanning' and shows range or duration, not the escalating comparison of にもまして.",
-        "にわたって means 'over/throughout' and shows extent or duration, not degree comparison."
+        "「〜に限って」は「〜だけは特別に」と限定する意。出発前だけ頼もしい、という意味になり、出発前を上回るという本文とは異なる。",
+        "「〜に加えて」は「〜の上にさらに」と付け加える意で、出発前に付け足して、では文がつながらず、本文の比較の意味にはならない。",
+        "「〜をもって」は「〜によって・〜を限りに」の意で手段や区切りを表す。出発前をもって、では意味がずれ、「出発前より一層」という本文には合わない。"
       ],
-      "hiragana_full": "いりょうのしつのこうじょうのじゅうようせいにもまして、かんじゃぷらいばしーのほごはきゅうむである。",
+      "hiragana_full": "りゅうがくからもどったおとうとは、しゅっぱつまえにもましてたのもしくなっていた。",
       "audio_alternatives": [
         {
-          "kanji": "医療の質の向上の重要性にも増して、患者のプライバシー保護は急務だ。",
-          "hiragana_full": "いりょうのしつのこうじょうのじゅうようせいにもまして、かんじゃのぷらいばしーほごはきゅうむだ。"
+          "kanji": "留学を終えて帰った弟は、以前にも増して頼もしく見えた。",
+          "hiragana_full": "りゅうがくをおえてかえったおとうとは、いぜんにもましてたのもしくみえた。"
         },
         {
-          "kanji": "医療の質向上の重要性以上に、患者プライバシーの保護は緊急の課題である。",
-          "hiragana_full": "いりょうのしつこうじょうのじゅうようせいいじょうに、かんじゃぷらいばしーのほごはきんきゅうのかだいである。"
+          "kanji": "留学から帰ってきた弟は、行く前よりずっと頼もしくなっていた。",
+          "hiragana_full": "りゅうがくからかえってきたおとうとは、いくまえよりずっとたのもしくなっていた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "留学",
+          "reading": "りゅうがく",
+          "meaning": "studying abroad"
+        },
+        {
+          "word": "出発",
+          "reading": "しゅっぱつ",
+          "meaning": "departure"
+        },
+        {
+          "word": "頼もしい",
+          "reading": "たのもしい",
+          "meaning": "dependable, reliable"
+        }
+      ]
     }
   ]
 }

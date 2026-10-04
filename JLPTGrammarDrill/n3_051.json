@@ -6,34 +6,6 @@
   "exercises": [
     {
       "id": "n3_051_1",
-      "example_sentence": "彼は三年も海外にいたから、日本語を忘れたわけだ。",
-      "translation": "No wonder he forgot Japanese—he has been overseas for three years.",
-      "blank_target": "わけだ",
-      "wrong_choices": [
-        "はずだ",
-        "ということだ",
-        "のだ"
-      ],
-      "wrong_choice_explanations": [
-        "はずだ means 'should be / is expected to,' but the sentence is presenting a logical conclusion ('no wonder'), not an expectation about the future.",
-        "ということだ means 'it means that / I heard that,' which is close but lacks わけだ's strong 'that explains everything' logical-conclusion nuance.",
-        "のだ provides explanation or emphasis, but わけだ specifically means 'it's only natural that'—connecting the three years abroad as the clear reason for forgetting Japanese."
-      ],
-      "hiragana_full": "かれはさんねんもかいがいにいたから、にほんごをわすれたわけだ。",
-      "audio_alternatives": [
-        {
-          "kanji": "彼は三年も海外にいたから、日本語を忘れるのも当然だ。",
-          "hiragana_full": "かれはさんねんもかいがいにいたから、にほんごをわすれるのもとうぜんだ。"
-        },
-        {
-          "kanji": "三年も海外にいたんだから、彼が日本語を忘れたのも無理はない。",
-          "hiragana_full": "さんねんもかいがいにいたんだから、かれがにほんごをわすれたのもむりはない。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_051_2",
       "example_sentence": "新しいレシピを使ったから、料理が失敗したわけだ。",
       "translation": "No wonder the cooking failed—I used a new recipe without practice.",
       "blank_target": "わけだ",
@@ -58,22 +30,35 @@
           "hiragana_full": "あたらしいレシピをつかったので、りょうりがしっぱいしたわけだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "料理",
+          "reading": "りょうり",
+          "meaning": "cooking / dish"
+        },
+        {
+          "word": "失敗",
+          "reading": "しっぱい",
+          "meaning": "failure"
+        }
+      ]
     },
     {
-      "id": "n3_051_3",
+      "id": "n3_051_2",
       "example_sentence": "雨が降ったから、運動会が中止になったわけだ。",
       "translation": "No wonder the athletic meet was cancelled—it rained.",
       "blank_target": "わけだ",
       "wrong_choices": [
-        "そうだ",
-        "ということだ",
-        "ものだ"
+        "べきだ",
+        "つもりだ",
+        "ことだ"
       ],
       "wrong_choice_explanations": [
-        "After a plain form, そうだ is hearsay ('I hear it was cancelled'); it reports information rather than drawing the causal 'that's why' conclusion that わけだ expresses.",
-        "ということだ paraphrases information, but わけだ specifically expresses 'this explains why it happened.'",
-        "ものだ emphasizes habitual nature, not the causal explanation that わけだ provides."
+        "べきだ expresses what ought to be done and attaches to the dictionary form, so 中止になったべきだ is ungrammatical; the sentence draws a 'that's why' conclusion, which わけだ expresses.",
+        "つもりだ expresses the speaker's intention, which makes no sense for a cancellation caused by rain; わけだ draws the 'that's why' conclusion.",
+        "ことだ as a sentence ending gives advice ('you should ~') or an exclamation; 中止になったことだ does not work as a causal conclusion, which is what わけだ expresses."
       ],
       "hiragana_full": "あめがふったから、うんどうかいがちゅうしになったわけだ。",
       "audio_alternatives": [
@@ -86,22 +71,35 @@
           "hiragana_full": "あめがふったから、うんどうかいがちゅうしになったわけですね。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "運動会",
+          "reading": "うんどうかい",
+          "meaning": "sports day / athletic meet"
+        },
+        {
+          "word": "中止",
+          "reading": "ちゅうし",
+          "meaning": "cancellation"
+        }
+      ]
     },
     {
-      "id": "n3_051_4",
+      "id": "n3_051_3",
       "example_sentence": "毎日ジムに通っているから、体が強くなったわけだ。",
       "translation": "No wonder his body got stronger—he goes to the gym every day.",
       "blank_target": "わけだ",
       "wrong_choices": [
-        "はずだ",
-        "ようだ",
-        "そうだ"
+        "ことだ",
+        "べきだ",
+        "しかない"
       ],
       "wrong_choice_explanations": [
-        "はずだ expresses what should logically happen, but わけだ explains why something actually did happen.",
-        "ようだ suggests appearance or seeming rather than providing a causal explanation.",
-        "After a plain form, そうだ marks hearsay ('I hear he got stronger'); it reports what was heard rather than stating the logical cause-and-effect that わけだ provides."
+        "ことだ as a sentence ending gives advice ('you should ~') or exclamation; 体が強くなったことだ does not work as a causal conclusion, which is what わけだ expresses.",
+        "べきだ expresses what ought to be done and attaches to the dictionary form, so 強くなったべきだ is ungrammatical; the gym habit explains the result, which わけだ expresses.",
+        "しかない attaches to the dictionary form to mean 'have no choice but to'; 強くなったしかない is ungrammatical and draws no conclusion, unlike わけだ."
       ],
       "hiragana_full": "まいにちじむにかよっているから、からだがつよくなったわけだ。",
       "audio_alternatives": [
@@ -114,78 +112,30 @@
           "hiragana_full": "まいにちじむにかよっているから、からだがつよくなったのもとうぜんだ。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_051_5",
-      "example_sentence": "彼女とけんかしたから、彼は不機嫌になったわけだ。",
-      "translation": "No wonder he's in a bad mood—he had a fight with his girlfriend.",
-      "blank_target": "わけだ",
-      "wrong_choices": [
-        "ということだ",
-        "のだ",
-        "らしい"
-      ],
-      "wrong_choice_explanations": [
-        "ということだ reports what one has heard or understood, but doesn't express the logical explanation that わけだ provides.",
-        "のだ states an explanatory fact ('it's that he got grumpy'), but わけだ adds the 'no wonder / that naturally follows' sense, presenting the bad mood as the logical result of the fight.",
-        "らしい means 'apparently,' implying hearsay or speculation; わけだ directly states the reason."
-      ],
-      "hiragana_full": "かのじょとけんかしたから、かれはふきげんになったわけだ。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
         {
-          "kanji": "彼女とけんかしたから、彼が不機嫌なのも当然だ。",
-          "hiragana_full": "かのじょとけんかしたから、かれがふきげんなのもとうぜんだ。"
-        },
-        {
-          "kanji": "彼女とけんかしたので、彼は不機嫌になったわけだ。",
-          "hiragana_full": "かのじょとけんかしたので、かれはふきげんになったわけだ。"
+          "word": "通って",
+          "reading": "かよって",
+          "meaning": "to commute / attend"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n3_051_6",
-      "example_sentence": "毎日勉強しているから、上手になったわけだ。",
-      "translation": "No wonder I improved — I study every day.",
-      "blank_target": "わけだ",
-      "wrong_choices": [
-        "はずだ",
-        "ものだ",
-        "のだ"
-      ],
-      "wrong_choice_explanations": [
-        "はずだ expresses expected outcome, but わけだ explains why the improvement actually occurred as a logical consequence.",
-        "ものだ expresses a general truth or nostalgic recollection, not the specific cause-and-effect realization ('no wonder') that わけだ conveys here.",
-        "のだ emphasizes a fact, but わけだ specifically conveys 'it makes perfect sense that' with stronger logical force."
-      ],
-      "hiragana_full": "まいにちべんきょうしているから、じょうずになったわけだ。",
-      "audio_alternatives": [
-        {
-          "kanji": "毎日勉強しているから、上手になるのは当然だ。",
-          "hiragana_full": "まいにちべんきょうしているから、じょうずになるのはとうぜんだ。"
-        },
-        {
-          "kanji": "毎日勉強しているので、上手になったわけだ。",
-          "hiragana_full": "まいにちべんきょうしているので、じょうずになったわけだ。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_051_7",
+      "id": "n3_051_4",
       "example_sentence": "ずっと無理をしていたから、病気になったわけだ。",
       "translation": "No wonder I got sick—I've been overworking without rest.",
       "blank_target": "わけだ",
       "wrong_choices": [
-        "ものだ",
-        "ようだ",
-        "ということだ"
+        "ことだ",
+        "べきだ",
+        "つもりだ"
       ],
       "wrong_choice_explanations": [
-        "ものだ refers to habitual or characteristic things/actions, not the direct cause-and-effect that わけだ expresses.",
-        "ようだ suggests appearance or seeming, but doesn't explain the logical reason as わけだ does.",
-        "ということだ reports information, but わけだ is stronger in expressing 'no wonder' with logical inevitability."
+        "ことだ as a sentence ending gives advice ('you should ~') or exclamation; 病気になったことだ does not state the 'no wonder' cause-and-effect conclusion that わけだ expresses.",
+        "べきだ expresses what ought to be done and attaches to the dictionary form, so 病気になったべきだ is ungrammatical; the sentence explains a result, which わけだ expresses.",
+        "つもりだ expresses intention or a mistaken belief ('I thought I had'), not the 'no wonder' cause-and-effect conclusion that わけだ provides."
       ],
       "hiragana_full": "ずっとむりをしていたから、びょうきになったわけだ。",
       "audio_alternatives": [
@@ -198,22 +148,30 @@
           "hiragana_full": "ずっとむりをしつづけていたから、びょうきになるわけだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "無理",
+          "reading": "むり",
+          "meaning": "overexertion / strain"
+        }
+      ]
     },
     {
-      "id": "n3_051_8",
+      "id": "n3_051_5",
       "example_sentence": "この製品は長年改良されてきたから、品質が高いわけだ。",
       "translation": "No wonder this product has high quality—it's been improved for many years.",
       "blank_target": "わけだ",
       "wrong_choices": [
-        "はずだ",
-        "らしい",
-        "そうだ"
+        "ことだ",
+        "べきだ",
+        "しかない"
       ],
       "wrong_choice_explanations": [
-        "はずだ expresses logical expectation, but わけだ explains the actual reason behind the observed result.",
-        "らしい means 'apparently,' but doesn't convey the definitive causal explanation that わけだ provides.",
-        "After a plain form, 高いそうだ is hearsay ('I hear the quality is high'); it reports information rather than stating the causal 'that's why' conclusion that わけだ gives."
+        "ことだ as a sentence ending expresses advice or exclamation; 品質が高いことだ does not state the causal 'that's why' conclusion that わけだ gives.",
+        "べきだ attaches to verbs, not い-adjectives, so 高いべきだ is ungrammatical; the years of improvement explain the quality, which わけだ expresses.",
+        "しかない attaches to verbs to mean 'have no choice but to'; 高いしかない is ungrammatical and draws no conclusion, unlike わけだ."
       ],
       "hiragana_full": "このせいひんはながねんかいりょうされてきたから、ひんしつがたかいわけだ。",
       "audio_alternatives": [
@@ -226,63 +184,225 @@
           "hiragana_full": "ながねんかいりょうされてきたから、このせいひんのひんしつがたかいわけだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "長年",
+          "reading": "ながねん",
+          "meaning": "many years"
+        },
+        {
+          "word": "改良",
+          "reading": "かいりょう",
+          "meaning": "improvement"
+        },
+        {
+          "word": "品質",
+          "reading": "ひんしつ",
+          "meaning": "quality"
+        }
+      ]
+    },
+    {
+      "id": "n3_051_6",
+      "example_sentence": "彼は医者だった。頭がいいわけだ。",
+      "translation": "He was a doctor. That means he's smart.",
+      "blank_target": "わけ",
+      "wrong_choices": [
+        "ため",
+        "よう",
+        "から"
+      ],
+      "wrong_choice_explanations": [
+        "ためだ gives a reason ('it is because he is smart'), pointing back to a cause, whereas わけだ presents his intelligence as the natural conclusion of his having been a doctor.",
+        "ようだ means 'he seems smart,' an uncertain guess from impressions, but わけだ states the smartness as a logical conclusion drawn from his being a doctor.",
+        "からだ explains a cause ('it is because he is smart'), running the opposite direction, whereas わけだ concludes his intelligence follows naturally from his profession."
+      ],
+      "hiragana_full": "かれはいしゃだった。あたまがいいわけだ。",
+      "audio_alternatives": [
+        {
+          "kanji": "彼は医者だったんだ。だから頭がいいんだ。",
+          "hiragana_full": "かれはいしゃだったんだ。だからあたまがいいんだ。"
+        },
+        {
+          "kanji": "彼は医者だったから、頭がいいはずだ。",
+          "hiragana_full": "かれはいしゃだったから、あたまがいいはずだ。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "医者",
+          "reading": "いしゃ",
+          "meaning": "doctor"
+        }
+      ]
+    },
+    {
+      "id": "n3_051_7",
+      "example_sentence": "10年間日本に住んでいた。日本語が上手なわけだ。",
+      "translation": "He lived in Japan for 10 years. That's why his Japanese is good.",
+      "blank_target": "わけ",
+      "wrong_choices": [
+        "ところ",
+        "つもり",
+        "よう"
+      ],
+      "wrong_choice_explanations": [
+        "ところ means 'place/just about to' but doesn't express the logical reasoning about language ability.",
+        "つもり means 'intention/plan' but doesn't show the conclusion drawn from living experience.",
+        "よう means 'like/seems' but doesn't convey the definitive logical reasoning that わけだ provides."
+      ],
+      "hiragana_full": "じゅうねんかんにほんにすんでいた。にほんごがじょうずなわけだ。",
+      "audio_alternatives": [
+        {
+          "kanji": "10年間日本に住んでいました。日本語が上手なわけです。",
+          "hiragana_full": "じゅうねんかんにほんにすんでいました。にほんごがじょうずなわけです。"
+        },
+        {
+          "kanji": "10年間日本に住んでいた。だから日本語が上手なんだ。",
+          "hiragana_full": "じゅうねんかんにほんにすんでいた。だからにほんごがじょうずなんだ。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "住んでいた",
+          "reading": "すんでいた",
+          "meaning": "was living / had lived"
+        },
+        {
+          "word": "上手",
+          "reading": "じょうず",
+          "meaning": "good at / skilled"
+        }
+      ]
+    },
+    {
+      "id": "n3_051_8",
+      "example_sentence": "彼女は毎日運動している。健康なわけだ。",
+      "translation": "She exercises every day. That's why she's healthy.",
+      "blank_target": "わけ",
+      "wrong_choices": [
+        "ころ",
+        "ばかり",
+        "ほど"
+      ],
+      "wrong_choice_explanations": [
+        "ころ means 'around the time when' and refers to a period, but doesn't draw the logical conclusion about health from daily exercise.",
+        "ばかり means 'only/just' but doesn't show the reasoning from daily exercise to good health.",
+        "ほど means 'to the extent that' but doesn't convey the logical deduction that わけだ expresses."
+      ],
+      "hiragana_full": "かのじょはまいにちうんどうしている。けんこうなわけだ。",
+      "audio_alternatives": [
+        {
+          "kanji": "彼女は毎日運動しています。健康なわけです。",
+          "hiragana_full": "かのじょはまいにちうんどうしています。けんこうなわけです。"
+        },
+        {
+          "kanji": "彼女は毎日運動する。だから健康なわけだ。",
+          "hiragana_full": "かのじょはまいにちうんどうする。だからけんこうなわけだ。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "運動",
+          "reading": "うんどう",
+          "meaning": "exercise"
+        },
+        {
+          "word": "健康",
+          "reading": "けんこう",
+          "meaning": "healthy / health"
+        }
+      ]
     },
     {
       "id": "n3_051_9",
-      "example_sentence": "子どもの頃からピアノを習っているから、演奏が上手いわけだ。",
-      "translation": "No wonder she plays the piano well—she has been taking lessons since childhood.",
-      "blank_target": "わけだ",
+      "example_sentence": "台風で電車が止まった。会社に遅れるわけだ。",
+      "translation": "The train stopped due to a typhoon. That means I'll be late to work.",
+      "blank_target": "わけ",
       "wrong_choices": [
-        "ということだ",
-        "のだ",
-        "ものだ"
+        "ところ",
+        "よう",
+        "つもり"
       ],
       "wrong_choice_explanations": [
-        "ということだ means 'it means that' or 'that is to say,' but doesn't capture the 'that explains why' sense of わけだ.",
-        "のだ provides emphasis or explanation, but わけだ uniquely conveys the logical connection and natural inevitability.",
-        "ものだ refers to habitual or characteristic actions, not the causal chain that わけだ expresses."
+        "ところだ means 'I'm just about to be late,' marking an imminent action, but わけだ states the lateness as the natural consequence of the train stopping.",
+        "ようだ means 'it seems I'll be late,' an uncertain guess, but わけだ concludes the lateness follows logically from the stopped train.",
+        "つもりだ means 'I intend to be late,' expressing intention, but the lateness here is an unavoidable result, which is what わけだ conveys."
       ],
-      "hiragana_full": "こどものころからぴあのをならっているから、えんそうがうまいわけだ。",
+      "hiragana_full": "たいふうででんしゃがとまった。かいしゃにおくれるわけだ。",
       "audio_alternatives": [
         {
-          "kanji": "子どもの頃からピアノを習っているので、演奏が上手いのも当然だ。",
-          "hiragana_full": "こどものころからぴあのをならっているので、えんそうがうまいのもとうぜんだ。"
+          "kanji": "台風で電車が止まった。会社に遅れるはずだ。",
+          "hiragana_full": "たいふうででんしゃがとまった。かいしゃにおくれるはずだ。"
         },
         {
-          "kanji": "幼い頃からピアノを習っているから、上手く弾けるわけだ。",
-          "hiragana_full": "おさないころからぴあのをならっているから、うまくひけるわけだ。"
+          "kanji": "台風で電車が止まりました。会社に遅れるわけです。",
+          "hiragana_full": "たいふうででんしゃがとまりました。かいしゃにおくれるわけです。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "台風",
+          "reading": "たいふう",
+          "meaning": "typhoon"
+        },
+        {
+          "word": "遅れる",
+          "reading": "おくれる",
+          "meaning": "to be late"
+        }
+      ]
     },
     {
       "id": "n3_051_10",
-      "example_sentence": "毎晩十時間寝ているから、疲れが取れたわけだ。",
-      "translation": "No wonder my fatigue went away—I've been sleeping ten hours every night.",
-      "blank_target": "わけだ",
+      "example_sentence": "昨日徹夜した。今日は眠いわけだ。",
+      "translation": "I stayed up all night yesterday. That's why I'm sleepy today.",
+      "blank_target": "わけ",
       "wrong_choices": [
-        "はずだ",
-        "ようだ",
-        "のだ"
+        "もの",
+        "とき",
+        "よう"
       ],
       "wrong_choice_explanations": [
-        "はずだ expresses what should logically happen, but わけだ explains the actual result based on the stated condition.",
-        "ようだ means 'it seems,' suggesting appearance rather than definitive cause-and-effect.",
-        "のだ simply asserts the fact with emphasis ('it's that my fatigue went away'), while わけだ frames it as the natural consequence of sleeping ten hours — 'no wonder.'"
+        "ものだ states a general truth ('one gets sleepy'), but わけだ draws the specific conclusion that I'm sleepy today because I stayed up all night.",
+        "とき means 'when/time' and marks timing, but it doesn't show the reasoning that today's sleepiness follows from the all-nighter.",
+        "ようだ means 'I seem sleepy,' an uncertain impression, but わけだ states the sleepiness as the natural result of staying up all night."
       ],
-      "hiragana_full": "まいばんじゅうじかんねているから、つかれがとれたわけだ。",
+      "hiragana_full": "きのうてつやした。きょうはねむいわけだ。",
       "audio_alternatives": [
         {
-          "kanji": "毎晩十時間も寝ているから、疲れが取れるはずだ。",
-          "hiragana_full": "まいばんじゅうじかんもねているから、つかれがとれるはずだ。"
+          "kanji": "昨日徹夜したから、今日は眠いんだ。",
+          "hiragana_full": "きのうてつやしたから、きょうはねむいんだ。"
         },
         {
-          "kanji": "毎晩十時間寝ているので、疲れが取れたのも当然だ。",
-          "hiragana_full": "まいばんじゅうじかんねているので、つかれがとれたのもとうぜんだ。"
+          "kanji": "昨日寝なかった。だから今日は眠い。",
+          "hiragana_full": "きのうねなかった。だからきょうはねむい。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "徹夜",
+          "reading": "てつや",
+          "meaning": "staying up all night"
+        },
+        {
+          "word": "眠い",
+          "reading": "ねむい",
+          "meaning": "sleepy"
+        }
+      ]
     }
   ]
 }

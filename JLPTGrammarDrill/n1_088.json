@@ -12,12 +12,12 @@
       "wrong_choices": [
         "努力のみならず",
         "努力など",
-        "努力ばかり"
+        "努力あって"
       ],
       "wrong_choice_explanations": [
         "〜のみならず is additive (\"not only X, but also…\"), the opposite of のみ's exclusivity — it would imply his success came from more than effort, contradicting \"nothing but effort.\"",
         "〜など lists effort as a mere example (\"effort and the like\"), leaving room for other causes, whereas のみ shuts out everything but effort.",
-        "〜ばかり does mean \"nothing but,\" but it carries a flavor of excess/overdoing (\"all that effort\"); のみ states pure, neutral exclusivity without that overloaded nuance."
+        "「努力あっての結果」 means 'a result made possible only because there was effort' (あって = owing to). ただ〜のみ means 'nothing but effort,' excluding other causes — a different claim."
       ],
       "hiragana_full": "かれのせいこうはただどりょくのみのけっかだった",
       "audio_alternatives": [
@@ -31,7 +31,8 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ただどりょくのみ"
+      "blank_target_reading": "ただどりょくのみ",
+      "register": "neutral"
     },
     {
       "id": "n1_088_2",
@@ -60,7 +61,8 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ただがれきのみ"
+      "blank_target_reading": "ただがれきのみ",
+      "register": "neutral"
     },
     {
       "id": "n1_088_3",
@@ -89,7 +91,8 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ただなみだのみ"
+      "blank_target_reading": "ただなみだのみ",
+      "register": "neutral"
     },
     {
       "id": "n1_088_4",
@@ -118,7 +121,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ただふるいしゃしんのみ"
+      "blank_target_reading": "ただふるいしゃしんのみ",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "財産",
+          "reading": "ざいさん",
+          "meaning": "property; assets"
+        }
+      ]
     },
     {
       "id": "n1_088_5",
@@ -147,7 +158,8 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ただひはんのこえのみ"
+      "blank_target_reading": "ただひはんのこえのみ",
+      "register": "neutral"
     },
     {
       "id": "n1_088_6",
@@ -176,7 +188,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ただやけあとのみ"
+      "blank_target_reading": "ただやけあとのみ",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "戦後",
+          "reading": "せんご",
+          "meaning": "postwar"
+        }
+      ]
     },
     {
       "id": "n1_088_7",
@@ -205,7 +225,8 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ただしろいぺーじのみ"
+      "blank_target_reading": "ただしろいぺーじのみ",
+      "register": "neutral"
     },
     {
       "id": "n1_088_8",
@@ -234,7 +255,8 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ただはいというひとことのみ"
+      "blank_target_reading": "ただはいというひとことのみ",
+      "register": "neutral"
     },
     {
       "id": "n1_088_9",
@@ -242,12 +264,12 @@
       "translation": "That shop sells nothing but bread.",
       "blank_target": "ただパンのみ",
       "wrong_choices": [
-        "パンばかり",
+        "パン以外",
         "パンなど",
         "パンまで"
       ],
       "wrong_choice_explanations": [
-        "〜ばかり means \"nothing but,\" but it adds a sense of excess (\"bread and more bread\"); のみ asserts plain, exclusive \"only bread\" without that overload nuance.",
+        "「パン以外を売っている」 means 'sells things other than bread' — the opposite of ただパンのみ ('nothing but bread').",
         "〜など lists bread as a mere example (\"bread and such\"), implying other goods too, which contradicts のみ's \"bread and nothing else.\"",
         "〜まで means \"even,\" so パンまで売っている would mean the shop goes so far as to also sell bread — implying it sells other things as well, the opposite of exclusivity."
       ],
@@ -262,7 +284,8 @@
           "hiragana_full": "そのみせがうっているのはぱんにすぎない"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n1_088_10",
@@ -291,7 +314,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ただくるまのざんがいのみ"
+      "blank_target_reading": "ただくるまのざんがいのみ",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "現場",
+          "reading": "げんば",
+          "meaning": "scene; site"
+        }
+      ]
     }
   ]
 }

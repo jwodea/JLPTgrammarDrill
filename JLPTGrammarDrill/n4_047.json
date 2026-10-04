@@ -6,31 +6,39 @@
   "exercises": [
     {
       "id": "n4_047_1",
-      "example_sentence": "話しかけたところで電話が切れた。",
-      "translation": "Just as I was beginning to speak, the phone got cut off.",
+      "example_sentence": "彼は何か言いかけたが、黙ってしまった。",
+      "translation": "He started to say something, but then fell silent.",
       "blank_target": "かけ",
       "wrong_choices": [
-        "はじめ",
+        "合っ",
         "つづけ",
-        "おわ"
+        "おわっ"
       ],
       "wrong_choice_explanations": [
-        "はじめ means 'begin' but requires different grammar (話しはじめた) — it doesn't fit this masu-stem + かける pattern.",
-        "つづけ means 'continue' — it doesn't fit here because we're describing the start of speaking, not continuation.",
-        "おわ means 'finish' — it doesn't fit here because the phone cut off at the beginning, not the end."
+        "言い合う means 'argue / say things to each other'; it describes a full exchange, not a remark broken off. かける means he started to say something and stopped.",
+        "言いつづける means 'keep on saying', which contradicts 黙ってしまった. かける marks a remark begun but not finished.",
+        "言いおわる means 'finish saying'; then が…黙ってしまった has nothing to contrast with. かける means he stopped partway."
       ],
-      "hiragana_full": "はなしかけたところででんわがきれた。",
+      "hiragana_full": "かれはなにかいいかけたが、だまってしまった。",
       "audio_alternatives": [
         {
-          "kanji": "話し始めた瞬間に電話が切れた。",
-          "hiragana_full": "はなしはじめたしゅんかんにでんわがきれた。"
+          "kanji": "彼は何か言おうとしたが、黙ってしまった。",
+          "hiragana_full": "かれはなにかいおうとしたが、だまってしまった。"
         },
         {
-          "kanji": "話そうとしたとき、電話が切れた。",
-          "hiragana_full": "はなそうとしたとき、でんわがきれた。"
+          "kanji": "彼は何か言いかけて、口をつぐんだ。",
+          "hiragana_full": "かれはなにかいいかけて、くちをつぐんだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "黙って",
+          "reading": "だまって",
+          "meaning": "falling silent"
+        }
+      ]
     },
     {
       "id": "n4_047_2",
@@ -58,7 +66,8 @@
           "hiragana_full": "ほんをよみながらねむってしまった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n4_047_3",
@@ -66,12 +75,12 @@
       "translation": "It looks like it's beginning to rain.",
       "blank_target": "かけ",
       "wrong_choices": [
-        "だし",
+        "すぎ",
         "つづけ",
         "やん"
       ],
       "wrong_choice_explanations": [
-        "だし means 'start' but doesn't fit the masu-stem pattern — you would need 降り出している for 'start raining'.",
+        "すぎ (from 降りすぎる 'rain too much') describes excessive rainfall, not the onset of rain. The sentence is about rain just beginning, which 〜かける (降りかけている) marks.",
         "つづけ means 'continue' — it doesn't fit here because we're describing the onset of rain, not its continuation.",
         "やん means 'stop' — it doesn't fit here because we're describing rain beginning, not stopping."
       ],
@@ -86,35 +95,49 @@
           "hiragana_full": "あめがふりそうだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n4_047_4",
-      "example_sentence": "食事を食べかけて急に電話がかかってきた。",
-      "translation": "I was in the middle of eating when suddenly the phone rang.",
+      "example_sentence": "ご飯を食べかけたところに、急に電話がかかってきた。",
+      "translation": "I had just started eating when the phone suddenly rang.",
       "blank_target": "かけ",
       "wrong_choices": [
-        "終わ",
-        "き",
-        "た"
+        "終わっ",
+        "すぎ",
+        "直し"
       ],
       "wrong_choice_explanations": [
-        "終わ means 'finish' — it doesn't fit here because the phone interrupted the meal mid-way.",
-        "き means 'completely' — it doesn't fit here because the eating was interrupted, not completed.",
-        "た is just past tense — it doesn't convey the nuance of being in the middle of eating when interrupted."
+        "食べ終わる means 'finish eating'; the call would then come after the meal, but the translation says it came just after starting. かける marks an action begun and left unfinished.",
+        "食べすぎる means 'overeat', which has nothing to do with when the call came. かける means the meal had only just begun.",
+        "食べ直す means 'eat again / redo eating', which doesn't fit. かける marks a meal begun and then interrupted."
       ],
-      "hiragana_full": "しょくじをたべかけてきゅうにでんわがかかってきた。",
+      "hiragana_full": "ごはんをたべかけたところに、きゅうにでんわがかかってきた。",
       "audio_alternatives": [
         {
-          "kanji": "食事の途中で急に電話がかかってきた。",
-          "hiragana_full": "しょくじのとちゅうできゅうにでんわがかかってきた。"
+          "kanji": "ご飯を食べている途中で、急に電話がかかってきた。",
+          "hiragana_full": "ごはんをたべているとちゅうで、きゅうにでんわがかかってきた。"
         },
         {
-          "kanji": "ご飯を食べていたら急に電話がかかってきた。",
-          "hiragana_full": "ごはんをたべていたらきゅうにでんわがかかってきた。"
+          "kanji": "ご飯を食べ始めたところに、突然電話が鳴った。",
+          "hiragana_full": "ごはんをたべはじめたところに、とつぜんでんわがなった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "急に",
+          "reading": "きゅうに",
+          "meaning": "suddenly"
+        },
+        {
+          "word": "電話",
+          "reading": "でんわ",
+          "meaning": "phone call"
+        }
+      ]
     },
     {
       "id": "n4_047_5",
@@ -122,12 +145,12 @@
       "translation": "I started doing homework, but when my friend came I stopped.",
       "blank_target": "かけ",
       "wrong_choices": [
-        "はじめ",
+        "直し",
         "つづけ",
         "終え"
       ],
       "wrong_choice_explanations": [
-        "はじめ means 'begin' but doesn't fit this masu-stem pattern — you would need しはじめた.",
+        "直し (from し直す 'redo') means doing the homework over again, not starting it and leaving it unfinished. 〜かける marks the abandoned-partway action the sentence describes — started, then stopped when the friend came.",
         "つづけ means 'continue' — it doesn't fit here because we're describing starting homework, not continuing it.",
         "終え means 'finish' — it doesn't fit here because the homework was left incomplete when the friend arrived."
       ],
@@ -142,35 +165,49 @@
           "hiragana_full": "しゅくだいをしていたが、ともだちがきたのでやめた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n4_047_6",
-      "example_sentence": "映画が始まりかけたところです。",
-      "translation": "The movie is just beginning.",
+      "example_sentence": "ストーブの火が消えかけている。",
+      "translation": "The fire in the stove is about to go out.",
       "blank_target": "かけ",
       "wrong_choices": [
-        "だし",
-        "まし",
-        "そう"
+        "つづけ",
+        "すぎ",
+        "合っ"
       ],
       "wrong_choice_explanations": [
-        "だし would create 始まりだした which is redundant — 始まる already means 'begin'.",
-        "まし would create 始まりました which is just polite past tense, not showing the beginning stage.",
-        "そう means 'appears/seems' — it doesn't fit here because we're stating what's happening, not appearance."
+        "消えつづける means 'keep going out', which isn't a sensible description of a fire. かける means it is on the verge of going out.",
+        "消えすぎる ('go out too much') isn't a meaningful expression. かける marks a change that has started but isn't complete — the fire is about to die.",
+        "消え合う isn't a real verb; 〜合う needs a mutual action between people or things. かける means the fire is about to go out."
       ],
-      "hiragana_full": "えいががはじまりかけたところです。",
+      "hiragana_full": "ストーブのひがきえかけている。",
       "audio_alternatives": [
         {
-          "kanji": "映画がちょうど始まるところです。",
-          "hiragana_full": "えいががちょうどはじまるところです。"
+          "kanji": "ストーブの火がもうすぐ消えそうだ。",
+          "hiragana_full": "ストーブのひがもうすぐきえそうだ。"
         },
         {
-          "kanji": "映画が始まったばかりです。",
-          "hiragana_full": "えいががはじまったばかりです。"
+          "kanji": "ストーブの火が消えそうになっている。",
+          "hiragana_full": "ストーブのひがきえそうになっている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "ストーブ",
+          "reading": "すとーぶ",
+          "meaning": "heater; stove"
+        },
+        {
+          "word": "火",
+          "reading": "ひ",
+          "meaning": "fire"
+        }
+      ]
     },
     {
       "id": "n4_047_7",
@@ -198,35 +235,49 @@
           "hiragana_full": "つくえのうえにコーヒーをのみかけたカップがある。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n4_047_8",
-      "example_sentence": "手紙を書きかけた字が汚い。",
-      "translation": "The handwriting I started to write in the letter is messy.",
+      "example_sentence": "書きかけの手紙が机の上に置いてある。",
+      "translation": "A half-written letter has been left on the desk.",
       "blank_target": "かけ",
       "wrong_choices": [
-        "あげ",
-        "込ん",
-        "直し"
+        "出し",
+        "込み",
+        "終わり"
       ],
       "wrong_choice_explanations": [
-        "あげ means 'give/do for someone' — it doesn't fit here because we're describing incomplete writing, not giving.",
-        "込ん means 'into/thoroughly' — it doesn't fit here because we're focusing on the beginning/partial state of writing.",
-        "直し means 'correct/fix' — it doesn't fit here because we're describing messy writing, not correcting it."
+        "書き出し means 'the opening lines (of a piece of writing)'; 書き出しの手紙 isn't a natural phrase. かけ marks a letter begun and left half-written.",
+        "書き込み means 'notes written in (a margin or form)'; 書き込みの手紙 doesn't describe a letter's state. かけ means half-finished.",
+        "書き終わり is the end point of writing, and 書き終わりの手紙 isn't a natural phrase (a finished letter is 書き終わった手紙). かけ marks a letter not yet finished."
       ],
-      "hiragana_full": "てがみをかきかけたじがきたない。",
+      "hiragana_full": "かきかけのてがみがつくえのうえにおいてある。",
       "audio_alternatives": [
         {
-          "kanji": "手紙に書きかけた字が汚い。",
-          "hiragana_full": "てがみにかきかけたじがきたない。"
+          "kanji": "途中まで書いた手紙が机の上に置いてある。",
+          "hiragana_full": "とちゅうまでかいたてがみがつくえのうえにおいてある。"
         },
         {
-          "kanji": "書きかけた手紙の字が汚い。",
-          "hiragana_full": "かきかけたてがみのじがきたない。"
+          "kanji": "机の上に、書きかけの手紙がある。",
+          "hiragana_full": "つくえのうえに、かきかけのてがみがある。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "手紙",
+          "reading": "てがみ",
+          "meaning": "letter"
+        },
+        {
+          "word": "机",
+          "reading": "つくえ",
+          "meaning": "desk"
+        }
+      ]
     },
     {
       "id": "n4_047_9",
@@ -254,7 +305,20 @@
           "hiragana_full": "かいだんをのぼろうとしたらころんでしまった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "階段",
+          "reading": "かいだん",
+          "meaning": "stairs"
+        },
+        {
+          "word": "転んで",
+          "reading": "ころんで",
+          "meaning": "fell down"
+        }
+      ]
     },
     {
       "id": "n4_047_10",
@@ -282,7 +346,15 @@
           "hiragana_full": "ねかけていたあかちゃんがとつぜんなきだした。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "泣き出した",
+          "reading": "なきだした",
+          "meaning": "burst out crying"
+        }
+      ]
     }
   ]
 }

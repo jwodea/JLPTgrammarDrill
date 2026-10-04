@@ -6,78 +6,6 @@
   "exercises": [
     {
       "id": "n5_036_1",
-      "example_sentence": "宿題をしてから、テレビを見ます。",
-      "translation": "After doing homework, I will watch TV.",
-      "blank_target": "て",
-      "wrong_choices": [
-        "た",
-        "で",
-        "に"
-      ],
-      "wrong_choice_explanations": [
-        "た would give 宿題をしたから — 'because I did my homework' (causal から, a reason), not the 'after doing' sequence that the て-form (てから) expresses.",
-        "で is a particle for location or method — it cannot link verbs to temporal expressions like から.",
-        "に is a particle for time or direction — it doesn't form the て-form needed before から."
-      ],
-      "hiragana_full": "しゅくだいをしてから、テレビをみます。",
-      "audio_alternatives": [
-        {
-          "kanji": "宿題が終わってから、テレビを見ます。",
-          "hiragana_full": "しゅくだいがおわってから、テレビをみます。"
-        },
-        {
-          "kanji": "テレビを見る前に、宿題をします。",
-          "hiragana_full": "テレビをみるまえに、しゅくだいをします。"
-        }
-      ],
-      "audio_eligible": true,
-      "register": "neutral",
-      "vocab": [
-        {
-          "word": "宿題",
-          "reading": "しゅくだい",
-          "meaning": "homework"
-        }
-      ]
-    },
-    {
-      "id": "n5_036_2",
-      "example_sentence": "手を洗ってから、食事をしましょう。",
-      "translation": "Let's eat after washing our hands.",
-      "blank_target": "て",
-      "wrong_choices": [
-        "た",
-        "で",
-        "に"
-      ],
-      "wrong_choice_explanations": [
-        "た would give 手を洗ったから — 'because I washed my hands' (causal から, a reason), not the 'after washing' sequence that the て-form (てから) expresses.",
-        "で is a particle for location or method — it cannot link verbs to temporal expressions like から.",
-        "に is a particle for time or direction — it doesn't form the て-form needed before から."
-      ],
-      "hiragana_full": "てをあらってから、しょくじをしましょう。",
-      "audio_alternatives": [
-        {
-          "kanji": "手を洗ってから、ご飯を食べましょう。",
-          "hiragana_full": "てをあらってから、ごはんをたべましょう。"
-        },
-        {
-          "kanji": "手を洗った後で、食事をしましょう。",
-          "hiragana_full": "てをあらったあとで、しょくじをしましょう。"
-        }
-      ],
-      "audio_eligible": true,
-      "register": "neutral",
-      "vocab": [
-        {
-          "word": "食事",
-          "reading": "しょくじ",
-          "meaning": "meal"
-        }
-      ]
-    },
-    {
-      "id": "n5_036_3",
       "example_sentence": "映画を見てから、友達と話しました。",
       "translation": "After watching the movie, I talked with friends.",
       "blank_target": "て",
@@ -118,48 +46,7 @@
       ]
     },
     {
-      "id": "n5_036_4",
-      "example_sentence": "買い物をしてから、家に帰ります。",
-      "translation": "After shopping, I will go home.",
-      "blank_target": "て",
-      "wrong_choices": [
-        "ために",
-        "ように",
-        "ので"
-      ],
-      "wrong_choice_explanations": [
-        "ために means 'for the purpose of' — it shows purpose, not the temporal sequence needed with から.",
-        "ように means 'so that' — it expresses purpose or manner, not sequential actions with から.",
-        "ので means 'because' — it expresses cause and effect, not temporal sequence like てから."
-      ],
-      "hiragana_full": "かいものをしてから、いえにかえります。",
-      "audio_alternatives": [
-        {
-          "kanji": "買い物の後で、家に帰ります。",
-          "hiragana_full": "かいもののあとで、いえにかえります。"
-        },
-        {
-          "kanji": "買い物をしてから、うちに帰ります。",
-          "hiragana_full": "かいものをしてから、うちにかえります。"
-        }
-      ],
-      "audio_eligible": true,
-      "register": "neutral",
-      "vocab": [
-        {
-          "word": "買い物",
-          "reading": "かいもの",
-          "meaning": "shopping"
-        },
-        {
-          "word": "家",
-          "reading": "いえ",
-          "meaning": "home; house"
-        }
-      ]
-    },
-    {
-      "id": "n5_036_5",
+      "id": "n5_036_2",
       "example_sentence": "歯を磨いてから、寝ます。",
       "translation": "After brushing my teeth, I will sleep.",
       "blank_target": "て",
@@ -195,7 +82,7 @@
       ]
     },
     {
-      "id": "n5_036_6",
+      "id": "n5_036_3",
       "example_sentence": "本を借りてから、勉強します。",
       "translation": "After borrowing the book, I will study.",
       "blank_target": "て",
@@ -236,7 +123,7 @@
       ]
     },
     {
-      "id": "n5_036_7",
+      "id": "n5_036_4",
       "example_sentence": "朝ごはんを食べてから、学校に行きました。",
       "translation": "After eating breakfast, I went to school.",
       "blank_target": "て",
@@ -277,43 +164,7 @@
       ]
     },
     {
-      "id": "n5_036_8",
-      "example_sentence": "シャワーを浴びてから、出かけます。",
-      "translation": "After taking a shower, I will go out.",
-      "blank_target": "て",
-      "wrong_choices": [
-        "ている",
-        "てある",
-        "ておく"
-      ],
-      "wrong_choice_explanations": [
-        "ている indicates ongoing states — combined with から, it would suggest 'after continuing to shower' rather than 'after showering.'",
-        "てある indicates completed actions with lasting results — it doesn't fit the natural flow of sequential actions here.",
-        "ておく means doing something in preparation — it changes the meaning from simple sequence to preparatory action."
-      ],
-      "hiragana_full": "しゃわーをあびてから、でかけます。",
-      "audio_alternatives": [
-        {
-          "kanji": "シャワーを浴びた後で、出かけます。",
-          "hiragana_full": "しゃわーをあびたあとで、でかけます。"
-        },
-        {
-          "kanji": "シャワーを浴びてから、出かけるつもりです。",
-          "hiragana_full": "しゃわーをあびてから、でかけるつもりです。"
-        }
-      ],
-      "audio_eligible": true,
-      "register": "neutral",
-      "vocab": [
-        {
-          "word": "シャワー",
-          "reading": "しゃわー",
-          "meaning": "shower"
-        }
-      ]
-    },
-    {
-      "id": "n5_036_9",
+      "id": "n5_036_5",
       "example_sentence": "電話をかけてから、会いましょう。",
       "translation": "Let's meet after making the phone call.",
       "blank_target": "て",
@@ -349,7 +200,7 @@
       ]
     },
     {
-      "id": "n5_036_10",
+      "id": "n5_036_6",
       "example_sentence": "病院に行ってから、少し楽になりました。",
       "translation": "After going to the hospital, I felt a little better.",
       "blank_target": "て",
@@ -388,6 +239,141 @@
           "meaning": "at ease; (feeling) better"
         }
       ]
+    },
+    {
+      "id": "n5_036_7",
+      "example_sentence": "宿題をしてから、友達と遊びに行きます。",
+      "translation": "After doing homework, I'll go play with friends.",
+      "blank_target": "て",
+      "wrong_choices": [
+        "ながら",
+        "ために",
+        "たり"
+      ],
+      "wrong_choice_explanations": [
+        "ながら means 'while doing simultaneously' — it doesn't fit here because you can't do homework and play at the same time.",
+        "ために means 'in order to' — it doesn't fit here because doing homework is not the purpose of playing with friends.",
+        "たり means 'doing things like ~ and ~' — it doesn't fit here because we need to show sequence, not listing activities."
+      ],
+      "hiragana_full": "しゅくだいをしてから、ともだちとあそびにいきます。",
+      "audio_alternatives": [
+        {
+          "kanji": "宿題が終わってから、友達と遊びに行きます。",
+          "hiragana_full": "しゅくだいがおわってから、ともだちとあそびにいきます。"
+        },
+        {
+          "kanji": "宿題をした後で、友達と遊びに行きます。",
+          "hiragana_full": "しゅくだいをしたあとで、ともだちとあそびにいきます。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral"
+    },
+    {
+      "id": "n5_036_8",
+      "example_sentence": "手を洗ってから、食事をしましょう。",
+      "translation": "After washing hands, let's eat.",
+      "blank_target": "て",
+      "wrong_choices": [
+        "で",
+        "に",
+        "と"
+      ],
+      "wrong_choice_explanations": [
+        "で indicates means or location — it doesn't fit here because we need to show temporal sequence.",
+        "に indicates time or direction — it doesn't fit here because 洗っに is not a valid form.",
+        "と means 'with' or 'and' — it doesn't fit here because 洗っと is not grammatically correct."
+      ],
+      "hiragana_full": "てをあらってから、しょくじをしましょう。",
+      "audio_alternatives": [
+        {
+          "kanji": "手を洗った後で、食事をしましょう。",
+          "hiragana_full": "てをあらったあとで、しょくじをしましょう。"
+        },
+        {
+          "kanji": "手を洗ってから、ご飯を食べましょう。",
+          "hiragana_full": "てをあらってから、ごはんをたべましょう。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "食事",
+          "reading": "しょくじ",
+          "meaning": "meal"
+        }
+      ]
+    },
+    {
+      "id": "n5_036_9",
+      "example_sentence": "電話で予約してから、お店に行きます。",
+      "translation": "I'll make a reservation by phone and then go to the place.",
+      "blank_target": "て",
+      "wrong_choices": [
+        "ても",
+        "たり",
+        "ながら"
+      ],
+      "wrong_choice_explanations": [
+        "ても means 'even if' — it doesn't fit here because we need to show sequence, not contrast.",
+        "たり means 'doing things like ~' and needs a second たり; it doesn't fit here because we're not listing activities.",
+        "ながら means 'while doing' and attaches to the verb stem (予約しながら); it doesn't fit here because you reserve first and then go."
+      ],
+      "hiragana_full": "でんわでよやくしてから、おみせにいきます。",
+      "audio_alternatives": [
+        {
+          "kanji": "電話で予約した後で、お店に行きます。",
+          "hiragana_full": "でんわでよやくしたあとで、おみせにいきます。"
+        },
+        {
+          "kanji": "電話で予約してから、店に行く。",
+          "hiragana_full": "でんわでよやくしてから、みせにいく。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "電話",
+          "reading": "でんわ",
+          "meaning": "telephone"
+        },
+        {
+          "word": "予約",
+          "reading": "よやく",
+          "meaning": "reservation"
+        }
+      ]
+    },
+    {
+      "id": "n5_036_10",
+      "example_sentence": "買い物をしてから、料理を作ろう。",
+      "translation": "After shopping, let's cook.",
+      "blank_target": "て",
+      "wrong_choices": [
+        "ても",
+        "ずに",
+        "たら"
+      ],
+      "wrong_choice_explanations": [
+        "ても means 'even if' — it doesn't fit here because we need to show sequence, not hypothetical situations.",
+        "ずに means 'without doing' — it doesn't fit here because we want to shop first, not avoid shopping.",
+        "たら is conditional 'if/when' — it doesn't fit here because したら means 'if/when we shop', not 'after shopping'."
+      ],
+      "hiragana_full": "かいものをしてから、りょうりをつくろう。",
+      "audio_alternatives": [
+        {
+          "kanji": "買い物の後で、料理を作ろう。",
+          "hiragana_full": "かいもののあとで、りょうりをつくろう。"
+        },
+        {
+          "kanji": "買い物をした後、料理を作りましょう。",
+          "hiragana_full": "かいものをしたあと、りょうりをつくりましょう。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "casual"
     }
   ]
 }

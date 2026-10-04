@@ -6,62 +6,6 @@
   "exercises": [
     {
       "id": "n3_048_1",
-      "example_sentence": "私たちは三時間ごとに、休憩を取ることにしています。",
-      "translation": "We take a break every three hours.",
-      "blank_target": "ごとに",
-      "wrong_choices": [
-        "たびに",
-        "ごと",
-        "ずつ"
-      ],
-      "wrong_choice_explanations": [
-        "たびに means 'every time [something happens],' triggered by events, but the sentence is about fixed time intervals, not event-based repetition.",
-        "「ごと」 without 「に」 is incomplete here; as an adverb of recurring interval the pattern needs 「ごとに」, so 「三時間ごと」 cannot link to the following clause the way 「三時間ごとに」 does.",
-        "ずつ means 'each / at a time,' expressing portions or amounts, not regular time intervals."
-      ],
-      "hiragana_full": "わたしたちはさんじかんごとに、きゅうけいをとることにしています。",
-      "audio_alternatives": [
-        {
-          "kanji": "私たちは三時間おきに、休憩を取ることにしています。",
-          "hiragana_full": "わたしたちはさんじかんおきに、きゅうけいをとることにしています。"
-        },
-        {
-          "kanji": "三時間ごとに休憩を取るようにしています。",
-          "hiragana_full": "さんじかんごとにきゅうけいをとるようにしています。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_048_2",
-      "example_sentence": "月曜日ごとに開催されます。",
-      "translation": "It is held every Monday.",
-      "blank_target": "ごとに",
-      "wrong_choices": [
-        "たびに",
-        "ごとの",
-        "におきに"
-      ],
-      "wrong_choice_explanations": [
-        "たびに means 'every time', but ごとに emphasizes regular intervals or fixed repetition at named times like 'every Monday'.",
-        "ごとの is a possessive form meaning 'each one's', not used for expressing repetition of actions.",
-        "におきに is awkward and creates a double particle; ごとに is the correct form for regular, named intervals."
-      ],
-      "hiragana_full": "げつようびごとにかいさいされます。",
-      "audio_alternatives": [
-        {
-          "kanji": "毎週月曜日に開催されます。",
-          "hiragana_full": "まいしゅうげつようびにかいさいされます。"
-        },
-        {
-          "kanji": "月曜日のたびに開かれます。",
-          "hiragana_full": "げつようびのたびにひらかれます。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_048_3",
       "example_sentence": "ページごとに、挿絵が入っています。",
       "translation": "On every page, there are illustrations.",
       "blank_target": "ごとに",
@@ -86,38 +30,18 @@
           "hiragana_full": "かくぺーじにさしえがのっています。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_048_4",
-      "example_sentence": "私たちは一日ごとに、愛を確認し合っています。",
-      "translation": "We confirm our love for each other every day.",
-      "blank_target": "ごとに",
-      "wrong_choices": [
-        "たびに",
-        "ごと",
-        "ずつ"
-      ],
-      "wrong_choice_explanations": [
-        "たびに means 'every time/whenever', but this sentence requires ごとに for 'every X' at regular intervals.",
-        "ごと (without に) is a noun meaning 'each/every', but the pattern ごとに is needed for expressing regular repetition.",
-        "ずつ means 'each' distribution, but this sentence requires ごとに for regular recurring pattern."
-      ],
-      "hiragana_full": "わたしたちはいちにちごとに、あいをかくにんしあっています。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "私たちは毎日、お互いの愛を確かめ合っています。",
-          "hiragana_full": "わたしたちはまいにち、おたがいのあいをたしかめあっています。"
-        },
-        {
-          "kanji": "僕たちは一日ごとに愛を確かめ合っている。",
-          "hiragana_full": "ぼくたちはいちにちごとにあいをたしかめあっている。"
+          "word": "挿絵",
+          "reading": "さしえ",
+          "meaning": "illustration"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n3_048_5",
+      "id": "n3_048_2",
       "example_sentence": "キャンペーンは一月ごとに、実施されます。",
       "translation": "The campaign is held every month.",
       "blank_target": "ごとに",
@@ -142,10 +66,23 @@
           "hiragana_full": "きゃんぺーんはつきごとにかいさいされます。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "一月",
+          "reading": "ひとつき",
+          "meaning": "one month"
+        },
+        {
+          "word": "実施",
+          "reading": "じっし",
+          "meaning": "to carry out / conduct"
+        }
+      ]
     },
     {
-      "id": "n3_048_6",
+      "id": "n3_048_3",
       "example_sentence": "一週間ごとに、報告書を提出します。",
       "translation": "I submit a report every week.",
       "blank_target": "ごとに",
@@ -170,10 +107,23 @@
           "hiragana_full": "しゅうにいちど、ほうこくしょをていしゅつします。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "報告書",
+          "reading": "ほうこくしょ",
+          "meaning": "report"
+        },
+        {
+          "word": "提出",
+          "reading": "ていしゅつ",
+          "meaning": "to submit"
+        }
+      ]
     },
     {
-      "id": "n3_048_7",
+      "id": "n3_048_4",
       "example_sentence": "五分ごとに、システムをチェックしています。",
       "translation": "I check the system every five minutes.",
       "blank_target": "ごとに",
@@ -198,66 +148,11 @@
           "hiragana_full": "ごふんごとに、しすてむをかくにんしています。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
-      "id": "n3_048_8",
-      "example_sentence": "月ごとに、売上レポートを作成します。",
-      "translation": "I create a sales report every month.",
-      "blank_target": "ごとに",
-      "wrong_choices": [
-        "たびに",
-        "おきに",
-        "につき"
-      ],
-      "wrong_choice_explanations": [
-        "たびに means 'every time', but ごとに emphasizes regular fixed intervals.",
-        "おきに means 'every other', creating alternating intervals; ごとに emphasizes consistent monthly intervals.",
-        "につき means 'per month' (as in cost per item), not the regular interval meaning of ごとに."
-      ],
-      "hiragana_full": "つきごとに、うりあげレポートをさくせいします。",
-      "audio_alternatives": [
-        {
-          "kanji": "毎月、売上レポートを作成します。",
-          "hiragana_full": "まいつき、うりあげレポートをさくせいします。"
-        },
-        {
-          "kanji": "月ごとに、売上レポートを作っています。",
-          "hiragana_full": "つきごとに、うりあげレポートをつくっています。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_048_9",
-      "example_sentence": "四半期ごとに、決算説明会を開催しています。",
-      "translation": "I hold earnings briefings every quarter.",
-      "blank_target": "ごとに",
-      "wrong_choices": [
-        "たびに",
-        "ごと",
-        "ずつ"
-      ],
-      "wrong_choice_explanations": [
-        "たびに means 'every time,' but ごとに is more formal and better suited for regular scheduled intervals like quarterly meetings.",
-        "ごと (without に) is a noun meaning 'each/every', but the pattern ごとに is needed for expressing regular repetition.",
-        "ずつ means 'per piece' or 'each,' expressing distribution, but the sentence requires the sense of repeated intervals."
-      ],
-      "hiragana_full": "しはんきごとに、けっさんせつめいかいをかいさいしています。",
-      "audio_alternatives": [
-        {
-          "kanji": "四半期ごとに、決算説明会を行っています。",
-          "hiragana_full": "しはんきごとに、けっさんせつめいかいをおこなっています。"
-        },
-        {
-          "kanji": "四半期に一度、決算説明会を開催しています。",
-          "hiragana_full": "しはんきにいちど、けっさんせつめいかいをかいさいしています。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n3_048_10",
+      "id": "n3_048_5",
       "example_sentence": "年ごとに、経営方針を見直しています。",
       "translation": "I review management policy every year.",
       "blank_target": "ごとに",
@@ -282,7 +177,213 @@
           "hiragana_full": "ねんにいちど、けいえいほうしんをみなおしています。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "経営方針",
+          "reading": "けいえいほうしん",
+          "meaning": "management policy"
+        },
+        {
+          "word": "見直して",
+          "reading": "みなおして",
+          "meaning": "to review / reconsider"
+        }
+      ]
+    },
+    {
+      "id": "n3_048_6",
+      "example_sentence": "この電車は駅ごとに止まります。",
+      "translation": "This train stops at every station.",
+      "blank_target": "ごと",
+      "wrong_choices": [
+        "おき",
+        "ずつ",
+        "だけ"
+      ],
+      "wrong_choice_explanations": [
+        "おきに means 'at intervals with gaps' — it doesn't fit here because the train stops at consecutive stations without skipping any.",
+        "ずつ means 'each/apiece' for quantities — it doesn't fit here because we're talking about locations, not amounts.",
+        "だけ means 'only' — it doesn't fit here because we're expressing frequency at all stations, not limitation."
+      ],
+      "hiragana_full": "このでんしゃはえきごとにとまります。",
+      "audio_alternatives": [
+        {
+          "kanji": "この電車は各駅に止まります。",
+          "hiragana_full": "このでんしゃはかくえきにとまります。"
+        },
+        {
+          "kanji": "この電車はすべての駅に止まります。",
+          "hiragana_full": "このでんしゃはすべてのえきにとまります。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral"
+    },
+    {
+      "id": "n3_048_7",
+      "example_sentence": "彼は試合ごとに新記録を出している。",
+      "translation": "He sets a new record in every match.",
+      "blank_target": "ごと",
+      "wrong_choices": [
+        "たび",
+        "おき",
+        "とき"
+      ],
+      "wrong_choice_explanations": [
+        "たびに means 'each time when' — while similar, it doesn't fit as naturally here because ごとに emphasizes the systematic pattern across all matches.",
+        "おきに means 'at intervals with gaps' — it doesn't fit here because we're talking about consecutive matches, not skipping some.",
+        "ときに means 'when/at the time of' — it doesn't fit here because we need to express regularity, not just timing."
+      ],
+      "hiragana_full": "かれはしあいごとにしんきろくをだしている。",
+      "audio_alternatives": [
+        {
+          "kanji": "彼は毎試合新記録を出している。",
+          "hiragana_full": "かれはまいしあいしんきろくをだしている。"
+        },
+        {
+          "kanji": "彼は試合のたびに新記録を出している。",
+          "hiragana_full": "かれはしあいのたびにしんきろくをだしている。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "試合",
+          "reading": "しあい",
+          "meaning": "match / game"
+        },
+        {
+          "word": "新記録",
+          "reading": "しんきろく",
+          "meaning": "new record"
+        }
+      ]
+    },
+    {
+      "id": "n3_048_8",
+      "example_sentence": "会社は部署ごとに新しい機械を導入した。",
+      "translation": "The company introduced new machines to every department.",
+      "blank_target": "ごと",
+      "wrong_choices": [
+        "おき",
+        "なか",
+        "まで"
+      ],
+      "wrong_choice_explanations": [
+        "おきに means 'at intervals with gaps' — it doesn't fit here because machines were introduced to all departments without skipping any.",
+        "なかに means 'inside/within' — it doesn't fit here because we need to express 'to each department', not location within departments.",
+        "まで means 'until/up to' — it doesn't fit here because we're talking about complete coverage, not a limit or endpoint."
+      ],
+      "hiragana_full": "かいしゃはぶしょごとにあたらしいきかいをどうにゅうした。",
+      "audio_alternatives": [
+        {
+          "kanji": "会社は各部署に新しい機械を導入した。",
+          "hiragana_full": "かいしゃはかくぶしょにあたらしいきかいをどうにゅうした。"
+        },
+        {
+          "kanji": "会社はすべての部署に新しい機械を入れた。",
+          "hiragana_full": "かいしゃはすべてのぶしょにあたらしいきかいをいれた。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "部署",
+          "reading": "ぶしょ",
+          "meaning": "department"
+        },
+        {
+          "word": "導入する",
+          "reading": "どうにゅうする",
+          "meaning": "to introduce / adopt"
+        },
+        {
+          "word": "機械",
+          "reading": "きかい",
+          "meaning": "machine"
+        }
+      ]
+    },
+    {
+      "id": "n3_048_9",
+      "example_sentence": "教室ごとに時計が設置されています。",
+      "translation": "Clocks are installed in every classroom.",
+      "blank_target": "ごと",
+      "wrong_choices": [
+        "おき",
+        "なか",
+        "ほど"
+      ],
+      "wrong_choice_explanations": [
+        "おきに means 'at intervals with gaps' — it doesn't fit here because clocks are in all classrooms consecutively, not skipping some classrooms.",
+        "なかに means 'inside' — it doesn't fit here because we need to express 'in each/every classroom', not just location inside classrooms.",
+        "ほど means 'to the extent of/as much as' — it doesn't fit here because we're expressing complete coverage, not degree or extent."
+      ],
+      "hiragana_full": "きょうしつごとにとけいがせっちされています。",
+      "audio_alternatives": [
+        {
+          "kanji": "すべての教室に時計が設置されています。",
+          "hiragana_full": "すべてのきょうしつにとけいがせっちされています。"
+        },
+        {
+          "kanji": "どの教室にも時計があります。",
+          "hiragana_full": "どのきょうしつにもとけいがあります。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "設置する",
+          "reading": "せっちする",
+          "meaning": "to install / set up"
+        }
+      ]
+    },
+    {
+      "id": "n3_048_10",
+      "example_sentence": "チームごとに一つずつ賞品を渡した。",
+      "translation": "We gave one prize to each team.",
+      "blank_target": "ごと",
+      "wrong_choices": [
+        "おき",
+        "あて",
+        "ぐらい"
+      ],
+      "wrong_choice_explanations": [
+        "おきに means 'at intervals with gaps' — it doesn't fit here because prizes were given to all teams consecutively, not skipping teams.",
+        "あて means 'per/for each' in allocation — while similar, it doesn't fit as naturally as ごとに for expressing distribution to each individual team.",
+        "ぐらい means 'about/approximately' — it doesn't fit here because we're expressing exact distribution to each team, not approximation."
+      ],
+      "hiragana_full": "チームごとにひとつずつしょうひんをわたした。",
+      "audio_alternatives": [
+        {
+          "kanji": "各チームに一つずつ賞品を渡した。",
+          "hiragana_full": "かくチームにひとつずつしょうひんをわたした。"
+        },
+        {
+          "kanji": "チームごとに賞品を一つ渡した。",
+          "hiragana_full": "チームごとにしょうひんをひとつわたした。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "賞品",
+          "reading": "しょうひん",
+          "meaning": "prize"
+        },
+        {
+          "word": "渡す",
+          "reading": "わたす",
+          "meaning": "to hand over"
+        }
+      ]
     }
   ]
 }

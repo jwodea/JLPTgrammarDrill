@@ -30,7 +30,8 @@
           "hiragana_full": "こどもにやさいをたべるようにいいました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n4_012_2",
@@ -38,12 +39,12 @@
       "translation": "The teacher made the students do homework.",
       "blank_target": "せ",
       "wrong_choices": [
-        "し",
+        "て",
         "れ",
         "み"
       ],
       "wrong_choice_explanations": [
-        "し gives やらした, a colloquial causative; the standard causative of the godan verb やる is やらせる, so せ is the correct mora here.",
+        "て creates the te-form, but やる's te-form is やって, not やらて — the causative 'made them do' is formed with せ (やらせた).",
         "れ would create the potential/passive form — it doesn't fit here because we need the causative form せ",
         "み would be incorrect conjugation — it doesn't fit here because we need the causative form せ for やらせる"
       ],
@@ -58,7 +59,8 @@
           "hiragana_full": "せんせいががくせいにしゅくだいをやらせた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n4_012_3",
@@ -86,7 +88,8 @@
           "hiragana_full": "おかあさんはわたしにへやをそうじさせます。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n4_012_4",
@@ -114,7 +117,20 @@
           "hiragana_full": "かいしゃはじゅうぎょういんにざんぎょうさせています。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "社員",
+          "reading": "しゃいん",
+          "meaning": "company employee"
+        },
+        {
+          "word": "残業",
+          "reading": "ざんぎょう",
+          "meaning": "overtime work"
+        }
+      ]
     },
     {
       "id": "n4_012_5",
@@ -142,7 +158,8 @@
           "hiragana_full": "おとうさんはおとうとにかいものにいかせました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n4_012_6",
@@ -170,7 +187,15 @@
           "hiragana_full": "こーちがせんしゅをれんしゅうさせた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "選手",
+          "reading": "せんしゅ",
+          "meaning": "athlete; player"
+        }
+      ]
     },
     {
       "id": "n4_012_7",
@@ -198,7 +223,8 @@
           "hiragana_full": "おやはこどもにはやくねさせなければなりません。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n4_012_8",
@@ -226,7 +252,25 @@
           "hiragana_full": "じょうしがぶかにほうこくしょをかかせた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "上司",
+          "reading": "じょうし",
+          "meaning": "boss; superior"
+        },
+        {
+          "word": "部下",
+          "reading": "ぶか",
+          "meaning": "subordinate"
+        },
+        {
+          "word": "報告書",
+          "reading": "ほうこくしょ",
+          "meaning": "written report"
+        }
+      ]
     },
     {
       "id": "n4_012_9",
@@ -254,7 +298,15 @@
           "hiragana_full": "いしはかんじゃにくすりをのませます。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "患者",
+          "reading": "かんじゃ",
+          "meaning": "patient"
+        }
+      ]
     },
     {
       "id": "n4_012_10",
@@ -282,7 +334,20 @@
           "hiragana_full": "てんちょうはアルバイトにおきゃくさんのたいおうをさせている。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "店長",
+          "reading": "てんちょう",
+          "meaning": "store manager"
+        },
+        {
+          "word": "接客",
+          "reading": "せっきゃく",
+          "meaning": "serving customers"
+        }
+      ]
     }
   ]
 }

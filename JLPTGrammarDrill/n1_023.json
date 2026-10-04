@@ -10,14 +10,14 @@
       "translation": "Due to worsening economic conditions, the company was forced to carry out major restructuring.",
       "blank_target": "を余儀なくされた",
       "wrong_choices": [
-        "をしなければならなかった",
-        "をするしかなかった",
-        "を避けられなかった"
+        "を決断した",
+        "を計画した",
+        "を検討した"
       ],
       "wrong_choice_explanations": [
-        "をしなければならなかった expresses obligation but lacks the nuance of being unwillingly compelled by circumstances that を余儀なくされた conveys.",
-        "をするしかなかった means 'had no choice but to do' but is less formal and doesn't emphasize the external compulsion as strongly.",
-        "を避けられなかった means 'could not avoid' but focuses on inevitability rather than being forced into action by circumstances."
+        "を決断した means the company 'made the decision to' restructure of its own will; を余儀なくされる instead says worsening conditions left it no choice.",
+        "を計画した means the company 'planned' the restructuring deliberately, the opposite of being driven to it by circumstances as を余儀なくされる conveys.",
+        "を検討した means the company merely 'considered' restructuring — a voluntary deliberation, not the forced action that を余儀なくされる describes."
       ],
       "hiragana_full": "けいざいじょうきょうのあっかにより、かいしゃはおおはばなリストラをよぎなくされた。",
       "audio_alternatives": [
@@ -31,6 +31,24 @@
         }
       ],
       "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "状況",
+          "reading": "じょうきょう",
+          "meaning": "situation"
+        },
+        {
+          "word": "悪化",
+          "reading": "あっか",
+          "meaning": "worsening"
+        },
+        {
+          "word": "大幅",
+          "reading": "おおはば",
+          "meaning": "large-scale"
+        }
+      ],
       "blank_target_reading": "をよぎなくされた"
     },
     {
@@ -39,14 +57,14 @@
       "translation": "Due to the approaching typhoon, we were forced to cancel the event.",
       "blank_target": "を余儀なくされた",
       "wrong_choices": [
-        "をやむを得ずした",
-        "を強いられた",
-        "に迫られた"
+        "を決定した",
+        "を発表した",
+        "を検討した"
       ],
       "wrong_choice_explanations": [
-        "をやむを得ずした means 'did reluctantly' but is less formal and doesn't fit the grammatical structure of this sentence.",
-        "を強いられた means 'was forced to' but is less formal and doesn't emphasize the sense of having no alternative that を余儀なくされた provides.",
-        "に迫られた means 'was pressed to' but requires a different grammatical structure and doesn't match the sentence pattern."
+        "を決定した means they 'decided on' the cancellation, a voluntary choice, whereas を余儀なくされる marks it as forced by the approaching typhoon.",
+        "を発表した means they 'announced' the cancellation, describing the communication of it, not the compulsion behind it that を余儀なくされる expresses.",
+        "を検討した means they 'considered' cancelling — mere deliberation, not the forced decision that を余儀なくされる conveys."
       ],
       "hiragana_full": "たいふうのせっきんで、いべんとのちゅうしをよぎなくされた。",
       "audio_alternatives": [
@@ -60,6 +78,19 @@
         }
       ],
       "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "接近",
+          "reading": "せっきん",
+          "meaning": "approach"
+        },
+        {
+          "word": "中止",
+          "reading": "ちゅうし",
+          "meaning": "cancellation"
+        }
+      ],
       "blank_target_reading": "をよぎなくされた"
     },
     {
@@ -68,12 +99,12 @@
       "translation": "Due to the new virus outbreak, we were compelled to postpone overseas business trips.",
       "blank_target": "を余儀なくされた",
       "wrong_choices": [
-        "をせざるを得なかった",
+        "を計画した",
         "を決断した",
         "を検討した"
       ],
       "wrong_choice_explanations": [
-        "をせざるを得なかった means 'had no choice but to' but is a different grammatical construction that doesn't fit this sentence structure.",
+        "を計画した means the postponement was 'planned' deliberately, the opposite of being forced into it by the outbreak as を余儀なくされる conveys.",
         "を決断した means 'decided to' but implies voluntary choice rather than being forced by circumstances.",
         "を検討した means 'considered' which is completely different from being compelled to take action."
       ],
@@ -89,6 +120,24 @@
         }
       ],
       "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "流行",
+          "reading": "りゅうこう",
+          "meaning": "outbreak/prevalence"
+        },
+        {
+          "word": "出張",
+          "reading": "しゅっちょう",
+          "meaning": "business trip"
+        },
+        {
+          "word": "延期",
+          "reading": "えんき",
+          "meaning": "postponement"
+        }
+      ],
       "blank_target_reading": "をよぎなくされた"
     },
     {
@@ -118,6 +167,24 @@
         }
       ],
       "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "原材料",
+          "reading": "げんざいりょう",
+          "meaning": "raw materials"
+        },
+        {
+          "word": "高騰",
+          "reading": "こうとう",
+          "meaning": "sharp rise (in price)"
+        },
+        {
+          "word": "値上げ",
+          "reading": "ねあげ",
+          "meaning": "price increase"
+        }
+      ],
       "blank_target_reading": "をよぎなくされた"
     },
     {
@@ -147,6 +214,24 @@
         }
       ],
       "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "設備",
+          "reading": "せつび",
+          "meaning": "equipment/facilities"
+        },
+        {
+          "word": "故障",
+          "reading": "こしょう",
+          "meaning": "breakdown/malfunction"
+        },
+        {
+          "word": "操業",
+          "reading": "そうぎょう",
+          "meaning": "operation (of a plant)"
+        }
+      ],
       "blank_target_reading": "をよぎなくされた"
     },
     {
@@ -155,14 +240,14 @@
       "translation": "Due to new security threats, the government is forced to increase military strength.",
       "blank_target": "を余儀なくされている",
       "wrong_choices": [
-        "を強いられている",
-        "をせざるを得ない",
-        "に追い込まれている"
+        "を進めている",
+        "を目指している",
+        "を計画している"
       ],
       "wrong_choice_explanations": [
-        "を強いられている means 'is being forced to' but is less formal and doesn't carry the same nuance of being compelled by unavoidable circumstances.",
-        "をせざるを得ない means 'have no choice but to' but uses a different grammatical structure that doesn't fit this sentence pattern.",
-        "に追い込まれている means 'is being driven to' but requires different grammar and doesn't match the sentence structure."
+        "を進めている means the government 'is actively advancing' the buildup on its own initiative, not being forced into it as を余儀なくされている conveys.",
+        "を目指している means the government 'is aiming for' the buildup as a chosen goal, the opposite of the compulsion を余儀なくされている expresses.",
+        "を計画している means the government 'is planning' the buildup deliberately, not being driven to it by circumstances as を余儀なくされている conveys."
       ],
       "hiragana_full": "あらたなあんぜんほしょうじょうのきょういにより、せいふはぐんじりょくぞうきょうをよぎなくされている。",
       "audio_alternatives": [
@@ -176,6 +261,24 @@
         }
       ],
       "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "安全保障",
+          "reading": "あんぜんほしょう",
+          "meaning": "national security"
+        },
+        {
+          "word": "脅威",
+          "reading": "きょうい",
+          "meaning": "threat"
+        },
+        {
+          "word": "増強",
+          "reading": "ぞうきょう",
+          "meaning": "buildup/reinforcement"
+        }
+      ],
       "blank_target_reading": "をよぎなくされている"
     },
     {
@@ -205,6 +308,24 @@
         }
       ],
       "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "大雪",
+          "reading": "おおゆき",
+          "meaning": "heavy snow"
+        },
+        {
+          "word": "臨時",
+          "reading": "りんじ",
+          "meaning": "temporary/special"
+        },
+        {
+          "word": "休校",
+          "reading": "きゅうこう",
+          "meaning": "school closure"
+        }
+      ],
       "blank_target_reading": "をよぎなくされた"
     },
     {
@@ -234,6 +355,24 @@
         }
       ],
       "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "競合",
+          "reading": "きょうごう",
+          "meaning": "competition/rival"
+        },
+        {
+          "word": "攻勢",
+          "reading": "こうせい",
+          "meaning": "offensive"
+        },
+        {
+          "word": "値下げ",
+          "reading": "ねさげ",
+          "meaning": "price cut"
+        }
+      ],
       "blank_target_reading": "をよぎなくされた"
     },
     {
@@ -263,6 +402,19 @@
         }
       ],
       "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "資金",
+          "reading": "しきん",
+          "meaning": "funds"
+        },
+        {
+          "word": "中断",
+          "reading": "ちゅうだん",
+          "meaning": "suspension/interruption"
+        }
+      ],
       "blank_target_reading": "をよぎなくされた"
     },
     {
@@ -292,6 +444,24 @@
         }
       ],
       "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "規制",
+          "reading": "きせい",
+          "meaning": "regulation"
+        },
+        {
+          "word": "強化",
+          "reading": "きょうか",
+          "meaning": "strengthening"
+        },
+        {
+          "word": "製造",
+          "reading": "せいぞう",
+          "meaning": "manufacturing"
+        }
+      ],
       "blank_target_reading": "をよぎなくされた"
     }
   ]

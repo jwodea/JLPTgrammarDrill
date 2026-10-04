@@ -1,0 +1,473 @@
+{
+  "id": "n2_223",
+  "pattern": "そうすると",
+  "meaning": "and then; if one does that, then (a consequence follows)",
+  "level": "N2",
+  "exercises": [
+    {
+      "id": "n2_223_1",
+      "example_sentence": "窓を開けた。そうすると、冷たい風がさっと入ってきた。",
+      "translation": "I opened the window. And then a cold wind swept in.",
+      "blank_target": "そうすると",
+      "wrong_choices": [
+        "そうしないと",
+        "それでも",
+        "それとも"
+      ],
+      "wrong_choice_explanations": [
+        "そうしないと ('if you don't do that') sets up a negative condition, usually leading to a warning (〜ないと困る); it can't narrate what actually happened after the window was opened.",
+        "それでも ('even so') concedes and expects a contrast (e.g. still no wind), but the wind came in as a direct result, so nothing is being contrasted.",
+        "それとも ('or else') offers an either/or alternative, which has no place in this straight sequence of events."
+      ],
+      "hiragana_full": "まどをあけた。そうすると、つめたいかぜがさっとはいってきた。",
+      "audio_alternatives": [
+        {
+          "kanji": "窓を開けると、冷たい風がさっと入ってきた。",
+          "hiragana_full": "まどをあけると、つめたいかぜがさっとはいってきた。"
+        },
+        {
+          "kanji": "窓を開けてみた。そうすると、ひんやりした風が流れ込んできた。",
+          "hiragana_full": "まどをあけてみた。そうすると、ひんやりしたかぜがながれこんできた。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "窓",
+          "reading": "まど",
+          "meaning": "window"
+        },
+        {
+          "word": "冷たい",
+          "reading": "つめたい",
+          "meaning": "cold"
+        },
+        {
+          "word": "風",
+          "reading": "かぜ",
+          "meaning": "wind"
+        }
+      ]
+    },
+    {
+      "id": "n2_223_2",
+      "example_sentence": "このボタンを押してください。そうすると、切符が出てきます。",
+      "translation": "Please press this button. Then a ticket will come out.",
+      "blank_target": "そうすると",
+      "wrong_choices": [
+        "そうしないと",
+        "それでも",
+        "そのかわり"
+      ],
+      "wrong_choice_explanations": [
+        "そうしないと ('if you don't press it') flips to a warning about failing to act, but the sentence explains the result of pressing, not of not pressing.",
+        "それでも ('even so') would concede that pressing fails to help, contradicting 出てきます, which states the button works.",
+        "そのかわり ('in exchange / instead') introduces a trade-off or substitute, but nothing is being traded here — one thing simply follows from the other."
+      ],
+      "hiragana_full": "このぼたんをおしてください。そうすると、きっぷがでてきます。",
+      "audio_alternatives": [
+        {
+          "kanji": "このボタンを押せば、切符が出てきます。",
+          "hiragana_full": "このぼたんをおせば、きっぷがでてきます。"
+        },
+        {
+          "kanji": "こちらのボタンを押してください。そうすると、券が発行されます。",
+          "hiragana_full": "こちらのぼたんをおしてください。そうすると、けんがはっこうされます。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "ボタン",
+          "reading": "ぼたん",
+          "meaning": "button"
+        },
+        {
+          "word": "押す",
+          "reading": "おす",
+          "meaning": "to press"
+        },
+        {
+          "word": "切符",
+          "reading": "きっぷ",
+          "meaning": "ticket"
+        }
+      ]
+    },
+    {
+      "id": "n2_223_3",
+      "example_sentence": "毎日夜更かしを続けている。そうすると、いつか体を壊すよ。",
+      "translation": "You keep staying up late every day. If you go on like that, you'll ruin your health someday.",
+      "blank_target": "そうすると",
+      "wrong_choices": [
+        "そうすれば",
+        "それでも",
+        "だからといって"
+      ],
+      "wrong_choice_explanations": [
+        "そうすれば ('if you do so') implies the action leads to a desired result, but ruining your health is a bad outcome, so the benefit-flavored そうすれば clashes with the warning.",
+        "それでも ('even so') expects you to persist despite something, not the causal 'do that → bad result' link the warning draws.",
+        "だからといって ('that doesn't mean that...') rejects an over-hasty conclusion, but here the harmful conclusion is exactly what is being asserted, not denied."
+      ],
+      "hiragana_full": "まいにちよふかしをつづけている。そうすると、いつかからだをこわすよ。",
+      "audio_alternatives": [
+        {
+          "kanji": "毎晩夜更かしを続けている。そうすると、そのうち体を壊すよ。",
+          "hiragana_full": "まいばんよふかしをつづけている。そうすると、そのうちからだをこわすよ。"
+        },
+        {
+          "kanji": "そんなに夜更かしばかりしていたら、いつか体を壊すよ。",
+          "hiragana_full": "そんなによふかしばかりしていたら、いつかからだをこわすよ。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "夜更かし",
+          "reading": "よふかし",
+          "meaning": "staying up late"
+        },
+        {
+          "word": "続ける",
+          "reading": "つづける",
+          "meaning": "to keep doing"
+        },
+        {
+          "word": "体を壊す",
+          "reading": "からだをこわす",
+          "meaning": "to ruin one's health"
+        }
+      ]
+    },
+    {
+      "id": "n2_223_4",
+      "example_sentence": "彼はもう家を出たそうだ。そうすると、駅で待っていても無駄だね。",
+      "translation": "Apparently he's already left home. That being the case, waiting at the station is pointless.",
+      "blank_target": "そうすると",
+      "wrong_choices": [
+        "それなのに",
+        "それとも",
+        "それでも"
+      ],
+      "wrong_choice_explanations": [
+        "それなのに ('and yet, despite that') marks an unexpected contrast, but the pointlessness follows logically from his having left, with nothing contrary about it.",
+        "それとも ('or else') poses an either/or alternative, which doesn't fit drawing a single conclusion from the news.",
+        "それでも ('even so') would say waiting is worthwhile despite his leaving — the reverse of the 無駄 conclusion reached here."
+      ],
+      "hiragana_full": "かれはもういえをでたそうだ。そうすると、えきでまっていてもむだだね。",
+      "audio_alternatives": [
+        {
+          "kanji": "彼はもう出発したらしい。そうすると、駅で待っていても意味がないね。",
+          "hiragana_full": "かれはもうしゅっぱつしたらしい。そうすると、えきでまっていてもいみがないね。"
+        },
+        {
+          "kanji": "もう家を出たのなら、駅で待っていても無駄だね。",
+          "hiragana_full": "もういえをでたのなら、えきでまっていてもむだだね。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "家を出る",
+          "reading": "いえをでる",
+          "meaning": "to leave home"
+        },
+        {
+          "word": "駅",
+          "reading": "えき",
+          "meaning": "station"
+        },
+        {
+          "word": "無駄",
+          "reading": "むだ",
+          "meaning": "pointless; a waste"
+        }
+      ]
+    },
+    {
+      "id": "n2_223_5",
+      "example_sentence": "まず両辺を2で割ります。そうすると、式はずっと簡単になります。",
+      "translation": "First, divide both sides by two. Then the equation becomes much simpler.",
+      "blank_target": "そうすると",
+      "wrong_choices": [
+        "そうしないと",
+        "ところが",
+        "それとも"
+      ],
+      "wrong_choice_explanations": [
+        "そうしないと ('if you don't') warns of trouble from skipping the step, whereas the sentence reports the tidy result of doing it.",
+        "ところが ('however') signals an unexpected turn, but simplification is the expected, intended outcome of dividing.",
+        "それとも ('or else') offers a competing option, out of place in a single procedural result."
+      ],
+      "hiragana_full": "まずりょうへんをにでわります。そうすると、しきはずっとかんたんになります。",
+      "audio_alternatives": [
+        {
+          "kanji": "まず両辺を2で割りましょう。そうすると、計算がずっと楽になります。",
+          "hiragana_full": "まずりょうへんをにでわりましょう。そうすると、けいさんがずっとらくになります。"
+        },
+        {
+          "kanji": "両辺を2で割れば、式はかなり簡単になります。",
+          "hiragana_full": "りょうへんをにでわれば、しきはかなりかんたんになります。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "両辺",
+          "reading": "りょうへん",
+          "meaning": "both sides (of an equation)"
+        },
+        {
+          "word": "割る",
+          "reading": "わる",
+          "meaning": "to divide"
+        },
+        {
+          "word": "式",
+          "reading": "しき",
+          "meaning": "formula; equation"
+        }
+      ]
+    },
+    {
+      "id": "n2_223_6",
+      "example_sentence": "おそるおそるドアを引いた。そうすると、中には誰もいなかった。",
+      "translation": "I timidly pulled the door open. And then — there was no one inside.",
+      "blank_target": "そうすると",
+      "wrong_choices": [
+        "それでも",
+        "そのうえ",
+        "それとも"
+      ],
+      "wrong_choice_explanations": [
+        "それでも ('even so') expects defiance of some obstacle, but the emptiness is simply what was found on opening the door, not a contrast.",
+        "そのうえ ('on top of that') adds a further fact of the same kind, yet only one discovery is reported here.",
+        "それとも ('or else') frames a choice between options, irrelevant to narrating what was seen."
+      ],
+      "hiragana_full": "おそるおそるどあをひいた。そうすると、なかにはだれもいなかった。",
+      "audio_alternatives": [
+        {
+          "kanji": "そっとドアを引いた。そうすると、部屋には誰の姿もなかった。",
+          "hiragana_full": "そっとどあをひいた。そうすると、へやにはだれのすがたもなかった。"
+        },
+        {
+          "kanji": "おそるおそるドアを開けると、中はもぬけの殻だった。",
+          "hiragana_full": "おそるおそるどあをあけると、なかはもぬけのからだった。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "おそるおそる",
+          "reading": "おそるおそる",
+          "meaning": "timidly; fearfully"
+        },
+        {
+          "word": "引く",
+          "reading": "ひく",
+          "meaning": "to pull"
+        },
+        {
+          "word": "誰も",
+          "reading": "だれも",
+          "meaning": "(with negative) no one"
+        }
+      ]
+    },
+    {
+      "id": "n2_223_7",
+      "example_sentence": "少し早めに家を出てみて。そうすると、満員電車を避けられるから。",
+      "translation": "Try leaving home a bit early. That way you can avoid the packed trains.",
+      "blank_target": "そうすると",
+      "wrong_choices": [
+        "そうしないと",
+        "それでも",
+        "そのくせ"
+      ],
+      "wrong_choice_explanations": [
+        "そうしないと ('if you don't leave early') warns of the bad case, flipping the sentence's positive 'do it → benefit' framing into 避けられる not following.",
+        "それでも ('even so') concedes leaving early yet still being stuck, the opposite of 避けられる.",
+        "そのくせ ('and yet, despite that') criticizes an inconsistency, unrelated to the helpful cause-and-effect advice."
+      ],
+      "hiragana_full": "すこしはやめにいえをでてみて。そうすると、まんいんでんしゃをさけられるから。",
+      "audio_alternatives": [
+        {
+          "kanji": "少し早く家を出てごらん。そうすると、満員電車に乗らずにすむよ。",
+          "hiragana_full": "すこしはやくいえをでてごらん。そうすると、まんいんでんしゃにのらずにすむよ。"
+        },
+        {
+          "kanji": "早めに出発すれば、混んだ電車を避けられるから。",
+          "hiragana_full": "はやめにしゅっぱつすれば、こんだでんしゃをさけられるから。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "早めに",
+          "reading": "はやめに",
+          "meaning": "a little early"
+        },
+        {
+          "word": "満員電車",
+          "reading": "まんいんでんしゃ",
+          "meaning": "packed train"
+        },
+        {
+          "word": "避ける",
+          "reading": "さける",
+          "meaning": "to avoid"
+        }
+      ]
+    },
+    {
+      "id": "n2_223_8",
+      "example_sentence": "契約書にご署名いただきます。そうすると、正式に手続きが完了いたします。",
+      "translation": "You will sign the contract. At that point, the procedure is formally completed. (to a client)",
+      "blank_target": "そうすると",
+      "wrong_choices": [
+        "そうしないと",
+        "それでも",
+        "とはいえ"
+      ],
+      "wrong_choice_explanations": [
+        "そうしないと ('unless you do so') warns the procedure won't finish, but the sentence states the positive completion, not the failure case.",
+        "それでも ('even so') would deny completion despite the signing, contradicting 完了いたします.",
+        "とはいえ ('that said') concedes a point before a qualification, but signing straightforwardly finalizes things with no caveat."
+      ],
+      "hiragana_full": "けいやくしょにごしょめいいただきます。そうすると、せいしきにてつづきがかんりょういたします。",
+      "audio_alternatives": [
+        {
+          "kanji": "契約書にご署名ください。そうすると、正式に手続きが完了いたします。",
+          "hiragana_full": "けいやくしょにごしょめいください。そうすると、せいしきにてつづきがかんりょういたします。"
+        },
+        {
+          "kanji": "ご署名をいただければ、その時点で手続きは完了となります。",
+          "hiragana_full": "ごしょめいをいただければ、そのじてんでてつづきはかんりょうとなります。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "formal",
+      "vocab": [
+        {
+          "word": "契約書",
+          "reading": "けいやくしょ",
+          "meaning": "contract (document)"
+        },
+        {
+          "word": "署名",
+          "reading": "しょめい",
+          "meaning": "signature"
+        },
+        {
+          "word": "手続き",
+          "reading": "てつづき",
+          "meaning": "procedure"
+        },
+        {
+          "word": "完了",
+          "reading": "かんりょう",
+          "meaning": "completion"
+        }
+      ]
+    },
+    {
+      "id": "n2_223_9",
+      "example_sentence": "資料をもう一度調べ直した。そうすると、思わぬミスが見つかった。",
+      "translation": "I went back over the documents once more. And then I found an unexpected mistake.",
+      "blank_target": "そうすると",
+      "wrong_choices": [
+        "それでも",
+        "それどころか",
+        "それとも"
+      ],
+      "wrong_choice_explanations": [
+        "それでも ('even so') implies the re-check turned up nothing new, the reverse of finding a mistake.",
+        "それどころか ('far from it, on the contrary') negates a prior expectation and escalates, but nothing was denied here — a mistake was simply discovered.",
+        "それとも ('or else') sets up an alternative question, unrelated to reporting a discovery."
+      ],
+      "hiragana_full": "しりょうをもういちどしらべなおした。そうすると、おもわぬみすがみつかった。",
+      "audio_alternatives": [
+        {
+          "kanji": "資料をもう一度見直した。そうすると、思いがけない誤りが出てきた。",
+          "hiragana_full": "しりょうをもういちどみなおした。そうすると、おもいがけないあやまりがでてきた。"
+        },
+        {
+          "kanji": "もう一度調べ直したところ、思わぬミスが見つかった。",
+          "hiragana_full": "もういちどしらべなおしたところ、おもわぬみすがみつかった。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "調べ直す",
+          "reading": "しらべなおす",
+          "meaning": "to re-examine"
+        },
+        {
+          "word": "思わぬ",
+          "reading": "おもわぬ",
+          "meaning": "unexpected"
+        },
+        {
+          "word": "ミス",
+          "reading": "みす",
+          "meaning": "mistake"
+        }
+      ]
+    },
+    {
+      "id": "n2_223_10",
+      "example_sentence": "感情のまま返信してはいけない。そうすると、事態がもっと悪くなるだけだ。",
+      "translation": "Don't reply while emotional. If you do, things will only get worse.",
+      "blank_target": "そうすると",
+      "wrong_choices": [
+        "そうすれば",
+        "だからといって",
+        "それにしても"
+      ],
+      "wrong_choice_explanations": [
+        "そうすれば ('if you do so, to good effect') expects a beneficial result, clashing with 悪くなるだけ, which states that only harm follows.",
+        "だからといって ('that doesn't mean') guards against a rash conclusion, but the worsening is being asserted as the consequence, not dismissed.",
+        "それにしても ('even so, all the same') voices mild surprise or concession about a known fact, not a cause-and-effect warning."
+      ],
+      "hiragana_full": "かんじょうのままへんしんしてはいけない。そうすると、じたいがもっとわるくなるだけだ。",
+      "audio_alternatives": [
+        {
+          "kanji": "感情のまま返事をしてはいけない。そうすると、事態は悪化するばかりだ。",
+          "hiragana_full": "かんじょうのままへんじをしてはいけない。そうすると、じたいはあっかするばかりだ。"
+        },
+        {
+          "kanji": "かっとなって返信すれば、事態はもっとこじれるだけだ。",
+          "hiragana_full": "かっとなってへんしんすれば、じたいはもっとこじれるだけだ。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "感情",
+          "reading": "かんじょう",
+          "meaning": "emotion"
+        },
+        {
+          "word": "返信",
+          "reading": "へんしん",
+          "meaning": "reply"
+        },
+        {
+          "word": "事態",
+          "reading": "じたい",
+          "meaning": "situation; state of affairs"
+        }
+      ]
+    }
+  ]
+}

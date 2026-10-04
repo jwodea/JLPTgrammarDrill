@@ -9,7 +9,11 @@
       "example_sentence": "来週の会議は、確か水曜日だっけ？",
       "translation": "Next week's meeting is on Wednesday, right? (I can't quite remember.)",
       "blank_target": "だっけ",
-      "wrong_choices": ["だよね", "だね", "だろう"],
+      "wrong_choices": [
+        "だよね",
+        "だね",
+        "だろう"
+      ],
       "wrong_choice_explanations": [
         "「〜だよね」は自分が正しいと思っていることへの同意を相手に求める言い方で、『記憶があいまいで確かめたい』という「だっけ」のニュアンスは出ない。",
         "「〜だね」はその場で感じたことに軽く同意を求める終助詞で、忘れかけた予定を記憶からたどって確かめる働きはない。",
@@ -17,17 +21,35 @@
       ],
       "hiragana_full": "らいしゅうのかいぎは、たしかすいようびだっけ？",
       "audio_alternatives": [
-        { "kanji": "確認だけど、今度の会議って水曜日だっけ？", "hiragana_full": "かくにんだけど、こんどのかいぎってすいようびだっけ？" },
-        { "kanji": "来週の会議は水曜日でしたよね？", "hiragana_full": "らいしゅうのかいぎはすいようびでしたよね？" }
+        {
+          "kanji": "確認だけど、今度の会議って水曜日だっけ？",
+          "hiragana_full": "かくにんだけど、こんどのかいぎってすいようびだっけ？"
+        },
+        {
+          "kanji": "来週の会議は水曜日でしたよね？",
+          "hiragana_full": "らいしゅうのかいぎはすいようびでしたよね？"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "確か",
+          "reading": "たしか",
+          "meaning": "if I recall correctly"
+        }
+      ]
     },
     {
       "id": "n3_087_2",
       "example_sentence": "あの有名な俳優、名前は何て言ったっけ？",
       "translation": "That famous actor — what was his name again?",
       "blank_target": "たっけ",
-      "wrong_choices": ["たの", "たよ", "ただろう"],
+      "wrong_choices": [
+        "たの",
+        "たよ",
+        "ただろう"
+      ],
       "wrong_choice_explanations": [
         "「〜たの」は相手に情報や事情を尋ねる疑問で、「何て言ったの」は名前を相手から聞き出す問いになり、自分が忘れた名前を思い出そうとする「っけ」とは違う。",
         "「〜たよ」は相手に事実を知らせる断定の言い方で、疑問として記憶を確かめる「っけ」の働きはない。",
@@ -35,17 +57,35 @@
       ],
       "hiragana_full": "あのゆうめいなはいゆう、なまえはなんていったっけ？",
       "audio_alternatives": [
-        { "kanji": "ほら、あの有名な俳優、名前なんだっけ？", "hiragana_full": "ほら、あのゆうめいなはいゆう、なまえなんだっけ？" },
-        { "kanji": "あの有名な俳優の名前が、どうしても思い出せない。", "hiragana_full": "あのゆうめいなはいゆうのなまえが、どうしてもおもいだせない。" }
+        {
+          "kanji": "ほら、あの有名な俳優、名前なんだっけ？",
+          "hiragana_full": "ほら、あのゆうめいなはいゆう、なまえなんだっけ？"
+        },
+        {
+          "kanji": "あの有名な俳優の名前が、どうしても思い出せない。",
+          "hiragana_full": "あのゆうめいなはいゆうのなまえが、どうしてもおもいだせない。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "俳優",
+          "reading": "はいゆう",
+          "meaning": "actor"
+        }
+      ]
     },
     {
       "id": "n3_087_3",
       "example_sentence": "あれ、この部屋の鍵、どこに置いたっけ？",
       "translation": "Huh, where did I put the key to this room again?",
       "blank_target": "たっけ",
-      "wrong_choices": ["たの", "たよね", "ただろう"],
+      "wrong_choices": [
+        "たの",
+        "たよね",
+        "ただろう"
+      ],
       "wrong_choice_explanations": [
         "「〜たの」は相手に「どこに置いたの」と尋ねる疑問で、自分の記憶をたどって置き場所を思い出そうとする「っけ」とは方向が違う。",
         "「〜たよね」は自分の記憶を確信して相手に同意を求める言い方で、置いた場所が思い出せないという不確かさには合わない。",
@@ -53,17 +93,28 @@
       ],
       "hiragana_full": "あれ、このへやのかぎ、どこにおいたっけ？",
       "audio_alternatives": [
-        { "kanji": "この部屋の鍵、私どこに置いたっけ？", "hiragana_full": "このへやのかぎ、わたしどこにおいたっけ？" },
-        { "kanji": "あれ、部屋の鍵をどこに置いたか思い出せない。", "hiragana_full": "あれ、へやのかぎをどこにおいたかおもいだせない。" }
+        {
+          "kanji": "この部屋の鍵、私どこに置いたっけ？",
+          "hiragana_full": "このへやのかぎ、わたしどこにおいたっけ？"
+        },
+        {
+          "kanji": "あれ、部屋の鍵をどこに置いたか思い出せない。",
+          "hiragana_full": "あれ、へやのかぎをどこにおいたかおもいだせない。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n3_087_4",
       "example_sentence": "その映画、私たちもう見たっけ？",
       "translation": "That movie — have we already seen it? (I forget.)",
       "blank_target": "たっけ",
-      "wrong_choices": ["たよね", "たの", "ただろう"],
+      "wrong_choices": [
+        "たよね",
+        "たの",
+        "ただろう"
+      ],
       "wrong_choice_explanations": [
         "「〜たよね」は「もう見たよね」と自分の記憶を確信して同意を求める言い方で、見たかどうか自体があいまいなこの場面には合わない。",
         "「〜たの」は相手に「見たの？」と事実を尋ねる疑問で、自分も含めて見たかどうかを記憶からたどる「っけ」とは違う。",
@@ -71,17 +122,28 @@
       ],
       "hiragana_full": "そのえいが、わたしたちもうみたっけ？",
       "audio_alternatives": [
-        { "kanji": "ねえ、この映画ってもう見たっけ？", "hiragana_full": "ねえ、このえいがってもうみたっけ？" },
-        { "kanji": "その映画、私たちもう見ましたよね？", "hiragana_full": "そのえいが、わたしたちもうみましたよね？" }
+        {
+          "kanji": "ねえ、この映画ってもう見たっけ？",
+          "hiragana_full": "ねえ、このえいがってもうみたっけ？"
+        },
+        {
+          "kanji": "その映画、私たちもう見ましたよね？",
+          "hiragana_full": "そのえいが、わたしたちもうみましたよね？"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n3_087_5",
       "example_sentence": "あれ、このケーキ、前はこんなに甘かったっけ？",
       "translation": "Huh, was this cake always this sweet?",
       "blank_target": "かったっけ",
-      "wrong_choices": ["かったよね", "かったね", "かっただろう"],
+      "wrong_choices": [
+        "かったよね",
+        "かったね",
+        "かっただろう"
+      ],
       "wrong_choice_explanations": [
         "「〜かったよね」は「甘かったよね」と自分の記憶を確信して同意を求める言い方で、以前の味があいまいで確かめ直すこの場面には合わない。",
         "「〜かったね」はその場の感想に軽く同意を求める終助詞で、過去の味を記憶からたどって確認する働きはない。",
@@ -89,17 +151,28 @@
       ],
       "hiragana_full": "あれ、このけーき、まえはこんなにあまかったっけ？",
       "audio_alternatives": [
-        { "kanji": "このケーキ、こんなに甘かったっけ？", "hiragana_full": "このけーき、こんなにあまかったっけ？" },
-        { "kanji": "前に食べたとき、このケーキはこんなに甘くなかった気がする。", "hiragana_full": "まえにたべたとき、このけーきはこんなにあまくなかったきがする。" }
+        {
+          "kanji": "このケーキ、こんなに甘かったっけ？",
+          "hiragana_full": "このけーき、こんなにあまかったっけ？"
+        },
+        {
+          "kanji": "前に食べたとき、このケーキはこんなに甘くなかった気がする。",
+          "hiragana_full": "まえにたべたとき、このけーきはこんなにあまくなかったきがする。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n3_087_6",
       "example_sentence": "君の誕生日って、確か五月だっけ？",
       "translation": "Your birthday is in May, isn't it? (If I recall correctly.)",
       "blank_target": "だっけ",
-      "wrong_choices": ["だよね", "だね", "だろう"],
+      "wrong_choices": [
+        "だよね",
+        "だね",
+        "だろう"
+      ],
       "wrong_choice_explanations": [
         "「〜だよね」は自分の記憶を確信して相手に同意を求める言い方で、『誕生日があいまいで確かめたい』という「だっけ」の不確かさは表せない。",
         "「〜だね」はその場で感じたことに軽く同意を求める終助詞で、相手の誕生日を記憶からたどって確かめる働きはない。",
@@ -107,17 +180,35 @@
       ],
       "hiragana_full": "きみのたんじょうびって、たしかごがつだっけ？",
       "audio_alternatives": [
-        { "kanji": "確か君の誕生日って五月だっけ？", "hiragana_full": "たしかきみのたんじょうびってごがつだっけ？" },
-        { "kanji": "あなたの誕生日は五月でしたよね？", "hiragana_full": "あなたのたんじょうびはごがつでしたよね？" }
+        {
+          "kanji": "確か君の誕生日って五月だっけ？",
+          "hiragana_full": "たしかきみのたんじょうびってごがつだっけ？"
+        },
+        {
+          "kanji": "あなたの誕生日は五月でしたよね？",
+          "hiragana_full": "あなたのたんじょうびはごがつでしたよね？"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "確か",
+          "reading": "たしか",
+          "meaning": "if I recall correctly"
+        }
+      ]
     },
     {
       "id": "n3_087_7",
       "example_sentence": "あれ、朝の薬、もう飲んだっけ？",
       "translation": "Hmm, did I already take my morning medicine?",
       "blank_target": "だっけ",
-      "wrong_choices": ["だよね", "だね", "だろう"],
+      "wrong_choices": [
+        "だよね",
+        "だね",
+        "だろう"
+      ],
       "wrong_choice_explanations": [
         "「〜だよね」は「もう飲んだよね」と自分の記憶を確信して同意を求める言い方で、飲んだかどうか自体があいまいなこの場面には合わない。",
         "「〜だね」はその場で感じたことに軽く同意を求める終助詞で、飲んだ記憶をたどって確認する働きはない。",
@@ -125,17 +216,28 @@
       ],
       "hiragana_full": "あれ、あさのくすり、もうのんだっけ？",
       "audio_alternatives": [
-        { "kanji": "あれ、私もう薬飲んだっけ？", "hiragana_full": "あれ、わたしもうくすりのんだっけ？" },
-        { "kanji": "朝の薬を飲んだかどうか、思い出せない。", "hiragana_full": "あさのくすりをのんだかどうか、おもいだせない。" }
+        {
+          "kanji": "あれ、私もう薬飲んだっけ？",
+          "hiragana_full": "あれ、わたしもうくすりのんだっけ？"
+        },
+        {
+          "kanji": "朝の薬を飲んだかどうか、思い出せない。",
+          "hiragana_full": "あさのくすりをのんだかどうか、おもいだせない。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n3_087_8",
       "example_sentence": "明日の待ち合わせは、駅前だっけ？",
       "translation": "Tomorrow's meeting spot is in front of the station, right? (I forget.)",
       "blank_target": "だっけ",
-      "wrong_choices": ["だよね", "だね", "だろう"],
+      "wrong_choices": [
+        "だよね",
+        "だね",
+        "だろう"
+      ],
       "wrong_choice_explanations": [
         "「〜だよね」は自分が正しいと思う場所を相手に確認させる言い方で、待ち合わせ場所があいまいで確かめたい「だっけ」とは異なる。",
         "「〜だね」はその場の判断に軽く同意を求める終助詞で、場所を記憶からたどって確かめる働きはない。",
@@ -143,17 +245,35 @@
       ],
       "hiragana_full": "あしたのまちあわせは、えきまえだっけ？",
       "audio_alternatives": [
-        { "kanji": "明日の集合場所って、駅前だっけ？", "hiragana_full": "あしたのしゅうごうばしょって、えきまえだっけ？" },
-        { "kanji": "明日の待ち合わせは駅前でしたよね？", "hiragana_full": "あしたのまちあわせはえきまえでしたよね？" }
+        {
+          "kanji": "明日の集合場所って、駅前だっけ？",
+          "hiragana_full": "あしたのしゅうごうばしょって、えきまえだっけ？"
+        },
+        {
+          "kanji": "明日の待ち合わせは駅前でしたよね？",
+          "hiragana_full": "あしたのまちあわせはえきまえでしたよね？"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "待ち合わせ",
+          "reading": "まちあわせ",
+          "meaning": "meeting up; rendezvous"
+        }
+      ]
     },
     {
       "id": "n3_087_9",
       "example_sentence": "家を出るとき、ちゃんと鍵をかけたっけ？",
       "translation": "When I left the house, did I actually lock the door?",
       "blank_target": "たっけ",
-      "wrong_choices": ["たの", "たよね", "ただろう"],
+      "wrong_choices": [
+        "たの",
+        "たよね",
+        "ただろう"
+      ],
       "wrong_choice_explanations": [
         "「〜たの」は相手に「かけたの？」と事実を尋ねる疑問で、自分の行動を記憶からたどって確かめる「っけ」とは方向が違う。",
         "「〜たよね」は鍵をかけたと確信して相手に同意を求める言い方で、かけたかどうかが不安なこの場面には合わない。",
@@ -161,17 +281,35 @@
       ],
       "hiragana_full": "いえをでるとき、ちゃんとかぎをかけたっけ？",
       "audio_alternatives": [
-        { "kanji": "出かけるとき、ちゃんと鍵をかけたっけ？", "hiragana_full": "でかけるとき、ちゃんとかぎをかけたっけ？" },
-        { "kanji": "家を出るとき鍵をかけたか、心配になってきた。", "hiragana_full": "いえをでるときかぎをかけたか、しんぱいになってきた。" }
+        {
+          "kanji": "出かけるとき、ちゃんと鍵をかけたっけ？",
+          "hiragana_full": "でかけるとき、ちゃんとかぎをかけたっけ？"
+        },
+        {
+          "kanji": "家を出るとき鍵をかけたか、心配になってきた。",
+          "hiragana_full": "いえをでるときかぎをかけたか、しんぱいになってきた。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "ちゃんと",
+          "reading": "ちゃんと",
+          "meaning": "properly; without fail"
+        }
+      ]
     },
     {
       "id": "n3_087_10",
       "example_sentence": "この人とは、前にどこかで会ったんだっけ？",
       "translation": "This person — have I met them somewhere before? (I can't recall.)",
       "blank_target": "んだっけ",
-      "wrong_choices": ["んだよ", "んだね", "んだろう"],
+      "wrong_choices": [
+        "んだよ",
+        "んだね",
+        "んだろう"
+      ],
       "wrong_choice_explanations": [
         "「〜んだよ」は相手に事情を説明・主張する言い方で、会ったかどうかを記憶からたどって確かめる疑問の「んだっけ」とは違う。",
         "「〜んだね」は相手の話を受けて納得し同意する終助詞で、会った記憶があいまいで確認する働きはない。",
@@ -179,10 +317,17 @@
       ],
       "hiragana_full": "このひととは、まえにどこかであったんだっけ？",
       "audio_alternatives": [
-        { "kanji": "この人とは、どこかで会ったんだっけ？", "hiragana_full": "このひととは、どこかであったんだっけ？" },
-        { "kanji": "この人と前に会ったことがある気がするが、思い出せない。", "hiragana_full": "このひととまえにあったことがあるきがするが、おもいだせない。" }
+        {
+          "kanji": "この人とは、どこかで会ったんだっけ？",
+          "hiragana_full": "このひととは、どこかであったんだっけ？"
+        },
+        {
+          "kanji": "この人と前に会ったことがある気がするが、思い出せない。",
+          "hiragana_full": "このひととまえにあったことがあるきがするが、おもいだせない。"
+        }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     }
   ]
 }

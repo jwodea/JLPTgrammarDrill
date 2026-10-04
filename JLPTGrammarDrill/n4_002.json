@@ -1,123 +1,11 @@
 {
   "id": "n4_002",
-  "pattern": "〜なければならない",
+  "pattern": "〜なければならない／なければいけない",
   "meaning": "must / have to",
   "level": "N4",
   "exercises": [
     {
       "id": "n4_002_1",
-      "example_sentence": "毎日薬を飲まなければならない。",
-      "translation": "I must take medicine every day.",
-      "blank_target": "なければならない",
-      "wrong_choices": [
-        "なくてもいい",
-        "てはいけない",
-        "たほうがいい"
-      ],
-      "wrong_choice_explanations": [
-        "なくてもいい means 'don't have to'; the opposite of obligation.",
-        "てはいけない means 'must not'; prohibition, not obligation.",
-        "たほうがいい means 'should'; a suggestion, not a strong obligation."
-      ],
-      "hiragana_full": "まいにちくすりをのまなければならない。",
-      "audio_alternatives": [
-        {
-          "kanji": "毎日薬を飲む必要がある。",
-          "hiragana_full": "まいにちくすりをのむひつようがある。"
-        },
-        {
-          "kanji": "毎日薬を飲まないといけない。",
-          "hiragana_full": "まいにちくすりをのまないといけない。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_002_2",
-      "example_sentence": "宿題を提出しなければならない。",
-      "translation": "I have to submit my homework.",
-      "blank_target": "なければならない",
-      "wrong_choices": [
-        "なくてもいい",
-        "てもいい",
-        "ておく"
-      ],
-      "wrong_choice_explanations": [
-        "なくてもいい means 'don't need to submit'; opposite of must.",
-        "てもいい means 'it's okay to submit'; permission, not obligation.",
-        "ておく means 'do in advance'; preparation, not obligation."
-      ],
-      "hiragana_full": "しゅくだいをていしゅつしなければならない。",
-      "audio_alternatives": [
-        {
-          "kanji": "宿題を提出しないといけない。",
-          "hiragana_full": "しゅくだいをていしゅつしないといけない。"
-        },
-        {
-          "kanji": "宿題を提出しなければなりません。",
-          "hiragana_full": "しゅくだいをていしゅつしなければなりません。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_002_3",
-      "example_sentence": "明日早く起きなければならない。",
-      "translation": "I must get up early tomorrow.",
-      "blank_target": "なければならない",
-      "wrong_choices": [
-        "たくない",
-        "てもいい",
-        "たほうがいい"
-      ],
-      "wrong_choice_explanations": [
-        "たくない means 'don't want to'; expresses desire, not obligation.",
-        "てもいい means 'it's okay to get up early'; permission, not obligation.",
-        "たほうがいい means 'it would be better to'; advice, not necessity."
-      ],
-      "hiragana_full": "あしたはやくおきなければならない。",
-      "audio_alternatives": [
-        {
-          "kanji": "明日早く起きないといけない。",
-          "hiragana_full": "あしたはやくおきないといけない。"
-        },
-        {
-          "kanji": "明日は早起きしなければならない。",
-          "hiragana_full": "あしたははやおきしなければならない。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_002_4",
-      "example_sentence": "会議に参加しなければならない。",
-      "translation": "You must participate in the meeting.",
-      "blank_target": "なければならない",
-      "wrong_choices": [
-        "なくてもいい",
-        "てはいけない",
-        "たがる"
-      ],
-      "wrong_choice_explanations": [
-        "なくてもいい means 'don't need to participate'; no obligation.",
-        "てはいけない means 'must not participate'; prohibition.",
-        "たがる means 'want to'; expresses desire, not necessity."
-      ],
-      "hiragana_full": "かいぎにさんかしなければならない。",
-      "audio_alternatives": [
-        {
-          "kanji": "会議に参加しないといけない。",
-          "hiragana_full": "かいぎにさんかしないといけない。"
-        },
-        {
-          "kanji": "会議に出席しなければならない。",
-          "hiragana_full": "かいぎにしゅっせきしなければならない。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_002_5",
       "example_sentence": "図書館で静かにしなければならない。",
       "translation": "You must be quiet in the library.",
       "blank_target": "なければならない",
@@ -142,10 +30,11 @@
           "hiragana_full": "としょかんでしずかにしないといけない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
-      "id": "n4_002_6",
+      "id": "n4_002_2",
       "example_sentence": "このレポートは今日中に書かなければならない。",
       "translation": "This report must be written by the end of today.",
       "blank_target": "なければならない",
@@ -170,38 +59,18 @@
           "hiragana_full": "このれぽーとはきょうじゅうにかくひつようがある"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_002_7",
-      "example_sentence": "病院で診察を受けなければならない。",
-      "translation": "I must get examined at the hospital.",
-      "blank_target": "なければならない",
-      "wrong_choices": [
-        "なくてもいい",
-        "てしまう",
-        "ようになる"
-      ],
-      "wrong_choice_explanations": [
-        "なくてもいい means 'don't have to get examined'; optional.",
-        "てしまう indicates completion or regret; not related to obligation.",
-        "ようになる means 'come to'; indicates gradual change, not necessity."
-      ],
-      "hiragana_full": "びょういんでしんさつをうけなければならない。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "病院で診てもらわなければならない。",
-          "hiragana_full": "びょういんでみてもらわなければならない。"
-        },
-        {
-          "kanji": "病院で診察を受けないといけない。",
-          "hiragana_full": "びょういんでしんさつをうけないといけない。"
+          "word": "今日中",
+          "reading": "きょうじゅう",
+          "meaning": "by the end of today"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n4_002_8",
+      "id": "n4_002_3",
       "example_sentence": "交通ルールを守らなければならない。",
       "translation": "You must follow traffic rules.",
       "blank_target": "なければならない",
@@ -226,38 +95,18 @@
           "hiragana_full": "こうつうるーるをまもるひつようがある。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_002_9",
-      "example_sentence": "会社の面接の前に準備しなければならない。",
-      "translation": "I must prepare before the company interview.",
-      "blank_target": "なければならない",
-      "wrong_choices": [
-        "なくてもいい",
-        "てみる",
-        "かもしれない"
-      ],
-      "wrong_choice_explanations": [
-        "なくてもいい means 'don't need to prepare'; optional.",
-        "てみる means 'try to prepare'; indicates attempt, not obligation.",
-        "かもしれない means 'might'; expresses possibility, not necessity."
-      ],
-      "hiragana_full": "かいしゃのめんせつのまえにじゅんびしなければならない",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "会社の面接の前に準備しないといけない。",
-          "hiragana_full": "かいしゃのめんせつのまえにじゅんびしないといけない"
-        },
-        {
-          "kanji": "会社の面接の前に準備する必要がある。",
-          "hiragana_full": "かいしゃのめんせつのまえにじゅんびするひつようがある"
+          "word": "交通ルール",
+          "reading": "こうつうるーる",
+          "meaning": "traffic rules"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n4_002_10",
+      "id": "n4_002_4",
       "example_sentence": "雨が降っているから、傘を持って行かなければならない。",
       "translation": "It's raining, so I have to take an umbrella.",
       "blank_target": "なければならない",
@@ -282,7 +131,259 @@
           "hiragana_full": "あめがふっているので、かさがひつようだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
+    },
+    {
+      "id": "n4_002_5",
+      "example_sentence": "電車に間に合うように、毎朝六時に起きなければいけない。",
+      "translation": "I have to get up at six every morning to catch my train.",
+      "blank_target": "なければいけない",
+      "wrong_choices": [
+        "なくてもいい",
+        "ないことにした",
+        "ないほうがいい"
+      ],
+      "wrong_choice_explanations": [
+        "なくてもいい would mean getting up at six is unnecessary, but the purpose clause 電車に間に合うように shows it is exactly what is required.",
+        "ないことにした means 'I decided not to (get up),' which clashes with the stated goal of catching the train.",
+        "ないほうがいい advises against the action ('better not to get up'), which makes no sense when waking early is the means of catching the train."
+      ],
+      "hiragana_full": "でんしゃにまにあうように、まいあさろくじにおきなければいけない。",
+      "audio_alternatives": [
+        {
+          "kanji": "電車に乗るために、六時に起きなければいけません。",
+          "hiragana_full": "でんしゃにのるために、ろくじにおきなければいけません。"
+        },
+        {
+          "kanji": "六時に起きないと、電車に間に合いません。",
+          "hiragana_full": "ろくじにおきないと、でんしゃにまにあいません。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "間に合う",
+          "reading": "まにあう",
+          "meaning": "to be in time"
+        }
+      ]
+    },
+    {
+      "id": "n4_002_6",
+      "example_sentence": "来月、パスポートを更新しなければいけない。",
+      "translation": "I have to renew my passport next month.",
+      "blank_target": "なければいけない",
+      "wrong_choices": [
+        "なくてもよかった",
+        "ないようにしている",
+        "ないだろう"
+      ],
+      "wrong_choice_explanations": [
+        "なくてもよかった means 'didn't have to' and looks back at the past, but 来月 places this duty in the future.",
+        "ないようにしている describes a habit of trying not to do something; renewing a passport here is a coming obligation, not something the speaker avoids.",
+        "ないだろう is a guess that something probably won't happen; the sentence states a requirement, not a prediction."
+      ],
+      "hiragana_full": "らいげつ、ぱすぽーとをこうしんしなければいけない。",
+      "audio_alternatives": [
+        {
+          "kanji": "来月、パスポートの更新をしなければいけません。",
+          "hiragana_full": "らいげつ、ぱすぽーとのこうしんをしなければいけません。"
+        },
+        {
+          "kanji": "パスポートが来月で切れるので、新しくします。",
+          "hiragana_full": "ぱすぽーとがらいげつできれるので、あたらしくします。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "来月",
+          "reading": "らいげつ",
+          "meaning": "next month"
+        },
+        {
+          "word": "パスポート",
+          "reading": "ぱすぽーと",
+          "meaning": "passport"
+        },
+        {
+          "word": "更新",
+          "reading": "こうしん",
+          "meaning": "to renew"
+        }
+      ]
+    },
+    {
+      "id": "n4_002_7",
+      "example_sentence": "家賃は月末までに払わなければいけない。",
+      "translation": "The rent has to be paid by the end of the month.",
+      "blank_target": "なければいけない",
+      "wrong_choices": [
+        "なくてもいい",
+        "ないですむ",
+        "なくなった"
+      ],
+      "wrong_choice_explanations": [
+        "なくてもいい would say paying is optional, which contradicts the deadline marked by 月末までに.",
+        "ないですむ means 'get away without doing'; 払わないですむ would claim no payment is needed — the opposite of a rule about rent.",
+        "なくなった means 'stopped doing' and describes a change of habit in the past; the sentence states a standing obligation with a deadline."
+      ],
+      "hiragana_full": "やちんはげつまつまでにはらわなければいけない。",
+      "audio_alternatives": [
+        {
+          "kanji": "月末までに家賃を払わなければいけません。",
+          "hiragana_full": "げつまつまでにやちんをはらわなければいけません。"
+        },
+        {
+          "kanji": "家賃の支払いは月末が期限です。",
+          "hiragana_full": "やちんのしはらいはげつまつがきげんです。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "家賃",
+          "reading": "やちん",
+          "meaning": "rent"
+        },
+        {
+          "word": "月末",
+          "reading": "げつまつ",
+          "meaning": "end of the month"
+        },
+        {
+          "word": "払わ",
+          "reading": "はらわ",
+          "meaning": "to pay"
+        }
+      ]
+    },
+    {
+      "id": "n4_002_8",
+      "example_sentence": "犬を飼っているので、毎日散歩に連れて行かなければいけない。",
+      "translation": "Since I have a dog, I have to take it for a walk every day.",
+      "blank_target": "なければいけない",
+      "wrong_choices": [
+        "ないらしい",
+        "なくてもかまわない",
+        "ないことにしている"
+      ],
+      "wrong_choice_explanations": [
+        "ないらしい reports hearsay ('apparently doesn't take it'); the speaker is stating their own duty, not passing on a rumor about someone.",
+        "なくてもかまわない means walks are unnecessary, but the reason clause 犬を飼っているので presents the daily walk as something the speaker is stuck with.",
+        "ないことにしている describes a personal policy of not doing something; a dog owner can't sensibly make 'no walks' their policy and call it a consequence of having a dog."
+      ],
+      "hiragana_full": "いぬをかっているので、まいにちさんぽにつれていかなければいけない。",
+      "audio_alternatives": [
+        {
+          "kanji": "犬がいるから、毎日散歩に行かなければいけない。",
+          "hiragana_full": "いぬがいるから、まいにちさんぽにいかなければいけない。"
+        },
+        {
+          "kanji": "うちの犬は毎日散歩が必要です。",
+          "hiragana_full": "うちのいぬはまいにちさんぽがひつようです。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "飼って",
+          "reading": "かって",
+          "meaning": "to keep (a pet)"
+        },
+        {
+          "word": "散歩",
+          "reading": "さんぽ",
+          "meaning": "walk"
+        }
+      ]
+    },
+    {
+      "id": "n4_002_9",
+      "example_sentence": "図書館の本は金曜日までに返さなければいけません。",
+      "translation": "Library books have to be returned by Friday.",
+      "blank_target": "なければいけません",
+      "wrong_choices": [
+        "なくてもいいです",
+        "ないでください",
+        "ないままにしました"
+      ],
+      "wrong_choice_explanations": [
+        "なくてもいいです would mean returning the books is optional, contradicting the までに deadline the library sets.",
+        "ないでください politely asks the listener not to return them — a request that makes no sense as a library rule.",
+        "ないままにしました means '(I) left them unreturned,' a report of past neglect; the sentence states the rule itself, not what someone did."
+      ],
+      "hiragana_full": "としょかんのほんはきんようびまでにかえさなければいけません。",
+      "audio_alternatives": [
+        {
+          "kanji": "借りた本は金曜日までに図書館に返さなければいけない。",
+          "hiragana_full": "かりたほんはきんようびまでにとしょかんにかえさなければいけない。"
+        },
+        {
+          "kanji": "金曜日が図書館の本の返却日です。",
+          "hiragana_full": "きんようびがとしょかんのほんのへんきゃくびです。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "図書館",
+          "reading": "としょかん",
+          "meaning": "library"
+        },
+        {
+          "word": "返さ",
+          "reading": "かえさ",
+          "meaning": "to return"
+        }
+      ]
+    },
+    {
+      "id": "n4_002_10",
+      "example_sentence": "バイクに乗るときは、ヘルメットをかぶらなければいけない。",
+      "translation": "You have to wear a helmet when you ride a motorcycle.",
+      "blank_target": "なければいけない",
+      "wrong_choices": [
+        "ないほうがいい",
+        "なくてもいい",
+        "ないことになっている"
+      ],
+      "wrong_choice_explanations": [
+        "ないほうがいい advises against wearing one ('better not to'), the reverse of a safety rule.",
+        "なくてもいい makes the helmet optional, but the sentence describes a requirement that applies バイクに乗るとき.",
+        "ないことになっている would mean 'the rule is that we don't wear one' — it states a rule, but the opposite rule from the one about helmets."
+      ],
+      "hiragana_full": "ばいくにのるときは、へるめっとをかぶらなければいけない。",
+      "audio_alternatives": [
+        {
+          "kanji": "バイクに乗る人は、ヘルメットをかぶらなければいけません。",
+          "hiragana_full": "ばいくにのるひとは、へるめっとをかぶらなければいけません。"
+        },
+        {
+          "kanji": "バイクに乗るとき、ヘルメットは必ず必要です。",
+          "hiragana_full": "ばいくにのるとき、へるめっとはかならずひつようです。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "ヘルメット",
+          "reading": "へるめっと",
+          "meaning": "helmet"
+        },
+        {
+          "word": "かぶら",
+          "reading": "かぶら",
+          "meaning": "to put on (headwear)"
+        }
+      ]
     }
   ]
 }

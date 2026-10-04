@@ -6,18 +6,237 @@
   "exercises": [
     {
       "id": "n2_051_1",
+      "example_sentence": "苦しい経験をしたからこそ、人の痛みが分かる。",
+      "translation": "Precisely because I had difficult experiences, I understand others' pain.",
+      "blank_target": "からこそ",
+      "wrong_choices": [
+        "のに",
+        "ところで",
+        "せいで"
+      ],
+      "wrong_choice_explanations": [
+        "のに means 'even though' and sets up a contrast, but having suffered is the reason one understands others' pain, not something that contradicts it.",
+        "〜たところで means 'even if one did' and predicts a futile result, which contradicts the sentence's point that hardship is exactly what lets you understand others' pain.",
+        "せいで implies blame or negative causation, which doesn't fit the positive realization expressed in this sentence."
+      ],
+      "hiragana_full": "くるしいけいけんをしたからこそ、ひとのいたみがわかる。",
+      "audio_alternatives": [
+        {
+          "kanji": "辛い経験をしたからこそ、人の苦しみが理解できる。",
+          "hiragana_full": "つらいけいけんをしたからこそ、ひとのくるしみがりかいできる。"
+        },
+        {
+          "kanji": "苦しい経験があったからこそ、他人の痛みが分かる。",
+          "hiragana_full": "くるしいけいけんがあったからこそ、たにんのいたみがわかる。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "苦しい",
+          "reading": "くるしい",
+          "meaning": "painful / hard"
+        },
+        {
+          "word": "痛み",
+          "reading": "いたみ",
+          "meaning": "pain"
+        }
+      ]
+    },
+    {
+      "id": "n2_051_2",
+      "example_sentence": "チームワークが良いからこそ、難しいプロジェクトを成功させられた。",
+      "translation": "Precisely because our teamwork was good, we could make the difficult project successful.",
+      "blank_target": "からこそ",
+      "wrong_choices": [
+        "ものの",
+        "からといって",
+        "のに"
+      ],
+      "wrong_choice_explanations": [
+        "ものの means 'although' and sets up a concession, but good teamwork and the project's success point the same way, so there is nothing to concede.",
+        "からといって means 'just because' and must lead to a negated or denied conclusion, but here good teamwork is affirmed as the very reason for success.",
+        "のに means 'even though' and implies an unexpected result, but succeeding with good teamwork is the expected outcome, so the contrast makes no sense."
+      ],
+      "hiragana_full": "ちーむわーくがよいからこそ、むずかしいぷろじぇくとをせいこうさせられた。",
+      "audio_alternatives": [
+        {
+          "kanji": "チームワークが良かったからこそ、難しいプロジェクトを成功させることができた。",
+          "hiragana_full": "ちーむわーくがよかったからこそ、むずかしいぷろじぇくとをせいこうさせることができた。"
+        },
+        {
+          "kanji": "チームワークの良さがあったからこそ、難しいプロジェクトを成功に導けた。",
+          "hiragana_full": "ちーむわーくのよさがあったからこそ、むずかしいぷろじぇくとをせいこうにみちびけた。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral"
+    },
+    {
+      "id": "n2_051_3",
+      "example_sentence": "日本に住んでいるからこそ、日本の文化を深く理解できる。",
+      "translation": "Precisely because I live in Japan, I can deeply understand Japanese culture.",
+      "blank_target": "からこそ",
+      "wrong_choices": [
+        "うちに",
+        "間に",
+        "最中に"
+      ],
+      "wrong_choice_explanations": [
+        "うちに means 'while' or 'during' and indicates timing rather than the causal emphasis of からこそ.",
+        "間に means 'during' or 'between' and shows temporal relationship, not causal emphasis.",
+        "最中に means 'in the middle of' and indicates timing, not the emphatic causation needed here."
+      ],
+      "hiragana_full": "にほんにすんでいるからこそ、にほんのぶんかをふかくりかいできる。",
+      "audio_alternatives": [
+        {
+          "kanji": "日本に住んでいるからこそ、日本の文化を深く理解することができる。",
+          "hiragana_full": "にほんにすんでいるからこそ、にほんのぶんかをふかくりかいすることができる。"
+        },
+        {
+          "kanji": "日本に暮らしているからこそ、日本の文化を深く理解できる。",
+          "hiragana_full": "にほんにくらしているからこそ、にほんのぶんかをふかくりかいできる。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "理解",
+          "reading": "りかい",
+          "meaning": "understanding"
+        }
+      ]
+    },
+    {
+      "id": "n2_051_4",
+      "example_sentence": "本当の友達だからこそ、厳しいことも言ってくれる。",
+      "translation": "Precisely because they are true friends, they tell me harsh truths too.",
+      "blank_target": "からこそ",
+      "wrong_choices": [
+        "からといって",
+        "のに",
+        "くせに"
+      ],
+      "wrong_choice_explanations": [
+        "「だからといって」 means 'just because they are true friends' and requires a denied conclusion, but here being true friends is affirmed as the very reason they speak frankly.",
+        "After a noun のに needs な (友達なのに), so 友達だのに is ungrammatical; のに also voices a frustrated expectation, which clashes with the grateful 言ってくれる.",
+        "After a noun くせに needs な (友達なくせに), so 友達だくせに is ungrammatical; くせに also carries reproach, which clashes with the grateful 言ってくれる that からこそ supports."
+      ],
+      "hiragana_full": "ほんとうのともだちだからこそ、きびしいこともいってくれる。",
+      "audio_alternatives": [
+        {
+          "kanji": "本当の友人だからこそ、厳しいことも言ってくれる。",
+          "hiragana_full": "ほんとうのゆうじんだからこそ、きびしいこともいってくれる。"
+        },
+        {
+          "kanji": "真の友達だからこそ、厳しいことも言ってくれる。",
+          "hiragana_full": "しんのともだちだからこそ、きびしいこともいってくれる。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "厳しい",
+          "reading": "きびしい",
+          "meaning": "strict / harsh"
+        }
+      ]
+    },
+    {
+      "id": "n2_051_5",
+      "example_sentence": "母国を離れたからこそ、故郷の大切さが分かった。",
+      "translation": "Precisely because I left my homeland, I understood the importance of my hometown.",
+      "blank_target": "からこそ",
+      "wrong_choices": [
+        "ところで",
+        "ついでに",
+        "きり"
+      ],
+      "wrong_choice_explanations": [
+        "「〜たところで」 means 'even if I left' and predicts a futile outcome, contradicting the point that leaving is exactly what made me see my hometown's value.",
+        "「〜たついでに」 means 'while I was at it,' describing an incidental extra action, not the decisive reason that leaving made me appreciate my hometown.",
+        "「〜たきり」 means 'left and then never ~' and needs an unchanged state to follow (e.g. 帰っていない); it cannot introduce the realization that からこそ explains."
+      ],
+      "hiragana_full": "ぼこくをはなれたからこそ、こきょうのたいせつさがわかった。",
+      "audio_alternatives": [
+        {
+          "kanji": "故郷を離れたからこそ、母国の大切さが理解できた。",
+          "hiragana_full": "こきょうをはなれたからこそ、ぼこくのたいせつさがりかいできた。"
+        },
+        {
+          "kanji": "母国を離れて初めて、故郷の大切さが分かった。",
+          "hiragana_full": "ぼこくをはなれてはじめて、こきょうのたいせつさがわかった。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "母国",
+          "reading": "ぼこく",
+          "meaning": "homeland"
+        },
+        {
+          "word": "故郷",
+          "reading": "こきょう",
+          "meaning": "hometown"
+        }
+      ]
+    },
+    {
+      "id": "n2_051_6",
+      "example_sentence": "経験豊富だからこそ、若い人にアドバイスができる。",
+      "translation": "Precisely because I'm experienced, I can give advice to young people.",
+      "blank_target": "からこそ",
+      "wrong_choices": [
+        "けど",
+        "が",
+        "からといって"
+      ],
+      "wrong_choice_explanations": [
+        "「だけど」 means 'even though I'm experienced,' a concession contrasting with the result, opposite to からこそ's emphatic causation.",
+        "「だが」 means 'but/although I'm experienced,' marking contrast rather than the emphatic reason からこそ expresses.",
+        "「だからといって」 means 'just because I'm experienced' and needs a negative conclusion like 'doesn't mean I can advise,' the opposite of the affirmative result here."
+      ],
+      "hiragana_full": "けいけんほうふだからこそ、わかいひとにアドバイスができる。",
+      "audio_alternatives": [
+        {
+          "kanji": "経験が豊富だからこそ、若者にアドバイスができる。",
+          "hiragana_full": "けいけんがほうふだからこそ、わかものにアドバイスができる。"
+        },
+        {
+          "kanji": "経験豊富であるからこそ、若い人にアドバイスをすることができる。",
+          "hiragana_full": "けいけんほうふであるからこそ、わかいひとにアドバイスをすることができる。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "豊富",
+          "reading": "ほうふ",
+          "meaning": "abundant"
+        }
+      ]
+    },
+    {
+      "id": "n2_051_7",
       "example_sentence": "過去の失敗を経験したからこそ、今の成功がある。",
       "translation": "It is precisely because I experienced past failures that I have today's success.",
       "blank_target": "たからこそ",
       "wrong_choices": [
-        "たから",
-        "たので",
-        "たために"
+        "たのに",
+        "たところで",
+        "たとたん"
       ],
       "wrong_choice_explanations": [
-        "'たから' simply expresses cause-and-effect but lacks the strong emphasis of 'からこそ' that highlights the precise reason for the success.",
-        "'たので' indicates a natural cause-and-effect relationship but doesn't provide the emphatic 'precisely because' meaning required here.",
-        "'たために' expresses purpose or reason but doesn't convey the strong causal emphasis that 'からこそ' provides in this context."
+        "'たのに' means 'even though I experienced' and signals a contrary result, but past failure is presented here as the very foundation of today's success.",
+        "'たところで' means 'even if I had experienced' and predicts a pointless outcome, which contradicts the claim that failure led to success.",
+        "'たとたん' means 'the moment I experienced' and marks a sudden immediate event, not the underlying reason for present success."
       ],
       "hiragana_full": "かこのしっぱいをけいけんしたからこそ、いまのせいこうがある。",
       "audio_alternatives": [
@@ -30,78 +249,35 @@
           "hiragana_full": "かこにしっぱいをけいけんしたからこそ、げんざいのせいこうがある。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_051_2",
-      "example_sentence": "あなたが信頼できる人だからこそ、この秘密を話すのです。",
-      "translation": "It is precisely because you are a trustworthy person that I am telling you this secret.",
-      "blank_target": "だからこそ",
-      "wrong_choices": [
-        "だから",
-        "なので",
-        "であるから"
-      ],
-      "wrong_choice_explanations": [
-        "'だから' simply means 'therefore' but lacks the emphatic quality of 'からこそ' that stresses the specific reason for sharing the secret.",
-        "'なので' expresses a straightforward causal relationship but doesn't provide the strong emphasis on the precise reason that 'からこそ' conveys.",
-        "'であるから' is formal causation but doesn't carry the emphatic 'precisely because' nuance that makes 'からこそ' special in this context."
-      ],
-      "hiragana_full": "あなたがしんらいできるひとだからこそ、このひみつをはなすのです。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "あなたが信頼できる人だからこそ、この秘密を打ち明けるのです。",
-          "hiragana_full": "あなたがしんらいできるひとだからこそ、このひみつをうちあけるのです。"
+          "word": "過去",
+          "reading": "かこ",
+          "meaning": "past"
         },
         {
-          "kanji": "あなたが信頼できる方だからこそ、この秘密をお話しするのです。",
-          "hiragana_full": "あなたがしんらいできるかただからこそ、このひみつをおはなしするのです。"
+          "word": "成功",
+          "reading": "せいこう",
+          "meaning": "success"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n2_051_3",
-      "example_sentence": "困難な時期を乗り越えたからこそ、チームの絆が深まった。",
-      "translation": "It is precisely because we overcame difficult times that our team bond deepened.",
-      "blank_target": "たからこそ",
-      "wrong_choices": [
-        "たおかげで",
-        "たので",
-        "たゆえに"
-      ],
-      "wrong_choice_explanations": [
-        "'たおかげで' expresses gratitude or positive outcome but doesn't provide the emphatic 'precisely because' meaning that highlights the specific cause.",
-        "'たので' indicates a natural cause-and-effect but lacks the strong emphasis of 'からこそ' that stresses the exact reason for the deepened bond.",
-        "'たゆえに' is literary causation but doesn't convey the emphatic quality of 'からこそ' that emphasizes the precise reason."
-      ],
-      "hiragana_full": "こんなんなじきをのりこえたからこそ、チームのきずながふかまった。",
-      "audio_alternatives": [
-        {
-          "kanji": "困難な時期を乗り越えたからこそ、チームの結束が強まった。",
-          "hiragana_full": "こんなんなじきをのりこえたからこそ、チームのけっそくがつよまった。"
-        },
-        {
-          "kanji": "難しい時期を乗り越えたからこそ、チームの絆が深まったのだ。",
-          "hiragana_full": "むずかしいじきをのりこえたからこそ、チームのきずながふかまったのだ。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_051_4",
+      "id": "n2_051_8",
       "example_sentence": "母の厳しい教育があったからこそ、今の私がいる。",
       "translation": "It is precisely because of my mother's strict education that I am who I am today.",
       "blank_target": "たからこそ",
       "wrong_choices": [
-        "たから",
-        "ていたから",
-        "たせいで"
+        "たのに",
+        "たものの",
+        "たとたん"
       ],
       "wrong_choice_explanations": [
-        "'たから' expresses simple causation but doesn't provide the strong emphasis of 'からこそ' that highlights the mother's education as the precise reason.",
-        "'ていたから' indicates ongoing past action as a reason but lacks the emphatic 'precisely because' meaning that 'からこそ' provides.",
-        "'たせいで' often implies negative causation and doesn't fit the appreciative tone or provide the emphatic precision of 'からこそ'."
+        "'たのに' means 'even though there was strict education' and implies an unexpected result, but the speaker credits that education as the very reason for who they are.",
+        "'たものの' means 'although there was ~' and sets up a concession, but the strict education is credited as the very reason for who the speaker is, not contrasted with it.",
+        "'たとたん' means 'the moment there was ~' and marks a sudden immediate event; it cannot express the long-term cause behind who the speaker is today."
       ],
       "hiragana_full": "ははのきびしいきょういくがあったからこそ、いまのわたしがいる。",
       "audio_alternatives": [
@@ -114,78 +290,35 @@
           "hiragana_full": "ははがきびしくそだててくれたからこそ、いまのじぶんがいる。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_051_5",
-      "example_sentence": "多くの本を読んだからこそ、幅広い知識を身につけることができた。",
-      "translation": "It is precisely because I read many books that I was able to acquire broad knowledge.",
-      "blank_target": "だからこそ",
-      "wrong_choices": [
-        "だから",
-        "ので",
-        "ために"
-      ],
-      "wrong_choice_explanations": [
-        "'だから' simply connects cause and effect but doesn't emphasize that reading many books was the precise key factor in gaining knowledge.",
-        "'ので' expresses natural causation but lacks the strong emphasis of 'からこそ' that highlights reading as the exact reason for acquiring knowledge.",
-        "'ために' typically expresses purpose rather than completed causation, and doesn't provide the emphatic 'precisely because' meaning."
-      ],
-      "hiragana_full": "おおくのほんをよんだからこそ、はばひろいちしきをみにつけることができた。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "たくさんの本を読んだからこそ、幅広い知識を身につけることができた。",
-          "hiragana_full": "たくさんのほんをよんだからこそ、はばひろいちしきをみにつけることができた。"
+          "word": "厳しい",
+          "reading": "きびしい",
+          "meaning": "strict"
         },
         {
-          "kanji": "多くの本を読んだからこそ、幅広い知識を習得することができた。",
-          "hiragana_full": "おおくのほんをよんだからこそ、はばひろいちしきをしゅうとくすることができた。"
+          "word": "教育",
+          "reading": "きょういく",
+          "meaning": "education"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n2_051_6",
-      "example_sentence": "彼の努力を見ていたからこそ、応援したくなったのだ。",
-      "translation": "It is precisely because I had been watching his efforts that I wanted to support him.",
-      "blank_target": "たからこそ",
-      "wrong_choices": [
-        "ていたから",
-        "ていたので",
-        "ていたため"
-      ],
-      "wrong_choice_explanations": [
-        "'ていたから' expresses ongoing past action as a reason but doesn't provide the emphatic 'precisely because' meaning that emphasizes witnessing his efforts.",
-        "'ていたので' indicates natural causation from ongoing observation but lacks the strong emphasis of 'からこそ' on the specific reason for wanting to support.",
-        "'ていたため' expresses reason formally but doesn't convey the emphatic quality of 'からこそ' that highlights the precise cause of the desire to help."
-      ],
-      "hiragana_full": "かれのどりょくをみていたからこそ、おうえんしたくなったのだ。",
-      "audio_alternatives": [
-        {
-          "kanji": "彼の努力を見ていたからこそ、応援したくなったんです。",
-          "hiragana_full": "かれのどりょくをみていたからこそ、おうえんしたくなったんです。"
-        },
-        {
-          "kanji": "彼の頑張りをずっと見ていたからこそ、応援したくなったのだ。",
-          "hiragana_full": "かれのがんばりをずっとみていたからこそ、おうえんしたくなったのだ。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_051_7",
+      "id": "n2_051_9",
       "example_sentence": "日本語が難しいからこそ、マスターした時の喜びは大きい。",
       "translation": "It is precisely because Japanese is difficult that the joy of mastering it is great.",
       "blank_target": "いからこそ",
       "wrong_choices": [
-        "いから",
-        "いので",
-        "くて"
+        "いのに",
+        "いくせに",
+        "いどころか"
       ],
       "wrong_choice_explanations": [
-        "'いから' expresses simple causation but doesn't emphasize that the difficulty is the precise reason for the great joy upon mastering.",
-        "'いので' indicates natural cause-and-effect but lacks the strong emphasis of 'からこそ' that highlights difficulty as the exact source of joy.",
-        "'くて' simply connects adjectives or states but doesn't provide the causal emphasis needed to explain why the joy is specifically great."
+        "'いのに' means 'even though it is difficult' and implies contrast, but the difficulty is exactly what makes the joy of mastery great, not something opposed to it.",
+        "'いくせに' means 'despite being difficult' with a critical, blaming tone, which does not fit a statement explaining why mastering Japanese is so rewarding.",
+        "'いどころか' means 'far from being difficult' and denies the difficulty, contradicting the premise that Japanese is hard and mastering it is therefore rewarding."
       ],
       "hiragana_full": "にほんごがむずかしいからこそ、マスターしたときのよろこびはおおきい。",
       "audio_alternatives": [
@@ -198,22 +331,30 @@
           "hiragana_full": "にほんごがむずかしいからこそ、マスターできたときのよろこびはおおきくなる。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "喜び",
+          "reading": "よろこび",
+          "meaning": "joy"
+        }
+      ]
     },
     {
-      "id": "n2_051_8",
+      "id": "n2_051_10",
       "example_sentence": "お客様のことを第一に考えているからこそ、この会社は成長している。",
       "translation": "It is precisely because this company puts customers first that it is growing.",
       "blank_target": "るからこそ",
       "wrong_choices": [
-        "るから",
-        "ているから",
-        "るので"
+        "るのに",
+        "るばかりに",
+        "るくせに"
       ],
       "wrong_choice_explanations": [
-        "'るから' expresses basic causation but doesn't emphasize that customer-first thinking is the precise key to the company's growth.",
-        "'ているから' indicates ongoing action as a reason but lacks the emphatic 'precisely because' meaning that highlights the specific business philosophy.",
-        "'るので' expresses natural causation but doesn't provide the strong emphasis of 'からこそ' on customer focus as the exact reason for growth."
+        "'るのに' means 'even though it puts customers first' and implies an unexpected outcome, but growth is the natural result of customer-first thinking here.",
+        "'るばかりに' means 'just because ~' with a regrettable result, which clashes with the positive outcome of the company growing.",
+        "'るくせに' means 'despite putting customers first' with a reproachful tone, which contradicts the sentence's positive explanation of the company's growth."
       ],
       "hiragana_full": "おきゃくさまのことをだいいちにかんがえているからこそ、このかいしゃはせいちょうしている。",
       "audio_alternatives": [
@@ -226,63 +367,20 @@
           "hiragana_full": "このかいしゃがせいちょうしているのは、おきゃくさまのことをだいいちにかんがえているからこそだ。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_051_9",
-      "example_sentence": "親友だからこそ、時には厳しいことも言わなければならない。",
-      "translation": "It is precisely because we are close friends that sometimes I must say harsh things.",
-      "blank_target": "だからこそ",
-      "wrong_choices": [
-        "だから",
-        "なので",
-        "であるから"
-      ],
-      "wrong_choice_explanations": [
-        "'だから' simply means 'therefore' but doesn't emphasize that being close friends is the precise reason for needing to speak harshly sometimes.",
-        "'なので' expresses straightforward causation but lacks the emphatic quality of 'からこそ' that stresses the friendship as the exact reason.",
-        "'であるから' states the reason in a plain, formal way but contains no こそ, so it misses the emphatic 'it is precisely because we are close friends — and for that very reason' force of だからこそ."
-      ],
-      "hiragana_full": "しんゆうだからこそ、ときにはきびしいこともいわなければならない。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "親友だからこそ、時には厳しいことも言わなくてはいけない。",
-          "hiragana_full": "しんゆうだからこそ、ときにはきびしいこともいわなくてはいけない。"
+          "word": "第一",
+          "reading": "だいいち",
+          "meaning": "first/foremost"
         },
         {
-          "kanji": "親しい友人だからこそ、時には厳しいことも言わなければならない。",
-          "hiragana_full": "したしいゆうじんだからこそ、ときにはきびしいこともいわなければならない。"
+          "word": "成長",
+          "reading": "せいちょう",
+          "meaning": "growth"
         }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_051_10",
-      "example_sentence": "長年の経験があるからこそ、適切な判断ができるのです。",
-      "translation": "It is precisely because I have years of experience that I can make appropriate judgments.",
-      "blank_target": "るからこそ",
-      "wrong_choices": [
-        "るから",
-        "があるので",
-        "るために"
-      ],
-      "wrong_choice_explanations": [
-        "'るから' expresses simple causation but doesn't emphasize that long experience is the precise foundation for making good judgments.",
-        "'があるので' indicates natural cause-and-effect but lacks the strong emphasis of 'からこそ' that highlights experience as the exact qualification.",
-        "'るために' expresses purpose rather than completed causation, and doesn't provide the emphatic 'precisely because' meaning needed here."
-      ],
-      "hiragana_full": "ながねんのけいけんがあるからこそ、てきせつなはんだんができるのです。",
-      "audio_alternatives": [
-        {
-          "kanji": "長年の経験があるからこそ、適切な判断ができます。",
-          "hiragana_full": "ながねんのけいけんがあるからこそ、てきせつなはんだんができます。"
-        },
-        {
-          "kanji": "長年の経験があってこそ、適切な判断ができるのです。",
-          "hiragana_full": "ながねんのけいけんがあってこそ、てきせつなはんだんができるのです。"
-        }
-      ],
-      "audio_eligible": true
+      ]
     }
   ]
 }

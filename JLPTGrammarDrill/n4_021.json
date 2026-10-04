@@ -12,12 +12,12 @@
       "wrong_choices": [
         "ので",
         "から",
-        "けれど"
+        "とおりに"
       ],
       "wrong_choice_explanations": [
         "ので indicates a reason or cause — it doesn't fit here because we need to show an unexpected contrast, not causation.",
         "から means 'because' or 'since' — it doesn't work here because we're expressing an unexpected result, not giving a reason.",
-        "けれど means 'but' in general — it doesn't capture the nuance of surprise that ところが expresses when the result is completely unexpected."
+        "とおりに means 'just as' — 思ったとおりに would claim the weather matched the expectation, but the speaker expected rain and it cleared up, the opposite; ところが marks exactly that reversal."
       ],
       "hiragana_full": "あめがふるとおもったところが、はれた。",
       "audio_alternatives": [
@@ -30,7 +30,8 @@
           "hiragana_full": "あめがふるとおもっていたが、はれた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n4_021_2",
@@ -38,12 +39,12 @@
       "translation": "I studied hard, but I failed the exam.",
       "blank_target": "ところが",
       "wrong_choices": [
-        "のに",
+        "ために",
         "と",
         "たら"
       ],
       "wrong_choice_explanations": [
-        "のに expresses disappointment but is more predictable — ところが emphasizes the unexpectedness of failing despite studying hard.",
+        "ために here would mean 'because I studied hard, I failed,' making the studying the cause of the failure — illogical; ところが concedes the effort and marks the failure as the unexpected outcome.",
         "と indicates a conditional or natural consequence — it doesn't fit because failing after studying hard is not a natural result.",
         "たら is conditional meaning 'if/when' — it doesn't work here because we're stating a surprising contrast, not a condition."
       ],
@@ -58,7 +59,15 @@
           "hiragana_full": "がんばってべんきょうしたけど、しけんにおちた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "一生懸命",
+          "reading": "いっしょうけんめい",
+          "meaning": "with all one's might"
+        }
+      ]
     },
     {
       "id": "n4_021_3",
@@ -86,7 +95,8 @@
           "hiragana_full": "くすりをのんだけど、ねつがあがった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n4_021_4",
@@ -95,12 +105,12 @@
       "blank_target": "ところが",
       "wrong_choices": [
         "ために",
-        "のに",
+        "とたんに",
         "し"
       ],
       "wrong_choice_explanations": [
         "ために means 'for the purpose of' — it doesn't work because oversleeping wasn't the purpose of going to bed early.",
-        "のに expresses disappointment or contradiction — while similar, it doesn't convey the same level of surprise that ところが does.",
+        "とたんに means 'the instant X happened, Y happened' — but oversleeping happened the next morning, not the moment of going to bed early; ところが marks the surprising outcome, not immediate succession.",
         "し is used for listing reasons — it doesn't capture the unexpected contrast that ところが expresses."
       ],
       "hiragana_full": "はやくねたところが、あさねぼうした。",
@@ -114,7 +124,15 @@
           "hiragana_full": "はやくねたけど、あさねぼうしてしまった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "朝寝坊",
+          "reading": "あさねぼう",
+          "meaning": "oversleeping"
+        }
+      ]
     },
     {
       "id": "n4_021_5",
@@ -122,13 +140,13 @@
       "translation": "I heard it was cheap, but it was very expensive.",
       "blank_target": "ところが",
       "wrong_choices": [
-        "が",
-        "けど",
+        "なら",
+        "ので",
         "でも"
       ],
       "wrong_choice_explanations": [
-        "が means 'but' in a neutral way — it doesn't capture the surprise at the price being completely opposite to expectations.",
-        "けど is casual 'but' — it doesn't express the shock of discovering the item was expensive instead of cheap.",
+        "なら sets up a supposition whose main clause gives a judgment or suggestion ('if you heard it was cheap, then…'), but the main clause here reports a past fact (it was very expensive); ところが introduces that contrary fact.",
+        "ので would mean 'because I heard it was cheap, it was very expensive' — hearing a price rumor doesn't cause the real price; ところが marks the contrast between the rumor and the reality.",
         "でも means 'but' or 'however' — it's too general and doesn't convey the unexpectedness that ところが emphasizes."
       ],
       "hiragana_full": "やすいときいたところが、とてもたかかった。",
@@ -142,7 +160,8 @@
           "hiragana_full": "やすいときいたけど、とてもたかかった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n4_021_6",
@@ -170,7 +189,20 @@
           "hiragana_full": "かれはやさしいとおもっていたが、じつはきびしいひとでした。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "実は",
+          "reading": "じつは",
+          "meaning": "actually"
+        },
+        {
+          "word": "厳しい",
+          "reading": "きびしい",
+          "meaning": "strict"
+        }
+      ]
     },
     {
       "id": "n4_021_7",
@@ -178,12 +210,12 @@
       "translation": "I had expectations for the new restaurant, but the food was terrible.",
       "blank_target": "ところが",
       "wrong_choices": [
-        "わりに",
+        "ので",
         "くせに",
         "ものの"
       ],
       "wrong_choice_explanations": [
-        "わりに means 'considering' or 'for' — it doesn't fit because we're expressing shock at the disappointment, not making a comparison.",
+        "ので would mean the expectations caused the food to be bad — expectations don't cause bad cooking; ところが marks the letdown that contradicts them.",
         "くせに means 'despite' with criticism — while similar, it's more accusatory and doesn't capture the neutral surprise that ところが expresses.",
         "ものの means 'although' — it's milder than ところが and doesn't convey the strong unexpectedness of the bad food."
       ],
@@ -198,7 +230,15 @@
           "hiragana_full": "あたらしいレストランをたのしみにしていたが、りょうりはまずかった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "期待",
+          "reading": "きたい",
+          "meaning": "expectation"
+        }
+      ]
     },
     {
       "id": "n4_021_8",
@@ -206,12 +246,12 @@
       "translation": "I thought the road would be clear, but there was a major traffic jam.",
       "blank_target": "ところが",
       "wrong_choices": [
-        "はずなのに",
+        "おかげで",
         "ばかりか",
         "どころか"
       ],
       "wrong_choice_explanations": [
-        "はずなのに means 'it should be but' — while expressing contrast, it's more about logical expectation than the surprising discovery that ところが emphasizes.",
+        "おかげで credits a good outcome to a cause ('thanks to…'), but a huge traffic jam is neither a good outcome nor caused by the speaker's assumption; ところが marks the reality that betrayed it.",
         "ばかりか means 'not only but also' — it doesn't fit because we're showing contradiction, not escalation.",
         "どころか means 'far from' — while expressing contrast, it emphasizes the extreme opposite rather than the unexpected discovery."
       ],
@@ -226,7 +266,20 @@
           "hiragana_full": "みちはあいているとおもったが、おおじゅうたいだった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "空いている",
+          "reading": "あいている",
+          "meaning": "(road) is clear"
+        },
+        {
+          "word": "渋滞",
+          "reading": "じゅうたい",
+          "meaning": "traffic jam"
+        }
+      ]
     },
     {
       "id": "n4_021_9",
@@ -254,7 +307,8 @@
           "hiragana_full": "せんせいはかんたんだといったけど、とてもむずかしかった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
       "id": "n4_021_10",
@@ -282,7 +336,20 @@
           "hiragana_full": "かのじょはくるとやくそくしたけれど、けっきょくこなかった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "結局",
+          "reading": "けっきょく",
+          "meaning": "in the end"
+        },
+        {
+          "word": "約束",
+          "reading": "やくそく",
+          "meaning": "promise"
+        }
+      ]
     }
   ]
 }

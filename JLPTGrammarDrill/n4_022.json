@@ -10,12 +10,12 @@
       "translation": "Even if I apologize now, I probably won't be forgiven.",
       "blank_target": "ところで",
       "wrong_choices": [
-        "からといって",
+        "とたんに",
         "ので",
         "ところ"
       ],
       "wrong_choice_explanations": [
-        "からといって means 'just because (…doesn't mean),' denying an inference drawn from apologizing; ところで instead says the apology itself is futile — it won't change the outcome.",
+        "とたんに reports that one realized event was instantly followed by another; here the main clause is a conjecture about the future (許してもらえないだろう), which とたんに cannot introduce — たところで marks the act as futile in advance.",
         "ので means 'because,' giving the apology as the cause of not being forgiven, which reverses the logic; ところで means that even apologizing now would be pointless.",
         "ところ (the 〜たところ form) means 'upon/when I apologized,' reporting a result found after the act, so it clashes with the conjecture 許してもらえないだろう; ところで marks the action as futile in advance."
       ],
@@ -30,7 +30,25 @@
           "hiragana_full": "いまさらあやまっても、ゆるしてもらえないとおもう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "今さら",
+          "reading": "いまさら",
+          "meaning": "at this late point"
+        },
+        {
+          "word": "謝った",
+          "reading": "あやまった",
+          "meaning": "apologized"
+        },
+        {
+          "word": "許して",
+          "reading": "ゆるして",
+          "meaning": "forgive"
+        }
+      ]
     },
     {
       "id": "n4_022_2",
@@ -39,13 +57,13 @@
       "blank_target": "ところで",
       "wrong_choices": [
         "それで",
-        "さて",
-        "では"
+        "なぜなら",
+        "つまり"
       ],
       "wrong_choice_explanations": [
         "それで means 'so' or 'therefore' — it indicates consequence rather than changing topics like ところで does.",
-        "さて is used to begin or resume a topic — while similar, ところで is more casual for introducing related side topics.",
-        "では means 'well then' — it's used for transitions but doesn't have the 'by the way' nuance of ところで."
+        "なぜなら announces the reason for something just stated and must be completed by 〜からだ; it cannot open a new topic — ところで is the topic-changing 'by the way.'",
+        "つまり rephrases or sums up something already said ('in other words'); nothing precedes it here to rephrase — ところで introduces a fresh topic instead."
       ],
       "hiragana_full": "ところで、あしたのかいぎのけんですが。",
       "audio_alternatives": [
@@ -58,12 +76,20 @@
           "hiragana_full": "ところで、あしたのかいぎのことですが。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "件",
+          "reading": "けん",
+          "meaning": "matter, topic"
+        }
+      ]
     },
     {
       "id": "n4_022_3",
-      "example_sentence": "いくら勉強したところで、試験に落ちてしまった。",
-      "translation": "No matter how much I studied, I failed the exam.",
+      "example_sentence": "いくら勉強したところで、この試験には合格できないだろう。",
+      "translation": "No matter how much I study, I probably won't be able to pass this exam.",
       "blank_target": "ところで",
       "wrong_choices": [
         "から",
@@ -71,27 +97,40 @@
         "ところ"
       ],
       "wrong_choice_explanations": [
-        "から means 'because,' which clashes with いくら and would make studying the cause of failing; ところで completes the いくら…ところで pattern meaning 'no matter how much I studied, it was futile.'",
-        "し lists co-occurring reasons ('and besides'), but it can't express the concessive 'no matter how much'; ところで conveys that all that studying still came to nothing.",
-        "ところ (the 〜たところ form) means 'when/upon doing' and doesn't pair with いくら; ところで is what completes the 'however much … it was useless' meaning."
+        "から means 'because,' which can't follow いくら and would make studying the cause of not passing; ところで completes いくら…ところで: 'however much I study, it won't help.'",
+        "し lists reasons ('and besides'), and いくら…し is ungrammatical; ところで expresses that any amount of studying would be futile.",
+        "ところ (〜たところ) reports what happened after an action was actually done, so it can't pair with いくら or a guess ending in だろう; ところで predicts the effort will be useless."
       ],
-      "hiragana_full": "いくらべんきょうしたところで、しけんにおちてしまった。",
+      "hiragana_full": "いくらべんきょうしたところで、このしけんにはごうかくできないだろう。",
       "audio_alternatives": [
         {
-          "kanji": "どんなに勉強しても、試験に落ちてしまった。",
-          "hiragana_full": "どんなにべんきょうしても、しけんにおちてしまった。"
+          "kanji": "どんなに勉強しても、この試験には合格できないだろう。",
+          "hiragana_full": "どんなにべんきょうしても、このしけんにはごうかくできないだろう。"
         },
         {
-          "kanji": "いくら勉強しても、試験に落ちた。",
-          "hiragana_full": "いくらべんきょうしても、しけんにおちた。"
+          "kanji": "いくら勉強しても、この試験には受からないと思う。",
+          "hiragana_full": "いくらべんきょうしても、このしけんにはうからないとおもう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "試験",
+          "reading": "しけん",
+          "meaning": "exam"
+        },
+        {
+          "word": "合格",
+          "reading": "ごうかく",
+          "meaning": "passing (an exam)"
+        }
+      ]
     },
     {
       "id": "n4_022_4",
-      "example_sentence": "彼女を説得したところで、考えを変えてくれなかった。",
-      "translation": "Even though I tried to persuade her, she wouldn't change her mind.",
+      "example_sentence": "彼女を説得したところで、考えは変わらないと思う。",
+      "translation": "Even if I try to persuade her, I don't think she'll change her mind.",
       "blank_target": "ところで",
       "wrong_choices": [
         "ところ",
@@ -99,22 +138,35 @@
         "し"
       ],
       "wrong_choice_explanations": [
-        "ところ (the 〜たところ form) means 'when/upon I persuaded her,' a neutral 'and then' report; ところで stresses that persuading her was futile — she still wouldn't budge.",
-        "ので means 'because,' making the persuasion the cause of her refusal, which reverses the logic; ところで means that even persuading her changed nothing.",
-        "し lists reasons ('and, for one thing'), but doesn't express concession; ところで conveys that the persuasion was pointless."
+        "ところ (〜たところ) reports a result found after actually doing something ('when I persuaded her, …'), so it doesn't fit a prediction ending in と思う; ところで says persuading her would be pointless.",
+        "ので means 'because,' making the persuasion the cause of her not changing her mind — the reverse of the logic; ところで means 'even if I persuade her.'",
+        "し lists reasons ('and also'), but doesn't express concession; ところで conveys that persuading her wouldn't make any difference."
       ],
-      "hiragana_full": "かのじょをせっとくしたところで、かんがえをかえてくれなかった。",
+      "hiragana_full": "かのじょをせっとくしたところで、かんがえはかわらないとおもう。",
       "audio_alternatives": [
         {
-          "kanji": "彼女を説得しても、考えを変えてくれなかった。",
-          "hiragana_full": "かのじょをせっとくしても、かんがえをかえてくれなかった。"
+          "kanji": "彼女を説得しても、考えは変わらないと思う。",
+          "hiragana_full": "かのじょをせっとくしても、かんがえはかわらないとおもう。"
         },
         {
-          "kanji": "彼女を説得したけど、考えを変えてくれなかった。",
-          "hiragana_full": "かのじょをせっとくしたけど、かんがえをかえてくれなかった。"
+          "kanji": "彼女をいくら説得しても、気持ちは変わらないだろう。",
+          "hiragana_full": "かのじょをいくらせっとくしても、きもちはかわらないだろう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "説得",
+          "reading": "せっとく",
+          "meaning": "persuasion"
+        },
+        {
+          "word": "考え",
+          "reading": "かんがえ",
+          "meaning": "way of thinking; mind"
+        }
+      ]
     },
     {
       "id": "n4_022_5",
@@ -142,63 +194,107 @@
           "hiragana_full": "ところで、しゅうまつはどうすごすよていですか。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "週末",
+          "reading": "しゅうまつ",
+          "meaning": "weekend"
+        },
+        {
+          "word": "過ごします",
+          "reading": "すごします",
+          "meaning": "spend (time)"
+        }
+      ]
     },
     {
       "id": "n4_022_6",
-      "example_sentence": "一生懸命練習したところで、上達しなかった。",
-      "translation": "Even though I practiced hard, I didn't improve.",
+      "example_sentence": "今から練習したところで、試合には間に合わない。",
+      "translation": "Even if I start practicing now, I won't be ready in time for the match.",
       "blank_target": "ところで",
       "wrong_choices": [
         "ので",
         "し",
-        "ら"
+        "まま"
       ],
       "wrong_choice_explanations": [
-        "ので means 'because,' which would make hard practice the cause of not improving — the opposite of the intended sense; ところで means that even practicing hard led nowhere.",
-        "し lists reasons ('and besides'), but can't carry the concessive meaning; ところで says the hard practice was ultimately futile.",
-        "ら (the 〜たら conditional) means 'when/if,' setting up a neutral condition; ところで instead concedes that the practice already done was pointless."
+        "ので means 'because,' making practice the reason for not being ready — the reverse of the intended sense; ところで means 'even if I practice now, it won't help.'",
+        "し lists reasons ('and besides'), but can't express concession; ところで says practicing at this point would be futile.",
+        "まま means 'in the same state' (〜たまま, as in テレビをつけたまま 'with the TV left on'); 練習したまま describes no lasting state here; ところで expresses that the effort would come to nothing."
       ],
-      "hiragana_full": "いっしょうけんめいれんしゅうしたところで、じょうたつしなかった。",
+      "hiragana_full": "いまかられんしゅうしたところで、しあいにはまにあわない。",
       "audio_alternatives": [
         {
-          "kanji": "一生懸命練習しても、上達しなかった。",
-          "hiragana_full": "いっしょうけんめいれんしゅうしても、じょうたつしなかった。"
+          "kanji": "今から練習しても、試合には間に合わない。",
+          "hiragana_full": "いまかられんしゅうしても、しあいにはまにあわない。"
         },
         {
-          "kanji": "頑張って練習したけど、上達しなかった。",
-          "hiragana_full": "がんばってれんしゅうしたけど、じょうたつしなかった。"
+          "kanji": "今さら練習しても、試合までには間に合わないだろう。",
+          "hiragana_full": "いまさられんしゅうしても、しあいまでにはまにあわないだろう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "練習",
+          "reading": "れんしゅう",
+          "meaning": "practice"
+        },
+        {
+          "word": "試合",
+          "reading": "しあい",
+          "meaning": "match; game"
+        },
+        {
+          "word": "間に合わない",
+          "reading": "まにあわない",
+          "meaning": "won't be in time"
+        }
+      ]
     },
     {
       "id": "n4_022_7",
-      "example_sentence": "先生に質問したところで、分からないと言われた。",
-      "translation": "Even when I asked the teacher, they said they didn't know.",
+      "example_sentence": "先生に質問したところで、きっと分からないと言われるだろう。",
+      "translation": "Even if I ask the teacher, I'll probably just be told they don't know.",
       "blank_target": "ところで",
       "wrong_choices": [
-        "ら",
         "から",
-        "ところ"
+        "ところ",
+        "ために"
       ],
       "wrong_choice_explanations": [
-        "ら (the 〜たら conditional) means 'when/if I asked,' presenting the asking as a neutral trigger; ところで adds 'even' — it stresses that asking was futile.",
-        "から means 'because I asked,' giving a cause; ところで instead says that asking the teacher was pointless.",
-        "ところ (the 〜たところ form) means 'upon asking, I found that…,' a neutral sequence; ところで stresses the futility of having asked."
+        "から means 'because,' which would make asking the cause of the answer; ところで means 'even if I ask, it'll be no use.'",
+        "ところ (〜たところ) reports what actually happened after asking ('when I asked, …'), which clashes with the guess ending in だろう; ところで predicts that asking would be pointless.",
+        "ために gives a cause or purpose ('because I asked'), not a concession; ところで says asking won't help."
       ],
-      "hiragana_full": "せんせいにしつもんしたところで、わからないといわれた。",
+      "hiragana_full": "せんせいにしつもんしたところで、きっとわからないといわれるだろう。",
       "audio_alternatives": [
         {
-          "kanji": "先生に聞いたけど、分からないと言われた。",
-          "hiragana_full": "せんせいにきいたけど、わからないといわれた。"
+          "kanji": "先生に質問しても、きっと分からないと言われるだろう。",
+          "hiragana_full": "せんせいにしつもんしても、きっとわからないといわれるだろう。"
         },
         {
-          "kanji": "先生に質問しても、分からないと言われた。",
-          "hiragana_full": "せんせいにしつもんしても、わからないといわれた。"
+          "kanji": "先生に聞いても、たぶん分からないと言われると思う。",
+          "hiragana_full": "せんせいにきいても、たぶんわからないといわれるとおもう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "質問",
+          "reading": "しつもん",
+          "meaning": "question"
+        },
+        {
+          "word": "きっと",
+          "reading": "きっと",
+          "meaning": "surely; probably"
+        }
+      ]
     },
     {
       "id": "n4_022_8",
@@ -206,12 +302,12 @@
       "translation": "By the way, what kind of work do you do?",
       "blank_target": "ところで",
       "wrong_choices": [
-        "ちなみに",
+        "それとも",
         "ついでに",
         "ところが"
       ],
       "wrong_choice_explanations": [
-        "ちなみに means 'incidentally' — while similar, it's more formal and used for adding related information rather than casual topic changes.",
+        "それとも offers a second alternative in a question ('or…?') and needs a preceding option; there is none here — ところで changes the subject to a new question.",
         "ついでに means 'while at it' or 'in addition' — it doesn't fit because we're changing topics, not adding to the current one.",
         "ところが means 'however' — it shows unexpected contrast rather than introducing a new conversational topic."
       ],
@@ -226,12 +322,13 @@
           "hiragana_full": "ところで、どんなおしごとをされていますか。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "formal"
     },
     {
       "id": "n4_022_9",
-      "example_sentence": "何度も電話したところで、返事がもらえなかった。",
-      "translation": "Even though I called many times, I couldn't get a reply.",
+      "example_sentence": "何度電話したところで、彼は出ないだろう。",
+      "translation": "No matter how many times I call, he probably won't answer.",
       "blank_target": "ところで",
       "wrong_choices": [
         "から",
@@ -239,50 +336,71 @@
         "し"
       ],
       "wrong_choice_explanations": [
-        "から means 'because I called,' giving a cause for getting no reply, which reverses the sense; ところで means that even calling many times was futile.",
-        "ので means 'because,' again treating the calls as the cause; ところで stresses that all those calls came to nothing.",
-        "し lists reasons ('and besides'), but can't express concession; ところで conveys that calling repeatedly was pointless."
+        "から means 'because' and can't pair with 何度 ('no matter how many times'); ところで completes 何度…ところで: 'however often I call, it's no use.'",
+        "ので means 'because,' making the calls the cause of his not answering; ところで means that calling again and again would get nowhere.",
+        "し lists reasons ('and besides'), and 何度…し is ungrammatical; ところで expresses that any number of calls would be futile."
       ],
-      "hiragana_full": "なんどもでんわしたところで、へんじがもらえなかった。",
+      "hiragana_full": "なんどでんわしたところで、かれはでないだろう。",
       "audio_alternatives": [
         {
-          "kanji": "何度も電話したけど、返事がもらえなかった。",
-          "hiragana_full": "なんどもでんわしたけど、へんじがもらえなかった。"
+          "kanji": "何度電話しても、彼は出ないだろう。",
+          "hiragana_full": "なんどでんわしても、かれはでないだろう。"
         },
         {
-          "kanji": "何回も電話したのに、返事がもらえなかった。",
-          "hiragana_full": "なんかいもでんわしたのに、へんじがもらえなかった。"
+          "kanji": "何回電話をかけても、彼は電話に出ないと思う。",
+          "hiragana_full": "なんかいでんわをかけても、かれはでんわにでないとおもう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "何度",
+          "reading": "なんど",
+          "meaning": "how many times"
+        },
+        {
+          "word": "出ない",
+          "reading": "でない",
+          "meaning": "not answer (the phone)"
+        }
+      ]
     },
     {
       "id": "n4_022_10",
-      "example_sentence": "早く行ったところで、もう売り切れていた。",
-      "translation": "Even though I went early, it was already sold out.",
+      "example_sentence": "今から行ったところで、もう売り切れているだろう。",
+      "translation": "Even if we go now, it'll probably be sold out already.",
       "blank_target": "ところで",
       "wrong_choices": [
         "ところ",
-        "ときに",
-        "際に"
+        "おかげで",
+        "ために"
       ],
       "wrong_choice_explanations": [
-        "ところ (the 〜たところ form) means 'when / just after I did' and reports the timing of an action, not the futility of going early that ところで expresses here.",
-        "ときに means 'when / at the time of' — it indicates timing but doesn't convey that going early was pointless.",
-        "際に means 'on the occasion of' — it is formal and indicates timing, not the ineffectiveness that ところで emphasizes here."
+        "ところ (〜たところ) reports what one found after actually going ('when I went, it was sold out'), so it clashes with the guess ending in だろう; ところで says going now would be pointless.",
+        "おかげで means 'thanks to,' crediting going for a good result — it makes no sense with being sold out; ところで means 'even if we go now.'",
+        "ために gives a cause or purpose, not a concession; ところで says that going now won't help."
       ],
-      "hiragana_full": "はやくいったところで、もううりきれていた。",
+      "hiragana_full": "いまからいったところで、もううりきれているだろう。",
       "audio_alternatives": [
         {
-          "kanji": "早く行ったのに、もう売り切れていた。",
-          "hiragana_full": "はやくいったのに、もううりきれていた。"
+          "kanji": "今から行っても、もう売り切れているだろう。",
+          "hiragana_full": "いまからいっても、もううりきれているだろう。"
         },
         {
-          "kanji": "早く行っても、もう売り切れていた。",
-          "hiragana_full": "はやくいっても、もううりきれていた。"
+          "kanji": "今さら行っても、もう売り切れだと思う。",
+          "hiragana_full": "いまさらいっても、もううりきれだとおもう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "売り切れている",
+          "reading": "うりきれている",
+          "meaning": "be sold out"
+        }
+      ]
     }
   ]
 }

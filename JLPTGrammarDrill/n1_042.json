@@ -10,12 +10,12 @@
       "translation": "Without effort, success cannot be achieved.",
       "blank_target": "なくして",
       "wrong_choices": [
-        "なしに",
+        "にもかかわらず",
         "を除いて",
         "に反して"
       ],
       "wrong_choice_explanations": [
-        "なしに means 'without' but is less formal and doesn't emphasize the impossibility as strongly as なくして does in this context.",
+        "にもかかわらず means 'despite/in spite of' and concedes a contrast; it does not set up the essential prerequisite that なくして expresses — the thing without which the outcome is impossible.",
         "を除いて means 'except for/excluding' and indicates exclusion rather than the essential absence conveyed by なくして.",
         "に反して means 'contrary to/against' and expresses opposition, not the concept of something being impossible without a prerequisite."
       ],
@@ -30,7 +30,8 @@
           "hiragana_full": "どりょくがなければ、せいこうをおさめることはできない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n1_042_2",
@@ -58,7 +59,20 @@
           "hiragana_full": "しんらいかんけいなしには、りょうこうなちーむわーくはきずくことができない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "信頼関係",
+          "reading": "しんらいかんけい",
+          "meaning": "relationship of trust"
+        },
+        {
+          "word": "良好",
+          "reading": "りょうこう",
+          "meaning": "good/favorable"
+        }
+      ]
     },
     {
       "id": "n1_042_3",
@@ -86,7 +100,15 @@
           "hiragana_full": "しみんのきょうりょくなしには、このもんだいをかいけつすることができない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "市民",
+          "reading": "しみん",
+          "meaning": "citizens"
+        }
+      ]
     },
     {
       "id": "n1_042_4",
@@ -114,7 +136,15 @@
           "hiragana_full": "てきせつなじゅんびなしには、ぷれぜんてーしょんはせいこうしない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "適切",
+          "reading": "てきせつ",
+          "meaning": "appropriate/suitable"
+        }
+      ]
     },
     {
       "id": "n1_042_5",
@@ -142,7 +172,20 @@
           "hiragana_full": "そうごりかいなしには、しんのゆうじょうははぐくまれない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "相互理解",
+          "reading": "そうごりかい",
+          "meaning": "mutual understanding"
+        },
+        {
+          "word": "友情",
+          "reading": "ゆうじょう",
+          "meaning": "friendship"
+        }
+      ]
     },
     {
       "id": "n1_042_6",
@@ -150,12 +193,12 @@
       "translation": "Without the support of those around me, I would not be where I am today.",
       "blank_target": "なくして",
       "wrong_choices": [
-        "なしに",
+        "をもとに",
         "ぬきでは",
         "をよそに"
       ],
       "wrong_choice_explanations": [
-        "なしに also means 'without' and would be grammatical here, but it states a plain absence; なくして adds the weightier sense that the outcome would be flatly impossible without this essential thing, which suits this reflective, grateful tone.",
+        "をもとに means 'based on/using as a foundation' and frames the support as material for building something; なくして instead marks it as indispensable — without it, the present self could not exist.",
         "ぬきでは means 'leaving out / excluding,' treating the support as something optional that could be set aside; the sentence instead treats that support as indispensable, which is what なくして conveys.",
         "をよそに means 'ignoring / paying no heed to,' implying the speaker brushed the support aside, contradicting the point that this very support is what made the present self possible."
       ],
@@ -170,7 +213,20 @@
           "hiragana_full": "しゅういのささえなしには、いまのわたしはそんざいしなかった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "周囲",
+          "reading": "しゅうい",
+          "meaning": "those around one/surroundings"
+        },
+        {
+          "word": "支え",
+          "reading": "ささえ",
+          "meaning": "support"
+        }
+      ]
     },
     {
       "id": "n1_042_7",
@@ -198,7 +254,20 @@
           "hiragana_full": "こくさいてきなきせいのわくぐみなしには、こうかてきなかんきょうほぜんはじつげんできない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "枠組み",
+          "reading": "わくぐみ",
+          "meaning": "framework"
+        },
+        {
+          "word": "環境保全",
+          "reading": "かんきょうほぜん",
+          "meaning": "environmental conservation"
+        }
+      ]
     },
     {
       "id": "n1_042_8",
@@ -226,7 +295,25 @@
           "hiragana_full": "ぶんけんがくてきなげんみつさをかいては、たしかなかいしゃくはできない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "厳密さ",
+          "reading": "げんみつさ",
+          "meaning": "rigor/strictness"
+        },
+        {
+          "word": "解釈",
+          "reading": "かいしゃく",
+          "meaning": "interpretation"
+        },
+        {
+          "word": "文献学的",
+          "reading": "ぶんけんがくてき",
+          "meaning": "philological"
+        }
+      ]
     },
     {
       "id": "n1_042_9",
@@ -254,7 +341,25 @@
           "hiragana_full": "ほうれいじゅんしゅのきょうこなたいせいをかいては、きぎょうがちょうきてきにはんえいすることはむずかしい。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "強固",
+          "reading": "きょうこ",
+          "meaning": "firm/solid"
+        },
+        {
+          "word": "法令遵守",
+          "reading": "ほうれいじゅんしゅ",
+          "meaning": "legal compliance"
+        },
+        {
+          "word": "繁栄",
+          "reading": "はんえい",
+          "meaning": "prosperity"
+        }
+      ]
     },
     {
       "id": "n1_042_10",
@@ -282,7 +387,25 @@
           "hiragana_full": "かんじゃのじりつせいをそんちょうするほうてきわくぐみなしには、しんのいりょうりんりはなりたたない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "自律性",
+          "reading": "じりつせい",
+          "meaning": "autonomy"
+        },
+        {
+          "word": "尊重",
+          "reading": "そんちょう",
+          "meaning": "respect"
+        },
+        {
+          "word": "医療倫理",
+          "reading": "いりょうりんり",
+          "meaning": "medical ethics"
+        }
+      ]
     }
   ]
 }

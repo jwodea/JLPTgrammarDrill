@@ -30,50 +30,40 @@
           "hiragana_full": "そのえにはきそんのりゅうはのもほうっぽさをかんじる"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "既存",
+          "reading": "きそん",
+          "meaning": "existing"
+        },
+        {
+          "word": "流派",
+          "reading": "りゅうは",
+          "meaning": "school, style"
+        },
+        {
+          "word": "模倣",
+          "reading": "もほう",
+          "meaning": "imitation"
+        }
+      ]
     },
     {
       "id": "n2_082_2",
-      "example_sentence": "祖父は年のせいか、最近とても忘れっぽい。",
-      "translation": "Maybe because of his age, my grandfather has been really forgetful lately.",
-      "blank_target": "っぽい",
-      "wrong_choices": [
-        "がち",
-        "やすい",
-        "気味"
-      ],
-      "wrong_choice_explanations": [
-        "がち would give 忘れがち, which describes a situational tendency ('tends to forget under these circumstances'), but っぽい marks an ingrained personal trait — the grandfather has become a forgetful person.",
-        "やすい would give 忘れやすい, framing things as 'easy to forget' from the object's side (these matters slip the mind easily), but we want to describe the person's disposition, which is what 忘れっぽい conveys.",
-        "気味 (忘れ気味) suggests a slight lean toward forgetting as a current condition, but it doesn't capture the established character trait of being a forgetful person that 忘れっぽい names."
-      ],
-      "hiragana_full": "そふはとしのせいか、さいきんとてもわすれっぽい。",
-      "audio_alternatives": [
-        {
-          "kanji": "祖父は年のせいか、最近すっかり忘れっぽい。",
-          "hiragana_full": "そふはとしのせいか、さいきんすっかりわすれっぽい。"
-        },
-        {
-          "kanji": "最近の祖父は、年のせいかとても忘れっぽい。",
-          "hiragana_full": "さいきんのそふは、としのせいかとてもわすれっぽい。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_082_3",
       "example_sentence": "彼の発言は陰謀論っぽいと思った。",
       "translation": "I thought his remarks were somewhat conspiracy theory-like.",
       "blank_target": "っぽい",
       "wrong_choices": [
-        "みたい",
+        "気味",
         "がち",
-        "的"
+        "ぶり"
       ],
       "wrong_choice_explanations": [
-        "みたい means 'like/similar to' but is more neutral and doesn't convey the colloquial, slightly dismissive tone that っぽい has when criticizing someone's ideas.",
+        "気味 marks a slight physical or situational condition (風邪気味, 疲れ気味) and doesn't attach to a noun like 陰謀論 to express resemblance, which is what っぽい does.",
         "がち means 'tending to' but is used with verbs to describe habitual behavior, not to characterize the nature of someone's statements or ideas.",
-        "的 means 'like/typical of' but is more formal and academic, lacking the colloquial, somewhat negative nuance that っぽい carries in casual criticism."
+        "ぶり describes the manner of an action (仕事ぶり) or time elapsed (三年ぶり); 陰謀論ぶり is not a valid combination and can't express that the remarks resembled a conspiracy theory."
       ],
       "hiragana_full": "かれのはつげんはいんぼうろんっぽいとおもった",
       "audio_alternatives": [
@@ -86,21 +76,34 @@
           "hiragana_full": "かれのことばはいんぼうろんのようだとおもった"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "発言",
+          "reading": "はつげん",
+          "meaning": "remark, statement"
+        },
+        {
+          "word": "陰謀論",
+          "reading": "いんぼうろん",
+          "meaning": "conspiracy theory"
+        }
+      ]
     },
     {
-      "id": "n2_082_4",
+      "id": "n2_082_3",
       "example_sentence": "この居酒屋の料理は手作りっぽい素朴な味がする。",
       "translation": "The food at this izakaya has a somewhat homemade, down-to-earth taste.",
       "blank_target": "っぽい",
       "wrong_choices": [
         "な",
-        "らしい",
+        "めく",
         "気味"
       ],
       "wrong_choice_explanations": [
         "な doesn't fit because 手作り is a noun, not a na-adjective, so 手作りな is ungrammatical; modifying a noun would require 手作りの, and to convey 'somewhat resembling' you need っぽい.",
-        "らしい would mean 'as you'd expect from homemade food', presenting the quality as a characteristic match, but っぽい is wanted here for the looser, more subjective 'feels homemade' impression.",
+        "めく attaches to a limited set of nouns to mean 'show signs of' (春めく), and 手作りめく is not an idiomatic combination; っぽい is needed for the looser 'feels homemade' impression.",
         "気味 attaches to states with a slightly negative drift (風邪気味, 太り気味) and doesn't pair with a noun like 手作り or convey a positive taste impression."
       ],
       "hiragana_full": "このいざかやのりょうりはてづくりっぽいそぼくなあじがする。",
@@ -114,10 +117,28 @@
           "hiragana_full": "このいざかやのりょうりはてづくりっぽくてそぼくなあじだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "居酒屋",
+          "reading": "いざかや",
+          "meaning": "izakaya, pub"
+        },
+        {
+          "word": "手作り",
+          "reading": "てづくり",
+          "meaning": "handmade"
+        },
+        {
+          "word": "素朴",
+          "reading": "そぼく",
+          "meaning": "simple, rustic"
+        }
+      ]
     },
     {
-      "id": "n2_082_5",
+      "id": "n2_082_4",
       "example_sentence": "その分析は既存理論の焼き直しっぽい気がする。",
       "translation": "That analysis feels like it's somewhat a rehash of existing theories.",
       "blank_target": "っぽい",
@@ -142,10 +163,28 @@
           "hiragana_full": "そのぶんせきはきそんりろんをやきなおしたかんじがする。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "分析",
+          "reading": "ぶんせき",
+          "meaning": "analysis"
+        },
+        {
+          "word": "既存",
+          "reading": "きそん",
+          "meaning": "existing"
+        },
+        {
+          "word": "焼き直し",
+          "reading": "やきなおし",
+          "meaning": "rehash"
+        }
+      ]
     },
     {
-      "id": "n2_082_6",
+      "id": "n2_082_5",
       "example_sentence": "彼女の話し方は関西弁っぽく聞こえる。",
       "translation": "Her way of speaking sounds somewhat Kansai dialect-like.",
       "blank_target": "っぽく",
@@ -170,10 +209,18 @@
           "hiragana_full": "かのじょのはなしかたはかんさいべんっぽくきこえます"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "関西弁",
+          "reading": "かんさいべん",
+          "meaning": "Kansai dialect"
+        }
+      ]
     },
     {
-      "id": "n2_082_7",
+      "id": "n2_082_6",
       "example_sentence": "その映画は昔の作品の真似っぽい感じだった。",
       "translation": "That movie felt like it was somewhat imitating older works.",
       "blank_target": "っぽい",
@@ -198,22 +245,30 @@
           "hiragana_full": "そのえいがはどこかむかしのさくひんのえいきょうをうけているようにかんじた"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "真似",
+          "reading": "まね",
+          "meaning": "imitation"
+        }
+      ]
     },
     {
-      "id": "n2_082_8",
+      "id": "n2_082_7",
       "example_sentence": "この曲は90年代っぽいメロディーが印象的だ。",
       "translation": "This song has a melody that's impressively 90s-like.",
       "blank_target": "っぽい",
       "wrong_choices": [
-        "風の",
-        "的な",
-        "らしい"
+        "がちな",
+        "気味の",
+        "だらけの"
       ],
       "wrong_choice_explanations": [
-        "風の means 'in the style of' but suggests a more deliberate or established style choice, not the casual resemblance that っぽい expresses.",
-        "的な means 'like/typical of' but is more formal and academic, lacking the colloquial, subjective quality that っぽい has when describing musical resemblance.",
-        "らしい means 'seems like/typical of' but indicates expected characteristics or hearsay, not the personal impression of era-specific musical qualities that っぽい conveys."
+        "がちな marks a habitual tendency attached to verb stems (忘れがちな); 90年代がちな is ungrammatical and can't describe a melody that feels like the 90s.",
+        "気味の describes a slight, usually negative condition (風邪気味の), not a resemblance to an era, so 90年代気味の doesn't work here.",
+        "だらけの means 'covered with / full of' something, usually unwanted (泥だらけの, 間違いだらけの); 90年代だらけの makes no sense and doesn't express resemblance to an era as っぽい does."
       ],
       "hiragana_full": "このきょくはきゅうじゅうねんだいっぽいメロディーがいんしょうてきだ。",
       "audio_alternatives": [
@@ -226,48 +281,33 @@
           "hiragana_full": "このきょくのきゅうじゅうねんだいっぽいメロディーはいんしょうてきだ。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_082_9",
-      "example_sentence": "彼の服装はいつも学生っぽい格好をしている。",
-      "translation": "His clothing always looks somewhat student-like.",
-      "blank_target": "っぽい",
-      "wrong_choices": [
-        "らしい",
-        "みたいな",
-        "風の"
-      ],
-      "wrong_choice_explanations": [
-        "らしい means 'seems like/typical of' but expresses expected characteristics, not the subjective impression about someone's appearance that っぽい conveys.",
-        "みたいな means 'like/similar to' but is more neutral and doesn't carry the colloquial, slightly informal tone that っぽい has when describing someone's style.",
-        "風の means 'in the style of' but suggests a more intentional or established fashion choice, not the casual resemblance that っぽい expresses."
-      ],
-      "hiragana_full": "かれのふくそうはいつもがくせいっぽいかっこうをしている",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "彼の服装はいつも学生らしい雰囲気がある。",
-          "hiragana_full": "かれのふくそうはいつもがくせいらしいふんいきがある"
+          "word": "曲",
+          "reading": "きょく",
+          "meaning": "song, tune"
         },
         {
-          "kanji": "彼はいつも学生っぽい格好をしている。",
-          "hiragana_full": "かれはいつもがくせいっぽいかっこうをしている"
+          "word": "印象的",
+          "reading": "いんしょうてき",
+          "meaning": "impressive"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n2_082_10",
+      "id": "n2_082_8",
       "example_sentence": "今日の彼は子供っぽい行動ばかりしている。",
       "translation": "Today he keeps acting in a somewhat childish way.",
       "blank_target": "っぽい",
       "wrong_choices": [
-        "じみた",
+        "らしい",
         "がちな",
         "的な"
       ],
       "wrong_choice_explanations": [
-        "じみた means 'somewhat like' but has a more negative, disparaging tone and is typically used for undesirable qualities, while っぽい is more casual and neutral in this context.",
+        "「〜らしい」 here means 'befitting / characteristically (in a good sense)': 子供らしい行動 is innocent, admirable childlike behavior, which clashes with the critical ばかり; 子供っぽい marks immature, childish behavior (negative).",
         "がちな is not standard usage - がち typically follows verb stems to indicate tendencies, not adjective stems to modify nouns like 行動.",
         "的な means 'like/typical of' but is more formal and clinical, lacking the colloquial, slightly critical tone that っぽい has when describing someone's behavior."
       ],
@@ -282,7 +322,87 @@
           "hiragana_full": "きょうのかれはこどもじみたこうどうばかりしている"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "行動",
+          "reading": "こうどう",
+          "meaning": "behavior"
+        }
+      ]
+    },
+    {
+      "id": "n2_082_9",
+      "example_sentence": "この素材は安っぽい感じがする。",
+      "translation": "This material gives a cheap feeling.",
+      "blank_target": "っぽい",
+      "wrong_choices": [
+        "がち",
+        "気味",
+        "らしい"
+      ],
+      "wrong_choice_explanations": [
+        "がち means 'tends to' and is used with verbs or adjective stems, not with い-adjectives like 安い in this context.",
+        "気味 means 'somewhat' but is more formal and doesn't attach directly to い-adjectives like 安い.",
+        "らしい indicates hearsay or typical characteristics, but doesn't express the colloquial 'cheap-looking' nuance needed here."
+      ],
+      "hiragana_full": "このそざいはやすっぽいかんじがする",
+      "audio_alternatives": [
+        {
+          "kanji": "この素材は安っぽく感じる。",
+          "hiragana_full": "このそざいはやすっぽくかんじる"
+        },
+        {
+          "kanji": "この素材は安っぽい印象を与える。",
+          "hiragana_full": "このそざいはやすっぽいいんしょうをあたえる"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "素材",
+          "reading": "そざい",
+          "meaning": "material"
+        }
+      ]
+    },
+    {
+      "id": "n2_082_10",
+      "example_sentence": "このレストランの料理は手作りっぽい味がしない。",
+      "translation": "This restaurant's food doesn't taste homemade-ish.",
+      "blank_target": "っぽい",
+      "wrong_choices": [
+        "風",
+        "的",
+        "みたい"
+      ],
+      "wrong_choice_explanations": [
+        "風 means 'style' or 'manner' but is more neutral and doesn't express the colloquial doubt about authenticity.",
+        "的 is a formal suffix meaning '-like' but doesn't convey the casual skepticism expressed by っぽい.",
+        "みたい means 'like' but doesn't carry the implicit criticism that the food seems fake or mass-produced."
+      ],
+      "hiragana_full": "このれすとらんのりょうりはてづくりっぽいあじがしない",
+      "audio_alternatives": [
+        {
+          "kanji": "このレストランの料理は手作りっぽい感じがしない。",
+          "hiragana_full": "このれすとらんのりょうりはてづくりっぽいかんじがしない"
+        },
+        {
+          "kanji": "このレストランの料理は手作りっぽくない味だ。",
+          "hiragana_full": "このれすとらんのりょうりはてづくりっぽくないあじだ"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "手作り",
+          "reading": "てづくり",
+          "meaning": "handmade"
+        }
+      ]
     }
   ]
 }

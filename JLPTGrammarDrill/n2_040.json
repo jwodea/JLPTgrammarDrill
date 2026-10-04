@@ -10,12 +10,12 @@
       "translation": "The artwork's appearance changes greatly depending on lighting design.",
       "blank_target": "次第で",
       "wrong_choices": [
-        "次第",
+        "抜きで",
         "にもかかわらず",
         "において"
       ],
       "wrong_choice_explanations": [
-        "Bare 次第 drops the で that 次第で needs as a connector here: 〜は工夫次第だ can close a sentence, but to link to the following clause the full 次第で is required.",
+        "抜きで means 'without' (工夫抜きで = 'without any lighting design'), which removes the very factor the change depends on; 次第で makes the appearance hinge on the lighting design.",
         "にもかかわらず means 'regardless of,' so it would say the appearance changes no matter the lighting design — the opposite of 次第で, which makes the appearance hinge on that design.",
         "において marks a domain or setting ('in/at'), so 工夫において reads 'within the area of design' rather than saying the result depends on it; only 次第で links the variable factor to the changing outcome."
       ],
@@ -31,39 +31,28 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "しだいで"
+      "blank_target_reading": "しだいで",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "照明",
+          "reading": "しょうめい",
+          "meaning": "lighting"
+        },
+        {
+          "word": "工夫",
+          "reading": "くふう",
+          "meaning": "ingenuity/device"
+        },
+        {
+          "word": "見え方",
+          "reading": "みえかた",
+          "meaning": "the way it looks"
+        }
+      ]
     },
     {
       "id": "n2_040_2",
-      "example_sentence": "本人の努力次第で、成績は大きく変わる。",
-      "translation": "Results change greatly depending on the individual's effort.",
-      "blank_target": "次第で",
-      "wrong_choices": [
-        "のおかげで",
-        "をめぐって",
-        "に対して"
-      ],
-      "wrong_choice_explanations": [
-        "のおかげで expresses gratitude for a positive outcome, but this sentence describes a neutral dependency, with no thanks owed to the effort.",
-        "をめぐって means 'concerning/over' a matter of dispute, framing the effort as a topic of discussion rather than the variable the results depend on, which 次第で expresses.",
-        "に対して means 'toward/against' and shows direction or response, not the conditional dependency expressed here."
-      ],
-      "hiragana_full": "ほんにんのどりょくしだいで、せいせきはおおきくかわる。",
-      "audio_alternatives": [
-        {
-          "kanji": "個人の努力によって、成績は大きく変わる。",
-          "hiragana_full": "こじんのどりょくによって、せいせきはおおきくかわる。"
-        },
-        {
-          "kanji": "本人の頑張り次第で、成績は大きく変わってくる。",
-          "hiragana_full": "ほんにんのがんばりしだいで、せいせきはおおきくかわってくる。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "しだいで"
-    },
-    {
-      "id": "n2_040_3",
       "example_sentence": "選択次第で、人生の道は大きく変わる。",
       "translation": "Life paths can change greatly depending on the choices made.",
       "blank_target": "次第で",
@@ -89,68 +78,23 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "しだいで"
-    },
-    {
-      "id": "n2_040_4",
-      "example_sentence": "方針次第で、会社の業績は大きく変わる。",
-      "translation": "Company performance changes greatly depending on management policy.",
-      "blank_target": "次第で",
-      "wrong_choices": [
-        "を通じて",
-        "に基づいて",
-        "について"
-      ],
-      "wrong_choice_explanations": [
-        "を通じて means 'through/via' and indicates a medium or channel, not conditional dependency on a varying factor.",
-        "に基づいて means 'based on' and implies following an established standard, not the way an outcome varies with the policy chosen.",
-        "について introduces a topic ('regarding the policy'), not the factor performance depends on; only 次第で expresses that the result varies according to the policy."
-      ],
-      "hiragana_full": "ほうしんしだいで、かいしゃのぎょうせきはおおきくかわる。",
-      "audio_alternatives": [
+      "blank_target_reading": "しだいで",
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "経営方針によって、会社の業績は大きく変わる。",
-          "hiragana_full": "けいえいほうしんによって、かいしゃのぎょうせきはおおきくかわる。"
+          "word": "選択",
+          "reading": "せんたく",
+          "meaning": "choice"
         },
         {
-          "kanji": "方針一つで、会社の業績は大きく左右される。",
-          "hiragana_full": "ほうしんひとつで、かいしゃのぎょうせきはおおきくさゆうされる。"
+          "word": "人生",
+          "reading": "じんせい",
+          "meaning": "life"
         }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "しだいで"
+      ]
     },
     {
-      "id": "n2_040_5",
-      "example_sentence": "研究方法次第で、結果は大きく異なる。",
-      "translation": "Research outcomes vary greatly depending on methodology.",
-      "blank_target": "次第で",
-      "wrong_choices": [
-        "のせいで",
-        "をめぐって",
-        "に従って"
-      ],
-      "wrong_choice_explanations": [
-        "のせいで indicates blame for negative outcomes, but this sentence describes neutral methodological dependency.",
-        "をめぐって means 'concerning/around' and indicates topics of debate or focus, not conditional relationships.",
-        "に従って means 'in accordance with' and implies following rules or orders, not the variable dependency shown here."
-      ],
-      "hiragana_full": "けんきゅうほうほうしだいで、けっかはおおきくことなる。",
-      "audio_alternatives": [
-        {
-          "kanji": "研究方法によって、結果は大きく変わる。",
-          "hiragana_full": "けんきゅうほうほうによって、けっかはおおきくかわる。"
-        },
-        {
-          "kanji": "研究の方法次第で、結果は大きく違ってくる。",
-          "hiragana_full": "けんきゅうのほうほうしだいで、けっかはおおきくちがってくる。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "しだいで"
-    },
-    {
-      "id": "n2_040_6",
+      "id": "n2_040_3",
       "example_sentence": "予算次第で、プロジェクトの規模が決まる。",
       "translation": "The project's scale is determined depending on the budget.",
       "blank_target": "次第で",
@@ -176,10 +120,23 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "しだいで"
+      "blank_target_reading": "しだいで",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "予算",
+          "reading": "よさん",
+          "meaning": "budget"
+        },
+        {
+          "word": "規模",
+          "reading": "きぼ",
+          "meaning": "scale"
+        }
+      ]
     },
     {
-      "id": "n2_040_7",
+      "id": "n2_040_4",
       "example_sentence": "交渉の仕方次第で、契約条件は変わってくる。",
       "translation": "Contract terms change depending on how negotiations are conducted.",
       "blank_target": "次第で",
@@ -205,10 +162,28 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "しだいで"
+      "blank_target_reading": "しだいで",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "交渉",
+          "reading": "こうしょう",
+          "meaning": "negotiation"
+        },
+        {
+          "word": "契約",
+          "reading": "けいやく",
+          "meaning": "contract"
+        },
+        {
+          "word": "条件",
+          "reading": "じょうけん",
+          "meaning": "terms/conditions"
+        }
+      ]
     },
     {
-      "id": "n2_040_8",
+      "id": "n2_040_5",
       "example_sentence": "天候次第で、イベントの開催を決める。",
       "translation": "We'll decide whether to hold the event depending on the weather.",
       "blank_target": "次第で",
@@ -234,39 +209,23 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "しだいで"
-    },
-    {
-      "id": "n2_040_9",
-      "example_sentence": "マーケティング戦略次第で、売上は大幅に変動する。",
-      "translation": "Sales fluctuate significantly depending on marketing strategy.",
-      "blank_target": "次第で",
-      "wrong_choices": [
-        "につれて",
-        "に際して",
-        "に比べて"
-      ],
-      "wrong_choice_explanations": [
-        "につれて means 'as/along with' and indicates gradual parallel change, not the strategic dependency shown here.",
-        "に際して means 'on the occasion of' and indicates timing of events, not conditional dependency on strategy choices.",
-        "に比べて means 'compared to' and makes comparisons between items, not the dependency relationship expressed here."
-      ],
-      "hiragana_full": "まーけてぃんぐせんりゃくしだいで、うりあげはおおはばにへんどうする。",
-      "audio_alternatives": [
+      "blank_target_reading": "しだいで",
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "マーケティング戦略によって、売上は大幅に変わる。",
-          "hiragana_full": "まーけてぃんぐせんりゃくによって、うりあげはおおはばにかわる。"
+          "word": "天候",
+          "reading": "てんこう",
+          "meaning": "weather"
         },
         {
-          "kanji": "マーケティング戦略に応じて、売上は大きく変動する。",
-          "hiragana_full": "まーけてぃんぐせんりゃくにおうじて、うりあげはおおきくへんどうする。"
+          "word": "開催",
+          "reading": "かいさい",
+          "meaning": "holding (an event)"
         }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "しだいで"
+      ]
     },
     {
-      "id": "n2_040_10",
+      "id": "n2_040_6",
       "example_sentence": "料理の腕次第で、レストランの評判は左右される。",
       "translation": "A restaurant's reputation is influenced depending on the chef's cooking skills.",
       "blank_target": "次第で",
@@ -292,7 +251,188 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "しだいで"
+      "blank_target_reading": "しだいで",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "腕",
+          "reading": "うで",
+          "meaning": "skill/ability"
+        },
+        {
+          "word": "評判",
+          "reading": "ひょうばん",
+          "meaning": "reputation"
+        },
+        {
+          "word": "左右される",
+          "reading": "さゆうされる",
+          "meaning": "to be influenced/swayed"
+        }
+      ]
+    },
+    {
+      "id": "n2_040_7",
+      "example_sentence": "彼の態度次第で、計画を変更します。",
+      "translation": "Depending on his attitude, we will change the plan.",
+      "blank_target": "次第で",
+      "wrong_choices": [
+        "をめぐって",
+        "について",
+        "として"
+      ],
+      "wrong_choice_explanations": [
+        "〜をめぐって means 'concerning' or 'over (a contested matter)' and frames the noun as a topic of dispute, not the conditional dependence that 〜次第で expresses.",
+        "〜について means 'about/concerning' and is used for topics, not for expressing conditional dependence.",
+        "〜として means 'as' or 'in the capacity of' and doesn't fit this context of conditional dependence."
+      ],
+      "hiragana_full": "かれのたいどしだいで、けいかくをへんこうします。",
+      "audio_alternatives": [
+        {
+          "kanji": "彼の態度によって、計画を変更します。",
+          "hiragana_full": "かれのたいどによって、けいかくをへんこうします。"
+        },
+        {
+          "kanji": "彼の態度次第では、計画を変えます。",
+          "hiragana_full": "かれのたいどしだいでは、けいかくをかえます。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "しだいで",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "態度",
+          "reading": "たいど",
+          "meaning": "attitude"
+        },
+        {
+          "word": "変更",
+          "reading": "へんこう",
+          "meaning": "to change"
+        }
+      ]
+    },
+    {
+      "id": "n2_040_8",
+      "example_sentence": "工夫次第で、問題は解決できる。",
+      "translation": "Problems can be solved depending on the ingenuity.",
+      "blank_target": "次第で",
+      "wrong_choices": [
+        "次第に",
+        "にもかかわらず",
+        "のために"
+      ],
+      "wrong_choice_explanations": [
+        "次第に means ‘gradually,’ describing a slow change over time — not the ‘depending on’ dependency that 次第で expresses.",
+        "にもかかわらず means ‘despite / regardless of,’ saying the problem is solved in spite of the ingenuity — the opposite of 次第で, where solving it hinges on the ingenuity.",
+        "のために means ‘for the purpose of,’ marking a goal — it does not express that whether the problem gets solved depends on the ingenuity."
+      ],
+      "hiragana_full": "くふうしだいで、もんだいはかいけつできる。",
+      "audio_alternatives": [
+        {
+          "kanji": "工夫によって、問題を解決することができる。",
+          "hiragana_full": "くふうによって、もんだいをかいけつすることができる。"
+        },
+        {
+          "kanji": "工夫次第で、問題を解決することができる。",
+          "hiragana_full": "くふうしだいで、もんだいをかいけつすることができる。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "しだいで",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "工夫",
+          "reading": "くふう",
+          "meaning": "ingenuity"
+        },
+        {
+          "word": "解決",
+          "reading": "かいけつ",
+          "meaning": "to solve"
+        }
+      ]
+    },
+    {
+      "id": "n2_040_9",
+      "example_sentence": "本人の気持ち次第で、未来が決まる。",
+      "translation": "The future depends on the person's feelings.",
+      "blank_target": "次第で",
+      "wrong_choices": [
+        "に対して",
+        "のせいで",
+        "を通して"
+      ],
+      "wrong_choice_explanations": [
+        "に対して means ‘toward / with respect to,’ marking a target or counterpart — it does not say the future is determined by the person’s feelings, which is the dependency 次第で expresses.",
+        "のせいで means ‘because of (blame),’ assigning fault for a bad outcome — too negative and causal for this neutral ‘it all depends on’ statement.",
+        "を通して means ‘through / by way of,’ marking a medium or channel — not the decisive-factor relationship that 次第で expresses."
+      ],
+      "hiragana_full": "ほんにんのきもちしだいで、みらいがきまる。",
+      "audio_alternatives": [
+        {
+          "kanji": "本人の気持ち次第で、未来が変わる。",
+          "hiragana_full": "ほんにんのきもちしだいで、みらいがかわる。"
+        },
+        {
+          "kanji": "本人の気持ちによって、未来が決まる。",
+          "hiragana_full": "ほんにんのきもちによって、みらいがきまる。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "しだいで",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "本人",
+          "reading": "ほんにん",
+          "meaning": "the person themselves"
+        },
+        {
+          "word": "未来",
+          "reading": "みらい",
+          "meaning": "future"
+        }
+      ]
+    },
+    {
+      "id": "n2_040_10",
+      "example_sentence": "チームワーク次第で、プロジェクトの成功が左右される。",
+      "translation": "The success of the project depends on teamwork.",
+      "blank_target": "次第で",
+      "wrong_choices": [
+        "をもとに",
+        "に基づいて",
+        "に従って"
+      ],
+      "wrong_choice_explanations": [
+        "をもとに means 'based on' but implies using as reference material, not dependency.",
+        "に基づいて means 'based on' (foundation) but lacks the 'it all depends on' emphasis.",
+        "に従って means 'according to' (following rules) which doesn't fit the teamwork dependency context."
+      ],
+      "hiragana_full": "ちーむわーくしだいで、ぷろじぇくとのせいこうがさゆうされる。",
+      "audio_alternatives": [
+        {
+          "kanji": "プロジェクトの成功はチームワークにかかっている。",
+          "hiragana_full": "ぷろじぇくとのせいこうはちーむわーくにかかっている。"
+        },
+        {
+          "kanji": "チームワーク次第で、プロジェクトが成功するかどうかが決まる。",
+          "hiragana_full": "ちーむわーくしだいで、ぷろじぇくとがせいこうするかどうかがきまる。"
+        }
+      ],
+      "audio_eligible": true,
+      "blank_target_reading": "しだいで",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "左右される",
+          "reading": "さゆうされる",
+          "meaning": "to be determined by; hinge on"
+        }
+      ]
     }
   ]
 }

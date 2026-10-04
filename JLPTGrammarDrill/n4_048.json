@@ -6,62 +6,182 @@
   "exercises": [
     {
       "id": "n4_048_1",
-      "example_sentence": "日本語が話せるようになった。",
-      "translation": "I came to be able to speak Japanese.",
-      "blank_target": "ように",
+      "example_sentence": "大学で日本語を勉強したおかげで、上手に話せるようになりました。",
+      "translation": "Thanks to studying Japanese at university, I became able to speak it well.",
+      "blank_target": "ようになりました",
       "wrong_choices": [
-        "ために",
-        "ことに",
-        "ながら"
+        "ようにしました",
+        "ことになりました",
+        "ことにしました"
       ],
       "wrong_choice_explanations": [
-        "ために means 'in order to/for the purpose of' — it doesn't fit here because we're describing achieving ability, not purpose.",
-        "ことに combined with なる forms ことになる, meaning 'it has been decided/arranged that...' (external decision or outcome). ようになる describes a change in ability or behavior driven from within, which is what's needed here.",
-        "ながら means 'while doing' — it doesn't fit here because we're expressing achievement of ability, not simultaneous action."
+        "ようにする means 'to make an effort to,' but the sentence describes a natural result of studying, not a deliberate ongoing effort.",
+        "ことになった means 'it was decided,' but becoming able to speak well is a gradual acquired ability, not an external decision.",
+        "ことにした means 'I decided to,' but the sentence describes gaining an ability as a result of study, not making a conscious decision."
       ],
-      "hiragana_full": "にほんごがはなせるようになった。",
+      "hiragana_full": "だいがくでにほんごをべんきょうしたおかげで、じょうずにはなせるようになりました。",
       "audio_alternatives": [
         {
-          "kanji": "日本語が話せるようになりました。",
-          "hiragana_full": "にほんごがはなせるようになりました。"
+          "kanji": "大学で日本語を勉強したから、上手に話せるようになりました。",
+          "hiragana_full": "だいがくでにほんごをべんきょうしたから、じょうずにはなせるようになりました。"
         },
         {
-          "kanji": "日本語を話せるようになった。",
-          "hiragana_full": "にほんごをはなせるようになった。"
+          "kanji": "大学で日本語を学んだおかげで、上手に話せるようになりました。",
+          "hiragana_full": "だいがくでにほんごをまなんだおかげで、じょうずにはなせるようになりました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n4_048_2",
-      "example_sentence": "毎日練習して、上手に弾けるようになりました。",
-      "translation": "By practicing every day, I came to be able to play skillfully.",
-      "blank_target": "ように",
+      "example_sentence": "毎日練習することで、泳げるようになりました。",
+      "translation": "Through daily practice, I became able to swim.",
+      "blank_target": "ようになりました",
       "wrong_choices": [
-        "ほど",
-        "だけ",
-        "まで"
+        "ようにしました",
+        "わけです",
+        "ことにしました"
       ],
       "wrong_choice_explanations": [
-        "ほどになる exists and emphasizes degree/extent ('to the extent that one can play'), often used in comparative contexts (子供でも弾けるほどになった); ようになる is the unmarked change-of-state for newly acquired ability.",
-        "だけ means 'only/just' and doesn't combine with なる to form a change-of-state pattern — it would limit the action rather than describe acquiring a new ability.",
-        "までになる exists and emphasizes reaching a milestone through progression ('got to the point of being able to play'); ようになる describes the achieved state itself without the journey/extent nuance."
+        "ようにする means 'to make an effort to', but ようになった expresses the natural development of ability through practice.",
+        "わけです means 'as a result/consequence' but is used to explain current situations, not to describe gradual acquisition of ability.",
+        "ことにした means 'I decided to', but the sentence describes acquired ability through repeated practice, not a single decision."
       ],
-      "hiragana_full": "まいにちれんしゅうして、じょうずにひけるようになりました。",
+      "hiragana_full": "まいにちれんしゅうすることで、およげるようになりました。",
       "audio_alternatives": [
         {
-          "kanji": "毎日練習したら、上手に弾けるようになりました。",
-          "hiragana_full": "まいにちれんしゅうしたら、じょうずにひけるようになりました。"
+          "kanji": "毎日練習したおかげで、泳げるようになりました。",
+          "hiragana_full": "まいにちれんしゅうしたおかげで、およげるようになりました。"
         },
         {
-          "kanji": "毎日練習することで、上手に弾けるようになりました。",
-          "hiragana_full": "まいにちれんしゅうすることで、じょうずにひけるようになりました。"
+          "kanji": "毎日練習して、泳げるようになりました。",
+          "hiragana_full": "まいにちれんしゅうして、およげるようになりました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n4_048_3",
+      "example_sentence": "長く日本に住んで、日本の文化が分かるようになりました。",
+      "translation": "Having lived in Japan for a long time, I've come to understand Japanese culture.",
+      "blank_target": "ようになりました",
+      "wrong_choices": [
+        "ばかりです",
+        "ことになりました",
+        "ことにしました"
+      ],
+      "wrong_choice_explanations": [
+        "ばかりです means 'just did' or 'only', which does not express the gradual change in understanding the sentence describes.",
+        "ことになりました means 'it was decided', but understanding a culture is not something arranged; it developed over time.",
+        "ことにしました means 'decided to do', but you cannot simply decide to understand; the sentence describes a change that came about by living there."
+      ],
+      "hiragana_full": "ながくにほんにすんで、にほんのぶんかがわかるようになりました。",
+      "audio_alternatives": [
+        {
+          "kanji": "長く日本に住んで、日本の文化が理解できるようになりました。",
+          "hiragana_full": "ながくにほんにすんで、にほんのぶんかがりかいできるようになりました。"
+        },
+        {
+          "kanji": "長く日本で暮らして、日本の文化が分かるようになった。",
+          "hiragana_full": "ながくにほんでくらして、にほんのぶんかがわかるようになった。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "文化",
+          "reading": "ぶんか",
+          "meaning": "culture"
+        }
+      ]
+    },
+    {
+      "id": "n4_048_4",
+      "example_sentence": "毎日聞いているので、日本語のニュースが聞き取れるようになった。",
+      "translation": "Since I listen every day, I have come to be able to understand Japanese news.",
+      "blank_target": "るようになった",
+      "wrong_choices": [
+        "るようにしました",
+        "ることになりました",
+        "ることにしました"
+      ],
+      "wrong_choice_explanations": [
+        "るようにしました means 'I made an effort to' and emphasizes deliberate action, but ようになった expresses the natural gradual development of listening comprehension.",
+        "ることになりました expresses external circumstances or decisions, but the sentence describes an acquired listening skill through repeated exposure.",
+        "ることにしました marks a deliberate decision to do something, but the sentence emphasizes the gradual development of comprehension ability, not a conscious choice."
+      ],
+      "hiragana_full": "まいにちきいているので、にほんごのにゅーすがききとれるようになった。",
+      "audio_alternatives": [
+        {
+          "kanji": "毎日聞いているから、日本語のニュースが聞き取れるようになった。",
+          "hiragana_full": "まいにちきいているから、にほんごのにゅーすがききとれるようになった。"
+        },
+        {
+          "kanji": "毎日聞いているおかげで、日本語のニュースが聞き取れるようになった。",
+          "hiragana_full": "まいにちきいているおかげで、にほんごのにゅーすがききとれるようになった。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "聞き取れる",
+          "reading": "ききとれる",
+          "meaning": "to be able to catch/comprehend"
+        }
+      ]
+    },
+    {
+      "id": "n4_048_5",
+      "example_sentence": "毎日数学の勉強を続けて、難しい問題も解けるようになりました。",
+      "translation": "By continuing to study math every day, I became able to solve even difficult problems.",
+      "blank_target": "るようになりました",
+      "wrong_choices": [
+        "るようにしました",
+        "ることになりました",
+        "つもりでした"
+      ],
+      "wrong_choice_explanations": [
+        "るようにしました means 'I made an effort to', but the sentence describes an ability that has actually developed through study.",
+        "ることになりました means 'it was arranged that', but becoming able to solve problems is a change in ability, not an arrangement.",
+        "つもりでした means 'I intended to', which expresses past intention rather than the achievement of a new ability."
+      ],
+      "hiragana_full": "まいにちすうがくのべんきょうをつづけて、むずかしいもんだいもとけるようになりました。",
+      "audio_alternatives": [
+        {
+          "kanji": "毎日数学の勉強を続けたので、難しい問題も解けるようになりました。",
+          "hiragana_full": "まいにちすうがくのべんきょうをつづけたので、むずかしいもんだいもとけるようになりました。"
+        },
+        {
+          "kanji": "毎日数学を勉強し続けて、難しい問題も解けるようになった。",
+          "hiragana_full": "まいにちすうがくをべんきょうしつづけて、むずかしいもんだいもとけるようになった。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "数学",
+          "reading": "すうがく",
+          "meaning": "mathematics"
+        },
+        {
+          "word": "続けて",
+          "reading": "つづけて",
+          "meaning": "continuing"
+        },
+        {
+          "word": "解ける",
+          "reading": "とける",
+          "meaning": "to be able to solve"
+        }
+      ]
+    },
+    {
+      "id": "n4_048_6",
       "example_sentence": "子供が一人で歩けるようになった。",
       "translation": "The child came to be able to walk alone.",
       "blank_target": "ように",
@@ -86,10 +206,11 @@
           "hiragana_full": "こどもがひとりであるけるようになった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
-      "id": "n4_048_4",
+      "id": "n4_048_7",
       "example_sentence": "最近、早く起きられるようになってきた。",
       "translation": "Recently, I've come to be able to wake up early.",
       "blank_target": "ように",
@@ -114,38 +235,11 @@
           "hiragana_full": "さいきん、はやおきできるようになってきた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     },
     {
-      "id": "n4_048_5",
-      "example_sentence": "漢字が読めるようになるまで時間がかかった。",
-      "translation": "It took time until I came to be able to read kanji.",
-      "blank_target": "ように",
-      "wrong_choices": [
-        "ことが",
-        "ところが",
-        "ものが"
-      ],
-      "wrong_choice_explanations": [
-        "ことが would create a noun phrase — it doesn't work with なる to express gradual change to ability.",
-        "ところが means 'however/but' — it doesn't fit here because we need to show ability development, not contrast.",
-        "ものが would create a noun phrase — it doesn't work grammatically with なる to express change in ability."
-      ],
-      "hiragana_full": "かんじがよめるようになるまでじかんがかかった。",
-      "audio_alternatives": [
-        {
-          "kanji": "漢字が読めるようになるのに時間がかかった。",
-          "hiragana_full": "かんじがよめるようになるのにじかんがかかった。"
-        },
-        {
-          "kanji": "漢字を読めるようになるまで時間がかかった。",
-          "hiragana_full": "かんじをよめるようになるまでじかんがかかった。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_048_6",
+      "id": "n4_048_8",
       "example_sentence": "彼は嘘をつかないようになった。",
       "translation": "He came to not tell lies anymore.",
       "blank_target": "ように",
@@ -170,63 +264,15 @@
           "hiragana_full": "かれはうそをつくことがなくなった。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_048_7",
-      "example_sentence": "この薬を飲んで、よく眠れるようになった。",
-      "translation": "After taking this medicine, I came to be able to sleep well.",
-      "blank_target": "ように",
-      "wrong_choices": [
-        "かぎり",
-        "あいだ",
-        "うちに"
-      ],
-      "wrong_choice_explanations": [
-        "かぎり means 'as long as/to the extent' — it doesn't fit here because we're showing achieved ability change, not limitation.",
-        "あいだ means 'while/during' — it doesn't fit here because we need to express achieved state, not duration.",
-        "うちに means 'while/during' — it doesn't fit here because we're describing ability change result, not timing."
-      ],
-      "hiragana_full": "このくすりをのんで、よくねむれるようになった。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
         {
-          "kanji": "この薬を飲んだら、よく眠れるようになった。",
-          "hiragana_full": "このくすりをのんだら、よくねむれるようになった。"
-        },
-        {
-          "kanji": "この薬を飲んでから、よく眠れるようになりました。",
-          "hiragana_full": "このくすりをのんでから、よくねむれるようになりました。"
+          "word": "嘘",
+          "reading": "うそ",
+          "meaning": "lie"
         }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_048_8",
-      "example_sentence": "野菜を食べるようになってから健康になった。",
-      "translation": "Since I came to eat vegetables, I became healthier.",
-      "blank_target": "ように",
-      "wrong_choices": [
-        "つもりで",
-        "予定で",
-        "気持ちで"
-      ],
-      "wrong_choice_explanations": [
-        "つもりで means 'with the intention of' — it doesn't fit here because we're describing actual behavioral change, not intention.",
-        "予定で means 'according to plan' — it doesn't fit here because we need to show achieved habit change, not planning.",
-        "気持ちで means 'with the feeling of' — it doesn't fit here because we're expressing actual behavioral change, not emotional state."
-      ],
-      "hiragana_full": "やさいをたべるようになってからけんこうになった。",
-      "audio_alternatives": [
-        {
-          "kanji": "野菜を食べ始めてから健康になった。",
-          "hiragana_full": "やさいをたべはじめてからけんこうになった。"
-        },
-        {
-          "kanji": "野菜を食べるようになったら、健康になりました。",
-          "hiragana_full": "やさいをたべるようになったら、けんこうになりました。"
-        }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
       "id": "n4_048_9",
@@ -254,7 +300,15 @@
           "hiragana_full": "むすめがりょうりをつくれるようになったのでうれしい。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "娘",
+          "reading": "むすめ",
+          "meaning": "daughter"
+        }
+      ]
     },
     {
       "id": "n4_048_10",
@@ -282,7 +336,8 @@
           "hiragana_full": "あめがふらないようになった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
     }
   ]
 }

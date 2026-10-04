@@ -6,90 +6,47 @@
   "exercises": [
     {
       "id": "n2_090_1",
-      "example_sentence": "作者が匿名なので、背景を推測しようがない。",
-      "translation": "Since the author is anonymous, there is no way to infer the background.",
+      "example_sentence": "証拠がないので、証明しようがない。",
+      "translation": "Since there is no evidence, there is no way to prove it.",
       "blank_target": "しようがない",
       "wrong_choices": [
         "するわけがない",
-        "することができない",
+        "するつもりはない",
         "せざるを得ない"
       ],
       "wrong_choice_explanations": [
-        "するわけがない means 'there is no reason/possibility that ~' which expresses impossibility due to logic or common sense, but this context needs ようがない which expresses the absence of means or methods.",
-        "することができない means 'cannot do' and indicates inability due to lack of skill or permission, but this sentence requires ようがない to show that no method exists.",
-        "せざるを得ない means 'have no choice but to do' which expresses being compelled to act, the opposite meaning of having no way to act."
+        "するわけがない means 'there is no reason it would happen / it is unlikely,' denying probability, whereas ようがない says no method to prove it is available.",
+        "するつもりはない means 'I don't intend to prove it,' expressing unwillingness — a deliberate choice — but the sentence is about there being no means to prove it at all.",
+        "せざるを得ない means 'have no choice but to prove it,' expressing forced obligation, which is the opposite of the impossibility ようがない conveys."
       ],
-      "hiragana_full": "さくしゃがとくめいなので、はいけいをすいそくしようがない。",
+      "hiragana_full": "しょうこがないので、しょうめいしようがない。",
       "audio_alternatives": [
         {
-          "kanji": "作者が匿名であるため、背景を推測しようがない。",
-          "hiragana_full": "さくしゃがとくめいであるため、はいけいをすいそくしようがない。"
+          "kanji": "証拠がないから、証明のしようがない。",
+          "hiragana_full": "しょうこがないから、しょうめいのしようがない。"
         },
         {
-          "kanji": "作者が匿名なので、背景を推測する術がない。",
-          "hiragana_full": "さくしゃがとくめいなので、はいけいをすいそくするすべがない。"
+          "kanji": "証拠がないため、証明する方法がない。",
+          "hiragana_full": "しょうこがないため、しょうめいするほうほうがない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "証拠",
+          "reading": "しょうこ",
+          "meaning": "evidence"
+        },
+        {
+          "word": "証明",
+          "reading": "しょうめい",
+          "meaning": "proof / to prove"
+        }
+      ]
     },
     {
       "id": "n2_090_2",
-      "example_sentence": "本人が協力しないので、進めようがない。",
-      "translation": "Since the person involved won't cooperate, there is no way to proceed.",
-      "blank_target": "ようがない",
-      "wrong_choices": [
-        "かねる",
-        "にくい",
-        "づらい"
-      ],
-      "wrong_choice_explanations": [
-        "進めかねる means 'cannot bring oneself to proceed' and points to the speaker's reluctance or hesitation, whereas ようがない says that no method to proceed exists at all because the person won't cooperate.",
-        "進めにくい means 'hard to proceed' and describes difficulty while the action stays possible, but ようがない states that proceeding is outright impossible since there is no way forward.",
-        "進めづらい means 'find it awkward to proceed' and expresses subjective difficulty, whereas ようがない expresses the complete absence of any means to proceed."
-      ],
-      "hiragana_full": "ほんにんがきょうりょくしないので、すすめようがない。",
-      "audio_alternatives": [
-        {
-          "kanji": "本人が協力しないから、進めようがない。",
-          "hiragana_full": "ほんにんがきょうりょくしないから、すすめようがない。"
-        },
-        {
-          "kanji": "本人が協力してくれないので、進めることができない。",
-          "hiragana_full": "ほんにんがきょうりょくしてくれないので、すすめることができない。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_090_3",
-      "example_sentence": "本人が拒否しているので、説得しようがない。",
-      "translation": "Since the person is refusing, there is no way to persuade them.",
-      "blank_target": "しようがない",
-      "wrong_choices": [
-        "するはずがない",
-        "してはいけない",
-        "したくない"
-      ],
-      "wrong_choice_explanations": [
-        "するはずがない means 'shouldn't be doing' based on expectation or probability, but this context needs しようがない to express the impossibility of finding a method.",
-        "してはいけない means 'must not do' which is a prohibition, but the sentence describes a situation where persuasion is impossible, not forbidden.",
-        "したくない means 'don't want to do' expressing personal desire, but the sentence describes objective impossibility due to the other person's refusal."
-      ],
-      "hiragana_full": "ほんにんがきょひしているので、せっとくしようがない。",
-      "audio_alternatives": [
-        {
-          "kanji": "本人が拒否しているから、説得のしようがない。",
-          "hiragana_full": "ほんにんがきょひしているから、せっとくのしようがない。"
-        },
-        {
-          "kanji": "本人が断っているので、説得しようがない。",
-          "hiragana_full": "ほんにんがことわっているので、せっとくしようがない。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_090_4",
       "example_sentence": "データがないので、予測しようがない。",
       "translation": "Without data, there is no way to make predictions.",
       "blank_target": "しようがない",
@@ -114,10 +71,18 @@
           "hiragana_full": "でーたがないから、よそくできない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "予測",
+          "reading": "よそく",
+          "meaning": "predict"
+        }
+      ]
     },
     {
-      "id": "n2_090_5",
+      "id": "n2_090_3",
       "example_sentence": "地図がなければ、道案内しようがない。",
       "translation": "Without a map, there is no way to give directions.",
       "blank_target": "しようがない",
@@ -142,10 +107,18 @@
           "hiragana_full": "ちずがなくては、みちあんないすることができない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "道案内",
+          "reading": "みちあんない",
+          "meaning": "giving directions"
+        }
+      ]
     },
     {
-      "id": "n2_090_6",
+      "id": "n2_090_4",
       "example_sentence": "証拠が隠滅されたので、真相を究明しようもない。",
       "translation": "Since the evidence was destroyed, there is no way to uncover the truth.",
       "blank_target": "しようもない",
@@ -170,10 +143,33 @@
           "hiragana_full": "しょうこがいんめつされたから、しんそうをあきらかにしようがない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "証拠",
+          "reading": "しょうこ",
+          "meaning": "evidence"
+        },
+        {
+          "word": "隠滅",
+          "reading": "いんめつ",
+          "meaning": "destruction (of evidence)"
+        },
+        {
+          "word": "真相",
+          "reading": "しんそう",
+          "meaning": "the truth"
+        },
+        {
+          "word": "究明",
+          "reading": "きゅうめい",
+          "meaning": "get to the bottom of"
+        }
+      ]
     },
     {
-      "id": "n2_090_7",
+      "id": "n2_090_5",
       "example_sentence": "手がかりが全くないので、犯人を特定しようがない。",
       "translation": "With no clues at all, there is no way to identify the culprit.",
       "blank_target": "しようがない",
@@ -198,10 +194,28 @@
           "hiragana_full": "てがかりがなにもないので、はんにんをとくていするほうほうがない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "手がかり",
+          "reading": "てがかり",
+          "meaning": "clue"
+        },
+        {
+          "word": "犯人",
+          "reading": "はんにん",
+          "meaning": "culprit"
+        },
+        {
+          "word": "特定",
+          "reading": "とくてい",
+          "meaning": "identify, pinpoint"
+        }
+      ]
     },
     {
-      "id": "n2_090_8",
+      "id": "n2_090_6",
       "example_sentence": "相手が電話に出ないので、連絡しようもない。",
       "translation": "Since the other person won't answer the phone, there is no way to contact them.",
       "blank_target": "しようもない",
@@ -226,10 +240,11 @@
           "hiragana_full": "あいてがでんわにおうとうしないので、れんらくするしゅだんがない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
-      "id": "n2_090_9",
+      "id": "n2_090_7",
       "example_sentence": "資金が不足しているので、計画を実行しようがない。",
       "translation": "With insufficient funds, there is no way to execute the plan.",
       "blank_target": "しようがない",
@@ -254,10 +269,28 @@
           "hiragana_full": "しきんぶそくで、けいかくをじっこうしようにもじっこうできない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "資金",
+          "reading": "しきん",
+          "meaning": "funds"
+        },
+        {
+          "word": "不足",
+          "reading": "ふそく",
+          "meaning": "shortage"
+        },
+        {
+          "word": "実行",
+          "reading": "じっこう",
+          "meaning": "carry out"
+        }
+      ]
     },
     {
-      "id": "n2_090_10",
+      "id": "n2_090_8",
       "example_sentence": "言葉が通じないので、意思疎通しようもない。",
       "translation": "Since we don't speak the same language, there is no way to communicate.",
       "blank_target": "しようもない",
@@ -282,7 +315,85 @@
           "hiragana_full": "きょうつうのげんごがないので、いしそつうはふかのうだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "通じない",
+          "reading": "つうじない",
+          "meaning": "do not get through"
+        },
+        {
+          "word": "意思疎通",
+          "reading": "いしそつう",
+          "meaning": "communication (of intent)"
+        }
+      ]
+    },
+    {
+      "id": "n2_090_9",
+      "example_sentence": "彼の気持ちは分からないので、推測しようもない。",
+      "translation": "Since I don't understand his feelings, there is no way to guess.",
+      "blank_target": "しようもない",
+      "wrong_choices": [
+        "するはずがない",
+        "しなければならない",
+        "するに違いない"
+      ],
+      "wrong_choice_explanations": [
+        "するはずがない means 'there's no way he would do it,' expressing disbelief, but we need to show impossibility due to lack of information.",
+        "しなければならない means 'must do,' expressing obligation, which is the opposite of what's needed here.",
+        "するに違いない means 'must be doing' or 'surely will do,' expressing certainty rather than impossibility."
+      ],
+      "hiragana_full": "かれのきもちはわからないので、すいそくしようもない。",
+      "audio_alternatives": [
+        {
+          "kanji": "彼の気持ちが理解できないので、推測のしようがない。",
+          "hiragana_full": "かれのきもちがりかいできないので、すいそくのしようがない。"
+        },
+        {
+          "kanji": "彼の気持ちが分からないから、推測しようがない。",
+          "hiragana_full": "かれのきもちがわからないから、すいそくしようがない。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "推測",
+          "reading": "すいそく",
+          "meaning": "conjecture / guessing"
+        }
+      ]
+    },
+    {
+      "id": "n2_090_10",
+      "example_sentence": "パスワードを忘れたので、ログインしようがない。",
+      "translation": "Since I forgot the password, there is no way to log in.",
+      "blank_target": "しようがない",
+      "wrong_choices": [
+        "したほうがいい",
+        "しないほうがいい",
+        "できるはずだ"
+      ],
+      "wrong_choice_explanations": [
+        "したほうがいい means 'it would be better to log in,' giving advice, but the sentence shows impossibility due to forgetting the password.",
+        "しないほうがいい means 'it would be better not to log in,' giving negative advice, but we need to show impossibility, not choice.",
+        "できるはずだ means 'should be able to log in,' expressing expectation of ability, which contradicts the impossibility in the sentence."
+      ],
+      "hiragana_full": "ぱすわーどをわすれたので、ろぐいんしようがない。",
+      "audio_alternatives": [
+        {
+          "kanji": "パスワードを忘れてしまったから、ログインのしようがない。",
+          "hiragana_full": "ぱすわーどをわすれてしまったから、ろぐいんのしようがない。"
+        },
+        {
+          "kanji": "パスワードを忘れたため、ログインする方法がない。",
+          "hiragana_full": "ぱすわーどをわすれたため、ろぐいんするほうほうがない。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral"
     }
   ]
 }

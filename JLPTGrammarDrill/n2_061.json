@@ -5,19 +5,19 @@
   "level": "N2",
   "exercises": [
     {
-      "id": "n2_061_01",
+      "id": "n2_061_1",
       "example_sentence": "その展覧会をきっかけに、彼の人生は変わった。",
       "translation": "That exhibition became a turning point that changed his life.",
       "blank_target": "をきっかけに",
       "wrong_choices": [
-        "を機に",
+        "に先立って",
         "をもとに",
-        "によって"
+        "をよそに"
       ],
       "wrong_choice_explanations": [
-        "を機に means 'taking the opportunity of' but is more formal and typically used for planned actions, not life-changing events that happen as a result.",
+        "に先立って means 'prior to / in advance of' and marks something occurring before the exhibition; をきっかけに instead makes the exhibition the trigger that set the change in motion afterward.",
         "をもとに means 'based on' or 'using as a foundation' for creating something, but doesn't express the catalyst meaning needed here.",
-        "によって means 'by means of' or 'due to' but doesn't capture the turning point nuance that をきっかけに expresses."
+        "をよそに means 'ignoring / paying no heed to' and marks indifference to something, which cannot present the exhibition as the turning point that changed his life."
       ],
       "hiragana_full": "そのてんらんかいをきっかけに、かれのじんせいはかわった。",
       "audio_alternatives": [
@@ -30,22 +30,35 @@
           "hiragana_full": "そのてんらんかいをきっかけとして、かれのじんせいがかわった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "展覧会",
+          "reading": "てんらんかい",
+          "meaning": "exhibition"
+        },
+        {
+          "word": "人生",
+          "reading": "じんせい",
+          "meaning": "life"
+        }
+      ]
     },
     {
-      "id": "n2_061_02",
+      "id": "n2_061_2",
       "example_sentence": "あの事件をきっかけに、法律が改正された。",
       "translation": "That incident became the catalyst for legal reforms.",
       "blank_target": "をきっかけに",
       "wrong_choices": [
-        "により",
+        "に反して",
         "について",
-        "に対して"
+        "を問わず"
       ],
       "wrong_choice_explanations": [
-        "により states a flat cause ('due to that incident, laws were revised') without the 'turning point' framing — をきっかけに positions the incident as the moment that unlocked subsequent reform.",
+        "に反して means 'contrary to' and marks something that goes against an expectation or rule, not the incident that prompted the legal reform.",
         "について would mean 'laws were revised regarding that incident,' introducing the incident as the topic of the laws, not as the event that prompted lawmaking action.",
-        "に対して ('in response to that incident') comes close but reads as a direct reaction or counter-measure; をきっかけに is broader and emphasizes the incident as the catalyst for a wider chain of reform."
+        "を問わず means 'regardless of' and takes a range of variables (年齢を問わず); あの事件を問わず makes no sense and cannot mark the incident as what prompted the legal reform."
       ],
       "hiragana_full": "あのじけんをきっかけに、ほうりつがかいせいされた。",
       "audio_alternatives": [
@@ -58,22 +71,35 @@
           "hiragana_full": "あのじけんをきっかけとして、ほうりつがかいせいされた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "事件",
+          "reading": "じけん",
+          "meaning": "incident"
+        },
+        {
+          "word": "改正",
+          "reading": "かいせい",
+          "meaning": "amendment/revision"
+        }
+      ]
     },
     {
-      "id": "n2_061_03",
+      "id": "n2_061_3",
       "example_sentence": "この病気をきっかけに、生活習慣を見直した。",
       "translation": "This illness became a wake-up call that made me reconsider my lifestyle habits.",
       "blank_target": "をきっかけに",
       "wrong_choices": [
-        "のために",
+        "に反して",
         "に関して",
-        "を通して"
+        "にもかかわらず"
       ],
       "wrong_choice_explanations": [
-        "のために would frame the illness as the *purpose* of reviewing one's habits ('for the sake of this illness'), which is nonsensical — をきっかけに instead treats the illness as the unplanned trigger that prompted the review.",
+        "に反して means 'contrary to' (予想に反して) and needs an expectation or rule to go against; an illness is neither, so この病気に反して cannot mark the illness as the event that prompted the review.",
         "に関して means 'concerning this illness,' introducing it as a topic of discussion rather than as the event that set the lifestyle change in motion.",
-        "を通して ('through this illness') would describe the illness as the medium or duration during which the change unfolded, not as the single catalyst at the moment of decision."
+        "にもかかわらず means 'despite' and would say the habits were reviewed in spite of the illness, whereas the illness is the very trigger for the review."
       ],
       "hiragana_full": "このびょうきをきっかけに、せいかつしゅうかんをみなおした。",
       "audio_alternatives": [
@@ -86,66 +112,23 @@
           "hiragana_full": "このびょうきがきっかけで、せいかつしゅうかんをみなおすようになった。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_061_04",
-      "example_sentence": "新監督の就任をきっかけに、戦略が大きく変わった。",
-      "translation": "The new director's appointment became the catalyst for a major strategy change.",
-      "blank_target": "をきっかけに",
-      "wrong_choices": [
-        "とともに",
-        "に伴って",
-        "をめぐって"
-      ],
-      "wrong_choice_explanations": [
-        "とともに means 'together with' but suggests simultaneous action rather than one event triggering another.",
-        "に伴って means 'accompanying' but implies a natural consequence rather than using something as a catalyst.",
-        "をめぐって means 'concerning' or 'around' but suggests discussion or conflict about a topic, not using it as a trigger."
-      ],
-      "hiragana_full": "しんかんとくのしゅうにんをきっかけに、せんりゃくがおおきくかわった。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "新監督の就任を契機に、戦略が大きく変わった。",
-          "hiragana_full": "しんかんとくのしゅうにんをけいきに、せんりゃくがおおきくかわった。"
+          "word": "生活習慣",
+          "reading": "せいかつしゅうかん",
+          "meaning": "lifestyle habits"
         },
         {
-          "kanji": "新監督が就任したことで、戦略が大きく変わった。",
-          "hiragana_full": "しんかんとくがしゅうにんしたことで、せんりゃくがおおきくかわった。"
+          "word": "見直す",
+          "reading": "みなおす",
+          "meaning": "to review/reconsider"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n2_061_05",
-      "example_sentence": "その技術革新をきっかけに、産業全体が変わった。",
-      "translation": "That technological innovation became the catalyst that transformed the entire industry.",
-      "blank_target": "をきっかけに",
-      "wrong_choices": [
-        "を境に",
-        "にあたって",
-        "にかけて"
-      ],
-      "wrong_choice_explanations": [
-        "を境に means 'with... as a boundary' but focuses on marking a dividing point rather than using something as a catalyst.",
-        "にあたって means 'on the occasion of' but is used for ceremonial or formal situations, not for expressing causation.",
-        "にかけて means 'over a period' or 'spanning' but indicates duration rather than a trigger for change."
-      ],
-      "hiragana_full": "そのぎじゅつかくしんをきっかけに、さんぎょうぜんたいがかわった。",
-      "audio_alternatives": [
-        {
-          "kanji": "その技術革新が契機となり、産業全体が変わった。",
-          "hiragana_full": "そのぎじゅつかくしんがけいきとなり、さんぎょうぜんたいがかわった。"
-        },
-        {
-          "kanji": "その技術革新をきっかけとして、産業全体が変革された。",
-          "hiragana_full": "そのぎじゅつかくしんをきっかけとして、さんぎょうぜんたいがへんかくされた。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_061_06",
+      "id": "n2_061_4",
       "example_sentence": "そのセミナーをきっかけに、彼の研究テーマが変わった。",
       "translation": "That seminar became the turning point that changed his research focus.",
       "blank_target": "をきっかけに",
@@ -170,20 +153,28 @@
           "hiragana_full": "そのせみなーをきっかけとして、かれのけんきゅうてーまがかわった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "研究",
+          "reading": "けんきゅう",
+          "meaning": "research"
+        }
+      ]
     },
     {
-      "id": "n2_061_07",
+      "id": "n2_061_5",
       "example_sentence": "留学をきっかけに、彼女の価値観が変わった。",
       "translation": "Studying abroad became the catalyst that changed her values.",
       "blank_target": "をきっかけに",
       "wrong_choices": [
-        "を機に",
+        "をめぐって",
         "に基づいて",
         "をめざして"
       ],
       "wrong_choice_explanations": [
-        "を機に is similar but more formal and typically used for planned opportunities rather than life experiences that trigger change.",
+        "をめぐって means 'concerning / surrounding' and introduces studying abroad as a topic of debate or focus; をきっかけに instead treats it as the catalyst that sparked the change in her values.",
         "に基づいて means 'based on' but suggests using something as foundation for decisions rather than as a catalyst for change.",
         "をめざして means 'aiming for' but indicates purpose or goal rather than something that triggered change."
       ],
@@ -198,10 +189,23 @@
           "hiragana_full": "りゅうがくをきっかけとして、かのじょのかちかんがかわった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "留学",
+          "reading": "りゅうがく",
+          "meaning": "studying abroad"
+        },
+        {
+          "word": "価値観",
+          "reading": "かちかん",
+          "meaning": "values/outlook"
+        }
+      ]
     },
     {
-      "id": "n2_061_08",
+      "id": "n2_061_6",
       "example_sentence": "転職をきっかけに、新しい趣味を始めた。",
       "translation": "Changing jobs became the opportunity to start a new hobby.",
       "blank_target": "をきっかけに",
@@ -226,38 +230,18 @@
           "hiragana_full": "てんしょくをきに、あたらしいしゅみをはじめた。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_061_09",
-      "example_sentence": "結婚をきっかけに、故郷に戻ることにした。",
-      "translation": "Marriage became the catalyst for deciding to return to my hometown.",
-      "blank_target": "をきっかけに",
-      "wrong_choices": [
-        "をはじめとして",
-        "に先立って",
-        "をとおして"
-      ],
-      "wrong_choice_explanations": [
-        "をはじめとして means 'beginning with' but is used for listing multiple items rather than expressing causation.",
-        "に先立って means 'prior to' but indicates timing rather than using something as a trigger for action.",
-        "をとおして means 'through' but suggests a continuous process rather than a catalyst that sparked a decision."
-      ],
-      "hiragana_full": "けっこんをきっかけに、こきょうにもどることにした。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "結婚を機に、故郷に帰ることにした。",
-          "hiragana_full": "けっこんをきに、こきょうにかえることにした。"
-        },
-        {
-          "kanji": "結婚がきっかけで、故郷に戻る決意をした。",
-          "hiragana_full": "けっこんがきっかけで、こきょうにもどるけついをした。"
+          "word": "転職",
+          "reading": "てんしょく",
+          "meaning": "changing jobs"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n2_061_10",
+      "id": "n2_061_7",
       "example_sentence": "その出会いをきっかけに、人生の目標が見つかった。",
       "translation": "That encounter became the catalyst for finding my life's purpose.",
       "blank_target": "をきっかけに",
@@ -282,7 +266,131 @@
           "hiragana_full": "そのであいをきっかけとして、じんせいのもくひょうがみつかった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "出会い",
+          "reading": "であい",
+          "meaning": "encounter"
+        },
+        {
+          "word": "目標",
+          "reading": "もくひょう",
+          "meaning": "goal"
+        }
+      ]
+    },
+    {
+      "id": "n2_061_8",
+      "example_sentence": "彼女の言葉をきっかけに、勉強を始めることにした。",
+      "translation": "Triggered by her words, I decided to start studying.",
+      "blank_target": "をきっかけに",
+      "wrong_choices": [
+        "にわたって",
+        "について",
+        "を問わず"
+      ],
+      "wrong_choice_explanations": [
+        "にわたって means 'spanning (a period or area)' and takes time or space expressions (三日間にわたって); her words are not a span, so it cannot mark them as the trigger for the decision.",
+        "について means 'about / concerning' and just introduces a topic, not the prompting event — をきっかけに is needed to show that her words triggered the decision to study.",
+        "を問わず means 'regardless of' and dismisses a variable, so it cannot mark her words as the trigger that led to the decision to study."
+      ],
+      "hiragana_full": "かのじょのことばをきっかけに、べんきょうをはじめることにした。",
+      "audio_alternatives": [
+        {
+          "kanji": "彼女の言葉がきっかけで、勉強を始めることにした。",
+          "hiragana_full": "かのじょのことばがきっかけで、べんきょうをはじめることにした。"
+        },
+        {
+          "kanji": "彼女の言葉をきっかけとして、勉強を始める決意をした。",
+          "hiragana_full": "かのじょのことばをきっかけとして、べんきょうをはじめるけついをした。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral"
+    },
+    {
+      "id": "n2_061_9",
+      "example_sentence": "子供の誕生をきっかけに、禁煙した。",
+      "translation": "Using my child's birth as a trigger, I quit smoking.",
+      "blank_target": "をきっかけに",
+      "wrong_choices": [
+        "をよそに",
+        "をものともせず",
+        "をめぐって"
+      ],
+      "wrong_choice_explanations": [
+        "をよそに means 'ignoring / in defiance of the child's birth', an indifference marker, the opposite of taking the birth as the trigger をきっかけに expresses.",
+        "をものともせず means 'undaunted by / in defiance of' an obstacle, which cannot treat the child's birth as the positive trigger for quitting smoking.",
+        "をめぐって means 'concerning/revolving around' and indicates a topic of discussion or conflict, not the triggering event for personal change."
+      ],
+      "hiragana_full": "こどものたんじょうをきっかけに、きんえんした。",
+      "audio_alternatives": [
+        {
+          "kanji": "子供が生まれたのを機に、タバコをやめた。",
+          "hiragana_full": "こどもがうまれたのをきに、たばこをやめた。"
+        },
+        {
+          "kanji": "子供の誕生をきっかけとして、禁煙しました。",
+          "hiragana_full": "こどものたんじょうをきっかけとして、きんえんしました。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "誕生",
+          "reading": "たんじょう",
+          "meaning": "birth"
+        },
+        {
+          "word": "禁煙",
+          "reading": "きんえん",
+          "meaning": "quitting smoking"
+        }
+      ]
+    },
+    {
+      "id": "n2_061_10",
+      "example_sentence": "その映画をきっかけに、映画監督を目指すようになった。",
+      "translation": "That movie served as a trigger for me to start aiming to become a film director.",
+      "blank_target": "をきっかけに",
+      "wrong_choices": [
+        "をテーマに",
+        "を中心に",
+        "に関連して"
+      ],
+      "wrong_choice_explanations": [
+        "をテーマに means 'with as a theme' and indicates using something as a subject matter, not as the inspiration trigger like をきっかけに does.",
+        "を中心に means 'centering on' and indicates something as the main focus, not the catalyzing moment that sparked career aspirations.",
+        "に関連して means 'in connection with' and shows relationship but not the specific triggering moment that inspired the career goal."
+      ],
+      "hiragana_full": "そのえいがをきっかけに、えいがかんとくをめざすようになった。",
+      "audio_alternatives": [
+        {
+          "kanji": "その映画がきっかけで、映画監督を目指すようになった。",
+          "hiragana_full": "そのえいががきっかけで、えいがかんとくをめざすようになった。"
+        },
+        {
+          "kanji": "その映画をきっかけとして、映画監督を目指すようになった。",
+          "hiragana_full": "そのえいがをきっかけとして、えいがかんとくをめざすようになった。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "監督",
+          "reading": "かんとく",
+          "meaning": "director"
+        },
+        {
+          "word": "目指す",
+          "reading": "めざす",
+          "meaning": "to aim for"
+        }
+      ]
     }
   ]
 }

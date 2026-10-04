@@ -1,0 +1,238 @@
+{
+  "id": "n2_252",
+  "pattern": "〜ところに・ところへ",
+  "meaning": "just as~ (right at the moment something else happened)",
+  "level": "N2",
+  "exercises": [
+    {
+      "id": "n2_252_1",
+      "example_sentence": "出かけようとしたところに、突然雨が降り出した。",
+      "translation": "Just as I was about to head out, it suddenly began to rain.",
+      "blank_target": "ところに",
+      "wrong_choices": ["ところで", "ところが", "ばかりに"],
+      "wrong_choice_explanations": [
+        "ところで after a past verb means 'even if'; 出かけようとしたところで would concede 'even if I tried to leave' and loses the sense of one event arriving at that very moment.",
+        "ところが is a standalone conjunction meaning 'however'; it cannot sit in this に-slot marking the instant the rain arrived.",
+        "ばかりに means 'simply because', pinning blame on a cause; the sentence reports coincidental timing, not that trying to leave caused the rain."
+      ],
+      "hiragana_full": "でかけようとしたところに、とつぜんあめがふりだした。",
+      "audio_alternatives": [
+        { "kanji": "家を出ようとしたところへ、急に雨が降り出した。", "hiragana_full": "いえをでようとしたところへ、きゅうにあめがふりだした。" },
+        { "kanji": "出かける直前に、突然雨が降り始めた。", "hiragana_full": "でかけるちょくぜんに、とつぜんあめがふりはじめた。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "突然", "reading": "とつぜん", "meaning": "suddenly" },
+        { "word": "降り出す", "reading": "ふりだす", "meaning": "to start to rain/fall" }
+      ]
+    },
+    {
+      "id": "n2_252_2",
+      "example_sentence": "昼ご飯を食べているところへ、上司から電話がかかってきた。",
+      "translation": "Right as I was eating lunch, a call came in from my boss.",
+      "blank_target": "ところへ",
+      "wrong_choices": ["ところで", "どころか", "あげく"],
+      "wrong_choice_explanations": [
+        "ところで here would read as 'even if I ate lunch', a concession that ignores the phone call interrupting the meal in progress.",
+        "どころか means 'far from / let alone' and needs a contrast pair; it cannot mark the moment the call arrived during the meal.",
+        "あげく means 'after all the trouble of', summing up a drawn-out process with a bad result, not a single interrupting moment."
+      ],
+      "hiragana_full": "ひるごはんをたべているところへ、じょうしからでんわがかかってきた。",
+      "audio_alternatives": [
+        { "kanji": "昼食の最中に、上司から電話が入った。", "hiragana_full": "ちゅうしょくのさいちゅうに、じょうしからでんわがはいった。" },
+        { "kanji": "ご飯を食べていたら、ちょうど上司から電話がかかってきた。", "hiragana_full": "ごはんをたべていたら、ちょうどじょうしからでんわがかかってきた。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "上司", "reading": "じょうし", "meaning": "boss; superior" },
+        { "word": "昼ご飯", "reading": "ひるごはん", "meaning": "lunch" }
+      ]
+    },
+    {
+      "id": "n2_252_3",
+      "example_sentence": "宿題に取りかかろうとしたところに、母に買い物を頼まれた。",
+      "translation": "Just as I was about to get started on my homework, my mom asked me to go shopping.",
+      "blank_target": "ところに",
+      "wrong_choices": ["ところで", "ところが", "からには"],
+      "wrong_choice_explanations": [
+        "ところで after 取りかかろうとした would mean 'even if I set about it', a concession that drops the timing of the interruption.",
+        "ところが is the conjunction 'however' and cannot fill this に-slot pointing to the moment the request came.",
+        "からには means 'now that (you have)', setting up an obligation; it doesn't mark a coincidental interruption."
+      ],
+      "hiragana_full": "しゅくだいにとりかかろうとしたところに、ははにかいものをたのまれた。",
+      "audio_alternatives": [
+        { "kanji": "勉強を始めようとした矢先に、母から買い物を頼まれた。", "hiragana_full": "べんきょうをはじめようとしたやさきに、ははからかいものをたのまれた。" },
+        { "kanji": "宿題を始めようとしていたら、ちょうど母に買い物を頼まれた。", "hiragana_full": "しゅくだいをはじめようとしていたら、ちょうどははにかいものをたのまれた。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "取りかかる", "reading": "とりかかる", "meaning": "to set about; to begin" },
+        { "word": "頼む", "reading": "たのむ", "meaning": "to request; to ask" }
+      ]
+    },
+    {
+      "id": "n2_252_4",
+      "example_sentence": "眠りについたところへ、突然インターホンが鳴った。",
+      "translation": "Just as I had fallen asleep, the intercom suddenly rang.",
+      "blank_target": "ところへ",
+      "wrong_choices": ["ところで", "ものを", "ながら"],
+      "wrong_choice_explanations": [
+        "ところで would turn this into 'even if I fell asleep', a concession, not the instant the intercom broke the silence.",
+        "ものを expresses regret that things could have gone better ('if only'); it can't mark the moment the ring arrived.",
+        "ながら means 'while (doing simultaneously)', but being asleep and hearing the ring aren't one continuous action; the sentence needs the arrival-point sense."
+      ],
+      "hiragana_full": "ねむりについたところへ、とつぜんいんたーほんがなった。",
+      "audio_alternatives": [
+        { "kanji": "寝入ったばかりの時に、急にインターホンが鳴った。", "hiragana_full": "ねいったばかりのときに、きゅうにいんたーほんがなった。" },
+        { "kanji": "やっと眠ったと思ったら、インターホンが鳴り響いた。", "hiragana_full": "やっとねむったとおもったら、いんたーほんがなりひびいた。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "眠りにつく", "reading": "ねむりにつく", "meaning": "to fall asleep" },
+        { "word": "鳴る", "reading": "なる", "meaning": "to ring; to sound" }
+      ]
+    },
+    {
+      "id": "n2_252_5",
+      "example_sentence": "二人が言い争っているところに、先生が入ってきた。",
+      "translation": "Right as the two were quarreling, the teacher walked in.",
+      "blank_target": "ところに",
+      "wrong_choices": ["ところが", "どころか", "にもかかわらず"],
+      "wrong_choice_explanations": [
+        "ところが is a sentence-initial 'however' and cannot occupy this に-slot marking when the teacher entered.",
+        "どころか needs a contrastive pair ('far from arguing...'), which doesn't match a teacher simply arriving mid-argument.",
+        "にもかかわらず means 'despite', signaling a concession, not the coincidental moment of the teacher's entrance."
+      ],
+      "hiragana_full": "ふたりがいいあらそっているところに、せんせいがはいってきた。",
+      "audio_alternatives": [
+        { "kanji": "二人が口論している最中に、先生が教室に入ってきた。", "hiragana_full": "ふたりがこうろんしているさいちゅうに、せんせいがきょうしつにはいってきた。" },
+        { "kanji": "言い合いをしていたら、ちょうど先生が入ってきた。", "hiragana_full": "いいあいをしていたら、ちょうどせんせいがはいってきた。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "言い争う", "reading": "いいあらそう", "meaning": "to quarrel; to argue" },
+        { "word": "入る", "reading": "はいる", "meaning": "to enter" }
+      ]
+    },
+    {
+      "id": "n2_252_6",
+      "example_sentence": "部屋を片付けているところへ、急に来客があった。",
+      "translation": "Just as I was tidying my room, a visitor unexpectedly showed up.",
+      "blank_target": "ところへ",
+      "wrong_choices": ["ところで", "ばかりか", "とはいえ"],
+      "wrong_choice_explanations": [
+        "ところで ('even if I tidied the room') concedes a point rather than marking the moment the guest arrived.",
+        "ばかりか means 'not only ~ but also', adding to a point; it can't mark an interrupting arrival.",
+        "とはいえ means 'even so / that said', a concessive connector, not a marker of coincidental timing."
+      ],
+      "hiragana_full": "へやをかたづけているところへ、きゅうにらいきゃくがあった。",
+      "audio_alternatives": [
+        { "kanji": "掃除の途中に、思いがけず客が訪ねてきた。", "hiragana_full": "そうじのとちゅうに、おもいがけずきゃくがたずねてきた。" },
+        { "kanji": "部屋を整理していたら、突然お客さんが来た。", "hiragana_full": "へやをせいりしていたら、とつぜんおきゃくさんがきた。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "片付ける", "reading": "かたづける", "meaning": "to tidy up; to put in order" },
+        { "word": "来客", "reading": "らいきゃく", "meaning": "visitor; guest" }
+      ]
+    },
+    {
+      "id": "n2_252_7",
+      "example_sentence": "ちょうど駅に着いたところに、電車が入ってきた。",
+      "translation": "Just as I arrived at the station, the train pulled in.",
+      "blank_target": "ところに",
+      "wrong_choices": ["ところで", "ところが", "きり"],
+      "wrong_choice_explanations": [
+        "ところで after 着いた would mean 'even if I arrived', conceding rather than reporting the lucky timing of the train's arrival.",
+        "ところが is the conjunction 'however' and can't fill the に-slot marking the instant of arrival.",
+        "きり means 'only / ever since' and doesn't express a coincidental point in time."
+      ],
+      "hiragana_full": "ちょうどえきについたところに、でんしゃがはいってきた。",
+      "audio_alternatives": [
+        { "kanji": "駅に到着した瞬間に、ちょうど電車が来た。", "hiragana_full": "えきにとうちゃくしたしゅんかんに、ちょうどでんしゃがきた。" },
+        { "kanji": "駅に着くと同時に、電車がホームに入ってきた。", "hiragana_full": "えきにつくとどうじに、でんしゃがほーむにはいってきた。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "着く", "reading": "つく", "meaning": "to arrive" },
+        { "word": "電車", "reading": "でんしゃ", "meaning": "train" }
+      ]
+    },
+    {
+      "id": "n2_252_8",
+      "example_sentence": "お風呂に入ろうとしたところへ、地震が起きた。",
+      "translation": "Just as I was about to get in the bath, an earthquake struck.",
+      "blank_target": "ところへ",
+      "wrong_choices": ["ところで", "どころか", "あまり"],
+      "wrong_choice_explanations": [
+        "ところで ('even if I got in the bath') concedes and loses the sense of the quake striking at that very moment.",
+        "どころか needs a contrast pair and cannot mark the arrival of the earthquake.",
+        "あまり (〜のあまり) means 'out of too much ~', giving a cause from excess emotion, not a moment of coincidence."
+      ],
+      "hiragana_full": "おふろにはいろうとしたところへ、じしんがおきた。",
+      "audio_alternatives": [
+        { "kanji": "入浴しようとした矢先に、地震が発生した。", "hiragana_full": "にゅうよくしようとしたやさきに、じしんがはっせいした。" },
+        { "kanji": "風呂に入る直前に、突然地震が起きた。", "hiragana_full": "ふろにはいるちょくぜんに、とつぜんじしんがおきた。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "地震", "reading": "じしん", "meaning": "earthquake" },
+        { "word": "起きる", "reading": "おきる", "meaning": "to occur; to happen" }
+      ]
+    },
+    {
+      "id": "n2_252_9",
+      "example_sentence": "手紙を書いているところに、ちょうど本人から連絡が来た。",
+      "translation": "Right as I was writing the letter, the person themselves happened to get in touch.",
+      "blank_target": "ところに",
+      "wrong_choices": ["ところで", "ものの", "ながらも"],
+      "wrong_choice_explanations": [
+        "ところで ('even if I wrote the letter') concedes rather than marking the moment the contact came.",
+        "ものの means 'although', a concessive that doesn't express coincidental timing.",
+        "ながらも means 'even while / although', a contrast marker, not a point of interruption."
+      ],
+      "hiragana_full": "てがみをかいているところに、ちょうどほんにんかられんらくがきた。",
+      "audio_alternatives": [
+        { "kanji": "手紙を書いていた最中に、当の本人から連絡が入った。", "hiragana_full": "てがみをかいていたさいちゅうに、とうのほんにんかられんらくがはいった。" },
+        { "kanji": "手紙をしたためていたら、偶然本人から連絡が来た。", "hiragana_full": "てがみをしたためていたら、ぐうぜんほんにんかられんらくがきた。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "本人", "reading": "ほんにん", "meaning": "the person themselves" },
+        { "word": "連絡", "reading": "れんらく", "meaning": "contact; message" }
+      ]
+    },
+    {
+      "id": "n2_252_10",
+      "example_sentence": "会議が終わって帰ろうとしたところへ、部長に呼び止められた。",
+      "translation": "Just as the meeting ended and I was about to leave, the department head called me back.",
+      "blank_target": "ところへ",
+      "wrong_choices": ["ところで", "ところが", "ばかりに"],
+      "wrong_choice_explanations": [
+        "ところで ('even if I tried to leave') concedes a hypothetical rather than the moment the manager stopped you.",
+        "ところが is the conjunction 'however' and cannot fill this へ-slot marking when you were called back.",
+        "ばかりに means 'simply because', assigning cause; the sentence reports timing, not that leaving caused the summons."
+      ],
+      "hiragana_full": "かいぎがおわってかえろうとしたところへ、ぶちょうによびとめられた。",
+      "audio_alternatives": [
+        { "kanji": "会議が終わり帰宅しようとした矢先に、部長に呼び止められた。", "hiragana_full": "かいぎがおわりきたくしようとしたやさきに、ぶちょうによびとめられた。" },
+        { "kanji": "席を立って帰ろうとしたら、ちょうど部長に呼ばれた。", "hiragana_full": "せきをたってかえろうとしたら、ちょうどぶちょうによばれた。" }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        { "word": "部長", "reading": "ぶちょう", "meaning": "department head" },
+        { "word": "呼び止める", "reading": "よびとめる", "meaning": "to call (someone) to stop" }
+      ]
+    }
+  ]
+}

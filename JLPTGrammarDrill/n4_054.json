@@ -1,67 +1,11 @@
 {
   "id": "n4_054",
   "pattern": "～くらい／ぐらい",
-  "meaning": "About/approximately; to the extent of",
+  "meaning": "To the extent that ~ / so ~ that",
   "level": "N4",
   "exercises": [
     {
       "id": "n4_054_1",
-      "example_sentence": "三時間くらい勉強した。",
-      "translation": "I studied for about three hours.",
-      "blank_target": "くらい",
-      "wrong_choices": [
-        "も",
-        "だけ",
-        "ずつ"
-      ],
-      "wrong_choice_explanations": [
-        "も emphasizes that three hours is a surprisingly large amount ('as much as three hours'), whereas くらい simply gives an approximate amount.",
-        "だけ means 'only / just,' marking three hours as an exact limit, not the rough approximation that くらい expresses.",
-        "ずつ means 'each / apiece,' describing three hours per session or unit, not a single approximate duration like くらい."
-      ],
-      "hiragana_full": "さんじかんくらいべんきょうした。",
-      "audio_alternatives": [
-        {
-          "kanji": "三時間ほど勉強した。",
-          "hiragana_full": "さんじかんほどべんきょうした。"
-        },
-        {
-          "kanji": "三時間くらい勉強しました。",
-          "hiragana_full": "さんじかんくらいべんきょうしました。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_054_2",
-      "example_sentence": "千円ぐらい持っている。",
-      "translation": "I have about 1000 yen.",
-      "blank_target": "ぐらい",
-      "wrong_choices": [
-        "より",
-        "から",
-        "まで"
-      ],
-      "wrong_choice_explanations": [
-        "より means 'than/from' — it doesn't fit here because it's used for comparisons rather than approximation of amount.",
-        "から means 'from/because' — it doesn't fit here because it expresses starting point or reason rather than approximate amount.",
-        "まで means 'until/up to' — it doesn't fit here because it expresses limits rather than approximation."
-      ],
-      "hiragana_full": "せんえんぐらいもっている。",
-      "audio_alternatives": [
-        {
-          "kanji": "千円くらい持っている。",
-          "hiragana_full": "せんえんくらいもっている。"
-        },
-        {
-          "kanji": "千円ほど持っています。",
-          "hiragana_full": "せんえんほどもっています。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_054_3",
       "example_sentence": "死ぬくらい疲れた。",
       "translation": "I'm tired to the point of dying.",
       "blank_target": "くらい",
@@ -86,38 +30,18 @@
           "hiragana_full": "しにそうなくらいつかれた。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_054_4",
-      "example_sentence": "十人ぐらい集まった。",
-      "translation": "About ten people gathered.",
-      "blank_target": "ぐらい",
-      "wrong_choices": [
-        "ずつ",
-        "ごと",
-        "おき"
-      ],
-      "wrong_choice_explanations": [
-        "ずつ means 'each/at a time' — it doesn't fit here because it expresses distribution rather than approximation of number.",
-        "ごと means 'every/each' — it doesn't fit here because it expresses intervals rather than approximate number.",
-        "おき means 'every/at intervals of' — it doesn't fit here because it expresses spacing rather than approximation."
-      ],
-      "hiragana_full": "じゅうにんぐらいあつまった。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
         {
-          "kanji": "十人ほど集まった。",
-          "hiragana_full": "じゅうにんほどあつまった。"
-        },
-        {
-          "kanji": "十人くらい集まりました。",
-          "hiragana_full": "じゅうにんくらいあつまりました。"
+          "word": "疲れた",
+          "reading": "つかれた",
+          "meaning": "got (dead) tired"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n4_054_5",
+      "id": "n4_054_2",
       "example_sentence": "涙が出るくらい悲しい映画だった。",
       "translation": "It was a movie so sad that it made me cry.",
       "blank_target": "くらい",
@@ -142,38 +66,23 @@
           "hiragana_full": "なみだがでるほどかなしいえいがでした。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_054_6",
-      "example_sentence": "五分ぐらい待ってください。",
-      "translation": "Please wait about five minutes.",
-      "blank_target": "ぐらい",
-      "wrong_choices": [
-        "すぎ",
-        "前",
-        "後"
-      ],
-      "wrong_choice_explanations": [
-        "すぎ means 'past/after' — it doesn't fit here because it indicates exact time past the hour rather than approximation of duration.",
-        "前 means 'before/ago' — it doesn't fit here because it indicates a point in the past rather than approximate duration.",
-        "後 means 'after/later' — it doesn't fit here because it indicates a point in the future rather than approximate duration."
-      ],
-      "hiragana_full": "ごふんぐらいまってください。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
         {
-          "kanji": "五分ほど待ってください。",
-          "hiragana_full": "ごふんほどまってください。"
+          "word": "涙",
+          "reading": "なみだ",
+          "meaning": "tears"
         },
         {
-          "kanji": "五分くらい待ってください。",
-          "hiragana_full": "ごふんくらいまってください。"
+          "word": "悲しい",
+          "reading": "かなしい",
+          "meaning": "sad"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n4_054_7",
+      "id": "n4_054_3",
       "example_sentence": "びっくりして心臓が止まるくらいだった。",
       "translation": "I was so surprised that my heart almost stopped.",
       "blank_target": "くらい",
@@ -198,38 +107,23 @@
           "hiragana_full": "あまりのおどろきでしんぞうがとまるところだった。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_054_8",
-      "example_sentence": "このスイカは三キロぐらいある。",
-      "translation": "This watermelon weighs about three kilos.",
-      "blank_target": "ぐらい",
-      "wrong_choices": [
-        "も",
-        "だけ",
-        "まで"
-      ],
-      "wrong_choice_explanations": [
-        "も emphasizes that three kilos is a surprisingly large amount ('as much as three kilos'), whereas ぐらい simply gives an approximate weight.",
-        "だけ means 'only / just,' marking three kilos as an exact limit, not the rough approximation that ぐらい expresses.",
-        "まで means 'up to,' marking three kilos as an upper limit, not the approximate amount that ぐらい conveys."
-      ],
-      "hiragana_full": "このすいかはさんきろぐらいある。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
         {
-          "kanji": "このスイカは三キロほどある。",
-          "hiragana_full": "このすいかはさんきろほどある。"
+          "word": "心臓",
+          "reading": "しんぞう",
+          "meaning": "heart (the organ)"
         },
         {
-          "kanji": "このスイカは三キロぐらいあります。",
-          "hiragana_full": "このすいかはさんきろぐらいあります。"
+          "word": "止まる",
+          "reading": "とまる",
+          "meaning": "to stop"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n4_054_9",
+      "id": "n4_054_4",
       "example_sentence": "頭が痛くて死にそうなくらいだ。",
       "translation": "My headache is so bad that I feel like dying.",
       "blank_target": "くらい",
@@ -254,35 +148,279 @@
           "hiragana_full": "ずつうがひどくてしにそうだ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual"
+    },
+    {
+      "id": "n4_054_5",
+      "example_sentence": "外は手が冷たくなるくらい寒いです。",
+      "translation": "It's so cold outside that my hands go cold.",
+      "blank_target": "くらい",
+      "wrong_choices": [
+        "ながら",
+        "たら",
+        "ば"
+      ],
+      "wrong_choice_explanations": [
+        "ながら means 'while doing' — it attaches to the verb stem, not the dictionary or ない form, and it shows simultaneous actions rather than degree.",
+        "たら means 'if/when' — it attaches to the た-form (なったら), not the dictionary form, and it sets up a condition rather than showing degree.",
+        "ば makes a conditional ('if') and needs its own conjugation (なれば) — it doesn't fit here because the sentence describes how extreme something is, not a condition."
+      ],
+      "hiragana_full": "そとはてがつめたくなるくらいさむいです。",
+      "audio_alternatives": [
+        {
+          "kanji": "外は手が冷たくなるほど寒いです。",
+          "hiragana_full": "そとはてがつめたくなるほどさむいです。"
+        },
+        {
+          "kanji": "外は手が冷たくなるぐらい寒いです。",
+          "hiragana_full": "そとはてがつめたくなるぐらいさむいです。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "外",
+          "reading": "そと",
+          "meaning": "outside"
+        },
+        {
+          "word": "手",
+          "reading": "て",
+          "meaning": "hand"
+        },
+        {
+          "word": "冷たく",
+          "reading": "つめたく",
+          "meaning": "cold (to the touch)"
+        },
+        {
+          "word": "寒い",
+          "reading": "さむい",
+          "meaning": "cold (weather)"
+        }
+      ]
+    },
+    {
+      "id": "n4_054_6",
+      "example_sentence": "声が出なくなるくらい歌った。",
+      "translation": "I sang so much that I lost my voice.",
+      "blank_target": "くらい",
+      "wrong_choices": [
+        "ずつ",
+        "おきに",
+        "すぎ"
+      ],
+      "wrong_choice_explanations": [
+        "ずつ means 'each/at a time' — it doesn't fit here because it distributes a quantity and cannot follow a verb clause to show degree.",
+        "おきに means 'every other / at intervals' — it doesn't fit here because it follows quantities of time or distance, not a verb clause, and expresses frequency rather than degree.",
+        "すぎ means 'too much' or 'past (a time)' — it attaches to verb stems or times, not a full verb clause, so it cannot express the extent of something."
+      ],
+      "hiragana_full": "こえがでなくなるくらいうたった。",
+      "audio_alternatives": [
+        {
+          "kanji": "声が出なくなるほど歌った。",
+          "hiragana_full": "こえがでなくなるほどうたった。"
+        },
+        {
+          "kanji": "声が出なくなるまで歌った。",
+          "hiragana_full": "こえがでなくなるまでうたった。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "声",
+          "reading": "こえ",
+          "meaning": "voice"
+        },
+        {
+          "word": "歌った",
+          "reading": "うたった",
+          "meaning": "sang"
+        }
+      ]
+    },
+    {
+      "id": "n4_054_7",
+      "example_sentence": "このカレーは口が痛くなるくらい辛いです。",
+      "translation": "This curry is so spicy that my mouth hurts.",
+      "blank_target": "くらい",
+      "wrong_choices": [
+        "ごろ",
+        "だらけ",
+        "ながら"
+      ],
+      "wrong_choice_explanations": [
+        "ごろ marks an approximate point in time (三時ごろ) — it doesn't fit here because it cannot follow a verb clause to show how extreme something is.",
+        "だらけ means 'covered in / full of' and attaches to nouns (泥だらけ) — it doesn't fit here because it cannot follow a verb clause to express degree.",
+        "ながら means 'while doing' — it attaches to the verb stem, not the dictionary or ない form, and it shows simultaneous actions rather than degree."
+      ],
+      "hiragana_full": "このかれーはくちがいたくなるくらいからいです。",
+      "audio_alternatives": [
+        {
+          "kanji": "このカレーは口が痛くなるほど辛いです。",
+          "hiragana_full": "このかれーはくちがいたくなるほどからいです。"
+        },
+        {
+          "kanji": "このカレーは口が痛くなるぐらい辛いです。",
+          "hiragana_full": "このかれーはくちがいたくなるぐらいからいです。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "カレー",
+          "reading": "かれー",
+          "meaning": "curry"
+        },
+        {
+          "word": "口",
+          "reading": "くち",
+          "meaning": "mouth"
+        },
+        {
+          "word": "辛い",
+          "reading": "からい",
+          "meaning": "spicy"
+        }
+      ]
+    },
+    {
+      "id": "n4_054_8",
+      "example_sentence": "動けなくなるくらいたくさん食べた。",
+      "translation": "I ate so much that I couldn't move.",
+      "blank_target": "くらい",
+      "wrong_choices": [
+        "たら",
+        "ごろ",
+        "ずつ"
+      ],
+      "wrong_choice_explanations": [
+        "たら means 'if/when' — it attaches to the た-form (なったら), not the dictionary form, and it sets up a condition rather than showing degree.",
+        "ごろ marks an approximate point in time (三時ごろ) — it doesn't fit here because it cannot follow a verb clause to show how extreme something is.",
+        "ずつ means 'each/at a time' — it doesn't fit here because it distributes a quantity and cannot follow a verb clause to show degree."
+      ],
+      "hiragana_full": "うごけなくなるくらいたくさんたべた。",
+      "audio_alternatives": [
+        {
+          "kanji": "動けなくなるほどたくさん食べた。",
+          "hiragana_full": "うごけなくなるほどたくさんたべた。"
+        },
+        {
+          "kanji": "動けなくなるぐらいたくさん食べた。",
+          "hiragana_full": "うごけなくなるぐらいたくさんたべた。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "動けなく",
+          "reading": "うごけなく",
+          "meaning": "unable to move"
+        },
+        {
+          "word": "食べた",
+          "reading": "たべた",
+          "meaning": "ate"
+        }
+      ]
+    },
+    {
+      "id": "n4_054_9",
+      "example_sentence": "彼は日本人と同じくらい日本語が上手です。",
+      "translation": "He is as good at Japanese as a Japanese person.",
+      "blank_target": "くらい",
+      "wrong_choices": [
+        "より",
+        "ずつ",
+        "しか"
+      ],
+      "wrong_choice_explanations": [
+        "より means 'than' — it doesn't fit here because 同じ already sets up an equal comparison, and 同じより is ungrammatical.",
+        "ずつ means 'each/at a time' and attaches to quantities (一つずつ); it cannot follow 同じ to make an equal comparison, which くらい does here.",
+        "しか means 'only' and requires a negative verb — it doesn't fit here because the sentence makes an equal comparison, not a limit."
+      ],
+      "hiragana_full": "かれはにほんじんとおなじくらいにほんごがじょうずです。",
+      "audio_alternatives": [
+        {
+          "kanji": "彼は日本人と同じぐらい日本語が上手です。",
+          "hiragana_full": "かれはにほんじんとおなじぐらいにほんごがじょうずです。"
+        },
+        {
+          "kanji": "彼は日本人並みに日本語が上手です。",
+          "hiragana_full": "かれはにほんじんなみににほんごがじょうずです。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "日本人",
+          "reading": "にほんじん",
+          "meaning": "Japanese person"
+        },
+        {
+          "word": "同じ",
+          "reading": "おなじ",
+          "meaning": "same"
+        },
+        {
+          "word": "上手",
+          "reading": "じょうず",
+          "meaning": "skilled"
+        }
+      ]
     },
     {
       "id": "n4_054_10",
-      "example_sentence": "一週間ぐらい旅行に行きたい。",
-      "translation": "I want to go on a trip for about a week.",
-      "blank_target": "ぐらい",
+      "example_sentence": "となりの人の声が聞こえないくらいうるさかった。",
+      "translation": "It was so noisy that I couldn't hear the person next to me.",
+      "blank_target": "くらい",
       "wrong_choices": [
-        "なら",
-        "でも",
-        "とか"
+        "ごろ",
+        "たび",
+        "おきに"
       ],
       "wrong_choice_explanations": [
-        "なら means 'if/in the case of' — it doesn't fit here because it expresses conditions rather than approximation of duration.",
-        "でも means 'even/but/or something' — it doesn't fit here because it expresses contrast or inclusion rather than approximate duration.",
-        "とか means 'such as/or something' — it doesn't fit here because it lists examples or alternatives rather than expressing approximation."
+        "ごろ marks an approximate point in time (三時ごろ) — it doesn't fit here because it cannot follow a verb clause to show how extreme something is.",
+        "たび means 'every time' — it doesn't fit here because it expresses repetition, not the extent of something.",
+        "おきに means 'every other / at intervals' — it doesn't fit here because it follows quantities of time or distance, not a verb clause, and expresses frequency rather than degree."
       ],
-      "hiragana_full": "いっしゅうかんぐらいりょこうにいきたい。",
+      "hiragana_full": "となりのひとのこえがきこえないくらいうるさかった。",
       "audio_alternatives": [
         {
-          "kanji": "一週間ほど旅行に行きたい。",
-          "hiragana_full": "いっしゅうかんほどりょこうにいきたい。"
+          "kanji": "となりの人の声が聞こえないほどうるさかった。",
+          "hiragana_full": "となりのひとのこえがきこえないほどうるさかった。"
         },
         {
-          "kanji": "一週間ぐらい旅行がしたい。",
-          "hiragana_full": "いっしゅうかんぐらいりょこうがしたい。"
+          "kanji": "となりの人の声が聞こえないぐらいうるさかった。",
+          "hiragana_full": "となりのひとのこえがきこえないぐらいうるさかった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "となり",
+          "reading": "となり",
+          "meaning": "next to"
+        },
+        {
+          "word": "聞こえない",
+          "reading": "きこえない",
+          "meaning": "can't hear"
+        },
+        {
+          "word": "うるさかった",
+          "reading": "うるさかった",
+          "meaning": "was noisy"
+        }
+      ]
     }
   ]
 }

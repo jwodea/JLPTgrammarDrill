@@ -6,42 +6,6 @@
   "exercises": [
     {
       "id": "n5_001_1",
-      "example_sentence": "これは本です。",
-      "translation": "This is a book.",
-      "blank_target": "です",
-      "wrong_choices": [
-        "かった",
-        "でした",
-        "ある"
-      ],
-      "wrong_choice_explanations": [
-        "かった is the past-tense ending of い-adjectives (高い→高かった); it cannot attach to the noun 本, so 本かった is ungrammatical — a noun predicate takes the copula です.",
-        "でした is the past polite copula, but the sentence is present tense.",
-        "ある means 'to exist' for inanimate objects but cannot link a noun predicate."
-      ],
-      "hiragana_full": "これはほんです。",
-      "audio_alternatives": [
-        {
-          "kanji": "これは本だ。",
-          "hiragana_full": "これはほんだ。"
-        },
-        {
-          "kanji": "この本です。",
-          "hiragana_full": "このほんです。"
-        }
-      ],
-      "audio_eligible": true,
-      "register": "neutral",
-      "vocab": [
-        {
-          "word": "本",
-          "reading": "ほん",
-          "meaning": "book"
-        }
-      ]
-    },
-    {
-      "id": "n5_001_2",
       "example_sentence": "私は学生です。",
       "translation": "I am a student.",
       "blank_target": "です",
@@ -82,43 +46,7 @@
       ]
     },
     {
-      "id": "n5_001_3",
-      "example_sentence": "田中さんは先生です。",
-      "translation": "Tanaka-san is a teacher.",
-      "blank_target": "です",
-      "wrong_choices": [
-        "だった",
-        "じゃない",
-        "ある"
-      ],
-      "wrong_choice_explanations": [
-        "だった is the past plain copula, but the sentence is present tense.",
-        "じゃない is the negative plain copula ('is not'), which contradicts the sentence meaning.",
-        "ある expresses existence, not equation between two nouns."
-      ],
-      "hiragana_full": "たなかさんはせんせいです",
-      "audio_alternatives": [
-        {
-          "kanji": "田中さんは教師です。",
-          "hiragana_full": "たなかさんはきょうしです"
-        },
-        {
-          "kanji": "田中さんは先生だ。",
-          "hiragana_full": "たなかさんはせんせいだ"
-        }
-      ],
-      "audio_eligible": true,
-      "register": "neutral",
-      "vocab": [
-        {
-          "word": "先生",
-          "reading": "せんせい",
-          "meaning": "teacher"
-        }
-      ]
-    },
-    {
-      "id": "n5_001_4",
+      "id": "n5_001_2",
       "example_sentence": "今日は月曜日です。",
       "translation": "Today is Monday.",
       "blank_target": "です",
@@ -159,7 +87,7 @@
       ]
     },
     {
-      "id": "n5_001_5",
+      "id": "n5_001_3",
       "example_sentence": "あの建物は図書館です。",
       "translation": "That building is a library.",
       "blank_target": "です",
@@ -200,48 +128,7 @@
       ]
     },
     {
-      "id": "n5_001_6",
-      "example_sentence": "彼女はアメリカ人です。",
-      "translation": "She is American.",
-      "blank_target": "です",
-      "wrong_choices": [
-        "くない",
-        "ます",
-        "じゃない"
-      ],
-      "wrong_choice_explanations": [
-        "くない is an い-adjective negative ending; アメリカ人くない is ungrammatical because アメリカ人 is a noun — its polite negative is じゃないです and its affirmative is です.",
-        "ます is a verb ending, not a noun copula.",
-        "じゃない is the negative plain copula ('is not'), which reverses the sentence meaning."
-      ],
-      "hiragana_full": "かのじょはアメリカじんです。",
-      "audio_alternatives": [
-        {
-          "kanji": "彼女はアメリカ人だ。",
-          "hiragana_full": "かのじょはアメリカじんだ。"
-        },
-        {
-          "kanji": "あの人はアメリカ人です。",
-          "hiragana_full": "あのひとはアメリカじんです。"
-        }
-      ],
-      "audio_eligible": true,
-      "register": "neutral",
-      "vocab": [
-        {
-          "word": "彼女",
-          "reading": "かのじょ",
-          "meaning": "she"
-        },
-        {
-          "word": "アメリカ人",
-          "reading": "あめりかじん",
-          "meaning": "American (person)"
-        }
-      ]
-    },
-    {
-      "id": "n5_001_7",
+      "id": "n5_001_4",
       "example_sentence": "この料理はおいしいです。",
       "translation": "This food is delicious.",
       "blank_target": "です",
@@ -282,7 +169,7 @@
       ]
     },
     {
-      "id": "n5_001_8",
+      "id": "n5_001_5",
       "example_sentence": "ここは駅です。",
       "translation": "This place is a station.",
       "blank_target": "です",
@@ -318,7 +205,7 @@
       ]
     },
     {
-      "id": "n5_001_9",
+      "id": "n5_001_6",
       "example_sentence": "あれは富士山です。",
       "translation": "That over there is Mt. Fuji.",
       "blank_target": "です",
@@ -354,7 +241,7 @@
       ]
     },
     {
-      "id": "n5_001_10",
+      "id": "n5_001_7",
       "example_sentence": "明日は休みです。",
       "translation": "Tomorrow is a holiday.",
       "blank_target": "です",
@@ -391,6 +278,124 @@
           "word": "休み",
           "reading": "やすみ",
           "meaning": "day off"
+        }
+      ]
+    },
+    {
+      "id": "n5_001_8",
+      "example_sentence": "田中さんは先生です。",
+      "translation": "Tanaka-san is a teacher.",
+      "blank_target": "です",
+      "wrong_choices": [
+        "の",
+        "と",
+        "に"
+      ],
+      "wrong_choice_explanations": [
+        "の is a possessive or explanatory particle — it cannot function as a copula.",
+        "と means 'and' or 'with' — it doesn't work as a copula to link subject and predicate.",
+        "に is a directional or time particle — it has no copula function."
+      ],
+      "hiragana_full": "たなかさんはせんせいです。",
+      "audio_alternatives": [
+        {
+          "kanji": "田中さんは教師です。",
+          "hiragana_full": "たなかさんはきょうしです。"
+        },
+        {
+          "kanji": "田中さんは先生でございます。",
+          "hiragana_full": "たなかさんはせんせいでございます。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "先生",
+          "reading": "せんせい",
+          "meaning": "teacher"
+        }
+      ]
+    },
+    {
+      "id": "n5_001_9",
+      "example_sentence": "今年は暖かいです。",
+      "translation": "This year is warm.",
+      "blank_target": "です",
+      "wrong_choices": [
+        "だ",
+        "だった",
+        "である"
+      ],
+      "wrong_choice_explanations": [
+        "だ does not attach to い-adjectives in standard Japanese — 暖かいだ is ungrammatical; the polite form of an い-adjective simply adds です (暖かいです).",
+        "だった follows nouns and な-adjectives, not い-adjectives — the past of 暖かい is 暖かかった, so 暖かいだった is ungrammatical (polite: 暖かかったです).",
+        "である is the formal written copula for nouns and な-adjectives; it cannot attach to the い-adjective 暖かい, so 暖かいである is ungrammatical."
+      ],
+      "hiragana_full": "ことしはあたたかいです。",
+      "audio_alternatives": [
+        {
+          "kanji": "今年は暖かいですね。",
+          "hiragana_full": "ことしはあたたかいですね。"
+        },
+        {
+          "kanji": "今年は暖かい。",
+          "hiragana_full": "ことしはあたたかい。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "今年",
+          "reading": "ことし",
+          "meaning": "this year"
+        },
+        {
+          "word": "暖かい",
+          "reading": "あたたかい",
+          "meaning": "warm"
+        }
+      ]
+    },
+    {
+      "id": "n5_001_10",
+      "example_sentence": "彼の趣味は読書です。",
+      "translation": "His hobby is reading.",
+      "blank_target": "です",
+      "wrong_choices": [
+        "でも",
+        "しか",
+        "ばかり"
+      ],
+      "wrong_choice_explanations": [
+        "でも means 'but/even' — it doesn't function as a copula to complete the sentence.",
+        "しか means 'only' and requires negative form — it can't complete this positive copula sentence.",
+        "ばかり means 'only/just' — it's a particle that can't function as a sentence-ending copula."
+      ],
+      "hiragana_full": "かれのしゅみはどくしょです。",
+      "audio_alternatives": [
+        {
+          "kanji": "彼の趣味は本を読むことです。",
+          "hiragana_full": "かれのしゅみはほんをよむことです。"
+        },
+        {
+          "kanji": "彼は読書が趣味です。",
+          "hiragana_full": "かれはどくしょがしゅみです。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "趣味",
+          "reading": "しゅみ",
+          "meaning": "hobby"
+        },
+        {
+          "word": "読書",
+          "reading": "どくしょ",
+          "meaning": "reading (books)"
         }
       ]
     }

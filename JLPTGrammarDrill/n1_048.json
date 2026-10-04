@@ -10,13 +10,13 @@
       "translation": "Although he had excellent talent, he wasted it by neglecting to make an effort.",
       "blank_target": "ものを",
       "wrong_choices": [
-        "のに",
-        "けれども",
+        "がゆえに",
+        "ばかりか",
         "だが"
       ],
       "wrong_choice_explanations": [
-        "のに expresses simple contrast without the deep regret and frustration that ものを conveys in this context.",
-        "けれども is a neutral adversative conjunction that lacks the emotional weight of disappointment found in ものを.",
+        "がゆえに is a formal causal 'because/on account of,' making his talent the reason he neglected effort; ものを instead concedes the talent while lamenting that it was thrown away.",
+        "ばかりか means 'not only... but also,' adding a second fact rather than drawing a contrast; it loses the 'despite his talent' concession that ものを carries.",
         "だが is a casual conjunction meaning 'but' that doesn't express the regretful tone of missed opportunity that ものを provides."
       ],
       "hiragana_full": "かれはゆうしゅうなさいのうがあったものを、どりょくをおこたってむだにしてしまった。",
@@ -30,7 +30,25 @@
           "hiragana_full": "ゆうしゅうなさいのうがあったにもかかわらず、かれはどりょくをおこたり、それをむだにしてしまった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "才能",
+          "reading": "さいのう",
+          "meaning": "talent"
+        },
+        {
+          "word": "怠って",
+          "reading": "おこたって",
+          "meaning": "neglecting"
+        },
+        {
+          "word": "優秀",
+          "reading": "ゆうしゅう",
+          "meaning": "excellent"
+        }
+      ]
     },
     {
       "id": "n1_048_2",
@@ -38,12 +56,12 @@
       "translation": "Although it would have been cured if treated early, it became too late because it was left untreated.",
       "blank_target": "ものを",
       "wrong_choices": [
-        "はずなのに",
+        "あげく",
         "ところが",
         "しかし"
       ],
       "wrong_choice_explanations": [
-        "はずなのに expresses expectation versus reality but lacks the deep regret over a missed opportunity that ものを conveys.",
+        "あげく means 'after a long, troublesome process, in the end…' and follows an action that really happened (さんざん迷ったあげく); it can't close the hypothetical 早めに治療すれば治った. ものを voices regret over the cure that could have been.",
         "ところが indicates an unexpected turn but doesn't carry the frustrated disappointment that ものを expresses in this situation.",
         "しかし is a neutral conjunction meaning 'however' that lacks the emotional regret about what could have been that ものを provides."
       ],
@@ -58,7 +76,25 @@
           "hiragana_full": "はやめにてあてすればなおったものを、そのままにしたためておくれになった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "放置",
+          "reading": "ほうち",
+          "meaning": "leaving unattended/neglect"
+        },
+        {
+          "word": "手遅れ",
+          "reading": "ておくれ",
+          "meaning": "too late"
+        },
+        {
+          "word": "治療",
+          "reading": "ちりょう",
+          "meaning": "treatment"
+        }
+      ]
     },
     {
       "id": "n1_048_3",
@@ -86,7 +122,20 @@
           "hiragana_full": "ぜっこうのきかいだったが、じゅんびぶそくでのがしてしまった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "逃して",
+          "reading": "のがして",
+          "meaning": "missing/letting slip"
+        },
+        {
+          "word": "準備不足",
+          "reading": "じゅんびぶそく",
+          "meaning": "lack of preparation"
+        }
+      ]
     },
     {
       "id": "n1_048_4",
@@ -94,13 +143,13 @@
       "translation": "Although I could have made up with her, I worsened our relationship by being stubborn.",
       "blank_target": "ものを",
       "wrong_choices": [
-        "というのに",
-        "にもかかわらず",
+        "ばかりに",
+        "そばから",
         "それなのに"
       ],
       "wrong_choice_explanations": [
-        "というのに expresses contrast but lacks the deep personal regret over one's own poor choices that ものを conveys.",
-        "にもかかわらず means 'despite' in a neutral way without the frustrated self-reproach that ものを expresses here.",
+        "ばかりに blames the very chance to reconcile for the bad outcome ('simply because I could make up...'), a causal link; ものを concedes that reconciliation was possible while regretting it was thrown away.",
+        "そばから means 'no sooner... than / right after,' asserting the reconciliation happened and was immediately undone; ものを instead laments a reconciliation that was possible but never realized.",
         "それなのに indicates contrast but doesn't carry the emotional weight of regret over missed chances that ものを provides."
       ],
       "hiragana_full": "かのじょとなかなおりできたものを、いじをはってかんけいをあっかさせた。",
@@ -114,7 +163,25 @@
           "hiragana_full": "かのじょとわかいできたものを、がんこにふるまってかんけいをこわしてしまった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "意地を張って",
+          "reading": "いじをはって",
+          "meaning": "being stubborn/obstinate"
+        },
+        {
+          "word": "仲直り",
+          "reading": "なかなおり",
+          "meaning": "reconciliation"
+        },
+        {
+          "word": "悪化",
+          "reading": "あっか",
+          "meaning": "worsening"
+        }
+      ]
     },
     {
       "id": "n1_048_5",
@@ -122,13 +189,13 @@
       "translation": "Although I would have succeeded if I had endured a little longer, I gave up midway.",
       "blank_target": "ものを",
       "wrong_choices": [
-        "だろうに",
-        "かもしれないのに",
+        "ばかりに",
+        "とたん",
         "べきなのに"
       ],
       "wrong_choice_explanations": [
-        "だろうに expresses probability with contrast but lacks the deep regret over one's own decision that ものを conveys.",
-        "かもしれないのに suggests possibility with contrast but doesn't capture the frustrated certainty about what could have been that ものを expresses.",
+        "ばかりに means 'simply because (something bad followed)' and needs a real cause (油断したばかりに負けた); it can't follow the hypothetical 我慢すれば成功した. ものを expresses regret that success was within reach.",
+        "とたん means 'the moment X happened, Y' and links two real events; 成功したとたん、途中で諦めた contradicts itself. ものを laments the success that would have come with a little more patience.",
         "べきなのに indicates obligation with contrast but lacks the emotional regret over missed opportunity that ものを provides."
       ],
       "hiragana_full": "もうすこしがまんすればせいこうしたものを、とちゅうであきらめてしまった。",
@@ -142,7 +209,8 @@
           "hiragana_full": "あとすこしがまんしていればせいこうしたのに、とちゅうであきらめてしまった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n1_048_6",
@@ -170,7 +238,25 @@
           "hiragana_full": "わへいきょうていがせいりつするかのうせいがあったが、きょうこうはのかいにゅうによりはきょくにいたった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "和平協定",
+          "reading": "わへいきょうてい",
+          "meaning": "peace accord"
+        },
+        {
+          "word": "強硬派",
+          "reading": "きょうこうは",
+          "meaning": "hardliners"
+        },
+        {
+          "word": "介入",
+          "reading": "かいにゅう",
+          "meaning": "intervention"
+        }
+      ]
     },
     {
       "id": "n1_048_7",
@@ -198,7 +284,20 @@
           "hiragana_full": "せいじてきなたいだのせいで、かのうであったはずのかんきょうかいぜんがうしなわれた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "怠惰",
+          "reading": "たいだ",
+          "meaning": "laziness/indolence"
+        },
+        {
+          "word": "改善",
+          "reading": "かいぜん",
+          "meaning": "improvement"
+        }
+      ]
     },
     {
       "id": "n1_048_8",
@@ -206,13 +305,13 @@
       "translation": "Although this literary school had potential, it was negated by later generations.",
       "blank_target": "ものを",
       "wrong_choices": [
-        "のだが",
-        "ものの",
+        "のみならず",
+        "がゆえに",
         "とはいえ"
       ],
       "wrong_choice_explanations": [
-        "のだが provides explanation with contrast but lacks the deep regret over unrealized potential that ものを conveys in this context.",
-        "ものの expresses concession but is more neutral and doesn't carry the frustrated disappointment that ものを provides here.",
+        "のみならず means 'not only... but also,' adding a further fact rather than conceding a contrast; it loses the 'although it had potential' regret that ものを carries.",
+        "がゆえに is a formal causal 'because,' framing the potential as the cause of the rejection; ものを instead concedes the potential and laments that it was denied.",
         "とはいえ means 'that said' or 'nevertheless' but lacks the emotional weight of regret over what should have been that ものを expresses."
       ],
       "hiragana_full": "このぶんがくりゅうはがかのうせいをもったものを、こうぞくするせだいによりひていされてしまった。",
@@ -226,7 +325,25 @@
           "hiragana_full": "このぶんがくりゅうはがもっていたかのうせいは、のちのせだいによってひていされた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "文学流派",
+          "reading": "ぶんがくりゅうは",
+          "meaning": "literary school/movement"
+        },
+        {
+          "word": "後続",
+          "reading": "こうぞく",
+          "meaning": "succeeding/subsequent"
+        },
+        {
+          "word": "否定",
+          "reading": "ひてい",
+          "meaning": "denial/negation"
+        }
+      ]
     },
     {
       "id": "n1_048_9",
@@ -254,7 +371,25 @@
           "hiragana_full": "せいちょうのみこみがあったそのきぎょうは、ふせいこういによってじめつした。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "不正",
+          "reading": "ふせい",
+          "meaning": "fraud/misconduct"
+        },
+        {
+          "word": "自ら",
+          "reading": "みずから",
+          "meaning": "oneself/personally"
+        },
+        {
+          "word": "損なった",
+          "reading": "そこなった",
+          "meaning": "damaged/spoiled"
+        }
+      ]
     },
     {
       "id": "n1_048_10",
@@ -282,7 +417,25 @@
           "hiragana_full": "ゆうぼうであったそのいりょうぎじゅつは、りんりてきもんだいのためにかいはつがちゅうだんされた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "有望",
+          "reading": "ゆうぼう",
+          "meaning": "promising"
+        },
+        {
+          "word": "倫理的",
+          "reading": "りんりてき",
+          "meaning": "ethical"
+        },
+        {
+          "word": "医療技術",
+          "reading": "いりょうぎじゅつ",
+          "meaning": "medical technology"
+        }
+      ]
     }
   ]
 }

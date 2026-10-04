@@ -30,7 +30,15 @@
           "hiragana_full": "おのみものはおちゃかこーひーかおえらびください。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "お茶",
+          "reading": "おちゃ",
+          "meaning": "tea"
+        }
+      ]
     },
     {
       "id": "n5_083_2",
@@ -59,7 +67,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "いかないか"
+      "blank_target_reading": "いかないか",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "決めていません",
+          "reading": "きめていません",
+          "meaning": "haven't decided"
+        }
+      ]
     },
     {
       "id": "n5_083_3",
@@ -87,7 +103,15 @@
           "hiragana_full": "かいじょうまではでんしゃかばすのどちらかをつかいます。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "会場",
+          "reading": "かいじょう",
+          "meaning": "venue"
+        }
+      ]
     },
     {
       "id": "n5_083_4",
@@ -116,7 +140,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "さかなか"
+      "blank_target_reading": "さかなか",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "肉",
+          "reading": "にく",
+          "meaning": "meat"
+        }
+      ]
     },
     {
       "id": "n5_083_5",
@@ -145,7 +177,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "あおか"
+      "blank_target_reading": "あおか",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "赤",
+          "reading": "あか",
+          "meaning": "red"
+        },
+        {
+          "word": "色",
+          "reading": "いろ",
+          "meaning": "color"
+        }
+      ]
     },
     {
       "id": "n5_083_6",
@@ -155,12 +200,12 @@
       "wrong_choices": [
         "再来週と",
         "再来週や",
-        "再来週に"
+        "再来週が"
       ],
       "wrong_choice_explanations": [
         "再来週と would tie the two weeks together ('next week and the week after'), but the speaker is undecided between them — that's the second か's job.",
         "再来週や frames the times as examples among more ('next week, the week after, etc.'), losing the precise two-week framing.",
-        "再来週に marks the week as a fixed point in time, producing 来週か再来週に which collapses the choice; か after the second option keeps it open."
+        "再来週が marks the week as a grammatical subject, but the weeks are when the trip happens, not what does the action — and it breaks the 〜か〜か frame, which needs か after the second alternative too."
       ],
       "hiragana_full": "らいしゅうかさらいしゅうか、きょうとにいくよていです。",
       "audio_alternatives": [
@@ -174,7 +219,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "さらいしゅうか"
+      "blank_target_reading": "さらいしゅうか",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "予定",
+          "reading": "よてい",
+          "meaning": "plan"
+        }
+      ]
     },
     {
       "id": "n5_083_7",
@@ -203,7 +256,8 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "こないか"
+      "blank_target_reading": "こないか",
+      "register": "neutral"
     },
     {
       "id": "n5_083_8",
@@ -232,7 +286,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "えんぴつか"
+      "blank_target_reading": "えんぴつか",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "書きやすい",
+          "reading": "かきやすい",
+          "meaning": "easy to write with"
+        },
+        {
+          "word": "方",
+          "reading": "ほう",
+          "meaning": "the one; alternative"
+        }
+      ]
     },
     {
       "id": "n5_083_9",
@@ -261,7 +328,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "でんわか"
+      "blank_target_reading": "でんわか",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "連絡して",
+          "reading": "れんらくして",
+          "meaning": "contact"
+        }
+      ]
     },
     {
       "id": "n5_083_10",
@@ -289,7 +364,20 @@
           "hiragana_full": "おひるごはん、うどんにするかそばにするかなやむなあ。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "昼ご飯",
+          "reading": "ひるごはん",
+          "meaning": "lunch"
+        },
+        {
+          "word": "決めかねています",
+          "reading": "きめかねています",
+          "meaning": "can't decide"
+        }
+      ]
     }
   ]
 }

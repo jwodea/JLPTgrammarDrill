@@ -31,7 +31,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "てまえ"
+      "blank_target_reading": "てまえ",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "立場",
+          "reading": "たちば",
+          "meaning": "position/standpoint"
+        }
+      ]
     },
     {
       "id": "n1_050_2",
@@ -39,14 +47,14 @@
       "translation": "Having promised as a department manager, I cannot cancel it now.",
       "blank_target": "手前",
       "wrong_choices": [
-        "以上",
-        "からには",
-        "限り"
+        "にしても",
+        "ばかりに",
+        "そばから"
       ],
       "wrong_choice_explanations": [
-        "以上 means 'since/now that' but lacks the specific nuance of being bound by one's social position that 手前 expresses.",
-        "からには expresses strong determination or obligation but doesn't specifically relate to maintaining one's social standing or appearance.",
-        "限り means 'as long as' and expresses conditional continuation, not the social obligation inherent in 手前."
+        "にしても is a concessive 'even if / even supposing,' granting the promise only hypothetically; 手前 instead gives the promise as a binding social reason one cannot back out of without losing face.",
+        "ばかりに means 'simply because (with an unwelcome result),' blaming the promise for the predicament; 手前 frames the promise as a matter of standing one is socially bound to honor.",
+        "そばから means 'right after / no sooner than,' an immediate temporal sequence; it does not express the social obligation ('having promised, I can't lose face') that 手前 conveys."
       ],
       "hiragana_full": "ぶちょうとしてやくそくしたてまえ、いまさらとりけすことはできない。",
       "audio_alternatives": [
@@ -60,7 +68,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "てまえ"
+      "blank_target_reading": "てまえ",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "今更",
+          "reading": "いまさら",
+          "meaning": "now (after all this time)/at this point"
+        },
+        {
+          "word": "取り消す",
+          "reading": "とりけす",
+          "meaning": "to cancel/retract"
+        }
+      ]
     },
     {
       "id": "n1_050_3",
@@ -89,7 +110,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "てまえ"
+      "blank_target_reading": "てまえ",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "適当",
+          "reading": "てきとう",
+          "meaning": "casual/careless (here)"
+        },
+        {
+          "word": "立場",
+          "reading": "たちば",
+          "meaning": "standpoint"
+        }
+      ]
     },
     {
       "id": "n1_050_4",
@@ -118,7 +152,25 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "てまえ"
+      "blank_target_reading": "てまえ",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "代表",
+          "reading": "だいひょう",
+          "meaning": "representative"
+        },
+        {
+          "word": "抑え",
+          "reading": "おさえ",
+          "meaning": "to suppress/restrain"
+        },
+        {
+          "word": "感情",
+          "reading": "かんじょう",
+          "meaning": "emotions"
+        }
+      ]
     },
     {
       "id": "n1_050_5",
@@ -147,7 +199,25 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "てまえ"
+      "blank_target_reading": "てまえ",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "患者",
+          "reading": "かんじゃ",
+          "meaning": "patient"
+        },
+        {
+          "word": "真実",
+          "reading": "しんじつ",
+          "meaning": "truth"
+        },
+        {
+          "word": "告げる",
+          "reading": "つげる",
+          "meaning": "to tell/announce"
+        }
+      ]
     },
     {
       "id": "n1_050_6",
@@ -176,7 +246,25 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "てまえ"
+      "blank_target_reading": "てまえ",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "国連事務総長",
+          "reading": "こくれんじむそうちょう",
+          "meaning": "UN Secretary-General"
+        },
+        {
+          "word": "中立的",
+          "reading": "ちゅうりつてき",
+          "meaning": "neutral"
+        },
+        {
+          "word": "発言",
+          "reading": "はつげん",
+          "meaning": "remark/statement"
+        }
+      ]
     },
     {
       "id": "n1_050_7",
@@ -205,7 +293,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "てまえ"
+      "blank_target_reading": "てまえ",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "述べる",
+          "reading": "のべる",
+          "meaning": "to state/express"
+        },
+        {
+          "word": "義務",
+          "reading": "ぎむ",
+          "meaning": "obligation/duty"
+        }
+      ]
     },
     {
       "id": "n1_050_8",
@@ -234,7 +335,25 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "てまえ"
+      "blank_target_reading": "てまえ",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "評論家",
+          "reading": "ひょうろんか",
+          "meaning": "critic/commentator"
+        },
+        {
+          "word": "率直",
+          "reading": "そっちょく",
+          "meaning": "frank/candid"
+        },
+        {
+          "word": "批判",
+          "reading": "ひはん",
+          "meaning": "criticism"
+        }
+      ]
     },
     {
       "id": "n1_050_9",
@@ -263,7 +382,25 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "てまえ"
+      "blank_target_reading": "てまえ",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "投資家",
+          "reading": "とうしか",
+          "meaning": "investor"
+        },
+        {
+          "word": "最優先",
+          "reading": "さいゆうせん",
+          "meaning": "top priority"
+        },
+        {
+          "word": "支持",
+          "reading": "しじ",
+          "meaning": "support/backing"
+        }
+      ]
     },
     {
       "id": "n1_050_10",
@@ -271,12 +408,12 @@
       "translation": "Having promised my child as a parent, I must keep it no matter what happens.",
       "blank_target": "手前",
       "wrong_choices": [
-        "以上は",
+        "ばかりに",
         "からして",
         "ところで"
       ],
       "wrong_choice_explanations": [
-        "以上は means 'more than/beyond' and shows comparison, not the social obligation that comes with one's role as a parent.",
+        "ばかりに means 'simply because (with an unwelcome result),' blaming the promise for the burden; 手前 instead frames the promise as a matter of parental face one is bound to honor.",
         "からして means 'judging from/starting from' and indicates basis for judgment, not the constraint of maintaining one's parental authority.",
         "ところで means 'by the way/incidentally' and changes topics, completely unrelated to the obligation that 手前 expresses."
       ],
@@ -292,7 +429,8 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "てまえ"
+      "blank_target_reading": "てまえ",
+      "register": "neutral"
     }
   ]
 }

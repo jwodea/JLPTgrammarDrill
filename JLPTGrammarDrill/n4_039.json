@@ -6,283 +6,432 @@
   "exercises": [
     {
       "id": "n4_039_1",
-      "example_sentence": "明日の会議の資料を準備しておきました。",
-      "translation": "I prepared the materials for tomorrow's meeting in advance.",
-      "blank_target": "て",
+      "example_sentence": "暑いので、窓を開けておきました。",
+      "translation": "Since it was hot, I opened the window (and left it open).",
+      "blank_target": "開けておきました",
       "wrong_choices": [
-        "ながら",
-        "ために",
-        "ので"
+        "開けおきました",
+        "開けるおきました",
+        "開けておくました"
       ],
       "wrong_choice_explanations": [
-        "ながら means 'while doing' — it doesn't fit here because it indicates simultaneous actions, not preparation in advance.",
-        "ために means 'for the purpose of' — it doesn't fit here because it indicates purpose, not the advance preparation pattern.",
-        "ので means 'because' — it doesn't fit here because it indicates reason, not doing something in advance."
+        "おく attaches to the te-form, not the masu-stem: 開けて＋おく, so 開けおきました is not a word.",
+        "The dictionary form cannot connect directly to おく; the te-form 開けて is required.",
+        "The polite past of おく is おきました; ました cannot attach to the dictionary form おく."
       ],
-      "hiragana_full": "あしたのかいぎのしりょうをじゅんびしておきました",
+      "hiragana_full": "あついので、まどをあけておきました。",
       "audio_alternatives": [
         {
-          "kanji": "明日の会議の資料を事前に準備しました。",
-          "hiragana_full": "あしたのかいぎのしりょうをじぜんにじゅんびしました"
+          "kanji": "暑かったので、窓を開けておいた。",
+          "hiragana_full": "あつかったので、まどをあけておいた。"
         },
         {
-          "kanji": "明日の会議のための資料を準備しておきました。",
-          "hiragana_full": "あしたのかいぎのためのしりょうをじゅんびしておきました"
+          "kanji": "暑いから、窓を開けておきました。",
+          "hiragana_full": "あついから、まどをあけておきました。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "窓",
+          "reading": "まど",
+          "meaning": "window"
+        }
+      ],
+      "blank_target_reading": "あけておきました"
     },
     {
       "id": "n4_039_2",
-      "example_sentence": "窓を開けておいてください。",
-      "translation": "Please open the window (and leave it open).",
-      "blank_target": "て",
+      "example_sentence": "明日の会議のために、今日のうちに資料を準備しておきましょう。",
+      "translation": "Let's get the materials ready today for tomorrow's meeting.",
+      "blank_target": "準備しておきましょう",
       "wrong_choices": [
-        "から",
-        "けれど",
-        "でも"
+        "準備しおきましょう",
+        "準備しておくましょう",
+        "準備してありましょう"
       ],
       "wrong_choice_explanations": [
-        "から means 'because/from' — it doesn't fit here because it indicates reason or starting point, not leaving something in a state.",
-        "けれど means 'but/however' — it doesn't fit here because it indicates contrast, not the advance action pattern.",
-        "でも means 'but/however' — it doesn't fit here because it's a conjunction, not part of the preparatory action pattern."
+        "おく must follow the te-form して, not the stem し.",
+        "ましょう attaches to the masu-stem おき, so the volitional is おきましょう, not おくましょう.",
+        "てある describes a state already in place and has no 'let's ~' form; only ておく expresses doing something in advance."
       ],
-      "hiragana_full": "まどをあけておいてください",
+      "hiragana_full": "あしたのかいぎのために、きょうのうちにしりょうをじゅんびしておきましょう。",
       "audio_alternatives": [
         {
-          "kanji": "窓を開けたままにしてください。",
-          "hiragana_full": "まどをあけたままにしてください"
+          "kanji": "明日の会議のために、今日中に資料を準備しておこう。",
+          "hiragana_full": "あしたのかいぎのために、きょうじゅうにしりょうをじゅんびしておこう。"
         },
         {
-          "kanji": "窓を開けておいてくれますか。",
-          "hiragana_full": "まどをあけておいてくれますか"
+          "kanji": "明日の会議に備えて、今日のうちに資料を用意しておきましょう。",
+          "hiragana_full": "あしたのかいぎにそなえて、きょうのうちにしりょうをよういしておきましょう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "会議",
+          "reading": "かいぎ",
+          "meaning": "meeting"
+        },
+        {
+          "word": "資料",
+          "reading": "しりょう",
+          "meaning": "materials, documents"
+        },
+        {
+          "word": "準備",
+          "reading": "じゅんび",
+          "meaning": "preparation"
+        }
+      ],
+      "blank_target_reading": "じゅんびしておきましょう"
     },
     {
       "id": "n4_039_3",
-      "example_sentence": "冷蔵庫にビールを入れておこう。",
-      "translation": "Let's put beer in the refrigerator (for later).",
-      "blank_target": "て",
+      "example_sentence": "冷たいビールを出したいから、今から冷蔵庫に入れておこう。",
+      "translation": "I want to serve cold beer, so I'll put it in the fridge now.",
+      "blank_target": "入れておこう",
       "wrong_choices": [
-        "ところ",
-        "ばかり",
-        "まま"
+        "入れておきよう",
+        "入れおこう",
+        "入れてあろう"
       ],
       "wrong_choice_explanations": [
-        "ところ means 'place' or 'just about to' — it doesn't fit here because it doesn't create the meaning of preparation.",
-        "ばかり means 'just/only' — it doesn't fit here because it indicates recent completion, not preparatory action.",
-        "まま means 'as it is/while remaining' — it doesn't fit here because it indicates unchanged state, not active preparation."
+        "おく is a godan verb, so its volitional is おこう, not おきよう.",
+        "おく attaches to the te-form 入れて, not to the stem 入れ.",
+        "てある has no volitional 'I'll / let's' form; あろう is a literary guess ('probably is'), not a decision to prepare."
       ],
-      "hiragana_full": "れいぞうこにびーるをいれておこう。",
+      "hiragana_full": "つめたいびーるをだしたいから、いまかられいぞうこにいれておこう。",
       "audio_alternatives": [
         {
-          "kanji": "冷蔵庫にビールを入れておきましょう。",
-          "hiragana_full": "れいぞうこにびーるをいれておきましょう。"
+          "kanji": "冷たいビールを出したいので、今から冷蔵庫に入れておきます。",
+          "hiragana_full": "つめたいびーるをだしたいので、いまかられいぞうこにいれておきます。"
         },
         {
-          "kanji": "ビールを冷蔵庫に入れておこう。",
-          "hiragana_full": "びーるをれいぞうこにいれておこう。"
+          "kanji": "ビールを冷やしたいから、今のうちに冷蔵庫に入れておこう。",
+          "hiragana_full": "びーるをひやしたいから、いまのうちにれいぞうこにいれておこう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "冷たい",
+          "reading": "つめたい",
+          "meaning": "cold"
+        },
+        {
+          "word": "冷蔵庫",
+          "reading": "れいぞうこ",
+          "meaning": "refrigerator"
+        }
+      ],
+      "blank_target_reading": "いれておこう"
     },
     {
       "id": "n4_039_4",
-      "example_sentence": "電気を消しておいた。",
-      "translation": "I turned off the lights (and left them off).",
-      "blank_target": "て",
+      "example_sentence": "出かける前に、部屋の電気を消しておいた。",
+      "translation": "Before going out, I turned off the light in my room.",
+      "blank_target": "消しておいた",
       "wrong_choices": [
-        "だけ",
-        "しか",
-        "ほど"
+        "消しおいた",
+        "消しておきた",
+        "消すおいた"
       ],
       "wrong_choice_explanations": [
-        "だけ means 'only' — it doesn't fit here because it indicates limitation, not leaving something in a prepared state.",
-        "しか means 'only' (with negative) — it doesn't fit here because it indicates exclusivity, not the advance action pattern.",
-        "ほど means 'to the extent of' — it doesn't fit here because it indicates degree, not preparatory actions."
+        "おく needs the te-form: 消して＋おいた, not the stem 消し.",
+        "The plain past of おく is おいた (い-onbin), not おきた.",
+        "The dictionary form 消す cannot connect to おく; the te-form 消して is required."
       ],
-      "hiragana_full": "でんきをけしておいた。",
+      "hiragana_full": "でかけるまえに、へやのでんきをけしておいた。",
       "audio_alternatives": [
         {
-          "kanji": "電気を消した。",
-          "hiragana_full": "でんきをけした。"
+          "kanji": "出かける前に、部屋の電気を消しておきました。",
+          "hiragana_full": "でかけるまえに、へやのでんきをけしておきました。"
         },
         {
-          "kanji": "ライトを消しておいた。",
-          "hiragana_full": "らいとをけしておいた。"
+          "kanji": "出かける前に、部屋の明かりを消しておいた。",
+          "hiragana_full": "でかけるまえに、へやのあかりをけしておいた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "出かける",
+          "reading": "でかける",
+          "meaning": "to go out"
+        },
+        {
+          "word": "電気",
+          "reading": "でんき",
+          "meaning": "light, electricity"
+        }
+      ],
+      "blank_target_reading": "けしておいた"
     },
     {
       "id": "n4_039_5",
-      "example_sentence": "友達に連絡しておきます。",
-      "translation": "I'll contact my friend in advance.",
-      "blank_target": "て",
+      "example_sentence": "約束の時間が変わったので、友達に連絡しておきます。",
+      "translation": "The meeting time changed, so I'll let my friend know.",
+      "blank_target": "連絡しておきます",
       "wrong_choices": [
-        "とき",
-        "あいだ",
-        "うち"
+        "連絡しておきません",
+        "連絡しおきます",
+        "連絡するおきます"
       ],
       "wrong_choice_explanations": [
-        "とき means 'when/time' — it doesn't fit here because it indicates timing, not doing something in advance.",
-        "あいだ means 'during/while' — it doesn't fit here because it indicates duration, not preparatory action.",
-        "うち means 'while/during' — it doesn't fit here because it indicates a time period, not the advance preparation pattern."
+        "連絡しておきません ('I won't let them know') makes no sense: the time changed, which is exactly why the friend must be told.",
+        "おく attaches to the te-form して, not the stem し.",
+        "The dictionary form する cannot connect directly to おく; use して＋おきます."
       ],
-      "hiragana_full": "ともだちにれんらくしておきます",
+      "hiragana_full": "やくそくのじかんがかわったので、ともだちにれんらくしておきます。",
       "audio_alternatives": [
         {
-          "kanji": "友達に先に連絡します。",
-          "hiragana_full": "ともだちにさきにれんらくします"
+          "kanji": "約束の時間が変わったから、友達に連絡しておく。",
+          "hiragana_full": "やくそくのじかんがかわったから、ともだちにれんらくしておく。"
         },
         {
-          "kanji": "友達へ連絡しておきます。",
-          "hiragana_full": "ともだちへれんらくしておきます"
+          "kanji": "約束の時間が変更になったので、友達に知らせておきます。",
+          "hiragana_full": "やくそくのじかんがへんこうになったので、ともだちにしらせておきます。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "約束",
+          "reading": "やくそく",
+          "meaning": "appointment, promise"
+        },
+        {
+          "word": "変わった",
+          "reading": "かわった",
+          "meaning": "changed (past of 変わる)"
+        },
+        {
+          "word": "連絡",
+          "reading": "れんらく",
+          "meaning": "contact, getting in touch"
+        }
+      ],
+      "blank_target_reading": "れんらくしておきます"
     },
     {
       "id": "n4_039_6",
-      "example_sentence": "薬を買っておいた方がいい。",
-      "translation": "It would be better to buy medicine in advance.",
-      "blank_target": "て",
+      "example_sentence": "風邪がはやっているから、薬を買っておいた方がいい。",
+      "translation": "Colds are going around, so you'd better buy some medicine ahead of time.",
+      "blank_target": "買っておいた",
       "wrong_choices": [
-        "たり",
-        "そうに",
-        "がち"
+        "買いおいた",
+        "買っておきた",
+        "買うおいた"
       ],
       "wrong_choice_explanations": [
-        "たり means 'sometimes/among other things' — it doesn't fit here because it lists actions or indicates repetition, not advance preparation.",
-        "そうに means 'looking like it will' — it doesn't fit here because it indicates appearance or likelihood, not preparatory actions.",
-        "がち means 'tend to/be prone to' — it doesn't fit here because it indicates tendency, not the advance action pattern."
+        "おく needs the te-form 買って, not the stem 買い.",
+        "The past of おく is おいた, not おきた.",
+        "The dictionary form 買う cannot connect directly to おく."
       ],
-      "hiragana_full": "くすりをかっておいたほうがいい",
+      "hiragana_full": "かぜがはやっているから、くすりをかっておいたほうがいい。",
       "audio_alternatives": [
         {
-          "kanji": "薬を事前に買った方がいい。",
-          "hiragana_full": "くすりをじぜんにかったほうがいい"
+          "kanji": "風邪がはやっているので、薬を買っておいた方がいいですよ。",
+          "hiragana_full": "かぜがはやっているので、くすりをかっておいたほうがいいですよ。"
         },
         {
-          "kanji": "薬を買っておくべきだ。",
-          "hiragana_full": "くすりをかっておくべきだ"
+          "kanji": "風邪がはやっているから、薬を用意しておいた方がいい。",
+          "hiragana_full": "かぜがはやっているから、くすりをよういしておいたほうがいい。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "風邪",
+          "reading": "かぜ",
+          "meaning": "a cold"
+        },
+        {
+          "word": "はやって",
+          "reading": "はやって",
+          "meaning": "spreading, going around (te-form of はやる)"
+        },
+        {
+          "word": "薬",
+          "reading": "くすり",
+          "meaning": "medicine"
+        }
+      ],
+      "blank_target_reading": "かっておいた"
     },
     {
       "id": "n4_039_7",
       "example_sentence": "宿題をやっておかないと、明日困る。",
-      "translation": "If I don't do my homework in advance, I'll be in trouble tomorrow.",
-      "blank_target": "て",
+      "translation": "If I don't get my homework done beforehand, I'll be in trouble tomorrow.",
+      "blank_target": "やっておかないと",
       "wrong_choices": [
-        "てしまわ",
-        "続け",
-        "始め"
+        "やっておかなくても",
+        "やっておくないと",
+        "やりおかないと"
       ],
       "wrong_choice_explanations": [
-        "てしまわ means 'completely/unfortunately do' — it doesn't fit here because it indicates completion or regret, not advance preparation.",
-        "続け means 'continue' — it doesn't fit here because it indicates ongoing action, not preparatory action done in advance.",
-        "始め means 'begin' — it doesn't fit here because it indicates the start of an action, not preparing something ahead of time."
+        "やっておかなくても means 'even if I don't do it', which cannot lead to 'I'll be in trouble tomorrow'.",
+        "The negative of おく is おかない; ない does not attach to the dictionary form おく.",
+        "おく needs the te-form やって, not the stem やり."
       ],
       "hiragana_full": "しゅくだいをやっておかないと、あしたこまる。",
       "audio_alternatives": [
         {
-          "kanji": "宿題をしておかないと、明日困る。",
-          "hiragana_full": "しゅくだいをしておかないと、あしたこまる。"
+          "kanji": "宿題をしておかないと、明日困ります。",
+          "hiragana_full": "しゅくだいをしておかないと、あしたこまります。"
         },
         {
-          "kanji": "宿題をやっておかなければ、明日困ることになる。",
-          "hiragana_full": "しゅくだいをやっておかなければ、あしたこまることになる。"
+          "kanji": "宿題をやっておかなければ、明日困る。",
+          "hiragana_full": "しゅくだいをやっておかなければ、あしたこまる。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "宿題",
+          "reading": "しゅくだい",
+          "meaning": "homework"
+        },
+        {
+          "word": "困る",
+          "reading": "こまる",
+          "meaning": "to be in trouble"
+        }
+      ]
     },
     {
       "id": "n4_039_8",
-      "example_sentence": "パーティーの食べ物を注文しておきました。",
-      "translation": "I ordered the food for the party in advance.",
-      "blank_target": "て",
+      "example_sentence": "来週のパーティーのために、もう食べ物を注文しておきました。",
+      "translation": "I've already ordered the food for next week's party.",
+      "blank_target": "注文しておきました",
       "wrong_choices": [
-        "すぎ",
-        "やすく",
-        "にくく"
+        "注文しにおきました",
+        "注文しておくました",
+        "注文するおきました"
       ],
       "wrong_choice_explanations": [
-        "すぎ means 'too much/excessively' — it doesn't fit here because it indicates excess, not advance action.",
-        "やすく means 'easy to do' — it doesn't fit here because it describes ease of action, not preparatory actions.",
-        "にくく means 'difficult to do' — it doesn't fit here because it describes difficulty, not the advance preparation pattern."
+        "しに marks purpose of movement (～に行く); it cannot connect to おく.",
+        "The polite past is おきました; ました cannot attach to the dictionary form おく.",
+        "The dictionary form する cannot connect directly to おく; the te-form して is required."
       ],
-      "hiragana_full": "ぱーてぃーのたべものをちゅうもんしておきました",
+      "hiragana_full": "らいしゅうのぱーてぃーのために、もうたべものをちゅうもんしておきました。",
       "audio_alternatives": [
         {
-          "kanji": "パーティーの食べ物を先に注文しました。",
-          "hiragana_full": "ぱーてぃーのたべものをさきにちゅうもんしました"
+          "kanji": "来週のパーティー用に、もう料理を注文しておきました。",
+          "hiragana_full": "らいしゅうのぱーてぃーように、もうりょうりをちゅうもんしておきました。"
         },
         {
-          "kanji": "パーティー用の食べ物をあらかじめ注文しておきました。",
-          "hiragana_full": "ぱーてぃーようのたべものをあらかじめちゅうもんしておきました"
+          "kanji": "来週のパーティーのために、食べ物はもう注文しておいた。",
+          "hiragana_full": "らいしゅうのぱーてぃーのために、たべものはもうちゅうもんしておいた。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "注文",
+          "reading": "ちゅうもん",
+          "meaning": "order"
+        }
+      ],
+      "blank_target_reading": "ちゅうもんしておきました"
     },
     {
       "id": "n4_039_9",
-      "example_sentence": "車のガソリンを入れておこうと思う。",
-      "translation": "I think I'll fill up the car with gas in advance.",
-      "blank_target": "て",
+      "example_sentence": "明日は遠くまで運転するので、今日のうちにガソリンを入れておこうと思う。",
+      "translation": "I'm driving a long way tomorrow, so I think I'll fill up with gas today.",
+      "blank_target": "入れておこう",
       "wrong_choices": [
-        "かけ",
-        "直し",
-        "返し"
+        "入れおこう",
+        "入れておきよう",
+        "入れてあろう"
       ],
       "wrong_choice_explanations": [
-        "かけ means 'partially/in the middle of' — it doesn't fit here because it indicates incomplete action, not preparation.",
-        "直し means 'redo/fix' — it doesn't fit here because it indicates correction, not the advance action pattern.",
-        "返し means 'return/give back' — it doesn't fit here because it indicates returning something, not preparatory actions."
+        "おく needs the te-form 入れて, not the stem 入れ.",
+        "おく is a godan verb, so its volitional is おこう, not おきよう.",
+        "てある has no volitional 'I'll ~' form; あろう only means 'probably is' in literary style."
       ],
-      "hiragana_full": "くるまのがそりんをいれておこうとおもう。",
+      "hiragana_full": "あしたはとおくまでうんてんするので、きょうのうちにがそりんをいれておこうとおもう。",
       "audio_alternatives": [
         {
-          "kanji": "車のガソリンを入れておこうと思っています。",
-          "hiragana_full": "くるまのがそりんをいれておこうとおもっています。"
+          "kanji": "明日は遠くまで運転するから、今日中にガソリンを入れておこうと思います。",
+          "hiragana_full": "あしたはとおくまでうんてんするから、きょうじゅうにがそりんをいれておこうとおもいます。"
         },
         {
-          "kanji": "車にガソリンを入れておこうと思う。",
-          "hiragana_full": "くるまにがそりんをいれておこうとおもう。"
+          "kanji": "明日は長い距離を運転するので、今日のうちに給油しておこうと思う。",
+          "hiragana_full": "あしたはながいきょりをうんてんするので、きょうのうちにきゅうゆしておこうとおもう。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "遠く",
+          "reading": "とおく",
+          "meaning": "far away"
+        },
+        {
+          "word": "運転",
+          "reading": "うんてん",
+          "meaning": "driving"
+        },
+        {
+          "word": "ガソリン",
+          "reading": "がそりん",
+          "meaning": "gasoline"
+        }
+      ],
+      "blank_target_reading": "いれておこう"
     },
     {
       "id": "n4_039_10",
-      "example_sentence": "部屋を掃除しておいてよかった。",
-      "translation": "I'm glad I cleaned the room in advance.",
-      "blank_target": "て",
+      "example_sentence": "急にお客さんが来たけど、部屋を掃除しておいてよかった。",
+      "translation": "Guests came over suddenly, but I'm glad I had cleaned the room beforehand.",
+      "blank_target": "掃除しておいて",
       "wrong_choices": [
-        "終わっ",
-        "切っ",
-        "抜い"
+        "掃除しておかなくて",
+        "掃除しおいて",
+        "掃除しておきて"
       ],
       "wrong_choice_explanations": [
-        "終わっ means 'finish/complete' — it doesn't fit here because it simply indicates completion, not advance preparation.",
-        "切っ means 'completely/thoroughly' — it doesn't fit here because it indicates complete action, not preparatory action.",
-        "抜い means 'pull out/omit' — it doesn't fit here because it indicates removal or omission, not the advance action pattern."
+        "掃除しておかなくてよかった means 'glad I hadn't cleaned', which makes no sense when unexpected guests arrive.",
+        "おく needs the te-form して, not the stem し.",
+        "The te-form of おく is おいて, not おきて."
       ],
-      "hiragana_full": "へやをそうじしておいてよかった。",
+      "hiragana_full": "きゅうにおきゃくさんがきたけど、へやをそうじしておいてよかった。",
       "audio_alternatives": [
         {
-          "kanji": "部屋を掃除しておいてよかったです。",
-          "hiragana_full": "へやをそうじしておいてよかったです。"
+          "kanji": "急にお客さんが来たけれど、部屋を掃除しておいてよかったです。",
+          "hiragana_full": "きゅうにおきゃくさんがきたけれど、へやをそうじしておいてよかったです。"
         },
         {
-          "kanji": "あらかじめ部屋を掃除しておいてよかった。",
-          "hiragana_full": "あらかじめへやをそうじしておいてよかった。"
+          "kanji": "急にお客さんが来たが、部屋を片付けておいてよかった。",
+          "hiragana_full": "きゅうにおきゃくさんがきたが、へやをかたづけておいてよかった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "急に",
+          "reading": "きゅうに",
+          "meaning": "suddenly"
+        },
+        {
+          "word": "掃除",
+          "reading": "そうじ",
+          "meaning": "cleaning"
+        }
+      ],
+      "blank_target_reading": "そうじしておいて"
     }
   ]
 }

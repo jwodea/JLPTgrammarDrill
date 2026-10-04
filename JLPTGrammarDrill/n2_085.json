@@ -12,12 +12,12 @@
       "wrong_choices": [
         "ということ",
         "とは言え",
-        "なんて"
+        "ものだ"
       ],
       "wrong_choice_explanations": [
         "ということ is used to quote or express hearsay, but this sentence expresses surprise at discovery and requires とは.",
         "とは言え means 'that said' or 'however' and is used for contrast, but this sentence expresses surprise and requires とは.",
-        "なんて expresses emotional exclamation but cannot be used with past-tense statements of knowledge like 知りませんでした."
+        "「ものだ」 states a general truth ('such masterpieces do exist') and cannot lead into 「知りませんでした」; 「とは」 marks the surprising discovery that triggers the reaction."
       ],
       "hiragana_full": "こんなかくれたけっさくがあるとは、しりませんでした。",
       "audio_alternatives": [
@@ -30,7 +30,20 @@
           "hiragana_full": "こんなかくれたけっさくがそんざいするとは、しりませんでした。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "傑作",
+          "reading": "けっさく",
+          "meaning": "masterpiece"
+        },
+        {
+          "word": "隠れた",
+          "reading": "かくれた",
+          "meaning": "hidden"
+        }
+      ]
     },
     {
       "id": "n2_085_2",
@@ -58,66 +71,18 @@
           "hiragana_full": "まさかこんなことになるとはおもわなかった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "予想",
+          "reading": "よそう",
+          "meaning": "expectation, prediction"
+        }
+      ]
     },
     {
       "id": "n2_085_3",
-      "example_sentence": "そんなことが起こるとは、誰も想像していなかった。",
-      "translation": "No one imagined that such a thing would happen.",
-      "blank_target": "とは",
-      "wrong_choices": [
-        "ものだ",
-        "ことに",
-        "ことか"
-      ],
-      "wrong_choice_explanations": [
-        "ものだ frames the event as a general truth ('such things just happen, you know'). The sentence is about a specific unimagined event, not a worldly observation.",
-        "ことに needs a feeling word before it (驚いたことに、残念なことに). It can't attach to a bare event clause and convey surprise on its own.",
-        "ことか forms rhetorical exclamations and usually pairs with degree words like 何度 or どんなに (何度迷ったことか). It doesn't take a plain event clause as a surprise marker."
-      ],
-      "hiragana_full": "そんなことがおこるとは、だれもそうぞうしていなかった。",
-      "audio_alternatives": [
-        {
-          "kanji": "そんなことが起きるとは、誰も思っていなかった。",
-          "hiragana_full": "そんなことがおきるとは、だれもおもっていなかった。"
-        },
-        {
-          "kanji": "誰もそんなことが起こるとは想像しなかった。",
-          "hiragana_full": "だれもそんなことがおこるとはそうぞうしなかった。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_085_4",
-      "example_sentence": "そんなリスクが起こるとは、誰も想定していなかった。",
-      "translation": "No one anticipated such a risk occurring.",
-      "blank_target": "とは",
-      "wrong_choices": [
-        "というのは",
-        "ものだ",
-        "ことに"
-      ],
-      "wrong_choice_explanations": [
-        "というのは sets up a definition or explanation ('what X means is...'). It would reframe the sentence as defining the risk, not reporting that no one anticipated it.",
-        "ものだ would generalize the risk into 'such risks just happen' — undercutting 想定していなかった, which is precisely about not having pictured this particular one.",
-        "ことに requires a leading emotion word (e.g., 驚いたことに、リスクが起きた). It can't pivot directly from a bare event clause to surprise."
-      ],
-      "hiragana_full": "そんなりすくがおこるとは、だれもそうていしていなかった。",
-      "audio_alternatives": [
-        {
-          "kanji": "そんなリスクが発生するとは、誰も予想していなかった。",
-          "hiragana_full": "そんなりすくがはっせいするとは、だれもよそうしていなかった。"
-        },
-        {
-          "kanji": "誰もそんなリスクが起こることを想定していなかった。",
-          "hiragana_full": "だれもそんなりすくがおこることをそうていしていなかった。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_085_5",
       "example_sentence": "こんなに素晴らしい結果が出るとは、思いもしませんでした。",
       "translation": "I never thought such wonderful results would come out.",
       "blank_target": "とは",
@@ -142,122 +107,11 @@
           "hiragana_full": "こんなにすばらしいけっかになるとは、まったくおもっていませんでした。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
-      "id": "n2_085_6",
-      "example_sentence": "彼がこんなに上達するとは、驚きました。",
-      "translation": "I was surprised that he improved so much.",
-      "blank_target": "とは",
-      "wrong_choices": [
-        "ものだ",
-        "ことに",
-        "というのは"
-      ],
-      "wrong_choice_explanations": [
-        "ものだ would generalize into 'people improve like this' — losing the speaker's reaction to *his* particular leap in ability.",
-        "ことに follows the feeling (驚いたことに、彼が上達した). Here 驚きました comes after, so ことに has no leading emotion to attach to.",
-        "というのは sets up a definition ('what his improvement is...'). The sentence is about being startled by the improvement, not explaining what it is."
-      ],
-      "hiragana_full": "かれがこんなにじょうたつするとは、おどろきました。",
-      "audio_alternatives": [
-        {
-          "kanji": "彼がこんなに上達するとは、驚いた。",
-          "hiragana_full": "かれがこんなにじょうたつするとは、おどろいた。"
-        },
-        {
-          "kanji": "彼がこんなに上手になるとは、驚きました。",
-          "hiragana_full": "かれがこんなにじょうずになるとは、おどろきました。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_085_7",
-      "example_sentence": "こんなに早く完成するとは、予想外でした。",
-      "translation": "It was unexpected that it would be completed so quickly.",
-      "blank_target": "とは",
-      "wrong_choices": [
-        "ということ",
-        "ものだ",
-        "ことか"
-      ],
-      "wrong_choice_explanations": [
-        "ということ flatly nominalizes the content. The 予想外 reaction needs the realization-jolt that とは carries, not the neutral reporting ということ provides.",
-        "ものだ would assert that things naturally finish this quickly — directly contradicting 予想外, which means the speed defied expectation.",
-        "ことか forms exclamations with degree words (何度、どんなに). It doesn't attach to a plain event clause as a surprise marker."
-      ],
-      "hiragana_full": "こんなにはやくかんせいするとは、よそうがいでした。",
-      "audio_alternatives": [
-        {
-          "kanji": "こんなに早く完成するとは、思いがけないことでした。",
-          "hiragana_full": "こんなにはやくかんせいするとは、おもいがけないことでした。"
-        },
-        {
-          "kanji": "これほど早く完成するとは、予想していませんでした。",
-          "hiragana_full": "これほどはやくかんせいするとは、よそうしていませんでした。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_085_8",
-      "example_sentence": "彼女が医者になるとは、昔は考えられなかった。",
-      "translation": "It was unthinkable in the past that she would become a doctor.",
-      "blank_target": "とは",
-      "wrong_choices": [
-        "ことに",
-        "というのは",
-        "ものだ"
-      ],
-      "wrong_choice_explanations": [
-        "ことに needs the feeling word in front (驚いたことに、彼女が医者になった). Here 考えられなかった comes after the event, so ことに's slot is unavailable.",
-        "というのは would set up a definition of her becoming a doctor, as if explaining the concept. The sentence is about the speaker's past inability to picture it.",
-        "ものだ would generalize: 'people become doctors like this' — erasing the specific disbelief about *her* in particular."
-      ],
-      "hiragana_full": "かのじょがいしゃになるとは、むかしはかんがえられなかった。",
-      "audio_alternatives": [
-        {
-          "kanji": "彼女が医者になるなんて、昔は思いもしなかった。",
-          "hiragana_full": "かのじょがいしゃになるなんて、むかしはおもいもしなかった。"
-        },
-        {
-          "kanji": "昔は、彼女が医者になるとは思えなかった。",
-          "hiragana_full": "むかしは、かのじょがいしゃになるとはおもえなかった。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_085_9",
-      "example_sentence": "この店がこんなに人気になるとは、思っていませんでした。",
-      "translation": "I didn't think this shop would become so popular.",
-      "blank_target": "とは",
-      "wrong_choices": [
-        "ものだ",
-        "ことか",
-        "ことに"
-      ],
-      "wrong_choice_explanations": [
-        "ものだ would assert that shops naturally get this popular — flattening the speaker's surprise about *this* shop's rise into a generic observation.",
-        "ことか forms rhetorical exclamations with degree words (どんなに人気だったことか). The plain event clause doesn't supply the degree-word frame ことか needs.",
-        "ことに requires a feeling word in front (驚いたことに、人気になった). It can't take a bare event clause as its anchor."
-      ],
-      "hiragana_full": "このみせがこんなににんきになるとは、おもっていませんでした。",
-      "audio_alternatives": [
-        {
-          "kanji": "この店がこんなに人気が出るとは、思っていませんでした。",
-          "hiragana_full": "このみせがこんなににんきがでるとは、おもっていませんでした。"
-        },
-        {
-          "kanji": "この店がこれほど人気になるとは、思いませんでした。",
-          "hiragana_full": "このみせがこれほどにんきになるとは、おもいませんでした。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n2_085_10",
+      "id": "n2_085_4",
       "example_sentence": "まさかこんな展開になるとは、誰も予測できなかった。",
       "translation": "No one could have predicted that such a development would occur.",
       "blank_target": "とは",
@@ -282,7 +136,239 @@
           "hiragana_full": "まさかこのようなてんかいになるとは、だれもよそくしていなかった。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "展開",
+          "reading": "てんかい",
+          "meaning": "development, turn of events"
+        },
+        {
+          "word": "予測",
+          "reading": "よそく",
+          "meaning": "prediction"
+        }
+      ]
+    },
+    {
+      "id": "n2_085_5",
+      "example_sentence": "彼がそんなことを言うとは、驚いた。",
+      "translation": "I was surprised by the fact that he said such a thing.",
+      "blank_target": "とは",
+      "wrong_choices": [
+        "ということ",
+        "とは言え",
+        "だけに"
+      ],
+      "wrong_choice_explanations": [
+        "ということ is used for indirect quotation or explanation, but doesn't express the speaker's emotional reaction to an unexpected fact like とは does.",
+        "とは言え means 'even so/although' and is used for concession, not for expressing surprise about an unexpected fact.",
+        "だけに means 'precisely because' and frames the statement as the emphatic cause of a fitting result, not the exclamatory surprise at an unexpected fact that とは expresses here."
+      ],
+      "hiragana_full": "かれがそんなことをいうとは、おどろいた。",
+      "audio_alternatives": [
+        {
+          "kanji": "彼がそんなことを言うなんて、驚いた。",
+          "hiragana_full": "かれがそんなことをいうなんて、おどろいた。"
+        },
+        {
+          "kanji": "彼がそんなことを言うとは、驚きました。",
+          "hiragana_full": "かれがそんなことをいうとは、おどろきました。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral"
+    },
+    {
+      "id": "n2_085_6",
+      "example_sentence": "そんなに簡単に解決するとは、思いもよらなかった。",
+      "translation": "I never dreamed it would be resolved so easily.",
+      "blank_target": "とは",
+      "wrong_choices": [
+        "ものの",
+        "だけに",
+        "ばかりに"
+      ],
+      "wrong_choice_explanations": [
+        "ものの means 'although/even though' and is used for contrast, not for expressing surprise about unexpected ease of resolution.",
+        "だけに means 'precisely because/just because' and expresses cause and effect, not surprise about unexpected outcomes.",
+        "ばかりに means 'just because/simply because' and expresses regret about consequences, not surprise about unexpected events."
+      ],
+      "hiragana_full": "そんなにかんたんにかいけつするとは、おもいもよらなかった。",
+      "audio_alternatives": [
+        {
+          "kanji": "こんなに簡単に解決するとは、夢にも思わなかった。",
+          "hiragana_full": "こんなにかんたんにかいけつするとは、ゆめにもおもわなかった。"
+        },
+        {
+          "kanji": "こんなに簡単に片付くとは思ってもみなかった。",
+          "hiragana_full": "こんなにかんたんにかたづくとはおもってもみなかった。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "解決",
+          "reading": "かいけつ",
+          "meaning": "resolution / solving"
+        }
+      ]
+    },
+    {
+      "id": "n2_085_7",
+      "example_sentence": "それほど効果的とは、知りませんでした。",
+      "translation": "I did not know it would be so effective.",
+      "blank_target": "とは",
+      "wrong_choices": [
+        "ほど",
+        "だけ",
+        "くらい"
+      ],
+      "wrong_choice_explanations": [
+        "ほど indicates degree or extent but doesn't express the speaker's surprise about discovering something unexpected like とは does.",
+        "だけ means 'only/just' and indicates limitation, not the speaker's reaction to discovering unexpected effectiveness.",
+        "くらい indicates approximate degree and is more casual, lacking the formal tone and surprise nuance that とは provides."
+      ],
+      "hiragana_full": "それほどこうかてきとは、しりませんでした。",
+      "audio_alternatives": [
+        {
+          "kanji": "それほど効果的だとは思いませんでした。",
+          "hiragana_full": "それほどこうかてきだとはおもいませんでした。"
+        },
+        {
+          "kanji": "あれほど効果的だとは知りませんでした。",
+          "hiragana_full": "あれほどこうかてきだとはしりませんでした。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "効果的",
+          "reading": "こうかてき",
+          "meaning": "effective"
+        }
+      ]
+    },
+    {
+      "id": "n2_085_8",
+      "example_sentence": "愛とは、相手を思いやることだ。",
+      "translation": "Love is caring for another person.",
+      "blank_target": "とは",
+      "wrong_choices": [
+        "として",
+        "について",
+        "に関して"
+      ],
+      "wrong_choice_explanations": [
+        "として means 'as / in the capacity of' and assigns a role, not the definitional equation ('X is ...') that とは sets up in a formal definition.",
+        "について means 'about/concerning' and indicates a topic of discussion, not a formal definition like とは provides.",
+        "に関して means 'regarding/concerning' and indicates the subject matter, not the definitional relationship that とは expresses."
+      ],
+      "hiragana_full": "あいとは、あいてをおもいやることだ。",
+      "audio_alternatives": [
+        {
+          "kanji": "愛とは、相手のことを思いやる気持ちだ。",
+          "hiragana_full": "あいとは、あいてのことをおもいやるきもちだ。"
+        },
+        {
+          "kanji": "愛とは相手を大切にすることです。",
+          "hiragana_full": "あいとはあいてをたいせつにすることです。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "相手",
+          "reading": "あいて",
+          "meaning": "the other person"
+        },
+        {
+          "word": "思いやる",
+          "reading": "おもいやる",
+          "meaning": "to be considerate of"
+        }
+      ]
+    },
+    {
+      "id": "n2_085_9",
+      "example_sentence": "友情とは何か、考えてみよう。",
+      "translation": "Let's think about what friendship is.",
+      "blank_target": "とは",
+      "wrong_choices": [
+        "とか",
+        "では",
+        "なら"
+      ],
+      "wrong_choice_explanations": [
+        "とか means 'or something / things like' and lists vague examples, not the focused 'what exactly is X' definitional question that とは raises here.",
+        "では means 'then/in that case' and is used for conditional situations, not for asking about definitions.",
+        "なら means 'if/in the case of' and expresses conditionals, not the definitional questioning that とは expresses here."
+      ],
+      "hiragana_full": "ゆうじょうとはなにか、かんがえてみよう。",
+      "audio_alternatives": [
+        {
+          "kanji": "友情とは何か、考えてみましょう。",
+          "hiragana_full": "ゆうじょうとはなにか、かんがえてみましょう。"
+        },
+        {
+          "kanji": "友情とは何かについて、考えてみよう。",
+          "hiragana_full": "ゆうじょうとはなにかについて、かんがえてみよう。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "友情",
+          "reading": "ゆうじょう",
+          "meaning": "friendship"
+        }
+      ]
+    },
+    {
+      "id": "n2_085_10",
+      "example_sentence": "成功とは、努力の結果である。",
+      "translation": "Success is the result of effort.",
+      "blank_target": "とは",
+      "wrong_choices": [
+        "によって",
+        "として",
+        "において"
+      ],
+      "wrong_choice_explanations": [
+        "によって means 'by means of' and indicates method or agent, not the definitional relationship that とは expresses.",
+        "として means 'as' and indicates role or capacity, not the formal definition that とは provides in this context.",
+        "において means 'in/at' and indicates location or situation, not the definitional equation that とは establishes here."
+      ],
+      "hiragana_full": "せいこうとは、どりょくのけっかである。",
+      "audio_alternatives": [
+        {
+          "kanji": "成功は努力の結果だ。",
+          "hiragana_full": "せいこうはどりょくのけっかだ。"
+        },
+        {
+          "kanji": "努力の結果が成功につながる。",
+          "hiragana_full": "どりょくのけっかがせいこうにつながる。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "成功",
+          "reading": "せいこう",
+          "meaning": "success"
+        },
+        {
+          "word": "努力",
+          "reading": "どりょく",
+          "meaning": "effort"
+        }
+      ]
     }
   ]
 }

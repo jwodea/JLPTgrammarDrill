@@ -1,23 +1,351 @@
 {
   "id": "n4_089",
-  "pattern": "～をはじめ",
+  "pattern": "〜をはじめ（として）",
   "meaning": "Starting with ~ / including ~ and others",
   "level": "N4",
   "exercises": [
     {
       "id": "n4_089_1",
-      "example_sentence": "田中さんをはじめ、多くの人が参加した。",
-      "translation": "Starting with Mr. Tanaka, many people participated.",
-      "blank_target": "を",
+      "example_sentence": "リーダーをはじめ、全員が同意した。",
+      "translation": "Starting with the leader, everyone agreed.",
+      "blank_target": "をはじめ",
       "wrong_choices": [
-        "に",
-        "が",
-        "は"
+        "をよそに",
+        "をきっかけに",
+        "さえ"
       ],
       "wrong_choice_explanations": [
-        "に would mark Tanaka as a goal or recipient ('to Mr. Tanaka'), but はじめ takes its preceding noun marked with を to flag it as the representative of the wider group.",
-        "が would make Tanaka the grammatical subject who is doing はじめる ('Tanaka starts something'), turning はじめ into a verb instead of part of the listing pattern.",
-        "は would topicalize Tanaka and separate him from the group; the fixed form requires を so that はじめ reads as a postposition meaning 'including [Tanaka] and others.'"
+        "をよそに means 'ignoring / in defiance of'; リーダーをよそに would mean everyone agreed *without* the leader, excluding them — the opposite of をはじめ, which names the leader as the foremost member included in the agreement.",
+        "をきっかけに means 'triggered by / using as the impetus'; it would cast the leader as the catalyst that set off the agreement, but をはじめ simply lists the leader as the leading example among those who agreed, with no causal trigger.",
+        "さえ means 'even' for emphasis on unexpected items ('even the leader agreed'), but the sentence doesn't treat the leader's agreement as surprising — をはじめ presents the leader as the natural starting example."
+      ],
+      "hiragana_full": "リーダーをはじめ、ぜんいんがどういした。",
+      "audio_alternatives": [
+        {
+          "kanji": "リーダーを含め、全員が同意した。",
+          "hiragana_full": "リーダーをふくめ、ぜんいんがどういした。"
+        },
+        {
+          "kanji": "リーダーをはじめとして、全員が賛成した。",
+          "hiragana_full": "リーダーをはじめとして、ぜんいんがさんせいした。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "全員",
+          "reading": "ぜんいん",
+          "meaning": "everyone"
+        },
+        {
+          "word": "同意した",
+          "reading": "どういした",
+          "meaning": "agreed"
+        }
+      ]
+    },
+    {
+      "id": "n4_089_2",
+      "example_sentence": "このアニメは、東京をはじめとして、大阪や福岡など全国で人気が高い。",
+      "translation": "This anime is popular all over the country, starting with Tokyo and including Osaka, Fukuoka and other places.",
+      "blank_target": "をはじめとして",
+      "wrong_choices": [
+        "について",
+        "に向けて",
+        "に反して"
+      ],
+      "wrong_choice_explanations": [
+        "について means 'about'; 東京について would make Tokyo a topic instead of the first example of the places where the anime is popular.",
+        "に向けて means 'toward / aimed at' and marks a goal; the anime's popularity isn't aimed at Tokyo — Tokyo is the leading example of where it is popular.",
+        "に反して means 'contrary to' (予想に反して) and needs an expectation or rule; the anime's popularity doesn't go against Tokyo — Tokyo is the first place named."
+      ],
+      "hiragana_full": "このアニメは、とうきょうをはじめとして、おおさかやふくおかなどぜんこくでにんきがたかい。",
+      "audio_alternatives": [
+        {
+          "kanji": "このアニメは、東京をはじめ、大阪や福岡など全国で人気が高い。",
+          "hiragana_full": "このアニメは、とうきょうをはじめ、おおさかやふくおかなどぜんこくでにんきがたかい。"
+        },
+        {
+          "kanji": "このアニメは、東京や大阪、福岡など、全国で人気がある。",
+          "hiragana_full": "このアニメは、とうきょうやおおさか、ふくおかなど、ぜんこくでにんきがある。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "全国",
+          "reading": "ぜんこく",
+          "meaning": "the whole country, nationwide"
+        },
+        {
+          "word": "人気",
+          "reading": "にんき",
+          "meaning": "popularity"
+        }
+      ]
+    },
+    {
+      "id": "n4_089_3",
+      "example_sentence": "校長をはじめとして、先生たちみんなで学校の庭を掃除した。",
+      "translation": "Starting with the principal, all the teachers cleaned the school garden together.",
+      "blank_target": "をはじめとして",
+      "wrong_choices": [
+        "を通じて",
+        "に反して",
+        "に向けて"
+      ],
+      "wrong_choice_explanations": [
+        "を通じて means 'through/via' and indicates a means or medium, but the principal is the leading example of the people who cleaned.",
+        "に反して means 'contrary to'; the teachers weren't acting against the principal — he was the first of them.",
+        "に向けて means 'toward/aimed at' and indicates a goal, but the principal is the leading example of the participants."
+      ],
+      "hiragana_full": "こうちょうをはじめとして、せんせいたちみんなでがっこうのにわをそうじした。",
+      "audio_alternatives": [
+        {
+          "kanji": "校長をはじめ、先生たちみんなで学校の庭を掃除した。",
+          "hiragana_full": "こうちょうをはじめ、せんせいたちみんなでがっこうのにわをそうじした。"
+        },
+        {
+          "kanji": "校長も含めて、先生たちみんなで学校の庭を掃除した。",
+          "hiragana_full": "こうちょうもふくめて、せんせいたちみんなでがっこうのにわをそうじした。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "校長",
+          "reading": "こうちょう",
+          "meaning": "principal"
+        },
+        {
+          "word": "庭",
+          "reading": "にわ",
+          "meaning": "garden, yard"
+        },
+        {
+          "word": "掃除",
+          "reading": "そうじ",
+          "meaning": "cleaning"
+        }
+      ]
+    },
+    {
+      "id": "n4_089_4",
+      "example_sentence": "マネージャーをはじめ、チーム全体が新プロジェクトに協力した。",
+      "translation": "Starting with the manager, the entire team cooperated on the new project.",
+      "blank_target": "をはじめ",
+      "wrong_choices": [
+        "によって",
+        "に沿って",
+        "をもって"
+      ],
+      "wrong_choice_explanations": [
+        "によって means 'by means of' or 'due to' which doesn't fit the listing context of をはじめ",
+        "に沿って means 'along/following' which doesn't work for listing team members",
+        "をもって means 'with/by means of' which is grammatically incorrect in this sentence structure"
+      ],
+      "hiragana_full": "まねーじゃーをはじめ、ちーむぜんたいがしんぷろじぇくとにきょうりょくした。",
+      "audio_alternatives": [
+        {
+          "kanji": "マネージャーを筆頭に、チーム全体が新プロジェクトに協力した。",
+          "hiragana_full": "まねーじゃーをひっとうに、ちーむぜんたいがしんぷろじぇくとにきょうりょくした。"
+        },
+        {
+          "kanji": "マネージャーをはじめとして、チーム全体が新プロジェクトに協力した。",
+          "hiragana_full": "まねーじゃーをはじめとして、ちーむぜんたいがしんぷろじぇくとにきょうりょくした。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "全体",
+          "reading": "ぜんたい",
+          "meaning": "whole; entirety"
+        },
+        {
+          "word": "協力",
+          "reading": "きょうりょく",
+          "meaning": "to cooperate"
+        }
+      ]
+    },
+    {
+      "id": "n4_089_5",
+      "example_sentence": "東京をはじめ、日本全国で桜祭りが行われる。",
+      "translation": "Cherry blossom festivals are held all over Japan, starting with Tokyo.",
+      "blank_target": "をはじめ",
+      "wrong_choices": [
+        "に反して",
+        "に応じて",
+        "に比べて"
+      ],
+      "wrong_choice_explanations": [
+        "に反して means 'contrary to'; the festivals across Japan don't go against Tokyo — Tokyo is the first example.",
+        "に応じて means 'in response to / depending on'; festivals aren't held in response to Tokyo.",
+        "に比べて means 'compared with'; the sentence lists places where festivals are held, not a comparison."
+      ],
+      "hiragana_full": "とうきょうをはじめ、にほんぜんこくでさくらまつりがおこなわれる。",
+      "audio_alternatives": [
+        {
+          "kanji": "東京をはじめとして、日本全国で桜祭りが行われる。",
+          "hiragana_full": "とうきょうをはじめとして、にほんぜんこくでさくらまつりがおこなわれる。"
+        },
+        {
+          "kanji": "東京を含め、日本中で桜祭りが行われる。",
+          "hiragana_full": "とうきょうをふくめ、にほんじゅうでさくらまつりがおこなわれる。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "全国",
+          "reading": "ぜんこく",
+          "meaning": "the whole country"
+        },
+        {
+          "word": "桜",
+          "reading": "さくら",
+          "meaning": "cherry blossom"
+        },
+        {
+          "word": "祭り",
+          "reading": "まつり",
+          "meaning": "festival"
+        }
+      ]
+    },
+    {
+      "id": "n4_089_6",
+      "example_sentence": "父をはじめとして、家族みんなが私の合格を喜んでくれた。",
+      "translation": "My whole family, starting with my father, was happy that I passed.",
+      "blank_target": "をはじめとして",
+      "wrong_choices": [
+        "に基づいて",
+        "について",
+        "に向けて"
+      ],
+      "wrong_choice_explanations": [
+        "に基づいて means 'based on'; the family's joy isn't based on my father — he is the first of the family members named.",
+        "について means 'about'; it makes my father a topic instead of the leading member of the group.",
+        "に向けて means 'toward / aimed at'; the family's joy isn't directed at my father — he is one of the people who were happy."
+      ],
+      "hiragana_full": "ちちをはじめとして、かぞくみんながわたしのごうかくをよろこんでくれた。",
+      "audio_alternatives": [
+        {
+          "kanji": "父をはじめ、家族みんなが私の合格を喜んでくれた。",
+          "hiragana_full": "ちちをはじめ、かぞくみんながわたしのごうかくをよろこんでくれた。"
+        },
+        {
+          "kanji": "父も含めて、家族みんなが私の合格を喜んでくれた。",
+          "hiragana_full": "ちちもふくめて、かぞくみんながわたしのごうかくをよろこんでくれた。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "合格",
+          "reading": "ごうかく",
+          "meaning": "passing (an exam)"
+        },
+        {
+          "word": "喜んで",
+          "reading": "よろこんで",
+          "meaning": "being glad (te-form of 喜ぶ)"
+        }
+      ]
+    },
+    {
+      "id": "n4_089_7",
+      "example_sentence": "フランス料理をはじめ、様々な国の料理を習った。",
+      "translation": "Starting with French cuisine, I learned various countries' cuisines.",
+      "blank_target": "をはじめ",
+      "wrong_choices": [
+        "に向けて",
+        "を通して",
+        "に従って"
+      ],
+      "wrong_choice_explanations": [
+        "に向けて means 'toward/for' which doesn't fit the context of listing types of cuisine learned",
+        "を通して means 'through' which would change the meaning to learning through French cuisine",
+        "に従って means 'according to/following' which doesn't make sense when listing cuisines studied"
+      ],
+      "hiragana_full": "フランスりょうりをはじめ、さまざまなくにのりょうりをならった。",
+      "audio_alternatives": [
+        {
+          "kanji": "フランス料理を含め、様々な国の料理を習った。",
+          "hiragana_full": "フランスりょうりをふくめ、さまざまなくにのりょうりをならった。"
+        },
+        {
+          "kanji": "フランス料理をはじめとして、色々な国の料理を習った。",
+          "hiragana_full": "フランスりょうりをはじめとして、いろいろなくにのりょうりをならった。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "様々",
+          "reading": "さまざま",
+          "meaning": "various"
+        }
+      ]
+    },
+    {
+      "id": "n4_089_8",
+      "example_sentence": "彼女は英語をはじめとして、いくつもの外国語が話せる。",
+      "translation": "She can speak several foreign languages, starting with English.",
+      "blank_target": "をはじめとして",
+      "wrong_choices": [
+        "に比べて",
+        "に反して",
+        "について"
+      ],
+      "wrong_choice_explanations": [
+        "に比べて means 'compared with'; English isn't being compared — it is the first example of the languages she speaks.",
+        "に反して means 'contrary to'; speaking languages doesn't go against English.",
+        "について means 'about'; it makes English a topic instead of the leading example of the group."
+      ],
+      "hiragana_full": "かのじょはえいごをはじめとして、いくつものがいこくごがはなせる。",
+      "audio_alternatives": [
+        {
+          "kanji": "彼女は英語をはじめ、いくつもの外国語が話せる。",
+          "hiragana_full": "かのじょはえいごをはじめ、いくつものがいこくごがはなせる。"
+        },
+        {
+          "kanji": "彼女は英語のほかにも、いくつもの外国語が話せる。",
+          "hiragana_full": "かのじょはえいごのほかにも、いくつものがいこくごがはなせる。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "外国語",
+          "reading": "がいこくご",
+          "meaning": "foreign language"
+        }
+      ]
+    },
+    {
+      "id": "n4_089_9",
+      "example_sentence": "田中さんをはじめ、多くの人が参加した。",
+      "translation": "Starting with Mr. Tanaka, many people participated.",
+      "blank_target": "をはじめ",
+      "wrong_choices": [
+        "をよそに",
+        "にとって",
+        "をめぐって"
+      ],
+      "wrong_choice_explanations": [
+        "をよそに means 'ignoring / paying no heed to' (心配をよそに); 田中さんをよそに would say people joined while ignoring Tanaka. をはじめ presents Tanaka as the leading example of the many participants.",
+        "にとって means 'for / from the standpoint of' (私にとって); it can't introduce the first member of a group. をはじめ means 'starting with / including Tanaka'.",
+        "をめぐって means 'over / concerning (a dispute)'; 田中さんをめぐって would make Tanaka the subject of a controversy. をはじめ presents him as the first of many participants."
       ],
       "hiragana_full": "たなかさんをはじめ、おおくのひとがさんかした。",
       "audio_alternatives": [
@@ -30,134 +358,30 @@
           "hiragana_full": "たなかさんをはじめとして、おおくのひとがさんかしました。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_089_2",
-      "example_sentence": "東京をはじめ、関東地方の人口が増えている。",
-      "translation": "Starting with Tokyo, the population of the Kanto region is increasing.",
-      "blank_target": "を",
-      "wrong_choices": [
-        "から",
-        "より",
-        "で"
-      ],
-      "wrong_choice_explanations": [
-        "から means 'from' — while similar in meaning, it doesn't fit the をはじめ grammatical pattern.",
-        "より means 'from' or 'than' — it doesn't fit here because we need the をはじめ pattern for 'starting with'.",
-        "で indicates location or means — it doesn't fit here because we're listing examples, not showing location."
-      ],
-      "hiragana_full": "とうきょうをはじめ、かんとうちほうのじんこうがふえている。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "東京を含む関東地方の人口が増えている。",
-          "hiragana_full": "とうきょうをふくむかんとうちほうのじんこうがふえている。"
-        },
-        {
-          "kanji": "関東地方、特に東京の人口が増えている。",
-          "hiragana_full": "かんとうちほう、とくにとうきょうのじんこうがふえている。"
+          "word": "参加",
+          "reading": "さんか",
+          "meaning": "participation"
         }
-      ],
-      "audio_eligible": true
+      ]
     },
     {
-      "id": "n4_089_3",
-      "example_sentence": "数学をはじめ、理科も得意です。",
-      "translation": "Starting with math, I'm also good at science.",
-      "blank_target": "を",
-      "wrong_choices": [
-        "と",
-        "や",
-        "も"
-      ],
-      "wrong_choice_explanations": [
-        "と connects two items exhaustively — it doesn't fit here because we need the をはじめ pattern to show examples starting with math.",
-        "や lists examples but doesn't create the 'starting with' meaning — we need をはじめ for this specific nuance.",
-        "も means 'also' — it doesn't fit here because we need をはじめ to establish math as the primary example."
-      ],
-      "hiragana_full": "すうがくをはじめ、りかもとくいです。",
-      "audio_alternatives": [
-        {
-          "kanji": "数学だけでなく、理科も得意です。",
-          "hiragana_full": "すうがくだけでなく、りかもとくいです。"
-        },
-        {
-          "kanji": "数学も理科も得意です。",
-          "hiragana_full": "すうがくもりかもとくいです。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_089_4",
-      "example_sentence": "フランスをはじめ、ヨーロッパ諸国を訪問した。",
-      "translation": "Starting with France, I visited European countries.",
-      "blank_target": "を",
-      "wrong_choices": [
-        "など",
-        "とか",
-        "ほか"
-      ],
-      "wrong_choice_explanations": [
-        "など follows the noun directly to mean 'France, and so on,' but it doesn't pair with はじめ; the fixed pattern requires を so that France reads as the headline example of European countries.",
-        "とか casually lists items ('things like France') and treats France as one of several equals, losing the 'starting with France as the prime example' framing that をはじめ provides.",
-        "ほか means 'others' and would need a different structure (フランスのほかに…); it can't slot directly before はじめ to introduce France as the leading member of the group."
-      ],
-      "hiragana_full": "ふらんすをはじめ、よーろっぱしょこくをほうもんした。",
-      "audio_alternatives": [
-        {
-          "kanji": "フランスを含め、ヨーロッパ諸国を訪問した。",
-          "hiragana_full": "ふらんすをふくめ、よーろっぱしょこくをほうもんした。"
-        },
-        {
-          "kanji": "まずフランス、そしてヨーロッパの国々を訪問した。",
-          "hiragana_full": "まずふらんす、そしてよーろっぱのくにぐにをほうもんした。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_089_5",
-      "example_sentence": "中国語をはじめ、アジアの言語を学んでいます。",
-      "translation": "Starting with Chinese, I'm learning Asian languages.",
-      "blank_target": "を",
-      "wrong_choices": [
-        "だけ",
-        "のみ",
-        "ばかり"
-      ],
-      "wrong_choice_explanations": [
-        "だけ means 'only' — it doesn't fit here because the sentence implies learning multiple languages, not just Chinese.",
-        "のみ means 'only' — it doesn't fit here because we're talking about multiple Asian languages, not just Chinese.",
-        "ばかり means 'only' or 'just' — it doesn't fit here because the sentence indicates learning various Asian languages."
-      ],
-      "hiragana_full": "ちゅうごくごをはじめ、アジアのげんごをまなんでいます。",
-      "audio_alternatives": [
-        {
-          "kanji": "中国語をはじめとして、アジアの言語を学んでいます。",
-          "hiragana_full": "ちゅうごくごをはじめとして、アジアのげんごをまなんでいます。"
-        },
-        {
-          "kanji": "アジアの言語、特に中国語を学んでいます。",
-          "hiragana_full": "アジアのげんご、とくにちゅうごくごをまなんでいます。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_089_6",
+      "id": "n4_089_10",
       "example_sentence": "野球をはじめ、様々なスポーツを楽しんでいる。",
       "translation": "Starting with baseball, I enjoy various sports.",
-      "blank_target": "を",
+      "blank_target": "をはじめ",
       "wrong_choices": [
-        "で",
-        "から",
-        "へ"
+        "をよそに",
+        "に反して",
+        "について"
       ],
       "wrong_choice_explanations": [
-        "で would mark baseball as a means or location ('with baseball'), but はじめ needs を to flag baseball as the representative member of the sport list.",
-        "から would say 'from baseball' as a starting time or source, not as a leading example of the broader category 様々なスポーツ.",
-        "へ marks direction ('toward baseball'), which doesn't combine with はじめ to introduce a list — that role is reserved for を."
+        "をよそに means 'ignoring / in disregard of'; 野球をよそに would say you enjoy various sports while ignoring baseball — the opposite of including it. をはじめ introduces baseball as the leading example.",
+        "に反して means 'contrary to' (予想に反して); it can't introduce an example of a category. をはじめ means 'starting with baseball'.",
+        "について means 'about'; 野球について can't introduce the first item in a list of sports. をはじめ means 'baseball and many others'."
       ],
       "hiragana_full": "やきゅうをはじめ、さまざまなスポーツをたのしんでいる。",
       "audio_alternatives": [
@@ -170,119 +394,15 @@
           "hiragana_full": "やきゅうなど、さまざまなスポーツをたのしんでいる。"
         }
       ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_089_7",
-      "example_sentence": "社長をはじめ、全員が賛成した。",
-      "translation": "Starting with the president, everyone agreed.",
-      "blank_target": "を",
-      "wrong_choices": [
-        "から",
-        "まで",
-        "へ"
-      ],
-      "wrong_choice_explanations": [
-        "から means 'from' — it doesn't fit here because we need the をはじめ pattern for 'starting with'.",
-        "まで means 'until' or 'up to' — it doesn't fit here because we're showing examples, not indicating a range.",
-        "へ indicates direction — it doesn't fit here because we need をはじめ to show the president as the primary example."
-      ],
-      "hiragana_full": "しゃちょうをはじめ、ぜんいんがさんせいした。",
-      "audio_alternatives": [
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "社長を含めて、全員が賛成した。",
-          "hiragana_full": "しゃちょうをふくめて、ぜんいんがさんせいした。"
-        },
-        {
-          "kanji": "社長をはじめとして、みんなが賛成した。",
-          "hiragana_full": "しゃちょうをはじめとして、みんながさんせいした。"
+          "word": "様々な",
+          "reading": "さまざまな",
+          "meaning": "various"
         }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_089_8",
-      "example_sentence": "英語をはじめ、外国語の勉強が大切だ。",
-      "translation": "Starting with English, studying foreign languages is important.",
-      "blank_target": "を",
-      "wrong_choices": [
-        "を含む",
-        "における",
-        "に対する"
-      ],
-      "wrong_choice_explanations": [
-        "を含む means 'including' — while similar in meaning, it requires different sentence structure and doesn't fit the をはじめ pattern.",
-        "における means 'in' or 'at' — it doesn't fit here because we're listing examples, not indicating location or context.",
-        "に対する means 'toward' or 'against' — it doesn't fit here because we need をはじめ to show English as the starting example."
-      ],
-      "hiragana_full": "えいごをはじめ、がいこくごのべんきょうがたいせつだ。",
-      "audio_alternatives": [
-        {
-          "kanji": "英語など、外国語の勉強は大切です。",
-          "hiragana_full": "えいごなど、がいこくごのべんきょうはたいせつです。"
-        },
-        {
-          "kanji": "外国語、特に英語を勉強することが大切だ。",
-          "hiragana_full": "がいこくご、とくにえいごをべんきょうすることがたいせつだ。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_089_9",
-      "example_sentence": "ピアノをはじめ、楽器を演奏するのが好きです。",
-      "translation": "Starting with piano, I like playing musical instruments.",
-      "blank_target": "を",
-      "wrong_choices": [
-        "では",
-        "には",
-        "での"
-      ],
-      "wrong_choice_explanations": [
-        "では means 'in' or 'at' (topic marker with location) — it doesn't fit here because we need をはじめ to show piano as the primary example.",
-        "には indicates direction or purpose — it doesn't fit here because we need をはじめ for the 'starting with' meaning.",
-        "での means 'at' or 'in' (location/means) — it doesn't fit here because we're listing examples, not showing location or means."
-      ],
-      "hiragana_full": "ぴあのをはじめ、がっきをえんそうするのがすきです。",
-      "audio_alternatives": [
-        {
-          "kanji": "ピアノなど、楽器を演奏するのが好きです。",
-          "hiragana_full": "ぴあのなど、がっきをえんそうするのがすきです。"
-        },
-        {
-          "kanji": "楽器を演奏するのが好きで、特にピアノが好きです。",
-          "hiragana_full": "がっきをえんそうするのがすきで、とくにぴあのがすきです。"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_089_10",
-      "example_sentence": "寿司をはじめ、日本料理が人気です。",
-      "translation": "Starting with sushi, Japanese cuisine is popular.",
-      "blank_target": "を",
-      "wrong_choices": [
-        "という",
-        "といった",
-        "として"
-      ],
-      "wrong_choice_explanations": [
-        "という would mean 'a thing called sushi' and frames sushi as a label, not as the leading example of Japanese cuisine the way をはじめ does.",
-        "といった ('such as sushi, ...') is a related listing pattern, but it treats sushi as one example among equals, while をはじめ singles sushi out as the representative item.",
-        "として means 'as sushi,' assigning sushi a role or capacity, not introducing it as the foremost member of a wider category."
-      ],
-      "hiragana_full": "すしをはじめ、にほんりょうりがにんきです。",
-      "audio_alternatives": [
-        {
-          "kanji": "寿司などの日本料理が人気です。",
-          "hiragana_full": "すしなどのにほんりょうりがにんきです。"
-        },
-        {
-          "kanji": "寿司をはじめとして、日本料理が人気です。",
-          "hiragana_full": "すしをはじめとして、にほんりょうりがにんきです。"
-        }
-      ],
-      "audio_eligible": true
+      ]
     }
   ]
 }

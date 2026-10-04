@@ -10,13 +10,13 @@
       "translation": "That proposal has content worthy of examination.",
       "blank_target": "に耐える",
       "wrong_choices": [
-        "にたえない",
-        "に値する",
+        "にわたる",
+        "を欠く",
         "として"
       ],
       "wrong_choice_explanations": [
-        "にたえない is the negative form meaning 'unworthy of' or 'cannot bear,' which reverses the meaning. The sentence praises the proposal as worthy of examination.",
-        "に値する means 'deserves' or 'is worth' and is similar, but にたえる specifically emphasizes that something can hold up under scrutiny, not just that it has general merit.",
+        "にわたる means 'spanning / extending over (a period or range)'; 検討にわたる内容 is meaningless, whereas にたえる says the content is good enough to withstand examination.",
+        "を欠く means 'to lack'; 検討を欠く内容 would describe content that has not been examined, not content that is worth examining as にたえる says.",
         "として means 'as' and marks a role or capacity. The sentence needs にたえる to express that the proposal can withstand the process of examination."
       ],
       "hiragana_full": "そのていあんはけんとうにたえるないようである。",
@@ -31,50 +31,34 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "にたえる"
+      "blank_target_reading": "にたえる",
+      "register": "written",
+      "vocab": [
+        {
+          "word": "提案",
+          "reading": "ていあん",
+          "meaning": "proposal"
+        },
+        {
+          "word": "検討",
+          "reading": "けんとう",
+          "meaning": "examination; consideration"
+        }
+      ]
     },
     {
       "id": "n1_008_2",
-      "example_sentence": "この論文は学術誌への掲載に耐える水準だ。",
-      "translation": "This paper is of a standard worthy of publication in an academic journal.",
-      "blank_target": "に耐える",
-      "wrong_choices": [
-        "にふさわしい",
-        "に値する",
-        "に向けた"
-      ],
-      "wrong_choice_explanations": [
-        "にふさわしい means 'suitable for' or 'befitting' and expresses appropriateness. にたえる specifically means the paper can withstand the rigorous review required for journal publication.",
-        "に値する means 'worthy of' in terms of merit, but にたえる emphasizes the ability to hold up under the scrutiny of peer review, not just general worthiness.",
-        "に向けた means 'aimed at' or 'directed toward' and describes a target. The sentence needs にたえる to express that the paper meets the standard to endure academic evaluation."
-      ],
-      "hiragana_full": "このろんぶんはがくじゅつしへのけいさいにたえるすいじゅんだ。",
-      "audio_alternatives": [
-        {
-          "kanji": "この論文は学術誌に掲載するに耐える水準である。",
-          "hiragana_full": "このろんぶんはがくじゅつしにけいさいするにたえるすいじゅんである。"
-        },
-        {
-          "kanji": "この論文は学術誌への掲載に耐えうる水準です。",
-          "hiragana_full": "このろんぶんはがくじゅつしへのけいさいにたえうるすいじゅんです。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "にたえる"
-    },
-    {
-      "id": "n1_008_3",
       "example_sentence": "あの建物は大地震にも耐える構造になっている。",
       "translation": "That building has a structure that can withstand even a major earthquake.",
       "blank_target": "にも耐える",
       "wrong_choices": [
-        "に強い",
-        "に負けない",
+        "に先立つ",
+        "に至る",
         "にも関わらず"
       ],
       "wrong_choice_explanations": [
-        "に強い means 'strong against' and describes a general property. にたえる specifically expresses the ability to endure and survive a destructive force without breaking down.",
-        "に負けない means 'not losing to' and suggests resilience in a competitive sense. にたえる is the formal expression for physically withstanding force or pressure.",
+        "に先立つ means 'preceding / prior to'; 大地震に先立つ構造 is meaningless here, whereas にも耐える says the structure can withstand even a major earthquake.",
+        "に至る means 'to reach / lead to'; 大地震に至る構造 would suggest a structure that leads to an earthquake, not one that withstands it.",
         "にも関わらず means 'despite' and introduces a contradiction. The sentence needs にたえる to describe the building's capacity to endure an earthquake, not a concessive relationship."
       ],
       "hiragana_full": "あのたてものはおおじしんにもたえるこうぞうになっている。",
@@ -89,22 +73,35 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "にもたえる"
+      "blank_target_reading": "にもたえる",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "大地震",
+          "reading": "おおじしん",
+          "meaning": "major earthquake"
+        },
+        {
+          "word": "構造",
+          "reading": "こうぞう",
+          "meaning": "structure"
+        }
+      ]
     },
     {
-      "id": "n1_008_4",
+      "id": "n1_008_3",
       "example_sentence": "この映画は何度見ても鑑賞に耐える名作だ。",
       "translation": "This movie is a masterpiece worthy of watching no matter how many times you see it.",
       "blank_target": "に耐える",
       "wrong_choices": [
         "にたえない",
-        "に足る",
-        "の価値がある"
+        "に及ばない",
+        "に向けた"
       ],
       "wrong_choice_explanations": [
         "にたえない is the negative form meaning 'not worthy of watching,' which contradicts the sentence's praise of the film as a masterpiece.",
-        "に足る means 'sufficient for' or 'enough to' and expresses adequacy. にたえる emphasizes that the film holds up to repeated viewing without losing its quality.",
-        "の価値がある means 'has the value of' and assesses objective worth. にたえる specifically conveys that the work can endure the test of repeated experience."
+        "に及ばない means 'there is no need to / does not reach'; 鑑賞に及ばない名作 would say the film need not be watched, contradicting the praise that にたえる expresses.",
+        "「に向けた」 means 'aimed at / directed toward', so 「鑑賞に向けた名作」 would be a work made for viewing; 「に耐える」 conveys that the work can withstand the test of being watched again and again."
       ],
       "hiragana_full": "このえいがはなんどみてもかんしょうにたえるめいさくだ。",
       "audio_alternatives": [
@@ -118,80 +115,35 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "にたえる"
-    },
-    {
-      "id": "n1_008_5",
-      "example_sentence": "彼の演奏は国際舞台で披露するに耐える技量だ。",
-      "translation": "His performance is of a skill level worthy of presenting on the international stage.",
-      "blank_target": "に耐える",
-      "wrong_choices": [
-        "にふさわしい",
-        "に足りる",
-        "にあたる"
-      ],
-      "wrong_choice_explanations": [
-        "にふさわしい means 'befitting' and expresses general suitability. にたえる emphasizes that the performance can hold up to the demanding standards of an international audience.",
-        "に足りる means 'sufficient for' and suggests meeting a minimum. にたえる conveys that the skill can withstand the pressure and scrutiny of a high-level stage.",
-        "にあたる means 'corresponds to' or 'when doing' and marks an occasion. The sentence needs にたえる to express the performance's ability to endure international-level evaluation."
-      ],
-      "hiragana_full": "かれのえんそうはこくさいぶたいでひろうするにたえるぎりょうだ。",
-      "audio_alternatives": [
+      "blank_target_reading": "にたえる",
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "彼の演奏は国際舞台で披露するに足る技量だ。",
-          "hiragana_full": "かれのえんそうはこくさいぶたいでひろうするにたるぎりょうだ。"
+          "word": "鑑賞",
+          "reading": "かんしょう",
+          "meaning": "appreciation; viewing"
         },
         {
-          "kanji": "彼の演奏は国際舞台で披露するに値する技量である。",
-          "hiragana_full": "かれのえんそうはこくさいぶたいでひろうするにあたいするぎりょうである。"
+          "word": "名作",
+          "reading": "めいさく",
+          "meaning": "masterpiece"
         }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "にたえる"
+      ]
     },
     {
-      "id": "n1_008_6",
-      "example_sentence": "この橋は百年の風雨に耐える設計で造られた。",
-      "translation": "This bridge was built with a design that can withstand a hundred years of weather.",
-      "blank_target": "に耐える",
-      "wrong_choices": [
-        "に強い",
-        "に対する",
-        "を防ぐ"
-      ],
-      "wrong_choice_explanations": [
-        "に強い means 'strong against' and describes a general property, but にたえる specifically expresses the designed capacity to survive and endure prolonged exposure to destructive forces.",
-        "に対する means 'against' or 'toward' and describes a direction or target. にたえる is needed to express the bridge's ability to physically withstand a century of weathering.",
-        "を防ぐ means 'to prevent' and implies blocking something. にたえる means enduring forces that do act upon the structure, not preventing them from occurring."
-      ],
-      "hiragana_full": "このはしはひゃくねんのふううにたえるせっけいでつくられた。",
-      "audio_alternatives": [
-        {
-          "kanji": "この橋は百年の風雨に耐えられる設計で建設された。",
-          "hiragana_full": "このはしはひゃくねんのふううにたえられるせっけいでけんせつされた。"
-        },
-        {
-          "kanji": "この橋は百年の風雨に耐える設計をもって造られた。",
-          "hiragana_full": "このはしはひゃくねんのふううにたえるせっけいをもってつくられた。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "にたえる"
-    },
-    {
-      "id": "n1_008_7",
+      "id": "n1_008_4",
       "example_sentence": "彼女の作品は専門家の批評に耐える完成度を持っている。",
       "translation": "Her work has a level of completeness that can withstand expert criticism.",
       "blank_target": "に耐える",
       "wrong_choices": [
         "にたえない",
         "に応じる",
-        "に値する"
+        "を招く"
       ],
       "wrong_choice_explanations": [
         "にたえない is the negative form meaning 'cannot bear criticism,' which reverses the sentence's praise of the work's high quality.",
         "に応じる means 'to respond to' or 'to comply with' and describes a reaction. にたえる expresses that the work can withstand scrutiny without being found lacking.",
-        "に値する means 'deserves' and expresses general merit. にたえる specifically emphasizes that the work holds up under the rigorous examination of expert critics."
+        "「を招く」 means 'invites / brings about', so 「批評を招く完成度」 is a level of finish that draws criticism — the opposite of 「に耐える」, which says the work holds up under expert criticism."
       ],
       "hiragana_full": "かのじょのさくひんはせんもんかのひひょうにたえるかんせいどをもっている。",
       "audio_alternatives": [
@@ -205,79 +157,34 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "にたえる"
-    },
-    {
-      "id": "n1_008_8",
-      "example_sentence": "この報告書は公表するに耐える正確さだ。",
-      "translation": "This report has accuracy worthy of public release.",
-      "blank_target": "に耐える",
-      "wrong_choices": [
-        "に足る",
-        "にふさわしい",
-        "に向けた"
-      ],
-      "wrong_choice_explanations": [
-        "に足る means 'sufficient for' and expresses meeting a minimum requirement. にたえる conveys that the report can endure the scrutiny that comes with public disclosure.",
-        "にふさわしい means 'appropriate for' and expresses suitability. にたえる specifically means the accuracy level is robust enough to withstand public examination.",
-        "に向けた means 'aimed at' and describes a direction or goal. The sentence requires にたえる to express that the report can hold up under public scrutiny."
-      ],
-      "hiragana_full": "このほうこくしょはこうひょうするにたえるせいかくさだ。",
-      "audio_alternatives": [
+      "blank_target_reading": "にたえる",
+      "register": "neutral",
+      "vocab": [
         {
-          "kanji": "この報告書は公表に値する正確さを持っている。",
-          "hiragana_full": "このほうこくしょはこうひょうにあたいするせいかくさをもっている。"
+          "word": "批評",
+          "reading": "ひひょう",
+          "meaning": "criticism; critique"
         },
         {
-          "kanji": "この報告書の正確さは公表に耐えうるものだ。",
-          "hiragana_full": "このほうこくしょのせいかくさはこうひょうにたえうるものだ。"
+          "word": "完成度",
+          "reading": "かんせいど",
+          "meaning": "degree of completion; quality"
         }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "にたえる"
+      ]
     },
     {
-      "id": "n1_008_9",
-      "example_sentence": "長年の使用に耐える素材が選ばれている。",
-      "translation": "Materials that can withstand years of use have been selected.",
-      "blank_target": "に耐える",
-      "wrong_choices": [
-        "に適した",
-        "に強い",
-        "に向いた"
-      ],
-      "wrong_choice_explanations": [
-        "に適した means 'suitable for' and expresses general fitness. にたえる specifically means the materials can physically endure the wear and deterioration of long-term use.",
-        "に強い means 'strong against' and describes a general property. にたえる is the formal expression for being able to survive prolonged physical stress without breaking down.",
-        "に向いた means 'suited for' and describes aptitude. にたえる emphasizes the durability to endure the specific challenge of years of physical use."
-      ],
-      "hiragana_full": "ながねんのしようにたえるそざいがえらばれている。",
-      "audio_alternatives": [
-        {
-          "kanji": "長年の使用に耐えられる素材が選定されている。",
-          "hiragana_full": "ながねんのしようにたえられるそざいがせんていされている。"
-        },
-        {
-          "kanji": "長期間の使用に耐える材料が選ばれている。",
-          "hiragana_full": "ちょうきかんのしようにたえるざいりょうがえらばれている。"
-        }
-      ],
-      "audio_eligible": true,
-      "blank_target_reading": "にたえる"
-    },
-    {
-      "id": "n1_008_10",
+      "id": "n1_008_5",
       "example_sentence": "この翻訳は原文の精神を保ちつつ、出版に耐える品質である。",
       "translation": "This translation maintains the spirit of the original and is of a quality worthy of publication.",
       "blank_target": "に耐える",
       "wrong_choices": [
-        "に値する",
-        "に見合う",
+        "に向けた",
+        "に先立つ",
         "として"
       ],
       "wrong_choice_explanations": [
-        "に値する means 'deserves' and expresses general worthiness. にたえる emphasizes that the translation can hold up under the critical examination that publication entails.",
-        "に見合う means 'commensurate with' and expresses proportional match. にたえる conveys that the translation can withstand the high standards and scrutiny of the publishing process.",
+        "「に向けた」 means 'directed toward / aimed at', so 「出版に向けた品質」 describes quality prepared for publication; 「に耐える」 instead says the quality can withstand the scrutiny that publication brings.",
+        "に先立つ means 'preceding / prior to'; 出版に先立つ品質 describes nothing coherent, whereas にたえる says the quality is good enough to withstand publication.",
         "として means 'as' and marks a role. The sentence needs にたえる to express that the quality is robust enough to endure the demands of publication."
       ],
       "hiragana_full": "このほんやくはげんぶんのせいしんをたもちつつ、しゅっぱんにたえるひんしつである。",
@@ -292,6 +199,269 @@
         }
       ],
       "audio_eligible": true,
+      "blank_target_reading": "にたえる",
+      "register": "written",
+      "vocab": [
+        {
+          "word": "翻訳",
+          "reading": "ほんやく",
+          "meaning": "translation"
+        },
+        {
+          "word": "原文",
+          "reading": "げんぶん",
+          "meaning": "original text"
+        },
+        {
+          "word": "精神",
+          "reading": "せいしん",
+          "meaning": "spirit; essence"
+        }
+      ]
+    },
+    {
+      "id": "n1_008_6",
+      "example_sentence": "この作品は時代を超えて鑑賞に耐える名作だ。",
+      "translation": "This work is a masterpiece worth appreciating across the ages.",
+      "blank_target": "に耐える",
+      "wrong_choices": [
+        "に及ばない",
+        "にあたらない",
+        "を余儀なくされる"
+      ],
+      "wrong_choice_explanations": [
+        "「に及ばない」は「〜する必要がない/には届かない」意で、「鑑賞に及ばない名作」だと鑑賞するまでもない、という逆の評価になり、名作だと称える文意に合わない。",
+        "「にあたらない」は「〜するほどのことではない」意で、「鑑賞にあたらない」は鑑賞に値しないという否定評価になり、称賛の文脈と矛盾する。",
+        "「を余儀なくされる」は「やむを得ず〜させられる」意で、鑑賞を強制される名作、という不自然な意味になり文意に合わない。"
+      ],
+      "hiragana_full": "このさくひんはじだいをこえてかんしょうにたえるめいさくだ。",
+      "audio_alternatives": [
+        {
+          "kanji": "この作品は世代を問わず鑑賞に耐える傑作だ。",
+          "hiragana_full": "このさくひんはせだいをとわずかんしょうにたえるけっさくだ。"
+        },
+        {
+          "kanji": "時代を経ても鑑賞に耐えうる、優れた作品である。",
+          "hiragana_full": "じだいをへてもかんしょうにたええる、すぐれたさくひんである。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "作品",
+          "reading": "さくひん",
+          "meaning": "work (of art)"
+        },
+        {
+          "word": "時代",
+          "reading": "じだい",
+          "meaning": "era, age"
+        },
+        {
+          "word": "名作",
+          "reading": "めいさく",
+          "meaning": "masterpiece"
+        }
+      ],
+      "blank_target_reading": "にたえる"
+    },
+    {
+      "id": "n1_008_7",
+      "example_sentence": "この橋は大型車両の通行に耐える強度を備えている。",
+      "translation": "This bridge has the strength to withstand the passage of large vehicles.",
+      "blank_target": "に耐える",
+      "wrong_choices": [
+        "に及ばない",
+        "に足りない",
+        "を余儀なくされる"
+      ],
+      "wrong_choice_explanations": [
+        "「に及ばない」は「〜する必要がない/には至らない」意で、「通行に及ばない強度」では意味が通らず、荷重に耐える強度という文意に合わない。",
+        "「に足りない」は「〜するに値しない/足りない」意で、強度が通行に不足しているという逆の意味になり、十分な強度を持つという文意と矛盾する。",
+        "「を余儀なくされる」は「やむを得ず〜させられる」意で、「通行を余儀なくされる」は通行を強いられる意になり、強度の説明にならない。"
+      ],
+      "hiragana_full": "このはしはおおがたしゃりょうのつうこうにたえるきょうどをそなえている。",
+      "audio_alternatives": [
+        {
+          "kanji": "この橋梁は重量車の往来に耐える設計になっている。",
+          "hiragana_full": "このきょうりょうはじゅうりょうしゃのおうらいにたえるせっけいになっている。"
+        },
+        {
+          "kanji": "大型車が通っても持ちこたえられるだけの強度がこの橋にはある。",
+          "hiragana_full": "おおがたしゃがとおってももちこたえられるだけのきょうどがこのはしにはある。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "車両",
+          "reading": "しゃりょう",
+          "meaning": "vehicle"
+        },
+        {
+          "word": "通行",
+          "reading": "つうこう",
+          "meaning": "passage, traffic"
+        },
+        {
+          "word": "強度",
+          "reading": "きょうど",
+          "meaning": "strength"
+        },
+        {
+          "word": "備える",
+          "reading": "そなえる",
+          "meaning": "to be equipped with"
+        }
+      ],
+      "blank_target_reading": "にたえる"
+    },
+    {
+      "id": "n1_008_8",
+      "example_sentence": "厳しい第三者の検証に耐えてこそ、その研究は信頼される。",
+      "translation": "Only by withstanding rigorous third-party verification does research earn trust.",
+      "blank_target": "に耐えて",
+      "wrong_choices": [
+        "に応じて",
+        "に沿って",
+        "をよそに"
+      ],
+      "wrong_choice_explanations": [
+        "「に応じて」は「〜に対応して/合わせて」意で、「検証に応じて」は検証に合わせて何かを変える意になり、検証に持ちこたえるという文意に合わない。",
+        "「に沿って」は「〜に従って」意で、「検証に沿って」は検証の手順どおりに、という意になり、検証を耐え抜くという意味を表せない。",
+        "「をよそに」は「〜を気にかけずに」意で、「検証をよそに」は検証を無視して、という逆の意味になり、信頼を得る条件を述べる文意と矛盾する。"
+      ],
+      "hiragana_full": "きびしいだいさんしゃのけんしょうにたえてこそ、そのけんきゅうはしんらいされる。",
+      "audio_alternatives": [
+        {
+          "kanji": "客観的な検証に耐えて初めて、その理論は認められる。",
+          "hiragana_full": "きゃっかんてきなけんしょうにたえてはじめて、そのりろんはみとめられる。"
+        },
+        {
+          "kanji": "第三者による厳格な検証に耐えうる研究だけが信頼を得る。",
+          "hiragana_full": "だいさんしゃによるげんかくなけんしょうにたええるけんきゅうだけがしんらいをえる。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "検証",
+          "reading": "けんしょう",
+          "meaning": "verification"
+        },
+        {
+          "word": "研究",
+          "reading": "けんきゅう",
+          "meaning": "research"
+        },
+        {
+          "word": "信頼",
+          "reading": "しんらい",
+          "meaning": "trust"
+        }
+      ],
+      "blank_target_reading": "にたえて"
+    },
+    {
+      "id": "n1_008_9",
+      "example_sentence": "安価な部材だが、意外にも長期の使用に耐える。",
+      "translation": "Though it's a cheap material, it surprisingly withstands long-term use.",
+      "blank_target": "に耐える",
+      "wrong_choices": [
+        "に及ばない",
+        "に過ぎない",
+        "を要する"
+      ],
+      "wrong_choice_explanations": [
+        "「に及ばない」は「〜する必要がない」意で、「使用に及ばない」は使う必要がないという意になり、長く使えるという文意に合わない。",
+        "「に過ぎない」は「ただ〜だけだ」意で、「使用に過ぎない」は単なる使用にすぎない、という意になり、耐久性を述べる文意とかみ合わない。",
+        "「を要する」は「〜を必要とする」意で、「使用を要する」は使用を必要とする、という意になり、長期使用に持ちこたえるという意味を表せない。"
+      ],
+      "hiragana_full": "あんかなぶざいだが、いがいにもちょうきのしようにたえる。",
+      "audio_alternatives": [
+        {
+          "kanji": "値は張らないのに、この素材は長年の使用に耐える。",
+          "hiragana_full": "ねははらないのに、このそざいはながねんのしようにたえる。"
+        },
+        {
+          "kanji": "廉価ながら、長期間の使用に耐えうる丈夫な部材だ。",
+          "hiragana_full": "れんかながら、ちょうきかんのしようにたええるじょうぶなぶざいだ。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "安価",
+          "reading": "あんか",
+          "meaning": "cheap, low-priced"
+        },
+        {
+          "word": "部材",
+          "reading": "ぶざい",
+          "meaning": "material, component"
+        },
+        {
+          "word": "長期",
+          "reading": "ちょうき",
+          "meaning": "long-term"
+        }
+      ],
+      "blank_target_reading": "にたえる"
+    },
+    {
+      "id": "n1_008_10",
+      "example_sentence": "その仮説は度重なる反証に耐える堅牢な理論となった。",
+      "translation": "The hypothesis became a robust theory that withstands repeated refutation.",
+      "blank_target": "に耐える",
+      "wrong_choices": [
+        "に及ばない",
+        "を顧みない",
+        "にほかならない"
+      ],
+      "wrong_choice_explanations": [
+        "「に及ばない」は「〜する必要がない/には至らない」意で、「反証に及ばない理論」では意味が通らず、反証に持ちこたえるという文意に合わない。",
+        "「を顧みない」は「〜を気にかけない」意で、「反証を顧みない理論」は反証を無視する理論、という意になり、反証を乗り越える堅牢さとはニュアンスが異なる。",
+        "「にほかならない」は「まさに〜だ」と断定する意で、「反証にほかならない」は反証そのものだ、という意になり、理論の堅牢さを述べる文意と合わない。"
+      ],
+      "hiragana_full": "そのかせつはたびかさなるはんしょうにたえるけんろうなりろんとなった。",
+      "audio_alternatives": [
+        {
+          "kanji": "その理論は、いかなる反証に耐えるほど強固なものとなった。",
+          "hiragana_full": "そのりろんは、いかなるはんしょうにたえるほどきょうこなものとなった。"
+        },
+        {
+          "kanji": "繰り返される反証にも持ちこたえ、仮説は確かな理論へと成熟した。",
+          "hiragana_full": "くりかえされるはんしょうにももちこたえ、かせつはたしかなりろんへとせいじゅくした。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "written",
+      "vocab": [
+        {
+          "word": "仮説",
+          "reading": "かせつ",
+          "meaning": "hypothesis"
+        },
+        {
+          "word": "度重なる",
+          "reading": "たびかさなる",
+          "meaning": "repeated"
+        },
+        {
+          "word": "反証",
+          "reading": "はんしょう",
+          "meaning": "counterevidence, refutation"
+        },
+        {
+          "word": "堅牢",
+          "reading": "けんろう",
+          "meaning": "robust, solid"
+        }
+      ],
       "blank_target_reading": "にたえる"
     }
   ]

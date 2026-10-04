@@ -10,14 +10,14 @@
       "translation": "Please be quiet during class.",
       "blank_target": "中",
       "wrong_choices": [
-        "の間",
-        "の途中",
-        "の最中"
+        "前",
+        "後",
+        "用"
       ],
       "wrong_choice_explanations": [
-        "の間 is the analytic 'during/while': 授業の間 is grammatical, but the bound suffix 中 forms the tighter, conventional compound 授業中 used as a standing phrase for 'in class'. の間 puts the emphasis on the time span itself rather than the in-progress state.",
-        "の途中 means 'midway/partway through' and is typically used for journeys or step-by-step processes (帰り道の途中); for a discrete activity like a class period, 中 is the natural choice.",
-        "の最中 means 'right in the thick of it' — emphatic and slightly dramatic. For a neutral request to be quiet, 中 is the unmarked form."
+        "前 makes 授業前 'before class' — a real word, but the request is about the time during class. 中 marks 'in the middle of' the class.",
+        "後 makes 授業後 'after class', which changes when the rule applies. 中 means 'during class'.",
+        "用 makes 授業用 'for use in class' (授業用のノート) and describes things, not a time. 中 marks the time when class is going on."
       ],
       "hiragana_full": "じゅぎょうちゅうはしずかにしてください。",
       "audio_alternatives": [
@@ -31,7 +31,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ちゅう"
+      "blank_target_reading": "ちゅう",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "授業",
+          "reading": "じゅぎょう",
+          "meaning": "class; lesson"
+        },
+        {
+          "word": "静かに",
+          "reading": "しずかに",
+          "meaning": "quietly"
+        }
+      ]
     },
     {
       "id": "n5_073_2",
@@ -60,7 +73,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ちゅう"
+      "blank_target_reading": "ちゅう",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "会議",
+          "reading": "かいぎ",
+          "meaning": "meeting"
+        }
+      ]
     },
     {
       "id": "n5_073_3",
@@ -68,14 +89,14 @@
       "translation": "It rained the whole day.",
       "blank_target": "中",
       "wrong_choices": [
-        "の間",
-        "の途中",
-        "の最中"
+        "おき",
+        "前",
+        "後"
       ],
       "wrong_choice_explanations": [
-        "の間 means 'during/while' (analytic), but 一日中 — read いちにちじゅう here — uses the bound suffix to mean 'throughout the entire day' as a fixed compound. Note this is the じゅう reading of 中, not ちゅう: 中 takes じゅう when expressing 'all of / throughout' a span.",
-        "の途中 means 'midway/halfway through' and would imply partway through the day. 一日中 means the full extent of the day from start to end — the rain didn't stop.",
-        "の最中 means 'right in the middle of' and is too emphatic for a simple statement that the rain lasted all day. The bound suffix 中 (じゅう) is the natural choice for 'throughout'."
+        "おき makes 一日おき 'every other day', which says the rain came on alternate days. 中 — read じゅう here — means 'all through the day'.",
+        "前 makes 一日前 'one day before', pointing to a single earlier day. 一日中 (いちにちじゅう) means it rained the whole day.",
+        "後 makes 一日後 'one day later'. 中 (じゅう) means 'throughout' — the rain didn't stop all day."
       ],
       "hiragana_full": "いちにちじゅう、あめがふっていた。",
       "audio_alternatives": [
@@ -89,7 +110,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "じゅう"
+      "blank_target_reading": "じゅう",
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "降っていた",
+          "reading": "ふっていた",
+          "meaning": "was raining/falling"
+        }
+      ]
     },
     {
       "id": "n5_073_4",
@@ -97,13 +126,13 @@
       "translation": "During summer vacation, I went to the beach with my family.",
       "blank_target": "中",
       "wrong_choices": [
-        "に",
-        "の間",
+        "前に",
+        "明け",
         "から"
       ],
       "wrong_choice_explanations": [
-        "に marks a specific time point ('at summer vacation'), but summer vacation is an extended span — 中 turns it into a temporal frame in which the event occurred.",
-        "の間 ('during') is grammatically possible (夏休みの間) but emphasizes the duration as a whole; 中 is the conventional compact form for 'sometime within the vacation period'.",
+        "前に means 'before' — 夏休み前に would put the beach trip before the vacation started, but the translation says it was during the vacation, which 中 expresses.",
+        "明け makes 夏休み明け 'right after summer vacation ends'. The trip was during the vacation, so 中 is needed.",
         "から means 'from' and would need a corresponding まで ('until') to mark a time period; on its own it can't express 'during'."
       ],
       "hiragana_full": "なつやすみちゅう、かぞくとうみにいきました。",
@@ -118,7 +147,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ちゅう"
+      "blank_target_reading": "ちゅう",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "家族",
+          "reading": "かぞく",
+          "meaning": "family"
+        }
+      ]
     },
     {
       "id": "n5_073_5",
@@ -127,13 +164,13 @@
       "blank_target": "中",
       "wrong_choices": [
         "をしている",
-        "の最中",
-        "の途中"
+        "の前",
+        "の後"
       ],
       "wrong_choice_explanations": [
-        "をしている would form 電話をしている ('am doing a phone call'), which is grammatical but wordier; 電話中 is the conventional concise expression for 'on the phone' and pairs naturally with なので.",
-        "の最中 would form 電話の最中, emphatic 'right in the middle of a phone call' — too dramatic for a simple notice. 電話中 is the neutral form.",
-        "の途中 would form 電話の途中, meaning 'midway through a phone call' — suggests the call is partly done. 電話中 simply marks the in-progress state without implying a midpoint."
+        "をしている would give 電話をしているなので, but なので can't follow a verb directly (it would need 電話をしているので). 電話中 is a noun, so なので fits.",
+        "の前 makes 電話の前 'before the call', so the reason for quiet disappears. 中 means 'on the phone right now'.",
+        "の後 makes 電話の後 'after the call' — the call is over, so there's no reason to be quiet. 中 means the call is in progress."
       ],
       "hiragana_full": "でんわちゅうなので、しずかにしてください。",
       "audio_alternatives": [
@@ -147,7 +184,8 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ちゅう"
+      "blank_target_reading": "ちゅう",
+      "register": "neutral"
     },
     {
       "id": "n5_073_6",
@@ -155,14 +193,14 @@
       "translation": "He is famous all over the world.",
       "blank_target": "中",
       "wrong_choices": [
-        "全体",
-        "各地",
-        "内"
+        "内",
+        "史",
+        "一"
       ],
       "wrong_choice_explanations": [
-        "全体 would form 世界全体, meaning 'the whole world' as a single unit. The bound suffix 中 — read じゅう here — means 'throughout / all over' and emphasizes pervasive distribution, the right nuance for 'famous everywhere'.",
-        "各地 would form 世界各地, meaning 'various places in the world,' which fits some contexts but suggests scattered locations rather than the blanket 'all over' that 世界中 (じゅう) conveys.",
-        "内 marks bounded interiors (室内 'indoors', 国内 'domestic'); 世界内 is not a natural expression. For 'throughout the world', the bound suffix 中 (じゅう) is the standard form."
+        "内 marks bounded interiors (室内 'indoors', 国内 'domestic'); 世界内 is not a natural expression. For 'all over the world', the suffix 中 (じゅう) is the standard form.",
+        "史 makes 世界史 'world history' (the school subject), which changes the meaning to 'famous in world history class'. 世界中 (せかいじゅう) means 'throughout the world'.",
+        "一 makes 世界一 'the best in the world', which can't take で here (世界一で有名 is ungrammatical). 世界中で means 'all over the world'."
       ],
       "hiragana_full": "かれはせかいじゅうでゆうめいです。",
       "audio_alternatives": [
@@ -176,7 +214,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "じゅう"
+      "blank_target_reading": "じゅう",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "世界",
+          "reading": "せかい",
+          "meaning": "world"
+        },
+        {
+          "word": "有名",
+          "reading": "ゆうめい",
+          "meaning": "famous"
+        }
+      ]
     },
     {
       "id": "n5_073_7",
@@ -185,13 +236,13 @@
       "blank_target": "中",
       "wrong_choices": [
         "している",
-        "の途中",
-        "の最中"
+        "前",
+        "後"
       ],
       "wrong_choice_explanations": [
-        "している would form 営業している ('is doing business'), which is grammatical but lacks the conventional sign-like quality of 営業中, the standard form printed on shop signs and notices.",
-        "の途中 would form 営業の途中, meaning 'midway through doing business' — implying the shop is partway through some specific operation, not the broad 'open for business' state that 営業中 marks.",
-        "の最中 would emphasize 'right in the thick of business hours,' which is too dramatic for a simple statement that the shop is currently open. 営業中 is the conventional neutral form."
+        "している would give 営業しているなので, but なので can't follow a verb directly (it would need 営業しているので). 営業中 is a noun — 'open for business'.",
+        "前 makes 営業前 'before opening', which contradicts 入れます ('we can go in'). 営業中 means the shop is open now.",
+        "後 makes 営業後 'after closing time', which also contradicts 入れます. 営業中 means 'currently open'."
       ],
       "hiragana_full": "あのみせはいま、えいぎょうちゅうなのではいれます。",
       "audio_alternatives": [
@@ -205,7 +256,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ちゅう"
+      "blank_target_reading": "ちゅう",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "営業",
+          "reading": "えいぎょう",
+          "meaning": "business; operation"
+        },
+        {
+          "word": "入れます",
+          "reading": "はいれます",
+          "meaning": "can enter"
+        }
+      ]
     },
     {
       "id": "n5_073_8",
@@ -214,13 +278,13 @@
       "blank_target": "中",
       "wrong_choices": [
         "をしている",
-        "の途中",
-        "の最中"
+        "用",
+        "室"
       ],
       "wrong_choice_explanations": [
-        "をしている would form 準備をしている ('are doing preparation'), which is grammatical but less natural for a formal notice; 準備中 is the conventional sign-like form often seen on store entrances and service counters.",
-        "の途中 would form 準備の途中, meaning 'midway through preparing' — suggests the preparation is partly done. 準備中 captures the general 'in-progress' state without implying a midpoint.",
-        "の最中 would form 準備の最中, emphatic 'right in the thick of preparing' — too dramatic for a polite notice. 準備中 is the neutral form expected in this register."
+        "をしている would give 準備をしているですから, but ですから can't follow a verb (it would need 準備をしていますから). 準備中 is a noun, so ですから fits.",
+        "用 makes 準備用 'for preparation use' (準備用の道具), which describes things, not the current state. 準備中 means 'being prepared right now'.",
+        "室 makes 準備室 'preparation room' — 'it's the prep room, so wait' doesn't make sense. 準備中 means the preparation is still going on."
       ],
       "hiragana_full": "じゅんびちゅうですから、もうすこしまってください。",
       "audio_alternatives": [
@@ -234,7 +298,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ちゅう"
+      "blank_target_reading": "ちゅう",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "準備",
+          "reading": "じゅんび",
+          "meaning": "preparations"
+        }
+      ]
     },
     {
       "id": "n5_073_9",
@@ -242,14 +314,14 @@
       "translation": "I study at the library during exam period.",
       "blank_target": "中",
       "wrong_choices": [
-        "の間",
-        "に",
-        "のとき"
+        "後",
+        "まで",
+        "以外"
       ],
       "wrong_choice_explanations": [
-        "の間 is the analytic 'during' and is grammatical (試験期間の間), but 試験期間中 is the conventional compact form that frames the exam period as the active context for study.",
-        "に marks a specific time point, but the exam period is an extended span requiring a duration marker like 中.",
-        "のとき means 'when/at the time of' and suggests a specific moment rather than the extended period during which one habitually studies."
+        "後 makes 試験期間後 'after the exam period', which changes when the studying happens. 中 means 'during the exam period'.",
+        "まで means 'until' — 試験期間まで would mean studying at the library only up to the start of the exam period, not during it, which 中 expresses.",
+        "以外 makes 試験期間以外 'except during the exam period' — the opposite of the meaning. 中 means 'during'."
       ],
       "hiragana_full": "しけんきかんちゅうはとしょかんでべんきょうします。",
       "audio_alternatives": [
@@ -263,7 +335,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ちゅう"
+      "blank_target_reading": "ちゅう",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "試験",
+          "reading": "しけん",
+          "meaning": "exam"
+        },
+        {
+          "word": "期間",
+          "reading": "きかん",
+          "meaning": "period"
+        }
+      ]
     },
     {
       "id": "n5_073_10",
@@ -271,14 +356,14 @@
       "translation": "I'm not at work right now, so we can talk leisurely.",
       "blank_target": "中",
       "wrong_choices": [
-        "の途中",
         "している",
-        "の最中"
+        "用",
+        "後"
       ],
       "wrong_choice_explanations": [
-        "の途中 would form 仕事の途中, meaning 'midway through work' — but the sentence asserts the speaker is NOT in the work state at all (using ではない). The bound suffix 中 pairs cleanly with this categorical negation.",
-        "している would form 仕事している, which is grammatical but doesn't combine as naturally with ではない; 仕事中ではない is the conventional way to deny the 'currently working' state.",
-        "の最中 would form 仕事の最中, emphatic 'right in the thick of work' — too dramatic for a simple negation. 仕事中 (and its negation) is the neutral form."
+        "している would give 仕事しているではない, which is ungrammatical (the negative of a verb is 仕事していない). 仕事中 is a noun, so ではない fits.",
+        "用 makes 仕事用 'for work use' (仕事用のパソコン), which describes things, not a person's state. 仕事中ではない means 'I'm not working right now'.",
+        "後 makes 仕事後 'after work', and 今は仕事後ではない doesn't make sense. 仕事中 marks 'in the middle of work'."
       ],
       "hiragana_full": "いまはしごとちゅうではないので、ゆっくりはなせます。",
       "audio_alternatives": [
@@ -292,7 +377,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ちゅう"
+      "blank_target_reading": "ちゅう",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "話せます",
+          "reading": "はなせます",
+          "meaning": "can talk"
+        }
+      ]
     }
   ]
 }

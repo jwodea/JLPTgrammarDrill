@@ -10,12 +10,12 @@
       "translation": "I make an effort to exercise every day.",
       "blank_target": "ようにしています",
       "wrong_choices": [
-        "ことにしています",
+        "ことになっています",
         "つもりです",
         "ことがあります"
       ],
       "wrong_choice_explanations": [
-        "ことにしています means 'I've decided to'; expresses a firm decision rather than ongoing conscious effort to exercise daily.",
+        "ことになっています means 'it has been arranged that / it's the rule that': 運動することになっています would say daily exercise is an external arrangement imposed on the speaker. The sentence describes the speaker's own conscious effort, which is what ようにしています expresses.",
         "つもりです means 'I intend to'; states intention but doesn't convey the habitual effort that ようにしています expresses.",
         "ことがあります means 'sometimes happens'; indicates occasional occurrence, not deliberate daily effort to exercise."
       ],
@@ -30,7 +30,15 @@
           "hiragana_full": "まいにちうんどうすることにしています"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "運動",
+          "reading": "うんどう",
+          "meaning": "exercise"
+        }
+      ]
     },
     {
       "id": "n4_005_2",
@@ -58,7 +66,8 @@
           "hiragana_full": "こどもにやさしくはなしかけるようにしています"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n4_005_3",
@@ -66,12 +75,12 @@
       "translation": "I make an effort not to be late.",
       "blank_target": "ようにしています",
       "wrong_choices": [
-        "ことにしています",
+        "はずです",
         "ようになりました",
         "つもりです"
       ],
       "wrong_choice_explanations": [
-        "遅刻しないことにしています frames punctuality as a firm decision the speaker has made ('I've decided not to be late'); ようにしています instead describes the ongoing effort of trying to live up to that — less a one-time resolution, more a continuous practice.",
+        "はずです means 'is supposed to / should (by expectation)': 遅刻しないはずです states a confident prediction that lateness won't happen, based on some reasoning. The sentence instead reports the speaker's own ongoing effort to avoid being late, which is what ようにしています expresses.",
         "遅刻しないようになりました marks a completed change ('I've come to no longer be late'), reporting the result; ようにしています is mid-process — the speaker is still actively making the effort, not yet declaring success.",
         "遅刻しないつもりです expresses bare intention ('I intend not to be late'); ようにしています is stronger — it claims the speaker is currently doing things to make it so, not merely planning."
       ],
@@ -86,7 +95,15 @@
           "hiragana_full": "ちこくしないようつとめています"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "遅刻",
+          "reading": "ちこく",
+          "meaning": "being late"
+        }
+      ]
     },
     {
       "id": "n4_005_4",
@@ -114,7 +131,15 @@
           "hiragana_full": "けんこうのためにたくさんやさいをたべるようにしています"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "健康",
+          "reading": "けんこう",
+          "meaning": "health"
+        }
+      ]
     },
     {
       "id": "n4_005_5",
@@ -142,7 +167,20 @@
           "hiragana_full": "じゅぎょうちゅう、けいたいをつかわないようにしています。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "授業中",
+          "reading": "じゅぎょうちゅう",
+          "meaning": "during class"
+        },
+        {
+          "word": "携帯電話",
+          "reading": "けいたいでんわ",
+          "meaning": "mobile phone"
+        }
+      ]
     },
     {
       "id": "n4_005_6",
@@ -170,7 +208,8 @@
           "hiragana_full": "まいあさはやおきするようにしています"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n4_005_7",
@@ -198,38 +237,11 @@
           "hiragana_full": "ともだちのはなしをちゃんときくようにしています"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n4_005_8",
-      "example_sentence": "お酒を飲みすぎないようにしています。",
-      "translation": "I try not to drink too much alcohol.",
-      "blank_target": "ようにしています",
-      "wrong_choices": [
-        "ことにしました",
-        "ようになりました",
-        "方がいいです"
-      ],
-      "wrong_choice_explanations": [
-        "飲みすぎないことにしました reports a past one-time resolution ('I decided to stop drinking too much'); ようにしています instead describes the ongoing effort of holding to that — implying the practice is still actively being maintained, not just settled in the past.",
-        "飲みすぎないようになりました announces a completed change of habit ('I no longer drink too much'); ようにしています is mid-process — the speaker is still working at moderation, not declaring it accomplished.",
-        "飲みすぎない方がいいです expresses general advice ('one had better not drink too much'); ようにしています reports what the speaker personally does, not what is recommended in the abstract."
-      ],
-      "hiragana_full": "おさけをのみすぎないようにしています",
-      "audio_alternatives": [
-        {
-          "kanji": "お酒を飲みすぎないように気をつけています。",
-          "hiragana_full": "おさけをのみすぎないようにきをつけています"
-        },
-        {
-          "kanji": "お酒を飲みすぎないようにしてます。",
-          "hiragana_full": "おさけをのみすぎないようにしてます"
-        }
-      ],
-      "audio_eligible": true
-    },
-    {
-      "id": "n4_005_9",
       "example_sentence": "電車で席を譲るようにしています。",
       "translation": "I make an effort to give up my seat on the train.",
       "blank_target": "ようにしています",
@@ -254,35 +266,78 @@
           "hiragana_full": "でんしゃではなるべくせきをゆずるようにしています"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "席",
+          "reading": "せき",
+          "meaning": "seat"
+        },
+        {
+          "word": "譲る",
+          "reading": "ゆずる",
+          "meaning": "give up / offer (a seat)"
+        }
+      ]
+    },
+    {
+      "id": "n4_005_9",
+      "example_sentence": "毎日、メールをチェックするようにしています。",
+      "translation": "I make an effort to check emails every day.",
+      "blank_target": "するようにしています",
+      "wrong_choices": [
+        "するつもりです",
+        "することがあります",
+        "ために"
+      ],
+      "wrong_choice_explanations": [
+        "つもりです means 'intend to do' but expresses a planned intention rather than an established habit or ongoing effort.",
+        "ことがあります means 'sometimes do' but focuses on occasional actions, not consistent daily effort.",
+        "ために means 'in order to', but ようにする is more specifically about the manner or effort to ensure regular behavior occurs."
+      ],
+      "hiragana_full": "まいにち、めーるをちぇっくするようにしています。",
+      "audio_alternatives": [
+        {
+          "kanji": "毎日、メールを確認するようにしています。",
+          "hiragana_full": "まいにち、めーるをかくにんするようにしています。"
+        },
+        {
+          "kanji": "毎日、メールをチェックするよう心がけています。",
+          "hiragana_full": "まいにち、めーるをちぇっくするようこころがけています。"
+        }
+      ],
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n4_005_10",
-      "example_sentence": "階段を使って運動不足を解消するようにしています。",
-      "translation": "I try to solve my lack of exercise by using the stairs.",
-      "blank_target": "ようにしています",
+      "example_sentence": "子どもの頃から、毎晩本を読むようにしている。",
+      "translation": "Since childhood, I have made it a habit to read a book every night.",
+      "blank_target": "むようにしている",
       "wrong_choices": [
-        "ことにしました",
-        "予定です",
-        "ことでしょう"
+        "むようになっている",
+        "むはずです",
+        "むべきです"
       ],
       "wrong_choice_explanations": [
-        "ことにしました means 'I decided'; expresses a past decision but doesn't show the ongoing effort to maintain this habit.",
-        "予定です means 'I plan to'; indicates future plans but not the current continuous effort to use stairs for exercise.",
-        "ことでしょう means 'it will probably be'; expresses future probability, not present deliberate effort to address lack of exercise."
+        "むようになっている suggests a natural change in ability that occurred over time, not a deliberately maintained habit since childhood.",
+        "むはずです means 'should be' or 'is supposed to be' and expresses expectation, not a personal habit or effort.",
+        "むべきです means 'should' or 'ought to' and expresses obligation or recommendation, not the personal habit reflected in the original sentence."
       ],
-      "hiragana_full": "かいだんをつかってうんどうぶそくをかいしょうするようにしています",
+      "hiragana_full": "こどものころから、まいばんほんをよむようにしている。",
       "audio_alternatives": [
         {
-          "kanji": "階段を使って運動不足を解消するようにしてます。",
-          "hiragana_full": "かいだんをつかってうんどうぶそくをかいしょうするようにしてます"
+          "kanji": "子どもの頃から、毎晩本を読む習慣がある。",
+          "hiragana_full": "こどものころから、まいばんほんをよむしゅうかんがある。"
         },
         {
-          "kanji": "運動不足を解消するために、階段を使うようにしています。",
-          "hiragana_full": "うんどうぶそくをかいしょうするために、かいだんをつかうようにしています"
+          "kanji": "幼い頃から、毎晩本を読むようにしています。",
+          "hiragana_full": "おさないころから、まいばんほんをよむようにしています。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     }
   ]
 }

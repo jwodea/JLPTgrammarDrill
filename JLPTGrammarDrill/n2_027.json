@@ -10,13 +10,13 @@
       "translation": "I am unbearably sleepy.",
       "blank_target": "くてたまらない",
       "wrong_choices": [
-        "くてならない",
-        "くてしょうがない",
+        "くても",
+        "そうだ",
         "くてやまない"
       ],
       "wrong_choice_explanations": [
-        "くてならない is a near-synonym ('can't help feeling...') but is most natural with spontaneous emotional or mental states (悲しくてならない, 残念でならない); for acute physical sensations like sleepiness, てたまらない is the conventional pairing.",
-        "くてしょうがない means 'can't help being...' and overlaps with てたまらない, but it has a more resigned, everyday feel; てたまらない here emphasises the intensity of being barely able to stay awake.",
+        "くても gives 眠くても ('even if I'm sleepy'), a concession that grants the sleepiness and moves past it; てたまらない instead reports the sleepiness itself as unbearable, not something to wave off.",
+        "そうだ gives 眠そうだ ('looks sleepy'), the 様態 form describing how a person appears from the outside; てたまらない states the speaker's own felt, unbearable sleepiness.",
         "くてやまない is a literary form used for sustained positive feelings (尊敬してやまない, 期待してやまない), not transient physical states like sleepiness."
       ],
       "hiragana_full": "ねむくてたまらない",
@@ -30,7 +30,8 @@
           "hiragana_full": "たまらないほどねむい"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n2_027_2",
@@ -38,13 +39,13 @@
       "translation": "I desperately want to see the art exhibition.",
       "blank_target": "くてたまらない",
       "wrong_choices": [
-        "くてしかたがない",
-        "くてどうしようもない",
+        "くても",
+        "がっている",
         "くてやまない"
       ],
       "wrong_choice_explanations": [
-        "くてしかたがない is a near-synonym ('can't help but...') but has a more resigned, everyday tone; てたまらない here conveys a stronger, almost physical pull toward the exhibition.",
-        "くてどうしようもない ('can't help it / there's nothing to be done') puts emphasis on helplessness rather than on the sheer intensity of desire that てたまらない captures.",
+        "くても gives 見たくても ('even if I want to see it'), a concessive setting up a contrast; てたまらない instead voices the sheer, unbearable strength of the wish itself.",
+        "がっている gives 見たがっている ('is showing that he wants to see it'), which describes a third person's outward desire; てたまらない expresses the speaker's own urge, which 〜がる cannot.",
         "くてやまない is a literary expression for sustained, often noble feelings (愛してやまない, 期待してやまない); it doesn't fit a casual, urgent desire to visit an art show."
       ],
       "hiragana_full": "びじゅつてんをみたくてたまらない。",
@@ -58,7 +59,15 @@
           "hiragana_full": "びじゅつてんをみたくてしかたがない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "美術展",
+          "reading": "びじゅつてん",
+          "meaning": "art exhibition"
+        }
+      ]
     },
     {
       "id": "n2_027_3",
@@ -66,12 +75,12 @@
       "translation": "My feet hurt unbearably.",
       "blank_target": "くてたまらない",
       "wrong_choices": [
-        "くてしょうがない",
+        "くても",
         "くて困る",
         "くて大変だ"
       ],
       "wrong_choice_explanations": [
-        "くてしょうがない means 'can't help but' but doesn't express the unbearable intensity of pain that てたまらない conveys.",
+        "くても gives 痛くても ('even if it hurts'), a concession granting the pain; てたまらない instead reports the pain as unbearable in itself, not something to push through.",
         "くて困る means 'troubled by' but is too mild for expressing unbearable pain.",
         "くて大変だ means 'it's tough/difficult' but doesn't capture the unbearable nature of the pain."
       ],
@@ -86,7 +95,8 @@
           "hiragana_full": "あしがひどくいたい。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n2_027_4",
@@ -94,12 +104,12 @@
       "translation": "I am unbearably thirsty.",
       "blank_target": "てたまらない",
       "wrong_choices": [
-        "てしょうがない",
+        "ても",
         "て困る",
         "てやまない"
       ],
       "wrong_choice_explanations": [
-        "てしょうがない means 'can't help but' but lacks the intensity that てたまらない expresses for unbearable thirst.",
+        "ても gives のどが渇いても ('even if my throat is dry'), a concessive; てたまらない instead states that the thirst itself is unbearable.",
         "て困る means 'troubled by' but is too weak to express the unbearable nature of extreme thirst.",
         "てやまない means 'earnestly/continuously' but doesn't fit with physical sensations like thirst."
       ],
@@ -114,7 +124,15 @@
           "hiragana_full": "とてものどがかわいている"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "渇く",
+          "reading": "かわく",
+          "meaning": "to be thirsty, to be parched"
+        }
+      ]
     },
     {
       "id": "n2_027_5",
@@ -122,13 +140,13 @@
       "translation": "I am unbearably itchy.",
       "blank_target": "くてたまらない",
       "wrong_choices": [
-        "くてしょうがない",
-        "くて我慢できない",
+        "くても",
+        "がっている",
         "くて嫌になる"
       ],
       "wrong_choice_explanations": [
-        "くてしょうがない means 'can't help but' but doesn't express the unbearable intensity that てたまらない conveys for itchiness.",
-        "くて我慢できない means 'can't endure' but is more explicit and less natural than the implied unbearableness of てたまらない.",
+        "くても gives かゆくても ('even if it's itchy'), a concession; てたまらない instead reports the itch itself as unbearable.",
+        "がっている gives かゆがっている ('is showing the itch / scratching'), an outward, third-person description with 〜がる; てたまらない expresses the speaker's own unbearable sensation directly.",
         "くて嫌になる means 'getting fed up with' but doesn't express the physical unbearableness of itching."
       ],
       "hiragana_full": "かゆくてたまらない",
@@ -142,7 +160,15 @@
           "hiragana_full": "かゆくてがまんできない"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "かゆい",
+          "reading": "かゆい",
+          "meaning": "itchy"
+        }
+      ]
     },
     {
       "id": "n2_027_6",
@@ -150,12 +176,12 @@
       "translation": "I am unbearably worried.",
       "blank_target": "でたまらない",
       "wrong_choices": [
-        "でしょうがない",
+        "そうだ",
         "で困る",
         "でやまない"
       ],
       "wrong_choice_explanations": [
-        "でしょうがない means 'can't help but' but doesn't convey the intense, unbearable quality of worry that でたまらない expresses.",
+        "そうだ gives 心配そうだ ('looks worried'), the 様態 form for how another person appears; でたまらない states the speaker's own unbearable worry.",
         "で困る means 'troubled by' but is too mild for expressing overwhelming worry.",
         "でやまない doesn't naturally combine with 心配 (worry) and sounds unnatural."
       ],
@@ -170,7 +196,8 @@
           "hiragana_full": "とてもしんぱいでたまらない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n2_027_7",
@@ -178,12 +205,12 @@
       "translation": "The summer heat is unbearably uncomfortable.",
       "blank_target": "くてたまらない",
       "wrong_choices": [
-        "くてしょうがない",
+        "くても",
         "くて辛い",
         "くて嫌だ"
       ],
       "wrong_choice_explanations": [
-        "くてしょうがない means 'can't help but' but lacks the intensity needed to express unbearable discomfort from heat.",
+        "くても gives 苦しくても ('even if it's uncomfortable'), a concession; てたまらない instead reports the discomfort itself as unbearable.",
         "くて辛い means 'painful/difficult' but doesn't capture the unbearable quality that てたまらない expresses.",
         "くて嫌だ means 'unpleasant/dislike' but is too simple and doesn't convey the intensity of unbearable discomfort."
       ],
@@ -198,7 +225,15 @@
           "hiragana_full": "なつのあつさがとてもつらい"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "苦しい",
+          "reading": "くるしい",
+          "meaning": "painful, distressing"
+        }
+      ]
     },
     {
       "id": "n2_027_8",
@@ -206,13 +241,13 @@
       "translation": "I want to go home so badly.",
       "blank_target": "くてたまらない",
       "wrong_choices": [
-        "くてしかたがない",
-        "くてならない",
+        "そうだ",
+        "がっている",
         "くてやまない"
       ],
       "wrong_choice_explanations": [
-        "くてしかたがない is a near-synonym ('can't help but want to...') but reads as more resigned and everyday; てたまらない here stresses the visceral urgency of wanting to bolt for home.",
-        "くてならない ('can't help feeling...') most naturally pairs with spontaneous mental states (気になってならない, 不安でならない), not with a concrete, action-oriented desire like wanting to go home.",
+        "そうだ gives 帰りたそうだ ('seems to want to go home'), describing how another person looks; てたまらない voices the speaker's own overpowering urge to leave.",
+        "がっている gives 帰りたがっている ('is showing he wants to go home'), a third-person description with 〜がる; てたまらない expresses the speaker's own desire, which 〜がる cannot.",
         "くてやまない is a literary form for sustained, often elevated feelings (愛してやまない); it doesn't fit a moment-to-moment urge to leave."
       ],
       "hiragana_full": "はやくかえりたくてたまらない",
@@ -226,7 +261,8 @@
           "hiragana_full": "いっこくもはやくかえりたい"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n2_027_9",
@@ -234,12 +270,12 @@
       "translation": "I want to know the results so badly.",
       "blank_target": "くてたまらない",
       "wrong_choices": [
-        "くてしょうがない",
+        "くても",
         "くて気になる",
         "くてやまない"
       ],
       "wrong_choice_explanations": [
-        "くてしょうがない means 'can't help but' but doesn't convey the intense urgency that てたまらない expresses for wanting to know something.",
+        "くても gives 知りたくても ('even if I want to know'), a concessive; てたまらない instead conveys the unbearable strength of the wish to know.",
         "くて気になる means 'bothers me/worries me' but doesn't express the strong desire and urgency that てたまらない conveys.",
         "くてやまない means 'earnestly' but is more formal and less intense than the unbearable desire expressed by てたまらない."
       ],
@@ -254,7 +290,8 @@
           "hiragana_full": "そのけっかがきになってしかたがない"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral"
     },
     {
       "id": "n2_027_10",
@@ -262,12 +299,12 @@
       "translation": "I desperately want to solve that mystery.",
       "blank_target": "くてたまらない",
       "wrong_choices": [
-        "くてしかたがない",
+        "くても",
         "くて興味深い",
         "くてやまない"
       ],
       "wrong_choice_explanations": [
-        "くてしかたがない means 'can't help but' but lacks the intense urgency and desperation that てたまらない expresses for wanting to solve something.",
+        "くても gives 解きたくても ('even if I want to solve it'), a concession; てたまらない instead voices the unbearable urge to solve the mystery.",
         "くて興味深い means 'interesting' but doesn't express the strong desire and urgency conveyed by てたまらない.",
         "くてやまない means 'earnestly' but is more formal and doesn't capture the unbearable intensity of wanting to solve the mystery."
       ],
@@ -282,7 +319,20 @@
           "hiragana_full": "そのなぞをとくことがつよくのぞまれる。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "謎",
+          "reading": "なぞ",
+          "meaning": "mystery, riddle"
+        },
+        {
+          "word": "解く",
+          "reading": "とく",
+          "meaning": "to solve"
+        }
+      ]
     }
   ]
 }

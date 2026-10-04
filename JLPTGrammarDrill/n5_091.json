@@ -31,7 +31,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "しずかな"
+      "blank_target_reading": "しずかな",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "図書館",
+          "reading": "としょかん",
+          "meaning": "library"
+        },
+        {
+          "word": "勉強",
+          "reading": "べんきょう",
+          "meaning": "study, studying"
+        }
+      ]
     },
     {
       "id": "n5_091_2",
@@ -60,7 +73,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "しんせつでした"
+      "blank_target_reading": "しんせつでした",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "駅員",
+          "reading": "えきいん",
+          "meaning": "station attendant"
+        }
+      ]
     },
     {
       "id": "n5_091_3",
@@ -88,7 +109,20 @@
           "hiragana_full": "へやはそんなにきれいじゃない。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "部屋",
+          "reading": "へや",
+          "meaning": "room"
+        },
+        {
+          "word": "あまり",
+          "reading": "あまり",
+          "meaning": "not very (with negative)"
+        }
+      ]
     },
     {
       "id": "n5_091_4",
@@ -117,7 +151,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "べんりに"
+      "blank_target_reading": "べんりに",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "生活",
+          "reading": "せいかつ",
+          "meaning": "(daily) life"
+        },
+        {
+          "word": "新しい",
+          "reading": "あたらしい",
+          "meaning": "new"
+        }
+      ]
     },
     {
       "id": "n5_091_5",
@@ -132,7 +179,7 @@
       "wrong_choice_explanations": [
         "元気かった borrows the i-adjective past ending 〜かった, but 元気 is a な-adjective and forms its plain past with the copula: 元気だった.",
         "元気いった inserts い as if 元気 were an i-adjective and then adds った; this conjugation pattern doesn't exist in Japanese.",
-        "元気くなった means 'became energetic' (a change of state with なる), but the sentence describes a past state, not a transition, so the simple past 元気だった is needed."
+        "元気くなった misapplies the i-adjective adverbial ending 〜く to the な-adjective 元気 — 'became energetic' would be 元気になった; and in any case the sentence describes a past state, not a change."
       ],
       "hiragana_full": "こどものときのぼくはもっとげんきだった。",
       "audio_alternatives": [
@@ -146,7 +193,25 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "げんきだった"
+      "blank_target_reading": "げんきだった",
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "子供",
+          "reading": "こども",
+          "meaning": "child"
+        },
+        {
+          "word": "僕",
+          "reading": "ぼく",
+          "meaning": "I (casual, male)"
+        },
+        {
+          "word": "もっと",
+          "reading": "もっと",
+          "meaning": "more"
+        }
+      ]
     },
     {
       "id": "n5_091_6",
@@ -175,7 +240,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ひまじゃなかった"
+      "blank_target_reading": "ひまじゃなかった",
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "仕事",
+          "reading": "しごと",
+          "meaning": "work"
+        },
+        {
+          "word": "忙しくて",
+          "reading": "いそがしくて",
+          "meaning": "busy (te-form)"
+        }
+      ]
     },
     {
       "id": "n5_091_7",
@@ -204,7 +282,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "じょうずに"
+      "blank_target_reading": "じょうずに",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "兄",
+          "reading": "あに",
+          "meaning": "(my) older brother"
+        },
+        {
+          "word": "弾きます",
+          "reading": "ひきます",
+          "meaning": "play (an instrument)"
+        }
+      ]
     },
     {
       "id": "n5_091_8",
@@ -232,7 +323,15 @@
           "hiragana_full": "たなかさんはかっこよくてやさしい。"
         }
       ],
-      "audio_eligible": true
+      "audio_eligible": true,
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "優しい",
+          "reading": "やさしい",
+          "meaning": "kind, gentle"
+        }
+      ]
     },
     {
       "id": "n5_091_9",
@@ -261,7 +360,20 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "あんぜんな"
+      "blank_target_reading": "あんぜんな",
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "道",
+          "reading": "みち",
+          "meaning": "road"
+        },
+        {
+          "word": "歩いて",
+          "reading": "あるいて",
+          "meaning": "walking (te-form)"
+        }
+      ]
     },
     {
       "id": "n5_091_10",
@@ -290,7 +402,15 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "ゆうめいです"
+      "blank_target_reading": "ゆうめいです",
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "寺",
+          "reading": "てら",
+          "meaning": "temple"
+        }
+      ]
     }
   ]
 }
