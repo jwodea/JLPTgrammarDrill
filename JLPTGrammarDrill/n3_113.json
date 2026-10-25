@@ -10,14 +10,14 @@
       "translation": "It's a popular restaurant, so I should have made a reservation earlier.",
       "blank_target": "予約すればよかった",
       "wrong_choices": [
-        "予約すればいい",
-        "予約したかった",
-        "予約するべきだ"
+        "予約したばかりだ",
+        "予約しているところだ",
+        "予約したことがある"
       ],
       "wrong_choice_explanations": [
-        "「予約すればいい」は「予約すれば十分だ」という現在の助言で、席が取れなかった今の後悔を表さない。この文は「もっと早く～」と過去の行動を悔やんでいる。",
-        "「予約したかった」は「予約したいと思っていた」という願望を述べるだけで、実際にしなかったことへの後悔のニュアンスが出ない。",
-        "「予約するべきだ」は当然・義務を述べる現在形で、すでに手遅れになった状況を悔やむこの文脈には合わない。"
+        "予約したばかりだ means 'have just booked'. もっと早く予約したばかりだ makes no sense, since you can't have just booked 'earlier', and the sentence is regretting a booking that wasn't made in time.",
+        "予約しているところだ means 'am booking right now'. It clashes with もっと早く, 'earlier', which points back to a chance the speaker already missed.",
+        "予約したことがある means 'have booked before' and reports experience. It doesn't fit もっと早く, which expresses regret about this particular booking being too late."
       ],
       "hiragana_full": "にんきのみせだから、もっとはやくよやくすればよかった。",
       "audio_alternatives": [
@@ -48,13 +48,13 @@
       "blank_target": "持ってくればよかった",
       "wrong_choices": [
         "持ってくればいい",
-        "持っていきたかった",
-        "持ってくるべきだ"
+        "持ってこなくてよかった",
+        "持ってきたことがある"
       ],
       "wrong_choice_explanations": [
-        "「持ってくればいい」は「持ってくれば問題ない」という現在の助言で、雨に降られてしまった後の後悔を表さない。",
-        "「持っていきたかった」は願望を表すうえに「いく」と方向も逆になり、今この場に傘がないことを悔やむ文には合わない。",
-        "「持ってくるべきだ」は当然・義務を述べる現在形で、すでに濡れてしまった今の後悔とはニュアンスが異なる。"
+        "持ってくればいい means 'you can just bring one' and gives advice for next time. The rain has already started and the speaker is stuck without an umbrella, so what's needed is regret.",
+        "持ってこなくてよかった means 'glad I didn't bring it'. With the sudden rain, not having an umbrella is a problem, so relief contradicts the situation.",
+        "持ってきたことがある means 'have brought one before' and reports experience. It doesn't respond to the rain that has just started; the speaker regrets not having an umbrella now."
       ],
       "hiragana_full": "きゅうにあめがふってきた。かさをもってくればよかった。",
       "audio_alternatives": [
@@ -84,14 +84,14 @@
       "translation": "My score was bad. I should have studied more before the test.",
       "blank_target": "勉強すればよかった",
       "wrong_choices": [
-        "勉強すればいい",
-        "勉強したかった",
-        "勉強するべきだ"
+        "勉強しなくてよかった",
+        "勉強したことがある",
+        "勉強しているところだ"
       ],
       "wrong_choice_explanations": [
-        "「勉強すればいい」は「勉強すれば大丈夫だ」という現在の助言で、点数が出た後に悔やむこの文には合わない。",
-        "「勉強したかった」は「勉強したいと思っていた」という願望で、実際にしなかったことへの後悔にはならない。",
-        "「勉強するべきだ」は一般的な義務を述べる現在形で、テストが終わった今の具体的な後悔とはずれる。"
+        "勉強しなくてよかった means 'glad I didn't study'. After 点数が悪かった, the bad score makes relief about not studying contradictory.",
+        "勉強したことがある means 'have studied before' and reports experience. It doesn't fit テストの前にもっと, which looks back on this test with regret.",
+        "勉強しているところだ means 'am studying right now'. The test is already over (点数が悪かった), so studying 'before the test' can't be happening now."
       ],
       "hiragana_full": "てんすうがわるかった。てすとのまえにもっとべんきょうすればよかった。",
       "audio_alternatives": [
@@ -122,13 +122,13 @@
       "blank_target": "言えばよかった",
       "wrong_choices": [
         "言えばいい",
-        "言いたかった",
+        "言っているところだ",
         "言うべきだ"
       ],
       "wrong_choice_explanations": [
-        "「言えばいい」は「言えば済む」という現在の助言で、「あの日」に言わなかったことを悔やむこの文とは時制も気持ちも合わない。",
-        "「言いたかった」は「言いたいと思っていた」という願望を表すだけで、言わなかったことへの後悔のニュアンスが出ない。",
-        "「言うべきだ」は当然・義務を述べる現在形で、過去の一場面を振り返って悔やむこの文脈には合わない。"
+        "言えばいい means 'you can just tell him' and gives advice about the future. あの日, 'that day', puts the missed chance in the past, so advice doesn't fit.",
+        "言っているところだ means 'am telling (him) right now'. That clashes with あの日, 'that day', which places the missed chance in the past.",
+        "言うべきだ means 'one should tell' and states an obligation that still applies. あの日 points to a past chance that's gone, which calls for regret (ばよかった) or べきだった."
       ],
       "hiragana_full": "あのひ、かれにほんとうのことをいえばよかった。",
       "audio_alternatives": [
@@ -152,13 +152,13 @@
       "blank_target": "起きればよかった",
       "wrong_choices": [
         "起きればいい",
-        "起きたかった",
+        "起きなくてよかった",
         "起きるべきだ"
       ],
       "wrong_choice_explanations": [
-        "「起きればいい」は「起きれば間に合う」という現在の助言で、すでに乗り遅れた後の後悔を表さない。",
-        "「起きたかった」は「起きたいと思っていた」という願望で、早く起きなかったことを悔やむニュアンスにはならない。",
-        "「起きるべきだ」は一般的な義務を述べる現在形で、今朝のことを振り返って悔やむこの文脈には合わない。"
+        "起きればいい means 'you can just get up (earlier)' and gives advice. 今朝 and 乗り遅れた show the train is already missed, so the speaker can only look back with regret.",
+        "起きなくてよかった means 'glad I didn't get up'. Missing the train makes relief about oversleeping contradictory.",
+        "起きるべきだ means 'one should get up' and states a present obligation. It clashes with 今朝, a morning that is already over."
       ],
       "hiragana_full": "でんしゃにのりおくれた。けさもうすこしはやくおきればよかった。",
       "audio_alternatives": [
@@ -193,14 +193,14 @@
       "translation": "Instead of worrying alone, I should have asked the teacher right away.",
       "blank_target": "聞けばよかった",
       "wrong_choices": [
-        "聞けばいい",
-        "聞きたかった",
-        "聞くべきだ"
+        "聞かされた",
+        "聞かなくてよかった",
+        "聞けない"
       ],
       "wrong_choice_explanations": [
-        "「聞けばいい」は「聞けば解決する」という現在の助言で、一人で悩んでしまった後に悔やむこの文とはずれる。",
-        "「聞きたかった」は「聞きたいと思っていた」という願望で、実際に聞かなかったことへの後悔を表さない。",
-        "「聞くべきだ」は当然・義務を述べる現在形で、すでに時間を無駄にした今の具体的な後悔とは合わない。"
+        "聞かされた means 'was told (by the teacher)'. It makes the teacher the one speaking, while the sentence is about the speaker choosing to ask instead of worrying alone.",
+        "聞かなくてよかった means 'glad I didn't ask'. That contradicts 一人で悩まず, 'instead of worrying alone', which only makes sense if asking was the right thing to do.",
+        "聞けない means 'can't ask'. 一人で悩まず、すぐに先生に聞けない contradicts itself, since giving up worrying alone means going to ask."
       ],
       "hiragana_full": "ひとりでなやまず、すぐにせんせいにきけばよかった。",
       "audio_alternatives": [
@@ -231,13 +231,13 @@
       "blank_target": "買っておけばよかった",
       "wrong_choices": [
         "買っておけばいい",
-        "買っておきたかった",
-        "買っておくべきだ"
+        "買わなくてよかった",
+        "買っているところだ"
       ],
       "wrong_choice_explanations": [
-        "「買っておけばいい」は「買っておけば安心だ」という現在の助言で、売り切れてしまった後の後悔を表さない。",
-        "「買っておきたかった」は願望を述べるだけで、実際に買わなかったことを悔やむニュアンスが弱い。",
-        "「買っておくべきだ」は当然・義務を述べる現在形で、すでにチケットが手に入らない今の後悔とは合わない。"
+        "買っておけばいい means 'you can just buy them in advance' and gives advice. もう売り切れだ shows it's too late, so advice about buying doesn't fit; only regret does.",
+        "買わなくてよかった means 'glad I didn't buy'. もう売り切れだ is said with disappointment, so relief about not buying contradicts it.",
+        "買っているところだ means 'am buying right now'. The tickets are already sold out, so buying them now is impossible."
       ],
       "hiragana_full": "もううりきれだ。あのこんさーとのちけっとをかっておけばよかった。",
       "audio_alternatives": [
@@ -267,14 +267,14 @@
       "translation": "Since I'd come all the way to Kyoto, I should have seen that temple too.",
       "blank_target": "見ればよかった",
       "wrong_choices": [
-        "見ればいい",
-        "見たかった",
-        "見るべきだ"
+        "見なくてよかった",
+        "見たことがある",
+        "見飽きた"
       ],
       "wrong_choice_explanations": [
-        "「見ればいい」は「見れば十分だ」という現在の助言で、京都を離れてから悔やむこの文とは時制が合わない。",
-        "「見たかった」は「見たいと思っていた」という願望で、見ずに帰ったことを悔やむニュアンスにはならない。",
-        "「見るべきだ」は一般的な当然を述べる現在形で、旅行を終えた今の具体的な後悔とはずれる。"
+        "見なくてよかった means 'glad I didn't see it'. That contradicts せっかく京都まで来たのだから, which says the trip was a chance worth using.",
+        "見たことがある means 'have seen it before' and reports experience. It doesn't follow from せっかく…来たのだから, which leads to what the speaker should have done on this trip.",
+        "見飽きた means 'got sick of seeing it'. That clashes with せっかく, which treats seeing the temple as something valuable that was missed."
       ],
       "hiragana_full": "せっかくきょうとまできたのだから、あのおてらもみればよかった。",
       "audio_alternatives": [
@@ -309,14 +309,14 @@
       "translation": "The moment I knew I'd be late, I should have called.",
       "blank_target": "電話すればよかった",
       "wrong_choices": [
-        "電話すればいい",
-        "電話したかった",
-        "電話するべきだ"
+        "電話したことがある",
+        "電話しているところだ",
+        "電話しすぎた"
       ],
       "wrong_choice_explanations": [
-        "「電話すればいい」は「電話すれば済む」という現在の助言で、連絡しなかったことを後から悔やむこの文とは合わない。",
-        "「電話したかった」は願望を表すだけで、実際に連絡しなかったことへの後悔のニュアンスが出ない。",
-        "「電話するべきだ」は当然・義務を述べる現在形で、すでに相手を待たせてしまった今の後悔とはずれる。"
+        "電話したことがある means 'have called before' and reports experience. It doesn't fit 分かった時点で, which points to one specific moment when the speaker should have called.",
+        "電話しているところだ means 'am on the phone right now'. That clashes with 分かった時点で, a past moment the speaker is looking back on.",
+        "電話しすぎた means 'called too much'. That's the opposite of the problem here, since the sentence regrets not calling at all."
       ],
       "hiragana_full": "おくれるとわかったじてんで、でんわすればよかった。",
       "audio_alternatives": [
@@ -351,14 +351,14 @@
       "translation": "If the roads were going to be this crowded, I should have set out early in the morning.",
       "blank_target": "出発すればよかった",
       "wrong_choices": [
-        "出発すればいい",
-        "出発したかった",
-        "出発するべきだ"
+        "出発しなくてよかった",
+        "出発したことがある",
+        "出発しているところだ"
       ],
       "wrong_choice_explanations": [
-        "「出発すればいい」は「出発すれば間に合う」という現在の助言で、渋滞にはまった後の後悔を表さない。",
-        "「出発したかった」は「出発したいと思っていた」という願望で、早く出なかったことを悔やむニュアンスにはならない。",
-        "「出発するべきだ」は当然・義務を述べる現在形で、すでに渋滞に巻き込まれた今の具体的な後悔とは合わない。"
+        "出発しなくてよかった means 'glad I didn't set out'. The jammed roads make an early start desirable, so relief about not leaving early contradicts the situation.",
+        "出発したことがある means 'have set out (early) before' and reports experience. It doesn't respond to こんなに道が混むなら, which looks back with regret on today's late start.",
+        "出発しているところだ means 'am setting out now'. The speaker is already stuck in traffic, so setting out 'early in the morning' can't be happening now."
       ],
       "hiragana_full": "こんなにみちがこむなら、あさはやくしゅっぱつすればよかった。",
       "audio_alternatives": [

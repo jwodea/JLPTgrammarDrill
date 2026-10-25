@@ -10,13 +10,13 @@
       "translation": "Now that you are museum staff, you must handle artworks with utmost care.",
       "blank_target": "である以上は",
       "wrong_choices": [
-        "であっても",
-        "であるとすれば",
+        "であるかわりに",
+        "であるおかげで",
         "だからといって"
       ],
       "wrong_choice_explanations": [
-        "〜であっても means 'even if/even though' and concedes the status rather than deriving a duty from it; である以上は instead treats being museum staff as an established fact from which the obligation of care follows.",
-        "〜であるとすれば means 'supposing that' and frames the status as a hypothesis, whereas である以上は presents it as a settled fact, which is what grounds the obligation here.",
+        "かわりに means 'instead of being' or 'in exchange for'. 職員であるかわりに注意を払うべきだ makes care a substitute for being staff, which is meaningless; である以上は makes the duty of care follow from being staff.",
+        "おかげで credits a good result to a cause (職員であるおかげで入れた). 職員であるおかげで、注意を払うべきだ links it to an obligation instead of a result, which doesn't fit; である以上は derives the duty from the role.",
         "だからといって means 'just because' and is used to deny or question a conclusion, which contradicts the affirmative obligation expressed here."
       ],
       "hiragana_full": "びじゅつかんのしょくいんであるいじょうは、さくひんのあつかいにさいしんのちゅういをはらうべきだ。",
@@ -57,12 +57,12 @@
       "translation": "Now that you are a doctor, you must prioritize patients' lives above all else.",
       "blank_target": "である以上は",
       "wrong_choices": [
-        "であるとして",
+        "であるくせに",
         "であるうちに",
         "であるほど"
       ],
       "wrong_choice_explanations": [
-        "であるとして means 'assuming that' or 'treating as' and suggests a hypothetical role rather than the actual obligation that comes with being a doctor.",
+        "くせに criticises someone for acting unlike what they are (医師であるくせに不注意だ). 医師であるくせに、患者の生命を最優先に考えなければならない pairs that reproach with the duty a doctor naturally has, so it contradicts itself; である以上は derives the duty from being a doctor.",
         "であるうちに means 'while being' and emphasizes a temporary period, not the ongoing professional duty expressed here.",
         "であるほど means 'to the extent that' and indicates degree or proportion, which doesn't match the absolute obligation being stated."
       ],
@@ -104,12 +104,12 @@
       "translation": "Now that you are a parent, you must set a good example for your children.",
       "blank_target": "である以上は",
       "wrong_choices": [
-        "であるとすれば",
+        "であるわりに",
         "であるかわりに",
         "であるおかげで"
       ],
       "wrong_choice_explanations": [
-        "であるとすれば means 'if we assume that' and introduces a hypothetical situation, not the definite parental duty being expressed.",
+        "わりに means 'considering that' and needs a surprising evaluation after it (親であるわりに子どもっぽい). 親であるわりに、手本を示さなければならない has no such surprise; である以上は makes setting an example a parent's duty.",
         "であるかわりに means 'instead of being' and indicates substitution or exchange, which doesn't fit the context of parental responsibility.",
         "であるおかげで means 'thanks to being' and expresses gratitude or positive results, but doesn't convey the obligation aspect needed here."
       ],
@@ -141,12 +141,12 @@
       "translation": "Now that you are a citizen, you have the duty to contribute to society's development.",
       "blank_target": "である以上は",
       "wrong_choices": [
-        "であることで",
+        "であるかわりに",
         "であるにあたって",
         "であることに"
       ],
       "wrong_choice_explanations": [
-        "であることで means 'by being' and indicates a method or means, but doesn't express the civic obligation that 以上は conveys here.",
+        "かわりに means 'instead of being'. 国民であるかわりに、貢献する義務がある makes the duty a substitute for citizenship, which is backwards; である以上は says the duty follows from being a citizen.",
         "であるにあたって means 'on the occasion of being' and refers to a specific timing or circumstance, not the ongoing civic duty expressed.",
         "であることに means 'in being' and is often used with emotions or states, but lacks the obligation nuance required in this context."
       ],
@@ -223,14 +223,14 @@
       "translation": "Now that I've chosen this path, I'll work hard so I won't have regrets.",
       "blank_target": "選んだ以上は",
       "wrong_choices": [
-        "選んだけど",
+        "選んだくせに",
         "選んだのに",
-        "選んでから"
+        "選んだせいで"
       ],
       "wrong_choice_explanations": [
-        "選んだけど means 'I chose, but' and suggests contrast or reservation, not the commitment to one's decision that 以上は expresses.",
+        "くせに criticises someone for acting against what they did (選んだくせに文句ばかり言う). 選んだくせに、後悔しないよう頑張ろう pairs a reproach with self-encouragement, which doesn't fit; 以上は turns the choice into the reason to commit.",
         "選んだのに means 'despite choosing' and introduces a contradictory result, opposite to the determination that 以上は conveys.",
-        "選んでから means 'after choosing' and focuses on timing but doesn't emphasize the resolve and commitment that follows from one's choice as 以上は does."
+        "せいで blames a cause for a bad result (選んだせいで苦労した). 選んだせいで、後悔しないよう頑張ろう treats the choice as a misfortune and then follows it with resolve, which doesn't connect; 以上は makes the choice the reason to commit."
       ],
       "hiragana_full": "このみちをえらんだいじょうは、こうかいしないようがんばろう。",
       "audio_alternatives": [
@@ -260,14 +260,14 @@
       "translation": "Now that I've resolved to study abroad, I'm prepared to overcome any hardship.",
       "blank_target": "上は",
       "wrong_choices": [
-        "上で",
+        "ばかりに",
         "末に",
         "上に"
       ],
       "wrong_choice_explanations": [
-        "「上で（うえで）」は前提・手順を示す語で、留学を決めてから何かをする土台の意になり、決意ゆえの覚悟を述べる本文には合わない。",
-        "「末に（すえに）」は長い経過の結果を表し「悩んだ末に決めた」のように使うが、決意を前提に当然の覚悟を述べるこの文型とは異なる。",
-        "「上に（うえに）」は追加を表し、決意に別の事柄が加わる意になって、この文には合わない。"
+        "ばかりに means 'just because' and leads to a bad outcome (油断したばかりに失敗した). 決意したばかりに、困難も乗り越えていく覚悟だ treats the decision as the cause of misfortune, which clashes with the positive resolve; 上は makes the resolve follow from the decision.",
+        "末に means 'after a long process' and marks the final outcome (悩んだ末に決めた). 決意した末に…覚悟だ treats the decision as a long struggle that leads to the resolve; the sentence needs 上は, 'now that I've decided, I'm prepared'.",
+        "上に means 'on top of' and adds a further point of the same kind (安い上においしい). 決意した上に…覚悟だ just adds the resolve to the decision; 上は makes the resolve follow from it."
       ],
       "hiragana_full": "りゅうがくをけついしたうえは、どんなこんなんものりこえていくかくごだ。",
       "audio_alternatives": [
@@ -307,14 +307,14 @@
       "translation": "Having declared that I'm quitting the company, there's no turning back.",
       "blank_target": "上は",
       "wrong_choices": [
-        "上で",
+        "くせに",
         "上に",
         "反面"
       ],
       "wrong_choice_explanations": [
-        "「上で（うえで）」は手順・前提を表し、宣言してから次の行動をとる土台の意になり、宣言した以上引き返せないという含意にはならない。",
-        "「上に（うえに）」は追加を表し、宣言に別の事柄が加わる意になって、この文には合わない。",
-        "「反面（はんめん）」は相反する側面を示す語で、二つの面を対比するのに使い、決断の帰結を述べるこの文型とは異なる。"
+        "くせに criticises someone for acting against what they did (宣言したくせにまだ辞めない). 宣言したくせに、後戻りはできない pairs a reproach with the consequence of the declaration, which doesn't connect; 上は says that having declared it, there's no turning back.",
+        "上に means 'on top of' and adds a further point (宣言した上に、辞表も出した). 宣言した上に、後戻りはできない adds 'can't go back' as an extra fact instead of a consequence; 上は makes it follow from the declaration.",
+        "反面 means 'on the other hand' and contrasts two sides (便利な反面、高い). 宣言した反面、後戻りはできない sets up a contrast that isn't there; 上は makes 'no turning back' the result of declaring."
       ],
       "hiragana_full": "かいしゃをやめるとせんげんしたうえは、あともどりはできない。",
       "audio_alternatives": [
@@ -349,14 +349,14 @@
       "translation": "Now that you've signed the contract, you have an obligation to keep to its terms.",
       "blank_target": "上は",
       "wrong_choices": [
-        "上で",
+        "くせに",
         "上に",
         "末に"
       ],
       "wrong_choice_explanations": [
-        "「上で（うえで）」は前提・手順を表し、サインしたうえで交渉するなどの土台の意になり、署名した以上守る義務があるという含意にはならない。",
-        "「上に（うえに）」は追加を表し、サインに別の事柄が加わる意になって、この文には合わない。",
-        "「末に（すえに）」は長い経過の末の結果を表し「交渉の末に」のように使うが、署名を前提に義務を述べる文型とは異なる。"
+        "くせに criticises someone for acting against what they did (サインしたくせに守らない). サインしたくせに、条件を守る義務がある pairs a reproach with the obligation itself, which doesn't connect; 上は makes the duty follow from signing.",
+        "上に means 'on top of' and adds a further point. サインした上に、義務がある adds the obligation as a separate fact instead of a consequence of signing; 上は links them.",
+        "末に means 'after a long process' (交渉の末に合意した). サインした末に、義務がある treats signing as a long struggle that ends in the duty, which isn't the point; 上は says the duty follows from having signed."
       ],
       "hiragana_full": "けいやくしょにさいんしたうえは、じょうけんをまもるぎむがある。",
       "audio_alternatives": [
@@ -396,14 +396,14 @@
       "translation": "Now that I've been chosen for the national team, I want to live up to the country's expectations.",
       "blank_target": "上は",
       "wrong_choices": [
-        "上で",
+        "ばかりに",
         "上に",
         "反面"
       ],
       "wrong_choice_explanations": [
-        "「上で（うえで）」は前提・手順を示し、選ばれたうえで何かを検討する土台の意になり、選ばれた以上応えたいという決意には合わない。",
-        "「上に（うえに）」は追加を表し、選出に別の事柄が加わる意になって、この文には合わない。",
-        "「反面（はんめん）」は相反する側面を対比する語で、二面性を述べるのに使い、期待に応える決意を導く文型とは異なる。"
+        "ばかりに means 'just because' and leads to a bad outcome (選ばれたばかりに苦労した). 選ばれたばかりに、国の期待に応えたい treats selection as a misfortune and then follows it with a positive wish, which doesn't fit; 上は makes the wish follow from being chosen.",
+        "上に means 'on top of' and adds a further point (選ばれた上に、キャプテンにもなった). 選ばれた上に、期待に応えたい puts a wish where an added fact is expected; 上は makes it the natural consequence of selection.",
+        "反面 means 'on the other hand' and contrasts two sides. 選ばれた反面、期待に応えたい sets up a contrast that isn't there; 上は makes the resolve follow from being chosen."
       ],
       "hiragana_full": "せんしゅとしてだいひょうにえらばれたうえは、くにのきたいにこたえたい。",
       "audio_alternatives": [

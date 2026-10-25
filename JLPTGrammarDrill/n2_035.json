@@ -99,12 +99,12 @@
       "wrong_choices": [
         "に従って",
         "にもかかわらず",
-        "によっては"
+        "に応じて"
       ],
       "wrong_choice_explanations": [
         "に従って means 'according to' and indicates that salaries would change based on sales, contradicting the sentence's meaning of unchanged salaries.",
         "にもかかわらず means 'despite (a known fact)', but 売上の増減 is a variable, so the sentence needs 'regardless of' (にかかわらず), not a concession about one fixed circumstance.",
-        "によっては means 'depending on (in some cases)', which would make salaries change with sales in certain cases—contradicting the policy that they never change, which needs にかかわらず."
+        "に応じて means 'in accordance with'. 売上の増減に応じて、給与は変わらない says salaries respond to sales and yet don't change, which contradicts itself; にかかわらず says they stay the same whatever sales do."
       ],
       "hiragana_full": "うりあげのぞうげんにかかわらず、きゅうよはかわらない。",
       "audio_alternatives": [
@@ -143,14 +143,14 @@
       "translation": "Research funding is allocated regardless of whether there are results or not.",
       "blank_target": "にかかわらず",
       "wrong_choices": [
-        "に応じて",
+        "に反して",
         "に限って",
-        "によって"
+        "にもかかわらず"
       ],
       "wrong_choice_explanations": [
-        "に応じて means 'according to' and would indicate that funding depends on results, contradicting the sentence's meaning of unconditional allocation.",
+        "に反して means 'contrary to' an expectation or wish (予想に反して). 成果の有無 is neither, so 成果の有無に反して is meaningless; にかかわらず says the allocation ignores whether there are results.",
         "に限って means 'only when' and indicates funding only occurs under specific conditions, opposite to the unconditional allocation described.",
-        "によって means 'depending on' and indicates that allocation varies based on results, contradicting the equal allocation policy described."
+        "にもかかわらず means 'despite' and needs a fixed fact. 成果の有無 is an either/or (results or none), so 成果の有無にもかかわらず has no single fact to concede; にかかわらず says funding goes out either way."
       ],
       "hiragana_full": "せいかのうむにかかわらず、けんきゅうひははいぶんされる。",
       "audio_alternatives": [
@@ -189,12 +189,12 @@
       "translation": "Lateness is not allowed regardless of the reason.",
       "blank_target": "にかかわらず",
       "wrong_choices": [
-        "によっては",
+        "のみならず",
         "に限って",
         "を除いて"
       ],
       "wrong_choice_explanations": [
-        "によっては means 'depending on' and would suggest some reasons might excuse lateness, contradicting the strict policy stated.",
+        "のみならず means 'not only… but also' and needs a second item (理由のみならず態度も). 理由のみならず、遅刻は許されません adds nothing and doesn't connect; にかかわらず says no reason excuses lateness.",
         "に限って means 'only when' or 'limited to' and doesn't convey the universal application needed here.",
         "を除いて means 'except for' and would imply there are exceptions to the lateness rule, opposite of the intended strict policy."
       ],
@@ -226,13 +226,13 @@
       "blank_target": "に関わらず",
       "wrong_choices": [
         "によって",
-        "次第で",
-        "にもかかわらず"
+        "をきっかけに",
+        "のみならず"
       ],
       "wrong_choice_explanations": [
-        "「〜によって」は「天候によって」で天候しだいでの意になり、天候と無関係に予定通り行うという文意とは逆になる。",
-        "「〜次第で」は「天候次第で」で天候しだいでの意になり、天候に左右されず行うという文意と矛盾する。",
-        "「〜にもかかわらず」は「悪天候にもかかわらず」のように具体的な事実に逆らう意で使い、どんな天候でもという「関わらず」の意味にはならない。"
+        "によって means 'depending on'. 天候によって makes the event vary with the weather, which clashes with 予定通り, 'as scheduled'; に関わらず says it goes ahead whatever the weather.",
+        "をきっかけに means 'prompted by' an event. 天候をきっかけに、予定通り行われる makes the weather the trigger for holding the event as planned, which is meaningless; に関わらず says the weather doesn't affect it.",
+        "のみならず means 'not only… but also' and needs a second item after it. 天候のみならず、イベントは予定通り行われる adds nothing to 天候, so the sentence doesn't connect; に関わらず says the event goes ahead whatever the weather."
       ],
       "hiragana_full": "てんこうにかかわらず、いべんとはよていどおりおこなわれる。",
       "audio_alternatives": [
@@ -277,9 +277,9 @@
         "につけ"
       ],
       "wrong_choice_explanations": [
-        "「〜にもかかわらず」は具体的な事実に逆らう逆接で、「参加するしない」という二つの選択肢を受けて『どちらでも』という意味にはならない。",
-        "「〜に応じて」は「参加するしないに応じて」で参加の有無に合わせての意になり、いつでも必ず返信するという文意と矛盾する。",
-        "「〜につけ」は「〜につけ〜につけ」や感情の自然な生起を表す表現で、参加の有無に関わらず返信を求めるという意味を表せない。"
+        "にもかかわらず means 'despite' a fixed fact. 参加するしない is an open either/or, so there is no single fact to concede; に関わらず means 'whichever you choose', which matches 必ず返信してください.",
+        "に応じて means 'in accordance with'. 参加するしないに応じて would make the reply depend on attending, which clashes with 必ず, 'without fail'; に関わらず asks everyone to reply either way.",
+        "につけ means 'whenever' and goes with feelings that arise (見るにつけ思い出す). 参加するしないにつけ is not a natural phrase and gives no 'either way'; に関わらず says the reply is needed regardless."
       ],
       "hiragana_full": "さんかするしないにかかわらず、かならずへんしんしてください。",
       "audio_alternatives": [
@@ -319,9 +319,9 @@
         "のみならず"
       ],
       "wrong_choice_explanations": [
-        "「〜によって」は「昼夜によって」で昼か夜かによっての意になり、昼夜を問わず動き続けるという文意とは逆になる。",
-        "「〜に応じて」は「昼夜に応じて」で昼夜に合わせて変わるの意になり、昼夜に関係なく動き続けるという文意と矛盾する。",
-        "「〜のみならず」は「昼夜のみならず」で『昼夜だけでなく』の意になり、昼夜を問わず動き続けるという意味を表せない。"
+        "によって means 'depending on'. 昼夜によって would make the machine's running differ between day and night, which clashes with 動き続けている, 'keeps running'; に関わらず says day or night makes no difference.",
+        "に応じて means 'in accordance with'. 昼夜に応じて would have the machine adjust to day and night, which contradicts running nonstop; に関わらず says it runs regardless.",
+        "のみならず means 'not only… but also' and needs an added item. 昼夜のみならず leaves the sentence with no 'but also', and says nothing about running nonstop; に関わらず does."
       ],
       "hiragana_full": "ちゅうやにかかわらず、きかいはうごきつづけている。",
       "audio_alternatives": [
@@ -366,9 +366,9 @@
         "に基づいて"
       ],
       "wrong_choice_explanations": [
-        "「〜に応じて」は「多少に応じて」で金額の大小に合わせての意になり、金額に関係なくありがたいという文意と矛盾する。",
-        "「〜によって」は「多少によって」で金額しだいでの意になり、金額の大小を問わないという文意とは逆になる。",
-        "「〜に基づいて」は「多少に基づいて」で金額を判断の根拠にする意になり、金額と無関係に感謝するという文意と合わない。"
+        "に応じて means 'in proportion to'. 金額の多少に応じてありがたい would make gratitude scale with the amount, which clashes with thanks for any donation; に関わらず says the amount doesn't matter.",
+        "によって means 'depending on'. 金額の多少によって、寄付は大変ありがたい makes the gratitude vary with the amount, so it doesn't fit 大変ありがたい said of every gift; に関わらず says any amount is welcome.",
+        "に基づいて means 'based on' a standard or evidence. 金額の多少に基づいてありがたい treats the amount as the basis for judging, the opposite of thanking regardless of amount, which に関わらず expresses."
       ],
       "hiragana_full": "きんがくのたしょうにかかわらず、きふはたいへんありがたい。",
       "audio_alternatives": [
@@ -413,9 +413,9 @@
         "にもかかわらず"
       ],
       "wrong_choice_explanations": [
-        "「〜によって」は「会員か非会員かによって」で会員かどうかで料金が変わる意になり、どちらでも同じという文意とは逆になる。",
-        "「〜次第で」は「会員か非会員か次第で」で会員かどうかしだいでの意になり、料金が同じという文意と矛盾する。",
-        "「〜にもかかわらず」は具体的な事実に逆らう逆接で、「会員か非会員か」という二択を受けて『どちらでも』という意味にはならない。"
+        "によって means 'depending on'. 会員か非会員かによって、料金は同じです says the fee depends on membership and yet is the same, which contradicts itself; に関わらず says it's the same for everyone.",
+        "次第で means 'depending on'. 会員か非会員か次第で contradicts 料金は同じです, since a fee that depends on membership wouldn't be the same; に関わらず fits.",
+        "にもかかわらず means 'despite' a single known fact. 会員か非会員か is an open either/or, not a fact to concede; に関わらず means 'whichever you are', which fits 料金は同じです."
       ],
       "hiragana_full": "かいいんかひかいいんかにかかわらず、りょうきんはおなじです。",
       "audio_alternatives": [

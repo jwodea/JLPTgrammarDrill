@@ -9,23 +9,45 @@
       "example_sentence": "この仕事は給料が高い反面、責任も非常に重い。",
       "translation": "This job pays well, but on the flip side the responsibility is very heavy too.",
       "blank_target": "反面",
-      "wrong_choices": ["から", "どころか", "ため"],
+      "wrong_choices": [
+        "から",
+        "どころか",
+        "ため"
+      ],
       "wrong_choice_explanations": [
-        "「から」は理由（because）を表し、「給料が高いから責任が重い」と因果関係にしてしまうが、高給と重責は同じ仕事の相反する二面であって原因と結果ではない。",
-        "「どころか」は「〜どころか」で前を打ち消して上を述べる語で、「高いどころか」は「高いどころか安い」のように高給であることを否定してしまい、給料が高いという前提と矛盾する。",
-        "「ため」も原因・理由を示し、高給を重責の原因として結ぶが、両者を対立する二面として並べる反面の働きは持たない。"
+        "から gives a reason; 給料が高いから責任も重い is grammatical but turns the pay into the cause of the heavy responsibility, whereas 反面 sets them side by side as the job's good and bad sides.",
+        "どころか means 'far from…'; 給料が高いどころか would deny that the pay is high, contradicting the very premise the sentence makes about the job.",
+        "ため marks a cause; 給料が高いため責任も重い makes the high pay the reason for the heavy responsibility, losing the plus-versus-minus contrast that 反面 draws."
       ],
       "hiragana_full": "このしごとはきゅうりょうがたかいはんめん、せきにんもひじょうにおもい。",
       "audio_alternatives": [
-        { "kanji": "この仕事は給料が高い反面、負う責任も大きい。", "hiragana_full": "このしごとはきゅうりょうがたかいはんめん、おうせきにんもおおきい。" },
-        { "kanji": "給料はいいが、その分だけ責任も重い仕事だ。", "hiragana_full": "きゅうりょうはいいが、そのぶんだけせきにんもおもいしごとだ。" }
+        {
+          "kanji": "この仕事は給料が高い反面、負う責任も大きい。",
+          "hiragana_full": "このしごとはきゅうりょうがたかいはんめん、おうせきにんもおおきい。"
+        },
+        {
+          "kanji": "給料はいいが、その分だけ責任も重い仕事だ。",
+          "hiragana_full": "きゅうりょうはいいが、そのぶんだけせきにんもおもいしごとだ。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "給料", "reading": "きゅうりょう", "meaning": "salary; pay" },
-        { "word": "責任", "reading": "せきにん", "meaning": "responsibility" },
-        { "word": "非常に", "reading": "ひじょうに", "meaning": "extremely; very" }
+        {
+          "word": "給料",
+          "reading": "きゅうりょう",
+          "meaning": "salary; pay"
+        },
+        {
+          "word": "責任",
+          "reading": "せきにん",
+          "meaning": "responsibility"
+        },
+        {
+          "word": "非常に",
+          "reading": "ひじょうに",
+          "meaning": "extremely; very"
+        }
       ],
       "blank_target_reading": "はんめん"
     },
@@ -34,23 +56,45 @@
       "example_sentence": "都会は便利な反面、家賃が非常に高い。",
       "translation": "Cities are convenient, but on the other hand the rent is very high.",
       "blank_target": "反面",
-      "wrong_choices": ["ので", "ため", "上に"],
+      "wrong_choices": [
+        "ので",
+        "ため",
+        "上に"
+      ],
       "wrong_choice_explanations": [
-        "「ので」は理由（because）を表し、「便利なので家賃が高い」と因果でつないでしまうが、便利さと高い家賃は都会の相反する二面であって単なる原因と結果ではない。",
-        "「ため」も原因・理由を示す語で、便利さを家賃が高い理由として結ぶだけで、良い面と悪い面を対比させる反面の働きはない。",
-        "「上に」は「その上」と同じ方向の事柄を付け加える添加の語で、便利さ（利点）と高い家賃（欠点）という相反する二面を対比するこの文には合わない。"
+        "ので gives a reason; 便利なので家賃が高い is grammatical but presents convenience as the cause of the high rent, rather than as the upside set against a downside as 反面 does.",
+        "ため marks a cause; 便利なため家賃が高い reads as a causal explanation, losing the contrast between a good point and a bad point that 反面 draws.",
+        "上に adds a further point in the same direction ('on top of being…'); it can't link the upside 便利 to the downside of very high rent."
       ],
       "hiragana_full": "とかいはべんりなはんめん、やちんがひじょうにたかい。",
       "audio_alternatives": [
-        { "kanji": "都会は便利な反面、暮らしにかかる費用が大きい。", "hiragana_full": "とかいはべんりなはんめん、くらしにかかるひようがおおきい。" },
-        { "kanji": "都会は生活は便利だが、その代わり家賃が高い。", "hiragana_full": "とかいはせいかつはべんりだが、そのかわりやちんがたかい。" }
+        {
+          "kanji": "都会は便利な反面、暮らしにかかる費用が大きい。",
+          "hiragana_full": "とかいはべんりなはんめん、くらしにかかるひようがおおきい。"
+        },
+        {
+          "kanji": "都会は生活は便利だが、その代わり家賃が高い。",
+          "hiragana_full": "とかいはせいかつはべんりだが、そのかわりやちんがたかい。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "都会", "reading": "とかい", "meaning": "city; urban area" },
-        { "word": "家賃", "reading": "やちん", "meaning": "rent" },
-        { "word": "便利", "reading": "べんり", "meaning": "convenient" }
+        {
+          "word": "都会",
+          "reading": "とかい",
+          "meaning": "city; urban area"
+        },
+        {
+          "word": "家賃",
+          "reading": "やちん",
+          "meaning": "rent"
+        },
+        {
+          "word": "便利",
+          "reading": "べんり",
+          "meaning": "convenient"
+        }
       ],
       "blank_target_reading": "はんめん"
     },
@@ -59,23 +103,45 @@
       "example_sentence": "彼は優しい反面、決断力に欠けるところがある。",
       "translation": "He is kind, but on the other side he can be indecisive.",
       "blank_target": "反面",
-      "wrong_choices": ["から", "どころか", "ので"],
+      "wrong_choices": [
+        "から",
+        "どころか",
+        "ので"
+      ],
       "wrong_choice_explanations": [
-        "「から」は理由（because）を表し、「優しいから決断力に欠ける」と因果にしてしまうが、優しさと優柔不断は彼の相反する二面であって原因と結果の関係ではない。",
-        "「どころか」は前を打ち消して上を述べる語で、「優しいどころか」は「少しも優しくない」という含みになり、彼が優しいという前提と食い違う。",
-        "「ので」も原因・理由を表し、優しさを決断力不足の理由として結ぶだけで、長所と短所を対比させる反面の働きはない。"
+        "から gives a reason; 優しいから決断力に欠ける is grammatical but claims his kindness causes the indecision, instead of setting the two traits against each other as 反面 does.",
+        "どころか means 'far from…'; 優しいどころか implies he isn't kind at all, contradicting the kindness the sentence grants him.",
+        "ので gives a reason; 優しいので決断力に欠ける makes kindness the cause of his indecision, losing the strength-versus-weakness contrast that 反面 draws."
       ],
       "hiragana_full": "かれはやさしいはんめん、けつだんりょくにかけるところがある。",
       "audio_alternatives": [
-        { "kanji": "彼は優しい反面、いざという時に決められないことがある。", "hiragana_full": "かれはやさしいはんめん、いざというときにきめられないことがある。" },
-        { "kanji": "彼は優しいが、その分、決断力に欠ける面もある。", "hiragana_full": "かれはやさしいが、そのぶん、けつだんりょくにかけるめんもある。" }
+        {
+          "kanji": "彼は優しい反面、いざという時に決められないことがある。",
+          "hiragana_full": "かれはやさしいはんめん、いざというときにきめられないことがある。"
+        },
+        {
+          "kanji": "彼は優しいが、その分、決断力に欠ける面もある。",
+          "hiragana_full": "かれはやさしいが、そのぶん、けつだんりょくにかけるめんもある。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "優しい", "reading": "やさしい", "meaning": "kind; gentle" },
-        { "word": "決断力", "reading": "けつだんりょく", "meaning": "decisiveness" },
-        { "word": "欠ける", "reading": "かける", "meaning": "to lack; to be short of" }
+        {
+          "word": "優しい",
+          "reading": "やさしい",
+          "meaning": "kind; gentle"
+        },
+        {
+          "word": "決断力",
+          "reading": "けつだんりょく",
+          "meaning": "decisiveness"
+        },
+        {
+          "word": "欠ける",
+          "reading": "かける",
+          "meaning": "to lack; to be short of"
+        }
       ],
       "blank_target_reading": "はんめん"
     },
@@ -84,23 +150,45 @@
       "example_sentence": "この薬はよく効く反面、副作用が強いと言われている。",
       "translation": "This medicine is very effective, but on the other hand it is said to have strong side effects.",
       "blank_target": "反面",
-      "wrong_choices": ["から", "どころか", "ため"],
+      "wrong_choices": [
+        "から",
+        "どころか",
+        "ため"
+      ],
       "wrong_choice_explanations": [
-        "「から」は理由（because）を表し、「よく効くから副作用が強い」と因果でつなぐが、効き目と副作用はこの薬の相反する二面として対比されており、単純な原因と結果ではない。",
-        "「どころか」は前を否定して上を述べる語で、「よく効くどころか」は「まったく効かない」という含みになり、薬がよく効くという前提と矛盾する。",
-        "「ため」も原因・理由を示し、効き目を副作用の原因として結ぶだけで、良い面と悪い面を対比させる反面の意味にはならない。"
+        "から gives a reason; よく効くから副作用が強い is grammatical but makes effectiveness the cause of the side effects, rather than weighing a benefit against a drawback as 反面 does.",
+        "どころか means 'far from…'; よく効くどころか implies the medicine doesn't work, contradicting the effectiveness the sentence asserts.",
+        "ため marks a cause; よく効くため副作用が強い reads as a causal explanation and loses the benefit-versus-drawback contrast that 反面 draws."
       ],
       "hiragana_full": "このくすりはよくきくはんめん、ふくさようがつよいといわれている。",
       "audio_alternatives": [
-        { "kanji": "この薬はよく効く反面、体への負担も大きいとされる。", "hiragana_full": "このくすりはよくきくはんめん、からだへのふたんもおおきいとされる。" },
-        { "kanji": "この薬は効果が高いが、その分、副作用も強い。", "hiragana_full": "このくすりはこうかがたかいが、そのぶん、ふくさようもつよい。" }
+        {
+          "kanji": "この薬はよく効く反面、体への負担も大きいとされる。",
+          "hiragana_full": "このくすりはよくきくはんめん、からだへのふたんもおおきいとされる。"
+        },
+        {
+          "kanji": "この薬は効果が高いが、その分、副作用も強い。",
+          "hiragana_full": "このくすりはこうかがたかいが、そのぶん、ふくさようもつよい。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "薬", "reading": "くすり", "meaning": "medicine; drug" },
-        { "word": "効く", "reading": "きく", "meaning": "to be effective; to work" },
-        { "word": "副作用", "reading": "ふくさよう", "meaning": "side effect" }
+        {
+          "word": "薬",
+          "reading": "くすり",
+          "meaning": "medicine; drug"
+        },
+        {
+          "word": "効く",
+          "reading": "きく",
+          "meaning": "to be effective; to work"
+        },
+        {
+          "word": "副作用",
+          "reading": "ふくさよう",
+          "meaning": "side effect"
+        }
       ],
       "blank_target_reading": "はんめん"
     },
@@ -109,23 +197,45 @@
       "example_sentence": "インターネットは便利な反面、個人情報が漏れる危険もある。",
       "translation": "The internet is convenient, but on the flip side there is also a risk of personal information leaking.",
       "blank_target": "反面",
-      "wrong_choices": ["ので", "だけに", "上に"],
+      "wrong_choices": [
+        "ので",
+        "だけに",
+        "上に"
+      ],
       "wrong_choice_explanations": [
-        "「ので」は理由（because）を表し、「便利なので情報が漏れる」と因果でつないでしまうが、利便性と情報漏れの危険はインターネットの相反する二面であって原因と結果ではない。",
-        "「だけに」は「便利なだけに」で「便利だからこそ」と原因を強調する語であり、良い面と悪い面を対比させる反面の働きとは異なる。",
-        "「上に」は同じ方向の事柄を付け加える添加の語で、利点（便利さ）と欠点（情報漏れ）という相反する二面を対比するこの文には合わない。"
+        "ので gives a reason; 便利なので個人情報が漏れる危険もある makes convenience the cause of the risk, and sits badly with も, which adds the risk as a separate, opposing side.",
+        "だけに means 'precisely because'; 便利なだけに…危険もある is grammatical but frames the risk as a consequence of convenience rather than as its flip side, which is what 反面 states.",
+        "上に adds a further point in the same direction; it can't join the upside 便利 to the downside of personal information leaking."
       ],
       "hiragana_full": "いんたーねっとはべんりなはんめん、こじんじょうほうがもれるきけんもある。",
       "audio_alternatives": [
-        { "kanji": "インターネットは便利な反面、情報が流出する恐れも伴う。", "hiragana_full": "いんたーねっとはべんりなはんめん、じょうほうがりゅうしゅつするおそれもともなう。" },
-        { "kanji": "ネットは便利だが、その一方で個人情報が漏れる危険もある。", "hiragana_full": "ねっとはべんりだが、そのいっぽうでこじんじょうほうがもれるきけんもある。" }
+        {
+          "kanji": "インターネットは便利な反面、情報が流出する恐れも伴う。",
+          "hiragana_full": "いんたーねっとはべんりなはんめん、じょうほうがりゅうしゅつするおそれもともなう。"
+        },
+        {
+          "kanji": "ネットは便利だが、その一方で個人情報が漏れる危険もある。",
+          "hiragana_full": "ねっとはべんりだが、そのいっぽうでこじんじょうほうがもれるきけんもある。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "個人情報", "reading": "こじんじょうほう", "meaning": "personal information" },
-        { "word": "漏れる", "reading": "もれる", "meaning": "to leak" },
-        { "word": "危険", "reading": "きけん", "meaning": "danger; risk" }
+        {
+          "word": "個人情報",
+          "reading": "こじんじょうほう",
+          "meaning": "personal information"
+        },
+        {
+          "word": "漏れる",
+          "reading": "もれる",
+          "meaning": "to leak"
+        },
+        {
+          "word": "危険",
+          "reading": "きけん",
+          "meaning": "danger; risk"
+        }
       ],
       "blank_target_reading": "はんめん"
     },
@@ -134,23 +244,45 @@
       "example_sentence": "一人暮らしは自由な反面、何もかも自分でやらなければならない。",
       "translation": "Living alone is free, but on the other hand you have to do absolutely everything yourself.",
       "blank_target": "反面",
-      "wrong_choices": ["ので", "ため", "だけに"],
+      "wrong_choices": [
+        "ので",
+        "ため",
+        "だけに"
+      ],
       "wrong_choice_explanations": [
-        "「ので」は理由（because）を表し、「自由なので全部自分でやる」と因果にしてしまうが、自由さと何もかも自分でする負担は一人暮らしの相反する二面であって原因と結果ではない。",
-        "「ため」も原因・理由を示す語で、自由さを負担の理由として結ぶだけで、良い面と悪い面を対比させる反面の働きはない。",
-        "「だけに」は「自由なだけに」で「自由だからこそ」と原因を強調する言い方であり、二つの相反する面を対比する反面とは意味が異なる。"
+        "ので gives a reason; 自由なので何もかも自分でやらなければならない makes freedom the cause of the chores, rather than contrasting a plus with a minus as 反面 does.",
+        "ため marks a cause; 自由なため reads as a causal explanation of the workload, losing the two-sided contrast that 反面 draws.",
+        "だけに means 'precisely because'; 自由なだけに frames doing everything yourself as a result of the freedom, not as its opposing side, which is what 反面 expresses."
       ],
       "hiragana_full": "ひとりぐらしはじゆうなはんめん、なにもかもじぶんでやらなければならない。",
       "audio_alternatives": [
-        { "kanji": "一人暮らしは自由な反面、家事も手続きも全部自分でこなす必要がある。", "hiragana_full": "ひとりぐらしはじゆうなはんめん、かじもてつづきもぜんぶじぶんでこなすひつようがある。" },
-        { "kanji": "一人暮らしは自由だが、その代わり何もかも自分でやることになる。", "hiragana_full": "ひとりぐらしはじゆうだが、そのかわりなにもかもじぶんでやることになる。" }
+        {
+          "kanji": "一人暮らしは自由な反面、家事も手続きも全部自分でこなす必要がある。",
+          "hiragana_full": "ひとりぐらしはじゆうなはんめん、かじもてつづきもぜんぶじぶんでこなすひつようがある。"
+        },
+        {
+          "kanji": "一人暮らしは自由だが、その代わり何もかも自分でやることになる。",
+          "hiragana_full": "ひとりぐらしはじゆうだが、そのかわりなにもかもじぶんでやることになる。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "一人暮らし", "reading": "ひとりぐらし", "meaning": "living alone" },
-        { "word": "自由", "reading": "じゆう", "meaning": "free; freedom" },
-        { "word": "何もかも", "reading": "なにもかも", "meaning": "everything; each and every thing" }
+        {
+          "word": "一人暮らし",
+          "reading": "ひとりぐらし",
+          "meaning": "living alone"
+        },
+        {
+          "word": "自由",
+          "reading": "じゆう",
+          "meaning": "free; freedom"
+        },
+        {
+          "word": "何もかも",
+          "reading": "なにもかも",
+          "meaning": "everything; each and every thing"
+        }
       ],
       "blank_target_reading": "はんめん"
     },
@@ -159,23 +291,45 @@
       "example_sentence": "その車は燃費がいい反面、加速が物足りない。",
       "translation": "That car has good fuel economy, but on the other side its acceleration is underwhelming.",
       "blank_target": "反面",
-      "wrong_choices": ["から", "どころか", "ので"],
+      "wrong_choices": [
+        "から",
+        "どころか",
+        "ので"
+      ],
       "wrong_choice_explanations": [
-        "「から」は理由（because）を表し、「燃費がいいから加速が物足りない」と因果にしてしまうが、良い燃費と物足りない加速はこの車の相反する二面として並べられており、原因と結果ではない。",
-        "「どころか」は前を打ち消して上を述べる語で、「いいどころか」は「よくない」という含みになり、燃費がいいという前提と矛盾する。",
-        "「ので」も理由を示す語で、良い燃費を加速不足の原因として結ぶだけで、長所と短所を対比させる反面の意味にはならない。"
+        "から gives a reason; 燃費がいいから加速が物足りない is grammatical but explains the weak acceleration as caused by the fuel economy, instead of weighing a strength against a weakness as 反面 does.",
+        "どころか means 'far from…'; 燃費がいいどころか implies the fuel economy is actually poor, contradicting the sentence's premise.",
+        "ので gives a reason; 燃費がいいので makes the economy the cause of the sluggish acceleration, losing the strength-versus-weakness contrast that 反面 draws."
       ],
       "hiragana_full": "そのくるまはねんぴがいいはんめん、かそくがものたりない。",
       "audio_alternatives": [
-        { "kanji": "その車は燃費がいい反面、力強い加速は期待できない。", "hiragana_full": "そのくるまはねんぴがいいはんめん、ちからづよいかそくはきたいできない。" },
-        { "kanji": "その車は燃費はいいが、その分、加速はやや物足りない。", "hiragana_full": "そのくるまはねんぴはいいが、そのぶん、かそくはややものたりない。" }
+        {
+          "kanji": "その車は燃費がいい反面、力強い加速は期待できない。",
+          "hiragana_full": "そのくるまはねんぴがいいはんめん、ちからづよいかそくはきたいできない。"
+        },
+        {
+          "kanji": "その車は燃費はいいが、その分、加速はやや物足りない。",
+          "hiragana_full": "そのくるまはねんぴはいいが、そのぶん、かそくはややものたりない。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "燃費", "reading": "ねんぴ", "meaning": "fuel economy; mileage" },
-        { "word": "加速", "reading": "かそく", "meaning": "acceleration" },
-        { "word": "物足りない", "reading": "ものたりない", "meaning": "unsatisfying; not quite enough" }
+        {
+          "word": "燃費",
+          "reading": "ねんぴ",
+          "meaning": "fuel economy; mileage"
+        },
+        {
+          "word": "加速",
+          "reading": "かそく",
+          "meaning": "acceleration"
+        },
+        {
+          "word": "物足りない",
+          "reading": "ものたりない",
+          "meaning": "unsatisfying; not quite enough"
+        }
       ],
       "blank_target_reading": "はんめん"
     },
@@ -184,22 +338,40 @@
       "example_sentence": "彼女は仕事が速い反面、ミスが多いと指摘された。",
       "translation": "She works fast, but on the other hand it was pointed out that she makes many mistakes.",
       "blank_target": "反面",
-      "wrong_choices": ["から", "どころか", "ため"],
+      "wrong_choices": [
+        "から",
+        "どころか",
+        "ため"
+      ],
       "wrong_choice_explanations": [
-        "「から」は理由（because）を表し、「速いからミスが多い」と因果にしてしまうが、仕事の速さとミスの多さは彼女の相反する二面として対比されており、単純な原因と結果ではない。",
-        "「どころか」は前を否定して上を述べる語で、「速いどころか」は「むしろ遅い」という含みになり、仕事が速いという前提と食い違う。",
-        "「ため」も原因・理由を示す語で、速さをミスの原因として結ぶだけで、長所と短所を対比させる反面の働きはない。"
+        "から gives a reason; 仕事が速いからミスが多い is grammatical but blames her speed for the mistakes, rather than setting a strength against a weakness as 反面 does.",
+        "どころか means 'far from…'; 仕事が速いどころか implies she is actually slow, contradicting the speed the sentence credits her with.",
+        "ため marks a cause; 速いためミスが多い reads as a causal diagnosis and loses the strength-versus-weakness contrast that 反面 draws."
       ],
       "hiragana_full": "かのじょはしごとがはやいはんめん、みすがおおいとしてきされた。",
       "audio_alternatives": [
-        { "kanji": "彼女は仕事が速い反面、確認が甘くミスも目立つと指摘された。", "hiragana_full": "かのじょはしごとがはやいはんめん、かくにんがあまくみすもめだつとしてきされた。" },
-        { "kanji": "彼女は仕事は速いが、その分、ミスが多いと言われた。", "hiragana_full": "かのじょはしごとははやいが、そのぶん、みすがおおいといわれた。" }
+        {
+          "kanji": "彼女は仕事が速い反面、確認が甘くミスも目立つと指摘された。",
+          "hiragana_full": "かのじょはしごとがはやいはんめん、かくにんがあまくみすもめだつとしてきされた。"
+        },
+        {
+          "kanji": "彼女は仕事は速いが、その分、ミスが多いと言われた。",
+          "hiragana_full": "かのじょはしごとははやいが、そのぶん、みすがおおいといわれた。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "指摘", "reading": "してき", "meaning": "pointing out; noting" },
-        { "word": "ミス", "reading": "みす", "meaning": "mistake; error" }
+        {
+          "word": "指摘",
+          "reading": "してき",
+          "meaning": "pointing out; noting"
+        },
+        {
+          "word": "ミス",
+          "reading": "みす",
+          "meaning": "mistake; error"
+        }
       ],
       "blank_target_reading": "はんめん"
     },
@@ -208,24 +380,50 @@
       "example_sentence": "新しい制度は効率的である反面、現場の負担を増やしている。",
       "translation": "The new system is efficient, but on the other hand it is increasing the burden on those on the front line.",
       "blank_target": "反面",
-      "wrong_choices": ["から", "ため", "上に"],
+      "wrong_choices": [
+        "から",
+        "ため",
+        "上に"
+      ],
       "wrong_choice_explanations": [
-        "「から」は理由（because）を表し、「効率的だから負担が増える」と因果にしてしまうが、効率のよさと現場の負担増は新制度の相反する二面として対比されており、原因と結果ではない。",
-        "「ため」も原因・理由を示し、効率のよさを負担増の原因として結ぶだけで、良い面と悪い面を対比させる反面の意味にはならない。",
-        "「上に」は同じ方向の事柄を付け加える添加の語で、利点（効率的）と欠点（負担増）という相反する二面を対比するこの文には合わない。"
+        "から gives a reason; 効率的であるから負担を増やしている makes efficiency the cause of the burden, instead of contrasting the system's merit with its cost as 反面 does.",
+        "ため marks a cause; 効率的であるため負担を増やしている reads as cause and effect, losing the merit-versus-cost contrast that 反面 draws.",
+        "上に adds a further point in the same direction; it can't join the merit 効率的 to the drawback of a heavier burden on front-line staff."
       ],
       "hiragana_full": "あたらしいせいどはこうりつてきであるはんめん、げんばのふたんをふやしている。",
       "audio_alternatives": [
-        { "kanji": "新制度は効率的である反面、現場で働く人の負担を重くしている。", "hiragana_full": "しんせいどはこうりつてきであるはんめん、げんばではたらくひとのふたんをおもくしている。" },
-        { "kanji": "新しい制度は効率的だが、その一方で現場の負担は増している。", "hiragana_full": "あたらしいせいどはこうりつてきだが、そのいっぽうでげんばのふたんはましている。" }
+        {
+          "kanji": "新制度は効率的である反面、現場で働く人の負担を重くしている。",
+          "hiragana_full": "しんせいどはこうりつてきであるはんめん、げんばではたらくひとのふたんをおもくしている。"
+        },
+        {
+          "kanji": "新しい制度は効率的だが、その一方で現場の負担は増している。",
+          "hiragana_full": "あたらしいせいどはこうりつてきだが、そのいっぽうでげんばのふたんはましている。"
+        }
       ],
       "audio_eligible": true,
       "register": "written",
       "vocab": [
-        { "word": "制度", "reading": "せいど", "meaning": "system; institution" },
-        { "word": "効率的", "reading": "こうりつてき", "meaning": "efficient" },
-        { "word": "現場", "reading": "げんば", "meaning": "the field; front line; site" },
-        { "word": "負担", "reading": "ふたん", "meaning": "burden; load" }
+        {
+          "word": "制度",
+          "reading": "せいど",
+          "meaning": "system; institution"
+        },
+        {
+          "word": "効率的",
+          "reading": "こうりつてき",
+          "meaning": "efficient"
+        },
+        {
+          "word": "現場",
+          "reading": "げんば",
+          "meaning": "the field; front line; site"
+        },
+        {
+          "word": "負担",
+          "reading": "ふたん",
+          "meaning": "burden; load"
+        }
       ],
       "blank_target_reading": "はんめん"
     },
@@ -234,23 +432,45 @@
       "example_sentence": "この地域は自然が豊かな反面、交通の便が悪い。",
       "translation": "This area is rich in nature, but on the other hand the transport links are poor.",
       "blank_target": "反面",
-      "wrong_choices": ["ので", "だけに", "上に"],
+      "wrong_choices": [
+        "ので",
+        "だけに",
+        "上に"
+      ],
       "wrong_choice_explanations": [
-        "「ので」は理由（because）を表し、「自然が豊かなので交通が不便」と因果にしてしまうが、豊かな自然と不便な交通はこの地域の相反する二面であって原因と結果ではない。",
-        "「だけに」は「豊かなだけに」で「豊かだからこそ」と原因を強調する語であり、良い面と悪い面を対比させる反面の働きとは異なる。",
-        "「上に」は同じ方向の事柄を付け加える添加の語で、利点（豊かな自然）と欠点（交通の不便）という相反する二面を対比するこの文には合わない。"
+        "ので gives a reason; 自然が豊かなので交通の便が悪い makes the rich nature the cause of the poor transport, rather than an upside set against a downside as 反面 does.",
+        "だけに means 'precisely because'; 自然が豊かなだけに交通の便が悪い frames poor transport as a result of the rich nature, not as its flip side, which is what 反面 states.",
+        "上に adds a further point in the same direction; it can't link the upside 自然が豊か to the downside 交通の便が悪い."
       ],
       "hiragana_full": "このちいきはしぜんがゆたかなはんめん、こうつうのべんがわるい。",
       "audio_alternatives": [
-        { "kanji": "この地域は自然が豊かな反面、電車やバスの便が少ない。", "hiragana_full": "このちいきはしぜんがゆたかなはんめん、でんしゃやばすのべんがすくない。" },
-        { "kanji": "この地域は自然に恵まれているが、その代わり交通の便は悪い。", "hiragana_full": "このちいきはしぜんにめぐまれているが、そのかわりこうつうのべんはわるい。" }
+        {
+          "kanji": "この地域は自然が豊かな反面、電車やバスの便が少ない。",
+          "hiragana_full": "このちいきはしぜんがゆたかなはんめん、でんしゃやばすのべんがすくない。"
+        },
+        {
+          "kanji": "この地域は自然に恵まれているが、その代わり交通の便は悪い。",
+          "hiragana_full": "このちいきはしぜんにめぐまれているが、そのかわりこうつうのべんはわるい。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "地域", "reading": "ちいき", "meaning": "area; region" },
-        { "word": "自然", "reading": "しぜん", "meaning": "nature" },
-        { "word": "豊か", "reading": "ゆたか", "meaning": "abundant; rich" }
+        {
+          "word": "地域",
+          "reading": "ちいき",
+          "meaning": "area; region"
+        },
+        {
+          "word": "自然",
+          "reading": "しぜん",
+          "meaning": "nature"
+        },
+        {
+          "word": "豊か",
+          "reading": "ゆたか",
+          "meaning": "abundant; rich"
+        }
       ],
       "blank_target_reading": "はんめん"
     }

@@ -9,22 +9,40 @@
       "example_sentence": "非常ベルが鳴ったら、直ちに建物の外へ避難してください。",
       "translation": "If the emergency bell rings, evacuate outside the building immediately.",
       "blank_target": "直ちに",
-      "wrong_choices": ["のちほど", "しばらく", "そのうち"],
+      "wrong_choices": [
+        "のちほど",
+        "しばらく",
+        "そのうち"
+      ],
       "wrong_choice_explanations": [
-        "「のちほど」は後で改めてという意味で、危険時にすぐ避難するよう求めるこの文の直ちにとは正反対になる。",
-        "「しばらく」はある程度の時間が過ぎるまでを表す語で、即座に避難する直ちにとは合わない。",
-        "「そのうち」はいつか近いうちにという意味で、緊急にすぐ行動することを促す直ちにとは矛盾する。"
+        "のちほど means 'later on'; のちほど避難してください would tell people to evacuate later — absurd once the emergency bell (非常ベル) has rung.",
+        "しばらく means 'for a while'. しばらく建物の外へ避難してください is grammatical ('evacuate outside for a while'), but it sets a duration, not timing; the alarm in 鳴ったら demands immediate action, which is 直ちに.",
+        "そのうち means 'sometime, eventually'; it leaves the timing vague, which contradicts an emergency instruction triggered by 非常ベルが鳴ったら."
       ],
       "hiragana_full": "ひじょうべるがなったら、ただちにたてもののそとへひなんしてください。",
       "audio_alternatives": [
-        { "kanji": "非常ベルが鳴ったら、直ちに建物の外に逃げてください。", "hiragana_full": "ひじょうべるがなったら、ただちにたてもののそとににげてください。" },
-        { "kanji": "警報が鳴ったら、すぐに建物の外へ避難してください。", "hiragana_full": "けいほうがなったら、すぐにたてもののそとへひなんしてください。" }
+        {
+          "kanji": "非常ベルが鳴ったら、直ちに建物の外に逃げてください。",
+          "hiragana_full": "ひじょうべるがなったら、ただちにたてもののそとににげてください。"
+        },
+        {
+          "kanji": "警報が鳴ったら、すぐに建物の外へ避難してください。",
+          "hiragana_full": "けいほうがなったら、すぐにたてもののそとへひなんしてください。"
+        }
       ],
       "audio_eligible": true,
       "register": "formal",
       "vocab": [
-        { "word": "非常ベル", "reading": "ひじょうべる", "meaning": "emergency bell; alarm" },
-        { "word": "避難", "reading": "ひなん", "meaning": "evacuation; taking refuge" }
+        {
+          "word": "非常ベル",
+          "reading": "ひじょうべる",
+          "meaning": "emergency bell; alarm"
+        },
+        {
+          "word": "避難",
+          "reading": "ひなん",
+          "meaning": "evacuation; taking refuge"
+        }
       ],
       "blank_target_reading": "ただちに"
     },
@@ -33,23 +51,45 @@
       "example_sentence": "異常を発見した場合は、直ちに責任者に報告すること。",
       "translation": "If you discover an abnormality, report it to the person in charge at once.",
       "blank_target": "直ちに",
-      "wrong_choices": ["やがて", "そのうち", "のちほど"],
+      "wrong_choices": [
+        "やがて",
+        "そのうち",
+        "のちほど"
+      ],
       "wrong_choice_explanations": [
-        "「やがて」は時間がたって程なくという意味で、発見後すぐに報告するよう求めるこの文の直ちにとは合わない。",
-        "「そのうち」はいつか近いうちにという意味で、即座の報告を求める直ちにとは矛盾する。",
-        "「のちほど」は後で改めてという意味で、すぐさま報告する直ちにとは正反対になる。"
+        "やがて means 'before long, in due course' and narrates things that come about naturally; it can't head a rule like 報告すること that demands reporting right after a discovery.",
+        "そのうち means 'eventually, one of these days'; a rule saying to report an abnormality 'eventually' defeats its purpose — 発見した場合は calls for reporting at once.",
+        "のちほど means 'later on'; telling staff to report a discovered abnormality later contradicts the point of the rule, which is immediate escalation to 責任者."
       ],
       "hiragana_full": "いじょうをはっけんしたばあいは、ただちにせきにんしゃにほうこくすること。",
       "audio_alternatives": [
-        { "kanji": "異常に気づいたら、直ちに責任者へ知らせること。", "hiragana_full": "いじょうにきづいたら、ただちにせきにんしゃへしらせること。" },
-        { "kanji": "何か異常があれば、すぐに担当者に報告してください。", "hiragana_full": "なにかいじょうがあれば、すぐにたんとうしゃにほうこくしてください。" }
+        {
+          "kanji": "異常に気づいたら、直ちに責任者へ知らせること。",
+          "hiragana_full": "いじょうにきづいたら、ただちにせきにんしゃへしらせること。"
+        },
+        {
+          "kanji": "何か異常があれば、すぐに担当者に報告してください。",
+          "hiragana_full": "なにかいじょうがあれば、すぐにたんとうしゃにほうこくしてください。"
+        }
       ],
       "audio_eligible": true,
       "register": "written",
       "vocab": [
-        { "word": "異常", "reading": "いじょう", "meaning": "abnormality; something wrong" },
-        { "word": "責任者", "reading": "せきにんしゃ", "meaning": "person in charge" },
-        { "word": "報告", "reading": "ほうこく", "meaning": "report" }
+        {
+          "word": "異常",
+          "reading": "いじょう",
+          "meaning": "abnormality; something wrong"
+        },
+        {
+          "word": "責任者",
+          "reading": "せきにんしゃ",
+          "meaning": "person in charge"
+        },
+        {
+          "word": "報告",
+          "reading": "ほうこく",
+          "meaning": "report"
+        }
       ],
       "blank_target_reading": "ただちに"
     },
@@ -58,22 +98,40 @@
       "example_sentence": "知らせを受けた社長は、直ちに現場へ向かった。",
       "translation": "On receiving the news, the president headed to the site immediately.",
       "blank_target": "直ちに",
-      "wrong_choices": ["しばらく", "やがて", "いずれ"],
+      "wrong_choices": [
+        "しばらく",
+        "やがて",
+        "いずれ"
+      ],
       "wrong_choice_explanations": [
-        "「しばらく」はある程度の時間という意味で、知らせを受けてすぐ動いたこの文の直ちにとは合わない。",
-        "「やがて」は程なくという意味で、時間の間を置かず出発したことを表す直ちにとは矛盾する。",
-        "「いずれ」はそのうち・近い将来という意味で、即座に向かった直ちにとは働きが違う。"
+        "しばらく means 'for a while' and marks a duration; it can't modify the one-off act 向かった, and it loses the point that the president left as soon as the news came.",
+        "やがて means 'after a while'. やがて現場へ向かった is grammatical, but it puts a gap between 知らせを受けた and the departure; 直ちに says he set off with no delay at all.",
+        "いずれ means 'someday, sooner or later' and points to the future; it can't describe the completed past action 向かった."
       ],
       "hiragana_full": "しらせをうけたしゃちょうは、ただちにげんばへむかった。",
       "audio_alternatives": [
-        { "kanji": "報告を受けた社長は、直ちに現場に駆けつけた。", "hiragana_full": "ほうこくをうけたしゃちょうは、ただちにげんばにかけつけた。" },
-        { "kanji": "知らせを聞くと、社長はすぐに現場へ向かった。", "hiragana_full": "しらせをきくと、しゃちょうはすぐにげんばへむかった。" }
+        {
+          "kanji": "報告を受けた社長は、直ちに現場に駆けつけた。",
+          "hiragana_full": "ほうこくをうけたしゃちょうは、ただちにげんばにかけつけた。"
+        },
+        {
+          "kanji": "知らせを聞くと、社長はすぐに現場へ向かった。",
+          "hiragana_full": "しらせをきくと、しゃちょうはすぐにげんばへむかった。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "知らせ", "reading": "しらせ", "meaning": "news; notice" },
-        { "word": "現場", "reading": "げんば", "meaning": "scene; site" }
+        {
+          "word": "知らせ",
+          "reading": "しらせ",
+          "meaning": "news; notice"
+        },
+        {
+          "word": "現場",
+          "reading": "げんば",
+          "meaning": "scene; site"
+        }
       ],
       "blank_target_reading": "ただちに"
     },
@@ -82,22 +140,40 @@
       "example_sentence": "地震が発生したため、電車は直ちに運転を見合わせた。",
       "translation": "Because an earthquake occurred, the trains suspended service immediately.",
       "blank_target": "直ちに",
-      "wrong_choices": ["そのうち", "しばらく", "やがて"],
+      "wrong_choices": [
+        "そのうち",
+        "しばらく",
+        "やがて"
+      ],
       "wrong_choice_explanations": [
-        "「そのうち」はいつか近いうちにという意味で、地震発生と同時にすぐ止めたこの文の直ちにとは合わない。",
-        "「しばらく」はある程度の時間がたつまでを表す語で、即座に運転を止めた直ちにとは矛盾する。",
-        "「やがて」は程なくという意味で、間を置かず対応したことを表す直ちにとは働きが違う。"
+        "そのうち means 'eventually, sometime'; a vague, delayed suspension doesn't fit a safety response caused by the earthquake (発生したため), which is immediate.",
+        "しばらく means 'for a while'. しばらく運転を見合わせた is natural Japanese ('suspended service for a while'), but it states how long, not how fast; 直ちに says the trains stopped the moment the quake hit.",
+        "やがて means 'after a while'. やがて運転を見合わせた is grammatical, but it inserts a delay after the quake; 直ちに stresses that service was halted without any delay."
       ],
       "hiragana_full": "じしんがはっせいしたため、でんしゃはただちにうんてんをみあわせた。",
       "audio_alternatives": [
-        { "kanji": "地震が起きたため、電車は直ちに運行を停止した。", "hiragana_full": "じしんがおきたため、でんしゃはただちにうんこうをていしした。" },
-        { "kanji": "地震の発生により、電車はすぐに運転を見合わせた。", "hiragana_full": "じしんのはっせいにより、でんしゃはすぐにうんてんをみあわせた。" }
+        {
+          "kanji": "地震が起きたため、電車は直ちに運行を停止した。",
+          "hiragana_full": "じしんがおきたため、でんしゃはただちにうんこうをていしした。"
+        },
+        {
+          "kanji": "地震の発生により、電車はすぐに運転を見合わせた。",
+          "hiragana_full": "じしんのはっせいにより、でんしゃはすぐにうんてんをみあわせた。"
+        }
       ],
       "audio_eligible": true,
       "register": "written",
       "vocab": [
-        { "word": "発生", "reading": "はっせい", "meaning": "occurrence; outbreak" },
-        { "word": "見合わせる", "reading": "みあわせる", "meaning": "to suspend; to hold off on" }
+        {
+          "word": "発生",
+          "reading": "はっせい",
+          "meaning": "occurrence; outbreak"
+        },
+        {
+          "word": "見合わせる",
+          "reading": "みあわせる",
+          "meaning": "to suspend; to hold off on"
+        }
       ],
       "blank_target_reading": "ただちに"
     },
@@ -106,22 +182,40 @@
       "example_sentence": "その事態を受け、政府は直ちに対策会議を開いた。",
       "translation": "In response to the situation, the government convened an emergency task-force meeting at once.",
       "blank_target": "直ちに",
-      "wrong_choices": ["やがて", "いずれ", "そのうち"],
+      "wrong_choices": [
+        "やがて",
+        "いずれ",
+        "そのうち"
+      ],
       "wrong_choice_explanations": [
-        "「やがて」は時間がたって程なくという意味で、事態を受けてすぐ会議を開いたこの文の直ちにとは合わない。",
-        "「いずれ」はそのうち・近い将来という意味で、即座に対応したことを表す直ちにとは矛盾する。",
-        "「そのうち」はいつか近いうちにという意味で、間を置かず会議を開いた直ちにとは働きが違う。"
+        "やがて means 'after a while'. やがて対策会議を開いた is grammatical, but it puts a delay between 事態を受け and the meeting; 直ちに says the government convened it at once.",
+        "いずれ means 'someday, sooner or later' and points to the future; it can't describe the completed action 開いた.",
+        "そのうち means 'eventually, sometime'; a meeting held at some vague later point doesn't fit 事態を受け, which presents the meeting as the immediate response."
       ],
       "hiragana_full": "そのじたいをうけ、せいふはただちにたいさくかいぎをひらいた。",
       "audio_alternatives": [
-        { "kanji": "事態の深刻さを受け、政府は直ちに緊急会議を招集した。", "hiragana_full": "じたいのしんこくさをうけ、せいふはただちにきんきゅうかいぎをしょうしゅうした。" },
-        { "kanji": "その事態を受けて、政府はすぐに対策会議を開いた。", "hiragana_full": "そのじたいをうけて、せいふはすぐにたいさくかいぎをひらいた。" }
+        {
+          "kanji": "事態の深刻さを受け、政府は直ちに緊急会議を招集した。",
+          "hiragana_full": "じたいのしんこくさをうけ、せいふはただちにきんきゅうかいぎをしょうしゅうした。"
+        },
+        {
+          "kanji": "その事態を受けて、政府はすぐに対策会議を開いた。",
+          "hiragana_full": "そのじたいをうけて、せいふはすぐにたいさくかいぎをひらいた。"
+        }
       ],
       "audio_eligible": true,
       "register": "written",
       "vocab": [
-        { "word": "事態", "reading": "じたい", "meaning": "situation; state of affairs" },
-        { "word": "対策", "reading": "たいさく", "meaning": "countermeasure" }
+        {
+          "word": "事態",
+          "reading": "じたい",
+          "meaning": "situation; state of affairs"
+        },
+        {
+          "word": "対策",
+          "reading": "たいさく",
+          "meaning": "countermeasure"
+        }
       ],
       "blank_target_reading": "ただちに"
     },
@@ -130,22 +224,40 @@
       "example_sentence": "火災報知器が作動し、従業員は直ちに避難を始めた。",
       "translation": "The fire alarm went off, and the employees began evacuating immediately.",
       "blank_target": "直ちに",
-      "wrong_choices": ["のちほど", "しばらく", "そのうち"],
+      "wrong_choices": [
+        "のちほど",
+        "しばらく",
+        "そのうち"
+      ],
       "wrong_choice_explanations": [
-        "「のちほど」は後で改めてという意味で、警報が鳴ってすぐ避難を始めたこの文の直ちにとは正反対になる。",
-        "「しばらく」はある程度の時間という意味で、即座に避難を始めた直ちにとは合わない。",
-        "「そのうち」はいつか近いうちにという意味で、間を置かず行動したことを表す直ちにとは矛盾する。"
+        "のちほど means 'later on' and is used for planned future actions; it can't describe the past 始めた, and starting to evacuate 'later' after a fire alarm is absurd.",
+        "しばらく means 'for a while'; it can't modify the moment of starting (避難を始めた), and it loses the point that staff began evacuating as soon as the alarm went off.",
+        "そのうち means 'eventually'; evacuating 'eventually' after a fire alarm (報知器が作動し) contradicts the urgent, immediate reaction the sentence reports."
       ],
       "hiragana_full": "かさいほうちきがさどうし、じゅうぎょういんはただちにひなんをはじめた。",
       "audio_alternatives": [
-        { "kanji": "火災報知器が鳴り、従業員は直ちに避難に移った。", "hiragana_full": "かさいほうちきがなり、じゅうぎょういんはただちにひなんにうつった。" },
-        { "kanji": "火災報知器が作動したので、社員はすぐに避難を始めた。", "hiragana_full": "かさいほうちきがさどうしたので、しゃいんはすぐにひなんをはじめた。" }
+        {
+          "kanji": "火災報知器が鳴り、従業員は直ちに避難に移った。",
+          "hiragana_full": "かさいほうちきがなり、じゅうぎょういんはただちにひなんにうつった。"
+        },
+        {
+          "kanji": "火災報知器が作動したので、社員はすぐに避難を始めた。",
+          "hiragana_full": "かさいほうちきがさどうしたので、しゃいんはすぐにひなんをはじめた。"
+        }
       ],
       "audio_eligible": true,
       "register": "written",
       "vocab": [
-        { "word": "作動", "reading": "さどう", "meaning": "activation; (a device) going off" },
-        { "word": "従業員", "reading": "じゅうぎょういん", "meaning": "employee; staff" }
+        {
+          "word": "作動",
+          "reading": "さどう",
+          "meaning": "activation; (a device) going off"
+        },
+        {
+          "word": "従業員",
+          "reading": "じゅうぎょういん",
+          "meaning": "employee; staff"
+        }
       ],
       "blank_target_reading": "ただちに"
     },
@@ -154,22 +266,40 @@
       "example_sentence": "ご注文をいただき次第、直ちに商品を発送いたします。",
       "translation": "As soon as we receive your order, we will ship the product immediately.",
       "blank_target": "直ちに",
-      "wrong_choices": ["のちほど", "そのうち", "いずれ"],
+      "wrong_choices": [
+        "のちほど",
+        "そのうち",
+        "いずれ"
+      ],
       "wrong_choice_explanations": [
-        "「のちほど」は後で改めてという意味で、注文後すぐに発送すると約束するこの文の直ちにとは正反対になる。",
-        "「そのうち」はいつか近いうちにという意味で、即座に発送することを表す直ちにとは合わない。",
-        "「いずれ」はそのうち・近い将来という意味で、間を置かず対応する直ちにとは矛盾する。"
+        "のちほど means 'later on'; promising to ship 'later' contradicts いただき次第 ('as soon as we receive'), which commits to dispatch right after the order.",
+        "そのうち means 'eventually, one of these days'; a vague 'eventually' contradicts the promise in いただき次第 and sounds careless in a formal business promise.",
+        "いずれ means 'someday, sooner or later'; shipping 'someday' clashes with いただき次第, which promises dispatch the moment the order arrives."
       ],
       "hiragana_full": "ごちゅうもんをいただきしだい、ただちにしょうひんをはっそういたします。",
       "audio_alternatives": [
-        { "kanji": "ご注文を受け付け次第、直ちに商品をお送りいたします。", "hiragana_full": "ごちゅうもんをうけつけしだい、ただちにしょうひんをおおくりいたします。" },
-        { "kanji": "ご注文いただければ、すぐに商品を発送します。", "hiragana_full": "ごちゅうもんいただければ、すぐにしょうひんをはっそうします。" }
+        {
+          "kanji": "ご注文を受け付け次第、直ちに商品をお送りいたします。",
+          "hiragana_full": "ごちゅうもんをうけつけしだい、ただちにしょうひんをおおくりいたします。"
+        },
+        {
+          "kanji": "ご注文いただければ、すぐに商品を発送します。",
+          "hiragana_full": "ごちゅうもんいただければ、すぐにしょうひんをはっそうします。"
+        }
       ],
       "audio_eligible": true,
       "register": "formal",
       "vocab": [
-        { "word": "注文", "reading": "ちゅうもん", "meaning": "order" },
-        { "word": "発送", "reading": "はっそう", "meaning": "shipping; dispatch" }
+        {
+          "word": "注文",
+          "reading": "ちゅうもん",
+          "meaning": "order"
+        },
+        {
+          "word": "発送",
+          "reading": "はっそう",
+          "meaning": "shipping; dispatch"
+        }
       ],
       "blank_target_reading": "ただちに"
     },
@@ -178,22 +308,40 @@
       "example_sentence": "医師は患者の容体を見て、直ちに手術の準備を指示した。",
       "translation": "The doctor looked at the patient's condition and immediately ordered preparations for surgery.",
       "blank_target": "直ちに",
-      "wrong_choices": ["しばらく", "やがて", "そのうち"],
+      "wrong_choices": [
+        "しばらく",
+        "やがて",
+        "そのうち"
+      ],
       "wrong_choice_explanations": [
-        "「しばらく」はある程度の時間という意味で、容体を見てすぐ指示したこの文の直ちにとは合わない。",
-        "「やがて」は程なくという意味で、間を置かず準備を命じた直ちにとは矛盾する。",
-        "「そのうち」はいつか近いうちにという意味で、即座に指示した直ちにとは働きが違う。"
+        "しばらく means 'for a while' and marks a duration; it can't modify the one-off act of giving an order (指示した), and it loses the urgency of the doctor's response.",
+        "やがて means 'after a while'. やがて手術の準備を指示した is grammatical, but it leaves a delay after 容体を見て; 直ちに stresses the doctor gave the order immediately.",
+        "そのうち means 'eventually, sometime'; a vague later order doesn't fit 容体を見て, where seeing the patient's condition triggers the order at once."
       ],
       "hiragana_full": "いしはかんじゃのようだいをみて、ただちにしゅじゅつのじゅんびをしじした。",
       "audio_alternatives": [
-        { "kanji": "医師は患者の様子を見るや、直ちに手術の準備を命じた。", "hiragana_full": "いしはかんじゃのようすをみるや、ただちにしゅじゅつのじゅんびをめいじた。" },
-        { "kanji": "医師は患者の容体を確認し、すぐに手術の準備を指示した。", "hiragana_full": "いしはかんじゃのようだいをかくにんし、すぐにしゅじゅつのじゅんびをしじした。" }
+        {
+          "kanji": "医師は患者の様子を見るや、直ちに手術の準備を命じた。",
+          "hiragana_full": "いしはかんじゃのようすをみるや、ただちにしゅじゅつのじゅんびをめいじた。"
+        },
+        {
+          "kanji": "医師は患者の容体を確認し、すぐに手術の準備を指示した。",
+          "hiragana_full": "いしはかんじゃのようだいをかくにんし、すぐにしゅじゅつのじゅんびをしじした。"
+        }
       ],
       "audio_eligible": true,
       "register": "written",
       "vocab": [
-        { "word": "容体", "reading": "ようだい", "meaning": "(patient's) condition" },
-        { "word": "指示", "reading": "しじ", "meaning": "instruction; direction" }
+        {
+          "word": "容体",
+          "reading": "ようだい",
+          "meaning": "(patient's) condition"
+        },
+        {
+          "word": "指示",
+          "reading": "しじ",
+          "meaning": "instruction; direction"
+        }
       ],
       "blank_target_reading": "ただちに"
     },
@@ -202,23 +350,45 @@
       "example_sentence": "契約に違反した場合、会社は直ちに取引を停止する。",
       "translation": "In the event of a breach of contract, the company will immediately suspend all dealings.",
       "blank_target": "直ちに",
-      "wrong_choices": ["いずれ", "そのうち", "やがて"],
+      "wrong_choices": [
+        "いずれ",
+        "そのうち",
+        "やがて"
+      ],
       "wrong_choice_explanations": [
-        "「いずれ」はそのうち・近い将来という意味で、違反があればすぐに取引を止めると定めるこの文の直ちにとは合わない。",
-        "「そのうち」はいつか近いうちにという意味で、即座に停止することを表す直ちにとは矛盾する。",
-        "「やがて」は程なくという意味で、間を置かず措置を取る直ちにとは働きが違う。"
+        "いずれ means 'sooner or later'; a rule stating the company will 'eventually' stop dealing leaves the timing open, while 違反した場合 sets up an automatic, immediate consequence.",
+        "そのうち means 'eventually, one of these days'; it is too vague and casual for a contract clause, which states that dealings stop at once on breach (違反した場合).",
+        "やがて means 'in due course' and narrates things that come about naturally; it doesn't fit a rule that fixes the consequence of a breach as immediate suspension."
       ],
       "hiragana_full": "けいやくにいはんしたばあい、かいしゃはただちにとりひきをていしする。",
       "audio_alternatives": [
-        { "kanji": "契約違反があった場合、会社は直ちに取引を打ち切る。", "hiragana_full": "けいやくいはんがあったばあい、かいしゃはただちにとりひきをうちきる。" },
-        { "kanji": "契約に違反すれば、会社はすぐに取引を停止する。", "hiragana_full": "けいやくにいはんすれば、かいしゃはすぐにとりひきをていしする。" }
+        {
+          "kanji": "契約違反があった場合、会社は直ちに取引を打ち切る。",
+          "hiragana_full": "けいやくいはんがあったばあい、かいしゃはただちにとりひきをうちきる。"
+        },
+        {
+          "kanji": "契約に違反すれば、会社はすぐに取引を停止する。",
+          "hiragana_full": "けいやくにいはんすれば、かいしゃはすぐにとりひきをていしする。"
+        }
       ],
       "audio_eligible": true,
       "register": "written",
       "vocab": [
-        { "word": "契約", "reading": "けいやく", "meaning": "contract" },
-        { "word": "違反", "reading": "いはん", "meaning": "violation; breach" },
-        { "word": "取引", "reading": "とりひき", "meaning": "dealings; transactions" }
+        {
+          "word": "契約",
+          "reading": "けいやく",
+          "meaning": "contract"
+        },
+        {
+          "word": "違反",
+          "reading": "いはん",
+          "meaning": "violation; breach"
+        },
+        {
+          "word": "取引",
+          "reading": "とりひき",
+          "meaning": "dealings; transactions"
+        }
       ],
       "blank_target_reading": "ただちに"
     },
@@ -227,22 +397,40 @@
       "example_sentence": "問題が起きたら、直ちに私に連絡してください。",
       "translation": "If a problem comes up, contact me at once.",
       "blank_target": "直ちに",
-      "wrong_choices": ["のちほど", "そのうち", "しばらく"],
+      "wrong_choices": [
+        "のちほど",
+        "そのうち",
+        "しばらく"
+      ],
       "wrong_choice_explanations": [
-        "「のちほど」は後で改めてという意味で、問題が起きたらすぐ知らせてほしいと求めるこの文の直ちにとは正反対になる。",
-        "「そのうち」はいつか近いうちにという意味で、即座の連絡を求める直ちにとは合わない。",
-        "「しばらく」はある程度の時間という意味で、間を置かず連絡してほしい直ちにとは矛盾する。"
+        "のちほど means 'later on'; asking to be contacted 'later' contradicts 問題が起きたら, which asks to be told the moment a problem arises.",
+        "そのうち means 'eventually'; asking for a call 'eventually' defeats the request, which ties the contact to 問題が起きたら — right away.",
+        "しばらく means 'for a while' and marks a duration; しばらく私に連絡してください makes no sense as a request, which is about contacting me at once."
       ],
       "hiragana_full": "もんだいがおきたら、ただちにわたしにれんらくしてください。",
       "audio_alternatives": [
-        { "kanji": "何か問題が起きたら、直ちに私に知らせてください。", "hiragana_full": "なにかもんだいがおきたら、ただちにわたしにしらせてください。" },
-        { "kanji": "問題が発生したら、すぐに私まで連絡してください。", "hiragana_full": "もんだいがはっせいしたら、すぐにわたしまでれんらくしてください。" }
+        {
+          "kanji": "何か問題が起きたら、直ちに私に知らせてください。",
+          "hiragana_full": "なにかもんだいがおきたら、ただちにわたしにしらせてください。"
+        },
+        {
+          "kanji": "問題が発生したら、すぐに私まで連絡してください。",
+          "hiragana_full": "もんだいがはっせいしたら、すぐにわたしまでれんらくしてください。"
+        }
       ],
       "audio_eligible": true,
       "register": "formal",
       "vocab": [
-        { "word": "起きる", "reading": "おきる", "meaning": "to happen; to occur" },
-        { "word": "連絡", "reading": "れんらく", "meaning": "contact; to get in touch" }
+        {
+          "word": "起きる",
+          "reading": "おきる",
+          "meaning": "to happen; to occur"
+        },
+        {
+          "word": "連絡",
+          "reading": "れんらく",
+          "meaning": "contact; to get in touch"
+        }
       ],
       "blank_target_reading": "ただちに"
     }

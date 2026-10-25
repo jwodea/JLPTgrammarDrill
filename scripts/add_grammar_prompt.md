@@ -32,7 +32,7 @@ Each exercise object (in this key order, matching existing files):
 - `translation` — natural English translation (not literal)
 - `blank_target` — the substring of `example_sentence` that becomes the blank. Must appear verbatim. Use the pattern itself, or its pattern-defining portion (e.g. for `〜ことから` blank `ことから`; for `〜ざるを得ない` blank `ざるを得ない`).
 - `wrong_choices` — array of **exactly 3** plausible-but-wrong alternatives a real learner might confuse with the answer. Same grammatical category, roughly similar length. Avoid distractors that are wrong on form alone.
-- `wrong_choice_explanations` — array of **exactly 3** strings, one per wrong choice in order. Each must (a) state what the wrong choice means/does and (b) explain why it doesn't fit *this* sentence. Reference specific words in the sentence when useful. 1–3 sentences each. Avoid generic explanations.
+- `wrong_choice_explanations` — array of **exactly 3** strings, one per wrong choice in order, **written in English** (Japanese forms quoted inline; never Japanese prose). Each must (a) state what the wrong choice means/does and (b) explain why it doesn't fit *this* sentence. Reference specific words in the sentence when useful. 1–3 sentences each. Avoid generic explanations.
 - `hiragana_full` — full hiragana reading of `example_sentence`, preserving punctuation. Convert all kanji to hiragana; leave katakana words as katakana (the existing files use lowercased katakana e.g. `スポーツ → すぽーつ` — match that convention).
 - `audio_alternatives` — array of exactly **2** rephrasings, each an object `{ "kanji": ..., "hiragana_full": ... }`. Use different vocabulary, register, or word order. At least one of the two should still use the pattern when natural.
 - `audio_eligible` — `true` (boolean)

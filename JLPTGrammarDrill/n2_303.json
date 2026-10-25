@@ -9,23 +9,45 @@
       "example_sentence": "氏名及び住所をこの欄にご記入ください。",
       "translation": "Please fill in your name and address in this field. (on the form)",
       "blank_target": "及び",
-      "wrong_choices": ["または", "や", "かつ"],
+      "wrong_choices": [
+        "または",
+        "や",
+        "かつ"
+      ],
       "wrong_choice_explanations": [
-        "「または」は二つのうちどちらか一方を選ぶ選択（or）の意味で、氏名と住所の両方を必ず書かせるこの文には合わない。",
-        "「や」は代表例を挙げて残りを省く非網羅的な並列で口語的でもあり、項目を漏れなく記入させる書式の硬い文には不適切。",
-        "「かつ」は述語や形容詞を「その上」と重ねる語で、氏名・住所のような二つの名詞を対等に結ぶ用法はない。"
+        "または means 'or'; 氏名または住所をご記入ください would let the person write just one of the two, whereas the field asks for both name and address.",
+        "や lists examples loosely ('name, address and so on'); a form field needs an exact list of the required items, which is what the formal 及び gives.",
+        "かつ links predicates or conditions ('and moreover'), not two nouns; 氏名かつ住所 is not a natural way to list two items to fill in."
       ],
       "hiragana_full": "しめいおよびじゅうしょをこのらんにごきにゅうください。",
       "audio_alternatives": [
-        { "kanji": "氏名及びご住所を、こちらの欄にご記入ください。", "hiragana_full": "しめいおよびごじゅうしょを、こちらのらんにごきにゅうください。" },
-        { "kanji": "この欄に、お名前と住所をお書きください。", "hiragana_full": "このらんに、おなまえとじゅうしょをおかきください。" }
+        {
+          "kanji": "氏名及びご住所を、こちらの欄にご記入ください。",
+          "hiragana_full": "しめいおよびごじゅうしょを、こちらのらんにごきにゅうください。"
+        },
+        {
+          "kanji": "この欄に、お名前と住所をお書きください。",
+          "hiragana_full": "このらんに、おなまえとじゅうしょをおかきください。"
+        }
       ],
       "audio_eligible": true,
       "register": "formal",
       "vocab": [
-        { "word": "氏名", "reading": "しめい", "meaning": "full name" },
-        { "word": "住所", "reading": "じゅうしょ", "meaning": "address" },
-        { "word": "欄", "reading": "らん", "meaning": "column; field (on a form)" }
+        {
+          "word": "氏名",
+          "reading": "しめい",
+          "meaning": "full name"
+        },
+        {
+          "word": "住所",
+          "reading": "じゅうしょ",
+          "meaning": "address"
+        },
+        {
+          "word": "欄",
+          "reading": "らん",
+          "meaning": "column; field (on a form)"
+        }
       ],
       "blank_target_reading": "および"
     },
@@ -34,23 +56,45 @@
       "example_sentence": "会議には社長及び役員全員が出席した。",
       "translation": "The president and all the executives attended the meeting.",
       "blank_target": "及び",
-      "wrong_choices": ["または", "もしくは", "や"],
+      "wrong_choices": [
+        "または",
+        "もしくは",
+        "や"
+      ],
       "wrong_choice_explanations": [
-        "「または」は「どちらか一方」の選択を表し、社長と役員の両方がそろって出席したという事実には合わない。",
-        "「もしくは」も二者択一の「or」で、両者が同時に出席したことを述べるこの文にはそぐわない。",
-        "「や」は例示的で残りを含みうる並列のため、全員がそろったと言い切るこの文の趣旨とずれる。"
+        "または means 'or'; 社長または役員全員が出席した reports a past attendance as if unsure which group came, whereas the president and all the executives were both there.",
+        "もしくは is a formal 'or'; 社長もしくは役員全員 presents the president and the executives as alternatives, when in fact both attended.",
+        "や lists examples loosely ('the president, the executives and others'); it softens the precise roll call of who attended, which 及び states exactly."
       ],
       "hiragana_full": "かいぎにはしゃちょうおよびやくいんぜんいんがしゅっせきした。",
       "audio_alternatives": [
-        { "kanji": "会議には、社長及び役員が全員そろって出席した。", "hiragana_full": "かいぎには、しゃちょうおよびやくいんがぜんいんそろってしゅっせきした。" },
-        { "kanji": "社長と役員全員が会議に出席した。", "hiragana_full": "しゃちょうとやくいんぜんいんがかいぎにしゅっせきした。" }
+        {
+          "kanji": "会議には、社長及び役員が全員そろって出席した。",
+          "hiragana_full": "かいぎには、しゃちょうおよびやくいんがぜんいんそろってしゅっせきした。"
+        },
+        {
+          "kanji": "社長と役員全員が会議に出席した。",
+          "hiragana_full": "しゃちょうとやくいんぜんいんがかいぎにしゅっせきした。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "役員", "reading": "やくいん", "meaning": "executive; board member" },
-        { "word": "全員", "reading": "ぜんいん", "meaning": "all members; everyone" },
-        { "word": "出席", "reading": "しゅっせき", "meaning": "attendance" }
+        {
+          "word": "役員",
+          "reading": "やくいん",
+          "meaning": "executive; board member"
+        },
+        {
+          "word": "全員",
+          "reading": "ぜんいん",
+          "meaning": "all members; everyone"
+        },
+        {
+          "word": "出席",
+          "reading": "しゅっせき",
+          "meaning": "attendance"
+        }
       ],
       "blank_target_reading": "および"
     },
@@ -59,23 +103,45 @@
       "example_sentence": "本製品は日本国内及び海外で広く販売されている。",
       "translation": "This product is widely sold both within Japan and overseas.",
       "blank_target": "及び",
-      "wrong_choices": ["ないし", "または", "かつ"],
+      "wrong_choices": [
+        "ないし",
+        "または",
+        "かつ"
+      ],
       "wrong_choice_explanations": [
-        "「ないし」は「AないしB」で「AかB」または「AからBまで」の意を表し、国内と海外の両方で売られている事実を並べる文には合わない。",
-        "「または」は二者択一の選択で、国内・海外の双方で販売されていることを示すこの文にはそぐわない。",
-        "「かつ」は述語や条件を重ねて言う語で、国内・海外という二つの名詞を対等に結ぶ用法はない。"
+        "ないし means 'or' or 'from A to B'; 国内ないし海外 offers the two markets as alternatives, but 広く販売されている states the product is sold in both.",
+        "または means 'or'; 国内または海外で広く販売されている leaves open which market, clashing with a factual statement that it sells widely in both.",
+        "かつ joins predicates or conditions, not place nouns; 国内かつ海外 would describe a place that is both domestic and overseas at once, which is impossible."
       ],
       "hiragana_full": "ほんせいひんはにほんこくないおよびかいがいでひろくはんばいされている。",
       "audio_alternatives": [
-        { "kanji": "この製品は、国内及び海外で幅広く売られている。", "hiragana_full": "このせいひんは、こくないおよびかいがいではばひろくうられている。" },
-        { "kanji": "本製品は日本だけでなく海外でも広く販売されている。", "hiragana_full": "ほんせいひんはにほんだけでなくかいがいでもひろくはんばいされている。" }
+        {
+          "kanji": "この製品は、国内及び海外で幅広く売られている。",
+          "hiragana_full": "このせいひんは、こくないおよびかいがいではばひろくうられている。"
+        },
+        {
+          "kanji": "本製品は日本だけでなく海外でも広く販売されている。",
+          "hiragana_full": "ほんせいひんはにほんだけでなくかいがいでもひろくはんばいされている。"
+        }
       ],
       "audio_eligible": true,
       "register": "written",
       "vocab": [
-        { "word": "製品", "reading": "せいひん", "meaning": "product" },
-        { "word": "国内", "reading": "こくない", "meaning": "domestic; within the country" },
-        { "word": "海外", "reading": "かいがい", "meaning": "overseas; abroad" }
+        {
+          "word": "製品",
+          "reading": "せいひん",
+          "meaning": "product"
+        },
+        {
+          "word": "国内",
+          "reading": "こくない",
+          "meaning": "domestic; within the country"
+        },
+        {
+          "word": "海外",
+          "reading": "かいがい",
+          "meaning": "overseas; abroad"
+        }
       ],
       "blank_target_reading": "および"
     },
@@ -84,23 +150,45 @@
       "example_sentence": "申込書には保護者及び本人の署名が必要です。",
       "translation": "The application form requires the signatures of both the guardian and the applicant.",
       "blank_target": "及び",
-      "wrong_choices": ["もしくは", "または", "や"],
+      "wrong_choices": [
+        "もしくは",
+        "または",
+        "や"
+      ],
       "wrong_choice_explanations": [
-        "「もしくは」は「どちらか一方」の選択を表し、保護者と本人の両方の署名が要るというこの文には合わない。",
-        "「または」も二者択一の「or」で、双方の署名を必須とする趣旨と矛盾する。",
-        "「や」は非網羅的で口語的な並列のため、必要書類を漏れなく列挙する硬い文には不適切。"
+        "もしくは means 'or'; 保護者もしくは本人の署名 would accept either signature, whereas the requirement is that both the guardian and the applicant sign.",
+        "または means 'or'; 保護者または本人の署名 would require only one of the two signatures, not both as the sentence intends.",
+        "や gives a loose, open-ended list ('the guardian, the applicant and so on'); a formal requirement must name exactly whose signatures are needed, which 及び does."
       ],
       "hiragana_full": "もうしこみしょにはほごしゃおよびほんにんのしょめいがひつようです。",
       "audio_alternatives": [
-        { "kanji": "申込書には、保護者及び本人の署名が求められます。", "hiragana_full": "もうしこみしょには、ほごしゃおよびほんにんのしょめいがもとめられます。" },
-        { "kanji": "この書類には保護者と本人の両方のサインが要ります。", "hiragana_full": "このしょるいにはほごしゃとほんにんのりょうほうのさいんがいります。" }
+        {
+          "kanji": "申込書には、保護者及び本人の署名が求められます。",
+          "hiragana_full": "もうしこみしょには、ほごしゃおよびほんにんのしょめいがもとめられます。"
+        },
+        {
+          "kanji": "この書類には保護者と本人の両方のサインが要ります。",
+          "hiragana_full": "このしょるいにはほごしゃとほんにんのりょうほうのさいんがいります。"
+        }
       ],
       "audio_eligible": true,
       "register": "formal",
       "vocab": [
-        { "word": "申込書", "reading": "もうしこみしょ", "meaning": "application form" },
-        { "word": "保護者", "reading": "ほごしゃ", "meaning": "guardian" },
-        { "word": "署名", "reading": "しょめい", "meaning": "signature" }
+        {
+          "word": "申込書",
+          "reading": "もうしこみしょ",
+          "meaning": "application form"
+        },
+        {
+          "word": "保護者",
+          "reading": "ほごしゃ",
+          "meaning": "guardian"
+        },
+        {
+          "word": "署名",
+          "reading": "しょめい",
+          "meaning": "signature"
+        }
       ],
       "blank_target_reading": "および"
     },
@@ -109,23 +197,45 @@
       "example_sentence": "当図書館は毎週月曜日及び祝日は休館いたします。",
       "translation": "This library is closed every Monday and on national holidays. (notice to patrons)",
       "blank_target": "及び",
-      "wrong_choices": ["または", "か", "や"],
+      "wrong_choices": [
+        "または",
+        "か",
+        "や"
+      ],
       "wrong_choice_explanations": [
-        "「または」は「月曜か祝日のどちらか」という選択になり、両方とも休館だと知らせるこの文には合わない。",
-        "「か」も二者択一の「or」を表し、月曜日と祝日の双方が休館日であることを述べる文にはそぐわない。",
-        "「や」は例を挙げて残りを含みうる並列で口語的でもあり、休館日を正確に告知する掲示文には不適切。"
+        "または means 'or'; 月曜日または祝日 presents the closing days as alternatives rather than plainly listing both kinds of day the library is closed.",
+        "か means 'or' and is conversational; 月曜日か祝日 sounds as if the closing day were uncertain, out of place in a formal notice listing both.",
+        "や lists examples loosely ('Mondays, holidays and so on'), which leaves the closing days vague in a notice that must state them exactly."
       ],
       "hiragana_full": "とうとしょかんはまいしゅうげつようびおよびしゅくじつはきゅうかんいたします。",
       "audio_alternatives": [
-        { "kanji": "当館は月曜日及び祝日を休館日とさせていただきます。", "hiragana_full": "とうかんはげつようびおよびしゅくじつをきゅうかんびとさせていただきます。" },
-        { "kanji": "図書館は毎週月曜と祝日はお休みです。", "hiragana_full": "としょかんはまいしゅうげつようとしゅくじつはおやすみです。" }
+        {
+          "kanji": "当館は月曜日及び祝日を休館日とさせていただきます。",
+          "hiragana_full": "とうかんはげつようびおよびしゅくじつをきゅうかんびとさせていただきます。"
+        },
+        {
+          "kanji": "図書館は毎週月曜と祝日はお休みです。",
+          "hiragana_full": "としょかんはまいしゅうげつようとしゅくじつはおやすみです。"
+        }
       ],
       "audio_eligible": true,
       "register": "formal",
       "vocab": [
-        { "word": "図書館", "reading": "としょかん", "meaning": "library" },
-        { "word": "祝日", "reading": "しゅくじつ", "meaning": "national holiday" },
-        { "word": "休館", "reading": "きゅうかん", "meaning": "closure of a facility" }
+        {
+          "word": "図書館",
+          "reading": "としょかん",
+          "meaning": "library"
+        },
+        {
+          "word": "祝日",
+          "reading": "しゅくじつ",
+          "meaning": "national holiday"
+        },
+        {
+          "word": "休館",
+          "reading": "きゅうかん",
+          "meaning": "closure of a facility"
+        }
       ],
       "blank_target_reading": "および"
     },
@@ -134,23 +244,45 @@
       "example_sentence": "試験の日程及び会場は後日改めて通知します。",
       "translation": "The exam schedule and venue will be announced again at a later date.",
       "blank_target": "及び",
-      "wrong_choices": ["ないし", "または", "かつ"],
+      "wrong_choices": [
+        "ないし",
+        "または",
+        "かつ"
+      ],
       "wrong_choice_explanations": [
-        "「ないし」は「AないしB」で選択や範囲を表し、日程と会場の両方を知らせるという文脈には合わない。",
-        "「または」は二者択一の選択で、日程と会場を並べて通知するこの文にはそぐわない。",
-        "「かつ」は述語や条件を重ねる語であり、日程・会場という二つの名詞を対等に並べる用法はない。"
+        "ないし means 'or' or 'A through B'; 日程ないし会場 would announce one or the other, while the notice promises both the schedule and the venue.",
+        "または means 'or'; 日程または会場は後日通知します would mean only one of the two will be announced later, not both.",
+        "かつ joins predicates or conditions, not two nouns; 日程かつ会場 would describe one thing that is at once a schedule and a venue."
       ],
       "hiragana_full": "しけんのにっていおよびかいじょうはごじつあらためてつうちします。",
       "audio_alternatives": [
-        { "kanji": "試験の日程及び会場については、後日ご連絡します。", "hiragana_full": "しけんのにっていおよびかいじょうについては、ごじつごれんらくします。" },
-        { "kanji": "試験の日にちと場所は、あとで改めてお知らせします。", "hiragana_full": "しけんのひにちとばしょは、あとであらためておしらせします。" }
+        {
+          "kanji": "試験の日程及び会場については、後日ご連絡します。",
+          "hiragana_full": "しけんのにっていおよびかいじょうについては、ごじつごれんらくします。"
+        },
+        {
+          "kanji": "試験の日にちと場所は、あとで改めてお知らせします。",
+          "hiragana_full": "しけんのひにちとばしょは、あとであらためておしらせします。"
+        }
       ],
       "audio_eligible": true,
       "register": "formal",
       "vocab": [
-        { "word": "日程", "reading": "にってい", "meaning": "schedule; itinerary" },
-        { "word": "会場", "reading": "かいじょう", "meaning": "venue" },
-        { "word": "後日", "reading": "ごじつ", "meaning": "at a later date" }
+        {
+          "word": "日程",
+          "reading": "にってい",
+          "meaning": "schedule; itinerary"
+        },
+        {
+          "word": "会場",
+          "reading": "かいじょう",
+          "meaning": "venue"
+        },
+        {
+          "word": "後日",
+          "reading": "ごじつ",
+          "meaning": "at a later date"
+        }
       ],
       "blank_target_reading": "および"
     },
@@ -159,23 +291,45 @@
       "example_sentence": "本契約は第三条及び第四条の規定に従うものとする。",
       "translation": "This contract shall be governed by the provisions of Articles 3 and 4.",
       "blank_target": "及び",
-      "wrong_choices": ["もしくは", "または", "ないし"],
+      "wrong_choices": [
+        "もしくは",
+        "または",
+        "ないし"
+      ],
       "wrong_choice_explanations": [
-        "「もしくは」は「第三条か第四条のどちらか」という選択になり、両条項に従うと定めるこの条文には合わない。",
-        "「または」も二者択一の「or」で、二つの条を同時に適用する趣旨と矛盾する。",
-        "「ないし」は選択または範囲を示すため、両条項をともに適用対象として並べる文にはそぐわない。"
+        "もしくは means 'or'; 第三条もしくは第四条 would let the contract follow either article, not both as the clause stipulates.",
+        "または means 'or'; 第三条または第四条 makes the two articles alternatives, whereas the contract is bound by both.",
+        "ないし means 'or' or 'A through B'; in a contract 第三条ないし第四条 signals alternatives or a range, not the plain joint listing of two articles that 及び gives."
       ],
       "hiragana_full": "ほんけいやくはだいさんじょうおよびだいよんじょうのきていにしたがうものとする。",
       "audio_alternatives": [
-        { "kanji": "本契約については、第三条及び第四条の規定を適用する。", "hiragana_full": "ほんけいやくについては、だいさんじょうおよびだいよんじょうのきていをてきようする。" },
-        { "kanji": "この契約は第三条と第四条の定めに従う。", "hiragana_full": "このけいやくはだいさんじょうとだいよんじょうのさだめにしたがう。" }
+        {
+          "kanji": "本契約については、第三条及び第四条の規定を適用する。",
+          "hiragana_full": "ほんけいやくについては、だいさんじょうおよびだいよんじょうのきていをてきようする。"
+        },
+        {
+          "kanji": "この契約は第三条と第四条の定めに従う。",
+          "hiragana_full": "このけいやくはだいさんじょうとだいよんじょうのさだめにしたがう。"
+        }
       ],
       "audio_eligible": true,
       "register": "written",
       "vocab": [
-        { "word": "契約", "reading": "けいやく", "meaning": "contract" },
-        { "word": "規定", "reading": "きてい", "meaning": "provision; stipulation" },
-        { "word": "従う", "reading": "したがう", "meaning": "to comply with; to follow" }
+        {
+          "word": "契約",
+          "reading": "けいやく",
+          "meaning": "contract"
+        },
+        {
+          "word": "規定",
+          "reading": "きてい",
+          "meaning": "provision; stipulation"
+        },
+        {
+          "word": "従う",
+          "reading": "したがう",
+          "meaning": "to comply with; to follow"
+        }
       ],
       "blank_target_reading": "および"
     },
@@ -184,23 +338,45 @@
       "example_sentence": "先月は電気及びガスの使用量が大幅に増えた。",
       "translation": "Last month, both electricity and gas usage increased substantially.",
       "blank_target": "及び",
-      "wrong_choices": ["または", "や", "か"],
+      "wrong_choices": [
+        "または",
+        "や",
+        "か"
+      ],
       "wrong_choice_explanations": [
-        "「または」は「電気かガスのどちらか」の選択を表し、両方の使用量が増えたと述べるこの文には合わない。",
-        "「や」は例を挙げて残りを含みうる並列で口語的でもあり、電気とガスを正確に並べて集計する文にはやや不適切。",
-        "「か」も二者択一の「or」を示し、双方が増えたという事実を並べるこの文にはそぐわない。"
+        "または means 'or'; 電気またはガスの使用量が増えた reports a measured fact as if unsure which utility rose, while both did.",
+        "や lists examples loosely ('electricity, gas and so on'), blurring a usage report that names exactly the two utilities whose use rose.",
+        "か means 'or'; 電気かガスの使用量 leaves open which one increased, clashing with the statement that both rose substantially."
       ],
       "hiragana_full": "せんげつはでんきおよびがすのしようりょうがおおはばにふえた。",
       "audio_alternatives": [
-        { "kanji": "先月は、電気及びガスの消費量がともに大きく増えた。", "hiragana_full": "せんげつは、でんきおよびがすのしょうひりょうがともにおおきくふえた。" },
-        { "kanji": "先月は電気とガスの使用量がかなり増えた。", "hiragana_full": "せんげつはでんきとがすのしようりょうがかなりふえた。" }
+        {
+          "kanji": "先月は、電気及びガスの消費量がともに大きく増えた。",
+          "hiragana_full": "せんげつは、でんきおよびがすのしょうひりょうがともにおおきくふえた。"
+        },
+        {
+          "kanji": "先月は電気とガスの使用量がかなり増えた。",
+          "hiragana_full": "せんげつはでんきとがすのしようりょうがかなりふえた。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "使用量", "reading": "しようりょう", "meaning": "amount used; consumption" },
-        { "word": "大幅", "reading": "おおはば", "meaning": "substantial; by a wide margin" },
-        { "word": "電気", "reading": "でんき", "meaning": "electricity" }
+        {
+          "word": "使用量",
+          "reading": "しようりょう",
+          "meaning": "amount used; consumption"
+        },
+        {
+          "word": "大幅",
+          "reading": "おおはば",
+          "meaning": "substantial; by a wide margin"
+        },
+        {
+          "word": "電気",
+          "reading": "でんき",
+          "meaning": "electricity"
+        }
       ],
       "blank_target_reading": "および"
     },
@@ -209,23 +385,45 @@
       "example_sentence": "参加者の氏名、年齢及び職業をすべて記録した。",
       "translation": "We recorded every participant's name, age, and occupation.",
       "blank_target": "及び",
-      "wrong_choices": ["または", "や", "かつ"],
+      "wrong_choices": [
+        "または",
+        "や",
+        "かつ"
+      ],
       "wrong_choice_explanations": [
-        "「または」は「年齢か職業のどちらか」の選択になり、氏名・年齢・職業をすべて記録したというこの文には合わない。",
-        "「や」は非網羅的で口語的な並列のため、項目を漏れなく記録したと述べる硬い文には不適切。",
-        "「かつ」は述語や条件を重ねる語で、年齢と職業という二つの名詞を並列に結ぶ用法はない。"
+        "または means 'or'; 年齢または職業 clashes with すべて記録した — all the items were recorded, not one or the other.",
+        "や gives a loose, open-ended list; in 氏名、年齢や職業 it blurs the exact set of fields that すべて記録した says were recorded.",
+        "かつ joins predicates or conditions, not nouns; 年齢かつ職業 would describe one item that is both an age and an occupation."
       ],
       "hiragana_full": "さんかしゃのしめい、ねんれいおよびしょくぎょうをすべてきろくした。",
       "audio_alternatives": [
-        { "kanji": "参加者の氏名、年齢及び職業を漏れなく記録した。", "hiragana_full": "さんかしゃのしめい、ねんれいおよびしょくぎょうをもれなくきろくした。" },
-        { "kanji": "参加した人の名前と年齢、職業を全部書き留めた。", "hiragana_full": "さんかしたひとのなまえとねんれい、しょくぎょうをぜんぶかきとめた。" }
+        {
+          "kanji": "参加者の氏名、年齢及び職業を漏れなく記録した。",
+          "hiragana_full": "さんかしゃのしめい、ねんれいおよびしょくぎょうをもれなくきろくした。"
+        },
+        {
+          "kanji": "参加した人の名前と年齢、職業を全部書き留めた。",
+          "hiragana_full": "さんかしたひとのなまえとねんれい、しょくぎょうをぜんぶかきとめた。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "参加者", "reading": "さんかしゃ", "meaning": "participant" },
-        { "word": "年齢", "reading": "ねんれい", "meaning": "age" },
-        { "word": "職業", "reading": "しょくぎょう", "meaning": "occupation" }
+        {
+          "word": "参加者",
+          "reading": "さんかしゃ",
+          "meaning": "participant"
+        },
+        {
+          "word": "年齢",
+          "reading": "ねんれい",
+          "meaning": "age"
+        },
+        {
+          "word": "職業",
+          "reading": "しょくぎょう",
+          "meaning": "occupation"
+        }
       ],
       "blank_target_reading": "および"
     },
@@ -234,23 +432,45 @@
       "example_sentence": "この施設の建設及び運営は市が責任を持って担当する。",
       "translation": "The construction and operation of this facility will be handled by the city under its own responsibility.",
       "blank_target": "及び",
-      "wrong_choices": ["ないし", "または", "かつ"],
+      "wrong_choices": [
+        "ないし",
+        "または",
+        "かつ"
+      ],
       "wrong_choice_explanations": [
-        "「ないし」は選択または範囲を表し、建設と運営の両方を市が担うと述べるこの文には合わない。",
-        "「または」は「建設か運営のどちらか」の選択になり、双方を市が担当するという趣旨と矛盾する。",
-        "「かつ」は述語や条件を重ねる語で、建設・運営という二つの名詞を対等に結ぶ用法はない。"
+        "ないし means 'or' or 'A through B'; 建設ないし運営 would assign the city one task or the other, while the sentence says it is responsible for both.",
+        "または means 'or'; 建設または運営 leaves open which task the city handles, against the point that it takes on both.",
+        "かつ joins predicates or conditions, not nouns; 建設かつ運営 would describe a single activity that is at once construction and operation."
       ],
       "hiragana_full": "このしせつのけんせつおよびうんえいはしがせきにんをもってたんとうする。",
       "audio_alternatives": [
-        { "kanji": "本施設の建設及び運営は、市が一貫して担当する。", "hiragana_full": "ほんしせつのけんせつおよびうんえいは、しがいっかんしてたんとうする。" },
-        { "kanji": "この施設の建設と運営は市が責任を持って行う。", "hiragana_full": "このしせつのけんせつとうんえいはしがせきにんをもっておこなう。" }
+        {
+          "kanji": "本施設の建設及び運営は、市が一貫して担当する。",
+          "hiragana_full": "ほんしせつのけんせつおよびうんえいは、しがいっかんしてたんとうする。"
+        },
+        {
+          "kanji": "この施設の建設と運営は市が責任を持って行う。",
+          "hiragana_full": "このしせつのけんせつとうんえいはしがせきにんをもっておこなう。"
+        }
       ],
       "audio_eligible": true,
       "register": "written",
       "vocab": [
-        { "word": "施設", "reading": "しせつ", "meaning": "facility" },
-        { "word": "建設", "reading": "けんせつ", "meaning": "construction" },
-        { "word": "運営", "reading": "うんえい", "meaning": "operation; management" }
+        {
+          "word": "施設",
+          "reading": "しせつ",
+          "meaning": "facility"
+        },
+        {
+          "word": "建設",
+          "reading": "けんせつ",
+          "meaning": "construction"
+        },
+        {
+          "word": "運営",
+          "reading": "うんえい",
+          "meaning": "operation; management"
+        }
       ],
       "blank_target_reading": "および"
     }

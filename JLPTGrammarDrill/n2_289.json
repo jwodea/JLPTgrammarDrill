@@ -9,22 +9,40 @@
       "example_sentence": "忘年会に参加しようか参加するまいか、まだ迷っている。",
       "translation": "I still can't decide whether or not to go to the year-end party.",
       "blank_target": "参加するまいか",
-      "wrong_choices": ["参加するまいと", "参加するまいが", "参加するものか"],
+      "wrong_choices": [
+        "参加するまいと",
+        "参加するまいが",
+        "参加するものか"
+      ],
       "wrong_choice_explanations": [
-        "「〜ようと〜まいと」は「参加してもしなくても関係なく」という譲歩を表し、参加するかどうか思い悩むこの文の意味に合わない。文頭の「参加しようか」と対になるのは疑問の「か」であって「と」ではない。",
-        "「〜ようが〜まいが」も「どちらにしても結果は同じ」という譲歩で、まだ迷っていると述べるこの文脈には合わない。",
-        "「〜ものか」は「絶対に参加するものか」と強い拒絶・反発を表し、参加を検討して迷うこの文の意味にならない。"
+        "参加するまいと belongs to 〜ようと〜まいと, 'whether or not…, (it makes no difference)'; it can't pair with the question form 参加しようか, and a 'no matter' concession contradicts まだ迷っている.",
+        "参加するまいが belongs to 〜ようが〜まいが, 'whether or not…, it doesn't matter'; it can't pair with 参加しようか, and the speaker isn't dismissing the choice — まだ迷っている shows they're torn.",
+        "参加するものか means 'as if I would…!' — a flat refusal; it leaves 参加しようか without its partner and contradicts まだ迷っている, which shows the decision is still open."
       ],
       "hiragana_full": "ぼうねんかいにさんかしようかさんかするまいか、まだまよっている。",
       "audio_alternatives": [
-        { "kanji": "忘年会に出ようか出るまいか、まだ決めかねている。", "hiragana_full": "ぼうねんかいにでようかでるまいか、まだきめかねている。" },
-        { "kanji": "忘年会に参加するかどうか、まだ迷っている。", "hiragana_full": "ぼうねんかいにさんかするかどうか、まだまよっている。" }
+        {
+          "kanji": "忘年会に出ようか出るまいか、まだ決めかねている。",
+          "hiragana_full": "ぼうねんかいにでようかでるまいか、まだきめかねている。"
+        },
+        {
+          "kanji": "忘年会に参加するかどうか、まだ迷っている。",
+          "hiragana_full": "ぼうねんかいにさんかするかどうか、まだまよっている。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "忘年会", "reading": "ぼうねんかい", "meaning": "year-end party" },
-        { "word": "迷う", "reading": "まよう", "meaning": "to waver; to be unable to decide" }
+        {
+          "word": "忘年会",
+          "reading": "ぼうねんかい",
+          "meaning": "year-end party"
+        },
+        {
+          "word": "迷う",
+          "reading": "まよう",
+          "meaning": "to waver; to be unable to decide"
+        }
       ],
       "blank_target_reading": "さんかするまいか"
     },
@@ -33,22 +51,40 @@
       "example_sentence": "本当のことを言おうか言うまいか、ずいぶん悩んだ。",
       "translation": "I agonized a great deal over whether or not to tell the truth.",
       "blank_target": "言うまいか",
-      "wrong_choices": ["言うまいと", "言うまいが", "言うものか"],
+      "wrong_choices": [
+        "言うまいと",
+        "言うまいが",
+        "言うものか"
+      ],
       "wrong_choice_explanations": [
-        "「〜ようと〜まいと」は「言っても言わなくても」という譲歩で、言うかどうか悩むこの文の意味に合わない。「言おうか」と対になるのは疑問の「か」である。",
-        "「〜ようが〜まいが」も「どちらにしても」という譲歩を表し、深く悩んだと述べるこの文脈には合わない。",
-        "「〜ものか」は「絶対に言うものか」と強い拒絶を表し、言うべきか迷うこの文の意味にならない。"
+        "言うまいと belongs to 〜ようと〜まいと, 'whether or not…, (it makes no difference)'; it can't pair with the question form 言おうか, and a 'no matter' concession contradicts ずいぶん悩んだ.",
+        "言うまいが belongs to 〜ようが〜まいが, 'whether or not…, it doesn't matter'; it can't pair with 言おうか, and the speaker isn't dismissing the choice — ずいぶん悩んだ shows they're torn.",
+        "言うものか means 'as if I would…!' — a flat refusal; it leaves 言おうか without its partner and contradicts ずいぶん悩んだ, which shows the decision is still open."
       ],
       "hiragana_full": "ほんとうのことをいおうかいうまいか、ずいぶんなやんだ。",
       "audio_alternatives": [
-        { "kanji": "真実を打ち明けようか打ち明けまいか、ずいぶん悩んだ。", "hiragana_full": "しんじつをうちあけようかうちあけまいか、ずいぶんなやんだ。" },
-        { "kanji": "本当のことを話すべきかどうか、長い間悩んだ。", "hiragana_full": "ほんとうのことをはなすべきかどうか、ながいあいだなやんだ。" }
+        {
+          "kanji": "真実を打ち明けようか打ち明けまいか、ずいぶん悩んだ。",
+          "hiragana_full": "しんじつをうちあけようかうちあけまいか、ずいぶんなやんだ。"
+        },
+        {
+          "kanji": "本当のことを話すべきかどうか、長い間悩んだ。",
+          "hiragana_full": "ほんとうのことをはなすべきかどうか、ながいあいだなやんだ。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "本当", "reading": "ほんとう", "meaning": "truth; real" },
-        { "word": "悩む", "reading": "なやむ", "meaning": "to agonize; to be troubled" }
+        {
+          "word": "本当",
+          "reading": "ほんとう",
+          "meaning": "truth; real"
+        },
+        {
+          "word": "悩む",
+          "reading": "なやむ",
+          "meaning": "to agonize; to be troubled"
+        }
       ],
       "blank_target_reading": "いうまいか"
     },
@@ -57,22 +93,40 @@
       "example_sentence": "この高いコートを買おうか買うまいか、店の前で何度も考えた。",
       "translation": "I thought it over again and again in front of the shop, unsure whether or not to buy this expensive coat.",
       "blank_target": "買うまいか",
-      "wrong_choices": ["買うまいと", "買うまいが", "買うものか"],
+      "wrong_choices": [
+        "買うまいと",
+        "買うまいが",
+        "買うものか"
+      ],
       "wrong_choice_explanations": [
-        "「〜ようと〜まいと」は「買っても買わなくても」という譲歩で、買うかどうか考え込むこの文の意味に合わない。「買おうか」と対になるのは疑問の「か」である。",
-        "「〜ようが〜まいが」も「どちらにしても」という譲歩を表し、何度も考えたと述べるこの文脈には合わない。",
-        "「〜ものか」は「絶対に買うものか」と強い拒絶を表し、買おうかどうか迷うこの文の意味にならない。"
+        "買うまいと belongs to 〜ようと〜まいと, 'whether or not…, (it makes no difference)'; it can't pair with the question form 買おうか, and a 'no matter' concession contradicts 何度も考えた.",
+        "買うまいが belongs to 〜ようが〜まいが, 'whether or not…, it doesn't matter'; it can't pair with 買おうか, and the speaker isn't dismissing the choice — 何度も考えた shows they're torn.",
+        "買うものか means 'as if I would…!' — a flat refusal; it leaves 買おうか without its partner and contradicts 何度も考えた, which shows the decision is still open."
       ],
       "hiragana_full": "このたかいこーとをかおうかかうまいか、みせのまえでなんどもかんがえた。",
       "audio_alternatives": [
-        { "kanji": "この値の張るコートを買おうか買うまいか、レジの前でためらった。", "hiragana_full": "このねのはるこーとをかおうかかうまいか、れじのまえでためらった。" },
-        { "kanji": "高いコートを買うかどうか、店先で何度も迷った。", "hiragana_full": "たかいこーとをかうかどうか、みせさきでなんどもまよった。" }
+        {
+          "kanji": "この値の張るコートを買おうか買うまいか、レジの前でためらった。",
+          "hiragana_full": "このねのはるこーとをかおうかかうまいか、れじのまえでためらった。"
+        },
+        {
+          "kanji": "高いコートを買うかどうか、店先で何度も迷った。",
+          "hiragana_full": "たかいこーとをかうかどうか、みせさきでなんどもまよった。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "店", "reading": "みせ", "meaning": "shop; store" },
-        { "word": "何度も", "reading": "なんども", "meaning": "many times; over and over" }
+        {
+          "word": "店",
+          "reading": "みせ",
+          "meaning": "shop; store"
+        },
+        {
+          "word": "何度も",
+          "reading": "なんども",
+          "meaning": "many times; over and over"
+        }
       ],
       "blank_target_reading": "かうまいか"
     },
@@ -81,23 +135,45 @@
       "example_sentence": "同窓会に行こうか行くまいか、正直まだ決めかねている。",
       "translation": "To be honest, I still can't make up my mind whether or not to go to the class reunion.",
       "blank_target": "行くまいか",
-      "wrong_choices": ["行くまいと", "行くまいが", "行くものか"],
+      "wrong_choices": [
+        "行くまいと",
+        "行くまいが",
+        "行くものか"
+      ],
       "wrong_choice_explanations": [
-        "「〜ようと〜まいと」は「行っても行かなくても」という譲歩で、行くかどうか決めかねるこの文の意味に合わない。「行こうか」と対になるのは疑問の「か」である。",
-        "「〜ようが〜まいが」も「どちらにしても」という譲歩を表し、まだ決めかねていると述べるこの文脈には合わない。",
-        "「〜ものか」は「絶対に行くものか」と強い拒絶を表し、行こうかどうか迷うこの文の意味にならない。"
+        "行くまいと belongs to 〜ようと〜まいと, 'whether or not…, (it makes no difference)'; it can't pair with the question form 行こうか, and a 'no matter' concession contradicts まだ決めかねている.",
+        "行くまいが belongs to 〜ようが〜まいが, 'whether or not…, it doesn't matter'; it can't pair with 行こうか, and the speaker isn't dismissing the choice — まだ決めかねている shows they're torn.",
+        "行くものか means 'as if I would…!' — a flat refusal; it leaves 行こうか without its partner and contradicts まだ決めかねている, which shows the decision is still open."
       ],
       "hiragana_full": "どうそうかいにいこうかいくまいか、しょうじきまだきめかねている。",
       "audio_alternatives": [
-        { "kanji": "同窓会に顔を出そうか出すまいか、正直まだ決めかねている。", "hiragana_full": "どうそうかいにかおをだそうかだすまいか、しょうじきまだきめかねている。" },
-        { "kanji": "同窓会に出席するかどうか、まだ決められずにいる。", "hiragana_full": "どうそうかいにしゅっせきするかどうか、まだきめられずにいる。" }
+        {
+          "kanji": "同窓会に顔を出そうか出すまいか、正直まだ決めかねている。",
+          "hiragana_full": "どうそうかいにかおをだそうかだすまいか、しょうじきまだきめかねている。"
+        },
+        {
+          "kanji": "同窓会に出席するかどうか、まだ決められずにいる。",
+          "hiragana_full": "どうそうかいにしゅっせきするかどうか、まだきめられずにいる。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "同窓会", "reading": "どうそうかい", "meaning": "class reunion" },
-        { "word": "正直", "reading": "しょうじき", "meaning": "honestly; to be honest" },
-        { "word": "決めかねる", "reading": "きめかねる", "meaning": "to be unable to decide" }
+        {
+          "word": "同窓会",
+          "reading": "どうそうかい",
+          "meaning": "class reunion"
+        },
+        {
+          "word": "正直",
+          "reading": "しょうじき",
+          "meaning": "honestly; to be honest"
+        },
+        {
+          "word": "決めかねる",
+          "reading": "きめかねる",
+          "meaning": "to be unable to decide"
+        }
       ],
       "blank_target_reading": "いくまいか"
     },
@@ -106,23 +182,45 @@
       "example_sentence": "転職の誘いを受けようか受けまいか、一晩中考えていた。",
       "translation": "I spent the whole night thinking about whether or not to accept the job offer.",
       "blank_target": "受けまいか",
-      "wrong_choices": ["受けまいと", "受けまいが", "受けるものか"],
+      "wrong_choices": [
+        "受けまいと",
+        "受けまいが",
+        "受けるものか"
+      ],
       "wrong_choice_explanations": [
-        "「〜ようと〜まいと」は「受けても受けなくても」という譲歩で、誘いを受けるかどうか思い悩むこの文の意味に合わない。「受けようか」と対になるのは疑問の「か」である。",
-        "「〜ようが〜まいが」も「どちらにしても」という譲歩を表し、一晩中考えたと述べるこの文脈には合わない。",
-        "「〜ものか」は「絶対に受けるものか」と強い拒絶を表し、受けようかどうか迷うこの文の意味にならない。"
+        "受けまいと belongs to 〜ようと〜まいと, 'whether or not…, (it makes no difference)'; it can't pair with the question form 受けようか, and a 'no matter' concession contradicts 一晩中考えていた.",
+        "受けまいが belongs to 〜ようが〜まいが, 'whether or not…, it doesn't matter'; it can't pair with 受けようか, and the speaker isn't dismissing the choice — 一晩中考えていた shows they're torn.",
+        "受けるものか means 'as if I would…!' — a flat refusal; it leaves 受けようか without its partner and contradicts 一晩中考えていた, which shows the decision is still open."
       ],
       "hiragana_full": "てんしょくのさそいをうけようかうけまいか、ひとばんじゅうかんがえていた。",
       "audio_alternatives": [
-        { "kanji": "転職の話を引き受けようか受けまいか、一晩中悩んでいた。", "hiragana_full": "てんしょくのはなしをひきうけようかうけまいか、ひとばんじゅうなやんでいた。" },
-        { "kanji": "転職の誘いに応じるかどうか、夜通し考えた。", "hiragana_full": "てんしょくのさそいにおうじるかどうか、よどおしかんがえた。" }
+        {
+          "kanji": "転職の話を引き受けようか受けまいか、一晩中悩んでいた。",
+          "hiragana_full": "てんしょくのはなしをひきうけようかうけまいか、ひとばんじゅうなやんでいた。"
+        },
+        {
+          "kanji": "転職の誘いに応じるかどうか、夜通し考えた。",
+          "hiragana_full": "てんしょくのさそいにおうじるかどうか、よどおしかんがえた。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "転職", "reading": "てんしょく", "meaning": "changing jobs" },
-        { "word": "誘い", "reading": "さそい", "meaning": "invitation; offer" },
-        { "word": "一晩中", "reading": "ひとばんじゅう", "meaning": "all night long" }
+        {
+          "word": "転職",
+          "reading": "てんしょく",
+          "meaning": "changing jobs"
+        },
+        {
+          "word": "誘い",
+          "reading": "さそい",
+          "meaning": "invitation; offer"
+        },
+        {
+          "word": "一晩中",
+          "reading": "ひとばんじゅう",
+          "meaning": "all night long"
+        }
       ],
       "blank_target_reading": "うけまいか"
     },
@@ -131,22 +229,40 @@
       "example_sentence": "彼に本音を伝えようか伝えまいか、ずっと迷っている。",
       "translation": "I've been wavering the whole time over whether or not to tell him how I really feel.",
       "blank_target": "伝えまいか",
-      "wrong_choices": ["伝えまいと", "伝えまいが", "伝えるものか"],
+      "wrong_choices": [
+        "伝えまいと",
+        "伝えまいが",
+        "伝えるものか"
+      ],
       "wrong_choice_explanations": [
-        "「〜ようと〜まいと」は「伝えても伝えなくても」という譲歩で、伝えるかどうか迷うこの文の意味に合わない。「伝えようか」と対になるのは疑問の「か」である。",
-        "「〜ようが〜まいが」も「どちらにしても」という譲歩を表し、ずっと迷っていると述べるこの文脈には合わない。",
-        "「〜ものか」は「絶対に伝えるものか」と強い拒絶を表し、伝えようかどうか思い悩むこの文の意味にならない。"
+        "伝えまいと belongs to 〜ようと〜まいと, 'whether or not…, (it makes no difference)'; it can't pair with the question form 伝えようか, and a 'no matter' concession contradicts ずっと迷っている.",
+        "伝えまいが belongs to 〜ようが〜まいが, 'whether or not…, it doesn't matter'; it can't pair with 伝えようか, and the speaker isn't dismissing the choice — ずっと迷っている shows they're torn.",
+        "伝えるものか means 'as if I would…!' — a flat refusal; it leaves 伝えようか without its partner and contradicts ずっと迷っている, which shows the decision is still open."
       ],
       "hiragana_full": "かれにほんねをつたえようかつたえまいか、ずっとまよっている。",
       "audio_alternatives": [
-        { "kanji": "彼に気持ちを打ち明けようか明けまいか、ずっと迷っている。", "hiragana_full": "かれにきもちをうちあけようかあけまいか、ずっとまよっている。" },
-        { "kanji": "彼に本音を言うべきかどうか、ずっと決められずにいる。", "hiragana_full": "かれにほんねをいうべきかどうか、ずっときめられずにいる。" }
+        {
+          "kanji": "彼に気持ちを打ち明けようか明けまいか、ずっと迷っている。",
+          "hiragana_full": "かれにきもちをうちあけようかあけまいか、ずっとまよっている。"
+        },
+        {
+          "kanji": "彼に本音を言うべきかどうか、ずっと決められずにいる。",
+          "hiragana_full": "かれにほんねをいうべきかどうか、ずっときめられずにいる。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "本音", "reading": "ほんね", "meaning": "one's true feelings" },
-        { "word": "迷う", "reading": "まよう", "meaning": "to waver; to hesitate" }
+        {
+          "word": "本音",
+          "reading": "ほんね",
+          "meaning": "one's true feelings"
+        },
+        {
+          "word": "迷う",
+          "reading": "まよう",
+          "meaning": "to waver; to hesitate"
+        }
       ],
       "blank_target_reading": "つたえまいか"
     },
@@ -155,23 +271,45 @@
       "example_sentence": "この研究を続けようか続けまいか、深く悩んだ。",
       "translation": "I agonized deeply over whether or not to continue this research.",
       "blank_target": "続けまいか",
-      "wrong_choices": ["続けまいと", "続けまいが", "続けるものか"],
+      "wrong_choices": [
+        "続けまいと",
+        "続けまいが",
+        "続けるものか"
+      ],
       "wrong_choice_explanations": [
-        "「〜ようと〜まいと」は「続けても続けなくても」という譲歩で、続けるかどうか思い悩むこの文の意味に合わない。「続けようか」と対になるのは疑問の「か」である。",
-        "「〜ようが〜まいが」も「どちらにしても」という譲歩を表し、深く悩んだと述べるこの文脈には合わない。",
-        "「〜ものか」は「絶対に続けるものか」と強い拒絶を表し、続けようかどうか迷うこの文の意味にならない。"
+        "続けまいと belongs to 〜ようと〜まいと, 'whether or not…, (it makes no difference)'; it can't pair with the question form 続けようか, and a 'no matter' concession contradicts 深く悩んだ.",
+        "続けまいが belongs to 〜ようが〜まいが, 'whether or not…, it doesn't matter'; it can't pair with 続けようか, and the speaker isn't dismissing the choice — 深く悩んだ shows they're torn.",
+        "続けるものか means 'as if I would…!' — a flat refusal; it leaves 続けようか without its partner and contradicts 深く悩んだ, which shows the decision is still open."
       ],
       "hiragana_full": "このけんきゅうをつづけようかつづけまいか、ふかくなやんだ。",
       "audio_alternatives": [
-        { "kanji": "この研究を進めようか進めまいか、深く悩んだ。", "hiragana_full": "このけんきゅうをすすめようかすすめまいか、ふかくなやんだ。" },
-        { "kanji": "この研究を続けるべきかどうか、真剣に悩んだ。", "hiragana_full": "このけんきゅうをつづけるべきかどうか、しんけんになやんだ。" }
+        {
+          "kanji": "この研究を進めようか進めまいか、深く悩んだ。",
+          "hiragana_full": "このけんきゅうをすすめようかすすめまいか、ふかくなやんだ。"
+        },
+        {
+          "kanji": "この研究を続けるべきかどうか、真剣に悩んだ。",
+          "hiragana_full": "このけんきゅうをつづけるべきかどうか、しんけんになやんだ。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "研究", "reading": "けんきゅう", "meaning": "research" },
-        { "word": "深く", "reading": "ふかく", "meaning": "deeply" },
-        { "word": "悩む", "reading": "なやむ", "meaning": "to agonize; to be troubled" }
+        {
+          "word": "研究",
+          "reading": "けんきゅう",
+          "meaning": "research"
+        },
+        {
+          "word": "深く",
+          "reading": "ふかく",
+          "meaning": "deeply"
+        },
+        {
+          "word": "悩む",
+          "reading": "なやむ",
+          "meaning": "to agonize; to be troubled"
+        }
       ],
       "blank_target_reading": "つづけまいか"
     },
@@ -180,23 +318,45 @@
       "example_sentence": "退職願を出そうか出すまいか、机の引き出しの前でしばらく迷った。",
       "translation": "I hesitated for a while in front of my desk drawer, unsure whether or not to submit my resignation.",
       "blank_target": "出すまいか",
-      "wrong_choices": ["出すまいと", "出すまいが", "出すものか"],
+      "wrong_choices": [
+        "出すまいと",
+        "出すまいが",
+        "出すものか"
+      ],
       "wrong_choice_explanations": [
-        "「〜ようと〜まいと」は「出しても出さなくても」という譲歩で、出すかどうか迷うこの文の意味に合わない。「出そうか」と対になるのは疑問の「か」である。",
-        "「〜ようが〜まいが」も「どちらにしても」という譲歩を表し、しばらく迷ったと述べるこの文脈には合わない。",
-        "「〜ものか」は「絶対に出すものか」と強い拒絶を表し、出そうかどうか迷うこの文の意味にならない。"
+        "出すまいと belongs to 〜ようと〜まいと, 'whether or not…, (it makes no difference)'; it can't pair with the question form 出そうか, and a 'no matter' concession contradicts しばらく迷った.",
+        "出すまいが belongs to 〜ようが〜まいが, 'whether or not…, it doesn't matter'; it can't pair with 出そうか, and the speaker isn't dismissing the choice — しばらく迷った shows they're torn.",
+        "出すものか means 'as if I would…!' — a flat refusal; it leaves 出そうか without its partner and contradicts しばらく迷った, which shows the decision is still open."
       ],
       "hiragana_full": "たいしょくねがいをだそうかだすまいか、つくえのひきだしのまえでしばらくまよった。",
       "audio_alternatives": [
-        { "kanji": "辞表を提出しようかするまいか、引き出しの前でしばらく迷った。", "hiragana_full": "じひょうをていしゅつしようかするまいか、ひきだしのまえでしばらくまよった。" },
-        { "kanji": "退職願を出すかどうか、机の前でずいぶんためらった。", "hiragana_full": "たいしょくねがいをだすかどうか、つくえのまえでずいぶんためらった。" }
+        {
+          "kanji": "辞表を提出しようかするまいか、引き出しの前でしばらく迷った。",
+          "hiragana_full": "じひょうをていしゅつしようかするまいか、ひきだしのまえでしばらくまよった。"
+        },
+        {
+          "kanji": "退職願を出すかどうか、机の前でずいぶんためらった。",
+          "hiragana_full": "たいしょくねがいをだすかどうか、つくえのまえでずいぶんためらった。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "退職願", "reading": "たいしょくねがい", "meaning": "letter of resignation" },
-        { "word": "引き出し", "reading": "ひきだし", "meaning": "drawer" },
-        { "word": "迷う", "reading": "まよう", "meaning": "to waver; to hesitate" }
+        {
+          "word": "退職願",
+          "reading": "たいしょくねがい",
+          "meaning": "letter of resignation"
+        },
+        {
+          "word": "引き出し",
+          "reading": "ひきだし",
+          "meaning": "drawer"
+        },
+        {
+          "word": "迷う",
+          "reading": "まよう",
+          "meaning": "to waver; to hesitate"
+        }
       ],
       "blank_target_reading": "だすまいか"
     },
@@ -205,23 +365,45 @@
       "example_sentence": "家族に病気のことを話そうか話すまいか、ずっと決めかねていた。",
       "translation": "I had long been unable to decide whether or not to tell my family about my illness.",
       "blank_target": "話すまいか",
-      "wrong_choices": ["話すまいと", "話すまいが", "話すものか"],
+      "wrong_choices": [
+        "話すまいと",
+        "話すまいが",
+        "話すものか"
+      ],
       "wrong_choice_explanations": [
-        "「〜ようと〜まいと」は「話しても話さなくても」という譲歩で、話すかどうか決めかねるこの文の意味に合わない。「話そうか」と対になるのは疑問の「か」である。",
-        "「〜ようが〜まいが」も「どちらにしても」という譲歩を表し、ずっと決めかねていたと述べるこの文脈には合わない。",
-        "「〜ものか」は「絶対に話すものか」と強い拒絶を表し、話そうかどうか迷うこの文の意味にならない。"
+        "話すまいと belongs to 〜ようと〜まいと, 'whether or not…, (it makes no difference)'; it can't pair with the question form 話そうか, and a 'no matter' concession contradicts ずっと決めかねていた.",
+        "話すまいが belongs to 〜ようが〜まいが, 'whether or not…, it doesn't matter'; it can't pair with 話そうか, and the speaker isn't dismissing the choice — ずっと決めかねていた shows they're torn.",
+        "話すものか means 'as if I would…!' — a flat refusal; it leaves 話そうか without its partner and contradicts ずっと決めかねていた, which shows the decision is still open."
       ],
       "hiragana_full": "かぞくにびょうきのことをはなそうかはなすまいか、ずっときめかねていた。",
       "audio_alternatives": [
-        { "kanji": "家族に病気のことを打ち明けようか明けまいか、ずっと決めかねていた。", "hiragana_full": "かぞくにびょうきのことをうちあけようかあけまいか、ずっときめかねていた。" },
-        { "kanji": "家族に病気を伝えるかどうか、長い間決められなかった。", "hiragana_full": "かぞくにびょうきをつたえるかどうか、ながいあいだきめられなかった。" }
+        {
+          "kanji": "家族に病気のことを打ち明けようか明けまいか、ずっと決めかねていた。",
+          "hiragana_full": "かぞくにびょうきのことをうちあけようかあけまいか、ずっときめかねていた。"
+        },
+        {
+          "kanji": "家族に病気を伝えるかどうか、長い間決められなかった。",
+          "hiragana_full": "かぞくにびょうきをつたえるかどうか、ながいあいだきめられなかった。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "家族", "reading": "かぞく", "meaning": "family" },
-        { "word": "病気", "reading": "びょうき", "meaning": "illness" },
-        { "word": "決めかねる", "reading": "きめかねる", "meaning": "to be unable to decide" }
+        {
+          "word": "家族",
+          "reading": "かぞく",
+          "meaning": "family"
+        },
+        {
+          "word": "病気",
+          "reading": "びょうき",
+          "meaning": "illness"
+        },
+        {
+          "word": "決めかねる",
+          "reading": "きめかねる",
+          "meaning": "to be unable to decide"
+        }
       ],
       "blank_target_reading": "はなすまいか"
     },
@@ -230,23 +412,45 @@
       "example_sentence": "終電で帰ろうか帰るまいか、駅のホームで迷った。",
       "translation": "I hesitated on the station platform over whether or not to head home on the last train.",
       "blank_target": "帰るまいか",
-      "wrong_choices": ["帰るまいと", "帰るまいが", "帰るものか"],
+      "wrong_choices": [
+        "帰るまいと",
+        "帰るまいが",
+        "帰るものか"
+      ],
       "wrong_choice_explanations": [
-        "「〜ようと〜まいと」は「帰っても帰らなくても」という譲歩で、帰るかどうか迷うこの文の意味に合わない。「帰ろうか」と対になるのは疑問の「か」である。",
-        "「〜ようが〜まいが」も「どちらにしても」という譲歩を表し、ホームで迷ったと述べるこの文脈には合わない。",
-        "「〜ものか」は「絶対に帰るものか」と強い拒絶を表し、帰ろうかどうか迷うこの文の意味にならない。"
+        "帰るまいと belongs to 〜ようと〜まいと, 'whether or not…, (it makes no difference)'; it can't pair with the question form 帰ろうか, and a 'no matter' concession contradicts 迷った.",
+        "帰るまいが belongs to 〜ようが〜まいが, 'whether or not…, it doesn't matter'; it can't pair with 帰ろうか, and the speaker isn't dismissing the choice — 迷った shows they're torn.",
+        "帰るものか means 'as if I would…!' — a flat refusal; it leaves 帰ろうか without its partner and contradicts 迷った, which shows the decision is still open."
       ],
       "hiragana_full": "しゅうでんでかえろうかかえるまいか、えきのほーむでまよった。",
       "audio_alternatives": [
-        { "kanji": "終電に乗ろうか乗るまいか、駅のホームで迷った。", "hiragana_full": "しゅうでんにのろうかのるまいか、えきのほーむでまよった。" },
-        { "kanji": "終電で帰るかどうか、ホームでしばらく立ち止まった。", "hiragana_full": "しゅうでんでかえるかどうか、ほーむでしばらくたちどまった。" }
+        {
+          "kanji": "終電に乗ろうか乗るまいか、駅のホームで迷った。",
+          "hiragana_full": "しゅうでんにのろうかのるまいか、えきのほーむでまよった。"
+        },
+        {
+          "kanji": "終電で帰るかどうか、ホームでしばらく立ち止まった。",
+          "hiragana_full": "しゅうでんでかえるかどうか、ほーむでしばらくたちどまった。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "終電", "reading": "しゅうでん", "meaning": "last train" },
-        { "word": "駅", "reading": "えき", "meaning": "station" },
-        { "word": "迷う", "reading": "まよう", "meaning": "to waver; to hesitate" }
+        {
+          "word": "終電",
+          "reading": "しゅうでん",
+          "meaning": "last train"
+        },
+        {
+          "word": "駅",
+          "reading": "えき",
+          "meaning": "station"
+        },
+        {
+          "word": "迷う",
+          "reading": "まよう",
+          "meaning": "to waver; to hesitate"
+        }
       ],
       "blank_target_reading": "かえるまいか"
     }

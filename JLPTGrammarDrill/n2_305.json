@@ -9,22 +9,40 @@
       "example_sentence": "彼の講演は何度聞いても少しも面白くない。",
       "translation": "His lectures aren't the least bit interesting, no matter how many times I hear them.",
       "blank_target": "少しも",
-      "wrong_choices": ["あまり", "そんなに", "めったに"],
+      "wrong_choices": [
+        "あまり",
+        "そんなに",
+        "めったに"
+      ],
       "wrong_choice_explanations": [
-        "「あまり〜ない」は「それほど〜ない」という部分否定で、少しは面白い余地を残すが、少しもは「まったく面白くない」と完全に否定する点が違う。",
-        "「そんなに〜ない」は「そこまでは〜ない」と程度を限定する部分否定で、ある程度の面白さは認める言い方になり、全面否定の少しもとは意味が異なる。",
-        "「めったに〜ない」は頻度が低いこと（ほとんど〜しない）を表す語で、面白さの程度をゼロと言い切る少しもとは働きが異なる。"
+        "あまり〜ない means 'not very'; あまり面白くない is grammatical but only says the lectures aren't very interesting, a milder claim than the complete negation 少しも gives.",
+        "そんなに〜ない means 'not that much'; そんなに面白くない concedes some interest, whereas 少しも denies any at all.",
+        "めったに〜ない is about frequency ('rarely'); 少しも here describes degree of interest, and めったに面白くない sits oddly with 何度聞いても, which treats every hearing alike."
       ],
       "hiragana_full": "かれのこうえんはなんどきいてもすこしもおもしろくない。",
       "audio_alternatives": [
-        { "kanji": "彼の講演は何度聞いても少しも面白いと思えない。", "hiragana_full": "かれのこうえんはなんどきいてもすこしもおもしろいとおもえない。" },
-        { "kanji": "何度聞いても、彼の講演はまったく面白くない。", "hiragana_full": "なんどきいても、かれのこうえんはまったくおもしろくない。" }
+        {
+          "kanji": "彼の講演は何度聞いても少しも面白いと思えない。",
+          "hiragana_full": "かれのこうえんはなんどきいてもすこしもおもしろいとおもえない。"
+        },
+        {
+          "kanji": "何度聞いても、彼の講演はまったく面白くない。",
+          "hiragana_full": "なんどきいても、かれのこうえんはまったくおもしろくない。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "講演", "reading": "こうえん", "meaning": "lecture; talk" },
-        { "word": "何度", "reading": "なんど", "meaning": "how many times; repeatedly" }
+        {
+          "word": "講演",
+          "reading": "こうえん",
+          "meaning": "lecture; talk"
+        },
+        {
+          "word": "何度",
+          "reading": "なんど",
+          "meaning": "how many times; repeatedly"
+        }
       ],
       "blank_target_reading": "すこしも"
     },
@@ -33,22 +51,40 @@
       "example_sentence": "薬を飲んだのに、熱が少しも下がらない。",
       "translation": "Even though I took the medicine, my fever won't come down at all.",
       "blank_target": "少しも",
-      "wrong_choices": ["あまり", "なかなか", "めったに"],
+      "wrong_choices": [
+        "あまり",
+        "なかなか",
+        "めったに"
+      ],
       "wrong_choice_explanations": [
-        "「あまり〜ない」は「それほど下がらない」という部分否定で、少しは下がる余地を残すが、少しもは下がり幅がゼロだと完全に否定する。",
-        "「なかなか〜ない」は「容易には下がらない（時間がかかる）」という意味で、下がりにくさを表すだけで、まったく下がらないと言い切る少しもとは異なる。",
-        "「めったに〜ない」は頻度の低さ（ほとんど下がらない）を表す語で、この一回の状況で下がり幅をゼロと述べる少しもとは合わない。"
+        "あまり〜ない means 'not very much'; 熱があまり下がらない is grammatical but allows the fever to have dropped a little, while 少しも says it hasn't dropped at all.",
+        "なかなか〜ない means 'not easily, taking a long time'; 熱がなかなか下がらない is grammatical but stresses slowness, not the total lack of change that 少しも states.",
+        "めったに〜ない means 'rarely' and describes how often something happens; one fever after one dose of medicine is a single event, so frequency doesn't fit here."
       ],
       "hiragana_full": "くすりをのんだのに、ねつがすこしもさがらない。",
       "audio_alternatives": [
-        { "kanji": "薬を飲んだのに、熱が少しも引かない。", "hiragana_full": "くすりをのんだのに、ねつがすこしもひかない。" },
-        { "kanji": "薬を飲んでも、熱は全然下がらなかった。", "hiragana_full": "くすりをのんでも、ねつはぜんぜんさがらなかった。" }
+        {
+          "kanji": "薬を飲んだのに、熱が少しも引かない。",
+          "hiragana_full": "くすりをのんだのに、ねつがすこしもひかない。"
+        },
+        {
+          "kanji": "薬を飲んでも、熱は全然下がらなかった。",
+          "hiragana_full": "くすりをのんでも、ねつはぜんぜんさがらなかった。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "熱", "reading": "ねつ", "meaning": "fever" },
-        { "word": "薬", "reading": "くすり", "meaning": "medicine" }
+        {
+          "word": "熱",
+          "reading": "ねつ",
+          "meaning": "fever"
+        },
+        {
+          "word": "薬",
+          "reading": "くすり",
+          "meaning": "medicine"
+        }
       ],
       "blank_target_reading": "すこしも"
     },
@@ -57,22 +93,40 @@
       "example_sentence": "彼は謝るどころか、少しも悪いと思っていない。",
       "translation": "Far from apologizing, he doesn't think he's in the wrong in the slightest.",
       "blank_target": "少しも",
-      "wrong_choices": ["あまり", "たいして", "そんなに"],
+      "wrong_choices": [
+        "あまり",
+        "たいして",
+        "そんなに"
+      ],
       "wrong_choice_explanations": [
-        "「あまり〜ない」は「それほど悪いと思っていない」という部分否定で、少しは非を認める余地を残すが、少しもは非を認める気持ちがゼロだと完全に否定する。",
-        "「たいして〜ない」も「大して悪いとは思っていない」と程度を弱める部分否定で、多少の反省は含みうる点が全面否定の少しもと異なる。",
-        "「そんなに〜ない」は「そこまで悪いとは思っていない」と程度を限定する言い方で、まったく悪いと思っていないと言い切る少しもとは意味が違う。"
+        "あまり〜ない means 'not very'; あまり悪いと思っていない is grammatical but leaves him a little remorse, a milder claim than 少しも's 'not in the slightest'.",
+        "たいして〜ない means 'not particularly'; たいして悪いと思っていない weakens rather than denies his sense of guilt, which 少しも denies completely.",
+        "そんなに〜ない means 'not that much'; そんなに悪いと思っていない concedes some guilt, a milder claim than the complete denial 少しも gives."
       ],
       "hiragana_full": "かれはあやまるどころか、すこしもわるいとおもっていない。",
       "audio_alternatives": [
-        { "kanji": "彼は謝るどころか、少しも反省していないようだ。", "hiragana_full": "かれはあやまるどころか、すこしもはんせいしていないようだ。" },
-        { "kanji": "彼は謝るどころか、まったく悪いと思っていない。", "hiragana_full": "かれはあやまるどころか、まったくわるいとおもっていない。" }
+        {
+          "kanji": "彼は謝るどころか、少しも反省していないようだ。",
+          "hiragana_full": "かれはあやまるどころか、すこしもはんせいしていないようだ。"
+        },
+        {
+          "kanji": "彼は謝るどころか、まったく悪いと思っていない。",
+          "hiragana_full": "かれはあやまるどころか、まったくわるいとおもっていない。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "謝る", "reading": "あやまる", "meaning": "to apologize" },
-        { "word": "悪い", "reading": "わるい", "meaning": "at fault; in the wrong" }
+        {
+          "word": "謝る",
+          "reading": "あやまる",
+          "meaning": "to apologize"
+        },
+        {
+          "word": "悪い",
+          "reading": "わるい",
+          "meaning": "at fault; in the wrong"
+        }
       ],
       "blank_target_reading": "すこしも"
     },
@@ -81,22 +135,40 @@
       "example_sentence": "こんなに練習しても、少しも上達しない。",
       "translation": "Even though I practice this much, I don't improve one bit.",
       "blank_target": "少しも",
-      "wrong_choices": ["あまり", "なかなか", "めったに"],
+      "wrong_choices": [
+        "あまり",
+        "なかなか",
+        "めったに"
+      ],
       "wrong_choice_explanations": [
-        "「あまり〜ない」は「それほど上達しない」という部分否定で、わずかな上達は認めるが、少しもは上達がゼロだと完全に否定する。",
-        "「なかなか〜ない」は「容易には上達しない（時間がかかる）」という意味で、上達しにくさを表すだけで、まったく上達しないと言い切る少しもとは異なる。",
-        "「めったに〜ない」は頻度の低さを表す語で、上達の程度をゼロと述べるこの文の少しもとは合わない。"
+        "あまり〜ない means 'not very much'; あまり上達しない is grammatical but admits slight progress, whereas 少しも says there is none at all.",
+        "なかなか〜ない means 'not easily'; なかなか上達しない is grammatical but says progress is slow, not that it is zero as 少しも states.",
+        "めったに〜ない means 'rarely' and counts occurrences; improvement is a matter of degree, so めったに上達しない doesn't fit with こんなに練習しても."
       ],
       "hiragana_full": "こんなにれんしゅうしても、すこしもじょうたつしない。",
       "audio_alternatives": [
-        { "kanji": "こんなに練習しても、腕前が少しも上がらない。", "hiragana_full": "こんなにれんしゅうしても、うでまえがすこしもあがらない。" },
-        { "kanji": "これだけ練習しているのに、全く上達しない。", "hiragana_full": "これだけれんしゅうしているのに、まったくじょうたつしない。" }
+        {
+          "kanji": "こんなに練習しても、腕前が少しも上がらない。",
+          "hiragana_full": "こんなにれんしゅうしても、うでまえがすこしもあがらない。"
+        },
+        {
+          "kanji": "これだけ練習しているのに、全く上達しない。",
+          "hiragana_full": "これだけれんしゅうしているのに、まったくじょうたつしない。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "練習", "reading": "れんしゅう", "meaning": "practice" },
-        { "word": "上達", "reading": "じょうたつ", "meaning": "improvement (of a skill)" }
+        {
+          "word": "練習",
+          "reading": "れんしゅう",
+          "meaning": "practice"
+        },
+        {
+          "word": "上達",
+          "reading": "じょうたつ",
+          "meaning": "improvement (of a skill)"
+        }
       ],
       "blank_target_reading": "すこしも"
     },
@@ -105,22 +177,40 @@
       "example_sentence": "その知らせを聞いても、彼女は少しも驚かなかった。",
       "translation": "Even when she heard the news, she wasn't surprised in the least.",
       "blank_target": "少しも",
-      "wrong_choices": ["あまり", "そんなに", "たいして"],
+      "wrong_choices": [
+        "あまり",
+        "そんなに",
+        "たいして"
+      ],
       "wrong_choice_explanations": [
-        "「あまり〜なかった」は「それほど驚かなかった」という部分否定で、多少の驚きは残すが、少しもは驚きがゼロだと完全に否定する。",
-        "「そんなに〜なかった」は「そこまでは驚かなかった」と程度を限定する言い方で、ある程度の驚きは認める点が全面否定の少しもと異なる。",
-        "「たいして〜なかった」も「大して驚かなかった」と驚きの程度を弱める部分否定で、まったく驚かなかったと言い切る少しもとは意味が違う。"
+        "あまり〜なかった means 'not very'; あまり驚かなかった is grammatical but allows a little surprise, whereas 少しも says she wasn't surprised at all.",
+        "そんなに〜なかった means 'not that much'; そんなに驚かなかった concedes some surprise, a milder claim than 少しも's complete negation.",
+        "たいして〜なかった means 'not particularly'; たいして驚かなかった weakens rather than denies her surprise, which 少しも denies outright."
       ],
       "hiragana_full": "そのしらせをきいても、かのじょはすこしもおどろかなかった。",
       "audio_alternatives": [
-        { "kanji": "その知らせを聞いても、彼女は少しも動じなかった。", "hiragana_full": "そのしらせをきいても、かのじょはすこしもどうじなかった。" },
-        { "kanji": "その知らせを聞いても、彼女は全く驚いた様子がなかった。", "hiragana_full": "そのしらせをきいても、かのじょはまったくおどろいたようすがなかった。" }
+        {
+          "kanji": "その知らせを聞いても、彼女は少しも動じなかった。",
+          "hiragana_full": "そのしらせをきいても、かのじょはすこしもどうじなかった。"
+        },
+        {
+          "kanji": "その知らせを聞いても、彼女は全く驚いた様子がなかった。",
+          "hiragana_full": "そのしらせをきいても、かのじょはまったくおどろいたようすがなかった。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "知らせ", "reading": "しらせ", "meaning": "news; notice" },
-        { "word": "驚く", "reading": "おどろく", "meaning": "to be surprised" }
+        {
+          "word": "知らせ",
+          "reading": "しらせ",
+          "meaning": "news; notice"
+        },
+        {
+          "word": "驚く",
+          "reading": "おどろく",
+          "meaning": "to be surprised"
+        }
       ],
       "blank_target_reading": "すこしも"
     },
@@ -129,22 +219,40 @@
       "example_sentence": "何度説明しても、彼は少しも理解してくれない。",
       "translation": "No matter how many times I explain, he doesn't understand in the slightest.",
       "blank_target": "少しも",
-      "wrong_choices": ["あまり", "なかなか", "ろくに"],
+      "wrong_choices": [
+        "あまり",
+        "なかなか",
+        "ろくに"
+      ],
       "wrong_choice_explanations": [
-        "「あまり〜ない」は「それほど理解してくれない」という部分否定で、多少の理解は認めるが、少しもは理解がゼロだと完全に否定する。",
-        "「なかなか〜ない」は「容易には理解してくれない（時間がかかる）」という意味で、理解のしにくさを表すだけで、まったく理解しないと言い切る少しもとは異なる。",
-        "「ろくに〜ない」は「十分には・きちんとは理解してくれない」という不十分さを表す語で、理解の程度をゼロと述べる少しもとは合わない。"
+        "あまり〜ない means 'not very much'; あまり理解してくれない is grammatical but admits partial understanding, whereas 少しも says he understands none of it.",
+        "なかなか〜ない means 'not easily, slow to'; なかなか理解してくれない is grammatical but says he is slow to grasp it, not that he grasps nothing as 少しも states.",
+        "ろくに〜ない means 'not properly, hardly'; ろくに理解してくれない is grammatical but stresses inadequate understanding rather than none at all, which is 少しも's point."
       ],
       "hiragana_full": "なんどせつめいしても、かれはすこしもりかいしてくれない。",
       "audio_alternatives": [
-        { "kanji": "何度説明しても、彼は少しも分かってくれない。", "hiragana_full": "なんどせつめいしても、かれはすこしもわかってくれない。" },
-        { "kanji": "いくら説明しても、彼は全然理解してくれない。", "hiragana_full": "いくらせつめいしても、かれはぜんぜんりかいしてくれない。" }
+        {
+          "kanji": "何度説明しても、彼は少しも分かってくれない。",
+          "hiragana_full": "なんどせつめいしても、かれはすこしもわかってくれない。"
+        },
+        {
+          "kanji": "いくら説明しても、彼は全然理解してくれない。",
+          "hiragana_full": "いくらせつめいしても、かれはぜんぜんりかいしてくれない。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "説明", "reading": "せつめい", "meaning": "explanation" },
-        { "word": "理解", "reading": "りかい", "meaning": "understanding" }
+        {
+          "word": "説明",
+          "reading": "せつめい",
+          "meaning": "explanation"
+        },
+        {
+          "word": "理解",
+          "reading": "りかい",
+          "meaning": "understanding"
+        }
       ],
       "blank_target_reading": "すこしも"
     },
@@ -153,22 +261,40 @@
       "example_sentence": "五年経っても、彼の気持ちは少しも変わらなかった。",
       "translation": "Even after five years passed, his feelings hadn't changed one bit.",
       "blank_target": "少しも",
-      "wrong_choices": ["あまり", "そんなに", "たいして"],
+      "wrong_choices": [
+        "あまり",
+        "そんなに",
+        "たいして"
+      ],
       "wrong_choice_explanations": [
-        "「あまり〜なかった」は「それほど変わらなかった」という部分否定で、多少の変化は残すが、少しもは変化がゼロだと完全に否定する。",
-        "「そんなに〜なかった」は「そこまでは変わらなかった」と程度を限定する言い方で、ある程度の変化は認める点が全面否定の少しもと異なる。",
-        "「たいして〜なかった」も「大して変わらなかった」と変化の程度を弱める部分否定で、まったく変わらなかったと言い切る少しもとは意味が違う。"
+        "あまり〜なかった means 'not very much'; あまり変わらなかった is grammatical but allows slight change, whereas 少しも says his feelings didn't change at all.",
+        "そんなに〜なかった means 'not that much'; そんなに変わらなかった concedes some change, a milder claim than 少しも's 'not one bit'.",
+        "たいして〜なかった means 'not particularly'; たいして変わらなかった weakens rather than denies change, which 少しも denies completely."
       ],
       "hiragana_full": "ごねんたっても、かれのきもちはすこしもかわらなかった。",
       "audio_alternatives": [
-        { "kanji": "五年経っても、彼の思いは少しも揺らがなかった。", "hiragana_full": "ごねんたっても、かれのおもいはすこしもゆらがなかった。" },
-        { "kanji": "五年という時が過ぎても、彼の気持ちは全く変わらなかった。", "hiragana_full": "ごねんというときがすぎても、かれのきもちはまったくかわらなかった。" }
+        {
+          "kanji": "五年経っても、彼の思いは少しも揺らがなかった。",
+          "hiragana_full": "ごねんたっても、かれのおもいはすこしもゆらがなかった。"
+        },
+        {
+          "kanji": "五年という時が過ぎても、彼の気持ちは全く変わらなかった。",
+          "hiragana_full": "ごねんというときがすぎても、かれのきもちはまったくかわらなかった。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "気持ち", "reading": "きもち", "meaning": "feelings" },
-        { "word": "変わる", "reading": "かわる", "meaning": "to change" }
+        {
+          "word": "気持ち",
+          "reading": "きもち",
+          "meaning": "feelings"
+        },
+        {
+          "word": "変わる",
+          "reading": "かわる",
+          "meaning": "to change"
+        }
       ],
       "blank_target_reading": "すこしも"
     },
@@ -177,23 +303,45 @@
       "example_sentence": "大金を手に入れても、彼は少しも幸せそうに見えない。",
       "translation": "Even after getting a large sum of money, he doesn't look the least bit happy.",
       "blank_target": "少しも",
-      "wrong_choices": ["あまり", "そんなに", "たいして"],
+      "wrong_choices": [
+        "あまり",
+        "そんなに",
+        "たいして"
+      ],
       "wrong_choice_explanations": [
-        "「あまり〜ない」は「それほど幸せそうに見えない」という部分否定で、多少は幸せそうな様子を残すが、少しもは幸せそうな様子がゼロだと完全に否定する。",
-        "「そんなに〜ない」は「そこまで幸せそうには見えない」と程度を限定する言い方で、ある程度は幸せそうだと認める点が全面否定の少しもと異なる。",
-        "「たいして〜ない」も「大して幸せそうに見えない」と程度を弱める部分否定で、まったく幸せそうに見えないと言い切る少しもとは意味が違う。"
+        "あまり〜ない means 'not very'; あまり幸せそうに見えない is grammatical but leaves him looking slightly happy, whereas 少しも says not at all.",
+        "そんなに〜ない means 'not that much'; そんなに幸せそうに見えない concedes some happiness, a milder claim than 少しも's complete denial.",
+        "たいして〜ない means 'not particularly'; たいして幸せそうに見えない weakens rather than denies the happiness, which 少しも denies outright."
       ],
       "hiragana_full": "たいきんをてにいれても、かれはすこしもしあわせそうにみえない。",
       "audio_alternatives": [
-        { "kanji": "大金を手に入れても、彼は少しも満たされた顔をしていない。", "hiragana_full": "たいきんをてにいれても、かれはすこしもみたされたかおをしていない。" },
-        { "kanji": "大金を得ても、彼は全く幸せそうには見えない。", "hiragana_full": "たいきんをえても、かれはまったくしあわせそうにはみえない。" }
+        {
+          "kanji": "大金を手に入れても、彼は少しも満たされた顔をしていない。",
+          "hiragana_full": "たいきんをてにいれても、かれはすこしもみたされたかおをしていない。"
+        },
+        {
+          "kanji": "大金を得ても、彼は全く幸せそうには見えない。",
+          "hiragana_full": "たいきんをえても、かれはまったくしあわせそうにはみえない。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "大金", "reading": "たいきん", "meaning": "a large sum of money" },
-        { "word": "手に入れる", "reading": "てにいれる", "meaning": "to obtain; to get hold of" },
-        { "word": "幸せ", "reading": "しあわせ", "meaning": "happy; happiness" }
+        {
+          "word": "大金",
+          "reading": "たいきん",
+          "meaning": "a large sum of money"
+        },
+        {
+          "word": "手に入れる",
+          "reading": "てにいれる",
+          "meaning": "to obtain; to get hold of"
+        },
+        {
+          "word": "幸せ",
+          "reading": "しあわせ",
+          "meaning": "happy; happiness"
+        }
       ],
       "blank_target_reading": "すこしも"
     },
@@ -202,22 +350,40 @@
       "example_sentence": "締め切りが近いのに、仕事が少しも進まない。",
       "translation": "The deadline is close, yet the work isn't progressing at all.",
       "blank_target": "少しも",
-      "wrong_choices": ["あまり", "なかなか", "めったに"],
+      "wrong_choices": [
+        "あまり",
+        "なかなか",
+        "めったに"
+      ],
       "wrong_choice_explanations": [
-        "「あまり〜ない」は「それほど進まない」という部分否定で、わずかな進みは認めるが、少しもは進み具合がゼロだと完全に否定する。",
-        "「なかなか〜ない」は「容易には進まない（思うように進まない）」という意味で、進みにくさを表すだけで、まったく進まないと言い切る少しもとは異なる。",
-        "「めったに〜ない」は頻度の低さを表す語で、この状況で進み具合をゼロと述べる少しもとは合わない。"
+        "あまり〜ない means 'not very much'; 仕事があまり進まない is grammatical but admits some progress, whereas 少しも says the work isn't moving at all.",
+        "なかなか〜ない means 'not easily'; 仕事がなかなか進まない is grammatical but says progress is slow, not zero as 少しも states.",
+        "めったに〜ない means 'rarely' and counts occurrences; progress on one piece of work is not a repeated event, so めったに進まない doesn't fit the ongoing situation."
       ],
       "hiragana_full": "しめきりがちかいのに、しごとがすこしもすすまない。",
       "audio_alternatives": [
-        { "kanji": "締め切りが近いのに、仕事が少しもはかどらない。", "hiragana_full": "しめきりがちかいのに、しごとがすこしもはかどらない。" },
-        { "kanji": "締め切りが迫っているのに、仕事は全然進まない。", "hiragana_full": "しめきりがせまっているのに、しごとはぜんぜんすすまない。" }
+        {
+          "kanji": "締め切りが近いのに、仕事が少しもはかどらない。",
+          "hiragana_full": "しめきりがちかいのに、しごとがすこしもはかどらない。"
+        },
+        {
+          "kanji": "締め切りが迫っているのに、仕事は全然進まない。",
+          "hiragana_full": "しめきりがせまっているのに、しごとはぜんぜんすすまない。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "締め切り", "reading": "しめきり", "meaning": "deadline" },
-        { "word": "進む", "reading": "すすむ", "meaning": "to progress; to move forward" }
+        {
+          "word": "締め切り",
+          "reading": "しめきり",
+          "meaning": "deadline"
+        },
+        {
+          "word": "進む",
+          "reading": "すすむ",
+          "meaning": "to progress; to move forward"
+        }
       ],
       "blank_target_reading": "すこしも"
     },
@@ -226,22 +392,40 @@
       "example_sentence": "どんなに脅されても、私は少しも怖くない。",
       "translation": "No matter how much I'm threatened, I'm not scared in the slightest.",
       "blank_target": "少しも",
-      "wrong_choices": ["あまり", "そんなに", "たいして"],
+      "wrong_choices": [
+        "あまり",
+        "そんなに",
+        "たいして"
+      ],
       "wrong_choice_explanations": [
-        "「あまり〜ない」は「それほど怖くない」という部分否定で、多少の怖さは残すが、少しもは怖さがゼロだと完全に否定する。",
-        "「そんなに〜ない」は「そこまで怖くはない」と程度を限定する言い方で、ある程度の怖さは認める点が全面否定の少しもと異なる。",
-        "「たいして〜ない」も「大して怖くない」と怖さの程度を弱める部分否定で、まったく怖くないと言い切る少しもとは意味が違う。"
+        "あまり〜ない means 'not very'; あまり怖くない is grammatical but admits slight fear, whereas 少しも says I'm not scared at all.",
+        "そんなに〜ない means 'not that much'; そんなに怖くない concedes some fear, a milder claim than 少しも's 'not in the slightest'.",
+        "たいして〜ない means 'not particularly'; たいして怖くない weakens rather than denies the fear, which 少しも denies outright."
       ],
       "hiragana_full": "どんなにおどされても、わたしはすこしもこわくない。",
       "audio_alternatives": [
-        { "kanji": "どんなに脅されても、私は少しもひるまない。", "hiragana_full": "どんなにおどされても、わたしはすこしもひるまない。" },
-        { "kanji": "いくら脅されても、私は全く怖くない。", "hiragana_full": "いくらおどされても、わたしはまったくこわくない。" }
+        {
+          "kanji": "どんなに脅されても、私は少しもひるまない。",
+          "hiragana_full": "どんなにおどされても、わたしはすこしもひるまない。"
+        },
+        {
+          "kanji": "いくら脅されても、私は全く怖くない。",
+          "hiragana_full": "いくらおどされても、わたしはまったくこわくない。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "脅す", "reading": "おどす", "meaning": "to threaten; to intimidate" },
-        { "word": "怖い", "reading": "こわい", "meaning": "scary; frightened" }
+        {
+          "word": "脅す",
+          "reading": "おどす",
+          "meaning": "to threaten; to intimidate"
+        },
+        {
+          "word": "怖い",
+          "reading": "こわい",
+          "meaning": "scary; frightened"
+        }
       ],
       "blank_target_reading": "すこしも"
     }

@@ -11,13 +11,13 @@
       "blank_target": "聞けばいい",
       "wrong_choices": [
         "聞けばよかった",
-        "聞いてもいい",
-        "聞くしかない"
+        "聞いたことがある",
+        "聞くところだった"
       ],
       "wrong_choice_explanations": [
-        "「〜ばよかった」は過去にしなかったことへの後悔を表す。この文は「分からなければこうすればよい」という助言なので、後悔の形は合わない。",
-        "「〜てもいい」は許可（聞いても構わない）を表す。ここは先生に質問するのが解決策だと勧める文なので、許可ではなく「〜ばいい」がふさわしい。",
-        "「〜しかない」は他に手段がない切迫した状況を表す。先生に聞くのはあくまで一つの助言なので、「それしかない」と言い切るのは強すぎる。"
+        "聞けばよかった means 'I should have asked' and expresses regret about the past. The sentence gives advice for the future (分からないことがあれば), so regret doesn't fit.",
+        "聞いたことがある means 'have asked before' and reports past experience. An experience can't follow the conditional 分からないことがあれば, which sets up what to do next time.",
+        "聞くところだった means 'was about to ask' or 'nearly asked'. It describes a past moment, so it can't be the advice that follows 分からないことがあれば."
       ],
       "hiragana_full": "わからないことがあれば、せんせいにきけばいい。",
       "audio_alternatives": [
@@ -41,13 +41,13 @@
       "blank_target": "買えばいい",
       "wrong_choices": [
         "買うところだった",
-        "買ってもいい",
-        "買わなければならない"
+        "買ったことがある",
+        "買ったばかりだ"
       ],
       "wrong_choice_explanations": [
-        "「〜ところだった」は「危うく〜しそうになった」という意味で、買う直前の状況を表し、助言の「買えばいい」とは意味が異なる。",
-        "「〜てもいい」は許可を示すが、ここは安く買う方法を勧める文なので、許可よりも提案の「買えばいい」が適切。",
-        "「〜なければならない」は義務を表す。ネットで買うのは選択肢の一つで、しなければならない義務ではない。"
+        "買うところだった means 'nearly bought' and describes a past near-miss. It can't follow 欲しいなら, which sets up advice about what to do.",
+        "買ったことがある means 'have bought before' and reports experience. It doesn't answer 安いものが欲しいなら, which asks for a way to get cheap things.",
+        "買ったばかりだ means 'just bought' and reports a recent purchase. 欲しいなら sets up a suggestion, and a statement of what already happened doesn't follow from it."
       ],
       "hiragana_full": "やすいものがほしいなら、ねっとでかえばいい。",
       "audio_alternatives": [
@@ -71,13 +71,13 @@
       "blank_target": "戻ればいい",
       "wrong_choices": [
         "戻ればよかった",
-        "戻るしかない",
-        "戻ろうと思う"
+        "戻ったことがある",
+        "戻るところだった"
       ],
       "wrong_choice_explanations": [
-        "後悔を表す「〜ばよかった」は、まだ起きていない「迷ったときの対処」を述べるこの文には合わない。",
-        "「〜しかない」は他に方法がない場合に使う。駅に戻るのは一つの解決策で、唯一の手段だと断定するのは言いすぎ。",
-        "「〜ようと思う」は話し手自身の意志を表し、相手に「こうすればよい」と助言するこの文の働きとは異なる。"
+        "戻ればよかった means 'should have gone back' and expresses regret. 道に迷ったら looks ahead to a possible future problem, so regret doesn't fit.",
+        "戻ったことがある means 'have gone back before' and reports experience. It can't be the response to 迷ったら, which asks what to do if you get lost.",
+        "戻るところだった means 'was about to go back' and describes a past moment. It can't serve as advice after the future conditional 迷ったら."
       ],
       "hiragana_full": "みちにまよったら、えきまでもどればいい。",
       "audio_alternatives": [
@@ -107,14 +107,14 @@
       "translation": "If you're sleepy, you should just go to sleep.",
       "blank_target": "寝ればいい",
       "wrong_choices": [
-        "寝てもいい",
+        "寝たことがある",
         "寝てばかりいる",
         "寝るべきだった"
       ],
       "wrong_choice_explanations": [
-        "許可を表す「〜てもいい」より、「眠いならそうするのがよい」と勧めるこの文では提案の「寝ればいい」が自然。",
-        "「〜てばかりいる」は「寝てばかりで他をしない」と非難する表現で、助言のこの文には合わない。",
-        "「〜べきだった」は過去にすべきだったという後悔・非難で、これからの対処を勧める文には合わない。"
+        "寝たことがある means 'have slept before' and reports experience. It makes no sense as the response to 眠いなら, which calls for a suggestion.",
+        "寝てばかりいる means 'does nothing but sleep' and criticizes a habit. 眠いなら invites a suggestion, so a complaint about constant sleeping doesn't fit.",
+        "寝るべきだった means 'should have slept' and criticizes the past. With 眠いなら and もう, the sentence suggests sleeping now, so a past criticism doesn't fit."
       ],
       "hiragana_full": "ねむいなら、もうねればいい。",
       "audio_alternatives": [
@@ -142,9 +142,9 @@
         "言えばよかった"
       ],
       "wrong_choice_explanations": [
-        "「言わなくてもいい」は「言う必要がない」と逆の意味になり、私に相談すればよいという助言と矛盾する。",
-        "「言うまでもない」は「当然で説明不要だ」という慣用表現で、私に伝えればよいという助言にはつながらない。",
-        "後悔の「〜ばよかった」は、これからの対処を勧めるこの文の意味と合わない。"
+        "言わなくてもいい means 'you don't need to tell me'. That's the opposite of the offer here: if money is short, the speaker wants to be told.",
+        "言うまでもない is a set phrase meaning 'it goes without saying'. 私に言うまでもない doesn't offer help, and it can't follow お金が足りなければ.",
+        "言えばよかった means 'you should have told me' and expresses regret about the past. お金が足りなければ looks ahead, so regret doesn't fit."
       ],
       "hiragana_full": "おかねがたりなければ、わたしにいえばいい。",
       "audio_alternatives": [
@@ -167,14 +167,14 @@
       "translation": "If it tastes bland, you can just add some salt.",
       "blank_target": "足せばいい",
       "wrong_choices": [
-        "足すしかない",
-        "足してもいい",
+        "足すところだった",
+        "足したばかりだ",
         "足したほうがよかった"
       ],
       "wrong_choice_explanations": [
-        "「〜しかない」は他に手段がない切迫した状況を表し、塩を足すという気軽な提案には強すぎる。",
-        "許可の「〜てもいい」より、「薄ければそうすればよい」と勧める「足せばいい」のほうがこの文に合う。",
-        "「〜たほうがよかった」は過去の行為への後悔・評価を表し、これからの対処を述べる文には合わない。"
+        "足すところだった means 'nearly added' and describes a past near-miss. It can't follow 味が薄ければ, which sets up what to do if the dish is bland.",
+        "足したばかりだ means 'just added' and reports something already done. 薄ければ calls for a suggestion, and a report of what already happened doesn't follow from it.",
+        "足したほうがよかった means 'it would have been better to add' and judges the past. 薄ければ looks ahead to what to do now, so regret doesn't fit."
       ],
       "hiragana_full": "あじがうすければ、しおをたせばいい。",
       "audio_alternatives": [
@@ -209,14 +209,14 @@
       "translation": "If you don't know how to use it, you can just read the manual.",
       "blank_target": "読めばいい",
       "wrong_choices": [
-        "読んでもいい",
-        "読むしかない",
+        "読んだことがある",
+        "読むところだった",
         "読めばよかった"
       ],
       "wrong_choice_explanations": [
-        "許可を表す「〜てもいい」より、分からないなら説明書を読むのが解決策だと勧めるこの文では提案の「読めばいい」が適切。",
-        "「〜しかない」は唯一の手段を示し、説明書を読むという一つの助言を断定しすぎる。",
-        "後悔の「〜ばよかった」は、これからの対処を勧めるこの文には合わない。"
+        "読んだことがある means 'have read before' and reports experience. It doesn't answer 分からなければ, which calls for advice.",
+        "読むところだった means 'was about to read' and describes a past moment. It can't be the advice that follows the conditional 分からなければ.",
+        "読めばよかった means 'should have read' and expresses regret. 分からなければ looks ahead, so advice is needed, not regret."
       ],
       "hiragana_full": "つかいかたがわからなければ、せつめいしょをよめばいい。",
       "audio_alternatives": [
@@ -246,14 +246,14 @@
       "translation": "If you don't have time, you can just take a taxi.",
       "blank_target": "乗ればいい",
       "wrong_choices": [
-        "乗るしかない",
-        "乗ってもいい",
+        "乗ったばかりだ",
+        "乗ったことがある",
         "乗ればよかった"
       ],
       "wrong_choice_explanations": [
-        "「〜しかない」は他に方法がないことを表すが、タクシーは選択肢の一つで、唯一の手段とは限らない。",
-        "許可を示す「〜てもいい」より、「時間がないならそうするとよい」と勧めるこの文では「乗ればいい」が自然。",
-        "過去の後悔を表す「〜ばよかった」は、これからの対処を提案するこの文とは合わない。"
+        "乗ったばかりだ means 'just got on' and reports a recent event. 時間がないなら sets up a suggestion, and a report of what already happened doesn't follow from it.",
+        "乗ったことがある means 'have ridden before' and reports experience. It doesn't answer 時間がないなら, which asks what to do.",
+        "乗ればよかった means 'should have taken (a taxi)' and expresses regret. 時間がないなら describes a present problem that calls for advice."
       ],
       "hiragana_full": "じかんがないなら、たくしーにのればいい。",
       "audio_alternatives": [
@@ -277,13 +277,13 @@
       "blank_target": "参加すればいい",
       "wrong_choices": [
         "参加すればよかった",
-        "参加するしかない",
-        "参加してもいい"
+        "参加するところだった",
+        "参加したばかりだ"
       ],
       "wrong_choice_explanations": [
-        "後悔の「〜ばよかった」は、これからの行動を勧めるこの文には合わない。",
-        "「〜しかない」は他に選択肢がない状況で使い、「興味があればどうぞ」という任意の勧めには強すぎる。",
-        "許可を表す「〜てもいい」より、「興味があるならそうすればよい」と背中を押すこの文では提案の「参加すればいい」が適切。"
+        "参加すればよかった means 'should have joined' and expresses regret about a past event. 興味があれば invites a suggestion, so regret doesn't fit.",
+        "参加するところだった means 'nearly joined' and describes a past moment. It can't follow 興味があれば, which looks ahead.",
+        "参加したばかりだ means 'just took part' and reports something already done. 興味があれば sets up a suggestion, and a past report doesn't follow from it."
       ],
       "hiragana_full": "きょうみがあれば、いべんとにさんかすればいい。",
       "audio_alternatives": [
@@ -318,14 +318,14 @@
       "translation": "If it's hot, you can just open the window.",
       "blank_target": "開ければいい",
       "wrong_choices": [
-        "開けてもいい",
+        "開けたことがある",
         "開けるべきだった",
         "開ければよかった"
       ],
       "wrong_choice_explanations": [
-        "許可を示す「〜てもいい」より、「暑いならそうすればよい」と勧めるこの文では提案の「開ければいい」が自然。",
-        "「〜べきだった」は過去にすべきだったという後悔・非難で、これからの対処を述べる文には合わない。",
-        "後悔の「〜ばよかった」は、これから暑さに対処する助言のこの文には合わない。"
+        "開けたことがある means 'have opened before' and reports experience. It doesn't answer 暑ければ, which calls for advice about what to do.",
+        "開けるべきだった means 'should have opened' and criticizes the past. 暑ければ looks at what to do now, so a past criticism doesn't fit.",
+        "開ければよかった means 'should have opened' and expresses regret. 暑ければ calls for a suggestion about the present, not regret about the past."
       ],
       "hiragana_full": "あつければ、まどをあければいい。",
       "audio_alternatives": [
