@@ -130,21 +130,6 @@ struct ExerciseView: View {
         .clipShape(Capsule())
     }
 
-    /// Register chip — shown only for marked registers; neutral/nil renders nothing.
-    @ViewBuilder
-    private func registerChip(for register: Register) -> some View {
-        switch register {
-        case .casual:
-            chip(label: "casual speech", icon: "bubble.left.and.bubble.right", color: .teal)
-        case .formal:
-            chip(label: "formal", icon: "building.columns", color: .indigo)
-        case .written:
-            chip(label: "written language", icon: "book", color: .purple)
-        case .neutral:
-            EmptyView()
-        }
-    }
-
     var body: some View {
         ZStack {
             GlassBackdrop().ignoresSafeArea()
@@ -227,13 +212,8 @@ struct ExerciseView: View {
 
         // Question
         VStack(spacing: 12) {
-            HStack(spacing: 6) {
-                if item.level == "Particles" {
-                    chip(label: "particle", icon: "character.ja", color: .orange)
-                }
-                if let register = item.register, register != .neutral {
-                    registerChip(for: register)
-                }
+            if item.level == "Particles" {
+                chip(label: "particle", icon: "character.ja", color: .orange)
             }
 
             SelectableText(

@@ -68,7 +68,6 @@ class GrammarLoader {
                     blankTarget: exercise.blankTarget,
                     wrongChoices: exercise.wrongChoices,
                     wrongChoiceExplanations: exercise.wrongChoiceExplanations,
-                    register: exercise.register,
                     vocab: exercise.vocab,
                     blankTargetReading: exercise.blankTargetReading,
                     blankOccurrence: exercise.blankOccurrence
