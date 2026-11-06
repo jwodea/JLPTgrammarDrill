@@ -141,63 +141,88 @@ struct SessionBuilder {
             userPreferred: newCount,
             existingTotal: existingRecords.count
         )
+        // No SRS records are created here: ExerciseView inserts them when a pattern is
+        // actually answered, so backing out of a session (or switching levels) doesn't
+        // leave unstudied patterns behind as phantom "due" reviews.
         let selectedNew = Array(newItems.prefix(rampedNewCount))
 
-        for point in selectedNew {
-            let newRecord = SRSRecord(grammarId: point.id)
-            context.insert(newRecord)
-        }
-
-        do {
-            try context.save()
-        } catch {
-            print("Error saving context: \(error)")
-        }
-
         // For review items, pick 1 random exercise per pattern
-        var sessionExercises: [SessionExercise] = []
-
-        for point in selectedDue {
-            if let exercises = exercisePool[point.id], let exercise = exercises.randomElement() {
-                sessionExercises.append(exercise)
-            } else {
-                sessionExercises.append(SessionExercise(
-                    id: point.id,
-                    grammarId: point.id,
-                    pattern: point.pattern,
-                    meaning: point.meaning,
-                    level: point.level,
-                    exampleSentence: point.exampleSentence,
-                    translation: point.translation,
-                    blankTarget: point.blankTarget,
-                    wrongChoices: point.wrongChoices,
-                    wrongChoiceExplanations: point.wrongChoiceExplanations
-                ))
-            }
+        let reviewExercises: [SessionExercise] = selectedDue.map { point in
+            exercisePool[point.id]?.randomElement() ?? fallbackExercise(for: point)
         }
 
         // For new patterns, pick 3 shuffled sentences to introduce the pattern
         let introSentenceCount = 3
-        for point in selectedNew {
-            if let exercises = exercisePool[point.id] {
-                let picked = Array(exercises.shuffled().prefix(introSentenceCount))
-                sessionExercises.append(contentsOf: picked)
-            } else {
-                sessionExercises.append(SessionExercise(
-                    id: point.id,
-                    grammarId: point.id,
-                    pattern: point.pattern,
-                    meaning: point.meaning,
-                    level: point.level,
-                    exampleSentence: point.exampleSentence,
-                    translation: point.translation,
-                    blankTarget: point.blankTarget,
-                    wrongChoices: point.wrongChoices,
-                    wrongChoiceExplanations: point.wrongChoiceExplanations
-                ))
+        let newExercises: [[SessionExercise]] = selectedNew.map { point in
+            if let exercises = exercisePool[point.id], !exercises.isEmpty {
+                return Array(exercises.shuffled().prefix(introSentenceCount))
             }
+            return [fallbackExercise(for: point)]
         }
 
+        let sessionExercises = interleave(newExercises: newExercises, reviewExercises: reviewExercises)
         return (sessionExercises, Set(selectedNew.map(\.id)))
+    }
+
+    /// Order a session so new patterns are introduced up front and their follow-up
+    /// sentences are spaced out by reviews, rather than appending each new pattern's
+    /// sentences back-to-back at the end of the session.
+    ///
+    /// Layout: round 0 (first sentence of every new pattern), a chunk of reviews,
+    /// round 1 (second sentences), another chunk of reviews, and so on. Reviews are
+    /// split evenly across the rounds so the gap between repeats of a new pattern
+    /// stays roughly constant through the session.
+    private static func interleave(
+        newExercises: [[SessionExercise]],
+        reviewExercises: [SessionExercise]
+    ) -> [SessionExercise] {
+        let rounds = newExercises.map(\.count).max() ?? 0
+        guard rounds > 0 else { return reviewExercises }
+
+        var result: [SessionExercise] = []
+        var remainingReviews = reviewExercises[...]
+        for round in 0..<rounds {
+            result.append(contentsOf: newExercises.compactMap { round < $0.count ? $0[round] : nil })
+            // Spread what's left evenly over the remaining rounds.
+            let chunkSize = Int((Double(remainingReviews.count) / Double(rounds - round)).rounded(.up))
+            result.append(contentsOf: remainingReviews.prefix(chunkSize))
+            remainingReviews = remainingReviews.dropFirst(chunkSize)
+        }
+        return result
+    }
+
+    /// Delete SRS records that were created but never rated. Older builds inserted a
+    /// record for every new pattern at session start, so abandoned sessions left these
+    /// behind; they show up as due reviews even though the learner never studied them.
+    @MainActor
+    static func removeUnstudiedRecords(context: ModelContext) {
+        let descriptor = FetchDescriptor<SRSRecord>(
+            predicate: #Predicate { $0.fsrsReps == 0 && $0.totalAttempts == 0 }
+        )
+        do {
+            let unstudied = try context.fetch(descriptor)
+            guard !unstudied.isEmpty else { return }
+            unstudied.forEach(context.delete)
+            try context.save()
+        } catch {
+            print("Error removing unstudied SRS records: \(error)")
+        }
+    }
+
+    /// Single exercise built from the grammar point itself, for patterns with no
+    /// sentences in the exercise pool.
+    private static func fallbackExercise(for point: GrammarPoint) -> SessionExercise {
+        SessionExercise(
+            id: point.id,
+            grammarId: point.id,
+            pattern: point.pattern,
+            meaning: point.meaning,
+            level: point.level,
+            exampleSentence: point.exampleSentence,
+            translation: point.translation,
+            blankTarget: point.blankTarget,
+            wrongChoices: point.wrongChoices,
+            wrongChoiceExplanations: point.wrongChoiceExplanations
+        )
     }
 }

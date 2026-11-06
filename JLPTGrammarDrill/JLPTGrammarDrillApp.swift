@@ -28,6 +28,8 @@ struct JLPTGrammarDrillApp: App {
         }
         // One-time re-keying of saved progress after the 2026-10 corpus merge.
         IDMigration.runIfNeeded(container: modelContainer)
+        // Clear records left by abandoned sessions in older builds (never rated).
+        SessionBuilder.removeUnstudiedRecords(context: modelContainer.mainContext)
     }
 
     var body: some Scene {

@@ -48,9 +48,8 @@ struct ParticleSessionBuilder {
     }
 
     /// Build a particle session by ranking seen items by how overdue they are, then picking exercises.
-    /// `maxItems` caps the total returned items; SRS records are only created for new items
-    /// that survive the cap, so particles can't accumulate phantom "introduced" rows that were
-    /// dropped before display.
+    /// `maxItems` caps the total returned items. No SRS records are created here —
+    /// ExerciseView inserts them once an item is actually answered.
     static func buildSession(
         allExercises: [ParticleExercise],
         context: ModelContext,
@@ -96,18 +95,6 @@ struct ParticleSessionBuilder {
         let selectedDue = Array(overdueItems.prefix(maxItems).map(\.exercise))
         let remainingSlots = max(0, maxItems - selectedDue.count)
         let selectedNew = Array(newItems.prefix(min(newCount, remainingSlots)))
-
-        // Only now do we create SRS records — guaranteed to match what gets displayed.
-        for exercise in selectedNew {
-            let newRecord = SRSRecord(grammarId: exercise.id)
-            context.insert(newRecord)
-        }
-
-        do {
-            try context.save()
-        } catch {
-            print("Error saving context: \(error)")
-        }
 
         var sessionExercises: [SessionExercise] = []
         for exercise in selectedDue {

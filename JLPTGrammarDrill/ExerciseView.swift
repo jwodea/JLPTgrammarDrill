@@ -24,10 +24,12 @@ struct ExerciseView: View {
     /// Grammar IDs being introduced for the first time this session. Each shows
     /// a one-time intro card (pattern, meaning, examples) before its first question.
     var newPatternIds: Set<String> = []
-    /// Fired only when the session finishes naturally (all patterns mastered or queue
-    /// exhausted) — not when the user bails out via the X button or a swipe-back.
-    /// Lets the presenter offer a "keep reviewing" prompt when more cards are due.
-    var onSessionComplete: (() -> Void)? = nil
+    /// Number of patterns still due after this session's ratings are flushed.
+    /// Shown on the end-of-session summary to decide whether to offer "Keep Reviewing".
+    var remainingDueCount: (() -> Int)? = nil
+    /// Builds a review-only follow-up session so "Keep Reviewing" can restart in place
+    /// instead of bouncing back to Home and pushing a new screen.
+    var buildReviewSession: (() -> [SessionExercise])? = nil
     @Environment(\.modelContext) private var modelContext
     @Environment(\.dismiss) private var dismiss
     @AppStorage(FontSizeManager.scaleKey) private var fontScale = FontSizeManager.defaultScale
@@ -58,6 +60,12 @@ struct ExerciseView: View {
     @State private var didFlushRatings = false
     // New patterns whose intro card has been dismissed this session.
     @State private var introducedPatterns: Set<String> = []
+    // Starts as `newPatternIds`; cleared when "Keep Reviewing" loads a review-only session.
+    @State private var activeNewPatternIds: Set<String> = []
+    @State private var didInitialize = false
+    // End-of-session summary, shown in place of the question once the session finishes.
+    @State private var showSummary = false
+    @State private var summaryDueCount = 0
 
     private let defaultRequiredStreak = 3
     private let particleRequiredStreak = 1
@@ -134,7 +142,22 @@ struct ExerciseView: View {
         ZStack {
             GlassBackdrop().ignoresSafeArea()
 
-            if let item = currentItem {
+            if showSummary {
+                ScrollView {
+                    SessionSummaryCard(
+                        patternCount: totalPatterns,
+                        questionsAnswered: questionsAnswered,
+                        firstTryAccuracy: firstTryAccuracy,
+                        remainingDue: summaryDueCount,
+                        canKeepReviewing: buildReviewSession != nil,
+                        onKeepReviewing: keepReviewing,
+                        onDone: { dismiss() }
+                    )
+                    .padding(.top, 40)
+                    .padding(.bottom, 20)
+                }
+                .transition(.opacity)
+            } else if let item = currentItem {
                 ScrollViewReader { proxy in
                     ScrollView {
                         VStack(spacing: 20) {
@@ -180,6 +203,24 @@ struct ExerciseView: View {
                 }
             }
         }
+        .safeAreaInset(edge: .bottom) {
+            // Pinned so "Next" is always in the same spot, regardless of how long the
+            // sentence and explanation are.
+            if showExplanation && !showSummary {
+                Button {
+                    advanceToNext()
+                } label: {
+                    Text(isSessionComplete ? "All Done" : "Next")
+                        .font(.system(size: scaled(17), weight: .semibold))
+                        .frame(maxWidth: .infinity)
+                        .padding(.vertical, 8)
+                }
+                .buttonStyle(.glassProminent)
+                .padding(.horizontal)
+                .padding(.bottom, 8)
+                .transition(.move(edge: .bottom).combined(with: .opacity))
+            }
+        }
         .navigationBarBackButtonHidden(true)
         .toolbar {
             ToolbarItem(placement: .topBarLeading) {
@@ -194,7 +235,11 @@ struct ExerciseView: View {
             }
         }
         .onAppear {
-            initializeSession()
+            // onAppear can re-fire (e.g. after a popover); only set up the first time so
+            // an in-progress or "Keep Reviewing" session isn't reset to the original items.
+            guard !didInitialize else { return }
+            didInitialize = true
+            initializeSession(items: sessionItems, newPatternIds: newPatternIds)
         }
         .onDisappear {
             // Safety net for any dismissal path (system gesture, etc.) that
@@ -317,17 +362,6 @@ struct ExerciseView: View {
                     textColor: .secondaryLabel,
                     textAlignment: .left
                 )
-
-                Button {
-                    advanceToNext()
-                } label: {
-                    Text(isSessionComplete ? "All Done" : "Next")
-                        .font(.system(size: scaled(17), weight: .semibold))
-                        .frame(maxWidth: .infinity)
-                        .padding(.vertical, 6)
-                }
-                .buttonStyle(.glassProminent)
-                .padding(.top, 4)
             }
             .padding()
             .glassEffect(.regular, in: .rect(cornerRadius: 20))
@@ -342,7 +376,7 @@ struct ExerciseView: View {
     /// True while the current item's pattern is new this session and its intro
     /// card hasn't been dismissed yet.
     private func isIntroducingNewPattern(_ item: SessionExercise) -> Bool {
-        newPatternIds.contains(item.grammarId) && !introducedPatterns.contains(item.grammarId)
+        activeNewPatternIds.contains(item.grammarId) && !introducedPatterns.contains(item.grammarId)
     }
 
     /// Example sentences for the intro card, drawn from the pattern's full pool
@@ -354,11 +388,26 @@ struct ExerciseView: View {
 
     // MARK: - Session Initialization
 
-    private func initializeSession() {
+    /// Reset all per-session state and load `items`. Used for the initial session and
+    /// again for each "Keep Reviewing" round.
+    private func initializeSession(items: [SessionExercise], newPatternIds: Set<String>) {
+        streaks = [:]
+        completedPatterns = []
+        failedPatterns = []
+        requiredStreaks = [:]
+        patternOutcomes = [:]
+        introducedPatterns = []
+        questionsAnswered = 0
+        selectedAnswer = nil
+        showingResult = false
+        showExplanation = false
+        didFlushRatings = false
+        activeNewPatternIds = newPatternIds
+
         // Collect unique grammar pattern IDs in order
         var seenPatterns = Set<String>()
         var ordered: [String] = []
-        for item in sessionItems {
+        for item in items {
             if seenPatterns.insert(item.grammarId).inserted {
                 streaks[item.grammarId] = 0
                 ordered.append(item.grammarId)
@@ -370,8 +419,8 @@ struct ExerciseView: View {
         orderedPatternIds = ordered
         totalPatterns = seenPatterns.count
 
-        // Build the initial queue from sessionItems
-        queue = sessionItems
+        // Build the initial queue from the session items
+        queue = items
         shuffleChoicesForCurrent()
     }
 
@@ -395,7 +444,7 @@ struct ExerciseView: View {
             let newStreak = (streaks[item.grammarId] ?? 0) + 1
             streaks[item.grammarId] = newStreak
             let hasFailed = failedPatterns.contains(item.grammarId)
-            let isNewPattern = newPatternIds.contains(item.grammarId)
+            let isNewPattern = activeNewPatternIds.contains(item.grammarId)
             // Review patterns: first-try correct completes immediately; after a mistake
             // they need requiredStreak in a row. New patterns always need the full
             // requiredStreak of passes before they're dismissed this session.
@@ -475,10 +524,7 @@ struct ExerciseView: View {
 
         // Check if the session is done
         if isSessionComplete || queue.isEmpty {
-            flushPatternRatings()
-            updateStreak()
-            onSessionComplete?()
-            dismiss()
+            finishSession()
             return
         }
 
@@ -492,10 +538,7 @@ struct ExerciseView: View {
         }
 
         if queue.isEmpty || isSessionComplete {
-            flushPatternRatings()
-            updateStreak()
-            onSessionComplete?()
-            dismiss()
+            finishSession()
             return
         }
 
@@ -503,6 +546,38 @@ struct ExerciseView: View {
         showingResult = false
         showExplanation = false
         shuffleChoicesForCurrent()
+    }
+
+    /// Save ratings and swap the question UI for the in-place summary card.
+    private func finishSession() {
+        flushPatternRatings()
+        updateStreak()
+        // Ratings were just flushed, so the due count reflects this session.
+        summaryDueCount = remainingDueCount?() ?? 0
+        withAnimation(.easeInOut(duration: 0.25)) {
+            showExplanation = false
+            showSummary = true
+        }
+    }
+
+    /// Start a review-only follow-up session on this same screen.
+    private func keepReviewing() {
+        let items = buildReviewSession?() ?? []
+        guard !items.isEmpty else {
+            dismiss()
+            return
+        }
+        withAnimation(.easeInOut(duration: 0.25)) {
+            initializeSession(items: items, newPatternIds: [])
+            showSummary = false
+        }
+    }
+
+    /// Share of distinct sentences answered correctly on the first try this session.
+    private var firstTryAccuracy: Double? {
+        let firstAttempts = patternOutcomes.values.flatMap(\.firstAttempts.values)
+        guard !firstAttempts.isEmpty else { return nil }
+        return Double(firstAttempts.filter { $0 }.count) / Double(firstAttempts.count)
     }
 
     // MARK: - Button Styling
@@ -594,14 +669,19 @@ struct ExerciseView: View {
                 predicate: #Predicate { $0.grammarId == grammarId }
             )
             do {
-                if let record = try modelContext.fetch(descriptor).first {
-                    SRSEngine.applyRating(
-                        record: record,
-                        rating: rating,
-                        attemptsDelta: outcomes.totalAnswers,
-                        correctDelta: outcomes.correctAnswers
-                    )
-                }
+                // New patterns get their record only now, once they've actually been
+                // answered — session builders no longer create records up front.
+                let record = try modelContext.fetch(descriptor).first ?? {
+                    let newRecord = SRSRecord(grammarId: grammarId)
+                    modelContext.insert(newRecord)
+                    return newRecord
+                }()
+                SRSEngine.applyRating(
+                    record: record,
+                    rating: rating,
+                    attemptsDelta: outcomes.totalAnswers,
+                    correctDelta: outcomes.correctAnswers
+                )
             } catch {
                 print("Error fetching SRS record for \(grammarId): \(error)")
             }
@@ -719,6 +799,94 @@ private struct PatternIntroCard: View {
                     .padding(.vertical, 8)
             }
             .buttonStyle(.glassProminent)
+            .padding(.horizontal)
+        }
+    }
+}
+
+// MARK: - Session Summary Card
+
+/// End-of-session card shown in place of the last question, so finishing a session
+/// doesn't bounce back to Home before offering to continue.
+private struct SessionSummaryCard: View {
+    let patternCount: Int
+    let questionsAnswered: Int
+    let firstTryAccuracy: Double?
+    let remainingDue: Int
+    let canKeepReviewing: Bool
+    let onKeepReviewing: () -> Void
+    let onDone: () -> Void
+    @AppStorage(FontSizeManager.scaleKey) private var fontScale = FontSizeManager.defaultScale
+
+    private func scaled(_ base: CGFloat) -> CGFloat {
+        FontSizeManager.scaled(base, scale: fontScale)
+    }
+
+    private func statRow(_ label: String, value: String) -> some View {
+        HStack {
+            Text(label)
+                .font(.system(size: scaled(15)))
+            Spacer()
+            Text(value)
+                .font(.system(size: scaled(15), weight: .medium))
+                .foregroundColor(.secondary)
+        }
+    }
+
+    var body: some View {
+        VStack(spacing: 20) {
+            VStack(spacing: 8) {
+                Image(systemName: "checkmark.seal.fill")
+                    .font(.system(size: scaled(44)))
+                    .foregroundStyle(.green)
+                Text("Session Complete")
+                    .font(.system(size: scaled(26), weight: .bold))
+            }
+
+            VStack(spacing: 10) {
+                statRow("Patterns", value: "\(patternCount)")
+                statRow("Questions", value: "\(questionsAnswered)")
+                if let accuracy = firstTryAccuracy {
+                    statRow("First-try accuracy", value: accuracy.formatted(.percent.precision(.fractionLength(0))))
+                }
+            }
+            .padding()
+            .glassEffect(.regular, in: .rect(cornerRadius: 20))
+            .padding(.horizontal)
+
+            VStack(spacing: 10) {
+                if canKeepReviewing && remainingDue > 0 {
+                    Text(remainingDue == 1
+                         ? "1 more pattern is due for review."
+                         : "\(remainingDue) more patterns are due for review.")
+                        .font(.system(size: scaled(14)))
+                        .foregroundColor(.secondary)
+
+                    Button(action: onKeepReviewing) {
+                        Text("Keep Reviewing")
+                            .font(.system(size: scaled(17), weight: .semibold))
+                            .frame(maxWidth: .infinity)
+                            .padding(.vertical, 8)
+                    }
+                    .buttonStyle(.glassProminent)
+
+                    Button(action: onDone) {
+                        Text("Done")
+                            .font(.system(size: scaled(17), weight: .semibold))
+                            .frame(maxWidth: .infinity)
+                            .padding(.vertical, 8)
+                    }
+                    .buttonStyle(.glass)
+                } else {
+                    Button(action: onDone) {
+                        Text("Done")
+                            .font(.system(size: scaled(17), weight: .semibold))
+                            .frame(maxWidth: .infinity)
+                            .padding(.vertical, 8)
+                    }
+                    .buttonStyle(.glassProminent)
+                }
+            }
             .padding(.horizontal)
         }
     }

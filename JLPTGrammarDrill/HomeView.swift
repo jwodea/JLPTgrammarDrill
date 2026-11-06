@@ -21,11 +21,6 @@ struct HomeView: View {
     @State private var isLoading = false
     @State private var showAllCaughtUp = false
     @State private var navigateToExercise = false
-    // Set by ExerciseView's onSessionComplete so the continue prompt only appears
-    // after a finished session, not when the user exits early via the X button.
-    @State private var sessionDidComplete = false
-    @State private var showContinuePrompt = false
-    @State private var remainingDueCount = 0
 
 
     private var streakCount: Int {
@@ -370,33 +365,17 @@ struct HomeView: View {
         }
         .navigationDestination(isPresented: $navigateToExercise) {
             if let items = sessionItems {
-                ExerciseView(sessionItems: items, exercisePool: exercisePool, newPatternIds: newPatternIds) {
-                    sessionDidComplete = true
-                }
+                ExerciseView(
+                    sessionItems: items,
+                    exercisePool: exercisePool,
+                    newPatternIds: newPatternIds,
+                    remainingDueCount: { sessionStats.totalDue },
+                    buildReviewSession: {
+                        let built = buildSessionItems(newCount: 0)
+                        return built.items
+                    }
+                )
             }
-        }
-        .onChange(of: navigateToExercise) {
-            guard !navigateToExercise, sessionDidComplete else { return }
-            sessionDidComplete = false
-            // Ratings were flushed before dismissal, so the due count is current.
-            let due = sessionStats.totalDue
-            guard due > 0 else { return }
-            remainingDueCount = due
-            // Let the pop animation finish; an alert presented mid-transition can be dropped.
-            Task {
-                try? await Task.sleep(for: .seconds(0.6))
-                showContinuePrompt = true
-            }
-        }
-        .alert("Session complete!", isPresented: $showContinuePrompt) {
-            Button("Keep Reviewing") {
-                startSession(newCount: 0)
-            }
-            Button("Done", role: .cancel) {}
-        } message: {
-            Text(remainingDueCount == 1
-                 ? "1 more pattern is due for review."
-                 : "\(remainingDueCount) more patterns are due for review.")
         }
         .onAppear {
             loadData()
@@ -420,8 +399,16 @@ struct HomeView: View {
                     Button {
                         toggleLevel(level)
                     } label: {
-                        Text(level)
-                            .font(.system(size: scaled(14), weight: .semibold, design: .rounded))
+                        HStack(spacing: 5) {
+                            // Green dot marks enabled levels; kept in the layout (just
+                            // hidden) when off so the label doesn't shift on toggle.
+                            Circle()
+                                .fill(Color.green)
+                                .frame(width: scaled(6), height: scaled(6))
+                                .opacity(isOn ? 1 : 0)
+                            Text(level)
+                                .font(.system(size: scaled(14), weight: .semibold, design: .rounded))
+                        }
                             .frame(maxWidth: .infinity)
                             .padding(.vertical, 8)
                             .foregroundStyle(isOn ? .white : .primary)
@@ -492,44 +479,55 @@ struct HomeView: View {
     private func startSession(newCount: Int) {
         isLoading = true
         Task {
-            let built = SessionBuilder.buildSession(
-                allPoints: grammarPoints,
-                exercisePool: exercisePool,
-                context: modelContext,
-                newCount: newCount
-            )
-            var items = built.items
-
-            // Mix in particle exercises when combined mode is on.
-            // Cap particles at ~15% of the final session so they stay an occasional flavor.
-            // The cap is passed *into* the builder so it doesn't insert SRS rows for items
-            // that would be dropped — otherwise undrilled particles accumulate as phantom due cards.
-            if combinedDrills {
-                let grammarCount = items.count
-                let maxParticleCount = grammarCount == 0
-                    ? 1
-                    : max(1, Int((Double(grammarCount) * 0.15 / 0.85).rounded()))
-                let particleItems = ParticleSessionBuilder.buildSession(
-                    allExercises: particleExercises,
-                    context: modelContext,
-                    newCount: newCount,
-                    maxItems: maxParticleCount
-                )
-                items.append(contentsOf: particleItems)
-                items.shuffle()
-            }
+            let built = buildSessionItems(newCount: newCount)
 
             await MainActor.run {
                 isLoading = false
-                if items.isEmpty {
+                if built.items.isEmpty {
                     showAllCaughtUp = true
                 } else {
-                    sessionItems = items
+                    sessionItems = built.items
                     newPatternIds = built.newPatternIds
                     navigateToExercise = true
                 }
             }
         }
+    }
+
+    /// Build the grammar session (plus particles in combined mode). Shared by the Home
+    /// buttons and ExerciseView's in-place "Keep Reviewing" action.
+    private func buildSessionItems(newCount: Int) -> (items: [SessionExercise], newPatternIds: Set<String>) {
+        let built = SessionBuilder.buildSession(
+            allPoints: grammarPoints,
+            exercisePool: exercisePool,
+            context: modelContext,
+            newCount: newCount
+        )
+        var items = built.items
+
+        // Mix in particle exercises when combined mode is on.
+        // Cap particles at ~15% of the final session so they stay an occasional flavor.
+        // The cap is passed *into* the builder so it doesn't insert SRS rows for items
+        // that would be dropped — otherwise undrilled particles accumulate as phantom due cards.
+        if combinedDrills {
+            let grammarCount = items.count
+            let maxParticleCount = grammarCount == 0
+                ? 1
+                : max(1, Int((Double(grammarCount) * 0.15 / 0.85).rounded()))
+            let particleItems = ParticleSessionBuilder.buildSession(
+                allExercises: particleExercises,
+                context: modelContext,
+                newCount: newCount,
+                maxItems: maxParticleCount
+            )
+            // Scatter particles at random positions rather than shuffling the whole
+            // session, which would undo SessionBuilder's new-pattern spacing.
+            for particle in particleItems {
+                items.insert(particle, at: Int.random(in: 0...items.count))
+            }
+        }
+
+        return (items, built.newPatternIds)
     }
 }
 
