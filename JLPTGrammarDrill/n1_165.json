@@ -9,22 +9,40 @@
       "example_sentence": "準備は万全だが、当日雨が降らないとも限らないので、傘を用意しておこう。",
       "translation": "Our preparations are perfect, but you can't rule out that it might rain on the day, so let's have umbrellas ready.",
       "blank_target": "ないとも限らない",
-      "wrong_choices": ["ないに違いない", "ないわけがない", "ないはずだ"],
+      "wrong_choices": [
+        "ないに違いない",
+        "ないではいられない",
+        "ないはずだ"
+      ],
       "wrong_choice_explanations": [
-        "「〜ないに違いない」は「きっと〜ない」と強い確信を表し、「絶対に雨は降らない」となってしまうため、雨に備える文の趣旨と矛盾する。",
-        "「〜ないわけがない」は二重否定で「必ず〜する」の意になり、「必ず雨が降る」と断定してしまい、可能性に備えるだけのこの文には強すぎる。",
-        "「〜ないはずだ」は「〜しないと予想される」と否定の推量を表し、「降らないと思う」となるので、念のため傘を用意する流れと合わない。"
+        "ないに違いない means 'surely won't ~'. 雨が降らないに違いないので、傘を用意しておこう says rain is certain not to fall and therefore umbrellas are needed, which is self-defeating; ないとも限らない leaves the chance of rain that justifies the umbrellas.",
+        "ないではいられない means 'can't help doing ~', describing a person's irresistible urge. Rain has no urges, so 雨が降らないではいられない makes no sense; the sentence needs ないとも限らない to admit the possibility of rain.",
+        "ないはずだ means 'it shouldn't ~; I expect it won't ~'. 雨が降らないはずだ predicts no rain, which clashes with the conclusion 傘を用意しておこう; ないとも限らない keeps rain possible, which is why the umbrellas make sense."
       ],
       "hiragana_full": "じゅんびはばんぜんだが、とうじつあめがふらないともかぎらないので、かさをよういしておこう。",
       "audio_alternatives": [
-        { "kanji": "準備は整っているが、当日雨が降る可能性も否定できないので、傘を用意しておこう。", "hiragana_full": "じゅんびはととのっているが、とうじつあめがふるかのうせいもひていできないので、かさをよういしておこう。" },
-        { "kanji": "万全に備えても、当日天気が崩れないとも限らない。", "hiragana_full": "ばんぜんにそなえても、とうじつてんきがくずれないともかぎらない。" }
+        {
+          "kanji": "準備は整っているが、当日雨が降る可能性も否定できないので、傘を用意しておこう。",
+          "hiragana_full": "じゅんびはととのっているが、とうじつあめがふるかのうせいもひていできないので、かさをよういしておこう。"
+        },
+        {
+          "kanji": "万全に備えても、当日天気が崩れないとも限らない。",
+          "hiragana_full": "ばんぜんにそなえても、とうじつてんきがくずれないともかぎらない。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "万全", "reading": "ばんぜん", "meaning": "perfect; thorough" },
-        { "word": "当日", "reading": "とうじつ", "meaning": "the day (of the event)" }
+        {
+          "word": "万全",
+          "reading": "ばんぜん",
+          "meaning": "perfect; thorough"
+        },
+        {
+          "word": "当日",
+          "reading": "とうじつ",
+          "meaning": "the day (of the event)"
+        }
       ],
       "blank_target_reading": "ないともかぎらない"
     },
@@ -33,22 +51,40 @@
       "example_sentence": "あの温厚な部長でも、あまりに失礼な態度を取れば怒らないとも限らない。",
       "translation": "Even that mild-mannered manager might well get angry if you take too rude an attitude with him.",
       "blank_target": "ないとも限らない",
-      "wrong_choices": ["ないに決まっている", "ないわけにはいかない", "ないはずがない"],
+      "wrong_choices": [
+        "ないに決まっている",
+        "ないうちに",
+        "ないまでも"
+      ],
       "wrong_choice_explanations": [
-        "「〜ないに決まっている」は「絶対に〜ない」と断定する言い方で、「絶対に怒らない」となり、怒る可能性を示すこの文と正反対になる。",
-        "「〜ないわけにはいかない」は「〜しないでは済まされない」という義務・必要を表し、感情が湧く可能性を述べるこの文脈には当てはまらない。",
-        "「〜ないはずがない」は二重否定で「必ず怒る」と断定してしまい、あくまで「怒るかもしれない」と可能性にとどめるこの文には強すぎる。"
+        "ないに決まっている means 'definitely won't ~'. あの温厚な部長でも ('even that mild manager') prepares for a surprising reaction, but 怒らないに決まっている says he certainly won't react, so でも loses its point.",
+        "ないうちに means 'before ~ happens' and must be followed by a main clause saying what to do in time. 怒らないうちに ends the sentence with that clause missing; ないとも限らない closes it as a warning that he might get angry.",
+        "ないまでも means 'even if not (quite) ~' and needs a following clause with the lesser outcome (怒らないまでも、不機嫌になる). Ending the sentence at 怒らないまでも leaves it incomplete; ないとも限らない completes the warning."
       ],
       "hiragana_full": "あのおんこうなぶちょうでも、あまりにしつれいなたいどをとればおこらないともかぎらない。",
       "audio_alternatives": [
-        { "kanji": "あの穏やかな部長でも、失礼な態度を取れば怒る可能性がある。", "hiragana_full": "あのおだやかなぶちょうでも、しつれいなたいどをとればおこるかのうせいがある。" },
-        { "kanji": "温厚な人でも、あまりに無礼だと腹を立てないとも限らない。", "hiragana_full": "おんこうなひとでも、あまりにぶれいだとはらをたてないともかぎらない。" }
+        {
+          "kanji": "あの穏やかな部長でも、失礼な態度を取れば怒る可能性がある。",
+          "hiragana_full": "あのおだやかなぶちょうでも、しつれいなたいどをとればおこるかのうせいがある。"
+        },
+        {
+          "kanji": "温厚な人でも、あまりに無礼だと腹を立てないとも限らない。",
+          "hiragana_full": "おんこうなひとでも、あまりにぶれいだとはらをたてないともかぎらない。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "温厚", "reading": "おんこう", "meaning": "gentle; mild-mannered" },
-        { "word": "態度", "reading": "たいど", "meaning": "attitude; manner" }
+        {
+          "word": "温厚",
+          "reading": "おんこう",
+          "meaning": "gentle; mild-mannered"
+        },
+        {
+          "word": "態度",
+          "reading": "たいど",
+          "meaning": "attitude; manner"
+        }
       ],
       "blank_target_reading": "ないともかぎらない"
     },
@@ -57,23 +93,45 @@
       "example_sentence": "今は健康でも、不摂生を続ければ将来大病を患わないとも限らない。",
       "translation": "You may be healthy now, but if you keep up an unhealthy lifestyle, it's not out of the question that you could come down with a serious illness in the future.",
       "blank_target": "ないとも限らない",
-      "wrong_choices": ["ないに決まっている", "ないはずだ", "ないわけがない"],
+      "wrong_choices": [
+        "ないに決まっている",
+        "ないはずだ",
+        "ないで済む"
+      ],
       "wrong_choice_explanations": [
-        "「〜ないに決まっている」は「絶対に〜ない」と断言する表現で、「絶対に病気にはならない」となり、危険性を警告するこの文と食い違う。",
-        "「〜ないはずだ」は「〜しないと予想される」と否定の推量を示し、「患わないと思う」となるため、将来のリスクを説くこの文脈に合わない。",
-        "「〜ないわけがない」は二重否定で「必ず患う」と断定してしまい、あくまで可能性を指摘するだけのこの文には強すぎる。"
+        "ないに決まっている means 'definitely won't ~'. 不摂生を続ければ…大病を患わないに決まっている claims an unhealthy lifestyle guarantees good health, clashing with 今は健康でも, which sets up a warning about the future.",
+        "ないはずだ means 'shouldn't; I expect it won't'. After 今は健康でも、不摂生を続ければ, saying 患わないはずだ predicts no illness, so the 'even if healthy now' warning goes nowhere; ないとも限らない raises the risk.",
+        "ないで済む means 'get by without ~; be spared ~'. 不摂生を続ければ…大病を患わないで済む says an unhealthy lifestyle spares you serious illness — the reverse of the warning signalled by 今は健康でも."
       ],
       "hiragana_full": "いまはけんこうでも、ふせっせいをつづければしょうらいたいびょうをわずらわないともかぎらない。",
       "audio_alternatives": [
-        { "kanji": "今は健康でも、不摂生を続ければいつか大病になる恐れがある。", "hiragana_full": "いまはけんこうでも、ふせっせいをつづければいつかたいびょうになるおそれがある。" },
-        { "kanji": "節制を怠れば、将来病気を患わないとも限らない。", "hiragana_full": "せっせいをおこたれば、しょうらいびょうきをわずらわないともかぎらない。" }
+        {
+          "kanji": "今は健康でも、不摂生を続ければいつか大病になる恐れがある。",
+          "hiragana_full": "いまはけんこうでも、ふせっせいをつづければいつかたいびょうになるおそれがある。"
+        },
+        {
+          "kanji": "節制を怠れば、将来病気を患わないとも限らない。",
+          "hiragana_full": "せっせいをおこたれば、しょうらいびょうきをわずらわないともかぎらない。"
+        }
       ],
       "audio_eligible": true,
       "register": "written",
       "vocab": [
-        { "word": "不摂生", "reading": "ふせっせい", "meaning": "unhealthy living; lack of self-care" },
-        { "word": "大病", "reading": "たいびょう", "meaning": "serious illness" },
-        { "word": "患う", "reading": "わずらう", "meaning": "to suffer from (an illness)" }
+        {
+          "word": "不摂生",
+          "reading": "ふせっせい",
+          "meaning": "unhealthy living; lack of self-care"
+        },
+        {
+          "word": "大病",
+          "reading": "たいびょう",
+          "meaning": "serious illness"
+        },
+        {
+          "word": "患う",
+          "reading": "わずらう",
+          "meaning": "to suffer from (an illness)"
+        }
       ],
       "blank_target_reading": "ないともかぎらない"
     },
@@ -82,22 +140,40 @@
       "example_sentence": "鍵をかけておかないと、留守中に泥棒が入らないとも限らない。",
       "translation": "If you don't lock up, you can't be sure a burglar won't get in while you're out.",
       "blank_target": "ないとも限らない",
-      "wrong_choices": ["ないに違いない", "ないわけがない", "ないはずがない"],
+      "wrong_choices": [
+        "ないに違いない",
+        "ないで済む",
+        "ないうちに"
+      ],
       "wrong_choice_explanations": [
-        "「〜ないに違いない」は「きっと〜ない」と強い確信を表し、「絶対に泥棒は入らない」となって、警戒を促すこの文の意図と正反対になる。",
-        "「〜ないわけがない」は二重否定で「必ず入る」と断定してしまい、可能性を注意喚起するだけのこの文には強すぎる。",
-        "「〜ないはずがない」も「必ず泥棒が入る」と決めつける言い方になり、「入るかもしれない」という含みを持つこの文には合わない。"
+        "ないに違いない means 'surely won't ~'. 鍵をかけておかないと…泥棒が入らないに違いない says leaving the door unlocked guarantees no burglary, which contradicts the warning structure 〜ないと ('if you don't ~').",
+        "ないで済む means 'be spared ~'. 鍵をかけておかないと、泥棒が入らないで済む says not locking up spares you a burglary, which is the opposite of the warning; ないとも限らない flags the risk of a break-in.",
+        "ないうちに means 'before ~ happens' and needs a following main clause (…鍵をかけよう). 泥棒が入らないうちに ends the sentence with that clause missing; ないとも限らない completes the warning about burglars."
       ],
       "hiragana_full": "かぎをかけておかないと、るすちゅうにどろぼうがはいらないともかぎらない。",
       "audio_alternatives": [
-        { "kanji": "鍵をかけないでいると、留守中に泥棒が入る恐れがある。", "hiragana_full": "かぎをかけないでいると、るすちゅうにどろぼうがはいるおそれがある。" },
-        { "kanji": "戸締まりを怠れば、空き巣に入られないとも限らない。", "hiragana_full": "とじまりをおこたれば、あきすにはいられないともかぎらない。" }
+        {
+          "kanji": "鍵をかけないでいると、留守中に泥棒が入る恐れがある。",
+          "hiragana_full": "かぎをかけないでいると、るすちゅうにどろぼうがはいるおそれがある。"
+        },
+        {
+          "kanji": "戸締まりを怠れば、空き巣に入られないとも限らない。",
+          "hiragana_full": "とじまりをおこたれば、あきすにはいられないともかぎらない。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "留守", "reading": "るす", "meaning": "absence; being away from home" },
-        { "word": "泥棒", "reading": "どろぼう", "meaning": "thief; burglar" }
+        {
+          "word": "留守",
+          "reading": "るす",
+          "meaning": "absence; being away from home"
+        },
+        {
+          "word": "泥棒",
+          "reading": "どろぼう",
+          "meaning": "thief; burglar"
+        }
       ],
       "blank_target_reading": "ないともかぎらない"
     },
@@ -106,22 +182,40 @@
       "example_sentence": "どんなに親しい友人でも、金銭のことで仲が壊れないとも限らない。",
       "translation": "No matter how close friends are, you can't rule out that money could destroy the relationship.",
       "blank_target": "ないとも限らない",
-      "wrong_choices": ["ないに決まっている", "ないはずだ", "ないわけにはいかない"],
+      "wrong_choices": [
+        "ないに決まっている",
+        "ないはずだ",
+        "ないわけにはいかない"
+      ],
       "wrong_choice_explanations": [
-        "「〜ないに決まっている」は「絶対に〜ない」と断言する表現で、「絶対に仲は壊れない」となり、関係が壊れうると警告するこの文と矛盾する。",
-        "「〜ないはずだ」は「〜しないと予想される」と否定の推量を示し、「壊れないと思う」となるため、危険性を指摘するこの文脈に合わない。",
-        "「〜ないわけにはいかない」は「〜しないでは済まない」という義務・必要を表し、関係が壊れる可能性を述べるこの文には当てはまらない。"
+        "ないに決まっている means 'definitely won't ~'. どんなに親しい友人でも ('no matter how close') sets up a risk even close friends face, but 壊れないに決まっている says the friendship is certain to survive, so でも loses its point.",
+        "ないはずだ means 'shouldn't; I expect it won't'. 仲が壊れないはずだ predicts the friendship will survive, which clashes with どんなに親しい友人でも, a frame for a warning that even close ties can break.",
+        "ないわけにはいかない means 'can't not do ~; have to ~', expressing obligation. A friendship breaking is not something anyone is obliged to do, so 仲が壊れないわけにはいかない makes no sense here."
       ],
       "hiragana_full": "どんなにしたしいゆうじんでも、きんせんのことでなかがこわれないともかぎらない。",
       "audio_alternatives": [
-        { "kanji": "どんなに親しくても、お金のことで関係が壊れることもある。", "hiragana_full": "どんなにしたしくても、おかねのことでかんけいがこわれることもある。" },
-        { "kanji": "仲の良い友人同士でも、金銭が絡めば仲がこじれないとも限らない。", "hiragana_full": "なかのよいゆうじんどうしでも、きんせんがからめばなかがこじれないともかぎらない。" }
+        {
+          "kanji": "どんなに親しくても、お金のことで関係が壊れることもある。",
+          "hiragana_full": "どんなにしたしくても、おかねのことでかんけいがこわれることもある。"
+        },
+        {
+          "kanji": "仲の良い友人同士でも、金銭が絡めば仲がこじれないとも限らない。",
+          "hiragana_full": "なかのよいゆうじんどうしでも、きんせんがからめばなかがこじれないともかぎらない。"
+        }
       ],
       "audio_eligible": true,
       "register": "written",
       "vocab": [
-        { "word": "親しい", "reading": "したしい", "meaning": "close; intimate" },
-        { "word": "金銭", "reading": "きんせん", "meaning": "money; finances" }
+        {
+          "word": "親しい",
+          "reading": "したしい",
+          "meaning": "close; intimate"
+        },
+        {
+          "word": "金銭",
+          "reading": "きんせん",
+          "meaning": "money; finances"
+        }
       ],
       "blank_target_reading": "ないともかぎらない"
     },
@@ -130,22 +224,40 @@
       "example_sentence": "この計画は完璧に見えるが、どこかで想定外の事態が起きないとも限らない。",
       "translation": "This plan looks flawless, but you can't rule out that some unforeseen situation might arise somewhere along the way.",
       "blank_target": "ないとも限らない",
-      "wrong_choices": ["ないに違いない", "ないわけがない", "ないはずだ"],
+      "wrong_choices": [
+        "ないに違いない",
+        "ないで済む",
+        "ないはずだ"
+      ],
       "wrong_choice_explanations": [
-        "「〜ないに違いない」は「きっと〜ない」と強い確信を表し、「絶対に問題は起きない」となって、不測の事態に注意を促すこの文と食い違う。",
-        "「〜ないわけがない」は二重否定で「必ず起きる」と断定してしまい、あくまで可能性を残すだけのこの文には強すぎる。",
-        "「〜ないはずだ」は「〜しないと予想される」と否定の推量を示し、「起きないと思う」となるため、油断を戒めるこの文脈に合わない。"
+        "ないに違いない means 'surely won't ~'. 完璧に見えるが sets up a caveat, but 想定外の事態が起きないに違いない just repeats that the plan is safe, so the が contrast collapses; ないとも限らない supplies the caveat.",
+        "ないで済む means 'be spared ~'. 完璧に見えるが…想定外の事態が起きないで済む says the plan is spared surprises, which agrees with 'looks flawless' instead of contrasting with it, so the が has nothing to turn on.",
+        "ないはずだ means 'shouldn't; I expect it won't'. 起きないはずだ predicts nothing will go wrong, merely restating 完璧に見える, so the が contrast gets no caveat; ないとも限らない raises the possibility of trouble."
       ],
       "hiragana_full": "このけいかくはかんぺきにみえるが、どこかでそうていがいのじたいがおきないともかぎらない。",
       "audio_alternatives": [
-        { "kanji": "この計画は完璧に見えるが、どこかで予期せぬ問題が生じる可能性がある。", "hiragana_full": "このけいかくはかんぺきにみえるが、どこかでよきせぬもんだいがしょうじるかのうせいがある。" },
-        { "kanji": "綿密な計画でも、想定外の事態が起きないとも限らない。", "hiragana_full": "めんみつなけいかくでも、そうていがいのじたいがおきないともかぎらない。" }
+        {
+          "kanji": "この計画は完璧に見えるが、どこかで予期せぬ問題が生じる可能性がある。",
+          "hiragana_full": "このけいかくはかんぺきにみえるが、どこかでよきせぬもんだいがしょうじるかのうせいがある。"
+        },
+        {
+          "kanji": "綿密な計画でも、想定外の事態が起きないとも限らない。",
+          "hiragana_full": "めんみつなけいかくでも、そうていがいのじたいがおきないともかぎらない。"
+        }
       ],
       "audio_eligible": true,
       "register": "written",
       "vocab": [
-        { "word": "想定外", "reading": "そうていがい", "meaning": "unforeseen; beyond expectations" },
-        { "word": "事態", "reading": "じたい", "meaning": "situation; state of affairs" }
+        {
+          "word": "想定外",
+          "reading": "そうていがい",
+          "meaning": "unforeseen; beyond expectations"
+        },
+        {
+          "word": "事態",
+          "reading": "じたい",
+          "meaning": "situation; state of affairs"
+        }
       ],
       "blank_target_reading": "ないともかぎらない"
     },
@@ -154,22 +266,40 @@
       "example_sentence": "一見安全な道でも、夜になれば危険が潜んでいないとも限らない。",
       "translation": "Even a road that looks safe at first glance may well have dangers lurking on it once night falls.",
       "blank_target": "ないとも限らない",
-      "wrong_choices": ["ないに決まっている", "ないはずがない", "ないわけがない"],
+      "wrong_choices": [
+        "ないに決まっている",
+        "ないうちに",
+        "ないまでも"
+      ],
       "wrong_choice_explanations": [
-        "「〜ないに決まっている」は「絶対に〜ない」と断言する表現で、「絶対に危険は潜んでいない」となり、警戒を促すこの文と正反対になる。",
-        "「〜ないはずがない」は二重否定で「必ず潜んでいる」と決めつけてしまい、可能性を指摘するだけのこの文には強すぎる。",
-        "「〜ないわけがない」も「必ず危険がある」と断定する言い方になり、「潜んでいるかもしれない」という含みのこの文には合わない。"
+        "ないに決まっている means 'definitely won't ~'. 一見安全な道でも、夜になれば sets up hidden danger, but 危険が潜んでいないに決まっている declares the road certainly safe, so 一見 and でも lose their point.",
+        "ないうちに means 'before ~ happens' and needs a main clause after it. 危険が潜んでいないうちに ends the sentence with nothing to do 'before', so it is incomplete; ないとも限らない completes the warning.",
+        "ないまでも means 'even if not (quite) ~' and must be followed by the lesser outcome. 潜んでいないまでも ends the sentence before that outcome, so it is incomplete; ないとも限らない warns of possible danger."
       ],
       "hiragana_full": "いっけんあんぜんなみちでも、よるになればきけんがひそんでいないともかぎらない。",
       "audio_alternatives": [
-        { "kanji": "安全に見える道でも、夜には危険が潜んでいることがある。", "hiragana_full": "あんぜんにみえるみちでも、よるにはきけんがひそんでいることがある。" },
-        { "kanji": "昼間は安全でも、夜道に思わぬ危険が潜んでいないとも限らない。", "hiragana_full": "ひるまはあんぜんでも、よみちにおもわぬきけんがひそんでいないともかぎらない。" }
+        {
+          "kanji": "安全に見える道でも、夜には危険が潜んでいることがある。",
+          "hiragana_full": "あんぜんにみえるみちでも、よるにはきけんがひそんでいることがある。"
+        },
+        {
+          "kanji": "昼間は安全でも、夜道に思わぬ危険が潜んでいないとも限らない。",
+          "hiragana_full": "ひるまはあんぜんでも、よみちにおもわぬきけんがひそんでいないともかぎらない。"
+        }
       ],
       "audio_eligible": true,
       "register": "written",
       "vocab": [
-        { "word": "一見", "reading": "いっけん", "meaning": "at first glance" },
-        { "word": "潜む", "reading": "ひそむ", "meaning": "to lurk; to lie hidden" }
+        {
+          "word": "一見",
+          "reading": "いっけん",
+          "meaning": "at first glance"
+        },
+        {
+          "word": "潜む",
+          "reading": "ひそむ",
+          "meaning": "to lurk; to lie hidden"
+        }
       ],
       "blank_target_reading": "ないともかぎらない"
     },
@@ -178,22 +308,40 @@
       "example_sentence": "値上げすれば、長年の客が離れていかないとも限らない。",
       "translation": "If we raise prices, we can't rule out that our long-time customers might drift away.",
       "blank_target": "ないとも限らない",
-      "wrong_choices": ["ないに違いない", "ないはずだ", "ないわけにはいかない"],
+      "wrong_choices": [
+        "ないうちに",
+        "ないまでも",
+        "ないわけにはいかない"
+      ],
       "wrong_choice_explanations": [
-        "「〜ないに違いない」は「きっと〜ない」と強い確信を表し、「絶対に客は離れない」となって、客離れを懸念するこの文と矛盾する。",
-        "「〜ないはずだ」は「〜しないと予想される」と否定の推量を示し、「離れないと思う」となるため、値上げのリスクを述べるこの文脈に合わない。",
-        "「〜ないわけにはいかない」は「〜しないでは済まない」という義務・必要を表し、客が離れる可能性を述べるこの文には当てはまらない。"
+        "ないうちに means 'before ~ happens' and requires a following main clause. 客が離れていかないうちに ends the sentence with that clause missing; ないとも限らない completes it as a warning about losing customers.",
+        "ないまでも means 'even if not (quite) ~' and needs a following clause with the lesser result (離れていかないまでも、来店が減る). Ending at 離れていかないまでも leaves the sentence incomplete.",
+        "ないわけにはいかない means 'have to ~; can't not ~', expressing obligation. Customers are under no obligation to leave, so 客が離れていかないわけにはいかない makes no sense; ないとも限らない states the risk of a price rise."
       ],
       "hiragana_full": "ねあげすれば、ながねんのきゃくがはなれていかないともかぎらない。",
       "audio_alternatives": [
-        { "kanji": "値上げをすれば、長年の顧客が離れてしまう恐れがある。", "hiragana_full": "ねあげをすれば、ながねんのこきゃくがはなれてしまうおそれがある。" },
-        { "kanji": "価格を上げれば、古くからの客が去っていかないとも限らない。", "hiragana_full": "かかくをあげれば、ふるくからのきゃくがさっていかないともかぎらない。" }
+        {
+          "kanji": "値上げをすれば、長年の顧客が離れてしまう恐れがある。",
+          "hiragana_full": "ねあげをすれば、ながねんのこきゃくがはなれてしまうおそれがある。"
+        },
+        {
+          "kanji": "価格を上げれば、古くからの客が去っていかないとも限らない。",
+          "hiragana_full": "かかくをあげれば、ふるくからのきゃくがさっていかないともかぎらない。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "値上げ", "reading": "ねあげ", "meaning": "price increase" },
-        { "word": "長年", "reading": "ながねん", "meaning": "many years; long-standing" }
+        {
+          "word": "値上げ",
+          "reading": "ねあげ",
+          "meaning": "price increase"
+        },
+        {
+          "word": "長年",
+          "reading": "ながねん",
+          "meaning": "many years; long-standing"
+        }
       ],
       "blank_target_reading": "ないともかぎらない"
     },
@@ -202,22 +350,40 @@
       "example_sentence": "冗談のつもりでも、相手が本気で傷つかないとも限らないから、言葉には気をつけたい。",
       "translation": "Even if you mean it as a joke, you can't rule out that the other person might genuinely get hurt, so I want to be careful with my words.",
       "blank_target": "ないとも限らない",
-      "wrong_choices": ["ないに決まっている", "ないわけがない", "ないはずだ"],
+      "wrong_choices": [
+        "ないに決まっている",
+        "ないで済む",
+        "ないはずだ"
+      ],
       "wrong_choice_explanations": [
-        "「〜ないに決まっている」は「絶対に〜ない」と断言する表現で、「絶対に傷つかない」となり、相手が傷つく恐れを述べるこの文と食い違う。",
-        "「〜ないわけがない」は二重否定で「必ず傷つく」と断定してしまい、あくまで可能性にとどめるこの文には強すぎる。",
-        "「〜ないはずだ」は「〜しないと予想される」と否定の推量を示し、「傷つかないと思う」となるため、言葉に注意したいという結びと合わない。"
+        "ないに決まっている means 'definitely won't ~'. 相手が傷つかないに決まっているから、言葉には気をつけたい gives 'they certainly won't be hurt' as the reason for being careful, which is self-defeating.",
+        "ないで済む means 'be spared ~'. 傷つかないで済むから、言葉には気をつけたい gives 'they'll be spared hurt' as the reason for being careful with words, which doesn't follow; ないとも限らない supplies the risk that motivates care.",
+        "ないはずだ means 'shouldn't; I expect it won't'. 傷つかないはずだから makes 'they probably won't be hurt' the reason for 言葉には気をつけたい, which is backwards; the caution needs the possibility of hurt."
       ],
       "hiragana_full": "じょうだんのつもりでも、あいてがほんきできずつかないともかぎらないから、ことばにはきをつけたい。",
       "audio_alternatives": [
-        { "kanji": "冗談のつもりでも、相手が本気で傷つくことがあるので、言葉に注意したい。", "hiragana_full": "じょうだんのつもりでも、あいてがほんきできずつくことがあるので、ことばにちゅういしたい。" },
-        { "kanji": "軽い気持ちの一言でも、相手を深く傷つけないとも限らない。", "hiragana_full": "かるいきもちのひとことでも、あいてをふかくきずつけないともかぎらない。" }
+        {
+          "kanji": "冗談のつもりでも、相手が本気で傷つくことがあるので、言葉に注意したい。",
+          "hiragana_full": "じょうだんのつもりでも、あいてがほんきできずつくことがあるので、ことばにちゅういしたい。"
+        },
+        {
+          "kanji": "軽い気持ちの一言でも、相手を深く傷つけないとも限らない。",
+          "hiragana_full": "かるいきもちのひとことでも、あいてをふかくきずつけないともかぎらない。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "冗談", "reading": "じょうだん", "meaning": "joke" },
-        { "word": "本気", "reading": "ほんき", "meaning": "seriousness; earnest" }
+        {
+          "word": "冗談",
+          "reading": "じょうだん",
+          "meaning": "joke"
+        },
+        {
+          "word": "本気",
+          "reading": "ほんき",
+          "meaning": "seriousness; earnest"
+        }
       ],
       "blank_target_reading": "ないともかぎらない"
     },
@@ -226,23 +392,45 @@
       "example_sentence": "検査で異常がなくても、後日症状が出ないとも限らない。",
       "translation": "Even if the tests show no abnormalities, you can't rule out that symptoms might appear at a later date.",
       "blank_target": "ないとも限らない",
-      "wrong_choices": ["ないに違いない", "ないはずがない", "ないわけがない"],
+      "wrong_choices": [
+        "ないに違いない",
+        "ないうちに",
+        "ないまでも"
+      ],
       "wrong_choice_explanations": [
-        "「〜ないに違いない」は「きっと〜ない」と強い確信を表し、「絶対に症状は出ない」となって、後日の発症に注意を促すこの文と矛盾する。",
-        "「〜ないはずがない」は二重否定で「必ず症状が出る」と決めつけてしまい、可能性を残すだけのこの文には強すぎる。",
-        "「〜ないわけがない」も「必ず出る」と断定する言い方になり、「出るかもしれない」という含みのこの文には合わない。"
+        "ないに違いない means 'surely won't ~'. 検査で異常がなくても ('even if the tests are clear') sets up a lingering risk, but 症状が出ないに違いない declares there is none, so でも loses its point.",
+        "ないうちに means 'before ~ happens' and needs a following main clause. 後日症状が出ないうちに ends the sentence with nothing to do 'before', so it is incomplete; ないとも限らない completes the warning.",
+        "ないまでも means 'even if not (quite) ~' and must be followed by the lesser outcome. 症状が出ないまでも ends the sentence before that outcome; ないとも限らない completes the caution about later symptoms."
       ],
       "hiragana_full": "けんさでいじょうがなくても、ごじつしょうじょうがでないともかぎらない。",
       "audio_alternatives": [
-        { "kanji": "検査で異常がなくても、後になって症状が現れることがある。", "hiragana_full": "けんさでいじょうがなくても、あとになってしょうじょうがあらわれることがある。" },
-        { "kanji": "今回の検査で問題がなくても、後日体調を崩さないとも限らない。", "hiragana_full": "こんかいのけんさでもんだいがなくても、ごじつたいちょうをくずさないともかぎらない。" }
+        {
+          "kanji": "検査で異常がなくても、後になって症状が現れることがある。",
+          "hiragana_full": "けんさでいじょうがなくても、あとになってしょうじょうがあらわれることがある。"
+        },
+        {
+          "kanji": "今回の検査で問題がなくても、後日体調を崩さないとも限らない。",
+          "hiragana_full": "こんかいのけんさでもんだいがなくても、ごじつたいちょうをくずさないともかぎらない。"
+        }
       ],
       "audio_eligible": true,
       "register": "written",
       "vocab": [
-        { "word": "異常", "reading": "いじょう", "meaning": "abnormality" },
-        { "word": "後日", "reading": "ごじつ", "meaning": "at a later date" },
-        { "word": "症状", "reading": "しょうじょう", "meaning": "symptom" }
+        {
+          "word": "異常",
+          "reading": "いじょう",
+          "meaning": "abnormality"
+        },
+        {
+          "word": "後日",
+          "reading": "ごじつ",
+          "meaning": "at a later date"
+        },
+        {
+          "word": "症状",
+          "reading": "しょうじょう",
+          "meaning": "symptom"
+        }
       ],
       "blank_target_reading": "ないともかぎらない"
     }
