@@ -3,6 +3,21 @@ import SwiftData
 import Charts
 
 struct StatsView: View {
+    /// Which drill's stats to show. Each drill page opens its own variant.
+    enum Kind {
+        case grammar, particles, audio
+
+        var title: String {
+            switch self {
+            case .grammar: return "Grammar Stats"
+            case .particles: return "Particle Stats"
+            case .audio: return "Audio Stats"
+            }
+        }
+    }
+
+    var kind: Kind = .grammar
+
     @Query(sort: \StudyLog.dateKey) private var studyLogs: [StudyLog]
     @Query private var srsRecords: [SRSRecord]
     @Query private var audioCards: [AudioCard]
@@ -153,27 +168,34 @@ struct StatsView: View {
     var body: some View {
         ScrollView {
             VStack(spacing: 20) {
-                streakBanner
-                grammarSection
-                particleSection
-                audioSection
-                activityChart
+                switch kind {
+                case .grammar:
+                    streakBanner
+                    grammarSection
+                    activityChart
+                case .particles:
+                    particleSection
+                case .audio:
+                    audioSection
+                }
             }
             .padding(.horizontal)
             .padding(.bottom, 20)
         }
         .background(GlassBackdrop().ignoresSafeArea())
-        .navigationTitle("Stats")
+        .navigationTitle(kind.title)
         .navigationBarTitleDisplayMode(.inline)
         .onAppear {
-            if grammarPoints.isEmpty {
+            // Only load the bundle data this variant actually displays.
+            switch kind {
+            case .grammar where grammarPoints.isEmpty:
                 grammarPoints = GrammarLoader.loadAll()
-            }
-            if audioExercises.isEmpty {
+            case .audio where audioExercises.isEmpty:
                 audioExercises = AudioExerciseLoader.loadAll()
-            }
-            if particleExercises.isEmpty {
+            case .particles where particleExercises.isEmpty:
                 particleExercises = ParticleLoader.loadAll()
+            default:
+                break
             }
         }
     }

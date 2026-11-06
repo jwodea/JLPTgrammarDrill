@@ -286,6 +286,12 @@ struct AudioDrillHomeView: View {
                 secondaryLabel("Browse sentences", systemImage: "book")
             }
             .buttonStyle(.glass)
+            NavigationLink {
+                StatsView(kind: .audio)
+            } label: {
+                secondaryLabel("Stats", systemImage: "chart.bar.fill")
+            }
+            .buttonStyle(.glass)
         }
         .padding(.horizontal)
     }

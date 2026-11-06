@@ -14,6 +14,8 @@ struct ContentView: View {
                         switch destination {
                         case .grammarDrill:
                             HomeView()
+                        case .otherDrills:
+                            OtherDrillsView()
                         case .particlePractice:
                             ParticlePracticeView()
                         case .audioDrill:
@@ -21,7 +23,7 @@ struct ContentView: View {
                         case .grammarList:
                             GrammarBrowserView()
                         case .stats:
-                            StatsView()
+                            StatsView(kind: .grammar)
                         }
                     }
             }
@@ -41,6 +43,7 @@ struct ContentView: View {
 
 enum HubDestination: Hashable {
     case grammarDrill
+    case otherDrills
     case particlePractice
     case audioDrill
     case grammarList
@@ -78,23 +81,11 @@ struct HubView: View {
                     GlassEffectContainer(spacing: 14) {
                         VStack(spacing: 14) {
                             NavigationLink(value: HubDestination.grammarDrill) {
-                                HubCard(icon: "checklist", title: "Grammar Drill", color: .blue, fontScale: fontScale)
+                                HubCard(icon: "play.fill", title: "Drill Now", color: .blue, fontScale: fontScale)
                             }
 
-                            NavigationLink(value: HubDestination.particlePractice) {
-                                HubCard(icon: "character.ja", title: "Particle Practice", color: .orange, fontScale: fontScale)
-                            }
-
-                            NavigationLink(value: HubDestination.audioDrill) {
-                                HubCard(icon: "mic.fill", title: "Audio Drill", color: .pink, fontScale: fontScale)
-                            }
-
-                            NavigationLink(value: HubDestination.grammarList) {
-                                HubCard(icon: "book.fill", title: "Grammar List", color: .green, fontScale: fontScale)
-                            }
-
-                            NavigationLink(value: HubDestination.stats) {
-                                HubCard(icon: "chart.bar.fill", title: "Stats", color: .purple, fontScale: fontScale)
+                            NavigationLink(value: HubDestination.otherDrills) {
+                                HubCard(icon: "square.grid.2x2.fill", title: "Other Drills", color: .orange, fontScale: fontScale)
                             }
 
                             Button {
@@ -112,6 +103,35 @@ struct HubView: View {
             }
         }
         .background(GlassBackdrop().ignoresSafeArea())
+        .navigationBarTitleDisplayMode(.inline)
+    }
+}
+
+// MARK: - Other Drills
+
+/// Secondary drill modes, kept off the hub so the main screen stays simple.
+struct OtherDrillsView: View {
+    @AppStorage(FontSizeManager.scaleKey) private var fontScale = FontSizeManager.defaultScale
+
+    var body: some View {
+        ScrollView {
+            GlassEffectContainer(spacing: 14) {
+                VStack(spacing: 14) {
+                    NavigationLink(value: HubDestination.particlePractice) {
+                        HubCard(icon: "character.ja", title: "Particle Practice", color: .orange, fontScale: fontScale)
+                    }
+
+                    NavigationLink(value: HubDestination.audioDrill) {
+                        HubCard(icon: "mic.fill", title: "Audio Drill", color: .pink, fontScale: fontScale)
+                    }
+                }
+            }
+            .padding(.horizontal)
+            .padding(.top, 12)
+            .padding(.bottom, 20)
+        }
+        .background(GlassBackdrop().ignoresSafeArea())
+        .navigationTitle("Other Drills")
         .navigationBarTitleDisplayMode(.inline)
     }
 }
@@ -170,5 +190,6 @@ struct SplashView: View {
 
 #Preview {
     ContentView()
-        .modelContainer(for: SRSRecord.self, inMemory: true)
+        .modelContainer(for: [SRSRecord.self, StudyLog.self, AudioCard.self, AudioAttempt.self], inMemory: true)
+        .environment(StoreManager())
 }

@@ -193,16 +193,7 @@ struct HomeView: View {
                         )
 
                     HStack(spacing: 6) {
-                        Text("J L P T")
-                            .font(.system(size: scaled(12), weight: .bold, design: .monospaced))
-                            .tracking(2)
-                            .foregroundColor(.secondary)
-                        
-                        Rectangle()
-                            .fill(Color.secondary.opacity(0.4))
-                            .frame(width: 1, height: 12)
-
-                        Text("Grammar Mastery")
+                        Text("by JLPT level")
                             .font(.system(size: scaled(12), weight: .medium))
                             .foregroundColor(.secondary)
 
@@ -345,11 +336,32 @@ struct HomeView: View {
                 }
                 .padding(.horizontal)
                 .padding(.top, 4)
+
+                // Secondary navigation — Grammar List and Stats live here rather than on the hub.
+                HStack(spacing: 10) {
+                    NavigationLink(value: HubDestination.grammarList) {
+                        Label("Grammar List", systemImage: "book.fill")
+                            .font(.system(size: scaled(15), weight: .semibold))
+                            .frame(maxWidth: .infinity)
+                            .padding(.vertical, 6)
+                    }
+                    .buttonStyle(.glass)
+
+                    NavigationLink(value: HubDestination.stats) {
+                        Label("Stats", systemImage: "chart.bar.fill")
+                            .font(.system(size: scaled(15), weight: .semibold))
+                            .frame(maxWidth: .infinity)
+                            .padding(.vertical, 6)
+                    }
+                    .buttonStyle(.glass)
+                }
+                .padding(.horizontal)
+                .padding(.top, 8)
             }
             .padding(.bottom, 20)
         }
         .background(GlassBackdrop().ignoresSafeArea())
-        .navigationTitle("Grammar Drill")
+        .navigationTitle("")
         .navigationBarTitleDisplayMode(.inline)
         .alert("All caught up!", isPresented: $showAllCaughtUp) {
             Button("OK", role: .cancel) {}

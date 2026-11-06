@@ -179,7 +179,19 @@ struct ParticlePracticeView: View {
         }
         .navigationTitle("")
         .navigationBarTitleDisplayMode(.inline)
+        .toolbar {
+            ToolbarItem(placement: .topBarTrailing) {
+                NavigationLink {
+                    StatsView(kind: .particles)
+                } label: {
+                    Image(systemName: "chart.bar.fill")
+                }
+                .accessibilityLabel("Particle Stats")
+            }
+        }
         .onAppear {
+            // Don't reshuffle the current question when returning from Stats.
+            guard allExercises.isEmpty else { return }
             loadAndStart()
         }
     }
