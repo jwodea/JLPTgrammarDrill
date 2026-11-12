@@ -48,8 +48,8 @@ def main():
                     check(ex['register'] in ['casual','neutral','formal','written'],
                           f"ex {i}: bad register: {ex['register']}")
                 if 'vocab' in ex:
-                    check(isinstance(ex['vocab'], list) and 1 <= len(ex['vocab']) <= 4,
-                          f"ex {i}: vocab must be a list of 1-4 items")
+                    check(isinstance(ex['vocab'], list) and 1 <= len(ex['vocab']) <= 12,
+                          f"ex {i}: vocab must be a list of 1-12 items")
                     for j, v in enumerate(ex.get('vocab') or [], 1):
                         check(isinstance(v, dict) and all(k in v for k in ['word','reading','meaning']),
                               f"ex {i} vocab {j}: missing word/reading/meaning")

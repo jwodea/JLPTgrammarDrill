@@ -5,22 +5,36 @@ import AVFoundation
 @MainActor
 final class JapaneseSpeaker {
     private let synthesizer = AVSpeechSynthesizer()
+    // Pending activate-then-speak work; cancelled by `stop()` or a newer `speak` call.
+    private var speakTask: Task<Void, Never>?
 
     /// Speak `text` in Japanese. Defaults to a slow rate suitable for learners.
     func speak(_ text: String, rate: Float = 0.42) {
         guard !text.isEmpty else { return }
+        speakTask?.cancel()
         synthesizer.stopSpeaking(at: .immediate)
 
         // Switch the audio session into playback so the system mic capture doesn't suppress output.
         let session = AVAudioSession.sharedInstance()
         try? session.setCategory(.playback, mode: .spokenAudio, options: [.duckOthers])
-        try? session.setActive(true, options: [])
 
         let utterance = AVSpeechUtterance(string: text)
         utterance.voice = Self.selectedVoice()
         utterance.rate = rate
         utterance.preUtteranceDelay = 0.1
-        synthesizer.speak(utterance)
+
+        // Activate asynchronously: synchronous `setActive` on the main thread can hang the UI.
+        speakTask = Task { [synthesizer] in
+            if #available(iOS 27.0, *) {
+                _ = try? await session.activate()
+            } else {
+                await Task.detached {
+                    try? AVAudioSession.sharedInstance().setActive(true, options: [])
+                }.value
+            }
+            guard !Task.isCancelled else { return }
+            synthesizer.speak(utterance)
+        }
     }
 
     /// Resolve the user's chosen Japanese voice, falling back to the system default.
@@ -49,6 +63,8 @@ final class JapaneseSpeaker {
     }
 
     func stop() {
+        speakTask?.cancel()
+        speakTask = nil
         synthesizer.stopSpeaking(at: .immediate)
     }
 }

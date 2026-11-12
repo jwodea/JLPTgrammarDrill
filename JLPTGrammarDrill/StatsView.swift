@@ -29,6 +29,7 @@ struct StatsView: View {
     @State private var grammarPoints: [GrammarPoint] = []
     @State private var audioExercises: [AudioExercise] = []
     @State private var particleExercises: [ParticleExercise] = []
+    @State private var activityRange: ActivityRange = .week
 
     private static let levels = ["N5", "N4", "N3", "N2", "N1"]
 
@@ -124,37 +125,57 @@ struct StatsView: View {
             .sorted { ($0.counts.total, $0.particle) > ($1.counts.total, $1.particle) }
     }
 
-    // MARK: - Streak and daily activity
+    // MARK: - Study time activity
 
-    private var currentStreak: Int {
-        let calendar = Calendar.current
-        let activeKeys = Set(studyLogs.filter { $0.itemsStudied > 0 }.map(\.dateKey))
-        guard !activeKeys.isEmpty else { return 0 }
-
-        var date = calendar.startOfDay(for: Date())
-        if !activeKeys.contains(StudyLog.key(for: date)) {
-            date = calendar.date(byAdding: .day, value: -1, to: date)!
-            if !activeKeys.contains(StudyLog.key(for: date)) { return 0 }
-        }
-
-        var count = 0
-        while activeKeys.contains(StudyLog.key(for: date)) {
-            count += 1
-            date = calendar.date(byAdding: .day, value: -1, to: date)!
-        }
-        return count
-    }
-
-    private var last14Days: [DayEntry] {
+    /// Bars for the selected range. Short ranges bucket by day (plotted in
+    /// minutes); long ranges bucket by month (plotted in hours).
+    private var activitySeries: (buckets: [ActivityBucket], unit: Calendar.Component) {
         let calendar = Calendar.current
         let today = calendar.startOfDay(for: Date())
-        let logsByKey = Dictionary(uniqueKeysWithValues: studyLogs.map { ($0.dateKey, $0) })
-
-        return (0..<14).reversed().map { offset in
-            let date = calendar.date(byAdding: .day, value: -offset, to: today)!
-            let log = logsByKey[StudyLog.key(for: date)]
-            return DayEntry(date: date, studied: log?.itemsStudied ?? 0)
+        switch activityRange {
+        case .week:
+            return (dailyBuckets(days: 7, endingAt: today), .day)
+        case .month:
+            return (dailyBuckets(days: 30, endingAt: today), .day)
+        case .year:
+            let thisMonth = calendar.dateInterval(of: .month, for: today)!.start
+            let start = calendar.date(byAdding: .month, value: -11, to: thisMonth)!
+            return (monthlyBuckets(from: start, through: today), .month)
+        case .all:
+            // studyLogs is sorted by dateKey, so the first entry is the earliest day.
+            guard let first = studyLogs.first?.date else {
+                return (dailyBuckets(days: 7, endingAt: today), .day)
+            }
+            let span = calendar.dateComponents([.day], from: first, to: today).day ?? 0
+            if span < 30 {
+                return (dailyBuckets(days: max(span + 1, 7), endingAt: today), .day)
+            }
+            return (monthlyBuckets(from: first, through: today), .month)
         }
+    }
+
+    private func dailyBuckets(days: Int, endingAt today: Date) -> [ActivityBucket] {
+        let calendar = Calendar.current
+        let secondsByKey = Dictionary(studyLogs.map { ($0.dateKey, $0.secondsStudied) }, uniquingKeysWith: +)
+        return (0..<days).reversed().map { offset in
+            let date = calendar.date(byAdding: .day, value: -offset, to: today)!
+            return ActivityBucket(date: date, seconds: secondsByKey[StudyLog.key(for: date)] ?? 0)
+        }
+    }
+
+    private func monthlyBuckets(from start: Date, through end: Date) -> [ActivityBucket] {
+        let calendar = Calendar.current
+        let monthStart = { (date: Date) in calendar.dateInterval(of: .month, for: date)!.start }
+        let secondsByMonth = Dictionary(studyLogs.map { (monthStart($0.date), $0.secondsStudied) }, uniquingKeysWith: +)
+
+        var buckets: [ActivityBucket] = []
+        var month = monthStart(start)
+        let last = monthStart(end)
+        while month <= last {
+            buckets.append(ActivityBucket(date: month, seconds: secondsByMonth[month] ?? 0))
+            month = calendar.date(byAdding: .month, value: 1, to: month)!
+        }
+        return buckets
     }
 
     private func level(fromId id: String) -> String {
@@ -170,7 +191,6 @@ struct StatsView: View {
             VStack(spacing: 20) {
                 switch kind {
                 case .grammar:
-                    streakBanner
                     grammarSection
                     activityChart
                 case .particles:
@@ -198,25 +218,6 @@ struct StatsView: View {
                 break
             }
         }
-    }
-
-    // MARK: - Streak banner
-
-    private var streakBanner: some View {
-        HStack(spacing: 10) {
-            Image(systemName: "flame.fill")
-                .font(.system(size: scaled(20)))
-                .foregroundColor(.red)
-            Text("\(currentStreak)")
-                .font(.system(size: scaled(20), weight: .bold))
-            Text("day streak")
-                .font(.system(size: scaled(14)))
-                .foregroundColor(.secondary)
-            Spacer()
-        }
-        .padding(.horizontal, 16)
-        .padding(.vertical, 12)
-        .glassEffect(.regular, in: .rect(cornerRadius: 20))
     }
 
     // MARK: - Grammar section
@@ -366,29 +367,69 @@ struct StatsView: View {
     // MARK: - Activity chart
 
     private var activityChart: some View {
-        VStack(alignment: .leading, spacing: 4) {
-            sectionHeader(title: "Daily Activity", subtitle: "Last 14 days")
+        let series = activitySeries
+        let isDaily = series.unit == .day
+        // Daily bars read naturally in minutes; monthly totals in hours.
+        let divisor: Double = isDaily ? 60 : 3600
+        let unitLabel = isDaily ? "min" : "hr"
+        let totalHours = series.buckets.reduce(0) { $0 + $1.seconds } / 3600
+        let maxValue = (series.buckets.map(\.seconds).max() ?? 0) / divisor
 
-            let entries = last14Days
-            let maxStudied = entries.map(\.studied).max() ?? 1
+        return VStack(alignment: .leading, spacing: 10) {
+            HStack(alignment: .firstTextBaseline) {
+                sectionHeader(title: "Study Time", subtitle: activityRange.subtitle)
+                Spacer()
+                VStack(alignment: .trailing, spacing: 2) {
+                    Text(String(format: "%.1f h", totalHours))
+                        .font(.system(size: scaled(18), weight: .semibold))
+                        .monospacedDigit()
+                    Text("total")
+                        .font(.system(size: scaled(12)))
+                        .foregroundColor(.secondary)
+                }
+            }
 
-            Chart(entries) { entry in
+            Picker("Range", selection: $activityRange) {
+                ForEach(ActivityRange.allCases) { range in
+                    Text(range.rawValue).tag(range)
+                }
+            }
+            .pickerStyle(.segmented)
+            .controlSize(.small)
+
+            Chart(series.buckets) { bucket in
                 BarMark(
-                    x: .value("Date", entry.date, unit: .day),
-                    y: .value("Studied", entry.studied)
+                    x: .value("Date", bucket.date, unit: series.unit),
+                    y: .value("Time", bucket.seconds / divisor)
                 )
                 .foregroundStyle(Color.accentColor.gradient)
-                .cornerRadius(4)
+                .cornerRadius(isDaily && series.buckets.count > 14 ? 2 : 4)
             }
-            .chartYScale(domain: 0...(max(maxStudied + 2, 5)))
+            .chartYScale(domain: 0...max(maxValue * 1.15, isDaily ? 10 : 1))
+            .chartYAxisLabel(unitLabel)
             .chartXAxis {
-                AxisMarks(values: .stride(by: .day, count: 2)) { _ in
-                    AxisGridLine()
-                    AxisValueLabel(format: .dateTime.day().month(.abbreviated))
+                switch activityRange {
+                case .week:
+                    AxisMarks(values: .stride(by: .day)) { _ in
+                        AxisGridLine()
+                        AxisValueLabel(format: .dateTime.weekday(.narrow), centered: true)
+                    }
+                case .month:
+                    AxisMarks(values: .stride(by: .day, count: 7)) { _ in
+                        AxisGridLine()
+                        AxisValueLabel(format: .dateTime.day().month(.abbreviated))
+                    }
+                case .year:
+                    AxisMarks(values: .stride(by: .month)) { _ in
+                        AxisGridLine()
+                        AxisValueLabel(format: .dateTime.month(.narrow), centered: true)
+                    }
+                case .all:
+                    AxisMarks()
                 }
             }
             .frame(height: 160)
-            .padding(.top, 6)
+            .animation(.easeInOut(duration: 0.25), value: activityRange)
         }
         .padding(16)
         .glassEffect(.regular, in: .rect(cornerRadius: 20))
@@ -397,9 +438,27 @@ struct StatsView: View {
 
 // MARK: - Supporting Types
 
-private struct DayEntry: Identifiable {
+private enum ActivityRange: String, CaseIterable, Identifiable {
+    case week = "Week"
+    case month = "Month"
+    case year = "Year"
+    case all = "All"
+
+    var id: Self { self }
+
+    var subtitle: String {
+        switch self {
+        case .week: return "Last 7 days"
+        case .month: return "Last 30 days"
+        case .year: return "Last 12 months"
+        case .all: return "All time"
+        }
+    }
+}
+
+private struct ActivityBucket: Identifiable {
     let date: Date
-    let studied: Int
+    let seconds: Double
     var id: Date { date }
 }
 

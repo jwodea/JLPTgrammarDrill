@@ -1,5 +1,6 @@
 import SwiftUI
 import SwiftData
+import AVFoundation
 
 struct SettingsView: View {
     static let enabledLevelsKey = "enabledJLPTLevels"
@@ -9,12 +10,30 @@ struct SettingsView: View {
     @AppStorage(FontSizeManager.scaleKey) private var fontScale = FontSizeManager.defaultScale
     @AppStorage(SessionBuilder.defaultNewCountKey) private var defaultNewCount = SessionBuilder.defaultNewCount
     @AppStorage(SettingsView.combinedDrillsKey) private var combinedDrills = false
+    @AppStorage(AudioDrillSettings.voiceIdentifierKey) private var voiceIdentifier = AudioDrillSettings.defaultVoiceIdentifier
     @Environment(\.dismiss) private var dismiss
     @Environment(\.modelContext) private var modelContext
     @Environment(StoreManager.self) private var store
 
     @State private var showResetConfirmation = false
     @State private var showPaywall = false
+    @State private var japaneseVoices: [AVSpeechSynthesisVoice] = []
+    @State private var previewSpeaker = JapaneseSpeaker()
+
+    private func voiceLabel(_ voice: AVSpeechSynthesisVoice) -> String {
+        // iOS bakes the quality into voice.name on newer versions (e.g. "Otoya (Enhanced)").
+        // Avoid stamping it twice.
+        if voice.name.contains("(Enhanced)") || voice.name.contains("(Premium)") {
+            return voice.name
+        }
+        let qualityTag: String
+        switch voice.quality {
+        case .premium: qualityTag = "Premium"
+        case .enhanced: qualityTag = "Enhanced"
+        default: qualityTag = "Default"
+        }
+        return "\(voice.name) (\(qualityTag))"
+    }
 
     /// Snaps fontScale to the nearest step to avoid floating-point drift.
     private func snapScale() {
@@ -122,6 +141,32 @@ struct SettingsView: View {
                 }
 
                 Section {
+                    if japaneseVoices.isEmpty {
+                        Text("Using system default voice.")
+                            .font(.system(size: 15))
+                            .foregroundColor(.secondary)
+                    } else {
+                        Picker("Voice", selection: $voiceIdentifier) {
+                            Text("System default").tag("")
+                            ForEach(japaneseVoices, id: \.identifier) { voice in
+                                Text(voiceLabel(voice)).tag(voice.identifier)
+                            }
+                        }
+                        .font(.system(size: 15))
+                    }
+                    Button {
+                        previewSpeaker.speak("こんにちは。発音の練習をしましょう。")
+                    } label: {
+                        Label("Preview voice", systemImage: "speaker.wave.2.fill")
+                            .font(.system(size: 15))
+                    }
+                } header: {
+                    Text("Voice")
+                } footer: {
+                    Text("Download better Japanese voices in Settings → Accessibility → Spoken Content → Voices → Japanese.")
+                }
+
+                Section {
                     VStack(spacing: 16) {
                         HStack {
                             Text("Font Size")
@@ -178,15 +223,16 @@ struct SettingsView: View {
 
                 Section {
                     VStack(alignment: .leading, spacing: 12) {
-                        Text("日本語の文法")
+                        // Mirrors a real drill question: blanked sentence, its translation, answer choices.
+                        Text("猫＿＿＿好きだ。")
                             .font(.system(size: scaled(26), weight: .bold))
 
-                        Text("Even if it rains, I will go.")
+                        Text("I like cats.")
                             .font(.system(size: scaled(17)))
                             .foregroundColor(.secondary)
 
                         HStack(spacing: 8) {
-                            ForEach(["ても", "のに", "けど", "から"], id: \.self) { choice in
+                            ForEach(["が", "を", "に", "で"], id: \.self) { choice in
                                 Text(choice)
                                     .font(.system(size: scaled(17)))
                                     .padding(.horizontal, 12)
@@ -216,7 +262,7 @@ struct SettingsView: View {
                         }
                     }
                 } footer: {
-                    Text("This will erase all SRS data, streak, and study history. Grammar patterns will return to \"New\" status.")
+                    Text("This will erase all SRS data and study history. Grammar patterns will return to \"New\" status.")
                 }
             }
             .scrollContentBackground(.hidden)
@@ -236,17 +282,20 @@ struct SettingsView: View {
                     resetProgress()
                 }
             } message: {
-                Text("This will permanently delete all your SRS records, streak, and study history. This cannot be undone.")
+                Text("This will permanently delete all your SRS records and study history. This cannot be undone.")
             }
             .sheet(isPresented: $showPaywall) {
                 PaywallView()
+            }
+            .onAppear {
+                japaneseVoices = JapaneseSpeaker.availableJapaneseVoices()
             }
         }
     }
 
     private func resetProgress() {
         // Wipe every SwiftData model that holds progress. StudyLog feeds the
-        // streak/activity chart on StatsView; AudioCard + AudioAttempt back
+        // activity chart on StatsView; AudioCard + AudioAttempt back
         // the audio drill — if any of these survive, the reset is misleading.
         do {
             try modelContext.delete(model: SRSRecord.self)
@@ -304,7 +353,7 @@ private struct HowItWorksView: View {
             icon: "slider.horizontal.3",
             color: .gray,
             title: "What you can adjust",
-            body: "**JLPT levels** (N5–N1) are picked right on each home screen.\n\n**Settings** (gear on home):\n• New patterns per session\n• Mix particles into Grammar Drill (~15%)\n• Font size\n\n**Audio Settings** (inside Audio Drill):\n• Generosity threshold\n• New sentences per day\n• Voice + preview"
+            body: "**JLPT levels** (N5–N1) are picked right on each home screen.\n\n**Settings** (gear on home):\n• New patterns per session\n• Mix particles into Grammar Drill (~15%)\n• Font size\n• Voice + preview\n\n**Audio Settings** (inside Audio Drill):\n• Generosity threshold\n• New sentences per day"
         ),
         Topic(
             icon: "lock.fill",

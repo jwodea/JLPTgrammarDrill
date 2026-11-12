@@ -2,6 +2,7 @@ import SwiftUI
 import SwiftData
 import SwiftFSRS
 import CoreText
+import AVFoundation
 
 /// Aggregated outcomes for one grammar pattern across a single session.
 /// Grammar patterns are spread over many sentences but represent a single FSRS card,
@@ -66,6 +67,8 @@ struct ExerciseView: View {
     // End-of-session summary, shown in place of the question once the session finishes.
     @State private var showSummary = false
     @State private var summaryDueCount = 0
+    // Reads the completed sentence aloud from the revealed explanation card.
+    @State private var speaker = JapaneseSpeaker()
 
     private let defaultRequiredStreak = 3
     private let particleRequiredStreak = 1
@@ -244,6 +247,7 @@ struct ExerciseView: View {
         .onDisappear {
             // Safety net for any dismissal path (system gesture, etc.) that
             // skips both the X button and `advanceToNext`. The flush is idempotent.
+            speaker.stop()
             flushPatternRatings()
         }
     }
@@ -310,12 +314,12 @@ struct ExerciseView: View {
         if !item.vocab.isEmpty {
             VStack(alignment: .leading, spacing: 6) {
                 Text("VOCAB")
-                    .font(.system(size: scaled(10), weight: .semibold))
+                    .font(.system(size: scaled(12), weight: .semibold))
                     .tracking(1.0)
                     .foregroundColor(Color.secondary.opacity(0.7))
                 ChipFlowLayout(spacing: 8) {
                     ForEach(item.vocab, id: \.self) { vocabItem in
-                        VocabChip(item: vocabItem, fontSize: scaled(15))
+                        VocabChip(item: vocabItem, fontSize: scaled(19))
                     }
                 }
             }
@@ -345,6 +349,7 @@ struct ExerciseView: View {
                     .font(.system(size: scaled(16)))
                     .foregroundColor(.secondary)
 
+                // Inline speaker icon after the 。 reads the sentence aloud.
                 SelectableText(
                     text: filledSentence,
                     fontSize: scaled(17),
@@ -352,7 +357,8 @@ struct ExerciseView: View {
                     textColor: .label,
                     textAlignment: .left,
                     rubyBase: targetRuby?.base,
-                    rubyReading: targetRuby?.reading
+                    rubyReading: targetRuby?.reading,
+                    onSpeak: { speaker.speak(filledSentence, rate: AVSpeechUtteranceDefaultSpeechRate) }
                 )
 
                 SelectableText(
@@ -517,6 +523,8 @@ struct ExerciseView: View {
     // MARK: - Navigation
 
     private func advanceToNext() {
+        speaker.stop()
+
         // Remove the item we just answered from the front of the queue
         if !queue.isEmpty {
             queue.removeFirst()
@@ -551,7 +559,7 @@ struct ExerciseView: View {
     /// Save ratings and swap the question UI for the in-place summary card.
     private func finishSession() {
         flushPatternRatings()
-        updateStreak()
+        recordLastStudyDate()
         // Ratings were just flushed, so the due count reflects this session.
         summaryDueCount = remainingDueCount?() ?? 0
         withAnimation(.easeInOut(duration: 0.25)) {
@@ -610,27 +618,11 @@ struct ExerciseView: View {
         return Color.primary
     }
 
-    // MARK: - Streak & SRS
+    // MARK: - Study date & SRS
 
-    private func updateStreak() {
-        let defaults = UserDefaults.standard
-        let lastStudyInterval = defaults.double(forKey: "lastStudyDate")
-        let streakCount = defaults.integer(forKey: "streakCount")
-
-        if lastStudyInterval > 0 {
-            let lastStudyDate = Date(timeIntervalSince1970: lastStudyInterval)
-            if Calendar.current.isDateInToday(lastStudyDate) {
-                // Already studied today
-            } else if Calendar.current.isDateInYesterday(lastStudyDate) {
-                defaults.set(streakCount + 1, forKey: "streakCount")
-            } else {
-                defaults.set(1, forKey: "streakCount")
-            }
-        } else {
-            defaults.set(1, forKey: "streakCount")
-        }
-
-        defaults.set(Date.now.timeIntervalSince1970, forKey: "lastStudyDate")
+    /// Stamp the "Last review" time shown on the home page.
+    private func recordLastStudyDate() {
+        UserDefaults.standard.set(Date.now.timeIntervalSince1970, forKey: "lastStudyDate")
     }
 
     /// Append one on-screen answer to the per-pattern accumulator. No FSRS scheduling
@@ -1061,9 +1053,35 @@ private struct SelectableText: UIViewRepresentable {
     /// furigana above the first occurrence (used for the revealed grammar target).
     var rubyBase: String? = nil
     var rubyReading: String? = nil
+    /// When set, a tappable speaker icon is appended inline after the text.
+    var onSpeak: (() -> Void)? = nil
+
+    /// Link target for the inline speaker attachment; intercepted by the coordinator.
+    private static let speakURL = URL(string: "jlptdrill-speak://sentence")!
+
+    func makeCoordinator() -> Coordinator { Coordinator() }
+
+    final class Coordinator: NSObject, UITextViewDelegate {
+        var onSpeak: (() -> Void)?
+
+        // Tapping the speaker link triggers speech instead of opening a URL.
+        func textView(_ textView: UITextView, primaryActionFor textItem: UITextItem, defaultAction: UIAction) -> UIAction? {
+            guard case .link(let url) = textItem.content, url == SelectableText.speakURL else { return defaultAction }
+            return UIAction { [weak self] _ in self?.onSpeak?() }
+        }
+
+        // No long-press link preview/menu for the speaker icon.
+        func textView(_ textView: UITextView, menuConfigurationFor textItem: UITextItem, defaultMenu: UIMenu) -> UITextItem.MenuConfiguration? {
+            guard case .link(let url) = textItem.content, url == SelectableText.speakURL else {
+                return UITextItem.MenuConfiguration(menu: defaultMenu)
+            }
+            return nil
+        }
+    }
 
     func makeUIView(context: Context) -> UITextView {
         let textView = UITextView()
+        textView.delegate = context.coordinator
         // Ruby annotations (kCTRubyAnnotationAttributeName) render under the default
         // TextKit 2 stack on current OSes; forcing TextKit 1 compatibility mode
         // (`_ = textView.layoutManager`) suppresses them, so don't.
@@ -1079,7 +1097,14 @@ private struct SelectableText: UIViewRepresentable {
     }
 
     func updateUIView(_ textView: UITextView, context: Context) {
-        if let attributed = rubyAttributedString() {
+        context.coordinator.onSpeak = onSpeak
+        if onSpeak != nil {
+            let attributed = NSMutableAttributedString(
+                attributedString: rubyAttributedString() ?? plainAttributedString()
+            )
+            attributed.append(speakerAttachment())
+            textView.attributedText = attributed
+        } else if let attributed = rubyAttributedString() {
             textView.attributedText = attributed
         } else {
             textView.font = .systemFont(ofSize: fontSize, weight: fontWeight)
@@ -1088,6 +1113,44 @@ private struct SelectableText: UIViewRepresentable {
             textView.text = text
         }
         textView.invalidateIntrinsicContentSize()
+    }
+
+    /// Plain styled text, used when the speaker icon needs an attributed string but ruby doesn't apply.
+    private func plainAttributedString() -> NSAttributedString {
+        let paragraphStyle = NSMutableParagraphStyle()
+        paragraphStyle.alignment = textAlignment
+        return NSAttributedString(string: text, attributes: [
+            .font: UIFont.systemFont(ofSize: fontSize, weight: fontWeight),
+            .foregroundColor: textColor,
+            .paragraphStyle: paragraphStyle
+        ])
+    }
+
+    /// A space plus an inline speaker symbol, linked to `speakURL` so taps reach the coordinator.
+    private func speakerAttachment() -> NSAttributedString {
+        let font = UIFont.systemFont(ofSize: fontSize, weight: fontWeight)
+        let config = UIImage.SymbolConfiguration(pointSize: fontSize * 0.85, weight: .regular)
+        // Original rendering mode keeps the icon grey rather than tinted as a link.
+        guard let image = UIImage(systemName: "speaker.wave.2", withConfiguration: config)?
+            .withTintColor(.secondaryLabel, renderingMode: .alwaysOriginal) else {
+            return NSAttributedString()
+        }
+        image.accessibilityLabel = "Read sentence aloud"
+
+        let attachment = NSTextAttachment(image: image)
+        // Centre the icon slightly below the kanji midline so it sits with the kana and 。
+        // rather than floating at the top of the line.
+        attachment.bounds = CGRect(
+            x: 0,
+            y: fontSize * 0.27 - image.size.height / 2,
+            width: image.size.width,
+            height: image.size.height
+        )
+
+        let result = NSMutableAttributedString(string: " ", attributes: [.font: font])
+        result.append(NSAttributedString(attachment: attachment))
+        result.addAttribute(.link, value: Self.speakURL, range: NSRange(location: 1, length: 1))
+        return result
     }
 
     /// Attributed string with a furigana annotation over the first occurrence of

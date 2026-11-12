@@ -1,6 +1,5 @@
 import SwiftUI
 import SwiftData
-import AVFoundation
 
 struct AudioDrillSettingsView: View {
     @Environment(\.modelContext) private var modelContext
@@ -12,28 +11,9 @@ struct AudioDrillSettingsView: View {
     private var dailyNewCardBudget = AudioDrillSettings.defaultDailyNewCardBudget
     @AppStorage(AudioDrillSettings.learningPoolCapKey)
     private var learningPoolCap = AudioDrillSettings.defaultLearningPoolCap
-    @AppStorage(AudioDrillSettings.voiceIdentifierKey)
-    private var voiceIdentifier = AudioDrillSettings.defaultVoiceIdentifier
 
     @State private var showResetFSRSConfirm = false
     @State private var showDeleteAttemptsConfirm = false
-    @State private var japaneseVoices: [AVSpeechSynthesisVoice] = []
-    @State private var previewSpeaker = JapaneseSpeaker()
-
-    private func voiceLabel(_ voice: AVSpeechSynthesisVoice) -> String {
-        // iOS bakes the quality into voice.name on newer versions (e.g. "Otoya (Enhanced)").
-        // Avoid stamping it twice.
-        if voice.name.contains("(Enhanced)") || voice.name.contains("(Premium)") {
-            return voice.name
-        }
-        let qualityTag: String
-        switch voice.quality {
-        case .premium: qualityTag = "Premium"
-        case .enhanced: qualityTag = "Enhanced"
-        default: qualityTag = "Default"
-        }
-        return "\(voice.name) (\(qualityTag))"
-    }
 
     private var generosityLabel: String {
         switch threshold {
@@ -86,27 +66,6 @@ struct AudioDrillSettingsView: View {
             }
 
             Section {
-                if japaneseVoices.isEmpty {
-                    Text("Using system default voice.")
-                        .foregroundColor(.secondary)
-                } else {
-                    Picker("Voice", selection: $voiceIdentifier) {
-                        Text("System default").tag("")
-                        ForEach(japaneseVoices, id: \.identifier) { voice in
-                            Text(voiceLabel(voice)).tag(voice.identifier)
-                        }
-                    }
-                }
-                Button {
-                    previewSpeaker.speak("こんにちは。発音の練習をしましょう。")
-                } label: {
-                    Label("Preview voice", systemImage: "speaker.wave.2.fill")
-                }
-            } header: { Text("Voice") } footer: {
-                Text("Only Enhanced and Premium voices are listed — the compact voices iOS ships with sound noticeably worse. Download better Japanese voices in Settings → Accessibility → Spoken Content → Voices → Japanese.")
-            }
-
-            Section {
                 NavigationLink {
                     MicrophoneTestView()
                 } label: {
@@ -131,9 +90,6 @@ struct AudioDrillSettingsView: View {
         .background(GlassBackdrop().ignoresSafeArea())
         .navigationTitle("Audio Settings")
         .navigationBarTitleDisplayMode(.inline)
-        .onAppear {
-            japaneseVoices = JapaneseSpeaker.availableJapaneseVoices()
-        }
         .alert("Reset all audio drill progress?", isPresented: $showResetFSRSConfirm) {
             Button("Cancel", role: .cancel) {}
             Button("Reset", role: .destructive) {

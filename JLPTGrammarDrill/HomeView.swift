@@ -23,10 +23,6 @@ struct HomeView: View {
     @State private var navigateToExercise = false
 
 
-    private var streakCount: Int {
-        UserDefaults.standard.integer(forKey: "streakCount")
-    }
-
     private func scaled(_ base: CGFloat) -> CGFloat {
         FontSizeManager.scaled(base, scale: fontScale)
     }
@@ -187,20 +183,9 @@ struct HomeView: View {
                             )
                         )
 
-                    HStack(spacing: 6) {
-                        Text("by JLPT level")
-                            .font(.system(size: scaled(12), weight: .medium))
-                            .foregroundColor(.secondary)
-
-                        if streakCount > 0 {
-                            Rectangle()
-                                .fill(Color.secondary.opacity(0.4))
-                                .frame(width: 1, height: 12)
-                            Label("\(streakCount)d", systemImage: "flame.fill")
-                                .font(.system(size: scaled(12), weight: .semibold))
-                                .foregroundColor(.orange)
-                        }
-                    }
+                    Text("by JLPT level")
+                        .font(.system(size: scaled(12), weight: .medium))
+                        .foregroundColor(.secondary)
                 }
                 .padding(.top, 12)
 
