@@ -31,7 +31,24 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "公園",
+          "reading": "こうえん",
+          "meaning": "park"
+        },
+        {
+          "word": "中",
+          "reading": "なか",
+          "meaning": "inside"
+        },
+        {
+          "word": "野球",
+          "reading": "やきゅう",
+          "meaning": "baseball"
+        }
+      ]
     },
     {
       "id": "n5_035_2",
@@ -63,9 +80,19 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "友達",
+          "reading": "ともだち",
+          "meaning": "friend"
+        },
+        {
           "word": "悪口",
           "reading": "わるぐち",
           "meaning": "bad-mouthing"
+        },
+        {
+          "word": "言う",
+          "reading": "いう",
+          "meaning": "say"
         }
       ]
     },
@@ -99,14 +126,24 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "この",
+          "reading": "この",
+          "meaning": "this"
+        },
+        {
+          "word": "お店",
+          "reading": "おみせ",
+          "meaning": "store"
+        },
+        {
           "word": "品物",
           "reading": "しなもの",
           "meaning": "goods"
         },
         {
-          "word": "壊して",
-          "reading": "こわして",
-          "meaning": "breaking"
+          "word": "壊す",
+          "reading": "こわす",
+          "meaning": "break"
         }
       ]
     },
@@ -125,7 +162,7 @@
         "ってもいい means 'it's okay to use,' which reverses the prohibition to permission.",
         "〜わなくてもいい means 'you don't have to use it,' lifting any obligation — far too permissive for a sentence that flatly bans phone use while driving, which calls for 〜てはいけません."
       ],
-      "hiragana_full": "うんてんちゅうにすまーとふぉんをつかってはいけません",
+      "hiragana_full": "うんてんちゅうにすまーとふぉんをつかってはいけません。",
       "audio_alternatives": [
         {
           "kanji": "運転中にスマートフォンを使うことは禁止されています。",
@@ -143,6 +180,16 @@
           "word": "運転中",
           "reading": "うんてんちゅう",
           "meaning": "while driving"
+        },
+        {
+          "word": "スマートフォン",
+          "reading": "すまーとふぉん",
+          "meaning": "smartphone"
+        },
+        {
+          "word": "使う",
+          "reading": "つかう",
+          "meaning": "use"
         }
       ]
     },
@@ -176,9 +223,19 @@
       "register": "casual",
       "vocab": [
         {
+          "word": "ここ",
+          "reading": "ここ",
+          "meaning": "here"
+        },
+        {
           "word": "タバコ",
           "reading": "たばこ",
           "meaning": "cigarettes; tobacco"
+        },
+        {
+          "word": "吸う",
+          "reading": "すう",
+          "meaning": "smoke"
         }
       ]
     },
@@ -215,6 +272,11 @@
           "word": "授業中",
           "reading": "じゅぎょうちゅう",
           "meaning": "during class"
+        },
+        {
+          "word": "話す",
+          "reading": "はなす",
+          "meaning": "talk"
         }
       ]
     },
@@ -251,6 +313,11 @@
           "word": "夜遅く",
           "reading": "よるおそく",
           "meaning": "late at night"
+        },
+        {
+          "word": "帰る",
+          "reading": "かえる",
+          "meaning": "come home; return"
         }
       ]
     },
@@ -287,6 +354,11 @@
           "word": "宿題",
           "reading": "しゅくだい",
           "meaning": "homework"
+        },
+        {
+          "word": "忘れる",
+          "reading": "わすれる",
+          "meaning": "forget"
         }
       ]
     },
@@ -325,9 +397,19 @@
           "meaning": "library"
         },
         {
+          "word": "大きい",
+          "reading": "おおきい",
+          "meaning": "big; loud"
+        },
+        {
           "word": "声",
           "reading": "こえ",
           "meaning": "voice"
+        },
+        {
+          "word": "出す",
+          "reading": "だす",
+          "meaning": "let out; raise (one's voice)"
         }
       ]
     },
@@ -361,14 +443,24 @@
       "register": "casual",
       "vocab": [
         {
+          "word": "テスト",
+          "reading": "てすと",
+          "meaning": "test"
+        },
+        {
           "word": "答え",
           "reading": "こたえ",
           "meaning": "answer"
         },
         {
-          "word": "見せて",
-          "reading": "みせて",
-          "meaning": "showing"
+          "word": "友達",
+          "reading": "ともだち",
+          "meaning": "friend"
+        },
+        {
+          "word": "見せる",
+          "reading": "みせる",
+          "meaning": "show"
         }
       ]
     }

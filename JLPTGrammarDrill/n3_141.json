@@ -9,7 +9,11 @@
       "example_sentence": "このご恩は決して忘れません。",
       "translation": "I will never forget your kindness. (said politely to a benefactor)",
       "blank_target": "決して",
-      "wrong_choices": ["必ずしも", "ぜひ", "とても"],
+      "wrong_choices": [
+        "必ずしも",
+        "ぜひ",
+        "とても"
+      ],
       "wrong_choice_explanations": [
         "必ずしも〜ない means 'not necessarily' — a partial negation. 必ずしも忘れません would weaken the vow to 'won't necessarily forget,' clashing with the absolute promise to remember this kindness.",
         "ぜひ expresses an eager request or hope and pairs with affirmatives (ぜひ来てください); it cannot strengthen a negative like 忘れません.",
@@ -17,14 +21,28 @@
       ],
       "hiragana_full": "このごおんはけっしてわすれません。",
       "audio_alternatives": [
-        { "kanji": "いただいたご恩は一生忘れません。", "hiragana_full": "いただいたごおんはいっしょうわすれません。" },
-        { "kanji": "この恩を決して忘れることはありません。", "hiragana_full": "このおんをけっしてわすれることはありません。" }
+        {
+          "kanji": "いただいたご恩は一生忘れません。",
+          "hiragana_full": "いただいたごおんはいっしょうわすれません。"
+        },
+        {
+          "kanji": "この恩を決して忘れることはありません。",
+          "hiragana_full": "このおんをけっしてわすれることはありません。"
+        }
       ],
       "audio_eligible": true,
       "register": "formal",
       "vocab": [
-        { "word": "ご恩", "reading": "ごおん", "meaning": "kindness; debt of gratitude" },
-        { "word": "忘れる", "reading": "わすれる", "meaning": "to forget" }
+        {
+          "word": "ご恩",
+          "reading": "ごおん",
+          "meaning": "kindness; debt of gratitude"
+        },
+        {
+          "word": "忘れる",
+          "reading": "わすれる",
+          "meaning": "to forget"
+        }
       ],
       "blank_target_reading": "けっして"
     },
@@ -33,7 +51,11 @@
       "example_sentence": "彼は決して嘘をつかない人だ。",
       "translation": "He is a person who absolutely never tells lies.",
       "blank_target": "決して",
-      "wrong_choices": ["めったに", "必ず", "まさか"],
+      "wrong_choices": [
+        "めったに",
+        "必ず",
+        "まさか"
+      ],
       "wrong_choice_explanations": [
         "めったに〜ない means 'rarely'; it would make him someone who seldom lies — weaker than the absolute 'never' in the translation.",
         "必ず means 'always; without fail' and pairs with affirmatives (必ず約束を守る); combining it with the negative つかない is contradictory.",
@@ -41,14 +63,28 @@
       ],
       "hiragana_full": "かれはけっしてうそをつかないひとだ。",
       "audio_alternatives": [
-        { "kanji": "彼が嘘をつくことは決してない。", "hiragana_full": "かれがうそをつくことはけっしてない。" },
-        { "kanji": "彼は絶対に嘘を言わない人です。", "hiragana_full": "かれはぜったいにうそをいわないひとです。" }
+        {
+          "kanji": "彼が嘘をつくことは決してない。",
+          "hiragana_full": "かれがうそをつくことはけっしてない。"
+        },
+        {
+          "kanji": "彼は絶対に嘘を言わない人です。",
+          "hiragana_full": "かれはぜったいにうそをいわないひとです。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "嘘", "reading": "うそ", "meaning": "lie" },
-        { "word": "つく", "reading": "つく", "meaning": "to tell (a lie)" }
+        {
+          "word": "嘘",
+          "reading": "うそ",
+          "meaning": "lie"
+        },
+        {
+          "word": "つく",
+          "reading": "つく",
+          "meaning": "to tell (a lie)"
+        }
       ],
       "blank_target_reading": "けっして"
     },
@@ -57,7 +93,11 @@
       "example_sentence": "この部屋には決して入らないでください。",
       "translation": "You must never enter this room.",
       "blank_target": "決して",
-      "wrong_choices": ["どうしても", "ぜひ", "必ず"],
+      "wrong_choices": [
+        "どうしても",
+        "ぜひ",
+        "必ず"
+      ],
       "wrong_choice_explanations": [
         "どうしても means 'no matter what (one tries)' and describes the speaker's own strong desire or inability (どうしても入りたい); it doesn't intensify a prohibition directed at someone else.",
         "ぜひ urges someone to do something (ぜひ入ってください); it directly contradicts ないでください.",
@@ -65,14 +105,28 @@
       ],
       "hiragana_full": "このへやにはけっしてはいらないでください。",
       "audio_alternatives": [
-        { "kanji": "この部屋には絶対に入らないでください。", "hiragana_full": "このへやにはぜったいにはいらないでください。" },
-        { "kanji": "決してこの部屋に入ってはいけません。", "hiragana_full": "けっしてこのへやにはいってはいけません。" }
+        {
+          "kanji": "この部屋には絶対に入らないでください。",
+          "hiragana_full": "このへやにはぜったいにはいらないでください。"
+        },
+        {
+          "kanji": "決してこの部屋に入ってはいけません。",
+          "hiragana_full": "けっしてこのへやにはいってはいけません。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "部屋", "reading": "へや", "meaning": "room" },
-        { "word": "入る", "reading": "はいる", "meaning": "to enter" }
+        {
+          "word": "部屋",
+          "reading": "へや",
+          "meaning": "room"
+        },
+        {
+          "word": "入る",
+          "reading": "はいる",
+          "meaning": "to enter"
+        }
       ],
       "blank_target_reading": "けっして"
     },
@@ -81,7 +135,11 @@
       "example_sentence": "試験に落ちても、決してあきらめないつもりだ。",
       "translation": "Even if I fail the exam, I have no intention of ever giving up.",
       "blank_target": "決して",
-      "wrong_choices": ["めったに", "まさか", "別に"],
+      "wrong_choices": [
+        "めったに",
+        "まさか",
+        "別に"
+      ],
       "wrong_choice_explanations": [
         "めったに〜ない means 'rarely'; 'I intend to rarely give up' makes no sense for a single firm resolution.",
         "まさか marks disbelief ('surely not...!') and needs a conjectural ending; it can't strengthen the speaker's own determination.",
@@ -89,15 +147,33 @@
       ],
       "hiragana_full": "しけんにおちても、けっしてあきらめないつもりだ。",
       "audio_alternatives": [
-        { "kanji": "たとえ試験に落ちても、あきらめるつもりは決してない。", "hiragana_full": "たとえしけんにおちても、あきらめるつもりはけっしてない。" },
-        { "kanji": "試験に失敗しても、最後まであきらめません。", "hiragana_full": "しけんにしっぱいしても、さいごまであきらめません。" }
+        {
+          "kanji": "たとえ試験に落ちても、あきらめるつもりは決してない。",
+          "hiragana_full": "たとえしけんにおちても、あきらめるつもりはけっしてない。"
+        },
+        {
+          "kanji": "試験に失敗しても、最後まであきらめません。",
+          "hiragana_full": "しけんにしっぱいしても、さいごまであきらめません。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "試験", "reading": "しけん", "meaning": "exam" },
-        { "word": "落ちる", "reading": "おちる", "meaning": "to fail (an exam)" },
-        { "word": "あきらめる", "reading": "あきらめる", "meaning": "to give up" }
+        {
+          "word": "試験",
+          "reading": "しけん",
+          "meaning": "exam"
+        },
+        {
+          "word": "落ちる",
+          "reading": "おちる",
+          "meaning": "to fail (an exam)"
+        },
+        {
+          "word": "あきらめる",
+          "reading": "あきらめる",
+          "meaning": "to give up"
+        }
       ],
       "blank_target_reading": "けっして"
     },
@@ -106,7 +182,11 @@
       "example_sentence": "安全のため、運転中は決して携帯電話を使用しないでください。",
       "translation": "For safety, never use your mobile phone while driving. (public announcement)",
       "blank_target": "決して",
-      "wrong_choices": ["別に", "おそらく", "めったに"],
+      "wrong_choices": [
+        "別に",
+        "おそらく",
+        "めったに"
+      ],
       "wrong_choice_explanations": [
         "別に〜ない means 'not particularly' and is casual; 'don't particularly use your phone' is far too weak and informal for a safety instruction.",
         "おそらく means 'probably' and marks the speaker's conjecture (おそらく使用しないだろう); it cannot appear in a request telling the listener what to do.",
@@ -114,15 +194,33 @@
       ],
       "hiragana_full": "あんぜんのため、うんてんちゅうはけっしてけいたいでんわをしようしないでください。",
       "audio_alternatives": [
-        { "kanji": "運転している間は、絶対にスマホを使わないでください。", "hiragana_full": "うんてんしているあいだは、ぜったいにすまほをつかわないでください。" },
-        { "kanji": "事故を防ぐため、運転中の携帯電話は決して使わないでください。", "hiragana_full": "じこをふせぐため、うんてんちゅうのけいたいでんわはけっしてつかわないでください。" }
+        {
+          "kanji": "運転している間は、絶対にスマホを使わないでください。",
+          "hiragana_full": "うんてんしているあいだは、ぜったいにすまほをつかわないでください。"
+        },
+        {
+          "kanji": "事故を防ぐため、運転中の携帯電話は決して使わないでください。",
+          "hiragana_full": "じこをふせぐため、うんてんちゅうのけいたいでんわはけっしてつかわないでください。"
+        }
       ],
       "audio_eligible": true,
       "register": "formal",
       "vocab": [
-        { "word": "運転中", "reading": "うんてんちゅう", "meaning": "while driving" },
-        { "word": "使用する", "reading": "しようする", "meaning": "to use" },
-        { "word": "安全", "reading": "あんぜん", "meaning": "safety" }
+        {
+          "word": "運転中",
+          "reading": "うんてんちゅう",
+          "meaning": "while driving"
+        },
+        {
+          "word": "使用する",
+          "reading": "しようする",
+          "meaning": "to use"
+        },
+        {
+          "word": "安全",
+          "reading": "あんぜん",
+          "meaning": "safety"
+        }
       ],
       "blank_target_reading": "けっして"
     },
@@ -131,7 +229,11 @@
       "example_sentence": "彼らの犠牲は決して無駄ではなかったと、歴史が証明している。",
       "translation": "History proves that their sacrifice was by no means in vain. (from an essay)",
       "blank_target": "決して",
-      "wrong_choices": ["必ずしも", "まさか", "おそらく"],
+      "wrong_choices": [
+        "必ずしも",
+        "まさか",
+        "おそらく"
+      ],
       "wrong_choice_explanations": [
         "必ずしも〜ない means 'not necessarily' — 'wasn't necessarily wasted' is a hedged partial negation that clashes with the confident 歴史が証明している ('history proves').",
         "まさか carries a tone of disbelief about an unlikely possibility and requires conjecture; it doesn't fit a firm assertion of proof.",
@@ -139,15 +241,33 @@
       ],
       "hiragana_full": "かれらのぎせいはけっしてむだではなかったと、れきしがしょうめいしている。",
       "audio_alternatives": [
-        { "kanji": "彼らの犠牲が無駄でなかったことは、歴史が証明している。", "hiragana_full": "かれらのぎせいがむだでなかったことは、れきしがしょうめいしている。" },
-        { "kanji": "その犠牲は決して無意味ではなかった。", "hiragana_full": "そのぎせいはけっしてむいみではなかった。" }
+        {
+          "kanji": "彼らの犠牲が無駄でなかったことは、歴史が証明している。",
+          "hiragana_full": "かれらのぎせいがむだでなかったことは、れきしがしょうめいしている。"
+        },
+        {
+          "kanji": "その犠牲は決して無意味ではなかった。",
+          "hiragana_full": "そのぎせいはけっしてむいみではなかった。"
+        }
       ],
       "audio_eligible": true,
       "register": "written",
       "vocab": [
-        { "word": "犠牲", "reading": "ぎせい", "meaning": "sacrifice" },
-        { "word": "無駄", "reading": "むだ", "meaning": "waste; in vain" },
-        { "word": "証明する", "reading": "しょうめいする", "meaning": "to prove" }
+        {
+          "word": "犠牲",
+          "reading": "ぎせい",
+          "meaning": "sacrifice"
+        },
+        {
+          "word": "無駄",
+          "reading": "むだ",
+          "meaning": "waste; in vain"
+        },
+        {
+          "word": "証明する",
+          "reading": "しょうめいする",
+          "meaning": "to prove"
+        }
       ],
       "blank_target_reading": "けっして"
     },
@@ -156,7 +276,11 @@
       "example_sentence": "友達との約束は決して破らない。それが私のルールだ。",
       "translation": "I never break promises with friends. That's my rule. (chatting with a friend)",
       "blank_target": "決して",
-      "wrong_choices": ["別に", "まさか", "必ず"],
+      "wrong_choices": [
+        "別に",
+        "まさか",
+        "必ず"
+      ],
       "wrong_choice_explanations": [
         "別に〜ない means 'not particularly' — 'I don't especially break promises' sounds indifferent, clashing with the firm personal rule stated in the next sentence.",
         "まさか expresses disbelief about an unexpected possibility and needs a conjectural ending; it can't strengthen a statement about one's own habits.",
@@ -164,14 +288,28 @@
       ],
       "hiragana_full": "ともだちとのやくそくはけっしてやぶらない。それがわたしのるーるだ。",
       "audio_alternatives": [
-        { "kanji": "友達との約束は絶対に破らない。", "hiragana_full": "ともだちとのやくそくはぜったいにやぶらない。" },
-        { "kanji": "どんなときも、友達との約束を破ることは決してない。", "hiragana_full": "どんなときも、ともだちとのやくそくをやぶることはけっしてない。" }
+        {
+          "kanji": "友達との約束は絶対に破らない。",
+          "hiragana_full": "ともだちとのやくそくはぜったいにやぶらない。"
+        },
+        {
+          "kanji": "どんなときも、友達との約束を破ることは決してない。",
+          "hiragana_full": "どんなときも、ともだちとのやくそくをやぶることはけっしてない。"
+        }
       ],
       "audio_eligible": true,
       "register": "casual",
       "vocab": [
-        { "word": "約束", "reading": "やくそく", "meaning": "promise" },
-        { "word": "破る", "reading": "やぶる", "meaning": "to break (a promise)" }
+        {
+          "word": "約束",
+          "reading": "やくそく",
+          "meaning": "promise"
+        },
+        {
+          "word": "破る",
+          "reading": "やぶる",
+          "meaning": "to break (a promise)"
+        }
       ],
       "blank_target_reading": "けっして"
     },
@@ -180,7 +318,11 @@
       "example_sentence": "戦争の悲劇を決して繰り返してはならない。",
       "translation": "We must never repeat the tragedy of war. (written declaration)",
       "blank_target": "決して",
-      "wrong_choices": ["必ずしも", "ぜひ", "とても"],
+      "wrong_choices": [
+        "必ずしも",
+        "ぜひ",
+        "とても"
+      ],
       "wrong_choice_explanations": [
         "必ずしも〜ない is a partial negation ('not necessarily') — 'must not necessarily repeat' waters down an absolute moral imperative.",
         "ぜひ eagerly urges someone to do something; it makes no sense with the prohibition てはならない.",
@@ -188,15 +330,33 @@
       ],
       "hiragana_full": "せんそうのひげきをけっしてくりかえしてはならない。",
       "audio_alternatives": [
-        { "kanji": "戦争の悲劇を二度と繰り返してはいけない。", "hiragana_full": "せんそうのひげきをにどとくりかえしてはいけない。" },
-        { "kanji": "戦争の悲劇は決して繰り返されてはならない。", "hiragana_full": "せんそうのひげきはけっしてくりかえされてはならない。" }
+        {
+          "kanji": "戦争の悲劇を二度と繰り返してはいけない。",
+          "hiragana_full": "せんそうのひげきをにどとくりかえしてはいけない。"
+        },
+        {
+          "kanji": "戦争の悲劇は決して繰り返されてはならない。",
+          "hiragana_full": "せんそうのひげきはけっしてくりかえされてはならない。"
+        }
       ],
       "audio_eligible": true,
       "register": "written",
       "vocab": [
-        { "word": "戦争", "reading": "せんそう", "meaning": "war" },
-        { "word": "悲劇", "reading": "ひげき", "meaning": "tragedy" },
-        { "word": "繰り返す", "reading": "くりかえす", "meaning": "to repeat" }
+        {
+          "word": "戦争",
+          "reading": "せんそう",
+          "meaning": "war"
+        },
+        {
+          "word": "悲劇",
+          "reading": "ひげき",
+          "meaning": "tragedy"
+        },
+        {
+          "word": "繰り返す",
+          "reading": "くりかえす",
+          "meaning": "to repeat"
+        }
       ],
       "blank_target_reading": "けっして"
     },
@@ -205,7 +365,11 @@
       "example_sentence": "子どもの前では、決してタバコを吸わないことにしている。",
       "translation": "I make it a rule to never smoke in front of my children.",
       "blank_target": "決して",
-      "wrong_choices": ["めったに", "どうしても", "とても"],
+      "wrong_choices": [
+        "めったに",
+        "どうしても",
+        "とても"
+      ],
       "wrong_choice_explanations": [
         "めったに〜ない means 'rarely', but ことにしている states a fixed personal rule — 'I make it a rule to rarely smoke' contradicts the absolute 'never' of the translation.",
         "どうしても with a negative means 'just can't (despite trying)' (どうしても覚えられない); a deliberate rule is a choice, not an inability.",
@@ -213,14 +377,28 @@
       ],
       "hiragana_full": "こどものまえでは、けっしてたばこをすわないことにしている。",
       "audio_alternatives": [
-        { "kanji": "子どもの前では絶対にタバコを吸わないと決めている。", "hiragana_full": "こどものまえではぜったいにたばこをすわないときめている。" },
-        { "kanji": "子どもがいるところでは、決してタバコを吸わない。", "hiragana_full": "こどもがいるところでは、けっしてたばこをすわない。" }
+        {
+          "kanji": "子どもの前では絶対にタバコを吸わないと決めている。",
+          "hiragana_full": "こどものまえではぜったいにたばこをすわないときめている。"
+        },
+        {
+          "kanji": "子どもがいるところでは、決してタバコを吸わない。",
+          "hiragana_full": "こどもがいるところでは、けっしてたばこをすわない。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "タバコ", "reading": "たばこ", "meaning": "cigarette" },
-        { "word": "吸う", "reading": "すう", "meaning": "to smoke (a cigarette)" }
+        {
+          "word": "タバコ",
+          "reading": "たばこ",
+          "meaning": "cigarette"
+        },
+        {
+          "word": "吸う",
+          "reading": "すう",
+          "meaning": "to smoke (a cigarette)"
+        }
       ],
       "blank_target_reading": "けっして"
     },
@@ -229,7 +407,11 @@
       "example_sentence": "この薬は、決して子どもの手の届くところに置かないでください。",
       "translation": "Never leave this medicine within reach of children. (label warning)",
       "blank_target": "決して",
-      "wrong_choices": ["必ず", "ぜひ", "どうしても"],
+      "wrong_choices": [
+        "必ず",
+        "ぜひ",
+        "どうしても"
+      ],
       "wrong_choice_explanations": [
         "必ず means 'be sure to (do)' and pairs with affirmative instructions (必ず読んでください); with 置かないでください the polarity clashes — the negative intensifier is 決して.",
         "ぜひ eagerly invites someone to do something; it contradicts a warning not to do it.",
@@ -237,15 +419,33 @@
       ],
       "hiragana_full": "このくすりは、けっしてこどものてのとどくところにおかないでください。",
       "audio_alternatives": [
-        { "kanji": "この薬は、子どもの手が届かない場所に保管してください。", "hiragana_full": "このくすりは、こどものてがとどかないばしょにほかんしてください。" },
-        { "kanji": "薬は決して子どもの近くに置かないようにしてください。", "hiragana_full": "くすりはけっしてこどものちかくにおかないようにしてください。" }
+        {
+          "kanji": "この薬は、子どもの手が届かない場所に保管してください。",
+          "hiragana_full": "このくすりは、こどものてがとどかないばしょにほかんしてください。"
+        },
+        {
+          "kanji": "薬は決して子どもの近くに置かないようにしてください。",
+          "hiragana_full": "くすりはけっしてこどものちかくにおかないようにしてください。"
+        }
       ],
       "audio_eligible": true,
       "register": "written",
       "vocab": [
-        { "word": "薬", "reading": "くすり", "meaning": "medicine" },
-        { "word": "届く", "reading": "とどく", "meaning": "to reach" },
-        { "word": "置く", "reading": "おく", "meaning": "to put; to place" }
+        {
+          "word": "薬",
+          "reading": "くすり",
+          "meaning": "medicine"
+        },
+        {
+          "word": "届く",
+          "reading": "とどく",
+          "meaning": "to reach"
+        },
+        {
+          "word": "置く",
+          "reading": "おく",
+          "meaning": "to put; to place"
+        }
       ],
       "blank_target_reading": "けっして"
     }

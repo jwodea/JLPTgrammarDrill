@@ -34,6 +34,11 @@
       "register": "casual",
       "vocab": [
         {
+          "word": "雨",
+          "reading": "あめ",
+          "meaning": "rain"
+        },
+        {
           "word": "降る",
           "reading": "ふる",
           "meaning": "fall (rain)"
@@ -70,6 +75,11 @@
       "register": "casual",
       "vocab": [
         {
+          "word": "映画",
+          "reading": "えいが",
+          "meaning": "movie"
+        },
+        {
           "word": "面白い",
           "reading": "おもしろい",
           "meaning": "interesting"
@@ -105,6 +115,11 @@
       "audio_eligible": true,
       "register": "casual",
       "vocab": [
+        {
+          "word": "バス",
+          "reading": "ばす",
+          "meaning": "bus"
+        },
         {
           "word": "遅れる",
           "reading": "おくれる",
@@ -147,9 +162,9 @@
           "meaning": "wallet"
         },
         {
-          "word": "忘れた",
-          "reading": "わすれた",
-          "meaning": "forgot"
+          "word": "忘れる",
+          "reading": "わすれる",
+          "meaning": "forget"
         }
       ]
     },
@@ -183,6 +198,11 @@
       "register": "casual",
       "vocab": [
         {
+          "word": "彼女",
+          "reading": "かのじょ",
+          "meaning": "she"
+        },
+        {
           "word": "来年",
           "reading": "らいねん",
           "meaning": "next year"
@@ -209,7 +229,7 @@
         "に違いありません expresses strong certainty ('it must be'), the polar opposite of the weak possibility that かもしれない conveys about uncertain winter weather.",
         "ことになっています describes an established arrangement or result, not the speculative 'might' needed for an uncertain weather prediction."
       ],
-      "hiragana_full": "ことしのふゆはゆきがおおくふるかもしれません",
+      "hiragana_full": "ことしのふゆはゆきがおおくふるかもしれません。",
       "audio_alternatives": [
         {
           "kanji": "今年の冬はたくさん雪が降るかもしれない。",
@@ -221,7 +241,34 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "今年",
+          "reading": "ことし",
+          "meaning": "this year"
+        },
+        {
+          "word": "冬",
+          "reading": "ふゆ",
+          "meaning": "winter"
+        },
+        {
+          "word": "雪",
+          "reading": "ゆき",
+          "meaning": "snow"
+        },
+        {
+          "word": "多く",
+          "reading": "おおく",
+          "meaning": "a lot; much"
+        },
+        {
+          "word": "降る",
+          "reading": "ふる",
+          "meaning": "fall (snow)"
+        }
+      ]
     },
     {
       "id": "n5_067_7",
@@ -253,9 +300,24 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "明日",
+          "reading": "あした",
+          "meaning": "tomorrow"
+        },
+        {
           "word": "試合",
           "reading": "しあい",
           "meaning": "game, match"
+        },
+        {
+          "word": "雨",
+          "reading": "あめ",
+          "meaning": "rain"
+        },
+        {
+          "word": "なくなる",
+          "reading": "なくなる",
+          "meaning": "be called off; be cancelled"
         }
       ]
     },
@@ -292,6 +354,11 @@
           "word": "地図",
           "reading": "ちず",
           "meaning": "map"
+        },
+        {
+          "word": "古い",
+          "reading": "ふるい",
+          "meaning": "old; out of date"
         }
       ]
     },
@@ -310,7 +377,7 @@
         "ものです expresses a general characteristic or habitual tendency, not the specific uncertainty about what might happen at tonight's particular meeting.",
         "らしいです indicates hearsay or appearance ('reportedly', 'apparently'), suggesting information from others, not the speaker's own assessment of tentative possibility about the meeting duration."
       ],
-      "hiragana_full": "こんやはかいぎがながくなるかもしれません",
+      "hiragana_full": "こんやはかいぎがながくなるかもしれません。",
       "audio_alternatives": [
         {
           "kanji": "今夜の会議は長引くかもしれません。",
@@ -325,9 +392,19 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "今夜",
+          "reading": "こんや",
+          "meaning": "tonight"
+        },
+        {
           "word": "会議",
           "reading": "かいぎ",
           "meaning": "meeting"
+        },
+        {
+          "word": "長く",
+          "reading": "ながく",
+          "meaning": "long (in duration)"
         }
       ]
     },
@@ -361,9 +438,19 @@
       "register": "casual",
       "vocab": [
         {
-          "word": "閉まっている",
-          "reading": "しまっている",
-          "meaning": "is closed"
+          "word": "店",
+          "reading": "みせ",
+          "meaning": "store"
+        },
+        {
+          "word": "もう",
+          "reading": "もう",
+          "meaning": "already"
+        },
+        {
+          "word": "閉まる",
+          "reading": "しまる",
+          "meaning": "be closed"
         }
       ]
     }

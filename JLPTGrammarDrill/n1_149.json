@@ -8,11 +8,11 @@
       "id": "n1_149_1",
       "example_sentence": "犯人が逃げようとするところを、警官が取り押さえた。",
       "translation": "Just as the suspect was about to flee, an officer restrained him.",
-      "blank_target": "ところを",
+      "blank_target": "を",
       "wrong_choices": [
-        "ところに",
-        "ところへ",
-        "ところで"
+        "に",
+        "へ",
+        "で"
       ],
       "wrong_choice_explanations": [
         "ところに means 'just when (something arrived)': 逃げようとするところに cannot be the object of 取り押さえた, which needs the scene marked with を.",
@@ -59,11 +59,11 @@
       "id": "n1_149_2",
       "example_sentence": "サボっているところを、店長に見つかってしまった。",
       "translation": "I got caught slacking off by the store manager.",
-      "blank_target": "ところを",
+      "blank_target": "を",
       "wrong_choices": [
-        "ところに",
-        "ところで",
-        "ところへ"
+        "に",
+        "で",
+        "へ"
       ],
       "wrong_choice_explanations": [
         "ところに means 'just when (something arrived)': サボっているところに does not mark the scene as what 見つかってしまった ('got caught') applies to; that needs を.",
@@ -105,11 +105,11 @@
       "id": "n1_149_3",
       "example_sentence": "危ないところを、通りがかりの人に助けられた。",
       "translation": "I was saved from a dangerous situation by a passerby.",
-      "blank_target": "ところを",
+      "blank_target": "を",
       "wrong_choices": [
-        "ところに",
-        "ところへ",
-        "ところで"
+        "に",
+        "へ",
+        "で"
       ],
       "wrong_choice_explanations": [
         "ところに means 'just when (something arrived)': 危ないところに does not mark the danger as what 助けられた ('was saved from') applies to.",
@@ -151,11 +151,11 @@
       "id": "n1_149_4",
       "example_sentence": "こっそり家を抜け出そうとしたところを、母に呼び止められた。",
       "translation": "Just as I was sneaking out of the house, my mother called me back.",
-      "blank_target": "ところを",
+      "blank_target": "を",
       "wrong_choices": [
-        "ところに",
-        "ところへ",
-        "ところで"
+        "に",
+        "へ",
+        "で"
       ],
       "wrong_choice_explanations": [
         "ところに means 'just when (something happened)': 抜け出そうとしたところに、母に呼び止められた is sayable ('just as I tried to sneak out, Mom called me'); only the を-marked scene of the translation separates it.",
@@ -191,17 +191,18 @@
           "reading": "よびとめる",
           "meaning": "to call (someone) to stop"
         }
-      ]
+      ],
+      "blank_occurrence": 2
     },
     {
       "id": "n1_149_5",
       "example_sentence": "二人が言い争っているところを、担任の先生に見られた。",
       "translation": "The two of them were seen quarreling by their homeroom teacher.",
-      "blank_target": "ところを",
+      "blank_target": "を",
       "wrong_choices": [
-        "ところに",
-        "ところで",
-        "ところが"
+        "に",
+        "で",
+        "が"
       ],
       "wrong_choice_explanations": [
         "ところに means 'just when (something arrived)': 言い争っているところに does not mark the quarrel as what 見られた ('was seen') applies to; that needs を.",

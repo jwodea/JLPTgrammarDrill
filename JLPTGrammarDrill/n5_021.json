@@ -19,7 +19,7 @@
         "か makes questions — it doesn't fit here because we're asserting that the train is coming, not asking about it.",
         "な is for self-reflection or mild assertion — it doesn't fit here because we're telling someone else new information with emphasis."
       ],
-      "hiragana_full": "でんしゃがきますよ",
+      "hiragana_full": "でんしゃがきますよ！",
       "audio_alternatives": [
         {
           "kanji": "電車が来るよ！",
@@ -39,9 +39,9 @@
           "meaning": "train"
         },
         {
-          "word": "来ます",
-          "reading": "きます",
-          "meaning": "is coming"
+          "word": "来る",
+          "reading": "くる",
+          "meaning": "come"
         }
       ]
     },
@@ -80,9 +80,9 @@
           "meaning": "homework"
         },
         {
-          "word": "忘れました",
-          "reading": "わすれました",
-          "meaning": "forgot"
+          "word": "忘れる",
+          "reading": "わすれる",
+          "meaning": "forget"
         }
       ]
     },
@@ -113,7 +113,14 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "もう",
+          "reading": "もう",
+          "meaning": "already"
+        }
+      ]
     },
     {
       "id": "n5_021_4",
@@ -145,9 +152,14 @@
       "register": "neutral",
       "vocab": [
         {
-          "word": "帰りました",
-          "reading": "かえりました",
-          "meaning": "went home"
+          "word": "もう",
+          "reading": "もう",
+          "meaning": "already"
+        },
+        {
+          "word": "帰る",
+          "reading": "かえる",
+          "meaning": "go home"
         }
       ]
     },
@@ -178,7 +190,24 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "その",
+          "reading": "その",
+          "meaning": "that"
+        },
+        {
+          "word": "本",
+          "reading": "ほん",
+          "meaning": "book"
+        },
+        {
+          "word": "私",
+          "reading": "わたし",
+          "meaning": "I; me"
+        }
+      ]
     },
     {
       "id": "n5_021_6",
@@ -210,13 +239,23 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "雨",
+          "reading": "あめ",
+          "meaning": "rain"
+        },
+        {
+          "word": "降る",
+          "reading": "ふる",
+          "meaning": "fall (rain)"
+        },
+        {
           "word": "傘",
           "reading": "かさ",
           "meaning": "umbrella"
         },
         {
-          "word": "持って行って",
-          "reading": "もっていって",
+          "word": "持って行く",
+          "reading": "もっていく",
           "meaning": "take (it) with you"
         }
       ]
@@ -251,14 +290,19 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "この",
+          "reading": "この",
+          "meaning": "this"
+        },
+        {
           "word": "道",
           "reading": "みち",
           "meaning": "road"
         },
         {
-          "word": "通れません",
-          "reading": "とおれません",
-          "meaning": "can't pass through"
+          "word": "通る",
+          "reading": "とおる",
+          "meaning": "pass through"
         }
       ]
     },
@@ -295,6 +339,11 @@
           "word": "会議",
           "reading": "かいぎ",
           "meaning": "meeting"
+        },
+        {
+          "word": "明日",
+          "reading": "あした",
+          "meaning": "tomorrow"
         }
       ]
     },
@@ -328,9 +377,14 @@
       "register": "neutral",
       "vocab": [
         {
-          "word": "呼んでいます",
-          "reading": "よんでいます",
-          "meaning": "is calling"
+          "word": "お母さん",
+          "reading": "おかあさん",
+          "meaning": "mother"
+        },
+        {
+          "word": "呼ぶ",
+          "reading": "よぶ",
+          "meaning": "call"
         }
       ]
     },
@@ -364,14 +418,19 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "そこ",
+          "reading": "そこ",
+          "meaning": "there"
+        },
+        {
           "word": "危険",
           "reading": "きけん",
           "meaning": "dangerous"
         },
         {
-          "word": "近づかないで",
-          "reading": "ちかづかないで",
-          "meaning": "don't go near"
+          "word": "近づく",
+          "reading": "ちかづく",
+          "meaning": "go near; approach"
         }
       ]
     }

@@ -39,8 +39,13 @@
           "meaning": "music"
         },
         {
-          "word": "勉強",
-          "reading": "べんきょう",
+          "word": "聞く",
+          "reading": "きく",
+          "meaning": "listen to"
+        },
+        {
+          "word": "勉強する",
+          "reading": "べんきょうする",
           "meaning": "study"
         }
       ]
@@ -74,6 +79,11 @@
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
+        {
+          "word": "歩く",
+          "reading": "あるく",
+          "meaning": "walk"
+        },
         {
           "word": "話",
           "reading": "はなし",
@@ -111,13 +121,18 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "働く",
+          "reading": "はたらく",
+          "meaning": "work"
+        },
+        {
           "word": "大学",
           "reading": "だいがく",
           "meaning": "university"
         },
         {
-          "word": "通っています",
-          "reading": "かよっています",
+          "word": "通う",
+          "reading": "かよう",
           "meaning": "attend; commute to"
         }
       ]
@@ -152,14 +167,19 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "笑う",
+          "reading": "わらう",
+          "meaning": "laugh"
+        },
+        {
           "word": "写真",
           "reading": "しゃしん",
           "meaning": "photo"
         },
         {
-          "word": "撮りました",
-          "reading": "とりました",
-          "meaning": "took (a photo)"
+          "word": "撮る",
+          "reading": "とる",
+          "meaning": "take (a photo)"
         }
       ]
     },
@@ -196,6 +216,21 @@
           "word": "お茶",
           "reading": "おちゃ",
           "meaning": "tea"
+        },
+        {
+          "word": "飲む",
+          "reading": "のむ",
+          "meaning": "drink"
+        },
+        {
+          "word": "本",
+          "reading": "ほん",
+          "meaning": "book"
+        },
+        {
+          "word": "読む",
+          "reading": "よむ",
+          "meaning": "read"
         }
       ]
     },
@@ -229,9 +264,9 @@
       "register": "neutral",
       "vocab": [
         {
-          "word": "運転",
-          "reading": "うんてん",
-          "meaning": "driving"
+          "word": "運転する",
+          "reading": "うんてんする",
+          "meaning": "drive"
         },
         {
           "word": "電話",
@@ -270,6 +305,21 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "友達",
+          "reading": "ともだち",
+          "meaning": "friend"
+        },
+        {
+          "word": "話す",
+          "reading": "はなす",
+          "meaning": "talk"
+        },
+        {
+          "word": "レストラン",
+          "reading": "れすとらん",
+          "meaning": "restaurant"
+        },
+        {
           "word": "食事",
           "reading": "しょくじ",
           "meaning": "meal"
@@ -303,7 +353,29 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "音楽",
+          "reading": "おんがく",
+          "meaning": "music"
+        },
+        {
+          "word": "聴く",
+          "reading": "きく",
+          "meaning": "listen to"
+        },
+        {
+          "word": "買い物",
+          "reading": "かいもの",
+          "meaning": "shopping"
+        },
+        {
+          "word": "好き",
+          "reading": "すき",
+          "meaning": "like; be fond of"
+        }
+      ]
     },
     {
       "id": "n5_037_9",
@@ -334,6 +406,21 @@
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
+        {
+          "word": "歩く",
+          "reading": "あるく",
+          "meaning": "walk"
+        },
+        {
+          "word": "スマホ",
+          "reading": "すまほ",
+          "meaning": "smartphone"
+        },
+        {
+          "word": "使う",
+          "reading": "つかう",
+          "meaning": "use"
+        },
         {
           "word": "危ない",
           "reading": "あぶない",
@@ -368,7 +455,29 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "電車",
+          "reading": "でんしゃ",
+          "meaning": "train"
+        },
+        {
+          "word": "乗る",
+          "reading": "のる",
+          "meaning": "ride"
+        },
+        {
+          "word": "本",
+          "reading": "ほん",
+          "meaning": "book"
+        },
+        {
+          "word": "読む",
+          "reading": "よむ",
+          "meaning": "read"
+        }
+      ]
     }
   ]
 }

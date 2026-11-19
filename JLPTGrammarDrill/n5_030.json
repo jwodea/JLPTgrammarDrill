@@ -39,9 +39,19 @@
           "meaning": "yesterday"
         },
         {
+          "word": "友達",
+          "reading": "ともだち",
+          "meaning": "friend"
+        },
+        {
           "word": "映画",
           "reading": "えいが",
           "meaning": "movie"
+        },
+        {
+          "word": "見る",
+          "reading": "みる",
+          "meaning": "watch"
         }
       ]
     },
@@ -78,6 +88,21 @@
           "word": "朝ごはん",
           "reading": "あさごはん",
           "meaning": "breakfast"
+        },
+        {
+          "word": "食べる",
+          "reading": "たべる",
+          "meaning": "eat"
+        },
+        {
+          "word": "学校",
+          "reading": "がっこう",
+          "meaning": "school"
+        },
+        {
+          "word": "行く",
+          "reading": "いく",
+          "meaning": "go"
         }
       ],
       "blank_occurrence": 1
@@ -120,6 +145,16 @@
           "word": "後で",
           "reading": "あとで",
           "meaning": "after"
+        },
+        {
+          "word": "テレビ",
+          "reading": "てれび",
+          "meaning": "TV"
+        },
+        {
+          "word": "見る",
+          "reading": "みる",
+          "meaning": "watch"
         }
       ],
       "blank_occurrence": 1
@@ -151,7 +186,24 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "雨",
+          "reading": "あめ",
+          "meaning": "rain"
+        },
+        {
+          "word": "降る",
+          "reading": "ふる",
+          "meaning": "fall (rain)"
+        },
+        {
+          "word": "家",
+          "reading": "いえ",
+          "meaning": "home; house"
+        }
+      ]
     },
     {
       "id": "n5_030_5",
@@ -180,7 +232,24 @@
         }
       ],
       "audio_eligible": true,
-      "register": "casual"
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "昨日",
+          "reading": "きのう",
+          "meaning": "yesterday"
+        },
+        {
+          "word": "早く",
+          "reading": "はやく",
+          "meaning": "early"
+        },
+        {
+          "word": "寝る",
+          "reading": "ねる",
+          "meaning": "go to bed; sleep"
+        }
+      ]
     },
     {
       "id": "n5_030_6",
@@ -197,7 +266,7 @@
         "ながら means 'while doing' — it doesn't complete the sentence properly as it requires another action to follow.",
         "たら is conditional meaning 'if/when' — it doesn't fit because this is a simple past statement, not a conditional."
       ],
-      "hiragana_full": "はははりょうりをつくった",
+      "hiragana_full": "はははりょうりをつくった。",
       "audio_alternatives": [
         {
           "kanji": "母は料理を作りました。",
@@ -212,9 +281,19 @@
       "register": "casual",
       "vocab": [
         {
+          "word": "母",
+          "reading": "はは",
+          "meaning": "(my) mother"
+        },
+        {
           "word": "料理",
           "reading": "りょうり",
           "meaning": "food / a meal"
+        },
+        {
+          "word": "作る",
+          "reading": "つくる",
+          "meaning": "make"
         }
       ]
     },
@@ -251,6 +330,21 @@
           "word": "先週",
           "reading": "せんしゅう",
           "meaning": "last week"
+        },
+        {
+          "word": "新しい",
+          "reading": "あたらしい",
+          "meaning": "new"
+        },
+        {
+          "word": "本",
+          "reading": "ほん",
+          "meaning": "book"
+        },
+        {
+          "word": "買う",
+          "reading": "かう",
+          "meaning": "buy"
         }
       ]
     },
@@ -269,7 +363,7 @@
         "ない is negative form meaning 'didn't study' — it changes the meaning entirely from a positive to negative statement.",
         "そう indicates hearsay or appearance — it doesn't fit because this is a direct statement about a past action."
       ],
-      "hiragana_full": "かれはにほんごをべんきょうした",
+      "hiragana_full": "かれはにほんごをべんきょうした。",
       "audio_alternatives": [
         {
           "kanji": "彼は日本語を勉強しました。",
@@ -281,7 +375,24 @@
         }
       ],
       "audio_eligible": true,
-      "register": "casual"
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "彼",
+          "reading": "かれ",
+          "meaning": "he"
+        },
+        {
+          "word": "日本語",
+          "reading": "にほんご",
+          "meaning": "Japanese (language)"
+        },
+        {
+          "word": "勉強する",
+          "reading": "べんきょうする",
+          "meaning": "study"
+        }
+      ]
     },
     {
       "id": "n5_030_9",
@@ -313,9 +424,24 @@
       "register": "neutral",
       "vocab": [
         {
-          "word": "急いで",
-          "reading": "いそいで",
-          "meaning": "in a hurry"
+          "word": "電車",
+          "reading": "でんしゃ",
+          "meaning": "train"
+        },
+        {
+          "word": "来る",
+          "reading": "くる",
+          "meaning": "come"
+        },
+        {
+          "word": "急ぐ",
+          "reading": "いそぐ",
+          "meaning": "hurry"
+        },
+        {
+          "word": "走る",
+          "reading": "はしる",
+          "meaning": "run"
         }
       ],
       "blank_occurrence": 1
@@ -358,6 +484,11 @@
           "word": "公園",
           "reading": "こうえん",
           "meaning": "park"
+        },
+        {
+          "word": "遊ぶ",
+          "reading": "あそぶ",
+          "meaning": "play"
         }
       ]
     }

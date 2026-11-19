@@ -31,7 +31,24 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "日本語",
+          "reading": "にほんご",
+          "meaning": "Japanese"
+        },
+        {
+          "word": "難しい",
+          "reading": "むずかしい",
+          "meaning": "difficult"
+        },
+        {
+          "word": "面白い",
+          "reading": "おもしろい",
+          "meaning": "interesting"
+        }
+      ]
     },
     {
       "id": "n5_053_2",
@@ -63,8 +80,18 @@
       "register": "neutral",
       "vocab": [
         {
-          "word": "出かけます",
-          "reading": "でかけます",
+          "word": "雨",
+          "reading": "あめ",
+          "meaning": "rain"
+        },
+        {
+          "word": "降る",
+          "reading": "ふる",
+          "meaning": "fall (rain)"
+        },
+        {
+          "word": "出かける",
+          "reading": "でかける",
           "meaning": "go out"
         }
       ],
@@ -97,7 +124,19 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "高い",
+          "reading": "たかい",
+          "meaning": "expensive"
+        },
+        {
+          "word": "買う",
+          "reading": "かう",
+          "meaning": "buy"
+        }
+      ]
     },
     {
       "id": "n5_053_4",
@@ -129,9 +168,14 @@
       "register": "neutral",
       "vocab": [
         {
-          "word": "手伝います",
-          "reading": "てつだいます",
-          "meaning": "will help"
+          "word": "忙しい",
+          "reading": "いそがしい",
+          "meaning": "busy"
+        },
+        {
+          "word": "手伝う",
+          "reading": "てつだう",
+          "meaning": "help"
         }
       ]
     },
@@ -162,7 +206,24 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "小さい",
+          "reading": "ちいさい",
+          "meaning": "small"
+        },
+        {
+          "word": "美味しい",
+          "reading": "おいしい",
+          "meaning": "delicious"
+        },
+        {
+          "word": "レストラン",
+          "reading": "れすとらん",
+          "meaning": "restaurant"
+        }
+      ]
     },
     {
       "id": "n5_053_6",
@@ -192,7 +253,24 @@
       ],
       "audio_eligible": true,
       "register": "neutral",
-      "blank_occurrence": 2
+      "blank_occurrence": 2,
+      "vocab": [
+        {
+          "word": "時間",
+          "reading": "じかん",
+          "meaning": "time"
+        },
+        {
+          "word": "映画",
+          "reading": "えいが",
+          "meaning": "movie"
+        },
+        {
+          "word": "見る",
+          "reading": "みる",
+          "meaning": "watch"
+        }
+      ]
     },
     {
       "id": "n5_053_7",
@@ -224,9 +302,19 @@
       "register": "neutral",
       "vocab": [
         {
-          "word": "着ませんでした",
-          "reading": "きませんでした",
-          "meaning": "didn't wear"
+          "word": "寒い",
+          "reading": "さむい",
+          "meaning": "cold"
+        },
+        {
+          "word": "コート",
+          "reading": "こーと",
+          "meaning": "coat"
+        },
+        {
+          "word": "着る",
+          "reading": "きる",
+          "meaning": "wear"
         }
       ]
     },
@@ -260,9 +348,14 @@
       "register": "neutral",
       "vocab": [
         {
-          "word": "疲れている",
-          "reading": "つかれている",
-          "meaning": "tired"
+          "word": "疲れる",
+          "reading": "つかれる",
+          "meaning": "be tired"
+        },
+        {
+          "word": "勉強する",
+          "reading": "べんきょうする",
+          "meaning": "study"
         }
       ]
     },
@@ -296,9 +389,14 @@
       "register": "neutral",
       "vocab": [
         {
-          "word": "壊れました",
-          "reading": "こわれました",
-          "meaning": "broke"
+          "word": "新しい",
+          "reading": "あたらしい",
+          "meaning": "new"
+        },
+        {
+          "word": "壊れる",
+          "reading": "こわれる",
+          "meaning": "break"
         }
       ]
     },
@@ -332,9 +430,19 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "お金",
+          "reading": "おかね",
+          "meaning": "money"
+        },
+        {
           "word": "旅行",
           "reading": "りょこう",
           "meaning": "trip"
+        },
+        {
+          "word": "行く",
+          "reading": "いく",
+          "meaning": "go"
         }
       ],
       "blank_occurrence": 2

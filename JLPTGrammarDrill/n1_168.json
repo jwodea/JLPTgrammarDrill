@@ -8,11 +8,11 @@
       "id": "n1_168_1",
       "example_sentence": "分からないことがあれば、辞書で調べるなり先生に聞くなりしなさい。",
       "translation": "If there's something you don't understand, look it up in a dictionary or ask the teacher—do one or the other.",
-      "blank_target": "調べるなり",
+      "blank_target": "なり",
       "wrong_choices": [
-        "調べるやら",
-        "調べるだの",
-        "調べるとか"
+        "やら",
+        "だの",
+        "とか"
       ],
       "wrong_choice_explanations": [
         "やら…やら lists a jumble of things that happened ('what with A and B'), not options to choose from. 調べるやら先生に聞くなり also breaks the matched pair, and a chaotic list can't feed the command しなさい; the parallel なり…なり offers 'A or B, either will do'.",
@@ -44,7 +44,7 @@
           "meaning": "to ask"
         }
       ],
-      "blank_target_reading": "しらべるなり"
+      "blank_occurrence": 1
     },
     {
       "id": "n1_168_2",
@@ -270,11 +270,11 @@
       "id": "n1_168_7",
       "example_sentence": "会議で決まったことは、メモするなり録音するなりして残しておこう。",
       "translation": "Let's keep a record of whatever gets decided in the meeting—jot it down or record it or whatever.",
-      "blank_target": "メモするなり",
+      "blank_target": "なり",
       "wrong_choices": [
-        "メモするやら",
-        "メモするだの",
-        "メモするとか"
+        "やら",
+        "だの",
+        "とか"
       ],
       "wrong_choice_explanations": [
         "やら…やら lists a jumble of things that happened ('what with A and B'), not options to choose from. メモするやら録音するなり also breaks the matched pair, and a chaotic list can't feed the proposal 残しておこう; the parallel なり…なり offers 'A or B, either will do'.",
@@ -310,7 +310,8 @@
           "reading": "のこす",
           "meaning": "to leave, keep"
         }
-      ]
+      ],
+      "blank_occurrence": 1
     },
     {
       "id": "n1_168_8",

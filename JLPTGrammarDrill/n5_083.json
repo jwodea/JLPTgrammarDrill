@@ -8,11 +8,11 @@
       "id": "n5_083_1",
       "example_sentence": "お茶かコーヒーか、どちらにしますか。",
       "translation": "Tea or coffee — which will you have?",
-      "blank_target": "コーヒーか",
+      "blank_target": "か",
       "wrong_choices": [
-        "コーヒーと",
-        "コーヒーや",
-        "コーヒーも"
+        "と",
+        "や",
+        "も"
       ],
       "wrong_choice_explanations": [
         "コーヒーと links the two nouns as a complete pair ('tea and coffee'), but the question asks for one or the other — that needs か after the second option as well, mirroring the first か.",
@@ -37,18 +37,29 @@
           "word": "お茶",
           "reading": "おちゃ",
           "meaning": "tea"
+        },
+        {
+          "word": "コーヒー",
+          "reading": "こーひー",
+          "meaning": "coffee"
+        },
+        {
+          "word": "どちら",
+          "reading": "どちら",
+          "meaning": "which (of two)"
         }
-      ]
+      ],
+      "blank_occurrence": 2
     },
     {
       "id": "n5_083_2",
       "example_sentence": "行くか行かないか、まだ決めていません。",
       "translation": "I haven't decided yet whether to go or not.",
-      "blank_target": "行かないか",
+      "blank_target": "か",
       "wrong_choices": [
-        "行かないと",
-        "行かないし",
-        "行かないで"
+        "と",
+        "し",
+        "で"
       ],
       "wrong_choice_explanations": [
         "行かないと turns the clause into a conditional ('if I don't go, ...'), which doesn't pair with the first か to express undecided alternatives.",
@@ -67,15 +78,25 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "いかないか",
       "register": "neutral",
       "vocab": [
         {
-          "word": "決めていません",
-          "reading": "きめていません",
-          "meaning": "haven't decided"
+          "word": "行く",
+          "reading": "いく",
+          "meaning": "go"
+        },
+        {
+          "word": "まだ",
+          "reading": "まだ",
+          "meaning": "still; (not) yet"
+        },
+        {
+          "word": "決める",
+          "reading": "きめる",
+          "meaning": "decide"
         }
-      ]
+      ],
+      "blank_occurrence": 3
     },
     {
       "id": "n5_083_3",
@@ -107,9 +128,19 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "電車",
+          "reading": "でんしゃ",
+          "meaning": "train"
+        },
+        {
           "word": "会場",
           "reading": "かいじょう",
           "meaning": "venue"
+        },
+        {
+          "word": "行く",
+          "reading": "いく",
+          "meaning": "go"
         }
       ]
     },
@@ -147,6 +178,11 @@
           "word": "肉",
           "reading": "にく",
           "meaning": "meat"
+        },
+        {
+          "word": "どちら",
+          "reading": "どちら",
+          "meaning": "which (of two)"
         }
       ]
     },
@@ -186,9 +222,19 @@
           "meaning": "red"
         },
         {
+          "word": "好き",
+          "reading": "すき",
+          "meaning": "liked; favorite"
+        },
+        {
           "word": "色",
           "reading": "いろ",
           "meaning": "color"
+        },
+        {
+          "word": "教える",
+          "reading": "おしえる",
+          "meaning": "tell; teach"
         }
       ]
     },
@@ -196,11 +242,11 @@
       "id": "n5_083_6",
       "example_sentence": "来週か再来週か、京都に行く予定です。",
       "translation": "I plan to go to Kyoto either next week or the week after.",
-      "blank_target": "再来週か",
+      "blank_target": "か",
       "wrong_choices": [
-        "再来週と",
-        "再来週や",
-        "再来週が"
+        "と",
+        "や",
+        "が"
       ],
       "wrong_choice_explanations": [
         "再来週と would tie the two weeks together ('next week and the week after'), but the speaker is undecided between them — that's the second か's job.",
@@ -219,25 +265,45 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "さらいしゅうか",
       "register": "neutral",
       "vocab": [
+        {
+          "word": "来週",
+          "reading": "らいしゅう",
+          "meaning": "next week"
+        },
+        {
+          "word": "再来週",
+          "reading": "さらいしゅう",
+          "meaning": "the week after next"
+        },
+        {
+          "word": "京都",
+          "reading": "きょうと",
+          "meaning": "Kyoto"
+        },
+        {
+          "word": "行く",
+          "reading": "いく",
+          "meaning": "go"
+        },
         {
           "word": "予定",
           "reading": "よてい",
           "meaning": "plan"
         }
-      ]
+      ],
+      "blank_occurrence": 2
     },
     {
       "id": "n5_083_7",
       "example_sentence": "彼が来るか来ないか、私には分かりません。",
       "translation": "I don't know whether he's coming or not.",
-      "blank_target": "来ないか",
+      "blank_target": "か",
       "wrong_choices": [
-        "来ないと",
-        "来ないし",
-        "来ないで"
+        "と",
+        "し",
+        "で"
       ],
       "wrong_choice_explanations": [
         "来ないと turns the second clause into a conditional ('if he doesn't come'), but the speaker is reporting an unknown outcome, which needs か as the closing alternative marker.",
@@ -256,8 +322,30 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "こないか",
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "彼",
+          "reading": "かれ",
+          "meaning": "he"
+        },
+        {
+          "word": "来る",
+          "reading": "くる",
+          "meaning": "come"
+        },
+        {
+          "word": "私",
+          "reading": "わたし",
+          "meaning": "I"
+        },
+        {
+          "word": "分かる",
+          "reading": "わかる",
+          "meaning": "know; understand"
+        }
+      ],
+      "blank_occurrence": 2
     },
     {
       "id": "n5_083_8",
@@ -290,6 +378,11 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "ペン",
+          "reading": "ぺん",
+          "meaning": "pen"
+        },
+        {
           "word": "書きやすい",
           "reading": "かきやすい",
           "meaning": "easy to write with"
@@ -298,6 +391,11 @@
           "word": "方",
           "reading": "ほう",
           "meaning": "the one; alternative"
+        },
+        {
+          "word": "使う",
+          "reading": "つかう",
+          "meaning": "use"
         }
       ]
     },
@@ -332,9 +430,24 @@
       "register": "neutral",
       "vocab": [
         {
-          "word": "連絡して",
-          "reading": "れんらくして",
-          "meaning": "contact"
+          "word": "メール",
+          "reading": "めーる",
+          "meaning": "email"
+        },
+        {
+          "word": "好き",
+          "reading": "すき",
+          "meaning": "liked; preferred"
+        },
+        {
+          "word": "方",
+          "reading": "ほう",
+          "meaning": "the one; alternative"
+        },
+        {
+          "word": "連絡する",
+          "reading": "れんらくする",
+          "meaning": "contact; get in touch"
         }
       ]
     },
@@ -373,9 +486,14 @@
           "meaning": "lunch"
         },
         {
-          "word": "決めかねています",
-          "reading": "きめかねています",
-          "meaning": "can't decide"
+          "word": "うどん",
+          "reading": "うどん",
+          "meaning": "udon (noodles)"
+        },
+        {
+          "word": "決めかねる",
+          "reading": "きめかねる",
+          "meaning": "be unable to decide"
         }
       ]
     }

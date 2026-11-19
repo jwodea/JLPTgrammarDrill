@@ -40,9 +40,9 @@
           "meaning": "library"
         },
         {
-          "word": "勉強",
-          "reading": "べんきょう",
-          "meaning": "study, studying"
+          "word": "勉強する",
+          "reading": "べんきょうする",
+          "meaning": "study"
         }
       ]
     },
@@ -80,6 +80,11 @@
           "word": "駅員",
           "reading": "えきいん",
           "meaning": "station attendant"
+        },
+        {
+          "word": "とても",
+          "reading": "とても",
+          "meaning": "very"
         }
       ]
     },
@@ -87,11 +92,11 @@
       "id": "n5_091_3",
       "example_sentence": "この部屋はあまりきれいじゃないです。",
       "translation": "This room isn't very clean.",
-      "blank_target": "きれいじゃない",
+      "blank_target": "じゃない",
       "wrong_choices": [
-        "きれいくない",
-        "きれいない",
-        "きれいなくない"
+        "くない",
+        "ない",
+        "なくない"
       ],
       "wrong_choice_explanations": [
         "きれいくない uses the i-adjective negative 〜くない, but きれい (in spite of ending in い) is a な-adjective; its negative is 〜じゃない or 〜ではない.",
@@ -121,6 +126,11 @@
           "word": "あまり",
           "reading": "あまり",
           "meaning": "not very (with negative)"
+        },
+        {
+          "word": "きれい",
+          "reading": "きれい",
+          "meaning": "clean; tidy"
         }
       ]
     },
@@ -155,14 +165,19 @@
       "register": "neutral",
       "vocab": [
         {
-          "word": "生活",
-          "reading": "せいかつ",
-          "meaning": "(daily) life"
-        },
-        {
           "word": "新しい",
           "reading": "あたらしい",
           "meaning": "new"
+        },
+        {
+          "word": "アプリ",
+          "reading": "あぷり",
+          "meaning": "app"
+        },
+        {
+          "word": "生活",
+          "reading": "せいかつ",
+          "meaning": "(daily) life"
         }
       ]
     },
@@ -244,14 +259,19 @@
       "register": "casual",
       "vocab": [
         {
+          "word": "昨日",
+          "reading": "きのう",
+          "meaning": "yesterday"
+        },
+        {
           "word": "仕事",
           "reading": "しごと",
           "meaning": "work"
         },
         {
-          "word": "忙しくて",
-          "reading": "いそがしくて",
-          "meaning": "busy (te-form)"
+          "word": "忙しい",
+          "reading": "いそがしい",
+          "meaning": "busy"
         }
       ]
     },
@@ -291,8 +311,13 @@
           "meaning": "(my) older brother"
         },
         {
-          "word": "弾きます",
-          "reading": "ひきます",
+          "word": "ギター",
+          "reading": "ぎたー",
+          "meaning": "guitar"
+        },
+        {
+          "word": "弾く",
+          "reading": "ひく",
           "meaning": "play (an instrument)"
         }
       ]
@@ -301,11 +326,11 @@
       "id": "n5_091_8",
       "example_sentence": "田中さんはハンサムで優しい。",
       "translation": "Mr. Tanaka is handsome and kind.",
-      "blank_target": "ハンサムで",
+      "blank_target": "で",
       "wrong_choices": [
-        "ハンサムくて",
-        "ハンサムにて",
-        "ハンサムだて"
+        "くて",
+        "にて",
+        "だて"
       ],
       "wrong_choice_explanations": [
         "ハンサムくて uses the i-adjective te-form 〜くて, but ハンサム is a な-adjective; its te-form is made with the copula で, giving ハンサムで.",
@@ -326,6 +351,11 @@
       "audio_eligible": true,
       "register": "casual",
       "vocab": [
+        {
+          "word": "ハンサム",
+          "reading": "はんさむ",
+          "meaning": "handsome"
+        },
         {
           "word": "優しい",
           "reading": "やさしい",
@@ -364,14 +394,29 @@
       "register": "casual",
       "vocab": [
         {
+          "word": "子供",
+          "reading": "こども",
+          "meaning": "child"
+        },
+        {
           "word": "道",
           "reading": "みち",
           "meaning": "road"
         },
         {
-          "word": "歩いて",
-          "reading": "あるいて",
-          "meaning": "walking (te-form)"
+          "word": "歩く",
+          "reading": "あるく",
+          "meaning": "walk"
+        },
+        {
+          "word": "学校",
+          "reading": "がっこう",
+          "meaning": "school"
+        },
+        {
+          "word": "行く",
+          "reading": "いく",
+          "meaning": "go"
         }
       ]
     },
@@ -409,6 +454,11 @@
           "word": "寺",
           "reading": "てら",
           "meaning": "temple"
+        },
+        {
+          "word": "とても",
+          "reading": "とても",
+          "meaning": "very"
         }
       ]
     }

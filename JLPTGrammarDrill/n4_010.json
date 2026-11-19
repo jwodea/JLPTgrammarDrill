@@ -31,7 +31,24 @@
         }
       ],
       "audio_eligible": true,
-      "register": "casual"
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "友達",
+          "reading": "ともだち",
+          "meaning": "friend"
+        },
+        {
+          "word": "プレゼント",
+          "reading": "ぷれぜんと",
+          "meaning": "present"
+        },
+        {
+          "word": "買う",
+          "reading": "かう",
+          "meaning": "buy"
+        }
+      ]
     },
     {
       "id": "n4_010_2",
@@ -60,7 +77,24 @@
         }
       ],
       "audio_eligible": true,
-      "register": "casual"
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "先生",
+          "reading": "せんせい",
+          "meaning": "teacher"
+        },
+        {
+          "word": "宿題",
+          "reading": "しゅくだい",
+          "meaning": "homework"
+        },
+        {
+          "word": "手伝う",
+          "reading": "てつだう",
+          "meaning": "help"
+        }
+      ]
     },
     {
       "id": "n4_010_3",
@@ -95,6 +129,21 @@
           "word": "近所",
           "reading": "きんじょ",
           "meaning": "neighborhood"
+        },
+        {
+          "word": "人",
+          "reading": "ひと",
+          "meaning": "person"
+        },
+        {
+          "word": "野菜",
+          "reading": "やさい",
+          "meaning": "vegetables"
+        },
+        {
+          "word": "持って来る",
+          "reading": "もってくる",
+          "meaning": "bring"
         }
       ]
     },
@@ -128,9 +177,19 @@
       "register": "casual",
       "vocab": [
         {
-          "word": "貸して",
-          "reading": "かして",
-          "meaning": "lend (te-form of 貸す)"
+          "word": "弟",
+          "reading": "おとうと",
+          "meaning": "younger brother"
+        },
+        {
+          "word": "ゲーム",
+          "reading": "げーむ",
+          "meaning": "game"
+        },
+        {
+          "word": "貸す",
+          "reading": "かす",
+          "meaning": "lend"
         }
       ]
     },
@@ -167,6 +226,16 @@
           "word": "同僚",
           "reading": "どうりょう",
           "meaning": "coworker"
+        },
+        {
+          "word": "チケット",
+          "reading": "ちけっと",
+          "meaning": "ticket"
+        },
+        {
+          "word": "取る",
+          "reading": "とる",
+          "meaning": "get; book"
         }
       ]
     },
@@ -185,7 +254,7 @@
         "ので means 'because/since' — it shows cause and effect, not receiving favors from others.",
         "から means 'because/from' — it expresses reason or starting point, not beneficial actions received."
       ],
-      "hiragana_full": "はははおいしいゆうしょくをつくってくれました",
+      "hiragana_full": "はははおいしいゆうしょくをつくってくれました。",
       "audio_alternatives": [
         {
           "kanji": "母が美味しい夕ご飯を作ってくれました。",
@@ -200,9 +269,24 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "母",
+          "reading": "はは",
+          "meaning": "mother"
+        },
+        {
+          "word": "美味しい",
+          "reading": "おいしい",
+          "meaning": "delicious"
+        },
+        {
           "word": "夕食",
           "reading": "ゆうしょく",
           "meaning": "dinner"
+        },
+        {
+          "word": "作る",
+          "reading": "つくる",
+          "meaning": "make"
         }
       ]
     },
@@ -233,7 +317,29 @@
         }
       ],
       "audio_eligible": true,
-      "register": "casual"
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "彼",
+          "reading": "かれ",
+          "meaning": "he"
+        },
+        {
+          "word": "重い",
+          "reading": "おもい",
+          "meaning": "heavy"
+        },
+        {
+          "word": "荷物",
+          "reading": "にもつ",
+          "meaning": "luggage"
+        },
+        {
+          "word": "運ぶ",
+          "reading": "はこぶ",
+          "meaning": "carry"
+        }
+      ]
     },
     {
       "id": "n4_010_8",
@@ -262,7 +368,24 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "姉",
+          "reading": "あね",
+          "meaning": "older sister"
+        },
+        {
+          "word": "駅",
+          "reading": "えき",
+          "meaning": "station"
+        },
+        {
+          "word": "送る",
+          "reading": "おくる",
+          "meaning": "take (someone somewhere)"
+        }
+      ]
     },
     {
       "id": "n4_010_9",
@@ -279,7 +402,7 @@
         "うち means 'while/during' — it shows time periods, not the pattern for receiving favors.",
         "間 means 'between/during' — it indicates duration or intervals, not beneficial actions received."
       ],
-      "hiragana_full": "いしゃがしんせつにしんさつしてくれました",
+      "hiragana_full": "いしゃがしんせつにしんさつしてくれました。",
       "audio_alternatives": [
         {
           "kanji": "医者が親切に診てくれました。",
@@ -294,14 +417,19 @@
       "register": "neutral",
       "vocab": [
         {
-          "word": "診察",
-          "reading": "しんさつ",
-          "meaning": "medical examination"
+          "word": "医者",
+          "reading": "いしゃ",
+          "meaning": "doctor"
         },
         {
           "word": "親切に",
           "reading": "しんせつに",
           "meaning": "kindly"
+        },
+        {
+          "word": "診察する",
+          "reading": "しんさつする",
+          "meaning": "examine (a patient)"
         }
       ]
     },
@@ -320,7 +448,7 @@
         "なり means 'or/as soon as' — it shows alternatives or sequence, not the pattern for receiving help.",
         "そう means 'seems/looks like' — it expresses appearance or hearsay, not beneficial actions received."
       ],
-      "hiragana_full": "そふがむかしのはなしをきかせてくれます",
+      "hiragana_full": "そふがむかしのはなしをきかせてくれます。",
       "audio_alternatives": [
         {
           "kanji": "祖父は昔の話を聞かせてくれます。",
@@ -338,6 +466,21 @@
           "word": "祖父",
           "reading": "そふ",
           "meaning": "(my) grandfather"
+        },
+        {
+          "word": "昔",
+          "reading": "むかし",
+          "meaning": "the past; old times"
+        },
+        {
+          "word": "話",
+          "reading": "はなし",
+          "meaning": "story"
+        },
+        {
+          "word": "聞かせる",
+          "reading": "きかせる",
+          "meaning": "tell"
         }
       ]
     }

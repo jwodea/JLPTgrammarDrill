@@ -31,7 +31,24 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "午後",
+          "reading": "ごご",
+          "meaning": "afternoon; PM"
+        },
+        {
+          "word": "三時",
+          "reading": "さんじ",
+          "meaning": "three o'clock"
+        },
+        {
+          "word": "会う",
+          "reading": "あう",
+          "meaning": "meet"
+        }
+      ]
     },
     {
       "id": "n5_057_2",
@@ -60,7 +77,24 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "夜",
+          "reading": "よる",
+          "meaning": "night"
+        },
+        {
+          "word": "十時",
+          "reading": "じゅうじ",
+          "meaning": "ten o'clock"
+        },
+        {
+          "word": "寝る",
+          "reading": "ねる",
+          "meaning": "go to bed"
+        }
+      ]
     },
     {
       "id": "n5_057_3",
@@ -89,7 +123,24 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "朝",
+          "reading": "あさ",
+          "meaning": "morning"
+        },
+        {
+          "word": "七時",
+          "reading": "しちじ",
+          "meaning": "seven o'clock"
+        },
+        {
+          "word": "起きる",
+          "reading": "おきる",
+          "meaning": "get up; wake up"
+        }
+      ]
     },
     {
       "id": "n5_057_4",
@@ -121,13 +172,18 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "春",
+          "reading": "はる",
+          "meaning": "spring"
+        },
+        {
           "word": "桜",
           "reading": "さくら",
           "meaning": "cherry blossoms"
         },
         {
-          "word": "咲きます",
-          "reading": "さきます",
+          "word": "咲く",
+          "reading": "さく",
           "meaning": "bloom"
         }
       ]
@@ -162,9 +218,24 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "お昼",
+          "reading": "おひる",
+          "meaning": "noon; midday"
+        },
+        {
+          "word": "十二時",
+          "reading": "じゅうにじ",
+          "meaning": "twelve o'clock"
+        },
+        {
           "word": "お弁当",
           "reading": "おべんとう",
           "meaning": "boxed lunch"
+        },
+        {
+          "word": "食べる",
+          "reading": "たべる",
+          "meaning": "eat"
         }
       ]
     },
@@ -195,7 +266,24 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "冬",
+          "reading": "ふゆ",
+          "meaning": "winter"
+        },
+        {
+          "word": "雪",
+          "reading": "ゆき",
+          "meaning": "snow"
+        },
+        {
+          "word": "降る",
+          "reading": "ふる",
+          "meaning": "fall (snow)"
+        }
+      ]
     },
     {
       "id": "n5_057_7",
@@ -230,6 +318,16 @@
           "word": "夕方",
           "reading": "ゆうがた",
           "meaning": "early evening"
+        },
+        {
+          "word": "六時",
+          "reading": "ろくじ",
+          "meaning": "six o'clock"
+        },
+        {
+          "word": "帰る",
+          "reading": "かえる",
+          "meaning": "go home; return"
         }
       ]
     },
@@ -268,9 +366,14 @@
           "meaning": "class"
         },
         {
-          "word": "始まります",
-          "reading": "はじまります",
-          "meaning": "begins"
+          "word": "九時",
+          "reading": "くじ",
+          "meaning": "nine o'clock"
+        },
+        {
+          "word": "始まる",
+          "reading": "はじまる",
+          "meaning": "begin"
         }
       ]
     },
@@ -303,6 +406,11 @@
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
+        {
+          "word": "秋",
+          "reading": "あき",
+          "meaning": "autumn; fall"
+        },
         {
           "word": "紅葉",
           "reading": "こうよう",
@@ -350,9 +458,19 @@
           "meaning": "middle of the night"
         },
         {
-          "word": "かかってきました",
-          "reading": "かかってきました",
-          "meaning": "(a call) came in"
+          "word": "二時",
+          "reading": "にじ",
+          "meaning": "two o'clock"
+        },
+        {
+          "word": "電話",
+          "reading": "でんわ",
+          "meaning": "telephone call"
+        },
+        {
+          "word": "かかってくる",
+          "reading": "かかってくる",
+          "meaning": "(a call) come in"
         }
       ]
     }

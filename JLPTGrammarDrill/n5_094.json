@@ -137,11 +137,11 @@
       "id": "n5_094_4",
       "example_sentence": "この町は最近にぎやかになった。",
       "translation": "This town has gotten lively recently.",
-      "blank_target": "にぎやかになった",
+      "blank_target": "になった",
       "wrong_choices": [
-        "にぎやかにした",
-        "にぎやかだ",
-        "にぎやかで"
+        "にした",
+        "だ",
+        "で"
       ],
       "wrong_choice_explanations": [
         "にぎやかにした means 'made it lively' (someone caused it); but the sentence's subject is the town itself changing, not someone acting on it.",
@@ -171,6 +171,11 @@
           "word": "最近",
           "reading": "さいきん",
           "meaning": "recently"
+        },
+        {
+          "word": "にぎやか",
+          "reading": "にぎやか",
+          "meaning": "lively"
         }
       ]
     },
@@ -205,9 +210,19 @@
       "register": "neutral",
       "vocab": [
         {
-          "word": "練習",
-          "reading": "れんしゅう",
+          "word": "毎日",
+          "reading": "まいにち",
+          "meaning": "every day"
+        },
+        {
+          "word": "練習する",
+          "reading": "れんしゅうする",
           "meaning": "practice"
+        },
+        {
+          "word": "日本語",
+          "reading": "にほんご",
+          "meaning": "Japanese (language)"
         }
       ]
     },
@@ -240,6 +255,11 @@
       "audio_eligible": true,
       "register": "casual",
       "vocab": [
+        {
+          "word": "父",
+          "reading": "ちち",
+          "meaning": "(my) father"
+        },
         {
           "word": "今年",
           "reading": "ことし",
@@ -288,9 +308,9 @@
           "meaning": "snow"
         },
         {
-          "word": "降って",
-          "reading": "ふって",
-          "meaning": "falling (te-form)"
+          "word": "降る",
+          "reading": "ふる",
+          "meaning": "fall (snow)"
         },
         {
           "word": "道",
@@ -328,6 +348,11 @@
       "audio_eligible": true,
       "register": "casual",
       "vocab": [
+        {
+          "word": "兄",
+          "reading": "あに",
+          "meaning": "(my) older brother"
+        },
         {
           "word": "将来",
           "reading": "しょうらい",
@@ -371,13 +396,18 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "部屋",
+          "reading": "へや",
+          "meaning": "room"
+        },
+        {
           "word": "窓",
           "reading": "まど",
           "meaning": "window"
         },
         {
-          "word": "開けます",
-          "reading": "あけます",
+          "word": "開ける",
+          "reading": "あける",
           "meaning": "open"
         }
       ]
@@ -418,9 +448,9 @@
           "meaning": "medicine"
         },
         {
-          "word": "飲んで",
-          "reading": "のんで",
-          "meaning": "taking (medicine)"
+          "word": "飲む",
+          "reading": "のむ",
+          "meaning": "take (medicine)"
         }
       ]
     }

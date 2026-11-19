@@ -19,7 +19,7 @@
         "も means 'also/even' — it doesn't fit here because we need the specific negative-only construction.",
         "は marks the topic — it doesn't fit here because we need to express the limitation with negative verb."
       ],
-      "hiragana_full": "おかねがせんえんしかありません",
+      "hiragana_full": "おかねがせんえんしかありません。",
       "audio_alternatives": [
         {
           "kanji": "千円しか持っていません。",
@@ -31,7 +31,19 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "お金",
+          "reading": "おかね",
+          "meaning": "money"
+        },
+        {
+          "word": "千円",
+          "reading": "せんえん",
+          "meaning": "1000 yen"
+        }
+      ]
     },
     {
       "id": "n5_060_2",
@@ -48,7 +60,7 @@
         "が marks the subject — it doesn't fit here because '日本語' is the object and we need the 'only' meaning.",
         "だけ means 'only' but requires a positive verb — it doesn't work with the negative verb '話せません'."
       ],
-      "hiragana_full": "にほんごしかはなせません",
+      "hiragana_full": "にほんごしかはなせません。",
       "audio_alternatives": [
         {
           "kanji": "日本語だけ話せます。",
@@ -63,9 +75,14 @@
       "register": "neutral",
       "vocab": [
         {
-          "word": "話せません",
-          "reading": "はなせません",
-          "meaning": "can't speak"
+          "word": "日本語",
+          "reading": "にほんご",
+          "meaning": "Japanese (language)"
+        },
+        {
+          "word": "話す",
+          "reading": "はなす",
+          "meaning": "speak"
         }
       ]
     },
@@ -84,7 +101,7 @@
         "だけ means 'only' but is used with positive verbs — it doesn't work with the negative verb 'いません'.",
         "ほど means 'to the extent of' — it doesn't fit here because we're expressing limitation, not degree."
       ],
-      "hiragana_full": "ともだちがひとりしかいません",
+      "hiragana_full": "ともだちがひとりしかいません。",
       "audio_alternatives": [
         {
           "kanji": "友達は一人しかいません。",
@@ -98,6 +115,11 @@
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
+        {
+          "word": "友達",
+          "reading": "ともだち",
+          "meaning": "friend"
+        },
         {
           "word": "一人",
           "reading": "ひとり",
@@ -132,7 +154,19 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "コーヒー",
+          "reading": "こーひー",
+          "meaning": "coffee"
+        },
+        {
+          "word": "飲む",
+          "reading": "のむ",
+          "meaning": "drink"
+        }
+      ]
     },
     {
       "id": "n5_060_5",
@@ -149,7 +183,7 @@
         "ばかり means 'only/nothing but' but is used with positive verbs — it doesn't work with the negative '読んでいません'.",
         "だけ means 'only' but requires a positive verb — it doesn't work with the negative verb '読んでいません'."
       ],
-      "hiragana_full": "このほんしかよんでいません",
+      "hiragana_full": "このほんしかよんでいません。",
       "audio_alternatives": [
         {
           "kanji": "この本だけ読んでいます。",
@@ -161,7 +195,19 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "本",
+          "reading": "ほん",
+          "meaning": "book"
+        },
+        {
+          "word": "読む",
+          "reading": "よむ",
+          "meaning": "read"
+        }
+      ]
     },
     {
       "id": "n5_060_6",
@@ -193,14 +239,19 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "彼",
+          "reading": "かれ",
+          "meaning": "he"
+        },
+        {
           "word": "問題",
           "reading": "もんだい",
           "meaning": "problem"
         },
         {
-          "word": "解けません",
-          "reading": "とけません",
-          "meaning": "can't solve"
+          "word": "解く",
+          "reading": "とく",
+          "meaning": "solve"
         }
       ]
     },
@@ -219,7 +270,7 @@
         "ばかり means 'only/nothing but' but doesn't work with the prohibition form 'いけません'.",
         "は marks the topic — it doesn't express the limiting meaning needed with the prohibition here."
       ],
-      "hiragana_full": "みずしかのんではいけません",
+      "hiragana_full": "みずしかのんではいけません。",
       "audio_alternatives": [
         {
           "kanji": "水だけ飲んでいいです。",
@@ -234,9 +285,14 @@
       "register": "neutral",
       "vocab": [
         {
-          "word": "飲んではいけません",
-          "reading": "のんではいけません",
-          "meaning": "must not drink"
+          "word": "水",
+          "reading": "みず",
+          "meaning": "water"
+        },
+        {
+          "word": "飲む",
+          "reading": "のむ",
+          "meaning": "drink"
         }
       ]
     },
@@ -255,7 +311,7 @@
         "に indicates time point — it doesn't fit here because we need to express that only today had time available.",
         "だけ means 'only' but requires a positive verb — it doesn't work with the negative 'ありませんでした'."
       ],
-      "hiragana_full": "きょうしかじかんがありませんでした",
+      "hiragana_full": "きょうしかじかんがありませんでした。",
       "audio_alternatives": [
         {
           "kanji": "今日だけ時間がありませんでした。",
@@ -267,7 +323,19 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "今日",
+          "reading": "きょう",
+          "meaning": "today"
+        },
+        {
+          "word": "時間",
+          "reading": "じかん",
+          "meaning": "time"
+        }
+      ]
     },
     {
       "id": "n5_060_9",
@@ -296,7 +364,19 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "一時間",
+          "reading": "いちじかん",
+          "meaning": "one hour"
+        },
+        {
+          "word": "勉強する",
+          "reading": "べんきょうする",
+          "meaning": "study"
+        }
+      ]
     },
     {
       "id": "n5_060_10",
@@ -313,7 +393,7 @@
         "ばかり means 'only/nothing but' but doesn't work with the negative potential form '食べられませんでした'.",
         "だけ means 'only' but requires a positive verb — it doesn't work with the negative '食べられませんでした'."
       ],
-      "hiragana_full": "ぱんしかたべられませんでした",
+      "hiragana_full": "ぱんしかたべられませんでした。",
       "audio_alternatives": [
         {
           "kanji": "パンだけ食べることができませんでした。",
@@ -328,9 +408,14 @@
       "register": "neutral",
       "vocab": [
         {
-          "word": "食べられませんでした",
-          "reading": "たべられませんでした",
-          "meaning": "couldn't eat"
+          "word": "パン",
+          "reading": "ぱん",
+          "meaning": "bread"
+        },
+        {
+          "word": "食べる",
+          "reading": "たべる",
+          "meaning": "eat"
         }
       ]
     }

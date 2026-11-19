@@ -50,11 +50,11 @@
       "id": "n1_212_2",
       "example_sentence": "客は来ないわ、注文は間違えるわで、開店初日は散々だった。",
       "translation": "What with no customers coming and orders getting mixed up, the first day of business was a disaster.",
-      "blank_target": "間違えるわで",
+      "blank_target": "るわで",
       "wrong_choices": [
-        "間違えたりで",
-        "間違えるどころか",
-        "間違えたあげく"
+        "たりで",
+        "るどころか",
+        "たあげく"
       ],
       "wrong_choice_explanations": [
         "たり lists actions in a たり〜たり pair, so 間違えたりで does not match the 来ないわ that opens the sentence; the lament over piled-up failures needs the matching わ in 間違えるわで.",
@@ -90,8 +90,7 @@
           "reading": "さんざん",
           "meaning": "awful; disastrous"
         }
-      ],
-      "blank_target_reading": "まちがえるわで"
+      ]
     },
     {
       "id": "n1_212_3",
@@ -143,11 +142,11 @@
       "id": "n1_212_4",
       "example_sentence": "会議は長引くわ、資料は足りないわで、準備不足が露呈した一日だった。",
       "translation": "What with the meeting dragging on and materials running short, it was a day that exposed how underprepared we were.",
-      "blank_target": "足りないわで",
+      "blank_target": "わで",
       "wrong_choices": [
-        "足りないやらで",
-        "足りないばかりに",
-        "足りないうえは"
+        "やらで",
+        "ばかりに",
+        "うえは"
       ],
       "wrong_choice_explanations": [
         "やら works only as a matched pair (長引くやら足りないやら), so 足りないやらで does not answer the 長引くわ that opens the list of problems; the frame needs 足りないわで.",
@@ -183,18 +182,17 @@
           "reading": "ろてい",
           "meaning": "exposure; coming to light"
         }
-      ],
-      "blank_target_reading": "たりないわで"
+      ]
     },
     {
       "id": "n1_212_5",
       "example_sentence": "道は渋滞するわ、雨は降り出すわで、旅行初日から気が滅入った。",
       "translation": "What with the roads jammed and the rain starting up, I felt down from the very first day of the trip.",
-      "blank_target": "降り出すわで",
+      "blank_target": "すわで",
       "wrong_choices": [
-        "降り出したところで",
-        "降り出す一方で",
-        "降り出したりで"
+        "したところで",
+        "す一方で",
+        "したりで"
       ],
       "wrong_choice_explanations": [
         "ところで here means 'even if (it does no good)': 雨は降り出したところで would say starting rain makes no difference, the opposite of the gloom in 気が滅入った, and it strands 渋滞するわ.",
@@ -225,8 +223,7 @@
           "reading": "めいる",
           "meaning": "to feel depressed; get down"
         }
-      ],
-      "blank_target_reading": "ふりだすわで"
+      ]
     },
     {
       "id": "n1_212_6",
@@ -415,11 +412,11 @@
       "id": "n1_212_10",
       "example_sentence": "給料は上がらないわ、物価は上がるわで、生活は苦しくなる一方だ。",
       "translation": "What with wages not rising and prices going up, life just keeps getting harder.",
-      "blank_target": "上がるわで",
+      "blank_target": "わで",
       "wrong_choices": [
-        "上がるやらで",
-        "上がるせいで",
-        "上がるばかりで"
+        "やらで",
+        "せいで",
+        "ばかりで"
       ],
       "wrong_choice_explanations": [
         "やら needs its own partner (上がらないやら上がるやら), so 上がるやらで does not answer 上がらないわ; the complaint list behind 苦しくなる一方だ needs 上がるわで.",
@@ -455,8 +452,7 @@
           "reading": "せいかつ",
           "meaning": "living; daily life"
         }
-      ],
-      "blank_target_reading": "あがるわで"
+      ]
     }
   ]
 }

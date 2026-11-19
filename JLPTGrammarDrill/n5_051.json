@@ -39,9 +39,9 @@
           "meaning": "busy"
         },
         {
-          "word": "手伝えません",
-          "reading": "てつだえません",
-          "meaning": "can't help"
+          "word": "手伝う",
+          "reading": "てつだう",
+          "meaning": "help"
         }
       ]
     },
@@ -80,9 +80,9 @@
           "meaning": "money"
         },
         {
-          "word": "買えません",
-          "reading": "かえません",
-          "meaning": "can't buy"
+          "word": "買う",
+          "reading": "かう",
+          "meaning": "buy"
         }
       ]
     },
@@ -116,14 +116,24 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "雨",
+          "reading": "あめ",
+          "meaning": "rain"
+        },
+        {
+          "word": "降る",
+          "reading": "ふる",
+          "meaning": "fall (rain)"
+        },
+        {
           "word": "傘",
           "reading": "かさ",
           "meaning": "umbrella"
         },
         {
-          "word": "降っている",
-          "reading": "ふっている",
-          "meaning": "is raining (falling)"
+          "word": "持って行く",
+          "reading": "もっていく",
+          "meaning": "take along"
         }
       ]
     },
@@ -157,8 +167,13 @@
       "register": "neutral",
       "vocab": [
         {
-          "word": "急いで",
-          "reading": "いそいで",
+          "word": "時間",
+          "reading": "じかん",
+          "meaning": "time"
+        },
+        {
+          "word": "急ぐ",
+          "reading": "いそぐ",
           "meaning": "hurry"
         }
       ]
@@ -193,9 +208,19 @@
       "register": "neutral",
       "vocab": [
         {
-          "word": "疲れた",
-          "reading": "つかれた",
-          "meaning": "got tired"
+          "word": "疲れる",
+          "reading": "つかれる",
+          "meaning": "get tired"
+        },
+        {
+          "word": "早く",
+          "reading": "はやく",
+          "meaning": "early"
+        },
+        {
+          "word": "寝る",
+          "reading": "ねる",
+          "meaning": "go to bed; sleep"
         }
       ]
     },
@@ -229,6 +254,11 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "明日",
+          "reading": "あした",
+          "meaning": "tomorrow"
+        },
+        {
           "word": "休み",
           "reading": "やすみ",
           "meaning": "day off"
@@ -237,6 +267,11 @@
           "word": "ゆっくり",
           "reading": "ゆっくり",
           "meaning": "leisurely; relax"
+        },
+        {
+          "word": "できる",
+          "reading": "できる",
+          "meaning": "be able to"
         }
       ]
     },
@@ -275,8 +310,13 @@
           "meaning": "cold"
         },
         {
-          "word": "着ました",
-          "reading": "きました",
+          "word": "コート",
+          "reading": "こーと",
+          "meaning": "coat"
+        },
+        {
+          "word": "着る",
+          "reading": "きる",
           "meaning": "put on"
         }
       ]
@@ -316,9 +356,19 @@
           "meaning": "homework"
         },
         {
-          "word": "遊べません",
-          "reading": "あそべません",
-          "meaning": "can't play"
+          "word": "多い",
+          "reading": "おおい",
+          "meaning": "a lot; many"
+        },
+        {
+          "word": "今日",
+          "reading": "きょう",
+          "meaning": "today"
+        },
+        {
+          "word": "遊ぶ",
+          "reading": "あそぶ",
+          "meaning": "play"
         }
       ]
     },
@@ -349,7 +399,29 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "日本語",
+          "reading": "にほんご",
+          "meaning": "Japanese"
+        },
+        {
+          "word": "好き",
+          "reading": "すき",
+          "meaning": "like"
+        },
+        {
+          "word": "毎日",
+          "reading": "まいにち",
+          "meaning": "every day"
+        },
+        {
+          "word": "勉強する",
+          "reading": "べんきょうする",
+          "meaning": "study"
+        }
+      ]
     },
     {
       "id": "n5_051_10",
@@ -386,9 +458,19 @@
           "meaning": "stomach"
         },
         {
-          "word": "空いた",
-          "reading": "すいた",
-          "meaning": "got empty (hungry)"
+          "word": "空く",
+          "reading": "すく",
+          "meaning": "get empty (hungry)"
+        },
+        {
+          "word": "何か",
+          "reading": "なにか",
+          "meaning": "something"
+        },
+        {
+          "word": "食べる",
+          "reading": "たべる",
+          "meaning": "eat"
         }
       ]
     }

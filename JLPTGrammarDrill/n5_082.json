@@ -69,7 +69,14 @@
       ],
       "audio_eligible": true,
       "blank_target_reading": "さむかった",
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "昨日",
+          "reading": "きのう",
+          "meaning": "yesterday"
+        }
+      ]
     },
     {
       "id": "n5_082_3",
@@ -99,17 +106,24 @@
       ],
       "audio_eligible": true,
       "blank_target_reading": "やすくない",
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "店",
+          "reading": "みせ",
+          "meaning": "store; shop"
+        }
+      ]
     },
     {
       "id": "n5_082_4",
       "example_sentence": "このケーキは美味しくて、安いです。",
       "translation": "This cake is delicious and cheap.",
-      "blank_target": "美味しくて",
+      "blank_target": "くて",
       "wrong_choices": [
-        "美味しいて",
-        "美味しで",
-        "美味しいで"
+        "いて",
+        "で",
+        "いで"
       ],
       "wrong_choice_explanations": [
         "美味しいて keeps the dictionary い and just adds て; i-adjectives form the te-form by dropping い and adding くて, so the correct shape is 美味しくて.",
@@ -128,8 +142,19 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "おいしくて",
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "ケーキ",
+          "reading": "けーき",
+          "meaning": "cake"
+        },
+        {
+          "word": "安い",
+          "reading": "やすい",
+          "meaning": "cheap"
+        }
+      ]
     },
     {
       "id": "n5_082_5",
@@ -167,9 +192,9 @@
           "meaning": "train"
         },
         {
-          "word": "着きました",
-          "reading": "つきました",
-          "meaning": "arrived"
+          "word": "着く",
+          "reading": "つく",
+          "meaning": "arrive"
         }
       ]
     },
@@ -201,7 +226,14 @@
       ],
       "audio_eligible": true,
       "blank_target_reading": "あつくなかった",
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "先週",
+          "reading": "せんしゅう",
+          "meaning": "last week"
+        }
+      ]
     },
     {
       "id": "n5_082_7",
@@ -231,7 +263,19 @@
       ],
       "audio_eligible": true,
       "blank_target_reading": "あたらしい",
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "車",
+          "reading": "くるま",
+          "meaning": "car"
+        },
+        {
+          "word": "買う",
+          "reading": "かう",
+          "meaning": "buy"
+        }
+      ]
     },
     {
       "id": "n5_082_8",
@@ -264,9 +308,9 @@
       "register": "neutral",
       "vocab": [
         {
-          "word": "なりました",
-          "reading": "なりました",
-          "meaning": "became"
+          "word": "子供",
+          "reading": "こども",
+          "meaning": "child"
         }
       ]
     },
@@ -298,7 +342,14 @@
       ],
       "audio_eligible": true,
       "blank_target_reading": "たのしそう",
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "彼",
+          "reading": "かれ",
+          "meaning": "he"
+        }
+      ]
     },
     {
       "id": "n5_082_10",

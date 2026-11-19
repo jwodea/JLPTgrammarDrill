@@ -9,7 +9,11 @@
       "example_sentence": "事情は、あえて言わずとも彼には分かっているはずだ。",
       "translation": "Even without my spelling it out, he surely understands the situation.",
       "blank_target": "ずとも",
-      "wrong_choices": ["ないと", "なくては", "ないように"],
+      "wrong_choices": [
+        "ないと",
+        "なくては",
+        "ないように"
+      ],
       "wrong_choice_explanations": [
         "ないと means 'if not, (then trouble)': 言わないと分からない. 言わないと分かっているはずだ reverses the logic, as if not telling him is what makes him understand; ずとも gives 'even without my saying it'.",
         "なくては means 'must' (with ならない): 言わなくては, 'I have to say it'. That makes telling him necessary, the opposite of the point that he understands anyway; ずとも says there's no need.",
@@ -17,14 +21,28 @@
       ],
       "hiragana_full": "じじょうは、あえていわずともかれにはわかっているはずだ。",
       "audio_alternatives": [
-        { "kanji": "こちらが言わずとも、彼は事情を察しているだろう。", "hiragana_full": "こちらがいわずとも、かれはじじょうをさっしているだろう。" },
-        { "kanji": "わざわざ言わなくても、彼には事情が分かっているはずだ。", "hiragana_full": "わざわざいわなくても、かれにはじじょうがわかっているはずだ。" }
+        {
+          "kanji": "こちらが言わずとも、彼は事情を察しているだろう。",
+          "hiragana_full": "こちらがいわずとも、かれはじじょうをさっしているだろう。"
+        },
+        {
+          "kanji": "わざわざ言わなくても、彼には事情が分かっているはずだ。",
+          "hiragana_full": "わざわざいわなくても、かれにはじじょうがわかっているはずだ。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "事情", "reading": "じじょう", "meaning": "circumstances; the situation" },
-        { "word": "あえて", "reading": "あえて", "meaning": "deliberately; going so far as to" }
+        {
+          "word": "事情",
+          "reading": "じじょう",
+          "meaning": "circumstances; the situation"
+        },
+        {
+          "word": "あえて",
+          "reading": "あえて",
+          "meaning": "deliberately; going so far as to"
+        }
       ]
     },
     {
@@ -32,7 +50,11 @@
       "example_sentence": "専門家が見ずとも、この製品の欠陥は明らかだ。",
       "translation": "Even without an expert examining it, this product's defects are plain to see.",
       "blank_target": "ずとも",
-      "wrong_choices": ["ないと", "ないように", "ないばかりに"],
+      "wrong_choices": [
+        "ないと",
+        "ないように",
+        "ないばかりに"
+      ],
       "wrong_choice_explanations": [
         "ないと means 'if not, (then trouble)': 見ないと分からない. 見ないと明らかだ is illogical — not examining it can't make the defects obvious; ずとも gives 'even without an expert looking'.",
         "ないように means 'so as not to'. 専門家が見ないように、欠陥は明らかだ would make the defects' obviousness a way to stop experts looking, which is nonsense; ずとも gives the concession.",
@@ -40,15 +62,33 @@
       ],
       "hiragana_full": "せんもんかがみずとも、このせいひんのけっかんはあきらかだ。",
       "audio_alternatives": [
-        { "kanji": "専門家の目を借りずとも、この製品の欠陥は歴然としている。", "hiragana_full": "せんもんかのめをかりずとも、このせいひんのけっかんはれきぜんとしている。" },
-        { "kanji": "専門家が見なくても、この製品の欠陥ははっきりしている。", "hiragana_full": "せんもんかがみなくても、このせいひんのけっかんははっきりしている。" }
+        {
+          "kanji": "専門家の目を借りずとも、この製品の欠陥は歴然としている。",
+          "hiragana_full": "せんもんかのめをかりずとも、このせいひんのけっかんはれきぜんとしている。"
+        },
+        {
+          "kanji": "専門家が見なくても、この製品の欠陥ははっきりしている。",
+          "hiragana_full": "せんもんかがみなくても、このせいひんのけっかんははっきりしている。"
+        }
       ],
       "audio_eligible": true,
       "register": "written",
       "vocab": [
-        { "word": "専門家", "reading": "せんもんか", "meaning": "expert; specialist" },
-        { "word": "欠陥", "reading": "けっかん", "meaning": "defect; flaw" },
-        { "word": "明らか", "reading": "あきらか", "meaning": "obvious; clear" }
+        {
+          "word": "専門家",
+          "reading": "せんもんか",
+          "meaning": "expert; specialist"
+        },
+        {
+          "word": "欠陥",
+          "reading": "けっかん",
+          "meaning": "defect; flaw"
+        },
+        {
+          "word": "明らか",
+          "reading": "あきらか",
+          "meaning": "obvious; clear"
+        }
       ]
     },
     {
@@ -56,7 +96,11 @@
       "example_sentence": "そんなに心配せずとも、あの子ならきっとうまくやるよ。",
       "translation": "You don't need to worry so much — that kid will surely pull it off.",
       "blank_target": "せずとも",
-      "wrong_choices": ["しないと", "しなくては", "しないように"],
+      "wrong_choices": [
+        "しないと",
+        "しなくては",
+        "しないように"
+      ],
       "wrong_choice_explanations": [
         "しないと means 'if you don't…, (then trouble)'. 心配しないと would imply the listener needs to worry, contradicting the reassurance that the kid will do well; せずとも says there's no need to worry.",
         "しなくては means 'must' (with ならない). 心配しなくては says the listener has to worry, the exact opposite of the reassurance; せずとも says they needn't.",
@@ -64,14 +108,28 @@
       ],
       "hiragana_full": "そんなにしんぱいせずとも、あのこならきっとうまくやるよ。",
       "audio_alternatives": [
-        { "kanji": "そう気に病まずとも、あの子ならきっと大丈夫だよ。", "hiragana_full": "そうきにやまずとも、あのこならきっとだいじょうぶだよ。" },
-        { "kanji": "そんなに心配しなくても、あの子ならうまくやるよ。", "hiragana_full": "そんなにしんぱいしなくても、あのこならうまくやるよ。" }
+        {
+          "kanji": "そう気に病まずとも、あの子ならきっと大丈夫だよ。",
+          "hiragana_full": "そうきにやまずとも、あのこならきっとだいじょうぶだよ。"
+        },
+        {
+          "kanji": "そんなに心配しなくても、あの子ならうまくやるよ。",
+          "hiragana_full": "そんなにしんぱいしなくても、あのこならうまくやるよ。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "心配", "reading": "しんぱい", "meaning": "worry; concern" },
-        { "word": "うまくやる", "reading": "うまくやる", "meaning": "to manage well; to pull it off" }
+        {
+          "word": "心配",
+          "reading": "しんぱい",
+          "meaning": "worry; concern"
+        },
+        {
+          "word": "うまくやる",
+          "reading": "うまくやる",
+          "meaning": "to manage well; to pull it off"
+        }
       ]
     },
     {
@@ -79,7 +137,11 @@
       "example_sentence": "わざわざ調べずとも、その答えはおおよそ見当がつく。",
       "translation": "Even without going to the trouble of looking it up, I can roughly guess the answer.",
       "blank_target": "ずとも",
-      "wrong_choices": ["ないと", "なくては", "ないばかりに"],
+      "wrong_choices": [
+        "ないと",
+        "なくては",
+        "ないばかりに"
+      ],
       "wrong_choice_explanations": [
         "ないと means 'if not, (then trouble)': 調べないと分からない. 調べないと見当がつく is illogical — not looking it up can't be what lets him guess; ずとも gives 'even without looking it up'.",
         "なくては means 'must' (with ならない). 調べなくては says the speaker has to look it up, contradicting 見当がつく ('I can guess'); ずとも says there's no need to.",
@@ -87,14 +149,28 @@
       ],
       "hiragana_full": "わざわざしらべずとも、そのこたえはおおよそけんとうがつく。",
       "audio_alternatives": [
-        { "kanji": "いちいち調べずとも、答えはだいたい想像がつく。", "hiragana_full": "いちいちしらべずとも、こたえはだいたいそうぞうがつく。" },
-        { "kanji": "わざわざ調べなくても、その答えは見当がつく。", "hiragana_full": "わざわざしらべなくても、そのこたえはけんとうがつく。" }
+        {
+          "kanji": "いちいち調べずとも、答えはだいたい想像がつく。",
+          "hiragana_full": "いちいちしらべずとも、こたえはだいたいそうぞうがつく。"
+        },
+        {
+          "kanji": "わざわざ調べなくても、その答えは見当がつく。",
+          "hiragana_full": "わざわざしらべなくても、そのこたえはけんとうがつく。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "わざわざ", "reading": "わざわざ", "meaning": "going out of one's way; taking the trouble to" },
-        { "word": "見当がつく", "reading": "けんとうがつく", "meaning": "to be able to guess; to have a rough idea" }
+        {
+          "word": "わざわざ",
+          "reading": "わざわざ",
+          "meaning": "going out of one's way; taking the trouble to"
+        },
+        {
+          "word": "見当がつく",
+          "reading": "けんとうがつく",
+          "meaning": "to be able to guess; to have a rough idea"
+        }
       ]
     },
     {
@@ -102,7 +178,11 @@
       "example_sentence": "そう急がずとも、開演までにはまだ十分に間に合う。",
       "translation": "There's no need to hurry; we'll still make it well before the curtain rises.",
       "blank_target": "ずとも",
-      "wrong_choices": ["ないと", "なくては", "ないように"],
+      "wrong_choices": [
+        "ないと",
+        "なくては",
+        "ないように"
+      ],
       "wrong_choice_explanations": [
         "ないと means 'if not, (then trouble)'. 急がないと sets up 'if we don't hurry, we won't make it', yet the sentence says there's plenty of time; ずとも says there's no need to hurry.",
         "なくては means 'must' (with ならない). 急がなくては says we have to hurry, contradicting まだ十分に間に合う ('we'll still make it easily'); ずとも says hurrying is unnecessary.",
@@ -110,14 +190,28 @@
       ],
       "hiragana_full": "そういそがずとも、かいえんまでにはまだじゅうぶんにまにあう。",
       "audio_alternatives": [
-        { "kanji": "そんなに慌てずとも、開演には余裕で間に合うよ。", "hiragana_full": "そんなにあわてずとも、かいえんにはよゆうでまにあうよ。" },
-        { "kanji": "そう急がなくても、開演までにはまだ間に合う。", "hiragana_full": "そういそがなくても、かいえんまでにはまだまにあう。" }
+        {
+          "kanji": "そんなに慌てずとも、開演には余裕で間に合うよ。",
+          "hiragana_full": "そんなにあわてずとも、かいえんにはよゆうでまにあうよ。"
+        },
+        {
+          "kanji": "そう急がなくても、開演までにはまだ間に合う。",
+          "hiragana_full": "そういそがなくても、かいえんまでにはまだまにあう。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "開演", "reading": "かいえん", "meaning": "start of a performance" },
-        { "word": "間に合う", "reading": "まにあう", "meaning": "to be in time" }
+        {
+          "word": "開演",
+          "reading": "かいえん",
+          "meaning": "start of a performance"
+        },
+        {
+          "word": "間に合う",
+          "reading": "まにあう",
+          "meaning": "to be in time"
+        }
       ]
     },
     {
@@ -125,7 +219,11 @@
       "example_sentence": "言葉で説明せずとも、その表情が全てを物語っていた。",
       "translation": "Without a word of explanation, his expression told the whole story.",
       "blank_target": "せずとも",
-      "wrong_choices": ["しないと", "しなくては", "しないように"],
+      "wrong_choices": [
+        "しないと",
+        "しなくては",
+        "しないように"
+      ],
       "wrong_choice_explanations": [
         "しないと means 'if not, (then trouble)': 説明しないと伝わらない. 説明しないと全てを物語っていた doesn't follow — the expression told all regardless; せずとも gives 'without any explanation'.",
         "しなくては means 'must' (with ならない). 説明しなくては says words were needed, contradicting the point that his expression said everything; せずとも says no explanation was needed.",
@@ -133,14 +231,28 @@
       ],
       "hiragana_full": "ことばでせつめいせずとも、そのひょうじょうがすべてをものがたっていた。",
       "audio_alternatives": [
-        { "kanji": "多くを説明せずとも、その顔つきが全てを語っていた。", "hiragana_full": "おおくをせつめいせずとも、そのかおつきがすべてをかたっていた。" },
-        { "kanji": "言葉で説明しなくても、その表情が全てを伝えていた。", "hiragana_full": "ことばでせつめいしなくても、そのひょうじょうがすべてをつたえていた。" }
+        {
+          "kanji": "多くを説明せずとも、その顔つきが全てを語っていた。",
+          "hiragana_full": "おおくをせつめいせずとも、そのかおつきがすべてをかたっていた。"
+        },
+        {
+          "kanji": "言葉で説明しなくても、その表情が全てを伝えていた。",
+          "hiragana_full": "ことばでせつめいしなくても、そのひょうじょうがすべてをつたえていた。"
+        }
       ],
       "audio_eligible": true,
       "register": "written",
       "vocab": [
-        { "word": "表情", "reading": "ひょうじょう", "meaning": "facial expression" },
-        { "word": "物語る", "reading": "ものがたる", "meaning": "to tell; to eloquently reveal" }
+        {
+          "word": "表情",
+          "reading": "ひょうじょう",
+          "meaning": "facial expression"
+        },
+        {
+          "word": "物語る",
+          "reading": "ものがたる",
+          "meaning": "to tell; to eloquently reveal"
+        }
       ]
     },
     {
@@ -148,7 +260,11 @@
       "example_sentence": "遠く離れて会わずとも、二人の心は固く結ばれていた。",
       "translation": "Though far apart and unable to meet, the two hearts remained firmly bound.",
       "blank_target": "ずとも",
-      "wrong_choices": ["ないと", "なくては", "ないばかりに"],
+      "wrong_choices": [
+        "ないと",
+        "なくては",
+        "ないばかりに"
+      ],
       "wrong_choice_explanations": [
         "ないと means 'if not, (then trouble)'. 会わないと implies that not meeting would break the bond, but the sentence says their hearts stayed bound anyway; ずとも gives 'even though they couldn't meet'.",
         "なくては means 'must' (with ならない). 会わなくては says they had to meet, contradicting the idea that distance didn't matter; ずとも says they were bound even without meeting.",
@@ -156,14 +272,28 @@
       ],
       "hiragana_full": "とおくはなれてあわずとも、ふたりのこころはかたくむすばれていた。",
       "audio_alternatives": [
-        { "kanji": "たとえ会えずとも、二人の絆は少しも揺らがなかった。", "hiragana_full": "たとえあえずとも、ふたりのきずなはすこしもゆらがなかった。" },
-        { "kanji": "遠く離れて会えなくても、二人の心は固く結ばれていた。", "hiragana_full": "とおくはなれてあえなくても、ふたりのこころはかたくむすばれていた。" }
+        {
+          "kanji": "たとえ会えずとも、二人の絆は少しも揺らがなかった。",
+          "hiragana_full": "たとえあえずとも、ふたりのきずなはすこしもゆらがなかった。"
+        },
+        {
+          "kanji": "遠く離れて会えなくても、二人の心は固く結ばれていた。",
+          "hiragana_full": "とおくはなれてあえなくても、ふたりのこころはかたくむすばれていた。"
+        }
       ],
       "audio_eligible": true,
       "register": "written",
       "vocab": [
-        { "word": "離れる", "reading": "はなれる", "meaning": "to be apart; to be separated" },
-        { "word": "結ばれる", "reading": "むすばれる", "meaning": "to be tied together; to be bound" }
+        {
+          "word": "離れる",
+          "reading": "はなれる",
+          "meaning": "to be apart; to be separated"
+        },
+        {
+          "word": "結ばれる",
+          "reading": "むすばれる",
+          "meaning": "to be tied together; to be bound"
+        }
       ]
     },
     {
@@ -171,7 +301,11 @@
       "example_sentence": "いちいち命令せずとも、優秀な部下たちは自ら動いた。",
       "translation": "Without being ordered at every turn, the capable subordinates acted of their own accord.",
       "blank_target": "せずとも",
-      "wrong_choices": ["しないと", "しなくては", "しないように"],
+      "wrong_choices": [
+        "しないと",
+        "しなくては",
+        "しないように"
+      ],
       "wrong_choice_explanations": [
         "しないと means 'if not, (then trouble)': 命令しないと動かない. That implies the staff need orders, contradicting 自ら動いた ('acted on their own'); せずとも says they moved without being told.",
         "しなくては means 'must' (with ならない). 命令しなくては says orders were necessary, the opposite of capable staff acting of their own accord; せずとも says no orders were needed.",
@@ -179,15 +313,33 @@
       ],
       "hiragana_full": "いちいちめいれいせずとも、ゆうしゅうなぶかたちはみずからうごいた。",
       "audio_alternatives": [
-        { "kanji": "細かく指示せずとも、優秀な部下たちは自主的に動いた。", "hiragana_full": "こまかくしじせずとも、ゆうしゅうなぶかたちはじしゅてきにうごいた。" },
-        { "kanji": "いちいち命令しなくても、優秀な部下たちは自ら動いた。", "hiragana_full": "いちいちめいれいしなくても、ゆうしゅうなぶかたちはみずからうごいた。" }
+        {
+          "kanji": "細かく指示せずとも、優秀な部下たちは自主的に動いた。",
+          "hiragana_full": "こまかくしじせずとも、ゆうしゅうなぶかたちはじしゅてきにうごいた。"
+        },
+        {
+          "kanji": "いちいち命令しなくても、優秀な部下たちは自ら動いた。",
+          "hiragana_full": "いちいちめいれいしなくても、ゆうしゅうなぶかたちはみずからうごいた。"
+        }
       ],
       "audio_eligible": true,
       "register": "written",
       "vocab": [
-        { "word": "命令", "reading": "めいれい", "meaning": "order; command" },
-        { "word": "部下", "reading": "ぶか", "meaning": "subordinate" },
-        { "word": "自ら", "reading": "みずから", "meaning": "of one's own accord; oneself" }
+        {
+          "word": "命令",
+          "reading": "めいれい",
+          "meaning": "order; command"
+        },
+        {
+          "word": "部下",
+          "reading": "ぶか",
+          "meaning": "subordinate"
+        },
+        {
+          "word": "自ら",
+          "reading": "みずから",
+          "meaning": "of one's own accord; oneself"
+        }
       ]
     },
     {
@@ -195,7 +347,11 @@
       "example_sentence": "多くを語らずとも、彼の固い決意はこちらに伝わってきた。",
       "translation": "Though he said little, his firm resolve came across to us clearly.",
       "blank_target": "ずとも",
-      "wrong_choices": ["ないと", "なくては", "ないように"],
+      "wrong_choices": [
+        "ないと",
+        "なくては",
+        "ないように"
+      ],
       "wrong_choice_explanations": [
         "ないと means 'if not, (then trouble)': 語らないと伝わらない. That implies silence would block the message, yet his resolve came across clearly; ずとも gives 'even though he said little'.",
         "なくては means 'must' (with ならない). 語らなくては says he had to say a lot, contradicting 伝わってきた — his resolve came across anyway; ずとも says he didn't need to.",
@@ -203,15 +359,33 @@
       ],
       "hiragana_full": "おおくをかたらずとも、かれのかたいけついはこちらにつたわってきた。",
       "audio_alternatives": [
-        { "kanji": "多くを口にせずとも、彼の決意ははっきりと伝わってきた。", "hiragana_full": "おおくをくちにせずとも、かれのけついははっきりとつたわってきた。" },
-        { "kanji": "多くを語らなくても、彼の固い決意は十分に伝わってきた。", "hiragana_full": "おおくをかたらなくても、かれのかたいけついはじゅうぶんにつたわってきた。" }
+        {
+          "kanji": "多くを口にせずとも、彼の決意ははっきりと伝わってきた。",
+          "hiragana_full": "おおくをくちにせずとも、かれのけついははっきりとつたわってきた。"
+        },
+        {
+          "kanji": "多くを語らなくても、彼の固い決意は十分に伝わってきた。",
+          "hiragana_full": "おおくをかたらなくても、かれのかたいけついはじゅうぶんにつたわってきた。"
+        }
       ],
       "audio_eligible": true,
       "register": "written",
       "vocab": [
-        { "word": "語る", "reading": "かたる", "meaning": "to talk; to relate" },
-        { "word": "決意", "reading": "けつい", "meaning": "resolve; determination" },
-        { "word": "伝わる", "reading": "つたわる", "meaning": "to come across; to be conveyed" }
+        {
+          "word": "語る",
+          "reading": "かたる",
+          "meaning": "to talk; to relate"
+        },
+        {
+          "word": "決意",
+          "reading": "けつい",
+          "meaning": "resolve; determination"
+        },
+        {
+          "word": "伝わる",
+          "reading": "つたわる",
+          "meaning": "to come across; to be conveyed"
+        }
       ]
     },
     {
@@ -219,7 +393,11 @@
       "example_sentence": "今さら確認せずとも、この件に間違いはないと確信していた。",
       "translation": "Even without checking now, I was convinced there was no mistake in this matter.",
       "blank_target": "せずとも",
-      "wrong_choices": ["しないと", "しなくては", "しないばかりに"],
+      "wrong_choices": [
+        "しないと",
+        "しなくては",
+        "しないばかりに"
+      ],
       "wrong_choice_explanations": [
         "しないと means 'if not, (then trouble)'. 確認しないと implies checking was needed, contradicting 確信していた ('I was already convinced'); せずとも says the speaker was sure even without checking.",
         "しなくては means 'must' (with ならない). 確認しなくては says the speaker had to check, the opposite of being sure there was no mistake; せずとも says checking was unnecessary.",
@@ -227,15 +405,33 @@
       ],
       "hiragana_full": "いまさらかくにんせずとも、このけんにまちがいはないとかくしんしていた。",
       "audio_alternatives": [
-        { "kanji": "いちいち確認せずとも、この件に誤りはないと信じて疑わなかった。", "hiragana_full": "いちいちかくにんせずとも、このけんにあやまりはないとしんじてうたがわなかった。" },
-        { "kanji": "今さら確認しなくても、この件に間違いはないと確信していた。", "hiragana_full": "いまさらかくにんしなくても、このけんにまちがいはないとかくしんしていた。" }
+        {
+          "kanji": "いちいち確認せずとも、この件に誤りはないと信じて疑わなかった。",
+          "hiragana_full": "いちいちかくにんせずとも、このけんにあやまりはないとしんじてうたがわなかった。"
+        },
+        {
+          "kanji": "今さら確認しなくても、この件に間違いはないと確信していた。",
+          "hiragana_full": "いまさらかくにんしなくても、このけんにまちがいはないとかくしんしていた。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "確認", "reading": "かくにん", "meaning": "confirmation; checking" },
-        { "word": "件", "reading": "けん", "meaning": "matter; case" },
-        { "word": "確信", "reading": "かくしん", "meaning": "conviction; firm belief" }
+        {
+          "word": "確認",
+          "reading": "かくにん",
+          "meaning": "confirmation; checking"
+        },
+        {
+          "word": "件",
+          "reading": "けん",
+          "meaning": "matter; case"
+        },
+        {
+          "word": "確信",
+          "reading": "かくしん",
+          "meaning": "conviction; firm belief"
+        }
       ]
     }
   ]

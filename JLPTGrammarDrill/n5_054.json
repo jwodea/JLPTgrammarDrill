@@ -34,6 +34,16 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "雨",
+          "reading": "あめ",
+          "meaning": "rain"
+        },
+        {
+          "word": "降る",
+          "reading": "ふる",
+          "meaning": "fall (rain)"
+        },
+        {
           "word": "風",
           "reading": "かぜ",
           "meaning": "wind"
@@ -42,6 +52,16 @@
           "word": "強い",
           "reading": "つよい",
           "meaning": "strong"
+        },
+        {
+          "word": "外",
+          "reading": "そと",
+          "meaning": "outside"
+        },
+        {
+          "word": "出る",
+          "reading": "でる",
+          "meaning": "go out"
         }
       ]
     },
@@ -75,9 +95,24 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "日本語",
+          "reading": "にほんご",
+          "meaning": "Japanese (language)"
+        },
+        {
+          "word": "面白い",
+          "reading": "おもしろい",
+          "meaning": "interesting"
+        },
+        {
           "word": "役に立つ",
           "reading": "やくにたつ",
           "meaning": "useful"
+        },
+        {
+          "word": "勉強する",
+          "reading": "べんきょうする",
+          "meaning": "study"
         }
       ],
       "blank_occurrence": 1
@@ -112,6 +147,11 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "近い",
+          "reading": "ちかい",
+          "meaning": "close; near"
+        },
+        {
           "word": "静か",
           "reading": "しずか",
           "meaning": "quiet"
@@ -122,9 +162,9 @@
           "meaning": "place"
         },
         {
-          "word": "気に入っています",
-          "reading": "きにいっています",
-          "meaning": "am fond of"
+          "word": "気に入る",
+          "reading": "きにいる",
+          "meaning": "be fond of; like"
         }
       ]
     },
@@ -156,7 +196,34 @@
       ],
       "audio_eligible": true,
       "register": "neutral",
-      "blank_occurrence": 1
+      "blank_occurrence": 1,
+      "vocab": [
+        {
+          "word": "時間",
+          "reading": "じかん",
+          "meaning": "time"
+        },
+        {
+          "word": "お金",
+          "reading": "おかね",
+          "meaning": "money"
+        },
+        {
+          "word": "映画",
+          "reading": "えいが",
+          "meaning": "movie"
+        },
+        {
+          "word": "見る",
+          "reading": "みる",
+          "meaning": "see; watch"
+        },
+        {
+          "word": "行く",
+          "reading": "いく",
+          "meaning": "go"
+        }
+      ]
     },
     {
       "id": "n5_054_5",
@@ -193,9 +260,29 @@
           "meaning": "price"
         },
         {
+          "word": "安い",
+          "reading": "やすい",
+          "meaning": "cheap"
+        },
+        {
           "word": "品物",
           "reading": "しなもの",
           "meaning": "goods"
+        },
+        {
+          "word": "いい",
+          "reading": "いい",
+          "meaning": "good"
+        },
+        {
+          "word": "店",
+          "reading": "みせ",
+          "meaning": "store"
+        },
+        {
+          "word": "買い物",
+          "reading": "かいもの",
+          "meaning": "shopping"
         }
       ],
       "blank_occurrence": 1
@@ -230,9 +317,24 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "新しい",
+          "reading": "あたらしい",
+          "meaning": "new"
+        },
+        {
+          "word": "きれい",
+          "reading": "きれい",
+          "meaning": "pretty; clean"
+        },
+        {
           "word": "服",
           "reading": "ふく",
           "meaning": "clothes"
+        },
+        {
+          "word": "買う",
+          "reading": "かう",
+          "meaning": "buy"
         }
       ],
       "blank_occurrence": 2
@@ -272,9 +374,14 @@
           "meaning": "warm"
         },
         {
-          "word": "晴れている",
-          "reading": "はれている",
-          "meaning": "is sunny"
+          "word": "晴れる",
+          "reading": "はれる",
+          "meaning": "be sunny; clear up"
+        },
+        {
+          "word": "散歩する",
+          "reading": "さんぽする",
+          "meaning": "take a walk"
         }
       ],
       "blank_occurrence": 1
@@ -314,9 +421,29 @@
           "meaning": "health"
         },
         {
+          "word": "いい",
+          "reading": "いい",
+          "meaning": "good"
+        },
+        {
+          "word": "美味しい",
+          "reading": "おいしい",
+          "meaning": "delicious"
+        },
+        {
           "word": "野菜",
           "reading": "やさい",
           "meaning": "vegetables"
+        },
+        {
+          "word": "たくさん",
+          "reading": "たくさん",
+          "meaning": "a lot; many"
+        },
+        {
+          "word": "食べる",
+          "reading": "たべる",
+          "meaning": "eat"
         }
       ],
       "blank_occurrence": 1
@@ -351,9 +478,34 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "友達",
+          "reading": "ともだち",
+          "meaning": "friend"
+        },
+        {
+          "word": "来る",
+          "reading": "くる",
+          "meaning": "come"
+        },
+        {
           "word": "料理",
           "reading": "りょうり",
           "meaning": "food; cooking"
+        },
+        {
+          "word": "美味しい",
+          "reading": "おいしい",
+          "meaning": "delicious"
+        },
+        {
+          "word": "パーティー",
+          "reading": "ぱーてぃー",
+          "meaning": "party"
+        },
+        {
+          "word": "楽しみ",
+          "reading": "たのしみ",
+          "meaning": "looking forward to"
         }
       ],
       "blank_occurrence": 1
@@ -387,6 +539,16 @@
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
+        {
+          "word": "本",
+          "reading": "ほん",
+          "meaning": "book"
+        },
+        {
+          "word": "面白い",
+          "reading": "おもしろい",
+          "meaning": "interesting"
+        },
         {
           "word": "最高",
           "reading": "さいこう",

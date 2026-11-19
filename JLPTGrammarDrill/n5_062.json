@@ -19,7 +19,7 @@
         "に indicates direction or indirect objects — it doesn't fit here because vegetables are the direct subject of dislike.",
         "で indicates location or means — it doesn't fit here because we're expressing feelings toward vegetables, not using them."
       ],
-      "hiragana_full": "わたしはやさいがきらいです",
+      "hiragana_full": "わたしはやさいがきらいです。",
       "audio_alternatives": [
         {
           "kanji": "私は野菜が好きではありません。",
@@ -33,6 +33,11 @@
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
+        {
+          "word": "私",
+          "reading": "わたし",
+          "meaning": "I"
+        },
         {
           "word": "野菜",
           "reading": "やさい",
@@ -55,7 +60,7 @@
         "を marks direct objects for actions — it doesn't fit here because 好き is an adjective describing a state, not an action.",
         "の shows possession or connection — it doesn't fit here because we're not showing ownership of music."
       ],
-      "hiragana_full": "たなかさんはおんがくがすきですか",
+      "hiragana_full": "たなかさんはおんがくがすきですか。",
       "audio_alternatives": [
         {
           "kanji": "田中さんは音楽が好きですか？",
@@ -106,6 +111,16 @@
       "register": "casual",
       "vocab": [
         {
+          "word": "子ども",
+          "reading": "こども",
+          "meaning": "child"
+        },
+        {
+          "word": "ゲーム",
+          "reading": "げーむ",
+          "meaning": "game"
+        },
+        {
           "word": "大好き",
           "reading": "だいすき",
           "meaning": "love; really like"
@@ -127,7 +142,7 @@
         "だけ means 'only' — it doesn't fit here because we're not limiting to coffee alone, but expressing feelings about it.",
         "まで means 'until' — it doesn't fit here because coffee is not a time or place limit."
       ],
-      "hiragana_full": "ぼくはコーヒーがきらいじゃない",
+      "hiragana_full": "ぼくはコーヒーがきらいじゃない。",
       "audio_alternatives": [
         {
           "kanji": "私はコーヒーが嫌いじゃない。",
@@ -145,6 +160,11 @@
           "word": "僕",
           "reading": "ぼく",
           "meaning": "I (male, informal)"
+        },
+        {
+          "word": "コーヒー",
+          "reading": "こーひー",
+          "meaning": "coffee"
         }
       ]
     },
@@ -163,7 +183,7 @@
         "に marks destinations or targets — it doesn't fit here because 'what' is the subject of liking, not a destination.",
         "で marks location or means — it doesn't fit here because 'what' is not a location or tool."
       ],
-      "hiragana_full": "あなたはなにがすきですか",
+      "hiragana_full": "あなたはなにがすきですか。",
       "audio_alternatives": [
         {
           "kanji": "何が好きですか。",
@@ -175,7 +195,19 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "あなた",
+          "reading": "あなた",
+          "meaning": "you"
+        },
+        {
+          "word": "何",
+          "reading": "なに",
+          "meaning": "what"
+        }
+      ]
     },
     {
       "id": "n5_062_6",
@@ -192,7 +224,7 @@
         "と means 'with' or 'and' — it doesn't fit here because dogs are not companions in this context, but the object of affection.",
         "へ indicates direction — it doesn't fit here because dogs are not a destination, but the subject of feelings."
       ],
-      "hiragana_full": "いぬがすきなひとはおおい",
+      "hiragana_full": "いぬがすきなひとはおおい。",
       "audio_alternatives": [
         {
           "kanji": "犬が好きな人はたくさんいる。",
@@ -206,6 +238,16 @@
       "audio_eligible": true,
       "register": "casual",
       "vocab": [
+        {
+          "word": "犬",
+          "reading": "いぬ",
+          "meaning": "dog"
+        },
+        {
+          "word": "人",
+          "reading": "ひと",
+          "meaning": "person; people"
+        },
         {
           "word": "多い",
           "reading": "おおい",
@@ -228,7 +270,7 @@
         "に indicates targets or destinations — it doesn't fit here because fish is the subject of dislike, not a target location.",
         "から means 'from' — it doesn't fit here because fish is not a source or starting point, but the object of dislike."
       ],
-      "hiragana_full": "さかながきらいなこがいます",
+      "hiragana_full": "さかながきらいなこがいます。",
       "audio_alternatives": [
         {
           "kanji": "魚が嫌いな子どもがいます。",
@@ -241,7 +283,19 @@
       ],
       "audio_eligible": true,
       "register": "neutral",
-      "blank_occurrence": 1
+      "blank_occurrence": 1,
+      "vocab": [
+        {
+          "word": "魚",
+          "reading": "さかな",
+          "meaning": "fish"
+        },
+        {
+          "word": "子",
+          "reading": "こ",
+          "meaning": "child"
+        }
+      ]
     },
     {
       "id": "n5_062_8",
@@ -258,7 +312,7 @@
         "も means 'also' — it doesn't fit here because we need the subject marker, not an additional item marker.",
         "だけ means 'only' — it doesn't fit here because we're not limiting to alcohol alone, but expressing strong dislike of it."
       ],
-      "hiragana_full": "はははおさけがだいきらいです",
+      "hiragana_full": "はははおさけがだいきらいです。",
       "audio_alternatives": [
         {
           "kanji": "母はお酒がとても嫌いです。",
@@ -272,6 +326,11 @@
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
+        {
+          "word": "母",
+          "reading": "はは",
+          "meaning": "mother"
+        },
         {
           "word": "お酒",
           "reading": "おさけ",
@@ -311,7 +370,14 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "映画",
+          "reading": "えいが",
+          "meaning": "movie"
+        }
+      ]
     },
     {
       "id": "n5_062_10",

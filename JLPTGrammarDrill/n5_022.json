@@ -31,7 +31,19 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "これ",
+          "reading": "これ",
+          "meaning": "this"
+        },
+        {
+          "word": "何",
+          "reading": "なん",
+          "meaning": "what"
+        }
+      ]
     },
     {
       "id": "n5_022_2",
@@ -63,14 +75,19 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "明日",
+          "reading": "あした",
+          "meaning": "tomorrow"
+        },
+        {
           "word": "雨",
           "reading": "あめ",
           "meaning": "rain"
         },
         {
-          "word": "降ります",
-          "reading": "ふります",
-          "meaning": "will fall"
+          "word": "降る",
+          "reading": "ふる",
+          "meaning": "fall (rain)"
         }
       ]
     },
@@ -137,7 +154,19 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "どこ",
+          "reading": "どこ",
+          "meaning": "where"
+        },
+        {
+          "word": "行く",
+          "reading": "いく",
+          "meaning": "go"
+        }
+      ]
     },
     {
       "id": "n5_022_5",
@@ -169,8 +198,13 @@
       "register": "neutral",
       "vocab": [
         {
-          "word": "飲みます",
-          "reading": "のみます",
+          "word": "コーヒー",
+          "reading": "こーひー",
+          "meaning": "coffee"
+        },
+        {
+          "word": "飲む",
+          "reading": "のむ",
           "meaning": "drink"
         }
       ]
@@ -205,8 +239,13 @@
       "register": "neutral",
       "vocab": [
         {
-          "word": "分かります",
-          "reading": "わかります",
+          "word": "日本語",
+          "reading": "にほんご",
+          "meaning": "Japanese (language)"
+        },
+        {
+          "word": "分かる",
+          "reading": "わかる",
           "meaning": "understand"
         }
       ],
@@ -241,6 +280,11 @@
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
+        {
+          "word": "今",
+          "reading": "いま",
+          "meaning": "now"
+        },
         {
           "word": "何時",
           "reading": "なんじ",
@@ -281,6 +325,11 @@
           "word": "誰",
           "reading": "だれ",
           "meaning": "who"
+        },
+        {
+          "word": "来る",
+          "reading": "くる",
+          "meaning": "come"
         }
       ]
     },
@@ -317,6 +366,11 @@
           "word": "お名前",
           "reading": "おなまえ",
           "meaning": "(your) name"
+        },
+        {
+          "word": "何",
+          "reading": "なん",
+          "meaning": "what"
         }
       ]
     },
@@ -353,6 +407,11 @@
           "word": "電車",
           "reading": "でんしゃ",
           "meaning": "train"
+        },
+        {
+          "word": "行く",
+          "reading": "いく",
+          "meaning": "go"
         }
       ]
     }

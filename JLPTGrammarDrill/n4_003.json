@@ -38,6 +38,16 @@
           "word": "週末",
           "reading": "しゅうまつ",
           "meaning": "weekend"
+        },
+        {
+          "word": "映画",
+          "reading": "えいが",
+          "meaning": "movie"
+        },
+        {
+          "word": "見る",
+          "reading": "みる",
+          "meaning": "watch"
         }
       ]
     },
@@ -69,7 +79,24 @@
       ],
       "audio_eligible": true,
       "blank_target_reading": "ったり、かふぇでべんきょうしたりします",
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "日曜日",
+          "reading": "にちようび",
+          "meaning": "Sunday"
+        },
+        {
+          "word": "公園",
+          "reading": "こうえん",
+          "meaning": "park"
+        },
+        {
+          "word": "走る",
+          "reading": "はしる",
+          "meaning": "run"
+        }
+      ]
     },
     {
       "id": "n4_003_3",
@@ -105,6 +132,16 @@
           "word": "旅行中",
           "reading": "りょこうちゅう",
           "meaning": "during a trip"
+        },
+        {
+          "word": "写真",
+          "reading": "しゃしん",
+          "meaning": "photo"
+        },
+        {
+          "word": "撮る",
+          "reading": "とる",
+          "meaning": "take (a photo)"
         }
       ]
     },
@@ -139,9 +176,19 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "デパート",
+          "reading": "でぱーと",
+          "meaning": "department store"
+        },
+        {
           "word": "洋服",
           "reading": "ようふく",
           "meaning": "(Western) clothes"
+        },
+        {
+          "word": "見る",
+          "reading": "みる",
+          "meaning": "look at"
         }
       ]
     },
@@ -181,9 +228,14 @@
           "meaning": "summer vacation"
         },
         {
-          "word": "花火",
-          "reading": "はなび",
-          "meaning": "fireworks"
+          "word": "海",
+          "reading": "うみ",
+          "meaning": "sea; beach"
+        },
+        {
+          "word": "行く",
+          "reading": "いく",
+          "meaning": "go"
         }
       ]
     },
@@ -214,7 +266,24 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "天気",
+          "reading": "てんき",
+          "meaning": "weather"
+        },
+        {
+          "word": "良い",
+          "reading": "よい",
+          "meaning": "good"
+        },
+        {
+          "word": "悪い",
+          "reading": "わるい",
+          "meaning": "bad"
+        }
+      ]
     },
     {
       "id": "n4_003_7",
@@ -231,7 +300,7 @@
         "た ends the clause in past tense without listing.",
         "けど means 'but'; shows simple contrast, not the alternating pattern of たり."
       ],
-      "hiragana_full": "そのえいがはおもしろかったり、つまらなかったりします",
+      "hiragana_full": "そのえいがはおもしろかったり、つまらなかったりします。",
       "audio_alternatives": [
         {
           "kanji": "あの映画は面白かったり、つまらなかったりする。",
@@ -243,7 +312,24 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "映画",
+          "reading": "えいが",
+          "meaning": "movie"
+        },
+        {
+          "word": "面白い",
+          "reading": "おもしろい",
+          "meaning": "interesting"
+        },
+        {
+          "word": "つまらない",
+          "reading": "つまらない",
+          "meaning": "boring"
+        }
+      ]
     },
     {
       "id": "n4_003_8",
@@ -260,7 +346,7 @@
         "から means 'from/because' — it doesn't fit the pattern for listing multiple example activities.",
         "まで means 'until' — it shows duration rather than creating a list of example activities."
       ],
-      "hiragana_full": "こどもたちはあそんだりひるねをしたりしている",
+      "hiragana_full": "こどもたちはあそんだりひるねをしたりしている。",
       "audio_alternatives": [
         {
           "kanji": "子供たちは遊んだり昼寝したりしています。",
@@ -278,6 +364,11 @@
           "word": "子供たち",
           "reading": "こどもたち",
           "meaning": "children"
+        },
+        {
+          "word": "遊ぶ",
+          "reading": "あそぶ",
+          "meaning": "play"
         },
         {
           "word": "昼寝",
@@ -301,7 +392,7 @@
         "ほど means 'to the extent of' — it shows degree rather than listing example activities.",
         "より means 'than/from' — it's used for comparison, not for listing multiple activities."
       ],
-      "hiragana_full": "あめのひはおんがくをきいたりえをかいたりします",
+      "hiragana_full": "あめのひはおんがくをきいたりえをかいたりします。",
       "audio_alternatives": [
         {
           "kanji": "雨の日は音楽を聞いたり絵を描いたりする。",
@@ -316,14 +407,34 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "雨",
+          "reading": "あめ",
+          "meaning": "rain"
+        },
+        {
+          "word": "日",
+          "reading": "ひ",
+          "meaning": "day"
+        },
+        {
           "word": "音楽",
           "reading": "おんがく",
           "meaning": "music"
         },
         {
+          "word": "聞く",
+          "reading": "きく",
+          "meaning": "listen to"
+        },
+        {
           "word": "絵",
           "reading": "え",
           "meaning": "picture; drawing"
+        },
+        {
+          "word": "描く",
+          "reading": "かく",
+          "meaning": "draw"
         }
       ]
     },
@@ -342,7 +453,7 @@
         "こそ means 'precisely/exactly' for emphasis — it doesn't fit the pattern for listing activities.",
         "しか means 'only' (with negative) — it limits rather than showing examples of multiple activities."
       ],
-      "hiragana_full": "がっこうでべんきょうしたりともだちとはなしたりする",
+      "hiragana_full": "がっこうでべんきょうしたりともだちとはなしたりする。",
       "audio_alternatives": [
         {
           "kanji": "学校で勉強したり友達と話したりします。",
@@ -362,9 +473,19 @@
           "meaning": "school"
         },
         {
-          "word": "勉強",
-          "reading": "べんきょう",
+          "word": "勉強する",
+          "reading": "べんきょうする",
           "meaning": "study"
+        },
+        {
+          "word": "友達",
+          "reading": "ともだち",
+          "meaning": "friend"
+        },
+        {
+          "word": "話す",
+          "reading": "はなす",
+          "meaning": "talk"
         }
       ]
     }

@@ -19,7 +19,7 @@
         "たい expresses desire 'want to read' — it doesn't describe the handwriting's legibility.",
         "ている indicates ongoing action — it doesn't express difficulty in reading."
       ],
-      "hiragana_full": "このじはよみにくいです",
+      "hiragana_full": "このじはよみにくいです。",
       "audio_alternatives": [
         {
           "kanji": "この字は読みづらいです。",
@@ -37,6 +37,11 @@
           "word": "字",
           "reading": "じ",
           "meaning": "handwriting"
+        },
+        {
+          "word": "読む",
+          "reading": "よむ",
+          "meaning": "read"
         }
       ]
     },
@@ -67,7 +72,29 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "ナイフ",
+          "reading": "ないふ",
+          "meaning": "knife"
+        },
+        {
+          "word": "切れる",
+          "reading": "きれる",
+          "meaning": "cut well"
+        },
+        {
+          "word": "新しい",
+          "reading": "あたらしい",
+          "meaning": "new"
+        },
+        {
+          "word": "買う",
+          "reading": "かう",
+          "meaning": "buy"
+        }
+      ]
     },
     {
       "id": "n5_049_3",
@@ -99,14 +126,24 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "新しい",
+          "reading": "あたらしい",
+          "meaning": "new"
+        },
+        {
           "word": "単語",
           "reading": "たんご",
           "meaning": "vocabulary word"
         },
         {
-          "word": "困っています",
-          "reading": "こまっています",
-          "meaning": "am having trouble"
+          "word": "覚える",
+          "reading": "おぼえる",
+          "meaning": "remember"
+        },
+        {
+          "word": "困る",
+          "reading": "こまる",
+          "meaning": "have trouble"
         }
       ]
     },
@@ -125,7 +162,7 @@
         "がたい is a formal/literary suffix that attaches to verbs of cognition or judgment for abstract difficulty (信じがたい, 受け入れがたい). Operating a machine is a practical physical task, so にくい — the everyday 'hard to (physically) do' — is the natural fit.",
         "ます is polite verb ending — it doesn't form a proper adjective describing difficulty."
       ],
-      "hiragana_full": "このきかいはつかいにくいそうですね",
+      "hiragana_full": "このきかいはつかいにくいそうですね。",
       "audio_alternatives": [
         {
           "kanji": "この機械は使いづらそうですね。",
@@ -143,6 +180,11 @@
           "word": "機械",
           "reading": "きかい",
           "meaning": "machine"
+        },
+        {
+          "word": "使う",
+          "reading": "つかう",
+          "meaning": "use"
         }
       ]
     },
@@ -161,7 +203,7 @@
         "がた (〜がたい) does attach to verb stems, but it's reserved for formal/abstract difficulty (受け入れがたい, 言いがたい). Laundry failing to dry is mundane physical difficulty — squarely にくい territory, not がたい.",
         "すぎ means 'too much' — it doesn't express difficulty in drying."
       ],
-      "hiragana_full": "あめのひはせんたくものがかわきにくいです",
+      "hiragana_full": "あめのひはせんたくものがかわきにくいです。",
       "audio_alternatives": [
         {
           "kanji": "雨の日は洗濯物が乾きづらいです。",
@@ -176,9 +218,24 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "雨",
+          "reading": "あめ",
+          "meaning": "rain"
+        },
+        {
+          "word": "日",
+          "reading": "ひ",
+          "meaning": "day"
+        },
+        {
           "word": "洗濯物",
           "reading": "せんたくもの",
           "meaning": "laundry"
+        },
+        {
+          "word": "乾く",
+          "reading": "かわく",
+          "meaning": "dry"
         }
       ]
     },
@@ -217,9 +274,14 @@
           "meaning": "shoes"
         },
         {
-          "word": "履きません",
-          "reading": "はきません",
-          "meaning": "don't wear (on the feet)"
+          "word": "履く",
+          "reading": "はく",
+          "meaning": "wear (on the feet)"
+        },
+        {
+          "word": "あまり",
+          "reading": "あまり",
+          "meaning": "(not) much"
         }
       ]
     },
@@ -238,7 +300,7 @@
         "がた (〜がたい) attaches to verb stems but carries a formal, often moral/intellectual flavor (理解しがたい, 信じがたい). For a casual report about a confusing classroom explanation, the everyday にくい is the natural fit.",
         "そう means 'seems/looks like' — it doesn't express inherent difficulty in understanding."
       ],
-      "hiragana_full": "かれのせつめいはわかりにくくて、しつもんしました",
+      "hiragana_full": "かれのせつめいはわかりにくくて、しつもんしました。",
       "audio_alternatives": [
         {
           "kanji": "彼の説明は難しくて、質問しました。",
@@ -253,14 +315,24 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "彼",
+          "reading": "かれ",
+          "meaning": "he; his"
+        },
+        {
           "word": "説明",
           "reading": "せつめい",
           "meaning": "explanation"
         },
         {
-          "word": "質問しました",
-          "reading": "しつもんしました",
-          "meaning": "asked questions"
+          "word": "分かる",
+          "reading": "わかる",
+          "meaning": "understand"
+        },
+        {
+          "word": "質問する",
+          "reading": "しつもんする",
+          "meaning": "ask a question"
         }
       ]
     },
@@ -279,7 +351,7 @@
         "られ is part of potential/passive forms — it doesn't create an adjective expressing difficulty.",
         "過ぎ means 'too much' — it doesn't express eating difficulty caused by bones."
       ],
-      "hiragana_full": "このさかなはたべにくいほねがおおいです",
+      "hiragana_full": "このさかなはたべにくいほねがおおいです。",
       "audio_alternatives": [
         {
           "kanji": "この魚は骨が多くて食べにくいです。",
@@ -299,9 +371,19 @@
           "meaning": "fish"
         },
         {
+          "word": "食べる",
+          "reading": "たべる",
+          "meaning": "eat"
+        },
+        {
           "word": "骨",
           "reading": "ほね",
           "meaning": "bones"
+        },
+        {
+          "word": "多い",
+          "reading": "おおい",
+          "meaning": "many"
         }
       ]
     },
@@ -335,9 +417,19 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "古い",
+          "reading": "ふるい",
+          "meaning": "old"
+        },
+        {
           "word": "窓",
           "reading": "まど",
           "meaning": "window"
+        },
+        {
+          "word": "開ける",
+          "reading": "あける",
+          "meaning": "open"
         },
         {
           "word": "修理",
@@ -384,6 +476,21 @@
           "word": "問題",
           "reading": "もんだい",
           "meaning": "problem"
+        },
+        {
+          "word": "解く",
+          "reading": "とく",
+          "meaning": "solve"
+        },
+        {
+          "word": "先生",
+          "reading": "せんせい",
+          "meaning": "teacher"
+        },
+        {
+          "word": "聞く",
+          "reading": "きく",
+          "meaning": "ask"
         }
       ]
     }

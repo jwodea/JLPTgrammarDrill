@@ -19,7 +19,7 @@
         "に indicates direction or targets — it doesn't fit here because cooking is the subject of skill, not a destination.",
         "で indicates means or location — it doesn't fit here because cooking is the skill itself, not a tool or place."
       ],
-      "hiragana_full": "わたしはりょうりがじょうずです",
+      "hiragana_full": "わたしはりょうりがじょうずです。",
       "audio_alternatives": [
         {
           "kanji": "私は料理が得意です。",
@@ -33,6 +33,11 @@
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
+        {
+          "word": "私",
+          "reading": "わたし",
+          "meaning": "I"
+        },
         {
           "word": "料理",
           "reading": "りょうり",
@@ -55,7 +60,7 @@
         "の shows possession or connection — it doesn't fit here because we're not showing ownership of English, but skill level.",
         "と means 'with' or 'and' — it doesn't fit here because English is not a companion, but the subject of ability."
       ],
-      "hiragana_full": "かれはえいごがへただ",
+      "hiragana_full": "かれはえいごがへただ。",
       "audio_alternatives": [
         {
           "kanji": "彼は英語が苦手だ。",
@@ -67,7 +72,19 @@
         }
       ],
       "audio_eligible": true,
-      "register": "casual"
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "彼",
+          "reading": "かれ",
+          "meaning": "he"
+        },
+        {
+          "word": "英語",
+          "reading": "えいご",
+          "meaning": "English (language)"
+        }
+      ]
     },
     {
       "id": "n5_063_3",
@@ -84,7 +101,7 @@
         "に marks targets or destinations — ピアノに上手 is ungrammatical; the skill someone is good at takes が.",
         "を marks direct objects for verbs — it doesn't fit here because 上手 is an adjective, not a verb requiring a direct object."
       ],
-      "hiragana_full": "あのひとはピアノがじょうずですね",
+      "hiragana_full": "あのひとはピアノがじょうずですね。",
       "audio_alternatives": [
         {
           "kanji": "あの人はピアノが得意ですね。",
@@ -96,7 +113,19 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "人",
+          "reading": "ひと",
+          "meaning": "person"
+        },
+        {
+          "word": "ピアノ",
+          "reading": "ぴあの",
+          "meaning": "piano"
+        }
+      ]
     },
     {
       "id": "n5_063_4",
@@ -113,7 +142,7 @@
         "で indicates means or location — it doesn't fit here because math is the skill itself, not a tool or place.",
         "と means 'with' or 'and' — it doesn't fit here because math is not a companion, but the subject of ability."
       ],
-      "hiragana_full": "ぼくはすうがくがへたなんです",
+      "hiragana_full": "ぼくはすうがくがへたなんです。",
       "audio_alternatives": [
         {
           "kanji": "私は数学が苦手なんです。",
@@ -127,6 +156,11 @@
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
+        {
+          "word": "僕",
+          "reading": "ぼく",
+          "meaning": "I (male, informal)"
+        },
         {
           "word": "数学",
           "reading": "すうがく",
@@ -149,7 +183,7 @@
         "の shows possession or connection — it doesn't fit here because 'what' is not possessing something, but is the subject of ability.",
         "で indicates means or location — it doesn't fit here because 'what' is not a tool or place, but the subject of skill."
       ],
-      "hiragana_full": "なにがいちばんじょうずですか",
+      "hiragana_full": "なにがいちばんじょうずですか。",
       "audio_alternatives": [
         {
           "kanji": "何が一番得意ですか。",
@@ -163,6 +197,11 @@
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
+        {
+          "word": "何",
+          "reading": "なに",
+          "meaning": "what"
+        },
         {
           "word": "一番",
           "reading": "いちばん",
@@ -201,6 +240,11 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "私",
+          "reading": "わたし",
+          "meaning": "I"
+        },
+        {
           "word": "歌う",
           "reading": "うたう",
           "meaning": "to sing"
@@ -238,9 +282,19 @@
       "register": "neutral",
       "vocab": [
         {
-          "word": "運転",
-          "reading": "うんてん",
-          "meaning": "driving"
+          "word": "母",
+          "reading": "はは",
+          "meaning": "mother"
+        },
+        {
+          "word": "車",
+          "reading": "くるま",
+          "meaning": "car"
+        },
+        {
+          "word": "運転する",
+          "reading": "うんてんする",
+          "meaning": "drive"
         }
       ]
     },
@@ -275,9 +329,19 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "妹",
+          "reading": "いもうと",
+          "meaning": "younger sister"
+        },
+        {
           "word": "絵",
           "reading": "え",
           "meaning": "picture, drawing"
+        },
+        {
+          "word": "かく",
+          "reading": "かく",
+          "meaning": "draw"
         }
       ]
     },
@@ -311,6 +375,11 @@
       "blank_target_reading": "のがへた",
       "register": "casual",
       "vocab": [
+        {
+          "word": "父",
+          "reading": "ちち",
+          "meaning": "father"
+        },
         {
           "word": "泳ぐ",
           "reading": "およぐ",
@@ -346,7 +415,24 @@
       ],
       "audio_eligible": true,
       "blank_target_reading": "のがへた",
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "私",
+          "reading": "わたし",
+          "meaning": "I"
+        },
+        {
+          "word": "漢字",
+          "reading": "かんじ",
+          "meaning": "kanji; Chinese characters"
+        },
+        {
+          "word": "読む",
+          "reading": "よむ",
+          "meaning": "read"
+        }
+      ]
     }
   ]
 }

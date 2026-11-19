@@ -35,6 +35,11 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "ビル",
+          "reading": "びる",
+          "meaning": "building"
+        },
+        {
           "word": "去年",
           "reading": "きょねん",
           "meaning": "last year"
@@ -75,6 +80,11 @@
           "word": "会議",
           "reading": "かいぎ",
           "meaning": "meeting"
+        },
+        {
+          "word": "来週",
+          "reading": "らいしゅう",
+          "meaning": "next week"
         }
       ]
     },
@@ -109,9 +119,14 @@
       "register": "neutral",
       "vocab": [
         {
-          "word": "困った",
-          "reading": "こまった",
-          "meaning": "was troubled"
+          "word": "雨",
+          "reading": "あめ",
+          "meaning": "rain"
+        },
+        {
+          "word": "困る",
+          "reading": "こまる",
+          "meaning": "be troubled"
         }
       ]
     },
@@ -142,7 +157,24 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "子供",
+          "reading": "こども",
+          "meaning": "child"
+        },
+        {
+          "word": "よく",
+          "reading": "よく",
+          "meaning": "often"
+        },
+        {
+          "word": "母",
+          "reading": "はは",
+          "meaning": "mother"
+        }
+      ]
     },
     {
       "id": "n4_013_5",
@@ -201,7 +233,7 @@
         "せ would create 愛せれている which is not valid — we need the passive stem さ for 愛される",
         "ね would create 愛ねれている which is not a valid conjugation — we need the passive stem さ for 愛される"
       ],
-      "hiragana_full": "かれはみんなにあいされている",
+      "hiragana_full": "かれはみんなにあいされている。",
       "audio_alternatives": [
         {
           "kanji": "彼は皆から愛されている。",
@@ -213,7 +245,24 @@
         }
       ],
       "audio_eligible": true,
-      "register": "casual"
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "彼",
+          "reading": "かれ",
+          "meaning": "he"
+        },
+        {
+          "word": "皆",
+          "reading": "みんな",
+          "meaning": "everyone"
+        },
+        {
+          "word": "愛する",
+          "reading": "あいする",
+          "meaning": "love"
+        }
+      ]
     },
     {
       "id": "n4_013_7",
@@ -242,7 +291,24 @@
         }
       ],
       "audio_eligible": true,
-      "register": "casual"
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "手紙",
+          "reading": "てがみ",
+          "meaning": "letter"
+        },
+        {
+          "word": "風",
+          "reading": "かぜ",
+          "meaning": "wind"
+        },
+        {
+          "word": "飛ばす",
+          "reading": "とばす",
+          "meaning": "blow away"
+        }
+      ]
     },
     {
       "id": "n4_013_8",
@@ -259,7 +325,7 @@
         "い would create 見いれている which is not grammatically correct — we need ら for the passive form 見られている",
         "え would create 見えれている which is not valid — we need ら for the passive form 見られている"
       ],
-      "hiragana_full": "そのえいがはせかいじゅうでみられている",
+      "hiragana_full": "そのえいがはせかいじゅうでみられている。",
       "audio_alternatives": [
         {
           "kanji": "その映画は世界中で観られている。",
@@ -274,9 +340,19 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "映画",
+          "reading": "えいが",
+          "meaning": "movie"
+        },
+        {
           "word": "世界中",
           "reading": "せかいじゅう",
           "meaning": "all over the world"
+        },
+        {
+          "word": "見る",
+          "reading": "みる",
+          "meaning": "watch"
         }
       ]
     },
@@ -295,7 +371,7 @@
         "り would create 開発りれました which is not valid — we need the passive stem さ for 開発される",
         "る would create 開発るれました which is not grammatically correct — we need the passive stem さ for 開発される"
       ],
-      "hiragana_full": "あたらしいくすりがかいはつされました",
+      "hiragana_full": "あたらしいくすりがかいはつされました。",
       "audio_alternatives": [
         {
           "kanji": "新しい薬が開発された。",
@@ -310,9 +386,19 @@
       "register": "neutral",
       "vocab": [
         {
-          "word": "開発",
-          "reading": "かいはつ",
-          "meaning": "development"
+          "word": "新しい",
+          "reading": "あたらしい",
+          "meaning": "new"
+        },
+        {
+          "word": "薬",
+          "reading": "くすり",
+          "meaning": "medicine"
+        },
+        {
+          "word": "開発する",
+          "reading": "かいはつする",
+          "meaning": "develop"
         }
       ]
     },
@@ -331,7 +417,7 @@
         "れ alone would create 取り壊れれます which is not valid — we need the passive stem さ before れる",
         "な would create 取り壊なれます which is not grammatically correct — we need the passive stem さ for 取り壊される"
       ],
-      "hiragana_full": "ふるいいえがとりこわされます",
+      "hiragana_full": "ふるいいえがとりこわされます。",
       "audio_alternatives": [
         {
           "kanji": "古い家は壊されます。",
@@ -343,7 +429,24 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "古い",
+          "reading": "ふるい",
+          "meaning": "old"
+        },
+        {
+          "word": "家",
+          "reading": "いえ",
+          "meaning": "house"
+        },
+        {
+          "word": "取り壊す",
+          "reading": "とりこわす",
+          "meaning": "demolish"
+        }
+      ]
     }
   ]
 }

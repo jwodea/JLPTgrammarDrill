@@ -31,7 +31,19 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "図書館",
+          "reading": "としょかん",
+          "meaning": "library"
+        },
+        {
+          "word": "静かに",
+          "reading": "しずかに",
+          "meaning": "quietly"
+        }
+      ]
     },
     {
       "id": "n4_002_2",
@@ -48,7 +60,7 @@
         "てある means 'has been written'; indicates completed state, not obligation.",
         "たほうがいい means 'it would be better to write'; suggestion, not must."
       ],
-      "hiragana_full": "このれぽーとはきょうじゅうにかかなければならない",
+      "hiragana_full": "このれぽーとはきょうじゅうにかかなければならない。",
       "audio_alternatives": [
         {
           "kanji": "このレポートは今日中に書かないといけない。",
@@ -63,9 +75,19 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "レポート",
+          "reading": "れぽーと",
+          "meaning": "report"
+        },
+        {
           "word": "今日中",
           "reading": "きょうじゅう",
           "meaning": "by the end of today"
+        },
+        {
+          "word": "書く",
+          "reading": "かく",
+          "meaning": "write"
         }
       ]
     },
@@ -102,6 +124,11 @@
           "word": "交通ルール",
           "reading": "こうつうるーる",
           "meaning": "traffic rules"
+        },
+        {
+          "word": "守る",
+          "reading": "まもる",
+          "meaning": "follow; obey"
         }
       ]
     },
@@ -132,7 +159,29 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "雨",
+          "reading": "あめ",
+          "meaning": "rain"
+        },
+        {
+          "word": "降る",
+          "reading": "ふる",
+          "meaning": "fall (rain)"
+        },
+        {
+          "word": "傘",
+          "reading": "かさ",
+          "meaning": "umbrella"
+        },
+        {
+          "word": "持って行く",
+          "reading": "もっていく",
+          "meaning": "take (something) along"
+        }
+      ]
     },
     {
       "id": "n4_002_5",
@@ -164,9 +213,29 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "電車",
+          "reading": "でんしゃ",
+          "meaning": "train"
+        },
+        {
           "word": "間に合う",
           "reading": "まにあう",
           "meaning": "to be in time"
+        },
+        {
+          "word": "毎朝",
+          "reading": "まいあさ",
+          "meaning": "every morning"
+        },
+        {
+          "word": "六時",
+          "reading": "ろくじ",
+          "meaning": "six o'clock"
+        },
+        {
+          "word": "起きる",
+          "reading": "おきる",
+          "meaning": "get up"
         }
       ]
     },
@@ -210,9 +279,9 @@
           "meaning": "passport"
         },
         {
-          "word": "更新",
-          "reading": "こうしん",
-          "meaning": "to renew"
+          "word": "更新する",
+          "reading": "こうしんする",
+          "meaning": "renew"
         }
       ]
     },
@@ -256,9 +325,9 @@
           "meaning": "end of the month"
         },
         {
-          "word": "払わ",
-          "reading": "はらわ",
-          "meaning": "to pay"
+          "word": "払う",
+          "reading": "はらう",
+          "meaning": "pay"
         }
       ]
     },
@@ -292,14 +361,29 @@
       "register": "neutral",
       "vocab": [
         {
-          "word": "飼って",
-          "reading": "かって",
-          "meaning": "to keep (a pet)"
+          "word": "犬",
+          "reading": "いぬ",
+          "meaning": "dog"
+        },
+        {
+          "word": "飼う",
+          "reading": "かう",
+          "meaning": "keep (a pet)"
+        },
+        {
+          "word": "毎日",
+          "reading": "まいにち",
+          "meaning": "every day"
         },
         {
           "word": "散歩",
           "reading": "さんぽ",
           "meaning": "walk"
+        },
+        {
+          "word": "連れて行く",
+          "reading": "つれていく",
+          "meaning": "take (an animal) along"
         }
       ]
     },
@@ -338,9 +422,19 @@
           "meaning": "library"
         },
         {
-          "word": "返さ",
-          "reading": "かえさ",
-          "meaning": "to return"
+          "word": "本",
+          "reading": "ほん",
+          "meaning": "book"
+        },
+        {
+          "word": "金曜日",
+          "reading": "きんようび",
+          "meaning": "Friday"
+        },
+        {
+          "word": "返す",
+          "reading": "かえす",
+          "meaning": "return (something)"
         }
       ]
     },
@@ -374,14 +468,24 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "バイク",
+          "reading": "ばいく",
+          "meaning": "motorcycle"
+        },
+        {
+          "word": "乗る",
+          "reading": "のる",
+          "meaning": "ride"
+        },
+        {
           "word": "ヘルメット",
           "reading": "へるめっと",
           "meaning": "helmet"
         },
         {
-          "word": "かぶら",
-          "reading": "かぶら",
-          "meaning": "to put on (headwear)"
+          "word": "かぶる",
+          "reading": "かぶる",
+          "meaning": "put on (headwear)"
         }
       ]
     }

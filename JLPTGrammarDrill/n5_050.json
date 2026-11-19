@@ -39,6 +39,11 @@
           "meaning": "Sunday"
         },
         {
+          "word": "友達",
+          "reading": "ともだち",
+          "meaning": "friend"
+        },
+        {
           "word": "映画",
           "reading": "えいが",
           "meaning": "movie"
@@ -79,6 +84,16 @@
           "word": "昨日",
           "reading": "きのう",
           "meaning": "yesterday"
+        },
+        {
+          "word": "友達",
+          "reading": "ともだち",
+          "meaning": "friend"
+        },
+        {
+          "word": "私",
+          "reading": "わたし",
+          "meaning": "I; my"
         },
         {
           "word": "家",
@@ -126,6 +141,11 @@
           "word": "姉",
           "reading": "あね",
           "meaning": "(my) older sister"
+        },
+        {
+          "word": "コンサート",
+          "reading": "こんさーと",
+          "meaning": "concert"
         }
       ],
       "blank_target_reading": "ききにいきます"
@@ -134,11 +154,11 @@
       "id": "n5_050_4",
       "example_sentence": "先週、母とデパートへ買い物に行きました。",
       "translation": "Last week I went shopping at a department store with my mother.",
-      "blank_target": "買い物に行きました",
+      "blank_target": "に行きました",
       "wrong_choices": [
-        "買い物を行きました",
-        "買い物に行きます",
-        "買い物するに行きました"
+        "を行きました",
+        "に行きます",
+        "するに行きました"
       ],
       "wrong_choice_explanations": [
         "を cannot mark the purpose of going; an activity noun takes に: 買い物に行く.",
@@ -165,12 +185,22 @@
           "meaning": "last week"
         },
         {
+          "word": "母",
+          "reading": "はは",
+          "meaning": "(my) mother"
+        },
+        {
+          "word": "デパート",
+          "reading": "でぱーと",
+          "meaning": "department store"
+        },
+        {
           "word": "買い物",
           "reading": "かいもの",
           "meaning": "shopping"
         }
       ],
-      "blank_target_reading": "かいものにいきました"
+      "blank_target_reading": "にいきました"
     },
     {
       "id": "n5_050_5",
@@ -201,6 +231,11 @@
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
+        {
+          "word": "日曜日",
+          "reading": "にちようび",
+          "meaning": "Sunday"
+        },
         {
           "word": "祖母",
           "reading": "そぼ",
@@ -249,6 +284,11 @@
           "meaning": "summer vacation"
         },
         {
+          "word": "いっしょに",
+          "reading": "いっしょに",
+          "meaning": "together"
+        },
+        {
           "word": "海",
           "reading": "うみ",
           "meaning": "sea"
@@ -285,6 +325,16 @@
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
+        {
+          "word": "かぜ",
+          "reading": "かぜ",
+          "meaning": "a cold"
+        },
+        {
+          "word": "ひく",
+          "reading": "ひく",
+          "meaning": "catch (a cold)"
+        },
         {
           "word": "病院",
           "reading": "びょういん",
@@ -333,9 +383,19 @@
           "meaning": "tomorrow"
         },
         {
+          "word": "私",
+          "reading": "わたし",
+          "meaning": "I; my"
+        },
+        {
           "word": "家",
           "reading": "いえ",
           "meaning": "house"
+        },
+        {
+          "word": "本",
+          "reading": "ほん",
+          "meaning": "book"
         }
       ],
       "blank_target_reading": "かえしにきます"
@@ -369,6 +429,11 @@
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
+        {
+          "word": "十二時",
+          "reading": "じゅうにじ",
+          "meaning": "twelve o'clock"
+        },
         {
           "word": "昼ご飯",
           "reading": "ひるごはん",
@@ -407,13 +472,28 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "私",
+          "reading": "わたし",
+          "meaning": "I"
+        },
+        {
           "word": "去年",
           "reading": "きょねん",
           "meaning": "last year"
         },
         {
-          "word": "勉強",
-          "reading": "べんきょう",
+          "word": "日本",
+          "reading": "にほん",
+          "meaning": "Japan"
+        },
+        {
+          "word": "日本語",
+          "reading": "にほんご",
+          "meaning": "Japanese"
+        },
+        {
+          "word": "勉強する",
+          "reading": "べんきょうする",
           "meaning": "study"
         }
       ],

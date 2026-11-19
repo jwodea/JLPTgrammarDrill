@@ -34,14 +34,24 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "雨",
+          "reading": "あめ",
+          "meaning": "rain"
+        },
+        {
+          "word": "降る",
+          "reading": "ふる",
+          "meaning": "fall (rain)"
+        },
+        {
           "word": "傘",
           "reading": "かさ",
           "meaning": "umbrella"
         },
         {
-          "word": "降っている",
-          "reading": "ふっている",
-          "meaning": "is raining"
+          "word": "持って行く",
+          "reading": "もっていく",
+          "meaning": "take along"
         }
       ]
     },
@@ -75,14 +85,19 @@
       "register": "neutral",
       "vocab": [
         {
-          "word": "急いで",
-          "reading": "いそいで",
-          "meaning": "in a hurry"
+          "word": "時間",
+          "reading": "じかん",
+          "meaning": "time"
         },
         {
-          "word": "準備しました",
-          "reading": "じゅんびしました",
-          "meaning": "prepared"
+          "word": "急ぐ",
+          "reading": "いそぐ",
+          "meaning": "hurry"
+        },
+        {
+          "word": "準備する",
+          "reading": "じゅんびする",
+          "meaning": "prepare"
         }
       ]
     },
@@ -121,9 +136,19 @@
           "meaning": "head"
         },
         {
+          "word": "痛い",
+          "reading": "いたい",
+          "meaning": "painful; hurt"
+        },
+        {
           "word": "薬",
           "reading": "くすり",
           "meaning": "medicine"
+        },
+        {
+          "word": "飲む",
+          "reading": "のむ",
+          "meaning": "take (medicine)"
         }
       ]
     },
@@ -157,6 +182,11 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "今日",
+          "reading": "きょう",
+          "meaning": "today"
+        },
+        {
           "word": "暖かい",
           "reading": "あたたかい",
           "meaning": "warm"
@@ -165,6 +195,11 @@
           "word": "散歩",
           "reading": "さんぽ",
           "meaning": "a walk"
+        },
+        {
+          "word": "行く",
+          "reading": "いく",
+          "meaning": "go"
         }
       ]
     },
@@ -198,14 +233,19 @@
       "register": "neutral",
       "vocab": [
         {
-          "word": "遅れている",
-          "reading": "おくれている",
-          "meaning": "is delayed"
+          "word": "電車",
+          "reading": "でんしゃ",
+          "meaning": "train"
         },
         {
-          "word": "遅刻",
-          "reading": "ちこく",
-          "meaning": "being late"
+          "word": "遅れる",
+          "reading": "おくれる",
+          "meaning": "be delayed"
+        },
+        {
+          "word": "遅刻する",
+          "reading": "ちこくする",
+          "meaning": "be late"
         }
       ]
     },
@@ -244,9 +284,24 @@
           "meaning": "stomach"
         },
         {
-          "word": "空いている",
-          "reading": "すいている",
-          "meaning": "hungry (empty)"
+          "word": "空く",
+          "reading": "すく",
+          "meaning": "be empty (hungry)"
+        },
+        {
+          "word": "何か",
+          "reading": "なにか",
+          "meaning": "something"
+        },
+        {
+          "word": "食べる",
+          "reading": "たべる",
+          "meaning": "eat"
+        },
+        {
+          "word": "行く",
+          "reading": "いく",
+          "meaning": "go"
         }
       ]
     },
@@ -285,9 +340,19 @@
           "meaning": "a cold"
         },
         {
-          "word": "引いている",
-          "reading": "ひいている",
-          "meaning": "have (a cold)"
+          "word": "引く",
+          "reading": "ひく",
+          "meaning": "catch (a cold)"
+        },
+        {
+          "word": "今日",
+          "reading": "きょう",
+          "meaning": "today"
+        },
+        {
+          "word": "休む",
+          "reading": "やすむ",
+          "meaning": "rest; take the day off"
         }
       ]
     },
@@ -326,9 +391,19 @@
           "meaning": "roads"
         },
         {
-          "word": "混んでいる",
-          "reading": "こんでいる",
-          "meaning": "is crowded"
+          "word": "混む",
+          "reading": "こむ",
+          "meaning": "be crowded"
+        },
+        {
+          "word": "バス",
+          "reading": "ばす",
+          "meaning": "bus"
+        },
+        {
+          "word": "行く",
+          "reading": "いく",
+          "meaning": "go"
         }
       ]
     },
@@ -359,7 +434,29 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "日本語",
+          "reading": "にほんご",
+          "meaning": "Japanese"
+        },
+        {
+          "word": "難しい",
+          "reading": "むずかしい",
+          "meaning": "difficult"
+        },
+        {
+          "word": "毎日",
+          "reading": "まいにち",
+          "meaning": "every day"
+        },
+        {
+          "word": "勉強する",
+          "reading": "べんきょうする",
+          "meaning": "study"
+        }
+      ]
     },
     {
       "id": "n5_052_10",
@@ -391,9 +488,19 @@
       "register": "neutral",
       "vocab": [
         {
-          "word": "疲れている",
-          "reading": "つかれている",
-          "meaning": "tired"
+          "word": "疲れる",
+          "reading": "つかれる",
+          "meaning": "be tired"
+        },
+        {
+          "word": "早く",
+          "reading": "はやく",
+          "meaning": "early"
+        },
+        {
+          "word": "寝る",
+          "reading": "ねる",
+          "meaning": "go to bed"
         }
       ]
     }

@@ -35,13 +35,18 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "寝る",
+          "reading": "ねる",
+          "meaning": "go to bed; sleep"
+        },
+        {
           "word": "歯",
           "reading": "は",
           "meaning": "teeth"
         },
         {
-          "word": "磨きます",
-          "reading": "みがきます",
+          "word": "磨く",
+          "reading": "みがく",
           "meaning": "brush"
         }
       ]
@@ -77,14 +82,19 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "出かける",
+          "reading": "でかける",
+          "meaning": "go out"
+        },
+        {
           "word": "鍵",
           "reading": "かぎ",
           "meaning": "key; lock"
         },
         {
-          "word": "かけました",
-          "reading": "かけました",
-          "meaning": "locked"
+          "word": "かける",
+          "reading": "かける",
+          "meaning": "lock; fasten"
         }
       ]
     },
@@ -119,13 +129,18 @@
       "register": "neutral",
       "vocab": [
         {
-          "word": "食事",
-          "reading": "しょくじ",
-          "meaning": "meal"
+          "word": "食事する",
+          "reading": "しょくじする",
+          "meaning": "eat a meal"
         },
         {
-          "word": "洗います",
-          "reading": "あらいます",
+          "word": "手",
+          "reading": "て",
+          "meaning": "hand"
+        },
+        {
+          "word": "洗う",
+          "reading": "あらう",
           "meaning": "wash"
         }
       ]
@@ -161,14 +176,24 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "旅行",
+          "reading": "りょこう",
+          "meaning": "trip"
+        },
+        {
+          "word": "行く",
+          "reading": "いく",
+          "meaning": "go"
+        },
+        {
           "word": "切符",
           "reading": "きっぷ",
           "meaning": "ticket"
         },
         {
-          "word": "旅行",
-          "reading": "りょこう",
-          "meaning": "trip"
+          "word": "買う",
+          "reading": "かう",
+          "meaning": "buy"
         }
       ]
     },
@@ -208,14 +233,19 @@
           "meaning": "meeting"
         },
         {
+          "word": "始まる",
+          "reading": "はじまる",
+          "meaning": "begin; start"
+        },
+        {
           "word": "資料",
           "reading": "しりょう",
           "meaning": "materials; documents"
         },
         {
-          "word": "準備します",
-          "reading": "じゅんびします",
-          "meaning": "will prepare"
+          "word": "準備する",
+          "reading": "じゅんびする",
+          "meaning": "prepare"
         }
       ]
     },
@@ -247,7 +277,29 @@
       ],
       "audio_eligible": true,
       "blank_target_reading": "まえに",
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "映画",
+          "reading": "えいが",
+          "meaning": "movie"
+        },
+        {
+          "word": "見る",
+          "reading": "みる",
+          "meaning": "watch; see"
+        },
+        {
+          "word": "ポップコーン",
+          "reading": "ぽっぷこーん",
+          "meaning": "popcorn"
+        },
+        {
+          "word": "買う",
+          "reading": "かう",
+          "meaning": "buy"
+        }
+      ]
     },
     {
       "id": "n5_055_7",
@@ -288,6 +340,16 @@
           "word": "受ける",
           "reading": "うける",
           "meaning": "take (a test)"
+        },
+        {
+          "word": "たくさん",
+          "reading": "たくさん",
+          "meaning": "a lot"
+        },
+        {
+          "word": "勉強する",
+          "reading": "べんきょうする",
+          "meaning": "study"
         }
       ]
     },
@@ -322,13 +384,23 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "仕事",
+          "reading": "しごと",
+          "meaning": "job; work"
+        },
+        {
           "word": "辞める",
           "reading": "やめる",
           "meaning": "quit"
         },
         {
-          "word": "探します",
-          "reading": "さがします",
+          "word": "次",
+          "reading": "つぎ",
+          "meaning": "next"
+        },
+        {
+          "word": "探す",
+          "reading": "さがす",
           "meaning": "look for"
         }
       ]
@@ -364,14 +436,24 @@
       "register": "neutral",
       "vocab": [
         {
-          "word": "確認しました",
-          "reading": "かくにんしました",
-          "meaning": "checked; confirmed"
-        },
-        {
           "word": "買い物",
           "reading": "かいもの",
           "meaning": "shopping"
+        },
+        {
+          "word": "行く",
+          "reading": "いく",
+          "meaning": "go"
+        },
+        {
+          "word": "お金",
+          "reading": "おかね",
+          "meaning": "money"
+        },
+        {
+          "word": "確認する",
+          "reading": "かくにんする",
+          "meaning": "check; confirm"
         }
       ]
     },
@@ -406,9 +488,24 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "家",
+          "reading": "いえ",
+          "meaning": "home; house"
+        },
+        {
+          "word": "出る",
+          "reading": "でる",
+          "meaning": "leave; go out"
+        },
+        {
           "word": "天気予報",
           "reading": "てんきよほう",
           "meaning": "weather forecast"
+        },
+        {
+          "word": "見る",
+          "reading": "みる",
+          "meaning": "check; watch"
         }
       ]
     }

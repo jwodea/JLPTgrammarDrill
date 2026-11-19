@@ -19,7 +19,7 @@
         "個 is used for small discrete objects like apples or boxes, but doesn't fit paper sheets which are flat.",
         "本 is for long cylindrical objects like pens or bottles, not flat paper sheets."
       ],
-      "hiragana_full": "かみをさんまいください",
+      "hiragana_full": "かみをさんまいください。",
       "audio_alternatives": [
         {
           "kanji": "紙を三枚もらえますか。",
@@ -56,7 +56,7 @@
         "個 is for small discrete items, but photographs as flat objects require 枚 instead.",
         "台 is used for machines, vehicles, and equipment, not for flat photographs."
       ],
-      "hiragana_full": "しゃしんをじゅうまいとりました",
+      "hiragana_full": "しゃしんをじゅうまいとりました。",
       "audio_alternatives": [
         {
           "kanji": "写真を十枚撮った。",
@@ -77,9 +77,9 @@
           "meaning": "photograph"
         },
         {
-          "word": "撮りました",
-          "reading": "とりました",
-          "meaning": "took (photos)"
+          "word": "撮る",
+          "reading": "とる",
+          "meaning": "take (a photo)"
         }
       ]
     },
@@ -98,7 +98,7 @@
         "個 is for small objects, but clothing items like T-shirts are counted with 枚.",
         "冊 counts bound books and magazines — a T-shirt is not a bound volume, so 冊 cannot count it; thin flat clothing takes 枚."
       ],
-      "hiragana_full": "ティーシャツをにまいかいました",
+      "hiragana_full": "ティーシャツをにまいかいました。",
       "audio_alternatives": [
         {
           "kanji": "Tシャツを二枚購入しました。",
@@ -111,7 +111,19 @@
       ],
       "audio_eligible": true,
       "blank_target_reading": "まい",
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "Tシャツ",
+          "reading": "てぃーしゃつ",
+          "meaning": "T-shirt"
+        },
+        {
+          "word": "買う",
+          "reading": "かう",
+          "meaning": "buy"
+        }
+      ]
     },
     {
       "id": "n5_075_4",
@@ -128,7 +140,7 @@
         "個 is for small objects, but flat dishes like plates are counted with 枚.",
         "台 is for machines and equipment, not for flat dishware like plates."
       ],
-      "hiragana_full": "おさらをごまいあらいました",
+      "hiragana_full": "おさらをごまいあらいました。",
       "audio_alternatives": [
         {
           "kanji": "五枚のお皿を洗いました。",
@@ -149,9 +161,9 @@
           "meaning": "plate; dish"
         },
         {
-          "word": "洗いました",
-          "reading": "あらいました",
-          "meaning": "washed"
+          "word": "洗う",
+          "reading": "あらう",
+          "meaning": "wash"
         }
       ]
     },
@@ -170,7 +182,7 @@
         "個 is for discrete objects, but stamps as flat items are counted with 枚.",
         "本 is for long cylindrical objects, which doesn't apply to flat stamps."
       ],
-      "hiragana_full": "きってをよんまいはりました",
+      "hiragana_full": "きってをよんまいはりました。",
       "audio_alternatives": [
         {
           "kanji": "切手を四枚貼った。",
@@ -191,9 +203,9 @@
           "meaning": "postage stamp"
         },
         {
-          "word": "貼りました",
-          "reading": "はりました",
-          "meaning": "stuck on; affixed"
+          "word": "貼る",
+          "reading": "はる",
+          "meaning": "stick on; affix"
         }
       ]
     },
@@ -212,7 +224,7 @@
         "個 is for small discrete objects, but flat discs like CDs are counted with 枚.",
         "冊 is specifically for bound books and magazines, not for disc media like CDs."
       ],
-      "hiragana_full": "しーでぃーをにまいかりました",
+      "hiragana_full": "しーでぃーをにまいかりました。",
       "audio_alternatives": [
         {
           "kanji": "CDを二枚借りた。",
@@ -228,9 +240,14 @@
       "register": "neutral",
       "vocab": [
         {
-          "word": "借りました",
-          "reading": "かりました",
-          "meaning": "borrowed"
+          "word": "CD",
+          "reading": "しーでぃー",
+          "meaning": "CD"
+        },
+        {
+          "word": "借りる",
+          "reading": "かりる",
+          "meaning": "borrow"
         }
       ]
     },
@@ -265,9 +282,14 @@
       "register": "neutral",
       "vocab": [
         {
-          "word": "落としました",
-          "reading": "おとしました",
-          "meaning": "dropped"
+          "word": "ハンカチ",
+          "reading": "はんかち",
+          "meaning": "handkerchief"
+        },
+        {
+          "word": "落とす",
+          "reading": "おとす",
+          "meaning": "drop"
         }
       ]
     },
@@ -286,7 +308,7 @@
         "畳 can be used as its own counter (六畳), but this refers to room size, not individual mats.",
         "台 is for machines and equipment, not for flat floor coverings like tatami."
       ],
-      "hiragana_full": "たたみがろくまいあります",
+      "hiragana_full": "たたみがろくまいあります。",
       "audio_alternatives": [
         {
           "kanji": "六枚の畳があります。",
@@ -323,7 +345,7 @@
         "個 is for discrete objects, but flat items like cards are counted with 枚.",
         "セット is for sets or collections of items, not for counting individual cards."
       ],
-      "hiragana_full": "かーどをななまいあつめました",
+      "hiragana_full": "かーどをななまいあつめました。",
       "audio_alternatives": [
         {
           "kanji": "カードを七枚集めた。",
@@ -339,9 +361,14 @@
       "register": "neutral",
       "vocab": [
         {
-          "word": "集めました",
-          "reading": "あつめました",
-          "meaning": "collected"
+          "word": "カード",
+          "reading": "かーど",
+          "meaning": "card"
+        },
+        {
+          "word": "集める",
+          "reading": "あつめる",
+          "meaning": "collect"
         }
       ]
     },
@@ -360,7 +387,7 @@
         "席 is for seats or seating positions, not for the physical ticket papers themselves.",
         "台 is for machines and equipment, not for flat paper items like tickets."
       ],
-      "hiragana_full": "チケットをにまいよやくしました",
+      "hiragana_full": "チケットをにまいよやくしました。",
       "audio_alternatives": [
         {
           "kanji": "チケットを二枚取りました。",
@@ -376,9 +403,14 @@
       "register": "neutral",
       "vocab": [
         {
-          "word": "予約しました",
-          "reading": "よやくしました",
-          "meaning": "reserved"
+          "word": "チケット",
+          "reading": "ちけっと",
+          "meaning": "ticket"
+        },
+        {
+          "word": "予約する",
+          "reading": "よやくする",
+          "meaning": "reserve; book"
         }
       ]
     }

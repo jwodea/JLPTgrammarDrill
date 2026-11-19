@@ -32,7 +32,14 @@
       ],
       "audio_eligible": true,
       "blank_target_reading": "ばん",
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "私",
+          "reading": "わたし",
+          "meaning": "I"
+        }
+      ]
     },
     {
       "id": "n5_080_2",
@@ -70,8 +77,8 @@
           "meaning": "train"
         },
         {
-          "word": "乗ります",
-          "reading": "のります",
+          "word": "乗る",
+          "reading": "のる",
           "meaning": "ride; take"
         }
       ]
@@ -112,8 +119,8 @@
           "meaning": "station"
         },
         {
-          "word": "降ります",
-          "reading": "おります",
+          "word": "降りる",
+          "reading": "おりる",
           "meaning": "get off"
         }
       ]
@@ -154,8 +161,8 @@
           "meaning": "room"
         },
         {
-          "word": "入って",
-          "reading": "はいって",
+          "word": "入る",
+          "reading": "はいる",
           "meaning": "enter"
         }
       ]
@@ -194,6 +201,11 @@
           "word": "ホーム",
           "reading": "ほーむ",
           "meaning": "platform"
+        },
+        {
+          "word": "どこ",
+          "reading": "どこ",
+          "meaning": "where"
         }
       ]
     },
@@ -233,8 +245,8 @@
           "meaning": "locker"
         },
         {
-          "word": "使います",
-          "reading": "つかいます",
+          "word": "使う",
+          "reading": "つかう",
           "meaning": "use"
         }
       ]
@@ -273,6 +285,11 @@
           "word": "出口",
           "reading": "でぐち",
           "meaning": "exit"
+        },
+        {
+          "word": "出る",
+          "reading": "でる",
+          "meaning": "exit; go out"
         }
       ]
     },
@@ -352,6 +369,11 @@
           "word": "チャンネル",
           "reading": "ちゃんねる",
           "meaning": "channel"
+        },
+        {
+          "word": "見る",
+          "reading": "みる",
+          "meaning": "watch; see"
         }
       ]
     },
@@ -389,6 +411,11 @@
           "word": "ゲート",
           "reading": "げーと",
           "meaning": "gate"
+        },
+        {
+          "word": "行く",
+          "reading": "いく",
+          "meaning": "go"
         }
       ]
     }

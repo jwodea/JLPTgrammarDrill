@@ -39,9 +39,19 @@
           "meaning": "movie"
         },
         {
+          "word": "見る",
+          "reading": "みる",
+          "meaning": "watch"
+        },
+        {
           "word": "友達",
           "reading": "ともだち",
           "meaning": "friend"
+        },
+        {
+          "word": "話す",
+          "reading": "はなす",
+          "meaning": "talk"
         }
       ]
     },
@@ -78,6 +88,16 @@
           "word": "歯",
           "reading": "は",
           "meaning": "tooth; teeth"
+        },
+        {
+          "word": "磨く",
+          "reading": "みがく",
+          "meaning": "brush"
+        },
+        {
+          "word": "寝る",
+          "reading": "ねる",
+          "meaning": "sleep"
         }
       ]
     },
@@ -116,8 +136,13 @@
           "meaning": "book"
         },
         {
-          "word": "勉強",
-          "reading": "べんきょう",
+          "word": "借りる",
+          "reading": "かりる",
+          "meaning": "borrow"
+        },
+        {
+          "word": "勉強する",
+          "reading": "べんきょうする",
           "meaning": "study"
         }
       ]
@@ -157,9 +182,19 @@
           "meaning": "breakfast"
         },
         {
+          "word": "食べる",
+          "reading": "たべる",
+          "meaning": "eat"
+        },
+        {
           "word": "学校",
           "reading": "がっこう",
           "meaning": "school"
+        },
+        {
+          "word": "行く",
+          "reading": "いく",
+          "meaning": "go"
         }
       ]
     },
@@ -196,6 +231,16 @@
           "word": "電話",
           "reading": "でんわ",
           "meaning": "phone call"
+        },
+        {
+          "word": "かける",
+          "reading": "かける",
+          "meaning": "make (a call)"
+        },
+        {
+          "word": "会う",
+          "reading": "あう",
+          "meaning": "meet"
         }
       ]
     },
@@ -234,6 +279,16 @@
           "meaning": "hospital"
         },
         {
+          "word": "行く",
+          "reading": "いく",
+          "meaning": "go"
+        },
+        {
+          "word": "少し",
+          "reading": "すこし",
+          "meaning": "a little"
+        },
+        {
           "word": "楽",
           "reading": "らく",
           "meaning": "at ease; (feeling) better"
@@ -267,7 +322,29 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "宿題",
+          "reading": "しゅくだい",
+          "meaning": "homework"
+        },
+        {
+          "word": "友達",
+          "reading": "ともだち",
+          "meaning": "friend"
+        },
+        {
+          "word": "遊ぶ",
+          "reading": "あそぶ",
+          "meaning": "play"
+        },
+        {
+          "word": "行く",
+          "reading": "いく",
+          "meaning": "go"
+        }
+      ]
     },
     {
       "id": "n5_036_8",
@@ -298,6 +375,16 @@
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
+        {
+          "word": "手",
+          "reading": "て",
+          "meaning": "hand(s)"
+        },
+        {
+          "word": "洗う",
+          "reading": "あらう",
+          "meaning": "wash"
+        },
         {
           "word": "食事",
           "reading": "しょくじ",
@@ -340,9 +427,19 @@
           "meaning": "telephone"
         },
         {
-          "word": "予約",
-          "reading": "よやく",
-          "meaning": "reservation"
+          "word": "予約する",
+          "reading": "よやくする",
+          "meaning": "make a reservation"
+        },
+        {
+          "word": "お店",
+          "reading": "おみせ",
+          "meaning": "store"
+        },
+        {
+          "word": "行く",
+          "reading": "いく",
+          "meaning": "go"
         }
       ]
     },
@@ -373,7 +470,24 @@
         }
       ],
       "audio_eligible": true,
-      "register": "casual"
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "買い物",
+          "reading": "かいもの",
+          "meaning": "shopping"
+        },
+        {
+          "word": "料理",
+          "reading": "りょうり",
+          "meaning": "food; cooking"
+        },
+        {
+          "word": "作る",
+          "reading": "つくる",
+          "meaning": "make"
+        }
+      ]
     }
   ]
 }

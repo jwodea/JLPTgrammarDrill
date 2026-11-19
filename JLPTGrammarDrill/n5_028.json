@@ -31,7 +31,24 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "昨日",
+          "reading": "きのう",
+          "meaning": "yesterday"
+        },
+        {
+          "word": "雨",
+          "reading": "あめ",
+          "meaning": "rain"
+        },
+        {
+          "word": "降る",
+          "reading": "ふる",
+          "meaning": "fall (rain)"
+        }
+      ]
     },
     {
       "id": "n5_028_2",
@@ -102,6 +119,11 @@
           "word": "朝ごはん",
           "reading": "あさごはん",
           "meaning": "breakfast"
+        },
+        {
+          "word": "食べる",
+          "reading": "たべる",
+          "meaning": "eat"
         }
       ]
     },
@@ -138,6 +160,16 @@
           "word": "昨夜",
           "reading": "さくや",
           "meaning": "last night"
+        },
+        {
+          "word": "早く",
+          "reading": "はやく",
+          "meaning": "early"
+        },
+        {
+          "word": "寝る",
+          "reading": "ねる",
+          "meaning": "go to bed; sleep"
         }
       ]
     },
@@ -171,9 +203,14 @@
       "register": "neutral",
       "vocab": [
         {
-          "word": "電話",
-          "reading": "でんわ",
-          "meaning": "phone call"
+          "word": "友達",
+          "reading": "ともだち",
+          "meaning": "friend"
+        },
+        {
+          "word": "電話する",
+          "reading": "でんわする",
+          "meaning": "call (by phone)"
         }
       ]
     },
@@ -215,6 +252,11 @@
           "word": "新聞",
           "reading": "しんぶん",
           "meaning": "newspaper"
+        },
+        {
+          "word": "読む",
+          "reading": "よむ",
+          "meaning": "read"
         }
       ]
     },
@@ -245,7 +287,19 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "パーティー",
+          "reading": "ぱーてぃー",
+          "meaning": "party"
+        },
+        {
+          "word": "行く",
+          "reading": "いく",
+          "meaning": "go"
+        }
+      ]
     },
     {
       "id": "n5_028_8",
@@ -274,7 +328,19 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "コーヒー",
+          "reading": "こーひー",
+          "meaning": "coffee"
+        },
+        {
+          "word": "飲む",
+          "reading": "のむ",
+          "meaning": "drink"
+        }
+      ]
     },
     {
       "id": "n5_028_9",
@@ -306,9 +372,19 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "昨日",
+          "reading": "きのう",
+          "meaning": "yesterday"
+        },
+        {
           "word": "授業",
           "reading": "じゅぎょう",
           "meaning": "class"
+        },
+        {
+          "word": "出る",
+          "reading": "でる",
+          "meaning": "attend"
         }
       ]
     },

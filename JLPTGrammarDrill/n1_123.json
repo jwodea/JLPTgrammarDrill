@@ -9,7 +9,11 @@
       "example_sentence": "彼が締め切りを守ったためしがない。",
       "translation": "He has never once met a deadline.",
       "blank_target": "ためしがない",
-      "wrong_choices": ["わけがない", "きりだ", "ばかりだ"],
+      "wrong_choices": [
+        "わけがない",
+        "きりだ",
+        "ばかりだ"
+      ],
       "wrong_choice_explanations": [
         "わけがない means 'there's no way that'. 彼が締め切りを守ったわけがない is natural, but it judges one case ('he can't have met it'); ためしがない states his record — not once, ever.",
         "きりだ means 'did once and nothing since'. 守ったきりだ presupposes he met a deadline at least once, contradicting the sentence's point; ためしがない says he never has.",
@@ -17,14 +21,28 @@
       ],
       "hiragana_full": "かれがしめきりをまもったためしがない。",
       "audio_alternatives": [
-        { "kanji": "彼が納期を守ったためしなんて一度もない。", "hiragana_full": "かれがのうきをまもったためしなんていちどもない。" },
-        { "kanji": "彼はこれまで一度も締め切りを守っていない。", "hiragana_full": "かれはこれまでいちどもしめきりをまもっていない。" }
+        {
+          "kanji": "彼が納期を守ったためしなんて一度もない。",
+          "hiragana_full": "かれがのうきをまもったためしなんていちどもない。"
+        },
+        {
+          "kanji": "彼はこれまで一度も締め切りを守っていない。",
+          "hiragana_full": "かれはこれまでいちどもしめきりをまもっていない。"
+        }
       ],
       "audio_eligible": true,
       "register": "casual",
       "vocab": [
-        { "word": "締め切り", "reading": "しめきり", "meaning": "deadline" },
-        { "word": "守った", "reading": "まもった", "meaning": "kept; observed (a rule/time)" }
+        {
+          "word": "締め切り",
+          "reading": "しめきり",
+          "meaning": "deadline"
+        },
+        {
+          "word": "守った",
+          "reading": "まもった",
+          "meaning": "kept; observed (a rule/time)"
+        }
       ]
     },
     {
@@ -32,7 +50,11 @@
       "example_sentence": "あの人の予想が当たったためしがない。",
       "translation": "That person's predictions have never once turned out right.",
       "blank_target": "ためしがない",
-      "wrong_choices": ["はずがない", "ところだった", "ばかりだ"],
+      "wrong_choices": [
+        "はずがない",
+        "ところだった",
+        "ばかりだ"
+      ],
       "wrong_choice_explanations": [
         "はずがない means 'can't have'. あの人の予想が当たったはずがない is natural as a judgement on one prediction; ためしがない sums up the whole record — never right, not once.",
         "ところだった means 'was just about to' or 'nearly'. 当たったところだった describes a single moment, not a track record of predictions; ためしがない says they have never once come true.",
@@ -40,14 +62,28 @@
       ],
       "hiragana_full": "あのひとのよそうがあたったためしがない。",
       "audio_alternatives": [
-        { "kanji": "あの人の予想が的中したためしがない。", "hiragana_full": "あのひとのよそうがてきちゅうしたためしがない。" },
-        { "kanji": "あの人の予想はこれまで一度も当たっていない。", "hiragana_full": "あのひとのよそうはこれまでいちどもあたっていない。" }
+        {
+          "kanji": "あの人の予想が的中したためしがない。",
+          "hiragana_full": "あのひとのよそうがてきちゅうしたためしがない。"
+        },
+        {
+          "kanji": "あの人の予想はこれまで一度も当たっていない。",
+          "hiragana_full": "あのひとのよそうはこれまでいちどもあたっていない。"
+        }
       ],
       "audio_eligible": true,
       "register": "casual",
       "vocab": [
-        { "word": "予想", "reading": "よそう", "meaning": "prediction; forecast" },
-        { "word": "当たった", "reading": "あたった", "meaning": "came true; was correct" }
+        {
+          "word": "予想",
+          "reading": "よそう",
+          "meaning": "prediction; forecast"
+        },
+        {
+          "word": "当たった",
+          "reading": "あたった",
+          "meaning": "came true; was correct"
+        }
       ]
     },
     {
@@ -55,7 +91,11 @@
       "example_sentence": "母に相談して、うまくいったためしがない。",
       "translation": "Consulting my mother has never once worked out well.",
       "blank_target": "ためしがない",
-      "wrong_choices": ["わけがない", "きりだ", "までだ"],
+      "wrong_choices": [
+        "わけがない",
+        "きりだ",
+        "までだ"
+      ],
       "wrong_choice_explanations": [
         "わけがない means 'there's no way that'. うまくいったわけがない reads as a judgement on one consultation; the sentence describes a pattern — every time I consult my mother — which ためしがない sums up.",
         "きりだ means 'did once and nothing since'. うまくいったきり presupposes one success, contradicting the point that consulting mother never works; ためしがない states the never.",
@@ -63,13 +103,23 @@
       ],
       "hiragana_full": "ははにそうだんして、うまくいったためしがない。",
       "audio_alternatives": [
-        { "kanji": "母に相談して、物事がうまく運んだためしがない。", "hiragana_full": "ははにそうだんして、ものごとがうまくはこんだためしがない。" },
-        { "kanji": "母に相談したところで、うまくいったことは一度もない。", "hiragana_full": "ははにそうだんしたところで、うまくいったことはいちどもない。" }
+        {
+          "kanji": "母に相談して、物事がうまく運んだためしがない。",
+          "hiragana_full": "ははにそうだんして、ものごとがうまくはこんだためしがない。"
+        },
+        {
+          "kanji": "母に相談したところで、うまくいったことは一度もない。",
+          "hiragana_full": "ははにそうだんしたところで、うまくいったことはいちどもない。"
+        }
       ],
       "audio_eligible": true,
       "register": "casual",
       "vocab": [
-        { "word": "相談", "reading": "そうだん", "meaning": "consultation; asking for advice" }
+        {
+          "word": "相談",
+          "reading": "そうだん",
+          "meaning": "consultation; asking for advice"
+        }
       ]
     },
     {
@@ -77,7 +127,11 @@
       "example_sentence": "兄が約束の時間に現れたためしがない。",
       "translation": "My older brother has never once shown up at the agreed time.",
       "blank_target": "ためしがない",
-      "wrong_choices": ["はずがない", "ばかりだ", "きりだ"],
+      "wrong_choices": [
+        "はずがない",
+        "ばかりだ",
+        "きりだ"
+      ],
       "wrong_choice_explanations": [
         "はずがない means 'can't have'. 兄が約束の時間に現れたはずがない is natural, but it judges one occasion; ためしがない sums up his record — never once on time.",
         "ばかりだ after a past verb means 'has just done': 現れたばかりだ, 'he just showed up'. That reports a single recent arrival, the opposite of a brother who is never on time; ためしがない states the never.",
@@ -85,14 +139,28 @@
       ],
       "hiragana_full": "あにがやくそくのじかんにあらわれたためしがない。",
       "audio_alternatives": [
-        { "kanji": "兄が待ち合わせの時間に来たためしがない。", "hiragana_full": "あにがまちあわせのじかんにきたためしがない。" },
-        { "kanji": "兄はいつも遅れてきて、時間通りに現れたことがない。", "hiragana_full": "あにはいつもおくれてきて、じかんどおりにあらわれたことがない。" }
+        {
+          "kanji": "兄が待ち合わせの時間に来たためしがない。",
+          "hiragana_full": "あにがまちあわせのじかんにきたためしがない。"
+        },
+        {
+          "kanji": "兄はいつも遅れてきて、時間通りに現れたことがない。",
+          "hiragana_full": "あにはいつもおくれてきて、じかんどおりにあらわれたことがない。"
+        }
       ],
       "audio_eligible": true,
       "register": "casual",
       "vocab": [
-        { "word": "約束", "reading": "やくそく", "meaning": "promise; appointment" },
-        { "word": "現れた", "reading": "あらわれた", "meaning": "appeared; showed up" }
+        {
+          "word": "約束",
+          "reading": "やくそく",
+          "meaning": "promise; appointment"
+        },
+        {
+          "word": "現れた",
+          "reading": "あらわれた",
+          "meaning": "appeared; showed up"
+        }
       ]
     },
     {
@@ -100,7 +168,11 @@
       "example_sentence": "この機械がトラブルなく動いたためしがない。",
       "translation": "This machine has never once run without some kind of trouble.",
       "blank_target": "ためしがない",
-      "wrong_choices": ["わけがない", "ところだった", "ばかりだ"],
+      "wrong_choices": [
+        "わけがない",
+        "ところだった",
+        "ばかりだ"
+      ],
       "wrong_choice_explanations": [
         "わけがない means 'there's no way that'. この機械がトラブルなく動いたわけがない is natural, but it judges one run; ためしがない states the record — it has never once run smoothly.",
         "ところだった means 'was just about to' or 'nearly'. 動いたところだった describes one moment, not the machine's track record; ためしがない says it has never once run without trouble.",
@@ -108,14 +180,28 @@
       ],
       "hiragana_full": "このきかいがとらぶるなくうごいたためしがない。",
       "audio_alternatives": [
-        { "kanji": "この機械が一度も故障せずに動いたためしがない。", "hiragana_full": "このきかいがいちどもこしょうせずにうごいたためしがない。" },
-        { "kanji": "この機械はいつも何かしら不具合を起こす。", "hiragana_full": "このきかいはいつもなにかしらふぐあいをおこす。" }
+        {
+          "kanji": "この機械が一度も故障せずに動いたためしがない。",
+          "hiragana_full": "このきかいがいちどもこしょうせずにうごいたためしがない。"
+        },
+        {
+          "kanji": "この機械はいつも何かしら不具合を起こす。",
+          "hiragana_full": "このきかいはいつもなにかしらふぐあいをおこす。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "機械", "reading": "きかい", "meaning": "machine" },
-        { "word": "動いた", "reading": "うごいた", "meaning": "operated; ran" }
+        {
+          "word": "機械",
+          "reading": "きかい",
+          "meaning": "machine"
+        },
+        {
+          "word": "動いた",
+          "reading": "うごいた",
+          "meaning": "operated; ran"
+        }
       ]
     },
     {
@@ -123,7 +209,11 @@
       "example_sentence": "政治家の公約がそのまま実現したためしがない。",
       "translation": "Politicians' campaign pledges have never once been realized as promised.",
       "blank_target": "ためしがない",
-      "wrong_choices": ["はずがない", "きりだ", "までだ"],
+      "wrong_choices": [
+        "はずがない",
+        "きりだ",
+        "までだ"
+      ],
       "wrong_choice_explanations": [
         "はずがない means 'can't have'. 公約がそのまま実現したはずがない is natural, but it judges a particular pledge; the sentence makes a sweeping claim about politicians' pledges in general — ためしがない, 'never once'.",
         "きりだ means 'did once and nothing since'. 実現したきり presupposes a pledge was fulfilled once, contradicting the claim that none ever is; ためしがない states that there's no precedent.",
@@ -131,15 +221,33 @@
       ],
       "hiragana_full": "せいじかのこうやくがそのままじつげんしたためしがない。",
       "audio_alternatives": [
-        { "kanji": "政治家の公約が額面通りに果たされたためしがない。", "hiragana_full": "せいじかのこうやくががくめんどおりにはたされたためしがない。" },
-        { "kanji": "政治家が掲げた公約は、そのまま実現された例が一つもない。", "hiragana_full": "せいじかがかかげたこうやくは、そのままじつげんされたれいがひとつもない。" }
+        {
+          "kanji": "政治家の公約が額面通りに果たされたためしがない。",
+          "hiragana_full": "せいじかのこうやくががくめんどおりにはたされたためしがない。"
+        },
+        {
+          "kanji": "政治家が掲げた公約は、そのまま実現された例が一つもない。",
+          "hiragana_full": "せいじかがかかげたこうやくは、そのままじつげんされたれいがひとつもない。"
+        }
       ],
       "audio_eligible": true,
       "register": "written",
       "vocab": [
-        { "word": "政治家", "reading": "せいじか", "meaning": "politician" },
-        { "word": "公約", "reading": "こうやく", "meaning": "campaign pledge; public promise" },
-        { "word": "実現", "reading": "じつげん", "meaning": "realization; coming true" }
+        {
+          "word": "政治家",
+          "reading": "せいじか",
+          "meaning": "politician"
+        },
+        {
+          "word": "公約",
+          "reading": "こうやく",
+          "meaning": "campaign pledge; public promise"
+        },
+        {
+          "word": "実現",
+          "reading": "じつげん",
+          "meaning": "realization; coming true"
+        }
       ]
     },
     {
@@ -147,7 +255,11 @@
       "example_sentence": "ダイエットを始めて、三日以上続いたためしがない。",
       "translation": "Whenever I start a diet, it has never once lasted more than three days.",
       "blank_target": "ためしがない",
-      "wrong_choices": ["わけがない", "ばかりだ", "きりだ"],
+      "wrong_choices": [
+        "わけがない",
+        "ばかりだ",
+        "きりだ"
+      ],
       "wrong_choice_explanations": [
         "わけがない means 'there's no way that'. 三日以上続いたわけがない judges a single attempt, but ダイエットを始めて describes the speaker's repeated experience; ためしがない gives 'never once has it lasted'.",
         "ばかりだ after a past verb means 'has just done': 続いたばかりだ, 'it has only just continued'. That doesn't fit the speaker's record of diets fizzling; ためしがない says they never last three days.",
@@ -155,14 +267,28 @@
       ],
       "hiragana_full": "だいえっとをはじめて、みっかいじょうつづいたためしがない。",
       "audio_alternatives": [
-        { "kanji": "ダイエットを始めても、三日以上続いたためしがない。", "hiragana_full": "だいえっとをはじめても、みっかいじょうつづいたためしがない。" },
-        { "kanji": "何度ダイエットしても、いつも三日坊主で終わってしまう。", "hiragana_full": "なんどだいえっとしても、いつもみっかぼうずでおわってしまう。" }
+        {
+          "kanji": "ダイエットを始めても、三日以上続いたためしがない。",
+          "hiragana_full": "だいえっとをはじめても、みっかいじょうつづいたためしがない。"
+        },
+        {
+          "kanji": "何度ダイエットしても、いつも三日坊主で終わってしまう。",
+          "hiragana_full": "なんどだいえっとしても、いつもみっかぼうずでおわってしまう。"
+        }
       ],
       "audio_eligible": true,
       "register": "casual",
       "vocab": [
-        { "word": "続いた", "reading": "つづいた", "meaning": "lasted; continued" },
-        { "word": "三日", "reading": "みっか", "meaning": "three days" }
+        {
+          "word": "続いた",
+          "reading": "つづいた",
+          "meaning": "lasted; continued"
+        },
+        {
+          "word": "三日",
+          "reading": "みっか",
+          "meaning": "three days"
+        }
       ]
     },
     {
@@ -170,7 +296,11 @@
       "example_sentence": "天気予報が週末に限って当たったためしがない。",
       "translation": "The weather forecast has never once been right precisely when it's the weekend.",
       "blank_target": "ためしがない",
-      "wrong_choices": ["はずがない", "ところだ", "ばかりだ"],
+      "wrong_choices": [
+        "はずがない",
+        "ところだ",
+        "ばかりだ"
+      ],
       "wrong_choice_explanations": [
         "はずがない means 'can't have'. 当たったはずがない judges one forecast, but 週末に限って ('precisely on weekends') describes a recurring pattern; ためしがない sums it up as never right.",
         "ところだ after a past verb means 'has just done': 当たったところだ, 'it was just right'. That reports one correct forecast, the opposite of the complaint; ためしがない says it has never once been right.",
@@ -178,15 +308,33 @@
       ],
       "hiragana_full": "てんきよほうがしゅうまつにかぎってあたったためしがない。",
       "audio_alternatives": [
-        { "kanji": "週末の天気予報が当たったためしなど一度もない。", "hiragana_full": "しゅうまつのてんきよほうがあたったためしなどいちどもない。" },
-        { "kanji": "週末になると、天気予報はいつも外れる。", "hiragana_full": "しゅうまつになると、てんきよほうはいつもはずれる。" }
+        {
+          "kanji": "週末の天気予報が当たったためしなど一度もない。",
+          "hiragana_full": "しゅうまつのてんきよほうがあたったためしなどいちどもない。"
+        },
+        {
+          "kanji": "週末になると、天気予報はいつも外れる。",
+          "hiragana_full": "しゅうまつになると、てんきよほうはいつもはずれる。"
+        }
       ],
       "audio_eligible": true,
       "register": "casual",
       "vocab": [
-        { "word": "天気予報", "reading": "てんきよほう", "meaning": "weather forecast" },
-        { "word": "週末", "reading": "しゅうまつ", "meaning": "weekend" },
-        { "word": "当たった", "reading": "あたった", "meaning": "was correct; hit the mark" }
+        {
+          "word": "天気予報",
+          "reading": "てんきよほう",
+          "meaning": "weather forecast"
+        },
+        {
+          "word": "週末",
+          "reading": "しゅうまつ",
+          "meaning": "weekend"
+        },
+        {
+          "word": "当たった",
+          "reading": "あたった",
+          "meaning": "was correct; hit the mark"
+        }
       ]
     },
     {
@@ -194,7 +342,11 @@
       "example_sentence": "彼の立てた計画が予定通りに進んだためしがない。",
       "translation": "The plans he draws up have never once gone forward according to schedule.",
       "blank_target": "ためしがない",
-      "wrong_choices": ["わけがない", "きりだ", "までだ"],
+      "wrong_choices": [
+        "わけがない",
+        "きりだ",
+        "までだ"
+      ],
       "wrong_choice_explanations": [
         "わけがない means 'there's no way that'. 予定通りに進んだわけがない is natural, but it judges one plan; 彼の立てた計画 refers to his plans in general, and ためしがない says none has ever gone to schedule.",
         "きりだ means 'did once and nothing since'. 進んだきり would mean his plan moved forward once and then stalled, presupposing a success; ためしがない says there has never been one.",
@@ -202,15 +354,33 @@
       ],
       "hiragana_full": "かれのたてたけいかくがよていどおりにすすんだためしがない。",
       "audio_alternatives": [
-        { "kanji": "彼の立てた計画が段取り通りに進んだためしがない。", "hiragana_full": "かれのたてたけいかくがだんどりどおりにすすんだためしがない。" },
-        { "kanji": "彼の計画は、これまで予定通りに進んだことがない。", "hiragana_full": "かれのけいかくは、これまでよていどおりにすすんだことがない。" }
+        {
+          "kanji": "彼の立てた計画が段取り通りに進んだためしがない。",
+          "hiragana_full": "かれのたてたけいかくがだんどりどおりにすすんだためしがない。"
+        },
+        {
+          "kanji": "彼の計画は、これまで予定通りに進んだことがない。",
+          "hiragana_full": "かれのけいかくは、これまでよていどおりにすすんだことがない。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "計画", "reading": "けいかく", "meaning": "plan" },
-        { "word": "予定通り", "reading": "よていどおり", "meaning": "as scheduled; according to plan" },
-        { "word": "進んだ", "reading": "すすんだ", "meaning": "progressed; moved forward" }
+        {
+          "word": "計画",
+          "reading": "けいかく",
+          "meaning": "plan"
+        },
+        {
+          "word": "予定通り",
+          "reading": "よていどおり",
+          "meaning": "as scheduled; according to plan"
+        },
+        {
+          "word": "進んだ",
+          "reading": "すすんだ",
+          "meaning": "progressed; moved forward"
+        }
       ]
     },
     {
@@ -218,7 +388,11 @@
       "example_sentence": "忙しい時期にこの店が空いていたためしがない。",
       "translation": "This shop has never once been uncrowded during the busy season.",
       "blank_target": "ためしがない",
-      "wrong_choices": ["はずがない", "ばかりだ", "ところだった"],
+      "wrong_choices": [
+        "はずがない",
+        "ばかりだ",
+        "ところだった"
+      ],
       "wrong_choice_explanations": [
         "はずがない means 'can't have'. 空いていたはずがない is natural as a judgement on one day; 忙しい時期に describes every busy season, and ためしがない says the shop has never once been quiet then.",
         "ばかりだ after a past form means 'had just been': 空いていたばかりだ is unnatural and would report a recent quiet spell, the opposite of a shop that's always crowded; ためしがない states the never.",
@@ -226,14 +400,28 @@
       ],
       "hiragana_full": "いそがしいじきにこのみせがすいていたためしがない。",
       "audio_alternatives": [
-        { "kanji": "繁忙期にこの店が空いていたためしがない。", "hiragana_full": "はんぼうきにこのみせがすいていたためしがない。" },
-        { "kanji": "混む時期には、この店はいつも行列ができている。", "hiragana_full": "こむじきには、このみせはいつもぎょうれつができている。" }
+        {
+          "kanji": "繁忙期にこの店が空いていたためしがない。",
+          "hiragana_full": "はんぼうきにこのみせがすいていたためしがない。"
+        },
+        {
+          "kanji": "混む時期には、この店はいつも行列ができている。",
+          "hiragana_full": "こむじきには、このみせはいつもぎょうれつができている。"
+        }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
-        { "word": "時期", "reading": "じき", "meaning": "period; season; time" },
-        { "word": "空いていた", "reading": "すいていた", "meaning": "was uncrowded; was not busy" }
+        {
+          "word": "時期",
+          "reading": "じき",
+          "meaning": "period; season; time"
+        },
+        {
+          "word": "空いていた",
+          "reading": "すいていた",
+          "meaning": "was uncrowded; was not busy"
+        }
       ]
     }
   ]

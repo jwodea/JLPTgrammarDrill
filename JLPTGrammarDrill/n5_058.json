@@ -19,7 +19,7 @@
         "しか means 'nothing but' and requires negative form — it doesn't fit here because the sentence ends positively.",
         "ごろ is used for approximate time — it doesn't fit here because we're talking about price, not time."
       ],
-      "hiragana_full": "このほんはせんえんくらいです",
+      "hiragana_full": "このほんはせんえんくらいです。",
       "audio_alternatives": [
         {
           "kanji": "この本は千円ほどです。",
@@ -31,7 +31,19 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "本",
+          "reading": "ほん",
+          "meaning": "book"
+        },
+        {
+          "word": "千円",
+          "reading": "せんえん",
+          "meaning": "1000 yen"
+        }
+      ]
     },
     {
       "id": "n5_058_2",
@@ -48,7 +60,7 @@
         "から means 'from' — it doesn't fit here because we're not talking about a starting point.",
         "に indicates specific time — it doesn't fit here because we're expressing approximate duration."
       ],
-      "hiragana_full": "まいにちさんじかんぐらいべんきょうします",
+      "hiragana_full": "まいにちさんじかんぐらいべんきょうします。",
       "audio_alternatives": [
         {
           "kanji": "毎日三時間くらい勉強します。",
@@ -60,7 +72,24 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "毎日",
+          "reading": "まいにち",
+          "meaning": "every day"
+        },
+        {
+          "word": "三時間",
+          "reading": "さんじかん",
+          "meaning": "three hours"
+        },
+        {
+          "word": "勉強する",
+          "reading": "べんきょうする",
+          "meaning": "study"
+        }
+      ]
     },
     {
       "id": "n5_058_3",
@@ -77,7 +106,7 @@
         "おきに means 'every (interval)' — it doesn't fit here because we're not talking about regular intervals.",
         "しか means 'only' — it doesn't fit here because it requires a negative verb (しかかかりません) and expresses a limit, not an approximate duration."
       ],
-      "hiragana_full": "えきまでじゅっぷんくらいかかります",
+      "hiragana_full": "えきまでじゅっぷんくらいかかります。",
       "audio_alternatives": [
         {
           "kanji": "駅まで十分ほどかかります。",
@@ -92,9 +121,19 @@
       "register": "neutral",
       "vocab": [
         {
-          "word": "かかります",
-          "reading": "かかります",
-          "meaning": "takes (time)"
+          "word": "駅",
+          "reading": "えき",
+          "meaning": "station"
+        },
+        {
+          "word": "十分",
+          "reading": "じゅっぷん",
+          "meaning": "ten minutes"
+        },
+        {
+          "word": "かかる",
+          "reading": "かかる",
+          "meaning": "take (time)"
         }
       ]
     },
@@ -113,7 +152,7 @@
         "と means 'with/and' — it doesn't fit here because we're not connecting items or indicating accompaniment.",
         "だけ means 'only' — it doesn't fit here because we're expressing approximation, not exclusivity."
       ],
-      "hiragana_full": "ともだちがごにんぐらいきました",
+      "hiragana_full": "ともだちがごにんぐらいきました。",
       "audio_alternatives": [
         {
           "kanji": "友達が五人ほど来ました。",
@@ -125,7 +164,24 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "友達",
+          "reading": "ともだち",
+          "meaning": "friend"
+        },
+        {
+          "word": "五人",
+          "reading": "ごにん",
+          "meaning": "five people"
+        },
+        {
+          "word": "来る",
+          "reading": "くる",
+          "meaning": "come"
+        }
+      ]
     },
     {
       "id": "n5_058_5",
@@ -142,7 +198,7 @@
         "ごろ marks an approximate time point (e.g., 三時ごろ 'around 3 o'clock'), not a duration spent on an activity — 一時間ごろかけました doesn't work for 'spent about an hour.'",
         "だけ means 'only' — it doesn't fit here because we're expressing approximation, not exclusivity."
       ],
-      "hiragana_full": "しゅくだいにいちじかんくらいかけました",
+      "hiragana_full": "しゅくだいにいちじかんくらいかけました。",
       "audio_alternatives": [
         {
           "kanji": "宿題に一時間ほどかけました。",
@@ -157,9 +213,19 @@
       "register": "neutral",
       "vocab": [
         {
-          "word": "かけました",
-          "reading": "かけました",
-          "meaning": "spent (time)"
+          "word": "宿題",
+          "reading": "しゅくだい",
+          "meaning": "homework"
+        },
+        {
+          "word": "一時間",
+          "reading": "いちじかん",
+          "meaning": "one hour"
+        },
+        {
+          "word": "かける",
+          "reading": "かける",
+          "meaning": "spend (time)"
         }
       ]
     },
@@ -178,7 +244,7 @@
         "しか means 'nothing but' and requires negative form — it doesn't fit here because the sentence ends positively.",
         "ずつ means 'each/apiece' — it doesn't fit here because we're not talking about distribution to multiple people."
       ],
-      "hiragana_full": "りんごをみっつぐらいかいました",
+      "hiragana_full": "りんごをみっつぐらいかいました。",
       "audio_alternatives": [
         {
           "kanji": "りんごを三つほど買いました。",
@@ -193,9 +259,19 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "りんご",
+          "reading": "りんご",
+          "meaning": "apple"
+        },
+        {
           "word": "三つ",
           "reading": "みっつ",
           "meaning": "three (things)"
+        },
+        {
+          "word": "買う",
+          "reading": "かう",
+          "meaning": "buy"
         }
       ]
     },
@@ -214,7 +290,7 @@
         "だけ means 'only' — it doesn't fit here because we're expressing approximate age, not exclusivity.",
         "ずつ means 'each/at a time' — it doesn't fit here because it distributes a quantity rather than approximating someone's age."
       ],
-      "hiragana_full": "かれはにじゅっさいぐらいだとおもいます",
+      "hiragana_full": "かれはにじゅっさいぐらいだとおもいます。",
       "audio_alternatives": [
         {
           "kanji": "彼は二十歳くらいだと思います。",
@@ -229,9 +305,19 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "彼",
+          "reading": "かれ",
+          "meaning": "he"
+        },
+        {
           "word": "二十歳",
           "reading": "にじゅっさい",
           "meaning": "twenty years old"
+        },
+        {
+          "word": "思う",
+          "reading": "おもう",
+          "meaning": "think"
         }
       ]
     },
@@ -262,7 +348,19 @@
         }
       ],
       "audio_eligible": true,
-      "register": "casual"
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "千円",
+          "reading": "せんえん",
+          "meaning": "1000 yen"
+        },
+        {
+          "word": "持つ",
+          "reading": "もつ",
+          "meaning": "have; hold"
+        }
+      ]
     },
     {
       "id": "n5_058_9",
@@ -291,7 +389,19 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "五分",
+          "reading": "ごふん",
+          "meaning": "five minutes"
+        },
+        {
+          "word": "待つ",
+          "reading": "まつ",
+          "meaning": "wait"
+        }
+      ]
     },
     {
       "id": "n5_058_10",
@@ -326,6 +436,11 @@
           "word": "スイカ",
           "reading": "すいか",
           "meaning": "watermelon"
+        },
+        {
+          "word": "三キロ",
+          "reading": "さんきろ",
+          "meaning": "three kilograms"
         }
       ]
     }

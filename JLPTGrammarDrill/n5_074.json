@@ -32,7 +32,19 @@
       ],
       "audio_eligible": true,
       "blank_target_reading": "ぼん",
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "ペン",
+          "reading": "ぺん",
+          "meaning": "pen"
+        },
+        {
+          "word": "買う",
+          "reading": "かう",
+          "meaning": "buy"
+        }
+      ]
     },
     {
       "id": "n5_074_2",
@@ -62,7 +74,19 @@
       ],
       "audio_eligible": true,
       "blank_target_reading": "ほん",
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "バナナ",
+          "reading": "ばなな",
+          "meaning": "banana"
+        },
+        {
+          "word": "食べる",
+          "reading": "たべる",
+          "meaning": "eat"
+        }
+      ]
     },
     {
       "id": "n5_074_3",
@@ -169,8 +193,13 @@
       "register": "neutral",
       "vocab": [
         {
-          "word": "吸います",
-          "reading": "すいます",
+          "word": "タバコ",
+          "reading": "たばこ",
+          "meaning": "cigarette; tobacco"
+        },
+        {
+          "word": "吸う",
+          "reading": "すう",
           "meaning": "smoke; inhale"
         }
       ]
@@ -211,9 +240,9 @@
           "meaning": "candle"
         },
         {
-          "word": "灯しました",
-          "reading": "ともしました",
-          "meaning": "lit"
+          "word": "灯す",
+          "reading": "ともす",
+          "meaning": "light (a candle)"
         }
       ]
     },
@@ -253,9 +282,9 @@
           "meaning": "umbrella"
         },
         {
-          "word": "忘れました",
-          "reading": "わすれました",
-          "meaning": "forgot"
+          "word": "忘れる",
+          "reading": "わすれる",
+          "meaning": "forget"
         }
       ]
     },
@@ -295,9 +324,9 @@
           "meaning": "tree"
         },
         {
-          "word": "植えました",
-          "reading": "うえました",
-          "meaning": "planted"
+          "word": "植える",
+          "reading": "うえる",
+          "meaning": "plant"
         }
       ]
     },
@@ -337,9 +366,9 @@
           "meaning": "chopsticks"
         },
         {
-          "word": "洗いました",
-          "reading": "あらいました",
-          "meaning": "washed"
+          "word": "洗う",
+          "reading": "あらう",
+          "meaning": "wash"
         }
       ]
     },
@@ -379,9 +408,9 @@
           "meaning": "nail (hardware)"
         },
         {
-          "word": "使いました",
-          "reading": "つかいました",
-          "meaning": "used"
+          "word": "使う",
+          "reading": "つかう",
+          "meaning": "use"
         }
       ]
     }

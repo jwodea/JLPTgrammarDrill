@@ -82,6 +82,11 @@
           "meaning": "library"
         },
         {
+          "word": "大きい",
+          "reading": "おおきい",
+          "meaning": "big; loud (of a voice)"
+        },
+        {
           "word": "声",
           "reading": "こえ",
           "meaning": "voice"
@@ -124,9 +129,9 @@
           "meaning": "baby"
         },
         {
-          "word": "寝ている",
-          "reading": "ねている",
-          "meaning": "is sleeping"
+          "word": "寝る",
+          "reading": "ねる",
+          "meaning": "sleep; be asleep"
         }
       ]
     },
@@ -160,6 +165,11 @@
       "blank_target_reading": "とらないでください",
       "register": "neutral",
       "vocab": [
+        {
+          "word": "ここ",
+          "reading": "ここ",
+          "meaning": "here"
+        },
         {
           "word": "写真",
           "reading": "しゃしん",
@@ -208,11 +218,11 @@
       "id": "n5_092_6",
       "example_sentence": "失敗しても心配しないでください。",
       "translation": "Even if you fail, please don't worry.",
-      "blank_target": "心配しないでください",
+      "blank_target": "ないでください",
       "wrong_choices": [
-        "心配してください",
-        "心配しなくてください",
-        "心配しずにください"
+        "てください",
+        "なくてください",
+        "ずにください"
       ],
       "wrong_choice_explanations": [
         "心配してください means 'please worry,' the opposite of what someone reassuring a person would say.",
@@ -231,13 +241,17 @@
         }
       ],
       "audio_eligible": true,
-      "blank_target_reading": "しんぱいしないでください",
       "register": "neutral",
       "vocab": [
         {
-          "word": "失敗",
-          "reading": "しっぱい",
-          "meaning": "failure, mistake"
+          "word": "失敗する",
+          "reading": "しっぱいする",
+          "meaning": "fail; make a mistake"
+        },
+        {
+          "word": "心配する",
+          "reading": "しんぱいする",
+          "meaning": "worry"
         }
       ]
     },
@@ -271,6 +285,11 @@
       "blank_target_reading": "わすれないでください",
       "register": "neutral",
       "vocab": [
+        {
+          "word": "明日",
+          "reading": "あした",
+          "meaning": "tomorrow"
+        },
         {
           "word": "会議",
           "reading": "かいぎ",
@@ -354,6 +373,11 @@
           "word": "約束",
           "reading": "やくそく",
           "meaning": "appointment, promise"
+        },
+        {
+          "word": "時間",
+          "reading": "じかん",
+          "meaning": "time"
         }
       ]
     },
@@ -387,6 +411,11 @@
       "blank_target_reading": "なかないでください",
       "register": "neutral",
       "vocab": [
+        {
+          "word": "もう",
+          "reading": "もう",
+          "meaning": "already; now"
+        },
         {
           "word": "大丈夫",
           "reading": "だいじょうぶ",

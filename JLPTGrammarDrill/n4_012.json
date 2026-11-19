@@ -31,7 +31,24 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "子供",
+          "reading": "こども",
+          "meaning": "child"
+        },
+        {
+          "word": "野菜",
+          "reading": "やさい",
+          "meaning": "vegetables"
+        },
+        {
+          "word": "食べる",
+          "reading": "たべる",
+          "meaning": "eat"
+        }
+      ]
     },
     {
       "id": "n4_012_2",
@@ -60,7 +77,29 @@
         }
       ],
       "audio_eligible": true,
-      "register": "casual"
+      "register": "casual",
+      "vocab": [
+        {
+          "word": "先生",
+          "reading": "せんせい",
+          "meaning": "teacher"
+        },
+        {
+          "word": "学生",
+          "reading": "がくせい",
+          "meaning": "student"
+        },
+        {
+          "word": "宿題",
+          "reading": "しゅくだい",
+          "meaning": "homework"
+        },
+        {
+          "word": "やる",
+          "reading": "やる",
+          "meaning": "do"
+        }
+      ]
     },
     {
       "id": "n4_012_3",
@@ -89,7 +128,29 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "母",
+          "reading": "はは",
+          "meaning": "mother"
+        },
+        {
+          "word": "私",
+          "reading": "わたし",
+          "meaning": "I; me"
+        },
+        {
+          "word": "部屋",
+          "reading": "へや",
+          "meaning": "room"
+        },
+        {
+          "word": "掃除する",
+          "reading": "そうじする",
+          "meaning": "clean"
+        }
+      ]
     },
     {
       "id": "n4_012_4",
@@ -121,14 +182,19 @@
       "register": "casual",
       "vocab": [
         {
+          "word": "会社",
+          "reading": "かいしゃ",
+          "meaning": "company"
+        },
+        {
           "word": "社員",
           "reading": "しゃいん",
           "meaning": "company employee"
         },
         {
-          "word": "残業",
-          "reading": "ざんぎょう",
-          "meaning": "overtime work"
+          "word": "残業する",
+          "reading": "ざんぎょうする",
+          "meaning": "work overtime"
         }
       ]
     },
@@ -159,7 +225,29 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "父",
+          "reading": "ちち",
+          "meaning": "father"
+        },
+        {
+          "word": "弟",
+          "reading": "おとうと",
+          "meaning": "younger brother"
+        },
+        {
+          "word": "買い物",
+          "reading": "かいもの",
+          "meaning": "shopping"
+        },
+        {
+          "word": "行く",
+          "reading": "いく",
+          "meaning": "go"
+        }
+      ]
     },
     {
       "id": "n4_012_6",
@@ -191,9 +279,19 @@
       "register": "casual",
       "vocab": [
         {
+          "word": "コーチ",
+          "reading": "こーち",
+          "meaning": "coach"
+        },
+        {
           "word": "選手",
           "reading": "せんしゅ",
           "meaning": "athlete; player"
+        },
+        {
+          "word": "練習する",
+          "reading": "れんしゅうする",
+          "meaning": "practice"
         }
       ]
     },
@@ -224,7 +322,29 @@
         }
       ],
       "audio_eligible": true,
-      "register": "neutral"
+      "register": "neutral",
+      "vocab": [
+        {
+          "word": "親",
+          "reading": "おや",
+          "meaning": "parent"
+        },
+        {
+          "word": "子供",
+          "reading": "こども",
+          "meaning": "child"
+        },
+        {
+          "word": "早く",
+          "reading": "はやく",
+          "meaning": "early"
+        },
+        {
+          "word": "寝る",
+          "reading": "ねる",
+          "meaning": "go to bed"
+        }
+      ]
     },
     {
       "id": "n4_012_8",
@@ -269,6 +389,11 @@
           "word": "報告書",
           "reading": "ほうこくしょ",
           "meaning": "written report"
+        },
+        {
+          "word": "書く",
+          "reading": "かく",
+          "meaning": "write"
         }
       ]
     },
@@ -302,9 +427,24 @@
       "register": "neutral",
       "vocab": [
         {
+          "word": "医者",
+          "reading": "いしゃ",
+          "meaning": "doctor"
+        },
+        {
           "word": "患者",
           "reading": "かんじゃ",
           "meaning": "patient"
+        },
+        {
+          "word": "薬",
+          "reading": "くすり",
+          "meaning": "medicine"
+        },
+        {
+          "word": "飲む",
+          "reading": "のむ",
+          "meaning": "take (medicine)"
         }
       ]
     },
@@ -343,9 +483,14 @@
           "meaning": "store manager"
         },
         {
-          "word": "接客",
-          "reading": "せっきゃく",
-          "meaning": "serving customers"
+          "word": "アルバイト",
+          "reading": "あるばいと",
+          "meaning": "part-time worker"
+        },
+        {
+          "word": "接客する",
+          "reading": "せっきゃくする",
+          "meaning": "serve customers"
         }
       ]
     }
