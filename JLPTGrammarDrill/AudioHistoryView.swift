@@ -43,7 +43,7 @@ struct AudioHistoryView: View {
             }
         }
         .scrollContentBackground(.hidden)
-        .background(GlassBackdrop().ignoresSafeArea())
+        .background(TactileBackdrop().ignoresSafeArea())
         .searchable(text: $search, prompt: "Search English or Japanese")
         .navigationTitle("History")
         .navigationBarTitleDisplayMode(.inline)
@@ -72,14 +72,14 @@ private struct AudioHistoryRow: View {
                 if let last = attempts.first {
                     Text(last.timestamp.formatted(.relative(presentation: .named)))
                         .font(.system(size: 12))
-                        .foregroundColor(.secondary)
+                        .foregroundStyle(Theme.inkMuted)
                     Image(systemName: last.passed ? "checkmark.circle.fill" : "xmark.circle.fill")
                         .font(.system(size: 12))
-                        .foregroundColor(last.passed ? .green : .red)
+                        .foregroundColor(last.passed ? Theme.correct : Theme.incorrect)
                 }
                 Text("\(attempts.count) attempt\(attempts.count == 1 ? "" : "s")")
                     .font(.system(size: 12))
-                    .foregroundColor(.secondary)
+                    .foregroundStyle(Theme.inkMuted)
             }
         }
     }
@@ -99,8 +99,8 @@ struct AudioHistoryDetailView: View {
             Section("Sentence") {
                 VStack(alignment: .leading, spacing: 6) {
                     Text(exercise.exampleSentence).font(.system(size: 18, weight: .semibold))
-                    Text(exercise.hiraganaFull).font(.system(size: 14)).foregroundColor(.secondary)
-                    Text(exercise.translation).font(.system(size: 14)).foregroundColor(.secondary)
+                    Text(exercise.hiraganaFull).font(.system(size: 14)).foregroundStyle(Theme.inkMuted)
+                    Text(exercise.translation).font(.system(size: 14)).foregroundStyle(Theme.inkMuted)
                 }
                 .padding(.vertical, 4)
             }
@@ -110,7 +110,7 @@ struct AudioHistoryDetailView: View {
                     VStack(alignment: .leading, spacing: 4) {
                         HStack {
                             Text(a.timestamp.formatted(date: .abbreviated, time: .shortened))
-                                .font(.system(size: 12)).foregroundColor(.secondary)
+                                .font(.system(size: 12)).foregroundStyle(Theme.inkMuted)
                             Spacer()
                             if a.synthetic {
                                 Text("TOO EASY").font(.system(size: 10, weight: .bold))
@@ -118,24 +118,24 @@ struct AudioHistoryDetailView: View {
                             } else {
                                 Text(a.passed ? "PASS" : "FAIL")
                                     .font(.system(size: 10, weight: .bold))
-                                    .foregroundColor(a.passed ? .green : .red)
+                                    .foregroundColor(a.passed ? Theme.correct : Theme.incorrect)
                             }
                             Text("\(Int((a.matchScore * 100).rounded()))%")
-                                .font(.system(size: 11)).foregroundColor(.secondary)
+                                .font(.system(size: 11)).foregroundStyle(Theme.inkMuted)
                             Text("@\(Int((a.thresholdUsed * 100).rounded()))%")
-                                .font(.system(size: 10)).foregroundColor(.secondary)
+                                .font(.system(size: 10)).foregroundStyle(Theme.inkMuted)
                         }
                         Text("Raw: \(a.rawTranscription)")
                             .font(.system(size: 13, design: .monospaced))
                         if !a.normalizedTranscription.isEmpty {
                             Text("Norm: \(a.normalizedTranscription)")
                                 .font(.system(size: 12, design: .monospaced))
-                                .foregroundColor(.secondary)
+                                .foregroundStyle(Theme.inkMuted)
                         }
                         if let g = a.fsrsGrade {
                             Text("Grade: \(gradeLabel(g))")
                                 .font(.system(size: 11))
-                                .foregroundColor(.secondary)
+                                .foregroundStyle(Theme.inkMuted)
                         }
                     }
                     .padding(.vertical, 2)
@@ -143,7 +143,7 @@ struct AudioHistoryDetailView: View {
             }
         }
         .scrollContentBackground(.hidden)
-        .background(GlassBackdrop().ignoresSafeArea())
+        .background(TactileBackdrop().ignoresSafeArea())
         .navigationTitle("Detail")
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {

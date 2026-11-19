@@ -56,7 +56,7 @@ struct AudioBrowserView: View {
             }
         }
         .scrollContentBackground(.hidden)
-        .background(GlassBackdrop().ignoresSafeArea())
+        .background(TactileBackdrop().ignoresSafeArea())
         .searchable(text: $search, prompt: "Search English or Japanese")
         .navigationTitle("Browse")
         .navigationBarTitleDisplayMode(.inline)
@@ -78,38 +78,38 @@ struct AudioBrowserView: View {
             HStack {
                 Text(ex.level)
                     .font(.system(size: 10, weight: .bold, design: .monospaced))
-                    .foregroundColor(.secondary)
+                    .foregroundStyle(Theme.inkMuted)
                 Text(ex.id)
                     .font(.system(size: 10, design: .monospaced))
-                    .foregroundColor(.secondary)
+                    .foregroundStyle(Theme.inkMuted)
                 Spacer()
                 if locked {
                     Image(systemName: "lock.fill")
                         .font(.system(size: 12))
-                        .foregroundColor(.secondary)
+                        .foregroundStyle(Theme.inkMuted)
                 } else if let last {
                     Image(systemName: last.passed ? "checkmark.circle.fill" : "xmark.circle.fill")
                         .font(.system(size: 12))
-                        .foregroundColor(last.passed ? .green : .red)
+                        .foregroundColor(last.passed ? Theme.correct : Theme.incorrect)
                     Text(last.timestamp.formatted(.relative(presentation: .named)))
                         .font(.system(size: 10))
-                        .foregroundColor(.secondary)
+                        .foregroundStyle(Theme.inkMuted)
                 }
             }
             Text(ex.translation)
                 .font(.system(size: 15, weight: .medium))
-                .foregroundColor(locked ? .secondary : .primary)
+                .foregroundStyle(locked ? Theme.inkMuted : Theme.ink)
             if !locked {
                 Text(ex.exampleSentence)
                     .font(.system(size: 14))
                 Text(ex.hiraganaFull)
                     .font(.system(size: 12))
-                    .foregroundColor(.secondary)
+                    .foregroundStyle(Theme.inkMuted)
                 if !ex.audioAlternatives.isEmpty {
                     ForEach(ex.audioAlternatives, id: \.self) { alt in
                         Text("· \(alt.kanji)")
                             .font(.system(size: 12))
-                            .foregroundColor(.secondary)
+                            .foregroundStyle(Theme.inkMuted)
                     }
                 }
             }

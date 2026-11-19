@@ -32,13 +32,13 @@ struct AudioDrillSettingsView: View {
                         Text("Generosity")
                         Spacer()
                         Text("\(Int((threshold * 100).rounded()))% · \(generosityLabel)")
-                            .foregroundColor(.secondary)
+                            .foregroundStyle(Theme.inkMuted)
                     }
                     Slider(value: $threshold, in: 0.50...0.95, step: 0.01)
                     HStack {
-                        Text("Strict").font(.caption).foregroundColor(.secondary)
+                        Text("Strict").font(.caption).foregroundStyle(Theme.inkMuted)
                         Spacer()
-                        Text("Very generous").font(.caption).foregroundColor(.secondary)
+                        Text("Very generous").font(.caption).foregroundStyle(Theme.inkMuted)
                     }
                 }
                 .padding(.vertical, 4)
@@ -51,14 +51,14 @@ struct AudioDrillSettingsView: View {
                     HStack {
                         Text("New cards per day")
                         Spacer()
-                        Text("\(dailyNewCardBudget)").foregroundColor(.secondary)
+                        Text("\(dailyNewCardBudget)").foregroundStyle(Theme.inkMuted)
                     }
                 }
                 Stepper(value: $learningPoolCap, in: 5...40) {
                     HStack {
                         Text("Learning pool cap")
                         Spacer()
-                        Text("\(learningPoolCap)").foregroundColor(.secondary)
+                        Text("\(learningPoolCap)").foregroundStyle(Theme.inkMuted)
                     }
                 }
             } header: { Text("Introduction pacing") } footer: {
@@ -87,7 +87,7 @@ struct AudioDrillSettingsView: View {
             } header: { Text("Danger zone") }
         }
         .scrollContentBackground(.hidden)
-        .background(GlassBackdrop().ignoresSafeArea())
+        .background(TactileBackdrop().ignoresSafeArea())
         .navigationTitle("Audio Settings")
         .navigationBarTitleDisplayMode(.inline)
         .alert("Reset all audio drill progress?", isPresented: $showResetFSRSConfirm) {
@@ -129,7 +129,7 @@ private struct MicrophoneTestView: View {
             if let err = errorMessage {
                 Text(err)
                     .font(.system(size: 13))
-                    .foregroundColor(.red)
+                    .foregroundStyle(Theme.incorrect)
                     .multilineTextAlignment(.center)
                     .padding(.horizontal)
             }
@@ -141,24 +141,22 @@ private struct MicrophoneTestView: View {
                 } label: {
                     Label("Record 3 seconds", systemImage: "mic.fill")
                         .font(.system(size: 17, weight: .semibold))
-                        .frame(maxWidth: .infinity)
-                        .padding(.vertical, 8)
                 }
-                .buttonStyle(.glassProminent)
+                .buttonStyle(TactilePrimaryButtonStyle())
                 .padding(.horizontal)
             case .recording:
                 VStack(spacing: 8) {
                     ProgressView()
-                    Text("Recording…").font(.system(size: 13)).foregroundColor(.secondary)
+                    Text("Recording…").font(.system(size: 13)).foregroundStyle(Theme.inkMuted)
                 }
             case .done:
                 VStack(alignment: .leading, spacing: 8) {
-                    Text("Heard:").font(.system(size: 12)).foregroundColor(.secondary)
+                    Text("Heard:").font(.system(size: 12)).foregroundStyle(Theme.inkMuted)
                     Text(transcription.isEmpty ? "—" : transcription)
                         .font(.system(size: 16, design: .monospaced))
                         .padding(12)
                         .frame(maxWidth: .infinity, alignment: .leading)
-                        .glassEffect(.regular, in: .rect(cornerRadius: 20))
+                        .tactileCard(cornerRadius: 20)
                 }
                 .padding(.horizontal)
                 Button("Test again") {
@@ -170,7 +168,7 @@ private struct MicrophoneTestView: View {
             Spacer()
         }
         .padding(.top, 32)
-        .background(GlassBackdrop().ignoresSafeArea())
+        .background(TactileBackdrop().ignoresSafeArea())
         .navigationTitle("Mic Test")
         .navigationBarTitleDisplayMode(.inline)
         .onDisappear {

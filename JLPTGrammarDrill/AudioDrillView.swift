@@ -54,7 +54,7 @@ struct AudioDrillView: View {
                 drillBody(item: item)
             }
         }
-        .background(GlassBackdrop().ignoresSafeArea())
+        .background(TactileBackdrop().ignoresSafeArea())
         .navigationTitle("Audio Drill (\(min(index + 1, queue.count))/\(queue.count))")
         .navigationBarTitleDisplayMode(.inline)
         .onDisappear {
@@ -70,6 +70,7 @@ struct AudioDrillView: View {
                 VStack(spacing: 6) {
                     Text(item.exercise.translation)
                         .font(.system(size: scaled(24), weight: .semibold))
+                        .foregroundStyle(Theme.ink)
                         .multilineTextAlignment(.center)
                         .padding(.horizontal)
                 }
@@ -78,7 +79,7 @@ struct AudioDrillView: View {
                 if let err = errorMessage {
                     Text(err)
                         .font(.system(size: scaled(13)))
-                        .foregroundColor(.red)
+                        .foregroundStyle(Theme.incorrect)
                         .padding(.horizontal)
                         .multilineTextAlignment(.center)
                 }
@@ -98,7 +99,7 @@ struct AudioDrillView: View {
 
                 Text(item.exercise.id)
                     .font(.system(size: scaled(10), design: .monospaced))
-                    .foregroundColor(.secondary)
+                    .foregroundStyle(Theme.inkMuted)
                     .padding(.top, 12)
             }
             .padding(.vertical, 12)
@@ -115,9 +116,9 @@ struct AudioDrillView: View {
             label = "NEW"; color = .purple
         case .review(let card, _):
             switch card.fsrsStatusRaw {
-            case 1: label = "Learning"; color = .orange
-            case 2: label = "Review"; color = .blue
-            case 3: label = "Relearning"; color = .red
+            case 1: label = "Learning"; color = Theme.amber
+            case 2: label = "Review"; color = Theme.brand
+            case 3: label = "Relearning"; color = Theme.incorrect
             default: label = "New"; color = .purple
             }
         }
@@ -142,25 +143,22 @@ struct AudioDrillView: View {
                     .font(.system(size: 36, weight: .bold))
                     .foregroundColor(.white)
                     .frame(width: 96, height: 96)
-                    .background(Color.accentColor)
-                    .clipShape(Circle())
+                    .background(Circle().fill(Theme.brandFill))
+                    .background(Circle().fill(Theme.brandLip).offset(y: 4))
             }
             .padding(.top, 4)
 
             Text("Tap to record")
                 .font(.system(size: scaled(13)))
-                .foregroundColor(.secondary)
+                .foregroundStyle(Theme.inkMuted)
 
             Button {
                 markTooEasy(item: item)
             } label: {
                 Text("Too easy — skip")
-                    .font(.system(size: scaled(15), weight: .medium))
-                    .foregroundStyle(Color.accentColor)
-                    .padding(.horizontal, 16)
-                    .padding(.vertical, 8)
+                    .font(.system(size: scaled(15), weight: .semibold))
             }
-            .buttonStyle(.glass)
+            .buttonStyle(TactileSecondaryButtonStyle(fullWidth: false))
             .padding(.top, 8)
         }
     }
@@ -176,12 +174,11 @@ struct AudioDrillView: View {
                     .font(.system(size: 36, weight: .bold))
                     .foregroundColor(.white)
                     .frame(width: 96, height: 96)
-                    .background(Color.red)
-                    .clipShape(Circle())
+                    .background(Circle().fill(Theme.incorrectFill))
             }
             Text("Recording… tap to stop")
                 .font(.system(size: scaled(13)))
-                .foregroundColor(.secondary)
+                .foregroundStyle(Theme.inkMuted)
         }
     }
 
@@ -192,7 +189,7 @@ struct AudioDrillView: View {
             ProgressView()
             Text("Transcribing…")
                 .font(.system(size: scaled(13)))
-                .foregroundColor(.secondary)
+                .foregroundStyle(Theme.inkMuted)
         }
         .padding(.vertical, 24)
     }
@@ -209,7 +206,7 @@ struct AudioDrillView: View {
                     HStack(alignment: .top, spacing: 8) {
                         Text("Heard:")
                             .font(.system(size: scaled(13), weight: .semibold))
-                            .foregroundColor(.secondary)
+                            .foregroundStyle(Theme.inkMuted)
                         Text(lastRawTranscription.isEmpty ? "—" : lastRawTranscription)
                             .font(.system(size: scaled(15), design: .monospaced))
                             .frame(maxWidth: .infinity, alignment: .leading)
@@ -217,7 +214,7 @@ struct AudioDrillView: View {
                     scoreBar(score: result.bestScore)
                 }
                 .padding(14)
-                .glassEffect(.regular, in: .rect(cornerRadius: 20))
+                .tactileCard(cornerRadius: 20)
                 .padding(.horizontal)
 
                 if result.passed {
@@ -235,8 +232,10 @@ struct AudioDrillView: View {
             .foregroundColor(.white)
             .padding(.horizontal, 22)
             .padding(.vertical, 8)
-            .background(passed ? Color.green : Color.red)
-            .cornerRadius(10)
+            .background(
+                RoundedRectangle(cornerRadius: 10, style: .continuous)
+                    .fill(passed ? Theme.correctBorder : Theme.incorrectFill)
+            )
     }
 
     private func scoreBar(score: Double) -> some View {
@@ -244,17 +243,17 @@ struct AudioDrillView: View {
             HStack {
                 Text("Score")
                     .font(.system(size: scaled(13), weight: .semibold))
-                    .foregroundColor(.secondary)
+                    .foregroundStyle(Theme.inkMuted)
                 Spacer()
                 Text("\(Int((score * 100).rounded()))% (threshold \(Int((threshold * 100).rounded()))%)")
                     .font(.system(size: scaled(12)))
-                    .foregroundColor(.secondary)
+                    .foregroundStyle(Theme.inkMuted)
             }
             GeometryReader { geo in
                 ZStack(alignment: .leading) {
-                    Capsule().fill(Color(.tertiarySystemBackground))
+                    Capsule().fill(Theme.hairline)
                     Capsule()
-                        .fill(score >= threshold ? Color.green : Color.orange)
+                        .fill(score >= threshold ? Theme.correctBorder : Theme.amber)
                         .frame(width: max(4, geo.size.width * CGFloat(min(max(score, 0), 1))))
                 }
             }
@@ -272,11 +271,9 @@ struct AudioDrillView: View {
                 speaker.speak(item.exercise.exampleSentence)
             } label: {
                 Label("Hear it", systemImage: "speaker.wave.2.fill")
-                    .font(.system(size: scaled(15), weight: .medium))
-                    .frame(maxWidth: .infinity)
-                    .padding(.vertical, 8)
+                    .font(.system(size: scaled(15), weight: .semibold))
             }
-            .buttonStyle(.glass)
+            .buttonStyle(TactileSecondaryButtonStyle())
             .padding(.horizontal)
 
             Button {
@@ -284,11 +281,8 @@ struct AudioDrillView: View {
             } label: {
                 Label("Next", systemImage: "arrow.right.circle.fill")
                     .font(.system(size: scaled(18), weight: .semibold))
-                    .frame(maxWidth: .infinity)
-                    .padding(.vertical, 8)
             }
-            .buttonStyle(.glassProminent)
-            .tint(.green)
+            .buttonStyle(TactilePrimaryButtonStyle())
             .padding(.horizontal)
         }
     }
@@ -300,13 +294,14 @@ struct AudioDrillView: View {
             Text("Target")
                 .font(.system(size: scaled(11), weight: .bold, design: .monospaced))
                 .tracking(1)
-                .foregroundColor(.secondary)
+                .foregroundStyle(Theme.inkMuted)
             Text(item.exercise.exampleSentence)
                 .font(.system(size: scaled(20), weight: .semibold))
+                .foregroundStyle(Theme.ink)
         }
         .frame(maxWidth: .infinity, alignment: .leading)
         .padding(14)
-        .glassEffect(.regular, in: .rect(cornerRadius: 20))
+        .tactileCard(cornerRadius: 20)
         .padding(.horizontal)
     }
 
@@ -320,11 +315,9 @@ struct AudioDrillView: View {
                 speaker.speak(item.exercise.exampleSentence)
             } label: {
                 Label("Hear it again", systemImage: "speaker.wave.2.fill")
-                    .font(.system(size: scaled(15), weight: .medium))
-                    .frame(maxWidth: .infinity)
-                    .padding(.vertical, 8)
+                    .font(.system(size: scaled(15), weight: .semibold))
             }
-            .buttonStyle(.glass)
+            .buttonStyle(TactileSecondaryButtonStyle())
             .padding(.horizontal)
 
             Button {
@@ -334,10 +327,8 @@ struct AudioDrillView: View {
             } label: {
                 Label("Try again", systemImage: "mic.fill")
                     .font(.system(size: scaled(18), weight: .semibold))
-                    .frame(maxWidth: .infinity)
-                    .padding(.vertical, 8)
             }
-            .buttonStyle(.glassProminent)
+            .buttonStyle(TactilePrimaryButtonStyle())
             .padding(.horizontal)
 
             Button {
@@ -347,7 +338,7 @@ struct AudioDrillView: View {
                     .font(.system(size: scaled(14), weight: .medium))
                     .padding(.vertical, 8)
             }
-            .foregroundColor(.secondary)
+            .foregroundStyle(Theme.inkMuted)
         }
     }
 
@@ -357,18 +348,17 @@ struct AudioDrillView: View {
         VStack(spacing: 20) {
             Image(systemName: "checkmark.seal.fill")
                 .font(.system(size: 64))
-                .foregroundColor(.green)
+                .foregroundStyle(Theme.correctBorder)
             Text("Drill complete")
                 .font(.system(size: scaled(24), weight: .bold))
+                .foregroundStyle(Theme.ink)
             Button {
                 dismiss()
             } label: {
                 Text("Done")
                     .font(.system(size: scaled(17), weight: .semibold))
-                    .frame(maxWidth: .infinity)
-                    .padding(.vertical, 8)
             }
-            .buttonStyle(.glassProminent)
+            .buttonStyle(TactilePrimaryButtonStyle())
             .padding(.horizontal)
         }
         .padding()

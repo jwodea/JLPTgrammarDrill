@@ -74,7 +74,7 @@ struct AudioDrillHomeView: View {
             }
             .padding(.bottom, 20)
         }
-        .background(GlassBackdrop().ignoresSafeArea())
+        .background(TactileBackdrop().ignoresSafeArea())
         .navigationTitle("Audio Drill")
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {
@@ -113,69 +113,13 @@ struct AudioDrillHomeView: View {
     }
 
     private var levelPicker: some View {
-        GlassEffectContainer(spacing: 8) {
-            HStack(spacing: 8) {
-                ForEach(AudioDrillSettings.allLevels, id: \.self) { level in
-                    let isOn = activeLevels.contains(level)
-                    Button {
-                        toggleLevel(level)
-                    } label: {
-                        Text(level)
-                            .font(.system(size: scaled(14), weight: .semibold, design: .rounded))
-                            .frame(maxWidth: .infinity)
-                            .padding(.vertical, 8)
-                            .foregroundStyle(isOn ? .white : .primary)
-                            .contentShape(Rectangle())
-                            .glassEffect(
-                                isOn ? .regular.tint(.accentColor).interactive() : .regular.interactive(),
-                                in: .rect(cornerRadius: 12)
-                            )
-                    }
-                    .buttonStyle(.plain)
-                    .accessibilityLabel("JLPT \(level)")
-                    .accessibilityAddTraits(isOn ? .isSelected : [])
-                }
-            }
-        }
+        TactileLevelPicker(levels: AudioDrillSettings.allLevels, selected: activeLevels, onToggle: toggleLevel)
     }
 
     private var upgradeBanner: some View {
-        Button {
+        UpgradeBanner(subtitle: "Free: 20 sentences per level", price: store.displayPrice) {
             showPaywall = true
-        } label: {
-            HStack(spacing: 12) {
-                Image(systemName: "lock.fill")
-                    .font(.system(size: scaled(16), weight: .semibold))
-                    .foregroundColor(.white)
-                    .frame(width: 36, height: 36)
-                    .background(
-                        LinearGradient(colors: [.accentColor, .pink],
-                                       startPoint: .leading, endPoint: .trailing)
-                    )
-                    .clipShape(RoundedRectangle(cornerRadius: 10))
-                VStack(alignment: .leading, spacing: 2) {
-                    Text("Unlock the full version")
-                        .font(.system(size: scaled(15), weight: .semibold))
-                        .foregroundColor(.primary)
-                    Text("Free: 20 sentences per level")
-                        .font(.system(size: scaled(12)))
-                        .foregroundColor(.secondary)
-                }
-                Spacer()
-                if let price = store.displayPrice {
-                    Text(price)
-                        .font(.system(size: scaled(15), weight: .semibold))
-                        .foregroundColor(.accentColor)
-                }
-                Image(systemName: "chevron.right")
-                    .font(.system(size: scaled(12), weight: .semibold))
-                    .foregroundColor(Color(.tertiaryLabel))
-            }
-            .padding(12)
-            .contentShape(Rectangle())
-            .glassEffect(.regular.interactive(), in: .rect(cornerRadius: 20))
         }
-        .buttonStyle(.plain)
     }
 
     // MARK: - Sections
@@ -183,14 +127,12 @@ struct AudioDrillHomeView: View {
     private var header: some View {
         VStack(spacing: 6) {
             Text("Audio Drill")
-                .font(.system(size: scaled(36), weight: .heavy, design: .rounded))
-                .foregroundStyle(
-                    LinearGradient(colors: [.accentColor, .pink],
-                                   startPoint: .leading, endPoint: .trailing)
-                )
+                .font(.system(size: scaled(34), weight: .heavy))
+                .tracking(-0.8)
+                .foregroundStyle(Theme.ink)
             Text("Speak the Japanese sentence aloud")
                 .font(.system(size: scaled(13)))
-                .foregroundColor(.secondary)
+                .foregroundStyle(Theme.inkMuted)
         }
         .padding(.top, 12)
     }
@@ -207,24 +149,25 @@ struct AudioDrillHomeView: View {
             HStack {
                 Text("Today")
                     .font(.system(size: scaled(18), weight: .semibold))
+                    .foregroundStyle(Theme.ink)
                 Spacer()
                 Text(activeLevels.sorted().joined(separator: ", "))
                     .font(.system(size: scaled(13)))
-                    .foregroundColor(.secondary)
+                    .foregroundStyle(Theme.inkMuted)
             }
             .padding(.horizontal, 16)
             .padding(.top, 14)
             .padding(.bottom, 10)
 
-            statRow(icon: "clock.fill", color: .accentColor,
+            statRow(icon: "clock.fill", color: Theme.brand,
                     label: "Due now", value: "\(dueCount)")
-            statRow(icon: "flame.fill", color: .orange,
+            statRow(icon: "flame.fill", color: Theme.amber,
                     label: "Learning pool", value: "\(learningCount) / \(learningPoolCap)")
             statRow(icon: "sparkles", color: .purple,
                     label: "New today", value: "\(introduced) / \(dailyNewCardBudget)")
                 .padding(.bottom, 12)
         }
-        .glassEffect(.regular, in: .rect(cornerRadius: 20))
+        .tactileCard(cornerRadius: 20)
         .padding(.horizontal)
     }
 
@@ -236,10 +179,12 @@ struct AudioDrillHomeView: View {
                 .frame(width: 24)
             Text(label)
                 .font(.system(size: scaled(15)))
+                .foregroundStyle(Theme.ink)
             Spacer()
             Text(value)
-                .font(.system(size: scaled(15), weight: .medium))
-                .foregroundColor(.secondary)
+                .font(.system(size: scaled(15), weight: .semibold))
+                .monospacedDigit()
+                .foregroundStyle(Theme.inkMuted)
         }
         .padding(.horizontal, 16)
         .padding(.vertical, 5)
@@ -250,23 +195,21 @@ struct AudioDrillHomeView: View {
             Button {
                 startDrill()
             } label: {
-                Text("Start drill")
-                    .font(.system(size: scaled(18), weight: .semibold))
-                    .frame(maxWidth: .infinity)
-                    .padding(.vertical, 8)
+                HStack(spacing: 8) {
+                    Text("Start drill")
+                    Image(systemName: "arrow.right")
+                }
+                .font(.system(size: scaled(18), weight: .bold))
             }
-            .buttonStyle(.glassProminent)
+            .buttonStyle(TactilePrimaryButtonStyle())
 
             Button {
                 startExtraDrill(count: 5)
             } label: {
                 Label("Drill 5 more new sentences", systemImage: "plus.circle")
-                    .font(.system(size: scaled(15), weight: .medium))
-                    .foregroundStyle(Color.accentColor)
-                    .frame(maxWidth: .infinity)
-                    .padding(.vertical, 8)
+                    .font(.system(size: scaled(15), weight: .semibold))
             }
-            .buttonStyle(.glass)
+            .buttonStyle(TactileSecondaryButtonStyle())
         }
         .padding(.horizontal)
         .padding(.top, 4)
@@ -279,19 +222,19 @@ struct AudioDrillHomeView: View {
             } label: {
                 secondaryLabel("Review history", systemImage: "clock.arrow.circlepath")
             }
-            .buttonStyle(.glass)
+            .buttonStyle(TactileCardButtonStyle(cornerRadius: 16))
             Button {
                 navigateToBrowser = true
             } label: {
                 secondaryLabel("Browse sentences", systemImage: "book")
             }
-            .buttonStyle(.glass)
+            .buttonStyle(TactileCardButtonStyle(cornerRadius: 16))
             NavigationLink {
                 StatsView(kind: .audio)
             } label: {
                 secondaryLabel("Stats", systemImage: "chart.bar.fill")
             }
-            .buttonStyle(.glass)
+            .buttonStyle(TactileCardButtonStyle(cornerRadius: 16))
         }
         .padding(.horizontal)
     }
@@ -299,16 +242,19 @@ struct AudioDrillHomeView: View {
     private func secondaryLabel(_ title: String, systemImage: String) -> some View {
         HStack {
             Image(systemName: systemImage)
+                .foregroundStyle(Theme.brand)
+                .frame(width: 24)
             Text(title)
-                .font(.system(size: scaled(16), weight: .medium))
+                .font(.system(size: scaled(16), weight: .semibold))
+                .foregroundStyle(Theme.ink)
             Spacer()
             Image(systemName: "chevron.right")
                 .font(.system(size: scaled(12), weight: .semibold))
-                .foregroundColor(Color(.tertiaryLabel))
+                .foregroundStyle(Theme.inkMuted)
         }
-        .padding(.horizontal, 14)
-        .padding(.vertical, 8)
-        .foregroundStyle(Color.accentColor)
+        .padding(.horizontal, 16)
+        .padding(.vertical, 14)
+        .contentShape(Rectangle())
     }
 
     // MARK: - Actions

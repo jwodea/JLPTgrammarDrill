@@ -202,7 +202,7 @@ struct StatsView: View {
             .padding(.horizontal)
             .padding(.bottom, 20)
         }
-        .background(GlassBackdrop().ignoresSafeArea())
+        .background(TactileBackdrop().ignoresSafeArea())
         .navigationTitle(kind.title)
         .navigationBarTitleDisplayMode(.inline)
         .onAppear {
@@ -239,10 +239,10 @@ struct StatsView: View {
 
             Text("Levels by FSRS review interval: Learning <3d · Familiar 3–14d · Confident 14–60d · Mastered ≥60d.")
                 .font(.system(size: scaled(11)))
-                .foregroundColor(.secondary)
+                .foregroundStyle(Theme.inkMuted)
         }
         .padding(16)
-        .glassEffect(.regular, in: .rect(cornerRadius: 20))
+        .tactileCard(cornerRadius: 20)
     }
 
     // MARK: - Particles section
@@ -259,7 +259,7 @@ struct StatsView: View {
             }
         }
         .padding(16)
-        .glassEffect(.regular, in: .rect(cornerRadius: 20))
+        .tactileCard(cornerRadius: 20)
     }
 
     // MARK: - Audio section
@@ -274,7 +274,7 @@ struct StatsView: View {
                     .font(.system(size: scaled(22), weight: .bold))
                 Text(audioInRotation == 1 ? "sentence in rotation" : "sentences in rotation")
                     .font(.system(size: scaled(13)))
-                    .foregroundColor(.secondary)
+                    .foregroundStyle(Theme.inkMuted)
             }
 
             VStack(spacing: 10) {
@@ -286,7 +286,7 @@ struct StatsView: View {
             }
         }
         .padding(16)
-        .glassEffect(.regular, in: .rect(cornerRadius: 20))
+        .tactileCard(cornerRadius: 20)
     }
 
     // MARK: - Row + legend helpers
@@ -297,7 +297,7 @@ struct StatsView: View {
                 .font(.system(size: scaled(18), weight: .semibold))
             Text(subtitle)
                 .font(.system(size: scaled(12)))
-                .foregroundColor(.secondary)
+                .foregroundStyle(Theme.inkMuted)
         }
     }
 
@@ -313,7 +313,7 @@ struct StatsView: View {
 
             Text("\(counts.studied)/\(counts.total)")
                 .font(.system(size: scaled(11), design: .monospaced))
-                .foregroundColor(.secondary)
+                .foregroundStyle(Theme.inkMuted)
                 .frame(width: 56, alignment: .trailing)
         }
     }
@@ -358,7 +358,7 @@ struct StatsView: View {
                         .frame(width: 10, height: 10)
                     Text(label)
                         .font(.system(size: scaled(11)))
-                        .foregroundColor(.secondary)
+                        .foregroundStyle(Theme.inkMuted)
                 }
             }
         }
@@ -385,7 +385,7 @@ struct StatsView: View {
                         .monospacedDigit()
                     Text("total")
                         .font(.system(size: scaled(12)))
-                        .foregroundColor(.secondary)
+                        .foregroundStyle(Theme.inkMuted)
                 }
             }
 
@@ -432,7 +432,7 @@ struct StatsView: View {
             .animation(.easeInOut(duration: 0.25), value: activityRange)
         }
         .padding(16)
-        .glassEffect(.regular, in: .rect(cornerRadius: 20))
+        .tactileCard(cornerRadius: 20)
     }
 }
 

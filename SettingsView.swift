@@ -52,13 +52,13 @@ struct SettingsView: View {
                     if store.isUnlocked {
                         HStack {
                             Image(systemName: "checkmark.seal.fill")
-                                .foregroundColor(.green)
+                                .foregroundStyle(Theme.correct)
                             Text("Full Version")
                                 .font(.system(size: 15, weight: .medium))
                             Spacer()
                             Text("Unlocked")
                                 .font(.system(size: 14))
-                                .foregroundColor(.secondary)
+                                .foregroundStyle(Theme.inkMuted)
                         }
                     } else {
                         Button {
@@ -73,7 +73,7 @@ struct SettingsView: View {
                                         .foregroundColor(.primary)
                                     Text("Free: 20 patterns and 20 sentences per level + all particles")
                                         .font(.system(size: 12))
-                                        .foregroundColor(.secondary)
+                                        .foregroundStyle(Theme.inkMuted)
                                 }
                                 Spacer()
                                 if let price = store.displayPrice {
@@ -126,7 +126,7 @@ struct SettingsView: View {
                             Spacer()
                             Text("\(defaultNewCount)")
                                 .font(.system(size: 15, weight: .medium))
-                                .foregroundColor(.secondary)
+                                .foregroundStyle(Theme.inkMuted)
                         }
                     }
 
@@ -144,7 +144,7 @@ struct SettingsView: View {
                     if japaneseVoices.isEmpty {
                         Text("Using system default voice.")
                             .font(.system(size: 15))
-                            .foregroundColor(.secondary)
+                            .foregroundStyle(Theme.inkMuted)
                     } else {
                         Picker("Voice", selection: $voiceIdentifier) {
                             Text("System default").tag("")
@@ -174,7 +174,7 @@ struct SettingsView: View {
                             Spacer()
                             Text("\(Int((fontScale * 100).rounded()))%")
                                 .font(.system(size: 15))
-                                .foregroundColor(.secondary)
+                                .foregroundStyle(Theme.inkMuted)
                         }
 
                         HStack(spacing: 12) {
@@ -186,7 +186,7 @@ struct SettingsView: View {
                                     .font(.system(size: 18))
                                     .frame(width: 44, height: 44)
                             }
-                            .buttonStyle(.glass)
+                            .buttonStyle(TactileCardButtonStyle(cornerRadius: 12))
                             .disabled(fontScale <= FontSizeManager.minScale + 0.01)
 
                             Slider(
@@ -206,7 +206,7 @@ struct SettingsView: View {
                                     .font(.system(size: 18))
                                     .frame(width: 44, height: 44)
                             }
-                            .buttonStyle(.glass)
+                            .buttonStyle(TactileCardButtonStyle(cornerRadius: 12))
                             .disabled(fontScale >= FontSizeManager.maxScale - 0.01)
                         }
 
@@ -229,7 +229,7 @@ struct SettingsView: View {
 
                         Text("I like cats.")
                             .font(.system(size: scaled(17)))
-                            .foregroundColor(.secondary)
+                            .foregroundStyle(Theme.inkMuted)
 
                         HStack(spacing: 8) {
                             ForEach(["が", "を", "に", "で"], id: \.self) { choice in
@@ -237,11 +237,11 @@ struct SettingsView: View {
                                     .font(.system(size: scaled(17)))
                                     .padding(.horizontal, 12)
                                     .padding(.vertical, 8)
-                                    .background(Color(.secondarySystemBackground))
+                                    .background(Theme.slateTint)
                                     .cornerRadius(8)
                                     .overlay(
                                         RoundedRectangle(cornerRadius: 8)
-                                            .stroke(Color.secondary.opacity(0.3), lineWidth: 1)
+                                            .stroke(Theme.hairline, lineWidth: 1)
                                     )
                             }
                         }
@@ -266,7 +266,7 @@ struct SettingsView: View {
                 }
             }
             .scrollContentBackground(.hidden)
-            .background(GlassBackdrop().ignoresSafeArea())
+            .background(TactileBackdrop().ignoresSafeArea())
             .navigationTitle("Settings")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
@@ -373,7 +373,7 @@ private struct HowItWorksView: View {
                         .font(.system(size: scaled(20), weight: .bold))
                     Text("Build JLPT grammar knowledge through short daily reviews.")
                         .font(.system(size: scaled(15)))
-                        .foregroundColor(.secondary)
+                        .foregroundStyle(Theme.inkMuted)
                         .fixedSize(horizontal: false, vertical: true)
                 }
 
@@ -389,7 +389,7 @@ private struct HowItWorksView: View {
                         }
                         Text(.init(topic.body))
                             .font(.system(size: scaled(15)))
-                            .foregroundColor(.secondary)
+                            .foregroundStyle(Theme.inkMuted)
                             .fixedSize(horizontal: false, vertical: true)
 
                         if topic.title == "How patterns come back" {
@@ -412,7 +412,7 @@ private struct HowItWorksView: View {
             .padding()
             .frame(maxWidth: .infinity, alignment: .leading)
         }
-        .background(GlassBackdrop().ignoresSafeArea())
+        .background(TactileBackdrop().ignoresSafeArea())
         .navigationTitle("How it works")
         .navigationBarTitleDisplayMode(.inline)
     }
@@ -472,7 +472,7 @@ private struct HowReviewsWorkView: View {
                         .font(.system(size: scaled(22), weight: .bold))
                     Text("This app uses an algorithm called FSRS to decide when to show you each grammar point, particle, or audio sentence again. The goal: review things just before you would have forgotten them, so each review strengthens memory instead of just reminding you of something you already know.")
                         .font(.system(size: scaled(15)))
-                        .foregroundColor(.secondary)
+                        .foregroundStyle(Theme.inkMuted)
                         .fixedSize(horizontal: false, vertical: true)
                 }
 
@@ -482,7 +482,7 @@ private struct HowReviewsWorkView: View {
                             .font(.system(size: scaled(17), weight: .semibold))
                         Text(section.body)
                             .font(.system(size: scaled(15)))
-                            .foregroundColor(.secondary)
+                            .foregroundStyle(Theme.inkMuted)
                             .fixedSize(horizontal: false, vertical: true)
                     }
                 }
@@ -492,7 +492,7 @@ private struct HowReviewsWorkView: View {
                         .font(.system(size: scaled(17), weight: .semibold))
                     Text("On the Stats screen, cards are grouped by how far away the next review is:")
                         .font(.system(size: scaled(15)))
-                        .foregroundColor(.secondary)
+                        .foregroundStyle(Theme.inkMuted)
                         .fixedSize(horizontal: false, vertical: true)
 
                     VStack(alignment: .leading, spacing: 8) {
@@ -505,7 +505,7 @@ private struct HowReviewsWorkView: View {
                                     .font(.system(size: scaled(15), weight: .medium))
                                 Text("— \(tier.range)")
                                     .font(.system(size: scaled(15)))
-                                    .foregroundColor(.secondary)
+                                    .foregroundStyle(Theme.inkMuted)
                             }
                         }
                         HStack(spacing: 10) {
@@ -516,14 +516,14 @@ private struct HowReviewsWorkView: View {
                                 .font(.system(size: scaled(15), weight: .medium))
                             Text("— not studied yet")
                                 .font(.system(size: scaled(15)))
-                                .foregroundColor(.secondary)
+                                .foregroundStyle(Theme.inkMuted)
                         }
                     }
                     .padding(.top, 4)
 
                     Text("Get a card wrong and it drops back down.")
                         .font(.system(size: scaled(15)))
-                        .foregroundColor(.secondary)
+                        .foregroundStyle(Theme.inkMuted)
                         .fixedSize(horizontal: false, vertical: true)
                         .padding(.top, 4)
                 }
@@ -531,7 +531,7 @@ private struct HowReviewsWorkView: View {
             .padding()
             .frame(maxWidth: .infinity, alignment: .leading)
         }
-        .background(GlassBackdrop().ignoresSafeArea())
+        .background(TactileBackdrop().ignoresSafeArea())
         .navigationTitle("Review schedule")
         .navigationBarTitleDisplayMode(.inline)
     }

@@ -80,7 +80,7 @@ struct GrammarBrowserView: View {
     /// clamped to a 0–60 day window. Unseen rows get the default background.
     private func masteryRowTint(for grammarId: String, recordsById: [String: SRSRecord]) -> Color {
         guard let record = recordsById[grammarId] else {
-            return Color(.systemBackground)
+            return Theme.card
         }
         let progress = min(max(Double(record.fsrsScheduledDays) / 60.0, 0.0), 1.0)
         let hue = 0.083 + progress * (0.333 - 0.083) // orange (30°) → green (120°)
@@ -91,7 +91,7 @@ struct GrammarBrowserView: View {
         VStack(spacing: 0) {
             Text("Every grammar pattern tested in the drills.")
                 .font(.system(size: scaled(13)))
-                .foregroundColor(.secondary)
+                .foregroundStyle(Theme.inkMuted)
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .padding(.horizontal)
                 .padding(.top, 10)
@@ -119,17 +119,17 @@ struct GrammarBrowserView: View {
                     HStack {
                         if isSelecting {
                             Image(systemName: selectedIds.contains(point.id) ? "checkmark.circle.fill" : "circle")
-                                .foregroundColor(selectedIds.contains(point.id) ? .accentColor : .secondary)
+                                .foregroundStyle(selectedIds.contains(point.id) ? Theme.brand : Theme.inkMuted)
                                 .font(.system(size: scaled(22)))
                         }
 
                         VStack(alignment: .leading, spacing: 4) {
                             Text(point.pattern)
                                 .font(.system(size: scaled(18), weight: .bold))
-                                .foregroundColor(locked ? .secondary : .primary)
+                                .foregroundStyle(locked ? Theme.inkMuted : Theme.ink)
                             Text(point.meaning)
                                 .font(.system(size: scaled(15)))
-                                .foregroundColor(.secondary)
+                                .foregroundStyle(Theme.inkMuted)
                         }
 
                         Spacer()
@@ -137,7 +137,7 @@ struct GrammarBrowserView: View {
                         if locked {
                             Image(systemName: "lock.fill")
                                 .font(.system(size: scaled(13)))
-                                .foregroundColor(.secondary)
+                                .foregroundStyle(Theme.inkMuted)
                                 .frame(width: 18)
                         } else {
                             let mastery = masteryIndicator(for: point.id, recordsById: recordsById)
@@ -172,7 +172,7 @@ struct GrammarBrowserView: View {
                         }
                     }
                 }
-                .listRowBackground(locked ? Color(.systemBackground) : masteryRowTint(for: point.id, recordsById: recordsById))
+                .listRowBackground(locked ? Theme.card : masteryRowTint(for: point.id, recordsById: recordsById))
             }
             .scrollContentBackground(.hidden)
 
@@ -191,10 +191,8 @@ struct GrammarBrowserView: View {
                             let allVisible = Set(filteredPoints.map(\.id).filter { !isLocked($0) }).isSubset(of: selectedIds)
                             Text(allVisible ? "Deselect All" : "Select All")
                                 .font(.system(size: scaled(15), weight: .medium))
-                                .frame(maxWidth: .infinity)
-                                .padding(.vertical, 8)
                         }
-                        .buttonStyle(.glass)
+                        .buttonStyle(TactileSecondaryButtonStyle())
 
                         Button {
                             for id in selectedIds {
@@ -205,11 +203,9 @@ struct GrammarBrowserView: View {
                         } label: {
                             Text("Mark \(selectedIds.count) Known")
                                 .font(.system(size: scaled(15), weight: .medium))
-                                .frame(maxWidth: .infinity)
-                                .padding(.vertical, 8)
-                                .foregroundStyle(selectedIds.isEmpty ? .secondary : Color.green)
+                                .foregroundStyle(selectedIds.isEmpty ? Theme.inkMuted : Theme.correct)
                         }
-                        .buttonStyle(.glass)
+                        .buttonStyle(TactileSecondaryButtonStyle())
                         .disabled(selectedIds.isEmpty)
 
                         Button {
@@ -221,11 +217,9 @@ struct GrammarBrowserView: View {
                         } label: {
                             Text("Reset \(selectedIds.count)")
                                 .font(.system(size: scaled(15), weight: .medium))
-                                .frame(maxWidth: .infinity)
-                                .padding(.vertical, 8)
-                                .foregroundStyle(selectedIds.isEmpty ? .secondary : Color.red)
+                                .foregroundStyle(selectedIds.isEmpty ? Theme.inkMuted : Theme.incorrect)
                         }
-                        .buttonStyle(.glass)
+                        .buttonStyle(TactileSecondaryButtonStyle())
                         .disabled(selectedIds.isEmpty)
                     }
                     .padding(.horizontal)
@@ -234,7 +228,7 @@ struct GrammarBrowserView: View {
                 }
             }
         }
-        .background(GlassBackdrop().ignoresSafeArea())
+        .background(TactileBackdrop().ignoresSafeArea())
         .searchable(text: $searchText, prompt: "Search patterns or meanings")
         .navigationTitle("Grammar List")
         .navigationBarTitleDisplayMode(.inline)
@@ -373,7 +367,7 @@ struct GrammarDetailView: View {
 
                 Text(point.meaning)
                     .font(.system(size: scaled(18)))
-                    .foregroundColor(.secondary)
+                    .foregroundStyle(Theme.inkMuted)
 
                 Divider()
 
@@ -382,16 +376,16 @@ struct GrammarDetailView: View {
 
                 Text(point.translation)
                     .font(.system(size: scaled(16)))
-                    .foregroundColor(.secondary)
+                    .foregroundStyle(Theme.inkMuted)
 
                 Divider()
 
                 HStack {
                     Image(systemName: "clock")
-                        .foregroundColor(.secondary)
+                        .foregroundStyle(Theme.inkMuted)
                     Text(srsStatus)
                         .font(.system(size: scaled(16)))
-                        .foregroundColor(.secondary)
+                        .foregroundStyle(Theme.inkMuted)
                 }
 
                 Divider()
@@ -403,11 +397,9 @@ struct GrammarDetailView: View {
                     } label: {
                         Label("Mark as Known", systemImage: "checkmark.seal.fill")
                             .font(.system(size: scaled(15), weight: .medium))
-                            .frame(maxWidth: .infinity)
-                            .padding(.vertical, 8)
-                            .foregroundStyle(Color.green)
+                            .foregroundStyle(Theme.correct)
                     }
-                    .buttonStyle(.glass)
+                    .buttonStyle(TactileSecondaryButtonStyle())
 
                     if record != nil {
                         Button {
@@ -416,18 +408,16 @@ struct GrammarDetailView: View {
                         } label: {
                             Label("Reset", systemImage: "arrow.counterclockwise")
                                 .font(.system(size: scaled(15), weight: .medium))
-                                .frame(maxWidth: .infinity)
-                                .padding(.vertical, 8)
-                                .foregroundStyle(Color.red)
+                                .foregroundStyle(Theme.incorrect)
                         }
-                        .buttonStyle(.glass)
+                        .buttonStyle(TactileSecondaryButtonStyle())
                     }
                 }
 
                 Spacer()
             }
             .padding()
-            .background(GlassBackdrop().ignoresSafeArea())
+            .background(TactileBackdrop().ignoresSafeArea())
             .navigationTitle("Details")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {

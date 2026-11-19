@@ -63,46 +63,66 @@ struct HubView: View {
     var body: some View {
         GeometryReader { geo in
             ScrollView {
-                VStack(spacing: 32) {
+                VStack(spacing: 40) {
                     // Header
-                    VStack(spacing: 2) {
-                        Text("JLPT")
-                            .font(.system(size: scaled(14), weight: .bold, design: .monospaced))
-                            .tracking(6)
-                            .foregroundStyle(.secondary)
+                    VStack(spacing: 10) {
+                        HStack(spacing: 6) {
+                            Circle()
+                                .fill(Theme.brand)
+                                .frame(width: 6, height: 6)
+                            Text("JLPT")
+                                .font(.system(size: scaled(11), weight: .bold))
+                                .tracking(3.5)
+                                .foregroundStyle(Theme.brand)
+                        }
+                        .padding(.horizontal, 12)
+                        .padding(.vertical, 5)
+                        .background(Capsule().fill(Theme.brandTint))
+                        .overlay(Capsule().strokeBorder(Theme.brandBorder, lineWidth: 1))
 
-                        Text("Grammar Drill")
-                            .font(.system(size: scaled(34), weight: .heavy, design: .rounded))
-                            .foregroundStyle(.primary)
-                    }
-                    .padding(.top, 8)
+                        VStack(spacing: 6) {
+                            Text("Grammar Drill")
+                                .font(.system(size: scaled(34), weight: .heavy))
+                                .tracking(-0.8)
+                                .foregroundStyle(Theme.ink)
 
-                    // Navigation Cards — glass layer floating over the gradient backdrop
-                    GlassEffectContainer(spacing: 14) {
-                        VStack(spacing: 14) {
-                            NavigationLink(value: HubDestination.grammarDrill) {
-                                HubCard(icon: "play.fill", title: "Drill Now", color: .blue, fontScale: fontScale)
-                            }
-
-                            NavigationLink(value: HubDestination.otherDrills) {
-                                HubCard(icon: "square.grid.2x2.fill", title: "Other Drills", color: .orange, fontScale: fontScale)
-                            }
-
-                            Button {
-                                showSettings = true
-                            } label: {
-                                HubCard(icon: "gearshape", title: "Settings", color: .gray, fontScale: fontScale)
-                            }
+                            Text("Daily grammar & particle practice")
+                                .font(.system(size: scaled(15), weight: .medium))
+                                .foregroundStyle(Theme.inkMuted)
                         }
                     }
-                    .padding(.horizontal)
+
+                    // Navigation Cards
+                    VStack(spacing: 14) {
+                        NavigationLink(value: HubDestination.grammarDrill) {
+                            HubCard(icon: "play.fill", title: "Drill Now",
+                                    subtitle: "Today's grammar session",
+                                    style: .brand, fontScale: fontScale)
+                        }
+
+                        NavigationLink(value: HubDestination.otherDrills) {
+                            HubCard(icon: "square.grid.2x2.fill", title: "Other Drills",
+                                    subtitle: "Particle Practice & Audio Drill",
+                                    style: .amber, fontScale: fontScale)
+                        }
+
+                        Button {
+                            showSettings = true
+                        } label: {
+                            HubCard(icon: "gearshape", title: "Settings",
+                                    subtitle: "Study, voice & display",
+                                    style: .neutral, fontScale: fontScale)
+                        }
+                    }
+                    .buttonStyle(TactileCardButtonStyle())
+                    .padding(.horizontal, 24)
                 }
                 .padding(.bottom, 20)
                 .frame(minHeight: geo.size.height)
                 .frame(maxWidth: .infinity)
             }
         }
-        .background(GlassBackdrop().ignoresSafeArea())
+        .background(TactileBackdrop().ignoresSafeArea())
         .navigationBarTitleDisplayMode(.inline)
     }
 }
@@ -115,22 +135,23 @@ struct OtherDrillsView: View {
 
     var body: some View {
         ScrollView {
-            GlassEffectContainer(spacing: 14) {
-                VStack(spacing: 14) {
-                    NavigationLink(value: HubDestination.particlePractice) {
-                        HubCard(icon: "character.ja", title: "Particle Practice", color: .orange, fontScale: fontScale)
-                    }
+            VStack(spacing: 14) {
+                NavigationLink(value: HubDestination.particlePractice) {
+                    HubCard(icon: "character.ja", title: "Particle Practice",
+                            style: .amber, fontScale: fontScale)
+                }
 
-                    NavigationLink(value: HubDestination.audioDrill) {
-                        HubCard(icon: "mic.fill", title: "Audio Drill", color: .pink, fontScale: fontScale)
-                    }
+                NavigationLink(value: HubDestination.audioDrill) {
+                    HubCard(icon: "mic.fill", title: "Audio Drill",
+                            style: .brand, fontScale: fontScale)
                 }
             }
-            .padding(.horizontal)
+            .buttonStyle(TactileCardButtonStyle())
+            .padding(.horizontal, 24)
             .padding(.top, 12)
             .padding(.bottom, 20)
         }
-        .background(GlassBackdrop().ignoresSafeArea())
+        .background(TactileBackdrop().ignoresSafeArea())
         .navigationTitle("Other Drills")
         .navigationBarTitleDisplayMode(.inline)
     }
@@ -138,10 +159,41 @@ struct OtherDrillsView: View {
 
 // MARK: - Hub Card
 
+/// Row content for a hub card. The card surface itself comes from
+/// `TactileCardButtonStyle` on the enclosing button.
 private struct HubCard: View {
+    enum Style {
+        case brand, amber, neutral
+
+        var foreground: Color {
+            switch self {
+            case .brand: Theme.brand
+            case .amber: Theme.amber
+            case .neutral: Theme.inkMuted
+            }
+        }
+
+        var tint: Color {
+            switch self {
+            case .brand: Theme.brandTint
+            case .amber: Theme.amberTint
+            case .neutral: Theme.slateTint
+            }
+        }
+
+        var border: Color {
+            switch self {
+            case .brand: Theme.brandBorder
+            case .amber: Theme.amberBorder
+            case .neutral: Theme.hairline
+            }
+        }
+    }
+
     let icon: String
     let title: String
-    let color: Color
+    var subtitle: String? = nil
+    let style: Style
     let fontScale: Double
 
     private func scaled(_ base: CGFloat) -> CGFloat {
@@ -149,26 +201,39 @@ private struct HubCard: View {
     }
 
     var body: some View {
-        HStack(spacing: 16) {
+        HStack(spacing: 14) {
             Image(systemName: icon)
-                .font(.system(size: scaled(22), weight: .medium))
-                .foregroundStyle(color)
-                .frame(width: 44, height: 44)
+                .font(.system(size: scaled(20), weight: .medium))
+                .foregroundStyle(style.foreground)
+                .frame(width: 48, height: 48)
+                .background(
+                    RoundedRectangle(cornerRadius: 12, style: .continuous)
+                        .fill(style.tint)
+                )
+                .overlay(
+                    RoundedRectangle(cornerRadius: 12, style: .continuous)
+                        .strokeBorder(style.border, lineWidth: 1)
+                )
 
-            Text(title)
-                .font(.system(size: scaled(18), weight: .semibold))
-                .foregroundStyle(.primary)
+            VStack(alignment: .leading, spacing: 2) {
+                Text(title)
+                    .font(.system(size: scaled(17), weight: .semibold))
+                    .foregroundStyle(Theme.ink)
+                if let subtitle {
+                    Text(subtitle)
+                        .font(.system(size: scaled(13), weight: .medium))
+                        .foregroundStyle(Theme.inkMuted)
+                }
+            }
 
             Spacer()
 
             Image(systemName: "chevron.right")
                 .font(.system(size: scaled(14), weight: .semibold))
-                .foregroundStyle(.tertiary)
+                .foregroundStyle(Theme.inkMuted)
         }
-        .padding(.horizontal, 16)
-        .padding(.vertical, 14)
+        .padding(16)
         .contentShape(Rectangle())
-        .glassEffect(.regular.interactive(), in: .rect(cornerRadius: 22))
     }
 }
 

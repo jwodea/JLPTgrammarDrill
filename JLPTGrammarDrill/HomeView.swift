@@ -174,18 +174,13 @@ struct HomeView: View {
                 // Header
                 VStack(spacing: 6) {
                     Text("Grammar Drill")
-                        .font(.system(size: scaled(36), weight: .heavy, design: .rounded))
-                        .foregroundStyle(
-                            LinearGradient(
-                                colors: [.accentColor, .accentColor.opacity(0.7)],
-                                startPoint: .leading,
-                                endPoint: .trailing
-                            )
-                        )
+                        .font(.system(size: scaled(34), weight: .heavy))
+                        .tracking(-0.8)
+                        .foregroundStyle(Theme.ink)
 
                     Text("by JLPT level")
-                        .font(.system(size: scaled(12), weight: .medium))
-                        .foregroundColor(.secondary)
+                        .font(.system(size: scaled(13), weight: .medium))
+                        .foregroundStyle(Theme.inkMuted)
                 }
                 .padding(.top, 12)
 
@@ -202,10 +197,12 @@ struct HomeView: View {
                     HStack {
                         Text("Stats")
                             .font(.system(size: scaled(18), weight: .semibold))
+                            .foregroundStyle(Theme.ink)
                         Spacer()
                         Text("\(activeGrammarPoints.count) total")
                             .font(.system(size: scaled(14)))
-                            .foregroundColor(.secondary)
+                            .monospacedDigit()
+                            .foregroundStyle(Theme.inkMuted)
                     }
                     .padding(.horizontal, 16)
                     .padding(.top, 14)
@@ -219,17 +216,19 @@ struct HomeView: View {
                                 .frame(width: 24)
                             Text(level.rawValue)
                                 .font(.system(size: scaled(15)))
+                                .foregroundStyle(Theme.ink)
                             Spacer()
                             Text("\(masteryCounts[level] ?? 0)")
-                                .font(.system(size: scaled(15), weight: .medium))
-                                .foregroundColor(.secondary)
+                                .font(.system(size: scaled(15), weight: .semibold))
+                                .monospacedDigit()
+                                .foregroundStyle(Theme.inkMuted)
                         }
                         .padding(.horizontal, 16)
                         .padding(.vertical, 5)
                     }
                     .padding(.bottom, 10)
                 }
-                .glassEffect(.regular, in: .rect(cornerRadius: 20))
+                .tactileCard(cornerRadius: 20)
                 .padding(.horizontal)
 
                 // Today's Session Card
@@ -237,6 +236,7 @@ struct HomeView: View {
                     HStack {
                         Text("Today's Session")
                             .font(.system(size: scaled(18), weight: .semibold))
+                            .foregroundStyle(Theme.ink)
                         Spacer()
                     }
                     .padding(.horizontal, 16)
@@ -248,24 +248,26 @@ struct HomeView: View {
                             HStack(spacing: 4) {
                                 Text("\(sessionStats.newCount)")
                                     .font(.system(size: scaled(16), weight: .bold))
-                                    .foregroundColor(.accentColor)
+                                    .monospacedDigit()
+                                    .foregroundStyle(Theme.brand)
                                 Text("new")
                                     .font(.system(size: scaled(15)))
-                                    .foregroundColor(.accentColor)
+                                    .foregroundStyle(Theme.brand)
                             }
                         }
 
                         HStack(spacing: 4) {
                             Text("\(sessionStats.reviewCount)")
                                 .font(.system(size: scaled(16), weight: .bold))
-                                .foregroundColor(.secondary)
+                                .monospacedDigit()
+                                .foregroundStyle(Theme.ink)
                             Text("review")
                                 .font(.system(size: scaled(15)))
-                                .foregroundColor(.secondary)
+                                .foregroundStyle(Theme.ink)
                             if sessionStats.totalDue > 0 {
                                 Text("(of \(sessionStats.totalDue) due)")
                                     .font(.system(size: scaled(13)))
-                                    .foregroundColor(.secondary)
+                                    .foregroundStyle(Theme.inkMuted)
                             }
                         }
                     }
@@ -275,13 +277,13 @@ struct HomeView: View {
                         Spacer()
                         Text("Last review: \(lastReviewText)")
                             .font(.system(size: scaled(12)))
-                            .foregroundColor(.secondary)
+                            .foregroundStyle(Theme.inkMuted)
                     }
                     .padding(.horizontal, 16)
                     .padding(.top, 8)
                     .padding(.bottom, 14)
                 }
-                .glassEffect(.regular, in: .rect(cornerRadius: 20))
+                .tactileCard(cornerRadius: 20)
                 .padding(.horizontal)
 
                 // Session Buttons
@@ -294,12 +296,13 @@ struct HomeView: View {
                     Button {
                         startSession(newCount: defaultNewCount)
                     } label: {
-                        Text("New and Review")
-                            .font(.system(size: scaled(18), weight: .semibold))
-                            .frame(maxWidth: .infinity)
-                            .padding(.vertical, 8)
+                        HStack(spacing: 8) {
+                            Text("New and Review")
+                            Image(systemName: "arrow.right")
+                        }
+                        .font(.system(size: scaled(18), weight: .bold))
                     }
-                    .buttonStyle(.glassProminent)
+                    .buttonStyle(TactilePrimaryButtonStyle())
                     .disabled(isLoading)
 
                     Button {
@@ -307,40 +310,34 @@ struct HomeView: View {
                     } label: {
                         Text("Review Only")
                             .font(.system(size: scaled(18), weight: .semibold))
-                            .foregroundStyle(Color.accentColor)
-                            .frame(maxWidth: .infinity)
-                            .padding(.vertical, 8)
                     }
-                    .buttonStyle(.glass)
+                    .buttonStyle(TactileSecondaryButtonStyle())
                     .disabled(isLoading)
                 }
                 .padding(.horizontal)
                 .padding(.top, 4)
+                .padding(.bottom, 4)
 
                 // Secondary navigation — Grammar List and Stats live here rather than on the hub.
                 HStack(spacing: 10) {
                     NavigationLink(value: HubDestination.grammarList) {
                         Label("Grammar List", systemImage: "book.fill")
                             .font(.system(size: scaled(15), weight: .semibold))
-                            .frame(maxWidth: .infinity)
-                            .padding(.vertical, 6)
                     }
-                    .buttonStyle(.glass)
+                    .buttonStyle(TactileSecondaryButtonStyle(foreground: Theme.ink))
 
                     NavigationLink(value: HubDestination.stats) {
                         Label("Stats", systemImage: "chart.bar.fill")
                             .font(.system(size: scaled(15), weight: .semibold))
-                            .frame(maxWidth: .infinity)
-                            .padding(.vertical, 6)
                     }
-                    .buttonStyle(.glass)
+                    .buttonStyle(TactileSecondaryButtonStyle(foreground: Theme.ink))
                 }
                 .padding(.horizontal)
                 .padding(.top, 8)
             }
             .padding(.bottom, 20)
         }
-        .background(GlassBackdrop().ignoresSafeArea())
+        .background(TactileBackdrop().ignoresSafeArea())
         .navigationTitle("")
         .navigationBarTitleDisplayMode(.inline)
         .alert("All caught up!", isPresented: $showAllCaughtUp) {
@@ -377,77 +374,13 @@ struct HomeView: View {
     }
 
     private var levelPicker: some View {
-        GlassEffectContainer(spacing: 8) {
-            HStack(spacing: 8) {
-                ForEach(Self.allLevels, id: \.self) { level in
-                    let isOn = enabledLevelsSet.contains(level)
-                    Button {
-                        toggleLevel(level)
-                    } label: {
-                        HStack(spacing: 5) {
-                            // Green dot marks enabled levels; kept in the layout (just
-                            // hidden) when off so the label doesn't shift on toggle.
-                            Circle()
-                                .fill(Color.green)
-                                .frame(width: scaled(6), height: scaled(6))
-                                .opacity(isOn ? 1 : 0)
-                            Text(level)
-                                .font(.system(size: scaled(14), weight: .semibold, design: .rounded))
-                        }
-                            .frame(maxWidth: .infinity)
-                            .padding(.vertical, 8)
-                            .foregroundStyle(isOn ? .white : .primary)
-                            .contentShape(Rectangle())
-                            .glassEffect(
-                                isOn ? .regular.tint(.accentColor).interactive() : .regular.interactive(),
-                                in: .rect(cornerRadius: 12)
-                            )
-                    }
-                    .buttonStyle(.plain)
-                    .accessibilityLabel("JLPT \(level)")
-                    .accessibilityAddTraits(isOn ? .isSelected : [])
-                }
-            }
-        }
+        TactileLevelPicker(levels: Self.allLevels, selected: enabledLevelsSet, showsDot: true, onToggle: toggleLevel)
     }
 
     private var upgradeBanner: some View {
-        Button {
+        UpgradeBanner(subtitle: "Free: 20 patterns per level + all particles", price: store.displayPrice) {
             showPaywall = true
-        } label: {
-            HStack(spacing: 12) {
-                Image(systemName: "lock.fill")
-                    .font(.system(size: scaled(16), weight: .semibold))
-                    .foregroundColor(.white)
-                    .frame(width: 36, height: 36)
-                    .background(
-                        LinearGradient(colors: [.accentColor, .purple],
-                                       startPoint: .leading, endPoint: .trailing)
-                    )
-                    .clipShape(RoundedRectangle(cornerRadius: 10))
-                VStack(alignment: .leading, spacing: 2) {
-                    Text("Unlock the full version")
-                        .font(.system(size: scaled(15), weight: .semibold))
-                        .foregroundColor(.primary)
-                    Text("Free: 20 patterns per level + all particles")
-                        .font(.system(size: scaled(12)))
-                        .foregroundColor(.secondary)
-                }
-                Spacer()
-                if let price = store.displayPrice {
-                    Text(price)
-                        .font(.system(size: scaled(15), weight: .semibold))
-                        .foregroundColor(.accentColor)
-                }
-                Image(systemName: "chevron.right")
-                    .font(.system(size: scaled(12), weight: .semibold))
-                    .foregroundColor(Color(.tertiaryLabel))
-            }
-            .padding(12)
-            .contentShape(Rectangle())
-            .glassEffect(.regular.interactive(), in: .rect(cornerRadius: 20))
         }
-        .buttonStyle(.plain)
     }
 
     private func loadData() {

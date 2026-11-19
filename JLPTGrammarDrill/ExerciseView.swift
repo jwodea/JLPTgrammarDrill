@@ -143,7 +143,7 @@ struct ExerciseView: View {
 
     var body: some View {
         ZStack {
-            GlassBackdrop().ignoresSafeArea()
+            TactileBackdrop().ignoresSafeArea()
 
             if showSummary {
                 ScrollView {
@@ -178,8 +178,9 @@ struct ExerciseView: View {
                                 .padding(.horizontal)
 
                                 Text("\(completedPatterns.count)/\(totalPatterns) mastered")
-                                    .font(.system(size: scaled(12)))
-                                    .foregroundColor(.secondary)
+                                    .font(.system(size: scaled(12), weight: .semibold))
+                                    .monospacedDigit()
+                                    .foregroundStyle(Theme.inkMuted)
                             }
                             .padding(.top)
 
@@ -213,14 +214,21 @@ struct ExerciseView: View {
                 Button {
                     advanceToNext()
                 } label: {
-                    Text(isSessionComplete ? "All Done" : "Next")
-                        .font(.system(size: scaled(17), weight: .semibold))
-                        .frame(maxWidth: .infinity)
-                        .padding(.vertical, 8)
+                    HStack(spacing: 8) {
+                        Text(isSessionComplete ? "All Done" : "Next")
+                        Image(systemName: isSessionComplete ? "checkmark" : "arrow.right")
+                    }
+                    .font(.system(size: scaled(17), weight: .bold))
                 }
-                .buttonStyle(.glassProminent)
+                .buttonStyle(TactilePrimaryButtonStyle())
                 .padding(.horizontal)
+                .padding(.top, 12)
                 .padding(.bottom, 8)
+                .background(
+                    Theme.canvas
+                        .overlay(alignment: .top) { Theme.hairline.frame(height: 1) }
+                        .ignoresSafeArea()
+                )
                 .transition(.move(edge: .bottom).combined(with: .opacity))
             }
         }
@@ -233,7 +241,7 @@ struct ExerciseView: View {
                 } label: {
                     Image(systemName: "xmark")
                         .font(.system(size: 14, weight: .semibold))
-                        .foregroundColor(.secondary)
+                        .foregroundStyle(Theme.inkMuted)
                 }
             }
         }
@@ -257,66 +265,61 @@ struct ExerciseView: View {
     /// The quiz UI for the current item: sentence, answer grid, vocab chips, explanation card.
     @ViewBuilder
     private func questionContent(for item: SessionExercise) -> some View {
-        Spacer(minLength: 30)
-
-        // Question
-        VStack(spacing: 12) {
+        // Question card
+        VStack(alignment: .leading, spacing: 12) {
             if item.level == "Particles" {
-                chip(label: "particle", icon: "character.ja", color: .orange)
+                chip(label: "particle", icon: "character.ja", color: Theme.amber)
+            } else {
+                chip(label: "\(item.level) · Fill in the blank", icon: "star.fill", color: Theme.brand)
             }
 
             SelectableText(
                 text: blankedSentence,
-                fontSize: scaled(26),
+                fontSize: scaled(24),
                 fontWeight: .bold,
-                textColor: .label,
-                textAlignment: .center
+                textColor: Theme.inkUIColor,
+                textAlignment: .left
             )
-            .padding(.horizontal)
 
             SelectableText(
                 text: item.translation,
-                fontSize: scaled(17),
+                fontSize: scaled(16),
                 fontWeight: .regular,
-                textColor: .secondaryLabel,
-                textAlignment: .center
+                textColor: Theme.inkMutedUIColor,
+                textAlignment: .left
             )
-            .padding(.horizontal)
         }
-
-        Spacer(minLength: 30)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .padding(20)
+        .tactileCard()
+        .padding(.horizontal)
+        .padding(.top, 8)
 
         // Answer buttons (2x2 grid)
-        GlassEffectContainer(spacing: 12) {
-            LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 12) {
-                ForEach(shuffledChoices, id: \.self) { choice in
-                    Button {
-                        guard selectedAnswer == nil else { return }
-                        handleAnswer(choice, for: item)
-                    } label: {
-                        Text(choice)
-                            .font(.system(size: scaled(17)))
-                            .frame(maxWidth: .infinity)
-                            .padding(.vertical, 14)
-                            .foregroundStyle(buttonForeground(for: choice))
-                            .contentShape(Rectangle())
-                            .glassEffect(buttonGlass(for: choice), in: .rect(cornerRadius: 14))
-                    }
-                    .buttonStyle(.plain)
-                    .disabled(selectedAnswer != nil)
-                    .animation(.easeInOut(duration: 0.2), value: selectedAnswer)
+        LazyVGrid(columns: [GridItem(.flexible(), spacing: 10), GridItem(.flexible())], spacing: 12) {
+            ForEach(shuffledChoices, id: \.self) { choice in
+                Button {
+                    guard selectedAnswer == nil else { return }
+                    handleAnswer(choice, for: item)
+                } label: {
+                    Text(choice)
+                        .font(.system(size: scaled(18), weight: .semibold))
+                        .strikethrough(answerState(for: choice) == .wrong, color: Theme.incorrect)
                 }
+                .buttonStyle(AnswerTileButtonStyle(state: answerState(for: choice)))
+                .disabled(selectedAnswer != nil)
+                .animation(.easeInOut(duration: 0.2), value: selectedAnswer)
             }
         }
         .padding(.horizontal)
 
         // Significant-vocab chips — tap for reading + meaning
         if !item.vocab.isEmpty {
-            VStack(alignment: .leading, spacing: 6) {
-                Text("VOCAB")
-                    .font(.system(size: scaled(12), weight: .semibold))
+            VStack(alignment: .leading, spacing: 8) {
+                Text("SENTENCE VOCABULARY")
+                    .font(.system(size: scaled(11), weight: .bold))
                     .tracking(1.0)
-                    .foregroundColor(Color.secondary.opacity(0.7))
+                    .foregroundStyle(Theme.inkMuted)
                 ChipFlowLayout(spacing: 8) {
                     ForEach(item.vocab, id: \.self) { vocabItem in
                         VocabChip(item: vocabItem, fontSize: scaled(19))
@@ -336,25 +339,54 @@ struct ExerciseView: View {
                    selected != item.blankTarget,
                    let idx = item.wrongChoices.firstIndex(of: selected),
                    idx < item.wrongChoiceExplanations.count {
-                    Text(item.wrongChoiceExplanations[idx])
-                        .font(.system(size: scaled(15)))
-                        .foregroundColor(.red.opacity(0.8))
-                        .padding(.bottom, 4)
+                    VStack(alignment: .leading, spacing: 6) {
+                        HStack(spacing: 8) {
+                            Text("NUANCE")
+                                .font(.system(size: scaled(10), weight: .bold))
+                                .tracking(0.8)
+                                .foregroundStyle(Theme.amber)
+                                .padding(.horizontal, 6)
+                                .padding(.vertical, 2)
+                                .background(
+                                    RoundedRectangle(cornerRadius: 5, style: .continuous)
+                                        .fill(Theme.amberTint)
+                                )
+                                .overlay(
+                                    RoundedRectangle(cornerRadius: 5, style: .continuous)
+                                        .strokeBorder(Theme.amberBorder, lineWidth: 1)
+                                )
+                            (Text(item.blankTarget).foregroundStyle(Theme.correct)
+                             + Text("  vs  ").foregroundStyle(Theme.inkMuted)
+                             + Text(selected).foregroundStyle(Theme.incorrect))
+                                .font(.system(size: scaled(14), weight: .bold))
+                        }
+                        Text(item.wrongChoiceExplanations[idx])
+                            .font(.system(size: scaled(15)))
+                            .foregroundStyle(Theme.ink)
+                    }
+                    .padding(12)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .background(
+                        RoundedRectangle(cornerRadius: 14, style: .continuous)
+                            .fill(Theme.slateTint)
+                    )
+                    .padding(.bottom, 4)
                 }
 
                 Text(item.pattern)
                     .font(.system(size: scaled(19), weight: .bold))
+                    .foregroundStyle(Theme.ink)
 
                 Text(item.meaning)
                     .font(.system(size: scaled(16)))
-                    .foregroundColor(.secondary)
+                    .foregroundStyle(Theme.inkMuted)
 
                 // Inline speaker icon after the 。 reads the sentence aloud.
                 SelectableText(
                     text: filledSentence,
                     fontSize: scaled(17),
                     fontWeight: .regular,
-                    textColor: .label,
+                    textColor: Theme.inkUIColor,
                     textAlignment: .left,
                     rubyBase: targetRuby?.base,
                     rubyReading: targetRuby?.reading,
@@ -365,12 +397,13 @@ struct ExerciseView: View {
                     text: item.translation,
                     fontSize: scaled(15),
                     fontWeight: .regular,
-                    textColor: .secondaryLabel,
+                    textColor: Theme.inkMutedUIColor,
                     textAlignment: .left
                 )
             }
-            .padding()
-            .glassEffect(.regular, in: .rect(cornerRadius: 20))
+            .padding(16)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .tactileCard(cornerRadius: 20)
             .padding(.horizontal)
             .transition(.move(edge: .bottom))
             .id("explanation")
@@ -590,32 +623,15 @@ struct ExerciseView: View {
 
     // MARK: - Button Styling
 
-    /// Glass variant per answer state: neutral interactive glass before answering,
-    /// green-tinted for the correct answer and red-tinted for a wrong selection after.
-    private func buttonGlass(for choice: String) -> Glass {
+    /// Visual state of an answer tile: neutral before answering; afterwards the
+    /// correct answer turns green and a wrong selection turns rose.
+    private func answerState(for choice: String) -> AnswerTileButtonStyle.State {
         guard let selected = selectedAnswer, let item = currentItem else {
-            return .regular.interactive()
+            return .neutral
         }
-        if choice == item.blankTarget {
-            return .regular.tint(.green.opacity(0.45))
-        }
-        if choice == selected && selected != item.blankTarget {
-            return .regular.tint(.red.opacity(0.45))
-        }
-        return .regular
-    }
-
-    private func buttonForeground(for choice: String) -> Color {
-        guard let selected = selectedAnswer, let item = currentItem else {
-            return Color.primary
-        }
-        if choice == item.blankTarget {
-            return Color.green
-        }
-        if choice == selected && selected != item.blankTarget {
-            return Color.red
-        }
-        return Color.primary
+        if choice == item.blankTarget { return .correct }
+        if choice == selected { return .wrong }
+        return .dimmed
     }
 
     // MARK: - Study date & SRS
@@ -729,7 +745,7 @@ private struct PatternIntroCard: View {
             if let lower, let upper { highlight = lower..<upper }
         }
         if let range = highlight {
-            attributed[range].foregroundColor = .accentColor
+            attributed[range].foregroundColor = Theme.brand
             attributed[range].font = .system(size: scaled(18), weight: .bold)
         }
         return attributed
@@ -745,52 +761,52 @@ private struct PatternIntroCard: View {
                         .font(.system(size: scaled(11), weight: .semibold))
                         .tracking(1.0)
                 }
-                .foregroundColor(.accentColor)
+                .foregroundStyle(Theme.brand)
                 .padding(.horizontal, 10)
                 .padding(.vertical, 4)
-                .background(Color.accentColor.opacity(0.12))
-                .clipShape(Capsule())
+                .background(Capsule().fill(Theme.brandTint))
+                .overlay(Capsule().strokeBorder(Theme.brandBorder, lineWidth: 1))
 
                 Text(item.pattern)
                     .font(.system(size: scaled(30), weight: .bold))
+                    .foregroundStyle(Theme.ink)
                     .multilineTextAlignment(.center)
 
                 Text(item.meaning)
                     .font(.system(size: scaled(17)))
-                    .foregroundColor(.secondary)
+                    .foregroundStyle(Theme.inkMuted)
                     .multilineTextAlignment(.center)
             }
             .padding(.horizontal)
 
             VStack(alignment: .leading, spacing: 14) {
                 Text("HOW IT'S USED")
-                    .font(.system(size: scaled(10), weight: .semibold))
+                    .font(.system(size: scaled(11), weight: .bold))
                     .tracking(1.0)
-                    .foregroundColor(Color.secondary.opacity(0.7))
+                    .foregroundStyle(Theme.inkMuted)
 
                 ForEach(examples, id: \.id) { example in
                     VStack(alignment: .leading, spacing: 4) {
                         Text(highlightedSentence(for: example))
                             .font(.system(size: scaled(18)))
+                            .foregroundStyle(Theme.ink)
 
                         Text(example.translation)
                             .font(.system(size: scaled(14)))
-                            .foregroundColor(.secondary)
+                            .foregroundStyle(Theme.inkMuted)
                     }
                 }
             }
             .frame(maxWidth: .infinity, alignment: .leading)
-            .padding()
-            .glassEffect(.regular, in: .rect(cornerRadius: 20))
+            .padding(16)
+            .tactileCard(cornerRadius: 20)
             .padding(.horizontal)
 
             Button(action: onContinue) {
                 Text("Got It — Start Practicing")
-                    .font(.system(size: scaled(17), weight: .semibold))
-                    .frame(maxWidth: .infinity)
-                    .padding(.vertical, 8)
+                    .font(.system(size: scaled(17), weight: .bold))
             }
-            .buttonStyle(.glassProminent)
+            .buttonStyle(TactilePrimaryButtonStyle())
             .padding(.horizontal)
         }
     }
@@ -818,10 +834,12 @@ private struct SessionSummaryCard: View {
         HStack {
             Text(label)
                 .font(.system(size: scaled(15)))
+                .foregroundStyle(Theme.ink)
             Spacer()
             Text(value)
-                .font(.system(size: scaled(15), weight: .medium))
-                .foregroundColor(.secondary)
+                .font(.system(size: scaled(15), weight: .semibold))
+                .monospacedDigit()
+                .foregroundStyle(Theme.inkMuted)
         }
     }
 
@@ -830,9 +848,10 @@ private struct SessionSummaryCard: View {
             VStack(spacing: 8) {
                 Image(systemName: "checkmark.seal.fill")
                     .font(.system(size: scaled(44)))
-                    .foregroundStyle(.green)
+                    .foregroundStyle(Theme.correctBorder)
                 Text("Session Complete")
                     .font(.system(size: scaled(26), weight: .bold))
+                    .foregroundStyle(Theme.ink)
             }
 
             VStack(spacing: 10) {
@@ -842,41 +861,37 @@ private struct SessionSummaryCard: View {
                     statRow("First-try accuracy", value: accuracy.formatted(.percent.precision(.fractionLength(0))))
                 }
             }
-            .padding()
-            .glassEffect(.regular, in: .rect(cornerRadius: 20))
+            .padding(16)
+            .tactileCard(cornerRadius: 20)
             .padding(.horizontal)
 
-            VStack(spacing: 10) {
+            VStack(spacing: 12) {
                 if canKeepReviewing && remainingDue > 0 {
                     Text(remainingDue == 1
                          ? "1 more pattern is due for review."
                          : "\(remainingDue) more patterns are due for review.")
                         .font(.system(size: scaled(14)))
-                        .foregroundColor(.secondary)
+                        .foregroundStyle(Theme.inkMuted)
 
                     Button(action: onKeepReviewing) {
                         Text("Keep Reviewing")
-                            .font(.system(size: scaled(17), weight: .semibold))
-                            .frame(maxWidth: .infinity)
-                            .padding(.vertical, 8)
+                            .font(.system(size: scaled(17), weight: .bold))
                     }
-                    .buttonStyle(.glassProminent)
+                    .buttonStyle(TactilePrimaryButtonStyle())
 
                     Button(action: onDone) {
                         Text("Done")
                             .font(.system(size: scaled(17), weight: .semibold))
-                            .frame(maxWidth: .infinity)
-                            .padding(.vertical, 8)
+                            .foregroundStyle(Theme.ink)
+                            .frame(maxWidth: .infinity, minHeight: 52)
                     }
-                    .buttonStyle(.glass)
+                    .buttonStyle(TactileCardButtonStyle(cornerRadius: 16))
                 } else {
                     Button(action: onDone) {
                         Text("Done")
-                            .font(.system(size: scaled(17), weight: .semibold))
-                            .frame(maxWidth: .infinity)
-                            .padding(.vertical, 8)
+                            .font(.system(size: scaled(17), weight: .bold))
                     }
-                    .buttonStyle(.glassProminent)
+                    .buttonStyle(TactilePrimaryButtonStyle())
                 }
             }
             .padding(.horizontal)
@@ -936,7 +951,7 @@ private struct SessionProgressBar: View {
         ZStack(alignment: .leading) {
             // Background track
             RoundedRectangle(cornerRadius: height / 2)
-                .fill(Color(.systemGray5))
+                .fill(Theme.hairline)
                 .frame(width: width, height: height)
 
             // Filled portion
@@ -953,13 +968,13 @@ private struct SessionProgressBar: View {
     /// Patterns with no mistakes: always green.
     /// Patterns after a mistake: red (0) → orange (1) → yellow (2) → green (3/completed).
     private func segmentColor(streak: Int, isCompleted: Bool, hasFailed: Bool) -> Color {
-        if isCompleted { return .green }
-        if !hasFailed { return .green }
+        if isCompleted { return Theme.correctBorder }
+        if !hasFailed { return Theme.correctBorder }
         switch streak {
-        case 0: return .red
-        case 1: return .orange
-        case 2: return .yellow
-        default: return .green
+        case 0: return Theme.incorrectBorder
+        case 1: return Theme.amber
+        case 2: return Color(light: 0xFBBF24, dark: 0xFCD34D)
+        default: return Theme.correctBorder
         }
     }
 }
@@ -977,21 +992,23 @@ private struct VocabChip: View {
             showingDetail = true
         } label: {
             Text(item.word)
-                .font(.system(size: fontSize))
-                .foregroundColor(.primary)
-                .padding(.horizontal, 10)
-                .padding(.vertical, 5)
-                .background(Color(.secondarySystemBackground))
-                .clipShape(Capsule())
+                .font(.system(size: fontSize, weight: .semibold))
+                .foregroundStyle(Theme.ink)
+                .padding(.horizontal, 12)
+                .padding(.vertical, 6)
+                .background(
+                    RoundedRectangle(cornerRadius: 12, style: .continuous).fill(Theme.card)
+                )
                 .overlay(
-                    Capsule().stroke(Color.secondary.opacity(0.25), lineWidth: 1)
+                    RoundedRectangle(cornerRadius: 12, style: .continuous)
+                        .strokeBorder(Theme.hairline, lineWidth: 1)
                 )
         }
         .popover(isPresented: $showingDetail, arrowEdge: .bottom) {
             VStack(spacing: 4) {
                 Text(item.reading)
                     .font(.system(size: fontSize - 2))
-                    .foregroundColor(.secondary)
+                    .foregroundStyle(Theme.inkMuted)
                 Text(item.word)
                     .font(.system(size: fontSize + 5, weight: .semibold))
                 Text(item.meaning)

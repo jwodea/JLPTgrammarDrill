@@ -43,19 +43,19 @@ struct PaywallView: View {
                     if let errorMessage {
                         Text(errorMessage)
                             .font(.system(size: scaled(13)))
-                            .foregroundColor(.red)
+                            .foregroundStyle(Theme.incorrect)
                             .multilineTextAlignment(.center)
                             .padding(.horizontal)
                     }
                     Text("One-time purchase. No subscription. Works across all your iPhones and iPads signed in with the same Apple ID.")
                         .font(.system(size: scaled(12)))
-                        .foregroundColor(.secondary)
+                        .foregroundStyle(Theme.inkMuted)
                         .multilineTextAlignment(.center)
                         .padding(.horizontal)
                 }
                 .padding(.vertical, 24)
             }
-            .background(GlassBackdrop().ignoresSafeArea())
+            .background(TactileBackdrop().ignoresSafeArea())
             .navigationTitle("Unlock Full Version")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
@@ -73,15 +73,21 @@ struct PaywallView: View {
         VStack(spacing: 10) {
             Image(systemName: "lock.open.fill")
                 .font(.system(size: scaled(44), weight: .semibold))
-                .foregroundStyle(
-                    LinearGradient(colors: [.accentColor, .purple],
-                                   startPoint: .leading, endPoint: .trailing)
+                .foregroundStyle(Theme.brand)
+                .frame(width: 80, height: 80)
+                .background(
+                    RoundedRectangle(cornerRadius: 22, style: .continuous).fill(Theme.brandTint)
+                )
+                .overlay(
+                    RoundedRectangle(cornerRadius: 22, style: .continuous)
+                        .strokeBorder(Theme.brandBorder, lineWidth: 1)
                 )
             Text("Full Version")
-                .font(.system(size: scaled(28), weight: .heavy, design: .rounded))
+                .font(.system(size: scaled(28), weight: .heavy))
+                .foregroundStyle(Theme.ink)
             Text("Every JLPT level. Every drill. Forever.")
                 .font(.system(size: scaled(14)))
-                .foregroundColor(.secondary)
+                .foregroundStyle(Theme.inkMuted)
                 .multilineTextAlignment(.center)
         }
         .padding(.horizontal)
@@ -91,25 +97,25 @@ struct PaywallView: View {
         VStack(alignment: .leading, spacing: 14) {
             featureRow(
                 icon: "text.book.closed.fill",
-                color: .blue,
+                color: Theme.brand,
                 title: "All grammar patterns",
                 detail: "Hundreds of patterns across N5 through N1, fully drillable with FSRS scheduling."
             )
             featureRow(
                 icon: "mic.fill",
-                color: .pink,
+                color: Theme.incorrect,
                 title: "All audio sentences",
                 detail: "Every audio-eligible sentence for shadowing and speaking practice."
             )
             featureRow(
                 icon: "character.ja",
-                color: .orange,
+                color: Theme.amber,
                 title: "Particles always included",
                 detail: "Particle Practice is free for everyone."
             )
         }
         .padding(16)
-        .glassEffect(.regular, in: .rect(cornerRadius: 20))
+        .tactileCard(cornerRadius: 20)
         .padding(.horizontal)
     }
 
@@ -122,9 +128,10 @@ struct PaywallView: View {
             VStack(alignment: .leading, spacing: 3) {
                 Text(title)
                     .font(.system(size: scaled(15), weight: .semibold))
+                    .foregroundStyle(Theme.ink)
                 Text(detail)
                     .font(.system(size: scaled(13)))
-                    .foregroundColor(.secondary)
+                    .foregroundStyle(Theme.inkMuted)
                     .fixedSize(horizontal: false, vertical: true)
             }
         }
@@ -148,10 +155,8 @@ struct PaywallView: View {
                     Text(buyButtonTitle)
                         .font(.system(size: scaled(17), weight: .semibold))
                 }
-                .frame(maxWidth: .infinity)
-                .padding(.vertical, 8)
             }
-            .buttonStyle(.glassProminent)
+            .buttonStyle(TactilePrimaryButtonStyle())
             .disabled(isBusy || store.product == nil)
 
             Button {
@@ -165,11 +170,8 @@ struct PaywallView: View {
                     Text("Restore Purchase")
                         .font(.system(size: scaled(15), weight: .medium))
                 }
-                .foregroundStyle(Color.accentColor)
-                .frame(maxWidth: .infinity)
-                .padding(.vertical, 8)
             }
-            .buttonStyle(.glass)
+            .buttonStyle(TactileSecondaryButtonStyle())
             .disabled(isBusy)
         }
         .padding(.horizontal)

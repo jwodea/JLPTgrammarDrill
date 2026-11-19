@@ -49,7 +49,7 @@ struct ParticlePracticeView: View {
 
     var body: some View {
         ZStack {
-            GlassBackdrop().ignoresSafeArea()
+            TactileBackdrop().ignoresSafeArea()
 
             if isLoading {
                 ProgressView("Loading particles…")
@@ -60,60 +60,46 @@ struct ParticlePracticeView: View {
                             // Header — visually matches the Grammar Drill / Audio Drill home headers.
                             VStack(spacing: 6) {
                                 Text("Particle Practice")
-                                    .font(.system(size: scaled(36), weight: .heavy, design: .rounded))
-                                    .foregroundStyle(
-                                        LinearGradient(
-                                            colors: [.orange, .orange.opacity(0.7)],
-                                            startPoint: .leading,
-                                            endPoint: .trailing
-                                        )
-                                    )
+                                    .font(.system(size: scaled(34), weight: .heavy))
+                                    .tracking(-0.8)
+                                    .foregroundStyle(Theme.ink)
                                 Text("Choose the right particle")
-                                    .font(.system(size: scaled(13)))
-                                    .foregroundColor(.secondary)
+                                    .font(.system(size: scaled(13), weight: .medium))
+                                    .foregroundStyle(Theme.inkMuted)
                             }
                             .padding(.top, 12)
 
-                            Spacer(minLength: 20)
-
-                            // Question
-                            VStack(spacing: 12) {
+                            // Question card
+                            VStack(alignment: .leading, spacing: 12) {
                                 Text(blankedSentence)
-                                    .font(.system(size: scaled(26), weight: .bold))
-                                    .multilineTextAlignment(.center)
-                                    .padding(.horizontal)
+                                    .font(.system(size: scaled(24), weight: .bold))
+                                    .foregroundStyle(Theme.ink)
 
                                 if !item.translation.isEmpty {
                                     Text(item.translation)
-                                        .font(.system(size: scaled(17)))
-                                        .foregroundColor(.secondary)
-                                        .multilineTextAlignment(.center)
-                                        .padding(.horizontal)
+                                        .font(.system(size: scaled(16)))
+                                        .foregroundStyle(Theme.inkMuted)
                                 }
                             }
-
-                            Spacer(minLength: 30)
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .padding(20)
+                            .tactileCard()
+                            .padding(.horizontal)
 
                             // Answer buttons (2x2 grid)
-                            GlassEffectContainer(spacing: 12) {
-                                LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 12) {
-                                    ForEach(shuffledChoices, id: \.self) { choice in
-                                        Button {
-                                            guard selectedAnswer == nil else { return }
-                                            handleAnswer(choice)
-                                        } label: {
-                                            Text(choice)
-                                                .font(.system(size: scaled(22), weight: .medium))
-                                                .frame(maxWidth: .infinity)
-                                                .padding(.vertical, 18)
-                                                .foregroundStyle(buttonForeground(for: choice))
-                                                .contentShape(Rectangle())
-                                                .glassEffect(buttonGlass(for: choice), in: .rect(cornerRadius: 14))
-                                        }
-                                        .buttonStyle(.plain)
-                                        .disabled(selectedAnswer != nil)
-                                        .animation(.easeInOut(duration: 0.2), value: selectedAnswer)
+                            LazyVGrid(columns: [GridItem(.flexible(), spacing: 10), GridItem(.flexible())], spacing: 12) {
+                                ForEach(shuffledChoices, id: \.self) { choice in
+                                    Button {
+                                        guard selectedAnswer == nil else { return }
+                                        handleAnswer(choice)
+                                    } label: {
+                                        Text(choice)
+                                            .font(.system(size: scaled(22), weight: .semibold))
+                                            .strikethrough(answerState(for: choice) == .wrong, color: Theme.incorrect)
                                     }
+                                    .buttonStyle(AnswerTileButtonStyle(state: answerState(for: choice)))
+                                    .disabled(selectedAnswer != nil)
+                                    .animation(.easeInOut(duration: 0.2), value: selectedAnswer)
                                 }
                             }
                             .padding(.horizontal)
@@ -127,39 +113,49 @@ struct ParticlePracticeView: View {
                                        let explanation = item.wrongChoiceExplanations[selected] {
                                         Text(explanation)
                                             .font(.system(size: scaled(15)))
-                                            .foregroundColor(.red.opacity(0.8))
+                                            .foregroundStyle(Theme.ink)
+                                            .padding(12)
+                                            .frame(maxWidth: .infinity, alignment: .leading)
+                                            .background(
+                                                RoundedRectangle(cornerRadius: 14, style: .continuous)
+                                                    .fill(Theme.incorrectTint)
+                                            )
                                             .padding(.bottom, 4)
                                     }
 
                                     Text(item.particle)
                                         .font(.system(size: scaled(19), weight: .bold))
+                                        .foregroundStyle(Theme.ink)
 
                                     Text(item.explanation)
                                         .font(.system(size: scaled(16)))
-                                        .foregroundColor(.secondary)
+                                        .foregroundStyle(Theme.inkMuted)
 
                                     Text(filledSentence)
                                         .font(.system(size: scaled(17)))
+                                        .foregroundStyle(Theme.ink)
 
                                     if !item.translation.isEmpty {
                                         Text(item.translation)
                                             .font(.system(size: scaled(15)))
-                                            .foregroundColor(.secondary)
+                                            .foregroundStyle(Theme.inkMuted)
                                     }
 
                                     Button {
                                         advanceToNext()
                                     } label: {
-                                        Text("Next")
-                                            .font(.system(size: scaled(17), weight: .semibold))
-                                            .frame(maxWidth: .infinity)
-                                            .padding(.vertical, 8)
+                                        HStack(spacing: 8) {
+                                            Text("Next")
+                                            Image(systemName: "arrow.right")
+                                        }
+                                        .font(.system(size: scaled(17), weight: .bold))
                                     }
-                                    .buttonStyle(.glassProminent)
+                                    .buttonStyle(TactilePrimaryButtonStyle())
                                     .padding(.top, 4)
                                 }
-                                .padding()
-                                .glassEffect(.regular, in: .rect(cornerRadius: 20))
+                                .padding(16)
+                                .frame(maxWidth: .infinity, alignment: .leading)
+                                .tactileCard(cornerRadius: 20)
                                 .padding(.horizontal)
                                 .transition(.move(edge: .bottom))
                                 .id("explanation")
@@ -303,32 +299,15 @@ struct ParticlePracticeView: View {
 
     // MARK: - Button Styling
 
-    /// Glass variant per answer state: neutral interactive glass before answering,
-    /// green-tinted for the correct answer and red-tinted for a wrong selection after.
-    private func buttonGlass(for choice: String) -> Glass {
+    /// Visual state of an answer tile: neutral before answering; afterwards the
+    /// correct answer turns green and a wrong selection turns rose.
+    private func answerState(for choice: String) -> AnswerTileButtonStyle.State {
         guard let selected = selectedAnswer, let item = currentExercise else {
-            return .regular.interactive()
+            return .neutral
         }
-        if choice == item.blankTarget {
-            return .regular.tint(.green.opacity(0.45))
-        }
-        if choice == selected && selected != item.blankTarget {
-            return .regular.tint(.red.opacity(0.45))
-        }
-        return .regular
-    }
-
-    private func buttonForeground(for choice: String) -> Color {
-        guard let selected = selectedAnswer, let item = currentExercise else {
-            return Color.primary
-        }
-        if choice == item.blankTarget {
-            return Color.green
-        }
-        if choice == selected && selected != item.blankTarget {
-            return Color.red
-        }
-        return Color.primary
+        if choice == item.blankTarget { return .correct }
+        if choice == selected { return .wrong }
+        return .dimmed
     }
 
     // MARK: - Haptics
