@@ -2,20 +2,25 @@ import SwiftUI
 
 // MARK: - Tactile Study Theme
 
-/// Design tokens for the "Alexandria Tactile Study" redesign: a flat slate
-/// canvas, white cards with hairline borders, and a pressable bottom "lip".
-/// Every color has a dark-mode variant.
+/// Design tokens for the "Alexandria Tactile Study" redesign: a soft
+/// blue→lavender canvas, lightly tinted cards with hairline borders, and a
+/// pressable bottom "lip". Every color has a dark-mode variant.
 enum Theme {
     // Surfaces
-    static let canvas = Color(light: 0xF8FAFC, dark: 0x0B1120)
-    static let card = Color(light: 0xFFFFFF, dark: 0x172033)
-    static let hairline = Color(light: 0xE2E8F0, dark: 0x2A3650)
+    /// Top and bottom stops of the backdrop gradient.
+    static let canvasTop = Color(light: 0xDDE8FC, dark: 0x0E1A38)
+    static let canvasBottom = Color(light: 0xEBE3FA, dark: 0x1C1538)
+    /// Solid stand-in for the backdrop (e.g. bars pinned to the bottom edge).
+    static let canvas = canvasBottom
+    static let card = Color(light: 0xFCFBFF, dark: 0x1C2742)
+    static let hairline = Color(light: 0xD8DFF0, dark: 0x2E3A58)
     /// The 2pt "lip" under tactile cards and buttons.
-    static let lip = Color(light: 0xCBD5E1, dark: 0x050914)
+    static let lip = Color(light: 0xBFC9E3, dark: 0x070B1A)
 
     // Text
     static let ink = Color(light: 0x0F172A, dark: 0xF1F5F9)
-    static let inkMuted = Color(light: 0x64748B, dark: 0x94A3B8)
+    /// Slightly darker than slate-500 so it stays legible on the tinted canvas.
+    static let inkMuted = Color(light: 0x556378, dark: 0x9AA8BF)
 
     // Brand blue. `brand` is for text and icons; `brandFill` is a solid
     // button background that keeps white text legible in both modes.
@@ -43,7 +48,7 @@ enum Theme {
 
     // UIKit variants for text drawn by UIKit views (e.g. selectable sentences).
     static let inkUIColor = UIColor(light: 0x0F172A, dark: 0xF1F5F9)
-    static let inkMutedUIColor = UIColor(light: 0x64748B, dark: 0x94A3B8)
+    static let inkMutedUIColor = UIColor(light: 0x556378, dark: 0x9AA8BF)
 }
 
 extension Color {
@@ -83,10 +88,14 @@ extension View {
     }
 }
 
-/// Flat slate canvas shared by every screen.
+/// Soft blue→lavender gradient canvas shared by every screen.
 struct TactileBackdrop: View {
     var body: some View {
-        Theme.canvas
+        LinearGradient(
+            colors: [Theme.canvasTop, Theme.canvasBottom],
+            startPoint: .topLeading,
+            endPoint: .bottomTrailing
+        )
     }
 }
 
