@@ -1,6 +1,7 @@
 import SwiftUI
 import SwiftData
 import AVFoundation
+import UniformTypeIdentifiers
 
 struct SettingsView: View {
     static let enabledLevelsKey = "enabledJLPTLevels"
@@ -19,6 +20,15 @@ struct SettingsView: View {
     @State private var showPaywall = false
     @State private var japaneseVoices: [AVSpeechSynthesisVoice] = []
     @State private var previewSpeaker = JapaneseSpeaker()
+
+    // Backup / restore
+    @State private var exportDocument: ProgressBackupDocument?
+    @State private var showExporter = false
+    @State private var showImporter = false
+    @State private var pendingImport: ProgressBackup.Payload?
+    @State private var backupMessage: String?
+    @State private var snapshotDate: Date?
+    @State private var showUndoConfirmation = false
 
     private func voiceLabel(_ voice: AVSpeechSynthesisVoice) -> String {
         // iOS bakes the quality into voice.name on newer versions (e.g. "Otoya (Enhanced)").
@@ -252,6 +262,38 @@ struct SettingsView: View {
                 }
 
                 Section {
+                    Button {
+                        prepareExport()
+                    } label: {
+                        Label("Export Progress", systemImage: "square.and.arrow.up")
+                            .font(.system(size: 15))
+                    }
+                    Button {
+                        showImporter = true
+                    } label: {
+                        Label("Import Progress", systemImage: "square.and.arrow.down")
+                            .font(.system(size: 15))
+                    }
+                    if let snapshotDate {
+                        Button {
+                            showUndoConfirmation = true
+                        } label: {
+                            VStack(alignment: .leading, spacing: 2) {
+                                Label("Undo Last Import", systemImage: "arrow.uturn.backward")
+                                    .font(.system(size: 15))
+                                Text("Restores progress from before the import on \(snapshotDate.formatted(date: .abbreviated, time: .shortened)). Available for 24 hours.")
+                                    .font(.system(size: 12))
+                                    .foregroundStyle(Theme.inkMuted)
+                            }
+                        }
+                    }
+                } header: {
+                    Text("Backup")
+                } footer: {
+                    Text("Progress is stored only on this device and is erased if the app is deleted. Export a backup to Files or iCloud Drive to keep it safe. Importing replaces all current progress.")
+                }
+
+                Section {
                     Button(role: .destructive) {
                         showResetConfirmation = true
                     } label: {
@@ -287,10 +329,108 @@ struct SettingsView: View {
             .sheet(isPresented: $showPaywall) {
                 PaywallView()
             }
+            .fileExporter(
+                isPresented: $showExporter,
+                document: exportDocument,
+                contentType: .json,
+                defaultFilename: ProgressBackup.defaultFilename()
+            ) { result in
+                switch result {
+                case .success:
+                    backupMessage = "Progress exported."
+                case .failure(let error):
+                    backupMessage = "Export failed: \(error.localizedDescription)"
+                }
+                exportDocument = nil
+            }
+            .fileImporter(isPresented: $showImporter, allowedContentTypes: [.json]) { result in
+                handleImportSelection(result)
+            }
+            .alert(
+                "Replace Current Progress?",
+                isPresented: Binding(
+                    get: { pendingImport != nil },
+                    set: { if !$0 { pendingImport = nil } }
+                ),
+                presenting: pendingImport
+            ) { payload in
+                Button("Cancel", role: .cancel) {}
+                Button("Import", role: .destructive) {
+                    performImport(payload)
+                }
+            } message: { payload in
+                Text("This backup has \(payload.srsRecords.count) grammar records, \(payload.audioCards.count) audio cards and \(payload.studyLogs.count) days of history. All progress currently on this device will be replaced.")
+            }
+            .alert("Undo Last Import?", isPresented: $showUndoConfirmation) {
+                Button("Cancel", role: .cancel) {}
+                Button("Undo Import", role: .destructive) {
+                    performUndoImport()
+                }
+            } message: {
+                Text("Your progress will be returned to how it was just before the import. Anything studied since then will be lost.")
+            }
+            .alert(
+                backupMessage ?? "",
+                isPresented: Binding(
+                    get: { backupMessage != nil },
+                    set: { if !$0 { backupMessage = nil } }
+                )
+            ) {
+                Button("OK", role: .cancel) {}
+            }
             .onAppear {
+                snapshotDate = ProgressBackup.snapshotDate()
                 japaneseVoices = JapaneseSpeaker.availableJapaneseVoices()
             }
         }
+    }
+
+    private func prepareExport() {
+        do {
+            exportDocument = ProgressBackupDocument(data: try ProgressBackup.exportData(context: modelContext))
+            showExporter = true
+        } catch {
+            backupMessage = "Export failed: \(error.localizedDescription)"
+        }
+    }
+
+    /// Reads and validates the chosen file, then asks for confirmation before
+    /// anything in the store is touched.
+    private func handleImportSelection(_ result: Result<URL, Error>) {
+        do {
+            let url = try result.get()
+            // Files picked outside the sandbox need security-scoped access.
+            let scoped = url.startAccessingSecurityScopedResource()
+            defer { if scoped { url.stopAccessingSecurityScopedResource() } }
+            let data = try Data(contentsOf: url)
+            pendingImport = try ProgressBackup.decode(data)
+        } catch let error as ProgressBackup.BackupError {
+            backupMessage = error.localizedDescription
+        } catch is DecodingError {
+            backupMessage = "That file isn't a valid progress backup."
+        } catch {
+            backupMessage = "Import failed: \(error.localizedDescription)"
+        }
+    }
+
+    private func performImport(_ payload: ProgressBackup.Payload) {
+        do {
+            try ProgressBackup.importReplacingCurrent(payload, context: modelContext)
+            backupMessage = "Progress imported. You can undo this from Settings for the next 24 hours."
+        } catch {
+            backupMessage = "Import failed: \(error.localizedDescription). Your previous progress was kept."
+        }
+        snapshotDate = ProgressBackup.snapshotDate()
+    }
+
+    private func performUndoImport() {
+        do {
+            try ProgressBackup.undoLastImport(context: modelContext)
+            backupMessage = "Import undone. Your previous progress has been restored."
+        } catch {
+            backupMessage = "Undo failed: \(error.localizedDescription)"
+        }
+        snapshotDate = ProgressBackup.snapshotDate()
     }
 
     private func resetProgress() {
