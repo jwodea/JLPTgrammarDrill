@@ -9,6 +9,7 @@ struct HomeView: View {
     @AppStorage(SessionBuilder.defaultNewCountKey) private var defaultNewCount = SessionBuilder.defaultNewCount
     @AppStorage(SettingsView.enabledLevelsKey) private var enabledLevelsString = SettingsView.defaultEnabledLevels
     @AppStorage(SettingsView.combinedDrillsKey) private var combinedDrills = false
+    @AppStorage(DailyPlanner.dailyGoalKey) private var dailyGoal = DailyPlanner.defaultDailyGoal
     @State private var showPaywall = false
 
     @State private var grammarPoints: [GrammarPoint] = []
@@ -21,6 +22,18 @@ struct HomeView: View {
     @State private var isLoading = false
     @State private var showAllCaughtUp = false
     @State private var navigateToExercise = false
+    @State private var activeKind: SessionKind = .today
+
+    /// What a session is for; decides its size and what "Keep Going" continues with.
+    private enum SessionKind {
+        /// Due reviews plus a chunk of today's planned new patterns.
+        case today
+        case reviewOnly
+        /// New patterns beyond today's plan, at the learner's request.
+        case extraNew
+        /// Nothing due: practice the patterns most likely to be slipping.
+        case strengthen
+    }
 
 
     private func scaled(_ base: CGFloat) -> CGFloat {
@@ -112,16 +125,65 @@ struct HomeView: View {
         return counts
     }
 
+    // MARK: - Daily Plan
+
+    /// Today's plan. Only meaningful once grammar data has loaded — computing it
+    /// earlier would cache an allowance based on no active patterns.
+    private var dailyPlan: DailyPlan? {
+        guard !grammarPoints.isEmpty else { return nil }
+        _ = dailyGoal // Re-plan when the goal changes in Settings.
+        return DailyPlanner.plan(
+            records: srsRecords,
+            activeIds: Set(activeGrammarPoints.map(\.id)),
+            context: modelContext
+        )
+    }
+
+    private var unseenCount: Int {
+        masteryCounts[.new] ?? 0
+    }
+
+    /// New patterns still to introduce today, limited to what's left unseen.
+    private var newLeftToday: Int {
+        min(dailyPlan?.newRemaining ?? 0, unseenCount)
+    }
+
+    /// New patterns for the next "Today's Session": today's remainder, in chunks
+    /// of the per-session size from Settings.
+    private var todayNewCount: Int {
+        min(newLeftToday, defaultNewCount)
+    }
+
+    private var hasWorkToday: Bool {
+        sessionStats.newCount + sessionStats.reviewCount > 0
+    }
+
+    private var canStrengthen: Bool {
+        SessionBuilder.canStrengthen(records: srsRecords, activeIds: Set(activeGrammarPoints.map(\.id)))
+    }
+
+    /// When the next review falls due, for the "done for today" card.
+    private var nextReviewText: String? {
+        let activeIds = Set(activeGrammarPoints.map(\.id))
+        let now = Date.now
+        guard let next = srsRecords
+            .filter({ activeIds.contains($0.grammarId) && $0.fsrsDue > now })
+            .map(\.fsrsDue)
+            .min() else { return nil }
+        return next.formatted(.relative(presentation: .named))
+    }
+
     // MARK: - Session Preview
 
     private var sessionStats: SessionStats {
         guard !grammarPoints.isEmpty else {
             return SessionStats(newCount: 0, reviewCount: 0, totalDue: 0)
         }
+        let newCount = todayNewCount
         let grammar = SessionBuilder.previewSession(
             allPoints: grammarPoints,
             context: modelContext,
-            newCount: defaultNewCount
+            newCount: newCount
         )
         guard combinedDrills, !particleExercises.isEmpty else {
             return grammar
@@ -133,7 +195,7 @@ struct HomeView: View {
         let particle = ParticleSessionBuilder.previewSession(
             allExercises: particleExercises,
             context: modelContext,
-            newCount: defaultNewCount
+            newCount: newCount
         )
         let grammarTotal = grammar.newCount + grammar.reviewCount
         let particleTotal = particle.newCount + particle.reviewCount
@@ -243,35 +305,11 @@ struct HomeView: View {
                     .padding(.top, 14)
                     .padding(.bottom, 10)
 
-                    VStack(alignment: .leading, spacing: 6) {
-                        if sessionStats.newCount > 0 {
-                            HStack(spacing: 4) {
-                                Text("\(sessionStats.newCount)")
-                                    .font(.system(size: scaled(16), weight: .bold))
-                                    .monospacedDigit()
-                                    .foregroundStyle(Theme.brand)
-                                Text("new")
-                                    .font(.system(size: scaled(15)))
-                                    .foregroundStyle(Theme.brand)
-                            }
-                        }
-
-                        HStack(spacing: 4) {
-                            Text("\(sessionStats.reviewCount)")
-                                .font(.system(size: scaled(16), weight: .bold))
-                                .monospacedDigit()
-                                .foregroundStyle(Theme.ink)
-                            Text("review")
-                                .font(.system(size: scaled(15)))
-                                .foregroundStyle(Theme.ink)
-                            if sessionStats.totalDue > 0 {
-                                Text("(of \(sessionStats.totalDue) due)")
-                                    .font(.system(size: scaled(13)))
-                                    .foregroundStyle(Theme.inkMuted)
-                            }
-                        }
+                    if hasWorkToday {
+                        todayWorkSummary
+                    } else {
+                        doneForTodaySummary
                     }
-                    .padding(.horizontal, 16)
 
                     HStack {
                         Spacer()
@@ -292,31 +330,10 @@ struct HomeView: View {
                         .padding()
                 }
 
-                VStack(spacing: 10) {
-                    Button {
-                        startSession(newCount: defaultNewCount)
-                    } label: {
-                        HStack(spacing: 8) {
-                            Text("New and Review")
-                            Image(systemName: "arrow.right")
-                        }
-                        .font(.system(size: scaled(18), weight: .bold))
-                    }
-                    .buttonStyle(TactilePrimaryButtonStyle())
-                    .disabled(isLoading)
-
-                    Button {
-                        startSession(newCount: 0)
-                    } label: {
-                        Text("Review Only")
-                            .font(.system(size: scaled(18), weight: .semibold))
-                    }
-                    .buttonStyle(TactileSecondaryButtonStyle())
-                    .disabled(isLoading)
-                }
-                .padding(.horizontal)
-                .padding(.top, 4)
-                .padding(.bottom, 4)
+                sessionButtons
+                    .padding(.horizontal)
+                    .padding(.top, 4)
+                    .padding(.bottom, 4)
 
                 // Secondary navigation — Grammar List and Stats live here rather than on the hub.
                 HStack(spacing: 10) {
@@ -351,10 +368,15 @@ struct HomeView: View {
                     sessionItems: items,
                     exercisePool: exercisePool,
                     newPatternIds: newPatternIds,
-                    remainingDueCount: { sessionStats.totalDue },
-                    buildReviewSession: {
-                        let built = buildSessionItems(newCount: 0)
-                        return built.items
+                    remainingWork: remainingWorkProvider(for: activeKind),
+                    buildNextSession: nextSessionBuilder(for: activeKind),
+                    replacementNewPattern: { excluding in
+                        SessionBuilder.replacementNewPattern(
+                            allPoints: grammarPoints,
+                            exercisePool: exercisePool,
+                            context: modelContext,
+                            excluding: excluding
+                        )
                     }
                 )
             }
@@ -370,6 +392,155 @@ struct HomeView: View {
         }
         .sheet(isPresented: $showPaywall) {
             PaywallView()
+        }
+    }
+
+    // MARK: - Today's Session Card
+
+    private var todayWorkSummary: some View {
+        VStack(alignment: .leading, spacing: 6) {
+            if sessionStats.newCount > 0 {
+                HStack(spacing: 4) {
+                    Text("\(sessionStats.newCount)")
+                        .font(.system(size: scaled(16), weight: .bold))
+                        .monospacedDigit()
+                        .foregroundStyle(Theme.brand)
+                    Text("new")
+                        .font(.system(size: scaled(15)))
+                        .foregroundStyle(Theme.brand)
+                    if newLeftToday > sessionStats.newCount {
+                        Text("(\(newLeftToday) left today)")
+                            .font(.system(size: scaled(13)))
+                            .foregroundStyle(Theme.inkMuted)
+                    }
+                }
+            }
+
+            HStack(spacing: 4) {
+                Text("\(sessionStats.reviewCount)")
+                    .font(.system(size: scaled(16), weight: .bold))
+                    .monospacedDigit()
+                    .foregroundStyle(Theme.ink)
+                Text("review")
+                    .font(.system(size: scaled(15)))
+                    .foregroundStyle(Theme.ink)
+                if sessionStats.totalDue > 0 {
+                    Text("(of \(sessionStats.totalDue) due)")
+                        .font(.system(size: scaled(13)))
+                        .foregroundStyle(Theme.inkMuted)
+                }
+            }
+
+            if newLeftToday == 0, let reason = dailyPlan?.holdBackReason {
+                Text(reason)
+                    .font(.system(size: scaled(13)))
+                    .foregroundStyle(Theme.inkMuted)
+            }
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .padding(.horizontal, 16)
+    }
+
+    private var doneForTodaySummary: some View {
+        VStack(alignment: .leading, spacing: 6) {
+            Label("Done for today", systemImage: "checkmark.circle.fill")
+                .font(.system(size: scaled(16), weight: .semibold))
+                .foregroundStyle(Theme.correctBorder)
+
+            if let nextReviewText {
+                Text("Next review \(nextReviewText).")
+                    .font(.system(size: scaled(13)))
+                    .foregroundStyle(Theme.inkMuted)
+            }
+            if canStrengthen {
+                Text("Want more? Strengthen the patterns you're most likely to be forgetting.")
+                    .font(.system(size: scaled(13)))
+                    .foregroundStyle(Theme.inkMuted)
+            }
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .padding(.horizontal, 16)
+    }
+
+    // MARK: - Session Buttons
+
+    @ViewBuilder
+    private var sessionButtons: some View {
+        VStack(spacing: 10) {
+            if hasWorkToday {
+                Button {
+                    startSession(.today)
+                } label: {
+                    HStack(spacing: 8) {
+                        Text("Start Today's Session")
+                        Image(systemName: "arrow.right")
+                    }
+                    .font(.system(size: scaled(18), weight: .bold))
+                }
+                .buttonStyle(TactilePrimaryButtonStyle())
+                .disabled(isLoading)
+
+                if sessionStats.newCount > 0 && sessionStats.reviewCount > 0 {
+                    Button {
+                        startSession(.reviewOnly)
+                    } label: {
+                        Text("Review Only")
+                            .font(.system(size: scaled(18), weight: .semibold))
+                    }
+                    .buttonStyle(TactileSecondaryButtonStyle())
+                    .disabled(isLoading)
+                }
+            } else {
+                if canStrengthen {
+                    Button {
+                        startSession(.strengthen)
+                    } label: {
+                        HStack(spacing: 8) {
+                            Text("Strengthen")
+                            Image(systemName: "dumbbell.fill")
+                        }
+                        .font(.system(size: scaled(18), weight: .bold))
+                    }
+                    .buttonStyle(TactilePrimaryButtonStyle())
+                    .disabled(isLoading)
+                }
+
+                if unseenCount > 0 {
+                    let extra = min(defaultNewCount, unseenCount)
+                    Button {
+                        startSession(.extraNew)
+                    } label: {
+                        Text(extra == 1 ? "Learn 1 More Pattern" : "Learn \(extra) More Patterns")
+                            .font(.system(size: scaled(18), weight: .semibold))
+                    }
+                    .buttonStyle(TactileSecondaryButtonStyle())
+                    .disabled(isLoading)
+                }
+            }
+        }
+    }
+
+    /// Work left after a session of `kind`, for the summary's "Keep Going" prompt.
+    private func remainingWorkProvider(for kind: SessionKind) -> (() -> (due: Int, new: Int))? {
+        switch kind {
+        case .today:
+            return { (sessionStats.totalDue, newLeftToday) }
+        case .reviewOnly, .extraNew:
+            return { (sessionStats.totalDue, 0) }
+        case .strengthen:
+            return nil
+        }
+    }
+
+    /// Builds the session "Keep Going" continues with after a session of `kind`.
+    private func nextSessionBuilder(for kind: SessionKind) -> (() -> (items: [SessionExercise], newPatternIds: Set<String>))? {
+        switch kind {
+        case .today:
+            return { buildSessionItems(newCount: todayNewCount) }
+        case .reviewOnly, .extraNew:
+            return { buildSessionItems(newCount: 0) }
+        case .strengthen:
+            return nil
         }
     }
 
@@ -394,16 +565,32 @@ struct HomeView: View {
         exercisePool = pool
     }
 
-    private func startSession(newCount: Int) {
+    private func startSession(_ kind: SessionKind) {
         isLoading = true
         Task {
-            let built = buildSessionItems(newCount: newCount)
+            let built: (items: [SessionExercise], newPatternIds: Set<String>)
+            switch kind {
+            case .today:
+                built = buildSessionItems(newCount: todayNewCount)
+            case .reviewOnly:
+                built = buildSessionItems(newCount: 0)
+            case .extraNew:
+                built = buildSessionItems(newCount: defaultNewCount)
+            case .strengthen:
+                let items = SessionBuilder.buildStrengthenSession(
+                    allPoints: grammarPoints,
+                    exercisePool: exercisePool,
+                    context: modelContext
+                )
+                built = (items, [])
+            }
 
             await MainActor.run {
                 isLoading = false
                 if built.items.isEmpty {
                     showAllCaughtUp = true
                 } else {
+                    activeKind = kind
                     sessionItems = built.items
                     newPatternIds = built.newPatternIds
                     navigateToExercise = true
@@ -413,7 +600,7 @@ struct HomeView: View {
     }
 
     /// Build the grammar session (plus particles in combined mode). Shared by the Home
-    /// buttons and ExerciseView's in-place "Keep Reviewing" action.
+    /// buttons and ExerciseView's in-place "Keep Going" action.
     private func buildSessionItems(newCount: Int) -> (items: [SessionExercise], newPatternIds: Set<String>) {
         let built = SessionBuilder.buildSession(
             allPoints: grammarPoints,

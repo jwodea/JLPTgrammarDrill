@@ -33,9 +33,10 @@ struct SessionBuilder {
 
     /// How many new patterns to introduce this session, factoring in the
     /// onboarding ramp. Returns `userPreferred` once the learner is past
-    /// `onboardingTarget` total cards.
+    /// `onboardingTarget` total cards, or when no new patterns were asked for
+    /// (Review Only, or today's allowance is used up).
     private static func effectiveNewCount(userPreferred: Int, existingTotal: Int) -> Int {
-        guard existingTotal < onboardingTarget else { return userPreferred }
+        guard userPreferred > 0, existingTotal < onboardingTarget else { return userPreferred }
         let remaining = onboardingTarget - existingTotal
         let ramp = min(onboardingPerSessionCap, remaining)
         return max(userPreferred, ramp)
@@ -86,7 +87,7 @@ struct SessionBuilder {
 
     /// Build a session by ranking seen items by how overdue they are, then picking exercises.
     /// Also returns the grammar IDs being introduced for the first time so the
-    /// exercise screen can show an intro card before each new pattern's first question.
+    /// exercise screen can show their intro cards before the quiz starts.
     static func buildSession(
         allPoints: [GrammarPoint],
         exercisePool: [String: [SessionExercise]],
@@ -134,8 +135,7 @@ struct SessionBuilder {
         let maxDue = 10
         let selectedDue = overdueItems.prefix(maxDue).map(\.point)
 
-        // Introduce patterns from the easiest enabled level first (N5 before N1).
-        newItems.sort { levelOrder($0.level) < levelOrder($1.level) }
+        newItems = introductionOrder(newItems)
 
         let rampedNewCount = effectiveNewCount(
             userPreferred: newCount,
@@ -164,14 +164,130 @@ struct SessionBuilder {
         return (sessionExercises, Set(selectedNew.map(\.id)))
     }
 
-    /// Order a session so new patterns are introduced up front and their follow-up
-    /// sentences are spaced out by reviews, rather than appending each new pattern's
-    /// sentences back-to-back at the end of the session.
+    /// Sentences for the next unseen pattern in introduction order, skipping
+    /// `excluding` (patterns already in the session). Used to swap in a fresh
+    /// pattern when the learner marks a new one as already known.
+    static func replacementNewPattern(
+        allPoints: [GrammarPoint],
+        exercisePool: [String: [SessionExercise]],
+        context: ModelContext,
+        excluding: Set<String>
+    ) -> [SessionExercise] {
+        let levels = enabledLevels
+        let seenIds = Set(((try? context.fetch(FetchDescriptor<SRSRecord>())) ?? []).map(\.grammarId))
+        let candidates = allPoints.filter {
+            levels.contains($0.level) && !seenIds.contains($0.id) && !excluding.contains($0.id)
+        }
+        guard let point = introductionOrder(candidates).first else { return [] }
+        if let exercises = exercisePool[point.id], !exercises.isEmpty {
+            return Array(exercises.shuffled().prefix(3))
+        }
+        return [fallbackExercise(for: point)]
+    }
+
+    // MARK: - Strengthen
+
+    /// Practice for days when nothing is due: the seen patterns FSRS thinks are
+    /// most likely to be slipping (lowest current retrievability), skipping any
+    /// already studied today. Ratings apply as normal — FSRS handles early
+    /// reviews, giving small stability gains on success and pulling a pattern
+    /// forward if it's missed.
+    static func buildStrengthenSession(
+        allPoints: [GrammarPoint],
+        exercisePool: [String: [SessionExercise]],
+        context: ModelContext,
+        limit: Int = 10,
+        now: Date = Date()
+    ) -> [SessionExercise] {
+        let levels = enabledLevels
+        let pointsById = Dictionary(
+            allPoints.filter { levels.contains($0.level) }.map { ($0.id, $0) },
+            uniquingKeysWith: { first, _ in first }
+        )
+        guard let records = try? context.fetch(FetchDescriptor<SRSRecord>()) else { return [] }
+
+        let startOfToday = Calendar.current.startOfDay(for: now)
+        let candidates = records.filter { record in
+            guard pointsById[record.grammarId] != nil, record.fsrsReps > 0 else { return false }
+            if let last = record.lastStudied, last >= startOfToday { return false }
+            return true
+        }
+
+        let weakest = candidates
+            .map { ($0.grammarId, retrievability(of: $0, at: now)) }
+            .sorted { $0.1 < $1.1 }
+            .prefix(limit)
+
+        let items: [SessionExercise] = weakest.compactMap { id, _ in
+            guard let point = pointsById[id] else { return nil }
+            return exercisePool[id]?.randomElement() ?? fallbackExercise(for: point)
+        }
+        return items.shuffled()
+    }
+
+    /// Whether `buildStrengthenSession` would find anything to practice.
+    static func canStrengthen(records: [SRSRecord], activeIds: Set<String>, now: Date = Date()) -> Bool {
+        let startOfToday = Calendar.current.startOfDay(for: now)
+        return records.contains { record in
+            guard activeIds.contains(record.grammarId), record.fsrsReps > 0 else { return false }
+            return (record.lastStudied ?? .distantPast) < startOfToday
+        }
+    }
+
+    /// FSRS v5 forgetting curve: R = (1 + F·t/S)^D with D = −0.5, F = 19/81.
+    private static func retrievability(of record: SRSRecord, at now: Date) -> Double {
+        guard record.fsrsStability > 0, let last = record.fsrsLastReview else { return 0 }
+        let elapsedDays = max(0, now.timeIntervalSince(last) / 86_400)
+        return pow(1 + (19.0 / 81.0) * elapsedDays / record.fsrsStability, -0.5)
+    }
+
+    // MARK: - Ordering
+
+    /// Order unseen patterns for introduction: easiest enabled level first
+    /// (N5 before N1), shuffled within each level. The data files keep related
+    /// patterns next to each other (several ways to say "not only… but also"),
+    /// and introducing those together makes them blur, so file order is avoided.
+    /// The shuffle is seeded once per install so the order is stable — the home
+    /// screen preview and the session agree, and the queue doesn't reshuffle daily.
+    private static func introductionOrder(_ points: [GrammarPoint]) -> [GrammarPoint] {
+        let seed = introOrderSeed
+        return points
+            .map { (point: $0, level: levelOrder($0.level), key: stableHash($0.id, seed: seed)) }
+            .sorted { ($0.level, $0.key) < ($1.level, $1.key) }
+            .map(\.point)
+    }
+
+    private static let introOrderSeedKey = "introOrderSeed"
+
+    private static var introOrderSeed: UInt64 {
+        let defaults = UserDefaults.standard
+        if let stored = defaults.string(forKey: introOrderSeedKey), let seed = UInt64(stored) {
+            return seed
+        }
+        let seed = UInt64.random(in: .min ... .max)
+        defaults.set(String(seed), forKey: introOrderSeedKey)
+        return seed
+    }
+
+    /// FNV-1a over the seed and id. `Hasher` is randomized per launch, so it
+    /// can't give an order that stays put across launches.
+    private static func stableHash(_ string: String, seed: UInt64) -> UInt64 {
+        var hash: UInt64 = 0xcbf2_9ce4_8422_2325 ^ seed
+        for byte in string.utf8 {
+            hash ^= UInt64(byte)
+            hash = hash &* 0x0000_0100_0000_01b3
+        }
+        return hash
+    }
+
+    /// Order a session so new patterns' sentences are spaced out by reviews, rather
+    /// than appending each new pattern's sentences back-to-back at the end.
     ///
-    /// Layout: round 0 (first sentence of every new pattern), a chunk of reviews,
-    /// round 1 (second sentences), another chunk of reviews, and so on. Reviews are
-    /// split evenly across the rounds so the gap between repeats of a new pattern
-    /// stays roughly constant through the session.
+    /// Layout: round 0 (first sentence of every new pattern mixed with a chunk of
+    /// reviews), round 1 (second sentences mixed with the next chunk), and so on.
+    /// Reviews are split evenly across the rounds so the gap between repeats of a new
+    /// pattern stays roughly constant. Each round is shuffled so the question order
+    /// doesn't mirror the order the patterns were introduced in.
     private static func interleave(
         newExercises: [[SessionExercise]],
         reviewExercises: [SessionExercise]
@@ -182,11 +298,18 @@ struct SessionBuilder {
         var result: [SessionExercise] = []
         var remainingReviews = reviewExercises[...]
         for round in 0..<rounds {
-            result.append(contentsOf: newExercises.compactMap { round < $0.count ? $0[round] : nil })
             // Spread what's left evenly over the remaining rounds.
             let chunkSize = Int((Double(remainingReviews.count) / Double(rounds - round)).rounded(.up))
-            result.append(contentsOf: remainingReviews.prefix(chunkSize))
+            var chunk = newExercises.compactMap { round < $0.count ? $0[round] : nil }
+            chunk.append(contentsOf: remainingReviews.prefix(chunkSize))
             remainingReviews = remainingReviews.dropFirst(chunkSize)
+            chunk.shuffle()
+            // Patterns are distinct within a round, so one swap stops the same
+            // pattern appearing twice in a row across the round boundary.
+            if chunk.count > 1, chunk.first?.grammarId == result.last?.grammarId {
+                chunk.swapAt(0, 1)
+            }
+            result.append(contentsOf: chunk)
         }
         return result
     }

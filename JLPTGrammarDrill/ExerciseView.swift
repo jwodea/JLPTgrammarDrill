@@ -22,16 +22,21 @@ private struct PatternOutcomes {
 struct ExerciseView: View {
     let sessionItems: [SessionExercise]
     let exercisePool: [String: [SessionExercise]]
-    /// Grammar IDs being introduced for the first time this session. Each shows
-    /// a one-time intro card (pattern, meaning, examples) before its first question.
+    /// Grammar IDs being introduced for the first time this session. Their intro
+    /// cards (pattern, meaning, examples) are all shown up front, before the quiz.
     var newPatternIds: Set<String> = []
-    /// Number of patterns still due after this session's ratings are flushed.
-    /// Shown on the end-of-session summary to decide whether to offer "Keep Reviewing".
-    var remainingDueCount: (() -> Int)? = nil
-    /// Builds a review-only follow-up session so "Keep Reviewing" can restart in place
-    /// instead of bouncing back to Home and pushing a new screen.
-    var buildReviewSession: (() -> [SessionExercise])? = nil
+    /// Work left today (due reviews, new patterns still in today's plan) after this
+    /// session's ratings are flushed. Shown on the end-of-session summary to decide
+    /// whether to offer "Keep Going".
+    var remainingWork: (() -> (due: Int, new: Int))? = nil
+    /// Builds the follow-up session so "Keep Going" can restart in place instead of
+    /// bouncing back to Home and pushing a new screen.
+    var buildNextSession: (() -> (items: [SessionExercise], newPatternIds: Set<String>))? = nil
+    /// Sentences for a fresh unseen pattern (skipping the given IDs), swapped in when
+    /// the learner marks a new pattern as already known. Empty when none are left.
+    var replacementNewPattern: ((Set<String>) -> [SessionExercise])? = nil
     @Environment(\.modelContext) private var modelContext
+    @Query private var srsRecords: [SRSRecord]
     @Environment(\.dismiss) private var dismiss
     @AppStorage(FontSizeManager.scaleKey) private var fontScale = FontSizeManager.defaultScale
 
@@ -53,20 +58,24 @@ struct ExerciseView: View {
     @State private var showingResult = false
     @State private var shuffledChoices: [String] = []
     @State private var showExplanation = false
+    // Wrong choice whose "why it's wrong" popover is open (tapped after answering).
+    @State private var explainedChoice: String?
     // Per-pattern required streak. Particles only need 1 correct retry; grammar needs 3.
     @State private var requiredStreaks: [String: Int] = [:]
     // Per-pattern aggregated outcomes — drives a single FSRS rating per pattern at end of session.
     @State private var patternOutcomes: [String: PatternOutcomes] = [:]
     // Guards against flushing twice when both `advanceToNext` and `onDisappear` fire.
     @State private var didFlushRatings = false
-    // New patterns whose intro card has been dismissed this session.
-    @State private var introducedPatterns: Set<String> = []
-    // Starts as `newPatternIds`; cleared when "Keep Reviewing" loads a review-only session.
+    // Intro cards still to show, one per new pattern. The quiz starts once it's empty.
+    @State private var introQueue: [SessionExercise] = []
+    @State private var introTotal = 0
+    // Starts as `newPatternIds`; replaced when "Keep Going" loads the next session.
     @State private var activeNewPatternIds: Set<String> = []
     @State private var didInitialize = false
     // End-of-session summary, shown in place of the question once the session finishes.
     @State private var showSummary = false
     @State private var summaryDueCount = 0
+    @State private var summaryNewCount = 0
     // Reads the completed sentence aloud from the revealed explanation card.
     @State private var speaker = JapaneseSpeaker()
 
@@ -124,21 +133,27 @@ struct ExerciseView: View {
         return (item.blankTarget, reading)
     }
 
-    // MARK: - Chips
+    // MARK: - Mastery Indicator
 
-    private func chip(label: String, icon: String, color: Color) -> some View {
-        HStack(spacing: 4) {
-            Image(systemName: icon)
-                .font(.system(size: scaled(10), weight: .semibold))
-            Text(label)
-                .font(.system(size: scaled(11), weight: .semibold))
-                .tracking(0.5)
-        }
-        .foregroundColor(color)
-        .padding(.horizontal, 8)
-        .padding(.vertical, 3)
-        .background(color.opacity(0.12))
-        .clipShape(Capsule())
+    /// Small icon for the pattern's current mastery bucket, using the same
+    /// thresholds and icons as the Grammar Browser and Stats card. Ratings are
+    /// flushed at session end, so this reflects mastery as of session start.
+    private func masteryIcon(for grammarId: String) -> some View {
+        let (icon, color, label): (String, Color, String) = {
+            guard let record = srsRecords.first(where: { $0.grammarId == grammarId }) else {
+                return ("sparkles", .secondary, "Unseen")
+            }
+            switch record.fsrsScheduledDays {
+            case 60...: return ("crown", .yellow, "Mastered")
+            case 14...: return ("star", .purple, "Confident")
+            case 3...: return ("book.closed", .blue, "Familiar")
+            default: return ("flame", .orange, "Learning")
+            }
+        }()
+        return Image(systemName: icon)
+            .font(.system(size: scaled(12), weight: .semibold))
+            .foregroundStyle(color.opacity(0.7))
+            .accessibilityLabel("Mastery: \(label)")
     }
 
     var body: some View {
@@ -152,7 +167,8 @@ struct ExerciseView: View {
                         questionsAnswered: questionsAnswered,
                         firstTryAccuracy: firstTryAccuracy,
                         remainingDue: summaryDueCount,
-                        canKeepReviewing: buildReviewSession != nil,
+                        remainingNew: summaryNewCount,
+                        canKeepReviewing: buildNextSession != nil,
                         onKeepReviewing: keepReviewing,
                         onDone: { dismiss() }
                     )
@@ -177,19 +193,30 @@ struct ExerciseView: View {
                                 .frame(height: 8)
                                 .padding(.horizontal)
 
-                                Text("\(completedPatterns.count)/\(totalPatterns) mastered")
+                                Text("\(completedPatterns.count)/\(totalPatterns) finished")
                                     .font(.system(size: scaled(12), weight: .semibold))
                                     .monospacedDigit()
                                     .foregroundStyle(Theme.inkMuted)
                             }
                             .padding(.top)
 
-                            if isIntroducingNewPattern(item) {
-                                PatternIntroCard(item: item, examples: introExamples(for: item)) {
+                            if let introItem = introQueue.first {
+                                PatternIntroCard(
+                                    item: introItem,
+                                    examples: introExamples(for: introItem),
+                                    position: introTotal - introQueue.count + 1,
+                                    total: introTotal,
+                                    onMarkKnown: { markKnown(introItem.grammarId) }
+                                ) {
+                                    // Only dismiss if this card is still the front one, so a
+                                    // double-tap during the transition can't skip a card or
+                                    // remove from an empty queue.
+                                    guard introQueue.first?.grammarId == introItem.grammarId else { return }
                                     withAnimation(.easeInOut(duration: 0.25)) {
-                                        _ = introducedPatterns.insert(item.grammarId)
+                                        _ = introQueue.removeFirst()
                                     }
                                 }
+                                .id(introItem.grammarId)
                                 .padding(.top, 20)
                             } else {
                                 questionContent(for: item)
@@ -244,6 +271,21 @@ struct ExerciseView: View {
                         .foregroundStyle(Theme.inkMuted)
                 }
             }
+            if !showSummary, let grammarId = introQueue.first?.grammarId ?? currentItem?.grammarId {
+                ToolbarItem(placement: .topBarTrailing) {
+                    Menu {
+                        Button {
+                            markKnown(grammarId)
+                        } label: {
+                            Label("Mark Pattern as Known", systemImage: "checkmark.seal")
+                        }
+                    } label: {
+                        Image(systemName: "ellipsis")
+                            .font(.system(size: 14, weight: .semibold))
+                            .foregroundStyle(Theme.inkMuted)
+                    }
+                }
+            }
         }
         .onAppear {
             // onAppear can re-fire (e.g. after a popover); only set up the first time so
@@ -267,12 +309,6 @@ struct ExerciseView: View {
     private func questionContent(for item: SessionExercise) -> some View {
         // Question card
         VStack(alignment: .leading, spacing: 12) {
-            if item.level == "Particles" {
-                chip(label: "particle", icon: "character.ja", color: Theme.amber)
-            } else {
-                chip(label: "\(item.level) · Fill in the blank", icon: "star.fill", color: Theme.brand)
-            }
-
             SelectableText(
                 text: blankedSentence,
                 fontSize: scaled(24),
@@ -291,6 +327,11 @@ struct ExerciseView: View {
         }
         .frame(maxWidth: .infinity, alignment: .leading)
         .padding(20)
+        // Tucked into the card's corner padding so it takes no layout space.
+        .overlay(alignment: .topTrailing) {
+            masteryIcon(for: item.grammarId)
+                .padding(8)
+        }
         .tactileCard()
         .padding(.horizontal)
         .padding(.top, 8)
@@ -298,17 +339,48 @@ struct ExerciseView: View {
         // Answer buttons (2x2 grid)
         LazyVGrid(columns: [GridItem(.flexible(), spacing: 10), GridItem(.flexible())], spacing: 12) {
             ForEach(shuffledChoices, id: \.self) { choice in
+                // The selected wrong answer is already explained in the card below.
+                let explanation = choice == selectedAnswer ? nil : wrongChoiceExplanation(for: choice, in: item)
                 Button {
-                    guard selectedAnswer == nil else { return }
-                    handleAnswer(choice, for: item)
+                    if selectedAnswer == nil {
+                        handleAnswer(choice, for: item)
+                    } else if explanation != nil {
+                        // After answering, wrong tiles can be tapped to see why they're wrong.
+                        explainedChoice = choice
+                    }
                 } label: {
                     Text(choice)
                         .font(.system(size: scaled(18), weight: .semibold))
                         .strikethrough(answerState(for: choice) == .wrong, color: Theme.incorrect)
                 }
                 .buttonStyle(AnswerTileButtonStyle(state: answerState(for: choice)))
-                .disabled(selectedAnswer != nil)
+                .disabled(selectedAnswer != nil && explanation == nil)
                 .animation(.easeInOut(duration: 0.2), value: selectedAnswer)
+                .popover(
+                    isPresented: Binding(
+                        get: { explainedChoice == choice },
+                        set: { if !$0 { explainedChoice = nil } }
+                    ),
+                    arrowEdge: .bottom
+                ) {
+                    if let explanation {
+                        VStack(alignment: .leading, spacing: 6) {
+                            (Text(choice).foregroundStyle(Theme.incorrect)
+                             + Text("  vs  ").foregroundStyle(Theme.inkMuted)
+                             + Text(item.blankTarget).foregroundStyle(Theme.correct))
+                                .font(.system(size: scaled(15), weight: .bold))
+                            Text(explanation)
+                                .font(.system(size: scaled(15)))
+                                .foregroundStyle(Theme.ink)
+                        }
+                        // Fixed width + ideal height so the popover grows to fit long
+                        // explanations instead of truncating them.
+                        .frame(width: 290, alignment: .leading)
+                        .fixedSize(horizontal: false, vertical: true)
+                        .padding(14)
+                        .presentationCompactAdaptation(.popover)
+                    }
+                }
             }
         }
         .padding(.horizontal)
@@ -412,17 +484,29 @@ struct ExerciseView: View {
 
     // MARK: - New Pattern Introduction
 
-    /// True while the current item's pattern is new this session and its intro
-    /// card hasn't been dismissed yet.
-    private func isIntroducingNewPattern(_ item: SessionExercise) -> Bool {
-        activeNewPatternIds.contains(item.grammarId) && !introducedPatterns.contains(item.grammarId)
-    }
-
     /// Example sentences for the intro card, drawn from the pattern's full pool
     /// so the learner sees the pattern in context before being quizzed on it.
+    /// Prefers sentences that aren't queued as questions, so the quiz doesn't
+    /// replay an answer the learner was just shown.
     private func introExamples(for item: SessionExercise) -> [SessionExercise] {
         let pool = exercisePool[item.grammarId] ?? []
-        return pool.isEmpty ? [item] : Array(pool.prefix(2))
+        guard !pool.isEmpty else { return [item] }
+        let queuedIds = Set(queue.map(\.id))
+        let unqueued = pool.filter { !queuedIds.contains($0.id) }
+        let queued = pool.filter { queuedIds.contains($0.id) }
+        return Array((unqueued + queued).prefix(2))
+    }
+
+    /// One intro item per new pattern. Shuffled so the intro order doesn't predict
+    /// the question order, and the last pattern introduced isn't the first question.
+    private func buildIntroQueue(items: [SessionExercise], newPatternIds: Set<String>) -> [SessionExercise] {
+        var seen = Set<String>()
+        var intros = items.filter { newPatternIds.contains($0.grammarId) && seen.insert($0.grammarId).inserted }
+        intros.shuffle()
+        if intros.count > 1, intros.last?.grammarId == items.first?.grammarId {
+            intros.swapAt(0, intros.count - 1)
+        }
+        return intros
     }
 
     // MARK: - Session Initialization
@@ -435,7 +519,6 @@ struct ExerciseView: View {
         failedPatterns = []
         requiredStreaks = [:]
         patternOutcomes = [:]
-        introducedPatterns = []
         questionsAnswered = 0
         selectedAnswer = nil
         showingResult = false
@@ -460,6 +543,8 @@ struct ExerciseView: View {
 
         // Build the initial queue from the session items
         queue = items
+        introQueue = buildIntroQueue(items: items, newPatternIds: newPatternIds)
+        introTotal = introQueue.count
         shuffleChoicesForCurrent()
     }
 
@@ -553,6 +638,86 @@ struct ExerciseView: View {
         queue.insert(next, at: pos)
     }
 
+    // MARK: - Mark as Known
+
+    /// Schedule `grammarId` far out and drop it from this session. A new pattern is
+    /// swapped for the next unseen one so the session keeps its size.
+    private func markKnown(_ grammarId: String) {
+        SRSEngine.markKnown(grammarId: grammarId, context: modelContext)
+
+        let wasNew = activeNewPatternIds.contains(grammarId)
+        let introIndex = introQueue.firstIndex { $0.grammarId == grammarId }
+        let isParticle = queue.first { $0.grammarId == grammarId }?.level == "Particles"
+
+        // Drop every trace of the pattern; its outcomes are discarded so the
+        // end-of-session flush doesn't overwrite the "known" schedule.
+        queue.removeAll { $0.grammarId == grammarId }
+        introQueue.removeAll { $0.grammarId == grammarId }
+        orderedPatternIds.removeAll { $0 == grammarId }
+        streaks[grammarId] = nil
+        requiredStreaks[grammarId] = nil
+        patternOutcomes[grammarId] = nil
+        completedPatterns.remove(grammarId)
+        failedPatterns.remove(grammarId)
+        activeNewPatternIds.remove(grammarId)
+        totalPatterns = orderedPatternIds.count
+        if introIndex != nil { introTotal -= 1 }
+
+        if wasNew, !isParticle, let replacementNewPattern {
+            let replacement = replacementNewPattern(Set(orderedPatternIds).union([grammarId]))
+            insertNewPattern(replacement, introAt: introIndex ?? 0, freshIntroRun: introIndex == nil)
+        }
+
+        withAnimation(.easeInOut(duration: 0.25)) {
+            selectedAnswer = nil
+            explainedChoice = nil
+            showingResult = false
+            showExplanation = false
+        }
+
+        // Same skip-ahead as `advanceToNext`, in case the next question's pattern is done.
+        while let next = queue.first, completedPatterns.contains(next.grammarId), !isSessionComplete {
+            queue.removeFirst()
+        }
+
+        if queue.isEmpty || isSessionComplete {
+            if patternOutcomes.isEmpty {
+                flushPatternRatings()
+                dismiss()
+            } else {
+                finishSession()
+            }
+            return
+        }
+        shuffleChoicesForCurrent()
+    }
+
+    /// Add a freshly chosen new pattern: its intro card at `introAt`, and its
+    /// sentences spread through the rest of the queue. `freshIntroRun` restarts
+    /// the "1 of N" count when the intro cards had already all been shown.
+    private func insertNewPattern(_ items: [SessionExercise], introAt: Int, freshIntroRun: Bool) {
+        guard let first = items.first else { return }
+        let grammarId = first.grammarId
+        activeNewPatternIds.insert(grammarId)
+        orderedPatternIds.append(grammarId)
+        streaks[grammarId] = 0
+        requiredStreaks[grammarId] = defaultRequiredStreak
+        totalPatterns = orderedPatternIds.count
+
+        if freshIntroRun && introQueue.isEmpty { introTotal = 0 }
+        introQueue.insert(first, at: min(introAt, introQueue.count))
+        introTotal += 1
+
+        // Same minimum gap as the retry path, so repeats aren't back-to-back.
+        var lastPos = -3
+        for item in items {
+            let minIdx = min(lastPos + 3, queue.count)
+            let pos = Int.random(in: minIdx...queue.count)
+            queue.insert(item, at: pos)
+            lastPos = pos
+        }
+    }
+
     // MARK: - Navigation
 
     private func advanceToNext() {
@@ -584,6 +749,7 @@ struct ExerciseView: View {
         }
 
         selectedAnswer = nil
+        explainedChoice = nil
         showingResult = false
         showExplanation = false
         shuffleChoicesForCurrent()
@@ -593,23 +759,24 @@ struct ExerciseView: View {
     private func finishSession() {
         flushPatternRatings()
         recordLastStudyDate()
-        // Ratings were just flushed, so the due count reflects this session.
-        summaryDueCount = remainingDueCount?() ?? 0
+        // Ratings were just flushed, so the remaining work reflects this session.
+        let remaining = remainingWork?() ?? (due: 0, new: 0)
+        summaryDueCount = remaining.due
+        summaryNewCount = remaining.new
         withAnimation(.easeInOut(duration: 0.25)) {
             showExplanation = false
             showSummary = true
         }
     }
 
-    /// Start a review-only follow-up session on this same screen.
+    /// Start the follow-up session on this same screen.
     private func keepReviewing() {
-        let items = buildReviewSession?() ?? []
-        guard !items.isEmpty else {
+        guard let next = buildNextSession?(), !next.items.isEmpty else {
             dismiss()
             return
         }
         withAnimation(.easeInOut(duration: 0.25)) {
-            initializeSession(items: items, newPatternIds: [])
+            initializeSession(items: next.items, newPatternIds: next.newPatternIds)
             showSummary = false
         }
     }
@@ -625,6 +792,15 @@ struct ExerciseView: View {
 
     /// Visual state of an answer tile: neutral before answering; afterwards the
     /// correct answer turns green and a wrong selection turns rose.
+    /// Why `choice` is wrong for this item, if it's a distractor with an explanation.
+    private func wrongChoiceExplanation(for choice: String, in item: SessionExercise) -> String? {
+        guard choice != item.blankTarget,
+              let idx = item.wrongChoices.firstIndex(of: choice),
+              idx < item.wrongChoiceExplanations.count else { return nil }
+        let text = item.wrongChoiceExplanations[idx]
+        return text.isEmpty ? nil : text
+    }
+
     private func answerState(for choice: String) -> AnswerTileButtonStyle.State {
         guard let selected = selectedAnswer, let item = currentItem else {
             return .neutral
@@ -682,6 +858,11 @@ struct ExerciseView: View {
                 let record = try modelContext.fetch(descriptor).first ?? {
                     let newRecord = SRSRecord(grammarId: grammarId)
                     modelContext.insert(newRecord)
+                    // Count it against today's new-pattern allowance (grammar only;
+                    // particles aren't paced by the daily plan).
+                    if activeNewPatternIds.contains(grammarId) {
+                        DailyPlanner.recordIntroduction()
+                    }
                     return newRecord
                 }()
                 SRSEngine.applyRating(
@@ -713,11 +894,15 @@ struct ExerciseView: View {
 
 // MARK: - Pattern Intro Card
 
-/// One-time card shown before a brand-new pattern's first question:
+/// One-time card for a brand-new pattern, shown in sequence before the quiz starts:
 /// the pattern, its meaning, and example sentences with the pattern highlighted.
 private struct PatternIntroCard: View {
     let item: SessionExercise
     let examples: [SessionExercise]
+    /// 1-based index of this card among the session's new patterns.
+    let position: Int
+    let total: Int
+    let onMarkKnown: () -> Void
     let onContinue: () -> Void
     @AppStorage(FontSizeManager.scaleKey) private var fontScale = FontSizeManager.defaultScale
 
@@ -767,6 +952,13 @@ private struct PatternIntroCard: View {
                 .background(Capsule().fill(Theme.brandTint))
                 .overlay(Capsule().strokeBorder(Theme.brandBorder, lineWidth: 1))
 
+                if total > 1 {
+                    Text("\(position) of \(total)")
+                        .font(.system(size: scaled(12), weight: .semibold))
+                        .monospacedDigit()
+                        .foregroundStyle(Theme.inkMuted)
+                }
+
                 Text(item.pattern)
                     .font(.system(size: scaled(30), weight: .bold))
                     .foregroundStyle(Theme.ink)
@@ -803,11 +995,18 @@ private struct PatternIntroCard: View {
             .padding(.horizontal)
 
             Button(action: onContinue) {
-                Text("Got It — Start Practicing")
+                Text(position < total ? "Got It — Next Pattern" : "Got It — Start Practicing")
                     .font(.system(size: scaled(17), weight: .bold))
             }
             .buttonStyle(TactilePrimaryButtonStyle())
             .padding(.horizontal)
+
+            Button(action: onMarkKnown) {
+                Text("I already know this")
+                    .font(.system(size: scaled(14), weight: .semibold))
+                    .foregroundStyle(Theme.inkMuted)
+            }
+            .buttonStyle(.plain)
         }
     }
 }
@@ -821,6 +1020,7 @@ private struct SessionSummaryCard: View {
     let questionsAnswered: Int
     let firstTryAccuracy: Double?
     let remainingDue: Int
+    let remainingNew: Int
     let canKeepReviewing: Bool
     let onKeepReviewing: () -> Void
     let onDone: () -> Void
@@ -828,6 +1028,18 @@ private struct SessionSummaryCard: View {
 
     private func scaled(_ base: CGFloat) -> CGFloat {
         FontSizeManager.scaled(base, scale: fontScale)
+    }
+
+    /// "Still to do today: 3 reviews and 2 new patterns."
+    private var remainingWorkText: String {
+        var parts: [String] = []
+        if remainingDue > 0 {
+            parts.append(remainingDue == 1 ? "1 review" : "\(remainingDue) reviews")
+        }
+        if remainingNew > 0 {
+            parts.append(remainingNew == 1 ? "1 new pattern" : "\(remainingNew) new patterns")
+        }
+        return "Still to do today: \(parts.formatted(.list(type: .and)))."
     }
 
     private func statRow(_ label: String, value: String) -> some View {
@@ -866,15 +1078,14 @@ private struct SessionSummaryCard: View {
             .padding(.horizontal)
 
             VStack(spacing: 12) {
-                if canKeepReviewing && remainingDue > 0 {
-                    Text(remainingDue == 1
-                         ? "1 more pattern is due for review."
-                         : "\(remainingDue) more patterns are due for review.")
+                if canKeepReviewing && (remainingDue > 0 || remainingNew > 0) {
+                    Text(remainingWorkText)
                         .font(.system(size: scaled(14)))
                         .foregroundStyle(Theme.inkMuted)
+                        .multilineTextAlignment(.center)
 
                     Button(action: onKeepReviewing) {
-                        Text("Keep Reviewing")
+                        Text("Keep Going")
                             .font(.system(size: scaled(17), weight: .bold))
                     }
                     .buttonStyle(TactilePrimaryButtonStyle())
@@ -887,6 +1098,12 @@ private struct SessionSummaryCard: View {
                     }
                     .buttonStyle(TactileCardButtonStyle(cornerRadius: 16))
                 } else {
+                    if canKeepReviewing {
+                        Text("That's today's plan done.")
+                            .font(.system(size: scaled(14)))
+                            .foregroundStyle(Theme.inkMuted)
+                    }
+
                     Button(action: onDone) {
                         Text("Done")
                             .font(.system(size: scaled(17), weight: .bold))

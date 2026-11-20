@@ -66,25 +66,14 @@ struct HubView: View {
                 VStack(spacing: 40) {
                     // Header
                     VStack(spacing: 10) {
-                        HStack(spacing: 6) {
-                            Circle()
-                                .fill(Theme.brand)
-                                .frame(width: 6, height: 6)
-                            Text("JLPT")
-                                .font(.system(size: scaled(11), weight: .bold))
-                                .tracking(3.5)
-                                .foregroundStyle(Theme.brand)
-                        }
-                        .padding(.horizontal, 12)
-                        .padding(.vertical, 5)
-                        .background(Capsule().fill(Theme.brandTint))
-                        .overlay(Capsule().strokeBorder(Theme.brandBorder, lineWidth: 1))
-
                         VStack(spacing: 6) {
-                            Text("Grammar Drill")
-                                .font(.system(size: scaled(34), weight: .heavy))
-                                .tracking(-0.8)
-                                .foregroundStyle(Theme.ink)
+                            VStack(spacing: 0) {
+                                Text("JLPT")
+                                Text("Grammar Drill")
+                            }
+                            .font(.system(size: scaled(34), weight: .heavy))
+                            .tracking(-0.8)
+                            .foregroundStyle(Theme.ink)
 
                             Text("Daily grammar & particle practice")
                                 .font(.system(size: scaled(15), weight: .medium))
@@ -137,7 +126,7 @@ struct OtherDrillsView: View {
         ScrollView {
             VStack(spacing: 14) {
                 NavigationLink(value: HubDestination.particlePractice) {
-                    HubCard(icon: "character.ja", title: "Particle Practice",
+                    HubCard(glyph: "は", title: "Particle Practice",
                             style: .amber, fontScale: fontScale)
                 }
 
@@ -190,7 +179,9 @@ private struct HubCard: View {
         }
     }
 
-    let icon: String
+    var icon: String = ""
+    /// Text shown in place of the SF Symbol when no suitable symbol exists.
+    var glyph: String? = nil
     let title: String
     var subtitle: String? = nil
     let style: Style
@@ -202,18 +193,24 @@ private struct HubCard: View {
 
     var body: some View {
         HStack(spacing: 14) {
-            Image(systemName: icon)
-                .font(.system(size: scaled(20), weight: .medium))
-                .foregroundStyle(style.foreground)
-                .frame(width: 48, height: 48)
-                .background(
-                    RoundedRectangle(cornerRadius: 12, style: .continuous)
-                        .fill(style.tint)
-                )
-                .overlay(
-                    RoundedRectangle(cornerRadius: 12, style: .continuous)
-                        .strokeBorder(style.border, lineWidth: 1)
-                )
+            Group {
+                if let glyph {
+                    Text(glyph)
+                } else {
+                    Image(systemName: icon)
+                }
+            }
+            .font(.system(size: scaled(20), weight: .medium))
+            .foregroundStyle(style.foreground)
+            .frame(width: 48, height: 48)
+            .background(
+                RoundedRectangle(cornerRadius: 12, style: .continuous)
+                    .fill(style.tint)
+            )
+            .overlay(
+                RoundedRectangle(cornerRadius: 12, style: .continuous)
+                    .strokeBorder(style.border, lineWidth: 1)
+            )
 
             VStack(alignment: .leading, spacing: 2) {
                 Text(title)

@@ -273,31 +273,7 @@ struct GrammarBrowserView: View {
     }
 
     private func markAsKnown(grammarId: String) {
-        let descriptor = FetchDescriptor<SRSRecord>(
-            predicate: #Predicate { $0.grammarId == grammarId }
-        )
-        let record = (try? modelContext.fetch(descriptor).first) ?? {
-            let r = SRSRecord(grammarId: grammarId)
-            modelContext.insert(r)
-            return r
-        }()
-        var card = Card()
-        let now = Date()
-        for i in 0..<10 {
-            let reviewDate = now.addingTimeInterval(-Double(10 - i) * 86400 * 3)
-            let review = fsrsScheduler.schedule(
-                card: card,
-                algorithm: FSRSAlgorithm.v5,
-                reviewRating: .good,
-                reviewTime: reviewDate
-            )
-            card = review.postReviewCard
-        }
-        record.update(from: card)
-        record.totalAttempts = max(record.totalAttempts, 10)
-        record.totalCorrect = max(record.totalCorrect, 10)
-        record.lastStudied = now
-        try? modelContext.save()
+        SRSEngine.markKnown(grammarId: grammarId, context: modelContext)
     }
 
     private func resetProgress(for grammarId: String) {

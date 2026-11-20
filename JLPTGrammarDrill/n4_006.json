@@ -6,28 +6,28 @@
   "exercises": [
     {
       "id": "n4_006_1",
-      "example_sentence": "妹の宿題を手伝ってあげた。",
-      "translation": "I helped my younger sister with her homework.",
-      "blank_target": "て",
+      "example_sentence": "妹が宿題が分からないと言ったので、私が手伝ってあげた。",
+      "translation": "My younger sister said she didn't understand her homework, so I helped her.",
+      "blank_target": "あげた",
       "wrong_choices": [
-        "で",
-        "に",
-        "を"
+        "もらった",
+        "くれた",
+        "くださった"
       ],
       "wrong_choice_explanations": [
-        "で indicates means or location — it doesn't connect verbs to express doing something for someone.",
-        "に indicates direction or indirect object — it can't connect a verb to あげる in this benefactive pattern.",
-        "を marks direct objects — it doesn't connect verbs to form the てあげる pattern for doing favors."
+        "もらった means I received the help — 私が手伝ってもらった would mean I got someone to help me, but here I'm the one helping my sister.",
+        "くれた is for someone else doing a favor for me; its subject can't be the speaker, so it can't follow 私が.",
+        "くださった is the honorific form of くれた — a superior doing a favor for me. The speaker can't be its subject, and the favor here goes from me to my sister."
       ],
-      "hiragana_full": "いもうとのしゅくだいをてつだってあげた。",
+      "hiragana_full": "いもうとがしゅくだいがわからないといったので、わたしがてつだってあげた。",
       "audio_alternatives": [
         {
-          "kanji": "妹の宿題を手伝いました。",
-          "hiragana_full": "いもうとのしゅくだいをてつだいました。"
+          "kanji": "妹が宿題が分からなかったので、手伝ってあげた。",
+          "hiragana_full": "いもうとがしゅくだいがわからなかったので、てつだってあげた。"
         },
         {
-          "kanji": "妹が宿題をするのを手伝ってあげた。",
-          "hiragana_full": "いもうとがしゅくだいをするのをてつだってあげた。"
+          "kanji": "宿題が分からない妹を手伝ってやった。",
+          "hiragana_full": "しゅくだいがわからないいもうとをてつだってやった。"
         }
       ],
       "audio_eligible": true,
@@ -52,120 +52,120 @@
     },
     {
       "id": "n4_006_2",
-      "example_sentence": "友達に日本語を教えてあげます。",
-      "translation": "I will teach Japanese to my friend.",
-      "blank_target": "て",
+      "example_sentence": "日本に来たばかりの留学生に、私が町を案内してあげます。",
+      "translation": "I'll show the international student who just arrived in Japan around town.",
+      "blank_target": "あげます",
       "wrong_choices": [
-        "ながら",
-        "たら",
-        "ば"
+        "もらいます",
+        "くれます",
+        "くださいます"
       ],
       "wrong_choice_explanations": [
-        "ながら means 'while doing simultaneously' — it doesn't fit the benefactive meaning of doing something for someone.",
-        "たら expresses conditional 'if/when' — it doesn't create the pattern for doing favors for others.",
-        "ば is a conditional form meaning 'if' — it can't express the act of doing something beneficial for someone."
+        "もらいます would mean I get the student to show me around — but the student just arrived, and 私が marks me as the one guiding.",
+        "くれます is for someone doing a favor for me; it can't take the speaker (私が) as its subject.",
+        "くださいます is the honorific くれます (a superior doing me a favor). The speaker can't be its subject, and here I'm doing the favor."
       ],
-      "hiragana_full": "ともだちににほんごをおしえてあげます。",
+      "hiragana_full": "にほんにきたばかりのりゅうがくせいに、わたしがまちをあんないしてあげます。",
       "audio_alternatives": [
         {
-          "kanji": "友達に日本語を教えます。",
-          "hiragana_full": "ともだちににほんごをおしえます。"
+          "kanji": "日本に来たばかりの留学生に、町を案内します。",
+          "hiragana_full": "にほんにきたばかりのりゅうがくせいに、まちをあんないします。"
         },
         {
-          "kanji": "友達のために日本語を教えてあげます。",
-          "hiragana_full": "ともだちのためににほんごをおしえてあげます。"
+          "kanji": "来たばかりの留学生のために、私が町を案内してあげます。",
+          "hiragana_full": "きたばかりのりゅうがくせいのために、わたしがまちをあんないしてあげます。"
         }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
         {
-          "word": "友達",
-          "reading": "ともだち",
-          "meaning": "friend"
+          "word": "留学生",
+          "reading": "りゅうがくせい",
+          "meaning": "international student"
         },
         {
-          "word": "日本語",
-          "reading": "にほんご",
-          "meaning": "Japanese (language)"
+          "word": "町",
+          "reading": "まち",
+          "meaning": "town"
         },
         {
-          "word": "教える",
-          "reading": "おしえる",
-          "meaning": "teach"
+          "word": "案内する",
+          "reading": "あんないする",
+          "meaning": "show around; guide"
         }
       ]
     },
     {
       "id": "n4_006_3",
-      "example_sentence": "母に料理を作ってあげよう。",
-      "translation": "Let's cook for mother.",
-      "blank_target": "て",
+      "example_sentence": "母の誕生日に、私がケーキを作ってあげた。",
+      "translation": "I made a cake for my mother on her birthday.",
+      "blank_target": "あげた",
       "wrong_choices": [
-        "から",
-        "ので",
-        "けれど"
+        "もらった",
+        "くれた",
+        "くださった"
       ],
       "wrong_choice_explanations": [
-        "から means 'because/from' — it expresses reason or starting point, not beneficial actions for others.",
-        "ので means 'because/since' — it shows cause and effect, not doing favors for someone.",
-        "けれど means 'but/however' — it contrasts ideas rather than expressing beneficial actions."
+        "もらった would mean I had someone make a cake for me — the opposite of what happened, since I made it for my mother.",
+        "くれた is for someone else doing a favor for me; with 私が as the subject it doesn't work.",
+        "くださった is the honorific くれた, for a superior's favor toward me. I'm the one giving here, so it doesn't fit."
       ],
-      "hiragana_full": "ははにりょうりをつくってあげよう。",
+      "hiragana_full": "ははのたんじょうびに、わたしがけーきをつくってあげた。",
       "audio_alternatives": [
         {
-          "kanji": "お母さんに料理を作ってあげよう。",
-          "hiragana_full": "おかあさんにりょうりをつくってあげよう。"
+          "kanji": "母の誕生日にケーキを作った。",
+          "hiragana_full": "ははのたんじょうびにけーきをつくった。"
         },
         {
-          "kanji": "母のために料理を作ってあげよう。",
-          "hiragana_full": "ははのためにりょうりをつくってあげよう。"
+          "kanji": "誕生日のお母さんにケーキを作ってあげた。",
+          "hiragana_full": "たんじょうびのおかあさんにけーきをつくってあげた。"
         }
       ],
       "audio_eligible": true,
       "register": "casual",
       "vocab": [
         {
-          "word": "母",
-          "reading": "はは",
-          "meaning": "mother"
+          "word": "誕生日",
+          "reading": "たんじょうび",
+          "meaning": "birthday"
         },
         {
-          "word": "料理",
-          "reading": "りょうり",
-          "meaning": "cooking; a dish"
+          "word": "ケーキ",
+          "reading": "けーき",
+          "meaning": "cake"
         },
         {
           "word": "作る",
           "reading": "つくる",
-          "meaning": "make; cook"
+          "meaning": "make"
         }
       ]
     },
     {
       "id": "n4_006_4",
-      "example_sentence": "子供に本を読んであげる。",
-      "translation": "I read books to the children.",
-      "blank_target": "で",
+      "example_sentence": "子供が眠れないので、私が本を読んであげる。",
+      "translation": "My child can't sleep, so I'll read them a book.",
+      "blank_target": "あげる",
       "wrong_choices": [
-        "が",
-        "まで",
-        "だけ"
+        "もらう",
+        "くれる",
+        "くださる"
       ],
       "wrong_choice_explanations": [
-        "が marks the subject or expresses contrast — it doesn't connect verbs to あげる in the benefactive pattern.",
-        "まで means 'until/up to' — it indicates limits of time or distance, not beneficial actions for others.",
-        "だけ means 'only' — it shows limitation, not the connection needed for doing favors."
+        "もらう would mean I have someone read to me — but it's the child who can't sleep, and I'm the reader.",
+        "くれる means someone does a favor for me; it can't take 私が as its subject.",
+        "くださる is the honorific くれる (a superior doing me a favor) — wrong direction, and the speaker can't be its subject."
       ],
-      "hiragana_full": "こどもにほんをよんであげる。",
+      "hiragana_full": "こどもがねむれないので、わたしがほんをよんであげる。",
       "audio_alternatives": [
         {
-          "kanji": "子供に本を読んでやる。",
-          "hiragana_full": "こどもにほんをよんでやる。"
+          "kanji": "子供が寝られないので、本を読んでやる。",
+          "hiragana_full": "こどもがねられないので、ほんをよんでやる。"
         },
         {
-          "kanji": "子供たちに本を読んであげる。",
-          "hiragana_full": "こどもたちにほんをよんであげる。"
+          "kanji": "眠れない子供に本を読んであげる。",
+          "hiragana_full": "ねむれないこどもにほんをよんであげる。"
         }
       ],
       "audio_eligible": true,
@@ -177,9 +177,9 @@
           "meaning": "child"
         },
         {
-          "word": "本",
-          "reading": "ほん",
-          "meaning": "book"
+          "word": "眠る",
+          "reading": "ねむる",
+          "meaning": "sleep"
         },
         {
           "word": "読む",
@@ -190,42 +190,42 @@
     },
     {
       "id": "n4_006_5",
-      "example_sentence": "先生の荷物を持ってあげました。",
-      "translation": "I carried the teacher's luggage for them.",
-      "blank_target": "て",
+      "example_sentence": "おばあさんの荷物が重そうだったので、私が持ってあげました。",
+      "translation": "The elderly woman's bags looked heavy, so I carried them for her.",
+      "blank_target": "あげました",
       "wrong_choices": [
-        "ても",
-        "ては",
-        "たり"
+        "もらいました",
+        "くれました",
+        "くださいました"
       ],
       "wrong_choice_explanations": [
-        "ても means 'even if' — it expresses concession, not the act of doing something beneficial for someone.",
-        "ては can mean 'if you do' or indicate repeated action — it doesn't create the benefactive てあげる pattern.",
-        "たり is used to list examples of actions — it doesn't form the pattern for doing favors."
+        "もらいました would mean I had someone carry them for me — but the bags were hers and I did the carrying.",
+        "くれました is for someone doing a favor for me; it can't follow 私が.",
+        "くださいました is the honorific くれました, used when a superior does something for me. Here I'm helping her, so the direction is wrong."
       ],
-      "hiragana_full": "せんせいのにもつをもってあげました。",
+      "hiragana_full": "おばあさんのにもつがおもそうだったので、わたしがもってあげました。",
       "audio_alternatives": [
         {
-          "kanji": "先生の荷物を運んであげました。",
-          "hiragana_full": "せんせいのにもつをはこんであげました。"
+          "kanji": "おばあさんの荷物が重そうだったので、持ちました。",
+          "hiragana_full": "おばあさんのにもつがおもそうだったので、もちました。"
         },
         {
-          "kanji": "先生のために荷物を持ちました。",
-          "hiragana_full": "せんせいのためににもつをもちました。"
+          "kanji": "重そうな荷物を、おばあさんのために持ってあげました。",
+          "hiragana_full": "おもそうなにもつを、おばあさんのためにもってあげました。"
         }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
         {
-          "word": "先生",
-          "reading": "せんせい",
-          "meaning": "teacher"
-        },
-        {
           "word": "荷物",
           "reading": "にもつ",
           "meaning": "luggage; bags"
+        },
+        {
+          "word": "重い",
+          "reading": "おもい",
+          "meaning": "heavy"
         },
         {
           "word": "持つ",
@@ -236,28 +236,28 @@
     },
     {
       "id": "n4_006_6",
-      "example_sentence": "彼女の車を洗ってあげる予定です。",
-      "translation": "I plan to wash her car for her.",
-      "blank_target": "て",
+      "example_sentence": "彼女の車が汚れていたので、私が洗ってあげる予定です。",
+      "translation": "My girlfriend's car was dirty, so I'm planning to wash it for her.",
+      "blank_target": "あげる",
       "wrong_choices": [
-        "ちゃう",
-        "しまう",
-        "いる"
+        "もらう",
+        "くれる",
+        "くださる"
       ],
       "wrong_choice_explanations": [
-        "ちゃう (casual form of てしまう) means completion or regret — it doesn't express doing favors for others.",
-        "しまう indicates completion or unintended results — it doesn't create the benefactive pattern for helping someone.",
-        "いる indicates ongoing state — it doesn't connect with あげる to show beneficial actions for others."
+        "もらう would mean I plan to have someone wash it for me — but I'm the one washing her car.",
+        "くれる expresses someone doing a favor for me and can't take 私が as its subject.",
+        "くださる is the honorific くれる, for a superior's favor toward me — the wrong direction here."
       ],
-      "hiragana_full": "かのじょのくるまをあらってあげるよていです。",
+      "hiragana_full": "かのじょのくるまがよごれていたので、わたしがあらってあげるよていです。",
       "audio_alternatives": [
         {
-          "kanji": "彼女の車を洗ってあげるつもりです。",
-          "hiragana_full": "かのじょのくるまをあらってあげるつもりです。"
+          "kanji": "汚れている彼女の車を洗ってあげるつもりです。",
+          "hiragana_full": "よごれているかのじょのくるまをあらってあげるつもりです。"
         },
         {
-          "kanji": "彼女のために車を洗ってあげる予定です。",
-          "hiragana_full": "かのじょのためにくるまをあらってあげるよていです。"
+          "kanji": "彼女のために車を洗う予定です。",
+          "hiragana_full": "かのじょのためにくるまをあらうよていです。"
         }
       ],
       "audio_eligible": true,
@@ -266,12 +266,12 @@
         {
           "word": "彼女",
           "reading": "かのじょ",
-          "meaning": "she; her"
+          "meaning": "girlfriend; she"
         },
         {
-          "word": "車",
-          "reading": "くるま",
-          "meaning": "car"
+          "word": "汚れる",
+          "reading": "よごれる",
+          "meaning": "get dirty"
         },
         {
           "word": "洗う",
@@ -287,37 +287,37 @@
     },
     {
       "id": "n4_006_7",
-      "example_sentence": "祖母の買い物を手伝ってあげたい。",
-      "translation": "I want to help grandmother with her shopping.",
-      "blank_target": "て",
+      "example_sentence": "おばあちゃんは一人で買い物に行けないから、私が連れて行ってあげたい。",
+      "translation": "Grandma can't go shopping by herself, so I want to take her.",
+      "blank_target": "あげたい",
       "wrong_choices": [
-        "とき",
-        "前に",
-        "ながら"
+        "もらいたい",
+        "ほしい",
+        "くれる"
       ],
       "wrong_choice_explanations": [
-        "とき means 'when/time' — it indicates timing, not the act of doing favors for others.",
-        "前に means 'before' — it shows temporal sequence, not beneficial actions for someone.",
-        "ながら means 'while doing' — it shows simultaneous actions, not the pattern for helping someone."
+        "もらいたい means I want someone to do it for me — but grandma is the one who needs help, and 私が marks me as the helper.",
+        "ほしい (てほしい) means 'I want someone else to do it', so it can't have 私が as the one doing the action.",
+        "くれる means someone does a favor for me; it can't take 私が as its subject, and it doesn't express wanting."
       ],
-      "hiragana_full": "そぼのかいものをてつだってあげたい。",
+      "hiragana_full": "おばあちゃんはひとりでかいものにいけないから、わたしがつれていってあげたい。",
       "audio_alternatives": [
         {
-          "kanji": "祖母の買い物を手伝いたい。",
-          "hiragana_full": "そぼのかいものをてつだいたい。"
+          "kanji": "一人で買い物に行けないおばあちゃんを、連れて行ってあげたい。",
+          "hiragana_full": "ひとりでかいものにいけないおばあちゃんを、つれていってあげたい。"
         },
         {
-          "kanji": "おばあちゃんの買い物を手伝ってあげたい。",
-          "hiragana_full": "おばあちゃんのかいものをてつだってあげたい。"
+          "kanji": "おばあちゃんを買い物に連れて行きたい。",
+          "hiragana_full": "おばあちゃんをかいものにつれていきたい。"
         }
       ],
       "audio_eligible": true,
       "register": "casual",
       "vocab": [
         {
-          "word": "祖母",
-          "reading": "そぼ",
-          "meaning": "(my) grandmother"
+          "word": "一人で",
+          "reading": "ひとりで",
+          "meaning": "by oneself"
         },
         {
           "word": "買い物",
@@ -325,45 +325,45 @@
           "meaning": "shopping"
         },
         {
-          "word": "手伝う",
-          "reading": "てつだう",
-          "meaning": "help"
+          "word": "連れて行く",
+          "reading": "つれていく",
+          "meaning": "take (someone) along"
         }
       ]
     },
     {
       "id": "n4_006_8",
-      "example_sentence": "病気の友達にスープを作ってあげた。",
-      "translation": "I made soup for my sick friend.",
-      "blank_target": "て",
+      "example_sentence": "風邪をひいた友達に、スープを作ってあげた。",
+      "translation": "I made soup for my friend who caught a cold.",
+      "blank_target": "あげた",
       "wrong_choices": [
-        "つもり",
-        "はず",
-        "べき"
+        "もらった",
+        "くれた",
+        "くださった"
       ],
       "wrong_choice_explanations": [
-        "つもり means 'intention' — it expresses plans or intentions, not beneficial actions for others.",
-        "はず means 'should/expected to' — it expresses expectation, not doing favors for someone.",
-        "べき means 'should/ought to' — it expresses obligation or duty, not the pattern for helping others."
+        "もらった would mean I got my sick friend to make soup for me — the friend with a cold is the one being looked after.",
+        "くれた marks its giver with が, not に. 友達に…くれた doesn't work, and the favor here goes to the friend, not to me.",
+        "くださった is the honorific くれた, for a superior's favor toward me. It's the wrong direction and too formal for a friend."
       ],
-      "hiragana_full": "びょうきのともだちにすーぷをつくってあげた。",
+      "hiragana_full": "かぜをひいたともだちに、すーぷをつくってあげた。",
       "audio_alternatives": [
         {
-          "kanji": "病気の友達のためにスープを作ってあげた。",
-          "hiragana_full": "びょうきのともだちのためにすーぷをつくってあげた。"
+          "kanji": "風邪をひいた友達のためにスープを作った。",
+          "hiragana_full": "かぜをひいたともだちのためにすーぷをつくった。"
         },
         {
-          "kanji": "病気の友達にスープを作りました。",
-          "hiragana_full": "びょうきのともだちにすーぷをつくりました。"
+          "kanji": "風邪で寝ている友達に、スープを作ってあげた。",
+          "hiragana_full": "かぜでねているともだちに、すーぷをつくってあげた。"
         }
       ],
       "audio_eligible": true,
       "register": "casual",
       "vocab": [
         {
-          "word": "病気",
-          "reading": "びょうき",
-          "meaning": "illness; sick"
+          "word": "風邪をひく",
+          "reading": "かぜをひく",
+          "meaning": "catch a cold"
         },
         {
           "word": "友達",
@@ -374,52 +374,42 @@
           "word": "スープ",
           "reading": "すーぷ",
           "meaning": "soup"
-        },
-        {
-          "word": "作る",
-          "reading": "つくる",
-          "meaning": "make"
         }
       ]
     },
     {
       "id": "n4_006_9",
-      "example_sentence": "隣の人に道を教えてあげました。",
-      "translation": "I gave directions to my neighbor.",
-      "blank_target": "て",
+      "example_sentence": "駅への道が分からない人がいたので、私が教えてあげました。",
+      "translation": "There was someone who didn't know the way to the station, so I told them.",
+      "blank_target": "あげました",
       "wrong_choices": [
-        "そう",
-        "よう",
-        "みたい"
+        "もらいました",
+        "くれました",
+        "くださいました"
       ],
       "wrong_choice_explanations": [
-        "そう means 'seems/looks like' — it shows appearance or hearsay, not the pattern for helping others.",
-        "よう means 'like/way' — it shows resemblance or method, not beneficial actions for others.",
-        "みたい means 'like/seems' — it shows resemblance or appearance, not doing favors for someone."
+        "もらいました would mean someone told me the way — but the other person was lost, and 私が marks me as the one telling.",
+        "くれました is for someone doing a favor for me; the speaker can't be its subject.",
+        "くださいました is the honorific くれました (a superior doing me a favor) — the wrong direction here."
       ],
-      "hiragana_full": "となりのひとにみちをおしえてあげました。",
+      "hiragana_full": "えきへのみちがわからないひとがいたので、わたしがおしえてあげました。",
       "audio_alternatives": [
         {
-          "kanji": "隣の人に道を教えました。",
-          "hiragana_full": "となりのひとにみちをおしえました。"
+          "kanji": "駅への道が分からない人に、道を教えました。",
+          "hiragana_full": "えきへのみちがわからないひとに、みちをおしえました。"
         },
         {
-          "kanji": "お隣さんに道を教えてあげました。",
-          "hiragana_full": "おとなりさんにみちをおしえてあげました。"
+          "kanji": "道に迷っている人がいたので、駅までの道を教えてあげました。",
+          "hiragana_full": "みちにまよっているひとがいたので、えきまでのみちをおしえてあげました。"
         }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
         {
-          "word": "隣",
-          "reading": "となり",
-          "meaning": "next door"
-        },
-        {
-          "word": "人",
-          "reading": "ひと",
-          "meaning": "person"
+          "word": "駅",
+          "reading": "えき",
+          "meaning": "station"
         },
         {
           "word": "道",
@@ -435,28 +425,28 @@
     },
     {
       "id": "n4_006_10",
-      "example_sentence": "息子の部屋を掃除してあげよう。",
-      "translation": "I'll clean my son's room for him.",
-      "blank_target": "て",
+      "example_sentence": "息子が熱を出したので、今日は私が部屋を掃除してあげることにした。",
+      "translation": "My son has a fever, so I decided to clean his room for him today.",
+      "blank_target": "あげる",
       "wrong_choices": [
-        "たがる",
-        "がる",
-        "らしい"
+        "もらう",
+        "くれる",
+        "くださる"
       ],
       "wrong_choice_explanations": [
-        "たがる means 'want to do' (third person) — it expresses others' desires, not doing beneficial actions.",
-        "がる shows emotional states in others — it doesn't create the pattern for doing favors for someone.",
-        "らしい means 'seems/apparently' — it expresses hearsay or appearance, not beneficial actions."
+        "もらう would mean I decided to have someone clean it for me — but I'm doing it for my sick son.",
+        "くれる means someone does a favor for me; it can't take 私が as its subject.",
+        "くださる is the honorific くれる, for a superior's favor toward me. It's the wrong direction, and you wouldn't use honorifics about yourself."
       ],
-      "hiragana_full": "むすこのへやをそうじしてあげよう。",
+      "hiragana_full": "むすこがねつをだしたので、きょうはわたしがへやをそうじしてあげることにした。",
       "audio_alternatives": [
         {
-          "kanji": "息子の部屋を掃除してあげます。",
-          "hiragana_full": "むすこのへやをそうじしてあげます。"
+          "kanji": "熱を出した息子のために、部屋を掃除することにした。",
+          "hiragana_full": "ねつをだしたむすこのために、へやをそうじすることにした。"
         },
         {
-          "kanji": "息子のために部屋を掃除してあげよう。",
-          "hiragana_full": "むすこのためにへやをそうじしてあげよう。"
+          "kanji": "息子が熱を出したから、今日は部屋を掃除してあげよう。",
+          "hiragana_full": "むすこがねつをだしたから、きょうはへやをそうじしてあげよう。"
         }
       ],
       "audio_eligible": true,
@@ -468,9 +458,9 @@
           "meaning": "(my) son"
         },
         {
-          "word": "部屋",
-          "reading": "へや",
-          "meaning": "room"
+          "word": "熱を出す",
+          "reading": "ねつをだす",
+          "meaning": "run a fever"
         },
         {
           "word": "掃除する",

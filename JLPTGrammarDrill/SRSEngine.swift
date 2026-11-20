@@ -1,4 +1,5 @@
 import Foundation
+import SwiftData
 import SwiftFSRS
 
 /// Shared FSRS scheduler. SwiftFSRS' `ShortTermScheduler()` initializer is
@@ -67,5 +68,36 @@ struct SRSEngine {
             correctDelta: correct ? 1 : 0,
             reviewTime: reviewTime
         )
+    }
+
+    /// Fast-forward a pattern to a long interval, as if it had been answered
+    /// correctly ten times over the past month. Used by "Mark as Known" in the
+    /// browser and during a drill session.
+    static func markKnown(grammarId: String, context: ModelContext) {
+        let descriptor = FetchDescriptor<SRSRecord>(
+            predicate: #Predicate { $0.grammarId == grammarId }
+        )
+        let record = (try? context.fetch(descriptor).first) ?? {
+            let r = SRSRecord(grammarId: grammarId)
+            context.insert(r)
+            return r
+        }()
+        var card = Card()
+        let now = Date()
+        for i in 0..<10 {
+            let reviewDate = now.addingTimeInterval(-Double(10 - i) * 86400 * 3)
+            let review = fsrsScheduler.schedule(
+                card: card,
+                algorithm: FSRSAlgorithm.v5,
+                reviewRating: .good,
+                reviewTime: reviewDate
+            )
+            card = review.postReviewCard
+        }
+        record.update(from: card)
+        record.totalAttempts = max(record.totalAttempts, 10)
+        record.totalCorrect = max(record.totalCorrect, 10)
+        record.lastStudied = now
+        try? context.save()
     }
 }

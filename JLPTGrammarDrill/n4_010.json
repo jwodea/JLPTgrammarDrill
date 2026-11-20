@@ -241,28 +241,28 @@
     },
     {
       "id": "n4_010_6",
-      "example_sentence": "母が美味しい夕食を作ってくれました。",
+      "example_sentence": "母が私のために美味しい夕食を作ってくれました。",
       "translation": "My mother made a delicious dinner for me.",
-      "blank_target": "て",
+      "blank_target": "くれました",
       "wrong_choices": [
-        "ながら",
-        "ので",
-        "から"
+        "もらいました",
+        "あげました",
+        "やりました"
       ],
       "wrong_choice_explanations": [
-        "ながら means 'while doing simultaneously' — it doesn't express receiving beneficial actions from someone.",
-        "ので means 'because/since' — it shows cause and effect, not receiving favors from others.",
-        "から means 'because/from' — it expresses reason or starting point, not beneficial actions received."
+        "もらいました would make 母 the receiver — she'd be having someone else cook. With 母が as the giver and me as the beneficiary, use くれました.",
+        "あげました is for favors going away from me. You can't use it when the favor comes to me (私のために).",
+        "やりました is a blunt あげました, for doing favors for others. It can't describe a favor done for the speaker."
       ],
-      "hiragana_full": "はははおいしいゆうしょくをつくってくれました。",
+      "hiragana_full": "ははがわたしのためにおいしいゆうしょくをつくってくれました。",
       "audio_alternatives": [
         {
-          "kanji": "母が美味しい夕ご飯を作ってくれました。",
-          "hiragana_full": "ははがおいしいゆうごはんをつくってくれました"
+          "kanji": "母に美味しい夕食を作ってもらいました。",
+          "hiragana_full": "ははにおいしいゆうしょくをつくってもらいました。"
         },
         {
-          "kanji": "母が美味しい夕食を作ってくれた。",
-          "hiragana_full": "ははがおいしいゆうしょくをつくってくれた"
+          "kanji": "母が私に美味しい晩ご飯を作ってくれました。",
+          "hiragana_full": "ははがわたしにおいしいばんごはんをつくってくれました。"
         }
       ],
       "audio_eligible": true,
@@ -271,7 +271,7 @@
         {
           "word": "母",
           "reading": "はは",
-          "meaning": "mother"
+          "meaning": "(my) mother"
         },
         {
           "word": "美味しい",
@@ -282,38 +282,33 @@
           "word": "夕食",
           "reading": "ゆうしょく",
           "meaning": "dinner"
-        },
-        {
-          "word": "作る",
-          "reading": "つくる",
-          "meaning": "make"
         }
       ]
     },
     {
       "id": "n4_010_7",
       "example_sentence": "彼が重い荷物を運んでくれた。",
-      "translation": "He carried the heavy luggage for me.",
-      "blank_target": "で",
+      "translation": "He carried my heavy bags for me.",
+      "blank_target": "が",
       "wrong_choices": [
-        "を",
         "に",
-        "が"
+        "を",
+        "で"
       ],
       "wrong_choice_explanations": [
-        "を marks direct objects — it doesn't connect verbs to form the てくれる pattern for receiving favors.",
-        "に indicates direction or indirect object — it doesn't connect verbs to くれる for receiving benefits.",
-        "が marks subjects — it doesn't connect verbs to express receiving beneficial actions."
+        "に marks the giver with てもらう (彼に運んでもらった), but てくれる needs the giver marked with が.",
+        "を would make 彼 the thing being carried — but the bags are the object.",
+        "で marks place or means, not the person doing the favor."
       ],
       "hiragana_full": "かれがおもいにもつをはこんでくれた。",
       "audio_alternatives": [
         {
-          "kanji": "彼は重い荷物を運んでくれた。",
-          "hiragana_full": "かれはおもいにもつをはこんでくれた。"
+          "kanji": "彼に重い荷物を運んでもらった。",
+          "hiragana_full": "かれにおもいにもつをはこんでもらった。"
         },
         {
-          "kanji": "彼が重い荷物を持って運んでくれた。",
-          "hiragana_full": "かれがおもいにもつをもってはこんでくれた。"
+          "kanji": "重い荷物を彼が持ってくれた。",
+          "hiragana_full": "おもいにもつをかれがもってくれた。"
         }
       ],
       "audio_eligible": true,
@@ -322,7 +317,7 @@
         {
           "word": "彼",
           "reading": "かれ",
-          "meaning": "he"
+          "meaning": "he; boyfriend"
         },
         {
           "word": "重い",
@@ -332,7 +327,7 @@
         {
           "word": "荷物",
           "reading": "にもつ",
-          "meaning": "luggage"
+          "meaning": "luggage; bags"
         },
         {
           "word": "運ぶ",
@@ -343,37 +338,42 @@
     },
     {
       "id": "n4_010_8",
-      "example_sentence": "姉が駅まで送ってくれます。",
-      "translation": "My sister will take me to the station.",
-      "blank_target": "て",
+      "example_sentence": "雨の日は、姉が私を駅まで送ってくれます。",
+      "translation": "On rainy days, my older sister gives me a ride to the station.",
+      "blank_target": "くれます",
       "wrong_choices": [
-        "ては",
-        "でも",
-        "だけ"
+        "もらいます",
+        "あげます",
+        "やります"
       ],
       "wrong_choice_explanations": [
-        "ては can mean 'if you do' or indicate repeated action — it doesn't create the benefactive てくれる pattern.",
-        "でも means 'but/even' — it shows contrast, not the pattern for receiving help from others.",
-        "だけ means 'only/just' — it shows limitation, not receiving beneficial actions from someone."
+        "もらいます would make 姉 the receiver of the favor, which doesn't fit 姉が…私を送って. With 姉 as the giver, use くれます.",
+        "あげます is for favors going away from me. You can't use it when I'm the one being driven (私を).",
+        "やります is a blunt あげます for favors toward others. It can't describe a favor done for the speaker."
       ],
-      "hiragana_full": "あねがえきまでおくってくれます。",
+      "hiragana_full": "あめのひは、あねがわたしをえきまでおくってくれます。",
       "audio_alternatives": [
         {
-          "kanji": "姉が駅まで送ってくれる。",
-          "hiragana_full": "あねがえきまでおくってくれる。"
+          "kanji": "雨の日は、姉に駅まで送ってもらいます。",
+          "hiragana_full": "あめのひは、あねにえきまでおくってもらいます。"
         },
         {
-          "kanji": "姉は駅まで送ってくれます。",
-          "hiragana_full": "あねはえきまでおくってくれます。"
+          "kanji": "雨の日は、姉が駅まで車で送ってくれます。",
+          "hiragana_full": "あめのひは、あねがえきまでくるまでおくってくれます。"
         }
       ],
       "audio_eligible": true,
       "register": "neutral",
       "vocab": [
         {
+          "word": "雨",
+          "reading": "あめ",
+          "meaning": "rain"
+        },
+        {
           "word": "姉",
           "reading": "あね",
-          "meaning": "older sister"
+          "meaning": "(my) older sister"
         },
         {
           "word": "駅",
@@ -383,34 +383,34 @@
         {
           "word": "送る",
           "reading": "おくる",
-          "meaning": "take (someone somewhere)"
+          "meaning": "give (someone) a ride"
         }
       ]
     },
     {
       "id": "n4_010_9",
-      "example_sentence": "医者が親切に診察してくれました。",
-      "translation": "The doctor kindly examined me.",
-      "blank_target": "て",
+      "example_sentence": "医者が私の話を丁寧に聞いてくれました。",
+      "translation": "The doctor listened carefully to what I had to say.",
+      "blank_target": "くれました",
       "wrong_choices": [
-        "とき",
-        "うち",
-        "間"
+        "もらいました",
+        "あげました",
+        "やりました"
       ],
       "wrong_choice_explanations": [
-        "とき means 'when/time' — it indicates timing, not receiving beneficial actions from someone.",
-        "うち means 'while/during' — it shows time periods, not the pattern for receiving favors.",
-        "間 means 'between/during' — it indicates duration or intervals, not beneficial actions received."
+        "もらいました would make 医者 the receiver of the favor. The doctor is the one listening, as a favor to me, so use くれました.",
+        "あげました is for favors going away from me, but the doctor listening to my story is a favor to me.",
+        "やりました is a blunt あげました for favors toward others — the wrong direction, and rude about a doctor."
       ],
-      "hiragana_full": "いしゃがしんせつにしんさつしてくれました。",
+      "hiragana_full": "いしゃがわたしのはなしをていねいにきいてくれました。",
       "audio_alternatives": [
         {
-          "kanji": "医者が親切に診てくれました。",
-          "hiragana_full": "いしゃがしんせつにみてくれました"
+          "kanji": "医者に話を丁寧に聞いてもらいました。",
+          "hiragana_full": "いしゃにはなしをていねいにきいてもらいました。"
         },
         {
-          "kanji": "医者は親切に診察してくれました。",
-          "hiragana_full": "いしゃはしんせつにしんさつしてくれました"
+          "kanji": "お医者さんが私の話をよく聞いてくれました。",
+          "hiragana_full": "おいしゃさんがわたしのはなしをよくきいてくれました。"
         }
       ],
       "audio_eligible": true,
@@ -422,65 +422,65 @@
           "meaning": "doctor"
         },
         {
-          "word": "親切に",
-          "reading": "しんせつに",
-          "meaning": "kindly"
+          "word": "話",
+          "reading": "はなし",
+          "meaning": "what someone says; story"
         },
         {
-          "word": "診察する",
-          "reading": "しんさつする",
-          "meaning": "examine (a patient)"
+          "word": "丁寧に",
+          "reading": "ていねいに",
+          "meaning": "carefully; politely"
         }
       ]
     },
     {
       "id": "n4_010_10",
-      "example_sentence": "祖父が昔の話を聞かせてくれます。",
-      "translation": "My grandfather tells me old stories.",
-      "blank_target": "て",
+      "example_sentence": "道に迷っていたら、知らない人が地図を描いてくれた。",
+      "translation": "When I was lost, a stranger drew me a map.",
+      "blank_target": "くれた",
       "wrong_choices": [
-        "たり",
-        "なり",
-        "そう"
+        "もらった",
+        "あげた",
+        "やった"
       ],
       "wrong_choice_explanations": [
-        "たり is used to list examples of actions — it doesn't create the benefactive pattern for receiving favors.",
-        "なり means 'or/as soon as' — it shows alternatives or sequence, not the pattern for receiving help.",
-        "そう means 'seems/looks like' — it expresses appearance or hearsay, not beneficial actions received."
+        "もらった would make the stranger the receiver. With 知らない人が as the giver and me (the lost one) benefiting, use くれた.",
+        "あげた is for favors going away from me, but the map was drawn for me because I was lost.",
+        "やった is a blunt あげた for favors toward others. It can't describe a favor done for the speaker."
       ],
-      "hiragana_full": "そふがむかしのはなしをきかせてくれます。",
+      "hiragana_full": "みちにまよっていたら、しらないひとがちずをかいてくれた。",
       "audio_alternatives": [
         {
-          "kanji": "祖父は昔の話を聞かせてくれます。",
-          "hiragana_full": "そふはむかしのはなしをきかせてくれます"
+          "kanji": "道に迷っていたら、知らない人に地図を描いてもらった。",
+          "hiragana_full": "みちにまよっていたら、しらないひとにちずをかいてもらった。"
         },
         {
-          "kanji": "おじいさんが昔の話を聞かせてくれます。",
-          "hiragana_full": "おじいさんがむかしのはなしをきかせてくれます"
+          "kanji": "迷っていた時、知らない人が地図を描いて教えてくれた。",
+          "hiragana_full": "まよっていたとき、しらないひとがちずをかいておしえてくれた。"
         }
       ],
       "audio_eligible": true,
-      "register": "neutral",
+      "register": "casual",
       "vocab": [
         {
-          "word": "祖父",
-          "reading": "そふ",
-          "meaning": "(my) grandfather"
+          "word": "道に迷う",
+          "reading": "みちにまよう",
+          "meaning": "get lost"
         },
         {
-          "word": "昔",
-          "reading": "むかし",
-          "meaning": "the past; old times"
+          "word": "知らない人",
+          "reading": "しらないひと",
+          "meaning": "stranger"
         },
         {
-          "word": "話",
-          "reading": "はなし",
-          "meaning": "story"
+          "word": "地図",
+          "reading": "ちず",
+          "meaning": "map"
         },
         {
-          "word": "聞かせる",
-          "reading": "きかせる",
-          "meaning": "tell"
+          "word": "描く",
+          "reading": "かく",
+          "meaning": "draw"
         }
       ]
     }

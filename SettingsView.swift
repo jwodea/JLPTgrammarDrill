@@ -10,6 +10,7 @@ struct SettingsView: View {
 
     @AppStorage(FontSizeManager.scaleKey) private var fontScale = FontSizeManager.defaultScale
     @AppStorage(SessionBuilder.defaultNewCountKey) private var defaultNewCount = SessionBuilder.defaultNewCount
+    @AppStorage(DailyPlanner.dailyGoalKey) private var dailyGoal = DailyPlanner.defaultDailyGoal
     @AppStorage(SettingsView.combinedDrillsKey) private var combinedDrills = false
     @AppStorage(AudioDrillSettings.voiceIdentifierKey) private var voiceIdentifier = AudioDrillSettings.defaultVoiceIdentifier
     @Environment(\.dismiss) private var dismiss
@@ -129,9 +130,20 @@ struct SettingsView: View {
                 }
 
                 Section {
+                    Stepper(value: $dailyGoal, in: 10...40, step: 5) {
+                        HStack {
+                            Text("Daily goal")
+                                .font(.system(size: 15))
+                            Spacer()
+                            Text("\(dailyGoal) patterns")
+                                .font(.system(size: 15, weight: .medium))
+                                .foregroundStyle(Theme.inkMuted)
+                        }
+                    }
+
                     Stepper(value: $defaultNewCount, in: 1...5) {
                         HStack {
-                            Text("Default new patterns")
+                            Text("New patterns per session")
                                 .font(.system(size: 15))
                             Spacer()
                             Text("\(defaultNewCount)")
@@ -145,8 +157,11 @@ struct SettingsView: View {
                 } header: {
                     Text("Study")
                 } footer: {
-                    if combinedDrills {
-                        Text("Grammar and particle exercises will be mixed together in Grammar Drill sessions.")
+                    VStack(alignment: .leading, spacing: 6) {
+                        Text("Each day the app fits new patterns around your reviews to reach the daily goal, and slows down when accuracy drops.")
+                        if combinedDrills {
+                            Text("Grammar and particle exercises will be mixed together in Grammar Drill sessions.")
+                        }
                     }
                 }
 
